@@ -1,0 +1,19 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->
+Unsubscribes events and unlinks DataStore. Call this method only if you created DataSource yourself directly.
+<!--/d-->
+===================================================================
+===================================================================
+
+<!--shortDescription-->
+Disposes of all resources associated with this PivotGridDataSource.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+Use this method only if you created the DataSource manually (not using a widget).
+<!--/fullDescription-->

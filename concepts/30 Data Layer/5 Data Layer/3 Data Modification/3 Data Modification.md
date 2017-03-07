@@ -1,0 +1,24 @@
+﻿For read-write access to data, use a [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) directly in addition to the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). You have two opportunities to obtain a Store instance.
+
+Create a Store instance explicitly.
+
+    <!--JavaScript-->
+    var store = new DevExpress.data.ArrayStore({
+        key: "id",
+        data: [
+            {
+                id: 1,
+                value: "value 1"
+            },
+            {
+                id: 2,
+                value: "value 2"
+            }
+        ]
+    });
+
+Note that it is necessary to specify the [key](/Documentation/ApiReference/Data_Layer/ArrayStore/Configuration/#key) expression to identify data items.
+
+To load data from this Store either call **store.load(loadOptions)** or [wrap this Store with the DataSource](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/From_Store).
+
+If you already have an existing DataSource, you can obtain the underlying Store instance via the [store()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#store) method.

@@ -1,0 +1,8 @@
+﻿<div class="button" data-bind="dxButton:{ text: 'Show standard load indicator', onClick: showStandardIndicator }"></div>
+<div class="button" data-bind="dxButton:{ text: 'Show custom load indicator', onClick: showCustomIndicator }"></div>
+<div class="indicator" data-bind="dxLoadIndicator:{
+    visible: loadIndicatorVisible,
+    indicatorSrc: src,
+    width: size,
+    height: size
+}"></div>

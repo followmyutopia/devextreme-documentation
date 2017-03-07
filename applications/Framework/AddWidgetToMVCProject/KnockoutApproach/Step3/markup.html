@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Configuring a Widget - Knockout Approach</title>
+        <meta charset="utf-8" />
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-1.11.3.min.js"></script>
+        <![endif]-->
+        <!--[if gte IE 9]><!-->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-2.2.3.min.js"></script>
+        <!--<![endif]-->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/knockout-3.4.0.js"></script>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/dx.web.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/css/dx.light.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div data-bind="dxButton: {
+            text: 'Generate random value',
+            <!--//highlight-->
+            onClick: clickHandler
+            <!--//highlight-->
+        }"></div>
+        <!--//highlight-->
+        <p>Random value: <b data-bind="text: randomValue"></b></p>
+        <!--//highlight-->
+    </body>
+</html>

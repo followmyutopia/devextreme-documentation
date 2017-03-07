@@ -1,0 +1,52 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->An action performed when cancel button is clicked.<!--/d-->
+<!--EventForAction-->..\4 Events\cancelClick.md<!--/EventForAction-->
+===========================================================================
+<!--default-->null<!--/default-->
+<!--type-->function | string<!--/type-->
+<!--fp1d-->Provides function parameters<!--/fp1d-->
+<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
+<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
+<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
+<!--fp1_field4d-->Indicates whether to cancel hiding the action sheet menu when clicking the Cancel button<!--/fp1_field4d-->
+===========================================================================
+
+<!--shortDescription-->
+A handler for the [cancelClick](/Documentation/ApiReference/UI_Widgets/dxActionSheet/Events/#cancelClick) event.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+Assign a function to perform a custom action when clicking the Cancel button. Use the **cancel** field of the object passed as a function parameter. Set this field to *true* to prohibit the hiding of the action sheet menu when an end user clicks the Cancel button on it.
+
+To navigate to a specific URL when the **cancelClick** event fires, assign that URL or the anchor part (#) of that URL directly to this option as a string.
+<!--/fullDescription-->
+<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
+<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamDescription1-->
+Provides function parameters.
+<!--/typeFunctionParamDescription1-->
+<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamDescription1_field1-->
+Provides access to the widget instance.
+<!--/typeFunctionParamDescription1_field1-->
+<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamDescription1_field2-->
+Indicates whether or not to cancel hiding the action sheet menu when clicking the Cancel button.
+<!--/typeFunctionParamDescription1_field2-->
+<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
+<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamDescription1_field3-->
+Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
+<!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamName1_field4-->cancel<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->boolean<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamDescription1_field4-->
+Specifies whether or not to cancel hiding the action sheet.
+<!--/typeFunctionParamDescription1_field4-->

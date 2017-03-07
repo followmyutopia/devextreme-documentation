@@ -1,0 +1,42 @@
+﻿.iconSet-item
+{
+    box-sizing: border-box;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 12px 4px 8px;
+    color: white;
+    text-shadow: none;
+    font-size: 12px;
+}
+
+.dx-theme-ios7 .iconSet-item,
+.dx-theme-win10.dx-color-scheme-white .iconSet-item,
+.dx-theme-android5.dx-color-scheme-light .iconSet-item,
+.dx-theme-tizen.dx-color-scheme-white .iconSet-item,
+.dx-theme-generic.dx-color-scheme-light .iconSet-item {
+    color: black;
+}
+
+.iconSet-imageBox
+{    
+    padding-bottom: 2px;
+}
+
+.dx-viewport .iconSet-imageBox span[class*="dx-icon"]
+{
+    font-size: 31px;
+}
+
+.dx-viewport.dx-theme-ios7 .iconSet-imageBox span[class*="dx-icon"]
+{
+    color: #0179ff;
+}
+.dx-viewport.dx-theme-android5.dx-color-scheme-light .iconSet-imageBox span[class*="dx-icon"]
+{
+    color: #828282;
+}
+.dx-viewport.dx-theme-generic.dx-color-scheme-light .iconSet-imageBox span[class*="dx-icon"]
+{
+    color: #676565;
+}

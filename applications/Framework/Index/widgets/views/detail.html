@@ -1,0 +1,36 @@
+﻿<div data-options="dxView : { name: 'detail', title: 'User' } ">
+    <div data-options="dxContent : { targetPlaceholder: 'content' } ">
+        <div class="content" data-bind="dxScrollView: { }">
+            <div class="dx-fieldset">
+                <div class="dx-field">
+                    <div class="dx-field-label">Name</div>
+                    <div class="dx-field-value" data-bind="dxTextBox: { value: name } "></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Active</div>
+                    <div class="dx-field-value" data-bind="dxSwitch: { value: active } "></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Birthday</div>
+                    <div class="dx-field-value" data-bind="dxDateBox: { value: birthday, format: 'date' }"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Phone</div>
+                    <div class="dx-field-value" data-bind="dxTextBox: { value: phone }"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">State</div>
+                    <div class="dx-field-value" data-bind="dxLookup: { title: 'State', dataSource: state().data, value: state().selectedValue, searchEnabled: true }"></div>
+                </div>
+                <div class="dx-field">
+                    <div class="dx-field-label">Address</div>
+                    <div class="dx-field-value" data-bind="dxTextArea: { value: address }"></div>
+                </div>
+            </div>
+            <div class="delete-button-wrapper">
+                <div data-bind="dxButton: { text: 'Delete', type: 'danger', onClick: actionsheet.showActionSheet }" class="delete-button"></div>
+            </div>
+            <div id="action_sheet" data-bind="dxActionSheet: { title: 'Action Sheet', items: actionsheet.items, showTitle: false }"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Specifies whether or not to show actionsheet in popover.<!--/d-->
+===========================================================================
+<!--default-->false<!--/default-->
+<!--custom_default_for_tablet_ios-->true<!--/custom_default_for_tablet_ios-->
+<!--type-->boolean<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies whether or not to show the action sheet within a [Popover](/Documentation/ApiReference/UI_Widgets/dxPopover/) widget.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+To display the action sheet as a popover specify an element the popover points at via the [target](/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/#target) option.
+
+
+<!--/fullDescription-->

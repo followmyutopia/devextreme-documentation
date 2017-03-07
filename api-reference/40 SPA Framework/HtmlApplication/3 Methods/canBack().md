@@ -1,0 +1,25 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->
+Returns true if navigation history contains items.
+<!--/d-->
+<!--rd-->True if navigation history contains items.<!--/rd-->
+===================================================================
+===================================================================
+
+<!--shortDescription-->
+Returns a Boolean value indicating whether or not backwards navigation is currently possible.
+<!--/shortDescription-->
+
+<!--returnType-->boolean<!--/returnType-->
+<!--returnDescription-->
+<i>true</i> if the backwards navigation is possible. Otherwise, the value is <i>false</i>.
+<!--/returnDescription-->
+
+<!--fullDescription-->
+When the navigation system operates in ['website'](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Navigation_in_Web_Apps) mode, this method always returns *true*. In ['mobileApp'](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Navigation_in_Mobile_Apps) mode, this method returns *false* if the current view is a root view in the navigation history; otherwise, it returns *true*.
+<!--/fullDescription-->

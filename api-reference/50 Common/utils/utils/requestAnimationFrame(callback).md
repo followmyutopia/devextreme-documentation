@@ -1,0 +1,43 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->
+Requests that the browser call a specified function to update an animation before the next repaint.
+<!--/d-->
+<!--p1d-->A function to call when it's time to update an animation.<!--/p1d-->
+<!--rd-->An ID of the entry in the callback list.<!--/rd-->
+===================================================================
+<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_animation_frame">animation/frame</a><!--/module-->
+<!--export-->request<!--/export-->
+===================================================================
+
+<!--shortDescription-->
+Requests that the browser call a specified function to update animation before the next repaint.
+<!--/shortDescription-->
+
+<!--paramName1-->callback<!--/paramName1-->
+<!--paramType1-->function<!--/paramType1-->
+<!--paramDescription1-->
+Specifies the function to call when it's time to update your animation for the next repaint.
+<!--/paramDescription1-->
+
+<!--returnType-->number<!--/returnType-->
+<!--returnDescription-->
+The request id that uniquely identifies the entry in the callback list.
+<!--/returnDescription-->
+
+<!--fullDescription-->
+This method acts as a normalization of the standard [requestAnimationFrame](https://developer.mozilla.org/en/docs/Web/API/window.requestAnimationFrame) method of the **window** object:
+
+    <!--JavaScript-->
+    window.requestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame ||
+    window.oRequestAnimationFrame ||
+    window.msRequestAnimationFrame
+
+If the API in the code above is not supported, the **DevExpress.utils.requestAnimationFrame(callback)** method calls the function passed as a parameter after an internally set timeout.
+<!--/fullDescription-->

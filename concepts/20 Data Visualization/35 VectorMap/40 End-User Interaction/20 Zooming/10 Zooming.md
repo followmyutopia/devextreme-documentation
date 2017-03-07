@@ -1,0 +1,5 @@
+Zooming allows the end-user to enlarge a map in order to view those parts of it that are difficult to distinguish. To zoom in and zoom out of a map, the user can scroll the mouse wheel or use the spread and pinch gestures (when using a touchscreen device). Zooming can also be performed using a zoom bar, which is a part of the [control bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/controlBar/).
+
+When zoomed, a map does not exceed the container size. Instead, it leaves only a certain region of itself visible. In order to navigate to concealed regions of the map, [panning](/Documentation/Guide/Data_Visualization/VectorMap/End-User_Interaction/#Panning) must be used.
+
+Apart from zooming in UI, **VectorMap** supplies you with several options and methods configuring and managing zooming in code. For more information about these options, navigate to the following subtopics.

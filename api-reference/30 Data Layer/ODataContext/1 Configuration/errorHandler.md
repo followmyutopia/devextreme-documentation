@@ -1,0 +1,37 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->(see Store config)<!--/d-->
+===========================================================================
+<!--type-->function<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies the function called if the ODataContext causes an error.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+The function passed to this option takes on the JavaScript **Error** object as a parameter.
+
+    <!--JavaScript-->
+    var context = new DevExpress.data.ODataContext({
+        url: "http://www.example.com/Northwind.svc",
+        errorHandler: function(error) {
+            alert(error.message);
+        },
+        entities: {
+            Categories: {
+                key: "CategoryID",
+                keyType: "Int32"
+            },
+            MyCustomers: {
+                name: "Customers",
+                key: "CustomerID",
+                keyType: "String"
+            }
+        }
+    });
+<!--/fullDescription-->

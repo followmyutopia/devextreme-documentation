@@ -1,0 +1,19 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Specifies whether user can navigate by swipe.<!--/d-->
+===========================================================================
+<!--default-->true<!--/default-->
+<!--type-->boolean<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+A Boolean value specifying whether or not to allow users to switch between items by swiping.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

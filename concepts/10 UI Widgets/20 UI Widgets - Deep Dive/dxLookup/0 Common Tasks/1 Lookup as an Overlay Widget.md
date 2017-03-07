@@ -1,0 +1,6 @@
+﻿The **Lookup** widget consists of an input element, which displays the current value and a list of available values. The value list is displayed within an overlay window. The **Lookup** widget supports options common for all overlay widgets, which enables you to adjust the overlay window parameters. Thus, the widget enables you to perform the following overlay specific tasks.
+
+- [Control widget visibility](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Overlay_Widgets/#Common_Tasks/Control_The_Widget_Visibility) using the [visible](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#visible) option.
+- [Adjust positioning parameters](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Overlay_Widgets/#Common_Tasks/Position_a_Widget) passing the appropriate object to the [position](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#position) option.
+- [Specify animation parameters](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Overlay_Widgets/#Common_Tasks/Adjust_Animation_Options) using the [animation](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#animation) configuration option
+- [Choose display modes](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Overlay_Widgets/#Common_Tasks/Display_Modes).

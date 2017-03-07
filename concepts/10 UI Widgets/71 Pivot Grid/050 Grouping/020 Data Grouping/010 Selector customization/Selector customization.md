@@ -1,0 +1,1 @@
+The data selector for fields whose [dataType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataType) is **number** or **date** is configured using the [groupInterval](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#groupInterval) option.

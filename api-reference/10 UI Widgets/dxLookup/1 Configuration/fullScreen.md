@@ -1,0 +1,21 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Specifies whether to show the dialog of widget in full-screen mode.<!--/d-->
+===========================================================================
+<!--default-->false<!--/default-->
+<!--custom_default_for_windows_phone_8-->true<!--/custom_default_for_windows_phone_8-->
+<!--custom_default_for_iPhone-->true<!--/custom_default_for_iPhone-->
+<!--type-->boolean<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+A Boolean value specifying whether or not to display the lookup in full-screen mode.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

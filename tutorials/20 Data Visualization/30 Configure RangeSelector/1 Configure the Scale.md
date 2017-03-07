@@ -1,0 +1,14 @@
+<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureRangeSelector/Step2/rangeSelector.html" data-show-first="rangeSelector.js">
+Basically, the [scale](/Documentation/Guide/Data_Visualization/RangeSelector/RangeSelector_Elements/#Scale) is the main part of **RangeSelector**. It contains labels, markers, ticks - all elements that enable the user to read visualized data. To configure the scale, define fields of the [scale](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/) object.
+
+- **Providing Data**    
+There are two ways of providing data for the scale: a data source and a pair of boundary values. This tutorial uses the latter. Find information about the former one in the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#dataSource) option description. To provide data for the scale using a pair of boundary values, specify the [startValue](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#startValue) and [endValue](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#endValue) options of the **scale** object. 
+
+- **Specifying Tick Intervals**     
+**RangeSelector** uses major and minor ticks to divide the scale. Major ticks are supplied with a label. **RangeSelector** arranges major and minor ticks in compliance with certain intervals. Usually, these intervals are calculated automatically in such a manner that prevents scale labels from overlapping. In case you need to set tick intervals explicitly, use the [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tickInterval/) option for major ticks and the [minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/minorTickInterval/) option for minor ticks.
+
+- **Setting the Initially-Selected Range**      
+By default, the whole scale appears selected when **RangeSelector** is initialized. You need to set the initial range between 11AM and 5PM, the most common time span for traveling. To do this, use the [selectedRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/selectedRange/) configuration object.
+
+If you now run this code, an entire day will appear on the scale. When moving the sliders, you will notice that they are snapped to ticks. This and several other behavior characteristics can be altered using the fields of the [behavior](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/) object. Move to the next step to customize the appearance of the **RangeSelector** widget.
+</article>

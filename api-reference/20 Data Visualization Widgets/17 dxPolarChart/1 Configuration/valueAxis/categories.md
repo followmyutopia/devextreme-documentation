@@ -1,0 +1,18 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Categories of value axis. In array may be Number|Date|String<!--/d-->
+===========================================================================
+<!--type-->array<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies the order in which discrete values are arranged on the value axis.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+If you specify the chart's data using a common array of objects, these objects may be displayed in a random order. If you set the chart's data for each series individually, the order in which the series are positioned in the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/) array can also be random. In these instances, the resulting value order on the discrete value axis may not be appropriate. To specify the order of categories (values on a discrete value axis), assign an array of category names to the **categories** property.
+<!--/fullDescription-->

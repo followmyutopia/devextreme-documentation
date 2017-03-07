@@ -1,0 +1,19 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->shadow blur<!--/d-->
+===========================================================================
+<!--default-->2<!--/default-->
+<!--type-->number<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies the blur distance of the tooltip's shadow.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+The larger the value assigned to this option, the blurrier the shadow's edge.
+<!--/fullDescription-->

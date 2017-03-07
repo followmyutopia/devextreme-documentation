@@ -1,0 +1,32 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->
+Returns value of an attribute
+<!--/d-->
+<!--p1d-->Attribute name<!--/p1d-->
+<!--rd-->The attribute value<!--/rd-->
+===================================================================
+===================================================================
+
+<!--shortDescription-->
+Gets the value of an attribute.
+<!--/shortDescription-->
+
+<!--paramName1-->name<!--/paramName1-->
+<!--paramType1-->string<!--/paramType1-->
+<!--paramDescription1-->
+The name of an attribute.
+<!--/paramDescription1-->
+
+<!--returnType-->any<!--/returnType-->
+<!--returnDescription-->
+The value of the required attribute.
+<!--/returnDescription-->
+
+<!--fullDescription-->
+The map [marker data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataSource) can contain an object of attributes assigned to the **attributes** field. These attributes can hold any information you require. To obtain the value of an attribute, call the **attribute(name)** method with the name of the required attribute passed as the parameter.
+<!--/fullDescription-->

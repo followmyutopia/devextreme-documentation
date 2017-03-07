@@ -1,0 +1,36 @@
+﻿<div class="slider" data-bind="dxSlider: {
+    min: minValue,
+    max: maxValue,
+    value: 50,
+    step: step,
+    label:{
+        position: 'bottom',
+        visible: true,
+        format: function(value) { return value + ' units'; }
+    },
+    tooltip: {
+        enabled: true,
+        position: 'bottom',
+        showMode: 'always',
+        format: function(value) { return value + ' units'; }
+    }
+}"></div><br/>
+<div class="section">
+    <div class="section-header">
+        Options
+    </div>
+    <div class="dx-fieldset">
+        <div class="dx-field">
+            <div class="dx-field-label">min</div>
+            <div class="dx-field-value" data-bind="dxNumberBox: { value: minValue, showSpinButtons: true }"></div>
+        </div>
+        <div class="dx-field">
+            <div class="dx-field-label">max</div>
+            <div class="dx-field-value" data-bind="dxNumberBox: { value: maxValue, showSpinButtons: true }"></div>
+        </div>
+        <div class="dx-field">
+            <div class="dx-field-label">step</div>
+            <div class="dx-field-value" data-bind="dxNumberBox: { min: 1, max: 100, value: step, showSpinButtons: true }"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+If you need to perform additional calculations on summary values so that you can take into account the values in the neighboring cells and analyze the trends, you can apply a post-processing function called **summary display mode**. You can use one of the predefined [summary display modes](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode) or implement your own one using the [calculateSummaryValue](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#calculateSummaryValue) option.
+
+When implementing a custom post-processing function, you can use the cell object called [Summary Cell](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Summary_Cell/), which allows you to easily collect data from the neighboring cells.
+
+At the final step of summary values processing, you can enable the [running total](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#runningTotal) feature if such processing is applicable for your data.
+
+[note] You can allow or disallow the calculation of **running total** and *variation* [summary display modes](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode) across different groups using the [allowCrossGroupCalculation](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowCrossGroupCalculation) option.

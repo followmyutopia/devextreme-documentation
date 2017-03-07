@@ -1,0 +1,5 @@
+﻿When working with collection widgets, it is often useful to filter displayed items by a specified text. DevExtreme enables you to easily implement a search in a collection widget using the DataSource search engine.
+
+To implement a search, you need to associate a collection widget with a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance that supports [search capabilities](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api), add the [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) widget used to type the search value, and update the **DataSource** search criterion each time the **TextBox** value is changed.
+
+For detailed information on search implementation, refer to the [Implement Search in a Collection Widgets](/Documentation/Tutorial/UI_Widgets/Implement_Search_in_a_Collection_Widget/#Implement_Search_in_a_Collection_Widget) tutorial.

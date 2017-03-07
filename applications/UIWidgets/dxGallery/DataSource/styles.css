@@ -1,0 +1,12 @@
+﻿body{
+  text-align: center;
+}
+.gallery{
+  margin: 10px auto;
+  height: 390px;
+  width: 90%;
+  border: 2px solid grey;
+}
+.dx-field .dx-field-label{
+  width:auto;
+}

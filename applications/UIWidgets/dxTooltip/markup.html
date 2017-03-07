@@ -1,0 +1,14 @@
+﻿<div id="button" data-bind="dxButton: { onClick: showTooltip, text: 'Show tooltip' }"></div>
+<div data-bind="dxTooltip: { 
+    visible: visible,
+    target: target
+}">
+    <p class="tt"> This is a <b data-bind="text: tooltipText"></b></p>
+</div>
+<div class="dx-fieldset">
+    <div class="dx-field">
+        <div class="dx-field-label">target</div>
+        <div class="dx-field-value" data-bind="dxSelectBox: { value: target, items: [{ text: 'Button', value: '#button' }, { text: 'Text element', value: '#target' }], valueExpr: 'value', displayExpr: 'text' }"></div>
+    </div>
+</div>
+<div id="target">You can show a tooltip for this element.</div>

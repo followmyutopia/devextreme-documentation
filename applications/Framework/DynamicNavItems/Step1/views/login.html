@@ -1,0 +1,9 @@
+﻿<div data-options="dxView : { name: 'login', title: 'Login' } " >
+    <div class="home-view"  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <!--//highlight-->
+        <p>User</p><div data-bind="dxTextBox: { value: userName }"></div>
+        <p>Password</p><div data-bind="dxTextBox: { value: password, mode: 'password' }"></div>
+        <div data-bind="dxButton: { text: 'Login', onClick: login }"></div>
+        <!--//highlight-->
+    </div>
+</div>

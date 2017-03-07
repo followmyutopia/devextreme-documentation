@@ -1,0 +1,45 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Specifies the set of layout controllers that is used to show a view in the current context<!--/d-->
+===========================================================================
+<!--default-->undefined<!--/default-->
+<!--type-->string | array<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+An array of layout controllers that should be used to show application views in the current navigation context.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+Views are displayed within a layout markup that usually contains such common elements as a navigation control and a toolbar - elements that are not related to a view but must be displayed to provide global navigation or other actions. Use the **layoutSet** option to specify which layout controllers should be used to provide appropriate layout markups for different application views and when each of these controllers should be used. The framework comes with a set of [predefined layout sets](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Ready-to-Use_Layout_Sets). In the simplest case, you can assign one of these sets to this option.
+
+    <!--JavaScript-->window.MyApp = {};
+    $(function() {
+        MyApp.app = new DevExpress.framework.html.HtmlApplication({
+            layoutSet: DevExpress.framework.html.layoutSets['navbar'],
+            namespace: MyApp
+        });
+    });
+
+In addition, you can specify a custom layout set. For this purpose, assign an array of objects providing information on the required layout controllers.
+
+    <!--JavaScript-->window.MyApp = {};
+    $(function() {
+        MyApp.app = new DevExpress.framework.html.HtmlApplication({
+            layoutSet: [
+                { platform: 'android', controller: new MyAndroidLayoutController() },
+                { platform: 'ios', controller: new MyiOSLayoutController() }
+            ],
+            namespace: MyApp
+        });
+    });
+
+#####See Also#####
+- To learn more about custom layout sets, refer to the [Custom Layout Sets](/Documentation/Guide/SPA_Framework/Built-in_Layouts#Custom_Layout_Sets) topic.
+- See step-by-step examples in the [Use a Custom Layout Set](/Documentation/Tutorial/SPA_Framework/Use_a_Custom_Layout_Set#Use_a_Custom_Layout_Set) tutorial.
+
+<!--/fullDescription-->

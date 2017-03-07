@@ -1,0 +1,27 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->
+get hover state.
+<!--/d-->
+<!--rd-->Description<!--/rd-->
+===================================================================
+===================================================================
+
+<!--shortDescription-->
+Provides information about the hover state of a point.
+<!--/shortDescription-->
+
+<!--returnType-->boolean<!--/returnType-->
+<!--returnDescription-->
+Hover state of a point.
+<!--/returnDescription-->
+
+<!--fullDescription-->
+When a point is hovered over, this method returns *true*. Otherwise, the returned value is *false*.
+
+To learn more about point and series hover operation, refer to the [Hover Handling](/Documentation/Guide/Data_Visualization/Charts/End-User_Interaction/#Hover_Handling) topic.
+<!--/fullDescription-->

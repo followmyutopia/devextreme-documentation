@@ -1,0 +1,13 @@
+﻿h1{
+    margin: 20px 0 10px;
+}
+.layout-content{
+    text-align: center;
+}
+.layout-content .dx-textbox{
+    margin: 5px auto 20px;
+}
+.layout-content .dx-button{
+    margin: 5px 2px 0;
+    width: 200px;
+}

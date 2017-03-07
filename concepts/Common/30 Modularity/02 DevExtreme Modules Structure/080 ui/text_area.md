@@ -1,0 +1,7 @@
+Exposes the **TextArea** widget.
+
+Exports:
+
+- *default* - The [TextArea](/Documentation/ApiReference/UI_Widgets/dxTextArea/) widget
+
+        require("ui/text_area")

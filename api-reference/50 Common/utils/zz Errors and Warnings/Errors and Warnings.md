@@ -1,0 +1,17 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Errors and Warnings<!--/d-->
+===========================================================================
+===========================================================================
+
+<!--shortDescription-->
+This section lists core errors and warnings that may occur in DevExtreme applications.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

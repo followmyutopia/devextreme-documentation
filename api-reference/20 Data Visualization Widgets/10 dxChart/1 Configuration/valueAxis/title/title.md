@@ -1,0 +1,33 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Title options of value axis<!--/d-->
+===========================================================================
+<!--type-->string | object<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Configures the axis title.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+The axis title is a short text displayed alongside the axis. Usually, the axis title shows units of measurement for values displayed by the axis. You can put any text in the axis title though.
+
+![DevExtreme HTML5 Charts AxisTitles](/Content/images/doc/16_1/ChartJS/visual_elements/axis_titles.png)
+
+If you assign an object to the **title** option, specifying the **text** field of this object is necessary for the axis title to be displayed. Besides the object, the **title** option accepts a string, thus providing a shortcut for setting the axis title. Therefore, this:
+
+    title: 'Axis Title'
+
+is the same as this:
+
+    title: {
+        text: 'Axis Title'
+    }
+
+#####See Also#####
+- **commonAxisSettings** | [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/title/) - configures all axis titles in the widget.
+<!--/fullDescription-->

@@ -1,0 +1,53 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Specifies the content alignment within summary cells<!--/d-->
+===========================================================================
+<!--default-->undefined<!--/default-->
+<!--acceptValues-->'left' | 'center' | 'right'<!--/acceptValues-->
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies the alignment of a summary item.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+The default alignment of a summary item depends on the [type of data](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType) that is held by the column that displays this item. The following table illustrates the dependency between the default alignment and the column data type.
+
+<div class="simple-table">
+<table>
+  <thead>
+  <tr>
+    <th>dataType</th>
+    <th>alignment</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><i>'number'</i></td>
+    <td><i>'right'</i></td>
+  </tr>
+  <tr>
+    <td><i>'boolean'</i></td>
+    <td><i>'center'</i></td>
+  </tr>
+  <tr>
+    <td><i>'string'</i></td>
+    <td><i>'left'</i></td>
+  </tr>
+  <tr>
+    <td><i>'date'</i></td>
+    <td><i>'left'</i></td>
+  </tr>
+  <tr>
+    <td><i>'guid'</i></td>
+    <td><i>'left'</i></td>
+  </tr>
+  </tbody>
+</table>
+</div>
+<!--/fullDescription-->

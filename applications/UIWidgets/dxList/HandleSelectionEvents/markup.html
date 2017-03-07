@@ -1,0 +1,10 @@
+﻿<div id="myList" style="margin: 10px;" data-bind="dxList: {
+    dataSource: listDataSource,
+    selectionMode: 'multiple',
+    onSelectionChanged: selectionChangedHandler
+}">
+    <div class="listItem" data-options="dxTemplate:{ name:'item' }">
+        <p style="font-size:larger;"><b data-bind="text: name"></b></p>
+        <p>Capital: <i data-bind="text: capital"></i></p>
+    </div>
+</div>

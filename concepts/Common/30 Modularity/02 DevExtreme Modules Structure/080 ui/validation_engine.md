@@ -1,0 +1,7 @@
+Exposes an object that serves as a namespace for the methods required to perform validation.
+
+Exports:
+
+- *default* - The [validationEngine](/Documentation/ApiReference/Common/Utils/validationEngine/) object
+
+        require("ui/validation_engine")

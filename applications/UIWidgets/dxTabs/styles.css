@@ -1,0 +1,15 @@
+﻿body{
+    text-align:center;
+}
+.view{
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border: solid 2px gray;
+    border-radius: 5px;
+}
+h1{
+    color: black !important;
+    border-bottom: solid 1px gray;
+}

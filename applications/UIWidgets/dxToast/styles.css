@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+}
+#button{
+    margin: 10px;
+}
+.dx-toast-custom{
+    border-radius:50px;
+    background-color: #EEE;
+    border: solid 2px #333;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
+.dx-theme-android .dx-toast-custom{
+    background-color: #333;
+    border-color: #EEE;
+    color: #EEE;
+}
+.dx-theme-win10 .dx-toast-custom{
+    background-color: #333;
+    border-color: #EEE;
+    color: #EEE;
+}

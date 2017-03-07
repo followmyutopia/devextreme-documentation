@@ -1,0 +1,7 @@
+<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/CreateMultiAxisChart/Step3/chart.html" data-show-first="chart.js">
+
+The chart data source has a data field that hasn't been used in any series so far. This data field - *"total"* - requires an extra value axis that will display absolute values. To define two value axis, assign an array of two objects to the [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) option. Name these value axes using the [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#name) field of each object. From now on, you can refer to each axis by its name.
+
+After that, declare the series that will use the *"total"* field as its value field. Bind this series to the *absolute* value axis using the [axis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#axis) option of the series. All the other series must be bound to the *percent* value axis using the **axis** option of the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/) object.
+
+</article>

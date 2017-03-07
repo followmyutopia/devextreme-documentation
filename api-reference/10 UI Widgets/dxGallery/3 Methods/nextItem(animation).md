@@ -1,0 +1,32 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->
+Goes to next gallery item.
+<!--/d-->
+<!--p1d-->A Boolean indicating whether to perform animation during switching.<!--/p1d-->
+<!--rd-->A Promise of jQuery Deferred object that will be resolved when the gallery items changed.<!--/rd-->
+===================================================================
+===================================================================
+
+<!--shortDescription-->
+Shows the next gallery item.
+<!--/shortDescription-->
+
+<!--paramName1-->animation<!--/paramName1-->
+<!--paramType1-->boolean<!--/paramType1-->
+<!--paramDescription1-->
+A Boolean value indicating whether or not to use animation when switching to the next item.
+<!--/paramDescription1-->
+
+<!--returnType-->Promise<!--/returnType-->
+<!--returnDescription-->
+A deferred object resolved after the gallery item has changed.
+<!--/returnDescription-->
+
+<!--fullDescription-->
+If the current item is the last item in the gallery, the method behavior depends on the [loop](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#loop) option value. If **loop** is set to true, the first item is shown. Otherwise, the method does nothing.
+<!--/fullDescription-->

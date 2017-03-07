@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+.switch{
+    margin: 10px;
+}
+.section{
+    margin: 10px;
+    display:block;
+    text-align: center;
+    border: solid 2px gray;
+}
+.section-header{
+    margin:0px;
+    height: 30px;
+    padding-top: 7px;
+    background: gray;
+    color: white;
+}
+.section p{
+    margin: 5px;
+}

@@ -1,0 +1,21 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Defines an expression returning displayed value for a chosen item (e.g. for string item the expression is 'this', for a plain object item the expression could be field name).<!--/d-->
+===========================================================================
+<!--default-->undefined<!--/default-->
+<!--type-->string | function<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies the name of the data source item field whose value is displayed by the widget.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+If the data source item is a simple object holding a value (string, numeric, Boolean, etc.), assign 'this' to the **displayExpr** option. If the item is a plain object item, assign the required field name or path to the option.
+
+
+<!--/fullDescription-->

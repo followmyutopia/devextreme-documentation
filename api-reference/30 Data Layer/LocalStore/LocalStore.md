@@ -1,0 +1,33 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Same as ArrayStore, but can persist data in a backend (localStorage by default). Flush occurs periodically or immediately.<!--/d-->
+===========================================================================
+<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_local_store">data/local_store</a><!--/module-->
+<!--type-->object<!--/type-->
+<!--inherits-->..\ArrayStore\ArrayStore.md<!--/inherits-->
+<!--lib-->
+dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
+<!--/lib-->
+===========================================================================
+
+<!--shortDescription-->
+A [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) providing access to the HTML5 Web Storage.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+When creating a LocalStore instance, specify the [name](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#name) configuration option, which is required to identify the data within the storage.
+
+    <!--JavaScript-->
+    var store = new DevExpress.data.LocalStore({
+        name: "MyLocalData",
+        key: "id"
+    });
+
+Note that the [key](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#key) option is required if you are going to use the Store for read-write access to data.
+
+For more information on working with LocalStore data, refer to the [Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Local_Data) article.
+<!--/fullDescription-->

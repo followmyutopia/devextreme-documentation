@@ -1,0 +1,32 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->
+Select rows by indexes
+<!--/d-->
+<!--p1d-->Array indexes of rows<!--/p1d-->
+===================================================================
+===================================================================
+
+<!--shortDescription-->
+Selects [grid rows](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows) by indexes.
+<!--/shortDescription-->
+
+<!--paramName1-->indexes<!--/paramName1-->
+<!--paramType1-->array<!--/paramType1-->
+<!--paramDescription1-->
+The indexes of the rows to be selected.
+<!--/paramDescription1-->
+
+<!--fullDescription-->
+An array that is passed to this method as an argument must contain row indexes. When calculating them, data and group rows are counted, though only data rows can be selected.
+
+Note that if the pager is used for navigating through pages, selection applied by the **selectRowsByIndexes(indexes)** method will be cleared once the user moves to a different page. Therefore, to preserve the selection, call this method within the [onContentReady](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onContentReady) callback function.
+
+If the virtual scrolling mode is used, row indexes are rendered only for pages that have been visible. So, it is impossible to select a row on a page, that has not been visible using this method. 
+
+[note] Calling the **selectRowsByIndexes(indexes)** method deselects all previously selected records.
+<!--/fullDescription-->

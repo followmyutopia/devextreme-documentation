@@ -1,0 +1,28 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Argument axis type<!--/d-->
+===========================================================================
+<!--default-->undefined<!--/default-->
+<!--acceptValues-->'discrete' | 'continuous' | 'logarithmic'<!--/acceptValues-->
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies the required type of the argument axis.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+The 'discrete' type is set when string arguments are specified in the data source of the chart's series. The discrete axis is divided by the values (called _categories_) that are specified as arguments in the data source. The categories order can be specified by the [categories](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#categories) property, if the order used in the data source is not appropriate.
+
+The 'continuous' type is set when numeric or date-time arguments are specified in the series data source. The continuous axis is divided automatically.
+
+The 'logarithmic' type can be set when numeric values are specified in the series data source. The logarithmic axis is useful when you visualize a dataset of rapidly-growing values. Each axis tick represents a particular value that is raised to the next power in turn. This particular value is specified by the [logarithmBase](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#logarithmBase) option. For example, if you set this option to 5, the following ticks will be generated: 5<sup>0</sup>, 5<sup>1</sup>, 5<sup>2</sup>, 5<sup>3</sup> etc.
+
+On continuous and logarithmic axes, ticks and grid lines are positioned so that their labels do not overlap each other. In addition, you can set a custom tick interval (the [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/tickInterval/) or [axisDivisionFactor](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#axisDivisionFactor) options).
+
+[note] If you require a discrete axis when numeric or date-time arguments are specified in the data source, set the **type** option to 'discrete' explicitly.
+<!--/fullDescription-->

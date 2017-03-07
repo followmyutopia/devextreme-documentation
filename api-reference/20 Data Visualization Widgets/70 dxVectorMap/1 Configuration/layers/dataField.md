@@ -1,0 +1,19 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Specifies name of the attribute containing data (bubble value, pie values, image url)<!--/d-->
+===========================================================================
+<!--default-->undefined<!--/default-->
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies the name of the attribute containing marker data. Setting this option makes sense only if the [layer type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#type) is *"marker"* and the [elementType](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#elementType) is *"bubble"*, *"pie"* or *"image"*.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+The marker data may contain a bubble value, pie chart values or an image URL.
+<!--/fullDescription-->

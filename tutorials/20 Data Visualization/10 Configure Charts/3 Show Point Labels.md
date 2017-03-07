@@ -1,0 +1,7 @@
+<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureCharts/Step4/chart.html" data-show-first="chart.js">
+By default, area-like series ([Area](/Documentation/Guide/Data_Visualization/Charts/Chart_Series_Types/#Area), [StackedArea](/Documentation/Guide/Data_Visualization/Charts/Chart_Series_Types/#Stacked_Area), [FullStackedArea](/Documentation/Guide/Data_Visualization/Charts/Chart_Series_Types/#Full-Stacked_Area), etc.) are displayed without points and labels. Points are not necessary for this app, but labels are recommended.
+
+Define the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/label/) object within the **commonSeriesSettings** configuration object to make point labels visible. Also, you can make label connectors visible. For this purpose, assign *true* to the **label** | **connector** | [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/label/connector/#visible) option. To configure labels of a particular series, declare the **label** object within the corresponding series object in the **series** array.
+
+In some cases, data of secondary importance, which however helps the recipient get the full picture, doesn't fit into the restricted area of a chart. For these cases, it is convenient to display this data in a tooltip. The next step will cover how to do that.
+</article>

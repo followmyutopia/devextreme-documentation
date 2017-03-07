@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+#button{
+    margin: 10px;
+}
+#pTitle{
+    font-size: 1.1em;
+    border-bottom: solid;
+    border-color: #444;
+    text-align: center;
+}
+.dx-theme-android #pTitle{
+    border-style:none;
+}
+.dx-theme-win10 #pTitle{
+    border-color:white;
+}
+.dx-theme-generic #pTitle{
+    border-style:none;
+}

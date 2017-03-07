@@ -1,0 +1,10 @@
+<!--playground--><!--/playground-->
+<article data-show-web="/Content/Applications/16_1/DataVisualization/UseRemoteDataforChart/Solution/chart.html" data-show-first="chart.js">
+Data for DevExtreme widgets can be loaded from a local resource and from a remote service. To simplify working with data, DevExtreme supplies a Data Library. This library includes the DataSource object that keeps sorting, grouping, filtering and data transformation options, and applies them each time data is loaded. The DataSource underlying data access logic is isolated in a Store. Unlike the DataSource, a Store is a stateless object that implements a universal interface for reading and modifying data. Each Store contains the same set of methods. Several Store types are already implemented - Array Data Store (takes an array of data), Local Data Store (works with window.localStorage) and OData (works with OData protocol). All these Stores have a single interface and thus can easily be changed to use another data source. In this tutorial, you will learn how to create a DataSource object for the [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) widget using a custom Store that accesses data from a custom service in a JSON format.
+
+#####See Also#####
+- If you are going to use DevExtreme widgets in MVC applications, follow the [Add Data-Based Widgets to MVC Project](/Documentation/Tutorial/UI_Widgets/Add_Data-Based_Widgets_to_MVC_Project) tutorial to learn how to create a grid and a chart based on a remote data source.
+- To learn more about the Data Library, refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) article.
+- To find examples on using the Data Library, refer to the [Data Layer](/Documentation/Tutorials/#datalayer) guides.
+- To find a full list of chart options and methods, refer to the [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart) section.
+</article>

@@ -1,0 +1,34 @@
+﻿<!--//highlight-->
+<!--//highlight-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Creating two widgets accessing a single DataSource</title>
+        <meta charset="utf-8" />
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-1.11.3.min.js"></script>
+        <![endif]-->
+        <!--[if gte IE 9]><!-->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-2.2.3.min.js"></script>
+        <!--<![endif]-->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/knockout-3.4.0.js"></script>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/dx.web.js"></script>
+        <script type="text/javascript" src="employees.js"></script>
+        <script type="text/javascript" src="renderer.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/css/dx.light.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <p>dxSelectBox</p>
+        <div data-bind="dxSelectBox: { dataSource: dataSource, displayExpr: 'name', valueExpr: 'id', value: 1 }"></div>
+        <p>dxGallery</p>
+        <div data-bind="dxGallery: { dataSource: dataSource, height: 300, selectedIndex: 0 }">
+            <div data-options="dxTemplate: { name: 'item' }">
+                <h3 data-bind="text: name"></h3>
+                <img data-bind="attr: { src: src }" />
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Minor ticks color<!--/d-->
+===========================================================================
+<!--default-->'#FFFFFF'<!--/default-->
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies the color of the scale's minor ticks.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+<p>This option supports the following colors.</p>
+
+<ul>
+<li>Hexadecimal colors</li>
+<li>RGB colors</li>
+<li>RGBA colors</li>
+<li>Predefined/Cross-browser color names</li>
+<li><a href="http://www.w3.org/TR/SVG/types.html#ColorKeywords">Predefined SVG colors</a></li>
+</ul>
+<!--/fullDescription-->

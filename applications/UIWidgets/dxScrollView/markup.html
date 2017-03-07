@@ -1,0 +1,10 @@
+﻿<div id="scrollViewContainer" data-bind="dxScrollView: {
+    onPullDown: pulledDown,
+    onReachBottom: reachedBottom
+}">
+    <div id="content">
+        <div class="map" data-bind="dxMap: { center: 'Rome', zoom: 8, provider: 'googleStatic' }"></div>
+        <div id="textData"></div>
+    </div>
+</div>
+<div class="button" data-bind="dxButton: { text: 'Options' }"></div>

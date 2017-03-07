@@ -1,0 +1,25 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Hover color<!--/d-->
+===========================================================================
+<!--default-->undefined<!--/default-->
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+<p>Sets a color for a series when it is hovered over.</p>
+<!--/shortDescription-->
+
+<!--fullDescription-->
+This option supports the following colors.
+
+* Hexadecimal colors
+* RGB colors
+* RGBA colors
+* Predefined/cross-browser color names
+* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+<!--/fullDescription-->

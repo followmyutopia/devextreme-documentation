@@ -1,0 +1,24 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Markers border width<!--/d-->
+<!--dep-->..\layers\borderWidth.md<!--/dep-->
+===========================================================================
+<!--default-->2<!--/default-->
+<!--type-->number<!--/type-->
+===========================================================================
+
+<!--deprecated-->
+Use the **layers** | **borderWidth** option instead.
+<!--/deprecated-->
+
+<!--shortDescription-->
+Specifies the width of the marker border in pixels.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

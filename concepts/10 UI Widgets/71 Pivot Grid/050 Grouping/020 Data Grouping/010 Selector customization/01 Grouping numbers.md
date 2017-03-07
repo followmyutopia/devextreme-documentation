@@ -1,0 +1,3 @@
+To configure a data selector for [numeric data](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataType), assign a number to the [groupInterval](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#groupInterval) option. The number assigned is the maximum length of each group. The bigger the number, the less the quantity of the generated groups. 
+
+For instance, consider a field whose values belong to an interval from 0 to 35. If **groupInterval** is set to 10, the following groups will be generated: 0-9, 10-19, 20-29 and 30-35. If **groupInterval** is set to 20, groups will be the following: 0-19, 20-29 and 30-35.

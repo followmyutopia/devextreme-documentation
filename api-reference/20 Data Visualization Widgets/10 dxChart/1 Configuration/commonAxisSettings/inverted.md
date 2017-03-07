@@ -1,0 +1,22 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Inverted of axis<!--/d-->
+===========================================================================
+<!--default-->false<!--/default-->
+<!--type-->boolean<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Inverts the axis.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+When an axis is inverted (that is, when this option is set to *true*), its maximum and minimum values swap their places. As a result, axis values ascend in the opposite direction. Along with the axis, series also become inverted.
+
+#####See Also#####
+- [rotated](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#rotated) - rotates the chart.
+<!--/fullDescription-->

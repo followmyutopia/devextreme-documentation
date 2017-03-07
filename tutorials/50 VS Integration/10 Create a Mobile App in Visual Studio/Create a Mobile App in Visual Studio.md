@@ -1,0 +1,7 @@
+﻿<article data-show="/Content/Applications/16_1/LearningCenter/Data-BoundApplication/step4-3/index.html" data-show-sln="/Content/Applications/16_1/LearningCenter/CreateMobileAppInVS/Application1.sln">
+
+To better understand how to implement applications using the [DevExtreme SPA Framework](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/SPA_Framework) and [DevExtreme UI widgets](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/UI_Widgets_Library), we recommend that you begin by creating a simple application, similar to the one described in the [Your First Mobile App in Visual Studio](/Documentation/Tutorial/VS_Integration/Your_First_Mobile_App_in_Visual_Studio/) tutorial. Using this step-by-step tutorial, you will create a single-page application that includes two views. 
+
+Once you complete the **Your First Mobile App in Visual Studio** tutorial, you can follow the steps below to learn how to add data to your simple application. You may notice that the order of application implementation is not common - an HTML view representation is developed first, and only then is JavaScript code implemented to provide data and business logic for the views. This concession is made intentionally to allow you to better understand the steps involved. That is not to say, however, that this approach to developing applications does not take place in the real world.
+
+</article>

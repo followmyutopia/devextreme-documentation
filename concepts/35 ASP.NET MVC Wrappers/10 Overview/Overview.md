@@ -1,0 +1,3 @@
+[note]At the time of version 16.1, DevExtreme ASP.NET MVC Wrappers were in the Community Technology Preview (CTP) status. Currently, this product changed its status to Release Candidate (RC). Renewed documentation is available since [version 16.2](/Documentation/16_2/Guide/ASP.NET_MVC_Wrappers/Prerequisites_and_Installation/).
+
+This topic shows how to download and install DevExtreme ASP.NET MVC Wrappers and then run a sample ASP.NET MVC application.

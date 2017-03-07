@@ -1,0 +1,3 @@
+The [TagBox](/Documentation/ApiReference/UI_Widgets/dxTagBox/) widget is an editor widget that supports a collection container functionality. For more information on this widget, refer to the [Editor widgets guide](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Editor_Widgets/#UI_Widgets_UI_Widget_Categories_Editors_List_of_Editor_Widgets_dxTagBox).
+
+<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/editorstagboxtagboxmainfeatures/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

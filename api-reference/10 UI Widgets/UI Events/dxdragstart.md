@@ -1,0 +1,31 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->The event for handling when drag gesture is started.<!--/d-->
+===========================================================================
+<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_drag">events/drag</a><!--/module-->
+<!--type-->EVENT<!--/type-->
+<!--fp1d-->A jQuery event object.<!--/fp1d-->
+<!--fp1_field1d-->Used to prevent the gesture. Must be assigned to 'true' value to cancel gesture.<!--/fp1_field1d-->
+===========================================================================
+
+<!--shortDescription-->
+Raised when the drag gesture has been started.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->
+<!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
+<!--typeFunctionParamType1-->jQuery.event<!--/typeFunctionParamType1-->
+<!--typeFunctionParamDescription1-->
+The standard jQuery event argument. The following field is added to existing fields of this argument object. For the information on event handler arguments, refer to the <a href="#introduction">UI Events introduction</a>.
+<!--/typeFunctionParamDescription1-->
+<!--typeFunctionParamName1_field1-->cancel<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->boolean<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamDescription1_field1-->
+Indicates whether to prevent the drag gesture. Set this field to true to cancel the gesture.
+<!--/typeFunctionParamDescription1_field1-->

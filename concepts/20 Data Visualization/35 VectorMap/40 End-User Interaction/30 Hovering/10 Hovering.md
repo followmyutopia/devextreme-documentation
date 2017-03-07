@@ -1,0 +1,5 @@
+﻿In the **VectorMap** widget, when a user hovers the mouse pointer over a map element (an area or a marker), this element changes its appearance. This state of the element is called "hovered state".
+
+Of all map elements, only areas and markers can be in the hovered state. To learn how to configure their hover-related features, see the [Area Hover](/Documentation/Guide/Data_Visualization/VectorMap/End-User_Interaction/#Hovering/Area_Hover) and [Marker Hover](/Documentation/Guide/Data_Visualization/VectorMap/End-User_Interaction/#Hovering/Marker_Hover) topics.
+
+Additionally, an area or a marker in the hovered state can be accompanied by a tooltip, which displays descriptive information about the area or marker. For more information on how to configure tooltips, refer to the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/) object description.

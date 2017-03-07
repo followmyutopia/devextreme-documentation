@@ -1,0 +1,15 @@
+﻿.dx-list{
+    margin: 5px;
+    height: 500px;
+}
+.dx-textbox{
+    margin: 5px;
+    height: 40px;
+    font-size: larger;
+}
+.dx-list p{
+    margin: 2px;
+}
+.dx-list h2{
+    margin: 5px;
+}

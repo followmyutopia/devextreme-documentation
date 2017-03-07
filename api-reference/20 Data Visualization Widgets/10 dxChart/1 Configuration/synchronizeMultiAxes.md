@@ -1,0 +1,19 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->synchronize multiple axes<!--/d-->
+===========================================================================
+<!--default-->true<!--/default-->
+<!--type-->boolean<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Indicates whether or not to synchronize value axes when they are displayed on a single pane.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+When synchronized, the ticks (or grid lines) of all the value axes in a pane are located on the same line.
+<!--/fullDescription-->

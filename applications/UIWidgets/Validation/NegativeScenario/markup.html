@@ -1,0 +1,16 @@
+﻿<div id="sampleGroup" data-bind="dxValidationGroup : {}" >
+	<div data-bind="dxTextBox: { value: login, placeholder: 'Login' },
+		dxValidator: { validationRules: [{ type: 'required', message: 'Login is required' },
+			{ type: 'custom', validationCallback: checkLoginAvailable,
+			message: 'This login is not available, please choose another one.' }] }">
+	</div>
+	<img style="position: absolute; right:20px; top: 9px;" data-bind="visible: loginRemoteCheckTimeout" src="/Content/data/preloader.gif" />
+	<div data-bind="dxTextBox: { value: password, mode: 'password', placeholder: 'Password' },
+		dxValidator: { validationRules: [{
+            type: 'required',
+            message: 'Password can not be empty.'
+        }] }"> 
+	</div>
+    <div data-bind="dxValidationSummary: { }"></div>
+    <div data-bind="dxButton: { text: 'Register', onClick: register }"></div>
+</div>

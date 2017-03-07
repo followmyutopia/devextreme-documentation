@@ -1,0 +1,1 @@
+﻿Toggle the check box to change the **manualRangeSelectionEnabled** option. If this option is set to *'true'*, you can select a range without the use of sliders. To do this, press the left mouse button at one end of the required range and release it at another.

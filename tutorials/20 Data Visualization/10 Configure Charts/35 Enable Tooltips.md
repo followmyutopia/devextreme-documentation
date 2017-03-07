@@ -1,0 +1,5 @@
+<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureCharts/Step5/chart.html" data-show-first="chart.js">
+Tooltips display the value of the point that is currently hovered over. They are configured using fields of the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/) object. To enable tooltips for series points, assign *true* to the **enabled** option of this object. To display the percentage of the point's value, implement the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#customizeTooltip) callback function, as demonstrated in the code below. Moreover, this function enables you to customize the tooltip of a particular point if your goal requires it.
+
+The next step goes over relocating the legend and supplying the chart with a title. 
+</article>

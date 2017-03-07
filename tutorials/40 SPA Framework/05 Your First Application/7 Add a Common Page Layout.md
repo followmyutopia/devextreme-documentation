@@ -1,0 +1,12 @@
+<article data-show="/Content/Applications/16_1/framework/YourFirstApplication/step6/YourFirstApplication.html">
+In this step, add a toolbar to the "home" and "greeting" views and provide a visual transition effect when one view replaces another. In DevExtreme applications, the elements that are common for several views are defined within a page *layout*. The DevExtreme framework comes with a set of [ready-to-use layouts](/Documentation/Guide/SPA_Framework/Built-in_Layouts/) that are characterised by the presence and type of a navigation control. In this application, a navigation control is not required. However, to add a common toolbar, the predefined [simple](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Simple_Layout) layout is appropriate.
+
+- [Link](/Documentation/Guide/SPA_Framework/Application_Project/#Layouts) the *SimpleLayout.html*, *SimpleLayout.css* and *SimpleLayout.js* files in the application page.
+- Indicate that the "home" and "greeting" views must be shown in the "content" placeholder of the "simple" layout by wrapping the view's markup by a **div** element with the **data-options** attribute set to [dxContent](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxContent/). Specify the name of the placeholder by setting the **targetPlaceholder** option to "content".
+- Since the toolbar of the "simple" layout can display a view's title, specify the [title](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxView/Configuration/#title) markup option of the **dxView** components.
+- To use the "simple" layout for the views, specify the application's layout set to which the "simple" layout markup is applied. To do this, set the application's [layoutSet](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#layoutSet) configuration option to *DevExpress.framework.html.layoutSets['simple']*.
+- Since a Back button is added to the built-in layouts automatically when there is a previously shown view in the navigation history, you can remove the Back button that was added manually.
+
+Before a view is displayed, its HTML template is inserted to the "content" placeholder of the "simple" layout to get a total markup of the view.
+  
+</article>

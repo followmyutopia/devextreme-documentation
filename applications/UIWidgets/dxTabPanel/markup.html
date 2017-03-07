@@ -1,0 +1,19 @@
+﻿<div data-bind="dxTabPanel: {
+    dataSource: tabPanelItems,
+    titleTemplate: 'title',
+    itemTemplate: 'tab',
+    height: 160
+}">
+    <div data-options="dxTemplate : { name: 'title' } ">
+        <p data-bind="text: $data.title"></p>
+    </div>
+    <div data-options="dxTemplate : { name: 'tab' } ">
+        <div style="margin:25px;">
+            <h1 data-bind="text: $data.title"></h1>
+            <p>&nbsp;</p>
+            <div style="text-align:left;" data-bind="foreach: dataArray">
+                <p><span data-bind="text: propertyKey"></span>: <b data-bind="text: propertyValue"></b></p>
+            </div>
+        </div>
+    </div>
+</div>

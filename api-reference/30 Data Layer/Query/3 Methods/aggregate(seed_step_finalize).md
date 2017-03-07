@@ -1,0 +1,71 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->
+Calculates custom aggregate/summary.
+<!--/d-->
+<!--p1d-->initial value<!--/p1d-->
+<!--p2d-->function invoked for every item. accepts arguments: accumulator and current item<!--/p2d-->
+<!--p3d-->function invoked after all items processed. accepts single arguments: accumulator. Optional argument.<!--/p3d-->
+<!--rd-->Promise of jQuery.Deferred. Resolves with aggregate value or rejects with an Error object<!--/rd-->
+===================================================================
+===================================================================
+
+<!--shortDescription-->
+Calculates a custom summary for the items in the current [Query](/Documentation/ApiReference/Data_Layer/Query/).
+<!--/shortDescription-->
+
+<!--paramName1-->seed<!--/paramName1-->
+<!--paramType1-->object<!--/paramType1-->
+<!--paramDescription1-->
+The initial value.
+<!--/paramDescription1-->
+
+<!--paramName2-->step<!--/paramName2-->
+<!--paramType2-->function<!--/paramType2-->
+<!--paramDescription2-->
+A function called for each item.
+<!--/paramDescription2-->
+
+<!--paramName3-->finalize<!--/paramName3-->
+<!--paramType3-->function<!--/paramType3-->
+<!--paramDescription3-->
+A function invoked after the operation is finished.
+<!--/paramDescription3-->
+
+<!--returnType-->Promise<!--/returnType-->
+<!--returnDescription-->
+A Promise of the jQuery.Deferred object resolved after the operation is completed.
+<!--/returnDescription-->
+
+<!--fullDescription-->
+The **step** function takes on two arguments. The first argument is an accumulator value changed on each **step** function execution. The **step** function should return the updated value of this argument. The second argument is a value of the current item. The **finalize** function takes on the resulting accumulator value, and should return the desired value. 
+
+The following example demonstrates how to calculate the average value for the Query items. 
+
+Suppose that each item of the Query is an object that provides the **price** numeric property, among other properties. To calculate the average price value, calculate the total price and divide it by the item count.
+
+In this case, the **seed** argument specifies the initial value of the total price, which will be increased within the **step** function called for each item. The **finalize** function will divide the total price by the item count.
+
+    <!--JavaScript-->
+    var count = 0;
+    DevExpress.data.query(inputArray)
+        .aggregate(
+            0, 
+            function(total) {
+                return total + itemData;
+                count++;
+            },
+            function(total) {
+                return total / count;
+            }
+         )
+        .done(function(result) {
+            // 'result' holds the desired value
+        });
+
+The average value calculation is an example of this function's usage. However, note that this functionality is already implemented in the [avg()](/Documentation/ApiReference/Data_Layer/Query/Methods/#avg) and [avg(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#avggetter) methods.
+<!--/fullDescription-->

@@ -1,0 +1,1 @@
+﻿maxLength = ko.observable(100);

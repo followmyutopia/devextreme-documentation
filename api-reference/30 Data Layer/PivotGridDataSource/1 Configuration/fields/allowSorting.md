@@ -1,0 +1,19 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Allow sorting<!--/d-->
+===========================================================================
+<!--default-->false<!--/default-->
+<!--type-->boolean<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Allows an end-user to change sorting options.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+With this option enabled, an end-user can sort pivot grid data by clicking the arrow icons in the [field chooser](/Documentation/Guide/UI_Widgets/Pivot_Grid/Visual_Elements/#Field_Chooser) or on the [field panel](/Documentation/Guide/UI_Widgets/Pivot_Grid/Visual_Elements/#Field_Panel).
+<!--/fullDescription-->

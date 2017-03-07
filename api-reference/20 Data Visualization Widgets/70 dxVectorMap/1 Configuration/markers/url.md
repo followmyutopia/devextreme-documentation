@@ -1,0 +1,24 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Marker url (only 'marker:image')<!--/d-->
+<!--dep-->Specify url as one of the attributes and reference it with the 'layers.dataField' option<!--/dep-->
+===========================================================================
+<!--default-->undefined<!--/default-->
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--deprecated-->
+Use the **layers** | [dataField](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataField) option instead.
+<!--/deprecated-->
+
+<!--shortDescription-->
+Specifies a URL for a map marker of the *image* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#type).
+<!--/shortDescription-->
+
+<!--fullDescription-->
+If you need to display map markers as images, set the **markerSettings** | **type** option to *'image'*. After that, specify a URL to the required image for each marker using the **url** field of the marker data object.
+<!--/fullDescription-->

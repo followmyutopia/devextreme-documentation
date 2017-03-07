@@ -1,0 +1,26 @@
+﻿<div id="button" data-bind="dxButton:{text: 'Load', onClick: startLoading}"></div>
+<div data-bind="dxLoadPanel:{
+    message: message,
+    visible: loadPanelVisible,
+    showIndicator: showIndicator,
+    delay: delay,
+    showPane: showPane
+}"></div>
+<div class="dx-fieldset" style="text-align: left;">
+    <div class="dx-field">
+        <div class="dx-field-label">message</div>
+        <div class="dx-field-value" data-bind="dxTextBox: { value: message }"></div>
+    </div>
+    <div class="dx-field">
+        <div class="dx-field-label">delay</div>
+        <div class="dx-field-value" data-bind="dxNumberBox: { value: delay, min:0, max: 5000, step: 100, showSpinButtons: true }"></div>
+    </div>
+    <div class="dx-field">
+        <div class="dx-field-label">showIndicator</div>
+        <div class="dx-field-value" data-bind="dxSwitch: { value: showIndicator }"></div>
+    </div>
+    <div class="dx-field">
+        <div class="dx-field-label">showPane</div>
+        <div class="dx-field-value" data-bind="dxSwitch: { value: showPane }"></div>
+    </div>
+</div>

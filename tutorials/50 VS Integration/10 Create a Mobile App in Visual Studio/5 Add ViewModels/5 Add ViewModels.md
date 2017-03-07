@@ -1,0 +1,1 @@
+When Views are completed, the next step is to implement ViewModels. The View Creation Wizard added a JavaScript file for each view. The JavaScript file is currently empty. You have to write a JavaScript function named after the View.

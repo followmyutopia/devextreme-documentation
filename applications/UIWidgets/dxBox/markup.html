@@ -1,0 +1,25 @@
+<div id="box" data-bind="dxBox:{
+    align: alignValue,
+    crossAlign: crossAlignValue,
+    direction: directionValue,
+    height: '40%',
+    width: '90%'
+}">
+    <div id="item1" data-options="dxItem:{ ratio: 0, baseSize: '20%' }"><div class="innerBox"><p></p></div></div>
+    <div id="item2" data-options="dxItem:{ ratio: 0, baseSize: '35%' }"><div class="innerBox"><p></p></div></div>
+    <div id="item3" data-options="dxItem:{ ratio: 0, baseSize: '25%' }"><div class="innerBox"><p></p></div></div>
+</div>
+<div class="dx-fieldset">
+  <div class="dx-field">
+    <div class="dx-field-label">direction</div>
+    <div class="dx-field-value" data-bind="dxSelectBox: { value: directionValue, dataSource: ['row', 'col'] }"></div>
+  </div>
+  <div class="dx-field">
+    <div class="dx-field-label">align</div>
+    <div class="dx-field-value" data-bind="dxSelectBox: { value: alignValue, dataSource: ['start','end','center','space-between','space-around'] }"></div>
+  </div>
+  <div class="dx-field">
+    <div class="dx-field-label">crossAlign</div>
+    <div class="dx-field-value" data-bind="dxSelectBox: { value: crossAlignValue, dataSource: ['start','end','center','stretch'] }"></div>
+  </div>
+</div>

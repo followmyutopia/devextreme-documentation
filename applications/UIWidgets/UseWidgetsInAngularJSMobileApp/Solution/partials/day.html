@@ -1,0 +1,31 @@
+<!--//highlight-->
+<!--//highlight-->
+<div dx-toolbar="{ items: [ {
+        location: 'before',
+        widget: 'dxButton',
+        options: {
+            text: 'Week',
+            type: 'back',
+            onClick: day.getBackToWeek
+        },
+    },
+    {
+        location: 'center',
+        text: day.schedule.dayOfWeek
+    } ] }">
+</div>
+
+<div class="dx-fieldset">
+    <table class="schedule">
+        <tr>
+            <td></td>
+            <td>Times</td>
+            <td>Classes</td>
+        </tr>
+        <tr ng-repeat="class in day.schedule.classes">
+            <td>{{$index + 1}}.</td>
+            <td class="time-field">{{class.startTime}} - {{class.endTime}}</td>
+            <td>{{class.classTitle}}</td>
+        </tr>
+    </table>
+</div>

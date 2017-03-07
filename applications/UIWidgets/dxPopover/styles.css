@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+#button{
+    margin: 10px;
+}
+#target {
+    margin: 20px;
+    padding: 20px;
+    background-color: yellow;
+    color: #00F;
+    border: solid 2px blue;
+    font-size: 1.2em;
+}
+
+#pTitle{
+    font-size: 1.1em;
+    border-bottom: solid;
+    border-color: #444;
+    text-align: center;
+}
+.dx-theme-android #pTitle{
+    border-style:none;
+}
+.dx-theme-win10 #pTitle{
+    border-color:white;
+}
+.dx-theme-generic #pTitle{
+    border-style:none;
+}

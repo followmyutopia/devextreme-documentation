@@ -1,0 +1,25 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Tile label font color<!--/d-->
+===========================================================================
+<!--default-->'#ffffff'<!--/default-->
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Colors the text displayed by the tile labels.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+This option supports the following colors.
+
+* Hexadecimal colors        
+* RGB colors        
+* RGBA colors       
+* Predefined/cross-browser color names      
+* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+<!--/fullDescription-->

@@ -1,0 +1,25 @@
+﻿<div id="myList" style="margin: 10px;" data-bind="dxList: {
+    dataSource: listDataSource,
+    selectionMode: selectMode,
+    showSelectionControls: showControls
+}">
+    <div class="listItem" data-options="dxTemplate:{ name:'item' }">
+        <p style="font-size:larger;"><b data-bind="text: name"></b></p>
+        <p>Capital: <i data-bind="text: capital"></i></p>
+    </div>
+</div>
+<div class="dx-fieldset">
+    <div class="dx-field">
+        <div class="dx-field-label" style="width: 60%;">Selection mode</div>
+        <div class="dx-field-value" style="width: 40%;" data-bind="dxSelectBox: {
+            items: selectModes,
+            value: selectMode
+        }"></div>
+    </div>
+    <div class="dx-field">
+        <div class="dx-field-label" style="width: 60%;">Show Controls</div>
+        <div class="dx-field-value" data-bind="dxSwitch: { 
+            value: showControls
+        }"></div>
+    </div>
+</div>

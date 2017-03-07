@@ -1,0 +1,14 @@
+﻿<div style="height:500px; max-width:750px; margin: 0 auto">
+    <div id="colorBox" data-bind="dxColorBox: {
+        value: colorValue,
+        editAlphaChannel: alphaChannel,
+        applyButtonText: 'Apply color',
+        cancelButtonText: 'Cancel and close'
+    }"></div>
+    <div class="dx-fieldset">
+        <div class="dx-field">
+            <div>Edit alpha channel <div style="display:inline-block;" data-bind="dxCheckBox: { value: alphaChannel }"></div></div>
+        </div>
+    </div>
+    <p class="text" data-bind="style: { color: colorValue }">Colored Text</p>
+</div>

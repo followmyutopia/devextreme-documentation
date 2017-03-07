@@ -1,0 +1,21 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->A label displayed in an enabled state.<!--/d-->
+===========================================================================
+<!--default-->'ON'<!--/default-->
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Text displayed when the widget is in an enabled state.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+[note]The widget may or may not display text depending on the current theme.
+
+
+<!--/fullDescription-->

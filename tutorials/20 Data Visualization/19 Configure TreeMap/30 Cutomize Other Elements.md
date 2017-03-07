@@ -1,0 +1,9 @@
+<!--playground--><!--/playground-->
+<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureTreeMap/Step6/treemap.html" data-show-first="treemap.js">
+
+To supplement the widget with a title, use the fields of the [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/title/) object. A title can also include a subtitle specified by the **title** | [subtitle](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/title/subtitle/) field.
+
+Finally, enable the tooltip in the widget so that the user could learn the numeric values of tiles. The tooltip appears each time the user rests the cursor on a tile or a group. To enable it, declare the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/) object and set its [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/#enabled) field to *true*. In addition, you can change the text displayed by the tooltip using the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#customizeTooltip) function as shown in the code below. Note that inside this function, the label and the value of a tile or a group are obtained by calling its [label()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#label) and [value()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#value) methods respectively.
+
+This tutorial has led you through the basics of **TreeMap** configuration. To take a closer look on this widget, see the [TreeMap API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/) section and **TreeMap** demos in the [Widgets Gallery](http://js.devexpress.com/Demos/WidgetsGallery/#demo/charts-tree_map-hierarchical_data_structure).
+</article>

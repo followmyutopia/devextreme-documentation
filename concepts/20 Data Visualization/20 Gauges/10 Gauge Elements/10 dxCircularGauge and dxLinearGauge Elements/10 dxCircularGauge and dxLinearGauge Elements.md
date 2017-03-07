@@ -1,0 +1,1 @@
+This section describes elements that are specific to the **CircularGauge** and **LinearGauge** widgets. In addition, there are several elements that are common for all the gauges. These elements are described in the [Common Gauge Elements](/Documentation/Guide/Data_Visualization/Gauges/Gauge_Elements/#Common_Gauge_Elements) section.

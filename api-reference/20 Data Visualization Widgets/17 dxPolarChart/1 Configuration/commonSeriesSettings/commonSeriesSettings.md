@@ -1,0 +1,25 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Series common settings<!--/d-->
+===========================================================================
+<!--hideDefaults-->true<!--/hideDefaults-->
+<!--type-->object<!--/type-->
+<!--inherits-->..\..\5 Series Types\CommonPolarChartSeries\CommonPolarChartSeries.md<!--/inherits-->
+<!--inheritAll--><!--/inheritAll-->
+===========================================================================
+
+<!--shortDescription-->
+An object defining the configuration options that are common for all series of the **PolarChart** widget.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+Use this object's properties to set options for all chart series at once. These can be options common to all series types and options specific to series types.
+
+If you have several series of one type, you can set options to the values specific to this series type using the corresponding object (**area**, **line** or another) within the **commonSeriesSettings** configuration object. The values that are set within type-specific configuration objects override the corresponding common values.
+
+In case you have to set an option for an individual series, use the corresponding **series** object within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/) array. The values that are set individually override the corresponding common values.
+<!--/fullDescription-->

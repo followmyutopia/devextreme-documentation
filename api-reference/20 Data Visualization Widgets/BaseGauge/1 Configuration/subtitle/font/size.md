@@ -1,0 +1,24 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Text size<!--/d-->
+<!--dep-->..\..\..\..\BaseWidget\1 Configuration\title\subtitle\font\size.md<!--/dep-->
+===========================================================================
+<!--default-->16<!--/default-->
+<!--type-->number | string<!--/type-->
+===========================================================================
+
+<!--deprecated-->
+Use the **title** | **subtitle** | **font** | **size** option instead.
+<!--/deprecated-->
+
+<!--shortDescription-->
+Specifies a font size for the subtitle.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+<p>For details on acceptable values, refer to the <a href="http://www.w3.org/TR/CSS21/fonts.html#propdef-font-size">Font size</a> article.</p>
+<!--/fullDescription-->

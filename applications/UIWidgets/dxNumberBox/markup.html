@@ -1,0 +1,24 @@
+﻿<div class="numberBox" data-bind="dxNumberBox: { min: minValue, max: maxValue, value: 50, showSpinButtons: spinButtonsVisible, step: spinStep }"></div><br/>
+<div class="section">
+    <div class="section-header">
+        Options
+    </div>
+    <div class="dx-fieldset">
+        <div class="dx-field">
+            <div class="dx-field-label">min</div>
+            <div class="dx-field-value" data-bind="dxNumberBox: { value: minValue, showSpinButtons: true }"></div>
+        </div>
+        <div class="dx-field">
+            <div class="dx-field-label">max</div>
+            <div class="dx-field-value" data-bind="dxNumberBox: { value: maxValue, showSpinButtons: true }"></div>
+        </div>
+        <div class="dx-field">
+            <div class="dx-field-label" style="width: 70%;">showSpinButtons</div>
+            <div class="dx-field-value" data-bind="dxSwitch: { value: spinButtonsVisible }"></div>
+        </div>
+        <div class="dx-field">
+            <div class="dx-field-label">step</div>
+            <div class="dx-field-value" data-bind="dxNumberBox: { min: 1, max: 100, value: spinStep, showSpinButtons: true }"></div>
+        </div>
+    </div>
+</div>

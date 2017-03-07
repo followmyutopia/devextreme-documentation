@@ -1,0 +1,32 @@
+﻿<div id="lookup" style="margin: 10px;" data-bind="dxLookup: {
+    dataSource: lookupData,
+    displayExpr: 'name',
+    title: 'Choose state',
+    showCancelButton: showCancelButton,
+    showClearButton: showClearButton,
+    cancelButtonText: cancelButtonText,
+    clearButtonText: clearButtonText
+}">
+</div>
+<div class="dx-fieldset">
+    <p><b>Cancel Button</b></p>
+    <div class="dx-field">
+        <div class="fieldlabel">Visible</div>
+        <div class="fieldvalue" data-bind="dxSwitch: { value: showCancelButton }"></div>
+    </div>
+    <div class="dx-field">
+        <div class="fieldlabel">Text</div>
+        <div class="fieldvalue" data-bind="dxTextBox: { value: cancelButtonText }" style="width: 50%"></div>
+    </div>
+</div>
+<div class="dx-fieldset">
+    <p><b>Clear Button</b></p>
+    <div class="dx-field">
+        <div class="fieldlabel">Visible</div>
+        <div class="fieldvalue" data-bind="dxSwitch: { value: showClearButton }"></div>
+    </div>
+    <div class="dx-field">
+        <div class="fieldlabel">Text</div>
+        <div class="fieldvalue" data-bind="dxTextBox: { value: clearButtonText }" style="width: 50%"></div>
+    </div>
+</div>

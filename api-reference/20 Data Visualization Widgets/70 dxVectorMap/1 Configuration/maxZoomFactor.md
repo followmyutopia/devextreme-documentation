@@ -1,0 +1,20 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Map max zoom factor<!--/d-->
+===========================================================================
+<!--notUsedInTheme--><!--/notUsedInTheme-->
+<!--default-->256<!--/default-->
+<!--type-->number<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies a map's maximum zoom factor.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+An end-user will not be able to zoom into a map larger than the factor specified here.
+<!--/fullDescription-->

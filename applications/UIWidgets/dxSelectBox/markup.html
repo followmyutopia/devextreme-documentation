@@ -1,0 +1,10 @@
+﻿<div class="selectBox" data-bind="dxSelectBox:{
+    dataSource: selectBoxData,
+    placeholder: 'Select state',
+    displayExpr: 'name',
+    valueExpr: 'capital',
+    value: capital
+}"></div>
+<div>
+    <p><b>Selected state capital:</b> "<span data-bind="text: capital"></span>"</p>
+</div>

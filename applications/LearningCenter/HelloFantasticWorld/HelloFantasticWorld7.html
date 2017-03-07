@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title>My First Application</title>
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/css/dx.spa.css" />
+        <link rel="dx-theme" data-theme="android5.light" href="/SharedStatic/DevExtreme/16_1/css/dx.android5.light.css"/>
+	    <link rel="dx-theme" data-theme="ios7.default" href="/SharedStatic/DevExtreme/16_1/css/dx.ios7.default.css" />
+	    <link rel="dx-theme" data-theme="win10.black" href="/SharedStatic/DevExtreme/16_1/css/dx.win10.black.css"/>
+	    <link rel="dx-theme" data-theme="generic.dark" href="/SharedStatic/DevExtreme/16_1/css/dx.dark.css"/>
+        
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/SharedStatic/DevExtreme/16_1/js/jquery-1.11.3.min.js"></script>
+        <![endif]-->
+        <!--[if gte IE 9]><!-->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-2.2.3.js"></script>
+        <!--<![endif]-->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/knockout-3.4.0.js"></script>
+        
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/dx.mobile.js"></script>
+
+
+
+        <!-- Layouts -->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/layouts/Navbar/NavbarLayout.js"></script>
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/layouts/Navbar/NavbarLayout.css" />
+        <link rel="dx-template" type="text/html" href="/SharedStatic/DevExtreme/16_1/layouts/Navbar/NavbarLayout.html"/>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/layouts/Pivot/PivotLayout.js"></script>
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/layouts/Pivot/PivotLayout.css" />
+        <link rel="dx-template" type="text/html" href="/SharedStatic/DevExtreme/16_1/layouts/Pivot/PivotLayout.html"/>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/layouts/Simple/SimpleLayout.js"></script>
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/layouts/Simple/SimpleLayout.css" />
+        <link rel="dx-template" type="text/html" href="/SharedStatic/DevExtreme/16_1/layouts/Simple/SimpleLayout.html"/>
+
+        <script type="text/javascript">
+            window.MyApp = {};
+            $(function () {
+                demoApplication = MyApp.app = new DevExpress.framework.html.HtmlApplication({
+                    namespace: MyApp,
+                    animationSet: DevExpress.framework.html.animationSets['default'],
+                    layoutSet: DevExpress.framework.html.layoutSets['navbar'],
+                    navigation: [
+                        {
+                            title: "Home",
+                            onExecute: "#home",
+                            icon: "home"
+                        },
+                        {
+                            title: "About",
+                            onExecute: "#about",
+                            icon: "info"
+                        }
+                    ],
+                });
+                MyApp.app.router.register(":view/:id", { view: "home", id: undefined });
+                MyApp.app.navigate();
+            });
+            MyApp.home = function () {
+                var viewModel = {
+                    message: ko.observable('Welcome!'),
+                    name: ko.observable(''),
+                    sayHello: function () {
+                        this.message("Hello " + this.name() + '!');
+                    },
+                    greet: function () {
+                        MyApp.app.navigate("greeting/" + this.name());
+                    }
+                };
+                return viewModel;
+            };
+            MyApp.greeting = function (params) {
+                var viewModel = {
+                    message: ko.observable('Hello ' + params.id + '!'),
+                };
+                return viewModel;
+            };
+        </script>
+	</head>
+    <body>		
+        <div data-options="dxView : { name: 'home', title: 'Home' } " >
+            <div data-options="dxContent : { targetPlaceholder: 'content' } " >
+                <h1 data-bind="text: message"></h1>
+                Enter your name: <div data-bind="dxTextBox: { value: name }" style="width: 200px"></div>
+                <div data-bind="dxButton: { text: 'Say Hello', onClick: sayHello }"></div>
+                <div data-bind="dxButton: { text: 'Greet', onClick: greet }"></div>
+            </div>
+        </div>
+            
+        <div data-options="dxView : { name: 'greeting', title: 'greeting' } " >
+            <h1 data-bind="text: message"></h1>
+        </div>
+
+        <div data-options="dxView : { name: 'about', title: 'About' } " >
+           <div class="home-view"  data-options="dxContent : { targetPlaceholder: 'content' } " >
+                <div data-bind="dxScrollView: {}">
+                    <p style="padding: 5px">Application1</p>
+                    <p style="padding: 5px">Modify this view to describe your application and provide additional information.</p>
+
+                    <p style="padding: 5px">To learn more about DevExtreme, visit <a href="http://help.devexpress.com/DevExtreme">http://help.devexpress.com/DevExtreme</a>. It is an interactive learning environment where you can find documentation, feature demonstrations, and various tutorials.</p>
+
+                    <p style="padding: 5px">If you have any questions about DevExtreme, do not hesitate to contact our support team via <a href="http://www.devexpress.com/support/center/">http://www.devexpress.com/support/center/</a>. </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

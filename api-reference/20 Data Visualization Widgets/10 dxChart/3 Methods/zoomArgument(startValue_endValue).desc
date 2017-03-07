@@ -1,0 +1,1 @@
+﻿In this example, the **RangeSelector** widget interacts with the **Chart** widget. Choose a range in the range selector to zoom the chart to this range. The zooming is performed using the chart's **zoomArgument(startValue, endValue)** method.

@@ -1,0 +1,15 @@
+﻿<div data-bind="dxValidationGroup : {}">
+	<div data-bind="dxTextBox: { value: contactEmail, mode: 'email', placeholder: 'Email' }"></div>
+	<div data-bind="dxTextBox: { value: contactPhone, mode: 'password', placeholder: 'Phone number' }"></div>
+	<div data-bind="dxValidator: { 
+		adapter: { 
+			getValue: getContactPhoneAndEmail,
+			validationRequestsCallbacks: contactInfoValidationRequests,
+			applyValidationResults: applyContactValidation
+		},
+		validationRules: [   { type: 'required', message: 'Specify your email or phone number!' }] }">
+	</div>
+	<div data-bind="if: showRequestContactInfo " style="color: #000971">Please, let us contact you!</div>
+	<div data-bind="dxValidationSummary: { }"></div>
+	<div data-bind="dxButton: { text: 'Contact me', onClick: contactMeClick }"></div>
+</div>

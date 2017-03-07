@@ -1,0 +1,6 @@
+<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureVectorMap/Step2/vectorMap.html" data-show-first="vectorMap.html">
+
+  As you work to implement a US map with the capitals of 10 most populous states indicated on it, ensure to also provide data for the map. On this map, the states will be represented by areas, while the capitals will be indicated by markers.
+
+  Data for map areas can be provided using different approaches. All of them are described in the [Data for Areas](/Documentation/Guide/Data_Visualization/VectorMap/Providing_Data/#Data_for_Areas) topic. The simplest approach uses the scripts supplied with the DevExtreme Data Visualization library. To use one of these scripts on your map, reference it in the head of your HTML document. After that, create a [layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/) of the *area* type and set its **dataSource** option to the array defined in the referenced file.
+</article>

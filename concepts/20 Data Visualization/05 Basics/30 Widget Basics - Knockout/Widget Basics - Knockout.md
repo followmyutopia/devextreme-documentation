@@ -1,0 +1,3 @@
+[note]This article assumes that you have successfully linked all the necessary scripts. If not, read the [Installation](/Documentation/Guide/Data_Visualization/Basics/Installation/) guide first.
+
+From this article, you will learn how to perform basic operations on a DevExtreme widget using the Knockout framework. Similar articles are available for the [jQuery](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_jQuery/) library and the [AngularJS](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_AngularJS/) framework.

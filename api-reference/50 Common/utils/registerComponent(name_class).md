@@ -1,0 +1,42 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->
+Registers component class in DevExpress, as jQuery plugin and as KnockoutJS binding and Angular directive
+<!--/d-->
+<!--p1d-->A component name to register<!--/p1d-->
+<!--p2d-->A DevExpress.Class inheritor which implements the functionality of the component<!--/p2d-->
+===================================================================
+<!--hidden--><!--/hidden-->
+<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_component_registrator">core/component_registrator</a><!--/module-->
+===================================================================
+
+<!--shortDescription-->
+Registers a new component in the [DevExpress.ui](/Documentation/ApiReference/Common/Utils/#ui) namespace as a jQuery plugin, AngularJS directive and Knockout binding.
+<!--/shortDescription-->
+
+<!--paramName1-->name<!--/paramName1-->
+<!--paramType1-->string<!--/paramType1-->
+<!--paramDescription1-->
+The name for the component to register.
+<!--/paramDescription1-->
+
+<!--paramName2-->class<!--/paramName2-->
+<!--paramType2-->Class<!--/paramType2-->
+<!--paramDescription2-->
+A DevExpress.Class inheritor implementing the component's functionality.
+<!--/paramDescription2-->
+
+<!--fullDescription-->
+Use the following code to register a new component within the **DevExpress.ui** namespace.
+
+    <!--JavaScript-->DevExpress.registerComponent(
+        "myComponent",
+        DevExpress.Component.inherit({
+            //Implement your component here
+        });
+    });
+<!--/fullDescription-->

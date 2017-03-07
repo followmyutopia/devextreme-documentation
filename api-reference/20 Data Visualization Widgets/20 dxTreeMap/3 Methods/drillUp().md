@@ -1,0 +1,19 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->
+Ups drilldown
+<!--/d-->
+===================================================================
+===================================================================
+
+<!--shortDescription-->
+Drills one level up.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+To learn how to implement the drill down functionality, see the [drillDown()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#drillDown) method description.
+<!--/fullDescription-->

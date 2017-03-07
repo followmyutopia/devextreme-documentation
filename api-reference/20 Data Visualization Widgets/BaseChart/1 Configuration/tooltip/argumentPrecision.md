@@ -1,0 +1,24 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Tooltip format precision for point's argument<!--/d-->
+<!--dep-->Use 'argumentFormat.precision' instead<!--/dep-->
+===========================================================================
+<!--default-->undefined<!--/default-->
+<!--type-->number<!--/type-->
+===========================================================================
+
+<!--deprecated-->
+Use the **tooltip** | [argumentFormat]({basewidgetpath}/Configuration/tooltip#argumentFormat) | **precision** option instead.
+<!--/deprecated-->
+
+<!--shortDescription-->
+Specifies a precision for formatted arguments displayed in tooltips.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

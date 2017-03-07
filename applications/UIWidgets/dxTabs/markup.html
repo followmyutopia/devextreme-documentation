@@ -1,0 +1,39 @@
+﻿<div data-bind="dxTabs:{ dataSource: tabsItems, selectedIndex: currentIndex }"></div>
+<div data-bind="dxMultiView: {
+    dataSource: multiViewItems,
+    swipeEnabled: false,
+    selectedIndex: currentIndex,
+    height: 300
+}">
+    <div data-options="dxTemplate : { name: 'personalData' } ">
+        <div class="view">
+            <h1 data-bind="text: $data.title"></h1>
+            <p>&nbsp;</p>
+            <div style="text-align:left;">
+                <p>Name: <b data-bind="text: $data.firstName"></b> <b data-bind="text: $data.lastName"></b></p>
+                <p>Birth year: <b data-bind="text: $data.birthYear"></b></p>
+            </div>
+        </div>
+    </div>
+    <div data-options="dxTemplate : { name: 'contacts' } ">
+        <div class="view">
+            <h1 data-bind="text: $data.title"></h1>
+            <p>&nbsp;</p>
+            <div style="text-align:left;">
+                <p>Phone: <b data-bind="text: $data.phone"></b></p>
+                <p>e-mail: <b data-bind="text: $data.email"></b></p>
+            </div>
+        </div>
+    </div>
+    <div data-options="dxTemplate : { name: 'address' } ">
+        <div class="view">
+            <h1 data-bind="text: $data.title"></h1>
+            <p>&nbsp;</p>
+            <div style="text-align:left;">
+                <p>State: <b data-bind="text: $data.state"></b></p>
+                <p>City: <b data-bind="text: $data.city"></b></p>
+                <p>Street: <b data-bind="text: $data.street"></b></p>
+            </div>
+        </div>
+    </div>
+</div>

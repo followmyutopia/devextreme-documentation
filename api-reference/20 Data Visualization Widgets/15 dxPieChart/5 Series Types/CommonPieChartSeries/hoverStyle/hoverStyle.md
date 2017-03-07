@@ -1,0 +1,18 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Common hover style settings<!--/d-->
+===========================================================================
+<!--type-->object<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+An object defining configuration options for a hovered series.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+To set a custom 'hover' style for the series, use the **hoverStyle** object within the **series** configuration object.
+<!--/fullDescription-->

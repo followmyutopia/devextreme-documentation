@@ -1,0 +1,10 @@
+﻿body {
+    text-align: center;
+}
+.button {
+    margin: 10px auto;
+}
+.indicator{
+    display: block;
+    margin: 30% auto;
+}

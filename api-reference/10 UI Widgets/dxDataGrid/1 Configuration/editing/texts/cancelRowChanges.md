@@ -1,0 +1,19 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Text of cancel row changes button<!--/d-->
+===========================================================================
+<!--default-->'Cancel'<!--/default-->
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies text for a cancel button displayed when a row is in the editing state. Setting this option makes sense only when the [allowUpdating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#allowUpdating) option is set to *true*.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+A cancel button appears when a user is editing a grid record in the *"row"* [edit mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode). It is located in the rightmost grid column along with the save button.
+<!--/fullDescription-->

@@ -1,0 +1,6 @@
+<!--playground--><!--/playground-->
+<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureTreeMap/Step1/treemap.html">
+
+First, you need to reference files required by **TreeMap** on your HTML page. Add these files as scripts to the head of your page as shown in the HTML file below. There are three DevExtreme bundles that contain the **TreeMap** widget: *dx.viz.js*, *dx.viz-web.js* and *dx.all.js*. This tutorial uses *dx.viz.js* as the most light-weight one of them. You can find these and other bundles in your [DevExtreme package](/Documentation/Guide/Common/DevExtreme_Packages/). For more information on linking libraries, refer to the [Installation](/Documentation/Guide/Data_Visualization/Basics/Installation/) topic.
+
+</article>

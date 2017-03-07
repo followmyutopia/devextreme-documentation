@@ -1,0 +1,19 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Slider marker text font opacity<!--/d-->
+===========================================================================
+<!--default-->undefined<!--/default-->
+<!--type-->number<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies the font opacity for the text displayed by the range selector slider markers.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

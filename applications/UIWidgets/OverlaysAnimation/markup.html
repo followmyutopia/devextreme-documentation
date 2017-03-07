@@ -1,0 +1,27 @@
+﻿<div class="button" data-bind="dxButton: { text: 'Show popup', onClick: showPopup }"></div>
+<div class="dx-fieldset">
+  <div class="dx-field">
+    <div style="width: 70%" class="dx-field-label">Animation Type</div>
+    <div style="width: 30%" class="dx-field-value" data-bind="dxSelectBox: {
+      dataSource: animationTypes,
+      value: animationType,
+      onValueChanged: typeChanged
+    }"></div>
+  </div>
+</div>
+<div id="myPopup" data-bind="dxPopup: { 
+        shading: false,
+        visible: popupVisible,
+        height: 170,
+        width: 200,
+        closeOnOutsideClick: true,
+        animation: animationConfig
+    }">
+    <div data-options="dxTemplate: { name: 'title' }">
+        <h1>Popup title</h1>
+    </div>
+    <div data-options="dxTemplate: { name: 'content' }">
+        <p>The popup content.</p>
+        <div id="close-button" class="button" data-bind="dxButton: { text: 'Hide popup', onClick: hidePopup }"></div>
+    </div>
+</div>

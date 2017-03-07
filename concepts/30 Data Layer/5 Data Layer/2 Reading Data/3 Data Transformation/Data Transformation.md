@@ -1,0 +1,1 @@
+The [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) includes several ways to customize the resulting array structure, which allows you to modify each item as well as process the entire array.

@@ -1,0 +1,19 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Map location lattitude<!--/d-->
+===========================================================================
+<!--default-->0<!--/default-->
+<!--type-->number<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+The latitude location of the widget.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

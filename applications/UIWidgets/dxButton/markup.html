@@ -1,0 +1,13 @@
+﻿<h1>Button types:</h1>
+<div class="dx-fieldset" data-bind="foreach: buttonTypes">
+    <div class="dx-field">
+        <div class="row-div" data-bind="text: $data"></div> <div data-bind="dxButton: { text: $data, type: $data, onClick: buttonClicked, icon: buttonIcon }"></div>
+    </div>
+</div>
+<div class="dx-fieldset">
+  <div class="dx-field">
+    <div class="dx-field-label">Icon</div>
+    <div class="dx-field-value" data-bind="dxSelectBox: { dataSource: iconsDataSource, value: buttonIcon }">
+    </div>
+  </div>
+</div>

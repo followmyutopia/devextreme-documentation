@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html ng-app="myApp">
+    <head>
+        <title>Configuring a Widget - Angular Approach</title>
+        <meta charset="utf-8" />
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-1.11.3.min.js"></script>
+        <![endif]-->
+        <!--[if gte IE 9]><!-->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-2.2.3.min.js"></script>
+        <!--<![endif]-->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/angular.js"></script>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/angular-sanitize.js"></script>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/dx.all.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/css/dx.light.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <!--//highlight-->
+    <body ng-controller="defaultCtrl">
+    <!--//highlight-->
+        <div dx-button="{
+            text: 'Generate random value',
+            <!--//highlight-->
+            onClick: clickHandler
+            <!--//highlight-->
+        }"></div>
+        <!--//highlight-->
+        <p>Random value: <b>{{randomValue}}</b></p>
+        <!--//highlight-->
+    </body>
+</html>

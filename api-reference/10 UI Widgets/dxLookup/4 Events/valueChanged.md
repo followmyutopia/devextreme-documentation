@@ -1,0 +1,67 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->An action performed when the value has been changed. 'value' argument specifies the widget value. 'previousValue' argument specifies the previous widget value.<!--/d-->
+===========================================================================
+<!--type-->EVENT<!--/type-->
+<!--fp1d-->Provides function parameters<!--/fp1d-->
+<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
+<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
+<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
+<!--fp1_field4d-->Returns the widget's new value<!--/fp1_field4d-->
+<!--fp1_field5d-->Returns the widget's previous value<!--/fp1_field5d-->
+<!--fp1_field6d-->Returns a jQuery event that caused the action's execution<!--/fp1_field6d-->
+===========================================================================
+
+<!--shortDescription-->
+Fires when the editor value changes.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+Instead, you can use the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onValueChanged) option to handle the event.
+
+Use the **selectedItem** field of the argument object passed to the [selectionChanged]({basewidgetpath}\events\#selectionChanged) event handler to access the selected item.
+
+#####See Also#####
+- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
+- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
+- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+<!--/fullDescription-->
+<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
+<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamDescription1-->
+Provides function parameters.
+<!--/typeFunctionParamDescription1-->
+<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamDescription1_field1-->
+Provides access to the widget instance.
+<!--/typeFunctionParamDescription1_field1-->
+<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamDescription1_field2-->
+An HTML element of the widget.
+<!--/typeFunctionParamDescription1_field2-->
+<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
+<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamDescription1_field3-->
+Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
+<!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamName1_field4-->value<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamDescription1_field4-->
+Specifies the widget's new value.
+<!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamName1_field5-->previousValue<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->object<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamDescription1_field5-->
+Specifies the widget's previous value.
+<!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamName1_field6-->jQueryEvent<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->jQueryEvent<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+A deprecated field. Use the itemData field instead.
+<!--/typeFunctionParamDescription1_field6-->

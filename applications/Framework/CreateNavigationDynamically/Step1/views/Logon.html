@@ -1,0 +1,11 @@
+﻿<!--//highlight-->
+<div data-options="dxView : { name: 'Logon', title: 'Welcome' } " >
+    <div  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div style="padding: 10px">
+            Log on as: 
+            <div data-bind="dxSelectBox: { items: users, value: selectedUser, displayExpr: 'text' }"></div>
+            <div data-bind="dxButton: { text: 'Log On', onClick: logon }"></div>
+        </div>
+    </div>
+</div>
+<!--//highlight-->

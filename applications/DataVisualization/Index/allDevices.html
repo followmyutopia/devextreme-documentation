@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html style="height:100%; width: 100%; padding: 0; margin: 0; overflow: hidden;">
+<head>
+    <title>Charts on Devices</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-1.11.3.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-2.2.3.min.js"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/knockout-3.4.0.js"></script>
+    <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/dx.viz.js"></script>
+
+</head>
+<body style="height:100%; width: 100%; padding: 0px; margin: 0px;overflow:hidden">
+    <div id="container" style="height:100%; width: 100%; margin: 10px"></div>
+<script type="text/javascript">    
+    $(function () {
+        if (!DevExpress.viz.renderers.Renderer) {
+            $("#container").append('This device is not supported.')
+            return;
+        }
+
+        var dataSource = [
+    { year: 2000, value1: 200, value2: 150, value3: 110 },
+    { year: 2001, value1: 180, value2: 110, value3: 205 },
+    { year: 2002, value1: 150, value2: 180, value3: 215 },
+    { year: 2003, value1: 170, value2: 190, value3: 240 },
+    { year: 2004, value1: 210, value2: 310, value3: 335 },
+    { year: 2005, value1: 190, value2: 240, value3: 225 },
+    { year: 2006, value1: 140, value2: 205, value3: 230 },
+    { year: 2007, value1: 120, value2: 180, value3: 220 },
+    { year: 2008, value1: 110, value2: 160, value3: 190 },
+    { year: 2009, value1: 145, value2: 120, value3: 175 }
+        ];
+
+        var settings = {
+            dataSource: dataSource,
+            commonSeriesSettings: {
+                argumentField: 'year',
+                type: 'splinearea'
+            },
+            commonAxisSettings: {
+                valueMarginsEnabled: false,
+                label: {
+                    font: { color: '#f17f21' }
+                }
+            },
+            argumentAxis: {
+                label: {
+                    overlappingBehavior: { mode: 'rotate', rotationAngle: 270 }
+                }
+            },
+            legend: {
+                verticalAlignment: 'bottom',
+                horizontalAlignment: 'center',
+                font: {
+                    //size: 10
+                }
+            },
+            series: [
+                { name: 'FL', valueField: 'value3', color: '#b0ec46', opacity: 0.6 },
+                { name: 'TX', valueField: 'value1', color: '#ff6600', opacity: 0.5 },
+                { name: 'CA', valueField: 'value2', color: '#ff6600', opacity: 0.5 }
+            ],
+            onSeriesClick: function (info)  {
+                //if (!this.fullState & 2) {
+                //    this.clearSelection()
+                //} else {
+                    info.target.select();
+                //}
+            },
+            title: 'Sales per State'
+        };
+
+        var parent = window.top;
+
+        var chartContainer = $("<div />").css({
+            "height": "100%",
+            "width": $("#container").innerWidth() - 20,
+            "background": "#fff"
+        });
+
+        $("#container").append(chartContainer);
+        if(window !== parent) {
+            var device = document.location.hash.replace("#", "");
+            chartContainer.attr("id", "chart-container-" + device);
+            $(parent).on("scroll", function() {
+                parent.chartInitializer.initChart(chartContainer, "dxChart", $.extend(true, {}, settings), true);
+            });
+        } else {
+            chartContainer.dxChart(settings);
+        }
+        
+    });
+</script>
+</body>
+</html>

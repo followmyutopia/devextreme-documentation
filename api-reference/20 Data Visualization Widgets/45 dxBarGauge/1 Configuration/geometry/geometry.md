@@ -1,0 +1,20 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Gauge geometry<!--/d-->
+===========================================================================
+<!--type-->object<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Defines the shape of the gauge's arc.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+Specify the **startAngle** and **endAngle** options of the **geometry** configuration object to customize the shape of the bar gauge's arc. This arc is drawn from the **startAngle** to the **endAngle** as illustrated by the following image.
+
+![GaugeGeometry ChartJS](/Content/images/doc/16_1/ChartJS/BarGaugeGeometry.png)
+<!--/fullDescription-->

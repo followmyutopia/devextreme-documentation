@@ -1,0 +1,16 @@
+﻿<div class="gallery" data-bind="dxGallery: {
+    dataSource: galleryData,
+    loop: loopEnabled,
+    slideshowDelay: slideshowDelayValue
+}">
+</div>
+<div class="dx-fieldset">
+    <div class="dx-field">
+        <div class="dx-field-label">Loop</div>
+        <div class="dx-field-value" data-bind="dxSwitch: { value: loopEnabled }"></div>
+    </div>
+    <div class="dx-field">
+        <p>Delay: <b data-bind="text: slideshowDelayValue"></b>ms</p>
+        <div data-bind="dxSlider: { min: 0, max: 5000, value: slideshowDelayValue }"></div>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Configure Gauges - jQuery Approach</title>
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-1.11.3.min.js"></script>
+        <![endif]-->
+        <!--[if gte IE 9]><!-->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/jquery-2.2.3.min.js"></script>
+        <!--<![endif]-->
+        <script type="text/javascript" src="/SharedStatic/DevExtreme/16_1/js/dx.viz-web.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_1/css/dx.light.css" />
+        <script type="text/javascript" src="circularGauge.js"></script>
+        <script type="text/javascript" src="linearGauge.js"></script>
+<!--//highlight-->
+        <script type="text/javascript" src="barGauge.js"></script>
+<!--//highlight-->
+        <script type="text/javascript" src="selectBox.js"></script>
+    </head>
+    <body>
+        <div style="width:inherit; text-align:center">
+            <div id="circularGaugeContainer" style="height:400px; width:300px; display: inline-block"></div>
+            <div id="linearGaugeContainer" style="height:400px; width:100px; display: inline-block"></div>
+        </div>
+        <div id="citySelector" style="width:150px; margin:5px auto"></div>
+<!--//highlight-->
+        <div id="barGaugeContainer" style="height:320px; width:400px; margin:0px auto"></div>
+<!--//highlight-->
+        <img style="margin:0px auto; display:block" src="/Content/images/poweredby-61x25.png"/>
+    </body>
+</html>

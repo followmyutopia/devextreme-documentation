@@ -1,0 +1,1 @@
+When records are grouped by a column, the groups are sorted according to the values of this column by default. To sort groups in a different way according to group summaries, use the grid's [sortByGroupSummaryInfo](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/sortByGroupSummaryInfo/) option.

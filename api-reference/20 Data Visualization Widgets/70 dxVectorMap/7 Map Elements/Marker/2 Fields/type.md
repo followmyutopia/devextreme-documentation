@@ -1,0 +1,23 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+<!--d-->Shows the type of underlying element - area or marker (it is not an option but a readonly flag)<!--/d-->
+<!--dep-->..\..\Layer\2 Fields\type.md<!--/dep-->
+===========================================================================
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--deprecated-->
+Use the **Layer** | **type** instead.
+<!--/deprecated-->
+
+<!--shortDescription-->
+Contains the type of the element.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+This field can be used to recognize whether an element is an area or a marker since it equals either the *'area'* or *'marker'*.
+<!--/fullDescription-->

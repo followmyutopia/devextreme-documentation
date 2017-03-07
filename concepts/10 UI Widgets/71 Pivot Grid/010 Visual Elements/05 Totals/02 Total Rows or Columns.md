@@ -1,0 +1,3 @@
+Total Rows and Total Columns display sub-totals calculated for outer row/column fields. For example, if you expand the UK group, you will see the rows characterizing cities and also a **UK Total** row. This row is equal to the collapsed **UK** row.
+
+Total rows can be enabled or disabled with the [showColumnTotals](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#showColumnTotals) option, and total columns &#8212; the [showRowTotals](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#showRowTotals) option. You can also change the location of total rows or columns using the [showTotalsPrior](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#showTotalsPrior) option.

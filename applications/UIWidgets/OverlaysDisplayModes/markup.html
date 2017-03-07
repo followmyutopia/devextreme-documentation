@@ -1,0 +1,21 @@
+﻿<div class="button" data-bind="dxButton: { text: 'Show popup', onClick: showPopup }"></div>
+<div data-bind="dxPopup: { visible: popupVisible, fullScreen: popupFullScreen, shading: popupShading, title: 'My Popup', shadingColor: shadingColor }">
+    <div data-options="dxTemplate:{ name: 'content' }">
+        <div class="button" data-bind="dxButton: { text: 'Hide popup', onClick: hidePopup }"></div>
+        <p>The popup contents.</p>
+    </div>
+</div>
+<div class="dx-fieldset">
+  <div class="dx-field">
+    <div class="dx-field-label">fullScreen</div>
+    <div class="dx-field-value" data-bind="dxSwitch: { value: popupFullScreen }"></div>
+  </div>
+  <div class="dx-field">
+    <div class="dx-field-label">shading</div>
+    <div class="dx-field-value" data-bind="dxSwitch: { value: popupShading }"></div>
+  </div>
+  <div class="dx-field">
+    <div class="dx-field-label">shadingColor</div>
+    <div class="dx-field-value" data-bind="dxTextBox: { value: shadingColor }"></div>
+  </div>
+</div>
