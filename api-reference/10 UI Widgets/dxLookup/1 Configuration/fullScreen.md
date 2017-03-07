@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether to show the dialog of widget in full-screen mode.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--custom_default_for_windows_phone_8-->true<!--/custom_default_for_windows_phone_8-->

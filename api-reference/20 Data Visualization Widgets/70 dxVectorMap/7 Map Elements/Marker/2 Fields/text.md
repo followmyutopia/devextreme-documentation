@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Shows the text of underlying element - area or marker (it is not an option but a readonly flag)<!--/d-->
-<!--dep-->Get the text with the 'attribute' method (using the 'layers.label.dataField' value)<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--type-->string<!--/type-->
 ===========================================================================

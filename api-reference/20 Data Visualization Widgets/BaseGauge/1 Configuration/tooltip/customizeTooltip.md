@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tooltip custom format, color, borderColor and fontColor function. Return object  {color: string; text:string; fontColor: string; borderColor: string}<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(scaleValue)<!--/type-->
-<!--fp1d-->Defines a scale value to be displayed in a tooltip.<!--/fp1d-->
-<!--fp1_field1d-->Specifies the scale value represented by a tooltip.<!--/fp1_field1d-->
-<!--fp1_field2d-->Specifies the scale value with an applied format, if the format and precision (optional) properties are specified.<!--/fp1_field2d-->
-<!--frd-->Specifies the text to be displayed in a tooltip and a color for the tooltip.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -39,7 +34,7 @@ Specifies the HTML markup displayed by a tooltip.
 
 When implementing the function for this option, you can access the scale value represented by a tooltip. This value can be accessed using the fields of the object that is passed as the function's parameter. Alternatively, you can use the **this** object within the function. This object has the same structure as the object passed as a parameter.
 
-To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Data_Visualization/Common/Data_Formatting/) topic.
+To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

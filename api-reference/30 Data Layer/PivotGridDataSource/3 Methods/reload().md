@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Initiates data loading. Async function.
-<!--/d-->
-<!--rd-->A Promise of jQuery Deferred object which is resolved when load in complete and rejected if load fails<!--/rd-->
 ===================================================================
 ===================================================================
 

@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Collapse all rows by group with groupIndex or by all groups when groupIndex is undefined
-<!--/d-->
-<!--p1d-->Index of group<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -22,5 +18,5 @@ The index of the groups to collapse. Pass <i>undefined</i> to collapse all group
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-Learn more from the [Expanding and Collapsing Groups](/Documentation/Guide/UI_Widgets/Data_Grid/Grouping/#Expanding_and_Collapsing_Groups) topic.
+Learn more from the [Expanding and Collapsing Groups](/Documentation/Guide/Widgets/DataGrid/Grouping/#Expanding_and_Collapsing_Groups) topic.
 <!--/fullDescription-->

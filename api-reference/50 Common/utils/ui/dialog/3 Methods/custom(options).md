@@ -4,16 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Creates a custom dialog on the base of the options passed as a parameter.
-<!--/d-->
-<!--p1d-->An object specifying the dialog options.<!--/p1d-->
-<!--p1_field1d-->Specifies the dialog's title.<!--/p1_field1d-->
-<!--p1_field2d-->Specifies the message displayed by the dialog.<!--/p1_field2d-->
-<!--p1_field3d-->Each item in this array represents options for a button to be displayed in the dialog.<!--/p1_field3d-->
-<!--rd-->A dialog object.<!--/rd-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_dialog">ui/dialog</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_dialog">ui/dialog</a><!--/module-->
 <!--export-->custom<!--/export-->
 ===================================================================
 

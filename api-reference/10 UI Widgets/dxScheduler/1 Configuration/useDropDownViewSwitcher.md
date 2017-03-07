@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether to use a dxDropDownMenu to switch views<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--custom_default_for_mobile-->true<!--/custom_default_for_mobile-->

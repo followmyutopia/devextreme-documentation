@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options for showing animation<!--/d-->
 ===========================================================================
 <!--default-->{ type: 'fade', from: 0, to: 1, duration: 100 }<!--/default-->
 <!--type-->animationConfig<!--/type-->

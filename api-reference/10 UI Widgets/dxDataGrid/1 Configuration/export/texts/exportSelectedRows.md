@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Text of export selected data for a dropDown menu item<!--/d-->
 ===========================================================================
 <!--default-->'Export selected rows'<!--/default-->
 <!--type-->string<!--/type-->

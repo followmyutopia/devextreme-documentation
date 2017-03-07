@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Syncronous version of enumerate(). Available only for wrapped array, not available for remote queries.
-<!--/d-->
-<!--rd-->query result<!--/rd-->
 ===================================================================
 ===================================================================
 

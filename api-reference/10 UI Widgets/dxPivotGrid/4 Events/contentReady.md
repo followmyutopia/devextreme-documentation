@@ -7,10 +7,6 @@
 <!--merge--><!--/merge-->
 <!--hidden-->false<!--/hidden-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
 ===========================================================================
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
@@ -21,7 +17,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->

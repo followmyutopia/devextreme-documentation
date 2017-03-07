@@ -4,15 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Point click event<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Event argument<!--/fp1d-->
-<!--fp1_field1d-->Widget itself.<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container.<!--/fp1_field2d-->
-<!--fp1_field3d-->An extended jQuery event.<!--/fp1_field3d-->
-<!--fp1_field4d-->Point clicked point.<!--/fp1_field4d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -25,9 +19,9 @@ When implementing a handling function, use the object passed to it as its parame
 [note] A click on a series point causes the [seriesClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesClick) event to fire after the **pointClick** event. To prevent this behavior, assign *true* to the **jQueryEvent.cancel** field of the object passed to the **pointClick** event handler as the argument.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

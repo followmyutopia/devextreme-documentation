@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Starts all the registered animations
-<!--/d-->
-<!--rd-->Promise of jQuery.Deferred which resolves when all the animations are finished<!--/rd-->
 ===================================================================
 ===================================================================
 

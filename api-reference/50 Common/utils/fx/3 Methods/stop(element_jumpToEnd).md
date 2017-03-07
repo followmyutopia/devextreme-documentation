@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Stop the currently-running animations on the element.
-<!--/d-->
-<!--p1d-->The animated object.<!--/p1d-->
-<!--p2d-->Specifies whether to setup final values of the animation configuration.<!--/p2d-->
 ===================================================================
 ===================================================================
 

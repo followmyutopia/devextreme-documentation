@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Set to 'useCalendar' to true to display a drop-down calendar instead of rotating drum pickers. The only supported format is 'date'.<!--/d-->
-<!--dep-->Use 'pickerType' option instead.<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

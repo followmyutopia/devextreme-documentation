@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines markers influence to center and zoom option. Affect only on google and bing map adapters.<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

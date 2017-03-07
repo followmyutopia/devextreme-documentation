@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->End-user action uses to show sub-menu<!--/d-->
 ===========================================================================
 <!--default-->{ name: 'onHover', delay: { show: 0, hide: 0 } }<!--/default-->
 <!--acceptValues-->'onHover' | 'onClick'<!--/acceptValues-->
@@ -16,5 +15,5 @@ Specifies options of submenu showing and hiding.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option using the `ShowSubmenuMode` enum. This enum accepts the following values: `OnHover` and `OnClick`.
 <!--/fullDescription-->

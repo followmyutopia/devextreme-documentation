@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns current scroll offset.
-<!--/d-->
-<!--rd-->An object { top: scrollTop, left: scrollLeft }, where scrollTop and scrollLeft is left and top scroll offsets accordingly.<!--/rd-->
 ===================================================================
 ===================================================================
 

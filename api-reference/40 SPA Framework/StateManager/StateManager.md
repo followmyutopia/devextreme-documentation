@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->StateManager implementation<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_state_manager">framework/state_manager</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_state_manager">framework/state_manager</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 ===========================================================================
 

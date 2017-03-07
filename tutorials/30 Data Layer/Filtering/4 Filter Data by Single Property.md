@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_1/DataLayer/Filtering/Step5/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/16_2/DataLayer/Filtering/Step5/markup.html" data-show-first="script.js">
 
 To filter data items by a single property, the filter expression should be an array containing the required [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters), comparison operator and value to which the getter value is compared. If you use the default comparison operator (**"="**), the second filtering expression element can be omitted.
 

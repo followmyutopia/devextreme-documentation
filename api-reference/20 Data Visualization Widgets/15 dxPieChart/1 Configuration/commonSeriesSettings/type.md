@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common series type<!--/d-->
-<!--dep-->use the 'type' option instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->'pie'<!--/default-->
 <!--acceptValues-->'pie' | 'doughnut' | 'donut'<!--/acceptValues-->

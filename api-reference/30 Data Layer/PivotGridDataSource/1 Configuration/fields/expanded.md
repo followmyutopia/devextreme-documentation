@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Auto expand all values that correspond to the current field<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

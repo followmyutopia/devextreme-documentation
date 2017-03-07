@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Check existing unsaved changes
-<!--/d-->
-<!--rd-->A Boolean value specifying existing unsaved changes<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -21,5 +17,5 @@ Returns *true* if the grid contains any unsaved changes.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-This method is a part of the [Editing](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Editing/) feature. Refer to the **Guides** section to learn more about how to use it.
+This method is a part of the [Editing](/Documentation/Guide/Widgets/DataGrid/Data_Editing/) feature. Refer to the **Guides** section to learn more about how to use it.
 <!--/fullDescription-->

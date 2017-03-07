@@ -23,9 +23,6 @@
         sliderMarker: {
             visible: false
         },
-        selectedRange: {
-            startValue: 25000,
-            endValue: 35000
-        }
+        value: [25000, 35000]
     });
 });

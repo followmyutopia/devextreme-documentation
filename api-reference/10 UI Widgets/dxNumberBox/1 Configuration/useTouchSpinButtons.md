@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether to show touch friendly spin buttons.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->false<!--/default-->

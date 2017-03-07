@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Boolean value specifying whether or not to enable editing of alpha channel.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

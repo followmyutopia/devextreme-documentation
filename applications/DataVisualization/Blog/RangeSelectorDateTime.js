@@ -10,9 +10,6 @@
         sliderMarker: {
             format: "month"
         },
-        selectedRange: {
-            startValue: new Date(2006, 4, 1),
-            endValue: new Date(2009, 2, 1)
-        }
+        value: [new Date(2006, 4, 1), new Date(2009, 2, 1)]
     });
 });

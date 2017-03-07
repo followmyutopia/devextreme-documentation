@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines custom search expression for dataSource.<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->getter | array<!--/type-->

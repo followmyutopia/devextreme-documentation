@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Boolean value specifying whether or not to stretch images according to the page width.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

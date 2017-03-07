@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name of the data source item field used as an exception rule of appointment.<!--/d-->
 ===========================================================================
 <!--default-->'recurrenceException'<!--/default-->
 <!--type-->string<!--/type-->

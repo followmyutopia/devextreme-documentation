@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Argument axis type<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'discrete' | 'continuous' | 'logarithmic'<!--/acceptValues-->
@@ -25,4 +24,6 @@ The 'logarithmic' type can be set when numeric values are specified in the serie
 On continuous and logarithmic axes, ticks and grid lines are positioned so that their labels do not overlap each other. In addition, you can set a custom tick interval (the [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/tickInterval/) or [axisDivisionFactor](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#axisDivisionFactor) options).
 
 [note] If you require a discrete axis when numeric or date-time arguments are specified in the data source, set the **type** option to 'discrete' explicitly.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `AxisScaleType` enum. This enum accepts the following values: `Discrete`, `Continuous` and `Logarithmic`.
 <!--/fullDescription-->

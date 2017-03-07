@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Direction hatching area<!--/d-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'none' | 'right' | 'left'<!--/acceptValues-->
@@ -24,4 +23,6 @@ Does not apply hatching.
 Draws diagonal hatching lines from left to right upwards.
 * **left**   
 Draws diagonal hatching lines from left to right downwards.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `HatchingDirection` enum. This enum accepts the following values: `Right`, `Left` and `None`.
 <!--/fullDescription-->

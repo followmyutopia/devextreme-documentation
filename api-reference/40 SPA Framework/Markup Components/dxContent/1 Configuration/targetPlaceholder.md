@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the ContentPlaceholder name where to place the content.<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->string<!--/type-->

@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Group Continued Message<!--/d-->
 ===========================================================================
 <!--default-->'Continued from the previous page'<!--/default-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the message displayed in a [group row](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Group_Rows) when the corresponding group is continued from the previous page.
+Specifies the message displayed in a [group row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) when the corresponding group is continued from the previous page.
 <!--/shortDescription-->
 
 <!--fullDescription-->

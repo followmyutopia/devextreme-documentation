@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the history behavior of app. 'mobileApp' - stack based history. 'webSite' - plain browser like history.<!--/d-->
 ===========================================================================
 <!--default-->'mobileApp'<!--/default-->
 <!--acceptValues-->'mobileApp' | 'webSite'<!--/acceptValues-->

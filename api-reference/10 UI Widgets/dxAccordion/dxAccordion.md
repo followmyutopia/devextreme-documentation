@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Accordion widget.<!--/d-->
 <!--widgettree-->
 dataSource: [
 {
@@ -17,7 +16,8 @@ dataSource: [
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_accordion">ui/accordion</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_accordion">ui/accordion</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
@@ -31,33 +31,22 @@ The **Accordion** widget contains several panels displayed one under another. Th
 <!--fullDescription-->
 You can create the **Accordion** widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxAccordion` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div id="accordion"></div>
 
     <!---->
 
-        <!--JavaScript-->
-        $("#accordion").dxAccordion({
-            dataSource: accordionData,
-            collapsible: true,
-            multiple: true
+        <!--JavaScript-->$(function () {
+            $("#accordion").dxAccordion({
+                dataSource: accordionData,
+                collapsible: true,
+                multiple: true
+            });
         });
-
-- **Knockout**  
- Add a div element and apply the `dxAccordion` binding to this element.
-
-        <!--HTML-->
-        <div data-bind="dxAccordion: {
-            dataSource: accordionData,
-            collapsible: true,
-            multiple: true
-        }"></div>
-
-- **AngularJS**  
- Add a div element and apply the `dx-accordion` directive to this element.
+        
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div dx-accordion="{
@@ -66,11 +55,29 @@ You can create the **Accordion** widget using one of the following approaches.
             multiple: true
         }"></div>
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-Since the **Accordion** widget is used to display multiple items, it supports common Collection Container widget functionality. You can find the detailed information on principles of working with the widget in the [dxAccordion section](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#List_of_Collection_Container_Widgets/dxAccordion) of the [Collection Container Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/) article.
+        <!--HTML-->
+        <div data-bind="dxAccordion: {
+            dataSource: accordionData,
+            collapsible: true,
+            multiple: true
+        }"></div>
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigationaccordionaccordionaccordion/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-<a href="http://www.youtube.com/watch?v=Dd0Nb6AU4B8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=45" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
+        @(Html.DevExtreme().Accordion()
+            .ID("accordion")
+            .DataSource(AccordionData)
+            .Collapsible(true)
+            .Multiple(true)
+        )
+
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+
+<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigationaccordionaccordionaccordion/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+<a href="http://www.youtube.com/watch?v=Dd0Nb6AU4B8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=45" class="button orange small fix-width-155" target="_blank">Watch Video</a>
+
+#####See Also#####
+- [Accordion - Overview](/Documentation/Guide/Widgets/Accordion/Overview/)
 <!--/fullDescription-->

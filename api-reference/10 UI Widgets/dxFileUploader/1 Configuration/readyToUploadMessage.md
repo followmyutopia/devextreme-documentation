@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The message which is displayed when file is ready for upload<!--/d-->
 ===========================================================================
 <!--default-->'Ready to upload'<!--/default-->
 <!--type-->string<!--/type-->

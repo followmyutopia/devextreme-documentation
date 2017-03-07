@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Initial bag of custom query parameters to be appended to the request query. Passed to DataStore during loading (ODataStore specific).<!--/d-->
 ===========================================================================
 <!--type-->Object<!--/type-->
 ===========================================================================

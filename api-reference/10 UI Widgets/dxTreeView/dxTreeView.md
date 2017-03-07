@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->dxTreeView widget<!--/d-->
 <!--widgettree-->
 dataSource: [{
     id: "1",
@@ -97,7 +96,8 @@ dataSource: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tree_view">ui/tree_view</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tree_view">ui/tree_view</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\HierarchicalCollectionWidget\HierarchicalCollectionWidget.md<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
@@ -111,8 +111,7 @@ The **TreeView** widget is a tree-like representation of textual data.
 <!--fullDescription-->
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxTreeView` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div id="treeView"></div>
@@ -120,8 +119,8 @@ You can create the widget using one of the following approaches.
     <!---->
 
         <!--JavaScript-->
-        var treeViewData = [
-            { id: 1, parentId: 0, text: "Animals" },
+        var species = [
+            { id: 1, parentId: 0, text: "Species" },
             { id: 2, parentId: 1, text: "Cat" },
             { id: 3, parentId: 1, text: "Dog" },
             { id: 4, parentId: 1, text: "Cow" },
@@ -137,36 +136,64 @@ You can create the widget using one of the following approaches.
             { id: 14, parentId: 12, text: "Arizona Woodpecker" },
             { id: 15, parentId: 12, text: "Black-chinned Sparrow" }
         ];
-        $("#treeView").dxTreeView({
-            dataSource: treeViewData,
-            dataStructure: 'plain'
+        $(function () {
+            $("#treeView").dxTreeView({
+                dataSource: species,
+                dataStructure: 'plain'
+            });
         });
 
-- **Knockout**  
- Add a div element and apply the `dxTreeView` binding to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+        <!--HTML--><div ng-controller="DemoController">
+            <div dx-tree-view="{
+                dataSource: species,
+                dataStructure: 'plain'
+            }"></div>
+        </div>
+
+    <!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller("DemoController", function ($scope) {
+                $scope.species = [
+                    // ...   
+                ];
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div data-bind="dxTreeView: {
-            dataSource: treeViewData,
+            dataSource: species,
             dataStructure: 'plain'
         }"></div>
 
-- **AngularJS**  
- Add a div element and apply the `dx-tree-view` directive to this element.
+    <!---->
 
-        <!--HTML-->
-        <div dx-tree-view="{
-            dataSource: treeViewData,
-            dataStructure: 'plain'
-        }"></div>
+        <!--JavaScript-->var viewModel = {
+            species: [
+                // ...
+            ]
+        };
+        ko.applyBindings(viewModel);
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-Since the **TreeView** widget is used to display multiple items, it supports common Collection Container widget functionality. You can find detailed information on the principles of working with the widget in the [dxTreeView section](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#List_of_Collection_Container_Widgets/dxTreeView) of the [Collection Container Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/) article.
+        @(Html.DevExtreme().TreeView()
+            .ID("treeView")
+            .DataSource(Species)
+            .DataStructure(TreeViewDataStructure.Plain)
+        )
+
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 [note]The **TreeView** widget requires each data source item to contain at least a [key](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#keyExpr) field. Thus, the widget does not support data sources consisting of value items.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigationtreeviewtreeviewsimpletreeview/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigationtreeviewtreeviewsimpletreeview/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+<a href="http://www.youtube.com/watch?v=j3d94lzW4Vw&index=41&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
-<a href="http://www.youtube.com/watch?v=j3d94lzW4Vw&index=41&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
+#####See Also#####
+- [TreeView - Overview](/Documentation/Guide/Widgets/TreeView/Overview/)
+- [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
 <!--/fullDescription-->

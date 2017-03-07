@@ -4,9 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Clear sorting
-<!--/d-->
 ===================================================================
 ===================================================================
 
@@ -15,5 +12,5 @@ Clears sorting settings of all grid columns at once.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For more information about sorting in **DataGrid**, see the [Sorting](/Documentation/Guide/UI_Widgets/Data_Grid/Sorting/) topic.
+For more information about sorting in **DataGrid**, see the [Sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/) topic.
 <!--/fullDescription-->

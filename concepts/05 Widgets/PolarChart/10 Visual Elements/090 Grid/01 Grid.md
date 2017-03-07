@@ -1,0 +1,22 @@
+A grid is a set of lines that improves the readability of chart data. Grid lines are drawn from axis ticks through the entire chart at the tick's value or argument. If you use grid lines on your chart, it is not necessary to make ticks visible.
+
+![Grid](/Content/images/doc/16_2/ChartJS/Polar_Grids.png)
+
+Grid lines are child elements of the argument and value axes. To change their settings, define the [grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/grid/) object within the **argumentAxis**, **valueAxis** or **commonAxisSettings** configuration object.
+
+	<!--JavaScript-->var polarChartOptions = {
+		commonAxisSettings: {
+			grid: {
+				//...
+			}
+		},
+		//...
+	};
+
+The following list overviews grid options.
+
+* **Visibility**		
+To make a grid visible/invisible, use the **grid** object's [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/grid/#visible) property.
+
+* **Appearance**		
+You can change the grid's default color, width and opacity using the [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/grid/#color), [width](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/grid/#width) and [opacity](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/grid/#opacity) properties of the **grid** object.

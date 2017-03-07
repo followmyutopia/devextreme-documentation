@@ -4,29 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called when a row click event is thrown<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Event info.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->The jQuery event.<!--/fp1_field4d-->
-<!--fp1_field5d-->The object of a data source represented by the clicked row.<!--/fp1_field5d-->
-<!--fp1_field6d-->Key of the clicked row<!--/fp1_field6d-->
-<!--fp1_field7d-->The values of the clicked row as they exist in a data source.<!--/fp1_field7d-->
-<!--fp1_field8d-->An array of grid columns.<!--/fp1_field8d-->
-<!--fp1_field9d-->The index of the clicked row.<!--/fp1_field9d-->
-<!--fp1_field10d-->The type of the clicked row.<!--/fp1_field10d-->
-<!--fp1_field11d-->Indicates whether the clicked row is selected.<!--/fp1_field11d-->
-<!--fp1_field12d-->Indicates whether the clicked row is expanded.<!--/fp1_field12d-->
-<!--fp1_field13d-->The group index of the clicked row.<!--/fp1_field13d-->
-<!--fp1_field14d-->The clicked row as an element.<!--/fp1_field14d-->
-<!--fp1_field15d-->Indicates whether the rowClick event is handled by grid.<!--/fp1_field15d-->
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a user clicks a [grid row](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows).
+Fires when a user clicks a [grid row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows).
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -36,14 +19,14 @@ When implementing a handling function for this event, use the object passed to t
 
 [note]If there are any internal grid handlers for the row click, the **rowClick** event fires only after these handlers are executed. In this case, the **handled** field of the handler parameter is set to *true*.
 
-In addition, you can perform certain actions when a user clicks a cell. For this purpose, handle the [cellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#cellClick) event. Note that the **cellClick** fires before **rowClick**.
+In addition, you can perform certain actions when a user clicks a cell. For this purpose, handle the [cellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#cellClick) event. Note that the **cellClick** fires before the **rowClick**.
 
 [note] When the clicked row is in the editing state, or switches to the editing state, the **rowClick** event will not fire. Instead, you can use the **cellClick**.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -53,7 +36,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -88,32 +71,32 @@ Values of the clicked row as they exist in the data source.
 <!--typeFunctionParamName1_field8-->columns<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->array<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-Grid columns. Each column in this array is represented by an object with column settings. The order of columns in this array and columns in the <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/">columns</a> array coincides.
+Grid columns. Each column in this array is represented by an object with column settings. The order of columns in this array and columns in the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/">columns</a> array coincides.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->rowIndex<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->number<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The <i>visible</i> index of the clicked row. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Group_Rows">group rows</a> are also counted and, thus, have row indexes. For further information about row indexes, see the <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows">Grid Rows</a> topic.
+The <i>visible</i> index of the clicked row. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows">group rows</a> are also counted and, thus, have row indexes. For further information about row indexes, see the <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows">Grid Rows</a> topic.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rowType<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->string<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-The type of the clicked row. This field equals <i>'data'</i> for <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows">ordinary rows</a>, <i>'group'</i> for <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Group_Rows">group rows</a> or <i>'detail'</i> for <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/">detail sections</a>. Use this field to distinguish rows by type.
+The type of the clicked row. This field equals <i>'data'</i> for <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows">ordinary rows</a>, <i>'group'</i> for <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows">group rows</a> or <i>'detail'</i> for <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/">detail sections</a>. Use this field to distinguish rows by type.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->isSelected<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->boolean<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Indicates whether the clicked row is <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Selection/">selected</a>.
+Indicates whether the clicked row is <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Selection/">selected</a>.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->isExpanded<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-Indicates whether or not the <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Group_Rows">group row</a> is expanded. This field is useful if the <b>rowType</b> field is <i>'group'</i>.
+Indicates whether or not the <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows">group row</a> is expanded. This field is useful if the <b>rowType</b> field is <i>'group'</i>.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->groupIndex<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->number<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-The <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex">group index</a> of the clicked row. This field is useful if the <b>rowType</b> field is <i>'group'</i>.
+The <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex">group index</a> of the clicked row. This field is useful if the <b>rowType</b> field is <i>'group'</i>.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->rowElement<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->jQuery<!--/typeFunctionParamType1_field14-->

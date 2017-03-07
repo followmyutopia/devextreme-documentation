@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Point hover changed event<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Event argument<!--/fp1d-->
-<!--fp1_field1d-->Widget itself.<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container.<!--/fp1_field2d-->
-<!--fp1_field3d-->Point. The point whose hover state has been currently changed.<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -22,9 +17,9 @@ Fires when the hover state of a series point has been changed.
 When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the series point whose hover state has been changed. To identify whether this point was hovered over or hovered out, call its [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/Methods/#isHovered) method. To discover point fields and methods, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) class description.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

@@ -4,15 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Text of cells in column custom format function<!--/d-->
 ===========================================================================
 <!--type-->function(cellInfo)<!--/type-->
-<!--fp1d-->The value of a cell.<!--/fp1d-->
-<!--fp1_field1d-->This value as it is specified in the data source.<!--/fp1_field1d-->
-<!--fp1_field2d-->This value with applied format and precision.<!--/fp1_field2d-->
-<!--fp1_field3d-->Available values 'row', 'filterRow', 'headerFilter' and 'search'.<!--/fp1_field3d-->
-<!--fp1_field4d-->Specifies how header filter values should be combined into groups.<!--/fp1_field4d-->
-<!--frd-->The text to be displayed in a cell.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -47,7 +40,7 @@ Indicates the type of the UI element where the <b>customizeText</b> function was
 <!--typeFunctionParamName1_field4-->groupInterval<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string|number<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Indicates how header filter values were combined into groups. Available if <b>target</b> is <i>"headerFilter"</i>.<br />For possible values, see the description of the <b>headerFilter</b> | <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval">groupInterval</a> option.
+Indicates how header filter values were combined into groups. Available if <b>target</b> is <i>"headerFilter"</i>.<br />For possible values, see the description of the <b>headerFilter</b> | <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval">groupInterval</a> option.
 <!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

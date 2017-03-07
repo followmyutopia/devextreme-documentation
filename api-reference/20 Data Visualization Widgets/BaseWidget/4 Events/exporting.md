@@ -4,15 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called before exporting data<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Information about export.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->File name of exproting file<!--/fp1_field4d-->
-<!--fp1_field5d-->Cancel exporting<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -23,9 +16,9 @@ Fires before data from the widget is exported.
 To perform a custom action before data from the widget is exported, implement a handler for this event. Within this handler, you can use the object passed to it as the parameter. For example, using the **cancel** field of this object, you can cancel exporting.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 - [export]({basewidgetpath}/Configuration/export) - configures client-side export and printing.
 - [exported]({basewidgetpath}/Events#exported) - an event that fires after data from the widget is exported.
 - [fileSaving]({basewidgetpath}/Events#fileSaving) - an event that fires before a file with exported data is saved on the user's local storage.

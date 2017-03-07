@@ -4,21 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called when a validate cell or row is executed<!--/d-->
 <!--EventForAction-->..\4 Events\rowValidating.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
-<!--fp1d-->Event argument.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->An array of broken rules<!--/fp1_field4d-->
-<!--fp1_field5d-->Indicates whether all the rules checked for the specified group are satisfied.<!--/fp1_field5d-->
-<!--fp1_field6d-->The key of the row. If a field providing keys is not specified in a data source, the whole data object is considered the key.<!--/fp1_field6d-->
-<!--fp1_field7d-->Data of the row with user changes<!--/fp1_field7d-->
-<!--fp1_field8d-->Data of the row before user changes<!--/fp1_field8d-->
-<!--fp1_field9d-->Text for the error row displayed for this row<!--/fp1_field9d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -38,7 +27,7 @@ Provides function parameters.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -53,7 +42,7 @@ Data that is available for binding against the element. Available only in the Kn
 <!--typeFunctionParamName1_field4-->brokenRules<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-An array of broken rules. The structure of rule objects is described in the <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxValidator/Validation_Rules/">Validation Rules</a> section.
+An array of broken rules. The structure of rule objects is described in the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxValidator/Validation_Rules/">Validation Rules</a> section.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->isValid<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->boolean<!--/typeFunctionParamType1_field5-->

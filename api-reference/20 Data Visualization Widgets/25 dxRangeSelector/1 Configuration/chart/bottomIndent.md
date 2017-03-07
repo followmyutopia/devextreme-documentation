@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Offset from bottom of chart to minimum value of chart points in proportion value of chart height<!--/d-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->number<!--/type-->

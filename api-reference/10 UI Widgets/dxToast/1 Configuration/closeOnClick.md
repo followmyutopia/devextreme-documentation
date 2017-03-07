@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Boolean value specifying whether or not the toast is closed if a user clicks it.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

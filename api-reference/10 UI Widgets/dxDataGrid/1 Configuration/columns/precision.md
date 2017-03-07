@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Text format precision for cells of column<!--/d-->
-<!--dep-->Use 'format.precision' instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->

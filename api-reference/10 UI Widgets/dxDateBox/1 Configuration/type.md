@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The type used to display date/time information.<!--/d-->
 ===========================================================================
 <!--default-->'date'<!--/default-->
 <!--acceptValues-->'date' | 'time' | 'datetime'<!--/acceptValues-->
@@ -22,5 +21,5 @@ You can assign the following values to this option:
 - time - the widget displays only the time;
 - datetime - the widget displays both the date and time.
 
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `DateBoxType` enum. This enum accepts the following values: `Date`, `DateTime` and `Time`.
 <!--/fullDescription-->

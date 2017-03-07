@@ -4,9 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Represents a universal chainable data query interface. Feature support depends on implementation. Array and OData support everything (OData falls back to client evaluation for operations not supported on server).<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_query">data/query</a><!--/module-->
 <!--type-->object<!--/type-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js

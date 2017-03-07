@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_1/DataVisualization/UseRemoteDataforChart/Step4/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/16_2/DataVisualization/UseRemoteDataforChart/Step4/chart.html" data-show-first="chart.js">
 In this concluding step, you will make several minor corrections to the chart appearance. Relocate the chart legend to the bottom so that it occupies less space. For this purpose, use the **horizontalAlignment** and **verticalAlignment** options of the [legend](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/legend/) configuration object.
 
 As this demo deals with "days", there is no need to display arguments that go beyond the [1; 31] range. To restrict the argument axis to this range, remove the left and right margins by setting the [valueMarginsEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#valueMarginsEnabled) option to *false*.

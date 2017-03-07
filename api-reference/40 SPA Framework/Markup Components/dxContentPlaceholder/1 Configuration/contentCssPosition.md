@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the CSS position value of the container content.<!--/d-->
 ===========================================================================
 <!--default-->'absolute'<!--/default-->
 <!--acceptValues-->'absolute' | 'static'<!--/acceptValues-->

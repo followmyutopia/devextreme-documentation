@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Text of summary items in column custom format function<!--/d-->
 ===========================================================================
 <!--type-->function(itemInfo)<!--/type-->
-<!--fp1d-->The value of a summary item.<!--/fp1d-->
-<!--fp1_field1d-->This value as it is specified in the data source.<!--/fp1_field1d-->
-<!--fp1_field2d-->This value with applied format and precision.<!--/fp1_field2d-->
-<!--frd-->The text to be displayed in a summary item.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -33,7 +28,7 @@ Summary item value as it was calculated.
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Summary item value with applied <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#valueFormat">format</a>.
+Summary item value with applied <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#valueFormat">format</a>.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

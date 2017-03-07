@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Select list item.
-<!--/d-->
-<!--p1d-->The item index. For grouped list index represents as object with group and item indices e.g. { group: 0, item: 0 }.<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -32,4 +28,7 @@ Note that the result of the method execution depends on the current value of the
 
 - **multi** and **all**
  The method adds the specified item to the list of currently selected items.
+
+#####See Also#####
+- [List - Selection API](/Documentation/Guide/Widgets/List/Selection/#API)
 <!--/fullDescription-->

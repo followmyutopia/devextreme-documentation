@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Gets an array of points from the base Series point collection based on the specified argument.
-<!--/d-->
-<!--p1d-->The argument of the points to be found.<!--/p1d-->
-<!--rd-->The array of points that is found by the specified argument.<!--/rd-->
 ===================================================================
 ===================================================================
 

@@ -5,9 +5,6 @@ $(function () {
             endValue: new Date(2012, 3, 10),
             minRange: { days: 14 }
         },
-        selectedRange: {
-            startValue: new Date(2012, 2, 5),
-            endValue: new Date(2012, 2, 19)
-        }
+        value: [new Date(2012, 2, 5), new Date(2012, 2, 19)]
     });
 });

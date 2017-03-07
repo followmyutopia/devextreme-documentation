@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Chart type<!--/d-->
 ===========================================================================
 <!--default-->'pie'<!--/default-->
 <!--acceptValues-->'pie' | 'doughnut' | 'donut'<!--/acceptValues-->
@@ -16,5 +15,7 @@ Specifies the type of the pie chart series.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-See <a href="/Documentation/16_1/Guide/Data_Visualization/Charts/PieChart_Series_Types">PieChart Series Types</a> for details.
+See <a href="/Documentation/16_2/Guide/Widgets/PieChart/Series_Types/">PieChart Series Types</a> for details.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PieChartType` enum. This enum accepts the following values: `Pie`, `Doughnut` and `Donut`.
 <!--/fullDescription-->

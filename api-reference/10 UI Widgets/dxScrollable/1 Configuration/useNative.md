@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether to use native scrolling.<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--custom_default_for_android_below_version_4-->false<!--/custom_default_for_android_below_version_4-->

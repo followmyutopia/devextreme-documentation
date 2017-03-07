@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies is all bars should have equal width (even if some points are missed)<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Forces type of data key (or types of parts of compound key). Built-in supported types are: String, Int32, Int64, Guid, Boolean, Single, Decimal. Additional types can be registered via DevExpress.data.utils.odata.keyConverters (link to ref)<!--/d-->
 ===========================================================================
 <!--acceptValues-->'String' | 'Int32' | 'Int64' | 'Guid' | 'Boolean' | 'Single' | 'Decimal'<!--/acceptValues-->
 <!--type-->string | object<!--/type-->
@@ -39,4 +38,6 @@ If you specified a composite key, the [keyType](/Documentation/ApiReference/Data
             }
         }
     });
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option using the `EdmType` enum. This enum accepts the following values: `Int32`, `Int64`, `Guid` and `String`.
 <!--/fullDescription-->

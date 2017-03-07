@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-get current cell value.
-<!--/d-->
-<!--p1d-->get calculate cell value.<!--/p1d-->
-<!--rd-->current cell value<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -19,7 +14,7 @@ Gets the value of the current cell.
 <!--paramName1-->isCalculatedValue<!--/paramName1-->
 <!--paramType1-->boolean<!--/paramType1-->
 <!--paramDescription1-->
-Specifies whether or not to return a <a href="/Documentation/16_1/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#calculateSummaryValue">post-processed</a> value. Pass <i>false</i> here to get the initial summary value.
+Specifies whether or not to return a <a href="/Documentation/16_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#calculateSummaryValue">post-processed</a> value. Pass <i>false</i> here to get the initial summary value.
 <!--/paramDescription1-->
 
 <!--returnType-->any<!--/returnType-->

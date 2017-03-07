@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Set bar's width in percent from 0 to 1 (if equalBarWidth set to true)<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->

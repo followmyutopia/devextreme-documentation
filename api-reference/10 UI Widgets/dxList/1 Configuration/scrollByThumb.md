@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether scrolling by scrollbar thumb enabled. Supported only for simulated scrollable (useNativeScrolling=false).<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -15,5 +14,6 @@ A Boolean value specifying if the list is scrolled using the scrollbar.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Scrolling - User Interaction](/Documentation/Guide/Widgets/List/Scrolling/#User_Interaction)
 <!--/fullDescription-->

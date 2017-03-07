@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Loads a temlp
-<!--/d-->
-<!--p1d-->A string containing the URI of the HTML page or a jQuery object presenting a template markup<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object which is resolved when the loading is finished and rejected if load fails<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -47,10 +42,8 @@ The markup that is passed as the method's parameter should be defined using the 
     </div>
 
 #####See Also#####
-- For details on how to define views and layouts, refer to the [Views and Layouts](/Documentation/Guide/SPA_Framework/Views_and_Layouts) article.
-- See a step-by-step example in the [Create a View Dynamically](/Documentation/Tutorial/SPA_Framework/Create_a_View_Dynamically#Create_a_View_Dynamically) tutorial.
-
-
+- [SPA Framework - Views and Layouts](/Documentation/Guide/SPA_Framework/Views_and_Layouts)
+- [SPA Framework - Create a View Dynamically](/Documentation/Tutorial/SPA_Framework/Create_a_View_Dynamically#Create_a_View_Dynamically)
 
 [note]If more than one view/layout template is found, an exception will be raised. So, check to see that there are no templates for a view/layout when you add a template dynamically. Use the [getViewTemplate](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#getViewTemplateviewName) and [getViewTemplateInfo](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#getViewTemplateInfoviewName) methods to find a view template in a template collection.
 

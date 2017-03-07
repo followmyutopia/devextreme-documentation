@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Border dash style. 'longDash', 'dash', 'dot' can be combined.<!--/d-->
 ===========================================================================
 <!--default-->'solid'<!--/default-->
 <!--acceptValues-->'solid' | 'longDash' | 'dash' | 'dot'<!--/acceptValues-->
@@ -28,4 +27,6 @@ Displays the border using long dashes.
 Displays the border using dots.
 * **Any combination of 'longDash', 'dash' and 'dot'**   
 Displays the border by repeating the specified combination. For example, *'dashdotdash'*.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `DashStyle` enum. This enum accepts the following values: `Solid`, `LongDash`, `Dash` and `Dot`.
 <!--/fullDescription-->

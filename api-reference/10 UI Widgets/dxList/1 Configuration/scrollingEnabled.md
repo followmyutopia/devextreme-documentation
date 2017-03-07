@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Boolean value specifying whether to enable list scrolling.<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -15,5 +14,6 @@ A Boolean value specifying whether to enable or disable list scrolling.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Scrolling - User Interaction](/Documentation/Guide/Widgets/List/Scrolling/#User_Interaction)
 <!--/fullDescription-->

@@ -4,16 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->Custom format for value<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--propertyOf-->..\..\..\..\35 dxCircularGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\..\40 dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\..\35 dxCircularGauge\5 Indicator Types\TextCloud\TextCloud.md,..\..\..\..\40 dxLinearGauge\5 Indicator Types\TextCloud\TextCloud.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
 <!--type-->function(indicatedValue)<!--/type-->
-<!--fp1d-->Defines an idicated value.<!--/fp1d-->
-<!--fp1_field1d-->Specifies the scale value to be displayed in the value indicator.<!--/fp1_field1d-->
-<!--fp1_field2d-->Specifies the scale value using an applied format, if the format and precision (optional) options are specified.<!--/fp1_field2d-->
-<!--frd-->The text to be displayed by a value indicator.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

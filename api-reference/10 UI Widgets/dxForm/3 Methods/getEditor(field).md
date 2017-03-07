@@ -4,16 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Gets an editor instance by a datafield or a name of item
-<!--/d-->
-<!--p1d-->A dataField or a name of item<!--/p1d-->
-<!--rd-->An editor instance<!--/rd-->
 ===================================================================
 ===================================================================
 
 <!--shortDescription-->
-Returns an editor instance associated with the specified [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) field or [name](/Documentation/ApiReference/UI_Widgets/dxForm/Simple_Item/#name) of a form item.
+Returns an editor instance associated with the specified [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) field or [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#name) of the form item.
 <!--/shortDescription-->
 
 <!--paramName1-->field<!--/paramName1-->

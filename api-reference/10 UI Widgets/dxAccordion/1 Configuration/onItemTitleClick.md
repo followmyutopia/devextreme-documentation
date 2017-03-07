@@ -4,18 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when a widget item title is clicked. 'itemElement' argument specifies the item element which title is clicked. 'itemData' argument specifies the data of the item which title is clicked.<!--/d-->
 <!--EventForAction-->..\4 Events\itemTitleClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function | string<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns an object representing the item which title is clicked<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns an HTML element representing the item which title is clicked<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns a number representing the item index which title is clicked<!--/fp1_field6d-->
 ===========================================================================
 
 <!--shortDescription-->

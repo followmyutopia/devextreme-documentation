@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Custom template for row<!--/d-->
 ===========================================================================
 <!--type-->template<!--/type-->
-<!--fp1d-->The row under customization.<!--/fp1d-->
-<!--fp2d-->The options of the current row.<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -22,16 +19,18 @@ When implementing the **rowTemplate** function, you can access the row under cus
 
 - **data**		
 Contains the object of the data source represented by the current row.
+- **component**  
+Contains the **DataGrid** instance.
 - **values**	
 Contains an array of values of the current row as they exist in the data source.
 - **rowIndex**		
-Contains the index of the current row. When you have several pages in the grid, grid rows are indexed beginning with 0 on each page. Note that group cells are also counted as rows, and thus have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows) topic.
+Contains the index of the current row. When you have several pages in the grid, grid rows are indexed beginning with 0 on each page. Note that group cells are also counted as rows, and thus have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
 - **columns**		
 Contains an array of grid columns. Each column in this array is represented by an object with column settings. The order of columns in this array and columns in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array coincides.
 - **isSelected**	
 Indicates whether or not the current row is selected.
 - **rowType**		
-Represents the type of the current row. This field equals *'data'* for [ordinary rows](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows) or *'group'* for [group rows](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Group_Rows). Use this field to distinguish rows by type.
+Represents the type of the current row. This field equals *'data'* for [ordinary rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) or *'group'* for [group rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows). Use this field to distinguish rows by type.
 - **groupIndex**	
 Contains the group index of the current row. This field is useful if the **rowType** field is *'group'*.
 - **isExpanded**	
@@ -83,7 +82,7 @@ Using a template engine, pass one of the following values to the **rowTemplate**
 - A DOM Node representing the template's container.		
 - A function that returns a jQuery object or a DOM Node representing the template's container.
 
-[note] When you use a row template, we recommend you to disable the [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping) and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) features. It is desirable because the template content can not be automatically synchronized with the column layout what makes these features inoperative.
+[note] When you use a row template, we recommend you to disable the [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping) and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) features. This is desirable because the template content cannot be automatically synchronized with the column layout, which makes these features inoperative.
 
 To customize a row without defining the entire template, handle the [rowPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowPrepared) event.
 

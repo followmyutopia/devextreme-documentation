@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->An object representing the Charts widget.<!--/d-->
 <!--widgettree-->
 dataSource: [{
     arg: "Monday",
@@ -30,7 +29,8 @@ dataSource: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_chart">viz/chart</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_chart">viz/chart</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\BaseChart\BaseChart.md<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js
@@ -38,72 +38,109 @@ dx.viz.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-The **Chart** is a widget that visualizes data from a local or remote storage using a great variety of [series types](/Documentation/Guide/Data_Visualization/Charts/Chart_Series_Types/) along with different interactive elements, such as [tooltips](/Documentation/Guide/Data_Visualization/Charts/Chart_Elements/#Tooltips), [crosshair pointer](/Documentation/Guide/Data_Visualization/Charts/Chart_Elements/#Crosshair), [legend](/Documentation/Guide/Data_Visualization/Charts/Chart_Elements/#Legend), etc.
+The **Chart** is a widget that visualizes data from a local or remote storage using a great variety of [series types](/Documentation/Guide/Widgets/Chart/Series_Types/) along with different interactive elements, such as [tooltips](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Tooltips), [crosshair pointer](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Crosshair), [legend](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Legend), etc.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 You can create the **Chart** widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxChart` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="chartContainer"></div>
+        <!--HTML--><div id="chart"></div>
 
     <!---->
 
-        <!--JavaScript-->$("#chartContainer").dxChart({
-			dataSource: dataSource,
-			commonSeriesSettings: {
-				argumentField: "state",
-				type: "bar"
-			},
-			series: [
-				{ valueField: "year2004", name: "2004" },
-				{ valueField: "year2001", name: "2001" },
-				{ valueField: "year1998", name: "1998" }
-			]
+        <!--JavaScript-->var fruits = [
+			{ fruit: 'Oranges', yield: 10, consumed: 7 },
+			{ fruit: 'Apples', yield: 15, consumed: 14 },
+			{ fruit: 'Bananas', yield: 9, consumed: 9 }
+		];
+		$(function() {
+			$("#chart").dxChart({
+				dataSource: fruits,
+				commonSeriesSettings: {
+					argumentField: "fruit",
+					type: "bar"
+				},
+				series: [
+					{ valueField: "yield" },
+					{ valueField: "consumed" }
+				]
+			});
 		});
 
-- **Knockout**  
- Add a `<div>` element and apply the `dxChart` binding to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+        <!--HTML--><div ng-controller="DemoController">
+			<div dx-chart="{
+				dataSource: fruits,
+				commonSeriesSettings: {
+					argumentField: 'fruit',
+					type: 'bar'
+				},
+				series: [
+					{ valueField: 'yield' },
+					{ valueField: 'consumed' }
+				]
+			}"></div>
+		</div>
+
+	<!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller("DemoController", function ($scope) {
+                $scope.fruits = [
+                    // ...   
+                ];
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div data-bind="dxChart: {
-			dataSource: dataSource,
+			dataSource: fruits,
 			commonSeriesSettings: {
-				argumentField: 'state',
+				argumentField: 'fruit',
 				type: 'bar'
 			},
 			series: [
-				{ valueField: 'year2004', name: '2004' },
-				{ valueField: 'year2001', name: '2001' },
-				{ valueField: 'year1998', name: '1998' }
+				{ valueField: 'yield' },
+				{ valueField: 'consumed' }
 			]
         }"></div>
 
-- **AngularJS**  
- Add a `<div>` element and apply the `dx-chart` directive to this element.
+	<!---->
 
-        <!--HTML-->
-        <div dx-chart="{
-			dataSource: dataSource,
-			commonSeriesSettings: {
-				argumentField: 'state',
-				type: 'bar'
-			},
-			series: [
-				{ valueField: 'year2004', name: '2004' },
-				{ valueField: 'year2001', name: '2001' },
-				{ valueField: 'year1998', name: '1998' }
-			]
-        }"></div>
+        <!--JavaScript-->var viewModel = {
+            fruits: [
+                // ...
+            ]
+        };
+        ko.applyBindings(viewModel);
 
-All DevExtreme widgets require linking the jQuery library. Linking the Knockout or AngularJS library is optional. For detailed information on how to link the needed libraries, refer to the [Installation](/Documentation/Guide/Data_Visualization/Basics/Installation/) article.
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-<a href="/Documentation/16_1/Tutorial/Data_Visualization/Configure_Charts" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Start Tutorial</a>
+        @(Html.DevExtreme().Chart()
+            .ID("chart")
+            .DataSource(Fruits)
+            .CommonSeriesSettings(c => c
+                .ArgumentField("fruit")
+                .Type(SeriesType.Bar)
+            )
+            .Series(series => {
+                series.Add().ValueField("yield");
+                series.Add().ValueField("consumed");
+            })
+		)
+
+All DevExtreme widgets require linking the jQuery library. Linking the Knockout or AngularJS library is optional. For detailed information on how to link the needed libraries, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+
+<a href="/Documentation/16_2/Tutorial/Data_Visualization/Configure_Charts" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Start Tutorial</a>
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsbarseriessimplestsingle/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
-- [Data Binding](/Documentation/Guide/Data_Visualization/Charts/Data_Binding/) - shows how to provide data for the **Chart** widget.
-- [Chart Elements](/Documentation/Guide/Data_Visualization/Charts/Chart_Elements/) - provides an overview of visual elements present in the **Chart** widget.
+- [Chart - Visual Elements](/Documentation/Guide/Widgets/Chart/Visual_Elements/)
+- [Chart - Series Types](/Documentation/Guide/Widgets/Chart/Series_Types/)
+- [Charts - Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/)
+- [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
 <!--/fullDescription-->

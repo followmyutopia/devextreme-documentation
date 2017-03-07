@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Get filter expression in data source
-<!--/d-->
-<!--rd-->A filter expression in data source<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -17,7 +13,7 @@ Returns a filter expression applied to the grid's data source using the [filter(
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-A <a href="/Documentation/16_1/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering">filter expression</a>.
+A <a href="/Documentation/16_2/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering">filter expression</a>.
 <!--/returnDescription-->
 
 <!--fullDescription-->

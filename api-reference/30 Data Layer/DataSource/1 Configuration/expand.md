@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Initial expand expression causes related entities to be included in the response. Passed to DataStore during loading (ODataStore specific).<!--/d-->
 ===========================================================================
 <!--type-->Array | String<!--/type-->
 ===========================================================================

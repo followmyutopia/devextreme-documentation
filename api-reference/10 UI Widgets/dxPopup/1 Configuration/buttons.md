@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->An array of objects describing widgets to render in popup top and bottom toolbars.<!--/d-->
 <!--dep-->toolbarItems\toolbarItems.md<!--/dep-->
 ===========================================================================
 <!--type-->array<!--/type-->

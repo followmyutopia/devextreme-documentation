@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->pathModified option<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->false<!--/default-->
@@ -12,9 +11,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Notifies a widget that it is embedded into an HTML page that uses a path modifier.
+Notifies the widget that it is embedded into an HTML page that uses a tag modifying the path.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If you place a widget on a page that uses a path modifier, notify the widget about it by setting the **pathModified** option to *true*. As an example of such modifiers, the [`<base>`](http://www.w3schools.com/tags/tag_base.asp) HTML tag can be considered. Also, we recommend you enable this option if you place the widget inside the [`<iframe>`](http://www.w3schools.com/tags/tag_iframe.asp) tag.
+If you place the widget on a page that uses a tag modifying the path ([`<base>`](http://www.w3schools.com/tags/tag_base.asp), [`<iframe>`](http://www.w3schools.com/tags/tag_iframe.asp), etc.), some of the widget elements may get mixed up or disappear. To solve this problem, set the **pathModified** option to *true*.
+
+#####See Also#####
+- [DevExpress.viz.refreshPaths()](/Documentation/ApiReference/Common/utils/viz/Methods/#refreshPaths)
 <!--/fullDescription-->

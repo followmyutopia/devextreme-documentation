@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Area hover mode<!--/d-->
 ===========================================================================
 <!--default-->'nearestPoint'<!--/default-->
 <!--acceptValues-->'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
@@ -29,19 +28,19 @@ When a user points to a series, it may react in one of the following ways depend
         <tbody>
             <tr>
                 <td><i>"nearestPoint"</i></td>
-                <td><img src="/Content/images/doc/16_1/ChartJS/hoverMode/series/splinearea/nearestPoint.png" /></td>
+                <td><img src="/Content/images/doc/16_2/ChartJS/hoverMode/series/splinearea/nearestPoint.png" /></td>
             </tr>
             <tr>
                 <td><i>"includePoints"</i></td>
-                <td><img src="/Content/images/doc/16_1/ChartJS/hoverMode/series/splinearea/includePoints.png" /></td>
+                <td><img src="/Content/images/doc/16_2/ChartJS/hoverMode/series/splinearea/includePoints.png" /></td>
             </tr>
             <tr>
                 <td><i>"excludePoints"</i></td>
-                <td><img src="/Content/images/doc/16_1/ChartJS/hoverMode/series/splinearea/excludePoints.png" /></td>
+                <td><img src="/Content/images/doc/16_2/ChartJS/hoverMode/series/splinearea/excludePoints.png" /></td>
             </tr>
             <tr>
                 <td><i>"none"</i></td>
-                <td><img src="/Content/images/doc/16_1/ChartJS/hoverMode/series/splinearea/none.png" /></td>
+                <td><img src="/Content/images/doc/16_2/ChartJS/hoverMode/series/splinearea/none.png" /></td>
             </tr>
         </tbody>
     </table>

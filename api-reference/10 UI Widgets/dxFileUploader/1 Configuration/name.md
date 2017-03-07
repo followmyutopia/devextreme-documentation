@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The name attribute is used to reference form data after a form is submitted.<!--/d-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->string<!--/type-->

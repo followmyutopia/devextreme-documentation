@@ -42,11 +42,12 @@ For the service type described above, you can apply the following simple custom 
 
     });
     
-Note that all user functions return the result of the jQuery AJAX call, which is compatible with the **jQuery.Deferred** promise. In fact, you may use any promise-compatible object to connect to any asynchronous data storage; for example - to an HTML5 File API and not necessarily to HTTP endpoints.
+Note that all user functions return the result of the jQuery AJAX call, which is compatible with the **jQuery.Deferred** promise. In fact, you may use any promise-compatible object to connect to any asynchronous data storage; for example - to an HTML5 File API, and not necessarily to HTTP endpoints.
 
-The **load** functions accept a bag of **loadOptions**, which allows you to send various data shaping options (such as sorting, filtering, paging, etc.) to a remote storage.
+The **load** function accepts a bag of **loadOptions**, which allows you to send various data shaping options (such as sorting, filtering, paging, etc.) to a remote storage.
 
-Note that certain widgets have peculiarities in the **CustomStore** implementation. For example, in case of the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/), the **load** function should also return the total count of received records.
+Note that certain widgets have peculiarities in the **CustomStore** implemenation. For example, in case of the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/), the **load** function should also return the total count of received records.
 
 #####See Also#####
-- [DataGrid - Use CustomStore](/Documentation/Guide/UI_Widgets/Data_Grid/Use_Custom_Store/)
+- [DataGrid - Use CustomStore](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/)
+- [PivotGrid - Use CustomStore](/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/)

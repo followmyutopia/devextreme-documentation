@@ -4,11 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->constantlines options of argument axis<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->array<!--/type-->
-<!--inherits-->..\constantLineStyle\constantLineStyle.md<!--/inherits-->
+<!--inherits-->..\..\commonAxisSettings\constantLineStyle\constantLineStyle.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -16,7 +15,7 @@ Declares a collection of constant lines belonging to the argument axis.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts ConstantLines](/Content/images/doc/16_1/ChartJS/visual_elements/constant_lines.png)
+![DevExtreme HTML5 Charts ConstantLines](/Content/images/doc/16_2/ChartJS/visual_elements/constant_lines.png)
 
 Each object in the **constantLines** array configures a single constant line. Setting the **value** option is necessary for a constant line to be displayed.
 

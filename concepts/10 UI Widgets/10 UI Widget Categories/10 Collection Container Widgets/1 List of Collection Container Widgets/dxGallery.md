@@ -1,3 +1,0 @@
-The [Gallery](/Documentation/ApiReference/UI_Widgets/dxGallery/) widget displays images in a horizontally scrolled view. Refer to the [dxGallery guide](/Documentation/Guide/UI_Widgets/UI_Widgets_-_Deep_Dive/dxGallery/) for more information.
-
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/actionsandlistsgallerygallerysimplegallery/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

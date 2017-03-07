@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->String url of min point in rangearea<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\..\..\RangeAreaSeries\RangeAreaSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->

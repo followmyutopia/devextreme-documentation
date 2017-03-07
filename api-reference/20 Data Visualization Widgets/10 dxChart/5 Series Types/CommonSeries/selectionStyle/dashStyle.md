@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Selection line dash style. 'longDash', 'dash', 'dot' can be combined.<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\LineSeries\LineSeries.md,..\..\StackedLineSeries\StackedLineSeries.md,..\..\FullStackedLineSeries\FullStackedLineSeries.md,..\..\StackedSplineSeries\StackedSplineSeries.md,..\..\FullStackedSplineSeries\FullStackedSplineSeries.md,..\..\SplineSeries\SplineSeries.md,..\..\StepLineSeries\StepLineSeries.md<!--/propertyOf-->
 <!--default-->'solid'<!--/default-->
@@ -29,4 +28,6 @@ Displays the series line using long dashes.
 Displays the series line using dots.
 * **Any combination of 'longDash', 'dash' and 'dot'**   
 Displays the series line by repeating the specified combination. For example, *'dashdotdash'*.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `DashStyle` enum. This enum accepts the following values: `Solid`, `LongDash`, `Dash` and `Dot`.
 <!--/fullDescription-->

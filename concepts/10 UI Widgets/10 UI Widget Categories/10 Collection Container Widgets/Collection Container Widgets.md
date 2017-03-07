@@ -1,1 +1,0 @@
-This article describes common principles of working with such widgets as lists, menus, tile views, etc., which are intended to display data items specific to your needs.

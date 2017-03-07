@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Marker coordinates<!--/d-->
-<!--dep-->Specify coordinates in the 'geometry.coordinates' field of a GeoJSON feature (http://geojson.org/geojson-spec.html#feature-objects)<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->array<!--/type-->

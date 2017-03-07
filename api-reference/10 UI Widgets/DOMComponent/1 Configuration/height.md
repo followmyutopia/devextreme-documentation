@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The height of the widget.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number | string | function<!--/type-->
-<!--frd-->The widget height.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -29,7 +27,7 @@ A function returning the widget height, e.g.,
 
         <!--JavaScript-->height: function () {
             return baseHeight - 10 + "%";
-        });
+        }
 
 
 <!--/fullDescription-->

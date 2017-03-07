@@ -4,13 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->drawn event<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Event argument.<!--/fp1d-->
-<!--fp1_field1d-->Widget itself.<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container.<!--/fp1_field2d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -19,9 +15,9 @@ Fires when the widget has finished drawing itself.
 
 <!--fullDescription-->
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

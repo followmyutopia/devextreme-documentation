@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies color grouping data<!--/d-->
 <!--dep-->..\layers\colorGroupingField.md<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->

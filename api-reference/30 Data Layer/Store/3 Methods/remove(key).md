@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Initiates the remove operation. Async function.
-<!--/d-->
-<!--p1d-->Key value identifying the data item to remove<!--/p1d-->
-<!--rd-->Promise of jQuery.Deferred which resolves with (any key, object newValues) or rejects with (Error)<!--/rd-->
 ===================================================================
 ===================================================================
 

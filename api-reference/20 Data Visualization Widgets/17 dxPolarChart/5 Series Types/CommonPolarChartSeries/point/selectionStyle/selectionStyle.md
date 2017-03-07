@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->selection settings for point<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\..\LineSeries\LineSeries.md,..\..\..\AreaSeries\AreaSeries.md,..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--type-->object<!--/type-->

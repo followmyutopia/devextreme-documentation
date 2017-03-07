@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->An event triggered after orientation of device was changed<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->The new device orientation in form 'portrait' or 'landscape'.<!--/fp1_field1d-->
 ===========================================================================
 
 <!--shortDescription-->

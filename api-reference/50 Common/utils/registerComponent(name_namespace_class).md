@@ -4,15 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Registers component class in namespace, as jQuery plugin and as KnockoutJS binding and Angular directive
-<!--/d-->
-<!--p1d-->A component name to register<!--/p1d-->
-<!--p2d-->A object where component class will be registered.<!--/p2d-->
-<!--p3d-->A DevExpress.Class inheritor which implements the functionality of the component<!--/p3d-->
 ===================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_component_registrator">core/component_registrator</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_component_registrator">core/component_registrator</a><!--/module-->
 ===================================================================
 
 <!--shortDescription-->

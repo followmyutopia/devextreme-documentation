@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->If true, items content is rendered on selection change for current selected item. Otherwise it is rendered when the widget is being rendered.<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

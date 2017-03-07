@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tick interval<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'millisecond' | 'second' | 'minute' | 'hour' | 'day' | 'week' | 'month' | 'quarter' | 'year'<!--/acceptValues-->
@@ -32,6 +31,8 @@ If the axis displays numbers, assign a number to this option. If the axis displa
 When you use an axis of the *"logarithmic"* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#type), ticks are generated on a base of powers. For example, assuming that the [logarithm base](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#logarithmBase) is 10 and the tick interval is 1, ticks are generated at 10<sup>-2</sup>, 10<sup>-1</sup>, 10<sup>0</sup>, 10<sup>1</sup>, 10<sup>2</sup>, 10<sup>3</sup>, etc. If the tick interval becomes 2, ticks are generated at 10<sup>-1</sup>, 10<sup>1</sup>, 10<sup>3</sup>, etc.
 
 [note]A custom tick interval can be ignored if it leads axis labels to overlap each other. To force the widget to use it nevertheless, assign *"ignore"* to the **argumentAxis** | **label** | [overlappingBehavior](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/overlappingBehavior/) option.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VizTimeInterval` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'day'* becomes `Day`.
 
 #####See Also#####
 - **argumentAxis** | [tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tick/) - configures the appearance of major ticks.

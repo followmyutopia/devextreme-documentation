@@ -25,9 +25,3 @@ And here is the HTML markup where the text to be displayed on the view is replac
             }"></div>
         </div>
     </div>
-
-In addition, you can call the [Globalize.formatMessage](https://github.com/jquery/globalize#message-module) function in JavaScript code to return a string of text as localized to the current locale. 
-
-    <!--JavaScript-->var textToDisplay = Globalize.formatMessage(Key_AppTitle);
-
-The parameter for the **formatMessage** function is a key that identifies the text to translate. 

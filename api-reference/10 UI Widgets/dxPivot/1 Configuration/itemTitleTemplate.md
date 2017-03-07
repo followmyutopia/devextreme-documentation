@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->A template name or a template container or a function returning one of them, which is used to render title items. Or a function creating the title item. Has following signature itemTitleTemplate(titleData, titleIndex, titleElement). Returns htmlString or Element or jQuery representing content of the title item.<!--/d-->
 ===========================================================================
 <!--default-->'title'<!--/default-->
 <!--type-->template<!--/type-->
-<!--fp1d-->An object representing the title to be rendered.<!--/fp1d-->
-<!--fp2d-->The index of the title to be rendered.<!--/fp2d-->
-<!--fp3d-->An HTML element containing the rendered title.<!--/fp3d-->
-<!--frd-->A template name or a template container. Or an HTML string, Element, or jQuery object representing the rendered title.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -19,12 +14,12 @@ The template to be used for rendering an item title.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]A binding context of an item title template is the data source object that corresponds to the currently rendered item. So, you can bind template elements to the item object fields directly. To access another binding context within an item title template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[Angular](https://docs.angularjs.org/guide/scope) binding variables.
+[note]A binding context of an item title template is the data source object that corresponds to the currently rendered item. So, you can bind template elements to the item object fields directly. To access another binding context within an item title template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
 
 #####See Also#####
-- [Customize Item Template](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#Common_Tasks/Customize_an_Item_Appearance)
-- [Customize Widget Element Appearance](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Pivot - Customize Item Appearance](/Documentation/Guide/Widgets/Pivot/Customize_Item_Appearance/)
+- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->

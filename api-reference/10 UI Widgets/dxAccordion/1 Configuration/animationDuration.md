@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the duration of item openinig and closing animations in milliseconds.<!--/d-->
 ===========================================================================
 <!--default-->300<!--/default-->
 <!--type-->number<!--/type-->

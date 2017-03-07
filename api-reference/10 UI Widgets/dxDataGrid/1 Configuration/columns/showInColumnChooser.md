@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Column visibility in chooser<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not to display the header of a hidden column in the [column chooser](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Column_Chooser).
+Specifies whether or not to display the header of a hidden column in the [column chooser](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Column_Chooser).
 <!--/shortDescription-->
 
 <!--fullDescription-->

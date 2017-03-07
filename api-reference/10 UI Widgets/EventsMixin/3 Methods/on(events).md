@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Subscribes event handler function(s) to component event(s).
-<!--/d-->
-<!--p1d-->The event name/event handler pair object to subscribe on.<!--/p1d-->
-<!--rd-->Component instance.<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -31,7 +26,7 @@ The object for which this method is called.
 Use this method to subscribe to several events at one method call. Available events are listed in the **Events** section.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->

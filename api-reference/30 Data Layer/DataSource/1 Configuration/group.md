@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Initial grouping expression (ref to sort/group syntax). Passed to DataStore during loading. Sets paginate option value to false unless otherwise specified.<!--/d-->
 ===========================================================================
 <!--type-->Group expression<!--/type-->
 ===========================================================================

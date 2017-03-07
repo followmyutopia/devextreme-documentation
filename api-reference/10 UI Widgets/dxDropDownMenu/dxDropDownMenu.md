@@ -4,10 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Drop-down menu widget.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_drop_down_menu">ui/drop_down_menu</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_drop_down_menu">ui/drop_down_menu</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
@@ -21,7 +21,7 @@ A drop-down menu widget.
 <!--fullDescription-->
 The **DropDownMenu** widget is a UI element (a button or a toolbar item) that displays a drop-down menu when clicked.
 
-You can create a widget using one of the following approaches.
+You can create the widget using one of the following approaches.
 
 - **jQuery**  
  Use the `dxDropDownMenu` jQuery plug-in.
@@ -58,7 +58,6 @@ You can create a widget using one of the following approaches.
             buttonIcon: 'menu'
         }"></div>
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
-Since the **DropDownMenu** widget is used to display multiple items, it supports common the Collection Container widget functionality. You can find detailed information on the principles of working with the widget in the [dxDropDownMenu section](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#UI_Widgets_UI_Widget_Categories_Collection_Container_Widgets_List_of_Collection_Container_Widgets_dxDropDownMenu) of the [Collection Container Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/) article.
 <!--/fullDescription-->

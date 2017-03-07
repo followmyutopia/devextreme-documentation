@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Start animation on the element with specified configuration.
-<!--/d-->
-<!--p1d-->The animated object.<!--/p1d-->
-<!--p2d-->The animation configuration.<!--/p2d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when the animation completed.<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -26,7 +20,7 @@ The element to animate.
 <!--paramName2-->config<!--/paramName2-->
 <!--paramType2-->animationConfig<!--/paramType2-->
 <!--paramDescription2-->
-An object that defines element <a href="Documentation/ApiReference/Common/Object_Structures/animationConfig">animation options</a>.
+An object that defines element <a href="/Documentation/16_2/ApiReference/Common/Object_Structures/animationConfig">animation options</a>.
 <!--/paramDescription2-->
 
 <!--returnType-->object<!--/returnType-->

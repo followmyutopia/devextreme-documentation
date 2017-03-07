@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Filtering supported by server<!--/d-->
 ===========================================================================
-<!--default-->true<!--/default-->
+<!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not [filtering](/Documentation/Guide/UI_Widgets/Data_Grid/Filtering/) must be performed on the server side.
+Specifies whether or not [filtering](/Documentation/Guide/Widgets/DataGrid/Filtering/) must be performed on the server side.
 <!--/shortDescription-->
 
 <!--fullDescription-->

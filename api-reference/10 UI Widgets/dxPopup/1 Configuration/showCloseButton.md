@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether close button is shown in the popup<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--custom_default_for_desktop-->true<!--/custom_default_for_desktop-->

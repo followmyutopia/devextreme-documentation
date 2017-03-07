@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Puts the passed viewInfo into the cache under the specified key.
-<!--/d-->
-<!--p1d-->Identifier of a viewInfo being put into the cache.<!--/p1d-->
-<!--p2d-->A cached viewInfo object<!--/p2d-->
 ===================================================================
 ===================================================================
 

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the animation type that is applied while the placeholder is changing its content.<!--/d-->
 <!--dep-->animation.md<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->

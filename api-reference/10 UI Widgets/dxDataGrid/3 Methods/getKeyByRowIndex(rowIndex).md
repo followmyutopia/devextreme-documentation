@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns key value of row by index
-<!--/d-->
-<!--p1d-->Row index<!--/p1d-->
-<!--rd-->Key value<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -28,5 +23,5 @@ The data key of the row. If nothing found, returns <i>undefined</i>.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-dxDataGrid's API comprises a great number of methods, some of which accept data keys as their arguments while the others accept row indexes. If you have a row index, you can obtain the respective data key by calling the **getKeyByRowIndex(rowIndex)** method. And vice versa as well, if you have a data key, you can obtain the respective row index by calling the [getRowIndexByKey(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getRowIndexByKeykey) method. For information on how row indexes are calculated in **DataGrid**, refer to the [Grid Rows](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows) article.
+**DataGrid**'s API comprises a great number of methods, some of which accept data keys as their arguments while the others accept row indexes. If you have a row index, you can obtain the respective data key by calling the **getKeyByRowIndex(rowIndex)** method. And vice versa as well, if you have a data key, you can obtain the respective row index by calling the [getRowIndexByKey(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getRowIndexByKeykey) method. For information on how row indexes are calculated in **DataGrid**, refer to the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) article.
 <!--/fullDescription-->

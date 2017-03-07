@@ -4,13 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->A template name or a template container or a function returning one of them, which is used to render content. Or a function creating the content item. Has following signature template(contentElement). Returns htmlString or Element or jQuery representing content of the content item.<!--/d-->
 ===========================================================================
 <!--default-->'content'<!--/default-->
 <!--type-->template<!--/type-->
-<!--fp1d-->An object representing the content of the button.<!--/fp1d-->
-<!--fp2d-->An HTML element containing the rendered content.<!--/fp2d-->
-<!--frd-->A template name or a template container.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -28,7 +24,7 @@ This option enables you to render a widget depending on the values of the field 
         </div>
     </div>
 
-[note]A binding context of a template contains only fields listed in the [Default Template](/Documentation/ApiReference/UI_Widgets/dxButton/Default_Template/) topic. So, you can bind template elements to these fields directly. To access another binding context within a template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[Angular](https://docs.angularjs.org/guide/scope) binding variables.
+[note]A binding context of a template contains only fields listed in the [Default Template](/Documentation/ApiReference/UI_Widgets/dxButton/Default_Template/) topic. So, you can bind template elements to these fields directly. To access another binding context within a template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
 
 
 <!--/fullDescription-->

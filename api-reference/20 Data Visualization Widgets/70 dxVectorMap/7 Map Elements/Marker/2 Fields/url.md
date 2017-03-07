@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Only for image marker. Shows the url of underlying image marker (it is not an option but a readonly flag)<!--/d-->
-<!--dep-->Get the url with the 'attribute' method (using the 'layers.dataField' value)<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--type-->string<!--/type-->
 ===========================================================================

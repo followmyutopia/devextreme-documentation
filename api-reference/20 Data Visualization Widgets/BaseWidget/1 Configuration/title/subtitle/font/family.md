@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Text font family<!--/d-->
 ===========================================================================
 <!--default-->''Segoe UI Light', 'Helvetica Neue Light', 'Trebuchet MS', Verdana'<!--/default-->
 <!--type-->string<!--/type-->

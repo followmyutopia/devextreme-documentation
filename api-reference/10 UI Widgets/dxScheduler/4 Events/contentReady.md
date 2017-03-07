@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The action rises when a data source is loaded/reloaded or some appointment is modified(added/updated/removed)<!--/d-->
 ===========================================================================
 <!--hidden-->false<!--/hidden-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -24,9 +19,9 @@ Instead, you can use the [onContentReady](/Documentation/ApiReference/UI_Widgets
 If data displayed by the widget is specified using a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance, the **contentReady** event fires each time the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method of the DataSource instance is called as well as when the widget content is ready or an appointment is modified.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

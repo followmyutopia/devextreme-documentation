@@ -1,5 +1,5 @@
-<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureCharts/Step3/chart.html" data-show-first="chart.js">
-Now, change the series type to [FullStackedArea](/Documentation/Guide/Data_Visualization/Charts/Chart_Series_Types/#Full-Stacked_Area). If you want to compare point values and their aggregate for the same arguments, this series type will suit your needs perfectly.
+<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureCharts/Step3/chart.html" data-show-first="chart.js">
+Now, change the series type to [FullStackedArea](/Documentation/Guide/Widgets/Chart/Series_Types/#Full-Stacked_Area). If you want to compare point values and their aggregate for the same arguments, this series type will suit your needs perfectly.
 
 Generally, you can specify a type for each series individually using its [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#type) option. But for this app, use the **type** option of the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/) configuration object to specify the *'fullStackedArea'* series type for all series at once.
 

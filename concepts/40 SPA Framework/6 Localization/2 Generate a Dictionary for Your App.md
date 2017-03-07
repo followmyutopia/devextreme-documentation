@@ -1,13 +1,13 @@
 Use the **DevExpress.localization.message.getDictionary()** utility to generate a dictionary for your application. Run this utility in the browser's console. Choose the required frame in the console (e.g., the top frame) so that the DevExpress namespace is available.
 
-![Localization_getDictionary](/Content/images/doc/16_1/PhoneJS/Localization_getDictionary.png)
+![Localization_getDictionary](/Content/images/doc/16_2/PhoneJS/Localization_getDictionary.png)
 
 This utility gathers all the @-keys in HTML code of the application as well as all the @-keys found in the referenced libraries. The return value of this utility is an object whose fields represent the found keys. The field values are the strings that are converted from the keys. Copy the field-value pairs that represent the keys that are specified in this certain application to the clipboard.
 
-Create a JavaScript file giving the *localization.XX.js* name to it, replacing XX with the identifier of the required locale. Call the [Globalize.loadMessages](https://github.com/jquery/globalize/blob/master/doc/api/message/load-messages.md) function in it. Pass an object containing a field named after the required locale. For example, "en". Paste the field-value pairs copied to the clipboard to the object assigned to the created field.
+Create a JavaScript file giving the *localization.XX.js* name to it, replacing XX with the identifier of the required locale. Call the [localization.loadMessages()](/Documentation/ApiReference/Common/utils/localization/#loadMessages) function in it. Pass an object containing a field named after the required locale. For example, "en". Paste the field-value pairs copied to the clipboard to the object assigned to the created field.
 
     <!--JavaScript-->
-    Globalize.loadMessages({
+    DevExpress.localization.loadMessages({
         "en": {
             "billTotal": "Bill Total",
             "typeHere": "Type here",

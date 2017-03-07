@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Sets 'withCredentials' field of the underlying jqXHR object (http://api.jquery.com/jQuery.ajax/#jqXHR). Allows sending cookies and authorization headers to foreign domains (CORS-related).<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

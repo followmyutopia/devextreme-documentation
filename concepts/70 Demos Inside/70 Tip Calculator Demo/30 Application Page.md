@@ -3,7 +3,7 @@ Open the [index.html](https://github.com/DevExpress/DevExtreme-14.2-TipCalculato
 
 The application page contains links to the required libraries: **dx.mobile**, **jQuery**, **Knockout** and **globalize**. These libraries are contained in the **js** folder of the application project.
 
-    <!--HTML--><script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+    <!--HTML--><script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
     <script type="text/javascript" src="js/knockout-3.4.0.js"></script>
     <script src="js/cldr.min.js"></script>
     <script src="js/cldr/event.min.js"></script>

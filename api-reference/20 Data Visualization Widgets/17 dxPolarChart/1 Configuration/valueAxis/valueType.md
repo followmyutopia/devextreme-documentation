@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Value data type<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'numeric' | 'datetime' | 'string'<!--/acceptValues-->
@@ -21,4 +20,6 @@ The type of the axis values is determined based on the type of the values specif
 In some scenarios, you may need the type of the values that are specified in the data source to be converted to another type. In this instance, specify the desired type for the axis values using the **valueType** property.
 
 [note]If dates in your data source are stored as strings, make sure that they have a [valid format](http://www.w3schools.com/js/js_date_formats.asp).
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ChartDataType` enum. This enum accepts the following values: `Numeric`, `DateTime` and `String`.
 <!--/fullDescription-->

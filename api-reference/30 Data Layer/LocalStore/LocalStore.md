@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Same as ArrayStore, but can persist data in a backend (localStorage by default). Flush occurs periodically or immediately.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_local_store">data/local_store</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_local_store">data/local_store</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--inherits-->..\ArrayStore\ArrayStore.md<!--/inherits-->
 <!--lib-->

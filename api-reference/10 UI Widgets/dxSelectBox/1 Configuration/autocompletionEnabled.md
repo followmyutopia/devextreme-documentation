@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Boolean value specifying whether to display value substitution on searching.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->true<!--/default-->

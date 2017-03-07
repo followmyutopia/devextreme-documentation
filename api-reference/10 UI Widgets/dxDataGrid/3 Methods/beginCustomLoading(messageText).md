@@ -4,15 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Show a loading panel with message text
-<!--/d-->
-<!--p1d-->Text of message is displayed in loading panel<!--/p1d-->
 ===================================================================
 ===================================================================
 
 <!--shortDescription-->
-Displays the [load panel](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Load_Panel). 
+Displays the [load panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Load_Panel). 
 <!--/shortDescription-->
 
 <!--paramName1-->messageText<!--/paramName1-->
@@ -26,5 +22,5 @@ Normally, **DataGrid** displays a load panel automatically when it is busy rende
 
 Once invoked in code, the load panel will not hide until the [endCustomLoading()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#endCustomLoading) method is called.
 
-[note] The load panel invoked from code does not replace the automatically invoked load panel. This circumstance might lead to a situation where the load panel invoked from code suddenly changes its text because it was overridden by the automatically invoked load panel. Hence, be mindful when invoking the load panel with different text. 
+[note] The load panel invoked in code does not replace the automatically invoked load panel. This circumstance might lead to a situation where the load panel invoked in code suddenly changes its text because it was overridden by the automatically invoked load panel. Hence, be mindful when invoking the load panel with different text. 
 <!--/fullDescription-->

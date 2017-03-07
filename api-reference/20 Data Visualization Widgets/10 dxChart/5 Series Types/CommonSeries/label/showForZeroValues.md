@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Label visibility for bars with zero value<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md,..\..\FullStackedBarSeries\FullStackedBarSeries.md,..\..\RangeBarSeries\RangeBarSeries.md<!--/propertyOf-->
 <!--default-->true<!--/default-->

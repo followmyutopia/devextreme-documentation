@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Executes a group of several synchronous animations in order to achieve different 'transition' effects.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_animation_transition_executor">animation/transition_executor</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_animation_transition_executor">animation/transition_executor</a><!--/module-->
+<!--export-->default<!--/export-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the timezone of widget. The list of the allowed timezones is here https://en.wikipedia.org/wiki/List_of_tz_database_time_zones.<!--/d-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->string<!--/type-->
@@ -19,5 +18,5 @@ By default, the scheduler displays appointments in the current timezone. To defi
 
 The list of supported timezones is available in the [list of IANA time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones). 
 
-
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/TimeZonesSupport/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

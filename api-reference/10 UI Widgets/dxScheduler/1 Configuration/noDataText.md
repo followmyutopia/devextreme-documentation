@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The text displayed when agenda view has no appointments.<!--/d-->
 ===========================================================================
 <!--default-->'No data to display'<!--/default-->
 <!--type-->string<!--/type-->

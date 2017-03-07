@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns current scroll position.
-<!--/d-->
-<!--rd-->The value of current scroll position<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -21,5 +17,6 @@ The value of the current scroll position from the top in pixels.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Scrolling API](/Documentation/Guide/Widgets/List/Scrolling/#API)
 <!--/fullDescription-->

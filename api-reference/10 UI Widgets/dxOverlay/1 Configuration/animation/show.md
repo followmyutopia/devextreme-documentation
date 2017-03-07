@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options for showing animation<!--/d-->
 ===========================================================================
 <!--default-->{ type: 'pop', duration: 400, from: { scale: 0.55 } }<!--/default-->
 <!--type-->animationConfig<!--/type-->

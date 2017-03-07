@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Clears the registered configurations for the passed name or all registered configurations if name is not passed.
-<!--/d-->
-<!--p1d-->name of the configuration to be cleared<!--/p1d-->
 ===================================================================
 ===================================================================
 

@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Limits data item count to a range. Chain function. 'take' argument is optional.
-<!--/d-->
-<!--p1d-->item count to skip<!--/p1d-->
-<!--p2d-->item count to include<!--/p2d-->
-<!--rd-->this query<!--/rd-->
 ===================================================================
 ===================================================================
 

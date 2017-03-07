@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Allows grouping/ungrouping by column<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -21,7 +20,7 @@ When grouping is enabled in the widget (refer to the **See Also** section), the 
 
 #####See Also#####
 - **grouping** | [contextMenuEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#contextMenuEnabled) - enables the user to group data using the context menu.
-- **groupPanel** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) - enables the user to group data using the [group panel](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Group_Panel).
+- **groupPanel** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) - enables the user to group data using the [group panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Panel).
 - **groupPanel** | [allowColumnDragging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#allowColumnDragging) - allows the user to move column headers to/from the group panel using drag-and-drop.
 - **columns[]** | [groupIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex) - specifies initial grouping.
 <!--/fullDescription-->

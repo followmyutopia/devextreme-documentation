@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Calculates count of items in current query.
-<!--/d-->
-<!--rd-->Promise of jQuery.Deferred. Resolves with count value or rejects with an Error object<!--/rd-->
 ===================================================================
 ===================================================================
 

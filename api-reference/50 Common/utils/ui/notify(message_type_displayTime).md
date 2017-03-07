@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Create the toast message
-<!--/d-->
-<!--p1d-->Specifies the toast message<!--/p1d-->
-<!--p2d-->The optional value specified the toast message<!--/p2d-->
-<!--p3d-->The optional value specified the toast showing time<!--/p3d-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_notify">ui/notify</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_notify">ui/notify</a><!--/module-->
+<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

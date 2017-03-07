@@ -1,11 +1,4 @@
-In most cases, you do not have to define [layouts](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Define_Layouts) yourself. The framework comes with a set of predefined layouts. You can find them in the following folder.
-
-- [DevExtreme Mobile](/Documentation/Guide/Common/DevExtreme_Packages/#DevExtreme_Mobile)/[DevExtreme Web](/Documentation/Guide/Common/DevExtreme_Packages/#DevExtreme_Web)  
-	The **lib**/**layouts** folder of the product's zip archive.
-- [DevExtreme Complete](/Documentation/Guide/Common/DevExtreme_Packages/#DevExtreme_Complete).  
-	The **DevExtreme**/**sources**/**lib**/**layouts** folder.
-
-A folder with layouts is added to the [project template](/Documentation/Guide/SPA_Framework/Application_Project/) as well. So you don't have to add them manually.
+In most cases, you do not have to define [layouts](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Define_Layouts) yourself. The framework comes with a set of predefined layouts. You can find them in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources\Lib\layouts** by default. A folder with layouts is added to the [project template](/Documentation/Guide/SPA_Framework/Application_Project/) as well. So you don't have to add them manually.
 
 As you can see in the **layouts** folder, each layout is represented by a set of three files.
 

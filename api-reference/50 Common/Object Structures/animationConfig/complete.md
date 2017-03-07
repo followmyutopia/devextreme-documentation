@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->A function called after the animation has been finished.<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->The animated object.<!--/fp1d-->
-<!--fp2d-->Animation object structure.<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->

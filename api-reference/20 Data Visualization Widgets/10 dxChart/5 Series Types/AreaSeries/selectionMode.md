@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Area selection mode<!--/d-->
 ===========================================================================
 <!--default-->'includePoints'<!--/default-->
 <!--acceptValues-->'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
@@ -31,15 +30,15 @@ When a user selects a series, it may react in one of the following ways dependin
         <tbody>
             <tr>
                 <td><i>"includePoints"</i></td>
-                <td><img src="/Content/images/doc/16_1/ChartJS/hoverMode/series/area/includePoints.png" /></td>
+                <td><img src="/Content/images/doc/16_2/ChartJS/hoverMode/series/area/includePoints.png" /></td>
             </tr>
             <tr>
                 <td><i>"excludePoints"</i></td>
-                <td><img src="/Content/images/doc/16_1/ChartJS/hoverMode/series/area/excludePoints.png" /></td>
+                <td><img src="/Content/images/doc/16_2/ChartJS/hoverMode/series/area/excludePoints.png" /></td>
             </tr>
             <tr>
                 <td><i>"none"</i></td>
-                <td><img src="/Content/images/doc/16_1/ChartJS/hoverMode/series/area/none.png" /></td>
+                <td><img src="/Content/images/doc/16_2/ChartJS/hoverMode/series/area/none.png" /></td>
             </tr>
         </tbody>
     </table>

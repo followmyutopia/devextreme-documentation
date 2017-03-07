@@ -4,16 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Action raises after context menu will be hidden. 'rootItem' argument specifies the parent menu item of submenu<!--/d-->
 <!--EventForAction-->..\4 Events\submenuHidden.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns an html element representing the widget item that is root for those items for which the current submenu is shown<!--/fp1_field4d-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -4,13 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->method data sort availability<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean | function(a,b)<!--/type-->
-<!--fp1d-->A data source item<!--/fp1d-->
-<!--fp2d-->A data source item<!--/fp2d-->
-<!--frd-->Indicates whether a comes before b<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -29,13 +25,13 @@ Alternatively, you can specify the drawing order using a comparison function. It
 <!--typeFunctionParamName1-->a<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-A <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource">data source</a> object.
+A <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource">data source</a> object.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->b<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-A <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource">data source</a> object.
+A <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource">data source</a> object.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->

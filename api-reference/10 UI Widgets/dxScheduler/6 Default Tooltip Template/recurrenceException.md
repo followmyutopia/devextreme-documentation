@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->defines the list of date/time exceptions for a recurring appointment(iCalendar EXDATE format)<!--/d-->
 ===========================================================================
 <!--type-->String<!--/type-->
 ===========================================================================
@@ -18,5 +17,5 @@ To define an exception for a recurring appointment, specify the **recurrenceExce
 
 [note]This option makes sense only if the appointment [recurrenceRule]({basewidgetpath}/Default_Tooltip_Template/#recurrenceRule) is specified.
 
-For details on recurring appointments, refer to the [Appointment Types](/Documentation/Guide/UI_Widgets/Scheduler/Appointment_Types/#All_Day_Appointments) article.
+For details on recurring appointments, refer to the [Appointment Types](/Documentation/Guide/Widgets/Scheduler/Appointment_Types/#All_Day_Appointments) article.
 <!--/fullDescription-->

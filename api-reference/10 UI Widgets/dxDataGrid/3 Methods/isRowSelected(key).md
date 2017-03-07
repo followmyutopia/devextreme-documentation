@@ -4,16 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Check selection state of row by key
-<!--/d-->
-<!--p1d-->Key of the row<!--/p1d-->
-<!--rd-->A Boolean value specifying whether row is selected<!--/rd-->
 ===================================================================
 ===================================================================
 
 <!--shortDescription-->
-Allows you to find out whether a row is selected or not.
+Allows you to find out whether or not the row with a specified key is selected.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
@@ -28,5 +23,5 @@ The key of the row.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-
+[note]This method applies only if selection is [instant](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred).
 <!--/fullDescription-->

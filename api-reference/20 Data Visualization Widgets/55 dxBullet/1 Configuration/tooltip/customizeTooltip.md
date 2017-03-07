@@ -47,7 +47,7 @@ Contains the target bullet value with applied formatting if the **format** optio
 
 The function's parameter represents the same object as the **this** object. If appropriate, you can use the function's parameter to obtain the main and target bullet values.
 
-To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Data_Visualization/Common/Data_Formatting/) topic.
+To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointsInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

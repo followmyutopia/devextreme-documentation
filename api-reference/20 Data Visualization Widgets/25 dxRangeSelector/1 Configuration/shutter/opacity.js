@@ -15,10 +15,7 @@
                 { valueField: 'y2' }
             ],
         },
-        selectedRange: {
-            startValue: 20,
-            endValue: 60
-        },
+        value: [20, 60],
         shutter: {
             opacity: 0.25
         }

@@ -4,12 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Fired if the application's back() method is called or device hardware button is pressed (the isHardwareButton property is set to 'true' in the latter case)<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Indicates whether to cancel the back navigation.<!--/fp1_field1d-->
-<!--fp1_field2d-->Indicates whether this event is fired as a result of pressing a hardware Back button.<!--/fp1_field2d-->
 ===========================================================================
 
 <!--shortDescription-->

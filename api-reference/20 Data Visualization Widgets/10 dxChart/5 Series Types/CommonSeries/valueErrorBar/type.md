@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->set error bars type<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'percent' | 'stdError' | 'stdDeviation' | 'variance' | 'fixed'<!--/acceptValues-->
@@ -50,4 +49,6 @@ Depending on the type of errors you need to visualize, use error bars of one of 
         </tbody>
     </table>
 </div>
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ValueErrorBarType` enum. This enum accepts the following values: `Percent`, `StdError`, `StdDeviation`, `Variance` and `Fixed`.
 <!--/fullDescription-->

@@ -12,18 +12,15 @@ $(function () {
             tickInterval: { hours: 3 },
             marker: { visible: false }
         },
-        selectedRange: {
-            startValue: new Date(year, month, day, 11, 00, 00),
-            endValue: new Date(year, month, day, 17, 00, 00)
-        },
+        value: [new Date(year, month, day, 11, 00, 00), new Date(year, month, day, 17, 00, 00)],
         background: {
-            image: { url: '/Content/images/doc/16_1/ChartJS/RangeImage.png' }
+            image: { url: '/Content/images/doc/16_2/ChartJS/RangeImage.png' }
         },
 <!--//highlight-->
-        onSelectedRangeChanged: function (selectedRange) {
+        onValueChanged: function (e) {
             $('#textContainer').text('SelectedRange: [' +
-                Globalize.formatDate(selectedRange.startValue, { time:'short' }) +
-                    ', ' + Globalize.formatDate(selectedRange.endValue, { time:'short' }) + ']');
+                Globalize.formatDate(e.value[0], { time:'short' }) +
+                    ', ' + Globalize.formatDate(e.value[1], { time:'short' }) + ']');
         }
 <!--//highlight-->
     });

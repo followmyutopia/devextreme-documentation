@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the height of the element in rows.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the height of the element in rows.
+Specifies how many rows the element should span.
 <!--/shortDescription-->
 
 <!--fullDescription-->

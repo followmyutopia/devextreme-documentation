@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Adds marker to the map.
-<!--/d-->
-<!--p1d-->Marker or markers array.<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object which is resolved with origin marker instance when the marker is added.<!--/rd-->
 ===================================================================
 ===================================================================
 

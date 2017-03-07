@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Auto expand all groups by this column<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -16,5 +15,5 @@ Specifies whether groups appear expanded or not when records are grouped by a sp
 
 <!--fullDescription-->
 #####See Also#####
-- [DataGrid - Expanding and Collapsing Groups](/Documentation/Guide/UI_Widgets/Data_Grid/Grouping/#Expanding_and_Collapsing_Groups)
+- [DataGrid - Expanding and Collapsing Groups](/Documentation/Guide/Widgets/DataGrid/Grouping/#Expanding_and_Collapsing_Groups)
 <!--/fullDescription-->

@@ -4,18 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called when data is generated instead fileSaving action<!--/d-->
 <!--EventForAction-->..\4 Events\fileSaving.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
-<!--fp1d-->Information about export.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->File name of exproting file<!--/fp1_field3d-->
-<!--fp1_field4d-->Format of exporting document<!--/fp1_field4d-->
-<!--fp1_field5d-->Blob data of generated Excel document<!--/fp1_field5d-->
-<!--fp1_field6d-->Cancel file saving<!--/fp1_field6d-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies label position.<!--/d-->
 ===========================================================================
 <!--default-->'bottom'<!--/default-->
 <!--acceptValues-->'top' | 'bottom'<!--/acceptValues-->
@@ -16,5 +15,5 @@ Specifies whether labels are located over or under the scale.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VerticalEdge` enum. This enum accepts the following values: `Top` and `Bottom`.
 <!--/fullDescription-->

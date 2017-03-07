@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether content of scroll can be bounced at bounds. Supported only for simulated scrollable (useNative=false).<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--custom_default_for_desktop-->false<!--/custom_default_for_desktop-->

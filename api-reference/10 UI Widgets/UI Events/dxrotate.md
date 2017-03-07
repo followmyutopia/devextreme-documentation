@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The event for handling when rotate gesture is performed.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_transform">events/transform</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_transform">events/transform</a><!--/module-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A jQuery event object.<!--/fp1d-->
-<!--fp1_field1d-->Indicates a rotation transformation relative to the gesture start.<!--/fp1_field1d-->
-<!--fp1_field2d-->Indicates a rotation transformation relative to the last gesture update.<!--/fp1_field2d-->
-<!--fp1_field3d-->Used to prevent the gesture. Must be assigned to 'true' value to cancel gesture.<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->

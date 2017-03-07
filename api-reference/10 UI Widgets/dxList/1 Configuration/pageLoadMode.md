@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A mode used to handle next data source page load.<!--/d-->
 ===========================================================================
 <!--default-->'scrollBottom'<!--/default-->
 <!--custom_default_for_android_below_version_4-->'nextButton'<!--/custom_default_for_android_below_version_4-->
@@ -18,5 +17,8 @@ Specifies whether the next page is loaded when a user scrolls the widget to the 
 <!--/shortDescription-->
 
 <!--fullDescription-->
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ListPageLoadMode` enum. This enum accepts the following values: `ScrollBottom` and `NextButton`.
 
+#####See Also#####
+- [List - Paging](/Documentation/Guide/Widgets/List/Paging/)
 <!--/fullDescription-->

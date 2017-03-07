@@ -4,20 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when a widget item is expanded.<!--/d-->
 <!--EventForAction-->..\4 Events\itemExpanded.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns an object representing the item.<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns an HTML element representing the item.<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns a number representing the item index.<!--/fp1_field6d-->
-<!--fp1_field7d-->Returns a jQuery event that caused the action's execution<!--/fp1_field7d-->
-<!--fp1_field8d-->Returns an object representing the node.<!--/fp1_field8d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -68,8 +58,8 @@ Specifies the index of the expanded item.
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->node<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->object<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->dxtreeviewnode<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The expanded item <a href="Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#TreeViewNodes">node</a>.
+The expanded item node.
 <!--/typeFunctionParamDescription1_field8-->

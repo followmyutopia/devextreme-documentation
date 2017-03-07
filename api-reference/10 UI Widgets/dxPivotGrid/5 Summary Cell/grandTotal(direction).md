@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-get a grand total by direction.
-<!--/d-->
-<!--p1d-->direction - 'row' || 'column'.<!--/p1d-->
-<!--rd-->grandTotal of current cell by direction<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -32,5 +27,5 @@ The image below demonstrates what cell will be returned by the following code.
 
 	<!--JavaScript-->var targetCell = sourceCell.grandTotal('row');
 
-![](/Content/images/doc/16_1/DataGrid/PivotGrid_GT.png)
+![](/Content/images/doc/16_2/DataGrid/PivotGrid_GT.png)
 <!--/fullDescription-->

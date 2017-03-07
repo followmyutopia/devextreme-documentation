@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Instantiates new EdmLiteral with provided value
-<!--/d-->
-<!--p1d-->String representation of OData filter or sorting expression.<!--/p1d-->
 ===================================================================
 ===================================================================
 

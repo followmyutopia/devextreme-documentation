@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The height of the widget. When 'undefined' or 'auto' widget height depends on its content. When value assigned opened items height is adjusted to fill all empty space.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number | string | function<!--/type-->
-<!--frd-->The widget height.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

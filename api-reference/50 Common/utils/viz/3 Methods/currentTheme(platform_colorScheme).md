@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-currentTheme method
-<!--/d-->
-<!--p1d-->Platform name<!--/p1d-->
-<!--p2d-->Scheme name<!--/p2d-->
 ===================================================================
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_themes">viz/themes</a><!--/module-->
+<!--export-->currentTheme<!--/export-->
 ===================================================================
 
 <!--shortDescription-->
@@ -29,5 +26,5 @@ The color scheme (can be 'light' or 'dark').
 <!--/paramDescription2-->
 
 <!--fullDescription-->
-For details on how to apply a theme using this method, refer to the [Appearance Customization](/Documentation/Guide/Data_Visualization/Common/Appearance_Customization/#Themes) article.
+For details on how to apply a theme using this method, refer to the [Appearance Customization](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes) article.
 <!--/fullDescription-->

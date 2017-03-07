@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Data type of column<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'string' | 'number' | 'date' | 'boolean' | 'object'<!--/acceptValues-->
@@ -12,17 +11,17 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the required type of column values.
+Casts column values to a specified data type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The type of column values is determined based on the type of values specified in the corresponding data source field: numeric values become numeric, strings - strings, etc. In some cases, you may need to convert data source values. For this purpose, specify the required type using the **dataType** option. 
+If your data source stores, for example, numbers as strings, specify the proper data type using the **dataType** option.
  
-The *date* values have a number of pecularities listed below.
+*Date* values have the following peculiarities.
 
-- If *date* values are of a *string* type, string should be of the following format: `"yyyy/MM/dd"` or `"yyyy/MM/dd HH:mm:ss"`.
-- To show both date and time in the column editor, assign *"shortDateShortTime"* to the [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) option and *"datetime"* to the [editorOptions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editorOptions) | type.
-    
+- If dates are stored as strings, they should have the following format: `"yyyy/MM/dd"` or `"yyyy/MM/dd HH:mm:ss"`.
+- To show both date and time in the column editor, assign an appropriate value (including date and time parts) to the [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) option and *"datetime"* to the [editorOptions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editorOptions) | **type**.
+
         <!--JavaScript-->
         $("#gridContainer").dxDataGrid({
             // ...
@@ -36,4 +35,6 @@ The *date* values have a number of pecularities listed below.
                 }
             ]
         });
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `GridColumnDataType` enum. This enum accepts the following values: `String`, `Number`, `Date`, `Boolean` and `Object`.
 <!--/fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Label position on point<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--default-->'outside'<!--/default-->
@@ -17,5 +16,5 @@ Specifies a label position in bar-like series.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `RelativePosition` enum. This enum accepts the following values: `Inside` and `Outside`.
 <!--/fullDescription-->

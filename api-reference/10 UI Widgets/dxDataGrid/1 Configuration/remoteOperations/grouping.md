@@ -4,16 +4,15 @@
 -------------------------------------------
 
 **-->
-<!--d-->Grouping supported by server<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not [grouping](/Documentation/Guide/UI_Widgets/Data_Grid/Grouping/) must be performed on the server side.
+Specifies whether or not [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) must be performed on the server side.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/RemoteGrouping/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

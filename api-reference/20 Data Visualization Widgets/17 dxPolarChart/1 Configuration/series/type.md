@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->series type<!--/d-->
 ===========================================================================
 <!--default-->'scatter'<!--/default-->
 <!--acceptValues-->'line' | 'area' | 'bar' | 'stackedbar' | 'scatter'<!--/acceptValues-->

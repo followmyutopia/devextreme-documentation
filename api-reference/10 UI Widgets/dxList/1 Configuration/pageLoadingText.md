@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A text of panel showing when list is scrolled to the bottom<!--/d-->
 ===========================================================================
 <!--default-->'Loading...'<!--/default-->
 <!--type-->string<!--/type-->
@@ -15,5 +14,6 @@ Specifies the text shown in the pullDown panel, which is displayed when the list
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Localization](/Documentation/Guide/Widgets/List/Localization/)
 <!--/fullDescription-->

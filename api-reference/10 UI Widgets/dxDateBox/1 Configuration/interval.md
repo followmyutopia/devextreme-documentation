@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the interval, between values in the popup list, in minutes. Effective for 'time' format when 'useCalendar' is true.<!--/d-->
 ===========================================================================
 <!--default-->30<!--/default-->
 <!--type-->number<!--/type-->

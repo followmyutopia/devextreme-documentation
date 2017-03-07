@@ -8,9 +8,6 @@ $(function () {
         sliderMarker: {
             format: 'monthAndYear'
         },
-        selectedRange: {
-            startValue: new Date(2012, 4),
-            endValue: new Date(2012, 7)
-        }
+        value: [new Date(2012, 4), new Date(2012, 7)]
     });
 });

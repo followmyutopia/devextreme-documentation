@@ -13,8 +13,8 @@
 
     $("#getSelectedRangeButton").click(function () {
         var rangeSelector = $('#rangeSelectorContainer').dxRangeSelector('instance');
-        var selectedRange = rangeSelector.getSelectedRange();
+        var selectedRange = rangeSelector.getValue();
         $('#selectionSpan').html('Selected range: [' +
-                selectedRange.startValue.toFixed(3) + ', ' + selectedRange.endValue.toFixed(3) + ']');
+                selectedRange[0].toFixed(3) + ', ' + selectedRange[1].toFixed(3) + ']');
     });
 });

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The name of an icon to be displayed by the DropDownMenu button.<!--/d-->
 ===========================================================================
 <!--default-->'overflow'<!--/default-->
 <!--type-->string<!--/type-->

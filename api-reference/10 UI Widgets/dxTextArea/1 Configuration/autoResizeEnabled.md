@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A boolean indicating whether auto resize mode is enabled.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

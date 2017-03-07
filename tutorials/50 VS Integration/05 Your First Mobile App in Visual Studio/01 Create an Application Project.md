@@ -1,12 +1,12 @@
-<article data-show="/Content/Applications/16_1/LearningCenter/HelloFantasticWorld/HelloFantasticWorld1.html">
+<article data-show="/Content/Applications/16_2/LearningCenter/HelloFantasticWorld/HelloFantasticWorld1.html">
 
 - From the main menu in Visual Studio, select **File** | **New** | **Project...** to invoke the **New Project** dialog.
 
-    ![New Project Dialog](Content/images/doc/16_1/DevExtreme/Tutorial_NewProject.png)
+    ![New Project Dialog](Content/images/doc/16_2/DevExtreme/Tutorial_NewProject.png)
 
 - In the **Projects** tree view on the left, select **DevExtreme**. In the **Templates** list view, select the [DevExtreme XX.X Basic Application](/Documentation/Guide/VS_Integration/Project_Templates/#Basic_Application) template, specify the new solution's name ("Application1" in this example) and click **OK**. You will see a project with the specified name in the Solution Explorer. It includes the following.
   
-    ![Solution Structure](Content/images/doc/16_1/DevExtreme/TutorialSolution.png)
+    ![Solution Structure](Content/images/doc/16_2/DevExtreme/TutorialSolution.png)
 
   - **css**  
       A folder with common and platform-specific style sheet files.
@@ -45,7 +45,7 @@
 
 - Run the application in any browser to test the application template. The application will be shown by the [simulator](/Documentation/Guide/VS_Integration/Simulation_Tools/#Use_Simulator) - one of the tools included with the DevExtreme VS extension. The simulator allows you to view an application on different devices using the required landscape and scale.
 
-![Run in Simulator](Content/images/doc/16_1/DevExtreme/Tutorial_Simulator.png)
+![Run in Simulator](Content/images/doc/16_2/DevExtreme/Tutorial_Simulator.png)
 
 As you can see, the views that are added by default are loaded to the application and you can navigate between them using a navbar. The "navbar" layout is designed for each platform individually. So, when you switch between devices, the appropriate layout version and style sheets are applied, and the application looks native.
 

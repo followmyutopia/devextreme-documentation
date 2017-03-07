@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies how the widget reacts to collisions.<!--/d-->
 ===========================================================================
 <!--acceptValues-->'none' | 'flip' | 'fit' | 'flipfit' | 'none flip' | 'flip none' | 'none fit' | 'fit none' | 'none flipfit' | 'flipfit none' | 'flip fit' | 'fit flip' | 'fit flipfit' | 'flipfit fit'<!--/acceptValues-->
 <!--type-->string | object<!--/type-->
@@ -41,4 +40,12 @@ The available collision handler names are:
  Shifts the widget from outside of the screen to fully display the widget.
 - **flipfit**  
  Applies the **fit** collision handler after **flip**.
+
+When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PositionResolveCollision` enum in the following manner. This enum accepts the following values: `Fit`, `Flip`, `FlipFit` and `None`.
+
+    @(Html.DevExtreme().WidgetName()
+        .Position(p => p
+            .Collision(PositionResolveCollision.Fit, PositionResolveCollision.Flip)
+        )
+    )
 <!--/fullDescription-->

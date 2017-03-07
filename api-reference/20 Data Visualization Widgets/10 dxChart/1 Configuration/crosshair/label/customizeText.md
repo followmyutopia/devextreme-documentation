@@ -4,15 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Label custom format function<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(info)<!--/type-->
-<!--fp1d-->Defines an argument value.<!--/fp1d-->
-<!--fp1_field1d-->Specifies the axis argument that is currently represented.<!--/fp1_field1d-->
-<!--fp1_field2d-->Specifies the value of the currently represented argument with applied formatting if the format and precision (optional) properties are specified.<!--/fp1_field2d-->
-<!--fp1_field3d-->Crosshair's target point<!--/fp1_field3d-->
-<!--frd-->The text to be displayed in crosshair label.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -37,7 +31,7 @@ The argument or the value of the point.
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The argument or the value with an applied <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/label/#format">format</a> and converted to string.
+The argument or the value with an applied <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/label/#format">format</a> and converted to string.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->point<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->Point<!--/typeFunctionParamType1_field3-->

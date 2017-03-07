@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sets cell value
-<!--/d-->
-<!--p1d-->row index<!--/p1d-->
-<!--p2d-->dataField of column<!--/p2d-->
-<!--p3d-->A cell value to set<!--/p3d-->
 ===================================================================
 ===================================================================
 
@@ -26,7 +20,7 @@ The index of the row to which the cell belongs.
 <!--paramName2-->dataField<!--/paramName2-->
 <!--paramType2-->string<!--/paramType2-->
 <!--paramDescription2-->
-The name of the data field in the <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">dataSource</a>.
+The name of the data field in the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">dataSource</a>.
 <!--/paramDescription2-->
 
 <!--paramName3-->value<!--/paramName3-->

@@ -44,9 +44,6 @@
                 width: 100
             }
         },
-        selectedRange: {
-            startValue: 40000,
-            endValue: 80000
-        }
+        value: [40000, 80000]
     });
 });

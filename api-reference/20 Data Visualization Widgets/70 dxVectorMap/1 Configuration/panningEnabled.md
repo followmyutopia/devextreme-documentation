@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Allows to change center via interaction (not via API)<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Disables the [panning](/Documentation/Guide/Data_Visualization/VectorMap/End-User_Interaction/#Panning) capability.
+Disables the [panning](/Documentation/Guide/Widgets/VectorMap/End-User_Interaction/#Panning) capability.
 <!--/shortDescription-->
 
 <!--fullDescription-->

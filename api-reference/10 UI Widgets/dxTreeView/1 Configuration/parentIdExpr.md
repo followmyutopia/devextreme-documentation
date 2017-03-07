@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines an expression returning parent key for a chosen item.<!--/d-->
 ===========================================================================
 <!--hidden-->false<!--/hidden-->
 <!--default-->'parentId'<!--/default-->
@@ -12,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the name of the data source item field for holding the parent key of the corresponding [node](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#TreeViewNodes).
+Specifies the name of the data source item field for holding the parent key of the corresponding [node](/Documentation/ApiReference/UI_Widgets/dxTreeView/Node/).
 <!--/shortDescription-->
 
 <!--fullDescription-->

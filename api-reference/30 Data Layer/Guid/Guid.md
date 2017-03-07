@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Javascript implementation of Guid.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_guid">core/guid</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_guid">core/guid</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js

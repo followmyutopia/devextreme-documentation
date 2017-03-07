@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Convenience way to specify a single updating callback.<!--/d-->
 <!--EventForAction-->..\4 Events\updating.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->A key value of the item being updated.<!--/fp1d-->
-<!--fp2d-->New values for the item being updated.<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->

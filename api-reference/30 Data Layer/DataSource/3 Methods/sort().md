@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns previously assigned sort expression. Ref to syntax.
-<!--/d-->
-<!--rd-->sort expression<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -15,7 +11,7 @@ Returns previously assigned sort expression. Ref to syntax.
 Returns the current **sort** option value.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
 A sort expression.
 <!--/returnDescription-->

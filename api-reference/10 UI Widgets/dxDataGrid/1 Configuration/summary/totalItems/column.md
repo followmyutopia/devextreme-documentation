@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Name, data field, caption of column as identifier of column<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string<!--/type-->

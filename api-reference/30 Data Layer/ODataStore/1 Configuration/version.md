@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Version of OData protocol implementation on the server-side<!--/d-->
 ===========================================================================
 <!--default-->2<!--/default-->
 <!--acceptValues-->2 | 3 | 4<!--/acceptValues-->

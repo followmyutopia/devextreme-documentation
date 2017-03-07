@@ -4,18 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when the value has been changed. 'value' argument specifies the widget value. 'previousValue' argument specifies the previous widget value.<!--/d-->
 <!--EventForAction-->..\4 Events\valueChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns the widget's new value<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns the widget's previous value<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns a jQuery event that caused the action's execution<!--/fp1_field6d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -26,6 +18,8 @@ A handler for the **valueChanged** event.
 Assign a function to perform a custom action when the editor value changes.
 
 Use the **selectedItem** field of the argument object passed to the [onSelectionChanged]({basewidgetpath}\configuration\#onSelectionChanged) event handler to access selected item.
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/EventHandling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Value axis options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 <!--inherits-->..\commonAxisSettings\commonAxisSettings.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies [value axis](/Documentation/Guide/Data_Visualization/Charts/PolarChart_Elements/#Axes/Value_Axis) options for the **PolarChart** widget.
+Specifies [value axis](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Value_Axis) options for the **PolarChart** widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->

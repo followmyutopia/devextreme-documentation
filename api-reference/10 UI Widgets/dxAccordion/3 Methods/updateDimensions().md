@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Update accordion dimensions.
-<!--/d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when widget dimensions updating is complete.<!--/rd-->
 ===================================================================
 ===================================================================
 

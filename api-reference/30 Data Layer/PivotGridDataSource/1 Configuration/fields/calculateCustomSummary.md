@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Calculate Custom Summary. Do not work for XmlaStore.<!--/d-->
 ===========================================================================
 <!--type-->function(options)<!--/type-->
-<!--fp1d-->The options of the calculate custom summary process<!--/fp1d-->
-<!--fp1_field1d-->Summary process stage name: 'start', 'calculate', 'finalize'<!--/fp1_field1d-->
-<!--fp1_field2d-->Current value<!--/fp1_field2d-->
-<!--fp1_field3d-->Current summary result value<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->

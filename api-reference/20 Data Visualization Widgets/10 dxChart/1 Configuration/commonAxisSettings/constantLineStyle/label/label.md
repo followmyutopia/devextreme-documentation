@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->constantLine label options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -16,7 +15,7 @@ Configures constant line labels.
 <!--fullDescription-->
 A constant line label displays the value of a constant line.
 
-![DevExtreme HTML5 Charts ConstantLine ConstantLineLabel](/Content/images/doc/16_1/ChartJS/visual_elements/constant_line_labels.png)
+![DevExtreme HTML5 Charts ConstantLine ConstantLineLabel](/Content/images/doc/16_2/ChartJS/visual_elements/constant_line_labels.png)
 
 The **commonAxisSettings** | **constantLineStyle** | **label** object, which is described here, specifies common settings for all constant line labels in the chart. To configure the labels of those constant lines that belong to a particular axis, use the following objects.
 

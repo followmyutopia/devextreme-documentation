@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->set field of parentId of element (only for plain dataSource)<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string<!--/type-->

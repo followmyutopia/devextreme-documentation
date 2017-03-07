@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->If true, then content will be renderung on show. In another case - content will be rendering in process of rendering widget.<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->

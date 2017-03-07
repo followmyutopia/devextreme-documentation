@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the set of layout controllers that is used to show a view in the current context<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string | array<!--/type-->
@@ -39,7 +38,6 @@ In addition, you can specify a custom layout set. For this purpose, assign an ar
     });
 
 #####See Also#####
-- To learn more about custom layout sets, refer to the [Custom Layout Sets](/Documentation/Guide/SPA_Framework/Built-in_Layouts#Custom_Layout_Sets) topic.
-- See step-by-step examples in the [Use a Custom Layout Set](/Documentation/Tutorial/SPA_Framework/Use_a_Custom_Layout_Set#Use_a_Custom_Layout_Set) tutorial.
-
+- [SPA Framework - Custom Layout Sets](/Documentation/Guide/SPA_Framework/Built-in_Layouts#Custom_Layout_Sets) topic.
+- [SPA Framework - Use a Custom Layout Set](/Documentation/Tutorial/SPA_Framework/Use_a_Custom_Layout_Set#Use_a_Custom_Layout_Set)
 <!--/fullDescription-->

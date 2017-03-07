@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Date object specifying the minimum date and time.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Date<!--/type-->

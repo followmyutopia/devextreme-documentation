@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Since dxMenu inherits Collection Container, it inherits the DefaultITemTemplate folder as well. The difference is 'html' field. It is made hidden.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->String<!--/type-->

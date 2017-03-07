@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The order of columns hiding<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->
@@ -23,5 +22,6 @@ By default, indexes ascend from right to left beginning with 0. It means that th
 - [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#columnHidingEnabled) - enables column hiding.
 - [onAdaptiveDetailRowPreparing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping) - allows you to customize the adaptive detail rows that contain information from hidden columns.
 
-<a href="https://www.youtube.com/watch?v=JHUSz3S0cWw&index=2&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/GridColumnsHidingPriority/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+<a href="https://www.youtube.com/watch?v=JHUSz3S0cWw&index=2&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 <!--/fullDescription-->

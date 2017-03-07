@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Convenience way to specify a single loaded callback.<!--/d-->
 <!--EventForAction-->..\4 Events\loaded.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->The loaded data array.<!--/fp1d-->
 ===========================================================================
 
 <!--shortDescription-->

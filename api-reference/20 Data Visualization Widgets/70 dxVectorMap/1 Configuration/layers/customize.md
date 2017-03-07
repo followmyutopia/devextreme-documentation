@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Allows to customize layer elements after they are created<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(elements)<!--/type-->
-<!--fp1d-->The elements for customization (with `applySettings` and `selected` methods)<!--/fp1d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -32,9 +30,11 @@ Only the following options can be changed in the **customize** function.
 - [selectedBorderWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#selectedBorderWidth)
 - [selectedColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#selectedColor)
 - [size](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#size)
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->elements<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->array<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The array of <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element">layer elements</a>.
+The array of <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element">layer elements</a>.
 <!--/typeFunctionParamDescription1-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->turn on colorization of groups. (only for discrete palette)<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

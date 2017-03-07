@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the column component of the element location.<!--/d-->
 ===========================================================================
 <!--type-->number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the column component of the element location.
+Specifies which column the element should occupy. Accepts an index from the [cols](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/cols/) array.
 <!--/shortDescription-->
 
 <!--fullDescription-->

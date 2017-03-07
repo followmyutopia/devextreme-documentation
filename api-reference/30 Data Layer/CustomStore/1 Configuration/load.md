@@ -4,19 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->User implementation of load operation. Accepts a bag of 'load options' (object) which are: sort, filter, group, select, skip, take. Must return array or promise(array).<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->An object specifying data shaping options<!--/fp1d-->
-<!--fp1_field1d-->Filter expression<!--/fp1_field1d-->
-<!--fp1_field2d-->Sort expression<!--/fp1_field2d-->
-<!--fp1_field3d-->Select expression<!--/fp1_field3d-->
-<!--fp1_field4d-->Group expression<!--/fp1_field4d-->
-<!--fp1_field5d-->The number of items to skip<!--/fp1_field5d-->
-<!--fp1_field6d-->The number of items to take<!--/fp1_field6d-->
-<!--fp1_field7d-->A bag for holding any user-defined parameters per request<!--/fp1_field7d-->
-<!--fp1_field8d-->A flag means the load function implementation should resolve deferred with second 'extra' argument with 'totalCount' field<!--/fp1_field8d-->
-<!--frd-->A Promise/A implementation resolved after data has been loaded.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -104,6 +93,21 @@ A bag for holding user-defined parameters.
 <!--typeFunctionParamDescription1_field8-->
 Specifies whether the function passed to this option should resolve the jQuery.Deferred with the second argument containing the <b>totalCount</b> field.
 <!--/typeFunctionParamDescription1_field8-->
+<!--typeFunctionParamName1_field9-->searchValue<!--/typeFunctionParamName1_field9-->
+<!--typeFunctionParamType1_field9-->object<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamDescription1_field9-->
+The value to which the search expression value is compared.
+<!--/typeFunctionParamDescription1_field9-->
+<!--typeFunctionParamName1_field10-->searchOperation<!--/typeFunctionParamName1_field10-->
+<!--typeFunctionParamType1_field10-->string<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamDescription1_field10-->
+A search operation expression.
+<!--/typeFunctionParamDescription1_field10-->
+<!--typeFunctionParamName1_field11-->searchExpr<!--/typeFunctionParamName1_field11-->
+<!--typeFunctionParamType1_field11-->getter|array<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamDescription1_field11-->
+A getter representing a search expression.
+<!--/typeFunctionParamDescription1_field11-->
 
 <!--typeFunctionReturnType-->Promise<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->

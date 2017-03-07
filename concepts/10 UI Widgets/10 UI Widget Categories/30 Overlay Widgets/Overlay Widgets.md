@@ -1,1 +1,0 @@
-This article describes the common principles behind widgets comprised of various pop-up UI elements, such as a dialog, menu, toast message, etc.

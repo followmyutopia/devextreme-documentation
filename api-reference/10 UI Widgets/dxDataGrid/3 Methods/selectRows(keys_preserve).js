@@ -37,8 +37,8 @@ $(function () {
         placeholder: 'Choose keys to select grid records...',
         onValueChanged: function (info) {
             var dataGrid = $('#gridContainer').dxDataGrid('instance');
-            var values = info.component.option('values');
-            dataGrid.selectRows(values);
+            var value = info.component.option('value');
+            dataGrid.selectRows(value);
         }
     });
 });

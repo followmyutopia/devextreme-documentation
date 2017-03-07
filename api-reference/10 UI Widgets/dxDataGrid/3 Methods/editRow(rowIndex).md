@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Edit a row by index
-<!--/d-->
-<!--p1d-->Index of row<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -22,5 +18,5 @@ The index of a row that should enter the editing state.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-To learn how to manage the editing process from code, see the [Editing in Code](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Editing/#Editing_in_Code) topic.
+To learn how to manage the editing process from code, see the [Editing in Code](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_Code) topic.
 <!--/fullDescription-->

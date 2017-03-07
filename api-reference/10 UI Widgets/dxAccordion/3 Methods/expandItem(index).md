@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Expands specified item.
-<!--/d-->
-<!--p1d-->A numeric index of item to open.<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when widget item opening is complete.<!--/rd-->
 ===================================================================
 ===================================================================
 

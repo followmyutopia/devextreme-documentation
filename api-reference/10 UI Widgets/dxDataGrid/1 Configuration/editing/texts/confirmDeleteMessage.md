@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Confirmation message is displayed before as row should to be deleted<!--/d-->
 ===========================================================================
 <!--default-->'Are you sure you want to delete this record?'<!--/default-->
 <!--type-->string<!--/type-->

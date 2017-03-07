@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Menu orientation<!--/d-->
 ===========================================================================
 <!--default-->'horizontal'<!--/default-->
 <!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->
@@ -16,5 +15,5 @@ Specifies whether the menu has horizontal or vertical orientation.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `Orientation` enum. This enum accepts the following values: `Horizontal` and `Vertical`.
 <!--/fullDescription-->

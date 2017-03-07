@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->summary variation and running totals are calculated independently within individual groups, or throughout the pivot grid.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies edit mode for recurring appointments<!--/d-->
 ===========================================================================
 <!--default-->'dialog'<!--/default-->
 <!--acceptValues-->'dialog' | 'series' | 'occurrence'<!--/acceptValues-->
@@ -27,5 +26,5 @@ This option accepts the following values.
 - 'occurrence'  
  Enables an end-user to edit only the current appointment.
 
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `SchedulerRecurrenceEditMode` enum. This enum accepts the following values: `Dialog`, `Series` and `Occurrence`.
 <!--/fullDescription-->

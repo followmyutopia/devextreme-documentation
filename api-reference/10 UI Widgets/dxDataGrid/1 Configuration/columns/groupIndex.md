@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Group index of column<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the index of a column when grid records are [grouped](/Documentation/Guide/UI_Widgets/Data_Grid/Grouping/) by the values of this column.
+Specifies the index of a column when grid records are [grouped](/Documentation/Guide/Widgets/DataGrid/Grouping/) by the values of this column.
 <!--/shortDescription-->
 
 <!--fullDescription-->

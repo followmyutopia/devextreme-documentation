@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The offset of the positioned element.<!--/d-->
 ===========================================================================
 <!--type-->string | object<!--/type-->
 ===========================================================================
@@ -18,4 +17,12 @@ This options accepts an object containing the **x** and **y** fields which speci
 
     <!--JavaScript-->
     position: { offset: '5 -10' };
+
+When you configure a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), this option accepts two values of the `double` type.
+
+    @(Html.DevExtreme().WidgetName()
+        .Position(p => p
+            .Offset(5, -10)
+        )
+    )
 <!--/fullDescription-->

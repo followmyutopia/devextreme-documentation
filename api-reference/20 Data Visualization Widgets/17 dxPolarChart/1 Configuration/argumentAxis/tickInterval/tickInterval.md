@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tick interval<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'millisecond' | 'second' | 'minute' | 'hour' | 'day' | 'week' | 'month' | 'quarter' | 'year'<!--/acceptValues-->
@@ -28,4 +27,6 @@ When you use a [logarithmic axis](/Documentation/ApiReference/Data_Visualization
 [note]The specified tick interval can be changed internally if its value leads to label overlapping. If you need to prohibit an automatic tick arrangement in this situation, specify the **argumentAxis** | **label** | [overlappingBehavior](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/label/#overlappingBehavior) option.
 
 To set the **tickInterval** option for several axes at once, use the [commonAxisSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/) configuration object. To set this option for an individual axis, use the **argumentAxis** or [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/) configuration object.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VizTimeInterval` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'day'* becomes `Day`.
 <!--/fullDescription-->

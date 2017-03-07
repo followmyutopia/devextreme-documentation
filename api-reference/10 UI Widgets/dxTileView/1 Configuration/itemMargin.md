@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the base item margin. All item margins are a multiple of this value.<!--/d-->
 ===========================================================================
 <!--default-->20<!--/default-->
 <!--type-->number<!--/type-->

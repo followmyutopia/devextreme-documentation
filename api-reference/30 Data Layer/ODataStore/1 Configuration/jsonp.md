@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->If true, then JSONP approach for accessing non-CORS-compatible remote services. In this case only read operation work.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

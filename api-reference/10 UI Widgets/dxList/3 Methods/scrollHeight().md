@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns the height of list content
-<!--/d-->
-<!--rd-->A value of list content height in pixels<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -21,5 +17,6 @@ The value of the content height in pixels.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Scrolling API](/Documentation/Guide/Widgets/List/Scrolling/#API)
 <!--/fullDescription-->

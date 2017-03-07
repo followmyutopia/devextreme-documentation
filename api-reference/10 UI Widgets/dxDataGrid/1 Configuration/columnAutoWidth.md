@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Width of cell is calculated from internal content<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -15,7 +14,7 @@ Specifies whether or not the width of grid columns depends on column content.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When this option is set to *true*, each grid column has a width that is optimal for holding the content of this column. In this case, the width of the widget's container is ignored. This setting may cause the appearance of [horizontal scrolling](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Navigation/#Scrolling/Horizontal_Scrolling), but only if the content of a row exceeds the width of the widget's container. In this scenario, consider enabling [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/).
+When this option is set to *true*, each grid column has a width that is optimal for holding the content of this column. In this case, the width of the widget's container is ignored. This setting may cause the appearance of [horizontal scrolling](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Scrolling/Horizontal_Scrolling), but only if the content of a row exceeds the width of the widget's container. In this scenario, consider enabling [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/).
 
 When this option is set to *false*, all grid columns have the same width, which is calculated using the width of the widget's container.
 

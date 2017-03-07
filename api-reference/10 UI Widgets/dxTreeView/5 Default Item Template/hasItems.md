@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether or not the item has children<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->boolean<!--/type-->

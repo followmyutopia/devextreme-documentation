@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name, path, base64 format of the icon displayed by the menu, or css class of bootstrap icons, font awesome or ion icons libraris.<!--/d-->
 ===========================================================================
 <!--type-->String<!--/type-->
 ===========================================================================

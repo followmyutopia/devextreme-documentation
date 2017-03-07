@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->An event triggered when the view removed from view cache.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Provides information about a removed view.<!--/fp1_field1d-->
 ===========================================================================
 
 <!--shortDescription-->

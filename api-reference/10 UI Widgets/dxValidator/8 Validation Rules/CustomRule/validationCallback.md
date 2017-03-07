@@ -4,14 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Validates the target value in a custom manner.<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->Validation params<!--/fp1d-->
-<!--fp1_field1d-->editor value<!--/fp1_field1d-->
-<!--fp1_field2d-->Reference to the current rule object that exposes user-defined options and the isValid and message fields<!--/fp1_field2d-->
-<!--fp1_field3d-->dxValidator reference which caused validation<!--/fp1_field3d-->
-<!--frd-->Result of validation<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -42,7 +36,7 @@ The current rule object that exposes user-defined options, the <b>isValid</b> an
 <!--typeFunctionParamName1_field3-->validator<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxValidator">dxValidator</a> object that caused the validation.
+The <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxValidator">dxValidator</a> object that caused the validation.
 <!--/typeFunctionParamDescription1_field3-->
 
 <!--typeFunctionReturnType-->true|false<!--/typeFunctionReturnType-->

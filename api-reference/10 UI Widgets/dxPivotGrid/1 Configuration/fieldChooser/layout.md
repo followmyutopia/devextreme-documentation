@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Layout index<!--/d-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--acceptValues-->0 | 1 | 2<!--/acceptValues-->
@@ -18,7 +17,7 @@ Specifies the field chooser layout.
 <!--fullDescription-->
 The image below shows different layout types.
 
-![](/Content/images/doc/16_1/DataGrid/fieldChooserLayouts.png)
+![](/Content/images/doc/16_2/DataGrid/fieldChooserLayouts.png)
 
 The following abbreviations are used on the image.
 
@@ -28,4 +27,5 @@ The following abbreviations are used on the image.
 * **C** &#8212; Column Fields
 * **D** &#8212; Data Fields
  
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PivotGridFieldChooserLayout` enum. This enum accepts the following values: `Layout0`, `Layout1` and `Layout2`.
 <!--/fullDescription-->

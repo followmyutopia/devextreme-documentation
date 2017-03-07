@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Enable fixing of columns<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -19,5 +18,5 @@ When this option is set to *true*, the columns for which the [fixed](/Documentat
 
 [note]This option is automatically set to *true* when at least one column has the [fixed](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#fixed) option set to *true*.
 
-For details, refer to the [Fixing Grid Columns](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Columns/Fixing_Grid_Columns) topic.
+For details, refer to the [Fixing Grid Columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Fixing_Grid_Columns) topic.
 <!--/fullDescription-->

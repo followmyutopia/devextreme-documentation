@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specified dxBox config for item. If box is defined, item behaves as dxBox.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->dxBox options<!--/type-->

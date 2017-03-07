@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Hover mode on argument axis' label hovering<!--/d-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'none' | 'allArgumentPoints'<!--/acceptValues-->
@@ -22,6 +21,8 @@ This option accepts one of the following values.
 Axis labels do not respond to pointing to them.
 * **allArgumentPoints**    
 When a user points to a label on the argument axis, series points of the corresponding argument become highlighted.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ArgumentAxisHoverMode` enum. This enum accepts the following values: `AllArgumentPoints` and `None`.
 
 #####See Also#####
 - **commonSeriesSettings** | **point** | [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/hoverStyle/) - specifies the appearance of series points in the hover state. Applies to all series points.

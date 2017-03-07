@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Indicates whether or not the device platform is generic, which means that application will look and behave according the 'generic' theme.<!--/d-->
 ===========================================================================
 <!--type-->boolean<!--/type-->
 ===========================================================================

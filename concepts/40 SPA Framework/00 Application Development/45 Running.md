@@ -5,7 +5,7 @@ As an HTML-JavaScript application, a DevExtreme application is run by a browser.
 - Use the browsers that are supported by the framework. See [Supported Browsers](/Documentation/Guide/Common/Supported_Browsers/).
 - All required themes must be referenced within the application page. See [Supplied Themes](/Documentation/Guide/Themes/Predefined_Themes/).
 
-####Guidelines for DevExtreme Mobile and DevExtreme Web Applications####
+####Launching an App Manually####
 
 To run an application locally, use any web server ([Apache HTTP Server](http://httpd.apache.org/docs/2.4/), [IIS](http://www.iis.net/) or any other).
 
@@ -17,7 +17,7 @@ To see how your application looks and behaves on different devices, use one of t
 
 - Use third-party device simulators, such as [Ripple](https://chrome.google.com/webstore/detail/ripple-emulator-beta/geelfhphabnejjhdalkjhgipohgpdnoc) or [PhoneGap Emulator](http://emulate.phonegap.com/).
 
-####Guidelines for DevExtreme Complete Applications####
+####Launching an App in Visual Studio####
 
 The mobile applications that are built in Visual Studio with a DevExtreme project template can be run using one of the following techniques.
 

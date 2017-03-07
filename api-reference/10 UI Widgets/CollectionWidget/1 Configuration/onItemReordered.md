@@ -4,21 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when an item is reordered. 'itemElement' argument specifies the unselected item element. 'itemData' argument specifies the unselected item data. 'fromIndex' argument specifies the previous item index. 'toIndex' argument specifies the current item index.<!--/d-->
 <!--EventForAction-->..\4 Events\itemReordered.md<!--/EventForAction-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns an object representing the item<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns an HTML element representing the item<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns a number representing the item index.<!--/fp1_field6d-->
-<!--fp1_field7d-->Returns the initial item index<!--/fp1_field7d-->
-<!--fp1_field8d-->Returns the current item index<!--/fp1_field8d-->
 ===========================================================================
 
 <!--shortDescription-->

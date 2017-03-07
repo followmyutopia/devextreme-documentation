@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Fired when the layout controller should be choosen for the view being shown.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Provides information required for displaying a view.<!--/fp1_field1d-->
-<!--fp1_field2d-->The layout controller that must be used to provide a layout markup for the given view.<!--/fp1_field2d-->
-<!--fp1_field3d-->A collection of the layout controllers that are registered in the application and appropriate for the current device (the platform and form).<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -48,9 +43,9 @@ Use the [on(eventName, eventHandler)](/Documentation/ApiReference/SPA_Framework/
     });
 
 #####See Also#####
-- You can find more information about this event and other ways to specify a custom layout set in the [Custom Layout Sets](Documentation/Howto/SPA_Framework/Built-in_Layouts#Custom_Layout_Sets) topic.
-- For details on the events related to the view display process, refer to the [View Life Cycle](Documentation/Howto/SPA_Framework/Views_and_Layouts#View_Life_Cycle) topic.
-- See a step-by-step example in the [Set a Layout for a View](/Documentation/Tutorial/SPA_Framework/Set_a_Layout_for_a_View#Set_a_Layout_for_a_View) tutorial.
+- [SPA Framework - Custom Layout Sets](/Documentation/Guide/SPA_Framework/Built-in_Layouts#Custom_Layout_Sets)
+- [SPA Framework - View Life Cycle](/Documentation/Guide/SPA_Framework/Views_and_Layouts#View_Life_Cycle)
+- [SPA Framework - Set a Layout for a View](/Documentation/Tutorial/SPA_Framework/Set_a_Layout_for_a_View#Set_a_Layout_for_a_View)
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
@@ -71,5 +66,5 @@ The layout controller that must be used to provide a layout markup for the given
 <!--typeFunctionParamName1_field3-->availableLayoutControllers<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->array<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-A collection of the layout controllers that are registered in the application and appropriate for the current device (its platform and form). Each object exposes the "controller" field and the fields presenting the <a href="/Documentation/16_1/ApiReference/Common_Object_Structures/device">device</a> object fields.
+A collection of the layout controllers that are registered in the application and appropriate for the current device (its platform and form). Each object exposes the "controller" field and the fields presenting the <a href="/Documentation/16_2/ApiReference/Common_Object_Structures/device">device</a> object fields.
 <!--/typeFunctionParamDescription1_field3-->

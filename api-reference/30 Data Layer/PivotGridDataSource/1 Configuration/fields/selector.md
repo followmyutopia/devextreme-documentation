@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called for calculating field value. Do not work for XmlaStore.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(data)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the function that determines how to split data from the data source into ranges for header items. Cannot be used for the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) store type.
+Specifies the function that determines how to split data from the data source into ranges for header items. Cannot be used for the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) store type and along with [remote operations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations).
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -22,6 +21,7 @@ The following code implements a selector function that groups the birth dates by
 	<!--JavaScript-->function (data) {
 		return Math.floor(data.birthdate.getFullYear() / 10) * 10 
 	}
+
 Another example: the following function divides values into *"> 1000"* and *"< 1000"* groups against a threshold value of 1000.
 
     <!--JavaScript-->function (data) {

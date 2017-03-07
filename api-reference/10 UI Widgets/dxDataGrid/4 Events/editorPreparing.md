@@ -4,27 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Customize before prepare editor<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->The options of the current editor.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Identifies the type of the editor's parent element.<!--/fp1_field4d-->
-<!--fp1_field5d-->The current value of the editor.<!--/fp1_field5d-->
-<!--fp1_field6d-->A method that changes the value of the editor.<!--/fp1_field6d-->
-<!--fp1_field7d-->The timeout of updating the editor's value.<!--/fp1_field7d-->
-<!--fp1_field8d-->The width of the editor.<!--/fp1_field8d-->
-<!--fp1_field9d-->Identifies whether or not the editor responds to user actions.<!--/fp1_field9d-->
-<!--fp1_field10d-->Identifies whether or not the editor uses a right-to-left representation.<!--/fp1_field10d-->
-<!--fp1_field11d-->Allows you to cancel the creation of the editor.<!--/fp1_field11d-->
-<!--fp1_field12d-->The current editor as an element.<!--/fp1_field12d-->
-<!--fp1_field13d-->Identifies whether or not the editor responds to user actions.<!--/fp1_field13d-->
-<!--fp1_field14d-->The name of editor widget.<!--/fp1_field14d-->
-<!--fp1_field15d-->The options of editor widget.<!--/fp1_field15d-->
-<!--fp1_field16d-->dataField of column.<!--/fp1_field16d-->
-<!--fp1_field17d-->The settings of the row.<!--/fp1_field17d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -34,7 +15,7 @@ Fires before an editor is created.
 <!--fullDescription-->
 Instead, you can use the [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditorPreparing) option to handle the event.
 
-Many grid elements are constructed on editors. For example, the [search panel](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Search_Panel) is constructed on a text box, the [selection column](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Selection_Column) is built on check boxes in full, etc. Obviously, editors are also used to edit a cell or a row in a grid. When default editors provided by **DataGrid** do not meet your requirements, implement a custom editor. For this purpose, attach a handling function to the **editorPreparing** event. This function accepts an object as the parameter. Assign *true* to the **cancel** field of this object. After that, implement your editor using the other fields of this object.
+Many grid elements are constructed on editors. For example, the [search panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel) is constructed on a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Selection_Column) is built on check boxes in full, etc. Obviously, editors are also used to edit a cell or a row in a grid. When default editors provided by **DataGrid** do not meet your requirements, implement a custom editor. For this purpose, attach a handling function to the **editorPreparing** event. This function accepts an object as the parameter. Assign *true* to the **cancel** field of this object. After that, implement your editor using the other fields of this object.
 
 You can distinguish editors by their parent element. Also, the parent element defines data passed to the **editorPreparing** handler. To identify the parent element, check the **parentType** field of the handler's argument.
 
@@ -43,9 +24,9 @@ When the **parentType** is *'dataRow'* or *'headerRow'*, you can use the options
 [note]If you have specified the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate) option, the **editorPrepared** event will not fire when a row or a cell switches into the editing state.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -55,7 +36,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -85,7 +66,7 @@ A method that should be called to change the cell value when the editor value is
 <!--typeFunctionParamName1_field7-->updateValueTimeout<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-Specifies the delay between the moment a user stops entering a filter value in the <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Filter_Row">filter row</a> or <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Search_Panel">search panel</a> and the moment this value applies.
+Specifies the delay between the moment a user stops entering a filter value in the <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Filter_Row">filter row</a> or <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel">search panel</a> and the moment this value applies.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->width<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
@@ -130,7 +111,7 @@ An object with configuration options for the editor widget.
 <!--typeFunctionParamName1_field16-->dataField<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->string<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
-The name of the field providing data for the <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/">column</a> that the editor belongs to.
+The name of the field providing data for the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/">column</a> that the editor belongs to.
 <!--/typeFunctionParamDescription1_field16-->
 <!--typeFunctionParamName1_field17-->row<!--/typeFunctionParamName1_field17-->
 <!--typeFunctionParamType1_field17-->dxDataGridRowObject<!--/typeFunctionParamType1_field17-->

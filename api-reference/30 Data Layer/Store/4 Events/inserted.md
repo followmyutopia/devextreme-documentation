@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Convenience way to specify a single inserted callback.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->An object representing the inserted item.<!--/fp1d-->
-<!--fp2d-->A key value of the inserted item.<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->

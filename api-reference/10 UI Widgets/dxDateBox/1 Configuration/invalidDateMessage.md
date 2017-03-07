@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->message which is shown if date or time is invalid.<!--/d-->
 ===========================================================================
 <!--default-->'Value must be a date or time'<!--/default-->
 <!--type-->string<!--/type-->

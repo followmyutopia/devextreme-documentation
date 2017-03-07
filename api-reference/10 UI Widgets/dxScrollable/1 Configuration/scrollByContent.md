@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether scrolling by content enabled. Supported only for simulated scrollable (useNative=false).<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--custom_default_for_desktop-->true for a touch screen. Otherwise, false.<!--/custom_default_for_desktop-->

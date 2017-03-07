@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-returns context for templates
-<!--/d-->
-<!--rd-->An object that represents the current context to be used when choosing an appropriate template for a view.<!--/rd-->
 ===================================================================
 ===================================================================
 

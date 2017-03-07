@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/AddNavBar/step2/index.html" data-show-first="index.js">
+<article data-show="/Content/Applications/16_2/framework/AddNavBar/step2/index.html" data-show-first="index.js">
 As you can see in the running template application, a navbar presents on both the application views. It has two items that navigate end users to the "home" and "about" views. Pay attention to the following code in the application template to learn how the navbar widget is added.
 
 - *index.js*  

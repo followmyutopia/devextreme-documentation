@@ -4,21 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-get drillDown dataSource for a cell.
-<!--/d-->
-<!--p1d-->drilldown params<!--/p1d-->
-<!--p1_field1d-->column path to cell<!--/p1_field1d-->
-<!--p1_field2d-->row path to cell<!--/p1_field2d-->
-<!--p1_field3d-->index of field in the data area<!--/p1_field3d-->
-<!--p1_field4d-->max items count in result dataSource<!--/p1_field4d-->
-<!--p1_field5d-->array of strings with fields in the result dataSource<!--/p1_field5d-->
-<!--rd-->a DevExpress.data.DataSource instance<!--/rd-->
 ===================================================================
 ===================================================================
 
 <!--shortDescription-->
-Provides access to a list of records ([facts](/Documentation/Guide/UI_Widgets/Pivot_Grid/Visual_Elements/#Summary_Values)) that were used to calculate a specific summary.
+Provides access to a list of records ([facts](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Summary_Values)) that were used to calculate a specific summary.
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
@@ -66,4 +56,6 @@ Use this method if you need to get information on what facts were involved in th
     drillDownDataSource.load().done(function (items) {
         // the "items" array contains all items
     });
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Pivot_Grid/DrillDown/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

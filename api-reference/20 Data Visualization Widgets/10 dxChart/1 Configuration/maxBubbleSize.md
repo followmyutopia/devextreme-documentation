@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->set maximum size of bubble (value - share of min(height, width) )<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\5 Series Types\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
 <!--default-->0.2<!--/default-->

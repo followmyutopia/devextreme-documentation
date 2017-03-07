@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Informs scrollView that loading is complete.
-<!--/d-->
-<!--p1d-->Indicates whether to prevent<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when scrollView is released (loading finished).<!--/rd-->
 ===================================================================
 ===================================================================
 

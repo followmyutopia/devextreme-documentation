@@ -4,12 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies options of the application's view port<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
-<!--f1d-->Specifies whether or not to enable pinch-zooming in the application's views<!--/f1d-->
-<!--f2d-->Specifies whether or not to enable panning on the vertical and horizontal axes in the application's views<!--/f2d-->
-<!--f3d-->Specifies whether or not to enable selection in the application's views<!--/f3d-->
 ===========================================================================
 
 <!--shortDescription-->

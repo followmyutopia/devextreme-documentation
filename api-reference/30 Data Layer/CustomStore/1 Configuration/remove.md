@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->User implementation of remove. Accepts key value.. If returns promise, then considered async, otherwise return value is ignored.<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->The key value of the item being removed.<!--/fp1d-->
-<!--frd-->A Promise/A implementation resolved after the item has been removed.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

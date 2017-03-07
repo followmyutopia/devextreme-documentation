@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Custom minor tick values for scale<!--/d-->
 <!--dep-->..\customMinorTicks.md<!--/dep-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

@@ -4,11 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns array of Proxy elements for all markers
-<!--/d-->
-<!--rd-->The requested markers<!--/rd-->
-<!--dep-->Use the 'getElements' method on a layer instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===================================================================
 ===================================================================
 

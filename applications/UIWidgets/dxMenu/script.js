@@ -2,7 +2,7 @@ menuItems = [{
     text: 'Tutorials',
     items: [
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/VSIntegration.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/VSIntegration.png',
             text: 'VS Integration',
             items: [
                 { text: 'Your First Mobile App in Visual Studio' },
@@ -11,7 +11,7 @@ menuItems = [{
             ]
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/SPAFramework.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/SPAFramework.png',
             text: 'SPA Framework',
             beginGroup: true,
             items: [
@@ -24,7 +24,7 @@ menuItems = [{
             ]
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/UIWidgets.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/UIWidgets.png',
             text: 'UI Widgets',
             items: [
                 { text: 'Configure Widget - Knockout Approach' },
@@ -34,7 +34,7 @@ menuItems = [{
             ]
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/DataVisualization.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/DataVisualization.png',
             text: 'Data Visualization',
             items: [
                 { text: 'Configure Charts' },
@@ -44,7 +44,7 @@ menuItems = [{
             ]
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/DataLayer.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/DataLayer.png',
             text: 'Data Layer',
             items: [
                 { text: 'Filtering' },
@@ -60,7 +60,7 @@ menuItems = [{
     text: 'Guides',
     items: [
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/VSIntegration.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/VSIntegration.png',
             text: 'VS Integration',
             items: [
                 { text: 'Project Templates' },
@@ -70,7 +70,7 @@ menuItems = [{
             ]
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/SPAFramework.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/SPAFramework.png',
             text: 'SPA Framework',
             items: [
                 { text: 'Application Design' },
@@ -79,11 +79,11 @@ menuItems = [{
             ]
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/none.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/none.png',
             text: 'Demos Inside'
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/UIWidgets.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/UIWidgets.png',
             text: 'UI Widgets',
             items: [
                 { text: 'Basics' },
@@ -93,7 +93,7 @@ menuItems = [{
             ]
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/DataVisualization.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/DataVisualization.png',
             text: 'Data Visualization',
             items: [
                 { text: 'Charts' },
@@ -103,15 +103,15 @@ menuItems = [{
             ]
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/DataLayer.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/DataLayer.png',
             text: 'Data Layer'
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/none.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/none.png',
             text: 'Themes'
         },
         {
-            icon: '/Content/images/doc/16_1/PhoneJS/menus/none.png',
+            icon: '/Content/images/doc/16_2/PhoneJS/menus/none.png',
             text: 'Common'
         }
     ]

@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/DisableCache/step1/index.html" data-show-first="views/nonCachedView.html">
+<article data-show="/Content/Applications/16_2/framework/DisableCache/step1/index.html" data-show-first="views/nonCachedView.html">
 
 Use a [simple project template](/Documentation/Tutorial/SPA_Framework/Change_a_View_Title_Dynamically/#Prepare_a_Simple_Application) for your sample application.
 

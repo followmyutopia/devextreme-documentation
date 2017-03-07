@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Inly for pie markers. Shows the values of underlying pie marker (it is not an option but a readonly flag)<!--/d-->
-<!--dep-->Get the values with the 'attribute' method (using the 'layers.dataField' value)<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--type-->array<!--/type-->
 ===========================================================================

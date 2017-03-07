@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the text that is usually shown in the screen header.<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->string<!--/type-->

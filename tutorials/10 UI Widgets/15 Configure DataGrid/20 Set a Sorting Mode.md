@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_1/Framework/DataGridTutorial/Step6/grid.html" data-show-first="grid.html">
+<article data-show-web="/Content/Applications/16_2/Framework/DataGridTutorial/Step6/grid.html" data-show-first="grid.html">
 To sort grid records by values of a column, click the header of this column or choose a required sort order from a context menu appearing after a right-click on the column header. If you set the **sorting** | [mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/sorting/#mode) option to *"multiple"*, an end-user will be able to sort records of several columns. Sorting of several columns can be performed using the context menu only. Additionally, sorting can be disabled for certain columns by setting the [allowSorting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowSorting) option of these columns to *false*.
 
 Grid records may appear sorted if a [sort index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#sortIndex) and [sort order](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#sortOrder) is set for a column. In the grid being configured, specify an ascending initial sort order for the *"Year"* column and a multiple sorting mode for the grid as it is shown in the code below.

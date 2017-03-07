@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Full state of point: 0 - normal state, 1 - hovered, 2 - selected<!--/d-->
 ===========================================================================
 <!--type-->number<!--/type-->
 ===========================================================================
@@ -27,5 +26,5 @@ The point is hovered and selected.
 
 You can also use the **isHovered()** and **isSelected()** point methods to check whether a point is hovered or selected.
 
-To learn more about the handling of point hover and point selection, refer to the [Point Hover](/Documentation/Guide/Data_Visualization/Charts/End-User_Interaction/#Charts_End-User_Interaction_Hover_Handling_Point_Hover) and [Point Selection](/Documentation/Guide/Data_Visualization/Charts/End-User_Interaction/#Charts_End-User_Interaction_Selection_Handling_Point_Selection) topics.
+To learn more about the handling of point hover and point selection, refer to the [Point Hover](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Hover_Handling/#Point_Hover) and [Point Selection](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Selection_Handling/#Point_Selection) topics.
 <!--/fullDescription-->

@@ -1,3 +1,0 @@
-The [Map](/Documentation/ApiReference/UI_Widgets/dxMap/) widget displays a map at the specified location using a specified zoom level. It can also display markers and routes. Refer to the [dxMap guide](/Documentation/Guide/UI_Widgets/UI_Widgets_-_Deep_Dive/dxMap/) for more information.
-
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsmapmapmap/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sets search value. Does not reload automatically.
-<!--/d-->
-<!--p1d-->New search value<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -16,7 +12,7 @@ Sets the [searchValue](/Documentation/ApiReference/Data_Layer/DataSource/Configu
 <!--/shortDescription-->
 
 <!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
 The value to which the search expression value is compared.
 <!--/paramDescription1-->

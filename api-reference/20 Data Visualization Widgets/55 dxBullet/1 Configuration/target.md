@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Target bullet value<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->0<!--/default-->
@@ -17,5 +16,5 @@ Specifies the value indicated by the target line.
 
 <!--fullDescription-->
 #####See Also#####
-- [Bullet - Target Line](/Documentation/Guide/Data_Visualization/Charts/Bullet_Elements/#Target_Line) topic
+- [Bullet - Target Line](/Documentation/Guide/Widgets/Bullet/Visual_Elements/#Target_Line)
 <!--/fullDescription-->

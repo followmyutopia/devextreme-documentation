@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sets current template engine by template engine object
-<!--/d-->
-<!--p1d-->options of template engine<!--/p1d-->
-<!--p1_field1d-->Specifies function that compile template.<!--/p1_field1d-->
-<!--p1_field2d-->Specifies function that render template to html.<!--/p1_field2d-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_set_template_engine">ui/set_template_engine</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_set_template_engine">ui/set_template_engine</a><!--/module-->
+<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

@@ -4,17 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when an item is deleted. 'itemElement' argument specifies the deleted item element. 'itemData' argument specifies the deleted item data.<!--/d-->
 ===========================================================================
 <!--hidden-->false<!--/hidden-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns an object representing the item<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns an HTML element representing the item<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns a number representing the item index. For grouped list index represents as object with group and item indices e.g. { group: 0, item: 0 }<!--/fp1_field6d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -27,9 +19,10 @@ Instead, you can use the [onItemDeleted](/Documentation/ApiReference/UI_Widgets/
 Note that the **itemDeleted** event is raised only if an item is deleted using the appropriate method of the widget or end-user interaction. If you delete an item from an observable array passed to the **dataSource** or **items** option, the widget entirely reloads the items array without raising the **itemDeleted** and **itemDeleting** events.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [List - Handle Deletion-Related Events](/Documentation/Guide/Widgets/List/Item_Deletion/#Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

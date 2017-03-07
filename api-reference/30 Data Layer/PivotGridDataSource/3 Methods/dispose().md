@@ -4,9 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Unsubscribes events and unlinks DataStore. Call this method only if you created DataSource yourself directly.
-<!--/d-->
 ===================================================================
 ===================================================================
 

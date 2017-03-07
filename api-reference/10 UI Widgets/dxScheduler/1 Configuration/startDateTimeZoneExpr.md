@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name of the data source item field used as a start date timezone of appointment.<!--/d-->
 ===========================================================================
 <!--default-->'startDateTimeZone'<!--/default-->
 <!--type-->string<!--/type-->

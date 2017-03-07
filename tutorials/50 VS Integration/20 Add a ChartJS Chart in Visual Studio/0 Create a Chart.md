@@ -2,7 +2,7 @@
 
 To begin, you must first create a DevExtreme application in Visual Studio by using either the [Basic Application](/Documentation/Guide/VS_Integration/Project_Templates/#Basic_Application) or [Multi-Channel Application](/Documentation/Guide/VS_Integration/Project_Templates/#Multi-Channel_Application) project template supplied with the DevExtreme installation. From the Visual Studio main menu, select **File** | **New** | **Project...** to invoke the **New Project** dialog.
 
-![New Project Dialog](Content/images/doc/16_1/DevExtreme/Tutorial_NewProject.png)
+![New Project Dialog](Content/images/doc/16_2/DevExtreme/Tutorial_NewProject.png)
 
 Select **DevExtreme** in the **Projects** tree view. In the **Templates** list view, select the **DevExtreme XX.X Basic Application** template, specify the new solution's name and click **OK**.
 
@@ -10,7 +10,7 @@ You will see a project with the specified name within the Solution Explorer. To 
 
 Double-click the *home.dxView* file to invoke the View Designer. It contains an area with the View's markup and a View simulator displaying this markup. In the simulator, select all elements in the View and remove them. Drag the "dxChart" item from the Toolbox to the View in the simulator.
 
-![Add Chart](Content/images/doc/16_1/DevExtreme/Tutoria2_AddChart.png)
+![Add Chart](Content/images/doc/16_2/DevExtreme/Tutoria2_AddChart.png)
 
 A div element with the `data-bind` attribute set to `dxChart` is added. `dxChart` is custom [Knockout binding](http://knockoutjs.com/documentation/introduction.html) that is supplied with ChartJS.
 
@@ -20,6 +20,6 @@ To configure a widget, pass a configuration object as the constructor's paramete
 
 Run this code in a browser to view a chart with sample data.
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_1/LearningCenter/ChartLessons/chart.html, /Content/Applications/16_1/LearningCenter/ChartLessons/createChart.js"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/LearningCenter/ChartLessons/chart.html, /Content/Applications/16_2/LearningCenter/ChartLessons/createChart.js"></div>
 
 </article>

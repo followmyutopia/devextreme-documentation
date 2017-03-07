@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Ratio is a part of available space inside the box element. Item size is increased according to this value if space is available.<!--/d-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--acceptValues-->'auto'<!--/acceptValues-->
@@ -16,5 +15,8 @@ Specifies the ratio value used to count the item element size along the main dir
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Refer to the [Layout Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Layout_Widgets/#Specify_An_Element_Size) guide to learn how to specify an element size.
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option using the `Mode` enum, which accepts the value `Auto`.
+
+#####See Also#####
+- [Box - Specify an Item Size](/Documentation/Guide/Widgets/Box/Specify_an_Item_Size/)
 <!--/fullDescription-->

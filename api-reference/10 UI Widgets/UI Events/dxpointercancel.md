@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The event for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. The event triggers when a pointer is unlikely to continue to produce events (for example, because of a hardware event) or after having fired the pointerdown event, the pointer is subsequently used to manipulate the page viewport (e.g. panning or zooming). (See more: http://www.w3.org/TR/pointerevents/#the-pointercancel-event).<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_pointer">events/pointer</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_pointer">events/pointer</a><!--/module-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A jQuery event object.<!--/fp1d-->
-<!--fp1_field1d-->Indicates the device type that caused the event (mouse, pen or touch).<!--/fp1_field1d-->
 ===========================================================================
 
 <!--shortDescription-->

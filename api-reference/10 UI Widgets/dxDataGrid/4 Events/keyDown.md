@@ -4,14 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called when a key down event is thrown<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Event info.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->The jQuery event.<!--/fp1_field3d-->
-<!--fp1_field4d-->Indicates if the grid has already handled the key down event<!--/fp1_field4d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -22,9 +16,9 @@ Fires when a key is pressed down when the widget is focused.
 Instead, you can use the [onKeyDown](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onKeyDown) option to handle the event.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

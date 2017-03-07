@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Maximum range that can be selected<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'millisecond' | 'second' | 'minute' | 'hour' | 'day' | 'week' | 'month' | 'quarter' | 'year'<!--/acceptValues-->

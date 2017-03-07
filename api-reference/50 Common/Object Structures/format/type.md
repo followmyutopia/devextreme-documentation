@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies a formatting configuration by a reserved shortcuts
-The values 'longDate', 'longTime', 'longDateLongTime', 'monthAndDay', 'monthAndYear', 'quarterAndYear', 'shortDate', 'shortTime', 'shortDateShortTime', 'second', 'millisecond', 'day', 'month', 'quarter', 'year', 'dayOfWeek', 'hour', 'minute' are acceptable for dates formatting.
-The values 'currency', 'fixedPoint', 'percent', 'decimal', 'exponential', 'largeNumber', 'thousands', 'millions', 'billions', 'trillions' are acceptable for numbers formatting.
-The values 'largeNumber', 'thousands', 'millions', 'billions', 'trillions' can be joined to the values 'currency', 'fixedPoint', 'decimal' with a space separator.
-If format is an object but the type field is not defined, format object will be used as a config for the Globalize formatting method (See the config specifiaction in a Globalize documentation: https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md, https://github.com/jquery/globalize/blob/master/doc/api/number/number-formatter.md, https://github.com/jquery/globalize/blob/master/doc/api/currency/currency-formatter.md)<!--/d-->
 ===========================================================================
 <!--acceptValues-->'currency' | 'fixedPoint' | 'percent' | 'decimal' | 'exponential' | 'largeNumber' | 'thousands' | 'millions' | 'billions' | 'trillions' | 'longDate' | 'longTime' | 'longDateLongTime' | 'monthAndDay' | 'monthAndYear' | 'quarterAndYear' | 'shortDate' | 'shortTime' | 'shortDateShortTime' | 'second' | 'millisecond' | 'day' | 'month' | 'quarter' | 'year' | 'dayOfWeek' | 'hour' | 'minute'<!--/acceptValues-->
 <!--type-->String<!--/type-->
@@ -35,6 +30,8 @@ If **type** is the only field you need to specify in the **format** object, assi
     <!--JavaScript-->format: 'shortDate'
 
 [note]The **type** option will not be applied if you have specified the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) function.
+
+When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option using the `Format` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'fixedPoint'* becomes `FixedPoint`.
 
 #####See Also#####
 - **format** | [currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency) - specifies the currency code for the currency format.

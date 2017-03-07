@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Fired after fields are prepared.<!--/d-->
 <!--EventForAction-->..\4 Events\fieldsPrepared.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(fields)<!--/type-->
-<!--fp1d-->Array of fields.<!--/fp1d-->
 ===========================================================================
 
 <!--shortDescription-->

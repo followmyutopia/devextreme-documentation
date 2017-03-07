@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Deselects the specified point. The point is displayed in an initial style.
-<!--/d-->
-<!--p1d-->The point to be deselected.<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -22,5 +18,5 @@ The point to be deselected.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-To learn about point selection, refer to the [Selection Handling](/Documentation/Guide/Data_Visualization/Charts/End-User_Interaction/#Selection_Handling) section.
+To learn about point selection, refer to the [Selection Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Selection_Handling) section.
 <!--/fullDescription-->

@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The event for start hovering mouse cursor on element. It is supported only on desktop.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_hover">events/hover</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_hover">events/hover</a><!--/module-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A jQuery event object.<!--/fp1d-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -4,18 +4,17 @@
 -------------------------------------------
 
 **-->
-<!--d-->Order of sorting for column<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the index of a column when grid records are [sorted](/Documentation/Guide/UI_Widgets/Data_Grid/Sorting/) by the values of this column.
+Specifies the index of a column when grid records are [sorted](/Documentation/Guide/Widgets/DataGrid/Sorting/) by the values of this column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A user can sort grid records by the values of columns. To do it, he or she must click the [header](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Columns/Configuring_Column_Headers) of a required column. But there may be cases, when grid records should be sorted initially. To do this, assign an integer value to the **sortIndex** option of the columns that should be used for sorting grid records. For example, consider the following data source.
+A user can sort grid records by the values of columns. To do it, he or she must click the [header](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Configuring_Column_Headers) of a required column. But there may be cases, when grid records should be sorted initially. To do this, assign an integer value to the **sortIndex** option of the columns that should be used for sorting grid records. For example, consider the following data source.
 
 	<!--JavaScript-->var dataSource = [
 		{ FirstName: 'John', LastName: 'Doe', Title: 'Sales Manager' },

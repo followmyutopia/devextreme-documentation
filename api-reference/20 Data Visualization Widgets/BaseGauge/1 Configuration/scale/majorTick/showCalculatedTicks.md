@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines if auto calculated major ticks are shown<!--/d-->
-<!--dep-->This functionality in not more available<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

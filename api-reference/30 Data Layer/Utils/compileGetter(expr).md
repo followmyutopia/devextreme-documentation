@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Generates a getter function from an expression
-<!--/d-->
-<!--p1d-->Expression. Ref to getter/setter syntax<!--/p1d-->
-<!--rd-->getter function<!--/rd-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_utils">utils</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_utils">utils</a><!--/module-->
 <!--export-->compileGetter<!--/export-->
 ===================================================================
 

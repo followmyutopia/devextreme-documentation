@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->show row area header<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Shows/hides row fields on the [field panel](/Documentation/Guide/UI_Widgets/Pivot_Grid/Visual_Elements/#Field_Panel).
+Shows/hides row fields on the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
 <!--/shortDescription-->
 
 <!--fullDescription-->

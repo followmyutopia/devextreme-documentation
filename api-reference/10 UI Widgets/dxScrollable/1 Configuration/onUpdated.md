@@ -4,21 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed after the widget is updated. 'scrollOffset' argument specifies current scroll offset in following format { top: topOffset, left: leftOffset }. 'reachedLeft' argument specifies whether left container boundary is reached. 'reachedRight' argument specifies whether right container boundary is reached. 'reachedTop' argument specifies whether top container boundary is reached. 'reachedBottom' argument specifies whether container boundary is reached.<!--/d-->
 <!--EventForAction-->..\4 Events\updated.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns a jQuery event that caused the action's execution<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns the current scroll offset in the following format { top: topOffset, left: leftOffset }<!--/fp1_field5d-->
-<!--fp1_field6d-->Indicates whether the container's left boundary is reached<!--/fp1_field6d-->
-<!--fp1_field7d-->Indicates whether the container's right boundary is reached<!--/fp1_field7d-->
-<!--fp1_field8d-->Indicates whether the container's top boundary is reached<!--/fp1_field8d-->
-<!--fp1_field9d-->Indicates whether the container's bottom boundary is reached<!--/fp1_field9d-->
 ===========================================================================
 
 <!--shortDescription-->

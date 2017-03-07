@@ -4,16 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called when data is generated instead fileSaving action<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Information about export.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->File name of exproting file<!--/fp1_field3d-->
-<!--fp1_field4d-->Format of exporting document<!--/fp1_field4d-->
-<!--fp1_field5d-->Blob data of generated Excel document<!--/fp1_field5d-->
-<!--fp1_field6d-->Cancel file saving<!--/fp1_field6d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -24,9 +16,9 @@ Fires before the grid saves an Excel file with exported data on the user's local
 Instead, you can use the [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving) option to handle the event.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -36,7 +28,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -51,7 +43,7 @@ The name of the file to be saved.
 <!--typeFunctionParamName1_field4-->format<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The format of the file to be saved. Equals to <i>'EXCEL'</i> for an Excel file.
+The format of the file to be saved. Equals <i>'EXCEL'</i> for an Excel file.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->data<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->blob<!--/typeFunctionParamType1_field5-->

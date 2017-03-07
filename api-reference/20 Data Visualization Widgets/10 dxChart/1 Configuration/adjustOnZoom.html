@@ -17,8 +17,8 @@
     chart: {
         series: seriesSettings
     },
-    behavior: { callSelectedRangeChanged: 'onMoving' },
-    onSelectedRangeChanged: zoomChart
+    behavior: { callValueChanged: 'onMoving' },
+    onValueChanged: zoomChart
 }"></div>
 <div style="text-align:center">
     <div style="margin-top:5px" data-bind="dxCheckBox: {
@@ -42,8 +42,8 @@
         chart: {
             series: seriesSettings
         },
-        behavior: { callSelectedRangeChanged: 'onMoving' },
-        onSelectedRangeChanged: zoomChart
+        behavior: { callValueChanged: 'onMoving' },
+        onValueChanged: zoomChart
     }"></div>
     <div style="text-align:center">
         <div style="margin-top:5px" ng-model="checkBoxState" dx-check-box="{

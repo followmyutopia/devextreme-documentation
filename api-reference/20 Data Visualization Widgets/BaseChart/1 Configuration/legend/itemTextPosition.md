@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Text position on item<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'right' | 'left' | 'top' | 'bottom'<!--/acceptValues-->

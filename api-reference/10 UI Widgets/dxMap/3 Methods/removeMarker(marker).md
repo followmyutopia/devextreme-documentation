@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Removes marker from the map.
-<!--/d-->
-<!--p1d-->Marker options, marker index or markers array that identify the marker(s) to remove.<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object which is resolved when the marker is removed.<!--/rd-->
 ===================================================================
 ===================================================================
 

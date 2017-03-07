@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Applies transformation (projection) to each item. Ref to getter/setter syntax. Chain function.
-<!--/d-->
-<!--p1d-->item transformation expression<!--/p1d-->
-<!--rd-->this query<!--/rd-->
 ===================================================================
 ===================================================================
 

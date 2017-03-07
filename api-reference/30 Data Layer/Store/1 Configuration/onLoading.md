@@ -4,18 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Convenience way to specify a single loading callback.<!--/d-->
 <!--EventForAction-->..\4 Events\loading.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->An object specifying data shaping options.<!--/fp1d-->
-<!--fp1_field1d-->Filter expression.<!--/fp1_field1d-->
-<!--fp1_field2d-->Sort expression.<!--/fp1_field2d-->
-<!--fp1_field3d-->Select expression.<!--/fp1_field3d-->
-<!--fp1_field4d-->Group expression.<!--/fp1_field4d-->
-<!--fp1_field5d-->The number of items to skip.<!--/fp1_field5d-->
-<!--fp1_field6d-->The number of items to take.<!--/fp1_field6d-->
-<!--fp1_field7d-->A bag for holding any user-defined parameters per request<!--/fp1_field7d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -65,3 +56,18 @@ The number of items to take for the loaded data.
 <!--typeFunctionParamDescription1_field7-->
 A bag for holding user-defined parameters.
 <!--/typeFunctionParamDescription1_field7-->
+<!--typeFunctionParamName1_field8-->searchValue<!--/typeFunctionParamName1_field8-->
+<!--typeFunctionParamType1_field8-->object<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamDescription1_field8-->
+The value to which the search expression value is compared.
+<!--/typeFunctionParamDescription1_field8-->
+<!--typeFunctionParamName1_field9-->searchOperation<!--/typeFunctionParamName1_field9-->
+<!--typeFunctionParamType1_field9-->string<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamDescription1_field9-->
+A search operation expression.
+<!--/typeFunctionParamDescription1_field9-->
+<!--typeFunctionParamName1_field10-->searchExpr<!--/typeFunctionParamName1_field10-->
+<!--typeFunctionParamType1_field10-->getter|array<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamDescription1_field10-->
+A getter representing a search expression.
+<!--/typeFunctionParamDescription1_field10-->

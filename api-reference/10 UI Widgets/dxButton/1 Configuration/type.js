@@ -2,7 +2,7 @@
 var myViewModel = {
     buttonText: 'Click me',
     buttonType: ko.observable("normal"),
-    buttonTypes: ["normal", "back", "danger", "success"],
+    buttonTypes: ["normal", "back", "danger", "success", "default"],
     buttonClicked: function () {
         DevExpress.ui.notify("The button is clicked", "success", 1000);
     }
@@ -14,7 +14,7 @@ var myApp = angular.module('myApp', ['dx']);
 myApp.controller("demoController", function ($scope) {
     $scope.buttonText = "Click me";
     $scope.buttonType = "normal";
-    $scope.buttonTypes = ["normal", "back", "danger", "success"];
+    $scope.buttonTypes = ["normal", "back", "danger", "success", "default"];
     $scope.buttonClicked = function () {
         DevExpress.ui.notify("The button is clicked", "success", 1000);
     };
@@ -31,7 +31,7 @@ $("#myButton").dxButton({
     }
 });
 $("#typeSelector").dxSelectBox({
-    dataSource: ["normal", "back", "danger", "success"],
+    dataSource: ["normal", "back", "danger", "success", "default"],
     onValueChanged: function (e) {
         $("#myButton").dxButton("instance").option("type", e.value);
     }

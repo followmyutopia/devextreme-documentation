@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function that allows user to specifi additional options for series created from template<!--/d-->
 ===========================================================================
 <!--type-->function(seriesName)<!--/type-->
-<!--fp1d-->The name of the series to be customized<!--/fp1d-->
-<!--frd-->A configuration object for the series.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

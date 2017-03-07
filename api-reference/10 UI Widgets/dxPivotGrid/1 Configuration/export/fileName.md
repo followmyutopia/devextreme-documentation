@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies a name that should be assigned to the file<!--/d-->
 ===========================================================================
 <!--default-->'PivotGrid'<!--/default-->
 <!--type-->string<!--/type-->

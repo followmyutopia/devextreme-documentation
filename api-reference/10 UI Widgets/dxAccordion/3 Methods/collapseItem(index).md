@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Collapses specified item in collapsible mode.
-<!--/d-->
-<!--p1d-->A numeric index of item to close.<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when widget item closing is complete.<!--/rd-->
 ===================================================================
 ===================================================================
 

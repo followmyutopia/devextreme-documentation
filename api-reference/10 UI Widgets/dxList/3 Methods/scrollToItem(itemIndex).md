@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Scrolls list to specified item.
-<!--/d-->
-<!--p1d-->The item index. For grouped list index represents as object with group and item indices e.g. { group: 0, item: 0 }.<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -38,4 +34,7 @@ If the widget displays a grouped list, specify the target item index using an ob
         group: 3,
         item: 8
     });
+
+#####See Also#####
+- [List - Scrolling API](/Documentation/Guide/Widgets/List/Scrolling/#API)
 <!--/fullDescription-->

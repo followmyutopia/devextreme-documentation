@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Name, data field, caption of column as identifier of group column<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the identifier of the column that must be used in [grouping](/Documentation/Guide/UI_Widgets/Data_Grid/Grouping/) so that sorting by [group summary item values](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) be applied.
+Specifies the identifier of the column that must be used in [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) so that sorting by [group summary item values](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) be applied.
 <!--/shortDescription-->
 
 <!--fullDescription-->

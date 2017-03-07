@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->User implementation of insertion. Accepts bag of data values. Return value is not required. If present must be key value or promise of key value.<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->An object representing the inserted item.<!--/fp1d-->
-<!--frd-->A Promise/A implementation resolved after the item has been inserted.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

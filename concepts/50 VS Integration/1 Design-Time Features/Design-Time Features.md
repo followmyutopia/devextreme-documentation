@@ -2,7 +2,7 @@
 
 [note]If you create an application using [DevExtreme project templates](/Documentation/Guide/VS_Integration/Project_Templates/), HTML view files will already have the *.dxView* extension.
 
-![View Designer](Content/images/doc/16_1/DevExtreme/dxView.png)
+![View Designer](Content/images/doc/16_2/DevExtreme/dxView.png)
 
 As you can see in the image above, the View Designer has Design and Source Views. The HTML code that is presented in the Source View is running in the Design View.
 

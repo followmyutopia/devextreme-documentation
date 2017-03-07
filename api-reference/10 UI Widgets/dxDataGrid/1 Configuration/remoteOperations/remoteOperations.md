@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Server operations<!--/d-->
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--type-->string | boolean | object<!--/type-->
@@ -15,13 +14,43 @@ Specifies the operations that must be performed on the server side.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Data that you use in your grid can be stored on the client side or come from a remote server. In many cases, manipulating data on a server enhances grid performance. However, your server might be falling short in performing certain operations. In that case, specify to perform them client side using the **remoteOperations** option.
+Data for the **DataGrid** can be stored on the client or come from the server. As a rule, manipulating data on the server enhances **DataGrid** performance. However, the server might be falling short of implementing certain operations, in which case, they can be performed on the client.
 
-Remote operations include basic (filtering, sorting and paging) and advanced operations (grouping and summary calculation). Their default settings differ. Whether basic operations are performed on the client or server side by default depends on the type of the [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource). The use of an [array of objects](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Binding/#Provide_Data/Using_an_Array_of_Objects), an [ArrayStore](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Binding/#Provide_Data/Using_the_Data_Layer/Using_an_ArrayStore) or a [LocalStore](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Binding/#Provide_Data/Using_the_Data_Layer/Using_a_LocalStore) forces **DataGrid** to perform basic operations locally. If you use an [ODataStore](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Binding/#Provide_Data/Using_the_Data_Layer/Using_an_ODataStore) or a [CustomStore](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Binding/#Provide_Data/Using_the_Data_Layer/Using_a_CustomStore), basic operations are performed remotely. Advanced operations are performed on the client side by default.
+Data operations can be categorized into basic operations ([filtering](/Documentation/Guide/Widgets/DataGrid/Filtering/), [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/), [paging](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/)) and advanced operations ([grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/), [group paging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/#groupPaging), [summary calculation](/Documentation/Guide/Widgets/DataGrid/Summaries/)). The following table shows where data operations are performed by default.
 
-To control individual operations, assign a boolean value to a corresponding field of the **remoteOperations** object. To control all operations simultaneously, assign a boolean value directly to the **remoteOperations** option.
+<div class="simple-table">
+<table>
+  <tr>
+    <th></th>
+    <th>Basic operations</th>
+    <th>Advanced operations</th>
+ </tr>
+ <tr>
+    <td><a href="/Documentation/16_2/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/">CustomStore</a></td>
+    <td style="text-align:center">client</td>
+    <td style="text-align:center">client</td>
+ </tr>
+ <tr>
+    <td><a href="/Documentation/16_2/Guide/Widgets/DataGrid/Data_Binding/OData_Service/">ODataStore</a></td>
+    <td style="text-align:center">server</td>
+    <td style="text-align:center">client (always)</td>
+ </tr>
+</table>
+</div>
 
-[note]When this option is given *false* or an object with field(s) set to *false*, corresponding operations are performed locally. Nevertheless, if your actual data is located on a remote server, it will be loaded from this server and saved in the cache after the widget is initialized. Later, the widget may reload data if it will be necessary, for example, when calculating groups or summary.
+[note]You cannot perform data operations on the server with an [ArrayStore](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Simple_Array/Array_Store/), a [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/) or an [array of objects](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Simple_Array/Array_Only/).
 
-[note]Data operations in **DataGrid** have mutual dependencies. Therefore, disabling an individual operation does not guarantee that the widget will not query the server during this operation being performed. For example, **DataGrid** implements grouping by means of basic operations. Therefore, the combination of client-side grouping and server-side basic operations may produce queries to the server.
+To control individual operations, assign a Boolean value to a corresponding field of the **remoteOperations** object. To control all operations simultaneously, assign a Boolean value directly to the **remoteOperations** option. 
+
+[note]If you assign *true* to **remoteOperations**, the group paging feature is still performed on the client. To delegate it to the server, assign *true* to the **remoteOperations** | [groupPaging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/#groupPaging), but note that with this setting, all other operations are delegated to the server also.
+
+[note]If actual data is stored on the server, making data operations local does _not_ guarantee that there won't be any queries for data to the server while these operations are being performed. It only guarantees that _calculations_ will be performed on the client.
+
+Note that when operations are performed remotely, the **DataGrid** does not support:
+
+- sorting, grouping and filtering by [calculated columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue);
+- custom grouping and custom sorting using functions (that is, [calculateGroupValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateGroupValue) and [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateSortValue) accept strings only);
+- [custom summary calculation](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary).
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/data_grid-grid_data_binding-custom_data_source" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

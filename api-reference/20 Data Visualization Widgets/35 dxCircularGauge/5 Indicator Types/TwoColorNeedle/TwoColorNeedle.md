@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options for the two color needle of the Circular gauge<!--/d-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->object<!--/type-->
@@ -18,9 +17,9 @@ An object that defines a gauge indicator of the **twoColorNeedle** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![TwoColorNeedle Gauge Value Indicator DevExtreme](/Content/images/doc/16_1/ChartJS/TwoColorNeedleValueIndicator.png)
+![TwoColorNeedle Gauge Value Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/TwoColorNeedleValueIndicator.png)
 
 **Subvalue Indicator**
 
-![TwoColorNeedle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_1/ChartJS/TwoColorNeedleSubvalueIndicator.png)
+![TwoColorNeedle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/TwoColorNeedleSubvalueIndicator.png)
 <!--/fullDescription-->

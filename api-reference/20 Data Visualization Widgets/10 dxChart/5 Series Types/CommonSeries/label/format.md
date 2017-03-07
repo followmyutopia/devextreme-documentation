@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Label predefined format for points value<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->format<!--/type-->
@@ -23,9 +22,9 @@ This option accepts an object whose fields are described in the [format](/Docume
         percentPrecision: 2 // the precision of percentage values (12.3456 % --> 12.34 %)
     }
 
-[note]DevExtreme widgets provide a wide choice of [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type). If you are, however, going to use custom formats, link the [Globalize](https://github.com/jquery/globalize) library to your project. Learn how to do this from the [Installation](/Documentation/Guide/Data_Visualization/Basics/Installation/) topic.
+[note]DevExtreme widgets provide a wide choice of [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type). If you are, however, going to use custom formats, link the [Globalize](https://github.com/jquery/globalize) library to your project. Learn how to do this from topics in the [Installation](/Documentation/16_2/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 #####See Also#####
 - [format](/Documentation/ApiReference/Common/Object_Structures/format/) - provides a comprehensive overview of formatting capabilities.
-- [Data Formatting](/Documentation/Guide/Data_Visualization/Common/Data_Formatting/#Data_Formatting) - shows how to apply formatting to various widget elements.
+- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Data_Formatting) - shows how to apply formatting to various widget elements.
 <!--/fullDescription-->

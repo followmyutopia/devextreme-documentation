@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the target placeholder for a view that is displayed in the Split layout<!--/d-->
 ===========================================================================
 <!--default-->'detail'<!--/default-->
 <!--acceptValues-->'master' | 'detail'<!--/acceptValues-->

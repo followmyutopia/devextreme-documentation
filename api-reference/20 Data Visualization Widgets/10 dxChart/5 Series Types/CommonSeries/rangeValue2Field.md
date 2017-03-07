@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Second value field for range series<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--propertyOf-->..\RangeBarSeries\RangeBarSeries.md,..\RangeAreaSeries\RangeAreaSeries.md<!--/propertyOf-->

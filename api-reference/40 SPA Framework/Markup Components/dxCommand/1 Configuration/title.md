@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the text that is shown inside the command corresponding widget.<!--/d-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->string<!--/type-->

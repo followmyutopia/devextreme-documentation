@@ -4,18 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Initiates loading. Async function.
-<!--/d-->
-<!--p1d-->Data loading options. Optional argument.<!--/p1d-->
-<!--p1_field1d-->Filter expression.<!--/p1_field1d-->
-<!--p1_field2d-->Sort expression.<!--/p1_field2d-->
-<!--p1_field3d-->Select expression.<!--/p1_field3d-->
-<!--p1_field4d-->Group expression.<!--/p1_field4d-->
-<!--p1_field5d-->The number of items to skip.<!--/p1_field5d-->
-<!--p1_field6d-->The number of items to take.<!--/p1_field6d-->
-<!--p1_field7d-->A bag for holding any user-defined parameters per request<!--/p1_field7d-->
-<!--rd-->Promise of jQuery.Deferred which resolves with (array data, object extra) or rejects with (Error)<!--/rd-->
 ===================================================================
 ===================================================================
 

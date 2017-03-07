@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the type of the view which the cell belongs to.<!--/d-->
 ===========================================================================
 <!--acceptValues-->'month' | 'year' | 'decade' | 'century'<!--/acceptValues-->
 <!--type-->String<!--/type-->

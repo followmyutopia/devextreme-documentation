@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/ViewEvents/step2/index.html" data-show-first="views/log.js">
+<article data-show="/Content/Applications/16_2/framework/ViewEvents/step2/index.html" data-show-first="views/log.js">
 
 The **HtmlApplication** object exposes the [events](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Events/) that are raised for each view displayed in the application. You can handle these events to perform certain actions for all the views in the application. To handle a particular event for a certain view only, add a field with the event's name to the view's ViewModel and assign the required function to it. In this manner, handle the following view events for the 'log' view.
 

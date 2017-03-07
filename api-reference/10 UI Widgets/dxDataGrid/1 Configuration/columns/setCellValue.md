@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function which sets cell value<!--/d-->
 ===========================================================================
 <!--type-->function(rowData, value)<!--/type-->
-<!--fp1d-->The data object represented by the current grid row. To invoke the default behavior, call defaultSetCellValue.<!--/fp1d-->
-<!--fp2d-->A cell value to set.<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -39,11 +36,11 @@ Use this function to process user input before it will be saved in the data sour
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The data object represented by the current grid row.
+The data object where new data should be set.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->value<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->any<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The inputted value.
+The input value.
 <!--/typeFunctionParamDescription2-->

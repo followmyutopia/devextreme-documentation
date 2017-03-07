@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines an expression returning expanded state for a chosen item.<!--/d-->
 ===========================================================================
 <!--hidden-->false<!--/hidden-->
 <!--default-->'expanded'<!--/default-->

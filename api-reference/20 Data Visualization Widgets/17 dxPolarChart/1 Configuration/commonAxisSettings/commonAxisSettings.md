@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common axis options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-An object defining the configuration options that are common for all [axes](/Documentation/Guide/Data_Visualization/Charts/PolarChart_Elements/#Axes) of the **PolarChart** widget.
+An object defining the configuration options that are common for all [axes](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes) of the **PolarChart** widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->

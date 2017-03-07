@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Scroll content to specified position.
-<!--/d-->
-<!--p1d-->An object specifing position where to scroll in format { left: locationLeft, top: locationTop }.<!--/p1d-->
 ===================================================================
 ===================================================================
 

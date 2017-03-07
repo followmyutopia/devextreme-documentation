@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Marker value (only 'marker:bubble')<!--/d-->
-<!--dep-->Specify value as one of the attributes and reference it with the 'layers.dataField' option<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->

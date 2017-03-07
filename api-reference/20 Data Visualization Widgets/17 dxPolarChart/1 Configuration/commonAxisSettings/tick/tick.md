@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Axis tick options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-An object defining the configuration options for [axis ticks](/Documentation/Guide/Data_Visualization/Charts/PolarChart_Elements/#Axis_Ticks).
+An object defining the configuration options for [axis ticks](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axis_Ticks).
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->candlestickSeries selection mode<!--/d-->
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->

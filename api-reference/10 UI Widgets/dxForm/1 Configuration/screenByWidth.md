@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the function returning screen factor for width in pixels. e.g. function(width) { return width > 1000 ? 'lg' : 'sm' }<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
@@ -29,4 +28,6 @@ The function passed to this option should take on the screen width as a paramete
             return 'lg';
         }
     }
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

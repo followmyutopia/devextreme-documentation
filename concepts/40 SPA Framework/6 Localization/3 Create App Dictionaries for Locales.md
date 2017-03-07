@@ -2,12 +2,12 @@ Using the [created dictionary](/Documentation/Guide/SPA_Framework/Localization/#
 
 - Make a copy of the *localization.XX.js* file and rename it replacing XX with the required locale identifier.
 
-- Modify the **Globalize.loadMessages** function call. Apply the following modifications to the **Globalize.loadMessages** function call.
+- Modify the **localization.loadMessages** function call. Apply the following modifications to the **localization.loadMessages** function call.
 - Rename the field of an argument object passed to this function using the required locale identifier.
 - Provide the corresponding translation for the keys.
 
         <!--JavaScript-->
-        Globalize.loadMessages({
+        DevExpress.localization.loadMessages({
             "de": {
                 "billTotal": "Rechnungsbetrag",
                 "typeHere": "Hier eingeben"

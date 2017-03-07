@@ -1,5 +1,5 @@
 ﻿<!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_1/Framework/UseOLAPDataForPivotGrid/Step3/pivotGrid.html" data-show-first="pivotGrid.html">
+<article data-show-web="/Content/Applications/16_2/Framework/UseOLAPDataForPivotGrid/Step3/pivotGrid.html" data-show-first="pivotGrid.html">
 
 Pivot grid data is provided by a [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/). This object is a connection between the **PivotGrid** widget, and data provided by a web service or data stored locally. The PivotGridDataSource underlying data access logic is isolated in a [Store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/). In this tutorial, an **XmlaStore** will be used to provide access to a remote OLAP server. 
 
@@ -18,5 +18,5 @@ To display data in the pivot grid, drag and drop fields from the "All Fields" li
 
 Although the fields are available, the pivot grid is empty by default. Follow the next steps to learn how to configure "dimensions" (row, column and filter fields) and "measures" (data fields) for populating the pivot grid automatically on load.
 
-[note] To learn how to configure HTTP access to the Microsoft Analysis Services, refer to the **Data Binding** | [Using an OLAP](/Documentation/Guide/UI_Widgets/Pivot_Grid/Data_Binding/#Provide_Data/Using_an_OLAP).
+[note] To learn how to configure HTTP access to the Microsoft Analysis Services, refer to the **Data Binding** | [Using an OLAP](/Documentation/Guide/Widgets/PivotGrid/Data_Binding/#Provide_Data/Using_an_OLAP).
 </article>

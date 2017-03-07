@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/LearningCenter/HelloFantasticWorld/HelloFantasticWorld7.html">
+<article data-show="/Content/Applications/16_2/LearningCenter/HelloFantasticWorld/HelloFantasticWorld7.html">
 Pass the text entered in the "home" view to the "greeting" view and concatenate it to the "Hello" string.
 
 - In the *index.js* file, check to make sure that the application's routing format allows you to pass a parameter. By default, the routing format has a second **id** parameter.

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Value indicator second color ('twoColorNeedle' only)<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\..\35 dxCircularGauge\5 Indicator Types\TwoColorNeedle\TwoColorNeedle.md<!--/propertyOf-->
 <!--default-->'#E18E92'<!--/default-->

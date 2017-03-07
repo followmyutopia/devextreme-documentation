@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Fired after the view markup is completely created.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Provides information required for displaying a view.<!--/fp1_field1d-->
 ===========================================================================
 
 <!--shortDescription-->

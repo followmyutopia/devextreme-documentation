@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Applies grouping by specified expression. Ref to getter/setter syntax. Chain function.
-<!--/d-->
-<!--p1d-->expression for group key<!--/p1d-->
-<!--rd-->this query<!--/rd-->
 ===================================================================
 ===================================================================
 

@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Adds route to the map.
-<!--/d-->
-<!--p1d-->Route or routes array.<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object which is resolved with origin route instance when the route is added.<!--/rd-->
 ===================================================================
 ===================================================================
 

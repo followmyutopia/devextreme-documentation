@@ -4,15 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Custom template is displayed in group row<!--/d-->
 ===========================================================================
 <!--type-->template<!--/type-->
-<!--fp1d-->The cell under customization.<!--/fp1d-->
-<!--fp2d-->The options of the current cell.<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a custom template for the [group cell](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows) of a grid column.
+Specifies a custom template for the [group cell](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) of a grid column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -31,6 +28,8 @@ Contains a data object that represents data items matching a grouping key. For e
 				// ...
 			]
 		}
+- **component**  
+Contains the **DataGrid** instance.
 - **value**		
 Contains the value of the current group cell as it is specified in a data source.
 - **text**		
@@ -38,9 +37,9 @@ Contains the value of the current group cell in a string format. Use this field 
 - **displayValue**		
 Contains the value displayed by the current group cell. Differs from the **value** field only when the column to which the current cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
 - **columnIndex**		
-Contains the index of the column to which the current group cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+Contains the index of the column to which the current group cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
 - **rowIndex**		
-Contains the index of the row that the current group cell occupies. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows) topic.
+Contains the index of the row that the current group cell occupies. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
 - **column**		
 Contains the settings of the column to which the current group cell belongs.
 - **summaryItems**  
@@ -53,7 +52,7 @@ If the current group is continued from the previous page, this field contains a 
 [note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 
 
 #####See Also#####
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
 It is also possible to define a group cell template in markup. For this purpose, use one of the following template engines. The above-mentioned cell settings can be accessed in a similar manner inside the template.
 

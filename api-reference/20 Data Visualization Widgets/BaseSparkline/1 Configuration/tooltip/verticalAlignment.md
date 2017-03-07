@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tooltip vertical alignment<!--/d-->
-<!--dep-->Tooltip alignment is no more available.<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'top' | 'bottom'<!--/acceptValues-->

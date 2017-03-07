@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether the column is editable<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -20,5 +19,5 @@ If the **allowEditing** option is set to *true* for a column, values in this col
 [note] If values in a column are calculated customarily using the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) option, they cannot be edited at runtime.
 
 #####See Also#####
-- [DataGrid - Editing in UI](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Editing/#Editing_in_UI)
+- [DataGrid - Editing in UI](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI)
 <!--/fullDescription-->

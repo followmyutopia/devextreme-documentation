@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The target element.<!--/d-->
 ===========================================================================
 <!--type-->string | Node | jQuery | window<!--/type-->
 ===========================================================================
@@ -49,7 +48,7 @@ You can also pass a jQuery Event object to the **of** option. In this case, the 
         $("#myPopover").dxPopover("instance").show();
     })
 
-#####AngularJS Approach#####
+#####AngularJS#####
 
     <!--HTML-->
     <div id="myElement" ng-click="processClick($event)">. . .</div>
@@ -79,7 +78,7 @@ You can also pass a jQuery Event object to the **of** option. In this case, the 
         }
     }
 
-#####Knockout Approach#####
+#####Knockout#####
 
     <!--HTML-->
     <div id="myElement" data-bind="click: processClick">. . .</div>

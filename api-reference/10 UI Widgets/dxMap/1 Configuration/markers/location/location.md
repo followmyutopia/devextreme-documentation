@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->(required) Specifiesthe marker location (see the center option structure).<!--/d-->
 ===========================================================================
 <!--type-->object | string | array<!--/type-->
 <!--inherits-->..\..\..\..\MapLocation\MapLocation.md<!--/inherits-->
@@ -15,7 +14,19 @@ Specifies the marker location.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This value is specified in same format as the [center](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/center/) option.
+You can specify the **location** value in one of the following formats.
 
+ - { lat: 40.749825, lng: -73.987963}
+ - "40.749825, -73.987963"
+ - [40.749825, -73.987963]
+ - 'Brooklyn Bridge,New York,NY'
 
+When you configure the **Map** using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `Address()` or `Coordinates()` method as shown in the following code.
+
+    @(Html.DevExtreme().Map()
+        .Markers(markers => {
+            markers.Add().Address("Brooklyn Bridge,New York,NY");
+            markers.Add().Coordinates(40.74982, -73.987963);
+        })
+    )
 <!--/fullDescription-->

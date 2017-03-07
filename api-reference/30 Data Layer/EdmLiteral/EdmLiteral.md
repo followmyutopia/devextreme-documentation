@@ -4,9 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Represents a raw value to be used in OData filter and sorting expressions. Constructor accepts string value.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_odata_utils">data/odata/utils</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_odata_utils">data/odata/utils</a><!--/module-->
 <!--export-->EdmLiteral<!--/export-->
 <!--type-->object<!--/type-->
 <!--lib-->

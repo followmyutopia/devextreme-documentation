@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether or not to show lookup in popover.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--custom_default_for_android_below_version_4-->true<!--/custom_default_for_android_below_version_4-->

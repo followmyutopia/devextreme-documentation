@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Boolean value specifying whether or not to load data from the data source by page.<!--/d-->
 <!--dep-->dataSource.paginate.md<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->

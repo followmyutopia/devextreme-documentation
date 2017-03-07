@@ -4,14 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Hide a loading panel with message text
-<!--/d-->
 ===================================================================
 ===================================================================
 
 <!--shortDescription-->
-Hides the [load panel](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Load_Panel). 
+Hides the [load panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Load_Panel). 
 <!--/shortDescription-->
 
 <!--fullDescription-->

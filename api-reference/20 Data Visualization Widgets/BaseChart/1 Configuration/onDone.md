@@ -4,14 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Callback when chart rendering is finished<!--/d-->
 <!--EventForAction-->..\4 Events\done.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(e)<!--/type-->
-<!--fp1d-->Event argument<!--/fp1d-->
-<!--fp1_field1d-->Widget itself.<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container.<!--/fp1_field2d-->
 ===========================================================================
 
 <!--shortDescription-->

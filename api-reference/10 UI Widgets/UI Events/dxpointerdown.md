@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The event for handling hardware agnostic pointer input from devices like a mouse, pen, or touchscreen. For mouse, this is when the device transitions from no buttons depressed to at least one button depressed. For touch, this is when physical contact is made with the digitizer. For pen, this is when the stylus makes physical contact with the digitizer. (See more: http://www.w3.org/TR/pointerevents/#the-pointerdown-event).<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_pointer">events/pointer</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_pointer">events/pointer</a><!--/module-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A jQuery event object.<!--/fp1d-->
-<!--fp1_field1d-->Indicates the device type that caused the event (mouse, pen or touch).<!--/fp1_field1d-->
 ===========================================================================
 
 <!--shortDescription-->

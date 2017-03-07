@@ -14,13 +14,10 @@ $(function () {
             marker: { visible: false }
 <!--//highlight-->
         },
-        selectedRange: {
-            startValue: new Date(year, month, day, 11, 00, 00),
-            endValue: new Date(year, month, day, 17, 00, 00)
-        },
+        value: [new Date(year, month, day, 11, 00, 00), new Date(year, month, day, 17, 00, 00)],
 <!--//highlight-->
         background: {
-            image: { url: '/Content/images/doc/16_1/ChartJS/RangeImage.png' }
+            image: { url: '/Content/images/doc/16_2/ChartJS/RangeImage.png' }
         }
 <!--//highlight-->
     });

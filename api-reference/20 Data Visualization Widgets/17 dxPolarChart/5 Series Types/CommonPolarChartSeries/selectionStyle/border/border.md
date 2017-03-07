@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Border settings of selected<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\..\AreaSeries\AreaSeries.md,..\..\..\BarSeries\BarSeries.md,..\..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--type-->object<!--/type-->

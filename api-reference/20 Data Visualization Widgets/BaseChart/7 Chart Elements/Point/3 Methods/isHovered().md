@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-get hover state.
-<!--/d-->
-<!--rd-->Description<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -23,5 +19,5 @@ Hover state of a point.
 <!--fullDescription-->
 When a point is hovered over, this method returns *true*. Otherwise, the returned value is *false*.
 
-To learn more about point and series hover operation, refer to the [Hover Handling](/Documentation/Guide/Data_Visualization/Charts/End-User_Interaction/#Hover_Handling) topic.
+To learn more about point and series hover operation, refer to the [Hover Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Hover_Handling) topic.
 <!--/fullDescription-->

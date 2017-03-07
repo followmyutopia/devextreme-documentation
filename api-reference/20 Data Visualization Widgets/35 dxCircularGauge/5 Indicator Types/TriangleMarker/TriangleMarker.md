@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options for the triangle marker indicator of the Circular gauge<!--/d-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->object<!--/type-->
@@ -18,9 +17,9 @@ An object that defines a gauge indicator of the **triangleMarker** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![TriangleMarker Gauge Value Indicator DevExtreme](/Content/images/doc/16_1/ChartJS/TriangleMarkerValueIndicator.png)
+![TriangleMarker Gauge Value Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/TriangleMarkerValueIndicator.png)
 
 **Subvalue Indicator**
 
-![TriangleMarker Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_1/ChartJS/TriangleMarkerSubvalueIndicator.png)
+![TriangleMarker Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/TriangleMarkerSubvalueIndicator.png)
 <!--/fullDescription-->

@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Provides access to the PieChart's series.
-<!--/d-->
-<!--rd-->The PieChart's series.<!--/rd-->
 <!--dep-->..\..\BaseChart\3 Methods\getAllSeries().md<!--/dep-->
 ===================================================================
 ===================================================================
@@ -20,7 +16,7 @@ Provides access to the **PieChart** series.
 
 <!--returnType-->object<!--/returnType-->
 <!--returnDescription-->
-The <b>PieChart</b> series.
+The **PieChart** series.
 <!--/returnDescription-->
 
 <!--fullDescription-->

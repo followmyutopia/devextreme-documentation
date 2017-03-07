@@ -18,7 +18,7 @@ As you can see, you can specify the target platform as well as the device type.
 
 A DevExtreme application, when running, retrieves information about the device from the browser. Thus, the application will display the views and layouts that are most appropriate for the used device, and will then apply the style sheets that correspond to this device.
 
-See a step-by-step example in the <a href="/Documentation/16_1/Tutorial/SPA_Framework/Define_Device-Specific_View_Markup#Define_Device-Specific_View_Markup">Define Device-Specific View Markup</a> tutorial.
+See a step-by-step example in the <a href="/Documentation/16_2/Tutorial/SPA_Framework/Define_Device-Specific_View_Markup#Define_Device-Specific_View_Markup">Define Device-Specific View Markup</a> tutorial.
 
 ####Orientation Specific Markup####
 

@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Inner radius ration<!--/d-->
-<!--dep-->use the 'innerRadius' option instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--propertyOf-->..\DoughnutSeries\DoughnutSeries.md<!--/propertyOf-->
 <!--default-->0.5<!--/default-->

@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Gets root element
-<!--/d-->
-<!--rd-->//www.w3schools.com/xml/prop_document_documentelement.asp (DRAFT!)<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -15,7 +11,7 @@ Gets root element
 Returns the root node.
 <!--/shortDescription-->
 
-<!--returnType-->dxtreemapnode: Root node, does not correspond to any data source item; like http<!--/returnType-->
+<!--returnType-->dxtreemapnode<!--/returnType-->
 <!--returnDescription-->
 The root node.
 <!--/returnDescription-->

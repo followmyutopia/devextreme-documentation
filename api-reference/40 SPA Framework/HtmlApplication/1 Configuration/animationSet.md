@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the set of animation configurations that is used to animate different UI elements in the current context<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->object<!--/type-->

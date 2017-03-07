@@ -4,19 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed on each scroll gesture step. 'scrollOffset' argument specifies current scroll offset in following format { top: topOffset, left: leftOffset }. 'reachedLeft' argument specifies whether left container boundary is reached. 'reachedRight' argument specifies whether right container boundary is reached. 'reachedTop' argument specifies whether top container boundary is reached. 'reachedBottom' argument specifies whether container boundary is reached.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns a jQuery event that caused the action's execution<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns the current scroll offset in the following format { top: topOffset, left: leftOffset }<!--/fp1_field5d-->
-<!--fp1_field6d-->Indicates whether the container's left boundary is reached<!--/fp1_field6d-->
-<!--fp1_field7d-->Indicates whether the container's right boundary is reached<!--/fp1_field7d-->
-<!--fp1_field8d-->Indicates whether the container's top boundary is reached<!--/fp1_field8d-->
-<!--fp1_field9d-->Indicates whether the container's bottom boundary is reached<!--/fp1_field9d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -27,9 +16,10 @@ Fires on each scroll gesture.
 Instead, you can use the [onScroll](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onScroll) option to handle the event.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [List - Handle Scrolling-Related Events](/Documentation/Guide/Widgets/List/Scrolling/#Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

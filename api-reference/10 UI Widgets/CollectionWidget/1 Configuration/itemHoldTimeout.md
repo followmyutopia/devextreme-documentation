@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The time in milliseconds to wait before firing the itemHold event.<!--/d-->
 ===========================================================================
 <!--default-->750<!--/default-->
 <!--type-->number<!--/type-->

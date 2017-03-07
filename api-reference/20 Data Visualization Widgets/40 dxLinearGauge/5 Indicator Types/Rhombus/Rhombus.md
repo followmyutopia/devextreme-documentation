@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options for the rhombus indicator of the Circular gauge<!--/d-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->object<!--/type-->
@@ -18,9 +17,9 @@ An object defining a gauge indicator of the **rhombus** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![Rhombus Gauge Value Indicator DevExtreme](/Content/images/doc/16_1/ChartJS/RhombusValueIndicator.png)
+![Rhombus Gauge Value Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/RhombusValueIndicator.png)
 
 **Subvalue Indicator**
 
-![Rhombus Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_1/ChartJS/RhombusSubvalueIndicator.png)
+![Rhombus Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/RhombusSubvalueIndicator.png)
 <!--/fullDescription-->

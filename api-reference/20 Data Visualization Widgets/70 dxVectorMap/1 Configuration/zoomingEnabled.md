@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Allows to change zoom factor via interaction (not via API)<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Disables the [zooming](/Documentation/Guide/Data_Visualization/VectorMap/End-User_Interaction/#Zooming) capability.
+Disables the [zooming](/Documentation/Guide/Widgets/VectorMap/End-User_Interaction/#Zooming) capability.
 <!--/shortDescription-->
 
 <!--fullDescription-->

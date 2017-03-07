@@ -1,1 +1,0 @@
-This article describes common principles of working with widgets intended to specify Boolean, numeric, string values, etc.

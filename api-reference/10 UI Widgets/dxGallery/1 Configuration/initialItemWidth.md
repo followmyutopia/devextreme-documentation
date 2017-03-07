@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->An initial width of the image, used in the calculation of the number of images on the gallery-page.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->

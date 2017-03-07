@@ -6,7 +6,7 @@
 **-->
 
 <!--shortDescription-->
-An object defining configuration options for the dxValidator widget.
+An object defining configuration options for the **Validator** widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->

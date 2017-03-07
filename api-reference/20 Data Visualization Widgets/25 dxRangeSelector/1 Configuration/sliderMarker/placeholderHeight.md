@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Slider marker placeholder height<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

@@ -4,15 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when the widget is clicked.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns a jQuery event that caused the action's execution<!--/fp1_field4d-->
-<!--fp1_field5d-->An object defining a validation group with which the button is associated<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -23,16 +16,16 @@ Fires when the button is clicked.
 Instead, you can use the [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) option to handle the event.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 
 To validate the editors that are related to the [validation group](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup) specified for this button, use the **validationGroup** field of the object passed as the event handler's parameter. The **validationGroup** object has the following structure.
 
 - **group**  
 	The name or object of the validation group that is assigned to the button's <b>validationGroup</b> option.
 - **validators**  
-	An array of dxValidator widgets that are included to the validation group.
+	An array of **Validator** widgets that are included to the validation group.
 - **validate()**   
 	The method that allows you to validate the widgets included to the validation group.
 - **validated**  

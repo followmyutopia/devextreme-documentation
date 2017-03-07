@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name, path, base64 format of the icon that is shown inside the command corresponding widget, or css class of bootstrap icons, font awesome or ion icons libraris.<!--/d-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->string<!--/type-->

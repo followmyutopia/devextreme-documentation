@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies a configuration object for the widget that is presented as a toolbar item<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -19,8 +18,5 @@ This data source field is used by a default item template. If you use the defaul
 [note]If you use the **Menu** widget as a toolbar item, the [adaptivityEnabled](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#adaptivityEnabled) option does not apply.
 
 #####See Also#####
-- [Customize Item Template](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#Common_Tasks/Customize_an_Item_Appearance)
-- [Customize Widget Element Appearance](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
-
+- [Toolbar - Specify Item Type](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type/)
 <!--/fullDescription-->

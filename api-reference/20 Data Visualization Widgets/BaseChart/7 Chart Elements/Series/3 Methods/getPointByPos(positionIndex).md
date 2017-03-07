@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Gets a point from the base Series point collection based on the specified point position.
-<!--/d-->
-<!--p1d-->The index of the point to be found within the base Series point collection.<!--/p1d-->
-<!--rd-->The point that is found by the specified position index.<!--/rd-->
 ===================================================================
 ===================================================================
 

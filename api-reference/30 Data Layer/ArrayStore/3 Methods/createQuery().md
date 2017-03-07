@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Creates Query object for the underlying array. This method is used internally in load() implementation, also can be used by developer for advanced queries.
-<!--/d-->
-<!--rd-->Query object<!--/rd-->
 ===================================================================
 ===================================================================
 

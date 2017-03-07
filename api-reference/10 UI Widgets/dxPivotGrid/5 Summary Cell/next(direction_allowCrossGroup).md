@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-get a next cell by direction within individual groups, or throughout the Pivot Grid.
-<!--/d-->
-<!--p1d-->direction - 'row' || 'column'.<!--/p1d-->
-<!--p2d-->allow get next cell throught individul groups.<!--/p2d-->
-<!--rd-->next of current cell by direction<!--/rd-->
 ===================================================================
 ===================================================================
 

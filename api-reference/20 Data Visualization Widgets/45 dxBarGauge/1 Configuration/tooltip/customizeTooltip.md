@@ -4,15 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tooltip custom format, color, borderColor and fontColor function. Return object  {color: string; text:string; fontColor: string; borderColor: string}<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(scaleValue)<!--/type-->
-<!--fp1d-->Defines a scale value to be displayed in a tooltip.<!--/fp1d-->
-<!--fp1_field1d-->Specifies the scale value represented by a tooltip.<!--/fp1_field1d-->
-<!--fp1_field2d-->Specifies the scale value with an applied format, if the format and precision (optional) properties are specified.<!--/fp1_field2d-->
-<!--fp1_field3d-->Specifies the bar.<!--/fp1_field3d-->
-<!--frd-->Specifies the text to be displayed in a tooltip and a color for the tooltip.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -40,7 +34,7 @@ Specifies the color of the tooltip border.
 
 When implementing a callback function for this option, you can use the value indicated by a bar. This value can be accessed using the object passed as the function's parameter or the **this** object.
 
-To review text customization in greater detail, refer to the [Customize Text](/Documentation/Guide/Data_Visualization/Common/Data_Formatting/#Customize_Text) topic.
+To review text customization in greater detail, refer to the [Customize Text](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Customize_Text) topic.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -50,12 +44,12 @@ Defines a value indicated by a bar.
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The value as it was specified in the <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#values">values</a> array.
+The value as it was specified in the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#values">values</a> array.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The value with applied <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/tooltip/#format">formatting</a>.
+The value with applied <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/tooltip/#format">formatting</a>.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->index<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->number<!--/typeFunctionParamType1_field3-->

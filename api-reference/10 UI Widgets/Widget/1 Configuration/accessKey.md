@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the access key for widget that allows to focus it by keyboard.<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->string<!--/type-->

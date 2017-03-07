@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Returns the type of the base Series.<!--/d-->
 ===========================================================================
 <!--type-->string<!--/type-->
 ===========================================================================
@@ -14,5 +13,5 @@ Returns the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChar
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn about different series types, refer to the [Series](/Documentation/Guide/Data_Visualization/Charts/Chart_Elements/#Series) help section.
+To learn about different series types, refer to the [Series](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series) help section.
 <!--/fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Type of value indicator ('rectangle', 'triangle', 'twoColorRectangle' are also available but deprecated)<!--/d-->
 ===========================================================================
 <!--default-->'rectangleNeedle'<!--/default-->
 <!--acceptValues-->'rectangleNeedle' | 'triangleNeedle' | 'twoColorNeedle' | 'rangeBar' | 'triangleMarker' | 'textCloud'<!--/acceptValues-->

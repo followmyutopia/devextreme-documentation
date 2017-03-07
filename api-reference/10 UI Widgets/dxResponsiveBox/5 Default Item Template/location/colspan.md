@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the width of the element in columns.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the width of the element in columns.
+Specifies how many columns the element should span.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -66,6 +66,8 @@ angular.element(document).ready(function () {
 //<!--@jQuery-->
 $("#myTabPanel").dxTabPanel({
     dataSource: dataItems,
+    titleTemplate: 'title',
+    itemTemplate: 'tab',
     height: 300,
     itemTitleTemplate: function (itemData, itemIndex, itemElement) {
         itemElement.append("<p>" + itemData.title + "</p>");

@@ -4,16 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Selects the range that is specified as the parameter
-<!--/d-->
-<!--p1d-->Description<!--/p1d-->
-<!--p1_field1d-->A start value of the selected range.<!--/p1_field1d-->
-<!--p1_field2d-->An end value of the selected range.<!--/p1_field2d-->
+<!--dep--><!--/dep-->
 ===================================================================
 ===================================================================
 
-<!--shortDescription-->
+<!--deprecated-->
+Use the [setValue(value)](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Methods/#setValuevalue) method instead.
+<!--/deprecated--><!--shortDescription-->
 Sets a specified range.
 <!--/shortDescription-->
 
@@ -34,5 +31,5 @@ An end value of the selected range.
 <!--/paramDescription1_field2-->
 
 <!--fullDescription-->
-To set  start and end values, use the **startValue** and **endValue** fields of the object passed as the **selectedRange** parameter.
+
 <!--/fullDescription-->

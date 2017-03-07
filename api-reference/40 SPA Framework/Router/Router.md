@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Router implementation<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_router">framework/router</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_router">framework/router</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 ===========================================================================
 

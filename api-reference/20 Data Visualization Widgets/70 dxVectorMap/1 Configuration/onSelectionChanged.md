@@ -4,15 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Raised when an element's selection is changed.<!--/d-->
 <!--EventForAction-->..\4 Events\selectionChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Event argument<!--/fp1d-->
-<!--fp1_field1d-->Widget itself.<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container.<!--/fp1_field2d-->
-<!--fp1_field3d-->The target element.<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -32,7 +27,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#instance">widget instance</a>.
+The <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#instance">widget instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->

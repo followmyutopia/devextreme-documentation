@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Segment size for pieSeries and DoughnutSeries in degrees<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->

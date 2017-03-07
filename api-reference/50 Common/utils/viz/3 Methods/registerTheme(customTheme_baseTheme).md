@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-registerTheme method
-<!--/d-->
-<!--p1d-->Custom theme<!--/p1d-->
-<!--p2d-->Base theme<!--/p2d-->
 ===================================================================
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_themes">viz/themes</a><!--/module-->
+<!--export-->registerTheme<!--/export-->
 ===================================================================
 
 <!--shortDescription-->
@@ -29,5 +26,5 @@ The base theme name.
 <!--/paramDescription2-->
 
 <!--fullDescription-->
-For details on how to customize a theme, refer to the [Appearance Customization](/Documentation/Guide/Data_Visualization/Common/Appearance_Customization/#Themes/Customize_a_Theme) article.
+For details on how to customize a theme, refer to the [Appearance Customization](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes/Customize_a_Theme) article.
 <!--/fullDescription-->

@@ -4,25 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Customize row<!--/d-->
 <!--EventForAction-->..\4 Events\rowPrepared.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
-<!--fp1d-->The options of the current row.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->The object of a data source represented by the current row.<!--/fp1_field4d-->
-<!--fp1_field5d-->Key of the row<!--/fp1_field5d-->
-<!--fp1_field6d-->The values of the current row as they exist in the data source.<!--/fp1_field6d-->
-<!--fp1_field7d-->An array of grid columns.<!--/fp1_field7d-->
-<!--fp1_field8d-->The index of the current row.<!--/fp1_field8d-->
-<!--fp1_field9d-->The type of the current row.<!--/fp1_field9d-->
-<!--fp1_field10d-->The group index of the current row.<!--/fp1_field10d-->
-<!--fp1_field11d-->Indicates whether or not the row is selected.<!--/fp1_field11d-->
-<!--fp1_field12d-->Indicates whether the current row is expanded.<!--/fp1_field12d-->
-<!--fp1_field13d-->The current row as element.<!--/fp1_field13d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -40,7 +25,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -60,7 +45,7 @@ The object of a data source represented by the prepared row. This field is unava
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The key of the row. If a field providing keys is not specified in a <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">data source</a>, the whole data object is considered the key. This field is unavailable if the <b>rowType</b> field is set to <i>"header"</i>, <i>"filter"</i> or <i>"totalFooter"</i>.
+The key of the row. If a field providing keys is not specified in a <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">data source</a>, the whole data object is considered the key. This field is unavailable if the <b>rowType</b> field is set to <i>"header"</i>, <i>"filter"</i> or <i>"totalFooter"</i>.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->values<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
@@ -70,12 +55,12 @@ Values of the current row as they exist in the data source.
 <!--typeFunctionParamName1_field7-->columns<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-Grid columns. Each column in this array is represented by an object with column settings. The order of columns in this array and columns in the <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/">columns</a> array coincides.
+Grid columns. Each column in this array is represented by an object with column settings. The order of columns in this array and columns in the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/">columns</a> array coincides.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->rowIndex<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The <i>visible</i> index of the prepared row. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Group_Rows">group cells</a> are also counted as rows and, thus, have row indexes. For further information about row indexes, see the <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows">Grid Rows</a> topic.
+The <i>visible</i> index of the prepared row. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows">group cells</a> are also counted as rows and, thus, have row indexes. For further information about row indexes, see the <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows">Grid Rows</a> topic.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->rowType<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->string<!--/typeFunctionParamType1_field9-->
@@ -85,12 +70,12 @@ The type of the prepared row. This field can be set to one of the following valu
 <!--typeFunctionParamName1_field10-->groupIndex<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->number<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-The <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex">group index</a> of the current row. This field is useful if the <b>rowType</b> field is <i>'group'</i>.
+The <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex">group index</a> of the current row. This field is useful if the <b>rowType</b> field is <i>'group'</i>.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->isSelected<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->boolean<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Indicates whether the prepared row is <a href="/Documentation/16_1/Guide/UI_Widgets/Data_Grid/Selection/">selected</a>. This field is useful if the <b>rowType</b> field is set to <i>"data"</i>
+Indicates whether the prepared row is <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Selection/">selected</a>. This field is useful if the <b>rowType</b> field is set to <i>"data"</i>
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->isExpanded<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->boolean<!--/typeFunctionParamType1_field12-->

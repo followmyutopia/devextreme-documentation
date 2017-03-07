@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/ManageNavigation/step2/index.html" data-show-first="views/home.js">
+<article data-show="/Content/Applications/16_2/framework/ManageNavigation/step2/index.html" data-show-first="views/home.js">
 
 Run the application prepared in the previous step. Press the "Home 1" navigation item. Then press **forward** in the displayed view, and after press **forward** in the invoked view. Press **forward** in each subsequent view. As a result, the following navigation stack will be built in the navigation history based on the "Home 1" navigation item. 
 

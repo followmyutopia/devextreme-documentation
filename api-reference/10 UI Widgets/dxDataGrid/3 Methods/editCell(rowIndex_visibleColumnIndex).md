@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Edit a cell by indexes
-<!--/d-->
-<!--p1d-->Index of row<!--/p1d-->
-<!--p2d-->Visible index of column<!--/p2d-->
 ===================================================================
 ===================================================================
 
@@ -29,5 +24,5 @@ The current index of a column holding the cell that should enter the editing sta
 <!--/paramDescription2-->
 
 <!--fullDescription-->
-To learn how to manage the editing process from code, see the [Editing in Code](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Editing/#Editing_in_Code) topic.
+To learn how to manage the editing process from code, see the [Editing in Code](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_Code) topic.
 <!--/fullDescription-->

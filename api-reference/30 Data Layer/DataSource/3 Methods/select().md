@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns previously assigned projection expression. Ref to syntax.
-<!--/d-->
-<!--rd-->Projection expression<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -15,7 +11,7 @@ Returns previously assigned projection expression. Ref to syntax.
 Returns the current **select** option value.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
 A select expression.
 <!--/returnDescription-->

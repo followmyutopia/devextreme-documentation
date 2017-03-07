@@ -1,46 +1,9 @@
-In addition to the application dictionaries that include text/messages used only in a specific application, you can use the predefined dictionaries that come with DevExtreme. They include the captions and messages such as 'Back', 'Cancel', 'Select', 'Loading', 'Search' - these can be added to your app with a DevExtreme widget or layout. The predefined dictionaries are available in the **Lib**/**js**/**localization** folder within your [DevExtreme package](/Documentation/Guide/Common/DevExtreme_Packages/).
+In addition to the application dictionaries that include text/messages used only in a specific application, you can use the predefined dictionaries that come with DevExtreme. They include the captions and messages such as 'Back', 'Cancel', 'Select', 'Loading', 'Search' - these can be added to your app with a DevExtreme widget or layout. The predefined dictionaries are available in the **Lib\js\localization** folder in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources** by default.
 
-If the set of predefined dictionaries does not include a dictionary for a locale you need, do the following.
-
-- Create a single-page application containing the following code that will create a dictionary file based on an existing dictionary data.
-
-        <!--HTML-->
-        <!DOCTYPE html>
-        <html>
-            <head>
-                <script src="libs/js/jquery-2.2.3.js"></script>
-                <script src="libs/js/dx.all.debug.js"></script>
-                <!--<script src="libs/js/dx.web.debug.js"></script>-->
-                <!--<script src="libs/js/dx.mobile.debug.js"></script>-->
-                <script> 
-                $(function() {
-                  var data = { en: DevExpress.localization.message.getDictionary() },
-                      dataString = encodeURIComponent(JSON.stringify(data, null, "\t"));
-                  $("a").attr("href", "data:text/plain;charset=utf-8," + dataString);
-                });
-                </script>
-            </head>
-            <body>
-            <a download="dx.all.en.json">Download localization messages JSON</a>
-            <!--<a download="dx.web.en.json">Download localization messages JSON</a>-->
-            <!--<a download="dx.mobile.en.json">Download localization messages JSON</a>-->
-            </body>
-        </html>
-
-    This application will create the *dx.all.en.json* (*dx.web.en.json*, *dx.mobile.en.json*) file based on dictionary data loaded from the *dx.all.en.js* (*dx.web.en.js*, *dx.mobile.en.js*) library.
-    The dictionary data can be obtained using the following method.
-
-        <!--JavaScript-->
-        DevExpress.localization.message.getDictionary();
-
-- Open the application and click the "Download localization message's JSON" link, which will invoke the "Save As" dialog. Specify the file name (*dx.mobile.XX.json*, *dx.web.XX.json* or *dx.all.XX.json*), replacing XX with the identifier of the required locale. For example, *dx.mobile.es.json*. Save the file.
-
-    [note]The suggested names for your dictionary files are not important. You can give them other names if required.
-
-- Open the created file for editing and replace the "en" identifier with the identifier of the required locale. For example "es".
+If the set of predefined dictionaries does not include a dictionary for a locale you need, you can create a dictionary file based on an existing dictionary data stored in the **Lib\js\localization** folder. Create a new file based on **dx.messages.en.js**, replacing the "en" locale identifier in it's name with the identifier of the required locale. For example, "es" (**dx.messages.es.js**). Open the newly created file for editing and replace the "en" locale identifier in the file content as well.
 
         {
-            "es": {
+            es: {
                 "Yes": "Yes",
                 "No": "No",
                 . . .
@@ -57,11 +20,8 @@ If the set of predefined dictionaries does not include a dictionary for a locale
             }
         }
 
-After the *.json* file is updated, you can load its data using an AJAX request.
+After the *.js* file is updated, you can link it to your application and use in the same way as other dictionary files.
 
-    <!--JavaScript-->
-    $.when(
-        $.get("dx.all.es.json")
-    ).then(function(data){
-        Globalize.loadMessages(data);
-    });
+    <!--HTML-->
+    <script type="text/javascript" src="js/dx.web.js"></script>
+    <script type="text/javascript" src="js/localization/dx.messages.es.js"></script>

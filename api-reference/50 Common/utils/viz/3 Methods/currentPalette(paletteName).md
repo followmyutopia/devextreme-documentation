@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-currentPalette method
-<!--/d-->
-<!--p1d-->Palette name<!--/p1d-->
 ===================================================================
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_palette">viz/palette</a><!--/module-->
+<!--export-->currentPalette<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

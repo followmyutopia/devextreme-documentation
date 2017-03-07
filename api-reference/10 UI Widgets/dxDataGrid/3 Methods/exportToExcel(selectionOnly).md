@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Export data to excel format
-<!--/d-->
-<!--p1d-->Enable exporting for a selected rows only<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -22,5 +18,5 @@ Specifies whether to export all the data presented in the grid or the selected r
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-For details on exporting, refer to the [Client-Side Export](/Documentation/Guide/UI_Widgets/Data_Grid/Client-Side_Export/) article.
+For details on exporting, refer to the [Client-Side Export](/Documentation/Guide/Widgets/DataGrid/Client-Side_Export/) article.
 <!--/fullDescription-->

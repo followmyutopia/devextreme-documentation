@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->MultiView widget.<!--/d-->
 <!--widgettree-->
 dataSource: [
     { text: "Super Mart of the West" },
@@ -15,7 +14,8 @@ height: 300,
 loop: true
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_multi_view">ui/multi_view</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_multi_view">ui/multi_view</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
@@ -29,8 +29,7 @@ The **MultiView** is a widget that contains several views. An end user navigates
 <!--fullDescription-->
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxMultiView` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div id="multiView"></div>
@@ -38,32 +37,65 @@ You can create the widget using one of the following approaches.
     <!---->
 
         <!--JavaScript-->
-        $("#multiView").dxMultiView({
-            dataSource: multiViewData,
-            selectedIndex: 0
+        var multiViewItems = [
+            { text: "Personal Data" },
+            { text: "Contacts" },
+            { text: "Address" }
+        ];
+        $(function () {
+            $("#multiView").dxMultiView({
+                items: multiViewItems
+            });
         });
 
-- **Knockout**  
- Add a div element and apply the `dxMultiView` binding to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+        <!--HTML--><div ng-controller="DemoController">
+            <div dx-multi-view="{
+                items: multiViewItems
+            }"></div>
+        </div>
+
+    <!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller("DemoController", function ($scope) {
+                $scope.multiViewItems = [
+                    // ...   
+                ];
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div data-bind="dxMultiView: {
-            dataSource: multiViewData,
-            selectedIndex: 0
+            items: multiViewItems
         }"></div>
 
-- **AngularJS**  
- Add a div element and apply the `dx-multi-view` directive to this element.
+    <!---->
 
-        <!--HTML-->
-        <div dx-multi-view="{
-            dataSource: multiViewData,
-            selectedIndex: 0
-        }"></div>
+        <!--JavaScript-->var viewModel = {
+            multiViewItems: [
+                // ...
+            ]
+        };
+        ko.applyBindings(viewModel);
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+        
+        @(Html.DevExtreme().MultiView()
+            .ID("multiView")
+            .Items(items => {
+                items.Add().Text("Personal Data");
+                items.Add().Text("Contacts");
+                items.Add().Text("Address");
+            })
+        )
 
-Since the **MultiView** widget is used to display multiple items, it supports the common Collection Container widget functionality. You can find detailed information on the principles of working with the widget in the [dxMultiView section](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#List_of_Collection_Container_Widgets/dxMultiView) of the [Collection Container Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/) article.
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigationmultiviewmultiviewmultiview/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+
+#####See Also#####
+- [MultiView - Overview](/Documentation/Guide/Widgets/MultiView/Overview/)
 <!--/fullDescription-->

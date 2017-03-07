@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Marker values (only 'marker:pie')<!--/d-->
-<!--dep-->Specify values as one of the attributes and reference it with the 'layers.dataField' option<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->array<!--/type-->

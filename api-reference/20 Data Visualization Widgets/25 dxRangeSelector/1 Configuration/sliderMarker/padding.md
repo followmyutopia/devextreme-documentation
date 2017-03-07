@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Padding in slider markers<!--/d-->
-<!--dep-->Use the 'paddingTopBottom' and 'paddingLeftRight' options instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->6<!--/default-->
 <!--type-->number<!--/type-->

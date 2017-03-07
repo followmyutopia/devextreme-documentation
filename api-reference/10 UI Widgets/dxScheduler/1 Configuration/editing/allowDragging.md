@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether appointment dragging is allowed<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--custom_default_for_mobile-->false<!--/custom_default_for_mobile-->

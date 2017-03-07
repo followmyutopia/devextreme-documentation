@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Area label settings<!--/d-->
 <!--dep-->..\..\layers\label\label.md<!--/dep-->
 ===========================================================================
 <!--type-->object<!--/type-->
@@ -19,7 +18,7 @@ Configures area labels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-An area label is a text that accompanies a [map area](/Documentation/Guide/Data_Visualization/VectorMap/Map_Elements/#Areas). Usually, an area label displays the name of a certain geographical object, such as a country, a continent, etc.
+An area label is a text that accompanies a [map area](/Documentation/Guide/Widgets/VectorMap/Visual_Elements/#Areas). Usually, an area label displays the name of a certain geographical object, such as a country, a continent, etc.
 
 Texts for area labels are provided by one of the fields of the **attributes** object. This object must be declared in the map [data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#mapData), while the required field must be assigned to the [dataField](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/#dataField) option of the **label** object.
 

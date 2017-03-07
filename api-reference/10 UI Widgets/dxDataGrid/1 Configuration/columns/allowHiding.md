@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Allows hiding by column<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not a column can be hidden by a user. Setting this option makes sense only when the [column chooser](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Column_Chooser) is visible.
+Specifies whether or not a column can be hidden by a user. Setting this option makes sense only when the [column chooser](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Column_Chooser) is visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->

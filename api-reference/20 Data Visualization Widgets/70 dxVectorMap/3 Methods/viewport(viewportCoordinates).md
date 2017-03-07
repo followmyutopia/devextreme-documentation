@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sets viewport [min_lon, max_lat, max_lon, min_lat]
-<!--/d-->
-<!--p1d-->Description<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -27,4 +23,6 @@ To change the coordinates of the map viewport, pass an array of four values in t
 In addition, you can get the current coordinates of the map viewport by calling the same method without arguments.
 
 If you have implemented the [onCenterChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onCenterChanged) or [onZoomFactorChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onZoomFactorChanged) callback functions, they will be triggered when the viewport coordinates are changed using the **viewport(viewportCoordinates)** method.
+
+<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapviewport/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

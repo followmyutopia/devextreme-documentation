@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Type of values in scale and dataSource<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'datetime' | 'numeric' | 'string'<!--/acceptValues-->
@@ -20,5 +19,8 @@ When the scale is built on values from a [data source](/Documentation/ApiReferen
 
 [note]If dates in your data source are stored as strings, make sure that they have a [valid format](http://www.w3schools.com/js/js_date_formats.asp).
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectorscaledatatypedatatimesupport/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ChartDataType` enum. This enum accepts the following values: `Numeric`, `DateTime` and `String`.
+
+<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectorscaledatatypedatatimesupport/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Date-Time Scale Demo</a>
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Range_Selector/NumericScale/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Numeric Scale Demo</a>
 <!--/fullDescription-->

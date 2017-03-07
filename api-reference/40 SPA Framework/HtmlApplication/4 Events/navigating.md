@@ -4,14 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Fired if navigating to another view is initiated.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->The URI from which the application navigates to another URI.<!--/fp1_field1d-->
-<!--fp1_field2d-->The URI to which the application navigates.<!--/fp1_field2d-->
-<!--fp1_field3d-->Indicates whether to cancel the navigation.<!--/fp1_field3d-->
-<!--fp1_field4d-->Defines navigation options (see the second parameter of the navigate() method description).<!--/fp1_field4d-->
 ===========================================================================
 
 <!--shortDescription-->

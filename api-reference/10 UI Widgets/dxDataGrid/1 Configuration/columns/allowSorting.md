@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Allows sorting by column<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -17,8 +16,8 @@ Specifies whether grid records can be sorted by a specific column at runtime. Se
 <!--fullDescription-->
 [note]In a column with [calculated values](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue), this option is set to *false* by default.
 
-#####See Also#####
-- [DataGrid - Sorting in UI](/Documentation/Guide/UI_Widgets/Data_Grid/Sorting/#Sorting_in_UI)
-
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridfilteringandsortingsorting/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+
+#####See Also#####
+- [DataGrid - Sorting in UI](/Documentation/Guide/Widgets/DataGrid/Sorting/#Sorting_in_UI)
 <!--/fullDescription-->

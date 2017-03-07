@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Data Source field name when use for calculating scale startValue and endValue<!--/d-->
 ===========================================================================
 <!--default-->'arg'<!--/default-->
 <!--type-->string<!--/type-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Border color<!--/d-->
 ===========================================================================
 <!--default-->'#9d9d9d'<!--/default-->
 <!--type-->string<!--/type-->
@@ -15,7 +14,7 @@ Specifies a color for the border of the layer elements.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option applies only if the [layer type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#type) is *"line"*.
+This option does not apply if the [layer type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#type) is *"line"*.
 
 This option supports the following colors.
 

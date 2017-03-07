@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether scrolling by content enabled. Supported only for simulated scrollable (useNativeScrolling=false).<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -15,5 +14,6 @@ A Boolean value specifying if the list is scrolled by content.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Scrolling - User Interaction](/Documentation/Guide/Widgets/List/Scrolling/#User_Interaction)
 <!--/fullDescription-->

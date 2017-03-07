@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Scrolling mode<!--/d-->
 ===========================================================================
 <!--default-->'standard'<!--/default-->
 <!--acceptValues-->'standard' | 'virtual' | 'infinite'<!--/acceptValues-->
@@ -16,7 +15,10 @@ Specifies the scrolling mode.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-**DataGrid** provides three modes of scrolling. For a comprehensive overview, refer to the [Vertical Scrolling](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Navigation/#Scrolling/Vertical_Scrolling) article.
+**DataGrid** provides three modes of scrolling. For a comprehensive overview, refer to the [Vertical Scrolling](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Scrolling/Vertical_Scrolling) article.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridpagingandscrollinginfinitescrolling/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `GridScrollingMode` enum. This enum accepts the following values: `Standard`, `Virtual` and `Infinite`.
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/InfiniteScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Infinite Scrolling Demo</a>
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Virtual Scrolling Demo</a>
 <!--/fullDescription-->

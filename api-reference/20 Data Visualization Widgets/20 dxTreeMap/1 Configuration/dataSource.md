@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Sourse of data for tree map<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->array | DataSource | DataSource configuration | string<!--/type-->
@@ -17,7 +16,7 @@ Specifies the origin of data for the widget.
 <!--fullDescription-->
 This option accepts one of the following.
 
-- Array of objects          
+- Array of objects      
  A simple JavaScript array containing a collection of plain objects.
 
 - URL       
@@ -80,5 +79,13 @@ Note that in this data source, objects that have children have the *"id"* field 
 
 The examples above show how to provide data using an array of objects. If you are looking for a more powerful and versatile data solution, consider using the DataSource object. To learn how to implement a DataSource that serves your needs best, refer to the [Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Data_Source_Examples) article.
 
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/HierarchicalDataStructure/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View hierarchical Data Structure Demo</a>
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/FlatDataStructure/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Flat Data Structure Demo</a>
+
 <a href="https://www.youtube.com/watch?v=xTyN69v7kWU&index=5&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
+
+#####See Also#####
+- [getDataSource()]({basewidgetpath}/Methods/#getDataSource)
+- [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer)
+- [Data Layer - Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples)
 <!--/fullDescription-->

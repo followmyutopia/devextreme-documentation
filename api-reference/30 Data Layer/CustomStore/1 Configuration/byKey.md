@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->User implementation of loading single item by key. Accepts key value. Must return object or promise(object).<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->The required key value.<!--/fp1d-->
-<!--frd-->A Promise/A implementation resolved after the item has been loaded.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

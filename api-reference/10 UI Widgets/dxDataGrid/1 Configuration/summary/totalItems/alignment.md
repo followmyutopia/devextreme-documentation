@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the content alignment within summary cells<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'left' | 'center' | 'right'<!--/acceptValues-->
@@ -50,4 +49,6 @@ The default alignment of a summary item depends on the [type of data](/Documenta
   </tbody>
 </table>
 </div>
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `HorizontalAlignment` enum. This enum accepts the following values: `Left`, `Center` and `Right`.
 <!--/fullDescription-->

@@ -1,5 +1,0 @@
-**RangeSelector** provides the capability to perform actions when a selected range is changed. Implement a callback function performing the required actions and assign it to the [onSelectedRangeChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#onSelectedRangeChanged) option. When implementing this function, you can use the **startValue** and **endValue** fields of the object passed as the parameter or the **this** object.
-
-The function assigned to the **onSelectedRangeChanged** option can be called either when moving a slider or after the movement has been completed. To specify when the **onSelectedRangeChanged** function should be called, use the **behavior** | [callSelectedRangeChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callSelectedRangeChanged) option. 
-
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectoruserangeselectionforfiltering/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

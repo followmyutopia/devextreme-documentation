@@ -4,13 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-This method behaves as load(), but instead of array returns count of data items. Async function.
-<!--/d-->
-<!--p1d-->An object specifying data shaping options. Optional argument.<!--/p1d-->
-<!--p1_field1d-->Filter expression<!--/p1_field1d-->
-<!--p1_field2d-->Group expression<!--/p1_field2d-->
-<!--rd-->Promise of jQuery.Deferred which resolves with (number) or rejects with (Error)<!--/rd-->
 ===================================================================
 ===================================================================
 

@@ -4,8 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies format for display value. Not effective when 'pickerType' is 'native'.
-If the value is null, the default format will be used according to the type option.<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->format<!--/type-->
@@ -16,7 +14,7 @@ Specifies the date display format. Ignored if the [pickerType](/Documentation/Ap
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]DevExtreme widgets provide a wide choice of [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type). If you are, however, going to use custom formats, link the [Globalize](https://github.com/jquery/globalize) library to your project. Learn how to do this from the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) topic.
+[note]DevExtreme widgets provide a wide choice of [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type). If you are, however, going to use custom formats, link the [Globalize](https://github.com/jquery/globalize) library to your project. Learn how to do this from topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 #####See Also#####
 - [format](/Documentation/ApiReference/Common/Object_Structures/format/) - a comprehensive overview of the capabilities provided by this option.

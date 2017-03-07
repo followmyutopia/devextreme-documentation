@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Convenience way to specify a single inserting callback.<!--/d-->
 <!--EventForAction-->..\4 Events\inserting.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->An object representing the item being inserted.<!--/fp1d-->
 ===========================================================================
 
 <!--shortDescription-->

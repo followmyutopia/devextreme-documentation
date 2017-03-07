@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A File instances representing selected files. In IE8 selected file represented as an object with 'name' field.<!--/d-->
 ===========================================================================
 <!--default-->[]<!--/default-->
 <!--type-->array<!--/type-->

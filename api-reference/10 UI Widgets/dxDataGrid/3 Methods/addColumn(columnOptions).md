@@ -4,15 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Add column
-<!--/d-->
-<!--p1d-->The options of the added column<!--/p1d-->
 ===================================================================
 ===================================================================
 
 <!--shortDescription-->
-Adds a new [column](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Columns) to a grid.
+Adds a new [column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns) to a grid.
 <!--/shortDescription-->
 
 <!--paramName1-->columnOptions<!--/paramName1-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Boolean value specifying whether to display the button to load the next page from the data source.<!--/d-->
 <!--dep-->pageLoadMode.md<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->

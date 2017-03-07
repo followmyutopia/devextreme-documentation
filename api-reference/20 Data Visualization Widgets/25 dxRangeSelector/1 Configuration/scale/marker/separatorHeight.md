@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Scale marker separator height<!--/d-->
 ===========================================================================
 <!--default-->33<!--/default-->
 <!--type-->number<!--/type-->
@@ -15,5 +14,5 @@ Specifies the height of the marker's separator.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![RangeSelectorScaleMarkerSeparatorHeight ChartJS](/Content/images/doc/16_1/ChartJS/RangeSelectorScaleMarkerSeparatorHeight.png)
+![RangeSelectorScaleMarkerSeparatorHeight ChartJS](/Content/images/doc/16_2/ChartJS/RangeSelectorScaleMarkerSeparatorHeight.png)
 <!--/fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Date object specifying the date whose month is displayed by the calendar.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->new Date()<!--/default-->

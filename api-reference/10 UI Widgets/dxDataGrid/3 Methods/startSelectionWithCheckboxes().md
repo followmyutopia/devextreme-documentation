@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Checkboxes are shown for selection when that is possible
-<!--/d-->
-<!--rd-->Indicates whether to start selection with checkboxes<!--/rd-->
 ===================================================================
 <!--hidden--><!--/hidden-->
 ===================================================================

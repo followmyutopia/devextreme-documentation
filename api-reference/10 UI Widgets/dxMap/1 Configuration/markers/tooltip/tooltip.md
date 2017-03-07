@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->(optional) Tooltip options or tooltip text (NOTE: If the tooltip should be hidden by default, pass the tooltip text directly to the this option)<!--/d-->
 ===========================================================================
 <!--type-->string | object<!--/type-->
 ===========================================================================

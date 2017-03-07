@@ -4,13 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Data source<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->array | DataSource configuration | function(options)<!--/type-->
-<!--fp1d-->The options of the current row.<!--/fp1d-->
-<!--fp1_field1d-->The object of a data source represented by the current row.<!--/fp1_field1d-->
-<!--fp1_field2d-->Key of the row<!--/fp1_field2d-->
 ===========================================================================
 
 <!--shortDescription-->

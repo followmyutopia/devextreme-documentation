@@ -4,14 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-hide column chooser
-<!--/d-->
 ===================================================================
 ===================================================================
 
 <!--shortDescription-->
-Hides the [column chooser](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Column_Chooser) panel.
+Hides the [column chooser](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Column_Chooser) panel.
 <!--/shortDescription-->
 
 <!--fullDescription-->

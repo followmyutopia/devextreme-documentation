@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Label hint custom format function<!--/d-->
 ===========================================================================
 <!--type-->function(argument)<!--/type-->
-<!--fp1d-->Defines an argument value.<!--/fp1d-->
-<!--fp1_field1d-->Specifies the axis argument that is currently represented.<!--/fp1_field1d-->
-<!--fp1_field2d-->Specifies the value of the currently represented argument with applied formatting if the format and precision (optional) properties are specified.<!--/fp1_field2d-->
-<!--frd-->The text to be displayed by argument axis labels.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -18,7 +13,7 @@ Specifies the hint that appears when a user points to an axis label.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts AxisLabelHint](/Content/images/doc/16_1/ChartJS/visual_elements/axis_label_hint.png)
+![DevExtreme HTML5 Charts AxisLabelHint](/Content/images/doc/16_2/ChartJS/visual_elements/axis_label_hint.png)
 
 [note]The **value** and **valueText** fields are also exposed by the **this** object.
 <!--/fullDescription-->
@@ -35,7 +30,7 @@ The raw argument from the data source.
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#format">formatted</a> argument.
+The <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#format">formatted</a> argument.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

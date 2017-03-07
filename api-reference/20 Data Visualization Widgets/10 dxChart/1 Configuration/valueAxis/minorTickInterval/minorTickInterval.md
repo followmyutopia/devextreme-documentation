@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Minor tick interval<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'millisecond' | 'second' | 'minute' | 'hour' | 'day' | 'week' | 'month' | 'quarter' | 'year'<!--/acceptValues-->
@@ -28,6 +27,8 @@ If the axis displays numbers, assign a number to this option. If the axis displa
             minorTickInterval: { days: 5 }
         }
     };
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VizTimeInterval` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'day'* becomes `Day`.
 
 #####See Also#####
 - **valueAxis** | [minorTickCount](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#minorTickCount) - specifies how many minor ticks to place between two neighboring major ticks.

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->(optional) Specifies whether a tooltip is visible by default or not.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

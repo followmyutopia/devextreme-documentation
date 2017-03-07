@@ -4,9 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Reloads data from data source starting with the first page. The method is a programmatic analog for pull down to refresh gesture.
-<!--/d-->
 ===================================================================
 ===================================================================
 

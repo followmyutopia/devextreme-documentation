@@ -14,10 +14,7 @@ $(function () {
             minorTickInterval: 'hour',
             tickInterval: { hours: 3 }
         },
-        selectedRange: {
-            startValue: new Date(year, month, day, 11, 00, 00),
-            endValue: new Date(year, month, day, 17, 00, 00)
-        }
+        value: [new Date(year, month, day, 11, 00, 00), new Date(year, month, day, 17, 00, 00)]
 <!--//highlight-->
     });
 });

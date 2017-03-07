@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The position on the positioned element to align with the target element on horizontal direction.<!--/d-->
 ===========================================================================
 <!--acceptValues-->'left' | 'right' | 'center'<!--/acceptValues-->
 <!--type-->string<!--/type-->

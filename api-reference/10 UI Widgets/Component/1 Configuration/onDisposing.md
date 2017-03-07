@@ -4,13 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed on the component disposing<!--/d-->
 <!--EventForAction-->..\4 Events\disposing.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
 ===========================================================================
 
 <!--shortDescription-->

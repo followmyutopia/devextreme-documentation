@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Delete a row by index
-<!--/d-->
-<!--p1d-->Index of row<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -22,5 +18,5 @@ The index of the row to be removed.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-To learn more about how to remove a row from code, see the **Removing** paragraph of the [Editing in Code](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Editing/#Editing_in_Code) topic.
+To learn more about how to remove a row from code, see the **Removing** paragraph of the [Editing in Code](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_Code) topic.
 <!--/fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The overlay position. Default: { my: 'center', at: 'center', of: window }<!--/d-->
 ===========================================================================
 <!--default-->{ my: 'center', at: 'center', of: window }<!--/default-->
 <!--type-->positionConfig<!--/type-->

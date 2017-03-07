@@ -3,7 +3,7 @@ var myViewModel = {
     listDataSource: new DevExpress.data.DataSource({
         store: [],
         map: function (itemData) {
-            itemData.imagePath = "/Content/images/doc/16_1/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
+            itemData.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
             return itemData;
         }
     }),
@@ -24,7 +24,7 @@ myApp.controller("demoController", function ($scope) {
     $scope.listDataSource = new DevExpress.data.DataSource({
         store: [],
         map: function (itemData) {
-            itemData.imagePath = "/Content/images/doc/16_1/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
+            itemData.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
             return itemData;
         }
     });
@@ -45,7 +45,7 @@ angular.element(document).ready(function () {
 var listDataSource = new DevExpress.data.DataSource({
     store: [],
     map: function (itemData) {
-        itemData.imagePath = "/Content/images/doc/16_1/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
+        itemData.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
         return itemData;
     }
 });

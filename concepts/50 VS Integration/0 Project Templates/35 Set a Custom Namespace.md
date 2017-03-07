@@ -11,5 +11,5 @@ To change the namespace of an application project on the stage on which the proj
 - Set the new namespace for the views that will be added by the **Add** | **New Item...** dialog  further.  
 	The template that is used by the **Add** | **New Item...** dialog for creating views has a JavaScript file. In this file, there is a function that returns a ViewModel for the view. The namespace for this function is the project name by default. To change the default namespace to a custom one, use the **Root namespace** property of the application project.
 
-	![Root Namespace](Content/images/doc/16_1/DevExtreme/RootNamespace.png)
+	![Root Namespace](Content/images/doc/16_2/DevExtreme/RootNamespace.png)
 

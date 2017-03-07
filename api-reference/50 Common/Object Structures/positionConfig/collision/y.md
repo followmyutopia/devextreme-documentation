@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies how the widget reacts to collisions on vertical direction.<!--/d-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'none' | 'flip' | 'fit' | 'flipfit'<!--/acceptValues-->

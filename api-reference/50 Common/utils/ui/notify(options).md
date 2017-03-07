@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Create the toast message
-<!--/d-->
-<!--p1d-->Specifies the toast options according to dxToast options<!--/p1d-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_notify">ui/notify</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_notify">ui/notify</a><!--/module-->
+<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

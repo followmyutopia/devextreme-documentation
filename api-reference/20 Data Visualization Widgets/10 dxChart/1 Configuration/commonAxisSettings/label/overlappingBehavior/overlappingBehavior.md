@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Overlapping mode<!--/d-->
 ===========================================================================
 <!--default-->'enlargeTickInterval'<!--/default-->
 <!--acceptValues-->'ignore' | 'stagger' | 'rotate' | 'enlargeTickInterval'<!--/acceptValues-->
@@ -35,4 +34,6 @@ Rotates axis labels through the angle specified by the **rotationAngle** option.
 Arranges axis labels in two rows in a staggering manner. An empty space between the rows is specified by the **staggeringSpacing** option.
 
 [note]When specified, *"rotate"* and *"stagger"* apply even if axis labels do not overlap each other.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `OverlappingBehavior` enum. This enum accepts the following values: `EnlargeTickInterval`, `Ignore`, `Rotate` and `Stagger`.
 <!--/fullDescription-->

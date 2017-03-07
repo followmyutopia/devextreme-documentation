@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Custom edit template for cells of column<!--/d-->
 ===========================================================================
 <!--type-->template<!--/type-->
-<!--fp1d-->The cell under customization.<!--/fp1d-->
-<!--fp2d-->The options of the current cell.<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -22,6 +19,8 @@ When implementing the **editCellTemplate** function, you can access the cell bei
 
 - **data**		
 Contains the object of a data source represented by the row to which the currently edited cell belongs.
+- **component**  
+Contains the **DataGrid** instance.
 - **value**		
 Contains the value of the currently edited cell as it is specified in a data source.
 - **text**		
@@ -29,9 +28,9 @@ Contains the value of the currently edited cell in a string format. Use this fie
 - **displayValue**		
 Contains the value displayed by the currently edited cell. It differs from the **value** field only when the column to which the current cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
 - **columnIndex**		
-Contains the index of the column to which the currently edited cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+Contains the index of the column to which the currently edited cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
 - **rowIndex**		
-Contains the index of the row to which the currently edited cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that group cells are also counted as rows, and thus have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows) topic.
+Contains the index of the row to which the currently edited cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that group cells are also counted as rows, and thus have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
 - **column**		
 Contains the settings of the column to which the currently edited cell belongs.
 - **rowType**		
@@ -42,7 +41,7 @@ A method that changes the cell value when edited. After this method is called, t
 [note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 
 
 #####See Also#####
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
 Also, you can use a template engine to define a template for grid cells. **DataGrid** supports the following template engines. The above mentioned options can be accessed in a similar manner inside the template.
 

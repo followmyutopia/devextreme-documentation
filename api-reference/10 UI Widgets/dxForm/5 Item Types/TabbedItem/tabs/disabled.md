@@ -1,0 +1,18 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+===========================================================================
+<!--default-->false<!--/default-->
+<!--type-->boolean<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+A Boolean value specifying whether or not the tab can respond to user interaction. 
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

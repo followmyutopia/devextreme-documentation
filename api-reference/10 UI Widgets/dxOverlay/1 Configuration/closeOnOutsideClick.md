@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether to close the overlay when clicking outside of it. Should be a boolean or a function returning boolean.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean | function<!--/type-->
-<!--fp1d-->An object representing the item to be rendered.<!--/fp1d-->
-<!--frd-->The option value.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

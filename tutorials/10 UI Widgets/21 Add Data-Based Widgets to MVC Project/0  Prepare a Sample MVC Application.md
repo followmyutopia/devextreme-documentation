@@ -10,7 +10,7 @@
             <title>Index</title>
             <link rel="stylesheet" type="text/css" href="/Content/dx.common.css" />
             <link rel="stylesheet" type="text/css" href="/Content/dx.light.css" />
-            <script src="/Scripts/jquery-2.2.3.min.js"></script>
+            <script src="/Scripts/jquery-3.1.0.min.js"></script>
             <script src="/Scripts/dx.viz-web.js"></script>
             <script src="/MyJS/script.js"></script>
         </head>
@@ -45,9 +45,9 @@
 
 Here is the resulting project structure.
 
-![Project Structure](/Content/images/doc/16_1/PhoneJS/AddDataBasedWidgetstoMVCProject_ProjectStructure.png)
+![Project Structure](/Content/images/doc/16_2/PhoneJS/AddDataBasedWidgetstoMVCProject_ProjectStructure.png)
 
 #####See Also#####
 - [Add Widget to MVC Project - jQuery](/Documentation/Tutorial/UI_Widgets/Add_Widget_to_MVC_Project/#Add_a_DevExtreme_Widget/jQuery_Approach) - shows how to add the required libraries and configure a widget with jQuery approach
-- [Add Widget to MVC Project - Angular](/Documentation/Tutorial/UI_Widgets/Add_Widget_to_MVC_Project/#Add_a_DevExtreme_Widget/Angular_Approach) - shows how to add the required libraries and configure a widget with AngularJS approach
+- [Add Widget to MVC Project - AngularJS](/Documentation/Tutorial/UI_Widgets/Add_Widget_to_MVC_Project/#Add_a_DevExtreme_Widget/Angular_Approach) - shows how to add the required libraries and configure a widget with AngularJS approach
 - [Add Widget to MVC Project - Knockout](/Documentation/Tutorial/UI_Widgets/Add_Widget_to_MVC_Project/#Add_a_DevExtreme_Widget/Knockout_Approach) - shows how to add the required libraries and configure a widget with Knockout approach

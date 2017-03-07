@@ -4,10 +4,7 @@
             startValue: 0,
             endValue: 100
         },
-        selectedRange: {
-            startValue: 40,
-            endValue: 60
-        }
+        value: [40, 60]
     }).dxRangeSelector("instance");
 
     $("#сheckboxContainer").dxCheckBox({

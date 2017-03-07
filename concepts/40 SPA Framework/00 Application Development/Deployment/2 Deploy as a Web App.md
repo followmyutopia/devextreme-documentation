@@ -1,6 +1,6 @@
 Since an application built using the DevExtreme SPA framework is a static web page, you can deploy it as an ordinary web page with the referenced files.
 
-**DevExtreme Mobile**/**DevExtreme Web**
+**Manually**
 
 To deploy a DevExtreme project to a web server, copy the project content manually. As an example, the following steps will help you deploy a DevExtreme application to IIS.
 
@@ -14,7 +14,7 @@ To deploy a DevExtreme project to a web server, copy the project content manuall
 
 The application is now ready to be run in a browser by typing the required URL (the one that you specified for your application in the IIS Manager) in the browser's address bar.
 
-**DevExtreme Complete**
+**Using the Dialog in Visual Studio**
 
 DevExtreme comes with the **Link to...** Visual Studio dialog. This dialog adds files from the [DevExtreme project](/Documentation/Guide/VS_Integration/Project_Templates/) to another specified project as links (as if you *added* these files *as links* one by another using the Visual Studio **Add** | **Existing item...** dialog). This allows you to "link" a DevExtreme project to another web project (e.g., an ASP.NET project) once and to deploy the "parent" web project using standard Visual Studio procedures when required. To learn more on how to use the **Link to...** Visual Studio dialog, refer to the [Linking DevExtreme Projects](/Documentation/Guide/VS_Integration/Linking_DevExtreme_Projects/) article.
 

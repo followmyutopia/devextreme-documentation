@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name of the data source item field used as a recurrence rule of appointment.<!--/d-->
 ===========================================================================
 <!--default-->'recurrenceRule'<!--/default-->
 <!--type-->string<!--/type-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Summary type<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'sum' | 'min' | 'max' | 'avg' | 'count' | 'custom'<!--/acceptValues-->
@@ -30,4 +29,6 @@ Calculates the average of all values in a column.
 Calculates the number of rows.
 - *"custom"*	
 Allows you to specify a custom aggregate function using the [calculateCustomSummary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary) option.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `SummaryType` enum. This enum accepts the following values: `Sum`, `Min`, `Max`, `Avg`, `Count` and `Custom`.
 <!--/fullDescription-->

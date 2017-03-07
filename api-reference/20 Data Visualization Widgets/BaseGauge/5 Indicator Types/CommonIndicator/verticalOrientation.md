@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Value indicator vertical orientaion ('rangebar' only, horizontal gauge only)<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\..\40 dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md<!--/propertyOf-->
 <!--custom_default_for_value_indicators-->'bottom'<!--/custom_default_for_value_indicators-->
@@ -14,11 +13,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the orientation of the *rangeBar* indicator on a horizontally oriented **LinearGauge** widget.
+Specifies the orientation of the *rangeBar* indicator. Applies only if the **geometry** | [orientation](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/geometry/#orientation) option is *"horizontal"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 This option specifies the orientation of an indicator relative to an invisible scale line.
 
-[note] The **verticalOrientation** option requires the gauge to be horizontal. Assign "horizontal" to the **geometry** | [orientation](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/geometry/#orientation) option to display the gauge horizontally.
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VerticalEdge` enum. This enum accepts the following values: `Top` and `Bottom`.
 <!--/fullDescription-->

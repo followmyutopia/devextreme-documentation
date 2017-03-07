@@ -4,12 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-registerTheme method
-<!--/d-->
-<!--p1d-->Custom theme<!--/p1d-->
-<!--p2d-->Base theme<!--/p2d-->
-<!--dep-->Use the DevExpress.viz.registerTheme(customTheme, baseTheme) method instead.<!--/dep-->
+<!--dep--><!--/dep-->
 ===================================================================
 ===================================================================
 

@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Gets current options of column.
-<!--/d-->
-<!--p1d-->column index or data field or caption<!--/p1d-->
-<!--rd-->Column options.<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -45,13 +40,13 @@ The text displayed in the column header.
 * **Service String**  
 One of the following values:
  - *"command:edit"*    
-    Gets the [edit column](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Columns/Command_Columns).
+    Gets the [edit column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).
 
  - *"command:select"*    
-    Gets the [select column](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Columns/Command_Columns).  
+    Gets the [select column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).  
 
  - *"command:adaptive"*  
-    Gets the [adaptive column](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Columns/Command_Columns).  
+    Gets the [adaptive column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).  
 
  - Any string matching the following format: *"optionName:value"*  
     Here, the *optionName* is one of the [column options](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).

@@ -4,18 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when the file upload is started.<!--/d-->
 <!--EventForAction-->..\4 Events\uploadStarted.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns the uploaded file<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns a jQuery event that caused the action's execution<!--/fp1_field5d-->
-<!--fp1_field6d-->Specifies an XMLHttpRequest for the file<!--/fp1_field6d-->
 ===========================================================================
 
 <!--shortDescription-->

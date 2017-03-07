@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-get a previous cell by direction within individual groups, or throughout the Pivot Grid.
-<!--/d-->
-<!--p1d-->direction - 'row' || 'column'.<!--/p1d-->
-<!--p2d-->allow get previous cell throught individul groups.<!--/p2d-->
-<!--rd-->previous of current cell by direction<!--/rd-->
 ===================================================================
 ===================================================================
 

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Enable generating fields by data and merging current fields options to them<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

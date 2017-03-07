@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Type of area where field is located<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->undefined | 'row' | 'column' | 'data' | 'filter'<!--/acceptValues-->
@@ -20,4 +19,5 @@ If this option is *undefined*, the field is displayed in the [Field Chooser](/Do
 
 [note] You can allow users to place the field to the **Data Fields** area only by setting the [isMeasure](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#isMeasure) option to *true*. To deny using the integrated Field Chooser, set the **PivotGrid** | **fieldChooser** | [enabled](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/#enabled) option to *false*.
  
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PivotGridArea` enum. This enum accepts the following values: `Row`, `Column`, `Data` and `Filter`.
 <!--/fullDescription-->

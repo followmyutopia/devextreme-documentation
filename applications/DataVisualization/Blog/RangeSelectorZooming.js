@@ -50,19 +50,17 @@ $(function () {
             divisionValue: 1,
             minRange: 2
         },
-        selectedRange: {
-            startValue: 95, endValue: 110
-        },
+        value: [95, 110],
         dataSource: dataSource,
         chart: {
             series: series
         },
         behavior: {
-            callSelectedRangeChanged: "onMoving"
+            callValueChanged: "onMoving"
         },
-        onSelectedRangeChanged: function (e) {
+        onValueChanged: function (e) {
             var zoomedChart = $("#chartContainer").dxChart('instance');
-            zoomedChart.zoomArgument(e.startValue, e.endValue);
+            zoomedChart.zoomArgument(e.value[0], e.value[1]);
         }
     });
 });

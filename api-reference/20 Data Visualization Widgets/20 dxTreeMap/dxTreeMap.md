@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->An object representing vector map<!--/d-->
 <!--widgettree-->
 dataSource: [{
     name: 'Fruits',
@@ -23,7 +22,8 @@ dataSource: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_tree_map">viz/tree_map</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_tree_map">viz/tree_map</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\BaseWidget\BaseWidget.md<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js
@@ -41,41 +41,79 @@ In the **TreeMap** widget, hierarchical data is represented by a set of nested r
 
 You can create the **TreeMap** widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxTreeMap` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="treeMapContainer"></div>
+        <!--HTML--><div id="treeMap"></div>
 
     <!---->
 
-        <!--JavaScript-->$("#treeMapContainer").dxTreeMap({
-			dataSource: data,
-            labelField: 'text',
-            valueField: 'val'
-		});
+        <!--JavaScript-->var fruitsVegetables = [{
+            name: 'Fruits',
+            items: [
+                { name: 'Apples', value: 4 },
+                { name: 'Oranges', value: 10 },
+                { name: 'Lemons', value: 6 }
+            ]
+        }, {
+            name: 'Vegetables',
+            items: [
+                { name: 'Cucumbers', value: 4 },
+                { name: 'Tomatoes', value: 8 },
+                { name: 'Turnips', value: 7 }
+            ]
+        }];
+        $(function() {
+            $("#treeMap").dxTreeMap({
+                dataSource: fruitsVegetables
+            });
+        });
 
-- **Knockout**  
- Add a div element and apply `dxTreeMap` binding to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+        <!--HTML--><div ng-controller="DemoController">
+            <div dx-tree-map="{
+                dataSource: fruitsVegetables
+            }"></div>
+        </div>
+
+    <!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller("DemoController", function ($scope) {
+                $scope.fruitsVegetables = [
+                    // ...   
+                ];
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div data-bind="dxTreeMap: {
-			dataSource: data,
-            labelField: 'text',
-            valueField: 'val'
+			dataSource: fruitsVegetables
         }"></div>
 
-- **AngularJS**  
- Add a div element and apply the `dx-tree-map` directive to this element.
+    <!---->
 
-        <!--HTML-->
-        <div dx-tree-map="{
-			dataSource: data,
-            labelField: 'text',
-            valueField: 'val'
-        }"></div>
+        <!--JavaScript-->var viewModel = {
+            fruitsVegetables: [
+                // ...
+            ]
+        };
+        ko.applyBindings(viewModel);
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/Data_Visualization/Basics/Installation/) article.
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/charts-tree_map-hierarchical_data_structure" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
-<a href="https://www.youtube.com/watch?v=xTyN69v7kWU&index=5&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
+        @(Html.DevExtreme().TreeMap()
+            .ID("treeMap")
+            .DataSource(FruitsVegetables)
+		)
+
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+
+<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/charts-tree_map-hierarchical_data_structure" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+<a href="https://www.youtube.com/watch?v=xTyN69v7kWU&index=5&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
+
+#####See Also#####
+- [TreeMap - dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#dataSource)
+- [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
 <!--/fullDescription-->

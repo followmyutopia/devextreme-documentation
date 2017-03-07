@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A function that the dxValidator widget calls after validating the specified value. This function should apply the validation result that the validator passes as a parameter. The validation result is an object. You can see its structure in the description of the dxValidator.validated event argument.<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
 ===========================================================================

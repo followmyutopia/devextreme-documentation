@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->scrollBar options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the settings of the [scroll bar](/Documentation/Guide/Data_Visualization/Charts/Chart_Elements/#Scroll_Bar).
+Specifies the settings of the [scroll bar](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Scroll_Bar).
 <!--/shortDescription-->
 
 <!--fullDescription-->

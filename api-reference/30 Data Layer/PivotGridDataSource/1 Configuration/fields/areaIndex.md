@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Index among the other fields displayed within the same area<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->

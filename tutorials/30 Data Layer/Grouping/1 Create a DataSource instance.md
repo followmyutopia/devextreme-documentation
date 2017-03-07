@@ -1,4 +1,4 @@
-﻿<article data-show-web="/Content/Applications/16_1/DataLayer/Grouping/Step2/markup.html" data-show-first="script.js">
+﻿<article data-show-web="/Content/Applications/16_2/DataLayer/Grouping/Step2/markup.html" data-show-first="script.js">
 
 Create a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance and assign it to the **dataSource** variable. Pass an object containing the [store](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#store) and [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) fields to the DataSource constructor to associate the DataSource instance with the required array and specify the initial grouping condition. Assign "Title" to the **group** option to group data by the **Title** property value. This is the most simple [grouping expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) supported by DataSource and [Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores). The **store** option should contain the **EMPLOYEES** array.
 </article>

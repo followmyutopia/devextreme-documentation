@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name of a view that will be rendered inside the placeholder.<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->string<!--/type-->

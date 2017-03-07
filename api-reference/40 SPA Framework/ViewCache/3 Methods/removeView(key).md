@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Removes a viewInfo from the cache by the specified key.
-<!--/d-->
-<!--p1d-->Identifier of a viewInfo to remove.<!--/p1d-->
-<!--rd-->The removed viewInfo object.<!--/rd-->
 ===================================================================
 ===================================================================
 

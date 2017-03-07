@@ -4,18 +4,19 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines an expression returning key for a chosen item.<!--/d-->
 ===========================================================================
 <!--default-->'id'<!--/default-->
 <!--type-->string | function<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the name of the data source item field used as a key.
+Specifies which data field provides keys for **TreeView** items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 [note]The key value should be unique within the data array.
 
-
+#####See Also#####
+- [Specify data using **dataSource** option](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataSource)
+- [Specify data using **items** option](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#items)
 <!--/fullDescription-->

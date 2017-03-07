@@ -4,15 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Raised when node selection is changed<!--/d-->
 <!--EventForAction-->..\4 Events\selectionChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Event argument<!--/fp1d-->
-<!--fp1_field1d-->Widget itself<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container<!--/fp1_field2d-->
-<!--fp1_field3d-->Clicked node<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -1,1 +1,0 @@
-The **Lookup** widget supports the core functionality available to all [Collection Container widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/), [Editor widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Editor_Widgets/), and [Overlay widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Overlay_Widgets/). 

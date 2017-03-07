@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common appearance options for subvalue indicators<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -24,6 +23,18 @@ The subvalue indicator is a pointer which designates an extra value on a scale. 
 - [TriangleMarker](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/TriangleMarker/)
 - [TriangleNeedle](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/TriangleNeedle/)
 - [TwoColorNeedle](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/TwoColorNeedle/)
+
+When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), configure the subvalue indicator in the following manner.
+
+    @(Html.DevExtreme().CircularGauge()
+        // ...
+        .SubvalueIndicator(i => i
+            .RangeBar() // or any other indicator
+            .Palette(VizPalette.Ocean)
+            // ...
+            // other indicator options go here 
+        )
+    )
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementsdifferentsubvalueindicatortypes/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

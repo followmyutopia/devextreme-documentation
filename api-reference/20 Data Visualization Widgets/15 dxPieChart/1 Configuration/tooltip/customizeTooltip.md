@@ -53,7 +53,7 @@ Provides access to the hovered point. To learn more about the field and methods 
 
 The function's parameter represents the same object as the **this** object. If appropriate, you can use the function's parameter to obtain the value that is currently represented by a tooltip.
 
-To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Data_Visualization/Common/Data_Formatting/) topic.
+To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturestooltiphtmlsupport" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

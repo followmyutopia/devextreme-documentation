@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A string specifying the minimum zoom level of navigation.<!--/d-->
 ===========================================================================
 <!--default-->'century'<!--/default-->
 <!--acceptValues-->'month' | 'year' | 'decade' | 'century'<!--/acceptValues-->
@@ -16,5 +15,5 @@ Specifies the minimum [zoom level](/Documentation/ApiReference/UI_Widgets/dxCale
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `CalendarZoomLevel` enum. This enum accepts the following values: `Month`, `Year`, `Decade` and `Century`.
 <!--/fullDescription-->

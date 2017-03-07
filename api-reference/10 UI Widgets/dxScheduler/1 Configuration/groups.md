@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies a scheduler groups<!--/d-->
 ===========================================================================
 <!--default-->[]<!--/default-->
 <!--type-->Array<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the [resource kinds](/Documentation/Guide/UI_Widgets/Scheduler/Resources/#Resources) by which the scheduler's appointments are grouped in a timetable.
+Specifies the [resource kinds](/Documentation/Guide/Widgets/Scheduler/Resources/#Resources) by which the scheduler's appointments are grouped in a timetable.
 <!--/shortDescription-->
 
 <!--fullDescription-->

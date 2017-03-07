@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-get child cell by direction, headerField value.
-<!--/d-->
-<!--p1d-->direction - 'row' || 'column'.<!--/p1d-->
-<!--p2d-->header filed value.<!--/p2d-->
-<!--rd-->children of current cell by direction<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -40,7 +34,7 @@ The image below demonstrates what cell will be returned by the following code.
 
 	<!--JavaScript-->var targetCell = sourceCell.child('row', 8); //August is the 8th month
 
-![](/Content/images/doc/16_1/DataGrid/PivotGrid_child.png)
+![](/Content/images/doc/16_2/DataGrid/PivotGrid_child.png)
 
 This method is opposite to the [parent(direction)](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Summary_Cell/#parentdirection) method.
 <!--/fullDescription-->

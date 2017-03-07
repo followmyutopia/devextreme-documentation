@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->'Custom' validation rule<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-A validation rule that demands that a validated editor has a value that equals to a specified expression.
+A validation rule that demands that a validated editor has a value that is equal to a specified expression.
 <!--/shortDescription-->
 
 <!--fullDescription-->

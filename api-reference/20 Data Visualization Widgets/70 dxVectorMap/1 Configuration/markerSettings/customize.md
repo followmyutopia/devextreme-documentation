@@ -4,13 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines options for each particular marker (must return MarkerOptions like object if there are any particular options otherwise 'null' or 'undefined'; argument - item of 'markerDataSource')<!--/d-->
 <!--dep-->..\layers\customize.md<!--/dep-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(marker)<!--/type-->
-<!--fp1d-->The marker to be customized.<!--/fp1d-->
-<!--frd-->A configuration object for the marker.<!--/frd-->
 ===========================================================================
 
 <!--deprecated-->

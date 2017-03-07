@@ -4,15 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sets the necessary viewport parameters for scaling, panning and zooming
-<!--/d-->
-<!--p1d-->Options object which may include 'allowZoom'(boolean), 'allowPan'(boolean) and 'allowSelection'(boolean)<!--/p1d-->
-<!--p1_field1d-->Specifies whether or not to enable pinch-zooming in the application's views.<!--/p1_field1d-->
-<!--p1_field2d-->Specifies whether or not to enable panning on the vertical and horizontal axes in the application's views.<!--/p1_field2d-->
-<!--p1_field3d-->Specifies whether or not to enable selection in the application's views.<!--/p1_field3d-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_mobile_init_mobile_viewport">mobile/init_mobile_viewport</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_mobile_init_mobile_viewport">mobile/init_mobile_viewport</a><!--/module-->
+<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

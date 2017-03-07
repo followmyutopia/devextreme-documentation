@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Axis label options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -16,7 +15,7 @@ Configures axis labels.
 <!--fullDescription-->
 Axis labels display the values of [major axis ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/tick/).
 
-![DevExtreme HTML5 Charts AxisLabels](/Content/images/doc/16_1/ChartJS/visual_elements/axis_labels.png)
+![DevExtreme HTML5 Charts AxisLabels](/Content/images/doc/16_2/ChartJS/visual_elements/axis_labels.png)
 
 The **commonAxisSettings** | **label** object, which is described here, specifies common settings for all axis labels in the chart. To configure only those labels that belong to a particular axis, use the following objects.
 

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name of the data source item field used as an all-day flag of appointment.<!--/d-->
 ===========================================================================
 <!--default-->'allDay'<!--/default-->
 <!--type-->string<!--/type-->

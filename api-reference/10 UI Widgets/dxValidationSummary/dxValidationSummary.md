@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Widget to show validation summary.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_validation_summary">ui/validation_summary</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_validation_summary">ui/validation_summary</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
@@ -20,78 +20,145 @@ A widget for displaying the result of checking [validation rules](/Documentation
 <!--fullDescription-->
 This widget has a collection of items that present the validation errors that currently exist in a validation group or the ViewModel to which the widget is related.
 
-![dxValidationSummary Widget](/Content/images/doc/16_1/Common/dxValidationSummary.png)
+![dxValidationSummary Widget](/Content/images/doc/16_2/Common/dxValidationSummary.png)
 
 You can create the **ValidationSummary** widget using one of the following approaches.
 
-- **jQuery**  
-	Use the `dxValidationSummary` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
 		<!--HTML--><div id="textBox1"></div>
 		<div id="textBox2"></div>
 		<div id="summary"></div>
 		<div id="button"></div>
 
+	<!---->
 
-	<!--...-->
-
-		<!--JavaScript-->var validationGroup = "sampleGroup";
-		 $("#textBox1").dxTextBox({})
-			.dxValidator({
-                validationRules: []
-            });
-        $("#textBox2").dxTextBox({})
-			.dxValidator({
-				validationRules: []
+		<!--JavaScript-->$(function() {
+			var validationGroupName = "sampleGroup";
+			$("#textBox1").dxTextBox({ name: 'FirstName' })
+				.dxValidator({
+					validationRules: [
+						// ...
+					],
+					validationGroup: validationGroupName
+				});
+			$("#textBox2").dxTextBox({ name: 'LastName' })
+				.dxValidator({
+					validationRules: [
+						// ...
+					],
+					validationGroup: validationGroupName
+				});
+			$("#summary").dxValidationSummary({
+				validationGroup: validationGroupName
 			});
-        $("#summary").dxValidationSummary({	});
-        $("#button").dxButton({});
+			$("#button").dxButton({
+				validationGroup: validationGroupName
+				text: 'Validate',
+				onClick: function validate (params) {
+					params.validationGroup.validate();
+				}
+			});
+		});
 
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-- **Knockout**  
-	Add a div element and apply the `dxValidationSummary` binding to this element.
-
-		<!--HTML-->
-		<div data-bind="dxTextBox: { },
-			dxValidator: { validationRules: [] }">  
-		</div>
-		<div data-bind="dxTextBox: { },
-			dxValidator: { validationRules: [] }"> 
-		</div>  
-		<div data-bind="dxValidationSummary: { }"></div>
-		<div data-bind="dxButton: { }"></div>
-
-- **AngularJS**  
-	Add a div element and apply the `dx-validation-summary` directive to this element.
-
-		<!--HTML--><div ng-controller="demoController">
-			<div dx-text-box="{  }"
-				dx-validator="{ validationRules:  }">  
+		<!--HTML--><div dx-validation-group="{ }" ng-controller="DemoController">
+			<div dx-text-box="{ name: 'FirstName' }"
+				 dx-validator="{
+					 validationRules: [
+						 // ...
+					 ]
+				 }">  
 			</div>
-			<div dx-text-box="{  }"
-				dx-validator="{ validationRules:  }">  
+			<div dx-text-box="{ name: 'LastName' }"
+				dx-validator="{
+					 validationRules: [
+						 // ...
+					 ]
+				 }">
 			</div>
 			<div dx-validation-summary="{  }"></div>
-			<div dx-button="{ }"></div>
+			<div dx-button="{
+				text: 'Validate',
+				onClick: validate
+			}"></div>
 		</div>
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
+	<!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller("DemoController", function ($scope) {
+                $scope.validate = function validate (params) {
+					params.validationGroup.validate();
+				};
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+		<!--HTML--><div data-bind="dxValidationGroup: { }" >
+			<div data-bind="dxTextBox: { name: 'FirstName' },
+				dxValidator: {
+					validationRules: [
+						// ...
+					]
+				}">  
+			</div>
+			<div data-bind="dxTextBox: { name: 'LastName' },
+				dxValidator: {
+					validationRules: [
+						// ...
+					]
+				}">
+			</div>  
+			<div data-bind="dxValidationSummary: { }"></div>
+			<div data-bind="dxButton: {
+				text: 'Validate',
+				onClick: function validate (params) {
+					params.validationGroup.validate();
+				}
+			}"></div>
+		</div>
+
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+
+		using (Html.DevExtreme().ValidationGroup()) {
+			@(Html.DevExtreme().TextBox()
+				.Name("FirstName")
+			)
+			@(Html.DevExtreme().TextBox()
+				.Name("LastName")
+			)
+			@(Html.DevExtreme().ValidationSummary())
+			@(Html.DevExtreme().Button()
+				.Text("Validate")
+				.OnClick(@<text>
+					function validate (params) {
+						params.validationGroup.validate();
+					}
+				</text>)
+			)
+		}
+
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 The summary items are displayed using the default item template that is based on the **message** field of the broken validation rule. However, you can use a custom item template. 
 
 #####See Also#####
-- [Customize Item Template](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#Common_Tasks/Customize_an_Item_Appearance)
-- [Customize Widget Element Appearance](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [template](/Documentation/ApiReference/Common/Object_Structures/template/)
+- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
 [note]The currently existing validation errors are not only the errors that are discovered during the current validation, but also the validation errors that are discovered during the earlier validations if the not-valid values are not changed since then.
 
-To learn more on how to create the **ValidationSummary** widget and associate it with the required validation group or ViewModel, refer to the [Display Validation Errors](/Documentation/Guide/UI_Widgets/Common/Validation/#Display_Validation_Errors) and [Validate View Model](/Documentation/Guide/UI_Widgets/Common/Validation/#Validate_View_Model) topics.
+To learn more on how to create the **ValidationSummary** widget and associate it with the required validation group or ViewModel, refer to the [Display Validation Errors](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Display_Validation_Errors) and [Validate View Model](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Validate_View_Model) topics.
+
+<a href="https://www.youtube.com/watch?v=xbn_NbeB5es&index=34&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
-- [Display Validation Errors](/Documentation/Guide/UI_Widgets/Common/Validation/#Display_Validation_Errors)
-- [Display Validation Errors - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Validation_-_MVVM_Approach/#Display_Validation_Errors)
-- [Validate View Model](/Documentation/Guide/UI_Widgets/Common/Validation/#Validate_View_Model)
-- [Validate View Model - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Validation_-_MVVM_Approach/#Validate_View_Model)
-
+- [Display Validation Errors](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Display_Validation_Errors)
+- [Display Validation Errors - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Display_Validation_Errors)
+- [Validate View Model](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Validate_View_Model)
+- [Validate View Model - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Validate_View_Model)
+- [ASP.NET MVC Wrappers - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Overview/)
 <!--/fullDescription-->

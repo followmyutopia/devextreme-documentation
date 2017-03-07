@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/PartialView/step2/index.html" data-show-first="views/home.html">
+<article data-show="/Content/Applications/16_2/framework/PartialView/step2/index.html" data-show-first="views/home.html">
 
 To try binding a partial view to the ViewModel of the view in which it is displayed, implement the following scenario. Let the 'home' view be a *News* view and the 'about' view be a *Blog* view. Both these views will have a block for subscribing to this page (news or blog). This block will be defined as a partial view (within the 'partialView.html' file) and will be bound to a partial ViewModel.
 

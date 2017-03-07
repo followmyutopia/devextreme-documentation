@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-gets series by name
-<!--/d-->
-<!--p1d-->The index of the series to be found within the chart's series collection<!--/p1d-->
-<!--rd-->The series that is found by the specified position index<!--/rd-->
 ===================================================================
 ===================================================================
 

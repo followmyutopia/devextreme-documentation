@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the view name. Should be the same as view codebehinde function name.<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->string<!--/type-->

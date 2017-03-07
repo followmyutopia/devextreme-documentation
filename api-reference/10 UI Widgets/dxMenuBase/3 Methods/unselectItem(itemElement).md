@@ -4,15 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Unselect an item.
-<!--/d-->
-<!--p1d-->itemData<!--/p1d-->
 ===================================================================
 ===================================================================
 
 <!--shortDescription-->
-Unselects the specified item.
+Cancels the selection of the specified item.
 <!--/shortDescription-->
 
 <!--paramName1-->itemElement<!--/paramName1-->

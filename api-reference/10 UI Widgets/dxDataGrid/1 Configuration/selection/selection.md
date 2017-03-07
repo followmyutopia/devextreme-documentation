@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Selection options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -21,7 +20,7 @@ When the multiple selection mode is specified, a user is capable of selecting al
 Furthermore, you can perform specific actions when a grid record has been selected/deselected. For additional information, refer to the [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onSelectionChanged) option description.
 
 #####See Also#####
-- [DataGrid - Selection](/Documentation/Guide/UI_Widgets/Data_Grid/Selection/)
+- [DataGrid - Selection](/Documentation/Guide/Widgets/DataGrid/Selection/)
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridselectionsingleselection/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

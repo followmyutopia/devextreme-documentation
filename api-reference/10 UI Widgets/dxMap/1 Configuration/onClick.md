@@ -4,17 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when the widget is clicked. For bing and google adapters click action fires with clicked map location presented in 'location' argument. For static google adapter click action fires with jQuery Event.<!--/d-->
 <!--EventForAction-->..\4 Events\click.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function | string<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns the location of the clicked point on the map (if the 'google' or 'bing' provider is used).<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns a jQuery event that caused the action's execution (if a static google provider is used).<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->

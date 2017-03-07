@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Name data field in data source<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string<!--/type-->
@@ -29,5 +28,5 @@ When specifying data for grid columns, you can simply assign an array of data so
 		]
     });
 
-For more detailed information on how to specify grid columns, refer to the [Specifying Grid Columns](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Columns/Specifying_Grid_Columns) article.
+For more detailed information on how to specify grid columns, refer to the [Specifying Grid Columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Specifying_Grid_Columns) article.
 <!--/fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A number specifying the time period to wait before the next stagger item animation starts.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->

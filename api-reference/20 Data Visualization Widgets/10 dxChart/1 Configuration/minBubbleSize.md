@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->set minimum size of bubble<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\5 Series Types\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
 <!--default-->12<!--/default-->

@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sets projection expression. Ref to getter/setter syntax. Does not reload automatically.
-<!--/d-->
-<!--p1d-->New projection expression<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -16,7 +12,7 @@ Sets the **select** option value.
 <!--/shortDescription-->
 
 <!--paramName1-->expr<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
 A select expression.
 <!--/paramDescription1-->

@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->SlideOutView widget.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_slide_out_view">ui/slide_out_view</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_slide_out_view">ui/slide_out_view</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.all.js
@@ -18,63 +18,85 @@ The **SlideOutView** widget is a classic slide-out menu paired with a view.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This widget is very similar to the [SlideOut](/Documentation/ApiReference/UI_Widgets/dxSlideOut/) with only one difference - the **SlideOut** always contains the [List](/Documentation/ApiReference/UI_Widgets/dxList/) in the slide-out menu, while the **SlideOutView** can hold any collection there.
+This widget is very similar to the [SlideOut](/Documentation/Guide/Widgets/SlideOut/Overview/) with only one difference - the **SlideOut** always contains the [List](/Documentation/Guide/Widgets/List/Overview/) in the slide-out menu, while the **SlideOutView** can hold any collection there.
 
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxSlideOutView` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
-        <div id="slideOutView"></div>
-
-    <!---->
-
-        <!--JavaScript-->
-        $("#slideOut").dxSlideOutView({
-            contentTemplate: function(contentElement){
-                contentElement.append("<p>Here is the widget content</p>")
-            },
-            menuTemplate: function(menuElement){
-                menuElement.css("height", "100%");
-                var menuList = $("<div>").dxList(listOptions);
-                menuElement.append(menuList);
-            }
-        });
-
-- **Knockout**  
- Add a div element and apply the `dxSlideOutView` binding to this element.
-
-        <!--HTML-->
-        <div data-bind="dxSlideOutView: {
-            contentTemplate: 'myContent',
-            menuTemplate: 'myMenu'
-        }">
-            <div data-options="dxTemplate: { name: 'myContent' }">
-                <p>Here is the widget content</p>
+        <div id="slideOutView">
+            <div data-options="dxTemplate: { name: 'view' }">
+                <p>View content</p>
             </div>
-            <div data-options="dxTemplate: { name: 'myMenu' }" style="height: 100%;">
-                <div data-bind="dxList: listOptions"></div>
+            <div data-options="dxTemplate: { name: 'menu' }">
+                <p>Menu content</p>
             </div>
         </div>
 
-- **AngularJS**  
- Add a div element and apply the `dx-slide-out-view` directive to this element.
+    <!---->
+
+        <!--CSS-->#slideOutView {
+            height: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+    <!---->
+
+        <!--JavaScript-->$(function () {
+            $("#slideOutView").dxSlideOutView({
+                contentTemplate: 'view',
+                menuTemplate: 'menu',
+            });
+        });
+
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div dx-slide-out-view="{
-            contentTemplate: 'myContent',
-            menuTemplate: 'myMenu'
+            contentTemplate: 'view',
+            menuTemplate: 'menu'
         }">
-            <div data-options="dxTemplate: { name: 'myContent' }">
-                <p>Here is the widget content</p>
+            <div data-options="dxTemplate: { name: 'view' }">
+                <p>View content</p>
             </div>
-            <div data-options="dxTemplate: { name: 'myMenu' }" style="height: 100%;">
-                <div dx-list="listOptions"></div>
+            <div data-options="dxTemplate: { name: 'menu' }">
+                <p>Menu content</p>
             </div>
-        }"></div>
+        </div>
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-You can find the detailed information on principles of working with the widget in the [dxSlideOutView section](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Individual_Widgets/#dxSlideOutView) of the [Individual Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Individual_Widgets/) article.
+        <!--HTML-->
+        <div data-bind="dxSlideOutView: {
+            contentTemplate: 'view',
+            menuTemplate: 'menu'
+        }">
+            <div data-options="dxTemplate: { name: 'view' }">
+                <p>View content</p>
+            </div>
+            <div data-options="dxTemplate: { name: 'menu' }">
+                <p>Menu content</p>
+            </div>
+        </div>
+
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+
+        @(Html.DevExtreme().SlideOutView()
+            .ID("slideOutView")
+            .ContentTemplate(@<text>
+                <p>View content</p>
+            </text>)
+            .MenuTemplate(@<text>
+                <p>Menu content</p>
+            </text>)
+        )
+
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+
+#####See Also#####
+- [SlideOutView - Overview](/Documentation/Guide/Widgets/SlideOutView/Overview/)
 <!--/fullDescription-->

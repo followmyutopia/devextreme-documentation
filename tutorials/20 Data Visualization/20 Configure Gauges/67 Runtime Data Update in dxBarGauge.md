@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureGauges/Step8/gauges.html" data-show-first="barGauge.js">
+<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureGauges/Step8/gauges.html" data-show-first="barGauge.js">
 **BarGauge** will display the temperature of the same cities that can be selected in **SelectBox**. Since multiple temperature values are needed, you will have to make several queries to the server.
 
 Each city is identified by a unique WOEID. The temperature in the cities is requested from the Yahoo! Weather Web service using the Yahoo! Query Language (YQL). One query is performed using the [ajax()](http://api.jquery.com/jquery.ajax/) jQuery function. But in this case, you need to perform several consecutive queries. Use the [when()](http://api.jquery.com/jquery.when/) jQuery function to do this.

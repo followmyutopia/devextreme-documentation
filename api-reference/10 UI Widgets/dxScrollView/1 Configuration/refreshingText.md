@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A text of pullDown panel showing during control refreshing<!--/d-->
 ===========================================================================
 <!--default-->'Refreshing...'<!--/default-->
 <!--type-->string<!--/type-->

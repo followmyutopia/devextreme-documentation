@@ -4,16 +4,15 @@
 -------------------------------------------
 
 **-->
-<!--d-->Summary supported by server<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not [summaries](/Documentation/Guide/UI_Widgets/Data_Grid/Summaries/) calculation must be performed on the server side.
+Specifies whether or not [summaries](/Documentation/Guide/Widgets/DataGrid/Summaries/) calculation must be performed on the server.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+[note] When summary calculation is remote, the widget does not support [custom summary calculation](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary).
 <!--/fullDescription-->

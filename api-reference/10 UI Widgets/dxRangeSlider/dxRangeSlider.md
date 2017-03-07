@@ -4,12 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->RangeSlider widget.<!--/d-->
 <!--widgettree-->
 
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_range_slider">ui/range_slider</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_range_slider">ui/range_slider</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\dxSlider\dxSlider.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
@@ -23,56 +23,48 @@ The **RangeSlider** is a widget that allows an end user to choose a range of num
 <!--fullDescription-->
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxRangeSlider` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div id="rangeSlider"></div>
 
     <!---->
 
-        <!--JavaScript-->
-        $("#rangeSlider").dxRangeSlider({
-            min: 0,
-            max: 100
-            step: 5,
-            label: {
-                visible: true,
-                position: 'bottom'
-            }
+        <!--JavaScript-->$(function () {
+            $("#rangeSlider").dxRangeSlider({
+                min: 0, max: 100,
+                start: 20, end: 60
+            });
         });
 
-- **Knockout**  
- Add a div element and apply the `dxRangeSlider` binding to this element.
-
-        <!--HTML-->
-        <div data-bind="dxRangeSlider: {
-            min: 0,
-            max: 100
-            step: 5,
-            label: {
-                visible: true,
-                position: 'bottom'
-            }
-        }"></div>
-
-- **AngularJS**  
- Add a div element and apply the `dx-range-slider` directive to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div dx-range-slider="{
-            min: 0,
-            max: 100
-            step: 5,
-            label: {
-                visible: true,
-                position: 'bottom'
-            }
+            min: 0, max: 100,
+            start: 20, end: 60
         }"></div>
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-You can find the detailed information on principles of working with the widget in the [dxRangeSlider section](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Editor_Widgets/#List_of_Editor_Widgets/dxRangeSlider) of the [Editor Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Editor_Widgets/) article.
+        <!--HTML-->
+        <div data-bind="dxRangeSlider: {
+            min: 0, max: 100,
+            start: 20, end: 60
+        }"></div>
+
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+
+        @(Html.DevExtreme().RangeSlider()
+            .ID("rangeSlider")
+            .Min(0).Max(100)
+            .Start(20).End(60)
+        )
+
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposerangesliderrangesliderrangeslider/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+
+#####See Also#####
+- [RangeSlider - Overview](/Documentation/Guide/Widgets/RangeSlider/Overview/)
 <!--/fullDescription-->

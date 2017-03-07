@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Optional data-item transformation function. Applied for every single item after loading.<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->The initial data item<!--/fp1d-->
-<!--frd-->The processed data item<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

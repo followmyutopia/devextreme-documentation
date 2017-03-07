@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies size grouping data<!--/d-->
 <!--dep-->..\layers\sizeGroupingField.md<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->

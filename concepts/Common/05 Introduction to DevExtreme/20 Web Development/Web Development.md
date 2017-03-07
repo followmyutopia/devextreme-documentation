@@ -1,1 +1,0 @@
-DevExtreme ships with a rich library of client-side widgets that can be used in any web application or website.

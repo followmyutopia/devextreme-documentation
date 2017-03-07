@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Only for bubble markers. Shows the value of underlying bubble marker (it is not an option but a readonly flag)<!--/d-->
-<!--dep-->Get the value with the 'attribute' method (using the 'layers.dataField' value)<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--type-->number<!--/type-->
 ===========================================================================

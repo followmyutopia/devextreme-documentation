@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->An unique name of validation group.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string<!--/type-->
@@ -18,7 +17,7 @@ Specifies the name of the [validation group](/Documentation/ApiReference/UI_Widg
 When using a button to validate several editors on a page, the button must "know" in which validation group these editors are located. If the Knockout or AngularJS approach is used, add the button to the **div** element that represents the target validation group. When using the jQuery approach, specify the **validationGroup** configuration option for the button. Assign the validation group name specified for the **validationGroup** option of the [validators](/Documentation/ApiReference/UI_Widgets/dxValidator/) that extend the editors to be validated. 
 
 #####See Also#####
-- [Validate Groups](/Documentation/Guide/UI_Widgets/Common/Validation/#Validate_Editor_Values)
-- [Validate Groups - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Validation_-_MVVM_Approach/#Validate_Editor_Values)
+- [Validate Groups](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Validate_Editor_Values)
+- [Validate Groups - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Validate_Editor_Values)
 
 <!--/fullDescription-->

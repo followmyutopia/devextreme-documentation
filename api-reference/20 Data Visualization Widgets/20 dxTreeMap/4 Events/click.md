@@ -4,15 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Raised when click occurs<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Event argument<!--/fp1d-->
-<!--fp1_field1d-->Widget itself<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container<!--/fp1_field2d-->
-<!--fp1_field3d-->An extended jQuery event<!--/fp1_field3d-->
-<!--fp1_field4d-->Clicked node<!--/fp1_field4d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -32,9 +26,9 @@ To handle this event, attach a handler to it using the [on(eventName, eventHandl
     treeMapInstance.on('click', selectNode);
     
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

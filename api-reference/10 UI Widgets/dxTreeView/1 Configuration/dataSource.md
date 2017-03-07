@@ -1,4 +1,4 @@
-﻿<!--**
+<!--**
 /*-------------------------------------------
     Auto-generated file. Do not modify.
 -------------------------------------------
@@ -28,9 +28,12 @@ This option accepts one of the following.
 
 [note]The widget requires each data item to have a key field whose value is unique within the entire array.
 
-[note]If the data source is specified using the **dataSource** option, use the [items]({basewidgetpath}/Configuration/#items) option only for reading. Updating data items using the **items** option may cause unexpected results.
+[note]If the data source is specified using the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataSource) option, use the [items](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#items) option only for reading. Updating data items using the **items** option may cause unexpected results.
 
-To display widget items, a default template can be used. This template is based on the data source fields that are listed in the [Default Item Template]({basewidgetpath}/Default_Item_Template/) section of the widget's API. Alternatively, you can implement a custom item template. For details, refer to the [Customize Widget Element Appearance](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#Common_Tasks/Customize_an_Item_Appearance) topic.
+To display widget items, a default template can be used. This template is based on the data source fields that are listed in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/) section of the widget's API. Alternatively, you can implement a custom item template. For details, refer to the [Customize Node Appearance](/Documentation/Guide/Widgets/TreeView/Customize_Node_Appearance) topic.
+
+#####See Also#####
+- [createChildren](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#createChildren) - allows you to load nodes manually.
 <!--/fullDescription-->
 
 <!--handmade-->

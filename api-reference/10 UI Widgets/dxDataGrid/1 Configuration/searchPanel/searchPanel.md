@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options of search panel<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -19,8 +18,8 @@ A search panel is a grid element that allows the user to search grid records by 
 The search panel is located in the upper-right corner of the **DataGrid** widget. To make it visible, set the [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/#visible) property of the **searchPanel** configuration object to *true*.
 
 #####See Also#####
-- To discover how to configure the search panel, see the [Search Panel](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Search_Panel) topic.
-- For more information about searching, refer to the [Searching](/Documentation/Guide/UI_Widgets/Data_Grid/Filtering/#Searching) topic.
+- [DataGrid - Search Panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel)
+- [DataGrid - Searching](/Documentation/Guide/Widgets/DataGrid/Filtering/#Searching)
 
 Also, you can search grid records by a search string from code. Call the [searchByText(text)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#searchByTexttext) method to do this.
 

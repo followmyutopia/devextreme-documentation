@@ -4,16 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when the component option is changed.<!--/d-->
 <!--EventForAction-->..\4 Events\optionChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field4d-->Returns root name of the option whose value is changed e.g. for 'optionName.suboptionName' it contains 'optionName'<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns full name of option whose value is changed e.g. for 'optionName.suboptionName' it contains 'optionName.suboptionName'<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns option value<!--/fp1_field6d-->
 ===========================================================================
 
 <!--shortDescription-->

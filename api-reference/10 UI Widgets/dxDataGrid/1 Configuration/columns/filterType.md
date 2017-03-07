@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The field type for the current field<!--/d-->
 ===========================================================================
 <!--default-->'include'<!--/default-->
 <!--acceptValues-->'include' | 'exclude'<!--/acceptValues-->
@@ -16,5 +15,5 @@ Specifies whether to include or exclude the records with the values selected in 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `FilterType` enum. This enum accepts the following values: `Include` and `Exclude`.
 <!--/fullDescription-->

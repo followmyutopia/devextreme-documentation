@@ -1,6 +1,6 @@
-<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureRangeSelector/Step1/rangeSelector.html">
+<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureRangeSelector/Step1/rangeSelector.html">
 
-First, reference files required by the **RangeSelector** widget on your HTML page. Add these files as scripts to the head of the page as it is done in the HTML file below. You can find the libraries in your [DevExtreme package](/Documentation/Guide/Common/DevExtreme_Packages/). For more information on linking libraries, refer to the [Installation](/Documentation/Guide/Data_Visualization/Basics/Installation/) topic.
+First, reference files required by the **RangeSelector** widget on your HTML page. Add these files as scripts to the head of the page as it is done in the HTML file below. Refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section, to learn where you can get these and other libraries.
 
 Once the required libraries are referenced, you are ready to create the **RangeSelector** widget on your page. Like any other widget from the DevExtreme library, **RangeSelector** must be held within a container element, for example, a `<div>`. Add this element to the `<body>` tag of your HTML document as shown in the code below.
 
@@ -9,7 +9,7 @@ Then, add a *.js* file to your project and reference it in the head of your HTML
 If you run the code now, you will see an empty **RangeSelector** widget. The next step will go over configuring its scale.
 
 #####See Also#####
-- [Create and Configure a Widget - jQuery](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_jQuery/#Create_and_Configure_a_Widget)
-- [Create and Configure a Widget - AngularJS](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_AngularJS/#Create_and_Configure_a_Widget)
-- [Create and Configure a Widget - Knockout](/Documentation/Guide/Data_Visualization/Basics/Widget_Basics_-_Knockout/#Create_and_Configure_a_Widget)
+- [Create and Configure a Widget - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)
+- [Create and Configure a Widget - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)
+- [Create and Configure a Widget - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)
 </article>

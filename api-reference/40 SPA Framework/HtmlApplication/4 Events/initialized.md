@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Fired when the application and all its components are initialized. All HTML templates are loaded at this moment and application is ready to navigate to the very first view.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
 ===========================================================================

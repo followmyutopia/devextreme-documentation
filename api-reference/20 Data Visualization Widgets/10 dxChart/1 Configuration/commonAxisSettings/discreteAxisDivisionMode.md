@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Qualitative axis division mode<!--/d-->
 ===========================================================================
 <!--default-->'betweenLabels'<!--/default-->
 <!--acceptValues-->'betweenLabels' | 'crossLabels'<!--/acceptValues-->
@@ -16,6 +15,8 @@ Specifies whether ticks and grid lines should cross axis labels or lie between t
 <!--/shortDescription-->
 
 <!--fullDescription-->
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `DiscreteAxisDivisionMode` enum. This enum accepts the following values: `BetweenLabels` and `CrossLabels`.
+
 #####See Also#####
 - **argumentAxis** | [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#type) - sets the type of the argument axis.
 - **valueAxis** | [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type) - sets the type of the value axis.

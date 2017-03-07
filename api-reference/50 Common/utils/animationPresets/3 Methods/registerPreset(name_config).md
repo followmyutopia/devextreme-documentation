@@ -4,13 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Adds a configuration preset for the specified name. Note: the preset isn't applied immediatelly. Call the apply method in order to apply all the registered presets.
-<!--/d-->
-<!--p1d-->name of the preset<!--/p1d-->
-<!--p2d-->configuration or configuration name<!--/p2d-->
-<!--p2_field1d-->animation configuration<!--/p2_field1d-->
-<!--p2_field2d-->target device selector<!--/p2_field2d-->
 ===================================================================
 ===================================================================
 

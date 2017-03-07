@@ -4,20 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when an item swipe is performed. 'itemElement' argument specifies the swiped item element. 'itemData' argument specifies the swiped item data. 'direction' argument specifies the event direction.<!--/d-->
 <!--EventForAction-->..\4 Events\itemSwipe.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns a jQuery event that caused the action's execution<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns an object representing the item<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns an HTML element representing the item<!--/fp1_field6d-->
-<!--fp1_field7d-->Returns a number representing the item index. For grouped list index represents as object with group and item indices e.g. { group: 0, item: 0 }<!--/fp1_field7d-->
-<!--fp1_field8d-->Returns either a 'left' or 'right' string specifying the direction of the processed swipe operation<!--/fp1_field8d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -26,6 +16,9 @@ A handler for the [itemSwipe](/Documentation/ApiReference/UI_Widgets/dxList/Even
 
 <!--fullDescription-->
 Assign a function to perform a custom action when an item is swiped.
+
+#####See Also#####
+- [List - Touch-Screen Gestures](/Documentation/Guide/Widgets/List/End-User_Interaction/Touch-Screen_Gestures/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

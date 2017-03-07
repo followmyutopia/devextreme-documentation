@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Reorder list item.
-<!--/d-->
-<!--p1d-->The item index. For grouped list index represents as object with group and item indices e.g. { group: 0, item: 0 }.<!--/p1d-->
-<!--p2d-->The item index. For grouped list index represents as object with group and item indices e.g. { group: 0, item: 0 }.<!--/p2d-->
-<!--rd-->A Promise of jQuery Deferred object resolved if item is moved and rejected if not.<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -58,4 +52,7 @@ Where the **group** property specifies the group index, and the **index** proper
 This code will move the 4th item of the 1st group to the 3rd position in the 3rd group.
 
 [note]This method reorders items in the [items](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#items) array, but it does not affect the [dataSource](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#dataSource).
+
+#####See Also#####
+- [List - Item Reordering API](/Documentation/Guide/Widgets/List/Item_Reordering/#API)
 <!--/fullDescription-->

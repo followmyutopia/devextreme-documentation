@@ -4,9 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Renders items (commands) of the 'navigation' property to the navigation command container (usually to the layout's navigation widget).
-<!--/d-->
 ===================================================================
 ===================================================================
 

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies if load indicator should be shown until content is rendered<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->bool<!--/type-->
@@ -15,7 +14,5 @@ Indicates if a load indicator should be shown until the widget's content is rend
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn more about how to indicate that the content is currently loaded, refer to the **Indicate Loading State** section in the [dxDeferRendering](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Individual_Widgets/#dxDeferRendering) guide.
-
-
+To learn more about how to indicate that the content is currently loaded, refer to the [Indicate the Loading State](/Documentation/Guide/Widgets/DeferRendering/Indicate_the_Loading_State/) article.
 <!--/fullDescription-->

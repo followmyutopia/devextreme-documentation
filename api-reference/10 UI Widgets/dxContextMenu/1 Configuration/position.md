@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Position of context menu.  It uses to position context menu if it was shown via API<!--/d-->
 ===========================================================================
 <!--default-->{ my: 'top left', at: 'top left' }<!--/default-->
 <!--type-->positionConfig<!--/type-->
@@ -15,7 +14,7 @@ An object defining widget [positioning options](/Documentation/ApiReference/Comm
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]To specify the element against which the context menu will be positioned, use the [target](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#target) option instead of the [of](/Documentation/ApiReference/Common/Object_Structures/positionConfig/#of) field of the **position** object. If both **target** and **of** are specified, **target** will be used.
+[note]By default, the context menu is positioned against the cursor, but if you set the **position** option, the widget will be positioned against the [target](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#target) element. Note also that the **position** | [of](/Documentation/ApiReference/Common/Object_Structures/positionConfig/#of) option is always ignored in favor of the **target** option.
 
 
 <!--/fullDescription-->

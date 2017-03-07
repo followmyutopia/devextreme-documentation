@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Allow to enable or disable expand(collapse) items animation.<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

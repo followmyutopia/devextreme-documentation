@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Delete list item.
-<!--/d-->
-<!--p1d-->The item index. For grouped list index represents as object with group and item indices e.g. { group: 0, item: 0 }.<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object resolved if item is deleted and rejected if not.<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -28,5 +23,6 @@ A Promise of the jQuery Deferred object resolved if the item is deleted and reje
 <!--/returnDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Item Deletion API](/Documentation/Guide/Widgets/List/Item_Deletion/#API)
 <!--/fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Toolbar widget.<!--/d-->
 <!--widgettree-->
 dataSource: [{
         text: "Contacts",
@@ -18,7 +17,8 @@ dataSource: [{
 ]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_toolbar">ui/toolbar</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_toolbar">ui/toolbar</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
@@ -34,86 +34,93 @@ The main option you should specify when creating a widget is the [dataSource](/D
 
     <!--JavaScript-->
     var toolbarItems = [{
-        location: 'before',
         widget: 'dxButton',
         options: {
             type: 'back',
-            text: 'Back',
-            onClick: function (e) {
-                DevExpress.ui.notify("Back button clicked", "success", 5000);
-            }
-        }
+            text: 'Back'
+        },
+        location: 'before'
     }, {
-        locateInMenu: 'always',
-        text: "Add",
-        onClick: function () {
-            // Process item click
-        }
+        text: 'Add',
+        locateInMenu: 'always'
     }, {
-        locateInMenu: 'always',
-        text: "Change",
-        onClick: function () {
-            // Process item click
-        }
+        text: 'Change',
+        locateInMenu: 'always'
     }, {
-        locateInMenu: 'always',
-        text: "Remove",
-        onClick: function () {
-            // Process item click
-        }
-    }, {
-        location: 'center',
-        text: 'Products'
+        text: 'Products',
+        location: 'center'
     }];
 
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxToolbar` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
-        <div id="myToolbar"></div>
+        <div id="toolbar"></div>
 
     <!---->
 
-        <!--JavaScript-->
-        $("#myToolbar").dxToolbar({
-            dataSource: toolbarItems
+        <!--JavaScript-->$(function () {
+            $("#toolbar").dxToolbar({
+                items: toolbarItems
+            });
         });
 
-- **Knockout**  
- Add a div element and apply `dxToolbar` binding to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+        <!--HTML--><div ng-controller="DemoController">
+            <div dx-toolbar="{
+                items: toolbarData
+            }"></div>
+        </div>
+
+    <!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller('DemoController', function DemoController($scope) {
+                $scope.toolbarData = toolbarItems;
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div data-bind="dxToolbar: {
-            dataSource: toolbarDataSource
+            items: toolbarData
         }"></div>
 
     <!---->
 
         <!--JavaScript-->
         var viewModel = {
-            toolbarDataSource: toolbarItems
-        }
+            toolbarData: toolbarItems
+        };
         ko.applyBindings(viewModel);
 
-- **AngularJS**  
- Add a div element and apply the `dx-toolbar` directive to this element.
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        <!--HTML-->
-        <div dx-toolbar="{
-            dataSource: toolbarDataSource
-        }"></div>
+        @(Html.DevExtreme().Toolbar()
+            .ID("toolbar")
+            .Items(items =>{
+                items.Add()
+                    .Widget(w => w.Button()
+                        .Type(ButtonType.Back)
+                        .Text("Back"))
+                    .Location(ToolbarItemLocation.Before);
+                items.Add()
+                    .Text("Add")
+                    .LocateInMenu(ToolbarItemLocateInMenuMode.Always);
+                items.Add()
+                    .Text("Change")
+                    .LocateInMenu(ToolbarItemLocateInMenuMode.Always);
+                items.Add()
+                    .Text("Products")
+                    .Location(ToolbarItemLocation.Center);
+            })
+        )
 
-    <!---->
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
-        <!--JavaScript-->
-        var myApp = angular.module('myApp', ['dx']);
-        myApp.controller("demoController", function ($scope) {
-            $scope.toolbarDataSource = toolbarItems;
-        });
+#####See Also#####
+- [Toolbar - Overview](/Documentation/Guide/Widgets/Toolbar/Overview/)
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
-
-Since the **Toolbar** widget is used to display multiple items, it supports common Collection Container widget functionality. You can find detailed information on the principles of working with the widget in the [dxToolbar section](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#UI_Widgets_UI_Widget_Categories_Collection_Container_Widgets_List_of_Collection_Container_Widgets_dxToolbar) of the [Collection Container Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/) article.
 <!--/fullDescription-->

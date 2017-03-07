@@ -4,17 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->A callback function to customize a web request before it is sent. For example to add headers or modify url.<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->Specifies request parameters.<!--/fp1d-->
-<!--fp1_field1d-->Target url.<!--/fp1_field1d-->
-<!--fp1_field2d-->Indicates whether to make a synchronous request.<!--/fp1_field2d-->
-<!--fp1_field3d-->A string representing the request method (e.g. 'GET' or 'POST').<!--/fp1_field3d-->
-<!--fp1_field4d-->The request timeout.<!--/fp1_field4d-->
-<!--fp1_field5d-->The additional request parameters.<!--/fp1_field5d-->
-<!--fp1_field6d-->The request body; for example, when updating an item, this property holds the values object.<!--/fp1_field6d-->
-<!--fp1_field7d-->An object holding the request headers.<!--/fp1_field7d-->
 ===========================================================================
 
 <!--shortDescription-->

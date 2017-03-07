@@ -1,0 +1,34 @@
+To execute certain commands when an item changes its position, handle the [itemReordered](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemReordered) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the **onItemReordered** option when you configure the widget.
+
+    <!--JavaScript-->$(function () {
+        $("#listContainer").dxList({
+            // ...
+            onItemReordered: function(e) {
+                var itemData = e.itemData;
+                var itemDomNode = e.itemElement;
+                var from = e.fromIndex;
+                var to = e.toIndex;
+                // Handler of the "itemReordered" event
+            }
+        });
+    });
+
+If you are going to change the **itemReordered** event handler at runtime, or if you need to attach several handlers to this event, subscribe to it using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method.
+
+    <!--JavaScript-->
+    var itemReorderedEventHandler1 = function(e) {
+        // First handler of the "itemReordered" event
+    };
+
+    var itemReorderedEventHandler2 = function(e) {
+        // Second handler of the "itemReordered" event
+    };
+
+    $("#listContainer").dxList("instance")
+        .on("itemReordered", itemReorderedEventHandler1)
+        .on("itemReordered", itemReorderedEventHandler2);
+
+#####See Also#####
+- [Widget Basics - Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
+- [List Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/)
+- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)

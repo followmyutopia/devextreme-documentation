@@ -4,16 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when the select all checkbox changed by user action. The 'value' argument specifies the current state of the select all checkbox.<!--/d-->
 <!--EventForAction-->..\4 Events\selectAllValueChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns current state of the select all checkbox<!--/fp1_field4d-->
 ===========================================================================
 
 <!--shortDescription-->

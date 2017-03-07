@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options for the range bar indicator of the Circular gauge<!--/d-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->object<!--/type-->
@@ -18,10 +17,10 @@ An object that defines a gauge indicator of the **rangeBar** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![RangeBar Gauge Value Indicator DevExtreme](/Content/images/doc/16_1/ChartJS/RangeBarValueIndicator.png)
+![RangeBar Gauge Value Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/RangeBarValueIndicator.png)
 
 **Subvalue Indicator**
 
-![RangeBar Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_1/ChartJS/RangeBarSubvalueIndicator.png)
+![RangeBar Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/RangeBarSubvalueIndicator.png)
 
 <!--/fullDescription-->

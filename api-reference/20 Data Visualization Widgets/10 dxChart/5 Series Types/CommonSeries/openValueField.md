@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Value field for open value<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--propertyOf-->..\StockSeries\StockSeries.md,..\CandleStickSeries\CandleStickSeries.md<!--/propertyOf-->

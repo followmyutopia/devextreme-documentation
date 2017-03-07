@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A text of button to load the next page from the data source<!--/d-->
 ===========================================================================
 <!--default-->'More'<!--/default-->
 <!--type-->string<!--/type-->

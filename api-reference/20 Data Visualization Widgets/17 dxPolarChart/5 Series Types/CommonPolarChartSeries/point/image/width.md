@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Width of point image<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\..\LineSeries\LineSeries.md,..\..\..\AreaSeries\AreaSeries.md,..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->30<!--/default-->

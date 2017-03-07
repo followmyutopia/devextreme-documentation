@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The position on the target element on horizontal direction.<!--/d-->
 ===========================================================================
 <!--acceptValues-->'left' | 'right' | 'center'<!--/acceptValues-->
 <!--type-->string<!--/type-->

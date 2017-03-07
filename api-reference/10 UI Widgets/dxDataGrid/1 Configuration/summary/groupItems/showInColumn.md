@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->'name', 'dataField', 'caption' as identifier of column for displaying in a cell of footer<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string<!--/type-->

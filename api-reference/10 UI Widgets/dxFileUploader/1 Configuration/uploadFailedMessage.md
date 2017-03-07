@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The message which is displayed when file upload failed<!--/d-->
 ===========================================================================
 <!--default-->'Upload failed'<!--/default-->
 <!--type-->string<!--/type-->

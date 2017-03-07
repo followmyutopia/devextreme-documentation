@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Requests that the browser call a specified function to update an animation before the next repaint.
-<!--/d-->
-<!--p1d-->A function to call when it's time to update an animation.<!--/p1d-->
-<!--rd-->An ID of the entry in the callback list.<!--/rd-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_animation_frame">animation/frame</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_animation_frame">animation/frame</a><!--/module-->
 <!--export-->request<!--/export-->
 ===================================================================
 

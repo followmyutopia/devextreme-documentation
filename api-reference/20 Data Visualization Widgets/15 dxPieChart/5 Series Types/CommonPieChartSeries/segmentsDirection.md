@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Direction of segments in pie chart<!--/d-->
-<!--dep-->use the 'segmentsDirection' option instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->'clockwise'<!--/default-->
 <!--acceptValues-->'clockwise' | 'anticlockwise'<!--/acceptValues-->

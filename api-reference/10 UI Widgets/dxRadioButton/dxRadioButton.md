@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Radio button widget.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->

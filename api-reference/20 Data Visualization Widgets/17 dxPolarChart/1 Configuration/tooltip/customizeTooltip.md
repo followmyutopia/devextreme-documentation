@@ -56,7 +56,7 @@ Provides access to the hovered point. To learn more about the field and methods 
 Provides access to the array of points with the same argument as the currently hovered point. This field is accessible when the [shared](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/tooltip/#shared) option of the **tooltip** object is set to *true*. To learn more about the fields and methods of the point object, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Point/) topic in the "Chart Elements" reference section.
 The function's parameter represents the same object as the **this** object. If appropriate, you can use the function's parameter to obtain the value that is currently represented by a tooltip.
 
-To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Data_Visualization/Common/Data_Formatting/) topic.
+To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

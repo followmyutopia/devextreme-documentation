@@ -6,7 +6,7 @@ To consider the filter expression syntax, begin by creating a sample DataSource.
         { name: "Last item", value: 3 }
     ]);
 
-Filtering conditions are specified as a filter expression, which is a set of binary filter expressions separated by group operators. The filtering conditions can be defined via the [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) configuration option or the [filter(filterExpr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#filterfilterExpr) method of the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
+Filtering conditions are specified as a filter expression, which is a set of filter expressions separated by group operators. The filtering conditions can be defined via the [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) configuration option or the [filter(filterExpr)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#filterfilterExpr) method of the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
 
 #####See Also#####
 - [Data Layer - Filtering Tutorial](/Documentation/Tutorial/Data_Layer/Filtering#Filtering)

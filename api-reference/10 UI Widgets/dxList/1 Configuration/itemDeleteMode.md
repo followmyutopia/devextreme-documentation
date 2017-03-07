@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A method used to display list item delete control.<!--/d-->
 ===========================================================================
 <!--default-->'toggle'<!--/default-->
 <!--custom_default_for_ios-->'slideItem'<!--/custom_default_for_ios-->
@@ -20,5 +19,12 @@ Specifies the way a user can delete items from the list.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+[note]If **List** items are [supplied with the context menu](/Documentation/Guide/Widgets/List/Item_Context_Menu/), this option is ignored in favor of the [menuMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#menuMode) option.
 
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ListItemDeleteMode` enum. This enum accepts the following values: `Static`, `Toggle`, `SlideButton`, `SlideItem`, `Swipe` and `Context`.
+
+#####See Also#####
+- [List - Item Deletion - User Interaction](/Documentation/Guide/Widgets/List/Item_Deletion/#User_Interaction)
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

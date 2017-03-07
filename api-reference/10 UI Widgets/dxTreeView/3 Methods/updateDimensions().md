@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Updates the scroll of the tree view according to the size of content.
-<!--/d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when update is complete.<!--/rd-->
 ===================================================================
 ===================================================================
 

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Overlay widget.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->object<!--/type-->
@@ -21,7 +20,7 @@ A widget displaying the required content in an overlay window.
 <!--fullDescription-->
 The **Overlay** widget represents a window overlaying the current view. It displays data located within the HTML element representing the widget.
 
-You can create a widget using one of the following approaches.
+You can create the widget using one of the following approaches.
 
 - **jQuery**  
  Use the `dxOverlay` jQuery plug-in.
@@ -71,7 +70,5 @@ You can create a widget using one of the following approaches.
             }
         }"></div>
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
-
-For detailed information on working with the **Overlay** widget, refer to the [Overlay Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Overlay_Widgets/) guide.
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 <!--/fullDescription-->

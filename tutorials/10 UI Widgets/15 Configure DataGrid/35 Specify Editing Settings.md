@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_1/Framework/DataGridTutorial/Step9/grid.html" data-show-first="grid.html">
+<article data-show-web="/Content/Applications/16_2/Framework/DataGridTutorial/Step9/grid.html" data-show-first="grid.html">
 To enable grid editing, set its **editing** | [allowUpdating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#allowUpdating) option to *true*.
 
 Grid records can be edited in one of three modes - *"row"*, *"batch"*, *"cell"* and *"form"* - specified by the **editing** | [mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode) option. In row and form modes, grid records are edited by rows. To edit a row, a user must click the *"Edit"* button located in a specific grid column. Changes made in the row can be saved or discarded by clicking the *"Save"* or *"Cancel"* button in this row.

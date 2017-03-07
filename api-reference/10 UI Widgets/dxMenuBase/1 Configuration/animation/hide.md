@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options for hiding animation<!--/d-->
 ===========================================================================
 <!--default-->{ type: 'fade', from: 1, to: 0, duration: 100 }<!--/default-->
 <!--type-->animationConfig<!--/type-->

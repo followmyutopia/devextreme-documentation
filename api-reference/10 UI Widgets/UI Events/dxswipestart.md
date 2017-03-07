@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The event for handling when swipe gesture is started. It supports 'direction' ('vertical' | 'horizontal'), 'elastic' (boolean) options.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_swipe">events/swipe</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_swipe">events/swipe</a><!--/module-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A jQuery event object.<!--/fp1d-->
-<!--fp1_field1d-->Used to prevent the gesture. Must be assigned to 'true' value to cancel gesture.<!--/fp1_field1d-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Shows widget.
-<!--/d-->
-<!--p1d-->The target element associated with popover.<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when showing complete.<!--/rd-->
 ===================================================================
 ===================================================================
 

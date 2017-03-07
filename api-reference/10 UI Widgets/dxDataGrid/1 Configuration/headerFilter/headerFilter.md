@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options of header filter<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -20,7 +19,7 @@ You can specify the column-level header filtering options using the **columns** 
 
 [note] This feature is not available for [hidden](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visible) columns.
 
-For details on filtering, refer to the [Filtering](/Documentation/Guide/UI_Widgets/Data_Grid/Filtering/) article.
+For details on filtering, refer to the [Filtering](/Documentation/Guide/Widgets/DataGrid/Filtering/) article.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridfilteringandsortingfiltering/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

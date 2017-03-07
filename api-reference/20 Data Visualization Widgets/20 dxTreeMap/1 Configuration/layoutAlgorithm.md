@@ -4,15 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tiling algorithm<!--/d-->
 ===========================================================================
 <!--default-->'squarified'<!--/default-->
 <!--acceptValues-->'squarified' | 'strip' | 'sliceanddice'<!--/acceptValues-->
 <!--type-->string | function<!--/type-->
-<!--fp1d-->Argument<!--/fp1d-->
-<!--fp1_field1d-->Rect coords<!--/fp1_field1d-->
-<!--fp1_field2d-->Sum of values<!--/fp1_field2d-->
-<!--fp1_field3d-->Array of items<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -20,7 +15,7 @@ Specifies the layout algorithm.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Layout algorithms determine the position and size of tiles and groups. Therefore, the chosen algorithm plays the definitive role in the resulting look of the widget. **TreeMap** provides the following algorithms out-of-the-box.
+Layout algorithms determine the position and size of tiles and groups. Therefore, the chosen algorithm plays the definitive role in the resulting look of the widget. **TreeMap** provides the following algorithms out of the box.
 
 * **Squarified**        
 This algorithm lays the items out so that the aspect ratio will be closer to 1. In other words, this algorithm tries to make items as square as possible. 
@@ -39,7 +34,7 @@ This algorithm uses parallel lines to divide an available area into rectangles r
 
     To learn more about this algorithm, refer to the [Tree Visualization with Tree-Maps: a 2D Space-Filling Approach](http://citeseer.ist.psu.edu/viewdoc/download?doi=10.1.1.29.1549&rep=rep1&type=pdf) paper.
 
-![DevExpress DevExtreme HTML5 TreeMap Squarified SliceAndDice Strip](/Content/images/doc/16_1/ChartJS/TreeMap_layoutAlgorithms.png)
+![DevExpress DevExtreme HTML5 TreeMap Squarified SliceAndDice Strip](/Content/images/doc/16_2/ChartJS/TreeMap_layoutAlgorithms.png)
 
 If none of the predefined algorithms satisfy your needs, implement your own algorithm. For this purpose, assign a function to the **layoutAlgorithm** option. Basically, this function should calculate the coordinates of two diagonally-opposite points defining a rectangle and assign them to the needed item. To access a set of items to distribute, use the **items** field of the function's parameter. All available fields of the parameter are listed in the header of this description.
 
@@ -57,6 +52,11 @@ If none of the predefined algorithms satisfy your needs, implement your own algo
     };
 
 In addition, you can change the layout direction. For this purpose, use the [layoutDirection](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#layoutDirection) option.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option using the `TreeMapLayoutAlgorithm` enum. This enum accepts the following values: `Squarified`, `Strip` and `SliceAndDice`.
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/TilingAlgorithms/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

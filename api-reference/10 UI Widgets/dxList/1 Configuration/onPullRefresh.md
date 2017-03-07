@@ -4,15 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed before list refreshing caused by 'pull down to refresh' gesture.<!--/d-->
 <!--EventForAction-->..\4 Events\pullRefresh.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -21,6 +16,9 @@ A handler for the [pullRefresh](/Documentation/ApiReference/UI_Widgets/dxList/Ev
 
 <!--fullDescription-->
 Assign a function to perform a custom action before the list is refreshed as a result of the "pull down to refresh" gesture.
+
+#####See Also#####
+- [List - Touch-Screen Gestures](/Documentation/Guide/Widgets/List/End-User_Interaction/Touch-Screen_Gestures/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

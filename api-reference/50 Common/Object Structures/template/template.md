@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A template notation used to specify a template for widget elements (item, title, content, etc.).<!--/d-->
 ===========================================================================
 <!--type-->String | function | Node | jQuery<!--/type-->
 ===========================================================================
@@ -193,6 +192,6 @@ To use a template pass a value that has one of the following types to a template
  The list of arguments passed to the function depends on the option, which the function is assigned to. For example, if the function is passed to the **itemTemplate** option, it accepts the *itemData*, *itemIndex* and *itemElement* arguments. If the function is passed to the **contentTemplate** option, it accepts the *contentElement* argument. The arguments passed to this function are listed in a particular option description.
 
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 <!--/fullDescription-->

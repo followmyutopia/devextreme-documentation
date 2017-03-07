@@ -4,13 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The event for handling when swipe gesture is finished.  It supports 'direction' ('vertical' | 'horizontal'), 'elastic' (boolean) options.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_swipe">events/swipe</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_swipe">events/swipe</a><!--/module-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A jQuery event object.<!--/fp1d-->
-<!--fp1_field1d-->Indicates which distance was passed by gesture. Measured in realtive units to the target element.<!--/fp1_field1d-->
-<!--fp1_field2d-->Indicates which distance will be passed for gesture end. Measured in realtive units to the target element.<!--/fp1_field2d-->
 ===========================================================================
 
 <!--shortDescription-->

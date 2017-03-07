@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->If it is true a previous view title is used for back button text.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Confirmation title is displayed before as row should to be deleted<!--/d-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->string<!--/type-->

@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Toggles overlay visibility.
-<!--/d-->
-<!--p1d-->A Boolean indicating whether to show or hide the widget.<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when widget toggle is complete.<!--/rd-->
 ===================================================================
 ===================================================================
 

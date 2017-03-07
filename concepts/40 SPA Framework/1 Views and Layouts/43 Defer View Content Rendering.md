@@ -27,4 +27,5 @@ To specify the animation to be used when showing the deferred content enclosed t
 
 If your view is "heavy" enough, it may take a lot of time to display the whole view at once. So, you can divide the view into several blocks each enclosed into a separate **DeferRendering** widget. If you do not specify the **renderWhen** option of these widgets, the content of each **DeferRendering** widget will be rendered one after another from top to bottom. This will provide a quicker response to a user.
 
-For details on the **DeferRendering** widget, refer to the [dxDeferRendering](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Individual_Widgets/#dxDeferRendering) topic.
+#####See Also#####
+- [DeferRendering - Overview](/Documentation/Guide/Widgets/DeferRendering/Overview/)

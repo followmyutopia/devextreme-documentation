@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Custom template for cells of column<!--/d-->
 ===========================================================================
 <!--type-->template<!--/type-->
-<!--fp1d-->The cell under customization.<!--/fp1d-->
-<!--fp2d-->The options of the current cell.<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -22,6 +19,8 @@ When implementing the **cellTemplate** function, you can access the cell under c
 
 - **data**		
 Contains the object of the data source represented by the row to which the current cell belongs.
+- **component**  
+Contains the **DataGrid** instance.
 - **value**		
 Contains the value of the current cell as it is specified in the data source.
 - **text**		
@@ -29,9 +28,9 @@ Contains the value of the current cell in a string format. Use this field to get
 - **displayValue**		
 Contains the value displayed by the current cell. Differs from the **value** field only when the column to which the current cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
 - **columnIndex**		
-Contains the index of the column to which the current cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+Contains the index of the column to which the current cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
 - **rowIndex**		
-Contains the index of the row to which the current cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that group cells are counted as rows as well, and thus have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows) topic.
+Contains the index of the row to which the current cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that group cells are counted as rows as well, and thus have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
 - **column**		
 Contains the settings of the column to which the current cell belongs.
 - **rowType**		
@@ -40,7 +39,7 @@ Represents the type of the row to which the current cell belongs. This field equ
 [note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify a cell template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 
 
 #####See Also#####
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
 It is also possible to define a cell template in markup by utilizing one of the following template engines. The above-mentioned cell settings can be accessed in a similar manner inside the template.
 

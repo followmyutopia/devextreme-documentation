@@ -4,14 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when the component option is changed.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field4d-->Returns root name of the option whose value is changed e.g. for 'optionName.suboptionName' it contains 'optionName'<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns full name of option whose value is changed e.g. for 'optionName.suboptionName' it contains 'optionName.suboptionName'<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns option value<!--/fp1_field6d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -22,9 +16,9 @@ Fires after an option of the component is changed.
 Instead, you can use the [onOptionChanged]({basewidgetpath}/Configuration/#onOptionChanged) option to handle the event.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

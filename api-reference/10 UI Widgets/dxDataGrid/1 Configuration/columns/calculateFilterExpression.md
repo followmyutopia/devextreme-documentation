@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function which to return filter for data source. To invoke the default behavior, call defaultCalculateFilterExpression.<!--/d-->
 ===========================================================================
 <!--type-->function(filterValue, selectedFilterOperation, target)<!--/type-->
-<!--fp1d-->The value typed in the filter row's cell.<!--/fp1d-->
-<!--fp2d-->The currently selected filter operation.<!--/fp2d-->
-<!--fp3d-->Available values 'filterRow', 'headerFilter' and 'search'.<!--/fp3d-->
-<!--frd-->A filter expression.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -28,7 +23,7 @@ The implemented function must return an array of the following items.
 
 [note]The 'between' comparison operator is not supported on the data source level. If you need to use it, create a filter expression of the following format: [[selector, ">=", startValue], "and", [selector, "<=", endValue]] (see the code below). In case the selected filter operation is 'between', the **filterValue** field of the **calculateFilterExpression** function is an array containing the start and end values of the specified range.
 
-The following code snippet demonstrates an example of  **calculateCellValue** and **calculateFilterExpression** function implementation.
+The following code snippet demonstrates an example of **calculateCellValue** and **calculateFilterExpression** function implementation.
 
     <!--JavaScript-->$("#gridContainer").dxDataGrid({
         // ...

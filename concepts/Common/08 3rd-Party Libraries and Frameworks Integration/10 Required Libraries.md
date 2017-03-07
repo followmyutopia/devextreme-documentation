@@ -1,6 +1,4 @@
-The **dx.mobile**, **dx.web**, **dx.viz** and **dx.viz-web** DevExtreme libraries that come with [DevExtreme Packages](/Documentation/Guide/Common/DevExtreme_Packages/) require the **jQuery** JavaScript library to be linked. Currently, **jQuery** version 2.1 - 2.2 is supported.
-
-This library is included with your [DevExtreme Package](/Documentation/Guide/Common/DevExtreme_Packages/).
+DevExtreme requires jQuery. Currently, jQuery version 2.1 - 2.2 and 3.x is supported.
 
 Certain DevExtreme functionality also requires [Globalize](https://github.com/jquery/globalize/releases) library to be referenced if your application should support the following functionality.
 
@@ -11,11 +9,11 @@ Certain DevExtreme functionality also requires [Globalize](https://github.com/jq
 
 The currently supported version of Globalize is version 1.x. 
 
- To learn more about how to use the globalize library, refer the [Localization](/Documentation/Guide/UI_Widgets/Common/Localization/#Localization) topic.
+ To learn more about how to use the globalize library, refer the [Localization](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) topic.
 
 You can also load these libraries from a Content Delivery Network (CDN).
 
-    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
 
 <!---->
 

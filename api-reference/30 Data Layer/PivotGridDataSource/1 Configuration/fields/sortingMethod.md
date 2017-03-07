@@ -4,17 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->method data sort availability.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->function(a, b)<!--/type-->
-<!--fp1d-->A header item<!--/fp1d-->
-<!--fp1_field1d-->A header item value<!--/fp1_field1d-->
-<!--fp1_field2d-->An array of header item's children<!--/fp1_field2d-->
-<!--fp2d-->A header item<!--/fp2d-->
-<!--fp2_field1d-->A header item value<!--/fp2_field1d-->
-<!--fp2_field2d-->An array of header item's children<!--/fp2_field2d-->
-<!--frd-->Indicates whether a comes before b<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -30,7 +22,7 @@ The function returns a number that has one of three values listed below.
  The first function parameter comes before the second in the resulting order
 
 - *Zero*  
- The first and the second parameters remain unchanged relative to each other
+ The first and second parameters remain unchanged relative to each other
 
 - *Greater than zero*  
  The second function parameter comes before the first in the resulting order

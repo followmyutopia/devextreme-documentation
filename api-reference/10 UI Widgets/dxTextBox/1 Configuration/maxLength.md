@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The value of 'maxlength' attribute of the HTML input element.<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->string | number<!--/type-->

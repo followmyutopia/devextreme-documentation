@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A time interval in milliseconds, after which the gallery switches to the next item.<!--/d-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->number<!--/type-->

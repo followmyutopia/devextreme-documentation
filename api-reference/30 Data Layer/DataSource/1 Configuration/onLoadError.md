@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Fired after data loading is failed.<!--/d-->
 <!--EventForAction-->..\4 Events\loadError.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->An error object.<!--/fp1d-->
-<!--fp1_field1d-->An error details.<!--/fp1_field1d-->
 ===========================================================================
 
 <!--shortDescription-->

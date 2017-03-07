@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Save a state to local or session storage<!--/d-->
 ===========================================================================
 <!--default-->'localStorage'<!--/default-->
 <!--acceptValues-->'localStorage' | 'sessionStorage' | 'custom'<!--/acceptValues-->

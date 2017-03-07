@@ -4,15 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Label custom format function<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(seriesInfo)<!--/type-->
-<!--fp1d-->Information about the series to be presented in the legend<!--/fp1d-->
-<!--fp1_field1d-->Specifies the name of the series for which the current legend item is created.<!--/fp1_field1d-->
-<!--fp1_field2d-->Specifies the index of the series for which the current legend item is created.<!--/fp1_field2d-->
-<!--fp1_field3d-->Specifies the color of the series for which the current legend item is created.<!--/fp1_field3d-->
-<!--frd-->The text to be displayed by a legend item.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

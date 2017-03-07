@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The name of the folder in which the field is located<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string<!--/type-->

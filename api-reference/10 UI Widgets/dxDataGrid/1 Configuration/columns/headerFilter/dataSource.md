@@ -4,13 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Data source<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->array | function(options) | DataSource configuration<!--/type-->
-<!--fp1d-->The options a dataSource<!--/fp1d-->
-<!--fp1_field1d-->The widget instance<!--/fp1_field1d-->
-<!--fp1_field2d-->DataSource<!--/fp1_field2d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -19,7 +15,7 @@ Specifies the data source to be used for the header filter.
 
 <!--fullDescription-->
 Assigning a function to this field enables you to calculate the header filter data source dynamically. Refer to the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) | [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) option for details.
-
+ 
 The elements of the array assigned to this field should be in the following format.
 
 	<!--JavaScript-->{
@@ -28,7 +24,7 @@ The elements of the array assigned to this field should be in the following form
 	}
 
 [note]Every unique value present in the current column should also be present in the data source for the header filter.
- 
+
 For example, you can implement the following header filtering conditions for a field containing dates.
 
 	<!--JavaScript-->
@@ -62,6 +58,7 @@ For example, you can implement the following header filtering conditions for a f
             ]
         });
     });
+    
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
@@ -72,7 +69,7 @@ Data source options.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->dataSource<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->

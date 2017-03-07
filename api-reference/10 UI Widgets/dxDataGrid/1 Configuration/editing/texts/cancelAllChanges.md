@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Title of cancel all changes button<!--/d-->
 ===========================================================================
 <!--default-->'Discard changes'<!--/default-->
 <!--type-->string<!--/type-->
@@ -15,5 +14,5 @@ Specifies text for a hint that appears when a user hovers the mouse pointer over
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For information on data modification controls accessible in the *batch* edit mode including the *"Revert"* button, refer to the [Editing in the Batch Mode](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Data_Modification_Controls/Editing_in_the_Batch_Mode) topic.
+For information on data modification controls accessible in the *batch* edit mode including the *"Revert"* button, refer to the [Editing in the Batch Mode](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Data_Modification_Controls/Editing_in_the_Batch_Mode) topic.
 <!--/fullDescription-->

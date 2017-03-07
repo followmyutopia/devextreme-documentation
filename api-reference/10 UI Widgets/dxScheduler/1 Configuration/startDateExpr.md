@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name of the data source item field used as a start date of appointment.<!--/d-->
 ===========================================================================
 <!--default-->'startDate'<!--/default-->
 <!--type-->string<!--/type-->

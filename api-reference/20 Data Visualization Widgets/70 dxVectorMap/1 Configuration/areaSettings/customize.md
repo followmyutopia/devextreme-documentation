@@ -4,13 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines options for each particular area (must return AreaOptions like object if there are any particular options otherwise 'null' or 'undefined'; argument - item of 'dataSource')<!--/d-->
 <!--dep-->..\layers\customize.md<!--/dep-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(area)<!--/type-->
-<!--fp1d-->The area to be customized.<!--/fp1d-->
-<!--frd-->A configuration object for the area.<!--/frd-->
 ===========================================================================
 
 <!--deprecated-->

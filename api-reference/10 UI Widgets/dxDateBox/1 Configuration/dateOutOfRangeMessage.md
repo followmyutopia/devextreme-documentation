@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->message which is shown if date or time is out of range.<!--/d-->
 ===========================================================================
 <!--default-->'Value is out of range'<!--/default-->
 <!--type-->string<!--/type-->

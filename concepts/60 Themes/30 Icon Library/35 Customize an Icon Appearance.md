@@ -29,7 +29,7 @@ Since DevExtreme built-in icons are shipped as a font, you can customize their c
         text: 'Remove'
     }"></div>
 
-#####Knockout Approach#####
+#####Knockout#####
 
     <!--HTML-->
     <div id="remove-button" data-bind="dxButton: {

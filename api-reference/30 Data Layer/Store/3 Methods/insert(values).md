@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Initiates the insert operation. Async function.
-<!--/d-->
-<!--p1d-->Data item to insert<!--/p1d-->
-<!--rd-->Promise of jQuery.Deferred which resolves with (object values, any key) or rejects with (Error)<!--/rd-->
 ===================================================================
 ===================================================================
 

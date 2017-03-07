@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies maximum width of the resizable element.<!--/d-->
 ===========================================================================
 <!--default-->Infinity<!--/default-->
 <!--type-->number<!--/type-->

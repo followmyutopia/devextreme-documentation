@@ -4,17 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when an appointment form is created<!--/d-->
 <!--EventForAction-->..\4 Events\appointmentFormCreated.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns an object representing the appointment<!--/fp1_field4d-->
-<!--fp1_field5d-->The appointment details form instance<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -24,6 +17,7 @@ A handler for the [appointmentFormCreated](/Documentation/ApiReference/UI_Widget
 <!--fullDescription-->
 Assign a function to perform a custom action after an edit form has been created for an appointment.
 
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <a href="https://www.youtube.com/watch?v=aWiCUyPKL_k&index=8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
@@ -54,5 +48,5 @@ The object associated with the appointment for which a form is created.
 <!--typeFunctionParamName1_field5-->form<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-An instance of the <a href="Documentation/ApiReference/UI_Widgets/dxForm">dxForm</a> widget used to edit the appointment details.
+An instance of the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxForm">Form</a> widget used to edit the appointment details.
 <!--/typeFunctionParamDescription1_field5-->

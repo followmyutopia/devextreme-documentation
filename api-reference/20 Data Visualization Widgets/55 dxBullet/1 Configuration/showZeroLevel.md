@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Zero level visible<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -16,5 +15,5 @@ Specifies whether or not to show the line indicating zero on the invisible scale
 
 <!--fullDescription-->
 #####See Also#####
-- [Bullet - Zero Level Line](/Documentation/Guide/Data_Visualization/Charts/Bullet_Elements/#Zero_Level_Line)
+- [Bullet - Zero Level Line](/Documentation/Guide/Widgets/Bullet/Visual_Elements/#Zero_Level_Line)
 <!--/fullDescription-->

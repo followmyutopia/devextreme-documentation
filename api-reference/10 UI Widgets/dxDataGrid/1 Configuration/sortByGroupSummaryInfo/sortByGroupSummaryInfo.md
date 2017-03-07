@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Sorting info for group summary<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->array<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Allows you to sort [groups](/Documentation/Guide/UI_Widgets/Data_Grid/Grouping/) according to the values of group summary items.
+Allows you to sort [groups](/Documentation/Guide/Widgets/DataGrid/Grouping/) according to the values of group summary items.
 <!--/shortDescription-->
 
 <!--fullDescription-->

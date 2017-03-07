@@ -4,16 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Creates projection from the data
-<!--/d-->
-<!--p1d-->Projection data<!--/p1d-->
-<!--p1_field1d-->Projects coordinates from data space to [-1, 1] * [-1, 1] space<!--/p1_field1d-->
-<!--p1_field2d-->Projects coordinates from [-1, 1] * [-1, 1] space to data space<!--/p1_field2d-->
-<!--p1_field3d-->Aspect ratio<!--/p1_field3d-->
-<!--rd-->Projection instance<!--/rd-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_vector_map_projection">viz/vector_map/projection</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_vector_map_projection">viz/vector_map/projection</a><!--/module-->
 <!--export-->projection<!--/export-->
 ===================================================================
 
@@ -48,7 +40,7 @@ The projection.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-After creating the custom projection, you can [add it to the projections storage](/Documentation/ApiReference/Common/Utils/viz/map/Methods/#addname_projection) or assign the returning object to the [projection](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#projection) option of the **VectorMap** widget.
+After creating the custom projection, you can [add it to the projections storage](/Documentation/ApiReference/Common/Utils/viz/map/Methods/#addname_projection) or assign the returning object to the [projection](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#projection) option of the  widget.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-vector_map-custom_projection/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

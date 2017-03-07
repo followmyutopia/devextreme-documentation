@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A number specifying the time in milliseconds spent on animation.<!--/d-->
 ===========================================================================
 <!--default-->400<!--/default-->
 <!--type-->number<!--/type-->

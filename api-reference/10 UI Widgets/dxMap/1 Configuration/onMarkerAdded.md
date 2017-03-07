@@ -4,17 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when the marker is added to the widget. 'options' argument specifies the added marker options. 'originalMarker' argument specifies the added map provider marker instance (only for 'google' and 'bing' providers).<!--/d-->
 <!--EventForAction-->..\4 Events\markerAdded.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns the object that defines the currently added marker in the 'markers' array<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns an original marker object used by the current map provider (only for 'google' and 'bing' providers)<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->

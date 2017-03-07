@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->PieChart series hover mode<!--/d-->
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'onlyPoint' | 'none'<!--/acceptValues-->
@@ -28,4 +27,6 @@ The appearance of the hovered series is not changed.
 </ul>
 
 <p>To set custom options for the 'hover' style (which is applied when a series is hovered over), use the <b>hoverStyle</b> configuration object.</p>
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PieChartSeriesInteractionMode` enum. This enum accepts the following values: `OnlyPoint` and `None`.
 <!--/fullDescription-->

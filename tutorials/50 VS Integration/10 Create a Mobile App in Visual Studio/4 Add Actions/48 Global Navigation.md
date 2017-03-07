@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/LearningCenter/Data-BoundApplication/step3-2/index.html">
+<article data-show="/Content/Applications/16_2/LearningCenter/Data-BoundApplication/step3-2/index.html">
 
 As you can see in the running application, the **NavBar** layout uses the [NavBar](/Documentation/ApiReference/UI_Widgets/dxNavBar/) widget for the application's global navigation. NavBar items (such as About in the template application) represent [commands](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxCommand/Configuration/) defined by the [navigation](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#navigation) object within the application's configuration object. Open the *application1.config.js* file from the Desktop and Mobile projects and specify the following set of commands.
 

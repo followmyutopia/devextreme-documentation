@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Label format precision for point's value<!--/d-->
-<!--dep-->Use 'format.precision' instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->

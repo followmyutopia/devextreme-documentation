@@ -4,15 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Select rows by indexes
-<!--/d-->
-<!--p1d-->Array indexes of rows<!--/p1d-->
 ===================================================================
 ===================================================================
 
 <!--shortDescription-->
-Selects [grid rows](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Grid_Rows) by indexes.
+Selects [grid rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) by indexes.
 <!--/shortDescription-->
 
 <!--paramName1-->indexes<!--/paramName1-->

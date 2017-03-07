@@ -4,17 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when a value in data is changed<!--/d-->
 <!--EventForAction-->..\4 Events\fieldDataChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns a string representing the data field which value is changed<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns the new value<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -47,7 +40,7 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamName1_field4-->dataField<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The path to the <a href="Documentation/ApiReference/UI_Widgets/dxForm/Configuration#formData">formData</a> object field whose value has been changed.
+The path to the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxForm/Configuration#formData">formData</a> object field whose value has been changed.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->value<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->object<!--/typeFunctionParamType1_field5-->

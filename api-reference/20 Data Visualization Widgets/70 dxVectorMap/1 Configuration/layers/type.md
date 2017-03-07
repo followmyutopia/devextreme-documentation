@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Layer type<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--acceptValues-->'area' | 'line' | 'marker'<!--/acceptValues-->
@@ -16,5 +15,5 @@ Specifies layer type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VectorMapLayerType` enum. This enum accepts the following values: `Area`, `Marker` and `Line`.
 <!--/fullDescription-->

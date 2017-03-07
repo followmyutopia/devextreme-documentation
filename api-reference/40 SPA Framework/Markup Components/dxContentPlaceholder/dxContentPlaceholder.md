@@ -4,10 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->ContentPlaceholder markup options<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_html_view_engine_components">framework/html/view_engine_components</a><!--/module-->
-<!--export-->dxTransition<!--/export-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_html_view_engine_components">framework/html/view_engine_components</a><!--/module-->
 <!--type-->object<!--/type-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js

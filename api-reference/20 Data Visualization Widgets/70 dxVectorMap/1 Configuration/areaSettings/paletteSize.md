@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Palette size (must be non less than 1 for using the palette)<!--/d-->
 <!--dep-->..\layers\paletteSize.md<!--/dep-->
 ===========================================================================
 <!--default-->0<!--/default-->

@@ -15,5 +15,5 @@ $(function () {
 getImagePath = function (name) {
     if (name === undefined)
         return;
-    return "/Content/images/doc/16_1/PhoneJS/flags/" + name.replace(" ", "") + ".gif";
+    return "/Content/images/doc/16_2/PhoneJS/flags/" + name.replace(" ", "") + ".gif";
 };

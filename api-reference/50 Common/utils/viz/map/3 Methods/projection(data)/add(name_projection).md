@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Adds projection
-<!--/d-->
-<!--p1d-->Projection name<!--/p1d-->
-<!--p2d-->Projection instance<!--/p2d-->
 ===================================================================
 ===================================================================
 
@@ -25,7 +20,7 @@ The projection name.
 <!--paramName2-->projection<!--/paramName2-->
 <!--paramType2-->object<!--/paramType2-->
 <!--paramDescription2-->
-The projection returned by the <a href="/Documentation/16_1/ApiReference/Common/Utils/viz/map/Methods/#projectiondata">projection(data)</a> method.
+The projection returned by the <a href="/Documentation/16_2/ApiReference/Common/Utils/viz/map/Methods/#projectiondata">projection(data)</a> method.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

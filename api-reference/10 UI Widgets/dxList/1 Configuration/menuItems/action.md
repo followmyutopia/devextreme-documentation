@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when an menu item is clicked. 'itemElement' argument specifies the clicked item element. 'itemData' argument specifies the clicked item data.<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->JQuery element representing the item<!--/fp1d-->
-<!--fp2d-->Object representing the item<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->

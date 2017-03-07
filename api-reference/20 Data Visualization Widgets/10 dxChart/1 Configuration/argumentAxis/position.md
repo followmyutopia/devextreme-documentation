@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Position of argument axis<!--/d-->
 ===========================================================================
 <!--default-->'bottom'<!--/default-->
 <!--acceptValues-->'bottom' | 'top' | 'left' | 'right'<!--/acceptValues-->

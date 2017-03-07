@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Border visibility<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\..\..\LineSeries\LineSeries.md,..\..\..\..\AreaSeries\AreaSeries.md,..\..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->true<!--/default-->

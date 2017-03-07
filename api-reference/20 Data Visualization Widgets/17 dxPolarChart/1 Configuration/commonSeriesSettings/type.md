@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common series type<!--/d-->
 ===========================================================================
 <!--default-->'scatter'<!--/default-->
 <!--acceptValues-->'line' | 'area' | 'bar' | 'stackedbar' | 'scatter'<!--/acceptValues-->
@@ -16,5 +15,7 @@ Sets a series type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A series type determines a particular visual representation of data. To learn more about series types supplied with the **PolarChart** widget, refer to the [Series](/Documentation/Guide/Data_Visualization/Charts/Chart_Series_Types/) help section.
+A series type determines a particular visual representation of data. To learn more about series types supplied with the **PolarChart** widget, refer to the [Series](/Documentation/Guide/Widgets/Chart/Series_Types/) help section.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PolarChartSeriesType` enum. This enum accepts the following values: `Line`, `Area`, `Bar`, `Stackedbar` and `Scatter`.
 <!--/fullDescription-->

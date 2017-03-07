@@ -20,10 +20,7 @@ $("#dxRangeSelectorContainer").dxRangeSelector({
             { valueField: 'inc', color: '#ffae00' }
         ]
     },
-    selectedRange: {
-        startValue: new Date(2011, 11, 25),
-        endValue: new Date(2012, 0, 1)
-    }
+    value: [new Date(2011, 11, 25), new Date(2012, 0, 1)]
 });
 /**EVAL**/
 var dataSource = [
@@ -50,9 +47,6 @@ $(window).on("scroll", function() {
                 { valueField: 'inc', color: '#ffae00' }
             ]
         },
-        selectedRange: {
-            startValue: new Date(2011, 11, 25),
-            endValue: new Date(2012, 0, 1)
-        }
+        value: [new Date(2011, 11, 25), new Date(2012, 0, 1)]
     });
 });

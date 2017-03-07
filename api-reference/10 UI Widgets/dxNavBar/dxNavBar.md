@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->NavBar widget.<!--/d-->
 <!--widgettree-->
 dataSource: [{
         text: "Contacts",
@@ -20,7 +19,8 @@ dataSource: [{
 ]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_nav_bar">ui/nav_bar</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_nav_bar">ui/nav_bar</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\dxTabs\dxTabs.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
@@ -34,8 +34,7 @@ The **NavBar** is a widget that navigates the application views.
 <!--fullDescription-->
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxNavBar` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div id="navBar"></div>
@@ -43,34 +42,53 @@ You can create the widget using one of the following approaches.
     <!---->
 
         <!--JavaScript-->
-        var navItems = [
-            { text: "Home", icon: "home" },
-            { text: "About", icon: "info" },
-            { text: "favorites", icon: "favorites", badge: "new" }
-        ];
-        $("#navBar").dxNavBar({
-            dataSource: navItems
+        $(function () {
+            $("#navBar").dxNavBar({
+                items: [
+                    { text: "Home", icon: "home" },
+                    { text: "About", icon: "info" },
+                    { text: "favorites", icon: "favorites", badge: "new" }
+                ]
+            });
         });
 
-- **Knockout**  
- Add a div element and apply the `dxNavBar` binding to this element.
-
-        <!--HTML-->
-        <div data-bind="dxNavBar: {
-            dataSource: navItems
-        }"></div>
-
-- **AngularJS**  
- Add a div element and apply the `dx-nav-bar` directive to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div dx-nav-bar="{
-            dataSource: navItems
+            items: [
+                { text: 'Home', icon: 'home' },
+                { text: 'About', icon: 'info' },
+                { text: 'favorites', icon: 'favorites', badge: 'new' }
+            ]
         }"></div>
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-Since the **NavBar** widget is used to display multiple items, it supports the common Collection Container widget functionality. You can find detailed information on principles of working with the widget in the [dxNavBar section](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#List_of_Collection_Container_Widgets/dxNavBar) of the [Collection Container Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/) article.
+        <!--HTML-->
+        <div data-bind="dxNavBar: {
+            items: [
+                { text: 'Home', icon: 'home' },
+                { text: 'About', icon: 'info' },
+                { text: 'favorites', icon: 'favorites', badge: 'new' }
+            ]
+        }"></div>
+
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+
+        @(Html.DevExtreme().NavBar()
+            .ID("navBar")
+            .Items(items => {
+                items.Add().Text("Home").Icon("home");
+                items.Add().Text("About").Icon("info");
+                items.Add().Text("Favorites").Icon("favorites").Badge("new");
+            })
+        )
+
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigationnavbarnavbarnavbar/iphone/ios7/default/default" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+
+#####See Also#####
+- [NavBar - Overview](/Documentation/Guide/Widgets/NavBar/Overview/)
 <!--/fullDescription-->

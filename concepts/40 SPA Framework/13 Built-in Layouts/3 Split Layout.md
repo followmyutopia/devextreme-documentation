@@ -1,4 +1,4 @@
-The Split layout is designed for Windows Phone, iOS and Android tablet applications to effectively organize space on a screen. In this layout, there are two panes - a "master" pane and a "detail" pane. A "master" pane usually presents a list of items. A "detail" pane presents detail information on the item selected in the "master" pane. The type of the layout controller and the layout markup to be used for each pane are determined in a root Split layout controller. The **IOSSplitLayoutController** that is used in iOS apps applies the [Simple](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Simple_Layout) layout for both panes. The **AndroidSplitLayoutController** that is used in Android apps and **Win8SplitLayoutController** that is used in Windows Phone apps apply the [Empty](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Empty_Layout) layout for both panes. 
+The Split layout is designed for Windows, iOS and Android tablet applications to effectively organize space on a screen. In this layout, there are two panes - a "master" pane and a "detail" pane. A "master" pane usually presents a list of items. A "detail" pane presents detail information on the item selected in the "master" pane. The type of the layout controller and the layout markup to be used for each pane are determined in a root Split layout controller. The **IOSSplitLayoutController** that is used in iOS apps applies the [Simple](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Simple_Layout) layout for both panes. The **AndroidSplitLayoutController** that is used in Android apps and **Win8SplitLayoutController** that  is used in Windows apps apply the [Empty](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Empty_Layout) layout for both panes. 
 
 When defining views, specify the pane in which a view will be displayed in the Split layout by using the [pane](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#pane) option of the corresponding **dxView** markup component. In addition, denote the layout placeholder in which the view will be displayed within the pane. The Simple and Empty layouts that are used in split layout panes provide the 'content' placeholder. So, put the view's markup within this placeholder. For details on how to do this, refer to the [Insert View into Layout](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Insert_View_into_Layout) topic.
 
@@ -6,7 +6,7 @@ To see an example, refer to the [Use Split Layout For Tablets](/Documentation/Tu
 
 <a id="iOSSplitLayout"></a><h4>iOS</h4>
 
-![Split](/Content/images/doc/16_1/PhoneJS/split-ios.png)
+![Split](/Content/images/doc/16_2/PhoneJS/split-ios.png)
 
 **Links**:
 
@@ -19,7 +19,7 @@ To see an example, refer to the [Use Split Layout For Tablets](/Documentation/Tu
 
 <a id="AndroidSplitLayout"></a><h4>Android</h4>
 
-![Split](/Content/images/doc/16_1/PhoneJS/split_android.png)
+![Split](/Content/images/doc/16_2/PhoneJS/split_android.png)
 
 **Links**:
 
@@ -30,9 +30,9 @@ To see an example, refer to the [Use Split Layout For Tablets](/Documentation/Tu
 	<script type="text/javascript" src="layouts/Empty/EmptyLayout.js"></script>
 	<link rel="stylesheet" type="text/css" href="layouts/Empty/EmptyLayout.css" />
 
-<a id="WinPhoneSplitLayout"></a><h4>Windows Phone</h4>
+<a id="Win8SplitLayout"></a><h4>Windows Phone</h4>
 
-![Split](/Content/images/doc/16_1/PhoneJS/split-win8.png)
+![Split](/Content/images/doc/16_2/PhoneJS/split-win8.png)
 
 **Links**:
 
@@ -109,6 +109,6 @@ To save the state of the Split layout application when the application page is r
 
 The **saveState** method will call the **saveState** method of the application's state manager. The latter will send a request to save the state to all the registered state sources, and to the Split layout controller in particular.
 
-[note]This method is called in the DevExtreme [Basic Application](/Documentation/Guide/VS_Integration/Project_Templates/#Basic_Application) and [Multi-Channel Application](/Documentation/Guide/VS_Integration/Project_Templates/#Multi-Channel_Application) templates provided by Visual Studio when the [DevExtreme Complete](/Documentation/Guide/Common/DevExtreme_Packages/#DevExtreme_Complete) package is installed.
+[note]This method is called in the DevExtreme [Basic Application](/Documentation/Guide/VS_Integration/Project_Templates/#Basic_Application) and [Multi-Channel Application](/Documentation/Guide/VS_Integration/Project_Templates/#Multi-Channel_Application) templates provided by Visual Studio.
 
 The saved state will be automatically restored by the framework when recreating the application.

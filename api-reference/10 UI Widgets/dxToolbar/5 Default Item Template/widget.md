@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the widget that presents a toolbar item<!--/d-->
 ===========================================================================
 <!--acceptValues-->'dxButton' | 'dxTabs' | 'dxCheckBox' | 'dxSelectBox' | 'dxTextBox' | 'dxAutocomplete' | 'dxDateBox' | 'dxMenu' | 'dxDropDownMenu'<!--/acceptValues-->
 <!--type-->String<!--/type-->
@@ -19,9 +18,18 @@ This data source field is used by a default item template. If you use the defaul
 
 [note]If you use the **Menu** widget as a toolbar item, the [adaptivityEnabled](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#adaptivityEnabled) option does not apply.
 
+When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), configure this option with a lambda expression in the following manner.
+
+    @(Html.DevExtreme().Toolbar()
+        .Items(items => {
+            items.Add().Widget(w => w
+                .Button() // or another widget
+                .Text("Back")
+            );
+        })
+    )
+
 #####See Also#####
-- [Customize Item Template](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#Common_Tasks/Customize_an_Item_Appearance)
-- [Customize Widget Element Appearance](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Toolbar - Specify Item Type](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type/)
 
 <!--/fullDescription-->

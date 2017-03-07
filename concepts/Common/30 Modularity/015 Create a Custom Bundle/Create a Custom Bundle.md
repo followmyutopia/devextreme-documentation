@@ -29,8 +29,8 @@ Link themes to your application.
 
     <!--HTML-->
     <!--Link Themes-->
-    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_1/css/dx.common.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_1/css/dx.ios7.default.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.ios7.default.css" />
 
 The example below demonstrates how to create an application with a single button using the modules and shows the reduced configuration file.
 
@@ -48,12 +48,12 @@ The example below demonstrates how to create an application with a single button
       <meta charset="utf-8">
   
         <!--External Scripts-->
-        <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
         <!--DevExtreme Bundle-->
         <script type="text/javascript" src="dx.custom.js" charset="utf-8"></script>
         <!--Themes-->
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_1/css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_1/css/dx.ios7.default.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.ios7.default.css" />
     </head>
 
     <body>
@@ -97,14 +97,14 @@ The example below demonstrates how to create an application with a single button
       <title>DevExtreme with a custom bundle and AngularJS example</title>
       <meta charset="utf-8">
   
-        <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.js"></script>
         <!--DevExtreme Bundle-->
         <script type="text/javascript" src="dx.custom.js" charset="utf-8"></script>
         <!--Link Themes-->
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_1/css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_1/css/dx.ios7.default.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.ios7.default.css" />
 
     </head>
 
@@ -158,13 +158,13 @@ The example below demonstrates how to create an application with a single button
       <title>DevExtreme with a custom bundle and Knockout example</title>
       <meta charset="utf-8">
   
-        <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
         <!--DevExtreme Bundle-->
         <script type="text/javascript" src="dx.custom.js" charset="utf-8"></script>
         <!--Link Themes-->
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_1/css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_1/css/dx.ios7.default.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.ios7.default.css" />
 
     </head>
 

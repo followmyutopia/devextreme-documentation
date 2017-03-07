@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The summary pattern can include static text plus predefined indexed placeholders<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string<!--/type-->

@@ -4,13 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Wraps passed array with a Query object
-<!--/d-->
-<!--p1d-->Array of data items<!--/p1d-->
-<!--rd-->Query object<!--/rd-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_query">data/query</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_query">data/query</a><!--/module-->
+<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

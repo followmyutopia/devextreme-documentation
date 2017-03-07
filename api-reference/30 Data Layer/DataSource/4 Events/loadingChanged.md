@@ -4,10 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Fired when DataSource enters or leaved loading state. Check state via isLoading() method.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A flag representing the state of loading mechanism.<!--/fp1d-->
 ===========================================================================
 
 <!--shortDescription-->

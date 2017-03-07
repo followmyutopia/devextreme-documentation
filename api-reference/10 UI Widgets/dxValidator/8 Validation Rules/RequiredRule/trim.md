@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Indicate whether to include space charachter into the result<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

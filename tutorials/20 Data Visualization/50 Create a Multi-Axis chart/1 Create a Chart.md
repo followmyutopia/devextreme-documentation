@@ -1,5 +1,5 @@
 
-<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/CreateMultiAxisChart/Step2/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/CreateMultiAxisChart/Step2/chart.html" data-show-first="chart.js">
 
 Add a multi-series **Chart** widget to your page. To learn how to configure charts, refer to the [Configure Charts](/Documentation/Tutorial/Data_Visualization/Configure_Charts/) tutorial.
 

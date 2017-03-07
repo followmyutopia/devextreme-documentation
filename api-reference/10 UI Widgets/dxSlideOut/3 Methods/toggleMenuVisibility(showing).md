@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Toggles widget menu visibility.
-<!--/d-->
-<!--p1d-->A Boolean indicating whether to show or hide the widget menu.<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when widget menu toggle is complete.<!--/rd-->
 ===================================================================
 ===================================================================
 

@@ -1,12 +1,25 @@
-﻿[note]The DevExtreme package includes about 500 modules, which can significantly decrease the application performance when loading them through RequireJS. Loading DevExtreme bundles is much faster because of a small count of HTTP requests. Thus, even if you are using only several DevExtreme components, it is more efficient to create a custom bundle using the DevExtreme Bundle Tool and load only this bundle instead of multiple modules.
-
-First, install [RequireJS](http://requirejs.org/) to your application folder.
+﻿First, install [RequireJS](http://requirejs.org/) to your application folder.
 
     npm install requirejs
 
 Then, install the DevExtreme package.  
 
     npm install devextreme
+
+DevExtreme modules are defined using the CommonJS format. RequireJS does not support this format. Thus, convert DevExtreme modules to the AMD format before using them with RequireJS. Use the [RequireJS conversion tool](http://requirejs.org/docs/commonjs.html#autoconversion) to convert modules. Follow these steps to convert the modules.
+
+- Add the devextreme package to the 'node_modules/devextreme' directory
+
+        npm i devextreme
+
+- Add global 'r_js' command
+
+        npm i r.js -g
+
+- Convert the devextreme package and save it to the 'devextreme_amd' directory
+
+        r_js -convert node_modules/devextreme devextreme_amd
+
 
 To link up the modules to your application using [RequireJS](http://requirejs.org/), begin by adding [themes](/Documentation/Guide/Themes/Predefined_Themes/) to your application. 
 

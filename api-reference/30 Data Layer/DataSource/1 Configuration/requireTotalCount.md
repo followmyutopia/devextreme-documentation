@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Initial value of requireTotalCount option. Passed to DataStore during loading (Will work only if DataStore supports mechanism of including total count of items in response).<!--/d-->
 ===========================================================================
 <!--type-->Boolean<!--/type-->
 ===========================================================================

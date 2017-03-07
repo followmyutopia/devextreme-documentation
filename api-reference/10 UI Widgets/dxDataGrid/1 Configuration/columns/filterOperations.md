@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The array of access operations<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'=' | '<>' | '<' | '<=' | '>' | '>=' | 'notcontains' | 'contains' | 'startswith' | 'endswith' | 'between'<!--/acceptValues-->
@@ -45,7 +44,9 @@ The following table displays available filters by the [data type](/Documentation
 </table>
 </div>
 
-To change an applied filter at runtime, a user must click a magnifying glass icon in the corresponding cell of a [filter row](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Filter_Row).
+To change an applied filter at runtime, a user must click a magnifying glass icon in the corresponding cell of a [filter row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Filter_Row).
 
 [note]The **filterOperations** option also accepts an empty array. In this case, the selected filter operation is *"="* for all data types, and an end user cannot change it.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `FilterOperations` enum. This enum accepts the following values: `Equal`, `NotEqual`, `LessThan`, `LessThanOrEqual`, `GreaterThan`, `GreaterThanOrEqual`, `NotContains`, `Contains`, `StartsWith`, `EndsWith` and `Between`.
 <!--/fullDescription-->

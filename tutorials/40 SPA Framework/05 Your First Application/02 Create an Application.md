@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/YourFirstApplication/step1/YourFirstApplication.html">
+<article data-show="/Content/Applications/16_2/framework/YourFirstApplication/step1/YourFirstApplication.html">
 
 - Create an HTML file and give it the "index.html" name.
 

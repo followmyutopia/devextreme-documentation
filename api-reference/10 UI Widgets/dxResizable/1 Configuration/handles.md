@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies interactive handles using space separated string.<!--/d-->
 ===========================================================================
 <!--default-->'all'<!--/default-->
 <!--acceptValues-->'top' | 'bottom' | 'right' | 'left' | 'all'<!--/acceptValues-->
@@ -17,6 +16,4 @@ Specifies which borders of the widget element are used as a handle.
 
 <!--fullDescription-->
 You can pass several values separated by space. For example, "right bottom".
-
-
 <!--/fullDescription-->

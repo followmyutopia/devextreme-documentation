@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines the minimum number of characters, that must be typed to start a search.<!--/d-->
 ===========================================================================
 <!--default-->0<!--/default-->
 <!--type-->number<!--/type-->

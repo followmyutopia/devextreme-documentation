@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Scroll content to specified distance from current position.
-<!--/d-->
-<!--p1d-->An object specifing distance from current position where to scroll in format { left: distanceLeft, top: distanceTop }.<!--/p1d-->
 ===================================================================
 ===================================================================
 

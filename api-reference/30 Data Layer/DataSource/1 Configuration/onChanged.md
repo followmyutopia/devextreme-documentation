@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Fired after data is successfully loaded or reloaded.<!--/d-->
 <!--EventForAction-->..\4 Events\changed.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function<!--/type-->

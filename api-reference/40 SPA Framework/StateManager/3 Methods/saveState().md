@@ -4,9 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Save state of all state sources to the state manager store
-<!--/d-->
 ===================================================================
 ===================================================================
 
@@ -17,5 +14,5 @@ Saves the current application state.
 <!--fullDescription-->
 Use this method to save the current application state when required, e.g., when the application is closed. This method passes the request to save the current state to all the state sources that are ["known"](/Documentation/ApiReference/SPA_Framework/StateManager/Methods/#addStateSourcestateSource) to the state manager.
 
-[note]This method is called in the DevExtreme [Basic Application](/Documentation/Guide/VS_Integration/Project_Templates/#Basic_Application) and [Multi-Channel Application](/Documentation/Guide/VS_Integration/Project_Templates/#Multi-Channel_Application) templates provided by Visual Studio when the [DevExtreme Complete](/Documentation/Guide/Common/DevExtreme_Packages/#DevExtreme_Complete) package is installed.
+[note]This method is called in the DevExtreme [Basic Application](/Documentation/Guide/VS_Integration/Project_Templates/#Basic_Application) and [Multi-Channel Application](/Documentation/Guide/VS_Integration/Project_Templates/#Multi-Channel_Application) templates provided by Visual Studio.
 <!--/fullDescription-->

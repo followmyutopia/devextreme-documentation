@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Should the rule be validated every time, even if the value has not changed since last check<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

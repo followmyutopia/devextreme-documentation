@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options of column fixing<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -14,7 +13,7 @@ Specifies options for column fixing.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When a total column width is greater than the width of the grid's container, [horizontal scrolling](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Navigation/#Scrolling/Horizontal_Scrolling) appears. This may happen in the following cases:
+When a total column width is greater than the width of the grid's container, [horizontal scrolling](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Scrolling/Horizontal_Scrolling) appears. This may happen in the following cases:
 
 - when all columns have a specified [width](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#width);
 - when the grid's [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#columnAutoWidth) option is set to *false*.

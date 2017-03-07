@@ -4,10 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->A pre-request callback function that can be used to modify request parameters.<!--/d-->
 ===========================================================================
 <!--type-->function(request)<!--/type-->
-<!--fp1d-->jQuery ajax settings (see jQuery documentation).<!--/fp1d-->
 ===========================================================================
 
 <!--shortDescription-->

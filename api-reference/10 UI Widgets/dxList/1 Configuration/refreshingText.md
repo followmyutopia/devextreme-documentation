@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A text of pullDown panel showing during list refreshing<!--/d-->
 ===========================================================================
 <!--default-->'Refreshing...'<!--/default-->
 <!--type-->string<!--/type-->
@@ -15,5 +14,6 @@ Specifies the text displayed in the pullDown panel while the list is being refre
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Localization](/Documentation/Guide/Widgets/List/Localization/)
 <!--/fullDescription-->

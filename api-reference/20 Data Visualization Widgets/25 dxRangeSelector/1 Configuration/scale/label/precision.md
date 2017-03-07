@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Scale label format precision for scale values<!--/d-->
-<!--dep-->Use 'format.precision' instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->

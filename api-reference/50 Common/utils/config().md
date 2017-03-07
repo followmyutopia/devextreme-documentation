@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Gets current value of a global config.
-<!--/d-->
-<!--rd-->A map of parameter/value pairs of config.<!--/rd-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_config">core/config</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_config">core/config</a><!--/module-->
+<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-A method that hides the latest shown overlay widget
-<!--/d-->
-<!--rd-->false if there is nothing to hide, true if the overlay has been successfully hidden<!--/rd-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_mobile_hide_top_overlay">mobile/hide_top_overlay</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_mobile_hide_top_overlay">mobile/hide_top_overlay</a><!--/module-->
+<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

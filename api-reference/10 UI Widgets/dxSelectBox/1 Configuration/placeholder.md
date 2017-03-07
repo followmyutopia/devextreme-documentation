@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies a hint that describes the expected value of the widget.<!--/d-->
 ===========================================================================
 <!--default-->'Select'<!--/default-->
 <!--type-->string<!--/type-->

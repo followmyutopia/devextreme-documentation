@@ -30,7 +30,7 @@ DevExtreme UI widgets include [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) m
         </div>
     </div>
 
-#####AngularJS Approach#####
+#####AngularJS#####
 
     <!--HTML-->
     <div class="dx-field">
@@ -40,7 +40,7 @@ DevExtreme UI widgets include [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) m
         </div>
     </div>
 
-#####Knockout Approach#####
+#####Knockout#####
 
     <!--HTML-->
     <div class="dx-field">

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Orienation of gauge<!--/d-->
 ===========================================================================
 <!--default-->'horizontal'<!--/default-->
 <!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->
@@ -16,5 +15,5 @@ Indicates whether to display the **LinearGauge** widget vertically or horizontal
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `Orientation` enum. This enum accepts the following values: `Horizontal` and `Vertical`.
 <!--/fullDescription-->

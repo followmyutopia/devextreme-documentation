@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns a view template represented as jQuery object.
-<!--/d-->
-<!--p1d-->Name of a view template to obtain<!--/p1d-->
-<!--rd-->A view template represented as jQuery object<!--/rd-->
 ===================================================================
 ===================================================================
 

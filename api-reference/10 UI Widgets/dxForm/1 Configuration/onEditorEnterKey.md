@@ -4,16 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when the 'enter' key is pressed in an editor<!--/d-->
 <!--EventForAction-->..\4 Events\editorEnterKey.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns a string representing the data field<!--/fp1_field4d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -46,5 +40,5 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamName1_field4-->dataField<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The path to the <a href="Documentation/ApiReference/UI_Widgets/dxForm/Configuration#formData">formData</a> object field associated with the current editor.
+The path to the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxForm/Configuration#formData">formData</a> object field associated with the current editor.
 <!--/typeFunctionParamDescription1_field4-->

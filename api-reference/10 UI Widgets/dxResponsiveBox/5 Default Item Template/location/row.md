@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the row component of the element location.<!--/d-->
 ===========================================================================
 <!--type-->number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the row component of the element location.
+Specifies which row the element should occupy. Accepts an index from the [rows](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/rows/) array.
 <!--/shortDescription-->
 
 <!--fullDescription-->

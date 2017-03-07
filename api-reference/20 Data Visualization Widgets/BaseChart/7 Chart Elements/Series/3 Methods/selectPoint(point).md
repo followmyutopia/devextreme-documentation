@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Selects the specified point.
-<!--/d-->
-<!--p1d-->The point to be selected.<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -22,5 +18,5 @@ The point to be selected.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-For information on point selection, refer to the [Selection Handling](/Documentation/Guide/Data_Visualization/Charts/End-User_Interaction/#Selection_Handling) section.
+For information on point selection, refer to the [Selection Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Selection_Handling) section.
 <!--/fullDescription-->

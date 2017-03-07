@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The text displayed when widget has no items.<!--/d-->
 ===========================================================================
 <!--default-->'No data to display'<!--/default-->
 <!--type-->string<!--/type-->

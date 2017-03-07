@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Convenience way to specify a single updating callback.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A key value of the item being updated.<!--/fp1d-->
-<!--fp2d-->New values for the item being updated.<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -9,7 +9,7 @@ var myViewModel = {
         store: [],
         paginate: false,
         map: function (dataItem) {
-            dataItem.imagePath = "/Content/images/doc/16_1/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
+            dataItem.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
             return dataItem;
         }
     }),
@@ -55,7 +55,7 @@ myApp.controller("demoController", function ($scope) {
         store: [],
         paginate: false,
         map: function (dataItem) {
-            dataItem.imagePath = "/Content/images/doc/16_1/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
+            dataItem.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
             return dataItem;
         }
     });
@@ -89,7 +89,7 @@ var lookupDataSource = new DevExpress.data.DataSource({
     store: [],
     paginate: false,
     map: function (dataItem) {
-        dataItem.imagePath = "/Content/images/doc/16_1/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
+        dataItem.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
         return dataItem;
     }
 });

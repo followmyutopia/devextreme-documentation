@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Store, whose logic is completely defined by a developer's custom functions.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_custom_store">data/custom_store</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_custom_store">data/custom_store</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--inherits-->..\Store\Store.md<!--/inherits-->
 <!--lib-->

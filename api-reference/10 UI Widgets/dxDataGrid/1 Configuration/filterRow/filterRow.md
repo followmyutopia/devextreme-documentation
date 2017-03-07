@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Filtering a rows<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies [filter row](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Filter_Row) options.
+Specifies [filter row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Filter_Row) options.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -21,8 +20,8 @@ To filter grid records by a value in a grid column, the user must enter the requ
 [note] This feature is not available for [hidden](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visible) columns.
 
 #####See Also#####
-- For more information about filtering, refer to the [Filtering](/Documentation/Guide/UI_Widgets/Data_Grid/Filtering/) topic.
-- To discover how to apply a filter from code, see the  [Filtering in Code](/Documentation/Guide/UI_Widgets/Data_Grid/Filtering/#Filtering_in_Code) topic.
+- [DataGrid - Filtering](/Documentation/Guide/Widgets/DataGrid/Filtering/)
+- [DataGrid - Filtering in Code](/Documentation/Guide/Widgets/DataGrid/Filtering/#Filtering_in_Code)
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridfilteringandsortingfiltering/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

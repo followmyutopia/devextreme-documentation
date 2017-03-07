@@ -8,9 +8,6 @@ $(function () {
             endValue: new Date(2012, 6),
             maxRange: 'month'
         },
-        selectedRange: {
-            startValue: new Date(2012, 3, 1),
-            endValue: new Date(2012, 4, 1)
-        }
+        value: [new Date(2012, 3, 1), new Date(2012, 4, 1)]
     });
 });

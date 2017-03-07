@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The event for handling click event without any delays on touch and non-touch devices.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_click">events/click</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_click">events/click</a><!--/module-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A jQuery event object.<!--/fp1d-->
 ===========================================================================
 
 <!--shortDescription-->

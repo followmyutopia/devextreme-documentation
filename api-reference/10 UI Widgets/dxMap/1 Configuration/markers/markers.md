@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->An array of markers options that include 'location'(required), 'tooltip'(optional), 'iconSrc'(optional) and 'click'(optional). Option 'tooltip' may be a string or an object that includes text(string) and isShown(boolean).<!--/d-->
 ===========================================================================
 <!--type-->array<!--/type-->
 ===========================================================================

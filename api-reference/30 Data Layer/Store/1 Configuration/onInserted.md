@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Convenience way to specify a single inserted callback.<!--/d-->
 <!--EventForAction-->..\4 Events\inserted.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->An object representing the inserted item.<!--/fp1d-->
-<!--fp2d-->A key value of the inserted item.<!--/fp2d-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Creates and configures global navigation commands.
-<!--/d-->
-<!--p1d-->Array of navigation commands or command contructor configuration objects<!--/p1d-->
 ===================================================================
 ===================================================================
 

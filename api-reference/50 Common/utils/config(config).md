@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sets one or more parameters of config specified by parameter/value pairs object.
-<!--/d-->
-<!--p1d-->A map of parameter/value pairs to set.<!--/p1d-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_config">core/config</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_config">core/config</a><!--/module-->
+<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

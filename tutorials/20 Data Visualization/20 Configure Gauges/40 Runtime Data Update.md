@@ -1,6 +1,6 @@
-<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureGauges/Step5/gauges.html">
+<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureGauges/Step5/gauges.html">
 
-To complete configuring the **CircularGauge** widget, implement a runtime data update. The idea is to update the gauge's value when the user selects a city from a drop-down menu. This app uses the DevExtreme's [SelectBox](/Documentation/ApiReference/UI_Widgets/dxSelectBox) widget to provide you with the capability to choose cities. This widget requires two CSS files to be added to the project. You can find these files in your DevExtreme package.
+To complete configuring the **CircularGauge** widget, implement a runtime data update. The idea is to update the gauge's value when the user selects a city from a drop-down menu. This app uses the DevExtreme's [SelectBox](/Documentation/ApiReference/UI_Widgets/) widget to provide you with the capability to choose cities. This widget requires two CSS files to be added to the project. You can find these files in your DevExtreme package.
 
 To configure **SelectBox**, create another div element on the HTML page and add one more JavaScript file to the project. Assign an array of objects to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#dataSource) option. Each object in this array represents a city identified by a unique [WOEID](https://developer.yahoo.com/geo/geoplanet/guide/concepts.html).
 

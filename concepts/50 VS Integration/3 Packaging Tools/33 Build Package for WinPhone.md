@@ -1,6 +1,6 @@
 As you were developing this application, you included layouts and style sheets specific to the WinPhone platform. The next step is to set the project properties required for building a native Windows Phone package. To do this, right-click the application project in the Visual Studio Solution Explorer and choose **Properties**, then specify the properties that are presented in the **Windows Phone package** tab.
 
-![WinPhone Package Properties](Content/images/doc/16_1/DevExtreme/WinPhonePackageProperties.png)
+![WinPhone Package Properties](Content/images/doc/16_2/DevExtreme/WinPhonePackageProperties.png)
 
 - **Signing**  
 
@@ -24,7 +24,7 @@ As you were developing this application, you included layouts and style sheets s
 
 Now, you can easily create a native Windows Phone package with your application right from Visual Studio. Right-click the application project and choose **Build Native Packages...**. The **Build Package** wizard will run.
 
-![Build For WinPhone](Content/images/doc/16_1/DevExtreme/WinPhoneWizard.png)
+![Build For WinPhone](Content/images/doc/16_2/DevExtreme/WinPhoneWizard.png)
 
 Choose **Windows Phone** and go through all the wizard steps. As a result, you will get a file that is ready to be loaded to the Windows Store. For details on the requirements for a Windows Phone application release, refer to the [Windows Phone Dev Center](http://msdn.microsoft.com/en-us/library/windowsphone/help/jj206736(v=vs.105).aspx).
 

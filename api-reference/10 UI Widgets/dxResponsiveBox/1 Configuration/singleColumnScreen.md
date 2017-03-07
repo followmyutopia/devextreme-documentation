@@ -4,16 +4,15 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the screen factors (separated by space in a single string) when items are rendered one under the other in a single column<!--/d-->
 ===========================================================================
 <!--default-->''<!--/default-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the screen factor with which all elements are located in a single column.
+Decides on which screens all layout elements should be arranged in a single column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+This option accepts a single or several [size qualifiers](/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/) separated by a space.
 <!--/fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Title of add row button<!--/d-->
 ===========================================================================
 <!--default-->'Add a row'<!--/default-->
 <!--type-->string<!--/type-->
@@ -15,5 +14,5 @@ Specifies text for a hint that appears when a user hovers the mouse pointer over
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For information on data modification controls including the *"Add"* button, refer to the [Data Modification Controls](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Data_Modification_Controls) topic.
+For information on data modification controls including the *"Add"* button, refer to the [Data Modification Controls](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Data_Modification_Controls) topic.
 <!--/fullDescription-->

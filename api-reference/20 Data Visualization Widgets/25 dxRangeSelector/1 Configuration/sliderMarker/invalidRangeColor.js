@@ -6,10 +6,7 @@
             minRange: 10,
             maxRange: 20
         },
-        selectedRange: {
-            startValue: 60,
-            endValue: 80
-        },
+        value: [60, 80],
         sliderMarker: {
             invalidRangeColor: 'darkred'
         }

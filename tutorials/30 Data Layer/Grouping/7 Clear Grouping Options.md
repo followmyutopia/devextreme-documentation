@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_1/DataLayer/Grouping/Step8/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/16_2/DataLayer/Grouping/Step8/markup.html" data-show-first="script.js">
 
 To clear grouping options and show data items without grouping pass **null** to the **groupData** function.
 

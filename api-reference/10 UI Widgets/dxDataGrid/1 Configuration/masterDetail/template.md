@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Custom template for master detail<!--/d-->
 ===========================================================================
 <!--type-->template<!--/type-->
-<!--fp1d-->The detail cell under customization.<!--/fp1d-->
-<!--fp2d-->The options of the expanded row.<!--/fp2d-->
-<!--fp2_field1d-->The object key of a data source represented by the current row.<!--/fp2_field1d-->
-<!--fp2_field2d-->The object of a data source represented by the current row.<!--/fp2_field2d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -36,7 +31,7 @@ Use the **template** option to define the markup of detail sections in a master-
 [note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 
 
 #####See Also#####
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
 If you are using AngularJS and trying to access row object fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add this directive to the widget element as shown in the following code. Without this directive, row object fields are beyond reach.
 

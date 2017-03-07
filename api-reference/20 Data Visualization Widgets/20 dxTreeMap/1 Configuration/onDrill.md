@@ -4,15 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Raised when drilldown occurs<!--/d-->
 <!--EventForAction-->..\4 Events\drill.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Event argument<!--/fp1d-->
-<!--fp1_field1d-->Widget itself<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container<!--/fp1_field2d-->
-<!--fp1_field3d-->Drilldown node<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -36,6 +31,7 @@ The **onDrill** event handler can be used to enable/disable other widgets bound 
 
 Although not provided out-of-the-box, the drill down capability is easy to implement using the API methods. Learn how to do this from the [drillDown()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#drillDown) method description.
 
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/DrillDown/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <a href="https://www.youtube.com/watch?v=pCfBYtOcXxw&index=6&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

@@ -4,16 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called when a key down event is thrown<!--/d-->
 <!--EventForAction-->..\4 Events\keyDown.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
-<!--fp1d-->Event info.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->The jQuery event.<!--/fp1_field3d-->
-<!--fp1_field4d-->Indicates if the grid has already handled the key down event<!--/fp1_field4d-->
 ===========================================================================
 
 <!--shortDescription-->

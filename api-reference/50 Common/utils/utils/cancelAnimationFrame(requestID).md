@@ -4,12 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Cancels an animation frame request scheduled with 'requestAnimationFrame' method.
-<!--/d-->
-<!--p1d-->An ID returned by 'requestAnimationFrame' method.<!--/p1d-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_animation_frame">animation/frame</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_animation_frame">animation/frame</a><!--/module-->
 <!--export-->cancel<!--/export-->
 ===================================================================
 

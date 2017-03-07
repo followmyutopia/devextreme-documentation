@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Hovered border color<!--/d-->
 ===========================================================================
 <!--default-->'#303030'<!--/default-->
 <!--type-->string<!--/type-->
@@ -15,7 +14,7 @@ Specifies a color for the border of the layer element when it is hovered over.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option applies only if the [layer type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#type) is *"line"*.
+This option does not apply if the [layer type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#type) is *"line"*.
 
 This option supports the following colors.
 

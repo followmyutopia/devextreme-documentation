@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The method in which items are selected.<!--/d-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'none' | 'multiple' | 'single' | 'all'<!--/acceptValues-->
@@ -33,5 +32,10 @@ This option accepts the following values.
 
  [note]The check box that selects/unselects all items is displayed only if the [showSelectionControls]({basewidgetpath}/Configuration/#showSelectionControls) option is enabled. Otherwise, the 'all' mode works as 'multiple'.
 
- 
+ When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ListSelectionMode` enum. This enum accepts the following values: `Single`, `Multiple`, `All` and `None`.
+
+#####See Also#####
+- [List - Selection - User Interaction](/Documentation/Guide/Widgets/List/Selection/#User_Interaction)
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Gauge subtitle options<!--/d-->
 <!--dep-->..\..\..\BaseWidget\1 Configuration\title\subtitle\subtitle.md<!--/dep-->
 ===========================================================================
 <!--type-->object | string<!--/type-->

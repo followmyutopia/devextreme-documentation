@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_1/DataLayer/Grouping/Step7/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/16_2/DataLayer/Grouping/Step7/markup.html" data-show-first="script.js">
 
 You can specify a grouping criterion as a function. The items are grouped by the value returned by this function called for each item.
 

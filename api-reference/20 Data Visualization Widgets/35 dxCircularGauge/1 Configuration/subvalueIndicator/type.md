@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Type of subvalue indicator<!--/d-->
 ===========================================================================
 <!--default-->'triangleMarker'<!--/default-->
 <!--acceptValues-->'rectangleNeedle' | 'triangleNeedle' | 'twoColorNeedle' | 'rangeBar' | 'triangleMarker' | 'textCloud'<!--/acceptValues-->

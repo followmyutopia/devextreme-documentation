@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Encapsulates all required logic for accessing one OData sevice (ref to odata.org). All configuration options are also passed to inner stores.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_odata_context">data/odata/context</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_odata_context">data/odata/context</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js

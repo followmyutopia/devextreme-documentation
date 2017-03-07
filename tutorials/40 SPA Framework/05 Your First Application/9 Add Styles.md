@@ -1,3 +1,3 @@
-<article data-show="/Content/Applications/16_1/framework/YourFirstApplication/step8/YourFirstApplication.html">
+<article data-show="/Content/Applications/16_2/framework/YourFirstApplication/step8/YourFirstApplication.html">
 Finally, apply styles to the application. For this purpose, create the *styles.css* style sheet and add an appropriate reference to the application.
 </article>

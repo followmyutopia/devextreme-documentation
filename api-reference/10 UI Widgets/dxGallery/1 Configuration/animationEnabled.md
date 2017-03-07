@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Allow to enable or disable selected index change animation.<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

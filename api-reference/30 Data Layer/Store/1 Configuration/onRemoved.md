@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Convenience way to specify a single removed callback<!--/d-->
 <!--EventForAction-->..\4 Events\removed.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->A key value of the removed item.<!--/fp1d-->
 ===========================================================================
 
 <!--shortDescription-->

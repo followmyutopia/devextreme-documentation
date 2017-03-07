@@ -32,7 +32,7 @@ According to the code above, the following layouts will be used for different de
 	*Phone*, *Root views*: [Pivot](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Pivot_Layout) layout;  
 	*Phone*, *Non-root views*: Simple layout.
 
-As you can see, the layouts used for phone application versions include a widget that serves as a global navigation control (the [NavBar](/Documentation/ApiReference/UI_Widgets/dxNavBar/) and [Pivot](/Documentation/ApiReference/UI_Widgets/dxPivot/) widgets). So when the application starts on a phone, the "navigation" view, which you set as a start view for the application, should be replaced with the "categories" view. So modify code in the *app.js* file as shown below.
+As you can see, the layouts used for phone application versions include a widget that serves as a global navigation control (the [dxNavbar](/Documentation/ApiReference/UI_Widgets/dxNavBar/) and [Pivot](/Documentation/ApiReference/UI_Widgets/dxPivot/) widgets). So when the application starts on a phone, the "navigation" view, which you set as a start view for the application, should be replaced with the "categories" view. So modify code in the *app.js* file as shown below.
 
 	<!--JavaScript-->window.MyApp = window.MyApp || {};
 	$(function () {

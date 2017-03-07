@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Boolean value specifying whether or not virtual mode data source rendering is enabled.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -21,5 +20,8 @@ If the option is set to *true*, the widget initially loads only root items. Chil
 
 Use this option to improve the widget performance when working with a huge data source.
 
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/VirtualMode/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
+#####See Also#####
+- [createChildren](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#createChildren) - allows you to load nodes manually.
 <!--/fullDescription-->

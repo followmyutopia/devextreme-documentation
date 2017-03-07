@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns number of data items available in data store for last load operation without paging. The value is available only if Store supports it and requireTotalCount option of previously performed request was set to true. Otherwise -1.
-<!--/d-->
-<!--rd-->Total count of data items<!--/rd-->
 ===================================================================
 ===================================================================
 

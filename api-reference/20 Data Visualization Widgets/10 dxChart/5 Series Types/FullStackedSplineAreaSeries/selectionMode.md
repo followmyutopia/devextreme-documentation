@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Area selection mode<!--/d-->
 ===========================================================================
 <!--default-->'includePoints'<!--/default-->
 <!--acceptValues-->'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
@@ -20,12 +19,31 @@ Specifies series elements to be highlighted when a user selects a series.
 
 When a user selects a series, it may react in one of the following ways depending on the value of the **selectionMode** option.
 
-* **includePoints**   
-The series changes its style. If series points are [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedSplineAreaSeries/point/#visible), all of them also change their style.
-* **excludePoints**   
-Only the series changes its style.
-* **none**   
-The series does not react tin any way.
+<div class="simple-table">
+    <table>
+        <thead>
+            <tr>
+                <th>selectionMode</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><i>"includePoints"</i></td>
+                <td><img src="/Content/images/doc/16_2/ChartJS/hoverMode/series/fullstackedsplinearea/includePoints.png" /></td>
+            </tr>
+            <tr>
+                <td><i>"excludePoints"</i></td>
+                <td><img src="/Content/images/doc/16_2/ChartJS/hoverMode/series/fullstackedsplinearea/excludePoints.png" /></td>
+            </tr>
+            <tr>
+                <td><i>"none"</i></td>
+                <td><img src="/Content/images/doc/16_2/ChartJS/hoverMode/series/fullstackedsplinearea/none.png" /></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div style="height:5px"></div>
 
 [note]Points in full-stacked spline area series are hidden by default. To make them visible, assign *true* to the **point** | **visible** option.
 

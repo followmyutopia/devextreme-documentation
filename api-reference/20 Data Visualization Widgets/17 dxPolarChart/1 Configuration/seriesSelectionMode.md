@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common seriesSelectionMode<!--/d-->
 ===========================================================================
 <!--default-->'single'<!--/default-->
 <!--acceptValues-->'single' | 'multiple'<!--/acceptValues-->
@@ -18,5 +17,7 @@ Specifies whether a single series or multiple series can be selected in the char
 <!--fullDescription-->
 To set the series elements to highlight when a series is selected, set the series [selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/#selectionMode) option.
 
-To learn how to select a point, refer to the [Selection Handling](/Documentation/Guide/Data_Visualization/Charts/End-User_Interaction/#Selection_Handling) topic.
+To learn how to select a point, refer to the [Selection Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Selection_Handling) topic.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ChartElementSelectionMode` enum. This enum accepts the following values: `Single` and `Multiple`.
 <!--/fullDescription-->

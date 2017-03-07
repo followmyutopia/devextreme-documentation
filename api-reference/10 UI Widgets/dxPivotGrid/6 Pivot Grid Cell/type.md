@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->type of cell. Only for cells in the row or column area.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--acceptValues-->'D' | 'T' | 'GT'<!--/acceptValues-->

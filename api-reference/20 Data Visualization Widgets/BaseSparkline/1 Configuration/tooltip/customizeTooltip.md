@@ -4,13 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tooltip custom format and color function. Return object  {color: string; text:string}<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->
 <!--type-->function(pointsInfo)<!--/type-->
-<!--fp1d-->Defines different types of values indicated by a sparkline.<!--/fp1d-->
-<!--frd-->Specifies the text to be displayed in a tooltip and a color for the tooltip.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

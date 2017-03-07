@@ -4,19 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when an cell is clicked. 'cellElement' argument specifies the clicked cell element. 'cellData' argument specifies the clicked cell data.<!--/d-->
 <!--EventForAction-->..\4 Events\cellClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function | string<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns an object representing the cell<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns an HTML element representing the cell<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns a jQuery event that caused the action's execution<!--/fp1_field6d-->
-<!--fp1_field7d-->A flag allowing you to prevent the default behavior<!--/fp1_field7d-->
 ===========================================================================
 
 <!--shortDescription-->

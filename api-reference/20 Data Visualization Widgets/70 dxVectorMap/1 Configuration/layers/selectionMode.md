@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Selection mode<!--/d-->
 ===========================================================================
 <!--default-->'single'<!--/default-->
 <!--acceptValues-->'single' | 'multiple' | 'none'<!--/acceptValues-->
@@ -27,4 +26,6 @@ At runtime, you can do the following operations.
 - Deselect all the selected layer elements using the [clearSelection()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/Methods/#clearSelection) method of the map layer.
 
 The change of the selection state invokes the callback function assigned to the [onSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onSelectionChanged) option. Within this function, you can handle the selection event in the manner you require.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `SelectionMode` enum. This enum accepts the following values: `None`, `Single` and `Multiple`.
 <!--/fullDescription-->

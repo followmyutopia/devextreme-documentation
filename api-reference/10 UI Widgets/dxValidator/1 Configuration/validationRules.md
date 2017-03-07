@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Array of rules which value should satisfy<!--/d-->
 ===========================================================================
 <!--type-->array<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-An array of validation rules to be checked for the editor with which the dxValidator object is associated.
+An array of validation rules to be checked for the editor with which the **dxValidator** object is associated.
 <!--/shortDescription-->
 
 <!--fullDescription-->

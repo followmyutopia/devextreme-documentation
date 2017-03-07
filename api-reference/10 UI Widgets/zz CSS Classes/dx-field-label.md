@@ -10,6 +10,16 @@ A class used to display a field name within the [dx-field](/Documentation/ApiRef
     </div>
 
 The **dx-field-label** element can hold plain text, UI widgets, knockout bindings or custom markup.
+
+[note]The `dx-field-label` and `dx-field-value` classes are designed to have the label always be before the value. If you need to swap them around, override the `float` CSS property of these classes in the following way.
+
+    <!--CSS-->
+    .dx-field-label {
+        float: right;
+    }
+    .dx-field-value {
+        float: left;
+    }
 <!--/fullDescription-->
 
 <!--handmade-->

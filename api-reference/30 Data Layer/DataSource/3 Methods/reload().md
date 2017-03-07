@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Restores DataSource to non-loaded state and calls the load method with existing load options.
-<!--/d-->
-<!--rd-->A Promise of jQuery Deferred object which is resolved when load in complete and rejected if load fails<!--/rd-->
 ===================================================================
 ===================================================================
 

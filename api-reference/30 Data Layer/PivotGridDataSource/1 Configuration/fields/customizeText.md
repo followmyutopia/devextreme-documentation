@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Text of cells in column custom format function<!--/d-->
 ===========================================================================
 <!--type-->function(cellInfo)<!--/type-->
-<!--fp1d-->The value of a cell.<!--/fp1d-->
-<!--fp1_field1d-->This value as it is specified in the data source.<!--/fp1_field1d-->
-<!--fp1_field2d-->This value with applied format and precision.<!--/fp1_field2d-->
-<!--frd-->The text to be displayed in a cell.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

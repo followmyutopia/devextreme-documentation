@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies tooltip show mode.<!--/d-->
 ===========================================================================
 <!--default-->'onHover'<!--/default-->
 <!--acceptValues-->'onHover' | 'always'<!--/acceptValues-->
@@ -16,5 +15,5 @@ Specifies whether the widget always shows a tooltip or only when a pointer is ov
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `SliderTooltipShowMode` enum. This enum accepts the following values: `OnHover` and `Always`.
 <!--/fullDescription-->

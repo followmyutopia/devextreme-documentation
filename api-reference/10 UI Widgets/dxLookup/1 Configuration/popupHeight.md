@@ -4,14 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->The widget's popup height.<!--/d-->
 ===========================================================================
 <!--default-->function() { return $(window).height() * 0.8 }<!--/default-->
 <!--custom_default_for_android_below_version_4-->'auto'<!--/custom_default_for_android_below_version_4-->
 <!--custom_default_for_desktop-->'auto'<!--/custom_default_for_desktop-->
 <!--custom_default_for_iPad-->'auto'<!--/custom_default_for_iPad-->
 <!--type-->number | string | function<!--/type-->
-<!--frd-->The widget's popup height.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

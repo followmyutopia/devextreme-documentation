@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Labels font family<!--/d-->
 ===========================================================================
 <!--default-->''Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana'<!--/default-->
 <!--type-->string<!--/type-->

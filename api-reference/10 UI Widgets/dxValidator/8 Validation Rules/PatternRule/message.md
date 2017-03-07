@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Message which is shown if rule is broken; default message can also include dxValidator name<!--/d-->
 ===========================================================================
 <!--default-->'Value does not match pattern'<!--/default-->
 <!--type-->string<!--/type-->

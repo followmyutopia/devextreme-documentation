@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines whether the command corresponding widget should be visible or not.<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->bool<!--/type-->

@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common label options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-An object defining the [label](/Documentation/Guide/Data_Visualization/Charts/PolarChart_Elements/#Series_Point_Labels) configuration options.
+An object defining the [label](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Series_Point_Labels) configuration options.
 <!--/shortDescription-->
 
 <!--fullDescription-->

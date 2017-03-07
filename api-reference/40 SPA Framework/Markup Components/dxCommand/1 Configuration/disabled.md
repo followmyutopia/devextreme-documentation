@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines whether the command corresponding widget should be disabled or not.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->bool<!--/type-->

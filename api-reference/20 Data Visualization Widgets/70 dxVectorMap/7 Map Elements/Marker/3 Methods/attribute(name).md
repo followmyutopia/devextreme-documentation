@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns value of an attribute (field of **attr** object within data source item)
-<!--/d-->
-<!--p1d-->Attribute name<!--/p1d-->
-<!--rd-->Attribute value<!--/rd-->
 <!--dep-->..\..\Layer Element\3 Methods\attribute(name_value).md<!--/dep-->
 ===================================================================
 ===================================================================

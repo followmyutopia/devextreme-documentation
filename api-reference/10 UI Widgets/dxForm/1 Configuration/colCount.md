@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Col count for root or nested group and tab item<!--/d-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--acceptValues-->'auto'<!--/acceptValues-->
@@ -16,5 +15,5 @@ The count of columns in the form layout.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option using the `Mode` enum, which accepts the value `Auto`.
 <!--/fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Closed series<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\AreaSeries\AreaSeries.md,..\LineSeries\LineSeries.md<!--/propertyOf-->
 <!--default-->true<!--/default-->

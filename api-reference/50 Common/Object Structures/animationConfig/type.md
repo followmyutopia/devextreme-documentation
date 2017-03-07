@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A string value specfying the animation type.<!--/d-->
 ===========================================================================
 <!--default-->'custom'<!--/default-->
 <!--acceptValues-->'fade' | 'fadeIn' | 'fadeOut' | 'pop' | 'slide' | 'slideIn' | 'slideOut' | 'css'<!--/acceptValues-->
@@ -54,4 +53,6 @@ The type options can take on the following values.
 		.fade-out-active { opacity: 0; }
 
 If the **type** option is set to "slideIn" or "slideOut", specify the sliding direction using the **direction** option.
+
+When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `AnimationType` enum. This enum accepts the following values: `Css`, `Fade`, `FadeIn`, `FadeOut`, `Pop`, `Slide`, `SlideIn` and `SlideOut`.
 <!--/fullDescription-->

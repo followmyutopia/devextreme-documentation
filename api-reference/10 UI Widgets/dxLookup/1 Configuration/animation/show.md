@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The lookup showing animation options<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->animationConfig<!--/type-->

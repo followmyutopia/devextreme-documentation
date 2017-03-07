@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Check expanded state of row by key
-<!--/d-->
-<!--p1d-->Key of the row<!--/p1d-->
-<!--rd-->A Boolean value specifying whether row is expanded<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -28,5 +23,5 @@ The key of the group or master row.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-To find out whether a [group row](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Group_Rows) is expanded, call this method with an array, in which each member is a grouping value. To find out if a [master row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/) is expanded, pass its key to this method.
+To find out whether a [group row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) is expanded, call this method with an array, in which each member is a grouping value. To find out if a [master row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/) is expanded, pass its key to this method.
 <!--/fullDescription-->

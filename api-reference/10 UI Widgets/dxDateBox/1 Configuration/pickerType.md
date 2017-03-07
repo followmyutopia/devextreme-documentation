@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A string specifying picker type<!--/d-->
 ===========================================================================
 <!--default-->'native'<!--/default-->
 <!--custom_default_for_android_below_version_4-->'rollers'<!--/custom_default_for_android_below_version_4-->
@@ -35,5 +34,5 @@ This option accepts the following values.
 - "list"  
  The widget uses the list of time values to pick the time. This value applies only when the [type](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#type) option is set to "time".
 
- 
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `DateBoxPickerType` enum. This enum accepts the following values: `Native`, `Calendar`, `Rollers` and `List`.
 <!--/fullDescription-->

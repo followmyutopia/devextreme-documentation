@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The time in milliseconds specifies how long to show the toast.<!--/d-->
 ===========================================================================
 <!--default-->2000<!--/default-->
 <!--type-->number<!--/type-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->set display mode<!--/d-->
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'auto' | 'low' | 'high' | 'none'<!--/acceptValues-->
@@ -46,4 +45,6 @@ This option accepts the following values.
         </tbody>
     </table>
 </div>
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ValueErrorBarDisplayMode` enum. This enum accepts the following values: `Auto`, `Low`, `High` and `None`.
 <!--/fullDescription-->

@@ -4,13 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Calculates custom aggregate/summary.
-<!--/d-->
-<!--p1d-->initial value<!--/p1d-->
-<!--p2d-->function invoked for every item. accepts arguments: accumulator and current item<!--/p2d-->
-<!--p3d-->function invoked after all items processed. accepts single arguments: accumulator. Optional argument.<!--/p3d-->
-<!--rd-->Promise of jQuery.Deferred. Resolves with aggregate value or rejects with an Error object<!--/rd-->
 ===================================================================
 ===================================================================
 

@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Bag of [entityName] -> [ODataStore config] pairs. Based on this object, inner ODataStore's are created. (Victor, here are plenty of details, ask me pls)<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the list of entities to be accessed via the ODataContext.
+Specifies the list of entities to be accessed with the ODataContext.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Min bar size<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\StackedBarSeries\StackedBarSeries.md,..\BarSeries\BarSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->

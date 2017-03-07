@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sets emulation device information.
-<!--/d-->
-<!--p1d-->A device name or config to set. The following device name values are accepted: 'genericPhone', 'iPhone', 'iPhone5', 'iPhone6', 'iPhone6plus', 'iPad', 'iPadMini', 'androidPhone', 'androidTablet', 'win8', 'win8Phone', 'msSurface', 'desktop', 'win10Phone', 'win10'. Using config possible to override any fields of defaultDevice: { deviceType: '', platform: '', version: [], phone: false, tablet: false, android: false, ios: false, win: false, generic: false }<!--/p1d-->
 ===================================================================
 ===================================================================
 

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Color of sliderMarker then slider move to position with invalid selected range<!--/d-->
 ===========================================================================
 <!--default-->'red'<!--/default-->
 <!--type-->string<!--/type-->

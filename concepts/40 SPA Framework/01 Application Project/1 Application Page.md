@@ -6,7 +6,7 @@ According to the DevExtreme application template, an application page includes l
             <meta charset="utf-8" />
             <!-- Styles should be linked here-->
             <!-- Scripts -->
-            <script type="text/javascript" src="/js/jquery-2.2.3.min.js"></script>
+            <script type="text/javascript" src="/js/jquery-3.1.0.min.js"></script>
             <script type="text/javascript" src="/js/knockout-3.4.0.js"></script>
             <script type="text/javascript" src="/js/dx.mobile.js"></script>
             <!-- Layouts should be linked here -->

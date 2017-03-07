@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sorts this query with direction. Ref to getter/setter syntax. Chain function.
-<!--/d-->
-<!--p1d-->expression to sort by<!--/p1d-->
-<!--p2d-->descending if true<!--/p2d-->
-<!--rd-->this query<!--/rd-->
 ===================================================================
 ===================================================================
 

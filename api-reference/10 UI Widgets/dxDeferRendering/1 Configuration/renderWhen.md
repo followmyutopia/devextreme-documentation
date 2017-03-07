@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies a jQuery.Promise or a boolean value that controls the child content rendering<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Promise | bool<!--/type-->

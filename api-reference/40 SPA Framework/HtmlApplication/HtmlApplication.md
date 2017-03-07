@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->object controling application life cycle. Also contains referense to other application related service objects (routing, viewEngine, LayoutManager)<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_html_html_application">framework/html/html_application</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_html_html_application">framework/html/html_application</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--inherits-->..\..\10 UI Widgets\EventsMixin\EventsMixin.md<!--/inherits-->
 <!--lib-->

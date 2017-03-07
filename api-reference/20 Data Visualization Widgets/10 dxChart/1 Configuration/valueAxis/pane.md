@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Value axis pane<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Binds the value axis to a [pane](/Documentation/Guide/Data_Visualization/Charts/Chart_Elements/#Panes).
+Binds the value axis to a [pane](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Panes).
 <!--/shortDescription-->
 
 <!--fullDescription-->

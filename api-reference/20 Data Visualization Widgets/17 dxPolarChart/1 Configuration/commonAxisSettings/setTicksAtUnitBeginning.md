@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Sets ticks at unit beginning<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -46,6 +45,6 @@ This property is used when a continuous axis of the 'date-time' value type is di
 </table>
 </div>
 
-The values that will be generated for the axis can be formatted using the **format** property (see [Data Formatting](/Documentation/Guide/Data_Visualization/Common/Data_Formatting/)).
+The values that will be generated for the axis can be formatted using the **format** property (see [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/)).
 
 <!--/fullDescription-->

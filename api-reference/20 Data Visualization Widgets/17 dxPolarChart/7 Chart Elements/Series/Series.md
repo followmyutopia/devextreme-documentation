@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->polar series object<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 <!--inherits-->..\..\..\BaseChart\7 Chart Elements\Series\Series.md<!--/inherits-->

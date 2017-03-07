@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The event for handling when the dragged data is dropped on the element.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_drag">events/drag</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_drag">events/drag</a><!--/module-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A jQuery event object.<!--/fp1d-->
-<!--fp1_field1d-->Element on which performed the drag gesture.<!--/fp1_field1d-->
 ===========================================================================
 
 <!--shortDescription-->

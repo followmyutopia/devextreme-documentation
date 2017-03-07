@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Target visible<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -16,5 +15,5 @@ Specifies whether or not to show the target line.
 
 <!--fullDescription-->
 #####See Also#####
-- [Bullet - Target Line](/Documentation/Guide/Data_Visualization/Charts/Bullet_Elements/#Target_Line)
+- [Bullet - Target Line](/Documentation/Guide/Widgets/Bullet/Visual_Elements/#Target_Line)
 <!--/fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The value of 'mode' attribute of the HTML input element.<!--/d-->
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--custom_default_for_mobile_devices-->'number'<!--/custom_default_for_mobile_devices-->
@@ -17,5 +16,5 @@ Specifies the value to be passed to the [type](http://www.w3schools.com/tags/att
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `NumberBoxMode` enum. This enum accepts the following values: `Text` and `Number`.
 <!--/fullDescription-->

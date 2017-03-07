@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common area options<!--/d-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->object<!--/type-->
@@ -16,7 +15,7 @@ An object defining a series of the **area** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![AreaSeriesType ChartJS](/Content/images/doc/16_1/ChartJS/PolarArea.png)
+![AreaSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/PolarArea.png)
 
-For details on the area series type, refer to the [Area](/Documentation/Guide/Data_Visualization/Charts/PolarChart_Series_Types/#Area) topic.
+For details on the area series type, refer to the [Area](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Area) topic.
 <!--/fullDescription-->

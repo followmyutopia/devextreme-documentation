@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Starts query execution. Async function.
-<!--/d-->
-<!--rd-->Promise of jQuery.Deferred which resolves with an array of data item or rejects with a Error object<!--/rd-->
 ===================================================================
 ===================================================================
 

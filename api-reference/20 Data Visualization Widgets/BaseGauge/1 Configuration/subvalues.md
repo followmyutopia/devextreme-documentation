@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Values of the subvalue indicators<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

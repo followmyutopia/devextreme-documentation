@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Actual bullet value<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->0<!--/default-->
@@ -17,5 +16,5 @@ Specifies the primary value indicated by the bullet bar.
 
 <!--fullDescription-->
 #####See Also#####
-- [Bullet - Bullet Bar](/Documentation/Guide/Data_Visualization/Charts/Bullet_Elements/#Bullet_Bar)
+- [Bullet - Bullet Bar](/Documentation/Guide/Widgets/Bullet/Visual_Elements/#Bullet_Bar)
 <!--/fullDescription-->

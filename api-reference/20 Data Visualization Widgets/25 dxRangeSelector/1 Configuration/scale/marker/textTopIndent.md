@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Top indent of Scale marker text from marker line<!--/d-->
 ===========================================================================
 <!--default-->11<!--/default-->
 <!--type-->number<!--/type-->
@@ -15,5 +14,5 @@ Specifies the space between the marker's label and the top edge of the marker's 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![RangeSelectorScaleMarkerTextTopIndent ChartJS](/Content/images/doc/16_1/ChartJS/RangeSelectorScaleMarkerTextTopIndent.png)
+![RangeSelectorScaleMarkerTextTopIndent ChartJS](/Content/images/doc/16_2/ChartJS/RangeSelectorScaleMarkerTextTopIndent.png)
 <!--/fullDescription-->

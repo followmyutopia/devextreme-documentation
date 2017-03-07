@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->(optional) Specifies the opacity of the line displaying the route.<!--/d-->
 ===========================================================================
 <!--default-->0.5<!--/default-->
 <!--type-->number<!--/type-->

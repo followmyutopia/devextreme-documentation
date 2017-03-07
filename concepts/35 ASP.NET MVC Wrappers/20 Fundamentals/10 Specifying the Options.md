@@ -27,7 +27,7 @@ DevExtreme ASP.NET MVC Wrappers mirror the [options of the client-side widgets](
 
 Wrapper methods are called using a [fluent interface](https://en.wikipedia.org/wiki/Fluent_interface). In Visual Studio, IntelliSense prompts you the names of available methods, their accepted values and short descriptions.
 
-![DevExtreme HTML5 ASPNET MVCWrappers](/Content/images/doc/16_1/Common/MvcWrappers/fluent-interface.png)
+![DevExtreme HTML5 ASPNET MVCWrappers](/Content/images/doc/16_2/Common/MvcWrappers/fluent-interface.png)
 
 To specify a simple widget option, call the corresponding wrapper method and pass the required option value.
 
@@ -66,10 +66,10 @@ Options that represent collections of items are configured using lambda expressi
         })
     )
 
-Options that accept a predefined set of values are specified by .NET enums.
+Options that accept a predefined set of values are specified by .NET enums. Refer to the description of a particular option to learn if this option accepts a enum. 
 
     @(Html.DevExtreme().DateBox()
-        .Format(DateBoxFormat.Datetime) // sets the format using the DateBoxFormat .NET enum
+        .Type(DateBoxType.DateTime) // sets the type using the DateBoxType .NET enum
     )
     
-More examples on each case are available in our [sample application](/Documentation/Guide/ASP.NET_MVC_Wrappers/Overview/#Sample_Application).
+More examples on each case are available in our [technical demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/AjaxRequest/Mvc/Light/) and [sample applications](/Documentation/Guide/ASP.NET_MVC_Wrappers/Prerequisites_and_Installation/#Sample_Applications).

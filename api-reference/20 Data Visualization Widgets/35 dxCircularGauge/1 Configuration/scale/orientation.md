@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Alignment of scale ticks on circular gauge<!--/d-->
 ===========================================================================
 <!--default-->'outside'<!--/default-->
 <!--acceptValues-->'outside' | 'center' | 'inside'<!--/acceptValues-->
@@ -17,4 +16,6 @@ Specifies the orientation of scale ticks.
 
 <!--fullDescription-->
 This property specifies the orientation of scale ticks relative to an invisible scale line.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `CircularGaugeElementOrientation` enum. This enum accepts the following values: `Outside`, `Inside` and `Center`.
 <!--/fullDescription-->

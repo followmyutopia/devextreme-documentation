@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Scrolls list to specified item.
-<!--/d-->
-<!--p1d-->An item element node to scroll to.<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -22,5 +18,6 @@ The target element node.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Scrolling API](/Documentation/Guide/Widgets/List/Scrolling/#API)
 <!--/fullDescription-->

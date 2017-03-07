@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->PivotGrid Field Chooser widget.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_pivot_grid_field_chooser">ui/pivot_grid_field_chooser</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_pivot_grid_field_chooser">ui/pivot_grid_field_chooser</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
@@ -14,45 +14,75 @@ dx.web.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-A complementary widget for [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) that allows you to manage data displayed in the **PivotGrid**.
+A complementary widget for the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) that allows you to manage data displayed in the **PivotGrid**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The field chooser is already integrated in **PivotGrid** and can be invoked using the context menu. If you need to continuously display the field chooser near the **PivotGrid** widget, use the **PivotGridFieldChooser** widget.
-
+The field chooser is already integrated in the **PivotGrid** and can be invoked using the context menu. If you need to continuously display the field chooser near the **PivotGrid** widget, use the **PivotGridFieldChooser** widget.
 
 You can add the **PivotGridFieldChooser** widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxPivotGridFieldChooser` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="fieldChooserContainer"></div>
-		<div id="pivotGridContainer"></div>
+        <!--HTML--><div id="fieldChooser"></div>
+		<div id="pivotGrid"></div>
 
     <!---->
 
-        <!--JavaScript-->$('#fieldChooserContainer').dxPivotGridFieldChooser({
-            dataSource: pivotGridDataSource
+        <!--JavaScript-->var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+            // ...
         });
-- **Knockout**  
- Add a div element and apply the `dxPivotGridFieldChooser` binding to this element.
+        $(function () {
+            $("#fieldChooser").dxPivotGridFieldChooser({
+                dataSource: pivotGridDataSource
+            });
+            $("#pivotGrid").dxPivotGrid({
+                dataSource: pivotGridDataSource
+            });
+        });
+
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+        <!--HTML--><div ng-controller="DemoController">
+            <div dx-pivot-grid-field-chooser="{
+                dataSource: pivotGridDataSource
+            }"></div>
+            <div dx-pivot-grid="{
+                dataSource: pivotGridDataSource
+            }"></div>
+        </div>
+
+    <!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller("DemoController", function ($scope) {
+                $scope.pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+                    // ...   
+                });
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
-        <div data-bind="dxPivotGridFieldChooser: { dataSource: pivotGridDataSource }"></div>
+        <div data-bind="dxPivotGridFieldChooser: {
+            dataSource: pivotGridDataSource
+        }"></div>
+        <div data-bind="dxPivotGrid: {
+            dataSource: pivotGridDataSource  
+        }"></div>
 
-- **AngularJS**  
- Add a div element and apply the `dx-pivot-grid-field-chooser` directive to this element.
+    <!---->
 
-        <!--HTML-->
-        <div dx-pivot-grid-field-chooser="{ dataSource: pivotGridDataSource }"></div>
+        <!--JavaScript-->var viewModel = {
+            pivotGridDataSource: new DevExpress.data.PivotGridDataSource({
+                // ...
+            })
+        };
+        ko.applyBindings(viewModel);
 
-The pivot grid data source can be acquired from **PivotGrid** using the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#getDataSource) method as shown below.
+Both the **PivotGridFieldChooser** and the **PivotGrid** must be bound to one and the same instance of the [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/). Create the **PivotGridDataSource** individually and then assign it to both widgets as shown in the code above.
 
-	<!--JavaScript-->var pivotGridDataSource = $('#pivotGridContainer').dxPivotGrid('instance').getDataSource();
-
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
-
-To provide data for the **PivotGridFieldChooser** widget, specify the same dataSource as its **PivotGrid** has. The easiest way is to get the data source from the **PivotGrid** widget and assign it to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Configuration/#dataSource) field.
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridpivotgridpivotgridfieldchooser" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

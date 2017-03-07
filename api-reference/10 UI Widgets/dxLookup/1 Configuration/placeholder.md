@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A hint displayed by the widget when no value is selected.<!--/d-->
 ===========================================================================
 <!--default-->'Select'<!--/default-->
 <!--type-->string<!--/type-->

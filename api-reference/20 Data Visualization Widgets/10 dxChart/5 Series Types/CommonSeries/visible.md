@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common series visible<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -15,7 +14,7 @@ Specifies whether the series is visible or not.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]When the series is invisible, the marker of its [legend item](/Documentation/Guide/Data_Visualization/Charts/Chart_Elements/#Legend) is faded.
+[note]When the series is invisible, the marker of its [legend item](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Legend) is faded.
 
 #####See Also#####
 - **Series** | [show()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#show) - shows the series at runtime.

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->allows you to choose one of the predefined summary display modes.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'absoluteVariation' | 'percentVariation' | 'percentOfColumnTotal' | 'percentOfRowTotal' | 'percentOfColumnGrandTotal' | 'percentOfRowGrandTotal' | 'percentOfGrandTotal'<!--/acceptValues-->
@@ -41,5 +40,9 @@ This option allows you to set up additional calculations on summary values (calc
 - *"percentOfGrandTotal"*		
 	Calculates the relative difference between the current value and the grand total value of the entire pivot grid assuming the latter is 100%.
 
-You can allow the user to change the summary display mode at runtime. Learn how to implement this capability from the [Runtime Summary Type Selection](/Documentation/Guide/UI_Widgets/Pivot_Grid/Summaries/#Runtime_Summary_Type_Selection) topic.
+You can allow the user to change the summary display mode at runtime. Learn how to implement this capability from the [Runtime Summary Type Selection](/Documentation/Guide/Widgets/PivotGrid/Summaries/#Runtime_Summary_Type_Selection) topic.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PivotGridSummaryDisplayMode` enum. This enum accepts the following values: `AbsoluteVariation`, `PercentVariation`, `PercentOfColumnTotal`, `PercentOfRowTotal`, `PercentOfColumnGrandTotal`, `PercentOfRowGrandTotal` and `PercentOfGrandTotal`.
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Pivot_Grid/SummaryDisplayModes/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

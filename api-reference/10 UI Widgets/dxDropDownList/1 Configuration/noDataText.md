@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The text displayed when search has no result.<!--/d-->
 ===========================================================================
 <!--default-->'No data to display'<!--/default-->
 <!--type-->string<!--/type-->

@@ -4,14 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Creates alert dialog. With 'OK' button.
-<!--/d-->
-<!--p1d-->Specifies the dialog message<!--/p1d-->
-<!--p2d-->Specifies the dialog title<!--/p2d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when dialog is hiding.<!--/rd-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_dialog">ui/dialog</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_dialog">ui/dialog</a><!--/module-->
 <!--export-->alert<!--/export-->
 ===================================================================
 

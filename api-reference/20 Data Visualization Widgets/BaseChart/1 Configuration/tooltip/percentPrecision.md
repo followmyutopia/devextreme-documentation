@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tooltip format precision for point's percent (if any)<!--/d-->
-<!--dep-->Use 'format.percentPrecision' instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number<!--/type-->

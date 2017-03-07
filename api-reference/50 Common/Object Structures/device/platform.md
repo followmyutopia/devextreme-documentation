@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the platform of the device on which the application is running.<!--/d-->
 ===========================================================================
 <!--acceptValues-->'android' | 'ios' | 'win' | 'generic'<!--/acceptValues-->
 <!--type-->string<!--/type-->

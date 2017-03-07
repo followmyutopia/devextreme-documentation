@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Type of value indicator<!--/d-->
 ===========================================================================
 <!--default-->'rangeBar'<!--/default-->
 <!--acceptValues-->'rectangle' | 'circle' | 'rhombus' | 'rangeBar' | 'triangleMarker' | 'textCloud'<!--/acceptValues-->

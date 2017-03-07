@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/LearningCenter/Data-BoundApplication/step3-1/index.html">
+<article data-show="/Content/Applications/16_2/LearningCenter/Data-BoundApplication/step3-1/index.html">
   
 Use [dxAction](/Documentation/ApiReference/SPA_Framework/Markup_Components/#dxAction) binding to navigate to a view by clicking a list item. **dxAction** binding allows you to add the **click** handler to an HTML element.
 

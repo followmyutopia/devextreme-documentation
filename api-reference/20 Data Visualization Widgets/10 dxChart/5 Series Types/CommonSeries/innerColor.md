@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Candlestick inner color<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\CandleStickSeries\CandleStickSeries.md<!--/propertyOf-->
 <!--default-->'#ffffff'<!--/default-->

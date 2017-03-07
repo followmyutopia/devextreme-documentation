@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Axis constantLine options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -14,7 +13,7 @@ Configures the appearance of all constant lines in the widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts ConstantLines](/Content/images/doc/16_1/ChartJS/visual_elements/constant_lines.png)
+![DevExtreme HTML5 Charts ConstantLines](/Content/images/doc/16_2/ChartJS/visual_elements/constant_lines.png)
 
 The **commonAxisSettings** | **constantLineStyle** object, which is described here, specifies common settings for all constant lines in the chart. To configure only those constant lines that belong to a particular axis, use the following objects.
 

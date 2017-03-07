@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Data item markup options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -14,7 +13,7 @@ A markup component used to define markup options for a collection widget item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **dxItem** markup component is intended to introduce custom markup for each item of a [layout widget](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Layout_Widgets/). The template element should be contained in an element representing the required widget.
+The **dxItem** markup component is intended to introduce custom markup for each item of the [Box](/Documentation/ApiReference/UI_Widgets/dxBox/) and [ResponsiveBox](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/) widgets. The template element should be contained in an element representing the required widget.
 
     <!--HTML-->
     <div id="box">
@@ -36,7 +35,7 @@ The **dxItem** markup component is intended to introduce custom markup for each 
 
 <!---->
 
-#####AngularJS Approach#####
+#####AngularJS#####
 
     <!--HTML-->
     <div dx-box="{ }">
@@ -51,7 +50,7 @@ The **dxItem** markup component is intended to introduce custom markup for each 
         </div>
     </div>
 
-#####Knockout Approach#####
+#####Knockout#####
 
     <!--HTML-->
     <div data-bind="dxBox:{ }">
@@ -66,7 +65,7 @@ The **dxItem** markup component is intended to introduce custom markup for each 
         </div>
     </div>
 
-Even though the markup component is designed for layout widgets, you can use it with any [collection container widget](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/) to provide an individual markup for each widget item.
+Even though the markup component is designed for layout widgets, you can use it with any collection container widget to provide an individual markup for each widget item.
 
     <!--HTML-->
     <div id="myNavBar">
@@ -88,7 +87,7 @@ Even though the markup component is designed for layout widgets, you can use it 
 
 <!---->
 
-#####AngularJS Approach#####
+#####AngularJS#####
 
     <!--HTML-->
     <div dx-nav-bar="{ }">
@@ -104,7 +103,7 @@ Even though the markup component is designed for layout widgets, you can use it 
     </div>
 
 
-#####Knockout Approach#####
+#####Knockout#####
 
     <!--HTML-->
     <div data-bind="dxNavBar:{ }">

@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Calculates sum of items in current query.
-<!--/d-->
-<!--rd-->Promise of jQuery.Deferred. Resolves with summary value or rejects with an Error object<!--/rd-->
 ===================================================================
 ===================================================================
 

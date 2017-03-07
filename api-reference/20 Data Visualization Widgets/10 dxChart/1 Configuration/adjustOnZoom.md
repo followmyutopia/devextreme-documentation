@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Indicates whether to adjust axis on chart zoom<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -19,7 +18,7 @@ The **Chart** widget provides a [built-in zooming capability](/Documentation/Api
 
 [note]This option is not supported when the argument axis is [discrete](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#type).
 
-Besides the built-in zooming, you can zoom the **Chart** widget using the [RangeSelector](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/) widget. For details on this feature, see the [Zooming and Scrolling Using RangeSelector](/Documentation/Guide/Data_Visualization/Charts/End-User_Interaction/#Zooming_and_Scrolling/Using_dxRangeSelector) topic.
+Besides the built-in zooming, you can zoom the **Chart** widget using the [RangeSelector](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/) widget. For details on this feature, see the [Zooming and Scrolling Using RangeSelector](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Zooming_and_Scrolling/#Using_dxRangeSelector) topic.
 
 #####See Also#####
 - [zoomingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) - enables zooming in the chart.

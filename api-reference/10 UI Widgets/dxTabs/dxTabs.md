@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tabs widget.<!--/d-->
 <!--widgettree-->
 dataSource: [
     { text: "Home", icon: "home" },
@@ -12,7 +11,8 @@ dataSource: [
 ]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tabs">ui/tabs</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tabs">ui/tabs</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
@@ -20,14 +20,13 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-The **Tabs** is a tab strip used to switch between pages or views. This widget is included in the [TabPanel](/Documentation/ApiReference/UI_Widgets/dxTabPanel/) widget, but you can use the **Tabs** separately as well.
+The **Tabs** is a tab strip used to switch between pages or views. This widget is included in the [TabPanel](/Documentation/Guide/Widgets/TabPanel/Overview/) widget, but you can use the **Tabs** separately as well.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxTabs` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div id="tabs"></div>
@@ -35,33 +34,65 @@ You can create the widget using one of the following approaches.
     <!---->
 
         <!--JavaScript-->
-        var tabItems = [
-            { text: "Home", icon: "home" },
-            { text: "About", icon: "info" }
-        ]
-        $("#tabs").dxTabs({
-            dataSource: tabItems
+        var tabs = [
+            { text: "User", icon: "user" },
+            { text: "Comment", icon: "comment" },
+            { text: "Find", icon: "find", badge: "new" }
+        ];
+        $(function () {
+            $("#tabs").dxTabs({
+                items: tabs
+            });
         });
 
-- **Knockout**  
- Add a div element and apply the `dxTabs` binding to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+        <!--HTML--><div ng-controller="DemoController">
+            <div dx-tabs="{
+                items: tabs
+            }"></div>
+        /div>
+
+    <!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller("DemoController", function ($scope) {
+                $scope.tabs = [
+                    // ...   
+                ];
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div data-bind="dxTabs: {
-            dataSource: tabItems
+            items: tabs
         }"></div>
 
-- **AngularJS**  
- Add a div element and apply the `dx-tabs` directive to this element.
+    <!---->
 
-        <!--HTML-->
-        <div dx-tabs="{
-            dataSource: tabItems
-        }"></div>
+        <!--JavaScript-->var viewModel = {
+            tabs: [
+                // ...
+            ]
+        };
+        ko.applyBindings(viewModel);
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-Since the **Tabs** widget is used to display multiple items, it supports common the Collection Container widget functionality. You can find detailed information on the principles of working with the widget in the [dxTabs section](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#List_of_Collection_Container_Widgets/dxTabs) of the [Collection Container Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/) article.
+        @(Html.DevExtreme().Tabs()
+            .ID("tabs")
+            .Items(items => {
+                items.Add().Text("User").Icon("user");
+                items.Add().Text("Comment").Icon("comment");
+                items.Add().Text("Find").Icon("find").Badge("new");
+            })
+        )
+
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigationtabstabstabs/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+
+#####See Also#####
+- [Tabs - Overview](/Documentation/Guide/Widgets/Tabs/Overview/)
 <!--/fullDescription-->

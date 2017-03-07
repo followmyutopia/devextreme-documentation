@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines an expression returning 'disabled' field for a chosen item.<!--/d-->
 ===========================================================================
 <!--default-->'disabled'<!--/default-->
 <!--type-->string | function<!--/type-->

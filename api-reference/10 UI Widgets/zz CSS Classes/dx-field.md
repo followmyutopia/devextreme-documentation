@@ -21,7 +21,7 @@ DevExtreme UI widgets include [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) m
         </div>
     </div>
 
-#####AngularJS Approach#####
+#####AngularJS#####
 
     <!--HTML-->
     <div class="dx-field">
@@ -31,7 +31,7 @@ DevExtreme UI widgets include [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) m
         </div>
     </div>
 
-#####Knockout Approach#####
+#####Knockout#####
 
     <!--HTML-->
     <div class="dx-field">
@@ -41,8 +41,18 @@ DevExtreme UI widgets include [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) m
         </div>
     </div>
 
+[note]The `dx-field-label` and `dx-field-value` / `dx-field-value-static` classes are designed to have the label always be before the value. If you need to swap them around, override the `float` CSS property of these classes in the following way.
 
-
+    <!--CSS-->
+    .dx-field-label {
+        float: right;
+    }
+    .dx-field-value {
+        float: left;
+    }
+    .dx-field-value-static {
+        float: left;
+    }
 <!--/fullDescription-->
 
 <!--handmade-->

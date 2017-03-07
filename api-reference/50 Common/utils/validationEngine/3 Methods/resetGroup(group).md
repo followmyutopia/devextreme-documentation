@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Reset all validators which belongs to given Validation Group.
-<!--/d-->
-<!--p1d-->Key of validation group which should be reset.<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -29,9 +25,9 @@ A validation group's key can be represented in the following manner.
 - A **ValidationGroup** instance  
 	If it is not accessible in the current context in code, access it in the following manner.
 
-		<!--JavaScript-->$("#myGroup").dxValidationGroup("instance"))
+		<!--JavaScript-->$("#myGroup").dxValidationGroup("instance")
 
 - A string name  
-	When you use the jQuery approach for validation, a validation group is usually a string because it is the simplest way to unite several widgets in one group - by setting the same group name for the **validationGoup** configuration option of the associated dxValidator objects. In this and other similar cases, where you specify a validation group as a string, pass the validation group name as a parameter to the **validateGroup(group)** function.
+	When you use the jQuery approach for validation, a validation group is usually a string because it is the simplest way to unite several widgets in one group - by setting the same group name for the **validationGoup** configuration option of the associated **dxValidator** objects. In this and other similar cases, where you specify a validation group as a string, pass the validation group name as a parameter to the **validateGroup(group)** function.
 
 <!--/fullDescription-->

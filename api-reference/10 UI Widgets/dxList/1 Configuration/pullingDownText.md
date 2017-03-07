@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A text of pullDown panel showing while pulling list down to refresh threshold<!--/d-->
 ===========================================================================
 <!--default-->'Pull down to refresh...'<!--/default-->
 <!--type-->string<!--/type-->
@@ -15,5 +14,6 @@ Specifies the text shown in the pullDown panel while the list is being pulled do
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Localization](/Documentation/Guide/Widgets/List/Localization/)
 <!--/fullDescription-->

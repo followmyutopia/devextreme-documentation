@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Marker text<!--/d-->
-<!--dep-->Specify text as one of the attributes and reference it with the 'layers.label.dataField' option<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string<!--/type-->

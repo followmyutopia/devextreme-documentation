@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options for the rectangular needle of the Circular gauge<!--/d-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->object<!--/type-->
@@ -18,9 +17,9 @@ An object that defines a gauge indicator of the **rectangleNeedle** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![RectangleNeedle Gauge Value Indicator DevExtreme](/Content/images/doc/16_1/ChartJS/RectangleNeedleValueIndicator.png)
+![RectangleNeedle Gauge Value Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/RectangleNeedleValueIndicator.png)
 
 **Subvalue Indicator**
 
-![RectangleNeedle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_1/ChartJS/RectangleNeedleSubvalueIndicator.png)
+![RectangleNeedle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/RectangleNeedleSubvalueIndicator.png)
 <!--/fullDescription-->

@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_1/DataLayer/Paging/Step2/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/16_2/DataLayer/Paging/Step2/markup.html" data-show-first="script.js">
 
 Create a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance and assign it to the **dataSource** variable. Pass an object containing the [store](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#store) and [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) fields to the DataSource constructor to associate the DataSource instance with the required array and specify the count of items displayed on a single page. Assign "15" to the **pageSize** option to display 15 items per page. The **store** option should contain the **EMPLOYEES** array.
 </article>

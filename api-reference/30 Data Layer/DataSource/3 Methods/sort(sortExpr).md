@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sets sort expression. Ref to syntax. Does not reload automatically.
-<!--/d-->
-<!--p1d-->New sort expression<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -16,7 +12,7 @@ Sets the **sort** option value.
 <!--/shortDescription-->
 
 <!--paramName1-->sortExpr<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
 A sort expression.
 <!--/paramDescription1-->

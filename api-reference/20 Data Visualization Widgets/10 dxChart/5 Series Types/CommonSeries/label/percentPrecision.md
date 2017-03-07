@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Label format precision for point's percent value<!--/d-->
-<!--dep-->Use 'format.percentPrecision' instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--propertyOf-->..\..\FullStackedAreaSeries\FullStackedAreaSeries.md,..\..\FullStackedBarSeries\FullStackedBarSeries.md,..\..\FullStackedLineSeries\FullStackedLineSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->

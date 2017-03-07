@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Gets entire subtree
-<!--/d-->
-<!--rd-->All nodes<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -17,7 +13,7 @@ Returns all descendant nodes.
 
 <!--returnType-->array<!--/returnType-->
 <!--returnDescription-->
-Descendant nodes. Each member of this array has fields and methods described in the <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node">Node</a> section.
+Descendant nodes. Each member of this array has fields and methods described in the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node">Node</a> section.
 <!--/returnDescription-->
 
 <!--fullDescription-->

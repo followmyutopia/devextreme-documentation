@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Overlapping mode<!--/d-->
 ===========================================================================
 <!--default-->'enlargeTickInterval'<!--/default-->
 <!--acceptValues-->'ignore' | 'enlargeTickInterval'<!--/acceptValues-->
@@ -24,4 +23,6 @@ The following values are possible.
 Leave the labels overlapped.
 * **enlargeTickInterval**   
 Leave the labels as they are, but enlarge the axis tick intervals so that the labels do not overlap.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PolarChartOverlappingBehavior` enum. This enum accepts the following values: `EnlargeTickInterval` and `Ignore`.
 <!--/fullDescription-->

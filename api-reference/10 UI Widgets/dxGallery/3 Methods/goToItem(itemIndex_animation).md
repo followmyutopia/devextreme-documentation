@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Goes to specified gallery item.
-<!--/d-->
-<!--p1d-->An index of gallery item to display.<!--/p1d-->
-<!--p2d-->A Boolean indicating whether to perform animation during switching.<!--/p2d-->
-<!--rd-->A Promise of jQuery Deferred object that will be resolved when the gallery items changed.<!--/rd-->
 ===================================================================
 ===================================================================
 

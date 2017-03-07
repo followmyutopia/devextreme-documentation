@@ -4,9 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Holds key value converters for OData. Built-in are String, Int32, Int64 and Guid. To register custom: odata.keyConverters['MyType'] = function(value) { return 'url component for value'; }<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_odata_utils">data/odata/utils</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_odata_utils">data/odata/utils</a><!--/module-->
 <!--export-->keyConverters<!--/export-->
 <!--type-->object<!--/type-->
 ===========================================================================

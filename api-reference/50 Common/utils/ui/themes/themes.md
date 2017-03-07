@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->CSS Themes Namespace<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_themes">ui/themes</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_themes">ui/themes</a><!--/module-->
+<!--export-->default<!--/export-->
 ===========================================================================
 
 <!--shortDescription-->

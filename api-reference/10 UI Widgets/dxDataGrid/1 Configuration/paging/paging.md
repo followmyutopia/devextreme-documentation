@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options of paging<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -18,7 +17,7 @@ In **DataGrid**, records can be loaded either page by page or all at once. Needl
 
 When paging is on, you can specify the size of grid pages using the [pageSize](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#pageSize) option. Additionally, if you require displaying grid records starting with a certain page, assign its index to the [pageIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#pageIndex) option.
 
-A paginated grid can be navigated by a user at runtime. For this purpose, he or she can use a [pager](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Navigation/#Pager_Navigation) or [scrolling](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Navigation/#Scrolling).
+A paginated grid can be navigated by a user at runtime. For this purpose, he or she can use a [pager](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Pager_Navigation) or [scrolling](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Scrolling).
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridpagingandscrollingpager/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

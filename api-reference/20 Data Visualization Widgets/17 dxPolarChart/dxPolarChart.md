@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->An object representing the Charts widget.<!--/d-->
 <!--widgettree-->
 dataSource: [{
     arg: "Monday",
@@ -30,7 +29,8 @@ dataSource: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_polar_chart">viz/polar_chart</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_polar_chart">viz/polar_chart</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\BaseChart\BaseChart.md<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js
@@ -44,81 +44,117 @@ The **PolarChart** is a widget that visualizes data in a polar coordinate system
 <!--fullDescription-->
 The **PolarChart** widget visualizes data in a polar coordinate system. In this system, each point on a plane is determined by the distance from the center (the point's value) and the angle from a fixed direction (the point's argument). To understand how a chart is displayed in a polar coordinate system, imagine how it would be displayed in a rectangular coordinate system and then round off the argument axis in your mind.
 
-<img src="/Content/images/doc/16_1/ChartJS/PolarChart_rectangular.png" alt="DevExtreme HTML5 Charts DataVisualization" style="display:inline-block; vertical-align:bottom" />
-<img src="/Content/images/doc/16_1/ChartJS/PolarChart_polar.png" alt="DevExtreme HTML5 Charts PolarChart RadarChart DataVisualization" style="display:inline-block; vertical-align:bottom" />
+<img src="/Content/images/doc/16_2/ChartJS/PolarChart_rectangular.png" alt="DevExtreme HTML5 Charts DataVisualization" style="display:inline-block; vertical-align:bottom" />
+<img src="/Content/images/doc/16_2/ChartJS/PolarChart_polar.png" alt="DevExtreme HTML5 Charts PolarChart RadarChart DataVisualization" style="display:inline-block; vertical-align:bottom" />
 
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxPolarChart` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="chartContainer"></div>
+        <!--HTML--><div id="polarChart"></div>
 
     <!---->
 
-        <!--JavaScript-->$("#chartContainer").dxPolarChart({
-			dataSource: dataSource,
-			series: [
-				{valueField: "day", name: "Day" }, 
-				{ valueField: "night", name: "Night" }
-			],
-			commonSeriesSettings: {     
-				argumentField: "month",
-				type: "scatter"
-			}
+        <!--JavaScript-->var temperature = [
+			{ month: "January", day: 6, night: 2 },
+			{ month: "February", day: 7, night: 2 },
+			{ month: "March", day: 10, night: 3 },
+			{ month: "April", day: 14, night: 5 },
+			{ month: "May", day: 18, night: 8 },
+			{ month: "June", day: 21, night: 11 },
+			{ month: "July", day: 22, night: 13 },
+			{ month: "August", day: 22, night: 13 },
+			{ month: "September", day: 19, night: 11 },
+			{ month: "October", day: 15, night: 8 },
+			{ month: "November", day: 10, night: 5 },
+			{ month: "December", day: 7, night: 3 }
+		];
+		$(function() {
+			$("#polarChart").dxPolarChart({
+				dataSource: temperature,
+				commonSeriesSettings: {     
+					argumentField: "month",
+					type: "scatter"
+				},
+				series: [
+					{ valueField: "day", name: "Day" }, 
+					{ valueField: "night", name: "Night" }
+				]
+			});
 		});
 
-- **Knockout**  
- Add a div element and apply the `dxPolarChart` binding to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+        <!--HTML--><div ng-controller="DemoController">
+			<div dx-polar-chart="{
+				dataSource: temperature,
+				commonSeriesSettings: {     
+					argumentField: 'month',
+					type: 'scatter'
+				},
+				series: [
+					{ valueField: 'day', name: 'Day' }, 
+					{ valueField: 'night', name: 'Night' }
+				]
+			}"></div>
+		</div>
+
+	<!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller("DemoController", function ($scope) {
+                $scope.temperature = [
+                    // ...   
+                ];
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div data-bind="dxPolarChart: {
-			dataSource: dataSource,
-			series: [
-				{valueField: 'day', name: 'Day' }, 
-				{ valueField: 'night', name: 'Night' }
-			],
+			dataSource: temperature,
 			commonSeriesSettings: {     
 				argumentField: 'month',
 				type: 'scatter'
-			}
-        }"></div>
-
-- **AngularJS**  
- Add a div element and apply the `dx-polar-chart` directive to this element.
-
-        <!--HTML-->
-        <div dx-polar-chart="{
-			dataSource: dataSource,
+			},
 			series: [
-				{valueField: 'day', name: 'Day' }, 
+				{ valueField: 'day', name: 'Day' }, 
 				{ valueField: 'night', name: 'Night' }
-			],
-			commonSeriesSettings: {     
-				argumentField: 'month',
-				type: 'scatter'
-			}
+			]
         }"></div>
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/Data_Visualization/Basics/Installation/) article.
+	<!---->
 
-The **PolarChart** widget contains multiple visual elements (axes, titles, labels, strips, grid, etc.). To learn more about the widget's visual elements, refer to the [PolarChart Elements](/Documentation/Guide/Data_Visualization/Charts/PolarChart_Elements/) help article. To learn how to provide data for the **PolarChart** widget, refer to the <a href="/Documentation/16_1/Guide/Data_Visualization/Charts/Data_Binding">Data Binding</a> article.
+        <!--JavaScript-->var viewModel = {
+            temperature: [
+                // ...
+            ]
+        };
+        ko.applyBindings(viewModel);
 
-Choose one of the following supported series types.
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-- [Line](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/LineSeries/)
-- [Area](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/AreaSeries/)
-- [Scatter](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/ScatterSeries/)
-- [Bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/BarSeries/)
-- [StackedBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/StackedBarSeries/)
+        @(Html.DevExtreme().PolarChart()
+            .ID("polarChart")
+            .DataSource(Temperature)
+            .CommonSeriesSettings(c => c
+                .ArgumentField("month")
+                .Type(PolarChartSeriesType.Scatter)
+            )
+            .Series(series => {
+                series.Add().ValueField("day");
+                series.Add().ValueField("night");
+            })
+		)
 
-You can read an overview of these series types in the [PolarChart Series Types](/Documentation/Guide/Data_Visualization/Charts/PolarChart_Series_Types/) article.
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
-<!--<a href="/Documentation/16_1/Tutorial/Data_Visualization/Configure_Charts" class="button orange small fix-width-155" style="margin-right: 20px;">Start Tutorial</a>-->
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartspolarandradarchartspolarandradarchartspolarrose/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
-<a href="http://www.youtube.com/watch?v=mcaID_EYLOo&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=40" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
+<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartspolarandradarchartspolarandradarchartspolarrose/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Demo</a>
+<a href="http://www.youtube.com/watch?v=mcaID_EYLOo&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=40" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
-- [Data Visualization Guides](/Documentation/Howto#datavisualization)
-
+- [PolarChart - Visual Elements](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/)
+- [PolarChart - Series Types](/Documentation/Guide/Widgets/PolarChart/Series_Types/)
+- [Charts - Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/)
+- [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
 <!--/fullDescription-->

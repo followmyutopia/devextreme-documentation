@@ -1,4 +1,4 @@
-To use the Knockout approach, add the *knockout-3.4.0.js* script library to the **Scripts** folder of your project. You can find this library in your [DevExtreme package](/Documentation/Guide/Common/DevExtreme_Packages/).
+To use the Knockout approach, add the *knockout-3.4.0.js* script library to the **Scripts** folder of your project. You can find this library in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources** by default.
 
 Reference the Knockout library in the Index view.
 
@@ -7,7 +7,7 @@ Reference the Knockout library in the Index view.
         <title>Index</title>
         <link rel="stylesheet" type="text/css" href="/Content/dx.common.css" />
         <link rel="stylesheet" type="text/css" href="/Content/dx.light.css" />
-        <script src="/Scripts/jquery-1.11.3.min.js"></script>
+        <script src="/Scripts/jquery-3.1.0.min.js"></script>
         <script src="/Scripts/knockout-3.4.0.js"></script>
         <script src="/Scripts/dx.web.js"></script>
     </head>
@@ -19,7 +19,7 @@ You will need to write JavaScript code for the view. Thus, first add a JavaScrip
         <title>Index</title>
         <link rel="stylesheet" type="text/css" href="/Content/dx.common.css" />
         <link rel="stylesheet" type="text/css" href="/Content/dx.light.css" />
-        <script src="/Scripts/jquery-1.11.3.min.js"></script>
+        <script src="/Scripts/jquery-3.1.0.min.js"></script>
         <script src="/Scripts/knockout-3.4.0.js"></script>
         <script src="/Scripts/dx.web.js"></script>
         <script src="/MyJS/script_Knockout.js"></script>
@@ -27,7 +27,7 @@ You will need to write JavaScript code for the view. Thus, first add a JavaScrip
 
 **Add a Button Widget**
 
-To create a button widget, add a **div** element with `dxButton` Knockout binding to the body of the HTML document, as shown in the code below.
+To create a button widget, add a **div** element with **Button** Knockout binding to the body of the HTML document, as shown in the code below.
 
     <!--HTML--><html>
         <!--...-->
@@ -51,7 +51,7 @@ The Knockout approach is based on the MVVM (Model-View-ViewModel) pattern. Accor
         ko.applyBindings(viewModel);
     };
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/markup.html, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/script.js, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/styles.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/styles.css"></div>
 
 **Handle Click Event**
 
@@ -82,7 +82,7 @@ Add a **clickHandler** field to the ViewModel object and bind the button's **onC
         ko.applyBindings(viewModel);
     };
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/markup.html, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/script.js, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/styles.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/styles.css"></div>
     
 **Modify Option Value at Runtime**
 
@@ -118,4 +118,4 @@ Add the **CheckBox** widget in the same manner as you added the **Button** widge
         ko.applyBindings(viewModel);
     }
                   
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/markup.html, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/script.js, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/styles.css"></div> 
+<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/styles.css"></div> 

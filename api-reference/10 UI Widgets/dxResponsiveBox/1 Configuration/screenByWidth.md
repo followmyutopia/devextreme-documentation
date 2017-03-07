@@ -4,18 +4,17 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the function returning screen factor for width in pixels. e.g. function(width) { return width > 1000 ? 'large' : 'small' }<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the function returning the screen factor depending on the screen width.
+Specifies the function returning the [size qualifier](/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/) depending on the screen's width.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The function passed to this option should take on the screen width as a parameter and return a string containing the appropriate screen factor.
+The function passed to this option accepts the screen's width as a parameter and should return a string containing the needed size qualifier.
 
     <!--JavaScript-->
     var responsiveBoxOptions: {

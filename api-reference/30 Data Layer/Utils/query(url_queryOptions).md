@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Creates a Query object for remote URL. Data access logic is defined by queryOptions.adapter. By default OData protocol is used.
-<!--/d-->
-<!--p1d-->URL of remote data service<!--/p1d-->
-<!--p2d-->Additional query options<!--/p2d-->
-<!--rd-->Query object<!--/rd-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_query">data/query</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_query">data/query</a><!--/module-->
+<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

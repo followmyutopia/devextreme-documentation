@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A template element for widget rendering.<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 <!--lib-->
@@ -30,7 +29,7 @@ The dxTemplate markup component is used to introduce a template markup for colle
         </div>
     </div>
 
-    <!--Angular-->
+    <!--AngularJS-->
     <div dx-tile-view="{ dataSource: tileViewData, itemTemplate: 'tileTemplate' }" dx-item-alias="item">
         <div data-options="dxTemplate: { name: 'tileTemplate' }">
             <h1>{{item.name}}</h1>
@@ -41,7 +40,7 @@ The dxTemplate markup component is used to introduce a template markup for colle
     </div>
 
 
-[note]Pay attention to the binding context of the template that you define. In most cases, the binding context of an item template is the data source object that corresponds to the currently rendered item, and a view model - in other widget element templates. Since there can be exceptions in this rule, read notes in the descriptions of the corresponding **XXXTemplate** options and bind template elements to the accessible fields directly (see the code above). At the same time, you can access another binding context within a template, using [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[Angular](https://docs.angularjs.org/guide/scope) binding variables.
+[note]Pay attention to the binding context of the template that you define. In most cases, the binding context of an item template is the data source object that corresponds to the currently rendered item, and a view model - in other widget element templates. Since there can be exceptions in this rule, read notes in the descriptions of the corresponding **XXXTemplate** options and bind template elements to the accessible fields directly (see the code above). At the same time, you can access another binding context within a template, using [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
 
 [note]In **AngularJS approach**, in collection widgets, if you need to access item object's fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add the directive to the widget element to specify an alias to the root object of an item (see the code above). Without this directive, item object fields are beyond reach.
 

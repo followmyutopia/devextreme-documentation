@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Type of subvalue indicator<!--/d-->
 ===========================================================================
 <!--default-->'triangleMarker'<!--/default-->
 <!--acceptValues-->'rectangle' | 'circle' | 'rhombus' | 'rangeBar' | 'triangleMarker' | 'textCloud'<!--/acceptValues-->
@@ -17,4 +16,6 @@ Specifies the type of subvalue indicators.
 
 <!--fullDescription-->
 Different options of the **subvalueIndicator** configuration object can be set for different types of the subvalue indicators. These options are listed within the [Indicator Types](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Indicator_Types/) section.
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/DifferentSubvalueIndicatorTypesLinearGauge/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

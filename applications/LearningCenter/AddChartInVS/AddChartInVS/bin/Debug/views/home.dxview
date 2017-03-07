@@ -1,0 +1,16 @@
+<div data-options="dxView : { name: 'home', title: 'Home' } " >
+    <div class="home-view"  data-options="dxContent : { targetPlaceholder: 'content' } " >
+        <div style="height: 300px;" data-bind="dxChart: { dataSource: dataSource, title: {'text':'Continental Population Shift(in millions)'}, commonSeriesSettings: {'type':'fullstackedarea','point':{'visible':false},'label': {
+            'visible': true,
+            'connector': {
+                'visible': true
+            }
+        }}, series: [{'type':'fullstackedarea','argumentField':'year','valueField':'Oceania','rangeValue1Field':'val1','rangeValue2Field':'val2','point':{'visible':false,'symbol':'circle'},'label':{'visible':true},'hoverMode':'excludePoints','axis':'Value Axis 1','name':'Oceania'},{'type':'fullstackedarea','argumentField':'year','valueField':'Europe','rangeValue1Field':'val1','rangeValue2Field':'val2','point':{'visible':false,'symbol':'circle'},'label':{'visible':true},'hoverMode':'excludePoints','axis':'Value Axis 1','name':'Europe'},{'type':'fullstackedarea','argumentField':'year','valueField':'Asia','rangeValue1Field':'val1','rangeValue2Field':'val2','point':{'visible':false,'symbol':'circle'},'label':{'visible':true},'hoverMode':'excludePoints','axis':'Value Axis 1','name':'Asia'},{'type':'fullstackedarea','argumentField':'year','valueField':'Americas','rangeValue1Field':'val1','rangeValue2Field':'val2','point':{'visible':false,'symbol':'circle'},'label':{'visible':true},'hoverMode':'excludePoints','axis':'Value Axis 1','name':'Americas'},{'type':'fullstackedarea','argumentField':'year','valueField':'Africa','rangeValue1Field':'val1','rangeValue2Field':'val2','point':{'visible':false,'symbol':'circle'},'label':{'visible':true},'hoverMode':'excludePoints','axis':'Value Axis 1','name':'Africa'}], valueAxis: [{'name':'Value Axis 1'}], tooltip:{
+        'enabled':true,
+        format: { 'percentPrecision': 2 },
+        'customizeText': function (value) {
+            return value.percentText;
+        }
+    }, legend: {'verticalAlignment':'bottom','horizontalAlignment':'center'} }"></div>
+    </div>
+</div>

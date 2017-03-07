@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Calculates custom aggregate without seed and finalize function.
-<!--/d-->
-<!--p1d-->function invoked for every item. accepts arguments: accumulator and current item<!--/p1d-->
-<!--rd-->Promise of jQuery.Deferred. Resolves with aggregate value or rejects with an Error object<!--/rd-->
 ===================================================================
 ===================================================================
 

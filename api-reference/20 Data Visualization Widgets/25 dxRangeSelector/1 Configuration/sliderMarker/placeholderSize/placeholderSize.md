@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Slider markers placeholder size<!--/d-->
-<!--dep-->Use the 'placeholderHeight' and 'indent' options instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number | object<!--/type-->

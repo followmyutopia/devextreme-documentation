@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/YourFirstApplication/step2/YourFirstApplication.html" >
+<article data-show="/Content/Applications/16_2/framework/YourFirstApplication/step2/YourFirstApplication.html" >
 To add a view to your application, define the HTML template that will be used to display this view.
 
 - Add a **div** element with the **data-options** attribute (a DevExtreme-specific attribute) set to [dxView](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxView/)

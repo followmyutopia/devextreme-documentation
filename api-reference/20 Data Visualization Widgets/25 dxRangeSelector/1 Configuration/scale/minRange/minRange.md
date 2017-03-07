@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Minimum range that can be selected<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'millisecond' | 'second' | 'minute' | 'hour' | 'day' | 'week' | 'month' | 'quarter' | 'year'<!--/acceptValues-->
@@ -21,7 +20,7 @@ Use this property to set the minimum range that can be selected. When moving a s
 
 [note]For a [discrete scale](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#type), setting a minimum range is not an option. For a [semidiscrete scale](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#type), setting a minimum range is, conversely, required.
 
-[note]The **minRange** property specifies the minimum range that can be selected in the UI. If you select a range in code, for example, using the [setSelectedRange(selectedRange)](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Methods/#setSelectedRangeselectedRange) method, the **minRange** property will be ignored.
+[note]The **minRange** property specifies the minimum range that can be selected in the UI. If you select a range in code, for example, using the [setValue(value)](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Methods/#setValuevalue) method, the **minRange** property will be ignored.
 
 You can also set the maximum range that can be selected using the [maxRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/maxRange/) property.
 <!--/fullDescription-->

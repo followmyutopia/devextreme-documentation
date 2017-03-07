@@ -4,18 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when a list's item was clicked.<!--/d-->
 <!--EventForAction-->..\4 Events\itemClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns an object representing the item.<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns the list's clicked item.<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns a number representing the item index. For grouped mode index represents as object with group and item indices e.g. { group: 0, item: 0 }<!--/fp1_field6d-->
 ===========================================================================
 
 <!--shortDescription-->

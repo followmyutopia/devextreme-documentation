@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Initiates loading of a single data item by key. Async function.
-<!--/d-->
-<!--p1d-->Key value<!--/p1d-->
-<!--rd-->Promise of jQuery.Deferred which resolves with (object dataItem) or rejects with (Error)<!--/rd-->
 ===================================================================
 ===================================================================
 

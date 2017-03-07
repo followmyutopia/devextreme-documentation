@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Slider marker text font family<!--/d-->
 ===========================================================================
 <!--default-->''Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana'<!--/default-->
 <!--type-->string<!--/type-->

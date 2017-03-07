@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->A template name or a template container or a function returning one of them, which is used to render static content. Or a function creating the content. Has following signature contentTemplate(container). Returns htmlString or Element or jQuery representing content of the item. If content template specified items will not be rendered.<!--/d-->
 ===========================================================================
 <!--default-->'content'<!--/default-->
 <!--type-->template<!--/type-->
-<!--fp1d-->An HTML element containing the rendered template.<!--/fp1d-->
-<!--frd-->A template name or a template container. Or an HTML string, Element, or jQuery object representing the rendered item.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

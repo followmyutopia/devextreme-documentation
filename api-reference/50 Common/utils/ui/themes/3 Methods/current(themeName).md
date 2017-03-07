@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Changes the current theme
-<!--/d-->
-<!--p1d-->The name of a theme to activate. Name is the value of the 'data-theme' attribute of rel='dx-theme' link.<!--/p1d-->
 ===================================================================
 ===================================================================
 

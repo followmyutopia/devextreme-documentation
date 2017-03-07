@@ -5,11 +5,9 @@ Currently, the following versions are supported.
 - **Knockout** versions 2.2.3 - 2.3.0 and 3.1.0 - 3.4.0
 
 - **AngularJS** version 1.2 - 1.5  
-    When using version 1.3 - 1.5, pay attention to the [Migration Guide](http://ng-learn.org/2014/06/Migration_Guide_from_1-2_to1-3/).  
+    When using version 1.3 - 1.5, pay attention to the [Migration Guide](http://ng-learn.org/2014/06/Migration_Guide_from_1-2_to1-3/).
 
-These scripts are accessible within your [DevExtreme Package](/Documentation/Guide/Common/DevExtreme_Packages/).
-
-You can also load these libraries from a Content Delivery Network (CDN).
+These scripts are accessible within your DevExtreme Package or via CDN.
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
 

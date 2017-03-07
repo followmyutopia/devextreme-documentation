@@ -4,14 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->A template name or a template container or a function returning one of them, which is used to render appointment popup content. Or a function creating the appointment popup content item. Has following signature appointmentPopupTemplate(appointmentData, contentElement). Returns htmlString or Element or jQuery representing content of the content item.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->'appointmentPopup'<!--/default-->
 <!--type-->template<!--/type-->
-<!--fp1d-->An object representing the data of associated appointment.<!--/fp1d-->
-<!--fp2d-->An HTML element containing the rendered content.<!--/fp2d-->
-<!--frd-->A template name or a template container.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -23,9 +19,9 @@ A binding context of an appointment popup template is the data source object tha
 
 So, in **Knockout approach**, you can bind template elements to the appointment object fields directly. To access another binding context within an appointment popup template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
 
-In **AngularJS approach**, if you need to access appointment object's fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment popup template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+In **AngularJS approach**, if you need to access appointment object's fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment popup template, use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
 
-#####AngularJS Approach#####
+#####AngularJS#####
 
         <!--HTML-->
         <div id="scheduler" dx-scheduler="options" dx-item-alias="showtime">
@@ -46,9 +42,9 @@ In **AngularJS approach**, if you need to access appointment object's fields wit
         </div>
 
 #####See Also#####
-- [Customize Item Template](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#Common_Tasks/Customize_an_Item_Appearance)
-- [Customize Widget Element Appearance](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [template](/Documentation/ApiReference/Common/Object_Structures/template/)
+- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->appointmentData<!--/typeFunctionParamName1-->

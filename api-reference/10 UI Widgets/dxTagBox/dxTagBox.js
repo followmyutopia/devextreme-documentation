@@ -36,8 +36,8 @@ $("#myTagBox").dxTagBox({
     valueExpr: 'capital',
     onValueChanged: function (e) {
         $("#capitals").empty();
-        for (var i = 0; i < e.values.length; i++)
-            $("#capitals").append("<li><p>" + e.values[i] + "</p></li>");
+        for (var i = 0; i < e.value.length; i++)
+            $("#capitals").append("<li><p>" + e.value[i] + "</p></li>");
     }
 });
 $.get("/Content/data/states.txt", function (data) {

@@ -4,12 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Fired before showing a view.<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Provides information required for displaying a view.<!--/fp1_field1d-->
-<!--fp1_field2d-->The direction in which the layout controller will animate the transition to show the view. The following values are accepted: 'backward', 'forward' or 'none'.<!--/fp1_field2d-->
 ===========================================================================
 
 <!--shortDescription-->

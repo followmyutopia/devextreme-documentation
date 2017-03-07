@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Boolean value specifying whether or not to render 'select all' item.<!--/d-->
-<!--dep-->Use the showCheckBoxesMode option instead.<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

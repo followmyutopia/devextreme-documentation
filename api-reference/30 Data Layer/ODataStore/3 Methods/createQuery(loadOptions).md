@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Creates Query object for the OData endpoint. This method is used internally in load() implementation, also can be used by developer for advanced queries.
-<!--/d-->
-<!--p1d-->optional argument. Can pass: customQueryParams, expand, requireTotalCount<!--/p1d-->
-<!--rd-->Query object<!--/rd-->
 ===================================================================
 ===================================================================
 

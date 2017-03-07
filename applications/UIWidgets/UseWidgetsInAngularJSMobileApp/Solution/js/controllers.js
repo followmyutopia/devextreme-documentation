@@ -58,7 +58,7 @@ angular.module('demoApp.controllers', [])
     }])
     .controller('AboutCtrl', function() {
     })
-    .controller('DayCtrl', ['$routeParams', 'scheduleData', function($routeParams, scheduleData) {
+    .controller('DayCtrl', ['$location', '$routeParams', 'scheduleData', function($location, $routeParams, scheduleData) {
         this.schedule = scheduleData[$routeParams.dayId];
         this.getBackToWeek = function() {
             $location.path('/week');

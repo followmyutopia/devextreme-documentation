@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Represents a stateful pivot grid data source for a component or for standalone usage. Data access logic is defined by the underlying DataStore.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_pivot_grid_data_source">ui/pivot_grid/data_source</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_pivot_grid_data_source">ui/pivot_grid/data_source</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--inherits-->..\..\10 UI Widgets\EventsMixin\EventsMixin.md<!--/inherits-->
 <!--lib-->
@@ -53,4 +53,27 @@ You can also pass the PivotGridDataSource configuration object to the dataSource
 [note] If you create a PivotGridDataSource instance outside the widget, be sure to [dispose](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#dispose) of it when it is no longer used. If the PivotGridDataSource is created within the widget, it will be disposed of automatically.
 
 Refer to the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) and [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) topics for more information about working with data in DevExtreme.
+
+When configuring the **PivotGrid** widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the options of the **PivotGridDataSource** in the `DataSource()` method.
+
+	@(Html.DevExtreme().PivotGrid()
+        .ID("pivotGrid")
+        .DataSource(ds => ds
+            .Store(store => store
+				// ...
+            	// Underlying store is configured here
+            )
+            .Fields(fields => {
+                fields.Add().Area(PivotGridArea.Column)
+                    .DataField("OrderDate")
+                    .DataType(PivotGridDataType.Date);
+                fields.Add().Area(PivotGridArea.Row).DataField("ShipCountry");
+                fields.Add().Area(PivotGridArea.Row).DataField("ShipCity");
+                fields.Add().Area(PivotGridArea.Row).DataField("ShipName");
+                fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count);
+            })
+        )
+    )
+
+For information on how to configure data access using ASP.NET MVC Wrappers, see the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/) topic.
 <!--/fullDescription-->

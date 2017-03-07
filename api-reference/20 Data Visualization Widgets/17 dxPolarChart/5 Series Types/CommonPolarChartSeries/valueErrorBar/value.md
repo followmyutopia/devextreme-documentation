@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->set error bars value. For 'stdError', 'stdDeviation', 'variance' types has multiplier character<!--/d-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->number<!--/type-->

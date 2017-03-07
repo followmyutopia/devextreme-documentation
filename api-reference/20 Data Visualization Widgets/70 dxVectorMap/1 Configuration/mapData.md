@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Map data source (areas)<!--/d-->
-<!--dep-->Use the 'layers.data' option instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

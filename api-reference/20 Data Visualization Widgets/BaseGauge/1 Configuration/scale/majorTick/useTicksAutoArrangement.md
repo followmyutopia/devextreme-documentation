@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Major ticks auto arrangement<!--/d-->
 <!--dep-->..\label\overlappingBehavior\useAutoArrangement.md<!--/dep-->
 ===========================================================================
 <!--default-->true<!--/default-->

@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Initiates the update operation. Async function.
-<!--/d-->
-<!--p1d-->Key value identifying the data item to update<!--/p1d-->
-<!--p2d-->New data values<!--/p2d-->
-<!--rd-->Promise of jQuery.Deferred which resolves with (any key, object newValues) or rejects with (Error)<!--/rd-->
 ===================================================================
 ===================================================================
 

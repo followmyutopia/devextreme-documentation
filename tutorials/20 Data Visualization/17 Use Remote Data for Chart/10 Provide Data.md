@@ -1,12 +1,12 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_1/DataVisualization/UseRemoteDataforChart/Step3/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/16_2/DataVisualization/UseRemoteDataforChart/Step3/chart.html" data-show-first="chart.js">
 Create a [CustomStore](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources) object to get JSON data from the file added in the previous step. In the configuration object of the CustomStore constructor, specify the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function. In the code below, the **load** function gets JSON data from the specified URL. You can make a more complex request to get filtered or sorted data, taking the load options passed as a parameter into account.
 
 Use the created Data Store to provide the DataSource object for the chart. For this purpose, do the following.
 
 - Define a configuration object for the DataSource object specifying the [store](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#store) option.
 - Create the **DataSource** object using **chartDataSourceConfiguration** as a configuration object.
-- Assign the **DataSource** object to the chart's **dataSource** option. For details on chart data binding, refer to the [Data Binding](/Documentation/Guide/Data_Visualization/Charts/Data_Binding/) article.
+- Assign the **DataSource** object to the chart's **dataSource** option. For details on chart data binding, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) article.
 
 The created Data Store loads an array of the following objects.
 

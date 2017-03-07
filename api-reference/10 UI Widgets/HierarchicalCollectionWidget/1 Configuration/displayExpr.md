@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines an expression returning displayed value for a chosen item.<!--/d-->
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--type-->string | function<!--/type-->

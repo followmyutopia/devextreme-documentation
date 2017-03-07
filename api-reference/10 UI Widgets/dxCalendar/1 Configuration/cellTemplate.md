@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->A template name or a template container or a function returning one of them, which is used to render calendar cells. Or a function creating the cell. Has following signature cellTemplate(itemData, itemIndex, itemElement). Returns htmlString or Element or jQuery representing content of the cell.<!--/d-->
 ===========================================================================
 <!--default-->'cell'<!--/default-->
 <!--type-->template<!--/type-->
-<!--fp1d-->An object representing the cell to be rendered.<!--/fp1d-->
-<!--fp2d-->The index of the cell to be rendered.<!--/fp2d-->
-<!--fp3d-->An HTML element containing the rendered cell.<!--/fp3d-->
-<!--frd-->A template name or a template container. Or an HTML string, Element, or jQuery object representing the rendered cell.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -31,10 +26,10 @@ The binding context of the template as well as the **itemData** parameter of a f
  The name of the current view.
 
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/UI_Widgets/Common/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
-[note]A binding context of an item template is the data source object that corresponds to the currently rendered cell. To access another binding context within an item template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[Angular](https://docs.angularjs.org/guide/scope) binding variables.
+[note]A binding context of an item template is the data source object that corresponds to the currently rendered cell. To access another binding context within an item template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
 
 
 <!--/fullDescription-->

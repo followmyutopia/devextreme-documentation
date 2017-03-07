@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies color grouping data; uses 'palette' and 'colorGroupingField'; applies to layers which support the 'color' option<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->array<!--/type-->

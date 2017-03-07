@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Context menu widget<!--/d-->
 <!--widgettree-->
 dataSource: [
     { text: "Hide" },
@@ -21,7 +20,8 @@ dataSource: [
 visible: true
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_context_menu">ui/context_menu</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_context_menu">ui/context_menu</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--inherits-->..\dxMenuBase\dxMenuBase.md<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
@@ -35,17 +35,14 @@ The **ContextMenu** widget displays a single- or multi-level context menu. An en
 <!--fullDescription-->
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxContextMenu` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="targetElement"></div>
+        <!--HTML--><div id="targetElement"></div>
         <div id="contextMenu"></div>
 
     <!---->
 
-        <!--JavaScript-->
-        var menuItems = [
+        <!--JavaScript-->var contextMenuItems = [
             { text: "Hide" },
             { text: "Delete" },
             {
@@ -57,34 +54,71 @@ You can create the widget using one of the following approaches.
                 ]
             }
         ];
-        $("#contextMenu").dxContextMenu({
-            items: menuItems,
-            target: '#targetElement'
+        $(function () {
+            $("#contextMenu").dxContextMenu({
+                items: contextMenuItems,
+                target: "#targetElement"
+            });
         });
 
-- **Knockout**  
- Add a div element and apply the `dxContextMenu` binding to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="targetElement"></div>
+        <!--HTML--><div ng-controller="DemoController">
+            <div id="targetElement"></div>
+            <div dx-context-menu="{
+                items: contextMenuItems,
+                target: '#targetElement'
+            }"></div>
+        </div>
+
+    <!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller("DemoController", function ($scope) {
+                $scope.contextMenuItems = [
+                    // ...   
+                ];
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+        <!--HTML--><div id="targetElement"></div>
         <div data-bind="dxContextMenu: {
-            items: menuItems,
+            items: contextMenuItems,
             target: '#targetElement'
         }"></div>
 
-- **AngularJS**  
- Add a div element and apply the `dx-context-menu` directive to this element.
+    <!---->
 
-        <!--HTML-->
+        <!--JavaScript-->var viewModel = {
+            contextMenuItems: [
+                // ...
+            ]
+        };
+        ko.applyBindings(viewModel);
+
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+        
+        @(Html.DevExtreme().ContextMenu()
+            .ID("contextMenu")
+            .Target("#targetElement")
+            .Items(items => {
+                items.Add().Text("Hide");
+                items.Add().Text("Delete");
+                items.Add().Text("Clipboard").Items(clipboardItems => {
+                    clipboardItems.Add().Text("Copy text");
+                    clipboardItems.Add().Text("Clear text");
+                    clipboardItems.Add().Text("Paste text");
+                });
+            })
+        )
         <div id="targetElement"></div>
-        <div dx-context-menu="{
-            items: menuItems,
-            target: '#targetElement'
-        }"></div>
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
 
-You can find detailed information on the principles of working with the widget in the [dxContextMenu section](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Menu_Widgets/#List_of_Menu_Widgets/dxContextMenu) of the [Menu Widgets](/Documentation/Guide/UI_Widgets/UI_Widget_Categories/Menu_Widgets/) article.
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/actionsandlistscontextmenucontextmenucontextmenu/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+
+#####See Also#####
+- [ContextMenu - Overview](/Documentation/Guide/Widgets/ContextMenu/Overview/)
 <!--/fullDescription-->

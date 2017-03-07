@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Allow a selected data in a context menu<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->
@@ -15,9 +14,9 @@ Allows an end user to export selected rows only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When this option is set to *true*, a click on <img src="/Content/images/doc/16_1/DataGrid/icons/toolbar_export.png" alt="DevExtreme DataGrid HTML5 Toolbar Exporting" style="vertical-align:middle"/> invokes a menu that contains the "Export selected rows" command.
+When this option is set to *true*, a click on <img src="/Content/images/doc/16_2/DataGrid/icons/toolbar_export.png" alt="DevExtreme DataGrid HTML5 Toolbar Exporting" style="vertical-align:middle"/> invokes a menu that contains the "Export selected rows" command.
 
-![DevExtreme DataGrid Exporting Selected Rows](/Content/images/doc/16_1/DataGrid/Export_SelectedRows.png)
+![DevExtreme DataGrid Exporting Selected Rows](/Content/images/doc/16_2/DataGrid/Export_SelectedRows.png)
 
 #####See Also#####
 - **export** | **texts** | [exportSelectedRows](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/texts/#exportSelectedRows) - customizes the text of the "Export selected rows" command.

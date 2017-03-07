@@ -4,12 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-currentTheme method
-<!--/d-->
-<!--p1d-->Platform name<!--/p1d-->
-<!--p2d-->Scheme name<!--/p2d-->
-<!--dep-->Use the DevExpress.viz.currentTheme(platform, colorScheme) method instead.<!--/dep-->
+<!--dep--><!--/dep-->
 ===================================================================
 ===================================================================
 

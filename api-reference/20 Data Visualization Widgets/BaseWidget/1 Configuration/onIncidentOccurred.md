@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Callback for incidents info<!--/d-->
 <!--EventForAction-->..\4 Events\incidentOccurred.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(e)<!--/type-->
-<!--fp1d-->Event argument.<!--/fp1d-->
-<!--fp1_field1d-->Widget itself.<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container.<!--/fp1_field2d-->
-<!--fp1_field3d-->Incident info - specifies information about the incident.<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-If paging enabled, then is set to true when last loading returned less items than pageSize. If paging disabled, always returns true.
-<!--/d-->
-<!--rd-->True if current page is last page<!--/rd-->
 ===================================================================
 ===================================================================
 

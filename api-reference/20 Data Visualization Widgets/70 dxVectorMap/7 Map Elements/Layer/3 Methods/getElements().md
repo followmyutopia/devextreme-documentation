@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns layer elements
-<!--/d-->
-<!--rd-->Layer elements<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -17,7 +13,7 @@ Gets all layer elements.
 
 <!--returnType-->array<!--/returnType-->
 <!--returnDescription-->
-The array of <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/">layer elements</a>.
+The array of <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/">layer elements</a>.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -4,15 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Raised when active nodes tree is updated<!--/d-->
 <!--EventForAction-->..\4 Events\nodesRendering.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Event argument<!--/fp1d-->
-<!--fp1_field1d-->Widget itself<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container<!--/fp1_field2d-->
-<!--fp1_field3d-->Current root node<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->

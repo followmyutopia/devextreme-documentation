@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->show grandTotals for field.<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not to display [Grand Total](/Documentation/Guide/UI_Widgets/Pivot_Grid/Visual_Elements/#Totals) values for the field.
+Specifies whether or not to display [Grand Total](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) values for the field.
 <!--/shortDescription-->
 
 <!--fullDescription-->

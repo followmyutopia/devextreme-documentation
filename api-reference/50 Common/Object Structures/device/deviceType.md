@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the type of the device on which the application is running.<!--/d-->
 ===========================================================================
 <!--acceptValues-->'phone' | 'tablet' | 'desktop'<!--/acceptValues-->
 <!--type-->string<!--/type-->

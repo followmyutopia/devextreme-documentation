@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Initial search operation. Ref to filter expression syntax.<!--/d-->
 ===========================================================================
 <!--default-->'contains'<!--/default-->
 <!--type-->string<!--/type-->

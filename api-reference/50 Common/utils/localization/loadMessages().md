@@ -1,0 +1,39 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+===================================================================
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_localization">localization</a><!--/module-->
+<!--export-->loadMessages<!--/export-->
+===================================================================
+
+<!--shortDescription-->
+Loads DevExtreme messages.
+<!--/shortDescription-->
+
+<!--paramName1-->messages<!--/paramName1-->
+<!--paramType1-->object<!--/paramType1-->
+<!--paramDescription1-->
+An object containing messages to load.
+<!--/paramDescription1-->
+
+<!--fullDescription-->
+The object passed to this method should have the following structure. The first level keys are locale identifiers, which hold an object consisting of key-value pairs.
+
+    <!--JavaScript-->
+    {
+        "en": {
+            "Yes": "Yes",
+            "No": "No",
+            . . .
+        },
+        "es": {
+            "Yes": "Si",
+            "No": "No",
+            . . .
+        }
+    }
+
+<!--/fullDescription-->

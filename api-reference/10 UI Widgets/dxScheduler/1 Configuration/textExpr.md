@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name of the data source item field used as a title of appointment.<!--/d-->
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--type-->string<!--/type-->

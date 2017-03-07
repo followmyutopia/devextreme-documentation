@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Allows you to find out whether a specific adaptive detail row is expanded or collapsed.
-<!--/d-->
-<!--p1d-->Key of the adaptive detail row<!--/p1d-->
 ===================================================================
 ===================================================================
 

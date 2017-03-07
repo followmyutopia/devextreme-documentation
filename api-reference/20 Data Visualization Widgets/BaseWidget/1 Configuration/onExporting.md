@@ -4,17 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called before exporting data<!--/d-->
 <!--EventForAction-->..\4 Events\exporting.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
-<!--fp1d-->Information about export.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->File name of exproting file<!--/fp1_field4d-->
-<!--fp1_field5d-->Cancel exporting<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->

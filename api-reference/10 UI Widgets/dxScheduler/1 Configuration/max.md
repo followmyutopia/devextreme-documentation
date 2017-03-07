@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Date object specifying the maximum date and time.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Date<!--/type-->

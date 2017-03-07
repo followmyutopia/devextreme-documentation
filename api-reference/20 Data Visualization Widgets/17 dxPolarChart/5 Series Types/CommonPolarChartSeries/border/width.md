@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Border width<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\AreaSeries\AreaSeries.md,..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--default-->2<!--/default-->

@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->enable/dispable word wrapping in headers<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether long text in [header items](/Documentation/Guide/UI_Widgets/Pivot_Grid/Visual_Elements/#Headers) should be wrapped.
+Specifies whether long text in [header items](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers) should be wrapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -3,6 +3,9 @@ A class used to display a field value containing a widget within the [dx-field](
 <!--/shortDescription-->
 
 <!--fullDescription-->
+
+#####jQuery#####
+
     <!--JavaScript-->
     $("#nameTextBox").dxTextBox({
         value: "John"
@@ -16,7 +19,7 @@ A class used to display a field value containing a widget within the [dx-field](
         <div class="dx-field-value" id="nameTextBox"></div>
     </div>
 
-#####AngularJS Approach#####
+#####AngularJS#####
 
     <!--JavaScript-->
     var myApp = angular.module('myApp', ['dx']);
@@ -32,7 +35,7 @@ A class used to display a field value containing a widget within the [dx-field](
         <div class="dx-field-value" dx-text-box="{ value: name }"></div>
     </div>
 
-#####Knockout Approach#####
+#####Knockout#####
 
     <!--JavaScript-->
     var myViewModel = {
@@ -52,6 +55,8 @@ To display plain text, knockout bindings or custom markup within a field value e
 
 DevExtreme UI widgets includes [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) markup to support screen readers. If you use a widget within a field value element, associate the widget with the field label to allow a screen reader to properly read the field. For this purpose, specify a unique ID for the field label element and assign this ID to the **aria-labeledby** attribute of the associated widget as demonstrated below.
 
+#####jQuery#####
+
     <!--HTML-->
     <div class="dx-field">
         <div class="dx-field-label" id="fullnameLabel">Full Name</div>
@@ -60,7 +65,7 @@ DevExtreme UI widgets includes [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) 
         </div>
     </div>
 
-#####AngularJS Approach#####
+#####AngularJS#####
 
     <!--HTML-->
     <div class="dx-field">
@@ -70,7 +75,7 @@ DevExtreme UI widgets includes [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) 
         </div>
     </div>
 
-#####Knockout Approach#####
+#####Knockout#####
 
     <!--HTML-->
     <div class="dx-field">
@@ -80,6 +85,15 @@ DevExtreme UI widgets includes [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) 
         </div>
     </div>
 
+[note]The `dx-field-label` and `dx-field-value` classes are designed to have the label always be before the value. If you need to swap them around, override the `float` CSS property of these classes in the following way.
+
+    <!--CSS-->
+    .dx-field-label {
+        float: right;
+    }
+    .dx-field-value {
+        float: left;
+    }
 <!--/fullDescription-->
 
 <!--handmade-->

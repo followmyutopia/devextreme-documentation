@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Strip options of value axis<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->array<!--/type-->
@@ -18,7 +17,7 @@ Declares a collection of strips belonging to the value axis.
 <!--fullDescription-->
 A strip is a colored piece of the chart's background that highlights a range of values. Strips allow a viewer to see whether a certain series point falls in or out of a range.
 
-![DevExtreme HTML5 Charts Strips](/Content/images/doc/16_1/ChartJS/visual_elements/strips.png)
+![DevExtreme HTML5 Charts Strips](/Content/images/doc/16_2/ChartJS/visual_elements/strips.png)
 
 Each object in the **strips** array configures a single strip. To limit a strip, set its **startValue** and **endValue** options. You may set only one of them, in which case the strip will not have a limit at one end. Note that setting the **color** option is also necessary for a strip to be displayed.
 

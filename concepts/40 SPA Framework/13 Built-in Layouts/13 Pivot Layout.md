@@ -1,6 +1,6 @@
 The Pivot layout is available for Windows Phone 8 applications. This layout is characterized by the presence of a pivot control on a view. The pivot control is a global navigation that provides access to the root views of the application.
 
-![Pivot](/Content/images/doc/16_1/PhoneJS/pivot.png)
+![Pivot](/Content/images/doc/16_2/PhoneJS/pivot.png)
 
 **Links**:
 

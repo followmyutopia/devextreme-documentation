@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies DOM event names which cause the widget value updating.<!--/d-->
 ===========================================================================
 <!--default-->'input change keyup'<!--/default-->
 <!--type-->string<!--/type-->

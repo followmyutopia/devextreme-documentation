@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The size of each step the numberbox can take between min and max.<!--/d-->
 ===========================================================================
 <!--default-->1<!--/default-->
 <!--type-->number<!--/type-->

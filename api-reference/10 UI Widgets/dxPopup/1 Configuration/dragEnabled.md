@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether to allow drag the widget. Dragging works by title only. Therefore, showTitle options must be setted to 'true'.<!--/d-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--custom_default_for_desktop-->true<!--/custom_default_for_desktop-->

@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Customizes node appearance (color, border, hoverStyle, selectionStyle, label)
-<!--/d-->
-<!--p1d-->Node appearance options<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -18,7 +14,7 @@ Customizes the node.
 <!--paramName1-->options<!--/paramName1-->
 <!--paramType1-->object<!--/paramType1-->
 <!--paramDescription1-->
-A <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#tile">tile</a> or a <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#group">group</a>.
+A <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#tile">tile</a> or a <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#group">group</a>.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

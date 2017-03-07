@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether click on item selectes an item.<!--/d-->
 <!--dep-->selectByClick.md<!--/dep-->
 ===========================================================================
 <!--default-->false<!--/default-->

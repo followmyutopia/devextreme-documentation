@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Initial data projection expression (ref to getter/setter syntax). Passed to DataStore during loading.<!--/d-->
 ===========================================================================
 <!--type-->Select expression<!--/type-->
 ===========================================================================

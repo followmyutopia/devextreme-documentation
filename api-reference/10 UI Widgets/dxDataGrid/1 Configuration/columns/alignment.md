@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Alignment of value in a cell<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->undefined | 'left' | 'center' | 'right'<!--/acceptValues-->
@@ -46,4 +45,6 @@ Default alignment of column content depends on the [type of data](/Documentation
   </tbody>
 </table>
 </div>
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `HorizontalAlignment` enum. This enum accepts the following values: `Left`, `Center` and `Right`.
 <!--/fullDescription-->

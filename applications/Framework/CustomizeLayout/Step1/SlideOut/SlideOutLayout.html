@@ -1,4 +1,4 @@
-﻿<script type="text/html" id="slideOutMenuItemTemplate">
+<script type="text/html" id="slideOutMenuItemTemplate">
     <div data-bind="visible: visible, css: { 'dx-state-disabled': disabled }" data-options="dxTemplate : { name: 'item' } ">
         <div>
             <!-- ko dxIcon: $data.icon || $data.iconSrc --><!-- /ko -->
@@ -6,6 +6,7 @@
         </div>
     </div>
 </script>
+
 <div class="slideout-layout" data-options="dxLayout : { name: 'slideout', platform: 'ios' } ">
     <div class="layout-header dx-toolbar-wrapper dx-toolbar-background" data-options="dxContentPlaceholder : { name: 'header', animation: 'view-header-toolbar' }">
         <div class="layout-toolbar" data-bind="dxToolbar: { items: [{ location: 'before', template: 'nav-button', visible: false }, { location: 'center', text: title }] }" data-options="dxCommandContainer : { id: 'ios-header-toolbar' }">
@@ -14,19 +15,19 @@
             </div>
         </div>
     </div>
+
     <div class="layout-content" data-options="dxContentPlaceholder : { name: 'content', animation: 'view-content-change' } ">
     </div>
-
     <!--//highlight-->
     <div class="layout-footer" data-options="dxContentPlaceholder : { name: 'layout-footer', animation: 'view-content-change' } ">
         <div data-bind="dxToolbar: { }" data-options="dxCommandContainer: { id: 'custom-footer-toolbar' }"></div>
     </div>
     <!--//highlight-->
-
     <div class="view-footer" data-options="dxContent : { targetPlaceholder: 'view-footer' } ">
         <div class="view-toolbar-bottom" data-bind="dxToolbar: { visible: true }" data-options="dxCommandContainer : { id: 'ios-view-footer' } "></div>
     </div>
 </div>
+
 <div class="slideout-layout" data-options="dxLayout : { name: 'slideout', platform: 'android' } ">
     <div class="layout-frame" data-options="dxTransition: { name: 'main', animation: 'view-content-change' }">
         <div class="layout-header dx-toolbar-wrapper">
@@ -36,14 +37,15 @@
                 </div>
             </div>
         </div>
+
         <div class="layout-content" data-options="dxContentPlaceholder : { name: 'content' } ">
         </div>
-
         <!--//highlight-->
         <div class="layout-footer" data-bind="dxToolbar: { }" data-options="dxCommandContainer: { id: 'custom-footer-toolbar' }"></div>
         <!--//highlight-->
     </div>
 </div>
+
 <div class="slideout-layout" data-options="dxLayout : { name: 'slideout', platform: 'generic' } ">
     <div class="layout-header dx-toolbar-wrapper dx-toolbar-background" data-options="dxContentPlaceholder : { name: 'header', animation: 'view-header-toolbar' }">
         <div class="layout-toolbar" data-bind="dxToolbar: { items: [{ location: 'before', template: 'nav-button', visible: false }, { location: 'center', text: title }] }" data-options="dxCommandContainer : { id: 'generic-header-toolbar' }">
@@ -52,6 +54,7 @@
             </div>
         </div>
     </div>
+
     <div class="layout-content" data-options="dxContentPlaceholder : { name: 'content', animation: 'view-content-change' } ">
     </div>
     <!--//highlight-->
@@ -64,6 +67,7 @@
         </div>
     </div>
 </div>
+
 <div class="slideout-layout" data-options="dxLayout : { name: 'slideout', platform: 'win' } ">
     <div class="layout-frame" data-options="dxTransition: { name: 'main', animation: 'view-content-change' }">
         <div class="layout-header">
@@ -73,15 +77,19 @@
                 </div>
             </div>
         </div>
+
         <div class="layout-content" data-options="dxContentPlaceholder : { name: 'content' } ">
         </div>
+
         <!--//highlight-->
         <div class="layout-footer" data-bind="dxToolbar: { }" data-options="dxCommandContainer: { id: 'custom-footer-toolbar' }"></div>
         <!--<div class="layout-toolbar-bottom" data-bind="dxToolbar: { visible: false, renderAs: 'bottomToolbar' }" data-options="dxCommandContainer : { id: 'win10-phone-appbar' } ">
         </div>-->
         <!--//highlight-->
     </div>
+
 </div>
+
 <div class="slideout-layout" data-options="dxLayout : { name: 'slideout', platform: 'win', version: [8] } ">
     <div class="layout-frame" data-options="dxTransition: { name: 'main', animation: 'view-content-change' }">
         <div class="layout-header">
@@ -91,9 +99,12 @@
                 </div>
             </div>
         </div>
+
         <div class="layout-content" data-options="dxContentPlaceholder : { name: 'content' } ">
         </div>
+
         <div class="layout-toolbar-bottom" data-bind="dxToolbar: { visible: false, renderAs: 'bottomToolbar' }" data-options="dxCommandContainer : { id: 'win8-phone-appbar' } ">
         </div>
     </div>
+
 </div>

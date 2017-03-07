@@ -4,12 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Base class for container widgets containing collection of items.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_collection_ui_collection_widget_base">ui/collection/ui.collection_widget.base</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_collection_ui_collection_widget_base">ui/collection/ui.collection_widget.base</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--inherits-->..\Widget\Widget.md,..\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

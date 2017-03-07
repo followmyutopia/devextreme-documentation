@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-registerPalette method
-<!--/d-->
-<!--p1d-->Palette name<!--/p1d-->
-<!--p2d-->Palette<!--/p2d-->
 ===================================================================
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_palette">viz/palette</a><!--/module-->
+<!--export-->registerPalette<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

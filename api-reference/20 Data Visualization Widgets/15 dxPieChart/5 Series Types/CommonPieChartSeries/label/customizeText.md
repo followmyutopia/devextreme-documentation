@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Label custom format function<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(pointInfo)<!--/type-->
-<!--fp1d-->Defines the point value to be displayed in a label.<!--/fp1d-->
-<!--frd-->The text to be displayed in a label.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -36,7 +33,7 @@ Specifies the tag of the currently represented point.
 
 The function's parameter represents the same object as the **this** object. If appropriate, you can use the function's parameter to obtain the value that is currently represented by a label.
 
-To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Data_Visualization/Common/Data_Formatting/) topic.
+To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

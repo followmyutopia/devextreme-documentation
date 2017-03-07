@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Boolean value specifying whether or not to use native HTML input.<!--/d-->
-<!--dep-->Use 'pickerType' option instead.<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

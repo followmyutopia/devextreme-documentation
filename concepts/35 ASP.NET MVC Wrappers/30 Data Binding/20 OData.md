@@ -11,4 +11,4 @@ Also, DevExtreme ASP.NET MVC Wrappers operate with an [OData](http://www.odata.o
         )
     )
 
-For an example of a widget getting data from an OData service, refer to our [sample application](/Documentation/Guide/ASP.NET_MVC_Wrappers/Overview/#Sample_Application).
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/OdataService/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>

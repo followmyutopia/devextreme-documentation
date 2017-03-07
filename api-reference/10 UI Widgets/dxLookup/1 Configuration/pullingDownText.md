@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A text of pullDown panel showing while pulling list down to refresh threshold<!--/d-->
 ===========================================================================
 <!--default-->'Pull down to refresh...'<!--/default-->
 <!--type-->string<!--/type-->

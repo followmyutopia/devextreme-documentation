@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Applies settings and updates element appearance
-<!--/d-->
-<!--p1d-->Settings<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -18,7 +14,7 @@ Applies the layer element settings and updates element appearance.
 <!--paramName1-->settings<!--/paramName1-->
 <!--paramType1-->object<!--/paramType1-->
 <!--paramDescription1-->
-A <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/">configuration object</a> for the element.
+A <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/">configuration object</a> for the element.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/ManageNavigation/step2/index.html" data-show-first="views/home.js">
+<article data-show="/Content/Applications/16_2/framework/ManageNavigation/step2/index.html" data-show-first="views/home.js">
 
 - In the *home.html* file, remove the default content from the "home" Html template. Add the [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget instead. This button will navigate forward to the next view. Give the "forward" name to this button via the [text](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#text) configuration option. To handle the button click, assign a function to the [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) configuration option. Let this function be defined within the view's ViewModel. So, bind the **onClick** option to the ViewModel's **navigateForward** field that will hold the click handler.
 

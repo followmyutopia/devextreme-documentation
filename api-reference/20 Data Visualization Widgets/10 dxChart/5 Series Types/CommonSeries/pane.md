@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Default pane name.<!--/d-->
 ===========================================================================
 <!--default-->'default'<!--/default-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies which [pane](/Documentation/Guide/Data_Visualization/Charts/Chart_Elements/#Panes) the series should belong to. Accepts the [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#name) of the pane.
+Specifies which [pane](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Panes) the series should belong to. Accepts the [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#name) of the pane.
 <!--/shortDescription-->
 
 <!--fullDescription-->

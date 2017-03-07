@@ -1,4 +1,4 @@
-Exposes the**CheckBox**widget.
+Exposes the **CheckBox** widget.
 
 Exports:
 

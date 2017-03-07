@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/ToolbarButton/step1/index.html" data-show-first="views/home.html">
+<article data-show="/Content/Applications/16_2/framework/ToolbarButton/step1/index.html" data-show-first="views/home.html">
 
 To add commands to views, create a [simple application](/Documentation/Tutorial/SPA_Framework/Change_a_View_Title_Dynamically/#Prepare_a_Simple_Application).
 

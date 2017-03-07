@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A Date object, a number or a string specifying the date currently selected via the calendar. String is accepted only in the following formats: 'yyyy/MM/dd', 'yyyy/MM/dd HH:mm:ss'.<!--/d-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Date | number | string<!--/type-->

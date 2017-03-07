@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Marker attributes<!--/d-->
-<!--dep-->Specify attributes in the 'properties' field of a GeoJSON feature (http://geojson.org/geojson-spec.html#feature-objects)<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->object<!--/type-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Border settings of point<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\..\LineSeries\LineSeries.md,..\..\..\AreaSeries\AreaSeries.md,..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--type-->object<!--/type-->

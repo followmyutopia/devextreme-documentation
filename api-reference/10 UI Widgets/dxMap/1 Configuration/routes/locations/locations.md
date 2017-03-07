@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->(required) Contains an array of objects making up the route. These objects have the same structure as an object passed to the 'center' option.<!--/d-->
 ===========================================================================
 <!--type-->array<!--/type-->
 <!--inherits-->..\..\..\..\MapLocation\MapLocation.md<!--/inherits-->
@@ -15,7 +14,21 @@ Contains an array of objects making up the route.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-These objects have the same structure as an object passed to the [center](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/center/) option.
+You can specify the **locations** value in one of the following formats.
 
+ - { lat: 40.749825, lng: -73.987963}
+ - "40.749825, -73.987963"
+ - [40.749825, -73.987963]
+ - 'Brooklyn Bridge,New York,NY'
 
+When you configure the **Map** using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `Address()` or `Coordinates()` method as shown in the following code.
+
+    @(Html.DevExtreme().Map()
+        .Routes(routes => {
+            routes.Add().Locations(locations => {
+                locations.Add().Address("Brooklyn Bridge,New York,NY");
+                locations.Add().Coordinates(40.753889, -73.95);
+            });
+        })
+    )
 <!--/fullDescription-->

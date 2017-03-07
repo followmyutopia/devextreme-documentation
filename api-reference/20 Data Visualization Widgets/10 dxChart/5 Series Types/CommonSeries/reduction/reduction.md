@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Reduction options<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\CandleStickSeries\CandleStickSeries.md,..\..\StockSeries\StockSeries.md<!--/propertyOf-->
 <!--type-->object<!--/type-->

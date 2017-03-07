@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Reduction color<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\CandleStickSeries\CandleStickSeries.md,..\..\StockSeries\StockSeries.md<!--/propertyOf-->
 <!--default-->'#000000'<!--/default-->

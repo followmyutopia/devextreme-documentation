@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The end edge of the interval currently selected via the rangeslider.<!--/d-->
 ===========================================================================
 <!--default-->60<!--/default-->
 <!--type-->number<!--/type-->

@@ -4,7 +4,7 @@ A server-side wrapper can access [JSON](http://www.json.org/) data returned from
         .DataSource("http://www.example.com/dataservices/jsondata")
     )
 
-<!--------------------->
+<!---->
 
     @(Html.DevExtreme().SelectBox()
         .DataSource(@Url.Content("~/dataservices/jsondata"))

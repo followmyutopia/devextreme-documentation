@@ -1,10 +1,10 @@
 //<!--@Knockout-->
 var myViewModel = {
     galleryDataSource: new DevExpress.data.DataSource([
-        { src: "/Content/images/doc/16_1/PhoneJS/person1.png", name: "Maria", age: 28 },
-        { src: "/Content/images/doc/16_1/PhoneJS/person2.png", name: "John", age: 26 },
-        { src: "/Content/images/doc/16_1/PhoneJS/person3.png", name: "Xavier", age: 27 },
-        { src: "/Content/images/doc/16_1/PhoneJS/person4.png", name: "Amanda", age: 24 }
+        { src: "/Content/images/doc/16_2/PhoneJS/person1.png", name: "Maria", age: 28 },
+        { src: "/Content/images/doc/16_2/PhoneJS/person2.png", name: "John", age: 26 },
+        { src: "/Content/images/doc/16_2/PhoneJS/person3.png", name: "Xavier", age: 27 },
+        { src: "/Content/images/doc/16_2/PhoneJS/person4.png", name: "Amanda", age: 24 }
     ]),
     sortConditions: ["none", "name", "age"],
     sortConditionChanged: function (e) {
@@ -18,10 +18,10 @@ ko.applyBindings(myViewModel);
 var myApp = angular.module('myApp', ['dx']);
 myApp.controller("demoController", function ($scope) {
     $scope.galleryDataSource = new DevExpress.data.DataSource([
-        { src: "/Content/images/doc/16_1/PhoneJS/person1.png", name: "Maria", age: 28 },
-        { src: "/Content/images/doc/16_1/PhoneJS/person2.png", name: "John", age: 26 },
-        { src: "/Content/images/doc/16_1/PhoneJS/person3.png", name: "Xavier", age: 27 },
-        { src: "/Content/images/doc/16_1/PhoneJS/person4.png", name: "Amanda", age: 24 }
+        { src: "/Content/images/doc/16_2/PhoneJS/person1.png", name: "Maria", age: 28 },
+        { src: "/Content/images/doc/16_2/PhoneJS/person2.png", name: "John", age: 26 },
+        { src: "/Content/images/doc/16_2/PhoneJS/person3.png", name: "Xavier", age: 27 },
+        { src: "/Content/images/doc/16_2/PhoneJS/person4.png", name: "Amanda", age: 24 }
     ]);
     $scope.sortConditions = ["none", "name", "age"];
     $scope.sortConditionChanged = function (e) {
@@ -35,10 +35,10 @@ angular.element(document).ready(function () {
 //<!--/@AngularJS-->
 //<!--@jQuery-->
 var galleryDataSource = new DevExpress.data.DataSource([
-        { src: "/Content/images/doc/16_1/PhoneJS/person1.png", name: "Maria", age: 28 },
-        { src: "/Content/images/doc/16_1/PhoneJS/person2.png", name: "John", age: 26 },
-        { src: "/Content/images/doc/16_1/PhoneJS/person3.png", name: "Xavier", age: 27 },
-        { src: "/Content/images/doc/16_1/PhoneJS/person4.png", name: "Amanda", age: 24 }
+        { src: "/Content/images/doc/16_2/PhoneJS/person1.png", name: "Maria", age: 28 },
+        { src: "/Content/images/doc/16_2/PhoneJS/person2.png", name: "John", age: 26 },
+        { src: "/Content/images/doc/16_2/PhoneJS/person3.png", name: "Xavier", age: 27 },
+        { src: "/Content/images/doc/16_2/PhoneJS/person4.png", name: "Amanda", age: 24 }
 ]);
 $("#myGallery").dxGallery({
     dataSource: galleryDataSource,

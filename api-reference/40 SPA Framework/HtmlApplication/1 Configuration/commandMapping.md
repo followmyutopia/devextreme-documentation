@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the command mapping<!--/d-->
 ===========================================================================
 <!--default-->DevExpress.framework.CommandMapping.defaultMapping<!--/default-->
 <!--type-->object<!--/type-->
@@ -15,7 +14,7 @@ Specifies where the [commands](/Documentation/Guide/SPA_Framework/Views_and_Layo
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When adding a command to a view, specify in which command container this command must be displayed. For this purpose, do the following.
+When adding a command to a view, specify in which command container this command must be displayed. For this purpose do the following.
 
 - Learn in which layout the view that contains this command will be displayed.  
 	If you use a predefined layout set, read [this topic](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Ready-to-Use_Layout_Sets) to learn in which layout your view will be displayed.
@@ -38,7 +37,7 @@ You found/introduced a layout for this view and found/introduced the desired com
 
     <!--HTML--><div data-options="dxCommandContainer: { id: 'my-container' }"></div>
 
-Here is command mapping that must be defined to display your command in the required command container.
+Here is the command mapping that must be defined to display your command in the required command container.
 
     <!--JavaScript-->MyApp.app = new DevExpress.framework.HtmlApplication({
         commandMapping: {
@@ -78,10 +77,11 @@ The following fields can be set for commands.
 
 Command options override the corresponding defaults that are declared for all commands of a particular command container.
 
-[note]If you use [predefined layouts](/Documentation/Guide/SPA_Framework/Built-in_Layouts/), you are only required to define mapping for your custom commands. An application loads default command mapping and extends it by your custom command mapping declared within the application's configuration object. To learn what commands are mapped to the built-in layouts by default, refer to the [Default Command Mapping](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Default_Command_Mapping) topic.
+[note]If you use [predefined layouts](/Documentation/Guide/SPA_Framework/Built-in_Layouts/), it is only required to define a mapping for your custom commands. An application loads default command mapping and extends it by your custom command mapping declared within the application's configuration object. To learn what commands are mapped to the built-in layouts by default, refer to the [Default Command Mapping](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Default_Command_Mapping) topic.
 
 #####See Also#####
-- For details on how to add commands to views, refer to the [Add Commands to Views](/Documentation/Guide/SPA_Framework/Views_and_Layouts#Add_Commands_to_Views) topic.
-- See step-by-step examples in the [Add a Toolbar Button](/Documentation/Tutorial/SPA_Framework/Add_a_Toolbar_Button#Add_a_Toolbar_Button) and [Add a Menu Item](/Documentation/Tutorial/SPA_Framework/Add_a_Menu_Item#Add_a_Menu_Item) tutorials.
+- [SPA Framework - Add Commands to Views](/Documentation/Guide/SPA_Framework/Views_and_Layouts#Add_Commands_to_Views)
+- [SPA Framework - Add a Toolbar Button](/Documentation/Tutorial/SPA_Framework/Add_a_Toolbar_Button#Add_a_Toolbar_Button)
+- [SPA Framework - Add a Menu Item](/Documentation/Tutorial/SPA_Framework/Add_a_Menu_Item#Add_a_Menu_Item)
 
 <!--/fullDescription-->

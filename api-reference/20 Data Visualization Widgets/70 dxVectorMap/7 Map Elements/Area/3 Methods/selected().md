@@ -4,11 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns selection state of underlying element
-<!--/d-->
-<!--rd-->Shows whether the area is selected<!--/rd-->
-<!--dep-->Use the 'selected()' method of the Layer Element<!--/dep-->
+<!--dep--><!--/dep-->
 ===================================================================
 ===================================================================
 

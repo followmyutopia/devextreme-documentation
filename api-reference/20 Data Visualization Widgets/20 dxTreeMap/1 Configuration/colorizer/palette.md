@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Palette<!--/d-->
 ===========================================================================
 <!--default-->'Default'<!--/default-->
 <!--acceptValues-->'Default' | 'Soft Pastel' | 'Harmony Light' | 'Pastel' | 'Bright' | 'Soft' | 'Ocean' | 'Vintage' | 'Violet'<!--/acceptValues-->
@@ -16,7 +15,7 @@ Sets the palette to be used for colorizing tiles.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts either the name of a [predefined palette](/Documentation/Guide/Data_Visualization/Common/Appearance_Customization/#Palettes) or an array of colors. The array can include the following colors.
+This option accepts either the name of a [predefined palette](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes) or an array of colors. The array can include the following colors.
 
 * Hexadecimal colors        
 * RGB colors        
@@ -46,4 +45,6 @@ But the *"gradient"* and *"range"* types require strictly two colors.
             range: [0, 1000]
         }
     }
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option using the `VizPalette` enum. This enum accepts the following values: `Default`, `SoftPastel`, `HarmonyLight`, `Pastel`, `Bright`, `Soft`, `Ocean`, `Vintage` and `Violet`.
 <!--/fullDescription-->

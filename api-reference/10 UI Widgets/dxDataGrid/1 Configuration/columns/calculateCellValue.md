@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function which to return a value for display and edit in a cell. To invoke the default behavior, call defaultCalculateCellValue.<!--/d-->
 ===========================================================================
 <!--type-->function(rowData)<!--/type-->
-<!--fp1d-->The data object represented by the current grid row.<!--/fp1d-->
-<!--frd-->A value to be displayed within a column cell.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Expands specific group in the list.
-<!--/d-->
-<!--p1d-->The group index.<!--/p1d-->
-<!--rd-->A Promise of jQuery Deferred object resolved when group expanding is complete.<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -28,5 +23,6 @@ A Promise of the jQuery Deferred object that is resolved if the group is expande
 <!--/returnDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Expand and Collapse a Group](/Documentation/Guide/Widgets/List/Grouping/Expand_and_Collapse_a_Group/)
 <!--/fullDescription-->

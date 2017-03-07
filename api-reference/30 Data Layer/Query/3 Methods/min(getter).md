@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Shortcut for select(getter).min()
-<!--/d-->
-<!--p1d-->expression<!--/p1d-->
-<!--rd-->Promise of jQuery.Deferred. Resolves with summary value or rejects with an Error object<!--/rd-->
 ===================================================================
 ===================================================================
 

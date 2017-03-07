@@ -35,4 +35,4 @@ For instance, you can handle the **viewShowing** event to get the required data 
 		};
 	};
 
-See a step-by-step example in the <a href="/Documentation/16_1/Tutorial/SPA_Framework/Handle_View_Events#Handle_View_Events">Handle View Events</a> tutorial.
+See a step-by-step example in the <a href="/Documentation/16_2/Tutorial/SPA_Framework/Handle_View_Events#Handle_View_Events">Handle View Events</a> tutorial.

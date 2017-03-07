@@ -4,15 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies a formatting configuration.
-If format value is a string, it is an alias for the 'type' field.
-If format value is a function, it is an alias for the 'formatter' field<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'currency' | 'fixedPoint' | 'percent' | 'decimal' | 'exponential' | 'largeNumber' | 'thousands' | 'millions' | 'billions' | 'trillions' | 'longDate' | 'longTime' | 'longDateLongTime' | 'monthAndDay' | 'monthAndYear' | 'quarterAndYear' | 'shortDate' | 'shortTime' | 'shortDateShortTime' | 'second' | 'millisecond' | 'day' | 'month' | 'quarter' | 'year' | 'dayOfWeek' | 'hour' | 'minute'<!--/acceptValues-->
 <!--type-->String | function | Object<!--/type-->
-<!--fp1d-->The value needs to be formatted.<!--/fp1d-->
-<!--frd-->The formatted value<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -25,7 +20,7 @@ This option accepts three types of values.
 * **String**  
  One of the predefined formats (accepted by the [type](/Documentation/ApiReference/Common/Object_Structures/format/#type) option) or a date format string (accepted by the [raw option](https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md#parameters) of the Globalize [date formatter](https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md)). For  information on values accepted by the raw option, refer to the [LDML documentation](http://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table).
 
- [note]The use of a custom date format requires Globalize libraries to be referenced within your application. For more information on using the Globalize library, refer to the [Localization](/Documentation/Guide/UI_Widgets/Common/Localization/) guide.
+ [note]The use of a custom date format requires Globalize libraries to be referenced within your application. For more information on using the Globalize library, refer to the [Localization](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) guide.
 
 * **Function**  
  Specifies a custom format. A shortcut for the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) option.

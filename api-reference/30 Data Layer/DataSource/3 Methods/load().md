@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Initiates data loading.
-<!--/d-->
-<!--rd-->A Promise of jQuery Deferred object which is resolved when load in complete and rejected if load fails. The promise object will contain the 'operationId' field used to identify that concrete load operation.<!--/rd-->
 ===================================================================
 ===================================================================
 

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies when to show scrollbar. Still accepts boolean true|false (true is equivalent to 'onScroll' and false is equivalent to 'never'). This option is supported only when 'useNative' is false.<!--/d-->
 ===========================================================================
 <!--default-->'onScroll'<!--/default-->
 <!--custom_default_for_desktop-->'onHover'<!--/custom_default_for_desktop-->
@@ -19,5 +18,5 @@ Specifies when the widget shows the scrollbar.
 <!--fullDescription-->
 Setting this option makes sense only when the [useNative]({basewidgetpath}/Configuration/#useNative) option is set to *false*.
 
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ShowScrollbarMode` enum. This enum accepts the following values: `OnScroll`, `OnHover`, `Always` and `Never`.
 <!--/fullDescription-->

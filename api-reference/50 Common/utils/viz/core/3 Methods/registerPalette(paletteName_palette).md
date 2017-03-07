@@ -4,12 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-registerPalette method
-<!--/d-->
-<!--p1d-->Palette name<!--/p1d-->
-<!--p2d-->Palette<!--/p2d-->
-<!--dep-->Use the DevExpress.viz.registerPalette(paletteName, palette) method instead.<!--/dep-->
+<!--dep--><!--/dep-->
 ===================================================================
 ===================================================================
 

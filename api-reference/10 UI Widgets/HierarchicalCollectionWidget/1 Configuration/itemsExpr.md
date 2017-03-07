@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines an expression returning children for a chosen item.<!--/d-->
 ===========================================================================
 <!--default-->'items'<!--/default-->
 <!--type-->string | function<!--/type-->

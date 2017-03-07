@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies DOM event names which cause the widget value updating. Requires editEnabled set to true.<!--/d-->
 ===========================================================================
 <!--default-->'change'<!--/default-->
 <!--type-->string<!--/type-->

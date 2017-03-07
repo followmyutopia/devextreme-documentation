@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Scrolls list to specified position.
-<!--/d-->
-<!--p1d-->A position to scroll to.<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -22,5 +18,6 @@ The position to scroll to (in pixels).
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [List - Scrolling API](/Documentation/Guide/Widgets/List/Scrolling/#API)
 <!--/fullDescription-->

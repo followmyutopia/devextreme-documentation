@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Type scale<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'logarithmic' | 'continuous' | 'discrete' | 'semidiscrete'<!--/acceptValues-->
@@ -47,6 +46,8 @@ Another example: a semidiscrete scale built on numeric values. This time, the sc
             minRange: 10
         }
     };
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `RangeSelectorAxisScaleType` enum. This enum accepts the following values: `Discrete`, `Continuous`, `Logarithmic` and `Semidiscrete`.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectorlogarithmicscale/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

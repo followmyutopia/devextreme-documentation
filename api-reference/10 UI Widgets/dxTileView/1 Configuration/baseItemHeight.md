@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the base item height. All item heights are a multiple of this value.<!--/d-->
 ===========================================================================
 <!--default-->100<!--/default-->
 <!--type-->number<!--/type-->

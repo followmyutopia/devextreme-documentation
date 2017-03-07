@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-A method that should be called to process a user interaction with a device hardware back button
-<!--/d-->
 ===================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_mobile_process_hardware_back_button">mobile/process_hardware_back_button</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_mobile_process_hardware_back_button">mobile/process_hardware_back_button</a><!--/module-->
+<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->

@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-static method which defines default options for component on specific target context
-<!--/d-->
-<!--p1d-->Rule has following structure { device: plain object representing device parameters|array of plain objects representing device parameters|custom function with current device as input parameter returning boolean, options: plain object with option names and values }<!--/p1d-->
-<!--p1_field1d-->An object representing device parameters, or an array of objects representing device parameters, or a function that provides information on the current device as an input parameter and returning a Boolean value.<!--/p1_field1d-->
-<!--p1_field2d-->An object with option names and values<!--/p1_field2d-->
 ===================================================================
 ===================================================================
 

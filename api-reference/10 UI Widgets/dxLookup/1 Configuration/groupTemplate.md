@@ -4,14 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->A template name or a template container or a function returning one of them, which is used to render list groups. Or a function creating the group header. Has following signature groupTemplate(groupData, groupIndex, groupElement). Returns htmlString or Element or jQuery representing content of the group header.<!--/d-->
 ===========================================================================
 <!--default-->'group'<!--/default-->
 <!--type-->template<!--/type-->
-<!--fp1d-->An object representing the item to be rendered.<!--/fp1d-->
-<!--fp2d-->The index of the item to be rendered.<!--/fp2d-->
-<!--fp3d-->An HTML element containing the rendered item.<!--/fp3d-->
-<!--frd-->A template name or a template container. Or an HTML string, Element, or jQuery object representing the rendered item.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -19,7 +14,7 @@ The [name](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/C
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]A binding context of a group template is the data source object that corresponds to the currently rendered group. So, you can bind template elements to the group object fields directly. To access another binding context within a group template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[Angular](https://docs.angularjs.org/guide/scope) binding variables.
+[note]A binding context of a group template is the data source object that corresponds to the currently rendered group. So, you can bind template elements to the group object fields directly. To access another binding context within a group template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
 
 
 <!--/fullDescription-->

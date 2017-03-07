@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->If true, dropdown popup content is rendered on first opening. Otherwise it is rendered immediately when the widget is being rendered.<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

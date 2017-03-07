@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Custom major tick values for scale<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

@@ -4,9 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The custom rules of mask. The rule is a hash of following format { '[pattern_char]': '[accepting_value]' }
-[pattern_char] - is a char to use in mask
-[accepting_value] - defines what is allowed to type. Accepts 'char'|/regular expression/|[array of allowed chars]|function(char, index, text) { return [whether a char should be accepted] }<!--/d-->
 ===========================================================================
 <!--default-->'{}'<!--/default-->
 <!--type-->Object<!--/type-->
@@ -21,7 +18,7 @@ Each field of an object passed to this option corresponds to a single rule. A fi
 
     <!--JavaScript-->
     var CustomMaskRules = {
-        // a single character
+        //a single character
         's': '$',
 
         // a regular expression

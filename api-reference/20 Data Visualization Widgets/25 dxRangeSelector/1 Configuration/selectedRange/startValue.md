@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Start value of selected range<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->number | date | string<!--/type-->

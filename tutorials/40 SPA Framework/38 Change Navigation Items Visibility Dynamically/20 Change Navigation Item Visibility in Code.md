@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/DynamicNavItems/step2/index.html" data-show-first="views/login.js">
+<article data-show="/Content/Applications/16_2/framework/DynamicNavItems/step2/index.html" data-show-first="views/login.js">
 
 You have set the **navigation** option of the **HtmlApplication** object to an array of objects in  the previous step. These objects are used by the application as configuration objects for creating [commands](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxCommand/). In a UI, these commands will be displayed as navbar or slideout items depending on the layouts used in the application. You can access these commands in code, using the [navigation](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#navigation) field of the **HtmlApplication** object. In this application, you will use the **navigation** field to change the visibility of specific commands (navigation items in a UI).
 

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The message which is displayed when file upload is complete<!--/d-->
 ===========================================================================
 <!--default-->'Uploaded'<!--/default-->
 <!--type-->string<!--/type-->

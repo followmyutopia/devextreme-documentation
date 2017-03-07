@@ -4,15 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed each time the widget is resized by one pixel.<!--/d-->
 <!--EventForAction-->..\4 Events\resize.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
 ===========================================================================
 
 <!--shortDescription-->

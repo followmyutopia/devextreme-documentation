@@ -4,17 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when an appointment is added to the data source.<!--/d-->
 <!--EventForAction-->..\4 Events\appointmentAdded.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Data of the appointment<!--/fp1_field4d-->
-<!--fp1_field5d-->Information on the occurred error during adding.<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->

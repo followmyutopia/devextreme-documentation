@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Order of sorting for field<!--/d-->
 ===========================================================================
 <!--default-->'asc'<!--/default-->
 <!--acceptValues-->'asc' | 'desc'<!--/acceptValues-->
@@ -16,5 +15,5 @@ Specifies the sort order of field values.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `SortOrder` enum. This enum accepts the following values: `Asc` and `Desc`.
 <!--/fullDescription-->

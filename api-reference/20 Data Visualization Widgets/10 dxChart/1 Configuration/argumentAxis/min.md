@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Minimum value of argument axis<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->number | datetime | string<!--/type-->

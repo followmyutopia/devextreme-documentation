@@ -4,17 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Label custom format function<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(itemInfo)<!--/type-->
-<!--fp1d-->Information about the legend item<!--/fp1d-->
-<!--fp1_field1d-->Specifies start of the group.<!--/fp1_field1d-->
-<!--fp1_field2d-->Specifies end of the group.<!--/fp1_field2d-->
-<!--fp1_field3d-->Specifies index of the item.<!--/fp1_field3d-->
-<!--fp1_field4d-->Specifies color of the item (for 'areaColorGroups' and 'markerColorGroups')<!--/fp1_field4d-->
-<!--fp1_field5d-->Specifies size of the item (for 'markerSizeGroups')<!--/fp1_field5d-->
-<!--frd-->The text to be displayed by a legend item.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -47,12 +39,12 @@ The index of the group indicated by the legend item.
 <!--typeFunctionParamName1_field4-->color<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string|undefined<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The color of the legend item. This field is <i>undefined</i> if the <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#source">source</a> is <i>'markerSizeGroups'</i>.
+The color of the legend item. This field is <i>undefined</i> if the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#source">source</a> is <i>'markerSizeGroups'</i>.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->size<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->number|undefined<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The diameter of the legend item in pixels. This field is <i>undefined</i> if the <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#source">source</a> is <i>'areaColorGroups'</i> or <i>'markerColorGroups'</i>.
+The diameter of the legend item in pixels. This field is <i>undefined</i> if the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#source">source</a> is <i>'areaColorGroups'</i> or <i>'markerColorGroups'</i>.
 <!--/typeFunctionParamDescription1_field5-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

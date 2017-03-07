@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the radio group layout.<!--/d-->
 ===========================================================================
 <!--default-->'vertical'<!--/default-->
 <!--custom_default_for_tablets-->'horizontal'<!--/custom_default_for_tablets-->
@@ -25,5 +24,5 @@ The following values are available.
 - 'horizontal'  
 	Radio buttons are arranged horizontally - as a row.
 
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `Orientation` enum. This enum accepts the following values: `Horizontal` and `Vertical`.
 <!--/fullDescription-->

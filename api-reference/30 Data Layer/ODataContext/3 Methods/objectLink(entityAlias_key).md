@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Creates a special proxy object to describe entity link. Used in insert and update.
-<!--/d-->
-<!--p1d-->Entity type name (from entites config bag)<!--/p1d-->
-<!--p2d-->Entity key value<!--/p2d-->
-<!--rd-->Link object<!--/rd-->
 ===================================================================
 ===================================================================
 

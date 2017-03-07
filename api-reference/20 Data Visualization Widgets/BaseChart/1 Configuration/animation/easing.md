@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Animation easing function<!--/d-->
 ===========================================================================
 <!--default-->'easeOutCubic'<!--/default-->
 <!--acceptValues-->'easeOutCubic' | 'linear'<!--/acceptValues-->
@@ -23,4 +22,5 @@ The animation starts fast and slows down gradually towards the end.
 * **linear**   
 The animation progresses at a constant pace.
 
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VizAnimationEasing` enum. This enum accepts the following values: `EaseOutCubic` and `Linear`.
 <!--/fullDescription-->

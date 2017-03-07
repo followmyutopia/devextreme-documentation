@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name of the data source item field used as a description of appointment.<!--/d-->
 ===========================================================================
 <!--default-->'description'<!--/default-->
 <!--type-->string<!--/type-->

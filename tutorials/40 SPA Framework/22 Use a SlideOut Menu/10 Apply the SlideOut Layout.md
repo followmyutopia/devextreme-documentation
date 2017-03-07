@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_1/framework/AddSlideOutMenu/step1/index.html" data-show-first="index.js">
+<article data-show="/Content/Applications/16_2/framework/AddSlideOutMenu/step1/index.html" data-show-first="index.js">
 
 Use an [application project template](/Documentation/Guide/SPA_Framework/Application_Project/). In this application template, global navigation is organized via a navbar. You can modify this application so that a slide-out menu is used as a global navigation control. 
 

@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns a JavaScript object that is used within the data-options attribute to declare the template
-<!--/d-->
-<!--p1d-->Name of a view template<!--/p1d-->
-<!--rd-->A JavaScript object of the template declaration<!--/rd-->
 ===================================================================
 ===================================================================
 

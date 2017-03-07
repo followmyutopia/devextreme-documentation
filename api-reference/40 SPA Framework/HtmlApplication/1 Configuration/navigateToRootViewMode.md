@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the application behavior while navigating to a root view. By default the 'resetHistory' value is used and the root view is shown. If it is set to 'keepHistory', then the last shown view of the corresponding navigation stack is shown.<!--/d-->
 ===========================================================================
 <!--default-->'resetHistory'<!--/default-->
 <!--acceptValues-->'keepHistory' | 'resetHistory'<!--/acceptValues-->

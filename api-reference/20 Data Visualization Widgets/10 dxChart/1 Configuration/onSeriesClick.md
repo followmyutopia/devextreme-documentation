@@ -4,16 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Series click event<!--/d-->
 <!--EventForAction-->..\4 Events\seriesClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(e) | string<!--/type-->
-<!--fp1d-->Event argument<!--/fp1d-->
-<!--fp1_field1d-->Widget itself.<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container.<!--/fp1_field2d-->
-<!--fp1_field3d-->An extended jQuery event.<!--/fp1_field3d-->
-<!--fp1_field4d-->The clicked series<!--/fp1_field4d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -27,7 +21,7 @@ When implementing a handling function, use the object passed to it as its parame
 
 Alternatively, you can navigate to a specific URL when the **seriesClick** event fires. For this purpose, assign this URL to the **onSeriesClick** option.
 
-To learn more about handling click operations, and to see an example, refer to the [Click Handling](/Documentation/Guide/Data_Visualization/Charts/End-User_Interaction/#Click_Handling) topic.
+To learn more about handling click operations, and to see an example, refer to the [Click Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Click_Handling) topic.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesmultipleseriesselection/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
@@ -39,7 +33,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#instance">widget instance</a>.
+The <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#instance">widget instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->

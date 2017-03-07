@@ -1,4 +1,4 @@
-﻿<article data-show-web="/Content/Applications/16_1/Framework/UseRemoteDataforDataGrid/Solution/grid.html">
+﻿<article data-show-web="/Content/Applications/16_2/Framework/UseRemoteDataforDataGrid/Solution/grid.html">
 - Open the Index view and add a **div** element that will contain the widget.
 
         <!--HTML--><div id="myGrid"></div>
@@ -44,7 +44,7 @@
             });
         });
         
- [note]Do not create the Data Source object manually. It will be created by the grid internally. This is a **DataGrid** widget peculiarity. Other DevExtreme widgets can take on the manually created DataSource object. For details on grid data binding, refer to the [Data Binding](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Binding/) article.
+ [note]Do not create the Data Source object manually. It will be created by the grid internally. This is a **DataGrid** widget peculiarity. Other DevExtreme widgets can take on the manually created DataSource object. For details on grid data binding, refer to the [Data Binding](/Documentation/Guide/Widgets/DataGrid/Data_Binding/) article.
 
  At this step, you can run the project and confirm that the grid is displayed with all loaded data.
 
@@ -64,22 +64,7 @@
         
 
 - Sort grid data locally.  
-    By default, sorting is enabled in the **DataGrid** widget. However, this feature will not work because the sorting options that are passed to the remote server to get sorted data are not processed. You can read details on this in the [Data Binding](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Binding/#Data_Binding) | **Provide Data** | [Using a CustomStore](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Binding/#Provide_Data/Using_the_Data_Layer/Using_a_CustomStore) topic. In this tutorial, data sorting can be performed locally. For this purpose, set the **sorting** field of the [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/) configuration object to *false*.
- 
-        <!--JavaScript-->
-        $(function () {
-            $("#grid").dxDataGrid({
-                dataSource: gridDataSourceConfiguration,
-                columns:[
-                    'month',
-                    'recordLow',
-                    'recordHigh'
-                ],
-                remoteOperations: {
-                    sorting: false
-                }
-            });
-        });
+    By default, sorting is enabled and performed locally in the **DataGrid** widget. So, you can sort records in a column by clicking its [header](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Configuring_Column_Headers). In addition, you have an opportunity to sort data remotely, but this will work only if the server side supports sorting. You can read details in the [Use Custom Sources](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/) topic. In this tutorial, data sorting is performed locally.
 
 #####See Also#####
 - [Configure DataGrid Tutorial](/Documentation/Tutorial/UI_Widgets/Configure_DataGrid/#Configure_DataGrid) - detailed information on how to configure the **DataGrid** widget

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies if the command should be rendered before or after a view is shown<!--/d-->
 ===========================================================================
 <!--default-->'onViewShown'<!--/default-->
 <!--acceptValues-->'onViewShown' | 'onViewRendering'<!--/acceptValues-->

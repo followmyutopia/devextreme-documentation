@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Hides first (major) tick<!--/d-->
-<!--dep-->This functionality in not more available<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->boolean<!--/type-->

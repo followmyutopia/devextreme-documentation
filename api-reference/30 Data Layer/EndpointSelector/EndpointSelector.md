@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The endpoint selector. Constructor accepts a key-value collection, where key is type of string and value is an object with { local: 'local-url', production: 'production-url' } stucture<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_endpoint_selector">data/endpoint_selector</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_endpoint_selector">data/endpoint_selector</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 ===========================================================================
 

@@ -4,17 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when a widget item is selected.<!--/d-->
 <!--dep-->onItemSelectionChanged.md<!--/dep-->
 <!--EventForAction-->..\4 Events\itemSelected.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field7d-->Returns an object representing the node<!--/fp1_field7d-->
 ===========================================================================
 
 <!--deprecated-->
@@ -51,7 +45,7 @@ An HTML element of the widget.
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field7-->node<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->object<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->dxtreeviewnode<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-A <a href="Documentation/Guide/UI_Widgets/UI_Widget_Categories/Collection_Container_Widgets/#TreeViewNodes">node</a> of the selected item.
+A node of the selected item.
 <!--/typeFunctionParamDescription1_field7-->

@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-set a new dataSource state
-<!--/d-->
-<!--p1d-->dataSource state<!--/p1d-->
 ===================================================================
 ===================================================================
 
@@ -18,7 +14,7 @@ Sets the PivotGridDataSource state.
 <!--paramName1-->state<!--/paramName1-->
 <!--paramType1-->object<!--/paramType1-->
 <!--paramDescription1-->
-A PivotGridDataSource state returned by the <a href="/Documentation/16_1/ApiReference/Data_Layer/PivotGridDataSource/Methods/#state">state()</a> method.
+A PivotGridDataSource state returned by the <a href="/Documentation/16_2/ApiReference/Data_Layer/PivotGridDataSource/Methods/#state">state()</a> method.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

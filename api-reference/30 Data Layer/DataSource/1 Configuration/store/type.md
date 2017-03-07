@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Store type. 'breeze', 'jaydata' and 'parse' values can be used only with corresponding plugin.<!--/d-->
 ===========================================================================
 <!--acceptValues-->'array' | 'local' | 'odata'<!--/acceptValues-->
 <!--type-->string<!--/type-->

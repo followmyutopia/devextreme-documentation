@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Determine if item is selected.
-<!--/d-->
-<!--p1d-->The item element node.<!--/p1d-->
-<!--rd-->A Boolean value specifying whether item is selected.<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -28,5 +23,6 @@ A Boolean value specifying whether or not the requested item is selected.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-To determine which items are currently selected, use the widget's [option](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#optionoptionName) method, passing the [selectedItems](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectedItems) as a parameter.
+#####See Also#####
+- [List - Selection API](/Documentation/Guide/Widgets/List/Selection/#API)
 <!--/fullDescription-->

@@ -1,0 +1,20 @@
+<!--**
+/*-------------------------------------------
+    Auto-generated file. Do not modify.
+-------------------------------------------
+
+**-->
+===========================================================================
+<!--default-->'onMovingComplete'<!--/default-->
+<!--acceptValues-->'onMovingComplete' | 'onMoving'<!--/acceptValues-->
+<!--type-->string<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+Specifies when to call the [onValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#onValueChanged) function.
+<!--/shortDescription-->
+
+<!--fullDescription-->
+#####See Also#####
+- [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value)
+<!--/fullDescription-->

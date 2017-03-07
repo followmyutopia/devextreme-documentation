@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options of load panel<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options configuring the [load panel](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Load_Panel).
+Specifies options configuring the [load panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Load_Panel).
 <!--/shortDescription-->
 
 <!--fullDescription-->

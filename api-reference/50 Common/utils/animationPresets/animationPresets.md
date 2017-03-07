@@ -4,9 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Object that represents a central animations configuration point providing access to a 'name-value' repository of animation configurations.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_animation_presets">animation/presets</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_animation_presets">animation/presets</a><!--/module-->
+<!--export-->default<!--/export-->
 ===========================================================================
 
 <!--shortDescription-->

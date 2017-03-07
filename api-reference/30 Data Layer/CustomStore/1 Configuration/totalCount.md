@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->User implementation of total count evaluation. Accepts arguments same as load. Must return Number or promise(Number)<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->An object specifying data shaping options<!--/fp1d-->
-<!--fp1_field1d-->Filter expression<!--/fp1_field1d-->
-<!--fp1_field2d-->Group expression<!--/fp1_field2d-->
-<!--frd-->A Promise/A implementation resolved after the total item count is obtained.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

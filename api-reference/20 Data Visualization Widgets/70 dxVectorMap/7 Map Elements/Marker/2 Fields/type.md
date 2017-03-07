@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Shows the type of underlying element - area or marker (it is not an option but a readonly flag)<!--/d-->
 <!--dep-->..\..\Layer\2 Fields\type.md<!--/dep-->
 ===========================================================================
 <!--type-->string<!--/type-->

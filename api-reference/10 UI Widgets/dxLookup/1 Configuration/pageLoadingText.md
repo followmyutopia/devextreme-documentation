@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->A text of panel showing when list is scrolled to the bottom<!--/d-->
 ===========================================================================
 <!--default-->'Loading...'<!--/default-->
 <!--type-->string<!--/type-->

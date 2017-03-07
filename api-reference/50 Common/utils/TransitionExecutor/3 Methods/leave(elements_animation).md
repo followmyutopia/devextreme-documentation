@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Registers a set of elements represented as jQuery object that should be animated as 'leaving' using the passed animation.
-<!--/d-->
-<!--p1d-->A set of elements to be animated<!--/p1d-->
-<!--p2d-->Animation as a configuration object or a name of a preset from the DevExpress.animationPresets collection<!--/p2d-->
 ===================================================================
 ===================================================================
 
@@ -25,7 +20,7 @@ A jQuery object including the elements to be animated.
 <!--paramName2-->animation<!--/paramName2-->
 <!--paramType2-->animationConfig|string<!--/paramType2-->
 <!--paramDescription2-->
-An object defining the target animation or the name of the animation that is registered in the <a href="/Documentation/16_1/ApiReference/Common/Utils/animationPresets">animationPresets</a> repository.
+An object defining the target animation or the name of the animation that is registered in the <a href="/Documentation/16_2/ApiReference/Common/Utils/animationPresets">animationPresets</a> repository.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

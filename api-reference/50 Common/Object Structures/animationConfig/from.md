@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->An object specifying the initial widget state.<!--/d-->
 ===========================================================================
 <!--default-->{}<!--/default-->
 <!--type-->number | string | object<!--/type-->
@@ -59,4 +58,12 @@ You can specify the initial or target element position relative to the current e
     to: {
         top: "+=200",
     }
+
+When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option with an object instead of the usual lambda expression.
+
+    @(Html.DevExtreme().WidgetName()
+        .Animation(a => a
+            .From(new { scale = 0.2, opacity = 0.7 })
+        )
+    )
 <!--/fullDescription-->

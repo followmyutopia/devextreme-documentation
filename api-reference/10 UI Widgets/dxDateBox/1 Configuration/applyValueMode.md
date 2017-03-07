@@ -24,7 +24,7 @@ The option accepts the following values.
 - 'instantly'  
  Applies the selected value immediately after a user clicks the required value in the drop-down menu. This value cannot be applied if the [pickerType](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType) is *"rollers"* or the [type](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#type) is *"datetime"*.
 
- 
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `EditorApplyValueMode` enum. This enum accepts the following values: `Instantly` and `UseButtons`.
 <!--/fullDescription-->
 <!--handmade-->
 <!--/handmade-->

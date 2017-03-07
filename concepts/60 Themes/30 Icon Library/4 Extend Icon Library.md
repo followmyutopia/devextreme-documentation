@@ -46,4 +46,4 @@ To make UI widgets display your icons correctly, the icon images should satisfy 
 PNG-24 with alpha channel
 
 - **resolution**  
-56x56 px, except for icons displayed on **NavBar** items in the iOs platform, which should be 76x76 px with 10 px transparent padding on each side. Thus, the image size without padding is 56x56 px.
+56x56 px, except for icons displayed on dxNavBar items in the iOs platform, which should be 76x76 px with 10 px transparent padding on each side. Thus, the image size without padding is 56x56 px.

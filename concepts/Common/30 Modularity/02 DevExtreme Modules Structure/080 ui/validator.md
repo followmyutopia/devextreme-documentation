@@ -1,7 +1,7 @@
-Exposes the dxValidator widget.
+Exposes the **Validator** widget.
 
 Exports:
 
-- *default* - The [dxValidator](/Documentation/ApiReference/UI_Widgets/dxValidator/) widget
+- *default* - The [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator/) widget
 
         require("ui/validator")

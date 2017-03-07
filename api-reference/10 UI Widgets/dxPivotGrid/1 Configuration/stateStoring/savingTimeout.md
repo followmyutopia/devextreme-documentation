@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The time in milliseconds to wait after last pivot grid changing for saving state.<!--/d-->
 ===========================================================================
 <!--default-->2000<!--/default-->
 <!--type-->number<!--/type-->

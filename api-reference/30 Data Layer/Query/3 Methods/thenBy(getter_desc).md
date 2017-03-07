@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Adds next level of sorting with direction to this query. Ref to getter/setter syntax. Chain function. Can be called only after sortBy or prev thenBy.
-<!--/d-->
-<!--p1d-->expression to sort by<!--/p1d-->
-<!--p2d-->descending if true<!--/p2d-->
-<!--rd-->this query<!--/rd-->
 ===================================================================
 ===================================================================
 

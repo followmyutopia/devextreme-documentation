@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options or array of options for chart series<!--/d-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->

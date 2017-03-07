@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Legend hover mode<!--/d-->
 ===========================================================================
 <!--default-->'allArgumentPoints'<!--/default-->
 <!--acceptValues-->'allArgumentPoints' | 'none'<!--/acceptValues-->
@@ -19,4 +18,6 @@ Specifies what chart elements to highlight when a corresponding item in the lege
 In the **PieChart** widget, legend items represent series points. When a legend item is hovered over, the corresponding series point is highlighted. To prevent this behavior, set the **hoverMode** property to *'none'*.
 
 You can set a custom 'hover' style for series points. To do this, use the **series** | **hoverStyle** configuration object.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ChartLegendHoverMode` enum. This enum accepts the following values: `AllArgumentPoints` and `None`.
 <!--/fullDescription-->

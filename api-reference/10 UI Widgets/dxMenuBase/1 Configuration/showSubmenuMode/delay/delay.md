@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Number of milliseconds, after that submenu would be shown or hidden<!--/d-->
 ===========================================================================
 <!--default-->{ show: 50, hide: 300 }<!--/default-->
 <!--type-->Object | number<!--/type-->

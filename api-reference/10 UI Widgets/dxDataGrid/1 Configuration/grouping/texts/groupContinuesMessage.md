@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Group Continues Message<!--/d-->
 ===========================================================================
 <!--default-->'Continues on the next page'<!--/default-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the message displayed in a [group row](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Group_Rows) when the corresponding group continues on the next page.
+Specifies the message displayed in a [group row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) when the corresponding group continues on the next page.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -4,13 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The event for handling when drag gesture is finished.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_drag">events/drag</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_drag">events/drag</a><!--/module-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A jQuery event object.<!--/fp1d-->
-<!--fp1_field1d-->Indicates which distance was passed by gesture. Measured in realtive units to the target element.<!--/fp1_field1d-->
-<!--fp1_field2d-->Used to prevent the gesture. Must be assigned to 'true' value to cancel gesture.<!--/fp1_field2d-->
 ===========================================================================
 
 <!--shortDescription-->

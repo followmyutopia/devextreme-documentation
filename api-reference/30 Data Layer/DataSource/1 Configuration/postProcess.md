@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Optional whole-data transformation function. Applied to the whole loaded data array. Sample usage: custom grouping on the client side.<!--/d-->
 ===========================================================================
 <!--type-->function<!--/type-->
-<!--fp1d-->The initial data array<!--/fp1d-->
-<!--frd-->The processed data array<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Title position<!--/d-->
-<!--dep-->BaseWidgetOptions_title_horizontalalignment and BaseWidgetOptions_title_horizontalalignment<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->'top-center'<!--/default-->
 <!--acceptValues-->'top-left' | 'top-center' | 'top-right' | 'bottom-left' | 'bottom-center' | 'bottom-right'<!--/acceptValues-->

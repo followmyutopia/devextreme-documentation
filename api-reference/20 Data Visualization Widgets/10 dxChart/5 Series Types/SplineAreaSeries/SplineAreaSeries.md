@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common splinearea options<!--/d-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->object<!--/type-->
@@ -16,7 +15,7 @@ Describes settings supported by a series of the *spline area* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts SplineAreaSeriesType](/Content/images/doc/16_1/ChartJS/SplineArea.png)
+![DevExtreme HTML5 Charts SplineAreaSeriesType](/Content/images/doc/16_2/ChartJS/SplineArea.png)
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsareaseriesspline/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

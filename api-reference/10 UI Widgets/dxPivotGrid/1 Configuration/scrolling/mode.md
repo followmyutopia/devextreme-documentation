@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Scrolling mode<!--/d-->
 ===========================================================================
 <!--default-->'standard'<!--/default-->
 <!--acceptValues-->'standard' | 'virtual'<!--/acceptValues-->
@@ -24,5 +23,7 @@ There are two different scrolling modes.
 - **Virtual Mode**		
 	In a virtual scrolling mode, the grid loads a summary value at runtime when it gets into a field of vision. Once a summary cell is out of the field of vision, it is removed from the grid. This behavior allows an end-user to scroll through large amounts of grid records without notable lags.      
     
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PivotGridScrollingMode` enum. This enum accepts the following values: `Standard` and `Virtual`.
+
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/data_grid-pivot_grid-virtual_scrolling" class="button orange small fix-width-155" style="margin-right:20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

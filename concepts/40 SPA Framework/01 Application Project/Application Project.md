@@ -5,7 +5,7 @@ Applications created using the DevExtreme framework are single-page applications
         <meta charset="utf-8" />
         <!-- Links to themes and styles -->
         <!-- Links to the required scripts -->
-        <script type="text/javascript" src="/js/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="/js/jquery-3.1.0.min.js"></script>
         <script type="text/javascript" src="/js/knockout-3.4.0.js"></script>
         <script type="text/javascript" src="/js/dx.mobile.js"></script>
         <!-- Links to layouts -->   
@@ -66,13 +66,7 @@ It is possible to organize everything on one page, but it will be difficult to s
 
 - **index.css** - a file where application style classes are defined
 
-This project template is available to you out-of-the-box. It contains view samples, as well as all included and referenced resources. You can find this template in the following locations.
-
-- [DevExtreme Mobile](/Documentation/Guide/Common/DevExtreme_Packages/#DevExtreme_Mobile)/[DevExtreme Web](/Documentation/Guide/Common/DevExtreme_Packages/#DevExtreme_Web)  
-    The **Application Templates/Knockout** folder of the DevExtreme zip archive.
-
-- [DevExtreme Complete](/Documentation/Guide/Common/DevExtreme_Packages/#DevExtreme_Complete)  
-    Basic and multi-channel [project templates](/Documentation/Guide/VS_Integration/Project_Templates/) available within the Visual Studio project templates. 
+This project template is available to you out-of-the-box. It contains view samples, as well as all included and referenced resources. You can find this template in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources** by default.
 
 Read below to learn about the different parts of a DevExtreme application project.
 

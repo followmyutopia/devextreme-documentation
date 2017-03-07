@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies size grouping data; uses 'minSize', 'maxSize' and 'sizeGroupingField'; applies to layers which support the 'size' option<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->array<!--/type-->

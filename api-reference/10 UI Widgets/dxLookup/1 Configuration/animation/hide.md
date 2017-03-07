@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The lookup hiding animation options<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->animationConfig<!--/type-->

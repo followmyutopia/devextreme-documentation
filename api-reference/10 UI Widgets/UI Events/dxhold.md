@@ -4,11 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->The event for handling long pressing and holding element. It support 'timeout' (number) option.<!--/d-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_hold">events/hold</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_hold">events/hold</a><!--/module-->
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->A jQuery event object.<!--/fp1d-->
 ===========================================================================
 
 <!--shortDescription-->

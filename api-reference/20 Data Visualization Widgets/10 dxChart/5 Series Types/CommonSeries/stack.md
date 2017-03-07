@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Default stack name. Use for stackedbar and fullstackedbar series.<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\StackedBarSeries\StackedBarSeries.md,..\FullStackedBarSeries\FullStackedBarSeries.md<!--/propertyOf-->
 <!--default-->'default'<!--/default-->

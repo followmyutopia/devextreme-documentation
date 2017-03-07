@@ -33,9 +33,9 @@ $(function () {
         chart: {
             series: seriesSettings
         },
-        behavior: { callSelectedRangeChanged: 'onMoving' },
-        onSelectedRangeChanged: function (e) {
-            chart.zoomArgument(e.startValue, e.endValue);
+        behavior: { callValueChanged: 'onMoving' },
+        onValueChanged: function (e) {
+            chart.zoomArgument(e.value[0], e.value[1]);
         }
     });
 
@@ -54,7 +54,7 @@ var viewModel = {
     seriesSettings: seriesSettings,
     zoomChart: function (e) {
         var chart = $("#chartContainer").dxChart('instance');
-        chart.zoomArgument(e.startValue, e.endValue);
+        chart.zoomArgument(e.value[0], e.value[1]);
     },
     checkBoxState: ko.observable(true)
 };
@@ -69,7 +69,7 @@ angular
         $scope.seriesSettings = seriesSettings;
         $scope.zoomChart = function (e) {
             var chart = $("#chartContainer").dxChart('instance');
-            chart.zoomArgument(e.startValue, e.endValue);
+            chart.zoomArgument(e.value[0], e.value[1]);
         };
         $scope.checkBoxState = true
     });

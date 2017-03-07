@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Animation options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 <!--inherits-->..\..\..\BaseGauge\1 Configuration\animation\animation.md<!--/inherits-->

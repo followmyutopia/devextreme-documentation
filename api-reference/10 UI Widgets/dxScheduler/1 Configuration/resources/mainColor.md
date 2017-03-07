@@ -4,8 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether resource contains main color<!--/d-->
-<!--dep-->Use the 'useColorAsDefault' property instead<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

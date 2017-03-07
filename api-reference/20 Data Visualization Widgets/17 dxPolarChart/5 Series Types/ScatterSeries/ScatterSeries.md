@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common scatter options<!--/d-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
 <!--type-->object<!--/type-->
@@ -16,7 +15,7 @@ An object defining a series of the **scatter** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![PolarScatterSeriesType ChartJS](/Content/images/doc/16_1/ChartJS/PolarScatter_useSpiderWeb.png)
+![PolarScatterSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/PolarScatter_useSpiderWeb.png)
 
-For details on the scatter series type, refer to the [Scatter](/Documentation/Guide/Data_Visualization/Charts/PolarChart_Series_Types/#Scatter) topic.
+For details on the scatter series type, refer to the [Scatter](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Scatter) topic.
 <!--/fullDescription-->

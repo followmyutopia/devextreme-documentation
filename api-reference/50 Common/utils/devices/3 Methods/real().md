@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Gets real device information.
-<!--/d-->
-<!--rd-->Device information object containing boolean fields - 'phone', 'tablet', 'android', 'ios', 'win', 'generic' and string fields 'platform' ('android'|'win'|'ios'), deviceType ('phone', 'tablet', 'desktop'), version<!--/rd-->
 ===================================================================
 ===================================================================
 

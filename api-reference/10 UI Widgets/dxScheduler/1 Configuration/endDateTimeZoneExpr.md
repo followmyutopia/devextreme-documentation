@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies the name of the data source item field used as an end date timezone of appointment.<!--/d-->
 ===========================================================================
 <!--default-->'endDateTimeZone'<!--/default-->
 <!--type-->string<!--/type-->

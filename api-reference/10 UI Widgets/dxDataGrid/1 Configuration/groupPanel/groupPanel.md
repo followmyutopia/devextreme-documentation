@@ -4,13 +4,12 @@
 -------------------------------------------
 
 **-->
-<!--d-->Options of group panel<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Configures the [group panel](/Documentation/Guide/UI_Widgets/Data_Grid/Visual_Elements/#Group_Panel).
+Configures the [group panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Panel).
 <!--/shortDescription-->
 
 <!--fullDescription-->

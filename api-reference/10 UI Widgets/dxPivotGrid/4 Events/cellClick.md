@@ -4,23 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called when a cell click event is thrown<!--/d-->
 ===========================================================================
 <!--type-->EVENT<!--/type-->
-<!--fp1d-->The options of the current cell.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->The area name.<!--/fp1_field4d-->
-<!--fp1_field5d-->The clicked cell as an element.<!--/fp1_field5d-->
-<!--fp1_field6d-->The cell object.<!--/fp1_field6d-->
-<!--fp1_field7d-->The current visible index of the row to which the clicked cell belongs.<!--/fp1_field7d-->
-<!--fp1_field8d-->The current visible index of the column to which the clicked cell belongs.<!--/fp1_field8d-->
-<!--fp1_field9d-->fields in the column area.<!--/fp1_field9d-->
-<!--fp1_field10d-->fields in the row area.<!--/fp1_field10d-->
-<!--fp1_field11d-->fields in the data area.<!--/fp1_field11d-->
-<!--fp1_field12d-->Returns a jQuery event that caused the action's execution<!--/fp1_field12d-->
-<!--fp1_field13d-->Prevents expansion.<!--/fp1_field13d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -33,9 +18,9 @@ Instead, you can use the [onCellClick](/Documentation/ApiReference/UI_Widgets/dx
 When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the clicked cell.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_jQuery/#Handle_Events)
-- [Handle Events - AngularJS](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_AngularJS/#Handle_Events)
-- [Handle Events - Knockout](/Documentation/Guide/UI_Widgets/Basics/Widget_Basics_-_Knockout/#Handle_Events)
+- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
+- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -45,7 +30,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -60,7 +45,7 @@ Data that is available for binding against the element. Available only in the Kn
 <!--typeFunctionParamName1_field4-->area<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The <a href="/Documentation/16_1/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/#area">area</a> to which the clicked cell belongs.
+The <a href="/Documentation/16_2/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/#area">area</a> to which the clicked cell belongs.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cellElement<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->jQuery<!--/typeFunctionParamType1_field5-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The position on the positioned element to align with the target element.<!--/d-->
 ===========================================================================
 <!--acceptValues-->'left' | 'right' | 'top' | 'bottom' | 'center' | 'left top' | 'left bottom' | 'right top' | 'right bottom'<!--/acceptValues-->
 <!--type-->string | object<!--/type-->
@@ -19,4 +18,12 @@ The **my** option can take on an object containing the **x** and **y** fields, w
 
     <!--JavaScript-->
     position: { my: 'left' };
+
+When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `HorizontalAlignment` and `VerticalAlignment` enums in the following manner.
+
+    @(Html.DevExtreme().WidgetName()
+        .Position(p => p
+            .My(HorizontalAlignment.Right, VerticalAlignment.Bottom)
+        )
+    )
 <!--/fullDescription-->

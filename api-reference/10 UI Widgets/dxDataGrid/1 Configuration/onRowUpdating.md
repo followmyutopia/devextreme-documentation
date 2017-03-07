@@ -4,19 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Customize before update row<!--/d-->
 <!--EventForAction-->..\4 Events\rowUpdating.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function(e)<!--/type-->
-<!--fp1d-->The info of a row.<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->The old data of the current row.<!--/fp1_field4d-->
-<!--fp1_field5d-->The new data of the current row.<!--/fp1_field5d-->
-<!--fp1_field6d-->The key current row.<!--/fp1_field6d-->
-<!--fp1_field7d-->The cancel updating row.<!--/fp1_field7d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -26,7 +17,7 @@ A handler for the [rowUpdating](/Documentation/ApiReference/UI_Widgets/dxDataGri
 <!--fullDescription-->
 The **rowUpdating** event fires before a row is updated in a data source. To handle this event, implement a function and assign it to the **onRowUpdating** option. Using the function's argument, you can access the object with information about the event.
 
-Among the fields of this object, you can find the **cancel** flag that allows you to prevent the row from being updated. In order to accomplish this, set this flag to *true*. The behavior of the rows, whose updating was canceled, depends on the [edit mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode). In [row mode](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Editing/#Editing_in_UI/Row_Mode), such a row does not switch back to the normal state. In [batch mode](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Editing/#Editing_in_UI/Batch_Mode), changes in such rows stay buffered. If you need to perform an asynchronous action before saving the updated row, assign a **jQuery.Promise** object to the **cancel** field. The row will be actually updated when the **jQuery.Promise** object is resolved.
+Among the fields of this object, you can find the **cancel** flag that allows you to prevent the row from being updated. In order to accomplish this, set this flag to *true*. The behavior of the rows, whose updating was canceled, depends on the [edit mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode). In [row mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Row_Mode), such a row does not switch back to the normal state. In [batch mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode), changes in such rows stay buffered. If you need to perform an asynchronous action before saving the updated row, assign a **jQuery.Promise** object to the **cancel** field. The row will be actually updated when the **jQuery.Promise** object is resolved.
 
 [note] In batch edit mode, when several rows are to be updated, the **onRowUpdating** function will be executed for each row individually.
 
@@ -40,7 +31,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -65,7 +56,7 @@ Row's updated data.
 <!--typeFunctionParamName1_field6-->key<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The key of the row. If a field providing keys is not specified in a <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">data source</a>, the whole data object is considered the key.
+The key of the row. If a field providing keys is not specified in a <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">data source</a>, the whole data object is considered the key.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->boolean|Promise<!--/typeFunctionParamType1_field7-->

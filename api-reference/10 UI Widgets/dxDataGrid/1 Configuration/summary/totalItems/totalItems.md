@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Summary options for items in a footer<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->array<!--/type-->
@@ -34,6 +33,6 @@ To specify the items of the total summary, declare an array of objects, each of 
 
 By default, a summary item is placed in the column that provides data for it. If you need to place it in another column, assign the identifier of this column to the [showInColumn](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#showInColumn) option.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgriddatasummariesgridtotals/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Demo</a>
+<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgriddatasummariesgridtotals/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <a href="https://www.youtube.com/watch?v=Ru43cnfrqGM&index=40&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 <!--/fullDescription-->

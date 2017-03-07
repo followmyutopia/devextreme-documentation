@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Cancels an execution of a load operation associated with passed identifier.
-<!--/d-->
-<!--rd-->True in case of successful cancellation or false if corresponding to passed identifier operation wasn't found<!--/rd-->
 ===================================================================
 ===================================================================
 

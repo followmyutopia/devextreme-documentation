@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Get fields in area.
-<!--/d-->
-<!--p1d-->Type of area.<!--/p1d-->
-<!--p2d-->collect group fields<!--/p2d-->
-<!--rd-->The array of fields<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -20,7 +14,7 @@ Gets all fields within a specified area.
 <!--paramName1-->area<!--/paramName1-->
 <!--paramType1-->string<!--/paramType1-->
 <!--paramDescription1-->
-<a href="/Documentation/16_1/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/#area">Area</a> type.
+<a href="/Documentation/16_2/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/#area">Area</a> type.
 <!--/paramDescription1-->
 
 <!--paramName2-->collectGroups<!--/paramName2-->
@@ -31,7 +25,7 @@ Specifies whether to display groups as separate items.
 
 <!--returnType-->array<!--/returnType-->
 <!--returnDescription-->
-An array of <a href="/Documentation/16_1/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/">fields</a>.
+An array of <a href="/Documentation/16_2/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/">fields</a>.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Convenience way to specify a single modifying callback.<!--/d-->
 <!--EventForAction-->..\4 Events\modified.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function<!--/type-->

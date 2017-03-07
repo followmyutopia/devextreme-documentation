@@ -4,15 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Navigate to the specified uri.
-<!--/d-->
-<!--p1d-->A string containing the URI to which the application navigated or a route values object to produce an URI.<!--/p1d-->
-<!--p2d-->Specifies additional navigation parameters. The target - 'current', 'blank', 'back'. The direction - none, backward, forward.<!--/p2d-->
-<!--p2_field1d-->Indicates whether to created a new navigation stack based on the navigated view.<!--/p2_field1d-->
-<!--p2_field2d-->Specifies whether to add the navigated view to the navigation stack or replace the current view. The following values are accepted: 'blank' and 'current'.<!--/p2_field2d-->
-<!--p2_field3d-->The direction in which the layout controller will animate the transition to show the view. The following values are accepted: 'backward', 'forward' or 'none'.<!--/p2_field3d-->
-<!--p2_field5d-->Indicates whether the target view is modal.<!--/p2_field5d-->
 ===================================================================
 ===================================================================
 

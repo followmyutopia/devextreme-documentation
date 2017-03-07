@@ -4,11 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Filters this query by executing the predicate function to each item of sequence. Chain function.
-<!--/d-->
-<!--p1d-->a predicate function that returns true to include the item or false to exclude<!--/p1d-->
-<!--rd-->this query<!--/rd-->
 ===================================================================
 ===================================================================
 

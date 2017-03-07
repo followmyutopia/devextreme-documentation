@@ -19,7 +19,7 @@ When this option is set to a number, the specified margin applies to all the sid
 
 Whether or not the specified margin is applied to a particular side of the legend depends on the legend's location. The location is determined by the **horizontalAlignment** and **verticalAlignment** options. Refer to the **top**, **bottom**, **left** and **right** options' description to discover when the margin applies to the corresponding side of the legend.
 
-![PolarChartMargin ChartJS](/Content/images/doc/16_1/ChartJS/PolarChartMargin.png)
+![PolarChartMargin ChartJS](/Content/images/doc/16_2/ChartJS/PolarChartMargin.png)
 <!--/fullDescription-->
 
 <!--handmade-->

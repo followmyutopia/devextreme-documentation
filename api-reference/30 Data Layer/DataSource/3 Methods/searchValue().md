@@ -4,10 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Returns previously assigned search value.
-<!--/d-->
-<!--rd-->Search value<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -15,7 +11,7 @@ Returns previously assigned search value.
 Returns the [searchValue](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchValue) option value.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
 The value to which the search expression value is compared.
 <!--/returnDescription-->

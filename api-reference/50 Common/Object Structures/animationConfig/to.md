@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->An object specifying the target widget state.<!--/d-->
 ===========================================================================
 <!--default-->{}<!--/default-->
 <!--type-->number | string | object<!--/type-->
@@ -17,13 +16,13 @@ Specifies a final animation state.
 <!--fullDescription-->
 The current option can take on the following values, depending on the animation [type](/Documentation/ApiReference/Common/Object_Structures/animationConfig/#type).
 
-- **fade** - 
+- **fade**          
  The **to** option takes on a numeric value of 0 to 1, which specifies target element opacity.
 
         <!--JavaScript-->
         to: 1
 
-- **pop** - 
+- **pop**       
 The option can take on an object containing the **scale** and **opacity** properties, which specify the target element scale and opacity, respectively. Each property can take on a numeric value of 0 to 1.
 
         <!--JavaScript-->
@@ -32,7 +31,7 @@ The option can take on an object containing the **scale** and **opacity** proper
             opacity: 1
         }
 
-- **slide**
+- **slide**             
  The option takes on an object containing the **opacity** property and properties specifying the element position (**top**, **left**, **bottom** and **right**).
 
         <!--JavaScript-->
@@ -41,7 +40,7 @@ The option can take on an object containing the **scale** and **opacity** proper
             top: 0
         }
 
-- **css**
+- **css**           
  The option takes on a string specifying the CSS class or several CSS classes delimited by comma that you want to apply at the animation end.
 
         <!--JavaScript-->from: 'fade-out-active'
@@ -59,4 +58,12 @@ You can specify the initial or target element position relative to the current e
     to: {
         top: "+=200",
     }
+
+When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option with an object instead of the usual lambda expression.
+
+    @(Html.DevExtreme().WidgetName()
+        .Animation(a => a
+            .To(new { scale = 1, opacity = 1 })
+        )
+    )
 <!--/fullDescription-->

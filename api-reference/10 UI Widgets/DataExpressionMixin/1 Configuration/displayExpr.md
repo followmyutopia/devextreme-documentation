@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines an expression returning displayed value for a chosen item (e.g. for string item the expression is 'this', for a plain object item the expression could be field name).<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->string | function<!--/type-->

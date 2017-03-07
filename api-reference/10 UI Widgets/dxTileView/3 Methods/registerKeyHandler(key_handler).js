@@ -1,7 +1,7 @@
 var tileViewDataSource = new DevExpress.data.DataSource({
     store: [],
     map: function (dataItem) {
-        dataItem.imagePath = "/Content/images/doc/16_1/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
+        dataItem.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
         return dataItem;
     }
 });

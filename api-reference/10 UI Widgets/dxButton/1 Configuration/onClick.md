@@ -4,17 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when the widget is clicked.<!--/d-->
 <!--EventForAction-->..\4 Events\click.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function | string<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns a jQuery event that caused the action's execution<!--/fp1_field4d-->
-<!--fp1_field5d-->An object defining a validation group with which the button is associated<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -31,7 +24,7 @@ To validate the editors that are related to the [validation group](/Documentatio
 - **group**  
 	The name or object of the validation group that is assigned to the button's <b>validationGroup</b> option.
 - **validators**  
-	An array of dxValidator widgets that are included to the validation group.
+	An array of **Validator** widgets that are included to the validation group.
 - **validate()**   
 	The method that allows you to validate the widgets included in the validation group.
 - **validated**  

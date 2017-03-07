@@ -4,14 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Callback function which call when user starts scrolling or zooming chart<!--/d-->
 <!--EventForAction-->..\4 Events\zoomStart.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->function(e)<!--/type-->
-<!--fp1d-->Event argument<!--/fp1d-->
-<!--fp1_field1d-->Widget itself.<!--/fp1_field1d-->
-<!--fp1_field2d-->Widget container.<!--/fp1_field2d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -34,7 +30,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#instance"></a> instance.
+The widget <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#instance"></a> instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->

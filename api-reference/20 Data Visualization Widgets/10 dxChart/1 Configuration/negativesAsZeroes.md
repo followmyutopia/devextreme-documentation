@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether to treat negative values as zeroes<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\5 Series Types\StackedBarSeries\StackedBarSeries.md,..\5 Series Types\FullStackedBarSeries\FullStackedBarSeries.md,..\5 Series Types\StackedAreaSeries\StackedAreaSeries.md,..\5 Series Types\FullStackedAreaSeries\FullStackedAreaSeries.md,..\5 Series Types\StackedLineSeries\StackedLineSeries.md,..\5 Series Types\FullStackedLineSeries\FullStackedLineSeries.md,..\5 Series Types\StackedSplineSeries\StackedSplineSeries.md,..\5 Series Types\FullStackedSplineSeries\FullStackedSplineSeries.md,..\5 Series Types\StackedSplineAreaSeries\StackedSplineAreaSeries.md,..\5 Series Types\FullStackedSplineAreaSeries\FullStackedSplineAreaSeries.md<!--/propertyOf-->
 <!--default-->false<!--/default-->

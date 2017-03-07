@@ -4,13 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Initiates WebInvoke service operation (http://www.odata.org/documentation/odata-v2-documentation/operations/#213_Invoking_Service_Operations)
-<!--/d-->
-<!--p1d-->Name of WebGet service operation<!--/p1d-->
-<!--p2d-->Optional bag of operation parameters<!--/p2d-->
-<!--p3d-->Optional HTTP method for this operation. Default is POST.<!--/p3d-->
-<!--rd-->Promise of jQuery.Deferred. Resolves with operation result or rejects with Error.<!--/rd-->
 ===================================================================
 ===================================================================
 

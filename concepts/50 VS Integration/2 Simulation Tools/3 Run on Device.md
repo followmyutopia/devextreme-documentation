@@ -6,11 +6,11 @@ The **Courier** application hosts your DevExtreme web app and allows you to expe
 
 - From the **Courier** application, scan the QR Code using the **Scan** button. The QR code represents a link to your application. This link is valid only while the Visual Studio debugger is running.
 	
-	![Application in Simulator](Content/images/doc/16_1/DevExtreme/CourierApp.png)
+	![Application in Simulator](Content/images/doc/16_2/DevExtreme/CourierApp.png)
 
 	This will load your application on your device. Test the application. Take a note of the Courier menu that is available while testing an application.
 
-	![Application in Simulator](Content/images/doc/16_1/DevExtreme/CourierMenu.png)
+	![Application in Simulator](Content/images/doc/16_2/DevExtreme/CourierMenu.png)
 
 To close the application executed in the Courier, perform a triple click somewhere in a view.
 

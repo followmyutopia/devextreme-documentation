@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tick interval<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'millisecond' | 'second' | 'minute' | 'hour' | 'day' | 'week' | 'month' | 'quarter' | 'year'<!--/acceptValues-->
@@ -24,4 +23,6 @@ In the case of a numeric scale, assign a numeric value to this property. If the 
 [note]Setting a major tick interval is unavailable for a discrete scale.
 
 [note] The specified tick interval can be changed internally if its value leads to label overlap. If you need to prohibit automatic tick arrangement in this situation, set the scale's [useTicksAutoArrangement](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#useTicksAutoArrangement) property to *false*.
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VizTimeInterval` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'day'* becomes `Day`.
 <!--/fullDescription-->

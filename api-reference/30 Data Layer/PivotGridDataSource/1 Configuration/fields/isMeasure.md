@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->The value that specify ability move field to data area<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->boolean<!--/type-->

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->indicator arrow length ('textcloud' only)<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\..\35 dxCircularGauge\5 Indicator Types\TextCloud\TextCloud.md,..\..\..\40 dxLinearGauge\5 Indicator Types\TextCloud\TextCloud.md<!--/propertyOf-->
 <!--default-->5<!--/default-->

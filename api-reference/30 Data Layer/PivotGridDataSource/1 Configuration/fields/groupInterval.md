@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->groupInterval specifies how the values of the current field are combined into groups. Do not work for XmlaStore.<!--/d-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'year' | 'quarter' | 'month' | 'day' | 'dayOfWeek'<!--/acceptValues-->
@@ -16,5 +15,5 @@ Specifies how the values of the current field are combined into groups. Cannot b
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PivotGridGroupInterval` enum. This enum accepts the following values: `Year`, `Quarter`, `Month`, `DayOfWeek` and `Day`.
 <!--/fullDescription-->

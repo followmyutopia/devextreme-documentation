@@ -4,16 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed on 'focusin' DOM input event.<!--/d-->
 <!--EventForAction-->..\4 Events\focusIn.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns a jQuery event that caused the action's execution<!--/fp1_field4d-->
 ===========================================================================
 
 <!--shortDescription-->

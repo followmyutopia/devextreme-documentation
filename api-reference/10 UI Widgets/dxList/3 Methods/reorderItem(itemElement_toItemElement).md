@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Reorder list item.
-<!--/d-->
-<!--p1d-->The item element node.<!--/p1d-->
-<!--p2d-->The item element node.<!--/p2d-->
-<!--rd-->A Promise of jQuery Deferred object resolved if item is moved and rejected if not.<!--/rd-->
 ===================================================================
 ===================================================================
 
@@ -36,4 +30,7 @@ A Promise of the jQuery Deferred object resolved if the item is moved and reject
 
 <!--fullDescription-->
 [note]This method reorders items in the [items](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#items) array, but it does not affect the [dataSource](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#dataSource).
+
+#####See Also#####
+- [List - Item Reordering API](/Documentation/Guide/Widgets/List/Item_Reordering/#API)
 <!--/fullDescription-->

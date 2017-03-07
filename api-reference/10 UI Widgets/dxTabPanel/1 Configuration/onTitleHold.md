@@ -4,17 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when a widget title is holded. 'titleElement' argument specifies the clicked title element. 'titleData' argument specifies the clicked title data.<!--/d-->
 <!--EventForAction-->..\4 Events\titleHold.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns an object representing the title item<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns an HTML element representing the title item<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->

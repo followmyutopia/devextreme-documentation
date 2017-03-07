@@ -19,9 +19,6 @@ $(function () {
             'month',
             'recordLow',
             'recordHigh'
-        ],
-        remoteOperations: {
-            sorting: false
-        }
+        ]
     });
 });

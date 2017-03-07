@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies apply value mode<!--/d-->
 ===========================================================================
 <!--default-->'instantly'<!--/default-->
 <!--acceptValues-->'useButtons' | 'instantly'<!--/acceptValues-->
@@ -24,5 +23,5 @@ The option accepts the following values.
 - **useButtons**  
  Applies values when a user clicks the "OK" button.
 
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `EditorApplyValueMode` enum. This enum accepts the following values: `Instantly` and `UseButtons`.
 <!--/fullDescription-->

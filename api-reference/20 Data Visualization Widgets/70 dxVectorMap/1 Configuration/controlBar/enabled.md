@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines if the bar is visible (and therefore available)<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

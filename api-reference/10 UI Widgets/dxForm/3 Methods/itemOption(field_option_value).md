@@ -4,12 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Sets item's option value by a item dataField or name.
-<!--/d-->
-<!--p1d-->A dataField or name of item.<!--/p1d-->
-<!--p2d-->The name of the option to set.<!--/p2d-->
-<!--p3d-->A option value to set.<!--/p3d-->
 ===================================================================
 ===================================================================
 
@@ -20,7 +14,7 @@ Updates the value of a form item option.
 <!--paramName1-->field<!--/paramName1-->
 <!--paramType1-->string<!--/paramType1-->
 <!--paramDescription1-->
-Specifies the path to the required <a href="Documentation/ApiReference/UI_Widgets/dxForm/Configuration#formData">formData</a> field, or the name of the required editor.
+Specifies the path to the required <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxForm/Configuration#formData">formData</a> field, or the name of the required editor.
 <!--/paramDescription1-->
 
 <!--paramName2-->option<!--/paramName2-->

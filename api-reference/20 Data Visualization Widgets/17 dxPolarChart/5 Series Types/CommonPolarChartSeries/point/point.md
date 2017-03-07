@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Common point settings<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\LineSeries\LineSeries.md,..\..\AreaSeries\AreaSeries.md,..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-An object defining configuration options for [points](/Documentation/Guide/Data_Visualization/Charts/PolarChart_Elements/#Series_Points) in line and area series.
+An object defining configuration options for [points](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Series_Points) in line and area series.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -4,17 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->method data sort availability<!--/d-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean | function(a,b)<!--/type-->
-<!--fp1d-->A series point<!--/fp1d-->
-<!--fp1_field1d-->The argument of this series point<!--/fp1_field1d-->
-<!--fp1_field2d-->The value of this series point<!--/fp1_field2d-->
-<!--fp2d-->A series point<!--/fp2d-->
-<!--fp2_field1d-->The argument of this series point<!--/fp2_field1d-->
-<!--fp2_field2d-->The value of this series point<!--/fp2_field2d-->
-<!--frd-->Indicates whether a comes before b<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

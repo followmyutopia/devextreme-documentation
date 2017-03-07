@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies when to show scrollbar. Still accepts boolean true|false (true is equivalent to 'onScroll' and false is equivalent to 'never'). This option is supported only when 'useNativeScrolling' is false.<!--/d-->
 ===========================================================================
 <!--default-->'onScroll'<!--/default-->
 <!--custom_default_for_android_below_version_4-->'onHover'<!--/custom_default_for_android_below_version_4-->
@@ -20,5 +19,8 @@ Specifies when the widget shows the scrollbar.
 <!--fullDescription-->
 Setting this option makes sense only when the [useNativeScrolling]({basewidgetpath}/Configuration/#useNativeScrolling) option is set to *false*.
 
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ShowScrollbarMode` enum. This enum accepts the following values: `OnScroll`, `OnHover`, `Always` and `Never`.
 
+#####See Also#####
+- [List - Scrolling - User Interaction](/Documentation/Guide/Widgets/List/Scrolling/#User_Interaction)
 <!--/fullDescription-->

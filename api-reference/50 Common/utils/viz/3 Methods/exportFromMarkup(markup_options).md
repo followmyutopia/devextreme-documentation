@@ -4,12 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-exporting method
-<!--/d-->
-<!--p1d-->Markup for exporting<!--/p1d-->
-<!--p2d-->Export options<!--/p2d-->
 ===================================================================
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_export">viz/export</a><!--/module-->
+<!--export-->exportFromMarkup<!--/export-->
 ===================================================================
 
 <!--shortDescription-->
@@ -48,7 +45,7 @@ Export options. Can contain the following fields.
             <b>backgroundColor</b> - the color that will fill transparent regions.</br>
         </li>
         <li>
-            <b>proxyUrl</b> - the URL of a server-side proxy required for export in IE9 and Safari on Mac OS.<br />For details, refer to the <a href="/Documentation/16_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl">proxyUrl</a> option of any widget.
+            <b>proxyUrl</b> - the URL of a server-side proxy required for export in IE9 and Safari on Mac OS.<br />For details, refer to the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl">proxyUrl</a> option of any widget.
         </li>
     </ul>
 </div>

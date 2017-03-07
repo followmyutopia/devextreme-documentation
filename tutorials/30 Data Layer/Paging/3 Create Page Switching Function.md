@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_1/DataLayer/Paging/Step4/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/16_2/DataLayer/Paging/Step4/markup.html" data-show-first="script.js">
 
 Implement a function that will change the current page index and load data. The [pageIndex(newIndex)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#pageIndexnewIndex) method sets the current page index within the DataSource instance. The **index** parameter of the **goToPage** function specifies the required page index passed to the **pageIndex()** method. The [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method loads the specified page data.
 </article>

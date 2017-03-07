@@ -1,4 +1,4 @@
-To use an AngularJS approach, add the *angular.js* and *angular-sanitize.js* script libraries to the **Scripts** folder of your project. You can find these libraries in your [DevExtreme package](/Documentation/Guide/Common/DevExtreme_Packages/).
+To use an AngularJS approach, add the *angular.js* and *angular-sanitize.js* script libraries to the **Scripts** folder of your project. You can find these libraries in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources** by default
 
 Reference the AngularJS libraries in the Index view.
 
@@ -7,7 +7,7 @@ Reference the AngularJS libraries in the Index view.
         <title>Index</title>
         <link rel="stylesheet" type="text/css" href="/Content/dx.common.css" />
         <link rel="stylesheet" type="text/css" href="/Content/dx.light.css" />
-        <script src="/Scripts/jquery-1.11.3.min.js"></script>
+        <script src="/Scripts/jquery-3.1.0.min.js"></script>
         <script src="/Scripts/angular.js"></script>
         <script src="/Scripts/angular-sanitize.js"></script>  
         <script src="/Scripts/dx.web.js"></script>
@@ -21,7 +21,7 @@ Add the **ng-app** directive to the **html** element of the document to specify 
             <title>Index</title>
             <link rel="stylesheet" type="text/css" href="/Content/dx.common.css" />
             <link rel="stylesheet" type="text/css" href="/Content/dx.light.css" />
-            <script src="/Scripts/jquery-1.11.3.min.js"></script>
+            <script src="/Scripts/jquery-3.1.0.min.js"></script>
             <script src="/Scripts/angular.js"></script>
             <script src="/Scripts/angular-sanitize.js"></script>
             <script src="/Scripts/dx.web.js"></script>
@@ -37,7 +37,7 @@ Specify the module to load when bootstrapping the application and include the De
 
 **Add a Button Widget**
 
-To add a button widget, add a **div** element with the **dx-button** AngularJS directive. The directive parameter specifies the widget configuration object. In the code below, the configuration object only contains the **text** option, which specifies the button text.
+To add a button widget, add a **div** element with the `dx-button` AngularJS directive. The directive parameter specifies the widget configuration object. In the code below, the configuration object only contains the **text** option, which specifies the button text.
 
     <!--HTML--><body>
       <div dx-button="{
@@ -45,7 +45,7 @@ To add a button widget, add a **div** element with the **dx-button** AngularJS d
           }"></div>
     </body>
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/markup.html, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/script.js, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/styles.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/styles.css"></div>
 
 **Handle Click Event**
 
@@ -89,7 +89,7 @@ Now, the HTML elements within the **body** element can be associated with the fi
         }
     });
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/markup.html, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/script.js, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/styles.css"></div>    
+<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/styles.css"></div>    
 
 **Modify Option Value at Runtime**
 
@@ -130,4 +130,4 @@ Add the [CheckBox](/Documentation/ApiReference/UI_Widgets/dxCheckBox/) widget to
         <p>Disable button <span dx-check-box="{ bindingOptions: { value: 'buttonDisabled' } }"></span></p>
     </body>
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/markup.html, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/script.js, /Content/Applications/16_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/styles.css"></div> 
+<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/styles.css"></div> 

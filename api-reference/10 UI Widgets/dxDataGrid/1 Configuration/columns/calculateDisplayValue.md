@@ -4,11 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Defines an expression returning value for display in a cell.<!--/d-->
 ===========================================================================
 <!--type-->string | function(rowData)<!--/type-->
-<!--fp1d-->The data object represented by the current grid row.<!--/fp1d-->
-<!--frd-->A value to be displayed within a column cell.<!--/frd-->
 ===========================================================================
 
 <!--shortDescription-->

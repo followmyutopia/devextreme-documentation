@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Specifies whether to show checkboxes near the each item or no and weathe.<!--/d-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'none' | 'normal' | 'selectAll'<!--/acceptValues-->
@@ -27,5 +26,7 @@ The option accepts the following values.
 - 'selectAll'  
  The widget displays a check box for each item and the 'select all' check box at the top of the widget.
 
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `TreeViewCheckBoxMode` enum. This enum accepts the following values: `None`, `Normal` and `SelectAll`.
 
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

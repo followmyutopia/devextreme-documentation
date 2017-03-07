@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->(optional) Specifies the thickness of the line displaying the route in pixels.<!--/d-->
 ===========================================================================
 <!--default-->5<!--/default-->
 <!--type-->number<!--/type-->

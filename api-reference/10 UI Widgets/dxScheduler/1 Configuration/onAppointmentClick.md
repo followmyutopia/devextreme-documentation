@@ -4,20 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->An action performed when an appointment is clicked. 'appointmentElement' argument specifies the clicked appointment element. 'appointmentData' argument specifies the clicked appointment data.<!--/d-->
 <!--EventForAction-->..\4 Events\appointmentClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->function | string<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->Returns the component instance<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns an html representing the component<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns the data that is available for binding against the element<!--/fp1_field3d-->
-<!--fp1_field4d-->Returns an object representing the appointment<!--/fp1_field4d-->
-<!--fp1_field5d-->Returns an object representing the targeted appointment<!--/fp1_field5d-->
-<!--fp1_field6d-->Returns an HTML element representing the appointment<!--/fp1_field6d-->
-<!--fp1_field7d-->Returns a jQuery event that caused the action's execution<!--/fp1_field7d-->
-<!--fp1_field8d-->A flag allowing you to prevent the default behavior<!--/fp1_field8d-->
 ===========================================================================
 
 <!--shortDescription-->

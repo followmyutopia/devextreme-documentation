@@ -4,16 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->Function is called after value was validated against given rules<!--/d-->
 <!--EventForAction-->..\4 Events\validated.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(validatedInfo)<!--/type-->
-<!--fp1d-->Information on selected rows.<!--/fp1d-->
-<!--fp1_field1d-->Name of dxValidator<!--/fp1_field1d-->
-<!--fp1_field2d-->Flag which marks given value as valid or not valid<!--/fp1_field2d-->
-<!--fp1_field3d-->Value which was validated<!--/fp1_field3d-->
-<!--fp1_field4d-->Array of validation rules for this validator<!--/fp1_field4d-->
-<!--fp1_field5d-->First broken rule<!--/fp1_field5d-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -31,7 +24,7 @@ Provides function parameters.
 <!--typeFunctionParamName1_field1-->name<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The value of the <a href="/Documentation/16_1/ApiReference/UI_Widgets/dxValidator/Configuration/#name">name</a> option.
+The value of the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxValidator/Configuration/#name">name</a> option.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->isValid<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->boolean<!--/typeFunctionParamType1_field2-->
@@ -46,7 +39,7 @@ The validated value.
 <!--typeFunctionParamName1_field4-->validationRules<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-An array of validation rules specified for the current dxValidator object.
+An array of validation rules specified for the current **dxValidator** object.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->brokenRule<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->object<!--/typeFunctionParamType1_field5-->

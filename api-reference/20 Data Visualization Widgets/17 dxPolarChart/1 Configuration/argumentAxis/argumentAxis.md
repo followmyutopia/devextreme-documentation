@@ -4,14 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->Argument axis options<!--/d-->
 ===========================================================================
 <!--type-->object<!--/type-->
 <!--inherits-->..\commonAxisSettings\commonAxisSettings.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies [argument axis](/Documentation/Guide/Data_Visualization/Charts/PolarChart_Elements/#Axes/Argument_Axis) options for the **PolarChart** widget.
+Specifies [argument axis](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Argument_Axis) options for the **PolarChart** widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -4,13 +4,8 @@
 -------------------------------------------
 
 **-->
-<!--d-->Knockout custom binding handler to bind action to HTML element. The action is performed when clicking the bound HTML element. Parameters are 'element', 'model', 'jQueryEvent'.<!--/d-->
 ===========================================================================
 <!--type-->function(e) | string | object<!--/type-->
-<!--fp1d-->Provides function parameters<!--/fp1d-->
-<!--fp1_field1d-->The DOM element involved in this binding<!--/fp1_field1d-->
-<!--fp1_field2d-->Returns the data that is available for binding against the element<!--/fp1_field2d-->
-<!--fp1_field3d-->Returns a jQuery event that caused the action's execution<!--/fp1_field3d-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

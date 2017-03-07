@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->DataGrid widget.<!--/d-->
 <!--widgettree-->
 dataSource: [{
     "ID": 1,
@@ -34,55 +33,90 @@ dataSource: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_data_grid">ui/data_grid</a><!--/module-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_data_grid">ui/data_grid</a><!--/module-->
+<!--export-->default<!--/export-->
+<!--inherits-->..\Widget\Widget.md,..\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 
 <!--shortDescription-->
-The **DataGrid** is a widget that represents data from a local or remote source in the form of a grid. This widget offers such basic features as [sorting](/Documentation/Guide/UI_Widgets/Data_Grid/Sorting/), [grouping](/Documentation/Guide/UI_Widgets/Data_Grid/Grouping/), [filtering](/Documentation/Guide/UI_Widgets/Data_Grid/Filtering/), as well as more advanced capabilities, like [state storing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/stateStoring/), [export to Excel](/Documentation/Guide/UI_Widgets/Data_Grid/Client-Side_Export/), [master-detail interface](/Documentation/Guide/UI_Widgets/Data_Grid/Master-Detail_Interface/), and many others.
+The **DataGrid** is a widget that represents data from a local or remote source in the form of a grid. This widget offers such basic features as [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/), [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/), [filtering](/Documentation/Guide/Widgets/DataGrid/Filtering/), as well as more advanced capabilities, like [state storing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/stateStoring/), [export to Excel](/Documentation/Guide/Widgets/DataGrid/Client-Side_Export/), [master-detail interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/), and many others.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxDataGrid` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="gridContainer"></div>
+        <!--HTML--><div id="dataGrid"></div>
 
     <!---->
 
-        <!--JavaScript-->$("#gridContainer").dxDataGrid({
-			dataSource: customers,
-			columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
-		});
+        <!--JavaScript-->$(function () {
+            $("#dataGrid").dxDataGrid({
+                dataSource: customers,
+                columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
+            });
+        });
 
-- **Knockout**  
- Add a div element and apply the `dxDataGrid` binding to this element.
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxDataGrid: {
+        <!--HTML--><div ng-controller="DemoController">
+            <div dx-data-grid="{
+                dataSource: customers,
+                columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
+            }"></div>
+        </div>
+
+    <!---->
+
+        <!--JavaScript-->angular.module('DemoApp', ['dx'])
+            .controller("DemoController", function ($scope) {
+                $scope.customers = [
+                    // ...   
+                ];
+            });
+
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+        <!--HTML--><div data-bind="dxDataGrid: {
 			dataSource: customers,
 			columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
         }"></div>
 
-- **AngularJS**  
- Add a div element and apply the `dx-data-grid` directive to this element.
+    <!---->
 
-        <!--HTML-->
-        <div dx-data-grid="{
-			dataSource: customers,
-			columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
-        }"></div>
+        <!--JavaScript-->var viewModel = {
+            customers: [
+                // ...
+            ]
+        };
+        ko.applyBindings(viewModel);
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the [Installation](/Documentation/Guide/UI_Widgets/Basics/Installation/) article.
+- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-To provide data for the **DataGrid** widget, specify a data source. **DataGrid** accepts two types of data sources: an array of objects and a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration object. To learn more about data binding in **DataGrid**, refer to the [Data Binding](/Documentation/Guide/UI_Widgets/Data_Grid/Data_Binding/) guide.
+        @(Html.DevExtreme().DataGrid()
+            .ID("dataGrid")
+            .DataSource(Customers)
+            .Columns(columns => {
+                columns.Add().DataField("CompanyName");
+                columns.Add().DataField("City");
+                columns.Add().DataField("State");
+                columns.Add().DataField("Phone");
+                columns.Add().DataField("Fax");
+            })
+        )
 
-<a href="/Documentation/16_1/Tutorial/UI_Widgets/Configure_DataGrid#Configure_DataGrid" class="button orange small fix-width-155" style="margin-right: 20px;">Start Tutorial</a>
-<a href="http://js.devexpress.com/Demos/DataGridGallery/#chart/datagridspagingandscrollingpager" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
-<a href="http://www.youtube.com/watch?v=KJpS2Iwrrg8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=5" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>
+Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+
+#####See Also#####
+- [DataGrid - Visual Elements](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/)
+- [DataGrid - Data Binding](/Documentation/Guide/Widgets/DataGrid/Data_Binding/)
+- [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
+
+<a href="/Documentation/16_2/Tutorial/UI_Widgets/Configure_DataGrid#Configure_DataGrid" class="button orange small fix-width-155" style="margin-right:5px;">Start Tutorial</a>
+<a href="http://js.devexpress.com/Demos/DataGridGallery/#chart/datagridspagingandscrollingpager" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+<a href="http://www.youtube.com/watch?v=KJpS2Iwrrg8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=5" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 <!--/fullDescription-->

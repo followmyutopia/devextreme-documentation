@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_1/DataVisualization/Lessons/ConfigureVectorMap/Step10/vectorMap.html" data-show-first="vectorMap.js">
+<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureVectorMap/Step10/vectorMap.html" data-show-first="vectorMap.js">
 
 A tooltip is a small pop-up rectangle that displays information about an area or a marker when it is hovered over. By default, tooltips are disabled. Enable them using the **enabled** option of the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/) object.
 
@@ -6,6 +6,6 @@ According to the task at hand, a tooltip should display the name of the state th
 
 [note] If you place a DevExteme Data Visualization widget on a page that uses a path modifier, you need to set the [pathModified](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#pathModified) option of this widget to *true*. As an example of such modifiers, the [base](http://www.w3schools.com/tags/tag_base.asp) HTML tag can be considered. Also, we recommend you enable this option if the widget is placed inside the [`<iframe>`](http://www.w3schools.com/tags/tag_iframe.asp) tag. As our site uses this tag to present the resulting widget, the **pathModified** option is specified in this demo.
 
-This tutorial guided you through configuring the **VectorMap** widget. To learn more about widget capabilities, view topics placed under the "VectorMap" headline in the [Data Visualization Guides](/Documentation/Guide/#Data_Visualization) section. For the full list of widget options, take a look at the [VectorMap API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/) section.
+This tutorial guided you through configuring the  widget. To learn more about widget capabilities, see the [VectorMap](/Documentation/Guide/Widgets/VectorMap/Visual_Elements/) guides. For the full list of widget options, take a look at the [VectorMap API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/) section.
 
 </article>

@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Border width<!--/d-->
 ===========================================================================
 <!--propertyOf-->..\..\..\LineSeries\LineSeries.md,..\..\..\AreaSeries\AreaSeries.md,..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->1<!--/default-->

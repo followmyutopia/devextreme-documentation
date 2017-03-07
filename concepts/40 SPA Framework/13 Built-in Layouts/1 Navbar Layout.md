@@ -1,10 +1,10 @@
 The Navbar layout is available for all platforms supported by the framework. This layout is characterized by the presence of a navigation control on a view. The navigation control is global navigation that provides access to the root views of the application.
 
-See a step-by-step example in the <a href="/Documentation/16_1/Tutorial/SPA_Framework/Add_a_Navigation_Bar#Add_a_Navigation_Bar">Add a Navigation Bar</a> tutorial.
+See a step-by-step example in the <a href="/Documentation/16_2/Tutorial/SPA_Framework/Add_a_Navigation_Bar#Add_a_Navigation_Bar">Add a Navigation Bar</a> tutorial.
 
 <a id="iOSNavbarLayout"></a><h4>iOS</h4>
 
-![NavBar iOS](/Content/images/doc/16_1/PhoneJS/navbar_ios.png)
+![NavBar iOS](/Content/images/doc/16_2/PhoneJS/navbar_ios.png)
 
 [note]If you place a command in the 'ios-view-footer' command container, add the 'view-footer' content placeholder to your view as well. In this instance, the dxContent component with the 'ios-view-footer' command container defined in the layout will be rendered to the 'view-footer' content placeholder of your view.
 
@@ -16,7 +16,7 @@ See a step-by-step example in the <a href="/Documentation/16_1/Tutorial/SPA_Fram
 
 <a id="AndroidNavbarLayout"></a><h4>Android</h4>  
 
-![NavBar Android](/Content/images/doc/16_1/PhoneJS/navbar_android.png)
+![NavBar Android](/Content/images/doc/16_2/PhoneJS/navbar_android.png)
 
 **Links**:
 
@@ -24,9 +24,9 @@ See a step-by-step example in the <a href="/Documentation/16_1/Tutorial/SPA_Fram
 	<script type="text/javascript" src="layouts/NavBar/NavbarLayout.js"></script>
 	<link rel="stylesheet" type="text/css" href="layouts/NavBar/NavbarLayout.css" />
 
-<a id="WinPhoneNavbarLayout"></a><h4>Windows Phone</h4>  
+<a id="Win8NavbarLayout"></a><h4>Windows Phone</h4>  
 
-![NavBar Windows Phone](/Content/images/doc/16_1/PhoneJS/navbar_win8.png)
+![NavBar Windows 8](/Content/images/doc/16_2/PhoneJS/navbar_win8.png)
 
 **Links**:
 
@@ -46,7 +46,7 @@ See a step-by-step example in the <a href="/Documentation/16_1/Tutorial/SPA_Fram
 
 <a id="GenericNavbarLayout"></a><h4>Generic</h4>  
 
-![NavBar Generic](/Content/images/doc/16_1/PhoneJS/navbar_generic.png)
+![NavBar Generic](/Content/images/doc/16_2/PhoneJS/navbar_generic.png)
 
 [note]If you place a command in the 'generic-view-footer' command container, add the 'view-footer' content placeholder to your view as well. In this instance, the dxContent component with the 'generic-view-footer' command container defined in the layout will be rendered to the 'view-footer' content placeholder of your view.
 

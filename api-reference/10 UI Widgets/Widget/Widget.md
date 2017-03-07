@@ -4,10 +4,10 @@
 -------------------------------------------
 
 **-->
-<!--d-->Base class for widgets.<!--/d-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/16_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_widget_ui_widget">ui/widget/ui.widget</a><!--/module-->
+<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_widget_ui_widget">ui/widget/ui.widget</a><!--/module-->
+<!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--inherits-->..\DOMComponent\DOMComponent.md<!--/inherits-->
 ===========================================================================
