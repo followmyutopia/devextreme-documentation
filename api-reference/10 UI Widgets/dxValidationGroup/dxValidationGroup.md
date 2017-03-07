@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_validation_group">ui/validation_group</a><!--/module-->
+<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_validation_group">ui/validation_group</a><!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\DOMComponent\DOMComponent.md<!--/inherits-->
 <!--lib-->

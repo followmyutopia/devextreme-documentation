@@ -8,7 +8,7 @@
 
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_range_slider">ui/range_slider</a><!--/module-->
+<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_range_slider">ui/range_slider</a><!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxSlider\dxSlider.md<!--/inherits-->
 <!--lib-->

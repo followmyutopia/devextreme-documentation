@@ -96,7 +96,7 @@ dataSource: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tree_view">ui/tree_view</a><!--/module-->
+<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tree_view">ui/tree_view</a><!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\HierarchicalCollectionWidget\HierarchicalCollectionWidget.md<!--/inherits-->
 <!--lib-->

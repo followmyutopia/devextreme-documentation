@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_html_command_container">framework/html/command_container</a><!--/module-->
+<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_html_command_container">framework/html/command_container</a><!--/module-->
 <!--type-->object<!--/type-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js

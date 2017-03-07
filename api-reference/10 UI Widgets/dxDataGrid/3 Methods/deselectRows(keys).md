@@ -17,6 +17,11 @@ Deselects specific grid records.
 The keys of the records to be deselected.
 <!--/paramDescription1-->
 
+<!--returnType-->Promise<!--/returnType-->
+<!--returnDescription-->
+
+<!--/returnDescription-->
+
 <!--fullDescription-->
 To access a grid record by a key, a field providing key values must be specified in a [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource). If no key was specified, the whole data object is considered the key.
 

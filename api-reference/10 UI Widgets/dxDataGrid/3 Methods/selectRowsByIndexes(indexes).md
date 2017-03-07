@@ -17,6 +17,11 @@ Selects [grid rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_
 The indexes of the rows to be selected.
 <!--/paramDescription1-->
 
+<!--returnType-->Promise<!--/returnType-->
+<!--returnDescription-->
+
+<!--/returnDescription-->
+
 <!--fullDescription-->
 An array that is passed to this method as an argument must contain row indexes. When calculating them, data and group rows are counted, though only data rows can be selected.
 

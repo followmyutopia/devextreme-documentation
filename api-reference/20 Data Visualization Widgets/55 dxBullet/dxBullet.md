@@ -9,7 +9,7 @@ target: 30,
 value: 20
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_bullet">viz/bullet</a><!--/module-->
+<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_bullet">viz/bullet</a><!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\BaseSparkline\BaseSparkline.md<!--/inherits-->
 <!--lib-->

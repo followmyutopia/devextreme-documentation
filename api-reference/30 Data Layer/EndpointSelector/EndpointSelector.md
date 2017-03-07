@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_endpoint_selector">data/endpoint_selector</a><!--/module-->
+<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_endpoint_selector">data/endpoint_selector</a><!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 ===========================================================================

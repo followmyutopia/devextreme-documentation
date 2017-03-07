@@ -6,7 +6,7 @@
 **-->
 ===================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/16_2/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_component_registrator">core/component_registrator</a><!--/module-->
+<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_component_registrator">core/component_registrator</a><!--/module-->
 ===================================================================
 
 <!--shortDescription-->

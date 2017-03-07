@@ -11,6 +11,11 @@
 Selects all rows. 
 <!--/shortDescription-->
 
+<!--returnType-->Promise<!--/returnType-->
+<!--returnDescription-->
+
+<!--/returnDescription-->
+
 <!--fullDescription-->
 Depending on the value of the [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode) option, this method selects all rows on all pages or on the currently rendered pages only. If a filter is applied, this method selects only those rows that meet the filtering conditions.
 

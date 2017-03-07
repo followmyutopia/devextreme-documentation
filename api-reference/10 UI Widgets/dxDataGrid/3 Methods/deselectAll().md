@@ -11,6 +11,11 @@
 Deselects all rows.
 <!--/shortDescription-->
 
+<!--returnType-->Promise<!--/returnType-->
+<!--returnDescription-->
+
+<!--/returnDescription-->
+
 <!--fullDescription-->
 Depending on the value of the [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode) option, this method deselects all rows on all pages or on the currently rendered pages only. If any filter is also applied, this method deselects only those rows that meet the filtering conditions.
 

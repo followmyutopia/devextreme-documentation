@@ -23,6 +23,11 @@ The keys of the records to be selected.
 Specifies whether or not previously selected records must remain selected.
 <!--/paramDescription2-->
 
+<!--returnType-->Promise<!--/returnType-->
+<!--returnDescription-->
+
+<!--/returnDescription-->
+
 <!--fullDescription-->
 [note]To access a grid record by a key, a field providing key values must be specified in the **key** option of the underlying [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) of the [dataSource](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource). If no key was specified, the whole data object is considered the key, however, we recommend specifying the key to prevent selection from being duplicated.
 
