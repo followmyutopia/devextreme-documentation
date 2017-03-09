@@ -28,7 +28,7 @@ To change the options of an editor, get its instance first using the [getEditor(
 - [Call Methods - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)
 - [Form - Change Item Options at Runtime](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Item_Options/)
 - [Form - Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
-- [Form Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
+- [Form Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
 - [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)
 
 [tags]form, get editor, change editor options

@@ -40,6 +40,6 @@ Besides selecting the existing values, a user can add new values to the **Select
 - [SelectBox - Enable Searching](/Documentation/Guide/Widgets/SelectBox/Enable_Searching/)
 - [SelectBox - Handle the Value Change Event](/Documentation/Guide/Widgets/SelectBox/Handle_the_Value_Change_Event/)
 - [SelectBox API Reference](/Documentation/ApiReference/UI_Widgets/dxSelectBox/)
-- [SelectBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-select_box-overview)
+- [SelectBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-select_box-overview)
 
 [tags]selectBox, select box, editor, user-defined entry, user-defined item, custom entry, custom item, user-defined value, custom value

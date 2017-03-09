@@ -21,7 +21,7 @@ To specify the step by which the value is changed, use the [step](/Documentation
 
 #####See Also#####
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
-- [NumberBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-number_box-overview)
+- [NumberBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-number_box-overview)
 - [NumberBox API Reference](/Documentation/ApiReference/UI_Widgets/dxNumberBox/)
 
 [tags]number box, numberBox, editor, spin buttons, showSpinButtons, step

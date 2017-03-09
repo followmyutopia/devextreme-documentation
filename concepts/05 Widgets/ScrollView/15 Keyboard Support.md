@@ -31,7 +31,7 @@ An end user can use the following keys to interact with the widget.
 
 
 #####See Also#####
-- [ScrollView Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scrollview-overview)
+- [ScrollView Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scrollview-overview)
 - [ScrollView API Reference](/Documentation/ApiReference/UI_Widgets/dxScrollView/)
 
 [tags]scrollView, scroll view, navigation, accessibility, keyboard shortcuts

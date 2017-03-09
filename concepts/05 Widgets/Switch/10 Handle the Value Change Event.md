@@ -32,7 +32,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
-- [Switch Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-switch-overview)
+- [Switch Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-switch-overview)
 - [Switch API Reference](/Documentation/ApiReference/UI_Widgets/dxSwitch/)
 
 [tags]switch, editor, get value, set value

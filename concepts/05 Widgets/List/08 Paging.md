@@ -47,7 +47,7 @@ The next page can be loaded immediately as the user scrolls the **List** down to
 
 #####See Also#####
 - [List - Localization](/Documentation/Guide/Widgets/List/Localization/)
-- [List Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
+- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 
 [tags]list, paging, paginate, pageSize, pageLoadMode

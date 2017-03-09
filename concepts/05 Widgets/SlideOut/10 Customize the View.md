@@ -113,7 +113,7 @@ As you can see in the code above, a markup for the **SlideOut** view is defined 
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [SlideOut - Customize Menu Items](/Documentation/Guide/Widgets/SlideOut/Customize_Menu_Items)
 - [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer)
-- [SlideOut Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
+- [SlideOut Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
 - [SlideOut API Reference](/Documentation/ApiReference/UI_Widgets/dxSlideOut/)
 
 [tags]slide-out menu, slideOut, view appearance, customize, templates

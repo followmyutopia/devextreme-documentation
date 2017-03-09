@@ -49,7 +49,7 @@ Being called with the *field* parameter only, this method returns the current co
 - [Call Methods - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)
 - [Form - Change Editor Options at Runtime](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Editor_Options/)
 - [Form - Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
-- [Form Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
+- [Form Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
 - [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)
 
 [tags]form, modify item, item option, change option

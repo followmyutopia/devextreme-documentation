@@ -52,7 +52,7 @@ An end user can use the following keys to interact with the widget.
 
 
 #####See Also#####
-- [DateBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-date_box-overview)
+- [DateBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-date_box-overview)
 - [DateBox API Reference](/Documentation/ApiReference/UI_Widgets/dxDateBox/)
 
 [tags]date box, dateBox, navigation, accessibility, keyboard shortcuts

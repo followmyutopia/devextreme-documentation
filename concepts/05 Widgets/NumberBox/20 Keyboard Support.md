@@ -23,7 +23,7 @@ An end user can use the following keys to interact with the widget.
 
 
 #####See Also#####
-- [NumberBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-number_box-overview)
+- [NumberBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-number_box-overview)
 - [NumberBox API Reference](/Documentation/ApiReference/UI_Widgets/dxNumberBox/)
 
 [tags]number box, numberBox, navigation, accessibility, keyboard shortcuts

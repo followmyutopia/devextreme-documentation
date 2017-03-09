@@ -192,6 +192,6 @@ In addition, you can use a 3rd-party template engine to perform the needed custo
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [SelectBox API Reference](/Documentation/ApiReference/UI_Widgets/dxSelectBox/)
-- [SelectBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-select_box-overview)
+- [SelectBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-select_box-overview)
 
 [tags]selectBox, select box, editor, item appearance, customize, templates, template, default item, default template, field template

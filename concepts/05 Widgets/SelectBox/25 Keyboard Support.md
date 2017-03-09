@@ -42,6 +42,6 @@ An end user can use the following keys to interact with the widget.
 - [SelectBox - Enable Searching](/Documentation/Guide/Widgets/SelectBox/Enable_Searching/)
 - [SelectBox - Handle the Value Change Event](/Documentation/Guide/Widgets/SelectBox/Handle_the_Value_Change_Event/)
 - [SelectBox API Reference](/Documentation/ApiReference/UI_Widgets/dxSelectBox/)
-- [SelectBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-select_box-overview)
+- [SelectBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-select_box-overview)
 
 [tags]select box, selectBox, navigation, accessibility, keyboard shortcuts

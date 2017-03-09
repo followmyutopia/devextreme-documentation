@@ -110,7 +110,7 @@ When using AngularJS or Knockout, you can still call these methods, but as an al
     ko.applyBindings(viewModel);
 
 #####See Also#####
-- [SlideOut Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
+- [SlideOut Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
 - [SlideOut API Reference](/Documentation/ApiReference/UI_Widgets/dxSlideOut/)
 
 [tags]slide-out menu, slideOut, open, show, close, hide

@@ -107,7 +107,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 #####See Also#####
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
-- [Tabs Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tabs-overview)
+- [Tabs Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tabs-overview)
 - [Tabs API Reference](/Documentation/ApiReference/UI_Widgets/dxTabs/)
 
 [tags]tabs, item appearance, customize, templates, template, custom template, default item, default template

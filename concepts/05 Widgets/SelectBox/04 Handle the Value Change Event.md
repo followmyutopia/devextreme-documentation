@@ -53,6 +53,6 @@ If you are going to change event handlers at runtime, or if you need to attach s
 - [SelectBox - Enable Searching](/Documentation/Guide/Widgets/SelectBox/Enable_Searching/)
 - [SelectBox - Create a User-Defined Item](/Documentation/Guide/Widgets/SelectBox/Create_a_User-Defined_Item/)
 - [SelectBox API Reference](/Documentation/ApiReference/UI_Widgets/dxSelectBox/)
-- [SelectBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-select_box-overview)
+- [SelectBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-select_box-overview)
 
 [tags]selectBox, select box, editor, get value, set value, change value, valueChangeEvent, valueChanged

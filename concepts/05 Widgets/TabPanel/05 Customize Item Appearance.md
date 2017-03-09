@@ -192,7 +192,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [TabPanel - Control the Behavior](/Documentation/Guide/Widgets/TabPanel/Control_the_Behavior)
-- [TabPanel Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview)
+- [TabPanel Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview)
 - [TabPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxTabPanel/)
 
 [tags]tab panel, tabPanel, item appearance, customize, templates, template, custom template, default item, default template

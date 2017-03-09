@@ -19,7 +19,7 @@ An end user can use the following keys to interact with the widget.
 
 
 #####See Also#####
-- [CheckBox Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-check_box-overview)
+- [CheckBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-check_box-overview)
 - [CheckBox API Reference](/Documentation/ApiReference/UI_Widgets/dxCheckBox/)
 
 [tags]check box, checkBox, navigation, accessibility, keyboard shortcuts

@@ -36,5 +36,5 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
 - [ContextMenu - Access the Clicked Item](/Documentation/Guide/Widgets/ContextMenu/Access_the_Clicked_Item/)
-- [Toast Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-toast-overview)
+- [Toast Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-toast-overview)
 - [Toast API Reference](/Documentation/ApiReference/UI_Widgets/dxToast/)

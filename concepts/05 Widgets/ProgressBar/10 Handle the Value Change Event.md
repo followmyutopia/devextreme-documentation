@@ -32,7 +32,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
-- [ProgressBar Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-progress_bar-overview)
+- [ProgressBar Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-progress_bar-overview)
 - [ProgressBar API Reference](/Documentation/ApiReference/UI_Widgets/dxProgressBar/)
 
 [tags]progress bar, progressBar, editor, get value, set value

@@ -31,7 +31,7 @@ The following code adds the **Gallery** widget to your page. The simplest config
 - [Gallery - Animate the Image Change](/Documentation/Guide/Widgets/Gallery/Animate_the_Image_Change/)
 - [Gallery - Transform and Combine Images](/Documentation/Guide/Widgets/Gallery/Transform_and_Combine_Images/)
 - [Gallery - Customize Item Appearance](/Documentation/Guide/Widgets/Gallery/Customize_Item_Appearance/)
-- [Gallery Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview)
+- [Gallery Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview)
 - [Gallery API Reference](/Documentation/ApiReference/UI_Widgets/dxGallery/)
 
 [tags]gallery, overview

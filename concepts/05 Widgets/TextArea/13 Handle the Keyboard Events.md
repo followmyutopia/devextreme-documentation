@@ -40,7 +40,7 @@ If you are going to change the handling functions at runtime, or if you need to 
 #####See Also#####
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
 - [TextArea - Handle the Value Change Event](/Documentation/Guide/Widgets/TextArea/Handle_the_Value_Change_Event/)
-- [TextArea Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_area-overview)
+- [TextArea Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_area-overview)
 - [TextArea API Reference](/Documentation/ApiReference/UI_Widgets/dxTextArea/)
 
 [tags]textArea, text area, editor, keyboard events, keyup, keydown, keypress, enterkey

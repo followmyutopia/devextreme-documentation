@@ -138,7 +138,7 @@ With AngularJS or Knockout, use a different technique. Bind the **markers** opti
 #####See Also#####
 - [Map - Customize Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/Customize/)
 - [Map - Handle Marker Related Events](/Documentation/Guide/Widgets/Map/Configure_Markers/Handle_the_Related_Events/)
-- [Map Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-markers)
+- [Map Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-markers)
 - [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
 
 [tags]map, markers, location, add marker, remove marker, add on click

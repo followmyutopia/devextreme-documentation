@@ -50,7 +50,7 @@ As an alternative, you can use the [selectedItem](/Documentation/ApiReference/UI
 
 #####See Also#####
 - [NavBar - Customize Item Appearance](/Documentation/Guide/Widgets/NavBar/Customize_Item_Appearance)
-- [NavBar Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7)
+- [NavBar Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7)
 - [NavBar API Reference](/Documentation/ApiReference/UI_Widgets/dxNavBar/)
 
 [tags]nav bar, navBar, navigation bar, select, selection, item, items, index

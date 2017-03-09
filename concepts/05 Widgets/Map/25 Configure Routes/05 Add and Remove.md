@@ -145,7 +145,7 @@ With AngularJS or Knockout, use a different technique. Bind the **routes** optio
 #####See Also#####
 - [Map - Customize Routes](/Documentation/Guide/Widgets/Map/Configure_Routes/Customize/)
 - [Map - Handle Route Related Events](/Documentation/Guide/Widgets/Map/Configure_Routes/Handle_the_Related_Events/)
-- [Map Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-routes)
+- [Map Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-routes)
 - [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
 
 [tags]map, routes, location, add route, remove route

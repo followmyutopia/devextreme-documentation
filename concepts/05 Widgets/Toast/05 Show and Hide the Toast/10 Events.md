@@ -49,5 +49,5 @@ If you are going to change event handlers at runtime, or if you need to attach s
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
 - [Toast - Customize the Content](/Documentation/Guide/Widgets/Toast/Customize_the_Content/)
 - [Toast - Resize and Relocate](/Documentation//Guide/Widgets/Toast/Resize_and_Relocate/)
-- [Toast Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-toast-overview)
+- [Toast Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-toast-overview)
 - [Toast API Reference](/Documentation/ApiReference/UI_Widgets/dxToast/)

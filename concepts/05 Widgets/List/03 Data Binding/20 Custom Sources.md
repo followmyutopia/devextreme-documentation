@@ -57,7 +57,7 @@ For consuming data from ASP.NET and PHP servers, DevExtreme provides the followi
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
 - [List - Access the DataSource](/Documentation/Guide/Widgets/List/Data_Binding/Access_the_DataSource/)
 - [List - Paging](/Documentation/Guide/Widgets/List/Paging/)
-- [List Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
+- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 
 [tags]list, data binding, provide data, custom data source, CustomStore, DataSource, load

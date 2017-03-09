@@ -37,5 +37,5 @@ By default, the widget aligns all editors of all simple items in straight column
 - [Form - Configure Item Labels | Additional Marks](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Additional_Marks/)
 - [Form - Change Item Options at Runtime](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Item_Options/)
 - [Form - Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
-- [Form Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
+- [Form Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
 - [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)

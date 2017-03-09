@@ -38,7 +38,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [ContextMenu Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-context_menu-overview)
+- [ContextMenu Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-context_menu-overview)
 - [ContextMenu API Reference](/Documentation/ApiReference/UI_Widgets/dxContextMenu/)
 
 [tags]context menu, contextMenu, accessibility, keyboard shortcuts

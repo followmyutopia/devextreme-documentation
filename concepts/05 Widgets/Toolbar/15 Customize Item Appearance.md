@@ -152,7 +152,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [Toolbar - Specify Item Type](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type)
 - [Toolbar - Specify Item Location](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Location)
-- [Toolbar Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-toolbar-overview)
+- [Toolbar Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-toolbar-overview)
 - [Toolbar API Reference](/Documentation/ApiReference/UI_Widgets/dxToolbar/)
 
 [tags]toolbar, item appearance, customize, templates, template, custom template, default item, default template

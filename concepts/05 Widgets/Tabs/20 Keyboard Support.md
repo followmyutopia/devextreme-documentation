@@ -22,7 +22,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [Tabs Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tabs-overview)
+- [Tabs Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tabs-overview)
 - [Tabs API Reference](/Documentation/ApiReference/UI_Widgets/dxTabs/)
 
 [tags]tabs, navigation, accessibility, keyboard shortcuts

@@ -40,7 +40,7 @@ If you are going to change the handling functions at runtime, or if you need to 
 #####See Also#####
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
 - [TextBox - Handle the Value Change Event](/Documentation/Guide/Widgets/TextBox/Handle_the_Value_Change_Event/)
-- [TextBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_box-overview)
+- [TextBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_box-overview)
 - [TextBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTextBox/)
 
 [tags]textBox, text box, editor, keyboard events, keyup, keydown, keypress, enterkey

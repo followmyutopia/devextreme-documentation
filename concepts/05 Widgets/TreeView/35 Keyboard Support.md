@@ -54,7 +54,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [TreeView Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure)
+- [TreeView Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure)
 - [TreeView API Reference](/Documentation/ApiReference/UI_Widgets/dxTreeView/)
 
 [tags]treeview, tree view, navigation, accessibility, keyboard shortcuts

@@ -33,7 +33,7 @@ The **Popover** has two toolbars: top and bottom. Items on these toolbars can be
 - [Popover - Customize the Content](/Documentation/Guide/Widgets/Popover/Customize_the_Appearance/Customize_the_Content/)
 - [Popover - Customize the Title](/Documentation/Guide/Widgets/Popover/Customize_the_Appearance/Customize_the_Title/)
 - [Popover - Color the Shading of the Background](/Documentation/Guide/Widgets/Popover/Customize_the_Appearance/Color_the_Shading_of_the_Background/)
-- [Popover Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popover-overview)
+- [Popover Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popover-overview)
 - [Popover API Reference](/Documentation/ApiReference/UI_Widgets/dxPopover/)
 
 [tags]popover, overlay, customize, toolbar items, top toolbar, bottom toolbar

@@ -41,7 +41,7 @@ To specify whether or not to animate switching between views, use the [animation
 
 #####See Also#####
 - [TabPanel - Customize Item Appearance](/Documentation/Guide/Widgets/TabPanel/Customize_Item_Appearance)
-- [TabPanel Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview)
+- [TabPanel Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview)
 - [TabPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxTabPanel/)
 
 [tags]tab panel, tabPanel, switch views, animate switching, swipe

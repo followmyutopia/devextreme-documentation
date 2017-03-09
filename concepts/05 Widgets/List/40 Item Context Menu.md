@@ -51,7 +51,7 @@ The user swipes an item to access the commands. If the **menuItems** array conta
     });
 
 #####See Also#####
-- [List Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
+- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 
 [tags]list, context menu, menuItems, context menu mode, menuMode

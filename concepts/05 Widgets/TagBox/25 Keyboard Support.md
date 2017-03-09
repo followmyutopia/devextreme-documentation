@@ -47,6 +47,6 @@ An end user can use the following keys to interact with the widget.
 - [TagBox - Control the Behavior](/Documentation/Guide/Widgets/TagBox/Control_the_Behavior/)
 - [TagBox - Handle the Value Change Event](/Documentation/Guide/Widgets/TagBox/Handle_the_Value_Change_Event/)
 - [TagBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTagBox/)
-- [TagBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-tag_box-overview)
+- [TagBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-tag_box-overview)
 
 [tags]tag box, tagBox, navigation, accessibility, keyboard shortcuts

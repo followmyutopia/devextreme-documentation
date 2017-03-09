@@ -38,7 +38,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [Accordion Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-accordion-overview)
+- [Accordion Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-accordion-overview)
 - [Accordion API Reference](/Documentation/ApiReference/UI_Widgets/dxAccordion/)
 
 [tags]accordion, accessibility, keyboard shortcuts

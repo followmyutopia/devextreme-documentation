@@ -31,7 +31,7 @@ An end user can use the following keys to interact with the widget.
 
 
 #####See Also#####
-- [RangeSlider Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-range_slider-overview)
+- [RangeSlider Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-range_slider-overview)
 - [RangeSlider API Reference](/Documentation/ApiReference/UI_Widgets/dxRangeSlider/)
 
 [tags]range slider, rangeSlider, accessibility, keyboard shortcuts

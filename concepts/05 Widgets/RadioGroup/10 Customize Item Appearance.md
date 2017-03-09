@@ -111,7 +111,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [RadioGroup - Handle the Value Change Event](/Documentation/Guide/Widgets/RadioGroup/Handle_the_Value_Change_Event)
-- [RadioGroup Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-radio_group-overview)
+- [RadioGroup Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-radio_group-overview)
 - [RadioGroup API Reference](/Documentation/ApiReference/UI_Widgets/dxRadioGroup/)
 
 [tags]radio group, radioGroup, button appearance, item appearance, customize, templates, template, custom template, default item, default template

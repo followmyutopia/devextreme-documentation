@@ -44,7 +44,7 @@ DevExtreme editors may belong to different [validation groups](/Documentation/Ap
 #####See Also#####
 - [ASP.NET MVC Wrappers - Validate and Submit an HTML Form](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Validate_and_Submit_an_HTML_Form/)
 - [Form - Validate and Submit](/Documentation/Guide/Widgets/Form/Validate_and_Submit_the_Form/)
-- [Button Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-button-icons)
+- [Button Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-button-icons)
 - [Button API Reference](/Documentation/ApiReference/UI_Widgets/dxAccordion/)
 
 [tags]button, validate a form, submit a form, submit editors

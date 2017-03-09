@@ -8,7 +8,7 @@ Depending on the value the **TextBox** should hold, specify the widget [mode](/D
 
 #####See Also#####
 - [TextBox - Specify a Mask for the Input](/Documentation/Guide/Widgets/TextBox/Specify_a_Mask_for_the_Input/)
-- [TextBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_box-overview)
+- [TextBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_box-overview)
 - [TextBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTextBox/)
 
 [tags]textBox, text box, editor, mode, password, search, email, phone, url

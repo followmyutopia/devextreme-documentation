@@ -64,6 +64,6 @@ The **TagBox** allows a user to clear selection in one click on the **Clear** bu
 - [TagBox - Create a User-Defined Item](/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/)
 - [TagBox - Enable Searching](/Documentation/Guide/Widgets/TagBox/Enable_Searching/)
 - [TagBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTagBox/)
-- [TagBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-tag_box-overview)
+- [TagBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-tag_box-overview)
 
 [tags]tagBox, tag box, editor, apply value mode, select all, selection controls, hide selected items, clear selection, clear button

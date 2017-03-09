@@ -35,7 +35,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 - [Form - Update Form Data Using the API](/Documentation/Guide/Widgets/Form/Update_Form_Data_Using_the_API/)
 - [Form - Generate a Data Object from Form Items](/Documentation/Guide/Widgets/Form/Generate_a_Data_Object_from_Form_Items​​​/)
 - [Form - Validate and Submit the Form](/Documentation/Guide/Widgets/Form/Validate_and_Submit_the_Form/)
-- [Form Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview)
+- [Form Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview)
 - [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)
 
 [tags]form, value change, get value, field data changed, fieldDataChanged

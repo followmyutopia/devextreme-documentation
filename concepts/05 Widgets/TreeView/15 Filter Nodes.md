@@ -121,7 +121,7 @@ To filter **TreeView** nodes, assign a filtering string to the [searchValue](/Do
 - [TreeView - Access a Node](/Documentation/Guide/Widgets/TreeView/Access_a_Node)
 - [TreeView - Expand and Collapse Nodes](/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes)
 - [TreeView - Select Nodes](/Documentation/Guide/Widgets/TreeView/Select_Nodes)
-- [TreeView Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure)
+- [TreeView Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure)
 - [TreeView API Reference](/Documentation/ApiReference/UI_Widgets/dxTreeView/)
 
 [tags]treeview, tree view, filter, search, textbox, text box, searchValue

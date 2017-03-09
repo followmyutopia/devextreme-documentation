@@ -22,7 +22,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [TabPanel Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview)
+- [TabPanel Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview)
 - [TabPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxTabPanel/)
 
 [tags]tab panel, tabPanel, navigation, accessibility, keyboard shortcuts

@@ -117,7 +117,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [Autocomplete - Configure Search Parameters](/Documentation/Guide/Widgets/Autocomplete/Configure_Search_Parameters)
-- [Autocomplete Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-autocomplete-overview)
+- [Autocomplete Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-autocomplete-overview)
 - [Autocomplete API Reference](/Documentation/ApiReference/UI_Widgets/dxAutocomplete/)
 
 [tags]autocomplete, item appearance, customize, templates, template, default item, default template

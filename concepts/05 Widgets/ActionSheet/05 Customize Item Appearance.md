@@ -122,7 +122,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 #####See Also#####
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
-- [ActionSheet Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-action_sheet-overview/ios7)
+- [ActionSheet Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-action_sheet-overview/ios7)
 - [ActionSheet API Reference](/Documentation/ApiReference/UI_Widgets/dxActionSheet/)
 
 [tags]action sheet, actionSheet, item appearance, customize, templates, template, default item, default template

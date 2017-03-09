@@ -43,7 +43,7 @@ This code yields the following result.
 
 #####See Also#####
 - [Box - Arrange and Align Items](/Documentation/Guide/Widgets/Box/Arrange_and_Align_Items/)
-- [Box Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview)
+- [Box Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview)
 - [Box API Reference](/Documentation/ApiReference/UI_Widgets/dxBox/)
 
 [tags]box, nest, nested, nest boxes, nested boxes

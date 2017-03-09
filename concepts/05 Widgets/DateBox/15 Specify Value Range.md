@@ -26,7 +26,7 @@ If an entered value falls out of the range, the widget displays an error message
 #####See Also#####
 - [DateBox - Control the Behavior](/Documentation/Guide/Widgets/DateBox/Control_the_Behavior)
 - [DateBox - Handle the Value Change Event](/Documentation/Guide/Widgets/DateBox/Handle_the_Value_Change_Event)
-- [DateBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-date_box-overview)
+- [DateBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-date_box-overview)
 - [DateBox API Reference](/Documentation/ApiReference/UI_Widgets/dxDateBox/)
 
 [tags]date box, dateBox, editor, range, min, max, out of range error message

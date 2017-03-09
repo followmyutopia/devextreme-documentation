@@ -55,7 +55,7 @@ If the **baseSize** and **ratio** options are used both, the size of an item equ
 
 #####See Also#####
 - [Box - Arrange and Align Items](/Documentation/Guide/Widgets/Box/Arrange_and_Align_Items/)
-- [Box Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview)
+- [Box Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview)
 - [Box API Reference](/Documentation/ApiReference/UI_Widgets/dxBox/)
 
 [tags]box, item size, item height, item width, baseSize, ratio

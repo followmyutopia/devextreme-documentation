@@ -18,7 +18,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [Button Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-button-icons)
+- [Button Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-button-icons)
 - [Button API Reference](/Documentation/ApiReference/UI_Widgets/dxAccordion/)
 
 [tags]button, accessibility, keyboard shortcuts

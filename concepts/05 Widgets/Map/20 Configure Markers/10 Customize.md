@@ -38,7 +38,7 @@ Apart from the icon, you can specify a [tooltip](/Documentation/ApiReference/UI_
 #####See Also#####
 - [Map - Handle Marker Related Events](/Documentation/Guide/Widgets/Map/Configure_Markers/Handle_the_Related_Events/)
 - [Map - Add and Remove Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/Add_and_Remove/)
-- [Map Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-markers)
+- [Map Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-markers)
 - [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
 
 [tags]map, marker icon, customize marker, tooltip, marker click

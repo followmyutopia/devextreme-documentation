@@ -149,7 +149,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [SlideOut - Group Menu Items](/Documentation/Guide/Widgets/SlideOut/Group_Menu_Items)
-- [SlideOut Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
+- [SlideOut Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
 - [SlideOut API Reference](/Documentation/ApiReference/UI_Widgets/dxSlideOut/)
 
 [tags]slide-out menu, slideOut, item appearance, customize, templates

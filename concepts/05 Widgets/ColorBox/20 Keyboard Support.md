@@ -39,7 +39,7 @@ An end user can use the following keys to interact with the widget.
 
 
 #####See Also#####
-- [ColorBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-color_box-overview)
+- [ColorBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-color_box-overview)
 - [ColorBox API Reference](/Documentation/ApiReference/UI_Widgets/dxColorBox/)
 
 [tags]color box, colorBox, navigation, accessibility, keyboard shortcuts

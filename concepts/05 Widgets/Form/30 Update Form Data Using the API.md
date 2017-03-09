@@ -131,7 +131,7 @@ The **Form** widget provides methods that update specific **formData** fields an
 - [Form - Handle the Value Change Event](/Documentation/Guide/Widgets/Form/Handle_the_Value_Change_Event/)
 - [Form - Generate a Data Object from Form Items](/Documentation/Guide/Widgets/Form/Generate_a_Data_Object_from_Form_Items​​​/)
 - [Form - Validate and Submit the Form](/Documentation/Guide/Widgets/Form/Validate_and_Submit_the_Form/)
-- [Form Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview)
+- [Form Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview)
 - [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)
 
 [tags]form, form data, formData, change form data, update data, update form data

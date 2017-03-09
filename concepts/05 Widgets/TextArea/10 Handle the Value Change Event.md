@@ -39,7 +39,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
 - [TextArea - Handle the Keyboard Events](/Documentation/Guide/Widgets/TextArea/Handle_the_Keyboard_Events/)
-- [TextArea Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_area-overview)
+- [TextArea Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_area-overview)
 - [TextArea API Reference](/Documentation/ApiReference/UI_Widgets/dxTextArea/)
 
 [tags]textArea, text area, editor, get value, set value, change value, valueChangeEvent, valueChanged

@@ -43,7 +43,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
 - [NumberBox - Control the Behavior](/Documentation/Guide/Widgets/NumberBox/Control_the_Behavior)
-- [NumberBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-number_box-overview)
+- [NumberBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-number_box-overview)
 - [NumberBox API Reference](/Documentation/ApiReference/UI_Widgets/dxNumberBox/)
 
 [tags]number box, numberBox, editor, get value, set value, change value, valueChangeEvent, valueChanged

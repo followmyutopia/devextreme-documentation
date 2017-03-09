@@ -40,7 +40,7 @@ By default, the **Lookup** widget loads the next page once the list of items is 
 
 #####See Also#####
 - [Lookup - Enable Grouping](/Documentation/Guide/Widgets/Lookup/Enable_Grouping/)
-- [Lookup Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
+- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
 - [Lookup API Reference](/Documentation/ApiReference/UI_Widgets/dxLookup/)
 
 [tags]lookup, paginate, page size, pageSize, loading mode

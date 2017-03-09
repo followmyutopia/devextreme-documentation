@@ -115,7 +115,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [NavBar - Default Item Template](/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/) 
 - [NavBar - Items Selection](/Documentation/Guide/Widgets/NavBar/Items_Selection/)
-- [NavBar Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7)
+- [NavBar Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7)
 - [NavBar API Reference](/Documentation/ApiReference/UI_Widgets/dxNavBar/)
 
 [tags]nav bar, navBar, navigation bar, item appearance, customize, templates, template, custom template, default item, default template

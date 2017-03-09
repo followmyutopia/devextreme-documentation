@@ -14,7 +14,7 @@ The **DateBox** widget allows an end user to pick or type a value. To specify wh
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
 - [DateBox - Handle the Value Change Event](/Documentation/Guide/Widgets/DateBox/Handle_the_Value_Change_Event)
 - [DateBox - Specify Value Range](/Documentation/Guide/Widgets/DateBox/Specify_Value_Range)
-- [DateBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-date_box-overview)
+- [DateBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-date_box-overview)
 - [DateBox API Reference](/Documentation/ApiReference/UI_Widgets/dxDateBox/)
 
 [tags]date box, dateBox, editor, apply mode, change event, value change event 

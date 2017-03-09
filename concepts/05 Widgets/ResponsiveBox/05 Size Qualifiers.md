@@ -48,7 +48,7 @@ If a size qualifier should be identified with other screen width values, use the
 
 #####See Also#####
 - [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
-- [ResponsiveBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-responsive_box-overview/tablet-landscape)
+- [ResponsiveBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-responsive_box-overview/tablet-landscape)
 - [ResponsiveBox API Reference](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/)
 
 [tags]responsive box, responsiveBox, size qualifier, adaptive layout, extra small screen, small screen, medium screen, large screen 

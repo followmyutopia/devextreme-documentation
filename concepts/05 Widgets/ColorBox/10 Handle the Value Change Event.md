@@ -43,7 +43,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
 - [ColorBox - Support Alpha Channel](/Documentation/Guide/Widgets/ColorBox/Support_Alpha_Channel)
-- [ColorBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-color_box-overview)
+- [ColorBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-color_box-overview)
 - [ColorBox API Reference](/Documentation/ApiReference/UI_Widgets/dxColorBox/)
 
 [tags]color box, colorBox, editor, handle, get value, set value

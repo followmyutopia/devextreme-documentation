@@ -22,7 +22,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [Toolbar Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-toolbar-overview)
+- [Toolbar Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-toolbar-overview)
 - [Toolbar API Reference](/Documentation/ApiReference/UI_Widgets/dxToolbar/)
 
 [tags]toolbar, navigation, accessibility, keyboard shortcuts

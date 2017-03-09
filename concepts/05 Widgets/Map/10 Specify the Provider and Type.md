@@ -40,7 +40,7 @@ The **Map** widget supports the following map types: *"hybrid"*, *"satellite"* a
 #####See Also#####
 - [Map - Zoom and Center the Map](/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/)
 - [Map - Specify the Size](/Documentation/Guide/Widgets/Map/Specify_the_Size/)
-- [Map Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-providers_and_types)
+- [Map Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-providers_and_types)
 - [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
 
 [tags]map, provider, bing, google, api key, map type, hybrid, road map, satellite

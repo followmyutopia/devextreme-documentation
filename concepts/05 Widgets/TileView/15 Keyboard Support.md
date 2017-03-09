@@ -30,7 +30,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [TileView Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tile_view-overview)
+- [TileView Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tile_view-overview)
 - [TileView API Reference](/Documentation/ApiReference/UI_Widgets/dxTileView/)
 
 [tags]tile view, tileView, accessibility, keyboard shortcuts

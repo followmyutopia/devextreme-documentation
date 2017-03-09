@@ -22,7 +22,7 @@ When the widget is positioned at the bottom or at the left side, you may want to
     });
 
 #####See Also#####
-- [Menu Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-menu-overview)
+- [Menu Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-menu-overview)
 - [Menu API Reference](/Documentation/ApiReference/UI_Widgets/dxMenu/)
 
 [tags]menu, orientation, direction, position, padding

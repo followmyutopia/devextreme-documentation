@@ -55,7 +55,7 @@ If objects in an array need to be processed (sorted, filtered, grouped, etc.), y
 - [Data Layer - Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
 - [List - Bind to the ArrayStore](/Documentation/Guide/Widgets/List/Data_Binding/Simple_Array/ArrayStore/)
 - [List - Access the DataSource](/Documentation/Guide/Widgets/List/Data_Binding/Access_the_DataSource/)
-- [List Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
+- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 
 [tags]list, data binding, provide data, array, process data, query

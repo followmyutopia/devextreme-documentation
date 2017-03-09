@@ -7,7 +7,7 @@ To limit the text length, assign an integer number to the **maxLength** option. 
     });
 
 #####See Also#####
-- [TextArea Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_area-overview)
+- [TextArea Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_area-overview)
 - [TextArea API Reference](/Documentation/ApiReference/UI_Widgets/dxTextArea/)
 
 [tags]textArea, text area, editor, string length, text length, maxLength

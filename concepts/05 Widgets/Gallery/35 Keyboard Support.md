@@ -22,7 +22,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [Gallery Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview)
+- [Gallery Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview)
 - [Gallery API Reference](/Documentation/ApiReference/UI_Widgets/dxGallery/)
 
 [tags]gallery, accessibility, keyboard shortcuts

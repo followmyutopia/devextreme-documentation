@@ -27,7 +27,7 @@ An end user can use the following keys to interact with the widget.
 
 
 #####See Also#####
-- [Switch Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-switch-overview)
+- [Switch Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-switch-overview)
 - [Switch API Reference](/Documentation/ApiReference/UI_Widgets/dxSwitch/)
 
 [tags]switch, navigation, accessibility, keyboard shortcuts

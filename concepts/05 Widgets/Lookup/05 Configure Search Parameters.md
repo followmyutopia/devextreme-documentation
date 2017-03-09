@@ -75,7 +75,7 @@ In case you need to disable searching, assign *false* to the [searchEnabled](/Do
 #####See Also#####
 - [Lookup - Enable Grouping](/Documentation/Guide/Widgets/Lookup/Enable_Grouping/)
 - [Lookup - Enable Paging](/Documentation/Guide/Widgets/Lookup/Enable_Paging/)
-- [Lookup Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
+- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
 - [Lookup API Reference](/Documentation/ApiReference/UI_Widgets/dxLookup/)
 
 [tags]lookup, search, search mode, time interval, min search length, disable searching, placeholder, clean search parameters, searchExpr

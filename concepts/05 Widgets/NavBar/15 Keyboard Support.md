@@ -22,7 +22,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [NavBar Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7)
+- [NavBar Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7)
 - [NavBar API Reference](/Documentation/ApiReference/UI_Widgets/dxNavBar/)
 
 [tags]nav bar, navBar, navigation bar, accessibility, keyboard shortcuts

@@ -32,7 +32,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
-- [CheckBox Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-check_box-overview)
+- [CheckBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-check_box-overview)
 - [CheckBox API Reference](/Documentation/ApiReference/UI_Widgets/dxCheckBox/)
 
 [tags]check box, checkBox, editor, get value, set value

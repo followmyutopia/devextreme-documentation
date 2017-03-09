@@ -31,7 +31,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 - [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
 - [Menu - Customize Item Appearance](/Documentation/Guide/Widgets/Menu/Customize_Item_Appearance)
 - [Menu - Change the Orientation](/Documentation/Guide/Widgets/Menu/Change_the_Orientation)
-- [Menu Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-menu-overview)
+- [Menu Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-menu-overview)
 - [Menu API Reference](/Documentation/ApiReference/UI_Widgets/dxMenu/)
 
 [tags]menu, access the clicked item, onItemClick, itemClick

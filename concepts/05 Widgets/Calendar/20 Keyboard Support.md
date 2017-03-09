@@ -31,7 +31,7 @@ An end user can use the following keys to interact with the widget.
 
 
 #####See Also#####
-- [Calendar Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-calendar-overview)
+- [Calendar Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-calendar-overview)
 - [Calendar API Reference](/Documentation/ApiReference/UI_Widgets/dxCalendar/)
 
 [tags]calendar, accessibility, keyboard shortcuts

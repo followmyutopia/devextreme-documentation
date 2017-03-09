@@ -27,7 +27,7 @@ An end user can use the following keys to interact with the widget.
 
 
 #####See Also#####
-- [Slider Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-slider-overview/ios7)
+- [Slider Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-slider-overview/ios7)
 - [Slider API Reference](/Documentation/ApiReference/UI_Widgets/dxSlider/)
 
 [tags]slider, accessibility, keyboard shortcuts

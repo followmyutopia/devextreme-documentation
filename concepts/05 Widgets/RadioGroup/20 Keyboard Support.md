@@ -31,7 +31,7 @@ An end user can use the following keys to interact with the widget.
 
 
 #####See Also#####
-- [RadioGroup Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-radio_group-overview)
+- [RadioGroup Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-radio_group-overview)
 - [RadioGroup API Reference](/Documentation/ApiReference/UI_Widgets/dxRadioGroup/)
 
 [tags]radio group, radioGroup, accessibility, keyboard shortcuts

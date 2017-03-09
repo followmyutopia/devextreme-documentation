@@ -39,7 +39,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #####See Also#####
 - [Map - Customize Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/Customize/)
 - [Map - Add and Remove Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/Add_and_Remove/)
-- [Map Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-markers)
+- [Map Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-markers)
 - [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
 
 [tags]map, marker added, marker removed, markerAdded event, markerRemoved event

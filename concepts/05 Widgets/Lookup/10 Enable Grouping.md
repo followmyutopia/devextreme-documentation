@@ -129,7 +129,7 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
 - [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine)
 - [Lookup - Customize the Appearance](/Documentation/Guide/Widgets/Lookup/Customize_the_Appearance/)
 - [Lookup - Enable Paging](/Documentation/Guide/Widgets/Lookup/Enable_Paging/)
-- [Lookup Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
+- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
 - [Lookup API Reference](/Documentation/ApiReference/UI_Widgets/dxLookup/)
 
 [tags]lookup, group, group template, customize

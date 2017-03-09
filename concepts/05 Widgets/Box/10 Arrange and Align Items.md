@@ -36,7 +36,7 @@ If the **Box** items do not occupy the entire **Box**, you can align them along 
 
 #####See Also#####
 - [Box - Nest One Box into Another](/Documentation/Guide/Widgets/Box/Nest_One_Box_into_Another/)
-- [Box Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview)
+- [Box Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview)
 - [Box API Reference](/Documentation/ApiReference/UI_Widgets/dxBox/)
 
 [tags]box, arrange items in a column, arrange items in a row, direction, items alignment, align items, crossAlign

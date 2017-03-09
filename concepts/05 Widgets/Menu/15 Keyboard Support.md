@@ -38,7 +38,7 @@ An end user can use the following keys to interact with the widget.
 </div>
 
 #####See Also#####
-- [Menu Demo](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-menu-overview)
+- [Menu Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-menu-overview)
 - [Menu API Reference](/Documentation/ApiReference/UI_Widgets/dxMenu/)
 
 [tags]menu, accessibility, keyboard shortcuts

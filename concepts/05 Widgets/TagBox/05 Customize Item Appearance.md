@@ -185,6 +185,6 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [TagBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTagBox/)
-- [TagBox Demo](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-tag_box-overview)
+- [TagBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-tag_box-overview)
 
 [tags]tagBox, tag box, editor, item appearance, customize, templates, template, default item, default template, tag template
