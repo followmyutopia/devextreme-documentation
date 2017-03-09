@@ -22,17 +22,5 @@ The value indicator is a pointer which designates the main value of the gauge. T
 - [TriangleNeedle](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/TriangleNeedle/)
 - [TwoColorNeedle](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/TwoColorNeedle/)
 
-When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), configure the value indicator in the following manner.
-
-    @(Html.DevExtreme().CircularGauge()
-        // ...
-        .ValueIndicator(i => i
-            .TextCloud() // or any other indicator
-            .ArrowLength(10)
-            // ...
-            // other indicator options go here 
-        )
-    )
-
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementsdifferentvalueindicatortypes/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

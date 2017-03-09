@@ -22,17 +22,5 @@ The value indicator is a pointer that designates the main value of the gauge. Th
 - [TextCloud](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Indicator_Types/TextCloud/)
 - [TriangleMarker](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Indicator_Types/TriangleMarker/)
 
-When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), configure the value indicator in the following manner.
-
-    @(Html.DevExtreme().LinearGauge()
-        // ...
-        .ValueIndicator(i => i
-            .Circle() // or any other indicator
-            .Color("red")
-            // ...
-            // other indicator options go here 
-        )
-    )
-
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/gaugeslineargaugeslineargaugebasicelementsdifferentvalueindicatortypes/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

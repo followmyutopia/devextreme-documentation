@@ -24,17 +24,5 @@ The subvalue indicator is a pointer, which designates an extra value on a scale.
 - [TextCloud](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Indicator_Types/TextCloud/)
 - [TriangleMarker](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Indicator_Types/TriangleMarker/)
 
-When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), configure the subvalue indicator in the following manner.
-
-    @(Html.DevExtreme().LinearGauge()
-        // ...
-        .SubvalueIndicator(i => i
-            .Rhombus() // or any other indicator
-            .Palette(VizPalette.Ocean)
-            // ...
-            // other indicator options go here 
-        )
-    )
-
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/gaugeslineargaugeslineargaugebasicelementsdifferentsubvalueindicatortypes/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
