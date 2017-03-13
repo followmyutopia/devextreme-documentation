@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->'enlargeTickInterval'<!--/default-->
-<!--acceptValues-->'ignore' | 'enlargeTickInterval'<!--/acceptValues-->
+<!--acceptValues-->'enlargeTickInterval' | 'none'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
 

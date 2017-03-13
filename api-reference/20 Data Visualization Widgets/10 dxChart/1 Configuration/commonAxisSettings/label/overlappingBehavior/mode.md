@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->'enlargeTickInterval'<!--/default-->
-<!--acceptValues-->'ignore' | 'stagger' | 'rotate' | 'enlargeTickInterval'<!--/acceptValues-->
+<!--acceptValues-->'stagger' | 'rotate' | 'enlargeTickInterval' | 'none'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
 

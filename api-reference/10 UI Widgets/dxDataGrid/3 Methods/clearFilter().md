@@ -11,12 +11,6 @@
 Clears all the filters of a specific type applied to grid records.
 <!--/shortDescription-->
 
-<!--paramName1-->filterName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
-<!--paramDescription1-->
-Type of filter to be cleared. Can be 'dataSource', 'search', 'header' or 'row'.
-<!--/paramDescription1-->
-
 <!--fullDescription-->
 In **DataGrid**, grid records can be filtered in several different ways. This method's parameter specifies what type of filter should be cleared. The parameter values can be the following:
 
