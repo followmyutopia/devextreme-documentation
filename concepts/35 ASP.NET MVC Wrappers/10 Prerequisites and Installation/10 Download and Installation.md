@@ -4,7 +4,7 @@ After installation is completed, you can create a new project that includes all 
 
 ### ASP.NET MVC 3, 4, 5 ###
 
-Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integration/Add_the_Required_Resources_to_Your_Project/) for Visual Studio.
+Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integration/Add_or_Upgrade_the_Required_Resources_in_Your_Project/) for Visual Studio.
 
 ### ASP.NET Core MVC ###
 
