@@ -91,7 +91,7 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().RadioGroup()
+        <!--Razor C#-->@(Html.DevExtreme().RadioGroup()
             .ID("radioGroup")
             .DisplayExpr("text")
             .ValueExpr("color")
@@ -101,6 +101,19 @@ You can create the widget using one of the following approaches.
                 new { text = "Normal", color = "green" },
                 new { text = "Urgent", color = "yellow" },
                 new { text = "High", color = "red" }
+            })
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().RadioGroup() _
+            .ID("radioGroup") _
+            .DisplayExpr("text") _
+            .ValueExpr("color") _
+            .Value("green") _
+            .DataSource(New Object() {
+                New With { .text = "Low", .color = "grey" },
+                New With { .text = "Normal", .color = "green" },
+                New With { .text = "Urgent", .color = "yellow" },
+                New With { .text = "High", .color = "red" }
             })
         )
 

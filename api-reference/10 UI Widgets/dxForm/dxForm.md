@@ -138,7 +138,7 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Form()
+        <!--Razor C#-->@(Html.DevExtreme().Form()
             .FormData(new {
                 id = 1,
                 name = "Super Mart of the West",
@@ -162,7 +162,33 @@ You can create the widget using one of the following approaches.
                     contactsItems.AddSimple().DataField("website");
                 });
             })
-        )   
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Form() _
+            .FormData(New With {
+                .id = 1,
+                .name = "Super Mart of the West",
+                .city = "Bentonville",
+                .state = "Arkansas",
+                .zip = 727161232,
+                .phone = "(800) 555-2797",
+                .fax = "(800) 555-2171",
+                .website = "http://www.nowebsite.com"
+            }) _
+            .Items(Sub(formItems)
+                formItems.AddSimple().DataField("name")
+                formItems.AddGroup().Caption("Location").Items(Sub(locationItems)
+                    locationItems.AddSimple().DataField("city")
+                    locationItems.AddSimple().DataField("state")
+                    locationItems.AddSimple().DataField("zip")
+                End Sub)
+                formItems.AddGroup().Caption("Contacts").Items(Sub(contactsItems)
+                    contactsItems.AddSimple().DataField("phone")
+                    contactsItems.AddSimple().DataField("fax")
+                    contactsItems.AddSimple().DataField("website")
+                End Sub)
+            End Sub)
+        )  
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

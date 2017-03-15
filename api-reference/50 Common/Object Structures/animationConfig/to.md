@@ -61,9 +61,21 @@ You can specify the initial or target element position relative to the current e
 
 When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option with an object instead of the usual lambda expression.
 
+    <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()
         .Animation(a => a
-            .To(new { scale = 1, opacity = 1 })
+            .Show(s => s
+                .To(new { scale = 1, opacity = 1 })
+            )
         )
+    )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().WidgetName() _
+        .Animation(Sub(a)
+            a.Show(Sub(s)
+                s.To(New With { .scale = 1, .opacity = 1 })
+            End Sub)
+        End Sub)
     )
 <!--/fullDescription-->

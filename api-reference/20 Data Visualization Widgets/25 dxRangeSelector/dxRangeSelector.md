@@ -100,13 +100,22 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
         
-        @(Html.DevExtreme().RangeSelector()
+        <!--Razor C#-->@(Html.DevExtreme().RangeSelector()
             .ID("rangeSelector")
             .Scale(scale => scale
                 .StartValue(new DateTime(2011, 1, 1))
                 .EndValue(new DateTime(2011, 6, 1))
                 .TickInterval(ti => ti.Days(7))
             )
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().RangeSelector() _
+            .ID("rangeSelector") _
+            .Scale(Sub(scale)
+                scale.StartValue(New DateTime(2011, 1, 1)) _
+                     .EndValue(New DateTime(2011, 6, 1)) _
+                     .TickInterval(Sub(ti) ti.Days(7))
+            End Sub)
         )
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.

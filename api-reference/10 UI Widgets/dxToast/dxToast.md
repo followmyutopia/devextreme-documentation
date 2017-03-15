@@ -99,7 +99,7 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Toast()
+        <!--Razor C#-->@(Html.DevExtreme().Toast()
             .ID("toast")
             .Message("Connection problem")
             .Type(ToastType.Error)
@@ -114,6 +114,23 @@ You can create the widget using one of the following approaches.
                 }
             </text>)    
         )
+
+        <!--Razor VB-->@(Html.DevExtreme().Toast() _
+            .ID("toast") _
+            .Message("Connection problem") _
+            .Type(ToastType.Error) _
+            .DisplayTime(3000)
+        )
+        @(Html.DevExtreme().Button() _
+            .ID("button") _
+            .Text("Show the Toast") _
+            .OnClick("button_click")    
+        )
+        <script>
+            function button_click(e) {
+                $("#toast").dxToast("show")
+            }
+        </script>
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

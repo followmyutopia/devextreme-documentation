@@ -36,21 +36,29 @@ DevExtreme supports predefined jQuery easing (*"linear"* and *"swing"*) and CSS 
 
 When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `AnimationEasing` enum. This enum accepts the following values: `Ease`, `EaseIn`, `EaseInOut`, `EaseOut`, `Linear`, `Swing`, `StepStart` and `StepEnd`.
 
-    @(Html.DevExtreme().WidgetName()
-        // other widget options go here
-        // ...
+    <!--Razor C#-->@(Html.DevExtreme().WidgetName()
         .Animation(a => a
             .Hide(h => h.Easing(AnimationEasing.Linear))
         )
     )
 
+    <!--Razor VB-->@(Html.DevExtreme().WidgetName() _
+        .Animation(Sub(a)
+            a.Hide(Sub(h) h.Easing(AnimationEasing.Linear))
+        End Sub)
+    )
+
 In case you want to employ the cubic-bezier transition function, use the `EasingCubicBezier()` method that accepts four values of the `double` type.
 
-    @(Html.DevExtreme().WidgetName()
-        // other widget options go here
-        // ...
+    <!--Razor C#-->@(Html.DevExtreme().WidgetName()
         .Animation(a => a
             .Hide(h => h.EasingCubicBezier(0, 1, 1, 0))
         )
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().WidgetName() _
+        .Animation(Sub(a)
+            a.Hide(Sub(h) h.EasingCubicBezier(0, 1, 1, 0))
+        End Sub)
     )
 <!--/fullDescription-->

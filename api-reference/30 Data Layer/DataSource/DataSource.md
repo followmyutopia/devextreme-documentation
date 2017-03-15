@@ -37,7 +37,7 @@ Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/), [Data So
 
 When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the options of the **DataSource** in the `DataSourceOptions()` method.
 
-    @(Html.DevExtreme().DataGrid()
+    <!--Razor C#-->@(Html.DevExtreme().DataGrid()
         .ID("dataGrid")
         .DataSource(d => d
             // ...
@@ -48,6 +48,19 @@ When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.
             .Sort("LastName", false)
         )
     )
+
+    <!--Razor VB-->@(Html.DevExtreme().DataGrid() _
+        .ID("dataGrid") _
+        .DataSource(Function(d)
+            Return d.
+                @* Data access is configured here *@
+        End Function) _
+        .DataSourceOptions(Sub(o)
+            o.Filter("['ProductID', '>', 10]") _
+             .Sort("LastName", False)
+        End Sub)
+    )
+
 
 For information on how to configure data access using ASP.NET MVC Wrappers, see the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/) topic.
 <!--/fullDescription-->

@@ -135,7 +135,7 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Sparkline()
+        <!--Razor C#-->@(Html.DevExtreme().Sparkline()
             .ID("daySpakline")
             .DataSource(Temperature)
             .ArgumentField("month")
@@ -147,6 +147,21 @@ You can create the widget using one of the following approaches.
             .DataSource(Temperature)
             .ArgumentField("month")
             .ValueField("night")
+            .Type(SparklineType.Bar)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Sparkline() _
+            .ID("daySpakline") _
+            .DataSource(Temperature) _
+            .ArgumentField("month") _
+            .ValueField("day") _
+            .Type(SparklineType.Bar)
+        )
+        @(Html.DevExtreme().Sparkline() _
+            .ID("nightSpakline") _
+            .DataSource(Temperature) _
+            .ArgumentField("month") _
+            .ValueField("night") _
             .Type(SparklineType.Bar)
         )
 

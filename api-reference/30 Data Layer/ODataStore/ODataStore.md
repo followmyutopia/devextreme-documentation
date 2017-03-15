@@ -37,7 +37,7 @@ Note that the [key](/Documentation/ApiReference/Data_Layer/ODataStore/Configurat
 
 When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the **ODataStore** using the syntax shown in the following example. This example configures the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) widget.
 
-    @(Html.DevExtreme().DataGrid()
+    <!--Razor C#-->@(Html.DevExtreme().DataGrid()
         .ID("dataGrid")
         .DataSource(ds => ds.OData()
             .Version(4)
@@ -46,6 +46,18 @@ When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.
             .Key("ProductID")
             .Expand("Category")
         )
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().DataGrid() _
+        .ID("dataGrid") _
+        .DataSource(Function(ds)
+            Return ds.OData() _
+                     .Version(4) _
+                     .Url("http://services.odata.org/V4/Northwind/Northwind.svc/Products") _
+                     .JSONP(True) _
+                     .Key("ProductID") _
+                     .Expand("Category")
+        End Function)
     )
 
 #####See Also#####

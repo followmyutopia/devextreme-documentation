@@ -2,6 +2,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
 
 1. In **ASP.NET MVC 3, 4, 5**, create a class that inherits from the [`ValidationAttribute`](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.validationattribute(v=vs.110).aspx) and [`IClientValidatable`](https://msdn.microsoft.com/en-us/library/system.web.mvc.iclientvalidatable(v=vs.118).aspx). In this class, implement the [`GetClientValidationRules`](https://msdn.microsoft.com/en-us/library/gg416550(v=vs.118).aspx) method. Note that this method returns an object of the [`ModelClientValidationRule`](https://msdn.microsoft.com/en-us/library/system.web.mvc.modelclientvalidationrule(v=vs.118).aspx) type. The [`ValidationType`](https://msdn.microsoft.com/en-us/library/system.web.mvc.modelclientvalidationrule.validationtype(v=vs.100).aspx) property of this object should be set to *"custom"*, and the [`ValidationParameters`](https://msdn.microsoft.com/en-us/library/system.web.mvc.modelclientvalidationrule.validationparameters(v=vs.100).aspx) collection should be given a new entry called *"validationCallback"*, which binds a JavaScript function to the validation rule. This function will be declared in step 3.
         
+        <!--C#-->
         using System.Collections.Generic;
         using System.ComponentModel.DataAnnotations;
         using System.Web.Mvc;
@@ -26,6 +27,31 @@ If the built-in validation rules do not meet your requirements, implement a cust
             }
         }
 
+        <!--VB-->
+        Imports System.Collections.Generic
+        Imports System.ComponentModel.DataAnnotations
+        Imports System.Web.Mvc
+
+        Namespace Models
+            Public Class VerifyAgeAttribute
+                Inherits ValidationAttribute
+                Implements IClientValidatable
+                Public Sub New()
+                    MyBase.New("The value of the {0} field is not valid")
+                End Sub
+                Public Iterator Function IClientValidatable_GetClientValidationRules(metadata As ModelMetadata, context As ControllerContext)
+                                As IEnumerable(Of ModelClientValidationRule) Implements IClientValidatable.GetClientValidationRules
+                    Dim Rule = New ModelClientValidationRule()
+                    Rule.ErrorMessage = FormatErrorMessage(metadata.GetDisplayName())
+                    ' Binds the "verifyAge" JavaScript function to the validation rule
+                    Rule.ValidationParameters.Add("validationCallback", "verifyAge")
+                    ' "ValidationType" should always be "custom"
+                    Rule.ValidationType = "custom"
+                    Yield Rule
+                End Function
+            End Class
+        End Namespace
+
     In **ASP.NET Core MVC**, create a class that inherits from the [`ValidationAttribute`](https://docs.microsoft.com/en-us/dotnet/core/api/system.componentmodel.dataannotations.validationattribute) and [`IClientModelValidator`](https://docs.microsoft.com/en-us/aspnet/core/api/microsoft.aspnetcore.mvc.modelbinding.validation.iclientmodelvalidator). In this class, implement the following methods. 
 
     - `AddValidation`   
@@ -36,6 +62,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
 
     <!--->
 
+        <!--C#-->
         using System.Collections.Generic;
         using System.ComponentModel.DataAnnotations;
         using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
@@ -63,6 +90,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
 
 2. Attach the custom attribute to a model property.
 
+        <!--C#-->
         using System.ComponentModel.DataAnnotations;
         namespace ApplicationName.Models {
             public class Person {
@@ -71,6 +99,16 @@ If the built-in validation rules do not meet your requirements, implement a cust
                 public int Age { get; set; }
             }
         }
+
+        <!--VB-->
+        Imports System.ComponentModel.DataAnnotations
+        Namespace Models
+            Public Class Person
+                ' ...
+                <VerifyAge(ErrorMessage:="Persons under 21 are not allowed")>
+                Public Property Age() As Integer
+            End Class
+        End Namespace
 
 3. In the view, declare a JavaScript function that implements all validation logic.
 
@@ -85,10 +123,19 @@ If the built-in validation rules do not meet your requirements, implement a cust
 
 To use the custom validation rule, create a DevExtreme editor (in this case, the [NumberBox](/Documentation/ApiReference/UI_Widgets/dxNumberBox/)) in the same view where the JavaScript function is declared, and bind this editor to the model property from step 2 using the `Name()` method.
 
+    <!--Razor C#-->
     @model ApplicationName.Models.Person
 
     @(Html.DevExtreme().NumberBox()
         .Name("Age")
+        .Value(Model.Age)
+    )
+
+    <!--Razor VB-->
+    @ModelType ApplicationName.Models.Person
+
+    @(Html.DevExtreme().NumberBox() _
+        .Name("Age") _
         .Value(Model.Age)
     )
 

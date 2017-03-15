@@ -105,7 +105,7 @@ You can create the **PivotGrid** widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().PivotGrid()
+        <!--Razor C#-->@(Html.DevExtreme().PivotGrid()
             .ID("pivotGrid")
             .DataSource(ds => ds
                 .Store(store => store.OData()
@@ -123,6 +123,27 @@ You can create the **PivotGrid** widget using one of the following approaches.
                     fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count);
                 })
             )
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().PivotGrid() _
+            .ID("pivotGrid") _
+            .DataSource(Sub(ds)
+                ds.Store(Function(store)
+                    Return store.OData() _
+                        .Url("http://url/to/the/service") _
+                        .Key(New String() { "OrderID" }) _
+                        .KeyType(EdmType.Int32)
+                    End Function) _
+                .Fields(Sub(fields)
+                    fields.Add().Area(PivotGridArea.Column) _
+                        .DataField("OrderDate") _
+                        .DataType(PivotGridDataType.Date)
+                    fields.Add().Area(PivotGridArea.Row).DataField("ShipCountry")
+                    fields.Add().Area(PivotGridArea.Row).DataField("ShipCity")
+                    fields.Add().Area(PivotGridArea.Row).DataField("ShipName")
+                    fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count)
+                End Sub)
+            End Sub)
         )
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.

@@ -93,7 +93,7 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Scheduler()
+        <!--Razor C#-->@(Html.DevExtreme().Scheduler()
             .ID("scheduler")
             .DataSource(new object[] {
                 new {
@@ -110,6 +110,25 @@ You can create the widget using one of the following approaches.
             })
             .CurrentDate(new DateTime(2015, 5, 10))
             .StartDayHour(8)
+            .EndDayHour(19)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Scheduler() _
+            .ID("scheduler") _
+            .DataSource(New Object() {
+                New With {
+                    .text = "Meeting customers",
+                    .startDate = new DateTime(2015, 5, 10, 11, 0, 0),
+                    .endDate = new DateTime(2015, 5, 10, 13, 0, 0)
+                },
+                New With {
+                    .text = "Summing up the results",
+                    .startDate = new DateTime(2015, 5, 11, 12, 0, 0),
+                    .endDate = new DateTime(2015, 5, 11, 13, 0, 0)
+                }
+            }) _
+            .CurrentDate(New DateTime(2015, 5, 10)) _
+            .StartDayHour(8) _
             .EndDayHour(19)
         )
 

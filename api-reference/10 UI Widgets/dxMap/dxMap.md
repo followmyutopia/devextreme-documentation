@@ -61,11 +61,19 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Map()
+        <!--Razor C#-->@(Html.DevExtreme().Map()
             .ID("map")
             .Provider(GeoMapProvider.Bing)
             .Type(GeoMapType.Roadmap)
             .Zoom(10)
+            .Center(40.749825, -73.987963)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Map() _
+            .ID("map") _
+            .Provider(GeoMapProvider.Bing) _
+            .Type(GeoMapType.Roadmap) _
+            .Zoom(10) _
             .Center(40.749825, -73.987963)
         )
 

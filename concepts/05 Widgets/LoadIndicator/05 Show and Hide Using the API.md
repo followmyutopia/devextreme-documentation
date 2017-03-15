@@ -27,6 +27,7 @@ To specify whether the **LoadIndicator** is shown, change the [visible](/Documen
 
 [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
+    <!--Razor C#-->
     @(Html.DevExtreme().LoadIndicator()
         .ID("loadIndicator")
         .Visible(false)
@@ -43,6 +44,26 @@ To specify whether the **LoadIndicator** is shown, change the [visible](/Documen
             } 
         </text>)
     )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().LoadIndicator() _
+        .ID("loadIndicator") _
+        .Visible(False)
+    )
+
+    @(Html.DevExtreme().Button() _
+        .ID("button") _
+        .Text("Toggle the LoadIndicator") _
+        .OnClick("button_click")
+    )
+
+    <script>
+        function button_click() {
+            var loadIndicator = $("#loadIndicator").dxLoadIndicator("instance");
+            var isLoadIndicatorVisible = loadIndicator.option("visible");
+            loadIndicator.option("visible", !isLoadIndicatorVisible);
+        }
+    </script>
 
 With AngularJS or Knockout, bind the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#visible) property of the **LoadIndicator** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **LoadIndicator** will appear or disappear.
 

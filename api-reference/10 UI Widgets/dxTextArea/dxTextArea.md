@@ -52,8 +52,13 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().TextArea()
+        <!--Razor C#-->@(Html.DevExtreme().TextArea()
             .ID("textArea")
+            .Placeholder("Type a text here...")
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().TextArea() _
+            .ID("textArea") _
             .Placeholder("Type a text here...")
         )
 

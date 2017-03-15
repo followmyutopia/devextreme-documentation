@@ -120,7 +120,7 @@ You can create the **Chart** widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Chart()
+        <!--Razor C#-->@(Html.DevExtreme().Chart()
             .ID("chart")
             .DataSource(Fruits)
             .CommonSeriesSettings(c => c
@@ -131,7 +131,20 @@ You can create the **Chart** widget using one of the following approaches.
                 series.Add().ValueField("yield");
                 series.Add().ValueField("consumed");
             })
-		)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Chart() _
+            .ID("chart") _
+            .DataSource(Fruits) _
+            .CommonSeriesSettings(Sub(c)
+                c.ArgumentField("fruit") _
+                 .Type(SeriesType.Bar)
+            End Sub) _
+            .Series(Sub(series)
+                series.Add().ValueField("yield")
+                series.Add().ValueField("consumed")
+            End Sub)
+        )
 
 All DevExtreme widgets require linking the jQuery library. Linking the Knockout or AngularJS library is optional. For detailed information on how to link the needed libraries, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

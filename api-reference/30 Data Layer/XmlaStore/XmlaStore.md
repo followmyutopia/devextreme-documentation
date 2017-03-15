@@ -32,7 +32,7 @@ For now, **XmlaStore** supports only Microsoft Analysis Services. The comprehens
 
 When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the **XmlaStore** using the syntax shown in the following example. This example configures the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
 
-    @(Html.DevExtreme().PivotGrid()
+    <!--Razor C#-->@(Html.DevExtreme().PivotGrid()
         .DataSource(ds => ds
             .Store(s => s.Xmla()
                 .Url("http://my-web-srv01/OLAP/msmdpump.dll")
@@ -40,6 +40,17 @@ When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.
                 .Cube("Adventure Works")
             )
         )
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().PivotGrid() _
+        .DataSource(Function(ds)
+            Return ds.Store(Function(s)
+                    Return s.Xmla() _
+                            .Url("http://my-web-srv01/OLAP/msmdpump.dll") _
+                            .Catalog("AdventureWorksDW2012") _
+                            .Cube("Adventure Works")
+                    End Function)
+        End Function)
     )
 
 <!--/fullDescription-->

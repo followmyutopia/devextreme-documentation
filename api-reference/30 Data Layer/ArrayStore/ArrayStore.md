@@ -45,7 +45,7 @@ Note, that the [key](/Documentation/ApiReference/Data_Layer/LocalStore/Configura
 
 When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the **ArrayStore** using the syntax shown in the following example. This example configures the [SelectBox](/Documentation/ApiReference/UI_Widgets/dxSelectBox/) widget.
 
-    @(Html.DevExtreme().SelectBox()
+    <!--Razor C#-->@(Html.DevExtreme().SelectBox()
         .ID("selectBox")
         .DataSource(ds => ds.Array()
             .Key("id")
@@ -59,7 +59,7 @@ When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.
         .DisplayExpr("state")
         .ValueExpr("id")
     )
-    // ===== or a simplified version =====
+    @* ===== or a simplified version ===== *@
     @(Html.DevExtreme().SelectBox()
         .ID("selectBox")
         .DataSource(new[] {
@@ -69,6 +69,32 @@ When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.
             // ...
         }, "id")
         .DisplayExpr("state")
+        .ValueExpr("id")
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().SelectBox() _
+        .ID("selectBox") _
+        .DataSource(Function(ds)
+            Return ds.Array() _
+                     .Key("id") _
+                     .Data({
+                         New With { .id = 1, .state = "Alabama", .capital = "Montgomery" },
+                         New With { .id = 2, .state = "Alaska", .capital = "Juneau" },
+                         New With { .id = 3, .state = "Arizona", .capital = "Phoenix" }
+                     })
+        End Function) _
+        .DisplayExpr("state") _
+        .ValueExpr("id")
+    )
+    @* ===== or a simplified version ===== *@
+    @(Html.DevExtreme().SelectBox() _
+        .ID("selectBox") _
+        .DataSource({
+            New With { .id = 1, .state = "Alabama", .capital = "Montgomery" },
+            New With { .id = 2, .state = "Alaska", .capital = "Juneau" },
+            New With { .id = 3, .state = "Arizona", .capital = "Phoenix" }
+        }, "id") _
+        .DisplayExpr("state") _
         .ValueExpr("id")
     )
 <!--/fullDescription-->

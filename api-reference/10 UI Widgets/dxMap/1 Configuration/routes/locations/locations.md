@@ -23,12 +23,21 @@ You can specify the **locations** value in one of the following formats.
 
 When you configure the **Map** using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `Address()` or `Coordinates()` method as shown in the following code.
 
-    @(Html.DevExtreme().Map()
+    <!--Razor C#-->@(Html.DevExtreme().Map()
         .Routes(routes => {
             routes.Add().Locations(locations => {
                 locations.Add().Address("Brooklyn Bridge,New York,NY");
                 locations.Add().Coordinates(40.753889, -73.95);
             });
         })
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().Map() _
+        .Routes(Sub(routes)
+            routes.Add().Locations(Sub(locations)
+                locations.Add().Address("Brooklyn Bridge,New York,NY")
+                locations.Add().Coordinates(40.753889, -73.95)
+            End Sub)
+        End Sub)
     )
 <!--/fullDescription-->

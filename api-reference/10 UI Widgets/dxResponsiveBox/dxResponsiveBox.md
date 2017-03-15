@@ -142,7 +142,7 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        <!--HTML--><html style="height:100%">
+        <!--Razor C#--><html style="height:100%">
             <!-- ... -->
         </html>
         <body style="height:100%">
@@ -158,27 +158,55 @@ You can create the widget using one of the following approaches.
                 })
                 .Items(items => {
                     items.Add()
+                        .Template("<p>Header</p>")
                         .Location(locations => {
                             locations.Add().Row(0).Col(0);
-                        })
-                        .Template(@<text>
-                            <p>Header</p>
-                        </text>);
+                        });
                     items.Add()
+                        .Template("<p>Content</p>")
                         .Location(locations => {
                             locations.Add().Row(1).Col(0);
-                        })
-                        .Template(@<text>
-                            <p>Content</p>
-                        </text>);
+                        });
                     items.Add()
+                        .Template("<p>Footer</p>")
                         .Location(locations => {
                             locations.Add().Row(2).Col(0);
-                        })
-                        .Template(@<text>
-                            <p>Footer</p>
-                        </text>);
+                        });
                 })
+            )
+        </body>
+
+        <!--Razor VB--><html style="height:100%">
+            <!-- ... -->
+        </html>
+        <body style="height:100%">
+            @(Html.DevExtreme().ResponsiveBox() _
+                .ID("responsiveBox") _
+                .Rows(Sub(rows)
+                    rows.Add().Ratio(1)
+                    rows.Add().Ratio(2)
+                    rows.Add().Ratio(0.7)
+                End Sub) _
+                .Cols(Sub(cols)
+                    cols.Add().Ratio(1)
+                End Sub) _
+                .Items(Sub(items)
+                    items.Add() _
+                        .Template("<p>Header</p>") _
+                        .Location(Sub(locations)
+                            locations.Add().Row(0).Col(0)
+                        End Sub)
+                    items.Add() _
+                        .Template("<p>Content</p>") _
+                        .Location(Sub(locations)
+                            locations.Add().Row(1).Col(0)
+                        End Sub)
+                    items.Add() _
+                        .Template("<p>Footer</p>") _
+                        .Location(Sub(locations)
+                            locations.Add().Row(2).Col(0)
+                        End Sub)
+                End Sub)
             )
         </body>
 

@@ -33,6 +33,7 @@ To show or hide the **Popup** programmatically, call the [show()](/Documentation
 
 [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
+    <!--Razor C#-->
     @(Html.DevExtreme().Popup()
         .ID("popup")
         .Title("Popup Title")
@@ -64,6 +65,41 @@ To show or hide the **Popup** programmatically, call the [show()](/Documentation
             } 
         </text>)
     )
+
+    <!--Razor VB-->@Code
+        Html.DevExtreme().Popup() _
+            .ID("popup") _
+            .Title("Popup Title") _
+            .ContentTemplate(Sub()
+                @<text>
+                    <p>Popup content</p>
+                </text>
+            End Sub).Render()
+
+        Html.DevExtreme().Button() _
+            .ID("showButton") _
+            .Text("Show the Popup") _
+            .OnClick("showButton_click").Render()
+
+        Html.DevExtreme().Button() _
+            .ID("hideButton") _
+            .Text("Hide the Popup") _
+            .OnClick("hideButton_click").Render()
+    End Code
+
+    <script>
+        function showButton_click() {
+            $("#popup").dxPopup("show");
+            // ---------- or ----------
+            $("#popup").dxPopup("toggle", true);
+        }
+
+        function hideButton_click() {
+            $("#popup").dxPopup("hide");
+            // ---------- or ----------
+            $("#popup").dxPopup("toggle", false);
+        }
+    </script>
 
 With AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#visible) property of the **Popup** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **Popup** will appear or disappear.
 

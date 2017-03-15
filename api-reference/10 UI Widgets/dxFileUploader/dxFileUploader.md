@@ -52,8 +52,13 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().FileUploader()
+        <!--Razor C#-->@(Html.DevExtreme().FileUploader()
             .ID("fileUploader")
+            .Accept("image/*")
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().FileUploader() _
+            .ID("fileUploader") _
             .Accept("image/*")
         )
 

@@ -82,7 +82,7 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().SlideOut()
+        <!--Razor C#-->@(Html.DevExtreme().SlideOut()
             .ID("slideOut")
             .DataSource(new [] {
                 "SuperLCD 42", "SuperLED 42", "SuperLED 50",
@@ -95,6 +95,21 @@ You can create the widget using one of the following approaches.
                 }
             </text>)
         )
+
+        <!--Razor VB-->@(Html.DevExtreme().SlideOut() _
+            .ID("slideOut") _
+            .DataSource({
+                "SuperLCD 42", "SuperLED 42", "SuperLED 50",
+                "SuperLCD 55", "SuperLCD 70", "DesktopLCD 19",
+                "DesktopLCD 21", "DesktopLED 21"
+            }) _
+            .OnItemClick("slideOut_itemClick")
+        )
+        <script>
+            function slideOut_itemClick(e) {
+                e.component.hideMenu();
+            }
+        </script>
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

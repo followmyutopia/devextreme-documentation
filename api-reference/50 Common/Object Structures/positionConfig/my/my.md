@@ -21,9 +21,17 @@ The **my** option can take on an object containing the **x** and **y** fields, w
 
 When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `HorizontalAlignment` and `VerticalAlignment` enums in the following manner.
 
+    <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()
         .Position(p => p
             .My(HorizontalAlignment.Right, VerticalAlignment.Bottom)
         )
+    )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().WidgetName() _
+        .Position(Sub(p)
+            p.My(HorizontalAlignment.Right, VerticalAlignment.Bottom)
+        End Sub)
     )
 <!--/fullDescription-->

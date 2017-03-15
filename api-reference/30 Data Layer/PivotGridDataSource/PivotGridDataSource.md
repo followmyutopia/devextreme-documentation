@@ -56,12 +56,12 @@ Refer to the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) an
 
 When configuring the **PivotGrid** widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the options of the **PivotGridDataSource** in the `DataSource()` method.
 
-	@(Html.DevExtreme().PivotGrid()
+    <!--Razor C#-->@(Html.DevExtreme().PivotGrid()
         .ID("pivotGrid")
         .DataSource(ds => ds
             .Store(store => store
-				// ...
-            	// Underlying store is configured here
+                // ...
+                // Underlying store is configured here
             )
             .Fields(fields => {
                 fields.Add().Area(PivotGridArea.Column)
@@ -73,6 +73,25 @@ When configuring the **PivotGrid** widget using [ASP.NET MVC Wrappers](/Document
                 fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count);
             })
         )
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().PivotGrid() _
+        .ID("pivotGrid") _
+        .DataSource(Function(ds)
+            Return ds.Store(Function(store)
+                            Return store.
+                                @* Underlying store is configured here *@
+                        End Function) _
+                        .Fields(Sub(fields)
+                            fields.Add().Area(PivotGridArea.Column) _
+                                .DataField("OrderDate") _
+                                .DataType(PivotGridDataType.Date)
+                            fields.Add().Area(PivotGridArea.Row).DataField("ShipCountry")
+                            fields.Add().Area(PivotGridArea.Row).DataField("ShipCity")
+                            fields.Add().Area(PivotGridArea.Row).DataField("ShipName")
+                            fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count)
+                        End Sub)
+        End Function)
     )
 
 For information on how to configure data access using ASP.NET MVC Wrappers, see the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/) topic.

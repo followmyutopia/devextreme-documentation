@@ -99,10 +99,17 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().SelectBox()
+        <!--Razor C#-->@(Html.DevExtreme().SelectBox()
             .ID("selectBox")
             .DataSource(States)
             .DisplayExpr("state")
+            .ValueExpr("id")
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().SelectBox() _
+            .ID("selectBox") _
+            .DataSource(States) _
+            .DisplayExpr("state") _
             .ValueExpr("id")
         )
 

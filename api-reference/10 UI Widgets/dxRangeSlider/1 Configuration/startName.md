@@ -18,8 +18,13 @@ Specify this and [endName](/Documentation/ApiReference/UI_Widgets/dxRangeSlider/
 
 If you configure the widget using [DevExtreme ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), use this option to bind the widget to a model property. If this model property contains [Data Annotation validation attributes](https://www.asp.net/mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-6), you get the [client-side validation](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Overview/) enabled by default.
 
-    @(Html.DevExtreme().RangeSlider()
+    <!--Razor C#-->@(Html.DevExtreme().RangeSlider()
         .StartName("StartModelProperty")
+        .EndName("EndModelProperty")
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().RangeSlider() _
+        .StartName("StartModelProperty") _
         .EndName("EndModelProperty")
     )
 <!--/fullDescription-->

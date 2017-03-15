@@ -16,15 +16,30 @@ Specifies which editor widget is used to display and edit the form item value.
 <!--fullDescription-->
 When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), configure the editor in the following manner.
 
-    @(Html.DevExtreme().Form()
+    <!--Razor C#-->@(Html.DevExtreme().Form()
         .FormData(Model.Data)
         .Items(items => {
             items.AddSimple().DataField("EmployeeID")
-                .Editor(e => e.CheckBox() // or any other supported editor
+                // Instead of CheckBox here can be any other supported editor
+                .Editor(e => e.CheckBox()
                     .Value(true)
                     // ...
                     // other editor options go here
                 )
         })
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().Form() _
+        .FormData(Model.Data) _
+        .Items(Sub(items)
+            items.AddSimple().DataField("EmployeeID") _
+                .Editor(Function(e)
+                    ' Instead of CheckBox here can be any other supported editor
+                    Return e.CheckBox() _
+                        .Value(True) _
+                        ' ...
+                        ' other editor options go here
+                End Function)
+        End Sub)
     )
 <!--/fullDescription-->

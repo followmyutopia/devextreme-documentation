@@ -30,7 +30,7 @@ The array passed to this option can hold items of the following types.
 
 When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the items in the following manner.
 
-    @(Html.DevExtreme().Form()
+    <!--Razor C#-->@(Html.DevExtreme().Form()
         .FormData(Model.Data)
         .Items(rootItems => {
             rootItems.AddSimple().DataField("EmployeeID"); // Adds a simple item
@@ -51,5 +51,30 @@ When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/AS
                         // ...
                 });
         })
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().Form() _
+        .FormData(Model.Data) _
+        .Items(Sub(rootItems)
+            rootItems.AddSimple().DataField("EmployeeID") ' Adds a simple item
+            rootItems.AddEmpty() ' Adds an empty item
+            ' Adds a group item
+            rootItems.AddGroup().Caption("General Info") _
+                .Items(Sub(groupItems)
+                    groupItems.AddSimple().DataField("FirstName")
+                    ' ...
+                End Sub)
+            ' Adds a tabbed item
+            rootItems.AddTabbed() _
+                .Tabs(Sub(tabs)
+                    tabs.Add().Title("Address") _
+                        .Items(Sub(addressItems)
+                            addressItems.AddSimple().DataField("Country")
+                            ' ...
+                        End Sub)
+                    tabs.Add().Title("Phone")
+                        ' ...
+                End Sub)
+        End Sub)
     )
 <!--/fullDescription-->

@@ -84,21 +84,35 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
         
-        @(Html.DevExtreme().CircularGauge()
+        <!--Razor C#-->@(Html.DevExtreme().CircularGauge()
             .ID("circularGauge")
             .Scale(scale => scale
                 .StartValue(50)
                 .EndValue(50)
             )
             .RangeContainer(rc => rc
-                .Ranges(ranges =>
-                {
+                .Ranges(ranges => {
                     ranges.Add().StartValue(50).EndValue(90);
                     ranges.Add().StartValue(90).EndValue(130);
                     ranges.Add().StartValue(130).EndValue(150);
                 })
             )
-		)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().CircularGauge() _
+            .ID("circularGauge") _
+            .Scale(Sub(scale)
+                scale.StartValue(50) _
+                     .EndValue(50)
+            End Sub) _
+            .RangeContainer(Sub(rc)
+                rc.Ranges(Sub(ranges)
+                    ranges.Add().StartValue(50).EndValue(90)
+                    ranges.Add().StartValue(90).EndValue(130)
+                    ranges.Add().StartValue(130).EndValue(150)
+                End Sub)
+            End Sub)
+        )
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

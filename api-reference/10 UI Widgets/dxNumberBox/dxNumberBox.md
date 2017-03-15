@@ -61,11 +61,19 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
         
-        @(Html.DevExtreme().NumberBox()
+        <!--Razor C#-->@(Html.DevExtreme().NumberBox()
             .ID("numberBox")
             .Value(20)
             .Min(16)
             .Max(100)
+            .Placeholder("Enter your age")
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().NumberBox() _
+            .ID("numberBox") _
+            .Value(20) _
+            .Min(16) _
+            .Max(100) _
             .Placeholder("Enter your age")
         )
 

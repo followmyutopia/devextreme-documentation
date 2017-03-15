@@ -79,10 +79,17 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Lookup()
+        <!--Razor C#-->@(Html.DevExtreme().Lookup()
             .ID("lookup")
             .DataSource(Employees)
             .DisplayExpr("name")
+            .Title("Employees")
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Lookup() _
+            .ID("lookup") _
+            .DataSource(Employees) _
+            .DisplayExpr("name") _
             .Title("Employees")
         )
 

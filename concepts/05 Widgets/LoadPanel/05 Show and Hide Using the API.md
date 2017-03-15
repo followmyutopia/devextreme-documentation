@@ -21,6 +21,7 @@ To show or hide the **LoadPanel** programmatically, call the [show()](/Documenta
 
 [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
+    <!--Razor C#-->
     @(Html.DevExtreme().LoadPanel()
         .ID("loadPanel")
         .CloseOnOutsideClick(true)
@@ -37,6 +38,26 @@ To show or hide the **LoadPanel** programmatically, call the [show()](/Documenta
             } 
         </text>)
     )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().LoadPanel() _
+        .ID("loadPanel") _
+        .CloseOnOutsideClick(True)
+    )
+
+    @(Html.DevExtreme().Button() _
+        .ID("button") _
+        .Text("Show the Load Panel") _
+        .OnClick("button_click")
+    )
+
+    <script>
+        function button_click() {
+            $("#loadPanel").dxLoadPanel("show");
+            // ---------- or ----------
+            $("#loadPanel").dxLoadPanel("toggle", true);
+        }
+    </script>
 
 With AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#visible) property of the **LoadPanel** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **LoadPanel** will appear or disappear.
 

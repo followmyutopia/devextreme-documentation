@@ -85,7 +85,7 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().SlideOutView()
+        <!--Razor C#-->@(Html.DevExtreme().SlideOutView()
             .ID("slideOutView")
             .ContentTemplate(@<text>
                 <p>View content</p>
@@ -94,6 +94,21 @@ You can create the widget using one of the following approaches.
                 <p>Menu content</p>
             </text>)
         )
+
+        <!--Razor VB-->@Code
+            Html.DevExtreme().SlideOutView() _
+                .ID("slideOutView") _
+                .ContentTemplate(Sub()
+                    @<text>
+                        <p>View content</p>
+                    </text>
+                End Sub) _
+                .MenuTemplate(Sub()
+                    @<text>
+                        <p>Menu content</p>
+                    </text>
+                End Sub).Render()
+        End Code
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

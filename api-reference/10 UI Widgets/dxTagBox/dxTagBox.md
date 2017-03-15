@@ -99,10 +99,17 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().TagBox()
+        <!--Razor C#-->@(Html.DevExtreme().TagBox()
             .ID("tagBox")
             .DataSource(States)
             .DisplayExpr("state")
+            .ValueExpr("id")
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().TagBox() _
+            .ID("tagBox") _
+            .DataSource(States) _
+            .DisplayExpr("state") _
             .ValueExpr("id")
         )
 

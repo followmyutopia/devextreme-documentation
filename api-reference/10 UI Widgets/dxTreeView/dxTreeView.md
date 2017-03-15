@@ -180,9 +180,15 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().TreeView()
+        <!--Razor C#-->@(Html.DevExtreme().TreeView()
             .ID("treeView")
             .DataSource(Species)
+            .DataStructure(TreeViewDataStructure.Plain)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().TreeView() _
+            .ID("treeView") _
+            .DataSource(Species) _
             .DataStructure(TreeViewDataStructure.Plain)
         )
 

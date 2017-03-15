@@ -99,7 +99,7 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
         
-        @(Html.DevExtreme().ContextMenu()
+        <!--Razor C#-->@(Html.DevExtreme().ContextMenu()
             .ID("contextMenu")
             .Target("#targetElement")
             .Items(items => {
@@ -111,6 +111,21 @@ You can create the widget using one of the following approaches.
                     clipboardItems.Add().Text("Paste text");
                 });
             })
+        )
+        <div id="targetElement"></div>
+
+        <!--Razor VB-->@(Html.DevExtreme().ContextMenu() _
+            .ID("contextMenu") _
+            .Target("#targetElement") _
+            .Items(Sub(items)
+                items.Add().Text("Hide")
+                items.Add().Text("Delete")
+                items.Add().Text("Clipboard").Items(Sub(clipboardItems)
+                    clipboardItems.Add().Text("Copy text")
+                    clipboardItems.Add().Text("Clear text")
+                    clipboardItems.Add().Text("Paste text")
+                End Sub)
+            End Sub)
         )
         <div id="targetElement"></div>
 

@@ -83,13 +83,22 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
         
-        @(Html.DevExtreme().MultiView()
+        <!--Razor C#-->@(Html.DevExtreme().MultiView()
             .ID("multiView")
             .Items(items => {
                 items.Add().Text("Personal Data");
                 items.Add().Text("Contacts");
                 items.Add().Text("Address");
             })
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().MultiView() _
+            .ID("multiView") _
+            .Items(Sub(items)
+                items.Add().Text("Personal Data")
+                items.Add().Text("Contacts")
+                items.Add().Text("Address")
+            End Sub)
         )
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.

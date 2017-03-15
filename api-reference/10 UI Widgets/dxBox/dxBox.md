@@ -82,22 +82,28 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Box()
+        <!--Razor C#-->@(Html.DevExtreme().Box()
             .ID("box")
             .Direction(BoxDirection.Row)
             .Height("70%")
             .Width("90%")
             .Items(items => {
-                items.Add().Ratio(1).BaseSize(10).Template(@<text>
-                    <p>Item 1</p>
-                </text>);
-                items.Add().Ratio(3).BaseSize(40).Template(@<text>
-                    <p>Item 2</p>
-                </text>);
-                items.Add().Ratio(2).BaseSize(20).Template(@<text>
-                    <p>Item 3</p>
-                </text>);
+                items.Add().Ratio(1).BaseSize(10).Template("<p>Item 1</p>");
+                items.Add().Ratio(3).BaseSize(40).Template("<p>Item 2</p>");
+                items.Add().Ratio(2).BaseSize(20).Template("<p>Item 3</p>");
             })
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Box() _
+            .ID("box") _
+            .Direction(BoxDirection.Row) _
+            .Height("70%") _
+            .Width("90%") _
+            .Items(Sub(items)
+                items.Add().Ratio(1).BaseSize(10).Template("<p>Item 1</p>")
+                items.Add().Ratio(3).BaseSize(40).Template("<p>Item 2</p>")
+                items.Add().Ratio(2).BaseSize(20).Template("<p>Item 3</p>")
+            End Sub)
         )
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.

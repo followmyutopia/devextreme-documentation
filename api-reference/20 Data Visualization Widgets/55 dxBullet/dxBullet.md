@@ -31,13 +31,13 @@ You can create the widget using one of the following approaches.
     <!---->
 
         <!--JavaScript-->$(function () {
-			$("#bullet").dxBullet({
-				startScaleValue: 0,
-				endScaleValue: 35,
-				value: 27,
-				target: 24 
-			});
-		});
+            $("#bullet").dxBullet({
+                startScaleValue: 0,
+                endScaleValue: 35,
+                value: 27,
+                target: 24 
+            });
+        });
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -61,13 +61,21 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
         
-        @(Html.DevExtreme().Bullet()
+        <!--Razor C#-->@(Html.DevExtreme().Bullet()
             .ID("bullet")
             .StartScaleValue(0)
             .EndScaleValue(35)
             .Value(27)
             .Target(24)
-		)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Bullet() _
+            .ID("bullet") _
+            .StartScaleValue(0) _
+            .EndScaleValue(35) _
+            .Value(27) _
+            .Target(24)
+        )
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

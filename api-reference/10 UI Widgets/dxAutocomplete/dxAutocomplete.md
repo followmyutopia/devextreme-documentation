@@ -59,10 +59,17 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Autocomplete()
+        <!--Razor C#-->@(Html.DevExtreme().Autocomplete()
             .ID("autocomplete")
             .DataSource(AutocompleteData)
             .Placeholder("Type country name...")
+            .ValueExpr("name")
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Autocomplete() _
+            .ID("autocomplete") _
+            .DataSource(AutocompleteData) _
+            .Placeholder("Type country name...") _
             .ValueExpr("name")
         )
 

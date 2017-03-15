@@ -76,10 +76,17 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
         
-        @(Html.DevExtreme().DateBox()
+        <!--Razor C#-->@(Html.DevExtreme().DateBox()
             .ID("dateBox")
             .Min(new DateTime(2000, 1, 1))
             .Max(new DateTime(2029, 12, 31))
+            .Value(DateTime.Now)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().DateBox() _
+            .ID("dateBox") _
+            .Min(New DateTime(2000, 1, 1)) _
+            .Max(New DateTime(2029, 12, 31)) _
             .Value(DateTime.Now)
         )
 

@@ -134,7 +134,7 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().PolarChart()
+        <!--Razor C#-->@(Html.DevExtreme().PolarChart()
             .ID("polarChart")
             .DataSource(Temperature)
             .CommonSeriesSettings(c => c
@@ -145,7 +145,20 @@ You can create the widget using one of the following approaches.
                 series.Add().ValueField("day");
                 series.Add().ValueField("night");
             })
-		)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().PolarChart() _
+            .ID("polarChart") _
+            .DataSource(Temperature) _
+            .CommonSeriesSettings(Sub(c)
+                c.ArgumentField("month") _
+                 .Type(PolarChartSeriesType.Scatter)
+            End Sub) _
+            .Series(Sub(series)
+                series.Add().ValueField("day")
+                series.Add().ValueField("night")
+            End Sub)
+        )
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

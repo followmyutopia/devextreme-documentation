@@ -1,6 +1,12 @@
 To call widget methods, use JavaScript, much like you did to handle widget events. For instance, let's say you have a [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/) widget.
 
+    <!--Razor C#-->
     @(Html.DevExtreme().Popup()
+        .ID("popup")
+    )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().Popup() _
         .ID("popup")
     )
 
@@ -10,8 +16,20 @@ This widget appears on the page only after its [show()](/Documentation/ApiRefere
 
 You can put this code in any JavaScript constructions and execute it whenever you need to, for example, when a user clicks a button...
 
-    // ...
+    <!--Razor C#-->
+    @* ... *@
     @(Html.DevExtreme().Button()
+        .OnClick("showPopup")
+    )
+    <script>
+        function showPopup() {
+            $("#popup").dxPopup("show");
+        }
+    </script>
+
+    <!--Razor VB-->
+    @* ... *@
+    @(Html.DevExtreme().Button() _
         .OnClick("showPopup")
     )
     <script>

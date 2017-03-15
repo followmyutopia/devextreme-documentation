@@ -1,17 +1,35 @@
 A server-side wrapper can access [JSON](http://www.json.org/) data returned from a resource by an AJAX request. For this purpose, pass the URL of the resource to the `DataSource()` method. This URL may specify an absolute or a relative path to the resource.
 
+    <!--Razor C#-->
     @(Html.DevExtreme().SelectBox()
+        .DataSource("http://www.example.com/dataservices/jsondata")
+    )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().SelectBox() _
         .DataSource("http://www.example.com/dataservices/jsondata")
     )
 
 <!---->
 
+    <!--Razor C#-->
     @(Html.DevExtreme().SelectBox()
         .DataSource(@Url.Content("~/dataservices/jsondata"))
+    )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().SelectBox() _
+        .DataSource(Url.Content("~/dataservices/jsondata"))
     )
     
 Also, you can use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
 
+    <!--Razor C#-->
     @(Html.DevExtreme().SelectBox()
+        .DataSource("http://www.example.com/dataservices/jsonpdata?callback=?")
+    )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().SelectBox() _
         .DataSource("http://www.example.com/dataservices/jsonpdata?callback=?")
     )

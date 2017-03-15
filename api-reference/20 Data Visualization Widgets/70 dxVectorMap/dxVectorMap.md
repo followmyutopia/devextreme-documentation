@@ -75,16 +75,27 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-		@(Html.DevExtreme().VectorMap()
-			.Layers(layers => {
-				layers.Add()
-					.DataSource(new JS("DevExpress.viz.map.sources.world"))
-					.Label(l => l
-						.Enabled(true)
-						.DataField("name")
-					);
-			})
-		)
+        <!--Razor C#-->@(Html.DevExtreme().VectorMap()
+            .Layers(layers => {
+                layers.Add()
+                    .DataSource(new JS("DevExpress.viz.map.sources.world"))
+                    .Label(l => l
+                        .Enabled(true)
+                        .DataField("name")
+                    );
+            })
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().VectorMap() _
+            .Layers(Sub(layers)
+                layers.Add() _
+                    .DataSource(New JS("DevExpress.viz.map.sources.world")) _
+                    .Label(Sub(l)
+                        l.Enabled(true) _
+                            .DataField("name")
+                    End Sub)
+            End Sub)
+        )
 
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.

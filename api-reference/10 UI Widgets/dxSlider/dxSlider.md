@@ -55,9 +55,15 @@ You can create the widget using one of the following approaches.
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Slider()
+        <!--Razor C#-->@(Html.DevExtreme().Slider()
             .ID("slider")
             .Min(0).Max(100)
+            .Value(25)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Slider() _
+            .ID("slider") _
+            .Min(0).Max(100) _
             .Value(25)
         )
 

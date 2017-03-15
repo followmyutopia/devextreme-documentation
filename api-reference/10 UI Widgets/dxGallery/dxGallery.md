@@ -41,7 +41,8 @@ You can create the widget using one of the following approaches.
                     "http://path/to/image/1.png",
                     "http://path/to/image/2.png",
                     "http://path/to/image/3.png"
-                ]
+                ],
+                height: 300
             });
         });
 
@@ -52,7 +53,8 @@ You can create the widget using one of the following approaches.
                 'http://path/to/image/1.png',
                 'http://path/to/image/2.png',
                 'http://path/to/image/3.png'
-            ]
+            ],
+            height: 300
         }"></div>
 
 - [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
@@ -62,18 +64,30 @@ You can create the widget using one of the following approaches.
                 'http://path/to/image/1.png',
                 'http://path/to/image/2.png',
                 'http://path/to/image/3.png'
-            ]
+            ],
+            height: 300
         }"></div>
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
-        @(Html.DevExtreme().Gallery()
+        <!--Razor C#-->@(Html.DevExtreme().Gallery()
             .ID("gallery")
             .DataSource(new[] {
                 "http://path/to/image/1.png",
                 "http://path/to/image/2.png",
                 "http://path/to/image/3.png"
             })
+            .Height(300)
+        )
+
+        <!--Razor VB-->@(Html.DevExtreme().Gallery() _
+            .ID("gallery") _
+            .DataSource({
+                "http://path/to/image/1.png",
+                "http://path/to/image/2.png",
+                "http://path/to/image/3.png"
+            }) _
+            .Height(300)
         )
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.

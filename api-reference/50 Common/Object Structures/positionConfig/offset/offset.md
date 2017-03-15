@@ -20,9 +20,17 @@ This options accepts an object containing the **x** and **y** fields which speci
 
 When you configure a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), this option accepts two values of the `double` type.
 
+    <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()
         .Position(p => p
             .Offset(5, -10)
         )
+    )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().WidgetName() _
+        .Position(Sub(p)
+            p.Offset(5, -10)
+        End Sub)
     )
 <!--/fullDescription-->
