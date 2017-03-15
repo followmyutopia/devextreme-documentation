@@ -1,6 +1,6 @@
 [note]Currently, DevExtreme ASP.NET MVC Wrappers are in the Release Candidate (RC) status, meaning that although this product is stable, significant bugs may emerge. In case you find one, please report to our [Support Center](https://www.devexpress.com/Support/Center/Question/List/1).
 
-DevExtreme ASP.NET MVC Wrappers are a set of server-side wrappers that allow you to configure JavaScript-based DevExtreme widgets using familiar [Razor C# syntax](http://www.w3schools.com/aspnet/razor_syntax.asp). The Razor constructions are rendered into the HTML and JavaScript needed to initialize a DevExtreme widget.
+DevExtreme ASP.NET MVC Wrappers are a set of server-side wrappers that allow you to configure JavaScript-based DevExtreme widgets using familiar [Razor syntax](https://www.w3schools.com/asp/razor_intro.asp). The Razor constructions are rendered into the HTML and JavaScript needed to initialize a DevExtreme widget.
 
 ![DevExtreme HTML5 ASPNET MVCWrappers](/Content/images/doc/16_2/Common/MvcWrappers/rendering.png) 
 
