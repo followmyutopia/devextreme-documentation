@@ -74,7 +74,7 @@ Apart from HTML and ERB-style constructions, these templates support Razor helpe
         End Code
 
 - **External templates**         
-External templates can be declared in a partial view, a `@helper` block (MVC 3, 4, 5 with Razor C# only), or an external variable (Razor VB only). Commonly, you need to declare an external template for high-level nesting or if you want to reuse it. For example, you have the [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/) widget with the [List](/Documentation/ApiReference/UI_Widgets/dxList/) widget nested in it using a template. The **List**, in turn, nests another template for its items. The following examples show how you can declare the **List** widget in this case.
+External templates can be declared in a partial view or a `@helper` block (MVC 3, 4, 5 only). Commonly, you need to declare an external template for high-level nesting or if you want to reuse it. For example, you have the [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/) widget with the [List](/Documentation/ApiReference/UI_Widgets/dxList/) widget nested in it using a template. The **List**, in turn, nests another template for its items. The following examples show how you can declare the **List** widget in this case.
 
     - **Partial view**
 
@@ -118,7 +118,7 @@ External templates can be declared in a partial view, a `@helper` block (MVC 3, 
                         End Sub).Render()
                 End Code
 
-    - **@helper (MVC 3, 4, 5 with Razor C# only)** / **External variable (Razor VB only)**    
+    - **@helper (MVC 3, 4, 5 only)**
 
             <!--Razor C#-->
             @(Html.DevExtreme().Popup()
@@ -137,20 +137,24 @@ External templates can be declared in a partial view, a `@helper` block (MVC 3, 
 
             <!--Razor VB-->
             @Code
-                Dim list_itemTemplate = Sub()
-                    @<text>
-                        <div><%= ProductName %></div>
-                        <div><%= UnitPrice %></div>
-                    </text>
-                End Sub
-                Dim innerList = Sub()
-                    @(Html.DevExtreme().List() _
-                        .ItemTemplate(list_itemTemplate))
-                End Sub
                 Html.DevExtreme().Popup() _
-                    .ContentTemplate(innerList) _
-                    .Render()
-            End Code     
+                    .ContentTemplate(Sub()
+                        @InnerList()
+                    End Sub).Render()
+            End Code
+            @helper InnerList()
+                @(Html.DevExtreme().List() _
+                    .ItemTemplate(Sub()
+                        Write(ListItem())
+                    End Sub)
+                )
+            End Helper
+            @helper ListItem()
+                @<text>
+                    <div><%= ProductName %></div>
+                    <div><%= UnitPrice %></div>
+                </text>
+            End Helper
 
 - **JavaScript functions as templates**         
 Despite being a superstructure over JavaScript widgets, wrappers get the best from Razor syntax, but still, in some cases, Razor appears to be short of certain capabilities. In these cases, we recommend you utilize pure JavaScript backed with jQuery. Regarding templates, prefer the JavaScript function over the Razor block when you need to access JavaScript variables or implement sophisticated logic inside the template.
