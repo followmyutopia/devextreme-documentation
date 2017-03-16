@@ -4,6 +4,14 @@
 -------------------------------------------
 
 **-->
-<!--merge--><!--/merge-->
-<!--dep-->dxDataGridOptions_editing_allowDeleting<!--/dep-->
 ===========================================================================
+<!--type-->Form options<!--/type-->
+===========================================================================
+
+<!--shortDescription-->
+
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

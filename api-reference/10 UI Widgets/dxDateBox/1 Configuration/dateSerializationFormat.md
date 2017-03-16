@@ -6,11 +6,11 @@
 **-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->Date | number | string<!--/type-->
+<!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-The earliest date the widget allows you to select.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

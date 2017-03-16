@@ -5,12 +5,12 @@
 
 **-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Date | number | string<!--/type-->
+<!--default-->false<!--/default-->
+<!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-The earliest date the widget allows you to select.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -5,12 +5,13 @@
 
 **-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Date | number | string<!--/type-->
+<!--default-->'row'<!--/default-->
+<!--acceptValues-->'row' | 'batch' | 'cell' | 'form'<!--/acceptValues-->
+<!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-The earliest date the widget allows you to select.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

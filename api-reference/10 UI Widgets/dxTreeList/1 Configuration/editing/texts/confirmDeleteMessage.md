@@ -5,12 +5,12 @@
 
 **-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Date | number | string<!--/type-->
+<!--default-->'Are you sure you want to delete this record?'<!--/default-->
+<!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-The earliest date the widget allows you to select.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
