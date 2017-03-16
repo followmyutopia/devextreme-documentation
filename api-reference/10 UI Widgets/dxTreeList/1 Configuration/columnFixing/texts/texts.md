@@ -5,11 +5,11 @@
 
 **-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
+<!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies dependency between the screen factor and the count of columns.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

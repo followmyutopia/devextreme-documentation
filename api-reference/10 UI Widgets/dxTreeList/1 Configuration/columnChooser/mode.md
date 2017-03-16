@@ -5,11 +5,13 @@
 
 **-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
+<!--default-->'dragAndDrop'<!--/default-->
+<!--acceptValues-->'dragAndDrop' | 'select'<!--/acceptValues-->
+<!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies dependency between the screen factor and the count of columns.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

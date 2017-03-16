@@ -5,11 +5,12 @@
 
 **-->
 ===========================================================================
-<!--hidden--><!--/hidden-->
+<!--default-->'Fix'<!--/default-->
+<!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies dependency between the screen factor and the count of columns.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
