@@ -18,5 +18,9 @@ This option specifies the minimum ratio between the pie's diameter and the conta
 
 *0.7 * min(300,500) = 0.7 * 300 = 210 pixels*
 
-[note]This option is ignored if the [diameter](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#diameter) option is set. 
+[note]This option is ignored if the [diameter](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#diameter) option is set.
+
+#####See Also#####
+- [size](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/size/)
+- [sizeGroup](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#sizeGroup)
 <!--/fullDescription-->
