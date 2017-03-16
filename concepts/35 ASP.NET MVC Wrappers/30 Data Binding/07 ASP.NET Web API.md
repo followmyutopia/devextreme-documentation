@@ -221,4 +221,4 @@ The `WebApi()` method acts as an entry point for other methods that configure da
         End Function)
     )
 
-For more examples of Web API controllers and accessing them from a server-side wrapper, see our [technical demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/WebAPIService/Mvc/Light/) and [sample applications](/Documentation/Guide/ASP.NET_MVC_Wrappers/Prerequisites_and_Installation/#Sample_Applications).
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/WebAPIService/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
