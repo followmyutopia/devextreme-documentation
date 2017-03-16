@@ -15,7 +15,7 @@ Defines options for the series template.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In most cases, you can organize the array that is assigned to the chart's **dataSource** option in the following way.
+In most cases, you can organize the array that is assigned to the chart's [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#dataSource) option in the following way.
 
     [
         {arg: arg1Value, series1Value: val11, series2Value: val12, ...}
@@ -37,7 +37,7 @@ However, there are some scenarios in which you do not know exactly how many seri
         ...
     ]
 
-If you define a data source in this manner, set the argument and value fields using the **argumentField** and **valueField** properties of the **commonSeriesSettings** configuration object (for all series at once). Then, define a template for the series using the **seriesTemplate** configuration object. Within this object, set the data source field that specifies the series name to the **nameField** option. 
+If you define a data source in this manner, set the argument and value fields using the [argumentField](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/#argumentField) and [valueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/#valueField) properties of the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/) configuration object (for all series at once). Then, define a template for the series using the **seriesTemplate** configuration object. Within this object, set the data source field that specifies the series name to the **nameField** option.
 
 If you need to specify individual values for options of a particular series, assign a callback function to the **customizeSeries** option of the **seriesTemplate** object.
 <!--/fullDescription-->
