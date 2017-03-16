@@ -101,9 +101,9 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
 ####AngularJS Approach####
 
-[note]To use AngularJS and DevExtreme widget modules with Webpack, load the DevExtreme integration and angular-sanitize modules.  
+[note]To use AngularJS and DevExtreme widget modules with Webpack, load the DevExtreme integration and angular modules.  
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/master/webpack-angular) from GitHub. To use it, follow the instructions on GitHub.
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/16_2/webpack-angularjs) from GitHub. To use it, follow the instructions on GitHub.
 
 **webpack.config.js**  
 
@@ -121,7 +121,6 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
     <!--JavaScript-->
     var angular = require('angular');
-    var angularSanitize = require('angular-sanitize');
     var dialog = require('devextreme/ui/dialog');
 
     require('devextreme/integration/angular');

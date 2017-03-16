@@ -3,11 +3,11 @@ Open the *index.html* file, which is the application page.
 
 The application page contains links to required libraries: **jQuery**, **AngularJS** and **dx.mobile**. These libraries are contained in the **lib** folder of the application project.
 
+    <!--HTML-->
     <script type="text/javascript" src="lib/jquery-3.1.0.min.js"></script>
-    <script src="lib/angular.min.js"></script>
-    <script src="lib/angular-sanitize.min.js"></script>
-    <script src="lib/angular-route.min.js"></script>
-    <script src="lib/dx.mobile.js"></script>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-route.min.js"></script>
+    <script type="text/javascript" src="lib/dx.mobile.js"></script>
 
 The application page also includes links to the stylesheets required for the application. The stylesheets are contained in the **css** folder of the application project.
 

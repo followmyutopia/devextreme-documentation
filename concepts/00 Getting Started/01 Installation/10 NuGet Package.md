@@ -8,7 +8,7 @@ The jQuery and Globalize packages, upon which DevExtreme depends, will be instal
 
 <!-------->
 
-    Install-Package AngularJS.Sanitize
+    Install-Package AngularJS
 
 Another way to install or update the **DevExtreme Web** package is to use the **Manage NuGet Packages** dialog in Visual Studio. You can find more information [here](https://docs.nuget.org/consume/Package-Manager-Dialog).
 

@@ -41,7 +41,6 @@ You can find all the required files in the DevExtreme zip archive or in the fold
         <script type="text/javascript" src="/js/jquery-3.1.0.min.js"></script>
         <!-- The AngularJS library -->
         <script type="text/javascript" src="/js/angular.min.js"></script>
-        <script type="text/javascript" src="/js/angular-sanitize.min.js"></script>
         <!-- DevExtreme themes -->
         <link rel="stylesheet" type="text/css" href="/css/dx.common.css" />
         <link rel="stylesheet" type="text/css" href="/css/dx.light.css" />

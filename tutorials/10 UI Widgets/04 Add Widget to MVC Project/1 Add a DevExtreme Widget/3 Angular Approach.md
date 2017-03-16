@@ -1,4 +1,4 @@
-To use an AngularJS approach, add the *angular.js* and *angular-sanitize.js* script libraries to the **Scripts** folder of your project. You can find these libraries in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources** by default
+To use an AngularJS approach, add the *angular.js* script to the **Scripts** folder of your project. You can find this script in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources** by default
 
 Reference the AngularJS libraries in the Index view.
 
@@ -9,7 +9,6 @@ Reference the AngularJS libraries in the Index view.
         <link rel="stylesheet" type="text/css" href="/Content/dx.light.css" />
         <script src="/Scripts/jquery-3.1.0.min.js"></script>
         <script src="/Scripts/angular.js"></script>
-        <script src="/Scripts/angular-sanitize.js"></script>  
         <script src="/Scripts/dx.web.js"></script>
     </head>
 
@@ -23,7 +22,6 @@ Add the **ng-app** directive to the **html** element of the document to specify 
             <link rel="stylesheet" type="text/css" href="/Content/dx.light.css" />
             <script src="/Scripts/jquery-3.1.0.min.js"></script>
             <script src="/Scripts/angular.js"></script>
-            <script src="/Scripts/angular-sanitize.js"></script>
             <script src="/Scripts/dx.web.js"></script>
             <script src="/MyJS/script_Angular.js"></script>
         </head>

@@ -8,7 +8,7 @@ The jQuery and Globalize packages, upon which DevExtreme depends, will be instal
 
 <!-------->
 
-    bower install angular-sanitize
+    bower install angular
 
 If you use the [client-side export](/Documentation/Guide/Widgets/DataGrid/Client-Side_Export/), also install the JSZip library.
 
@@ -22,7 +22,6 @@ After installation is completed, you can find all the libraries in the **bower_c
     <!-- Reference either Knockout or AngularJS, if you do -->
     <script type="text/javascript" src="/bower_components/knockout/dist/knockout.js"></script>
     <script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
-    <script type="text/javascript" src="/bower_components/angular-sanitize/angular-sanitize.min.js"></script>
 
     <!-- Reference Globalize if you need to localize app or your app uses custom date, number or currency formatting --> 
     <script type="text/javascript" src="/bower_components/cldrjs/dist/cldr.js"></script>

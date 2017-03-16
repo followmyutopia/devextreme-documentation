@@ -2,22 +2,22 @@ DevExtreme is available through the [npm](https://www.npmjs.com/) package manage
 
     npm install devextreme
 
-[note]npm ver. 3 will not install the DevExtreme peerDependencies automatically. Run the following commands to install them manually.
+[note]
 
-    // Required by DevExtreme
-    npm install jquery@2.2.3
+npm@3 will not install the DevExtreme peer dependencies automatically. Run the following commands if you need to install them.
 
-    // Optional: allow you to use the MVVM approach
+    // Allow you to use the MVVM approach
     npm install knockout@3.4
     npm install angular@1
-    npm install angular-sanitize@1
 
-    // Optional: enable you to localize your app
+    // Enable you to localize your app
     npm install globalize@1
     npm install cldr-data
 
-    // Optional: enables you to create DevExtreme modules
+    // Enables you to create DevExtreme modules
     npm install webpack@1.13
+
+[/note]
 
 After installation is completed, you can find all the libraries in the **node_modules** folder. Link them within the `<head>` tag of your index page.
 
@@ -27,7 +27,6 @@ After installation is completed, you can find all the libraries in the **node_mo
     <!-- Reference either Knockout or AngularJS, if you do -->
     <script type="text/javascript" src="/node_modules/knockout/build/output/knockout-latest.js"></script>
     <script type="text/javascript" src="/node_modules/angular/angular.min.js"></script>
-    <script type="text/javascript" src="/node_modules/angular/angular-sanitize.min.js"></script>
 
     <!-- Reference Globalize if you need to localize app or your app uses custom date, number or currency formatting --> 
     <script type="text/javascript" src="/node_modules/cldrjs/dist/cldr.min.js"></script>

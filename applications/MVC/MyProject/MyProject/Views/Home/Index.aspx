@@ -9,10 +9,9 @@
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
     <script src="/SharedStatic/DevExtreme/16_2/js/jquery-2.2.3.min.js"></script>
-    <!--Add a link either to Knockout or to Angular
+    <!-- Add a link either to Knockout or to AngularJS
     <script src="/SharedStatic/DevExtreme/16_2/js/knockout-3.4.0.js"></script>
-    <script src="/SharedStatic/DevExtreme/16_2/js/angular.js"></script>
-    <script src="/SharedStatic/DevExtreme/16_2/js/angular-sanitize.js"></script>-->
+    <script src="/SharedStatic/DevExtreme/16_2/js/angular.js"></script> -->
     <script src="/SharedStatic/DevExtreme/16_2/js/dx.web.js"></script>
     <script src="/MyJS/script_jQuery.js"></script>
     <!--<script src="/MyJS/script_Knockout.js"></script>-->

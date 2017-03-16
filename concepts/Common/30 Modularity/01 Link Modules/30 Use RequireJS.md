@@ -87,9 +87,9 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
 ####AngularJS Approach####
 
-[note] To use AngularJS and DevExtreme widget modules with RequireJS, load the DevExtreme [integration](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/angular) and angular-sanitize modules.
+[note] To use AngularJS and DevExtreme widget modules with RequireJS, load the DevExtreme [integration](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/angular) and angular modules.
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/master/requirejs-angular) from GitHub. To use it, follow the instructions on GitHub.
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/16_2/requirejs-angularjs) from GitHub. To use it, follow the instructions on GitHub.
 
     <!--HTML-->
     <!DOCTYPE html>
@@ -115,22 +115,16 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
           paths: {
             "jquery": "node_modules/jquery/dist/jquery",
             "angular": "node_modules/angular/angular",
-            "angular-sanitize": "node_modules/angular-sanitize/angular-sanitize",
             // The path where the devExtreme modules are located.
             "devextreme": "node_modules/devextreme"
           },
           shim: {
-            // For integration with RequireJS, load
-            // not only angular, but also the angular-sanitize module.
             "angular": {
               deps: ["jquery"],
               exports: 'angular'
             },
-            "angular-sanitize": {
-              deps: ["angular"]
-            },
             "devextreme/integration/angular": {
-              deps: ['angular', 'angular-sanitize']
+              deps: ['angular']
             }
           }
         });

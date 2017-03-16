@@ -10,7 +10,6 @@ You can also reference TypeScript definitions for Knockout or AngularJS.
 
     /// <reference path="TypeScript/knockout.d.ts" />
     /// <reference path="TypeScript/angular.d.ts" />
-    /// <reference path="TypeScript/angular-sanitize.d.ts" />
 
 Along with TypeScript definitions, you need to reference the libraries themselves. See [Installation](/Documentation/Guide/Getting_Started/Installation/) for detailed information.
 

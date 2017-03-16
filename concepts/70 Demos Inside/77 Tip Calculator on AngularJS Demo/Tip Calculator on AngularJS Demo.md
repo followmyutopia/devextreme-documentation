@@ -8,7 +8,6 @@ As a base, the [angular-seed](https://github.com/angular/angular-seed) applicati
       - *jquery-3.1.0.js*
       - *angular.min.js*
       - *angular-route.min.js*
-      - *angular-sanitize.min.js*
       - *dx.mobile.js*  
 - **css**  
     Contains the CSS files that are required to make the application native on any platform.

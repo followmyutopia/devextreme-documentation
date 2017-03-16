@@ -22,7 +22,6 @@
 <!--/@Knockout-->
 <!--@AngularJS-->
     <script src="/SharedStatic/DevExtreme/16_2/js/angular.js"></script>
-    <script src="/SharedStatic/DevExtreme/16_2/js/angular-sanitize.js"></script>
 <!--/@AngularJS-->
     <script type="text/javascript" src="/SharedStatic/DevExtreme/16_2/js/dx.viz-web.js"></script>
     <script src="/MyJS/script.js"></script>

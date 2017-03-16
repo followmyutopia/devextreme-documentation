@@ -39,7 +39,6 @@ Instead of delivering DevExtreme and other required libraries with your app, you
         <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
         <!-- The AngularJS library -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.min.js"></script>
         <!-- DevExtreme themes -->
         <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.common.css" />
         <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.light.css" />

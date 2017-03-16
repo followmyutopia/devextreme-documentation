@@ -99,7 +99,6 @@ The example below demonstrates how to create an application with a single button
   
         <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular-sanitize.js"></script>
         <!--DevExtreme Bundle-->
         <script type="text/javascript" src="dx.custom.js" charset="utf-8"></script>
         <!--Link Themes-->
