@@ -40,6 +40,8 @@ Also, you can call this method to detach a specific handler from an event or all
     menuInstance
         .off("itemClick", handler1)
 
+<!-------------->
+
     <!--JavaScript-->// Detaches all handlers from the "itemClick" event
     menuInstance
         .off("itemClick")
