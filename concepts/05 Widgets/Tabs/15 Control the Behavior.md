@@ -25,6 +25,8 @@ If you need a tab to be preselected or to select it programmatically, pass its i
         });
     });
 
+<!---->
+
     <!--JavaScript-->// Selects the tab with index 0
     $("#tabsContainer").dxTabs("option", "selectedIndex", 0);
 

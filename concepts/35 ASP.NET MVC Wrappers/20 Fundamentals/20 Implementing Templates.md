@@ -78,7 +78,7 @@ External templates can be declared in a partial view or a `@helper` block (MVC 3
 
     - **Partial view**
 
-        - *InnerList.cs(vb)html*
+        - *InnerList.cshtml / InnerList.vbhtml*
 
                 <!--Razor C#-->
                 @(Html.DevExtreme().List()
@@ -99,7 +99,7 @@ External templates can be declared in a partial view or a `@helper` block (MVC 3
                         End Sub).Render()
                 End Code
 
-        - *Popup.cs(vb)html*
+        - *Popup.cshtml / Popup.vbhtml*
 
                 <!--Razor C#-->
                 @(Html.DevExtreme().Popup()
