@@ -5,9 +5,8 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tree_list">ui/tree_list</a><!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->..\GridBase\GridBase.md<!--/inherits-->
+<!--default-->undefined<!--/default-->
+<!--type-->string | function(data)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -17,3 +16,8 @@
 <!--fullDescription-->
 
 <!--/fullDescription-->
+<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
+<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamDescription1-->
+
+<!--/typeFunctionParamDescription1-->

@@ -35,7 +35,7 @@ dataSource: [{
 ===========================================================================
 <!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_data_grid">ui/data_grid</a><!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\Widget\Widget.md,..\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
+<!--inherits-->..\GridBase\GridBase.md<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

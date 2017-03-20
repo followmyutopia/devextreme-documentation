@@ -5,9 +5,9 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tree_list">ui/tree_list</a><!--/module-->
+<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_drop_down_box">ui/drop_down_box</a><!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\GridBase\GridBase.md<!--/inherits-->
+<!--inherits-->..\dxDropDownEditor\dxDropDownEditor.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
