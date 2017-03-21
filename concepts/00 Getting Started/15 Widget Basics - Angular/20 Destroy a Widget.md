@@ -4,7 +4,7 @@ If you want a DevExtreme widget to be destroyed at some moment, use the [NgIf di
         selector: 'my-app',
         template: '
             <dx-text-box *NgIf="showTextBox"></dx-text-box>
-            <dx-button text="Click me" (onClick)=clickHandler()></dx-button>
+            <dx-button text="Click me" (onClick)="clickHandler()"></dx-button>
         '
     })
     export class AppComponent {
@@ -13,5 +13,8 @@ If you want a DevExtreme widget to be destroyed at some moment, use the [NgIf di
             this.showTextBox = !this.showTextBox;
         }
     }
+
+#####See Also#####
+- [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
 
 [tags]basics, angular, destroy, remove, delete

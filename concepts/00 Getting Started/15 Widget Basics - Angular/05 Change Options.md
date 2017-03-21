@@ -2,7 +2,7 @@ All operations with widget options are carried out through the properties of the
 
     @Component({
         selector: 'my-app',
-        template: '<dx-text-box [(value)]='textBoxValue'></dx-text-box>'
+        template: '<dx-text-box [(value)]="textBoxValue"></dx-text-box>'
     })
     export class AppComponent {
         textBoxValue: string = 'Text box value';
@@ -10,9 +10,11 @@ All operations with widget options are carried out through the properties of the
 
 Now, if you change the `textBoxValue` component property in code, the **TextBox** text will mirror the changes. And vice versa, if an end user changes **TextBox** in the UI, the `textBoxValue` component property will be updated.
 
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Text_Box/Overview/Angular/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+
 #####See Also#####
 - [API Reference](/Documentation/ApiReference/) | **WidgetName** | **Configuration**
 - [Create and Configure a Widget](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)
-- [DevExtreme-Angular description on GitHub](https://github.com/DevExpress/devextreme-angular)
+- [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
 
 [tags]basics, angular, change options, get, set, runtime, two-way binding

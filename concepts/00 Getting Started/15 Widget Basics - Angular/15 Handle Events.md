@@ -10,8 +10,10 @@ To handle an event, use a configuration option. All event handling options are g
         }
     }
 
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/Icons/Angular/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+
 #####See Also#####
 - [API Reference](/Documentation/ApiReference/) | **WidgetName** | **Events**
-- [DevExtreme-Angular description on GitHub](https://github.com/DevExpress/devextreme-angular)
+- [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
 
 [tags]basics, angular, handle events, subscribe
