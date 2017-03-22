@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether a column is visible or not.
 <!--/shortDescription-->
 
 <!--fullDescription-->

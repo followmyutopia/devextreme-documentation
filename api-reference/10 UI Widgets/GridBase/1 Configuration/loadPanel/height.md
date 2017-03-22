@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the height of the load panel in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

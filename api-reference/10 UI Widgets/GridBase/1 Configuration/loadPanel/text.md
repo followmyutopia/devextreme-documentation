@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies text displayed by the load panel.
 <!--/shortDescription-->
 
 <!--fullDescription-->

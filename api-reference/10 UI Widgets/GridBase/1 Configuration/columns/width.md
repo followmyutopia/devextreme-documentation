@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies a column width in pixels or percentages.
 <!--/shortDescription-->
 
 <!--fullDescription-->

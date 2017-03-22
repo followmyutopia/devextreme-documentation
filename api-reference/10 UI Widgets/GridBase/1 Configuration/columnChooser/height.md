@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the height of the column chooser panel.
 <!--/shortDescription-->
 
 <!--fullDescription-->

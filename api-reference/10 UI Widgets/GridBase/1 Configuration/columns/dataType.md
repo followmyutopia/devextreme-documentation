@@ -11,9 +11,30 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Casts column values to a specified data type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+If your data source stores, for example, numbers as strings, specify the proper data type using the **dataType** option.
+ 
+*Date* values have the following peculiarities.
 
+- If dates are stored as strings, they should have the following format: `"yyyy/MM/dd"` or `"yyyy/MM/dd HH:mm:ss"`.
+- To show both date and time in the column editor, assign an appropriate value (including date and time parts) to the [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) option and *"datetime"* to the [editorOptions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editorOptions) | **type**.
+
+        <!--JavaScript-->
+        $("#gridContainer").dxDataGrid({
+            // ...
+            columns: [
+                // ...
+                {
+                    dataField: "HireDate",
+                    dataType: "date",
+                    format: "shortDateShortTime",
+                    editorOptions: { type: "datetime" }
+                }
+            ]
+        });
+
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `GridColumnDataType` enum. This enum accepts the following values: `String`, `Number`, `Date`, `Boolean` and `Object`.
 <!--/fullDescription-->
