@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
 

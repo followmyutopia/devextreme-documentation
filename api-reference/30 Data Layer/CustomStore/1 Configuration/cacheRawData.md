@@ -5,12 +5,12 @@
 
 **-->
 ===========================================================================
-<!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--default-->true<!--/default-->
+<!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the series elements to highlight when a series is hovered over.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
