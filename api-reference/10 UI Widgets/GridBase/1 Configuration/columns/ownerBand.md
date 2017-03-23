@@ -26,7 +26,7 @@ A band column collects two or more data columns under one column header. To impl
         }]
     };
     
-If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeColumns) option to configure columns, the hierarchical structure cannot be implemented. To band columns in this case, use the [isBand](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#isBand) and **ownerBand** options.
+If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColumns) option to configure columns, the hierarchical structure cannot be implemented. To band columns in this case, use the [isBand]({basewidgetpath}/Configuration/columns/#isBand) and **ownerBand** options.
 
     <!--JavaScript-->var dataGridOptions = {
         // ...

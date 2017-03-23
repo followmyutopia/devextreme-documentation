@@ -27,13 +27,13 @@ The required configuration options.
 Using this method, you can set several options of a specific column from code. This method accepts one of the following as the first parameter.
 
 * **Name**		
-The [unique name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#name) of the column.
+The [unique name]({basewidgetpath}/Configuration/columns/#name) of the column.
 
 * **Column Index**		
-The index of the column in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array.
+The index of the column in the [columns]({basewidgetpath}/Configuration/columns/) array.
 
 * **Data Field**		
-The name of the [data source field](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField) assigned to the column.
+The name of the [data source field]({basewidgetpath}/Configuration/columns/#dataField) assigned to the column.
 
 * **Caption**		
 The text displayed in the column header.
@@ -50,11 +50,11 @@ One of the following values:
     Gets the [adaptive column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).  
  
  - Any string matching the following format: *"optionName:value"*  
-    Here, the *optionName* is one of the [column options](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
+    Here, the *optionName* is one of the [column options]({basewidgetpath}/Configuration/columns/).
 
-    [note]In command columns, you can change only the [width](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#width) or the [visibleIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visibleIndex).  
+    [note]In command columns, you can change only the [width]({basewidgetpath}/Configuration/columns/#width) or the [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex).  
 
 The options of the first column matching the name, column index, data field or caption will be changed by this method.
 
-For the list of accessible options, refer to the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) option description. If you need to set only one option for a column, you can use the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method instead.
+For the list of accessible options, refer to the [columns]({basewidgetpath}/Configuration/columns/) option description. If you need to set only one option for a column, you can use the [columnOption(id, optionName, optionValue)]({basewidgetpath}/Methods/#columnOptionid_optionName_optionValue) method instead.
 <!--/fullDescription-->

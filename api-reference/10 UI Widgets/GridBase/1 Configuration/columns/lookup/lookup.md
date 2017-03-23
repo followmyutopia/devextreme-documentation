@@ -30,7 +30,7 @@ For example, consider that you have two arrays of objects: *Drivers* and *Buses*
 		{ BusID: 3, Plates: 'CD-9876' }
 	];
 
-The objects of the *Drivers* array have the *BusID* field, which binds these two arrays together. If the *Drivers* array takes on the role of the main grid data source, the *BusID* grid column displays the IDs of buses, which do not matter to a user. In this situation, it will be more convenient to display the bus license plates specified in the *Plates* field. For this purpose, the *Buses* array must be set as a lookup data source for the *BusID* grid column using the **lookup** | [dataSource](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/#dataSource) option. Then, the **valueExpr** option must be set to *"BusID"* indicating the field whose values should be replaced. These values will be replaced by the values of the field specified by the **displayExpr** option.
+The objects of the *Drivers* array have the *BusID* field, which binds these two arrays together. If the *Drivers* array takes on the role of the main grid data source, the *BusID* grid column displays the IDs of buses, which do not matter to a user. In this situation, it will be more convenient to display the bus license plates specified in the *Plates* field. For this purpose, the *Buses* array must be set as a lookup data source for the *BusID* grid column using the **lookup** | [dataSource]({basewidgetpath}/Configuration/columns/lookup/#dataSource) option. Then, the **valueExpr** option must be set to *"BusID"* indicating the field whose values should be replaced. These values will be replaced by the values of the field specified by the **displayExpr** option.
 
 	<!--JavaScript-->$(function () {
 		$("#gridContainer").dxDataGrid({
@@ -44,5 +44,5 @@ The objects of the *Drivers* array have the *BusID* field, which binds these two
 		});
 	});
 
-With this code applied, the *"BusID"* grid column contains the bus license plates instead of the bus IDs. Moreover, now the user can choose a plate number using the drop-down menu in a filter row cell to filter records, or a column cell to edit this cell. If these features are not required, assign *false* to the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) or [allowEditing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowEditing) column option correspondingly.
+With this code applied, the *"BusID"* grid column contains the bus license plates instead of the bus IDs. Moreover, now the user can choose a plate number using the drop-down menu in a filter row cell to filter records, or a column cell to edit this cell. If these features are not required, assign *false* to the [allowFiltering]({basewidgetpath}/Configuration/columns/#allowFiltering) or [allowEditing]({basewidgetpath}/Configuration/columns/#allowEditing) column option correspondingly.
 <!--/fullDescription-->

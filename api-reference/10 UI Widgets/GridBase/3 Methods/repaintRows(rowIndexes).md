@@ -18,5 +18,5 @@ An array of row indexes.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-[note]This method updates the [objects](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) of the specified rows and their visual representation.
+[note]This method updates the [objects]({basewidgetpath}/Row/) of the specified rows and their visual representation.
 <!--/fullDescription-->

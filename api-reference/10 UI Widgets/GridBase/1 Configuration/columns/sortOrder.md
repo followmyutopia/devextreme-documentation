@@ -15,7 +15,7 @@ Specifies the initial sort order of column values.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, records in a grid are ordered according to the data source. You can, however, set a different initial sort order for the records in one or several columns. To sort grid records by one column, specify the required order using the **sortOrder** option. To sort grid records by several columns, use the [sortIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#sortIndex) option in addition to the **sortOrder** option.
+By default, records in a grid are ordered according to the data source. You can, however, set a different initial sort order for the records in one or several columns. To sort grid records by one column, specify the required order using the **sortOrder** option. To sort grid records by several columns, use the [sortIndex]({basewidgetpath}/Configuration/columns/#sortIndex) option in addition to the **sortOrder** option.
 
 [note] If you specify the **sortOrder** option for several columns omitting the **sortIndex** option, a sort index will be assigned to each sort column according to its position in the **columns** array.
 

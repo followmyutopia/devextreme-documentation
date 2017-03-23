@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [dataErrorOccured](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#dataErrorOccurred) event.
+A handler for the [dataErrorOccured]({basewidgetpath}/Events/#dataErrorOccurred) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->

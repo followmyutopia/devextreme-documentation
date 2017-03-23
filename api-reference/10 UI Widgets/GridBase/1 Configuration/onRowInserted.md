@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [rowInserted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowInserted) event.
+A handler for the [rowInserted]({basewidgetpath}/Events/#rowInserted) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->

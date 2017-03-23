@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [rowRemoved](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowRemoved) event.
+A handler for the [rowRemoved]({basewidgetpath}/Events/#rowRemoved) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->

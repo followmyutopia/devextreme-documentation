@@ -24,9 +24,9 @@ Contains the **DataGrid** instance.
 - **value**		
 Contains the value of the currently edited cell as it is specified in a data source.
 - **text**		
-Contains the value of the currently edited cell in a string format. Use this field to get a value with applied [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format).
+Contains the value of the currently edited cell in a string format. Use this field to get a value with applied [format]({basewidgetpath}/Configuration/columns/#format).
 - **displayValue**		
-Contains the value displayed by the currently edited cell. It differs from the **value** field only when the column to which the current cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
+Contains the value displayed by the currently edited cell. It differs from the **value** field only when the column to which the current cell belongs uses [lookup]({basewidgetpath}/Configuration/columns/lookup/).
 - **columnIndex**		
 Contains the index of the column to which the currently edited cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
 - **rowIndex**		
@@ -36,7 +36,7 @@ Contains the settings of the column to which the currently edited cell belongs.
 - **rowType**		
 Represents the type of the row to which the currently edited cell belongs. This field equals *'data'* for ordinary rows or *'group'* for group rows. Use this field to distinguish rows by type.
 - **setValue(newValue)**		
-A method that changes the cell value when edited. After this method is called, the cell editing process concludes. Note that calling this method means that the value of a cell is changed. In the *batch* [edit mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode), this circumstance may lead the edited cell to be highlighted even when its value was not actually changed, i.e., when a user switched a cell into the editing state and then immediately switched it back to the normal state without changing the value. To prevent this behavior, call the **setValue(newValue)** method only if the new value does not equal the old value, which can be accessed using the **value** field of the object passed to the **editCellTemplate** function as the second parameter.
+A method that changes the cell value when edited. After this method is called, the cell editing process concludes. Note that calling this method means that the value of a cell is changed. In the *batch* [edit mode]({basewidgetpath}/Configuration/editing/#mode), this circumstance may lead the edited cell to be highlighted even when its value was not actually changed, i.e., when a user switched a cell into the editing state and then immediately switched it back to the normal state without changing the value. To prevent this behavior, call the **setValue(newValue)** method only if the new value does not equal the old value, which can be accessed using the **value** field of the object passed to the **editCellTemplate** function as the second parameter.
 
 [note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 
 
@@ -59,7 +59,7 @@ Using a template engine, pass one of the following values to the **editCellTempl
 - A DOM Node representing the template's container.		
 - A function that returns a jQuery object or a DOM Node representing the template's container.
 
-[note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#twoWayBindingEnabled) option to *false*.
+[note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to *false*.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->jQuery<!--/typeFunctionParamType1-->

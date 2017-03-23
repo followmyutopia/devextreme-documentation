@@ -14,7 +14,7 @@ Specifies the data source providing data for a lookup column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In order to have correspondence between the values from the main [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource) and those values that need to be displayed, specify a lookup data source. This data source can be one of the following.
+In order to have correspondence between the values from the main [data source]({basewidgetpath}/Configuration/#dataSource) and those values that need to be displayed, specify a lookup data source. This data source can be one of the following.
 
 - An Array of objects  
 	The fields of each object will be used to provide data for the lookup select box.

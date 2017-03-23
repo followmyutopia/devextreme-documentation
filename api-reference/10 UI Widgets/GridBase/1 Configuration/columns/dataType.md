@@ -20,7 +20,7 @@ If your data source stores, for example, numbers as strings, specify the proper 
 *Date* values have the following peculiarities.
 
 - If dates are stored as strings, they should have the following format: `"yyyy/MM/dd"` or `"yyyy/MM/dd HH:mm:ss"`.
-- To show both date and time in the column editor, assign an appropriate value (including date and time parts) to the [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) option and *"datetime"* to the [editorOptions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editorOptions) | **type**.
+- To show both date and time in the column editor, assign an appropriate value (including date and time parts) to the [format]({basewidgetpath}/Configuration/columns/#format) option and *"datetime"* to the [editorOptions]({basewidgetpath}/Configuration/columns/#editorOptions) | **type**.
 
         <!--JavaScript-->
         $("#gridContainer").dxDataGrid({

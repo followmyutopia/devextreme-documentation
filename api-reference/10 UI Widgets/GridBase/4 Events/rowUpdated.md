@@ -13,7 +13,7 @@ Fires after a row has been updated in the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onRowUpdated](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowUpdated) option to handle the event.
+Instead, you can use the [onRowUpdated]({basewidgetpath}/Configuration/#onRowUpdated) option to handle the event.
 
 When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find the data object and the key value of the updated row. Note that the data object contains only those fields of a row that have been updated.
 

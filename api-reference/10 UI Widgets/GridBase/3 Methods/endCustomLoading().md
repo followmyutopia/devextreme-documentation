@@ -12,5 +12,5 @@ Hides the [load panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Lo
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Normally, a load panel in **DataGrid** is hidden automatically when the widget is ready. But if you have invoked the load panel from code using the [beginCustomLoading(messageText)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#beginCustomLoadingmessageText) method, you must call the **endCustomLoading()** method to hide it.
+Normally, a load panel in **DataGrid** is hidden automatically when the widget is ready. But if you have invoked the load panel from code using the [beginCustomLoading(messageText)]({basewidgetpath}/Methods/#beginCustomLoadingmessageText) method, you must call the **endCustomLoading()** method to hide it.
 <!--/fullDescription-->

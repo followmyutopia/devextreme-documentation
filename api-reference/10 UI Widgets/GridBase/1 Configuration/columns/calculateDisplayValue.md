@@ -13,7 +13,7 @@ Specifies how to get a value to be displayed in a cell when it is not in an edit
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If the grid data source contains the values that you wish to display, assign the [dataField](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField) value of the required column to this option.
+If the grid data source contains the values that you wish to display, assign the [dataField]({basewidgetpath}/Configuration/columns/#dataField) value of the required column to this option.
 If the values you want to display can be calculated using the values of several columns, or can be acquired from a remote data source, assign a function to this option.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->

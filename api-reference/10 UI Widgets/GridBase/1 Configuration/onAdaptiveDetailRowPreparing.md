@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [adaptiveDetailRowPreparing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#adaptiveDetailRowPreparing) event.
+A handler for the [adaptiveDetailRowPreparing]({basewidgetpath}/Events/#adaptiveDetailRowPreparing) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -27,8 +27,8 @@ Adaptive detail rows display information from columns that were hidden when the 
 - [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
 - [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
 - [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
-- [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#columnHidingEnabled) - enables column hiding in the UI.
-- **columns[]** | [hidingPriority](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#hidingPriority) - decides which columns to hide first.
+- [columnHidingEnabled]({basewidgetpath}/Configuration/#columnHidingEnabled) - enables column hiding in the UI.
+- **columns[]** | [hidingPriority]({basewidgetpath}/Configuration/columns/#hidingPriority) - decides which columns to hide first.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

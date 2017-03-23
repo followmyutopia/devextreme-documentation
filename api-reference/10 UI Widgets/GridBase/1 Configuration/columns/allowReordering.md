@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not a particular column can be used in column reordering. Setting this option makes sense only when the [allowColumnReordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering) option is set to *true*.
+Specifies whether or not a particular column can be used in column reordering. Setting this option makes sense only when the [allowColumnReordering]({basewidgetpath}/Configuration/#allowColumnReordering) option is set to *true*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

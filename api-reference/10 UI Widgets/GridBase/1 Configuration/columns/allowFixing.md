@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not the column can be anchored to a grid edge by end users. Setting this option makes sense only when the [columnFixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) | **enabled** option is set to *true*.
+Specifies whether or not the column can be anchored to a grid edge by end users. Setting this option makes sense only when the [columnFixing]({basewidgetpath}/Configuration/columnFixing/) | **enabled** option is set to *true*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -18,5 +18,5 @@ Two-way data binding ensures that the UI tracks changes made in the data source 
 
 [note] **DataGrid** provides this feature through Knockout and AngularJS resources, so make sure that you have [added these libraries](/Documentation/Guide/Getting_Started/Installation/DevExtreme_Dependencies/) to your app.
 
-In certain scenarios, you may want to implement two-way data binding in **DataGrid** on your own. For this purpose, you can specify [cellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#cellTemplate) and/or [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate) options. If so, make sure that you have the **twoWayBindingEnabled** option set to *false*.
+In certain scenarios, you may want to implement two-way data binding in **DataGrid** on your own. For this purpose, you can specify [cellTemplate]({basewidgetpath}/Configuration/columns/#cellTemplate) and/or [editCellTemplate]({basewidgetpath}/Configuration/columns/#editCellTemplate) options. If so, make sure that you have the **twoWayBindingEnabled** option set to *false*.
 <!--/fullDescription-->

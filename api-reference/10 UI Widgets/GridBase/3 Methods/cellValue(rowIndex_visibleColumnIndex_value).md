@@ -30,5 +30,5 @@ The new value of the cell.
 <!--/paramDescription3-->
 
 <!--fullDescription-->
-If the [editing mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode) is not *'cell'*, call the [saveEditData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#saveEditData) method to save changes.
+If the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is not *'cell'*, call the [saveEditData()]({basewidgetpath}/Methods/#saveEditData) method to save changes.
 <!--/fullDescription-->

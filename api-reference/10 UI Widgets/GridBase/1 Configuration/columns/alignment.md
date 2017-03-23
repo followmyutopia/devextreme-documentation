@@ -15,7 +15,7 @@ Specifies the content alignment within column cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Default alignment of column content depends on the [type of data](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType) represented by this column. The following table illustrates default values of alignment for the columns of different data types.
+Default alignment of column content depends on the [type of data]({basewidgetpath}/Configuration/columns/#dataType) represented by this column. The following table illustrates default values of alignment for the columns of different data types.
 
 <div class="simple-table">
 <table>

@@ -13,7 +13,7 @@ Fires before an adaptive detail row will be rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onAdaptiveDetailRowPreparing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onAdaptiveDetailRowPreparing) option to handle the event.
+Instead, you can use the [onAdaptiveDetailRowPreparing]({basewidgetpath}/Configuration/#onAdaptiveDetailRowPreparing) option to handle the event.
 
 Adaptive detail rows display information from columns that were hidden when the widget adapted to the screen or container size. An adaptive detail row contains the [Form](/Documentation/ApiReference/UI_Widgets/dxForm/) widget defining the layout of row items. When implementing the event handler, you can access the **Form** options using the **formOptions** field of the handler's parameter.
 
@@ -27,8 +27,8 @@ Adaptive detail rows display information from columns that were hidden when the 
 - [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
 - [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
 - [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
-- [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#columnHidingEnabled) - enables column hiding in the UI.
-- **columns[]** | [hidingPriority](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#hidingPriority) - decides which columns to hide first.
+- [columnHidingEnabled]({basewidgetpath}/Configuration/#columnHidingEnabled) - enables column hiding in the UI.
+- **columns[]** | [hidingPriority]({basewidgetpath}/Configuration/columns/#hidingPriority) - decides which columns to hide first.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

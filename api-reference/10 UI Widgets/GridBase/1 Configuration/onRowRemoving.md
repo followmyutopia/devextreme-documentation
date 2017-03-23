@@ -11,13 +11,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [rowRemoving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowRemoving) event.
+A handler for the [rowRemoving]({basewidgetpath}/Events/#rowRemoving) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 The **rowRemoving** event fires before a row is removed from a data source. To handle this event, implement a function and assign it to the **onRowRemoving** option. Using the function's argument, you can access the object with information about the event.
 
-Among the fields of this object, you can find the **cancel** flag that allows you to prevent the row from being removed from the data source. In order to accomplish that, set this flag to *true*. The behavior of the rows, whose removal was canceled, depends on the [edit mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode). In [row mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Row_Mode), such a row is preserved. In [batch mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode), such rows are displayed as recoverable. If you need to perform an asynchronous action before deleting the row, assign a **jQuery.Promise** object to the **cancel** field. The row will be actually deleted when the **jQuery.Promise** object is resolved.
+Among the fields of this object, you can find the **cancel** flag that allows you to prevent the row from being removed from the data source. In order to accomplish that, set this flag to *true*. The behavior of the rows, whose removal was canceled, depends on the [edit mode]({basewidgetpath}/Configuration/editing/#mode). In [row mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Row_Mode), such a row is preserved. In [batch mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode), such rows are displayed as recoverable. If you need to perform an asynchronous action before deleting the row, assign a **jQuery.Promise** object to the **cancel** field. The row will be actually deleted when the **jQuery.Promise** object is resolved.
 
 [note] In a batch edit mode, when several rows are to be removed, the **onRowRemoving** function will be executed for each row individually.
 

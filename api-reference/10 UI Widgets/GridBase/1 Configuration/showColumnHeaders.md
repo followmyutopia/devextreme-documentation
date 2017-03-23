@@ -14,5 +14,5 @@ Specifies whether [column headers](/Documentation/Guide/Widgets/DataGrid/Visual_
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A column header contains a column caption. For more information about captions, see the **columns** | [caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption) option description.
+A column header contains a column caption. For more information about captions, see the **columns** | [caption]({basewidgetpath}/Configuration/columns/#caption) option description.
 <!--/fullDescription-->

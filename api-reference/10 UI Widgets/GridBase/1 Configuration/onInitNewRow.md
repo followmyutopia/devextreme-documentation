@@ -11,11 +11,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [initNewRow](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#initNewRow) event.
+A handler for the [initNewRow]({basewidgetpath}/Events/#initNewRow) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, a row inserted into a grid contains no data. If you need this row to contain some data, e.g., default values of row cells, implement a function handling the **initNewRow** event. Use the **data** field of the object passed to this function as the argument to access the data object of the new row. Initially, this data object is empty. Populate this object with data in such a manner that its fields correspond to the fields of a [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource) object.
+By default, a row inserted into a grid contains no data. If you need this row to contain some data, e.g., default values of row cells, implement a function handling the **initNewRow** event. Use the **data** field of the object passed to this function as the argument to access the data object of the new row. Initially, this data object is empty. Populate this object with data in such a manner that its fields correspond to the fields of a [data source]({basewidgetpath}/Configuration/#dataSource) object.
 
 [note]Populating all fields of the data object is not necessary. Populate only those of them that must initialize the specific cells of a new row.
 

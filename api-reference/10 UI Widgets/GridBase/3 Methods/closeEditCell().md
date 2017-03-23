@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Draws the cell being edited from the editing state. Use this method when the [edit mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode) is *batch*.
+Draws the cell being edited from the editing state. Use this method when the [edit mode]({basewidgetpath}/Configuration/editing/#mode) is *batch*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

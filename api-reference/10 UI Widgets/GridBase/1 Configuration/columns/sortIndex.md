@@ -33,5 +33,5 @@ To sort these records by the *"LastName"* field first and then by the *"FirstNam
         ]
     });
 
-Note that the **sortIndex** option should be used along with the [sortOrder](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#sortOrder) option as demonstrated in the code above. The **sortOrder** option specifies a sort order for the values of a column.
+Note that the **sortIndex** option should be used along with the [sortOrder]({basewidgetpath}/Configuration/columns/#sortOrder) option as demonstrated in the code above. The **sortOrder** option specifies a sort order for the values of a column.
 <!--/fullDescription-->

@@ -11,11 +11,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [rowValidating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowValidating) event.
+A handler for the [rowValidating]({basewidgetpath}/Events/#rowValidating) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When data in a cell or in several cells is changed, the [validation rules](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#validationRules) specified for these cells are checked. Before the validation result (messages on the broken rules) is displayed in the grid, you can interfere by handling the **rowValidating** event. For instance, you can provide a common text for all the cells where validation rules are not satisfied. This text will be displayed under the validated row in a specially added *error row*. To provide a common text for a row, specify the **errorText** field of the event handling function's parameter. In addition, you can change the validation result before it is displayed, by performing an additional check and setting the result to the **isValid** field of the event handling function's parameter.
+When data in a cell or in several cells is changed, the [validation rules]({basewidgetpath}/Configuration/columns/#validationRules) specified for these cells are checked. Before the validation result (messages on the broken rules) is displayed in the grid, you can interfere by handling the **rowValidating** event. For instance, you can provide a common text for all the cells where validation rules are not satisfied. This text will be displayed under the validated row in a specially added *error row*. To provide a common text for a row, specify the **errorText** field of the event handling function's parameter. In addition, you can change the validation result before it is displayed, by performing an additional check and setting the result to the **isValid** field of the event handling function's parameter.
 
 In batch mode, when several row updates are committed simultaneously, the **rowValidating** error fires for each row that has changes.
 <!--/fullDescription-->

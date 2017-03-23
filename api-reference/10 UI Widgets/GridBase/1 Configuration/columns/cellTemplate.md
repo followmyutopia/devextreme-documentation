@@ -24,9 +24,9 @@ Contains the **DataGrid** instance.
 - **value**		
 Contains the value of the current cell as it is specified in the data source.
 - **text**		
-Contains the value of the current cell in a string format. Use this field to get the value with applied [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format).
+Contains the value of the current cell in a string format. Use this field to get the value with applied [format]({basewidgetpath}/Configuration/columns/#format).
 - **displayValue**		
-Contains the value displayed by the current cell. Differs from the **value** field only when the column to which the current cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
+Contains the value displayed by the current cell. Differs from the **value** field only when the column to which the current cell belongs uses [lookup]({basewidgetpath}/Configuration/columns/lookup/).
 - **columnIndex**		
 Contains the index of the column to which the current cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
 - **rowIndex**		
@@ -57,9 +57,9 @@ Using a template engine, pass one of the following values to the **cellTemplate*
 - A DOM Node representing the template's container.		
 - A function that returns a jQuery object or a DOM Node representing the template's container.
 
-[note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#twoWayBindingEnabled) option to *false*.
+[note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to *false*.
 
-To customize a cell without defining the entire template, handle the [cellPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#cellPrepared) event.
+To customize a cell without defining the entire template, handle the [cellPrepared]({basewidgetpath}/Events/#cellPrepared) event.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/data_grid-templates-column_template" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Function Template Demo</a>
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/data_grid-templates-column_3rd_party_engine_template" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Underscore Template Demo</a>

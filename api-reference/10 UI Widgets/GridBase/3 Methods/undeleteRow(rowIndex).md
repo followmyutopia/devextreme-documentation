@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Recovers a row deleted in the *batch* [edit mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode).
+Recovers a row deleted in the *batch* [edit mode]({basewidgetpath}/Configuration/editing/#mode).
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->

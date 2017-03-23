@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Allows you to obtain a cell by its row index and the [data field](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField) of its column.
+Allows you to obtain a cell by its row index and the [data field]({basewidgetpath}/Configuration/columns/#dataField) of its column.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->

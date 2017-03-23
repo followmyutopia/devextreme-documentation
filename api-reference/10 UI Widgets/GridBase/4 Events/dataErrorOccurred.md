@@ -13,7 +13,7 @@ Fires when an error occurs in the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onDataErrorOccurred](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onDataErrorOccurred) option to handle the event.
+Instead, you can use the [onDataErrorOccurred]({basewidgetpath}/Configuration/#onDataErrorOccurred) option to handle the event.
 
 To handle errors that might occur in the data source, implement a handling function and attach it to the **dataErrorOccurred** event. To obtain a human-readable representation of the occurred error, use the **message** field of the **error** object passed to the handling function as the parameter's field.
 

@@ -11,13 +11,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [rowUpdating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowUpdating) event.
+A handler for the [rowUpdating]({basewidgetpath}/Events/#rowUpdating) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 The **rowUpdating** event fires before a row is updated in a data source. To handle this event, implement a function and assign it to the **onRowUpdating** option. Using the function's argument, you can access the object with information about the event.
 
-Among the fields of this object, you can find the **cancel** flag that allows you to prevent the row from being updated. In order to accomplish this, set this flag to *true*. The behavior of the rows, whose updating was canceled, depends on the [edit mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode). In [row mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Row_Mode), such a row does not switch back to the normal state. In [batch mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode), changes in such rows stay buffered. If you need to perform an asynchronous action before saving the updated row, assign a **jQuery.Promise** object to the **cancel** field. The row will be actually updated when the **jQuery.Promise** object is resolved.
+Among the fields of this object, you can find the **cancel** flag that allows you to prevent the row from being updated. In order to accomplish this, set this flag to *true*. The behavior of the rows, whose updating was canceled, depends on the [edit mode]({basewidgetpath}/Configuration/editing/#mode). In [row mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Row_Mode), such a row does not switch back to the normal state. In [batch mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode), changes in such rows stay buffered. If you need to perform an asynchronous action before saving the updated row, assign a **jQuery.Promise** object to the **cancel** field. The row will be actually updated when the **jQuery.Promise** object is resolved.
 
 [note] In batch edit mode, when several rows are to be updated, the **onRowUpdating** function will be executed for each row individually.
 

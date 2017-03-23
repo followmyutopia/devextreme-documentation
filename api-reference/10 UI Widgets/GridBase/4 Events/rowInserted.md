@@ -13,7 +13,7 @@ Fires after a row has been inserted into the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onRowInserted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowInserted) option to handle the event.
+Instead, you can use the [onRowInserted]({basewidgetpath}/Configuration/#onRowInserted) option to handle the event.
 
 When implementing a handling function for this event, use the object passed to this function as its argument. Among the fields of this object, you can find the key and data of the inserted row.
 

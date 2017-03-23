@@ -26,7 +26,7 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
         }]
     };
 
-If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeColumns) option to configure columns, the hierarchical structure cannot be implemented. To band columns in this case, use the **isBand** and [ownerBand](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#ownerBand) options.
+If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColumns) option to configure columns, the hierarchical structure cannot be implemented. To band columns in this case, use the **isBand** and [ownerBand]({basewidgetpath}/Configuration/columns/#ownerBand) options.
 
     <!--JavaScript-->var dataGridOptions = {
         // ...
@@ -48,17 +48,17 @@ If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxDataG
 
 The column with the **isBand** flag set to *true* can have the following properties only.
 
-- [alignment](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#alignment)
-- [allowFixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFixing)
-- [allowHiding](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowHiding)
-- [allowReordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowReordering)
-- [caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption)
-- [cssClass](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#cssClass)
-- [fixed](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#fixed)
-- [fixedPosition](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#fixedPosition)
-- [headerCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#headerCellTemplate)
-- [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#name)
-- [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visible)
-- [visibleIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visibleIndex)
+- [alignment]({basewidgetpath}/Configuration/columns/#alignment)
+- [allowFixing]({basewidgetpath}/Configuration/columns/#allowFixing)
+- [allowHiding]({basewidgetpath}/Configuration/columns/#allowHiding)
+- [allowReordering]({basewidgetpath}/Configuration/columns/#allowReordering)
+- [caption]({basewidgetpath}/Configuration/columns/#caption)
+- [cssClass]({basewidgetpath}/Configuration/columns/#cssClass)
+- [fixed]({basewidgetpath}/Configuration/columns/#fixed)
+- [fixedPosition]({basewidgetpath}/Configuration/columns/#fixedPosition)
+- [headerCellTemplate]({basewidgetpath}/Configuration/columns/#headerCellTemplate)
+- [name]({basewidgetpath}/Configuration/columns/#name)
+- [visible]({basewidgetpath}/Configuration/columns/#visible)
+- [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex)
 
 <!--/fullDescription-->

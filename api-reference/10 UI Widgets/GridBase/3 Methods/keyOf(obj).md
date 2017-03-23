@@ -23,5 +23,5 @@ The key of the passed data object.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-If a field providing key values is not specified in a [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource), the whole data object is considered the key. In this case, the **keyOf(obj)** method returns its argument.
+If a field providing key values is not specified in a [data source]({basewidgetpath}/Configuration/#dataSource), the whole data object is considered the key. In this case, the **keyOf(obj)** method returns its argument.
 <!--/fullDescription-->
