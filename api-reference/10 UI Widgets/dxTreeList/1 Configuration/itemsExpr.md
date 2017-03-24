@@ -5,13 +5,11 @@
 
 **-->
 ===========================================================================
-<!--propertyOf-->..\AreaSeries\AreaSeries.md,..\BarSeries\BarSeries.md,..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
-<!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->string | function<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the series elements to highlight when a series is hovered over.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
