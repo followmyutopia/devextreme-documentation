@@ -5,9 +5,7 @@
 
 **-->
 ===========================================================================
-<!--default-->'row'<!--/default-->
-<!--acceptValues-->'row' | 'batch' | 'cell' | 'form' | 'popup'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->Popup options<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
