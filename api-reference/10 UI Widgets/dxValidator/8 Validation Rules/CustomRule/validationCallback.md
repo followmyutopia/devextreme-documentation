@@ -13,9 +13,6 @@ A function that validates the target value.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In this function, you should indicate whether or not the validated value breaks the current rule. To access the validated value, use the **value** field of the parameter passed to the function. To access the current rule, use the **rule** field of the function parameter. Set the rule's **isValid** field. In addition, you can specify the rule's **message** field, as well as other fields that are specific for the current rule type, which is specified by the rule's **type** field.
-
-As an alternative to the rule's **isValid** field, you can use the function's return value to specify the validation result.
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
