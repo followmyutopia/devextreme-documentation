@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies how the chart must behave when [series point labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Point_Labels) overlap.
+Specifies how the chart must behave when [series point labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) overlap.
 <!--/shortDescription-->
 
 <!--fullDescription-->

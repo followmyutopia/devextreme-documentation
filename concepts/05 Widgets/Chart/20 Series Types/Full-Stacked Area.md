@@ -1,6 +1,6 @@
 The *fullStackedArea* series type is used when it is necessary to compare the value percentage of several *area* series for each argument. In this series type, the areas do not overlap because they are cumulative at each point. The value axis is always continuous and it displays a range from 0 to 100 percent.
 
-![FullStackedAreaSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/FullStackedArea.png)
+![FullStackedAreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/FullStackedArea.png)
 
 To use the *fullStackedArea* series type, assign *'fullstackedarea'* to the **type** property of the **series** configuration object.
 
@@ -11,7 +11,7 @@ To use the *fullStackedArea* series type, assign *'fullstackedarea'* to the **ty
         }
     };
 
-To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic.
+To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) topic.
 
 To change the default appearance of a series, set the options of the **series** configuration object. For example, you can change the following:
 
@@ -22,10 +22,10 @@ To change the default appearance of a series, set the options of the **series** 
     Make a border visible by setting the **visible** property of the series' [border](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/border/) object. When the border is visible, you can change its width, color and style using the **width**, **color** and **dashStyle** properties of the series' **border** object. In addition, you can change the border settings when the series is hovered or selected. Set the properties of the **border** object within the series' [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/hoverStyle/) or [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/selectionStyle/) configuration object to do this.
 
 *   **Points**  
-    Make points visible by setting the **visible** property of the series' [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/) object. For details on other point options, refer to the [Series Points](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Points) topic.
+    Make points visible by setting the **visible** property of the series' [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/) object. For details on other point options, refer to the [Series Points](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/ topic.
 
 *   **Point Labels**  
-    Make point labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Point_Labels) topic.
+    Make point labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) topic.
 
 These and other options that can be set for series of the fullStackedArea type are explained in the [FullStackedAreaSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/) Reference section. Set the required series options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) object of the chart's configuration object.
 

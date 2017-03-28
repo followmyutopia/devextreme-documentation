@@ -1,6 +1,6 @@
 The *stepArea* series type has all the features and characteristics of the *area* series type, but the line that joins points in the shortest way in the *area* series is replaced by the vertical and horizontal lines in the *stepArea* series. These lines form so-called "steps".
 
-![StepAreaSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/StepArea.png)
+![StepAreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/StepArea.png)
 
 To use this series type, assign *'steparea'* to the **type** property of the **series** configuration object.
 
@@ -11,7 +11,7 @@ To use this series type, assign *'steparea'* to the **type** property of the **s
         }
     };
 
-To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic.
+To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) topic.
 
 To change the series default appearance, set the options of the **series** configuration object. For instance, you can change the following.
 
@@ -22,10 +22,10 @@ To change the series default appearance, set the options of the **series** confi
     Make a border visible by setting the **visible** property of the series' [border](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/border/) object. When the border is visible, you can change its width and color, using the **width**, **color** and **dashStyle** properties of the series' **border** object. In addition, you can change the border settings when the series is hovered or selected. To do this, set the properties of the **border** object within the series' [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StepAreaSeries/hoverStyle/) or [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StepAreaSeries/selectionStyle/) configuration object.
 
 *   **Point Options**  
-    Make points visible by setting the **visible** property of the series' [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/) object. For details on other point options, refer to the [Series Points](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Points) topic.
+    Make points visible by setting the **visible** property of the series' [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/) object. For details on other point options, refer to the [Series Points](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/ topic.
 
 *   **Point Label Options**  
-    Make point labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StepAreaSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Point_Labels) topic.
+    Make point labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StepAreaSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) topic.
 
 These and other options that can be set for series of the *stepArea* type are explained in the [StepAreaSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StepAreaSeries/) Reference section. Set the required series options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) object of the chart's configuration object.
 

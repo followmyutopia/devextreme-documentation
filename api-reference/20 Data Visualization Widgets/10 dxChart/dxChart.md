@@ -38,7 +38,7 @@ dx.viz.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-The **Chart** is a widget that visualizes data from a local or remote storage using a great variety of [series types](/Documentation/Guide/Widgets/Chart/Series_Types/) along with different interactive elements, such as [tooltips](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Tooltips), [crosshair pointer](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Crosshair), [legend](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Legend), etc.
+The **Chart** is a widget that visualizes data from a local or remote storage using a great variety of [series types](/Documentation/Guide/Widgets/Chart/Series_Types/) along with different interactive elements, such as [tooltips](/Documentation/Guide/Widgets/Chart/Tooltips/Overview/), [crosshair pointer](/Documentation/Guide/Widgets/Chart/Crosshair/), [legend](/Documentation/Guide/Widgets/Chart/Legend/Overview/), etc.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -152,8 +152,8 @@ All DevExtreme widgets require linking the jQuery library. Linking the Knockout 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsbarseriessimplestsingle/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
-- [Chart - Visual Elements](/Documentation/Guide/Widgets/Chart/Visual_Elements/)
+- [Chart - Overview](/Documentation/Guide/Widgets/Chart/Overview/)
 - [Chart - Series Types](/Documentation/Guide/Widgets/Chart/Series_Types/)
-- [Charts - Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/)
+- [Chart - Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/)
 - [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
 <!--/fullDescription-->

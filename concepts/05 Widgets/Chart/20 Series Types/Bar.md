@@ -1,6 +1,6 @@
 In the *bar* series type, data is displayed as sets of rectangular bars with lengths proportional to the values that they represent. Often, *bar* series are used to compare values in different discrete categories such as months, countries, age, etc. When there are several bar series, bars for each argument are displayed side-by-side. If you need to show bars for each series stacked on each other, use the *stackedBar* series type (see [Stacked Bar](/Documentation/Guide/Widgets/Chart/Series_Types/#Stacked_Bar)).
 
-![BarSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/Bar.png)
+![BarSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Bar.png)
 
 To use the *bar* series type, assign *'bar'* to the **type** property of the **series** configuration object.
 
@@ -11,7 +11,7 @@ To use the *bar* series type, assign *'bar'* to the **type** property of the **s
         }
     };
 
-To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic.
+To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) topic.
 
 To change the series default appearance, set the options of the **series** configuration object. For instance, you can change the following.
 
@@ -25,7 +25,7 @@ To change the series default appearance, set the options of the **series** confi
     Set a corner radius for bars using the series' **cornerRadius** property. This is helpful if you need rounded corners in bars.
     
 *   **Bar Label Options**  
-    Make bar labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BarSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Point_Labels) topic.
+    Make bar labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BarSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) topic.
 
 These and other options that can be set for series of the *bar* type are explained in the [BarSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BarSeries/) Reference section. Set the required series options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) object of the chart's configuration object.
 

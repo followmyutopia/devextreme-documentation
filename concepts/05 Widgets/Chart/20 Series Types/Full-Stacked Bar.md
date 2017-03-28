@@ -1,6 +1,6 @@
 The *fullStackedBar* series type is used when it's necessary to compare the value percentage of several *bar* series for each argument. With this series type, data is displayed as rectangular bars with lengths proportional to their value percentage. Bars of each subsequent series are stacked on top of the bars of the previous series. The height of the resulting bar is always equal to 100 percent. The value axis is always continuous and displays the range from 0 to 100 percent.
 
-![FullStackedBarSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/FullStackedBar.png)
+![FullStackedBarSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/FullStackedBar.png)
 
 To use the *fullStackedBar* series type, assign *'fullstackedbar'* to the **type** property of the **series** configuration object.
 
@@ -11,7 +11,7 @@ To use the *fullStackedBar* series type, assign *'fullstackedbar'* to the **type
         }
     };
 
-To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic.
+To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) topic.
 
 To change the series default appearance, set the options of the **series** configuration object. For instance, you can change the following.
 
@@ -28,7 +28,7 @@ To change the series default appearance, set the options of the **series** confi
     Series values can be located in more than one stack for each argument value. Set the appropriate stack for a series using the [stack](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/stack/) property. This is helpful if you need to divide series between the required number of logical stacks (e.g., 'men' and 'women' stacks).
 
 *   **Bar Label Options**  
-    Make bar labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Point_Labels) topic.
+    Make bar labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) topic.
 
 These and other options that can be set for series of the *fullStackedBar* type are explained in the [FullStackedBarSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/) Reference section. Set the required series options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) object of the chart's configuration object.
 

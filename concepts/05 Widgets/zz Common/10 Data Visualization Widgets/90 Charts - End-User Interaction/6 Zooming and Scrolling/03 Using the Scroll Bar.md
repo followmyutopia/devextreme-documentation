@@ -19,4 +19,4 @@ The scroll bar is configured using the [scrollBar](/Documentation/ApiReference/D
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatures011_zoomingwithscroll/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
-To learn more about the scroll bar as a visual element, refer to the **Chart Elements** | [Scroll Bar](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Scroll_Bar) topic.
+To learn more about the scroll bar as a visual element, refer to the **Chart Elements** | [Scroll Bar](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/#Using_the_Scroll_Bar) topic.

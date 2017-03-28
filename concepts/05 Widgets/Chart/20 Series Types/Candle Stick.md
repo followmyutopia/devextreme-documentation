@@ -1,6 +1,6 @@
 The *candleStick* series type is used to show the variation in the price of stock over the course of a day. Each point consists of a rectangle (_body_), whose bottom and top values correspond to the _open_ and _close_ prices, and a vertical line (_shadow_, _wick_ or _tail_), whose bottom and top values correspond to the _low_ and _high_ prices. If the stock closes higher than its opening price, the _body_ is hollow. And if the stock closes lower than its opening price, the _body_ is filled.
 
-![CandleStickSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/CandleStick.png)
+![CandleStickSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/CandleStick.png)
 
 To use the *candleStick* series type, assign *'candlestick'* to the **type** property of the **series** configuration object.
 
@@ -11,7 +11,7 @@ To use the *candleStick* series type, assign *'candlestick'* to the **type** pro
         }
     };
 
-To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic.
+To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) topic.
 
 You can change the default appearance using series options. For instance, you can change the following.
 
@@ -25,7 +25,7 @@ You can change the default appearance using series options. For instance, you ca
     Change the line width using the series' **width** property. To set a line width when the line is hovered or selected, set the **width** property of the [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/hoverStyle/) or [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/selectionStyle/) object, defined within the **series** configuration object.
     
 *   **Labels**  
-    Make labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/label/) object. By default, labels show the value of the price that is specified as a reduction level (see above). You can also display other information. For details on label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Point_Labels) topic.
+    Make labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/label/) object. By default, labels show the value of the price that is specified as a reduction level (see above). You can also display other information. For details on label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) topic.
 
 These and other options that can be set for series of the *candleStick* type are explained in the [CandleStickSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/) Reference section. Set the required series options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) object of the chart's configuration object.
 

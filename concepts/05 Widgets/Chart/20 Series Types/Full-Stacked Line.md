@@ -1,6 +1,6 @@
 The *fullStackedLine* series type is used when it is necessary to compare the value percentage of several *line* series for each argument. In this series type, series data is displayed as points joined by a straight line. The lines do not overlap because they are cumulative at each point. The value axis is always continuous, and it displays the range from 0 to 100 percent.
 
-![FullStackedLineSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/FullStackedLine.png)
+![FullStackedLineSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/FullStackedLine.png)
 
 To use this series type, assign *'fullstackedline'* to the **type** property of the **series** configuration object.
 
@@ -11,7 +11,7 @@ To use this series type, assign *'fullstackedline'* to the **type** property of 
         }
     };
 
-To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic.
+To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) topic.
 
 To change the default appearance of a series, set the options of the **series** configuration object. For example, you can change the following:
 
@@ -25,10 +25,10 @@ To change the default appearance of a series, set the options of the **series** 
     Set the line style using the series' **dashStyle** property. To set a dash style when the line is hovered or selected, set the **dashStyle** property of the [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedLineSeries/hoverStyle/) or [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedLineSeries/) object defined within the **series** configuration object.
     
 *   **Line Point Options**  
-    Set up the series' [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/) object (see the [Series Points](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Points) topic).
+    Set up the series' [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/) object (see the [Series Points](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/ topic).
     
 *   **Point Label Options**  
-    Make point labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedLineSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Point_Labels) topic.
+    Make point labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedLineSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) topic.
 
 These and other options that can be set for series of the *fullStackedLine* type are explained in the [FullStackedLineSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedLineSeries/) Reference section. Set the required series options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) object of the chart's configuration object.
 

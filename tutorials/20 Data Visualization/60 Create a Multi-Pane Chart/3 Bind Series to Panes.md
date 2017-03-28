@@ -4,6 +4,6 @@ You can bind a series to a pane individually using the **series** | [pane](/Docu
 
 Finally, supply the value axes with titles that show their measurement units. Each pane has its own value axis. To configure them, assign an array of two objects to the [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) option. In these objects, specify the **pane** and **title** fields, as demonstrated in the code below.
 
-From this tutorial, you discovered how to create a **Chart** widget with several panes. To learn more about panes, see the [Panes](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Panes) topic in the **Chart Elements** guide. For a full list of widget options and methods, proceed to [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/).
+From this tutorial, you discovered how to create a **Chart** widget with several panes. To learn more about panes, see the [Panes](/Documentation/Guide/Widgets/Chart/Panes/Overview/) topic in the **Chart Elements** guide. For a full list of widget options and methods, proceed to [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/).
 
 </article>

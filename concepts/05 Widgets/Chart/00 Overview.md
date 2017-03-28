@@ -1,6 +1,6 @@
 The **Chart** is an interactive widget that visualizes data from a local or remote storage using a great variety of [series types](/Documentation/Guide/Widgets/Chart/Series_Types/).
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/DataVisualization/Guides/ChartOverview/chartExample.html, /Content/Applications/16_2/DataVisualization/Guides/ChartOverview/chartExample.js"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/DataVisualization/Guides/ChartOverview/chartExample.html, /Content/Applications/17_1/DataVisualization/Guides/ChartOverview/chartExample.js"></div>
 
 The **Chart** can visualize data from any source. Refer to the following topics for details on how to bind the **Chart** to your data source.
 

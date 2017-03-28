@@ -1,6 +1,6 @@
 A multi-pane chart distributes a collection of series between several panes, thus presenting data in a clear and uncluttered way.
 
-![DevExtreme HTML5 JavaScript Charts Panes](/Content/images/doc/16_2/ChartJS/visual_elements/panes.png)
+![DevExtreme HTML5 JavaScript Charts Panes](/Content/images/doc/17_1/ChartJS/visual_elements/panes.png)
 
 To configure a multi-pane chart, follow the steps below.
 
@@ -18,7 +18,7 @@ Declare several objects in the [panes](/Documentation/ApiReference/Data_Visualiz
         });
 
 2. **Bind value axes to panes**         
-If a **Chart** has multiple panes, it most likely has multiple [value axes](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Widgets_Chart_Visual_Elements_Axes_Value_Axis).
+If a **Chart** has multiple panes, it most likely has [multiple value axes](/Documentation/Guide/Widgets/Chart/Axes/Multi-Axis_Chart/).
 Bind each of them to a pane using the [pane](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#pane) option.
 
         <!--JavaScript-->$(function() {

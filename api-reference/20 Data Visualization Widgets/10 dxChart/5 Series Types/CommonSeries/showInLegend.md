@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to show the series in the [legend](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Legend) or not.
+Specifies whether to show the series in the [legend](/Documentation/Guide/Widgets/Chart/Legend/Overview/) or not.
 <!--/shortDescription-->
 
 <!--fullDescription-->

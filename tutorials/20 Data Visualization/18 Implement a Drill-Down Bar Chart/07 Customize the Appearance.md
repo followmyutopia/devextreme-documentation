@@ -9,5 +9,5 @@ To help the user identify which chart he/she is viewing, provide a title for eac
 
 Categories and products have too lengthy names that do not fit into the width of the widget when arranged in a single line. To rearrange them in two lines, assign *"stagger"* to the **argumentAxis** | **label** | [overlappingBehavior](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/overlappingBehavior/) option of the top level configuration. The drill-down level configuration will catch up the value of this option as well.
 
-This tutorial showed you how to implement a drill-down bar chart using the **Chart** widget from the DevExtreme Data Visualization library. To take a closer look at **Chart**, see the [Chart](/Documentation/Guide/Widgets/Chart/Visual_Elements/) guides. 
+This tutorial showed you how to implement a drill-down bar chart using the **Chart** widget from the DevExtreme Data Visualization library. To take a closer look at **Chart**, see the [Chart](/Documentation/Guide/Widgets/Chart/Overview/) guides. 
 </article>

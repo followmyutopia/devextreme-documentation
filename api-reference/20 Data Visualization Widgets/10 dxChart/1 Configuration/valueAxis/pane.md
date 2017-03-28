@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Binds the value axis to a [pane](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Panes).
+Binds the value axis to a [pane](/Documentation/Guide/Widgets/Chart/Panes/Overview/).
 <!--/shortDescription-->
 
 <!--fullDescription-->

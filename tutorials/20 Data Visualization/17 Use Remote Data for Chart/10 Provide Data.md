@@ -6,7 +6,7 @@ Use the created Data Store to provide the DataSource object for the chart. For t
 
 - Define a configuration object for the DataSource object specifying the [store](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#store) option.
 - Create the **DataSource** object using **chartDataSourceConfiguration** as a configuration object.
-- Assign the **DataSource** object to the chart's **dataSource** option. For details on chart data binding, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) article.
+- Assign the **DataSource** object to the chart's **dataSource** option. For details on chart data binding, refer to the [Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) article.
 
 The created Data Store loads an array of the following objects.
 

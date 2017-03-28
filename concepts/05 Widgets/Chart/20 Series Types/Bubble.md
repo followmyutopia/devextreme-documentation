@@ -1,6 +1,6 @@
 When you use the *bubble* series type, the series points are displayed as bubbles of different sizes. This series type is especially useful when you visualize a data set with four dimensions: the first two dimensions are indicated by coordinates on the axes, the third - by a color, and the fourth - by the size of the bubble.
 
-![BubbleSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/Bubble.png)
+![BubbleSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Bubble.png)
 
 To use the *bubble* series type, set *'bubble'* to the **type** option of the series configuration object.
 
@@ -11,7 +11,7 @@ To use the *bubble* series type, set *'bubble'* to the **type** option of the se
         }
     };
 
-To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic.
+To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) topic.
 
 [note] In addition to the argument and value fields, you should set the data source field that provides a size for bubbles. For this purpose, use the [sizeField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/#sizeField) option.
 
@@ -24,7 +24,7 @@ A color from the chart [palette](/Documentation/Guide/Widgets/Common/Data_Visual
 Specify the opacity of a bubble using the [opacity](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/#opacity) option.
 
 * **Bubble Label Options**	
-Make bubble labels visible by setting the **visible** option of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/label/) object to *true*. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Point_Labels) topic.
+Make bubble labels visible by setting the **visible** option of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/label/) object to *true*. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) topic.
 
 These and other options that can be set for series of the *bubble* type are explained in the [BubbleSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/) Reference section. Set the required series options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) object of the chart configuration object.
 

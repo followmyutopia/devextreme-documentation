@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies which [pane](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Panes) the series should belong to. Accepts the [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#name) of the pane.
+Specifies which [pane](/Documentation/Guide/Widgets/Chart/Panes/Overview/) the series should belong to. Accepts the [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#name) of the pane.
 <!--/shortDescription-->
 
 <!--fullDescription-->

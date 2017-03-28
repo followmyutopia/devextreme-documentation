@@ -1,6 +1,6 @@
 A series point is a visual representation of a data object. Series points come in many shapes and sizes because of the different nature of [series types](/Documentation/Guide/Widgets/Chart/Series_Types/). 
 
-![DevExtreme HTML5 JavaScript Charts SeriesPoints](/Content/images/doc/16_2/ChartJS/visual_elements/series_points.png)
+![DevExtreme HTML5 JavaScript Charts SeriesPoints](/Content/images/doc/17_1/ChartJS/visual_elements/series_points.png)
 
 For those series whose points are simple dots ([Line-](/Documentation/Guide/Widgets/Chart/Series/Series_Types/Line_Series/) and [Area-like](/Documentation/Guide/Widgets/Chart/Series/Series_Types/Area_Series/), [Scatter](/Documentation/Guide/Widgets/Chart/Series/Series_Types/Scatter_Series/) and [Range Area](/Documentation/Guide/Widgets/Chart/Series/Series_Types/Range_Series/#Range_Area) series), all point-related settings are collected in the [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/point/) object. This object can be declared as follows.
 

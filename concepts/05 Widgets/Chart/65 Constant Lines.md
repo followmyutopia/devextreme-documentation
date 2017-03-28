@@ -1,6 +1,6 @@
 A constant line is a straght line that extends over the entire **Chart** and indicates an axis value. Constant lines are always perpendicular to the axis to which they belong. 
 
-![DevExtreme HTML5 JavaScript Charts ConstantLines](/Content/images/doc/16_2/ChartJS/visual_elements/constant_lines.png)
+![DevExtreme HTML5 JavaScript Charts ConstantLines](/Content/images/doc/17_1/ChartJS/visual_elements/constant_lines.png)
 
 To configure the constant lines, declare the [constantLines](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/) array in the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/) or [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) object. This array should contain objects, and each one of them configures a single constant line. A constant line demands at least the [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/#value) option to be set. 
 

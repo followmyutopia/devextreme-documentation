@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the interval between [minor ticks](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Axis_Ticks/Minor_Ticks).
+Specifies the interval between [minor ticks](/Documentation/Guide/Widgets/Chart/Axes/Axis_Ticks/).
 <!--/shortDescription-->
 
 <!--fullDescription-->

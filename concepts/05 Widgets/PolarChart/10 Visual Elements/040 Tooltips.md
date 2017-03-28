@@ -31,4 +31,4 @@ Use the **tooltip** object's [font](/Documentation/ApiReference/Data_Visualizati
 * **Tooltip API**		
 You can show and hide tooltips in code using [showTooltip()](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Point/Methods/#showTooltip) and [hideTooltip()](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Methods/#hideTooltip) methods.
 
-In [multi-series charts](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series), you can use a shared tooltip. See the [shared](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/tooltip/#shared) option description for more information.
+In [multi-series charts](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Series), you can use a shared tooltip. See the [shared](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/tooltip/#shared) option description for more information.

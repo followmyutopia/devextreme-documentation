@@ -27,7 +27,7 @@ Configures <b>Chart</b> contents and appearance.
 <!--paramType2_field1-->boolean<!--/paramType2_field1-->
 <!--paramDescription2_field1-->
 Default Value: <i>false</i>.<br />
-If <i>true</i>, <a href="/Documentation/16_2/Guide/Widgets/PivotGrid/Visual_Elements/#Headers">row field</a> values go to the <a href="/Documentation/16_2/Guide/Widgets/Chart/Visual_Elements/#Axes/Argument_Axis">chart arguments</a> and <a href="/Documentation/16_2/Guide/Widgets/PivotGrid/Visual_Elements/#Headers">column field</a> values form <a href="/Documentation/16_2/Guide/Widgets/Chart/Visual_Elements/#Series">series</a>. If <i>false</i> - vice versa.
+If <i>true</i>, <a href="/Documentation/16_2/Guide/Widgets/PivotGrid/Visual_Elements/#Headers">row field</a> values go to the <a href="/Documentation/17_1/Guide/Widgets/Chart/Axes/Overview/">chart arguments</a> and <a href="/Documentation/16_2/Guide/Widgets/PivotGrid/Visual_Elements/#Headers">column field</a> values form <a href="/Documentation/17_1/Guide/Widgets/Chart/Series/Overview/">series</a>. If <i>false</i> - vice versa.
 <!--/paramDescription2_field1-->
 <!--paramName2_field2-->dataFieldsDisplayMode<!--/paramName2_field2-->
 <!--paramType2_field2-->string<!--/paramType2_field2-->
@@ -35,9 +35,9 @@ If <i>true</i>, <a href="/Documentation/16_2/Guide/Widgets/PivotGrid/Visual_Elem
 Default Value: <i>"splitAxes"</i>.<br />
 Accepts one of the following values.<br />
 <ul>
-    <li><i>"singleAxis"</i> - values of all data fields are displayed on a single <a href="/Documentation/16_2/Guide/Widgets/Chart/Visual_Elements/#Axes/Value_Axis">value axis</a>.</li>
+    <li><i>"singleAxis"</i> - values of all data fields are displayed on a single <a href="/Documentation/17_1/Guide/Widgets/Chart/Axes/Overview/">value axis</a>.</li>
     <li><i>"splitAxes"</i> - each data field gets an individual value axis. Applies only if <b>putDataFieldsInto</b> is <i>"series"</i>.</li>
-    <li><i>"splitPanes"</i> - each data field gets an individual <a href="/Documentation/16_2/Guide/Widgets/Chart/Visual_Elements/#Panes">pane</a>. Applies only if <b>putDataFieldsInto</b> is <i>"series"</i>.</li>
+    <li><i>"splitPanes"</i> - each data field gets an individual <a href="/Documentation/17_1/Guide/Widgets/Chart/Panes/Overview/">pane</a>. Applies only if <b>putDataFieldsInto</b> is <i>"series"</i>.</li>
 </ul>
 <b>NOTE:</b> Applies only if <b>PivotGrid</b> contains several <a href="/Documentation/16_2/Guide/Widgets/PivotGrid/Fields_and_Areas/#Fields">data fields</a>.
 <!--/paramDescription2_field2-->

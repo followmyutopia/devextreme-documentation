@@ -21,7 +21,7 @@ Use this property in the following cases:
 
 The maximum and minimum values of the field specified by the **argumentField**/**dataSourceField** property are used as the scale's start and end values. The major tick interval is determined automatically. You can also set the interval using the scale's **tickInterval** and **minorTickInterval** properties.
 
-For details on how to configure a data source, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic.
+For details on how to configure a data source, refer to the [Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) topic.
 
 #####See Also#####
 - [dataSourceField]({basewidgetpath}/Configuration/dataSourceField)

@@ -1,6 +1,6 @@
 With the *line* series type, data is displayed as points joined by a straight line. This series type, which is useful when you need to visualize a trend in data over intervals, is used in the **Chart** widget by default. However, there may be scenarios when you need to set this series type explicitly. To do this, assign *'line'* to the **type** property of the **series** configuration object.
 
-![LineSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/Line.png)
+![LineSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Line.png)
 
     <!--JavaScript-->var chartOptions = {
         // ...
@@ -9,7 +9,7 @@ With the *line* series type, data is displayed as points joined by a straight li
         }
     };
 
-To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic.
+To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) topic.
 
 To change the series default appearance, set the options of the **series** configuration object. For instance, you can change the following.
 
@@ -23,10 +23,10 @@ To change the series default appearance, set the options of the **series** confi
     Set the line's style using the series' **dashStyle** property. To set a dash style when the line is hovered or selected, set the **dashStyle** property of the [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/hoverStyle/) or [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/selectionStyle/) object defined within the **series** configuration object.
     
 *   **Line Point Options**  
-    Set up the series' [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/) object (see the [Series Points](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Points) topic).
+    Set up the series' [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/) object (see the [Series Points](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/ topic).
     
 *   **Point Label Options**  
-    Make point labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Series_Point_Labels) topic.
+    Make point labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) topic.
 
 These and other options that can be set for series of the *line* type are explained in the [LineSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/) Reference section. Set the required series options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) object of the chart's configuration object.
 

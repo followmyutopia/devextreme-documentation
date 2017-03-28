@@ -25,7 +25,7 @@ To change the default appearance of the series, set the options of the **series*
     The color of a pie slice changes when it is selected. To paint the selected slice in another color, or apply 'left' or 'right' hatching, define the series' **hoverStyle** configuration object.
 
 *   **Point Label Options**  
-    Make point labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/) object. For information on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#SeriesPointLabels) topic.
+    Make point labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/) object. For information on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/PieChart/Visual_Elements/#Series_Point_Labels) topic.
 
 These and other options that can be set for series of the *pie* type are listed in the [PieSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Series_Types/PieSeries/) Reference section. Set the required series options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/) object of the chart's configuration object.
 

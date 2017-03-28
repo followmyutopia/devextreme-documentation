@@ -1,4 +1,4 @@
-When you need to customize text after (or instead of) applying a format, use the **customizeText** function. This function returns the final text. Its parameter contains data about the element whose text is being customized. The actual contents of this parameter depend on the element. For example, the following code customizes the text of the **Chart**'s [value axis labels](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Axis_Labels) after applying a *'fixedPoint'* format.
+When you need to customize text after (or instead of) applying a format, use the **customizeText** function. This function returns the final text. Its parameter contains data about the element whose text is being customized. The actual contents of this parameter depend on the element. For example, the following code customizes the text of the **Chart**'s [value axis labels](/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/) after applying a *'fixedPoint'* format.
 
 	<!--JavaScript-->var data = [
         { quarter: 'QI', quantity: 26.252 },

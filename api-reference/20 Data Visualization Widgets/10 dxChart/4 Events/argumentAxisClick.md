@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a user clicks a [label](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Axis_Labels) on the [argument axis](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Axes/Argument_Axis).
+Fires when a user clicks a [label](/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/) on the [argument axis](/Documentation/Guide/Widgets/Chart/Axes/Overview/).
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -5,5 +5,5 @@
 <!--fullDescription-->
 This method hides a series at runtime. To specify a series hidden at design-time, set the **series** | [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/commonSeriesSettings/#visible) option to *false*.
 
-[note] When the series is invisible, the marker of its [legend item](/Documentation/Guide/Widgets/Chart/Visual_Elements/#Legend) is faded.
+[note] When the series is invisible, the marker of its [legend item](/Documentation/Guide/Widgets/Chart/Legend/Overview/) is faded.
 <!--/fullDescription-->
