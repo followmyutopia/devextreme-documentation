@@ -1,0 +1,26 @@
+With the ever-growing variety of platforms, today's web sites and applications cannot stay competitive without being adaptive. Supporting this modern standard, the **Chart** widget possesses an adaptive layout. This enables the **Chart** to hide its accessory elements if the screen size is not large enough to fit them. To configure the adaptive layout, use the [adaptiveLayout](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/adaptiveLayout/) object. Set its **height** and **width** fields to specify the minimum screen size at which the layout retains all its elements.
+
+    <!--JavaScript-->$(function() {
+        $("#chartContainer").dxChart({
+			// ...
+            adaptiveLayout: {
+                height: 300,
+                width: 400
+            }
+        });
+    });
+
+<a href="https://jsfiddle.net/ChartJS/2m1pv4ag/" class="button orange small fix-width-155" target="_blank">View Demo on JSFiddle</a>
+
+[note]
+
+The layout does not automatically adapt to changes made in the widget's container at runtime. Therefore, if you enable a user to resize the container, call the [render()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#render) method after each resizing to render the **Chart** in the new size.
+
+    <!--JavaScript-->$("#chartContainer").dxChart("render");
+
+[/note]
+
+#####See Also#####
+- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
+
+[tags]chart, adaptive layout, responsive layout, adaptiveLayout, render

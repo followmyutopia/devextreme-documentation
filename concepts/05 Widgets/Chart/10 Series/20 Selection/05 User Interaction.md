@@ -1,0 +1,63 @@
+When a user selects a series, the series changes its style to the one specified by the following objects.
+
+- **series** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/selectionStyle/)        
+The selection style for an individual series.
+
+- **commonSeriesSettings** | **%seriesType%** | **selectionStyle**        		
+The selection style for all series of a specific type ([line](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#line), [bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#bar), etc.).
+
+- **commonSeriesSettings** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/selectionStyle/) 		
+The selection style for all series in the **Chart**.
+
+Note that individual settings override type-specific settings which, in turn, override common settings.
+
+	<!--JavaScript-->$(function() {
+        $("#chartContainer").dxChart({
+			// ...
+			series: {
+                selectionStyle: {
+                    // high priority
+                }
+			},
+			bar: {
+                selectionStyle: {
+                    // middle priority
+                }
+			},
+			commonSeriesSettings: {
+                selectionStyle: {
+                    // low priority
+                }
+			}
+        });
+    });
+
+To choose which series elements should be highlighted when a user selects a series, specify the **selectionMode** option. Just like **selectionStyle**, this option can be specified for all series in the **Chart**, for all series of a specific type, or for an individual series. Note also that depending on the series type, the **selectionMode** option accepts different values. For information about them, visit the [Series Types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/) section of the API reference, choose the employed series type, and refer to its **selectionMode** option description.
+
+    <!--JavaScript-->$(function() {
+        $("#chartContainer").dxChart({
+			// ...
+			bar: {
+                selectionMode: 'allSeriesPoints' // or 'onlyPoint' | 'allArgumentPoints' | 'none'
+			},
+            line: {
+                selectionMode: 'includePoints' // or 'nearestPoint' | 'excludePoints' | 'none'
+            }
+        });
+    });
+
+<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Selection/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+
+By default, only a single series can be in the selected state at a time. If you need to allow multiple series to be in this state, assign *"multiple"* to the [seriesSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#seriesSelectionMode) option.
+
+    <!--JavaScript-->$(function() {
+        $("#chartContainer").dxChart({
+			// ...
+			seriesSelectionMode: 'multiple' // or 'single'
+        });
+    });
+
+<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/MultipleSeriesSelection/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+
+#####See Also#####
+- [Point Selection - User Interaction](/Documentation/Guide/Widgets/Chart/Series_Points/Selection/#User_Interaction)
