@@ -17,7 +17,7 @@ A handler for the [click](/Documentation/ApiReference/UI_Widgets/dxButton/Events
 <!--fullDescription-->
 Assign a function to perform a custom action when the widget is clicked.
 
-To navigate to a specific URL when the **click** event fires, assign that URL or the anchor part (#) of that URL directly to this option as a string.
+When using DevExtreme SPA Framework, you can navigate to a specific URL on click. For this, assign this URL or its anchor part (#) directly to this option.
 
 To validate the editors that are related to the [validation group](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup) specified for this button, use the **validationGroup** field of the object passed as the event handler's parameter. The **validationGroup** object has the following structure.
 
