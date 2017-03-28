@@ -4,8 +4,16 @@
 -------------------------------------------
 
 **-->
-<!--merge--><!--/merge-->
+===========================================================================
 <!--default-->'nearestPoint'<!--/default-->
-<!--acceptValues-->'nearestPoint'|'includePoints'|'excludePoints'|'none'<!--/acceptValues-->
+<!--acceptValues-->'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
+
+<!--shortDescription-->
+
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

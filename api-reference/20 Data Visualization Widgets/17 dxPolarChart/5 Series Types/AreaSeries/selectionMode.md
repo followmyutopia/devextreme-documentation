@@ -4,8 +4,16 @@
 -------------------------------------------
 
 **-->
-<!--merge--><!--/merge-->
+===========================================================================
 <!--default-->'includePoints'<!--/default-->
-<!--acceptValues-->'includePoints'|'excludePoints'|'none'<!--/acceptValues-->
+<!--acceptValues-->'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
+
+<!--shortDescription-->
+
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--propertyOf-->..\AreaSeries\AreaSeries.md,..\BarSeries\BarSeries.md,..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
+<!--propertyOf-->..\AreaSeries\AreaSeries.md,..\BarSeries\BarSeries.md,..\StackedBarSeries\StackedBarSeries.md,..\LineSeries\LineSeries.md<!--/propertyOf-->
 <!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
