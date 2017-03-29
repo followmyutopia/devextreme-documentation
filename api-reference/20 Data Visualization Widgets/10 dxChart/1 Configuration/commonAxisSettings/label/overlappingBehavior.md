@@ -5,12 +5,15 @@
 
 **-->
 ===========================================================================
+<!--default-->'hide'<!--/default-->
+<!--acceptValues-->'stagger' | 'rotate' | 'hide' | 'none'<!--/acceptValues-->
+<!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Occurs in the [List](/Documentation/ApiReference/UI_Widgets/dxList/) widget if the specified value of the [itemDeleteMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#itemDeleteMode) or [menuMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#menuMode) option is not supported.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Make sure that the **itemDeleteMode** and **menuMode** options have valid values.
+
 <!--/fullDescription-->

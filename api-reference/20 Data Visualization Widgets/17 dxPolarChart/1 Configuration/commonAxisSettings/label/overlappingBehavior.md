@@ -5,8 +5,8 @@
 
 **-->
 ===========================================================================
-<!--default-->'enlargeTickInterval'<!--/default-->
-<!--acceptValues-->'enlargeTickInterval' | 'none'<!--/acceptValues-->
+<!--default-->'hide'<!--/default-->
+<!--acceptValues-->'hide' | 'none'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
