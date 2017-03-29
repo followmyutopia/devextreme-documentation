@@ -8,16 +8,16 @@
 ===================================================================
 
 <!--shortDescription-->
-Deselects all rows.
+Clears selection of all grid rows on the current page only or on all pages.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-
+A Promise of the jQuery.Deferred object resolved after the grid has cleared selection of rows.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Depending on the value of the [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode) option, this method deselects all rows on all pages or on the currently rendered pages only. If any filter is also applied, this method deselects only those rows that meet the filtering conditions.
+Depending on the value of the [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode) option, this method clears selection of all rows on all pages or on the currently rendered pages only. If any filter is also applied, this method clears selection of only those rows that meet the filtering conditions.
 
-Alternatively, you can deselect all grid records at once using the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearSelection) method.
+If you need to clear selection of all grid rows regardless of the value of the **selectAllMode** option, use the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearSelection) method.
 <!--/fullDescription-->

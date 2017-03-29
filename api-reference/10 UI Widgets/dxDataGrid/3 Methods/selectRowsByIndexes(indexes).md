@@ -14,12 +14,12 @@ Selects [grid rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_
 <!--paramName1-->indexes<!--/paramName1-->
 <!--paramType1-->array<!--/paramType1-->
 <!--paramDescription1-->
-The indexes of the rows to be selected.
+The indexes of rows to be selected.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-
+A Promise of the jQuery.Deferred object resolved after the grid has selected the specified rows.
 <!--/returnDescription-->
 
 <!--fullDescription-->
@@ -29,5 +29,5 @@ Note that if the pager is used for navigating through pages, selection applied b
 
 If the virtual scrolling mode is used, row indexes are rendered only for pages that have been visible. So, it is impossible to select a row on a page, that has not been visible using this method. 
 
-[note] Calling the **selectRowsByIndexes(indexes)** method deselects all previously selected records.
+[note] Calling the **selectRowsByIndexes(indexes)** method deselects all previously selected rows.
 <!--/fullDescription-->
