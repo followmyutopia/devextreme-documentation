@@ -49,6 +49,8 @@ When a user selects a bar, its series may react in one of the following ways dep
 </div>
 <div style="height:5px"></div>
 
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ChartSeriesSelectionrMode` enum with one of the following values: `OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to a bar series.
+
 #####See Also#####
 - [pointSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#pointSelectionMode) - specifies whether only one or several bars can stay selected.
 - **series** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BarSeries/selectionStyle/) - specifies the appearance of bars in the selected state.

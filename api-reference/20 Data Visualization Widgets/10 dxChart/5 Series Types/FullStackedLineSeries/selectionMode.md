@@ -45,6 +45,8 @@ When a user selects a series, it may react in one of the following ways dependin
 </div>
 <div style="height:5px"></div>
 
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ChartSeriesSelectionMode` enum with one of the following values: `IncludePoints`, `ExcludePoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to a full-stacked line series.
+
 #####See Also#####
 - [seriesSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#seriesSelectionMode) - specifies whether only one or several series can stay selected.
 - **series** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedLineSeries/selectionStyle/) - specifies the appearance of a series in the selected state.

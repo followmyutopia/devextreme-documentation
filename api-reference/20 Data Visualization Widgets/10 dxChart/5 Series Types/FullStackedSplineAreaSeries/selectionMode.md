@@ -47,6 +47,8 @@ When a user selects a series, it may react in one of the following ways dependin
 
 [note]Points in full-stacked spline area series are hidden by default. To make them visible, assign *true* to the **point** | **visible** option.
 
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ChartSeriesSelectionMode` enum with one of the following values: `IncludePoints`, `ExcludePoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to a full-stacked spline area series.
+
 #####See Also#####
 - [seriesSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#seriesSelectionMode) - specifies whether only one or several series can stay selected.
 - **series** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedSplineAreaSeries/selectionStyle/) - specifies the appearance of a series in the selected state.
