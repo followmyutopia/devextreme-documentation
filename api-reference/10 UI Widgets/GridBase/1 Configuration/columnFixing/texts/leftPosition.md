@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for a context menu subitem that fixes a column, for which the context menu is invoked, to the left grid edge.
+Specifies text for the context menu subitem that fixes a column to the left edge of the widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->

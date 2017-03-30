@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for a context menu item that unfixes the column for which the context menu is invoked.
+Specifies text for the context menu item that unfixes a column.
 <!--/shortDescription-->
 
 <!--fullDescription-->

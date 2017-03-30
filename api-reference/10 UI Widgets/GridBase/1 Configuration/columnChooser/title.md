@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text displayed in the title of the column chooser panel.
+Specifies the title of the column chooser.
 <!--/shortDescription-->
 
 <!--fullDescription-->

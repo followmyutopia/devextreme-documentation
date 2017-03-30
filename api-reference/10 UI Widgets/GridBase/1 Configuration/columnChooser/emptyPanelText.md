@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text displayed by the column chooser panel when it does not contain any columns.
+Specifies text displayed by the column chooser when it is empty.
 <!--/shortDescription-->
 
 <!--fullDescription-->

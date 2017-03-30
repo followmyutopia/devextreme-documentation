@@ -9,9 +9,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Contains options that specify texts for column-fixing related commands in the column header's context menu.
+Contains options that specify texts for column fixing commands in the context menu of a column header.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use these options to provide custom texts for column-fixing related commands or when localizing the grid.
+
 <!--/fullDescription-->

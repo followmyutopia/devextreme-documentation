@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the width of the column chooser panel.
+Specifies the width of the column chooser.
 <!--/shortDescription-->
 
 <!--fullDescription-->

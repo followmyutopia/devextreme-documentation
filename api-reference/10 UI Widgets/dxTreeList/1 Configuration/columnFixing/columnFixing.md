@@ -15,12 +15,10 @@ Configures column fixing.
 <!--fullDescription-->
 When the width of all columns exceeds the width of the widget, horizontal scrolling appears. If you need specific columns to be on screen constantly regardless of how far the widget is scrolled, set the **columnFixing** | [enabled]({basewidgetpath}/Configuration/columnFixing/#enabled) option to *true*. In this instance, columns with the [fixed]({basewidgetpath}/Configuration/columns/#fixed) option set to *true* will be fixed to the widget's edge. To specify the required edge, use the [fixedPosition]({basewidgetpath}/Configuration/columns/#fixedPosition) option of the column. In addition, a user will be able to fix and unfix columns at runtime using the context menu.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnFixing](/Content/images/doc/17_1/DataGrid/visual_elements/column_fixing.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList ColumnFixing](/Content/images/doc/17_1/treelist/visual_elements/column_fixing.png)
 
-[Command columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns) are fixed by default. 
-
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/ColumnCustomization/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
-
-#####See Also#####
-- [Fixing Grid Columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Fixing_Grid_Columns)
+Command columns are fixed by default.
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->
