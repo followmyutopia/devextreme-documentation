@@ -1,4 +1,4 @@
-A tooltip is a small pop-up rectangle displaying information about a [series point](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/ that the user pauses on. By default, the information is the point value, but it is possible to display anything in a tooltip.
+A tooltip is a small pop-up rectangle displaying information about a [series point](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/) that the user pauses on. By default, the information is the point value, but it is possible to display anything in a tooltip.
 
 ![DevExtreme HTML5 JavaScript Charts Tooltip](/Content/images/doc/17_1/ChartJS/visual_elements/tooltip.png)
 
