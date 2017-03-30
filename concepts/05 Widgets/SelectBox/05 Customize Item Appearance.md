@@ -142,6 +142,7 @@ Using similar techniques, you can customize the input field of the **SelectBox**
         <div dx-select-box="{
             dataSource: selectBoxData,
             valueExpr: 'id',
+            value: 1,
             displayExpr: 'name',
             fieldTemplate: 'inputField'
         }" dx-item-alias="product">
@@ -158,6 +159,7 @@ Using similar techniques, you can customize the input field of the **SelectBox**
     <div data-bind="dxSelectBox: {
         dataSource: selectBoxData,
         valueExpr: 'id',
+        value: 1,
         displayExpr: 'name',
         fieldTemplate: 'inputField'
     }">
@@ -175,11 +177,11 @@ Using similar techniques, you can customize the input field of the **SelectBox**
             dataSource: selectBoxData,
             valueExpr: 'id',
             displayExpr: 'name',
-            showDropButton: false,
-            fieldTemplate: function(itemData, itemElement) {
+            value: 1,
+            fieldTemplate: function(selectedItem, fieldElement) {
                 return $("<div />").append(
-                	$("<img />").attr("src", itemData.imgSrc),
-                    $("<div />").dxTextBox({ value: itemData.name })
+                	$("<img />").attr("src", selectedItem.imgSrc),
+                    $("<div />").dxTextBox({ value: selectedItem.name })
                                 .css("display", "inline-block")
                 );
             }
