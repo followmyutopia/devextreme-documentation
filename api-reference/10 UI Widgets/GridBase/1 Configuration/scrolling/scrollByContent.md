@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether or not the scrolling by content is enabled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+This feature is available only when [native scrolling]({basewidgetpath}/Configuration/scrolling/#useNative) is disabled.
 <!--/fullDescription-->

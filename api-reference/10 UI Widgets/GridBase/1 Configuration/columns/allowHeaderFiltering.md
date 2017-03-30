@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether or not to allow [filtering]({basewidgetpath}/Configuration/headerFilter/) by this column using its header.
 <!--/shortDescription-->
 
 <!--fullDescription-->

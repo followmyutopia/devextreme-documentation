@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+A description of the '=' operation.
 <!--/shortDescription-->
 
 <!--fullDescription-->

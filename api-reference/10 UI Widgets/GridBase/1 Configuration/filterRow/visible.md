@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether the filter row is visible or not.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies text for a hint that appears when a user hovers the mouse pointer over the *"Save"* button. Setting this option makes sense only when the [mode]({basewidgetpath}/Configuration/editing/#mode) option is set to *batch*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+For information on data modification controls accessible in the *batch* edit mode including the *"Save"* button, refer to the [Editing in the Batch Mode](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Data_Modification_Controls/Editing_in_the_Batch_Mode) topic.
 <!--/fullDescription-->

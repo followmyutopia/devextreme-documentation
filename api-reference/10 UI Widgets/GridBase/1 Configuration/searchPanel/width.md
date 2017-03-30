@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the width of the search panel in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

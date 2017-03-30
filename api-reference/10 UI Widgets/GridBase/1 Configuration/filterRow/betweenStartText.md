@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies text for the range start in the 'between' filter type.
 <!--/shortDescription-->
 
 <!--fullDescription-->

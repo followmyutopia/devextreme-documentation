@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+A description of the 'between' operation.
 <!--/shortDescription-->
 
 <!--fullDescription-->

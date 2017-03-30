@@ -11,9 +11,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether to include or exclude the records with the values selected in the column's [header filter]({basewidgetpath}/Configuration/headerFilter/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `FilterType` enum. This enum accepts the following values: `Include` and `Exclude`.
 <!--/fullDescription-->
