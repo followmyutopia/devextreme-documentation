@@ -5,8 +5,8 @@
 
 **-->
 ===========================================================================
-<!--default-->'enlargeTickInterval'<!--/default-->
-<!--acceptValues-->'stagger' | 'rotate' | 'enlargeTickInterval' | 'none'<!--/acceptValues-->
+<!--default-->'hide'<!--/default-->
+<!--acceptValues-->'stagger' | 'rotate' | 'hide' | 'none'<!--/acceptValues-->
 <!--type-->string | object<!--/type-->
 ===========================================================================
 

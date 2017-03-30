@@ -4,11 +4,16 @@
 -------------------------------------------
 
 **-->
+<!--dep-->overlappingBehavior.md<!--/dep-->
 ===========================================================================
-<!--default-->'enlargeTickInterval'<!--/default-->
-<!--acceptValues-->'stagger' | 'rotate' | 'enlargeTickInterval' | 'none'<!--/acceptValues-->
+<!--default-->'hide'<!--/default-->
+<!--acceptValues-->'stagger' | 'rotate' | 'hide' | 'none'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
+
+<!--deprecated-->
+
+<!--/deprecated-->
 
 <!--shortDescription-->
 Decides how to arrange axis labels when there is not enough space to keep all of them.
