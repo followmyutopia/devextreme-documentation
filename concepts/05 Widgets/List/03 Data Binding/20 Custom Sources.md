@@ -31,7 +31,9 @@ The following code example shows how to implement the **load** and **remove** op
                         group: groupOptions
                     }).done(function(result) {
                         // Here, you can perform operations unsupported by the server
-                        d.resolve(result.data);
+                        d.resolve(result.data, {
+                            totalCount: result.totalCount    // The count of received records; needed if "selectAllMode" is "allPages"
+                        });
                     });
                     return d.promise();
                 },
