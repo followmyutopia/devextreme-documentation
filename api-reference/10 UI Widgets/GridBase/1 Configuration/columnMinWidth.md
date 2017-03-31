@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the minimum width of columns.
 <!--/shortDescription-->
 
 <!--fullDescription-->
