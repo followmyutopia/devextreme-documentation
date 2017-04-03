@@ -14,3 +14,6 @@
 *.dbf   binary
 *.shp   binary
 *.shx   binary
+
+# videos
+*.mp4   binary
