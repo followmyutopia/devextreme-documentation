@@ -97,9 +97,7 @@ DXWorkout.WeightGraphs = function(params) {
             tickInterval: 'day',
             label: {
                 format: 'monthAndDay',
-                overlappingBehavior: {
-                    mode: 'enlargeTickInterval'
-                }
+                overlappingBehavior: 'hide'
             }
         },
         valueAxis: {

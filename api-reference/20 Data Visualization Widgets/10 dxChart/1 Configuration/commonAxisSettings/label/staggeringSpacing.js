@@ -22,27 +22,26 @@ $(function () {
         ],
         animation: false,
         valueAxis: {
-            label: { format: 'largeNumber' }
+            label: { format: 'largeNumber' },
+            tickInterval: 100000000
         },
         argumentAxis: { tickInterval: 5 },
         commonAxisSettings: {
             label: {
-                overlappingBehavior: {
-                    mode: 'rotate',
-                    rotationAngle: 1
-                }
+                displayMode: 'stagger',
+                staggeringSpacing: 1
             }
         }
     }).dxChart('instance');
 	
     $("#sliderContainer").dxSlider({
-        min: -180, max: 180,
-        value: 0,
+        min: 0, max: 10,
+        value: 1,
         step: 1,
         label: { visible: true },
         showRange: false,
         onValueChanged: function (e) {
-            chart.option('commonAxisSettings.label.overlappingBehavior.rotationAngle', e.value);
+            chart.option('commonAxisSettings.label.staggeringSpacing', e.value);
         }
     });
 });
@@ -50,7 +49,7 @@ $(function () {
 //<!--@Knockout-->
 var viewModel = {
     data: population,
-    sliderValue: ko.observable(0)
+    sliderValue: ko.observable(1)
 };
 
 ko.applyBindings(viewModel);
@@ -60,7 +59,7 @@ angular
     .module('myApp', ['dx'])
     .controller('chartController', function ($scope) {
         $scope.data = population;
-        $scope.sliderValue = 0;
+        $scope.sliderValue = 1;
     });
 
 angular.element(document).ready(function () {

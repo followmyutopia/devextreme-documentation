@@ -26,7 +26,8 @@ $(function () {
         argumentAxis: {
             tickInterval: 5,
             label: {
-                overlappingBehavior: { mode: 'rotate', rotationAngle: 80 }
+                overlappingBehavior: 'rotate',
+                rotationAngle: 80
             }
         }
     });

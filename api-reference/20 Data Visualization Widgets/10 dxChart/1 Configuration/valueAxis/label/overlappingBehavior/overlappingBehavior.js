@@ -27,10 +27,8 @@ $(function () {
         valueAxis: {
             tickInterval: 100,
             label: {
-                overlappingBehavior: {
-                    mode: 'stagger',
-                    staggeringSpacing: 2
-                }
+                overlappingBehavior: 'stagger',
+                staggeringSpacing: 2
             }
         }
     });

@@ -17,14 +17,6 @@ $(function () {
             argumentField: 'company',
             color: 'mediumvioletred'
         },
-        commonAxisSettings: {
-            label: {
-                overlappingBehavior: {
-                    mode: 'rotate',
-                    rotationAngle: 45
-                }
-            }
-        },
         series: [
             { valueField: '2004', name: '2004', type: 'area' },
             { valueField: '2005', name: '2005', type: 'area' },

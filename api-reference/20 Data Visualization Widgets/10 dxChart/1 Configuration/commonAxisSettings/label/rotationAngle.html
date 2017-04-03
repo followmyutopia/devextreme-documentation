@@ -23,10 +23,8 @@
     argumentAxis: { tickInterval: 5 },
     commonAxisSettings: {
         label: {
-            overlappingBehavior: {
-                mode: 'rotate',
-                rotationAngle: sliderValue
-            }
+            displayMode: 'rotate',
+            rotationAngle: sliderValue
         }
     }
 }"></div>
@@ -60,13 +58,11 @@
         argumentAxis: { tickInterval: 5 },
         commonAxisSettings: {
             label: {
-                overlappingBehavior: {
-                    mode: 'rotate'
-                }
+                displayMode: 'rotate'
             }
         },
         bindingOptions: {
-            'commonAxisSettings.label.overlappingBehavior.rotationAngle': 'sliderValue'
+            'commonAxisSettings.label.rotationAngle': 'sliderValue'
         }
     }"></div>
     <div class="inline" style="text-align:center">

@@ -18,10 +18,8 @@ $(function () {
         },
         commonAxisSettings: {
             label: {
-                overlappingBehavior: {
-                    mode: 'rotate',
-                    rotationAngle: 45
-                }
+                overlappingBehavior: 'rotate',
+                rotationAngle: 45
             }
         },
         series: [

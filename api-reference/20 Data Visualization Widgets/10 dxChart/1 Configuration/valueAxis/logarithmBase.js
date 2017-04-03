@@ -18,17 +18,15 @@ $(function () {
         legend: { visible: false },
         argumentAxis: {
             label: {
-                overlappingBehavior: {
-                    mode: 'rotate',
-                    rotationAngle: 30
-                }
+                overlappingBehavior: 'rotate',
+                rotationAngle: 30
             },
             grid: { visible: true }
         },
         valueAxis: {
             type: 'logarithmic',
             logarithmBase: 10,
-            label: { overlappingBehavior: 'ignore' },
+            label: { overlappingBehavior: 'none' },
             tickInterval: 1
         }
     });

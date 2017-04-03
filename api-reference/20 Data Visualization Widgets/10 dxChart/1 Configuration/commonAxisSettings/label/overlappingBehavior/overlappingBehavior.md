@@ -21,10 +21,10 @@ When axis labels overlap each other, you can rearrange them by setting the **ove
 
 The following values can be specified for both horizontal and vertical axes.
 
-- **enlargeTickInterval**      
-Enlarges the tick interval and, consequently, the interval between axis labels.
-- **ignore**      
-Leaves axis labels as they are - overlapped by each other.
+- **hide**      
+Hides certain axis labels leaving more space for the others.
+- **none**      
+Leaves axis labels overlapped.
 
 The following values can be specified for horizontal axes only.
 
@@ -33,7 +33,10 @@ Rotates axis labels through the angle specified by the **rotationAngle** option.
 - **stagger**      
 Arranges axis labels in two rows in a staggering manner. An empty space between the rows is specified by the **staggeringSpacing** option.
 
-[note]When specified, *"rotate"* and *"stagger"* apply even if axis labels do not overlap each other.
+When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `OverlappingBehavior` enum. This enum accepts the following values: `Stagger`, `Rotate`, `Hide` and `None`.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `OverlappingBehavior` enum. This enum accepts the following values: `EnlargeTickInterval`, `Ignore`, `Rotate` and `Stagger`.
+[note] Specifying this option with an object as well as with the *"enlargeTickInterval"* and *"ignore"* values is <span style="color:red">deprecated</span>.
+
+#####See Also#####
+- [Axis Labels](/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/)
 <!--/fullDescription-->

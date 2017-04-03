@@ -27,9 +27,7 @@ DXWorkout.Home = function(params) {
             argumentAxis: {
                 label: {
                     format: 'monthAndDay',
-                    overlappingBehavior: {
-                        mode: 'enlargeTickInterval'
-                    }
+                    overlappingBehavior: 'hide'
                 },
                 grid: {
                     visible: true

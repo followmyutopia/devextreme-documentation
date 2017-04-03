@@ -29,8 +29,8 @@ $(function () {
     }).dxChart('instance');
 	
     $("#selectBoxContainer").dxSelectBox({
-        items: ['enlargeTickInterval', 'ignore', 'stagger', 'rotate'],
-        value: 'enlargeTickInterval',
+        items: ['hide', 'rotate', 'stagger', 'none'],
+        value: 'hide',
         onValueChanged: function (e) {
             chart.option({
                 commonAxisSettings: {
@@ -44,7 +44,7 @@ $(function () {
 //<!--@Knockout-->
 var viewModel = {
     data: population,
-    selectBoxValue: ko.observable('enlargeTickInterval')
+    selectBoxValue: ko.observable('hide')
 };
 
 ko.applyBindings(viewModel);
@@ -54,7 +54,7 @@ angular
     .module('myApp', ['dx'])
     .controller('chartController', function ($scope) {
         $scope.data = population;
-        $scope.selectBoxValue = 'enlargeTickInterval'
+        $scope.selectBoxValue = 'hide'
     });
 
 angular.element(document).ready(function () {

@@ -26,7 +26,8 @@ $(function () {
         argumentAxis: {
             tickInterval: 5,
             label: {
-                overlappingBehavior: { mode: 'stagger', staggeringSpacing: 3 }
+                overlappingBehavior: 'stagger',
+                staggeringSpacing: 3
             }
         },
         commonAxisSettings: {

@@ -29,7 +29,7 @@
 <div class="inline" style="text-align:center">
     <div>commonAxisSettings | label | overlappingBehavior:&nbsp;</div>
     <div id="selectBoxContainer" data-bind="dxSelectBox: {
-        items: ['enlargeTickInterval', 'ignore', 'stagger', 'rotate'],
+        items: ['hide', 'rotate', 'stagger', 'none'],
         value: selectBoxValue
     }"></div>
 </div>
@@ -53,7 +53,7 @@
         },
         argumentAxis: { tickInterval: 5 },
         commonAxisSettings: {
-            label: { overlappingBehavior: 'enlargeTickInterval' }
+            label: { overlappingBehavior: 'hide' }
         },
         bindingOptions: {
             'commonAxisSettings.label.overlappingBehavior': 'selectBoxValue'
@@ -62,7 +62,7 @@
     <div class="inline" style="text-align:center">
         <div>commonAxisSettings | label | overlappingBehavior:&nbsp;</div>
         <div id="selectBoxContainer" ng-model="selectBoxValue" dx-select-box="{
-            items: ['enlargeTickInterval', 'ignore', 'stagger', 'rotate']
+            items: ['hide', 'rotate', 'stagger', 'none']
         }"></div>
     </div>
 </div>

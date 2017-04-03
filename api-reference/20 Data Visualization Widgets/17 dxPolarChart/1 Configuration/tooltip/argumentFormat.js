@@ -29,7 +29,6 @@ $(function () {
         argumentAxis: {
             valueMarginsEnabled: false,
             label: {
-                overlappingBehavior: 'stagger',
                 format: 'month'
             },
             grid: { visible: true }
