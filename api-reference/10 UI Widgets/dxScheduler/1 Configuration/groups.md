@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the [resource kinds](/Documentation/Guide/Widgets/Scheduler/Resources/#Resources) by which the scheduler's appointments are grouped in a timetable.
+Specifies the [resource kinds](/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/) by which the scheduler's appointments are grouped in a timetable.
 <!--/shortDescription-->
 
 <!--fullDescription-->

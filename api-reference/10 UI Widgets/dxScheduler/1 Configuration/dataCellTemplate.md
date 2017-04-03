@@ -20,7 +20,7 @@ So, in the **Knockout approach**, you can bind template elements to the cell obj
 
 In the **AngularJS approach**, if you need to access cell object fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, the fields of cell object are unavailable. To access another binding context within a table cell template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
 
-[note]There is no **dataCellTemplate** in the [agenda](/Documentation/Guide/Widgets/Scheduler/Views/#Agenda_View) view.
+[note]There is no **dataCellTemplate** in the [agenda](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View) view.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-cell_templates" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

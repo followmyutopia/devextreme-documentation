@@ -15,7 +15,7 @@ Configures individual views.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The option accepts an array of views to be available within the scheduler [View Selector](/Documentation/Guide/Widgets/Scheduler/Visual_Elements/#View_Selector). If you need to customize a view, add a configuration object for it to the array. The configuration options that you can specify are listed further in this documentation section. If a view does not need individual customization, just add its type to the array.
+The option accepts an array of views to be available within the scheduler [View Switcher](/Documentation/Guide/Widgets/Scheduler/View_Switcher/). If you need to customize a view, add a configuration object for it to the array. The configuration options that you can specify are listed further in this documentation section. If a view does not need individual customization, just add its type to the array.
 
 <!---->
 
@@ -34,7 +34,7 @@ The option accepts an array of views to be available within the scheduler [View 
     };
 
 Set a default view by using the [currentView](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentView) option.  
-For more information on scheduler views, refer to the [Views](/Documentation/Guide/Widgets/Scheduler/Views/) guide.
+For more information on scheduler views, refer to the [Views](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/) guide.
 
 When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `SchedulerViewType` enum. This enum accepts the following values: `Day`, `Week`, `WorkWeek`, `Month`, `TimelineDay`, `TimelineWeek`, `TimelineWorkWeek`, `TimelineMonth` and `Agenda`.
 

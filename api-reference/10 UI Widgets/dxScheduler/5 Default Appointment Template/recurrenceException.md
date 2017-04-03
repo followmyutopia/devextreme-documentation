@@ -17,5 +17,5 @@ To define an exception for a recurring appointment, specify the **recurrenceExce
 
 [note]This option makes sense only if the appointment [recurrenceRule]({basewidgetpath}/Default_Appointment_Template/#recurrenceRule) is specified.
 
-For details on recurring appointments, refer to the [Appointment Types](/Documentation/Guide/Widgets/Scheduler/Appointment_Types/#All_Day_Appointments) article.
+For details on recurring appointments, refer to the [Appointment Types](/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Types/#Recurring_Appointments) article.
 <!--/fullDescription-->

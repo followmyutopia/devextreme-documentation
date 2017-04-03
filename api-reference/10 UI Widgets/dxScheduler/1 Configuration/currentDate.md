@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a date displayed on the current scheduler [view](/Documentation/Guide/Widgets/Scheduler/Visual_Elements/#View_Selector) by default.
+Specifies a date displayed on the current scheduler [view](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/) by default.
 <!--/shortDescription-->
 
 <!--fullDescription-->

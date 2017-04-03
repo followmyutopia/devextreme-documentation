@@ -60,7 +60,6 @@ In **AngularJS approach**, if you need to access time scale item fields within a
 [note]There is no **timeCellTemplate** in such views as 'moth', 'timelineMonth' and 'agenda'.
 
 #####See Also#####
-- [Visual Elements of Views](/Documentation/Guide/Widgets/Scheduler/Views/#Views)
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
