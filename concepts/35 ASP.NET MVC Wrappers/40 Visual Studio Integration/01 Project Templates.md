@@ -1,5 +1,3 @@
-[note]Currently, DevExtreme ASP.NET MVC Wrappers are in the Release Candidate (RC) status, meaning that although this product is stable, significant bugs may emerge. In case you find one, please report to our [Support Center](https://www.devexpress.com/Support/Center/Question/List/1).
-
 DevExtreme ASP.NET MVC Wrappers offer the following project templates.
 
 <div class="simple-table">

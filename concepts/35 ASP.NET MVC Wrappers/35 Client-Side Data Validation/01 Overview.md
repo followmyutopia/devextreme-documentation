@@ -1,5 +1,3 @@
-[note]Currently, DevExtreme ASP.NET MVC Wrappers are in the Release Candidate (RC) status, meaning that although this product is stable, significant bugs may emerge. In case you find one, please report to our [Support Center](https://www.devexpress.com/Support/Center/Question/List/1).
-
 Client-side data validation allows you to validate input values _before_ sending them to the server, and therefore, without reloading the page. DevExtreme ASP.NET MVC Wrappers validate input values using the [Data Annotation validation attributes](https://www.asp.net/mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-6) of model properties. The following validation attributes are supported.
 
 - `[Required]`
