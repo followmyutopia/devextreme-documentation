@@ -1,0 +1,47 @@
+If you want to extend the functionality of a JavaScript array, place it into the [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/). It provides an interface for loading and editing data and allows you to handle data-related events.
+
+    <!--JavaScript-->$(function() {
+        $("#schedulerContainer").dxScheduler({
+            dataSource: new DevExpress.data.ArrayStore({
+                data: appointments,
+                onLoaded: function () {
+                    // Event handling commands go here
+                }
+            })
+        });
+    });
+
+Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Its purpose is similar to that of the [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept), but the **DataSource** provides wider capabilities. For example, the **DataSource** can map objects from the array that underlies the **ArrayStore** as shown in the following code.
+
+    <!--JavaScript-->
+    var appointments = [{ 
+        desc: 'Meet with a customer', 
+        employee: "Mary Watson",
+        from: new Date(2016, 4, 10, 11, 0), 
+        to: new Date(2016, 4, 10, 13, 0) 
+    },
+    // ...
+    ];
+    
+    $(function() {
+        $("#schedulerContainer").dxScheduler({
+            dataSource: new DevExpress.data.DataSource({
+                store: appointments,
+                map: function (item) {
+                    return {
+                        text: item.employee + " : " + item.desc,
+                        startDate: item.from,
+                        endDate: item.to
+                    }   
+                }
+            })
+        });
+    });
+
+#####See Also#####
+- [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores)
+- [Data Layer - DataSource Examples | In-memory Data](/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data)
+- [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
+- [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
+
+[tags]scheduler, data binding, provide data, ArrayStore, DataSource, process data

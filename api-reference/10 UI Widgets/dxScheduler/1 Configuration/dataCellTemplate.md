@@ -14,11 +14,11 @@ The template to be used for rendering table cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A binding context of a cell template is the object that corresponds to the currently rendered table cell.
+The binding context of a cell template is the object that corresponds to the currently rendered table cell.
 
 So, in the **Knockout approach**, you can bind template elements to the cell object fields. To access another binding context within a template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
 
-In the **AngularJS approach**, if you need to access cell object fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, cell object fields are beyond reach. To access another binding context within a table cell template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+In the **AngularJS approach**, if you need to access cell object fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, the fields of cell object are unavailable. To access another binding context within a table cell template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
 
 [note]There is no **dataCellTemplate** in the [agenda](/Documentation/Guide/Widgets/Scheduler/Views/#Agenda_View) view.
 

@@ -1,0 +1,151 @@
+For a minor customization of **Scheduler** appointments, you can use the default appointment template. This template defines the appearance of an appointment depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/) are present or absent in the appointment data object. For example, the following code generates three appointments: the first is not customized, the second is hidden, and the third is disabled.
+
+    <!--JavaScript-->var appointments = [{
+        text: "Website Re-Design Plan",
+        startDate: new Date(2016, 4, 25, 9, 30),
+        endDate: new Date(2016, 4, 25, 11, 30)
+    }, {
+        text: "Book Flights to San Fran for Sales Trip",
+        startDate: new Date(2016, 4, 25, 12, 0),
+        endDate: new Date(2016, 4, 25, 13, 0),
+        hidden: true
+    }, {
+        text: "Install New Router in Dev Room",
+        startDate: new Date(2016, 4, 25, 14, 30),
+        endDate: new Date(2016, 4, 25, 15, 30),
+        disabled: true
+    }];
+
+    $(function () { 
+        $("#schedulerContainer").dxScheduler({
+            dataSource: appointments,
+            currentDate: new Date(2016, 4, 25)
+        });
+    });
+
+Using the default appointment template is the easiest way to customize an appointment, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for appointments.
+
+**AngularJS**
+
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-scheduler="{
+            dataSource: schedulerData,
+            appointmentTemplate: 'appointment',
+            currentDate: currentDate,
+        }" dx-item-alias="item">
+            <div data-options="dxTemplate: { name: 'appointment' }">
+                <i>{{ item.movie }}</i>
+                <p>Price: ${{ item.price }}</p>
+            </div>
+        </div>
+    </div>
+
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.schedulerData = [{
+                movie: "His Girl Friday",
+                price: 5,
+                startDate: new Date(2016, 4, 24, 9, 10),
+                endDate: new Date(2016, 4, 24, 11, 20)
+            }, {
+                movie: "Royal Wedding",
+                price: 10,
+                startDate: new Date(2016, 4, 24, 10, 05),
+                endDate: new Date(2016, 4, 24, 11, 30)
+            },
+            // ...
+            ];
+            $scope.currentDate = new Date(2016, 4, 24); 
+        });
+
+[note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
+
+**Knockout**
+
+    <!--HTML--><div data-bind="dxScheduler: {
+        dataSource: schedulerData,
+        appointmentTemplate: 'appointment',
+        currentDate: currentDate
+    }">
+        <div data-options="dxTemplate: { name: 'appointment' }">
+            <i data-bind="text: movie"></i>
+            <p>Price: $<span data-bind="text: price"></span></p>
+        </div>
+    </div>
+
+    <!--JavaScript-->var viewModel = {
+        schedulerData: [{
+            movie: "His Girl Friday",
+            price: 5,
+            startDate: new Date(2016, 4, 24, 9, 10),
+            endDate: new Date(2016, 4, 24, 11, 20)
+        }, {
+            movie: "Royal Wedding",
+            price: 10,
+            startDate: new Date(2016, 4, 24, 10, 05),
+            endDate: new Date(2016, 4, 24, 11, 30)
+        },
+        // ...
+        ],
+        currentDate: new Date(2016, 4, 24)
+    };
+
+    ko.applyBindings(viewModel);
+
+If you use only jQuery, combine HTML markup for appointments manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [appointmentTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#appointmentTemplate) callback function as shown in the following code.
+
+    <!--JavaScript-->var schedulerData = [{
+        movie: "His Girl Friday",
+        price: 5,
+        startDate: new Date(2016, 4, 24, 9, 10),
+        endDate: new Date(2016, 4, 24, 11, 20)
+    }, {
+        movie: "Royal Wedding",
+        price: 10,
+        startDate: new Date(2016, 4, 24, 10, 05),
+        endDate: new Date(2016, 4, 24, 11, 30)
+    },
+    // ...
+    ];
+
+    $(function () {
+        $("#schedulerContainer").dxScheduler({
+            dataSource: schedulerData,
+            appointmentTemplate: function (data, index, element) {
+                element.append("<i>" + data.movie + "</i>");
+                element.append("<p>Price: $" + data.price + "</p>");
+            }
+        });
+    });
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+
+You can also customize an individual appointment. For this purpose, declare a template for this appointment as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#template) field of the appointment's data object.
+
+    <!--HTML-->
+    <script id="individualTemplate" type="text/html">
+        <!-- ... -->
+    </script>
+
+    <!--JavaScript-->var schedulerData = [{
+        movie: "Royal Wedding",
+        startDate: new Date(2016, 4, 24, 10, 05),
+        endDate: new Date(2016, 4, 24, 11, 30),
+        template: $("#individualTemplate")
+    }, {
+        // ...
+    }];
+
+In addition, you can use a 3rd-party template engine to customize the widget appearance. For more information, see the [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine) article.
+
+#####See Also#####
+- [Scheduler - Customize Appointment Tooltip](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment_Tooltip/)
+- [Scheduler - Customize Appointment Details Form](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment_Details_Form/)
+- [Scheduler - Customize Resource Headers](/Documentation/Guide/Widgets/Scheduler/Resources/Customize_Resource_Headers/)
+- [Scheduler - Customize Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
+- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
+
+
+[tags]scheduler, appointment appearance, customize, templates

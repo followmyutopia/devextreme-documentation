@@ -1,0 +1,98 @@
+When a user clicks an appointment, the **Scheduler** shows a tooltip that can be customized. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for tooltips.
+
+**AngularJS**
+
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-scheduler="{
+            dataSource: schedulerData,
+            appointmentTooltipTemplate: 'tooltip',
+            currentDate: currentDate,
+        }" dx-item-alias="item">
+            <div data-options="dxTemplate: { name: 'tooltip' }">
+                <div style="height: 100px">
+                    <i>{{ item.text }} ({{ item.year }})</i>
+                    <p><img src="{{ item.img }}" style="height: 80px"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.schedulerData = [{
+                text: "His Girl Friday",
+                year: 1940,
+                img: "images/movies/HisGirlFriday.jpg",
+                startDate: new Date(2016, 4, 24, 9, 10),
+                endDate: new Date(2016, 4, 24, 11, 20)
+            }, 
+            // ...
+            ];
+            $scope.currentDate = new Date(2016, 4, 24); 
+        });
+
+[note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
+
+**Knockout**
+
+    <!--HTML--><div data-bind="dxScheduler: {
+        dataSource: schedulerData,
+        appointmentTooltipTemplate: 'tooltip',
+        currentDate: currentDate
+    }">
+        <div style="height: 100px" data-options="dxTemplate: { name: 'tooltip' }">
+            <i> <span data-bind="text: text"></span>(<span data-bind="text: year"></span>)</i>
+            <p><img style="height: 80px" data-bind="attr: { src: img }" /></p>
+        </div>
+    </div>
+    
+    <!--JavaScript-->var viewModel= {
+        schedulerData: [{
+            text: "His Girl Friday",
+            year: 1940,
+            img: "images/movies/HisGirlFriday.jpg",
+            startDate: new Date(2016, 4, 24, 9, 10),
+            endDate: new Date(2016, 4, 24, 11, 20)
+        }, 
+        // ...
+        ],
+        currentDate: new Date(2016, 4, 24)
+    };
+
+    ko.applyBindings(viewModel);
+
+If you use only jQuery, combine HTML markup for tooltips manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [appointmentTooltipTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#appointmentTooltipTemplate) callback function as shown in the following code.
+
+    <!--JavaScript-->var schedulerData = [{
+        text: "His Girl Friday",
+        year: 1940,
+        img: "images/movies/HisGirlFriday.jpg",
+        startDate: new Date(2016, 4, 24, 9, 10),
+        endDate: new Date(2016, 4, 24, 11, 20)
+    },
+    // ...
+    ];
+
+    $(function () {
+        $("#schedulerContainer").dxScheduler({
+            dataSource: schedulerData,
+            currentDate: new Date(2016, 4, 24),
+            appointmentTooltipTemplate: function (data, element) {
+                element.append("<i>" + data.text + "(" + data.year + ")</i>");
+                element.append("<p><img style='height: 80px' src='" + data.img + "' /></p>");
+            }
+        });
+    });
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+
+In addition, you can use a 3rd-party template engine to customize the widget appearance. For more information, see the [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine) article.
+
+#####See Also#####
+- [Scheduler - Customize Appointment](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/)
+- [Scheduler - Customize Appointment Details Form](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment_Details_Form/)
+- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
+
+[tags]scheduler, tooltip appearance, customize, templates

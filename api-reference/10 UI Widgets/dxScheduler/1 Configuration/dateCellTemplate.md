@@ -10,15 +10,15 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering date scale items.
+The template used for rendering day scale items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A binding context of a date template is the object that corresponds to the currently rendered item of the date scale.
+A binding context of a date template is an object that corresponds to a currently rendered item of the day scale.
 
-So, in the **Knockout approach**, you can bind template elements to the date scale item fields. To access another binding context within a template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+So, in the **Knockout approach**, you can bind template elements to the day scale item fields. To access another binding context within a template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
 
-In the **AngularJS approach**, if you need to access date scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, object fields are beyond reach. To access another binding context within a date scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+In the **AngularJS approach**, if you need to access day scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, object fields are unavailable. To access another binding context within a date scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
 
 #####AngularJS Approach#####
 
@@ -43,7 +43,7 @@ In the **AngularJS approach**, if you need to access date scale item fields with
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The currently rendered object that represents a date scale item.
+A currently rendered object that represents a date scale item.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->

@@ -18,7 +18,7 @@ A binding context of a date template is the object that corresponds to the curre
 
 So, in **Knockout approach**, you can bind template elements to the date scale item fields. To access another binding context within a template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
 
-In **AngularJS approach**, if you need to access date scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, object fields are beyond reach. To access another binding context within a date scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+In **AngularJS approach**, if you need to access date scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, object fields are unavailable. To access another binding context within a date scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
 
 #####AngularJS Approach#####
 
