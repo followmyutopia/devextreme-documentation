@@ -19,7 +19,7 @@ If your data source stores, for example, numbers as strings, specify the proper 
  
 *Date* values have the following peculiarities.
 
-- If dates are stored as strings, they should have the following format: `"yyyy/MM/dd"` or `"yyyy/MM/dd HH:mm:ss"`.
+- If dates are stored as strings, they should have the following format: `"yyyy-MM-dd"`, `""yyyy-MM-ddTHH:mm:ssZ"`, `"yyyy-MM-ddTHH:mm:ssx"` or `"yyyy-MM-ddTHH:mm:ss"`.  
 - To show both date and time in the column editor, assign an appropriate value (including date and time parts) to the [format]({basewidgetpath}/Configuration/columns/#format) option and *"datetime"* to the [editorOptions]({basewidgetpath}/Configuration/columns/#editorOptions) | **type**.
 
         <!--JavaScript-->

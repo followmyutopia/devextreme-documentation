@@ -1,4 +1,4 @@
-The **DateBox** is a widget that displays date and time in a specified format, and enables a user to pick or type in the required date/time value.
+The **DateBox** is a widget that displays a date and time in a specified format, and enables a user to pick or type in the required date/time value.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-date_box-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
@@ -17,9 +17,9 @@ The following code adds a simple **DateBox** to your page.
         });
     });
 
-The **DateBox** accepts values of the following formats: [dates](http://www.w3schools.com/jsref/jsref_obj_date.asp), numeric values specifying the number of milliseconds since January 1, 1970, 00:00:00, and strings that match the following patterns: `'yyyy/MM/dd'` or `'yyyy/MM/dd HH:mm:ss'`. Note that in code the format stays the same until a value of a different format is assigned to the **value** option. For example, numbers remain numbers until you pass a string to the **value** option.
+The **DateBox** accepts values of the following formats: [dates](http://www.w3schools.com/jsref/jsref_obj_date.asp), numeric values specifying the number of milliseconds since January 1, 1970, 00:00:00, and strings that match the following patterns: `'yyyy-MM-dd'`, `'yyyy-MM-ddTHH:mm:ss'`, `'yyyy-MM-ddTHH:mm:ssZ'`, or `'yyyy-MM-ddTHH:mm:ssx'`. Note that in code, the format stays the same until a value of a different format is assigned to the **value** option. For example, numbers remain numbers until you pass a string to the **value** option.
 
-In addition, the **DateBox** supports several date and time types, that is, it can display only the date, only the time, or both. To specify the needed type, set the [type](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#type) option.
+In addition, the **DateBox** supports several date and time types. That is, it can display only the date or time, or both. To specify the required type, set the [type](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#type) option.
 
 Depending on the platform, the **DateBox** provides different controls for picking values. See the [Platform-Specific Value Pickers](/Documentation/Guide/Widgets/DateBox/Platform-Specific_Value_Pickers) topic for details.
 
