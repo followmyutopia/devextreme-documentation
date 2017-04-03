@@ -5,14 +5,17 @@
 
 **-->
 ===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->boolean<!--/type-->
+<!--type-->array<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether HTML tags are displayed as plain text or applied to the values of the column.
+Specifies [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) to be checked on updating cell values.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When *true*, HTML tags are displayed as plain text; when *false*, they are applied to the values of the column.
+#####See Also#####
+- [rowValidating]({basewidgetpath}/Events/#rowValidating)
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->

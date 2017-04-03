@@ -18,7 +18,7 @@ Use this option to specify completely custom markup for column cells. See [templ
 Below is the list of fields passed as the **cellInfo** object.
 
 - **data**: <font size="-1">Object</font>		
-The data of the row to which the cell belongs.
+Data of the row to which the cell belongs.
 - **component**: <font size="-1">jQuery</font>  
 The [widget instance]({basewidgetpath}/Methods/#instance).
 - **value**: <font size="-1">Any</font>		
@@ -28,15 +28,13 @@ The display value of the cell. Differs from the **value** field only when the co
 - **text**: <font size="-1">String</font>		
 **displayValue** after applying [format]({basewidgetpath}/Configuration/columns/#format) and [customizeText]({basewidgetpath}/Configuration/columns/#customizeText).
 - **columnIndex**: <font size="-1">Number</font>		
-The index of the column to which the cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+The index of the column to which the cell belongs.
 - **rowIndex**: <font size="-1">Number</font>		
-The index of the row to which the cell belongs. Begins with 0 on each page. Group rows are included. For details on row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
+The index of the row to which the cell belongs. Begins with 0 on each page.
 - **column**: <font size="-1">Object</font>		
 The settings of the column to which the cell belongs.
-- **rowType**: <font size="-1">String</font>		
-The type of the row to which the cell belongs. Equals *"data"* for ordinary rows or *"group"* for group rows.
 
-It is also possible to define the template using the following template engines. You can access the aforementioned cell settings inside the template in a similar manner.
+It is also possible to define a cell template using the following template engines. You can access the aforementioned cell settings inside the template in a similar manner.
 
 - [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)		
 - [JsRender](https://github.com/BorisMoore/jsrender)		
@@ -50,9 +48,6 @@ When you use a template engine, the **cellTemplate** option should be given a jQ
 
 [note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to *false*.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/ColumnTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Function Template Demo</a>
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/Column3RdPartyEngineTemplate/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Underscore Template Demo</a>
-
 #####See Also#####
 - [onCellPrepared]({basewidgetpath}/Configuration/#onCellPrepared)
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
@@ -61,7 +56,7 @@ When you use a template engine, the **cellTemplate** option should be given a jQ
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->jQuery<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The cell that you are customizing.
+The cell that you customize.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->cellInfo<!--/typeFunctionParamName2-->
@@ -69,3 +64,6 @@ The cell that you are customizing.
 <!--typeFunctionParamDescription2-->
 The settings of the cell.
 <!--/typeFunctionParamDescription2-->
+
+<!--handmade-->
+<!--/handmade-->

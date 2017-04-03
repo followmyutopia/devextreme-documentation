@@ -10,11 +10,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-In a [boolean]({basewidgetpath}/Configuration/columns/#dataType) column, replaces all *true* items with a specified text.
+In a [boolean]({basewidgetpath}/Configuration/columns/#dataType) column, replaces all *true* items with a specified text. Applies only if [showEditorAlways]({basewidgetpath}/Configuration/columns/#showEditorAlways) option is *false*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]This option applies only if you set the [showEditorAlways]({basewidgetpath}/Configuration/columns/#showEditorAlways) option to *false*.
-
-Additionally, you can specify a text to replace all *false* values in a column of a boolean data type. For this purpose, utilize the [falseText]({basewidgetpath}/Configuration/columns/#falseText) option.
+#####See Also#####
+- **columns[]** | [falseText]({basewidgetpath}/Configuration/columns/#falseText)
 <!--/fullDescription-->

@@ -13,8 +13,6 @@ Customizes the text displayed in column cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]The **customizeText** function may be called when data displayed in the column matches the search condition to properly highlight the matching text.
-
 #####See Also#####
 - **columns[]** | [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)
 <!--/fullDescription-->
@@ -33,18 +31,11 @@ The value of the cell as it is specified in the data source.
 <!--typeFunctionParamDescription1_field2-->
 The value of the cell with applied format.
 <!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->target<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-Indicates the type of the UI element where the <b>customizeText</b> function was called.<br/>Possible values: <i>"filterRow"</i>, <i>"headerFilter"</i> and <i>"search"</i>.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->groupInterval<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->string|number<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-Indicates how header filter values were combined into groups. Available if <b>target</b> is <i>"headerFilter"</i>.<br />For possible values, see the description of the <b>headerFilter</b> | <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval">groupInterval</a> option.
-<!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The text for the cell.
 <!--/typeFunctionReturnDescription-->
+
+<!--handmade-->
+<!--/handmade-->

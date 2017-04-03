@@ -17,7 +17,7 @@ Specifies whether the column bands other columns or not.
 Unlike normal columns, band columns do not hold data. Instead, they collect two or more columns under one column header. In most cases, to set up this layout, you can declare the band column using a hierarchical structure. For example, the following code bands three columns under the *"Address"* header.
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#treeListContainer").dxTreeList({
             // ...
             columns: [{
                 caption: 'Address',
@@ -31,7 +31,7 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
 If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColumns) option to configure columns, the hierarchical structure cannot be implemented. To band columns in this case, use the **isBand** and [ownerBand]({basewidgetpath}/Configuration/columns/#ownerBand) options.
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#treeListContainer").dxTreeList({
             // ...
             customizeColumns: function(columns) {
                 columns.push({ // Pushes the "Address" band column into the "columns" array
@@ -64,7 +64,7 @@ The column with the **isBand** flag set to *true* can have the following propert
 - [name]({basewidgetpath}/Configuration/columns/#name)
 - [visible]({basewidgetpath}/Configuration/columns/#visible)
 - [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex)
-
-#####See Also#####
-- [Band Columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Band_Columns)
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->

@@ -20,7 +20,7 @@ Depending in the [dataType]({basewidgetpath}/Configuration/columns/#dataType), t
 Do not specify the **onValueChanged** option in this object. If you need to add custom logic to the standard value change handler, override the handler in the [onEditorPreparing]({basewidgetpath}/Configuration/#onEditorPreparing) function in the following manner.
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#treeListContainer").dxTreeList({
             // ...
             onEditorPreparing: function(e) {
                 if (e.dataField == "requiredDataField") {
@@ -37,3 +37,6 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
     });
 [/note]
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->

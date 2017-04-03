@@ -9,11 +9,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies an array of [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) to be checked when updating column cell values.
+Specifies [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) to be checked on updating cell values.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can change the validation result before it is displayed in the grid. For this purpose, handle the grid's [rowValidating]({basewidgetpath}/Events/#rowValidating) event.
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/DataValidation/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgrideditingdatavalidation/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#####See Also#####
+- [rowValidating]({basewidgetpath}/Events/#rowValidating)
 <!--/fullDescription-->

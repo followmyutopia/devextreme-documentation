@@ -25,7 +25,7 @@ This option accepts an integer specifying the index of the column in a collectio
 To sort data first by the *"Last Name"* and then by the *"First Name"* column, use the following code. Note that the [sortOrder]({basewidgetpath}/Configuration/columns/#sortOrder) option should also be specified.
 	
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#treeListContainer").dxTreeList({
             // ...
             columns: [
                 { dataField: 'firstName', sortIndex: 1, sortOrder: 'asc' },
@@ -35,5 +35,8 @@ To sort data first by the *"Last Name"* and then by the *"First Name"* column, u
         });
     });
 
-You can set the **sortIndex** option at design time to specify initial sorting, or change this option using the [columnOption]({basewidgetname}/Methods/#columnOptionid_optionName_optionValue) method to sort at runtime.
+You can set the **sortIndex** option at design-time to specify initial sorting, or change this option using the [columnOption]({basewidgetname}/Methods/#columnOptionid_optionName_optionValue) method to sort at runtime.
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->

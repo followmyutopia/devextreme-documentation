@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the sequence number of the column in the grid.
+Specifies the position of the column regarding other columns in the resulting widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For more information on how the visible index of a column is calculated, see the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+
 <!--/fullDescription-->

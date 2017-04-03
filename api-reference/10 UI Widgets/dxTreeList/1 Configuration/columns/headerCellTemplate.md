@@ -18,7 +18,7 @@ Below is the list of fields passed as the **headerInfo** object.
 - **component**: <font size="-1">jQuery</font>  
 The [widget instance]({basewidgetpath}/Methods/#instance).
 - **columnIndex**: <font size="-1">Number</font>		
-The index of the column to which the header belongs. For details on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+The index of the column to which the header belongs.
 - **column**: <font size="-1">Object</font>		
 The settings of the column to which the header belongs.
 
@@ -41,7 +41,7 @@ When you use a template engine, the **headerCellTemplate** option should be give
 <!--typeFunctionParamName1-->columnHeader<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->jQuery<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The header that you are customizing.
+The header that you customize.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->headerInfo<!--/typeFunctionParamName2-->
@@ -49,3 +49,6 @@ The header that you are customizing.
 <!--typeFunctionParamDescription2-->
 The settings of the header.
 <!--/typeFunctionParamDescription2-->
+
+<!--handmade-->
+<!--/handmade-->

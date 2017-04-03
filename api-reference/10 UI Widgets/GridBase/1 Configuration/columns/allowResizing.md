@@ -10,9 +10,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not a particular column can be resized by a user. Setting this option makes sense only when the [allowColumnResizing]({basewidgetpath}/Configuration/#allowColumnResizing) option is *true*.
+Specifies whether a user can resize the column at runtime. Applies only if [allowColumnResizing]({basewidgetpath}/Configuration/#allowColumnResizing) is *true*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, the width of each grid column is calculated automatically, depending on the width of the widget's container and the total number of grid columns. To specify the width of a specific column, use the column's [width]({basewidgetpath}/Configuration/columns/#width) option. At runtime, a user can resize columns if the **allowColumnResizing** option is set to *true*. If you need to prohibit resizing for a specific column, set the **allowResizing** option of this column to *false*.
+#####See Also#####
+- **columns[]** | [width]({basewidgetpath}/Configuration/columns/#width)
+- [columnAutoWidth]({basewidgetpath}/Configuration/#columnAutoWidth)
 <!--/fullDescription-->

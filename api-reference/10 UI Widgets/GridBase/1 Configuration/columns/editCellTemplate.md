@@ -9,41 +9,38 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a custom template for the cell of a grid column when it is in an editing state.
+Specifies a custom template for column cells in the editing state.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, when a user edits a cell, he or she changes the string value represented by it. However, there may be scenarios in which a cell has a custom appearance in its editing state. For example, you may want the cell to display a combo box with a set of values to choose from. In such cases, specify the **editCellTemplate** option for a column. Implement a callback function customizing the content of the column cell in its editing state and assign it to this option. This function will be invoked every time a cell within the column switches to an editing state.
+By default, a user edits a string value contained within a cell. Using the **editCellTemplate** option, you can specify completely custom markup for the cell so that it contains, for example, a combo box or another widget instead of the string value. See [template](/Documentation/ApiReference/Common/Object_Structures/template/) for information on what the **editCellTemplate** option accepts.
 
-When implementing the **editCellTemplate** function, you can access the cell being edited using the function's first parameter. This parameter provides access to [element-related jQuery operations](http://api.jquery.com/?s=element). In addition, you can access cell options using the fields of the function's second parameter. These fields are listed below.
+Below is the list of fields passed as the **cellInfo** object.
 
-- **data**		
-Contains the object of a data source represented by the row to which the currently edited cell belongs.
-- **component**  
-Contains the **DataGrid** instance.
-- **value**		
-Contains the value of the currently edited cell as it is specified in a data source.
-- **text**		
-Contains the value of the currently edited cell in a string format. Use this field to get a value with applied [format]({basewidgetpath}/Configuration/columns/#format).
-- **displayValue**		
-Contains the value displayed by the currently edited cell. It differs from the **value** field only when the column to which the current cell belongs uses [lookup]({basewidgetpath}/Configuration/columns/lookup/).
-- **columnIndex**		
-Contains the index of the column to which the currently edited cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
-- **rowIndex**		
-Contains the index of the row to which the currently edited cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that group cells are also counted as rows, and thus have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
-- **column**		
-Contains the settings of the column to which the currently edited cell belongs.
-- **rowType**		
-Represents the type of the row to which the currently edited cell belongs. This field equals *'data'* for ordinary rows or *'group'* for group rows. Use this field to distinguish rows by type.
-- **setValue(newValue)**		
-A method that changes the cell value when edited. After this method is called, the cell editing process concludes. Note that calling this method means that the value of a cell is changed. In the *batch* [edit mode]({basewidgetpath}/Configuration/editing/#mode), this circumstance may lead the edited cell to be highlighted even when its value was not actually changed, i.e., when a user switched a cell into the editing state and then immediately switched it back to the normal state without changing the value. To prevent this behavior, call the **setValue(newValue)** method only if the new value does not equal the old value, which can be accessed using the **value** field of the object passed to the **editCellTemplate** function as the second parameter.
+- **data**: <font size="-1">Object</font>		
+The data of the row to which the cell belongs.
+- **component**: <font size="-1">jQuery</font>  
+The [widget instance]({basewidgetpath}/Methods/#instance).
+- **value**: <font size="-1">Any</font>		
+The value of the cell as it is specified in the data source.
+- **displayValue**: <font size="-1">Any</font>		
+The display value of the cell. Differs from the **value** field only when the column uses [lookup]({basewidgetpath}/Configuration/columns/lookup/) or [calculateDisplayValue]({basewidgetpath}/Configuration/columns/#calculateDisplayValue).
+- **text**: <font size="-1">String</font>		
+**displayValue** after applying [format]({basewidgetpath}/Configuration/columns/#format) and [customizeText]({basewidgetpath}/Configuration/columns/#customizeText).
+- **columnIndex**: <font size="-1">Number</font>		
+The index of the column to which the cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+- **rowIndex**: <font size="-1">Number</font>		
+The index of the row to which the cell belongs. Begins with 0 on each page. Group rows are included. For details on row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
+- **column**: <font size="-1">Object</font>		
+The settings of the column to which the cell belongs.
+- **rowType**: <font size="-1">String</font>		
+The type of the row to which the cell belongs. Equals *"data"* for ordinary rows or *"group"* for group rows.
+- **setValue(newValue)**: <font size="-1">Method</font>		
+Saves the edited value. After this method is called, the editing process ends.
 
-[note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 
+    [note] A call of this method tells the widget that the value has been changed. Because of this, in *batch* [edit mode]({basewidgetpath}/Configuration/editing/#mode), an edited cell can be highlighted even if its value was not actually changed, for example, if a user switched this cell into the editing state and then immediately switched it back without changing the value. To prevent this behavior, check that the value has actually been changed before calling the **setValue(newValue)** method.
 
-#####See Also#####
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
-
-Also, you can use a template engine to define a template for grid cells. **DataGrid** supports the following template engines. The above mentioned options can be accessed in a similar manner inside the template.
+It is also possible to define the template using the following template engines. You can access the aforementioned cell settings inside the template in a similar manner.
 
 - [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)		
 - [JsRender](https://github.com/BorisMoore/jsrender)		
@@ -53,22 +50,22 @@ Also, you can use a template engine to define a template for grid cells. **DataG
 - [Handlebars](http://handlebarsjs.com/)
 - [doT](http://olado.github.io/doT/index.html)
 
-Using a template engine, pass one of the following values to the **editCellTemplate** option.
-
-- A jQuery object representing the template's container.		
-- A DOM Node representing the template's container.		
-- A function that returns a jQuery object or a DOM Node representing the template's container.
+When you use a template engine, the **editCellTemplate** option should be given a jQuery object or a DOM node representing the template's container, or a function that returns either of them.
 
 [note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to *false*.
+
+#####See Also#####
+- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
+- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->jQuery<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The cell under customization.
+The cell that you are customizing.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->cellInfo<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The options of the current cell.
+The settings of the cell.
 <!--/typeFunctionParamDescription2-->

@@ -11,11 +11,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the content alignment within column cells.
+Aligns the content of the column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Default alignment of column content depends on the [type of data]({basewidgetpath}/Configuration/columns/#dataType) represented by this column. The following table illustrates default values of alignment for the columns of different data types.
+The default alignment of the content depends on the [type of data]({basewidgetpath}/Configuration/columns/#dataType). 
 
 <div class="simple-table">
 <table>

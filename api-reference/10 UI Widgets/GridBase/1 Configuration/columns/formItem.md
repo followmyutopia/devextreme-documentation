@@ -9,9 +9,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-The form item configuration object. Used only when the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"*.
+Configures the form item produced by this column in the editing state. Used only if **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If your grid contains groups or other comprehensive elements that have no representation in the [columns]({basewidgetpath}/Configuration/columns/) array, use the [form]({basewidgetpath}/Configuration/editing/#form) | [items](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) object to configure them.
+Options that you can specify in this object are described in the [SimpleItem](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/) section.
+
+#####See Also#####
+- **editing** | [form]({basewidgetpath}/Configuration/editing/#form)
 <!--/fullDescription-->

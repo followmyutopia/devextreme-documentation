@@ -14,5 +14,5 @@ Specifies the identifier of the column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Specify this option if you need to refer to a column in your code afterwards, e.g., when [specifying a summary item]({basewidgetpath}/Configuration/summary/groupItems/#column) or [changing a column option]({basewidgetpath}/Methods/#columnOptionid_optionName_optionValue).
+Set this option if you need to refer to the column in your code afterwards, for example, when [changing a column option]({basewidgetpath}/Methods/#columnOptionid_optionName_optionValue).
 <!--/fullDescription-->

@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the expression defining the data source field whose values must be replaced.
+Specifies the data source field whose values must be replaced.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option specifies the field of the data source whose values must be replaced by the values of the field defined by the **displayExpr** option.
+Values from this field will be replaced with values from the **displayExpr** field.
 <!--/fullDescription-->

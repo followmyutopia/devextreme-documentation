@@ -9,14 +9,14 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a function to be invoked after the user has edited a cell value, but before it will be saved in the data source.
+Specifies a function to be invoked after the cell value is edited by a user, but before it will be saved in the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 Using this function, you can process user input before it will be saved in the data source. This function accepts the **rowData** and **value** parameters. **value** is the user input that you should assign to one of the fields of the **rowData**. Initially, **rowData** is an empty object. Fill it with fields whose values should be saved in the data object of the current row.  
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#treeListContainer").dxTreeList({
             // ...
             columns: [
                 "field1",
@@ -46,3 +46,6 @@ The data object where new data should be set.
 <!--typeFunctionParamDescription2-->
 The input value.
 <!--/typeFunctionParamDescription2-->
+
+<!--handmade-->
+<!--/handmade-->

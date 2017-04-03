@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a caption for a column.
+Specifies a caption for the column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can use the **caption** option to display a descriptive or friendly name for a column. If this option is not set, a column caption will be generated using the name of the [data source field]({basewidgetpath}/Configuration/columns/?#dataField) that is used to provide data for this column.
+Use this option to display a descriptive or friendly name for the column. If this option is not set, the caption will be generated from the name of the [dataField]({basewidgetpath}/Configuration/columns/#dataField).
 <!--/fullDescription-->
