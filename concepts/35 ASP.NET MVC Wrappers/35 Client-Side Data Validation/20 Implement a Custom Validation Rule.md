@@ -121,23 +121,17 @@ If the built-in validation rules do not meet your requirements, implement a cust
             }
         </script>
 
-To use the custom validation rule, create a DevExtreme editor (in this case, the [NumberBox](/Documentation/ApiReference/UI_Widgets/dxNumberBox/)) in the same view where the JavaScript function is declared, and bind this editor to the model property from step 2 using the `Name()` method.
+To use the custom validation rule, create a DevExtreme editor for the model property from step 2 in the same view where the JavaScript function is declared. The following code shows how to create the DevExtreme [NumberBox](/Documentation/ApiReference/UI_Widgets/dxNumberBox/).
 
     <!--Razor C#-->
     @model ApplicationName.Models.Person
 
-    @(Html.DevExtreme().NumberBox()
-        .Name("Age")
-        .Value(Model.Age)
-    )
+    @(Html.DevExtreme().NumberBoxFor(model => model.Age))
 
     <!--Razor VB-->
     @ModelType ApplicationName.Models.Person
 
-    @(Html.DevExtreme().NumberBox() _
-        .Name("Age") _
-        .Value(Model.Age)
-    )
+    @(Html.DevExtreme().NumberBoxFor(Function(model) model.Age))
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Validation/Overview/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 

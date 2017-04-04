@@ -1,16 +1,11 @@
 If several editors should be validated together, combine them into a validation group. Use the following syntax to declare it. Enclose a [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) that will validate this group.
 
     <!--Razor C#-->
-    using (Html.DevExtreme().ValidationGroup()) {
-        @(Html.DevExtreme().TextBox()
-            .Name("FirstName")
-            .Value(Model.FirstName)
-        )
+    @model ApplicationName.Models.Person
 
-        @(Html.DevExtreme().TextBox()
-            .Name("LastName")
-            .Value(Model.LastName)
-        )
+    using (Html.DevExtreme().ValidationGroup()) {
+        @(Html.DevExtreme().TextBoxFor(model => model.FirstName))
+        @(Html.DevExtreme().TextBoxFor(model => model.LastName))
 
         @(Html.DevExtreme().Button()
             .Text("Validate")
@@ -25,16 +20,11 @@ If several editors should be validated together, combine them into a validation 
     </script>
 
     <!--Razor VB-->
-    @Using (Html.DevExtreme().ValidationGroup())
-        @(Html.DevExtreme().TextBox() _
-            .Name("FirstName") _
-            .Value(Model.FirstName)
-        )
+    @ModelType ApplicationName.Models.Person
 
-        @(Html.DevExtreme().TextBox() _
-            .Name("LastName") _
-            .Value(Model.LastName)
-        )
+    @Using (Html.DevExtreme().ValidationGroup())
+        @(Html.DevExtreme().TextBoxFor(Function(model) model.FirstName))
+        @(Html.DevExtreme().TextBoxFor(Function(model) model.LastName))
 
         @(Html.DevExtreme().Button() _
             .Text("Validate") _
@@ -51,16 +41,11 @@ If several editors should be validated together, combine them into a validation 
 If the **Button** should lie outside the group that it validates, bind the **Button** to the group explicitly using the `ValidationGroup` method. Note that in this case, the validation group should be given a name.
 
     <!--Razor C#-->
-    using (Html.DevExtreme().ValidationGroup("groupName")) {
-        @(Html.DevExtreme().TextBox()
-            .Name("FirstName")
-            .Value(Model.FirstName)
-        )
+    @model ApplicationName.Models.Person
 
-        @(Html.DevExtreme().TextBox()
-            .Name("LastName")
-            .Value(Model.LastName)
-        )
+    using (Html.DevExtreme().ValidationGroup("groupName")) {
+        @(Html.DevExtreme().TextBoxFor(model => model.FirstName))
+        @(Html.DevExtreme().TextBoxFor(model => model.LastName))
     }
 
     @(Html.DevExtreme().Button()
@@ -76,16 +61,11 @@ If the **Button** should lie outside the group that it validates, bind the **But
     </script>
 
     <!--Razor VB-->
-    @Using (Html.DevExtreme().ValidationGroup("groupName"))
-        @(Html.DevExtreme().TextBox() _
-            .Name("FirstName") _
-            .Value(Model.FirstName)
-        )
+    @ModelType ApplicationName.Models.Person
 
-        @(Html.DevExtreme().TextBox() _
-            .Name("LastName") _
-            .Value(Model.LastName)
-        )
+    @Using (Html.DevExtreme().ValidationGroup("groupName"))
+        @(Html.DevExtreme().TextBoxFor(Function(model) model.FirstName))
+        @(Html.DevExtreme().TextBoxFor(Function(model) model.LastName))
     End Using
 
     @(Html.DevExtreme().Button() _
@@ -103,15 +83,10 @@ If the **Button** should lie outside the group that it validates, bind the **But
 Those editors whose validation group is not specified explicitly are collected in a default validation group. To validate this group, the **Button** should _not_ be included in any validation group and should _not_ have the `ValidationGroup` specified.
 
     <!--Razor C#-->
-    @(Html.DevExtreme().TextBox()
-        .Name("FirstName")
-        .Value(Model.FirstName)
-    )
+    @model ApplicationName.Models.Person
 
-    @(Html.DevExtreme().TextBox()
-        .Name("LastName")
-        .Value(Model.LastName)
-    )
+    @(Html.DevExtreme().TextBoxFor(model => model.FirstName))
+    @(Html.DevExtreme().TextBoxFor(model => model.LastName))
 
     @(Html.DevExtreme().Button()
         .Text("Validate")
@@ -125,15 +100,10 @@ Those editors whose validation group is not specified explicitly are collected i
     </script>
 
     <!--Razor VB-->
-    @(Html.DevExtreme().TextBox() _
-        .Name("FirstName") _
-        .Value(Model.FirstName)
-    )
+    @ModelType ApplicationName.Models.Person
 
-    @(Html.DevExtreme().TextBox() _
-        .Name("LastName") _
-        .Value(Model.LastName)
-    )
+    @(Html.DevExtreme().TextBoxFor(Function(model) model.FirstName))
+    @(Html.DevExtreme().TextBoxFor(Function(model) model.LastName))
 
     @(Html.DevExtreme().Button() _
         .Text("Validate") _

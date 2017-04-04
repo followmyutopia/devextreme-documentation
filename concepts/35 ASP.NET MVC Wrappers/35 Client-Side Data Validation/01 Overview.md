@@ -33,7 +33,19 @@ Model properties that have one or several of these attributes can be validated. 
         End Class
     End Namespace
 
-To apply these validation attributes to a DevExtreme editor, simply bind this editor to the model property using the `Name` method. In the following code, the DevExtreme [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) widget plays the role of the editor.
+To apply these validation attributes to a DevExtreme editor, create this editor using one of the `EditorFor` methods. Substitute "Editor" in `EditorFor` with the editor's name. For example, to create the DevExtreme [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) editor, you need to call the `TextBoxFor` method.
+
+    <!--Razor C#-->
+    @model ApplicationName.Models.Person
+
+    @(Html.DevExtreme().TextBoxFor(model => model.FirstName))
+
+    <!--Razor VB-->
+    @ModelType ApplicationName.Models.Person
+
+    @(Html.DevExtreme().TextBoxFor(Function(model) model.FirstName))
+
+As an alternative, you can use a more explicit syntax for binding an editor to a model property and, consequently, applying validation attributes. Pass the property's name to the `Name` method and an intial value to the `Value` method. The previous and following code samples produce the same result. 
 
     <!--Razor C#-->
     @model ApplicationName.Models.Person
@@ -56,16 +68,12 @@ To apply these validation attributes to a DevExtreme editor, simply bind this ed
 By default, the input value is validated each time the [change](https://developer.mozilla.org/en-US/docs/Web/Events/change) event is raised. To change the DOM event that triggers validation, set the [valueChangeEvent](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#valueChangeEvent) option.
 
     <!--Razor C#-->
-    @(Html.DevExtreme().TextBox()
-        .Name("FirstName")
-        .Value(Model.FirstName)
+    @(Html.DevExtreme().TextBoxFor(model => model.FirstName)
         .ValueChangeEvent("keyup")
     )
 
     <!--Razor VB-->
-    @(Html.DevExtreme().TextBox() _
-        .Name("FirstName") _
-        .Value(Model.FirstName) _
+    @(Html.DevExtreme().TextBoxFor(Function(model) model.FirstName) _
         .ValueChangeEvent("keyup")
     )
 

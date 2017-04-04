@@ -7,17 +7,12 @@ Commonly, if editors are nested into an HTML form, they are supposed to be submi
 
         using(Html.DevExtreme().ValidationGroup()) {
 
-            @(Html.DevExtreme().TextBox()
-                // Binds this TextBox to the "Login" model property
-                .Name("Login")
-                .Value(Model.Login)
-            )
+            // Creates a TextBox for the "Login" model property
+            @(Html.DevExtreme().TextBoxFor(model => model.Login))
 
-            @(Html.DevExtreme().TextBox()
-                // Binds this TextBox to the "Password" model property
-                .Name("Password")
+            // Creates a TextBox for the "Password" model property
+            @(Html.DevExtreme().TextBoxFor(model => model.Password))
                 .Mode(TextBoxMode.Password)
-                .Value(Model.Password)
             )
 
             @(Html.DevExtreme().Button()
@@ -37,17 +32,12 @@ Commonly, if editors are nested into an HTML form, they are supposed to be submi
 
         @Using(Html.DevExtreme().ValidationGroup())
 
-            ' This TextBox is bound to the "Login" model property
-            @(Html.DevExtreme().TextBox() _
-                .Name("Login") _
-                .Value(Model.Login)
-            )
+            ' Creates a TextBox for the "Login" model property
+            @(Html.DevExtreme().TextBoxFor(Function(model) model.Login))
 
-            ' This TextBox is bound to the "Password" model property
-            @(Html.DevExtreme().TextBox() _
-                .Name("Password") _
-                .Mode(TextBoxMode.Password) _
-                .Value(Model.Password)
+            ' Creates a TextBox for the "Password" model property
+            @(Html.DevExtreme().TextBoxFor(Function(model) model.Password) _
+                .Mode(TextBoxMode.Password)
             )
 
             @(Html.DevExtreme().Button() _
