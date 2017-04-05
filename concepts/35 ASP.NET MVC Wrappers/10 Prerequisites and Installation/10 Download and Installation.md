@@ -20,7 +20,7 @@ Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integrat
 
 2. Add the following string to the *project.json* file into the `"dependencies"` section.
 
-        "DevExtreme.AspNet.Core": "16.2.2-*"
+        "DevExtreme.AspNet.Core": "16.2.*"
 
 3. Add the following strings to the *bower.json* file into the `"dependencies"` section.
 
@@ -30,17 +30,15 @@ Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integrat
 
     [note]If the *bower.json* file is absent, run the console in the project directory and execute the [`bower init`](https://bower.io/docs/api/#init) command in it.
 
-4. Copy the *dx.aspnet.mvc.js* script from **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources\Lib\js\aspnet** to the **wwwroot** directory of your project.
-
-5. Copy and paste the following strings to the *Views/Shared/_Layout.cshtml* file into the `<head>` tag.
+4. Copy and paste the following strings to the *Views/Shared/_Layout.cshtml* file into the `<head>` tag.
 
         <link href="~/lib/devextreme/css/dx.common.css" rel="stylesheet" /> 
         <link href="~/lib/devextreme/css/dx.light.css" rel="stylesheet" /> 
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/devextreme/js/dx.all.js"></script>     
         <script src="~/lib/devextreme-aspnet-data/js/dx.aspnet.data.js"></script> 
-        <script src="~/dx.aspnet.mvc.js"></script>
+        <script src="~/lib/devextreme/js/dx.aspnet.mvc.js"></script>
 
-6. Add the following string to the *Views/_ViewImports.cshtml* file.
+5. Add the following string to the *Views/_ViewImports.cshtml* file.
 
         @using DevExtreme.AspNet.Mvc
