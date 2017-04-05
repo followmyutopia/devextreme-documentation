@@ -18,7 +18,7 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
         });
     });
 
-If you need to process data after obtaining it, implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). For details, see the [Custom Sources](/Documentation/Guide/Widgets/Scheduler/Appointments/Data_Binding/#Custom_Sources) topic.
+If you need to process data after obtaining it, implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). For details, see the [Custom Sources](/Documentation/Guide/Widgets/Scheduler/Data_Binding/Custom_Sources/) topic.
 
 #####See Also#####
 - [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)

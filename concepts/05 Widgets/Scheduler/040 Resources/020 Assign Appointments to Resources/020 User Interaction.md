@@ -13,7 +13,7 @@ To allow multiple resources, assign *true* to the [allowMultiple](/Documentation
 ![Scheduler Appointment Resources](/Content/images/doc/17_1/UiWidgets/Scheduler_Resources_Details.png)
 
 #####See Also#####
-- [Scheduler - Group Appointmnets by Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/)
+- [Scheduler - Group Appointments by Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/)
 - [Scheduler - Customize Resource Headers](/Documentation/Guide/Widgets/Scheduler/Resources/Customize_Resource_Headers/)
 - [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
 - [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)

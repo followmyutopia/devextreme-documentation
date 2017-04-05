@@ -70,4 +70,7 @@ To display appointments, a default template can be used. This template is based 
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposeschedulerschedulergooglecalendarintegration" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
+#####See Also#####
+- [Scheduler - Data Binding](/Documentation/Guide/Widgets/Scheduler/Data_Binding/)
+
 <!--/fullDescription-->

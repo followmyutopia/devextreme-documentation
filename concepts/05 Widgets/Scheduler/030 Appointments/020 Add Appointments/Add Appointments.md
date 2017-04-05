@@ -1,1 +1,1 @@
-[tags]scheduler, add, disable adding, onAppointmnetAdded, onAppointmentAdding, addAppointment
+[tags]scheduler, add, disable adding, onAppointmentAdded, onAppointmentAdding, addAppointment

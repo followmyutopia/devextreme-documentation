@@ -44,12 +44,12 @@ An end user can use the following keys to interact with the widget.
         <tr>
         <tr>
           <td></td>
-          <td>Shift + &larr;/&rarr;/&uarr;/&darr;  </td>        
+          <td>Shift + &larr; / &rarr; / &uarr; / &darr;  </td>        
           <td>Selects several cells.</td>
         </tr>
         <tr>
           <td></td>
-          <td>Shift + &larr;/&rarr;/&uarr;/&darr; + Space/Enter</td>        
+          <td>Shift + Space or Enter + &larr; / &rarr; / &uarr; / &darr; </td>        
           <td>Invokes a popup window for currently selected cells.</td>
         </tr>
           <td>Popup Window</td>
