@@ -9,7 +9,7 @@ When a user clicks a cell, the latter enters the editing state where the user ch
 	- [Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
 	- [Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
 
-	![DevExtreme DataGrid EditingRowMode](/Content/images/doc/16_2/DataGrid/EditingCellMode.gif)
+	![DevExtreme DataGrid EditingRowMode](/Content/images/doc/17_1/DataGrid/EditingCellMode.gif)
 
 <!---->
 
@@ -22,13 +22,13 @@ To insert a new row, a user must click the *"Add"* button indicated by a cross g
 	- [Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
 	- [Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
 
-	![DevExtreme DataGrid InsertionRowMode](/Content/images/doc/16_2/DataGrid/InsertionCellMode.gif)
+	![DevExtreme DataGrid InsertionRowMode](/Content/images/doc/17_1/DataGrid/InsertionCellMode.gif)
 
 <!---->
 
 * **Removing**		
 To remove a row, a user must click the *"Delete"* button accompanying this row. This will cause **DataGrid** to display a pop-up window requesting that the user confirms the deletion of the row.
 
-	![DevExtreme DataGrid RemovingRowMode](/Content/images/doc/16_2/DataGrid/RemovingRowMode.gif)
+	![DevExtreme DataGrid RemovingRowMode](/Content/images/doc/17_1/DataGrid/RemovingRowMode.gif)
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgrideditingcell/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

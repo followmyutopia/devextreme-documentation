@@ -2,6 +2,6 @@
 
 When a row is being edited in the form mode, it transforms into a form as shown at the screenshot below.
 
-![](/Content/images/doc/16_2/DataGrid/EditingFormMode.png)
+![](/Content/images/doc/17_1/DataGrid/EditingFormMode.png)
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/data_grid-editing-form_editing/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

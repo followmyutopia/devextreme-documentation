@@ -9,15 +9,15 @@
 ===========================================================================
 
 <!--shortDescription-->
-The form configuration object. Used only when the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"*.
+Configures the form. Only used if **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"* or *"popup"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Default form editors depend on the [columns' configuration]({basewidgetpath}/Configuration/columns/). If the generated form does not meet your requirements, and you need to reorganize form items or set other [form parameters](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/), specify the **form** option. To link a [form item](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) with a grid column, assign identical values to the **form** | **items** | [dataField](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField) and **columns** | [dataField]({basewidgetpath}/Configuration/columns/#dataField) options.
+Default form editors depend on the [columns' configuration]({basewidgetpath}/Configuration/columns/). If the generated form does not meet your requirements, and you need to reorganize form items or set other [form parameters](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/), specify it in the **form** option. To link a [form item](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) with a grid column, assign identical values to the **form** | **items** | [dataField](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField) and **columns** | [dataField]({basewidgetpath}/Configuration/columns/#dataField) options.
 
 [note]
  
-There is a number of form parameters that you cannot specify using this option. They are the following.
+There are some form parameters that you cannot specify using this option:
 
 - [template](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#template)        
 - [editorType](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType)        
