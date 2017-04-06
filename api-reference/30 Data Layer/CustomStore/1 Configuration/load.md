@@ -47,6 +47,20 @@ In **AngularJS approach**, if the **loadOptions.requireTotalCount** field is *tr
         }
     });
 
+If [loadMode](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#loadMode) is *"raw"*, the **load** function should send a request for all data without sending **loadOptions**.
+
+    <!--JavaScript-->
+    var store = new DevExpress.data.CustomStore({
+        loadMode: "raw",
+        load: function() {
+            return $.getJSON("url/to/the/resource");
+            // ----- or for AngularJS apps -----
+            // return $http.get('url/to/the/resource');
+        }
+    });
+
+#####See Also#####
+- [Load Data in Raw Mode](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Load_Data_in_Raw_Mode)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
