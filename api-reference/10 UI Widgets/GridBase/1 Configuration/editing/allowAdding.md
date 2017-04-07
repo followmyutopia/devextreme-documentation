@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not new grid records can be added at runtime.
+Specifies whether a user can add new rows.
 <!--/shortDescription-->
 
 <!--fullDescription-->

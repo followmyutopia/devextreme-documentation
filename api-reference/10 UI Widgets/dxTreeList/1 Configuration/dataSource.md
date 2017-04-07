@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the origin of data for the widget.
+Specifies a data source for the grid.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -27,10 +27,5 @@ This option accepts one of the following.
 
     [note]If you use [data mapping](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map), features like [export]({basewidgetpath}/Configuration/export/) and [selection]({basewidgetpath}/Methods/#getSelectedRowsData) may work incorrectly. We recommend using [calculated columns]({basewidgetpath}/Configuration/columns/#calculateCellValue) instead of mapping.
 
-The widget cannot track changes that a third party makes in the data source. To bring data in the widget up to date in this case, call the [refresh()]({basewidgetpath}/Methods/#refresh) method.
-
-#####See Also#####
-- [Data Binding](/Documentation/Guide/Widgets/DataGrid/Data_Binding/)
-- [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
-- [Data Layer - DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples)
+The widget cannot track changes made in the data source by a third party. To bring data in the widget up to date in this case, call the [refresh()]({basewidgetpath}/Methods/#refresh) method.
 <!--/fullDescription-->

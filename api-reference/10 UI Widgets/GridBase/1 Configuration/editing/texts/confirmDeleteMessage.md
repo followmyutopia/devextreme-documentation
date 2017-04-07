@@ -10,9 +10,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a message to be displayed by a confirmation window. Setting this option makes sense only when the [edit mode]({basewidgetpath}/Configuration/editing/#mode) is *"row"*.
+Specifies a message that prompts a user to confirm deletion.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A confirmation window appears when a user clicks a delete button, which accompanies each grid record if a user is [enabled to remove]({basewidgetpath}/Configuration/editing/#allowDeleting) records. This window also appears when the [deleteRow(rowIndex)]({basewidgetpath}/Methods/#deleteRowrowIndex) method is called. The confirmation window is entitled with text specified by the [confirmDeleteTitle]({basewidgetpath}/Configuration/editing/texts/#confirmDeleteTitle) option and contains a message specified by the **confirmDeleteMessage** option. To prevent the confirmation window from appearing, assign an empty string to the latter option.
+A window that displays this message appears when a user tries to delete a row, or when you call the [deleteRow(rowIndex)]({basewidgetpath}/Methods/#deleteRowrowIndex) method in code. To prevent this window from appearing, set this option to an empty string.
+
+#####See Also#####
+- **editing** | **texts** | [confirmDeleteTitle]({basewidgetpath}/Configuration/editing/texts/#confirmDeleteTitle)
 <!--/fullDescription-->

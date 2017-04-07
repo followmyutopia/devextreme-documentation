@@ -25,5 +25,5 @@ The following formats are supported.
 
 - `"yyyy-MM-ddTHH:mm:ssx"` - a date and time with a timezone
 
-Note that this option applies only if the **forceIsoDateParsing** field of the [global configuration object](/Documentation/ApiReference/Common/utils/#configconfig) is set to *true*.
+Note that this option only applies if the **forceIsoDateParsing** field of the [global configuration object](/Documentation/ApiReference/Common/utils/#configconfig) is set to *true*.
 <!--/fullDescription-->

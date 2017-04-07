@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for a cancel button displayed when a row is in the editing state. Setting this option makes sense only when the [allowUpdating]({basewidgetpath}/Configuration/editing/#allowUpdating) option is set to *true*.
+Specifies text for a button that cancels changes in a row. Only applies if **editing** | [allowUpdating]({basewidgetpath}/Configuration/editing/#allowUpdating) is *true* and **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"row"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A cancel button appears when a user is editing a grid record in the *"row"* [edit mode]({basewidgetpath}/Configuration/editing/#mode). It is located in the rightmost grid column along with the save button.
+
 <!--/fullDescription-->

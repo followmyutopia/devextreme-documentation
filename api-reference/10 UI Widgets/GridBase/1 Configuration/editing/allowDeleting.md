@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not grid records can be deleted at runtime.
+Specifies whether a user can delete rows.
 <!--/shortDescription-->
 
 <!--fullDescription-->

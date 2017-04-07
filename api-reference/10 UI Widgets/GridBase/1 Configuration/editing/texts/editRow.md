@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for a button that turns a row into the editing state. Setting this option makes sense only when the [allowUpdating]({basewidgetpath}/Configuration/editing/#allowUpdating) option is set to *true*.
+Specifies text for buttons that switch rows into the editing state. Only applies if [allowUpdating]({basewidgetpath}/Configuration/editing/#allowUpdating) is *true*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-An edit button accompanies each grid record if the [edit mode]({basewidgetpath}/Configuration/editing/#mode) is *'row'*. This button is located in the rightmost grid column. You can specify text for this button using the **editRow** option.
+
 <!--/fullDescription-->

@@ -10,11 +10,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Indicates whether to show the error row for the grid.
+Indicates whether to show the error row.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The error row displays the data errors that occur on the server during the grid's life cycle.
+The error row displays data-related errors that may occur on the server during the widget's runtime. Setting this option to *false* hides the error row, but the errors can still be viewed in the browser's console.
 
-Set this option to *false* to avoid showing errors to end users. Instead, the error will be displayed in the browser's console. In addition, you can subscribe to the [dataErrorOccured]({basewidgetpath}/Events/#dataErrorOccurred) event to provide custom actions when data errors occur on the server.
+#####See Also#####
+- [onDataErrorOccured]({basewidgetpath}/Configuration/#onDataErrorOccurred)
 <!--/fullDescription-->

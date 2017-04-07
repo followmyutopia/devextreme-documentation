@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not grid records can be edited at runtime.
+Specifies whether a user can update rows.
 <!--/shortDescription-->
 
 <!--fullDescription-->

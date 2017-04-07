@@ -10,14 +10,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for a hint that appears when a user hovers the mouse pointer over the *"Cancel changes"* button. Setting this option makes sense only when the [mode]({basewidgetpath}/Configuration/editing/#mode) option is set to *cell* and the [validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/) capabilities are enabled.
-
-#####See Also#####
-- [Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
-- [Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
-
+Specifies text for a hint appearing when a user pauses on the button that cancels changes in a cell. Only applies if **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"cell"* and [data validation](/Configuration/columns/#validationRules/) is enabled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
+- [Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
 <!--/fullDescription-->
