@@ -4,7 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--dep-->animation.md<!--/dep-->
+<!--dep-->#animation<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'none' | 'slide' | 'fade' | 'overflow'<!--/acceptValues-->

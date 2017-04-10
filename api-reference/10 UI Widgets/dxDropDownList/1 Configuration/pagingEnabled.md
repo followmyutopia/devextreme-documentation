@@ -4,7 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--dep-->dataSource.paginate.md<!--/dep-->
+<!--dep-->#dataSource.paginate<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->boolean<!--/type-->
