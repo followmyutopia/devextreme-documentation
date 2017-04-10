@@ -9,15 +9,17 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies options configuring the [load panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Load_Panel).
+Configures the load panel.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When **DataGrid** operates with a large number of records or uses a remote storage as a data source, loading data takes time. As data is being prepared, **DataGrid** displays a load panel.
+The load panel is displayed while the widget loads data. It consists of a loading indicator and text, both placed on a pane. 
 
-The load panel consists of a pane, a loading indicator and a text. You can specify whether the pane or loading indicator must be displayed using the [showPane]({basewidgetpath}/Configuration/loadPanel/#showPane) or [showIndicator]({basewidgetpath}/Configuration/loadPanel/#showIndicator) options respectively. The text displayed by the load panel can be specified using the [text]({basewidgetpath}/Configuration/loadPanel/#text) option. Also, you can change the height or width of the load panel using the corresponding options of the **loadPanel** configuration object.
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid TreeList LoadPanel](/Content/images/doc/17_1/DataGrid/visual_elements/load_panel.png)
 
-Additionally, you can show/hide the load panel from code when using the [beginCustomLoading(messageText)]({basewidgetpath}/Methods/#beginCustomLoadingmessageText) and [endCustomLoading()]({basewidgetpath}/Methods/#endCustomLoading) methods.
+Since the load panel is, in fact, the DevExtreme [LoadPanel](/Documentation/Guide/Widgets/LoadPanel/Overview/) widget, the **loadPanel** object can contain any options of this widget along with options described here.
 
-Since the grid load panel is practically the DevExtreme [LoadPanel](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/) widget, you can specify any option belonging to this widget in the **loadPanel** object.
+#####See Also#####
+- [beginCustomLoading(messageText)]({basewidgetpath}/Methods/#beginCustomLoadingmessageText)
+- [endCustomLoading()]({basewidgetpath}/Methods/#endCustomLoading)
 <!--/fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the text of the hint displayed for the widget.
+Specifies text for a hint that appears when a user pauses on the widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->

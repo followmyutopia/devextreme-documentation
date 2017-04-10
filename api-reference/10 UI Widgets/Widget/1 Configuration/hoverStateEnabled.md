@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A Boolean value specifying whether or not the widget changes its state when being hovered by an end user.
+Specifies whether the widget changes its state when a user pauses on it.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not the pane of the load panel must be displayed.
+Specifies whether to show the pane of the load panel.
 <!--/shortDescription-->
 
 <!--fullDescription-->

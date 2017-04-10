@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not a loading indicator must be displayed on the load panel.
+Specifies whether to show the loading indicator.
 <!--/shortDescription-->
 
 <!--fullDescription-->

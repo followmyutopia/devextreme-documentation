@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text displayed when a grid does not contain any records.
+Specifies text shown when the widget does not display any data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
