@@ -18,8 +18,8 @@ Specifies how the widget resizes columns. Applies only if [allowColumnResizing](
 The **columnResizingMode** option accepts one of the following values.
 
 - **nextColumn**  
-    When a user widens a column, the width of the next column decreases.  
+    When a user resizes a column, the width of the next column changes.  
 - **widget**  
-    When a user widens a column, the width of the widget increases. The width of the next column remains the same.  
+    When a user resizes a column, the width of the widget changes. 
 
 <!--/fullDescription-->
