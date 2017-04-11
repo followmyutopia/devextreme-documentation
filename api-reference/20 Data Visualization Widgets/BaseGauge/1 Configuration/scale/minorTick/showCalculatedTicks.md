@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-This feature is no longer available.
+This option will be removed in the near future. Its use is not recommended.
 <!--/deprecated-->
 
 <!--shortDescription-->

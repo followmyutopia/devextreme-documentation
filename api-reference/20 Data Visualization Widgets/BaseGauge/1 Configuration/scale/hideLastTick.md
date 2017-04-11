@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-This feature is no longer available.
+Use the **scale** | **label** | **overlappingBehavior** | [hideFirstOrLast](/Configuration/scale/label/overlappingBehavior/#hideFirstOrLast) option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->
