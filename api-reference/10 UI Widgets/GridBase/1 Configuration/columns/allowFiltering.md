@@ -10,12 +10,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not a column can be used for filtering grid records. Setting this option makes sense only when the [filter row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Filter_Row) and [column header filtering]({basewidgetpath}/Configuration/headerFilter/) are visible. 
+Specifies whether data can be filtered by this column. Applies only if [filterRow]({basewidgetpath}/Configuration/filterRow/) | **visible** or [headerFilter]({basewidgetpath}/Configuration/headerFilter/) | **visible** is *true*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If the **allowFiltering** option is set to *true* for a column, the cell of the filter row that corresponds to this column becomes enabled. A user can use this cell to filter grid records by the values of the column. Filtering by specific values provided by the column's header filter becomes available as well.
-
 #####See Also#####
-- [DataGrid - Filtering in UI](/Documentation/Guide/Widgets/DataGrid/Filtering/#Filtering_in_UI)
+- **columns[]** | [allowHeaderFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowHeaderFiltering)
 <!--/fullDescription-->

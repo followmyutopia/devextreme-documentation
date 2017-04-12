@@ -10,9 +10,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies column-level options for filtering using a column header filter.
+Specifies data settings for the header filter.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [headerFilter]({basewidgetpath}/Configuration/headerFilter/)
 <!--/fullDescription-->

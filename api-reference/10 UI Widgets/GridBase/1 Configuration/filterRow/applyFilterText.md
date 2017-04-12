@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for the hint that pops up when a user hovers the mouse pointer over the *"Apply Filter"* button.
+Specifies text for a hint that appears when a user pauses on a button that applies the filter.
 <!--/shortDescription-->
 
 <!--fullDescription-->

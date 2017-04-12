@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for the operation of clearing the applied filter when a select box is used.
+Specifies text for the item that clears the applied filter. Used only when a cell of the filter row contains a select box.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When a column holds boolean values or uses [lookup]({basewidgetpath}/Configuration/columns/lookup/), a select box is used to filter grid records. Selecting an item in this select box filters grid records by this item. To clear the selection, a user must select the *"All"* item in the select box. You can specify a custom text for this item using the **showAllText** option.
+In columns that contain Boolean values or use [lookup]({basewidgetpath}/Configuration/columns/lookup/), a user filters data with a select box. To clear the applied filter, the user selects the *"All"* item in this select box. The **showAllText** option specifies text for this item.
 <!--/fullDescription-->

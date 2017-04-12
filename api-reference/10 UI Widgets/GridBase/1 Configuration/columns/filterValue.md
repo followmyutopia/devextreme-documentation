@@ -10,12 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a filter value for a column.
+Specifies a filter value for the column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Using this option, you can specify a filter value for a column at design-time as if an end-user set it using the [filter row]({basewidgetpath}/Configuration/filterRow/). This value is applied using a filter operation specified by the [selectedFilterOperation]({basewidgetpath}/Configuration/columns/#selectedFilterOperation) option.
-
-#####See Also#####
-- [DataGrid - Filtering](/Documentation/Guide/Widgets/DataGrid/Filtering/)
+You can specify a filter value for the column using this option as if a user set this value with the [filter row]({basewidgetpath}/Configuration/filterRow/). This value is applied using the [selectedFilterOperation]({basewidgetpath}/Configuration/columns/#selectedFilterOperation).
 <!--/fullDescription-->

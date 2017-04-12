@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for a button that closes the column header filter's dropdown menu without applying performed selection.
+Specifies text for the button that closes the popup menu without applying a filter.
 <!--/shortDescription-->
 
 <!--fullDescription-->

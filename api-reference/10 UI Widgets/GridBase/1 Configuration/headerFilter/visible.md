@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Indicates whether or not the column header filter button is visible.
+Indicates whether header filter icons are visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->

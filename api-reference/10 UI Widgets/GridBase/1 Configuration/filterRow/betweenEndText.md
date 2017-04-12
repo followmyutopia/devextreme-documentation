@@ -10,9 +10,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for the range end in the 'between' filter type.
+Specifies a placeholder for the editor that specifies the end of a range when a user selects the *"between"* filter operation.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- **filterRow** | [betweenStartText]({basewidgetpath}/Configuration/filterRow/#betweenStartText)
 <!--/fullDescription-->

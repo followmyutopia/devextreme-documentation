@@ -9,9 +9,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Contains options that specify texts for the dropdown menu invoked when you use a column header filter.
+Contains options that specify text for various elements of the popup menu.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use these options to provide custom texts for the dropdown menu or when localizing the grid.
+
 <!--/fullDescription-->

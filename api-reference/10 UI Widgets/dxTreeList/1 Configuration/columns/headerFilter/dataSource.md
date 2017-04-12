@@ -14,7 +14,7 @@ Specifies a data source for the header filter.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts one of the following values.
+This option accepts one of the following.
 
 - **Array of Objects**      
 A simple JavaScript array containing a collection of plain objects. All elements of this array should have the following format.
@@ -28,7 +28,7 @@ A simple JavaScript array containing a collection of plain objects. All elements
 A configuration object of the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Learn more about the **DataSource** and the DevExtreme Data Layer concept from the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) topic.
 
 - **Function**      
-A function enables you to switch between data sources based on a condition. It must return either an array of objects or a **DataSource** configuration object.
+A function enables you to switch data sources based on a condition. It must return either an array of objects or a **DataSource** configuration object.
 
 As an example, see the following code, which implements the data source for the header filter in a column that contains dates. Here, the data source is a **DataSource** configuration object.
 
@@ -38,7 +38,7 @@ As an example, see the following code, which implements the data source for the 
         var startOfWeek = new Date(now.setDate(now.getDate() - now.getDay() - 1 + (now.getDay()==0?-6:1)));             
         var startOfDay = new Date(now.setHours(0,0,0,0));
 
-        $("#dataGridContainer").dxDataGrid({
+        $("#treeListContainer").dxTreeList({
             // ...
             columns: [{
                 // ...
@@ -81,3 +81,6 @@ The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Metho
 <!--typeFunctionParamDescription1_field2-->
 The data source of the header filter.
 <!--/typeFunctionParamDescription1_field2-->
+
+<!--handmade-->
+<!--/handmade-->

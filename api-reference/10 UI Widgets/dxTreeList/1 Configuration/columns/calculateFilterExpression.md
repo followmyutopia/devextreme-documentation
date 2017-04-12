@@ -9,13 +9,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-Calculates filters when the column contains custom data.
+Calculates filters when the column contains customary data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 When you use the [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue) function to populate the column with data, implement the **calculateFilterExpression** function as well. This ensures proper filtering and search in this column.
 
-This function must return a filter expression which is an array of the following format.
+This function must return a filter expression, which is an array of the following format.
 
     [selector, selectedFilterOperation, filterValue]
 
@@ -29,7 +29,7 @@ The value that a user has typed into a cell of the filter row. Values provided b
 The following code snippet provides a typical implementation of the **calculateFilterExpression** function.
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#treeListContainer").dxTreeList({
             // ...
             columns: [{
                 calculateCellValue: function (rowData) {
@@ -62,7 +62,7 @@ As you can see from the previous code, the filter expression for the *"between"*
 To invoke the default behavior, call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOperation)** function and return its result.
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#treeListContainer").dxTreeList({
             columns: [{
                 calculateFilterExpression: function(filterValue, selectedFilterOperation) {
                     // ...
@@ -96,3 +96,6 @@ The UI element where the filter expression was set.<br/>Possible values: <i>"fil
 <!--typeFunctionReturnDescription-->
 A filter expression.
 <!--/typeFunctionReturnDescription-->
+
+<!--handmade-->
+<!--/handmade-->

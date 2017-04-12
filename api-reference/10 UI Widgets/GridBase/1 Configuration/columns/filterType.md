@@ -11,9 +11,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to include or exclude the records with the values selected in the column's [header filter]({basewidgetpath}/Configuration/headerFilter/).
+Specifies whether a user changes the current filter by including (selecting) or excluding (clearing the selection of) values. Applies only if [headerFilter]({basewidgetpath}/Configuration/headerFilter/) | **visible** and [allowHeaderFiltering]({basewidgetpath}/Configuration/columns/#allowHeaderFiltering) are *true*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+This option accepts the following values.
+
+- **include**       
+Values in the header filter are unselected initially, and the user changes the filter by selecting, that is, including the values.
+- **exclude**       
+All values in the header filter are selected initially, and the user changes the filter by clearing the selection of certain values, that is, by excluding them.
+
 When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `FilterType` enum. This enum accepts the following values: `Include` and `Exclude`.
+
+#####See Also#####
+- **columns[]** | [filterValues]({basewidgetpath}/Configuration/columns/#filterValues)
 <!--/fullDescription-->

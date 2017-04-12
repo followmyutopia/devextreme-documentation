@@ -17,9 +17,9 @@ Casts column values to a specific data type.
 <!--fullDescription-->
 If your data source stores, for example, numbers as strings, specify the proper data type using the **dataType** option.
  
-Date-time values have the following peculiarities.
+Date-time values have the following specifics.
 
-- If date-time values are stored as strings, they should have the following format: `"yyyy/MM/dd"` or `"yyyy/MM/dd HH:mm:ss"`.
+- If date-time values are stored as strings, they should have one of the following formats: `"yyyy-MM-dd"`, `"yyyy-MM-dd HH:mm:ss"`, `"yyyy-MM-ddTHH:mm:ssx"` or `"yyyy-MM-ddTHH:mm:ss"`.
 - To show both date and time in a column editor, set the [format]({basewidgetpath}/Configuration/columns/#format) option to a value that includes date and time parts, and assign *"datetime"* to the [editorOptions]({basewidgetpath}/Configuration/columns/#editorOptions) | **type** option as shown in the following code.
 
         <!--JavaScript-->$(function() {

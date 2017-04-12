@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A description of the 'notcontains' operation.
+A description for the *"notcontains"* operation.
 <!--/shortDescription-->
 
 <!--fullDescription-->

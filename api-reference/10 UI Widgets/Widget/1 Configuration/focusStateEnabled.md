@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not the widget can be focused.
+Specifies whether the widget can be focused using keyboard navigation.
 <!--/shortDescription-->
 
 <!--fullDescription-->

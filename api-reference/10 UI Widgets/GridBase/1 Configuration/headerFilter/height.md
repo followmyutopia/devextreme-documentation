@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the height of the dropdown menu invoked when using a column header filter.
+Specifies the height of the popup menu that contains values for filtering.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A description of the 'contains' operation.
+A description for the *"contains"* operation.
 <!--/shortDescription-->
 
 <!--fullDescription-->

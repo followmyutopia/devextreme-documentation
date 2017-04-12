@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for the item specifying an empty value in the column header filter's dropdown menu.
+Specifies a name for the item that represents empty values in the popup menu.
 <!--/shortDescription-->
 
 <!--fullDescription-->

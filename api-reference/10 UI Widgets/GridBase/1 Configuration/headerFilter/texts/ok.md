@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for a button that closes the column header filter's dropdown menu and applies specified filtering.
+Specifies text for the button that applies the specified filter.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -5,14 +5,18 @@
 
 **-->
 ===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->boolean<!--/type-->
+<!--default-->undefined<!--/default-->
+<!--type-->object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether icons that open the filter lists are visible.
+Specifies data settings for the header filter.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [headerFilter]({basewidgetpath}/Configuration/headerFilter/)
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->
