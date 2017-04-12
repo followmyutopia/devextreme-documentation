@@ -17,20 +17,19 @@ A handler for the **toolbarPreparing** event. Executed before the toolbar is cre
 <!--fullDescription-->
 This handler allows you to customize the toolbar. Depending on the configuration, the widget may add the following items to the toolbar:
 
-- <img src="/Content/images/doc/17_1/DataGrid/icons/columnChooser.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar ColumnChooserButton" style="margin:1px; vertical-align:middle"/> - *"columnChooserButton"*    
-- <img src="/Content/images/doc/17_1/DataGrid/icons/toolbar_add.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar AddButton" style="margin:1px; vertical-align:middle"/> - *"addRowButton"*    
-- <img src="/Content/images/doc/17_1/DataGrid/icons/toolbar_save.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar SaveButton" style="margin:1px; vertical-align:middle"/> - *"saveButton"*   
-- <img src="/Content/images/doc/17_1/DataGrid/icons/toolbar_revert.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar RevertButton" style="margin:1px; vertical-align:middle"/> - *"revertButton"*   
-- <img src="/Content/images/doc/17_1/DataGrid/icons/toolbar_export.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar Exporting" style="margin:1px; vertical-align:middle"/> - *"exportButton"*     
-- <img src="/Content/images/doc/17_1/DataGrid/icons/toolbar_applyFilter.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar ApplyFilterButton" style="margin:1px; vertical-align:middle"/> - *"applyFilterButton"*     
-- [*"groupPanel"*](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/) 
+- <img src="/Content/images/doc/17_1/DataGrid/icons/columnChooser.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar ColumnChooserButton" style="margin:1px; vertical-align:middle"/> - *"columnChooserButton"*    
+- <img src="/Content/images/doc/17_1/DataGrid/icons/toolbar_add.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar AddButton" style="margin:1px; vertical-align:middle"/> - *"addRowButton"*    
+- <img src="/Content/images/doc/17_1/DataGrid/icons/toolbar_save.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar SaveButton" style="margin:1px; vertical-align:middle"/> - *"saveButton"*   
+- <img src="/Content/images/doc/17_1/DataGrid/icons/toolbar_revert.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar RevertButton" style="margin:1px; vertical-align:middle"/> - *"revertButton"*   
+- <img src="/Content/images/doc/17_1/DataGrid/icons/toolbar_export.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar Exporting" style="margin:1px; vertical-align:middle"/> - *"exportButton"*     
+- <img src="/Content/images/doc/17_1/DataGrid/icons/toolbar_applyFilter.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar ApplyFilterButton" style="margin:1px; vertical-align:middle"/> - *"applyFilterButton"*     
 - [*"searchPanel"*]({basewidgetpath}/Configuration/searchPanel/)
 
 The following code shows how you can customize the toolbar using this handler.
 
     <!--JavaScript-->
     $(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#treeListContainer").dxTreeList({
             // ...
             onToolbarPreparing: function (e) {
                 var toolbarItems = e.toolbarOptions.items;
@@ -51,8 +50,6 @@ The following code shows how you can customize the toolbar using this handler.
         });
     });
 
-<a href=" https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/ToolbarCustomization/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a> 
-<a href="https://www.youtube.com/watch?v=oWWL6iILMPM&index=1&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&t=3s" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -79,3 +76,6 @@ The model data. Only available if you use Knockout.
 <!--typeFunctionParamDescription1_field4-->
 The <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxToolbar/Configuration/">options of the toolbar</a>. 
 <!--/typeFunctionParamDescription1_field4-->
+
+<!--handmade-->
+<!--/handmade-->

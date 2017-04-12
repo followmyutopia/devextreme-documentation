@@ -11,19 +11,18 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [selectionChanged]({basewidgetpath}/Events/#selectionChanged) event.
+A handler for the **selectionChanged** event. Executed after a row has been selected or selection has been cleared.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **selectionChanged** event fires when a grid record has been selected/deselected. When implementing a function that handles this event, you can use arrays of keys of those grid records that have been currently selected or deselected. These arrays can be accessed through the fields of the object passed to the function as the argument. Arrays of all selected records and their data are also accessible through the same object.
+This handler has the following specifics:
 
-[note]The following fields of the object passed to the function are available only if the selection is [instant]({basewidgetpath}/Configuration/selection/#deferred): *currentSelectedRowKeys*, *currentDeselectedRowKeys*, *selectedRowKeys*, *selectedRowsData*.
+- If a field providing key values is not specified in the data source, the whole data object is considered the key. In this case, all arrays passed to the handler contain data objects instead of keys.
+- When selection is [deferred]({basewidgetpath}/Configuration/selection/#deferred), this handler does not provide access to keys and data.
 
-If a field providing key values is not specified in a [data source]({basewidgetpath}/Configuration/#dataSource), the whole data object is considered the key for a grid record. In this case, all arrays passed to the **onSelectionChanged** function contain data objects instead of keys.
+To retrieve data by key, call the [byKey(key)]({basewidgetpath}/Methods/#byKeykey) method.
 
-To retrieve data by using a key, use the [byKey(key)]({basewidgetpath}/Methods/#byKeykey) method.
-
-<a href="http://js.devexpress.com/Demos/DataGridGallery/#chart/datagridsselectionsingleselection" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/RowSelection/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -33,7 +32,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -43,17 +42,17 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Data that is available for binding against the element. Available only in the Knockout approach.
+The model data. Only available if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->currentSelectedRowKeys<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The keys of the rows that have been selected currently.
+The keys of the rows that have been selected.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->currentDeselectedRowKeys<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->array<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The keys of the rows that have been deselected currently.
+The keys of the rows whose selection has been cleared.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->selectedRowKeys<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->array<!--/typeFunctionParamType1_field6-->

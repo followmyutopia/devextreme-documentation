@@ -11,21 +11,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [disposing]({basewidgetpath}/Events/#disposing) event.
+A handler for the **disposing** event. Executed when the widget is removed from the DOM using the [remove()](http://api.jquery.com/remove/), [empty()](http://api.jquery.com/empty/), or [html()](http://api.jquery.com/html/) jQuery methods only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the widget is being removed.
 
-[note]The function assigned to this option is executed only if the widget is removed using the [remove()](http://api.jquery.com/remove/), [empty()](http://api.jquery.com/empty/), or [html()](http://api.jquery.com/html/) jQuery methods.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Provides function parameters.
+Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the widget instance.
+The widget instance.
 <!--/typeFunctionParamDescription1_field1-->

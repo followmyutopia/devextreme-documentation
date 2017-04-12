@@ -11,15 +11,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [rowUpdated]({basewidgetpath}/Events/#rowUpdated) event.
+A handler for the **rowUpdated** event. Executed after a row has been updated in the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **rowUpdated** event fires after a row has been updated in the data source. When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find the data object and the key value of the updated row. Note that the data object contains only those fields of a row that have been updated.
-
-[note] In [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode), when several rows have been updated, the **onRowUpdated** function will be executed for each row individually.
-
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgrideditingrow/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+[note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), if several rows have been updated, this handler will be executed for each row individually.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -29,7 +25,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -39,20 +35,20 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Data that is available for binding against the element. Available only in the Knockout approach.
+The model data. Only available if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Updated data of the row; contains only those fields that have been updated.
+The updated data of the row; contains only those fields that have been updated.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The key of the row. If a field providing keys is not specified in a <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">data source</a>, the whole data object is considered the key.
+The key of the row. If a field providing keys is not specified in the data source, the whole data object is considered the key.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->error<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->JavaScript Error object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error">Error</a> object that defines the occurred error.
+The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error">Error</a> object defining an error that may occur during updating.
 <!--/typeFunctionParamDescription1_field6-->
