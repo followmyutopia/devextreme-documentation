@@ -1,6 +1,6 @@
 A pager is a grid element that allows a user to navigate through grid pages and change their size at runtime.
 
-![DevExtreme DataGrid Pager](/Content/images/doc/16_2/DataGrid/Pager.png)
+![DevExtreme DataGrid Pager](/Content/images/doc/17_1/DataGrid/Pager.png)
 
 As illustrated in the image above, the pager consists of a page navigator and a page size selector, both configured by the [pager](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/) object.
 

@@ -1,4 +1,4 @@
-You can find all the required files in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources** by default. Copy the **Lib** folder into the folder with your application. Then, depending on the library or framework you use in your app, link the needed files within the `<head>` tag of your index page in the given order.
+You can find all the required files in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 17.1\DevExtreme\Sources** by default. Copy the **Lib** folder into the folder with your application. Then, depending on the library or framework you use in your app, link the needed files within the `<head>` tag of your index page in the given order.
 
 - **jQuery**
 

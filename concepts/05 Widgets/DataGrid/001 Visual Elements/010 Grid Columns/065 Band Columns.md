@@ -1,6 +1,6 @@
 ﻿Oftentimes, columns contain data that can be organized in logical groups. It would be smart to collect such columns under a single header. The banded layout provides you with this capability. 
 
-![DevExpress DevExtreme DataGrid HTML5 BandColumns](/Content/images/doc/16_2/DataGrid/BandColumns.png)
+![DevExpress DevExtreme DataGrid HTML5 BandColumns](/Content/images/doc/17_1/DataGrid/BandColumns.png)
 
 To set up the banded layout, declare a band column using a hierarchical structure. For this purpose, assign the nested columns to the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#columns) field of the band column. For example, the following code declares the *"Address"* band column and nests three columns within it.
 

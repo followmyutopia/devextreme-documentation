@@ -17,7 +17,7 @@ Declares a collection of panes.
 <!--fullDescription-->
 A pane is a chart area containing series. If there are many series an a chart, they can be distributed between multiple panes.
 
-![DevExtreme HTML5 Charts Panes](/Content/images/doc/16_2/ChartJS/visual_elements/panes.png)
+![DevExtreme HTML5 Charts Panes](/Content/images/doc/17_1/ChartJS/visual_elements/panes.png)
 
 Each object in the **panes** array configures a single pane. If you have several panes, we recommend you to [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#name) each pane in order to be able to refer to them afterwards.
 

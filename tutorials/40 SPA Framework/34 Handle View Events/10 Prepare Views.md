@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/framework/ViewEvents/step1/index.html" data-show-first="views/home.html">
+<article data-show="/Content/Applications/17_1/framework/ViewEvents/step1/index.html" data-show-first="views/home.html">
 
 Use a [simple application](/Documentation/Tutorial/SPA_Framework/Change_a_View_Title_Dynamically/#Prepare_a_Simple_Application) to handle view events. There will be enough to have the 'home' view. In this view, there will be a button to navigate to a 'log' view. While displaying the 'log' view, the result of raising view events will be logged. At this step, define the 'home' and 'log' views and implement navigation between them.
 

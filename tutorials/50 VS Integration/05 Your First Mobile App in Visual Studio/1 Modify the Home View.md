@@ -1,6 +1,6 @@
 Open the *home.dxview* file. In the View Designer, you can write HTML code and see the results in a simulator.
 
-<article  data-show="/Content/Applications/16_2/LearningCenter/HelloFantasticWorld/HelloFantasticWorld2.html">
+<article  data-show="/Content/Applications/17_1/LearningCenter/HelloFantasticWorld/HelloFantasticWorld2.html">
   
 ####Add Custom Markup####
 
@@ -23,10 +23,10 @@ Open the *home.dxview* file. In the View Designer, you can write HTML code and s
   
 - Click the simulator to update its content. The new view content will be displayed in the simulator.
  
-    ![Home View in the Designer](Content/images/doc/16_2/DevExtreme/ViewDesigner_HomeView.png)
+    ![Home View in the Designer](Content/images/doc/17_1/DevExtreme/ViewDesigner_HomeView.png)
 
 </article>
-<article  data-show="/Content/Applications/16_2/LearningCenter/HelloFantasticWorld/HelloFantasticWorld3.html">
+<article  data-show="/Content/Applications/17_1/LearningCenter/HelloFantasticWorld/HelloFantasticWorld3.html">
 ####Bind the View to the ViewModel####
 
 Open the *home.js* file. A JavaScript function has already been implemented. This function is associated with the "home" view because it has the same name as the view's HTML template. The object returned by this function is a ViewModel object. Do the following to bind a view element to the ViewModel field.
@@ -51,7 +51,7 @@ Open the *home.js* file. A JavaScript function has already been implemented. Thi
 - Run the application to check that the **message** field value is displayed on the "home" view.
 
 </article>
-<article  data-show="/Content/Applications/16_2/LearningCenter/HelloFantasticWorld/HelloFantasticWorld4.html">
+<article  data-show="/Content/Applications/17_1/LearningCenter/HelloFantasticWorld/HelloFantasticWorld4.html">
 ####Update a ViewModel Field Dynamically####
 
 Do the following to add a text box to the "home" view and concatenate the "Welcome!" text with the entered text at runtime.

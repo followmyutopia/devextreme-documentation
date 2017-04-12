@@ -74,7 +74,7 @@ Data source options.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->dataSource<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->

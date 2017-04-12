@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/LearningCenter/HelloFantasticWorld/HelloFantasticWorld6.html">
+<article data-show="/Content/Applications/17_1/LearningCenter/HelloFantasticWorld/HelloFantasticWorld6.html">
 By default, the "greeting" view is added as a root view (available from the navigation control). Do the following to treat this view as a secondary view, and navigate to it using a button on the "home" view.
 
 - In the *app.config.js* file, remove the object that represents the "greeting" navigation item from the array that is assigned to the **navigation** option of the **HtmlApplication**'s configuration object.

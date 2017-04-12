@@ -3,17 +3,17 @@ The **DateBox** provides the following controls for picking values.
 - [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/)       
 Available when the [type](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#type) option is set to *"date"* or *"datetime"*.
 
-    ![DevExtreme DateBox PickerType DatePicker](/Content/images/doc/16_2/UiWidgets/DateBox/pickerTypes_calendar.png)
+    ![DevExtreme DateBox PickerType DatePicker](/Content/images/doc/17_1/UiWidgets/DateBox/pickerTypes_calendar.png)
 
 - **Rollers**       
 Available when the [type](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#type) option is set to *"date"*, *"time"* or *"datetime"*.
 
-    ![DevExtreme DateBox PickerType DatePicker](/Content/images/doc/16_2/UiWidgets/DateBox/pickerTypes_rollers.png)
+    ![DevExtreme DateBox PickerType DatePicker](/Content/images/doc/17_1/UiWidgets/DateBox/pickerTypes_rollers.png)
 
 - **List**          
 Available when the [type](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#type) option is set to *"time"*.
 
-    ![DevExtreme DateBox PickerType DatePicker](/Content/images/doc/16_2/UiWidgets/DateBox/pickerTypes_list.png)
+    ![DevExtreme DateBox PickerType DatePicker](/Content/images/doc/17_1/UiWidgets/DateBox/pickerTypes_list.png)
 
 By default, the picking control and its appearance vary depending on the platform. If you need to force the use of a certain control, specify the [pickerType](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType) option. In the description of this option, you can find information about which control is the default one for a certain platform. The images above show how the controls look in a generic desktop browser.
 

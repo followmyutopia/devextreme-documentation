@@ -1,5 +1,5 @@
 ﻿<!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/CollectionWidgetSearch/Step3/markup.html">
+<article data-show-web="/Content/Applications/17_1/Framework/CollectionWidgetSearch/Step3/markup.html">
 
 In this step, specify the [searchExpr](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) option as shown in the *script.js* file below. This option defines the value by which items are searched. To search items by the **name** field value, assign 'name' to this option.
 

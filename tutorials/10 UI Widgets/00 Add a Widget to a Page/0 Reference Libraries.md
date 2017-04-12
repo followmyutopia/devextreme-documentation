@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/ConfigureWidget/Step1/markup.html">
+<article data-show-web="/Content/Applications/17_1/Framework/ConfigureWidget/Step1/markup.html">
 First, add references to the scripts and stylesheets required by the widget. The references are highlighted in the HTML file below. Note that jQuery and DevExtreme libraries are essential.
 
 In addition to these scripts, each widget requires two stylesheet files. The "dx.common.css" stylesheet provides the core styles. This stylesheet is required regardless of the target platform and theme. The second stylesheet is a theme-file that provides the distinctive look of the widget.

@@ -4,9 +4,9 @@ The **Gallery** widget supports the display of images in a slideshow. To specify
     $(function () {
         $("#galleryContainer").dxGallery({
             dataSource: [
-                "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person1.png",
-                "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person2.png",
-                "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person3.png"
+                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png",
+                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png",
+                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person3.png"
             ],
             height: 300,
             slideshowDelay: 1500

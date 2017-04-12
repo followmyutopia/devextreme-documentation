@@ -2,7 +2,7 @@
 
 To group records, the user right-clicks a [column header](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Configuring_Column_Headers). This action invokes the context menu suggesting that the user selects a required item from it. Alternatively, the user can group data by dragging and dropping column headers onto/from the [group panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Panel). Try both these grouping approaches in action in the **DataGrid** below.
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/UIWidgets/dxDataGridGuides/Grouping/grouping.html, /Content/Applications/16_2/UIWidgets/dxDataGridGuides/Grouping/grouping.js"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/UIWidgets/dxDataGridGuides/Grouping/grouping.html, /Content/Applications/17_1/UIWidgets/dxDataGridGuides/Grouping/grouping.js"></div>
 
 Groups in a grid are always sorted even if sorting was not applied to the column before it has been used for grouping. By default, groups are sorted in ascending order. To change this, a user must click the header of the grouping column.
 

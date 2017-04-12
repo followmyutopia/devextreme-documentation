@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/DrillDownChart/Step5/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/DrillDownChart/Step5/chart.html" data-show-first="chart.js">
 
 The tooltip appears each time the user hovers the mouse pointer over a bar. To enable it, declare the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/) object and set its [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#enabled) field to *true*. In addition, change the text displayed by the tooltip using the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#customizeTooltip) option as shown in the code below.
 

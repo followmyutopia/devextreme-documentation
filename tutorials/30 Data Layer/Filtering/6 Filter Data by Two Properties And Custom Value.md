@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataLayer/Filtering/Step7/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/17_1/DataLayer/Filtering/Step7/markup.html" data-show-first="script.js">
 
 You can mix [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) search criteria and search criteria specified as a function. A function specifying a filtering condition should return a Boolean value, which determines whether the item is selected or skipped.
 

@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/framework/AddNavBar/step1/index.html">
+<article data-show="/Content/Applications/17_1/framework/AddNavBar/step1/index.html">
 
   - Use an [application project template](/Documentation/Guide/SPA_Framework/Application_Project/) to create a DevExtreme application.
   You can find the application template in the **Application Template** folder the DevExtreme zip archive. As an alternative, you can use the [Basic Visual Studio Template](/Documentation/Guide/VS_Integration/Project_Templates/#Basic_Application).

@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/UseOLAPDataForPivotGrid/Step5/pivotGrid.html" data-show-first="pivotGrid.html">
+<article data-show-web="/Content/Applications/17_1/Framework/UseOLAPDataForPivotGrid/Step5/pivotGrid.html" data-show-first="pivotGrid.html">
 A **Measure** is a field that provides data for calculating summary values. Such fields can be placed to the **data** area only.
 
 The minimal configuration of a measure includes the following options.

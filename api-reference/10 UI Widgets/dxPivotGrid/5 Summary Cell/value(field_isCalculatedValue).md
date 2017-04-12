@@ -20,7 +20,7 @@ The field whose value to return.
 <!--paramName2-->isCalculatedValue<!--/paramName2-->
 <!--paramType2-->boolean<!--/paramType2-->
 <!--paramDescription2-->
-Specifies whether or not to return a <a href="/Documentation/16_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#calculateSummaryValue">post-processed</a> value. Pass <i>false</i> here to get the initial summary value.
+Specifies whether or not to return a <a href="/Documentation/17_1/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#calculateSummaryValue">post-processed</a> value. Pass <i>false</i> here to get the initial summary value.
 <!--/paramDescription2-->
 
 <!--returnType-->any<!--/returnType-->

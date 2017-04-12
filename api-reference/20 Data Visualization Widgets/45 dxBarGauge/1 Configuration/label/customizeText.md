@@ -31,7 +31,7 @@ Specifies the value indicated by a bar.
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Specifies the value with applied <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#format">formatting</a>.
+Specifies the value with applied <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#format">formatting</a>.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

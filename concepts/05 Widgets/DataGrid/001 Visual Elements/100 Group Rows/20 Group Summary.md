@@ -1,6 +1,6 @@
 A group summary item is a grid element that aggregates a column of data in a group. It can display the result of different calculations within the group, for example, the number of rows, sum of the column's numeric values, the minimum or maximum value, etc.
 
-![DevExtreme DataGrid GroupPanel](/Content/images/doc/16_2/DataGrid/GroupSummary.png)
+![DevExtreme DataGrid GroupPanel](/Content/images/doc/17_1/DataGrid/GroupSummary.png)
 
 To define a group summary item, use the [summary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/) | [groupItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) array.
     

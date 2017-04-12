@@ -15,7 +15,7 @@ An object defining a series of the **area** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![AreaSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/PolarArea.png)
+![AreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/PolarArea.png)
 
 For details on the area series type, refer to the [Area](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Area) topic.
 <!--/fullDescription-->

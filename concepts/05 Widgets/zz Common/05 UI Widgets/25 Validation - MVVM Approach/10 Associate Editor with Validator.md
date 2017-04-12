@@ -2,7 +2,7 @@ To validate an editor value, associate either the UI editor or the underlying vi
 
 To validate a DevExtreme editor, the latter should be associated with the [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator/) widget.
 
-![Editor-Validator Association](/Content/images/doc/16_2/Common/Editor_Validator_Association.png)
+![Editor-Validator Association](/Content/images/doc/17_1/Common/Editor_Validator_Association.png)
 
 The **Validator** widget validates the editor's value against a predefined set of rules. To define the rules to be checked, assign an array of rules to the validator's [validationRules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules) configuration option.
 

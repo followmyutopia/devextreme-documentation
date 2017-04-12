@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureVectorMap/Step6/vectorMap.html" data-show-first="vectorMap.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureVectorMap/Step6/vectorMap.html" data-show-first="vectorMap.js">
 
 Areas and markers are configured using the corresponding objects in the [layers](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/) array. Options that are specified on the first level of those objects are applied to all the areas or markers. However, options can be specified for each area or marker individually.
 

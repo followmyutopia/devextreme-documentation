@@ -20,5 +20,5 @@ Sets the series type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-See <a href="/Documentation/16_2/Guide/Widgets/PieChart/Series_Types/">PieChart Series Types</a> for details.
+See <a href="/Documentation/17_1/Guide/Widgets/PieChart/Series_Types/">PieChart Series Types</a> for details.
 <!--/fullDescription-->

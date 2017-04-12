@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/CollectionWidgetSearch/Step4/markup.html">
+<article data-show-web="/Content/Applications/17_1/Framework/CollectionWidgetSearch/Step4/markup.html">
 
 To handle a text box value change, pass the handling function to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#onValueChanged) option of the **TextBox** widget. According to the task considered in this tutorial, the handling function should include the following method calls.
 

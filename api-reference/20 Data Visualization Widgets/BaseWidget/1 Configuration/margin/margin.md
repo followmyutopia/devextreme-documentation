@@ -13,5 +13,5 @@ Generates space around the widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![WidgetMargin DevExtreme ChartJS](/Content/images/doc/16_2/ChartJS/WidgetMargin.png)
+![WidgetMargin DevExtreme ChartJS](/Content/images/doc/17_1/ChartJS/WidgetMargin.png)
 <!--/fullDescription-->

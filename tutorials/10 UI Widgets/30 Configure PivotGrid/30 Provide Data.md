@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/PivotGridTutorial/Step3/pivotGrid.html" data-show-first="pivotGrid.html">
+<article data-show-web="/Content/Applications/17_1/Framework/PivotGridTutorial/Step3/pivotGrid.html" data-show-first="pivotGrid.html">
 
 The core of the **PivotGrid** widget is data displayed in it. Pivot grid data is provided by a [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/). This object is a connection between the **PivotGrid** widget, and data provided by a web service or data stored locally. The PivotGridDataSource underlying data access logic is isolated in a [Store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/). For the sake of simplicity, in this tutorial, an **ArrayStore** will be used to provide access to a local array of objects.
 

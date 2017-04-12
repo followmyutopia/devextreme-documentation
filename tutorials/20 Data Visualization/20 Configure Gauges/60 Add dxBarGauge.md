@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureGauges/Step7/gauges.html" data-show-first="barGauge.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureGauges/Step7/gauges.html" data-show-first="barGauge.js">
 The **BarGauge** widget is configured similarly to other gauge widgets, though it has several distinctive features that should be emphasized. According to our task, **BarGauge** should display temperature in several cities at once.
 
 Once more, add a div container for **BarGauge** to your HTML page. Create the *barGauge.js* JavaScript file and reference it on this HTML page.

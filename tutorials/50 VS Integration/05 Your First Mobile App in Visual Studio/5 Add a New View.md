@@ -1,9 +1,9 @@
-<article data-show="/Content/Applications/16_2/LearningCenter/HelloFantasticWorld/HelloFantasticWorld5.html">
+<article data-show="/Content/Applications/17_1/LearningCenter/HelloFantasticWorld/HelloFantasticWorld5.html">
 Add a new view to the **views** folder.
   
 - Right-click the **views** folder in the Solution Explorer and choose **Add** | **New Item...** in the context menu, which will invoke the **Add New Item** dialog.
 
-  ![Greeting View](Content/images/doc/16_2/DevExtreme/Tutorial_AddProductsView.png)
+  ![Greeting View](Content/images/doc/17_1/DevExtreme/Tutorial_AddProductsView.png)
 
 - In the invoked dialog, choose the **View** template, specify the name as "greeting" and click **Add**. As a result, you will get automatically generated *greeting.dxview* and *greeting.js* code files. These files will be registered within the *index.html* file automatically.
 

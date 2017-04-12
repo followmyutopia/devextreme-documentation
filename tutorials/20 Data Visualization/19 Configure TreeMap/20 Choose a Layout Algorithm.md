@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureTreeMap/Step4/treemap.html" data-show-first="treemap.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureTreeMap/Step4/treemap.html" data-show-first="treemap.js">
 
 Layout algorithms determine the position and size of tiles and groups. Therefore, the chosen algorithm plays the definitive role in the resulting look of the widget. **TreeMap** provides the following algorithms out-of-the-box: "Squarified", "Strip" and "Slice and Dice". See the [layoutAlgorithm](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#layoutAlgorithm) option description for further information about these algorithms. Use the same option to specify the needed algorithm or implement a custom one. Also, you can change the direction in which the items will be laid out. For this purpose, use the [layoutDirection](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#layoutDirection) option.
 

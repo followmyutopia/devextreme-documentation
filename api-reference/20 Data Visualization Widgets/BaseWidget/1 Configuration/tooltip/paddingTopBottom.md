@@ -14,5 +14,5 @@ Generates space above and below the text displayed by a tooltip.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![TooltipPadding ChartJS](/Content/images/doc/16_2/ChartJS/TooltipPaddingTopBottom.png)
+![TooltipPadding ChartJS](/Content/images/doc/17_1/ChartJS/TooltipPaddingTopBottom.png)
 <!--/fullDescription-->

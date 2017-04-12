@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureVectorMap/Step3/vectorMap.html" data-show-first="vectorMap.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureVectorMap/Step3/vectorMap.html" data-show-first="vectorMap.js">
 
   Data for markers are provided using an array of objects, each of which must contain the *'coordinates'* field. This field must be an array of two values: the first is the longitude, and the second is the latitude of a map marker. To supply the marker with a label, specify the *'text'* field in the *'attributes'* object of a marker. The current example uses this field to accompany markers with the names of the capitals.
 

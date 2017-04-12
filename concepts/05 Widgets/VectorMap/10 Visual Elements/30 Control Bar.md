@@ -1,6 +1,6 @@
 A control bar is a map element that supplies a user with the capability of navigating a map. This element resides on the left side of the map. The control bar consists of a pan control and a zoom bar, which provide the [panning](/Documentation/Guide/Widgets/VectorMap/End-User_Interaction/#Panning) and [zooming](/Documentation/Guide/Widgets/VectorMap/End-User_Interaction/#Zooming) capabilities to the user.
 
-![DevExtreme ChartJS VectorMap](/Content/images/doc/16_2/ChartJS/ControlBar.png)
+![DevExtreme ChartJS VectorMap](/Content/images/doc/17_1/ChartJS/ControlBar.png)
 
 Control bar settings are specified using fields of the [controlBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/controlBar/) object.
 

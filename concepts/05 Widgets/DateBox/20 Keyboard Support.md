@@ -4,7 +4,7 @@ An end user can use the following keys to interact with the widget.
   <table>
     <thead>
     <tr>
-      <th><a href="/Documentation/16_2/Guide/Widgets/DateBox/Platform-Specific_Value_Pickers">Value Picker</a></th>
+      <th><a href="/Documentation/17_1/Guide/Widgets/DateBox/Platform-Specific_Value_Pickers">Value Picker</a></th>
       <th>Key</th>
       <th>Action</th>
     </tr>

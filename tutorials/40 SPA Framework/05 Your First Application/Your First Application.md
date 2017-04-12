@@ -1,6 +1,6 @@
 ﻿<!--playground-->
 <!--/playground-->
-<article data-show="/Content/Applications/16_2/framework/YourFirstApplication/Solution/YourFirstApplication.html">
+<article data-show="/Content/Applications/17_1/framework/YourFirstApplication/Solution/YourFirstApplication.html">
 This tutorial will walk you through creating your first (basic HTML JS single-page) application using the [DevExtreme SPA framework](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/SPA_Framework). Along the way, you will define two views by creating HTML templates and ViewModels. In addition, you will implement navigation to move between these views.
 
 [note]The DevExtreme framework comes with an [application project template](/Documentation/Guide/SPA_Framework/Application_Project/) so that it is easy for you to start building an application. All the tutorials on the framework will be based on this application template. However, the application that is detailed in this tutorial is created using a single HTML page so that you can see that the application structure is rather simple.

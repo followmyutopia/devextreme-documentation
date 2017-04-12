@@ -14,5 +14,5 @@ Specifies the space between the marker's label and the top edge of the marker's 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![RangeSelectorScaleMarkerTextTopIndent ChartJS](/Content/images/doc/16_2/ChartJS/RangeSelectorScaleMarkerTextTopIndent.png)
+![RangeSelectorScaleMarkerTextTopIndent ChartJS](/Content/images/doc/17_1/ChartJS/RangeSelectorScaleMarkerTextTopIndent.png)
 <!--/fullDescription-->

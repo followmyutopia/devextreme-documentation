@@ -1,6 +1,6 @@
 The **PieChart** widget can be displayed with a title. These titles usually contain general explanations about the data represented by that chart. You can, however, place any kind of information in the chart title.
 
-![PieChartTitle](/Content/images/doc/16_2/ChartJS/PieChartTitle.png)
+![PieChartTitle](/Content/images/doc/17_1/ChartJS/PieChartTitle.png)
 
 To set a chart's title, use the [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/title/) option. If you do not need to change any title options except text, assign the required text directly to the **title** option, as it is demonstrated in the code below.
 

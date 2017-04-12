@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/CollectionWidgetSearch/Step1/markup.html">
+<article data-show-web="/Content/Applications/17_1/Framework/CollectionWidgetSearch/Step1/markup.html">
 DevExtreme collection widgets can access a data array directly or using a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance. In this tutorial, you will create a DataSource instance based on an array because search implementation requires **DataSource** search capabilities.
 
 To create a **DataSource** instance accessing an array, call the **DataSource** constructor and pass the required array to this constructor. 

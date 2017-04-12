@@ -1,6 +1,6 @@
 ﻿When a user is allowed to [select](/Documentation/Guide/Widgets/DataGrid/Selection/) records in the [multiple mode](/Documentation/Guide/Widgets/DataGrid/Selection/#Selecting_in_UI/Multiple_Mode), a grid is supplemented with a selection column. This column contains a set of check boxes, each of which corresponds to a data row. Toggling a check box selects or deselects the row.
 
-![DevExtreme DataGrid SelectionColumn](/Content/images/doc/16_2/DataGrid/SelectionColumn.png)
+![DevExtreme DataGrid SelectionColumn](/Content/images/doc/17_1/DataGrid/SelectionColumn.png)
 
 The selection column appears when the **selection** | [mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#mode) property is set to *'multiple'*.
 

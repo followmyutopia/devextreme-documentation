@@ -1,5 +1,5 @@
 ﻿<!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/CollectionWidgetSearch/Solution/markup.html">
+<article data-show-web="/Content/Applications/17_1/Framework/CollectionWidgetSearch/Solution/markup.html">
 
 In this tutorial, you will learn how to implement a search in a collection widget using [jQuery](http://jquery.com/) approach. As an example, you will create a simple page consisting of a list and a search text box. You will learn how to associate a collection widget with data using a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance, configure DataSource [search options](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api), and update search criterion according to the current search box value.
 

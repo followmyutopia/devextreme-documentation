@@ -4,23 +4,23 @@ To use DevExtreme widgets in MVC applications, add scripts and themes supplied w
 
 1. Right-click your project in the **Solution Explorer** window and choose **Manage NuGet Packages...** in the context menu.
 
-    ![NuGetVS](/Content/images/doc/16_2/ChartJS/AddWidgetToMVCProject_ManageNuGetPackage.png)
+    ![NuGetVS](/Content/images/doc/17_1/ChartJS/AddWidgetToMVCProject_ManageNuGetPackage.png)
 
 2. Choose **Online** in the right column of the appeared window.
 
-    ![NuGetVS](/Content/images/doc/16_2/ChartJS/NuGetPackagesOnline.png)
+    ![NuGetVS](/Content/images/doc/17_1/ChartJS/NuGetPackagesOnline.png)
 
     Make sure that you have [nuget.org](http://www.nuget.org) as your online source. Then, type *DevExtreme Web* within the **Search Online** text box.
 
 3. When the search is complete, click the **Install** button of the found item.
 
-    ![NuGetVS](/Content/images/doc/16_2/ChartJS/NuGetChartJSFound.png)
+    ![NuGetVS](/Content/images/doc/17_1/ChartJS/NuGetChartJSFound.png)
 
 <!---->
 
 After the successful install of the **DevExtreme Web** NuGet package, you will find the following <b>scripts</b> added to your project.
 
-![DevExtreme Scripts](/Content/images/doc/16_2/ChartJS/AddWidgetToMVCProject_DevExtremeScripts.png)
+![DevExtreme Scripts](/Content/images/doc/17_1/ChartJS/AddWidgetToMVCProject_DevExtremeScripts.png)
 
 - **jQuery** version 2.1 - 2.2 and 3.x
 - **Globalize** and its dependencies (globalize and cldr libraries)
@@ -32,7 +32,7 @@ After the successful install of the **DevExtreme Web** NuGet package, you will f
 
 In addition, the **Content** folder will be populated by the following files.
 
-![DevExtreme Content](/Content/images/doc/16_2/ChartJS/AddWidgetToMVCProject_DevExtremeContent.png)
+![DevExtreme Content](/Content/images/doc/17_1/ChartJS/AddWidgetToMVCProject_DevExtremeContent.png)
 
 As you can see in the image above, all the [predefined DevExtreme themes](/Documentation/Guide/Themes/Predefined_Themes/#Predefined_Themes) are added. You can leave only those that you will really use. The **layouts** folder includes Web-specific layouts that can be used in an application built using the DevExtreme [SPA framework](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/SPA_Framework). As you are going to build an MVC application, remove this folder from the project.
 

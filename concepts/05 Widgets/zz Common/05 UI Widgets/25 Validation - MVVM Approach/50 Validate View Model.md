@@ -6,7 +6,7 @@ You may want to validate the ViewModel object rather than the UI editors. This w
 
 To validate a ViewModel's observable member, the latter should be associated with the **dxValidator** object. 
 
-![Validated View Model](/Content/images/doc/16_2/Common/ValidatedViewModel.png)
+![Validated View Model](/Content/images/doc/17_1/Common/ValidatedViewModel.png)
 
 The **dxValidator** object validates the ViewModel's members against a predefined set of rules. To define the rules to be checked, assign an array of rules to the validator's **validationRules** field.
 

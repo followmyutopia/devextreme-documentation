@@ -14,7 +14,7 @@ Gets the layer by its index.
 <!--paramName1-->index<!--/paramName1-->
 <!--paramType1-->number<!--/paramType1-->
 <!--paramDescription1-->
-The index in the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/">layers</a> array.
+The index in the <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/">layers</a> array.
 <!--/paramDescription1-->
 
 <!--returnType-->MapLayer<!--/returnType-->

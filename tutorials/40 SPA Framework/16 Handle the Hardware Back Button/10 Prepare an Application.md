@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/framework/HardwareBackButton/step1/index.html" data-show-first="views/home.js">
+<article data-show="/Content/Applications/17_1/framework/HardwareBackButton/step1/index.html" data-show-first="views/home.js">
 
 Use an [application project template](/Documentation/Tutorial/SPA_Framework/Add_a_Navigation_Bar/#Use_an_Application_Template) to create an application. To try handling the Back navigation forced by the hardware Back button, modify this application in the following way.
 

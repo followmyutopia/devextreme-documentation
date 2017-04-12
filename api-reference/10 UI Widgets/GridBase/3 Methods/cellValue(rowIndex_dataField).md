@@ -20,7 +20,7 @@ The index of the row to which the cell belongs.
 <!--paramName2-->dataField<!--/paramName2-->
 <!--paramType2-->string<!--/paramType2-->
 <!--paramDescription2-->
-The name of the data field in the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">dataSource</a>.
+The name of the data field in the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">dataSource</a>.
 <!--/paramDescription2-->
 
 <!--returnType-->any<!--/returnType-->

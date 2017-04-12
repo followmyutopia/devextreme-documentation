@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/framework/CreateNavigationDynamically/step2/index.html" data-show-first="views/Logon.js">
+<article data-show="/Content/Applications/17_1/framework/CreateNavigationDynamically/step2/index.html" data-show-first="views/Logon.js">
 In this application, different sets of views must be available for end-users, depending on the user's role that he/she specifies when logging onto the application.
  
 - Administrator: 'AdminView' and 'SharedView';

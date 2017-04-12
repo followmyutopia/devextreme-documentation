@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/CreateMultiPaneChart/Solution/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/CreateMultiPaneChart/Solution/chart.html" data-show-first="chart.js">
 
 This tutorial provides detailed instructions on how to configure the [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) widget that displays several data series on different panes. Following the steps of this tutorial, you will learn to bind data series to panes. As a result, you will get the **Chart** widget with two panes, each of which will be associated with one or multiple series.
 

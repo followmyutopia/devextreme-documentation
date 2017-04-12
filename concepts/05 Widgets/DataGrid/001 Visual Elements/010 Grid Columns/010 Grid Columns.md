@@ -2,4 +2,4 @@ There are two central elements, which the **DataGrid** widget is built on: grid 
 
 A grid column is a visual representation of a set of data values that have a particular type. The general appearance of grid columns in the **DataGrid** widget is demonstrated in the image below.
 
-![DevExtreme DataGrid GridColumns](/Content/images/doc/16_2/DataGrid/GridColumns.png)
+![DevExtreme DataGrid GridColumns](/Content/images/doc/17_1/DataGrid/GridColumns.png)

@@ -19,4 +19,4 @@ Add the imported modules to application imports:
         ] 
     })
 
-![Add DevExtreme css files to webpack config](/Content/images/doc/16_2/DevExtreme/ImportDevExtremeModulesToAngular2App.png)
+![Add DevExtreme css files to webpack config](/Content/images/doc/17_1/DevExtreme/ImportDevExtremeModulesToAngular2App.png)

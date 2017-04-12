@@ -1,6 +1,6 @@
 <!--playground-->
 <!--/playground-->
-<article data-show="/Content/Applications/16_2/framework/ToolbarButton/Solution/index.html" data-show-first="views/home.html">
+<article data-show="/Content/Applications/17_1/framework/ToolbarButton/Solution/index.html" data-show-first="views/home.html">
 
 When building a DevExtreme application, you specify a [layoutSet](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#layoutSet). The layouts from this set are used to [display views](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Insert_View_into_Layout). The DevExtreme framework comes with [ready-to-use layout sets](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Ready-to-Use_Layout_Sets) that contain predefined layouts. Most of these layouts include a toolbar as a common element that is usually added to application views. Toolbars in predefined layouts are **command containers**. This means that you can define a [command](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views) within a view and it will be displayed as a toolbar button in the place that you denote using a [command mapping](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#commandMapping). In this tutorial, you will learn how to define a command and how to add it to the application's command mapping.
   

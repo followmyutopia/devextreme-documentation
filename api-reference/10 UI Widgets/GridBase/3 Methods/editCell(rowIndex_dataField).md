@@ -20,7 +20,7 @@ The index of a row holding the cell that should enter the editing state.
 <!--paramName2-->dataField<!--/paramName2-->
 <!--paramType2-->string<!--/paramType2-->
 <!--paramDescription2-->
-The name of the data field in the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">dataSource</a>.
+The name of the data field in the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">dataSource</a>.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

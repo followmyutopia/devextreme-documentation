@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureCharts/Solution/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureCharts/Solution/chart.html" data-show-first="chart.js">
 
 This tutorial details how to configure the **Chart** and **PieChart** widgets from the DevExtreme library. You will learn to provide data for a chart and give it a distinctive look that will satisfy your needs. As a result, you will get a chart that shows how the population has been growing on each continent in the last sixty years. Moreover, you will add a pie chart that shows the population breakdown between continents by 2010.
 

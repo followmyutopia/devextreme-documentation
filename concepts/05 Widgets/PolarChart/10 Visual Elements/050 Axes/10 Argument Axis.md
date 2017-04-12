@@ -20,7 +20,7 @@ If arguments in the series' data source represent strings, a _discrete_ axis is 
 		// ...
 	];
 
-![Discrete Argument Axis](/Content/images/doc/16_2/ChartJS/Polar_DiscreteArgumentAxis.png)
+![Discrete Argument Axis](/Content/images/doc/17_1/ChartJS/Polar_DiscreteArgumentAxis.png)
 
 You can set a specific order for categories. For this purpose, use the [categories](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#categories) property of the **argumentAxis** configuration object. For details, refer to the [Set a Category Order](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Set_a_Category_Order) topic.
 
@@ -34,11 +34,11 @@ If arguments in the series' data source are numeric or date-time values, a _cont
 		{ angle: 360, value: 85 },
 	];
 
-![Continuous Argument Axis](/Content/images/doc/16_2/ChartJS/Polar_ContinuousArgumentAxis.png)
+![Continuous Argument Axis](/Content/images/doc/17_1/ChartJS/Polar_ContinuousArgumentAxis.png)
 
 In addition to discrete and continuous types, you can use the _logarithmic_ axis type. This type can be used with numeric data source values only. Each value on the logarithmic argument axis represents a number (logarithm base) raised to a power. This number is specified by the [logarithmBase](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#logarithmBase) option. The logarithmic axis is useful when you visualize a huge range of data.
 
-![Logarithmic Argument Axis](/Content/images/doc/16_2/ChartJS/Polar_LogarithmicArgumentAxis.png)
+![Logarithmic Argument Axis](/Content/images/doc/17_1/ChartJS/Polar_LogarithmicArgumentAxis.png)
 
 You can change the default ticks/grid lines arrangement on a continuous or a logarithmic axis. There are two ways of arranging ticks/grid lines manually. They are described in the [Axis Ticks Arrangement](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Axis_Ticks_Arrangement) topic.
 

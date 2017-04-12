@@ -29,7 +29,7 @@ The argument of the point.
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The argument with an applied <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/verticalLine/label/#format">format</a> and converted to string.
+The argument with an applied <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/verticalLine/label/#format">format</a> and converted to string.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->point<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->Point<!--/typeFunctionParamType1_field3-->

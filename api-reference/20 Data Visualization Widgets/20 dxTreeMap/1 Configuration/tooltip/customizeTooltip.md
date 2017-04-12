@@ -47,7 +47,7 @@ The value of the node from the data source.
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The value of the node with applied <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/#format">formatting</a>.
+The value of the node with applied <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/#format">formatting</a>.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->node<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->dxtreemapnode<!--/typeFunctionParamType1_field3-->

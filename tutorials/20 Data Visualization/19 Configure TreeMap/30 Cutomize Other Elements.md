@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureTreeMap/Step6/treemap.html" data-show-first="treemap.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureTreeMap/Step6/treemap.html" data-show-first="treemap.js">
 
 To supplement the widget with a title, use the fields of the [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/title/) object. A title can also include a subtitle specified by the **title** | [subtitle](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/title/subtitle/) field.
 

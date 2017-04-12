@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/DrillDownChart/Step3_1/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/DrillDownChart/Step3_1/chart.html" data-show-first="chart.js">
 
 Assign the DataSource object, which you have implemented in the previous step, to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) option of **Chart**. Then, specify which data source fields must provide arguments and values for the chart series. For this purpose, set the [argumentField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#argumentField) and [valueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#valueField) options of the **series** object. Finally, specify the series type using the **series** | [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#type) option.
 

@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureVectorMap/Step5/vectorMap.html" data-show-first="vectorMap.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureVectorMap/Step5/vectorMap.html" data-show-first="vectorMap.js">
 
 The following steps explain how to customize the appearance of a vector map. You will learn to change the background of your map and adjust several appearance options of map areas and markers.
 

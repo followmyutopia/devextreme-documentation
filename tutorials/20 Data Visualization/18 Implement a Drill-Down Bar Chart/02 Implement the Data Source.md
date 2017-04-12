@@ -1,4 +1,4 @@
-﻿<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/DrillDownChart/Step2/chart.html" data-show-first="chart.js">
+﻿<article data-show-web="/Content/Applications/117_1DataVisualization/Lessons/DrillDownChart/Step2/chart.html" data-show-first="chart.js">
 
 Drill-down charts are designed to visualize hierarchical data. In this tutorial, the chart fetches such data from the [Northwind OData Service](http://services.odata.org/V4/Northwind/). This service stores data entities, and one entity may refer to another using a [navigation property](https://msdn.microsoft.com/en-us/library/bb738520(v=vs.100).aspx). DevExtreme provides a special [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) implementation for accessing an individual OData entity - [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
 

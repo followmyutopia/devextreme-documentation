@@ -1,6 +1,6 @@
 One of the filtering capabilities that the **DataGrid** provides for end users is a [filter row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Filter_Row). To filter records by a column, an end-user must type a value or a part of it (depends on the data type) in a corresponding filter row cell. If any records are found, then the grid will contain only them. Otherwise, it displays the "No Data" message.
 
-![DevExtreme DataGrid FilterRow](/Content/images/doc/16_2/DataGrid/FilterRow.png)
+![DevExtreme DataGrid FilterRow](/Content/images/doc/17_1/DataGrid/FilterRow.png)
 
 [note] Filtering is performed ignoring the letter case.
 

@@ -5,7 +5,7 @@
 		// ...
 		background: {
 			image: {
-				url: '/Content/images/doc/16_2/ChartJS/flight.png',
+				url: '/Content/images/doc/17_1/ChartJS/flight.png',
 				location: 'center'
 			}
 		}

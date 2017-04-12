@@ -1,7 +1,7 @@
-﻿<article data-show-sln="/Content/Applications/16_2/LearningCenter/AddChartInVS/AddChartInVS.sln">
+﻿<article data-show-sln="/Content/Applications/117_1LearningCenter/AddChartInVS/AddChartInVS.sln">
 
   Widgets included to the [DevExtreme Data Visualization](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Web_Development/Overview/Data_Visualization_Library) library can be added to any [DevExtreme application project](/Documentation/Guide/VS_Integration/Project_Templates/). However, the [DevExtreme SPA Framework](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/SPA_Framework) -based [Basic Application](/Documentation/Guide/VS_Integration/Project_Templates/#Basic_Application) and [Multi-Channel Application](/Documentation/Guide/VS_Integration/Project_Templates/#Multi-Channel_Application) project templates allow you to do this easily. In these projects, [views](/Documentation/Guide/SPA_Framework/Application_Development/#Views_Implementation) are built using the [View Designer](/Documentation/Guide/VS_Integration/Design-Time_Features/). This designer allows you to drag and drop widgets from the Toolbox to a view simulator. For details, refer to the [Add Widgets](/Documentation/Guide/VS_Integration/Design-Time_Features/#Add_Widgets) topic. In this tutorial, you will add the **Chart** widget to a view of the **Basic Application** project template. As a result, you will get a chart that shows the population growth on each continent in the last sixty years.
 
-  <div class="simulator-desktop-container" data-view="/Content/Applications/16_2/LearningCenter/ChartLessons/chart.html, /Content/Applications/16_2/LearningCenter/ChartLessons/DevExtremeFullCode.js"></div>
+  <div class="simulator-desktop-container" data-view="/Content/Applications/17_1/LearningCenter/ChartLessons/chart.html, /Content/Applications/17_1/LearningCenter/ChartLessons/DevExtremeFullCode.js"></div>
 
 </article>

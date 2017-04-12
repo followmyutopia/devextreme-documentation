@@ -1,10 +1,10 @@
-<article data-show="/Content/Applications/16_2/LearningCenter/Data-BoundApplication/step3-2/index.html">
+<article data-show="/Content/Applications/17_1/LearningCenter/Data-BoundApplication/step3-2/index.html">
 
 Add a Search button to the "Products" view to search for a product using a combination of letters.
 
 - Open the *products.dxview* file. Press **Add command** on the strip at the bottom of the view's simulator; this will invoke the **Add Command** dialog. Specify "search" as the identifier of the command. In addition, add the "Search" command to the required command containers of the layouts in which the view will be displayed. For this purpose, set the command mapping properties as they are set in the image below.
 
-    ![Add View Dialog](Content/images/doc/16_2/DevExtreme/Tutorial_AddCommandDialog.png)
+    ![Add View Dialog](Content/images/doc/17_1/DevExtreme/Tutorial_AddCommandDialog.png)
   
     To learn about the layouts used for views within the "Navbar" layout set, refer to the [Ready-to-Use Layout Sets](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Ready-to-Use_Layout_Sets) topic. To learn about the command containers that are contained in the built-in layouts, refer to the [Built-in Layouts](/Documentation/Guide/SPA_Framework/Built-in_Layouts/) topic.
 

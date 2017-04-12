@@ -41,5 +41,5 @@ The model data. Only available if you use Knockout.
 <!--typeFunctionParamName1_field4-->formOptions<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The options of the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxForm/Configuration/">Form</a> widget.
+The options of the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxForm/Configuration/">Form</a> widget.
 <!--/typeFunctionParamDescription1_field4-->

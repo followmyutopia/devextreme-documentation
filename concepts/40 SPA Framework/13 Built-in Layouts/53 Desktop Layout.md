@@ -2,7 +2,7 @@ The Desktop layout is available for the 'generic' platform only. This platform i
 
 The Desktop layout is characterized by the presence of a navigation control on a view. The navigation control is a global navigation that provides access to the root views of the application. In addition, there is a toolbar on the view, which you can use to add custom actions.
 
-![Desktop Layout](/Content/images/doc/16_2/PhoneJS/DesktopLayout.png)
+![Desktop Layout](/Content/images/doc/17_1/PhoneJS/DesktopLayout.png)
 
 **Links**:
 

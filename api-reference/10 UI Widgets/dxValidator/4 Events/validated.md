@@ -28,7 +28,7 @@ Provides function parameters.
 <!--typeFunctionParamName1_field1-->name<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The value of the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxValidator/Configuration/#name">name</a> option.
+The value of the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxValidator/Configuration/#name">name</a> option.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->isValid<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->boolean<!--/typeFunctionParamType1_field2-->

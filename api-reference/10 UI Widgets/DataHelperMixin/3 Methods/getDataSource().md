@@ -13,7 +13,7 @@ Allows you to get the [DataSource instance](/Documentation/ApiReference/Data_Lay
 
 <!--returnType-->DataSource<!--/returnType-->
 <!--returnDescription-->
-The <a href="https://js.devexpress.com/Documentation/16_1/ApiReference/Data_Layer/DataSource/">DataSource instance</a>
+The <a href="https://js.devexpress.com/Documentation/17_1/ApiReference/Data_Layer/DataSource/">DataSource instance</a>
 <!--/returnDescription-->
 
 <!--fullDescription-->

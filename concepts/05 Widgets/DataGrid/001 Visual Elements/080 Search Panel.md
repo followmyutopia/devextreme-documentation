@@ -1,6 +1,6 @@
 A search panel is a grid element that allows a user to [search](/Documentation/Guide/Widgets/DataGrid/Filtering/#Searching) records by a search string. The search string is highlighted in the found records. The search panel can be thought of as a [filter row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Filter_Row) cell that applies a filter to all grid columns at once.
 
-![DevExtreme DataGrid SearchPanel](/Content/images/doc/16_2/DataGrid/SearchPanel.png)
+![DevExtreme DataGrid SearchPanel](/Content/images/doc/17_1/DataGrid/SearchPanel.png)
 
 Searching is performed differently in columns with different [data types](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType). To find a record by a numeric, boolean or date value, a user must enter the full value into the search panel. To find a record by a string value, entering a part of this value is sufficient.
 

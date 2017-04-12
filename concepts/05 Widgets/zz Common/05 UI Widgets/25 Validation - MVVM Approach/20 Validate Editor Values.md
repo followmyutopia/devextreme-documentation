@@ -1,6 +1,6 @@
 The editors that are associated with the **Validator** widget are automatically validated on the event specified by their **valueChangeEvent** option. You can also validate several editors at once. For this purpose, there are validation methods that validate a *validation group*. So, you should associate editors with validation groups.
 
-![Validation Group](/Content/images/doc/16_2/Common/ValidationGroup.png)
+![Validation Group](/Content/images/doc/17_1/Common/ValidationGroup.png)
 
 ###Define Validation Groups###
 

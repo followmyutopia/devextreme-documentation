@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/framework/LogonPopup/step3/index.html" data-show-first="index.js">
+<article data-show="/Content/Applications/17_1/framework/LogonPopup/step3/index.html" data-show-first="index.js">
 
 To show the "login" popup view for non-authorized users only, declare a global **loggedIn** variable within the [HtmlApplication.initialized](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Events/#initialized) event handler. Set this variable to *false* by default. This variable will be accessed from any part of the application and you can change its value in the "login" ViewModel.
 

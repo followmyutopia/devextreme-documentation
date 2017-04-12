@@ -30,7 +30,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxPieChart/Methods/#instance">widget instance</a>.
+The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxPieChart/Methods/#instance">widget instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
@@ -50,5 +50,5 @@ The argument of the point(s) corresponding to the clicked legend item.
 <!--typeFunctionParamName1_field5-->points<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Array<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/">point(s)</a> corresponding to the clicked legend item.
+The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/">point(s)</a> corresponding to the clicked legend item.
 <!--/typeFunctionParamDescription1_field5-->

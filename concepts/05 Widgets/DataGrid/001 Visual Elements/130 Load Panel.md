@@ -1,6 +1,6 @@
 When data is taking noticeable time to be loaded, which may occur if you use a remote data source, **DataGrid** displays a load panel that notifies the user of the data loading process. 
 
-![DevExtreme DataGrid LoadPanel](/Content/images/doc/16_2/DataGrid/LoadPanel.png)
+![DevExtreme DataGrid LoadPanel](/Content/images/doc/17_1/DataGrid/LoadPanel.png)
 
 As you can see in the image above, the load panel consists of a loading indicator, a pane and a text. You can configure the load panel using [loadPanel](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/) object properties.
 

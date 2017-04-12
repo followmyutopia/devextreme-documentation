@@ -1,4 +1,4 @@
-To use the Knockout approach, add the *knockout-3.4.0.js* script library to the **Scripts** folder of your project. You can find this library in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources** by default.
+To use the Knockout approach, add the *knockout-3.4.0.js* script library to the **Scripts** folder of your project. You can find this library in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 17.1\DevExtreme\Sources** by default.
 
 Reference the Knockout library in the Index view.
 
@@ -51,7 +51,7 @@ The Knockout approach is based on the MVVM (Model-View-ViewModel) pattern. Accor
         ko.applyBindings(viewModel);
     };
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/styles.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/markup.html, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/script.js, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/styles.css"></div>
 
 **Handle Click Event**
 
@@ -82,7 +82,7 @@ Add a **clickHandler** field to the ViewModel object and bind the button's **onC
         ko.applyBindings(viewModel);
     };
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/styles.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/markup.html, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/script.js, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/styles.css"></div>
     
 **Modify Option Value at Runtime**
 
@@ -118,4 +118,4 @@ Add the **CheckBox** widget in the same manner as you added the **Button** widge
         ko.applyBindings(viewModel);
     }
                   
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/styles.css"></div> 
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/markup.html, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/script.js, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/styles.css"></div> 

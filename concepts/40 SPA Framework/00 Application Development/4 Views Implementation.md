@@ -20,7 +20,7 @@ When a layout set is specified, you have to define only the changing content for
 
 The framework follows the [MVVM](http://en.wikipedia.org/wiki/Model_View_ViewModel) (Model-View-ViewModel) pattern. A Model is a JavaScript object that either represents data or receives data from a storage (local storage or remote server). A View is an HTML template with bindings and CSS rules. The ViewModel is a JavaScript object that prepares data for the View by adding new fields, calculating other ones or picking data from multiple Models. The scheme below will allow you to imagine the process of interaction between Views, ViewModels and Models.
 
-![Application Structure](Content/images/doc/16_2/PhoneJS/scheme-app-structure.png)
+![Application Structure](Content/images/doc/17_1/PhoneJS/scheme-app-structure.png)
 
 Divide view implementation onto three steps. Start with a **View**. Prepare a markup that is rendered to a view that is very close to a planned view. Whether or not the result is visually pleasing is irrelevant at this point. The main task is to provide all required elements on the view. The result can be then given to a graphic designer, while you work under the **ViewModel** and **Model** for this view.
 
@@ -55,7 +55,7 @@ You can call the **navigate()** method of the HtmlApplication object from everyw
 
 While an end user navigates from one view to another, the framework's navigation manager keeps a history of displayed views. In applications indicated as a 'mobile' application, information on navigated views is saved to **navigation stacks**.
 
-![Navigation Stack](/Content/images/doc/16_2/PhoneJS/NavigationStack.png)
+![Navigation Stack](/Content/images/doc/17_1/PhoneJS/NavigationStack.png)
 
 You can organize navigation to a view deeper in a navigation stack or return back within a stack. In addition, you can organize navigation to another navigation stack (based on another root view).
 

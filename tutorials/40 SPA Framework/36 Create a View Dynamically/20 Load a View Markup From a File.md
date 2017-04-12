@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/framework/DynamicView/step2/index.html" data-show-first="views/home.js">
+<article data-show="/Content/Applications/17_1/framework/DynamicView/step2/index.html" data-show-first="views/home.js">
 
 Add one more [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget to the 'home' view. Set the button's [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) configuration option to a function that navigates to a view called 'dynamicViewFromFile'. Since this view is not referenced in the application page, load a file with the view template to the application and then call the [navigate()](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#navigateuri_options) method.
 

@@ -19,7 +19,7 @@
   </tr>
   <tr>
     <td>CTRL+A</td>
-    <td>Selects all rows. Make sure that the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll">allowSelectAll</a> option is <i>true</i>.</td>
+    <td>Selects all rows. Make sure that the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll">allowSelectAll</a> option is <i>true</i>.</td>
   </tr>
   </tbody>
 </table>

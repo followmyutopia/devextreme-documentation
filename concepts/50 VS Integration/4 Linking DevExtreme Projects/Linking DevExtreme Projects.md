@@ -4,20 +4,20 @@ To link an application built using a DevExtreme project template to another proj
 
 As an example, you can develop an application using one of the DevExtreme Project Templates, and then add To deploy the application as a UWP application (choose any of the **JavaScript | Windows | Universal** project templates in the **Add Project** dialog). Follow these steps to link the DevExtreme project to the UWP project using the **Link to...** dialog.
 
-![UWP project template](Content/images/doc/16_2/DevExtreme/LinkingProjectsUWPProject.png)
+![UWP project template](Content/images/doc/17_1/DevExtreme/LinkingProjectsUWPProject.png)
 
 - Create a new folder within the added project (e.g. "www").
 
-    ![Create www folder](Content/images/doc/16_2/DevExtreme/LinkingProjectsWwwFolder.png)
+    ![Create www folder](Content/images/doc/17_1/DevExtreme/LinkingProjectsWwwFolder.png)
 
 - Right-click the DevExtreme project and choose **Link to...** in the invoked context menu.
 
-    !["Link to" menu item](Content/images/doc/16_2/DevExtreme/LinkingProjectsLinkToMenuItem.png)
+    !["Link to" menu item](Content/images/doc/17_1/DevExtreme/LinkingProjectsLinkToMenuItem.png)
 
 - Within the opened dialog, choose the created folder ("www") within the newly added UWP project. Links to all the files of the DevExtreme project and the files of the projects that are referenced in the linked project will be added to the this folder of the project.
 
-    !["Link to" dialog](Content/images/doc/16_2/DevExtreme/LinkingProjectsLinkToDialog.png)
+    !["Link to" dialog](Content/images/doc/17_1/DevExtreme/LinkingProjectsLinkToDialog.png)
 
     If you are going to use win js API within your application, add the appropriate links within the index.html file located in the www folder. Additionally, you may need to reference the main.js file located in the js folder of the UWP project. View comments in this file for details.
 
-    ![main.js](Content/images/doc/16_2/DevExtreme/LinkingProjectsMainJs.png)
+    ![main.js](Content/images/doc/17_1/DevExtreme/LinkingProjectsMainJs.png)

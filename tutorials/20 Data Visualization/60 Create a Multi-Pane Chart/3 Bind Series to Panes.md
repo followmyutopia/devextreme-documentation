@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/CreateMultiPaneChart/Step3/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/CreateMultiPaneChart/Step3/chart.html" data-show-first="chart.js">
 
 You can bind a series to a pane individually using the **series** | [pane](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#pane) option. Or if you bind several series to a pane, use the **pane** option of the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/) object instead. Use the former approach to bind the *precipitation* series to the *top* pane, and the latter approach to bind two *temperature* series to the *bottom* pane.
 

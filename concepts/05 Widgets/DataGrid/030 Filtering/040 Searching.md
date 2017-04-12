@@ -1,6 +1,6 @@
 Filtering can be performed in one or several columns at a time. In addition, **DataGrid** provides you with the capability to filter records by all columns at once. In **DataGrid**, searching is performed using a search panel. To search through records, a user must type in text in the search panel. Records that match this text are displayed in a grid.
 
-![DevExtreme DataGrid SearchPanel](/Content/images/doc/16_2/DataGrid/SearchPanel.png)
+![DevExtreme DataGrid SearchPanel](/Content/images/doc/17_1/DataGrid/SearchPanel.png)
 
 Searching is conducted differently in columns with different data types. To find a record by a numeric, boolean or date value, a user must enter the full value into the search panel. To find a record by a string value, entering a part of this value is sufficient.
 

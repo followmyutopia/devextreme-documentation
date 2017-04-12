@@ -4,6 +4,6 @@ Additionally, a selected row can be deselected by a mouse click as you press the
 
 The animation below demonstrates how to perform selection in a single mode.
 
-![DevExtreme DataGrid Selection](/Content/images/doc/16_2/DataGrid/SelectionSingle.gif)
+![DevExtreme DataGrid Selection](/Content/images/doc/17_1/DataGrid/SelectionSingle.gif)
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridselectionsingleselection/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

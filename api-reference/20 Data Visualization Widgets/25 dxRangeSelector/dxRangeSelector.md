@@ -47,7 +47,7 @@ The **RangeSelector** is a widget that allows a user to select a range of values
 <!--fullDescription-->
 This widget represents a scale (numeric or date-time) and two sliders. A user selects the required range by moving the sliders.
 
-<img style="margin:0px auto;display:block" src="/Content/images/doc/16_2/ChartJS/RangeSelector_new.gif" alt="RangeSelector" />
+<img style="margin:0px auto;display:block" src="/Content/images/doc/17_1/ChartJS/RangeSelector_new.gif" alt="RangeSelector" />
 
 You can create the widget using one of the following approaches.
 
@@ -122,7 +122,7 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 
 A chart can be displayed in the [background](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/background/) of the **RangeSelector** widget. This allows end users to select the required range in a chart series. You can also integrate the **RangeSelector** widget with a stand-alone [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) widget to emulate chart [zooming and scrolling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Zooming_and_Scrolling/#Using_dxRangeSelector).
 
-<a href="/Documentation/16_2/Tutorial/Data_Visualization/Configure_RangeSelector" class="button orange small fix-width-155" style="margin-right:5px;">Start Tutorial</a>
+<a href="/Documentation/17_1/Tutorial/Data_Visualization/Configure_RangeSelector" class="button orange small fix-width-155" style="margin-right:5px;">Start Tutorial</a>
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectornumericscale/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
 <a href="http://www.youtube.com/watch?v=0x_VmMwxigA&index=52&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 

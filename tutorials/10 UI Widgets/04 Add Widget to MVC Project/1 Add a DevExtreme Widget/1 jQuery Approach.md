@@ -37,7 +37,7 @@ Here is the code demonstrating how to call the **Button** constructor.
 
 As you can see in this code, a configuration object must be passed to specify configuration options for the widget. Here, the configuration object contains only the **text** option, which specifies the button text.
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/styles.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/markup.html, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/script.js, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/styles.css"></div>
 
 **Handle Click Event**
 
@@ -64,7 +64,7 @@ In the code below, the handling function generates a string consisting of ten ra
         });
     });
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/styles.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/markup.html, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/script.js, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/styles.css"></div>
     
 **Modify Option Value at Runtime**
 
@@ -106,4 +106,4 @@ Add the **CheckBox** widget in the same manner as you added the **Button** widge
         });
     });
         
-<div class="simulator-desktop-container" data-view="/Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/markup.html, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/script.js, /Content/Applications/16_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/styles.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/markup.html, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/script.js, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/styles.css"></div>

@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/ConfigureWidget/Solution/markup.html">
+<article data-show-web="/Content/Applications/17_1/Framework/ConfigureWidget/Solution/markup.html">
 
 In this tutorial, you will learn how to add a DevExtreme widget to an HTML page using [jQuery](http://jquery.com/) approach. As an example, you will create a simple page consisting of a button, a text paragraph and a check box. You will learn how to add a widget, specify initial values for its configuration options, and modify widget options at runtime. You will also learn how to handle widget events in an example using the click event.  
 

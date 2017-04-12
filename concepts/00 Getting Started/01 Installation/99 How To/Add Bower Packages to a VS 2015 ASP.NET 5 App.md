@@ -4,7 +4,7 @@ The Visual Studio 2015 MVC 5 Web Application template supports Bower out of the 
 
 2. Find the `dependencies` section in this file, put a comma after the last entry and copy-paste the following line.
 
-        "devextreme": "~16.2" // restores DevExtreme
+        "devextreme": "~17.1" // restores DevExtreme
 
     Wait a few seconds until the libraries are loaded. DevExtreme scripts will be located in the **wwwroot/lib/devextreme** folder.
 

@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataLayer/Searching/Step2/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/17_1/DataLayer/Searching/Step2/markup.html" data-show-first="script.js">
 
 Create a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance and assign it to the **dataSource** variable. Pass an object containing the [store](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#store) and [searchExpr](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) fields to the DataSource constructor to associate the DataSource instance with the required array, and specify item object properties by which the required items are searched. Assign an array containing names of the required properties to the **searchExpr** option. The **store** option should contain the **EMPLOYEES** array.
 </article>

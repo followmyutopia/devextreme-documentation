@@ -1,6 +1,6 @@
 To filter data against a specific column, an end user can invoke the column's header filter. By default, the filter dropdown displays unique column values (use the **columns**&nbsp;|&nbsp;[headerFilter](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/) option to customize the displayed values). An end user can select any item(s) from this list. This action automatically filters grid data (displays records that have the selected value(s) in the current column).
 
-![DevExtreme DataGrid Header Filter](/Content/images/doc/16_2/DataGrid/ColumnHeaderFilter.png)
+![DevExtreme DataGrid Header Filter](/Content/images/doc/17_1/DataGrid/ColumnHeaderFilter.png)
 
 To make column header filtering available for end users, set the grid's [headerFilter](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/) | **visible** option to *true*.
 

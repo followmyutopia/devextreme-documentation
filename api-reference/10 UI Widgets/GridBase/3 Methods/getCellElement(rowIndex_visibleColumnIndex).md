@@ -20,7 +20,7 @@ The row index of the cell.
 <!--paramName2-->visibleColumnIndex<!--/paramName2-->
 <!--paramType2-->number<!--/paramType2-->
 <!--paramDescription2-->
-The visible index of the cell's column. Find out how to calculate this index in the <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index">Calculating the Column Index</a> topic.
+The visible index of the cell's column. Find out how to calculate this index in the <a href="/Documentation/17_1/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index">Calculating the Column Index</a> topic.
 <!--/paramDescription2-->
 
 <!--returnType-->jQuery|undefined<!--/returnType-->

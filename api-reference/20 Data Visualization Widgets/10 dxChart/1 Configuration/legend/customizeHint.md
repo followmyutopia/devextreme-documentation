@@ -23,17 +23,17 @@ Information on the series that corresponds to the legend item.
 <!--typeFunctionParamName1_field1-->seriesName<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name">name</a> of the series. To get the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/">Series</a> object by this name, call the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByNameseriesName">getSeriesByName(seriesName)</a> method.
+The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name">name</a> of the series. To get the <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/">Series</a> object by this name, call the <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByNameseriesName">getSeriesByName(seriesName)</a> method.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->seriesIndex<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The index of the series in the <b>series</b>. To get the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/">Series</a> object by this index, call the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByPosseriesIndex">getSeriesByPos(seriesIndex)</a> method.
+The index of the series in the <b>series</b>. To get the <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/">Series</a> object by this index, call the <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByPosseriesIndex">getSeriesByPos(seriesIndex)</a> method.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->seriesColor<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#color">color</a> of the series.
+The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#color">color</a> of the series.
 <!--/typeFunctionParamDescription1_field3-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

@@ -8,7 +8,7 @@ Register the [required .css files](/Documentation/Guide/Themes/Predefined_Themes
         ] 
     }
 
-![Add DevExtreme css files to webpack config](/Content/images/doc/16_2/DevExtreme/AddDevExtremeCssToWebpackConfig.png)
+![Add DevExtreme css files to webpack config](/Content/images/doc/17_1/DevExtreme/AddDevExtremeCssToWebpackConfig.png)
 
 After Webpack is configured, run the following command in the command prompt to update the vendor bundle.
 

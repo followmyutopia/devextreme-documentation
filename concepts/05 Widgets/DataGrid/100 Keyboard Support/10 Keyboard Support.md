@@ -84,12 +84,12 @@ The **DataGrid** widget grants end-users the ability to perform basic operations
 </div>
 
 <div style="font-size:12px">
-	<sup>1</sup> - <b>grouping</b> | <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping#allowCollapsing">allowCollapsing</a> must be <i>true</i>.<br />
-	<sup>2</sup> - The <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Pager">pager</a> must be visible.<br />
-	<sup>3</sup> - <b>selection</b> | <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection#mode">mode</a> must be different from <i>"none"</i>.<br />
-	<sup>4</sup> - <b>selection</b> | <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection#mode">mode</a> must be <i>"multiple"</i>.<br />
-	<sup>5</sup> - <b>selection</b> | <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection#allowSelectAll">allowSelectAll</a> must be <i>true</i>.<br />
-	<sup>6</sup> - The <a href="/Documentation/16_2/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel">search panel</a> must be visible.<br />
-	<sup>7</sup> - A select box appears in a data cell when you use a <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup">lookup</a> in a column.<br />
-	<sup>8</sup> - A calendar appears in a data cell when a column contains data of a <i>"date"</i> <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns#dataType">type</a>.
+	<sup>1</sup> - <b>grouping</b> | <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping#allowCollapsing">allowCollapsing</a> must be <i>true</i>.<br />
+	<sup>2</sup> - The <a href="/Documentation/17_1/Guide/Widgets/DataGrid/Visual_Elements/#Pager">pager</a> must be visible.<br />
+	<sup>3</sup> - <b>selection</b> | <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection#mode">mode</a> must be different from <i>"none"</i>.<br />
+	<sup>4</sup> - <b>selection</b> | <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection#mode">mode</a> must be <i>"multiple"</i>.<br />
+	<sup>5</sup> - <b>selection</b> | <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection#allowSelectAll">allowSelectAll</a> must be <i>true</i>.<br />
+	<sup>6</sup> - The <a href="/Documentation/17_1/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel">search panel</a> must be visible.<br />
+	<sup>7</sup> - A select box appears in a data cell when you use a <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup">lookup</a> in a column.<br />
+	<sup>8</sup> - A calendar appears in a data cell when a column contains data of a <i>"date"</i> <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns#dataType">type</a>.
 </div>

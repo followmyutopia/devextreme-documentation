@@ -1,6 +1,6 @@
 Use the *doughnut* series type when it is necessary to compare the percentage values of different point arguments in the same series, and illustrate these values as easy-to-understand doughnut slices.
 
-![DoughnutSeriesType DonutSeriesType ChartJS](/Content/images/doc/16_2/ChartJS/Doughnut.png)
+![DoughnutSeriesType DonutSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Doughnut.png)
 
 To use this series type, assign *'doughnut'* or *'donut'* the **type** option of the **series** configuration object.
 

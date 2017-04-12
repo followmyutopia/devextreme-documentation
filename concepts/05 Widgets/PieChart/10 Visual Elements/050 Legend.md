@@ -1,6 +1,6 @@
 The **PieChart** widget can include a legend - an explanatory component, which helps you distinguish one series from another on the chart plot. Each series is represented on a legend by an item. An item marker identifies the color of a pie slice. An item label represents the argument of the corresponding point.
 
-![PieChartLegend](/Content/images/doc/16_2/ChartJS/PieChartLegend.png)
+![PieChartLegend](/Content/images/doc/17_1/ChartJS/PieChartLegend.png)
 
 You can tune the legend options within the [legend](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/legend/) configuration object. See the list below to learn information on some of these options.
 

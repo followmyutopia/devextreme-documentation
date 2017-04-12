@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/UseRemoteDataforDataGrid/Solution/grid.html" data-show-first="grid.js">
+<article data-show-web="/Content/Applications/17_1/Framework/UseRemoteDataforDataGrid/Solution/grid.html" data-show-first="grid.js">
 Data for DevExtreme widgets can be loaded from a locally located resource and from a remote service. To simplify your work with data, DevExtreme supplies a Data Library. This library includes the DataSource object that keeps sorting, grouping, filtering and data transformation options, and applies them each time data is loaded. The DataSource underlying data access logic is isolated in a **Store**. Unlike the DataSource, a Store is a stateless object implementing a universal interface for reading and modifying data. Each Store contains the same set of methods. 
 
 The following Store types are implemented out of the box.

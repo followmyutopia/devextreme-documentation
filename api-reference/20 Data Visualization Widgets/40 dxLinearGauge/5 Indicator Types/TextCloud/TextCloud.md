@@ -17,9 +17,9 @@ An object that defines a gauge indicator of the **textCloud** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![TextCloud Gauge Value Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/TextCloudValueIndicator_LinearGauge.png)
+![TextCloud Gauge Value Indicator DevExtreme](/Content/images/doc/17_1/ChartJS/TextCloudValueIndicator_LinearGauge.png)
 
 **Subvalue Indicator**
 
-![TextCloud Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/TextCloudSubvalueIndicator_LinearGauge.png)
+![TextCloud Gauge Subvalue Indicator DevExtreme](/Content/images/doc/17_1/ChartJS/TextCloudSubvalueIndicator_LinearGauge.png)
 <!--/fullDescription-->

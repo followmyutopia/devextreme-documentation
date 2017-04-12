@@ -24,7 +24,7 @@ Now, the **DataGrid** expects that the server implements group paging. If it doe
 - [DevExtreme PHP Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
 
 #####See Also#####
-- [DataGrid and Web API Example](https://github.com/DevExpress/devextreme-examples/tree/16_2/datagrid-webapi)
+- [DataGrid and Web API Example](https://github.com/DevExpress/devextreme-examples/tree/17_1/datagrid-webapi)
 
 If these extensions do not suit your needs, implement all data processing operations on the server by yourself and configure data access on the client side using the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) as shown in the [Custom Sources - Load Data](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/#Load_Data) topic, but mind the following addition.
 

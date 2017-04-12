@@ -1,6 +1,6 @@
 Grouped records in a grid are headed by a group row, which contains the name of that group and helps users identify it.
 
-![DevExtreme DataGrid GroupRows](/Content/images/doc/16_2/DataGrid/GroupRows.png)
+![DevExtreme DataGrid GroupRows](/Content/images/doc/17_1/DataGrid/GroupRows.png)
 
 [note] Although group rows look like rows, internally they are treated like cells. Therefore, in **DataGrid** documentation, you are just as likely to encounter "group row" as "group cell".
 

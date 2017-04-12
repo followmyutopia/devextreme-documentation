@@ -7,4 +7,4 @@ To enable the master-detail interface, assign *true* to the [masterDetail](/Docu
 		}
 	});
 
-![](/Content/images/doc/16_2/DataGrid/MasterDetail_Empty.png)
+![](/Content/images/doc/17_1/DataGrid/MasterDetail_Empty.png)

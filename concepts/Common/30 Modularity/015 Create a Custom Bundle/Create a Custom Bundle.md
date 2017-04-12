@@ -29,8 +29,8 @@ Link themes to your application.
 
     <!--HTML-->
     <!--Link Themes-->
-    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.common.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.ios7.default.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.ios7.default.css" />
 
 The example below demonstrates how to create an application with a single button using the modules and shows the reduced configuration file.
 
@@ -52,8 +52,8 @@ The example below demonstrates how to create an application with a single button
         <!--DevExtreme Bundle-->
         <script type="text/javascript" src="dx.custom.js" charset="utf-8"></script>
         <!--Themes-->
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.ios7.default.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.ios7.default.css" />
     </head>
 
     <body>
@@ -102,8 +102,8 @@ The example below demonstrates how to create an application with a single button
         <!--DevExtreme Bundle-->
         <script type="text/javascript" src="dx.custom.js" charset="utf-8"></script>
         <!--Link Themes-->
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.ios7.default.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.ios7.default.css" />
 
     </head>
 
@@ -162,8 +162,8 @@ The example below demonstrates how to create an application with a single button
         <!--DevExtreme Bundle-->
         <script type="text/javascript" src="dx.custom.js" charset="utf-8"></script>
         <!--Link Themes-->
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_16_2/css/dx.ios7.default.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.ios7.default.css" />
 
     </head>
 

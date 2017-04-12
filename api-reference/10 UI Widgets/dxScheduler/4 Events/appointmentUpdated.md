@@ -28,7 +28,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxScheduler/Methods/#instance"></a> instance.
+The widget <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxScheduler/Methods/#instance"></a> instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->

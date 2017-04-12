@@ -1,6 +1,6 @@
 A total summary item is a grid element that aggregates the entire column of data. It can display the result of different calculations, for example, the number of rows, sum of the column's numeric values, the minimum or maximum value, etc.
 
-![Total Summary](/Content/images/doc/16_2/DataGrid/TotalSummary.png)
+![Total Summary](/Content/images/doc/17_1/DataGrid/TotalSummary.png)
 
 To define a total summary item, use the [summary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/) | [totalItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/) array.
 

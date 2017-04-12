@@ -44,12 +44,12 @@ Defines a value indicated by a bar.
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The value as it was specified in the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#values">values</a> array.
+The value as it was specified in the <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#values">values</a> array.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The value with applied <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/tooltip/#format">formatting</a>.
+The value with applied <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/tooltip/#format">formatting</a>.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->index<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->number<!--/typeFunctionParamType1_field3-->

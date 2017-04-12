@@ -45,7 +45,7 @@ Export options. Can contain the following fields.
             <b>backgroundColor</b> - the color that will fill transparent regions.</br>
         </li>
         <li>
-            <b>proxyUrl</b> - the URL of a server-side proxy required for export in IE9 and Safari on Mac OS.<br />For details, refer to the <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl">proxyUrl</a> option of any widget.
+            <b>proxyUrl</b> - the URL of a server-side proxy required for export in IE9 and Safari on Mac OS.<br />For details, refer to the <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl">proxyUrl</a> option of any widget.
         </li>
     </ul>
 </div>

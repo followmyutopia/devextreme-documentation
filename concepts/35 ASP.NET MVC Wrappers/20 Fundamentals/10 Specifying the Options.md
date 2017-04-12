@@ -27,7 +27,7 @@ DevExtreme ASP.NET MVC Wrappers mirror the [options of the client-side widgets](
 
 Wrapper methods are called using a [fluent interface](https://en.wikipedia.org/wiki/Fluent_interface). In Visual Studio, IntelliSense prompts you the names of available methods, their accepted values and short descriptions.
 
-![DevExtreme HTML5 ASPNET MVCWrappers](/Content/images/doc/16_2/Common/MvcWrappers/fluent-interface.png)
+![DevExtreme HTML5 ASPNET MVCWrappers](/Content/images/doc/17_1/Common/MvcWrappers/fluent-interface.png)
 
 To specify a simple widget option, call the corresponding wrapper method and pass the required option value.
 

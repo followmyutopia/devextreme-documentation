@@ -17,4 +17,4 @@ By default, a total summary item is placed in the [column that provides data](/D
         }
     });
 
-![Total Summary](/Content/images/doc/16_2/DataGrid/SummaryItemLocation.png)
+![Total Summary](/Content/images/doc/17_1/DataGrid/SummaryItemLocation.png)

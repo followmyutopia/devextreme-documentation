@@ -1,4 +1,4 @@
-<article data-show-sln="/Content/Applications/16_2/MVC/MyProject/MyProject.sln">
+<article data-show-sln="/Content/Applications/17_1/MVC/MyProject/MyProject.sln">
 
 DevExtreme widgets are HTML/JavaScript widgets. They can be easily added to any web application/site. In this tutorial, you will see how to add a widget to an MVC project. 
 

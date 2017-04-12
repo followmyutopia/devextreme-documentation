@@ -32,7 +32,7 @@ Specifies the ratio of the current progress to the entire range. (From 0 to 1)
 <!--typeFunctionParamName2-->value<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The current widget value, which can also be accessed using the <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxProgressBar/Configuration/#value">value option</a>.
+The current widget value, which can also be accessed using the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxProgressBar/Configuration/#value">value option</a>.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

@@ -39,7 +39,7 @@ To set a date-time format, assign one of the values above to the **format** | [t
         }
     };
 
-![Date-Time Format](/Content/images/doc/16_2/ChartJS/FormattingDateTime.png)
+![Date-Time Format](/Content/images/doc/17_1/ChartJS/FormattingDateTime.png)
     
 The **format** option also accepts strings. Use this capability as a shortcut for specifying a predefined format.
 

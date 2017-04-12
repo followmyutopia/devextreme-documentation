@@ -1,6 +1,6 @@
 Use the following approaches to customize the selected theme.
 
-![Modify a Theme](Content/images/doc/16_2/PhoneJS/ModifyTheme.png)
+![Modify a Theme](Content/images/doc/17_1/PhoneJS/ModifyTheme.png)
 
 - **Base Theming**  
     You can set the base color to be used within the current theme. In platform-independent themes, you can also set:
@@ -13,17 +13,17 @@ Use the following approaches to customize the selected theme.
 
      - a color for widget element's border, as well as its radius
 
-    ![Modify Widget Styles](Content/images/doc/16_2/PhoneJS/BaseTheming.png)
+    ![Modify Widget Styles](Content/images/doc/17_1/PhoneJS/BaseTheming.png)
 
     The HTML5 Generic Theme is now visually compatible with the [Bootstrap](http://getbootstrap.com/) framework. The DevExtreme Theme Builder allows you to create a custom DevExtreme theme based on a custom Bootstrap theme. For this purpose, import variables from a *.less* file to the Theme Builder, and it will analyze these variables in the file and use them for the newly created DevExtreme theme.
 
-    ![Upload Less Variables](Content/images/doc/16_2/PhoneJS/BaseThemingUploadLessVariables.png)
+    ![Upload Less Variables](Content/images/doc/17_1/PhoneJS/BaseThemingUploadLessVariables.png)
 
     To get a theme that looks like the old Generic Theme, import the following configuration to the Theme Builder.
 
         <!--JavaScript-->
         {
-            "version": "minor_16_2",
+            "version": "minor_17_1",
             "themeId": "1",
             "hue": null,
             "items": [
@@ -48,13 +48,13 @@ Use the following approaches to customize the selected theme.
 - **Advanced Theming**  
     You can observe all styles defined in the current theme for each DevExtreme widget. In the leftmost navigation menu, select a widget. Set the required styles for this widget. Use the demo in the right panel to see the result.
 
-    ![Modify Widget Styles](Content/images/doc/16_2/PhoneJS/AdvancedTheming.png)
+    ![Modify Widget Styles](Content/images/doc/17_1/PhoneJS/AdvancedTheming.png)
 
 You can undo/redo the last change you made to the theme.
 
-![Undo and Redo Changes](Content/images/doc/16_2/PhoneJS/UndoRedo.png)
+![Undo and Redo Changes](Content/images/doc/17_1/PhoneJS/UndoRedo.png)
 
 To undo all changes made during the current session on the site, press the **Reset** button.
 
-![Reset Changes](Content/images/doc/16_2/PhoneJS/ResetChanges.png)
+![Reset Changes](Content/images/doc/17_1/PhoneJS/ResetChanges.png)
 

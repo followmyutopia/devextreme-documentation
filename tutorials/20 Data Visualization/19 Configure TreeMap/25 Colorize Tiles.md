@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureTreeMap/Step5/treemap.html" data-show-first="treemap.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureTreeMap/Step5/treemap.html" data-show-first="treemap.js">
 
 There are several approaches to colorizing tiles.
 

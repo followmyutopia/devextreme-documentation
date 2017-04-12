@@ -14,5 +14,5 @@ Specifies the space between the marker label and the marker separator.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![RangeSelectorScaleMarkerTextLeftIndent ChartJS](/Content/images/doc/16_2/ChartJS/RangeSelectorScaleMarkerTextLeftIndent.png)
+![RangeSelectorScaleMarkerTextLeftIndent ChartJS](/Content/images/doc/17_1/ChartJS/RangeSelectorScaleMarkerTextLeftIndent.png)
 <!--/fullDescription-->

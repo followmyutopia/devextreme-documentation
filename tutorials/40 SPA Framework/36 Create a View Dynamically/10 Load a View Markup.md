@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/framework/DynamicView/step1/index.html" data-show-first="views/home.js">
+<article data-show="/Content/Applications/17_1/framework/DynamicView/step1/index.html" data-show-first="views/home.js">
 
 Use a [simple application](/Documentation/Tutorial/SPA_Framework/Change_a_View_Title_Dynamically/#Prepare_a_Simple_Application) with one view ('home'). Add the [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget to the view. Set the button's [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) configuration option to a function that navigates to a view called 'dynamicView'. Since this view is not referenced in the application page, load the view template to the application and then call the [navigate()](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#navigateuri_options) method.
 

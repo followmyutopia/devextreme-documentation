@@ -45,7 +45,7 @@
 
 Here is the resulting project structure.
 
-![Project Structure](/Content/images/doc/16_2/PhoneJS/AddDataBasedWidgetstoMVCProject_ProjectStructure.png)
+![Project Structure](/Content/images/doc/17_1/PhoneJS/AddDataBasedWidgetstoMVCProject_ProjectStructure.png)
 
 #####See Also#####
 - [Add Widget to MVC Project - jQuery](/Documentation/Tutorial/UI_Widgets/Add_Widget_to_MVC_Project/#Add_a_DevExtreme_Widget/jQuery_Approach) - shows how to add the required libraries and configure a widget with jQuery approach

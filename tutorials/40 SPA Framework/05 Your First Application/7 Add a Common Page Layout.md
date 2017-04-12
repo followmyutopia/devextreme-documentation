@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/framework/YourFirstApplication/step6/YourFirstApplication.html">
+<article data-show="/Content/Applications/17_1/framework/YourFirstApplication/step6/YourFirstApplication.html">
 In this step, add a toolbar to the "home" and "greeting" views and provide a visual transition effect when one view replaces another. In DevExtreme applications, the elements that are common for several views are defined within a page *layout*. The DevExtreme framework comes with a set of [ready-to-use layouts](/Documentation/Guide/SPA_Framework/Built-in_Layouts/) that are characterised by the presence and type of a navigation control. In this application, a navigation control is not required. However, to add a common toolbar, the predefined [simple](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Simple_Layout) layout is appropriate.
 
 - [Link](/Documentation/Guide/SPA_Framework/Application_Project/#Layouts) the *SimpleLayout.html*, *SimpleLayout.css* and *SimpleLayout.js* files in the application page.

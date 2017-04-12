@@ -4,10 +4,10 @@
     $(function () {
         $("#galleryContainer").dxGallery({
             dataSource: [{
-                imageSrc: "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person1.png",
+                imageSrc: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png",
                 disabled: true
             }, {
-                imageSrc: "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person2.png",
+                imageSrc: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png",
                 imageAlt: "Peter"
             }],
             height: 300
@@ -21,9 +21,9 @@ Using the default item template is the easiest way to customize an item, but it 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.galleryData = [
-                { path: "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person1.png", name: "Maria" },
-                { path: "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person2.png", name: "John" },
-                { path: "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person3.png", name: "Xavier" }
+                { path: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png", name: "Maria" },
+                { path: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png", name: "John" },
+                { path: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person3.png", name: "Xavier" }
             ];
         });
 
@@ -48,9 +48,9 @@ Using the default item template is the easiest way to customize an item, but it 
 
     <!--JavaScript-->var viewModel = {
         galleryData: [
-            { path: "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person1.png", name: "Maria" },
-            { path: "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person2.png", name: "John" },
-            { path: "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person3.png", name: "Xavier" }
+            { path: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png", name: "Maria" },
+            { path: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png", name: "John" },
+            { path: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person3.png", name: "Xavier" }
         ]
     };
 
@@ -95,7 +95,7 @@ You can also customize an individual **Gallery** item. For this purpose, declare
 
     <!--JavaScript-->
     var galleryData = [{
-        imageSrc: "https://js.devexpress.com/Content/images/doc/16_2/PhoneJS/person1.png",
+        imageSrc: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png",
         imageAlt: "Maria",
         template: $("#individualTemplate"),
     },

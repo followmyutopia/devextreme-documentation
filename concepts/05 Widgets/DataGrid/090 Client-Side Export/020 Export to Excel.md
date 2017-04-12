@@ -1,6 +1,6 @@
 The **DataGrid** widget exports data to excel as it is presented in the grid - with sorting, filtering and grouping applied. Data types in the resulting Excel file are kept - numbers stay numbers, dates stay dates. This allows users to work with the exported data in Excel without any data transformations. For instance, users can use the exported data in Excel formulas, summaries, etc.
 
-![DevExtreme DataGrid Export to Excel](/Content/images/doc/16_2/DataGrid/Export_ToExcel.png)
+![DevExtreme DataGrid Export to Excel](/Content/images/doc/17_1/DataGrid/Export_ToExcel.png)
 
 [note]Take into account the limitations related to Excel possibilities when exporting grid data to Excel.
 

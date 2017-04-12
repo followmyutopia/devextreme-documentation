@@ -1,6 +1,6 @@
 An area is the fundamental element of the **VectorMap** widget. Map areas usually represent geographical objects, such as countries, continents, etc.
 
-![DevExtreme ChartJS VectorMap](/Content/images/doc/16_2/ChartJS/MapAreas.png)
+![DevExtreme ChartJS VectorMap](/Content/images/doc/17_1/ChartJS/MapAreas.png)
 
 #####See Also#####
 - [Vector Map - Data for Areas](/Documentation/Guide/Widgets/VectorMap/Providing_Data#Data_for_Areas)

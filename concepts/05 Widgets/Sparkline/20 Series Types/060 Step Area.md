@@ -1,6 +1,6 @@
 A *step area* series type sparkline presents data as a line of joined horizontal and vertical lines that connects a set of invisible points. This line, which resembles staircase steps, is complemented with a shaded area beneath it.
 
-![DevExtreme ChartJS Sparkline](/Content/images/doc/16_2/ChartJS/SparklineStepArea.png)
+![DevExtreme ChartJS Sparkline](/Content/images/doc/17_1/ChartJS/SparklineStepArea.png)
 
 To specify the *step area* series type, assign *'steparea'* to the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#type) option of the main configuration object.
 

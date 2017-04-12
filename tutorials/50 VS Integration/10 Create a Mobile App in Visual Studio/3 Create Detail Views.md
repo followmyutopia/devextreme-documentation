@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/LearningCenter/Data-BoundApplication/step2-1/index.html">
+<article data-show="/Content/Applications/17_1/LearningCenter/Data-BoundApplication/step2-1/index.html">
 
 Implement an HTML template for the "ProductDetails" detail view.
 

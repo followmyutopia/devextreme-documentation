@@ -1,4 +1,4 @@
-DevExtreme comes with a set of predefined themes. Each theme is represented by CSS classes that are responsible for giving consistency to an application. Within the predefined themes, you will find those that are meant for your particular mobile platform. You can find the theme files in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 16.2\DevExtreme\Sources\Lib\css** by default. A folder with predefined themes is added to the application project templates as well. So you don't have to add them manually.
+DevExtreme comes with a set of predefined themes. Each theme is represented by CSS classes that are responsible for giving consistency to an application. Within the predefined themes, you will find those that are meant for your particular mobile platform. You can find the theme files in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 17.1\DevExtreme\Sources\Lib\css** by default. A folder with predefined themes is added to the application project templates as well. So you don't have to add them manually.
 
 Here are the predefined themes that are currently supplied with DevExtreme products.
 
@@ -41,16 +41,16 @@ Here are the predefined themes that are currently supplied with DevExtreme produ
             "height": 641
         },
         "images": [
-            { "image": "Content/images/doc/16_2/Common/PredefinedThemes/Generic_Light.png", "text": "'generic.light'" },
-            { "image": "Content/images/doc/16_2/Common/PredefinedThemes/Generic_Dark.png", "text": "'generic.dark'" },
-            { "image": "Content/images/doc/16_2/Common/PredefinedThemes/iOS7.png", "text": "'ios7.default'" },
-            { "image": "Content/images/doc/16_2/Common/PredefinedThemes/Android5.png", "text": "'android5.light'" },
-            { "image": "Content/images/doc/16_2/Common/PredefinedThemes/Win10_White.png", "text": "'win10.white'" },
-            { "image": "Content/images/doc/16_2/Common/PredefinedThemes/Win10_Black.png", "text": "'win10.black'" },
-            { "image": "Content/images/doc/16_2/Common/PredefinedThemes/generic_compact.png", "text": "'generic.light.compact'" },
-            { "image": "Content/images/doc/16_2/Common/PredefinedThemes/generic-dark-compact.png", "text": "'generic.dark.compact'" },
-            { "image": "Content/images/doc/16_2/Common/PredefinedThemes/contrast.png", "text": "'generic.contrast'" },
-            { "image": "Content/images/doc/16_2/Common/PredefinedThemes/contrast-compact.png", "text": "'generic.contrast.compact'" }
+            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/Generic_Light.png", "text": "'generic.light'" },
+            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/Generic_Dark.png", "text": "'generic.dark'" },
+            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/iOS7.png", "text": "'ios7.default'" },
+            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/Android5.png", "text": "'android5.light'" },
+            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/Win10_White.png", "text": "'win10.white'" },
+            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/Win10_Black.png", "text": "'win10.black'" },
+            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/generic_compact.png", "text": "'generic.light.compact'" },
+            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/generic-dark-compact.png", "text": "'generic.dark.compact'" },
+            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/contrast.png", "text": "'generic.contrast'" },
+            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/contrast-compact.png", "text": "'generic.contrast.compact'" }
         ]}
     </script>
 </div>

@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/PivotGridTutorial/Step4/pivotGrid.html" data-show-first="pivotGrid.html">
+<article data-show-web="/Content/Applications/17_1/Framework/PivotGridTutorial/Step4/pivotGrid.html" data-show-first="pivotGrid.html">
 **Dimensional fields** are used to form conditions for calculating summary values displayed in the pivot grid cells. Such fields can be placed to the **row**, **column** or **filter** areas only. For example, you can place the 'Date' dimension to the **column** area and the 'Shipped To' dimension to the **row** area to see the dynamics of a certain parameter in different periods of time, as well as its shipping directions.
 
 **Dimension** consists of one or more **fields** (attributes in OLAP terminology). For example, the 'Date' dimension can consist of the 'Year', 'Quarter' and 'Month' fields. To configure fields, assign an array to the PivotGridDataSource's [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) option. The minimal configuration of a dimensional field includes the following options.

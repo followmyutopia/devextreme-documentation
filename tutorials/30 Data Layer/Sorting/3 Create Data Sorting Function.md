@@ -1,4 +1,4 @@
-﻿<article data-show-web="/Content/Applications/16_2/DataLayer/Sorting/Step4/markup.html" data-show-first="script.js">
+﻿<article data-show-web="/Content/Applications/117_1DataLayer/Sorting/Step4/markup.html" data-show-first="script.js">
 
 Implement a function that will apply new sorting options to the DataSource instance and load data. The [sort()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#sortsortExpr) method applies new sorting options to the DataSource instance. The **sortOptions** parameter of the **sortData** function specifies the [sorting expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting) passed to the **sort()** method. The [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method loads data in consideration of the applied sorting options.
 </article>

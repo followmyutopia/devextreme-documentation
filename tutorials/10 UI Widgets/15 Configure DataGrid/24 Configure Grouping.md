@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/DataGridTutorial/Step7/grid.html" data-show-first="grid.html">
+<article data-show-web="/Content/Applications/17_1/Framework/DataGridTutorial/Step7/grid.html" data-show-first="grid.html">
 In order to enable grouping, make the group panel visible by setting the **groupPanel** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) option to *true*. To group grid records, drag-and-drop a column onto a [group panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Panel) located in the upper-left corner of the grid layout. Certain columns can be restricted from being grouped. For these columns, the [allowGrouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping) option must be set to *false*. The appearance of the group panel can be configured using options of the [groupPanel](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/) option.
 
 In the grid being configured, make the group panel visible and disable grouping for the *"Title"*, *"Year"*, *"Price"* and *"Length"* columns. Then, move to the next step to configure paging.

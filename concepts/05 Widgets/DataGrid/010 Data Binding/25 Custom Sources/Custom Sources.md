@@ -24,6 +24,6 @@ If the server does not process data yet, employ one of the following extensions 
 If these extensions do not suit your needs, configure the **CustomStore** and implement server-side data processing by yourself following the instructions given in this article. Note that the server may leave some of the data processing operations unimplemented. In this case, make sure that the corresponding fields of the **remoteOperations** object are set to *false*.
 
 #####See Also#####
-- [DataGrid and Web API Example](https://github.com/DevExpress/devextreme-examples/tree/16_2/datagrid-webapi)
+- [DataGrid and Web API Example](https://github.com/DevExpress/devextreme-examples/tree/17_1/datagrid-webapi)
 - [DataGrid and ASP.NET Core MVC Example](https://github.com/DevExpress/DevExtreme.AspNet.Data/tree/master/net)
 - [DataGrid and PHP Example](https://github.com/DevExpress/DevExtreme-PHP-Data/tree/master/example)

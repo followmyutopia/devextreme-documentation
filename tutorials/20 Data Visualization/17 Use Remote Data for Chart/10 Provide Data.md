@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/DataVisualization/UseRemoteDataforChart/Step3/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/UseRemoteDataforChart/Step3/chart.html" data-show-first="chart.js">
 Create a [CustomStore](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources) object to get JSON data from the file added in the previous step. In the configuration object of the CustomStore constructor, specify the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function. In the code below, the **load** function gets JSON data from the specified URL. You can make a more complex request to get filtered or sorted data, taking the load options passed as a parameter into account.
 
 Use the created Data Store to provide the DataSource object for the chart. For this purpose, do the following.

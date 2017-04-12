@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/16_2/framework/GlobalNavigationCommands/step1/index.html" data-show-first="views/navigation.html">
+<article data-show="/Content/Applications/17_1/framework/GlobalNavigationCommands/step1/index.html" data-show-first="views/navigation.html">
 
 Use the [application project template](/Documentation/Guide/SPA_Framework/Application_Project/) for the sample application. Replace the 'navbar' [layout set](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#layoutSet) used by default with the 'simple' layout set. In the 'simple' layout set, the [Simple](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Simple_Layout) layout is used for application views. This layout does not have a 'global-navigation' command container widget. So, do the following to display the commands that are created based on the [navigation](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#navigation) option specified in the application by default.
 

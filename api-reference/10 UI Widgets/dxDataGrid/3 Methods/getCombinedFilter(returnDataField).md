@@ -14,12 +14,12 @@ Returns a filter expression applied to the grid using all possible scenarios.
 <!--paramName1-->returnDataField<!--/paramName1-->
 <!--paramType1-->boolean<!--/paramType1-->
 <!--paramDescription1-->
-Specifies whether or not the filter expressions should contain data fields instead of <a href="https://js.devexpress.com/Documentation/16_2/Guide/Data_Layer/Data_Layer/#Getters_And_Setters">getters</a>.
+Specifies whether or not the filter expressions should contain data fields instead of <a href="https://js.devexpress.com/Documentation/17_1/Guide/Data_Layer/Data_Layer/#Getters_And_Setters">getters</a>.
 <!--/paramDescription1-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-A <a href="/Documentation/16_2/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering">filter expression</a>.
+A <a href="/Documentation/17_1/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering">filter expression</a>.
 <!--/returnDescription-->
 
 <!--fullDescription-->

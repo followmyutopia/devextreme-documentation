@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureVectorMap/Step2/vectorMap.html" data-show-first="vectorMap.html">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureVectorMap/Step2/vectorMap.html" data-show-first="vectorMap.html">
 
   As you work to implement a US map with the capitals of 10 most populous states indicated on it, ensure to also provide data for the map. On this map, the states will be represented by areas, while the capitals will be indicated by markers.
 

@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureVectorMap/Step4/vectorMap.html" data-show-first="vectorMap.js">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureVectorMap/Step4/vectorMap.html" data-show-first="vectorMap.js">
 
 To configure your map, you will need to utilize positioning adjustments, e.g., zooming or centering on some point of the map. These actions can be performed using the **bounds**, **center** and **zoomFactor** options.
 

@@ -14,18 +14,18 @@ Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integrat
         <configuration>
             <packageSources>
                 <add key="devextreme-wrappers-netcore"
-                     value="C:\Program Files (x86)\DevExpress 16.2\DevExtreme\System\Bin\AspNetCore" />
+                     value="C:\Program Files (x86)\DevExpress 17.1\DevExtreme\System\Bin\AspNetCore" />
             </packageSources>  
         </configuration>
 
 2. Add the following string to the *project.json* file into the `"dependencies"` section.
 
-        "DevExtreme.AspNet.Core": "16.2.*"
+        "DevExtreme.AspNet.Core": "17.1.*"
 
 3. Add the following strings to the *bower.json* file into the `"dependencies"` section.
 
         "jquery": "~3.1",
-        "devextreme": "~16.2",
+        "devextreme": "~17.1",
         "devextreme-aspnet-data": "~1"
 
     [note]If the *bower.json* file is absent, run the console in the project directory and execute the [`bower init`](https://bower.io/docs/api/#init) command in it.

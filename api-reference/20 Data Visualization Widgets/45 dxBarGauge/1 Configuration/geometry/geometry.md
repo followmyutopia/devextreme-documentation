@@ -15,5 +15,5 @@ Defines the shape of the gauge's arc.
 <!--fullDescription-->
 Specify the **startAngle** and **endAngle** options of the **geometry** configuration object to customize the shape of the bar gauge's arc. This arc is drawn from the **startAngle** to the **endAngle** as illustrated by the following image.
 
-![GaugeGeometry ChartJS](/Content/images/doc/16_2/ChartJS/BarGaugeGeometry.png)
+![GaugeGeometry ChartJS](/Content/images/doc/17_1/ChartJS/BarGaugeGeometry.png)
 <!--/fullDescription-->

@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/CollectionWidgetSearch/Step2/markup.html">
+<article data-show-web="/Content/Applications/17_1/Framework/CollectionWidgetSearch/Step2/markup.html">
 
 In this tutorial, you will use the [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) widget to specify the search text. Add the **TextBox** widget to the application in the same manner as you added the **List** widget in the previous step. Currently, the configuration object passed to the **TextBox** widget contains the following options.
 

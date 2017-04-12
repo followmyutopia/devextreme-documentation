@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/ConfigureWidget/Step3/markup.html">
+<article data-show-web="/Content/Applications/17_1/Framework/ConfigureWidget/Step3/markup.html">
 To handle a button click, pass the handling function to the [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) option of the widget.
 
 Implement the required handling function and pass it to the **onClick** option of the widget, as shown in the *script.js* file below. 

@@ -11,7 +11,7 @@ To anchor columns to grid edges, set the grid's [columnFixing](/Documentation/Ap
 		}
 	};
 
-![DevExtreme DataGrid Column Fixing](/Content/images/doc/16_2/DataGrid/dxDataGrid_ColumnFixing_ContextMenu.png)
+![DevExtreme DataGrid Column Fixing](/Content/images/doc/17_1/DataGrid/dxDataGrid_ColumnFixing_ContextMenu.png)
 
 You can prevent the fixing of a particular column by setting its [allowFixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFixing) option to *false*. In this instance, the fixing-related commands will not be available in the column's context menu.
 
@@ -27,7 +27,7 @@ Columns can be fixed at runtime and at design time. If you require certain colum
 		}]
 	}
 
-![DevExtreme DataGrid Column Fixing](/Content/images/doc/16_2/DataGrid/FixedColumns.gif)
+![DevExtreme DataGrid Column Fixing](/Content/images/doc/17_1/DataGrid/FixedColumns.gif)
 
 Note that the command columns, the ones containing check boxes to select rows or links to save/delete rows, are fixed when you enable column fixing, since the **fixed** option is set to *true* for these columns internally. 
 

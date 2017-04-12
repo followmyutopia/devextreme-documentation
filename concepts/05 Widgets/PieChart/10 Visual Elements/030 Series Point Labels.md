@@ -1,6 +1,6 @@
 Each series point can be accompanied with a label. These labels display data related to the point. It can be the point's argument, value or both. You can customize the label text, if it is required.
 
-![PieChartSeriesPointLabels](/Content/images/doc/16_2/ChartJS/PieChartSeriesPointLabels.png)
+![PieChartSeriesPointLabels](/Content/images/doc/17_1/ChartJS/PieChartSeriesPointLabels.png)
 
 By default, point labels are not displayed. To make them visible, set the **visible** option of the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/) object to *true*.
 

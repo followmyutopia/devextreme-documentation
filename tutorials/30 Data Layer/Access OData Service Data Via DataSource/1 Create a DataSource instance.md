@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataLayer/AccessODataServiceDataViaDataSource/Step2/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/17_1/DataLayer/AccessODataServiceDataViaDataSource/Step2/markup.html" data-show-first="script.js">
 
 To load data from a remote OData service, use a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance based on the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/). To create an **ODataStore** within the **DataSource** instance, pass its configuration object to the [store](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#store) option of the **DataSource**. The required configuration object should contain the type property specifying the target store type. This property should be set to "odata". Another required property for an OData store is **url**, which specifies the path to the required OData table.
 

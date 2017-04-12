@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureCharts/Step7/chart.html" data-show-first="chart.html">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureCharts/Step7/chart.html" data-show-first="chart.html">
 *Data used in this help doc is taken from the **http://www.geohive.com** resource.*
 
 To show a breakdown of a collection of data, use the **PieChart** widget supplied by the DevExtreme Data Visualization library. Like all widgets from this library, **PieChart** can be created using the [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/), [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/) or [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) approach.

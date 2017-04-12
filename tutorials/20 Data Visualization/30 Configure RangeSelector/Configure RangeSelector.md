@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/DataVisualization/Lessons/ConfigureRangeSelector/Solution/rangeSelector.html">
+<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureRangeSelector/Solution/rangeSelector.html">
 This guide contains detailed instructions on how to configure the **RangeSelector** widget. You will learn to define the **RangeSelector**'s scale, customize the default appearance to your requirements and work with the currently selected range. As a result, you will get a widget that allows you to select a time period. For instance, this widget may be useful for an online ticket booking service to filter results according to the time range selected by a client.
 
 #####See Also#####

@@ -1,4 +1,4 @@
-﻿<article data-show="/Content/Applications/16_2/LearningCenter/Data-BoundApplication/step4-1/index.html">
+﻿<article data-show="/Content/Applications/117_1LearningCenter/Data-BoundApplication/step4-1/index.html">
   
 - To provide data for the list items using a data service, change the use of the **items** option to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#dataSource) option in the **dxList** configuration object. Bind the **dataSource** option to the **dataSource** field of the ViewModel object.
 - Open the *categories.js* file. It contains the **categories** function. This function has the same name as the view's HTML template, so this function will be found and called when the "Categories" view is displayed. The object that is returned by the **categories** function is a ViewModel for the "Categories" view.

@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/16_2/Framework/UseOLAPDataForPivotGrid/Step6/pivotGrid.html" data-show-first="pivotGrid.html">
+<article data-show-web="/Content/Applications/17_1/Framework/UseOLAPDataForPivotGrid/Step6/pivotGrid.html" data-show-first="pivotGrid.html">
 Finally, you can give an end-user more interaction capabilities by setting the following options to *true*.
 
 * Options that affect the header's context menu.

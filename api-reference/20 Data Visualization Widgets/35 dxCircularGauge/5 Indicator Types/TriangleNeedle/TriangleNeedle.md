@@ -17,9 +17,9 @@ An object that defines a gauge indicator of the **triangleNeedle** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![TriangleNeedle Gauge Value Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/TriangleNeedleValueIndicator.png)
+![TriangleNeedle Gauge Value Indicator DevExtreme](/Content/images/doc/17_1/ChartJS/TriangleNeedleValueIndicator.png)
 
 **Subvalue Indicator**
 
-![TriangleNeedle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/TriangleNeedleSubvalueIndicator.png)
+![TriangleNeedle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/17_1/ChartJS/TriangleNeedleSubvalueIndicator.png)
 <!--/fullDescription-->

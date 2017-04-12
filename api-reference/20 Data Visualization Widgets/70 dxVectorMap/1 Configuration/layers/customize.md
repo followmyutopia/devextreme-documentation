@@ -36,5 +36,5 @@ Only the following options can be changed in the **customize** function.
 <!--typeFunctionParamName1-->elements<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->array<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The array of <a href="/Documentation/16_2/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element">layer elements</a>.
+The array of <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element">layer elements</a>.
 <!--/typeFunctionParamDescription1-->

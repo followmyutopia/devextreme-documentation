@@ -2,4 +2,4 @@
 
 Summaries are values (often numeric) displayed in the pivot grid cells. Each summary value is located at the intersection of a row header group and column header group. Headers describe the meaning of each summary value. Summaries are configured in the [fields](/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/) of the "data" [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) (**data fields** or **measures** in OLAP terminology). If the "data" area contains more than one field, the column header is supplemented with another row that helps to identify the data field to which the summary value belongs. The following image explains how to interpret summary values.
 
-![](/Content/images/doc/16_2/DataGrid/PivotGrid_Summaries.png)
+![](/Content/images/doc/17_1/DataGrid/PivotGrid_Summaries.png)

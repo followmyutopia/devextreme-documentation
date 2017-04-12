@@ -1,6 +1,6 @@
 Press F5 to run a [DevExtreme application](/Documentation/Guide/VS_Integration/Project_Templates/#DevExtreme_App_Project_Template) being implemented in Visual Studio. The simulator will run. It will show the application in different devices.
 
-![Application in Simulator](Content/images/doc/16_2/DevExtreme/AppInSimuilator.png)
+![Application in Simulator](Content/images/doc/17_1/DevExtreme/AppInSimuilator.png)
 
 Use the following capabilities of the simulator to test your application.
 
@@ -17,6 +17,6 @@ Use the following capabilities of the simulator to test your application.
 
 The simulator runs to show your application because the DevExtreme project has the **Run in simulator** property set to *true* by default. Right-click the project with your application and switch to the **Debug** tab in the invoked pane. Here you can see the **Simulator** section and the **Run in simulator** property in it. If you uncheck this property, the application will run in the browser as a web application. This mode is useful to test the URIs that are generated when navigating between views.
 
-![Application in Simulator](Content/images/doc/16_2/DevExtreme/SimulatorProperties.png)
+![Application in Simulator](Content/images/doc/17_1/DevExtreme/SimulatorProperties.png)
 
 As you can see, you can set the default device and orientation for the simulator using project properties.

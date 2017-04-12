@@ -11,11 +11,11 @@ An end user can use the following keys to interact with the widget.
     <tbody>
     <tr>
       <td>&uarr; or mouse wheel up</td>
-      <td>Increases the widget value by a <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxNumberBox/Configuration/#step">step</a>.</td>
+      <td>Increases the widget value by a <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxNumberBox/Configuration/#step">step</a>.</td>
     </tr>
     <tr>
       <td>&darr; or mouse wheel down</td>
-      <td>Decreases the widget value by a <a href="/Documentation/16_2/ApiReference/UI_Widgets/dxNumberBox/Configuration/#step">step</a>.</td>
+      <td>Decreases the widget value by a <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxNumberBox/Configuration/#step">step</a>.</td>
     </tr>
     </tbody>
   </table>

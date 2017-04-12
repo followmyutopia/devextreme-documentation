@@ -1,6 +1,6 @@
 ﻿Since a point is set up by two coordinates - an argument and a value - there should be two axes: one defining arguments and one defining values. This topic describes the axis of values, which is called _value axis_. To learn about the axis of arguments, refer to the [Argument Axis](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Argument_Axis) topic. To get common information on the **PolarChart** widget's axes, refer to the [Axes](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes) topic.
 
-![Value Axis](/Content/images/doc/16_2/ChartJS/Polar_ValueAxis.png)
+![Value Axis](/Content/images/doc/17_1/ChartJS/Polar_ValueAxis.png)
 
 There are three types of value axes.
 
@@ -31,7 +31,7 @@ If values in the series' data source represent strings, a _discrete_ axis is cre
 		{ angle: 360, value: 'Sector A' }
 	];
 
-![Discrete Value Axis](/Content/images/doc/16_2/ChartJS/Polar_DiscreteValueAxis.png)
+![Discrete Value Axis](/Content/images/doc/17_1/ChartJS/Polar_DiscreteValueAxis.png)
 
 If values in the series' data source are of numeric or date-time type, a _continuous_ axis is created. The axis ticks/grid lines are arranged so that the axis labels do not overlap each other. The following example demonstrates this.
 
@@ -43,7 +43,7 @@ If values in the series' data source are of numeric or date-time type, a _contin
 		{ angle: 360, value: 85 },
 	];
 
-![Continuous Value Axis](/Content/images/doc/16_2/ChartJS/Polar_ContinuousValueAxis.png)
+![Continuous Value Axis](/Content/images/doc/17_1/ChartJS/Polar_ContinuousValueAxis.png)
 
 In addition to discrete and continuous types, you can use the _logarithmic_ axis type. This type can be used with numeric data source values only. Each value on a logarithmic axis represents a number (logarithm base) raised to a power. This number is specified by the [logarithmBase](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/valueAxis/#logarithmBase) option. The logarithmic axis is useful when you visualize a huge range of data.
 

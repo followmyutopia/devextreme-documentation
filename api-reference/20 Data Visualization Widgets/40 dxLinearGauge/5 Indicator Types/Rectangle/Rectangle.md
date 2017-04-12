@@ -17,9 +17,9 @@ An object defining a gauge indicator of the **rectangle** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![Rectangle Gauge Value Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/RectangleValueIndicator.png)
+![Rectangle Gauge Value Indicator DevExtreme](/Content/images/doc/17_1/ChartJS/RectangleValueIndicator.png)
 
 **Subvalue Indicator**
 
-![Rectangle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/16_2/ChartJS/RectangleSubvalueIndicator.png)
+![Rectangle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/17_1/ChartJS/RectangleSubvalueIndicator.png)
 <!--/fullDescription-->

@@ -79,7 +79,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
 [note] To use AngularJS and DevExtreme widget modules with RequireJS, you should load the DevExtreme [integration](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/angular) and angular modules.
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/16_2/jspm-angularjs) from GitHub. To use it, follow the instructions on GitHub.  
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/17_1/jspm-angularjs) from GitHub. To use it, follow the instructions on GitHub.  
 
 **index.js**
 

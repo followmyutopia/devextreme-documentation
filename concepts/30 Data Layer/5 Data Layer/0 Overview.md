@@ -6,7 +6,7 @@ The DataSource underlying data access logic is isolated in a Store. Unlike the D
 
 The following picture illustrates how the DataSource and Stores interact.
 
-![Data Layer](/Content/images/doc/16_2/PhoneJS/scheme-data-layer.png)
+![Data Layer](/Content/images/doc/17_1/PhoneJS/scheme-data-layer.png)
 
 #####See Also#####
 - [Data Layer Tutorials](/Documentation/Tutorials#datalayer)

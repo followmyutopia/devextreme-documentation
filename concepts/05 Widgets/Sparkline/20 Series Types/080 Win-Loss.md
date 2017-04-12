@@ -1,6 +1,6 @@
 The *win-loss* series type will suit you best when you need to demonstrate whether or not some values have had success in exceeding a specific threshold value. This series type strongly resembles the [bar](/Documentation/Guide/Widgets/Sparkline/Series_Types/#Bar) series type. The fundamental difference is that while in a *bar* series, bars are classified as being greater or less than zero, in a *win-loss* series, they are classified as being greater or less than a specific value called "threshold".
 
-![DevExtreme ChartJS Sparkline](/Content/images/doc/16_2/ChartJS/SparklineWinLoss.png)
+![DevExtreme ChartJS Sparkline](/Content/images/doc/17_1/ChartJS/SparklineWinLoss.png)
 
 To specify the *win-loss* series type, assign *'winloss'* to the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#type) option of the main configuration object.
 
