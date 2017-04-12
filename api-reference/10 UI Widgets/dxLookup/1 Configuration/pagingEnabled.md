@@ -5,5 +5,5 @@
 
 **-->
 <!--merge--><!--/merge-->
-<!--dep-->dataSource.paginate.md<!--/dep-->
+<!--dep-->..\..\..\30 Data Layer\DataSource\1 Configuration\paginate.md<!--/dep-->
 ===========================================================================
