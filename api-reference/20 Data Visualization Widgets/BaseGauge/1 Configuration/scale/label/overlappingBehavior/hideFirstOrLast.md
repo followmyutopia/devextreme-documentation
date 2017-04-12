@@ -4,11 +4,16 @@
 -------------------------------------------
 
 **-->
+<!--dep-->..\hideFirstOrLast.md<!--/dep-->
 ===========================================================================
 <!--default-->'last'<!--/default-->
 <!--acceptValues-->'last' | 'first'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
+
+<!--deprecated-->
+
+<!--/deprecated-->
 
 <!--shortDescription-->
 Specifies what label to hide in case of overlapping.

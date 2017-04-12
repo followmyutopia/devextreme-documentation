@@ -5,13 +5,13 @@
 
 **-->
 ===========================================================================
-<!--default-->'hide'<!--/default-->
-<!--acceptValues-->'hide' | 'none'<!--/acceptValues-->
-<!--type-->string | object<!--/type-->
+<!--default-->'last'<!--/default-->
+<!--acceptValues-->'last' | 'first'<!--/acceptValues-->
+<!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the overlap resolving options to be applied to scale labels.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

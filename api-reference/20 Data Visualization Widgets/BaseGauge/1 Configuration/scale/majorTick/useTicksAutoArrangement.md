@@ -4,7 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--dep-->..\label\overlappingBehavior\useAutoArrangement.md<!--/dep-->
+<!--dep-->..\label\overlappingBehavior\overlappingBehavior.md<!--/dep-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->

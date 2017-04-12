@@ -4,10 +4,15 @@
 -------------------------------------------
 
 **-->
+<!--dep-->label\overlappingBehavior.md<!--/dep-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->boolean<!--/type-->
 ===========================================================================
+
+<!--deprecated-->
+
+<!--/deprecated-->
 
 <!--shortDescription-->
 Specifies whether or not to expand the current tick interval if labels overlap each other.

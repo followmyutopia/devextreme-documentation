@@ -7,11 +7,11 @@
 ===========================================================================
 <!--default-->'hide'<!--/default-->
 <!--acceptValues-->'hide' | 'none'<!--/acceptValues-->
-<!--type-->string | object<!--/type-->
+<!--type-->string<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the overlap resolving options to be applied to scale labels.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
