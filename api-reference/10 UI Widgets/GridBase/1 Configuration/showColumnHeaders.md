@@ -10,9 +10,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether [column headers](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Configuring_Column_Headers) are visible or not.
+Specifies whether column headers are visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A column header contains a column caption. For more information about captions, see the **columns** | [caption]({basewidgetpath}/Configuration/columns/#caption) option description.
+#####See Also#####
+- **columns[]** | [caption]({basewidgetpath}/Configuration/columns/#caption)
 <!--/fullDescription-->

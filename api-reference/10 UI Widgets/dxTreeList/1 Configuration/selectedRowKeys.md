@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the keys of rows that must be selected initially. Applies only if **selection** | [deferred]({basewidgetpath}/Configuration/selection/#deferred) is *false*.
+Specifies the keys of rows that must be selected initially.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -19,3 +19,6 @@ To access a row by its key, you should specify the field that provides keys. For
 - [getSelectedRowKeys()]({basewidgetpath}/Methods/#getSelectedRowKeys)
 - [getSelectedRowsData()]({basewidgetpath}/Methods/#getSelectedRowsData)
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->
