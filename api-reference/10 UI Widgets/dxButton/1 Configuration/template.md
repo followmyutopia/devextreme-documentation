@@ -33,6 +33,16 @@ This option enables you to render a widget depending on the values of the field 
 <!--typeFunctionParamDescription1-->
 An object holding the button text and icon.
 <!--/typeFunctionParamDescription1-->
+<!--typeFunctionParamName1_field1-->text<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamDescription1_field1-->
+
+<!--/typeFunctionParamDescription1_field1-->
+<!--typeFunctionParamName1_field2-->icon<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamDescription1_field2-->
+
+<!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->jQuery<!--/typeFunctionParamType2-->
