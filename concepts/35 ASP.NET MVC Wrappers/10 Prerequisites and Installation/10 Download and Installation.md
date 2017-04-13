@@ -20,7 +20,8 @@ Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integrat
 
 2. Add the following string to the *project.json* file into the `"dependencies"` section.
 
-        "DevExtreme.AspNet.Core": "17.1.*"
+        "DevExtreme.AspNet.Data": "1.*",
+        "DevExtreme.AspNet.Core": "17.1-*"
 
 3. Add the following strings to the *bower.json* file into the `"dependencies"` section.
 
