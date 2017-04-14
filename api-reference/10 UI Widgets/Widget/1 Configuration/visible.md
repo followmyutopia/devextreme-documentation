@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A Boolean value specifying whether or not the widget is visible.
+Specifies whether the widget is visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->

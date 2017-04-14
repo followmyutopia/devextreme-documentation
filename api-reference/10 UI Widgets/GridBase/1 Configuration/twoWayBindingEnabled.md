@@ -14,9 +14,8 @@ Specifies whether to enable two-way data binding.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Two-way data binding ensures that the UI tracks changes made in the data source by a 3rd-party instrument, and vice versa, the data source gets updated according to changes in the UI. Thus, the widget and its data source can continue to correspond to each other. 
+Two-way data binding ensures that the UI tracks changes made in the data source by a 3rd-party component, and vice versa. This way, the widget and its data source stay synchronized. 
+If you implement two-way data binding in the widget on your own using the [cellTemplate]({basewidgetpath}/Configuration/columns/#cellTemplate) and/or [editCellTemplate]({basewidgetpath}/Configuration/columns/#editCellTemplate) options, make sure to set the **twoWayBindingEnabled** option to *false*.
 
-[note] **DataGrid** provides this feature through Knockout and AngularJS resources, so make sure that you have [added these libraries](/Documentation/Guide/Getting_Started/Installation/DevExtreme_Dependencies/) to your app.
-
-In certain scenarios, you may want to implement two-way data binding in **DataGrid** on your own. For this purpose, you can specify [cellTemplate]({basewidgetpath}/Configuration/columns/#cellTemplate) and/or [editCellTemplate]({basewidgetpath}/Configuration/columns/#editCellTemplate) options. If so, make sure that you have the **twoWayBindingEnabled** option set to *false*.
+[note] The widget provides two-way data binding through Knockout, Angular or AngularJS resources, so make sure to [add these libraries](/Documentation/Guide/Getting_Started/Installation/DevExtreme_Dependencies/) to your app.
 <!--/fullDescription-->

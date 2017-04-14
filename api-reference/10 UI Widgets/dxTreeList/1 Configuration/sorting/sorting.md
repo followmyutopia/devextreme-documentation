@@ -15,14 +15,14 @@ Configures runtime sorting.
 <!--fullDescription-->
 A user can sort rows by values of a single or multiple columns depending on the value of the **sorting** | [mode]({basewidgetpath}/Configuration/sorting/#mode) option.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Sorting](/Content/images/doc/17_1/DataGrid/visual_elements/sorting_sorted_columns.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/17_1/treelist/visual_elements/sorting_sorted_columns.png)
 
 To apply sorting to a column, a user clicks its header or selects a command from the context menu.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Sorting](/Content/images/doc/17_1/DataGrid/visual_elements/sorting_context_menu.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/17_1/treelist/visual_elements/sorting_context_menu.png)
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/MultipleSorting/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
-
-#####See Also#####
-- [Sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/)
+Note that rows are sorted within their hierarchical level.
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->
