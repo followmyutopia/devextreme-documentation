@@ -8,13 +8,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the value of a specific column option.
+Gets the value of a specific option set for a specific column.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
 <!--paramType1-->number|string<!--/paramType1-->
 <!--paramDescription1-->
-The name, index, data field or caption of a column.
+The name, index, data field or caption of the column.
 <!--/paramDescription1-->
 
 <!--paramName2-->optionName<!--/paramName2-->
@@ -25,11 +25,11 @@ The name of the required option.
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-The value of the specified option.
+The value of this option.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Use this method to obtain the value of a specific column option. This method accepts one of the following as the first argument.
+This method gets the value of an option of the first column found by either of the below:
 
 * **Name**		
 The [unique name]({basewidgetpath}/Configuration/columns/#name) of the column.
@@ -46,18 +46,17 @@ The text displayed in the column header.
 * **Service String**  
 One of the following values:
  - *"command:edit"*    
-    Gets the [edit column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).
+    Gets the editing column.
 
  - *"command:select"*    
-    Gets the [select column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).  
+    Gets the selection column.   
 
  - *"command:adaptive"*  
-    Gets the [adaptive column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).  
+    Gets the adaptive column.  
  
  - Any string matching the following format: *"optionName:value"*  
     Here, the *optionName* is one of the [column options]({basewidgetpath}/Configuration/columns/).
 
-The specified option of the first column matching the name, column index, data field, or caption will be returned by this method.
-
-For the list of accessible options, refer to the [columns]({basewidgetpath}/Configuration/columns/) option description. Additionally, you can get all options of a specific column by calling the same method [with an identifier only]({basewidgetpath}/Methods/#columnOptionid).
+#####See Also#####
+- [columns]({basewidgetpath}/Configuration/columns/)
 <!--/fullDescription-->

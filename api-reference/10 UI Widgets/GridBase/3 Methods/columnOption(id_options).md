@@ -8,23 +8,23 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets several options of a column at once.
+Assigns new values to several options of a specific column at once.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
 <!--paramType1-->number|string<!--/paramType1-->
 <!--paramDescription1-->
-The name, index, data field,or  caption of a column.
+The name, index, data field, or caption of the column.
 <!--/paramDescription1-->
 
 <!--paramName2-->options<!--/paramName2-->
 <!--paramType2-->object<!--/paramType2-->
 <!--paramDescription2-->
-The required configuration options.
+The options with their new values.
 <!--/paramDescription2-->
 
 <!--fullDescription-->
-Using this method, you can set several options of a specific column from code. This method accepts one of the following as the first parameter.
+This method changes options of the first column found by either of the below:
 
 * **Name**		
 The [unique name]({basewidgetpath}/Configuration/columns/#name) of the column.
@@ -41,20 +41,19 @@ The text displayed in the column header.
 * **Service String**  
 One of the following values:
  - *"command:edit"*    
-    Gets the [edit column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).
+    Gets the editing column.
 
  - *"command:select"*    
-    Gets the [select column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).  
+    Gets the selection column.  
 
  - *"command:adaptive"*  
-    Gets the [adaptive column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).  
+    Gets the adaptive column.
  
  - Any string matching the following format: *"optionName:value"*  
-    Here, the *optionName* is one of the [column options]({basewidgetpath}/Configuration/columns/).
+    Here, *optionName* is one of the [column options]({basewidgetpath}/Configuration/columns/).
 
-    [note]In command columns, you can change only the [width]({basewidgetpath}/Configuration/columns/#width) or the [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex).  
+    [note]In command columns, you can change only the [width]({basewidgetpath}/Configuration/columns/#width) and the [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex).  
 
-The options of the first column matching the name, column index, data field or caption will be changed by this method.
-
-For the list of accessible options, refer to the [columns]({basewidgetpath}/Configuration/columns/) option description. If you need to set only one option for a column, you can use the [columnOption(id, optionName, optionValue)]({basewidgetpath}/Methods/#columnOptionid_optionName_optionValue) method instead.
+#####See Also#####
+- [columns]({basewidgetpath}/Configuration/columns/)
 <!--/fullDescription-->

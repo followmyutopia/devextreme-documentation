@@ -8,21 +8,21 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets a specific cell into the editing state.
+Switches a specific cell into the editing state. The cell is found by the row index and column index.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
 <!--paramType1-->number<!--/paramType1-->
 <!--paramDescription1-->
-The index of a row holding the cell that should enter the editing state.
+The index of the row that owns the cell.
 <!--/paramDescription1-->
 
 <!--paramName2-->visibleColumnIndex<!--/paramName2-->
 <!--paramType2-->number<!--/paramType2-->
 <!--paramDescription2-->
-The current index of a column holding the cell that should enter the editing state.
+The visible index of the column that owns the cell.
 <!--/paramDescription2-->
 
 <!--fullDescription-->
-To learn how to manage the editing process from code, see the [Editing in Code](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_Code) topic.
+
 <!--/fullDescription-->

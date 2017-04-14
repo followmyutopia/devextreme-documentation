@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Clears selection of specified grid rows.
+Clears selection of specific rows.
 <!--/shortDescription-->
 
 <!--paramName1-->keys<!--/paramName1-->
@@ -19,11 +19,11 @@ The keys of rows whose selection should be cleared.
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise of the jQuery.Deferred object resolved after the grid has cleared selection of the specified rows.
+A Promise of the jQuery.Deferred object resolved after selection is cleared.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-To access a grid row by a key, a field providing key values must be specified in a [data source]({basewidgetpath}/Configuration/#dataSource). If no key was specified, the whole data object is considered the key.
+To access a row by its key, you should specify the field that provides keys in the [data source]({basewidgetpath}/Configuration/#dataSource). If no key was specified, the whole data object is considered the key.
 
 #####See Also#####
 - [deselectAll()]({basewidgetpath}/Methods/#deselectAll)

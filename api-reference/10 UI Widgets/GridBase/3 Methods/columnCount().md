@@ -8,14 +8,14 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the number of data columns in a grid.
+Returns the number of data columns in the widget including [visible]({basewidgetpath}/Configuration/columns/#visible) and hidden columns, but without command columns.
 <!--/shortDescription-->
 
 <!--returnType-->number<!--/returnType-->
 <!--returnDescription-->
-The number of data columns in a grid.
+The number of data columns in the widget.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The **columnCount()** method returns the number of columns currently presented in a grid. This number includes [visible]({basewidgetpath}/Configuration/columns/#visible) and hidden columns, but omits the selection and editing columns.
+
 <!--/fullDescription-->

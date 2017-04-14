@@ -8,9 +8,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Discards changes made in a grid.
+Discards changes that a user made to data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn how to manage the editing process from code, see the [Editing in Code](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_Code) topic.
+#####See Also#####
+- [saveEditData()]({basewidgetpath}/Methods/#saveEditData)
+- [editCell(rowIndex, dataField)]({basewidgetpath}/Methods/#editCellrowIndex_dataField)
+- [editCell(rowIndex, visibleColumnIndex)]({basewidgetpath}/Methods/#editCellrowIndex_visibleColumnIndex)
+- [editRow(rowIndex)]({basewidgetpath}/Methods/#editRowrowIndex)
 <!--/fullDescription-->

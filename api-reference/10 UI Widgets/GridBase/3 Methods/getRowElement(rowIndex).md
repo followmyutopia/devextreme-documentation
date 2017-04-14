@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Allows you to obtain a row element by its index.
+Gets the element of a row by its index.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
@@ -19,9 +19,9 @@ The visible index of the row.
 
 <!--returnType-->jQuery|undefined<!--/returnType-->
 <!--returnDescription-->
-The row element; provides access to <a href="http://api.jquery.com/?s=element">element-related jQuery operations</a>.
+The element of the row; provides access to <a href="http://api.jquery.com/?s=element">element-related jQuery operations</a>.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Note that if the **DataGrid** has [fixed columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Fixing_Grid_Columns), the method returns two row elements: the first with columns that are not fixed, the second with fixed columns. 
+Note that if the widget has [fixed columns]({basewidgetpath}/Configuration/columnFixing/), the method returns an array of two separate elements: with unfixed and with fixed columns.
 <!--/fullDescription-->

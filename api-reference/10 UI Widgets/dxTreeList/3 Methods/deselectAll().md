@@ -8,14 +8,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the **DataSource** instance.
+Clears selection of all rows that meet filtering conditions when a filter is applied.
 <!--/shortDescription-->
 
-<!--returnType-->DataSource<!--/returnType-->
+<!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-The <a href="/Documentation/17_1/ApiReference/Data_Layer/DataSource/">DataSource instance</a>
+A Promise of the jQuery.Deferred object resolved after selection is cleared.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [clearSelection()]({basewidgetpath}/Methods/#clearSelection)
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->

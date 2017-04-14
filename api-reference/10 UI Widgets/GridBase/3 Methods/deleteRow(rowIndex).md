@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Removes a specific row from a grid.
+Removes a specific row from the widget.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
@@ -18,5 +18,7 @@ The index of the row to be removed.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-To learn more about how to remove a row from code, see the **Removing** paragraph of the [Editing in Code](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_Code) topic.
+#####See Also#####
+- [addRow()]({basewidgetpath}/Methods/#addRow)
+- [deleteColumn(id)]({basewidgetpath}/Methods/#deleteColumnid)
 <!--/fullDescription-->

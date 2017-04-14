@@ -23,12 +23,15 @@ A Promise of the jQuery.Deferred object resolved after the data object has been 
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The following code snippet demonstrates how to get a data object whose key equals **15**.
+The following code shows how to get a data object whose key is 15.
 
     <!--JavaScript-->
-    dataGridInstance.byKey(15).done(function(dataObject) {
-            // process 'dataObject'
+    widgetInstance.byKey(15).done(function(dataObject) {
+            // process "dataObject"
         }).fail(function(error) {
             // handle error
         });
+
+#####See Also#####
+- [instance()]({basewidgetpath}/Methods/#instance)
 <!--/fullDescription-->

@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the root HTML element of the widget.
+Gets the root element of the widget.
 <!--/shortDescription-->
 
 <!--returnType-->jQuery<!--/returnType-->
