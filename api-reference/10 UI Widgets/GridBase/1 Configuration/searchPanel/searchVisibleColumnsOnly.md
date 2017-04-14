@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to search all columns or only visible ones.
+Specifies whether the widget should search against all columns or only visible ones.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, the widget searches the string entered into the search panel among all columns configured in the [columns]({basewidgetpath}/Configuration/columns/) array. Some of them may be [invisible]({basewidgetpath}/Configuration/columns/#visible), and finding a result in such columns may confuse the end-user. To avoid this situation, set the **searchVisibleColumnsOnly** option to *true*.
+By default, the widget searches against all columns configured in the [columns]({basewidgetpath}/Configuration/columns/) array. Some of them may be [invisible]({basewidgetpath}/Configuration/columns/#visible), and finding a result in them may confuse a user. To avoid this, set the **searchVisibleColumnsOnly** option to *true*.
 <!--/fullDescription-->

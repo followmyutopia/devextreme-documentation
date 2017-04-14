@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not search strings in the located grid records should be highlighted.
+Specifies whether found substrings should be highlighted.
 <!--/shortDescription-->
 
 <!--fullDescription-->

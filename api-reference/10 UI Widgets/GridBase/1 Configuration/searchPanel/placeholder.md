@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text displayed by the search panel when no search string was typed.
+Specifies a placeholder for the search panel.
 <!--/shortDescription-->
 
 <!--fullDescription-->

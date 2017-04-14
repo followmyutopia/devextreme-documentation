@@ -24,3 +24,6 @@ To make header filter icons visible, assign *true* to the **headerFilter** | [vi
 - [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
 - [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->
