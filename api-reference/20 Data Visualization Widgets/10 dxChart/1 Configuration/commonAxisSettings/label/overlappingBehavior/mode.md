@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--deprecated-->
-
+Instead, use the [overlappingBehavior](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/label/overlappingBehavior/) option directly.
 <!--/deprecated-->
 
 <!--shortDescription-->

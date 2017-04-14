@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-
+Use the [staggeringSpacing](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/label/#staggeringSpacing) option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

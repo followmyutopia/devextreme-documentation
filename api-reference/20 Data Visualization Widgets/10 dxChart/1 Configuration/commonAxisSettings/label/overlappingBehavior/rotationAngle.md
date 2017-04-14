@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-
+Use the [rotationAngle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/label/#rotationAngle) option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

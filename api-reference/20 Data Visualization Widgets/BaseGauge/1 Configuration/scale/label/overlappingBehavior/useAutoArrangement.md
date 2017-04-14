@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-
+Instead, use the [overlappingBehavior]({basewidgetpath}/Configuration/scale/label/overlappingBehavior/) option directly.
 <!--/deprecated-->
 
 <!--shortDescription-->

@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-
+Use the [overlappingBehavior](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/label/#overlappingBehavior) option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->
