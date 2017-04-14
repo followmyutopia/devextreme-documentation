@@ -9,6 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
+Overridden.
 A configuration object specifying [scrolling](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Scrolling) options.
 <!--/shortDescription-->
 

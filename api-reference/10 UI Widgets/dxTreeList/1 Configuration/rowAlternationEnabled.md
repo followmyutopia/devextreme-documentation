@@ -5,13 +5,17 @@
 
 **-->
 ===========================================================================
-<!--type-->object<!--/type-->
+<!--default-->false<!--/default-->
+<!--type-->boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Configures scrolling.
+Specifies whether rows should be shaded differently.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Scrolling allows a user to browse data left outside the current viewport. The widget provides several scrolling modes detailed in the [mode]({basewidgetpath}/Configuration/scrolling/#mode) option description.
+All rows are monochrome without any visual distinctions by default. However, if you set this option to *true*, ordinary-looking rows will alternate with slightly shaded ones.
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->

@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not the scrolling by content is enabled.
+Specifies whether a user can scroll the content with a swipe gesture. Applies only if [native scrolling]({basewidgetpath}/Configuration/scrolling/#useNative) is disabled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This feature is available only when [native scrolling]({basewidgetpath}/Configuration/scrolling/#useNative) is disabled.
+
 <!--/fullDescription-->

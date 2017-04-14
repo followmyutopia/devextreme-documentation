@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not a grid must preload pages adjacent to the current page when using virtual scrolling.
+Specifies whether the widget should load pages adjacent to the current page. Applies only if **scrolling** | [mode]({basewidgetpath}/Configuration/scrolling/#mode) is *"virtual"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In the virtual [scrolling mode](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Scrolling/Vertical_Scrolling), the grid loads a page when it gets into the grid's field of vision. Additionally, it can preload the pages adjacent to the currently displayed page. To enable this feature, assign *true* to the **preloadEnabled** option. With preloading enabled, the **DataGrid** widget scrolls records smoothly. However, enabling this feature may cause lags on devices with low performance.
+In virtual scrolling mode, a page is loaded when it gets into the viewport. If you set this option to *true*, adjacent pages will be loaded as well. Note that although this setting makes scrolling smoother, it may cause lags on devices with low performance.
 <!--/fullDescription-->

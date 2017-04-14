@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the scrollbar display policy.
+Specifies when to show the scrollbar.
 <!--/shortDescription-->
 
 <!--fullDescription-->

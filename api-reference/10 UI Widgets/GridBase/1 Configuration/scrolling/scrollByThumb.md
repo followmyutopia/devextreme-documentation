@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not the scrollbar thumb scrolling enabled.
+Specifies whether a user can scroll the content with the scrollbar. Applies only if [native scrolling]({basewidgetpath}/Configuration/scrolling/#useNative) is disabled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The scrollbar thumb is available only when [native scrolling]({basewidgetpath}/Configuration/scrolling/#useNative) is disabled.
+
 <!--/fullDescription-->
