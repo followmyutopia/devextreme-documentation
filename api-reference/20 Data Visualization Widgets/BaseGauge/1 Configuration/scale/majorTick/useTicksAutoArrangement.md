@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **overlappingBehavior** | **useAutoArrangement** option instead.
+Use the **overlappingBehavior** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

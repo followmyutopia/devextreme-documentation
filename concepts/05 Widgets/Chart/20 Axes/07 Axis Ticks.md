@@ -1,4 +1,4 @@
-Axis ticks divide an axis into parts, and thus the readability of visualized data is improved. There are major and minor ticks. The main difference between them is that major ticks are accompanied by [axis labels](/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/). In addition, the appearance of major and minor ticks may differ.
+Axis ticks divide an axis into parts, and thus the readability of visualized data is improved. There are major and minor ticks. They differ in appearance.
 
 ![DevExtreme HTML5 JavaScript Charts AxisTicks](/Content/images/doc/17_1/ChartJS/visual_elements/axis_ticks.png)
 

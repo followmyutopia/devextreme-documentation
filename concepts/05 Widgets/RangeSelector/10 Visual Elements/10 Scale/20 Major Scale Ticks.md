@@ -16,9 +16,7 @@ The appearance of the major ticks can be customized using the options of the [ti
 		}
 	};
 
-Major ticks can be arranged on the scale in several different ways. By default, major ticks arrange automatically with an interval that prevents [scale labels](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Scale/Scale_Labels) from overlapping. If you are not satisfied with major ticks arranged like that, you can specify a custom interval for the ticks using the [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tickInterval/) option.
-
-[note] When you are specifying a custom tick interval, make sure the [useTicksAutoArrangement](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#useTicksAutoArrangement) option is set to *false*. If it is not, the specified tick interval may be ignored, but only if it leads to label overlap.
+Major ticks can be arranged on the scale in several different ways. By default, major ticks arrange automatically. If you are not satisfied with major ticks arranged like that, you can specify a custom interval for the ticks using the [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/tickInterval/) option.
 
 When you use a [date-time](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#valueType) scale, and its start value does not match the beginning of any date-time unit (hour, day, month, etc.), major ticks arrange differently depending on the value of the [setTicksAtUnitBeginning](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#setTicksAtUnitBeginning) option. The following table illustrates how this option impacts tick arrangement.
 

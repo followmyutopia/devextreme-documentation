@@ -17,6 +17,4 @@ Specifies the minimum distance between two neighboring major ticks in pixels. Ap
 For axes displaying numbers, the distance between major ticks depends on two interconnected options: **axisDivisionFactor** and [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tickInterval/). Consider that you have specified both these options. If the specified tick interval leads the pixel distance between two ticks to being less than the **axisDivisionFactor** value, this tick interval will be ignored.
 
 Use the **axisDivisionFactor** option only if you need to set the distance between ticks not knowing the axis values. Otherwise, use the **tickInterval** option.
-
-[note]If the **axisDivisionFactor** value causes [axis labels](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/) to overlap, this value will be ignored.
 <!--/fullDescription-->
