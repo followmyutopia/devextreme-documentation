@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to display the Total rows.
+Specifies whether to display the Total rows. Applies only if [rowHeaderLayout](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#rowHeaderLayout) is *"standard"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

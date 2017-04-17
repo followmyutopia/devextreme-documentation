@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies where to show the total rows or columns.
+Specifies where to show the total rows or columns. Applies only if [rowHeaderLayout](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#rowHeaderLayout) is *"standard"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
