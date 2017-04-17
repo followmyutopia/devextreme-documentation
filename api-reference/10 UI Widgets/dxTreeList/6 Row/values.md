@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Values displayed in the row's cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
