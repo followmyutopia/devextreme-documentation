@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The parent node.
 <!--/shortDescription-->
 
 <!--fullDescription-->

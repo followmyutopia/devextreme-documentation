@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The node's data object.
 <!--/shortDescription-->
 
 <!--fullDescription-->

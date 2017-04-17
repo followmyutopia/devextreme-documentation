@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Contains all child nodes.
 <!--/shortDescription-->
 
 <!--fullDescription-->
