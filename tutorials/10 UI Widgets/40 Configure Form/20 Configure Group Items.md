@@ -21,8 +21,5 @@ To disassociate one item from its neighbouring one, place an empty item between 
 For a comprehensive list of options belonging to a group item, refer to the [Group Item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/) reference section. In the next step, you will learn to configure tabbed items in the **Form** widget.
 
 #####See Also#####
-- [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
-- [Handle Events - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/)
-- [Handle Events - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
-
+- **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 </article>

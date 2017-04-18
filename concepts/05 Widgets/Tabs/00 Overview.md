@@ -23,9 +23,7 @@ The following code adds the **Tabs** widget to your page. One of the tabs has an
 Note that all data source items in the code above follow the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxTabs/Default_Item_Template/) pattern. This provides a default appearance for tabs, which can be customized later.
 
 #####See Also#####
-- [Widget Basics - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/)
-- [Widget Basics - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/)
-- [Widget Basics - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [Tabs - Customize Item Appearance](/Documentation/Guide/Widgets/Tabs/Customize_Item_Appearance)
 - [Tabs - Control the Behavior](/Documentation/Guide/Widgets/Tabs/Control_the_Behavior)
 - [Tabs - Keyboard Support](/Documentation/Guide/Widgets/Tabs/Keyboard_Support)

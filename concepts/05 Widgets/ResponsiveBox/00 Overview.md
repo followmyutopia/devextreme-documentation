@@ -101,9 +101,7 @@ The **ResponsiveBox** elements in the code above are declared using the [dxItem]
 All **ResponsiveBox** elements are arranged against a layout grid defined by the [rows](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/rows/) and [cols](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/cols/) arrays. For further information, see the [Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/) topic.
 
 #####See Also#####
-- [Widget Basics - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/)
-- [Widget Basics - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/)
-- [Widget Basics - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [ResponsiveBox - Size Qualifiers](/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/)
 - [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
 - [ResponsiveBox - Arrange Layout Elements](/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/)

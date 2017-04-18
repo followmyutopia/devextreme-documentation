@@ -24,8 +24,7 @@ To change the [Form configuration](/Documentation/ApiReference/UI_Widgets/dxForm
 
 #####See Also#####
 - [Get and Set Options - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/)
-- [Change Options - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Change_Options/)
-- [Change Options - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Change_Options/)
+- **Change Options**: [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Change_Options/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Change_Options/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Change_Options/)
 - [Form Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
 - [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)
 

@@ -37,9 +37,7 @@ The following code adds a simple **Accordion** to your page. Note that each data
     });
 
 #####See Also#####
-- [Widget Basics - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/)
-- [Widget Basics - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/)
-- [Widget Basics - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [Accordion - Customize Item Appearance](/Documentation/Guide/Widgets/Accordion/Customize_Item_Appearance/)
 - [Accordion - Control the Behavior](/Documentation/Guide/Widgets/Accordion/Control_the_Behavior)
 - [Accordion API Reference](/Documentation/ApiReference/UI_Widgets/dxAccordion/)

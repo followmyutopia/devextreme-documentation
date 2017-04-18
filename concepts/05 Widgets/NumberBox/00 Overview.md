@@ -31,9 +31,7 @@ In most cases, it is useful to specify the range of possible values. For this pu
 If the entered value falls out of the range, the widget sets the value to the lower (if the value is less than the lower bound) or upper bound (if the value is greater than the upper bound).
 
 #####See Also#####
-- [Widget Basics - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/)
-- [Widget Basics - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/)
-- [Widget Basics - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [NumberBox - Handle the Value Change Event](/Documentation/Guide/Widgets/NumberBox/Handle_the_Value_Change_Event)
 - [NumberBox - Control the Behavior](/Documentation/Guide/Widgets/NumberBox/Control_the_Behavior)
 - [NumberBox - Keyboard Support](/Documentation/Guide/Widgets/NumberBox/Keyboard_Support)

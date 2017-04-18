@@ -44,9 +44,7 @@ The following code adds the **SlideOutView** widget to your page. The view conta
     }
 
 #####See Also#####
-- [Widget Basics - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/)
-- [Widget Basics - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/)
-- [Widget Basics - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [SlideOutView - Customize the Menu](/Documentation/Guide/Widgets/SlideOutView/Customize_the_Menu/)
 - [SlideOutView - Customize the View](/Documentation/Guide/Widgets/SlideOutView/Customize_the_View/)
 - [SlideOutView - Open and Close the Menu Using the API](/Documentation/Guide/Widgets/SlideOutView/Open_and_Close_the_Menu_Using_the_API/)

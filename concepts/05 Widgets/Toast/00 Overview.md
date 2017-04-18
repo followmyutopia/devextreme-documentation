@@ -39,9 +39,7 @@ If you are going to reuse the **Toast**, then create it on the page using the fo
 The appearance of the **Toast** is predefined by its [type](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type). Depending on the mood of the message that the **Toast** displays, the **type** can be *"info"*, *"warning"*, *"error"* or *"success"*. There is also the *"custom"* **type** that allows you to define a custom appearance for the **Toast**. Find more information about this in the [Customize the Content](/Documentation/Guide/Widgets/Toast/Customize_the_Content/) article.
 
 #####See Also#####
-- [Widget Basics - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/)
-- [Widget Basics - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/)
-- [Widget Basics - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [Toast - Show and Hide](/Documentation/Guide/Widgets/Toast/Show_and_Hide_the_Toast/)
 - [Toast - Customize the Content](/Documentation/Guide/Widgets/Toast/Customize_the_Content/)
 - [Toast - Resize and Relocate](/Documentation//Guide/Widgets/Toast/Resize_and_Relocate/)

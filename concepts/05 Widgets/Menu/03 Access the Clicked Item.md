@@ -28,7 +28,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
         .on('itemClick', itemClickHandler2);
 
 #####See Also#####
-- [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events)
+- **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 - [Menu - Customize Item Appearance](/Documentation/Guide/Widgets/Menu/Customize_Item_Appearance)
 - [Menu - Change the Orientation](/Documentation/Guide/Widgets/Menu/Change_the_Orientation)
 - [Menu Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-menu-overview)

@@ -34,9 +34,7 @@ The following code adds a simple **TreeView** to your page.
 Note that the data source in the code above has a hierarchical structure, yet data sources with a plain structure are supported as well. To learn how you can customize hierarchical and plain data sources, see the [Use Hierarchical Data](/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data) and [Use Plain Data](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data) articles.
 
 #####See Also#####
-- [Widget Basics - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/)
-- [Widget Basics - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/)
-- [Widget Basics - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [TreeView - Access a Node](/Documentation/Guide/Widgets/TreeView/Access_a_Node)
 - [TreeView - Filter Nodes](/Documentation/Guide/Widgets/TreeView/Filter_Nodes)
 - [TreeView - Expand and Collapse Nodes](/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes)
