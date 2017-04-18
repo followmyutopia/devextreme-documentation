@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a configuration object for the [widget](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/buttons/#widget) that presents a toolbar item.
+Specifies a configuration object for the [widget](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/toolbarItems/#widget) that presents a toolbar item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
