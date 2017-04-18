@@ -25,15 +25,13 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="loadIndicator"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#loadIndicator").dxLoadIndicator({
                 visible: true
             });
         });
+
+        <!--HTML--><div id="loadIndicator"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -45,8 +43,6 @@ You can create the widget using one of the following approaches.
             }"></div>
         </div>
 
-    <!---->
-
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller("DemoController", function ($scope) {
                 $scope.isLoadIndicatorVisible = true;
@@ -57,8 +53,6 @@ You can create the widget using one of the following approaches.
         <!--HTML--><div data-bind="dxLoadIndicator: {
             visible: isLoadIndicatorVisible
         }"></div>
-
-    <!---->
 
         <!--JavaScript-->var viewModel = {
             isLoadIndicatorVisible: ko.observable(true)

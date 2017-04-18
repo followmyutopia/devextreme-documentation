@@ -19,16 +19,16 @@
                 message: 'Password is required'
             }]
         }"> 
-	</div>
+    </div>
     <div data-bind="dxValidationSummary: {}"></div>
     <div data-bind="dxButton: { text: 'Validate and submit', onClick: validateAndSubmit }"></div>
 </div>
 <div data-bind="dxValidationGroup: {}">
     <div data-bind="dxTextBox: { value: phone, placeholder: 'Input your phone...' },
-		dxValidator: {  name: 'phone', validationRules: [{ type: 'required' },{ type: 'numeric' }] }">
-	</div>
-	<div data-bind="dxValidationSummary: { }"></div>
-	<div data-bind="dxButton: { text: 'Submit', onClick: submit }"></div>
+        dxValidator: {  name: 'phone', validationRules: [{ type: 'required' },{ type: 'numeric' }] }">
+    </div>
+    <div data-bind="dxValidationSummary: { }"></div>
+    <div data-bind="dxButton: { text: 'Submit', onClick: submit }"></div>
 </div>
 <!--/@Knockout-->
 <!--@AngularJS-->
@@ -61,8 +61,8 @@
         <div ng-model="phone" dx-text-box="{ placeholder: 'Input your phone...' }"
              dx-validator="{ name: 'phone', validationRules: [ { type: 'required' },{ type: 'numeric' } ] }">
         </div>
-	    <div dx-validation-summary="{ }"></div>
-	    <div dx-button="{ text: 'Submit', onClick: submit }"></div>
+        <div dx-validation-summary="{ }"></div>
+        <div dx-button="{ text: 'Submit', onClick: submit }"></div>
     </div>
 </div>
 <!--/@AngularJS-->

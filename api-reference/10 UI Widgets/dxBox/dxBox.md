@@ -34,8 +34,6 @@ You can create the widget using one of the following approaches.
             </div>
         </div>
 
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#box").dxBox({
                 direction: 'row',

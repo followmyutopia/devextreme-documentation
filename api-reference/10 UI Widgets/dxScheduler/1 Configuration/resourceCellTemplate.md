@@ -24,37 +24,33 @@ In the **AngularJS approach**, if you need to access resource object fields with
 
     <!--HTML-->
     <div dx-scheduler="options" dx-item-alias="item">
-        <div data-options="dxTemplate: {name: 'resource'}">
+        <div data-options="dxTemplate: { name: 'resource' }">
             <img src="{{ item.image }}">
             <div class="resource-header">{{ item.text }}</div>
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->
-    var appointements = [
-        {
-            text: "Website Re-Design Plan",
-            priorityId: 2,
-            startDate: new Date(2015, 4, 25, 9, 0),
-            endDate: new Date(2015, 4, 25, 11, 30)
-        }, // . . .
+    var appointements = [{
+        text: "Website Re-Design Plan",
+        priorityId: 2,
+        startDate: new Date(2015, 4, 25, 9, 0),
+        endDate: new Date(2015, 4, 25, 11, 30)
+    },
+    // . . .
     ];
 
-    var priorityData = [
-        {
-            text: "Low Priority",
-		    image: "img1.png",
-            id: 1,
-            color: "#1e90ff"
-        }, {
-            text: "High Priority",
-		    image: "img2.png",
-            id: 2,
-            color: "#ff9747"
-        }
-    ];
+    var priorityData = [{
+        text: "Low Priority",
+        image: "img1.png",
+        id: 1,
+        color: "#1e90ff"
+    }, {
+        text: "High Priority",
+        image: "img2.png",
+        id: 2,
+        color: "#ff9747"
+    }];
 
     var DemoApp = angular.module('DemoApp', ['dx']);
     DemoApp.controller('DemoController', function DemoController($scope) {
@@ -70,7 +66,7 @@ In the **AngularJS approach**, if you need to access resource object fields with
                      label: "Priority"
                 }
             ],
-		    resourceCellTemplate: 'resource'
+            resourceCellTemplate: 'resource'
         };
     });
 

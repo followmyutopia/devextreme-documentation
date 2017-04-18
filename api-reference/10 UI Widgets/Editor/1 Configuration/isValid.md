@@ -25,8 +25,6 @@ In the code below, the login specified by an end user is validated on the level 
         placeholder: 'Login'
     }"></div>
 
-<!--...-->
-
     <!--JavaScript-->var viewModel = {
         login: ko.observable("").extend({
             dxValidator: {

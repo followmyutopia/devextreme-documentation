@@ -25,11 +25,6 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="map"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#map").dxMap({
                 provider: 'bing',
@@ -38,6 +33,9 @@ You can create the widget using one of the following approaches.
                 center: "40.749825, -73.987963"
             });
         });
+
+        <!--HTML-->
+        <div id="map"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

@@ -25,10 +25,6 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="calendar"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#calendar").dxCalendar({
                 min: new Date(2000, 1, 1),
@@ -37,6 +33,8 @@ You can create the widget using one of the following approaches.
                 value: new Date()
             });
         });
+
+        <!--HTML--><div id="calendar"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -50,8 +48,6 @@ You can create the widget using one of the following approaches.
                 }
             }"></div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller("DemoController", function ($scope) {
@@ -68,8 +64,6 @@ You can create the widget using one of the following approaches.
             firstDayOfWeek: 1,
             value: currentDate
         }"></div>
-
-    <!---->
 
         <!--JavaScript-->var viewModel = {
             currentDate: ko.observable(new Date())

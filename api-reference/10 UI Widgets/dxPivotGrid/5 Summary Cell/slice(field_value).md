@@ -32,7 +32,7 @@ The target cell.
 Use this method when you need to get a cell located by the similar path with one of its components changed. 
 The image below demonstrates what cell will be returned by the following code.
 
-	<!--JavaScript-->var targetCell = sourceCell.slice('year', 1998);
+    <!--JavaScript-->var targetCell = sourceCell.slice('year', 1998);
 
 ![](/Content/images/doc/17_1/DataGrid/PivotGrid_slice.png)
 <!--/fullDescription-->

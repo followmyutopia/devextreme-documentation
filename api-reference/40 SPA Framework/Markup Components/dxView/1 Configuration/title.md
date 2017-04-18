@@ -17,16 +17,15 @@ Specifies the title of the current view.
 Use this option to set a static title for the view.
 
     <!--HTML--><div data-options="dxView : { name: 'home', title: 'Home' } ">
-        <!--...-->
+        ...
     </div>
 
 If you need to change the view's title dynamically, add an observable **title** field to the view's ViewModel, as shown below.
 
     <!--HTML--><div data-options="dxView : { name: 'home' } ">
-        <!--...-->
+        ...
     </div>
-  
-<!---->
+
 
     <!--JavaScript-->MyApp.home = function(params) {
         var viewModel = {

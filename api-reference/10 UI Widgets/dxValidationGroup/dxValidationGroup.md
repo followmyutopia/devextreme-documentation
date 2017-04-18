@@ -25,15 +25,8 @@ Use the **ValidationGroup** widget to combine the editors to be validated, the *
 You can create the **ValidationGroup** widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
-	Use the **validationGroup** option in the widgets in which you need to specify a validation group.
-
-        <!--HTML--><div id="textBox1"></div>
-        <div id="textBox2"></div>
-        <div id="summary"></div>
-        <div id="button"></div>
-
-	<!---->
-
+    Use the **validationGroup** option in the widgets in which you need to specify a validation group.
+    
         <!--JavaScript-->$(function() {
             var validationGroupName = "sampleGroup";
             $("#textBox1").dxTextBox({ name: 'FirstName' })
@@ -59,8 +52,13 @@ You can create the **ValidationGroup** widget using one of the following approac
             });
         });
 
+        <!--HTML--><div id="textBox1"></div>
+        <div id="textBox2"></div>
+        <div id="summary"></div>
+        <div id="button"></div>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-	Add a `<div>` element and apply the `dx-validation-group` directive to it.
+    Add a `<div>` element and apply the `dx-validation-group` directive to it.
 
         <!--HTML--><div dx-validation-group="{ }" ng-controller="DemoController">
             <div dx-text-box="{ name: 'FirstName' }"
@@ -82,7 +80,7 @@ You can create the **ValidationGroup** widget using one of the following approac
         </div>
 
 - [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-	Add a `<div>` element and apply the `dxValidationGroup` binding to it.
+    Add a `<div>` element and apply the `dxValidationGroup` binding to it.
 
         <!--HTML--><div data-bind="dxValidationGroup: { }" >
             <div data-bind="dxTextBox: { name: 'FirstName' },
@@ -151,7 +149,7 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 
 You can use the [DevExpress.validationEngine.validateGroup(group)](/Documentation/ApiReference/Common/Utils/validationEngine/Methods/#validateGroupgroup) method to validate a particular validation group by passing its instance as a parameter.
 
-	<!--JavaScript-->DevExpress.validationEngine.validateGroup($("#sampleGroup").dxValidationGroup("instance"));
+    <!--JavaScript-->DevExpress.validationEngine.validateGroup($("#sampleGroup").dxValidationGroup("instance"));
 
 In addition, you can access a validation group's configuration using the [DevExpress.validationEngine.getGroupConfig(group)](/Documentation/ApiReference/Common/Utils/validationEngine/Methods/#getGroupConfiggroup) method. The returned configuration exposes the **validators** included to the group, the **validate()** method to validate the editors that are associated with the validators and the **validated** event that occurs after the group is validated.
 

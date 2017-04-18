@@ -30,7 +30,7 @@ Specifies the argument value of the currently represented point. Differs from th
 Specifies the argument value of the currently represented point with applied formatting if the **argumentFormat** property is specified.
 * **size** (for bubble series only)   
 Specifies the size of the currently represented bubble as it is set in the data source.
-* **index** (for range area and range bar series only)		
+* **index** (for range area and range bar series only)        
 Specifies whether the currently represented point is maximum (index = 1) or minimum (index = 0).
 * **point**    
 Provides access to the currently represented point. To learn more about the field and methods of the point object, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Point/) topic in the "Chart Elements" reference section.

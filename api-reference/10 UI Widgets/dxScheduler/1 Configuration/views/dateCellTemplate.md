@@ -29,22 +29,20 @@ In **AngularJS approach**, if you need to access date scale item fields within a
             views: views,
             currentDate: currentDate
         }" dx-item-alias="item">
-            <div data-options="dxTemplate: {name: 'dateTemplate'}">
+            <div data-options="dxTemplate: { name: 'dateTemplate' }">
                 <div class="date">{{ item.text }}</div>
             </div>
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->
-    var appointements = [
-        {
-            text: "Website Re-Design Plan",
-            priorityId: 2,
-            startDate: new Date(2015, 4, 25, 9, 0),
-            endDate: new Date(2015, 4, 25, 11, 30)
-        }, // . . .
+    var appointements = [{
+        text: "Website Re-Design Plan",
+        priorityId: 2,
+        startDate: new Date(2015, 4, 25, 9, 0),
+        endDate: new Date(2015, 4, 25, 11, 30)
+    },
+    // . . .
     ];
 
     var DemoApp = angular.module('DemoApp', ['dx']);

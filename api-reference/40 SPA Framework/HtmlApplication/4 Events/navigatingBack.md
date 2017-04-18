@@ -17,20 +17,20 @@ Use the [on(eventName, eventHandler)](/Documentation/ApiReference/SPA_Framework/
 
 This event allows you to handle a Back button click, even if the hardware Back button is pressed. However, the event handler parameters do not provide information about the current view and its View Model. The following code demonstrates how to raise a confirmation dialog when clicking the Back button in a particular view and how to cancel backwards navigation if an end-users cancels it.
 
-	<!--JavaScript-->Application1.app.currentViewModel = null;
-	Application1.app.on("viewShown", function (e) {
-		Application1.app.currentViewModel = e.viewInfo.model;
-	});
-	Application1.app.on("navigatingBack", function (e) {
-		if (Application1.app.currentViewModel.name == 'View1') {
-			if (!confirm("Are you sure you want to leave View1 ?")) {
-				e.cancel = true;
-				return;
-			};
-			//Execute the required code
-		};
-		Application1.app.currentViewModel = null;
-	});
+    <!--JavaScript-->Application1.app.currentViewModel = null;
+    Application1.app.on("viewShown", function (e) {
+        Application1.app.currentViewModel = e.viewInfo.model;
+    });
+    Application1.app.on("navigatingBack", function (e) {
+        if (Application1.app.currentViewModel.name == 'View1') {
+            if (!confirm("Are you sure you want to leave View1 ?")) {
+                e.cancel = true;
+                return;
+            };
+            //Execute the required code
+        };
+        Application1.app.currentViewModel = null;
+    });
 
 #####See Also#####
 - [SPA Framework - Handle the Hardware Back Button](/Documentation/Tutorial/SPA_Framework/Handle_the_Hardware_Back_Button#Handle_the_Hardware_Back_Button)

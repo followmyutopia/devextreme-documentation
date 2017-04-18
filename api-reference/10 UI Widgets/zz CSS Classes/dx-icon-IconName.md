@@ -16,7 +16,7 @@ As you can see, the icon is added in the Base64 type in the code above. We recom
 
 The icons that are added to the stylesheet via this class can be used for DevExtreme widgets like predefined icons from the [built-in icon library](/Documentation/Guide/Themes/Icon_Library/).
 
-	<!--CSS--><div class="button" data-bind="dxButton: { icon: 'myicon', text: 'Click me' }"></div>
+    <!--HTML--><div class="button" data-bind="dxButton: { icon: 'myicon', text: 'Click me' }"></div>
 
 <!--/fullDescription-->
 

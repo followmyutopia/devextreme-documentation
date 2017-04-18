@@ -43,8 +43,6 @@ You can create the widget using one of the following approaches.
             </div>
         </div>
 
-    <!---->
-
         <!--JavaScript-->
         var states = [
             { state: "Alabama", capital: "Montgomery", population: 4822023 },
@@ -73,8 +71,6 @@ You can create the widget using one of the following approaches.
             </div>
         </div>
 
-    <!---->
-
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller("DemoController", function ($scope) {
                 $scope.states = [
@@ -95,8 +91,6 @@ You can create the widget using one of the following approaches.
                 <p>Population: <i data-bind="text: population"></i></p>
             </div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->var viewModel = {
             states: [

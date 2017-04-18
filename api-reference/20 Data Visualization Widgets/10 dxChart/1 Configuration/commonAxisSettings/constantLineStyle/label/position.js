@@ -33,7 +33,7 @@ $(function () {
             constantLines: [{ value: 1000000000 }]
         }
     }).dxChart('instance');
-	
+    
     $("#selectBoxContainer").dxSelectBox({
         items: ['inside', 'outside'],
         value: 'inside',

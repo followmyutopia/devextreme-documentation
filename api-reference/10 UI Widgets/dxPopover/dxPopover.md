@@ -27,8 +27,6 @@ You can create the widget using one of the following approaches.
             <p>Popover content</p>
         </div>
 
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#popover").dxPopover({
                 target: "#targetElement",

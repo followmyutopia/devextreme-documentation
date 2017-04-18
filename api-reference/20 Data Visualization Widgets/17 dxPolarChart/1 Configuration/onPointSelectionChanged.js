@@ -14,9 +14,9 @@ $(function () {
             type: 'line'
         },
         series: [
-			{ valueField: 'y1990', name: '1990' },
-			{ valueField: 'y2000', name: '2000' },
-			{ valueField: 'y2012', name: '2012' }
+            { valueField: 'y1990', name: '1990' },
+            { valueField: 'y2000', name: '2000' },
+            { valueField: 'y2012', name: '2012' }
         ],
         palette: 'Soft Pastel',
         title: 'Largest Cities in Europe',

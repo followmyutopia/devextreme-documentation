@@ -29,22 +29,20 @@ In **AngularJS approach**, if you need to access time scale item fields within a
             currentDate: currentDate,
             views: views
         }" dx-item-alias="item">
-            <div data-options="dxTemplate: {name: 'timeTemplate'}">
+            <div data-options="dxTemplate: { name: 'timeTemplate' }">
                 <div class="time">{{ item.text }}</div>
             </div>
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->
-    var appointements = [
-        {
-            text: "Website Re-Design Plan",
-            priorityId: 2,
-            startDate: new Date(2015, 4, 25, 9, 0),
-            endDate: new Date(2015, 4, 25, 11, 30)
-        }, // . . .
+    var appointements = [{
+        text: "Website Re-Design Plan",
+        priorityId: 2,
+        startDate: new Date(2015, 4, 25, 9, 0),
+        endDate: new Date(2015, 4, 25, 11, 30)
+    },
+    // . . .
     ];
 
     var DemoApp = angular.module('DemoApp', ['dx']);
@@ -57,7 +55,7 @@ In **AngularJS approach**, if you need to access time scale item fields within a
         ];
     });
 
-[note]There is no **timeCellTemplate** in such views as 'moth', 'timelineMonth' and 'agenda'.
+[note]There is no **timeCellTemplate** in such views as 'month', 'timelineMonth' and 'agenda'.
 
 #####See Also#####
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)

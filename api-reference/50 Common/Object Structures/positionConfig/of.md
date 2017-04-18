@@ -16,13 +16,13 @@ The target element that the widget is positioned against.
 The option can take on one of the following values.
 
     <!--JavaScript-->
-    //CSS selector
+    // CSS selector
     position: { of: '#targetElement' };
 
-    //jQuery wrapper
+    // jQuery wrapper
     position: { of: $('#targetElement') };
 
-    //DOM element
+    // DOM element
     position: { of: document.getElementById('#targetElement') };
 
 You can also pass a jQuery Event object to the **of** option. In this case, the element is positioned against the point whose coordinates equal [event.pageX](https://api.jquery.com/event.pageX) and [event.pageY](https://api.jquery.com/event.pageY) values.
@@ -32,8 +32,6 @@ You can also pass a jQuery Event object to the **of** option. In this case, the 
     <div id="myPopover">
         <p>Popover content</p>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     $("#myPopover").dxPopover({
@@ -66,8 +64,6 @@ You can also pass a jQuery Event object to the **of** option. In this case, the 
         <p>Popover content</p>
     </div>
 
-<!---->
-
     <!--JavaScript-->
     function Controller($scope) {
         $scope.popoverVisible = false;
@@ -92,8 +88,6 @@ You can also pass a jQuery Event object to the **of** option. In this case, the 
     }">
         <p>Popover content</p>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     var viewModel = {

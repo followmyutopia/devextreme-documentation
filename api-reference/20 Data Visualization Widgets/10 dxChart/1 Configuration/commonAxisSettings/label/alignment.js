@@ -28,7 +28,7 @@ $(function () {
             tick: { visible: true }
         }
     }).dxChart('instance');
-	
+    
     $("#selectBoxContainer").dxSelectBox({
         items: ['left', 'center', 'right'],
         value: 'center',

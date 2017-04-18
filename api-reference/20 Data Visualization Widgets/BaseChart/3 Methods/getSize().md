@@ -19,8 +19,8 @@ The current size of the widget.
 <!--fullDescription-->
 Use this method to obtain the current size of the widget. The object returned by this method has the following fields.
 
-- **width**		
+- **width**        
 The width of the widget in pixels.
-- **height**	
+- **height**    
 The height of the widget in pixels.
 <!--/fullDescription-->

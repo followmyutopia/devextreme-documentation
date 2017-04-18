@@ -45,9 +45,7 @@ The option can take on the following values, depending on the animation type.
 
         <!--JavaScript-->from: 'fade-out'
 
-	<!--...-->
-
-		<!--CSS-->.fade-out { opacity: 1; }
+        <!--CSS-->.fade-out { opacity: 1; }
 
 You can specify the initial or target element position relative to the current element position. For this purpose use the **+=** or **-=** operators.
 

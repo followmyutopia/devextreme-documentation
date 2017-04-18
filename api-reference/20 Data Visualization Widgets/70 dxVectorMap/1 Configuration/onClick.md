@@ -17,9 +17,9 @@ A handler for the [click](/Documentation/ApiReference/Data_Visualization_Widgets
 <!--fullDescription-->
 When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the object that represents the jQuery event extended by the following fields.
 
-* **x**		
+* **x**        
 Contains the X coordinate of the clicked point.
-* **y**		
+* **y**        
 Contains the Y coordinate of the clicked point.
 
 [note] The coordinates are calculated relatively to the client area, i.e., the widget's container. To convert them into map coordinates, use the [convertCoordinates(x,y)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#convertCoordinatesx_y) method.

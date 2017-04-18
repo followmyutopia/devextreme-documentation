@@ -58,8 +58,8 @@ var myViewModel = {
     clickHandler: function (e) {
         if (flag === false) {
             myViewModel.multiViewInstance.on(
-				"selectionChanged", function (e) { DevExpress.ui.notify("The \"" + e.addedItems[0].title + "\" item is selected", "success", 1500); }
-			);
+                "selectionChanged", function (e) { DevExpress.ui.notify("The \"" + e.addedItems[0].title + "\" item is selected", "success", 1500); }
+            );
             e.component.option("text", "Unsubscribe from SelectionChanged event");
             flag = true;
         } else {
@@ -121,8 +121,8 @@ myApp.controller("demoController", function ($scope) {
     $scope.clickHandler = function (e) {
         if (flag === false) {
             $scope.multiViewInstance.on(
-				"selectionChanged", function (e) { DevExpress.ui.notify("The \"" + e.addedItems[0].title + "\" item is selected", "success", 1500); }
-			);
+                "selectionChanged", function (e) { DevExpress.ui.notify("The \"" + e.addedItems[0].title + "\" item is selected", "success", 1500); }
+            );
             e.component.option("text", "Unsubscribe from SelectionChanged event");
             flag = true;
         } else {

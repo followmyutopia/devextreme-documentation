@@ -88,7 +88,7 @@ As shown above, the object has three fields &#8212; *rows*, *columns* and *value
 
 The *values* array contains the summary values, each one has three indexes. You can get a summary value using the following pattern.
 
-	<!--JavaScript-->var value = values[/*row index*/][/*column index*/][/*measure index*/];
+    <!--JavaScript-->var value = values[/*row index*/][/*column index*/][/*measure index*/];
     
 [note] If you use [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) and your [data area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) is empty, this function will return **values of the default measure**, which were sent by an OLAP server. Although the OLAP server sends such values, they are hidden from the UI and can be obtained by this function only.
 <!--/fullDescription-->

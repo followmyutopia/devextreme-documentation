@@ -22,14 +22,14 @@ $(function () {
     }).dxPieChart("instance");
     
     $("#sliderContainer").dxSlider({
-		min: 10,
-		max: 100,
-		value: 60,
-		onValueChanged: function (e) {
-			$('#sliderValue').html(e.value);
-			pieChartIntance.option({
-				title: { placeholderSize: e.value }
-			});
-		}
-	});
+        min: 10,
+        max: 100,
+        value: 60,
+        onValueChanged: function (e) {
+            $('#sliderValue').html(e.value);
+            pieChartIntance.option({
+                title: { placeholderSize: e.value }
+            });
+        }
+    });
 });

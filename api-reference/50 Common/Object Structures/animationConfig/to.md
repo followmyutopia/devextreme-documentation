@@ -45,9 +45,7 @@ The option can take on an object containing the **scale** and **opacity** proper
 
         <!--JavaScript-->from: 'fade-out-active'
 
-	<!--...-->
-
-		<!--CSS-->.fade-out-active { opacity: 1; }
+        <!--CSS-->.fade-out-active { opacity: 1; }
 
 You can specify the initial or target element position relative to the current element position. For this purpose, use the **+=** or **-=** operators.
 

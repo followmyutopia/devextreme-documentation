@@ -16,70 +16,73 @@ Specifies the group summary item whose values must be used to sort groups.
 <!--fullDescription-->
 The **summaryItem** option accepts one of the following values.
 
-- The [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#name) of a summary item. The following code sorts groups according to the values of the *'Average Age Group Summary'* item.	
+- The [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#name) of a summary item. The following code sorts groups according to the values of the *'Average Age Group Summary'* item.    
 
-		<!--JavaScript-->$("#gridContainer").dxDataGrid({
-			// ...
-			summary: {
-				groupItems: [{
-					column: 'Age',
-					summaryType: 'avg',
-					name: 'Average Age Group Summary'
-				}]
-			},
-			sortByGroupSummaryInfo: [{
-				summaryItem: 'Average Age Group Summary'
-			}]
-		});
-- The index of a summary item in the [groupItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) array. The following code sorts groups according to the values of the group summary item that has index 0.	
+        <!--JavaScript-->$("#gridContainer").dxDataGrid({
+            // ...
+            summary: {
+                groupItems: [{
+                    column: 'Age',
+                    summaryType: 'avg',
+                    name: 'Average Age Group Summary'
+                }]
+            },
+            sortByGroupSummaryInfo: [{
+                summaryItem: 'Average Age Group Summary'
+            }]
+        });
 
-		<!--JavaScript-->$("#gridContainer").dxDataGrid({
-			// ...
-			summary: {
-				groupItems: [{
-					column: 'Income',
-					summaryType: 'min'
-				}]
-			},
-			sortByGroupSummaryInfo: [{
-				summaryItem: 0
-			}]
-		});		
-- A summary type. In this case, the grid will use the first item from the **groupItems** array whose [summaryType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#summaryType) option matches the **summaryItem** option. For example, the following code sorts groups according to the values of the group summary item whose **column** option is *'Income'*.		
+- The index of a summary item in the [groupItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) array. The following code sorts groups according to the values of the group summary item that has index 0.    
 
-		<!--JavaScript-->$("#gridContainer").dxDataGrid({
-			// ...
-			summary: {
-				groupItems: [{
-					column: 'Age',
-					summaryType: 'avg'
-				}, {
-					column: 'Income',
-					summaryType: 'min'
-				}, {
-					column: 'Tasks',
-					summaryType: 'min'
-				}]
-			},
-			sortByGroupSummaryInfo: [{
-				summaryItem: 'min'
-			}]
-		});
-- The [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#name), [data field](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField) or [caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption) of a column. In this case, the grid will use the first item from the **groupItems** array whose [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#column) option matches the **summaryItem** option. For example, the following code declares two group summary items with identical values to the **column** option. However, groups will be sorted only according to the values of the group summary item whose **summaryType** option equals *'min'*, because this item is declared before the other one.		
+        <!--JavaScript-->$("#gridContainer").dxDataGrid({
+            // ...
+            summary: {
+                groupItems: [{
+                    column: 'Income',
+                    summaryType: 'min'
+                }]
+            },
+            sortByGroupSummaryInfo: [{
+                summaryItem: 0
+            }]
+        });
 
-		<!--JavaScript-->$("#gridContainer").dxDataGrid({
-			// ...
-			summary: {
-				groupItems: [{
-					column: 'Income',
-					summaryType: 'min'
-				},{
-					column: 'Income',
-					summaryType: 'avg'
-				}]
-			},
-			sortByGroupSummaryInfo: [{
-				summaryItem: 'Income'
-			}]
-		});
+- A summary type. In this case, the grid will use the first item from the **groupItems** array whose [summaryType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#summaryType) option matches the **summaryItem** option. For example, the following code sorts groups according to the values of the group summary item whose **column** option is *'Income'*.        
+
+        <!--JavaScript-->$("#gridContainer").dxDataGrid({
+            // ...
+            summary: {
+                groupItems: [{
+                    column: 'Age',
+                    summaryType: 'avg'
+                }, {
+                    column: 'Income',
+                    summaryType: 'min'
+                }, {
+                    column: 'Tasks',
+                    summaryType: 'min'
+                }]
+            },
+            sortByGroupSummaryInfo: [{
+                summaryItem: 'min'
+            }]
+        });
+        
+- The [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#name), [data field](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField) or [caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption) of a column. In this case, the grid will use the first item from the **groupItems** array whose [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#column) option matches the **summaryItem** option. For example, the following code declares two group summary items with identical values to the **column** option. However, groups will be sorted only according to the values of the group summary item whose **summaryType** option equals *'min'*, because this item is declared before the other one.        
+
+        <!--JavaScript-->$("#gridContainer").dxDataGrid({
+            // ...
+            summary: {
+                groupItems: [{
+                    column: 'Income',
+                    summaryType: 'min'
+                },{
+                    column: 'Income',
+                    summaryType: 'avg'
+                }]
+            },
+            sortByGroupSummaryInfo: [{
+                summaryItem: 'Income'
+            }]
+        });
 <!--/fullDescription-->

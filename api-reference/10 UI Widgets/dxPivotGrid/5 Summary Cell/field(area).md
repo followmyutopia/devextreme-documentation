@@ -25,7 +25,7 @@ The row or column field.
 <!--fullDescription-->
 If the [header items](/Documentation/Guide/Widgets/PivotGrid/Grouping/#Data_Grouping) are expanded and the cell belongs to multiple fields, the field of the deepest expanded header item is returned. The image below demonstrates what field will be returned by the following code.
 
-	<!--JavaScript-->var columnField = sourceCell.field('column');
+    <!--JavaScript-->var columnField = sourceCell.field('column');
 
 ![](/Content/images/doc/17_1/DataGrid/PivotGrid_field.png)
 <!--/fullDescription-->

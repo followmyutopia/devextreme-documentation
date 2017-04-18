@@ -32,9 +32,9 @@ The **customize** function should return the object that contains options to be 
 - [selectedBorderColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#selectedBorderColor)
 - [selectedBorderWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#selectedBorderWidth)
 - [selectedColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#selectedColor)
-- **isSelected**	
+- **isSelected**    
 Specifies whether or not an area is selected when the map is created. To select an area at runtime, use the [selected(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/Methods/#selectedstate) method.
-- **paletteIndex**	
+- **paletteIndex**    
 Specifies the index of the color when using [palettes](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#palette). This option is ignored when the **color** field is specified.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapcolorscustomization/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

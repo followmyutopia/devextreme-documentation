@@ -28,12 +28,12 @@ A command container must have an identifier. To set an identifier, use the **id*
             'android-footer-toolbar' : {
                 defaults: {
                     'showIcon':false, 
-					'location': 'before'
+                    'location': 'before'
                 },
                 commands: [
                     {
                         id: 'myCommand',
-						location: 'after' // container defaults can be overridden
+                        location: 'after' // container defaults can be overridden
                     }
                 ]
             }

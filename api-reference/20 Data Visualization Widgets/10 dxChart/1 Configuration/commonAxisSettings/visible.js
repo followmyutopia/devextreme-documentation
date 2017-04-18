@@ -28,7 +28,7 @@ $(function () {
             visible: false
         }
     }).dxChart('instance');
-	
+    
     $("#checkBoxContainer").dxCheckBox({
         text: 'Show the axes',
         value: false,

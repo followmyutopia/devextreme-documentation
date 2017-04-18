@@ -55,16 +55,14 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="toolbar"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#toolbar").dxToolbar({
                 items: toolbarItems
             });
         });
+
+        <!--HTML-->
+        <div id="toolbar"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -73,8 +71,6 @@ You can create the widget using one of the following approaches.
                 items: toolbarData
             }"></div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller('DemoController', function DemoController($scope) {
@@ -87,8 +83,6 @@ You can create the widget using one of the following approaches.
         <div data-bind="dxToolbar: {
             items: toolbarData
         }"></div>
-
-    <!---->
 
         <!--JavaScript-->
         var viewModel = {

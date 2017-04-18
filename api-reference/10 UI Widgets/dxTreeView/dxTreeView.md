@@ -113,11 +113,6 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="treeView"></div>
-
-    <!---->
-
         <!--JavaScript-->
         var species = [
             { id: 1, parentId: 0, text: "Species" },
@@ -143,6 +138,9 @@ You can create the widget using one of the following approaches.
             });
         });
 
+        <!--HTML-->
+        <div id="treeView"></div>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">
@@ -151,8 +149,6 @@ You can create the widget using one of the following approaches.
                 dataStructure: 'plain'
             }"></div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller("DemoController", function ($scope) {
@@ -168,8 +164,6 @@ You can create the widget using one of the following approaches.
             dataSource: species,
             dataStructure: 'plain'
         }"></div>
-
-    <!---->
 
         <!--JavaScript-->var viewModel = {
             species: [

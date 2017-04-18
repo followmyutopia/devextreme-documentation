@@ -8,7 +8,7 @@
         dxValidator: { name: 'Age',  validationRules: [{ type: 'required' }]}"></div>
     <div class="indentation" data-bind="dxAutocomplete: { placeholder: 'Room Type', valueExpr: 'text',
             dataSource: [{ text: 'Suite' }, { text: 'One-Bedroom Suite' }, { text: 'Two-Bedroom King Suite' }, { text: 'King Room' }] },
-        dxValidator: { name: 'Room Type', validationRules: [{ type: 'required'}]}"></div>	
+        dxValidator: { name: 'Room Type', validationRules: [{ type: 'required'}]}"></div>    
     <div class="indentation" data-bind="dxRadioGroup: { dataSource: [{ text: 'Ocean' }, { text: 'Mountains' }, { text: 'Slave market' }], layout:'vertical' },
         dxValidator: { name: 'Room View', validationRules: [{ type: 'required', message: 'Room View is not chosen' }]}">
     </div>
@@ -18,9 +18,9 @@
     </div>
     <div class="indentation" data-bind="dxCalendar: { }, dxValidator: { name: 'Check In Date', validationRules: [{ type: 'required' }]}"></div>
     <div class="indentation" data-bind="dxDateBox: { value: undefined, pickerType: 'calendar', placeholder: 'Check Out', width: 200},
-        dxValidator: { name: 'Check Out Date', validationRules: [{ type: 'required' }]}"></div>	
+        dxValidator: { name: 'Check Out Date', validationRules: [{ type: 'required' }]}"></div>    
     <div class="indentation" data-bind="dxCheckBox: { value: false,  text: 'I accept the terms' },
-        dxValidator: { name: 'Agreement', validationRules: [{ type: 'required' }]}"></div>	
+        dxValidator: { name: 'Agreement', validationRules: [{ type: 'required' }]}"></div>    
     <div class="indentation" data-bind="dxValidationSummary: { }"></div>
     <div data-bind="dxButton: { text: 'Validate and submit', onClick: validateAndSubmit }"></div>
 </div>

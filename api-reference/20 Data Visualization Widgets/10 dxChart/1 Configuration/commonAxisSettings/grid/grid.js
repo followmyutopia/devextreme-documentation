@@ -28,7 +28,7 @@ $(function () {
             grid: { visible: false }
         }
     }).dxChart('instance');
-	
+    
     $("#checkBoxContainer").dxCheckBox({
         text: 'Show grid lines',
         value: false,

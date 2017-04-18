@@ -28,7 +28,7 @@ $(function () {
             visible: true
         }
     }).dxChart('instance');
-	
+    
     $("#sliderContainer").dxSlider({
         min: 0.01, max: 1,
         value: 0.1,

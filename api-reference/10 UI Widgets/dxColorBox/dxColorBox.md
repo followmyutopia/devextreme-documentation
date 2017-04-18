@@ -25,16 +25,14 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="colorBox"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#colorBox").dxColorBox({
                 value: 'rgba(255, 144, 0, 0.3)',
                 editAlphaChannel: true
             });
         });
+
+        <!--HTML--><div id="colorBox"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

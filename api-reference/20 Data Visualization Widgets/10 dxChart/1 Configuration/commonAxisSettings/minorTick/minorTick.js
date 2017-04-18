@@ -30,7 +30,7 @@ $(function () {
             tick: { visible: true }
         }
     }).dxChart('instance');
-	
+    
     $("#checkBoxContainer").dxCheckBox({
         text: 'Show minor ticks',
         value: false,

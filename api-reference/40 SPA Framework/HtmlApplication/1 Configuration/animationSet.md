@@ -30,8 +30,8 @@ This animation set is similar to the 'default' animation set, but a 'zoom' anima
 
 These predefined animation sets are available in the **DevExpress.framework.html.animationSets** collection.
 
-	<!--JavaScript-->MyApp.app = new DevExpress.framework.html.HtmlApplication({
-		//...
+    <!--JavaScript-->MyApp.app = new DevExpress.framework.html.HtmlApplication({
+        //...
         animationSet: DevExpress.framework.html.animationSets['slide'],
     });
 

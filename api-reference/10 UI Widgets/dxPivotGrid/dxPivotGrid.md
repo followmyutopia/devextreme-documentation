@@ -39,10 +39,6 @@ You can create the **PivotGrid** widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="pivotGrid"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#pivotGrid").dxPivotGrid({
                 dataSource: {
@@ -63,10 +59,12 @@ You can create the **PivotGrid** widget using one of the following approaches.
             });
         });
 
+        <!--HTML--><div id="pivotGrid"></div>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div dx-pivot-grid="{
-			dataSource: {
+            dataSource: {
                 store: {
                     type: 'odata',
                     url: 'http://url/to/the/service',
@@ -86,7 +84,7 @@ You can create the **PivotGrid** widget using one of the following approaches.
 - [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div data-bind="dxPivotGrid: {
-			dataSource: {
+            dataSource: {
                 store: {
                     type: 'odata',
                     url: 'http://url/to/the/service',

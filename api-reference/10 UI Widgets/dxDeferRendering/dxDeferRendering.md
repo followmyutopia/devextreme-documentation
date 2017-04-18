@@ -25,8 +25,6 @@ You can create the widget using one of the following approaches.
             <!-- Widget content -->
         </div>
 
-    <!---->
-
         <!--JavaScript-->
         var readyToRender = $.Deferred();
         // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
@@ -47,8 +45,6 @@ You can create the widget using one of the following approaches.
             </div>
         </div>
 
-    <!---->
-
         <!--JavaScript-->var modelIsReady = $.Deferred();
         // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
         // ...
@@ -65,8 +61,6 @@ You can create the widget using one of the following approaches.
         }">
             <!-- Widget content -->
         </div>
-  
-    <!---->
   
         <!--JavaScript-->
         var modelIsReady = $.Deferred();

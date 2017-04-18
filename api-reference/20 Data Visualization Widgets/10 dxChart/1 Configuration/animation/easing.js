@@ -17,7 +17,7 @@ $(function () {
             duration: 2000
         }
     }).dxChart('instance');
-	
+    
     $("#selectBoxContainer").dxSelectBox({
         items: ['easeOutCubic', 'linear'],
         value: 'easeOutCubic',

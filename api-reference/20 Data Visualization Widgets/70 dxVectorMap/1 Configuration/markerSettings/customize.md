@@ -32,9 +32,9 @@ The **customize** function should return the object that contains options to be 
 - [selectedBorderColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#selectedBorderColor)
 - [selectedBorderWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#selectedBorderWidth)
 - [selectedColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#selectedColor)
-- **isSelected**	
+- **isSelected**    
 Specifies if a marker is selected when the map is created. To select a marker at runtime, use the [selected(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/Methods/#selectedstate) method.
-- **text**	
+- **text**    
 Specifies the text that accompanies a marker.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->marker<!--/typeFunctionParamName1-->

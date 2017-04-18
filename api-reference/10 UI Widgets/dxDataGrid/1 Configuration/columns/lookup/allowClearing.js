@@ -1,5 +1,5 @@
 var books = [
-   { author: 'J. D. Salinger', title: 'The Catcher in the Rye', year: 1951, genre: 'Bildungsroman', formatID: 2 },	
+   { author: 'J. D. Salinger', title: 'The Catcher in the Rye', year: 1951, genre: 'Bildungsroman', formatID: 2 },    
    { author: 'D. Adams', title: "The Hitchhiker's Guide to the Galaxy", year: 1979, genre: 'Comedy, sci-fi', formatID: 1 },
    { author: 'K. Vonnegut', title: "Cat's Cradle", year: 1963, genre: 'Satire, sci-fi', formatID: 3 },
    { author: 'K. Vonnegut', title: "God Bless You, Mr. Rosewater, or Pearls Before Swine", year: 1965, genre: 'Novel', formatID: 2 },
@@ -9,7 +9,7 @@ var books = [
    { author: 'G. Grass', title: "The Tin Drum", year: 1959, genre: 'Speculative fiction', formatID: 1 },
    { author: 'R. Bradbury', title: "Dandelion Wine", year: 1957, genre: 'Novel', formatID: 3 },
    { author: 'R. Bradbury', title: "The Martian Chronicles", year: 1950, genre: 'Sci-fi', formatID: 3 },
-   { author: 'R. Bradbury', title: "Fahrenheit 451", year: 1953, genre: 'Dystopian novel', formatID: 2 },	
+   { author: 'R. Bradbury', title: "Fahrenheit 451", year: 1953, genre: 'Dystopian novel', formatID: 2 },    
    { author: 'C. Dickens', title: "Great Expectations", year: 1861, genre: 'Realistic fiction', formatID: 2 },
    { author: 'F. Scott Fitzgerald', title: "The Great Gatsby", year: 1925, genre: 'Novel', formatID: 1 },
    { author: 'E. Hemingway', title: "For Whom the Bell Tolls", year: 1940, genre: 'War novel', formatID: 3 },

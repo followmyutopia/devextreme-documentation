@@ -28,8 +28,6 @@ You can create the widget using one of the following approaches.
             <p>Tooltip content</p>
         </div>
 
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#tooltip").dxTooltip({
                 target: '#targetElement',

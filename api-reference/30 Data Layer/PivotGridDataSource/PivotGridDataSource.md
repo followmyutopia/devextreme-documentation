@@ -21,20 +21,20 @@ An object that provides access to data for the [PivotGrid](/Documentation/ApiRef
 <!--fullDescription-->
 The PivotGridDataSource object is a connection between a [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget and the data provided by a web service or data stored locally. The DataSource underlying data access logic is isolated in a [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores). You can use the following Store types in the PivotGridDataSource.
 
-* [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/)		
-	Provides access to an in-memory array.
+* [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/)        
+    Provides access to an in-memory array.
 
-* [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/)		
-	Provides access to a remote OLAP service.
+* [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/)        
+    Provides access to a remote OLAP service.
 
-* [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/)		
-	Provides access to an HTML5 web storage.
+* [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/)        
+    Provides access to an HTML5 web storage.
 
-* [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/)		
-	Provides access to a remote OData service.
+* [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/)        
+    Provides access to a remote OData service.
 
-* [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/)		
-	A Store that enables you to implement your own data access logic.
+* [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/)        
+    A Store that enables you to implement your own data access logic.
 
 To create a PivotGridDataSource instance, call its constructor and pass the [configuration object](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/) to it.
 

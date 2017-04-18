@@ -27,7 +27,7 @@ $(function () {
         },
         argumentAxis: { tickInterval: 5 }
     }).dxChart('instance');
-	
+    
     $("#selectBoxContainer").dxSelectBox({
         items: ['hide', 'rotate', 'stagger', 'none'],
         value: 'hide',

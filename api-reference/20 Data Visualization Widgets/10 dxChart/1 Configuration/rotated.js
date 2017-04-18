@@ -23,7 +23,7 @@ $(function () {
             label: { format: 'largeNumber' }
         }
     }).dxChart('instance');
-	
+    
     $("#checkBoxContainer").dxCheckBox({
         text: 'Rotate the chart',
         value: false,

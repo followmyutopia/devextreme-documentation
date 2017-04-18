@@ -18,14 +18,14 @@ When implementing a callback function for this option, you can access the value 
 
 The following code implements a selector function that groups the birth dates by decades.
 
-	<!--JavaScript-->function (data) {
-		return Math.floor(data.birthdate.getFullYear() / 10) * 10 
-	}
+    <!--JavaScript-->function (data) {
+        return Math.floor(data.birthdate.getFullYear() / 10) * 10 
+    }
 
 Another example: the following function divides values into *"> 1000"* and *"< 1000"* groups against a threshold value of 1000.
 
     <!--JavaScript-->function (data) {
-		return data.amount > 1000 ? '> 1000' : '< 1000'
-	}
+        return data.amount > 1000 ? '> 1000' : '< 1000'
+    }
     
 <!--/fullDescription-->

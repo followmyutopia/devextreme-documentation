@@ -21,13 +21,13 @@ Instead, you can use the [onClick](/Documentation/ApiReference/UI_Widgets/dxButt
 To validate the editors that are related to the [validation group](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup) specified for this button, use the **validationGroup** field of the object passed as the event handler's parameter. The **validationGroup** object has the following structure.
 
 - **group**  
-	The name or object of the validation group that is assigned to the button's <b>validationGroup</b> option.
+    The name or object of the validation group that is assigned to the button's <b>validationGroup</b> option.
 - **validators**  
-	An array of **Validator** widgets that are included to the validation group.
+    An array of **Validator** widgets that are included to the validation group.
 - **validate()**   
-	The method that allows you to validate the widgets included to the validation group.
+    The method that allows you to validate the widgets included to the validation group.
 - **validated**  
-	The event that occurs after the group is validated. You can attach/detach a handler using the **on(eventName, eventHandler)**/**off(eventName)** methods of the group.
+    The event that occurs after the group is validated. You can attach/detach a handler using the **on(eventName, eventHandler)**/**off(eventName)** methods of the group.
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

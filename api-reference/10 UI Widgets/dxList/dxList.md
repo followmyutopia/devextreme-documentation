@@ -28,16 +28,14 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="list"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#list").dxList({
                 dataSource: listData,
                 grouped: true
             });
         });
+
+        <!--HTML--><div id="list"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -47,8 +45,6 @@ You can create the widget using one of the following approaches.
                 grouped: true
             }"></div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller("DemoController", function ($scope) {
@@ -63,8 +59,6 @@ You can create the widget using one of the following approaches.
             dataSource: listData,
             grouped: true
         }"></div>
-
-    <!---->
 
         <!--JavaScript-->var viewModel = {
             listData: [

@@ -28,49 +28,47 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="vectorMap"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function() {
-			$("#vectorMap").dxVectorMap({
-				layers: [{
-					type: 'area',
-					dataSource: DevExpress.viz.map.sources.world,
-					label: {
-						enabled: true,
-						dataField: 'name'
-					}
-				}]
-			});
-		});
+            $("#vectorMap").dxVectorMap({
+                layers: [{
+                    type: 'area',
+                    dataSource: DevExpress.viz.map.sources.world,
+                    label: {
+                        enabled: true,
+                        dataField: 'name'
+                    }
+                }]
+            });
+        });
+
+        <!--HTML--><div id="vectorMap"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div dx-vector-map="{
-			layers: [{
-				type: 'area',
-				dataSource: DevExpress.viz.map.sources.world,
-				label: {
-					enabled: true,
-					dataField: 'name'
-				}
-			}]
+            layers: [{
+                type: 'area',
+                dataSource: DevExpress.viz.map.sources.world,
+                label: {
+                    enabled: true,
+                    dataField: 'name'
+                }
+            }]
         }"></div>
 
 - [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div data-bind="dxVectorMap: {
-			layers: [{
-				type: 'area',
-				dataSource: DevExpress.viz.map.sources.world,
-				label: {
-					enabled: true,
-					dataField: 'name'
-				}
-			}],
+            layers: [{
+                type: 'area',
+                dataSource: DevExpress.viz.map.sources.world,
+                label: {
+                    enabled: true,
+                    dataField: 'name'
+                }
+            }],
         }"></div>
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)

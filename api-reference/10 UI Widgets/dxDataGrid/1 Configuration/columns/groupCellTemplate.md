@@ -17,36 +17,36 @@ By default, a group cell displays the name of the column used for grouping combi
 
 When implementing the **groupCellTemplate** function, you can access the group cell under customization using the function's first parameter. This parameter provides access to [element-related jQuery operations](http://api.jquery.com/?s=element). In addition, you can access the options of the cell using the fields of the function's second parameter. These fields are listed below.
 
-- **data**		
+- **data**        
 Contains a data object that represents data items matching a grouping key. For example, if you group grid records by country, the following object can be obtained from the **data** field.
 
-		<!--JavaScript-->{
-			key: 'Spain', // The name of a country
-			items: [	  // Data source objects corresponding to the key
-				{ ... }, 
-				{ ... },
-				// ...
-			]
-		}
+        <!--JavaScript-->{
+            key: 'Spain', // The name of a country
+            items: [      // Data source objects corresponding to the key
+                { ... }, 
+                { ... },
+                // ...
+            ]
+        }
 - **component**  
 Contains the **DataGrid** instance.
-- **value**		
+- **value**        
 Contains the value of the current group cell as it is specified in a data source.
-- **text**		
+- **text**        
 Contains the value of the current group cell in a string format. Use this field to get a value with applied [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format).
-- **displayValue**		
+- **displayValue**        
 Contains the value displayed by the current group cell. Differs from the **value** field only when the column to which the current cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
-- **columnIndex**		
+- **columnIndex**        
 Contains the index of the column to which the current group cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
-- **rowIndex**		
+- **rowIndex**        
 Contains the index of the row that the current group cell occupies. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
-- **column**		
+- **column**        
 Contains the settings of the column to which the current group cell belongs.
 - **summaryItems**  
 An array of [group summary items](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) that are defined to be displayed in a group row. The array objects have the structure of the group summary items with an addition of the **value** (the summary item value) and **columnCaption** (usually used to present a summary value) fields.
-- **groupContinuesMessage**		
+- **groupContinuesMessage**        
 If the current group continues on the next page, this field contains a corresponding message. The value of this field equals the value of the **grouping** | [groupContinuesMessage](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#groupContinuesMessage) property. If the current group does not continue on the next page, this field equals *undefined*.
-- **groupContinuedMessage**		
+- **groupContinuedMessage**        
 If the current group is continued from the previous page, this field contains a corresponding message. The value of this field equals the value of the **grouping** | [groupContinuedMessage](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#groupContinuedMessage) property. If the current group is not continued from the previous page, this field equals *undefined*.
 
 [note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 
@@ -56,8 +56,8 @@ If the current group is continued from the previous page, this field contains a 
 
 It is also possible to define a group cell template in markup. For this purpose, use one of the following template engines. The above-mentioned cell settings can be accessed in a similar manner inside the template.
 
-- [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)		
-- [JsRender](https://github.com/BorisMoore/jsrender)		
+- [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)        
+- [JsRender](https://github.com/BorisMoore/jsrender)        
 - [Mustache](http://mustache.github.io/)
 - [Hogan](http://twitter.github.io/hogan.js/)
 - [Underscore](http://underscorejs.org/)
@@ -66,8 +66,8 @@ It is also possible to define a group cell template in markup. For this purpose,
 
 Using a template engine, pass one of the following values to the **groupCellTemplate** option.
 
-- A jQuery object representing the template's container.		
-- A DOM Node representing the template's container.		
+- A jQuery object representing the template's container.        
+- A DOM Node representing the template's container.        
 - A function that returns a jQuery object or a DOM Node representing the template's container.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->

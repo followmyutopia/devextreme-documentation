@@ -37,11 +37,6 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="targetElement"></div>
-        <div id="contextMenu"></div>
-
-    <!---->
-
         <!--JavaScript-->var contextMenuItems = [
             { text: "Hide" },
             { text: "Delete" },
@@ -61,6 +56,9 @@ You can create the widget using one of the following approaches.
             });
         });
 
+        <!--HTML--><div id="targetElement"></div>
+        <div id="contextMenu"></div>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">
@@ -70,8 +68,6 @@ You can create the widget using one of the following approaches.
                 target: '#targetElement'
             }"></div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller("DemoController", function ($scope) {
@@ -87,8 +83,6 @@ You can create the widget using one of the following approaches.
             items: contextMenuItems,
             target: '#targetElement'
         }"></div>
-
-    <!---->
 
         <!--JavaScript-->var viewModel = {
             contextMenuItems: [

@@ -25,7 +25,7 @@ $(function () {
             label: { format: 'largeNumber' }
         }
     }).dxChart('instance');
-	
+    
     $("#checkBoxContainer").dxCheckBox({
         text: 'Invert the axis',
         value: false,

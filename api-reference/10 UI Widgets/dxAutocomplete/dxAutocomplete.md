@@ -26,11 +26,6 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="autocomplete"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#autocomplete").dxAutocomplete({
                 dataSource: autocompleteData,
@@ -38,6 +33,9 @@ You can create the widget using one of the following approaches.
                 valueExpr: 'name'
             });
         });
+
+        <!--HTML-->
+        <div id="autocomplete"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

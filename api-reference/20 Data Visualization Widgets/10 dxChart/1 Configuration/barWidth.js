@@ -23,7 +23,7 @@ $(function () {
         },
         barWidth: 0.5
     }).dxChart('instance');
-	
+    
     $("#sliderContainer").dxSlider({
         min: 0.01, max: 1,
         value: 0.5,

@@ -29,11 +29,6 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="radioGroup"></div>
-
-    <!---->
-
         <!--JavaScript-->var radioGroupItems = [
             { text: "Low", color: "grey" },
             { text: "Normal", color: "green" },
@@ -49,6 +44,9 @@ You can create the widget using one of the following approaches.
             });
         });
 
+        <!--HTML-->
+        <div id="radioGroup"></div>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">
@@ -59,8 +57,6 @@ You can create the widget using one of the following approaches.
                 value: 'green'
             }"></div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller('DemoController', function DemoController($scope) {
@@ -79,8 +75,6 @@ You can create the widget using one of the following approaches.
             valueExpr: 'color',
             value: 'green'
         }"></div>
-
-    <!---->
 
         <!--JavaScript-->var viewModel = {
             radioGroupItems: [

@@ -51,8 +51,6 @@ When developing an application you may often need to process a user gesture or a
             My Element
         </div>
 
-    <!---->
-
         <!--JavaScript-->
         var viewModel = {
             clickEventHandler: function(data, event) {

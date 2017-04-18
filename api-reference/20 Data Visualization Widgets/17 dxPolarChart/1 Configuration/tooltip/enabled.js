@@ -32,7 +32,7 @@ $(function () {
     });
 
     $('#tooltipEnabledCheckbox').change(function () {
-    	var chart = $('#chartContainer').dxPolarChart('instance');
+        var chart = $('#chartContainer').dxPolarChart('instance');
         chart.option({
             tooltip: { enabled: this.checked }
         });

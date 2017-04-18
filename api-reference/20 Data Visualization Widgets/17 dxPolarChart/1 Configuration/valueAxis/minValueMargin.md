@@ -18,7 +18,7 @@ When [margins are enabled](/Documentation/ApiReference/Data_Visualization_Widget
 
 By default, margins are calculated automatically and equal to half of an axis' [tick interval](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Axis_Ticks_Arrangement). If you need to specify custom margins, use the **minValueMargin** and **maxValueMargin** options. These options accept coefficients that are used to calculate the actual start and end values for an axis with applied margins. The start value is calculated using the following formula.
 
-*startValue = min - (max - min) * **minValueMargin***		
+*startValue = min - (max - min) * **minValueMargin***        
 
 For example, consider that **min** is 1960 and **max** is 2010. If you set the **minValueMargin** option to 0.1, the axis will start in 1955.
 

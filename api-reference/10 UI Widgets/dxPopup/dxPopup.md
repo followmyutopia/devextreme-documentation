@@ -30,8 +30,6 @@ You can create the widget using one of the following approaches.
             <p>Popup content</p>
         </div>
 
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#popup").dxPopup({
                 title: 'Popup Title',
@@ -52,8 +50,6 @@ You can create the widget using one of the following approaches.
             </div>
         </div>
 
-    <!---->
-
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller('DemoController', function DemoController($scope) {
                 $scope.isPopupVisible = true;
@@ -66,8 +62,6 @@ You can create the widget using one of the following approaches.
             title: 'Popup Title',
             visible: isPopupVisible
         }"></div>
-
-    <!---->
 
         <!--JavaScript-->var viewModel = {
             isPopupVisible: ko.observable(true)

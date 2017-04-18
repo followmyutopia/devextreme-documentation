@@ -28,7 +28,7 @@ $(function () {
             visible: true
         }
     }).dxChart('instance');
-	
+    
     $("#checkBoxContainer").dxCheckBox({
         text: 'valueMarginsEnabled',
         value: true,

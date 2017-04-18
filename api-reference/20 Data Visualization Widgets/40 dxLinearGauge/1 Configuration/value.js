@@ -8,7 +8,7 @@ $(function () {
         },
         value: 100
     });
-	
+    
     $('#decrease').click(function () {
         var gauge = $("#linearGaugeContainer").dxLinearGauge("instance");
         var previousValue = gauge.option('value');

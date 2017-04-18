@@ -18,20 +18,20 @@ Allows you to change the appearance of specific tooltips.
 <!--fullDescription-->
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
 
-- **color**		
+- **color**        
 Specifies the [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/tooltip/#color) of a tooltip.
 
-- **text**		
+- **text**        
 Specifies the text displayed by a tooltip.
 
-- **html**		
+- **html**        
 Specifies the HTML markup displayed by a tooltip.
 [note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they will occupy beforehand.
 
-- **fontColor**		
+- **fontColor**        
 Specifies the color of the text displayed by a tooltip.
 
-- **borderColor**		
+- **borderColor**        
 Specifies the color of the tooltip border.
 
 When implementing a callback function for this option, you can access different types of values indicated by a sparkline. For this purpose, use the following fields of the **this** object.

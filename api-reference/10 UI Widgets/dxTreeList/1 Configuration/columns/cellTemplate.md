@@ -17,27 +17,27 @@ Use this option to specify completely custom markup for column cells. See [templ
 
 Below is the list of fields passed as the **cellInfo** object.
 
-- **data**: <font size="-1">Object</font>		
+- **data**: <font size="-1">Object</font>        
 Data of the row to which the cell belongs.
 - **component**: <font size="-1">jQuery</font>  
 The [widget instance]({basewidgetpath}/Methods/#instance).
-- **value**: <font size="-1">Any</font>		
+- **value**: <font size="-1">Any</font>        
 The value of the cell as it is specified in the data source.
-- **displayValue**: <font size="-1">Any</font>		
+- **displayValue**: <font size="-1">Any</font>        
 The display value of the cell. Differs from the **value** field only when the column uses [lookup]({basewidgetpath}/Configuration/columns/lookup/) or [calculateDisplayValue]({basewidgetpath}/Configuration/columns/#calculateDisplayValue).
-- **text**: <font size="-1">String</font>		
+- **text**: <font size="-1">String</font>        
 **displayValue** after applying [format]({basewidgetpath}/Configuration/columns/#format) and [customizeText]({basewidgetpath}/Configuration/columns/#customizeText).
-- **columnIndex**: <font size="-1">Number</font>		
+- **columnIndex**: <font size="-1">Number</font>        
 The index of the column to which the cell belongs.
-- **rowIndex**: <font size="-1">Number</font>		
+- **rowIndex**: <font size="-1">Number</font>        
 The index of the row to which the cell belongs. Begins with 0 on each page.
-- **column**: <font size="-1">Object</font>		
+- **column**: <font size="-1">Object</font>        
 The settings of the column to which the cell belongs.
 
 It is also possible to define a cell template using the following template engines. You can access the aforementioned cell settings inside the template in a similar manner.
 
-- [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)		
-- [JsRender](https://github.com/BorisMoore/jsrender)		
+- [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)        
+- [JsRender](https://github.com/BorisMoore/jsrender)        
 - [Mustache](http://mustache.github.io/)
 - [Hogan](http://twitter.github.io/hogan.js/)
 - [Underscore](http://underscorejs.org/)

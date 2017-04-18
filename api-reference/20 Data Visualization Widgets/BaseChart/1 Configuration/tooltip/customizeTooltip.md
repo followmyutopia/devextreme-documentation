@@ -17,20 +17,20 @@ Allows you to change the appearance of specified tooltips.
 <!--fullDescription-->
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
 
-- **color**		
+- **color**        
 Specifies the color of a tooltip.
 
-- **text**		
+- **text**        
 Specifies the text displayed by a tooltip.
 
-- **html**		
+- **html**        
 Specifies the HTML markup displayed by a tooltip.
 [note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they will occupy beforehand.
 
-- **fontColor**		
+- **fontColor**        
 Specifies the color of the text displayed by a tooltip.
 
-- **borderColor**		
+- **borderColor**        
 Specifies the color of the tooltip border.
 
 When implementing the function for this option, you can use information about the tooltip's point. For example, you can access the argument or value of this point. To do this, use the following fields of the **this** object.
@@ -64,26 +64,26 @@ Provides access to the array of points with the same argument as the currently h
 
 The following fields come with the stacked-like series such as [full-stacked bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/) or [full-stacked area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/).
 
-* **percent**	
+* **percent**    
 Specifies the percent value of the currently hovered point.
 * **percentText**   
 Specifies the percent value of the currently hovered point with **percentPrecision** (optional) applied.
-* **total**		
+* **total**        
 Specifies the total value of all the points with the same argument as the currently hovered point.
-* **totalText**		
+* **totalText**        
 Specifies the total value of all the points with the same argument as the currently hovered point. This value is displayed with applied formatting if the **format** option is specified.
 
 The following fields come with the range-like series, such as [range area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/) or [range bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeBarSeries/).
 
-* **originalMinValue**		
+* **originalMinValue**        
 Specifies the first range value of the currently hovered point as it is set in the data source.
-* **rangeValue1**		
+* **rangeValue1**        
 Specifies the first range value of the currently hovered point. Differs from the **originalMinValue** when the axis [value type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType) is specified explicitly. In this instance, the **rangeValue1** field contains the first range value in the specified type.
 * **rangeValue1Text**   
 Specifies the first range value of the currently hovered point with applied formatting if the **format** property is specified.
-* **originalValue**		
+* **originalValue**        
 Specifies the second range value of the currently hovered point as it is set in the data source.
-* **rangeValue2**		
+* **rangeValue2**        
 Specifies the second range value of the currently hovered point. Differs from the **originalValue** when the axis [value type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType) is specified explicitly. In this instance, the **rangeValue2** field contains the second range value in the specified type.
 * **rangeValue2Text**   
 Specifies the second range value of the currently hovered point with applied formatting if the **format** property is specified.

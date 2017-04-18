@@ -22,8 +22,8 @@ This function must return a filter expression, which is an array of the followin
 - **selector**      
 A data source field or a function providing actual values for the column. If you are in doubt what to pass here, pass **this.calculateCellValue**.
 - **selectedFilterOperation**       
-A comparison operator. One of the following: *"=", "<>", ">", ">=", "<", "<=", "between", "startswith", "endswith", "contains", "notcontains"*.	
-- **filterValue**	    
+A comparison operator. One of the following: *"=", "<>", ">", ">=", "<", "<=", "between", "startswith", "endswith", "contains", "notcontains"*.    
+- **filterValue**        
 The value that a user has typed into a cell of the filter row. Values provided by the **selector** will be compared to this value.
 
 The following code snippet provides a typical implementation of the **calculateFilterExpression** function.

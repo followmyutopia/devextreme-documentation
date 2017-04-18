@@ -24,8 +24,8 @@ var myViewModel = {
             flag = true;
         } else {
             myViewModel.toastInstance
-				.off("hidden")
-				.off("shown");
+                .off("hidden")
+                .off("shown");
             e.component.option("text", "Subscribe to hidden and shown events");
             flag = false;
         }

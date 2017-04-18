@@ -28,9 +28,9 @@ The **HtmlApplication** object connects markup elements, scripts and styles to a
 To configure the HtmlApplication object, pass a [configuration object](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/) as the constructor's parameter. Specify the required options within the configuration object. For instance, specify the [set of layouts](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#layoutSet) to be used as a skeleton for application views. Using the application object, register a [routing rule](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/) for the application and navigate to a starting view.
 
     <!--JavaScript-->window.MyApp = {};
-	$(function() {
+    $(function() {
         MyApp.app = new DevExpress.framework.html.HtmlApplication({
-		    namespace: MyApp,
+            namespace: MyApp,
             layoutSet: DevExpress.framework.html.layoutSets['navbar']
         });
         MyApp.app.router.register(":view", { view: "index"});

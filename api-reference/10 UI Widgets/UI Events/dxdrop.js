@@ -34,10 +34,10 @@ dropped = function () {
 //<!--@AngularJS-->
 
 var initialTop,
-	initialLeft,
-	initialPointerY,
-	initialPointerX,
-	draggedColor = "red";
+    initialLeft,
+    initialPointerY,
+    initialPointerX,
+    draggedColor = "red";
 
 var myApp = angular.module('myApp', ['dx']);
 myApp.controller("demoController", function ($scope) {

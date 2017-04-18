@@ -16,18 +16,18 @@ Specifies the value to be used for generating error bars.
 <!--fullDescription-->
 Depending on the value of the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/valueErrorBar/#type) option, the **value** option is applied as follows.
 
-- **type**: *'percent'*		
+- **type**: *'percent'*        
 The **value** option specifies the percentage of the series point value to be taken.
 
-- **type**: *'stdError'*		
+- **type**: *'stdError'*        
 The **value** option multiplies the calculated standard error.
 
-- **type**: *'stdDeviation'*		
+- **type**: *'stdDeviation'*        
 The **value** option multiplies the calculated standard deviation.
 
-- **type**: *'variance'*		
+- **type**: *'variance'*        
 The **value** option multiplies the calculated variance.
 
-- **type**: *'fixed'*		
+- **type**: *'fixed'*        
 The **value** option specifies constant error bar values.
 <!--/fullDescription-->

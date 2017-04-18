@@ -25,7 +25,7 @@ $(function () {
         },
         animation: false
     }).dxChart('instance');
-	
+    
     $("#selectBoxContainer").dxSelectBox({
         items: ['none', 'allArgumentPoints'],
         value: 'none',

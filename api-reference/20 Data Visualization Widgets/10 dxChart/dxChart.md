@@ -46,51 +46,49 @@ You can create the **Chart** widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="chart"></div>
-
-    <!---->
-
         <!--JavaScript-->var fruits = [
-			{ fruit: 'Oranges', yield: 10, consumed: 7 },
-			{ fruit: 'Apples', yield: 15, consumed: 14 },
-			{ fruit: 'Bananas', yield: 9, consumed: 9 }
-		];
-		$(function() {
-			$("#chart").dxChart({
-				dataSource: fruits,
-				commonSeriesSettings: {
-					argumentField: "fruit",
-					type: "bar"
-				},
-				series: [
-					{ valueField: "yield" },
-					{ valueField: "consumed" }
-				]
-			});
-		});
+            { fruit: 'Oranges', yield: 10, consumed: 7 },
+            { fruit: 'Apples', yield: 15, consumed: 14 },
+            { fruit: 'Bananas', yield: 9, consumed: 9 }
+        ];
+        $(function() {
+            $("#chart").dxChart({
+                dataSource: fruits,
+                commonSeriesSettings: {
+                    argumentField: "fruit",
+                    type: "bar"
+                },
+                series: [
+                    { valueField: "yield" },
+                    { valueField: "consumed" }
+                ]
+            });
+        });
+
+        <!--HTML--><div id="chart"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">
-			<div dx-chart="{
-				dataSource: fruits,
-				commonSeriesSettings: {
-					argumentField: 'fruit',
-					type: 'bar'
-				},
-				series: [
-					{ valueField: 'yield' },
-					{ valueField: 'consumed' }
-				]
-			}"></div>
-		</div>
-
-	<!---->
+            <div dx-chart="{
+                dataSource: fruits,
+                commonSeriesSettings: {
+                    argumentField: 'fruit',
+                    type: 'bar'
+                },
+                series: [
+                    { valueField: 'yield' },
+                    { valueField: 'consumed' }
+                ]
+            }"></div>
+        </div>
 
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller("DemoController", function ($scope) {
                 $scope.fruits = [
-                    // ...   
+                    { fruit: 'Oranges', yield: 10, consumed: 7 },
+                    { fruit: 'Apples', yield: 15, consumed: 14 },
+                    { fruit: 'Bananas', yield: 9, consumed: 9 } 
                 ];
             });
 
@@ -98,22 +96,22 @@ You can create the **Chart** widget using one of the following approaches.
 
         <!--HTML-->
         <div data-bind="dxChart: {
-			dataSource: fruits,
-			commonSeriesSettings: {
-				argumentField: 'fruit',
-				type: 'bar'
-			},
-			series: [
-				{ valueField: 'yield' },
-				{ valueField: 'consumed' }
-			]
+            dataSource: fruits,
+            commonSeriesSettings: {
+                argumentField: 'fruit',
+                type: 'bar'
+            },
+            series: [
+                { valueField: 'yield' },
+                { valueField: 'consumed' }
+            ]
         }"></div>
-
-	<!---->
 
         <!--JavaScript-->var viewModel = {
             fruits: [
-                // ...
+                { fruit: 'Oranges', yield: 10, consumed: 7 },
+                { fruit: 'Apples', yield: 15, consumed: 14 },
+                { fruit: 'Bananas', yield: 9, consumed: 9 }
             ]
         };
         ko.applyBindings(viewModel);

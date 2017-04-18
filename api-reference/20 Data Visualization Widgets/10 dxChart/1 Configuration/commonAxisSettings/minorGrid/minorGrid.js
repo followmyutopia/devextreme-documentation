@@ -29,7 +29,7 @@ $(function () {
             minorGrid: { visible: false }
         }
     }).dxChart('instance');
-	
+    
     $("#checkBoxContainer").dxCheckBox({
         text: 'Show the minor grid',
         value: false,

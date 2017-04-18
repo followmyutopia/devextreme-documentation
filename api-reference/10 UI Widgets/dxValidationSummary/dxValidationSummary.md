@@ -26,13 +26,6 @@ You can create the **ValidationSummary** widget using one of the following appro
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="textBox1"></div>
-        <div id="textBox2"></div>
-        <div id="summary"></div>
-        <div id="button"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function() {
             var validationGroupName = "sampleGroup";
             $("#textBox1").dxTextBox({ name: 'FirstName' })
@@ -61,6 +54,11 @@ You can create the **ValidationSummary** widget using one of the following appro
             });
         });
 
+        <!--HTML--><div id="textBox1"></div>
+        <div id="textBox2"></div>
+        <div id="summary"></div>
+        <div id="button"></div>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div dx-validation-group="{ }" ng-controller="DemoController">
@@ -84,8 +82,6 @@ You can create the **ValidationSummary** widget using one of the following appro
                 onClick: validate
             }"></div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller("DemoController", function ($scope) {

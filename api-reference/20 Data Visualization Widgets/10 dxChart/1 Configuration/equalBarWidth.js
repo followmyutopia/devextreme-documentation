@@ -22,7 +22,7 @@ $(function () {
             label: { format: 'largeNumber' }
         }
     }).dxChart('instance');
-	
+    
     $("#checkBoxContainer").dxCheckBox({
         text: 'equalBarWidth',
         value: true,

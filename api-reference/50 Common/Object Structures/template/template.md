@@ -29,8 +29,6 @@ To use a template pass a value that has one of the following types to a template
             </div>
         </div>
 
-    <!---->
-
         <!--JavaScript-->
         var myApp = angular.module('myApp', ['dx']);
         myApp.controller("demoController", function ($scope) {
@@ -53,8 +51,6 @@ To use a template pass a value that has one of the following types to a template
             </div>
         </div>
 
-    <!---->
-
         <!--JavaScript-->
         var myViewModel = {
             listOptions: {
@@ -75,10 +71,7 @@ To use a template pass a value that has one of the following types to a template
             <i>{{title}}</i><br/>
             <b>{{text}}</b>
         </script>
-        <div dx-list="listOptions" dx-item-alias="itemData">
-        </div>
-
-    <!---->
+        <div dx-list="listOptions" dx-item-alias="itemData"></div>
 
         <!--JavaScript-->
         var myApp = angular.module('myApp', ['dx']);
@@ -99,10 +92,7 @@ To use a template pass a value that has one of the following types to a template
             <i data-bind="title"></i><br/>
             <b data-bind="text"></b>
         </script>
-        <div data-bind="dxList: listOptions">
-        </div>
-
-    <!---->
+        <div data-bind="dxList: listOptions"></div>
 
         <!--JavaScript-->
         var myViewModel = {
@@ -130,8 +120,6 @@ To use a template pass a value that has one of the following types to a template
                 <b style="color: red;">{{text}}</b>
             </div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->
         var myApp = angular.module('myApp', ['dx']);
@@ -162,8 +150,6 @@ To use a template pass a value that has one of the following types to a template
                 <b style="color: red;" data-bind="text"></b>
             </div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->
         var myViewModel = {

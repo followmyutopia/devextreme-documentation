@@ -19,7 +19,7 @@ The calculation of a summary value is conducted in several phases. Usually, you 
 
 The following code demonstrates a general structure of the **calculateCustomSummary** function.
 
-	<!--JavaScript-->var pivotGridOptions = {
+    <!--JavaScript-->var pivotGridOptions = {
         dataSource: {
             //...
             fields: [{
@@ -38,9 +38,9 @@ The following code demonstrates a general structure of the **calculateCustomSumm
                 }
             },
             //...
-			]
-		}
-	}
+            ]
+        }
+    }
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->

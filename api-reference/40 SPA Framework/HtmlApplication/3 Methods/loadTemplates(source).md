@@ -29,16 +29,16 @@ The markup that is passed as the method's parameter should be defined using the 
 
     <!--HTML-->
     <div data-options="dxView : { name: 'MyView', title: 'My view'  } ">
-        <div data-options="dxContent : { targetPlaceholder: 'content' } ">       
+        <div data-options="dxContent : { targetPlaceholder: 'content' } ">
             ...
         </div>
     </div>
 
-<!---->    
+<!--->
 
     <!--HTML-->
     <div data-options="dxLayout: { name:'default', platform:'ios' }">
-
+        ...
     </div>
 
 #####See Also#####

@@ -22,21 +22,6 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="slideOut"></div>
-
-    <!---->
-
-        <!--CSS-->#slideOut {
-            height: auto;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-        }
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#slideOut").dxSlideOut({
                 dataSource: ['SuperLCD 42', 'SuperLED 42', 'SuperLED 50',
@@ -48,6 +33,17 @@ You can create the widget using one of the following approaches.
             });
         });
 
+        <!--HTML-->
+        <div id="slideOut"></div>
+
+        <!--CSS-->#slideOut {
+            height: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
@@ -56,29 +52,47 @@ You can create the widget using one of the following approaches.
             onItemClick: closeSlideOut
         }"></div>
 
-    <!---->
-
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller("DemoController", function ($scope) {
                 $scope.displays = [
-                    // ...   
+                    'SuperLCD 42', 'SuperLED 42', 'SuperLED 50',
+                    'SuperLCD 55', 'SuperLCD 70', 'DesktopLCD 19',
+                    'DesktopLCD 21', 'DesktopLED 21'  
                 ];
                 $scope.closeSlideOut = function (e) {
                     e.component.hideMenu();
                 }
             });
 
+        <!--CSS-->#slideOut {
+            height: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
 - [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div id="slideOut" data-bind="dxSlideOut: {
             dataSource: [
-                // ...
+                'SuperLCD 42', 'SuperLED 42', 'SuperLED 50',
+                'SuperLCD 55', 'SuperLCD 70', 'DesktopLCD 19',
+                'DesktopLCD 21', 'DesktopLED 21'
             ],
             onItemClick: function (e) {
                 e.component.hideMenu();
             }
         }"></div>
+
+        <!--CSS-->#slideOut {
+            height: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
 
 - [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
 
@@ -117,5 +131,4 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 
 #####See Also#####
 - [SlideOut - Overview](/Documentation/Guide/Widgets/SlideOut/Overview/)
-
 <!--/fullDescription-->

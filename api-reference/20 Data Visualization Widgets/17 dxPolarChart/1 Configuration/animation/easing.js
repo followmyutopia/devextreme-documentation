@@ -18,7 +18,7 @@ $(function () {
             duration: 2000
         }
     }).dxPolarChart('instance');
-	
+    
     $("#selectBoxContainer").dxSelectBox({
         items: ['easeOutCubic', 'linear'],
         value: 'easeOutCubic',

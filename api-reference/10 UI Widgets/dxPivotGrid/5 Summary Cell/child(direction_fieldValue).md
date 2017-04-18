@@ -32,7 +32,7 @@ The child cell.
 Use this method for **Total** and **Grand Total** cells to get one of the cells, whose value is involved in the calculation of the total value.
 The image below demonstrates what cell will be returned by the following code.
 
-	<!--JavaScript-->var targetCell = sourceCell.child('row', 8); //August is the 8th month
+    <!--JavaScript-->var targetCell = sourceCell.child('row', 8); //August is the 8th month
 
 ![](/Content/images/doc/17_1/DataGrid/PivotGrid_child.png)
 

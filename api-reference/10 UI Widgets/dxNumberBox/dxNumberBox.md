@@ -25,11 +25,6 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="numberBox"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#numberBox").dxNumberBox({
                 value: 20,
@@ -38,6 +33,9 @@ You can create the widget using one of the following approaches.
                 placeholder: 'Enter your age'
             });
         });
+
+        <!--HTML-->
+        <div id="numberBox"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

@@ -19,5 +19,5 @@ The field chooser popup instance.
 <!--fullDescription-->
 Use this method to show and hide the [field chooser](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/) window programmatically. The code below demonstrates how you can display the field chooser from code.
 
-	<!--JavaScript-->pivotGrid.getFieldChooserPopup().show();
+    <!--JavaScript-->pivotGrid.getFieldChooserPopup().show();
 <!--/fullDescription-->

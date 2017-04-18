@@ -32,7 +32,7 @@ $(function () {
             }
         }
     }).dxChart('instance');
-	
+    
     $("#sliderContainer").dxSlider({
         min: -180, max: 180,
         value: 0,

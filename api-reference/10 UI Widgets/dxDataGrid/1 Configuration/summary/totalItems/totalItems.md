@@ -18,17 +18,17 @@ The total summary, which is located in the grid footer, provides a synopsis of a
 
 To specify the items of the total summary, declare an array of objects, each of which contains at least two fields: [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column) and [summaryType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType). The **column** field specifies the identifier of the column that provides data for an aggregate function. The **summaryType** specifies the aggregate function to be applied. The following code snippet shows how to declare two summary items.
 
-	<!--JavaScript-->$("#gridContainer").dxDataGrid({
-		// ...
-		summary: {
-			totalItems: [{
-				column: 'Age',
-				summaryType: 'avg'
-			}, {
-				column: 'LastName',
-				summaryType: 'count'
-			}]
-		}
+    <!--JavaScript-->$("#gridContainer").dxDataGrid({
+        // ...
+        summary: {
+            totalItems: [{
+                column: 'Age',
+                summaryType: 'avg'
+            }, {
+                column: 'LastName',
+                summaryType: 'count'
+            }]
+        }
     });
 
 By default, a summary item is placed in the column that provides data for it. If you need to place it in another column, assign the identifier of this column to the [showInColumn](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#showInColumn) option.

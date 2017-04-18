@@ -26,17 +26,15 @@ You can create the widget using one of the following approaches.
 - **jQuery**  
  Use the `dxDropDownMenu` jQuery plug-in.
 
-        <!--HTML-->
-        <div id="dropDownMenu"></div>
-
-    <!---->
-
         <!--JavaScript-->
         $("#dropDownMenu").dxDropDownMenu({
             dataSource: dropDownMenuData,
             buttonText: 'Show menu',
             buttonIcon: 'menu'
         });
+
+        <!--HTML-->
+        <div id="dropDownMenu"></div>
 
 - **Knockout**  
  Add a div element and apply the `dxDropDownMenu` binding to this element.

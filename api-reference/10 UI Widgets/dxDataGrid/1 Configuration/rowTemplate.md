@@ -17,23 +17,23 @@ Use the **rowTemplate** option to define the markup of all rows in a grid. Imple
 
 When implementing the **rowTemplate** function, you can access the row under customization using the function's first parameter. This parameter provides access to [element-related jQuery operations](http://api.jquery.com/?s=element). In addition, you can access row options using the fields of the function's second parameter. These fields are listed below.
 
-- **data**		
+- **data**        
 Contains the object of the data source represented by the current row.
 - **component**  
 Contains the **DataGrid** instance.
-- **values**	
+- **values**    
 Contains an array of values of the current row as they exist in the data source.
-- **rowIndex**		
+- **rowIndex**        
 Contains the index of the current row. When you have several pages in the grid, grid rows are indexed beginning with 0 on each page. Note that group cells are also counted as rows, and thus have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
-- **columns**		
+- **columns**        
 Contains an array of grid columns. Each column in this array is represented by an object with column settings. The order of columns in this array and columns in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array coincides.
-- **isSelected**	
+- **isSelected**    
 Indicates whether or not the current row is selected.
-- **rowType**		
+- **rowType**        
 Represents the type of the current row. This field equals *'data'* for [ordinary rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) or *'group'* for [group rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows). Use this field to distinguish rows by type.
-- **groupIndex**	
+- **groupIndex**    
 Contains the group index of the current row. This field is useful if the **rowType** field is *'group'*.
-- **isExpanded**	
+- **isExpanded**    
 Indicates whether or not the current row is expanded. This field is useful if the **rowType** field is *'group'*.
 
 When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the row template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. Note that the dxTemplate should be bound to a `<table>` HTML element.
@@ -68,8 +68,8 @@ When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://ang
 
 It is also possible to define a row template in markup. For this purpose, use one of the following template engines. The above mentioned cell settings can be accessed in a similar manner inside the template.
 
-- [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)		
-- [JsRender](https://github.com/BorisMoore/jsrender)		
+- [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)        
+- [JsRender](https://github.com/BorisMoore/jsrender)        
 - [Mustache](http://mustache.github.io/)
 - [Hogan](http://twitter.github.io/hogan.js/)
 - [Underscore](http://underscorejs.org/)
@@ -78,8 +78,8 @@ It is also possible to define a row template in markup. For this purpose, use on
 
 Using a template engine, pass one of the following values to the **rowTemplate** option.
 
-- A jQuery object representing the template's container.		
-- A DOM Node representing the template's container.		
+- A jQuery object representing the template's container.        
+- A DOM Node representing the template's container.        
 - A function that returns a jQuery object or a DOM Node representing the template's container.
 
 [note] When you use a row template, we recommend you to disable the [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping) and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) features. This is desirable because the template content cannot be automatically synchronized with the column layout, which makes these features inoperative.

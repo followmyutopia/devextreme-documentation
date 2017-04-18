@@ -19,13 +19,13 @@ Custom [Knockout](http://knockoutjs.com/documentation/introduction.html) binding
 Use **dxAction** binding to execute a custom action when clicking a bound HTML element. The action can be defined in one of the following ways.
 
 - Function  
-	This function is performed when clicking a bound HTML element.
+    This function is performed when clicking a bound HTML element.
 
 - String  
-	The target URL to be navigated to.
+    The target URL to be navigated to.
 
 - Object  
-	The fields of this object represent parameters for the URL to be navigated to.
+    The fields of this object represent parameters for the URL to be navigated to.
 
 Generally, the **dxAction** binding is analogous to the [dxclick](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxclick) event supplied with the DexExtreme UI Events library. However, there two distinctions.
 

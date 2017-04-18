@@ -1,14 +1,14 @@
 ﻿<!--@Knockout-->
 <div style="height:200px;max-width:200px;margin:0px auto">
-	<div data-bind="dxTextBox: { value: login, placeholder: 'Login' },
-		dxValidator: { validationRules: [{ type: 'required', message: 'Login is required' }] }">	   
-	</div>		
-	<div data-bind="dxTextBox: { value: password, mode: 'password', placeholder: 'Password' },
-		dxValidator: {  validationRules: [{ type: 'required', message: 'Password can not be empty' },
+    <div data-bind="dxTextBox: { value: login, placeholder: 'Login' },
+        dxValidator: { validationRules: [{ type: 'required', message: 'Login is required' }] }">       
+    </div>        
+    <div data-bind="dxTextBox: { value: password, mode: 'password', placeholder: 'Password' },
+        dxValidator: {  validationRules: [{ type: 'required', message: 'Password can not be empty' },
             { type: 'custom', validationCallback: checkPasswordLength }] }">
-	</div>
-	<div data-bind="dxValidationSummary: { }"></div>
-	<div data-bind="dxButton: { text: 'Register', onClick: validateAndLogin }"></div>
+    </div>
+    <div data-bind="dxValidationSummary: { }"></div>
+    <div data-bind="dxButton: { text: 'Register', onClick: validateAndLogin }"></div>
 </div>
 <!--/@Knockout-->
 <!--@AngularJS-->
@@ -22,8 +22,8 @@
             { type: 'custom', validationCallback: checkPasswordLength }
         ] }">
     </div>
-	<div dx-validation-summary="{ }"></div>
-	<div dx-button="{ text: 'Register', onClick: validateAndLogin }"></div>
+    <div dx-validation-summary="{ }"></div>
+    <div dx-button="{ text: 'Register', onClick: validateAndLogin }"></div>
 </div>
 <!--/@AngularJS-->
 <!--@jQuery-->

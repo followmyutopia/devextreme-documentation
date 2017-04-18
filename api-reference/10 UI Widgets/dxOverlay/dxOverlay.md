@@ -25,11 +25,6 @@ You can create the widget using one of the following approaches.
 - **jQuery**  
  Use the `dxOverlay` jQuery plug-in.
 
-        <!--HTML-->
-        <div id="overlay"></div>
-
-    <!---->
-
         <!--JavaScript-->
         $("#overlay").dxOverlay({
             fullScreen: false,
@@ -40,6 +35,9 @@ You can create the widget using one of the following approaches.
                 of: '#targetElement'
             }
         });
+
+        <!--HTML-->
+        <div id="overlay"></div>
 
 - **Knockout**  
  Add a div element and apply the `dxOverlay` binding to this element.

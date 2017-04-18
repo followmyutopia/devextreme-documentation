@@ -18,23 +18,21 @@ In **Knockout approach**, you may need to use an editor to inform end users that
 
 In the code, the login specified by an end user is validated on the level of the ViewModel. If validation of the login value fails, a validation message is displayed on the Login editor.
 
-	<!--HTML--><div data-bind="dxTextBox: {
-		value: login,
-		isValid: login.dxValidator.isValid,
-		validationError: login.dxValidator.validationError,
-		placeholder: 'Login'
-	}"></div>
+    <!--HTML--><div data-bind="dxTextBox: {
+        value: login,
+        isValid: login.dxValidator.isValid,
+        validationError: login.dxValidator.validationError,
+        placeholder: 'Login'
+    }"></div>
 
-<!--...-->
-
-	<!--JavaScript-->var viewModel = {
-		login: ko.observable("").extend({
-			dxValidator: {
-				validationRules: [{ type: 'required', message: 'Login is required' }]
-			}
-		}),
-		//...
-	}
+    <!--JavaScript-->var viewModel = {
+        login: ko.observable("").extend({
+            dxValidator: {
+                validationRules: [{ type: 'required', message: 'Login is required' }]
+            }
+        }),
+        //...
+    }
 
 The editor's **validationError** option, as well as the **isValid** option, should also be specified when using a custom validation engine. In this instance, the validation result will be displayed for the editor by the means of the DevExtreme Validation UI. 
 

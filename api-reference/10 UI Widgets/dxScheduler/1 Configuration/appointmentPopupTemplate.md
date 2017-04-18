@@ -29,7 +29,7 @@ In **AngularJS approach**, if you need to access appointment object's fields wit
                 <div class='movie-tooltip' ng-init="movieData = getMovieById(showtime.movieId)">
                     <img ng-src="{{movieData.image}}" />
                     <div class='movie-title'>Title:
-            	        <div ng-model="movieData.text" dx-text-box="{}"></div>
+                        <div ng-model="movieData.text" dx-text-box="{}"></div>
                     </div>
                     <div class='movie-info'>
                         Year: <div ng-model="movieData.year" dx-date-box="{}">

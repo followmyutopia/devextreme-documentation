@@ -32,7 +32,7 @@ A function enables you to switch data sources based on a condition. It must retu
 
 As an example, see the following code, which implements the data source for the header filter in a column that contains dates. Here, the data source is a **DataSource** configuration object.
 
-	<!--JavaScript-->
+    <!--JavaScript-->
     $(function() {
         var now = new Date();
         var startOfWeek = new Date(now.setDate(now.getDate() - now.getDay() - 1 + (now.getDay()==0?-6:1)));             
@@ -43,21 +43,21 @@ As an example, see the following code, which implements the data source for the 
             columns: [{
                 // ...
                 headerFilter: {
-		            dataSource: {
-			            load: function() {
-				            return [{
-					            text: 'Today',
-					            value: [['OrderDate', '>=', startOfDay], 'and', ['OrderDate', '<=', now]]
-				            }, {
-					            text: 'This week',
-					            value: [['OrderDate', '>=', startOfWeek], 'and', ['OrderDate', '<', startOfDay]]
-				            }, {
-					            text: 'Earlier',
-					            value: ['OrderDate', '<', startOfWeek]
-				            }];
-			            }
-		            }
-	            }
+                    dataSource: {
+                        load: function() {
+                            return [{
+                                text: 'Today',
+                                value: [['OrderDate', '>=', startOfDay], 'and', ['OrderDate', '<=', now]]
+                            }, {
+                                text: 'This week',
+                                value: [['OrderDate', '>=', startOfWeek], 'and', ['OrderDate', '<', startOfDay]]
+                            }, {
+                                text: 'Earlier',
+                                value: ['OrderDate', '<', startOfWeek]
+                            }];
+                        }
+                    }
+                }
             },
             // ...
             ]

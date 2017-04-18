@@ -25,7 +25,7 @@ The partial Grand Total cell.
 <!--fullDescription-->
 The image below demonstrates what cell will be returned by the following code.
 
-	<!--JavaScript-->var targetCell = sourceCell.grandTotal('row');
+    <!--JavaScript-->var targetCell = sourceCell.grandTotal('row');
 
 ![](/Content/images/doc/17_1/DataGrid/PivotGrid_GT.png)
 <!--/fullDescription-->

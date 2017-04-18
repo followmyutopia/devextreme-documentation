@@ -29,7 +29,7 @@ $(function () {
             visible: true
         }
     }).dxChart('instance');
-	
+    
     $("#checkBoxContainer").dxCheckBox({
         text: 'Show major ticks',
         value: false,

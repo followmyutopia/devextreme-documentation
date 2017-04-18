@@ -30,7 +30,7 @@ $(function () {
             position: 'top'
         }
     }).dxChart('instance');
-	
+    
     $("#selectBoxContainer").dxSelectBox({
         items: ['betweenLabels', 'crossLabels'],
         value: 'betweenLabels',

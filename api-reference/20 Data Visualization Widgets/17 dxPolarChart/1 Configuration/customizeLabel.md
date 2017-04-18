@@ -22,13 +22,13 @@ When implementing a callback function for this option, you can access the follow
 
 * **seriesName**  
 The name of the current series.
-* **argument**	
+* **argument**    
 The argument of the label's point.
-* **value**		
+* **value**        
 The value of the label's point.
-* **tag**	
+* **tag**    
 The tag of the label's point.
-* **index**		
+* **index**        
 The index of the label's point in the points array.
 
 In addition, these values can be accessed using the **this** object.

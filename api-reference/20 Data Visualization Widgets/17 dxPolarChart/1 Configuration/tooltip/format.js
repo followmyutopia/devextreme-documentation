@@ -32,7 +32,7 @@ $(function () {
             enabled: true,
             format: {
                 type: 'exponential',
-			    precision: 3
+                precision: 3
             }
         }
     });

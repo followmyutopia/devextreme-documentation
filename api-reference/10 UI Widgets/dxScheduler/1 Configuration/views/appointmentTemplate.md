@@ -29,23 +29,21 @@ In **AngularJS approach**, if you need to access appointment object fields withi
             currentDate: currentDate,
             views: views
         }" dx-item-alias="appItem">
-            <div data-options="dxTemplate: {name: 'appointmentTemplate'}" style="padding: 0;">
-                <div class="appointment-header">{{appItem.text}}</div>
-                <div class="appointment-time">{{appItem.startDate}} - {{appItem.endDate}}</div>
+            <div data-options="dxTemplate: { name: 'appointmentTemplate' }" style="padding: 0;">
+                <div class="appointment-header">{{ appItem.text }}</div>
+                <div class="appointment-time">{{ appItem.startDate }} - {{ appItem.endDate }}</div>
             </div>
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->
-    var appointements = [
-        {
-            text: "Website Re-Design Plan",
-            priorityId: 2,
-            startDate: new Date(2015, 4, 25, 9, 0),
-            endDate: new Date(2015, 4, 25, 11, 30)
-        }, // . . .
+    var appointements = [{
+        text: "Website Re-Design Plan",
+        priorityId: 2,
+        startDate: new Date(2015, 4, 25, 9, 0),
+        endDate: new Date(2015, 4, 25, 11, 30)
+    },
+    // . . .
     ];
 
     var DemoApp = angular.module('DemoApp', ['dx']);

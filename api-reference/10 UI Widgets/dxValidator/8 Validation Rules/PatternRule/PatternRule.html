@@ -1,11 +1,11 @@
 ﻿<!--@Knockout-->
 <div style="height:200px;max-width:200px;margin:0px auto" data-bind="dxValidationGroup : {}">
-	<div data-bind="dxTextBox: { value: login, placeholder: 'Login' },
+    <div data-bind="dxTextBox: { value: login, placeholder: 'Login' },
         dxValidator: { validationRules: [
             { type: 'required', message: 'Login is required' },
             {type: 'pattern', pattern: '^[a-zA-Z]+$', message: 'Do not use digits in your login!'}
-        ] }">	   
-	</div>		
+        ] }">       
+    </div>        
     <div data-bind="dxTextBox: { value: password, mode: 'password', placeholder: 'Password' },
         dxValidator: {  validationRules: [{ type: 'required', message: 'Password can not be empty.' }] }">
     </div>

@@ -22,13 +22,13 @@ Specifies the type of markers to be used on the map.
 <!--fullDescription-->
 **VectorMap** supports markers of the following types.
 
-* **dot**	
+* **dot**    
 Markers are represented by dots bordered with a white line.
-* **bubble**	
+* **bubble**    
 Markers are represented by bubbles of different sizes. The size of a bubble depends on the value of the **value** field specified in the object of the [markers](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markers/) array.
-* **pie**		
+* **pie**        
 Markers are represented by pie charts. To specify values for pie slices, assign an array to the **values** field specified in the object of the **markers** array.
-* **image**		
+* **image**        
 Markers are represented by custom images. To specify an image for a marker, assign a URL of this image to the **url** field specified in the object of the **markers** array.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapimagemarkers/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

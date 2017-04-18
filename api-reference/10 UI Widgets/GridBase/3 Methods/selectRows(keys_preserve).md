@@ -31,7 +31,7 @@ A Promise of the jQuery.Deferred object resolved after the rows are selected.
 <!--fullDescription-->
 By default, this method call clears selection of previously selected rows. To keep these rows selected, call this method with *true* as the second argument.
 
-	<!--JavaScript-->widgetInstance.selectRows([5, 10, 12], true);
+    <!--JavaScript-->widgetInstance.selectRows([5, 10, 12], true);
 
 To access a row by its key, specify the field that provides keys. For this, use the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) option of the [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) that underlies the [dataSource]({basewidgetpath}/Configuration/#dataSource). If no key was specified, the whole data object is considered the key. However, we recommend specifying the **key** option to prevent selection from being duplicated.
 

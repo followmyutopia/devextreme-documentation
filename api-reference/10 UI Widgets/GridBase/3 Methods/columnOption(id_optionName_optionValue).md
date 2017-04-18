@@ -32,16 +32,16 @@ A new value for this option.
 <!--fullDescription-->
 This method sets an option of the first column found by either of the below:
 
-* **Name**		
+* **Name**        
 The [unique name]({basewidgetpath}/Configuration/columns/#name) of the column.
 
-* **Column Index**		
+* **Column Index**        
 The index of the column in the [columns]({basewidgetpath}/Configuration/columns/) array.
 
-* **Data Field**		
+* **Data Field**        
 The name of the [data source field]({basewidgetpath}/Configuration/columns/#dataField) assigned to the column.
 
-* **Caption**		
+* **Caption**        
 The text displayed in the column header.
 
 * **Service String**  

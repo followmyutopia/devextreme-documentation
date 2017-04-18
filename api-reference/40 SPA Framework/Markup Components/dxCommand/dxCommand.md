@@ -28,15 +28,15 @@ As you can see in the code above, a command can be used for [navigation](/Docume
 
 A command's markup options can be bound to ViewModel fields. Here is an example.
 
-	<!--HTML--><div data-options="dxView: { name: 'home', title: 'Home' }">
-		<div data-bind="dxCommand: { id: 'myCommand', onExecute: add, title: 'Add' } "></div>
-	</div>
+    <!--HTML--><div data-options="dxView: { name: 'home', title: 'Home' }">
+        <div data-bind="dxCommand: { id: 'myCommand', onExecute: add, title: 'Add' } "></div>
+    </div>
 
 To function properly, this code snippet expects the "add" field to be present in the ViewModel.
 
 To be displayed, a command must be registered within a command container using the application's [command mapping](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#commandMapping). Depending on the command container chosen for a command in a layout and the device the application is running on, different widgets will be used to display commands. You can specify widget configuration settings directly within the dxCommand component's configuration object.
 
-	<!--HTML--><div data-bind="dxCommand: { id: 'myCommand', onExecute: '#product-details', title: 'Add', hint: 'Add a product' } "></div>
+    <!--HTML--><div data-bind="dxCommand: { id: 'myCommand', onExecute: '#product-details', title: 'Add', hint: 'Add a product' } "></div>
 
 In the code above, the specified **hint** option will be applied if the widget that will display the command has the **hint** option in its configuration.
 

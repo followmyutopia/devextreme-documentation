@@ -27,11 +27,6 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="lookup"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#lookup").dxLookup({
                 dataSource: employees,
@@ -39,6 +34,9 @@ You can create the widget using one of the following approaches.
                 title: 'Employees'
             });
         });
+
+        <!--HTML-->
+        <div id="lookup"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -49,8 +47,6 @@ You can create the widget using one of the following approaches.
                 title: 'Employees'
             }"></div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->angular.module('DemoApp', ['dx'])
             .controller("DemoController", function ($scope) {
@@ -67,8 +63,6 @@ You can create the widget using one of the following approaches.
             displayExpr: 'name',
             title: 'Employees'
         }"></div>
-
-    <!---->
 
         <!--JavaScript-->var viewModel = {
             employees: [

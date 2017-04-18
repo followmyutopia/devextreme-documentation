@@ -25,11 +25,6 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="progressBar"></div>
-
-    <!---->
-
         <!--JavaScript-->$(function () {
             $("#progressBar").dxProgressBar({
                 min: 0,
@@ -37,6 +32,9 @@ You can create the widget using one of the following approaches.
                 value: 49
             });
         });
+
+        <!--HTML-->
+        <div id="progressBar"></div>
 
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

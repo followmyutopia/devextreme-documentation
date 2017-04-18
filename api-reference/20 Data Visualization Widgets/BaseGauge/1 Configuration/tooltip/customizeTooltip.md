@@ -16,19 +16,19 @@ Allows you to change the appearance of specified tooltips.
 <!--fullDescription-->
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
 
-- **color**		
+- **color**        
 Specifies the color of a tooltip.
 
-- **borderColor**		
+- **borderColor**        
 Specifies the color of the tooltip's border.
 
-- **fontColor**		
+- **fontColor**        
 Specifies the color of the tooltip's text.
 
-- **text**		
+- **text**        
 Specifies the text displayed by a tooltip.
 
-- **html**		
+- **html**        
 Specifies the HTML markup displayed by a tooltip.
 [note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they will occupy beforehand.
 
