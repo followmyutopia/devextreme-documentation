@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether nodes appear expanded or collapsed after filtering is applied.
 <!--/shortDescription-->
 
 <!--fullDescription-->

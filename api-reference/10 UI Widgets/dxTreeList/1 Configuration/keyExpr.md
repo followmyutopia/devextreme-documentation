@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies which data field provides keys for nodes.
 <!--/shortDescription-->
 
 <!--fullDescription-->

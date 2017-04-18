@@ -9,14 +9,28 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Customizes columns after they are created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Use this function to make minor adjustments to automatically generated columns. You can access and modify column configurations using the function's parameter. 
+
+    <!--JavaScript-->
+    $(function(){
+        $("#treeList").dxTreeList({
+            // ...
+            customizeColumns: function (columns) {
+                columns[0].width = 100;
+                columns[1].width = 210;
+            }
+        })
+    });
+
+For a more profound column customization, declare the [columns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) array.
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Array<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-
+<a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configurations</a> of columns.
 <!--/typeFunctionParamDescription1-->
