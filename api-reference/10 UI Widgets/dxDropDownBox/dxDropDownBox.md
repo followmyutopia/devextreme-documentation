@@ -19,12 +19,14 @@ You can create the widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-    <!--HTML--><div id="dropDownBox"></div>
+        <!--HTML-->
+        <div id="dropDownBox"></div>
 
     <!---->
 
         <!--JavaScript-->
         $(function () {
+            var fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
             $("#dropDownBox").dxDropDownBox({
                 value: fruits[0],
                 dataSource: fruits,
@@ -52,6 +54,14 @@ You can create the widget using one of the following approaches.
             </div>
         </div>
 
+    <!---->
+
+        <!--JavaScript-->
+        angular.module('DemoApp', ['dx'])
+            .controller('DemoController', function ($scope) {
+                $scope.fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+            });
+
 - [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
@@ -65,6 +75,14 @@ You can create the widget using one of the following approaches.
                 }"></div>
             </div>
         </div>
+
+    <!---->
+
+        <!--JavaScript-->
+        var viewModel = {
+            fruits: ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"]
+        };
+        ko.applyBindings(viewModel);
 
 Note that DevExtreme widgets require linking the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
