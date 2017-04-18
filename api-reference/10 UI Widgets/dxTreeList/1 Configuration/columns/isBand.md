@@ -64,6 +64,9 @@ The column with the **isBand** flag set to *true* can have the following propert
 - [name]({basewidgetpath}/Configuration/columns/#name)
 - [visible]({basewidgetpath}/Configuration/columns/#visible)
 - [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex)
+
+#####See Also#####
+- **columns** | [columns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/columns/)
 <!--/fullDescription-->
 
 <!--handmade-->
