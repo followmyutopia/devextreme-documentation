@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets an array of visible columns at a specific hierarchical level of column headers.
+Gets all visible columns at a specific hierarchical level of column headers. Use it to access [banded columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Band_Columns). 
 <!--/shortDescription-->
 
 <!--paramName1-->headerLevel<!--/paramName1-->
@@ -19,11 +19,10 @@ The level of column headers.
 
 <!--returnType-->array<!--/returnType-->
 <!--returnDescription-->
-An array of visible columns.
+Visible columns; may include command columns.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Use this method when the grid has [band columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Band_Columns). 
-
-This method returns an array of objects that contain configuration options of visible columns. The array may include columns with data, [command columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns) and [band columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Band_Columns). 
+#####See Also#####
+- [getVisibleColumns()]({basewidgetpath}/Methods/#getVisibleColumns)
 <!--/fullDescription-->

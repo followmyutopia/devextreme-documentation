@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Allows you to find out whether a specific group or master row is expanded or collapsed.
+Checks whether a specific group or master row is expanded or collapsed.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
@@ -23,5 +23,5 @@ The key of the group or master row.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-To find out whether a [group row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) is expanded, call this method with an array, in which each member is a grouping value. To find out if a [master row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/) is expanded, pass its key to this method.
+To check whether a [group row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) is expanded, call this method with an array, in which each member is a grouping value. To check if a [master row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/) is expanded, pass its key to this method.
 <!--/fullDescription-->
