@@ -8,14 +8,16 @@
 ===================================================================
 
 <!--shortDescription-->
-Checks whether or not the grid contains unsaved changes.
+Checks whether the widget has unsaved changes.
 <!--/shortDescription-->
 
 <!--returnType-->boolean<!--/returnType-->
 <!--returnDescription-->
-Returns *true* if the grid contains any unsaved changes.
+<i>true</i> if the widget has unsaved changes; otherwise - <i>false</i>.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-This method is a part of the [Editing](/Documentation/Guide/Widgets/DataGrid/Data_Editing/) feature. Refer to the **Guides** section to learn more about how to use it.
+#####See Also#####
+- [saveEditData()]({basewdigetpath}/Methods/#saveEditData)
+- [cancelEditData()]({basewdigetpath}/Methods/#cancelEditData)
 <!--/fullDescription-->

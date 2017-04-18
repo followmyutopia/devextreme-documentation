@@ -8,14 +8,14 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns an instance of this component class.
+Returns this widget's instance. Use it to access other methods of the widget.
 <!--/shortDescription-->
 
 <!--returnType-->object<!--/returnType-->
 <!--returnDescription-->
-An instance of this component class
+This widget's instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Use this method to access other methods of the component.
+
 <!--/fullDescription-->

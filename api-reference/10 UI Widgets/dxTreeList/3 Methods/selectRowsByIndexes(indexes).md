@@ -25,7 +25,10 @@ A Promise of the jQuery.Deferred object resolved after the rows are selected.
 <!--fullDescription-->
 This method has the following specifics:
 
-- This method call clears selection of all previously selected rows.
-- When calculating row indexes, the widget counts data and group rows. Nevertheless, only data rows can be selected.
-- If the [pager]({basewidgetpath}/Configuration/pager/) is used, selection is cleared once a user moves to a different page. To preserve it, call this method within the [onContentReady]({basewidgetpath}/Configuration/#onContentReady) handler.
+- A call of this method clears selection of all previously selected rows.
+- When calculating row indexes, the widget ignores the hierarchy of rows.
+
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->

@@ -8,9 +8,9 @@
 ===================================================================
 
 <!--shortDescription-->
-Redraws the widget.
+Repaints the widget. Call it if you made modifications that changed the widget's state to invalid.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-After performing some external modifications that lead to a change of the widget container's size or visibility, the widget's state may become invalid. In this instance, use the **repaint()** method to redraw the widget.
+
 <!--/fullDescription-->

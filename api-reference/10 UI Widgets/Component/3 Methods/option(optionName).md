@@ -8,20 +8,20 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the value of the specified configuration option of this component.
+Gets a specific option value.
 <!--/shortDescription-->
 
 <!--paramName1-->optionName<!--/paramName1-->
 <!--paramType1-->string<!--/paramType1-->
 <!--paramDescription1-->
-The name of the option to get.
+The option name or the full path to the option.
 <!--/paramDescription1-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-The value of the specified option.
+This option value.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-If you need to get the value of a configuration option field, specify the path to the required field.
+
 <!--/fullDescription-->

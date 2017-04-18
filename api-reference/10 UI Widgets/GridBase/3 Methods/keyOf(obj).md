@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the key corresponding to the passed data object.
+Gets a data object's key.
 <!--/shortDescription-->
 
 <!--paramName1-->obj<!--/paramName1-->
@@ -19,9 +19,9 @@ A data object.
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-The key of the passed data object.
+The data object's key.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-If a field providing key values is not specified in a [data source]({basewidgetpath}/Configuration/#dataSource), the whole data object is considered the key. In this case, the **keyOf(obj)** method returns its argument.
+If a field providing key values is not specified in the [data source]({basewidgetpath}/Configuration/#dataSource), the whole data object is considered the key. In this case, this method returns its argument.
 <!--/fullDescription-->

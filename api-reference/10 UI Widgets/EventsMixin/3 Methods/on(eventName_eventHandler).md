@@ -29,7 +29,7 @@ The object for which this method is called.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Use this method to subscribe to one of the events listed in the **Events** section. 
+Use this method to subscribe to one of the events listed in the [Events]({basewidgetpath}/Events/) section. 
 
 #####See Also#####
 - [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)

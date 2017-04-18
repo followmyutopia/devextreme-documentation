@@ -18,10 +18,10 @@ The key of a data row.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-[note]To access a data row by its key, a field providing key values must be specified in a [data source]({basewidgetpath}/Configuration/#dataSource). If no key was specified, the whole data object is considered the key.
+To access a data row by its key, specify the field that provides keys in the [data source]({basewidgetpath}/Configuration/#dataSource). If no key was specified, the whole data object is considered the key.
 
 #####See Also#####
-- [expandAdaptiveDetailRow(key)]({basewidgetpath}/Methods/#expandAdaptiveDetailRowkey) - expands a specific adaptive detail row.
-- [collapseAdaptiveDetailRow()]({basewidgetpath}/Methods/#collapseAdaptiveDetailRow) - collapses the currently expanded adaptive detail row.
-- [columnHidingEnabled]({basewidgetpath}/Configuration/#columnHidingEnabled) - enables column hiding in the UI.
+- [expandAdaptiveDetailRow(key)]({basewidgetpath}/Methods/#expandAdaptiveDetailRowkey)
+- [collapseAdaptiveDetailRow()]({basewidgetpath}/Methods/#collapseAdaptiveDetailRow)
+- [columnHidingEnabled]({basewidgetpath}/Configuration/#columnHidingEnabled)
 <!--/fullDescription-->

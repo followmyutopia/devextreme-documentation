@@ -8,13 +8,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets one or more options of this component.
+Sets one or more options.
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
 <!--paramType1-->object<!--/paramType1-->
 <!--paramDescription1-->
-An object containing the required configuration options.
+The options along with their new values.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

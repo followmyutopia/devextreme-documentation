@@ -8,16 +8,16 @@
 ===================================================================
 
 <!--shortDescription-->
-Refreshes grid data.
+Reloads data in the widget.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise of the jQuery.Deferred object resolved after grid data has been refreshed.
+A Promise of the jQuery.Deferred object resolved after data is loaded.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-When you use a data source that is changing dynamically, the **DataGrid** widget cannot automatically track changes that might be made in the source by a third party. In this case, to update data in the widget, call its **refresh()** method. Along with the main data source, a call of this method refreshes [data sources]({basewidgetpath}/Configuration/columns/lookup/#dataSource) of lookup columns if there are any in the grid.
+The widget cannot track changes made in the data source by a third party. To bring data in the widget up to date in this case, call this method. [Data sources]({basewidgetpath}/Configuration/columns/lookup/#dataSource) of lookup columns will be updated along with the main data source.
 
-[note] Calling the **refresh()** method concludes the editing process. In the *row* [edit mode]({basewidgetpath}/Configuration/editing/#mode), all changes made in a row (if any) vanish. In the *batch* edit mode, changes are saved in a buffer waiting to be actually saved in the data source.
+[note] Calling the **refresh()** method ends the editing process. In *batch* [editing mode]({basewidgetpath}/Configuration/editing/#mode), changes are saved in a buffer waiting to be saved in the data source. In other modes, all unsaved changes vanish.
 <!--/fullDescription-->

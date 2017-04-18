@@ -23,7 +23,7 @@ The object for which this method is called.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Use this method to subscribe to several events at one method call. Available events are listed in the **Events** section.
+Use this method to subscribe to several events with one method call. Available events are listed in the [Events]({basewidgetpath}/Events/) section.
 
 #####See Also#####
 - [Handle Events - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)

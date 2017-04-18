@@ -8,12 +8,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the configuration options of this component.
+Gets the widget's options.
 <!--/shortDescription-->
 
 <!--returnType-->object<!--/returnType-->
 <!--returnDescription-->
-An object representing the configuration options of this component.
+The widget's options.
 <!--/returnDescription-->
 
 <!--fullDescription-->

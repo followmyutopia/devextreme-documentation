@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Recovers a row deleted in the *batch* [edit mode]({basewidgetpath}/Configuration/editing/#mode).
+Recovers a row deleted in *batch* [editing mode]({basewidgetpath}/Configuration/editing/#mode).
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
@@ -18,5 +18,7 @@ The index of the row to recover.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-To learn more about how to recover a deleted row programmatically, see the **Removing** paragraph of the [Editing in Code](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_Code) topic.
+#####See Also#####
+- [closeEditCell()]({basewidgetpath}/Methods/#closeEditCell)
+- [cancelEditData()]({basewidgetpath}/Methods/#cancelEditData)
 <!--/fullDescription-->

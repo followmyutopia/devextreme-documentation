@@ -8,15 +8,15 @@
 ===================================================================
 
 <!--shortDescription-->
-Redraws the specified rows.
+Repaints specific rows.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndexes<!--/paramName1-->
 <!--paramType1-->array<!--/paramType1-->
 <!--paramDescription1-->
-An array of row indexes.
+Row indexes.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-[note]This method updates the [objects]({basewidgetpath}/Row/) of the specified rows and their visual representation.
+This method updates the [row objects]({basewidgetpath}/Row/) and their visual representation.
 <!--/fullDescription-->

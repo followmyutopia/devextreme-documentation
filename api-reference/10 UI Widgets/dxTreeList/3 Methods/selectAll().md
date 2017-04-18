@@ -8,16 +8,21 @@
 ===================================================================
 
 <!--shortDescription-->
-Saves changes that a user made to data.
+Selects all rows. 
 <!--/shortDescription-->
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise of the jQuery.Deferred object resolved after changes are saved in the data source.
+A Promise of the jQuery.Deferred object resolved after all rows are selected.
 <!--/returnDescription-->
 
 <!--fullDescription-->
+If a filter is applied, this method selects only those rows that meet the filtering conditions.
+
 #####See Also#####
-- [cancelEditData()]({basewidgetpath}/Methods/#cancelEditData)
-- [hasEditData()]({basewidgetpath}/Methods/#hasEditData)
+- [selectRows(keys, preserve)]({basewidgetpath}/Methods/#selectRowskeys_preserve) 
+- [selection]({basewidgetpath}/Configuration/selection/)
 <!--/fullDescription-->
+
+<!--handmade-->
+<!--/handmade-->
