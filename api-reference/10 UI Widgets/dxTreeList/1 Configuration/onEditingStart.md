@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **editingStart**. Executed before a cell or row switches to the editing state.
+A handler for **editingStart**. Executed before a cell or row switches to the editing state.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -35,17 +35,18 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
+The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The data of the to-be-edited row.
+Data of a row to be edited.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The row key.
+The row's key. </br>
+The key of an added but not yet saved row is *undefined*.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->boolean<!--/typeFunctionParamType1_field6-->

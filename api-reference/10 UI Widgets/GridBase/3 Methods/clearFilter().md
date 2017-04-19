@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-
+Clears all filters applied to widget rows.
 <!--/shortDescription-->
 
 <!--fullDescription-->
