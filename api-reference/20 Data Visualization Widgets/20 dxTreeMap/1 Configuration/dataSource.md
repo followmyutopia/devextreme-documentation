@@ -25,7 +25,7 @@ This option accepts one of the following.
 - [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)      
  A DataSource is an object that provides a handy API for data processing. A DataSource is a stateful object, which means that it saves data processing settings and applies them each time data is loaded. All underlying data access logic of a DataSource is isolated in a Store. A Store provides an API for reading and modifying data. Unlike the DataSource, a Store is a stateless object.
 
-Basically, all data providers contain data objects. Objects that have a flat structure are visualized by tiles. For example, the following data source produces four individual tiles.
+Basically, all data providers contain data objects. Objects that have a plain structure are visualized by tiles. For example, the following data source produces four individual tiles.
 
     <!--JavaScript-->var treeMapOptions = {
         // ...
@@ -58,7 +58,7 @@ Hierarchically-structured objects are visualized by groups of tiles. For example
 
 After providing data, bind it to the widget using the [valueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#valueField), [labelField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#labelField) and [childrenField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#childrenField) options.
 
-In certain cases, you may have a flat data source that implies a hierarchical structure. For example, the following code declares such a data source. Nevertheless, it will be visualized in the same manner as the data source from the code snippet above.
+In certain cases, you may have a plain data source that implies a hierarchical structure. For example, the following code declares such a data source. Nevertheless, it will be visualized in the same manner as the data source from the code snippet above.
 
     <!--JavaScript-->var treeMapOptions = {
         // ...

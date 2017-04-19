@@ -10,11 +10,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the name of the data source field that provides parent IDs for items. Applies to flat [data sources](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#dataSource) only.
+Specifies the name of the data source field that provides parent IDs for items. Applies to plain [data sources](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#dataSource) only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In certain cases, you may have a flat data source that implies a hierarchical structure. For example, the following code declares a data source that, despite being flat, can be rearranged into a hierarchy of two groups with two items in each.
+In certain cases, you may have a plain data source that implies a hierarchical structure. For example, the following code declares a data source that, despite being plain, can be rearranged into a hierarchy of two groups with two items in each.
 
     <!--JavaScript-->var treeMapOptions = {
         // ...

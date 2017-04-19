@@ -29,7 +29,7 @@ By default, the widget expects that data has a plain structure where each data i
         { id: 2, parentId: 0 }
     ];
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/LocalDataFlatStructure/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 If your data has a hierarchical structure where each data item contains nested items, set this option to *"tree"*. Parent and item IDs will be generated automatically.
 
