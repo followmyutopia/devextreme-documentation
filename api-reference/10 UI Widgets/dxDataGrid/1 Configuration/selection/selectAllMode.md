@@ -15,11 +15,11 @@ Specifies the mode in which all the records are selected. Applies only if **sele
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **selectAllMode** specifies how records should be selected on clicking the ["Select All" check box](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Selection_Column) and by calling the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectAll)/[deselectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll) methods. The following modes are available.
+**selectAllMode** specifies how records should be selected on clicking the ["Select All" check box](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Selection_Column) and by calling the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectAll)/[deselectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll) methods. The following modes are available.
 
 - *'page'*  
- Selects records on the currently rendered pages.
- [note]This mode does not apply if [deferred selection](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred) is enabled.
+ Selects records on currently rendered pages.       
+ [note]This mode is incompatible with [deferred selection](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred).
 
 - *'allPages'*  
  Selects records on all pages.
