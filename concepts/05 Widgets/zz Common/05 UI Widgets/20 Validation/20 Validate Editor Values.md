@@ -13,8 +13,6 @@ Specify the [validationGroup](/Documentation/ApiReference/UI_Widgets/dxValidator
     <div>Password:</div>
     <div id="password"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         var validationGroup = "sampleGroup";
         $("#login").dxTextBox({
@@ -53,8 +51,6 @@ To validate a group, use one of the following approaches.
     To associate the **Button** widget with a validation group, use the widget's [validationGroup](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup) configuration option.
 
         <!--HTML--><div id="loginButton"></div>
-
-    <!--...-->
 
         <!--JavaScript-->var validationGroup = "sampleGroup";
         //...

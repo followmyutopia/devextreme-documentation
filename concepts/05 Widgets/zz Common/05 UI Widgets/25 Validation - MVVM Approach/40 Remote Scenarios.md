@@ -4,7 +4,7 @@ Below, you can see an example where two fields must be validated. One of these f
 
 To emulate a request to a server, a validation will be performed after the specified timeout. While waiting for the specified timeout, the editor value can be considered either valid or invalid (this depends on the value returned by the **validationCallback** function). Choose the scenario that is most appropriate for your application.
 
-#####AngularJS Approach#####
+#####AngularJS#####
 
     <!--HTML-->
     <div ng-controller="demoController">
@@ -27,8 +27,6 @@ To emulate a request to a server, a validation will be performed after the speci
         <div dx-validation-summary="{ }"></div>
         <div dx-button="{ text: 'Register', onClick: register }"></div>
     </div>        
-
-<!---->
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -87,8 +85,6 @@ To emulate a request to a server, a validation will be performed after the speci
     </div>
     <div data-bind="dxValidationSummary: { }"></div>
     <div data-bind="dxButton: { text: 'Register', onClick: register }"></div>
-
-<!---->
 
     <!--JavaScript-->
     var viewModel = {

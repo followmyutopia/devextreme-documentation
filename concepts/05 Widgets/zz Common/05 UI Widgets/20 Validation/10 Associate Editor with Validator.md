@@ -28,8 +28,6 @@ To associate an editor with a validator, extend the editor with the **Validator*
     <!--HTML--><div>Login:</div>
     <div id="login"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#login").dxTextBox({
             value: null,

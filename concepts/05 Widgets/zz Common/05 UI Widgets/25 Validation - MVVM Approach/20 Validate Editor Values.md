@@ -83,8 +83,6 @@ To validate a group, use one of the following approaches.
             <div dx-button="{ text: 'Validate and submit', onClick: validateAndSubmit }"></div>
         </div>
 
-    <!---->
-
         <!--JavaScript-->function Controller($scope) {
             $scope.login = '';
             $scope.password = '';
@@ -123,8 +121,6 @@ To validate a group, use one of the following approaches.
             </div>  
             <div data-bind="dxButton: { text: 'Validate and submit', onClick: validateAndSubmit }"></div>
         </div>
-
-    <!---->
 
         <!--JavaScript-->var viewModel = {
             login: ko.observable(""),

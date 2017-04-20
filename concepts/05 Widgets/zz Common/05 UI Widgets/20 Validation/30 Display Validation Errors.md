@@ -18,8 +18,6 @@ To associate the **ValidationSummary** widget with a validation group, use the w
     <div id="summary"></div>
     <div id="loginButton"></div>
 
-<!--..-->
-
     <!--JavaScript-->var validationGroup = "sampleGroup";
     //...
     $("#summary").dxValidationSummary({

@@ -8,7 +8,7 @@ By default, when you do not specify the **adapter** option, a default adapter is
  - Sets the editor's value to *undefined*.
  - Focuses the validated editor.
 
-#####AngularJS Approach#####
+#####AngularJS#####
 
     <!--HTML-->
     <div ng-controller="demoController">
@@ -18,8 +18,6 @@ By default, when you do not specify the **adapter** option, a default adapter is
         <div dx-validation-summary="{}"></div>
         <div dx-button="{text: 'Contact me', onClick: contactMeClick}"></div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx']);
@@ -52,7 +50,7 @@ By default, when you do not specify the **adapter** option, a default adapter is
             }
         });
 
-#####Knockout Approach#####
+#####Knockout#####
 
     <!--HTML-->
     <div data-bind="dxTextBox: { value: contactEmail, mode: 'email', placeholder: 'Email' }"></div>
@@ -68,8 +66,6 @@ By default, when you do not specify the **adapter** option, a default adapter is
     <div data-bind="if: showRequestContactInfo " style="color: #000971">Please, let us contact you!</div>
     <div data-bind="dxValidationSummary: { }"></div>
     <div data-bind="dxButton: { text: 'Contact me', onClick: contactMeClick }"></div>
-
-<!---->    
 
     <!--JavaScript-->
     var viewModel = {

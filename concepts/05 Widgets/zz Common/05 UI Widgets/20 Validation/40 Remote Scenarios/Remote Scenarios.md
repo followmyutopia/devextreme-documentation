@@ -10,11 +10,26 @@ To emulate a request to a server, a validation will be performed after the speci
     <div id="summary"></div>
     <div id="button"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
-        var checkLoginAvailable;
-        var register;
+        var checkLoginAvailable,
+            register;
+        var checkLoginAvailable = function (params) {
+            // Emulates response from a server
+            setTimeout(function () {
+                // Checks if username is already used
+                if (params.value === "Alex") {
+                    params.rule.isValid = false;
+                    params.validator.validate();
+                } else {
+                    params.rule.isValid = true;
+                    params.validator.validate();
+                }
+            }, 1000);
+            // While waiting for server response 
+            // the editor value is considered invalid 
+            return false;
+        };
+
         $("#login").dxTextBox({
             value: null,
             placeholder: 'Login'
@@ -28,6 +43,7 @@ To emulate a request to a server, a validation will be performed after the speci
                 message: 'This login is not available, please choose another one.'
             }]
         });
+
         $("#password").dxTextBox({
             value: null,
             mode: 'password',
@@ -38,7 +54,9 @@ To emulate a request to a server, a validation will be performed after the speci
                 message: 'Password can not be empty.'
             }]
         });
+
         $("#summary").dxValidationSummary({});
+
         $("#button").dxButton({
             text: 'Register', onClick: register
         });        
