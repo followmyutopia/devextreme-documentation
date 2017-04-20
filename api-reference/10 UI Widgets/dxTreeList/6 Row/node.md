@@ -13,6 +13,6 @@ The row's node. Available if [rowType](/Documentation/ApiReference/UI_Widgets/dx
 <!--/shortDescription-->
 
 <!--fullDescription-->
--#####See Also#####
- -- [Node Structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/)
+#####See Also#####
+- [Node Structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/)
 <!--/fullDescription-->
