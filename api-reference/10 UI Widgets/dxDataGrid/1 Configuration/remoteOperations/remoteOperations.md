@@ -38,7 +38,7 @@ Data operations can be categorized into basic operations ([filtering](/Documenta
 </table>
 </div>
 
-[note]You cannot perform data operations on the server with an [ArrayStore](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Simple_Array/Array_Store/), a [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/) or an [array of objects](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Simple_Array/Array_Only/).
+[note]You cannot perform data operations on the server with an [ArrayStore](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Simple_Array/ArrayStore/), a [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/) or an [array of objects](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Simple_Array/Array_Only/).
 
 To control individual operations, assign a Boolean value to a corresponding field of the **remoteOperations** object. To control all operations simultaneously, assign a Boolean value directly to the **remoteOperations** option. 
 
