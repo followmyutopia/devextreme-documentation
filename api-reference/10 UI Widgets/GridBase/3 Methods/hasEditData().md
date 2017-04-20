@@ -18,6 +18,6 @@ Checks whether the widget has unsaved changes.
 
 <!--fullDescription-->
 #####See Also#####
-- [saveEditData()]({basewdigetpath}/Methods/#saveEditData)
-- [cancelEditData()]({basewdigetpath}/Methods/#cancelEditData)
+- [saveEditData()]({basewidgetpath}/Methods/#saveEditData)
+- [cancelEditData()]({basewidgetpath}/Methods/#cancelEditData)
 <!--/fullDescription-->

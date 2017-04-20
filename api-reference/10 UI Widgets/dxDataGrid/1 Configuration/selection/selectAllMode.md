@@ -19,6 +19,7 @@ Specifies the mode in which all the records are selected. Applies only if **sele
 
 - *'page'*  
  Selects records on currently rendered pages.       
+ 
  [note]This mode is incompatible with [deferred selection](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred).
 
 - *'allPages'*  
