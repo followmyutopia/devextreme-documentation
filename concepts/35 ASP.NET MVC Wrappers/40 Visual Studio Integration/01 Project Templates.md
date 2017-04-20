@@ -21,6 +21,10 @@ DevExtreme ASP.NET MVC Wrappers offer the following project templates.
       <td>ASP.NET Core Application (Visual C#)</td>
       <td>DevExtreme<br />Visual C# | Web<br/>Visual C# | .NET Core</td>
     </tr>
+    <tr>
+      <td>ASP.NET Core Application<br />Using .NET Framework (Visual C#)</td>
+      <td>DevExtreme<br />Visual C# | Web<br/>Visual C# | .NET Core</td>
+    </tr>
     </tbody>
   </table>
 </div>

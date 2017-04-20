@@ -1,6 +1,8 @@
-Download the DevExtreme installer (**.exe** file) [here](https://go.devexpress.com/DevExpressDownload_DevExtremeCompleteTrial.aspx) and run it. The setup wizard will guide you through the installation steps.
+Download the DevExtreme installer (**.exe** file) [here](https://go.devexpress.com/DevExpressDownload_DevExtremeCompleteTrial.aspx) and run it. The setup wizard will guide you through the installation steps. After installation is completed, you can create a new project that includes all the resources required by ASP.NET MVC Wrappers.
 
-After installation is completed, you can create a new project that includes all the resources required by ASP.NET MVC Wrappers (see [Project Templates](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integration/Project_Templates)). If you already have a project, add these resources manually using the instructions below.
+![DevExtreme HTML5 ASPNET MVCWrappers](/Content/images/doc/17_1/Common/MvcWrappers/new_project.png)
+
+If you already have a project, add these resources manually using the instructions below.
 
 ### ASP.NET MVC 3, 4, 5 ###
 
