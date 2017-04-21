@@ -1,4 +1,4 @@
-﻿<article data-show-web="/Content/Applications/117_1DataLayer/Filtering/Step2/markup.html" data-show-first="script.js">
+﻿<article data-show-web="/Content/Applications/17_1/DataLayer/Filtering/Step2/markup.html" data-show-first="script.js">
 
 Create a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance and assign it to the **dataSource** variable. Pass an object containing the [store](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#store) and [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) fields to the DataSource constructor to associate the DataSource instance with the required array and specify the initial filtering options. Assign the ["Title", "Engineer"] array to the **filter** option to load only items whose **Title** field value is equal to "Engineer". This is the most simple [filtering expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) supported by the DataSource and [Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores). The **store** option should contain the **EMPLOYEES** array.
 </article>

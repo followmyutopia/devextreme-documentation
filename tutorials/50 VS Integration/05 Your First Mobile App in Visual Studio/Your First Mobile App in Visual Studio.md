@@ -1,4 +1,4 @@
-﻿<article data-show="/Content/Applications/117_1LearningCenter/HelloFantasticWorld/HelloFantasticWorld7.html" data-show-sln="/Content/Applications/117_1LearningCenter/YourFirstApplicationInVS/Application1.sln">
+﻿<article data-show="/Content/Applications/17_1/LearningCenter/HelloFantasticWorld/HelloFantasticWorld7.html" data-show-sln="/Content/Applications/17_1/LearningCenter/YourFirstApplicationInVS/Application1.sln">
   
 This tutorial will walk you through creating your first DevExtreme application in Visual Studio. It will be a basic HTML JS single-page application built using the [DevExtreme SPA Framework](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/SPA_Framework) and [DevExtreme UI widgets](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/UI_Widgets_Library). Along the way, you will define two views by creating HTML templates and ViewModels. In addition, you will implement navigation between these views. 
 

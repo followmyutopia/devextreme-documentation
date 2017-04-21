@@ -1,4 +1,4 @@
-﻿<article data-show-web="/Content/Applications/117_1DataLayer/Filtering/Step6/markup.html" data-show-first="script.js">
+﻿<article data-show-web="/Content/Applications/17_1/DataLayer/Filtering/Step6/markup.html" data-show-first="script.js">
 
 This step describes how to filter data by several criteria. In this case, the [filtering expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) contains an array of more simple expressions separated by a [group filtering operator](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering/Group_Filter_Operations).
 
