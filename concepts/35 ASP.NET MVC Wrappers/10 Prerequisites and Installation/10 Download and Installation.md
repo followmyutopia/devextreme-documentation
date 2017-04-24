@@ -1,14 +1,20 @@
-Download the DevExtreme installer (**.exe** file) [here](https://go.devexpress.com/DevExpressDownload_DevExtremeCompleteTrial.aspx) and run it. The setup wizard will guide you through the installation steps. After installation is completed, you can create a new project that includes all the resources required by ASP.NET MVC Wrappers.
+Download the DevExtreme installer (**.exe** file) [here](https://go.devexpress.com/DevExpressDownload_DevExtremeCompleteTrial.aspx) and run it. The setup wizard will guide you through the installation steps.
+
+### Project Templates ###
+
+After the installation is completed, you can create a new project that includes all the resources required by ASP.NET MVC Wrappers.
 
 ![DevExtreme HTML5 ASPNET MVCWrappers](/Content/images/doc/17_1/Common/MvcWrappers/new_project.png)
 
-If you already have a project, add these resources manually using the instructions below.
+### Add the Resources to an Existing Project ###
 
-### ASP.NET MVC 3, 4, 5 ###
+If you already have a project, add wrappers resources manually using the instructions below. 
+
+#### ASP.NET MVC 3, 4, 5 ####
 
 Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integration/Add_or_Upgrade_the_Required_Resources_in_Your_Project/) for Visual Studio.
 
-### ASP.NET Core MVC ###
+#### ASP.NET Core MVC ####
 
 1. Create a *NuGet.config* file in the root directory of your project. Copy and paste the following strings to this file. Note that if you changed the default installation path, the `value` attribute must be given this path.
 
@@ -20,12 +26,12 @@ Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integrat
             </packageSources>  
         </configuration>
 
-2. Add the following string to the *project.json* file into the `"dependencies"` section.
+2. Add the following strings to the `"dependencies"` section of the *project.json* file.
 
         "DevExtreme.AspNet.Data": "1.*",
         "DevExtreme.AspNet.Core": "17.1-*"
 
-3. Add the following strings to the *bower.json* file into the `"dependencies"` section.
+3. Add the following strings to the `"dependencies"` section of the *bower.json* file.
 
         "jquery": "~3.1",
         "devextreme": "~17.1",
@@ -33,7 +39,7 @@ Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integrat
 
     [note]If the *bower.json* file is absent, run the console in the project directory and execute the [`bower init`](https://bower.io/docs/api/#init) command in it.
 
-4. Copy and paste the following strings to the *Views/Shared/_Layout.cshtml* file into the `<head>` tag.
+4. Copy and paste the following strings to the `<head>` tag of the *Views/Shared/_Layout.cshtml* file.
 
         <link href="~/lib/devextreme/css/dx.common.css" rel="stylesheet" /> 
         <link href="~/lib/devextreme/css/dx.light.css" rel="stylesheet" /> 
