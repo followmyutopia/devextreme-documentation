@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Configures the form item produced by this column in the editing state. Only used if **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"* or *"popup"*.
+Configures the form item produced by this column in the editing state. Used only if **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"* or *"popup"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

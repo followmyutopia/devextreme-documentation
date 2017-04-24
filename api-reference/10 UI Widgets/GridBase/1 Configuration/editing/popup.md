@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Configures the popup. Only used if **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"popup"*.
+Configures the popup. Used only if **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"popup"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

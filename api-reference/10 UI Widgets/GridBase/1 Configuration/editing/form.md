@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Configures the form. Only used if **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"* or *"popup"*.
+Configures the form. Used only if **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"form"* or *"popup"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
