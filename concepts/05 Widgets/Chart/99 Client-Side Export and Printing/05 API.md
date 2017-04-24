@@ -4,3 +4,17 @@ To export a widget using the API, call the [exportTo(fileName, format)](/Documen
     var chart = $("#chartContainer").dxChart("instance");
     chart.exportTo('Exported Chart', 'PDF');
     chart.print();
+
+You can also export several widgets at once using their SVG markup. Gather the markup from all required widgets by calling the [DevExpress.viz.getMarkup(widgetInstances)](/Documentation/ApiReference/Common/utils/viz/Methods/#getMarkupwidgetInstances) method, and then pass the markup to the [DevExpress.viz.exportFromMarkup(markup, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#exportFromMarkupmarkup_options) method.
+
+    <!--JavaScript-->
+    var chart1 = $("#chartContainer1").dxChart("instance");
+    var chart2 = $("#chartContainer2").dxChart("instance");
+    var chartMarkup = DevExpress.viz.getMarkup([chart1, chart2]);
+    
+    DevExpress.viz.exportFromMarkup(chartMarkup, {
+        height: 768,
+        width: 1024,
+        fileName: "Exported Charts",
+        format: "PDF"
+    });
