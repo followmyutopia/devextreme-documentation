@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the timezone of the appointment start date.
+Specifies the timezone of the appointment start date. Applies only if [timeZone](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#timeZone) is *not* specified.
 <!--/shortDescription-->
 
 <!--fullDescription-->
