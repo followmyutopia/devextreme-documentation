@@ -1,9 +1,1 @@
-You can extend the predefined dictionaries by the key-value pairs to provide localization for custom captions/messages. For instance, you can provide localized grid column captions by using the keys that are specially added to predefined dictionaries.
-
-    <!--JavaScript-->
-    localization.loadMessages({
-        de: {
-            //...
-            "gridcolumn_name": "Vorname"
-        }
-    });
+If you need to localize custom captions/messages in your application, use Globalize or another 3rd-party localization library. To learn how to localize messages using Globalize, refer to the [Localization - Use Globalize](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/#Extend_Predefined_Dictionaries) article.
