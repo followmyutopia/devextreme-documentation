@@ -10,9 +10,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether data from this column should be exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/)
 <!--/fullDescription-->
