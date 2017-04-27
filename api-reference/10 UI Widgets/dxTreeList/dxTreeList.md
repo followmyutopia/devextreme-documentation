@@ -42,6 +42,24 @@ You can create this widget using one of the following approaches.
 
         <!--HTML--><div id="treeList"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-tree-list [dataSource]="customers">
+            <dxi-column dataField="CompanyName"></dxi-column>
+            <dxi-column dataField="City"></dxi-column>
+            <dxi-column dataField="State"></dxi-column>
+            <dxi-column dataField="Phone"></dxi-column>
+            <dxi-column dataField="Fax"></dxi-column>
+        </dx-tree-list>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            customers = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">
