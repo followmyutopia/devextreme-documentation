@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fixes the column. Applies only if **columnFixing** | [enabled]({basewidgetpath}/Configuration/columnFixing/#enabled) is *true*.
+Fixes the column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
