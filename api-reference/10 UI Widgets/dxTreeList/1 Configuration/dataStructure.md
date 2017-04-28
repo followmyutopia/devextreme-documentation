@@ -15,7 +15,7 @@ Notifies the widget of your data structure.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, the widget expects that data has a plain structure where each data item contains a *"parentId"* field and a unique *"id"* field. For items of the highest hierarchical level, *"parentId"* should be *0* or *null* indicating that these items belong to the root node. The root node holds the entire hierarchy and is not visualized.
+By default, the widget expects that data has a plain structure where each data item contains a *"parentId"* field and a unique *"id"* field. For items of the highest hierarchical level, *"parentId"* should be *0*, *null* or *undefined* indicating that these items belong to the root node. The root node holds the entire hierarchy and is not visualized.
 
     <!--JavaScript-->
     var treeListData = [

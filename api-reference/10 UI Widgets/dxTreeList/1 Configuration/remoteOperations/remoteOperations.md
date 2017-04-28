@@ -40,7 +40,7 @@ Data operations can be categorized into basic operations (filtering, sorting) an
 
 [note]You cannot perform data operations on the server with an [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/), a [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/) or an array of objects.
 
-To control individual operations, assign a Boolean value to a corresponding field of the **remoteOperations** object. 
+To control individual operations, assign a Boolean value to a corresponding field of the **remoteOperations** object. Note that making data operations remote makes sense only if data has a [plain structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataStructure).
 
 [note]If actual data is stored on the server, making data operations local does _not_ guarantee that no queries for data will be sent to the server while these operations are being performed. It only guarantees that _calculations_ will be performed on the client.
 
