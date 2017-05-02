@@ -46,7 +46,7 @@ You can create the **ValidationSummary** widget using one of the following appro
                 validationGroup: validationGroupName
             });
             $("#button").dxButton({
-                validationGroup: validationGroupName
+                validationGroup: validationGroupName,
                 text: 'Validate',
                 onClick: function validate (params) {
                     params.validationGroup.validate();
