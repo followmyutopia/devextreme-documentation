@@ -19,5 +19,5 @@ The available toast types (except for "custom") only differ by the icon and back
 
 If you assign "custom" to the **type** option, the `dx-toast-custom` class is applied to the widget element. Implement the appropriate CSS class to specify toast appearance.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ToastType` enum. This enum accepts the following values: `Info`, `Warning`, `Error`, `Success` and `Custom`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ToastType` enum. This enum accepts the following values: `Info`, `Warning`, `Error`, `Success` and `Custom`.
 <!--/fullDescription-->

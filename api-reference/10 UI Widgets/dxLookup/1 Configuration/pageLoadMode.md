@@ -15,5 +15,5 @@ Specifies whether the next page is loaded when a user scrolls the widget to the 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ListPageLoadMode` enum. This enum accepts the following values: `ScrollBottom` and `NextButton`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ListPageLoadMode` enum. This enum accepts the following values: `ScrollBottom` and `NextButton`.
 <!--/fullDescription-->

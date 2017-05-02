@@ -19,5 +19,5 @@ When state storing is enabled, **DataGrid** stores data about its state on the c
 
 If you want to define specific actions on saving and loading a state, use a custom type of storage. For this purpose, specify the [customSave](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/stateStoring/#customSave) and [customLoad](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/stateStoring/#customLoad) callback functions.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `StateStoringType` enum. This enum accepts the following values: `LocalStorage`, `SessionStorage` and `Custom`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `StateStoringType` enum. This enum accepts the following values: `LocalStorage`, `SessionStorage` and `Custom`.
 <!--/fullDescription-->

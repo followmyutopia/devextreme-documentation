@@ -57,7 +57,7 @@ You can specify the initial or target element position relative to the current e
         top: "+=200",
     }
 
-When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option with an object instead of the usual lambda expression.
+When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option with an object instead of the usual lambda expression.
 
     <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()

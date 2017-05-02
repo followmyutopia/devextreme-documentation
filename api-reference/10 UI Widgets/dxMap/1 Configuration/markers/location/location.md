@@ -21,7 +21,7 @@ You can specify the **location** value in one of the following formats.
  - [40.749825, -73.987963]
  - 'Brooklyn Bridge,New York,NY'
 
-When you configure the **Map** using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `Address()` or `Coordinates()` method as shown in the following code.
+When you use the **Map** as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `Address()` or `Coordinates()` method as shown in the following code.
 
     <!--Razor C#-->@(Html.DevExtreme().Map()
         .Markers(markers => {

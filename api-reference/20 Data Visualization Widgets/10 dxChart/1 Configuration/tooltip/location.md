@@ -16,5 +16,5 @@ Specifies whether the tooltip must be located in the center of a series point or
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ChartTooltipLocation` enum. This enum accepts the following values: `Center` and `Edge`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartTooltipLocation` enum. This enum accepts the following values: `Center` and `Edge`.
 <!--/fullDescription-->

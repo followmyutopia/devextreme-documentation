@@ -22,7 +22,7 @@ Hides certain scale labels leaving more space for the others.
 - **none**      
 Leaves scale labels overlapped.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ScaleLabelOverlappingBehavior` enum. This enum accepts the following values: `Hide` and `None`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ScaleLabelOverlappingBehavior` enum. This enum accepts the following values: `Hide` and `None`.
 
 [note] Specifying this option with an object is <span style="color:red">deprecated</span>.
 <!--/fullDescription-->

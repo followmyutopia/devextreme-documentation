@@ -1,4 +1,4 @@
-DevExtreme ASP.NET MVC Wrappers offer the following project templates.
+DevExtreme ASP.NET MVC Controls offer the following project templates.
 
 <div class="simple-table">
   <table>
@@ -29,9 +29,9 @@ DevExtreme ASP.NET MVC Wrappers offer the following project templates.
   </table>
 </div>
 
-Each template includes (or automatically restores) all the needed scripts and libraries, and gives an example of configuring a widget using DevExtreme ASP.NET MVC Wrappers.
+Each template includes (or automatically restores) all the needed scripts and libraries, and gives an example of configuring a DevExtreme ASP.NET MVC Control.
 
 #####See Also#####
-- [ASP.NET MVC Wrappers - Environment and Requirements](/Documentation/Guide/ASP.NET_MVC_Wrappers/Prerequisites_and_Installation/#Environment_and_Requirements)
+- [ASP.NET MVC Controls - Environment and Requirements](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/#Environment_and_Requirements)
 
-[tags]asp.net mvc wrappers, visual studio integration, project template
+[tags]asp.net mvc controls, visual studio integration, project template

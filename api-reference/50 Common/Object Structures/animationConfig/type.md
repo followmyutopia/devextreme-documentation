@@ -52,5 +52,5 @@ The type options can take on the following values.
 
 If the **type** option is set to "slideIn" or "slideOut", specify the sliding direction using the **direction** option.
 
-When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `AnimationType` enum. This enum accepts the following values: `Css`, `Fade`, `FadeIn`, `FadeOut`, `Pop`, `Slide`, `SlideIn` and `SlideOut`.
+When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `AnimationType` enum. This enum accepts the following values: `Css`, `Fade`, `FadeIn`, `FadeOut`, `Pop`, `Slide`, `SlideIn` and `SlideOut`.
 <!--/fullDescription-->

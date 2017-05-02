@@ -54,7 +54,7 @@ You can also pass the PivotGridDataSource configuration object to the dataSource
 
 Refer to the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) and [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) topics for more information about working with data in DevExtreme.
 
-When configuring the **PivotGrid** widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the options of the **PivotGridDataSource** in the `DataSource()` method.
+When using the **PivotGrid** widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the options of the **PivotGridDataSource** in the `DataSource()` method.
 
     <!--Razor C#-->@(Html.DevExtreme().PivotGrid()
         .ID("pivotGrid")
@@ -94,5 +94,5 @@ When configuring the **PivotGrid** widget using [ASP.NET MVC Wrappers](/Document
         End Function)
     )
 
-For information on how to configure data access using ASP.NET MVC Wrappers, see the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/) topic.
+For information on how to configure data access in ASP.NET MVC Controls, see the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/) topic.
 <!--/fullDescription-->

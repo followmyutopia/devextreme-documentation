@@ -116,7 +116,7 @@ Those editors whose validation group is not specified explicitly are collected i
         }
     </script>
 
-[note] Frequently, a collection of editors should be submitted after being validated. The DevExtreme **Button** widget supports this scenario out of the box. See the [Validate and Submit an HTML Form](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Validate_and_Submit_an_HTML_Form/) topic for details.
+[note] Frequently, a collection of editors should be submitted after being validated. The DevExtreme **Button** widget supports this scenario out of the box. See the [Validate and Submit an HTML Form](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_an_HTML_Form/) topic for details.
 
 Each editor displays validation errors relevant only to it. If you need all errors relevant to a validation group to be displayed in one place, add a [ValidationSummary](/Documentation/ApiReference/UI_Widgets/dxValidationSummary/) to your page.
 
@@ -169,7 +169,7 @@ Each editor displays validation errors relevant only to it. If you need all erro
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Validation/Overview/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
 #####See Also#####
-- [Client-Side Validation - Overview](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Overview/)
-- [Client-Side Validation - Implement a Custom Validation Rule](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Implement_a_Custom_Validation_Rule/)
+- [Client-Side Validation - Overview](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
+- [Client-Side Validation - Implement a Custom Validation Rule](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Implement_a_Custom_Validation_Rule/)
 
-[tags]asp.net mvc wrappers, client-side data validation, data annotations, validate a group, validation group, validation summary, default validation group
+[tags]asp.net mvc controls, client-side data validation, data annotations, validate a group, validation group, validation summary, default validation group

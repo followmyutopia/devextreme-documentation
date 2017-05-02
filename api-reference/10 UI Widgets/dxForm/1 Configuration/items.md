@@ -28,7 +28,7 @@ The array passed to this option can hold items of the following types.
 - [Empty](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/)  
  An empty item used to add a space between neighboring items.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the items in the following manner.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the items in the following manner.
 
     <!--Razor C#-->@(Html.DevExtreme().Form()
         .FormData(Model.Data)

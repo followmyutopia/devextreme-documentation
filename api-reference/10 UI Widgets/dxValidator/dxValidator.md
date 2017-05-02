@@ -60,7 +60,7 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 #####See Also#####
 - [Associate Editor with Validator](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Associate_Editor_with_Validator)
 - [Associate Editor with Validator - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Associate_Editor_with_Validator)
-- [ASP.NET MVC Wrappers - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Overview/)
+- [ASP.NET MVC Controls - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
 
 The learn the validation rules that can be defined using the **Validator** widget for an editor, refer to the [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section.
 

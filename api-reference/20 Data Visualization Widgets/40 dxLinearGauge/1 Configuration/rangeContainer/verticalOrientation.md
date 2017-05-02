@@ -17,5 +17,5 @@ Specifies the orientation of the range container. Applies only if the **geometry
 <!--fullDescription-->
 This option specifies the range container orientation relative to an invisible scale line.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VerticalAlignment` enum. This enum accepts the following values: `Top`, `Center` and `Bottom`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VerticalAlignment` enum. This enum accepts the following values: `Top`, `Center` and `Bottom`.
 <!--/fullDescription-->

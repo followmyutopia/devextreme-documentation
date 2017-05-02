@@ -19,5 +19,5 @@ The text should be specified in the [options](/Documentation/ApiReference/UI_Wid
 
 [note]This option is available only for the dxButton [widget](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#widget) that presents a toolbar item.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ToolbarItemShowTextMode` enum. This enum accepts the following values: `Always` and `InMenu`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ToolbarItemShowTextMode` enum. This enum accepts the following values: `Always` and `InMenu`.
 <!--/fullDescription-->

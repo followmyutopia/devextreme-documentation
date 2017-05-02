@@ -25,5 +25,5 @@ On continuous and logarithmic axes, ticks and grid lines are generated automatic
 
 [note] If you require a discrete axis when numeric or date-time arguments are specified in the data source, set the **type** option to 'discrete' explicitly.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `AxisScaleType` enum. This enum accepts the following values: `Discrete`, `Continuous` and `Logarithmic`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `AxisScaleType` enum. This enum accepts the following values: `Discrete`, `Continuous` and `Logarithmic`.
 <!--/fullDescription-->

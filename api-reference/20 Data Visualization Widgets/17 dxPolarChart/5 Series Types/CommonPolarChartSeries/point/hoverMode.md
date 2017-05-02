@@ -29,5 +29,5 @@ The appearance of the hovered point is not changed.
 
 To set custom options for the 'hover' style, which is applied when a point is hovered over, use the **hoverStyle** configuration object defining it for an individual series (**series** | **point** | **hoverStyle**), for all series of a particular type (**commonSeriesSettings** | **area**/**line**/... | **point** | **hoverStyle**), or all series in the chart (see **commonSeriesSettings** | **point** | **hoverStyle**).
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ChartPointInteractionMode` enum. This enum accepts the following values: `OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints` and `None`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartPointInteractionMode` enum. This enum accepts the following values: `OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints` and `None`.
 <!--/fullDescription-->

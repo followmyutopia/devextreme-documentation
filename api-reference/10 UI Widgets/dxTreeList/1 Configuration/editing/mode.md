@@ -28,7 +28,7 @@ On entering the editing state, a row becomes a form with editable fields. The wi
 - **Popup**     
 Differs from the form mode in that the form with editable fields is placed in a popup window.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `GridEditMode` enum. This enum accepts the following values: `Row`, `Batch`, `Cell`, `Form` and `Popup`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `GridEditMode` enum. This enum accepts the following values: `Row`, `Batch`, `Cell`, `Form` and `Popup`.
 <!--/fullDescription-->
 
 <!--handmade-->

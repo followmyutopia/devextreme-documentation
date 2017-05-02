@@ -1,10 +1,10 @@
-Templates in DevExtreme ASP.NET MVC Wrappers support ERB-style syntax. The following constructions are available.
+Templates in DevExtreme ASP.NET MVC Controls support ERB-style syntax. The following constructions are available.
 
 - `<% code %>` - executes the code.
 - `<%= value %>` - prints the value.
 - `<%- value %>` - prints the value escaping HTML.
 
-There are four ways to declare templates in DevExtreme ASP.NET MVC Wrappers.
+There are four ways to declare templates in DevExtreme ASP.NET MVC Controls.
 
 - **Short inline templates**         
 These templates support HTML and ERB-style constructions.
@@ -157,7 +157,7 @@ External templates can be declared in a partial view or a `@helper` block (MVC 3
             End Helper
 
 - **JavaScript functions as templates**         
-Despite being a superstructure over JavaScript widgets, wrappers get the best from Razor syntax, but still, in some cases, Razor appears to be short of certain capabilities. In these cases, we recommend you utilize pure JavaScript backed with jQuery. Regarding templates, prefer the JavaScript function over the Razor block when you need to access JavaScript variables or implement sophisticated logic inside the template.
+Despite being a superstructure over JavaScript widgets, controls get the best from Razor syntax, but still, in some cases, Razor appears to be short of certain capabilities. In these cases, we recommend you utilize pure JavaScript backed with jQuery. Regarding templates, prefer the JavaScript function over the Razor block when you need to access JavaScript variables or implement sophisticated logic inside the template.
 
     Short JavaScript functions can be declared inline with the method's name using the `new JS()` expression.
 
@@ -275,4 +275,4 @@ Note that the `data.ID` free variable is wrapped in the `new JS()` construction.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/MasterDetailView/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
-You can find more examples of templates in our [technical demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/WebApi/Mvc/Light/) and [sample applications](/Documentation/Guide/ASP.NET_MVC_Wrappers/Prerequisites_and_Installation/#Sample_Applications).
+You can find more examples of templates in our [technical demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/WebApi/Mvc/Light/) and [sample applications](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/#Sample_Applications).

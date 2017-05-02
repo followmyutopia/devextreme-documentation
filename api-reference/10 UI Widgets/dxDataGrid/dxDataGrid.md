@@ -89,7 +89,7 @@ You can create the widget using one of the following approaches.
         };
         ko.applyBindings(viewModel);
 
-- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#-->@(Html.DevExtreme().DataGrid()
             .ID("dataGrid")
@@ -120,7 +120,7 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 #####See Also#####
 - [DataGrid - Visual Elements](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/)
 - [DataGrid - Data Binding](/Documentation/Guide/Widgets/DataGrid/Data_Binding/)
-- [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
+- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 
 <a href="/Documentation/17_1/Tutorial/UI_Widgets/Configure_DataGrid#Configure_DataGrid" class="button orange small fix-width-155" style="margin-right:5px;">Start Tutorial</a>
 <a href="http://js.devexpress.com/Demos/DataGridGallery/#chart/datagridspagingandscrollingpager" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>

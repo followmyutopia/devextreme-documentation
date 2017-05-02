@@ -4,7 +4,7 @@ DevExtreme supports integration with client-side technologies and server-side fr
 - [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)
 - [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)
 - [Angular](https://github.com/DevExpress/devextreme-angular#readme)
-- [ASP.NET MVC & ASP.NET Core](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/)
+- [ASP.NET MVC & ASP.NET Core](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/)
 
 And for those of you, who got used to TypeScript syntax, DevExtreme supplies TypeScript definitions.
 

@@ -35,7 +35,7 @@ You can also pass the **DataSource** configuration object to the dataSource opti
 
 Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/), [Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/), and [Data-Bound Application](/Documentation/Tutorial/#Bind_to_Real_Data) topics for more information about working with data in DevExtreme.
 
-When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the options of the **DataSource** in the `DataSourceOptions()` method.
+When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the options of the **DataSource** in the `DataSourceOptions()` method.
 
     <!--Razor C#-->@(Html.DevExtreme().DataGrid()
         .ID("dataGrid")
@@ -62,5 +62,5 @@ When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.
     )
 
 
-For information on how to configure data access using ASP.NET MVC Wrappers, see the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/) topic.
+For information on how to configure data access in ASP.NET MVC Controls, see the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/) topic.
 <!--/fullDescription-->

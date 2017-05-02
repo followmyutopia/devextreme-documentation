@@ -53,7 +53,7 @@ You can create the widget using one of the following approaches.
             values: [21.3, 54.1, 30.9, 45.2, 89.41]
         }"></div>
 
-- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
         
         <!--Razor C#-->@(Html.DevExtreme().BarGauge()
             .ID("barGauge")

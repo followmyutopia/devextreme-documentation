@@ -2,17 +2,17 @@ Download the DevExtreme installer (**.exe** file) [here](https://go.devexpress.c
 
 ### Project Templates ###
 
-After the installation is completed, you can create a new project that includes all the resources required by ASP.NET MVC Wrappers.
+After the installation is completed, you can create a new project that includes all the resources required by ASP.NET MVC Controls.
 
-![DevExtreme HTML5 ASPNET MVCWrappers](/Content/images/doc/17_1/Common/MvcWrappers/new_project.png)
+![DevExtreme HTML5 ASPNET MVCControls](/Content/images/doc/17_1/Common/MvcWrappers/new_project.png)
 
 ### Add the Resources to an Existing Project ###
 
-If you already have a project, add wrappers resources manually using the instructions below. 
+If you already have a project, add controls resources manually using the instructions below. 
 
 #### ASP.NET MVC 3, 4, 5 ####
 
-Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integration/Add_or_Upgrade_the_Required_Resources_in_Your_Project/) for Visual Studio.
+Use [this tool](/Documentation/Guide/ASP.NET_MVC_Controls/Visual_Studio_Integration/Add_or_Upgrade_the_Required_Resources_in_Your_Project/) for Visual Studio.
 
 #### ASP.NET Core MVC ####
 
@@ -21,7 +21,7 @@ Use [this tool](/Documentation/Guide/ASP.NET_MVC_Wrappers/Visual_Studio_Integrat
         <?xml version="1.0" encoding="utf-8"?>  
         <configuration>
             <packageSources>
-                <add key="devextreme-wrappers-netcore"
+                <add key="devextreme-controls-netcore"
                      value="C:\Program Files (x86)\DevExpress 17.1\DevExtreme\System\Bin\AspNetCore" />
             </packageSources>  
         </configuration>

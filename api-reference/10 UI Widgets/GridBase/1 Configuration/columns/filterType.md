@@ -22,7 +22,7 @@ Values in the header filter are unselected initially, and the user changes the f
 - **exclude**       
 All values in the header filter are selected initially, and the user changes the filter by clearing the selection of certain values, that is, by excluding them.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `FilterType` enum. This enum accepts the following values: `Include` and `Exclude`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `FilterType` enum. This enum accepts the following values: `Include` and `Exclude`.
 
 #####See Also#####
 - **columns[]** | [filterValues]({basewidgetpath}/Configuration/columns/#filterValues)

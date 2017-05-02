@@ -57,7 +57,7 @@ You can create the widget using one of the following approaches.
             <div id="content"></div>
         </div>
 
-- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#-->@(Html.DevExtreme().ScrollView()
             .ID("scrollView")

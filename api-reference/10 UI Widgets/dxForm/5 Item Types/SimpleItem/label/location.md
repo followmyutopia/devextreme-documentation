@@ -17,5 +17,5 @@ Specifies the location of a label against the editor.
 <!--fullDescription-->
 [note]This option has higher priority than the [labelLocation](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#labelLocation) option of the form.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `FormLabelLocation` enum. This enum accepts the following values: `Left`, `Right` and `Top`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `FormLabelLocation` enum. This enum accepts the following values: `Left`, `Right` and `Top`.
 <!--/fullDescription-->

@@ -21,7 +21,7 @@ You can specify the **center** value in one of the following formats.
  - [40.749825, -73.987963]
  - 'Brooklyn Bridge,New York,NY'
 
-When you configure the **Map** using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), this option accepts either a string value indicating the address, or two values of the `double` type indicating the coordinates.
+When you use the **Map** as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), this option accepts either a string value indicating the address, or two values of the `double` type indicating the coordinates.
 
     <!--Razor C#-->@(Html.DevExtreme().Map()
         .Center("Brooklyn Bridge,New York,NY")

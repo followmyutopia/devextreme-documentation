@@ -89,7 +89,7 @@ You can create the widget using one of the following approaches.
         }">
         </div>
 
-- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#-->@(Html.DevExtreme().Scheduler()
             .ID("scheduler")
@@ -138,7 +138,7 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 - [Scheduler - Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/)
 - [Scheduler - Resources](/Documentation/Guide/Widgets/Scheduler/Resources/)
 - [Scheduler - Views](/Documentation/Guide/Widgets/Scheduler/Views/)
-- [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
+- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
 <a href="http://www.youtube.com/watch?v=evabB5-rZZ8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=52" class="button orange small fix-width-155" target="_blank">Watch Video</a>

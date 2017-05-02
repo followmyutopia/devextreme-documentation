@@ -30,5 +30,5 @@ For extra small screens, this option always equals *1* to make the widget adapti
 
 [/note]
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option using the `Mode` enum, which accepts the value `Auto`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `Mode` enum, which accepts the value `Auto`.
 <!--/fullDescription-->

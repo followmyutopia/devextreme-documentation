@@ -20,5 +20,5 @@ The value of this option affects the set of keyboard buttons shown on the mobile
  - 'search' - the text box contains the 'X' button, which clears the text box contents
  - 'password' - the text box shows a password character instead of the actual characters typed
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `TextBoxMode` enum. This enum accepts the following values: `Text`, `Email`, `Search`, `Tel`, `Url` and `Password`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `TextBoxMode` enum. This enum accepts the following values: `Text`, `Email`, `Search`, `Tel`, `Url` and `Password`.
 <!--/fullDescription-->

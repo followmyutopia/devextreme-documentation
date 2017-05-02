@@ -14,7 +14,7 @@ Specifies configuration options for the editor widget of the current form item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), configure the editor in the following manner.
+When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure the editor in the following manner.
 
     <!--Razor C#-->@(Html.DevExtreme().Form()
         .FormData(Model.Data)

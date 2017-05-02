@@ -13,7 +13,7 @@ Specifies a configuration object for the [widget](/Documentation/ApiReference/UI
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), configure the widget with a lambda expression in the following manner.
+When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure the widget with a lambda expression in the following manner.
 
     <!--Razor C#-->// Instead of Popup here you can use Popover
     @(Html.DevExtreme().Popup()

@@ -83,7 +83,7 @@ You can create the widget using one of the following approaches.
             width: 100%
         }
 
-- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#-->@(Html.DevExtreme().Resizable()
             .ID("resizable")

@@ -14,7 +14,7 @@ Specifies which editor widget is used to display and edit the form item value.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), configure the editor in the following manner.
+When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure the editor in the following manner.
 
     <!--Razor C#-->@(Html.DevExtreme().Form()
         .FormData(Model.Data)

@@ -23,7 +23,7 @@ To group all segments with a value less than the value of the **threshold** opti
 
 To switch the grouping off, assign *'none'* to the **mode** option.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `SmallValuesGroupingMode` enum. This enum accepts the following values: `TopN`, `SmallValueThreshold` and `None`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SmallValuesGroupingMode` enum. This enum accepts the following values: `TopN`, `SmallValueThreshold` and `None`.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnutwithtopnseries/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

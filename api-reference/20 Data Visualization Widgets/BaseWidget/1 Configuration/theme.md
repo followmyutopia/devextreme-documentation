@@ -19,5 +19,5 @@ Use this property to set a [predefined](/Documentation/Guide/Widgets/Common/Data
 
 [note]The following themes were deprecated or renamed: _'desktop'_, _'desktop-dark'_, _'android'_, _'android-holo-light'_, _'ios'_, _'win8'_, _'win8-white'_, _'win8.white'_, _'win8.black'_. In new applications, use themes listed in the accepted values.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VizTheme` enum. This enum accepts the following values: `GenericLight`, `GenericDark`, `GenericContrast`, `Android5Light`, `IOS7Default`, `Win10Black` and `Win10White`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VizTheme` enum. This enum accepts the following values: `GenericLight`, `GenericDark`, `GenericContrast`, `Android5Light`, `IOS7Default`, `Win10Black` and `Win10White`.
 <!--/fullDescription-->

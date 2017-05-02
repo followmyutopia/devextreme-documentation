@@ -116,7 +116,7 @@ You can create the **ValidationSummary** widget using one of the following appro
             }"></div>
         </div>
 
-- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#-->using (Html.DevExtreme().ValidationGroup()) {
             @(Html.DevExtreme().TextBox()
@@ -175,5 +175,5 @@ To learn more on how to create the **ValidationSummary** widget and associate it
 - [Display Validation Errors - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Display_Validation_Errors)
 - [Validate View Model](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Validate_View_Model)
 - [Validate View Model - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Validate_View_Model)
-- [ASP.NET MVC Wrappers - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Overview/)
+- [ASP.NET MVC Controls - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
 <!--/fullDescription-->

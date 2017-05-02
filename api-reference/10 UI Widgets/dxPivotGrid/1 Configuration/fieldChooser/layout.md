@@ -27,5 +27,5 @@ The following abbreviations are used on the image.
 * **C** &#8212; Column Fields
 * **D** &#8212; Data Fields
  
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PivotGridFieldChooserLayout` enum. This enum accepts the following values: `Layout0`, `Layout1` and `Layout2`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PivotGridFieldChooserLayout` enum. This enum accepts the following values: `Layout0`, `Layout1` and `Layout2`.
 <!--/fullDescription-->

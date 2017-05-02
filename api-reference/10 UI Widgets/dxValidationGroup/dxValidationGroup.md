@@ -101,7 +101,7 @@ You can create the **ValidationGroup** widget using one of the following approac
             <div data-bind="dxButton: { }"></div>
         </div>
 
-- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#-->using (Html.DevExtreme().ValidationGroup()) {
             @(Html.DevExtreme().TextBox()
@@ -145,7 +145,7 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 #####See Also#####
 - [Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
 - [Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
-- [ASP.NET MVC Wrappers - Validate a Group of Editors](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Validate_a_Group_of_Editors/)
+- [ASP.NET MVC Controls - Validate a Group of Editors](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_a_Group_of_Editors/)
 
 You can use the [DevExpress.validationEngine.validateGroup(group)](/Documentation/ApiReference/Common/Utils/validationEngine/Methods/#validateGroupgroup) method to validate a particular validation group by passing its instance as a parameter.
 

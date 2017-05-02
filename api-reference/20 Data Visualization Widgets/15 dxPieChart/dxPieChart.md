@@ -116,7 +116,7 @@ You can create the widget using one of the following approaches.
         };
         ko.applyBindings(viewModel);
 
-- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#-->@(Html.DevExtreme().PieChart()
             .ID("pieChart")
@@ -152,5 +152,5 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 - [PieChart - Visual Elements](/Documentation/Guide/Widgets/PieChart/Visual_Elements/)
 - [PieChart - Series Types](/Documentation/Guide/Widgets/PieChart/Series_Types/)
 - [Charts - Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/)
-- [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
+- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 <!--/fullDescription-->

@@ -34,7 +34,7 @@ DevExtreme supports predefined jQuery easing (*"linear"* and *"swing"*) and CSS 
         }
     };
 
-When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `AnimationEasing` enum. This enum accepts the following values: `Ease`, `EaseIn`, `EaseInOut`, `EaseOut`, `Linear`, `Swing`, `StepStart` and `StepEnd`.
+When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `AnimationEasing` enum. This enum accepts the following values: `Ease`, `EaseIn`, `EaseInOut`, `EaseOut`, `Linear`, `Swing`, `StepStart` and `StepEnd`.
 
     <!--Razor C#-->@(Html.DevExtreme().WidgetName()
         .Animation(a => a

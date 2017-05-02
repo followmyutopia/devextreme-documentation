@@ -15,5 +15,5 @@ Specifies the animation direction for the "slideIn" and "slideOut" animation typ
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `Direction` enum. This enum accepts the following values: `Top`, `Bottom`, `Left` and `Right`.
+When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `Direction` enum. This enum accepts the following values: `Top`, `Bottom`, `Left` and `Right`.
 <!--/fullDescription-->

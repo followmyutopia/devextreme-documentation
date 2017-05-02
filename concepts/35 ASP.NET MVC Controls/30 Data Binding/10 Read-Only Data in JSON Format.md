@@ -1,4 +1,4 @@
-A server-side wrapper can access [JSON](http://www.json.org/) data returned from a resource by an AJAX request. For this purpose, the lambda parameter of the `DataSource()` method exposes the `StaticJson()` method. It opens a chain of methods configuring access to JSON data.
+A server-side control can access [JSON](http://www.json.org/) data returned from a resource by an AJAX request. For this purpose, the lambda parameter of the `DataSource()` method exposes the `StaticJson()` method. It opens a chain of methods configuring access to JSON data.
 
     <!--Razor C#-->
     @(Html.DevExtreme().SelectBox()

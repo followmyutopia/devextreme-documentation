@@ -203,7 +203,7 @@ $(function(){
 
 To see the sparklines of each type in operation, refer to our [Visualization Gallery](http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartssparklinessparklinesline/).
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `SparklineType` enum. This enum accepts the following values: `Line`, `Spline`, `StepLine`, `Area`, `SplineArea`, `StepArea`, `Bar` and `WinLoss`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SparklineType` enum. This enum accepts the following values: `Line`, `Spline`, `StepLine`, `Area`, `SplineArea`, `StepArea`, `Bar` and `WinLoss`.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/AreaSparklines/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Area Sparkline Demo</a>
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/BarSparklines/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Bar Sparkline Demo</a>

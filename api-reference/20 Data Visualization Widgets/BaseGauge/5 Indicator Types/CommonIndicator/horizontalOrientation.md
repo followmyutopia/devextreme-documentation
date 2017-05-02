@@ -19,5 +19,5 @@ Specifies the orientation of the *rangeBar* indicator. Applies only if the **geo
 <!--fullDescription-->
 This option specifies the orientation of the indicator relative to an invisible scale line.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `HorizontalEdge` enum. This enum accepts the following values: `Left` and `Right`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `HorizontalEdge` enum. This enum accepts the following values: `Left` and `Right`.
 <!--/fullDescription-->

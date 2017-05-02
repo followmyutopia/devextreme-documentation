@@ -55,7 +55,7 @@ If the **dataStructure** option value is 'plain', the array should have a plain 
 
 [note]The widget requires each data item to have a key field whose value is unique within the entire array.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `TreeViewDataStructure` enum. This enum accepts the following values: `Plain` and `Tree`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `TreeViewDataStructure` enum. This enum accepts the following values: `Plain` and `Tree`.
 
 #####See Also#####
 - [TreeView - Use Hierarchical Data](/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data/)

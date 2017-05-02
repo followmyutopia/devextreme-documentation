@@ -34,5 +34,5 @@ This option accepts the following values.
 - "list"  
  The widget uses the list of time values to pick the time. This value applies only when the [type](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#type) option is set to "time".
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `DateBoxPickerType` enum. This enum accepts the following values: `Native`, `Calendar`, `Rollers` and `List`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `DateBoxPickerType` enum. This enum accepts the following values: `Native`, `Calendar`, `Rollers` and `List`.
 <!--/fullDescription-->

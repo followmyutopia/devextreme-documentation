@@ -17,5 +17,5 @@ Specifies the orientation of scale ticks. Applies only if the **geometry** | [or
 <!--fullDescription-->
 This option specifies the orientation of scale ticks relative to an invisible scale line.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `VerticalAlignment` enum. This enum accepts the following values: `Top`, `Center` and `Bottom`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VerticalAlignment` enum. This enum accepts the following values: `Top`, `Center` and `Bottom`.
 <!--/fullDescription-->

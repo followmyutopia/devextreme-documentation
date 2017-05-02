@@ -1,1 +1,0 @@
-[tags]asp.net mvc wrappers, visual studio integration, add resources, add libraries, convert a project, upgrade resources, update resources

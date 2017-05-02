@@ -29,5 +29,5 @@ The appearance of the selected point is not changed.
 
 To set custom options for the 'selected' style, which is applied when a point is selected, use the **selectionStyle** configuration object defining it for an individual series (**series** | **point** | **selectionStyle**), for all series of a particular type (**commonSeriesSettings** | **area**/**line**/... | **point** | **selectionStyle**), or all series in the chart (see **commonSeriesSettings** | **point** | **selectionStyle**).
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ChartPointInteractionMode` enum. This enum accepts the following values: `OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints` and `None`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartPointInteractionMode` enum. This enum accepts the following values: `OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints` and `None`.
 <!--/fullDescription-->

@@ -79,7 +79,7 @@ Commonly, **Form** editors should be submitted to the server after being success
 #####See Also#####
 - [Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
 - [Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
-- [ASP.NET MVC Wrappers - Validate and Submit the Form Widget](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Validate_and_Submit_the_Form_Widget/)
+- [ASP.NET MVC Controls - Validate and Submit the Form Widget](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_the_Form_Widget/)
 - [Button - Validate and Submit an HTML Form](/Documentation/Guide/Widgets/Button/Validate_and_Submit_an_HTML_Form/)
 - [Form Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview)
 - [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)

@@ -16,7 +16,7 @@ Specifies whether an item context menu is shown when a user holds or swipes an i
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `ListMenuMode` enum. This enum accepts the following values: `Context` and `Slide`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ListMenuMode` enum. This enum accepts the following values: `Context` and `Slide`.
 
 #####See Also#####
 - [List - Item Context Menu](/Documentation/Guide/Widgets/List/Item_Context_Menu/)

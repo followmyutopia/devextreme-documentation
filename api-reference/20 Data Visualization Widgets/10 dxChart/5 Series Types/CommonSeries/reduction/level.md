@@ -16,5 +16,5 @@ Specifies whether high, low, open or close prices of points should be compared.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `FinancialChartReductionLevel` enum. This enum accepts the following values: `Open`, `Close`, `High` and `Low`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `FinancialChartReductionLevel` enum. This enum accepts the following values: `Open`, `Close`, `High` and `Low`.
 <!--/fullDescription-->

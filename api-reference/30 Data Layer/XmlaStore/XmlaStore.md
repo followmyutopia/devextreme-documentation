@@ -30,7 +30,7 @@ For now, **XmlaStore** supports only Microsoft Analysis Services. The comprehens
 
 <a href="/Documentation/17_1/Tutorial/UI_Widgets/Use_OLAP_Data_for_PivotGrid/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Start Tutorial</a>
 
-When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the **XmlaStore** using the syntax shown in the following example. This example configures the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
+When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the **XmlaStore** using the syntax shown in the following example. This example configures the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
 
     <!--Razor C#-->@(Html.DevExtreme().PivotGrid()
         .DataSource(ds => ds

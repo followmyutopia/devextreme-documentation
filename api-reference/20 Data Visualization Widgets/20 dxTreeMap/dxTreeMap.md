@@ -95,7 +95,7 @@ You can create the **TreeMap** widget using one of the following approaches.
         };
         ko.applyBindings(viewModel);
 
-- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#-->@(Html.DevExtreme().TreeMap()
             .ID("treeMap")
@@ -114,5 +114,5 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 
 #####See Also#####
 - [TreeMap - dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#dataSource)
-- [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
+- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 <!--/fullDescription-->

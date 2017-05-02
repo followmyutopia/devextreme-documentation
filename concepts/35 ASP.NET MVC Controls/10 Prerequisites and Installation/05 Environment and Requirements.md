@@ -1,4 +1,4 @@
-DevExtreme ASP.NET MVC Wrappers support:
+DevExtreme ASP.NET MVC Controls support:
 
 - .NET Framework 4.0 and later / .NET Core 1.0.1 and later
 - ASP.NET MVC 3 and later   
@@ -9,7 +9,7 @@ DevExtreme ASP.NET MVC Wrappers support:
 - [ASP.NET and Web Tools 2013.1 for Visual Studio 2012](https://www.microsoft.com/en-us/download/details.aspx?id=41532)     
 - [KB3002339 hotfix](https://support.microsoft.com/en-us/kb/3002339)
 
-Apart from [the libraries required by DevExtreme itself](/Documentation/Guide/Getting_Started/Installation/DevExtreme_Dependencies/), DevExtreme ASP.NET MVC Wrappers have the following dependencies.
+Apart from [the libraries required by DevExtreme itself](/Documentation/Guide/Getting_Started/Installation/DevExtreme_Dependencies/), DevExtreme ASP.NET MVC Controls have the following dependencies.
 
 - [Newtonsoft Json.NET](https://www.nuget.org/packages/Newtonsoft.Json/)    
 - [DevExtreme.AspNet.Data](https://www.nuget.org/packages/DevExtreme.AspNet.Data)

@@ -23,5 +23,5 @@ All rows are loaded at once. Scrolling appears only if the widget height cannot 
 - **Virtual**       
 Rows are loaded when they get into the viewport and removed once they leave it. Use this mode if a user should be able to scroll data jumping from one row to another.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `TreeListScrollingMode` enum. This enum accepts the following values: `Standard` and `Virtual`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `TreeListScrollingMode` enum. This enum accepts the following values: `Standard` and `Virtual`.
 <!--/fullDescription-->

@@ -18,7 +18,7 @@ This data source field is used by a default item template. If you use the defaul
 
 [note]If you use the **Menu** widget as a toolbar item, the [adaptivityEnabled](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#adaptivityEnabled) option does not apply.
 
-When using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), configure this option with a lambda expression in the following manner.
+When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure this option with a lambda expression in the following manner.
 
     <!--Razor C#-->@(Html.DevExtreme().Toolbar()
         .Items(items => {

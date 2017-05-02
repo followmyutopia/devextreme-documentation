@@ -33,7 +33,7 @@ Rotates axis labels through the angle specified by the **rotationAngle** option.
 - **stagger**      
 Arranges axis labels in two rows in a staggering manner. An empty space between the rows is specified by the **staggeringSpacing** option.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `OverlappingBehavior` enum. This enum accepts the following values: `Stagger`, `Rotate`, `Hide` and `None`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `OverlappingBehavior` enum. This enum accepts the following values: `Stagger`, `Rotate`, `Hide` and `None`.
 
 [note] Specifying this option with an object as well as with the *"enlargeTickInterval"* and *"ignore"* values is <span style="color:red">deprecated</span>.
 

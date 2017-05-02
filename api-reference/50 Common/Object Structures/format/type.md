@@ -31,7 +31,7 @@ If **type** is the only field you need to specify in the **format** object, assi
 
 [note]The **type** option will not be applied if you have specified the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) function.
 
-When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option using the `Format` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'fixedPoint'* becomes `FixedPoint`.
+When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `Format` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'fixedPoint'* becomes `FixedPoint`.
 
 #####See Also#####
 - **format** | [currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency) - specifies the currency code for the currency format.

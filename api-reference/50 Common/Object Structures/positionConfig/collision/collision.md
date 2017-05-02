@@ -41,7 +41,7 @@ The available collision handler names are:
 - **flipfit**  
  Applies the **fit** collision handler after **flip**.
 
-When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PositionResolveCollision` enum in the following manner. This enum accepts the following values: `Fit`, `Flip`, `FlipFit` and `None`.
+When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PositionResolveCollision` enum in the following manner. This enum accepts the following values: `Fit`, `Flip`, `FlipFit` and `None`.
 
     <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()

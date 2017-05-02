@@ -28,5 +28,5 @@ The appearance of the selected series is not changed.
 
 <p>To set custom options for the 'selected' style (which is applied when a series is selected), use the <b>selectionStyle</b> configuration object.</p>
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PieChartSeriesInteractionMode` enum. This enum accepts the following values: `OnlyPoint` and `None`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PieChartSeriesInteractionMode` enum. This enum accepts the following values: `OnlyPoint` and `None`.
 <!--/fullDescription-->

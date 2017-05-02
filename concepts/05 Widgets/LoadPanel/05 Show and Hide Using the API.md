@@ -19,7 +19,7 @@ To show or hide the **LoadPanel** programmatically, call the [show()](/Documenta
         });
     });
 
-[**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
     <!--Razor C#-->
     @(Html.DevExtreme().LoadPanel()

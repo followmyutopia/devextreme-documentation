@@ -35,7 +35,7 @@ Note that the [key](/Documentation/ApiReference/Data_Layer/ODataStore/Configurat
 #####See Also#####
 - [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
 
-When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the **ODataStore** using the syntax shown in the following example. This example configures the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) widget.
+When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the **ODataStore** using the syntax shown in the following example. This example configures the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) widget.
 
     <!--Razor C#-->@(Html.DevExtreme().DataGrid()
         .ID("dataGrid")
@@ -61,5 +61,5 @@ When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.
     )
 
 #####See Also#####
-- [ASP.NET MVC Wrappers - Data Binding](/Documentation/Guide/ASP.NET_MVC_Wrappers/Data_Binding/)
+- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 <!--/fullDescription-->

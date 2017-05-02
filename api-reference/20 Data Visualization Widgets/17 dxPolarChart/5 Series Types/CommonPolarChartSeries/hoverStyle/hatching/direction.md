@@ -24,5 +24,5 @@ Apply an upward diagonal hatching style from left to right.
 * **left**   
 Apply a downward diagonal hatching style from left to right.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `HatchingDirection` enum. This enum accepts the following values: `Right`, `Left` and `None`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `HatchingDirection` enum. This enum accepts the following values: `Right`, `Left` and `None`.
 <!--/fullDescription-->

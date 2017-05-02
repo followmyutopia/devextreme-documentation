@@ -154,7 +154,7 @@ You can create the widget using one of the following approaches.
         .content { background: #f5e5a6 }
         .footer { background: #7b9bcf }
 
-- [**ASP.NET MVC Wrappers**](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Creating_a_Widget)
+- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#--><html style="height:100%">
             <!-- ... -->

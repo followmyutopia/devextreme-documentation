@@ -22,7 +22,7 @@ Hides certain axis labels leaving more space for the others.
 - **none**      
 Leaves axis labels overlapped.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `PolarChartOverlappingBehavior` enum. This enum accepts the following values: `Hide` and `None`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PolarChartOverlappingBehavior` enum. This enum accepts the following values: `Hide` and `None`.
 
 [note] Specifying this option with the *"enlargeTickInterval"* and *"ignore"* values is <span style="color:red">deprecated</span>.
 <!--/fullDescription-->

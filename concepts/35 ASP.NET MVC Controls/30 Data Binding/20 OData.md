@@ -1,4 +1,4 @@
-Also, DevExtreme ASP.NET MVC Wrappers operate with an [OData](http://www.odata.org/) service out of the box. To address an OData service, call the `DataSource()` method and pass a lambda expression to it. The lambda parameter exposes the `OData()` method that configures access to the OData service.
+Also, DevExtreme ASP.NET MVC Controls operate with an [OData](http://www.odata.org/) service out of the box. To address an OData service, call the `DataSource()` method and pass a lambda expression to it. The lambda parameter exposes the `OData()` method that configures access to the OData service.
 
     <!--Razor C#-->
     @(Html.DevExtreme().DataGrid()

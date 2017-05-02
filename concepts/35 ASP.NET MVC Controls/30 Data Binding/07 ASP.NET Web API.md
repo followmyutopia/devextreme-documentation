@@ -1,6 +1,6 @@
-DevExtreme ASP.NET MVC Wrappers are fully integrated with Web API. Leveraging the [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data) library, DevExtreme ASP.NET MVC Wrappers enable you to write short but powerful controllers on the base of Web API that, for example, support [remote operations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/) in the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) widget.
+DevExtreme ASP.NET MVC Controls are fully integrated with Web API. Leveraging the [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data) library, DevExtreme ASP.NET MVC Controls enable you to write short but powerful controllers on the base of Web API that, for example, support [remote operations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/) in the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) widget.
 
-Actions in a Web API controller for DevExtreme ASP.NET MVC Wrappers implement [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations: all or just the needed ones. For example, the following code demonstrates a controller whose actions implement all CRUD operations on the "Orders" collection from the [Northwind](https://northwinddatabase.codeplex.com/) database.
+Actions in a Web API controller for DevExtreme ASP.NET MVC Controls implement [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations: all or just the needed ones. For example, the following code demonstrates a controller whose actions implement all CRUD operations on the "Orders" collection from the [Northwind](https://northwinddatabase.codeplex.com/) database.
 
     <!--C#-->
     using System;
@@ -173,7 +173,7 @@ Actions in a Web API controller for DevExtreme ASP.NET MVC Wrappers implement [C
 
 [note]"Get", "Post", "Put" and "Delete" are conventional names for actions that perform CRUD operations. However, you can use other names if you need to, for example, when the controller has multiple "Get" actions. In this case, specify the particular action to be used using one of the methods described further.
 
-To access the `GridDataController` from a server-side wrapper, use the following construction.
+To access the `GridDataController` from a server-side control, use the following construction.
 
     <!--Razor C#-->
     @(Html.DevExtreme().DataGrid()

@@ -1,11 +1,11 @@
-DevExtreme ASP.NET MVC Wrappers mirror the [options of the client-side widgets](/Documentation/ApiReference/UI_Widgets/) with only one difference: instead of the lower camel case usual in JavaScript, wrapper methods use the upper camel case common in .NET. For example:
+DevExtreme ASP.NET MVC Controls mirror the [options of the client-side widgets](/Documentation/ApiReference/UI_Widgets/) with only one difference: instead of the lower camel case usual in JavaScript, control methods use the upper camel case common in .NET. For example:
 
 <div class="simple-table" style="font-size:14px; font-style:normal; text-align:center">
   <table>
     <thead>
     <tr>
       <th>Widget Option</th>
-      <th>Wrapper Method</th>
+      <th>Control Method</th>
     </tr>
     </thead>
     <tbody>
@@ -25,11 +25,11 @@ DevExtreme ASP.NET MVC Wrappers mirror the [options of the client-side widgets](
   </table>
 </div>
 
-Wrapper methods are called using a [fluent interface](https://en.wikipedia.org/wiki/Fluent_interface). In Visual Studio, IntelliSense prompts you the names of available methods, their accepted values and short descriptions.
+Control methods are called using a [fluent interface](https://en.wikipedia.org/wiki/Fluent_interface). In Visual Studio, IntelliSense prompts you the names of available methods, their accepted values and short descriptions.
 
-![DevExtreme HTML5 ASPNET MVCWrappers](/Content/images/doc/17_1/Common/MvcWrappers/fluent-interface.png)
+![DevExtreme HTML5 ASPNET MVCControls](/Content/images/doc/17_1/Common/MvcWrappers/fluent-interface.png)
 
-To specify a simple widget option, call the corresponding wrapper method and pass the required option value.
+To specify a simple widget option, call the corresponding control method and pass the required option value.
 
     <!--Razor C#-->
     @(Html.DevExtreme().Button()
@@ -45,7 +45,7 @@ To specify a simple widget option, call the corresponding wrapper method and pas
         .Width(100)
     )
 
-[note]Specifying the `ID` option is not necessary, however, you may need it if you plan to access the widget JavaScript API at runtime (to [call a method](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/#Calling_Methods), for example). The value of the `ID` option should meet certain requirements. It must always be unique in the context of a page. If a partial view is loaded multiple times, each instance of this partial view must render all widgets with unique IDs. Also, the value of the `ID` option should meet the [requirements for the `id` attribute in HTML5](https://www.w3.org/TR/html5/dom.html#the-id-attribute).
+[note]Specifying the `ID` option is not necessary, however, you may need it if you plan to access the widget JavaScript API at runtime (to [call a method](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods), for example). The value of the `ID` option should meet certain requirements. It must always be unique in the context of a page. If a partial view is loaded multiple times, each instance of this partial view must render all widgets with unique IDs. Also, the value of the `ID` option should meet the [requirements for the `id` attribute in HTML5](https://www.w3.org/TR/html5/dom.html#the-id-attribute).
 
 Nested options are configured using lambda expressions. A lambda parameter starts a new chain of methods that specify the nested options.
 
@@ -113,4 +113,4 @@ Options that accept a predefined set of values are specified by .NET enums. Refe
         .Type(DateBoxType.DateTime) ' sets the type using the DateBoxType .NET enum
     )
     
-More examples on each case are available in our [technical demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/AjaxRequest/Mvc/Light/) and [sample applications](/Documentation/Guide/ASP.NET_MVC_Wrappers/Prerequisites_and_Installation/#Sample_Applications).
+More examples on each case are available in our [technical demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/AjaxRequest/Mvc/Light/) and [sample applications](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/#Sample_Applications).

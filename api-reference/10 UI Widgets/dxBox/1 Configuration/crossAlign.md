@@ -15,5 +15,5 @@ Specifies how widget items are aligned cross-wise.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `BoxCrossAlign` enum. This enum accepts the following values: `Start`, `End`, `Center` and `Stretch`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `BoxCrossAlign` enum. This enum accepts the following values: `Start`, `End`, `Center` and `Stretch`.
 <!--/fullDescription-->

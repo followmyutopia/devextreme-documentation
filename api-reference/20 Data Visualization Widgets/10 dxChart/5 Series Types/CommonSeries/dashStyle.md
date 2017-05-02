@@ -29,5 +29,5 @@ Displays the series line using dots.
 * **Any combination of 'longDash', 'dash' and 'dot'**   
 Displays the series line by repeating the specified combination. For example, *'dashdotdash'*.
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), specify this option using the `DashStyle` enum. This enum accepts the following values: `Solid`, `LongDash`, `Dash` and `Dot`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `DashStyle` enum. This enum accepts the following values: `Solid`, `LongDash`, `Dash` and `Dot`.
 <!--/fullDescription-->

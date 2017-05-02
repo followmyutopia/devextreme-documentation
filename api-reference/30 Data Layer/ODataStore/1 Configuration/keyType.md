@@ -39,7 +39,7 @@ If you specified a composite key, the [keyType](/Documentation/ApiReference/Data
         }
     });
 
-When configuring the widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), you can specify this option using the `EdmType` enum. This enum accepts the following values: `Int32`, `Int64`, `Guid` and `String`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `EdmType` enum. This enum accepts the following values: `Int32`, `Int64`, `Guid` and `String`.
 
 #####See Also#####
 - [fieldTypes](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#fieldTypes)

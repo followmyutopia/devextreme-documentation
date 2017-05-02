@@ -43,7 +43,7 @@ Note, that the [key](/Documentation/ApiReference/Data_Layer/LocalStore/Configura
 #####See Also#####
 - [DataSource Examples - In-memory Data](/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data)
 
-When configuring a widget using [ASP.NET MVC Wrappers](/Documentation/Guide/ASP.NET_MVC_Wrappers/Fundamentals/), declare the **ArrayStore** using the syntax shown in the following example. This example configures the [SelectBox](/Documentation/ApiReference/UI_Widgets/dxSelectBox/) widget.
+When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the **ArrayStore** using the syntax shown in the following example. This example configures the [SelectBox](/Documentation/ApiReference/UI_Widgets/dxSelectBox/) widget.
 
     <!--Razor C#-->@(Html.DevExtreme().SelectBox()
         .ID("selectBox")

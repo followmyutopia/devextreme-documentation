@@ -136,6 +136,6 @@ To use the custom validation rule, create a DevExtreme editor for the model prop
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Validation/Overview/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
 #####See Also#####
-- [Client-Side Validation - Overview](/Documentation/Guide/ASP.NET_MVC_Wrappers/Client-Side_Data_Validation/Overview/)
+- [Client-Side Validation - Overview](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
 
-[tags]asp.net mvc wrappers, client-side data validation, data annotations, custom validation rule, custom validation attribute
+[tags]asp.net mvc controls, client-side data validation, data annotations, custom validation rule, custom validation attribute
