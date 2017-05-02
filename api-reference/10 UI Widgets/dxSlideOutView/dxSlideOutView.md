@@ -49,6 +49,20 @@ You can create the widget using one of the following approaches.
             width: 100%;
         }
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-slide-out-view
+            contentTemplate="view"
+            menuTemplate="menu">
+                <div *dxTemplate="let viewData of 'view'">
+                    <p>View content</p>
+                </div>
+                <div *dxTemplate="let menuData of 'menu'">
+                    <p>Menu content</p>
+                </div>
+        </dx-slide-out-view>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

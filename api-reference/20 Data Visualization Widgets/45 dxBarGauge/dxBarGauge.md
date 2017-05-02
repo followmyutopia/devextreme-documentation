@@ -35,6 +35,15 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="barGauge"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-bar-gauge
+            [startValue]="0"
+            [endValue]="100"
+            [values]="[21.3, 54.1, 30.9, 45.2, 89.41]">
+        </dx-bar-gauge>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

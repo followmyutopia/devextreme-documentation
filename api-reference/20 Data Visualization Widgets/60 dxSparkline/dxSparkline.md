@@ -81,6 +81,29 @@ You can create the widget using one of the following approaches.
         <!--HTML--><div id="daySparkline"></div>
         <div id="nightSparkline"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-sparkline
+            [dataSource]="temperature"
+            argumentField="month"
+            valueField="day"
+            type="bar">
+        </dx-sparkline>
+        <dx-sparkline
+            [dataSource]="temperature"
+            argumentField="month"
+            valueField="night"
+            type="bar">
+        </dx-sparkline>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            temperature = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

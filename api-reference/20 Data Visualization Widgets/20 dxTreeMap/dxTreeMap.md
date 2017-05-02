@@ -66,6 +66,18 @@ You can create the **TreeMap** widget using one of the following approaches.
 
         <!--HTML--><div id="treeMap"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-tree-map [dataSource]="fruitsVegetables"></dx-tree-map>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            fruitsVegetables = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

@@ -65,6 +65,23 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="rangeSelector"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-range-selector>
+            <dxo-scale
+                [startValue]="startDate"
+                [endValue]="endDate">
+                <dxo-tick-interval [days]="7"></dxo-tick-interval>
+            </dxo-scale>
+        </dx-range-selector>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            startDate = new Date(2011, 0, 1);
+            endDate = new Date(2011, 5, 1);
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

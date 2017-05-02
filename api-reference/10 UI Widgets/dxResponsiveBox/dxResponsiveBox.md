@@ -68,6 +68,28 @@ You can create the widget using one of the following approaches.
         .content { background: #f5e5a6 }
         .footer { background: #7b9bcf }
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-responsive-box>
+            <dxi-row [ratio]="1"></dxi-row>
+            <dxi-row [ratio]="2"></dxi-row>
+            <dxi-row [ratio]="0.7"></dxi-row>
+            <dxi-col [ratio]="1"></dxi-col>
+            <dxi-item class="header">
+                <dxo-location [row]="0" [col]="0"></dxo-location>
+                <p>Header</p>
+            </dxi-item>
+            <dxi-item class="content">
+                <dxo-location [row]="1" [col]="0"></dxo-location>
+                <p>Content</p>
+            </dxi-item>
+            <dxi-item class="footer">
+                <dxo-location [row]="2" [col]="0"></dxo-location>
+                <p>Footer</p>
+            </dxi-item>
+        </dx-responsive-box>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><html style="height:100%">

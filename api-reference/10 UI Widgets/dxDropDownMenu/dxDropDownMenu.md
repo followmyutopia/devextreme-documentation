@@ -23,8 +23,10 @@ The **DropDownMenu** widget is a UI element (a button or a toolbar item) that di
 
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxDropDownMenu` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <div id="dropDownMenu"></div>
 
         <!--JavaScript-->
         $("#dropDownMenu").dxDropDownMenu({
@@ -33,24 +35,28 @@ You can create the widget using one of the following approaches.
             buttonIcon: 'menu'
         });
 
-        <!--HTML-->
-        <div id="dropDownMenu"></div>
-
-- **Knockout**  
- Add a div element and apply the `dxDropDownMenu` binding to this element.
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
-        <div data-bind="dxDropDownMenu: {
+        <dx-drop-down-menu
+            [dataSource]="dropDownMenuData"
+            buttonText="Show menu"
+            buttonIcon="menu">
+        </dx-drop-down-menu>
+
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <div dx-drop-down-menu="{
             dataSource: dropDownMenuData,
             buttonText: 'Show menu',
             buttonIcon: 'menu'
         }"></div>
 
-- **AngularJS**  
- Add a div element and apply the `dx-drop-down-menu` directive to this element.
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
-        <div dx-drop-down-menu="{
+        <div data-bind="dxDropDownMenu: {
             dataSource: dropDownMenuData,
             buttonText: 'Show menu',
             buttonIcon: 'menu'

@@ -39,6 +39,19 @@ You can add the **PivotGridFieldChooser** widget using one of the following appr
         <!--HTML--><div id="fieldChooser"></div>
         <div id="pivotGrid"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-pivot-grid-field-chooser [dataSource]="pivotGridDataSource"></dx-pivot-grid-field-chooser>
+        <dx-pivot-grid [dataSource]="pivotGridDataSource"></dx-pivot-grid>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+                // ...   
+            });
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

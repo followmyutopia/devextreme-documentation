@@ -37,6 +37,16 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="numberBox"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-number-box
+            [value]="20"
+            [min]="16"
+            [max]="100"
+            placeholder="Enter your age">
+        </dx-number-box>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

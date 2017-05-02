@@ -35,6 +35,19 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="loadPanel"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-load-panel
+            [closeOnOutsideClick]="true"
+            [(visible)]="isLoadPanelVisible">
+        </dx-load-panel>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            isLoadPanelVisible = true;
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

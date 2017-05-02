@@ -69,6 +69,22 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="pieChart"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-pie-chart [dataSource]="fruits">
+            <dxo-common-series-settings argumentField="fruit"></dxo-common-series-settings>
+            <dxi-series valueField="yeld"></dxi-series>
+            <dxi-series valueField="consumed"></dxi-series>
+        </dx-pie-chart>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            fruits = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

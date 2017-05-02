@@ -37,6 +37,23 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="button"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-button
+            text="Click me"
+            (onClick)="buttonClicked()">
+        </dx-button>
+
+    <!---->
+
+        <!--JavaScript-->
+        export class AppComponent {
+            buttonClicked() {
+                alert("The Button was clicked");
+            }
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

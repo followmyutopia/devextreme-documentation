@@ -37,6 +37,16 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="bullet"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-bullet
+            [startScaleValue]="0"
+            [endScaleValue]="35"
+            [value]="27"
+            [target]="24">
+        </dx-bullet>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

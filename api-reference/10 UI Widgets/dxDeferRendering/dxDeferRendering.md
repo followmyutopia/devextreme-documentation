@@ -35,6 +35,23 @@ You can create the widget using one of the following approaches.
             });
         });
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-defer-rendering
+            [renderWhen]="modelReady"
+        >
+            <!-- Widget content -->
+        </dx-defer-rendering>
+
+        <!--JavaScript-->
+        var modelIsReady = $.Deferred();
+        // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
+        // ...
+        export class AppComponent
+            modelReady = modelIsReady.promise();
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

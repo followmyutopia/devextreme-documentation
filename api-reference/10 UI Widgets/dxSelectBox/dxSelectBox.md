@@ -58,6 +58,22 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="selectBox"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-select-box
+            [dataSource]="states"
+            valueExpr="id"
+            displayExpr="state">
+        </dx-select-box>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            states = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

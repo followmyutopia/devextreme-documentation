@@ -33,6 +33,16 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="loadIndicator"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-load-indicator [(visible)]="isLoadIndicatorVisible"></dx-load-indicator>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            isLoadIndicatorVisible = true;
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

@@ -37,6 +37,21 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="list"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-list
+            [dataSource]="listData"
+            [grouped]="true">
+        </dx-list>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            listData = [
+                // ...
+            ]
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

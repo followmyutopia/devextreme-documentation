@@ -35,6 +35,17 @@ You can create the widget using one of the following approaches.
             });
         });
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <div id="targetElement"></div>
+        <dx-popover
+            target="#targetElement"
+            showEvent="dxhoverstart"
+            hideEvent="dxhoverend">
+                <p>Popover content</p>
+        </dx-popover>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div id="targetElement"></div>

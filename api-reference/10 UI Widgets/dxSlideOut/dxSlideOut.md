@@ -44,6 +44,24 @@ You can create the widget using one of the following approaches.
             width: 100%;
         }
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-slide-out
+            [dataSource]="displays"
+            (onItemClick)="closeSlideOut($event)">
+        </dx-slide-out>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            displays = [
+                // ...
+            ];
+            closeSlideOut = function (e) {
+                e.component.hideMenu();
+            }
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

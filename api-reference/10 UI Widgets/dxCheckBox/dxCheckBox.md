@@ -37,6 +37,22 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="checkBox"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-check-box
+            text="Toggle me"
+            [value]="undefined"
+            (onValueChanged)="checkBoxToggled($event)">
+        </dx-check-box>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            checkBoxToggled(e) {
+                alert(e.value);
+            };
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

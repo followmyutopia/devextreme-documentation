@@ -43,6 +43,20 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="vectorMap"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-vector-map>
+            <dxi-layer
+                type="area"
+                [dataSource]="DevExpress.viz.map.sources.world">
+                <dxo-label
+                    [enabled]="true"
+                    dataField="name">
+                </dxo-label>
+            </dxi-layer>
+        </dx-vector-map>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

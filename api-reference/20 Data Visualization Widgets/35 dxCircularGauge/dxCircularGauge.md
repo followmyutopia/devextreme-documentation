@@ -44,6 +44,30 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="circularGauge"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-circular-gauge [value]="105">
+            <dxo-scale
+                [startValue]="50"
+                [endValue]="150">
+            </dxo-scale>
+            <dxo-rangeContainer>
+                <dxi-range 
+                    [startValue]="50"
+                    [endValue]="90">
+                </dxi-range>
+                <dxi-range 
+                    [startValue]="90"
+                    [endValue]="130">
+                </dxi-range>
+                <dxi-range 
+                    [startValue]="130"
+                    [endValue]="150">
+                </dxi-range>
+            </dxo-rangeContainer>
+        </dx-circular-gauge>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

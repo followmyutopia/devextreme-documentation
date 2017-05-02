@@ -36,6 +36,23 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="calendar"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-calendar
+            [min]="minDate"
+            [max]="maxDate"
+            [firstDayOfWeek]="1"
+            [(value)]="currentDate">
+        </dx-calendar>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            minDate = new Date(2000, 0, 1);
+            maxDate = new Date(2029, 11, 31);
+            currentDate = new Date();
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

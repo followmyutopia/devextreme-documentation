@@ -22,8 +22,10 @@ The **Overlay** widget represents a window overlaying the current view. It displ
 
 You can create the widget using one of the following approaches.
 
-- **jQuery**  
- Use the `dxOverlay` jQuery plug-in.
+- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <div id="overlay"></div>
 
         <!--JavaScript-->
         $("#overlay").dxOverlay({
@@ -36,15 +38,23 @@ You can create the widget using one of the following approaches.
             }
         });
 
-        <!--HTML-->
-        <div id="overlay"></div>
-
-- **Knockout**  
- Add a div element and apply the `dxOverlay` binding to this element.
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
-        <div data-bind="dxOverlay: {
-            visible: overlayVisible,
+        <dx-overlay
+            [fullScreen]="false"
+            [shading]="true"
+            [position]="{
+                my: 'left top',
+                at: 'left',
+                of: '#targetElement'
+            }">
+        </dx-overlay>
+
+- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <div dx-overlay="{
             fullScreen: false,
             shading: true,
             position: {
@@ -54,11 +64,11 @@ You can create the widget using one of the following approaches.
             }
         }"></div>
 
-- **AngularJS**  
- Add a div element and apply the `dx-overlay` directive to this element.
+- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
-        <div dx-overlay="{
+        <div data-bind="dxOverlay: {
+            visible: overlayVisible,
             fullScreen: false,
             shading: true,
             position: {

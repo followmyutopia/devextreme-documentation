@@ -75,6 +75,26 @@ You can create the widget using one of the following approaches.
             width: 100%;
         }
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-panorama
+            [items]="panoramaItems"
+            title="Online Menu">
+            <dxo-background-image
+                url="/here/goes/your/image.png"
+                [height]="600"
+                [width]="800">
+            </dxo-background-image>
+        </dx-panorama>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            panoramaItems = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

@@ -37,6 +37,22 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="dropDownBox"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-drop-down-box
+            [value]="fruits[0]"
+            [dataSource]="fruits">
+            <div *dxTemplate="let contentData of 'content'">
+                <dx-list [dataSource]="fruits"></dx-list>
+            </div>
+        </dx-drop-down-box>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

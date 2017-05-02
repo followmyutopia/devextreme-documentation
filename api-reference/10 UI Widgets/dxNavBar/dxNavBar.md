@@ -50,6 +50,15 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="navBar"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-nav-bar>
+            <dxi-item text="Home" icon="home"></dxi-item>
+            <dxi-item text="About" icon="info"></dxi-item>
+            <dxi-item text=favorites" icon=favorites" badge="new"></dxi-item>
+        </dx-nav-bar>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

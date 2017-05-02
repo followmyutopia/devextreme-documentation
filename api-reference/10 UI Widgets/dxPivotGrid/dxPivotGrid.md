@@ -61,6 +61,41 @@ You can create the **PivotGrid** widget using one of the following approaches.
 
         <!--HTML--><div id="pivotGrid"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-pivot-grid>
+            <dxo-data-source>
+                <dxo-store
+                    type="odata"
+                    url="http://url/to/the/service"
+                    key="OrderID"
+                    keyType="Int32">
+                </dxo-store>
+            </dxo-data-source>
+            <dxi-field
+                area="column"
+                dataField="OrderDate"
+                dataType="date">
+            </dxi-field>
+            <dxi-field
+                area="row"
+                dataField="ShipCountry">
+            </dxi-field>
+            <dxi-field
+                area="row"
+                dataField="ShipCity">
+            </dxi-field>
+            <dxi-field
+                area="row"
+                dataField="ShipName">
+            </dxi-field>
+            <dxi-field
+                area="data"
+                summaryType="count">
+            </dxi-field>
+        </dx-pivot-grid>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div dx-pivot-grid="{

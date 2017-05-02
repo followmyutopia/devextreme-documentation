@@ -65,6 +65,45 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="form"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-form
+            [formData]="companyData">
+
+            <dxi-item datafield="name"></dxi-item>
+            <dxi-item
+                itemType="group"
+                caption="Location">
+
+                <dxi-item dataField="city"></dxi-item>
+                <dxi-item dataField="state"></dxi-item>
+                <dxi-item dataField="zip"></dxi-item>
+            </dxi-item>
+            <dxi-item
+                itemType="group"
+                caption="Contacts">
+
+                <dxi-item dataField="phone"></dxi-item>
+                <dxi-item dataField="fax"></dxi-item>
+                <dxi-item dataField="website"></dxi-item>
+            </dxi-item>
+        </dx-form>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            companyData = {
+                id: 1,
+                name: "Super Mart of the West",
+                city: "Bentonville",
+                state: "Arkansas",
+                zip: 72716,
+                phone: "(800) 555-2797",
+                fax: "(800) 555-2171",
+                website: "http://www.nowebsite.com"
+            };
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

@@ -141,6 +141,21 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="treeView"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-tree-view
+            [dataSource]="species"
+            dataStructure="plain">
+        </dx-tree-view>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            species = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

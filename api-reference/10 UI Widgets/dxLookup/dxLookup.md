@@ -38,6 +38,22 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="lookup"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-lookup
+            [dataSource]="employees"
+            displayExpr="name"
+            title="Employees">
+        </dx-lookup>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            employees = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

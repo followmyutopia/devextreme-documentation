@@ -44,6 +44,28 @@ You can create the widget using one of the following approaches.
         <!--HTML--><div id="toast"></div>
         <div id="button"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-toast
+            message="Connection problem",
+            type="error"
+            [displayTime]="3000"
+            [(visible)]="isToastVisible">
+        </dx-toast>
+        <dx-button
+            text="Show the Toast" 
+            (onClick)="showToast()">
+        </dx-button>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            isToastVisible = false;
+            showToast() {
+                this.isToastVisible = true;
+            }
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

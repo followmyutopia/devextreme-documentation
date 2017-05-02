@@ -66,6 +66,21 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="pivot"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-pivot
+            [items]="pivotItems"
+            [height]="300">
+        </dx-pivot>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            pivotItems = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

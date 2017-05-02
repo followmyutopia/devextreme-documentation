@@ -47,6 +47,31 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="scheduler">
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-scheduler
+            [dataSource]="schedulerData"
+            [currentDate]="new Date(2015, 4, 10)"
+            [startDayHour]="8"
+            [endDayHour]="19">
+        </dx-scheduler>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            schedulerData = [{
+                    text: 'Meeting customers',
+                    startDate: new Date(2015, 4, 10, 11, 0),
+                    endDate: new Date(2015, 4, 10, 13, 0)
+                }, {
+                    text: 'Summing up the results',
+                    startDate: new Date(2015, 4, 11, 12, 0),
+                    endDate: new Date(2015, 4, 11, 13, 0)
+                },
+                // ...
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

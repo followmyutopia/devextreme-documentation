@@ -57,6 +57,26 @@ You can create the widget using one of the following approaches.
             });
         });
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-tile-view
+            [dataSource]="states"
+            itemTemplate="tile">
+                <div *dxTemplate="let tileData of 'tile'">
+                    <p style="font-size:larger"><b> {{ tileData.state }} </b></p>
+                    <p>Capital: <i> {{ tileData.capital }} </i></p>
+                    <p>Population: <i> {{ tileData.population }} </i></p>
+                </div>
+        </dx-tile-view>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            states = [
+                // ...
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

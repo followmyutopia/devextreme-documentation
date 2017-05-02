@@ -37,6 +37,20 @@ You can create the widget using one of the following approaches.
             });
         });
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-popup
+            title="Popup Title"
+            [(visible)]="isPopupVisible">
+                <p>Popup content</p>
+        </dx-popup>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            isPopupVisible = true;
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

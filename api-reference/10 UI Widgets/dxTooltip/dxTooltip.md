@@ -36,6 +36,17 @@ You can create the widget using one of the following approaches.
             });
         });
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <div id="targetElement"></div>
+        <dx-tooltip
+            target="#targetElement"
+            showEvent="dxhoverstart"
+            hideEvent="dxhoverend">
+                <p>Tooltip content</p>
+        </dx-tooltip>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

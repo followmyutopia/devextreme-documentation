@@ -34,6 +34,14 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="colorBox"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-color-box
+            [value]="rgba(255, 144, 0, 0.3)"
+            [editAlphaChannel]="true">
+        </dx-color-box>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div dx-color-box="{

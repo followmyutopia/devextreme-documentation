@@ -37,6 +37,16 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="map"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-map
+            provider="bing"
+            type="roadmap"
+            [zoom]="10"
+            center="40.749825, -73.987963">
+        </dx-map>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

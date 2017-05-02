@@ -35,6 +35,16 @@ You can create the widget using one of the following approaches.
             <div id="content"></div>
         </div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-scroll-view
+            [height]="500"
+            [width]="500"
+            direction="both">
+                <div id="content"></div>
+        </dx-scroll-view>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

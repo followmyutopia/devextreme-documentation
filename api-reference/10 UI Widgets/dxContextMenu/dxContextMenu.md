@@ -59,6 +59,22 @@ You can create the widget using one of the following approaches.
         <!--HTML--><div id="targetElement"></div>
         <div id="contextMenu"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <div id="targetElement"></div>
+        <dx-context-menu
+            [items]="contextMenuItems"
+            target="#targetElement">
+        </dx-context-menu>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            contextMenuItems = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

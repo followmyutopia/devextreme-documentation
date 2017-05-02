@@ -64,6 +64,16 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="toolbar"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-toolbar [items]="toolbarData"></dx-toolbar>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            toolbarData = toolbarItems;
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

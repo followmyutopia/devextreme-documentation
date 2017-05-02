@@ -35,6 +35,22 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="dateBox"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-date-box
+            [min]="minDate"
+            [max]="maxDate"
+            [(value)]="currentDate">
+        </dx-date-box>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            minDate = new Date(2000, 0, 1);
+            maxDate = new Date(2029, 11, 31);
+            currentDate = new Date();
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

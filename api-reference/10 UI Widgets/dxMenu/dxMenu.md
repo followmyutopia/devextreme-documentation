@@ -58,6 +58,18 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="menu"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-menu [items]="menuItems"></dx-menu>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            menuItems = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

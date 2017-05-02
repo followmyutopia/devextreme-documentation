@@ -43,6 +43,18 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="tabs"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-tabs [items]="tabs"></dx-tabs>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            tabs = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

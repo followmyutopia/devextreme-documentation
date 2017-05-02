@@ -42,6 +42,33 @@ You can create the widget using one of the following approaches.
             });
         });
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-box
+            direction="row"
+            height="70%"
+            width="90%">
+            <dxi-item 
+                id="item1"
+                [ratio]="1"
+                [baseSize]="10">
+                <p>Item 1</p>
+            </dxi-item>
+            <dxi-item 
+                id="item2"
+                [ratio]="3"
+                [baseSize]="40">
+                <p>Item 2</p>
+            </dxi-item>
+            <dxi-item 
+                id="item3"
+                [ratio]="2"
+                [baseSize]="20">
+                <p>Item 3</p>
+            </dxi-item>
+        </dx-box>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div dx-box="{

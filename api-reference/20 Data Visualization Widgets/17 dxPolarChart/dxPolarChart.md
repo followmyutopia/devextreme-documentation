@@ -81,6 +81,31 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="polarChart"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-polar-chart [dataSource]="temperature">
+            <dxo-common-series-settings
+                argumentField="month"
+                type="scatter">
+            </dxo-common-series-settings>
+            <dxi-series
+                valueField="day"
+                name="Day">
+            </dxi-series>
+            <dxi-series
+                valueField="night"
+                name="Night">
+            </dxi-series>
+        </dx-polar-chart>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            temperature = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

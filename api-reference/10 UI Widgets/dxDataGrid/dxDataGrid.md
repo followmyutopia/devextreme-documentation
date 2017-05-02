@@ -59,6 +59,26 @@ You can create the widget using one of the following approaches.
 
         <!--HTML--><div id="dataGrid"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-data-grid [dataSource]="customers">            
+            <dxi-column fieldName="CompanyName"></dxi-column>
+            <dxi-column fieldName="City"></dxi-column>
+            <dxi-column fieldName="State"></dxi-column>
+            <dxi-column fieldName="Phone"></dxi-column>
+            <dxi-column fieldName="Fax"></dxi-column>
+        </dx-data-grid>
+
+    <!---->
+
+        <!--JavaScript-->
+        export class AppComponent {
+            customers = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">

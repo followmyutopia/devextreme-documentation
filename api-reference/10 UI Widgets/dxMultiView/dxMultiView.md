@@ -46,6 +46,18 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <div id="multiView"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-multi-view [items]="multiViewItems"></dx-multi-view>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            multiViewItems = [
+                // ...   
+            ];
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">
