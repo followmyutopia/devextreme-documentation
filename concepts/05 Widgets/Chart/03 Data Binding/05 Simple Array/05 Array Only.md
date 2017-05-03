@@ -1,4 +1,4 @@
-To bind the **Chart** to an array, pass this array to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxChart/Configuration/#dataSource) option. The array should contain objects.
+To bind the **Chart** to an array, pass this array to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) option. The array should contain objects.
 
     <!--JavaScript-->var fruits = [
         { fruit: 'Apples', count: 10 },
@@ -50,6 +50,6 @@ If objects in an array need to be processed (sorted, filtered, etc.), you can cr
 - [Bind to the ArrayStore](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/ArrayStore/)
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)
 - [Data Layer - Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
-- [Chart API Reference](/Documentation/ApiReference/UI_Widgets/dxChart/)
+- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, data binding, provide data, array, process data, Query

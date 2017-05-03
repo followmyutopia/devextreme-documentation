@@ -121,4 +121,4 @@ After receiving this object with settings, the server should apply them to data,
 
 [note] If the server has not recieved the **group** setting, the **data** field should contain data objects only.
 
-If grouping large data seems to lower the performance of the **DataGrid**, consider employing the remote group paging feature. Note that for this feature, the server and the client sides should be configured in a slightly different manner. For details, refer to the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Features_for_Remote_Data/Group_Paging/) topic.
+If grouping large data seems to lower the performance of the **DataGrid**, consider employing the remote group paging feature. Note that for this feature, the server and the client sides should be configured in a slightly different manner. For details, refer to the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Features_for_Remote_Data/Remote_Group_Paging/) topic.

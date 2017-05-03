@@ -14,7 +14,7 @@ When a user pauses on a series, the **Chart** fires the [seriesHoverChanged](/Do
         });
     });
 
-If you are going to change the event handler at runtime or if you need to attach several handlers to the **seriesHoverChanged** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxChart/Methods/#oneventName_eventHandler) method.
+If you are going to change the event handler at runtime or if you need to attach several handlers to the **seriesHoverChanged** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#oneventName_eventHandler) method.
 
     <!--JavaScript-->
     var seriesHoverChangedHandler1 = function (e) {

@@ -25,7 +25,7 @@ To change the series default appearance, set the options of the **series** confi
     Set a corner radius for bars using the series' **cornerRadius** property. This is helpful if you need rounded corners in bars.
 
 *   **Stack**  
-    Series values can be located in more than one stack for each argument value. Set the appropriate stack for a series using the [stack](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/stack/) property. This is helpful if you need to divide series between the required number of logical stacks (e.g., 'men' and 'women' stacks).
+    Series values can be located in more than one stack for each argument value. Set the appropriate stack for a series using the [stack](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#stack) property. This is helpful if you need to divide series between the required number of logical stacks (e.g., 'men' and 'women' stacks).
 
 *   **Bar Label Options**  
     Make bar labels visible by setting the **visible** property of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/label/) object. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) topic.

@@ -14,7 +14,7 @@ Specifies a date displayed on the current scheduler [view](/Documentation/Guide/
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This is the date which is displayed when rendering the widget. Although, an end-user can change the current date by using the [Date Navigator](/Documentation/Guide/Widgets/Scheduler/Visual_Elements/#Date_Navigator).
+This is the date which is displayed when rendering the widget. Although, an end-user can change the current date by using the Date Navigator.
 
 
 <!--/fullDescription-->

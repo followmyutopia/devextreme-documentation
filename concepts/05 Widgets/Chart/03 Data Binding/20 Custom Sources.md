@@ -43,6 +43,6 @@ For consuming data from ASP.NET and PHP servers, DevExtreme provides the followi
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
 - [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)
-- [Chart API Reference](/Documentation/ApiReference/UI_Widgets/dxChart/)
+- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, data binding, provide data, custom data source, CustomStore, DataSource, load

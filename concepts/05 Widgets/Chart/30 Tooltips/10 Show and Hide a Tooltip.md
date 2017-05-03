@@ -23,7 +23,7 @@ You can also hide the tooltip regardless of the point to which it belongs. To do
     <!--JavaScript-->$("#chartContainer").dxChart("hideTooltip");
 
 #####See Also#####
-- [Handle the Tooltip Events](/Documentation/Guide/Widgets/Chart/Tooltips/Handle_the_Related_Events/)
+- [Handle Tooltip Events](/Documentation/Guide/Widgets/Chart/Tooltips/Handle_Tooltip_Events/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, tooltips, show tooltip, showTooltip, hide tooltip, hideTooltip

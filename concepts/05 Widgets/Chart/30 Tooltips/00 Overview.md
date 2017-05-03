@@ -32,7 +32,7 @@ Options declared in the **tooltip** object apply to all tooltips in the **Chart*
 
 #####See Also#####
 - [Show and Hide a Tooltip](/Documentation/Guide/Widgets/Chart/Tooltips/Show_and_Hide_a_Tooltip/)
-- [Handle the Tooltip Events](/Documentation/Guide/Widgets/Chart/Tooltips/Handle_the_Related_Events/)
+- [Handle Tooltip Events](/Documentation/Guide/Widgets/Chart/Tooltips/Handle_Tooltip_Events/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, tooltips, enable tooltips, customizeTooltip

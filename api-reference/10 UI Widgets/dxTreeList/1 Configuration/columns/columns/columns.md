@@ -30,7 +30,7 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
 
 A nested column has almost every option a regular column has. These options are described in the [columns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) section of the Reference.
 
-[note]There is an exception though: nested columns cannot be [fixed](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columnFixing/) alone, therefore specifying the [fixed](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/fixed/) and [fixedPosition](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/fixedPosition/) options for them is useless. However, the whole band column can be fixed as usual.
+[note]There is an exception though: nested columns cannot be [fixed](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columnFixing/) alone, therefore specifying the [fixed](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixed) and [fixedPosition](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixedPosition) options for them is useless. However, the whole band column can be fixed as usual.
 
 For example, the following code specifies the **width** and **sortOrder** options of the *"Street"* column nested within the fixed *"Address"* band column.
 

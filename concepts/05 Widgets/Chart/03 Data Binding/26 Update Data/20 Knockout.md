@@ -21,4 +21,4 @@ Declare the array [observable](http://knockoutjs.com/documentation/observableArr
 
 #####See Also#####
 - [Change Options - Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Change_Options/)
-- [Chart API Reference](/Documentation/ApiReference/UI_Widgets/dxChart/)
+- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)

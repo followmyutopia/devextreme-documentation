@@ -187,7 +187,7 @@ In addition, you can use a 3rd-party template engine to perform the needed custo
 #####See Also#####
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
-- [Lookup - Customize the Popover Window](/Documentation/Guide/Widgets/Lookup/Customize_the_Appearance/Customize_the_Popover_Window/)
+- [Lookup - Customize the Drop-Down Menu](/Documentation/Guide/Widgets/Lookup/Customize_the_Appearance/Customize_the_Drop-Down_Menu/)
 - [Lookup API Reference](/Documentation/ApiReference/UI_Widgets/dxLookup/)
 
 [tags]lookup, item appearance, customize, templates, template, default item, default template, field template

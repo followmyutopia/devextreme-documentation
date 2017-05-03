@@ -16,7 +16,7 @@ To set up the banded layout, declare a band column using a hierarchical structur
 
 A nested column has almost every property a regular column has. These properties are described in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) section of the Reference.
 
-[note]There is an exception though: nested columns cannot be [fixed](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Fixing_Grid_Columns) alone, therefore specifying the [fixed](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/fixed/) and [fixedPosition](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/fixedPosition/) properties for them is useless. However, the whole band column can be fixed as usual.
+[note]There is an exception though: nested columns cannot be [fixed](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Fixing_Grid_Columns) alone, therefore specifying the [fixed](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#fixed) and [fixedPosition](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#fixedPosition) properties for them is useless. However, the whole band column can be fixed as usual.
 
 Band columns support hierarchies of any nesting level. It means that the following structure is acceptable.
 

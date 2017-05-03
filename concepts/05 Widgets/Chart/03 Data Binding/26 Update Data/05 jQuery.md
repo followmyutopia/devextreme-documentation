@@ -14,4 +14,4 @@ Make changes to the array using [standard methods](http://www.w3schools.com/js/j
 
 #####See Also#####
 - [Get and Set Options - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/)
-- [Chart API Reference](/Documentation/ApiReference/UI_Widgets/dxChart/)
+- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)

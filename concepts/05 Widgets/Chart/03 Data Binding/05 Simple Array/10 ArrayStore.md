@@ -59,7 +59,7 @@ As you may notice, in the previous code, the **ArrayStore** is not declared expl
         });
     });
 
-[note]Even if you have [passed a JavaScript array](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) to the **dataSource** option, the **Chart** automatically places it into an **ArrayStore** wrapped into the **DataSource** that you can get with the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxChart/Methods/#getDataSource) method.
+[note]Even if you have [passed a JavaScript array](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/Array_Only/) to the **dataSource** option, the **Chart** automatically places it into an **ArrayStore** wrapped into the **DataSource** that you can get with the [getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getDataSource) method.
 
 #####See Also#####
 - [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores)
@@ -67,6 +67,6 @@ As you may notice, in the previous code, the **ArrayStore** is not declared expl
 - [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)
 - [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/jQuery/Light/)
-- [Chart API Reference](/Documentation/ApiReference/UI_Widgets/dxChart/)
+- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, data binding, provide data, ArrayStore, DataSource, pagination

@@ -14,7 +14,7 @@ When a user selects a series, the **Chart** fires the [seriesSelectionChanged](/
         });
     });
 
-If you are going to change the event handler at runtime or if you need to attach several handlers to the **seriesSelectionChanged** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxChart/Methods/#oneventName_eventHandler) method.
+If you are going to change the event handler at runtime or if you need to attach several handlers to the **seriesSelectionChanged** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#oneventName_eventHandler) method.
 
     <!--JavaScript-->
     var seriesSelectionChangedHandler1 = function (e) {

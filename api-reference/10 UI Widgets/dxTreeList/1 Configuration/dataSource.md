@@ -25,7 +25,7 @@ This option accepts one of the following.
 - **[DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)**     
  A **DataSource** is an object that provides a handy API for data processing. A **DataSource** is a stateful object, which means that it saves data processing settings and applies them each time data is loaded. All underlying data access logic of a **DataSource** is isolated in a **Store**. A **Store** provides an API for reading and modifying data. Unlike the **DataSource**, a **Store** is a stateless object.
 
-    [note]If you use [data mapping](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map), features like [export]({basewidgetpath}/Configuration/export/) and [selection]({basewidgetpath}/Methods/#getSelectedRowsData) may work incorrectly. We recommend using [calculated columns]({basewidgetpath}/Configuration/columns/#calculateCellValue) instead of mapping.
+    [note]If you use [data mapping](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map), features like [selection]({basewidgetpath}/Methods/#getSelectedRowsData) may work incorrectly. We recommend using [calculated columns]({basewidgetpath}/Configuration/columns/#calculateCellValue) instead of mapping.
 
 The widget cannot track changes made in the data source by a third party. To bring data in the widget up to date in this case, call the [refresh()]({basewidgetpath}/Methods/#refresh) method.
 

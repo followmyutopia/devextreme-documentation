@@ -1,4 +1,4 @@
-To bind the **Chart** to data in a JSON format, assign the URL referring to data to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxChart/Configuration/#dataSource) option.  
+To bind the **Chart** to data in a JSON format, assign the URL referring to data to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) option.  
     
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -27,6 +27,6 @@ If you need to process data after obtaining it, implement the [CustomStore](/Doc
 #####See Also#####
 - [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)
-- [Chart API Reference](/Documentation/ApiReference/UI_Widgets/dxChart/)
+- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, data binding, provide data, json, jsonp

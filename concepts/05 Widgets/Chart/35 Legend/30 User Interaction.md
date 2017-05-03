@@ -9,7 +9,7 @@ A user can interact with the legend by pausing on legend items. When a user does
         });
     });
 
-Series that consist of several elements rather than just series points ([Line-](/Documentation/Guide/Widgets/Chart/Series/Series_Types/Line_Series/) and [Area-like](/Documentation/Guide/Widgets/Chart/Series/Series_Types/Area_Series/), [Range Area](/Documentation/Guide/Widgets/Chart/Series/Series_Types/Range_Series/#Range_Area)) can be highlighted _without_ the series points. For this, set the **hoverMode** option to *"excludePoints"*. For other series, this setting has the same effect as *"none"*.
+Series that consist of several elements rather than just series points ([Line-](/Documentation/Guide/Widgets/Chart/Series_Types/#Line) and [Area-like](/Documentation/Guide/Widgets/Chart/Series_Types/#Area), [Range Area](/Documentation/Guide/Widgets/Chart/Series_Types/#Range_Area)) can be highlighted _without_ the series points. For this, set the **hoverMode** option to *"excludePoints"*. For other series, this setting has the same effect as *"none"*.
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({

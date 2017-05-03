@@ -14,7 +14,7 @@ When a user selects a series point, the **Chart** fires the [pointSelectionChang
         });
     });
 
-If you are going to change the event handler at runtime, or if you need to attach several handlers to the **pointSelectionChanged** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxChart/Methods/#oneventName_eventHandler) method.
+If you are going to change the event handler at runtime, or if you need to attach several handlers to the **pointSelectionChanged** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#oneventName_eventHandler) method.
 
     <!--JavaScript-->
     var pointSelectionChangedHandler1 = function (e) {

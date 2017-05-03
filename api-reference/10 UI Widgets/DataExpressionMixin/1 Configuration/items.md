@@ -17,7 +17,4 @@ You can use the [dataSource]({basewidgetpath}/Configuration/#dataSource) option 
 
 [note]If you need to modify the data source specified using the **items** option at runtime, do it only with the help of the **items** option. Updating data items using the [dataSource]({basewidgetpath}/Configuration/#dataSource) option may cause unexpected results.
 
-To display widget items, a default template can be used. This template is based on the data source fields that are listed in the [Default Item Template]({basewidgetpath}/Default_Item_Template/) section of the widget's API. Alternatively, you can implement a custom item template. 
-
-
 <!--/fullDescription-->

@@ -40,4 +40,4 @@ In this case, the **Chart** will use the [$watch](https://docs.angularjs.org/api
 
 #####See Also#####
 - [Change Options - AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Change_Options/)
-- [Chart API Reference](/Documentation/ApiReference/UI_Widgets/dxChart/)
+- [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)

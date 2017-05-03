@@ -20,7 +20,7 @@ A <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxTreeMap
 <!--fullDescription-->
 Use this method to customize a specific node. Depending on whether the node is a tile or a group, this method accepts either a [tile](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/) object or a [group](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/group/) object.
 
-[note]You can specify any fields of the **tile** or **group** objects, except the [headerHeight](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/group/headerHeight/) field. This restriction exists because the layout of tiles and groups is calculated long before any customization can be applied.
+[note]You can specify any fields of the **tile** or **group** objects, except the [headerHeight](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/group/#headerHeight) field. This restriction exists because the layout of tiles and groups is calculated long before any customization can be applied.
 
 You can call the **customize(options)** method at any point of the application flow, for example, when the nodes are [being rendered](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onNodesRendering). The following code paints the label of a child node in blue or red depending on the node's value.
 

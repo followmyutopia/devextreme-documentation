@@ -9,7 +9,7 @@ Gets all points of the series.
         var seriesPoints = series.getAllPoints();
 
 - [getPointsByArg(pointArg)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getPointsByArgpointArg)      
-Gets those points of the series that has a specific argument. Returns more than one point for [range](/Documentation/Guide/Widgets/Chart/Series/Series_Types/Range_Series/) and [financial](/Documentation/Guide/Widgets/Chart/Series/Series_Types/Financial_Series/) series.
+Gets those points of the series that has a specific argument. Returns more than one point for [range](/Documentation/Guide/Widgets/Chart/Series_Types/#Range_Area) and [financial](/Documentation/Guide/Widgets/Chart/Series_Types/#Candle_Stick) series.
 
         <!--JavaScript-->var seriesPoints = series.getPointsByArg("China");
 
