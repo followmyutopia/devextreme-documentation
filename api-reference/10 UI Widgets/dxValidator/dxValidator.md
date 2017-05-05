@@ -33,6 +33,15 @@ You can create the **Validator** widget using one of the following approaches.
 
         <!--HTML--><div id="textBox1"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-text-box>
+            <dx-validator>
+                <dxi-validation-rule type="required" message="Value is required"></dxi-validation-rule>
+            </dx-validator>
+        </dx-text-box>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->

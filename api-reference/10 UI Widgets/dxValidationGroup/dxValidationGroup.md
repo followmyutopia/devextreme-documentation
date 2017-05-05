@@ -25,8 +25,7 @@ Use the **ValidationGroup** widget to combine the editors to be validated, the *
 You can create the **ValidationGroup** widget using one of the following approaches.
 
 - [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
-    Use the **validationGroup** option in the widgets in which you need to specify a validation group.
-    
+
         <!--JavaScript-->$(function() {
             var validationGroupName = "sampleGroup";
             $("#textBox1").dxTextBox({ name: 'FirstName' })
@@ -57,8 +56,27 @@ You can create the **ValidationGroup** widget using one of the following approac
         <div id="summary"></div>
         <div id="button"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-validation-group>
+            <dx-text-box name="FirstName">
+                <dx-validator>
+                    <dxi-validation-rule type="required" message="First name is required"></dxi-validation-rule>
+                    . . .
+                </dx-validator>
+            </dx-text-box>
+            <dx-text-box name="LastName">
+                <dx-validator>
+                    <dxi-validation-rule type="required" message="Last name is required"></dxi-validation-rule>
+                    . . .
+                </dx-validator>
+            </dx-text-box>
+            <dx-validation-summary></dx-validation-summary>
+            <dx-button></dx-button>
+        </dx-validation-group>
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-    Add a `<div>` element and apply the `dx-validation-group` directive to it.
 
         <!--HTML--><div dx-validation-group="{ }" ng-controller="DemoController">
             <div dx-text-box="{ name: 'FirstName' }"
@@ -80,7 +98,6 @@ You can create the **ValidationGroup** widget using one of the following approac
         </div>
 
 - [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-    Add a `<div>` element and apply the `dxValidationGroup` binding to it.
 
         <!--HTML--><div data-bind="dxValidationGroup: { }" >
             <div data-bind="dxTextBox: { name: 'FirstName' },

@@ -70,12 +70,10 @@ You can create the widget using one of the following approaches.
         <!--HTML-->
         <dx-form
             [formData]="companyData">
-
             <dxi-item datafield="name"></dxi-item>
             <dxi-item
                 itemType="group"
                 caption="Location">
-
                 <dxi-item dataField="city"></dxi-item>
                 <dxi-item dataField="state"></dxi-item>
                 <dxi-item dataField="zip"></dxi-item>
@@ -83,7 +81,6 @@ You can create the widget using one of the following approaches.
             <dxi-item
                 itemType="group"
                 caption="Contacts">
-
                 <dxi-item dataField="phone"></dxi-item>
                 <dxi-item dataField="fax"></dxi-item>
                 <dxi-item dataField="website"></dxi-item>

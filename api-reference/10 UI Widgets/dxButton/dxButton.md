@@ -45,8 +45,6 @@ You can create the widget using one of the following approaches.
             (onClick)="buttonClicked()">
         </dx-button>
 
-    <!---->
-
         <!--JavaScript-->
         export class AppComponent {
             buttonClicked() {

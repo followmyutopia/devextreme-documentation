@@ -63,14 +63,12 @@ You can create the widget using one of the following approaches.
 
         <!--HTML-->
         <dx-data-grid [dataSource]="customers">            
-            <dxi-column fieldName="CompanyName"></dxi-column>
-            <dxi-column fieldName="City"></dxi-column>
-            <dxi-column fieldName="State"></dxi-column>
-            <dxi-column fieldName="Phone"></dxi-column>
-            <dxi-column fieldName="Fax"></dxi-column>
+            <dxi-column dataField="CompanyName"></dxi-column>
+            <dxi-column dataField="City"></dxi-column>
+            <dxi-column dataField="State"></dxi-column>
+            <dxi-column dataField="Phone"></dxi-column>
+            <dxi-column dataField="Fax"></dxi-column>
         </dx-data-grid>
-
-    <!---->
 
         <!--JavaScript-->
         export class AppComponent {

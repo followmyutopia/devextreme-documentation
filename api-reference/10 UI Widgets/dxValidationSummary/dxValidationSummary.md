@@ -59,6 +59,36 @@ You can create the **ValidationSummary** widget using one of the following appro
         <div id="summary"></div>
         <div id="button"></div>
 
+- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+        <!--HTML-->
+        <dx-validation-group>
+            <dx-text-box name="FirstName">
+                <dx-validator>
+                    <dxi-validation-rule type="required" message="First name is required"></dxi-validation-rule>
+                    . . .
+                </dx-validator>
+            </dx-text-box>
+            <dx-text-box name="LastName">
+                <dx-validator>
+                    <dxi-validation-rule type="required" message="Last name is required"></dxi-validation-rule>
+                    . . .
+                </dx-validator>
+            </dx-text-box>
+            <dx-validation-summary></dx-validation-summary>
+            <dx-button
+                text="Validate"
+                (onClick)="validate()">
+            </dx-button>
+        </dx-validation-group>
+
+        <!--JavaScript-->
+        export class AppComponent {
+            validate(params) {
+                params.validationGroup.validate();
+            }
+        }
+
 - [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div dx-validation-group="{ }" ng-controller="DemoController">
