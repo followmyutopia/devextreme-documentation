@@ -21,7 +21,7 @@ You can distinguish editors by their parent element. Also, the parent element de
 
 When the **parentType** is *'dataRow'* or *'headerRow'*, you can use the options described in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) reference section.
 
-[note]If you have specified the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate) option, the **onEditorPrepared** function will not be executed when a row or a cell switches into the editing state.
+[note]If you have specified the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate) option, the **onEditorPreparing** function will not be executed when a row or a cell switches into the editing state.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
