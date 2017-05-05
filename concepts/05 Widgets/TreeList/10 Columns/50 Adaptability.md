@@ -1,12 +1,9 @@
-When adapting to a small container or screen, the **TreeList** can hide columns. To enable this feature, set the [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnHidingEnabled) to *true*. Set the column's [allowHiding](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowHiding) option to *false* if it should never be hidden. Columns have hiding priorities - zero-based indexes that determine the order in which they are hidden. These indexes ascend from right to left by default, which means that the rightmost column is always at risk of being hidden. Use the [hidingPriority](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#hidingPriority) option to specify a custom hiding priority and cancel the default priorities.
+When adapting to a small container or screen, the **TreeList** can hide columns. To enable this feature, set the [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnHidingEnabled) to *true*. Columns have hiding priorities - zero-based indexes that determine the order in which they are hidden. These indexes ascend from right to left by default, which means that the rightmost column is always at risk of being hidden. Use the [hidingPriority](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#hidingPriority) option to specify a custom hiding priority and cancel the default priorities.
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             columnHidingEnabled: true,
             columns: [{
-                // ...
-                allowHiding: false // an essential column
-            }, {
                 // ...
                 hidingPriority: 2 // a valuable column
             }, {
@@ -46,5 +43,5 @@ All adaptive detail rows contain the [DevExtreme Form widget](/Documentation/Api
     });
 
 #####See Also#####
-- [Column Fixing]()
-- [Column Chooser]()
+- [Column Fixing](/Documentation/Guide/Widgets/TreeList/Columns/Column_Fixing/)
+- [Column Chooser](/Documentation/Guide/Widgets/TreeList/Columns/Column_Chooser/)

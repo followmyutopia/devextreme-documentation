@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the [column chooser]({basewidgetpath}/Configuration/columnChooser/) should contain the column header when the column is hidden.
+Specifies whether the [column chooser]({basewidgetpath}/Configuration/columnChooser/) can contain the column header.
 <!--/shortDescription-->
 
 <!--fullDescription-->
