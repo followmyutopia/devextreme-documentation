@@ -16,6 +16,7 @@ The count of columns in the form layout.
 
 <!--fullDescription-->
 [note]
+
 For extra small screens, this option always equals *1* to make the widget adaptive. To override this logic, specify the [colCountByScreen](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/colCountByScreen/) option.
 
     <!--JavaScript-->
