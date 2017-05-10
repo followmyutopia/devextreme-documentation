@@ -1,6 +1,6 @@
 If the built-in validation rules do not meet your requirements, implement a custom one. These are the steps for you to follow.
 
-1. In **ASP.NET MVC 3, 4, 5**, create a class that inherits from the [`ValidationAttribute`](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.validationattribute(v=vs.110).aspx) and [`IClientValidatable`](https://msdn.microsoft.com/en-us/library/system.web.mvc.iclientvalidatable(v=vs.118).aspx). In this class, implement the [`GetClientValidationRules`](https://msdn.microsoft.com/en-us/library/gg416550(v=vs.118).aspx) method. Note that this method returns an object of the [`ModelClientValidationRule`](https://msdn.microsoft.com/en-us/library/system.web.mvc.modelclientvalidationrule(v=vs.118).aspx) type. The [`ValidationType`](https://msdn.microsoft.com/en-us/library/system.web.mvc.modelclientvalidationrule.validationtype(v=vs.100).aspx) property of this object should be set to *"custom"*, and the [`ValidationParameters`](https://msdn.microsoft.com/en-us/library/system.web.mvc.modelclientvalidationrule.validationparameters(v=vs.100).aspx) collection should be given a new entry called *"validationCallback"*, which binds a JavaScript function to the validation rule. This function will be declared in step 3.
+1. In **ASP.NET MVC 3, 4, 5**, create a class that inherits from the [`ValidationAttribute`](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.validationattribute(v=vs.110).aspx) and [`IClientValidatable`](https://msdn.microsoft.com/en-us/library/system.web.mvc.iclientvalidatable(v=vs.118).aspx). In this class, implement the [`GetClientValidationRules`](https://msdn.microsoft.com/en-us/library/gg416550(v=vs.118).aspx) method. Note that this method returns an object of the [`ModelClientValidationRule`](https://msdn.microsoft.com/en-us/library/system.web.mvc.modelclientvalidationrule(v=vs.118).aspx) type. The [`ValidationType`](https://msdn.microsoft.com/en-us/library/system.web.mvc.modelclientvalidationrule.validationtype(v=vs.100).aspx) property of this object should be set to *"custom"*, and the [`ValidationParameters`](https://msdn.microsoft.com/en-us/library/system.web.mvc.modelclientvalidationrule.validationparameters(v=vs.100).aspx) collection should be given a new entry called *"validationcallback"*, which binds a JavaScript function to the validation rule. This function will be declared in step 3.
         
         <!--C#-->
         using System.Collections.Generic;
@@ -19,7 +19,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
                     var rule = new ModelClientValidationRule();
                     rule.ErrorMessage = FormatErrorMessage(metadata.GetDisplayName());
                     // Binds the "verifyAge" JavaScript function to the validation rule
-                    rule.ValidationParameters.Add("validationCallback", "verifyAge");
+                    rule.ValidationParameters.Add("validationcallback", "verifyAge");
                     // "ValidationType" should always be "custom"
                     rule.ValidationType = "custom";
                     yield return rule;
@@ -44,7 +44,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
                     Dim Rule = New ModelClientValidationRule()
                     Rule.ErrorMessage = FormatErrorMessage(metadata.GetDisplayName())
                     ' Binds the "verifyAge" JavaScript function to the validation rule
-                    Rule.ValidationParameters.Add("validationCallback", "verifyAge")
+                    Rule.ValidationParameters.Add("validationcallback", "verifyAge")
                     ' "ValidationType" should always be "custom"
                     Rule.ValidationType = "custom"
                     Yield Rule
@@ -58,7 +58,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
     Adds the custom validation attribute to the collection of validation attributes.
 
     - `MergeAttribute`      
-    Checks that the key of the custom validation attribute is unique within the collection of validation attributes. Note that the key must begin with the *"data-val-custom-"* prefix. The key that ends with *"validationCallback"* must point to a JavaScript function implementing the validation logic. This function will be declared in step 3.
+    Checks that the key of the custom validation attribute is unique within the collection of validation attributes. Note that the key must begin with the *"data-val-custom-"* prefix. The key that ends with *"validationcallback"* must point to a JavaScript function implementing the validation logic. This function will be declared in step 3.
 
     <!--->
 
@@ -74,9 +74,9 @@ If the built-in validation rules do not meet your requirements, implement a cust
                     : base("The value of the {0} field is not valid") {
                 }
                 public void AddValidation(ClientModelValidationContext context) {
-                    MergeAttribute(context.Attributes, "data-val-custom-verify-age",
+                    MergeAttribute(context.Attributes, "data-val-custom-verifyage",
                             FormatErrorMessage(context.ModelMetadata.GetDisplayName()));
-                    MergeAttribute(context.Attributes, "data-val-custom-verify-age-validationCallback", "verifyAge");
+                    MergeAttribute(context.Attributes, "data-val-custom-verifyage-validationcallback", "verifyAge");
                 }
                 bool MergeAttribute(IDictionary<string, string> attributes, string key, string value) {
                     if(attributes.ContainsKey(key)) {
