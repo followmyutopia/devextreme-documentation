@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The index number of the currently selected item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
