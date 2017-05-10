@@ -66,16 +66,14 @@ As an example, see the following code, which implements the data source for the 
 
 [note]Every unique value present in a column should also be present in the data source for its header filter.
 
-[note]
-
 If you use a data source that does not contain the required fields (**text** and **value**), you can use the map option of the DataSource object to cast the initial data array to the required structure. If the initial array includes key fields, all these fields as well as the **text** and **value** fields should be present in the resulting array.
 
     <!--JavaScript-->
     $(function(){
         var categoriesStore = new DevExpress.data.ArrayStore({
             data: [
-                { categoryName: "...", categoryId="1", categoryCode="..." },
-                . . .
+                { categoryName: "...", categoryId: "1", categoryCode: "..." },
+                // ...
             ],
             key: ["categoryId", "categoryCode"]
         });
@@ -103,7 +101,6 @@ If you use a data source that does not contain the required fields (**text** and
         });
     });
 
-[/note]
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
