@@ -73,4 +73,4 @@ While **cellTemplate** customizes data cells only, the [onCellPrepared](/Documen
     }
 
 #####See Also#####
-- [Customize Column Headers]()
+- [Customize Column Headers](/Documentation/Guide/Widgets/TreeList/Columns/Customize_Column_Headers/)

@@ -28,11 +28,11 @@ If a column should be fixed initially, assign *true* to its [fixed](/Documentati
         });
     });
 
-[note] Once you assign *true* to the **columnFixing** | **enabled** or **fixed** option, [command columns]() become fixed automatically.
+[note] Once you assign *true* to the **columnFixing** | **enabled** or **fixed** option, [command columns](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/) become fixed automatically.
 
 Since column fixing is effective only with horizontal scrolling, using it makes sense only if the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnAutoWidth) option is *false* and when the total width of columns exceeds the container width. Otherwise, fixed columns behave just like regular ones.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/ColumnFixing/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
-- [Adaptability]()
+- [Adaptability](/Documentation/Guide/Widgets/TreeList/Columns/Adaptability/)
