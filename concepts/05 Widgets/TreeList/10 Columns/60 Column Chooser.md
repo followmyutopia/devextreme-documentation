@@ -26,10 +26,6 @@ Set a column's [allowHiding](/Documentation/ApiReference/UI_Widgets/dxTreeList/C
         });
     });
 
-A column is considered hidden when its [visible](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#visible) option is *false*. You can change this option programmatically using the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#columnOptionid_optionName_optionValue) method. For example, the following code hides an *"Email"* column:
-
-    <!--JavaScript-->$("#treeListContainer").dxTreeList("columnOption", "Email", "visible", false);
-
 Call the [showColumnChooser()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#showColumnChooser) or [hideColumnChooser()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#hideColumnChooser) method to control the column chooser programmatically.
 
     <!--JavaScript-->$("#treeListContainer").dxTreeList("instance");
@@ -37,5 +33,6 @@ Call the [showColumnChooser()](/Documentation/ApiReference/UI_Widgets/dxTreeList
     treeList.hideColumnChooser();
 
 #####See Also#####
+- [Hide a Column Using the API](/Documentation/Guide/Widgets/TreeList/Columns/Hide_a_Column_Using_the_API/)
 - [Adaptability](/Documentation/Guide/Widgets/TreeList/Columns/Adaptability/)
 - [Column Fixing](/Documentation/Guide/Widgets/TreeList/Columns/Column_Fixing/)
