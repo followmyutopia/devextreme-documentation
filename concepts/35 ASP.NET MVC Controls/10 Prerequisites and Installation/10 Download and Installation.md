@@ -16,20 +16,13 @@ Use [this tool](/Documentation/Guide/ASP.NET_MVC_Controls/Visual_Studio_Integrat
 
 #### ASP.NET Core MVC ####
 
-1. Create a *NuGet.config* file in the root directory of your project. Copy and paste the following strings to this file. Note that if you changed the default installation path, the `value` attribute must be given this path.
+1. Add a [new NuGet package source](https://docs.microsoft.com/en-us/nuget/tools/package-manager-ui#package-sources), which is located in the folder where you have installed DevExtreme.
 
-        <?xml version="1.0" encoding="utf-8"?>  
-        <configuration>
-            <packageSources>
-                <add key="devextreme-controls-netcore"
-                     value="C:\Program Files (x86)\DevExpress 17.1\DevExtreme\System\Bin\AspNetCore" />
-            </packageSources>  
-        </configuration>
+    ![DevExtreme HTML5 ASPNET MVCControls](/Content/images/doc/17_1/Common/MvcWrappers/nuget_add-package-source.png) 
 
-2. Add the following strings to the `"dependencies"` section of the *project.json* file.
+2. [Install](https://docs.microsoft.com/en-us/nuget/tools/package-manager-ui#finding-and-installing-a-package) the **DevExtreme.AspNet.Data** and **DevExtreme.AspNet.Core** packages for your solution. 
 
-        "DevExtreme.AspNet.Data": "1.*",
-        "DevExtreme.AspNet.Core": "17.1-*"
+    ![DevExtreme HTML5 ASPNET MVCControls](/Content/images/doc/17_1/Common/MvcWrappers/nuget_devextreme-packages.png)
 
 3. Add the following strings to the `"dependencies"` section of the *bower.json* file.
 
