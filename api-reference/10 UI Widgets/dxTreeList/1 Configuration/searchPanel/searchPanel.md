@@ -13,7 +13,7 @@ Configures the search panel.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The search panel allows searching for values in several columns at once. The widget searches against only those columns whose [allowFiltering]({basewidgetpath}/Configuration/columns/#allowFiltering) option is set to *true*.
+The search panel allows searching for values in several columns at once. The widget searches against only those columns whose [allowSearch]({basewidgetpath}/Configuration/columns/#allowSearch) option is set to *true*.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList SearchPanel](/Content/images/doc/17_1/treelist/visual_elements/search_panel.png)
 

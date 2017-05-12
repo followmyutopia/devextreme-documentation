@@ -1,0 +1,22 @@
+The search panel allows searching for values in several columns at once. Search is case-insensitive.
+
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList SearchPanel](/Content/images/doc/17_1/treelist/visual_elements/search_panel.png)
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingSearchPanel/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+
+To make the search panel visible, assign *true* to the [searchPanel](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/) | **visible** option. You can set a column's [allowSearch](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowSearch) option to *false* if it should be excluded from searching. Note that this option inherits the value of the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option by default.
+
+    <!--JavaScript-->$(function() {
+        $("#treeListContainer").dxTreeList({
+            searchPanel: { visible: true },
+            columns: [{
+                // ...
+                allowSearch: false
+            }]
+        });
+    });
+
+Search is performed differently depending on a column's [data type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType). Numeric, Boolean, and date columns require that a user enters a full value into the search panel. For columns that contain string values, entering only a part of a value is enough to find it.
+
+#####See Also#####
+- [Filtering API - Initial and Runtime Filtering](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering)

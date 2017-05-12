@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Seeks a search string in the columns whose [allowFiltering]({basewidgetpath}/Configuration/columns/#allowFiltering) option is *true*.
+Seeks a search string in the columns whose [allowSearch]({basewidgetpath}/Configuration/columns/#allowSearch) option is *true*.
 <!--/shortDescription-->
 
 <!--paramName1-->text<!--/paramName1-->

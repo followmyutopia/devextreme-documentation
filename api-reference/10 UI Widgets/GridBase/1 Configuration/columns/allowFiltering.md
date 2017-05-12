@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether data can be filtered by this column. Applies only if [filterRow]({basewidgetpath}/Configuration/filterRow/) | **visible**, [headerFilter]({basewidgetpath}/Configuration/headerFilter/) | **visible** or [searchPanel]({basewidgetpath}/Configuration/searchPanel/) | **visible** is *true*.
+Specifies whether data can be filtered by this column. Applies only if [filterRow]({basewidgetpath}/Configuration/filterRow/) | **visible** is *true*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

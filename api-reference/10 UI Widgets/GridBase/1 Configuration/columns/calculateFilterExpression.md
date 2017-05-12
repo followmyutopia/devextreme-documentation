@@ -15,7 +15,7 @@ Calculates filters when the column contains custom data.
 <!--fullDescription-->
 When you use the [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue) function to populate the column with data, implement the **calculateFilterExpression** function as well. This ensures proper filtering and search in this column.
 
-This function must return a filter expression which is an array of the following format.
+This function must return a filter expression, which is an array of the following format.
 
     [selector, selectedFilterOperation, filterValue]
 
@@ -24,7 +24,7 @@ A data source field or a function providing actual values for the column. If you
 - **selectedFilterOperation**       
 A comparison operator. One of the following: *"=", "<>", ">", ">=", "<", "<=", "between", "startswith", "endswith", "contains", "notcontains"*.    
 - **filterValue**        
-The value that a user has typed into a cell of the filter row. Values provided by the **selector** will be compared to this value.
+A user input value. Values provided by the **selector** will be compared to this value.
 
 The following code snippet provides a typical implementation of the **calculateFilterExpression** function.
 
@@ -77,7 +77,7 @@ To invoke the default behavior, call the **this.defaultCalculateFilterExpression
 <!--typeFunctionParamName1-->filtervalue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The text typed into a cell of the filter row.
+A user input value.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->selectedFilterOperation<!--/typeFunctionParamName2-->

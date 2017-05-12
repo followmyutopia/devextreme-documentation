@@ -24,5 +24,5 @@ Pass an array with the following members to this method.
 2. The comparison operator. The following operators are available: "=", "<>", ">", ">=", "<", "<=", "startswith", "endswith", "contains", "notcontains".
 3. The value with which data source field values should be compared.
 
-This method filters data before all filtering UI elements ([filter row]({basewidgetpath}/Configuration/filterRow/), [search panel]({basewidgetpath}/Configuration/searchPanel/), [header filter]({basewidgetpath}/Configuration/headerFilter/)) do. To clear all filters applied both from code and the UI, call the [clearFilter('dataSource')]({basewidgetpath}/Methods/#clearFilter) method.
+This method applies a filter before the [filter row]({basewidgetpath}/Configuration/filterRow/), [search panel]({basewidgetpath}/Configuration/searchPanel/), or [header filter]({basewidgetpath}/Configuration/headerFilter/) does. To clear all filters applied both from code and the UI, call the [clearFilter()]({basewidgetpath}/Methods/#clearFilter) method.
 <!--/fullDescription-->
