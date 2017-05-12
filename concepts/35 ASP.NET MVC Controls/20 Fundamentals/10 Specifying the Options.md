@@ -27,7 +27,7 @@ DevExtreme ASP.NET MVC Controls mirror the [options of the client-side widgets](
 
 Control methods are called using a [fluent interface](https://en.wikipedia.org/wiki/Fluent_interface). In Visual Studio, IntelliSense prompts you the names of available methods, their accepted values and short descriptions.
 
-![DevExtreme HTML5 ASPNET MVCControls](/Content/images/doc/17_1/Common/MvcWrappers/fluent-interface.png)
+![DevExtreme ASP.NET MVC Controls - InstelliSense](/Content/images/doc/17_1/Common/MvcWrappers/fluent-interface.png)
 
 To specify a simple widget option, call the corresponding control method and pass the required option value.
 
