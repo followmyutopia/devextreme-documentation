@@ -16,15 +16,6 @@ A handler for the [itemDeleting]({basewidgetpath}/Events/#itemDeleting) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can use this option to add a confirmation dialog displayed when a widget item is deleted.
-
-    <!--JavaScript-->
-    var widgetOptions = {
-        onItemDeleting: function(e) {
-            return DevExpress.ui.dialog.confirm("Do you really want to delete the item?");
-        })
-    }
-
 Assign a function to perform a custom action before a collection item is deleted.
 
 Note that the **itemDeleting** event is raised only if an item is being deleted using the appropriate method of the widget or end-user interaction. If you delete an item from an observable array passed to the **dataSource** or **items** option, the widget entirely reloads the items array without raising the **itemDeleted** and **itemDeleting** events.
