@@ -12,7 +12,7 @@ The **TreeList** widget raises the [selectionChanged](/Documentation/ApiReferenc
         });
     });
 
-If you are going to change the event handler at runtime, or if you need to attach several handlers to the event, subscribe to it using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method.
+If you are going to change the event handler at runtime, or if you need to attach several handlers to the event, subscribe to it using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#oneventName_eventHandler) method.
 
     <!--JavaScript-->
     var selectionChangedEventHandler1 = function(e) {
