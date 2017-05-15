@@ -8,14 +8,14 @@
 ===================================================================
 
 <!--shortDescription-->
-Clears selection of all rows on all pages or on the currently rendered page only.
+Clears the selection of all rows on all pages or the currently rendered page only.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise of the jQuery.Deferred object resolved after selection is cleared.
+A Promise of the jQuery.Deferred object resolved after the selection is cleared.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Depending on the value of the [selectAllMode]({basewidgetpath}/Configuration/selection/#selectAllMode) option, this method clears selection of all rows on all pages or on the currently rendered pages only. If any filter is also applied, selection will be cleared of only those rows that meet filtering conditions. To clear selection regardless of the value of the **selectAllMode** option, call the [clearSelection()]({basewidgetpath}/Methods/#clearSelection) method.
+Depending on the value of the [selectAllMode]({basewidgetpath}/Configuration/selection/#selectAllMode) option, this method clears selection of all rows on all pages or on the currently rendered pages only. The selection is cleared of only those rows that meet filtering conditions if a filter is applied. To clear selection regardless of the **selectAllMode** option's value or applied filters, call the [clearSelection()]({basewidgetpath}/Methods/#clearSelection) method.
 <!--/fullDescription-->

@@ -1,4 +1,4 @@
-With the **TreeList** widget, you can sort by single and multiple columns. Use the **sorting** | [mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/sorting/#mode) option to specify the current sorting mode.
+With the **TreeList** widget, a user can sort by single and multiple columns. Use the **sorting** | [mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/sorting/#mode) option to specify the current sorting mode.
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -8,7 +8,7 @@ With the **TreeList** widget, you can sort by single and multiple columns. Use t
         });
     });
 
-In the single mode, a user selects a sort order from the context menu or clicks a column header to apply sorting. Subsequent clicks on the same header reverse the sort order. Applying sorting to another column clears the previous column's sorting settings. User actions in the multiple mode are similar to that in the single mode except that when a user selects a sort order from a column's context menu, sorting settings applied to other columns remain intact. Note that rows are sorted within their hierarchical level.
+In the single mode, a user selects a sort order from the context menu or clicks a column header to apply sorting. Subsequent clicks on the same header reverse the sort order. Applying sorting to another column clears the previous column's sorting settings. In the multiple mode, sorting settings applied to other columns remain intact when a user selects a sort order from another column's context menu. Note that rows are sorted within their hierarchical level.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/17_1/treelist/visual_elements/sorting_sorted_columns.png)
 
