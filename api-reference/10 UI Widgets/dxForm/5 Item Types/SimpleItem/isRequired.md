@@ -19,7 +19,7 @@ Specifies whether the current form item is required.
 If you specify validation rules using the [validationRules](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItemItem/#validationRules) option, the **isRequired** option is ignored. In this case, use the [Require](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/RequiredRule/) validation rule instead. 
 
     <!--JavaScript-->
-    formOptions = {
+    var formOptions = {
         // ...
         items: [
             //...

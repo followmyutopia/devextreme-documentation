@@ -21,7 +21,7 @@ There are several predefined rule types. Each rule type demands a specific set o
 If you specify validation rules, the [isRequired](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItemItem/#isRequired) option is ignored. In this case, use the [Require](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/RequiredRule/) validation rule instead. 
 
     <!--JavaScript-->
-    formOptions = {
+    var formOptions = {
         // ...
         items: [
             //...
