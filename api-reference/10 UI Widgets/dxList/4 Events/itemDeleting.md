@@ -44,3 +44,8 @@ An HTML element of the item.
 <!--typeFunctionParamDescription1_field6-->
 Specifies the index of the item. In a grouped list, the index represents an object defining group and item indexes: { group: 0, item: 0 }.
 <!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->boolean | Promise<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamDescription1_field7-->
+
+<!--/typeFunctionParamDescription1_field7-->
