@@ -77,5 +77,5 @@ Allows you to cancel the item deletion.
 
 <!--typeFunctionReturnType-->Promise<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A Promise of the jQuery Deferred object is resolved if the item deletion is confirmed and rejected if deletion is canceled.
+A Promise of the jQuery Deferred object resolved if the item deletion is confirmed and rejected if deletion is canceled.
 <!--/typeFunctionReturnDescription-->
