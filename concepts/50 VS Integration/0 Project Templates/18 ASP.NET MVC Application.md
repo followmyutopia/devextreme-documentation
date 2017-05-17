@@ -1,3 +1,1 @@
-To create an ASP.NET MVC application that involves DevExtreme widgets, use the **ASP.NET MVC 5 Application** project template. It allows you to employ [DevExtreme ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/) for configuring DevExtreme widgets.
-
-Folders in this project template have a structure [typical for an ASP.NET MVC application](https://msdn.microsoft.com/en-us/library/dd410120(v=vs.100).aspx#Anchor_3). Their standard contents are extended by scripts, libraries and stylesheets required by DevExtreme ASP.NET MVC Controls and DevExtreme itself.
+Using the **ASP.NET MVC 5 Application** and **ASP.NET Core Application** project templates, you can create an ASP.NET MVC or ASP.NET Core MVC application that involves [DevExtreme ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/). These templates are based on the standard templates extended by DevExtreme resources.
