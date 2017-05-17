@@ -59,8 +59,3 @@ The index of the to-be-deleted item.
 <!--typeFunctionParamDescription1_field7-->
 Allows you to cancel the item deletion.
 <!--/typeFunctionParamDescription1_field7-->
-
-<!--typeFunctionReturnType-->Promise<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A Promise of the jQuery Deferred object resolved if the item deletion is confirmed and rejected if deletion is canceled.
-<!--/typeFunctionReturnDescription-->
