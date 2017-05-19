@@ -13,17 +13,42 @@ Calculates custom values for column cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, column cells contain values from the [data field]({basewidgetpath}/Configuration/columns/#dataField), but you can populate them with custom values instead. For this, declare the **calculateCellValue** function that will be called each time a new row is being rendered.
+Column cells contain values from the [data field]({basewidgetpath}/Configuration/columns/#dataField) by default, but you can populate them with custom values instead. For this, declare the **calculateCellValue** function that is called each time a new row is rendered.
 
-The following restrictions are imposed on a column that contains calculated values.
+Certain features are disabled in a column with calculated values by default. The following list specifies these features and how you can enable them:
 
-- Values cannot be edited at runtime.
-- Sorting and grouping by this column are disabled by default. To enable them, set the column's [allowSorting]({basewidgetpath}/Configuration/columns/#allowSorting) and [allowGrouping]({basewidgetpath}/Configuration/columns/#allowGrouping) options to *true* explicitly.
-- Filtering and searching in this column may be performed improperly. To avoid this, implement the [calculateFilterExpression]({basewidgetpath}/Configuration/columns/#calculateFilterExpression) function.
+<div class="simple-table">
+    <table>
+        <tr>
+          <th style="width:30%">Feature</th>
+          <th>Action that enables it</th>
+        </tr>
+        <tr>
+          <td>Editing</td>
+          <td>Implement the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#setCellValue">setCellValue</a> function.</td>
+        </tr>
+        <tr>
+          <td>Sorting</td>
+          <td>Set the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowSorting">allowSorting</a> option to <i>true</i>.</td>
+        </tr>
+        <tr>
+          <td>Grouping</td>
+          <td>Set the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping">allowGrouping</a> option to <i>true</i>.</td>
+        </tr>
+        <tr>
+          <td>Filtering</td>
+          <td>Set the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering">allowFiltering</a> option to <i>true</i>.</td>
+        </tr>
+        <tr>
+          <td>Searching</td>
+          <td>Set the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowSearch">allowSearch</a> option to <i>true</i>.</td>
+        </tr>
+    </table>
+</div>
 
 [note]
 
-To invoke the default behavior, call the **this.defaultCalculateCellValue(rowData)** function and return its result.
+Call the **this.defaultCalculateCellValue(rowData)** function and return its result to invoke the default behavior.
 
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
@@ -45,10 +70,10 @@ To invoke the default behavior, call the **this.defaultCalculateCellValue(rowDat
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The data of the row to which the cell belongs.
+Data of the row to which the cell belongs.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->any<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A custom value for the cell.
+A cell's custom value.
 <!--/typeFunctionReturnDescription-->

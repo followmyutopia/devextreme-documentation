@@ -9,13 +9,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Calculates filters when the column contains customary data.
+Specifies custom filtering rules for the column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When you use the [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue) function to populate the column with data, implement the **calculateFilterExpression** function as well. This ensures proper filtering and search in this column.
-
-This function must return a filter expression, which is an array of the following format.
+This function must return a filter expression, which is an array of the following format:
 
     [selector, selectedFilterOperation, filterValue]
 
@@ -24,32 +22,28 @@ A data source field or a function providing actual values for the column. If you
 - **selectedFilterOperation**       
 A comparison operator. One of the following: *"=", "<>", ">", ">=", "<", "<=", "between", "startswith", "endswith", "contains", "notcontains"*.    
 - **filterValue**        
-A user input value. Values provided by the **selector** will be compared to this value.
+A user input value. Values provided by the **selector** are compared to this value.
 
-The following code snippet provides a typical implementation of the **calculateFilterExpression** function.
+The following code snippet shows the default implementation of the **calculateFilterExpression** function. Adapt it according to your needs.
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             // ...
             columns: [{
-                calculateCellValue: function (rowData) {
-                    return rowData.Amount * rowData.Cost;
-                },
                 calculateFilterExpression: function (filterValue, selectedFilterOperation) {
-                    // Implementation for the 'between' comparison operator
-                    /* if(selectedFilterOperation === "between" && $.isArray(filterValue)) {
+                    // Implementation for the "between" comparison operator
+                    if (selectedFilterOperation === "between" && $.isArray(filterValue)) {
                         var filterExpression = [
                             [this.calculateCellValue, ">=", filterValue[0]], 
                             "and", 
                             [this.calculateCellValue, "<=", filterValue[1]]
                         ];
                         return filterExpression;
-                    } */
+                    }
                     return [this.calculateCellValue, selectedFilterOperation || '=', filterValue];
                 },
                 // ...
-            }, //...
-            ]
+            }]
         });
     });
 
@@ -59,7 +53,7 @@ As you can see from the previous code, the filter expression for the *"between"*
 
 [note]
 
-To invoke the default behavior, call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOperation)** function and return its result.
+Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOperation)** function and return its result to invoke the default behavior.
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
