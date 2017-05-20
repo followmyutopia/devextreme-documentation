@@ -16,7 +16,10 @@ dataSource:
       id:4, parentId: 1, fullName:"Robert Reagan", position:"CMO", email:"robertr@dx-email.com"
     }, {
       id:5, parentId: 2, fullName:"Greta Sims", position:"HR Manager", email:"gretas@dx-email.com"
-}]
+}],
+autoExpandAll: true,
+showRowLines: true,
+columns: ["position", "fullName", "email"]
 <!--/widgettree-->
 ===========================================================================
 <!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tree_list">ui/tree_list</a><!--/module-->
