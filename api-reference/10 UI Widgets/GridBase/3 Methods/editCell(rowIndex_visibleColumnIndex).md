@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Switches a specific cell into the editing state. The cell is found by the row index and column index.
+Switches a specific cell into the editing state. The cell is found by the row index and column index. Takes effect only if the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *'batch'* or *'cell'*.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->

@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Switches a specific row into the editing state.
+Switches a specific row into the editing state. Takes effect only if the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *'row'*, *'popup'* or *'form'*.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->

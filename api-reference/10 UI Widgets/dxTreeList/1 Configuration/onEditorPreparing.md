@@ -38,7 +38,7 @@ Many **TreeList** elements are based on editors. For example, the search panel i
         });
     });
 
-If you use a third-party editor, cancel creation of the default editor and then implement your own one. To notify the **TreeList** of  the changed value, call the **setValue(newValue)** method in the **onEditorPrepared** handler.
+If you use a third-party editor, cancel creation of the default editor and then implement your own one. To notify the **TreeList** of  the changed value, call the **setValue(newValue)** method in the **onEditorPreparing** handler.
 
     <!--JavaScript-->
     $(function() {
