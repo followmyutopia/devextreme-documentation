@@ -3,32 +3,32 @@ When a user pauses on a series, the series changes its style to the one specifie
 - **series** | [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/hoverStyle/)        
 The hover style for an individual series.
 
-- **commonSeriesSettings** | **%seriesType%** | **hoverStyle**        		
+- **commonSeriesSettings** | **%seriesType%** | **hoverStyle**                
 The hover style for all series of a specific type ([line](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#line), [bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#bar), etc.).
 
-- **commonSeriesSettings** | [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/hoverStyle/) 		
+- **commonSeriesSettings** | [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/hoverStyle/)         
 The hover style for all series in the **Chart**.
 
 Note that individual settings override type-specific settings which, in turn, override common settings.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			series: {
+            // ...
+            series: {
                 hoverStyle: {
                     // high priority
                 }
-			},
-			bar: {
-                hoverStyle: {
-                    // middle priority
-                }
-			},
-			commonSeriesSettings: {
+            },
+            commonSeriesSettings: {
+                bar: {
+                    hoverStyle: {
+                        // middle priority
+                    }
+                },
                 hoverStyle: {
                     // low priority
                 }
-			}
+            }
         });
     });
 
@@ -36,12 +36,14 @@ To choose which series elements should be highlighted when a user pauses on a se
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			bar: {
-                hoverMode: 'allSeriesPoints' // or 'onlyPoint' | 'allArgumentPoints' | 'none'
-			},
-            line: {
-                hoverMode: 'includePoints' // or 'nearestPoint' | 'excludePoints' | 'none'
+            // ...
+            commonSeriesSettings: {
+                bar: {
+                    hoverMode: 'allSeriesPoints' // or 'onlyPoint' | 'allArgumentPoints' | 'none'
+                },
+                line: {
+                    hoverMode: 'includePoints' // or 'nearestPoint' | 'excludePoints' | 'none'
+                }
             }
         });
     });

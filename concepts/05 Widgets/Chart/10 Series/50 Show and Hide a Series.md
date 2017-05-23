@@ -2,8 +2,8 @@ The **Chart** provides an API for showing and hiding a series at runtime. The mo
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			onLegendClick: function (e) {
+            // ...
+            onLegendClick: function (e) {
                 var series = e.target;
                 if (series.isVisible()) {
                     series.hide();
@@ -18,8 +18,8 @@ A series can be hidden initially. For this, assign *false* to the [visible](/Doc
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			series: [{
+            // ...
+            series: [{
                 // ...
                 visible: false
             }, {

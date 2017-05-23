@@ -1,9 +1,9 @@
 When a tooltip becomes shown or hidden, the **Chart** fires the [tooltipShown](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#tooltipShown) or [tooltipHidden](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#tooltipHidden) event that you can handle with a function. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onTooltipShown](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onTooltipShown) or [onTooltipHidden](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onTooltipHidden) option respectively, when you configure the widget.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			onTooltipShown: function (e) {
+            // ...
+            onTooltipShown: function (e) {
                 var point = e.target;
                 // Handler of the "tooltipShown" event
             },

@@ -6,8 +6,8 @@ To configure the appearance, location, and content of the legend, use options co
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			legend: {
+            // ...
+            legend: {
                 // ...
             }
         });

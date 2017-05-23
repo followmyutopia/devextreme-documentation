@@ -6,8 +6,8 @@ To enable both export and printing, assign *true* to the [export](/Documentation
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			export: {
+            // ...
+            export: {
                 enabled: true,
                 printingEnabled: false
             }
@@ -18,8 +18,8 @@ If you want to restrict the set of formats available for export, change the **ex
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			export: {
+            // ...
+            export: {
                 enabled: true,
                 formats: ["PNG", "JPEG"],
                 fileName: "exported_chart"

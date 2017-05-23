@@ -2,8 +2,8 @@ The selection capability is not provided out of the box, but it can be implement
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-		    onPointClick: function (e) {
+            // ...
+            onPointClick: function (e) {
                 var point = e.target;
                 if (point.isSelected()) {
                     point.clearSelection();
@@ -18,8 +18,8 @@ In the previous code example, selection was cleared of a specific point. If you 
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			onPointClick: function (e) {
+            // ...
+            onPointClick: function (e) {
                 var series = e.target.series;
                 if (series.isSelected()) {
                     series.clearSelection();

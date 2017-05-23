@@ -7,8 +7,8 @@ To rotate the **Chart**, set the [rotated](/Documentation/ApiReference/Data_Visu
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			rotated: true
+            // ...
+            rotated: true
         });
     });
 
@@ -22,8 +22,8 @@ To invert both argument and value axes, assign *true* to the [inverted](/Documen
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			commonAxisSettings: {
+            // ...
+            commonAxisSettings: {
                 inverted: true
             },
             // or for a specific axis

@@ -1,9 +1,9 @@
 When a user selects a series point, the **Chart** fires the [pointSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointSelectionChanged) event that you can handle with a function. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onPointSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onPointSelectionChanged) option when you configure the widget. To check whether a point was selected or the selection was cleared, call the [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/Methods/#isSelected) method of the point.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			onPointSelectionChanged: function (e) {
+            // ...
+            onPointSelectionChanged: function (e) {
                 var point = e.target;
                 if (point.isSelected()) {
                     // Commands to execute when the point is selected

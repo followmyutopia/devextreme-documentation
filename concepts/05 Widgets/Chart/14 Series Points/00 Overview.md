@@ -4,26 +4,26 @@ A series point is a visual representation of a data object. Series points come i
 
 For those series whose points are simple dots ([Line-](/Documentation/Guide/Widgets/Chart/Series_Types/#Line) and [Area-like](/Documentation/Guide/Widgets/Chart/Series_Types/#Area), [Scatter](/Documentation/Guide/Widgets/Chart/Series_Types/#Scatter) and [Range Area](/Documentation/Guide/Widgets/Chart/Series_Types/#Range_Area) series), all point-related settings are collected in the [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/point/) object. This object can be declared as follows.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			series: [{
+            // ...
+            series: [{
                 point: {
                     // Settings for all points of an individual series
                 }
-			}, {
+            }, {
                 // ...  
             }],
-			stackedline: { // or any other series type
-                point: {
-                    // Settings for all points belonging to Stacked Line series
-                }
-			},
-			commonSeriesSettings: {
+            commonSeriesSettings: {
+                stackedline: { // or any other series type
+                    point: {
+                        // Settings for all points belonging to Stacked Line series
+                    }
+                },
                 point: {
                     // Settings for all points of all series
                 }
-			}
+            }
         });
     });
 
@@ -33,19 +33,19 @@ For those series whose points have distinctive appearance ([Bar-like](/Documenta
 
 Settings specified in the manner described above apply to a congregation of series points. If you need to customize an individual point, assign a function to the [customizePoint](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#customizePoint) option. This function must return an object with options for the point that you want to customize.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			series: {
+            // ...
+            series: {
                 point: {
                     color: 'blue'
                 }
-			},
-			// Assigns the red color to all series points with value more than 100
-			// Other series points remain painted in blue
-			customizePoint: function (pointInfo) {
-				return pointInfo.value > 100 ? { color: 'red' } : { }
-			}
+            },
+            // Assigns the red color to all series points with value more than 100
+            // Other series points remain painted in blue
+            customizePoint: function (pointInfo) {
+                return pointInfo.value > 100 ? { color: 'red' } : { }
+            }
         });
     });
 

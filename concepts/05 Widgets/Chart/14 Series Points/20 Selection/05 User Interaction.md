@@ -5,38 +5,38 @@ When a user selects a series point, it changes its style to the one specified by
 - **series** | **point** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/point/selectionStyle/)        
 The selection style for all points of an individual series.
 
-- **commonSeriesSettings** | **%seriesType%** | **point** | **selectionStyle**        		
+- **commonSeriesSettings** | **%seriesType%** | **point** | **selectionStyle**                
 The selection style for all points belonging to a series of a specific type ([line](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#line), [area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#area), etc.).
 
-- **commonSeriesSettings** | **point** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/selectionStyle/) 		
+- **commonSeriesSettings** | **point** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/selectionStyle/)         
 The selection style for all series points in the **Chart**.
 
 Note that individual settings override type-specific settings which, in turn, override common settings.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			series: {
+            // ...
+            series: {
                 point: {
                     selectionStyle: {
                         // high priority
                     }
                 }
-			},
-			area: {
-                point: {
-                    selectionStyle: {
-                        // middle priority
+            },
+            commonSeriesSettings: {
+                area: {
+                    point: {
+                        selectionStyle: {
+                            // middle priority
+                        }
                     }
-                }
-			},
-			commonSeriesSettings: {
+                },
                 point: {
                     selectionStyle: {
                         // low priority
                     }
                 }
-			}
+            }
         });
     });
 
@@ -44,7 +44,7 @@ To choose which elements should be highlighted when a user selects a point, spec
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             commonSeriesSettings: {
                 point: {
                     selectionMode: 'allArgumentPoints' // or 'onlyPoint' | 'allSeriesPoints' | 'none'
@@ -59,8 +59,8 @@ By default, only a single point can be in the selected state at a time. If you n
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			pointSelectionMode: 'multiple' // or 'single'
+            // ...
+            pointSelectionMode: 'multiple' // or 'single'
         });
     });
 

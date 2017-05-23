@@ -2,8 +2,8 @@ The selection capability is not provided out of the box, but it can be implement
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			onSeriesClick: function (e) {
+            // ...
+            onSeriesClick: function (e) {
                 var series = e.target;
                 if (series.isSelected()) {
                     series.clearSelection();
@@ -18,7 +18,7 @@ There are series that consist of points only, for example, [_bar_](/Documentatio
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             onPointClick: function (e) {
                 var series = e.target.series;
                 if (series.isSelected()) {

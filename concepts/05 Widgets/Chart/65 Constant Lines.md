@@ -4,61 +4,61 @@ A constant line is a straght line that extends over the entire **Chart** and ind
 
 To configure the constant lines, declare the [constantLines](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/) array in the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/) or [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) object. This array should contain objects, and each one of them configures a single constant line. A constant line demands at least the [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/#value) option to be set. 
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			argumentAxis: {
-				constantLines: [
-					{ value: 100 },
-					{ value: 50 }
-				]
-			},
+            // ...
+            argumentAxis: {
+                constantLines: [
+                    { value: 100 },
+                    { value: 50 }
+                ]
+            },
             valueAxis: {
-				constantLines: [
-					{ value: 40 },
-					{ value: 70 }
-				]
-			}
+                constantLines: [
+                    { value: 40 },
+                    { value: 70 }
+                ]
+            }
         });
     });
 
 If several constant lines should have a uniform style, you can specify it using one of the following objects.
 
-- **argumentAxis** | [constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLineStyle/) 		
+- **argumentAxis** | [constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLineStyle/)         
 Style for constant lines belonging to the argument axis.
 
-- **valueAxis** | [constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLineStyle/) 		
+- **valueAxis** | [constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLineStyle/)         
 Style for constant lines belonging to the value axis.
 
-- **commonAxisSettings** | [constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/constantLineStyle/) 		
+- **commonAxisSettings** | [constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/constantLineStyle/)         
 Style for all constant lines in the **Chart**.
 
 Note that individual settings override axis-specific settings which, in turn, override common settings.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			argumentAxis: {
-				constantLines: [
-					// high priority
-				],
-				constantLineStyle: {
-					// middle priority
-				}
-			},
+            // ...
+            argumentAxis: {
+                constantLines: [
+                    // high priority
+                ],
+                constantLineStyle: {
+                    // middle priority
+                }
+            },
             valueAxis: {
-				constantLines: [
-					// high priority
-				],
-				constantLineStyle: {
-					// middle priority
-				}
-			},
-			commonAxisSettings: {
-				constantLineStyle: {
-					// low priority
-				}
-			}
+                constantLines: [
+                    // high priority
+                ],
+                constantLineStyle: {
+                    // middle priority
+                }
+            },
+            commonAxisSettings: {
+                constantLineStyle: {
+                    // low priority
+                }
+            }
         });
     });
 

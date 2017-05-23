@@ -2,7 +2,7 @@ A continuous axis indicates numeric or date-time values. If you know the range o
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             argumentAxis: { // or valueAxis
                 tickInterval: 10,
                 minorTickInterval: 2,
@@ -26,7 +26,7 @@ Without knowing the range of values on the axis, you can arrange major ticks by 
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             argumentAxis: { // or valueAxis
                 axisDivisionFactor: 20,
                 minorTickCount: 4,

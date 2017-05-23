@@ -2,8 +2,8 @@ In multi-series charts, point labels often overlap. To decide how to resolve ove
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			resolveLabelOverlapping: 'stack' // or 'hide' | 'none'
+            // ...
+            resolveLabelOverlapping: 'stack' // or 'hide' | 'none'
         });
     });
 
@@ -11,8 +11,8 @@ Another way to deal with overlapping labels is to hide all labels of a specific 
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			series: [{
+            // ...
+            series: [{
                 // ...
                 maxLabelCount: 10
             }, {

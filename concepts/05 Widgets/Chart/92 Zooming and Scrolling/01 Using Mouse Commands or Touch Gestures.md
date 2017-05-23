@@ -6,7 +6,7 @@ Zooming and scrolling are configured separately as well as their support for mou
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             zoomingMode: "all",  // or "touch" | "mouse" | "none"
             scrollingMode: "all" // or "touch" | "mouse" | "none"
         });

@@ -13,7 +13,7 @@ To bind the **Chart** to an array, pass this array to the [dataSource](/Document
             dataSource: fruits,
             series: {
                 // See details in the "Bind Series to Data" topic
-            	argumentField: 'fruit',
+                argumentField: 'fruit',
                 valueField: 'count'
             }
         });
@@ -36,7 +36,7 @@ If objects in an array need to be processed (sorted, filtered, etc.), you can cr
     $(function() {
         $("#chartContainer").dxChart({
             dataSource: DevExpress.data.query(fruits)
-        				    .sortBy("count", true)
+                            .sortBy("count", true)
                             .toArray(),
             series: {
                 // See details in the "Bind Series to Data" topic

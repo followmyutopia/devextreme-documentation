@@ -4,10 +4,10 @@ A pane is a chart area containing series. If there are many series in the **Char
 
 Panes are configured by the [panes](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/) option. For a single-pane chart, this option accepts an object that configures the [background color](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#backgroundColor) and the [border](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/border/) of the pane.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			panes: {
+            // ...
+            panes: {
                 backgroundColor: 'yellow',
                 border: {
                     visible: true,

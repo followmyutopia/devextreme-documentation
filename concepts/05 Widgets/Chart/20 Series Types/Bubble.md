@@ -4,7 +4,7 @@ When you use the *bubble* series type, the series points are displayed as bubble
 
 To use the *bubble* series type, set *'bubble'* to the **type** option of the series configuration object.
 
-	<!--JavaScript-->var chartOptions = {
+    <!--JavaScript-->var chartOptions = {
         // ...
         series: {
             type: 'bubble'
@@ -17,13 +17,13 @@ To learn how to specify data for a series, refer to the [Data Binding](/Document
 
 To change the series default appearance, set the options of the **series** configuration object. For instance, you can change the following.
 
-* **Bubble Color**	
+* **Bubble Color**    
 A color from the chart [palette](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes) is used by default. Set a custom color using the series' [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/#color) option. In addition, you can change the color of a bubble when it is hovered or selected using the **color** option of the [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/hoverStyle/) or [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/selectionStyle/) object, respectively.
 
-* **Bubble Opacity**	
+* **Bubble Opacity**    
 Specify the opacity of a bubble using the [opacity](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/#opacity) option.
 
-* **Bubble Label Options**	
+* **Bubble Label Options**    
 Make bubble labels visible by setting the **visible** option of the series' [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/label/) object to *true*. For details on other label options, refer to the [Series Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Overview/) topic.
 
 These and other options that can be set for series of the *bubble* type are explained in the [BubbleSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/) Reference section. Set the required series options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) object of the chart configuration object.

@@ -1,9 +1,9 @@
 When a user pauses on a series, the **Chart** fires the [seriesHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesHoverChanged) event that you can handle with a function. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onSeriesHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onSeriesHoverChanged) option when you configure the widget. To check whether the pointer entered or left a series, call the [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isHovered) method in the series.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			onSeriesHoverChanged: function (e) {
+            // ...
+            onSeriesHoverChanged: function (e) {
                 var series = e.target;
                 if (series.isHovered()) {
                     // Commands to execute when the series is hovered over

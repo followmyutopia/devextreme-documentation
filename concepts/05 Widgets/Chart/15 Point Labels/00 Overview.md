@@ -6,24 +6,24 @@ To configure point labels, use the fields of the [label](/Documentation/ApiRefer
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			series: [{
+            // ...
+            series: [{
                 label: {
                     // Settings for all point labels of an individual series
                 }
-			}, {
+            }, {
                 // ...  
             }],
-			stackedline: { // or any other series type
+            stackedline: { // or any other series type
                 label: {
                     // Settings for all point labels belonging to Stacked Line series
                 }
-			},
-			commonSeriesSettings: {
+            },
+            commonSeriesSettings: {
                 label: {
                     // Settings for all point labels in the Chart
                 }
-			}
+            }
         });
     });
 
@@ -31,15 +31,15 @@ Point labels are not visible by default. To make them visible, assign *true* to 
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			series: {
+            // ...
+            series: {
                 label: {
                     visible: true,
                     connector: {
                         visible: true
                     }
                 }
-			}
+            }
         });
     });
 

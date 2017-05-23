@@ -11,10 +11,10 @@ Declare several objects in the [valueAxis](/Documentation/ApiReference/Data_Visu
             $("#chartContainer").dxChart({
                 // ...
                 valueAxis: [{
-					name: 'absoluteAxis'
-				}, {
-					name: 'percentageAxis'
-				}]
+                    name: 'absoluteAxis'
+                }, {
+                    name: 'percentageAxis'
+                }]
             });
         });
 
@@ -36,17 +36,17 @@ Bind each series to a value axis using the [axis](/Documentation/ApiReference/Da
 
 All value axes in the **Chart** are synchronized by default, but you can explicitly specify the value at which one axis should be synchronized with others. For this purpose, set the [synchronizedValue](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#synchronizedValue) option. In addition, you can add more space between two side-by-side axes using the [multipleAxesSpacing](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#multipleAxesSpacing) option.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
             valueAxis: [{
-				name: 'absoluteAxis',
-				synchronizedValue: 0
-			}, {
-				name: 'percentageAxis',
-				synchronizedValue: 0,
-				multipleAxesSpacing: 10
-			}]
+                name: 'absoluteAxis',
+                synchronizedValue: 0
+            }, {
+                name: 'percentageAxis',
+                synchronizedValue: 0,
+                multipleAxesSpacing: 10
+            }]
         });
     });
 

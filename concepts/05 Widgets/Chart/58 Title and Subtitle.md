@@ -6,8 +6,8 @@ The title is configured by the [title](/Documentation/ApiReference/Data_Visualiz
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			title: {
+            // ...
+            title: {
                 text: "I am the Title",
                 subtitle: {
                     text: "I am the Subtitle"
@@ -20,8 +20,8 @@ You can set the title's text more concisely by assigning it directly to the **ti
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			title: "I am the Title"
+            // ...
+            title: "I am the Title"
         });
     });
 

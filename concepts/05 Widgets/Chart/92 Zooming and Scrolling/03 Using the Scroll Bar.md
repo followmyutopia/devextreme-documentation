@@ -4,10 +4,10 @@ The scrollbar is a chart element used for scrolling.
 
 You can configure the scrollbar using the [scrollBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/) object. To display the scrollbar, set the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/#visible) option of this object to *true*, but before doing this, make sure to enable [scrolling](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode) and [zooming](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) in the **Chart**. Otherwise, the scrollbar will be inoperative.
 
-	<!--JavaScript-->
+    <!--JavaScript-->
     $(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             zoomingMode: "all",
             scrollingMode: "all",
             scrollBar: {

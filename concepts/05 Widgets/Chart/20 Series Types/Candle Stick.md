@@ -4,7 +4,7 @@ The *candleStick* series type is used to show the variation in the price of stoc
 
 To use the *candleStick* series type, assign *'candlestick'* to the **type** property of the **series** configuration object.
 
-	<!--JavaScript-->var chartOptions = {
+    <!--JavaScript-->var chartOptions = {
         // ...
         series: {
             type: 'candlestick'

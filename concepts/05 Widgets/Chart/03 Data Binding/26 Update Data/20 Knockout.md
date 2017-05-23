@@ -3,9 +3,9 @@
 Declare the array [observable](http://knockoutjs.com/documentation/observableArrays.html) and bind the **dataSource** option to it. Whenever an item is added or removed from this array, the **Chart** will be updated accordingly.
 
     <!--HTML--><div id="chartContainer" data-bind="dxChart: {
-		dataSource: fruits,
-		...
-	}"></div>
+        dataSource: fruits,
+        ...
+    }"></div>
 
 <!---->
 

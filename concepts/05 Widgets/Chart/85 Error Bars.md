@@ -6,7 +6,7 @@ Error bars can be generated either from concrete or calculated values. To genera
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             dataSource: [
                 { arg: 1, val: 200, highError: 5, lowError: 3 },
                 // ...
@@ -25,7 +25,7 @@ Alternatively, error bar values can be calculated according to an algorithm. In 
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             series: {
                 // ...
                 valueErrorBar: {
@@ -46,24 +46,24 @@ Settings for all error bars in the **Chart**.
 
 Note that settings for individual series override type-specific settings which, in turn, override common settings.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             series: {
-				valueErrorBar: {
-					// high priority
+                valueErrorBar: {
+                    // high priority
                 }
-			},
-			commonSeriesSettings: {
+            },
+            commonSeriesSettings: {
                 line: {
                     valueErrorBar: {
                         // middle priority
                     }
                 },
-				valueErrorBar: {
-					// low priority
-				}
-			}
+                valueErrorBar: {
+                    // low priority
+                }
+            }
         });
     });
 

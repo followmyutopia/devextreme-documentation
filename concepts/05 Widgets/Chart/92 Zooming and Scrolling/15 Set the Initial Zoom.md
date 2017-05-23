@@ -3,7 +3,7 @@ To zoom a standalone **Chart** initially, call its [zoomArgument(startValue, end
     <!--JavaScript-->
     $(function() {
         var chart = $("#chartContainer").dxChart({
-			// ...
+            // ...
         }).dxChart("instance");
 
         chart.zoomArgument(300, 500)

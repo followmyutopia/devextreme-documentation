@@ -22,7 +22,7 @@ If you want to extend the functionality of a JavaScript array, place it into an 
             }),
             series: {
                 // See details in the "Bind Series to Data" topic
-            	argumentField: 'fruit',
+                argumentField: 'fruit',
                 valueField: 'count'
             }
         });
@@ -43,9 +43,9 @@ As you may notice, in the previous code, the **ArrayStore** is not declared expl
             dataSource: new DevExpress.data.DataSource({
                 store: fruits,
                 map: function(item) {
-                	var fruitName = Object.keys(item)[0];
-                	return {
-                  	    fruit: fruitName.charAt(0).toUpperCase() + fruitName.slice(1),
+                    var fruitName = Object.keys(item)[0];
+                    return {
+                        fruit: fruitName.charAt(0).toUpperCase() + fruitName.slice(1),
                         count: item[fruitName]
                     }
                 },
@@ -53,7 +53,7 @@ As you may notice, in the previous code, the **ArrayStore** is not declared expl
             }),
             series: {
                 // See details in the "Bind Series to Data" topic
-            	argumentField: 'fruit',
+                argumentField: 'fruit',
                 valueField: 'count'
             }
         });

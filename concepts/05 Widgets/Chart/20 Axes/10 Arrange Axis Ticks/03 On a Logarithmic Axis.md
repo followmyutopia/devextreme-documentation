@@ -2,7 +2,7 @@ A logarithmic axis indicates numeric values; each of them is the [logarithmBase]
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             argumentAxis: { // or valueAxis
                 type: 'logarithmic'
                 tickInterval: 2,
@@ -15,7 +15,7 @@ As an alternative to **tickInterval**, you can use the [axisDivisionFactor](/Doc
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             argumentAxis: { // or valueAxis
                 type: 'logarithmic'
                 axisDivisionFactor: 20,

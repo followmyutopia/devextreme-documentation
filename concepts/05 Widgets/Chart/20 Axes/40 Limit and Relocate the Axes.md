@@ -2,7 +2,7 @@ The visual range of arguments/values on an axis should include all arguments/val
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             argumentAxis: { // or valueAxis
                 min: 1950,
                 max: 2000,
@@ -15,7 +15,7 @@ Axes can be relocated to their opposite side using the [position](/Documentation
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             argumentAxis: {
                 position: 'top'
             },

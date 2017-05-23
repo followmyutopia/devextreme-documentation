@@ -2,7 +2,7 @@ With the ever-growing variety of platforms, today's web sites and applications c
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             adaptiveLayout: {
                 height: 300,
                 width: 400

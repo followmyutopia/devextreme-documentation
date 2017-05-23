@@ -4,33 +4,33 @@ If you need to change the text displayed by point labels, declare the [customize
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			series: {
+            // ...
+            series: {
                 label: {
                     visible: true,
                     customizeText: function (pointInfo) {
                         return pointInfo.argument + ': ' + pointInfo.value;
                     }
                 }
-			}
+            }
         });
     });
 
 You can also customize an individual label. For this purpose, assign a function to the [customizeLabel](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#customizeLabel) option. This function must return an object with options for the label that you want to customize. Note that the **customizeLabel** option should be declared at the root level of the **Chart** configuration.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			series: {
+            // ...
+            series: {
                 label: {
                     backgroundColor: 'blue'
                 }
-			},
-			// Assigns the red color to all labels whose series points have value more than 100
-			// Other labels remain painted in blue
-			customizeLabel: function (pointInfo) {
-				return pointInfo.value > 100 ? { backgroundColor: 'red' } : { }
-			}
+            },
+            // Assigns the red color to all labels whose series points have value more than 100
+            // Other labels remain painted in blue
+            customizeLabel: function (pointInfo) {
+                return pointInfo.value > 100 ? { backgroundColor: 'red' } : { }
+            }
         });
     });
 

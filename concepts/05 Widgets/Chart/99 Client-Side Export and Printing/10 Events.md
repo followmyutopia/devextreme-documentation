@@ -13,8 +13,8 @@ You can handle these events with functions. If the handling functions are not go
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			onExporting: function (e) {
+            // ...
+            onExporting: function (e) {
                 // Handler of the "exporting" event
             },
             onExported: function (e) {

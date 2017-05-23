@@ -1,9 +1,9 @@
 When a user selects a series, the **Chart** fires the [seriesSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesSelectionChanged) event that you can handle with a function. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onSeriesSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onSeriesSelectionChanged) option when you configure the widget. To check whether a series was selected or the selection was cleared, call the [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isSelected) method of the series.
 
-	<!--JavaScript-->$(function() {
+    <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			onSeriesSelectionChanged: function (e) {
+            // ...
+            onSeriesSelectionChanged: function (e) {
                 var series = e.target;
                 if (series.isSelected()) {
                     // Commands to execute when the series is selected

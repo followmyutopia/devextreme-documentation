@@ -6,7 +6,7 @@ To configure major or minor ticks, use the [tick](/Documentation/ApiReference/Da
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             argumentAxis: { // or valueAxis, or commonAxisSettings
                 tick: { visible: true },
                 minorTick: { visible: true }

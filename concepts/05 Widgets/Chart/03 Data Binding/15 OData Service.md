@@ -11,7 +11,7 @@ To bind the **Chart** to data provided by an OData service, use the [ODataStore]
                 paginate: false
             }),
             commonSeriesSettings: {
-            	argumentField: 'Name',
+                argumentField: 'Name',
                 type: 'bar'
             },
             series: [

@@ -2,9 +2,9 @@ Each series point allows you to show or hide its tooltip programmatically. For t
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             // Shows the tooltip only when a user clicks a series point
-			onPointClick: function (e) {
+            onPointClick: function (e) {
                 var point = e.target;
                 point.showTooltip();
             },

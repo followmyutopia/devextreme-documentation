@@ -2,8 +2,8 @@ The legend can be moved inside the chart using the [position](/Documentation/Api
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			legend: {
+            // ...
+            legend: {
                 position: "inside", // or "outside"
                 horizontalAlignment: "center", // or "left" | "right"
                 verticalAlignment: "top" // or "bottom"

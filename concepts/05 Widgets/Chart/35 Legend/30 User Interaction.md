@@ -2,8 +2,8 @@ A user can interact with the legend by pausing on legend items. When a user does
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			legend: {
+            // ...
+            legend: {
                 hoverMode: "none"
             }
         });
@@ -13,8 +13,8 @@ Series that consist of several elements rather than just series points ([Line-](
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			legend: {
+            // ...
+            legend: {
                 hoverMode: "excludePoints"
             }
         });
@@ -28,8 +28,8 @@ In addition, a user can click legend items. By default, the widget does not reac
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
-			onLegendClick: function (e) {
+            // ...
+            onLegendClick: function (e) {
                 var series = e.target;
                 // Event handling commands go here
             }

@@ -9,7 +9,7 @@ To bind a series to data directly, specify which data source field provides argu
         $("#chartContainer").dxChart({
             dataSource: fruitProduction,
             series: {
-            	argumentField: 'fruit',
+                argumentField: 'fruit',
                 valueField: 'year2014',
                 name: '2014'
             }

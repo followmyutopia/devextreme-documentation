@@ -2,7 +2,7 @@ Values on a discrete axis are called ["categories"](/Documentation/ApiReference/
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
-			// ...
+            // ...
             argumentAxis: { // or valueAxis
                 tick: { visible: true },
                 discreteAxisDivisionMode: 'crossLabels' // or 'betweenLabels'
