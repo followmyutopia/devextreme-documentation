@@ -24,6 +24,7 @@ Each cell in the filter row contains a magnifying glass icon, pausing on which o
 To make the filter row visible, assign *true* to the **filterRow** | [visible]({basewidgetpath}/Configuration/filterRow/#visible) option.
 
 #####See Also#####
+- [Filter Row](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Filter_Row)
 - [expandNodesOnFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#expandNodesOnFiltering)
 - [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
 - [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)

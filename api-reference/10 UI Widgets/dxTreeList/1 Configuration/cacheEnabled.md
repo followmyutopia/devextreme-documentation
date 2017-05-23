@@ -19,6 +19,7 @@ When this option is set to *true*, data loaded once is saved in cache. Then, the
 To update data in cache, call the [refresh()]({basewidgetpath}/Methods/#refresh) method of the widget or the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method of the **DataSource**.
 
 #####See Also#####
+- [Data Caching](/Documentation/Guide/Widgets/TreeList/Data_Binding/Data_Caching/)
 - [getDataSource()]({basewidgetpath}/Methods/#getDataSource)
 <!--/fullDescription-->
 

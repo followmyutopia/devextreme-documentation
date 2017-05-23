@@ -52,6 +52,8 @@ If your data has a hierarchical structure where each data item contains nested i
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/LocalDataHierarchicalStructure/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
+- [Use Plain Data](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Plain_Data/)
+- [Use Hierarchical Data](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Hierarchical_Data/)
 - [parentIdExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#itemsExpr)
 - [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr)
 - [rootValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#rootValue)

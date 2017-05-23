@@ -22,6 +22,9 @@ To apply sorting to a column, a user clicks its header or selects a command from
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/17_1/treelist/visual_elements/sorting_context_menu.png)
 
 Note that rows are sorted within their hierarchical level.
+
+#####See Also#####
+- [Sorting](/Documentation/Guide/Widgets/TreeList/Sorting/)
 <!--/fullDescription-->
 
 <!--handmade-->

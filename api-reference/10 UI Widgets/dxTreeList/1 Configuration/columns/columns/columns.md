@@ -77,6 +77,7 @@ Band columns support hierarchies of any nesting level. It means that the followi
     });
 
 Band columns have the [isBand](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#isBand) flag. Banded columns have the [ownerBand](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#ownerBand) option set. Use these options to distinguish band and banded columns from regular ones in code.
+
 <!--/fullDescription-->
 
 <!--handmade-->

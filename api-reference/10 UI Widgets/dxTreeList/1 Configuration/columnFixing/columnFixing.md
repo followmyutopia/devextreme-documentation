@@ -18,6 +18,9 @@ When the width of all columns exceeds the widget width, horizontal scrolling app
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList ColumnFixing](/Content/images/doc/17_1/treelist/visual_elements/column_fixing.png)
 
 When you enable column fixing, [command columns](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/) become fixed automatically. 
+
+#####See Also#####
+- [Column Fixing](/Documentation/Guide/Widgets/TreeList/Columns/Column_Fixing/)
 <!--/fullDescription-->
 
 <!--handmade-->
