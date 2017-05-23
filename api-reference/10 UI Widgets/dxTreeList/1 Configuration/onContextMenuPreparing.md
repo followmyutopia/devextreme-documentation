@@ -23,7 +23,12 @@ This handler allows you to customize the context menu.
             // ... 
             onContextMenuPreparing: function(e) { 
                 if (e.target == "header" && e.columnIndex == 0) {
-                    e.items.push({ disabled: true, text: 'customText' });
+                    e.items.push({
+                        text: "Item Text",
+                        onItemClick: function() {
+                            // ...
+                        }
+                    });
                 } 
             }
         });
