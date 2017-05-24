@@ -16,7 +16,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
                 protected override ValidationResult IsValid(object value, ValidationContext validationContext)
                 {
                     DateTime dateToCheck = (DateTime)value;
-                    if(dateToCheck <= DateTime.Now.AddYears(-18)) {
+                    if(dateToCheck <= DateTime.Now.AddYears(-21)) {
                         return ValidationResult.Success;
                     }
                     return new ValidationResult(this.FormatErrorMessage(validationContext.DisplayName));
@@ -49,7 +49,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
                 End Sub
                 Protected Overrides Function IsValid(value As Object, validationContext As ValidationContext) As ValidationResult
                     Dim DateToCheck As Date = CType(value, Date)
-                    If DateToCheck <= Now.AddYears(-18) Then
+                    If DateToCheck <= Now.AddYears(-21) Then
                         Return ValidationResult.Success
                     End If
                     Return New ValidationResult(FormatErrorMessage(validationContext.DisplayName))
@@ -105,7 +105,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
                 }
                 protected override ValidationResult IsValid(object value, ValidationContext validationContext) {
                     DateTime date = (DateTime)value;
-                    if(date <= DateTime.Now.AddYears(-18)) {
+                    if(date <= DateTime.Now.AddYears(-21)) {
                         return ValidationResult.Success;
                     }
                     return new ValidationResult(this.FormatErrorMessage(validationContext.DisplayName));
@@ -139,7 +139,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
 
         <script>
             function verifyAge (options) {
-                if (!(options.value >= 18)) {
+                if (!(options.value >= 21)) {
                     return false;
                 }
                 return true;
