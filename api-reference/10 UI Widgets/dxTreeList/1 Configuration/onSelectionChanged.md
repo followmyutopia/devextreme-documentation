@@ -11,13 +11,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **selectionChanged** event. Executed after selection has been set or cleared of a row.
+A handler for the **selectionChanged** event. Executed after selecting a row or clearing its selection.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 If a field providing key values is not specified in the data source, the whole data object is considered the key. In this case, all arrays passed to this handler contain data objects instead of keys.
 
-To retrieve data by key, call the [byKey(key)]({basewidgetpath}/Methods/#byKeykey) method.
+Call the [byKey(key)]({basewidgetpath}/Methods/#byKeykey) method to retrieve data.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -57,7 +57,8 @@ The keys of all selected rows.
 <!--typeFunctionParamName1_field7-->selectedRowsData<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The data of all selected rows.
+The data of all selected rows. </br>
+Does not include <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue">calculated values</a>.
 <!--/typeFunctionParamDescription1_field7-->
 
 <!--handmade-->

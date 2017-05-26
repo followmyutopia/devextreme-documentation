@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised after row selection has been set or cleared.
+Raised after selecting a row or clearing its selection.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -56,5 +56,6 @@ The keys of all selected rows.
 <!--typeFunctionParamName1_field7-->selectedRowsData<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The data of all selected rows.
+The data of all selected rows. </br>
+Does not include calculated values.
 <!--/typeFunctionParamDescription1_field7-->

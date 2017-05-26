@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **selectionChanged** event. Executed after a row has been selected or selection has been cleared.
+A handler for the **selectionChanged** event. Executed after selecting a row or clearing its selection. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -20,7 +20,7 @@ This handler has the following specifics:
 - If a field providing key values is not specified in the data source, the whole data object is considered the key. In this case, all arrays passed to the handler contain data objects instead of keys.
 - When selection is [deferred]({basewidgetpath}/Configuration/selection/#deferred), this handler does not provide access to keys and data.
 
-To retrieve data by key, call the [byKey(key)]({basewidgetpath}/Methods/#byKeykey) method.
+Call the [byKey(key)]({basewidgetpath}/Methods/#byKeykey) method to retrieve data.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/RowSelection/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
@@ -62,5 +62,6 @@ The keys of all selected rows.
 <!--typeFunctionParamName1_field7-->selectedRowsData<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The data of all selected rows.
+The data of all selected rows. </br>
+Does not include <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue">calculated values</a>.
 <!--/typeFunctionParamDescription1_field7-->
