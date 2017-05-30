@@ -32,5 +32,6 @@ You can specify the current widget value using any of the following formats.
 
 If the widget value is changed by an end-user, the new value is saved in the same format as the initial value.
 
-
+#####See Also#####
+- [displayFormat](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#displayFormat)
 <!--/fullDescription-->
