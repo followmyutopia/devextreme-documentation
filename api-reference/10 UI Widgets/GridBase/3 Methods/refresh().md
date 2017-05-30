@@ -20,4 +20,8 @@ A Promise of the jQuery.Deferred object resolved after data is loaded.
 The widget cannot track changes made in the data source by a third party. To bring data in the widget up to date in this case, call this method. [Data sources]({basewidgetpath}/Configuration/columns/lookup/#dataSource) of lookup columns will be updated along with the main data source.
 
 [note] Calling the **refresh()** method ends the editing process. In *batch* [editing mode]({basewidgetpath}/Configuration/editing/#mode), changes are saved in a buffer waiting to be saved in the data source. In other modes, all unsaved changes vanish.
+
+#####See Also#####
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)
+- [getCombinedFilter()]({basewidgetpath}/Methods/#getCombinedFilter)
 <!--/fullDescription-->

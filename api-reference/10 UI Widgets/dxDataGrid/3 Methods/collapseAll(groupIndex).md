@@ -19,4 +19,7 @@ The index of the groups to collapse. Pass <i>undefined</i> to collapse all group
 
 <!--fullDescription-->
 Learn more from the [Expanding and Collapsing Groups](/Documentation/Guide/Widgets/DataGrid/Grouping/#Expanding_and_Collapsing_Groups) topic.
+
+#####See Also#####
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)
 <!--/fullDescription-->

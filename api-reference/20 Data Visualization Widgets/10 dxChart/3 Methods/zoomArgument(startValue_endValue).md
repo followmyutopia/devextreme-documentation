@@ -29,4 +29,8 @@ This function can be used when implementing [zooming](/Documentation/Guide/Widge
 When the chart's [adjustOnZoom](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#adjustOnZoom) option is set to _true_, the maximum and minimum values of the chart's value axis are changed to correspond to the maximum and minimum values of the chart's series. This is required to remove the empty area in the chart that may appear when changing the maximum and minimum values of the argument axis. To prevent value axis adjustment in response to argument axis boundary changes, set the **adjustOnZoom** option to _false_.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesautoajustment/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+
+#####See Also#####
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)
+- [getCombinedFilter()]({basewidgetpath}/Methods/#getCombinedFilter)
 <!--/fullDescription-->

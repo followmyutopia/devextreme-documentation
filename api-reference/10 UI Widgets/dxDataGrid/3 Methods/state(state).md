@@ -18,5 +18,8 @@ An <a href="https://en.wikipedia.org/wiki/Opaque_data_type">opaque data object</
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-For more information about working with the grid state, refer to the [stateStoring](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/stateStoring/) option description.
+
+#####See Also#####
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)
+- [stateStoring](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/stateStoring/)
 <!--/fullDescription-->

@@ -19,4 +19,7 @@ The index of the page to switch to.
 
 <!--fullDescription-->
 This method allows you to switch between pages without using the [pager](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Pager) or [scrolling](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/scrolling/). Note that the page index, which is passed as the argument to the **pageIndex(newIndex)** method, is one number less than the page number.
+
+#####See Also#####
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)
 <!--/fullDescription-->
