@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--acceptValues-->'dxTextBox' | 'dxNumberBox' | 'dxDateBox' | 'dxCheckBox' | 'dxSwitch' | 'dxSelectBox' | 'dxLookup' | 'dxTagBox' | 'dxTextArea' | 'dxColorBox' | 'dxCalendar' | 'dxAutocomplete' | 'dxRadioGroup' | 'dxSlider'<!--/acceptValues-->
+<!--acceptValues-->'dxTextBox' | 'dxNumberBox' | 'dxDateBox' | 'dxCheckBox' | 'dxSwitch' | 'dxSelectBox' | 'dxLookup' | 'dxTagBox' | 'dxTextArea' | 'dxColorBox' | 'dxCalendar' | 'dxAutocomplete' | 'dxRadioGroup' | 'dxSlider' | 'dxDropDownBox'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
