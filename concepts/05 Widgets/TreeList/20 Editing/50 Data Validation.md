@@ -20,7 +20,7 @@ The **TreeList** widget uses the build-in validation engine to validate user inp
         });
     });
 
-The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowValidating) handler allows you to interfere before details on broken validation rules are displayed. For instance, you can perform additional checks in this handler and change the validation result by changing the **isValid** field of the handler parameter. 
+The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowValidating) handler allows you to interfere before a notification that a validation rule has been broken is displayed. For instance, you can perform additional checks in this handler and change the validation result by changing the **isValid** field of the handler parameter. 
 
     <!--JavaScript-->
     $(function() {
