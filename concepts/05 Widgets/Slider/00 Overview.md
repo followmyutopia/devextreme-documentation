@@ -7,8 +7,6 @@ The following code adds a simple **Slider** to your page. The **min** and **max*
     <!--HTML-->
     <div id="sliderContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#sliderContainer").dxSlider({

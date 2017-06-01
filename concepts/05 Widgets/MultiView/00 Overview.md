@@ -7,8 +7,6 @@ In the most simple case, the **MultiView** widget requires only the [dataSource]
     <!--HTML-->
     <div id="multiViewContainer">
 
-<!---->
-
     <!--JavaScript-->
     var multiViewItems = [
         { text: "Personal Data" },

@@ -7,8 +7,6 @@ The following code adds a simple **ProgressBar** to your page. The **value** opt
     <!--HTML-->
     <div id="progressBarContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function(){
         $("#progressBarContainer").dxProgressBar({

@@ -10,7 +10,6 @@ The size of an item is specified by the [baseSize](/Documentation/ApiReference/U
         <div class="box-item green"  data-options="dxItem: { baseSize: 150 }"> Item 3 </div>
     </div>
 
-<!---->
 
     <!--JavaScript-->$(function() {
         $("#boxContainer").dxBox({
@@ -19,8 +18,6 @@ The size of an item is specified by the [baseSize](/Documentation/ApiReference/U
             width: 600
         });
     });
-
-<!---->
 
     <!--CSS-->.box-item {
         text-align: center;

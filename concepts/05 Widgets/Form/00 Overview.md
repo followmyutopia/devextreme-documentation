@@ -7,8 +7,6 @@ The following code adds the **Form** widget to your page. The simplest configura
     <!--HTML-->
     <div id="formContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#formContainer").dxForm({

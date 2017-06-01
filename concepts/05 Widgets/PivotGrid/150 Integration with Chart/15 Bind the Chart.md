@@ -7,38 +7,29 @@ A pivot grid can be bound only to an existing chart.
 
 For example, assume you have the following code that creates a pivot grid in the `pivotGridWidget` container and a chart in the `chartWidget` container.
 
+---
+
+#####jQuery
+
     <!--HTML-->
-    <!-- for jQuery -->
     <div id="pivotGridWidget" style="height:400px; max-width:700px"></div>
     <div id="chartWidget" style="height:400px; max-width:700px"></div>
 
-    <!-- for Knockout -->
-    <div id="pivotGridWidget" style="height:400px; max-width:700px" data-bind="dxPivotGrid: pivotGridOptions"></div>
-    <div id="chartWidget" style="height:400px; max-width:700px" data-bind="dxChart: chartOptions"></div>
-
-    <!-- for AngularJS -->
-    <div ng-controller="widgetController">
-        <div id="pivotGridWidget" style="height:400px; max-width:700px" dx-pivot-grid="pivotGridOptions"></div>
-        <div id="chartWidget" style="height:400px; max-width:700px" dx-chart="chartOptions"></div>
-    </div>
-
-<!--------->
-
-    <!--JavaScript-->// for jQuery
+    <!--JavaScript-->
     $(function () {
         $("#pivotGridWidget").dxPivotGrid({ ... });
         $("#chartWidget").dxChart({ ... });
     });
 
-    // for Knockout
-    var viewModel = {
-        pivotGridOptions: { ... },
-        chartOptions: { ... }
-    };
+#####AngularJS
 
-    ko.applyBindings(viewModel);
+    <!--HTML-->
+    <div ng-controller="widgetController">
+        <div id="pivotGridWidget" style="height:400px; max-width:700px" dx-pivot-grid="pivotGridOptions"></div>
+        <div id="chartWidget" style="height:400px; max-width:700px" dx-chart="chartOptions"></div>
+    </div>
 
-    // for AngularJS
+    <!--JavaScript-->
     angular
         .module('myApp', ['dx']);
         .controller("widgetController", function ($scope) {
@@ -49,6 +40,22 @@ For example, assume you have the following code that creates a pivot grid in the
     angular.element(document).ready(function () {
         angular.bootstrap(document, ['myApp']);
     });
+
+#####Knockout
+
+    <!--HTML-->
+    <div id="pivotGridWidget" style="height:400px; max-width:700px" data-bind="dxPivotGrid: pivotGridOptions"></div>
+    <div id="chartWidget" style="height:400px; max-width:700px" data-bind="dxChart: chartOptions"></div>
+
+    <!--JavaScript-->
+    var viewModel = {
+        pivotGridOptions: { ... },
+        chartOptions: { ... }
+    };
+
+    ko.applyBindings(viewModel);
+
+---
 
 To bind these two widgets together without changing the default integration options, call the `bindChart(chart, integrationOptions)` using one of the following constructions.
 
@@ -71,7 +78,10 @@ To bind these two widgets together without changing the default integration opti
 
 This method can be called at any point of the application flow. For example, you can bind the chart once it is initialized.
 
-    <!--JavaScript-->// for jQuery
+---
+#####jQuery
+
+    <!--JavaScript-->
     $(function () {
         $("#pivotGridWidget").dxPivotGrid({ ... });
         $("#chartWidget").dxChart({
@@ -83,21 +93,9 @@ This method can be called at any point of the application flow. For example, you
         });
     });
 
-    // for Knockout
-    var viewModel = {
-        pivotGridOptions: { ... },
-        chartOptions: { 
-            // ...
-            onInitialized: function (e) {
-                var pivotGridInstance = $("#pivotGridWidget").dxPivotGrid("instance");
-                pivotGridInstance.bindChart('#chartWidget');
-            }
-        }
-    };
+#####AngularJS
 
-    ko.applyBindings(viewModel);
-
-    // for AngularJS
+    <!--JavaScript-->
     angular
         .module('myApp', ['dx']);
         .controller("widgetController", function ($scope) {
@@ -114,6 +112,24 @@ This method can be called at any point of the application flow. For example, you
     angular.element(document).ready(function () {
         angular.bootstrap(document, ['myApp']);
     });
+
+#####Knockout
+
+    <!--JavaScript-->
+    var viewModel = {
+        pivotGridOptions: { ... },
+        chartOptions: { 
+            // ...
+            onInitialized: function (e) {
+                var pivotGridInstance = $("#pivotGridWidget").dxPivotGrid("instance");
+                pivotGridInstance.bindChart('#chartWidget');
+            }
+        }
+    };
+
+    ko.applyBindings(viewModel);
+
+---
 
 The `bindChart(chart, integrationOptions)` method returns a function that unbinds the chart. If the method has returned *null*, the binding failed.
 

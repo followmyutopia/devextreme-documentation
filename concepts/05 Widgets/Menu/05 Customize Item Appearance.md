@@ -22,7 +22,8 @@ For a minor customization of **Menu** items, you can use the default item templa
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize menu items.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
@@ -41,8 +42,6 @@ Using the default item template is the easiest way to customize an item, but it 
             }];
         });
 
-<!---->
-
     <!--HTML--><div ng-controller="DemoController">
         <div dx-menu="{ items: menuItems, itemTemplate: 'items' }" dx-item-alias="item">
             <div data-options="dxTemplate: { name: 'items' }">
@@ -53,7 +52,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--JavaScript-->var viewModel = {
         menuItems: [{
@@ -73,13 +72,13 @@ Using the default item template is the easiest way to customize an item, but it 
 
     ko.applyBindings(viewModel);
 
-<!---->
-
     <!--HTML--><div data-bind="dxMenu: { items: menuItems, itemTemplate: 'items' }">
         <div data-options="dxTemplate: { name: 'items' }">
             <i data-bind="text: text"></i>
         </div>
     </div>
+
+---
 
 If you use jQuery alone, combine the HTML markup for menu items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#itemTemplate) callback function as shown in the following code.
 
@@ -111,8 +110,6 @@ You can also customize an individual menu item. For this purpose, declare a temp
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->var menuItems = [{
         text: "Upload", icon: "upload",

@@ -6,8 +6,6 @@ The code below adds the **Map** widget to your page. The **Map** is [centered](/
 
     <!--HTML-->
     <div id="mapContainer"></div>
-     
-<!---->
  
     <!--JavaScript-->
     $(function() {

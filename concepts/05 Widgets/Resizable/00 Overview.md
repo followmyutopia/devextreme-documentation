@@ -6,8 +6,6 @@ The following code adds a resizable image to your page. Note that the image occu
         <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#resizable").dxResizable({
             width: 200,
@@ -18,8 +16,6 @@ The following code adds a resizable image to your page. Note that the image occu
             maxHeight: 500 
         });
     });
-
-<!---->
 
     <!--CSS-->#image {
         height: 100%;
@@ -43,8 +39,6 @@ If the **Resizable** widget contains other widgets, make sure that it is instant
         <div id="chart"></div>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#resizable").dxResizable({
             height: 400,
@@ -67,8 +61,6 @@ If the **Resizable** widget contains other widgets, make sure that it is instant
             series: { type: "bar" }
         });
     });
-
-<!---->
 
     <!--CSS-->#chart {
         height: 100%;

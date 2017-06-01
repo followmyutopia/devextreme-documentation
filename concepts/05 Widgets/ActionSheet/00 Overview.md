@@ -8,8 +8,6 @@ The following code adds a simple **ActionSheet** to your page. The widget is sho
     <div id="buttonContainer"></div>
     <div id="actionSheetContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     // Shows a message with a button name
     var processClick = function (name) {

@@ -7,8 +7,6 @@ The following code adds to your page a simple **LoadPanel** and a [Button](/Docu
     <!--HTML--><div id="loadPanelContainer"></div>
     <div id="buttonContainer"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
 		$("#loadPanelContainer").dxLoadPanel({
             closeOnOutsideClick: true

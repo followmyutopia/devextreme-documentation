@@ -7,8 +7,6 @@ The following code adds the **Autocomplete** to your page. The simplest configur
     <!--HTML-->
     <div id="autocompleteContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     var autocompleteData = [
         "Afghanistan",

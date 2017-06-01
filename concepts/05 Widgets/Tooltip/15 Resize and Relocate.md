@@ -5,10 +5,8 @@ To change the size of the **Tooltip**, specify the [height](/Documentation/ApiRe
         <p>Tooltip content</p>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
-		$("#tooltipContainer").dxTooltip({
+        $("#tooltipContainer").dxTooltip({
             target: "#image",
             showEvent: 'dxhoverstart',
             hideEvent: 'dxhoverend',
@@ -20,7 +18,7 @@ To change the size of the **Tooltip**, specify the [height](/Documentation/ApiRe
 If you need to position the **Tooltip** against a certain side of the [target element](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#target), set the [position](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#position) option.
 
     <!--JavaScript-->$(function() {
-		$("#tooltipContainer").dxTooltip({
+        $("#tooltipContainer").dxTooltip({
             target: "#image",
             showEvent: 'dxhoverstart',
             hideEvent: 'dxhoverend',

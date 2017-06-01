@@ -24,7 +24,8 @@ The **Scheduler** widget allows you to customize its timetable: to specify the t
 
 In addition, you can define custom templates for cells, time scales and date scales. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for timetable parts.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-scheduler="{
@@ -35,7 +36,6 @@ In addition, you can define custom templates for cells, time scales and date sca
             dataCellTemplate: 'dataCellTemplate',
             dateCellTemplate: 'dateCellTemplate',
             timeCellTemplate: 'timeCellTemplate'
-            
         }" dx-item-alias="item">
             <div data-options="dxTemplate: { name: 'dataCellTemplate' }">
                 <div style="width: 100%; height: 40px; background-color: rgba(86, 202, 133, 0.1);"></div>
@@ -67,7 +67,7 @@ In addition, you can define custom templates for cells, time scales and date sca
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML--><div data-bind="dxScheduler: {
         dataSource: schedulerData,
@@ -107,6 +107,8 @@ In addition, you can define custom templates for cells, time scales and date sca
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use jQuery alone, combine the HTML markup for cells, time scales and date scales manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [timeCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#timeCellTemplate), [dateCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dateCellTemplate) and [dataCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataCellTemplate) callback functions as shown in the following code.
 

@@ -22,6 +22,14 @@ So, in the **Knockout approach**, you can bind template elements to the item's f
 
 In the **AngularJS approach**, if you need to access the item object's fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive (see the code below). Add the directive to the widget element to specify an alias to the root object of an item. Without this directive, item object fields are beyond reach. To access another binding context within a field template, use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
 
+---
+#####AngularJS#####
+
+    <!--HTML-->
+    <div data-options="dxTemplate: { name:'myField' }" dx-item-alias="itemObj">
+        <div dx-text-box: { value: itemObj.name + ' (' + itemObj.capital + ')' } "></div>
+    </div>
+
 #####Knockout#####
 
     <!--HTML-->
@@ -29,12 +37,7 @@ In the **AngularJS approach**, if you need to access the item object's fields wi
         <div data-bind="dxTextBox: { value: name + ' (' + capital + ')' } "></div>
     </div>
 
-#####AngularJS#####
-
-    <!--HTML-->
-    <div data-options="dxTemplate: { name:'myField' }" dx-item-alias="itemObj">
-        <div dx-text-box: { value: itemObj.name + ' (' + itemObj.capital + ')' } "></div>
-    </div>
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Templates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

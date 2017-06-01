@@ -2,13 +2,13 @@
 
 To specify whether the **LoadIndicator** is shown, change the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#visible) option.
 
-[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+---
+
+#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
     <div id="loadIndicatorContainer"></div>
     <div id="buttonContainer"></div>
-
-<!---->
 
     <!--JavaScript-->
     $(function() {
@@ -25,7 +25,7 @@ To specify whether the **LoadIndicator** is shown, change the [visible](/Documen
         });
     });
 
-[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
+#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
     <!--Razor C#-->
     @(Html.DevExtreme().LoadIndicator()
@@ -65,9 +65,13 @@ To specify whether the **LoadIndicator** is shown, change the [visible](/Documen
         }
     </script>
 
+---
+
 With AngularJS or Knockout, bind the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#visible) property of the **LoadIndicator** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **LoadIndicator** will appear or disappear.
 
-[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+---
+
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-load-indicator="{
@@ -81,8 +85,6 @@ With AngularJS or Knockout, bind the [visible](/Documentation/ApiReference/UI_Wi
         }"></div>
     </div>
 
-<!---->
-
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.isLoadIndicatorVisible = false;
@@ -92,7 +94,7 @@ With AngularJS or Knockout, bind the [visible](/Documentation/ApiReference/UI_Wi
             }
         });
 
-[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div data-bind="dxLoadIndicator: {
         visible: isLoadIndicatorVisible
@@ -105,14 +107,13 @@ With AngularJS or Knockout, bind the [visible](/Documentation/ApiReference/UI_Wi
         }
     }"></div>
 
-<!---->
-
     <!--JavaScript-->var viewModel = {
         isLoadIndicatorVisible: ko.observable(false)
     };
 
     ko.applyBindings(viewModel);
 
+---
 
 #####See Also#####
 - **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)

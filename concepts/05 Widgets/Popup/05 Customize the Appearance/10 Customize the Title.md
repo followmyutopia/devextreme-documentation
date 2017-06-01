@@ -17,8 +17,6 @@ If you need to define the title completely, specify a template for it. To do thi
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#popupContainer").dxPopup({
@@ -32,8 +30,6 @@ If you need to define the title completely, specify a template for it. To do thi
     <div id="popupContainer">
         <p>Popup content</p>
     </div>
-
-<!---->
 
     <!--JavaScript-->$(function() {
         $("#popupContainer").dxPopup({
@@ -56,8 +52,6 @@ Just as you switch [content templates](/Documentation/Guide/Widgets/Popup/Custom
             <p>Second title template</p>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     $(function() {

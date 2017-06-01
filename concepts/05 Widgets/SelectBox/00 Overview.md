@@ -7,8 +7,6 @@ The following code adds the **SelectBox** to your page. The simplest configurati
     <!--HTML-->
     <div id="selectBoxContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#selectBoxContainer").dxSelectBox({

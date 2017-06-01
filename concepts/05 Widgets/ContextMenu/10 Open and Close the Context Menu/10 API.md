@@ -30,7 +30,9 @@ To open or close the **ContextMenu** from code, call the [show()](/Documentation
 
 When using AngularJS or Knockout, use a different approach. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#visible) property of the **ContextMenu** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the context menu will be opened or closed.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-button="{
@@ -46,8 +48,6 @@ When using AngularJS or Knockout, use a different approach. Bind the [visible](/
         }"></div>
     </div>
 
-<!---->
-
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.contextMenuItems = [
@@ -61,7 +61,7 @@ When using AngularJS or Knockout, use a different approach. Bind the [visible](/
             }
         });
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML--><div data-bind="dxButton: {
         text: 'Open the context menu',
@@ -75,8 +75,6 @@ When using AngularJS or Knockout, use a different approach. Bind the [visible](/
         visible: isContextMenuVisible
     }"></div>
 
-<!---->
-
     <!--JavaScript-->var viewModel = {
         contextMenuItems: [
             { text: "Zoom In", icon: "plus" },
@@ -87,6 +85,8 @@ When using AngularJS or Knockout, use a different approach. Bind the [visible](/
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 When invoking the context menu from code, you may want to specify its [position](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#position).
 

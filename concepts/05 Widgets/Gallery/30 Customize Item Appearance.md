@@ -16,7 +16,9 @@
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize gallery items.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
@@ -26,8 +28,6 @@ Using the default item template is the easiest way to customize an item, but it 
                 { path: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person3.png", name: "Xavier" }
             ];
         });
-
-<!---->
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-gallery="{
@@ -44,7 +44,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--JavaScript-->var viewModel = {
         galleryData: [
@@ -55,8 +55,6 @@ Using the default item template is the easiest way to customize an item, but it 
     };
 
     ko.applyBindings(viewModel);
-
-<!---->
 
     <!--HTML-->
     <div data-bind="dxGallery: {
@@ -69,6 +67,8 @@ Using the default item template is the easiest way to customize an item, but it 
             <img data-bind="attr: { src: path, alt: name }" />
         </div>
     </div>
+
+---
 
 If you use jQuery alone, combine the HTML markup for menu items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#itemTemplate) callback function as shown in the following code.
 
@@ -90,8 +90,6 @@ You can also customize an individual **Gallery** item. For this purpose, declare
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->
     var galleryData = [{

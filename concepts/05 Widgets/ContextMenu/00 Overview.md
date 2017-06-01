@@ -7,8 +7,6 @@ The following code adds the **ContextMenu** widget to your page and binds it to 
     <!--HTML--><img id="someImage" src="http://here/goes/my.jpg">
     <div id="contextMenuContainer"></div>
 
-<!---->
-
     <!--JavaScript-->var contextMenuItems = [
         { text: "Zoom In" },
         { text: "Zoom Out" },

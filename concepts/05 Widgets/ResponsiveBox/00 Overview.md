@@ -61,8 +61,6 @@ The following code creates a simple **ResponsiveBox**. The widget defines an ord
         </div>
     </body>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#responsiveBoxContainer").dxResponsiveBox({
             rows: [
@@ -77,8 +75,6 @@ The following code creates a simple **ResponsiveBox**. The widget defines an ord
             ]
         });
     });
-
-<!---->
 
     <!--CSS-->#responsiveBoxContainer p {
         font-size: 16px;

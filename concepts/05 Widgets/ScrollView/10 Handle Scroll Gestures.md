@@ -2,7 +2,7 @@ The **ScrollView** raises the [pullDown](/Documentation/ApiReference/UI_Widgets/
 
     <!--JavaScript-->
     $(function() {
-		$("#scrollViewContainer").dxScrollView({
+        $("#scrollViewContainer").dxScrollView({
             height: 500,
             bounceEnabled: true,
             onPullDown: function (e) {

@@ -18,18 +18,10 @@ A markup component used to define markup options for a template.
 <!--fullDescription-->
 The dxTemplate markup component is used to introduce a template markup for collection container widget items ([List](/Documentation/ApiReference/UI_Widgets/dxList/), [Gallery](/Documentation/ApiReference/UI_Widgets/dxGallery/), [TileView](/Documentation/ApiReference/UI_Widgets/dxTileView/), etc.) or container widgets ([Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/), etc.) in Knockout and AngularJS applications. The template element should be contained in an element representing the required widget.
 
-    <!--HTML-->
-    <!--Knockout-->
-    <div data-bind="dxTileView: { dataSource: tileViewData, itemTemplate: 'tileTemplate' }">
-        <div data-options="dxTemplate: { name: 'tileTemplate' }">
-            <h1 data-bind="text: name"></h1>
-            <p>Area: <i data-bind="text: area"></i> km2</p>
-            <p>Population: <i data-bind="text: population"></i></p>
-            <p>Capital: <i data-bind="text: capital"></i></p>
-        </div>
-    </div>
+---
+#####AngularJS
 
-    <!--AngularJS-->
+    <!--HTML-->
     <div dx-tile-view="{ dataSource: tileViewData, itemTemplate: 'tileTemplate' }" dx-item-alias="item">
         <div data-options="dxTemplate: { name: 'tileTemplate' }">
             <h1>{{item.name}}</h1>
@@ -39,6 +31,19 @@ The dxTemplate markup component is used to introduce a template markup for colle
         </div>
     </div>
 
+#####Knockout
+
+    <!--HTML-->
+    <div data-bind="dxTileView: { dataSource: tileViewData, itemTemplate: 'tileTemplate' }">
+        <div data-options="dxTemplate: { name: 'tileTemplate' }">
+            <h1 data-bind="text: name"></h1>
+            <p>Area: <i data-bind="text: area"></i> km2</p>
+            <p>Population: <i data-bind="text: population"></i></p>
+            <p>Capital: <i data-bind="text: capital"></i></p>
+        </div>
+    </div>
+
+---
 
 [note]Pay attention to the binding context of the template that you define. In most cases, the binding context of an item template is the data source object that corresponds to the currently rendered item, and a view model - in other widget element templates. Since there can be exceptions in this rule, read notes in the descriptions of the corresponding **XXXTemplate** options and bind template elements to the accessible fields directly (see the code above). At the same time, you can access another binding context within a template, using [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
 

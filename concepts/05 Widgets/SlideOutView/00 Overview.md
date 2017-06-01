@@ -11,8 +11,6 @@ The following code adds the **SlideOutView** widget to your page. The view conta
             <div id="treeView"></div>
         </div>
     </div>
-
-<!---->
     
     <!--JavaScript-->$(function() {
     	var slideOutView = $("#slideOutView").dxSlideOutView({
@@ -33,7 +31,6 @@ The following code adds the **SlideOutView** widget to your page. The view conta
         });
     });
 
-<!---->
 
     <!--CSS-->#slideOutView {
         height: auto;

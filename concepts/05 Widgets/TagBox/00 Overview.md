@@ -8,8 +8,6 @@ The following code adds the **TagBox** to your page. The simplest configuration 
     <!--HTML-->
     <div id="tagBoxContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#tagBoxContainer").dxTagBox({

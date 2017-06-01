@@ -6,8 +6,6 @@ The following code adds the **CheckBox** to your page.
 
     <!--HTML-->
     <div id="checkBoxContainer"></div>
-     
-<!---->
  
     <!--JavaScript-->
     $(function() {

@@ -7,8 +7,6 @@ The following code adds the **NumberBox** to your page. The simplest configurati
     <!--HTML-->
     <div id="numberBoxContainer"></div>
 
-<!---->    
-
     <!--JavaScript-->
     $(function() {
         $("#numberBoxContainer").dxNumberBox({

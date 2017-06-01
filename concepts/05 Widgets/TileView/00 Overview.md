@@ -6,8 +6,6 @@ The following code adds a primitive **TileView** to your page.
 
     <!--HTML--><div id="tileViewContainer"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#tileViewContainer").dxTileView({
             dataSource: [

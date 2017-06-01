@@ -7,7 +7,6 @@ The following code adds the **Switch** to your page.
     <!--HTML-->
     <div id="switchContainer"></div>
      
-<!---->
  
     <!--JavaScript-->
     $(function() {

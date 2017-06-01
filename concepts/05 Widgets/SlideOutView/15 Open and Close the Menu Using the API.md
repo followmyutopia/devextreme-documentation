@@ -10,8 +10,6 @@ To open or close the **SlideOutView** menu programmatically, call the [showMenu(
         </div>
     </div>
 
-<!---->
-    
     <!--JavaScript-->$(function() {
     	$("#slideOutView").dxSlideOutView({
             menuTemplate: 'menu',
@@ -38,8 +36,6 @@ To open or close the **SlideOutView** menu programmatically, call the [showMenu(
         // ...
     });
 
-<!---->
-
     <!--CSS-->#slideOutView {
         height: auto;
         position: absolute;
@@ -50,7 +46,8 @@ To open or close the **SlideOutView** menu programmatically, call the [showMenu(
 
 When using AngularJS or Knockout, you can still call the methods mentioned before, but as an alternative, you can bind the [menuVisible](/Documentation/ApiReference/UI_Widgets/dxSlideOutView/Configuration/#menuVisible) property of the **SlideOutView** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the slide-out menu will be opened or closed.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
         <div id="slideOutView" dx-slide-out-view="{
@@ -74,15 +71,13 @@ When using AngularJS or Knockout, you can still call the methods mentioned befor
                         location: 'center'
                     }]
                 }"></div>
-                ...
+                <!-- ... -->
             </div>
             <div data-options="dxTemplate: { name: 'menu' }">
-                ...
+                <!-- ... -->
             </div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
@@ -92,7 +87,7 @@ When using AngularJS or Knockout, you can still call the methods mentioned befor
             };
         });
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML--><div id="slideOutView" data-bind="dxSlideOutView: {
         menuTemplate: 'menu',
@@ -118,17 +113,18 @@ When using AngularJS or Knockout, you can still call the methods mentioned befor
             ...
         </div>
         <div data-options="dxTemplate: { name: 'menu' }">
-            ...
+            <!-- ... -->
         </div>
     </div>
 
-<!---->
 
     <!--JavaScript-->var viewModel= {
         isMenuVisible: ko.observable(false)
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 #####See Also#####
 - [SlideOutView API Reference](/Documentation/ApiReference/UI_Widgets/dxSlideOutView/)

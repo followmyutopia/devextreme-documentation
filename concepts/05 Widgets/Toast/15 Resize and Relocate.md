@@ -3,10 +3,8 @@ To change the size of the **Toast**, specify the [height](/Documentation/ApiRefe
     <!--HTML--><div id="toastContainer"></div>
     <div id="buttonContainer"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
-		$("#toastContainer").dxToast({
+        $("#toastContainer").dxToast({
             message: "Connection problem",
             type: "error",
             height: 55,
@@ -25,7 +23,7 @@ To change the size of the **Toast**, specify the [height](/Documentation/ApiRefe
 If you need to position the **Toast** against a specific element on your page, set the [position](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#position) option.
 
     <!--JavaScript-->$(function() {
-		$("#toastContainer").dxToast({
+        $("#toastContainer").dxToast({
             message: "Connection problem",
             type: "error",
             position: {

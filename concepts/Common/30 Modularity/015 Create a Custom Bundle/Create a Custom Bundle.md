@@ -34,19 +34,17 @@ Link themes to your application.
 
 The example below demonstrates how to create an application with a single button using the modules and shows the reduced configuration file.
 
-
-####jQuery Approach####
+---
+#####jQuery####
 
 **index.html**
 
     <!--HTML-->
     <!DOCTYPE html>
     <html>
-
     <head>
       <title>DevExtreme with a custom bundle example</title>
       <meta charset="utf-8">
-  
         <!--External Scripts-->
         <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
         <!--DevExtreme Bundle-->
@@ -85,18 +83,16 @@ The example below demonstrates how to create an application with a single button
     ui.dxButton = require("devextreme/ui/button");
 
 
-####AngularJS Approach####
+#####AngularJS Approach####
 
 **index.js**
 
     <!--HTML-->
     <!DOCTYPE html>
     <html>
-
     <head>
       <title>DevExtreme with a custom bundle and AngularJS example</title>
       <meta charset="utf-8">
-  
         <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
         <!--DevExtreme Bundle-->
@@ -104,16 +100,13 @@ The example below demonstrates how to create an application with a single button
         <!--Link Themes-->
         <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.common.css" />
         <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.ios7.default.css" />
-
     </head>
-
     <body>
       <div ng-controller="myController">
         <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
           <div dx-button="buttonOptions"></div>
         </div>
       </div>
-
       <script>
          var myApp = angular.module('myApp', ['dx']);
           myApp.controller("myController", function($scope) {
@@ -124,7 +117,6 @@ The example below demonstrates how to create an application with a single button
               }
             };
           });
-
           angular.bootstrap(document, ['myApp']);
       </script>
     </body>
@@ -145,18 +137,16 @@ The example below demonstrates how to create an application with a single button
     ui.dxButton = require("devextreme/ui/button");
 
 
-####Knockout Approach####
+#####Knockout Approach####
 
 **index.html**
 
     <!--HTML-->
     <!DOCTYPE html>
     <html>
-
     <head>
       <title>DevExtreme with a custom bundle and Knockout example</title>
       <meta charset="utf-8">
-  
         <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
         <!--DevExtreme Bundle-->
@@ -164,7 +154,6 @@ The example below demonstrates how to create an application with a single button
         <!--Link Themes-->
         <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.common.css" />
         <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_1/css/dx.ios7.default.css" />
-
     </head>
 
     <body>
@@ -184,7 +173,6 @@ The example below demonstrates how to create an application with a single button
           ko.applyBindings(viewModel);
       </script>
     </body>
-
     </html>
 
 **dx.custom.config.js**
@@ -199,3 +187,5 @@ The example below demonstrates how to create an application with a single button
     ui.dialog = require("devextreme/ui/dialog");
     /* Base widgets (dx.module-widgets-base.js) */
     ui.dxButton = require("devextreme/ui/button");
+
+---

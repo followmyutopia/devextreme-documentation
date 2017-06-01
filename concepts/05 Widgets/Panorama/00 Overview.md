@@ -8,19 +8,6 @@ and a [title](/Documentation/ApiReference/UI_Widgets/dxPanorama/Configuration/#t
     <!--HTML-->
     <div id="panoramaContainer"></div>
 
-<!---->
-
-    <!--CSS-->
-    #panoramaContainer {
-        height: auto;
-        position: absolute;
-        top: 0; 
-        bottom: 0;
-        width: 100%;
-    }
-
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#panoramaContainer").dxPanorama({
@@ -41,6 +28,15 @@ and a [title](/Documentation/ApiReference/UI_Widgets/dxPanorama/Configuration/#t
             }
         });
     });
+
+    <!--CSS-->
+    #panoramaContainer {
+        height: auto;
+        position: absolute;
+        top: 0; 
+        bottom: 0;
+        width: 100%;
+    }
 
 Note that all data source items follow the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxPanorama/Default_Item_Template/) pattern. This provides a default item appearance, which can be customized later.
 

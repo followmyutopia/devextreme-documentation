@@ -8,8 +8,6 @@ Commonly, editors nested into an HTML form are supposed to be validated on the c
         <div id="validateAndSubmit"></div>
     </form>
 
-<!---->
-
     <!--JavaScript-->$(function() {
 		$("#login").dxTextBox({
     		name: "Login"

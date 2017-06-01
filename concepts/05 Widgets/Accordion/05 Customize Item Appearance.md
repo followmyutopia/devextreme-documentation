@@ -20,7 +20,8 @@ For a minor customization of **Accordion** panels, you can use the default item 
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for items and item titles.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
@@ -36,8 +37,6 @@ Using the default item template is the easiest way to customize an item, but it 
                 // ...
             }];
         });
-
-<!---->
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-accordion="{
@@ -58,7 +57,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--JavaScript-->var viewModel= {
         accordionData: [{
@@ -76,8 +75,6 @@ Using the default item template is the easiest way to customize an item, but it 
 
     ko.applyBindings(viewModel);
 
-<!---->
-
     <!--HTML--><div data-bind="dxAccordion: {
         dataSource: accordionData,
         itemTemplate: 'items',
@@ -93,6 +90,7 @@ Using the default item template is the easiest way to customize an item, but it 
         </div>
     </div>
 
+---
 
 If you use jQuery alone, combine the HTML markup for items and their titles manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#itemTemplate) and [itemTitleTemplate](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#itemTitleTemplate) callback functions as shown in the following code.
 
@@ -107,8 +105,6 @@ If you use jQuery alone, combine the HTML markup for items and their titles manu
     }, {
         // ...
     }];
-
-<!---->
 
     $(function () {
         $("#accordionContainer").dxAccordion({
@@ -131,8 +127,6 @@ You can also customize an individual item. For this purpose, declare a template 
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->var accordionData = [{
         firstName: "John", lastName: "Smith",

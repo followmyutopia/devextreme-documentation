@@ -7,8 +7,6 @@ The following code adds the **Tabs** widget to your page. One of the tabs has an
     <!--HTML-->
     <div id="tabsContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#tabsContainer").dxTabs({

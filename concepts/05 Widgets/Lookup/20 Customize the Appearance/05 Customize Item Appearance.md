@@ -15,7 +15,9 @@ For a minor customization of **Lookup** items, you can use the default item temp
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for the **Lookup** items.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -31,8 +33,6 @@ Using the default item template is the easiest way to customize an item, but it 
             </div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -52,7 +52,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxLookup: {
@@ -66,8 +66,6 @@ Using the default item template is the easiest way to customize an item, but it 
             <div style="display:inline-block" data-bind="text: name"></div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     var viewModel = {
@@ -85,6 +83,8 @@ Using the default item template is the easiest way to customize an item, but it 
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use jQuery alone, combine the HTML markup for items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#itemTemplate) callback function as shown in the following code.
 
@@ -123,8 +123,6 @@ You can also customize an individual **Lookup** item. For this purpose, declare 
         <!-- ... -->
     </script>
 
-<!---->
-
     <!--JavaScript-->
     var lookupData = [
         { text: "SuperHD Player"},
@@ -134,7 +132,8 @@ You can also customize an individual **Lookup** item. For this purpose, declare 
 
 Using similar techniques, you can customize the input field of the **Lookup**. The template for it should be assigned to the [fieldTemplate](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#fieldTemplate) option. 
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -150,7 +149,7 @@ Using similar techniques, you can customize the input field of the **Lookup**. T
         </div>
     </div>
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxLookup: {
@@ -164,7 +163,8 @@ Using similar techniques, you can customize the input field of the **Lookup**. T
         </div>
     </div>
 
-**jQuery**
+#####**jQuery**
+<!--default-->
 
     <!--JavaScript-->
     $(function() {
@@ -179,6 +179,8 @@ Using similar techniques, you can customize the input field of the **Lookup**. T
             }
         });
     });
+
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Templates/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

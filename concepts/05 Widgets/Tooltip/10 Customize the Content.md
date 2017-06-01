@@ -30,8 +30,6 @@ If you need to render different templates depending on a specific condition, def
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         var tooltip = $("#tooltipContainer").dxTooltip({
             target: "#image",
@@ -51,8 +49,6 @@ If you need to render different templates depending on a specific condition, def
             } 
         });
     });
-
-<!---->
 
     <!--CSS-->#buttonContainer {
         display: block;

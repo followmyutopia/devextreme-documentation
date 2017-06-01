@@ -19,8 +19,6 @@ The following examples show how to configure the **FileUploader** for uploading 
 
         <!--HTML--><div id="fileUploaderContainer"></div>
 
-    <!---->
-
         <!--JavaScript-->$(function() {
             $("#fileUploaderContainer").dxFileUploader({
                 name: "file",
@@ -40,8 +38,6 @@ The following examples show how to configure the **FileUploader** for uploading 
             <div id="fileUploaderContainer"></div>
             <input type="submit">
         </form>
-
-    <!---->
 
         <!--JavaScript-->$(function() {
             $("#fileUploaderContainer").dxFileUploader({

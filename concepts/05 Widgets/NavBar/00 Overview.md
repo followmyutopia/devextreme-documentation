@@ -7,8 +7,6 @@ The following code adds the **NavBar** to your page. All navigation items have i
     <!--HTML-->
     <div id="navBarContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#navBarContainer").dxNavBar({

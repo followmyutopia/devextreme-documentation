@@ -7,8 +7,6 @@ The following code adds a simple **Toolbar** to your page. Three items are plain
     <!--HTML-->
     <div id="toolbarContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#toolbarContainer").dxToolbar({

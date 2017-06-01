@@ -28,7 +28,9 @@ If you need to update form data at runtime, redefine the [formData](/Documentati
 
 If you use the **MVVM approach**, provide two-way binding for the [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -44,8 +46,6 @@ If you use the **MVVM approach**, provide two-way binding for the [formData](/Do
             }];
             $scope.data = $scope.employees[0];
         });
-
-<!---->
 
     <!--HTML-->
     <div ng-controller="demoController">
@@ -63,7 +63,7 @@ If you use the **MVVM approach**, provide two-way binding for the [formData](/Do
         }"></div>
     </div>
 
-**Knockout**
+#####**Knockout**
 
     <!--JavaScript-->
     var employees = [{
@@ -82,8 +82,6 @@ If you use the **MVVM approach**, provide two-way binding for the [formData](/Do
     };
 
     ko.applyBindings(viewModel);
-    
-<!---->
 
     <!--HTML-->
     <div data-bind="dxForm: {
@@ -94,6 +92,8 @@ If you use the **MVVM approach**, provide two-way binding for the [formData](/Do
         displayExpr: 'name',
         value: data
     }"></div>
+
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

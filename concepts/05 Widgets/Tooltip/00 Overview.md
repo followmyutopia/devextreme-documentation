@@ -9,11 +9,9 @@ The following code creates a simple **Tooltip** on your page and attaches it to 
         <p>Tooltip content</p>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#tooltipContainer").dxTooltip({
-    		target: "#image",
+            target: "#image",
             showEvent: 'dxhoverstart',
             hideEvent: 'dxhoverend'
         });

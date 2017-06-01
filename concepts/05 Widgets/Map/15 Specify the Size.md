@@ -22,8 +22,6 @@ If you prefer specifying the widget size using CSS, set the **width** and **heig
         });
     });
 
-<!---->
-
     <!--CSS-->
     #mapContainer {
         width: 100%;

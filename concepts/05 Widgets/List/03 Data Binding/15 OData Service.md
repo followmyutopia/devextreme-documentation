@@ -18,8 +18,6 @@
         });
     });
 
-<!---->
-
     <!--CSS-->.item-image {
         vertical-align: middle;
     }

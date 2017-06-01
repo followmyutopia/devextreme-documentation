@@ -13,7 +13,9 @@ For a minor customization of **NavBar** items, you can use the default item temp
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize items in the **NavBar**.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -27,8 +29,6 @@ Using the default item template is the easiest way to customize an item, but it 
             </div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -45,7 +45,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxNavBar:{
@@ -57,8 +57,6 @@ Using the default item template is the easiest way to customize an item, but it 
             <p style="font-size:12px; margin-top:10px" data-bind="text: text"></p>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     var viewModel = {
@@ -73,6 +71,8 @@ Using the default item template is the easiest way to customize an item, but it 
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use jQuery alone, combine the HTML markup for items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/#itemTemplate) callback function as shown in the following code.
 
@@ -98,8 +98,6 @@ You can also customize an individual navigation item. For this purpose, declare 
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->var navItems = [
         { text: "User" },

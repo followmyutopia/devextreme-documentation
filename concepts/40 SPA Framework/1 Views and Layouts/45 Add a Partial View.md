@@ -27,8 +27,6 @@ The partial view can be bound to its own ViewModel by using the ["with" binding]
             <div data-options="dxViewPlaceholder: { viewName: 'credentials' }"></div>
         </div>
     </div>
- 
- <!---->
 
     <!--JavaScript-->MyApp.home = function (params) {
         var viewModel = {

@@ -7,8 +7,6 @@ In DevExtreme, animations are defined by their configuration objects.
 		duration: 1000
 	}
 
-<!--...-->
-
 	<!--CSS-->.fade-out { opacity: 1; }
 	.fade-out-active { opacity: 0; }
 

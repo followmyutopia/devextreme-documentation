@@ -7,8 +7,6 @@ The following code adds the **FileUploader** to your page. To restrict the file 
 
     <!--HTML--><div id="fileUploaderContainer"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#fileUploaderContainer").dxFileUploader({
             accept: "image/*"

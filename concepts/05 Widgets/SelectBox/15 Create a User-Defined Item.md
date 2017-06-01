@@ -3,8 +3,6 @@ Besides selecting the existing values, a user can add new values to the **Select
     <!--HTML-->
     <div id="selectBoxContainer"></div>
 
-<!---->
-
     <!--JavaScript-->var selectBoxData = new DevExpress.data.DataSource({
     	store: [
             { id: 1, firstName: "Andrew" },

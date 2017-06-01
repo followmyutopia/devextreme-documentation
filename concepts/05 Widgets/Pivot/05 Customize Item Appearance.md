@@ -17,7 +17,9 @@ A **Pivot** item includes a view and a title. For a minor customization of **Piv
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize pivot items and item titles.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -42,8 +44,6 @@ Using the default item template is the easiest way to customize an item, but it 
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
         .controller('DemoController', function ($scope) {
@@ -63,7 +63,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note]The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxPivot: { 
@@ -86,8 +86,6 @@ Using the default item template is the easiest way to customize an item, but it 
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->
     var viewModel = {
         pivotItems: [{
@@ -105,6 +103,8 @@ Using the default item template is the easiest way to customize an item, but it 
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use jQuery alone, combine the HTML markup for items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxPivot/Configuration/#itemTemplate) or [itemTitleTemplate](/Documentation/ApiReference/UI_Widgets/dxPivot/Configuration/#itemTitleTemplate) callback function as shown in the following code.
 
@@ -159,8 +159,6 @@ You can also customize an individual view or title. For this purpose, declare a 
     <script id="individualTitleTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->
     var pivotItems = [{

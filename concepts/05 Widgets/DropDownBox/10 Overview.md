@@ -4,7 +4,9 @@ The **DropDownBox** is a widget that consists of a text field, which displays th
 
 The simplest widget configuration requires specifying a [dataSource](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#dataSource), [value](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#value) and [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#contentTemplate). The following code adds the **DropDownBox** to your page: 
 
-**jQuery**
+---
+
+#####**jQuery**
 
     <!--JavaScript-->
     $(function () {
@@ -25,7 +27,7 @@ The simplest widget configuration requires specifying a [dataSource](/Documentat
         });
     });
 
-**AngularJS**
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -56,7 +58,7 @@ The simplest widget configuration requires specifying a [dataSource](/Documentat
             }
         });
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxDropDownBox: dropDownBoxOptions">
@@ -82,6 +84,8 @@ The simplest widget configuration requires specifying a [dataSource](/Documentat
     };
     ko.applyBindings(viewModel);
 
+---
+
 If your data is an array of objects, specify: 
 
 - [valueExpr](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#valueExpr)     
@@ -90,8 +94,6 @@ If your data is an array of objects, specify:
     The data field whose value is displayed in the input field of the widget.
 
 <!---->
-
-**jQuery**
 
     <!--JavaScript-->
     $(function () {

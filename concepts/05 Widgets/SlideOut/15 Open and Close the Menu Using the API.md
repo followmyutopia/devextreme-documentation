@@ -34,7 +34,8 @@ In this code, the slide-out menu is being closed from within the **SlideOut** wi
 
 When using AngularJS or Knockout, you can still call these methods, but as an alternative, you can bind the [menuVisible](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#menuVisible) property of the **SlideOut** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the slide-out menu will be opened or closed.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-slide-out="{
@@ -54,8 +55,6 @@ When using AngularJS or Knockout, you can still call these methods, but as an al
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.products = [
@@ -74,7 +73,7 @@ When using AngularJS or Knockout, you can still call these methods, but as an al
             }
         });
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML--><div data-bind="dxSlideOut: {
         dataSource: products,
@@ -94,8 +93,6 @@ When using AngularJS or Knockout, you can still call these methods, but as an al
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->var viewModel= {
         products: [
             { text: "SuperLCD 42", price: "$1200" },
@@ -108,6 +105,8 @@ When using AngularJS or Knockout, you can still call these methods, but as an al
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 #####See Also#####
 - [SlideOut Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)

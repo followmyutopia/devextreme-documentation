@@ -9,8 +9,6 @@ To zoom the **Map**, set the [zoom](/Documentation/ApiReference/UI_Widgets/dxMap
 
     <!--HTML-->
     <div id="mapContainer"></div>
-     
-<!---->
  
     <!--JavaScript-->
     $(function() {

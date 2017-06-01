@@ -1,13 +1,13 @@
 For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for cells.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.currentDate = new Date();
         });
-
-<!---->
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-calendar="{
@@ -22,15 +22,13 @@ For AngularJS and Knockout apps, DevExtreme provides a markup component called [
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the cell object.
 
-**Knockout**
+#####**Knockout**
 
     <!--JavaScript-->var viewModel = {
         currentDate: new Date()
     };
 
     ko.applyBindings(viewModel);
-
-<!---->
 
     <!--HTML--><div data-bind="dxCalendar: {
         value: currentDate,
@@ -40,6 +38,8 @@ For AngularJS and Knockout apps, DevExtreme provides a markup component called [
             <span style="font-style:italic;" data-bind="text: text"></span>
         </div>
     </div>
+
+---
 
 If you use jQuery alone, combine the HTML markup for cells manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [cellTemplate](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#cellTemplate) callback function as shown in the following code.
 

@@ -26,7 +26,19 @@ For minor customization of nodes, you can use the default item template. This te
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize nodes.
 
-**AngularJS**
+---
+#####**AngularJS**
+
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-tree-view="{
+            dataSource: hierarchicalData,
+            itemTemplate: 'itemTemplate'
+        }" dx-item-alias="itemObj">
+            <div data-options="dxTemplate: { name: 'itemTemplate' }">
+                <i>{{ itemObj.text }}</i>
+            </div>
+        </div>
+    </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
@@ -47,23 +59,18 @@ Using the default item template is the easiest way to customize an item, but it 
             }];
         });
 
-<!---->    
-
-    <!--HTML--><div ng-controller="DemoController">
-        <div dx-tree-view="{
-            dataSource: hierarchicalData,
-            itemTemplate: 'itemTemplate'
-        }" dx-item-alias="itemObj">
-            <div data-options="dxTemplate: { name: 'itemTemplate' }">
-                <i>{{ itemObj.text }}</i>
-            </div>
-        </div>
-    </div>
-
-
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
+
+    <!--HTML--><div data-bind="dxTreeView: {
+        dataSource: hierarchicalData,
+        itemTemplate: 'itemTemplate'
+    }">
+        <div data-options="dxTemplate: { name: 'itemTemplate' } ">
+            <i data-bind="text: text"></i>
+        </div>
+    </div>
 
     <!--JavaScript-->var viewModel = {
         hierarchicalData: [{
@@ -85,16 +92,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
     ko.applyBindings(viewModel);
 
-<!---->
-
-    <!--HTML--><div data-bind="dxTreeView: {
-        dataSource: hierarchicalData,
-        itemTemplate: 'itemTemplate'
-    }">
-        <div data-options="dxTemplate: { name: 'itemTemplate' } ">
-            <i data-bind="text: text"></i>
-        </div>
-    </div>
+---
 
 If you use jQuery alone, combine the HTML markup manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply the markup to the **TreeView** nodes, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#itemTemplate) callback function.
 
@@ -113,8 +111,6 @@ You can also customize an individual node. For this purpose, declare a template 
     <script id="individualTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->var treeViewData = [{
         id: '1',

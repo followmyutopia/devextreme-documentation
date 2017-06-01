@@ -8,8 +8,6 @@ The following code adds a simple **Calendar** to your page.
     <!--HTML-->
     <div id="calendarContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#calendarContainer").dxCalendar({

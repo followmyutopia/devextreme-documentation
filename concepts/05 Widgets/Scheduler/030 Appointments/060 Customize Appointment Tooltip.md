@@ -1,6 +1,7 @@
 When a user clicks an appointment, the **Scheduler** shows a tooltip that can be customized. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for tooltips.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-scheduler="{
@@ -33,7 +34,7 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML--><div data-bind="dxScheduler: {
         dataSource: schedulerData,
@@ -60,6 +61,8 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use only jQuery, combine HTML markup for tooltips manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [appointmentTooltipTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#appointmentTooltipTemplate) callback function as shown in the following code.
 

@@ -60,8 +60,6 @@ Commonly, **Form** editors should be submitted to the server after being success
         <div id="validateSubmitButton"></div>
     </form>
 
-<!---->
-
     <!--JavaScript-->
     $(function () {
         $("#formWidget").dxForm({

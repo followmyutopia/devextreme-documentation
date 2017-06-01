@@ -7,8 +7,6 @@ The following code adds a simple **LoadIndicator** to your page. You can change 
     <!--HTML-->
     <div id="loadIndicatorContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#loadIndicatorContainer").dxLoadIndicator({

@@ -5,8 +5,6 @@ The **SlideOut** widget is a classic slide-out menu paired with a view. An end u
 The following code adds a primitive **SlideOut** to your page.
 
     <!--HTML--><div id="slideOutContainer"></div>
-
-<!---->
     
     <!--JavaScript-->$(function () {
         $("#slideOutContainer").dxSlideOut({
@@ -18,8 +16,6 @@ The following code adds a primitive **SlideOut** to your page.
             }
         });
     });
-
-<!---->
 
     <!--CSS-->#slideOutContainer {
         height: auto;

@@ -20,7 +20,8 @@ The **Box** widget allows you to arrange various elements within it. Separate an
 <!--fullDescription-->
 You can create the widget using one of the following approaches.
 
-- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+---
+#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div id="box">
             <div id="item1" data-options="dxItem: { ratio: 1, baseSize: 10 }">
@@ -42,7 +43,7 @@ You can create the widget using one of the following approaches.
             });
         });
 
-- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <dx-box
@@ -69,7 +70,7 @@ You can create the widget using one of the following approaches.
             </dxi-item>
         </dx-box>
 
-- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div dx-box="{
             direction: 'row',
@@ -87,7 +88,7 @@ You can create the widget using one of the following approaches.
             </div>
         </div>
 
-- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div data-bind="dxBox: {
             direction: 'row',
@@ -105,7 +106,7 @@ You can create the widget using one of the following approaches.
             </div>
         </div>
 
-- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
+#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#-->@(Html.DevExtreme().Box()
             .ID("box")
@@ -130,6 +131,8 @@ You can create the widget using one of the following approaches.
                 items.Add().Ratio(2).BaseSize(20).Template("<p>Item 3</p>")
             End Sub)
         )
+
+---
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

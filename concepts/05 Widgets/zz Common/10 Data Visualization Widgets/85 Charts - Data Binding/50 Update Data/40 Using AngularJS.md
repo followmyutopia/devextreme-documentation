@@ -8,7 +8,6 @@ In order to update data in your widget when using AngularJS, provide two-way bin
 			}
 		}"></div>
 	</div>
-<!---->
 
 	<!--JavaScript-->var myApp = angular.module('myApp', ['dx']);
 	myApp.controller('myController', function ($scope) {

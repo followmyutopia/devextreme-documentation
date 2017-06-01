@@ -27,7 +27,24 @@ For a minor customization of **Toolbar** items, you can use the default item tem
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize items on the toolbar and commands on the overflow menu.
 
-**AngularJS**
+---
+#####**AngularJS**
+
+    <!--HTML-->
+    <div ng-controller="DemoController">
+        <div dx-toolbar="{
+            items: toolbarItems,
+            itemTemplate: 'itemTemplate',
+            menuItemTemplate: 'menuItemTemplate'
+        }" dx-item-alias="itemObj">
+            <div data-options="dxTemplate: { name: 'itemTemplate' }">
+                <b style="color:green;">{{ itemObj.text }}</b>
+            </div>
+            <div data-options="dxTemplate: { name: 'menuItemTemplate' }">
+                <b style="font-style:italic;">{{ itemObj.text }}</b>
+            </div>
+        </div>
+    </div>
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -47,28 +64,23 @@ Using the default item template is the easiest way to customize an item, but it 
             }];
         });
 
-<!---->    
-
-    <!--HTML-->
-    <div ng-controller="DemoController">
-        <div dx-toolbar="{
-            items: toolbarItems,
-            itemTemplate: 'itemTemplate',
-            menuItemTemplate: 'menuItemTemplate'
-        }" dx-item-alias="itemObj">
-            <div data-options="dxTemplate: { name: 'itemTemplate' }">
-                <b style="color:green;">{{ itemObj.text }}</b>
-            </div>
-            <div data-options="dxTemplate: { name: 'menuItemTemplate' }">
-                <b style="font-style:italic;">{{ itemObj.text }}</b>
-            </div>
-        </div>
-    </div>
-
-
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
+
+    <!--HTML-->
+    <div data-bind="dxToolbar: {
+        items: toolbarItems,
+        itemTemplate: 'itemTemplate',
+        menuItemTemplate: 'menuItemTemplate'
+    }">
+        <div data-options="dxTemplate: { name: 'itemTemplate' } ">
+            <b style="color:green;" data-bind="text: text"></b>
+        </div>
+        <div data-options="dxTemplate: { name: 'menuItemTemplate' }">
+            <b style="font-style:italic;" data-bind="text: text"></b>
+        </div>
+    </div>
 
     <!--JavaScript-->var viewModel = {
         toolbarItems: [{
@@ -88,21 +100,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
     ko.applyBindings(viewModel);
 
-<!---->
-
-    <!--HTML-->
-    <div data-bind="dxToolbar: {
-        items: toolbarItems,
-        itemTemplate: 'itemTemplate',
-        menuItemTemplate: 'menuItemTemplate'
-    }">
-        <div data-options="dxTemplate: { name: 'itemTemplate' } ">
-            <b style="color:green;" data-bind="text: text"></b>
-        </div>
-        <div data-options="dxTemplate: { name: 'menuItemTemplate' }">
-            <b style="font-style:italic;" data-bind="text: text"></b>
-        </div>
-    </div>
+---
 
 If you use jQuery alone, combine the HTML markup manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply the markup to items on the toolbar and commands on the overflow menu, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/#itemTemplate) and [menuItemTemplate](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/#menuItemTemplate) callback functions, respectively.
 
@@ -129,8 +127,6 @@ You can also customize an individual toolbar item or menu command. For this purp
     <script id="individualMenuItemTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->
     var toolbarItems = [{

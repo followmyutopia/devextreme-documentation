@@ -5,8 +5,6 @@ When the **Popover** is shown, the area beneath it can be shaded. To enable this
         <p>Popover content</p>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
 		$("#popoverContainer").dxPopover({
             target: "#image",

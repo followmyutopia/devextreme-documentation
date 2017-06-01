@@ -10,8 +10,6 @@ By default, the slide-out menu is empty. To specify its content, declare a templ
         </div>
     </div>
 
-<!---->
-    
     <!--JavaScript-->$(function() {
     	var slideOutView = $("#slideOutView").dxSlideOutView({
             menuTemplate: 'treeView',
@@ -62,8 +60,6 @@ By default, the slide-out menu is empty. To specify its content, declare a templ
         });
     });
 
-<!---->
-
     <!--CSS-->#slideOutView {
         height: auto;
         position: absolute;
@@ -80,8 +76,6 @@ The **menuTemplate** option can also accept a function combining the HTML markup
             <div id="chart"></div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->$(function() {
     	var slideOutView = $("#slideOutView").dxSlideOutView({

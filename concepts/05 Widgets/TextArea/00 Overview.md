@@ -6,8 +6,6 @@ The following code adds a simple **TextArea** with a [placeholder](/Documentatio
 
     <!--HTML--><div id="textAreaContainer"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#textAreaContainer").dxTextArea({
             placeholder: "Type a text here..."

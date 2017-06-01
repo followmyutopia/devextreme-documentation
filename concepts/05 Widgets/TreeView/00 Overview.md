@@ -7,8 +7,6 @@ The following code adds a simple **TreeView** to your page.
 
     <!--HTML--><div id="treeViewContainer"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#treeViewContainer").dxTreeView({
             dataSource: [{

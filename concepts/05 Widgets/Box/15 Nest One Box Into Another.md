@@ -10,8 +10,6 @@ A nested **Box** is configured similarly to an ordinary **Box**. To nest one **B
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#boxContainer").dxBox({
             direction: "col",
@@ -24,8 +22,6 @@ A nested **Box** is configured similarly to an ordinary **Box**. To nest one **B
         	height: "100%"
         });
     });
-
-<!---->
 
     <!--CSS-->.box-item {
         text-align: center;

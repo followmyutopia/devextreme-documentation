@@ -2,6 +2,9 @@ To customize individual views, assign an array of configuration objects to the *
 
 The following code defines three views: the first is not customized, the second has specific cell duration and a custom template for the time scale, the third is grouped by resources.
 
+---
+#####jQuery
+
     <!--JavaScript-->
     var data = [{
         text: "Google AdWords Strategy",
@@ -50,7 +53,7 @@ The following code defines three views: the first is not customized, the second 
         });
     });
 
-**AngularJS**
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -105,7 +108,7 @@ The following code defines three views: the first is not customized, the second 
             $scope.currentDate = new Date(2016, 1, 1);
         });
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxScheduler: {
@@ -157,6 +160,8 @@ The following code defines three views: the first is not customized, the second 
     };
     
     ko.applyBindings(viewModel);
+
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
 

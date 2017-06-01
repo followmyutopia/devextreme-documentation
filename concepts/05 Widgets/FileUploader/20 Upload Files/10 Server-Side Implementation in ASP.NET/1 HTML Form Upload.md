@@ -1,4 +1,4 @@
-**C#**
+    <!--C#-->
 
     public ActionResult SyncUpload() {
 
@@ -43,7 +43,7 @@
         return View("Index");
     }
 
-**VB**
+    <!--VB-->
 
     Function SyncUpload() As ActionResult
         ' Specifies the target location for the uploaded files'

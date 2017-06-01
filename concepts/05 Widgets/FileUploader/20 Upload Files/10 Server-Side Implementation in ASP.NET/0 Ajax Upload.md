@@ -1,5 +1,4 @@
-**C#**
-
+    <!--C#-->
     public ActionResult AsyncUpload()
     {
         HttpPostedFileBase file = Request.Files["file"];
@@ -46,7 +45,7 @@
         return new EmptyResult();
     }
 
-**VB**
+    <!--VB-->
 
     Function AsyncUpload() As ActionResult
         Dim file As HttpPostedFileBase = Request.Files("file")

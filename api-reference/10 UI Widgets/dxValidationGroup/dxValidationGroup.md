@@ -24,7 +24,8 @@ Use the **ValidationGroup** widget to combine the editors to be validated, the *
 
 You can create the **ValidationGroup** widget using one of the following approaches.
 
-- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+---
+#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--JavaScript-->$(function() {
             var validationGroupName = "sampleGroup";
@@ -56,7 +57,7 @@ You can create the **ValidationGroup** widget using one of the following approac
         <div id="summary"></div>
         <div id="button"></div>
 
-- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <dx-validation-group>
@@ -76,7 +77,7 @@ You can create the **ValidationGroup** widget using one of the following approac
             <dx-button></dx-button>
         </dx-validation-group>
 
-- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div dx-validation-group="{ }" ng-controller="DemoController">
             <div dx-text-box="{ name: 'FirstName' }"
@@ -97,7 +98,7 @@ You can create the **ValidationGroup** widget using one of the following approac
             <div dx-button="{ }"></div>
         </div>
 
-- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div data-bind="dxValidationGroup: { }" >
             <div data-bind="dxTextBox: { name: 'FirstName' },
@@ -118,7 +119,7 @@ You can create the **ValidationGroup** widget using one of the following approac
             <div data-bind="dxButton: { }"></div>
         </div>
 
-- [**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
+#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
         <!--Razor C#-->using (Html.DevExtreme().ValidationGroup()) {
             @(Html.DevExtreme().TextBox()
@@ -156,6 +157,8 @@ You can create the **ValidationGroup** widget using one of the following approac
                 params.validationGroup.validate();
             }
         </script>
+
+---
 
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

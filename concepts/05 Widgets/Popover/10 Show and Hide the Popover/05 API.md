@@ -43,7 +43,8 @@ The **show()** method called without arguments shows the **Popover** for the [ta
 
 With AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#visible) property of the **Popover** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **Popover** will appear or disappear.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -65,8 +66,6 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
         }"></div>
     </div>
 
-<!---->
-
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.isPopoverVisible = false;
@@ -78,7 +77,7 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
             };
         });
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxPopover: {
@@ -100,10 +99,10 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
         }
     }"></div>
 
-<!---->
-
     <!--JavaScript-->var viewModel = {
         isPopoverVisible: ko.observable(false)
     };
 
     ko.applyBindings(viewModel);
+
+---

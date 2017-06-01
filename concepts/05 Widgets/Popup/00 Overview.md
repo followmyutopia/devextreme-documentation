@@ -10,8 +10,6 @@ The following code adds a simple **Popup** to your page, along with a [Button](/
     </div>
     <div id="buttonContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#popupContainer").dxPopup({

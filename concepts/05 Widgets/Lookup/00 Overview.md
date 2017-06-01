@@ -7,8 +7,6 @@ The following code adds the **Lookup** widget to your page. The simplest configu
     <!--HTML-->
     <div id="lookupContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#lookupContainer").dxLookup({

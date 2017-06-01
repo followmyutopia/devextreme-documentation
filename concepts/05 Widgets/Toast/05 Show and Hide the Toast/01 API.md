@@ -3,7 +3,7 @@
 To show or hide the **Toast** programmatically, call the [show()](/Documentation/ApiReference/UI_Widgets/dxToast/Methods/#show) or [hide()](/Documentation/ApiReference/UI_Widgets/dxToast/Methods/#hide) method. The same thing can be done using the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxToast/Methods/#toggleshowing) method. Pass *true* or *false* to this method to show or hide the **Toast**, respectively.
 
     <!--JavaScript-->$(function() {
-		$("#toastContainer").dxToast({
+        $("#toastContainer").dxToast({
             message: "Connection problem",
             type: "error"
         });
@@ -20,7 +20,8 @@ To show or hide the **Toast** programmatically, call the [show()](/Documentation
 
 With AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#visible) property of the **Toast** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **Toast** will appear or disappear.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-toast="{
@@ -36,8 +37,6 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
         }"></div>
     </div>
 
-<!---->
-
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.isToastVisible = false;
@@ -46,7 +45,7 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
             }
         });
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML--><div data-bind="dxToast: {
         message: 'Connection problem',
@@ -60,10 +59,10 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
         }
     }"></div>
 
-<!---->
-
     <!--JavaScript-->var viewModel = {
         isToastVisible: ko.observable(false)
     };
 
     ko.applyBindings(viewModel);
+
+---

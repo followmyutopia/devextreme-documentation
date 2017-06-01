@@ -6,8 +6,6 @@ The following code adds a simple **List** to your page. The simplest configurati
 
     <!--HTML--><div id="listContainer"></div>
 
-<!---->
-
     <!--JavaScript-->var fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
 
     $(function() {

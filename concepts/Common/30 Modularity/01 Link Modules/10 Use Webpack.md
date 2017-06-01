@@ -44,8 +44,8 @@ Then, create the bundle.
 
 The example below demonstrates how to create an application with a single button using modules, and how to configure [Webpack](http://webpack.github.io/docs/) to pick up and bundle all the required scripts to your application.  
 
-
-####jQuery Approach####
+---
+#####jQuery####
 
 You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/master/webpack-jquery) from GitHub. To use it, follow the instructions on GitHub. 
 
@@ -99,7 +99,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
     </html>
 
 
-####AngularJS Approach####
+#####AngularJS####
 
 [note]To use AngularJS and DevExtreme widget modules with Webpack, load the DevExtreme integration and angular modules.  
 
@@ -163,7 +163,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
     </html>
 
 
-####Knockout Approach####
+#####Knockout####
 
 [note]To use KnockoutJS and DevExtreme widget modules with Webpack, load the DevExtreme integration module.  
 
@@ -221,3 +221,5 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
     </body>
 
     </html>
+
+---

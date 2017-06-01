@@ -21,7 +21,8 @@ An item in the **TabPanel** widget includes a tab and a view. For a minor custom
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize tab panel items.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -43,8 +44,6 @@ Using the default item template is the easiest way to customize an item, but it 
             </div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     var dataItems = [{
@@ -77,7 +76,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxTabPanel: {
@@ -97,8 +96,6 @@ Using the default item template is the easiest way to customize an item, but it 
             </div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     var dataItems = [{
@@ -129,6 +126,8 @@ Using the default item template is the easiest way to customize an item, but it 
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use jQuery alone, combine the HTML markup for items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTemplate) and [itemTitleTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTitleTemplate) callback functions for views and tabs, respectively.
 
@@ -173,8 +172,6 @@ You can also customize an individual view or tab. For this purpose, declare a te
     <script id="individualTabTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->
     var tabPanelData = [{

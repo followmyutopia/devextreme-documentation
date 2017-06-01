@@ -8,6 +8,4 @@ You can also apply icons from the library to custom elements in your application
         color: #aaa;
     }
 
-<!---->
-
     <!--HTML--><a href="#index"><span class="dx-icon-home icon"></span> Home</a>

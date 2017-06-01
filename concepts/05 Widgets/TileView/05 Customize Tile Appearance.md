@@ -12,7 +12,8 @@ For a minor customization of tiles, you can use the default item template. This 
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize tiles.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -30,8 +31,6 @@ Using the default item template is the easiest way to customize an item, but it 
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function ($scope) {
             $scope.tileViewData =  [
@@ -42,8 +41,6 @@ Using the default item template is the easiest way to customize an item, but it 
             ];
         });
 
-<!---->
-
     <!--CSS-->.tile {
         border-radius: .5em;
         text-align: center;
@@ -53,7 +50,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxTileView: {
@@ -69,8 +66,6 @@ Using the default item template is the easiest way to customize an item, but it 
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->var viewModel = {
         tileViewData: [
             { name: "Alabama", capital: "Montgomery" },
@@ -82,14 +77,14 @@ Using the default item template is the easiest way to customize an item, but it 
 
     ko.applyBindings(viewModel);
 
-<!---->
-
     <!--CSS-->.tile {
         border-radius: .5em;
         text-align: center;
         color: white;
         background: gray;
     }
+
+---
 
 If you use jQuery alone, combine the HTML markup for items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTileView/Configuration/#itemTemplate) callback function.
 
@@ -113,8 +108,6 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
         });
     });
 
-<!---->
-
     <!--CSS-->.tile {
         border-radius: .5em;
         text-align: center;
@@ -128,8 +121,6 @@ You can also customize an individual tile. For this purpose, declare a template 
     <script id="individualTileTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->var tileViewData = [
         { name: "Alabama", capital: "Montgomery" },

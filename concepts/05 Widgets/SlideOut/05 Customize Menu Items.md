@@ -18,8 +18,6 @@ For a minor customization of menu items, you can use the default item template. 
         });
     });
 
-<!---->
-
     <!--CSS-->#slideOutContainer {
         height: auto;
         position: absolute;
@@ -30,7 +28,22 @@ For a minor customization of menu items, you can use the default item template. 
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize the items of a slide-out menu.
 
-**AngularJS**
+---
+
+#####**AngularJS**
+
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-slide-out="{
+            dataSource: menuData,
+            menuItemTemplate: 'items',
+            onItemClick: hideMenu
+        }" dx-item-alias="item">
+            <div data-options="dxTemplate: { name: 'items' }">
+                <span class="dx-icon-{{ item.icon }}"></span> 
+                <span style="margin-left:10px">{{ item.text }}</span>
+            </div>
+        </div>
+    </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
@@ -49,24 +62,22 @@ Using the default item template is the easiest way to customize an item, but it 
             };
         });
 
-<!---->
-
-    <!--HTML--><div ng-controller="DemoController">
-        <div dx-slide-out="{
-            dataSource: menuData,
-            menuItemTemplate: 'items',
-            onItemClick: hideMenu
-        }" dx-item-alias="item">
-            <div data-options="dxTemplate: { name: 'items' }">
-                <span class="dx-icon-{{ item.icon }}"></span> 
-                <span style="margin-left:10px">{{ item.text }}</span>
-            </div>
-        </div>
-    </div>
-
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
+
+    <!--HTML--><div data-bind="dxSlideOut: {
+        dataSource: menuData,
+        menuItemTemplate: 'items',
+        onItemClick: function (e) {
+            e.component.hideMenu();
+        }
+    }">
+        <div data-options="dxTemplate: { name: 'items' }">
+            <span data-bind="css: 'dx-icon-' + icon"></span>
+            <span style="margin-left:10px" data-bind="text: text"></span>
+        </div>
+    </div>
 
     <!--JavaScript-->var viewModel = {
         menuData: [
@@ -83,20 +94,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
     ko.applyBindings(viewModel);
 
-<!---->
-
-    <!--HTML--><div data-bind="dxSlideOut: {
-        dataSource: menuData,
-        menuItemTemplate: 'items',
-        onItemClick: function (e) {
-            e.component.hideMenu();
-        }
-    }">
-        <div data-options="dxTemplate: { name: 'items' }">
-            <span data-bind="css: 'dx-icon-' + icon"></span>
-            <span style="margin-left:10px" data-bind="text: text"></span>
-        </div>
-    </div>
+---
 
 If you use jQuery alone, combine the HTML markup for menu items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [menuItemTemplate](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#menuItemTemplate) callback function as shown in the following code.
 
@@ -131,8 +129,6 @@ You can also customize an individual menu item. For this purpose, declare a temp
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->var menuItems = [
         { text: "Home" },

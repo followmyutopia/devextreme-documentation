@@ -15,7 +15,8 @@ Specifies markup for a widget item.
 <!--fullDescription-->
 The **dxItem** component defines custom markup for items in layout and collection widgets. **dxItem** has different options depending on the widget where it is used. See the **Default Item Template** section in a specific widget's API Reference for a full list of them.
 
-- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+---
+#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div id="navBarContainer">
@@ -30,7 +31,7 @@ The **dxItem** component defines custom markup for items in layout and collectio
             </div>
         </div>
 
-- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div dx-nav-bar="{ }">
@@ -45,7 +46,7 @@ The **dxItem** component defines custom markup for items in layout and collectio
             </div>
         </div>
 
-- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div data-bind="dxNavBar: { }">
@@ -60,6 +61,7 @@ The **dxItem** component defines custom markup for items in layout and collectio
             </div>
         </div>
 
+---
 
 [note]**dxItem** elements are ignored when the **dataSource** option is defined.
 <!--/fullDescription-->

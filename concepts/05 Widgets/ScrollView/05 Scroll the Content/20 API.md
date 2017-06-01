@@ -65,8 +65,6 @@ To scroll the content to a specific element, call the [scrollToElement(targetLoc
         <div id="end"></div>
     </div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         var scrollView = $("#scrollViewContainer").dxScrollView({

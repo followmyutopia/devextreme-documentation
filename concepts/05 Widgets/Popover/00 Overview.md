@@ -9,8 +9,6 @@ The following code creates a simple **Popover** on your page and attaches it to 
         <p>Popover content</p>
     </div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#popoverContainer").dxPopover({

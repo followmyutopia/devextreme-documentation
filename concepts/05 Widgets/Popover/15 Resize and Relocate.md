@@ -5,8 +5,6 @@ To change the size of the **Popover**, specify the [height](/Documentation/ApiRe
         <p>Popover content</p>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
 		$("#popoverContainer").dxPopover({
             target: "#image",

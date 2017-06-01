@@ -22,7 +22,8 @@ The field chooser is already integrated in the **PivotGrid** and can be invoked 
 
 You can add the **PivotGridFieldChooser** widget using one of the following approaches.
 
-- [**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+---
+#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
         <!--JavaScript-->var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
             // ...
@@ -39,7 +40,7 @@ You can add the **PivotGridFieldChooser** widget using one of the following appr
         <!--HTML--><div id="fieldChooser"></div>
         <div id="pivotGrid"></div>
 
-- [**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <dx-pivot-grid-field-chooser [dataSource]="pivotGridDataSource"></dx-pivot-grid-field-chooser>
@@ -52,7 +53,7 @@ You can add the **PivotGridFieldChooser** widget using one of the following appr
             });
         }
 
-- [**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
         <!--HTML--><div ng-controller="DemoController">
             <div dx-pivot-grid-field-chooser="{
@@ -70,7 +71,7 @@ You can add the **PivotGridFieldChooser** widget using one of the following appr
                 });
             });
 
-- [**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
         <!--HTML-->
         <div data-bind="dxPivotGridFieldChooser: {
@@ -86,6 +87,8 @@ You can add the **PivotGridFieldChooser** widget using one of the following appr
             })
         };
         ko.applyBindings(viewModel);
+
+---
 
 Both the **PivotGridFieldChooser** and the **PivotGrid** must be bound to one and the same instance of the [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/). Create the **PivotGridDataSource** individually and then assign it to both widgets as shown in the code above.
 

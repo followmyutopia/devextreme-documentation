@@ -70,24 +70,8 @@ In the following code, a marker is added each time a user clicks someplace on th
 
 With AngularJS or Knockout, use a different technique. Bind the **markers** option of the **Map** widget to a scope property (in AngularJS) or an observable array (in Knockout). 
 
-**AngularJS**
-
-    <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function DemoController($scope) {
-            $scope.mapMarkers = [
-                { location: "40.749825, -73.090443" },
-                { location: "42.743244, -71.594375" }
-            ];
-            $scope.addMarker = function (e) {
-                $scope.mapMarkers.push({ location: e.location });
-            }
-            $scope.removeMarker = function () {
-                $scope.mapMarkers.pop();
-            };
-        });
-
-<!---->
+---
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -104,7 +88,33 @@ With AngularJS or Knockout, use a different technique. Bind the **markers** opti
         }"></div>
     </div>
 
-**Knockout**
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.mapMarkers = [
+                { location: "40.749825, -73.090443" },
+                { location: "42.743244, -71.594375" }
+            ];
+            $scope.addMarker = function (e) {
+                $scope.mapMarkers.push({ location: e.location });
+            }
+            $scope.removeMarker = function () {
+                $scope.mapMarkers.pop();
+            };
+        });
+
+#####**Knockout**
+
+    <!--HTML-->
+    <div data-bind="dxMap: { 
+        zoom: 10,
+        onClick: addMarker,
+        markers: mapMarkers 
+    }"></div>
+    <div data-bind="dxButton: {
+        text: 'Remove the Last Marker',
+        onClick: removeMarker
+    }"></div>
 
     <!--JavaScript-->
     var viewModel = {
@@ -122,18 +132,7 @@ With AngularJS or Knockout, use a different technique. Bind the **markers** opti
 
     ko.applyBindings(viewModel);
 
-<!---->
-
-    <!--HTML-->
-    <div data-bind="dxMap: { 
-        zoom: 10,
-        onClick: addMarker,
-        markers: mapMarkers 
-    }"></div>
-    <div data-bind="dxButton: {
-        text: 'Remove the Last Marker',
-        onClick: removeMarker
-    }"></div>
+---
 
 #####See Also#####
 - [Map - Customize Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/Customize/)

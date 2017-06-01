@@ -16,7 +16,8 @@ For a minor customization of **TagBox** items, you can use the default item temp
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for the **TagBox** items.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -32,8 +33,6 @@ Using the default item template is the easiest way to customize an item, but it 
             </div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -53,7 +52,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxTagBox: {
@@ -67,8 +66,6 @@ Using the default item template is the easiest way to customize an item, but it 
             <div style="display:inline-block" data-bind="text: name"></div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     var viewModel = {
@@ -86,6 +83,8 @@ Using the default item template is the easiest way to customize an item, but it 
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use jQuery alone, combine the HTML markup for items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#itemTemplate) callback function as shown in the following code.
 
@@ -124,8 +123,6 @@ You can also customize an individual item in the drop-down list. For this purpos
         <!-- ... -->
     </script>
 
-<!---->
-
     <!--JavaScript-->
     var tagBoxData = [
         { text: "SuperHD Player"},
@@ -135,7 +132,22 @@ You can also customize an individual item in the drop-down list. For this purpos
 
 Using similar techniques, you can also customize tags of the selected items. The template for them should be assigned to the [tagTemplate](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#tagTemplate) option. 
 
-**AngularJS**
+---
+#####**jQuery**
+
+    <!--JavaScript-->
+    $(function() {
+        $("#tagBoxContainer").dxTagBox({
+            dataSource: tagBoxData,
+            valueExpr: 'id',
+            displayExpr: 'name',
+            tagTemplate: function (itemData, tagElement) {
+                tagElement.append("<p><b>" + itemData.name + "</b> (" + itemData.id + ")</p>");
+            }
+        });
+    });
+
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -151,7 +163,7 @@ Using similar techniques, you can also customize tags of the selected items. The
         </div>
     </div>
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxTagBox: {
@@ -165,19 +177,7 @@ Using similar techniques, you can also customize tags of the selected items. The
         </div>
     </div>
 
-**jQuery**
-
-    <!--JavaScript-->
-    $(function() {
-        $("#tagBoxContainer").dxTagBox({
-            dataSource: tagBoxData,
-            valueExpr: 'id',
-            displayExpr: 'name',
-            tagTemplate: function (itemData, tagElement) {
-                tagElement.append("<p><b>" + itemData.name + "</b> (" + itemData.id + ")</p>");
-            }
-        });
-    });
+---
 
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine) article.
 

@@ -1,6 +1,8 @@
 By default, group headers contain the text of the **key** field in a bold font. You can define a custom template for group headers if you need to. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for group headers.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -18,8 +20,6 @@ By default, group headers contain the text of the **key** field in a bold font. 
             </div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -53,7 +53,7 @@ By default, group headers contain the text of the **key** field in a bold font. 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxList: {
@@ -69,8 +69,6 @@ By default, group headers contain the text of the **key** field in a bold font. 
             <p data-bind="text: name + ' | ' + count" style="margin:0"></p>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->var fruitsVegetables = [{
         // ...
@@ -92,6 +90,8 @@ By default, group headers contain the text of the **key** field in a bold font. 
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use jQuery alone, combine the HTML markup for group headers manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [groupTemplate](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#groupTemplate) callback function as shown in the following code.
 

@@ -20,10 +20,8 @@ If you are going to reuse the **Toast**, then create it on the page using the fo
     <!--HTML--><div id="toastContainer"></div>
     <div id="buttonContainer"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
-		$("#toastContainer").dxToast({
+        $("#toastContainer").dxToast({
             message: "Connection problem",
             type: "error"
         });

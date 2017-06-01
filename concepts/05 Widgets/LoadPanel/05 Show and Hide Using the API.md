@@ -2,24 +2,25 @@
 
 To show or hide the **LoadPanel** programmatically, call the [show()](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#show) or [hide()](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#hide) method. The same thing can be done using the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#toggleshowing) method. Pass *true* or *false* to this method to show or hide the **LoadPanel**, respectively.
 
-[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+---
+#####**jQuery**
 
-    <!--JavaScript-->$(function() {
-		$("#loadPanelContainer").dxLoadPanel({
+    <!--JavaScript-->
+    $(function() {
+        $("#loadPanelContainer").dxLoadPanel({
             closeOnOutsideClick: true
         });
-        
         $("#buttonContainer").dxButton({
             text: "Show the Load Panel", 
             onClick: function () {
                 $("#loadPanelContainer").dxLoadPanel("show");
-                // ---------- or ----------
+                // ==== or ====
                 $("#loadPanelContainer").dxLoadPanel("toggle", true);
             } 
         });
     });
 
-[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
+#####ASP.NET MVC Controls
 
     <!--Razor C#-->
     @(Html.DevExtreme().LoadPanel()
@@ -33,7 +34,7 @@ To show or hide the **LoadPanel** programmatically, call the [show()](/Documenta
         .OnClick(@<text>
             function () {
                 $("#loadPanel").dxLoadPanel("show");
-                // ---------- or ----------
+                // ==== or ====
                 $("#loadPanel").dxLoadPanel("toggle", true);
             } 
         </text>)
@@ -54,14 +55,18 @@ To show or hide the **LoadPanel** programmatically, call the [show()](/Documenta
     <script>
         function button_click() {
             $("#loadPanel").dxLoadPanel("show");
-            // ---------- or ----------
+            // ==== or ====
             $("#loadPanel").dxLoadPanel("toggle", true);
         }
     </script>
 
+---
+
 With AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#visible) property of the **LoadPanel** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **LoadPanel** will appear or disappear.
 
-[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) 
+---
+
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) 
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-load-panel="{
@@ -76,8 +81,6 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
         }"></div>
     </div>
 
-<!---->
-
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.isLoadPanelVisible = false;
@@ -86,7 +89,7 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
             }
         });
 
-[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div data-bind="dxLoadPanel: {
         closeOnOutsideClick: true,
@@ -99,13 +102,13 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
         }
     }"></div>
 
-<!---->
-
     <!--JavaScript-->var viewModel = {
         isLoadPanelVisible: ko.observable(false)
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 To execute certain commands before or after the **LoadPanel** is shown/hidden, handle the [showing](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#showing), [shown](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#shown), [hiding](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#hiding) or [hidden](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#hidden) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option. For example, in the following code, a handler of the **shown** event is assigned to the [onShown](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#onShown) option. This handler hides the **LoadPanel** three seconds after it was shown.
 

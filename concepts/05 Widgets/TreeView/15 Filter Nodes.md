@@ -1,11 +1,10 @@
 To filter **TreeView** nodes, assign a filtering string to the [searchValue](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#searchValue) option. The following code shows an example of the **TreeView** widget whose nodes can be filtered using the [TextBox](/Documentation/Guide/Widgets/TextBox) widget.
 
-#### jQuery ####
+---
+##### jQuery
 
     <!--HTML--><div id="textBoxContainer"></div>
     <div id="treeViewContainer" style="display:block;"></div>
-
-<!---->
 
     <!--JavaScript-->var fruitsVegetables = [{
         name: 'Fruits',
@@ -27,7 +26,6 @@ To filter **TreeView** nodes, assign a filtering string to the [searchValue](/Do
             keyExpr: 'name',
             displayExpr: 'name'
         });
-
         $("#textBoxContainer").dxTextBox({
             width: 300,
             mode: 'search',
@@ -38,28 +36,7 @@ To filter **TreeView** nodes, assign a filtering string to the [searchValue](/Do
         });
     });
 
-#### AngularJS ####
-
-    <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function DemoController($scope) {
-            $scope.filteringString = '';
-            $scope.fruitsVegetables = [{
-                name: 'Fruits',
-                items: [
-                    { name: 'Apples' },
-                    { name: 'Oranges' }
-                ]
-            }, {
-                name: 'Vegetables',
-                items: [
-                    { name: 'Cucumbers' },
-                    { name: 'Tomatoes' }
-                ]
-            }];
-        });
-
-<!---->    
+##### AngularJS
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -81,7 +58,39 @@ To filter **TreeView** nodes, assign a filtering string to the [searchValue](/Do
         }" style="display:block;"></div>
     </div>
 
-#### Knockout ####
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.filteringString = '';
+            $scope.fruitsVegetables = [{
+                name: 'Fruits',
+                items: [
+                    { name: 'Apples' },
+                    { name: 'Oranges' }
+                ]
+            }, {
+                name: 'Vegetables',
+                items: [
+                    { name: 'Cucumbers' },
+                    { name: 'Tomatoes' }
+                ]
+            }];
+        });
+
+##### Knockout
+
+    <!--HTML--><div data-bind="dxTextBox: {
+        width: 300,
+        mode: 'search',
+        valueChangeEvent: 'keyup',
+        value: filteringString
+    }"></div>
+    <div data-bind="dxTreeView: {
+        dataSource: fruitsVegetables,
+        keyExpr: 'name',
+        displayExpr: 'name',
+        searchValue: filteringString
+    }" style="display:block;"></div>
 
     <!--JavaScript-->var viewModel = {
         filteringString: ko.observable(''),
@@ -102,20 +111,7 @@ To filter **TreeView** nodes, assign a filtering string to the [searchValue](/Do
 
     ko.applyBindings(viewModel);
 
-<!---->
-
-    <!--HTML--><div data-bind="dxTextBox: {
-        width: 300,
-        mode: 'search',
-        valueChangeEvent: 'keyup',
-        value: filteringString
-    }"></div>
-    <div data-bind="dxTreeView: {
-        dataSource: fruitsVegetables,
-        keyExpr: 'name',
-        displayExpr: 'name',
-        searchValue: filteringString
-    }" style="display:block;"></div>
+---
 
 #####See Also#####
 - [TreeView - Access a Node](/Documentation/Guide/Widgets/TreeView/Access_a_Node)

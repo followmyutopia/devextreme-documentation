@@ -1,6 +1,7 @@
 Instead of delivering DevExtreme and other required libraries with your app, you can load them from Content Delivery Network (CDN) services. Depending on the library or framework you use in your app, link the needed resources within the `<head>` tag of your index page in the given order.
 
-- **jQuery**
+---
+##### **jQuery**
 
         <!--HTML-->
         <!-- DevExtreme dependencies -->
@@ -15,7 +16,7 @@ Instead of delivering DevExtreme and other required libraries with your app, you
         <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_1/js/dx.viz.js"></script> -->
         <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_1/js/dx.viz-web.js"></script> -->
 
-- **Knockout**
+##### **Knockout**
 
         <!--HTML-->
         <!-- DevExtreme dependencies -->
@@ -32,7 +33,7 @@ Instead of delivering DevExtreme and other required libraries with your app, you
         <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_1/js/dx.viz.js"></script> -->
         <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_1/js/dx.viz-web.js"></script> -->
 
-- **AngularJS**
+##### **AngularJS**
 
         <!--HTML-->
         <!-- DevExtreme dependencies -->
@@ -48,6 +49,8 @@ Instead of delivering DevExtreme and other required libraries with your app, you
         <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_1/js/dx.web.js"></script> -->
         <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_1/js/dx.viz.js"></script> -->
         <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_1/js/dx.viz-web.js"></script> -->
+
+---
 
 [note] DevExtreme provides a wide selection of predefined themes designed specifically for each platform. For more information, see the [Predefined Themes](/Documentation/Guide/Themes/Predefined_Themes/) article.
 

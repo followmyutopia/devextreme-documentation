@@ -1,6 +1,8 @@
 DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) for AngularJS and Knockout apps. The following code shows how you can customize column cells using this component. Note that the template's [name](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/Configuration/#name) is assigned to the column's [cellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#cellTemplate) option. 
 
-[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)
+---
+
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -19,7 +21,7 @@ DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiRef
 
 [note] The `dx-item-alias` directive specifies the variable used to access cell settings.
 
-[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)
 
     <!--HTML-->
     <div data-bind="dxTreeList: {
@@ -33,6 +35,8 @@ DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiRef
             <div style="color:blue" data-bind="text: $data.text"></div>
         </div>
     </div>
+
+---
 
 If you use jQuery alone, combine the HTML markup for cells using jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the **cellTemplate** function as shown in the following code:
 

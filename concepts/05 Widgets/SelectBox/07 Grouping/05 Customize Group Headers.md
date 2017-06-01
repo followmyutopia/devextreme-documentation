@@ -1,6 +1,7 @@
 By default, group headers display text of the **key** field in a bold font. You can define a custom template for the group headers if you need to. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for group headers.
 
-**AngularJS**
+---
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -49,7 +50,7 @@ By default, group headers display text of the **key** field in a bold font. You 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxSelectBox: {
@@ -84,6 +85,8 @@ By default, group headers display text of the **key** field in a bold font. You 
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use jQuery alone, combine HTML markup for group headers manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [groupTemplate](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#groupTemplate) callback function as shown in the following code.
 

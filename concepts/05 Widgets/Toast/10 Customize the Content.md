@@ -39,8 +39,6 @@ If you need to render different templates depending on a specific condition, def
     </div>
     <div id="buttonContainer"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         var toast = $("#toastContainer").dxToast({
             type: "custom",

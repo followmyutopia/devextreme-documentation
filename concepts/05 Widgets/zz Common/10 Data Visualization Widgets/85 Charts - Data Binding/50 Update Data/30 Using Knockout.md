@@ -5,8 +5,6 @@ The **dataSource** option, like any other option **from the first level** of the
 		...
 	}"></div>
 
-<!---->
-
     <!--JavaScript-->var myViewModel = {
         observableChartDataSource: ko.observableArray(data),
         //...

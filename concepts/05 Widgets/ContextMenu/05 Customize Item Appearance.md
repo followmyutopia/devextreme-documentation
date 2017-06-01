@@ -15,7 +15,9 @@ For a minor customization of **ContextMenu** items, you can use the default item
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize context menu items.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
@@ -25,8 +27,6 @@ Using the default item template is the easiest way to customize an item, but it 
                 { text: "Download", icon: "download" }
             ];
         });
-
-<!---->
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-context-menu="{
@@ -43,7 +43,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--JavaScript-->var viewModel = {
         contextMenuItems: [
@@ -55,8 +55,6 @@ Using the default item template is the easiest way to customize an item, but it 
 
     ko.applyBindings(viewModel);
 
-<!---->
-
     <!--HTML--><div data-bind="dxContextMenu: {
         items: contextMenuItems,
         itemTemplate: 'items',
@@ -67,6 +65,8 @@ Using the default item template is the easiest way to customize an item, but it 
             <i style="margin-left:5px" data-bind="text: text"></i>
         </div>
     </div>
+
+---
 
 If you use jQuery alone, combine the HTML markup for context menu items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#itemTemplate) callback function as shown in the following code.
 
@@ -96,8 +96,6 @@ You can also customize an individual context menu item. For this purpose, declar
     <!--HTML--><script id="individualTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->var contextMenuItems = [
         { text: "Zoom In" },

@@ -13,20 +13,8 @@ For a minor customization of tabs, you can use the default item template. This t
 
 Using the default item template is the easiest way to customize a tab, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize tabs.
 
-**AngularJS**
-
-    <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function ($scope) {
-            $scope.tabItems = [
-                { text: 'User' },
-                { text: 'Comment' },
-                { text: 'Find' },
-                // . . .
-            ];
-        });
-
-<!---->
+---
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -40,10 +28,31 @@ Using the default item template is the easiest way to customize a tab, but it la
         </div>
     </div>
 
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function ($scope) {
+            $scope.tabItems = [
+                { text: 'User' },
+                { text: 'Comment' },
+                { text: 'Find' },
+                // . . .
+            ];
+        });
+
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
+
+    <!--HTML-->
+    <div data-bind="dxTabs: {
+        items: tabItems,
+        itemTemplate: 'tab'
+    }">
+        <div data-options="dxTemplate: { name: 'tab' } ">
+            <p data-bind="text: text" style="color:#6600cc;"></p>
+        </div>
+    </div>
 
     <!--JavaScript-->var viewModel = {
         tabItems: [
@@ -56,17 +65,7 @@ Using the default item template is the easiest way to customize a tab, but it la
 
     ko.applyBindings(viewModel);
 
-<!---->    
-
-    <!--HTML-->
-    <div data-bind="dxTabs: {
-        items: tabItems,
-        itemTemplate: 'tab'
-    }">
-        <div data-options="dxTemplate: { name: 'tab' } ">
-            <p data-bind="text: text" style="color:#6600cc;"></p>
-        </div>
-    </div>
+---
 
 If you use jQuery alone, combine the HTML markup for tabs manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTabs/Configuration/#itemTemplate) callback function.
 
@@ -90,8 +89,6 @@ You can also customize an individual tab. For this purpose, declare a template f
     <script id="individualTabTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->
     var tabs = [{

@@ -53,7 +53,26 @@ To add or remove a route at runtime, call the [addRoute(routeOptions)](/Document
 
 With AngularJS or Knockout, use a different technique. Bind the **routes** option of the **Map** widget to a scope property (in AngularJS) or an observable array (in Knockout). 
 
-**AngularJS**
+---
+#####**AngularJS**
+
+    <!--HTML-->
+    <div ng-controller="DemoController">
+        <div dx-map="{
+            zoom: 10,
+            bindingOptions: {
+                routes: 'mapRoutes'
+            }
+        }"></div>
+        <div dx-button="{
+            text: 'Add the Route',
+            onClick: addRoute
+        }"></div>
+        <div dx-button="{
+            text: 'Remove the Route',
+            onClick: removeRoute
+        }"></div>
+    </div>
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -77,29 +96,23 @@ With AngularJS or Knockout, use a different technique. Bind the **routes** optio
             };
         });
 
-<!---->
+#####**Knockout**
 
     <!--HTML-->
-    <div ng-controller="DemoController">
-        <div dx-map="{
-            zoom: 10,
-            bindingOptions: {
-                routes: 'mapRoutes'
-            }
-        }"></div>
+    <div data-bind="dxMap: { 
+        zoom: 10,
+        routes: mapRoutes 
+    }"></div>
 
-        <div dx-button="{
-            text: 'Add the Route',
-            onClick: addRoute
-        }"></div>
+    <div data-bind="dxButton: {
+        text: 'Add the Route',
+        onClick: addRoute
+    }"></div>
 
-        <div dx-button="{
-            text: 'Remove the Route',
-            onClick: removeRoute
-        }"></div>
-    </div>
-
-**Knockout**
+    <div data-bind="dxButton: {
+        text: 'Remove the Route',
+        onClick: removeRoute
+    }"></div>
 
     <!--JavaScript-->
     var viewModel = {
@@ -124,23 +137,7 @@ With AngularJS or Knockout, use a different technique. Bind the **routes** optio
 
     ko.applyBindings(viewModel);
 
-<!---->
-
-    <!--HTML-->
-    <div data-bind="dxMap: { 
-        zoom: 10,
-        routes: mapRoutes 
-    }"></div>
-
-    <div data-bind="dxButton: {
-        text: 'Add the Route',
-        onClick: addRoute
-    }"></div>
-
-    <div data-bind="dxButton: {
-        text: 'Remove the Route',
-        onClick: removeRoute
-    }"></div>
+---
 
 #####See Also#####
 - [Map - Customize Routes](/Documentation/Guide/Widgets/Map/Configure_Routes/Customize/)

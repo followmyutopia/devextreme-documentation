@@ -7,8 +7,6 @@ The following code adds the **Menu** widget to your page. Note that the data sou
 
     <!--HTML--><div id="menuContainer"></div>
 
-<!---->
-
     <!--JavaScript-->var menuItems = [{
         name: "Video Players",
         items: [

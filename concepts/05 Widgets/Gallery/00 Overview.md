@@ -6,8 +6,6 @@ The following code adds the **Gallery** widget to your page. The simplest config
 
     <!--HTML--><div id="galleryContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function () {
         $("#galleryContainer").dxGallery({

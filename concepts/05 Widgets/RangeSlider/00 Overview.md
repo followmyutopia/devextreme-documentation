@@ -7,8 +7,6 @@ The following code adds a simple **RangeSlider** to your page. The **start** and
     <!--HTML-->
     <div id="rangeSliderContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#rangeSliderContainer").dxRangeSlider({

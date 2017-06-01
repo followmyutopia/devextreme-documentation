@@ -15,8 +15,6 @@ In the following example, the [List](/Documentation/ApiReference/UI_Widgets/dxLi
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->MyApp.Products = function(params, viewInfo) {
         var isReady = $.Deferred();
         return {

@@ -9,11 +9,9 @@ The following code adds a simple **ScrollView** to your page. The [width](/Docum
         <!-- Here goes long content -->
     </div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
-		$("#scrollViewContainer").dxScrollView({
+        $("#scrollViewContainer").dxScrollView({
             height: 500,
             width: 500,
             direction: 'both' // or 'horizontal' | 'vertical'
@@ -24,7 +22,7 @@ The **ScrollView** employs native scrolling on most platforms, except desktops. 
 
     <!--JavaScript-->
     $(function() {
-		$("#scrollViewContainer").dxScrollView({
+        $("#scrollViewContainer").dxScrollView({
             useNative: true
         });
     });
@@ -33,7 +31,7 @@ If simulated scrolling is used, you can specify when to show the scrollbar. For 
 
     <!--JavaScript-->
     $(function() {
-		$("#scrollViewContainer").dxScrollView({
+        $("#scrollViewContainer").dxScrollView({
             useNative: false,
             showScrollbar: 'always' // or 'onScroll' | 'onHover' | 'never'
         });

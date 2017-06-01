@@ -3,8 +3,6 @@ Besides selecting the existing values, a user can add new values to the **TagBox
     <!--HTML-->
     <div id="tagBoxContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     var tagBoxData = new DevExpress.data.DataSource({
     	store: [

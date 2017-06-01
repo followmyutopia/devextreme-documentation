@@ -10,7 +10,6 @@ Similar to the [slide-out menu](/Documentation/Guide/Widgets/SlideOutView/Custom
         </div>
     </div>
 
-<!---->
     
     <!--JavaScript-->$(function() {
     	var slideOutView = $("#slideOutView").dxSlideOutView({
@@ -59,7 +58,6 @@ Similar to the [slide-out menu](/Documentation/Guide/Widgets/SlideOutView/Custom
         });
     });
 
-<!---->
 
     <!--CSS-->#slideOutView {
         height: auto;
@@ -77,8 +75,6 @@ The **contentTemplate** option can also accept a function combining the HTML mar
             <div id="treeView"></div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->$(function() {
     	var slideOutView = $("#slideOutView").dxSlideOutView({

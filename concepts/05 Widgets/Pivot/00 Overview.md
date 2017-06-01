@@ -7,8 +7,6 @@ The following code adds a primitive **Pivot** widget to your page.
     <!--HTML-->
     <div id="pivotContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#pivotContainer").dxPivot({

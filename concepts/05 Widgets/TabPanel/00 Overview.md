@@ -8,8 +8,6 @@ The following code adds a simple **TabPanel** to your page.
     <!--HTML-->
     <div id="tabPanelContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#tabPanelContainer").dxTabPanel({

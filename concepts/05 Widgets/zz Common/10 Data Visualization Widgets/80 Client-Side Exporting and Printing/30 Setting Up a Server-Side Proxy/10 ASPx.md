@@ -1,12 +1,9 @@
 If your server runs the ASP.NET web application framework, you can implement a proxy using the following HTTP handler.
 
-**С#**
-
+    <!--C#-->
     using System;
     using System.Web;
-
     namespace ExportService {
-
         public class ExportHandler : IHttpHandler {
             public void ProcessRequest(HttpContext context) {
                 if(context.Request.Form["contentType"] != null && 
@@ -30,17 +27,12 @@ If your server runs the ASP.NET web application framework, you can implement a p
         }
     }
 
-
-**Visual Basic**
-
+    <!--VB-->
     Imports System
     Imports System.Web
-
     Namespace ExportService
-
         Public Class ExportHandler
             Implements IHttpHandler
-
             Public Sub ProcessRequest(ByVal context As HttpContext) Implements IHttpHandler.ProcessRequest
                 If context.Request.Form("contentType") IsNot Nothing AndAlso
                    context.Request.Form("fileName")    IsNot Nothing AndAlso
@@ -56,12 +48,10 @@ If your server runs the ASP.NET web application framework, you can implement a p
                     context.Response.End()
                 End If
             End Sub
-
             Public ReadOnly Property IsReusable() As Boolean Implements IHttpHandler.IsReusable
                 Get
                     Return False
                 End Get
             End Property
         End Class
-
     End Namespace

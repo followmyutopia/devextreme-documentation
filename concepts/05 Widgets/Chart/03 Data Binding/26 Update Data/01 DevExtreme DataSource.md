@@ -1,10 +1,12 @@
 This technique is universal for any data source as anything passed to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) option of the **Chart** ends up wrapped in the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). To get the **DataSource** instance, call the [getDataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getDataSource) method of the **Chart**.
 
-**jQuery**
+---
+
+#####**jQuery**
 
     <!--JavaScript-->var ds = $("#chartContainer").dxChart("getDataSource");
 
-**AngularJS**
+#####**AngularJS**
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function ($scope) {
@@ -17,7 +19,7 @@ This technique is universal for any data source as anything passed to the [dataS
             };
         });
 
-**Knockout**
+#####**Knockout**
 
     <!--JavaScript-->var viewModel = {
         ds: {},
@@ -31,6 +33,8 @@ This technique is universal for any data source as anything passed to the [dataS
     
     ko.applyBindings(viewModel);
     
+---
+
 After that, you need to access the underlying [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores) with the [store()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#store) method, and call the [insert(values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#insertvalues), [update(key, values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#updatekey_values) or [remove(key)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#removekey) method of the Store to modify data. Note that in order to use the **update(key, values)** and **remove(key)** methods, you need to specify the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) property for the Store. After all modifications are made, call the [load](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method in the **DataSource** instance to make the **Chart** reflect the changes.
 
     <!--JavaScript-->ds.store().update("Oranges", { count: 10 });

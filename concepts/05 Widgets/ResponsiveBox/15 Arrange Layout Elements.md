@@ -71,8 +71,6 @@ Every layout element has the [location](/Documentation/ApiReference/UI_Widgets/d
         </div>
     </body>
 
-<!---->
-
     <!--CSS-->#responsiveBoxContainer p {
         font-size: 16px;
         padding-top: 10px;

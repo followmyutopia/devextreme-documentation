@@ -62,7 +62,6 @@ If you need to render different templates depending on a specific condition, def
         </div>
     </div>
 
-<!---->
 
     <!--JavaScript-->$(function() {
         $("#buttonContainer").dxButton({
@@ -75,8 +74,6 @@ If you need to render different templates depending on a specific condition, def
             }
         });
     });
-
-<!---->
 
     <!--CSS-->#buttonContainer {
         height: 50px;

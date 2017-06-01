@@ -22,8 +22,6 @@ Paging settings are configured in the [DevExtreme DataSource](/Documentation/Api
         });
     });
 
-<!---->
-
     <!--CSS-->.item-text {
         display: inline-block;
         vertical-align: middle;

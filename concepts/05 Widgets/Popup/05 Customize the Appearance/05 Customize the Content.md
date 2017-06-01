@@ -46,8 +46,6 @@ If you need to render different templates depending on a specific condition, def
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         var popup = $("#popupContainer").dxPopup({

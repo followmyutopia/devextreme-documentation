@@ -5,8 +5,6 @@ The **Popover** has two toolbars: top and bottom. Items on these toolbars can be
         <p>Popover content</p>
     </div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#popoverContainer").dxPopover({

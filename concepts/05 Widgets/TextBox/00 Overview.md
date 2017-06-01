@@ -6,8 +6,6 @@ The following code adds a simple **TextBox** with a [placeholder](/Documentation
 
     <!--HTML--><div id="textBoxContainer" style="width:300px"></div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#textBoxContainer").dxTextBox({
             placeholder: "Type a text here..."

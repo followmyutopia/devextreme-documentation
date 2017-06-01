@@ -37,8 +37,8 @@ Then, link **RequireJS** and define the [configuration object](http://requirejs.
 
 The example below demonstrates how to create an application with a single button using the modules from a local directory. 
 
-
-####jQuery Approach####
+---
+#####jQuery####
 
 You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/master/requirejs-jquery) from GitHub. To use it, follow the instructions on GitHub.
 
@@ -68,10 +68,8 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
             "devextreme": "node_modules/devextreme"
           }
         });
-
         // Loads the required scripts.
         require(["jquery", "devextreme/ui/dialog", "devextreme/ui/button"], function($, dialog) {
-
           $("#myButton").dxButton({
             text: "Say 'Hello world'",
             onClick: function() {
@@ -81,11 +79,9 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
         });
       </script>
     </body>
-
     </html>
 
-
-####AngularJS Approach####
+#####AngularJS####
 
 [note] To use AngularJS and DevExtreme widget modules with RequireJS, load the DevExtreme [integration](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/angular) and angular modules.
 
@@ -128,11 +124,9 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
             }
           }
         });
-
         // Loads the required scripts. Note that for correct integration with AngularJS,
         // you should load the DevExtreme integration module.
         require(["angular", "devextreme/ui/dialog", "devextreme/integration/angular", "devextreme/ui/button"], function(angular, dialog) {
-
           var myApp = angular.module('myApp', ['dx']);
           myApp.controller("myController", function($scope) {
             $scope.buttonOptions = {
@@ -142,7 +136,6 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
               }
             };
           });
-
           angular.bootstrap(document, ['myApp']);
         });
       </script>
@@ -150,8 +143,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
     </html>
 
-
-####Knockout Approach####
+#####Knockout####
 
 [note]To use KnockoutJS and DevExtreme widget modules with RequireJS, load the DevExtreme [integration module](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/knockout).
 
@@ -183,7 +175,6 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
             "devextreme": "node_modules/devextreme"
           }
         });
-
         // Loads the required scripts. Note that for correct integration with KnockoutJS,
         // you should load the devExtreme integration module.
         require(["knockout", "devextreme/ui/dialog", "devextreme/integration/knockout", "devextreme/ui/button"], function(ko, dialog) {
@@ -201,5 +192,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
     </body>
 
     </html>
+
+---
 
 [note]We recommend you use other approaches (for example, [webpack](/Documentation/Guide/Common/Modularity/#Link_Modules/Use_Webpack) or [jspm](/Documentation/Guide/Common/Modularity/#Link_Modules/Use_jspm)) for better productivity.

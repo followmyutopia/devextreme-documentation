@@ -25,8 +25,6 @@ If you need to define the **Popover** content, specify a template for it. You ca
         <div id="switchContainer"></div>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#popoverContainer").dxPopover({
             target: "#image",
@@ -53,8 +51,6 @@ If you need to render different templates depending on a specific condition, def
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         var popover = $("#popoverContainer").dxPopover({
             target: "#image",
@@ -74,8 +70,6 @@ If you need to render different templates depending on a specific condition, def
             } 
         });
     });
-
-<!---->
 
     <!--CSS-->#buttonContainer {
         display: block;

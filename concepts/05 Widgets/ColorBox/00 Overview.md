@@ -7,8 +7,6 @@ The following code adds a simple **ColorBox** to your page.
     <!--HTML-->
     <div id="colorBoxContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#colorBoxContainer").dxColorBox({

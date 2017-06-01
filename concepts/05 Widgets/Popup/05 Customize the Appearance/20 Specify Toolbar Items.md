@@ -5,8 +5,6 @@ The **Popup** has two toolbars: top and bottom. Items on these toolbars can be p
         <p>Popup content</p>
     </div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#popupContainer").dxPopup({

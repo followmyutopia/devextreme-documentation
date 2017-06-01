@@ -38,7 +38,22 @@ Indicates whether or not the current row is expanded. This field is useful if th
 
 When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the row template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. Note that dxTemplate should be bound to a `<table>` HTML element.
 
-* **Knockout**
+---
+#####AngularJS
+
+        <!--HTML--><div dx-data-grid="{
+            <!-- other grid settings go here -->
+            rowTemplate: 'rowTemplateName'
+        }">
+            <table data-options="dxTemplate: { name: 'rowTemplateName' }" >
+                <tr>
+                    <td>{{data.id}}</td>
+                    <td>{{data.name}}</td>
+                </tr>
+            </table>
+        </div>
+
+#####Knockout
 
         <!--HTML--><div data-bind="dxDataGrid: {
             <!-- other grid settings go here -->
@@ -52,19 +67,7 @@ When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://ang
             </table>
         </div>
 
-* **AngularJS**
-
-        <!--HTML--><div dx-data-grid="{
-            <!-- other grid settings go here -->
-            rowTemplate: 'rowTemplateName'
-        }">
-            <table data-options="dxTemplate: { name: 'rowTemplateName' }" >
-                <tr>
-                    <td>{{data.id}}</td>
-                    <td>{{data.name}}</td>
-                </tr>
-            </table>
-        </div>
+---
 
 It is also possible to define a row template in markup. For this purpose, use one of the following template engines. The cell settings mentioned above can be accessed in a similar manner inside the template.
 

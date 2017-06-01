@@ -5,8 +5,6 @@ When the **Popup** is shown, the area beneath it can be shaded. To enable this b
         <p>Popup content</p>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
 		$("#popupContainer").dxPopup({
             title: "Popup Title",

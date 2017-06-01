@@ -6,8 +6,6 @@ The following code adds a simple **Button** to your page.
 
     <!--HTML--><div id="buttonContainer"></div>
 
-<!---->
-
     <!--JavaScript-->$(function () {
         $("#buttonContainer").dxButton({
             text: "OK",

@@ -7,8 +7,6 @@ The following code adds a simple **DateBox** to your page.
     <!--HTML-->
     <div id="dateBoxContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#dateBoxContainer").dxDateBox({

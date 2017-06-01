@@ -21,8 +21,6 @@ If you need to define the title completely, specify a template for it. To do thi
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#popoverContainer").dxPopover({
             target: "#image",
@@ -39,8 +37,6 @@ If you need to define the title completely, specify a template for it. To do thi
     <div id="popoverContainer">
         <p>Popover content</p>
     </div>
-
-<!---->
 
     <!--JavaScript-->$(function() {
         $("#popoverContainer").dxPopover({
@@ -68,8 +64,6 @@ Just as you switch [content templates](/Documentation/Guide/Widgets/Popover/Cust
         </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         var popover = $("#popoverContainer").dxPopover({
             target: "#image",
@@ -91,7 +85,6 @@ Just as you switch [content templates](/Documentation/Guide/Widgets/Popover/Cust
         });
     });
 
-<!---->
 
     <!--CSS-->#buttonContainer {
         display: block;

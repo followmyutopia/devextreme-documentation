@@ -7,8 +7,6 @@ The following code adds a simple **RadioGroup** to your page. Here, the [value](
     <!--HTML-->
     <div id="radioGroupContainer"></div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
         $("#radioGroupContainer").dxRadioGroup({

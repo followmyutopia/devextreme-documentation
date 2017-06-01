@@ -14,7 +14,9 @@ For a minor customization of **List** items, you can use the default item templa
 
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for **List** items.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -28,8 +30,6 @@ Using the default item template is the easiest way to customize an item, but it 
             </div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -45,7 +45,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxList: {
@@ -58,7 +58,6 @@ Using the default item template is the easiest way to customize an item, but it 
         </div>
     </div>
 
-<!---->
 
     <!--JavaScript-->
     var viewModel = {
@@ -72,6 +71,8 @@ Using the default item template is the easiest way to customize an item, but it 
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use jQuery alone, combine the HTML markup for items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#itemTemplate) callback function as shown in the following code.
 
@@ -102,8 +103,6 @@ You can also customize an individual **List** item. For this purpose, declare a 
     <script id="individualTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->
     var fruits = [

@@ -5,15 +5,11 @@ You can apply custom CSS styles to widget elements. For this purpose, assign a c
         Popup content
     </div>
 
-<!---->
-
     <!--JavaScript-->
     $("#myPopover").dxPopup({
         visible: true,
         title: 'My Popup'
     });
-
-<!---->
 
     <!--CSS-->
     .custom-popup .dx-popup-title {

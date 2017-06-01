@@ -1,6 +1,8 @@
 To customize views in the **MultiView**, define a custom template for them. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for **MultiView** views.
 
-**AngularJS**
+---
+
+#####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController" style="height: 100%;">
@@ -18,8 +20,6 @@ To customize views in the **MultiView**, define a custom template for them. For 
             </div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -44,7 +44,7 @@ To customize views in the **MultiView**, define a custom template for them. For 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML-->
     <div data-bind="dxMultiView: { dataSource: multiViewItems, itemTemplate: 'item' }">
@@ -58,8 +58,6 @@ To customize views in the **MultiView**, define a custom template for them. For 
             </div>
         </div>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     var viewModel = {
@@ -95,6 +93,8 @@ To customize views in the **MultiView**, define a custom template for them. For 
     };
 
     ko.applyBindings(viewModel);
+
+---
 
 If you use jQuery alone, combine the HTML markup for items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#itemTemplate) callback function as shown in the following code.
 
@@ -139,8 +139,6 @@ You can also customize an individual view. For this purpose, declare a template 
     <script id="individualTemplate" type="text/html">
         <!-- ... -->
     </script>
-
-<!---->
 
     <!--JavaScript-->var multiViewItems = [
         { text: "Personal Data" },

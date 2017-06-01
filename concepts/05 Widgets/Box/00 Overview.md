@@ -10,16 +10,12 @@ The following code adds a simple **Box** containing three items to your page. Th
         <div class="box-item green"  data-options="dxItem: { ratio: 1 }"> Item 3 </div>
     </div>
 
-<!---->
-
     <!--JavaScript-->$(function() {
         $("#boxContainer").dxBox({
             direction: "row",
             height: 100
         });
     });
-
-<!---->
 
     <!--CSS-->.box-item {
         text-align: center;

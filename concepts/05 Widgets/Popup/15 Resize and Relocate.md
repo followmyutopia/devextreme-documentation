@@ -5,11 +5,9 @@ To change the size of the **Popup**, specify the [height](/Documentation/ApiRefe
         <p>Popup content</p>
     </div>
 
-<!---->
-
     <!--JavaScript-->
     $(function() {
-		$("#popupContainer").dxPopup({
+        $("#popupContainer").dxPopup({
             title: "Popup Title",
             visible: true,
             height: 300,
@@ -21,7 +19,7 @@ To allow an end user to resize the **Popup**, assign *true* to the [resizeEnable
 
     <!--JavaScript-->
     $(function() {
-		$("#popupContainer").dxPopup({
+        $("#popupContainer").dxPopup({
             title: "Popup Title",
             visible: true,
             resizeEnabled: true
@@ -31,7 +29,7 @@ To allow an end user to resize the **Popup**, assign *true* to the [resizeEnable
 If you need to position the **Popup** against a specific element on your page, set the [position](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#position) option.
 
     <!--JavaScript-->$(function() {
-		$("#popupContainer").dxPopup({
+        $("#popupContainer").dxPopup({
             title: "Popup Title",
             visible: true,
             position: {
@@ -47,7 +45,7 @@ This configuration of the **position** option reads as follows: "place **my** _l
 By default, an end user is allowed to change the **Popup** position only on desktops. To enable this feature on other devices too, set the [dragEnabled](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#dragEnabled) option to *true*. Note that the user drags the **Popup** by its title, so the title should _not_ be hidden.  
 
     <!--JavaScript-->$(function() {
-		$("#popupContainer").dxPopup({
+        $("#popupContainer").dxPopup({
             title: "Popup Title",
             visible: true,
             dragEnabled: true

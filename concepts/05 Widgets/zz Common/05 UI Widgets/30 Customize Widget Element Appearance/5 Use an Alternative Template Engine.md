@@ -39,8 +39,6 @@ You can define a template out of the widget element. For example, if you use a s
         </div>
     </script>
 
-<!---->
-
     <!--JavaScript-->
     DevExpress.ui.setTemplateEngine("underscore");
 
@@ -51,6 +49,7 @@ You can define a template out of the widget element. For example, if you use a s
 
 If a template is used only in a single widget, you can define it within the widget element using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component.
 
+    <!--HTML-->
     <div id="gallery">
         <script type="text/html" id="item-template" data-options="dxTemplate: {name: 'galleryItem'}">
             <div>
@@ -64,8 +63,6 @@ If a template is used only in a single widget, you can define it within the widg
             </div>
         </script>
     </div>
-
-<!---->
 
     <!--JavaScript-->
     DevExpress.ui.setTemplateEngine("underscore");
