@@ -1,0 +1,50 @@
+The **TreeList** widget raises events before and after a row is inserted, updated or removed from the data source. If the event handlers are going to remain unchanged during the widget's lifetime, assign them to corresponding **on*EventName*** options:
+
+- [onRowInserting](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowInserting)
+- [onRowInserted](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowInserted)
+- [onRowUpdating](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowUpdating)
+- [onRowUpdated](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowUpdated)
+- [onRowRemoving](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowRemoving)
+- [onRowRemoved](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowRemoved)
+
+<!---->
+
+    <!--JavaScript-->
+    $(function(){
+        $("#treeListContainer").dxTreeList({
+            // ...
+            onRowInserting: function(e) {
+                // Handler of the "rowInserting" event
+            }
+        });
+    });
+
+If you are going to change the event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#oneventName_eventHandler) method.
+
+    <!--JavaScript-->
+    var rowUpdatingEventHandler1 = function(e) {
+        // First handler of the "rowUpdating" event
+    };
+    
+    var rowUpdatingEventHandler2 = function(e) {
+        // Second handler of the "rowUpdating" event
+    };
+    
+    $("#treeListContainer").dxTreeList("instance")
+        .on("rowUpdating", rowUpdatingEventHandler1)
+        .on("rowUpdating", rowUpdatingEventHandler2);
+
+In addition, the **TreeList** raises the [initNewRow](/Documentation/ApiReference/UI_Widgets/dxTreeList/Events/#initNewRow) event when a new row is added and the [editingStart](/Documentation/ApiReference/UI_Widgets/dxTreeList/Events/#editingStart) event when a row enters the editing state. These events can be handled just like others - using the **on*EventName*** option or the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#oneventName_eventHandler) method. In the following example, the [onInitNewRow](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onInitNewRow) event handler specifies initial values for an added row:
+
+    <!--JavaScript-->
+    $("#treeListContainer").dxTreeList({
+        // ...
+        onInitNewRow: function(e) {
+            // Sets an initial value for the "Hire_Date" field
+            e.data.Hire_Date = new Date();
+            // Handler of the "initNewRow" event
+        }
+    });
+    
+#####See Also#####
+- **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
