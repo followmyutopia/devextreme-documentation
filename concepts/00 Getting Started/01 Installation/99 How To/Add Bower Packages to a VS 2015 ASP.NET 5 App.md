@@ -2,27 +2,27 @@ The Visual Studio 2015 MVC 5 Web Application template supports Bower out of the 
 
 1. Open the *bower.json* file located in the root folder of your application project.
 
-2. Find the `dependencies` section in this file, put a comma after the last entry and copy-paste the following line.
+2. Find the `dependencies` section in this file, put a comma after the last entry and copy-paste the following line:
 
         "devextreme": "~17.1" // restores DevExtreme
 
-    Wait a few seconds until the libraries are loaded. DevExtreme scripts will be located in the **wwwroot/lib/devextreme** folder.
+    Wait a few seconds for the libraries to load. DevExtreme scripts are be located in the **wwwroot/lib/devextreme** folder.
 
-3. Link the needed libraries within the `<head>` tag of your index page.
+3. Link the needed libraries within your index page's `<head>` tag.
 
         <!--HTML-->
-        <script type="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
         . . .
-        <script type="text/javascript" src="/lib/devextreme/js/dx.all.js"></script>
-        <!-- <script type="text/javascript" src="/lib/devextreme/js/dx.mobile.js"></script> -->
-        <!-- <script type="text/javascript" src="/lib/devextreme/js/dx.web.js"></script> -->
-        <!-- <script type="text/javascript" src="/lib/devextreme/js/dx.viz.js"></script> -->
-        <!-- <script type="text/javascript" src="/lib/devextreme/js/dx.viz-web.js"></script> -->
+        <script type="text/javascript" src="lib/devextreme/js/dx.all.js"></script>
+        <!-- <script type="text/javascript" src="lib/devextreme/js/dx.mobile.js"></script> -->
+        <!-- <script type="text/javascript" src="lib/devextreme/js/dx.web.js"></script> -->
+        <!-- <script type="text/javascript" src="lib/devextreme/js/dx.viz.js"></script> -->
+        <!-- <script type="text/javascript" src="lib/devextreme/js/dx.viz-web.js"></script> -->
         <!-- Styles -->
-        <link rel="stylesheet" type="text/css" href="/bower-components/devextreme/css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="/bower-components/devextreme/css/dx.light.css" />
+        <link rel="stylesheet" type="text/css" href="bower-components/devextreme/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="bower-components/devextreme/css/dx.light.css" />
 
-[note]The Knockout and AngularJS libraries are not included in the DevExtreme Bower packages or their dependencies.
+[note]The Knockout and AngularJS libraries are not included in the DevExtreme Bower package or its dependencies.
 
 #####See Also#####
 - [Bower Package](/Documentation/Guide/Getting_Started/Installation/Bower_Package)

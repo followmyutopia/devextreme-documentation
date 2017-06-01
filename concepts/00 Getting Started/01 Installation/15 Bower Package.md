@@ -20,32 +20,32 @@ After installation is completed, you can find all the libraries in the **bower_c
     <script type="text/javascript" src="/bower-components/jquery/dist/jquery.min.js"></script>
 
     <!-- Reference either Knockout or AngularJS, if you do -->
-    <script type="text/javascript" src="/bower_components/knockout/dist/knockout.js"></script>
-    <script type="text/javascript" src="/bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/knockout/dist/knockout.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
 
     <!-- Reference Globalize if you need to localize app or your app uses custom date, number or currency formatting --> 
-    <script type="text/javascript" src="/bower_components/cldrjs/dist/cldr.js"></script>
-    <script type="text/javascript" src="/bower_components/cldrjs/dist/cldr/event.js"></script>
-    <script type="text/javascript" src="/bower_components/cldrjs/dist/cldr/supplemental.js"></script>
-    <script type="text/javascript" src="/bower_components/globalize/dist/globalize.js"></script>
-    <script type="text/javascript" src="/bower_components/globalize/dist/globalize/message.js"></script>
-    <script type="text/javascript" src="/bower_components/globalize/dist/globalize/number.js"></script>
-    <script type="text/javascript" src="/bower_components/globalize/dist/globalize/currency.js"></script>
-    <script type="text/javascript" src="/bower_components/globalize/dist/globalize/date.js"></script>
+    <script type="text/javascript" src="bower_components/cldrjs/dist/cldr.js"></script>
+    <script type="text/javascript" src="bower_components/cldrjs/dist/cldr/event.js"></script>
+    <script type="text/javascript" src="bower_components/cldrjs/dist/cldr/supplemental.js"></script>
+    <script type="text/javascript" src="bower_components/globalize/dist/globalize.js"></script>
+    <script type="text/javascript" src="bower_components/globalize/dist/globalize/message.js"></script>
+    <script type="text/javascript" src="bower_components/globalize/dist/globalize/number.js"></script>
+    <script type="text/javascript" src="bower_components/globalize/dist/globalize/currency.js"></script>
+    <script type="text/javascript" src="bower_components/globalize/dist/globalize/date.js"></script>
 
     <!-- Reference JSZip script if you need client-side export -->
-    <script type="text/javascript" src="/bower_components/jszip/dist/jszip.js"></script>
+    <script type="text/javascript" src="bower_components/jszip/dist/jszip.js"></script>
 
     <!-- DevExtreme themes -->
-    <link rel="stylesheet" type="text/css" href="/bower-components/devextreme/css/dx.common.css" />
-    <link rel="stylesheet" type="text/css" href="/bower-components/devextreme/css/dx.light.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/devextreme/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="bower_components/devextreme/css/dx.light.css" />
 
     <!-- A DevExtreme library -->
-    <script type="text/javascript" src="/bower-components/devextreme/js/dx.all.js"></script>
-    <!-- <script type="text/javascript" src="/bower-components/devextreme/js/dx.mobile.js"></script> -->
-    <!-- <script type="text/javascript" src="/bower-components/devextreme/js/dx.web.js"></script> -->
-    <!-- <script type="text/javascript" src="/bower-components/devextreme/js/dx.viz.js"></script> -->
-    <!-- <script type="text/javascript" src="/bower-components/devextreme/js/dx.viz-web.js"></script> -->
+    <script type="text/javascript" src="bower-components/devextreme/js/dx.all.js"></script>
+    <!-- <script type="text/javascript" src="bower_components/devextreme/js/dx.mobile.js"></script> -->
+    <!-- <script type="text/javascript" src="bower_components/devextreme/js/dx.web.js"></script> -->
+    <!-- <script type="text/javascript" src="bower_components/devextreme/js/dx.viz.js"></script> -->
+    <!-- <script type="text/javascript" src="bower_components/devextreme/js/dx.viz-web.js"></script> -->
     
 #####See Also#####
 - [Install Bower](https://bower.io/#install-bower)

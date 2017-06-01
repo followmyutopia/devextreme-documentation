@@ -11,6 +11,14 @@ Copy the new JavaScript files from the **[Sources]**/**Lib**/**js** DevExtreme f
 - **Update Layouts**  
 Copy the new [layout](/Documentation/Guide/SPA_Framework/Built-in_Layouts/) files from the **[Sources]**/**Lib**/**layouts** DevExtreme folder to the equivalent folder in your applications.
 
-You can find all these resources in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 17.1\DevExtreme** by default
+You can find all these resources in the DevExtreme zip archive or in the DevExtreme folder, which is **C:\Program Files (x86)\DevExpress 17.1\DevExtreme** by default.
 
-[note]If you customized layouts or stylesheets in your apps, do not replace them, but rather merge them with the ones supplied by the new DevExtreme version. 
+[note]If you customized layouts or stylesheets in your apps, do not replace them, but rather merge them with the ones supplied in the new DevExtreme version. 
+
+When using bower, npm, or NuGet, you can upgrade DevExtreme libraries by running the commands mentioned in the following topics:
+
+- [npm Package](/Documentation/Guide/Getting_Started/Installation/npm_Package/)
+- [Bower Package](/Documentation/Guide/Getting_Started/Installation/Bower_Package/)
+- [NuGet Package](/Documentation/Guide/Getting_Started/Installation/NuGet_Package/)
+
+If you use our CDN links, just replace the version in them (see [CDN Services](/Documentation/Guide/Getting_Started/Installation/CDN_Services/)).
