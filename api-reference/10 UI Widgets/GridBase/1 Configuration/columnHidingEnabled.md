@@ -10,17 +10,17 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the widget should hide columns in order to adapt to the screen or container size.
+Specifies whether the widget should hide columns to adapt to the screen or container size. Ignored if [allowColumnResizing]({basewidgetpath}/Configuration/#allowColumnResizing) is **true** and [columnResizingMode]({basewidgetpath}/Configuration/#columnResizingMode) is *"widget"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Displaying the widget in your app, you may want to use different layouts for different screen sizes. While desktop monitors provide enough space to display all columns, mobile screens do not. In that case, you can enable the widget to hide certain columns automatically if they do not fit into the screen size. For this purpose, assign *true* to the **columnHidingEnabled** option. Information from hidden columns will still be available in the adaptive detail row.
+When displaying the widget in your app, you may want to use different layouts for different screen sizes. While desktop monitors provide enough space to display all columns, mobile screens do not. You can enable the widget to hide certain columns automatically if they do not fit into the screen size by assigning *true* to the **columnHidingEnabled** option. Information from hidden columns is available in the adaptive detail row.
 
-When hiding columns, the widget uses the following principles.
+When hiding columns, the widget uses the following principles:
 
-1. The lesser the [hidingPriority]({basewidgetpath}/Configuration/columns/#hidingPriority) is, the more probably the widget will hide this column. When you do not specify hiding priorities explicitly, their values ascend from right to left beginning with 0. This means that the widget hides the rightmost columns at first.
-2. If the [width of a column]({basewidgetpath}/Configuration/columns/#width) is specified, this column will be hidden only if it does not fit into the [width of the widget]({basewidgetpath}/Configuration/#width).
-3. If the width of a column is not specified, this column will be hidden only if its content overflows it.
+1. The lower the [hidingPriority]({basewidgetpath}/Configuration/columns/#hidingPriority), the higher the probability that the widget hides this column. When you do not specify hiding priorities, their values ascend from right to left beginning with 0. This means that the widget hides the rightmost columns at first.
+2. If the [width of a column]({basewidgetpath}/Configuration/columns/#width) is specified, this column is hidden only if it exceeds the [width of the widget]({basewidgetpath}/Configuration/#width).
+3. If the width of a column is not specified, this column is hidden only if its content overflows it.
 
 #####See Also#####
 - [onAdaptiveDetailRowPreparing]({basewidgetpath}/Configuration/#onAdaptiveDetailRowPreparing)
