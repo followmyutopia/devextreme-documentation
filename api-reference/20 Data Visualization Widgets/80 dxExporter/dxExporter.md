@@ -31,32 +31,32 @@ You can add the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function() {
-            $("#exportMenu").dxExporter({
-                // ...
-             });
-        });
+    <!--JavaScript-->$(function() {
+        $("#exportMenu").dxExporter({
+            // ...
+            });
+    });
 
-        <!--HTML--><div id="exportMenu"></div>
+    <!--HTML--><div id="exportMenu"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-exporter></dx-exporter>
+    <!--HTML-->
+    <dx-exporter></dx-exporter>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-exporter="{
-            // ...
-        }"></div>
+    <!--HTML-->
+    <div dx-exporter="{
+        // ...
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxExporter: {
-            // ...
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxExporter: {
+        // ...
+    }"></div>
 
 ---
 

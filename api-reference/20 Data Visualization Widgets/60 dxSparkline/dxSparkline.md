@@ -50,138 +50,138 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->var temperature = [
-            { month: "January", day: 6, night: 2 },
-            { month: "February", day: 7, night: 2 },
-            { month: "March", day: 10, night: 3 },
-            { month: "April", day: 14, night: 5 },
-            { month: "May", day: 18, night: 8 },
-            { month: "June", day: 21, night: 11 },
-            { month: "July", day: 22, night: 13 },
-            { month: "August", day: 22, night: 13 },
-            { month: "September", day: 19, night: 11 },
-            { month: "October", day: 15, night: 8 },
-            { month: "November", day: 10, night: 5 },
-            { month: "December", day: 7, night: 3 }
-        ];
-        $(function () {
-            $("#daySparkline").dxSparkline({
-                dataSource: temperature,
-                argumentField: 'month',
-                valueField: 'day',
-                type: 'bar'
-            });
-            $("#nightSparkline").dxSparkline({
-                dataSource: temperature,
-                argumentField: 'month',
-                valueField: 'night',
-                type: 'bar'
-            });
+    <!--JavaScript-->var temperature = [
+        { month: "January", day: 6, night: 2 },
+        { month: "February", day: 7, night: 2 },
+        { month: "March", day: 10, night: 3 },
+        { month: "April", day: 14, night: 5 },
+        { month: "May", day: 18, night: 8 },
+        { month: "June", day: 21, night: 11 },
+        { month: "July", day: 22, night: 13 },
+        { month: "August", day: 22, night: 13 },
+        { month: "September", day: 19, night: 11 },
+        { month: "October", day: 15, night: 8 },
+        { month: "November", day: 10, night: 5 },
+        { month: "December", day: 7, night: 3 }
+    ];
+    $(function () {
+        $("#daySparkline").dxSparkline({
+            dataSource: temperature,
+            argumentField: 'month',
+            valueField: 'day',
+            type: 'bar'
         });
+        $("#nightSparkline").dxSparkline({
+            dataSource: temperature,
+            argumentField: 'month',
+            valueField: 'night',
+            type: 'bar'
+        });
+    });
 
-        <!--HTML--><div id="daySparkline"></div>
-        <div id="nightSparkline"></div>
+    <!--HTML--><div id="daySparkline"></div>
+    <div id="nightSparkline"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-sparkline
-            [dataSource]="temperature"
-            argumentField="month"
-            valueField="day"
-            type="bar">
-        </dx-sparkline>
-        <dx-sparkline
-            [dataSource]="temperature"
-            argumentField="month"
-            valueField="night"
-            type="bar">
-        </dx-sparkline>
+    <!--HTML-->
+    <dx-sparkline
+        [dataSource]="temperature"
+        argumentField="month"
+        valueField="day"
+        type="bar">
+    </dx-sparkline>
+    <dx-sparkline
+        [dataSource]="temperature"
+        argumentField="month"
+        valueField="night"
+        type="bar">
+    </dx-sparkline>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            temperature = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        temperature = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-sparkline="{
-            dataSource: temperature,
-            argumentField: 'month',
-            valueField: 'day',
-            type: 'bar'
-        }"></div>
-        <div dx-sparkline="{
-            dataSource: temperature,
-            argumentField: 'month',
-            valueField: 'night',
-            type: 'bar'
-        }"></div>
+    <!--HTML-->
+    <div dx-sparkline="{
+        dataSource: temperature,
+        argumentField: 'month',
+        valueField: 'day',
+        type: 'bar'
+    }"></div>
+    <div dx-sparkline="{
+        dataSource: temperature,
+        argumentField: 'month',
+        valueField: 'night',
+        type: 'bar'
+    }"></div>
 
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.temperature = [
-                    // ...   
-                ];
-            });
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.temperature = [
+                // ...   
+            ];
+        });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxSparkline: {
-            dataSource: temperature,
-            argumentField: 'month',
-            valueField: 'day',
-            type: 'bar'
-        }"></div>
-        <div data-bind="dxSparkline: {
-            dataSource: temperature,
-            argumentField: 'month',
-            valueField: 'night',
-            type: 'bar'
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxSparkline: {
+        dataSource: temperature,
+        argumentField: 'month',
+        valueField: 'day',
+        type: 'bar'
+    }"></div>
+    <div data-bind="dxSparkline: {
+        dataSource: temperature,
+        argumentField: 'month',
+        valueField: 'night',
+        type: 'bar'
+    }"></div>
 
-        <!--JavaScript-->var viewModel = {
-            temperature: [
-                // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->var viewModel = {
+        temperature: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().Sparkline()
-            .ID("daySpakline")
-            .DataSource(Temperature)
-            .ArgumentField("month")
-            .ValueField("day")
-            .Type(SparklineType.Bar)
-        )
-        @(Html.DevExtreme().Sparkline()
-            .ID("nightSpakline")
-            .DataSource(Temperature)
-            .ArgumentField("month")
-            .ValueField("night")
-            .Type(SparklineType.Bar)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().Sparkline()
+        .ID("daySpakline")
+        .DataSource(Temperature)
+        .ArgumentField("month")
+        .ValueField("day")
+        .Type(SparklineType.Bar)
+    )
+    @(Html.DevExtreme().Sparkline()
+        .ID("nightSpakline")
+        .DataSource(Temperature)
+        .ArgumentField("month")
+        .ValueField("night")
+        .Type(SparklineType.Bar)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().Sparkline() _
-            .ID("daySpakline") _
-            .DataSource(Temperature) _
-            .ArgumentField("month") _
-            .ValueField("day") _
-            .Type(SparklineType.Bar)
-        )
-        @(Html.DevExtreme().Sparkline() _
-            .ID("nightSpakline") _
-            .DataSource(Temperature) _
-            .ArgumentField("month") _
-            .ValueField("night") _
-            .Type(SparklineType.Bar)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().Sparkline() _
+        .ID("daySpakline") _
+        .DataSource(Temperature) _
+        .ArgumentField("month") _
+        .ValueField("day") _
+        .Type(SparklineType.Bar)
+    )
+    @(Html.DevExtreme().Sparkline() _
+        .ID("nightSpakline") _
+        .DataSource(Temperature) _
+        .ArgumentField("month") _
+        .ValueField("night") _
+        .Type(SparklineType.Bar)
+    )
 
 ---
 

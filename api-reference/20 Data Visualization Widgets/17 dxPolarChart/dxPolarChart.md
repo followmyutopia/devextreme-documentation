@@ -52,90 +52,65 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->var temperature = [
-            { month: "January", day: 6, night: 2 },
-            { month: "February", day: 7, night: 2 },
-            { month: "March", day: 10, night: 3 },
-            { month: "April", day: 14, night: 5 },
-            { month: "May", day: 18, night: 8 },
-            { month: "June", day: 21, night: 11 },
-            { month: "July", day: 22, night: 13 },
-            { month: "August", day: 22, night: 13 },
-            { month: "September", day: 19, night: 11 },
-            { month: "October", day: 15, night: 8 },
-            { month: "November", day: 10, night: 5 },
-            { month: "December", day: 7, night: 3 }
-        ];
-        $(function() {
-            $("#polarChart").dxPolarChart({
-                dataSource: temperature,
-                commonSeriesSettings: {     
-                    argumentField: "month",
-                    type: "scatter"
-                },
-                series: [
-                    { valueField: "day", name: "Day" }, 
-                    { valueField: "night", name: "Night" }
-                ]
-            });
+    <!--JavaScript-->var temperature = [
+        { month: "January", day: 6, night: 2 },
+        { month: "February", day: 7, night: 2 },
+        { month: "March", day: 10, night: 3 },
+        { month: "April", day: 14, night: 5 },
+        { month: "May", day: 18, night: 8 },
+        { month: "June", day: 21, night: 11 },
+        { month: "July", day: 22, night: 13 },
+        { month: "August", day: 22, night: 13 },
+        { month: "September", day: 19, night: 11 },
+        { month: "October", day: 15, night: 8 },
+        { month: "November", day: 10, night: 5 },
+        { month: "December", day: 7, night: 3 }
+    ];
+    $(function() {
+        $("#polarChart").dxPolarChart({
+            dataSource: temperature,
+            commonSeriesSettings: {     
+                argumentField: "month",
+                type: "scatter"
+            },
+            series: [
+                { valueField: "day", name: "Day" }, 
+                { valueField: "night", name: "Night" }
+            ]
         });
+    });
 
-        <!--HTML--><div id="polarChart"></div>
+    <!--HTML--><div id="polarChart"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-polar-chart [dataSource]="temperature">
-            <dxo-common-series-settings
-                argumentField="month"
-                type="scatter">
-            </dxo-common-series-settings>
-            <dxi-series
-                valueField="day"
-                name="Day">
-            </dxi-series>
-            <dxi-series
-                valueField="night"
-                name="Night">
-            </dxi-series>
-        </dx-polar-chart>
+    <!--HTML-->
+    <dx-polar-chart [dataSource]="temperature">
+        <dxo-common-series-settings
+            argumentField="month"
+            type="scatter">
+        </dxo-common-series-settings>
+        <dxi-series
+            valueField="day"
+            name="Day">
+        </dxi-series>
+        <dxi-series
+            valueField="night"
+            name="Night">
+        </dxi-series>
+    </dx-polar-chart>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            temperature = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        temperature = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-polar-chart="{
-                dataSource: temperature,
-                commonSeriesSettings: {     
-                    argumentField: 'month',
-                    type: 'scatter'
-                },
-                series: [
-                    { valueField: 'day', name: 'Day' }, 
-                    { valueField: 'night', name: 'Night' }
-                ]
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.temperature = [
-                    { month: "January", day: 6, night: 2 },
-                    { month: "February", day: 7, night: 2 },
-                    // ...
-                ];
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div data-bind="dxPolarChart: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-polar-chart="{
             dataSource: temperature,
             commonSeriesSettings: {     
                 argumentField: 'month',
@@ -146,43 +121,68 @@ You can create the widget using one of the following approaches.
                 { valueField: 'night', name: 'Night' }
             ]
         }"></div>
+    </div>
 
-        <!--JavaScript-->var viewModel = {
-            temperature: [
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.temperature = [
                 { month: "January", day: 6, night: 2 },
                 { month: "February", day: 7, night: 2 },
                 // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+            ];
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div data-bind="dxPolarChart: {
+        dataSource: temperature,
+        commonSeriesSettings: {     
+            argumentField: 'month',
+            type: 'scatter'
+        },
+        series: [
+            { valueField: 'day', name: 'Day' }, 
+            { valueField: 'night', name: 'Night' }
+        ]
+    }"></div>
+
+    <!--JavaScript-->var viewModel = {
+        temperature: [
+            { month: "January", day: 6, night: 2 },
+            { month: "February", day: 7, night: 2 },
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().PolarChart()
-            .ID("polarChart")
-            .DataSource(Temperature)
-            .CommonSeriesSettings(c => c
-                .ArgumentField("month")
-                .Type(PolarChartSeriesType.Scatter)
-            )
-            .Series(series => {
-                series.Add().ValueField("day");
-                series.Add().ValueField("night");
-            })
+    <!--Razor C#-->@(Html.DevExtreme().PolarChart()
+        .ID("polarChart")
+        .DataSource(Temperature)
+        .CommonSeriesSettings(c => c
+            .ArgumentField("month")
+            .Type(PolarChartSeriesType.Scatter)
         )
+        .Series(series => {
+            series.Add().ValueField("day");
+            series.Add().ValueField("night");
+        })
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().PolarChart() _
-            .ID("polarChart") _
-            .DataSource(Temperature) _
-            .CommonSeriesSettings(Sub(c)
-                c.ArgumentField("month") _
-                 .Type(PolarChartSeriesType.Scatter)
-            End Sub) _
-            .Series(Sub(series)
-                series.Add().ValueField("day")
-                series.Add().ValueField("night")
-            End Sub)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().PolarChart() _
+        .ID("polarChart") _
+        .DataSource(Temperature) _
+        .CommonSeriesSettings(Sub(c)
+            c.ArgumentField("month") _
+                .Type(PolarChartSeriesType.Scatter)
+        End Sub) _
+        .Series(Sub(series)
+            series.Add().ValueField("day")
+            series.Add().ValueField("night")
+        End Sub)
+    )
 
 ---
 

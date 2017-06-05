@@ -4,54 +4,54 @@ You can find all the required files in the DevExtreme zip archive or in the DevE
 
 ##### jQuery
 
-        <!--HTML-->
-        <!-- DevExtreme dependencies -->
-        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-        <!-- DevExtreme themes -->
-        <link rel="stylesheet" type="text/css" href="css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="css/dx.light.css" />
-        <!-- A DevExtreme library -->
-        <script type="text/javascript" src="js/dx.all.js"></script>
-        <!-- <script type="text/javascript" src="js/dx.mobile.js"></script> -->
-        <!-- <script type="text/javascript" src="js/dx.web.js"></script> -->
-        <!-- <script type="text/javascript" src="js/dx.viz.js"></script> -->
-        <!-- <script type="text/javascript" src="js/dx.viz-web.js"></script> -->
-        
+    <!--HTML-->
+    <!-- DevExtreme dependencies -->
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <!-- DevExtreme themes -->
+    <link rel="stylesheet" type="text/css" href="css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="css/dx.light.css" />
+    <!-- A DevExtreme library -->
+    <script type="text/javascript" src="js/dx.all.js"></script>
+    <!-- <script type="text/javascript" src="js/dx.mobile.js"></script> -->
+    <!-- <script type="text/javascript" src="js/dx.web.js"></script> -->
+    <!-- <script type="text/javascript" src="js/dx.viz.js"></script> -->
+    <!-- <script type="text/javascript" src="js/dx.viz-web.js"></script> -->
+    
 
 ##### **Knockout**
 
-        <!--HTML-->
-        <!-- DevExtreme dependencies -->
-        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-        <!-- The Knockout library -->
-        <script type="text/javascript" src="js/knockout-3.4.0.js"></script>
-        <!-- DevExtreme themes -->
-        <link rel="stylesheet" type="text/css" href="/css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="/css/dx.light.css" />
-        <!-- A DevExtreme library -->
-        <script type="text/javascript" src="js/dx.all.js"></script>
-        <!-- <script type="text/javascript" src="js/dx.mobile.js"></script> -->
-        <!-- <script type="text/javascript" src="js/dx.web.js"></script> -->
-        <!-- <script type="text/javascript" src="js/dx.viz.js"></script> -->
-        <!-- <script type="text/javascript" src="js/dx.viz-web.js"></script> -->
-        
+    <!--HTML-->
+    <!-- DevExtreme dependencies -->
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <!-- The Knockout library -->
+    <script type="text/javascript" src="js/knockout-3.4.0.js"></script>
+    <!-- DevExtreme themes -->
+    <link rel="stylesheet" type="text/css" href="/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="/css/dx.light.css" />
+    <!-- A DevExtreme library -->
+    <script type="text/javascript" src="js/dx.all.js"></script>
+    <!-- <script type="text/javascript" src="js/dx.mobile.js"></script> -->
+    <!-- <script type="text/javascript" src="js/dx.web.js"></script> -->
+    <!-- <script type="text/javascript" src="js/dx.viz.js"></script> -->
+    <!-- <script type="text/javascript" src="js/dx.viz-web.js"></script> -->
+    
 
 ##### **AngularJS**
 
-        <!--HTML-->
-        <!-- DevExtreme dependencies -->
-        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-        <!-- The AngularJS library -->
-        <script type="text/javascript" src="js/angular.min.js"></script>
-        <!-- DevExtreme themes -->
-        <link rel="stylesheet" type="text/css" href="css/dx.common.css" />
-        <link rel="stylesheet" type="text/css" href="css/dx.light.css" />
-        <!-- A DevExtreme library -->
-        <script type="text/javascript" src="js/dx.all.js"></script>
-        <!-- <script type="text/javascript" src="js/dx.mobile.js"></script> -->
-        <!-- <script type="text/javascript" src="js/dx.web.js"></script> -->
-        <!-- <script type="text/javascript" src="js/dx.viz.js"></script> -->
-        <!-- <script type="text/javascript" src="js/dx.viz-web.js"></script> -->
+    <!--HTML-->
+    <!-- DevExtreme dependencies -->
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <!-- The AngularJS library -->
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <!-- DevExtreme themes -->
+    <link rel="stylesheet" type="text/css" href="css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="css/dx.light.css" />
+    <!-- A DevExtreme library -->
+    <script type="text/javascript" src="js/dx.all.js"></script>
+    <!-- <script type="text/javascript" src="js/dx.mobile.js"></script> -->
+    <!-- <script type="text/javascript" src="js/dx.web.js"></script> -->
+    <!-- <script type="text/javascript" src="js/dx.viz.js"></script> -->
+    <!-- <script type="text/javascript" src="js/dx.viz-web.js"></script> -->
         
 ---
 

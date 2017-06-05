@@ -22,72 +22,72 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="deferRendering">
-            <!-- Widget content -->
-        </div>
+    <!--HTML--><div id="deferRendering">
+        <!-- Widget content -->
+    </div>
 
-        <!--JavaScript-->
-        var readyToRender = $.Deferred();
-        // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
-        // ...
-        $(function () {
-            $("#deferRendering").dxDeferRendering({
-                renderWhen: readyToRender.promise();
-            });
+    <!--JavaScript-->
+    var readyToRender = $.Deferred();
+    // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
+    // ...
+    $(function () {
+        $("#deferRendering").dxDeferRendering({
+            renderWhen: readyToRender.promise();
         });
+    });
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-defer-rendering
-            [renderWhen]="modelReady"
-        >
-            <!-- Widget content -->
-        </dx-defer-rendering>
+    <!--HTML-->
+    <dx-defer-rendering
+        [renderWhen]="modelReady"
+    >
+        <!-- Widget content -->
+    </dx-defer-rendering>
 
-        <!--JavaScript-->
-        var modelIsReady = $.Deferred();
-        // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
-        // ...
-        export class AppComponent
-            modelReady = modelIsReady.promise();
-        }
+    <!--JavaScript-->
+    var modelIsReady = $.Deferred();
+    // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
+    // ...
+    export class AppComponent
+        modelReady = modelIsReady.promise();
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-defer-rendering="{
-                renderWhen: modelIsReady
-            }">
-                <!-- Widget content -->
-            </div>
-        </div>
-
-        <!--JavaScript-->var modelIsReady = $.Deferred();
-        // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
-        // ...
-        angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.modelIsReady = modelIsReady.promise();
-            });
-            
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div data-bind="dxDeferRendering: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-defer-rendering="{
             renderWhen: modelIsReady
         }">
             <!-- Widget content -->
         </div>
-  
-        <!--JavaScript-->
-        var modelIsReady = $.Deferred();
-        // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
-        // ...
-        var viewModel = {
-            modelIsReady: modelIsReady.promise()
-        };
-        ko.applyBindings(viewModel);
+    </div>
+
+    <!--JavaScript-->var modelIsReady = $.Deferred();
+    // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
+    // ...
+    angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.modelIsReady = modelIsReady.promise();
+        });
+        
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div data-bind="dxDeferRendering: {
+        renderWhen: modelIsReady
+    }">
+        <!-- Widget content -->
+    </div>
+
+    <!--JavaScript-->
+    var modelIsReady = $.Deferred();
+    // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
+    // ...
+    var viewModel = {
+        modelIsReady: modelIsReady.promise()
+    };
+    ko.applyBindings(viewModel);
 
 ---
 

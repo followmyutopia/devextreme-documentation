@@ -40,85 +40,85 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->var tabs = [{
-            title: 'Info',
-            text: 'This is Info Tab'
-        }, {
-            title: 'Contacts',
-            text: 'This is Contacts Tab'
-        }, {
-            title: 'Address',
-            text: 'This is Address Tab'
-        }];
-        $(function () {
-            $("#tabPanel").dxTabPanel({
-                items: tabs
-            });
+    <!--JavaScript-->var tabs = [{
+        title: 'Info',
+        text: 'This is Info Tab'
+    }, {
+        title: 'Contacts',
+        text: 'This is Contacts Tab'
+    }, {
+        title: 'Address',
+        text: 'This is Address Tab'
+    }];
+    $(function () {
+        $("#tabPanel").dxTabPanel({
+            items: tabs
         });
+    });
 
-        <!--HTML-->
-        <div id="tabPanel"></div>
+    <!--HTML-->
+    <div id="tabPanel"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-tab-panel [items]="tabs"></dx-tab-panel>
+    <!--HTML-->
+    <dx-tab-panel [items]="tabs"></dx-tab-panel>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            tabs = [
-                // ...
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        tabs = [
+            // ...
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-tab-panel="{
-                items: tabs
-            }"></div>
-        </div>
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-tab-panel="{
+            items: tabs
+        }"></div>
+    </div>
 
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.tabs = [
-                    // ...   
-                ];
-            });
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.tabs = [
+                // ...   
+            ];
+        });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxTabPanel: {
-            items: tabs
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxTabPanel: {
+        items: tabs
+    }"></div>
 
-        <!--JavaScript-->var viewModel = {
-            tabs: [
-                // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->var viewModel = {
+        tabs: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().TabPanel()
-            .ID("tabPanel")
-            .Items(items => {
-                items.Add().Title("Info").Text("This is Info Tab");
-                items.Add().Title("Contacts").Text("This is Contacts Tab");
-                items.Add().Title("Address").Text("This is Address Tab");
-            })
-        )
+    <!--Razor C#-->@(Html.DevExtreme().TabPanel()
+        .ID("tabPanel")
+        .Items(items => {
+            items.Add().Title("Info").Text("This is Info Tab");
+            items.Add().Title("Contacts").Text("This is Contacts Tab");
+            items.Add().Title("Address").Text("This is Address Tab");
+        })
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().TabPanel() _
-            .ID("tabPanel") _
-            .Items(Sub(items)
-                items.Add().Title("Info").Text("This is Info Tab")
-                items.Add().Title("Contacts").Text("This is Contacts Tab")
-                items.Add().Title("Address").Text("This is Address Tab")
-            End Sub)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().TabPanel() _
+        .ID("tabPanel") _
+        .Items(Sub(items)
+            items.Add().Title("Info").Text("This is Info Tab")
+            items.Add().Title("Contacts").Text("This is Contacts Tab")
+            items.Add().Title("Address").Text("This is Address Tab")
+        End Sub)
+    )
 
 ---
 

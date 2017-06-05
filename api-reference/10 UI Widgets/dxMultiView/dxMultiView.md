@@ -32,81 +32,81 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->
-        var multiViewItems = [
-            { text: "Personal Data" },
-            { text: "Contacts" },
-            { text: "Address" }
-        ];
-        $(function () {
-            $("#multiView").dxMultiView({
-                items: multiViewItems
-            });
+    <!--JavaScript-->
+    var multiViewItems = [
+        { text: "Personal Data" },
+        { text: "Contacts" },
+        { text: "Address" }
+    ];
+    $(function () {
+        $("#multiView").dxMultiView({
+            items: multiViewItems
         });
+    });
 
-        <!--HTML-->
-        <div id="multiView"></div>
+    <!--HTML-->
+    <div id="multiView"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-multi-view [items]="multiViewItems"></dx-multi-view>
+    <!--HTML-->
+    <dx-multi-view [items]="multiViewItems"></dx-multi-view>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            multiViewItems = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        multiViewItems = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-multi-view="{
-                items: multiViewItems
-            }"></div>
-        </div>
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-multi-view="{
+            items: multiViewItems
+        }"></div>
+    </div>
 
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.multiViewItems = [
-                    // ...   
-                ];
-            });
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.multiViewItems = [
+                // ...   
+            ];
+        });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxMultiView: {
-            items: multiViewItems
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxMultiView: {
+        items: multiViewItems
+    }"></div>
 
-        <!--JavaScript-->var viewModel = {
-            multiViewItems: [
-                // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->var viewModel = {
+        multiViewItems: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-        
-        <!--Razor C#-->@(Html.DevExtreme().MultiView()
-            .ID("multiView")
-            .Items(items => {
-                items.Add().Text("Personal Data");
-                items.Add().Text("Contacts");
-                items.Add().Text("Address");
-            })
-        )
+    
+    <!--Razor C#-->@(Html.DevExtreme().MultiView()
+        .ID("multiView")
+        .Items(items => {
+            items.Add().Text("Personal Data");
+            items.Add().Text("Contacts");
+            items.Add().Text("Address");
+        })
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().MultiView() _
-            .ID("multiView") _
-            .Items(Sub(items)
-                items.Add().Text("Personal Data")
-                items.Add().Text("Contacts")
-                items.Add().Text("Address")
-            End Sub)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().MultiView() _
+        .ID("multiView") _
+        .Items(Sub(items)
+            items.Add().Text("Personal Data")
+            items.Add().Text("Contacts")
+            items.Add().Text("Address")
+        End Sub)
+    )
 
 ---
 

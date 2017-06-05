@@ -29,73 +29,73 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#list").dxList({
-                dataSource: listData,
-                grouped: true
-            });
+    <!--JavaScript-->$(function () {
+        $("#list").dxList({
+            dataSource: listData,
+            grouped: true
         });
+    });
 
-        <!--HTML--><div id="list"></div>
+    <!--HTML--><div id="list"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-list
-            [dataSource]="listData"
-            [grouped]="true">
-        </dx-list>
+    <!--HTML-->
+    <dx-list
+        [dataSource]="listData"
+        [grouped]="true">
+    </dx-list>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            listData = [
-                // ...
-            ]
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        listData = [
+            // ...
+        ]
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-list="{
-                dataSource: listData,
-                grouped: true
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.listData = [
-                    // ...
-                ]
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML--><div data-bind="dxList: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-list="{
             dataSource: listData,
             grouped: true
         }"></div>
+    </div>
 
-        <!--JavaScript-->var viewModel = {
-            listData: [
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.listData = [
                 // ...
             ]
-        };
-        ko.applyBindings(viewModel);
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML--><div data-bind="dxList: {
+        dataSource: listData,
+        grouped: true
+    }"></div>
+
+    <!--JavaScript-->var viewModel = {
+        listData: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().List()
-            .ID("list")
-            .DataSource(ListData)
-            .Grouped(true)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().List()
+        .ID("list")
+        .DataSource(ListData)
+        .Grouped(true)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().List() _
-            .ID("list") _
-            .DataSource(ListData) _
-            .Grouped(True)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().List() _
+        .ID("list") _
+        .DataSource(ListData) _
+        .Grouped(True)
+    )
 
 ---
 

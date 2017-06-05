@@ -29,39 +29,8 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function() {
-            $("#vectorMap").dxVectorMap({
-                layers: [{
-                    type: 'area',
-                    dataSource: DevExpress.viz.map.sources.world,
-                    label: {
-                        enabled: true,
-                        dataField: 'name'
-                    }
-                }]
-            });
-        });
-
-        <!--HTML--><div id="vectorMap"></div>
-
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <dx-vector-map>
-            <dxi-layer
-                type="area"
-                [dataSource]="DevExpress.viz.map.sources.world">
-                <dxo-label
-                    [enabled]="true"
-                    dataField="name">
-                </dxo-label>
-            </dxi-layer>
-        </dx-vector-map>
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div dx-vector-map="{
+    <!--JavaScript-->$(function() {
+        $("#vectorMap").dxVectorMap({
             layers: [{
                 type: 'area',
                 dataSource: DevExpress.viz.map.sources.world,
@@ -70,45 +39,76 @@ You can create the widget using one of the following approaches.
                     dataField: 'name'
                 }
             }]
-        }"></div>
+        });
+    });
+
+    <!--HTML--><div id="vectorMap"></div>
+
+#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <dx-vector-map>
+        <dxi-layer
+            type="area"
+            [dataSource]="DevExpress.viz.map.sources.world">
+            <dxo-label
+                [enabled]="true"
+                dataField="name">
+            </dxo-label>
+        </dxi-layer>
+    </dx-vector-map>
+
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div dx-vector-map="{
+        layers: [{
+            type: 'area',
+            dataSource: DevExpress.viz.map.sources.world,
+            label: {
+                enabled: true,
+                dataField: 'name'
+            }
+        }]
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxVectorMap: {
-            layers: [{
-                type: 'area',
-                dataSource: DevExpress.viz.map.sources.world,
-                label: {
-                    enabled: true,
-                    dataField: 'name'
-                }
-            }],
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxVectorMap: {
+        layers: [{
+            type: 'area',
+            dataSource: DevExpress.viz.map.sources.world,
+            label: {
+                enabled: true,
+                dataField: 'name'
+            }
+        }],
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().VectorMap()
-            .Layers(layers => {
-                layers.Add()
-                    .DataSource(new JS("DevExpress.viz.map.sources.world"))
-                    .Label(l => l
-                        .Enabled(true)
-                        .DataField("name")
-                    );
-            })
-        )
+    <!--Razor C#-->@(Html.DevExtreme().VectorMap()
+        .Layers(layers => {
+            layers.Add()
+                .DataSource(new JS("DevExpress.viz.map.sources.world"))
+                .Label(l => l
+                    .Enabled(true)
+                    .DataField("name")
+                );
+        })
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().VectorMap() _
-            .Layers(Sub(layers)
-                layers.Add() _
-                    .DataSource(New JS("DevExpress.viz.map.sources.world")) _
-                    .Label(Sub(l)
-                        l.Enabled(true) _
-                            .DataField("name")
-                    End Sub)
-            End Sub)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().VectorMap() _
+        .Layers(Sub(layers)
+            layers.Add() _
+                .DataSource(New JS("DevExpress.viz.map.sources.world")) _
+                .Label(Sub(l)
+                    l.Enabled(true) _
+                        .DataField("name")
+                End Sub)
+        End Sub)
+    )
 
 ---
 

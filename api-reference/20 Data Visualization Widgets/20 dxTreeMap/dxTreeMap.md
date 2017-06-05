@@ -44,81 +44,81 @@ You can create the **TreeMap** widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->var fruitsVegetables = [{
-            name: 'Fruits',
-            items: [
-                { name: 'Apples', value: 4 },
-                { name: 'Oranges', value: 10 },
-                { name: 'Lemons', value: 6 }
-            ]
-        }, {
-            name: 'Vegetables',
-            items: [
-                { name: 'Cucumbers', value: 4 },
-                { name: 'Tomatoes', value: 8 },
-                { name: 'Turnips', value: 7 }
-            ]
-        }];
-        $(function() {
-            $("#treeMap").dxTreeMap({
-                dataSource: fruitsVegetables
-            });
+    <!--JavaScript-->var fruitsVegetables = [{
+        name: 'Fruits',
+        items: [
+            { name: 'Apples', value: 4 },
+            { name: 'Oranges', value: 10 },
+            { name: 'Lemons', value: 6 }
+        ]
+    }, {
+        name: 'Vegetables',
+        items: [
+            { name: 'Cucumbers', value: 4 },
+            { name: 'Tomatoes', value: 8 },
+            { name: 'Turnips', value: 7 }
+        ]
+    }];
+    $(function() {
+        $("#treeMap").dxTreeMap({
+            dataSource: fruitsVegetables
         });
+    });
 
-        <!--HTML--><div id="treeMap"></div>
+    <!--HTML--><div id="treeMap"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-tree-map [dataSource]="fruitsVegetables"></dx-tree-map>
+    <!--HTML-->
+    <dx-tree-map [dataSource]="fruitsVegetables"></dx-tree-map>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            fruitsVegetables = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        fruitsVegetables = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-tree-map="{
-                dataSource: fruitsVegetables
-            }"></div>
-        </div>
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-tree-map="{
+            dataSource: fruitsVegetables
+        }"></div>
+    </div>
 
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.fruitsVegetables = [
-                    // ...   
-                ];
-            });
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.fruitsVegetables = [
+                // ...   
+            ];
+        });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxTreeMap: {
-            dataSource: fruitsVegetables
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxTreeMap: {
+        dataSource: fruitsVegetables
+    }"></div>
 
-        <!--JavaScript-->var viewModel = {
-            fruitsVegetables: [
-                // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->var viewModel = {
+        fruitsVegetables: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().TreeMap()
-            .ID("treeMap")
-            .DataSource(FruitsVegetables)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().TreeMap()
+        .ID("treeMap")
+        .DataSource(FruitsVegetables)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().TreeMap() _
-            .ID("treeMap") _
-            .DataSource(FruitsVegetables)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().TreeMap() _
+        .ID("treeMap") _
+        .DataSource(FruitsVegetables)
+    )
 
 ---
 

@@ -26,42 +26,42 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="dropDownMenu"></div>
+    <!--HTML-->
+    <div id="dropDownMenu"></div>
 
-        <!--JavaScript-->
-        $("#dropDownMenu").dxDropDownMenu({
-            dataSource: dropDownMenuData,
-            buttonText: 'Show menu',
-            buttonIcon: 'menu'
-        });
+    <!--JavaScript-->
+    $("#dropDownMenu").dxDropDownMenu({
+        dataSource: dropDownMenuData,
+        buttonText: 'Show menu',
+        buttonIcon: 'menu'
+    });
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-drop-down-menu
-            [dataSource]="dropDownMenuData"
-            buttonText="Show menu"
-            buttonIcon="menu">
-        </dx-drop-down-menu>
+    <!--HTML-->
+    <dx-drop-down-menu
+        [dataSource]="dropDownMenuData"
+        buttonText="Show menu"
+        buttonIcon="menu">
+    </dx-drop-down-menu>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-drop-down-menu="{
-            dataSource: dropDownMenuData,
-            buttonText: 'Show menu',
-            buttonIcon: 'menu'
-        }"></div>
+    <!--HTML-->
+    <div dx-drop-down-menu="{
+        dataSource: dropDownMenuData,
+        buttonText: 'Show menu',
+        buttonIcon: 'menu'
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxDropDownMenu: {
-            dataSource: dropDownMenuData,
-            buttonText: 'Show menu',
-            buttonIcon: 'menu'
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxDropDownMenu: {
+        dataSource: dropDownMenuData,
+        buttonText: 'Show menu',
+        buttonIcon: 'menu'
+    }"></div>
 
 ---
 

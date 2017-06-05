@@ -26,50 +26,50 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#colorBox").dxColorBox({
-                value: 'rgba(255, 144, 0, 0.3)',
-                editAlphaChannel: true
-            });
+    <!--JavaScript-->$(function () {
+        $("#colorBox").dxColorBox({
+            value: 'rgba(255, 144, 0, 0.3)',
+            editAlphaChannel: true
         });
+    });
 
-        <!--HTML--><div id="colorBox"></div>
+    <!--HTML--><div id="colorBox"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-color-box
-            [value]="rgba(255, 144, 0, 0.3)"
-            [editAlphaChannel]="true">
-        </dx-color-box>
+    <!--HTML-->
+    <dx-color-box
+        [value]="rgba(255, 144, 0, 0.3)"
+        [editAlphaChannel]="true">
+    </dx-color-box>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div dx-color-box="{
-            value: 'rgba(255, 144, 0, 0.3)',
-            editAlphaChannel: true
-        }"></div>
+    <!--HTML--><div dx-color-box="{
+        value: 'rgba(255, 144, 0, 0.3)',
+        editAlphaChannel: true
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div data-bind="dxColorBox: {
-            value: 'rgba(255, 144, 0, 0.3)',
-            editAlphaChannel: true
-        }"></div>
+    <!--HTML--><div data-bind="dxColorBox: {
+        value: 'rgba(255, 144, 0, 0.3)',
+        editAlphaChannel: true
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().ColorBox()
-            .ID("colorBox")
-            .Value("rgba(255, 144, 0, 0.3)")
-            .EditAlphaChannel(true)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().ColorBox()
+        .ID("colorBox")
+        .Value("rgba(255, 144, 0, 0.3)")
+        .EditAlphaChannel(true)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().ColorBox() _
-            .ID("colorBox") _
-            .Value("rgba(255, 144, 0, 0.3)") _
-            .EditAlphaChannel(True)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().ColorBox() _
+        .ID("colorBox") _
+        .Value("rgba(255, 144, 0, 0.3)") _
+        .EditAlphaChannel(True)
+    )
 
 ---
 

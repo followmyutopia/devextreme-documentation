@@ -37,88 +37,88 @@ You can create this widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#treeList").dxTreeList({
-                dataSource: customers,
-                columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
-            });
+    <!--JavaScript-->$(function () {
+        $("#treeList").dxTreeList({
+            dataSource: customers,
+            columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
         });
+    });
 
-        <!--HTML--><div id="treeList"></div>
+    <!--HTML--><div id="treeList"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-tree-list [dataSource]="customers">
-            <dxi-column dataField="CompanyName"></dxi-column>
-            <dxi-column dataField="City"></dxi-column>
-            <dxi-column dataField="State"></dxi-column>
-            <dxi-column dataField="Phone"></dxi-column>
-            <dxi-column dataField="Fax"></dxi-column>
-        </dx-tree-list>
+    <!--HTML-->
+    <dx-tree-list [dataSource]="customers">
+        <dxi-column dataField="CompanyName"></dxi-column>
+        <dxi-column dataField="City"></dxi-column>
+        <dxi-column dataField="State"></dxi-column>
+        <dxi-column dataField="Phone"></dxi-column>
+        <dxi-column dataField="Fax"></dxi-column>
+    </dx-tree-list>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            customers = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        customers = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-tree-list="{
-                dataSource: customers,
-                columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.customers = [
-                    // ...   
-                ];
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML--><div data-bind="dxTreeList: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-tree-list="{
             dataSource: customers,
             columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
         }"></div>
+    </div>
 
-        <!--JavaScript-->var viewModel = {
-            customers: [
-                // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.customers = [
+                // ...   
+            ];
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML--><div data-bind="dxTreeList: {
+        dataSource: customers,
+        columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
+    }"></div>
+
+    <!--JavaScript-->var viewModel = {
+        customers: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().TreeList()
-            .ID("treeList")
-            .DataSource(Customers)
-            .Columns(columns => {
-                columns.Add().DataField("CompanyName");
-                columns.Add().DataField("City");
-                columns.Add().DataField("State");
-                columns.Add().DataField("Phone");
-                columns.Add().DataField("Fax");
-            })
-        )
+    <!--Razor C#-->@(Html.DevExtreme().TreeList()
+        .ID("treeList")
+        .DataSource(Customers)
+        .Columns(columns => {
+            columns.Add().DataField("CompanyName");
+            columns.Add().DataField("City");
+            columns.Add().DataField("State");
+            columns.Add().DataField("Phone");
+            columns.Add().DataField("Fax");
+        })
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().TreeList() _
-            .ID("treeList") _
-            .DataSource(Customers) _
-            .Columns(Sub(columns)
-                columns.Add().DataField("CompanyName")
-                columns.Add().DataField("City")
-                columns.Add().DataField("State")
-                columns.Add().DataField("Phone")
-                columns.Add().DataField("Fax")
-            End Sub)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().TreeList() _
+        .ID("treeList") _
+        .DataSource(Customers) _
+        .Columns(Sub(columns)
+            columns.Add().DataField("CompanyName")
+            columns.Add().DataField("City")
+            columns.Add().DataField("State")
+            columns.Add().DataField("Phone")
+            columns.Add().DataField("Fax")
+        End Sub)
+    )
 
 ---
 

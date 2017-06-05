@@ -23,47 +23,47 @@ You can create the **Validator** widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function() {
-            $("#textBox1").dxTextBox({ })
-                .dxValidator({
-                    validationRules: [
-                        // ...
-                    ]
-                });
-        });
-
-        <!--HTML--><div id="textBox1"></div>
-
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <dx-text-box>
-            <dx-validator>
-                <dxi-validation-rule type="required" message="Value is required"></dxi-validation-rule>
-            </dx-validator>
-        </dx-text-box>
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div dx-text-box="{ }"
-             dx-validator="{
-                 validationRules: [
-                    // ...
-                ]
-            }">
-        </div>
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div data-bind="dxTextBox: { },
-            dxValidator: {
+    <!--JavaScript-->$(function() {
+        $("#textBox1").dxTextBox({ })
+            .dxValidator({
                 validationRules: [
                     // ...
                 ]
-            }">  
-        </div>
+            });
+    });
+
+    <!--HTML--><div id="textBox1"></div>
+
+#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <dx-text-box>
+        <dx-validator>
+            <dxi-validation-rule type="required" message="Value is required"></dxi-validation-rule>
+        </dx-validator>
+    </dx-text-box>
+
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div dx-text-box="{ }"
+            dx-validator="{
+                validationRules: [
+                // ...
+            ]
+        }">
+    </div>
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div data-bind="dxTextBox: { },
+        dxValidator: {
+            validationRules: [
+                // ...
+            ]
+        }">  
+    </div>
 
 ---
 

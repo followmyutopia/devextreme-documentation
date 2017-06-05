@@ -20,80 +20,80 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->
-        $(function () {
-            var fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
-            $("#dropDownBox").dxDropDownBox({
-                value: fruits[0],
-                dataSource: fruits,
-                contentTemplate: function(e){
-                    var $list = $("<div>").dxList({
-                        dataSource: e.component.option("dataSource") 
-                    });
-                    return $list;
-                }
-            });
+    <!--JavaScript-->
+    $(function () {
+        var fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+        $("#dropDownBox").dxDropDownBox({
+            value: fruits[0],
+            dataSource: fruits,
+            contentTemplate: function(e){
+                var $list = $("<div>").dxList({
+                    dataSource: e.component.option("dataSource") 
+                });
+                return $list;
+            }
         });
+    });
 
-        <!--HTML-->
-        <div id="dropDownBox"></div>
+    <!--HTML-->
+    <div id="dropDownBox"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-drop-down-box
-            [value]="fruits[0]"
-            [dataSource]="fruits">
-            <div *dxTemplate="let contentData of 'content'">
-                <dx-list [dataSource]="fruits"></dx-list>
-            </div>
-        </dx-drop-down-box>
+    <!--HTML-->
+    <dx-drop-down-box
+        [value]="fruits[0]"
+        [dataSource]="fruits">
+        <div *dxTemplate="let contentData of 'content'">
+            <dx-list [dataSource]="fruits"></dx-list>
+        </div>
+    </dx-drop-down-box>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-drop-down-box="{
-                value: fruits[0],
-                dataSource: fruits
-            }">
-                <div data-options="dxTemplate: { name: 'content' }">
-                    <div dx-list="{
-                        dataSource: fruits
-                    }"></div>
-                </div>
-            </div>
-        </div>
-
-        <!--JavaScript-->
-        angular.module('DemoApp', ['dx'])
-            .controller('DemoController', function ($scope) {
-                $scope.fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div data-bind="dxDropDownBox: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-drop-down-box="{
             value: fruits[0],
             dataSource: fruits
         }">
             <div data-options="dxTemplate: { name: 'content' }">
-                <div data-bind="dxList: {
+                <div dx-list="{
                     dataSource: fruits
                 }"></div>
             </div>
         </div>
+    </div>
 
-        <!--JavaScript-->
-        var viewModel = {
-            fruits: ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function ($scope) {
+            $scope.fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div data-bind="dxDropDownBox: {
+        value: fruits[0],
+        dataSource: fruits
+    }">
+        <div data-options="dxTemplate: { name: 'content' }">
+            <div data-bind="dxList: {
+                dataSource: fruits
+            }"></div>
+        </div>
+    </div>
+
+    <!--JavaScript-->
+    var viewModel = {
+        fruits: ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"]
+    };
+    ko.applyBindings(viewModel);
 
 ---
 

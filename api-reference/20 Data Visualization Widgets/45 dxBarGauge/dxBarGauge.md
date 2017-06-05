@@ -26,58 +26,58 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#barGauge").dxBarGauge({
-                startValue: 0,
-                endValue: 100,
-                values: [21.3, 54.1, 30.9, 45.2, 89.41]
-            });
+    <!--JavaScript-->$(function () {
+        $("#barGauge").dxBarGauge({
+            startValue: 0,
+            endValue: 100,
+            values: [21.3, 54.1, 30.9, 45.2, 89.41]
         });
+    });
 
-        <!--HTML--><div id="barGauge"></div>
+    <!--HTML--><div id="barGauge"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-bar-gauge
-            [startValue]="0"
-            [endValue]="100"
-            [values]="[21.3, 54.1, 30.9, 45.2, 89.41]">
-        </dx-bar-gauge>
+    <!--HTML-->
+    <dx-bar-gauge
+        [startValue]="0"
+        [endValue]="100"
+        [values]="[21.3, 54.1, 30.9, 45.2, 89.41]">
+    </dx-bar-gauge>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-bar-gauge="{
-            startValue: 0,
-            endValue: 100,
-            values: [21.3, 54.1, 30.9, 45.2, 89.41]
-        }"></div>
+    <!--HTML-->
+    <div dx-bar-gauge="{
+        startValue: 0,
+        endValue: 100,
+        values: [21.3, 54.1, 30.9, 45.2, 89.41]
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxBarGauge: {
-            startValue: 0,
-            endValue: 100,
-            values: [21.3, 54.1, 30.9, 45.2, 89.41]
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxBarGauge: {
+        startValue: 0,
+        endValue: 100,
+        values: [21.3, 54.1, 30.9, 45.2, 89.41]
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-        
-        <!--Razor C#-->@(Html.DevExtreme().BarGauge()
-            .ID("barGauge")
-            .StartValue(0)
-            .EndValue(100)
-            .Values(new [] { 21.3, 54.1, 30.9, 45.2, 89.41 })
-        )
+    
+    <!--Razor C#-->@(Html.DevExtreme().BarGauge()
+        .ID("barGauge")
+        .StartValue(0)
+        .EndValue(100)
+        .Values(new [] { 21.3, 54.1, 30.9, 45.2, 89.41 })
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().BarGauge() _
-            .ID("barGauge") _
-            .StartValue(0) _
-            .EndValue(100) _
-            .Values({ 21.3, 54.1, 30.9, 45.2, 89.41 })
-        )
+    <!--Razor VB-->@(Html.DevExtreme().BarGauge() _
+        .ID("barGauge") _
+        .StartValue(0) _
+        .EndValue(100) _
+        .Values({ 21.3, 54.1, 30.9, 45.2, 89.41 })
+    )
 
 ---
 

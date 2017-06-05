@@ -40,86 +40,8 @@ You can create the **PivotGrid** widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#pivotGrid").dxPivotGrid({
-                dataSource: {
-                    store: {
-                        type: 'odata',
-                        url: 'http://url/to/the/service',
-                        key: 'OrderID',
-                        keyType: 'Int32'
-                    },
-                    fields: [
-                        { area: 'column', dataField: 'OrderDate', dataType: 'date' },
-                        { area: 'row', dataField: 'ShipCountry' },
-                        { area: 'row', dataField: 'ShipCity' },
-                        { area: 'row', dataField: 'ShipName' },
-                        { area: 'data', summaryType: 'count' }
-                    ]
-                }
-            });
-        });
-
-        <!--HTML--><div id="pivotGrid"></div>
-
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <dx-pivot-grid>
-            <dxo-data-source>
-                <dxo-store
-                    type="odata"
-                    url="http://url/to/the/service"
-                    key="OrderID"
-                    keyType="Int32">
-                </dxo-store>
-            </dxo-data-source>
-            <dxi-field
-                area="column"
-                dataField="OrderDate"
-                dataType="date">
-            </dxi-field>
-            <dxi-field
-                area="row"
-                dataField="ShipCountry">
-            </dxi-field>
-            <dxi-field
-                area="row"
-                dataField="ShipCity">
-            </dxi-field>
-            <dxi-field
-                area="row"
-                dataField="ShipName">
-            </dxi-field>
-            <dxi-field
-                area="data"
-                summaryType="count">
-            </dxi-field>
-        </dx-pivot-grid>
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-        <!--HTML--><div dx-pivot-grid="{
-            dataSource: {
-                store: {
-                    type: 'odata',
-                    url: 'http://url/to/the/service',
-                    key: 'OrderID',
-                    keyType: 'Int32'
-                },
-                fields: [
-                    { area: 'column', dataField: 'OrderDate', dataType: 'date'},
-                    { area: 'row', dataField: 'ShipCountry' },
-                    { area: 'row', dataField: 'ShipCity' },
-                    { area: 'row', dataField: 'ShipName' },
-                    { area: 'data', summaryType: 'count' }
-                ]
-            }
-        }"></div>
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML--><div data-bind="dxPivotGrid: {
+    <!--JavaScript-->$(function () {
+        $("#pivotGrid").dxPivotGrid({
             dataSource: {
                 store: {
                     type: 'odata',
@@ -135,50 +57,128 @@ You can create the **PivotGrid** widget using one of the following approaches.
                     { area: 'data', summaryType: 'count' }
                 ]
             }
-        }"></div>
+        });
+    });
+
+    <!--HTML--><div id="pivotGrid"></div>
+
+#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <dx-pivot-grid>
+        <dxo-data-source>
+            <dxo-store
+                type="odata"
+                url="http://url/to/the/service"
+                key="OrderID"
+                keyType="Int32">
+            </dxo-store>
+        </dxo-data-source>
+        <dxi-field
+            area="column"
+            dataField="OrderDate"
+            dataType="date">
+        </dxi-field>
+        <dxi-field
+            area="row"
+            dataField="ShipCountry">
+        </dxi-field>
+        <dxi-field
+            area="row"
+            dataField="ShipCity">
+        </dxi-field>
+        <dxi-field
+            area="row"
+            dataField="ShipName">
+        </dxi-field>
+        <dxi-field
+            area="data"
+            summaryType="count">
+        </dxi-field>
+    </dx-pivot-grid>
+
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+    <!--HTML--><div dx-pivot-grid="{
+        dataSource: {
+            store: {
+                type: 'odata',
+                url: 'http://url/to/the/service',
+                key: 'OrderID',
+                keyType: 'Int32'
+            },
+            fields: [
+                { area: 'column', dataField: 'OrderDate', dataType: 'date'},
+                { area: 'row', dataField: 'ShipCountry' },
+                { area: 'row', dataField: 'ShipCity' },
+                { area: 'row', dataField: 'ShipName' },
+                { area: 'data', summaryType: 'count' }
+            ]
+        }
+    }"></div>
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML--><div data-bind="dxPivotGrid: {
+        dataSource: {
+            store: {
+                type: 'odata',
+                url: 'http://url/to/the/service',
+                key: 'OrderID',
+                keyType: 'Int32'
+            },
+            fields: [
+                { area: 'column', dataField: 'OrderDate', dataType: 'date' },
+                { area: 'row', dataField: 'ShipCountry' },
+                { area: 'row', dataField: 'ShipCity' },
+                { area: 'row', dataField: 'ShipName' },
+                { area: 'data', summaryType: 'count' }
+            ]
+        }
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().PivotGrid()
-            .ID("pivotGrid")
-            .DataSource(ds => ds
-                .Store(store => store.OData()
-                    .Url("http://url/to/the/service")
-                    .Key(new string[] { "OrderID" })
-                    .KeyType(EdmType.Int32)
-                )
-                .Fields(fields => {
-                    fields.Add().Area(PivotGridArea.Column)
-                        .DataField("OrderDate")
-                        .DataType(PivotGridDataType.Date);
-                    fields.Add().Area(PivotGridArea.Row).DataField("ShipCountry");
-                    fields.Add().Area(PivotGridArea.Row).DataField("ShipCity");
-                    fields.Add().Area(PivotGridArea.Row).DataField("ShipName");
-                    fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count);
-                })
+    <!--Razor C#-->@(Html.DevExtreme().PivotGrid()
+        .ID("pivotGrid")
+        .DataSource(ds => ds
+            .Store(store => store.OData()
+                .Url("http://url/to/the/service")
+                .Key(new string[] { "OrderID" })
+                .KeyType(EdmType.Int32)
             )
+            .Fields(fields => {
+                fields.Add().Area(PivotGridArea.Column)
+                    .DataField("OrderDate")
+                    .DataType(PivotGridDataType.Date);
+                fields.Add().Area(PivotGridArea.Row).DataField("ShipCountry");
+                fields.Add().Area(PivotGridArea.Row).DataField("ShipCity");
+                fields.Add().Area(PivotGridArea.Row).DataField("ShipName");
+                fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count);
+            })
         )
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().PivotGrid() _
-            .ID("pivotGrid") _
-            .DataSource(Sub(ds)
-                ds.Store(Function(store)
-                    Return store.OData() _
-                        .Url("http://url/to/the/service") _
-                        .Key(New String() { "OrderID" }) _
-                        .KeyType(EdmType.Int32)
-                    End Function) _
-                .Fields(Sub(fields)
-                    fields.Add().Area(PivotGridArea.Column) _
-                        .DataField("OrderDate") _
-                        .DataType(PivotGridDataType.Date)
-                    fields.Add().Area(PivotGridArea.Row).DataField("ShipCountry")
-                    fields.Add().Area(PivotGridArea.Row).DataField("ShipCity")
-                    fields.Add().Area(PivotGridArea.Row).DataField("ShipName")
-                    fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count)
-                End Sub)
+    <!--Razor VB-->@(Html.DevExtreme().PivotGrid() _
+        .ID("pivotGrid") _
+        .DataSource(Sub(ds)
+            ds.Store(Function(store)
+                Return store.OData() _
+                    .Url("http://url/to/the/service") _
+                    .Key(New String() { "OrderID" }) _
+                    .KeyType(EdmType.Int32)
+                End Function) _
+            .Fields(Sub(fields)
+                fields.Add().Area(PivotGridArea.Column) _
+                    .DataField("OrderDate") _
+                    .DataType(PivotGridDataType.Date)
+                fields.Add().Area(PivotGridArea.Row).DataField("ShipCountry")
+                fields.Add().Area(PivotGridArea.Row).DataField("ShipCity")
+                fields.Add().Area(PivotGridArea.Row).DataField("ShipName")
+                fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count)
             End Sub)
-        )
+        End Sub)
+    )
 
 ---
 

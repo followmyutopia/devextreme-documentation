@@ -33,53 +33,53 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#actionSheet").dxActionSheet({
-                dataSource: actionSheetData,
-                visible: true
-            });
+    <!--JavaScript-->$(function () {
+        $("#actionSheet").dxActionSheet({
+            dataSource: actionSheetData,
+            visible: true
         });
+    });
 
-        <!--HTML-->
-        <div id="actionSheet"></div>
+    <!--HTML-->
+    <div id="actionSheet"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-action-sheet
-            [dataSource]="actionSheetData"
-            [visible]="true">
-        </dx-action-sheet>
+    <!--HTML-->
+    <dx-action-sheet
+        [dataSource]="actionSheetData"
+        [visible]="true">
+    </dx-action-sheet>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-action-sheet="{
-            dataSource: actionSheetData,
-            visible: true
-        }"></div>
+    <!--HTML-->
+    <div dx-action-sheet="{
+        dataSource: actionSheetData,
+        visible: true
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxActionSheet: {
-            dataSource: actionSheetData,
-            visible: true
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxActionSheet: {
+        dataSource: actionSheetData,
+        visible: true
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().ActionSheet()
-            .ID("actionSheet")
-            .DataSource(ActionSheetData)
-            .Visible(true)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().ActionSheet()
+        .ID("actionSheet")
+        .DataSource(ActionSheetData)
+        .Visible(true)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().ActionSheet() _
-            .ID("actionSheet") _
-            .DataSource(ActionSheetData) _
-            .Visible(True)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().ActionSheet() _
+        .ID("actionSheet") _
+        .DataSource(ActionSheetData) _
+        .Visible(True)
+    )
 
 ---
 

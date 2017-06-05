@@ -26,61 +26,61 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#loadIndicator").dxLoadIndicator({
-                visible: true
-            });
+    <!--JavaScript-->$(function () {
+        $("#loadIndicator").dxLoadIndicator({
+            visible: true
         });
+    });
 
-        <!--HTML--><div id="loadIndicator"></div>
+    <!--HTML--><div id="loadIndicator"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-load-indicator [(visible)]="isLoadIndicatorVisible"></dx-load-indicator>
+    <!--HTML-->
+    <dx-load-indicator [(visible)]="isLoadIndicatorVisible"></dx-load-indicator>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            isLoadIndicatorVisible = true;
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        isLoadIndicatorVisible = true;
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-load-indicator="{
-                bindingOptions: {
-                    visible: 'isLoadIndicatorVisible'
-                }
-            }"></div>
-        </div>
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-load-indicator="{
+            bindingOptions: {
+                visible: 'isLoadIndicatorVisible'
+            }
+        }"></div>
+    </div>
 
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.isLoadIndicatorVisible = true;
-            });
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.isLoadIndicatorVisible = true;
+        });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div data-bind="dxLoadIndicator: {
-            visible: isLoadIndicatorVisible
-        }"></div>
+    <!--HTML--><div data-bind="dxLoadIndicator: {
+        visible: isLoadIndicatorVisible
+    }"></div>
 
-        <!--JavaScript-->var viewModel = {
-            isLoadIndicatorVisible: ko.observable(true)
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->var viewModel = {
+        isLoadIndicatorVisible: ko.observable(true)
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().LoadIndicator()
-            .ID("loadIndicator")
-            .Visible(true)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().LoadIndicator()
+        .ID("loadIndicator")
+        .Visible(true)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().LoadIndicator() _
-            .ID("loadIndicator") _
-            .Visible(True)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().LoadIndicator() _
+        .ID("loadIndicator") _
+        .Visible(True)
+    )
 
 ---
 

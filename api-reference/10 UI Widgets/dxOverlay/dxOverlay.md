@@ -25,59 +25,59 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="overlay"></div>
+    <!--HTML-->
+    <div id="overlay"></div>
 
-        <!--JavaScript-->
-        $("#overlay").dxOverlay({
-            fullScreen: false,
-            shading: true,
-            position: {
-                my: 'left top',
-                at: 'left',
-                of: '#targetElement'
-            }
-        });
+    <!--JavaScript-->
+    $("#overlay").dxOverlay({
+        fullScreen: false,
+        shading: true,
+        position: {
+            my: 'left top',
+            at: 'left',
+            of: '#targetElement'
+        }
+    });
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-overlay
-            [fullScreen]="false"
-            [shading]="true"
-            [position]="{
-                my: 'left top',
-                at: 'left',
-                of: '#targetElement'
-            }">
-        </dx-overlay>
+    <!--HTML-->
+    <dx-overlay
+        [fullScreen]="false"
+        [shading]="true"
+        [position]="{
+            my: 'left top',
+            at: 'left',
+            of: '#targetElement'
+        }">
+    </dx-overlay>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-overlay="{
-            fullScreen: false,
-            shading: true,
-            position: {
-                my: 'left top',
-                at: 'left',
-                of: '#targetElement'
-            }
-        }"></div>
+    <!--HTML-->
+    <div dx-overlay="{
+        fullScreen: false,
+        shading: true,
+        position: {
+            my: 'left top',
+            at: 'left',
+            of: '#targetElement'
+        }
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxOverlay: {
-            visible: overlayVisible,
-            fullScreen: false,
-            shading: true,
-            position: {
-                my: 'left top',
-                at: 'left',
-                of: '#targetElement'
-            }
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxOverlay: {
+        visible: overlayVisible,
+        fullScreen: false,
+        shading: true,
+        position: {
+            my: 'left top',
+            at: 'left',
+            of: '#targetElement'
+        }
+    }"></div>
 
 ---
 

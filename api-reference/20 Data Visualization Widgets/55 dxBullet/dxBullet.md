@@ -27,64 +27,64 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#bullet").dxBullet({
-                startScaleValue: 0,
-                endScaleValue: 35,
-                value: 27,
-                target: 24 
-            });
-        });
-
-        <!--HTML--><div id="bullet"></div>
-
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <dx-bullet
-            [startScaleValue]="0"
-            [endScaleValue]="35"
-            [value]="27"
-            [target]="24">
-        </dx-bullet>
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div dx-bullet="{
-            startScaleValue: 0,
-            endScaleValue: 35,
-            value: 27,
-            target: 24
-        }"></div>
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div data-bind="dxBullet: {
+    <!--JavaScript-->$(function () {
+        $("#bullet").dxBullet({
             startScaleValue: 0,
             endScaleValue: 35,
             value: 27,
             target: 24 
-        }"></div>
+        });
+    });
+
+    <!--HTML--><div id="bullet"></div>
+
+#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <dx-bullet
+        [startScaleValue]="0"
+        [endScaleValue]="35"
+        [value]="27"
+        [target]="24">
+    </dx-bullet>
+
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div dx-bullet="{
+        startScaleValue: 0,
+        endScaleValue: 35,
+        value: 27,
+        target: 24
+    }"></div>
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div data-bind="dxBullet: {
+        startScaleValue: 0,
+        endScaleValue: 35,
+        value: 27,
+        target: 24 
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-        
-        <!--Razor C#-->@(Html.DevExtreme().Bullet()
-            .ID("bullet")
-            .StartScaleValue(0)
-            .EndScaleValue(35)
-            .Value(27)
-            .Target(24)
-        )
+    
+    <!--Razor C#-->@(Html.DevExtreme().Bullet()
+        .ID("bullet")
+        .StartScaleValue(0)
+        .EndScaleValue(35)
+        .Value(27)
+        .Target(24)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().Bullet() _
-            .ID("bullet") _
-            .StartScaleValue(0) _
-            .EndScaleValue(35) _
-            .Value(27) _
-            .Target(24)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().Bullet() _
+        .ID("bullet") _
+        .StartScaleValue(0) _
+        .EndScaleValue(35) _
+        .Value(27) _
+        .Target(24)
+    )
 
 ---
 

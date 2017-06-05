@@ -44,74 +44,74 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->var pivotItems = [{
-            title: "Main courses",
-            text: "First and second courses of a meal"
-        }, {
-            title: "Seafood",
-            text: "Seafood: ocean and sea"
-        }, {
-            title: "Desserts",
-            text: "Desserts: biscuits and cookies"
-        }, {
-            title: "Drinks",
-            text: "Drinks: soft vine and tea"
-        }];
-        $(function () {
-            $("#pivot").dxPivot({
-                items: pivotItems,
-                height: 300
-            });
+    <!--JavaScript-->var pivotItems = [{
+        title: "Main courses",
+        text: "First and second courses of a meal"
+    }, {
+        title: "Seafood",
+        text: "Seafood: ocean and sea"
+    }, {
+        title: "Desserts",
+        text: "Desserts: biscuits and cookies"
+    }, {
+        title: "Drinks",
+        text: "Drinks: soft vine and tea"
+    }];
+    $(function () {
+        $("#pivot").dxPivot({
+            items: pivotItems,
+            height: 300
         });
+    });
 
-        <!--HTML-->
-        <div id="pivot"></div>
+    <!--HTML-->
+    <div id="pivot"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-pivot
-            [items]="pivotItems"
-            [height]="300">
-        </dx-pivot>
+    <!--HTML-->
+    <dx-pivot
+        [items]="pivotItems"
+        [height]="300">
+    </dx-pivot>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            pivotItems = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        pivotItems = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-pivot="{
-                items: pivotItems,
-                height: 300
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.pivotItems = [
-                    // ...   
-                ];
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div data-bind="dxPivot: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-pivot="{
             items: pivotItems,
             height: 300
         }"></div>
+    </div>
 
-        <!--JavaScript-->var viewModel = {
-            pivotItems: [
-                // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.pivotItems = [
+                // ...   
+            ];
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div data-bind="dxPivot: {
+        items: pivotItems,
+        height: 300
+    }"></div>
+
+    <!--JavaScript-->var viewModel = {
+        pivotItems: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 ---
 

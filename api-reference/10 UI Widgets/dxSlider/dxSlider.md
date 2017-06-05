@@ -26,54 +26,54 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#slider").dxSlider({
-                min: 0, max: 100,
-                value: 25
-            });
+    <!--JavaScript-->$(function () {
+        $("#slider").dxSlider({
+            min: 0, max: 100,
+            value: 25
         });
+    });
 
-        <!--HTML-->
-        <div id="slider"></div>
+    <!--HTML-->
+    <div id="slider"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-slider
-            [min]="0"
-            [max]="100"
-            [value]="25">
-        </dx-slider>
+    <!--HTML-->
+    <dx-slider
+        [min]="0"
+        [max]="100"
+        [value]="25">
+    </dx-slider>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-slider="{
-            min: 0, max: 100,
-            value: 25
-        }"></div>
+    <!--HTML-->
+    <div dx-slider="{
+        min: 0, max: 100,
+        value: 25
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxSlider: {
-            min: 0, max: 100,
-            value: 25
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxSlider: {
+        min: 0, max: 100,
+        value: 25
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().Slider()
-            .ID("slider")
-            .Min(0).Max(100)
-            .Value(25)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().Slider()
+        .ID("slider")
+        .Min(0).Max(100)
+        .Value(25)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().Slider() _
-            .ID("slider") _
-            .Min(0).Max(100) _
-            .Value(25)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().Slider() _
+        .ID("slider") _
+        .Min(0).Max(100) _
+        .Value(25)
+    )
 
 ---
 

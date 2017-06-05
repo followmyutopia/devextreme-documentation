@@ -25,125 +25,125 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="slideOutView">
-            <div data-options="dxTemplate: { name: 'view' }">
-                <p>View content</p>
-            </div>
-            <div data-options="dxTemplate: { name: 'menu' }">
-                <p>Menu content</p>
-            </div>
+    <!--HTML-->
+    <div id="slideOutView">
+        <div data-options="dxTemplate: { name: 'view' }">
+            <p>View content</p>
         </div>
+        <div data-options="dxTemplate: { name: 'menu' }">
+            <p>Menu content</p>
+        </div>
+    </div>
 
-        <!--JavaScript-->$(function () {
-            $("#slideOutView").dxSlideOutView({
-                contentTemplate: 'view',
-                menuTemplate: 'menu',
-            });
+    <!--JavaScript-->$(function () {
+        $("#slideOutView").dxSlideOutView({
+            contentTemplate: 'view',
+            menuTemplate: 'menu',
         });
+    });
 
-        <!--CSS-->#slideOutView {
-            height: auto;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-        }
+    <!--CSS-->#slideOutView {
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-slide-out-view
-            contentTemplate="view"
-            menuTemplate="menu">
-                <div *dxTemplate="let viewData of 'view'">
-                    <p>View content</p>
-                </div>
-                <div *dxTemplate="let menuData of 'menu'">
-                    <p>Menu content</p>
-                </div>
-        </dx-slide-out-view>
+    <!--HTML-->
+    <dx-slide-out-view
+        contentTemplate="view"
+        menuTemplate="menu">
+            <div *dxTemplate="let viewData of 'view'">
+                <p>View content</p>
+            </div>
+            <div *dxTemplate="let menuData of 'menu'">
+                <p>Menu content</p>
+            </div>
+    </dx-slide-out-view>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="slideOutView" dx-slide-out-view="{
-            contentTemplate: 'view',
-            menuTemplate: 'menu'
-        }">
-            <div data-options="dxTemplate: { name: 'view' }">
-                <p>View content</p>
-            </div>
-            <div data-options="dxTemplate: { name: 'menu' }">
-                <p>Menu content</p>
-            </div>
+    <!--HTML-->
+    <div id="slideOutView" dx-slide-out-view="{
+        contentTemplate: 'view',
+        menuTemplate: 'menu'
+    }">
+        <div data-options="dxTemplate: { name: 'view' }">
+            <p>View content</p>
         </div>
+        <div data-options="dxTemplate: { name: 'menu' }">
+            <p>Menu content</p>
+        </div>
+    </div>
 
-        <!--CSS-->#slideOutView {
-            height: auto;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-        }
+    <!--CSS-->#slideOutView {
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="slideOutView" data-bind="dxSlideOutView: {
-            contentTemplate: 'view',
-            menuTemplate: 'menu'
-        }">
-            <div data-options="dxTemplate: { name: 'view' }">
-                <p>View content</p>
-            </div>
-            <div data-options="dxTemplate: { name: 'menu' }">
-                <p>Menu content</p>
-            </div>
+    <!--HTML-->
+    <div id="slideOutView" data-bind="dxSlideOutView: {
+        contentTemplate: 'view',
+        menuTemplate: 'menu'
+    }">
+        <div data-options="dxTemplate: { name: 'view' }">
+            <p>View content</p>
         </div>
+        <div data-options="dxTemplate: { name: 'menu' }">
+            <p>Menu content</p>
+        </div>
+    </div>
 
-        <!--CSS-->#slideOutView {
-            height: auto;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-        }
+    <!--CSS-->#slideOutView {
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().SlideOutView()
-            .ID("slideOutView")
-            .ContentTemplate(@<text>
-                <p>View content</p>
-            </text>)
-            .MenuTemplate(@<text>
-                <p>Menu content</p>
-            </text>)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().SlideOutView()
+        .ID("slideOutView")
+        .ContentTemplate(@<text>
+            <p>View content</p>
+        </text>)
+        .MenuTemplate(@<text>
+            <p>Menu content</p>
+        </text>)
+    )
 
-        <!--Razor VB-->@Code
-            Html.DevExtreme().SlideOutView() _
-                .ID("slideOutView") _
-                .ContentTemplate(Sub()
-                    @<text>
-                        <p>View content</p>
-                    </text>
-                End Sub) _
-                .MenuTemplate(Sub()
-                    @<text>
-                        <p>Menu content</p>
-                    </text>
-                End Sub).Render()
-        End Code
+    <!--Razor VB-->@Code
+        Html.DevExtreme().SlideOutView() _
+            .ID("slideOutView") _
+            .ContentTemplate(Sub()
+                @<text>
+                    <p>View content</p>
+                </text>
+            End Sub) _
+            .MenuTemplate(Sub()
+                @<text>
+                    <p>Menu content</p>
+                </text>
+            End Sub).Render()
+    End Code
 
-        <!--CSS-->#slideOutView {
-            height: auto;
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-        }
+    <!--CSS-->#slideOutView {
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
 
 ---
 

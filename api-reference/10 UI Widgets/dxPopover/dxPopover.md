@@ -23,78 +23,78 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="targetElement"></div>
-        <div id="popover">
-            <p>Popover content</p>
-        </div>
+    <!--HTML--><div id="targetElement"></div>
+    <div id="popover">
+        <p>Popover content</p>
+    </div>
 
-        <!--JavaScript-->$(function () {
-            $("#popover").dxPopover({
-                target: "#targetElement",
-                showEvent: 'dxhoverstart',
-                hideEvent: 'dxhoverend'
-            });
+    <!--JavaScript-->$(function () {
+        $("#popover").dxPopover({
+            target: "#targetElement",
+            showEvent: 'dxhoverstart',
+            hideEvent: 'dxhoverend'
         });
+    });
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="targetElement"></div>
-        <dx-popover
-            target="#targetElement"
-            showEvent="dxhoverstart"
-            hideEvent="dxhoverend">
-                <p>Popover content</p>
-        </dx-popover>
+    <!--HTML-->
+    <div id="targetElement"></div>
+    <dx-popover
+        target="#targetElement"
+        showEvent="dxhoverstart"
+        hideEvent="dxhoverend">
+            <p>Popover content</p>
+    </dx-popover>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="targetElement"></div>
-        <div dx-popover="{
-            target: '#targetElement',
-            showEvent: 'dxhoverstart',
-            hideEvent: 'dxhoverend'
-        }">
-            <p>Popover content</p>
-        </div>
+    <!--HTML--><div id="targetElement"></div>
+    <div dx-popover="{
+        target: '#targetElement',
+        showEvent: 'dxhoverstart',
+        hideEvent: 'dxhoverend'
+    }">
+        <p>Popover content</p>
+    </div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div id="targetElement"></div>
-        <div data-bind="dxPopover: {
-            target: '#targetElement',
-            showEvent: 'dxhoverstart',
-            hideEvent: 'dxhoverend'
-        }">
-            <p>Popover content</p>
-        </div>
+    <!--HTML--><div id="targetElement"></div>
+    <div data-bind="dxPopover: {
+        target: '#targetElement',
+        showEvent: 'dxhoverstart',
+        hideEvent: 'dxhoverend'
+    }">
+        <p>Popover content</p>
+    </div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-        
-        <!--Razor C#-->@(Html.DevExtreme().Popover()
-            .ID("popover")
-            .Target("#targetElement")
-            .ShowEvent("dxhoverstart")
-            .HideEvent("dxhoverend")
-            .ContentTemplate(@<text>
-                <p>Popover content</p>
-            </text>)
-        )
-        <div id="targetElement"></div>
+    
+    <!--Razor C#-->@(Html.DevExtreme().Popover()
+        .ID("popover")
+        .Target("#targetElement")
+        .ShowEvent("dxhoverstart")
+        .HideEvent("dxhoverend")
+        .ContentTemplate(@<text>
+            <p>Popover content</p>
+        </text>)
+    )
+    <div id="targetElement"></div>
 
-        <!--Razor VB-->@Code
-            Html.DevExtreme().Popover() _
-                .ID("popover") _
-                .Target("#targetElement") _
-                .ShowEvent("dxhoverstart") _
-                .HideEvent("dxhoverend") _
-                .ContentTemplate(Sub()
-                    @<text>
-                        <p>Popover content</p>
-                    </text>
-                End Sub).Render()
-        End Code
-        <div id="targetElement"></div>
+    <!--Razor VB-->@Code
+        Html.DevExtreme().Popover() _
+            .ID("popover") _
+            .Target("#targetElement") _
+            .ShowEvent("dxhoverstart") _
+            .HideEvent("dxhoverend") _
+            .ContentTemplate(Sub()
+                @<text>
+                    <p>Popover content</p>
+                </text>
+            End Sub).Render()
+    End Code
+    <div id="targetElement"></div>
 
 ---
 

@@ -24,237 +24,237 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><html style="height:100%">
-            <!-- ... -->
-        </html>
-        <body style="height:100%">
-            <div id="responsiveBox">
-                <div class="header" data-options="dxItem: {
-                    location: [
-                        { row: 0, col: 0 }
-                    ]
-                }"> <p>Header</p> </div>
-                <div class="content" data-options="dxItem: {
-                    location: [
-                        { row: 1, col: 0 }
-                    ]
-                }"> <p>Content</p> </div>
-                <div class="footer" data-options="dxItem: {
-                    location: [
-                        { row: 2, col: 0 }
-                    ]
-                }"> <p>Footer</p> </div>
-            </div>
-        </body>
-
-        <!--JavaScript-->$(function () {
-            $("#responsiveBox").dxResponsiveBox({
-                rows: [
-                    { ratio: 1 },
-                    { ratio: 2 },
-                    { ratio: 0.7 }
-                ],
-                cols: [
-                    { ratio: 1 }
+    <!--HTML--><html style="height:100%">
+        <!-- ... -->
+    </html>
+    <body style="height:100%">
+        <div id="responsiveBox">
+            <div class="header" data-options="dxItem: {
+                location: [
+                    { row: 0, col: 0 }
                 ]
-            });
-        });
+            }"> <p>Header</p> </div>
+            <div class="content" data-options="dxItem: {
+                location: [
+                    { row: 1, col: 0 }
+                ]
+            }"> <p>Content</p> </div>
+            <div class="footer" data-options="dxItem: {
+                location: [
+                    { row: 2, col: 0 }
+                ]
+            }"> <p>Footer</p> </div>
+        </div>
+    </body>
 
-        <!--CSS-->#responsiveBox p {
-            font-size: 16px;
-            padding-top: 10px;
-            text-align: center;
-        }
-        .header { background: #f39e6c }
-        .content { background: #f5e5a6 }
-        .footer { background: #7b9bcf }
+    <!--JavaScript-->$(function () {
+        $("#responsiveBox").dxResponsiveBox({
+            rows: [
+                { ratio: 1 },
+                { ratio: 2 },
+                { ratio: 0.7 }
+            ],
+            cols: [
+                { ratio: 1 }
+            ]
+        });
+    });
+
+    <!--CSS-->#responsiveBox p {
+        font-size: 16px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .header { background: #f39e6c }
+    .content { background: #f5e5a6 }
+    .footer { background: #7b9bcf }
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-responsive-box>
-            <dxi-row [ratio]="1"></dxi-row>
-            <dxi-row [ratio]="2"></dxi-row>
-            <dxi-row [ratio]="0.7"></dxi-row>
-            <dxi-col [ratio]="1"></dxi-col>
-            <dxi-item class="header">
-                <dxo-location [row]="0" [col]="0"></dxo-location>
-                <p>Header</p>
-            </dxi-item>
-            <dxi-item class="content">
-                <dxo-location [row]="1" [col]="0"></dxo-location>
-                <p>Content</p>
-            </dxi-item>
-            <dxi-item class="footer">
-                <dxo-location [row]="2" [col]="0"></dxo-location>
-                <p>Footer</p>
-            </dxi-item>
-        </dx-responsive-box>
+    <!--HTML-->
+    <dx-responsive-box>
+        <dxi-row [ratio]="1"></dxi-row>
+        <dxi-row [ratio]="2"></dxi-row>
+        <dxi-row [ratio]="0.7"></dxi-row>
+        <dxi-col [ratio]="1"></dxi-col>
+        <dxi-item class="header">
+            <dxo-location [row]="0" [col]="0"></dxo-location>
+            <p>Header</p>
+        </dxi-item>
+        <dxi-item class="content">
+            <dxo-location [row]="1" [col]="0"></dxo-location>
+            <p>Content</p>
+        </dxi-item>
+        <dxi-item class="footer">
+            <dxo-location [row]="2" [col]="0"></dxo-location>
+            <p>Footer</p>
+        </dxi-item>
+    </dx-responsive-box>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><html style="height:100%">
-            <!-- ... -->
-        </html>
-        <body style="height:100%">
-            <div id="responsiveBox" dx-responsive-box="{
-                rows: [
-                    { ratio: 1 },
-                    { ratio: 2 },
-                    { ratio: 0.7 }
-                ],
-                cols: [
-                    { ratio: 1 }
+    <!--HTML--><html style="height:100%">
+        <!-- ... -->
+    </html>
+    <body style="height:100%">
+        <div id="responsiveBox" dx-responsive-box="{
+            rows: [
+                { ratio: 1 },
+                { ratio: 2 },
+                { ratio: 0.7 }
+            ],
+            cols: [
+                { ratio: 1 }
+            ]
+        }">
+            <div class="header" data-options="dxItem: {
+                location: [
+                    { row: 0, col: 0 }
                 ]
-            }">
-                <div class="header" data-options="dxItem: {
-                    location: [
-                        { row: 0, col: 0 }
-                    ]
-                }"> <p>Header</p> </div>
-                <div class="content" data-options="dxItem: {
-                    location: [
-                        { row: 1, col: 0 }
-                    ]
-                }"> <p>Content</p> </div>
-                <div class="footer" data-options="dxItem: {
-                    location: [
-                        { row: 2, col: 0 }
-                    ]
-                }"> <p>Footer</p> </div>
-            </div>
-        </body>
+            }"> <p>Header</p> </div>
+            <div class="content" data-options="dxItem: {
+                location: [
+                    { row: 1, col: 0 }
+                ]
+            }"> <p>Content</p> </div>
+            <div class="footer" data-options="dxItem: {
+                location: [
+                    { row: 2, col: 0 }
+                ]
+            }"> <p>Footer</p> </div>
+        </div>
+    </body>
 
-        <!--CSS-->#responsiveBox p {
-            font-size: 16px;
-            padding-top: 10px;
-            text-align: center;
-        }
-        .header { background: #f39e6c }
-        .content { background: #f5e5a6 }
-        .footer { background: #7b9bcf }
+    <!--CSS-->#responsiveBox p {
+        font-size: 16px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .header { background: #f39e6c }
+    .content { background: #f5e5a6 }
+    .footer { background: #7b9bcf }
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><html style="height:100%">
-            <!-- ... -->
-        </html>
-        <body style="height:100%">
-            <div id="responsiveBox" data-bind="dxResponsiveBox: {
-                rows: [
-                    { ratio: 1 },
-                    { ratio: 2 },
-                    { ratio: 0.7 }
-                ],
-                cols: [
-                    { ratio: 1 }
+    <!--HTML--><html style="height:100%">
+        <!-- ... -->
+    </html>
+    <body style="height:100%">
+        <div id="responsiveBox" data-bind="dxResponsiveBox: {
+            rows: [
+                { ratio: 1 },
+                { ratio: 2 },
+                { ratio: 0.7 }
+            ],
+            cols: [
+                { ratio: 1 }
+            ]
+        }">
+            <div class="header" data-options="dxItem: {
+                location: [
+                    { row: 0, col: 0 }
                 ]
-            }">
-                <div class="header" data-options="dxItem: {
-                    location: [
-                        { row: 0, col: 0 }
-                    ]
-                }"> <p>Header</p> </div>
-                <div class="content" data-options="dxItem: {
-                    location: [
-                        { row: 1, col: 0 }
-                    ]
-                }"> <p>Content</p> </div>
-                <div class="footer" data-options="dxItem: {
-                    location: [
-                        { row: 2, col: 0 }
-                    ]
-                }"> <p>Footer</p> </div>
-            </div>
-        </body>
+            }"> <p>Header</p> </div>
+            <div class="content" data-options="dxItem: {
+                location: [
+                    { row: 1, col: 0 }
+                ]
+            }"> <p>Content</p> </div>
+            <div class="footer" data-options="dxItem: {
+                location: [
+                    { row: 2, col: 0 }
+                ]
+            }"> <p>Footer</p> </div>
+        </div>
+    </body>
 
-        <!--CSS-->#responsiveBox p {
-            font-size: 16px;
-            padding-top: 10px;
-            text-align: center;
-        }
-        .header { background: #f39e6c }
-        .content { background: #f5e5a6 }
-        .footer { background: #7b9bcf }
+    <!--CSS-->#responsiveBox p {
+        font-size: 16px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .header { background: #f39e6c }
+    .content { background: #f5e5a6 }
+    .footer { background: #7b9bcf }
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#--><html style="height:100%">
-            <!-- ... -->
-        </html>
-        <body style="height:100%">
-            @(Html.DevExtreme().ResponsiveBox()
-                .ID("responsiveBox")
-                .Rows(rows => {
-                    rows.Add().Ratio(1);
-                    rows.Add().Ratio(2);
-                    rows.Add().Ratio(0.7);
-                })
-                .Cols(cols => {
-                    cols.Add().Ratio(1);
-                })
-                .Items(items => {
-                    items.Add()
-                        .Template("<p>Header</p>")
-                        .Location(locations => {
-                            locations.Add().Row(0).Col(0);
-                        });
-                    items.Add()
-                        .Template("<p>Content</p>")
-                        .Location(locations => {
-                            locations.Add().Row(1).Col(0);
-                        });
-                    items.Add()
-                        .Template("<p>Footer</p>")
-                        .Location(locations => {
-                            locations.Add().Row(2).Col(0);
-                        });
-                })
-            )
-        </body>
+    <!--Razor C#--><html style="height:100%">
+        <!-- ... -->
+    </html>
+    <body style="height:100%">
+        @(Html.DevExtreme().ResponsiveBox()
+            .ID("responsiveBox")
+            .Rows(rows => {
+                rows.Add().Ratio(1);
+                rows.Add().Ratio(2);
+                rows.Add().Ratio(0.7);
+            })
+            .Cols(cols => {
+                cols.Add().Ratio(1);
+            })
+            .Items(items => {
+                items.Add()
+                    .Template("<p>Header</p>")
+                    .Location(locations => {
+                        locations.Add().Row(0).Col(0);
+                    });
+                items.Add()
+                    .Template("<p>Content</p>")
+                    .Location(locations => {
+                        locations.Add().Row(1).Col(0);
+                    });
+                items.Add()
+                    .Template("<p>Footer</p>")
+                    .Location(locations => {
+                        locations.Add().Row(2).Col(0);
+                    });
+            })
+        )
+    </body>
 
-        <!--Razor VB--><html style="height:100%">
-            <!-- ... -->
-        </html>
-        <body style="height:100%">
-            @(Html.DevExtreme().ResponsiveBox() _
-                .ID("responsiveBox") _
-                .Rows(Sub(rows)
-                    rows.Add().Ratio(1)
-                    rows.Add().Ratio(2)
-                    rows.Add().Ratio(0.7)
-                End Sub) _
-                .Cols(Sub(cols)
-                    cols.Add().Ratio(1)
-                End Sub) _
-                .Items(Sub(items)
-                    items.Add() _
-                        .Template("<p>Header</p>") _
-                        .Location(Sub(locations)
-                            locations.Add().Row(0).Col(0)
-                        End Sub)
-                    items.Add() _
-                        .Template("<p>Content</p>") _
-                        .Location(Sub(locations)
-                            locations.Add().Row(1).Col(0)
-                        End Sub)
-                    items.Add() _
-                        .Template("<p>Footer</p>") _
-                        .Location(Sub(locations)
-                            locations.Add().Row(2).Col(0)
-                        End Sub)
-                End Sub)
-            )
-        </body>
+    <!--Razor VB--><html style="height:100%">
+        <!-- ... -->
+    </html>
+    <body style="height:100%">
+        @(Html.DevExtreme().ResponsiveBox() _
+            .ID("responsiveBox") _
+            .Rows(Sub(rows)
+                rows.Add().Ratio(1)
+                rows.Add().Ratio(2)
+                rows.Add().Ratio(0.7)
+            End Sub) _
+            .Cols(Sub(cols)
+                cols.Add().Ratio(1)
+            End Sub) _
+            .Items(Sub(items)
+                items.Add() _
+                    .Template("<p>Header</p>") _
+                    .Location(Sub(locations)
+                        locations.Add().Row(0).Col(0)
+                    End Sub)
+                items.Add() _
+                    .Template("<p>Content</p>") _
+                    .Location(Sub(locations)
+                        locations.Add().Row(1).Col(0)
+                    End Sub)
+                items.Add() _
+                    .Template("<p>Footer</p>") _
+                    .Location(Sub(locations)
+                        locations.Add().Row(2).Col(0)
+                    End Sub)
+            End Sub)
+        )
+    </body>
 
-        <!--CSS-->#responsiveBox p {
-            font-size: 16px;
-            padding-top: 10px;
-            text-align: center;
-        }
-        .header { background: #f39e6c }
-        .content { background: #f5e5a6 }
-        .footer { background: #7b9bcf }
+    <!--CSS-->#responsiveBox p {
+        font-size: 16px;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .header { background: #f39e6c }
+    .content { background: #f5e5a6 }
+    .footer { background: #7b9bcf }
 
 ---
 

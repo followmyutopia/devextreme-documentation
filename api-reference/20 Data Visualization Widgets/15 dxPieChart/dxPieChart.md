@@ -50,70 +50,46 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->var fruits = [
-            { fruit: 'Oranges', yield: 10, consumed: 7 },
-            { fruit: 'Apples', yield: 15, consumed: 14 },
-            { fruit: 'Bananas', yield: 9, consumed: 9 }
-        ];
-        $(function() {
-            $("#pieChart").dxPieChart({
-                dataSource: fruits,
-                commonSeriesSettings: {
-                    argumentField: "fruit"
-                },
-                series: [
-                    { valueField: "yield" },
-                    { valueField: "consumed" }
-                ]
-            });
+    <!--JavaScript-->var fruits = [
+        { fruit: 'Oranges', yield: 10, consumed: 7 },
+        { fruit: 'Apples', yield: 15, consumed: 14 },
+        { fruit: 'Bananas', yield: 9, consumed: 9 }
+    ];
+    $(function() {
+        $("#pieChart").dxPieChart({
+            dataSource: fruits,
+            commonSeriesSettings: {
+                argumentField: "fruit"
+            },
+            series: [
+                { valueField: "yield" },
+                { valueField: "consumed" }
+            ]
         });
+    });
 
-        <!--HTML--><div id="pieChart"></div>
+    <!--HTML--><div id="pieChart"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-pie-chart [dataSource]="fruits">
-            <dxo-common-series-settings argumentField="fruit"></dxo-common-series-settings>
-            <dxi-series valueField="yeld"></dxi-series>
-            <dxi-series valueField="consumed"></dxi-series>
-        </dx-pie-chart>
+    <!--HTML-->
+    <dx-pie-chart [dataSource]="fruits">
+        <dxo-common-series-settings argumentField="fruit"></dxo-common-series-settings>
+        <dxi-series valueField="yeld"></dxi-series>
+        <dxi-series valueField="consumed"></dxi-series>
+    </dx-pie-chart>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            fruits = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        fruits = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-pie-chart="{
-                dataSource: fruits,
-                commonSeriesSettings: {
-                    argumentField: 'fruit'
-                },
-                series: [
-                    { valueField: 'yield' },
-                    { valueField: 'consumed' }
-                ]
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.fruits = [
-                    { fruit: 'Oranges', yield: 10, consumed: 7 },
-                    { fruit: 'Apples', yield: 15, consumed: 14 },
-                    { fruit: 'Bananas', yield: 9, consumed: 9 }   
-                ];
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div data-bind="dxPieChart: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-pie-chart="{
             dataSource: fruits,
             commonSeriesSettings: {
                 argumentField: 'fruit'
@@ -123,41 +99,65 @@ You can create the widget using one of the following approaches.
                 { valueField: 'consumed' }
             ]
         }"></div>
+    </div>
 
-        <!--JavaScript-->var viewModel = {
-            fruits: [
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.fruits = [
                 { fruit: 'Oranges', yield: 10, consumed: 7 },
                 { fruit: 'Apples', yield: 15, consumed: 14 },
-                { fruit: 'Bananas', yield: 9, consumed: 9 }
-            ]
-        };
-        ko.applyBindings(viewModel);
+                { fruit: 'Bananas', yield: 9, consumed: 9 }   
+            ];
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div data-bind="dxPieChart: {
+        dataSource: fruits,
+        commonSeriesSettings: {
+            argumentField: 'fruit'
+        },
+        series: [
+            { valueField: 'yield' },
+            { valueField: 'consumed' }
+        ]
+    }"></div>
+
+    <!--JavaScript-->var viewModel = {
+        fruits: [
+            { fruit: 'Oranges', yield: 10, consumed: 7 },
+            { fruit: 'Apples', yield: 15, consumed: 14 },
+            { fruit: 'Bananas', yield: 9, consumed: 9 }
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().PieChart()
-            .ID("pieChart")
-            .DataSource(Fruits)
-            .CommonSeriesSettings(c => c
-                .ArgumentField("fruit")
-            )
-            .Series(series => {
-                series.Add().ValueField("yield");
-                series.Add().ValueField("consumed");
-            })
+    <!--Razor C#-->@(Html.DevExtreme().PieChart()
+        .ID("pieChart")
+        .DataSource(Fruits)
+        .CommonSeriesSettings(c => c
+            .ArgumentField("fruit")
         )
+        .Series(series => {
+            series.Add().ValueField("yield");
+            series.Add().ValueField("consumed");
+        })
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().PieChart() _
-            .ID("pieChart") _
-            .DataSource(Fruits) _
-            .CommonSeriesSettings(Sub(c)
-                c.ArgumentField("fruit")
-            End Sub) _
-            .Series(Sub(series)
-                series.Add().ValueField("yield")
-                series.Add().ValueField("consumed")
-            End Sub)
-        
+    <!--Razor VB-->@(Html.DevExtreme().PieChart() _
+        .ID("pieChart") _
+        .DataSource(Fruits) _
+        .CommonSeriesSettings(Sub(c)
+            c.ArgumentField("fruit")
+        End Sub) _
+        .Series(Sub(series)
+            series.Add().ValueField("yield")
+            series.Add().ValueField("consumed")
+        End Sub)
+    
 
 ---
 

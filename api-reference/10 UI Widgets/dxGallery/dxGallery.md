@@ -32,79 +32,79 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#gallery").dxGallery({
-                dataSource: [
-                    "http://path/to/image/1.png",
-                    "http://path/to/image/2.png",
-                    "http://path/to/image/3.png"
-                ],
-                height: 300
-            });
+    <!--JavaScript-->$(function () {
+        $("#gallery").dxGallery({
+            dataSource: [
+                "http://path/to/image/1.png",
+                "http://path/to/image/2.png",
+                "http://path/to/image/3.png"
+            ],
+            height: 300
         });
+    });
 
-        <!--HTML--><div id="gallery"></div>
+    <!--HTML--><div id="gallery"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-gallery
-            [dataSource]="galleryData"
-            [height]="300">
-        </dx-gallery>
+    <!--HTML-->
+    <dx-gallery
+        [dataSource]="galleryData"
+        [height]="300">
+    </dx-gallery>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            galleryData = [
-                'http://path/to/image/1.png',
-                'http://path/to/image/2.png',
-                'http://path/to/image/3.png'
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        galleryData = [
+            'http://path/to/image/1.png',
+            'http://path/to/image/2.png',
+            'http://path/to/image/3.png'
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div dx-gallery="{
-            dataSource: [
-                'http://path/to/image/1.png',
-                'http://path/to/image/2.png',
-                'http://path/to/image/3.png'
-            ],
-            height: 300
-        }"></div>
+    <!--HTML--><div dx-gallery="{
+        dataSource: [
+            'http://path/to/image/1.png',
+            'http://path/to/image/2.png',
+            'http://path/to/image/3.png'
+        ],
+        height: 300
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div data-bind="dxGallery: {
-            dataSource: [
-                'http://path/to/image/1.png',
-                'http://path/to/image/2.png',
-                'http://path/to/image/3.png'
-            ],
-            height: 300
-        }"></div>
+    <!--HTML--><div data-bind="dxGallery: {
+        dataSource: [
+            'http://path/to/image/1.png',
+            'http://path/to/image/2.png',
+            'http://path/to/image/3.png'
+        ],
+        height: 300
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().Gallery()
-            .ID("gallery")
-            .DataSource(new[] {
-                "http://path/to/image/1.png",
-                "http://path/to/image/2.png",
-                "http://path/to/image/3.png"
-            })
-            .Height(300)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().Gallery()
+        .ID("gallery")
+        .DataSource(new[] {
+            "http://path/to/image/1.png",
+            "http://path/to/image/2.png",
+            "http://path/to/image/3.png"
+        })
+        .Height(300)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().Gallery() _
-            .ID("gallery") _
-            .DataSource({
-                "http://path/to/image/1.png",
-                "http://path/to/image/2.png",
-                "http://path/to/image/3.png"
-            }) _
-            .Height(300)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().Gallery() _
+        .ID("gallery") _
+        .DataSource({
+            "http://path/to/image/1.png",
+            "http://path/to/image/2.png",
+            "http://path/to/image/3.png"
+        }) _
+        .Height(300)
+    )
 
 ---
 

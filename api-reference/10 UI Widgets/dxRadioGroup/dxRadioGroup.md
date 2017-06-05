@@ -30,104 +30,104 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->var radioGroupItems = [
-            { text: "Low", color: "grey" },
-            { text: "Normal", color: "green" },
-            { text: "Urgent", color: "yellow" },
-            { text: "High", color: "red" }
-        ];
-        $(function () {
-            $("#radioGroup").dxRadioGroup({
-                dataSource: radioGroupItems,
-                displayExpr: "text",
-                valueExpr: "color",
-                value: "green"
-            });
+    <!--JavaScript-->var radioGroupItems = [
+        { text: "Low", color: "grey" },
+        { text: "Normal", color: "green" },
+        { text: "Urgent", color: "yellow" },
+        { text: "High", color: "red" }
+    ];
+    $(function () {
+        $("#radioGroup").dxRadioGroup({
+            dataSource: radioGroupItems,
+            displayExpr: "text",
+            valueExpr: "color",
+            value: "green"
         });
+    });
 
-        <!--HTML-->
-        <div id="radioGroup"></div>
+    <!--HTML-->
+    <div id="radioGroup"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-radio-group
-            [dataSource]="radioGroupItems"
-            displayExpr="text"
-            valueExpr="color"
-            value="green">
-        </dx-radio-group>
+    <!--HTML-->
+    <dx-radio-group
+        [dataSource]="radioGroupItems"
+        displayExpr="text"
+        valueExpr="color"
+        value="green">
+    </dx-radio-group>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            radioGroupItems = [
-                // ...
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        radioGroupItems = [
+            // ...
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-radio-group="{
-                dataSource: radioGroupItems,
-                displayExpr: 'text',
-                valueExpr: 'color',
-                value: 'green'
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller('DemoController', function DemoController($scope) {
-                $scope.radioGroupItems = [
-                    // ...
-                ];
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-
-        <!--HTML-->
-        <div data-bind="dxRadioGroup: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-radio-group="{
             dataSource: radioGroupItems,
             displayExpr: 'text',
             valueExpr: 'color',
             value: 'green'
         }"></div>
+    </div>
 
-        <!--JavaScript-->var viewModel = {
-            radioGroupItems: [
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.radioGroupItems = [
                 // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+            ];
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+
+    <!--HTML-->
+    <div data-bind="dxRadioGroup: {
+        dataSource: radioGroupItems,
+        displayExpr: 'text',
+        valueExpr: 'color',
+        value: 'green'
+    }"></div>
+
+    <!--JavaScript-->var viewModel = {
+        radioGroupItems: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().RadioGroup()
-            .ID("radioGroup")
-            .DisplayExpr("text")
-            .ValueExpr("color")
-            .Value("green")
-            .DataSource(new object[] {
-                new { text = "Low", color = "grey" },
-                new { text = "Normal", color = "green" },
-                new { text = "Urgent", color = "yellow" },
-                new { text = "High", color = "red" }
-            })
-        )
+    <!--Razor C#-->@(Html.DevExtreme().RadioGroup()
+        .ID("radioGroup")
+        .DisplayExpr("text")
+        .ValueExpr("color")
+        .Value("green")
+        .DataSource(new object[] {
+            new { text = "Low", color = "grey" },
+            new { text = "Normal", color = "green" },
+            new { text = "Urgent", color = "yellow" },
+            new { text = "High", color = "red" }
+        })
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().RadioGroup() _
-            .ID("radioGroup") _
-            .DisplayExpr("text") _
-            .ValueExpr("color") _
-            .Value("green") _
-            .DataSource(New Object() {
-                New With { .text = "Low", .color = "grey" },
-                New With { .text = "Normal", .color = "green" },
-                New With { .text = "Urgent", .color = "yellow" },
-                New With { .text = "High", .color = "red" }
-            })
-        )
+    <!--Razor VB-->@(Html.DevExtreme().RadioGroup() _
+        .ID("radioGroup") _
+        .DisplayExpr("text") _
+        .ValueExpr("color") _
+        .Value("green") _
+        .DataSource(New Object() {
+            New With { .text = "Low", .color = "grey" },
+            New With { .text = "Normal", .color = "green" },
+            New With { .text = "Urgent", .color = "yellow" },
+            New With { .text = "High", .color = "red" }
+        })
+    )
 
 ---
 

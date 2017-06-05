@@ -25,68 +25,68 @@ You can add the **PivotGridFieldChooser** widget using one of the following appr
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
-            // ...
+    <!--JavaScript-->var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+        // ...
+    });
+    $(function () {
+        $("#fieldChooser").dxPivotGridFieldChooser({
+            dataSource: pivotGridDataSource
         });
-        $(function () {
-            $("#fieldChooser").dxPivotGridFieldChooser({
-                dataSource: pivotGridDataSource
-            });
-            $("#pivotGrid").dxPivotGrid({
-                dataSource: pivotGridDataSource
-            });
+        $("#pivotGrid").dxPivotGrid({
+            dataSource: pivotGridDataSource
         });
+    });
 
-        <!--HTML--><div id="fieldChooser"></div>
-        <div id="pivotGrid"></div>
+    <!--HTML--><div id="fieldChooser"></div>
+    <div id="pivotGrid"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-pivot-grid-field-chooser [dataSource]="pivotGridDataSource"></dx-pivot-grid-field-chooser>
-        <dx-pivot-grid [dataSource]="pivotGridDataSource"></dx-pivot-grid>
+    <!--HTML-->
+    <dx-pivot-grid-field-chooser [dataSource]="pivotGridDataSource"></dx-pivot-grid-field-chooser>
+    <dx-pivot-grid [dataSource]="pivotGridDataSource"></dx-pivot-grid>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
-                // ...   
-            });
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+            // ...   
+        });
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-pivot-grid-field-chooser="{
-                dataSource: pivotGridDataSource
-            }"></div>
-            <div dx-pivot-grid="{
-                dataSource: pivotGridDataSource
-            }"></div>
-        </div>
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-pivot-grid-field-chooser="{
+            dataSource: pivotGridDataSource
+        }"></div>
+        <div dx-pivot-grid="{
+            dataSource: pivotGridDataSource
+        }"></div>
+    </div>
 
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
-                    // ...   
-                });
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+                // ...   
             });
+        });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxPivotGridFieldChooser: {
-            dataSource: pivotGridDataSource
-        }"></div>
-        <div data-bind="dxPivotGrid: {
-            dataSource: pivotGridDataSource  
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxPivotGridFieldChooser: {
+        dataSource: pivotGridDataSource
+    }"></div>
+    <div data-bind="dxPivotGrid: {
+        dataSource: pivotGridDataSource  
+    }"></div>
 
-        <!--JavaScript-->var viewModel = {
-            pivotGridDataSource: new DevExpress.data.PivotGridDataSource({
-                // ...
-            })
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->var viewModel = {
+        pivotGridDataSource: new DevExpress.data.PivotGridDataSource({
+            // ...
+        })
+    };
+    ko.applyBindings(viewModel);
 
 ---
 

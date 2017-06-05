@@ -27,59 +27,59 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#autocomplete").dxAutocomplete({
-                dataSource: autocompleteData,
-                placeholder: 'Type country name...',
-                valueExpr: 'name'
-            });
+    <!--JavaScript-->$(function () {
+        $("#autocomplete").dxAutocomplete({
+            dataSource: autocompleteData,
+            placeholder: 'Type country name...',
+            valueExpr: 'name'
         });
+    });
 
-        <!--HTML-->
-        <div id="autocomplete"></div>
+    <!--HTML-->
+    <div id="autocomplete"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-autocomplete
-            [dataSource]="autocompleteData"
-            placeholder="Type country name..."
-            valueExpr="name">
-        </dx-autocomplete>
+    <!--HTML-->
+    <dx-autocomplete
+        [dataSource]="autocompleteData"
+        placeholder="Type country name..."
+        valueExpr="name">
+    </dx-autocomplete>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-autocomplete="{
-            dataSource: autocompleteData,
-            placeholder: 'Type country name...',
-            valueExpr: 'name'
-        }"></div>
+    <!--HTML-->
+    <div dx-autocomplete="{
+        dataSource: autocompleteData,
+        placeholder: 'Type country name...',
+        valueExpr: 'name'
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxAutocomplete: {
-            dataSource: autocompleteData,
-            placeholder: 'Type country name...',
-            valueExpr: 'name'
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxAutocomplete: {
+        dataSource: autocompleteData,
+        placeholder: 'Type country name...',
+        valueExpr: 'name'
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().Autocomplete()
-            .ID("autocomplete")
-            .DataSource(AutocompleteData)
-            .Placeholder("Type country name...")
-            .ValueExpr("name")
-        )
+    <!--Razor C#-->@(Html.DevExtreme().Autocomplete()
+        .ID("autocomplete")
+        .DataSource(AutocompleteData)
+        .Placeholder("Type country name...")
+        .ValueExpr("name")
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().Autocomplete() _
-            .ID("autocomplete") _
-            .DataSource(AutocompleteData) _
-            .Placeholder("Type country name...") _
-            .ValueExpr("name")
-        )
+    <!--Razor VB-->@(Html.DevExtreme().Autocomplete() _
+        .ID("autocomplete") _
+        .DataSource(AutocompleteData) _
+        .Placeholder("Type country name...") _
+        .ValueExpr("name")
+    )
 
 ---
 

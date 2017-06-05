@@ -27,136 +27,136 @@ You can create the **ValidationGroup** widget using one of the following approac
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function() {
-            var validationGroupName = "sampleGroup";
-            $("#textBox1").dxTextBox({ name: 'FirstName' })
-                .dxValidator({
-                    validationRules: [
-                        // ...
-                    ],
-                    validationGroup: validationGroupName
-                });
-            $("#textBox2").dxTextBox({ name: 'LastName' })
-                .dxValidator({
-                    validationRules: [
-                        // ...
-                    ],
-                    validationGroup: validationGroupName
-                });
-            $("#summary").dxValidationSummary({
+    <!--JavaScript-->$(function() {
+        var validationGroupName = "sampleGroup";
+        $("#textBox1").dxTextBox({ name: 'FirstName' })
+            .dxValidator({
+                validationRules: [
+                    // ...
+                ],
                 validationGroup: validationGroupName
             });
-            $("#button").dxButton({
+        $("#textBox2").dxTextBox({ name: 'LastName' })
+            .dxValidator({
+                validationRules: [
+                    // ...
+                ],
                 validationGroup: validationGroupName
-                //...
             });
+        $("#summary").dxValidationSummary({
+            validationGroup: validationGroupName
         });
+        $("#button").dxButton({
+            validationGroup: validationGroupName
+            //...
+        });
+    });
 
-        <!--HTML--><div id="textBox1"></div>
-        <div id="textBox2"></div>
-        <div id="summary"></div>
-        <div id="button"></div>
+    <!--HTML--><div id="textBox1"></div>
+    <div id="textBox2"></div>
+    <div id="summary"></div>
+    <div id="button"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-validation-group>
-            <dx-text-box name="FirstName">
-                <dx-validator>
-                    <dxi-validation-rule type="required" message="First name is required"></dxi-validation-rule>
-                    . . .
-                </dx-validator>
-            </dx-text-box>
-            <dx-text-box name="LastName">
-                <dx-validator>
-                    <dxi-validation-rule type="required" message="Last name is required"></dxi-validation-rule>
-                    . . .
-                </dx-validator>
-            </dx-text-box>
-            <dx-validation-summary></dx-validation-summary>
-            <dx-button></dx-button>
-        </dx-validation-group>
+    <!--HTML-->
+    <dx-validation-group>
+        <dx-text-box name="FirstName">
+            <dx-validator>
+                <dxi-validation-rule type="required" message="First name is required"></dxi-validation-rule>
+                . . .
+            </dx-validator>
+        </dx-text-box>
+        <dx-text-box name="LastName">
+            <dx-validator>
+                <dxi-validation-rule type="required" message="Last name is required"></dxi-validation-rule>
+                . . .
+            </dx-validator>
+        </dx-text-box>
+        <dx-validation-summary></dx-validation-summary>
+        <dx-button></dx-button>
+    </dx-validation-group>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div dx-validation-group="{ }" ng-controller="DemoController">
-            <div dx-text-box="{ name: 'FirstName' }"
-                dx-validator="{
-                    validationRules: [
-                        // ...
-                    ]
-                }">  
-            </div>
-            <div dx-text-box="{ name: 'LastName' }"
-                dx-validator="{
-                    validationRules: [
-                        // ...
-                    ]
-                }">
-            </div>
-            <div dx-validation-summary="{  }"></div>
-            <div dx-button="{ }"></div>
+    <!--HTML--><div dx-validation-group="{ }" ng-controller="DemoController">
+        <div dx-text-box="{ name: 'FirstName' }"
+            dx-validator="{
+                validationRules: [
+                    // ...
+                ]
+            }">  
         </div>
+        <div dx-text-box="{ name: 'LastName' }"
+            dx-validator="{
+                validationRules: [
+                    // ...
+                ]
+            }">
+        </div>
+        <div dx-validation-summary="{  }"></div>
+        <div dx-button="{ }"></div>
+    </div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div data-bind="dxValidationGroup: { }" >
-            <div data-bind="dxTextBox: { name: 'FirstName' },
-                dxValidator: {
-                    validationRules: [
-                        // ...
-                    ]
-                }">  
-            </div>
-            <div data-bind="dxTextBox: { name: 'LastName' },
-                dxValidator: {
-                    validationRules: [
-                        // ...
-                    ]
-                }">
-            </div>  
-            <div data-bind="dxValidationSummary: { }"></div>
-            <div data-bind="dxButton: { }"></div>
+    <!--HTML--><div data-bind="dxValidationGroup: { }" >
+        <div data-bind="dxTextBox: { name: 'FirstName' },
+            dxValidator: {
+                validationRules: [
+                    // ...
+                ]
+            }">  
         </div>
+        <div data-bind="dxTextBox: { name: 'LastName' },
+            dxValidator: {
+                validationRules: [
+                    // ...
+                ]
+            }">
+        </div>  
+        <div data-bind="dxValidationSummary: { }"></div>
+        <div data-bind="dxButton: { }"></div>
+    </div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->using (Html.DevExtreme().ValidationGroup()) {
-            @(Html.DevExtreme().TextBox()
-                .Name("FirstName")
-            )
-            @(Html.DevExtreme().TextBox()
-                .Name("LastName")
-            )
-            @(Html.DevExtreme().ValidationSummary())
-            @(Html.DevExtreme().Button()
-                .Text("Validate")
-                .OnClick(@<text>
-                    function validate (params) {
-                        params.validationGroup.validate();
-                    }
-                </text>)
-            )
-        }
+    <!--Razor C#-->using (Html.DevExtreme().ValidationGroup()) {
+        @(Html.DevExtreme().TextBox()
+            .Name("FirstName")
+        )
+        @(Html.DevExtreme().TextBox()
+            .Name("LastName")
+        )
+        @(Html.DevExtreme().ValidationSummary())
+        @(Html.DevExtreme().Button()
+            .Text("Validate")
+            .OnClick(@<text>
+                function validate (params) {
+                    params.validationGroup.validate();
+                }
+            </text>)
+        )
+    }
 
-        <!--Razor VB-->@Using (Html.DevExtreme().ValidationGroup())
-            @(Html.DevExtreme().TextBox() _
-                .Name("FirstName")
-            )
-            @(Html.DevExtreme().TextBox() _
-                .Name("LastName")
-            )
-            @(Html.DevExtreme().ValidationSummary())
-            @(Html.DevExtreme().Button() _
-                .Text("Validate") _
-                .OnClick("validate")
-            )
-        End Using
-        <script>
-            function validate(params) {
-                params.validationGroup.validate();
-            }
-        </script>
+    <!--Razor VB-->@Using (Html.DevExtreme().ValidationGroup())
+        @(Html.DevExtreme().TextBox() _
+            .Name("FirstName")
+        )
+        @(Html.DevExtreme().TextBox() _
+            .Name("LastName")
+        )
+        @(Html.DevExtreme().ValidationSummary())
+        @(Html.DevExtreme().Button() _
+            .Text("Validate") _
+            .OnClick("validate")
+        )
+    End Using
+    <script>
+        function validate(params) {
+            params.validationGroup.validate();
+        }
+    </script>
 
 ---
 

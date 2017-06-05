@@ -44,91 +44,62 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->var panoramaItems = [{
-            title: "Main courses",
-            text: "First and second courses of a meal"
-        }, {
-            title: "Seafood",
-            text: "Seafood: ocean and sea"
-        },
-            // . . .
-        ];
-        $(function () {
-            $("#panorama").dxPanorama({
-                items: panoramaItems,
-                title: "Online Menu",
-                backgroundImage: {
-                    url: '/here/goes/your/image.png',
-                    height: 600,
-                    width: 800
-                }
-            });
+    <!--JavaScript-->var panoramaItems = [{
+        title: "Main courses",
+        text: "First and second courses of a meal"
+    }, {
+        title: "Seafood",
+        text: "Seafood: ocean and sea"
+    },
+        // . . .
+    ];
+    $(function () {
+        $("#panorama").dxPanorama({
+            items: panoramaItems,
+            title: "Online Menu",
+            backgroundImage: {
+                url: '/here/goes/your/image.png',
+                height: 600,
+                width: 800
+            }
         });
+    });
 
-        <!--HTML-->
-        <div id="panorama"></div>
+    <!--HTML-->
+    <div id="panorama"></div>
 
-        <!--CSS-->#panorama {
-            height: auto;
-            position: absolute;
-            top: 0; 
-            bottom: 0;
-            width: 100%;
-        }
+    <!--CSS-->#panorama {
+        height: auto;
+        position: absolute;
+        top: 0; 
+        bottom: 0;
+        width: 100%;
+    }
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-panorama
-            [items]="panoramaItems"
-            title="Online Menu">
-            <dxo-background-image
-                url="/here/goes/your/image.png"
-                [height]="600"
-                [width]="800">
-            </dxo-background-image>
-        </dx-panorama>
+    <!--HTML-->
+    <dx-panorama
+        [items]="panoramaItems"
+        title="Online Menu">
+        <dxo-background-image
+            url="/here/goes/your/image.png"
+            [height]="600"
+            [width]="800">
+        </dxo-background-image>
+    </dx-panorama>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            panoramaItems = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        panoramaItems = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div id="panorama" dx-panorama="{
-                items: panoramaItems,
-                title: 'Online Menu',
-                backgroundImage: {
-                    url: '/here/goes/your/image.png',
-                    height: 600,
-                    width: 800
-                }
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.panoramaItems = [
-                    // ...   
-                ];
-            });
-
-        <!--CSS-->#panorama {
-            height: auto;
-            position: absolute;
-            top: 0; 
-            bottom: 0;
-            width: 100%;
-        }
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div id="panorama" data-bind="dxPanorama: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div id="panorama" dx-panorama="{
             items: panoramaItems,
             title: 'Online Menu',
             backgroundImage: {
@@ -137,21 +108,50 @@ You can create the widget using one of the following approaches.
                 width: 800
             }
         }"></div>
+    </div>
 
-        <!--JavaScript-->var viewModel = {
-            panoramaItems: [
-                // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.panoramaItems = [
+                // ...   
+            ];
+        });
 
-        <!--CSS-->#panorama {
-            height: auto;
-            position: absolute;
-            top: 0; 
-            bottom: 0;
-            width: 100%;
+    <!--CSS-->#panorama {
+        height: auto;
+        position: absolute;
+        top: 0; 
+        bottom: 0;
+        width: 100%;
+    }
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div id="panorama" data-bind="dxPanorama: {
+        items: panoramaItems,
+        title: 'Online Menu',
+        backgroundImage: {
+            url: '/here/goes/your/image.png',
+            height: 600,
+            width: 800
         }
+    }"></div>
+
+    <!--JavaScript-->var viewModel = {
+        panoramaItems: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
+
+    <!--CSS-->#panorama {
+        height: auto;
+        position: absolute;
+        top: 0; 
+        bottom: 0;
+        width: 100%;
+    }
 
 ---
 

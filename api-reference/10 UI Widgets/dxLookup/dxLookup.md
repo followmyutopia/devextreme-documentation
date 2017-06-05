@@ -28,81 +28,81 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#lookup").dxLookup({
-                dataSource: employees,
-                displayExpr: 'name',
-                title: 'Employees'
-            });
+    <!--JavaScript-->$(function () {
+        $("#lookup").dxLookup({
+            dataSource: employees,
+            displayExpr: 'name',
+            title: 'Employees'
         });
+    });
 
-        <!--HTML-->
-        <div id="lookup"></div>
+    <!--HTML-->
+    <div id="lookup"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-lookup
-            [dataSource]="employees"
-            displayExpr="name"
-            title="Employees">
-        </dx-lookup>
+    <!--HTML-->
+    <dx-lookup
+        [dataSource]="employees"
+        displayExpr="name"
+        title="Employees">
+    </dx-lookup>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            employees = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        employees = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-lookup="{
-                dataSource: employees,
-                displayExpr: 'name',
-                title: 'Employees'
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.employees = [
-                    // ...   
-                ];
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div data-bind="dxLookup: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-lookup="{
             dataSource: employees,
             displayExpr: 'name',
             title: 'Employees'
         }"></div>
+    </div>
 
-        <!--JavaScript-->var viewModel = {
-            employees: [
-                // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.employees = [
+                // ...   
+            ];
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div data-bind="dxLookup: {
+        dataSource: employees,
+        displayExpr: 'name',
+        title: 'Employees'
+    }"></div>
+
+    <!--JavaScript-->var viewModel = {
+        employees: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().Lookup()
-            .ID("lookup")
-            .DataSource(Employees)
-            .DisplayExpr("name")
-            .Title("Employees")
-        )
+    <!--Razor C#-->@(Html.DevExtreme().Lookup()
+        .ID("lookup")
+        .DataSource(Employees)
+        .DisplayExpr("name")
+        .Title("Employees")
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().Lookup() _
-            .ID("lookup") _
-            .DataSource(Employees) _
-            .DisplayExpr("name") _
-            .Title("Employees")
-        )
+    <!--Razor VB-->@(Html.DevExtreme().Lookup() _
+        .ID("lookup") _
+        .DataSource(Employees) _
+        .DisplayExpr("name") _
+        .Title("Employees")
+    )
 
 ---
 

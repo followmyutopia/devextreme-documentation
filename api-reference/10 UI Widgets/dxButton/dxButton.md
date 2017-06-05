@@ -27,79 +27,79 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#button").dxButton({
-                text: 'Click me',
-                onClick: function() {
-                    alert("The Button was clicked");
-                }
-            });
+    <!--JavaScript-->$(function () {
+        $("#button").dxButton({
+            text: 'Click me',
+            onClick: function() {
+                alert("The Button was clicked");
+            }
         });
+    });
 
-        <!--HTML--><div id="button"></div>
+    <!--HTML--><div id="button"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-button
-            text="Click me"
-            (onClick)="buttonClicked()">
-        </dx-button>
+    <!--HTML-->
+    <dx-button
+        text="Click me"
+        (onClick)="buttonClicked()">
+    </dx-button>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            buttonClicked() {
-                alert("The Button was clicked");
-            }
+    <!--JavaScript-->
+    export class AppComponent {
+        buttonClicked() {
+            alert("The Button was clicked");
         }
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-button="{
-                text: 'Click me',
-                onClick: buttonClicked
-            }"></div>
-        </div>
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-button="{
+            text: 'Click me',
+            onClick: buttonClicked
+        }"></div>
+    </div>
 
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.buttonClicked = function () {
-                    alert("The Button was clicked");
-                };
-            });
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.buttonClicked = function () {
+                alert("The Button was clicked");
+            };
+        });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div data-bind="dxButton: {
-            text: 'Click me',
-            onClick: function () {
-                alert('The Button was clicked');
-            }
-        }"></div>
+    <!--HTML--><div data-bind="dxButton: {
+        text: 'Click me',
+        onClick: function () {
+            alert('The Button was clicked');
+        }
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().Button()
-            .ID("button")
-            .Text("Click me")
-            .OnClick(@<text>
-                function () {
-                    alert("The Button was clicked");
-                }
-            </text>)
-        )
-
-        <!--Razor VB-->@(Html.DevExtreme().Button() _
-            .ID("button") _
-            .Text("Click me") _
-            .OnClick("button_click")
-        )
-        <script>
-            function button_click() {
+    <!--Razor C#-->@(Html.DevExtreme().Button()
+        .ID("button")
+        .Text("Click me")
+        .OnClick(@<text>
+            function () {
                 alert("The Button was clicked");
             }
-        </script>
+        </text>)
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().Button() _
+        .ID("button") _
+        .Text("Click me") _
+        .OnClick("button_click")
+    )
+    <script>
+        function button_click() {
+            alert("The Button was clicked");
+        }
+    </script>
 
 ---
 

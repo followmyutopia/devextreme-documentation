@@ -26,85 +26,85 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="popup">
-            <p>Popup content</p>
-        </div>
+    <!--HTML-->
+    <div id="popup">
+        <p>Popup content</p>
+    </div>
 
-        <!--JavaScript-->$(function () {
-            $("#popup").dxPopup({
-                title: 'Popup Title',
-                visible: true
-            });
+    <!--JavaScript-->$(function () {
+        $("#popup").dxPopup({
+            title: 'Popup Title',
+            visible: true
         });
+    });
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-popup
-            title="Popup Title"
-            [(visible)]="isPopupVisible">
-                <p>Popup content</p>
-        </dx-popup>
+    <!--HTML-->
+    <dx-popup
+        title="Popup Title"
+        [(visible)]="isPopupVisible">
+            <p>Popup content</p>
+    </dx-popup>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            isPopupVisible = true;
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        isPopupVisible = true;
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-popup="{
-                title: 'Popup Title',
-                bindingOptions: {
-                    visible: 'isPopupVisible'
-                }
-            }">
-                <p>Popup content</p>
-            </div>
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-popup="{
+            title: 'Popup Title',
+            bindingOptions: {
+                visible: 'isPopupVisible'
+            }
+        }">
+            <p>Popup content</p>
         </div>
+    </div>
 
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller('DemoController', function DemoController($scope) {
-                $scope.isPopupVisible = true;
-            });
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.isPopupVisible = true;
+        });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxPopup: {
-            title: 'Popup Title',
-            visible: isPopupVisible
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxPopup: {
+        title: 'Popup Title',
+        visible: isPopupVisible
+    }"></div>
 
-        <!--JavaScript-->var viewModel = {
-            isPopupVisible: ko.observable(true)
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->var viewModel = {
+        isPopupVisible: ko.observable(true)
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().Popup()
-            .ID("popover")
-            .Title("Popup Title")
-            .Visible(true)
-            .ContentTemplate(@<text>
-                <p>Popup content</p>
-            </text>)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().Popup()
+        .ID("popover")
+        .Title("Popup Title")
+        .Visible(true)
+        .ContentTemplate(@<text>
+            <p>Popup content</p>
+        </text>)
+    )
 
-        <!--Razor VB-->@Code
-            Html.DevExtreme().Popup() _
-                .ID("popover") _
-                .Title("Popup Title") _
-                .Visible(True) _
-                .ContentTemplate(Sub()
-                    @<text>
-                        <p>Popup content</p>
-                    </text>
-                End Sub).Render()
-        End Code
+    <!--Razor VB-->@Code
+        Html.DevExtreme().Popup() _
+            .ID("popover") _
+            .Title("Popup Title") _
+            .Visible(True) _
+            .ContentTemplate(Sub()
+                @<text>
+                    <p>Popup content</p>
+                </text>
+            End Sub).Render()
+    End Code
 
 ---
 

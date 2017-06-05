@@ -25,119 +25,119 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function() {
-            $("#resizable").dxResizable({
-                width: 200,
-                height: 200,
-                minWidth: 30,
-                minHeight: 30,
-                maxWidth: 500,
-                maxHeight: 500 
-            });
+    <!--JavaScript-->$(function() {
+        $("#resizable").dxResizable({
+            width: 200,
+            height: 200,
+            minWidth: 30,
+            minHeight: 30,
+            maxWidth: 500,
+            maxHeight: 500 
         });
+    });
 
-        <!--HTML-->
-        <div id="resizable">
-            <div id="content"></div>
-        </div>
+    <!--HTML-->
+    <div id="resizable">
+        <div id="content"></div>
+    </div>
 
-        <!--CSS-->#content {
-            height: 100%;
-            width: 100%
-        }
+    <!--CSS-->#content {
+        height: 100%;
+        width: 100%
+    }
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-resizable
-            [width]="200"
-            [height]="200"
-            [minWidth]="30"
-            [minHeight]="30"
-            [maxWidth]="500"
-            [maxHeight]="500">
-                <div id="content"></div>
-        </dx-resizable>
+    <!--HTML-->
+    <dx-resizable
+        [width]="200"
+        [height]="200"
+        [minWidth]="30"
+        [minHeight]="30"
+        [maxWidth]="500"
+        [maxHeight]="500">
+            <div id="content"></div>
+    </dx-resizable>
 
-        <!--CSS-->#content {
-            height: 100%;
-            width: 100%
-        }
+    <!--CSS-->#content {
+        height: 100%;
+        width: 100%
+    }
 
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-resizable="{
-            width: 200,
-            height: 200,
-            minWidth: 30,
-            minHeight: 30,
-            maxWidth: 500,
-            maxHeight: 500 
-        }">
-            <div id="content"></div>
-        </div>
+    <!--HTML-->
+    <div dx-resizable="{
+        width: 200,
+        height: 200,
+        minWidth: 30,
+        minHeight: 30,
+        maxWidth: 500,
+        maxHeight: 500 
+    }">
+        <div id="content"></div>
+    </div>
 
-        <!--CSS-->#content {
-            height: 100%;
-            width: 100%
-        }
+    <!--CSS-->#content {
+        height: 100%;
+        width: 100%
+    }
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxResizable: {
-            width: 200,
-            height: 200,
-            minWidth: 30,
-            minHeight: 30,
-            maxWidth: 500,
-            maxHeight: 500 
-        }">
-            <div id="content"></div>
-        </div>
+    <!--HTML-->
+    <div data-bind="dxResizable: {
+        width: 200,
+        height: 200,
+        minWidth: 30,
+        minHeight: 30,
+        maxWidth: 500,
+        maxHeight: 500 
+    }">
+        <div id="content"></div>
+    </div>
 
-        <!--CSS-->#content {
-            height: 100%;
-            width: 100%
-        }
+    <!--CSS-->#content {
+        height: 100%;
+        width: 100%
+    }
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().Resizable()
-            .ID("resizable")
-            .Width(200)
-            .Height(200)
-            .MinWidth(30)
-            .MinHeight(30)
-            .MaxWidth(500)
-            .MaxHeight(500)
-            .Content(@<text>
-                <div id="content"></div>
-            </text>)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().Resizable()
+        .ID("resizable")
+        .Width(200)
+        .Height(200)
+        .MinWidth(30)
+        .MinHeight(30)
+        .MaxWidth(500)
+        .MaxHeight(500)
+        .Content(@<text>
+            <div id="content"></div>
+        </text>)
+    )
 
-        <!--Razor VB-->@Code
-            Html.DevExtreme().Resizable() _
-                .ID("resizable") _
-                .Width(200) _
-                .Height(200) _
-                .MinWidth(30) _
-                .MinHeight(30) _
-                .MaxWidth(500) _
-                .MaxHeight(500) _
-                .Content(Sub()
-                    @<text>
-                        <div id="content"></div>
-                    </text>
-                End Sub).Render()
-        End Code
+    <!--Razor VB-->@Code
+        Html.DevExtreme().Resizable() _
+            .ID("resizable") _
+            .Width(200) _
+            .Height(200) _
+            .MinWidth(30) _
+            .MinHeight(30) _
+            .MaxWidth(500) _
+            .MaxHeight(500) _
+            .Content(Sub()
+                @<text>
+                    <div id="content"></div>
+                </text>
+            End Sub).Render()
+    End Code
 
-        <!--CSS-->#content {
-            height: 100%;
-            width: 100%
-        }
+    <!--CSS-->#content {
+        height: 100%;
+        width: 100%
+    }
 
 ---
 

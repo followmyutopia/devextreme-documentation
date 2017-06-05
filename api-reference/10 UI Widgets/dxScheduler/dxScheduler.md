@@ -26,135 +26,135 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#scheduler").dxScheduler({
-                dataSource: [{
-                    text: 'Meeting customers',
-                    startDate: new Date(2015, 4, 10, 11, 0),
-                    endDate: new Date(2015, 4, 10, 13, 0)
-                }, {
-                    text: 'Summing up the results',
-                    startDate: new Date(2015, 4, 11, 12, 0),
-                    endDate: new Date(2015, 4, 11, 13, 0)
-                },
-                // ...
-                ],
-                currentDate: new Date(2015, 4, 10),
-                startDayHour: 8,
-                endDayHour: 19
-            });
+    <!--JavaScript-->$(function () {
+        $("#scheduler").dxScheduler({
+            dataSource: [{
+                text: 'Meeting customers',
+                startDate: new Date(2015, 4, 10, 11, 0),
+                endDate: new Date(2015, 4, 10, 13, 0)
+            }, {
+                text: 'Summing up the results',
+                startDate: new Date(2015, 4, 11, 12, 0),
+                endDate: new Date(2015, 4, 11, 13, 0)
+            },
+            // ...
+            ],
+            currentDate: new Date(2015, 4, 10),
+            startDayHour: 8,
+            endDayHour: 19
         });
+    });
 
-        <!--HTML-->
-        <div id="scheduler">
+    <!--HTML-->
+    <div id="scheduler">
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-scheduler
-            [dataSource]="schedulerData"
-            [currentDate]="new Date(2015, 4, 10)"
-            [startDayHour]="8"
-            [endDayHour]="19">
-        </dx-scheduler>
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="schedulerData"
+        [currentDate]="new Date(2015, 4, 10)"
+        [startDayHour]="8"
+        [endDayHour]="19">
+    </dx-scheduler>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            schedulerData = [{
-                    text: 'Meeting customers',
-                    startDate: new Date(2015, 4, 10, 11, 0),
-                    endDate: new Date(2015, 4, 10, 13, 0)
-                }, {
-                    text: 'Summing up the results',
-                    startDate: new Date(2015, 4, 11, 12, 0),
-                    endDate: new Date(2015, 4, 11, 13, 0)
-                },
-                // ...
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        schedulerData = [{
+                text: 'Meeting customers',
+                startDate: new Date(2015, 4, 10, 11, 0),
+                endDate: new Date(2015, 4, 10, 13, 0)
+            }, {
+                text: 'Summing up the results',
+                startDate: new Date(2015, 4, 11, 12, 0),
+                endDate: new Date(2015, 4, 11, 13, 0)
+            },
+            // ...
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-scheduler="{
-            dataSource: [{
-                text: 'Meeting customers',
-                startDate: new Date(2015, 4, 10, 11, 0),
-                endDate: new Date(2015, 4, 10, 13, 0)
-            }, {
-                text: 'Summing up the results',
-                startDate: new Date(2015, 4, 11, 12, 0),
-                endDate: new Date(2015, 4, 11, 13, 0)
-            },
-            // ...
-            ],
-            currentDate: new Date(2015, 4, 10),
-            startDayHour: 8,
-            endDayHour: 19
-        }">
-        </div>
+    <!--HTML-->
+    <div dx-scheduler="{
+        dataSource: [{
+            text: 'Meeting customers',
+            startDate: new Date(2015, 4, 10, 11, 0),
+            endDate: new Date(2015, 4, 10, 13, 0)
+        }, {
+            text: 'Summing up the results',
+            startDate: new Date(2015, 4, 11, 12, 0),
+            endDate: new Date(2015, 4, 11, 13, 0)
+        },
+        // ...
+        ],
+        currentDate: new Date(2015, 4, 10),
+        startDayHour: 8,
+        endDayHour: 19
+    }">
+    </div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxScheduler: {
-            dataSource: [{
-                text: 'Meeting customers',
-                startDate: new Date(2015, 4, 10, 11, 0),
-                endDate: new Date(2015, 4, 10, 13, 0)
-            }, {
-                text: 'Summing up the results',
-                startDate: new Date(2015, 4, 11, 12, 0),
-                endDate: new Date(2015, 4, 11, 13, 0)
-            },
-            // ...
-            ],
-            currentDate: new Date(2015, 4, 10),
-            startDayHour: 8,
-            endDayHour: 19
-        }">
-        </div>
+    <!--HTML-->
+    <div data-bind="dxScheduler: {
+        dataSource: [{
+            text: 'Meeting customers',
+            startDate: new Date(2015, 4, 10, 11, 0),
+            endDate: new Date(2015, 4, 10, 13, 0)
+        }, {
+            text: 'Summing up the results',
+            startDate: new Date(2015, 4, 11, 12, 0),
+            endDate: new Date(2015, 4, 11, 13, 0)
+        },
+        // ...
+        ],
+        currentDate: new Date(2015, 4, 10),
+        startDayHour: 8,
+        endDayHour: 19
+    }">
+    </div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().Scheduler()
-            .ID("scheduler")
-            .DataSource(new object[] {
-                new {
-                    text = "Meeting customers",
-                    startDate = new DateTime(2015, 5, 10, 11, 0, 0),
-                    endDate = new DateTime(2015, 5, 10, 13, 0, 0)
-                },
-                new {
-                    text = "Summing up the results",
-                    startDate = new DateTime(2015, 5, 11, 12, 0, 0),
-                    endDate = new DateTime(2015, 5, 11, 13, 0, 0)
-                },
-                // ...
-            })
-            .CurrentDate(new DateTime(2015, 5, 10))
-            .StartDayHour(8)
-            .EndDayHour(19)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().Scheduler()
+        .ID("scheduler")
+        .DataSource(new object[] {
+            new {
+                text = "Meeting customers",
+                startDate = new DateTime(2015, 5, 10, 11, 0, 0),
+                endDate = new DateTime(2015, 5, 10, 13, 0, 0)
+            },
+            new {
+                text = "Summing up the results",
+                startDate = new DateTime(2015, 5, 11, 12, 0, 0),
+                endDate = new DateTime(2015, 5, 11, 13, 0, 0)
+            },
+            // ...
+        })
+        .CurrentDate(new DateTime(2015, 5, 10))
+        .StartDayHour(8)
+        .EndDayHour(19)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().Scheduler() _
-            .ID("scheduler") _
-            .DataSource(New Object() {
-                New With {
-                    .text = "Meeting customers",
-                    .startDate = new DateTime(2015, 5, 10, 11, 0, 0),
-                    .endDate = new DateTime(2015, 5, 10, 13, 0, 0)
-                },
-                New With {
-                    .text = "Summing up the results",
-                    .startDate = new DateTime(2015, 5, 11, 12, 0, 0),
-                    .endDate = new DateTime(2015, 5, 11, 13, 0, 0)
-                }
-            }) _
-            .CurrentDate(New DateTime(2015, 5, 10)) _
-            .StartDayHour(8) _
-            .EndDayHour(19)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().Scheduler() _
+        .ID("scheduler") _
+        .DataSource(New Object() {
+            New With {
+                .text = "Meeting customers",
+                .startDate = new DateTime(2015, 5, 10, 11, 0, 0),
+                .endDate = new DateTime(2015, 5, 10, 13, 0, 0)
+            },
+            New With {
+                .text = "Summing up the results",
+                .startDate = new DateTime(2015, 5, 11, 12, 0, 0),
+                .endDate = new DateTime(2015, 5, 11, 13, 0, 0)
+            }
+        }) _
+        .CurrentDate(New DateTime(2015, 5, 10)) _
+        .StartDayHour(8) _
+        .EndDayHour(19)
+    )
 
 ---
 

@@ -34,59 +34,59 @@ You can create the **Accordion** widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#accordion").dxAccordion({
-                dataSource: accordionData,
-                collapsible: true,
-                multiple: true
-            });
+    <!--JavaScript-->$(function () {
+        $("#accordion").dxAccordion({
+            dataSource: accordionData,
+            collapsible: true,
+            multiple: true
         });
+    });
 
-        <!--HTML-->
-        <div id="accordion"></div>
+    <!--HTML-->
+    <div id="accordion"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-accordion
-            [dataSource]="accordionData"
-            [collapsible]="true"
-            [multiple]="true">
-        </dx-accordion>
+    <!--HTML-->
+    <dx-accordion
+        [dataSource]="accordionData"
+        [collapsible]="true"
+        [multiple]="true">
+    </dx-accordion>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-accordion="{
-            dataSource: accordionData,
-            collapsible: true,
-            multiple: true
-        }"></div>
+    <!--HTML-->
+    <div dx-accordion="{
+        dataSource: accordionData,
+        collapsible: true,
+        multiple: true
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxAccordion: {
-            dataSource: accordionData,
-            collapsible: true,
-            multiple: true
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxAccordion: {
+        dataSource: accordionData,
+        collapsible: true,
+        multiple: true
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().Accordion()
-            .ID("accordion")
-            .DataSource(AccordionData)
-            .Collapsible(true)
-            .Multiple(true)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().Accordion()
+        .ID("accordion")
+        .DataSource(AccordionData)
+        .Collapsible(true)
+        .Multiple(true)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().Accordion() _
-            .ID("accordion") _
-            .DataSource(AccordionData) _
-            .Collapsible(True) _
-            .Multiple(True)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().Accordion() _
+        .ID("accordion") _
+        .DataSource(AccordionData) _
+        .Collapsible(True) _
+        .Multiple(True)
+    )
 
 ---
 

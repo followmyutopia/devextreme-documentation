@@ -26,116 +26,116 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function () {
-            $("#circularGauge").dxCircularGauge({
-                scale: {
-                    startValue: 50,
-                    endValue: 150
-                },    
-                rangeContainer: {
-                    ranges: [
-                        { startValue: 50, endValue: 90 },
-                        { startValue: 90, endValue: 130 },
-                        { startValue: 130, endValue: 150 }
-                    ]
-                },
-                value: 105
-            });
+    <!--JavaScript-->$(function () {
+        $("#circularGauge").dxCircularGauge({
+            scale: {
+                startValue: 50,
+                endValue: 150
+            },    
+            rangeContainer: {
+                ranges: [
+                    { startValue: 50, endValue: 90 },
+                    { startValue: 90, endValue: 130 },
+                    { startValue: 130, endValue: 150 }
+                ]
+            },
+            value: 105
         });
+    });
 
-        <!--HTML--><div id="circularGauge"></div>
+    <!--HTML--><div id="circularGauge"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-circular-gauge [value]="105">
-            <dxo-scale
+    <!--HTML-->
+    <dx-circular-gauge [value]="105">
+        <dxo-scale
+            [startValue]="50"
+            [endValue]="150">
+        </dxo-scale>
+        <dxo-rangeContainer>
+            <dxi-range 
                 [startValue]="50"
+                [endValue]="90">
+            </dxi-range>
+            <dxi-range 
+                [startValue]="90"
+                [endValue]="130">
+            </dxi-range>
+            <dxi-range 
+                [startValue]="130"
                 [endValue]="150">
-            </dxo-scale>
-            <dxo-rangeContainer>
-                <dxi-range 
-                    [startValue]="50"
-                    [endValue]="90">
-                </dxi-range>
-                <dxi-range 
-                    [startValue]="90"
-                    [endValue]="130">
-                </dxi-range>
-                <dxi-range 
-                    [startValue]="130"
-                    [endValue]="150">
-                </dxi-range>
-            </dxo-rangeContainer>
-        </dx-circular-gauge>
+            </dxi-range>
+        </dxo-rangeContainer>
+    </dx-circular-gauge>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-circular-gauge="{
-            scale: {
-                startValue: 50,
-                endValue: 150
-            },    
-            rangeContainer: {
-                ranges: [
-                    { startValue: 50, endValue: 90 },
-                    { startValue: 90, endValue: 130 },
-                    { startValue: 130, endValue: 150 }
-                ]
-            },
-            value: 105
-        }"></div>
+    <!--HTML-->
+    <div dx-circular-gauge="{
+        scale: {
+            startValue: 50,
+            endValue: 150
+        },    
+        rangeContainer: {
+            ranges: [
+                { startValue: 50, endValue: 90 },
+                { startValue: 90, endValue: 130 },
+                { startValue: 130, endValue: 150 }
+            ]
+        },
+        value: 105
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxCircularGauge: {
-            scale: {
-                startValue: 50,
-                endValue: 150
-            },    
-            rangeContainer: {
-                ranges: [
-                    { startValue: 50, endValue: 90 },
-                    { startValue: 90, endValue: 130 },
-                    { startValue: 130, endValue: 150 }
-                ]
-            },
-            value: 105
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxCircularGauge: {
+        scale: {
+            startValue: 50,
+            endValue: 150
+        },    
+        rangeContainer: {
+            ranges: [
+                { startValue: 50, endValue: 90 },
+                { startValue: 90, endValue: 130 },
+                { startValue: 130, endValue: 150 }
+            ]
+        },
+        value: 105
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-        
-        <!--Razor C#-->@(Html.DevExtreme().CircularGauge()
-            .ID("circularGauge")
-            .Scale(scale => scale
-                .StartValue(50)
-                .EndValue(50)
-            )
-            .RangeContainer(rc => rc
-                .Ranges(ranges => {
-                    ranges.Add().StartValue(50).EndValue(90);
-                    ranges.Add().StartValue(90).EndValue(130);
-                    ranges.Add().StartValue(130).EndValue(150);
-                })
-            )
+    
+    <!--Razor C#-->@(Html.DevExtreme().CircularGauge()
+        .ID("circularGauge")
+        .Scale(scale => scale
+            .StartValue(50)
+            .EndValue(50)
         )
+        .RangeContainer(rc => rc
+            .Ranges(ranges => {
+                ranges.Add().StartValue(50).EndValue(90);
+                ranges.Add().StartValue(90).EndValue(130);
+                ranges.Add().StartValue(130).EndValue(150);
+            })
+        )
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().CircularGauge() _
-            .ID("circularGauge") _
-            .Scale(Sub(scale)
-                scale.StartValue(50) _
-                     .EndValue(50)
-            End Sub) _
-            .RangeContainer(Sub(rc)
-                rc.Ranges(Sub(ranges)
-                    ranges.Add().StartValue(50).EndValue(90)
-                    ranges.Add().StartValue(90).EndValue(130)
-                    ranges.Add().StartValue(130).EndValue(150)
-                End Sub)
+    <!--Razor VB-->@(Html.DevExtreme().CircularGauge() _
+        .ID("circularGauge") _
+        .Scale(Sub(scale)
+            scale.StartValue(50) _
+                    .EndValue(50)
+        End Sub) _
+        .RangeContainer(Sub(rc)
+            rc.Ranges(Sub(ranges)
+                ranges.Add().StartValue(50).EndValue(90)
+                ranges.Add().StartValue(90).EndValue(130)
+                ranges.Add().StartValue(130).EndValue(150)
             End Sub)
-        )
+        End Sub)
+    )
 
 ---
 

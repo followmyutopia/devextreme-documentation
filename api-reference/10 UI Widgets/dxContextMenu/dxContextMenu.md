@@ -38,107 +38,107 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->var contextMenuItems = [
-            { text: "Hide" },
-            { text: "Delete" },
-            {
-                text: "Clipboard",
-                items: [
-                    { text: "Copy text" },
-                    { text: "Clear text" },
-                    { text: "Paste text" }
-                ]
-            }
-        ];
-        $(function () {
-            $("#contextMenu").dxContextMenu({
-                items: contextMenuItems,
-                target: "#targetElement"
-            });
+    <!--JavaScript-->var contextMenuItems = [
+        { text: "Hide" },
+        { text: "Delete" },
+        {
+            text: "Clipboard",
+            items: [
+                { text: "Copy text" },
+                { text: "Clear text" },
+                { text: "Paste text" }
+            ]
+        }
+    ];
+    $(function () {
+        $("#contextMenu").dxContextMenu({
+            items: contextMenuItems,
+            target: "#targetElement"
         });
+    });
 
-        <!--HTML--><div id="targetElement"></div>
-        <div id="contextMenu"></div>
+    <!--HTML--><div id="targetElement"></div>
+    <div id="contextMenu"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div id="targetElement"></div>
-        <dx-context-menu
-            [items]="contextMenuItems"
-            target="#targetElement">
-        </dx-context-menu>
+    <!--HTML-->
+    <div id="targetElement"></div>
+    <dx-context-menu
+        [items]="contextMenuItems"
+        target="#targetElement">
+    </dx-context-menu>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            contextMenuItems = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        contextMenuItems = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div id="targetElement"></div>
-            <div dx-context-menu="{
-                items: contextMenuItems,
-                target: '#targetElement'
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.contextMenuItems = [
-                    // ...   
-                ];
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML--><div id="targetElement"></div>
-        <div data-bind="dxContextMenu: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div id="targetElement"></div>
+        <div dx-context-menu="{
             items: contextMenuItems,
             target: '#targetElement'
         }"></div>
+    </div>
 
-        <!--JavaScript-->var viewModel = {
-            contextMenuItems: [
-                // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.contextMenuItems = [
+                // ...   
+            ];
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML--><div id="targetElement"></div>
+    <div data-bind="dxContextMenu: {
+        items: contextMenuItems,
+        target: '#targetElement'
+    }"></div>
+
+    <!--JavaScript-->var viewModel = {
+        contextMenuItems: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-        
-        <!--Razor C#-->@(Html.DevExtreme().ContextMenu()
-            .ID("contextMenu")
-            .Target("#targetElement")
-            .Items(items => {
-                items.Add().Text("Hide");
-                items.Add().Text("Delete");
-                items.Add().Text("Clipboard").Items(clipboardItems => {
-                    clipboardItems.Add().Text("Copy text");
-                    clipboardItems.Add().Text("Clear text");
-                    clipboardItems.Add().Text("Paste text");
-                });
-            })
-        )
-        <div id="targetElement"></div>
+    
+    <!--Razor C#-->@(Html.DevExtreme().ContextMenu()
+        .ID("contextMenu")
+        .Target("#targetElement")
+        .Items(items => {
+            items.Add().Text("Hide");
+            items.Add().Text("Delete");
+            items.Add().Text("Clipboard").Items(clipboardItems => {
+                clipboardItems.Add().Text("Copy text");
+                clipboardItems.Add().Text("Clear text");
+                clipboardItems.Add().Text("Paste text");
+            });
+        })
+    )
+    <div id="targetElement"></div>
 
-        <!--Razor VB-->@(Html.DevExtreme().ContextMenu() _
-            .ID("contextMenu") _
-            .Target("#targetElement") _
-            .Items(Sub(items)
-                items.Add().Text("Hide")
-                items.Add().Text("Delete")
-                items.Add().Text("Clipboard").Items(Sub(clipboardItems)
-                    clipboardItems.Add().Text("Copy text")
-                    clipboardItems.Add().Text("Clear text")
-                    clipboardItems.Add().Text("Paste text")
-                End Sub)
+    <!--Razor VB-->@(Html.DevExtreme().ContextMenu() _
+        .ID("contextMenu") _
+        .Target("#targetElement") _
+        .Items(Sub(items)
+            items.Add().Text("Hide")
+            items.Add().Text("Delete")
+            items.Add().Text("Clipboard").Items(Sub(clipboardItems)
+                clipboardItems.Add().Text("Copy text")
+                clipboardItems.Add().Text("Clear text")
+                clipboardItems.Add().Text("Paste text")
             End Sub)
-        )
-        <div id="targetElement"></div>
+        End Sub)
+    )
+    <div id="targetElement"></div>
 
 ---
 

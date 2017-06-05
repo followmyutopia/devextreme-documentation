@@ -26,44 +26,44 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->
-        $("#textBox").dxTextBox({
-            placeholder: "Type a text here..."
-        });
+    <!--JavaScript-->
+    $("#textBox").dxTextBox({
+        placeholder: "Type a text here..."
+    });
 
-        <!--HTML-->
-        <div id="textBox"></div>
+    <!--HTML-->
+    <div id="textBox"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-text-box placeholder="Type a text here..."></dx-text-box>
+    <!--HTML-->
+    <dx-text-box placeholder="Type a text here..."></dx-text-box>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-text-box="{
-            placeholder: 'Type a text here...'
-        }"></div>
+    <!--HTML-->
+    <div dx-text-box="{
+        placeholder: 'Type a text here...'
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxTextBox: {
-            placeholder: 'Type a text here...'
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxTextBox: {
+        placeholder: 'Type a text here...'
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().TextBox()
-            .ID("textBox")
-            .Placeholder("Type a text here...")
-        )
+    <!--Razor C#-->@(Html.DevExtreme().TextBox()
+        .ID("textBox")
+        .Placeholder("Type a text here...")
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().TextBox() _
-            .ID("textBox") _
-            .Placeholder("Type a text here...")
-        )
+    <!--Razor VB-->@(Html.DevExtreme().TextBox() _
+        .ID("textBox") _
+        .Placeholder("Type a text here...")
+    )
 
 ---
 

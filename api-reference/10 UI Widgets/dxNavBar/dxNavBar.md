@@ -37,70 +37,70 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->
-        $(function () {
-            $("#navBar").dxNavBar({
-                items: [
-                    { text: "Home", icon: "home" },
-                    { text: "About", icon: "info" },
-                    { text: "favorites", icon: "favorites", badge: "new" }
-                ]
-            });
+    <!--JavaScript-->
+    $(function () {
+        $("#navBar").dxNavBar({
+            items: [
+                { text: "Home", icon: "home" },
+                { text: "About", icon: "info" },
+                { text: "favorites", icon: "favorites", badge: "new" }
+            ]
         });
+    });
 
-        <!--HTML-->
-        <div id="navBar"></div>
+    <!--HTML-->
+    <div id="navBar"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-nav-bar>
-            <dxi-item text="Home" icon="home"></dxi-item>
-            <dxi-item text="About" icon="info"></dxi-item>
-            <dxi-item text=favorites" icon=favorites" badge="new"></dxi-item>
-        </dx-nav-bar>
+    <!--HTML-->
+    <dx-nav-bar>
+        <dxi-item text="Home" icon="home"></dxi-item>
+        <dxi-item text="About" icon="info"></dxi-item>
+        <dxi-item text=favorites" icon=favorites" badge="new"></dxi-item>
+    </dx-nav-bar>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div dx-nav-bar="{
-            items: [
-                { text: 'Home', icon: 'home' },
-                { text: 'About', icon: 'info' },
-                { text: 'favorites', icon: 'favorites', badge: 'new' }
-            ]
-        }"></div>
+    <!--HTML-->
+    <div dx-nav-bar="{
+        items: [
+            { text: 'Home', icon: 'home' },
+            { text: 'About', icon: 'info' },
+            { text: 'favorites', icon: 'favorites', badge: 'new' }
+        ]
+    }"></div>
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <div data-bind="dxNavBar: {
-            items: [
-                { text: 'Home', icon: 'home' },
-                { text: 'About', icon: 'info' },
-                { text: 'favorites', icon: 'favorites', badge: 'new' }
-            ]
-        }"></div>
+    <!--HTML-->
+    <div data-bind="dxNavBar: {
+        items: [
+            { text: 'Home', icon: 'home' },
+            { text: 'About', icon: 'info' },
+            { text: 'favorites', icon: 'favorites', badge: 'new' }
+        ]
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().NavBar()
-            .ID("navBar")
-            .Items(items => {
-                items.Add().Text("Home").Icon("home");
-                items.Add().Text("About").Icon("info");
-                items.Add().Text("Favorites").Icon("favorites").Badge("new");
-            })
-        )
+    <!--Razor C#-->@(Html.DevExtreme().NavBar()
+        .ID("navBar")
+        .Items(items => {
+            items.Add().Text("Home").Icon("home");
+            items.Add().Text("About").Icon("info");
+            items.Add().Text("Favorites").Icon("favorites").Badge("new");
+        })
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().NavBar() _
-            .ID("navBar") _
-            .Items(Sub(items)
-                items.Add().Text("Home").Icon("home")
-                items.Add().Text("About").Icon("info")
-                items.Add().Text("Favorites").Icon("favorites").Badge("new")
-            End Sub)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().NavBar() _
+        .ID("navBar") _
+        .Items(Sub(items)
+            items.Add().Text("Home").Icon("home")
+            items.Add().Text("About").Icon("info")
+            items.Add().Text("Favorites").Icon("favorites").Badge("new")
+        End Sub)
+    )
 
 ---
 

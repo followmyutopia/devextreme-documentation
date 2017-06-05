@@ -114,93 +114,93 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->
-        var species = [
-            { id: 1, parentId: 0, text: "Species" },
-            { id: 2, parentId: 1, text: "Cat" },
-            { id: 3, parentId: 1, text: "Dog" },
-            { id: 4, parentId: 1, text: "Cow" },
-            { id: 5, parentId: 2, text: "Abyssinian" },
-            { id: 6, parentId: 2, text: "Aegean cat" },
-            { id: 7, parentId: 2, text: "Australian Mist" },
-            { id: 8, parentId: 3, text: "Affenpinscher" },
-            { id: 9, parentId: 3, text: "Afghan Hound" },
-            { id: 10, parentId: 3, text: "Airedale Terrier" },
-            { id: 11, parentId: 3, text: "Akita Inu" },
-            { id: 12, parentId: 0, text: "Birds" },
-            { id: 13, parentId: 12, text: "Akekee" },
-            { id: 14, parentId: 12, text: "Arizona Woodpecker" },
-            { id: 15, parentId: 12, text: "Black-chinned Sparrow" }
-        ];
-        $(function () {
-            $("#treeView").dxTreeView({
-                dataSource: species,
-                dataStructure: 'plain'
-            });
+    <!--JavaScript-->
+    var species = [
+        { id: 1, parentId: 0, text: "Species" },
+        { id: 2, parentId: 1, text: "Cat" },
+        { id: 3, parentId: 1, text: "Dog" },
+        { id: 4, parentId: 1, text: "Cow" },
+        { id: 5, parentId: 2, text: "Abyssinian" },
+        { id: 6, parentId: 2, text: "Aegean cat" },
+        { id: 7, parentId: 2, text: "Australian Mist" },
+        { id: 8, parentId: 3, text: "Affenpinscher" },
+        { id: 9, parentId: 3, text: "Afghan Hound" },
+        { id: 10, parentId: 3, text: "Airedale Terrier" },
+        { id: 11, parentId: 3, text: "Akita Inu" },
+        { id: 12, parentId: 0, text: "Birds" },
+        { id: 13, parentId: 12, text: "Akekee" },
+        { id: 14, parentId: 12, text: "Arizona Woodpecker" },
+        { id: 15, parentId: 12, text: "Black-chinned Sparrow" }
+    ];
+    $(function () {
+        $("#treeView").dxTreeView({
+            dataSource: species,
+            dataStructure: 'plain'
         });
+    });
 
-        <!--HTML-->
-        <div id="treeView"></div>
+    <!--HTML-->
+    <div id="treeView"></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
-        <!--HTML-->
-        <dx-tree-view
-            [dataSource]="species"
-            dataStructure="plain">
-        </dx-tree-view>
+    <!--HTML-->
+    <dx-tree-view
+        [dataSource]="species"
+        dataStructure="plain">
+    </dx-tree-view>
 
-        <!--JavaScript-->
-        export class AppComponent {
-            species = [
-                // ...   
-            ];
-        }
+    <!--JavaScript-->
+    export class AppComponent {
+        species = [
+            // ...   
+        ];
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-tree-view="{
-                dataSource: species,
-                dataStructure: 'plain'
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.species = [
-                    // ...   
-                ];
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div data-bind="dxTreeView: {
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-tree-view="{
             dataSource: species,
             dataStructure: 'plain'
         }"></div>
+    </div>
 
-        <!--JavaScript-->var viewModel = {
-            species: [
-                // ...
-            ]
-        };
-        ko.applyBindings(viewModel);
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.species = [
+                // ...   
+            ];
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div data-bind="dxTreeView: {
+        dataSource: species,
+        dataStructure: 'plain'
+    }"></div>
+
+    <!--JavaScript-->var viewModel = {
+        species: [
+            // ...
+        ]
+    };
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
-        <!--Razor C#-->@(Html.DevExtreme().TreeView()
-            .ID("treeView")
-            .DataSource(Species)
-            .DataStructure(TreeViewDataStructure.Plain)
-        )
+    <!--Razor C#-->@(Html.DevExtreme().TreeView()
+        .ID("treeView")
+        .DataSource(Species)
+        .DataStructure(TreeViewDataStructure.Plain)
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().TreeView() _
-            .ID("treeView") _
-            .DataSource(Species) _
-            .DataStructure(TreeViewDataStructure.Plain)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().TreeView() _
+        .ID("treeView") _
+        .DataSource(Species) _
+        .DataStructure(TreeViewDataStructure.Plain)
+    )
 
 ---
 

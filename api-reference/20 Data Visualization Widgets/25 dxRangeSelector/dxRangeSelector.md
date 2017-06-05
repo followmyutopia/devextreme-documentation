@@ -54,83 +54,83 @@ You can create the widget using one of the following approaches.
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-        <!--JavaScript-->$(function() {
-            $("#rangeSelector").dxRangeSelector({
-                scale: {
-                    startValue: new Date(2011, 0, 1),
-                    endValue: new Date(2011, 5, 1),
-                    tickInterval: { days: 7 }
-                }
-            });
-        });
-
-        <!--HTML--><div id="rangeSelector"></div>
-
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <dx-range-selector>
-            <dxo-scale
-                [startValue]="startDate"
-                [endValue]="endDate">
-                <dxo-tick-interval [days]="7"></dxo-tick-interval>
-            </dxo-scale>
-        </dx-range-selector>
-
-        <!--JavaScript-->
-        export class AppComponent {
-            startDate = new Date(2011, 0, 1);
-            endDate = new Date(2011, 5, 1);
-        }
-
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
-
-        <!--HTML--><div ng-controller="DemoController">
-            <div dx-range-selector="{
-                scale: {
-                    startValue: startDate,
-                    endValue: endDate,
-                    tickInterval: { days: 7 }
-                }
-            }"></div>
-        </div>
-
-        <!--JavaScript-->angular.module('DemoApp', ['dx'])
-            .controller("DemoController", function ($scope) {
-                $scope.startDate = new Date(2011, 0, 1);
-                $scope.endDate = new Date(2011, 5, 1);
-            });
-
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
-
-        <!--HTML-->
-        <div data-bind="dxRangeSelector: {
+    <!--JavaScript-->$(function() {
+        $("#rangeSelector").dxRangeSelector({
             scale: {
                 startValue: new Date(2011, 0, 1),
                 endValue: new Date(2011, 5, 1),
                 tickInterval: { days: 7 }
             }
+        });
+    });
+
+    <!--HTML--><div id="rangeSelector"></div>
+
+#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <dx-range-selector>
+        <dxo-scale
+            [startValue]="startDate"
+            [endValue]="endDate">
+            <dxo-tick-interval [days]="7"></dxo-tick-interval>
+        </dxo-scale>
+    </dx-range-selector>
+
+    <!--JavaScript-->
+    export class AppComponent {
+        startDate = new Date(2011, 0, 1);
+        endDate = new Date(2011, 5, 1);
+    }
+
+#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-range-selector="{
+            scale: {
+                startValue: startDate,
+                endValue: endDate,
+                tickInterval: { days: 7 }
+            }
         }"></div>
+    </div>
+
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller("DemoController", function ($scope) {
+            $scope.startDate = new Date(2011, 0, 1);
+            $scope.endDate = new Date(2011, 5, 1);
+        });
+
+#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+
+    <!--HTML-->
+    <div data-bind="dxRangeSelector: {
+        scale: {
+            startValue: new Date(2011, 0, 1),
+            endValue: new Date(2011, 5, 1),
+            tickInterval: { days: 7 }
+        }
+    }"></div>
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-        
-        <!--Razor C#-->@(Html.DevExtreme().RangeSelector()
-            .ID("rangeSelector")
-            .Scale(scale => scale
-                .StartValue(new DateTime(2011, 1, 1))
-                .EndValue(new DateTime(2011, 6, 1))
-                .TickInterval(ti => ti.Days(7))
-            )
+    
+    <!--Razor C#-->@(Html.DevExtreme().RangeSelector()
+        .ID("rangeSelector")
+        .Scale(scale => scale
+            .StartValue(new DateTime(2011, 1, 1))
+            .EndValue(new DateTime(2011, 6, 1))
+            .TickInterval(ti => ti.Days(7))
         )
+    )
 
-        <!--Razor VB-->@(Html.DevExtreme().RangeSelector() _
-            .ID("rangeSelector") _
-            .Scale(Sub(scale)
-                scale.StartValue(New DateTime(2011, 1, 1)) _
-                     .EndValue(New DateTime(2011, 6, 1)) _
-                     .TickInterval(Sub(ti) ti.Days(7))
-            End Sub)
-        )
+    <!--Razor VB-->@(Html.DevExtreme().RangeSelector() _
+        .ID("rangeSelector") _
+        .Scale(Sub(scale)
+            scale.StartValue(New DateTime(2011, 1, 1)) _
+                    .EndValue(New DateTime(2011, 6, 1)) _
+                    .TickInterval(Sub(ti) ti.Days(7))
+        End Sub)
+    )
 
 ---
 
