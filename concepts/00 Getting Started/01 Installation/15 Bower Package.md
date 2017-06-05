@@ -49,7 +49,7 @@ After installation is completed, you can find all the libraries in the **bower_c
     
 #####See Also#####
 - [Install Bower](https://bower.io/#install-bower)
-- [Add Bower Packages to a VS 2015 ASP.NET 5 App](/Documentation/Guide/Getting_Started/Installation/How_To/Add_Bower_Packages_to_a_VS_2015_ASP.NET_5_App/)
+- [Add Bower Packages to a VS ASP.NET MVC and ASP.NET Core MVC App](/Documentation/Guide/Getting_Started/Installation/How_To/Add_Bower_Packages_to_a_VS_ASP.NET_MVC_and_ASP.NET_Core_MVC_App/)
 - [NuGet Package](/Documentation/Guide/Getting_Started/Installation/NuGet_Package)
 - [npm Package](/Documentation/Guide/Getting_Started/Installation/npm_Package)
 - [Predefined Themes](/Documentation/Guide/Themes/Predefined_Themes/)

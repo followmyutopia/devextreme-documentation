@@ -14,8 +14,6 @@ Use the **Manage NuGet Packages** dialog in Visual Studio as an alternative way 
 
 After installing all the necessary packages, link the required scripts within your index page's `<head>` tag as shown in the [Local Scripts](/Documentation/Guide/Getting_Started/Installation/Local_Scripts) article.
 
-[note]You cannot load DevExtreme libraries to the Visual Studio 15 ASP.NET 5 Web Application using the NuGet package. Use the [Bower package](/Documentation/Guide/Getting_Started/Installation/Bower_Package) instead.
-
 #####See Also#####
 - [Installing NuGet](http://docs.nuget.org/docs/start-here/installing-nuget)
 - [Bower Package](/Documentation/Guide/Getting_Started/Installation/Bower_Package)

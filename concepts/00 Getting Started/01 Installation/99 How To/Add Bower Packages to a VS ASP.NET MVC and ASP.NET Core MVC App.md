@@ -1,4 +1,4 @@
-The Visual Studio 2015 MVC 5 Web Application template supports Bower out of the box. Follow the steps below to add the DevExtreme libraries to an MVC 5 application using Bower.
+Since edition 2015, Visual Studio supports Bower out of the box. Follow the steps below to add the DevExtreme libraries to an MVC application using Bower.
 
 1. Open the *bower.json* file located in the root folder of your application project.
 
@@ -12,7 +12,7 @@ The Visual Studio 2015 MVC 5 Web Application template supports Bower out of the 
 
         <!--HTML-->
         <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
-        . . .
+        ...
         <script type="text/javascript" src="lib/devextreme/js/dx.all.js"></script>
         <!-- <script type="text/javascript" src="lib/devextreme/js/dx.mobile.js"></script> -->
         <!-- <script type="text/javascript" src="lib/devextreme/js/dx.web.js"></script> -->
