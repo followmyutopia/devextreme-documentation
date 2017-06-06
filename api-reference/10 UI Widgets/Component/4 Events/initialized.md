@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when the widget is initialized.
+Raised only once, after the widget is initialized.
 <!--/shortDescription-->
 
 <!--fullDescription-->
