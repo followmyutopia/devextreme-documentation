@@ -1,6 +1,6 @@
 A series point is a visual representation of a data point. In a pie chart, series points are displayed as circular sectors. The size of the sector depends on the value proportion of the series point relative to the other series points.
 
-![PieChartSeriesPoints](/Content/images/doc/17_1/ChartJS/PieChartSeriesPoints.png)
+![PieChartSeriesPoints](/Content/images/doc/17_2/ChartJS/PieChartSeriesPoints.png)
 
 Several point options that you can specify are categorized and listed as follows.
 

@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/17_1/Framework/DataGridTutorial/Step2/grid.html" data-show-first="grid.html">
+<article data-show-web="/Content/Applications/17_2/Framework/DataGridTutorial/Step2/grid.html" data-show-first="grid.html">
 Once the required libraries are referenced, you can create the **DataGrid** widget on your page.
 
 Add a div element to the body of the HTML document. It is the container for the **DataGrid** widget.

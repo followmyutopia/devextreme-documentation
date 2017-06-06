@@ -43,7 +43,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget's <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Methods/#instance">instance</a>.
+The widget's <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -78,7 +78,7 @@ The index of the column on which the context menu is invoked.
 <!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->object<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-<a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configuration</a> of this column.
+<a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configuration</a> of this column.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->rowIndex<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->number<!--/typeFunctionParamType1_field9-->

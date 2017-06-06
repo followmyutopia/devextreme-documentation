@@ -1,6 +1,6 @@
 Regardless of which platform you are going to package your application for, set the general project properties. To do this, right-click the application project in the Visual Studio Solution Explorer and choose **Properties**. In the invoked window, specify the **General** properties.
 
-![General Project Properties](Content/images/doc/17_1/DevExtreme/GeneralProperties.png)
+![General Project Properties](Content/images/doc/17_2/DevExtreme/GeneralProperties.png)
 
 - **Output Path**	
 	Specify a folder for the output.

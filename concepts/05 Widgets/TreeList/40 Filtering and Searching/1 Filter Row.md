@@ -1,6 +1,6 @@
 The filter row allows a user to filter data by values of individual columns. Usually, cells in the filter row are text boxes, but in columns that hold date or Boolean values, those cells contain controls more suitable for filtering, like calendars or select boxes.  
 
-![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Filtering FilterRow](/Content/images/doc/17_1/treelist/visual_elements/filter_row.png)
+![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Filtering FilterRow](/Content/images/doc/17_2/treelist/visual_elements/filter_row.png)
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingFilterRow/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
@@ -29,7 +29,7 @@ A user-specified filter applies automatically with a delay by default. Alternati
 
 Each cell in the filter row contains a magnifying glass icon, pausing on which opens a drop-down list with filters available for the column.
 
-![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Filtering FilterRow](/Content/images/doc/17_1/treelist/visual_elements/filter_row_operation_chooser.png)
+![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Filtering FilterRow](/Content/images/doc/17_2/treelist/visual_elements/filter_row_operation_chooser.png)
 
 The set of available filters can be restricted using the [filterOperations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#filterOperations) option. You can also preselect a filter with the [selectedFilterOperation](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#selectedFilterOperation) option. Combining these two options, you can preselect a filter and disallow a user to change it, for example:
 

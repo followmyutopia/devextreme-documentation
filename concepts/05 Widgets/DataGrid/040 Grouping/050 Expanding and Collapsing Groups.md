@@ -1,6 +1,6 @@
 Groups can be either expanded or collapsed. When expanded, a group is represented by a [group row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) and data rows matching the grouping value. When collapsed, a group is represented by a group row only.
 
-![DevExtreme DataGrid Groups](/Content/images/doc/17_1/DataGrid/GroupsExpandedCollapsed.png)
+![DevExtreme DataGrid Groups](/Content/images/doc/17_2/DataGrid/GroupsExpandedCollapsed.png)
 
 By default, to expand/collapse a group, the user clicks its expand/collapse button. On small-screen devices, this approach may impair the user experience. As an alternative, consider expanding/collapsing a group by a click on the group row. To specify the preferable mode, use the **grouping** | [expandMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#expandMode) option.
 

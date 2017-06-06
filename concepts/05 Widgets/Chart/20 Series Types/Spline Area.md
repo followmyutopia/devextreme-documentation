@@ -1,6 +1,6 @@
 The *splineArea* series type is useful when you need to emphasize a change in values, but smooth the line that connects the points. With this series type, data is displayed as points joined using a spline interpolation, and the shaded area between the spline and the argument axis. The joining line is the series' border, and it is not visible by default.
 
-![SplineAreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/SplineArea.png)
+![SplineAreaSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/SplineArea.png)
 
 To use this series type, assign *'splinearea'* to the **type** property of the **series** configuration object.
 

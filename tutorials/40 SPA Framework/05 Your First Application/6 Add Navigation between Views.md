@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/YourFirstApplication/step5/YourFirstApplication.html" >
+<article data-show="/Content/Applications/17_2/framework/YourFirstApplication/step5/YourFirstApplication.html" >
 In this step, you will add one more view called "greeting" and display it instead of the "home" view on the page when clicking a button.
 
 - Add an HTML template for the "greeting" view, as you did [above](/Documentation/Tutorial/SPA_Framework/Your_First_Application/#Create_a_View)

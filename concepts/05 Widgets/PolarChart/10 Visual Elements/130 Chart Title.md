@@ -1,6 +1,6 @@
 The **PolarChart** widget can be displayed with a title. You can use the chart title to provide either explanatory text for the displayed data or any additional textual information.
 
-![ChartTitle](/Content/images/doc/17_1/ChartJS/Polar_ChartTitle.png)
+![ChartTitle](/Content/images/doc/17_2/ChartJS/Polar_ChartTitle.png)
 
 To specify the title text, use the [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/title/) property as demonstrated in the code below.
 

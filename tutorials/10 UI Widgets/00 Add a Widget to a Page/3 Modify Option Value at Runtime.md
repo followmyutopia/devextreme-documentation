@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/17_1/Framework/ConfigureWidget/Step4/markup.html">
+<article data-show-web="/Content/Applications/17_2/Framework/ConfigureWidget/Step4/markup.html">
 This step describes how to change the value of a widget option at runtime.   
 
 Add the [CheckBox](/Documentation/ApiReference/UI_Widgets/dxCheckBox/) widget that will switch the button state. To implement the state change, follow the next steps.

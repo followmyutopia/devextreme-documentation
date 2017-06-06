@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataVisualization/UseRemoteDataforChart/Solution/chart.html">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/UseRemoteDataforChart/Solution/chart.html">
 
 The data that comes as a JSON in this application allows you to display temperature flow during each month on a chart. For this purpose, add the **Chart** widget.
 

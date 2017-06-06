@@ -3,7 +3,7 @@ var myViewModel = {
     selectBoxData: new DevExpress.data.DataSource({
         store: [],
         map: function (itemData) {
-            itemData.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
+            itemData.imagePath = "/Content/images/doc/17_2/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
             return itemData;
         }
     })
@@ -22,7 +22,7 @@ myApp.controller("demoController", function ($scope) {
     $scope.selectBoxData = new DevExpress.data.DataSource({
         store: [],
         map: function (itemData) {
-            itemData.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
+            itemData.imagePath = "/Content/images/doc/17_2/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
             return itemData;
         }
     });
@@ -41,7 +41,7 @@ angular.element(document).ready(function () {
 var selectBoxData = new DevExpress.data.DataSource({
     store: [],
     map: function (itemData) {
-        itemData.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
+        itemData.imagePath = "/Content/images/doc/17_2/PhoneJS/flags/" + itemData.name.replace(" ", "") + ".gif";
         return itemData;
     }
 });

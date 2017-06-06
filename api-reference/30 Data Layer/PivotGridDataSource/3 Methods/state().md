@@ -17,7 +17,7 @@ A current PivotGridDataSource state.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Use the returned object as an argument of the <a href="/Documentation/17_1/ApiReference/Data_Layer/PivotGridDataSource/Methods/#statestate">state(state)</a> method to restore the pivot grid state.
+Use the returned object as an argument of the <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Methods/#statestate">state(state)</a> method to restore the pivot grid state.
 
 [note] This method is a part of the [state storing](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#customLoad) feature. Refer to the **PivotGrid** configuration options for details.
 <!--/fullDescription-->

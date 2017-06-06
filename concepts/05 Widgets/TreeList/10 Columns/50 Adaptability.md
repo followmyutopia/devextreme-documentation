@@ -18,7 +18,7 @@ When adapting to a small container or screen, the **TreeList** can hide columns.
 
 Data from hidden columns is still available in adaptive detail rows. A user can expand or collapse these rows by clicking the ellipsis buttons in the adaptive column.
 
-![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Adaptability](/Content/images/doc/17_1/treelist/visual_elements/adaptive-column.png)
+![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Adaptability](/Content/images/doc/17_2/treelist/visual_elements/adaptive-column.png)
 
 You can expand or collapse adaptive detail rows programmatically by calling the [expandAdaptiveDetailRow(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#expandAdaptiveDetailRowkey) or [collapseAdaptiveDetailRow()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#collapseAdaptiveDetailRow) method. Note that adaptive detail rows cannot be expanded simultaneously, therefore, calling the **expandAdaptiveDetailRow(key)** method collapses the previously expanded row. To check whether a specific row is expanded, call the [isAdaptiveDetailRowExpanded(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#isAdaptiveDetailRowExpandedkey) method.
 

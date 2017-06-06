@@ -103,7 +103,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
 [note]To use AngularJS and DevExtreme widget modules with Webpack, load the DevExtreme integration and angular modules.  
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/17_1/webpack-angularjs) from GitHub. To use it, follow the instructions on GitHub.
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/17_2/webpack-angularjs) from GitHub. To use it, follow the instructions on GitHub.
 
 **webpack.config.js**  
 

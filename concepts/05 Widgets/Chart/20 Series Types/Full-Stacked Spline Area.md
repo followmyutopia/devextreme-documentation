@@ -1,6 +1,6 @@
 The *fullStackedSplineArea* series type is used when it is necessary to compare the value percentage of several *splineArea* series for each argument. In this series type, series data is displayed as points joined using a spline interpolation, and the shaded area between the spline and the argument axis. The joining line is the series' border, and it is not visible by default.
 
-![fullStackedSplineAreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/fullStackedSplineArea.png)
+![fullStackedSplineAreaSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/fullStackedSplineArea.png)
 
 To use this series type, assign *'fullstackedsplinearea'* to the **type** property of the **series** configuration object.
 

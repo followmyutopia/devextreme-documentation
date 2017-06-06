@@ -1,6 +1,6 @@
 Axis labels represent textual values for [axis ticks](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axis_Ticks).
 
-![Axis Labels](/Content/images/doc/17_1/ChartJS/Polar_AxisLabels.png)
+![Axis Labels](/Content/images/doc/17_2/ChartJS/Polar_AxisLabels.png)
 
 Axis labels are generated automatically. However, you can change their settings if your task requires that. Label settings are set using the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonAxisSettings/label/) object of the **argumentAxis**, **valueAxis** or **commonAxisSettings** configuration object.
 

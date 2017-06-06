@@ -1,4 +1,4 @@
-In **DataGrid**, a user may be capable of altering the set of presented columns at runtime. This capability is provided by a grid element called "column chooser". A column chooser is a panel that contains column headers. It can be invoked by a click on <img src="/Content/images/doc/17_1/DataGrid/icons/columnChooser.png" alt="DevExtreme DataGrid ColumnChooser" style="vertical-align:middle"/>.
+In **DataGrid**, a user may be capable of altering the set of presented columns at runtime. This capability is provided by a grid element called "column chooser". A column chooser is a panel that contains column headers. It can be invoked by a click on <img src="/Content/images/doc/17_2/DataGrid/icons/columnChooser.png" alt="DevExtreme DataGrid ColumnChooser" style="vertical-align:middle"/>.
 
 The column chooser has two modes defining how the user chooses columns. In the *"dragAndDrop"* mode, the user moves column headers to/from the column chooser by drag-and-drop. When in this mode, the column chooser contains the headers of [hidden](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visible) columns only.
 

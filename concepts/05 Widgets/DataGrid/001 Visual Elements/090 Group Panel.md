@@ -1,6 +1,6 @@
 To [group](/Documentation/Guide/Widgets/DataGrid/Grouping/) grid records, use a group panel. A user can drag-and-drop columns onto and from it, thus grouping grid records by these columns.
 
-![DevExtreme DataGrid GroupPanel](/Content/images/doc/17_1/DataGrid/GroupPanel.png)
+![DevExtreme DataGrid GroupPanel](/Content/images/doc/17_2/DataGrid/GroupPanel.png)
 
 To configure the group panel, use the fields of the [groupPanel](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/) object.
 

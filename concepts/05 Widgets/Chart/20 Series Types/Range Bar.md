@@ -1,6 +1,6 @@
 The *rangeBar* series type is used to display value ranges corresponding to the specified arguments. With this series type, data is displayed as sets of rectangular bars beginning at the specified start value and ending at the specified end value. When there are several *rangeBar* series, bars for each argument are displayed side-by-side.
 
-![RangeBarSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/RangeBar.png)
+![RangeBarSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/RangeBar.png)
 
 To use this series type, assign *'rangebar'* to the **type** property of the **series** configuration object.
 

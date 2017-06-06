@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataLayer/Sorting/Step8/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/17_2/DataLayer/Sorting/Step8/markup.html" data-show-first="script.js">
 
 To clear search criteria and show data items in the initial order, pass **null** to the **sortData** function.
 

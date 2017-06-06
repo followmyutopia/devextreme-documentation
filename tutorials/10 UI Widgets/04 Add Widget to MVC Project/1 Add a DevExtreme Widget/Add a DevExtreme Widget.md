@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/17_1/Framework/ConfigureWidget/Solution/markup.html">
+<article data-show-web="/Content/Applications/17_2/Framework/ConfigureWidget/Solution/markup.html">
     
 All DevExtreme widgets are added to web applications in the same manner. You will create a [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget to understand the common principles of adding widgets. In addition, you will learn how to handle widget events and modify widget configuration at runtime.
 

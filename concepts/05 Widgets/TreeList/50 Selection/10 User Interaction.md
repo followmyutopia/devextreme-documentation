@@ -10,7 +10,7 @@ The **TreeList** widget supports single and multiple row selection. Use the **se
 
 In the single mode, only one row can be selected at a time. In the multiple mode, rows are supplied with check boxes for multiple selection. A check box in the header of the first column allows a user to select all rows at once.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/17_1/treelist/selection.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/17_2/treelist/selection.png)
 
 You can disable the latter capability by setting the **selection** | [allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#allowSelectAll) option to *false*.
 

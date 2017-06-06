@@ -25,7 +25,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget's <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Methods/#instance">instance</a>.
+The widget's <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -56,5 +56,5 @@ Allows you to cancel row editing.
 <!--typeFunctionParamName1_field7-->column<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->object<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-<a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configuration</a> of the column whose cell is switching to the editing state. Available in <i>'cell'</i> or <i>'batch'</i> <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode">editing mode</a>.
+<a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configuration</a> of the column whose cell is switching to the editing state. Available in <i>'cell'</i> or <i>'batch'</i> <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode">editing mode</a>.
 <!--/typeFunctionParamDescription1_field7-->

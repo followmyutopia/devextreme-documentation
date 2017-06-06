@@ -1,14 +1,14 @@
-<article data-show="/Content/Applications/17_1/LearningCenter/Data-BoundApplication/step1-1/index.html">
+<article data-show="/Content/Applications/17_2/LearningCenter/Data-BoundApplication/step1-1/index.html">
 
 Implement an HTML template for the "Categories" view.
 
 - Right-click the **views** folder of the **Shared** project in the Solution Explorer and choose **Add** | **NewItem...** in the context menu, which will invoke the **Add New Item** dialog. Within this dialog, choose the **View** template, specify "categories" as a name and press **Add**.
 
-  ![Add View Dialog](Content/images/doc/17_1/DevExtreme/Tutorial_AddViewDialog.png)
+  ![Add View Dialog](Content/images/doc/17_2/DevExtreme/Tutorial_AddViewDialog.png)
   
 - In the invoked wizard, choose **Create an empty view**, because it is better now to implement a view manually so that you can then generate a view and modify it correctly. 
 
-  ![View Creation Wizard](Content/images/doc/17_1/DevExtreme/Tutorial_AddViewWizard.png)
+  ![View Creation Wizard](Content/images/doc/17_2/DevExtreme/Tutorial_AddViewWizard.png)
 
 - As a result, you will get automatically generated *categories.dxview* and *categories.js* code files. Register these files within the application page - in the *index.html* file of the **Desktop** and **Mobile** projects.
 
@@ -40,7 +40,7 @@ Here is the code you will get.
 
 The simulator to the left displays a message in the top yellow area: "Design view is out of sync with the Source view. Click here to synchronize the views." Click this area. The simulator will display the view defined in the code.
 
-![Categories List View](Content/images/doc/17_1/DevExtreme/Tutorial_CategoriesListView.png)
+![Categories List View](Content/images/doc/17_2/DevExtreme/Tutorial_CategoriesListView.png)
 
 As you can see, the view's markup is placed to the "content" placeholder of the layout in which this view will be displayed. As a result, the view's HTML template is combined with the layout's HTML markup and the style sheets are applied to the HTML elements (including the **List** widget). This forms a so-called View from the MVVM (Model-View-ViewModel) pattern. The ViewModel for the "Categories" view will be described below. The Model is already generated as an ODataStore instance that provides access to the "Categories" entity of the OData service used in this application.
 

@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataLayer/AccessJSONDataViaDataSource/Step2/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/17_2/DataLayer/AccessJSONDataViaDataSource/Step2/markup.html" data-show-first="script.js">
 
 To load JSON data, use the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance based on the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). This tutorial will only consider how to load data. That is why only the [load()](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#loadoptions) method of the **CustomStore** is implemented here. To create a **CustomStore** within the **DataSource** instance, pass its configuration options to the DataSource constructor. In this case, specify only the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) option, which takes on a function implementing a data loading algorithm.
 

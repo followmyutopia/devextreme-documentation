@@ -1,6 +1,6 @@
 The *stackedSpline* series type is used when you have several series and it's necessary to compare how much each series adds to the total aggregate value for specific arguments. With this series type, series data is displayed as points joined using a spline interpolation. The lines do not overlap, because they are cumulative at each point.
 
-![stackedSplineSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/StackedSpline.png)
+![stackedSplineSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/StackedSpline.png)
 
 To use this series type, assign *'stackedspline'* to the **type** property of the **series** configuration object.
 

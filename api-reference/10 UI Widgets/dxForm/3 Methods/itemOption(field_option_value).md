@@ -14,7 +14,7 @@ Updates the value of a form item option.
 <!--paramName1-->field<!--/paramName1-->
 <!--paramType1-->string<!--/paramType1-->
 <!--paramDescription1-->
-Specifies the path to the required <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxForm/Configuration#formData">formData</a> field, or the name of the required editor.
+Specifies the path to the required <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxForm/Configuration#formData">formData</a> field, or the name of the required editor.
 <!--/paramDescription1-->
 
 <!--paramName2-->option<!--/paramName2-->

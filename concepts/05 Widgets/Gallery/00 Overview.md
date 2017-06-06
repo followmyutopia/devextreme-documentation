@@ -10,10 +10,10 @@ The following code adds the **Gallery** widget to your page. The simplest config
     $(function () {
         $("#galleryContainer").dxGallery({
             dataSource: [
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person3.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person4.png"
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person3.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person4.png"
             ],
             height: 300
         });

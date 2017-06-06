@@ -1,6 +1,6 @@
 With the *spline* series type, data is displayed as points joined using a spline interpolation. This series type is useful when you need to visualize a trend in data over intervals, and prefer smoothing the line that connects the points.
 
-![SplineSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Spline.png)
+![SplineSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/Spline.png)
 
 To use this series type, assign *'spline'* to the **type** property of the **series** configuration object.
 

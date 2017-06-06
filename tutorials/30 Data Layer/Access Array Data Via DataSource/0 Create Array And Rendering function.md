@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataLayer/AccessArrayDataViaDataSource/Step1/markup.html">
+<article data-show-web="/Content/Applications/17_2/DataLayer/AccessArrayDataViaDataSource/Step1/markup.html">
 
 Begin by creating an array that will be accessed via the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Create the **myArray** variable and assign the required array to it.
 

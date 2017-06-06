@@ -25,7 +25,7 @@ An object specifying additional options.
 <!--paramName2_field1-->expand<!--/paramName2_field1-->
 <!--paramType2_field1-->string|array<!--/paramType2_field1-->
 <!--paramDescription2_field1-->
-An array of the strings that represent the names of the navigation properties to be loaded synchronously with the requested data item (see <a href="/Documentation/17_1/Guide/Data_Layer/Data_Source_Examples/#OData/Associations">Associations</a>).
+An array of the strings that represent the names of the navigation properties to be loaded synchronously with the requested data item (see <a href="/Documentation/17_2/Guide/Data_Layer/Data_Source_Examples/#OData/Associations">Associations</a>).
 <!--/paramDescription2_field1-->
 
 <!--returnType-->Promise<!--/returnType-->

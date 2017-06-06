@@ -21,6 +21,6 @@ To configure a widget, pass an object to the plugin as shown in the following co
 
 #####See Also#####
 - [API Reference](/Documentation/ApiReference) | **WidgetName** | **Configuration**
-- [Get and Set Options - jQuery](/Documentation/17_1/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options)
+- [Get and Set Options - jQuery](/Documentation/17_2/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options)
 
 [tags]basics, jquery, create, configure, initialize, design time

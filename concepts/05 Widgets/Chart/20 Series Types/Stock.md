@@ -1,6 +1,6 @@
 The *stock* series type is used to show a variation in stock prices over the course of a day. The _low_ and _high_ prices are represented by the bottom and top values of a vertical line, which is shown at each point, and the _open_ and _close_ prices are represented by the left and right tick marks, respectively.
 
-![StockSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Stock.png)
+![StockSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/Stock.png)
 
 To use this series type, assign *'stock'* to the **type** property of the **series** configuration object.
 

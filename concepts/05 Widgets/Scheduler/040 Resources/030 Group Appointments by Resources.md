@@ -25,7 +25,7 @@ To group appointments by resources, assign an array to the [groups](/Documentati
         });
     });
 
-![Scheduler Grouping by Resources](/Content/images/doc/17_1/UiWidgets/Scheduler_ResourceGroups.png)
+![Scheduler Grouping by Resources](/Content/images/doc/17_2/UiWidgets/Scheduler_ResourceGroups.png)
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/GroupedAppointments/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

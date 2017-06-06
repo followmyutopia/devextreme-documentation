@@ -1,4 +1,4 @@
-﻿<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureRangeSelector/Step3/rangeSelector.html" data-show-first="rangeSelector.js">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/ConfigureRangeSelector/Step3/rangeSelector.html" data-show-first="rangeSelector.js">
 The **RangeSelector** widget can display an image or a chart in its background. In this tutorial, we will place an image in the background. For this purpose, use the **background** | [image](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/background/image/) object. Assign the image's URL to the **url** option of this object. Additionally, you can change the location of the image in the background using the **location** option, but for this app, the default setting is better suited.
 
 If you need to display a chart in the background, refer to the [chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/) option description for detailed information.

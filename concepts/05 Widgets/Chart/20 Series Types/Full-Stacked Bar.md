@@ -1,6 +1,6 @@
 The *fullStackedBar* series type is used when it's necessary to compare the value percentage of several *bar* series for each argument. With this series type, data is displayed as rectangular bars with lengths proportional to their value percentage. Bars of each subsequent series are stacked on top of the bars of the previous series. The height of the resulting bar is always equal to 100 percent. The value axis is always continuous and displays the range from 0 to 100 percent.
 
-![FullStackedBarSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/FullStackedBar.png)
+![FullStackedBarSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/FullStackedBar.png)
 
 To use the *fullStackedBar* series type, assign *'fullstackedbar'* to the **type** property of the **series** configuration object.
 

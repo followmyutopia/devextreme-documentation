@@ -2,17 +2,17 @@ Follow these steps to add a view to your project.
 
 - Right-click the **Views** folder in a DevExtreme project and choose **Add** | **New Item...**. The **Add New Item** dialog will be invoked.
 
-	![Add New Item](Content/images/doc/17_1/DevExtreme/AddNewItem.png)
+	![Add New Item](Content/images/doc/17_2/DevExtreme/AddNewItem.png)
 
 - Select the **View** template, give it a name and press **Add**. The **.dxView**, **.js** and **.css** files will be added to the project and links to them will be added in the application page (see the *index.html* file). The *.dxView* file is an HTML file that can be opened using a [Designer](/Documentation/Guide/VS_Integration/Design-Time_Features/).
 
 	If you use an OData service in your project, the **View Creation Wizard** will run after you press **Add** in the **Add New Item** dialog.
 
-	![View Creation Wizard](Content/images/doc/17_1/DevExtreme/ViewCreationWizard.png)
+	![View Creation Wizard](Content/images/doc/17_2/DevExtreme/ViewCreationWizard.png)
 
 	As you can see, you can choose to create an empty view or generate a view for an entity from your OData service. In the latter case, the wizard will help you choose an entity and view type.
 
-	![View Creation Wizard](Content/images/doc/17_1/DevExtreme/ViewCreationWizard2.png)
+	![View Creation Wizard](Content/images/doc/17_2/DevExtreme/ViewCreationWizard2.png)
 
 - Make the newly added view specific to a certain device(s) (optionally). To learn how to do this, refer to the [Device Specific Markup](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Device_Specific_Markup) article.
 

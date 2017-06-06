@@ -1,6 +1,6 @@
 Use the **DevExpress.localization.message.getDictionary()** utility to generate a dictionary for your application. Run this utility in the browser's console. Choose the required frame in the console (e.g., the top frame) so that the DevExpress namespace is available.
 
-![Localization_getDictionary](/Content/images/doc/17_1/PhoneJS/Localization_getDictionary.png)
+![Localization_getDictionary](/Content/images/doc/17_2/PhoneJS/Localization_getDictionary.png)
 
 This utility gathers all the @-keys in HTML code of the application as well as all the @-keys found in the referenced libraries. The return value of this utility is an object whose fields represent the found keys. The field values are the strings that are converted from the keys. Copy the field-value pairs that represent the keys that are specified in this certain application to the clipboard.
 

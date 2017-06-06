@@ -1,6 +1,6 @@
 The *stackedSplineArea* series type is used when you have several *splineArea* series and it's necessary to compare how much each series adds to the total aggregate value for specific arguments. The areas do not overlap because they are cumulative at each point. With this series type, data is displayed as points joined using a spline interpolation, and the shaded area between the spline and the argument axis. The joining line is the series' border, and it is not visible by default.
 
-![StackedAreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/StackedSplineArea.png)
+![StackedAreaSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/StackedSplineArea.png)
 
 To use this series type, assign *'stackedsplinearea'* to the **type** property of the **series** configuration object.
 

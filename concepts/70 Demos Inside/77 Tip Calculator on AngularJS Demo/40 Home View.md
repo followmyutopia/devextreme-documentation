@@ -1,5 +1,5 @@
 <article data-show="/Demos/TipCalculatorAngular/">
-Open the *home.html* file from the **partials** folder. It contains the HTML markup of the "home" view. In this markup, only DevExtreme widgets are used. Each widget comes with styles for different platforms and devices. To learn how to use DevExtreme widgets in AngularJS applications in detail, refer to the [Widget Basics](/Documentation/17_1/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) guides.
+Open the *home.html* file from the **partials** folder. It contains the HTML markup of the "home" view. In this markup, only DevExtreme widgets are used. Each widget comes with styles for different platforms and devices. To learn how to use DevExtreme widgets in AngularJS applications in detail, refer to the [Widget Basics](/Documentation/17_2/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) guides.
 
 The "home" view contains a toolbar at the top. There is the "Tip Calculator" text in the center of the toolbar.
 

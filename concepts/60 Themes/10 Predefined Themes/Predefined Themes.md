@@ -41,16 +41,16 @@ Here are the predefined themes that are currently supplied with DevExtreme produ
             "height": 641
         },
         "images": [
-            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/Generic_Light.png", "text": "'generic.light'" },
-            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/Generic_Dark.png", "text": "'generic.dark'" },
-            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/iOS7.png", "text": "'ios7.default'" },
-            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/Android5.png", "text": "'android5.light'" },
-            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/Win10_White.png", "text": "'win10.white'" },
-            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/Win10_Black.png", "text": "'win10.black'" },
-            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/generic_compact.png", "text": "'generic.light.compact'" },
-            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/generic-dark-compact.png", "text": "'generic.dark.compact'" },
-            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/contrast.png", "text": "'generic.contrast'" },
-            { "image": "Content/images/doc/17_1/Common/PredefinedThemes/contrast-compact.png", "text": "'generic.contrast.compact'" }
+            { "image": "Content/images/doc/17_2/Common/PredefinedThemes/Generic_Light.png", "text": "'generic.light'" },
+            { "image": "Content/images/doc/17_2/Common/PredefinedThemes/Generic_Dark.png", "text": "'generic.dark'" },
+            { "image": "Content/images/doc/17_2/Common/PredefinedThemes/iOS7.png", "text": "'ios7.default'" },
+            { "image": "Content/images/doc/17_2/Common/PredefinedThemes/Android5.png", "text": "'android5.light'" },
+            { "image": "Content/images/doc/17_2/Common/PredefinedThemes/Win10_White.png", "text": "'win10.white'" },
+            { "image": "Content/images/doc/17_2/Common/PredefinedThemes/Win10_Black.png", "text": "'win10.black'" },
+            { "image": "Content/images/doc/17_2/Common/PredefinedThemes/generic_compact.png", "text": "'generic.light.compact'" },
+            { "image": "Content/images/doc/17_2/Common/PredefinedThemes/generic-dark-compact.png", "text": "'generic.dark.compact'" },
+            { "image": "Content/images/doc/17_2/Common/PredefinedThemes/contrast.png", "text": "'generic.contrast'" },
+            { "image": "Content/images/doc/17_2/Common/PredefinedThemes/contrast-compact.png", "text": "'generic.contrast.compact'" }
         ]}
     </script>
 </div>

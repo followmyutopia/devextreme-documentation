@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/ClearCache/step1/index.html" data-show-first="views/home.js">
+<article data-show="/Content/Applications/17_2/framework/ClearCache/step1/index.html" data-show-first="views/home.js">
 
 Use an [application project template](/Documentation/Guide/SPA_Framework/Application_Project/) for your sample application.
 

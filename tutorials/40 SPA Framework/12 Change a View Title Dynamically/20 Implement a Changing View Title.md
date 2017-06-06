@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/ViewTitle/step2/index.html" data-show-first="views/home.js">
+<article data-show="/Content/Applications/17_2/framework/ViewTitle/step2/index.html" data-show-first="views/home.js">
 
 - Within the *home.js* file, add the **title** field to the ViewModel object. This field will be used to get a title for the view.
 

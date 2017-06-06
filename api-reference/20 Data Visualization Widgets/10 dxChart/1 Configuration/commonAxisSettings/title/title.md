@@ -15,7 +15,7 @@ Configures axis titles.
 <!--fullDescription-->
 Usually, an axis title displays units of measurement for values displayed by an axis. However, you can display any needed text in the axis title.
 
-![DevExtreme HTML5 Charts AxisTitles](/Content/images/doc/17_1/ChartJS/visual_elements/axis_titles.png)
+![DevExtreme HTML5 Charts AxisTitles](/Content/images/doc/17_2/ChartJS/visual_elements/axis_titles.png)
 
 The **commonAxisSettings** | **title** object, which is described here, specifies common settings for all axis titles in the chart. To configure only the axis title that belongs to a particular axis, use the following objects.
 

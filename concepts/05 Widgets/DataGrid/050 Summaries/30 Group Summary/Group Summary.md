@@ -1,6 +1,6 @@
-﻿A group summary feature provides an ability to aggregate data in a group using one of the available [aggregate functions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#summaryType).
+A group summary feature provides an ability to aggregate data in a group using one of the available [aggregate functions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#summaryType).
 
-![DevExtreme DataGrid GroupPanel](/Content/images/doc/17_1/DataGrid/GroupSummary.png)
+![DevExtreme DataGrid GroupPanel](/Content/images/doc/17_2/DataGrid/GroupSummary.png)
 
 To configure the group summary, use the [summary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/) | [groupItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) array elements. The minimum required configuration of the group summary object includes the [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#column) and the [summaryType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#summaryType) options.
     

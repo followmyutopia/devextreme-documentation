@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureRangeSelector/Step1/rangeSelector.html">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/ConfigureRangeSelector/Step1/rangeSelector.html">
 
 First, reference files required by the **RangeSelector** widget on your HTML page. Add these files as scripts to the head of the page as it is done in the HTML file below. Refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section, to learn where you can get these and other libraries.
 

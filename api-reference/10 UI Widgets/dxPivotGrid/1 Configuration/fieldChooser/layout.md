@@ -17,7 +17,7 @@ Specifies the field chooser layout.
 <!--fullDescription-->
 The image below shows different layout types.
 
-![](/Content/images/doc/17_1/DataGrid/fieldChooserLayouts.png)
+![](/Content/images/doc/17_2/DataGrid/fieldChooserLayouts.png)
 
 The following abbreviations are used on the image.
 

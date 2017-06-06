@@ -41,5 +41,5 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->toolbarOptions<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxToolbar/Configuration/">options of the toolbar</a>. 
+The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxToolbar/Configuration/">options of the toolbar</a>. 
 <!--/typeFunctionParamDescription1_field4-->

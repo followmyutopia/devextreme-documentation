@@ -27,5 +27,5 @@ The image below demonstrates what cell will be returned by the following code.
 
     <!--JavaScript-->var targetCell = sourceCell.grandTotal('row');
 
-![](/Content/images/doc/17_1/DataGrid/PivotGrid_GT.png)
+![](/Content/images/doc/17_2/DataGrid/PivotGrid_GT.png)
 <!--/fullDescription-->

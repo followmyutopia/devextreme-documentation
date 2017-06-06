@@ -1,7 +1,7 @@
 A Series represents a group of related data points. The most important characteristic of a series is its type, which determines the specific visual representation of data. The pie chart series types are used to illustrate value proportion with circular sectors. You can find more details on each series type in the corresponding topics in the [PieChart Series Types](/Documentation/Guide/Widgets/PieChart/Series_Types/) section. Here, you will learn how to set a series type and other series options.
 
-<img src="/Content/images/doc/17_1/ChartJS/PieChartSingleSeries.png" style="vertical-align:top" alt="PieChart Single-Series"/>
-<img src="/Content/images/doc/17_1/ChartJS/PieChartMultiSeries.png" alt="PieChart Multi-Series"/>
+<img src="/Content/images/doc/17_2/ChartJS/PieChartSingleSeries.png" style="vertical-align:top" alt="PieChart Single-Series"/>
+<img src="/Content/images/doc/17_2/ChartJS/PieChartMultiSeries.png" alt="PieChart Multi-Series"/>
 
 The **PieChart** widget supports multiple series, which are presented as concentric circles. Each series is configured using an object in the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/) array. To set the series type, specify the **type** field of this object.
 

@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/YourFirstApplication/step7/YourFirstApplication.html">
+<article data-show="/Content/Applications/17_2/framework/YourFirstApplication/step7/YourFirstApplication.html">
 In this step, pass the text entered in the "home" view to the "greeting" view and concatenate it to the "Hello" string.
 
 - Add the **name** parameter to the application's [routing format](/Documentation/Tutorial/SPA_Framework/Your_First_Application/#Create_an_Application), and set the parameter's default value to an empty string

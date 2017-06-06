@@ -26,12 +26,12 @@ Data operations can be categorized into basic operations ([filtering](/Documenta
     <th>Advanced operations</th>
  </tr>
  <tr>
-    <td><a href="/Documentation/17_1/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/">CustomStore</a></td>
+    <td><a href="/Documentation/17_2/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/">CustomStore</a></td>
     <td style="text-align:center">client</td>
     <td style="text-align:center">client</td>
  </tr>
  <tr>
-    <td><a href="/Documentation/17_1/Guide/Widgets/DataGrid/Data_Binding/OData_Service/">ODataStore</a></td>
+    <td><a href="/Documentation/17_2/Guide/Widgets/DataGrid/Data_Binding/OData_Service/">ODataStore</a></td>
     <td style="text-align:center">server</td>
     <td style="text-align:center">client (always)</td>
  </tr>

@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureTreeMap/Step3/treemap.html" data-show-first="treemap.js">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/ConfigureTreeMap/Step3/treemap.html" data-show-first="treemap.js">
 
 **TreeMap** accepts either a hierarchical or a plain data source. For the widget, the only difference is the settings you need to specify in each case. This tutorial shows how to configure a **TreeMap** bound to a plain data source. For example, consider the *vehiclesPerCapita* array declared in the *treemap.js* file below. It contains twenty data objects and four group objects. Each data object implicitly belongs to one of the group objects. Pass this array to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#dataSource) option.
 

@@ -1,6 +1,6 @@
 A *line* series type sparkline presents data as a line that connects invisible points. This series type is useful when you need to visualize a data trend of specific intervals.
 
-![DevExtreme ChartJS Sparkline](/Content/images/doc/17_1/ChartJS/SparklineLine.png)
+![DevExtreme ChartJS Sparkline](/Content/images/doc/17_2/ChartJS/SparklineLine.png)
 
 In the **Sparkline** widget, the *line* series type is used by default.  There may be times, however, when you will need to specify this series type explicitly. To do so, assign *'line'* to the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#type) option of the main configuration object.
 

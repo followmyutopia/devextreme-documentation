@@ -34,5 +34,5 @@ To display labels connected to their points, define the **label** object within 
     }"></div>      
   
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/LearningCenter/ChartLessons/chart.html, /Content/Applications/17_1/LearningCenter/ChartLessons/DevExtremeFullCode.js"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_2/LearningCenter/ChartLessons/chart.html, /Content/Applications/17_2/LearningCenter/ChartLessons/DevExtremeFullCode.js"></div>
 </article>

@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureVectorMap/Step7/vectorMap.html" data-show-first="vectorMap.js">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/ConfigureVectorMap/Step7/vectorMap.html" data-show-first="vectorMap.js">
 
 To configure map markers, use the [options](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/) of the *marker* layer.
 

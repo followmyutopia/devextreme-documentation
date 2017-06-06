@@ -1,6 +1,6 @@
 A pane is a chart area containing series. If there are many series in the **Chart**, they can be distributed between multiple panes.
 
-![DevExtreme HTML5 JavaScript Charts Panes](/Content/images/doc/17_1/ChartJS/visual_elements/pane.png)
+![DevExtreme HTML5 JavaScript Charts Panes](/Content/images/doc/17_2/ChartJS/visual_elements/pane.png)
 
 Panes are configured by the [panes](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/) option. For a single-pane chart, this option accepts an object that configures the [background color](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#backgroundColor) and the [border](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/border/) of the pane.
 

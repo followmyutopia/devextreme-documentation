@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/DrillDownChart/Step4/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/DrillDownChart/Step4/chart.html" data-show-first="chart.js">
 
 To implement navigation from the drill-down back to the top series, redesign the chart legend. Although the legend is meant to display the information about chart series, its flexibility allows you to turn it into an improvised "Back" button for the drill-down series.
 

@@ -2,7 +2,7 @@
 
 The size of an item is specified by the [baseSize](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#baseSize) and [ratio](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#ratio) options. They can be used separately and together. If the **baseSize** alone is used, the size of an item is specified precisely. If the **Box** is bigger than all its inner elements combined, an area is left unoccupied.
 
-![DevExtreme HTML5 LayoutWidget Box](/Content/images/doc/17_1/UiWidgets/Box/Box_baseSize.png)
+![DevExtreme HTML5 LayoutWidget Box](/Content/images/doc/17_2/UiWidgets/Box/Box_baseSize.png)
 
     <!--HTML--><div id="boxContainer">
         <div class="box-item orange" data-options="dxItem: { baseSize: 200 }"> Item 1 </div>
@@ -32,7 +32,7 @@ The size of an item is specified by the [baseSize](/Documentation/ApiReference/U
 
 If the **ratio** option alone is used, the size of an item depends on how big the **Box** is, how many other items it contains and what their **ratio** is. In this case, the whole **Box** is always occupied. For example, on the following image, *Item 2* is twice bigger than *Item 3*, but three times smaller than *Item 1*.
 
-![DevExtreme HTML5 LayoutWidget Box](/Content/images/doc/17_1/UiWidgets/Box/Box_ratio.png)
+![DevExtreme HTML5 LayoutWidget Box](/Content/images/doc/17_2/UiWidgets/Box/Box_ratio.png)
 
     <!--HTML--><div id="boxContainer">
         <div class="box-item orange" data-options="dxItem: { ratio: 6 }"> Item 1 </div>
@@ -42,7 +42,7 @@ If the **ratio** option alone is used, the size of an item depends on how big th
 
 If the **baseSize** and **ratio** options are used both, the size of an item equals the **bazeSize** plus a piece of the unoccupied area; the bigger the **ratio** the bigger this piece is.
 
-![DevExtreme HTML5 LayoutWidget Box](/Content/images/doc/17_1/UiWidgets/Box/Box_baseSizeWithRatio.png)
+![DevExtreme HTML5 LayoutWidget Box](/Content/images/doc/17_2/UiWidgets/Box/Box_baseSizeWithRatio.png)
 
     <!--HTML--><div id="boxContainer">
         <div class="box-item orange" data-options="dxItem: { baseSize: 200, ratio: 6 }"> Item 1 </div>

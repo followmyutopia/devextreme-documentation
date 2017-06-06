@@ -25,7 +25,7 @@ A data object associated with the tab.
 <!--typeFunctionParamName2-->tabIndex<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The index of the tab in the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/">tabs</a> array.
+The index of the tab in the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/">tabs</a> array.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->tabElement<!--/typeFunctionParamName3-->

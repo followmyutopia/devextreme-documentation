@@ -3,7 +3,7 @@ var myViewModel = {
     tileViewDataSource: new DevExpress.data.DataSource({
         store: [],
         map: function (dataItem) {
-            dataItem.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
+            dataItem.imagePath = "/Content/images/doc/17_2/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
             return dataItem;
         }
     })
@@ -21,7 +21,7 @@ myApp.controller("demoController", function ($scope) {
     $scope.tileViewDataSource = new DevExpress.data.DataSource({
         store: [],
         map: function (dataItem) {
-            dataItem.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
+            dataItem.imagePath = "/Content/images/doc/17_2/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
             return dataItem;
         }
     });
@@ -39,7 +39,7 @@ angular.element(document).ready(function () {
 var tileViewDataSource = new DevExpress.data.DataSource({
     store: [],
     map: function (dataItem) {
-        dataItem.imagePath = "/Content/images/doc/16_2/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
+        dataItem.imagePath = "/Content/images/doc/17_2/PhoneJS/flags/" + dataItem.name.replace(" ", "") + ".gif";
         return dataItem;
     }
 });

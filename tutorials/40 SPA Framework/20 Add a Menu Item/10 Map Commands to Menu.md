@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/MenuItem/step1/index.html" data-show-first="index.js">
+<article data-show="/Content/Applications/17_2/framework/MenuItem/step1/index.html" data-show-first="index.js">
 
 - Create a [simple application](/Documentation/Tutorial/SPA_Framework/Change_a_View_Title_Dynamically/#Prepare_a_Simple_Application).
 

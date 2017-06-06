@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/PartialView/step1/index.html" data-show-first="views/home.html">
+<article data-show="/Content/Applications/17_2/framework/PartialView/step1/index.html" data-show-first="views/home.html">
 
 - Use an [application project template](/Documentation/Guide/SPA_Framework/Application_Project/) for your sample application.
 

@@ -1,6 +1,6 @@
 A total summary is a grid feature that provides the ability to aggregate the entire column of data using one of the available [aggregate functions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType).
 
-![Total Summary](/Content/images/doc/17_1/DataGrid/TotalSummary.png)
+![Total Summary](/Content/images/doc/17_2/DataGrid/TotalSummary.png)
 
 To configure the total summary, use the [summary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/) | [totalItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/) array elements. The minimum required configuration of the total summary object includes the [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column) and the [summaryType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType) options.
     

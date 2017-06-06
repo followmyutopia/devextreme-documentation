@@ -2,10 +2,10 @@ var flag = false;
 //<!--@Knockout-->
 var myViewModel = {
     galleryData: [
-        "/Content/images/doc/16_2/PhoneJS/person1.png",
-        "/Content/images/doc/16_2/PhoneJS/person2.png",
-        "/Content/images/doc/16_2/PhoneJS/person3.png",
-        "/Content/images/doc/16_2/PhoneJS/person4.png"
+        "/Content/images/doc/17_2/PhoneJS/person1.png",
+        "/Content/images/doc/17_2/PhoneJS/person2.png",
+        "/Content/images/doc/17_2/PhoneJS/person3.png",
+        "/Content/images/doc/17_2/PhoneJS/person4.png"
     ],
     galleryInstance: {},
     onInitialized: function (e) {
@@ -33,10 +33,10 @@ ko.applyBindings(myViewModel);
 var myApp = angular.module('myApp', ['dx']);
 myApp.controller("demoController", function ($scope) {
     $scope.galleryData = [
-        "/Content/images/doc/16_2/PhoneJS/person1.png",
-        "/Content/images/doc/16_2/PhoneJS/person2.png",
-        "/Content/images/doc/16_2/PhoneJS/person3.png",
-        "/Content/images/doc/16_2/PhoneJS/person4.png"
+        "/Content/images/doc/17_2/PhoneJS/person1.png",
+        "/Content/images/doc/17_2/PhoneJS/person2.png",
+        "/Content/images/doc/17_2/PhoneJS/person3.png",
+        "/Content/images/doc/17_2/PhoneJS/person4.png"
     ];
     $scope.galleryInstance = {};
     $scope.onInitialized = function (e) {
@@ -64,10 +64,10 @@ angular.element(document).ready(function () {
 //<!--/@AngularJS-->
 //<!--@jQuery-->
 var galleryData = [
-        "/Content/images/doc/16_2/PhoneJS/person1.png",
-        "/Content/images/doc/16_2/PhoneJS/person2.png",
-        "/Content/images/doc/16_2/PhoneJS/person3.png",
-        "/Content/images/doc/16_2/PhoneJS/person4.png"
+        "/Content/images/doc/17_2/PhoneJS/person1.png",
+        "/Content/images/doc/17_2/PhoneJS/person2.png",
+        "/Content/images/doc/17_2/PhoneJS/person3.png",
+        "/Content/images/doc/17_2/PhoneJS/person4.png"
 ];
 $("#myGallery").dxGallery({
     dataSource: galleryData,

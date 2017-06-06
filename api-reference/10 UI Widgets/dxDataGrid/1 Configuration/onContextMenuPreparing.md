@@ -25,7 +25,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -40,7 +40,7 @@ Data that is available for binding against the element. Available only in the Kn
 <!--typeFunctionParamName1_field4-->items<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-An array of items to be displayed by the context menu. The item objects must have the fields that are used by the <b>ContextMenu</b> <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxMenu/Default_Item_Template">default item template</a>. 
+An array of items to be displayed by the context menu. The item objects must have the fields that are used by the <b>ContextMenu</b> <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxMenu/Default_Item_Template">default item template</a>. 
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->target<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
@@ -55,17 +55,17 @@ The cell that has been clicked to invoke the context menu.
 <!--typeFunctionParamName1_field7-->columnIndex<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The current index of the column to which the clicked cell belongs. For more information on how this index is calculated, refer to the <a href="/Documentation/17_1/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index">Calculating the Column Index</a> topic.
+The current index of the column to which the clicked cell belongs. For more information on how this index is calculated, refer to the <a href="/Documentation/17_2/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index">Calculating the Column Index</a> topic.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->object<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/">settings of the column</a> to which the clicked cell belongs.
+The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/">settings of the column</a> to which the clicked cell belongs.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->rowIndex<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->number<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The <i>visible</i> index of the row to which the clicked cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that <a href="/Documentation/17_1/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows">group cells</a> are also counted as rows and, thus, have row indexes. For further information about row indexes, see the <a href="/Documentation/17_1/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows">Grid Rows</a> topic.
+The <i>visible</i> index of the row to which the clicked cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that <a href="/Documentation/17_2/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows">group cells</a> are also counted as rows and, thus, have row indexes. For further information about row indexes, see the <a href="/Documentation/17_2/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows">Grid Rows</a> topic.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->row<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->dxDataGridRowObject<!--/typeFunctionParamType1_field10-->

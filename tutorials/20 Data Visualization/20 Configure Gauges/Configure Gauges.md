@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureGauges/Solution/gauges.html">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/ConfigureGauges/Solution/gauges.html">
 
 This guide contains detailed instructions on how to configure the **CircularGauge**, **LinearGauge** and **BarGauge** widgets. You will learn how to provide data to be visualized on a gauge and customize its appearance per your requirements. As a result, you will get the **CircularGauge** and **LinearGauge** that display the local temperature and the temperature in the selected city, and the **BarGauge** that shows the temperature in several cities at once. These gauges will display the temperature in Celsius.
 

@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/LogonPopup/step1/index.html" data-show-first="views/home.html">
+<article data-show="/Content/Applications/17_2/framework/LogonPopup/step1/index.html" data-show-first="views/home.html">
 
 Use an [application project template](/Documentation/Guide/SPA_Framework/Application_Project/) for your sample application. Leave the [Navbar](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Ready-to-Use_Layout_Sets) layout set that is used in the application by default and implement the following views.
 

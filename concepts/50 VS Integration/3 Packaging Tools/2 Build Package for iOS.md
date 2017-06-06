@@ -1,6 +1,6 @@
 As you were developing this application, you already included layouts and style sheets specific to the iOS platform. The next step is to set the project properties required for building a native iOS package. To do this, right-click the application project in the Visual Studio Solution Explorer and choose **Properties**, then specify the properties that are presented in the **iOS package** tab.
 
-![iOSPackage Properties](Content/images/doc/17_1/DevExtreme/iOSPackageProperties.png)
+![iOSPackage Properties](Content/images/doc/17_2/DevExtreme/iOSPackageProperties.png)
 
 - **Package information**  
 	Specify a unique ID to identify your application in the AppStore.
@@ -27,7 +27,7 @@ As you were developing this application, you already included layouts and style 
 
 Now, you can easily create a native iOS package with your application right from Visual Studio. Right-click the application project and choose **Build Native Packages...**. The **Build Package** wizard will run.
 
-![Build For iOS](Content/images/doc/17_1/DevExtreme/iOSWizard.png)
+![Build For iOS](Content/images/doc/17_2/DevExtreme/iOSWizard.png)
 
 Choose **iOS** and go through all the wizard steps. This will result in a native package that is ready to be loaded to the AppStore. For details on the iOS application release requirements, refer to the [developer.apple.com](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/Introduction/Introduction.html) site.
 

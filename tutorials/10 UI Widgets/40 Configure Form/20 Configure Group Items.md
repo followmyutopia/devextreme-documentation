@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/17_1/Framework/FormTutorial/Step4/form.html" data-show-first="form.js">
+<article data-show-web="/Content/Applications/17_2/Framework/FormTutorial/Step4/form.html" data-show-first="form.js">
 To configure **Form** items, assign an array of objects to the [items](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) option of the main configuration object. Note that the sequence of items in the **items** array coincides with that in the actual widget.
 
 Group and tabbed items usually have nested items. Nested items are also configured using the **items** array, only declared within the object configuring their parent group or tabbed item. In this tutorial, a group item will collect several simple items alternated by empty items. 

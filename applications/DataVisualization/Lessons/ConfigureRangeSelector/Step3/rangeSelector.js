@@ -17,7 +17,7 @@ $(function () {
         value: [new Date(year, month, day, 11, 00, 00), new Date(year, month, day, 17, 00, 00)],
 <!--//highlight-->
         background: {
-            image: { url: '/Content/images/doc/16_2/ChartJS/RangeImage.png' }
+            image: { url: '/Content/images/doc/17_2/ChartJS/RangeImage.png' }
         }
 <!--//highlight-->
     });

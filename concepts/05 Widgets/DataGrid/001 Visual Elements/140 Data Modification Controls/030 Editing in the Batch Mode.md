@@ -1,6 +1,6 @@
 This subtopic describes controls that appear in the **DataGrid** widget when the [edit mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode) property is set to *"batch"*. These controls are illustrated by the image below.
 
-![DevExtreme DataGrid Editing](/Content/images/doc/17_1/DataGrid/EditingBatch.png)
+![DevExtreme DataGrid Editing](/Content/images/doc/17_2/DataGrid/EditingBatch.png)
 
 Depending on the specified properties of the [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/) object, different controls are presented in a grid. These controls and the options that enable them are listed below. Note that the "Save" and "Revert" buttons appear in a grid even if only one of the **allowUpdating**, **allowAdding** or **allowDeleting** properties is *true*.
 
@@ -23,23 +23,23 @@ In addition, the text of a certain button can be changed using the fields of the
 	</tr>
 	<tr>
 		<td>Delete</td>
-		<td><a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts#deleteRow">deleteRow</a></td>
+		<td><a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts#deleteRow">deleteRow</a></td>
 	</tr>
 	<tr>
 		<td>Undelete</td>
-		<td><a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts#undeleteRow">saveRowChanges</a></td>
+		<td><a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts#undeleteRow">saveRowChanges</a></td>
 	</tr>
 	<tr>
 		<td>Add</td>
-		<td><a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts#addRow">addRow</a> <sup><em>h</em></sup></td>
+		<td><a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts#addRow">addRow</a> <sup><em>h</em></sup></td>
 	</tr>
 	<tr>
 		<td>Save</td>
-		<td><a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts#saveAllChanges">saveAllChanges</a> <sup><em>h</em></sup></td>
+		<td><a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts#saveAllChanges">saveAllChanges</a> <sup><em>h</em></sup></td>
 	</tr>
 	<tr>
 		<td>Revert</td>
-		<td><a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts#cancelAllChanges">cancelAllChanges</a> <sup><em>h</em></sup></td>
+		<td><a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts#cancelAllChanges">cancelAllChanges</a> <sup><em>h</em></sup></td>
 	</tr>
 </table>
 </div>

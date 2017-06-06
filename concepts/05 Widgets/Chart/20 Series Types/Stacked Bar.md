@@ -1,6 +1,6 @@
 The *stackedBar* series type is used when there are several series that represent values for discrete categories. With this series type, data is displayed as rectangular bars with lengths proportional to the values that they represent. Bars of each subsequent series are stacked on top of the bars of the previous series. The height of the resulting bar shows the combined result of a category.
 
-![StackedBarSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/StackedBar.png)
+![StackedBarSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/StackedBar.png)
 
 To use this series type, assign *'stackedbar'* to the **type** property of the **series** configuration object.
 

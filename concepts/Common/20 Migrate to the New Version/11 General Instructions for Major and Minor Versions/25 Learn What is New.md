@@ -1,6 +1,6 @@
 ####New Major Features####
 
-Get introduced with the key features that have been implemented in DevExtreme major version 17.1: [What's New](/New/17_1/).
+Get introduced with the key features that have been implemented in DevExtreme major version 17.1: [What's New](/New/17_2/).
 
 ####Learn More Details####
 

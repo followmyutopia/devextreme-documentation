@@ -1,6 +1,6 @@
 Use the *pie* series type when you need to compare the percentage values of different point arguments in the same series, and illustrate these values as easy-to-understand pie slices.
 
-![PieSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Pie.png)
+![PieSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/Pie.png)
 
 The pie series type is used by the **PieChart** widget by default. There may be scenarios, however, when it is appropriate to set this series type explicitly. To do this, assign *'pie'* to the **type** option of the **series** configuration object.
 

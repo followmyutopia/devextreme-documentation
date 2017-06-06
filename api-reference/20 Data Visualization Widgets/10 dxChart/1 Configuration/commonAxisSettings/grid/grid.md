@@ -15,7 +15,7 @@ Configures the grid.
 <!--fullDescription-->
 A grid is a set of mutually-crossing vertical and horizontal lines that stretch throughout the entire chart. Visually, grid lines can be considered extensions of [major ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/tick/). The grid improves the readability of chart data.
 
-![DevExtreme HTML5 Charts GridLines](/Content/images/doc/17_1/ChartJS/visual_elements/grid_lines.png)
+![DevExtreme HTML5 Charts GridLines](/Content/images/doc/17_2/ChartJS/visual_elements/grid_lines.png)
 
 The **commonAxisSettings** | [grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/grid/) object specifies common settings for all grid lines in the chart. To configure only those grid lines that descend from a particular axis, use the following objects.
 

@@ -8,4 +8,4 @@ instead of
 
     <app asp-prerender-module="ClientApp/dist/main-server">Loading...</app>
 
-![Disable server-side rendering](/Content/images/doc/17_1/DevExtreme/DisableServerSideRendering.png)
+![Disable server-side rendering](/Content/images/doc/17_2/DevExtreme/DisableServerSideRendering.png)

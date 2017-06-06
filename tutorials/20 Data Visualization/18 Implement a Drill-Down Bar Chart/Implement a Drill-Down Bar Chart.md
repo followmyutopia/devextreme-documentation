@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/DrillDownChart/Solution/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/DrillDownChart/Solution/chart.html" data-show-first="chart.js">
 
 The **Chart** widget does not provide a drill-down chart out-of-the-box. However, you can implement it yourself. The drill-down chart from this tutorial displays product categories as bars. Once the user clicks a bar, the chart drills down to the products that match the clicked category.
 

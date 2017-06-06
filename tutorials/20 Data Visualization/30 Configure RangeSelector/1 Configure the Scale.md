@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureRangeSelector/Step2/rangeSelector.html" data-show-first="rangeSelector.js">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/ConfigureRangeSelector/Step2/rangeSelector.html" data-show-first="rangeSelector.js">
 Basically, the [scale](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Scale) is the main part of **RangeSelector**. It contains labels, markers, ticks - all elements that enable the user to read visualized data. To configure the scale, define fields of the [scale](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/) object.
 
 - **Providing Data**    

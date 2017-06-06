@@ -1,6 +1,6 @@
 Here is the context menu that is invoked by right-clicking a DevExtreme project.
 
-![DevExtreme Project Context Menu](Content/images/doc/17_1/DevExtreme/ProjectTemplate_ContextMenu.png)
+![DevExtreme Project Context Menu](Content/images/doc/17_2/DevExtreme/ProjectTemplate_ContextMenu.png)
 
 - **Properties**  
 DevExtreme projects have general application properties. You can set them up within the **Properties** window. For details, refer to the [Specify General Project Properties](/Documentation/Guide/VS_Integration/Packaging_Tools/#Specify_General_Project_Properties) topic.

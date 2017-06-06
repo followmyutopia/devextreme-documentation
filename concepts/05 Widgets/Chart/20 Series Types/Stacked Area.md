@@ -1,6 +1,6 @@
 The *stackedArea* series type is used when you have several *area* series and it's necessary to compare how much each series adds to the total aggregate value for specific arguments. With this series type, the areas do not overlap because they are cumulative at each point.
 
-![StackedAreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/StackedArea.png)
+![StackedAreaSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/StackedArea.png)
 
 To use this series type, assign *'stackedarea'* to the **type** property of the **series** configuration object.
 

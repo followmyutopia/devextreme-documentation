@@ -28,7 +28,7 @@ To create an **XmlaStore** instance, specify the [URL](/Documentation/ApiReferen
 
 For now, **XmlaStore** supports only Microsoft Analysis Services. The comprehensive information about Microsoft Analysis Services OLAP tool is presented in the [Multidimensional Modeling](https://msdn.microsoft.com/en-us/library/ms170208.aspx) MSDN tutorial. To learn how to configure HTTP access to analysis services on IIS, refer to the [Configure HTTP Access to Analysis Services on IIS 8.0](https://technet.microsoft.com/en-us/library/gg492140.aspx) article. 
 
-<a href="/Documentation/17_1/Tutorial/UI_Widgets/Use_OLAP_Data_for_PivotGrid/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Start Tutorial</a>
+<a href="/Documentation/17_2/Tutorial/UI_Widgets/Use_OLAP_Data_for_PivotGrid/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Start Tutorial</a>
 
 When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the **XmlaStore** using the syntax shown in the following example. This example configures the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
 

@@ -6,10 +6,10 @@ To switch the **Gallery** to the next or previous image, call the [nextItem(anim
     $(function () {
         var gallery = $("#galleryContainer").dxGallery({
             dataSource: [
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person3.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person4.png"
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person3.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person4.png"
             ],
             height: 300
         }).dxGallery("instance");
@@ -35,10 +35,10 @@ To navigate to a specific image, call the [goToItem(itemIndex, animation)](/Docu
     $(function () {
         var gallery = $("#galleryContainer").dxGallery({
             dataSource: [
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person3.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person4.png"
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person3.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person4.png"
             ],
             height: 300
         }).dxGallery("instance");

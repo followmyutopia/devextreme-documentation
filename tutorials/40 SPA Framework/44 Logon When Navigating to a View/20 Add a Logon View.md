@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/LogonPopup/step2/index.html" data-show-first="views/logon.html">
+<article data-show="/Content/Applications/17_2/framework/LogonPopup/step2/index.html" data-show-first="views/logon.html">
 
 Add a 'login' view to the application.
 

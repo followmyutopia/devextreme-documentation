@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/17_1/Framework/UseOLAPDataForPivotGrid/Step2/pivotGrid.html" data-show-first="pivotGrid.html">
+<article data-show-web="/Content/Applications/17_2/Framework/UseOLAPDataForPivotGrid/Step2/pivotGrid.html" data-show-first="pivotGrid.html">
 Once the required libraries are referenced, you can create the **PivotGrid** widget on your page.
 
 Add a div element to the body of the HTML document. It is the container for the **PivotGrid** widget.

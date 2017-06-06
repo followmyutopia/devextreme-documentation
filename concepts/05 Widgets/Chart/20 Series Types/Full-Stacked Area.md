@@ -1,6 +1,6 @@
 The *fullStackedArea* series type is used when it is necessary to compare the value percentage of several *area* series for each argument. In this series type, the areas do not overlap because they are cumulative at each point. The value axis is always continuous and it displays a range from 0 to 100 percent.
 
-![FullStackedAreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/FullStackedArea.png)
+![FullStackedAreaSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/FullStackedArea.png)
 
 To use the *fullStackedArea* series type, assign *'fullstackedarea'* to the **type** property of the **series** configuration object.
 

@@ -43,7 +43,7 @@ To add a button widget, add a **div** element with the `dx-button` AngularJS dir
           }"></div>
     </body>
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/markup.html, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/script.js, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/styles.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/markup.html, /Content/Applications/17_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/script.js, /Content/Applications/17_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step2/styles.css"></div>
 
 **Handle Click Event**
 
@@ -87,7 +87,7 @@ Now, the HTML elements within the **body** element can be associated with the fi
         }
     });
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/markup.html, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/script.js, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/styles.css"></div>    
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/markup.html, /Content/Applications/17_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/script.js, /Content/Applications/17_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step3/styles.css"></div>    
 
 **Modify Option Value at Runtime**
 
@@ -128,4 +128,4 @@ Add the [CheckBox](/Documentation/ApiReference/UI_Widgets/dxCheckBox/) widget to
         <p>Disable button <span dx-check-box="{ bindingOptions: { value: 'buttonDisabled' } }"></span></p>
     </body>
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/markup.html, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/script.js, /Content/Applications/17_1/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/styles.css"></div> 
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/markup.html, /Content/Applications/17_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/script.js, /Content/Applications/17_2/Framework/AddWidgetToMVCProject/jQueryApproach/Step4/styles.css"></div> 

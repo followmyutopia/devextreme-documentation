@@ -1,6 +1,6 @@
 The *stackedLine* series type is used when you have several series and it's necessary to compare how much each series adds to the total aggregate value for specific arguments. With this series type, series data is displayed as points joined with a straight line. The lines do not overlap, because they are cumulative at each point.
 
-![StackedLineSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/StackedLine.png)
+![StackedLineSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/StackedLine.png)
 
 To use this series type, assign *'stackedline'* to the **type** property of the **series** configuration object.
 

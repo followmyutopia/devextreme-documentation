@@ -14,5 +14,5 @@ Specifies the spacing between an axis and its labels in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![IdentFromAxis ChartJS](/Content/images/doc/17_1/ChartJS/PolarIndentFromAxis.png)
+![IdentFromAxis ChartJS](/Content/images/doc/17_2/ChartJS/PolarIndentFromAxis.png)
 <!--/fullDescription-->

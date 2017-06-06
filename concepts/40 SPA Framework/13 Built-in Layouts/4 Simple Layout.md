@@ -2,7 +2,7 @@ The Simple layout is available for all the platforms supported by the framework.
 
 <a id="iOSSimpleLayout"></a><h4>iOS</h4>
 
-![Simple iOS](/Content/images/doc/17_1/PhoneJS/simple-ios.png)
+![Simple iOS](/Content/images/doc/17_2/PhoneJS/simple-ios.png)
 
 [note]If you place a command to the 'ios-view-footer' command container, add the 'view-footer' content placeholder to your view as well. In this instance, the dxContent component with the 'ios-view-footer' command container defined in the layout will be rendered to the 'view-footer' content placeholder of your view.
 
@@ -14,7 +14,7 @@ The Simple layout is available for all the platforms supported by the framework.
 
 <a id="AndroidSimpleLayout"></a><h4>Android</h4>
 
-![Simple Android](/Content/images/doc/17_1/PhoneJS/simple_android.png)
+![Simple Android](/Content/images/doc/17_2/PhoneJS/simple_android.png)
 
 **Links**:
 
@@ -24,7 +24,7 @@ The Simple layout is available for all the platforms supported by the framework.
 
 <a id="WinPhone8SimpleLayout"></a><h4>Windows Phone 8</h4>
 
-![Simple Windows Phone 8](/Content/images/doc/17_1/PhoneJS/simple_winphone8.png)
+![Simple Windows Phone 8](/Content/images/doc/17_2/PhoneJS/simple_winphone8.png)
 
 **Links**:
 
@@ -34,7 +34,7 @@ The Simple layout is available for all the platforms supported by the framework.
 
 <a id="GenericSimpleLayout"></a><h4>Generic</h4>
 
-![Simple Generic](/Content/images/doc/17_1/PhoneJS/simple-generic.png)
+![Simple Generic](/Content/images/doc/17_2/PhoneJS/simple-generic.png)
 
 [note]If you place a command to the 'generic-view-footer' command container, add the 'view-footer' content placeholder to your view as well. In this instance, the dxContent component with the 'generic-view-footer' command container defined in the layout will be rendered to the 'view-footer' content placeholder of your view.
 

@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureGauges/Step5/gauges.html">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/ConfigureGauges/Step5/gauges.html">
 
 To complete configuring the **CircularGauge** widget, implement a runtime data update. The idea is to update the gauge's value when the user selects a city from a drop-down menu. This app uses the DevExtreme's [SelectBox](/Documentation/ApiReference/UI_Widgets/) widget to provide you with the capability to choose cities. This widget requires two CSS files to be added to the project. You can find these files in your DevExtreme package.
 

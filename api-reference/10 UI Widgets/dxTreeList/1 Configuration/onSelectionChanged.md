@@ -58,7 +58,7 @@ The keys of all selected rows.
 <!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The data of all selected rows. </br>
-Does not include <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue">calculated values</a>.
+Does not include <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue">calculated values</a>.
 <!--/typeFunctionParamDescription1_field7-->
 
 <!--handmade-->

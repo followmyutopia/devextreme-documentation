@@ -27,7 +27,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget's <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Methods/#instance">instance</a>.
+The widget's <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -48,7 +48,7 @@ The data of the row to which the cell belongs. Available if the <b>rowType</b> i
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The key of the row. Available if the <b>rowType</b> is <i>'data'</i>, <i>'detail'</i> or <i>'detailAdaptive'</i>. <br />
-For plain data, the key value depends on the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr">keyExpr</a> option. For hierarchical data, the key is generated automatically or set in the underlying <b>Store</b> of the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource">data source</a>. 
+For plain data, the key value depends on the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr">keyExpr</a> option. For hierarchical data, the key is generated automatically or set in the underlying <b>Store</b> of the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource">data source</a>. 
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->value<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
@@ -59,12 +59,12 @@ The cell value. Available if the <b>rowType</b> is <i>'data'</i>.
 <!--typeFunctionParamType1_field7-->string<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The value displayed in the cell. Available if the <b>rowType</b> is <i>'data'</i>. <br /> 
-Differs from the <b>value</b> field only when the cell belongs to the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/">lookup</a> column. 
+Differs from the <b>value</b> field only when the cell belongs to the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/">lookup</a> column. 
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->text<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->string<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The cell value in the string format. Use this field to get the value with the applied <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#format">format</a>. Available if the <b>rowType</b> is <i>'data'</i>.
+The cell value in the string format. Use this field to get the value with the applied <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#format">format</a>. Available if the <b>rowType</b> is <i>'data'</i>.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->columnIndex<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->number<!--/typeFunctionParamType1_field9-->
@@ -74,7 +74,7 @@ The index of the column to which the cell belongs.
 <!--typeFunctionParamName1_field10-->column<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->object<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-<a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configuration</a> of this column.
+<a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configuration</a> of this column.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->rowIndex<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->number<!--/typeFunctionParamType1_field11-->
@@ -84,7 +84,7 @@ The visible index of the row.
 <!--typeFunctionParamName1_field12-->rowType<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->string<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-The <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Row/#rowType">type of the row</a>.
+The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Row/#rowType">type of the row</a>.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->row<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->dxTreeListRowObject<!--/typeFunctionParamType1_field13-->

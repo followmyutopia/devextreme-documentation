@@ -15,7 +15,7 @@ Configures column fixing.
 <!--fullDescription-->
 When the width of all columns exceeds the widget width, horizontal scrolling appears. If specific columns should be on screen constantly regardless of how far the widget is scrolled, allow a user to fix them at runtime using the context menu. For this, set the **columnFixing** | [enabled]({basewidgetpath}/Configuration/columnFixing/#enabled) option to *true*.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnFixing](/Content/images/doc/17_1/DataGrid/visual_elements/column_fixing.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnFixing](/Content/images/doc/17_2/DataGrid/visual_elements/column_fixing.png)
 
 When you enable column fixing, [command columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns) become fixed automatically. 
 

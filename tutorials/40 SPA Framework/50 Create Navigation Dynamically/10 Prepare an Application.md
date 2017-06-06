@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/CreateNavigationDynamically/step1/index.html" data-show-first="index.html">
+<article data-show="/Content/Applications/17_2/framework/CreateNavigationDynamically/step1/index.html" data-show-first="index.html">
 
 Use the [application project template](/Documentation/Guide/SPA_Framework/Application_Project/) for the sample application.
 

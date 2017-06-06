@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/LayoutForView/step1/index.html" data-show-first="index.js">
+<article data-show="/Content/Applications/17_2/framework/LayoutForView/step1/index.html" data-show-first="index.js">
 
 To try setting a custom layout for a particular view, use a [slide-out application](/Documentation/Tutorial/SPA_Framework/Use_a_SlideOut_Menu/#Apply_the_SlideOut_Layout). To set a layout for a particular view, add a handler to the [resolveLayoutController](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Events/#resolveLayoutController) event of the **HtmlApplication** object. In the event handler, use the object passed as a parameter to get information about the currently displayed view and to set the required layout controller for this view. Use the **viewInfo** and **layoutController** fields of the parameter object, respectively. If the **viewName** field of the **viewInfo** object is set to "about", set the **layoutController** field to the instance of the predefined [Empty layout](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Empty_Layout) controller.
 

@@ -32,5 +32,5 @@ For a more profound column customization, declare the [columns](/Documentation/A
 <!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Array<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-<a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configurations</a> of columns.
+<a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configurations</a> of columns.
 <!--/typeFunctionParamDescription1-->

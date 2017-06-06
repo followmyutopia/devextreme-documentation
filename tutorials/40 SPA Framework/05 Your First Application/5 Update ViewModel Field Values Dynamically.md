@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/YourFirstApplication/step4/YourFirstApplication.html" >
+<article data-show="/Content/Applications/17_2/framework/YourFirstApplication/step4/YourFirstApplication.html" >
 In this step, add a text box to the 'home' view to concatenate the "Welcome!" text with the text entered at runtime.
 
 - Make the ViewModel's **message** field [observable](http://knockoutjs.com/documentation/observables.html)

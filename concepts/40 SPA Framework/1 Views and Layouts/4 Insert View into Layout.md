@@ -32,10 +32,10 @@ When you require different parts of a view to be displayed in different placehol
 
 The following image illustrates how the content of a dxView markup component is merged to a placeholder of the dxLayout markup component to prepare a final markup for the view.
 
-![View and Layout Merging](/Content/images/doc/17_1/PhoneJS/DefineLayout1.png)
+![View and Layout Merging](/Content/images/doc/17_2/PhoneJS/DefineLayout1.png)
 
 In some cases, you may be required to add a placeholder to a dxView component and define the content for this placeholder within a dxLayout component. The resulting view markup will be generated in the same manner - by merging the dxView and dxLayout markups.
 
-![View and Layout Merging](/Content/images/doc/17_1/PhoneJS/DefineLayout2.png)
+![View and Layout Merging](/Content/images/doc/17_2/PhoneJS/DefineLayout2.png)
 
 For instance, the "Navbar" and "Slideout" [predefined layouts](/Documentation/Guide/SPA_Framework/Built-in_Layouts/) include the "dxContent: {  targetPlaceholder: 'view-footer')" component in the "iOS" version. To render the markup of this component, the view that uses one of these layouts must include the "dxContentPlaceholder: { name: 'view-footer')" component in its markup.

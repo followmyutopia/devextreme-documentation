@@ -22,7 +22,7 @@ var myViewModel = {
     getImagePath: function (name) {
         if (name === undefined)
             return;
-        return "/Content/images/doc/16_2/PhoneJS/flags/" + name.replace(" ", "") + ".gif";
+        return "/Content/images/doc/17_2/PhoneJS/flags/" + name.replace(" ", "") + ".gif";
     },
 
     modelIsReady: modelIsReady.promise()

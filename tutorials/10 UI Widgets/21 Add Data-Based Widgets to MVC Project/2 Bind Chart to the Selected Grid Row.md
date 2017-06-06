@@ -77,4 +77,4 @@ The last thing to do is to specify a grid row to be selected initially. For this
 
 Here is the result.
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/17_1/UIWidgets/BindChartToSelectedGridRow/Solution/grid.html, /Content/Applications/17_1/UIWidgets/BindChartToSelectedGridRow/Solution/grid.js"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_2/UIWidgets/BindChartToSelectedGridRow/Solution/grid.html, /Content/Applications/17_2/UIWidgets/BindChartToSelectedGridRow/Solution/grid.js"></div>

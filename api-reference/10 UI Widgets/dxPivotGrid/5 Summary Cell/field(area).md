@@ -27,5 +27,5 @@ If the [header items](/Documentation/Guide/Widgets/PivotGrid/Grouping/#Data_Grou
 
     <!--JavaScript-->var columnField = sourceCell.field('column');
 
-![](/Content/images/doc/17_1/DataGrid/PivotGrid_field.png)
+![](/Content/images/doc/17_2/DataGrid/PivotGrid_field.png)
 <!--/fullDescription-->

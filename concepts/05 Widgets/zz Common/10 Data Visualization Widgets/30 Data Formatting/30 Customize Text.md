@@ -24,7 +24,7 @@ When you need to customize text after (or instead of) applying a format, use the
 		}
 	};
 
-![Custom Text](/Content/images/doc/17_1/ChartJS/FormattingCustomizeText.png)
+![Custom Text](/Content/images/doc/17_2/ChartJS/FormattingCustomizeText.png)
 
 When providing a custom text for tooltips, use the **customizeTooltip** function instead of **customizeText**. This function must return an object wherein the required text is assigned to the *'text'* field. In the following code, the **customizeTooltip** function combines the formatted value and argument of a point.
 
@@ -47,4 +47,4 @@ When providing a custom text for tooltips, use the **customizeTooltip** function
         }
 	};
 
-![Custom Text with Argument Value](/Content/images/doc/17_1/ChartJS/FormattingCustomizeTextWithArgumentNewTooltip.png)
+![Custom Text with Argument Value](/Content/images/doc/17_2/ChartJS/FormattingCustomizeTextWithArgumentNewTooltip.png)

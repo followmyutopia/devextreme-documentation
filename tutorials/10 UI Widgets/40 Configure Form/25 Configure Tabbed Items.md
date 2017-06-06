@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/17_1/Framework/FormTutorial/Step5/form.html" data-show-first="form.html">
+<article data-show-web="/Content/Applications/17_2/Framework/FormTutorial/Step5/form.html" data-show-first="form.html">
 A tabbed item displays nested items inside of tabs. To define a tabbed item, add an object to the **Form** | [items](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) array. In this object, assign *"tabbed"* to the [itemType](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/#itemType) option.
 
 Tabs to be displayed in a tabbed item are declared in the [tabs](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/) array. Each tab can nest one or many items of any type. To configure them, use the [items](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#items) array inside the tab's configuration object. Obviously, nested items in a tab and in a group are configured likewise.

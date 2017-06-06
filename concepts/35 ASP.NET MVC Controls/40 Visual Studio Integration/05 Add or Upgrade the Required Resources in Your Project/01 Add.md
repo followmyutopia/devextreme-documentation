@@ -4,15 +4,15 @@ To add resources required by DevExtreme ASP.NET MVC Controls to your project, fo
 
 2. Right-click your project in the **Solution Explorer** window and select **Add DevExtreme to the Project** on the menu.
 
-    ![DevExtreme ASP.NET MVC Controls - Project Converter Context Menu Item](/Content/images/doc/17_1/Common/MvcWrappers/projConverter_contextMenu.png)
+    ![DevExtreme ASP.NET MVC Controls - Project Converter Context Menu Item](/Content/images/doc/17_2/Common/MvcWrappers/projConverter_contextMenu.png)
 
 3. In the appeared dialog box, click **OK**.
 
-    ![DevExtreme ASP.NET MVC Controls - Project Converter Confirmation Dialog](/Content/images/doc/17_1/Common/MvcWrappers/projConverter_confirmDialog.png)
+    ![DevExtreme ASP.NET MVC Controls - Project Converter Confirmation Dialog](/Content/images/doc/17_2/Common/MvcWrappers/projConverter_confirmDialog.png)
 
 4. Wait a few seconds while DevExtreme and its dependencies are being added. At that time, you can follow the log of this process in the **Output** window.
 
-    ![DevExtreme ASP.NET MVC Controls - Project Converter Output Window](/Content/images/doc/17_1/Common/MvcWrappers/projConverter_outputWindow.png)
+    ![DevExtreme ASP.NET MVC Controls - Project Converter Output Window](/Content/images/doc/17_2/Common/MvcWrappers/projConverter_outputWindow.png)
 
 A success message concluding the log means that all is set up for you to start using DevExtreme ASP.NET MVC Controls in your project. If any issues appear during the process, address them by following the messages in the **Output** window. After that, repeat the steps above starting with step 2.
 

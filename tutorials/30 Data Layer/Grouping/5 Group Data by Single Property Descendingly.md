@@ -1,4 +1,4 @@
-﻿<article data-show-web="/Content/Applications/17_1/DataLayer/Grouping/Step6/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/17_2/DataLayer/Grouping/Step6/markup.html" data-show-first="script.js">
 
 
 To group data items by a single property and sort groups in descending order, the [group expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) should be an object containing the **field** and **desc** properties. The **field** property specifies the field value by which data is grouped. The **desc** property takes on a Boolean value specifying whether groups are sorted in descending or ascending order. To group data in descending order, assign *true* to the **desc** property.

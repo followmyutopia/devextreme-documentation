@@ -1,6 +1,6 @@
 With the *scatter* series type, data is displayed as a collection of points. This series type is often used when a variable exists under the control of the tester.
 
-![ScatterSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Scatter.png)
+![ScatterSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/Scatter.png)
 
 To use this series type, assign *'scatter'* to the **type** property of the **series** configuration object.
 

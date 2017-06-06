@@ -1,5 +1,5 @@
 <!--playground--><!--/playground-->
-<article data-show-web="/Content/Applications/17_1/Framework/FormTutorial/Step1/form.html">
+<article data-show-web="/Content/Applications/17_2/Framework/FormTutorial/Step1/form.html">
 First, add references to the scripts and stylesheets required by the widget. The references are highlighted in the HTML file below. Note that jQuery and DevExtreme libraries are essential.
 
 In addition to these scripts, each widget requires two stylesheet files. The "dx.common.css" stylesheet provides the core styles. This stylesheet is required regardless of the target platform and theme. The second stylesheet is a theme-file that provides the distinctive look of the widget. Refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section, to learn where you can get the libraries and stylesheets.

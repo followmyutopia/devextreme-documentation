@@ -15,7 +15,7 @@ Configures the minor grid.
 <!--fullDescription-->
 In addition to the [major grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/grid/) built on major ticks, the **Chart** widget provides the minor grid built on minor ticks.
 
-![DevExtreme HTML5 Charts MinorGridLines](/Content/images/doc/17_1/ChartJS/visual_elements/minor_grid_lines.png)
+![DevExtreme HTML5 Charts MinorGridLines](/Content/images/doc/17_2/ChartJS/visual_elements/minor_grid_lines.png)
 
 [note]Neither minor ticks, nor the minor grid can be displayed if the axis is of the *"discrete"* type.
 

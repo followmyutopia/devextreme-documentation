@@ -11,11 +11,11 @@ An end user can use the following keys to interact with the widget.
     <tbody>
     <tr>
       <td>&uarr; / &darr;</td>
-      <td>Scrolls the content up/down if the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction">scrolling direction</a> is <i>"vertical"</i> or <i>"both"</i>.</td>
+      <td>Scrolls the content up/down if the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction">scrolling direction</a> is <i>"vertical"</i> or <i>"both"</i>.</td>
     </tr>
     <tr>
       <td>&larr; / &rarr;</td>
-      <td>Scrolls the content left/right if the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction">scrolling direction</a> is <i>"horizontal"</i> or <i>"both"</i>.</td>
+      <td>Scrolls the content left/right if the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction">scrolling direction</a> is <i>"horizontal"</i> or <i>"both"</i>.</td>
     </tr>
     <tr>
       <td>Page Up / Page Down</td>

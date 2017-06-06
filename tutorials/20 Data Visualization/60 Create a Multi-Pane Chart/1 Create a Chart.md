@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/CreateMultiPaneChart/Step1/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/CreateMultiPaneChart/Step1/chart.html" data-show-first="chart.js">
 
 Add a multi-series **Chart** widget to your page. To learn how to configure charts, refer to the [Configure Charts](/Documentation/Tutorial/Data_Visualization/Configure_Charts/) tutorial.
 

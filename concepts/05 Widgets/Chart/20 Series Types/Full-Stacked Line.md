@@ -1,6 +1,6 @@
 The *fullStackedLine* series type is used when it is necessary to compare the value percentage of several *line* series for each argument. In this series type, series data is displayed as points joined by a straight line. The lines do not overlap because they are cumulative at each point. The value axis is always continuous, and it displays the range from 0 to 100 percent.
 
-![FullStackedLineSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/FullStackedLine.png)
+![FullStackedLineSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/FullStackedLine.png)
 
 To use this series type, assign *'fullstackedline'* to the **type** property of the **series** configuration object.
 

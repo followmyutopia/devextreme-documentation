@@ -1,6 +1,6 @@
 As you were developing this application, you already included layouts and style sheets specific to the Android platform. The next step is to set the project properties required for building a native Android package. To do this, right-click the application project in the Visual Studio Solution Explorer and choose **Properties**, then specify the properties that are presented in the **Android package** tab.
 
-![Android Package Properties](Content/images/doc/17_1/DevExtreme/AndroidPackageProperties.png)
+![Android Package Properties](Content/images/doc/17_2/DevExtreme/AndroidPackageProperties.png)
 
 - **Package**|**Name**  
 	Specify the package name to be assigned to your Android application.
@@ -25,7 +25,7 @@ As you were developing this application, you already included layouts and style 
 
 Now, you can easily create a native Android package with your application right from Visual Studio. Right-click the application project and choose **Build Native Packages...**. The **Build Package** wizard will run.
 
-![Build For Android](Content/images/doc/17_1/DevExtreme/AndroidWizard.png)
+![Build For Android](Content/images/doc/17_2/DevExtreme/AndroidWizard.png)
 
 Choose **Android** and go through all the wizard steps. As a result, you will get a file that is ready to be loaded to the Google Play. For details on the requirements for an Android application release, refer to the [developer.android.com](http://developer.android.com/tools/publishing/app-signing.html) site.
 

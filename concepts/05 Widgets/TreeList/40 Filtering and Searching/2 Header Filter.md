@@ -1,6 +1,6 @@
 A header filter allows a user to filter values in an individual column by including or excluding them from the applied filter. A click on a header filter icon invokes a popup menu with all unique values in the column. By selecting or clearing the selection of values in this menu, the user includes or excludes them from the filter.
 
-![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Filtering HeaderFilter](/Content/images/doc/17_1/treelist/visual_elements/header_filter.png)
+![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Filtering HeaderFilter](/Content/images/doc/17_2/treelist/visual_elements/header_filter.png)
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingHeaderFilter/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 

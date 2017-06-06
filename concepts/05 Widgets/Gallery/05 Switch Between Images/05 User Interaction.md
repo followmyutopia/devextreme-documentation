@@ -4,8 +4,8 @@ To switch between images on touch-enabled devices, the user can perform the swip
     $(function () {
         $("#galleryContainer").dxGallery({
             dataSource: [
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png"
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png"
             ],
             height: 300,
             swipeEnabled: false,
@@ -19,9 +19,9 @@ With the buttons and swipe gesture, the user switches images in a particular ord
     $(function () {
         $("#galleryContainer").dxGallery({
             dataSource: [
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person3.png"
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person3.png"
             ],
             height: 300,
             loop: true
@@ -34,8 +34,8 @@ Below the current image, the **Gallery** shows navigation bullets that allow the
     $(function () {
         $("#galleryContainer").dxGallery({
             dataSource: [
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person1.png",
-                "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png"
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png",
+                "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png"
             ],
             height: 300,
             indicatorEnabled: false

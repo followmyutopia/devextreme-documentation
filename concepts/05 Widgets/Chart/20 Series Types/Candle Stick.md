@@ -1,6 +1,6 @@
 The *candleStick* series type is used to show the variation in the price of stock over the course of a day. Each point consists of a rectangle (_body_), whose bottom and top values correspond to the _open_ and _close_ prices, and a vertical line (_shadow_, _wick_ or _tail_), whose bottom and top values correspond to the _low_ and _high_ prices. If the stock closes higher than its opening price, the _body_ is hollow. And if the stock closes lower than its opening price, the _body_ is filled.
 
-![CandleStickSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/CandleStick.png)
+![CandleStickSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/CandleStick.png)
 
 To use the *candleStick* series type, assign *'candlestick'* to the **type** property of the **series** configuration object.
 

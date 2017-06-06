@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/DrillDownChart/Step6/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/DrillDownChart/Step6/chart.html" data-show-first="chart.js">
 
 To escape the drab appearance of a single-series chart, paint bars in different colors. As all bars belong to a single series, you need to use the [customizePoint](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#customizePoint) function to do it. Note that the top and drill-down series use different predefined palettes obtained with the **DevExpress.viz.getPalette('paletteName')** method.
 

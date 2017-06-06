@@ -1,4 +1,4 @@
-﻿<article data-show="/Content/Applications/17_1/LearningCenter/Data-BoundApplication/step4-2/index.html">
+<article data-show="/Content/Applications/17_2/LearningCenter/Data-BoundApplication/step4-2/index.html">
  
 - Similar to the "Categories" view, use the **dataSource** option for the **List** widget. Bind this option to the ViewModel's **dataSource** field here as well.
 - Open the *products.js* file. It contains the **products** function. This function has the same name as the view's HTML template, and this function will be found and called when the "Products" view is displayed. The object that is returned by the **products** function is a ViewModel for the "Products" view.

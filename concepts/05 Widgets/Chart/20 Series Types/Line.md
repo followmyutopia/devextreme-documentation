@@ -1,6 +1,6 @@
 With the *line* series type, data is displayed as points joined by a straight line. This series type, which is useful when you need to visualize a trend in data over intervals, is used in the **Chart** widget by default. However, there may be scenarios when you need to set this series type explicitly. To do this, assign *'line'* to the **type** property of the **series** configuration object.
 
-![LineSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Line.png)
+![LineSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/Line.png)
 
     <!--JavaScript-->var chartOptions = {
         // ...

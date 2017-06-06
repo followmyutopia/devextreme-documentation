@@ -1,6 +1,6 @@
 The *stepArea* series type has all the features and characteristics of the *area* series type, but the line that joins points in the shortest way in the *area* series is replaced by the vertical and horizontal lines in the *stepArea* series. These lines form so-called "steps".
 
-![StepAreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/StepArea.png)
+![StepAreaSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/StepArea.png)
 
 To use this series type, assign *'steparea'* to the **type** property of the **series** configuration object.
 

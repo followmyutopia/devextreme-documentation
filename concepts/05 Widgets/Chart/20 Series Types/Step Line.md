@@ -1,6 +1,6 @@
 The *stepLine* series type has all the features and characteristics of the *line* series type, but the line that joins points in the shortest way in the "line" series is replaced by the vertical and horizontal lines in the "stepLine" series. These lines form so-called "steps".
 
-![StepLineSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/StepLine.png)
+![StepLineSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/StepLine.png)
 
 To use this series type, assign *'stepline'* to the **type** property of the **series** configuration object.
 

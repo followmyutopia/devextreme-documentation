@@ -1,6 +1,6 @@
 The **Scheduler** shows all available resource kinds in the appointment details form. By default, the widget allows a user to assign only a single resource of one kind. 
 
-![Scheduler Appointment Resources](/Content/images/doc/17_1/UiWidgets/Scheduler_Resources_SelectBox.png)
+![Scheduler Appointment Resources](/Content/images/doc/17_2/UiWidgets/Scheduler_Resources_SelectBox.png)
 
 To allow multiple resources, assign *true* to the [allowMultiple](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#allowMultiple) option of the corresponding resource kind. 
 
@@ -10,7 +10,7 @@ To allow multiple resources, assign *true* to the [allowMultiple](/Documentation
         { fieldExpr: 'teacherId', dataSource: teachersDataSource, allowMultiple: true }
     ];
 
-![Scheduler Appointment Resources](/Content/images/doc/17_1/UiWidgets/Scheduler_Resources_Details.png)
+![Scheduler Appointment Resources](/Content/images/doc/17_2/UiWidgets/Scheduler_Resources_Details.png)
 
 #####See Also#####
 - [Scheduler - Group Appointments by Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/)

@@ -63,11 +63,11 @@ In the [*range bar*](/Documentation/ApiReference/Data_Visualization_Widgets/dxCh
         <tbody>
             <tr>
                 <td style="text-align:left">rangeValue1</td>
-                <td>The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#rangeValue1Field">first value</a> of the series point.</td>
+                <td>The <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#rangeValue1Field">first value</a> of the series point.</td>
             </tr>
             <tr>
                 <td style="text-align:left">rangeValue2</td>
-                <td>The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#rangeValue2Field">second value</a> of the series point.</td>
+                <td>The <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#rangeValue2Field">second value</a> of the series point.</td>
             </tr>
         </tbody>
     </table>
@@ -86,23 +86,23 @@ In the financial series ([*candlestick*](/Documentation/ApiReference/Data_Visual
         <tbody>
             <tr>
                 <td style="text-align:left">openValue</td>
-                <td>The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#openValueField">open value</a> of the series point.</td>
+                <td>The <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#openValueField">open value</a> of the series point.</td>
             </tr>
             <tr>
                 <td style="text-align:left">closeValue</td>
-                <td>The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#closeValueField">close value</a> of the series point.</td>
+                <td>The <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#closeValueField">close value</a> of the series point.</td>
             </tr>
             <tr>
                 <td style="text-align:left">lowValue</td>
-                <td>The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#lowValueField">low value</a> of the series point.</td>
+                <td>The <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#lowValueField">low value</a> of the series point.</td>
             </tr>
             <tr>
                 <td style="text-align:left">highValue</td>
-                <td>The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#highValueField">high value</a> of the series point.</td>
+                <td>The <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#highValueField">high value</a> of the series point.</td>
             </tr>
             <tr>
                 <td style="text-align:left">reductionValue</td>
-                <td>The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/reduction/">reduction</a> value of the series point.</td>
+                <td>The <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/reduction/">reduction</a> value of the series point.</td>
             </tr>
         </tbody>
     </table>

@@ -1,6 +1,6 @@
 The *rangeArea* series type is used to display value ranges corresponding to the specified arguments. In this series type, data is displayed as the shaded area between the line that joins the series' start points and the line that joins the series' end points. The line that joins data points is the series' border, which is not visible by default.
 
-![RangeAreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/RangeArea.png)
+![RangeAreaSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/RangeArea.png)
 
 To use this series type, assign *'rangearea'* to the **type** property of the **series** configuration object.
 

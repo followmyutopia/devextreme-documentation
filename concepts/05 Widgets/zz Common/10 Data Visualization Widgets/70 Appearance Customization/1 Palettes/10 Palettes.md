@@ -15,15 +15,15 @@ By using the palettes, you can be sure that the colors mix well with each other 
 
 The following built-in palettes are available.
 
-<img src="/Content/images/doc/17_1/ChartJS/PaletteDefault.png" alt="Palette Default"/>
-<img src="/Content/images/doc/17_1/ChartJS/PaletteSoftPastel.png" alt="Palette Soft Pastel"/>
-<img src="/Content/images/doc/17_1/ChartJS/PaletteHarmonyLight.png" alt="Palette Harmony Light"/><br />
-<img src="/Content/images/doc/17_1/ChartJS/PalettePastel.png" alt="Palette Pastel"/>
-<img src="/Content/images/doc/17_1/ChartJS/PaletteBright.png" alt="Palette Bright"/>
-<img src="/Content/images/doc/17_1/ChartJS/PaletteSoft.png" alt="Palette Soft"/><br />
-<img src="/Content/images/doc/17_1/ChartJS/PaletteOcean.png" alt="Palette Ocean"/>
-<img src="/Content/images/doc/17_1/ChartJS/PaletteVintage.png" alt="Palette Vintage"/>
-<img src="/Content/images/doc/17_1/ChartJS/PaletteViolet.png" alt="Palette Violet"/>
+<img src="/Content/images/doc/17_2/ChartJS/PaletteDefault.png" alt="Palette Default"/>
+<img src="/Content/images/doc/17_2/ChartJS/PaletteSoftPastel.png" alt="Palette Soft Pastel"/>
+<img src="/Content/images/doc/17_2/ChartJS/PaletteHarmonyLight.png" alt="Palette Harmony Light"/><br />
+<img src="/Content/images/doc/17_2/ChartJS/PalettePastel.png" alt="Palette Pastel"/>
+<img src="/Content/images/doc/17_2/ChartJS/PaletteBright.png" alt="Palette Bright"/>
+<img src="/Content/images/doc/17_2/ChartJS/PaletteSoft.png" alt="Palette Soft"/><br />
+<img src="/Content/images/doc/17_2/ChartJS/PaletteOcean.png" alt="Palette Ocean"/>
+<img src="/Content/images/doc/17_2/ChartJS/PaletteVintage.png" alt="Palette Vintage"/>
+<img src="/Content/images/doc/17_2/ChartJS/PaletteViolet.png" alt="Palette Violet"/>
 
 <p>The "default" palette is used by default. To apply another palette, use the <b>palette</b> option.</p>
 

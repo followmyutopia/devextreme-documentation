@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/DrillDownChart/Step3_2/chart.html" data-show-first="chart.js">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/DrillDownChart/Step3_2/chart.html" data-show-first="chart.js">
 
 In this tutorial, the drill-down series displays products that match the clicked category. To pass an array with products to the drill-down series, the array must be preserved beforehand. The best way of doing this is placing this array in the tag of the top series using the **series** | [tagField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#tagField) option.
 

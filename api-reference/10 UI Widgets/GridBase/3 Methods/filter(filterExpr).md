@@ -14,7 +14,7 @@ Applies a filter to the widget's data source.
 <!--paramName1-->filterExpr<!--/paramName1-->
 <!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
-A <a href="/Documentation/17_1/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering">filter expression</a>.
+A <a href="/Documentation/17_2/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering">filter expression</a>.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

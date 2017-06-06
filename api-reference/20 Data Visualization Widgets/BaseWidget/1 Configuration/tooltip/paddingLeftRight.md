@@ -14,5 +14,5 @@ Generates space on the left and the right of the text displayed by a tooltip.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![TooltipPadding ChartJS](/Content/images/doc/17_1/ChartJS/TooltipPaddingLeftRight.png)
+![TooltipPadding ChartJS](/Content/images/doc/17_2/ChartJS/TooltipPaddingLeftRight.png)
 <!--/fullDescription-->

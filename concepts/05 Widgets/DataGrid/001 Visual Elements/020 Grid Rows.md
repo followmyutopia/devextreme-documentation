@@ -1,12 +1,12 @@
 Along with [grid columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns), grid rows are a fundamental element in the **DataGrid** widget. A grid row is a grid element representing a structured data item. In fact, a grid can be thought of as consisting of rows and columns.
 
-![DevExtreme DataGrid GridRows](/Content/images/doc/17_1/DataGrid/GridRows.png)
+![DevExtreme DataGrid GridRows](/Content/images/doc/17_2/DataGrid/GridRows.png)
 
 In **DataGrid**, you specify data for grid columns mostly, while grid rows are formed automatically based on the contents of data source objects. Normally, a grid row is generated for each data source object.
 
 To identify a row, a row index is used. If [paging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/) is enabled (that is, data is divided into portions), grid rows are indexed beginning with 0 on each page. Otherwise, grid rows are indexed beginning with 0 continuously. Note that [group rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) are counted too and thus have row indexes.
 
-![DevExtreme DataGrid GridRows](/Content/images/doc/17_1/DataGrid/GridRows_RowIndexes.png)
+![DevExtreme DataGrid GridRows](/Content/images/doc/17_2/DataGrid/GridRows_RowIndexes.png)
 
 There are several features of grid rows that you can configure. They are listed below.
 

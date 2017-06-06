@@ -48,5 +48,5 @@ The object associated with the appointment for which a form is created.
 <!--typeFunctionParamName1_field5-->form<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-An instance of the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxForm">Form</a> widget used to edit the appointment details.
+An instance of the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxForm">Form</a> widget used to edit the appointment details.
 <!--/typeFunctionParamDescription1_field5-->

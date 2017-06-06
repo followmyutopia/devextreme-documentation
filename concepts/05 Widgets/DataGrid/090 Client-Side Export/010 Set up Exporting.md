@@ -1,4 +1,4 @@
-﻿Follow the steps below to enable exporting.
+Follow the steps below to enable exporting.
 
 - Add a link to the JSZip library to your app/site. Learn where you can get it from topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
@@ -27,13 +27,13 @@
 
 When export is enabled, an Export button is displayed above the grid.
 
-![DevExtreme DataGrid Exporting](/Content/images/doc/17_1/DataGrid/Export.png)
+![DevExtreme DataGrid Exporting](/Content/images/doc/17_2/DataGrid/Export.png)
 
 Pressing this button, an end user can export grid data in the required format.
 
 When a possibility to export only the currently selected rows is needed, set the **export** | [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option to *true*. End users will be given a choice between exporting the total grid or selected rows only.
 
-![DevExtreme DataGrid Exporting Selected Rows](/Content/images/doc/17_1/DataGrid/Export_SelectedRows.png)
+![DevExtreme DataGrid Exporting Selected Rows](/Content/images/doc/17_2/DataGrid/Export_SelectedRows.png)
 
 Changes caused by the [cell template](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#cellTemplate), [row template](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#rowTemplate), [master-detail interface](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Master-Detail_Interface) and [data mapping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Item_Mapping) will be omitted in the exported file. 
 

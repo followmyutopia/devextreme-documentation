@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/ManageNavigation/step1/index.html" data-show-first="index.js">
+<article data-show="/Content/Applications/17_2/framework/ManageNavigation/step1/index.html" data-show-first="index.js">
 
 Use an [application project template](/Documentation/Tutorial/SPA_Framework/Add_a_Navigation_Bar/#Use_an_Application_Template) to create an application. All the views that will be created in this application will use a single HTML template - the one that is defined within the *home.html* file. So, remove the "about" view from the application (the *about.html* file and a reference to it in the application page).
 

@@ -1,6 +1,6 @@
 The *area* series type is useful when you need to emphasize a change in values. With this series type, data is displayed by a straight line that joins points, and the shaded area between this line and the argument axis. This line is a border and is invisible by default.
 
-![AreaSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Area.png)
+![AreaSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/Area.png)
 
 To use the *area* series type, assign *'area'* to the **type** property of the **series** configuration object.
 

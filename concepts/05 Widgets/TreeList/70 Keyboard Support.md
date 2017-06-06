@@ -72,11 +72,11 @@ A user can interact with the widget using the following keys:
 </div>
 
 <div style="font-size:12px">
-    <sup>1</sup> - A select box appears in a cell of a <a href="/Documentation/17_1/Guide/Widgets/TreeList/Columns/Column_Types/Lookup_Columns/">lookup column</a>.<br />
-    <sup>2</sup> - A calendar appears in a data cell when a column contains <i>"date"</i> <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType">type</a> data.<br />
-    <sup>3</sup> - <b>selection</b> | <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#mode">mode</a> must be different from <i>"none"</i>.<br />
-    <sup>4</sup> - <b>selection</b> | <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#mode">mode</a> must be <i>"multiple"</i>.<br />
-    <sup>5</sup> - <b>selection</b> | <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#allowSelectAll">allowSelectAll</a> must be <i>true</i>.<br />
-    <sup>6</sup> - The <a href="/Documentation/17_1/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel">search panel</a> must be visible.<br />
-    <sup>7</sup> - <b>sorting</b> | <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxTreeList/Configuration/sorting/#mode">mode</a> must be <i>"multiple"</i>.
+    <sup>1</sup> - A select box appears in a cell of a <a href="/Documentation/17_2/Guide/Widgets/TreeList/Columns/Column_Types/Lookup_Columns/">lookup column</a>.<br />
+    <sup>2</sup> - A calendar appears in a data cell when a column contains <i>"date"</i> <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType">type</a> data.<br />
+    <sup>3</sup> - <b>selection</b> | <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#mode">mode</a> must be different from <i>"none"</i>.<br />
+    <sup>4</sup> - <b>selection</b> | <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#mode">mode</a> must be <i>"multiple"</i>.<br />
+    <sup>5</sup> - <b>selection</b> | <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#allowSelectAll">allowSelectAll</a> must be <i>true</i>.<br />
+    <sup>6</sup> - The <a href="/Documentation/17_2/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel">search panel</a> must be visible.<br />
+    <sup>7</sup> - <b>sorting</b> | <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/sorting/#mode">mode</a> must be <i>"multiple"</i>.
 </div>

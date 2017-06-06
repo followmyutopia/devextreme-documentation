@@ -1,6 +1,6 @@
 The axis title is a short text displayed alongside the axis. Usually, the axis title shows units of measurement for axis values, but you can put any text in it.
 
-![DevExtreme HTML5 JavaScript Charts AxisTitles](/Content/images/doc/17_1/ChartJS/visual_elements/axis_titles.png)
+![DevExtreme HTML5 JavaScript Charts AxisTitles](/Content/images/doc/17_2/ChartJS/visual_elements/axis_titles.png)
 
 The axis title is configured by the [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/title/) option. If you assign an object to it, specifying the **text** field of this object is necessary for the axis title to be displayed. Besides the object, the **title** option accepts a string, thus providing a shortcut for setting the axis title. Therefore, this:
 

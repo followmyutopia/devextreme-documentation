@@ -11,10 +11,10 @@ var keyHandler = function () {
 $(function () {
     $("#myGallery").dxGallery({
         dataSource: [
-            "/Content/images/doc/16_2/PhoneJS/person1.png",
-            "/Content/images/doc/16_2/PhoneJS/person2.png",
-            "/Content/images/doc/16_2/PhoneJS/person3.png",
-            "/Content/images/doc/16_2/PhoneJS/person4.png"
+            "/Content/images/doc/17_2/PhoneJS/person1.png",
+            "/Content/images/doc/17_2/PhoneJS/person2.png",
+            "/Content/images/doc/17_2/PhoneJS/person3.png",
+            "/Content/images/doc/17_2/PhoneJS/person4.png"
         ],
         width: '100%',
         height: 370,

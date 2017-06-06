@@ -14,7 +14,7 @@ Customizes the node.
 <!--paramName1-->options<!--/paramName1-->
 <!--paramType1-->object<!--/paramType1-->
 <!--paramDescription1-->
-A <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#tile">tile</a> or a <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#group">group</a>.
+A <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#tile">tile</a> or a <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#group">group</a>.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

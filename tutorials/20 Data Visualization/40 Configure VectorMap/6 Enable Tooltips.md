@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataVisualization/Lessons/ConfigureVectorMap/Step10/vectorMap.html" data-show-first="vectorMap.js">
+<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/ConfigureVectorMap/Step10/vectorMap.html" data-show-first="vectorMap.js">
 
 A tooltip is a small pop-up rectangle that displays information about an area or a marker when it is hovered over. By default, tooltips are disabled. Enable them using the **enabled** option of the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/) object.
 

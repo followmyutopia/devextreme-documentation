@@ -11,4 +11,4 @@ The DevExtreme ThemeBuilder can easily be launched in two different ways.
 - **From a DevExtreme Project**  
 	When developing an application using one of the [DevExtreme project templates](/Documentation/Guide/VS_Integration/Project_Templates/), you can run the Theme Builder using the application project's context menu.
 
-	![Theme Builder from DevExtreme Project](Content/images/doc/17_1/DevExtreme/ThemeBuilderFromProject.png)
+	![Theme Builder from DevExtreme Project](Content/images/doc/17_2/DevExtreme/ThemeBuilderFromProject.png)

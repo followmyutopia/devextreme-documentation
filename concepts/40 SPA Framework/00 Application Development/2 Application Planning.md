@@ -1,6 +1,6 @@
 At this point, you know the main scenarios for using your resulting application. You are also aware of the tasks it will solve and the actions that will be available in it. Now, you need to decide what views (screens) are required in the application, how to distribute information between them and how end-users will navigate between the views. For this purpose, you will draw an informational application map. It will include the key views of the application, illustrate what information they present and indicate the navigation to other views.
 
-![Application Map](/Content/images/doc/17_1/Common/scheme-Application-Map.png)
+![Application Map](/Content/images/doc/17_2/Common/scheme-Application-Map.png)
 
 While drawing the application map, you may decide to make several views available from any application view. These views are called **root views** in the DevExtreme framework. The other views are not root views - end users can only navigate to them in a specific context. The total number of root views is important in deciding the type of global navigation to use. Here are several examples.
 

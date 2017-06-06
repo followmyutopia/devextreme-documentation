@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_1/framework/CustomizeLayout/step2/index.html" data-show-first="SlideOut/SlideOutLayout.css">
+<article data-show="/Content/Applications/17_2/framework/CustomizeLayout/step2/index.html" data-show-first="SlideOut/SlideOutLayout.css">
 
 Open the **SlideOut**/*SlideOutLayout.css* file. To provide a style for the added toolbar, introduce a *layout-footer* class within the *slideout-layout* class.
 

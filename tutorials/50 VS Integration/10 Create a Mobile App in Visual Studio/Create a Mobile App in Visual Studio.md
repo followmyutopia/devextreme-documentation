@@ -1,4 +1,4 @@
-﻿<article data-show="/Content/Applications/17_1/LearningCenter/Data-BoundApplication/step4-3/index.html" data-show-sln="/Content/Applications/17_1/LearningCenter/CreateMobileAppInVS/Application1.sln">
+<article data-show="/Content/Applications/17_2/LearningCenter/Data-BoundApplication/step4-3/index.html" data-show-sln="/Content/Applications/17_2/LearningCenter/CreateMobileAppInVS/Application1.sln">
 
 To better understand how to implement applications using the [DevExtreme SPA Framework](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/SPA_Framework) and [DevExtreme UI widgets](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/UI_Widgets_Library), we recommend that you begin by creating a simple application, similar to the one described in the [Your First Mobile App in Visual Studio](/Documentation/Tutorial/VS_Integration/Your_First_Mobile_App_in_Visual_Studio/) tutorial. Using this step-by-step tutorial, you will create a single-page application that includes two views. 
 

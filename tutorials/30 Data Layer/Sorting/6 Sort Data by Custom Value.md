@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataLayer/Sorting/Step7/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/17_2/DataLayer/Sorting/Step7/markup.html" data-show-first="script.js">
 
 You can specify a sorting order as a function. The items are sorted by the value returned by this function called for each item.
 

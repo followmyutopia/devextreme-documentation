@@ -1,6 +1,6 @@
 An *area* series type sparkline is helpful when you need to emphasize a change in values. Data in this series type is presented by a broken line joining invisible points and a shaded area under this line.
 
-![DevExtreme ChartJS Sparkline](/Content/images/doc/17_1/ChartJS/SparklineArea.png)
+![DevExtreme ChartJS Sparkline](/Content/images/doc/17_2/ChartJS/SparklineArea.png)
 
 To specify the *area* series type, assign *'area'* to the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#type) option of the main configuration object.
 

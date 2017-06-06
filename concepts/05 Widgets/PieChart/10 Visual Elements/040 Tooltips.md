@@ -1,6 +1,6 @@
 A tooltip is a small pop-up rectangle that, by default, displays the value of the series point hovered over. It is, however, possible to display other information in a tooltip by customizing the text of a tooltip or its appearance as required.
 
-![PieChartTooltip](/Content/images/doc/17_1/ChartJS/PieChartTooltip.png)
+![PieChartTooltip](/Content/images/doc/17_2/ChartJS/PieChartTooltip.png)
 
 Tooltips are not enabled by default. To enable them, set the **enabled** option of the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/tooltip/) object to *true*.
 

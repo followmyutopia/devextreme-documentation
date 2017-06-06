@@ -1,6 +1,6 @@
 When you use the *bubble* series type, the series points are displayed as bubbles of different sizes. This series type is especially useful when you visualize a data set with four dimensions: the first two dimensions are indicated by coordinates on the axes, the third - by a color, and the fourth - by the size of the bubble.
 
-![BubbleSeriesType ChartJS](/Content/images/doc/17_1/ChartJS/Bubble.png)
+![BubbleSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/Bubble.png)
 
 To use the *bubble* series type, set *'bubble'* to the **type** option of the series configuration object.
 

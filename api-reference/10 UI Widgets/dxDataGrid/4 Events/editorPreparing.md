@@ -34,7 +34,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -64,7 +64,7 @@ A method that should be called to change the cell value when the editor value is
 <!--typeFunctionParamName1_field7-->updateValueTimeout<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-Specifies the delay between the moment a user stops entering a filter value in the <a href="/Documentation/17_1/Guide/Widgets/DataGrid/Visual_Elements/#Filter_Row">filter row</a> or <a href="/Documentation/17_1/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel">search panel</a> and the moment this value applies.
+Specifies the delay between the moment a user stops entering a filter value in the <a href="/Documentation/17_2/Guide/Widgets/DataGrid/Visual_Elements/#Filter_Row">filter row</a> or <a href="/Documentation/17_2/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel">search panel</a> and the moment this value applies.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->width<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
@@ -109,7 +109,7 @@ An object with configuration options for the editor widget.
 <!--typeFunctionParamName1_field16-->dataField<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->string<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
-The name of the field providing data for the <a href="/Documentation/17_1/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/">column</a> that the editor belongs to.
+The name of the field providing data for the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/">column</a> that the editor belongs to.
 <!--/typeFunctionParamDescription1_field16-->
 <!--typeFunctionParamName1_field17-->row<!--/typeFunctionParamName1_field17-->
 <!--typeFunctionParamType1_field17-->dxDataGridRowObject<!--/typeFunctionParamType1_field17-->

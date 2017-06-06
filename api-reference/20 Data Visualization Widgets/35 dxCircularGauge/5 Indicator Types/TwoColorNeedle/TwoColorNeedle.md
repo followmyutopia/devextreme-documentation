@@ -17,9 +17,9 @@ An object that defines a gauge indicator of the **twoColorNeedle** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![TwoColorNeedle Gauge Value Indicator DevExtreme](/Content/images/doc/17_1/ChartJS/TwoColorNeedleValueIndicator.png)
+![TwoColorNeedle Gauge Value Indicator DevExtreme](/Content/images/doc/17_2/ChartJS/TwoColorNeedleValueIndicator.png)
 
 **Subvalue Indicator**
 
-![TwoColorNeedle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/17_1/ChartJS/TwoColorNeedleSubvalueIndicator.png)
+![TwoColorNeedle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/17_2/ChartJS/TwoColorNeedleSubvalueIndicator.png)
 <!--/fullDescription-->

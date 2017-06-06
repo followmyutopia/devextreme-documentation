@@ -6,7 +6,7 @@ Contains editing controls. Appears when [editing](/Documentation/ApiReference/UI
 - **Adaptive Column**       
 Contains buttons that expand adaptive detail rows. Appears if [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnHidingEnabled) is *true* or [hidingPriority](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#hidingPriority) is set for at least one column and only when certain columns do not fit into the screen or container size.
 
-![DevExtreme HTML5 JavaScript TreeList CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/17_1/treelist/visual_elements/column-types_command.png)
+![DevExtreme HTML5 JavaScript TreeList CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/17_2/treelist/visual_elements/column-types_command.png)
 
 You can relocate or resize the command columns by changing their **visibleIndex** and **width** options. For this, call the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#columnOptionid_optionName_optionValue) method as shown by the following code.
 

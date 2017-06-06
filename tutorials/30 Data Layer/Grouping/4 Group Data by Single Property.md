@@ -1,4 +1,4 @@
-﻿<article data-show-web="/Content/Applications/17_1/DataLayer/Grouping/Step5/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/17_2/DataLayer/Grouping/Step5/markup.html" data-show-first="script.js">
 
 To group data items by a single property, the [group expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) should be a string containing the required property name. Pass the "City" string to the **groupData** function to group data by the **City** property value.
 

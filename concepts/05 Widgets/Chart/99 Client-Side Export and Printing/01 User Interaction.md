@@ -1,6 +1,6 @@
 To export or print a widget, a user clicks the *"Exporting/Printing"* button and selects a command from the drop-down menu. The **Print** command opens the browser's **Print** window that lets the user select preferred printing settings and send the print job to the printer. The other commands save a file of the selected format in the user's local storage.
 
-<img src="/Content/images/doc/17_1/ChartJS/Client-Side-Export_exportMenu.png" alt="DevExtreme HTML5 DataVisualization Charts Export Print" style="vertical-align:middle"/>
+<img src="/Content/images/doc/17_2/ChartJS/Client-Side-Export_exportMenu.png" alt="DevExtreme HTML5 DataVisualization Charts Export Print" style="vertical-align:middle"/>
 
 To enable both export and printing, assign *true* to the [export](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/) | **enabled** option. If you need only export to be available to the user, disable printing by assigning *false* to the **export** | [printingEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#printingEnabled) option.
 

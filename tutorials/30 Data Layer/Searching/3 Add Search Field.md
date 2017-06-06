@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_1/DataLayer/Searching/Step4/markup.html" data-show-first="script.js">
+<article data-show-web="/Content/Applications/17_2/DataLayer/Searching/Step4/markup.html" data-show-first="script.js">
 
 Add the **input** element with the **id** attribute set to "search-box" to *markup.html*. This element is intended to input a search value. To apply a new search value each time an input element value is changed, call the [searchValue(value)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#searchValuevalue) method and [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method in the **keyup** event handler of the **input** element. The **searchValue(value)** method accepts the new search value to the DataSource instance. The **load()** method loads data satisfying the specified search criteria.
 </article>

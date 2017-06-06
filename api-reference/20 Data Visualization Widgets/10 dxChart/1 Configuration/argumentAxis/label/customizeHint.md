@@ -13,7 +13,7 @@ Specifies the hint that appears when a user points to an axis label.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts AxisLabelHint](/Content/images/doc/17_1/ChartJS/visual_elements/axis_label_hint.png)
+![DevExtreme HTML5 Charts AxisLabelHint](/Content/images/doc/17_2/ChartJS/visual_elements/axis_label_hint.png)
 
 [note]The **value** and **valueText** fields are also exposed by the **this** object.
 <!--/fullDescription-->
@@ -30,7 +30,7 @@ The raw argument from the data source.
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The <a href="/Documentation/17_1/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#format">formatted</a> argument.
+The <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#format">formatted</a> argument.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
