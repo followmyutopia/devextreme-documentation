@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_html_html_application">framework/html/html_application</a><!--/module-->
+<!--module-->framework/html/html_application<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--inherits-->..\..\10 UI Widgets\EventsMixin\EventsMixin.md<!--/inherits-->

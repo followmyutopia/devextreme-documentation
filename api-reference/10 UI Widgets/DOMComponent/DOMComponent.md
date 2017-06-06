@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_dom_component">core/dom_component</a><!--/module-->
+<!--module-->core/dom_component<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--inherits-->..\Component\Component.md<!--/inherits-->

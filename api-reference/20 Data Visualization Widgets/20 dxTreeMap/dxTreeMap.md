@@ -22,7 +22,7 @@ dataSource: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_tree_map">viz/tree_map</a><!--/module-->
+<!--module-->viz/tree_map<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\BaseWidget\BaseWidget.md<!--/inherits-->
 <!--lib-->

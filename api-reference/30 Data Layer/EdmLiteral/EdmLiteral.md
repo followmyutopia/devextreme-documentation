@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_odata_utils">data/odata/utils</a><!--/module-->
+<!--module-->data/odata/utils<!--/module-->
 <!--export-->EdmLiteral<!--/export-->
 <!--type-->object<!--/type-->
 <!--lib-->

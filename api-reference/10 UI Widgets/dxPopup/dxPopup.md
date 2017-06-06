@@ -8,7 +8,7 @@
 visible: true
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_popup">ui/popup</a><!--/module-->
+<!--module-->ui/popup<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxOverlay\dxOverlay.md<!--/inherits-->
 <!--lib-->

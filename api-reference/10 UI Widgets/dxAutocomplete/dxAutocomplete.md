@@ -9,7 +9,7 @@ dataSource: ["New York", "Los Angeles", "Chicago", "Houston", "Philadelphia", "P
 placeholder: "City"
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_autocomplete">ui/autocomplete</a><!--/module-->
+<!--module-->ui/autocomplete<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxDropDownList\dxDropDownList.md<!--/inherits-->
 <!--lib-->

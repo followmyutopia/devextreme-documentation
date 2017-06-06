@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_helper">data_helper</a><!--/module-->
+<!--module-->data_helper<!--/module-->
 <!--export-->default<!--/export-->
 ===========================================================================
 

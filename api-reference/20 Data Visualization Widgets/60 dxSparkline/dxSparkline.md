@@ -32,7 +32,7 @@ dataSource: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_sparkline">viz/sparkline</a><!--/module-->
+<!--module-->viz/sparkline<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\BaseSparkline\BaseSparkline.md<!--/inherits-->
 <!--lib-->

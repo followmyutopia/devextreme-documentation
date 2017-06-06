@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_themes">ui/themes</a><!--/module-->
+<!--module-->ui/themes<!--/module-->
 <!--export-->default<!--/export-->
 ===========================================================================
 

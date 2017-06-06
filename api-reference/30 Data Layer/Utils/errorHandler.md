@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_errors">data/errors</a><!--/module-->
+<!--module-->data/errors<!--/module-->
 <!--export-->errorHandler<!--/export-->
 <!--type-->function<!--/type-->
 ===========================================================================

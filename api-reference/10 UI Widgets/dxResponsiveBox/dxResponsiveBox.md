@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_responsive_box">ui/responsive_box</a><!--/module-->
+<!--module-->ui/responsive_box<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->

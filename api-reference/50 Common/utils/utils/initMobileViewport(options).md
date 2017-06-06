@@ -5,7 +5,7 @@
 
 **-->
 ===================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_mobile_init_mobile_viewport">mobile/init_mobile_viewport</a><!--/module-->
+<!--module-->mobile/init_mobile_viewport<!--/module-->
 <!--export-->default<!--/export-->
 ===================================================================
 

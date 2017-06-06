@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_defer_rendering">ui/defer_rendering</a><!--/module-->
+<!--module-->ui/defer_rendering<!--/module-->
 <!--export-->default<!--/export-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js

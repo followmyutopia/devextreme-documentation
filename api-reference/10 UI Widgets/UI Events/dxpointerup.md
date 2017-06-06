@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_pointer">events/pointer</a><!--/module-->
+<!--module-->events/pointer<!--/module-->
 <!--type-->EVENT<!--/type-->
 ===========================================================================
 

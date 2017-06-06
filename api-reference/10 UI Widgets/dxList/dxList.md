@@ -10,7 +10,7 @@ dataSource: ["Prepare 2013 Financial","Prepare 3013 Marketing Plan","Update Pers
     "Update Sales Strategy Documents","Create 2012 Sales Report","Direct vs Online Sales Comparison Report"]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_list">ui/list</a><!--/module-->
+<!--module-->ui/list<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->

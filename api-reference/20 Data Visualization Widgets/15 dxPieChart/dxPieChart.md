@@ -32,7 +32,7 @@ dataSource: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_pie_chart">viz/pie_chart</a><!--/module-->
+<!--module-->viz/pie_chart<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\BaseChart\BaseChart.md<!--/inherits-->
 <!--lib-->

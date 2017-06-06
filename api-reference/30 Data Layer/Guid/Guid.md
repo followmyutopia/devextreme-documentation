@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_guid">core/guid</a><!--/module-->
+<!--module-->core/guid<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--lib-->

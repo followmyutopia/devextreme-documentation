@@ -5,7 +5,7 @@
 
 **-->
 ===================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_palette">viz/palette</a><!--/module-->
+<!--module-->viz/palette<!--/module-->
 <!--export-->currentPalette<!--/export-->
 ===================================================================
 

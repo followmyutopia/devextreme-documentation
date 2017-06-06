@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_widget_ui_widget">ui/widget/ui.widget</a><!--/module-->
+<!--module-->ui/widget/ui.widget<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--inherits-->..\DOMComponent\DOMComponent.md<!--/inherits-->

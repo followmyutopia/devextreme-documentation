@@ -8,7 +8,7 @@
 
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_file_uploader">ui/file_uploader</a><!--/module-->
+<!--module-->ui/file_uploader<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Editor\Editor.md<!--/inherits-->
 <!--lib-->

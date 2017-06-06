@@ -8,7 +8,7 @@
 value: 48
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_circular_gauge">viz/circular_gauge</a><!--/module-->
+<!--module-->viz/circular_gauge<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\BaseGauge\BaseGauge.md<!--/inherits-->
 <!--lib-->

@@ -8,7 +8,7 @@
 
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_map">ui/map</a><!--/module-->
+<!--module-->ui/map<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 <!--lib-->

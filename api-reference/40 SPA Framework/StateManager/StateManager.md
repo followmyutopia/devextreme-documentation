@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_framework_state_manager">framework/state_manager</a><!--/module-->
+<!--module-->framework/state_manager<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 ===========================================================================

@@ -12,7 +12,7 @@ dataSource: [
     ]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_radio_group">ui/radio_group</a><!--/module-->
+<!--module-->ui/radio_group<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Editor\Editor.md,..\DataExpressionMixin\DataExpressionMixin.md<!--/inherits-->
 <!--lib-->

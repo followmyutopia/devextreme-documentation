@@ -5,7 +5,7 @@
 
 **-->
 ===================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_mobile_process_hardware_back_button">mobile/process_hardware_back_button</a><!--/module-->
+<!--module-->mobile/process_hardware_back_button<!--/module-->
 <!--export-->default<!--/export-->
 ===================================================================
 

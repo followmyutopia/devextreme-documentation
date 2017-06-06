@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_drop_down_menu">ui/drop_down_menu</a><!--/module-->
+<!--module-->ui/drop_down_menu<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 <!--lib-->

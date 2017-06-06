@@ -22,7 +22,7 @@ showRowLines: true,
 columns: ["position", "fullName", "email"]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tree_list">ui/tree_list</a><!--/module-->
+<!--module-->ui/tree_list<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\GridBase\GridBase.md<!--/inherits-->
 ===========================================================================

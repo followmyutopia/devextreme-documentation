@@ -11,7 +11,7 @@ layers: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_vector_map">viz/vector_map</a><!--/module-->
+<!--module-->viz/vector_map<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\BaseWidget\BaseWidget.md<!--/inherits-->
 <!--lib-->

@@ -8,7 +8,7 @@
 
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_switch">ui/switch</a><!--/module-->
+<!--module-->ui/switch<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Editor\Editor.md<!--/inherits-->
 <!--lib-->

@@ -8,7 +8,7 @@
 dataSource: []
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_scheduler">ui/scheduler</a><!--/module-->
+<!--module-->ui/scheduler<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md,..\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
 <!--lib-->

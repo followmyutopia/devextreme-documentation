@@ -18,7 +18,7 @@ formData: {
 }
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_form">ui/form</a><!--/module-->
+<!--module-->ui/form<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 <!--lib-->

@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tooltip">ui/tooltip</a><!--/module-->
+<!--module-->ui/tooltip<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxPopover\dxPopover.md<!--/inherits-->
 <!--lib-->

@@ -8,7 +8,7 @@
 
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_number_box">ui/number_box</a><!--/module-->
+<!--module-->ui/number_box<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxTextEditor\dxTextEditor.md<!--/inherits-->
 <!--lib-->

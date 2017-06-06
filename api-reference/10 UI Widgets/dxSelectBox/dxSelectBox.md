@@ -23,7 +23,7 @@ dataSource: [
 ]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_select_box">ui/select_box</a><!--/module-->
+<!--module-->ui/select_box<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxDropDownList\dxDropDownList.md<!--/inherits-->
 <!--lib-->

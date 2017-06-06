@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_core_devices">core/devices</a><!--/module-->
+<!--module-->core/devices<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 ===========================================================================

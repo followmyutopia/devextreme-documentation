@@ -8,7 +8,7 @@
 
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_text_area">ui/text_area</a><!--/module-->
+<!--module-->ui/text_area<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxTextBox\dxTextBox.md<!--/inherits-->
 <!--lib-->

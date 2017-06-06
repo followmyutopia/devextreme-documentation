@@ -19,7 +19,7 @@ dataSource: [
 ]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_menu">ui/menu</a><!--/module-->
+<!--module-->ui/menu<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxMenuBase\dxMenuBase.md<!--/inherits-->
 <!--lib-->

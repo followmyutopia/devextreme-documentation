@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_editor_ui_data_expression">ui/editor/ui.data_expression</a><!--/module-->
+<!--module-->ui/editor/ui.data_expression<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
 ===========================================================================

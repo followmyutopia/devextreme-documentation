@@ -22,7 +22,7 @@ dataSource: [
 height: 200
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_tab_panel">ui/tab_panel</a><!--/module-->
+<!--module-->ui/tab_panel<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxMultiView\dxMultiView.md<!--/inherits-->
 <!--lib-->

@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_data_odata_context">data/odata/context</a><!--/module-->
+<!--module-->data/odata/context<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->object<!--/type-->
 <!--lib-->

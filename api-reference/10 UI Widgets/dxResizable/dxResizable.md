@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_resizable">ui/resizable</a><!--/module-->
+<!--module-->ui/resizable<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\DOMComponent\DOMComponent.md<!--/inherits-->
 <!--lib-->

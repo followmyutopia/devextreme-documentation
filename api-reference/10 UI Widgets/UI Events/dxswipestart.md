@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_swipe">events/swipe</a><!--/module-->
+<!--module-->events/swipe<!--/module-->
 <!--type-->EVENT<!--/type-->
 ===========================================================================
 

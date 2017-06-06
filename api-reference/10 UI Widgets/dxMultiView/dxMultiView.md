@@ -14,7 +14,7 @@ height: 300,
 loop: true
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_multi_view">ui/multi_view</a><!--/module-->
+<!--module-->ui/multi_view<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 <!--lib-->

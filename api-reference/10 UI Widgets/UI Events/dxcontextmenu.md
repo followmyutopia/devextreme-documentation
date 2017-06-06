@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_contextmenu">events/contextmenu</a><!--/module-->
+<!--module-->events/contextmenu<!--/module-->
 <!--type-->EVENT<!--/type-->
 ===========================================================================
 

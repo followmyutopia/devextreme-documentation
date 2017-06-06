@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_validation_engine">ui/validation_engine</a><!--/module-->
+<!--module-->ui/validation_engine<!--/module-->
 <!--export-->default<!--/export-->
 ===========================================================================
 

@@ -5,7 +5,7 @@
 
 **-->
 ===================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_mobile_hide_top_overlay">mobile/hide_top_overlay</a><!--/module-->
+<!--module-->mobile/hide_top_overlay<!--/module-->
 <!--export-->default<!--/export-->
 ===================================================================
 

@@ -5,7 +5,7 @@
 
 **-->
 ===================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_utils">utils</a><!--/module-->
+<!--module-->utils<!--/module-->
 <!--export-->compileGetter<!--/export-->
 ===================================================================
 

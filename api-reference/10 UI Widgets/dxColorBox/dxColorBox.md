@@ -8,7 +8,7 @@
 opened: true
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_color_box">ui/color_box</a><!--/module-->
+<!--module-->ui/color_box<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxDropDownEditor\dxDropDownEditor.md<!--/inherits-->
 <!--lib-->

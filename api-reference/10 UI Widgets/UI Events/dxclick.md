@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_events_click">events/click</a><!--/module-->
+<!--module-->events/click<!--/module-->
 <!--type-->EVENT<!--/type-->
 ===========================================================================
 

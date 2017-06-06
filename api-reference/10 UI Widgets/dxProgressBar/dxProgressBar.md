@@ -8,7 +8,7 @@
 
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_progress_bar">ui/progress_bar</a><!--/module-->
+<!--module-->ui/progress_bar<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\dxTrackBar\dxTrackBar.md<!--/inherits-->
 <!--lib-->

@@ -29,7 +29,7 @@ dataSource: [{
 }]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_viz_chart">viz/chart</a><!--/module-->
+<!--module-->viz/chart<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\BaseChart\BaseChart.md<!--/inherits-->
 <!--lib-->

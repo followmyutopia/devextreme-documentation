@@ -22,7 +22,7 @@ dataSource: {
     }
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_pivot_grid">ui/pivot_grid</a><!--/module-->
+<!--module-->ui/pivot_grid<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 <!--lib-->

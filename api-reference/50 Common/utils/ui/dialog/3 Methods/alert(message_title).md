@@ -5,7 +5,7 @@
 
 **-->
 ===================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_dialog">ui/dialog</a><!--/module-->
+<!--module-->ui/dialog<!--/module-->
 <!--export-->alert<!--/export-->
 ===================================================================
 

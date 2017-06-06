@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_grid_base">ui/grid_base</a><!--/module-->
+<!--module-->ui/grid_base<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md,..\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
 ===========================================================================

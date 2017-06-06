@@ -17,7 +17,7 @@ dataSource: [{
 ]
 <!--/widgettree-->
 ===========================================================================
-<!--module--><a href="/Documentation/17_1/Guide/Common/Modularity/#Common_Modularity_DevExtreme_Modules_Structure_ui_toolbar">ui/toolbar</a><!--/module-->
+<!--module-->ui/toolbar<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 <!--lib-->
