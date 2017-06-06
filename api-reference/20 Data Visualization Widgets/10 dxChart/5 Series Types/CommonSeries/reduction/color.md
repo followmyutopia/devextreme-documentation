@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--propertyOf-->..\..\CandleStickSeries\CandleStickSeries.md,..\..\StockSeries\StockSeries.md<!--/propertyOf-->
-<!--default-->'#000000'<!--/default-->
+<!--default-->'#ff0000'<!--/default-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
