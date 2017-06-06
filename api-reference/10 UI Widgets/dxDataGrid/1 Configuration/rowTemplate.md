@@ -58,11 +58,11 @@ When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://ang
         <!--HTML--><div data-bind="dxDataGrid: {
             <!-- other grid settings go here -->
             rowTemplate: 'rowTemplateName'
-        }">
+        }" dx-item-alias="item">
             <table data-options="dxTemplate: { name: 'rowTemplateName' }" >
                 <tr>
-                    <td data-bind="text: data.id"></td>
-                    <td data-bind="text: data.name"></td>
+                    <td>{{ item.data.id }}</td>
+                    <td>{{ item.data.name }}</td>
                 </tr>
             </table>
         </div>
