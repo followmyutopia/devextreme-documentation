@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->function(rowData, value)<!--/type-->
+<!--type-->function(newData, value, currentRowData)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -35,7 +35,7 @@ Using this function, you can process user input before it will be saved in the d
 
 [note] To invoke the default behavior, call the **this.defaultSetCellValue(rowData, value)** function.
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
+<!--typeFunctionParamName1-->newData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The data object where new data should be set.
@@ -46,3 +46,9 @@ The data object where new data should be set.
 <!--typeFunctionParamDescription2-->
 The input value.
 <!--/typeFunctionParamDescription2-->
+
+<!--typeFunctionParamName3-->currentRowData<!--/typeFunctionParamName3-->
+<!--typeFunctionParamType3-->object<!--/typeFunctionParamType3-->
+<!--typeFunctionParamDescription3-->
+
+<!--/typeFunctionParamDescription3-->
