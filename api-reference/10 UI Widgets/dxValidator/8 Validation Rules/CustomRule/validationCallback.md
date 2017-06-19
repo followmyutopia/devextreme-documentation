@@ -35,6 +35,11 @@ The current rule object that exposes user-defined options, the <b>isValid</b> an
 <!--typeFunctionParamDescription1_field3-->
 The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxValidator">dxValidator</a> object that caused the validation.
 <!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamDescription1_field4-->
+
+<!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionReturnType-->true|false<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
