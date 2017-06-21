@@ -199,14 +199,12 @@ The summary items are displayed using the default item template that is based on
 
 [note]The currently existing validation errors are not only the errors that are discovered during the current validation, but also the validation errors that are discovered during the earlier validations if the not-valid values are not changed since then.
 
-To learn more on how to create the **ValidationSummary** widget and associate it with the required validation group or ViewModel, refer to the [Display Validation Errors](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Display_Validation_Errors) and [Validate View Model](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Validate_View_Model) topics.
+To learn more on how to create the **ValidationSummary** widget and associate it with the required validation group or ViewModel, refer to the [Display Validation Errors](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Validate_Several_Editor_Values/Display_Validation_Errors) and [Knockout Only - Validate a View Model](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Knockout_Only_-_Validate_a_View_Model) topics.
 
 <a href="https://www.youtube.com/watch?v=xbn_NbeB5es&index=34&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
-- [Display Validation Errors](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Display_Validation_Errors)
-- [Display Validation Errors - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Display_Validation_Errors)
-- [Validate View Model](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Validate_View_Model)
-- [Validate View Model - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Validate_View_Model)
+- [Display Validation Errors](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Validate_Several_Editor_Values/Display_Validation_Errors)
+- [Knockout Only - Validate a View Model](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Knockout_Only_-_Validate_a_View_Model)
 - [ASP.NET MVC Controls - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
 <!--/fullDescription-->

@@ -163,8 +163,7 @@ You can create the **ValidationGroup** widget using one of the following approac
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 #####See Also#####
-- [Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
-- [Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
+- [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
 - [ASP.NET MVC Controls - Validate a Group of Editors](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_a_Group_of_Editors/)
 
 You can use the [DevExpress.validationEngine.validateGroup(group)](/Documentation/ApiReference/Common/Utils/validationEngine/Methods/#validateGroupgroup) method to validate a particular validation group by passing its instance as a parameter.

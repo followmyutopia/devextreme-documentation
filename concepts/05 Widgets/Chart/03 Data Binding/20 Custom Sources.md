@@ -6,6 +6,10 @@ For the **Chart** widget, you need to implement the [load](/Documentation/ApiRef
 
 The following code example shows how to implement the **load** operation. You can see that in this example, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the **DataSource** configuration object to shorten this example.
 
+
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             dataSource: new DevExpress.data.DataSource({
@@ -30,6 +34,51 @@ The following code example shows how to implement the **load** operation. You ca
             // ...
         });
     });
+
+##### Angular
+
+    <!--JavaScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule } from '@angular/http';
+    import DataSource from 'devextreme/data/data_source';
+    import CustomStore from 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent {
+        chartDataSource: any = {};
+        constructor(@Inject(Http) http: Http) {
+            this.chartDataSource = new DataSource({
+                load: function (loadOptions) {
+                    // "params" contains a query string that should be passed with the GET request
+                    var params = '?';
+
+                    // Passed if "sort" is set
+                    if (loadOptions.sort) {
+                        // Add sorting parameters to the query string, for example
+                        params += 'orderby=' + loadOptions.sort[0].selector;
+                        if (loadOptions.sort[0].desc) {
+                            params += ' desc';
+                        }
+                    }
+                    // Passed if "filter" is set
+                    if (loadOptions.filter) {
+                        // Add filtering parameters to the query string
+                        params += ...
+                    }
+
+                    return http.get('http://mydomain.com/MyDataService' + params).toPromise()
+                        .then(response => {
+                            var json = response.json();
+                            // Here, you can perform operations unsupported by the server
+                            // or any other operations on the retrieved data
+                            return json.items
+                        });
+                }
+            });
+        }
+    }
+
+---
 
 <a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
 

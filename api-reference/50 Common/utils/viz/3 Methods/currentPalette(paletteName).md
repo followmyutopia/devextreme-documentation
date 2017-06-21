@@ -10,7 +10,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Applies a predefined or registered custom palette to all visualization widgets at once.
+Changes the current palette for all data visualization widgets on the page.
 <!--/shortDescription-->
 
 <!--paramName1-->paletteName<!--/paramName1-->
@@ -20,5 +20,8 @@ The palette name.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
+Only the widgets created after calling this method use the new palette. Refresh the styling settings in other widgets using the [DevExpress.viz.refreshTheme()](/Documentation/ApiReference/Common/utils/viz/Methods/#refreshTheme) method.
 
+#####See Also#####
+- [DevExpress.viz.registerPalette(paletteName, palette)](/Documentation/ApiReference/Common/utils/viz/Methods/#registerPalettepaletteName_palette)
 <!--/fullDescription-->

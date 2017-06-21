@@ -1,0 +1,76 @@
+Associate a DevExtreme editor with the [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator/) widget and specify [validationRules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules) to validate the editor. The full list of predefined validation rules is available in the [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) Reference section.
+
+---
+##### jQuery
+
+    <!--JavaScript-->$(function () {
+        $("#login").dxTextBox({
+            value: null,
+            placeholder: 'Login'
+        }).dxValidator({
+            validationRules: [{
+                type: 'required'
+            }, {
+                type: 'pattern',
+                pattern: '^[a-zA-Z]+$',
+                message: 'Do not use digits.'
+            }]
+        });
+    });
+
+    <!--HTML--><div>Login:</div>
+    <div id="login"></div>
+
+##### Angular
+
+    <!--JavaScript-->export class AppComponent {
+        login: string;
+        loginRules = [{
+            type: 'required'
+        }, {
+            type: 'pattern',
+            pattern: '^[a-zA-Z]+$',
+            message: 'Do not use digits.'
+        }];
+    }
+
+    <!--HTML--><dx-text-box [(value)]="login" placeholder="Login">
+        <dx-validator [validationRules]="loginRules"></dx-validator>
+    </dx-text-box>
+
+##### AngularJS
+
+    <!--JavaScript-->function Controller ($scope) {
+        $scope.login = '';
+        $scope.loginRules = [{
+            type: 'required'
+        }, {
+            type: 'pattern',
+            pattern: '^[a-zA-Z]+$',
+            message: 'Do not use digits.'
+        }];
+    }
+
+    <!--HTML--><div dx-text-box="{ value: login, placeholder: 'Login' }",
+        dx-validator="{ validationRules: loginRules }">   
+    </div>
+
+##### Knockout
+
+    <!--JavaScript-->var viewModel = {
+        login: ko.observable(""),
+        loginRules: [{
+            type: 'required'
+        }, {
+            type: 'pattern',
+            pattern: '^[a-zA-Z]+$',
+            message: 'Do not use digits.'
+        }]
+    };
+    ko.applyBindings(viewModel);
+
+    <!--HTML--><div data-bind="dxTextBox: { value: login, placeholder: 'Login' },
+        dxValidator: { validationRules: loginRules }">
+    </div>
+
+---

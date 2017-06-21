@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_2/DataLayer/Sorting/Step6/markup.html" data-show-first="script.js">
+﻿<article data-show-web="/Content/Applications/117_2DataLayer/Sorting/Step6/markup.html" data-show-first="script.js">
 
 
 This step describes how to specify several sorting criteria, which are sequentially applied to the loaded data. In this case, the sorting options object is an array of [sorting expressions](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting).

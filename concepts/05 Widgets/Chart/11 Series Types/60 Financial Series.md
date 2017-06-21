@@ -1,0 +1,90 @@
+**Candlestick** and **Stock** are financial series types used to describe and analyse trading patterns over short periods of time. Each point in a **Candlestick** series is composed of a real body and two wicks. The real body illustrates the opening and closing trades; it is filled if the closing price is lower than the opening price, and empty otherwise. The wicks visualize the highest and lowest traded prices during the day. A **Stock** series is similar to **Candlestick** except that the opening and closing trades are illustrated by markers instead of the real body.
+
+
+<div class="simulator-desktop-container" data-view="/Content/Applications/17_2/DataVisualization/Guides/ChartSeriesTypes/financial.html, /Content/Applications/17_2/DataVisualization/Guides/ChartSeriesTypes/financial.js"></div>
+
+Assign *"candlestick"* or *"stock"* to the **series[]**.[type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#type) option to specify the corresponding series type. You can configure:
+
+- Each series individually using the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) array;
+- All series in the **Chart** using the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/) object;
+- All **Candlestick** or **Stock** series using the **commonSeriesSettings**.**candlestick** or **commonSeriesSettings**.**stock** object respectively.
+
+Note that the financial series require four value fields: [openValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#openValueField), [closeValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#closeValueField), [highValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#highValueField), and [lowValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#lowValueField).
+
+---
+##### jQuery
+
+    <!--JavaScript-->$(function () {
+        $("#chartContainer").dxChart({
+            series: [{
+                type: "candlestick",
+                openValueField: "o",
+                closeValueField: "c",
+                highValueField: "h",
+                lowValueField: "l"
+            }, {
+                // ...
+            }],
+            commonSeriesSettings: {
+                candlestick: { ... },
+                stock: { ... }
+            }
+        });
+    });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-chart ... >
+        <dxi-series
+            type="candlestick"
+            openValueField="o"
+            closeValueField="c"
+            highValueField="h"
+            lowValueField="l">
+        </dxi-series>
+        <dxi-series ... ></dxi-series>
+        ...
+        <dxo-common-series-settings>
+            <dxo-candlestick ... ></dxo-candlestick>
+            <dxo-stock ... ></dxo-stock>
+        </dxo-common-series-settings>
+    </dx-chart>
+
+---
+
+Financial series gauge price reduction by comparing the values of two neighboring points. Use the **reduction**.[level](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/reduction/#level) option to specify whether it should be the open, close, high, or low values. The **reduction**.[color](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/reduction/#color) colors points whose value decreases.
+
+---
+##### jQuery
+
+    <!--JavaScript-->$(function () {
+        $("#chartContainer").dxChart({
+            series: [{
+                // ...
+                reduction: {
+                    level: "high",
+                    color: "blue"
+                }
+            }]
+        });
+    });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-chart ... >
+        <dxi-series ... >
+            <dxo-reduction level="high" color="blue"></dxo-reduction>
+        </dxi-series>
+    </dx-chart>
+
+---
+
+See the [CandleStickSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/) and [StockSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/) API Reference sections for a full list of options available to a financial series.
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Stock/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Financial Series Demos</a>
+
+#####See Also#####
+- [Series](/Documentation/Guide/Widgets/Chart/Series/Overview/)
+- [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)

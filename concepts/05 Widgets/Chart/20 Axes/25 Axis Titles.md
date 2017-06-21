@@ -4,6 +4,9 @@ The axis title is a short text displayed alongside the axis. Usually, the axis t
 
 The axis title is configured by the [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/title/) option. If you assign an object to it, specifying the **text** field of this object is necessary for the axis title to be displayed. Besides the object, the **title** option accepts a string, thus providing a shortcut for setting the axis title. Therefore, this:
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -13,7 +16,20 @@ The axis title is configured by the [title](/Documentation/ApiReference/Data_Vis
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis
+            title="Axis Title">
+        </dxo-argument-axis>
+    </dx-chart>
+
+---
+
 is the same as this:
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -25,6 +41,16 @@ is the same as this:
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis>
+            <dxo-title text="Axis Title"></dxo-title>
+        </dxo-argument-axis>
+    </dx-chart>
+
+---
 
 In addition to the **text** field, the **title** object may contain fields that specify the [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/title/font/) and [margin](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/title/#margin) of the axis title.
 

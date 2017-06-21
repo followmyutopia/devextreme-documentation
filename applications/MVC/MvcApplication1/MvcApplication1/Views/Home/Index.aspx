@@ -14,16 +14,16 @@
 <head runat="server">
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
-    <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_2/css/dx.common.css" />
-    <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/16_2/css/dx.light.css" />
-    <script src="/SharedStatic/DevExtreme/16_2/js/jquery-2.2.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/17_2/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="/SharedStatic/DevExtreme/17_2/css/dx.light.css" />
+    <script src="/SharedStatic/DevExtreme/17_2/js/jquery-2.2.3.min.js"></script>
 <!--@Knockout-->
-    <script src="/SharedStatic/DevExtreme/16_2/js/knockout-3.4.0.js"></script>
+    <script src="/SharedStatic/DevExtreme/17_2/js/knockout-3.4.0.js"></script>
 <!--/@Knockout-->
 <!--@AngularJS-->
-    <script src="/SharedStatic/DevExtreme/16_2/js/angular.js"></script>
+    <script src="/SharedStatic/DevExtreme/17_2/js/angular.js"></script>
 <!--/@AngularJS-->
-    <script type="text/javascript" src="/SharedStatic/DevExtreme/16_2/js/dx.viz-web.js"></script>
+    <script type="text/javascript" src="/SharedStatic/DevExtreme/17_2/js/dx.viz-web.js"></script>
     <script src="/MyJS/script.js"></script>
 
 </head>

@@ -35,8 +35,8 @@ $(function () {
             var clickedPoint = info.target;
             clickedPoint.isSelected() ? clickedPoint.clearSelection() : clickedPoint.select();
         },
-        pointSelected: function (selectedPoint) {
-            $('#selectionSpan').html(selectedPoint.tag);
+        onPointSelectionChanged: function (e) {
+            $('#selectionSpan').html(e.target.tag);
         }
     });
 });

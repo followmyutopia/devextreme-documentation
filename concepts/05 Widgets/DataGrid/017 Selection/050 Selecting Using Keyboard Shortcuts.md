@@ -1,4 +1,4 @@
-In a multiple selection mode, a user can employ keyboard shortcuts to select rows. The following shortcuts are supported.
+﻿In a multiple selection mode, a user can employ keyboard shortcuts to select rows. The following shortcuts are supported.
 
 <div class="simple-table">
 <table>

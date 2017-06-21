@@ -4,6 +4,9 @@ Error bars are used on charts to indicate an error or uncertainty in a reported 
 
 Error bars can be generated either from concrete or calculated values. To generate one error bar, two values, high and low, are needed. If your data source provides concrete high and low values, assign the required data source fields to the [highValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/#highValueField) and [lowValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/#lowValueField) options of the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) | [valueErrorBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/) object.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -21,7 +24,31 @@ Error bars can be generated either from concrete or calculated values. To genera
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart [dataSource]="chartDataSource">
+        <dxi-series ... >
+            <dxo-value-error-bar
+                highValueField="highError"
+                lowValueField="lowError">
+            </dxo-value-error-bar>
+        </dxi-series>
+    </dx-chart>
+
+    <!--JavaScript-->
+    export class AppComponent {
+        chartDataSource = [
+            { arg: 1, val: 200, highError: 5, lowError: 3 },
+            // ...
+        ]
+    }
+
+---
+
 Alternatively, error bar values can be calculated according to an algorithm. In this case, choose the needed algorithm using the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/#type) option and specify the value to be used in calculation using the [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/#value) option.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -36,6 +63,19 @@ Alternatively, error bar values can be calculated according to an algorithm. In 
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxi-series ... >
+            <dxo-value-error-bar
+                type="percent"
+                [value]="5">
+            </dxo-value-error-bar>
+        </dxi-series>
+    </dx-chart>
+
+---
+
 If error bars should have uniform settings, you can specify them using one of the following objects.
 
 - **commonSeriesSettings** | **%seriesType%** | **valueErrorBar**      
@@ -45,6 +85,9 @@ Settings for all error bars belonging to the series of a specific [type](/Docume
 Settings for all error bars in the **Chart**.
 
 Note that settings for individual series override type-specific settings which, in turn, override common settings.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -66,6 +109,28 @@ Note that settings for individual series override type-specific settings which, 
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxi-series>
+            <dxo-value-error-bar>
+                <!-- high priority -->
+            </dxo-value-error-bar>
+        </dxi-series>
+        <dxo-common-series-settings>
+            <dxo-line>
+                <dxo-value-error-bar>
+                    <!-- middle priority -->
+                </dxo-value-error-bar>
+            </dxo-line>
+            <dxo-value-error-bar>
+                <!-- low priority -->
+            </dxo-value-error-bar>
+        </dxo-common-series-settings>
+    </dx-chart>
+
+---
 
 For information about all options of the error bars, visit the [valueErrorBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/) section of the API reference.
 

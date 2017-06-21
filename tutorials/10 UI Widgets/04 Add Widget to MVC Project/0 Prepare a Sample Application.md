@@ -1,4 +1,4 @@
-Open Visual Studio and create a new MVC application project using an empty ASP.NET MVC Web Application template.
+﻿Open Visual Studio and create a new MVC application project using an empty ASP.NET MVC Web Application template.
 
 To use DevExtreme widgets in MVC applications, add scripts and themes supplied with the DevExtreme Web kit. For this purpose, use the DevExtreme Web NuGet package.
 

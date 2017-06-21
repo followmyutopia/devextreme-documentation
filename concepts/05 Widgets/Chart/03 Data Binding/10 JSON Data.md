@@ -1,5 +1,8 @@
 To bind the **Chart** to data in a JSON format, assign the URL referring to data to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) option.  
-    
+
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             dataSource: "http://www.example.com/dataservices/data.json",
@@ -9,7 +12,19 @@ To bind the **Chart** to data in a JSON format, assign the URL referring to data
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-chart dataSource="http://www.example.com/dataservices/data.json">
+        <dxi-series ... ></dxi-series>
+    </dx-chart>
+
+---
+
 Note that you can also use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -19,6 +34,15 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
             }
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-chart dataSource="http://www.example.com/dataservices/jsonpdata?callback=?">
+        <dxi-series ... ></dxi-series>
+    </dx-chart>
+
+---
 
 If you need to process data after obtaining it, implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). For details, see the [Custom Sources](/Documentation/Guide/Widgets/Chart/Data_Binding/Custom_Sources/) topic.
 

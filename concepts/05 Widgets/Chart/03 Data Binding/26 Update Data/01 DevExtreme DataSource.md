@@ -1,4 +1,4 @@
-This technique is universal for any data source as anything passed to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) option of the **Chart** ends up wrapped in the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). To get the **DataSource** instance, call the [getDataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getDataSource) method of the **Chart**.
+This technique is universal for any data source as anything passed to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) option of the **Chart** ends up wrapped in the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). To get the **DataSource** instance, call the [getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getDataSource) method of the **Chart**.
 
 ---
 
@@ -32,6 +32,20 @@ This technique is universal for any data source as anything passed to the [dataS
     };
     
     ko.applyBindings(viewModel);
+    
+##### Angular
+
+    <!--JavaScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxChartComponent) chart: DxChartComponent;
+        ds: any = {};
+        getDataSource() {
+            this.ds = this.chart.instance.getDataSource();
+        }
+    }
     
 ---
 

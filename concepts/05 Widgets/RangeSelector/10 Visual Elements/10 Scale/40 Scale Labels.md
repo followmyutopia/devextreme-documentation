@@ -1,4 +1,4 @@
-Each [major scale tick](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Scale/Major_Scale_Ticks) is accompanied with a scale label. This label displays the value of the tick.
+﻿Each [major scale tick](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Scale/Major_Scale_Ticks) is accompanied with a scale label. This label displays the value of the tick.
 
 ![ChartJS RangeSelector](/Content/images/doc/17_2/ChartJS/RangeSelectorScaleLabels.png)
 

@@ -4,6 +4,9 @@ Title and subtitle are textual elements that give an idea of what the **Chart** 
 
 The title is configured by the [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/title/) object. The subtitle is configured by the [subtitle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/title/subtitle/) object nested in the **title** object.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -16,7 +19,23 @@ The title is configured by the [title](/Documentation/ApiReference/Data_Visualiz
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-title
+            text="I am the Title">
+            <dxo-subtitle
+                text="I am the Subtitle">
+            </dxo-subtitle>
+        </dxo-title>
+    </dx-chart>
+
+---
+
 You can set the title's text more concisely by assigning it directly to the **title** option. This is useful if you are satisfied with the default settings of the title and do not need a subtitle. 
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -24,6 +43,14 @@ You can set the title's text more concisely by assigning it directly to the **ti
             title: "I am the Title"
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart
+        text="I am the Title">
+    </dx-chart>
+
+---
 
 For information about all options of the title and subtitle, visit the [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/title/) section of the API reference.
 

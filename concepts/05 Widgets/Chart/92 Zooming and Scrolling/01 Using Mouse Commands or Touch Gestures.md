@@ -4,6 +4,9 @@ Mouse-equipped users zoom the chart by rotating the mouse wheel and scroll it by
 
 Zooming and scrolling are configured separately as well as their support for mouse commands and touch gestures. Use the [zoomingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) and [scrollingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode) options to specify whether a user can zoom and scroll the chart using mouse commands, touch gestures, or both. 
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -11,6 +14,15 @@ Zooming and scrolling are configured separately as well as their support for mou
             scrollingMode: "all" // or "touch" | "mouse" | "none"
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart
+        zoomingMode="all"
+        scrollingMode="all"> <!-- or "touch" | "mouse" | "none" -->
+    </dx-chart>
+
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 

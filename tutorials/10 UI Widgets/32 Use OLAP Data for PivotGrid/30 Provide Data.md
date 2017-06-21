@@ -1,4 +1,4 @@
-<!--playground--><!--/playground-->
+﻿<!--playground--><!--/playground-->
 <article data-show-web="/Content/Applications/17_2/Framework/UseOLAPDataForPivotGrid/Step3/pivotGrid.html" data-show-first="pivotGrid.html">
 
 Pivot grid data is provided by a [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/). This object is a connection between the **PivotGrid** widget, and data provided by a web service or data stored locally. The PivotGridDataSource underlying data access logic is isolated in a [Store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/). In this tutorial, an **XmlaStore** will be used to provide access to a remote OLAP server. 

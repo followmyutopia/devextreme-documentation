@@ -34,8 +34,8 @@ By default, the base z-index for all overlay widgets except **Toast** is 1500.
 The method affects the following widgets.
 
 - [LoadPanel](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/)
-- [Popover](/Documentation/ApiReference/UI_Widgets/Popover/)
-- [Popup](/Documentation/ApiReference/UI_Widgets/Popup/)
-- [Toast](/Documentation/ApiReference/UI_Widgets/Toast/)
-- [Tooltip](/Documentation/ApiReference/UI_WidgetsTooltip/)
+- [Popover](/Documentation/ApiReference/UI_Widgets/dxPopover/)
+- [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/)
+- [Toast](/Documentation/ApiReference/UI_Widgets/dxToast/)
+- [Tooltip](/Documentation/ApiReference/UI_Widgets/dxTooltip/)
 <!--/fullDescription-->

@@ -4,6 +4,9 @@ A series is a collection of related data points.
 
 The most important characteristic of a series is its type. The **Chart** provides over 20 series types, and all of them are described in the [Series Types](/Documentation/Guide/Widgets/Chart/Series_Types/) article. You can specify the type of a series using its [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#type) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -14,7 +17,18 @@ The most important characteristic of a series is its type. The **Chart** provide
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxi-series type="bar" ... ></dxi-series>
+    </dx-chart>
+
+---
+
 A single **Chart** can contain several series at once. In this case, the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) option accepts an array of series objects. To enable a user to identify a series among others on the [chart legend](/Documentation/Guide/Widgets/Chart/Legend/Overview/), specify its [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name).
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -31,6 +45,15 @@ A single **Chart** can contain several series at once. In this case, the [series
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxi-series type="bar" name="Men" ... ></dxi-series>
+        <dxi-series type="area" name="Women" ... ></dxi-series>
+    </dx-chart>
+
+---
+
 Objects in the **series** array specify individual settings for series. You can also specify common settings for series using the following objects.
 
 - **commonSeriesSettings** | **%seriesType%** ([line](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#line), [bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#bar), etc.)          
@@ -40,6 +63,9 @@ Settings for all series of a specific type.
 Settings for all series in the **Chart**.
 
 Note that individual settings override type-specific settings which, in turn, override common settings.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -55,6 +81,22 @@ Note that individual settings override type-specific settings which, in turn, ov
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxi-series ... >
+            <!-- high priority -->
+        </dxi-series>
+        <dxo-common-series-settings ... >
+            <!-- low priority -->
+            <dxo-bar>
+                <!-- middle priority -->
+            </dxo-bar>
+        </dxo-common-series-settings>
+    </dx-chart>
+
+---
 
 #####See Also#####
 - [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)

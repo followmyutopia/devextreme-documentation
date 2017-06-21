@@ -24,7 +24,7 @@ If you have only one series in your chart, specify the **valueField** option wit
 			}]
 		};
 
-	Certain series types require several value fields to be specified for one series. In these instances, data source fields must be set using options particular to a specific series type. For example, the following code snippet shows how to specify value fields for a [Range Area](/Documentation/Guide/Widgets/Chart/Series_Types/#Range_Area) and [Range Bar](/Documentation/Guide/Widgets/Chart/Series_Types/#Range_Bar) series.
+	Certain series types require several value fields to be specified for one series. In these instances, data source fields must be set using options particular to a specific series type. For example, the following code snippet shows how to specify value fields for a [range series](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/).
 
 		<!--JavaScript-->var rangeDataSource = [
 			{ month: 'January', min1: 36, max1: 43.29, min2:  42.12, max2: 49.91 },
@@ -42,7 +42,7 @@ If you have only one series in your chart, specify the **valueField** option wit
 			]
 		};
 
-	The following code demonstrates how to set value fields for the [Candle Stick](/Documentation/Guide/Widgets/Chart/Series_Types/#Candle_Stick) and [Stock](/Documentation/Guide/Widgets/Chart/Series_Types/#Stock) series types.
+	The following code demonstrates how to set value fields for a [financial series](/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/).
 
 		<!--JavaScript-->var stockDataSource = [
 			{ date: new Date(1994,2,1), lowPrice: 24.00, highPrice: 25.00, openPrice: 25.00, closePrice: 24.875 },
@@ -62,7 +62,7 @@ If you have only one series in your chart, specify the **valueField** option wit
 			}
 		};
 
-	Series of the [Bubble](/Documentation/Guide/Widgets/Chart/Series_Types/#Bubble) type slightly differ from other series. Along with the value field, they require the size field to be specified. The code below illustrates how to specify the value and size fields for the *bubble* series.
+	Series of the [Bubble](/Documentation/Guide/Widgets/Chart/Series_Types/Bubble_Series/) type slightly differ from other series. Along with the value field, they require the size field to be specified. The code below illustrates how to specify the value and size fields for the *bubble* series.
 
 		<!--JavaScript-->var dataSource = [
 			{ month: 'January', val1: 24, size1: 25, val2: 14, size2: 31  },

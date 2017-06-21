@@ -14,6 +14,6 @@ To view associated appointments, a user clicks the appointment collector.
 
 ![Drop-down List of Appointments](/Content/images/doc/17_2/UiWidgets/Scheduler_Day_DropDown_List.png)
 
-If you [group appointments by resources](/Documentation/Guide/UI_Widgets/Scheduler/Resources/#Group_Appointments_by_Resources), the resource headers are displayed above the all-day panel.
+If you [group appointments by resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/), the resource headers are displayed above the all-day panel.
 
 ![Resource headers](/Content/images/doc/17_2/UiWidgets/Scheduler_Day_Resource_Headers.png)

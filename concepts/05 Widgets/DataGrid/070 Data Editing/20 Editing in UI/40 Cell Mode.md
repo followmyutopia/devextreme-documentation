@@ -6,8 +6,7 @@ When a user clicks a cell, the latter enters the editing state where the user ch
 	[note] If **validation** is configured for the data grid, an end-user will be locked in the cell's editing state until he/she enters a valid value or clicks the "Cancel Changes" button.
 
 	#####See Also#####
-	- [Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
-	- [Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
+	- [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
 
 	![DevExtreme DataGrid EditingRowMode](/Content/images/doc/17_2/DataGrid/EditingCellMode.gif)
 
@@ -19,8 +18,7 @@ To insert a new row, a user must click the *"Add"* button indicated by a cross g
 	[note] If **validation** is configured for the data grid, an end-user will be locked in the row's editing state until he/she enters valid values or cancels the row insertion using the "Cancel Changes" button of any invalid cell.
 
 	#####See Also#####
-	- [Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
-	- [Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
+	- [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data Validation/)
 
 	![DevExtreme DataGrid InsertionRowMode](/Content/images/doc/17_2/DataGrid/InsertionCellMode.gif)
 

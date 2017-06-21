@@ -1,4 +1,4 @@
-Oftentimes, columns contain data that can be organized in logical groups. It would be smart to collect such columns under a single header. The banded layout provides you with this capability. 
+﻿Oftentimes, columns contain data that can be organized in logical groups. It would be smart to collect such columns under a single header. The banded layout provides you with this capability. 
 
 ![DevExpress DevExtreme DataGrid HTML5 BandColumns](/Content/images/doc/17_2/DataGrid/BandColumns.png)
 

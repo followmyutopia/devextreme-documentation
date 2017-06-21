@@ -2,15 +2,15 @@ To include DevExtreme to your project, use the appropriate distribution package.
 
 - [npm](/Documentation/Guide/Getting_Started/Installation/npm_Package/)
 
-        npm install devextreme 
+        npm install devextreme@17.2 --save --save-exact 
 
 - [Bower](/Documentation/Guide/Getting_Started/Installation/Bower_Package/)
 
-        bower install devextreme
+        bower install devextreme#~17.2 --save
 
 - [NuGet](/Documentation/Guide/Getting_Started/Installation/NuGet_Package/)
 
-        Install-Package DevExtreme.Web
+        Install-Package DevExtreme.Web -Version minor_17_2
 
 For Visual Studio integration features, get the Windows installer, or otherwise, download just the client-side library and its widgets as a zip archive.
 

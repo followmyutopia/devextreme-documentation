@@ -14,15 +14,17 @@ Specifies the [attributes](http://www.w3schools.com/tags/ref_attributes.asp) to 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When you configure this option in an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), pass a dictionary as shown in the following code.
+When you configure this option in an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), pass a dictionary or an object with HTML attributes as shown in the following code.
 
-    <!--Razor C#-->@(Html.DevExtreme()
-        // other widget options
-        // ...
+    <!--Razor C#-->@(Html.DevExtreme().WidgetName()
         .ElementAttr(new Dictionary<string, object>() {
             { "id", "elementId" },
-            { "class", "class-name" },
-            // ...
+            { "class", "class-name" }
+        })
+        // ===== or =====
+        .ElementAttr(new {
+            @id = "elementId",
+            @class = "class-name"
         })
     )
 
@@ -30,6 +32,11 @@ When you configure this option in an [ASP.NET MVC Control](/Documentation/Guide/
         .ElementAttr(New Dictionary(Of String, Object) From {
             { "id", "elementId" },
             { "class", "class-name" }
+        })
+        ' ===== or =====
+        .ElementAttr(New With {
+            .id = "elementId",
+            .class = "class-name"
         })
     )
 <!--/fullDescription-->

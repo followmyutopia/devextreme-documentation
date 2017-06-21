@@ -1,4 +1,4 @@
-In the *bar* series type, data is displayed as sets of rectangular bars with lengths proportional to the values that they represent. Often, *bar* series are used to compare values in different discrete categories such as months, countries, age, etc. When there are several bar series, bars for each argument are displayed side-by-side. If you need to show bars for each series stacked on each other, use the *stackedBar* series type (see [Stacked Bar](/Documentation/Guide/Widgets/Chart/Series_Types/#Stacked_Bar)).
+In the *bar* series type, data is displayed as sets of rectangular bars with lengths proportional to the values that they represent. Often, *bar* series are used to compare values in different discrete categories such as months, countries, age, etc. When there are several bar series, bars for each argument are displayed side-by-side. If you need to show bars for each series stacked on each other, use the *stackedBar* series type (see [Stacked Bar](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Stacked_Bar)).
 
 ![PolarBarSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/PolarBar.png)
 

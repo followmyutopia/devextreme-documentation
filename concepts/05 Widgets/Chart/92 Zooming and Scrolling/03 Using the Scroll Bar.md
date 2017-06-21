@@ -4,6 +4,9 @@ The scrollbar is a chart element used for scrolling.
 
 You can configure the scrollbar using the [scrollBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/) object. To display the scrollbar, set the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/#visible) option of this object to *true*, but before doing this, make sure to enable [scrolling](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode) and [zooming](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) in the **Chart**. Otherwise, the scrollbar will be inoperative.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#chartContainer").dxChart({
@@ -16,6 +19,16 @@ You can configure the scrollbar using the [scrollBar](/Documentation/ApiReferenc
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart
+        zoomingMode="all"
+        scrollingMode="all">
+        <dxo-scroll-bar [visible]="true" ... ></dxo-scroll-bar>
+    </dx-chart>
+
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 

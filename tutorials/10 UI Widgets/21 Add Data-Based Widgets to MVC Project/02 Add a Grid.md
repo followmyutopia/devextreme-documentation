@@ -1,4 +1,4 @@
-<article data-show-web="/Content/Applications/17_2/Framework/UseRemoteDataforDataGrid/Solution/grid.html">
+﻿<article data-show-web="/Content/Applications/117_2Framework/UseRemoteDataforDataGrid/Solution/grid.html">
 - Open the Index view and add a **div** element that will contain the widget.
 
         <!--HTML--><div id="myGrid"></div>

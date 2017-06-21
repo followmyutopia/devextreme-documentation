@@ -43,8 +43,8 @@ $(function () {
             }
             $('#selectionSpan').html('Total value of selected points is ' + totalPopulation);
         },
-        pointSelected: function (selectedPoint) {
-            totalPopulation += selectedPoint.originalValue;
+        onPointSelectionChanged: function (e) {
+            totalPopulation += e.target.originalValue;
             $('#selectionSpan').html('Total value of selected points is ' + totalPopulation);
         }
     });

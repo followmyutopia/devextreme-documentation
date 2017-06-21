@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-An object that defines the [animation options](/Documentation/ApiReference/Common/Object_Structures/animationConfig/) of the widget.
+Configures widget visibility animations. This object contains two fields: [show]({basewidgetpath}/Configuration/animation/#show) and [hide]({basewidgetpath}/Configuration/animation/#hide).
 <!--/shortDescription-->
 
 <!--fullDescription-->

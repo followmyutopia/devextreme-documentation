@@ -70,17 +70,15 @@ You can create the **Validator** widget using one of the following approaches.
 Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 #####See Also#####
-- [Associate Editor with Validator](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Associate_Editor_with_Validator)
-- [Associate Editor with Validator - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Associate_Editor_with_Validator)
+- [Validate an Editor Value](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Validate_an_Editor_Value)
 - [ASP.NET MVC Controls - Client-Side Data Validation](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
 
 The learn the validation rules that can be defined using the **Validator** widget for an editor, refer to the [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section.
 
-The editors that are associated with the **Validator** widgets are automatically validated against the specified rules each time the event assigned to the editor's **valueChangeEvent** option occurs. In addition, several editors can be validated at once. To learn how to do this, refer to the [Validate Editor Values](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Validate_Editor_Values) topic.
+The editors that are associated with the **Validator** widgets are automatically validated against the specified rules each time the event assigned to the editor's **valueChangeEvent** option occurs. In addition, several editors can be validated at once. To learn how to do this, refer to the [Validate Several Editor Values](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Validate_Several_Editor_Values) topic.
 
 #####See Also#####
-- [Validate Editor Values](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Validate_Editor_Values)
-- [Validate Editor Values - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Validate_Editor_Values)
+- [Validate Several Editor Values](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Validate_Several_Editor_Values)
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/editorsvalidationvalidationvalidation/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
 <a href="https://www.youtube.com/watch?v=xbn_NbeB5es&index=34&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>

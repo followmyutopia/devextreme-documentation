@@ -1,4 +1,4 @@
-The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) is a place in the pivot grid widget where you can put fields. Each field whose data is displayed in the pivot grid is bound to a particular area. There are four different areas.
+﻿The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) is a place in the pivot grid widget where you can put fields. Each field whose data is displayed in the pivot grid is bound to a particular area. There are four different areas.
 
 * **Row area** &#8212; the first pivot grid dimension, which is used to group data. The categories generated from fields in this area are displayed in the [row header](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers). Dimensional areas should contain dimensional fields only (fields describing categories that can be used to group or filter data).
 

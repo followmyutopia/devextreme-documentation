@@ -1,4 +1,4 @@
-When a user is allowed to [select](/Documentation/Guide/Widgets/DataGrid/Selection/) records in the [multiple mode](/Documentation/Guide/Widgets/DataGrid/Selection/#Selecting_in_UI/Multiple_Mode), a grid is supplemented with a selection column. This column contains a set of check boxes, each of which corresponds to a data row. Toggling a check box selects or deselects the row.
+﻿When a user is allowed to [select](/Documentation/Guide/Widgets/DataGrid/Selection/) records in the [multiple mode](/Documentation/Guide/Widgets/DataGrid/Selection/#Selecting_in_UI/Multiple_Mode), a grid is supplemented with a selection column. This column contains a set of check boxes, each of which corresponds to a data row. Toggling a check box selects or deselects the row.
 
 ![DevExtreme DataGrid SelectionColumn](/Content/images/doc/17_2/DataGrid/SelectionColumn.png)
 

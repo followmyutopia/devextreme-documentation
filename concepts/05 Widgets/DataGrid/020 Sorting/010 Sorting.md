@@ -1,4 +1,4 @@
-Initially, grid records appear in an order specified in the data source. At runtime, these records can be sorted. To sort records by a column, a user must click its [header](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Configuring_Column_Headers). The first click on the header applies an ascending sort order to the column. Each subsequent click reverses the sort order. When records are sorted by a column, its header is marked with an arrow.
+﻿Initially, grid records appear in an order specified in the data source. At runtime, these records can be sorted. To sort records by a column, a user must click its [header](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Configuring_Column_Headers). The first click on the header applies an ascending sort order to the column. Each subsequent click reverses the sort order. When records are sorted by a column, its header is marked with an arrow.
 
 ![DevExtreme DataGrid Sorting](/Content/images/doc/17_2/DataGrid/SortedColumns.png)
 

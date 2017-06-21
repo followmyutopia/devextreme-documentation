@@ -7,6 +7,9 @@ To configure a multi-pane chart, follow the steps below.
 1. **Create and name the panes**         
 Declare several objects in the [panes](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/) array. Each object configures a single pane. Then, give each pane a unique [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/#name).
 
+    ---
+    ##### jQuery
+
         <!--JavaScript-->$(function() {
             $("#chartContainer").dxChart({
                 // ...
@@ -17,9 +20,21 @@ Declare several objects in the [panes](/Documentation/ApiReference/Data_Visualiz
             });
         });
 
+    ##### Angular
+
+        <!--HTML--><dx-chart ... >
+            <dxi-panes name="topPane"></dxi-panes>
+            <dxi-panes name="bottomPane"></dxi-panes>
+        </dx-chart>
+
+    ---
+
 2. **Bind value axes to panes**         
 If a **Chart** has multiple panes, it most likely has [multiple value axes](/Documentation/Guide/Widgets/Chart/Axes/Multi-Axis_Chart/).
 Bind each of them to a pane using the [pane](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#pane) option.
+
+    ---
+    ##### jQuery
 
         <!--JavaScript-->$(function() {
             $("#chartContainer").dxChart({
@@ -31,8 +46,21 @@ Bind each of them to a pane using the [pane](/Documentation/ApiReference/Data_Vi
             });
         });
 
+    ##### Angular
+
+        <!--HTML--><dx-chart ... >
+            ...
+            <dxi-value-axis pane="topPane"></dxi-value-axis>
+            <dxi-value-axis pane="bottomPane"></dxi-value-axis>
+        </dx-chart>
+
+    ---
+
 3. **Bind series to panes**        
 Bind each series to a pane using the [pane](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#pane) option like you did for value axes in the previous step. If the **pane** option is missing from the series configuration, such a series will be bound to the [defaultPane](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#defaultPane).
+
+    ---
+    ##### jQuery
 
         <!--JavaScript-->$(function() {
             $("#chartContainer").dxChart({
@@ -45,12 +73,30 @@ Bind each series to a pane using the [pane](/Documentation/ApiReference/Data_Vis
                 }, {
                     pane: 'topPane'
                 }, {
-                    // this series will be bound to the default pane
+                    // This series will be bound to the default pane
                 }]
             });
         });
 
+    ##### Angular
+
+        <!--HTML--><dx-chart ...
+            defaultPane="topPane">
+            ...
+            <dxi-series pane="topPane"></dxi-series>
+            <dxi-series pane="bottomPane"></dxi-series>
+            <dxi-series pane="topPane"></dxi-series>
+            <dxi-series>
+                <!-- This series will be bound to the default pane -->
+            </dxi-series>
+        </dx-chart>
+
+    ---
+
 If all panes in a multi-pane chart should have uniform settings, you can specify them in the [commonPaneSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonPaneSettings/) object.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -64,6 +110,20 @@ If all panes in a multi-pane chart should have uniform settings, you can specify
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-common-pane-settings
+            backgroundColor="yellow">
+            <dxo-border
+                [visible]="true"
+                [width]="2">
+            </dxo-border>
+        </dxo-common-pane-settings>
+    </dx-chart>
+
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/MultiplePanes/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 

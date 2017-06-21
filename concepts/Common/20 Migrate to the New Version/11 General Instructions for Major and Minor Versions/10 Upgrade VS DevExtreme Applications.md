@@ -6,7 +6,7 @@ There are two ways of accessing the Project Converter.
 
     ![Invoke Project Converter](Content/images/doc/17_2/DevExtreme/ProjectConverterFromMenu.png)
 
-- Run the **ProjectConverter.exe** program from the folder where DevExtreme is installed. By default, it is located in the "...\Program Files (x86)\DevExpress 17.1\DevExtreme\Tools\DevExtreme HTML JS\" folder.
+- Run the **ProjectConverter.exe** program from the folder where DevExtreme is installed. By default, it is located in the "...\Program Files (x86)\DevExpress 17.2\DevExtreme\Tools\DevExtreme HTML JS\" folder.
 
 Specify the path to the project(s) to be upgraded in the **Project folder** text box.
 

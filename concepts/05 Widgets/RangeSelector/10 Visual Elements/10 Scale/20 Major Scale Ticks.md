@@ -1,4 +1,4 @@
-The range selector's scale is divided using two types of ticks: major and minor. Major ticks are accompanied with scale labels, while minor ticks are not.
+﻿The range selector's scale is divided using two types of ticks: major and minor. Major ticks are accompanied with scale labels, while minor ticks are not.
 
 ![ChartJS RangeSelector](/Content/images/doc/17_2/ChartJS/RangeSelectorMajorTicks.png)
 

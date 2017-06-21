@@ -1,4 +1,4 @@
-Since a point is set up by two coordinates - an argument and a value - there should be two axes: one defining arguments and one defining values. This topic describes the axis for arguments, which is called the _argument axis_. To learn about the axis of values, refer to the [Value Axis](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Value_Axis) topic. To get common information on the **PolarChart** widget's axes, refer to the [Axes](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes) topic.
+﻿Since a point is set up by two coordinates - an argument and a value - there should be two axes: one defining arguments and one defining values. This topic describes the axis for arguments, which is called the _argument axis_. To learn about the axis of values, refer to the [Value Axis](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Value_Axis) topic. To get common information on the **PolarChart** widget's axes, refer to the [Axes](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes) topic.
 
 There are three types of argument axes.
 

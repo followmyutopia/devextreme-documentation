@@ -5,12 +5,23 @@ When the **Chart** is rotated, its axes are swapped around.
 
 To rotate the **Chart**, set the [rotated](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#rotated) option to *true*.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
             rotated: true
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ...
+        [rotated]="true">
+    </dx-chart>
+
+---
 
 Besides being swapped around, chart axes can be inverted, or "mirrored".
 
@@ -19,6 +30,9 @@ Besides being swapped around, chart axes can be inverted, or "mirrored".
 <img src="/Content/images/doc/17_2/ChartJS/visual_elements/axis_inverted_value.png" alt="DevExtreme HTML5 JavaScript Charts InvertedValueAxis" style="display:inline-block;margin-left:5px" />
 
 To invert both argument and value axes, assign *true* to the [inverted](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/#inverted) option of the [commonAxisSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/) object. The same option declared in the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/) or [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) object inverts a specific axis.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -35,6 +49,17 @@ To invert both argument and value axes, assign *true* to the [inverted](/Documen
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-common-axis-settings [inverted]="true"></dxo-common-axis-settings>
+        <!-- or for a specific axis -->
+        <dxo-argument-axis [inverted]="true"></dxo-argument-axis>
+        <dxi-value-axis [inverted]="true"></dxi-value-axis>
+    </dx-chart>
+
+---
 
 #####See Also#####
 - [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/)

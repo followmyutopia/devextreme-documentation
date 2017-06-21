@@ -4,6 +4,9 @@ To export or print a widget, a user clicks the *"Exporting/Printing"* button and
 
 To enable both export and printing, assign *true* to the [export](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/) | **enabled** option. If you need only export to be available to the user, disable printing by assigning *false* to the **export** | [printingEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#printingEnabled) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -14,7 +17,21 @@ To enable both export and printing, assign *true* to the [export](/Documentation
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-export
+            [enabled]="true"
+            [printingEnabled]="false">
+        </dxo-export>
+    </dx-chart>
+
+---
+
 If you want to restrict the set of formats available for export, change the **export** | [formats](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#formats) array. You can also specify the default name for the exported file using the [fileName](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#fileName) option.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -26,5 +43,17 @@ If you want to restrict the set of formats available for export, change the **ex
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-export
+            [enabled]="true"
+            [formats]="['PNG', 'JPEG']"
+            fileName="exported_chart">
+        </dxo-export>
+    </dx-chart>
+
+---
 
 To support export and printing in **IE9** and **Safari on MacOS**, you need to set up a proxy on your server. For details, see the [Set Up a Server-Side Proxy](/Documentation/Guide/Widgets/Chart/Client-Side_Export_and_Printing/#Set_Up_a_Server-Side_Proxy) topic.

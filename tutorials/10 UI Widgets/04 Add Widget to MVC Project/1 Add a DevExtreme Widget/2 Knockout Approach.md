@@ -1,4 +1,4 @@
-To use the Knockout approach, add the *knockout-3.4.0.js* script library to the **Scripts** folder of your project. You can find this library in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 17.1\DevExtreme\Sources** by default.
+To use the Knockout approach, add the *knockout-3.4.0.js* script library to the **Scripts** folder of your project. You can find this library in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 17.2\DevExtreme\Sources** by default.
 
 Reference the Knockout library in the Index view.
 

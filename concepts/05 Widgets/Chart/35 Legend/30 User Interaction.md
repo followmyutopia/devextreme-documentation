@@ -1,5 +1,8 @@
 A user can interact with the legend by pausing on legend items. When a user does this, the series that corresponds to the legend item being paused on becomes highlighted. To disable this capability, set the [hoverMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/legend/#hoverMode) option to *"none"*.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -9,7 +12,18 @@ A user can interact with the legend by pausing on legend items. When a user does
         });
     });
 
-Series that consist of several elements rather than just series points ([Line-](/Documentation/Guide/Widgets/Chart/Series_Types/#Line) and [Area-like](/Documentation/Guide/Widgets/Chart/Series_Types/#Area), [Range Area](/Documentation/Guide/Widgets/Chart/Series_Types/#Range_Area)) can be highlighted _without_ the series points. For this, set the **hoverMode** option to *"excludePoints"*. For other series, this setting has the same effect as *"none"*.
+##### Angular
+
+    <!--HTML--><dx-chart>
+        <dxo-legend hoverMode="none"></dxo-legend>
+    </dx-chart>
+
+---
+
+Series that consist of several elements rather than just series points ([Range Area](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/), all [line](/Documentation/Guide/Widgets/Chart/Series_Types/Line_Series/) and [area](/Documentation/Guide/Widgets/Chart/Series_Types/Area_Series/) series) can be highlighted _without_ the series points. For this, set the **hoverMode** option to *"excludePoints"*. For other series, this setting has the same effect as *"none"*.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -20,11 +34,22 @@ Series that consist of several elements rather than just series points ([Line-](
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart>
+        <dxo-legend hoverMode="excludePoints"></dxo-legend>
+    </dx-chart>
+
+---
+
 Pausing on a legend item causes the [seriesHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesHoverChanged) event to raise. Refer to the [Series Hover Events](/Documentation/Guide/Widgets/Chart/Series/Hover/#Events) topic for details on handling this event.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/HoverMode/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
-In addition, a user can click legend items. By default, the widget does not react to a click, but you can instruct it to by handling the [legendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#legendClick) event. If the handling function is not going to be changed at runtime, assign it to the [onLegendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onLegendClick) option when you configure the widget. Otherwise, or if you need several handlers for the **legendClick** event, subscribe to it using the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#oneventName_eventHandler) method.
+In addition, a user can click legend items. By default, the widget does not react to a click, but you can instruct it to by handling the [legendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#legendClick) event. If the handling function is not going to be changed at runtime, assign it to the [onLegendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onLegendClick) option when you configure the widget. Otherwise, or if you need several handlers for the **legendClick** event, subscribe to it using the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -51,8 +76,24 @@ In addition, a user can click legend items. By default, the widget does not reac
             .on("legendClick", legendClickEventHandler2);
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart
+        (onLegendClick)="onLegendClick($event)">
+    </dx-chart>
+
+    <!--JavaScript-->
+    export class AppComponent {
+        onLegendClick (e) {
+            let series = e.target;
+            // Event handling commands go here
+        }
+    }
+
+---
+
 #####See Also#####
-- [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 - [Relocate the Legend](/Documentation/Guide/Widgets/Chart/Legend/Relocate_the_Legend/)
 - [Rearrange Legend Items](/Documentation/Guide/Widgets/Chart/Legend/Rearrange_Legend_Items/)
 - [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/HoverMode/jQuery/Light/)

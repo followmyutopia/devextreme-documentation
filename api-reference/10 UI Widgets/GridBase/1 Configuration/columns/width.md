@@ -10,11 +10,16 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the width of the column in pixels or percentages.
+Specifies the column's width in pixels or percentages. Ignored if less than [minWidth](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#minWidth).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option is ignored if its value is less than [minWidth](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#minWidth).
+The option can hold a value of the following types:
+
+ - **Number**  
+    The column's width in pixels.
+ - **String**  
+    A CSS-accepted measurement of the column's width (for example, *"55px"*, *"80%"* and *"auto"*).
 
 #####See Also#####
 - [columnAutoWidth]({basewidgetpath}/Configuration/#columnAutoWidth)

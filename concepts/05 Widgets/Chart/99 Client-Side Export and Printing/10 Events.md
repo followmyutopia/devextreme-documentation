@@ -11,6 +11,9 @@ Allows you to access exported data in the <a href="https://en.wikipedia.org/wiki
 
 You can handle these events with functions. If the handling functions are not going to be changed at runtime, assign them to the [onExporting](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onExporting), [onExported](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onExported) and [onFileSaving](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onFileSaving) options when you configure the widget.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -26,7 +29,31 @@ You can handle these events with functions. If the handling functions are not go
         });
     });
 
-Otherwise, or if you need several handlers for a single event, subscribe to the export-related events using the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#oneventName_eventHandler) method.
+
+##### Angular
+
+    <!--HTML--><dx-chart ...
+        (onExporting)="onExporting($event)"
+        (onExported)="onExported($event)"
+        (onFileSaving)="onFileSaving($event)">
+    </dx-chart>
+
+    <!--JavaScript-->
+    export class AppComponent {
+        onExporting (e) {
+            // Handler of the "exporting" event
+        },
+        onExported (e) {
+            // Handler of the "exported" event
+        },
+        onFileSaving (e) {
+            // Handler of the "fileSaving" event
+        }
+    }
+
+---
+
+Otherwise, or if you need several handlers for a single event, subscribe to the export-related events using the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var exportedHandler1 = function (e) {
@@ -42,4 +69,4 @@ Otherwise, or if you need several handlers for a single event, subscribe to the 
         .on("exported", exportedHandler2);
 
 #####See Also#####
-- [Handle Events](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/)
+- **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)

@@ -26,9 +26,14 @@ You can create the widget using one of the following approaches.
         $("#dropDownBox").dxDropDownBox({
             value: fruits[0],
             dataSource: fruits,
-            contentTemplate: function(e){
+            contentTemplate: function (e) {
                 var $list = $("<div>").dxList({
-                    dataSource: e.component.option("dataSource") 
+                    dataSource: fruits,
+                    selectionMode: "single",
+                    onSelectionChanged: function (args) {
+                        e.component.option("value", args.addedItems[0]);
+                        e.component.close();
+                    }
                 });
                 return $list;
             }
@@ -42,28 +47,44 @@ You can create the widget using one of the following approaches.
 
     <!--HTML-->
     <dx-drop-down-box
-        [value]="fruits[0]"
+        [(value)]="selectedFruit"
+        [(opened)]="isDropDownBoxOpened"
         [dataSource]="fruits">
         <div *dxTemplate="let contentData of 'content'">
-            <dx-list [dataSource]="fruits"></dx-list>
+            <dx-list 
+                [dataSource]="fruits"
+                selectionMode="single"
+                (onSelectionChanged)="changeDropDownBoxValue($event)">
+            </dx-list>
         </div>
     </dx-drop-down-box>
 
     <!--JavaScript-->
     export class AppComponent {
         fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+        selectedFruit = fruits[0];
+        isDropDownBoxOpened = false;
+        changeDropDownBoxValue = function (args) {
+            selectedFruit = args.addedItems[0];
+            isDropDownBoxOpened = false;
+        }
     }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-drop-down-box="{
-            value: fruits[0],
-            dataSource: fruits
+            dataSource: fruits,
+            bindingOptions: {
+                value: 'selectedFruit',
+                opened: 'isDropDownBoxOpened'
+            }
         }">
             <div data-options="dxTemplate: { name: 'content' }">
                 <div dx-list="{
-                    dataSource: fruits
+                    dataSource: fruits,
+                    selectionMode: 'single',
+                    onSelectionChanged: changeDropDownBoxValue
                 }"></div>
             </div>
         </div>
@@ -73,6 +94,12 @@ You can create the widget using one of the following approaches.
     angular.module('DemoApp', ['dx'])
         .controller('DemoController', function ($scope) {
             $scope.fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+            $scope.selectedFruit = $scope.fruits[0];
+            $scope.isDropDownBoxOpened = false;
+            $scope.changeDropDownBoxValue = function (args) {
+                $scope.selectedFruit = args.addedItems[0];
+                $scope.isDropDownBoxOpened = false;
+            }
         });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
@@ -80,20 +107,79 @@ You can create the widget using one of the following approaches.
     <!--HTML-->
     <div data-bind="dxDropDownBox: {
         value: fruits[0],
-        dataSource: fruits
+        dataSource: fruits,
+        opened: isDropDownBoxOpened
     }">
         <div data-options="dxTemplate: { name: 'content' }">
             <div data-bind="dxList: {
-                dataSource: fruits
+                dataSource: fruits,
+                selectionMode: 'single',
+                onSelectionChanged: changeDropDownBoxValue
             }"></div>
         </div>
     </div>
 
     <!--JavaScript-->
-    var viewModel = {
-        fruits: ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"]
+    var viewModel = function () {
+        var vm = { };
+        vm.fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+        vm.selectedFruit = ko.observable(vm.fruits[0]);
+        vm.isDropDownBoxOpened = ko.observable(false);
+        vm.changeDropDownBoxValue = function (args) {
+            vm.selectedFruit(args.addedItems[0]);
+            vm.isDropDownBoxOpened(false);
+        }
+        return vm;
     };
     ko.applyBindings(viewModel);
+
+#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
+    
+    <!--Razor C#-->
+    @(Html.DevExtreme().DropDownBox()
+        .ID("dropDownBox")
+        .DataSource(new[] { "Apples", "Oranges", "Lemons", "Pears", "Pineapples" })
+        .Value("Apples")
+        .ContentTemplate(@<text>
+            @(Html.DevExtreme().List()
+                .DataSource(new JS("component.option('dataSource')"))
+                .SelectionMode(ListSelectionMode.Single)
+                .OnSelectionChanged("innerList_selectionChanged")
+            )
+        </text>)
+    )
+
+    <script>
+        function innerList_selectionChanged (e) {
+            var dropDownBox = $("#dropDownBox").dxDropDownBox("instance");
+            dropDownBox.option("value", e.addedItems[0]);
+            dropDownBox.close();
+        }
+    </script>
+
+    <!--Razor VB-->
+    @Code
+        Html.DevExtreme().DropDownBox() _
+            .ID("dropDownBox") _
+            .DataSource({ "Apples", "Oranges", "Lemons", "Pears", "Pineapples" }) _
+            .Value("Apples") _
+            .ContentTemplate(Sub()
+                @<text>
+                    @Html.DevExtreme().List() _
+                        .DataSource(New JS("component.option('dataSource')")) _
+                        .SelectionMode(ListSelectionMode.Single) _
+                        .OnSelectionChanged("innerList_selectionChanged")
+                </text>
+            End Sub).Render()
+    End Code
+
+    <script>
+        function innerList_selectionChanged (e) {
+            var dropDownBox = $("#dropDownBox").dxDropDownBox("instance");
+            dropDownBox.option("value", e.addedItems[0]);
+            dropDownBox.close();
+        }
+    </script>
 
 ---
 

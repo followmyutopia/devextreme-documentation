@@ -18,7 +18,7 @@ The index number of the list item to select. If the list is grouped, pass an obj
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-Note that the result of the method execution depends on the current value of the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectionMode) option, which accepts the following values.
+Note that the result of the method execution depends on the current value of the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectionMode) option that accepts the following values.
 
 - **none**  
  The method does nothing.

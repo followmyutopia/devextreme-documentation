@@ -4,6 +4,9 @@ Crosshair is a pointer represented by two mutually-crossing lines stretched over
 
 To enable the crosshair, set the **crosshair** | [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/#enabled) option to *true*. To show the crosshair labels, do the same with the **crosshair** | [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/label/) | **visible** option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -15,6 +18,16 @@ To enable the crosshair, set the **crosshair** | [enabled](/Documentation/ApiRef
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-crosshair [enabled]="true">
+            <dxo-label [visible]="true"></dxo-label>
+        </dxo-crosshair>
+    </dx-chart>
+
+---
 
 For information about all options of the crosshair and its labels, visit the [crosshair](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/) section of the API reference.
 

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-An object defining the [animation options](/Documentation/ApiReference/Common/Object_Structures/animationConfig/) of the widget.
+Configures widget visibility animations. This object contains two fields: [show](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/animation/#show) and [hide](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/animation/#hide).
 <!--/shortDescription-->
 
 <!--fullDescription-->

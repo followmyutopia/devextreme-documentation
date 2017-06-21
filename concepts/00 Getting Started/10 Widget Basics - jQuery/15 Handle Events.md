@@ -28,6 +28,9 @@ You can subscribe to an event using a configuration option. All event handling o
         .on("itemClick", handler1)
         .on("itemClick", handler2);
 
+#####See Also#####
+- [Call Methods](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/)
+
 ###Unsubscribe from an Event###
 
 To detach all the handlers that you attached with the **on()** method, call the **off()** method without arguments.

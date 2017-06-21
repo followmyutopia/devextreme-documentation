@@ -4,6 +4,9 @@ Axis ticks divide an axis into parts, and thus the readability of visualized dat
 
 To configure major or minor ticks, use the [tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tick/) or [minorTick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTick/) object respectively. Options in these objects change the **color**, **length**, **width**, and **opacity** of ticks. But before specifying them, make sure that you have made ticks [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tick/#visible).
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -13,6 +16,17 @@ To configure major or minor ticks, use the [tick](/Documentation/ApiReference/Da
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis> <!-- or dxi-value-axis, or dxo-common-axis-settings -->
+            <dxo-tick [visible]="true"></dxo-tick>
+            <dxo-minor-tick [visible]="true"></dxo-minor-tick>
+        </dxo-argument-axis>
+    </dx-chart>
+
+---
 
 #####See Also#####
 - [Arrange Axis Ticks](/Documentation/Guide/Widgets/Chart/Axes/Arrange_Axis_Ticks/)

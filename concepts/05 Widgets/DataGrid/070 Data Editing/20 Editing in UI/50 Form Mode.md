@@ -1,4 +1,4 @@
-The form editing mode is technically equivalent to the [row mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Row_Mode). The only difference is a visual presentation of a row in the editing state.
+﻿The form editing mode is technically equivalent to the [row mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Row_Mode). The only difference is a visual presentation of a row in the editing state.
 
 When a row is being edited in the form mode, it transforms into a form as shown at the screenshot below.
 

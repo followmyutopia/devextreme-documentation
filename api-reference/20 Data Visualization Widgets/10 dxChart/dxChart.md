@@ -76,14 +76,16 @@ You can create the **Chart** widget using one of the following approaches.
             argumentField="fruit"
             type="bar">
         </dxo-common-series-settings>
-        <dxi-series valueField="yeld"></dxi-series>
+        <dxi-series valueField="yield"></dxi-series>
         <dxi-series valueField="consumed"></dxi-series>
     </dx-chart>
 
     <!--JavaScript-->
     export class AppComponent {
         fruits = [
-            // ...   
+            { fruit: 'Oranges', yield: 10, consumed: 7 },
+            { fruit: 'Apples', yield: 15, consumed: 14 },
+            { fruit: 'Bananas', yield: 9, consumed: 9 }  
         ];
     }
 

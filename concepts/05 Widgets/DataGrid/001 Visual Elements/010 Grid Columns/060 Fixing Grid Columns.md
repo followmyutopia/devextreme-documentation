@@ -1,4 +1,4 @@
-The **DataGrid** widget allows you to anchor columns to the left or right grid edge. When anchored, columns are not horizontally scrolled with the grid. Use this feature if you need a column (or columns) to always be displayed, regardless of [scrolling](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Scrolling/Horizontal_Scrolling).
+﻿The **DataGrid** widget allows you to anchor columns to the left or right grid edge. When anchored, columns are not horizontally scrolled with the grid. Use this feature if you need a column (or columns) to always be displayed, regardless of [scrolling](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Scrolling/Horizontal_Scrolling).
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridcolumnscolumncustomization" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

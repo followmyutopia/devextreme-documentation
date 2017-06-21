@@ -1,4 +1,4 @@
-<article data-show="/Content/Applications/17_2/LearningCenter/Data-BoundApplication/step0/index.html">
+﻿<article data-show="/Content/Applications/117_2LearningCenter/Data-BoundApplication/step0/index.html">
 
 - From the main menu in Visual Studio, select **File** | **New** | **Project...** to get to the **New Project** dialog.
 

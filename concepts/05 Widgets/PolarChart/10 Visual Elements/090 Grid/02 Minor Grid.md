@@ -1,4 +1,4 @@
-In addition to the [grid lines](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Grid) built on [axis ticks](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axis_Ticks), the **PolarChart** widget provides the **minor grid** that is built on [minor ticks](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axis_Ticks/Minor_Ticks). The lines of the minor grid extend from the minor ticks throughout the entire chart's plot.
+﻿In addition to the [grid lines](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Grid) built on [axis ticks](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axis_Ticks), the **PolarChart** widget provides the **minor grid** that is built on [minor ticks](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axis_Ticks/Minor_Ticks). The lines of the minor grid extend from the minor ticks throughout the entire chart's plot.
 
 ![Minor Grid](/Content/images/doc/17_2/ChartJS/Polar_Minor_Grid.png)
 

@@ -66,5 +66,5 @@ The layout controller that must be used to provide a layout markup for the given
 <!--typeFunctionParamName1_field3-->availableLayoutControllers<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->array<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-A collection of the layout controllers that are registered in the application and appropriate for the current device (its platform and form). Each object exposes the "controller" field and the fields presenting the <a href="/Documentation/17_2/ApiReference/Common_Object_Structures/device">device</a> object fields.
+A collection of the layout controllers that are registered in the application and appropriate for the current device (its platform and form). Each object exposes the "controller" field and the fields presenting the <a href="/Documentation/17_2/ApiReference/Common/Object_Structures/device/">device</a> object fields.
 <!--/typeFunctionParamDescription1_field3-->

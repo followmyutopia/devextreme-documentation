@@ -1,4 +1,4 @@
-The DevExtreme framework includes a data layer, which is a set of complementary components that enable you to read and write data. The core data layer objects are [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) and [Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores).
+﻿The DevExtreme framework includes a data layer, which is a set of complementary components that enable you to read and write data. The core data layer objects are [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) and [Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores).
 
 The DataSource is intended to simplify working with data, whether it be an in-memory array, a local browser storage, remote service, or any custom storage. The DataSource is a stateful object that keeps sorting, grouping, filtering, and keeps data transformation options and applies them each time data is loaded. It also provides [events](/Documentation/ApiReference/Data_Layer/DataSource/Events/) intended to handle changing data and the state.
 

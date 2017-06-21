@@ -16,7 +16,7 @@ This array can be used as a data source in **Chart** as well, but in this case, 
 		{ year: 2014, aluminum: 3650, nickel: 3254, copper: 4052 }
 	];
 
-In **Chart**, the majority of [series types](/Documentation/Guide/Widgets/Chart/Series_Types/) requires one value for one argument to define one series point. Data sources for such series are represented above. However, there are series types that require two or more values for one argument to define one point. For example, a [range area](/Documentation/Guide/Widgets/Chart/Series_Types/#Range_Area) or [range bar](/Documentation/Guide/Widgets/Chart/Series_Types/#Range_Bar) series needs two values, while a [candle stick](/Documentation/Guide/Widgets/Chart/Series_Types/#Candle_Stick) or [stock](/Documentation/Guide/Widgets/Chart/Series_Types/#Stock) series needs four values for one argument. The code snippet below shows how to implement a data source for two series of the range bar type.
+In **Chart**, the majority of [series types](/Documentation/Guide/Widgets/Chart/Series_Types/) requires one value for one argument to define one series point. Data sources for such series are represented above. However, there are series types that require two or more values for one argument to define one point. For example, [range series](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/) need two values, while [financial series](/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/) series need four values for one argument. The code snippet below shows how to implement a data source for two series of the range bar type.
 
 	<!--JavaScript-->var rangeDataSource = [
 		{ year: 2005, aluminumMin: 2450, aluminumMax: 2750, copperMin: 2230, copperMax: 2600 },

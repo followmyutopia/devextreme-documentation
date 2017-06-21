@@ -2,12 +2,12 @@ The DevExtreme SPA framework allows you to make your application "live" - when e
 
 <img style="margin:0px auto;display:block" src="/Content/images/doc/17_2/PhoneJS/Animation.png" alt="Animation Mechanism" usemap="#animationStructure" />
 <map name="animationStructure">
-<area  alt="HtmlApplication Object" title="HtmlApplication object" href="/Documentation/ApiReference/Application_Framework#HtmlApplication" shape="rect" coords="90,53,268,132" style="outline:none;" target="_self"     />
-<area  alt="AnimationSet Option" title="AnimationSet option" href="/Documentation/ApiReference/Application_Framework/HtmlApplication/Configuration/#animationSet" shape="rect" coords="290,96,440,121" style="outline:none;" target="_self"     />
+<area  alt="HtmlApplication Object" title="HtmlApplication object" href="/Documentation/17_2/ApiReference/SPA_Framework#HtmlApplication" shape="rect" coords="90,53,268,132" style="outline:none;" target="_self"     />
+<area  alt="AnimationSet Option" title="AnimationSet option" href="/Documentation/17_2/ApiReference/SPA_Framework/HtmlApplication/Configuration/#animationSet" shape="rect" coords="290,96,440,121" style="outline:none;" target="_self"     />
 <area  alt="Animation Sets" title="animationSets" href="/Documentation/17_2/Guide/SPA_Framework/Animation/#Animation_Sets" shape="rect" coords="470,24,680,165" style="outline:none;" target="_self"     />
 <area  alt="Animation Presests" title="animationPresets" href="/Documentation/17_2/Guide/SPA_Framework/Animation/#Animation_Presets" shape="rect" coords="472,286,679,364" style="outline:none;" target="_self"     />
-<area  alt="Transition Executor" title="TransitionExecutor" href="/Documentation/ApiReference/Core/#TransitionExecutor" shape="rect" coords="91,288,267,363" style="outline:none;" target="_self"     />
-<area  alt="fx" title="fx" href="/Documentation/ApiReference/Core/#fx" shape="rect" coords="90,431,266,506" style="outline:none;" target="_self"     />
+<area  alt="Transition Executor" title="TransitionExecutor" href="/Documentation/17_2/ApiReference/Common/utils/TransitionExecutor/" shape="rect" coords="91,288,267,363" style="outline:none;" target="_self"     />
+<area  alt="fx" title="fx" href="/Documentation/17_2/ApiReference/Common/utils/fx/" shape="rect" coords="90,431,266,506" style="outline:none;" target="_self"     />
 <area shape="rect" coords="713,537,715,539" alt="Image Map" style="outline:none;" />
 </map>
 

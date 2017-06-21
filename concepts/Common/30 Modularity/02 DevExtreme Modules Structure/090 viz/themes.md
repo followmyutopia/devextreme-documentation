@@ -6,6 +6,10 @@ Exports:
 
         require("viz/themes").currentTheme
 
+- *refreshTheme* - The [refreshTheme()](/Documentation/ApiReference/Common/utils/viz/Methods/#refreshTheme) method
+
+        require("viz/themes").refreshTheme
+
 - *registerTheme* - The [registerTheme(customTheme, baseTheme)](/Documentation/ApiReference/Common/utils/viz/Methods/#registerThemecustomTheme_baseTheme) method
 
         require("viz/themes").registerTheme

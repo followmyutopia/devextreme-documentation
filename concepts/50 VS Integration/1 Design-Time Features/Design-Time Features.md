@@ -1,4 +1,4 @@
-To [implement a view in a DevExtreme SPA Framework-based application](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Define_a_View), define the view's HTML markup, apply style sheets and implement a function that returns the view's ViewModel. DevExtreme comes with the **View Designer** that helps you design view markup easily and quickly. To open the **View Designer**, change the View's *.html* file extension to the *.dxView* extension and double-click the file.
+﻿To [implement a view in a DevExtreme SPA Framework-based application](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Define_a_View), define the view's HTML markup, apply style sheets and implement a function that returns the view's ViewModel. DevExtreme comes with the **View Designer** that helps you design view markup easily and quickly. To open the **View Designer**, change the View's *.html* file extension to the *.dxView* extension and double-click the file.
 
 [note]If you create an application using [DevExtreme project templates](/Documentation/Guide/VS_Integration/Project_Templates/), HTML view files will already have the *.dxView* extension.
 

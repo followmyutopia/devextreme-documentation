@@ -1,4 +1,4 @@
-**Cordova Application** is a project template for building an Appache Cordova HTML/JS application based on the [DevExtreme SPA Framework](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/SPA_Framework) and [DevExtreme widgets](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/UI_Widgets_Library).
+﻿**Cordova Application** is a project template for building an Appache Cordova HTML/JS application based on the [DevExtreme SPA Framework](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/SPA_Framework) and [DevExtreme widgets](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Mobile_Development/Overview/UI_Widgets_Library).
 
 [note]The DevExtreme **Cordova Application** template is available only in Visual Studio 2015.
 

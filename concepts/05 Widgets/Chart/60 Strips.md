@@ -4,6 +4,9 @@ A strip is a colored piece of the chart's background that highlights a range of 
 
 To configure the strips, declare the [strips](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/strips/) array in the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/) or [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) object. This array should contain objects, and each of them configures a single strip. To limit a strip, set its **startValue** and **endValue** options. You may set only one of them, in which case the strip will not have a limit at one end. Note that setting the **color** option is also necessary for a strip to be displayed.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -23,6 +26,21 @@ To configure the strips, declare the [strips](/Documentation/ApiReference/Data_V
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis>
+            <dxi-strip [startValue]="100" [endValue]="150" color="yellow"></dxi-strip>
+            <dxi-strip [startValue]="50" [endValue]="70" color="orange"></dxi-strip>
+        </dxo-argument-axis>
+        <dxi-value-axis>
+            <dxi-strip [startValue]="40" [endValue]="50" color="blue"></dxi-strip>
+            <dxi-strip [startValue]="70" color="red"></dxi-strip>
+        </dxi-value-axis>
+    </dx-chart>
+
+---
+
 If several strips should have a uniform style, you can specify it using one of the following objects.
 
 - **argumentAxis** | [stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/stripStyle/)         
@@ -35,6 +53,9 @@ Style for strips belonging to the value axis.
 Style for all strips in the **Chart**.
 
 Note that individual settings override axis-specific settings which, in turn, override common settings.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -62,6 +83,34 @@ Note that individual settings override axis-specific settings which, in turn, ov
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis>
+            <dxi-strip ... >
+                <!-- high priority -->
+            </dxi-strip>
+            <dxo-strip-style ... >
+                <!-- middle priority -->
+            </dxo-strip-style>
+        </dxo-argument-axis>
+        <dxi-value-axis>
+            <dxi-strip ... >
+                <!-- high priority -->
+            </dxi-strip>
+            <dxo-strip-style ... >
+                <!-- middle priority -->
+            </dxo-strip-style>
+        </dxi-value-axis>
+        <dxo-common-axis-settings>
+            <dxo-strip-style ... >
+                <!-- low priority -->
+            </dxo-strip-style>
+        </dxo-common-axis-settings>
+    </dx-chart>
+
+---
 
 For information about all options of the strips, visit the [strips](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/strips/) section of the API reference.
 

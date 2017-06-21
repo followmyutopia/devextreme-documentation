@@ -1,4 +1,4 @@
-An area label is a text that accompanies a [map area](/Documentation/Guide/Widgets/VectorMap/Visual_Elements/#Areas). Usually, an area label displays the name of a certain geographical object, such as a country, a continent, etc. A label disappears when its area is too small and the text does not fit it. To see the small area labels, zoom in the map.
+﻿An area label is a text that accompanies a [map area](/Documentation/Guide/Widgets/VectorMap/Visual_Elements/#Areas). Usually, an area label displays the name of a certain geographical object, such as a country, a continent, etc. A label disappears when its area is too small and the text does not fit it. To see the small area labels, zoom in the map.
 
 ![Area Labels](/Content/images/doc/17_2/ChartJS/VectorMap_Labels.png)
 

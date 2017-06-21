@@ -18,7 +18,6 @@ To specify the function that will validate the target value, use the rule's [val
 [note]You can use the 'custom' rule for remote scenarios. 
 
 #####See Also#####
-- [Validation Remote Scenarios](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Remote_Scenarios)
-- [Validation Remote Scenarios - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Remote_Scenarios)
+- [Server-Side Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Server-Side_Validation)
 
 <!--/fullDescription-->

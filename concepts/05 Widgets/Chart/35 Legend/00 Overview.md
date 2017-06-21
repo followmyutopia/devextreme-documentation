@@ -4,6 +4,9 @@ The legend is a chart component that helps a user identify series. It contains s
 
 To configure the appearance, location, and content of the legend, use options collected in the [legend](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/legend/) object. 
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -12,6 +15,14 @@ To configure the appearance, location, and content of the legend, use options co
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-legend ... ></dxo-legend>
+    </dx-chart>
+
+---
 
 #####See Also#####
 - [Relocate the Legend](/Documentation/Guide/Widgets/Chart/Legend/Relocate_the_Legend/)

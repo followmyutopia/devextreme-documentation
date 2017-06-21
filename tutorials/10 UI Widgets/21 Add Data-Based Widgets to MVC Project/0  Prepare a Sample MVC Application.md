@@ -1,4 +1,4 @@
-- Create a new MVC application project and add DevExtreme libraries as described in the [Add Widget to MVC Project](/Documentation/Tutorial/UI_Widgets/Add_Widget_to_MVC_Project/) tutorial.
+﻿- Create a new MVC application project and add DevExtreme libraries as described in the [Add Widget to MVC Project](/Documentation/Tutorial/UI_Widgets/Add_Widget_to_MVC_Project/) tutorial.
 
 - Add a Home controller and Index View. In addition, add a JavaScript file to implement JavaScript logic for the widgets that you will add to the Index view.
 

@@ -1,5 +1,8 @@
 The legend can be moved inside the chart using the [position](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/legend/#position) option, and also aligned in the horizontal or vertical direction using the [horizontalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/legend/#horizontalAlignment) or [verticalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/legend/#verticalAlignment) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -10,6 +13,18 @@ The legend can be moved inside the chart using the [position](/Documentation/Api
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart>
+        <dxo-legend
+            position="inside"
+            horizontalAlignment="center"
+            verticalAlignment="top">
+        </dxo-legend>
+    </dx-chart>
+
+---
 
 Below, you can try out these options in action.
 

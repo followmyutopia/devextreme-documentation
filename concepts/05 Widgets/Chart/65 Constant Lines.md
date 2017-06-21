@@ -4,6 +4,9 @@ A constant line is a straght line that extends over the entire **Chart** and ind
 
 To configure the constant lines, declare the [constantLines](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/) array in the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/) or [valueAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/) object. This array should contain objects, and each one of them configures a single constant line. A constant line demands at least the [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/#value) option to be set. 
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -22,6 +25,21 @@ To configure the constant lines, declare the [constantLines](/Documentation/ApiR
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis>
+            <dxi-constant-line [value]="100"></dxi-constant-line>
+            <dxi-constant-line [value]="50"></dxi-constant-line>
+        </dxo-argument-axis>
+        <dxi-value-axis>
+            <dxi-constant-line [value]="40"></dxi-constant-line>
+            <dxi-constant-line [value]="70"></dxi-constant-line>
+        </dxi-value-axis>
+    </dx-chart>
+
+---
+
 If several constant lines should have a uniform style, you can specify it using one of the following objects.
 
 - **argumentAxis** | [constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLineStyle/)         
@@ -34,6 +52,9 @@ Style for constant lines belonging to the value axis.
 Style for all constant lines in the **Chart**.
 
 Note that individual settings override axis-specific settings which, in turn, override common settings.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -61,6 +82,34 @@ Note that individual settings override axis-specific settings which, in turn, ov
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis>
+            <dxi-constant-line ... >
+                <!-- high priority -->
+            </dxi-constant-line>
+            <dxo-constant-line-style ... >
+                <!-- middle priority -->
+            </dxo-constant-line-style>
+        </dxo-argument-axis>
+        <dxi-value-axis>
+            <dxi-constant-line ... >
+                <!-- high priority -->
+            </dxi-constant-line>
+            <dxo-constant-line-style ... >
+                <!-- middle priority -->
+            </dxo-constant-line-style>
+        </dxi-value-axis>
+        <dxo-common-axis-settings>
+            <dxo-constant-line-style ... >
+                <!-- low priority -->
+            </dxo-constant-line-style>
+        </dxo-common-axis-settings>
+    </dx-chart>
+    
+---
 
 For information about all options of the constant lines, visit the [constantLines](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/) section of the API reference.
 

@@ -36,6 +36,6 @@ In **Knockout** apps, you may need to inform a user about an error that occurred
 The editor's **isValid** and **validationError** options should also be specified when using a custom validation engine. In this instance, the validation result will be displayed for the editor by the means of the DevExtreme Validation UI. 
 
 #####See Also#####
-- [Use Custom Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Use_Custom_Validation_Engine)
-- [Use Custom Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Use_Custom_Validation_Engine)
+- [Use a Custom Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Use_a_Custom_Validation_Engine)
+
 <!--/fullDescription-->

@@ -1,4 +1,4 @@
-<!--playground--><!--/playground-->
+﻿<!--playground--><!--/playground-->
 <article data-show-web="/Content/Applications/17_2/Framework/UseRemoteDataforDataGrid/Step3/grid.html" data-show-first="grid.html">
   
 - Create a [CustomStore](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources) object to get JSON data from the file added in the previous step.  

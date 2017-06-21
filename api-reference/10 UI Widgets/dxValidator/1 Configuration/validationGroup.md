@@ -18,6 +18,5 @@ Generally, the editors that are associated with **dxValidator** objects are vali
 If you use the JQuery approach, the **validationGroup** option should be specified for the associated **dxValidator** object to indicate the validation group within which the editor will be validated. Assign the same validation group name for those editors that should be validated together.
 
 #####See Also#####
-- [Validate Groups](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Validate_Editor_Values)
-- [Validate Groups - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/#Validate_Editor_Values)
+- [Validate Several Editor Values](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Validate_Several_Editor_Values)
 <!--/fullDescription-->

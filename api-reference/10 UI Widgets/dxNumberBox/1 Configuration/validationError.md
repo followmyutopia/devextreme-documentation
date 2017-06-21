@@ -37,7 +37,7 @@ In the code, the login specified by an end user is validated on the level of the
         //...
     }
 
-The editor's **validationError** option, as well as the **isValid** option, should also be specified when using a custom validation engine. In this instance, the validation result will be displayed for the editor by the means of the DevExtreme Validation UI. For details, refer to the [Use Custom Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/#Use_Custom_Validation_Engine) topic.
+The editor's **validationError** option, as well as the **isValid** option, should also be specified when using a custom validation engine. In this instance, the validation result will be displayed for the editor by the means of the DevExtreme Validation UI. For details, refer to the [Use a Custom Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Use_a_Custom_Validation_Engine) topic.
 <!--/fullDescription-->
 
 <!--handmade-->

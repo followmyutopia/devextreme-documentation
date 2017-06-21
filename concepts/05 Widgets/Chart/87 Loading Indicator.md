@@ -4,6 +4,9 @@ When the **Chart** visualizes local data, loading is instant. But when the **Cha
 
 To activate the loading indicator, assign *true* to the [loadingIndicator](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/loadingIndicator/) | **show** option. Once data is loaded, the loading indicator will be hidden automatically.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -13,11 +16,40 @@ To activate the loading indicator, assign *true* to the [loadingIndicator](/Docu
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-loading-indicator [show]="true"></dxo-loading-indicator>
+    </dx-chart>
+
+---
+
 If you need to show or hide the loading indicator at runtime, call the [showLoadingIndicator()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#showLoadingIndicator) or [hideLoadingIndicator()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#hideLoadingIndicator) method.
+
+---
+##### jQuery
 
     <!--JavaScript-->var chart = $("#chartContainer").dxChart("instance");
     chart.showLoadingIndicator();
     chart.hideLoadingIndicator();
+
+##### Angular
+
+    <!--JavaScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxChartComponent) chart: DxChartComponent;
+        showLoadingIndicator () {
+            this.chart.instance.showLoadingIndicator();
+        };
+        hideLoadingIndicator () {
+            this.chart.instance.hideLoadingIndicator();
+        };
+    }
+
+---
 
 #####See Also#####
 - [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/jQuery/Light/)

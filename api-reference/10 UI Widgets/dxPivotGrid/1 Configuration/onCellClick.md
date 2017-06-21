@@ -40,7 +40,7 @@ Data that is available for binding against the element. Available only in the Kn
 <!--typeFunctionParamName1_field4-->area<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The <a href="/Documentation/17_2/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/#area">area</a> to which the clicked cell belongs.
+The <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area">area</a> to which the clicked cell belongs.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cellElement<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->jQuery<!--/typeFunctionParamType1_field5-->

@@ -1,6 +1,8 @@
-DevExtreme is available through the [npm](https://www.npmjs.com/) package manager. Run the following command to install the [DevExtreme package](https://www.npmjs.com/package/devextreme):
+[note] If you use Angular, follow instructions given [here](https://github.com/DevExpress/devextreme-angular#add-to-existing-app).
 
-    npm install devextreme@17.1 --save --save-exact
+DevExtreme is available through the [npm](https://www.npmjs.com/) package manager. Run the following command to install or upgrade the [DevExtreme package](https://www.npmjs.com/package/devextreme):
+
+    npm install devextreme@17.2 --save --save-exact
 
 We recommend saving an exact version of DevExtreme to avoid unexpected updates due to DevExtreme not using Semantic Versioning. In our versioning system, the increment of the first or middle number means a major release, which may contain behavior changes.
 

@@ -15,6 +15,5 @@ Specifies text for a hint appearing when a user pauses on the button that cancel
 
 <!--fullDescription-->
 #####See Also#####
-- [Validation Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
-- [Validation Engine - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
+- [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
 <!--/fullDescription-->

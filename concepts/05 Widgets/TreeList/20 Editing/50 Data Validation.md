@@ -38,8 +38,7 @@ The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configur
     });
 
 #####See Also#####
-- [Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation/)
-- [Validation - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Validation_-_MVVM_Approach/)
+- [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
 
 
 

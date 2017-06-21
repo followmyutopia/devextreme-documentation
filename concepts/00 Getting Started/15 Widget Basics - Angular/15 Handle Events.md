@@ -3,8 +3,8 @@ To handle an event, use a configuration option. All event handling options are g
     @Component({
         selector: 'my-app',
         template: '
-        <dx-data-grid (onInitialized)="onInitializedEventHandler($event)"></dx-data-grid> 
-        <dx-button text="Press me" (onClick)="clickHandler()"></dx-button>
+            <dx-data-grid (onInitialized)="onInitializedEventHandler($event)"></dx-data-grid> 
+            <dx-button text="Press me" (onClick)="clickHandler()"></dx-button>
         '
     })
     export class AppComponent {

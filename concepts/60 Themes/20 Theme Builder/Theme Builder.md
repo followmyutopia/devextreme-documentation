@@ -1,1 +1,7 @@
-You may sometimes wish to make minor changes to one or more of the [DevExtreme Themes](/Documentation/Guide/Themes/Predefined_Themes/) shipped, and then use the modified theme(s) in your mobile applications and web sites. For instance, you might require the modification of some predefined color settings, or may need to make changes to the font settings. To simplify the process of theme modification, DevExtreme comes with the **Theme Builder** tool. With this tool, you can create a custom theme using any shipped theme (such as the Generic light/black, Android light/dark, iOS, etc.) as a base. You can also modify different visual element style settings as required, save the results as a CSS file to any location on your computer, or add a reference to your custom theme file to the application project.
+The **Theme Builder** is a tool for creating custom themes based on predefined DevExtreme and Bootstrap themes. You can use it as follows:
+
+- Access the [online version](/ThemeBuilder/) or click **Run Theme Builder** in a [DevExtreme project's](/Documentation/Guide/VS_Integration/Project_Templates/) context menu in Visual Studio.
+
+- Run the local version by opening the index.html file located in the C:\Program Files (x86)\DevExpress 17.2\DevExtreme\Tools\DevExtreme\ThemeBuilder directory by default. This version is available only if you have istalled DevExtreme using the [installer for Windows](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Download_and_Install).
+
+The **Theme Builder** divides theming settings into two groups: **Basic Theming** for the most frequently used settings, and **Advanced Theming** for more advanced and widget-specific settings.

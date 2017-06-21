@@ -133,6 +133,22 @@ You can also customize an individual **Lookup** item. For this purpose, declare 
 Using similar techniques, you can customize the input field of the **Lookup**. The template for it should be assigned to the [fieldTemplate](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#fieldTemplate) option. 
 
 ---
+#####**jQuery**
+
+    <!--JavaScript-->
+    $(function() {
+        $("#lookupContainer").dxLookup({
+            dataSource: lookupData,
+            valueExpr: 'id',
+            displayExpr: 'name',
+            fieldTemplate: function(itemData, itemElement) {
+                return $("<div />").append(
+                    $("<img />").attr("src", itemData.imgSrc)
+                );
+            }
+        });
+    });
+
 #####**AngularJS**
 
     <!--HTML-->
@@ -162,23 +178,6 @@ Using similar techniques, you can customize the input field of the **Lookup**. T
             <img data-bind="attr: { src: imgSrc }" />
         </div>
     </div>
-
-#####**jQuery**
-<!--default-->
-
-    <!--JavaScript-->
-    $(function() {
-        $("#lookupContainer").dxLookup({
-            dataSource: lookupData,
-            valueExpr: 'id',
-            displayExpr: 'name',
-            fieldTemplate: function(itemData, itemElement) {
-                return $("<div />").append(
-                    $("<img />").attr("src", itemData.imgSrc)
-                );
-            }
-        });
-    });
 
 ---
 

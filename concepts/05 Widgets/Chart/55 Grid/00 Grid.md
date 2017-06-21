@@ -15,6 +15,9 @@ Settings for all grid lines in the **Chart**.
 
 Note that axis-specific settings override common settings.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -35,5 +38,27 @@ Note that axis-specific settings override common settings.
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis>
+            <dxo-grid>
+                <!-- high priority -->
+            </dxo-grid>
+        </dxo-argument-axis>
+        <dxi-value-axis>
+            <dxo-grid>
+                <!-- high priority -->
+            </dxo-grid>
+        </dxi-value-axis>
+        <dxo-common-axis-settings>
+            <dxo-grid>
+                <!-- low priority -->
+            </dxo-grid>
+        </dxo-common-axis-settings>
+    </dx-chart>
+
+---
 
 [tags]chart, grid, minor grid, grid lines

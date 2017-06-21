@@ -4,6 +4,9 @@ Axis labels display values indicated by [major axis ticks](/Documentation/Guide/
 
 You can configure axis labels using the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/) object. It comprises options that specify the [alignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#alignment), [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/font/), [text](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#customizeText), and other attributes of axis labels. Pay particular attention to the [displayMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#displayMode) option that allows you to rotate or stagger axis labels.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -16,7 +19,23 @@ You can configure axis labels using the [label](/Documentation/ApiReference/Data
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis> <!-- or dxi-value-axis, or dxo-common-axis-settings -->
+            <dxo-label
+                displayMode="stagger"
+                [staggeringSpacing]="10">
+            </dxo-label>
+        </dxo-argument-axis>
+    </dx-chart>
+
+---
+
 Another noteworthy option is [overlappingBehavior](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/overlappingBehavior/). It allows you to decide how axis labels should behave when they overlap each other.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -29,6 +48,19 @@ Another noteworthy option is [overlappingBehavior](/Documentation/ApiReference/D
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis> <!-- or dxi-value-axis, or dxo-common-axis-settings -->
+            <dxo-label
+                overlappingBehavior="rotate"
+                [rotationAngle]="45">
+            </dxo-label>
+        </dxo-argument-axis>
+    </dx-chart>
+
+---
 
 #####See Also#####
 - [Axis Ticks](/Documentation/Guide/Widgets/Chart/Axes/Axis_Ticks/)

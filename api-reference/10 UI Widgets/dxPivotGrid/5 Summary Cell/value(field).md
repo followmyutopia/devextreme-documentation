@@ -14,7 +14,7 @@ Gets the value of any field linked with the current cell.
 <!--paramName1-->field<!--/paramName1-->
 <!--paramType1-->PivotGridField<!--/paramType1-->
 <!--paramDescription1-->
-The index in the <a href="/Documentation/17_2/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/">fields</a> array, <a href="/Documentation/17_2/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/#dataField">dataField</a> or <a href="/Documentation/17_2/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/#caption">caption</a> of the field.
+The index in the <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/">fields</a> array, <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField">dataField</a> or <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption">caption</a> of the field.
 <!--/paramDescription1-->
 
 <!--returnType-->any<!--/returnType-->

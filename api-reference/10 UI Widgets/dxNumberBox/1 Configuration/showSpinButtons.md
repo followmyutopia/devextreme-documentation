@@ -10,13 +10,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not to show spin buttons.
+Specifies whether to show the buttons that change the [value](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#value) by a [step](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#step).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Each spin button click increases or decreases the widget value by the the value specified using the **step** option.
-
-If the widget is displayed on a touch device, it uses touch-friendly spin buttons regardless of the current theme.
-
-
+#####See Also#####
+- [useLargeSpinButtons](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#useLargeSpinButtons)
 <!--/fullDescription-->

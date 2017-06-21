@@ -1,4 +1,4 @@
-To load data from the server, the **CustomStore** needs the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function. This function accepts a set of **loadOptions** and passes them to the server. The server must process data according to the **loadOptions** and send the processed data back. The members of the **loadOptions** depend on which data processing operations the **TreeList** delegates to the server. 
+The **CustomStore** needs the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function to load data from the server. This function accepts a set of **loadOptions** and passes them to the server. The server must process data according to the **loadOptions** and send the processed data back. The members of the **loadOptions** depend on which data processing operations the **TreeList** delegates to the server. 
 
 The example below shows how to implement the **load** function for all data processing operations. Note that in this example, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the **DataSource** configuration object to shorten the example.
 
@@ -29,7 +29,7 @@ The example below shows how to implement the **load** function for all data proc
         });
     });
 
-The object passed with the [$.getJSON()](http://api.jquery.com/jquery.getjson/) request has the following structure.
+The object passed with the [$.getJSON()](http://api.jquery.com/jquery.getjson/) request has the following structure:
 
     <!--JavaScript-->
     {
@@ -47,19 +47,27 @@ The object passed with the [$.getJSON()](http://api.jquery.com/jquery.getjson/) 
         ],
         group: [
             // Group expression for numbers
-            { selector: "dataFieldName1", groupInterval: 100, desc: false },
+            { 
+                selector: "dataFieldName1", 
+                // Specifies the grouping interval
+                groupInterval: 100, 
+                // Specifies whether groups are expanded
+                isExpanded: true, 
+                // Specifies the sort order
+                desc: false 
+            },
             // Group expression for dates
-            { selector: "dataFieldName2", groupInterval: "year", desc: false },
-            { selector: "dataFieldName2", groupInterval: "month", desc: false },
+            { selector: "dataFieldName2", groupInterval: "year", isExpanded: true, desc: false },
+            { selector: "dataFieldName2", groupInterval: "month", isExpanded: true, desc: false },
             // Group expression for strings
-            { selector: "dataFieldName3", desc: true },
+            { selector: "dataFieldName3", isExpanded: true, desc: true },
             // ...
         ]
     }
 
-[note]The **group** expression contains the **groupInterval** parameter only when the **TreeList** sends a request for the data source of the [header filter](/Documentation/Guide/Widgets/TreeList/Filtering/#Column_Header_Filter), and only if this data source contains dates or numbers. Note that in the case of numbers, the [groupInterval](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/headerFilter/#groupInterval) option should be specified explicitly.
+[note]The **group** expression contains the **groupInterval** parameter only when the **TreeList** sends a request for the [header filter](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Header_Filter)'s data source, and only if this data source contains dates or numbers. Note that in the case of numbers, the [groupInterval](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/headerFilter/#groupInterval) option should be specified explicitly.
 
-After receiving this object with settings, the server should apply them to data and then send an object of the following structure back. 
+After receiving this object with settings, the server should apply them to data and then send an object with the following structure back:
 
     <!--JavaScript-->
     {
@@ -71,7 +79,7 @@ After receiving this object with settings, the server should apply them to data 
         ]
     }
 
-Note that if the server has received the **group** setting, an object structure differs and looks like this: 
+Note that if the server has received the **group** setting, the returned object should look like this:
 
     <!--JavaScript-->
     {
@@ -81,7 +89,7 @@ Note that if the server has received the **group** setting, an object structure 
                 key: "Group 1_1",
                 items: [
                     key: "Group 1_1_1",
-                    // This is a group of the deepest hierarchy level,
+                    // This is a group of the deepest hierarchy level (isExpanded: false),
                     // therefore, you need to return the following fields
                     items: null,
                     count: 3        // The count of data rows in the current group

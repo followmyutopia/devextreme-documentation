@@ -11,7 +11,7 @@ Copy the new JavaScript files from the **[Sources]**/**Lib**/**js** DevExtreme f
 - **Update Layouts**  
 Copy the new [layout](/Documentation/Guide/SPA_Framework/Built-in_Layouts/) files from the **[Sources]**/**Lib**/**layouts** DevExtreme folder to the equivalent folder in your applications.
 
-You can find all these resources in the DevExtreme zip archive or in the DevExtreme folder, which is **C:\Program Files (x86)\DevExpress 17.1\DevExtreme** by default.
+You can find all these resources in the DevExtreme zip archive or in the DevExtreme folder, which is **C:\Program Files (x86)\DevExpress 17.2\DevExtreme** by default.
 
 [note]If you customized layouts or stylesheets in your apps, do not replace them, but rather merge them with the ones supplied in the new DevExtreme version. 
 

@@ -27,13 +27,29 @@ By default, arguments on a discrete axis keep the order of objects in the data s
 
 To sort the arguments, for example, alphabetically, you need to assign an array of properly sorted arguments to the **categories** option.
 
-    <!--JavaScript-->var chartOptions = {
-        // ...
-        argumentAxis: {
-            categories: ['Africa', 'Antarctica', 'Asia', 'Australia',
-                'Europe', 'North America', 'South America']
-        }
-    };
+---
+##### jQuery
+
+    <!--JavaScript-->$(function() {
+        $("#chartContainer").dxChart({
+            // ...
+            argumentAxis: {
+                categories: ['Africa', 'Antarctica', 'Asia', 'Australia',
+                    'Europe', 'North America', 'South America']
+            }
+        });
+    });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis
+            [categories]="['Africa', 'Antarctica', 'Asia', 'Australia',
+                'Europe', 'North America', 'South America']">
+        </dxo-argument-axis>
+    </dx-chart>
+
+---
 
 [note]Arguments missing from the **categories** array will be added to its end automatically.
 <!--/fullDescription-->

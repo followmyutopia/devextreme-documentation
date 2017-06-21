@@ -4,6 +4,9 @@ A tooltip is a small pop-up rectangle displaying information about a [series poi
 
 All options configuring tooltips are collected in the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/) object. For example, to enable the tooltips, assign *true* to the **enabled** option of this object.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -13,7 +16,20 @@ All options configuring tooltips are collected in the [tooltip](/Documentation/A
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-tooltip
+            [enabled]="true">
+        </dxo-tooltip>
+    </dx-chart>
+
+---
+
 Options declared in the **tooltip** object apply to all tooltips in the **Chart**. If you want to customize a specific tooltip, assign a function to the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#customizeTooltip) option. This function must return an object with options for the tooltip that you want to customize.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -29,6 +45,27 @@ Options declared in the **tooltip** object apply to all tooltips in the **Chart*
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-tooltip
+            [enabled]="true"
+            color="yellow"
+            [customizeTooltip]="customizeTooltip">
+        </dxo-tooltip>
+    </dx-chart>
+
+    <!--JavaScript-->
+    export class AppComponent {
+        // Paints the tooltips of all points whose value is more than 100 in red
+        // Other tooltips remain painted in yellow
+        customizeTooltip (pointInfo: any) {
+            return pointInfo.value > 100 ? { color: 'red' } : { }
+        };
+    }
+
+---
 
 #####See Also#####
 - [Show and Hide a Tooltip](/Documentation/Guide/Widgets/Chart/Tooltips/Show_and_Hide_a_Tooltip/)

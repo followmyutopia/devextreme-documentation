@@ -11,6 +11,9 @@ The selection style for all series in the **Chart**.
 
 Note that individual settings override type-specific settings which, in turn, override common settings.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -32,7 +35,33 @@ Note that individual settings override type-specific settings which, in turn, ov
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-chart ... >
+        <dxi-series ... >
+            <dxo-selection-style>
+                <!-- high priority -->
+            </dxo-selection-style>
+        </dxi-series>
+        <dxo-common-series-settings ... >
+            <dxo-selection-style>
+                <!-- low priority -->
+            </dxo-selection-style>
+            <dxo-bar>
+                <dxo-selection-style>
+                    <!-- middle priority -->
+                </dxo-selection-style>
+            </dxo-bar>
+        </dxo-common-series-settings>
+    </dx-chart>
+
+---
+
 To choose which series elements should be highlighted when a user selects a series, specify the **selectionMode** option. Just like **selectionStyle**, this option can be specified for all series in the **Chart**, for all series of a specific type, or for an individual series. Note also that depending on the series type, the **selectionMode** option accepts different values. For information about them, visit the [Series Types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/) section of the API reference, choose the employed series type, and refer to its **selectionMode** option description.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -48,9 +77,28 @@ To choose which series elements should be highlighted when a user selects a seri
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-chart ... >
+        <dxo-common-series-settings ... >
+            <dxo-bar
+                selectionMode="allSeriesPoints"> <!-- or 'onlyPoint' | 'allArgumentPoints' | 'none' -->
+            </dxo-bar>
+            <dxo-line
+                selectionMode="includePoints"> <!-- or 'nearestPoint' | 'excludePoints' | 'none' -->
+            </dxo-line>
+        </dxo-common-series-settings>
+    </dx-chart>
+
+---
+
 <a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Selection/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
 
 By default, only a single series can be in the selected state at a time. If you need to allow multiple series to be in this state, assign *"multiple"* to the [seriesSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#seriesSelectionMode) option.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -58,6 +106,15 @@ By default, only a single series can be in the selected state at a time. If you 
             seriesSelectionMode: 'multiple' // or 'single'
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-chart 
+        seriesSelectionMode="multiple"> <!-- or 'single' -->
+    </dx-chart>
+
+---
 
 <a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/MultipleSeriesSelection/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
 

@@ -14,5 +14,5 @@ Specifies the data source field that provides values for series points.
 
 As you can see in the code below, you can use the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/) object to specify the options that are common for all series in a chart.
 
-As you may have noticed, now **Chart** uses its default series type - [Line](/Documentation/Guide/Widgets/Chart/Series_Types/#Line). In the next step, you will change the series type to a better suited one.
+As you may have noticed, now **Chart** uses its default series type - **Line**. In the next step, you will change the series type to a better suited one.
 </article>

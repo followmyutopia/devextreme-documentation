@@ -27,7 +27,7 @@ Use [this tool](/Documentation/Guide/ASP.NET_MVC_Controls/Visual_Studio_Integrat
 3. Add the following strings to the `"dependencies"` section of the *bower.json* file.
 
         "jquery": "~3.1",
-        "devextreme": "~17.1",
+        "devextreme": "~17.2",
         "devextreme-aspnet-data": "~1"
 
     [note]If the *bower.json* file is absent, run the console in the project directory and execute the [`bower init`](https://bower.io/docs/api/#init) command in it.

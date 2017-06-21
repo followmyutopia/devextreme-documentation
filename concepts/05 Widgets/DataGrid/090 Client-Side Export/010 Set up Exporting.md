@@ -1,4 +1,4 @@
-Follow the steps below to enable exporting.
+﻿Follow the steps below to enable exporting.
 
 - Add a link to the JSZip library to your app/site. Learn where you can get it from topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 

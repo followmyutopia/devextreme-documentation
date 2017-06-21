@@ -66,7 +66,7 @@ It is possible to organize everything on one page, but it will be difficult to s
 
 - **index.css** - a file where application style classes are defined
 
-This project template is available to you out-of-the-box. It contains view samples, as well as all included and referenced resources. You can find this template in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 17.1\DevExtreme\Sources** by default.
+This project template is available to you out-of-the-box. It contains view samples, as well as all included and referenced resources. You can find this template in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 17.2\DevExtreme\Sources** by default.
 
 Read below to learn about the different parts of a DevExtreme application project.
 

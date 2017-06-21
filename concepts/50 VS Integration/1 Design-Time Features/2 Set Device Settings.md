@@ -1,4 +1,4 @@
-Specify what device to use in the Design View by using the **Device Settings Toolbar**.
+﻿Specify what device to use in the Design View by using the **Device Settings Toolbar**.
 
 ![Toolbar](Content/images/doc/17_2/DevExtreme/DesignerToolbar.png)
 

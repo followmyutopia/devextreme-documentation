@@ -1,5 +1,8 @@
 A continuous axis indicates numeric or date-time values. If you know the range of these values, you can arrange ticks using the [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tickInterval/) option. It specifies the interval between two side-by-side [major ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tick/). For numeric values, this option accepts a number; for date-time values, it accepts a string or an object with a single field that designates the date component measuring the interval. Similarly, you can arrange [minor ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTick/) using the [minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTickInterval/) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             // ...
@@ -22,7 +25,39 @@ A continuous axis indicates numeric or date-time values. If you know the range o
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis
+            [tickInterval]="10"
+            [minorTickInterval]="2">
+            <dxo-tick [visible]="true"></dxo-tick>
+            <dxo-minor-tick [visible]="true"></dxo-minor-tick>
+        </dxo-argument-axis>
+
+        <!-- or -->
+        <dxo-argument-axis>
+            <dxo-tick-interval [years]="1"></dxo-tick-interval>
+            <dxo-minor-tick-interval [months]="6"></dxo-minor-tick-interval>
+            <dxo-tick [visible]="true"></dxo-tick>
+            <dxo-minor-tick [visible]="true"></dxo-minor-tick>
+        </dxo-argument-axis>
+
+        <!-- or -->
+        <dxo-argument-axis
+            tickInterval="year"
+            minorTickInterval="month">
+            <dxo-tick [visible]="true"></dxo-tick>
+            <dxo-minor-tick [visible]="true"></dxo-minor-tick>
+        </dxo-argument-axis>
+    </dx-chart>
+
+---
+
 Without knowing the range of values on the axis, you can arrange major ticks by specifying the minimum distance between two side-by-side ticks in pixels. For this purpose, set the [axisDivisionFactor](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#axisDivisionFactor) option. Minor ticks in this case should be arranged using the [minorTickCount](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#minorTickCount) option. It specifies how many minor ticks to place between two side-by-side major ticks.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
@@ -36,3 +71,16 @@ Without knowing the range of values on the axis, you can arrange major ticks by 
             }
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxo-argument-axis
+            [axisDivisionFactor]="20"
+            [minorTickCount]="4">
+            <dxo-tick [visible]="true"></dxo-tick>
+            <dxo-minor-tick [visible]="true"></dxo-minor-tick>
+        </dxo-argument-axis>
+    </dx-chart>
+
+---

@@ -10,7 +10,6 @@ This section describes the methods that can be used in code to manipulate the [C
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use the `dxChart` registered method to access the **Chart** widget as demonstrated in the code below.
-
-    <!--JavaScript-->var chart = $("#chartContainer").dxChart("instance");
+#####See Also#####
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)
 <!--/fullDescription-->

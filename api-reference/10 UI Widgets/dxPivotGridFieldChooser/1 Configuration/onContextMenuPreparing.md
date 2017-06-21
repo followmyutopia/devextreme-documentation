@@ -45,7 +45,7 @@ An array of items to be displayed by the context menu. The item objects must hav
 <!--typeFunctionParamName1_field5-->area<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The clicked <a href="/Documentation/17_2/ApiReference/Data_Library/PivotGridDataSource/Configuration/fields/#area">area</a> type.
+The clicked <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area">area</a> type.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->field<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->

@@ -36,7 +36,8 @@ As a more flexible solution, you can use the **on()** method. It allows you to s
 		.on("itemClick", handler1)
 		.on("itemClick", handler2);
 
-[note]In case you need information about calling methods, see the [Call Methods](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods) topic.
+#####See Also#####
+- [Call Methods](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods)
 
 ###Unsubscribe from an Event###
 

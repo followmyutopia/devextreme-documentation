@@ -1,4 +1,4 @@
-To load data from the server, the **CustomStore** needs the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function. This function accepts a bag of **loadOptions** and passes them to the server. The server must process data according to the **loadOptions** and send processed data back. The members of the **loadOptions** depend on which data processing operations the **DataGrid** delegates to the server. 
+The **CustomStore** needs the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function to load data from the server. This function accepts a bag of **loadOptions** and passes them to the server. The server must process data according to the **loadOptions** and send processed data back. The members of the **loadOptions** depend on which data processing operations the **DataGrid** delegates to the server. 
 
 The example below shows how to implement the **load** function for all data processing operations. Note that in this example, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the **DataSource** configuration object to shorten the example.
 
@@ -57,12 +57,20 @@ The object passed with the [$.getJSON()](http://api.jquery.com/jquery.getjson/) 
         requireTotalCount: true,
         group: [
             // Group expression for numbers
-            { selector: "dataFieldName1", groupInterval: 100, desc: false },
+            { 
+                selector: "dataFieldName1", 
+                // Specifies the grouping interval
+                groupInterval: 100, 
+                // Specifies whether groups are expanded
+                isExpanded: true, 
+                // Specifies the sort order
+                desc: false 
+            },
             // Group expression for dates
-            { selector: "dataFieldName2", groupInterval: "year", desc: false },
-            { selector: "dataFieldName2", groupInterval: "month", desc: false },
+            { selector: "dataFieldName2", groupInterval: "year", isExpanded: true, desc: false },
+            { selector: "dataFieldName2", groupInterval: "month", isExpanded: true, desc: false },
             // Group expression for strings
-            { selector: "dataFieldName3", desc: true },
+            { selector: "dataFieldName3", isExpanded: true, desc: true },
             // ...
         ],
         totalSummary: [
@@ -94,7 +102,7 @@ After receiving this object with settings, the server should apply them to data,
                 items: [
                     key: "Group 1_1_1",
                     summary: [8, 2, 10],
-                    // This is a group of the deepest hierarchy level,
+                    // This is a group of the deepest hierarchy level (isExpanded: false),
                     // therefore, you need to return the following fields
                     items: null,
                     count: 3        // The count of data rows in the current group
@@ -119,6 +127,6 @@ After receiving this object with settings, the server should apply them to data,
                                      // in the summary | totalItems array of the DataGrid configuration
     }
 
-[note] If the server has not recieved the **group** setting, the **data** field should contain data objects only.
+[note] The **data** field should contain only data objects if the server has not received the **group** setting.
 
-If grouping large data seems to lower the performance of the **DataGrid**, consider employing the remote group paging feature. Note that for this feature, the server and the client sides should be configured in a slightly different manner. For details, refer to the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Features_for_Remote_Data/Remote_Group_Paging/) topic.
+Consider employing the remote group paging feature when grouping large data lowers **DataGrid** performance. Note that for this feature, both the server and the client sides should be configured differently. Refer to the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Features_for_Remote_Data/Remote_Group_Paging/) topic for more information.

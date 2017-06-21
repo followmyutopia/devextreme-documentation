@@ -20,13 +20,28 @@ Minor ticks divide the segment between two neighboring [major ticks](/Documentat
 
 If the axis displays numbers, assign a number to this option. If the axis displays date-time values, assign one of the accepted string values or an object to this option. The object should contain only one of all fields described in this section, for example:
 
-    <!--JavaScript-->var chartOptions = {
-        // ...
-        valueAxis: {
+---
+##### jQuery
+
+    <!--JavaScript-->$(function() {
+        $("#chartContainer").dxChart({
             // ...
-            minorTickInterval: { days: 5 }
-        }
-    };
+            valueAxis: {
+                // ...
+                minorTickInterval: { days: 5 }
+            }
+        });
+    });
+
+##### Angular
+
+    <!--HTML--><dx-chart ... >
+        <dxi-value-axis ... >
+            <dxo-minor-tick-interval [days]="5"></dxo-minor-tick-interval>
+        </dxi-value-axis>
+    </dx-chart>
+
+---
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VizTimeInterval` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'day'* becomes `Day`.
 

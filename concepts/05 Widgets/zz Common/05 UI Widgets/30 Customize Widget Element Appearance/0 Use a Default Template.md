@@ -1,23 +1,26 @@
-A default template for a widget is defined out-of-the-box. Default templates are based on a predefined set of fields in the widget. For example, every widget has a field that allows you to modify textual representation of the widget. 
-
- - **text**  
- Specifies the text inserted into the widget element.
-
-Different widgets can have other additional fields (for example, **icon** field).
-
-Collection widgets have default templates for item representation.They are based on a predefined set of fields in the widget data source, requiring you to provide the required set of fields for your widget's data source, so that widget items are displayed using a default template. The following are the fields that are used in a default item template of any widget.
+Use a default template for minor widget item customization. This template defines item appearance depending on whether specific fields are present or absent from the item's data object specified in a data source. The following fields exist in every default template:
 
 - **disabled**  
-Specifies whether or not the list item is disabled.
-- **visible**  
-Specifies whether or not the list item is visible.
-- **html**  
-Specifies the html code inserted into the item element.
+Specifies whether an item is disabled.
 - **template**  
-Specifies an item template that should be used to render this item only.
+Specifies a template that is used for this item only.
 - **text**  
-Specifies the text inserted into the item element.
+Specifies the item text.
 
-However, additional fields can be required for item templates of certain widgets. For instance, a default template for the [List](/Documentation/ApiReference/UI_Widgets/dxList/) widget is based on the set of fields above. However, the **key** field is also required to specify the group to which an item is related. To learn what set of fields is required for a specific widget, refer to the **Default Item Template** reference section of this widget.
+Some widgets have additional fields, for example, **NavBar** has **badge**, **visible** and **icon** fields. The following code defines three items. Each of them has an icon, one is hidden, and one has a badge. 
 
-In certain scenarios, it is enough to specify a simple array as a widget data source. In this instance, a default item template contains [text](http://knockoutjs.com/documentation/text-binding.html) binding associated with the current array value.
+    <!--JavaScript-->
+    var dataSource = [
+        { text: "User", icon: "user" },
+        { text: "Find", icon: "find", visible: false },
+        { text: "Favorites", icon: "favorites", badge: "New" }
+    ];
+
+    $(function() {
+        $("#navBarContainer").dxNavBar({
+            dataSource: dataSource
+        });
+    });
+
+See the widget's **Default Item Template** reference section for its full set of fields.
+
