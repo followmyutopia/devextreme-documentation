@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'string' | 'number' | 'date' | 'boolean' | 'object'<!--/acceptValues-->
+<!--acceptValues-->'string' | 'number' | 'date' | 'datetime' | 'boolean' | 'object'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
