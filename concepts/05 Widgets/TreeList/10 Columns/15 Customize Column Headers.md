@@ -4,18 +4,33 @@ The **TreeList** generates column headers based on the names of [data fields](/D
 
 Specify the **columns** | [caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption) option to change the column header text.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#treeListContainer").dxTreeList({
             // ...
             columns: [
-                { dataField: "companyName", caption: "Company" },
+                { dataField: "CompanyName", caption: "Company" },
                 // ...
             ]
         });
-     });
+    });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column dataField="CompanyName" caption="Company"></dxi-column>
+    </dx-tree-list>
+    
+---
 
 If you need a more specific customization, define a custom template in the **columns** | [headerCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#headerCellTemplate) option. This option accepts a function or template container. 
+
+---
+##### jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -37,7 +52,33 @@ If you need a more specific customization, define a custom template in the **col
         });
      });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column
+            dataField="Title"
+            caption="Position"
+            headerCellTemplate="titleHeaderTemplate">
+        </dxi-column>
+        <dxi-column
+            dataField="Address"
+            headerCellTemplate="addressHeaderTemplate">
+        </dxi-column>
+        <div *dxTemplate="let info of 'titleHeaderTemplate'">
+            <p style="font-size:16px">info.column.caption</p>
+        </div>
+        <div *dxTemplate="let info of 'addressHeaderTemplate'">
+            <i style="color: black">Mailing Address</i>
+        </div>
+    </dx-tree-list>
+    
+---
+
 To hide column headers, assign *false* to the [showColumnHeaders](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#showColumnHeaders) option.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -46,6 +87,15 @@ To hide column headers, assign *false* to the [showColumnHeaders](/Documentation
             showColumnHeaders: false
         });
      });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ...
+        [showColumnHeaders]="false">
+    </dx-tree-list>
+    
+---
 
 #####See Also#####
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance/)

@@ -24,6 +24,9 @@ This option accepts an integer specifying the index of the column in a collectio
 
 To sort data first by the *"Last Name"* and then by the *"First Name"* column, use the following code. Note that the [sortOrder]({basewidgetpath}/Configuration/columns/#sortOrder) option should also be specified.
     
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             // ...
@@ -34,6 +37,16 @@ To sort data first by the *"Last Name"* and then by the *"First Name"* column, u
             ]
         });
     });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column dataField="firstName" [sortIndex]="1" sortOrder="asc"></dxi-column>
+        <dxi-column dataField="lastName" [sortIndex]="1" sortOrder="asc"></dxi-column>
+    </dx-tree-list>
+    
+---
 
 You can set the **sortIndex** option at design-time to specify initial sorting, or change this option using the [columnOption]({basewidgetname}/Methods/#columnOptionid_optionName_optionValue) method to sort at runtime.
 <!--/fullDescription-->

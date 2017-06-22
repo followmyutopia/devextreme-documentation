@@ -8,6 +8,9 @@ If you [validate data](/Documentation/Guide/Widgets/TreeList/Editing/#Data_Valid
 
 Clicking a *"Delete"* button invokes the confirmation dialog that allows a user to cancel row deletion. Use the code below to hide this dialog.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#treeListContainer").dxTreeList({
@@ -20,5 +23,17 @@ Clicking a *"Delete"* button invokes the confirmation dialog that allows a user 
             }
         });
     });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxo-editing mode="cell" [allowDeleting]="true">
+            <dxo-texts [confirmDeleteMessage]="null"></dxo-texts>
+        </dxo-editing>
+    </dx-tree-list>
+    
+---
+
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/CellEditing/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>

@@ -15,6 +15,9 @@ Calculates custom values to be used in sorting.
 <!--fullDescription-->
 This option accepts the name of the [data source field]({basewidgetpath}/Configuration/#dataSource) that provides values to be used in sorting...
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             columns: [{
@@ -24,7 +27,22 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         });
     });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column
+            dataField="Position" <!--provides values for the column -->
+            calculateSortValue="isOnVacation"> <!-- provides values to be used in sorting -->
+        </dxi-column>
+    </dx-tree-list>
+    
+---
+
 ... or a function that returns such a value.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         var treeList = $("#treeListContainer").dxTreeList({
@@ -39,6 +57,33 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
             }]
         }).dxTreeList("instance");
     });
+
+##### Angular
+
+    <!--JavaScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        customSortingFunction (rowData) {
+            if (rowData.Position == "CEO")
+                return this.treeList.instance.option('Position', 'sortOrder') == 'asc' ? 0 : data.length; // CEOs must go first
+            else
+                return rowData.Position; // Others are sorted as usual
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column
+            dataField="Position"
+            [calculateSortValue]="customSortingFunction">
+        </dxi-column>
+    </dx-tree-list>
+    
+---
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

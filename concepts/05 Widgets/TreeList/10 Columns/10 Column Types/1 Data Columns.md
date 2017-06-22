@@ -4,6 +4,9 @@ Data columns are the most common type of columns used in the **TreeList** widget
 
 If data column values should be cast to another type (for example, date values stored as strings), specify the target type using the [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             // ...
@@ -13,6 +16,15 @@ If data column values should be cast to another type (for example, date values s
             }]
         });
     });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column dataField="HireDate" dataType="date"></dxi-column>
+    </dx-tree-list>
+    
+---
 
 #####See Also#####
 - [Customize Cells](/Documentation/Guide/Widgets/TreeList/Columns/Customize_Cells/)

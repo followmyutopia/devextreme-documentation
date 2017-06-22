@@ -6,6 +6,9 @@ The search panel allows searching for values in several columns at once. Search 
 
 To make the search panel visible, assign *true* to the [searchPanel](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/) | **visible** option. You can set a column's [allowSearch](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowSearch) option to *false* if it should be excluded from searching. Note that this option inherits the value of the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option by default.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             searchPanel: { visible: true },
@@ -15,6 +18,16 @@ To make the search panel visible, assign *true* to the [searchPanel](/Documentat
             }]
         });
     });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxo-search-panel [visible]="true"></dxo-search-panel>
+        <dxi-column [allowSearch]="false" ... ></dxi-column>
+    </dx-tree-list>
+    
+---
 
 Search is performed differently depending on a column's [data type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType). Numeric, Boolean, and date columns require that a user enters a full value into the search panel. For columns that contain string values, entering only a part of a value is enough to find it.
 

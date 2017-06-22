@@ -1,5 +1,8 @@
 Call the [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#deleteRowrowIndex) method to delete a specific row from the data source. This method invokes a confirmation dialog that allows a user to cancel deletion. The following code hides this dialog, thus a row is instantly deleted from the data source:
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         var treeList = $("#treeListContainer").dxTreeList({
@@ -23,10 +26,51 @@ Call the [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxTreeList
         });
     });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list>
+        <dxo-editing
+            mode="row"
+            [allowDeleting]="true">
+            <dxo-texts [confirmDeleteMessage]="null"></dxo-texts>
+        </dxo-editing>
+    </dx-tree-list>
+    <dx-button
+        text="Delete Row"
+        (onClick)="deleteRow()">
+    </dx-button>
+
+    <!--JavaScript-->
+    export class AppComponent {
+        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        deleteRow () {
+            // Deletes the second row
+            this.treeList.instance.deleteRow(1);
+        }
+    }
+    
+---
+
 Note that in the [batch mode](/Documentation/Guide/Widgets/TreeList/Editing/#User_Interaction/Batch_Mode) a row is only marked as deleted. To save changes, call the [saveEditData()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#saveEditData) method. Calling the [undeleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#undeleteRowrowIndex) method cancels row deletion.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     $("#treeListContainer").dxTreeList("undeleteRow", 1);
+
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        undeleteRow () {
+            this.treeList.instance.undeleteRow(1);
+        }
+    }
+    
+---
 
 #####See Also#####
 - **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)

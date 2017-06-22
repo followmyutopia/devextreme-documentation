@@ -16,6 +16,9 @@ Configures columns.
 <!--fullDescription-->
 This option accepts an array of objects, where each object configures a single column. If a column does not need to be customized, this array may include the name of the field that provides data for this column.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#treeListContainer").dxTreeList({
@@ -32,6 +35,18 @@ This option accepts an array of objects, where each object configures a single c
             ]
         });
     });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column dataField="Title" caption="Position"></dxi-column>
+        <dxi-column dataField="FullName" [width]="300"></dxi-column>
+        <dxi-column dataField="CompanyName"></dxi-column>
+        <dxi-column dataField="City"></dxi-column>
+    </dx-tree-list>
+    
+---
 
 #####See Also#####
 - [Columns Overview](/Documentation/Guide/Widgets/TreeList/Columns/Overview/)

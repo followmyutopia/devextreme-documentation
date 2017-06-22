@@ -13,5 +13,23 @@ Clears all filters at once.
 
 <!---->
 
+---
+##### jQuery
+
     <!--JavaScript-->// Clears the search panel
     $("#treeListContainer").dxTreeList("clearFilter", "search");
+
+##### Angular
+
+    <!--JavaScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        clearSearchPanel () {
+            this.treeList.instance.clearFilter("search");
+        }
+    }
+    
+---

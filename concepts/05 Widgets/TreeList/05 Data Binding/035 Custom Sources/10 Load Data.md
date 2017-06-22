@@ -2,6 +2,9 @@ The **CustomStore** needs the [load](/Documentation/ApiReference/Data_Layer/Cust
 
 The example below shows how to implement the **load** function for all data processing operations. Note that in this example, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the **DataSource** configuration object to shorten the example.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     var treeListDataSource = new DevExpress.data.DataSource({
         load: function (loadOptions) {
@@ -10,7 +13,7 @@ The example below shows how to implement the **load** function for all data proc
                 // Passing settings to the server
 
                 filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "", // Pass if filtering is remote
-                parentIds: loadOptions.parentIds,    // Parent IDs of rows to be loaded. 
+                parentIds: loadOptions.parentIds ? JSON.stringify(loadOptions.parentIds) : "[]",    // Parent IDs of rows to be loaded. 
                                                      // Provides a simpler access to parent IDs than the filter setting does
                 sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",       // Pass if sorting is remote
                 group: loadOptions.group ? JSON.stringify(loadOptions.group) : "",    // Pass if grouping is remote
@@ -25,9 +28,67 @@ The example below shows how to implement the **load** function for all data proc
     $(function() {
         $("#treeListContainer").dxTreeList({
             dataSource: treeListDataSource,
-            // ...
+            remoteOperations: {
+                filtering: true,
+                sorting: true,
+                grouping: true
+            }
         });
     });
+
+##### Angular
+
+    <!--JavaScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import DataSource from 'devextreme/data/data_source';
+    import CustomStore from 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent {
+        treeListDataSource: any = {};
+        constructor(@Inject(Http) http: Http) {
+            this.treeListDataSource = new DataSource({
+                load: function (loadOptions) {
+                    let params: URLSearchParams = new URLSearchParams();
+                    params.set("parentIds", loadOptions.parentIds);
+                    // Add if sorting is remote
+                    if (loadOptions.sort) {
+                        params.set("sort", loadOptions.sort);
+                    }
+                    // Add if filtering is remote
+                    if (loadOptions.filter) {
+                        params.set("filter", loadOptions.filter); 
+                    }
+                    // Add if grouping is remote
+                    if (loadOptions.group) {
+                        params.set("group", loadOptions.group); 
+                    }
+
+                    return http.get('http://mydomain.com/MyDataService' + {
+                                    search: params
+                                })
+                                .toPromise()
+                                .then(response => {
+                                    var json = response.json();
+                                    // You can process the received data here
+                                    return json.items
+                                });
+                }
+            });
+        }
+    }
+
+    <!--HTML--><dx-tree-list ...
+        [dataSource]="treeListDataSource">
+        <dxo-remote-operations
+            [filtering]="true"
+            [sorting]="true"
+            [grouping]="true">
+        </dxo-remote-operations>
+    </dx-tree-list>
+
+---
 
 The object passed with the [$.getJSON()](http://api.jquery.com/jquery.getjson/) request has the following structure:
 

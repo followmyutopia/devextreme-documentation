@@ -46,6 +46,9 @@ Certain features are disabled in a column with calculated values by default. The
 
 To invoke the default behavior, call the **this.defaultCalculateCellValue(rowData)** function and return its result.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             columns: [{
@@ -56,6 +59,23 @@ To invoke the default behavior, call the **this.defaultCalculateCellValue(rowDat
             }]
         });
     });
+
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        calculateCellValue (rowData) {
+            // ...
+            return this.defaultCalculateCellValue(rowData);
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column [calculateCellValue]="calculateCellValue" ... ></dxi-column>
+    </dx-tree-list>
+    
+---
 
 [/note]
 

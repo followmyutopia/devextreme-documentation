@@ -42,10 +42,10 @@ You can handle these events with functions. If the handling functions are not go
     export class AppComponent {
         onExporting (e) {
             // Handler of the "exporting" event
-        },
+        };
         onExported (e) {
             // Handler of the "exported" event
-        },
+        };
         onFileSaving (e) {
             // Handler of the "fileSaving" event
         }

@@ -1,5 +1,8 @@
 If you want to extend the functionality of a JavaScript array, place it into an [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/). It provides an interface for loading and editing data, and allows you to handle data-related events.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             dataSource: new DevExpress.data.ArrayStore({
@@ -11,7 +14,33 @@ If you want to extend the functionality of a JavaScript array, place it into an 
         });
     });
 
+##### Angular
+
+    <!--JavaScript-->
+    import ArrayStore from 'devextreme/data/array_store';
+    // ...
+    export class AppComponent {
+        employees = [
+            // ...
+        ];
+        employeeStore = new ArrayStore({
+            data: this.employees,
+            onLoaded: function () {
+                // Event handling commands go here
+            }
+        });
+    }
+
+    <!--HTML--><dx-tree-list
+        [dataSource]="employeeStore">
+    </dx-tree-list>
+
+---
+
 Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). For example, the **DataSource** can sort data.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     var employees = [
@@ -26,10 +55,31 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
         $("#treeListContainer").dxTreeList({
             dataSource: new DevExpress.data.DataSource({
                 store: employees,
-                sort: { getter: "fullName", asc: true }
+                sort: { getter: "fullName", desc: true }
             })
         });
     });
+
+##### Angular
+
+    <!--JavaScript-->
+    import DataSource from 'devextreme/data/data_source';
+    // ...
+    export class AppComponent {
+        employees = [
+            // ...
+        ];
+        employeeDataSource = new DataSource({
+            store: employees,
+            sort: { getter: "fullName", desc: true }
+        });
+    }
+
+    <!--HTML--><dx-tree-list
+        [dataSource]="employeeDataSource">
+    </dx-tree-list>
+
+---
 
 [note]Even if you have [passed a JavaScript array](/Documentation/Guide/Widgets/TreeList/Data_Binding/Simple_Array/Array_Only/) to the **dataSource** option, the **TreeList** automatically places it into an **ArrayStore** wrapped in the **DataSource** that you can get using the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getDataSource) method.
 

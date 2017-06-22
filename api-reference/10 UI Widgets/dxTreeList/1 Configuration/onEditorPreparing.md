@@ -17,6 +17,9 @@ A handler for the **editorPreparing** event. Executed before an editor is create
 <!--fullDescription-->
 Many **TreeList** elements are based on editors. For example, the search panel is based on a text box, the selection column uses check boxes, etc. Within this handler, you can customize a default editor or substitute it for another DevExtreme editor. To do the latter, assign the editor's name to the **editorName** field and then configure the editor in the **editorOptions** object. If you specify the editor's **onValueChanged** handler, call the **setValue(newValue)** method in it to update the cell value.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#treeList").dxTreeList({
@@ -38,7 +41,37 @@ Many **TreeList** elements are based on editors. For example, the search panel i
         });
     });
 
-If you use a third-party editor, cancel creation of the default editor and then implement your own one. To notify the **TreeList** of  the changed value, call the **setValue(newValue)** method in the **onEditorPreparing** handler.
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        onEditorPreparing (e) { 
+            if (e.dataField == "name") {
+                e.editorName = "dxTextArea";
+                e.editorOptions.showClearButton = true;
+                e.editorOptions.onValueChanged = function (e) {
+                    var value = e.value;
+                    if (value == "") {
+                        alert("TextArea is empty");
+                        return;
+                    }
+                    e.setValue(value);
+                }
+            }
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ...
+        (onEditorPreparing)="onEditorPreparing($event)">
+    </dx-tree-list>
+    
+---
+
+If you use a third-party editor, cancel creation of the default editor and then implement your own one. To notify the **TreeList** of the changed value, call the **setValue(newValue)** method in the **onEditorPreparing** handler.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -57,6 +90,30 @@ If you use a third-party editor, cancel creation of the default editor and then 
             }
         });
     });
+
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        onEditorPreparing (e) { 
+            if(e.dataField === "hidden") {
+                e.cancel = true;
+                $('<input type="checkbox">')
+                    .prop("checked", e.value)
+                    .on("change", function(args) {
+                        e.setValue(args.target.checked);
+                    })
+                    .appendTo(e.editorElement);
+            }
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ...
+        (onEditorPreparing)="onEditorPreparing($event)">
+    </dx-tree-list>
+    
+---
 
 [note]For cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate), the **onEditorPreparing** handler is not executed.
 <!--/fullDescription-->

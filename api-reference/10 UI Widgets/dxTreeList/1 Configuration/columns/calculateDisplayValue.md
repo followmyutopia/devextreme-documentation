@@ -15,6 +15,9 @@ Calculates custom values for column cells. Used when display values should diffe
 <!--fullDescription-->
 This option accepts the name of the [data source field]({basewidgetpath}/Configuration/#dataSource) that provides display values...
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             columns: [{
@@ -24,7 +27,22 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column
+            dataField="countryID" <!-- provides values for editing -->
+            calculateDisplayValue="country"> <!-- provides display values -->
+        </dxi-column>
+    </dx-tree-list>
+    
+---
+
 ... or a function that combines display values.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -36,6 +54,25 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
             }]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column
+            dataField="countryID" <!-- provides values for editing -->
+            [calculateDisplayValue]="getCountryWithCapital"> <!-- combines display values -->
+        </dxi-column>
+    </dx-tree-list>
+
+    <!--JavaScript-->
+    export class AppComponent {
+        getCountryWithCapital (rowData) {
+            return rowData.capital + " (" + rowData.country + ")";
+        }
+    }
+    
+---
 
 [note]Do not use this option to format text in the cells. Use [customizeText]({basewidgetpath}/Configuration/columns/#customizeText) for this.
 

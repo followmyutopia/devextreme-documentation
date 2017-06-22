@@ -27,6 +27,9 @@ This handler allows you to customize the toolbar. Depending on the configuration
 
 The following code shows how you can customize the toolbar using this handler.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#treeListContainer").dxTreeList({
@@ -34,11 +37,11 @@ The following code shows how you can customize the toolbar using this handler.
             onToolbarPreparing: function (e) {
                 var toolbarItems = e.toolbarOptions.items;
                 // Modifies an existing item
-                $.each(toolbarItems, function(_, item) {
-                    if(item.name === "saveButton") {
+                toolbarItems.forEach(function(item) {
+                    if (item.name === "saveButton") {
                         // Change the item options here
                     }
-                }); 
+                });
 
                 // Adds a new item
                 toolbarItems.push({
@@ -49,6 +52,35 @@ The following code shows how you can customize the toolbar using this handler.
             }
         });
     });
+
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        onToolbarPreparing (e) { 
+            var toolbarItems = e.toolbarOptions.items;
+            // Modifies an existing item
+            toolbarItems.forEach(function(item) {
+                if (item.name === "saveButton") {
+                    // Change the item options here
+                }
+            });
+            
+            // Adds a new item
+            toolbarItems.push({
+                widget: 'dxButton', 
+                options: { icon: 'user', onClick: function () { ... } },
+                location: 'after'
+            });
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ...
+        (onToolbarPreparing)="onToolbarPreparing($event)">
+    </dx-tree-list>
+    
+---
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

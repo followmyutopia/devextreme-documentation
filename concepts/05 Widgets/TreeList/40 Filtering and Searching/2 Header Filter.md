@@ -6,6 +6,9 @@ A header filter allows a user to filter values in an individual column by includ
 
 To make header filter icons visible for all columns, assign *true* to the [headerFilter](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/headerFilter/) | **visible** option. Set a column's [allowHeaderFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowHeaderFiltering) option to *false* if its header filter should not be available. Note that this option inherits the value of the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option by default.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             headerFilter: { visible: true },
@@ -16,7 +19,20 @@ To make header filter icons visible for all columns, assign *true* to the [heade
         });
     });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxo-header-filter [visible]="true"></dxo-header-filter>
+        <dxi-column [allowHeaderFiltering]="false" ... ></dxi-column>
+    </dx-tree-list>
+    
+---
+
 A user can change the applied filter by including or excluding values to/from it. Use a column's [filterType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#filterType) option to specify the required mode.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -26,6 +42,17 @@ A user can change the applied filter by including or excluding values to/from it
             }]
         });
     });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column ...
+            [filterType]="exclude"> <!-- or "include" -->
+        </dxi-column>
+    </dx-tree-list>
+    
+---
 
 A header filter's popup menu simply lists all column values by default. You can group them using the **headerFilter** | [groupInterval](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/headerFilter/#groupInterval) option if they are numbers or dates. You can also provide a completely custom data source for a header filter using the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/headerFilter/#dataSource) option. Refer to the option's description for details.
 

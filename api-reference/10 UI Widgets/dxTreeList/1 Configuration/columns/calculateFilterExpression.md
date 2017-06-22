@@ -26,6 +26,9 @@ A user input value. Values provided by the **selector** are compared to this val
 
 The following code snippet shows the default implementation of the **calculateFilterExpression** function. Adapt it according to your needs.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             // ...
@@ -47,6 +50,31 @@ The following code snippet shows the default implementation of the **calculateFi
         });
     });
 
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        calculateFilterExpression (filterValue, selectedFilterOperation) {
+            // Implementation for the "between" comparison operator
+            if (selectedFilterOperation === "between" && $.isArray(filterValue)) {
+                var filterExpression = [
+                    [this.calculateCellValue, ">=", filterValue[0]], 
+                    "and", 
+                    [this.calculateCellValue, "<=", filterValue[1]]
+                ];
+                return filterExpression;
+            }
+            return [this.calculateCellValue, selectedFilterOperation || '=', filterValue];
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column [calculateFilterExpression]="calculateFilterExpression"></dxi-column>
+    </dx-tree-list>
+    
+---
+
 As you can see from the previous code, the filter expression for the *"between"* comparison operator should have a slightly different format.
 
     [[selector, ">=", startValue], "and", [selector, "<=", endValue]]
@@ -54,6 +82,9 @@ As you can see from the previous code, the filter expression for the *"between"*
 [note]
 
 Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOperation)** function and return its result to invoke the default behavior.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -65,6 +96,23 @@ Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOper
             }]
         });
     });
+
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        calculateFilterExpression (filterValue, selectedFilterOperation) {
+            // ...
+            return this.defaultCalculateFilterExpression(filterValue, selectedFilterOperation);
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column [calculateFilterExpression]="calculateFilterExpression" ... ></dxi-column>
+    </dx-tree-list>
+    
+---
 
 [/note]
 <!--/fullDescription-->

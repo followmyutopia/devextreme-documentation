@@ -10,14 +10,52 @@ Contains buttons that expand adaptive detail rows. Appears if [columnHidingEnabl
 
 You can relocate or resize the command columns by changing their **visibleIndex** and **width** options. For this, call the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#columnOptionid_optionName_optionValue) method as shown by the following code.
 
+---
+##### jQuery
+
     <!--JavaScript-->var treeList = $("#treeListContainer").dxTreeList("instance");
-    treeList.columnOption("command:edit", "visibleIndex", -2); // places the editing column before all others
-    treeList.columnOption("command:edit", "width", 200); // changes the width of the editing column to 200 pixels
-    treeList.columnOption("command:adaptive", "visibleIndex", -1); // places the adaptive column before all data columns,
-                                                                   // but after the editing column
-    treeList.columnOption("command:adaptive", "width", 80); // changes the width of the adaptive column to 80 pixels
+    // places the editing column before all others
+    treeList.columnOption("command:edit", "visibleIndex", -2);
+
+    // changes the width of the editing column to 200 pixels
+    treeList.columnOption("command:edit", "width", 200);
+
+    // places the adaptive column before all data columns, but after the editing column
+    treeList.columnOption("command:adaptive", "visibleIndex", -1);
+
+    // changes the width of the adaptive column to 80 pixels
+    treeList.columnOption("command:adaptive", "width", 80);
+
+##### Angular
+
+    <!--JavaScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        modifyEditingColumn () {
+            // places the editing column before all others
+            this.treeList.instance.columnOption("command:edit", "visibleIndex", -2);
+
+            // changes the width of the editing column to 200 pixels
+            this.treeList.instance.columnOption("command:edit", "width", 200);
+        }
+        modifyAdaptiveColumn () {
+            // places the adaptive column before all data columns, but after the editing column
+            this.treeList.instance.columnOption("command:adaptive", "visibleIndex", -1);
+
+            // changes the width of the adaptive column to 80 pixels
+            this.treeList.instance.columnOption("command:adaptive", "width", 80);
+        }
+    }
+    
+---
 
 You can also customize cells of command columns using the [onCellPrepared](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onCellPrepared) function. To distinguish cells of a command column from others, check the argument's **column.command** field for the *"edit"* or *"adaptive"* value.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -36,6 +74,32 @@ You can also customize cells of command columns using the [onCellPrepared](/Docu
             }
         });
     });
+
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        onCellPrepared (e) {
+            if (e.rowType == "data") {
+                let cell = e.cellElement;
+                switch (e.column.command) {
+                    case "edit":
+                        // ...
+                        break;
+                    case "adaptive":
+                        // ...
+                        break;
+                }
+            }
+        };
+    }
+
+    <!--HTML-->
+    <dx-tree-list ...
+        (onCellPrepared)="onCellPrepared($event)">
+    </dx-tree-list>
+    
+---
 
 #####See Also#####
 - [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/Adaptability/jQuery/Light/)

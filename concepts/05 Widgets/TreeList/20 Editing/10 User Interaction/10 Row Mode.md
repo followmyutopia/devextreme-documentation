@@ -4,17 +4,33 @@ In this mode a user edits data row by row. When a user clicks an *"Edit"* button
 
 Clicking a *"Delete"* button invokes the confirmation dialog that allows a user to cancel row deletion. Use the code below to hide this dialog.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#treeListContainer").dxTreeList({
             // ...
             editing: {
-                mode: 'row', 
+                // ...
+                mode: 'row',
+                allowDeleting: true,
                 texts: {
                     confirmDeleteMessage: null
                 }
             }
         });
     });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxo-editing mode="row" [allowDeleting]="true">
+            <dxo-texts [confirmDeleteMessage]="null"></dxo-texts>
+        </dxo-editing>
+    </dx-tree-list>
+    
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/RowEditing/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>

@@ -6,6 +6,9 @@ The filter row allows a user to filter data by values of individual columns. Usu
 
 To make the filter row visible, assign *true* to the [filterRow](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/) | **visible** option. You can set a column's [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option to *false* if data should never be filtered by it.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             filterRow: { visible: true },
@@ -16,7 +19,20 @@ To make the filter row visible, assign *true* to the [filterRow](/Documentation/
         });
     });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxo-filter-row [visible]="true"></dxo-filter-row>
+        <dxi-column [allowFiltering]="false" ... ></dxi-column>
+    </dx-tree-list>
+    
+---
+
 A user-specified filter applies automatically with a delay by default. Alternatively, it can be applied by a click on the *"Apply Filter"* button if you set the **filterRow** | [applyFilter](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/#applyFilter) option to *"onClick"*.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -27,11 +43,26 @@ A user-specified filter applies automatically with a delay by default. Alternati
         });
     });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxo-filter-row
+            [visible]="true"
+            applyFilter="onClick">
+        </dxo-filter-row>
+    </dx-tree-list>
+    
+---
+
 Each cell in the filter row contains a magnifying glass icon, pausing on which opens a drop-down list with filters available for the column.
 
 ![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Filtering FilterRow](/Content/images/doc/17_2/treelist/visual_elements/filter_row_operation_chooser.png)
 
 The set of available filters can be restricted using the [filterOperations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#filterOperations) option. You can also preselect a filter with the [selectedFilterOperation](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#selectedFilterOperation) option. Combining these two options, you can preselect a filter and disallow a user to change it, for example:
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -43,6 +74,19 @@ The set of available filters can be restricted using the [filterOperations](/Doc
             }]
         });
     });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxo-filter-row [visible]="true"></dxo-filter-row>
+        <dxi-column ...
+            selectedFilterOperation="contains"
+            [filterOperations]="[]">
+        </dxi-column>
+    </dx-tree-list>
+    
+---
 
 #####See Also#####
 - [Filtering API - Initial and Runtime Filtering](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering)

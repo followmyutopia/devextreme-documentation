@@ -8,6 +8,9 @@ Rows are loaded when they get into the viewport and removed once they leave it. 
 
 Use the **scrolling** | [mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/scrolling/#mode) option to specify the current scrolling mode.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             scrolling: {
@@ -16,7 +19,21 @@ Use the **scrolling** | [mode](/Documentation/ApiReference/UI_Widgets/dxTreeList
         });
     });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxo-scrolling
+            mode="standard"> <!-- or "virtual" -->
+        </dxo-scrolling>
+    </dx-tree-list>
+    
+---
+
 The **TreeList** adapts its scrolling mechanism to the current platform. It utilizes native scrolling on most platforms, except non-Mac desktops and Android 4.0 below devices, where the widget simulates scrolling. You can force the **TreeList** to use native or simulated scrolling on all platforms by setting the [useNative](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/scrolling/#useNative) option.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -26,7 +43,21 @@ The **TreeList** adapts its scrolling mechanism to the current platform. It util
         });
     });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxo-scrolling
+            [useNative]="true"> <!-- or false | "auto" -->
+        </dxo-scrolling>
+    </dx-tree-list>
+    
+---
+
 The current platform determines the native scrolling settings and you cannot adjust them, but you can control the simulated scrolling. Particularly, you can specify whether a user scrolls the content with a swipe gesture or the scrollbar by setting the [scrollByContent](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/scrolling/#scrollByContent) and [scrollByThumb](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/scrolling/#scrollByThumb) options. Also, set the [showScrollbar](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/scrolling/#showScrollbar) option to specify when the scrollbar should appear.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -38,6 +69,20 @@ The current platform determines the native scrolling settings and you cannot adj
             }
         });
     });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxo-scrolling
+            [useNative]="false"
+            [scrollByContent]="true"
+            [scrollByThumb]="true"
+            showScrollbar="onHover"> <!-- or "onClick" | "always" | "never" -->
+        </dxo-scrolling>
+    </dx-tree-list>
+    
+---
 
 #####See Also#####
 - [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)

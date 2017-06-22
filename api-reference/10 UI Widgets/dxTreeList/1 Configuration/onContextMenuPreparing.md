@@ -17,6 +17,9 @@ A handler for the **contextMenuPreparing** event. Executed before a context menu
 <!--fullDescription-->
 This handler allows you to customize the context menu.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#treeListContainer").dxTreeList({
@@ -33,6 +36,29 @@ This handler allows you to customize the context menu.
             }
         });
     });
+
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        onContextMenuPreparing (e) { 
+            if (e.target == "header" && e.columnIndex == 0) {
+                e.items.push({
+                    text: "Item Text",
+                    onItemClick: function() {
+                        // ...
+                    }
+                });
+            } 
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ...
+        (onContextMenuPreparing)="onContextMenuPreparing($event)">
+    </dx-tree-list>
+    
+---
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

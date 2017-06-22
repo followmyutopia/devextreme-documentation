@@ -1,5 +1,8 @@
 To consume data from a custom source, the **TreeList** uses the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). This article provides details on how to configure it and on the protocol that the **CustomStore** adheres when communicating with the server. If the server already processes data (that is, performs filtering, sorting or grouping), notify the **TreeList** by assigning *true* to the corresponding field of the [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/) object. 
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#treeListContainer").dxTreeList({
@@ -12,7 +15,20 @@ To consume data from a custom source, the **TreeList** uses the [CustomStore](/D
                 grouping: true
             }
         });
-    }); 
+    });
+
+##### Angular
+
+    <!--HTML--><dx-tree-list ...
+        [dataSource]="treeListDataSource">
+        <dxo-remote-operations
+            [filtering]="true"
+            [sorting]="true"
+            [grouping]="true"> <!-- Grouping is required only when a user can filter data using a header filter -->
+        </dxo-remote-operations>
+    </dx-tree-list>
+
+---
 
 [note]Make data operations remote only if data has a [plain structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataStructure).
 

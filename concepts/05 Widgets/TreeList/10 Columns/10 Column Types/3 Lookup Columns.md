@@ -4,6 +4,9 @@ A lookup column is a special case of [data columns](/Documentation/Guide/Widgets
 
 Each lookup column has an individual [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/#dataSource) - a collection of objects that map the column's actual values to display values...
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             dataSource: orders,
@@ -23,7 +26,37 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
         });
     });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list [dataSource]="orders">
+        <dxi-column
+            dataField="statusId"> <!-- provides actual values -->
+            <dxo-lookup
+                [dataSource]="lookupData"
+                valueExpr="id" <!-- contains the same values as the "statusId" field provides -->
+                displayExpr="name"> <!-- provides display values -->
+            </dxo-lookup>
+        </dxi-column>
+    </dx-tree-list>
+
+    <!--JavaScript-->
+    export class AppComponent {
+        orders = [ ... ];
+        lookupData = [
+            { id: 1, name: 'Not Started' },
+            { id: 2, name: 'Need Assistance' },
+            { id: 3, name: 'In Progress' },
+            // ...
+        ];
+    }
+    
+---
+
 ... or simply an array of column values if actual and display values are the same.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -41,6 +74,31 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
             }]
         });
     });
+
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list [dataSource]="orders">
+        <dxi-column
+            dataField="status"> <!-- provides column values -->
+            <dxo-lookup
+                [dataSource]="lookupData"> <!-- contains the same values as the "status" field provides -->
+            </dxo-lookup>
+        </dxi-column>
+    </dx-tree-list>
+
+    <!--JavaScript-->
+    export class AppComponent {
+        orders = [ ... ];
+        lookupData = [
+            'Not Started',
+            'Need Assistance',
+            'In Progress',
+            // ...
+        ];
+    }
+    
+---
 
 #####See Also#####
 - [lookup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/)

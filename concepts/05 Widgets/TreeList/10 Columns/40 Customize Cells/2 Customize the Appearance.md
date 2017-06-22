@@ -1,6 +1,16 @@
-DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) for AngularJS and Knockout apps. The following code shows how you can customize column cells using this component. Note that the template's [name](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/Configuration/#name) is assigned to the column's [cellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#cellTemplate) option. 
+DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) for Angular, AngularJS and Knockout apps. The following code shows how you can customize column cells using this component. Note that the template's [name](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/Configuration/#name) is assigned to the column's [cellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#cellTemplate) option. 
 
 ---
+
+##### Angular
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column dataField="Title" cellTemplate="cellTemplate"></dxi-column>
+        <div *dxTemplate="let cell of 'cellTemplate'">
+            <div style="color:blue">{{ cell.text }}</div>
+        </div>
+    </dx-tree-list>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)
 
@@ -58,6 +68,9 @@ If you use jQuery alone, combine the HTML markup for cells using jQuery [DOM man
 
 While **cellTemplate** customizes data cells only, the [onCellPrepared](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onCellPrepared) function can customize any cell. Unlike **cellTemplate**, this function does customizations after a cell is created, so you cannot use it to change the cell value. Check the [rowType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType) field of the function's argument to detect the UI element that owns the cell.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#treeListContainer").dxTreeList({
@@ -75,6 +88,30 @@ While **cellTemplate** customizes data cells only, the [onCellPrepared](/Documen
         background-color: #cce6ff;
         font-size: 12pt
     }
+
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        onCellPrepared (e) {
+            if (e.rowType == "detailAdaptive") {
+                e.cellElement.addClass("adaptiveRowStyle");
+            }
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list
+        (onCellPrepared)="onCellPrepared($event)">
+    </dx-tree-list>
+
+    <!--CSS-->
+    .adaptiveRowStyle { 
+        background-color: #cce6ff;
+        font-size: 12pt
+    }
+    
+---
 
 #####See Also#####
 - [Customize Column Headers](/Documentation/Guide/Widgets/TreeList/Columns/Customize_Column_Headers/)

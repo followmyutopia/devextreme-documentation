@@ -1,11 +1,14 @@
 Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#customizeText) function if you need to customize the text displayed in cells. 
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#treeListContainer").dxTreeList({
             // ...
             columns: [{
-                dataField: "price",
+                dataField: "Price",
                 customizeText: function(cellInfo) {
                     return cellInfo.value + "$";
                 }
@@ -13,7 +16,26 @@ Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxTreeList/Config
         });
     });
 
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        priceColumn_customizeText (cellInfo) {
+            return cellInfo.value + "$";
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column dataField="Price" [customizeText]="priceColumn_customizeText"></dxi-column>
+    </dx-tree-list>
+    
+---
+
 Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue) function to populate a column with custom values. This function is designed to create unbound columns - columns that are not bound to any individual data field. In the following example, this function combines full names from data that the **firstName** and **lastName** fields provide. 
+
+---
+##### jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -28,4 +50,20 @@ Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeLi
         });
     });
 
-Note that sorting in unbound columns is disabled by default, and their cells cannot be edited at runtime.
+##### Angular
+
+    <!--JavaScript-->
+    export class AppComponent {
+        fullNameColumn_calculateCellValue (rowData) {
+            return rowData.firstName + " " + rowData.lastName;
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column caption="Full Name" [calculateCellValue]="fullNameColumn_calculateCellValue"></dxi-column>
+    </dx-tree-list>
+    
+---
+
+Note that [sorting](/Documentation/Guide/Widgets/TreeList/Sorting/) in unbound columns is disabled by default, and their cells can be [edited](/Documentation/Guide/Widgets/TreeList/Editing/) at runtime only if you implement the [setCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#setCellValue) function.

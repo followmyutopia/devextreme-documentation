@@ -16,6 +16,9 @@ Specifies whether the column bands other columns or not.
 <!--fullDescription-->
 Unlike normal columns, band columns do not hold data. Instead, they collect two or more columns under one column header. In most cases, to set up this layout, you can declare the band column using a hierarchical structure. For example, the following code bands three columns under the *"Address"* header.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             // ...
@@ -28,7 +31,23 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
         });
     });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column caption="Address">
+            <dxi-column dataField="City"></dxi-column>
+            <dxi-column dataField="Street"></dxi-column>
+            <dxi-column dataField="Apartment"></dxi-column>
+        </dxi-column>
+    </dx-tree-list>
+    
+---
+
 If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColumns) option to configure columns, the hierarchical structure cannot be implemented. To band columns in this case, use the **isBand** and [ownerBand]({basewidgetpath}/Configuration/columns/#ownerBand) options.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
@@ -40,13 +59,38 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
                 });
                 
                 var addressFields = ['City', 'Street', 'Apartment'];
-                for (var i = 0; i < columns.length-1; i++) {
+                for (var i = 0; i < columns.length - 1; i++) {
                     if (addressFields.indexOf(columns[i].dataField) > -1) // If the column belongs to "Address",
-                        columns[i].ownerBand = columns.length-1; // assigns "Address" as the owner band column
+                        columns[i].ownerBand = columns.length - 1; // assigns "Address" as the owner band column
                 }
             }
         });
     });
+
+##### Angular
+    
+    <!--JavaScript-->
+    export class AppComponent {
+        customizeColumns (columns) {
+            columns.push({ // Pushes the "Address" band column into the "columns" array
+                caption: "Address",
+                isBand: true
+            });
+    
+            var addressFields = ['City', 'Street', 'Apartment'];
+            for (var i = 0; i < columns.length - 1; i++) {
+                if (addressFields.indexOf(columns[i].dataField) > -1) // If the column belongs to "Address",
+                    columns[i].ownerBand = columns.length - 1; // assigns "Address" as the owner band column
+            }
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ...
+        [customizeColumns]="customizeColumns">
+    </dx-tree-list>
+    
+---
 
 [note]Band columns must not have the **dataField** option set.
 

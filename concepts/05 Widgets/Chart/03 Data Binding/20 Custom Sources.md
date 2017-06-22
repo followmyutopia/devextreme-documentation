@@ -6,7 +6,6 @@ For the **Chart** widget, you need to implement the [load](/Documentation/ApiRef
 
 The following code example shows how to implement the **load** operation. You can see that in this example, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the **DataSource** configuration object to shorten this example.
 
-
 ---
 ##### jQuery
 
@@ -39,7 +38,7 @@ The following code example shows how to implement the **load** operation. You ca
 
     <!--JavaScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule } from '@angular/http';
+    import { Http, HttpModule, URLSearchParams } from '@angular/http';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -49,34 +48,40 @@ The following code example shows how to implement the **load** operation. You ca
         constructor(@Inject(Http) http: Http) {
             this.chartDataSource = new DataSource({
                 load: function (loadOptions) {
-                    // "params" contains a query string that should be passed with the GET request
-                    var params = '?';
+                    let params: URLSearchParams = new URLSearchParams();
 
                     // Passed if "sort" is set
                     if (loadOptions.sort) {
-                        // Add sorting parameters to the query string, for example
-                        params += 'orderby=' + loadOptions.sort[0].selector;
+                        var sortParams = loadOptions.sort[0].selector;
                         if (loadOptions.sort[0].desc) {
-                            params += ' desc';
+                            sortParams += ' desc';
                         }
+                        params.set("orderby", sortParams);
                     }
                     // Passed if "filter" is set
                     if (loadOptions.filter) {
-                        // Add filtering parameters to the query string
-                        params += ...
+                        params.set("filter", loadOptions.filter); 
                     }
 
-                    return http.get('http://mydomain.com/MyDataService' + params).toPromise()
-                        .then(response => {
-                            var json = response.json();
-                            // Here, you can perform operations unsupported by the server
-                            // or any other operations on the retrieved data
-                            return json.items
-                        });
-                }
+                    return http.get('http://mydomain.com/MyDataService', {
+                                    search: params
+                                })
+                                .toPromise()
+                                .then(response => {
+                                    var json = response.json();
+                                    // Here, you can perform operations unsupported by the server
+                                    // or any other operations on the retrieved data
+                                    return json.items
+                                });
+                },
+                // ...
             });
         }
     }
+
+    <!--HTML--><dx-chart ...
+        [dataSource]="chartDataSource">
+    </dx-chart>
 
 ---
 
