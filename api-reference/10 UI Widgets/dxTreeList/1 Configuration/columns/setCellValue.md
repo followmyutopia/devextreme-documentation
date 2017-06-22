@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->function(rowData, value)<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -58,17 +58,6 @@ Using this function, you can process user input before it is saved to the data s
 
 [note] To invoke the default behavior, call the **this.defaultSetCellValue(rowData, value)** function.
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The data object where new data should be set.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->value<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->any<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The input value.
-<!--/typeFunctionParamDescription2-->
 
 <!--handmade-->
 <!--/handmade-->
