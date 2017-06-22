@@ -13,20 +13,22 @@ Specifies a function to be invoked after the cell value is edited by a user, but
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Using this function, you can process user input before it will be saved in the data source. This function accepts the **rowData** and **value** parameters. **value** is the user input that you should assign to one of the fields of the **rowData**. Initially, **rowData** is an empty object. Fill it with fields whose values should be saved in the data object of the current row.  
+Using this function, you can process user input before it is saved to the data source. This function accepts the **newData**, **value** and **currentRowData** parameters. **value** is the user input that you should assign to one of the fields of the **newData**. Initially, **newData** is an empty object. Fill it with fields whose values should be saved in the data object of the current row. **currentRowData** is a read-only parameter used to access the current row data.
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             // ...
             columns: [
-                "field1",
+                "Price",
                 {
-                    dataField: "field2",
-                    setCellValue: function(rowData, value) {
-                        rowData.field2 = value;
-                        rowData.field1 = null;
+                    dataField: "Count",
+                    dataType: "number",
+                    setCellValue: function(newData, value, currentRowData) {
+                        newData.Count = value;
+                        newData.TotalPrice = currentRowData.Price * value;
                     }
                 },
+                "TotalPrice",
                 // ...
             ]
         });

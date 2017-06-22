@@ -38,7 +38,7 @@ The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxValidator">dxValidato
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-
+The current row data. Exists only when you validate a <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid">DataGrid</a> or <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList">TreeList</a> cell's value.
 <!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionReturnType-->true|false<!--/typeFunctionReturnType-->
