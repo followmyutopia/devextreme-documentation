@@ -42,6 +42,10 @@ The default alignment of the content depends on the [type of data]({basewidgetpa
     <td><i>'date'</i></td>
     <td><i>'left'</i></td>
   </tr>
+  <tr>
+    <td><i>'datetime'</i></td>
+    <td><i>'left'</i></td>
+  </tr>
   </tbody>
 </table>
 </div>

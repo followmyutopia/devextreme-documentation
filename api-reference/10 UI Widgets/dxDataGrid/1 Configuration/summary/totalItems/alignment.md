@@ -43,6 +43,10 @@ The default alignment of a summary item depends on the [type of data](/Documenta
     <td><i>'left'</i></td>
   </tr>
   <tr>
+    <td><i>'datetime'</i></td>
+    <td><i>'left'</i></td>
+  </tr>
+  <tr>
     <td><i>'guid'</i></td>
     <td><i>'left'</i></td>
   </tr>
