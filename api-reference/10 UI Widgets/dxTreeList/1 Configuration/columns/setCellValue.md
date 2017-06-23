@@ -39,22 +39,26 @@ Using this function, you can process user input before it is saved to the data s
 
 ##### Angular
 
-    <!--HTML-->
-    <dx-tree-list ... >
-        <dxi-column dataField="field1"></dxi-column>
-        <dxi-column dataField="field2" [setCellValue]="setCellValue"></dxi-column>
-    </dx-tree-list>
-    
     <!--JavaScript-->
     export class AppComponent {
-        setCellValue (rowData, value) {
-            rowData.field2 = value;
-            rowData.field1 = null;
+        setCellValue (newData, value, currentRowData) {
+            newData.Count = value;
+            newData.TotalPrice = currentRowData.Price * value;
         }
     }
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dxi-column dataField="Price"></dxi-column>
+        <dxi-column
+            dataField="Count"
+            dataType="number"
+            [setCellValue]="setCellValue">
+        </dxi-column>
+        <dxi-column dataField="TotalPrice"></dxi-column>
+    </dx-tree-list>
     
 ---
-    
 
 [note] To invoke the default behavior, call the **this.defaultSetCellValue(rowData, value)** function.
 <!--/fullDescription-->
