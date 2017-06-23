@@ -61,7 +61,7 @@ The object passed with the [$.getJSON()](http://api.jquery.com/jquery.getjson/) 
                 selector: "dataFieldName1", 
                 // Specifies the grouping interval
                 groupInterval: 100, 
-                // Specifies whether groups are expanded
+                // Specifies whether the server should return group data rows or only the row count
                 isExpanded: true, 
                 // Specifies the sort order
                 desc: false 
@@ -103,7 +103,7 @@ After receiving this object with settings, the server should apply them to data,
                     key: "Group 1_1_1",
                     summary: [8, 2, 10],
                     // This is a group of the deepest hierarchy level (isExpanded: false),
-                    // therefore, you need to return the following fields
+                    // therefore, you need to return only the count of data rows, while the "items" field should hold null
                     items: null,
                     count: 3        // The count of data rows in the current group
                 ]
