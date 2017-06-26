@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'displayText' | 'value'<!--/acceptValues-->
+<!--acceptValues-->'displayText' | 'value' | 'none'<!--/acceptValues-->
 <!--type-->string<!--/type-->
 ===========================================================================
 
