@@ -15,7 +15,7 @@ Specifies how field data should be sorted. Can be used for the [XmlaStore](/Docu
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In [XMLA](/Documentation/ApiReference/Data_Layer/XmlaStore/), each data object of a dimension attribute has a value and a display text. For example, month attribute display texts are 'January', 'February', ..., 'December'; and values are 1, 2, ..., 12. Sorting by value will make the first month be 'January', whereas, sorting by display text will perform alphabet sorting and make the first month be 'April'.
+In [XMLA](/Documentation/ApiReference/Data_Layer/XmlaStore/), each dimension attribute data object has a value and a display text. For example, month attribute display texts are 'January', 'February', ..., 'December'; values are 1, 2, ..., 12. Sorting by values makes 'January' the first month, whereas, sorting by display text performs alphabet sorting and makes 'April' the first month. Set this option to *"none"* to leave the objects unsorted.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PivotGridSortBy` enum. This enum accepts the following values: `DisplayText` and `Value`.
+Specify this option using the `PivotGridSortBy` enum when using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/). This enum accepts the following values: `DisplayText`, `Value`, and `None`.
 <!--/fullDescription-->
