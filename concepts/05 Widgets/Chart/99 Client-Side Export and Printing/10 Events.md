@@ -38,7 +38,7 @@ You can handle these events with functions. If the handling functions are not go
         (onFileSaving)="onFileSaving($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onExporting (e) {
             // Handler of the "exporting" event

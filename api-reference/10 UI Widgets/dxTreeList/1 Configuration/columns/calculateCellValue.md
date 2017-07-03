@@ -62,7 +62,7 @@ To invoke the default behavior, call the **this.defaultCalculateCellValue(rowDat
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         calculateCellValue (rowData) {
             // ...

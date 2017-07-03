@@ -9,7 +9,7 @@ You can clear sorting settings for all columns by calling the [clearSorting()](/
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

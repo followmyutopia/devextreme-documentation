@@ -24,7 +24,7 @@ When a tooltip becomes shown or hidden, the **Chart** fires the [tooltipShown](/
         (onTooltipHidden)="onTooltipHidden($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onTooltipShown (e) {
             let point = e.target;

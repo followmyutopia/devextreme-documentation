@@ -10,7 +10,7 @@ Gets all series of the **Chart**.
 
     ##### Angular
 
-        <!--JavaScript-->
+        <!--TypeScript-->
         import { ..., ViewChild } from '@angular/core';
         import { DxChartModule, DxChartComponent } from 'devextreme-angular';
         // ...
@@ -34,7 +34,7 @@ Gets a series by its [name](/Documentation/ApiReference/Data_Visualization_Widge
 
     ##### Angular
 
-        <!--JavaScript-->
+        <!--TypeScript-->
         import { ..., ViewChild } from '@angular/core';
         import { DxChartModule, DxChartComponent } from 'devextreme-angular';
         // ...
@@ -58,7 +58,7 @@ Gets a series by its index in the [series](/Documentation/ApiReference/Data_Visu
 
     ##### Angular
 
-        <!--JavaScript-->
+        <!--TypeScript-->
         import { ..., ViewChild } from '@angular/core';
         import { DxChartModule, DxChartComponent } from 'devextreme-angular';
         // ...
@@ -94,7 +94,7 @@ Apart from the API methods, you can access a series in the event handlers. For e
         (onSeriesClick)="onSeriesClick($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onSeriesClick (e) {
             let series = e.target;

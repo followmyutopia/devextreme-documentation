@@ -38,7 +38,7 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
 
 ##### Angular
 
-    <!--JavaScript-->export class AppComponent {
+    <!--TypeScript-->export class AppComponent {
         var validateLogin = function (params) {
             $.ajax({
                 url: "http://www.example.com/services/validate-login",

@@ -41,7 +41,7 @@ After that, use the **seriesTemplate** | [nameField](/Documentation/ApiReference
         <dxo-series-template nameField="year"></dxo-series-template>
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fruitProduction = [
             { fruit: "Apples", year: 2014, produced: 84 },
@@ -94,7 +94,7 @@ If you need to change options of a particular series, return an [object with the
         <dxo-series-template nameField="year" [customizeSeries]="customizeSeries"></dxo-series-template>
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fruitProduction = [
             { fruit: "Apples", year: 2014, produced: 84 },

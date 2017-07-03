@@ -69,7 +69,7 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
 
 ##### Angular
     
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         customizeColumns (columns) {
             columns.push({ // Pushes the "Address" band column into the "columns" array

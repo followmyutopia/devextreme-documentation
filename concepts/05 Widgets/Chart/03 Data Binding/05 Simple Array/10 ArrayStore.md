@@ -32,7 +32,7 @@ If you want to extend the functionality of a JavaScript array, place it into an 
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {
@@ -96,7 +96,7 @@ As you may notice, in the previous code, the **ArrayStore** is not declared expl
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {

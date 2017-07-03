@@ -18,7 +18,7 @@ The [cellValue (rowIndex, visibleColumnIndex, value)](/Documentation/ApiReferenc
 
 ##### Angular
     
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         updateCell () {
@@ -65,7 +65,7 @@ The **TreeList** widget allows you to process an updated cell value in the **col
 
 ##### Angular
     
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         setCellValue (rowData, value) {
             rowData.ID = value + Math.random() * 100;
@@ -108,7 +108,7 @@ Call the [hasEditData()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Metho
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         saveEditData () {

@@ -33,7 +33,7 @@ The API for filtering differs depending on the UI element that it affects. To sp
 
 <!---->
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...
@@ -81,7 +81,7 @@ To specify initial values for a [header filter](/Documentation/Guide/Widgets/Tre
 
 <!---->
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...
@@ -122,7 +122,7 @@ You can specify an initial text for the [search panel](/Documentation/Guide/Widg
 
 <!---->
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...
@@ -148,7 +148,7 @@ All the aforementioned options and methods filter data that was returned by the 
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...
@@ -174,7 +174,7 @@ Since there are many ways to filter data, you may need to get a filter combined 
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

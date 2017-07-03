@@ -40,7 +40,7 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
         </dxi-column>
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         orders = [ ... ];
         lookupData = [
@@ -87,7 +87,7 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
         </dxi-column>
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         orders = [ ... ];
         lookupData = [

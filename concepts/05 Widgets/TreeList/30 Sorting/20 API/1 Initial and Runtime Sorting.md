@@ -37,7 +37,7 @@ Change the **sortOrder** and **sortIndex** options using the [columnOption](/Doc
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

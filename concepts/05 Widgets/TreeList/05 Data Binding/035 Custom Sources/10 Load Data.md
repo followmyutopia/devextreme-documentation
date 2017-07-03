@@ -38,7 +38,7 @@ The example below shows how to implement the **load** function for all data proc
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import { Http, HttpModule, URLSearchParams } from '@angular/http';
     import DataSource from 'devextreme/data/data_source';

@@ -24,7 +24,7 @@ Use the [selectedRowKeys](/Documentation/ApiReference/UI_Widgets/dxTreeList/Conf
         [selectedRowKeys]="[1, 5, 18]">
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {
@@ -55,7 +55,7 @@ You can select rows at runtime as well with the [selectRows(keys, preserve)](/Do
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...
@@ -84,7 +84,7 @@ To get the keys or data of the selected rows, call the [getSelectedRowKeys()](/D
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

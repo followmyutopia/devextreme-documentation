@@ -43,7 +43,7 @@ Many **TreeList** elements are based on editors. For example, the search panel i
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onEditorPreparing (e) { 
             if (e.dataField == "name") {
@@ -93,7 +93,7 @@ If you use a third-party editor, cancel creation of the default editor and then 
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onEditorPreparing (e) { 
             if(e.dataField === "hidden") {

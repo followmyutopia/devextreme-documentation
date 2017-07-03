@@ -22,7 +22,7 @@ The **TreeList** widget raises the [selectionChanged](/Documentation/ApiReferenc
         (onSelectionChanged)="onSelectionChanged($event)">
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onSelectionChanged (e) { // Handler of the "selectionChanged" event
             let currentSelectedRowKeys = e.currentSelectedRowKeys;

@@ -41,7 +41,7 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
 
 ##### Angular
     
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onEditorPreparing (e) {
             if (e.dataField == "requiredDataField") {

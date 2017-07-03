@@ -55,7 +55,7 @@ If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxTreeL
 
 ##### Angular
     
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         customizeColumns (columns) {
             columns.push({ // Pushes the "Contacts" band column into the "columns" array

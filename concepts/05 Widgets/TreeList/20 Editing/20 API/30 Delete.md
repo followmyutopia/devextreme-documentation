@@ -41,7 +41,7 @@ Call the [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxTreeList
         (onClick)="deleteRow()">
     </dx-button>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         deleteRow () {
@@ -62,7 +62,7 @@ Note that in the [batch mode](/Documentation/Guide/Widgets/TreeList/Editing/#Use
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         undeleteRow () {

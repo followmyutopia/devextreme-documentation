@@ -18,7 +18,7 @@ Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxTreeList/Config
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         priceColumn_customizeText (cellInfo) {
             return cellInfo.value + "$";
@@ -52,7 +52,7 @@ Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeLi
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fullNameColumn_calculateCellValue (rowData) {
             return rowData.firstName + " " + rowData.lastName;

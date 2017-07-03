@@ -48,7 +48,7 @@ The **TreeList** generates a column per data field if you do not specify the **c
 
 ##### Angular
     
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         customizeColumns (columns) {
             columns[0].width = 100;

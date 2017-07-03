@@ -56,7 +56,7 @@ Options declared in the **tooltip** object apply to all tooltips in the **Chart*
         </dxo-tooltip>
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         // Paints the tooltips of all points whose value is more than 100 in red
         // Other tooltips remain painted in yellow

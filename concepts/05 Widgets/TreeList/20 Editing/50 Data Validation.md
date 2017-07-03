@@ -61,7 +61,7 @@ The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configur
 
 ##### Angular
     
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         barAdministratorLogin (e) {
             if (e.isValid && e.newData.Login === "Administrator") {

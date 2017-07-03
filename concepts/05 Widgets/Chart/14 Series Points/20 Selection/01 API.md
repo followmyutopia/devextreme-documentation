@@ -24,7 +24,7 @@ The selection capability is not provided out of the box, but it can be implement
         (onPointClick)="onPointClick($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onPointClick (e) {
             let point = e.target;
@@ -64,7 +64,7 @@ In the previous code example, selection was cleared of a specific point. If you 
         (onPointClick)="onPointClick($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onPointClick (e) {
             let series = e.target.series;
@@ -87,7 +87,7 @@ If you need to clear selection of all series in the **Chart** along with their p
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxChartModule, DxChartComponent } from 'devextreme-angular';
     // ...

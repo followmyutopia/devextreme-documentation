@@ -82,7 +82,7 @@ In addition, a user can click legend items. By default, the widget does not reac
         (onLegendClick)="onLegendClick($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onLegendClick (e) {
             let series = e.target;

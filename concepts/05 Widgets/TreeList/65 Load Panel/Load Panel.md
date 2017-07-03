@@ -38,7 +38,7 @@ You can also control the load panel programmatically using the [beginCustomLoadi
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

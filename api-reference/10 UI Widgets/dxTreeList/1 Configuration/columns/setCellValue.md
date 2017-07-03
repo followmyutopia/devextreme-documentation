@@ -39,7 +39,7 @@ Using this function, you can process user input before it is saved to the data s
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         setCellValue (newData, value, currentRowData) {
             newData.Count = value;

@@ -28,7 +28,7 @@ You can relocate or resize the command columns by changing their **visibleIndex*
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...
@@ -77,7 +77,7 @@ You can also customize cells of command columns using the [onCellPrepared](/Docu
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onCellPrepared (e) {
             if (e.rowType == "data") {

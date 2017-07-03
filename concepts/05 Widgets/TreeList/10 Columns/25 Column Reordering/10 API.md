@@ -15,7 +15,7 @@ The [columns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/co
 
 ##### Angular
     
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         customizeColumns (columns) {
             column[2].visibleIndex = 1;
@@ -39,7 +39,7 @@ The **visibleIndex** option can also be changed at runtime to reorder columns re
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

@@ -32,7 +32,7 @@ Each DevExtreme editor allows changing its validation state and error message us
 
 ##### Angular
 
-    <!--JavaScript-->export class AppComponent {
+    <!--TypeScript-->export class AppComponent {
         login: string;
         isLoginValid: boolean = true;
         loginValidationError: Object = {};

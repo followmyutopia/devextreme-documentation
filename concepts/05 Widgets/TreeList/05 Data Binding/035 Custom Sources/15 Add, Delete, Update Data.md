@@ -66,7 +66,7 @@ With these settings, the **TreeList** expects that the server can also add, upda
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         treeListDataSource: any = {};
         constructor(@Inject(Http) http: Http) {

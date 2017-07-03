@@ -8,7 +8,7 @@ Use the [addRow()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#ad
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...
@@ -50,7 +50,7 @@ You can specify initial values for a newly added row in the [onInitNewRow](/Docu
         <dxi-column dataField="Hire_Date" dataType="date"></dxi-column>
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onInitNewRow (e) {
             e.data.Hire_Date = new Date();

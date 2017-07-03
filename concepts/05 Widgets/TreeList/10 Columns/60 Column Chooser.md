@@ -70,7 +70,7 @@ Call the [showColumnChooser()](/Documentation/ApiReference/UI_Widgets/dxTreeList
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

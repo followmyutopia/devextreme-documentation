@@ -69,7 +69,7 @@ As an example, see the following code, which implements the data source for the 
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import 'devextreme/data/custom_store';
     // ...
     export class AppComponent {
@@ -145,7 +145,7 @@ If you use a data source that does not contain the required fields (**text** and
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import ArrayStore from 'devextreme/data/array_store';
     import DataSource from 'devextreme/data/data_source';
     // ...

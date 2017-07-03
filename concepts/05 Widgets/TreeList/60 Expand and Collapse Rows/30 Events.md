@@ -30,7 +30,7 @@ To execute certain commands before or after a row was expanded or collapsed, han
         (onRowCollapsed)="onRowCollapsed($event)">
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onRowExpanding (e) {
             // Handler of the "rowExpanding" event

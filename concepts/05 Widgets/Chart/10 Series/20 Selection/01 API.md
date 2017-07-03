@@ -24,7 +24,7 @@ The selection capability is not provided out of the box, but it can be implement
         (onSeriesClick)="onSeriesClick($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onSeriesClick (e) {
             let series = e.target;
@@ -64,7 +64,7 @@ There are series that consist of points only, for example, [bar](/Documentation/
         (onPointClick)="onPointClick($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onPointClick (e) {
             let series = e.target.series;
@@ -87,7 +87,7 @@ In the previous code examples, selection was cleared of a specific series. If yo
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxChartModule, DxChartComponent } from 'devextreme-angular';
     // ...

@@ -86,7 +86,7 @@ Settings specified in the manner described above apply to a congregation of seri
         </dxi-series>
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         // Assigns the red color to all series points with value more than 100
         // Other series points remain painted in blue

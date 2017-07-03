@@ -30,7 +30,7 @@
         [(value)]="endValue">
     </dx-date-box>
 
-    <!--JavaScript-->export class AppComponent {
+    <!--TypeScript-->export class AppComponent {
         startValue: Date;
         endValue: Date;
     }

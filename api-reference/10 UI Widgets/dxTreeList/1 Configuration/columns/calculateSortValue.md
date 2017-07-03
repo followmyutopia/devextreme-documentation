@@ -60,7 +60,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

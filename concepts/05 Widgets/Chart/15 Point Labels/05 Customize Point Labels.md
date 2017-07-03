@@ -30,7 +30,7 @@ If you need to change the text displayed by point labels, declare the [customize
         </dxi-series>
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         customizeText (pointInfo: any) {
             return pointInfo.argument + ': ' + pointInfo.value;
@@ -73,7 +73,7 @@ You can also customize an individual label. For this purpose, assign a function 
         </dxi-series>
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         // Assigns the red color to all labels whose series points have value more than 100
         // Other labels remain painted in blue

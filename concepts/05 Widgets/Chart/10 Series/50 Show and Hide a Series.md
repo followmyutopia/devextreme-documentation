@@ -24,7 +24,7 @@ The **Chart** provides an API for showing and hiding a series at runtime. The mo
         (onLegendClick)="onLegendClick($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onLegendClick (e) {
             let series = e.target;

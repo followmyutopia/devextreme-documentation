@@ -8,7 +8,7 @@ Regardless of the data source you use, the **TreeList** always wraps it in the [
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

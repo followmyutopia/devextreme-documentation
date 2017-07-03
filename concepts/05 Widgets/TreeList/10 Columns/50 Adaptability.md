@@ -48,7 +48,7 @@ You can expand or collapse adaptive detail rows programmatically by calling the 
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...
@@ -83,7 +83,7 @@ All adaptive detail rows contain the [DevExtreme Form widget](/Documentation/Api
 
 ##### Angular
     
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onAdaptiveDetailRowPreparing (e) {
             for (let formItem of e.formOptions.items) {

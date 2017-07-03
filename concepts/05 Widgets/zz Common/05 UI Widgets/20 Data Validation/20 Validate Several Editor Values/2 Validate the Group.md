@@ -49,7 +49,7 @@ You can validate any group by calling its [validate()](/Documentation/ApiReferen
     <!-- /dx-validation-group -->
 
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         // ...
         loginClick: function (e) {

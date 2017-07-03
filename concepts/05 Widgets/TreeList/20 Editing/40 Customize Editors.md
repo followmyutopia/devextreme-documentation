@@ -40,7 +40,7 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Confi
         </dxi-column>
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onEditorPreparing (e) {
             if (e.dataField == "Name") {
@@ -96,7 +96,7 @@ Implement the **columns[]** | [editCellTemplate](/Documentation/ApiReference/UI_
         </div>
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         setCheckBoxValue (args, cellInfo) {
             cellInfo.setValue(args.target.checked);

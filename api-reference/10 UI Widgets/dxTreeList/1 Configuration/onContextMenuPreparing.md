@@ -39,7 +39,7 @@ This handler allows you to customize the context menu.
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onContextMenuPreparing (e) { 
             if (e.target == "header" && e.columnIndex == 0) {

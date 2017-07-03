@@ -29,7 +29,7 @@ The **TreeList** widget raises events before and after a row is inserted, update
         (onRowInserting)="onRowInserting($event)">
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onRowInserting (e) {
             // Handler of the "rowInserting" event
@@ -76,7 +76,7 @@ In addition, the **TreeList** raises the [initNewRow](/Documentation/ApiReferenc
         (onInitNewRow)="onInitNewRow($event)">
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onInitNewRow (e) { // Handler of the "initNewRow" event
             // Sets an initial value for the "Hire_Date" field

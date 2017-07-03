@@ -91,7 +91,7 @@ While **cellTemplate** customizes data cells only, the [onCellPrepared](/Documen
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onCellPrepared (e) {
             if (e.rowType == "detailAdaptive") {

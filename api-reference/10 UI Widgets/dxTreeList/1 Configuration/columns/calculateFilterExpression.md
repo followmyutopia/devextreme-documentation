@@ -52,7 +52,7 @@ The following code snippet shows the default implementation of the **calculateFi
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {
             // Implementation for the "between" comparison operator
@@ -99,7 +99,7 @@ Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOper
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {
             // ...

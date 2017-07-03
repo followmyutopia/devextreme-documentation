@@ -65,7 +65,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         </dxi-column>
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         getCountryWithCapital (rowData) {
             return rowData.capital + " (" + rowData.country + ")";

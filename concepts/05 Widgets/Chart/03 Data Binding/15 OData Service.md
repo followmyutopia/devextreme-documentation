@@ -27,7 +27,7 @@ To bind the **Chart** to data provided by an OData service, use the [ODataStore]
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import 'devextreme/data/odata/store';
     import DataSource from 'devextreme/data/data_source';
     // ...
@@ -82,7 +82,7 @@ As you may notice, in the previous code, the **ODataStore** is not declared expl
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import 'devextreme/data/odata/store';
     import DataSource from 'devextreme/data/data_source';
     // ...

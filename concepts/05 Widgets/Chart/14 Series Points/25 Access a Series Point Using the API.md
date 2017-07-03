@@ -13,7 +13,7 @@ Gets all points of the series.
 
     ##### Angular
 
-        <!--JavaScript-->
+        <!--TypeScript-->
         import { ..., ViewChild } from '@angular/core';
         import { DxChartModule, DxChartComponent } from 'devextreme-angular';
         // ...
@@ -38,7 +38,7 @@ Gets those points of the series that has a specific argument. Returns more than 
 
     ##### Angular
 
-        <!--JavaScript-->
+        <!--TypeScript-->
         import { ..., ViewChild } from '@angular/core';
         import { DxChartModule, DxChartComponent } from 'devextreme-angular';
         // ...
@@ -63,7 +63,7 @@ Gets a point by its index in the series. The index is zero-based.
     
     ##### Angular
 
-        <!--JavaScript-->
+        <!--TypeScript-->
         import { ..., ViewChild } from '@angular/core';
         import { DxChartModule, DxChartComponent } from 'devextreme-angular';
         // ...
@@ -88,7 +88,7 @@ Gets those points of the series that fall into the range from [min](/Documentati
 
     ##### Angular
 
-        <!--JavaScript-->
+        <!--TypeScript-->
         import { ..., ViewChild } from '@angular/core';
         import { DxChartModule, DxChartComponent } from 'devextreme-angular';
         // ...
@@ -125,7 +125,7 @@ Apart from the API methods, you can access a series point in the event handlers.
         (onPointClick)="onPointClick($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onPointClick (e) {
             let point = e.target;

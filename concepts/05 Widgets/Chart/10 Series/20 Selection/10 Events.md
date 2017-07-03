@@ -24,7 +24,7 @@ When a user selects a series, the **Chart** fires the [seriesSelectionChanged](/
         (onSeriesSelectionChanged)="onSeriesSelectionChanged($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onSeriesSelectionChanged (e) {
             let series = e.target;

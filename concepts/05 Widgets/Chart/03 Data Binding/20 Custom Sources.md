@@ -36,7 +36,7 @@ The following code example shows how to implement the **load** operation. You ca
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import { Http, HttpModule, URLSearchParams } from '@angular/http';
     import DataSource from 'devextreme/data/data_source';

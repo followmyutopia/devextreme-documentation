@@ -45,7 +45,7 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

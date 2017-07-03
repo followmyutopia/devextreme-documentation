@@ -11,7 +11,7 @@ To access a point label, call the [getLabel()](/Documentation/ApiReference/Data_
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxChartModule, DxChartComponent } from 'devextreme-angular';
     // ...

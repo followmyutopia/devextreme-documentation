@@ -16,7 +16,7 @@ If you want to extend the functionality of a JavaScript array, place it into an 
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import ArrayStore from 'devextreme/data/array_store';
     // ...
     export class AppComponent {
@@ -62,7 +62,7 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {

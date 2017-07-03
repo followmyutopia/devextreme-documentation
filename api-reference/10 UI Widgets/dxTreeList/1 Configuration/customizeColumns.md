@@ -31,7 +31,7 @@ Use this function to make minor adjustments to automatically generated columns. 
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         customizeColumns (columns) {
             columns[0].width = 100;

@@ -7,7 +7,7 @@ Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxTreeList/
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...
@@ -31,7 +31,7 @@ The [deselectAll()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#d
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

@@ -52,7 +52,7 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
 
 ##### Angular
 
-    <!--JavaScript-->export class AppComponent {
+    <!--TypeScript-->export class AppComponent {
         $callbacks = $.Callbacks()
         phone: string;
         email: string;

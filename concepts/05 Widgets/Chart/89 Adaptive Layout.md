@@ -34,7 +34,7 @@ The layout does not automatically adapt to changes made in the widget's containe
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxChartModule, DxChartComponent } from 'devextreme-angular';
     // ...

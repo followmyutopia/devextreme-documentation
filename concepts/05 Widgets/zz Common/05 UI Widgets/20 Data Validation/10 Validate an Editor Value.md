@@ -23,7 +23,7 @@ Associate a DevExtreme editor with the [Validator](/Documentation/ApiReference/U
 
 ##### Angular
 
-    <!--JavaScript-->export class AppComponent {
+    <!--TypeScript-->export class AppComponent {
         login: string;
         loginRules = [{
             type: 'required'

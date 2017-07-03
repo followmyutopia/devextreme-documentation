@@ -35,7 +35,7 @@ If you need to show or hide the loading indicator at runtime, call the [showLoad
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxChartModule, DxChartComponent } from 'devextreme-angular';
     // ...

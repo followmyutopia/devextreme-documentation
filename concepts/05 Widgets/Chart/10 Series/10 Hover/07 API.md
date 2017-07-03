@@ -10,7 +10,7 @@ You can switch a series into the hover state by calling its [hover()](/Documenta
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         toggleSeriesHoverState (series) {
             !series.isHovered() ? series.hover() : series.clearHover();

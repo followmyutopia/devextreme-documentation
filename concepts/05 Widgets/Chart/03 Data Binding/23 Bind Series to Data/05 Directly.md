@@ -29,7 +29,7 @@ To bind a series to data directly, specify which data source field provides argu
         </dxi-series>
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fruitProduction = [
             { fruit: "Apples",  year2014: 84, year2015: 82, year2016: 90 },
@@ -74,7 +74,7 @@ Commonly, a chart contains several series, and many of them have the same argume
         <dxi-series valueField="year2016" name="2016"></dxi-series>
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fruitProduction = [
             { fruit: "Apples",  year2014: 84, year2015: 82, year2016: 90 },

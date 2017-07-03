@@ -33,7 +33,7 @@ If you use hierarchical data, set the [dataStructure](/Documentation/ApiReferenc
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         hierarchicalData = [{
             fullName: "John Heart",
@@ -101,7 +101,7 @@ All items with children have the **items** field. If you use another name for th
         itemsExpr="children">
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         hierarchicalData = [{
             fullName: "John Heart",

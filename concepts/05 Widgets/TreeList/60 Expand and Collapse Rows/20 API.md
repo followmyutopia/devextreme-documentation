@@ -36,7 +36,7 @@ Call the [expandRow(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Meth
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

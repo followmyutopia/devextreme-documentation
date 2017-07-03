@@ -24,7 +24,7 @@ When a user pauses on a series, the **Chart** fires the [seriesHoverChanged](/Do
         (onSeriesHoverChanged)="onSeriesHoverChanged($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onSeriesHoverChanged (e) {
             let series = e.target;

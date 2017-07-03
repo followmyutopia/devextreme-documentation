@@ -35,7 +35,7 @@ This technique is universal for any data source as anything passed to the [dataS
     
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxChartModule, DxChartComponent } from 'devextreme-angular';
     // ...

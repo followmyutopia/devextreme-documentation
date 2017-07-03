@@ -19,7 +19,7 @@ To bind the **TreeList** to an array, pass this array to the [dataSource](/Docum
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         employees = [
             { id: '1', fullName: "John Heart", position: "CEO" }, 
@@ -58,7 +58,7 @@ If objects in the array need to be processed (sorted or filtered), you can creat
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import query from 'devextreme/data/query';
     // ...
     export class AppComponent {

@@ -24,7 +24,7 @@ When a user pauses on a series point, the **Chart** fires the [pointHoverChanged
         (onPointHoverChanged)="onPointHoverChanged($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onPointHoverChanged (e) {
             let point = e.target;

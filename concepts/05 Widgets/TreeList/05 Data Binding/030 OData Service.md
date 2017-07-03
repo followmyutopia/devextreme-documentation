@@ -17,7 +17,7 @@ To bind the **TreeList** to data provided by an OData service, use the [ODataSto
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import 'devextreme/data/odata/store';
     // ...
     export class AppComponent {
@@ -56,7 +56,7 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import 'devextreme/data/odata/store';
     import DataSource from 'devextreme/data/data_source';
     // ...

@@ -45,7 +45,7 @@ The **Chart** can be zoomed and scrolled using the [RangeSelector](/Documentatio
         <dxo-behavior callValueChanged="onMoving"></dxo-behavior>
     </dx-range-selector>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxChartModule, DxChartComponent, DxRangeSelectorModule } from 'devextreme-angular';
     // ...

@@ -18,7 +18,7 @@ To zoom a standalone **Chart** initially, call its [zoomArgument(startValue, end
         (onDone)="zoom($event)">
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxChartModule } from 'devextreme-angular';
     // ...

@@ -7,7 +7,7 @@ A column is considered hidden when its [visible](/Documentation/ApiReference/UI_
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
     import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
     // ...

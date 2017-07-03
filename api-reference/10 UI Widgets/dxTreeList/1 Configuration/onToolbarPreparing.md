@@ -55,7 +55,7 @@ The following code shows how you can customize the toolbar using this handler.
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         onToolbarPreparing (e) { 
             var toolbarItems = e.toolbarOptions.items;

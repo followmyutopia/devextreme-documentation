@@ -24,7 +24,7 @@ To bind the **Chart** to an array, pass this array to the [dataSource](/Document
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fruits = [
             { fruit: 'Apples', count: 10 },
@@ -71,7 +71,7 @@ If objects in an array need to be processed (sorted, filtered, etc.), you can cr
 
 ##### Angular
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     import query from 'devextreme/data/query';
     // ...
     export class AppComponent {
