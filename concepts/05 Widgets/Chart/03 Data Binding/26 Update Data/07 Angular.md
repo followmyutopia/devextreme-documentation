@@ -4,7 +4,7 @@ Enclose the **dataSource** option in square brackets to bind it to an array usin
 
     <!--HTML--><dx-chart [dataSource]="fruits"></dx-chart>
     
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fruits = [
             { fruit: 'Apples', count: 10 },
@@ -15,3 +15,4 @@ Enclose the **dataSource** option in square brackets to bind it to an array usin
 
 #####See Also#####
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
+- [DevExtreme Angular on GitHub](https://github.com/devexpress/DevExtreme-angular)
