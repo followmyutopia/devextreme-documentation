@@ -27,7 +27,7 @@ In **AngularJS approach**, if you need to access item object's fields within a t
 
     <!--HTML-->
     <div data-options="dxTemplate: { name:'myField' }" dx-item-alias="itemObj">
-        <div dx-text-box: { value: itemObj.name + ' (' + itemObj.capital + ')' } "></div>
+        <div dx-text-box=" { value: itemObj.name + ' (' + itemObj.capital + ')' } "></div>
     </div>
 
 #####Knockout#####
