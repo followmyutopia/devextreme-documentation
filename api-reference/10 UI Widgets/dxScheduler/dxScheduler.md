@@ -58,7 +58,7 @@ You can create the widget using one of the following approaches.
         [endDayHour]="19">
     </dx-scheduler>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         schedulerData = [{
                 text: 'Meeting customers',

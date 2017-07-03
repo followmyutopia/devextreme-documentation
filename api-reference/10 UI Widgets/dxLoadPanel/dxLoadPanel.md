@@ -44,7 +44,7 @@ You can create the widget using one of the following approaches.
         [(visible)]="isLoadPanelVisible">
     </dx-load-panel>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         isLoadPanelVisible = true;
     }

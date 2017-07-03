@@ -52,7 +52,7 @@ You can create the widget using one of the following approaches.
     <!--HTML-->
     <dx-multi-view [items]="multiViewItems"></dx-multi-view>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         multiViewItems = [
             // ...   

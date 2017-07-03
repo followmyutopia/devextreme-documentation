@@ -53,7 +53,7 @@ You can create the widget using one of the following approaches.
         [height]="300">
     </dx-gallery>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         galleryData = [
             'http://path/to/image/1.png',

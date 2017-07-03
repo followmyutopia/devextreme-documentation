@@ -150,7 +150,7 @@ You can create the widget using one of the following approaches.
         dataStructure="plain">
     </dx-tree-view>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         species = [
             // ...   

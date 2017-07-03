@@ -45,7 +45,7 @@ You can create the widget using one of the following approaches.
         <!-- Widget content -->
     </dx-defer-rendering>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     var modelIsReady = $.Deferred();
     // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
     // ...

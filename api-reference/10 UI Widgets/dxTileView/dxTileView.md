@@ -71,7 +71,7 @@ You can create the widget using one of the following approaches.
             </div>
     </dx-tile-view>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         states = [
             // ...

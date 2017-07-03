@@ -48,7 +48,7 @@ You can create the widget using one of the following approaches.
         title="Employees">
     </dx-lookup>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         employees = [
             // ...   

@@ -79,7 +79,7 @@ You can create the widget using one of the following approaches.
         <dxi-series valueField="consumed"></dxi-series>
     </dx-pie-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fruits = [
             // ...   

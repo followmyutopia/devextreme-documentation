@@ -89,7 +89,7 @@ You can create the widget using one of the following approaches.
         </dxo-background-image>
     </dx-panorama>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         panoramaItems = [
             // ...   

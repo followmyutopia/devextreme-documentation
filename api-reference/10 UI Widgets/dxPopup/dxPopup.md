@@ -47,7 +47,7 @@ You can create the widget using one of the following approaches.
             <p>Popup content</p>
     </dx-popup>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         isPopupVisible = true;
     }

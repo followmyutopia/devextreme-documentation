@@ -59,7 +59,7 @@ You can create the widget using one of the following approaches.
         (onClick)="showToast()">
     </dx-button>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         isToastVisible = false;
         showToast() {

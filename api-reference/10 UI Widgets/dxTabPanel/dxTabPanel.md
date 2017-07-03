@@ -64,7 +64,7 @@ You can create the widget using one of the following approaches.
     <!--HTML-->
     <dx-tab-panel [items]="tabs"></dx-tab-panel>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         tabs = [
             // ...

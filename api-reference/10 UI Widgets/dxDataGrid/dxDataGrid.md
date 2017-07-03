@@ -71,7 +71,7 @@ You can create the widget using one of the following approaches.
         <dxi-column dataField="Fax"></dxi-column>
     </dx-data-grid>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         customers = [
             // ...   

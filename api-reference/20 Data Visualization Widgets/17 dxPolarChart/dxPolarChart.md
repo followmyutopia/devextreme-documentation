@@ -100,7 +100,7 @@ You can create the widget using one of the following approaches.
         </dxi-series>
     </dx-polar-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         temperature = [
             // ...   

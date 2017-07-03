@@ -70,7 +70,7 @@ You can create the widget using one of the following approaches.
     <!--HTML-->
     <dx-toolbar [items]="toolbarData"></dx-toolbar>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         toolbarData = toolbarItems;
     }

@@ -80,7 +80,7 @@ You can create the **Chart** widget using one of the following approaches.
         <dxi-series valueField="consumed"></dxi-series>
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fruits = [
             { fruit: 'Oranges', yield: 10, consumed: 7 },

@@ -46,7 +46,7 @@ You can add the **PivotGridFieldChooser** widget using one of the following appr
     <dx-pivot-grid-field-chooser [dataSource]="pivotGridDataSource"></dx-pivot-grid-field-chooser>
     <dx-pivot-grid [dataSource]="pivotGridDataSource"></dx-pivot-grid>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
             // ...   

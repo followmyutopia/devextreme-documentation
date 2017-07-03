@@ -49,7 +49,7 @@ You can create the widget using one of the following approaches.
     <!--HTML-->
     <dx-tabs [items]="tabs"></dx-tabs>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         tabs = [
             // ...   

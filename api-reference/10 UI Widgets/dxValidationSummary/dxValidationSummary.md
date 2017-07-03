@@ -83,7 +83,7 @@ You can create the **ValidationSummary** widget using one of the following appro
         </dx-button>
     </dx-validation-group>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         validate(params) {
             params.validationGroup.validate();

@@ -64,7 +64,7 @@ You can create the widget using one of the following approaches.
     <!--HTML-->
     <dx-menu [items]="menuItems"></dx-menu>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         menuItems = [
             // ...   

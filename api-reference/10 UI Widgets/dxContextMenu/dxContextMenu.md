@@ -69,7 +69,7 @@ You can create the widget using one of the following approaches.
         target="#targetElement">
     </dx-context-menu>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         contextMenuItems = [
             // ...   

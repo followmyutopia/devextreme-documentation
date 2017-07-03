@@ -47,7 +47,7 @@ You can create the widget using one of the following approaches.
         [(value)]="currentDate">
     </dx-calendar>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         minDate = new Date(2000, 0, 1);
         maxDate = new Date(2029, 11, 31);

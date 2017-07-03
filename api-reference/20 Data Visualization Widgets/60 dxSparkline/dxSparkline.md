@@ -98,7 +98,7 @@ You can create the widget using one of the following approaches.
         type="bar">
     </dx-sparkline>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         temperature = [
             // ...   

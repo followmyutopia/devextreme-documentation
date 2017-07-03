@@ -47,7 +47,7 @@ You can create the widget using one of the following approaches.
         (onValueChanged)="checkBoxToggled($event)">
     </dx-check-box>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         checkBoxToggled(e) {
             alert(e.value);

@@ -46,7 +46,7 @@ You can create the widget using one of the following approaches.
         (onClick)="buttonClicked()">
     </dx-button>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         buttonClicked() {
             alert("The Button was clicked");

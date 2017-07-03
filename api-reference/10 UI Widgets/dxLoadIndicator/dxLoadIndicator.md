@@ -39,7 +39,7 @@ You can create the widget using one of the following approaches.
     <!--HTML-->
     <dx-load-indicator [(visible)]="isLoadIndicatorVisible"></dx-load-indicator>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         isLoadIndicatorVisible = true;
     }

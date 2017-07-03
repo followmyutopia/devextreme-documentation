@@ -88,7 +88,7 @@ You can create the widget using one of the following approaches.
         </dxi-item>
     </dx-form>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         companyData = {
             id: 1,

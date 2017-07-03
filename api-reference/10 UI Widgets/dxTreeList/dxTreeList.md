@@ -57,7 +57,7 @@ You can create this widget using one of the following approaches.
         <dxi-column dataField="Fax"></dxi-column>
     </dx-tree-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         customers = [
             // ...   

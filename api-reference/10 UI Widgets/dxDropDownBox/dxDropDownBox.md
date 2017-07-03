@@ -59,7 +59,7 @@ You can create the widget using one of the following approaches.
         </div>
     </dx-drop-down-box>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
         selectedFruit = fruits[0];

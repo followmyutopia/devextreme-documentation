@@ -68,7 +68,7 @@ You can create the widget using one of the following approaches.
         displayExpr="state">
     </dx-tag-box>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         states = [
             // ...   

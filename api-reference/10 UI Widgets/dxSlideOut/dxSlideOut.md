@@ -53,7 +53,7 @@ You can create the widget using one of the following approaches.
         (onItemClick)="closeSlideOut($event)">
     </dx-slide-out>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         displays = [
             // ...

@@ -77,7 +77,7 @@ You can create the widget using one of the following approaches.
         </dxo-scale>
     </dx-range-selector>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         startDate = new Date(2011, 0, 1);
         endDate = new Date(2011, 5, 1);

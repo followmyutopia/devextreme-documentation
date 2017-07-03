@@ -75,7 +75,7 @@ You can create the widget using one of the following approaches.
         [height]="300">
     </dx-pivot>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         pivotItems = [
             // ...   

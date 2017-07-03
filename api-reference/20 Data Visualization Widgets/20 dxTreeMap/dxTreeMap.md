@@ -72,7 +72,7 @@ You can create the **TreeMap** widget using one of the following approaches.
     <!--HTML-->
     <dx-tree-map [dataSource]="fruitsVegetables"></dx-tree-map>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         fruitsVegetables = [
             // ...   

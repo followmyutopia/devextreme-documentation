@@ -46,7 +46,7 @@ You can create the widget using one of the following approaches.
         [grouped]="true">
     </dx-list>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
     export class AppComponent {
         listData = [
             // ...
