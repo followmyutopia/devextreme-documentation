@@ -6,13 +6,8 @@
 **-->
 <!--d-->A data source used to fetch items of the widget.<!--/d-->
 ===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->array | DataSource | DataSource configuration<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-A data source used to fetch data to be displayed by the widget.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This option accepts one of the following.

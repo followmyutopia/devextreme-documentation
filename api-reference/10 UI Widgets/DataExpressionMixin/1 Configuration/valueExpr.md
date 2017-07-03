@@ -10,11 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the name of a data source item field whose value is held in the **value** configuration option.
+Specifies which data field provides the widget [value]({basewidgetpath}/Configuration/#value).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If the options value is "this", the widget returns the entire selected object from the **value** option. Note that the "this" value is not supported by a widget bound to an [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
-
-
+If the option's value is *"this"*, the widget returns the entire selected object from the **value** option. Note that the *"this"* value is not supported by a widget bound to an [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
 <!--/fullDescription-->

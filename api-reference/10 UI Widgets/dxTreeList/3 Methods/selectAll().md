@@ -5,16 +5,8 @@
 
 **-->
 ===================================================================
+<!--merge--><!--/merge-->
 ===================================================================
-
-<!--shortDescription-->
-Selects all rows. 
-<!--/shortDescription-->
-
-<!--returnType-->Promise<!--/returnType-->
-<!--returnDescription-->
-A Promise of the jQuery.Deferred object resolved after all rows are selected.
-<!--/returnDescription-->
 
 <!--fullDescription-->
 If a filter is applied, this method selects only those rows that meet the filtering conditions.

@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [selectionChanged]({basewidgetpath}/Events/#selectionChanged) event.
+A handler for the **selectionChanged** event. Raised after an item is selected or unselected.
 <!--/shortDescription-->
 
 <!--fullDescription-->

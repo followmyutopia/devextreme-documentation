@@ -5,27 +5,17 @@
 
 **-->
 ===================================================================
+<!--merge--><!--/merge-->
 ===================================================================
 
 <!--shortDescription-->
 Checks whether the row with a specific key is selected. 
 <!--/shortDescription-->
 
-<!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->any<!--/paramType1-->
-<!--paramDescription1-->
-The row's key.
-<!--/paramDescription1-->
-
-<!--returnType-->boolean<!--/returnType-->
-<!--returnDescription-->
-<i>true</i> if the row is selected; <i>false</i> otherwise.
-<!--/returnDescription-->
-
 <!--fullDescription-->
-
-<!--/fullDescription-->
 #####See Also#####
 - **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)
+<!--/fullDescription-->
+
 <!--handmade-->
 <!--/handmade-->

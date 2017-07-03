@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the width of the widget.
+Specifies the width of the widget container.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -31,5 +31,5 @@ A function returning either of the above. For example:
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->number|string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The width of the widget.
+The widget width.
 <!--/typeFunctionReturnDescription-->

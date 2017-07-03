@@ -63,5 +63,5 @@ The keys of all selected rows.
 <!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The data of all selected rows. </br>
-Does not include <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue">calculated values</a>.
+Does not include calculated values.
 <!--/typeFunctionParamDescription1_field7-->

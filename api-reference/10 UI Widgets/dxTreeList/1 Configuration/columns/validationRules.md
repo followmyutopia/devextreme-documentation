@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->array<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) to be checked on updating cell values.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 #####See Also#####

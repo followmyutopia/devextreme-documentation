@@ -5,13 +5,8 @@
 
 **-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->array | function(options) | DataSource configuration<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies a data source for the header filter.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This option accepts one of the following.
@@ -183,21 +178,7 @@ If you use a data source that does not contain the required fields (**text** and
 ---
 
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Data source options.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->dataSource<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The data source of the header filter.
-<!--/typeFunctionParamDescription1_field2-->
+
 
 <!--handmade-->
 <!--/handmade-->

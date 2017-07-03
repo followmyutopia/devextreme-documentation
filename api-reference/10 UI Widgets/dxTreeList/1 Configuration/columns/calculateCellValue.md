@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->function(rowData)<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies a callback function that calculates custom values for column cells.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 Column cells contain values from the [data field]({basewidgetpath}/Configuration/columns/#dataField) by default, but you can populate them with custom values instead. For this, declare the **calculateCellValue** function that will be called each time a new row is rendered.
@@ -84,16 +80,6 @@ To invoke the default behavior, call the **this.defaultCalculateCellValue(rowDat
 - **columns[]** | [calculateDisplayValue]({basewidgetpath}/Configuration/columns/#calculateDisplayValue)
 
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Data of the row to which the cell belongs.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->any<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A cell's custom value.
-<!--/typeFunctionReturnDescription-->
 
 <!--handmade-->
 <!--/handmade-->

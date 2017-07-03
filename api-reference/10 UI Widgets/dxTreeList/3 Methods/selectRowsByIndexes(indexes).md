@@ -5,22 +5,8 @@
 
 **-->
 ===================================================================
+<!--merge--><!--/merge-->
 ===================================================================
-
-<!--shortDescription-->
-Selects rows by indexes.
-<!--/shortDescription-->
-
-<!--paramName1-->indexes<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
-<!--paramDescription1-->
-The indexes of the rows to be selected.
-<!--/paramDescription1-->
-
-<!--returnType-->Promise<!--/returnType-->
-<!--returnDescription-->
-A Promise of the jQuery.Deferred object resolved after the rows are selected.
-<!--/returnDescription-->
 
 <!--fullDescription-->
 This method has the following specifics:

@@ -5,13 +5,8 @@
 
 **-->
 ===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->string | array | DataSource | DataSource configuration<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies the origin of data for the widget.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This option accepts one of the following.

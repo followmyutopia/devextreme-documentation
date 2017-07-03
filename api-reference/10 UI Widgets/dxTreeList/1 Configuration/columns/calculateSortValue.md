@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->string | function(rowData)<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Calculates custom values to be used in sorting.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This option accepts the name of the [data source field]({basewidgetpath}/Configuration/#dataSource) that provides values to be used in sorting...
@@ -85,16 +81,6 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ---
 
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Data of the row to which the cell belongs.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->any<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A value to be used in sorting.
-<!--/typeFunctionReturnDescription-->
 
 <!--handmade-->
 <!--/handmade-->

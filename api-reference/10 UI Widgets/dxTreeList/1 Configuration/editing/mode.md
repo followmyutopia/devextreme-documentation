@@ -5,14 +5,8 @@
 
 **-->
 ===========================================================================
-<!--default-->'row'<!--/default-->
-<!--acceptValues-->'row' | 'batch' | 'cell' | 'form' | 'popup'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies how a user edits data.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 The following list points out the differences in editing modes.

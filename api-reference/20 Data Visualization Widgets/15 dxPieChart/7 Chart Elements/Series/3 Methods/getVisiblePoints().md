@@ -4,21 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Gets visible points
-<!--/d-->
-<!--rd--> The points that are visible<!--/rd-->
 ===================================================================
+<!--merge--><!--/merge-->
 ===================================================================
-
-<!--shortDescription-->
-Returns visible series points.
-<!--/shortDescription-->
-
-<!--returnType-->array<!--/returnType-->
-<!--returnDescription-->
-Currently displayed series points.
-<!--/returnDescription-->
 
 <!--fullDescription-->
 

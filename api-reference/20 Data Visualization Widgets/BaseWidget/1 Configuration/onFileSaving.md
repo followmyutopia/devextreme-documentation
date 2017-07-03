@@ -18,7 +18,6 @@ A handler for the [fileSaving]({basewidgetpath}/Events#fileSaving) event.
 To perform a custom action before a file with exported data is saved on the user's local storage, assign a function to this option. Within this function, you can use the object passed to it as the parameter. For example, using the **cancel** field of this object, you can cancel file saving.
 
 #####See Also#####
-- [export]({basewidgetpath}/Configuration/export) - configures client-side export and printing.
 - [onExporting]({basewidgetpath}/Configuration#onExporting) - allows you to request exporting details and prevent exporting.
 - [onExported]({basewidgetpath}/Configuration#onExported) - allows you to notify an end user when exporting is completed.
 <!--/fullDescription-->
@@ -30,7 +29,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="{basewidgetpath}/Methods/#instance"></a> instance.
+The widget instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->

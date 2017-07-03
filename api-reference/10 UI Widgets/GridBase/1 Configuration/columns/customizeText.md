@@ -41,7 +41,7 @@ Indicates the type of the UI element where the <b>customizeText</b> function was
 <!--typeFunctionParamName1_field4-->groupInterval<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string|number<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Indicates how header filter values were combined into groups. Available if <b>target</b> is <i>"headerFilter"</i>.<br />For possible values, see the description of the <b>headerFilter</b> | <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval">groupInterval</a> option.
+Indicates how header filter values were combined into groups. Available if <b>target</b> is <i>"headerFilter"</i>.<br />For possible values, see the description of the <b>headerFilter</b> | <b>groupInterval</b> option.
 <!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

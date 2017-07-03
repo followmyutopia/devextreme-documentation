@@ -6,13 +6,8 @@
 **-->
 <!--d-->Argument field<!--/d-->
 ===========================================================================
-<!--default-->'arg'<!--/default-->
-<!--type-->string<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies which data source field provides arguments for series points.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 Each point in a bubble series has an argument, a regular value and a size value. Arguments are provided by the **argumentField**; regular values are provided by the **valueField**; size values are provided by the **sizeField**.

@@ -5,13 +5,8 @@
 
 **-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->number<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies the index according to which columns participate in sorting.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This option accepts an integer specifying the index of the column in a collection of columns with applied sorting. For example, consider the following data source that can provide data for three columns.

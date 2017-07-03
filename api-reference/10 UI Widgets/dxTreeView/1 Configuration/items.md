@@ -6,12 +6,8 @@
 **-->
 <!--d-->An array of items to be displayed by the widget.<!--/d-->
 ===========================================================================
-<!--type-->array<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-An array of items displayed by the widget.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 [note]The widget requires each data item to have a key field whose value is unique within the entire array.

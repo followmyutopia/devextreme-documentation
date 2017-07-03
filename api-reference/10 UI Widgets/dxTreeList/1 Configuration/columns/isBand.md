@@ -5,13 +5,8 @@
 
 **-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->boolean<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies whether the column bands other columns or not.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 Unlike normal columns, band columns do not hold data. Instead, they collect two or more columns under one column header. In most cases, to set up this layout, you can declare the band column using a hierarchical structure. For example, the following code bands three columns under the *"Address"* header.

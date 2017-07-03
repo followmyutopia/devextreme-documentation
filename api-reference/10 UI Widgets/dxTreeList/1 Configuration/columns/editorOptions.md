@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->object<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies options for the underlain editor.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 Depending in the [dataType]({basewidgetpath}/Configuration/columns/#dataType), the column offers a user different widgets for editing: [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/), [DateBox](/Documentation/ApiReference/UI_Widgets/dxDateBox/), [Lookup](/Documentation/ApiReference/UI_Widgets/dxLookup/), etc. In the **editorOptions** object, you can specify options for the editing widget.

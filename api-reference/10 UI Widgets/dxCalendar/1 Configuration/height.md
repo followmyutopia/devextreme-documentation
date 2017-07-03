@@ -6,14 +6,8 @@
 **-->
 <!--d-->The height of the widget.<!--/d-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->number|string|function<!--/type-->
-<!--frd-->The widget height.<!--/frd-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies the height of the widget.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This option can hold a value of the following types.
@@ -36,9 +30,6 @@ A function returning the widget height (e.g., height:function(){ return baseHeig
 
 
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->number|string<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The widget height.
-<!--/typeFunctionReturnDescription-->
+
 <!--handmade-->
 <!--/handmade-->

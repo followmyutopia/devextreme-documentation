@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->string | function(rowData)<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Calculates custom values for column cells. Used when display values should differ from values for editing.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This option accepts the name of the [data source field]({basewidgetpath}/Configuration/#dataSource) that provides display values...
@@ -79,16 +75,6 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 #####See Also#####
 - **columns[]** | [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Data of the row to which the cell belongs.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->any<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A display value for the cell.
-<!--/typeFunctionReturnDescription-->
 
 <!--handmade-->
 <!--/handmade-->

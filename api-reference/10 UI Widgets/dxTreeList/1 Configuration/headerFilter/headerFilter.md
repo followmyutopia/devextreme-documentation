@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->object<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Configures the header filter feature.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 A header filter allows a user to filter values in an individual column by including or excluding them from the applied filter. A click on a header filter icon invokes a popup menu with all unique values in the column. By selecting or clearing the selection of values in this menu, the user includes or excludes them from the filter.

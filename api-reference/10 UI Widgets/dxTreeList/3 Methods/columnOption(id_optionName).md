@@ -5,28 +5,8 @@
 
 **-->
 ===================================================================
+<!--merge--><!--/merge-->
 ===================================================================
-
-<!--shortDescription-->
-Gets the value of a specific option set for a specific column.
-<!--/shortDescription-->
-
-<!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->number|string<!--/paramType1-->
-<!--paramDescription1-->
-The name, index, data field or caption of the column.
-<!--/paramDescription1-->
-
-<!--paramName2-->optionName<!--/paramName2-->
-<!--paramType2-->string<!--/paramType2-->
-<!--paramDescription2-->
-The name of the required option.
-<!--/paramDescription2-->
-
-<!--returnType-->any<!--/returnType-->
-<!--returnDescription-->
-The value of this option.
-<!--/returnDescription-->
 
 <!--fullDescription-->
 This method gets the value of an option of the first column found by either of the below:

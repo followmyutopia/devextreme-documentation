@@ -5,13 +5,8 @@
 
 **-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->object<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies options of a lookup column.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 A lookup column restricts the set of values that can be chosen when a user edits or filters the column. In a lookup column, each cell is a drop-down menu. You can use a lookup column when you need to substitute displayed values for required values. For example, consider that you have two arrays of objects: `drivers` and `buses`.

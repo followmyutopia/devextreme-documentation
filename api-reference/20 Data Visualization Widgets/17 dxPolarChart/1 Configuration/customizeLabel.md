@@ -6,43 +6,48 @@
 **-->
 <!--d-->Custom style of individual label<!--/d-->
 ===========================================================================
-<!--type-->function(labelInfo)<!--/type-->
-<!--fp1d-->Information on the label to be customized<!--/fp1d-->
-<!--frd--> A configuration object for the label<!--/frd-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
-<!--shortDescription-->
-Specifies a callback function that returns an object with options for a specific point label.
-<!--/shortDescription-->
-
 <!--fullDescription-->
-By default, all point labels on a chart are displayed identically. But you can specify different appearance for specific labels using the **customizeLabel** field. Assign a function to this field. This function should return an object with options that should be changed for a certain label. Refer to the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/label/) object description to learn about the options that can be changed.
+By default, all point labels in a chart are identical, but you can specify a unique appearance for individual labels using the **customizeLabel** function. This function should return an object with options that will be changed for a certain label. See the [label]({basewidgetpath}/Configuration/series/label) object for information about all options available for changing.
 
-When implementing a callback function for this option, you can access the following fields of the function's parameter.
+The **customizeLabel** function accepts an object providing information about the series point that the label belongs to. This object contains the following fields.
 
-* **seriesName**  
-The name of the current series.
-* **argument**    
-The argument of the label's point.
-* **value**        
-The value of the label's point.
-* **tag**    
-The tag of the label's point.
-* **index**        
-The index of the label's point in the points array.
-
-In addition, these values can be accessed using the **this** object.
+<div class="simple-table">
+    <table>
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:left">argument</td>
+                <td>The argument of the series point.</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">value</td>
+                <td>The value of the series point.</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">tag</td>
+                <td>The <a href="{basewidgetpath}/Configuration/series/#tagField">tag</a> of the series point.</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">seriesName</td>
+                <td>The <a href="{basewidgetpath}/Configuration/series/#name">name</a> of the series that includes the series point.</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">index</td>
+                <td>The index of the series point in the points array.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->labelInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the label to be customized
-<!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Label<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A configuration object for the label
-<!--/typeFunctionReturnDescription-->
 
 <!--handmade-->
 <!--/handmade-->

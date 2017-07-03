@@ -13,7 +13,7 @@ Fires after a collection item is selected or unselected.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onSelectionChanged]({basewidgetpath}/Configuration/#onSelectionChanged) option to handle the event.
+Main article: [onSelectionChanged]({basewidgetpath}/Configuration/#onSelectionChanged)
 
 #####See Also#####
 - **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)

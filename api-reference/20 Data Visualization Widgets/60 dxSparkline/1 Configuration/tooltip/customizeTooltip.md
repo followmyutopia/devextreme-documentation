@@ -6,14 +6,8 @@
 **-->
 <!--d-->Tooltip custom format and color function. Return object  {color: string; text:string}<!--/d-->
 ===========================================================================
-<!--type-->function(pointsInfo)<!--/type-->
-<!--fp1d-->Defines different types of values indicated by a sparkline.<!--/fp1d-->
-<!--frd--> Specifies the text to be displayed in a tooltip and a color for the tooltip.<!--/frd-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Allows you to change the appearance of specific tooltips.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
@@ -64,16 +58,6 @@ To access the fields above, you can use the function's parameter as well as the 
 
 To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->pointsInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Defines different types of values indicated by a sparkline.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The text or markup to be displayed in a tooltip and its color.
-<!--/typeFunctionReturnDescription-->
 
 <!--handmade-->
 <!--/handmade-->

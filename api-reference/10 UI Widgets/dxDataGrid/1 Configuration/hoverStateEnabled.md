@@ -6,17 +6,13 @@
 **-->
 <!--d-->Enable a hot track for row<!--/d-->
 ===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->boolean<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
 <!--shortDescription-->
 Specifies whether grid rows are highlighted when the mouse pointer moves over them.
 <!--/shortDescription-->
 
-<!--fullDescription-->
-
-<!--/fullDescription-->
 
 <!--handmade-->
 <!--/handmade-->

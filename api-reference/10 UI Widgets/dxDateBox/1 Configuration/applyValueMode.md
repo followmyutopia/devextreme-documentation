@@ -6,14 +6,8 @@
 **-->
 <!--d-->Specifies apply value mode<!--/d-->
 ===========================================================================
-<!--default-->'instantly'<!--/default-->
-<!--acceptValues-->'useButtons' | 'instantly'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies the way an end-user applies the selected value.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 The option accepts the following values.

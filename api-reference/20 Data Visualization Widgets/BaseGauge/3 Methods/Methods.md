@@ -6,7 +6,7 @@
 **-->
 
 <!--shortDescription-->
-Overridden by descriptions for particular widgets.
+This section describes methods that can be used to manipulate the widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -6,12 +6,8 @@
 **-->
 <!--d-->Size options<!--/d-->
 ===========================================================================
-<!--type-->object<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies the size of the widget in pixels.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 By default, the widget occupies the entire area of the parent container. If you need to set a particular size for the widget, different from the container's size, assign a height and width in pixels to **height** and **width** properties of the **size** object.

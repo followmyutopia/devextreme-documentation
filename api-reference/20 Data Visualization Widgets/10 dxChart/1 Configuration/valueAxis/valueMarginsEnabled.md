@@ -6,13 +6,8 @@
 **-->
 <!--d-->Enables margin of plot<!--/d-->
 ===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->boolean<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Adds an empty space between the axis and the minimum and maximum series points.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 By default, the value axis extends slightly beyond its extrema. It prevents cutting off parts of the minimum and maximum series points. To disable this feature, set the **valueMarginsEnabled** option to *false*.

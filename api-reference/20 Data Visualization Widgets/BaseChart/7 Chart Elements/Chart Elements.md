@@ -6,7 +6,7 @@
 **-->
 
 <!--shortDescription-->
-This section lists the methods and fields of chart elements. 
+This section lists the methods and fields of the chart elements. 
 <!--/shortDescription-->
 
 <!--fullDescription-->

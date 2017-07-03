@@ -6,13 +6,8 @@
 **-->
 <!--d-->Argument field<!--/d-->
 ===========================================================================
-<!--default-->'arg'<!--/default-->
-<!--type-->string<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies which data source field provides arguments for series points.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 Each point in a range-like series has one argument and two values. Arguments are provided by the **argumentField**; values are provided by the **rangeValue1Field** and **rangeValue2Field**.

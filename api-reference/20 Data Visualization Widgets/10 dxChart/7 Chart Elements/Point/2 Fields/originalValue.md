@@ -6,7 +6,7 @@
 **-->
 <!--d-->Returns the point's value that was set in the data source.<!--/d-->
 ===========================================================================
-<!--type-->string|number|date<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
 <!--shortDescription-->

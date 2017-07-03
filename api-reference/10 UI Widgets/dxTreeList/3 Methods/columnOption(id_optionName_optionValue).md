@@ -5,29 +5,8 @@
 
 **-->
 ===================================================================
+<!--merge--><!--/merge-->
 ===================================================================
-
-<!--shortDescription-->
-Assigns a new value to a single option of a specific column.
-<!--/shortDescription-->
-
-<!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->number|string<!--/paramType1-->
-<!--paramDescription1-->
-The name, index, data field, or caption of the column.
-<!--/paramDescription1-->
-
-<!--paramName2-->optionName<!--/paramName2-->
-<!--paramType2-->string<!--/paramType2-->
-<!--paramDescription2-->
-The name of the option to change.
-<!--/paramDescription2-->
-
-<!--paramName3-->optionValue<!--/paramName3-->
-<!--paramType3-->any<!--/paramType3-->
-<!--paramDescription3-->
-A new value for this option.
-<!--/paramDescription3-->
 
 <!--fullDescription-->
 This method sets an option of the first column found by either of the below:

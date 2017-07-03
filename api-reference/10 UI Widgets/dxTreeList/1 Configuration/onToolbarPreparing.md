@@ -6,13 +6,8 @@
 **-->
 <!--EventForAction-->..\4 Events\toolbarPreparing.md<!--/EventForAction-->
 ===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-A handler for the **toolbarPreparing** event. Executed before the toolbar is created.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This handler allows you to customize the toolbar. Depending on the configuration, the widget may add the following items to the toolbar:
@@ -83,31 +78,6 @@ The following code shows how you can customize the toolbar using this handler.
 ---
 
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The widget's container.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->toolbarOptions<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxToolbar/Configuration/">options of the toolbar</a>. 
-<!--/typeFunctionParamDescription1_field4-->
 
 <!--handmade-->
 <!--/handmade-->

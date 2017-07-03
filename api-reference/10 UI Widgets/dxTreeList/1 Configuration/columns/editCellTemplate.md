@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->template<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies a custom template for column cells in the editing state.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 By default, a user edits a string value contained within a cell. Using the **editCellTemplate** option, you can specify completely custom markup for the cell so that it contained, for example, a combo box or another widget instead of the string value. See [template](/Documentation/ApiReference/Common/Object_Structures/template/) for information on what the **editCellTemplate** option accepts.
@@ -56,17 +52,6 @@ When you use a template engine, the **editCellTemplate** option should be given 
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->jQuery<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The cell that you customize.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->cellInfo<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The settings of the cell.
-<!--/typeFunctionParamDescription2-->
 
 <!--handmade-->
 <!--/handmade-->

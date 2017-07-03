@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [pointClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointClick) event.
+A handler for the [pointClick]({basewidgetpath}/Events/#pointClick) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->

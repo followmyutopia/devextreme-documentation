@@ -6,13 +6,8 @@
 **-->
 <!--d-->Sourse of data for chart<!--/d-->
 ===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->array | DataSource | DataSource configuration | string<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies the origin of data for the widget.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This option accepts one of the following.

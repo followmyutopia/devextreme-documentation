@@ -6,14 +6,8 @@
 **-->
 <!--d-->The width of the widget.<!--/d-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->number|string|function<!--/type-->
-<!--frd-->The widget width.<!--/frd-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies the width of the widget.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 The option can hold a value of the following types.
@@ -36,11 +30,7 @@ The function returning the widget width. For example, see the following code.
 - iOS 260x260
 - Windows- 278x278
 
-
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->number|string<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The widget width.
-<!--/typeFunctionReturnDescription-->
+
 <!--handmade-->
 <!--/handmade-->

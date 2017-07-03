@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->function(filterValue, selectedFilterOperation, target)<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies custom filtering rules for the column.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This function must return a filter expression, which is an array of the following format:
@@ -116,28 +112,6 @@ Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOper
 
 [/note]
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->filtervalue<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-A user input value.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->selectedFilterOperation<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->string<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The currently selected filter operation.
-<!--/typeFunctionParamDescription2-->
-
-<!--typeFunctionParamName3-->target<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->string<!--/typeFunctionParamType3-->
-<!--typeFunctionParamDescription3-->
-The UI element where the filter expression was set.<br/>Possible values: <i>"filterRow"</i>, <i>"headerFilter"</i> and <i>"search"</i>.
-<!--/typeFunctionParamDescription3-->
-
-<!--typeFunctionReturnType-->Filter expression<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A filter expression.
-<!--/typeFunctionReturnDescription-->
 
 <!--handmade-->
 <!--/handmade-->

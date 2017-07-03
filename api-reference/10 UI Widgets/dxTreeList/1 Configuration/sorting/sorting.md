@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->object<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Configures runtime sorting.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 A user can sort rows by values of a single or multiple columns depending on the value of the **sorting** | [mode]({basewidgetpath}/Configuration/sorting/#mode) option.

@@ -4,30 +4,9 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-API for exporting
-<!--/d-->
-<!--p1d-->File name for result file.<!--/p1d-->
-<!--p2d-->Exporting format.<!--/p2d-->
 ===================================================================
+<!--merge--><!--/merge-->
 ===================================================================
-
-<!--shortDescription-->
-Exports the widget into a document with a specified name and format.
-<!--/shortDescription-->
-
-<!--paramName1-->fileName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
-<!--paramDescription1-->
-The name of a destination file.
-<!--/paramDescription1-->
-
-<!--paramName2-->format<!--/paramName2-->
-<!--paramType2-->string<!--/paramType2-->
-<!--paramDescription2-->
-A required format.<br/>
-Accepted Values: 'PNG' | 'PDF' | 'JPEG' | 'SVG' | 'GIF'
-<!--/paramDescription2-->
 
 <!--fullDescription-->
 #####See Also#####

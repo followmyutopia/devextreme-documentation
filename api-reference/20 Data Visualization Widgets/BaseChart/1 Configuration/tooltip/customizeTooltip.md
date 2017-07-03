@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Allows you to change the appearance of specified tooltips.
+Allows you to change tooltip appearance.
 <!--/shortDescription-->
 
 <!--fullDescription-->

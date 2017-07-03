@@ -5,22 +5,8 @@
 
 **-->
 ===================================================================
+<!--merge--><!--/merge-->
 ===================================================================
-
-<!--shortDescription-->
-Gets the options of a column using its identifier.
-<!--/shortDescription-->
-
-<!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->number|string<!--/paramType1-->
-<!--paramDescription1-->
-The name, index, data field, or caption of the column.
-<!--/paramDescription1-->
-
-<!--returnType-->object<!--/returnType-->
-<!--returnDescription-->
-The options of the column.
-<!--/returnDescription-->
 
 <!--fullDescription-->
 This method gets the options of the first column found by either of the below:

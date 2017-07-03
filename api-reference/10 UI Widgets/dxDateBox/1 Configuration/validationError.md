@@ -6,13 +6,8 @@
 **-->
 <!--d-->Specifies the validation error (reference to broken rule)<!--/d-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->object<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Holds the object that defines the error that occurred during validation.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 [note]This option can be overwritten while passing either internal validation rules of the widget or external validators. To prevent this, set the **validationError** and the [isValid](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#isValid) option at the same time. 

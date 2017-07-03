@@ -6,47 +6,50 @@
 **-->
 <!--d-->Custom style of individual point<!--/d-->
 ===========================================================================
-<!--type-->function(pointInfo)<!--/type-->
-<!--fp1d-->Information on the point to be customized<!--/fp1d-->
-<!--frd--> A configuration object for the point<!--/frd-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
-<!--shortDescription-->
-Specifies a callback function that returns an object with options for a specific point.
-<!--/shortDescription-->
-
 <!--fullDescription-->
-By default, all points on a chart are displayed identically. But you can specify different appearance for certain points using the **customizePoint** field. Assign a function to this field. This function should return an object with options that must be changed for a specific point. Refer to the [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/point/) object description to learn about the options that can be changed.
+By default, all series points in a chart are identical, but you can specify a unique appearance for individual points using the **customizePoint** function. This function should return an object with options that will be changed for a certain point. See the [point]({basewidgetpath}/Configuration/series/point) object for information about all options available for changing.
 
-[note] The **hoverMode** and **selectionMode** options cannot be changed using the **customizePoint** option.
+[note]The **hoverMode** and **selectionMode** options cannot be changed using the **customizePoint** function, because they do not have anything to do with the appearance of series points.
 
-When implementing a callback function for this option, use the argument or value of a point. They can be accessed using the following fields of the function's parameter.
+The **customizePoint** function accepts an object providing information about the series point. This object contains the following fields.
 
-* **argument**    
-The argument of the point.
-* **value**        
-The value of the point.
-* **tag**    
-The tag of the point.
-* **seriesName**        
-The name of the series to which the point belongs.
-* **index**        
-The index of the point in the points array.
-
-
-In addition, these values can be accessed using the **this** object.
-
+<div class="simple-table">
+    <table>
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:left">argument</td>
+                <td>The argument of the series point.</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">value</td>
+                <td>The value of the series point.</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">tag</td>
+                <td>The <a href="{basewidgetpath}/Configuration/series/#tagField">tag</a> of the series point.</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">seriesName</td>
+                <td>The <a href="{basewidgetpath}/Configuration/series/#name">name</a> of the series that includes the series point.</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">index</td>
+                <td>The index of the series point in the points array.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information on the point to be customized
-<!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Point configuration<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A configuration object for the point
-<!--/typeFunctionReturnDescription-->
 
 <!--handmade-->
 <!--/handmade-->

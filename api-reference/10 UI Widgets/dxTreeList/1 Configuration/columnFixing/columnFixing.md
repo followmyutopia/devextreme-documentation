@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->object<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Configures column fixing. 
-<!--/shortDescription-->
 
 <!--fullDescription-->
 When the width of all columns exceeds the widget width, horizontal scrolling appears. If specific columns should be on screen constantly regardless of how far the widget is scrolled, allow a user to fix them at runtime using the context menu. For this, set the **columnFixing** | [enabled]({basewidgetpath}/Configuration/columnFixing/#enabled) option to *true*.

@@ -6,8 +6,7 @@
 **-->
 <!--d-->Defines an expression returning value from selected item (for a plain object item the expression could be field name).<!--/d-->
 ===========================================================================
-<!--default-->'this'<!--/default-->
-<!--type-->string|function<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
 <!--shortDescription-->

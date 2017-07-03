@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->template<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies a custom template for the column header.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 Below is the list of fields passed as the **headerInfo** object.
@@ -38,17 +34,6 @@ When you use a template engine, the **headerCellTemplate** option should be give
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->columnHeader<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->jQuery<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-The header that you customize.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionParamName2-->headerInfo<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
-<!--typeFunctionParamDescription2-->
-The settings of the header.
-<!--/typeFunctionParamDescription2-->
 
 <!--handmade-->
 <!--/handmade-->

@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->object<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Configures the filter row.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 The filter row allows a user to filter data by values of individual columns.

@@ -5,12 +5,8 @@
 
 **-->
 ===========================================================================
-<!--type-->object<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Configures the search panel.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 The search panel allows searching for values in several columns at once. The widget searches against only those columns whose [allowSearch]({basewidgetpath}/Configuration/columns/#allowSearch) option is set to *true*.

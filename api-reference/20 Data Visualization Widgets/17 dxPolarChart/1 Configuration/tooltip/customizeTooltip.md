@@ -6,14 +6,8 @@
 **-->
 <!--d-->Tooltip custom format and color function. Return object  {color: string; text:string}<!--/d-->
 ===========================================================================
-<!--type-->function(pointInfo)<!--/type-->
-<!--fp1d-->Defines the point value to be displayed in a tooltip.<!--/fp1d-->
-<!--frd--> Specifies the text to be displayed in a tooltip and a color for the tooltip.<!--/frd-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Allows you to change tooltip appearance.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 This option should be assigned a function returning a specific object. The following fields can be specified in this object.
@@ -58,16 +52,6 @@ The function's parameter represents the same object as the **this** object. If a
 
 To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Defines the point that is currently hovered over.
-<!--/typeFunctionParamDescription1-->
-
-<!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-The text or markup to be displayed in a tooltip, along with that tooltip's settings.
-<!--/typeFunctionReturnDescription-->
 
 <!--handmade-->
 <!--/handmade-->
