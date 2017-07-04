@@ -30,7 +30,7 @@ The object returned by the **validateGroup(group)** function has the following s
 - **validators**  
  An array of **Validator** widgets that are included to the validated group.
 
-To validate editors belonging to the default validation group and created using the **Knockout Approach**, call the [validateGroup(group)]({basewidgetpath}/Methods/#validateGroupgroup) method passing the view model as a parameter.
+To validate editors belonging to the default validation group and created using the **Knockout Approach**, call the [validateGroup(group)](/Documentation/ApiReference/Common/utils/validationEngine/Methods/#validateGroupgroup) method passing the view model as a parameter.
 
-To validate editors belonging to the default validation group that are also created using the **AngularJS Approach**, call the [validateGroup(group)]({basewidgetpath}/Methods/#validateGroupgroup) method passing the **$scope** object as a parameter.
+To validate editors belonging to the default validation group that are also created using the **AngularJS Approach**, call the [validateGroup(group)](/Documentation/ApiReference/Common/utils/validationEngine/Methods/#validateGroupgroup) method passing the **$scope** object as a parameter.
 <!--/fullDescription-->
