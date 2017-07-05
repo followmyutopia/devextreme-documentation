@@ -23,7 +23,7 @@ You can choose one of the predefined formats, depending on the values you need t
         <td style="width: 350px;">
             <ul>
                 <li><em>"fixedPoint"</em> - 100.11 &rarr; 100</li>
-                <li><em>"percent"</em> - 10 &rarr; 10%</li>
+                <li><em>"percent"</em> - 0.1 &rarr; 10%</li>
                 <li><em>"decimal"</em> - 100.11 &rarr; 100</li>
                 <li><em>"exponential"</em> - 1 000 &rarr; 1E+3</li>
                 <li><em>"thousands"</em> - 1 000.11 &rarr; 1K</li>
