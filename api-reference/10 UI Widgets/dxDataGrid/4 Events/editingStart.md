@@ -17,9 +17,9 @@ Instead, you can use the [onEditingStart](/Documentation/ApiReference/UI_Widgets
 
 When implementing a handling function for this event, use the object passed to this function as its argument. Among the fields of this object, you can find parameters of the about-to-be-edited row.
 
-If you need to prevent a specific row or cell from switching into the editing state, assign *true* to the **cancel** field of the object passed to the handler as the argument.
+If you need to prevent a specific row or cell from switching into the editing state, assign **true** to the **cancel** field of the object passed to the handler as the argument.
 
-You can also distinguish rows that exist in the data source from rows that have not yet been transmitted to the data source. For this purpose, use the **key** field of the object with the row parameters. Not-yet-transmitted rows have this field *undefined*.
+You can also distinguish rows that exist in the data source from rows that have not yet been transmitted to the data source. For this purpose, use the **key** field of the object with the row parameters. Not-yet-transmitted rows have this field **undefined**.
 
 #####See Also#####
 - **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
@@ -32,7 +32,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -52,7 +52,7 @@ The data object of the row.
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The key of the row. If a field providing keys is not specified in a <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource">data source</a>, the whole data object is considered the key. If a row has not been transmitted to the data source yet, its key is <i>undefined</i>.
+The key of the row. If a field providing keys is not specified in a [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource), the whole data object is considered the key. If a row has not been transmitted to the data source yet, its key is **undefined**.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->boolean<!--/typeFunctionParamType1_field6-->
@@ -62,5 +62,5 @@ A flag allowing you to prevent the row from switching into the editing state.
 <!--typeFunctionParamName1_field7-->column<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->object<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns">options of the column</a> whose cell is switching into the editing state; useful in the <a href="/Documentation/17_2/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode">batch edit mode</a>.
+The [options of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns) whose cell is switching into the editing state; useful in the [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode).
 <!--/typeFunctionParamDescription1_field7-->

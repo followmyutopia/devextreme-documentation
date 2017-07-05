@@ -19,7 +19,7 @@ An object whose fields represent routing parameters.
 
 <!--returnType-->string<!--/returnType-->
 <!--returnDescription-->
-A URI generated from the specified object using the <a href="/Documentation/17_2/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing">registered routing rules</a>.
+A URI generated from the specified object using the [registered routing rules](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing).
 <!--/returnDescription-->
 
 <!--fullDescription-->

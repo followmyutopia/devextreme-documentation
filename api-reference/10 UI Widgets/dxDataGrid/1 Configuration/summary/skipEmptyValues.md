@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not to skip *empty strings*, *null* and *undefined* values when calculating a summary.
+Specifies whether or not to skip *empty strings*, **null** and **undefined** values when calculating a summary.
 <!--/shortDescription-->
 
 <!--fullDescription-->

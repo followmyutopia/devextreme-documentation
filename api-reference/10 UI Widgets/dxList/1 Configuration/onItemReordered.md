@@ -29,7 +29,7 @@ Provides function parameters.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the widget instance.
+Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -54,7 +54,7 @@ An HTML element of the item.
 <!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->number | object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-Specifies the current index of the item after reordering. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }. This field holds the same value as <b>toIndex</b>.
+Specifies the current index of the item after reordering. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }. This field holds the same value as **toIndex**.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->fromIndex<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->

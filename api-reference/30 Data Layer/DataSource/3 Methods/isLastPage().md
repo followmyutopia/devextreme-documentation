@@ -17,5 +17,5 @@ If the loaded page size is less then the specified page size, the value is true;
 <!--/returnDescription-->
 
 <!--fullDescription-->
-[note] If [paging](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) is disabled, the method always returns *true*.
+[note] If [paging](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) is disabled, the method always returns **true**.
 <!--/fullDescription-->

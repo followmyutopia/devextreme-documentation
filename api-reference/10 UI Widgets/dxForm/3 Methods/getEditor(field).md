@@ -14,7 +14,7 @@ Returns an editor instance associated with the specified [formData](/Documentati
 <!--paramName1-->field<!--/paramName1-->
 <!--paramType1-->string<!--/paramType1-->
 <!--paramDescription1-->
-The path to the required <b>formData</b> field or <b>name</b> of the form item.
+The path to the required **formData** field or **name** of the form item.
 <!--/paramDescription1-->
 
 <!--returnType-->object<!--/returnType-->

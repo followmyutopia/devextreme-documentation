@@ -28,7 +28,7 @@ Summary item value as it was calculated.
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Summary item value with applied <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat">format</a>.
+Summary item value with applied [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat).
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

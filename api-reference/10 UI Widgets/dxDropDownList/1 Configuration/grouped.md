@@ -14,7 +14,7 @@ Specifies whether data items should be grouped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When you set this option to *true*, make sure that all data source objects have the following structure.
+When you set this option to **true**, make sure that all data source objects have the following structure.
 
     <!--JavaScript-->var dataSource = [{
         key: "Group 1", // Group caption 

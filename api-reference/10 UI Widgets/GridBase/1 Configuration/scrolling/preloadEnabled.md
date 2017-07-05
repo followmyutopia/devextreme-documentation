@@ -14,5 +14,5 @@ Specifies whether the widget should load pages adjacent to the current page. App
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In virtual scrolling mode, a page is loaded when it gets into the viewport. If you set this option to *true*, adjacent pages will be loaded as well. Note that although this setting makes scrolling smoother, it may cause lags on devices with low performance.
+In virtual scrolling mode, a page is loaded when it gets into the viewport. If you set this option to **true**, adjacent pages will be loaded as well. Note that although this setting makes scrolling smoother, it may cause lags on devices with low performance.
 <!--/fullDescription-->

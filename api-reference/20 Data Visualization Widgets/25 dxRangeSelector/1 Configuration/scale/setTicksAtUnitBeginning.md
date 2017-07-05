@@ -14,7 +14,7 @@ Indicates whether or not to set ticks of a date-time scale at the beginning of e
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This property is used when a date-time scale is divided. If this property is set to *true*, ticks are set at the beginning of date-time units (months, days, years, etc.). The following examples will help you understand the logic:
+This property is used when a date-time scale is divided. If this property is set to **true**, ticks are set at the beginning of date-time units (months, days, years, etc.). The following examples will help you understand the logic:
 
 <div class="simple-table">
 <table>

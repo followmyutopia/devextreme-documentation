@@ -19,7 +19,7 @@ The visible index of the row.
 
 <!--returnType-->jQuery|undefined<!--/returnType-->
 <!--returnDescription-->
-The element of the row; provides access to <a href="http://api.jquery.com/?s=element">element-related jQuery operations</a>.
+The element of the row; provides access to [element-related jQuery operations](http://api.jquery.com/?s=element).
 <!--/returnDescription-->
 
 <!--fullDescription-->

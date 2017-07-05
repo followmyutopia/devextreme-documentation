@@ -39,7 +39,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget instance.
+The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -54,5 +54,5 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->formOptions<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The options of the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxForm/Configuration/">Form</a> widget.
+The options of the [Form](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) widget.
 <!--/typeFunctionParamDescription1_field4-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Notifies the widget whether search is case-sensitive to ensure proper highlightning of search results. Applies only if [highlightSearchText]({basewidgetpath}/Configuration/searchPanel/#highlightSearchText) is *true*.
+Notifies the widget whether search is case-sensitive to ensure proper highlightning of search results. Applies only if [highlightSearchText]({basewidgetpath}/Configuration/searchPanel/#highlightSearchText) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

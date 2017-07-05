@@ -19,7 +19,7 @@ In addition to the [major grid](/Documentation/ApiReference/Data_Visualization_W
 
 To specify the appearance of grid lines, use the options of the **minorGrid** object. Declared within the **commonAxisSettings** object, the **minorGrid** object changes the appearance of value and argument axes simultaneously. To change the appearance of the value or argument axis individually, declare the **minorGrid** object in the **argumentAxis** or **valueAxis** object respectively. Settings specified individually override those that are set in the **commonAxisSettings** object.
 
-To make the minor grid visible, set the **visible** option of the **minorGrid** object to *true*. Additionally, you can change the color, opacity and width of the grid lines using the corresponding options.
+To make the minor grid visible, set the **visible** option of the **minorGrid** object to **true**. Additionally, you can change the color, opacity and width of the grid lines using the corresponding options.
 
 [note]We recommend you use the minor grid only in conjunction with the major grid.
 <!--/fullDescription-->

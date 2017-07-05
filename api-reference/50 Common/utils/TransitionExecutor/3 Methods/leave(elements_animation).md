@@ -20,7 +20,7 @@ A jQuery object including the elements to be animated.
 <!--paramName2-->animation<!--/paramName2-->
 <!--paramType2-->animationConfig|string<!--/paramType2-->
 <!--paramDescription2-->
-An object defining the target animation or the name of the animation that is registered in the <a href="/Documentation/17_2/ApiReference/Common/Utils/animationPresets">animationPresets</a> repository.
+An object defining the target animation or the name of the animation that is registered in the [animationPresets](/Documentation/ApiReference/Common/Utils/animationPresets) repository.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

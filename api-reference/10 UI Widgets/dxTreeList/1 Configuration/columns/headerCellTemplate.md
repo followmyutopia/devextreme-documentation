@@ -12,7 +12,7 @@
 Below is the list of fields passed as the **headerInfo** object.
 
 - **component**: <font size="-1">jQuery</font>  
-The [widget instance]({basewidgetpath}/Methods/#instance).
+The [widget's instance]({basewidgetpath}/Methods/#instance).
 - **columnIndex**: <font size="-1">Number</font>        
 The index of the column to which the header belongs.
 - **column**: <font size="-1">Object</font>        

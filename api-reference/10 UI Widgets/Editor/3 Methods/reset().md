@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Resets the editor's value to *undefined*.
+Resets the editor's value to **undefined**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

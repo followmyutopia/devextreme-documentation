@@ -13,7 +13,7 @@ Returns a filter expression applied to the widget's data source using the [filte
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-A <a href="/Documentation/17_2/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering">filter expression</a>.
+A [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering).
 <!--/returnDescription-->
 
 <!--fullDescription-->

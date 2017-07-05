@@ -26,7 +26,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -41,7 +41,7 @@ The name of the file to be saved.
 <!--typeFunctionParamName1_field4-->format<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The format of the file to be saved. Equals <i>'EXCEL'</i> for an Excel file.
+The format of the file to be saved. Equals *'EXCEL'* for an Excel file.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->data<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->blob<!--/typeFunctionParamType1_field5-->
@@ -51,5 +51,5 @@ Exported data as a BLOB.
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->boolean<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-To cancel file saving, assign <i>true</i> to this parameter.
+To cancel file saving, assign **true** to this parameter.
 <!--/typeFunctionParamDescription1_field6-->

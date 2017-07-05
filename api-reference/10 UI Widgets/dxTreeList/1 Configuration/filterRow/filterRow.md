@@ -17,7 +17,7 @@ Each cell in the filter row contains a magnifying glass icon, pausing on which o
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList FilterRow](/Content/images/doc/17_2/treelist/visual_elements/filter_row_operation_chooser.png)
 
-To make the filter row visible, assign *true* to the **filterRow** | [visible]({basewidgetpath}/Configuration/filterRow/#visible) option.
+To make the filter row visible, assign **true** to the **filterRow** | [visible]({basewidgetpath}/Configuration/filterRow/#visible) option.
 
 #####See Also#####
 - [Filter Row](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Filter_Row)

@@ -13,7 +13,7 @@ Returns an array of all points in the series.
 
 <!--returnType-->array<!--/returnType-->
 <!--returnDescription-->
-The points from the <b>series</b> point collection.
+The points from the **series** point collection.
 <!--/returnDescription-->
 
 <!--fullDescription-->

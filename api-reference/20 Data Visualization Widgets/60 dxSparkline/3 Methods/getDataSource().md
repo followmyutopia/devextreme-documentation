@@ -13,7 +13,7 @@ Returns the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) ins
 
 <!--returnType-->DataSource<!--/returnType-->
 <!--returnDescription-->
-The <b>DataSource</b> instance.
+The **DataSource** instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->

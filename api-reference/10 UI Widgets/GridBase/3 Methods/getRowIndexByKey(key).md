@@ -19,7 +19,7 @@ The key of the row.
 
 <!--returnType-->numeric<!--/returnType-->
 <!--returnDescription-->
-The <i>visible</i> index of the row. If nothing is found, returns <i>-1</i>.
+The *visible* index of the row. If nothing is found, returns *-1*.
 <!--/returnDescription-->
 
 <!--fullDescription-->

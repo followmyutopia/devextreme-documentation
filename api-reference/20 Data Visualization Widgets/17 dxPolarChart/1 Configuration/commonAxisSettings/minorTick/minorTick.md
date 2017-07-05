@@ -17,7 +17,7 @@ In addition to [major ticks](/Documentation/ApiReference/Data_Visualization_Widg
 
 To configure the appearance of minor ticks, use the options of the **minorTick** object. Declared within the **commonAxisSettings** object, the **minorTick** object sets options for all minor ticks. To change the appearance of the minor ticks that belong to the argument or value axis individually, declare the **minorTick** object in the **argumentAxis** or **valueAxis** object respectively. Settings specified individually override those that are set in the **commonAxisSettings** object.
 
-By default, minor ticks are hidden. To make them visible, assign *true* to the **visible** option of the **minorTick** object. Additionally, you can change the color, opacity and width of the minor ticks using the corresponding options.
+By default, minor ticks are hidden. To make them visible, assign **true** to the **visible** option of the **minorTick** object. Additionally, you can change the color, opacity and width of the minor ticks using the corresponding options.
 
 [note]Minor ticks cannot be displayed on a *discrete* axis.
 <!--/fullDescription-->

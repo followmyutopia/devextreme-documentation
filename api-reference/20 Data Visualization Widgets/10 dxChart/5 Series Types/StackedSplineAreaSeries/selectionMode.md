@@ -45,7 +45,7 @@ When a user selects a series, it may react in one of the following ways dependin
 </div>
 <div style="height:5px"></div>
 
-[note]Points in stacked spline area series are hidden by default. To make them visible, assign *true* to the **point** | **visible** option.
+[note]Points in stacked spline area series are hidden by default. To make them visible, assign **true** to the **point** | **visible** option.
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartSeriesSelectionMode` enum with one of the following values: `IncludePoints`, `ExcludePoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to a stacked spline area series.
 

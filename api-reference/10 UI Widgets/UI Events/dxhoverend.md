@@ -19,5 +19,5 @@ Raised when the mouse pointer leaves the element.
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->jQuery.event<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The standard jQuery event argument. For the information on event handler arguments, refer to the <a href="/Documentation/ApiReference/UI_Widgets/UI_Events/">UI Events introduction</a>.
+The standard jQuery event argument. For the information on event handler arguments, refer to the [UI Events introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/).
 <!--/typeFunctionParamDescription1-->

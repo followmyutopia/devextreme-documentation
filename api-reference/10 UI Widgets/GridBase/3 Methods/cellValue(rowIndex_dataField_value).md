@@ -20,7 +20,7 @@ The index of the row to which the cell belongs.
 <!--paramName2-->dataField<!--/paramName2-->
 <!--paramType2-->string<!--/paramType2-->
 <!--paramDescription2-->
-The name of the data field in the dataSource.
+The name of the data field in the data source.
 <!--/paramDescription2-->
 
 <!--paramName3-->value<!--/paramName3-->

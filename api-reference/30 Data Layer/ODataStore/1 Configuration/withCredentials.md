@@ -14,5 +14,5 @@ Specifies the value of the **withCredentials** field of the underlying [jqXHR ob
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Setting this option to *true* enables sending cookies and authorization headers to foreign domains (CORS-related).
+Setting this option to **true** enables sending cookies and authorization headers to foreign domains (CORS-related).
 <!--/fullDescription-->

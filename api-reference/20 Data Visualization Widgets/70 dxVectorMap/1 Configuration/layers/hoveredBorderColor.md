@@ -24,5 +24,5 @@ This option supports the following colors.
 * Predefined/cross-browser color names
 * [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
 
-[note] Make sure that the [hoverEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#hoverEnabled) option is set to *true*, so that the **hoveredBorderColor** option takes effect.
+[note] Make sure that the [hoverEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#hoverEnabled) option is set to **true**, so that the **hoveredBorderColor** option takes effect.
 <!--/fullDescription-->

@@ -83,7 +83,8 @@ The currently selected filter operation.
 <!--typeFunctionParamName3-->target<!--/typeFunctionParamName3-->
 <!--typeFunctionParamType3-->string<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
-The UI element where the filter expression was set.<br/>Possible values: <i>"filterRow"</i>, <i>"headerFilter"</i> and <i>"search"</i>.
+The UI element where the filter expression was set.  
+Possible values: *"filterRow"*, *"headerFilter"* and *"search"*.
 <!--/typeFunctionParamDescription3-->
 
 <!--typeFunctionReturnType-->Filter expression<!--/typeFunctionReturnType-->

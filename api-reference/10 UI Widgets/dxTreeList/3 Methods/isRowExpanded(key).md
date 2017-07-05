@@ -19,7 +19,7 @@ The row key.
 
 <!--returnType-->boolean<!--/returnType-->
 <!--returnDescription-->
-<i>true</i> if the row is expanded; <i>false</i> if collapsed.
+*true* if the row is expanded; **false** if collapsed.
 <!--/returnDescription-->
 
 <!--fullDescription-->

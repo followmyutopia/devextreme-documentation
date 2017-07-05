@@ -23,5 +23,5 @@ The points that are found by the specified argument.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-If a point with the specified argument is not found, the function returns <i>empty array</i>.
+If a point with the specified argument is not found, the function returns *empty array*.
 <!--/fullDescription-->

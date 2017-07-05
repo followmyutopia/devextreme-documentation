@@ -20,7 +20,7 @@ Below is the list of fields passed as the **cellInfo** object.
 - **data**: <font size="-1">Object</font>        
 The data of the row to which the cell belongs.
 - **component**: <font size="-1">jQuery</font>  
-The [widget instance]({basewidgetpath}/Methods/#instance).
+The [widget's instance]({basewidgetpath}/Methods/#instance).
 - **value**: <font size="-1">Any</font>        
 The value of the cell as it is specified in the data source.
 - **displayValue**: <font size="-1">Any</font>        
@@ -48,7 +48,7 @@ It is also possible to define the template using the following template engines.
 
 When you use a template engine, the **cellTemplate** option should be given a jQuery object or a DOM node representing the template's container, or a function that returns either of them.
 
-[note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to *false*.
+[note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to **false**.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/ColumnTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Function Template Demo</a>
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/Column3RdPartyEngineTemplate/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Underscore Template Demo</a>

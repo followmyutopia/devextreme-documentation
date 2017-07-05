@@ -14,7 +14,7 @@ Updates the specified field of the [formData](/Documentation/ApiReference/UI_Wid
 <!--paramName1-->dataField<!--/paramName1-->
 <!--paramType1-->string<!--/paramType1-->
 <!--paramDescription1-->
-Specifies the path to the required <b>formData</b> field.
+Specifies the path to the required **formData** field.
 <!--/paramDescription1-->
 
 <!--paramName2-->value<!--/paramName2-->

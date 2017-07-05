@@ -13,7 +13,7 @@ Fires when the **Cancel** button is clicked.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In the handling function, use the **cancel** field of the object passed as a handler parameter. Set this field to *true* to prohibit the hiding of the action sheet menu when an end user clicks the Cancel button on it.
+In the handling function, use the **cancel** field of the object passed as a handler parameter. Set this field to **true** to prohibit the hiding of the action sheet menu when an end user clicks the Cancel button on it.
 
 Instead, you can use the [onCancelClick](/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/#onCancelClick) option to handle the event.
 
@@ -28,7 +28,7 @@ Provides function parameters.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the widget instance.
+Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->

@@ -14,7 +14,7 @@ Sets the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configurat
 <!--paramName1-->value<!--/paramName1-->
 <!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
-The new <b>paginate</b> option value.
+The new **paginate** option value.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

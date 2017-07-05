@@ -14,7 +14,7 @@ Applies the layer element settings and updates element appearance.
 <!--paramName1-->settings<!--/paramName1-->
 <!--paramType1-->object<!--/paramType1-->
 <!--paramDescription1-->
-A <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/">configuration object</a> for the element.
+A [configuration object](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/) for the element.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

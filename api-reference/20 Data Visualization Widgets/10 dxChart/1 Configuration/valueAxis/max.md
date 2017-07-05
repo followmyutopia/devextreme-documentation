@@ -16,5 +16,5 @@ Coupled with the **min** option, focuses the widget on a specific chart segment.
 <!--fullDescription-->
 The **min** and **max** options specify custom limits for the value axis, thus focusing the widget on a specific chart segment. By default, these options equal to the minimum and maximum values on the axis.
 
-[note]If the [valueMarginsEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueMarginsEnabled) option is *true*, the value axis extends slightly beyond the **min** and **max** values.
+[note]If the [valueMarginsEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueMarginsEnabled) option is **true**, the value axis extends slightly beyond the **min** and **max** values.
 <!--/fullDescription-->

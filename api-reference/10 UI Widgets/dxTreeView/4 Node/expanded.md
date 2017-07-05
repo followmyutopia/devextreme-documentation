@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Equals to *true* if the node is expanded; *false* if collapsed.
+Equals to **true** if the node is expanded; **false** if collapsed.
 <!--/shortDescription-->
 
 <!--fullDescription-->

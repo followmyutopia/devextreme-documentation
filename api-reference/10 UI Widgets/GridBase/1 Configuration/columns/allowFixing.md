@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether a user can fix the column at runtime. Applies only if **columnFixing** | [enabled]({basewidgetpath}/Configuration/columnFixing/#enabled) is *true*.
+Specifies whether a user can fix the column at runtime. Applies only if **columnFixing** | [enabled]({basewidgetpath}/Configuration/columnFixing/#enabled) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

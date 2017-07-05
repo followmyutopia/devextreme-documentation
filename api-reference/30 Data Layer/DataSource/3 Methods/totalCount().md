@@ -17,5 +17,5 @@ The number of items.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-To use this method, set the [requireTotalCount](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#requireTotalCount) option to *true*.
+To use this method, set the [requireTotalCount](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#requireTotalCount) option to **true**.
 <!--/fullDescription-->

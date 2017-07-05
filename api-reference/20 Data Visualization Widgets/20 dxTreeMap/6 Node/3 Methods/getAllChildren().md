@@ -13,7 +13,7 @@ Returns all nodes nested in the current node.
 
 <!--returnType-->array<!--/returnType-->
 <!--returnDescription-->
-Nodes nested in the current node. Each member of this array has fields and methods described in the <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node">Node</a> section.
+Nodes nested in the current node. Each member of this array has fields and methods described in the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node) section.
 <!--/returnDescription-->
 
 <!--fullDescription-->

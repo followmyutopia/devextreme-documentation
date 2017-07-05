@@ -16,7 +16,7 @@ Specifies a callback function that returns the text to be displayed in scale lab
 <!--fullDescription-->
 When implementing a callback function for this property, use the scale value to be displayed in a label. This value can be accessed using the fields of the object that is passed as the function's parameter. Alternatively, you can use the **this** object within the function. This object has the same structure as the object passed as a parameter.
 
-For general information on data formatting, refer to the <a href="/Documentation/17_2/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting">Data Formatting</a> topic.
+For general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting) topic.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementsscalelabelformatting/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
@@ -33,7 +33,7 @@ Specifies the scale value represented by a label.
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Specifies the value with applied formatting if the <b>format</b> option is set.
+Specifies the value with applied formatting if the **format** option is set.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

@@ -20,7 +20,7 @@ The constant line label displays the value of the constant line.
 The **label** object specifies the following characteristics of the constant line label.
 
 * **Visibility**    
-By default, the constant line label is visible. To hide it, assign *false* to the **visible** option.
+By default, the constant line label is visible. To hide it, assign **false** to the **visible** option.
 * **Text**      
 By default, the constant line label displays the [value of the constant line](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLines/#value). To assign a custom text to the constant line label, use the **text** option.
 * **Position**      

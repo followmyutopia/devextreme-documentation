@@ -23,7 +23,7 @@ A Promise of the jQuery.Deferred object resolved after the widget is shown or hi
 <!--/returnDescription-->
 
 <!--fullDescription-->
-You can use the **toggle(showing)** method instead of **show()** and **hide()** methods. The only difference is that you specify whether to show or hide the widget passing *true* or *false* to the method parameter.
+You can use the **toggle(showing)** method instead of **show()** and **hide()** methods. The only difference is that you specify whether to show or hide the widget passing **true** or **false** to the method parameter.
 
 #####See Also#####
 - **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)

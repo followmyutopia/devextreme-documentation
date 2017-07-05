@@ -14,7 +14,7 @@ Specifies whether the widget should hide columns to adapt to the screen or conta
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When displaying the widget in your app, you may want to use different layouts for different screen sizes. While desktop monitors provide enough space to display all columns, mobile screens do not. You can enable the widget to hide certain columns automatically if they do not fit into the screen size by assigning *true* to the **columnHidingEnabled** option. Information from hidden columns is available in the adaptive detail row.
+When displaying the widget in your app, you may want to use different layouts for different screen sizes. While desktop monitors provide enough space to display all columns, mobile screens do not. You can enable the widget to hide certain columns automatically if they do not fit into the screen size by assigning **true** to the **columnHidingEnabled** option. Information from hidden columns is available in the adaptive detail row.
 
 When hiding columns, the widget uses the following principles:
 

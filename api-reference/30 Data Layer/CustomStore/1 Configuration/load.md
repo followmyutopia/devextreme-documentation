@@ -17,7 +17,7 @@ The function passed to this option should return a promise. More often, this is 
 
 [note]In **AngularJS approach**, APIs for deferred/promises are exposed by the [$q service](https://docs.angularjs.org/api/ng/service/$q).
 
-If the **loadOptions.requireTotalCount** field is *true*, the function should resolve the jQuery.Deferred with a second argument containing the **totalCount** field as shown in the following code snippet.
+If the **loadOptions.requireTotalCount** field is **true**, the function should resolve the jQuery.Deferred with a second argument containing the **totalCount** field as shown in the following code snippet.
 
     <!--JavaScript-->
     var store = new DevExpress.data.CustomStore({
@@ -33,7 +33,7 @@ If the **loadOptions.requireTotalCount** field is *true*, the function should re
         }
     });
 
-In **AngularJS approach**, if the **loadOptions.requireTotalCount** field is *true*, the promise must be resolved with an object of two fields: **data** and **totalCount**. In the following code snippet, the `.then()` method creates a promise internally and resolves it with the return from the callback function.
+In **AngularJS approach**, if the **loadOptions.requireTotalCount** field is **true**, the promise must be resolved with an object of two fields: **data** and **totalCount**. In the following code snippet, the `.then()` method creates a promise internally and resolves it with the return from the callback function.
 
     <!--JavaScript-->
     var store = new DevExpress.data.CustomStore({
@@ -105,7 +105,7 @@ A bag for holding user-defined parameters.
 <!--typeFunctionParamName1_field8-->requireTotalCount<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->boolean<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-Specifies whether the function passed to this option should resolve the jQuery.Deferred with the second argument containing the <b>totalCount</b> field.
+Specifies whether the function passed to this option should resolve the jQuery.Deferred with the second argument containing the **totalCount** field.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->searchValue<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->object<!--/typeFunctionParamType1_field9-->

@@ -14,7 +14,7 @@ Sets the coordinates of the map viewport.
 <!--paramName1-->viewportCoordinates<!--/paramName1-->
 <!--paramType1-->array<!--/paramType1-->
 <!--paramDescription1-->
-New coordinates for the map viewport. Pass <i>null</i> to reset the viewport.
+New coordinates for the map viewport. Pass **null** to reset the viewport.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

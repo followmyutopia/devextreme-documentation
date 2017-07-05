@@ -14,7 +14,7 @@ Collapses all header items of a field.
 <!--paramName1-->id<!--/paramName1-->
 <!--paramType1-->number|string<!--/paramType1-->
 <!--paramDescription1-->
-The index in the <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/">fields</a> array, <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField">dataField</a> or <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption">caption</a> of the field.
+The index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array, [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) or [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption) of the field.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

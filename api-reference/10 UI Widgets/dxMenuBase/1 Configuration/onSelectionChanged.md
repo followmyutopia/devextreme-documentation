@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--fullDescription-->
-This option makes sense only if the [selectionMode]({basewidgetpath}/Configuration/#selectionMode) option is set to *'single'* and the [selectByClick]({basewidgetpath}/Configuration/#selectByClick) option is set to *true*.
+This option makes sense only if the [selectionMode]({basewidgetpath}/Configuration/#selectionMode) option is set to *'single'* and the [selectByClick]({basewidgetpath}/Configuration/#selectByClick) option is set to **true**.
 
 Assign a function to perform a custom action after a collection item is selected or unselected.
 <!--/fullDescription-->

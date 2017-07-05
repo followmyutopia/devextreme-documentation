@@ -14,7 +14,7 @@ Indicates whether or not to set ticks/grid lines of a continuous axis of the 'da
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This property is used when a continuous axis of the 'date-time' value type is divided. If this property is set to *true*, axis ticks/grid lines are set at the beginning of date-time units (months, days, years, etc.). The following examples will help you understand the logic.
+This property is used when a continuous axis of the 'date-time' value type is divided. If this property is set to **true**, axis ticks/grid lines are set at the beginning of date-time units (months, days, years, etc.). The following examples will help you understand the logic.
 
 <div class="simple-table">
 <table>

@@ -14,7 +14,7 @@ Specifies whether or not all bars in a series must have the same angle, or may h
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If some values for a series are set to zero or not specified, bars that represent these values will be missing from the chart. To fill the empty area by extending the angle of the neighboring bars, set the **equalBarWidth** property to *false*. The bars will have different angles, but there will be no empty areas.
+If some values for a series are set to zero or not specified, bars that represent these values will be missing from the chart. To fill the empty area by extending the angle of the neighboring bars, set the **equalBarWidth** property to **false**. The bars will have different angles, but there will be no empty areas.
 
 To set a custom angle for bars, as well as the spacing between bars, use the [barWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#barWidth) option.
 

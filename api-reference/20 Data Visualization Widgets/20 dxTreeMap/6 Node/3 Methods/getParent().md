@@ -13,7 +13,7 @@ Returns the parent node of the current node.
 
 <!--returnType-->dxtreemapnode<!--/returnType-->
 <!--returnDescription-->
-The parent node of the current node. <i>null</i> if the parent is the root node.
+The parent node of the current node. **null** if the parent is the root node.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -51,7 +51,7 @@ Summary information.
 <!--typeFunctionParamName1_field1-->summaryProcess<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Indicates the stage of the summary value calculation; possible values are <i>'start'</i>, <i>'calculate'</i> or <i>'finalize'</i>.
+Indicates the stage of the summary value calculation; possible values are *'start'*, *'calculate'* or *'finalize'*.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->value<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->any<!--/typeFunctionParamType1_field2-->

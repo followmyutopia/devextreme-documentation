@@ -14,5 +14,5 @@ Specifies whether a [DataSource](/Documentation/ApiReference/Data_Layer/DataSour
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]If the [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option is disabled, the default value of the **paginate** option is *true*. Otherwise, *false*.
+[note]If the [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option is disabled, the default value of the **paginate** option is **true**. Otherwise, **false**.
 <!--/fullDescription-->

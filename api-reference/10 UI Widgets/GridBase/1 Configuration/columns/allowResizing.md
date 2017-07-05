@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether a user can resize the column at runtime. Applies only if [allowColumnResizing]({basewidgetpath}/Configuration/#allowColumnResizing) is *true*.
+Specifies whether a user can resize the column at runtime. Applies only if [allowColumnResizing]({basewidgetpath}/Configuration/#allowColumnResizing) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -9,11 +9,11 @@
 ===========================================================================
 
 <!--fullDescription-->
-The search panel allows searching for values in several columns at once. The widget searches against only those columns whose [allowSearch]({basewidgetpath}/Configuration/columns/#allowSearch) option is set to *true*.
+The search panel allows searching for values in several columns at once. The widget searches against only those columns whose [allowSearch]({basewidgetpath}/Configuration/columns/#allowSearch) option is set to **true**.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList SearchPanel](/Content/images/doc/17_2/treelist/visual_elements/search_panel.png)
 
-To make the search panel visible, set the **searchPanel** | [visible]({basewidgetpath}/Configuration/searchPanel/#visible) option to *true*.
+To make the search panel visible, set the **searchPanel** | [visible]({basewidgetpath}/Configuration/searchPanel/#visible) option to **true**.
 
 #####See Also#####
 - [Search Panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel)

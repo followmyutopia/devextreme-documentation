@@ -14,12 +14,12 @@ Returns the total filter that combines all the filters applied.
 <!--paramName1-->returnDataField<!--/paramName1-->
 <!--paramType1-->boolean<!--/paramType1-->
 <!--paramDescription1-->
-Specifies whether the total filter should contain data fields instead of <a href="/Documentation/17_2/Guide/Data_Layer/Data_Layer/#Getters_And_Setters">getters</a>.
+Specifies whether the total filter should contain data fields instead of [getters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters).
 <!--/paramDescription1-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-A <a href="/Documentation/17_2/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering">filter expression</a>.
+A [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering).
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -26,7 +26,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget instance.
+The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -41,5 +41,5 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->toolbarOptions<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxToolbar/Configuration/">options of the toolbar</a>. 
+The [options of the toolbar](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/). 
 <!--/typeFunctionParamDescription1_field4-->

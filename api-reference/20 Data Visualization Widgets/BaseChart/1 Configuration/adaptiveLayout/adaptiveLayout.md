@@ -20,7 +20,7 @@ When adapting to a small screen or container size, the widget may hide its acces
 3. [Legend]({basewidgetpath}/Configuration/legend)
 4. [Axis titles]({basewidgetpath}/Configuration/commonAxisSettings/title)
 5. [Axis labels]({basewidgetpath}/Configuration/commonAxisSettings/label)
-6. [Point labels]({basewidgetpath}/Configuration/commonSeriesSettings/label) (can be saved by setting the **adaptiveLayout** | [keepLabels]({basewidgetpath}/Configuration/adaptiveLayout#keepLabels) option to *true*)
+6. [Point labels]({basewidgetpath}/Configuration/commonSeriesSettings/label) (can be saved by setting the **adaptiveLayout** | [keepLabels]({basewidgetpath}/Configuration/adaptiveLayout#keepLabels) option to **true**)
 
 The widget will begin to adapt when its container shrinks beyond the **height** and **width** values specified in the **adaptiveLayout** object.
 

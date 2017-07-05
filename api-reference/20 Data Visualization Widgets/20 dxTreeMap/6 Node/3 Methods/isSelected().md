@@ -13,7 +13,7 @@ Indicates whether the node is selected or not.
 
 <!--returnType-->boolean<!--/returnType-->
 <!--returnDescription-->
-<i>true</i> if the node is selected; <i>false</i> otherwise.
+**true** if the node is selected; **false** otherwise.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Enables the printing feature in the widget. Applies only if the **export** | [enabled]({basewidgetpath}/Configuration/export#enabled) option is *true*.
+Enables the printing feature in the widget. Applies only if the **export** | [enabled]({basewidgetpath}/Configuration/export#enabled) option is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Equals to *true* if the node is disabled; otherwise *false*.
+Equals to **true** if the node is disabled; otherwise **false**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

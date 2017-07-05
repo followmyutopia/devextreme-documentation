@@ -14,7 +14,7 @@ Gets the value of a [total summary item](/Documentation/ApiReference/UI_Widgets/
 <!--paramName1-->summaryItemName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name">name</a> of the total summary item.
+The [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name) of the total summary item.
 <!--/paramDescription1-->
 
 <!--returnType-->any<!--/returnType-->

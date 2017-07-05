@@ -14,7 +14,7 @@ An object defining the border options for a hovered point.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To set custom border settings specific to the 'hovered' state for points in all series at once, use the properties of the **commonSeriesSettings** | **point** | **hoverStyle** | **border** configuration object.</br>
+To set custom border settings specific to the 'hovered' state for points in all series at once, use the properties of the **commonSeriesSettings** | **point** | **hoverStyle** | **border** configuration object.    
 
 To set custom border settings specific to the 'hovered' state for points in all series of a single type at once, use the properties of the corresponding object within **commonSeriesSettings** (e.g. **area** | **hoverStyle** | **border**). The values that are set within this object override the corresponding common values that are set within the root **commonSeriesSettings** | **hoverStyle** | **border** object.
 

@@ -14,5 +14,5 @@ The current widget value.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To create the indeterminate **ProgressBar**, assign *false* to the **value** option.
+To create the indeterminate **ProgressBar**, assign **false** to the **value** option.
 <!--/fullDescription-->

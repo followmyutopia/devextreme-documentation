@@ -16,13 +16,13 @@ Changes the current theme for all data visualization widgets on the page. The co
 <!--paramName1-->platform<!--/paramName1-->
 <!--paramType1-->string<!--/paramType1-->
 <!--paramDescription1-->
-The platform name or <i>"generic"</i>.
+The platform name or *"generic"*.
 <!--/paramDescription1-->
 
 <!--paramName2-->colorScheme<!--/paramName2-->
 <!--paramType2-->string<!--/paramType2-->
 <!--paramDescription2-->
-The color scheme: <i>"light"</i> or <i>"dark"</i>.
+The color scheme: *"light"* or *"dark"*.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

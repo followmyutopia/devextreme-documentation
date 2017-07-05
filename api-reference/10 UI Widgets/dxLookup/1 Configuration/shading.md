@@ -14,7 +14,7 @@ A Boolean value specifying whether or not the main screen is inactive while the 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]This option makes sense only if the [usePopover](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#usePopover) option is set to *false*. Otherwise, shading is always disabled.
+[note]This option makes sense only if the [usePopover](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#usePopover) option is set to **false**. Otherwise, shading is always disabled.
 
 
 <!--/fullDescription-->

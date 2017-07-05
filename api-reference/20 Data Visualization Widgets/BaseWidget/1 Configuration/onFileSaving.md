@@ -29,7 +29,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget instance.
+The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -55,5 +55,5 @@ Exported data as a BLOB.
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->boolean<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-Assign <i>true</i> to this field if you need to prevent the file from being saved.
+Assign **true** to this field if you need to prevent the file from being saved.
 <!--/typeFunctionParamDescription1_field6-->

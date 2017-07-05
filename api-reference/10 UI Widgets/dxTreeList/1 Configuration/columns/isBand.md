@@ -89,7 +89,7 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
 
 [note]Band columns must not have the **dataField** option set.
 
-The column with the **isBand** flag set to *true* can have the following properties only.
+The column with the **isBand** flag set to **true** can have the following properties only.
 
 - [alignment]({basewidgetpath}/Configuration/columns/#alignment)
 - [allowFixing]({basewidgetpath}/Configuration/columns/#allowFixing)

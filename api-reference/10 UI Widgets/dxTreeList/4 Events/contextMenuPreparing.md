@@ -26,7 +26,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget's <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Methods/#instance">instance</a>.
+The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -41,7 +41,7 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->items<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Items to be displayed in the context menu. The structure of items is described in the <a href="/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/">Default Item Template</a> section.
+Items to be displayed in the context menu. The structure of items is described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) section.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->target<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
@@ -61,7 +61,7 @@ The index of the column on which the context menu is invoked.
 <!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->object<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-<a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configuration</a> of this column.
+[Configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of this column.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->rowIndex<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->number<!--/typeFunctionParamType1_field9-->

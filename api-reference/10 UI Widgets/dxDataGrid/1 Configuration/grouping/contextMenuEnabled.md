@@ -14,7 +14,7 @@ Enables the user to group data using the context menu.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Set this option to *true* to enable grouping using the context menu. In this case, to group/ungroup data, the user right-clicks a column header and chooses the required item from the appeared context menu.
+Set this option to **true** to enable grouping using the context menu. In this case, to group/ungroup data, the user right-clicks a column header and chooses the required item from the appeared context menu.
 
 #####See Also#####
 - **groupPanel** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) - enables the user to group data using the [group panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Panel).

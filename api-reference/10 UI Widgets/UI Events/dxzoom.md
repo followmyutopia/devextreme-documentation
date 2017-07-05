@@ -24,7 +24,7 @@ Raised when the zoom gesture has been performed.
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->jQuery.event<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The standard jQuery event argument. The following fields are added to existing fields of this argument object. For the information on event handler arguments, refer to the <a href="/Documentation/ApiReference/UI_Widgets/UI_Events/">UI Events introduction</a>.
+The standard jQuery event argument. The following fields are added to existing fields of this argument object. For the information on event handler arguments, refer to the [UI Events introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/).
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->scale<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->number<!--/typeFunctionParamType1_field1-->

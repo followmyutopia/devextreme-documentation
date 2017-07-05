@@ -16,7 +16,7 @@ Configures tooltips.
 A tooltip is a miniature rectangle displaying data of an area or a marker. A tooltip appears when the end-user hovers the cursor over an area or a marker. To show tooltips, do the following.
 
 - Enable tooltips.  
-Set the [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/#enabled) option to *true*.
+Set the [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/#enabled) option to **true**.
 
 - Specify text to be displayed in tooltips.
 Specify the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/#customizeTooltip) option.

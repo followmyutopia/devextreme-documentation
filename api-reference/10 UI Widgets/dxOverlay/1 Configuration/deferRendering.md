@@ -14,7 +14,7 @@ Specifies whether widget content is rendered when the widget is shown or when re
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If this option is set to *true*, widget content is rendered when showing the widget. Otherwise, widget content is rendered when rendering the widget.
+If this option is set to **true**, widget content is rendered when showing the widget. Otherwise, widget content is rendered when rendering the widget.
 
 
 <!--/fullDescription-->

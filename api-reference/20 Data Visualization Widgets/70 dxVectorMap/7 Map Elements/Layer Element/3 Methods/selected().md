@@ -13,7 +13,7 @@ Gets the selection state of the layer element.
 
 <!--returnType-->boolean<!--/returnType-->
 <!--returnDescription-->
-Is *true* when the element is selected, otherwise, *false*.
+Is **true** when the element is selected, otherwise, **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

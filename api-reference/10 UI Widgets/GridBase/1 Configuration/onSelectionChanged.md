@@ -32,7 +32,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget instance.
+The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -62,6 +62,6 @@ The keys of all selected rows.
 <!--typeFunctionParamName1_field7-->selectedRowsData<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The data of all selected rows. </br>
-Does not include calculated values.
+The data of all selected rows.     
+Does not include [calculated values]({basewidgetpath}/Configuration/columns/#calculateCellValue).
 <!--/typeFunctionParamDescription1_field7-->

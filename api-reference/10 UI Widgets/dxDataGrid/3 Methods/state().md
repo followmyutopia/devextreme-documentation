@@ -13,7 +13,7 @@ Returns the current state of the grid.
 
 <!--returnType-->object<!--/returnType-->
 <!--returnDescription-->
-An <a href="https://en.wikipedia.org/wiki/Opaque_data_type">opaque data object</a> presenting the grid state.
+An [opaque data object](https://en.wikipedia.org/wiki/Opaque_data_type) presenting the grid state.
 <!--/returnDescription-->
 
 <!--fullDescription-->

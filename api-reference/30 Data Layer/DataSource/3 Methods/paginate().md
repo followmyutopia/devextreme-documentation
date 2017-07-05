@@ -13,7 +13,7 @@ Returns the current [paginate](/Documentation/ApiReference/Data_Layer/DataSource
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-The current value of the <b>paginate</b> option.
+The current value of the **paginate** option.
 <!--/returnDescription-->
 
 <!--fullDescription-->

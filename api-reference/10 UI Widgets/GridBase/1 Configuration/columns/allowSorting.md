@@ -14,7 +14,7 @@ Specifies whether a user can sort rows by this column at runtime. Applies only i
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]In a column with [calculated values]({basewidgetpath}/Configuration/columns/#calculateCellValue), this option is set to *false* by default.
+[note]In a column with [calculated values]({basewidgetpath}/Configuration/columns/#calculateCellValue), this option is set to **false** by default.
 
 #####See Also#####
 - [sorting]({basewidgetpath}/Configuration/sorting/)

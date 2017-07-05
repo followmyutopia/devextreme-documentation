@@ -15,7 +15,7 @@ Hides the last displayed overlay widget.
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-A Boolean value indicating whether or not hiding is successful. If no displayed overlay widgets were found, the function returns *false*.
+A Boolean value indicating whether or not hiding is successful. If no displayed overlay widgets were found, the function returns **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -14,7 +14,7 @@ Adds an object that implements an interface of a *state source* to the state man
 <!--paramName1-->stateSource<!--/paramName1-->
 <!--paramType1-->object<!--/paramType1-->
 <!--paramDescription1-->
-An object that has the <b>saveState(storage)</b>, <b>restoreState(storage)</b> and <b>removeState(storage)</b> methods to manipulate a particular state in the application.
+An object that has the **saveState(storage)**, **restoreState(storage)** and **removeState(storage)** methods to manipulate a particular state in the application.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

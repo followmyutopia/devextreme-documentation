@@ -25,7 +25,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget's <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Methods/#instance">instance</a>.
+The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -45,8 +45,8 @@ Data of a row to be edited.
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The row's key. </br>
-The key of an added but not yet saved row is *undefined*.
+The row's key.     
+The key of an added but not yet saved row is **undefined**.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->boolean<!--/typeFunctionParamType1_field6-->
@@ -56,5 +56,5 @@ Allows you to cancel row editing.
 <!--typeFunctionParamName1_field7-->column<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->object<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-<a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/">Configuration</a> of the column whose cell is switching to the editing state. Available in <i>'cell'</i> or <i>'batch'</i> <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode">editing mode</a>.
+[Configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of the column whose cell is switching to the editing state. Available in *'cell'* or *'batch'* [editing mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode).
 <!--/typeFunctionParamDescription1_field7-->

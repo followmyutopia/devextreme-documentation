@@ -22,7 +22,7 @@ This option supports the following colors.
 * Predefined/cross-browser color names
 * [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
 
-Make sure that the [showFirstLast](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#showFirstLast) option is set to *true*, so that this option takes effect.
+Make sure that the [showFirstLast](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#showFirstLast) option is set to **true**, so that this option takes effect.
 
 To specify a color for the area inside of the point boundary, use the [pointColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#pointColor) option.
 <!--/fullDescription-->

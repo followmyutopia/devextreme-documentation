@@ -29,7 +29,7 @@ A Promise of the jQuery.Deferred object resolved after the rows are selected.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-By default, this method call clears selection of previously selected rows. To keep these rows selected, call this method with *true* as the second argument.
+By default, this method call clears selection of previously selected rows. To keep these rows selected, call this method with **true** as the second argument.
 
     <!--JavaScript-->widgetInstance.selectRows([5, 10, 12], true);
 

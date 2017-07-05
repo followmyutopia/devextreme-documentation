@@ -13,5 +13,5 @@ A function that returns a Boolean value specifying whether or not to bypass vali
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If the function returns *true*, validation is bypassed, otherwise validation is performed.
+If the function returns **true**, validation is bypassed, otherwise validation is performed.
 <!--/fullDescription-->

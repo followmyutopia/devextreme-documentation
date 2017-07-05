@@ -19,7 +19,7 @@ The key of the node.
 
 <!--returnType-->dxTreeListNode<!--/returnType-->
 <!--returnDescription-->
-The node. If nothing is found, returns <b>undefined</b>.
+The node. If nothing is found, returns **undefined**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -13,7 +13,7 @@ Returns the current [requireTotalCount](/Documentation/ApiReference/Data_Layer/D
 
 <!--returnType-->boolean<!--/returnType-->
 <!--returnDescription-->
-The current value of the <b>requireTotalCount</b> option.
+The current value of the **requireTotalCount** option.
 <!--/returnDescription-->
 
 <!--fullDescription-->

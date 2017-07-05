@@ -13,7 +13,7 @@ Gets the parameters of the label's [minimum bounding rectangle](http://en.wikipe
 
 <!--returnType-->object<!--/returnType-->
 <!--returnDescription-->
-An object with the following content: <i>{ x: numeric, y: numeric, height: numeric, width: numeric }</i>.
+An object with the following content: *{ x: numeric, y: numeric, height: numeric, width: numeric }*.
 <!--/returnDescription-->
 
 <!--fullDescription-->

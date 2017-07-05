@@ -26,7 +26,7 @@ Provides function parameters.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the widget instance.
+Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -46,5 +46,5 @@ The object associated with the appointment for which a form is created.
 <!--typeFunctionParamName1_field5-->form<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-An instance of the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxForm">dxForm</a> widget used to edit the appointment details.
+An instance of the [Form](/Documentation/ApiReference/UI_Widgets/dxForm) widget used to edit the appointment details.
 <!--/typeFunctionParamDescription1_field5-->

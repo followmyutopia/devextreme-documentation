@@ -26,7 +26,7 @@ The series changes its style, but the points do not.
 * **none**   
 The series does not react to pointing to it.
 
-[note]Points in area series are hidden by default. To make them visible, assign *true* to the **point** | **visible** option.
+[note]Points in area series are hidden by default. To make them visible, assign **true** to the **point** | **visible** option.
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartSeriesHoverMode` enum with one of the following values: `NearestPoint`, `IncludePoints`, `ExcludePoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to an area series.
 

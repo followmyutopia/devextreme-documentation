@@ -13,7 +13,7 @@ Gets all map layers.
 
 <!--returnType-->array<!--/returnType-->
 <!--returnDescription-->
-The array of <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/">layers</a>.
+The array of [layers](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/).
 <!--/returnDescription-->
 
 <!--fullDescription-->

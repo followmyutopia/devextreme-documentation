@@ -14,7 +14,7 @@ An object defining the border options for a selected series.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To set custom border settings specific to the 'selected' state for all series at once, use the properties of the **commonSeriesSettings** | **selectionStyle** | **border** configuration object.</br>
+To set custom border settings specific to the 'selected' state for all series at once, use the properties of the **commonSeriesSettings** | **selectionStyle** | **border** configuration object.    
 
 To set custom border settings specific to the 'selected' state for all series of a single type at once, use the properties of the corresponding object within **commonSeriesSettings** (e.g. **area** | **selectionStyle** | **border**). The values that are set within this object override the corresponding common values that are set within the root **commonSeriesSettings** | **selectionStyle** | **border** object.
 

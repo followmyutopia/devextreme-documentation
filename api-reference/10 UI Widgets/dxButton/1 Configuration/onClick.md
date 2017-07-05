@@ -22,7 +22,7 @@ When using DevExtreme SPA Framework, you can navigate to a specific URL on click
 To validate the editors that are related to the [validation group](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup) specified for this button, use the **validationGroup** field of the object passed as the event handler's parameter. The **validationGroup** object has the following structure.
 
 - **group**  
-    The name or object of the validation group that is assigned to the button's <b>validationGroup</b> option.
+    The name or object of the validation group that is assigned to the button's **validationGroup** option.
 - **validators**  
     An array of **Validator** widgets that are included to the validation group.
 - **validate()**   
@@ -38,7 +38,7 @@ Provides function parameters.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the widget instance.
+Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->

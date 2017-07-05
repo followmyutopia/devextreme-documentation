@@ -18,11 +18,11 @@ For example, consider you have a [runningTotal](/Documentation/ApiReference/Data
 
     [[8, 3, -6], [5, 3, 0], [1, -4, 2]]
 
-If the **allowCrossGroupCalculation** option is set to *false*, each group will be independent of the previous and the row will be displayed as follows.
+If the **allowCrossGroupCalculation** option is set to **false**, each group will be independent of the previous and the row will be displayed as follows.
 
     [[8, 11, 5], [5, 8, 8], [1, -3, -1]]
 
-With the **allowCrossGroupCalculation** option set to *true*, the running total will act regardless of group bounds and same row will be displayed as follows.
+With the **allowCrossGroupCalculation** option set to **true**, the running total will act regardless of group bounds and same row will be displayed as follows.
 
     [[8, 11, 5], [10, 13, 13], [14, 10, 12]]
 

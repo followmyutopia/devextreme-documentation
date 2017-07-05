@@ -14,7 +14,7 @@ Sets the selection state of the layer element.
 <!--paramName1-->state<!--/paramName1-->
 <!--paramType1-->boolean<!--/paramType1-->
 <!--paramDescription1-->
-Pass *true* to select the element and *false* to deselect it.
+Pass **true** to select the element and **false** to deselect it.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

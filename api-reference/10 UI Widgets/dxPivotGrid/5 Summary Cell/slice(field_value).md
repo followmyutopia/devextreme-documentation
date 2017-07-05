@@ -14,13 +14,13 @@ Gets the cell located by the path of the source cell with one field value change
 <!--paramName1-->field<!--/paramName1-->
 <!--paramType1-->PivotGridField<!--/paramType1-->
 <!--paramDescription1-->
-The index in the <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/">fields</a> array, <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField">dataField</a> or <a href="/Documentation/17_2/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption">caption</a> of the field.
+The index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array, [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) or [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption) of the field.
 <!--/paramDescription1-->
 
 <!--paramName2-->value<!--/paramName2-->
 <!--paramType2-->number|string<!--/paramType2-->
 <!--paramDescription2-->
-The <b>field</b>'s value.
+The **field**'s value.
 <!--/paramDescription2-->
 
 <!--returnType-->SummaryCell<!--/returnType-->

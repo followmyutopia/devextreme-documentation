@@ -13,7 +13,7 @@ Returns all descendant nodes.
 
 <!--returnType-->array<!--/returnType-->
 <!--returnDescription-->
-Descendant nodes. Each member of this array has fields and methods described in the <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node">Node</a> section.
+Descendant nodes. Each member of this array has fields and methods described in the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node) section.
 <!--/returnDescription-->
 
 <!--fullDescription-->

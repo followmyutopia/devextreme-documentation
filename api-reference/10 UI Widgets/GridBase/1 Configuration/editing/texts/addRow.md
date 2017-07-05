@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for a hint that appears when a user pauses on the global *"Add"* button. Applies only if **editing** | [allowAdding]({basewidgetpath}/Configuration/editing/#allowAdding) is *true*.
+Specifies text for a hint that appears when a user pauses on the global *"Add"* button. Applies only if **editing** | [allowAdding]({basewidgetpath}/Configuration/editing/#allowAdding) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

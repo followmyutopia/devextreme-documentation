@@ -13,7 +13,7 @@ Gets all visible rows.
 
 <!--returnType-->array<!--/returnType-->
 <!--returnDescription-->
-Visible <a href="/Documentation/17_2/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows">rows</a>.
+Visible [rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows).
 <!--/returnDescription-->
 
 <!--fullDescription-->

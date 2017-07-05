@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies how the widget resizes columns. Applies only if [allowColumnResizing]({basewidgetpath}/Configuration/#allowColumnResizing) is *true*.
+Specifies how the widget resizes columns. Applies only if [allowColumnResizing]({basewidgetpath}/Configuration/#allowColumnResizing) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

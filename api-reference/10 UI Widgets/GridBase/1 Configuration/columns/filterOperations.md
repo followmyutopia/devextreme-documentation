@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a set of available filter operations. Applies only if [filterRow]({basewidgetpath}/Configuration/filterRow/) | **visible** and [allowFiltering]({basewidgetpath}/Configuration/columns/#allowFiltering) are *true*.
+Specifies a set of available filter operations. Applies only if [filterRow]({basewidgetpath}/Configuration/filterRow/) | **visible** and [allowFiltering]({basewidgetpath}/Configuration/columns/#allowFiltering) are **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

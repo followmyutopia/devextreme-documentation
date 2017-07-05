@@ -22,7 +22,7 @@ An area label is a text that accompanies a [map area](/Documentation/Guide/Widge
 
 Texts for area labels are provided by one of the fields of the **attributes** object. This object must be declared in the map [data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#mapData), while the required field must be assigned to the [dataField](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/#dataField) option of the **label** object.
 
-If you have provided data for area labels, enable them on your map by assigning *true* to the [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/#enabled) option of the **label** object.
+If you have provided data for area labels, enable them on your map by assigning **true** to the [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/#enabled) option of the **label** object.
 
 In addition, you can change the appearance of area labels using the **label** | [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/font/) object.
 

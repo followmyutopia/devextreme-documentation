@@ -25,7 +25,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxScheduler/Methods/#instance"></a> instance.
+The widget [instance](/Documentation/ApiReference/UI_Widgets/dxScheduler/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
@@ -45,5 +45,5 @@ The appointment object deleted from the data source.
 <!--typeFunctionParamName1_field5-->error<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->JavaScript Error object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The standard <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error">Error</a> object that defines the occurred error.
+The standard [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) object that defines the occurred error.
 <!--/typeFunctionParamDescription1_field5-->

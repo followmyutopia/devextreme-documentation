@@ -19,7 +19,7 @@ Specifies a text for the subtitle.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-<p>If you don't need to specify title options other than <b>text</b>, assign the text to the <b>subtitle</b> property directly.<br/>
+If you don't need to specify title options other than **text**, assign the text to the **subtitle** property directly.<br/>
 
-When a text is not specified for a subtitle, the widget is displayed without one.</p>
+When a text is not specified for a subtitle, the widget is displayed without one.
 <!--/fullDescription-->

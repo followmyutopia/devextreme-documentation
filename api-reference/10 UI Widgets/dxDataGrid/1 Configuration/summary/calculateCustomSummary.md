@@ -63,22 +63,22 @@ Summary information.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance">instance</a>.
+The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->name<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name">name</a> of the summary item.
+The [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name) of the summary item.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->summaryProcess<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Indicates the stage of the summary item calculation; equals <i>'start'</i>, <i>'calculate'</i> or <i>'finalize'</i>.
+Indicates the stage of the summary item calculation; equals *'start'*, *'calculate'* or *'finalize'*.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->value<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->any<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-If the custom summary item is calculated by a <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column">column</a>, this field contains the value from a cell of this column. Otherwise, it contains a whole object from the data source.
+If the custom summary item is calculated by a [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column), this field contains the value from a cell of this column. Otherwise, it contains a whole object from the data source.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->totalValue<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->

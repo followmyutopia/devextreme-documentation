@@ -14,5 +14,5 @@ Specifies whether or not the store combines the search expression with the filte
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The default value of this option is *true* if [loadMode](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#loadMode) is *"raw"*, and *false* if **loadMode** is *"processed"*.
+The default value of this option is **true** if [loadMode](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#loadMode) is *"raw"*, and **false** if **loadMode** is *"processed"*.
 <!--/fullDescription-->

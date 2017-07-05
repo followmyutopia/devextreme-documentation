@@ -20,7 +20,7 @@ The element to animate.
 <!--paramName2-->config<!--/paramName2-->
 <!--paramType2-->animationConfig<!--/paramType2-->
 <!--paramDescription2-->
-An object that defines element <a href="/Documentation/17_2/ApiReference/Common/Object_Structures/animationConfig">animation options</a>.
+An object that defines element [animation options](/Documentation/ApiReference/Common/Object_Structures/animationConfig).
 <!--/paramDescription2-->
 
 <!--returnType-->object<!--/returnType-->

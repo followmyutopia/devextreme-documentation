@@ -19,7 +19,7 @@ The element to check for being animated.
 
 <!--returnType-->boolean<!--/returnType-->
 <!--returnDescription-->
-If the specified element is being animated, the method returns <i>true</i>. Otherwise, <i>false</i>.
+If the specified element is being animated, the method returns **true**. Otherwise, **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

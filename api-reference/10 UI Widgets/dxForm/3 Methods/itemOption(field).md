@@ -14,7 +14,7 @@ Gets the value of the form item option.
 <!--paramName1-->field<!--/paramName1-->
 <!--paramType1-->string<!--/paramType1-->
 <!--paramDescription1-->
-Specifies the path to the required <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxForm/Configuration/#formData">formData</a> field, or the name of the required item.
+Specifies the path to the required [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) field, or the name of the required item.
 <!--/paramDescription1-->
 
 <!--returnType-->any<!--/returnType-->

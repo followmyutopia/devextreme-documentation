@@ -13,7 +13,7 @@ Returns an array of all series in the chart.
 
 <!--returnType-->array<!--/returnType-->
 <!--returnDescription-->
-The series from the chart's <b>series</b> collection.
+The series from the chart's **series** collection.
 <!--/returnDescription-->
 
 <!--fullDescription-->

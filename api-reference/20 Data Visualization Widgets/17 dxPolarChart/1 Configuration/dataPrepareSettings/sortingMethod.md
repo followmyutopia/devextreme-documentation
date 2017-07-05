@@ -14,7 +14,7 @@ Specifies how to sort the series points.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option specifies the sorting manner of series points. When this option is set to *true*, the series points are sorted in ascending order by arguments. When this option is set to *false*, the order of the series points does not differ from the order in the data source.
+This option specifies the sorting manner of series points. When this option is set to **true**, the series points are sorted in ascending order by arguments. When this option is set to **false**, the order of the series points does not differ from the order in the data source.
 
 In addition, you can order the series points per your requirements by specifying a comparison function. This function accepts two parameters that represent two series points and should return the value on which the order will be based. The argument and value of these series points can be accessed using the **arg** and **val** fields correspondingly.
 

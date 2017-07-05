@@ -16,10 +16,10 @@ A custom view cache to be used in the application.
 The framework's navigation system uses a view cache to save information about the views that have already been displayed in this application. Each time a view is displayed, information about the view is requested from the view cache, so that the markup does not need to be generated again. You can influence the way the predefined view cache works by using the techniques below.
 
 - Totally disable caching  
-    Set the application's [disableViewCache](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#disableViewCache) configuration option to *true*.
+    Set the application's [disableViewCache](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#disableViewCache) configuration option to **true**.
 
 - Disable the caching of some of the application views  
-    Set the [disableCache](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxView/Configuration/#disableCache) configuration option of the dxView markup component that represents the required view to *true*. This may be helpful for the views that contain map widgets and large images.
+    Set the [disableCache](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxView/Configuration/#disableCache) configuration option of the dxView markup component that represents the required view to **true**. This may be helpful for the views that contain map widgets and large images.
 
 - Specify a limit for the number of views that can be cached
     Specify the application's [viewCacheSize](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#viewCacheSize) configuration option.

@@ -36,12 +36,14 @@ The value of the cell with applied format.
 <!--typeFunctionParamName1_field3-->target<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Indicates the type of the UI element where the <b>customizeText</b> function was called.<br/>Possible values: <i>"filterRow"</i>, <i>"headerFilter"</i> and <i>"search"</i>.
+Indicates the type of the UI element where the **customizeText** function was called.  
+Possible values: *"filterRow"*, *"headerFilter"* and *"search"*.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->groupInterval<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string|number<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Indicates how header filter values were combined into groups. Available if <b>target</b> is <i>"headerFilter"</i>.<br />For possible values, see the description of the <b>headerFilter</b> | <b>groupInterval</b> option.
+Indicates how header filter values were combined into groups. Available if **target** is *"headerFilter"*.  
+For possible values, see the description of the **headerFilter** | [groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option.
 <!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

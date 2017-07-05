@@ -15,7 +15,7 @@ A handler for the **rowRemoving** event. Executed before a row is removed from t
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To cancel row removal, assign *true* to the **cancel** field of the handler parameter. To perform an asynchronous action before removing the row, assign a [jQuery.Promise](http://api.jquery.com/Types/#Promise) to the **cancel** field. The row will be removed once the Deferred object of this Promise is resolved.
+To cancel row removal, assign **true** to the **cancel** field of the handler parameter. To perform an asynchronous action before removing the row, assign a [jQuery.Promise](http://api.jquery.com/Types/#Promise) to the **cancel** field. The row will be removed once the Deferred object of this Promise is resolved.
 
 [note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), if several rows are to be removed, this handler will be executed for each row individually.
 <!--/fullDescription-->
@@ -27,7 +27,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget instance.
+The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->

@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the widget's edge to which the column is fixed. Applies only if **columns[]** | [fixed]({basewidgetpath}/Configuration/columns/#fixed) is *true*.
+Specifies the widget's edge to which the column is fixed. Applies only if **columns[]** | [fixed]({basewidgetpath}/Configuration/columns/#fixed) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

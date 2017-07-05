@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether a user can hide the column using the column chooser at runtime. Applies only if **columnChooser** | [enabled]({basewidgetpath}/Configuration/columnChooser/#enabled) is *true*.
+Specifies whether a user can hide the column using the column chooser at runtime. Applies only if **columnChooser** | [enabled]({basewidgetpath}/Configuration/columnChooser/#enabled) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

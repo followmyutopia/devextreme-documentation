@@ -20,7 +20,7 @@ The name of a destination file.
 <!--paramName2-->format<!--/paramName2-->
 <!--paramType2-->string<!--/paramType2-->
 <!--paramDescription2-->
-A required format.<br/>
+A required format.  
 Accepted Values: 'PNG' | 'PDF' | 'JPEG' | 'SVG' | 'GIF'
 <!--/paramDescription2-->
 

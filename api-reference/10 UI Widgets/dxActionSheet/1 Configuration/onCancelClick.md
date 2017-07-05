@@ -15,7 +15,7 @@ A handler for the [cancelClick](/Documentation/ApiReference/UI_Widgets/dxActionS
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when clicking the Cancel button. Use the **cancel** field of the object passed as a function parameter. Set this field to *true* to prohibit the hiding of the action sheet menu when an end user clicks the Cancel button on it.
+Assign a function to perform a custom action when clicking the Cancel button. Use the **cancel** field of the object passed as a function parameter. Set this field to **true** to prohibit the hiding of the action sheet menu when an end user clicks the Cancel button on it.
 
 To navigate to a specific URL when the **cancelClick** event fires, assign that URL or the anchor part (#) of that URL directly to this option as a string.
 <!--/fullDescription-->
@@ -27,7 +27,7 @@ Provides function parameters.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the widget instance.
+Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->

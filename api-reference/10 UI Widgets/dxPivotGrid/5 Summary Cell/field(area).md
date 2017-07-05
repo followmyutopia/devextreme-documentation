@@ -14,7 +14,7 @@ Gets the row or column field to which the current cell belongs.
 <!--paramName1-->area<!--/paramName1-->
 <!--paramType1-->string<!--/paramType1-->
 <!--paramDescription1-->
-The area from which to get a field. Can be <i>'row'</i> or <i>'column'</i>.
+The area from which to get a field. Can be *'row'* or *'column'*.
 <!--/paramDescription1-->
 
 <!--returnType-->PivotGridField<!--/returnType-->

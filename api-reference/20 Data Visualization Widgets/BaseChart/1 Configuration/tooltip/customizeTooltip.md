@@ -60,7 +60,7 @@ Specifies the series of the currently hovered point.
 * **point**    
 Provides access to the hovered point. To learn more about the field and methods of the point object, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) topic in the "Chart Elements" reference section.
 * **points** (for shared tooltip only)    
-Provides access to the array of points with the same argument as the currently hovered point. This field is accessible when the [shared](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#shared) option of the **tooltip** object is set to *true*. To learn more about the fields and methods of the point object, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) topic in the "Chart Elements" reference section.
+Provides access to the array of points with the same argument as the currently hovered point. This field is accessible when the [shared](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#shared) option of the **tooltip** object is set to **true**. To learn more about the fields and methods of the point object, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) topic in the "Chart Elements" reference section.
 
 The following fields come with the stacked-like series such as [full-stacked bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/) or [full-stacked area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedAreaSeries/).
 

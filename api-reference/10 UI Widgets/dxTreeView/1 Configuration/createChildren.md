@@ -42,7 +42,7 @@ In the following code, the **createChildren** function makes a query to the serv
 <!--typeFunctionParamName1-->parentNode<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxtreeviewnode<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The node that has been expanded; <i>null</i> for the root node.
+The node that has been expanded; **null** for the root node.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Promise|array<!--/typeFunctionReturnType-->

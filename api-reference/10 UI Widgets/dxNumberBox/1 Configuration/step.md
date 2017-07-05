@@ -14,7 +14,7 @@ Specifies by which value the widget value changes when a spin button is clicked.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The option makes sense only if the **showSpinButtons** option is set to *true*.
+The option makes sense only if the **showSpinButtons** option is set to **true**.
 
 
 <!--/fullDescription-->

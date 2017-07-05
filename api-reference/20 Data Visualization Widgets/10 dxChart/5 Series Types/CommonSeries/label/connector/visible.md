@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Makes the connectors visible. Applies only if **label** | **visible** is set to *true*.
+Makes the connectors visible. Applies only if **label** | **visible** is set to **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

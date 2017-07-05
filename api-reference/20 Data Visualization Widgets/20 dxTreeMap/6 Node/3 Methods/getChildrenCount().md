@@ -13,7 +13,7 @@ Indicates how many direct descendants the current node has.
 
 <!--returnType-->number<!--/returnType-->
 <!--returnDescription-->
-The number of direct descendants of the current node. <i>0</i> if there are none.
+The number of direct descendants of the current node. *0* if there are none.
 <!--/returnDescription-->
 
 <!--fullDescription-->

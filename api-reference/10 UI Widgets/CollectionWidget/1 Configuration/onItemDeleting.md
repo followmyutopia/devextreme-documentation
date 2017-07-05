@@ -16,7 +16,7 @@ A handler for the **itemDeleting** event. Executed before an item is deleted fro
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To cancel item deletion, assign *true* to the **cancel** field of the handler parameter. To perform an asynchronous action before deleting an item, assign a [jQuery.Promise](http://api.jquery.com/Types/#Promise) to the **cancel** field. The item will be deleted once the Deferred object of this Promise is resolved. The code below adds a confirmation dialog displayed before the item is deleted.
+To cancel item deletion, assign **true** to the **cancel** field of the handler parameter. To perform an asynchronous action before deleting an item, assign a [jQuery.Promise](http://api.jquery.com/Types/#Promise) to the **cancel** field. The item will be deleted once the Deferred object of this Promise is resolved. The code below adds a confirmation dialog displayed before the item is deleted.
 
     <!--JavaScript-->
     var widgetOptions = {
@@ -42,7 +42,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the widget instance.
+Provides access to the [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->

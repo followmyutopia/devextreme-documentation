@@ -26,7 +26,7 @@ At runtime, you can do the following operations.
 
 - Obtain the current selection state of a marker using its [selected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/Methods/#selected) method.
 
-- Change the current selection state of a marker using its [selected(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/Methods/#selectedstate) method. Pass *true* or *false* to this method.
+- Change the current selection state of a marker using its [selected(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/Methods/#selectedstate) method. Pass **true** or **false** to this method.
 
 - Deselect all the selected markers using the [clearMarkerSelection()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#clearMarkerSelection) method of the map instance.
 

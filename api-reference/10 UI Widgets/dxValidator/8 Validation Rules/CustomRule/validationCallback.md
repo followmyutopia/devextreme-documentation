@@ -28,18 +28,13 @@ The validated value.
 <!--typeFunctionParamName1_field2-->rule<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The current rule object that exposes user-defined options, the <b>isValid</b> and <b>message</b> fields, and the rule type specific fields.
+The current rule object that exposes user-defined options, the **isValid** and **message** fields, and the rule type specific fields.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->validator<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxValidator">dxValidator</a> object that caused the validation.
+The [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator) object that caused the validation.
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The current row data. Exists only when you validate a <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxDataGrid">DataGrid</a> or <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList">TreeList</a> cell's value.
-<!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionReturnType-->true|false<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->

@@ -22,7 +22,7 @@ This option supports the following colors.
 * Predefined/cross-browser color names
 * [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
 
-So that this option takes effect, make sure that the [showMinMax](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#showMinMax) option is set to *true*.
+So that this option takes effect, make sure that the [showMinMax](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#showMinMax) option is set to **true**.
 
 To set a color for the minimum point on a sparkline, specify the [minColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#minColor) option.
 

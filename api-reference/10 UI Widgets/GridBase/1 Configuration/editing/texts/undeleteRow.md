@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies text for buttons that recover deleted rows. Applies only if [allowDeleting]({basewidgetpath}/Configuration/editing/#allowDeleting) is *true* and **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"batch"*.
+Specifies text for buttons that recover deleted rows. Applies only if [allowDeleting]({basewidgetpath}/Configuration/editing/#allowDeleting) is **true** and **editing** | [mode]({basewidgetpath}/Configuration/editing/#mode) is *"batch"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

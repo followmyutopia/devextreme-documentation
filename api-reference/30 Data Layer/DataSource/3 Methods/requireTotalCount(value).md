@@ -14,7 +14,7 @@ Sets the [requireTotalCount](/Documentation/ApiReference/Data_Layer/DataSource/C
 <!--paramName1-->value<!--/paramName1-->
 <!--paramType1-->boolean<!--/paramType1-->
 <!--paramDescription1-->
-The new <b>requireTotalCount</b> option value.
+The new **requireTotalCount** option value.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

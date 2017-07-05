@@ -21,5 +21,5 @@ Specifies whether to select or deselect the area.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-To select an area, pass *true* as the parameter. Otherwise, pass *false*. To specify the selection state of a certain area when configuring **VectorMap**, use the **isSelected** fields of the object returned by the [customize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#customize) function.
+To select an area, pass **true** as the parameter. Otherwise, pass **false**. To specify the selection state of a certain area when configuring **VectorMap**, use the **isSelected** fields of the object returned by the [customize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#customize) function.
 <!--/fullDescription-->

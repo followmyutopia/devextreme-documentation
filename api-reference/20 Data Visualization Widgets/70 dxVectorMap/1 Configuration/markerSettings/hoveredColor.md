@@ -27,5 +27,5 @@ This option supports the following colors.
 * Predefined/cross-browser color names
 * [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
 
-[note] Make sure that the [hoverEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#hoverEnabled) option is set to *true*, so that the **hoveredColor** option takes effect.
+[note] Make sure that the [hoverEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#hoverEnabled) option is set to **true**, so that the **hoveredColor** option takes effect.
 <!--/fullDescription-->

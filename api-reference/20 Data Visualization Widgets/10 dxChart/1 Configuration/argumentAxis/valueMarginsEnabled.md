@@ -9,7 +9,7 @@
 <!--merge--><!--/merge-->
 ===========================================================================
 <!--fullDescription-->
-By default, the argument axis extends slightly beyond its extrema. It prevents cutting off parts of the minimum and maximum series points. To disable this feature, set the **valueMarginsEnabled** option to *false*.
+By default, the argument axis extends slightly beyond its extrema. It prevents cutting off parts of the minimum and maximum series points. To disable this feature, set the **valueMarginsEnabled** option to **false**.
 
 [note]This option is ignored by bar-like series.
 

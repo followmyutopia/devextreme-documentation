@@ -26,7 +26,7 @@ At runtime, you can do the following operations.
 
 - Obtain the current selection state of an area using its [selected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/Methods/#selected) method.
 
-- Change the current selection state of an area using its [selected(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/Methods/#selectedstate) method. Pass *true* or *false* to this method.
+- Change the current selection state of an area using its [selected(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/Methods/#selectedstate) method. Pass **true** or **false** to this method.
 
 - Deselect all the selected areas using the [clearAreaSelection()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#clearAreaSelection) method of the map instance.
 

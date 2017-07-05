@@ -21,7 +21,7 @@ At runtime, you can do the following operations.
 
 - Obtain the current selection state of a layer element using its [selected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#selected) method.
 
-- Change the current selection state of a layer element using its [selected(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#selectedstate) method. Pass *true* or *false* to this method.
+- Change the current selection state of a layer element using its [selected(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#selectedstate) method. Pass **true** or **false** to this method.
 
 - Deselect all the selected layer elements using the [clearSelection()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/Methods/#clearSelection) method of the map layer.
 

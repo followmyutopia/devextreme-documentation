@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Controls the width of bars in the widget. Applies only to bar-like series and when the [equalBarWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#equalBarWidth) option is *true*.
+Controls the width of bars in the widget. Applies only to bar-like series and when the [equalBarWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#equalBarWidth) option is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

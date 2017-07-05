@@ -13,7 +13,7 @@ Gets the **DataSource** instance.
 
 <!--returnType-->DataSource<!--/returnType-->
 <!--returnDescription-->
-The <a href="/Documentation/17_2/ApiReference/Data_Layer/DataSource/">DataSource instance</a>
+The [DataSource instance](/Documentation/ApiReference/Data_Layer/DataSource/).
 <!--/returnDescription-->
 
 <!--fullDescription-->

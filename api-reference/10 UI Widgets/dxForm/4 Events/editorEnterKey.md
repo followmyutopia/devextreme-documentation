@@ -41,5 +41,5 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamName1_field4-->dataField<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The path to the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxForm/Configuration#formData">formData</a> object field associated with the current editor.
+The path to the [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object field associated with the current editor.
 <!--/typeFunctionParamDescription1_field4-->

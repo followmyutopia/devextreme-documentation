@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-An object that specifies configuration options for all series of the <i>area</i> type in the chart.
+An object that specifies configuration options for all series of the *area* type in the chart.
 <!--/shortDescription-->
 
 <!--fullDescription-->

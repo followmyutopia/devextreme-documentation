@@ -20,9 +20,9 @@ In the case of a numeric scale, assign a numeric value to this property. If the 
 
 [note]Minor ticks are unavailable for a discrete and semi-discrete scale.
 
-When the [snapToTicks](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#snapToTicks) property is set to *true*, sliders are docked to both major and minor ticks.
+When the [snapToTicks](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#snapToTicks) property is set to **true**, sliders are docked to both major and minor ticks.
 
-To prohibit the display of minor ticks, set the scale's **showMinorTicks** property to *false*.
+To prohibit the display of minor ticks, set the scale's **showMinorTicks** property to **false**.
 
 To set a custom tick interval between major ticks, use the scale's **tickInterval** property.
 

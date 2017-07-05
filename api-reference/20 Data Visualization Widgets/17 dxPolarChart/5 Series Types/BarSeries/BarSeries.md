@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-An object defining a series of the <b>bar</b> type.
+An object defining a series of the **bar** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->

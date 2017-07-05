@@ -17,10 +17,10 @@ Specifies the widget state.
 The check box can be in one of the following states depending on the **value** option value.
 
 - checked  
- value is *true*
+ value is **true**
 
 - unchecked  
- value is *false*
+ value is **false**
 
 - undetermined  
  value is **undefined**
