@@ -1,34 +1,67 @@
-To consume data from a custom source, the **Scheduler** uses the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). This article provides information on how to configure the **CustomStore** for communicating with the server. If your server already processes data, that is, performs filtering, notify the **Scheduler** of it by assigning *true* to the [remoteFiltering](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#remoteFiltering) option. 
+DevExtreme provides the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component, a flexible instrument that allows you to configure data access manually, for consuming data from any source. The following extensions for ASP.NET and PHP servers simplify the task of configuring the **CustomStore** and implement server-side data processing as well:
+
+- [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
+- [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
+
+You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. Note that instead of declaring the **CustomStore** explicitly, you can specify its members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object.
 
     <!--JavaScript-->$(function() {
         $("#schedulerContainer").dxScheduler({
-            // ...
-            remoteFiltering: true
+            dataSource: new DevExpress.data.DataSource({
+                loadMode: "raw",   
+                load: function () {
+                    return $.getJSON('https://mydomain.com/MyDataService');
+                }
+            })
         });
     });
 
-If the server does not process data yet, employ one of the following extensions by DevExtreme. They implement server-side data processing and also configure the **CustomStore** for you. Remember to notify the **Scheduler** of filtering that was delegated to the server.
+In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function. In case of the **Scheduler**, the only relevant setting is **filter**, which is passed when the **Scheduler**'s [remoteFiltering](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#remoteFiltering) option is set to **true**:
 
-- [DevExtreme ASP.NET Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
-- [DevExtreme PHP Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
+* **filter**: <span style="font-size:smaller">Array</span>      
+Defines filtering parameters. Present if the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option is set. Possible variants:
 
-If these extensions do not suit your needs, configure the **CustomStore** and implement server-side data processing by yourself. For the **Scheduler** widget, you need to implement the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) operation. This is a function that accepts **loadOptions** and passes them to the server. The server should process data according to the **loadOptions** and send processed data back. The members of the **loadOptions** vary depending on whether remote filtering is enabled. 
+    * Binary filter
 
-If the **Scheduler** allows a user to add, delete or update appointments, the **CustomStore** must implement the [insert](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#insert), [remove](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#remove) and [update](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#update) operations as well. The following example shows how to implement these operations. Note that in code, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration object to shorten the example.
+            [ "field", "=", 3 ]
+
+    * Unary filter
+    
+             [ "!", [ "field", "=", 3 ] ]
+
+    * Complex filter
+    
+            [
+                [ "field", "=", 10 ],
+                "and",
+                [
+                    [ "otherField", "<", 3 ],
+                    "or",
+                    [ "otherField", ">", 11 ]
+                ]
+            ]
+
+    See the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) topic for more details.
+
+After receiving this setting, the server should apply it to data and send back an object of the following structure:
+
+    {
+        data: [ ... ] // result data objects
+    }
+
+If the **Scheduler** allows a user to add, delete or update appointments, the **CustomStore** must implement the [insert](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#insert), [remove](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#remove) and [update](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#update) operations as well. Here is a generalized configuration of the **CustomStore** for the **Scheduler** widget.
 
     var schedulerDataSource = new DevExpress.data.DataSource({
         load: function (loadOptions) {
             var d = $.Deferred();
             $.getJSON('http://mydomain.com/MyDataService', {  
-                // Passing settings to the server
-                filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "", // Pass if filtering is remote
+                filter: loadOptions.filter
             }).done(function (result) {
                 // You can process the received data here
                 d.resolve(result);
             });
             return d.promise();
         },
-        // This function is needed only if the Scheduler allows a user to add appointments
         insert: function (values) {
             return $.ajax({
                 url: "http://mydomain.com/MyDataService/",
@@ -36,14 +69,12 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
                 data: values
             })
         },
-        // This function is needed only if the Scheduler allows a user to delete appointments
         remove: function (key) {
             return $.ajax({
                 url: "http://mydomain.com/MyDataService/" + encodeURIComponent(key),
                 method: "DELETE",
             })
         },
-        // This function is needed only if the Scheduler allows a user to update appointments
         update: function (key, values) {
             return $.ajax({
                 url: "http://mydomain.com/MyDataService/" + encodeURIComponent(key),
@@ -56,7 +87,7 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
     $(function() {
         $("#schedulerContainer").dxScheduler({
             dataSource: schedulerDataSource,
-            // ...
+            remoteFiltering: true
         });
     });
 

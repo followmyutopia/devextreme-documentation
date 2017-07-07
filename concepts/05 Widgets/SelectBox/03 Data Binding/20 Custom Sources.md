@@ -18,43 +18,93 @@ You need to configure the **CustomStore** in detail for accessing a server built
 
 [note]We advise against using this mode with large amounts of data because all data is loaded at once.
 
-In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function and depend on the operations ([paging](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate), [filtering](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter), [sorting](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort), etc.) that you have enabled in the **DataSource**. The following code shows how to configure the **load** function in this case:
+In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function and depend on the operations (paging, filtering, sorting, etc.) that you have enabled in the **DataSource**. The following settings are relevant for the **SelectBox**:
+
+* **take**: <span style="font-size:smaller">Number</span>      
+Restricts the number of top-level data objects to return.
+
+* **skip**: <span style="font-size:smaller">Number</span>      
+Skips some data objects from the start of the result set. **skip** and **take** are present if [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) is **true** and [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) is set in the **DataSource**.
+
+* **sort**: <span style="font-size:smaller">Array</span>      
+Defines sorting parameters. Present if the **DataSource**'s [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) option is set. Multiple parameters apply to the data in sequence to implement multi-level sorting. Contains objects of the following structure:
+
+        { selector: "field", desc: true/false }    
+
+* **filter**: <span style="font-size:smaller">Array</span>      
+Defines filtering parameters. Present if the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option is set. Possible variants:
+
+    * Binary filter
+
+            [ "field", "=", 3 ]
+
+    * Unary filter
+    
+             [ "!", [ "field", "=", 3 ] ]
+
+    * Complex filter
+    
+            [
+                [ "field", "=", 10 ],
+                "and",
+                [
+                    [ "otherField", "<", 3 ],
+                    "or",
+                    [ "otherField", ">", 11 ]
+                ]
+            ]
+
+    See the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) topic for more details.
+
+* **searchExpr**, **searchOperation** and **searchValue**: <span style="font-size:smaller">Strings</span>    
+Another way to define a filter restricted to one criterion. Present if [corresponding options](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) are set in the **DataSource**.
+
+* **group**: <span style="font-size:smaller">Array</span>     
+Defines grouping levels to be applied to the data. Present if the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option is set. Contains objects of the following structure:
+
+        { selector: "field", desc: true/false }
+
+    See the [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) topic for more details.
+
+After receiving these settings, the server should apply them to data and send back an object of the following structure:
+
+    {
+        data: [{
+            key: "Group 1",
+            items: [ ... ] // result data objects
+        },
+        ...
+        ]
+    }
+
+If the **group** setting is absent, the object structure is different: 
+
+    {
+        data: [ ... ] // result data objects
+    }
+
+If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#value) beforehand, the **CustomStore** must implement the [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) operation as well. Here is a generalized configuration of the **CustomStore** for the **SelectBox** widget.
 
     <!--JavaScript-->$(function() {
         $("#selectBoxContainer").dxSelectBox({
             dataSource: new DevExpress.data.DataSource({
                 load: function (loadOptions) {
-                    // Passed if "paginate" is true and "pageSize" is set
-                    var skip = loadOptions.skip; // The number of records to skip 
-                    var take = loadOptions.take; // The number of records to take
-                    // Passed if "filter" is set
-                    var filterOptions = loadOptions.filter ? JSON.stringify(loadOptions.filter) : "";
-                    // Passed if "sort" is set
-                    var sortOptions = loadOptions.sort ? JSON.stringify(loadOptions.sort) : "";
-                    // Passed if "group" is set
-                    var groupOptions = loadOptions.group ? JSON.stringify(loadOptions.group) : "";
-                    // Passed if "searchEnabled" is true
-                    var searchValue = loadOptions.searchValue;
-                    var searchExpr = loadOptions.searchExpr;    // Data fields to be searched for "searchValue"
-                    var searchOperation = loadOptions.searchOperation;
-
                     var d = $.Deferred();
-                    $.getJSON("https://mydomain.com/MyDataService", {
-                        skip: skip,
-                        take: take,
-                        filter: filterOptions,
-                        sort: sortOptions,
-                        group: groupOptions,
-                        searchExpr: searchExpr,
-                        searchOperation: searchOperation,
-                        searchValue: searchValue
+                    $.getJSON("http://mydomain.com/MyDataService", {
+                        skip: loadOptions.skip,
+                        take: loadOptions.take,
+                        sort: loadOptions.sort,
+                        filter: loadOptions.filter,
+                        searchExpr: loadOptions.searchExpr,
+                        searchOperation: loadOptions.searchOperation,
+                        searchValue: loadOptions.searchValue,
+                        group: loadOptions.group
                     }).done(function(result) {
                         // Here, you can perform operations unsupported by the server
                         d.resolve(result.data);
                     });
                     return d.promise();
                 },
-                // Required if you specify initially selected value in SelectBox
                 byKey: function (key) {
                     var d = new $.Deferred();
                     $.get('https://mydomain.com/MyDataService?id=' + key)
@@ -66,61 +116,6 @@ In the latter case, use the **CustomStore**'s **load** function to send data pro
             })
         });
     });
-
-The object passed with the [$.getJSON()](http://api.jquery.com/jquery.getjson/) request has the following structure:
-
-    <!--JavaScript-->
-    {
-        filter: [
-            [ "dataFieldName1", "operator", "value" ],
-            "and", // "or"
-            [ "dataFieldName2", "operator", "value" ],
-            // ...
-        ],
-        sort: [
-            { selector : "dataFieldName1", desc : true },
-            { selector : "dataFieldName2", desc : false },
-            // ...
-        ],
-        skip: 0,
-        take: 20,
-        group: "dataFieldName",
-        searchExp: ["dataFieldName1", "dataFieldName2"],
-        searchOperation: "contains", // or "startswith",
-        searchValue: "string"
-    }
-
-After receiving this object with settings, the server should apply them to data and then send an object of the following structure back: 
-
-    <!--JavaScript-->
-    {
-        data: [
-            // Your data objects
-            { name: "John Heart", title: "CEO" },
-            { name: "Arthur Miller", title: "COO" },
-            // ...
-        ]
-    }
-
-Note that if the server has received the **group** setting, the object structure is different: 
-
-    <!--JavaScript-->
-    {
-        data: [{
-            key: "Group 1",
-            items: [
-                // Your data objects
-                { name: "John Heart", title: "CEO" },
-                { name: "Arthur Miller", title: "COO" },
-                // ...
-            ]
-        }, {
-            key: "Group 2",
-            items: [ ... ]
-        }, 
-            // . . .
-        ]
-    }
 
 #####See Also#####
 - [Data Layer - DataSource Examples | Custom Sources](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources)

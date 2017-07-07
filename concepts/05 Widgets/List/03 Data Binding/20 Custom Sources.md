@@ -1,57 +1,127 @@
-﻿For loading data from any other source, DevExtreme provides the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component. It is a flexible instrument that allows you to implement all the needed data access operations manually.
+﻿DevExtreme provides the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component, a flexible instrument that allows you to configure data access manually, for consuming data from any source. The following extensions for ASP.NET and PHP servers simplify the task of configuring the **CustomStore** and implement server-side data processing as well:
 
-For the **List** widget, you need to implement the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) operation. It is a function that accepts a bag of **loadOptions** and passes them to the server. The server must process data according to the **loadOptions** and sent processed data back. The members of the **loadOptions** depend on data processing operations ([paging](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate), [filtering](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter), [sorting](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort), etc.) that you have enabled in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
+- [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
+- [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
 
-[note]If some operations are not supported by the server, you can perform them on the client after data is retrieved.
-
-If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/List/Item_Deletion/), the **CustomStore** must implement the [remove](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#remove) operation as well.
-
-The following code example shows how to implement the **load** and **remove** operations. Note that in this example, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the **DataSource** configuration object to shorten this example.
+You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. Note that instead of declaring the **CustomStore** explicitly, you can specify its members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object.
 
     <!--JavaScript-->$(function() {
         $("#listContainer").dxList({
             dataSource: new DevExpress.data.DataSource({
-                load: function(loadOptions) {
-                    // Passed if "paginate" is true and "pageSize" is set
-                    var skip = loadOptions.skip; // The number of records to skip 
-                    var take = loadOptions.take; // The number of records to take
-                    // Passed if "filter" is set
-                    var filterOptions = loadOptions.filter ? JSON.stringify(loadOptions.filter) : "";
-                    // Passed if "sort" is set
-                    var sortOptions = loadOptions.sort ? JSON.stringify(loadOptions.sort) : "";
-                    // Passed if "group" is set
-                    var groupOptions = loadOptions.group ? JSON.stringify(loadOptions.group) : "";
-
-                    var d = $.Deferred();
-                    $.getJSON("http://mydomain.com/MyDataService", {
-                        skip: skip,
-                        take: take,
-                        filter: filterOptions,
-                        sort: sortOptions,
-                        group: groupOptions
-                    }).done(function(result) {
-                        // Here, you can perform operations unsupported by the server
-                        d.resolve(result.data, {
-                            totalCount: result.totalCount    // The count of received records; needed if "selectAllMode" is "allPages"
-                        });
-                    });
-                    return d.promise();
-                },
-                // This function is needed only if the List allows item deletion
-                remove: function(key) {
-                    return $.ajax({
-                        url: "http://mydomain.com/MyDataService/" + encodeURIComponent(key),
-                        method: "DELETE",
-                    });
+                loadMode: "raw",   
+                load: function () {
+                    return $.getJSON('https://mydomain.com/MyDataService');
                 }
             })
         });
     });
 
-For consuming data from ASP.NET and PHP servers, DevExtreme provides the following extensions that implement the **CustomStore** and server-side data processing for you.
+[note]We advise against using this mode with large amounts of data because all data is loaded at once.
 
-- [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
-- [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
+In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function and depend on the operations (paging, filtering, sorting, etc.) that you have enabled in the **DataSource**. The following settings are relevant for the **List**:
+
+* **take**: <span style="font-size:smaller">Number</span>      
+Restricts the number of top-level data objects to return.
+
+* **skip**: <span style="font-size:smaller">Number</span>      
+Skips some data objects from the start of the result set. **skip** and **take** are present if [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) is **true** and [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) is set in the **DataSource**.
+
+* **sort**: <span style="font-size:smaller">Array</span>      
+Defines sorting parameters. Present if the **DataSource**'s [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) option is set. Multiple parameters apply to the data in sequence to implement multi-level sorting. Contains objects of the following structure:
+
+        { selector: "field", desc: true/false }    
+
+* **filter**: <span style="font-size:smaller">Array</span>      
+Defines filtering parameters. Present if the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option is set. Possible variants:
+
+    * Binary filter
+
+            [ "field", "=", 3 ]
+
+    * Unary filter
+    
+             [ "!", [ "field", "=", 3 ] ]
+
+    * Complex filter
+    
+            [
+                [ "field", "=", 10 ],
+                "and",
+                [
+                    [ "otherField", "<", 3 ],
+                    "or",
+                    [ "otherField", ">", 11 ]
+                ]
+            ]
+
+    See the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) topic for more details.
+
+* **searchExpr**, **searchOperation** and **searchValue**: <span style="font-size:smaller">Strings</span>    
+Another way to define a filter restricted to one criterion. Present if [corresponding options](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) are set in the **DataSource**.
+
+* **group**: <span style="font-size:smaller">Array</span>     
+Defines grouping levels to be applied to the data. Present if the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option is set. Contains objects of the following structure:
+
+        { selector: "field", desc: true/false }
+
+    See the [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) topic for more details.
+
+* **requireTotalCount**: <span style="font-size:smaller">Boolean</span>     
+Indicates that a total count of data objects in the result set must be returned in the **totalCount** field of the result. This count must reflect the number of data items after filtering, but disregard any **take** parameter used for the query. Used when the **List**'s [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectAllMode) is *"allPages"*.
+
+After receiving these settings, the server should apply them to data and send back an object of the following structure:
+
+    {
+        data: [{
+            key: "Group 1",
+            items: [ ... ] // result data objects
+        },
+        ...
+        ],
+        totalCount: 100
+    }
+
+If the **group** setting is absent, the object structure is different: 
+
+    {
+        data: [ ... ], // result data objects
+        totalCount: 100
+    }
+
+If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/List/Item_Deletion/), the **CustomStore** must implement the [remove](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#remove) operation as well. Here is a generalized configuration of the **CustomStore** for the **List** widget.
+
+    <!--JavaScript-->$(function() {
+        $("#listContainer").dxList({
+            dataSource: new DevExpress.data.DataSource({
+                load: function (loadOptions) {
+                    var d = $.Deferred();
+                    $.getJSON("http://mydomain.com/MyDataService", {
+                        skip: loadOptions.skip,
+                        take: loadOptions.take,
+                        sort: loadOptions.sort,
+                        filter: loadOptions.filter,
+                        searchExpr: loadOptions.searchExpr,
+                        searchOperation: loadOptions.searchOperation,
+                        searchValue: loadOptions.searchValue,
+                        group: loadOptions.group,
+                        requireTotalCount: loadOptions.requireTotalCount
+                    }).done(function(result) {
+                        // Here, you can perform operations unsupported by the server
+                        d.resolve(result.data, {
+                            totalCount: result.totalCount
+                        });
+                    });
+                    return d.promise();
+                },
+                remove: function(key) {
+                    return $.ajax({
+                        url: "http://mydomain.com/MyDataService/" + encodeURIComponent(key),
+                        method: "DELETE"
+                    });
+                }
+            })
+        });
+    });
 
 #####See Also#####
 - [Data Layer - DataSource Examples | Custom Sources](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources)
@@ -60,6 +130,5 @@ For consuming data from ASP.NET and PHP servers, DevExtreme provides the followi
 - [List - Access the DataSource](/Documentation/Guide/Widgets/List/Data_Binding/Access_the_DataSource/)
 - [List - Paging](/Documentation/Guide/Widgets/List/Paging/)
 - [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
-- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 
 [tags]list, data binding, provide data, custom data source, CustomStore, DataSource, load

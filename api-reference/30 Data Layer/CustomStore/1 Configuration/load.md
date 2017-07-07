@@ -13,51 +13,17 @@ The user implementation of the [load(options)](/Documentation/ApiReference/Data_
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The function passed to this option should return a promise. More often, this is either a [jQuery.Deferred](http://api.jquery.com/jQuery.Deferred) promise or a **jQuery.Deferred** compatible object.
+This function's implementation has certain specifics depending on the widget in which you use the **CustomStore**. Refer to the **Custom Sources** topic of a specific widget for details:
 
-[note]In **AngularJS approach**, APIs for deferred/promises are exposed by the [$q service](https://docs.angularjs.org/api/ng/service/$q).
-
-If the **loadOptions.requireTotalCount** field is **true**, the function should resolve the jQuery.Deferred with a second argument containing the **totalCount** field as shown in the following code snippet.
-
-    <!--JavaScript-->
-    var store = new DevExpress.data.CustomStore({
-        load: function (loadOptions) {
-            var deferred = $.Deferred();
-            $.get('url/to/the/resource', loadOptions).done(function (response) {
-                if (loadOptions.requireTotalCount === true)
-                    deferred.resolve(response.data, { totalCount: response.totalCount });
-                else
-                    deferred.resolve(response.data)
-            });
-            return deferred.promise();
-        }
-    });
-
-In **AngularJS approach**, if the **loadOptions.requireTotalCount** field is **true**, the promise must be resolved with an object of two fields: **data** and **totalCount**. In the following code snippet, the `.then()` method creates a promise internally and resolves it with the return from the callback function.
-
-    <!--JavaScript-->
-    var store = new DevExpress.data.CustomStore({
-        load: function (loadOptions) {
-            return $http.get('url/to/the/resource', loadOptions).then(function (response) {
-                        if (loadOptions.requireTotalCount === true)
-                            return { data: response.data, totalCount: response.totalCount };
-                        else
-                            return response.data;
-                    })
-        }
-    });
-
-If [loadMode](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#loadMode) is *"raw"*, the **load** function should send a request for all data without sending **loadOptions**.
-
-    <!--JavaScript-->
-    var store = new DevExpress.data.CustomStore({
-        loadMode: "raw",
-        load: function() {
-            return $.getJSON("url/to/the/resource");
-            // ----- or for AngularJS apps -----
-            // return $http.get('url/to/the/resource');
-        }
-    });
+- [DataGrid](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/)
+- [PivotGrid](/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/)
+- [TreeList](/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/)
+- [List](/Documentation/Guide/Widgets/List/Data_Binding/Custom_Sources/)
+- [Lookup](/Documentation/Guide/Widgets/Lookup/Data_Binding/Custom_Sources/)
+- [SelectBox](/Documentation/Guide/Widgets/SelectBox/Data_Binding/Custom_Sources/)
+- [TagBox](/Documentation/Guide/Widgets/TagBox/Data_Binding/Custom_Sources/)
+- [Scheduler](/Documentation/Guide/Widgets/Scheduler/Data_Binding/Custom_Sources/)
+- [Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Custom_Sources/) and other data visualization widgets
 
 #####See Also#####
 - [Load Data in Raw Mode](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Load_Data_in_Raw_Mode)
