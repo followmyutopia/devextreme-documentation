@@ -15,6 +15,9 @@ Calculates custom display values for column cells. Used when display values shou
 <!--fullDescription-->
 This option accepts the name of the [data source field]({basewidgetpath}/Configuration/#dataSource) that provides display values...
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
             columns: [{
@@ -24,7 +27,41 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxi-column
+            dataField="countryID" <!-- provides values for editing -->
+            calculateDisplayValue="country"> <!-- provides display values -->
+        </dxi-column>
+    </dx-data-grid>
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        .Columns(columns => columns.Add()
+            .DataField("CountryID")
+            .CalculateDisplayValue("Country")
+        )
+    )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().DataGrid() _
+        .Columns(Sub(columns)
+            columns.Add() _
+                .DataField("CountryID") _
+                .CalculateDisplayValue("Country")
+        End Sub)        
+    )
+
+---
+
 ... or a function that combines display values.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
@@ -36,6 +73,56 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
             }]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxi-column
+            dataField="countryID" <!-- provides values for editing -->
+            [calculateDisplayValue]="getCountryWithCapital"> <!-- combines display values -->
+        </dxi-column>
+    </dx-data-grid>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        getCountryWithCapital(rowData) {
+            return rowData.capital + " (" + rowData.country + ")";
+        }
+    }
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        .Columns(columns => columns.Add()
+            .DataField("CountryID")
+            .CalculateDisplayValue(new JS("getCountryWithCapital"))
+        )
+    )
+
+    <script>
+        function getCountryWithCapital(rowData) {
+            return rowData.capital + " (" + rowData.country + ")";
+        }        
+    </script>
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().DataGrid() _
+        .Columns(Sub(columns)
+            columns.Add() _
+                .DataField("CountryID") _
+                .CalculateDisplayValue(New JS("getCountryWithCapital"))
+        End Sub)        
+    )
+
+    <script>
+        function getCountryWithCapital(rowData) {
+            return rowData.capital + " (" + rowData.country + ")";
+        }        
+    </script>    
+    
+---
 
 [note]Do not use this option to format text in cells. Use [customizeText]({basewidgetpath}/Configuration/columns/#customizeText) for this.
 

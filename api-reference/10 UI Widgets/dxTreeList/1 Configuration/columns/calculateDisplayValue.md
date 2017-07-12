@@ -32,7 +32,26 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
             calculateDisplayValue="country"> <!-- provides display values -->
         </dxi-column>
     </dx-tree-list>
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().TreeList()
+        .Columns(columns => columns.Add()
+            .DataField("CountryID")
+            .CalculateDisplayValue("Country")
+        )
+    )
     
+    <!--Razor VB-->
+    @(Html.DevExtreme().TreeList() _
+        .Columns(Sub(columns)
+            columns.Add() _
+                .DataField("CountryID") _
+                .CalculateDisplayValue("Country")
+        End Sub)        
+    )
+
 ---
 
 ... or a function that combines display values.
@@ -67,6 +86,38 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
             return rowData.capital + " (" + rowData.country + ")";
         }
     }
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().TreeList()
+        .Columns(columns => columns.Add()
+            .DataField("CountryID")
+            .CalculateDisplayValue(new JS("getCountryWithCapital"))
+        )
+    )
+    
+    <script>
+        function getCountryWithCapital(rowData) {
+            return rowData.capital + " (" + rowData.country + ")";
+        }        
+    </script>
+    
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().TreeList() _
+        .Columns(Sub(columns)
+            columns.Add() _
+                .DataField("CountryID") _
+                .CalculateDisplayValue(New JS("getCountryWithCapital"))
+        End Sub)        
+    )
+
+    <script>
+        function getCountryWithCapital(rowData) {
+            return rowData.capital + " (" + rowData.country + ")";
+        }        
+    </script>    
     
 ---
 
