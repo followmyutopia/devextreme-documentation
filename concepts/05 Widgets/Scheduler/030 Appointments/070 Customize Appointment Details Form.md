@@ -1,5 +1,9 @@
 To customize the appointment details form, create a handler of the [appointmentFormCreated](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentFormCreated) event. The handler allows you to get the [Form](/Documentation/Guide/Widgets/Form/Overview/) instance used to render the appointment details. Within the handler function, use the [itemOption(field, options)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionfield_options) method to update options of a form item.
 
+---
+
+#####jQuery
+
     <!--JavaScript-->
     $(function(){
         $("#schedulerContainer").dxScheduler({
@@ -7,7 +11,7 @@ To customize the appointment details form, create a handler of the [appointmentF
                 text: "His Girl Friday",
                 startDate: new Date(2016, 4, 24, 9, 10),
                 endDate: new Date(2016, 4, 24, 11, 20)
-            },
+            }, 
             // ...
             ],
             currentDate: new Date(2016, 4, 24),
@@ -28,6 +32,45 @@ To customize the appointment details form, create a handler of the [appointmentF
             }
         });
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    export class AppComponent {
+        schedulerData = [{
+            text: "His Girl Friday",
+            startDate: new Date(2016, 4, 24, 9, 10),
+            endDate: new Date(2016, 4, 24, 11, 20)
+        }, 
+        // ...
+        ];
+        currentDate = new Date(2016, 4, 24);
+        
+        onAppointmentFormCreated (e) {
+            var form = e.form;
+            form.itemOption("startDate", {
+                helpText: "Select a date between May 11 and 27",
+                editorOptions: {
+                    min: new Date(2016, 4, 11),
+                    max: new Date(2016, 4, 27),
+                    type: 'datetime'
+                }
+            });
+            // By default, fields that show timezones are hidden
+            // To show them, use the code below
+            form.itemOption("startDateTimeZone", { visible: true });
+            form.itemOption("endDateTimeZone", { visible: true });
+        }
+    }
+
+    <!--HTML-->
+    <dx-scheduler 
+        [dataSource]="schedulerData"
+        [currentDate]="currentDate"
+        (onAppointmentFormCreated)="onAppointmentFormCreated($event)">
+    </dx-scheduler>
+
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
 <a href="https://www.youtube.com/watch?v=aWiCUyPKL_k&index=8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Watch Video</a>

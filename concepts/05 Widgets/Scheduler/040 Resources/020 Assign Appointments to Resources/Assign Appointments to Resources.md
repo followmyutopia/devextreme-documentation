@@ -9,6 +9,10 @@ To define resource kinds, assign an array of objects specifying them to the [res
 
 <!---->
 
+---
+
+##### jQuery
+
     <!--JavaScript-->
     var rooms = [
         // Resource instances
@@ -59,6 +63,66 @@ To define resource kinds, assign an array of objects specifying them to the [res
             ]
         });
     });
+
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from 'devextreme/data/data_source';
+    // ...
+    export class AppComponent  {
+        // ...
+        rooms = [
+            // Resource instances
+            { 
+                id: 1,              // Resource identifier
+                text: "Room101",    // Resource name
+                color: "red"        // Color for indicating appointments that use this resource
+            },
+            { id: 2, text: "Room102", color: "green" },
+            // ...
+        ];
+        teachers = [
+            // Resource instances
+            { guid: "6F96", name: "John Heart", clr: "yellow" },
+            { guid: "3F32", name: "Sandra Johnson", clr: "blue" },
+            // ...
+        ];
+        resources = [ 
+            // Definition of the first resource kind 
+            {
+                dataSource: new DataSource({
+                    store: {
+                        type: "array",
+                        data: this.rooms
+                    }
+                }),
+                fieldExpr: "roomId",        // "roomId" is the data field in an appointment object that binds it to the resource
+                label: "Room"               // Label displayed for this resource kind in the appointment details form 
+            },
+            // Definition of the second resource kind 
+            {
+                dataSource: new DataSource({
+                    store: {
+                        type: "array",
+                        data: this.teachers
+                    }
+                }),
+                fieldExpr: "teacherId",
+                valueExpr: "guid",          // Resource instance's field used instead of "id" 
+                colorExpr: "clr",           // Resource instance's field used instead of "color" 
+                displayExpr: "name",        // Resource instance's field used instead of "text" 
+                label: "Teacher"
+            }
+        ];
+    }
+
+    <!--HTML-->
+    <dx-scheduler ...
+        [resources]="resources">
+    </dx-scheduler>
+
+---
 
 Note that every resource instance should have a special structure that includes *id*, *color* and *text* fields. If the structure of your resources differs, set the [valueExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#valueExpr), [colorExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#colorExpr) and [displayExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#displayExpr) options as shown in the code above.
 

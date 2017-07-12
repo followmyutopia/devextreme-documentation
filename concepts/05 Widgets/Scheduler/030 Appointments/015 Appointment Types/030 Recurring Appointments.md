@@ -27,7 +27,11 @@ If you want to exclude appointments from a recurrence, specify exceptions to the
 
 If your appointments contain other data fields instead of **recurrenceRule** and **recurrenceException**, assign their names to the [recurrenceRuleExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#recurrenceRuleExpr) and [recurrenceExceptionExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#recurrenceExceptionExpr) options of the **Scheduler** instead. 
 
-    <!--JavaScript-->var recurringAppointments = [{
+---
+
+##### jQuery
+
+    <!--JavaScript-->var recurringAppointments = [{ 
         // ...
         rule: "FREQ=DAILY",
         exception: "20160526T090000, 20160528T090000"
@@ -40,6 +44,26 @@ If your appointments contain other data fields instead of **recurrenceRule** and
             recurrenceExceptionExpr: "exception"
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="recurringAppointments"
+        recurrenceRuleExpr="rule"
+        recurrenceExceptionExpr="exception">
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  {
+        recurringAppointments = [{ 
+            // ...
+            rule: "FREQ=DAILY",
+            exception: "20160526T090000, 20160528T090000"
+        }];
+    }
+    
+---
 
 In the UI, to mark an appointment as recurring, toggle the *"Repeat"* switcher on the appointment details form. Then, a set of new fields will appear. 
 

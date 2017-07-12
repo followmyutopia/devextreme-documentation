@@ -5,6 +5,10 @@ DevExtreme provides the [CustomStore](/Documentation/ApiReference/Data_Layer/Cus
 
 You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. Note that instead of declaring the **CustomStore** explicitly, you can specify its members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object.
 
+---
+
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#schedulerContainer").dxScheduler({
             dataSource: new DevExpress.data.DataSource({
@@ -15,6 +19,34 @@ You need to configure the **CustomStore** in detail for accessing a server built
             })
         });
     });
+    
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule } from '@angular/http';
+    import DataSource from 'devextreme/data/data_source';
+    import CustomStore from 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent  {
+        schedulerDataSource: any = {};
+        constructor(@Inject(Http) http: Http) {
+            this.schedulerDataSource = new DataSource({
+                loadMode: "raw",   
+                load: function () {
+                    return http.get('https://mydomain.com/MyDataService').toPromise();
+                }
+            })
+        }
+    }
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="schedulerDataSource">
+    </dx-scheduler>
+
+---
 
 In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function. In case of the **Scheduler**, the only relevant setting is **filter**, which is passed when the **Scheduler**'s [remoteFiltering](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#remoteFiltering) option is set to **true**:
 
@@ -50,6 +82,10 @@ After receiving this setting, the server should apply it to data and send back a
     }
 
 If the **Scheduler** allows a user to add, delete or update appointments, the **CustomStore** must implement the [insert](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#insert), [remove](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#remove) and [update](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#update) operations as well. Here is a generalized configuration of the **CustomStore** for the **Scheduler** widget.
+
+---
+
+#####jQuery
 
     var schedulerDataSource = new DevExpress.data.DataSource({
         load: function (loadOptions) {
@@ -91,6 +127,56 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
         });
     });
 
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import DataSource from 'devextreme/data/data_source';
+    import CustomStore from 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent {
+        schedulerDataSource: any = {};
+        constructor(@Inject(Http) http: Http) {
+            this.schedulerDataSource = new DataSource({
+                load: function (loadOptions) {
+                    let params: URLSearchParams = new URLSearchParams();
+                    params.set("filter", loadOptions.filter); 
+                    return http.get('http://mydomain.com/MyDataService' + {
+                                    search: params
+                                })
+                                .toPromise()
+                                .then(response => {
+                                    var json = response.json();
+                                    // You can process the received data here
+                                    return json.items
+                                });
+                },
+                insert: function (values) {
+                    return http.post('http://mydomain.com/MyDataService', values)
+                               .toPromise();
+                },
+                remove: function (key) {
+                    return http.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
+                               .toPromise();
+                },
+                update: function (key, values) {
+                    return http.put('http://mydomain.com/MyDataService' + encodeURIComponent(key), values)
+                               .toPromise();
+                }
+            });
+        }
+    }
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="schedulerDataSource"
+        [remoteFiltering]="true">
+    </dx-scheduler>
+
+---
+
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/GoogleCalendarIntegration/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
@@ -100,6 +186,3 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
 - [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
 
 [tags]scheduler, data binding, provide data, custom data source, CustomStore, DataSource, load, delete, add, update, remote filtering
-
-
-

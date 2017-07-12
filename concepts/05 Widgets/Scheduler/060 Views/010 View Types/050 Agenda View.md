@@ -4,9 +4,13 @@ The **agenda** view lists all available appointments grouped by date. This view 
 
 By default, the **agenda** view displays appointments for seven dates at a time from the [currentDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentDate) onward. To change the number of dates, specify the [agendaDuration](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#agendaDuration) option. For details on individual views customization, see [this topic](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/).
 
+---
+
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
-        $("#schedulerContainer").dxScheduler({
+        $("#schedulerContainer").dxScheduler({ 
             // ...
             views: [{
                 type: "agenda",
@@ -14,6 +18,24 @@ By default, the **agenda** view displays appointments for seven dates at a time 
             }]
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-scheduler ...
+        [views]="agendaView">
+    </dx-sxheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  { 
+        // ...
+        agendaView = [{
+            type: "agenda",
+            agendaDuration: 5
+        }];
+    }
+
+---
 
 If you [group appointmetns by resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/), the resource headers are located at the left side of the date scale. 
 

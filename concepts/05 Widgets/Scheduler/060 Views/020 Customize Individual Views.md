@@ -20,15 +20,10 @@ The following code defines three views: the first is not customized, the second 
     // ...
     ];
 
-    var resources = [{
-        text: "Samantha Bright",
-        id: 1,
-        color: "#cb6bb2"
-    }, {
-        text: "John Heart",
-        id: 2,
-        color: "#56ca85"
-    }];
+    var resources = [
+        { text: "Samantha Bright", id: 1, color: "#cb6bb2" },
+        { text: "John Heart", id: 2, color: "#56ca85" }
+    ];
 
     $(function(){
         $("#schedulerContainer").dxScheduler({
@@ -46,12 +41,52 @@ The following code defines three views: the first is not customized, the second 
                 type: "workWeek",
                 groups: ["ownerId"]
             }],
-            resources: [{
-                fieldExpr: "ownerId",
-                dataSource: resources
-            }]
+            resources: [{ fieldExpr: "ownerId", dataSource: resources }]
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="schedulerData"
+        [currentDate]="currentDate"
+        [views]="views"
+        [resources]="resources">
+        <div *dxTemplate="let appointment of 'timeCellTemplate'">
+            <i style="color: green">{{appointment.text}}</i>
+        </div>
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        schedulerData = [{
+            text: "Google AdWords Strategy",
+            ownerId: [2],
+            startDate: new Date(2016, 1, 1, 9, 0),
+            endDate: new Date(2016, 1, 1, 10, 30)
+        }, {
+            text: "New Brochures",
+            ownerId: [1],
+            startDate: new Date(2016, 1, 1, 11, 30),
+            endDate: new Date(2016, 1, 1, 14, 15)
+        }, 
+        // ...
+        ];
+        currentDate = new Date(2016, 1, 1);
+        views = [
+            "month", 
+            { type: "day", cellDuration: 60, timeCellTemplate: 'timeCellTemplate' }, 
+            { type: "workWeek", groups: ["ownerId"] }
+        ];
+        resources = [{
+            fieldExpr: "ownerId",
+            dataSource: [
+                { text: "Samantha Bright", id: 1, color: "#cb6bb2" },
+                { text: "John Heart", id: 2, color: "#56ca85" }
+            ]
+        }];
+    }
 
 #####**AngularJS**
 
@@ -60,25 +95,18 @@ The following code defines three views: the first is not customized, the second 
         <div dx-scheduler="{
             dataSource: data,
             currentDate: currentDate,
-            views: ['month', {
-                type: 'day',
-                cellDuration: 60,
-                timeCellTemplate: 'timeCellTemplate'
-            }, {
-                type: 'workWeek',
-                groups: ['ownerId']
-            }],
-            resources: [{
-                fieldExpr: 'ownerId',
-                dataSource: resources
-            }]
+            views: [
+                "month", 
+                { type: "day", cellDuration: 60, timeCellTemplate: 'timeCellTemplate' }, 
+                { type: "workWeek", groups: ["ownerId"] }
+            ],
+            resources: [{ fieldExpr: 'ownerId', dataSource: resources }]
         }" dx-item-alias='item'>
             <div data-options="dxTemplate: { name: 'timeCellTemplate' }">
-                <i style="color: green">{{ item.text }}</i>
+                <i style="color: green">{{item.text}}</i>
             </div>
         </div>
     </div>
-
 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
@@ -97,13 +125,11 @@ The following code defines three views: the first is not customized, the second 
             // ...
             ];
             $scope.resources = [{
-                text: "Samantha Bright",
-                id: 1,
-                color: "#cb6bb2"
-            }, {
-                text: "John Heart",
-                id: 2,
-                color: "#56ca85"
+                fieldExpr: "ownerId",
+                dataSource: [
+                    { text: "Samantha Bright", id: 1, color: "#cb6bb2" },
+                    { text: "John Heart", id: 2, color: "#56ca85" }
+                ]
             }];
             $scope.currentDate = new Date(2016, 1, 1);
         });
@@ -114,18 +140,12 @@ The following code defines three views: the first is not customized, the second 
     <div data-bind="dxScheduler: {
         dataSource: data,
         currentDate: currentDate,
-        views: ['month', {
-            type: 'day',
-            cellDuration: 60,
-            timeCellTemplate: 'timeCellTemplate'
-        }, {
-            type: 'workWeek',
-            groups: ['ownerId']
-        }],
-        resources: [{
-            fieldExpr: 'ownerId',
-            dataSource: resources
-        }]
+        views: [
+            "month", 
+            { type: "day", cellDuration: 60, timeCellTemplate: 'timeCellTemplate' }, 
+            { type: "workWeek", groups: ["ownerId"] }
+        ],
+        resources: [{ fieldExpr: 'ownerId', dataSource: resources }]
     }">
         <div data-options="dxTemplate: { name: 'timeCellTemplate' }">
             <i style="color: green" data-bind="text: text"></i>
@@ -148,13 +168,11 @@ The following code defines three views: the first is not customized, the second 
         // ...
         ],
         resources: [{
-            text: "Samantha Bright",
-            id: 1,
-            color: "#cb6bb2"
-        }, {
-            text: "John Heart",
-            id: 2,
-            color: "#56ca85"
+            fieldExpr: "ownerId",
+            dataSource: [
+                { text: "Samantha Bright", id: 1, color: "#cb6bb2" },
+                { text: "John Heart", id: 2, color: "#56ca85" }
+            ]
         }],
         currentDate: new Date(2016, 4, 24)
     };

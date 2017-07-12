@@ -4,6 +4,10 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
 
 The following code adds the **Scheduler** widget to your page. The simplest configuration requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataSource) to be specified. In addition, you can define a date that should be displayed by default using the [currentDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentDate) option.
 
+---
+
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#schedulerContainer").dxScheduler({
@@ -15,12 +19,40 @@ The following code adds the **Scheduler** widget to your page. The simplest conf
                 text: "Book Flights to San Fran for Sales Trip",
                 startDate: new Date(2016, 4, 25, 12, 0),
                 endDate: new Date(2016, 4, 25, 13, 0)
-            },
+            }, 
             // ...
             ],
             currentDate: new Date(2016, 4, 25)
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="appointments"
+        [currentDate]="currentDate">
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent  {
+        appointments = [{
+            text: "Website Re-Design Plan",
+            startDate: new Date(2016, 4, 25, 1, 30),
+            endDate: new Date(2016, 4, 25, 3, 30)
+        }, {
+            text: "Book Flights to San Fran for Sales Trip",
+            startDate: new Date(2016, 4, 25, 9, 0),
+            endDate: new Date(2016, 4, 25, 10, 0)
+        }, 
+        // ...
+        ];
+        currentDate = new Date(2016, 4, 25);
+    }
+
+---
 
 Each data source object represents an appointment to be scheduled and has a special structure. This structure should be similar to the [Default Appointment Template](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/). Note that the fields listed below should be present in every appointment.
 
@@ -46,6 +78,10 @@ If your appointments have a different structure, specify:
 
 <!---->
 
+---
+
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#schedulerContainer").dxScheduler({
@@ -57,7 +93,7 @@ If your appointments have a different structure, specify:
                 subject: 'Discuss results', 
                 from: new Date(2016, 5, 11, 12, 0), 
                 to: new Date(2016, 4, 11, 13, 0) 
-            },
+            }, 
             // ...
             ],
             textExpr: "subject",
@@ -65,6 +101,37 @@ If your appointments have a different structure, specify:
             endDateExpr: "to"
         });
     });    
+
+#####Angular
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="appointments"
+        textExpr="subject"
+        startDateExpr="from"
+        endDateExpr="to"
+        [currentDate]="currentDate">
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent  {
+        appointments = [{ 
+            subject: 'Meet with a customer', 
+            from: new Date(2016, 4, 25, 1, 0), 
+            to: new Date(2016, 4, 25, 3, 0) 
+        }, { 
+            subject: 'Discuss results', 
+            from: new Date(2016, 5, 25, 9, 0), 
+            to: new Date(2016, 4, 25, 10, 0) 
+        }, 
+        // ...
+        ];
+        currentDate = new Date(2016, 4, 25);
+    }
+
+---
 
 #####See Also#####
 - [Scheduler - Data Binding](/Documentation/Guide/Widgets/Scheduler/Data_Binding/)

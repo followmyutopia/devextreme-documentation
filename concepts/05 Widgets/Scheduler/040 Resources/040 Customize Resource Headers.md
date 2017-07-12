@@ -1,8 +1,46 @@
 For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define custom templates for resource headers.
 
-**AngularJS**
+---
 
-    <!--HTML--><div ng-controller="DemoController">
+#####Angular
+
+    <!--HTML-->
+    <dx-scheduler 
+        [dataSource]="schedulerData"
+        [currentDate]="currentDate"
+        [groups]="['roomId']"
+        resourceCellTemplate="headerTemplate">
+        <dxi-resource
+            fieldExpr="roomId"
+            [dataSource]="rooms" >
+        </dxi-resource>
+        <div *dxTemplate="let appointment of 'headerTemplate'">
+            <i style="color: blue">{{appointment.text}}</i>
+        </div>
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        schedulerData = [{ 
+            text: "Meeting",
+            startDate: new Date(2016, 4, 24, 9, 10),
+            endDate: new Date(2016, 4, 24, 11, 20),
+            roomId: 1
+        }, 
+        // ...
+        ];
+        rooms = [
+            { id: 1, text: 'Room101', color: 'green' },
+            { id: 2, text: 'Room102', color: 'red' },
+            // ...
+        ];
+        currentDate = new Date(2016, 4, 24);
+    }
+
+#####**AngularJS**
+
+    <!--HTML-->
+    <div ng-controller="DemoController">
         <div dx-scheduler="{
             dataSource: schedulerData,
             currentDate: currentDate,
@@ -11,7 +49,7 @@ For AngularJS and Knockout apps, DevExtreme provides a markup component called [
             resourceCellTemplate: 'header'
         }" dx-item-alias="item">
             <div data-options="dxTemplate: { name: 'header' }">
-                <i style="color: blue">{{ item.text }}</i>
+                <i style="color: blue">{{item.text}}</i>
             </div>
         </div>
     </div>
@@ -39,7 +77,7 @@ For AngularJS and Knockout apps, DevExtreme provides a markup component called [
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-**Knockout**
+#####**Knockout**
 
     <!--HTML--><div data-bind="dxScheduler: {
         dataSource: schedulerData,
@@ -75,6 +113,8 @@ For AngularJS and Knockout apps, DevExtreme provides a markup component called [
 
     ko.applyBindings(viewModel);
 
+---
+
 If you use jQuery alone, combine the HTML markup for resource headers manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [resourceCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#resourceCellTemplate) callback function as shown in the following code.
 
     <!--JavaScript-->var schedulerData = [{
@@ -82,7 +122,7 @@ If you use jQuery alone, combine the HTML markup for resource headers manually w
         startDate: new Date(2016, 4, 24, 9, 10),
         endDate: new Date(2016, 4, 24, 11, 20),
         roomId: 1
-    },
+    }, 
     // ...
     ];
     var roomResource = { 

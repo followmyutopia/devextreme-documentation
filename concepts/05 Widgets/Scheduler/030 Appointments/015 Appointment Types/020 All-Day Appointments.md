@@ -13,6 +13,9 @@ An object defining an all-day appointment should have the [allDay](/Documentatio
 
 If appointments in your data source omit the **allDay** field, but have another field instead, assign its name to the [allDayExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#allDayExpr) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     var allDayAppointments = [{
         text: "Fix bugs",
@@ -26,6 +29,25 @@ If appointments in your data source omit the **allDay** field, but have another 
             allDayExpr: "long"
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="allDayAppointments"
+        allDayExpr="long">
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  {
+        allDayAppointments = [{
+            text: "Fix bugs",
+            startDate: new Date(2016, 4, 10),
+            long: true
+        }];
+    }
+
+---
 
 [note]For all-day appointments, the **Scheduler** ignores the time component of **startDate** and **endDate**.
 

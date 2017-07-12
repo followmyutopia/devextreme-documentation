@@ -16,6 +16,10 @@ Specifies the [resource kinds](/Documentation/Guide/Widgets/Scheduler/Resources/
 <!--fullDescription-->
 The array elements should be strings specifying the **field** field of the resource kind objects.
 
+---
+
+#####jQuery
+
     <!--JavaScript-->var resources = [
         { field: 'room', dataSource: roomsDataSource },
         { field: 'teacher', dataSource: teachersDataSource }
@@ -26,6 +30,26 @@ The array elements should be strings specifying the **field** field of the resou
         groups: ['room', 'teacher']
         //...
     }
+
+#####Angular
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="appointments"
+        [resources]="resources"
+        [groups]="['room', 'teacher']">
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  {
+        // ...
+        resources = [
+            { field: 'room', dataSource: this.roomsDataSource },
+            { field: 'teacher', dataSource: this.teachersDataSource }
+        ];
+    }
+    
+---
 
 To group appointments by resources of one kind, for instance to group appointments that use particular rooms in an office, assign an array with a single element to the **groups** option. To group appointments by several resource kinds, assign an array of elements. Each element will represent a resource by which appointments will be grouped. Each resource will be nested to the resource represented by the previous element in the **groups** array.
 

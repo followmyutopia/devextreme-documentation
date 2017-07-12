@@ -12,10 +12,23 @@ To add an appointment, a user follows the steps listed below.
 
 To prevent an end user from adding an appointment, set the **editing** | [allowAdding](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/editing/#allowAdding) option to *false*.
 
+---
+
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
-        $("#schedulerContainer").dxScheduler({
+        $("#schedulerContainer").dxScheduler({ 
             // ...
             editing: { allowAdding: false }
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-scheduler ... >
+        <dxo-editing [allowAdding]="false"></dxo-editing>
+    </dx-scheduler>
+
+---

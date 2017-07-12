@@ -1,5 +1,9 @@
 To execute certain commands before or after an appointment was updated, handle the [appointmentUpdating](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentUpdating) or [appointmentUpdated](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentUpdated) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option when you configure the widget.
 
+---
+
+##### jQuery
+
     <!--JavaScript-->$(function () {
         $("#schedulerContainer").dxScheduler({
             // ...
@@ -12,7 +16,28 @@ To execute certain commands before or after an appointment was updated, handle t
         });
     });
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxScheduler/Methods/#oneventName_eventHandler) method.
+##### Angular
+
+    <!--HTML-->
+    <dx-scheduler ...
+        (onAppointmentUpdating)="onAppointmentUpdating($event)"
+        (onAppointmentUpdated)="onAppointmentUpdated($event)">
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        onAppointmentUpdating (e) {
+            // Handler of the "appointmentUpdating" event
+        }
+
+        onAppointmentUpdated (e) {
+            // Handler of the "appointmentUpdated" event
+        }
+    }
+
+---
+
+If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxScheduler/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var updatedEventHandler1 = function (e) {

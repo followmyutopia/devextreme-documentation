@@ -1,5 +1,8 @@
 If you want to extend the functionality of a JavaScript array, place it into the [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/). It provides an interface for loading and editing data and allows you to handle data-related events.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#schedulerContainer").dxScheduler({
             dataSource: new DevExpress.data.ArrayStore({
@@ -11,7 +14,32 @@ If you want to extend the functionality of a JavaScript array, place it into the
         });
     });
 
+##### Angular
+
+    <!--TypeScript-->
+    import ArrayStore from 'devextreme/data/array_store';
+    // ...
+    export class AppComponent {
+        appointments = [ /* ... */ ];
+        appointmentStore = new ArrayStore({
+            data: this.appointments,
+            onLoaded: function () {
+                // Event handling commands go here
+            }
+        });
+    }
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="appointmentStore">
+    </dx-scheduler>
+
+---
+
 Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Its purpose is similar to that of the [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept), but the **DataSource** provides wider capabilities. For example, the **DataSource** can map objects from the array that underlies the **ArrayStore** as shown in the following code.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     var appointments = [{ 
@@ -19,8 +47,7 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
         employee: "Mary Watson",
         from: new Date(2016, 4, 10, 11, 0), 
         to: new Date(2016, 4, 10, 13, 0) 
-    },
-    // ...
+    }, // ...
     ];
     
     $(function() {
@@ -37,6 +64,41 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
             })
         });
     });
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from 'devextreme/data/data_source';
+    // ...
+    export class AppComponent {
+        appointments = [{ 
+            desc: 'Meet with a customer', 
+            employee: "Mary Watson",
+            from: new Date(2016, 4, 10, 11, 0), 
+            to: new Date(2016, 4, 10, 13, 0) 
+        }, 
+        // ...
+        ];
+        appointmentDataSource = new DataSource({
+            store: this.appointments,
+            map: function (item) {
+                return {
+                    text: item.employee + " : " + item.desc,
+                    startDate: item.from,
+                    endDate: item.to
+                }   
+            }
+        });
+    }
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="appointmentDataSource">
+    </dx-scheduler>
+
+
+
+---
 
 #####See Also#####
 - [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores)

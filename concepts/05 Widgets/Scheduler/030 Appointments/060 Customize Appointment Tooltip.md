@@ -1,6 +1,34 @@
-When a user clicks an appointment, the **Scheduler** shows a tooltip that can be customized. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for tooltips.
+When a user clicks an appointment, the **Scheduler** shows a tooltip that can be customized. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for tooltips.
 
 ---
+
+##### Angular
+
+    <!--HTML-->
+    <dx-scheduler 
+        [dataSource]="schedulerData"
+        appointmentTooltipTemplate="tooltipTemplate"
+        [currentDate]="currentDate">
+        <div *dxTemplate="let item of 'tooltipTemplate'">
+            <i>{{item.text}} ({{item.year}})</i>
+            <p><img src="{{item.img}}" style="height: 80px"></p>
+        </div>
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  {
+        schedulerData = [{
+            text: "His Girl Friday",
+            year: 1940,
+            img: "images/movies/HisGirlFriday.jpg",
+            startDate: new Date(2016, 4, 24, 9, 10),
+            endDate: new Date(2016, 4, 24, 11, 20)
+        }, 
+        // ...
+        ];
+        currentDate = new Date(2016, 4, 24);
+    }
+
 #####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
@@ -11,8 +39,8 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
         }" dx-item-alias="item">
             <div data-options="dxTemplate: { name: 'tooltip' }">
                 <div style="height: 100px">
-                    <i>{{ item.text }} ({{ item.year }})</i>
-                    <p><img src="{{ item.img }}" style="height: 80px"></p>
+                    <i>{{item.text}} ({{item.year}})</i>
+                    <p><img src="{{item.img}}" style="height: 80px"></p>
                 </div>
             </div>
         </div>
@@ -72,7 +100,7 @@ If you use only jQuery, combine HTML markup for tooltips manually with jQuery [D
         img: "images/movies/HisGirlFriday.jpg",
         startDate: new Date(2016, 4, 24, 9, 10),
         endDate: new Date(2016, 4, 24, 11, 20)
-    },
+    }, 
     // ...
     ];
 

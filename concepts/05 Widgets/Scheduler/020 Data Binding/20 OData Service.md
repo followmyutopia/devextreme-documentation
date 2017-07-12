@@ -1,5 +1,8 @@
 To bind the **Scheduler** to data provided by an OData service, use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/). It presents an interface for loading and editing data and allows you to handle data-related events.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#schedulerContainer").dxScheduler({
             dataSource: new DevExpress.data.ODataStore({
@@ -7,14 +10,35 @@ To bind the **Scheduler** to data provided by an OData service, use the [ODataSt
                 onLoaded: function () {
                     // Event handling commands go here
                 }
-            }),
-            startDateExpr: "startDateField",
-            endDateExpr: "endDateField",
-            textExpr: "textField"
+            })
         });
     });
 
+##### Angular
+
+    <!--TypeScript-->
+    import 'devextreme/data/odata/store';
+    // ...
+    export class AppComponent {
+        appointmentStore = new ODataStore({
+            url: "http://url/to/odata/service",
+            onLoaded: function () {
+                // Event handling commands go here
+            }
+        });
+    }
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="appointmentStore">
+    </dx-scheduler>
+
+---
+
 Data kept in the **ODataStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). For example, the **DataSource** can filter data.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#schedulerContainer").dxScheduler({
@@ -25,10 +49,33 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
                 },
                 filter: ["Not_Assigned", "=", true],
                 paginate: false
-            }),
-            // ...
+            })
         });
     });
+
+##### Angular
+
+    <!--TypeScript-->
+    import 'devextreme/data/odata/store';
+    import DataSource from 'devextreme/data/data_source';
+    // ...
+    export class AppComponent {
+        appointmentDataSource = new DataSource({
+            store: {
+                type: "odata",
+                url: "http://url/to/odata/service",
+            },
+            filter: ["Not_Assigned", "=", true],
+            paginate: false
+        });
+    }
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="appointmentDataSource">
+    </dx-scheduler>
+
+---
 
 [note]If you define the **ODataStore** within the **DataSource**, set the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to *false*. This is needed to prevent data from being partitioned as the **Scheduler** does not support paging.
 

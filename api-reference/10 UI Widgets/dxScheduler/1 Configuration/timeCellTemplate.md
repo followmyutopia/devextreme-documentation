@@ -16,22 +16,39 @@ The template to be used for rendering time scale items.
 <!--fullDescription-->
 A binding context of a time template is the object that corresponds to the currently rendered item of the time scale.
 
-So, in the **Knockout approach**, you can bind template elements to the time scale item fields. To access another binding context within a template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+---
 
-In the **AngularJS approach**, if you need to access time scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, the fields of time scale item are unavailable. To access another binding context within a time scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+#####Angular
 
-#####AngularJS Approach#####
+Use a variable that is declared in the template via the `let` keyword to access time scale item fields in **Angular** apps.
 
     <!--HTML-->
-    <div dx-scheduler="{
-        dataSource: schedulerData,
-        currentDate: currentDate,
+    <dx-scheduler ...
+        timeCellTemplate="timeCellTemplate">
+        <div *dxTemplate="let time of 'timeCellTemplate'">
+            <div class="time">{{time.text}}</div>
+        </div>
+    </div>
+
+#####AngularJS#####
+
+In the **AngularJS** apps, if you need to access time scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, the fields of time scale item are unavailable. To access another binding context within a time scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+
+    <!--HTML-->
+    <div dx-scheduler="{ 
+        ...
         timeCellTemplate: 'timeTemplate'
     }" dx-item-alias="item">
         <div data-options="dxTemplate: {name: 'timeTemplate'}">
-            <div class="time">{{ item.text }}</div>
+            <div class="time">{{item.text}}</div>
         </div>
     </div>
+
+#####Knockout
+
+In the **Knockout** apps, you can bind template elements to the time scale item fields. To access another binding context within a template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+
+---
 
 [note]There is no **timeCellTemplate** in such views as 'month', 'timelineMonth' and 'agenda'.
 

@@ -1,5 +1,9 @@
 The **Scheduler** widget allows you to customize its timetable: to specify the time period for it and the duration of a single cell. For this purpose, use the [startDayHour](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#startDayHour), [endDayHour](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#endDayHour) and [cellDuration](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#cellDuration) options. Using the [firstDayOfWeek](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#firstDayOfWeek) option, you can define the day of the week that will be shown first.
 
+---
+
+#####jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#schedulerContainer").dxScheduler({
@@ -11,7 +15,7 @@ The **Scheduler** widget allows you to customize its timetable: to specify the t
                 text: "Book Flights to San Fran for Sales Trip",
                 startDate: new Date(2016, 4, 25, 12, 0),
                 endDate: new Date(2016, 4, 25, 13, 0)
-            },
+            }, 
             // ...
             ],
             currentDate: new Date(2016, 4, 25),
@@ -22,9 +26,79 @@ The **Scheduler** widget allows you to customize its timetable: to specify the t
         });
     });
 
-In addition, you can define custom templates for cells, time scales and date scales. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for timetable parts.
+#####Angular
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="schedulerData"
+        [currentDate]="currentDate"
+        [startDayHour]="8"
+        [endDayHour]="19"
+        [cellDuration]="60"
+        [firstDayOfWeek]="1">
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  {
+        schedulerData = [{
+            text: "Website Re-Design Plan",
+            startDate: new Date(2016, 4, 25, 9, 30),
+            endDate: new Date(2016, 4, 25, 11, 30)
+        }, {
+            text: "Book Flights to San Fran for Sales Trip",
+            startDate: new Date(2016, 4, 25, 12, 0),
+            endDate: new Date(2016, 4, 25, 13, 0)
+        }, 
+        // ...
+        ];
+        currentDate = new Date(2016, 4, 25);
+    }
 
 ---
+
+In addition, you can define custom templates for cells, time scales and date scales. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for timetable parts.
+
+---
+
+#####Angular
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="schedulerData"
+        [currentDate]="currentDate"
+        [showAllDayPanel]="false"
+        currentView="week"
+        dataCellTemplate="dataCellTemplate"
+        dateCellTemplate="dateCellTemplate"
+        timeCellTemplate="timeCellTemplate">
+        <div *dxTemplate="let data of 'dataCellTemplate'">
+            <div style="width: 100%; height: 40px; background-color: rgba(86, 202, 133, 0.1);"></div>
+        </div>
+        <div *dxTemplate="let date of 'dateCellTemplate'">
+            <b style="color: green">{{date.text}}</b>
+        </div>
+        <div *dxTemplate="let time of 'timeCellTemplate'">
+            <i style="color: green">{{time.text}}</i>
+        </div>
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  {
+        schedulerData = [{
+            text: "His Girl Friday",
+            startDate: new Date(2016, 4, 24, 9, 10),
+            endDate: new Date(2016, 4, 24, 11, 20)
+        }, {
+            text: "Royal Wedding",
+            startDate: new Date(2016, 4, 24, 10, 5),
+            endDate: new Date(2016, 4, 24, 11, 30)
+        }, 
+        // ...
+        ];
+        currentDate = new Date(2016, 4, 24);
+    }
+
+
 #####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
@@ -32,7 +106,7 @@ In addition, you can define custom templates for cells, time scales and date sca
             dataSource: schedulerData,
             currentDate: currentDate,
             showAllDayPanel: false,
-            currentView: ['week'],
+            currentView: 'week',
             dataCellTemplate: 'dataCellTemplate',
             dateCellTemplate: 'dateCellTemplate',
             timeCellTemplate: 'timeCellTemplate'
@@ -41,10 +115,10 @@ In addition, you can define custom templates for cells, time scales and date sca
                 <div style="width: 100%; height: 40px; background-color: rgba(86, 202, 133, 0.1);"></div>
             </div>
             <div data-options="dxTemplate: { name: 'dateCellTemplate' }">
-                <b style="color: green">{{ item.text }}</b>
+                <b style="color: green">{{item.text}}</b>
             </div>
             <div data-options="dxTemplate: { name: 'timeCellTemplate' }">
-                <i style="color: green">{{ item.text }}</i>
+                <i style="color: green">{{item.text}}</i>
             </div>
         </div>
     </div>
@@ -59,7 +133,7 @@ In addition, you can define custom templates for cells, time scales and date sca
                 text: "Royal Wedding",
                 startDate: new Date(2016, 4, 24, 10, 05),
                 endDate: new Date(2016, 4, 24, 11, 30)
-            },
+            }, 
             // ...
             ];
             $scope.currentDate = new Date(2016, 4, 24); 
@@ -73,7 +147,7 @@ In addition, you can define custom templates for cells, time scales and date sca
         dataSource: schedulerData,
         currentDate: currentDate,
         showAllDayPanel: false,
-        currentView: ['week'],
+        currentView: 'week',
         dataCellTemplate: 'dataCellTemplate',
         dateCellTemplate: 'dateCellTemplate',
         timeCellTemplate: 'timeCellTemplate'
@@ -100,7 +174,7 @@ In addition, you can define custom templates for cells, time scales and date sca
             price: 10,
             startDate: new Date(2016, 4, 24, 10, 05),
             endDate: new Date(2016, 4, 24, 11, 30)
-        },
+        }, 
         // ...
         ],
         currentDate: new Date(2016, 4, 24)
@@ -120,7 +194,7 @@ If you use jQuery alone, combine the HTML markup for cells, time scales and date
         text: "Royal Wedding",
         startDate: new Date(2016, 4, 24, 10, 05),
         endDate: new Date(2016, 4, 24, 11, 30)
-    },
+    }, 
     // ...
     ];
 
@@ -129,7 +203,7 @@ If you use jQuery alone, combine the HTML markup for cells, time scales and date
             dataSource: schedulerData,
             currentDate: new Date(2016, 4, 24),
             showAllDayPanel: false,
-            currentView: ['week'],
+            currentView: 'week',
             dataCellTemplate: function(data, index, element) {
                 return $("<div />")
                             .css('width', '100%')

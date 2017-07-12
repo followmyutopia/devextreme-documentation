@@ -16,45 +16,63 @@ The template to be used for rendering appointments.
 <!--fullDescription-->
 A binding context of an appointment template is the data source object that corresponds to the currently rendered appointment.
 
-So, in **Knockout approach**, you can bind template elements to the appointment object fields. To access another binding context within an appointment template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+---
 
-In **AngularJS approach**, if you need to access appointment object fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+#####Angular#####
 
-#####AngularJS Approach#####
+Use a variable that is declared in the template via the `let` keyword to access appointment object fields in **Angular** apps. 
+
+    <!--HTML-->
+    <dx-scheduler ...
+        [views]="views">
+        <div *dxTemplate="let appointment of 'appointmentTemplate'">
+            <div class="appointment-header">{{appointment.text}}</div>
+            <div class="appointment-time">{{appointment.startDate}} - {{appointment.endDate}}</div>
+        </div>
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  { 
+        // ...
+        views = [
+            "day",
+            { type: "workWeek", appointmentTemplate: "appointmentTemplate" }
+        ];
+    }
+
+
+#####AngularJS#####
+
+In **AngularJS** apps, if you need to access appointment object fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
 
     <!--HTML-->
     <div ng-controller="DemoController">
-        <div dx-scheduler="{
-            dataSource: schedulerData,
-            currentDate: currentDate,
+        <div dx-scheduler="{ 
+            ...
             views: views
         }" dx-item-alias="appItem">
             <div data-options="dxTemplate: { name: 'appointmentTemplate' }" style="padding: 0;">
-                <div class="appointment-header">{{ appItem.text }}</div>
-                <div class="appointment-time">{{ appItem.startDate }} - {{ appItem.endDate }}</div>
+                <div class="appointment-header">{{appItem.text}}</div>
+                <div class="appointment-time">{{appItem.startDate}} - {{appItem.endDate}}</div>
             </div>
         </div>
     </div>
 
     <!--JavaScript-->
-    var appointements = [{
-        text: "Website Re-Design Plan",
-        priorityId: 2,
-        startDate: new Date(2015, 4, 25, 9, 0),
-        endDate: new Date(2015, 4, 25, 11, 30)
-    },
-    // . . .
-    ];
-
     var DemoApp = angular.module('DemoApp', ['dx']);
     DemoApp.controller('DemoController', function DemoController($scope) {
-        $scope.currentDate: new Date(2015, 4, 25);
-        $scope.schedulerData = appointements;
+        // ...
         $scope.views = [
             "day",
             { type: "workWeek", appointmentTemplate: "appointmentTemplate" }
         ];
     });
+
+#####Knockout
+
+In **Knockout** apps, you can bind template elements to the appointment object fields. To access another binding context within an appointment template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+
+---
 
 #####See Also#####
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)

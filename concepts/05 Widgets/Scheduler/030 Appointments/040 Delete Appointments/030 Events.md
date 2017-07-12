@@ -1,8 +1,11 @@
 To execute certain commands before or after an appointment was deleted, handle the [appointmentDeleting](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentDeleting) or [appointmentDeleted](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentDeleted) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option when you configure the widget.
 
+---
+
+##### jQuery
+
     <!--JavaScript-->$(function () {
-        $("#schedulerContainer").dxScheduler({
-            // ...
+        $("#schedulerContainer").dxScheduler({ // ...
             onAppointmentDeleting: function (e) {
                 // Handler of the "appointmentDeleting" event
             },
@@ -12,7 +15,29 @@ To execute certain commands before or after an appointment was deleted, handle t
         });
     });
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxScheduler/Methods/#oneventName_eventHandler) method.
+
+##### Angular
+
+    <!--HTML-->
+    <dx-scheduler ...
+        (onAppointmentDeleting)="onAppointmentDeleting($event)"
+        (onAppointmentDeleted)="onAppointmentDeleted($event)">
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        onAppointmentDeleting (e) {
+            // Handler of the "appointmentDeleting" event
+        }
+
+        onAppointmentDeleted (e) {
+            // Handler of the "appointmentDeleted" event
+        }
+    }
+    
+---
+
+If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxScheduler/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var deletedEventHandler1 = function (e) {

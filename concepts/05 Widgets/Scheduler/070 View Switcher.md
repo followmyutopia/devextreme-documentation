@@ -4,6 +4,10 @@ View switcher is a scheduler element used for quick switching between views.
 
 To specify what views are available within the switcher, use the [views](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/) option.
 
+---
+
+#####jQuery
+
     <!--JavaScript-->
     $(function(){
         $("#schedulerContainer").dxScheduler({
@@ -12,19 +16,41 @@ To specify what views are available within the switcher, use the [views](/Docume
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-scheduler ...
+        [views]="['day', 'week', 'agenda']">
+    </dx-scheduler>
+
+---
+
 On mobile devices, the view switcher is displayed as a drop-down menu. 
 
 ![Drop-down View Switcher](Content/images/doc/17_2/UiWidgets/Scheduler_DropDown_ViewSwitcher.png)
 
 To use the drop-down menu on all types of devices, assign *true* to the [useDropDownViewSwitcher](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#useDropDownViewSwitcher) option; to use tabs - assign *false*.
 
+---
+
+#####jQuery
+
     <!--JavaScript-->
     $(function(){
-        $("#schedulerContainer").dxScheduler({
+        $("#schedulerContainer").dxScheduler({ 
             // ...
             useDropDownViewSwitcher: true
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-scheduler ...
+        [useDropDownViewSwitcher]="true">
+    </dx-scheduler>
+
+---
 
 #####See Also#####
 - [Scheduler - View Types](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/)

@@ -16,59 +16,76 @@ The template to be used for rendering resource headers.
 <!--fullDescription-->
 A binding context of a resource template is the data source object that corresponds to the currently rendered resource header.
 
-So, in the **Knockout approach**, you can bind template elements to the resource object fields. To access another binding context within a resource template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+---
 
-In the **AngularJS approach**, if you need to access resource object fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, the fields of resource object are unavailable. To access another binding context within a resource template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+#####Angular
 
-#####AngularJS Approach#####
+Use a variable that is declared in the template via the `let` keyword to access resource object fields in **Angular** apps. 
+
+    <!--HTML-->
+    <dx-scheduler ...
+        [groups]="['priorityId']"
+        [resources]="resources"
+        resourceCellTemplate="resourceTemplate">
+        <div *dxTemplate="let resource of 'resourceTemplate'">
+            <img [src]="resource.image">
+            <div class="resource-header">{{resource.text}}</div>
+        </div>
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  { 
+        // ...
+        priorityData = [
+            { text: "Low Priority", image: "img1.png", id: 1, color: "#1e90ff" },
+            { text: "High Priority", image: "img2.png", id: 2, color: "#ff9747" }
+        ];
+        resources = [{ 
+            field: "priorityId", 
+            allowMultiple: false, 
+            dataSource: this.priorityData, 
+            label: "Priority" 
+        }];
+    }
+
+#####AngularJS#####
+
+In the **AngularJS** apps, if you need to access resource object fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, the fields of resource object are unavailable. To access another binding context within a resource template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
 
     <!--HTML-->
     <div dx-scheduler="options" dx-item-alias="item">
         <div data-options="dxTemplate: { name: 'resource' }">
-            <img src="{{ item.image }}">
-            <div class="resource-header">{{ item.text }}</div>
+            <img src="{{item.image}}">
+            <div class="resource-header">{{item.text}}</div>
         </div>
     </div>
 
     <!--JavaScript-->
-    var appointements = [{
-        text: "Website Re-Design Plan",
-        priorityId: 2,
-        startDate: new Date(2015, 4, 25, 9, 0),
-        endDate: new Date(2015, 4, 25, 11, 30)
-    },
-    // . . .
+    var priorityData = [
+        { text: "Low Priority", image: "img1.png", id: 1, color: "#1e90ff" },
+        { text: "High Priority", image: "img2.png", id: 2, color: "#ff9747" }
     ];
-
-    var priorityData = [{
-        text: "Low Priority",
-        image: "img1.png",
-        id: 1,
-        color: "#1e90ff"
-    }, {
-        text: "High Priority",
-        image: "img2.png",
-        id: 2,
-        color: "#ff9747"
-    }];
 
     var DemoApp = angular.module('DemoApp', ['dx']);
     DemoApp.controller('DemoController', function DemoController($scope) {
-        $scope.options = {
-            dataSource: appointements,
-            currentDate: new Date(2015, 4, 25),
+        $scope.options = { 
+            // ...
             groups: ["priorityId"],
-            resources: [
-                { 
-                     field: "priorityId", 
-                     allowMultiple: false, 
-                     dataSource: priorityData,
-                     label: "Priority"
-                }
-            ],
+            resources: [{ 
+                field: "priorityId", 
+                allowMultiple: false, 
+                dataSource: priorityData, 
+                label: "Priority" 
+            }],
             resourceCellTemplate: 'resource'
         };
     });
+
+#####Knockout
+
+In the **Knockout** apps, you can bind template elements to the resource object fields. To access another binding context within a resource template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+
+---
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-cell_templates" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

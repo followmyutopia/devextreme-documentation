@@ -1,12 +1,16 @@
 To group appointments by resources, assign an array to the [groups](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#groups) option. Each element of this array is **fieldExpr** of a resource kind. Note that the order of resource headers depends on the order of resources in the [resources](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/) array. 
 
+---
+
+##### jQuery
+
     <!--JavaScript-->
     var appointments = [{ 
         roomId: 1,   
         teacherId: 2,    
         text: "Meeting",
         // ...
-    },
+    }, 
     // ...
     ];
 
@@ -24,6 +28,38 @@ To group appointments by resources, assign an array to the [groups](/Documentati
             //...
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-scheduler 
+        [dataSource]="appointments"
+        [groups]="['roomId', 'teacherId']"> <!-- Groups appointments by rooms and by teachers -->
+        <dxi-resource
+            fieldExpr="roomId"
+            [dataSource]="roomResources">
+        </dxi-resource>
+        <dxi-resource
+            fieldExpr="teacherId"
+            [dataSource]="teacherResources">
+        </dxi-resource>
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  { 
+        // ...
+        appointments = [{ 
+            roomId: 1,   
+            teacherId: 2,    
+            text: "Meeting",
+            // ...
+        }, 
+        // ...
+        ];
+    }
+
+---
+
 
 ![Scheduler Grouping by Resources](/Content/images/doc/17_2/UiWidgets/Scheduler_ResourceGroups.png)
 

@@ -16,23 +16,41 @@ The template to be used for rendering appointments.
 <!--fullDescription-->
 A binding context of an appointment template is the data source object that corresponds to the currently rendered appointment.
 
-So, in **Knockout approach**, you can bind template elements to the appointment object fields. To access another binding context within an appointment template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+---
 
-In **AngularJS approach**, if you need to access appointment object fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment template, use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
+#####Angular#####
+
+Use a variable that is declared in the template via the `let` keyword to access appointment object fields in **Angular** apps. 
+
+    <!--HTML-->
+    <dx-scheduler ...
+        appointmentTemplate="appointmentTemplate">
+        <div *dxTemplate="let appointment of 'appointmentTemplate'">
+            <div class="appointment-header">{{appointment.text}}</div>
+            <div class="appointment-time">{{appointment.startDate}} - {{appointment.endDate}}</div>
+        </div>
+    </dx-scheduler>
 
 #####AngularJS#####
 
+In **AngularJS** apps, if you need to access appointment object fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment template, use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
+
     <!--HTML-->
-    <div dx-scheduler="{
-        dataSource: schedulerData,
-        currentDate: currentDate,
-        appointmentTemplate: 'appointment',
+    <div dx-scheduler="{ 
+        ...
+        appointmentTemplate: 'appointment'
     }" dx-item-alias="appItem">
         <div data-options="dxTemplate: {name: 'appointment'}" style="padding: 0;">
             <div class="appointment-header">{{appItem.text}}</div>
-            <div class="appointment-time">{{appItem.from}} - {{appItem.to}}</div>
+            <div class="appointment-time">{{appItem.startDate}} - {{appItem.endDate}}</div>
         </div>
     </div>
+
+#####Knockout 
+
+In **Knockout** apps, you can bind template elements to the appointment object fields. To access another binding context within an appointment template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

@@ -20,6 +20,7 @@ The simplest widget configuration requires specifying a [dataSource](/Documentat
                     selectionMode: "single",
                     onSelectionChanged: function(arg) {
                         e.component.option("value", arg.addedItems[0]);
+                        e.component.close();
                     } 
                 });
                 return $list;
@@ -27,62 +28,34 @@ The simplest widget configuration requires specifying a [dataSource](/Documentat
         });
     });
 
-#####**AngularJS**
+#####**Angular**
 
     <!--HTML-->
-    <div ng-controller="DemoController">
-        <div dx-drop-down-box="dropDownBoxOptions">
-            <div data-options="dxTemplate: { name: 'content' }">
-                <div dx-list="dropDownBoxOptions.list"></div>
-            </div>
+    <dx-drop-down-box
+        [(value)]="selectedFruit"
+        [(opened)]="isDropDownBoxOpened"
+        [dataSource]="fruits">
+        <div *dxTemplate="let contentData of 'content'">
+            <dx-list 
+                [dataSource]="fruits"
+                selectionMode="single"
+                (onSelectionChanged)="changeDropDownBoxValue($event)">
+            </dx-list>
         </div>
-    </div>
+    </dx-drop-down-box>
 
-    <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function ($scope) {
-            var fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
-            $scope.listBoxValue = fruits[0];
-            $scope.dropDownBoxOptions = {
-                dataSource: fruits,
-                bindingOptions: {
-                    value: 'listBoxValue'
-                },
-                list: {
-                    dataSource: fruits,
-                    selectionMode: "single",
-                    onSelectionChanged: function(arg) {
-                        $scope.listBoxValue = arg.addedItems[0];
-                    } 
-                }
-            }
-        });
-
-#####**Knockout**
-
-    <!--HTML-->
-    <div data-bind="dxDropDownBox: dropDownBoxOptions">
-        <div data-options="dxTemplate: { name: 'content' }">
-            <div data-bind="dxList: dropDownBoxOptions.list"></div>
-        </div>
-    </div>
-
-    <!--JavaScript-->
-    var fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
-    var viewModel = {
-        dropDownBoxOptions: {
-            dataSource: fruits,
-            value: ko.observable(fruits[0]),
-            list: {
-                dataSource: fruits,
-                selectionMode: "single",
-                onSelectionChanged: function(arg) {
-                    viewModel.dropDownBoxOptions.value(arg.addedItems[0]);
-                } 
-            }
+    <!--TypeScript-->
+    import { DxDropDownBoxModule, DxListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+        selectedFruit = this.fruits[0];
+        isDropDownBoxOpened = false;
+        changeDropDownBoxValue = function (args) {
+            this.selectedFruit = args.addedItems[0];
+            this.isDropDownBoxOpened = false;
         }
-    };
-    ko.applyBindings(viewModel);
+    }
 
 ---
 
@@ -95,23 +68,24 @@ If your data is an array of objects, specify:
 
 <!---->
 
+---
+
+#####jQuery
+
     <!--JavaScript-->
     $(function () {
-        var customers = [{
-            id: 1,
-            companyName: "Premier Buy",
-            city: "Dallas",
-            phone: "(233)2123-11"
-        },
-        // ...
+        var customers = [
+            { id: 1, companyName: "Premier Buy", city: "Dallas", phone: "(233)2123-11" }
+            // ...
         ];
+        var selectedValue = customers[0].id;
         $("#dropDownBoxContainer").dxDropDownBox({
-            value: 3,
+            value: selectedValue,
             valueExpr: "id",
             displayExpr: "companyName",
             dataSource: new DevExpress.data.ArrayStore({
                 data: customers,
-                key: "id",
+                key: "id"
             }),
             contentTemplate: function(e){
                 var $dataGrid = $("<div>").dxDataGrid({
@@ -119,17 +93,61 @@ If your data is an array of objects, specify:
                     columns: ["companyName", "city", "phone"],
                     height: 265,
                     selection: { mode: "single" },
-                    selectedRowKeys: [value],
+                    selectedRowKeys: [selectedValue],
                     onSelectionChanged: function(selectedItems){
                         var keys = selectedItems.selectedRowKeys,
                             hasSelection = keys.length;
                         e.component.option("value", hasSelection ? keys[0] : null); 
+                        e.component.close();
                     }
                 });
                 return $dataGrid;
             }
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-drop-down-box
+        [(value)]="selectedCustomers"
+        [(opened)]="isDropDownBoxOpened"
+        valueExpr="id"
+        displayExpr="companyName"
+        [dataSource]="customerDataSource">
+        <div *dxTemplate="let contentData of 'content'">
+            <dx-data-grid 
+                [dataSource]="customerDataSource"
+                [selection]="{ mode: 'single' }"
+                [columns]="['companyName', 'city', 'phone']"
+                [height]="265"
+                [(selectedRowKeys)]="selectedCustomers"
+                (onSelectionChanged)="changeDropDownBoxValue($event)">
+            </dx-data-grid>
+        </div>
+    </dx-drop-down-box>
+
+    <!--TypeScript-->
+    import { DxDropDownBoxModule, DxDataGridModule } from 'devextreme-angular';
+    import ArrayStore from 'devextreme/data/array_store';
+    // ...
+    export class AppComponent  {
+        customers = [
+            { id: 1, companyName: "Premier Buy", city: "Dallas", phone: "(233)2123-11" },
+            // ...
+        ];
+        customerDataSource = new ArrayStore({
+            data: this.customers,
+            key: "id"
+        });
+        selectedCustomers = [this.customers[1].id];
+        isDropDownBoxOpened = false;
+        changeDropDownBoxValue = function (args) {
+            this.isDropDownBoxOpened = false;
+        }
+    }
+
+---
 
 #####See Also#####
 - [DropDownBox - Customize the Appearance](/Documentation/Guide/Widgets/DropDownBox/Customize_the_Appearance/)

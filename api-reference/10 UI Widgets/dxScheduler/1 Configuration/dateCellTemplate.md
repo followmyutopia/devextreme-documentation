@@ -16,22 +16,40 @@ The template used for rendering day scale items.
 <!--fullDescription-->
 A binding context of a date template is an object that corresponds to a currently rendered item of the day scale.
 
-So, in the **Knockout approach**, you can bind template elements to the day scale item fields. To access another binding context within a template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+---
 
-In the **AngularJS approach**, if you need to access day scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, object fields are unavailable. To access another binding context within a date scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+#####Angular
 
-#####AngularJS Approach#####
+Use a variable that is declared in the template via the `let` keyword to access day scale item fields in **Angular** apps. 
 
     <!--HTML-->
-    <div dx-scheduler="{
-        dataSource: schedulerData,
-        currentDate: currentDate,
-        dateCellTemplate: 'dateTemplate',
+    <dx-scheduler ...
+        dateCellTemplate="dateTemplate">
+        <div *dxTemplate="let date of 'dateTemplate'">
+            <div class="date">{{date.text}}</div>
+        </div>
+    </dx-scheduler>
+
+#####AngularJS#####
+
+In the **AngularJS** apps, if you need to access day scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, object fields are unavailable. To access another binding context within a date scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+
+    <!--HTML-->
+    <div dx-scheduler="{ 
+        ...
+        dateCellTemplate: 'dateTemplate'
     }" dx-item-alias="item">
         <div data-options="dxTemplate: {name: 'dateTemplate'}">
-            <div class="date">{{ item.text }}</div>
+            <div class="date">{{item.text}}</div>
         </div>
     </div>
+
+
+#####Knockout
+
+In the **Knockout** apps, you can bind template elements to the day scale item fields. To access another binding context within a template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+
+---
 
 [note]There is no **dateCellTemplate** in such views as 'day' and 'timelineDay'.
 

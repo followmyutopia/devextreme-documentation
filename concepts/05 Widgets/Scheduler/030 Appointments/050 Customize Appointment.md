@@ -1,5 +1,9 @@
 For a minor customization of **Scheduler** appointments, you can use the default appointment template. This template defines the appearance of an appointment depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/) are present or absent in the appointment data object. For example, the following code generates three appointments: the first is not customized, the second is hidden, and the third is disabled.
 
+---
+
+##### jQuery
+
     <!--JavaScript-->var appointments = [{
         text: "Website Re-Design Plan",
         startDate: new Date(2016, 4, 25, 9, 30),
@@ -9,12 +13,9 @@ For a minor customization of **Scheduler** appointments, you can use the default
         startDate: new Date(2016, 4, 25, 12, 0),
         endDate: new Date(2016, 4, 25, 13, 0),
         hidden: true
-    }, {
-        text: "Install New Router in Dev Room",
-        startDate: new Date(2016, 4, 25, 14, 30),
-        endDate: new Date(2016, 4, 25, 15, 30),
-        disabled: true
-    }];
+    }, 
+    // ...
+    ];
 
     $(function () { 
         $("#schedulerContainer").dxScheduler({
@@ -23,9 +24,70 @@ For a minor customization of **Scheduler** appointments, you can use the default
         });
     });
 
-Using the default appointment template is the easiest way to customize an appointment, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for appointments.
+#####Angular
+
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent  {
+        appointments = [{
+            text: "Website Re-Design Plan",
+            startDate: new Date(2016, 4, 25, 9, 30),
+            endDate: new Date(2016, 4, 25, 11, 30)
+        }, {
+            text: "Book Flights to San Fran for Sales Trip",
+            startDate: new Date(2016, 4, 25, 12, 0),
+            endDate: new Date(2016, 4, 25, 13, 0),
+            hidden: true
+        }, 
+        // ...
+        ];
+        currentDate = new Date(2016, 4, 25);
+    }
+
+    <!--HTML-->
+    <dx-scheduler
+        [dataSource]="appointments"
+        [currentDate]="currentDate">
+    </dx-scheduler>
 
 ---
+
+Using the default appointment template is the easiest way to customize an appointment, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for appointments.
+
+---
+
+##### Angular
+
+    <!--HTML-->
+    <dx-scheduler 
+        [dataSource]="schedulerData"
+        appointmentTemplate="appointmentTemplate"
+        [currentDate]="currentDate">
+        <div *dxTemplate="let appointment of 'appointmentTemplate'">
+            <i>{{appointment.movie}}</i>
+            <p>Price: ${{appointment.price}}</p>
+        </div>
+    </dx-scheduler>
+
+    <!--TypeScript-->
+    export class AppComponent  {
+        schedulerData = [{
+            movie: "His Girl Friday",
+            price: 5,
+            startDate: new Date(2016, 4, 24, 9, 10),
+            endDate: new Date(2016, 4, 24, 11, 20)
+        }, {
+            movie: "Royal Wedding",
+            price: 10,
+            startDate: new Date(2016, 4, 24, 10, 5),
+            endDate: new Date(2016, 4, 24, 11, 30)
+        }, 
+        // ...
+        ];
+        currentDate = new Date(2016, 4, 24);
+    }
+
 #####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
@@ -35,8 +97,8 @@ Using the default appointment template is the easiest way to customize an appoin
             currentDate: currentDate,
         }" dx-item-alias="item">
             <div data-options="dxTemplate: { name: 'appointment' }">
-                <i>{{ item.movie }}</i>
-                <p>Price: ${{ item.price }}</p>
+                <i>{{item.movie}}</i>
+                <p>Price: ${{item.price}}</p>
             </div>
         </div>
     </div>
@@ -53,7 +115,7 @@ Using the default appointment template is the easiest way to customize an appoin
                 price: 10,
                 startDate: new Date(2016, 4, 24, 10, 05),
                 endDate: new Date(2016, 4, 24, 11, 30)
-            },
+            }, 
             // ...
             ];
             $scope.currentDate = new Date(2016, 4, 24); 
@@ -85,7 +147,7 @@ Using the default appointment template is the easiest way to customize an appoin
             price: 10,
             startDate: new Date(2016, 4, 24, 10, 05),
             endDate: new Date(2016, 4, 24, 11, 30)
-        },
+        }, 
         // ...
         ],
         currentDate: new Date(2016, 4, 24)
@@ -97,6 +159,8 @@ Using the default appointment template is the easiest way to customize an appoin
 
 If you use only jQuery, combine HTML markup for appointments manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [appointmentTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#appointmentTemplate) callback function as shown in the following code.
 
+[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)
+
     <!--JavaScript-->var schedulerData = [{
         movie: "His Girl Friday",
         price: 5,
@@ -107,7 +171,7 @@ If you use only jQuery, combine HTML markup for appointments manually with jQuer
         price: 10,
         startDate: new Date(2016, 4, 24, 10, 05),
         endDate: new Date(2016, 4, 24, 11, 30)
-    },
+    }, 
     // ...
     ];
 

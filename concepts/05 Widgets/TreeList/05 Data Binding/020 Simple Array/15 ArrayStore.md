@@ -70,7 +70,7 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
             // ...
         ];
         employeeDataSource = new DataSource({
-            store: employees,
+            store: this.employees,
             sort: { getter: "fullName", desc: true }
         });
     }

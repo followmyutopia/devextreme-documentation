@@ -16,11 +16,38 @@ The template to be used for rendering an appointment tooltip.
 <!--fullDescription-->
 A binding context of an appointment tooltip template is the data source object that corresponds to the currently rendered appointment.
 
-So, in **Knockout approach**, you can bind template elements to the appointment object's fields directly. To access another binding context within an appointment tooltip template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+---
 
-In **AngularJS approach**, if you need to access appointment object fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment tooltip template, use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
+#####Angular#####
+
+Use a variable that is declared in the template via the `let` keyword to access appointment object fields in **Angular** apps. 
+
+    <!--HTML-->
+    <dx-scheduler ...         
+        appointmentTooltipTemplate="appointmentTooltipTemplate">
+         <div *dxTemplate="let showtime of 'appointmentTooltipTemplate'">
+            <div class='movie-tooltip'>
+                <img [src]="getMovieById(showtime.movieId).image" />
+                <div class='movie-info'>
+                    <div class='movie-title'>
+                        {{getMovieById(showtime.movieId).text + ' (' + getMovieById(showtime.movieId).year + ')'}}
+                    </div>
+                    <div>
+                        {{'Director: ' + getMovieById(showtime.movieId).director}}
+                    </div>
+                    <div>
+                        {{'Duration: ' + getMovieById(showtime.movieId).duration + ' minutes'}}
+                    </div>
+                </div><br />
+                <dx-button text='Edit details' (onClick)='editDetails(showtime)'>
+                </dx-button>
+            </div>
+        </div>
+    </dx-scheduler>
 
 #####AngularJS#####
+
+In **AngularJS** apps, if you need to access appointment object fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment tooltip template, use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
 
     <!--HTML-->
     <div id="scheduler" dx-scheduler="options" dx-item-alias="showtime">
@@ -45,6 +72,12 @@ In **AngularJS approach**, if you need to access appointment object fields withi
             </div>
         </div>
     </div>
+
+#####Knockout
+
+In **Knockout** apps, you can bind template elements to the appointment object's fields directly. To access another binding context within an appointment tooltip template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+
+---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
