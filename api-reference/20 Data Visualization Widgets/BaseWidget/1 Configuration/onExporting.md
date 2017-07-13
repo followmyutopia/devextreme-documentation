@@ -54,5 +54,5 @@ Assign **true** to this field if you need to prevent exporting.
 <!--typeFunctionParamName1_field6-->format<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->string<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+The resulting file format. One of PNG, PDF, JPEG, SVG and GIF.
 <!--/typeFunctionParamDescription1_field6-->
