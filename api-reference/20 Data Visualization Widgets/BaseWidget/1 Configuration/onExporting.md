@@ -51,3 +51,8 @@ The name of the file to which the widget is about to be exported.
 <!--typeFunctionParamDescription1_field5-->
 Assign **true** to this field if you need to prevent exporting.
 <!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamName1_field6-->format<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->string<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->
