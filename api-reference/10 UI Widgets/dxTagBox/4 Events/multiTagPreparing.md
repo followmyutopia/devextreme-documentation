@@ -45,18 +45,13 @@
 <!--typeFunctionParamDescription1_field5-->
 
 <!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->allSelected<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->boolean<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamName1_field6-->text<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->string<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 
 <!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->text<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->string<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->boolean<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 
 <!--/typeFunctionParamDescription1_field7-->
-<!--typeFunctionParamName1_field8-->cancel<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->boolean<!--/typeFunctionParamType1_field8-->
-<!--typeFunctionParamDescription1_field8-->
-
-<!--/typeFunctionParamDescription1_field8-->
