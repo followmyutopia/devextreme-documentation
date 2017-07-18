@@ -1,0 +1,59 @@
+When a user selects a series point, the **PieChart** fires the [pointSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Events/#pointSelectionChanged) event that you can handle with a function. Assign this function to the [onPointSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#onPointSelectionChanged) option when you configure the widget if it is going to remain unchanged during the widget's lifetime. Call the point's [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/Methods/#isSelected) method to check whether it was selected or the selection was cleared.
+
+---
+##### jQuery
+
+    <!--JavaScript-->$(function() {
+        $("#pieChartContainer").dxPieChart({
+            // ...
+            onPointSelectionChanged: function (e) {
+                var point = e.target;
+                if (point.isSelected()) {
+                    // Commands to execute when the point is selected
+                } else {
+                    // Commands to execute when the selection is cleared
+                }
+            }
+        });
+    });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-pie-chart
+        (onPointSelectionChanged)="onPointSelectionChanged($event)">
+    </dx-pie-chart>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        onPointSelectionChanged (e) {
+            let point = e.target;
+            if (point.isSelected()) {
+                // Commands to execute when the point is selected
+            } else {
+                // Commands to execute when the selection is cleared
+            }
+        };
+    }
+
+---
+
+Subscribe to the **pointSelectionChanged** event using the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Methods/#oneventName_eventHandler) method if you are going to change the event handler at runtime or if you need to attach several handlers to the event. This approach is more typical of jQuery.
+
+    <!--JavaScript-->
+    var pointSelectionChangedHandler1 = function (e) {
+        var point = e.target;
+        // First handler of the "pointSelectionChanged" event
+    };
+
+    var pointSelectionChangedHandler2 = function (e) {
+        var point = e.target;
+        // Second handler of the "pointSelectionChanged" event
+    };
+
+    $("#pieChartContainer").dxPieChart("instance")
+        .on("pointSelectionChanged", pointSelectionChangedHandler1)
+        .on("pointSelectionChanged", pointSelectionChangedHandler2);
+
+#####See Also#####
+- **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)

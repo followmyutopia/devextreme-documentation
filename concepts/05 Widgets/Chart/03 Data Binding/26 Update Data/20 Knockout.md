@@ -7,8 +7,6 @@ Declare the array [observable](http://knockoutjs.com/documentation/observableArr
         ...
     }"></div>
 
-<!---->
-
     <!--JavaScript-->var viewModel = {
         fruits: ko.observableArray([
             { fruit: 'Apples', count: 10 },

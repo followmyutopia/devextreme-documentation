@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies how a chart must behave when [series point labels](/Documentation/Guide/Widgets/PieChart/Visual_Elements/#Series_Point_Labels) overlap.
+Specifies how a chart must behave when [point labels](/Documentation/Guide/Widgets/PieChart/Point_Labels/Overview/) overlap.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -30,7 +30,8 @@ Specifies the text displayed by a tooltip.
 
 - **html**        
 Specifies the HTML markup displayed by a tooltip.
-[note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they will occupy beforehand.
+
+    [note]If you are going to use external resources (for example, images) in the markup, specify the size of the area they will occupy beforehand.
 
 When implementing the function for this option, you can access the scale value represented by a tooltip. This value can be accessed using the fields of the object that is passed as the function's parameter. Alternatively, you can use the **this** object within the function. This object has the same structure as the object passed as a parameter.
 

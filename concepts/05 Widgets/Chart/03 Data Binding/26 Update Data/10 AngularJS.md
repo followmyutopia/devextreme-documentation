@@ -11,8 +11,6 @@ Declare two-way data binding between the [dataSource](/Documentation/ApiReferenc
         }"></div>
     </div>
 
-<!---->
-
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function ($scope) {
             $scope.fruits = [

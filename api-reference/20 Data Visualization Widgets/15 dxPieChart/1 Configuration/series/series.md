@@ -17,9 +17,9 @@ Specifies options for the series of the **PieChart** widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A series represents a group of related data points. To configure a series, assign an object to the **series** option. If **PieChart** must contain several series, assign an array of such objects to the same option. Refer to the [Series](/Documentation/Guide/Widgets/PieChart/Visual_Elements/#Series) topic to learn the basics of what a series is, what it does, and how it helps.
+A series represents a group of related data points. To configure a series, assign an object to the **series** option. If **PieChart** must contain several series, assign an array of such objects to the same option. Refer to the [Series Overview](/Documentation/Guide/Widgets/PieChart/Series/Overview/) topic to learn the basics of what a series is, what it does, and how it helps.
 
-The definitive characteristic of a series is its type. The **PieChart** widget provides two series types - *Pie* and *Doughnut*. In the [PieChart Series Types](/Documentation/Guide/Widgets/PieChart/Series_Types/) guide, you can find information about distinctive features of both series types.
+The definitive characteristic of a series is its type. The **PieChart** widget provides two series types - *Pie* and *Doughnut*.
 
 When you have a multi-series pie, settings that are common for all series can be specified all together. Use the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/commonSeriesSettings/) object to do this.
 <!--/fullDescription-->

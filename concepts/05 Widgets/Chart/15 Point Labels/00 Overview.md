@@ -17,12 +17,12 @@ To configure point labels, use the fields of the [label](/Documentation/ApiRefer
             }, {
                 // ...  
             }],
-            stackedline: { // or any other series type
-                label: {
-                    // Settings for all point labels belonging to Stacked Line series
-                }
-            },
             commonSeriesSettings: {
+                stackedline: { // or any other series type
+                    label: {
+                        // Settings for all point labels belonging to Stacked Line series
+                    }
+                },
                 label: {
                     // Settings for all point labels in the Chart
                 }
