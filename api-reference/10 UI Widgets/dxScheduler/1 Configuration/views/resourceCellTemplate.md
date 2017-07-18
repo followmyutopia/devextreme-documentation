@@ -91,10 +91,6 @@ In **AngularJS** apps, if you need to access resource object fields within a tem
     });
 
 
-#####Knockout
-
-So, in **Knockout** apps, you can bind template elements to the resource object fields. To access another binding context within a resource template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
-
 ---
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-cell_templates" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

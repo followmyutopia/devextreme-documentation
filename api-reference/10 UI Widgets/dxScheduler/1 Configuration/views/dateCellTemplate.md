@@ -65,10 +65,6 @@ In **AngularJS** apps, if you need to access date scale item fields within a tem
         ];
     });
 
-#####Knockout
-
-So, in **Knockout** apps, you can bind template elements to the date scale item fields. To access another binding context within a template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
-
 ---
 
 [note]There is no **dateCellTemplate** in such views as 'day' and 'timelineDay'.

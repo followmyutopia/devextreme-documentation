@@ -73,10 +73,6 @@ In **AngularJS** apps, if you need to access appointment object fields within a 
         </div>
     </div>
 
-#####Knockout
-
-In **Knockout** apps, you can bind template elements to the appointment object's fields directly. To access another binding context within an appointment tooltip template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
-
 ---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

@@ -68,10 +68,6 @@ In **AngularJS** apps, if you need to access appointment object fields within a 
         ];
     });
 
-#####Knockout
-
-In **Knockout** apps, you can bind template elements to the appointment object fields. To access another binding context within an appointment template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
-
 ---
 
 #####See Also#####
