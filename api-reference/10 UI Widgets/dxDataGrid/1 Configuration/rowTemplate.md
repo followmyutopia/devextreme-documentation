@@ -85,7 +85,7 @@ Using a template engine, pass one of the following values to the **rowTemplate**
 - A DOM Node representing the template's container.        
 - A function that returns a jQuery object or a DOM Node representing the template's container.
 
-When you implement a row template with a template engine, take into account certain specifics. Particularly, the `<tr>` element that represents a row should have the `dx-row` class for the [onRowClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowClick) event handler to be executed.
+When you implement a row template with a template engine, take into account certain specifics. Particularly, the `<tr>` element that represents a row should have the `dx-row` class for correct operation of all widget features.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/Row3RdPartyEngineTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
