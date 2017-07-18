@@ -78,15 +78,15 @@ You can create the widget using one of the following approaches.
         <dxi-row [ratio]="0.7"></dxi-row>
         <dxi-col [ratio]="1"></dxi-col>
         <dxi-item class="header">
-            <dxo-location [row]="0" [col]="0"></dxo-location>
+            <dxi-location [row]="0" [col]="0"></dxi-location>
             <p>Header</p>
         </dxi-item>
         <dxi-item class="content">
-            <dxo-location [row]="1" [col]="0"></dxo-location>
+            <dxi-location [row]="1" [col]="0"></dxi-location>
             <p>Content</p>
         </dxi-item>
         <dxi-item class="footer">
-            <dxo-location [row]="2" [col]="0"></dxo-location>
+            <dxi-location [row]="2" [col]="0"></dxi-location>
             <p>Footer</p>
         </dxi-item>
     </dx-responsive-box>
