@@ -13,7 +13,7 @@ Specifies adaptive layout options.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When adapting to the small screen or container size, the widget may hide its accessory elements, thus saving space for more valuable ones. The elements are being hidden in the following sequence.
+When adapting to small container size, the widget may hide its accessory elements, thus saving space for more valuable ones. The elements are being hidden in the following sequence.
 
 1. [Title]({basewidgetpath}/Configuration/title)
 2. [Export menu icon]({basewidgetpath}/Configuration/export)

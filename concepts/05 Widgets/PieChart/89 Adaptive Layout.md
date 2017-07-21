@@ -1,4 +1,4 @@
-With the ever-growing variety of platforms, today's web sites and applications cannot stay competitive without being adaptive. Supporting this modern standard, the **PieChart** widget possesses an adaptive layout. This enables the **PieChart** to hide its accessory elements if the screen size is not large enough to fit them. To configure the adaptive layout, use the [adaptiveLayout](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/adaptiveLayout/) object. Set its **height** and **width** fields to specify the minimum screen size at which the layout retains all its elements.
+With the ever-growing variety of platforms, today's web sites and applications cannot stay competitive without being adaptive. Supporting this modern standard, the **PieChart** widget possesses an adaptive layout. This enables the **PieChart** to hide its accessory elements if the container is not large enough to fit them. To configure the adaptive layout, use the [adaptiveLayout](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/adaptiveLayout/) object. Set its **height** and **width** fields to specify the minimum container size at which the layout retains all its elements.
 
 ---
 ##### jQuery
@@ -21,7 +21,7 @@ With the ever-growing variety of platforms, today's web sites and applications c
 
 ---
 
-<a href="https://jsfiddle.net/ChartJS/2arphpsx/28/" class="button orange small fix-width-155" target="_blank">View Demo on JSFiddle</a>
+<a href="https://jsfiddle.net/ChartJS/2arphpsx/" class="button orange small fix-width-155" target="_blank">View Demo on JSFiddle</a>
 
 [note]
 
