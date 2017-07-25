@@ -38,7 +38,7 @@ The [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator) object that 
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-
+The current row data. Exists only when you validate a [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid) or [TreeList](/Documentation/ApiReference/UI_Widgets/dxTreeList) cell's value.
 <!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionReturnType-->true|false<!--/typeFunctionReturnType-->
