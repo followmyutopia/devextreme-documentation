@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The currently selected value in the widget.
+Specifies the currently selected value.
 <!--/shortDescription-->
 
 <!--fullDescription-->

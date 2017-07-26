@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The currently specified value.
+Specifies the currently selected value.
 <!--/shortDescription-->
 
 <!--fullDescription-->
