@@ -12,7 +12,7 @@ Gets a series within the chart's **series** collection by the specified name (se
 <!--/shortDescription-->
 
 <!--paramName1-->seriesName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
 The name of the series to be found.
 <!--/paramDescription1-->

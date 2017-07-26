@@ -24,7 +24,7 @@ Alternatively, you can use the **this** object within the function. This object 
 Information about the series to be presented in the legend.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->seriesName<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->any<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 Specifies the name of the series for which the current legend item is created.
 <!--/typeFunctionParamDescription1_field1-->

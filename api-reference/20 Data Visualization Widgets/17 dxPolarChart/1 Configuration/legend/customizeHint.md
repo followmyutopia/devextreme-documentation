@@ -21,7 +21,7 @@ This option accepts a function that must return the required text. When implemen
 Information on the series that corresponds to the legend item.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->seriesName<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->any<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/#name) of the series. To get the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Series/) object by this name, call the [getSeriesByName(seriesName)](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Methods/#getSeriesByNameseriesName) method.
 <!--/typeFunctionParamDescription1_field1-->

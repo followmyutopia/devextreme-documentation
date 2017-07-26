@@ -21,7 +21,7 @@ This option accepts a function that must return the required text. When implemen
 Information on the point that corresponds to the legend item.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->pointName<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->any<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 Specifies the name of the point argument for which the current legend item is created.
 <!--/typeFunctionParamDescription1_field1-->

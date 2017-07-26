@@ -18,7 +18,7 @@ Use this option to specify individual settings for a particular series.
 To determine the series to be customized, use the function's parameter. The parameter is the series name that is specified in the **series** array.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->seriesName<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->string<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The name of the series to be customized.
 <!--/typeFunctionParamDescription1-->
