@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Indicates whether the row is being edited. Available if record [updating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#allowUpdating) is enabled.
+Indicates whether the row is in the editing state. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
