@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The current view's name. 
 <!--/shortDescription-->
 
 <!--fullDescription-->

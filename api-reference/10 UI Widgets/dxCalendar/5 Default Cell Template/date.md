@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Holds the Date object associated with the cell.
+The Date object associated with the cell.
 <!--/shortDescription-->
 
 <!--fullDescription-->

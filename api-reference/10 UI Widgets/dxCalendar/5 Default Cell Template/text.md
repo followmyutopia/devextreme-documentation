@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the text displayed in the cell.
+The text displayed by the cell.
 <!--/shortDescription-->
 
 <!--fullDescription-->
