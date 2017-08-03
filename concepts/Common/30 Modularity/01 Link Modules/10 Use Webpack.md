@@ -47,7 +47,7 @@ The example below demonstrates how to create an application with a single button
 ---
 #####jQuery####
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/master/webpack-jquery) from GitHub. To use it, follow the instructions on GitHub. 
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/17_2/webpack-jquery) from GitHub. To use it, follow the instructions on GitHub. 
 
 **webpack.config.js**
 
@@ -167,7 +167,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
 [note]To use KnockoutJS and DevExtreme widget modules with Webpack, load the DevExtreme integration module.  
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/master/webpack-knockout) from GitHub. To use it, follow the instructions on GitHub.
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/17_2/webpack-knockout) from GitHub. To use it, follow the instructions on GitHub.
 
 **webpack.config.js**
 
