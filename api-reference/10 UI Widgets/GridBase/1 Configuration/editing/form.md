@@ -20,6 +20,7 @@ Default form editors depend on the [columns' configuration]({basewidgetpath}/Con
 There are some form parameters that you cannot specify using this option:
 
 - [template](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#template)        
+- [readOnly](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#readOnly)          
 - [editorType](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType)        
 - any [event](/Documentation/ApiReference/UI_Widgets/dxForm/Events/) handler ([options](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onContentReady) whose name starts with *"on..."*); instead, handle the [editorPreparing]({basewidgetpath}/Events/#editorPreparing) or [editorPrepared]({basewidgetpath}/Events/#editorPrepared) event to customize the form editors.
 
