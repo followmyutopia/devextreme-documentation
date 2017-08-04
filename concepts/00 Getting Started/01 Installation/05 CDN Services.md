@@ -63,7 +63,7 @@ Localized apps and apps that use custom date, number or currency formatting requ
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.5/cldr.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.5/cldr/event.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cldrjs/0.4.5/cldr/supplemental.min.js"></script>
-    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize.min.js"></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize.js"></script>
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/message.js"></script>
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/number.js"></script>
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/globalize/1.0.0/globalize/currency.js"></script>
