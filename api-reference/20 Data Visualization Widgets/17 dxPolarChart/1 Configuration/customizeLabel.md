@@ -36,8 +36,8 @@ The **customizeLabel** function accepts an object providing information about th
                 <td>The <a href="{basewidgetpath}/Configuration/series/#tagField">tag</a> of the series point.</td>
             </tr>
             <tr>
-                <td style="text-align:left">seriesName</td>
-                <td>The <a href="{basewidgetpath}/Configuration/series/#name">name</a> of the series that includes the series point.</td>
+                <td style="text-align:left">series</td>
+                <td>The <a href="{basewidgetpath}/Chart_Elements/Series/">series</a> that includes the series point.</td>
             </tr>
             <tr>
                 <td style="text-align:left">index</td>
