@@ -1,5 +1,6 @@
 For a minor customization of **Accordion** panels, you can use the default item template. This template defines the appearance of a panel depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxAccordion/Default_Item_Template/) are present or absent from the panel's data object. For example, the following code generates three panels, the first and third are not customized, the second is disabled.
 
+
     <!--JavaScript-->var accordionData = [{
         title: "Employee",
         text: "John Smith"
@@ -18,10 +19,42 @@ For a minor customization of **Accordion** panels, you can use the default item 
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for items and item titles.
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for items and item titles.
 
 ---
-#####**AngularJS**
+##### Angular
+
+    <!--HTML-->
+    <dx-accordion
+        [dataSource]="accordionData"
+        itemTitleTemplate="title"
+        itemTemplate="item">
+        <div *dxTemplate="let employee of 'title'">
+            <span>employee.firstName</span>
+            <span>employee.lastName</span>
+        </div>
+        <div *dxTemplate="let employee of 'item'">
+            <span>employee.birthDate</span>
+            <span>employee.position</span>
+        </div>
+    </dx-accordion>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        accordionData = [{
+            firstName: "John", lastName: "Smith",
+            birthDate: "1986/03/14",
+            position: "Network Administrator"
+        }, {
+            firstName: "Samantha", lastName: "Jones",
+            birthDate: "1972/11/13",
+            position: "Technical Writer"
+        }, {
+            // ...
+        }];
+    }
+
+#####AngularJS
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
@@ -41,23 +74,23 @@ Using the default item template is the easiest way to customize an item, but it 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-accordion="{
             dataSource: accordionData,
-            itemTemplate: 'items',
-            itemTitleTemplate: 'titles'
-        }" dx-item-alias="employeeInfo">
-            <div data-options="dxTemplate: { name: 'titles' }">
-                <span>{{ employeeInfo.firstName }}</span>
-                <span>{{ employeeInfo.lastName }}</span>
+            itemTemplate: 'item',
+            itemTitleTemplate: 'title'
+        }" dx-item-alias="employee">
+            <div data-options="dxTemplate: { name: 'title' }">
+                <span>{{ employee.firstName }}</span>
+                <span>{{ employee.lastName }}</span>
             </div>
-            <div data-options="dxTemplate: { name: 'items' }">
-                <p>{{ employeeInfo.birthDate }}</p>
-                <p>{{ employeeInfo.position }}</p>
+            <div data-options="dxTemplate: { name: 'item' }">
+                <p>{{ employee.birthDate }}</p>
+                <p>{{ employee.position }}</p>
             </div>
         </div>
     </div>
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-#####**Knockout**
+#####Knockout
 
     <!--JavaScript-->var viewModel= {
         accordionData: [{
@@ -77,14 +110,14 @@ Using the default item template is the easiest way to customize an item, but it 
 
     <!--HTML--><div data-bind="dxAccordion: {
         dataSource: accordionData,
-        itemTemplate: 'items',
-        itemTitleTemplate: 'titles'
+        itemTemplate: 'item',
+        itemTitleTemplate: 'title'
     }">
-        <div data-options="dxTemplate: { name: 'titles' }">
+        <div data-options="dxTemplate: { name: 'title' }">
             <span data-bind="text: firstName"></span>
             <span data-bind="text: lastName"></span>
         </div>
-        <div data-options="dxTemplate: { name: 'items' }">
+        <div data-options="dxTemplate: { name: 'item' }">
             <p data-bind="text: birthDate"></p>
             <p data-bind="text: position"></p>
         </div>

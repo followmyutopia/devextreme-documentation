@@ -75,7 +75,7 @@ You can create the widget using one of the following approaches.
     <!--HTML-->
     <dx-pie-chart [dataSource]="fruits">
         <dxo-common-series-settings argumentField="fruit"></dxo-common-series-settings>
-        <dxi-series valueField="yeld"></dxi-series>
+        <dxi-series valueField="yield"></dxi-series>
         <dxi-series valueField="consumed"></dxi-series>
     </dx-pie-chart>
 

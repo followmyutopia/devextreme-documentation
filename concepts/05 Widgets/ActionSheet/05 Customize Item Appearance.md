@@ -11,23 +11,56 @@ For a minor customization of **ActionSheet** buttons, you can use the default it
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for the **ActionSheet** buttons.
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for the **ActionSheet** buttons.
 
 ---
+##### Angular
+
+    <!--HTML-->
+    <dx-action-sheet
+        [dataSource]="actionSheetData"
+        [visible]="isActionSheetVisible"
+        itemTemplate="link">
+        <div *dxTemplate="let item of 'link'">
+            <div class="action-sheet-button">
+                <a href="#">{{item.text}}</a>
+            </div>
+        </div>
+    </dx-action-sheet>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        actionSheetData = [
+            { text: "Reply" },
+            { text: "Reply All" },
+            { text: "Forward" },
+            { text: "Delete" }
+        ];
+        isActionSheetVisible: Boolean = true;
+    }
+
+    <!--CSS-->
+    .action-sheet-button {
+        margin: 5px;
+        padding: 10px;
+        border: 1px dotted #080;
+        background-color: white;
+    }
+
 #####**AngularJS**
 
     <!--HTML-->
     <div ng-controller="DemoController">
         <div dx-action-sheet="{ 
             dataSource: actionSheetData,
-            itemTemplate: 'links',
+            itemTemplate: 'link',
             bindingOptions: {
                 visible: 'isActionSheetVisible'
             }
-        }" dx-item-alias="itemObj">
-            <div data-options="dxTemplate: { name: 'links' }">
-                <div style="margin:5px; padding:10px; border:1px dotted #080; background-color:white;">
-                    <a href="#">{{ itemObj.text }}</a>
+        }" dx-item-alias="item">
+            <div data-options="dxTemplate: { name: 'link' }">
+                <div class="action-sheet-button">
+                    <a href="#">{{item.text}}</a>
                 </div>
             </div>
     </div>
@@ -35,17 +68,22 @@ Using the default item template is the easiest way to customize an item, but it 
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
         .controller('DemoController', function ($scope) {
-            $scope.isActionSheetVisible = false;
             $scope.actionSheetData = [
                 { text: "Reply" },
                 { text: "Reply All" },
                 { text: "Forward" },
                 { text: "Delete" }
             ];
-            $scope.showActionSheet = function () {
-                $scope.isActionSheetVisible = true;
-            };
+            $scope.isActionSheetVisible = true;
         });
+
+    <!--CSS-->
+    .action-sheet-button {
+        margin: 5px;
+        padding: 10px;
+        border: 1px dotted #080;
+        background-color: white;
+    }
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
@@ -55,10 +93,10 @@ Using the default item template is the easiest way to customize an item, but it 
     <div data-bind="dxActionSheet: { 
         dataSource: actionSheetData,
         visible: isActionSheetVisible,
-        itemTemplate: 'links' 
+        itemTemplate: 'link' 
     }">
-        <div data-options="dxTemplate: { name: 'links' }">
-            <div style="margin:5px; padding:10px; border:1px dotted #080; background-color:white;">
+        <div data-options="dxTemplate: { name: 'link' }">
+            <div class="action-sheet-button">
                 <a href="#" data-bind="text: text"></a>
             </div>
         </div>
@@ -66,19 +104,24 @@ Using the default item template is the easiest way to customize an item, but it 
 
     <!--JavaScript-->
     var viewModel = {
-        isActionSheetVisible: ko.observable(false),
         actionSheetData: [
             { text: "Reply" },
             { text: "Reply All" },
             { text: "Forward" },
             { text: "Delete" }
         ],
-        showActionSheet: function () {
-            viewModel.isActionSheetVisible(true);
-        }
+        isActionSheetVisible: ko.observable(false)
     };
 
     ko.applyBindings(viewModel);
+
+    <!--CSS-->
+    .action-sheet-button {
+        margin: 5px;
+        padding: 10px;
+        border: 1px dotted #080;
+        background-color: white;
+    }
 
 ---
 
@@ -94,12 +137,20 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
                 { text: "Delete", icon: 'close' }
             ],
             itemTemplate: function (itemData, itemIndex, itemElement) {
-                var linkContainer = $("<div style='margin:5px; padding:10px; border:1px dotted #080; background-color:white;'>");
+                var linkContainer = $("<div class='action-sheet-button'>");
                 linkContainer.append("<a href='#'>" + itemData.text + "</a>");
                 itemElement.append(linkContainer);
             }
         });
     });
+
+    <!--CSS-->
+    .action-sheet-button {
+        margin: 5px;
+        padding: 10px;
+        border: 1px dotted #080;
+        background-color: white;
+    }
 
 You can also customize an individual **ActionSheet** button. For this purpose, declare a template for this button as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxActionSheet/Default_Item_Template/#template) field. 
 

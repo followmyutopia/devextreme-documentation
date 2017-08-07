@@ -5,9 +5,8 @@ The **Accordion** widget contains several panels displayed one under another. Th
 
 The following code adds a simple **Accordion** to your page. Note that each data source object contains the **title** field, whose value goes to the title of the panel. 
 
-    <!--HTML--><div id="accordionContainer"></div>
-
-<!---->
+---
+##### jQuery
 
     <!--JavaScript-->var accordionData = [{
         title: "Personal Data",
@@ -35,6 +34,47 @@ The following code adds a simple **Accordion** to your page. Note that each data
             }
         });
     });
+
+    <!--HTML--><div id="accordionContainer"></div>
+
+##### Angular
+
+    <!--HTML-->
+    <dx-accordion
+        [dataSource]="accordionData"
+        itemTemplate="item">
+        <div *dxTemplate="let itemData of 'item'">
+            <p *ngFor="let key of getItemKeys(itemData)">
+                {{key}}: {{itemData[key]}}
+            </p>
+        </div>
+    </dx-accordion>
+
+    <!--TypeScript-->
+    import { DxAccordionModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        accordionData = [{
+            title: "Personal Data",
+            firstName: "John",
+            lastName: "Smith",
+            birthYear: 1986
+        }, {
+            title: "Contacts",
+            phone: "(555)555-5555",
+            email: "John.Smith@example.com"
+        }, {
+            title: "Address",
+            state: "CA",
+            city: "San Francisco",
+            street: "Stanford Ave"
+        }];
+        getItemKeys (item) {
+            return Object.keys(item);
+        }
+    }
+
+---
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)

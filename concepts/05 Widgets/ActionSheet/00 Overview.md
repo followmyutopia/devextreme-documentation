@@ -4,6 +4,9 @@ The **ActionSheet** widget is a sheet containing a set of buttons located one un
 
 The following code adds a simple **ActionSheet** to your page. The widget is shown on a button click.  
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="buttonContainer"></div>
     <div id="actionSheetContainer"></div>
@@ -32,6 +35,38 @@ The following code adds a simple **ActionSheet** to your page. The widget is sho
             ]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-button
+        text="Show the ActionSheet"
+        (onClick)="actionSheet.visible = true">
+    </dx-button>
+
+    <dx-action-sheet
+        #actionSheet
+        [dataSource]="actionSheetData"
+        [visible]="false">
+    </dx-action-sheet>
+
+    <!--TypeScript-->
+    import { DxActionSheetModule, DxButtonModule } from 'devextreme-angular';
+    import notify from 'devextreme/ui/notify';
+    // ...
+    export class AppComponent {
+        actionSheetData = [
+            { text: "Reply", onClick: () => { this.processClick("Reply") } },
+            { text: "Reply All", onClick: () => { this.processClick("Reply All") } },
+            { text: "Forward", onClick: () => { this.processClick("Forward") } },
+            { text: "Delete", onClick: () => { this.processClick("Delete") } }
+        ];
+        processClick (name) {
+            notify(name + " clicked", "success", 3000);
+        }
+    }
+
+---
 
 Note that every data source object has a **text** field that is rendered on the buttons of the **ActionSheet**. Also, there is the **onClick** field that represents a click handler for a certain **ActionSheet** button.
 
