@@ -1,4 +1,4 @@
-Access to MVC controllers in an MVC 3, 4, 5 and .NET Core MVC app is configured alike - using the `Mvc()` method the `DataSource()`'s lambda parameter exposes. The following example shows the [DataGrid](/Documentation/Guide/Widgets/DataGrid/Overview/) widget accessing a `GridDataController` whose actions (`GetOrders`, `InsertOrder`, `UpdateOrder`, and `DeleteOrder`) implement [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations.
+Access to MVC controllers in an MVC 3, 4, 5 and .NET Core MVC app is configured alike - using the `Mvc()` method the `DataSource()`'s lambda parameter exposes. The following example shows the [DataGrid](/Documentation/Guide/Widgets/DataGrid/Overview/) widget accessing a `GridDataController` whose actions (`GetOrders`, `InsertOrder`, `UpdateOrder`, and `DeleteOrder`) implement [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations:
 
     <!--Razor C#-->
     @(Html.DevExtreme().DataGrid()
@@ -361,3 +361,29 @@ The controller looks like this:
 ---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/WebAPIService/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+
+Previous examples show use-cases in which a control is on the same site with data it accesses, and routing helps find the right controller and actions. If data is on a different site, you can use the URL to access it via the `RemoteController()` method of the `DataSource()`'s lambda parameter. This method opens a chain whose members mirror the [fields of the client-side method](https://github.com/DevExpress/DevExtreme.AspNet.Data#client-side-method) in the already familiar DevExtreme.AspNet.Data library.
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        .DataSource(ds => ds
+            .RemoteController()
+            .Key("OrderID")
+            .LoadUrl("http://www.example.com/Orders/GetOrders")
+            .InsertUrl("http://www.example.com/Orders/InsertOrder")
+            .UpdateUrl("http://www.example.com/Orders/UpdateOrder")
+            .DeleteUrl("http://www.example.com/Orders/DeleteOrder")
+        )
+    )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().DataGrid() _
+        .DataSource(Function(ds)
+            Return ds.RemoteController() _
+                     .Key("OrderID") _
+                     .LoadUrl("http://www.example.com/Orders/GetAllOrders") _
+                     .InsertUrl("http://www.example.com/Orders/InsertOrder") _
+                     .UpdateUrl("http://www.example.com/Orders/UpdateOrder") _
+                     .DeleteUrl("http://www.example.com/Orders/DeleteOrder")
+        End Function)
+    )
