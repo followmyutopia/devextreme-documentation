@@ -42,27 +42,27 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->parentType<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The editor's location. This field can have the following values: *'dataRow'*, *'filterRow'*, *'headerRow'* or *'searchPanel'*.
+The editor's location. One of *'dataRow'*, *'filterRow'*, *'headerRow'* or *'searchPanel'*.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->value<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The editor value.
+The editor's value.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->setValue(newValue)<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-A method that you need to call to change a cell value when the editor value is changed.
+A method that you need to call to change the cell value after the editor's value is changed.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->updateValueTimeout<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-A delay between the moment a user finishes typing a filter value and the moment it is applied. Available if **parentType** is *'filterRow'* or *'searchPanel'*.
+Gets and sets the delay between the moment a user stops typing a filter value and the moment it is applied. Available if **parentType** is *'filterRow'* or *'searchPanel'*.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->width<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The editor width. Has a value only for those editors whose **parentType** is *'searchPanel'*, for all others it equals **null**. 
+The editor's width; equals **null** for editors of all parent types except for the *'searchPanel'*.  
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->disabled<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->boolean<!--/typeFunctionParamType1_field9-->
@@ -82,7 +82,7 @@ The editor's container.
 <!--typeFunctionParamName1_field12-->readOnly<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-Indicates whether the editor responds to user actions.
+Indicates whether the editor is read-only.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->dataField<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->string<!--/typeFunctionParamType1_field13-->
