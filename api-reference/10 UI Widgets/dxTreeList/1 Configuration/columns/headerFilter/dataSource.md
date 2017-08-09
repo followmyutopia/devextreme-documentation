@@ -9,98 +9,193 @@
 ===========================================================================
 
 <!--fullDescription-->
-This option accepts one of the following.
+This option accepts one of the following:
 
 - **Array of Objects**      
-A simple JavaScript array containing a collection of plain objects. All elements of this array should have the following format.
+A simple JavaScript array containing a collection of plain objects. 
 
-        <!--JavaScript-->{
-            text: /* A string to be displayed in the UI */
-            value: /* A single value or filterExpression array */
+    ---
+    #####jQuery
+
+            <!--JavaScript-->
+            $(function () {
+                $("#treeListContainer").dxTreeList({
+                    headerFilter: {
+                        dataSource: [{
+                            text: "Zero",    // A string to be displayed in the UI
+                            value: 0         // A single value  
+                        },{
+                            text: "Less than $3000",
+                            value: ["SaleAmount", "<", 3000]    // A filterExpression array
+                        }, 
+                        // ...
+                        ]
+                    }
+                })
+            });
+
+    ##### Angular
+
+        <!--TypeScript-->
+        export class AppComponent {
+            headerFilterData: any;
+            constructor () {
+                this.headerFilterData = [{
+                    text: "Zero",    // A string to be displayed in the UI
+                    value: 0         // A single value  
+                },{
+                    text: "Less than $3000",
+                    value: ["SaleAmount", "<", 3000]    // A filterExpression array
+                }, 
+                // ...
+                ];
+            }
         }
 
+        <!--HTML--><dx-tree-list ...>
+            <dxi-column>
+                <dxo-header-filter [dataSource]="headerFilterData"></dxo-header-filter>
+            </dxi-column>
+        </dx-tree-list>
+
+    ---
+
 - [**DataSource Configuration Object**](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)         
-A configuration object of the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Learn more about the **DataSource** and the DevExtreme Data Layer concept from the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) topic.
+A [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration object. Learn more about the **DataSource** and the DevExtreme Data Layer concept from the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) topic.
 
-- **Function**      
-A function enables you to switch data sources based on a condition. It must return either an array of objects or a **DataSource** configuration object.
+    ---
+    ##### jQuery
 
-As an example, see the following code, which implements the data source for the header filter in a column that contains dates. Here, the data source is a **DataSource** configuration object.
-
----
-##### jQuery
-
-    <!--JavaScript-->
-    $(function() {
-        var now = new Date();
-        var startOfWeek = new Date(now.setDate(now.getDate() - now.getDay() - 1 + (now.getDay()==0?-6:1)));             
-        var startOfDay = new Date(now.setHours(0,0,0,0));
-
-        $("#treeListContainer").dxTreeList({
-            // ...
-            columns: [{
-                // ...
-                headerFilter: {
-                    dataSource: {
-                        load: function() {
-                            return [{
-                                text: 'Today',
-                                value: [['OrderDate', '>=', startOfDay], 'and', ['OrderDate', '<=', now]]
-                            }, {
-                                text: 'This week',
-                                value: [['OrderDate', '>=', startOfWeek], 'and', ['OrderDate', '<', startOfDay]]
-                            }, {
-                                text: 'Earlier',
-                                value: ['OrderDate', '<', startOfWeek]
-                            }];
-                        }
-                    }
-                }
-            },
-            // ...
-            ]
-        });
-    });
-
-##### Angular
-
-    <!--TypeScript-->
-    import 'devextreme/data/custom_store';
-    // ...
-    export class AppComponent {
-        headerFilterData: any = {};
-        constructor () {
+        <!--JavaScript-->
+        $(function() {
             var now = new Date();
             var startOfWeek = new Date(now.setDate(now.getDate() - now.getDay() - 1 + (now.getDay()==0?-6:1)));             
             var startOfDay = new Date(now.setHours(0,0,0,0));
-            this.headerFilterData = {
-                load: function () {
-                    return [{
-                        text: 'Today',
-                        value: [['OrderDate', '>=', startOfDay], 'and', ['OrderDate', '<=', now]]
-                    }, {
-                        text: 'This week',
-                        value: [['OrderDate', '>=', startOfWeek], 'and', ['OrderDate', '<', startOfDay]]
-                    }, {
-                        text: 'Earlier',
-                        value: ['OrderDate', '<', startOfWeek]
-                    }];
-                }
-            };
+            $("#treeListContainer").dxTreeList({
+                // ...
+                columns: [{
+                    // ...
+                    headerFilter: {
+                        dataSource: {
+                            load: function () {
+                                return [{
+                                    text: 'Today',
+                                    value: [['OrderDate', '>=', startOfDay], 'and', ['OrderDate', '<=', now]]
+                                }, {
+                                    text: 'This week',
+                                    value: [['OrderDate', '>=', startOfWeek], 'and', ['OrderDate', '<', startOfDay]]
+                                }, {
+                                    text: 'Earlier',
+                                    value: ['OrderDate', '<', startOfWeek]
+                                }];
+                            }
+                        }
+                    }
+                },
+                // ...
+                ]
+            });
+        });
+
+    ##### Angular
+
+        <!--TypeScript-->
+        import 'devextreme/data/custom_store';
+        // ...
+        export class AppComponent {
+            headerFilterData: any = {};
+            constructor () {
+                var now = new Date();
+                var startOfWeek = new Date(now.setDate(now.getDate() - now.getDay() - 1 + (now.getDay()==0?-6:1)));             
+                var startOfDay = new Date(now.setHours(0,0,0,0));
+                this.headerFilterData = {
+                    load: function () {
+                        return [{
+                            text: 'Today',
+                            value: [['OrderDate', '>=', startOfDay], 'and', ['OrderDate', '<=', now]]
+                        }, {
+                            text: 'This week',
+                            value: [['OrderDate', '>=', startOfWeek], 'and', ['OrderDate', '<', startOfDay]]
+                        }, {
+                            text: 'Earlier',
+                            value: ['OrderDate', '<', startOfWeek]
+                        }];
+                    }
+                };
+            }
         }
-    }
 
-    <!--HTML--><dx-tree-list ...>
-        <dxi-column>
-            <dxo-header-filter [dataSource]="headerFilterData"></dxo-header-filter>
-        </dxi-column>
-    </dx-tree-list>
+        <!--HTML--><dx-tree-list ...>
+            <dxi-column>
+                <dxo-header-filter [dataSource]="headerFilterData"></dxo-header-filter>
+            </dxi-column>
+        </dx-tree-list>
 
----
+    ---
+
+- **Function**      
+A function in which you can modify the current data source configuration.
+
+    ---
+    #####jQuery
+
+            <!--JavaScript-->
+            $(function () {
+                $("#treeListContainer").dxTreeList({
+                    headerFilter: {
+                        dataSource: function(data) {
+                            data.dataSource.postProcess = function(results) {
+                                results.push({
+                                    text: "Weekends",
+                                    value: [
+                                        [getOrderDay, "=", 0],
+                                            "or",
+                                        [getOrderDay, "=", 6]
+                                    ]
+                                });
+                                return results;
+                            };
+                        }
+                    }
+                })
+            });
+
+    #####Angular
+
+        <!--TypeScript-->
+        import 'devextreme/data/data_source';
+        // ...
+        export class AppComponent {
+            headerFilterData: any;
+            constructor () {
+                this.headerFilterData = this.headerFilterData.bind(this);
+            }
+            headerFilterData(data) {
+                data.dataSource.postProcess = (results) => {
+                    results.push({
+                        text: "Weekends",
+                        value: [
+                            [this.getOrderDay, "=", 0], 
+                                "or", 
+                            [this.getOrderDay, "=", 6]
+                        ]
+                    });
+                    return results;
+                };
+            }
+        }
+
+        <!--HTML--><dx-tree-list ...>
+            <dxi-column>
+                <dxo-header-filter [dataSource]="headerFilterData"></dxo-header-filter>
+            </dxi-column>
+        </dx-tree-list>
+
+    ---
 
 [note]Every unique value present in a column should also be present in the data source for its header filter.
 
-If you use a data source that does not contain the required fields (**text** and **value**), you can use the map option of the DataSource object to cast the initial data array to the required structure. If the initial array includes key fields, all these fields as well as the **text** and **value** fields should be present in the resulting array.
+If you use a data source that does not contain the required fields (**text** and **value**), you can use the DataSource object's map option to cast the initial data array to the required structure. If the initial array includes key fields, all these fields, as well as the **text** and **value** fields should be present in the resulting array.
 
 ---
 ##### jQuery
