@@ -10,16 +10,20 @@
 ===========================================================================
 
 <!--fullDescription-->
-This option can hold a value of the following types.
+This option accepts a value of one of the following types.
 
-- number  
-The height of the widget in pixels
+- **Number**  
+The height of the widget in pixels.
 
-- string  
-A CSS measurement of the widget height (e.g., "55px", "80%", "auto" and "inherit")
+- **String**  
+A CSS-accepted measurement of height. For example, `"55px"`, `"80%"`, `"auto"`, `"inherit"`.
 
-- function  
-A function returning the widget height (e.g., height:function(){ return baseHeight - 10 + "%"; })
+- **Function**  
+A function returning either of the above. For example:
+
+        <!--JavaScript-->height: function() {
+            return window.innerHeight / 1.5;
+        }
 
 [note]The widget's minimum height depends on the current theme. If the **height** option value is less than the minimum height, the widget height is set to the minimum value, ignoring the specified value. Below is a list of minimum calendar sizes depending on the current theme.
 

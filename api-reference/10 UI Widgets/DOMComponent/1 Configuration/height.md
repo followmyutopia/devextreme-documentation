@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the height of the widget container.
+Specifies the widget's height.
 <!--/shortDescription-->
 
 <!--fullDescription-->

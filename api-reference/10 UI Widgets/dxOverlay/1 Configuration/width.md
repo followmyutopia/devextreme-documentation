@@ -14,11 +14,20 @@ The widget width in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The option can hold a value of the following types.
+This option accepts a value of one of the following types.
 
- - numeric - the widget width in pixels
- - string - a CSS measurement of the widget width (e.g., "55px", "80%", "auto" and "inherit")
- - function - the function returning the widget width (e.g., width:function(){ return baseWidth - 10 + "%"; })
+- **Number**  
+The width of the widget in pixels.
+
+- **String**  
+A CSS-accepted measurement of width. For example, `"55px"`, `"80%"`, `"auto"`, `"inherit"`.
+
+- **Function**  
+A function returning either of the above. For example:
+
+        <!--JavaScript-->width: function() {
+            return window.innerWidth / 1.5;
+        }
 
 
 <!--/fullDescription-->
