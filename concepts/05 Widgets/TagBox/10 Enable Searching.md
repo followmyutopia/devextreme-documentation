@@ -1,4 +1,6 @@
-The **TagBox** widget allows an end user to search through its items. By default, this feature is disabled. To enable it, assign *true* to the [searchEnabled](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#searchEnabled) option. To specify which data fields should be searched, use the [searchExpr](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#searchExpr) option. If you need to search several fields, assign an _array_ of field names to this option.
+[note]Searching works with source data of plain structure only. Subsequently, data can be transformed to hierarchical structure using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
+
+The **TagBox** widget allows an end user to search through its items. This feature is disabled by default. To enable it, assign *true* to the [searchEnabled](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#searchEnabled) option. Use the [searchExpr](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#searchExpr) option to specify which data fields should be searched. Assign an _array_ of field names to this option if you need to search several fields.
 
     <!--JavaScript-->
     var tagBoxData = [
@@ -17,7 +19,7 @@ The **TagBox** widget allows an end user to search through its items. By default
         });
     });
 
-By default, when a user types a string in the input field, the **TagBox** suggests all items that *contain* this string. If you want the **TagBox** to suggest only those items that _start_ with the input string, assign *'startswith'* to the [searchMode](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#searchMode) option.
+When a user types a string in the input field, the **TagBox** suggests all items that *contain* this string. Assign *'startswith'* to the [searchMode](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#searchMode) option if you want the **TagBox** to suggest only those items that _start_ with the input string.
 
     <!--JavaScript-->
     $(function() {
@@ -45,7 +47,7 @@ There is a delay between the moment a user finishes typing and the moment the se
         });
     });
 
-By default, the **TagBox** widget starts searching after a user has typed at least one character. To increase the number of characters that triggers the search, use the **minSearchLength** option. 
+The **TagBox** widget starts searching after a user has typed at least one character by default. Use the **minSearchLength** option to increase the number of characters that triggers the search. 
 
     <!--JavaScript-->
     $(function() {

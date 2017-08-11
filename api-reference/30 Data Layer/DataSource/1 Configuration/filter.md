@@ -13,7 +13,10 @@ Specifies data filtering conditions.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For information on filter expressions, refer to the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section of the Data Layer article.
+Setting this option to **null** clears filtering settings.
 
-To clear filtering conditions, assign **null** to the **filter** option.
+[note]Filtering works with source data of plain structure only. Subsequently, data can be transformed to hierarchical structure using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
+
+#####See Also#####
+- [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
 <!--/fullDescription-->
