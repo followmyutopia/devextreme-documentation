@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when a user has performed a double click on the the element.
+Raised when a user has performed a double click on the element.
 <!--/shortDescription-->
 
 <!--fullDescription-->

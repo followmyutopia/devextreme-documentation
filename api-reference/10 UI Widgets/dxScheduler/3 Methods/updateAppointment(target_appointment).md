@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Updates the appointment specified by the first method parameter by the appointment object specified by the second method parameter in the the data associated with the widget.
+Updates the appointment specified by the first method parameter by the appointment object specified by the second method parameter in the data associated with the widget.
 <!--/shortDescription-->
 
 <!--paramName1-->target<!--/paramName1-->

@@ -41,7 +41,7 @@ To set the tip percentage and the number of persons by which to divide the payme
         </div>
     </div>
   
-The sliders are the [Slider](/Documentation/ApiReference/UI_Widgets/dxSlider/) widgets. The value that is set by end users is assigned to the widget's **value** configuration option. This option is bound to the the **tipPercent** and **splitNum** fields of the controller's scope. 
+The sliders are the [Slider](/Documentation/ApiReference/UI_Widgets/dxSlider/) widgets. The value that is set by end users is assigned to the widget's **value** configuration option. This option is bound to the **tipPercent** and **splitNum** fields of the controller's scope. 
 
 To show the value that is set via a slider, a div element is associated with the scope's field.
 

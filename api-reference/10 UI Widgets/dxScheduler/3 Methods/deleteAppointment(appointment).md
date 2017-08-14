@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Deletes the appointment defined by the parameter from the the data associated with the widget.
+Deletes the appointment defined by the parameter from the data associated with the widget.
 <!--/shortDescription-->
 
 <!--paramName1-->appointment<!--/paramName1-->
