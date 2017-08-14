@@ -11,12 +11,15 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the view used in the scheduler by default.
+Specifies the currently displayed view. Accepts the view's [name](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#name) or [type](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#type).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Specify the views to be available in the scheduler's [View Switcher](/Documentation/Guide/Widgets/Scheduler/View_Switcher/) for end users in the [views](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#views) array. The default view used by the widget when rendering the scheduler is specified by the **currentView** option.  
-For more information on scheduler views, refer to the [Views](/Documentation/Guide/Widgets/Scheduler/Views/) guide.
+In all situations when more than one view meets the **currentView** condition, the first matching view from the [views](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/) array takes precedence.
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SchedulerViewType` enum. This enum accepts the following values: `Day`, `Week`, `WorkWeek`, `Month`, `TimelineDay`, `TimelineWeek`, `TimelineWorkWeek`, `TimelineMonth` and `Agenda`.
+
+#####See Also#####
+- [Views](/Documentation/Guide/Widgets/Scheduler/Views/)
+- [View Switcher](/Documentation/Guide/Widgets/Scheduler/View_Switcher/)
 <!--/fullDescription-->
