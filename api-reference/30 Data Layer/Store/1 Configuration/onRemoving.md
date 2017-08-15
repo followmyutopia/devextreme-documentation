@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **removing* event.
+A handler for the [removing]({basewidgetpath}/Events/#removing) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **updating* event.
+A handler for the [updating]({basewidgetpath}/Events/#updating) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->

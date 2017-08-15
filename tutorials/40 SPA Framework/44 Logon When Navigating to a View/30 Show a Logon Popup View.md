@@ -12,7 +12,7 @@ To display the "login" view when a non-authorized user is navigating to a secure
 - If the currently navigated view is secure and the **loggedIn** global variable is set to *false*, cancel the current navigation and navigate to the "login" view.  
   To save the URI of the navigated view as a navigation parameter and then continue navigation to this view when the user is authorized, add a secondary rule for the application's router - "login/:backUri" - and navigate to the "login" view using this rule.
 
-In the **logIn** function of the "login" view, check the entered login parameters and, if they are valid, set the **loggedIn** global variable to *true* and navigate to the target view. The target view is accessible as the **backUri* field of the object passed as a parameter of the function returning the ViewModel object.
+In the **logIn** function of the "login" view, check the entered login parameters and, if they are valid, set the **loggedIn** global variable to *true* and navigate to the target view. The target view is accessible as the **backUri** field of the object passed as a parameter of the function returning the ViewModel object.
 
 Implement the **close** function of the "login" ViewModel. In this function, use the [HtmlApplication.back()](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#back) method to return back to the previous view when a user cancels authorization.
 

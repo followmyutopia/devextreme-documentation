@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **modified* event.
+A handler for the [modified]({basewidgetpath}/Events/#modified) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->

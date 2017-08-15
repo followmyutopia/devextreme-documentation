@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **inserting* event.
+A handler for the [inserting]({basewidgetpath}/Events/#inserting) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->

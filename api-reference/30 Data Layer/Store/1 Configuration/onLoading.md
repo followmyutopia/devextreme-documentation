@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **loading* event.
+A handler for the [loading]({basewidgetpath}/Events/#loading) event.
 <!--/shortDescription-->
 
 <!--fullDescription-->
