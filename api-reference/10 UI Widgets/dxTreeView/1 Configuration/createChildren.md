@@ -36,7 +36,7 @@ In the following code, the **createChildren** function makes a query to the serv
 
 
 #####See Also#####
-- [virtualModeEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#virtualModeEnabled) - enables the Virtual Mode.
+- [Enhance Performance on Large Datasets](/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/)
 - [TreeView - Use Plain Data](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->parentNode<!--/typeFunctionParamName1-->

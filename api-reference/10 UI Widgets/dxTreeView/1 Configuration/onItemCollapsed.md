@@ -16,6 +16,9 @@ A handler for the [itemCollapsed](/Documentation/ApiReference/UI_Widgets/dxTreeV
 
 <!--fullDescription-->
 Assign a function to perform a custom action when a tree view item is collapsed.
+
+#####See Also#####
+-[Expand and Collapse Nodes - Events](/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes/#Events)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
