@@ -32,9 +32,10 @@ By default, sorting is conducted using the exact values that the column contains
         columns: [{
             // ...
             dataField: 'Position',
+            sortOrder: "asc",
             calculateSortValue: function (data) {
                 if (data.Position == "CEO")
-                    return dataGridInstance.option('Position', 'sortOrder') == 'asc' ? 0 : data.length; // CEOs must go first
+                    return dataGridInstance.columnOption('Position', 'sortOrder') == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
                 else
                     return data.Position; // Others are sorted as usual
             }

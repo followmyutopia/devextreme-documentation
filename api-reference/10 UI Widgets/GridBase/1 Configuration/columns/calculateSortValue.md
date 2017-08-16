@@ -30,9 +30,10 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         var dataGrid = $("#dataGridContainer").dxDataGrid({
             columns: [{
                 dataField: 'Position',
+                sortOrder: "asc",
                 calculateSortValue: function (rowData) {
                     if (rowData.Position == "CEO")
-                        return dataGrid.option('Position', 'sortOrder') == 'asc' ? 0 : data.length; // CEOs must go first
+                        return dataGrid.columnOption('Position', 'sortOrder') == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
                     else
                         return rowData.Position; // Others are sorted as usual
                 }

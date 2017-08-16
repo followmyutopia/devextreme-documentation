@@ -44,9 +44,10 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         var treeList = $("#treeListContainer").dxTreeList({
             columns: [{
                 dataField: 'Position',
+                sortOrder: "asc",
                 calculateSortValue: function (rowData) {
                     if (rowData.Position == "CEO")
-                        return treeList.option('Position', 'sortOrder') == 'asc' ? 0 : data.length; // CEOs must go first
+                        return treeList.columnOption('Position', 'sortOrder') == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
                     else
                         return rowData.Position; // Others are sorted as usual
                 }
@@ -64,7 +65,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         customSortingFunction (rowData) {
             if (rowData.Position == "CEO")
-                return this.treeList.instance.option('Position', 'sortOrder') == 'asc' ? 0 : data.length; // CEOs must go first
+                return this.treeList.instance.columnOption('Position', 'sortOrder') == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
             else
                 return rowData.Position; // Others are sorted as usual
         }
@@ -74,6 +75,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     <dx-tree-list ... >
         <dxi-column
             dataField="Position"
+            sortOrder="asc"
             [calculateSortValue]="customSortingFunction">
         </dxi-column>
     </dx-tree-list>
