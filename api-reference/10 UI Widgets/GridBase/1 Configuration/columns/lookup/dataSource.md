@@ -48,3 +48,8 @@ The data of the row.
 <!--typeFunctionParamDescription1_field2-->
 The key value of the row.
 <!--/typeFunctionParamDescription1_field2-->
+
+<!--typeFunctionReturnType-->array|DataSource configuration<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnDescription-->
+
+<!--/typeFunctionReturnDescription-->
