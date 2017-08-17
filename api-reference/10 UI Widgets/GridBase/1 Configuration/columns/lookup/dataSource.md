@@ -51,5 +51,5 @@ The key value of the row.
 
 <!--typeFunctionReturnType-->array|DataSource configuration<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-
+An array of data objects or a **DataSource** configuration object.
 <!--/typeFunctionReturnDescription-->
