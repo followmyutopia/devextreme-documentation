@@ -65,7 +65,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         customSortingFunction (rowData) {
             if (rowData.Position == "CEO")
-                return this.treeList.instance.columnOption('Position', 'sortOrder') == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
+                return this.sortOrder == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
             else
                 return rowData.Position; // Others are sorted as usual
         }
