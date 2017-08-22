@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies when to show the scrollbar. Applies only if [useNative](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/scrolling/#useNative) is **false**.
+Specifies when to show the scrollbar. Applies only if [useNative]({basewidgetpath}/Configuration/scrolling/#useNative) is **false**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
