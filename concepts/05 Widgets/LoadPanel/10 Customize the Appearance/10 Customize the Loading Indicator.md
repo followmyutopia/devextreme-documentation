@@ -14,7 +14,7 @@ If you need to use a 3rd-party loading indicator inside the **LoadPanel**, assig
         });
     });
 
-In case you do not need any loading indicator to be shown at all, assign *false* to the [showIndicator](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#showIndicator) option.
+In case you do not need any loading indicator to be shown at all, assign **false** to the [showIndicator](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#showIndicator) option.
 
     <!--JavaScript-->$(function() {
 		$("#loadPanelContainer").dxLoadPanel({

@@ -11,7 +11,7 @@ To configure the group panel, use the fields of the [groupPanel](/Documentation/
 		}
     });
 
-By default, the group panel is hidden. To make it visible, set the [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) property of the **groupPanel** object to *true*.
+By default, the group panel is hidden. To make it visible, set the [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) property of the **groupPanel** object to **true**.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...
@@ -32,7 +32,7 @@ Building a multi-platform application, you may want to show/hide the group panel
 There are several additional features of the group panel that may be configured. They are listed below.
 
 * **Blocking the Group Panel**		
-If required, you can prohibit drag-and-drop but leave the group panel visible. In that case, assign *false* to the [allowColumnDragging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#allowColumnDragging) field of the **groupPanel** object. This is useful, for instance, when grid records are grouped initially and when a user needs to know about that grouping, but must not be able to change it.
+If required, you can prohibit drag-and-drop but leave the group panel visible. In that case, assign **false** to the [allowColumnDragging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#allowColumnDragging) field of the **groupPanel** object. This is useful, for instance, when grid records are grouped initially and when a user needs to know about that grouping, but must not be able to change it.
 
 * **Specifying a Placeholder**		
 You can change the text displayed by an empty group panel. Use the **groupPanel** | [emptyPanelText](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#emptyPanelText) property for this purpose.

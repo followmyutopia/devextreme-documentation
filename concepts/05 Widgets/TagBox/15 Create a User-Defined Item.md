@@ -1,4 +1,4 @@
-Besides selecting the existing values, a user can add new values to the **TagBox**. To enable this feature, assign *true* to the [acceptCustomValue](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#acceptCustomValue) option. Note that you should implement the [onCustomItemCreating](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onCustomItemCreating) handler to create a new entry to the data source.
+Besides selecting the existing values, a user can add new values to the **TagBox**. To enable this feature, assign **true** to the [acceptCustomValue](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#acceptCustomValue) option. Note that you should implement the [onCustomItemCreating](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onCustomItemCreating) handler to create a new entry to the data source.
 
     <!--HTML-->
     <div id="tagBoxContainer"></div>

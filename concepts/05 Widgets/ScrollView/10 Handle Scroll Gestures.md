@@ -12,7 +12,7 @@ The **ScrollView** raises the [pullDown](/Documentation/ApiReference/UI_Widgets/
         });
     });
 
-[note]To enable the pull-to-refresh gesture on desktops, set the [bounceEnabled](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#bounceEnabled) option to *true*.
+[note]To enable the pull-to-refresh gesture on desktops, set the [bounceEnabled](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#bounceEnabled) option to **true**.
 
 If an end user scrolls the content down to the bottom, the **ScrollView** raises the [reachBottom](/Documentation/ApiReference/UI_Widgets/dxScrollView/Events/#reachBottom) event. You can handle it using the [onReachButtom](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#onReachBottom) function. Note that this function should also contain a call of the [release()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#releasepreventScrollBottom) method. 
 

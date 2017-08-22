@@ -1,6 +1,6 @@
 [note]Searching works with source data of plain structure only. Subsequently, data can be transformed to hierarchical structure using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
 
-The **SelectBox** widget allows an end user to search through its items. This feature is disabled by default. To enable it, assign *true* to the [searchEnabled](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#searchEnabled) option. Use the [searchExpr](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#searchExpr) option to specify which data fields should be searched. Assign an _array_ of field names to this option if you need to search several fields.
+The **SelectBox** widget allows an end user to search through its items. This feature is disabled by default. To enable it, assign **true** to the [searchEnabled](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#searchEnabled) option. Use the [searchExpr](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#searchExpr) option to specify which data fields should be searched. Assign an _array_ of field names to this option if you need to search several fields.
 
     <!--JavaScript-->
     var selectBoxData = [

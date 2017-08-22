@@ -4,13 +4,13 @@ This subtopic describes controls that appear in the **DataGrid** widget when the
 
 Depending on the specified properties of the [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/) object, different controls are presented in a grid. These controls and the options that enable them are listed below.
 
-* **allowUpdating** is *true*		
+* **allowUpdating** is **true**		
 No extra buttons are added.
 
-* **allowAdding** is *true*		
+* **allowAdding** is **true**		
 This setting adds the "Add" button to the upper-right corner of the **DataGrid** widget.
 
-* **allowDeleting** is *true*		
+* **allowDeleting** is **true**		
 This setting adds the "Delete" button to each grid row.
 
 In addition, the text of a certain button can be changed using the fields of the **editing** | [texts](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts/) object.

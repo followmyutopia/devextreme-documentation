@@ -1,4 +1,4 @@
-If you assign the name of a method to a **compileGetter**, the getter normally returns the value returned by this method. If you need to get a reference to the method instead of its value, pass an object with the **functionAsIs** property set to *true* to the getter as a second parameter.
+If you assign the name of a method to a **compileGetter**, the getter normally returns the value returned by this method. If you need to get a reference to the method instead of its value, pass an object with the **functionAsIs** property set to **true** to the getter as a second parameter.
 
     <!--JavaScript-->var getter = DevExpress.data.utils.compileGetter("address.getAddress");
     // the getter returns a reference to the 'person.address.getAddress' function and assigns it to the 'getAddressFunction' variable

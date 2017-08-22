@@ -1,4 +1,4 @@
-To consume data from a custom source, the **TreeList** uses the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). This article provides details on how to configure it and on the protocol that the **CustomStore** adheres when communicating with the server. If the server already processes data (that is, performs filtering, sorting or grouping), notify the **TreeList** by assigning *true* to the corresponding field of the [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/) object. 
+To consume data from a custom source, the **TreeList** uses the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). This article provides details on how to configure it and on the protocol that the **CustomStore** adheres when communicating with the server. If the server already processes data (that is, performs filtering, sorting or grouping), notify the **TreeList** by assigning **true** to the corresponding field of the [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/) object. 
 
 ---
 ##### jQuery
@@ -37,7 +37,7 @@ If the server does not process data yet, employ one of the following extensions 
 - [DevExtreme ASP.NET Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
 - [DevExtreme PHP Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
 
-If these extensions do not suit your needs, configure the **CustomStore** and implement server-side data processing following the instructions given in this article. Note that the server may leave some of the data processing operations unimplemented. In this case, make sure that the corresponding fields of the **remoteOperations** object are set to *false*.
+If these extensions do not suit your needs, configure the **CustomStore** and implement server-side data processing following the instructions given in this article. Note that the server may leave some of the data processing operations unimplemented. In this case, make sure that the corresponding fields of the **remoteOperations** object are set to **false**.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/WebAPIService/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Web API Service Demo</a>
 

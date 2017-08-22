@@ -23,7 +23,7 @@ When either the argument or value axis is discrete, the area chart joins data po
 
 ![Discrete PolarAreaSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/PolarArea_Discrete.png)
 
-Note that you can use a spider web for polar charts displaying discrete data. For this purpose, set the widget's [useSpiderWeb](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#useSpiderWeb) option to *true*.
+Note that you can use a spider web for polar charts displaying discrete data. For this purpose, set the widget's [useSpiderWeb](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#useSpiderWeb) option to **true**.
 
 ![SpiderWeb PolarAreaSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/PolarArea_useSpiderWeb.png)
 

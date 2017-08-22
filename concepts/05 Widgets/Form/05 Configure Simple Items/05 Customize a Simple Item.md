@@ -16,7 +16,7 @@ If none of the available editors suit your requirements, you can define a custom
         });
     });
 
-A simple item can be accompanied by a line of text that gives a hint, for example, of the values that this item accepts. To specify this text, use the [helpText](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#helpText) option. If filling an item is required, assign *true* to its [isRequired](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#isRequired) option. In this case, a special mark appears near the item. For more information, see the [Additional Marks](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Additional_Marks/) topic.
+A simple item can be accompanied by a line of text that gives a hint, for example, of the values that this item accepts. To specify this text, use the [helpText](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#helpText) option. If filling an item is required, assign **true** to its [isRequired](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#isRequired) option. In this case, a special mark appears near the item. For more information, see the [Additional Marks](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Additional_Marks/) topic.
 
     <!--JavaScript-->
     $(function() {

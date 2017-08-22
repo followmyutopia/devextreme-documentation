@@ -38,7 +38,7 @@ Use the [selectedRowKeys](/Documentation/ApiReference/UI_Widgets/dxTreeList/Conf
     
 ---
 
-You can select rows at runtime as well with the [selectRows(keys, preserve)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#selectRowskeys_preserve) method. Note that the **preserve** argument, which tells the widget whether to keep or clear the previous selection, is *false* by default. Before selecting a row, you can call the [isRowSelected(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#isRowSelectedkey) method to check if this row is already selected. If you need to select all rows at once, call the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#selectAll) method.
+You can select rows at runtime as well with the [selectRows(keys, preserve)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#selectRowskeys_preserve) method. Note that the **preserve** argument, which tells the widget whether to keep or clear the previous selection, is **false** by default. Before selecting a row, you can call the [isRowSelected(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#isRowSelectedkey) method to check if this row is already selected. If you need to select all rows at once, call the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#selectAll) method.
 
 ---
 ##### jQuery

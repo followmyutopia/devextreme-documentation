@@ -18,7 +18,7 @@ To zoom the **Map**, set the [zoom](/Documentation/ApiReference/UI_Widgets/dxMap
         });
     });
 
-Note that the **center** and **zoom** options may be ignored in favor of displaying all [markers](/Documentation/Guide/Widgets/Map/Configure_Markers/) and [routes](/Documentation/Guide/Widgets/Map/Configure_Routes/). To disable this behavior, assign *false* to the [autoAdjust](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#autoAdjust) option.
+Note that the **center** and **zoom** options may be ignored in favor of displaying all [markers](/Documentation/Guide/Widgets/Map/Configure_Markers/) and [routes](/Documentation/Guide/Widgets/Map/Configure_Routes/). To disable this behavior, assign **false** to the [autoAdjust](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#autoAdjust) option.
 
     <!--JavaScript-->
     $(function() {

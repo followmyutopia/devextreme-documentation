@@ -11,7 +11,7 @@ As illustrated in the image above, the pager consists of a page navigator and a 
 		}
     });
 
-By default, the page navigator contains page numbers only. Clicking a page number navigates the user to that page. Additionally, the page navigator can contain buttons that navigate the user to the previous or next page. To make them visible, assign *true* to the [showNavigationButtons](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#showNavigationButtons) property.
+By default, the page navigator contains page numbers only. Clicking a page number navigates the user to that page. Additionally, the page navigator can contain buttons that navigate the user to the previous or next page. To make them visible, assign **true** to the [showNavigationButtons](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#showNavigationButtons) property.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...
@@ -21,7 +21,7 @@ By default, the page navigator contains page numbers only. Clicking a page numbe
 		}
     });
 
-Moreover, you can accompany the page navigator with a text displaying information on the current page number and the total page count. To make this text visible, assign *true* to the [showInfo](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#showInfo) property. To change this text, use the [infoText](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#infoText) property.
+Moreover, you can accompany the page navigator with a text displaying information on the current page number and the total page count. To make this text visible, assign **true** to the [showInfo](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#showInfo) property. To change this text, use the [infoText](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#infoText) property.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...
@@ -32,7 +32,7 @@ Moreover, you can accompany the page navigator with a text displaying informatio
 		}
     });
 
-The page size selector contains page sizes that can be selected. They are specified by the [allowedPageSizes](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#allowedPageSizes) option of the **pager** configuration object. Note that the page size selector is hidden by default. To make it visible, assign *true* to the [showPageSizeSelector](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#showPageSizeSelector) option of the same object.
+The page size selector contains page sizes that can be selected. They are specified by the [allowedPageSizes](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#allowedPageSizes) option of the **pager** configuration object. Note that the page size selector is hidden by default. To make it visible, assign **true** to the [showPageSizeSelector](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#showPageSizeSelector) option of the same object.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...

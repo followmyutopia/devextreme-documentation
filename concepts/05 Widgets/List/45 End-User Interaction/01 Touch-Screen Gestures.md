@@ -40,7 +40,7 @@ Long tap can be used to access the commands of the [context menu](/Documentation
         });
 
 - **Pull Down to Refresh**          
-This gesture refreshes data in the **List**. To enable it, assign *true* to the [pullRefreshEnabled](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#pullRefreshEnabled) option.
+This gesture refreshes data in the **List**. To enable it, assign **true** to the [pullRefreshEnabled](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#pullRefreshEnabled) option.
 
         <!--JavaScript-->
         $(function() {

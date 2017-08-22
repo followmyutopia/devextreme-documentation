@@ -1,4 +1,4 @@
-If the user should be able to collapse or expand a group in the **List**, set the [collapsibleGroups](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#collapsibleGroups) option to *true*. In this case, the user can collapse or expand a group with a click on the group header.
+If the user should be able to collapse or expand a group in the **List**, set the [collapsibleGroups](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#collapsibleGroups) option to **true**. In this case, the user can collapse or expand a group with a click on the group header.
 
     <!--JavaScript-->var fruitsVegetables = [{
         key: "Fruits",

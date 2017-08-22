@@ -1,4 +1,4 @@
-If only a single node should be in the selected state at a time, set the [selectByClick](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#selectByClick) option to *true*. In this case, an end user can select a node simply by clicking it.
+If only a single node should be in the selected state at a time, set the [selectByClick](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#selectByClick) option to **true**. In this case, an end user can select a node simply by clicking it.
 
     <!--JavaScript-->$(function() {
         $("#treeViewContainer").dxTreeView({

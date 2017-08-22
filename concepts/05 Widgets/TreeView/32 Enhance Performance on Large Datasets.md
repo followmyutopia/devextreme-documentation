@@ -2,9 +2,9 @@ If the **TreeView** performance is low, consider enabling the Virtual Mode. In t
 
 - It has a [plain structure](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data).
 - Root nodes have the [parentId](/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/#parentId) field set to the [rootValue](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#rootValue).
-- Nodes that do not have children, have the [hasItems](/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/#hasItems) field set to *false*.
+- Nodes that do not have children, have the [hasItems](/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/#hasItems) field set to **false**.
 
-To enable the Virtual Mode, set the [virtualModeEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#virtualModeEnabled) option to *true*.
+To enable the Virtual Mode, set the [virtualModeEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#virtualModeEnabled) option to **true**.
 
     <!--JavaScript-->var plainData = [
         { id: 1,  text: 'Fruits',     parentId: -1 },

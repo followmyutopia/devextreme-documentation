@@ -6,7 +6,7 @@ Although regular series points cannot be indicated on a sparkline, certain serie
 
 ![DevExtreme ChartJS Sparkline](/Content/images/doc/17_2/ChartJS/SparklineExtremePoints.png)
 
-To make the maximum and minimum series points indicated on a sparkline, set the [showMinMax](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#showMinMax) option to *true*.
+To make the maximum and minimum series points indicated on a sparkline, set the [showMinMax](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#showMinMax) option to **true**.
 
 	<!--JavaScript-->var sparklineOptions = {
 		showMinMax: true,

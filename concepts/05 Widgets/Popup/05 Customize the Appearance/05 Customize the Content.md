@@ -1,4 +1,4 @@
-By default, the **Popup** is displayed in a windowed mode. To show it full-screen, assign *true* to the [fullScreen](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#fullScreen) option. 
+By default, the **Popup** is displayed in a windowed mode. To show it full-screen, assign **true** to the [fullScreen](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#fullScreen) option. 
 
     <!--JavaScript-->
     $(function() {

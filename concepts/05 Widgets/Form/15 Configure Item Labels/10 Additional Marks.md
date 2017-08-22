@@ -1,6 +1,6 @@
-[Simple items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/) may require a value or may allow a user to skip it. Both types of items can be marked with a symbol or text. Required items are those whose [isRequired](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#isRequired) option is *true*, others are considered optional.
+[Simple items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/) may require a value or may allow a user to skip it. Both types of items can be marked with a symbol or text. Required items are those whose [isRequired](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#isRequired) option is **true**, others are considered optional.
 
-To specify the mark or text for required and optional items, use the [requiredMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#requiredMark) and [optionalMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#optionalMark) options. Note that the "optional" mark will not be displayed until you set the [showOptionalMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showOptionalMark) option to *true*. You can also hide the "required" mark using the [showRequiredMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showRequiredMark) option.
+To specify the mark or text for required and optional items, use the [requiredMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#requiredMark) and [optionalMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#optionalMark) options. Note that the "optional" mark will not be displayed until you set the [showOptionalMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showOptionalMark) option to **true**. You can also hide the "required" mark using the [showRequiredMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showRequiredMark) option.
 
     <!--JavaScript-->
     $(function() {
@@ -21,7 +21,7 @@ To specify the mark or text for required and optional items, use the [requiredMa
         });
     });
 
-Each label ends with a colon. To hide it, assign *false* to the [showColonAfterLabel](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showColonAfterLabel) option. Note that you can show/hide a colon for an individual item using the **label** | [showColon](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/label/#showColon) option.
+Each label ends with a colon. To hide it, assign **false** to the [showColonAfterLabel](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showColonAfterLabel) option. Note that you can show/hide a colon for an individual item using the **label** | [showColon](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/label/#showColon) option.
 
     $(function() {
         $("#formContainer").dxForm({

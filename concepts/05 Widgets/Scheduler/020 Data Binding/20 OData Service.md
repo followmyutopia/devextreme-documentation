@@ -77,7 +77,7 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 
 ---
 
-[note]If you define the **ODataStore** within the **DataSource**, set the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to *false*. This is needed to prevent data from being partitioned as the **Scheduler** does not support paging.
+[note]If you define the **ODataStore** within the **DataSource**, set the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to **false**. This is needed to prevent data from being partitioned as the **Scheduler** does not support paging.
 
 #####See Also#####
 - [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores)

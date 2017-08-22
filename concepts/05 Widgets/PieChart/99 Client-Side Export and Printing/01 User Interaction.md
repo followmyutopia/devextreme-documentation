@@ -2,7 +2,7 @@ To export or print the **PieChart**, a user clicks the *"Exporting/Printing"* bu
 
 ![DevExtreme HTML5 JavaScript PieChart Export Menu](/Content/images/doc/17_2/PieChart/visual_elements/export_menu.png)
 
-To enable both export and printing, assign **true** to the [export](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/export/).**enabled** option. If you need only export to be available to the user, disable printing by assigning *false* to the **export**.[printingEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/export/#printingEnabled) option.
+To enable both export and printing, assign **true** to the [export](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/export/).**enabled** option. If you need only export to be available to the user, disable printing by assigning **false** to the **export**.[printingEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/export/#printingEnabled) option.
 
 ---
 ##### jQuery

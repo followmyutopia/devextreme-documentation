@@ -1,4 +1,4 @@
-﻿Each [major scale tick](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Scale/Major_Scale_Ticks) is accompanied with a scale label. This label displays the value of the tick.
+Each [major scale tick](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Scale/Major_Scale_Ticks) is accompanied with a scale label. This label displays the value of the tick.
 
 ![ChartJS RangeSelector](/Content/images/doc/17_2/ChartJS/RangeSelectorScaleLabels.png)
 
@@ -17,7 +17,7 @@ To customize scale labels, use the options of the [label](/Documentation/ApiRefe
  A brief overview of the scale label options is given below.
 
 - **Visibility**	
- By default, scale labels are visible. To hide them, set the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/label/#visible) option to *false*.
+ By default, scale labels are visible. To hide them, set the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/label/#visible) option to **false**.
 
 - **Text Customization**	
 You can specify a [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/label/#format) for the value displayed by a label. Moreover, you are not limited to displaying the tick value only - you can customize the label's text per your requirements using the [customizeText](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/label/#customizeText) option.

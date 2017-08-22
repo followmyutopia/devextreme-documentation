@@ -34,7 +34,7 @@ If a user updates a [recurring appointment](/Documentation/Guide/Widgets/Schedul
 
 ---
 
-To prevent a user from updating an appointment, set the **editing** | [allowUpdating](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/editing/#allowUpdating) option to *false*.
+To prevent a user from updating an appointment, set the **editing** | [allowUpdating](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/editing/#allowUpdating) option to **false**.
 
 ---
 

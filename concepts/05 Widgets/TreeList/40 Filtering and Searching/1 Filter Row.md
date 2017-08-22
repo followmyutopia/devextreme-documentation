@@ -4,7 +4,7 @@ The filter row allows a user to filter data by values of individual columns. Usu
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingFilterRow/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
-To make the filter row visible, assign *true* to the [filterRow](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/) | **visible** option. You can set a column's [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option to *false* if data should never be filtered by it.
+To make the filter row visible, assign **true** to the [filterRow](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/) | **visible** option. You can set a column's [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option to **false** if data should never be filtered by it.
 
 ---
 ##### jQuery

@@ -6,7 +6,7 @@ Several such navigation stacks can be created.
 
 ![Several Navigation Stacks](/Content/images/doc/17_2/PhoneJS/SeveralNavigationStacks.png)
 
-A new navigation stack is created not only when clicking a navigation control item, but also when you call the **navigate** method of the **HtmlApplication** object passing *true* as the **root** parameter.
+A new navigation stack is created not only when clicking a navigation control item, but also when you call the **navigate** method of the **HtmlApplication** object passing **true** as the **root** parameter.
 
 	<!--JavaScript-->Application1.app.navigate('View1', { root: true });
 

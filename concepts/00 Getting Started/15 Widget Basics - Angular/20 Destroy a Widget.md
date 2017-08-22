@@ -1,4 +1,4 @@
-If you want a DevExtreme widget to be destroyed at some moment, use the [NgIf directive](https://angular.io/docs/ts/latest/api/common/index/NgIf-directive.html). In the following example, the **TextBox** widget is destroyed each time the `showTextBox` property is given *false*, and created again once this property is given *true*.
+If you want a DevExtreme widget to be destroyed at some moment, use the [NgIf directive](https://angular.io/docs/ts/latest/api/common/index/NgIf-directive.html). In the following example, the **TextBox** widget is destroyed each time the `showTextBox` property is given **false**, and created again once this property is given **true**.
 
     @Component({
         selector: 'my-app',

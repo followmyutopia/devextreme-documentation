@@ -57,7 +57,7 @@ The code snippet above will sort the *"Region"* field by [Grand Totals](/Documen
         }
     };
 
-In case you want to make initially set sorting impossible for the end-user to change, assign *false* to the [allowSorting](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#allowSorting) and/or [allowSortingBySummary](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#allowSortingBySummary) options.
+In case you want to make initially set sorting impossible for the end-user to change, assign **false** to the [allowSorting](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#allowSorting) and/or [allowSortingBySummary](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#allowSortingBySummary) options.
 
     <!--JavaScript-->var pivotGridOptions = {
         // ...

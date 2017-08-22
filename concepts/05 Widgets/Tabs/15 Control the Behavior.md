@@ -49,7 +49,7 @@ As an alternative, you can use the [selectedItem](/Documentation/ApiReference/UI
         });
     });
 
-When the total length of all tabs exceeds the **Tabs** container, the widget shows navigation buttons that help an end user scroll the tab strip. This behavior is default only for desktops. To enable it on all types of devices, assign *true* to the [showNavButtons](/Documentation/ApiReference/UI_Widgets/dxTabs/Configuration/#showNavButtons) option. Otherwise, assign *false*.
+When the total length of all tabs exceeds the **Tabs** container, the widget shows navigation buttons that help an end user scroll the tab strip. This behavior is default only for desktops. To enable it on all types of devices, assign **true** to the [showNavButtons](/Documentation/ApiReference/UI_Widgets/dxTabs/Configuration/#showNavButtons) option. Otherwise, assign **false**.
 
     <!--JavaScript-->
     $(function() {

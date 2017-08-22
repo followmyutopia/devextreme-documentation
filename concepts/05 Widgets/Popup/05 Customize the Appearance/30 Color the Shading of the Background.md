@@ -1,4 +1,4 @@
-When the **Popup** is shown, the area beneath it can be shaded. To enable this behavior, assign *true* to the [shading](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#shading) option. The shading color is specified by the [shadingColor](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#shadingColor) option.
+When the **Popup** is shown, the area beneath it can be shaded. To enable this behavior, assign **true** to the [shading](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#shading) option. The shading color is specified by the [shadingColor](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#shadingColor) option.
 
     <!--HTML-->
     <div id="popupContainer">

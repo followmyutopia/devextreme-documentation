@@ -31,7 +31,7 @@ To display a legend, define its [source](/Documentation/ApiReference/Data_Visual
 The following list provides a brief overview of legend features that can be configured using the elements of the [legends](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/) array.
 
 * **Visibility**		
-To hide the configured legend, set the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#visible) option to *false*.
+To hide the configured legend, set the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#visible) option to **false**.
 
 * **Location**		
 Use the [horizontalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#horizontalAlignment) and [verticalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#verticalAlignment) options to specify the legend's position on the map. In addition, you can change the interval between the legend and the map edges using the [margin](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/margin/) object.

@@ -18,7 +18,7 @@ The following code adds a simple **ScrollView** to your page. The [width](/Docum
         });
     });
 
-The **ScrollView** employs native scrolling on most platforms, except desktops. To employ it on all platforms without exception, assign *true* to the [useNative](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#useNative) option. Note that if you assign *false* to this option, the **ScrollView** will simulate scrolling on all platforms.
+The **ScrollView** employs native scrolling on most platforms, except desktops. To employ it on all platforms without exception, assign **true** to the [useNative](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#useNative) option. Note that if you assign **false** to this option, the **ScrollView** will simulate scrolling on all platforms.
 
     <!--JavaScript-->
     $(function() {

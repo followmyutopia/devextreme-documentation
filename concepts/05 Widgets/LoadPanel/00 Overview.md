@@ -2,7 +2,7 @@ The **LoadPanel** is an overlay widget notifying the viewer that loading is in p
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_panel-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
-The following code adds to your page a simple **LoadPanel** and a [Button](/Documentation/Guide/Widgets/Button/Overview/) that invokes it. The [closeOnOutsideClick](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#closeOnOutsideClick) option set to *true* instructs the **LoadPanel** to hide once a user clicks outside it.
+The following code adds to your page a simple **LoadPanel** and a [Button](/Documentation/Guide/Widgets/Button/Overview/) that invokes it. The [closeOnOutsideClick](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#closeOnOutsideClick) option set to **true** instructs the **LoadPanel** to hide once a user clicks outside it.
 
     <!--HTML--><div id="loadPanelContainer"></div>
     <div id="buttonContainer"></div>

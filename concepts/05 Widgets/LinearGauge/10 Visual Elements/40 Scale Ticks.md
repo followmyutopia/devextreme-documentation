@@ -15,7 +15,7 @@ To configure major and minor scale ticks, use the **scale** | [tick](/Documentat
 		}
     };
 
-Major ticks are visible by default. To display minor ticks, you need to set the **minorTick** | **visible** option to *true*. You can change the visibility of the major ticks using the same option within the **tick** configuration object.
+Major ticks are visible by default. To display minor ticks, you need to set the **minorTick** | **visible** option to **true**. You can change the visibility of the major ticks using the same option within the **tick** configuration object.
 
 By default, scale ticks are generated automatically. If you are not satisfied with the automatically generated ticks, you can specify a custom interval for major and minor ticks. To do this, use the [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/scale/#tickInterval) and [minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/scale/#minorTickInterval) options, respectively.
 

@@ -1,4 +1,4 @@
-To allow a user to add, delete and update data in the **DataGrid**, assign *true* to the corresponding field of the [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/) object. 
+To allow a user to add, delete and update data in the **DataGrid**, assign **true** to the corresponding field of the [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/) object. 
 
     <!--JavaScript-->
     $(function(){

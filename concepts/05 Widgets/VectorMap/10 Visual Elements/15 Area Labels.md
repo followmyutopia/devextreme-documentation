@@ -1,4 +1,4 @@
-﻿An area label is a text that accompanies a [map area](/Documentation/Guide/Widgets/VectorMap/Visual_Elements/#Areas). Usually, an area label displays the name of a certain geographical object, such as a country, a continent, etc. A label disappears when its area is too small and the text does not fit it. To see the small area labels, zoom in the map.
+An area label is a text that accompanies a [map area](/Documentation/Guide/Widgets/VectorMap/Visual_Elements/#Areas). Usually, an area label displays the name of a certain geographical object, such as a country, a continent, etc. A label disappears when its area is too small and the text does not fit it. To see the small area labels, zoom in the map.
 
 ![Area Labels](/Content/images/doc/17_2/ChartJS/VectorMap_Labels.png)
 
@@ -18,4 +18,4 @@ You can configure area labels using fields of the **layer** | [label](/Documenta
 
 If you use a [JSON object](/Documentation/Guide/Widgets/VectorMap/Providing_Data/#Data_for_Areas/Using_a_JSON_object) or a [Binary Source](/Documentation/Guide/Widgets/VectorMap/Providing_Data/#Data_for_Areas/Using_a_Binary_Source) as your [map data](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataSource), make sure the field you need to use for area labels is recognized by the [attribute(name)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#attributename) method correctly.
 
-To display area labels on a map, set the **layer** | **label** | [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/label/#enabled) option to *true*. You can also customize text appearance using the [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/label/font/) object.
+To display area labels on a map, set the **layer** | **label** | [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/label/#enabled) option to **true**. You can also customize text appearance using the [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/label/font/) object.

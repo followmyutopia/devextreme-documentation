@@ -17,7 +17,7 @@ To note the difference between these modes in action, see the example at the end
 The [columnChooser](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnChooser/) object also configures the appearance of the column chooser. The following features can be changed using the properties of this object.
 
 * **Availability**		
-By default, a user cannot invoke the column chooser, because its [enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnChooser/#enabled) property is set to *false*. To enable it, set this property to *true*.
+By default, a user cannot invoke the column chooser, because its [enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnChooser/#enabled) property is set to **false**. To enable it, set this property to **true**.
 
 * **Size**		
 You can change the size of the column chooser panel using the [height](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnChooser/#height) and [width](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnChooser/#width) properties.

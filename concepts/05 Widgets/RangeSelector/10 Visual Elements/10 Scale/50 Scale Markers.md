@@ -17,7 +17,7 @@ To customize scale markers, use the options of the [marker](/Documentation/ApiRe
 A brief overview of scale marker options is given below.
 
 - **Visibility**	
- By default, scale markers are visible. To hide them, set the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/marker/#visible) option to *false*.
+ By default, scale markers are visible. To hide them, set the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/marker/#visible) option to **false**.
 
 - **Text Customization**	
 You can specify a [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/marker/label/#format) for the value displayed by a marker. Moreover, you are not limited to displaying this value only - you can customize the marker's text per your requirements using the [customizeText](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/marker/label/#customizeText) option.

@@ -15,7 +15,7 @@ By default, the **Gallery** widget displays one image at a time. To fit more ima
         });
     });
 
-When distributing images along the total width, the **Gallery** may add margins between them. To eliminate them, assign *true* to the [stretchImages](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#stretchImages) option.
+When distributing images along the total width, the **Gallery** may add margins between them. To eliminate them, assign **true** to the [stretchImages](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#stretchImages) option.
 
     <!--JavaScript-->
     $(function () {
@@ -35,7 +35,7 @@ When distributing images along the total width, the **Gallery** may add margins 
 
 [note]The width of an image when it is displayed in the **Gallery** cannot exceed its actual width. 
 
-The **Gallery** widget allows you to display not only the current image, but also parts of the previous and the next ones. To enable this feature, assign *true* to the [wrapAround](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#wrapAround) option. Note that in this case, the width of images will be less than the specified **initialItemWidth**.
+The **Gallery** widget allows you to display not only the current image, but also parts of the previous and the next ones. To enable this feature, assign **true** to the [wrapAround](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#wrapAround) option. Note that in this case, the width of images will be less than the specified **initialItemWidth**.
 
     <!--JavaScript-->
     $(function () {

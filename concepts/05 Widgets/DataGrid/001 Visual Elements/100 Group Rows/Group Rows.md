@@ -4,7 +4,7 @@ Grouped records in a grid are headed by a group row, which contains the name of 
 
 [note] Although group rows look like rows, internally they are treated like cells. Therefore, in **DataGrid** documentation, you are just as likely to encounter "group row" as "group cell".
 
-A grid group can be in an expanded or collapsed state. When a group is expanded, it appears as a set of data rows headed with a group row. This state is illustrated by the image above. In the collapsed state, a group is represented by a group row only. By default, group rows appear expanded, but you may force them to appear collapsed by setting the **grouping** | [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) property to *false*.
+A grid group can be in an expanded or collapsed state. When a group is expanded, it appears as a set of data rows headed with a group row. This state is illustrated by the image above. In the collapsed state, a group is represented by a group row only. By default, group rows appear expanded, but you may force them to appear collapsed by setting the **grouping** | [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) property to **false**.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
         // ...

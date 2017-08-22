@@ -57,4 +57,4 @@ To handle the point hover event, assign a function to the [onPointHoverChanged](
 
 The **onPointHoverChanged** function accepts an object that contains information on the hover event. Among fields of this object, you can find the point whose hover state has been changed. An object that represents this point is described in the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) section. Use the [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#isHovered) method of this object to identify whether the point has been hovered over or hovered out.
 
-[note] Frequently, points that appear hovered over are not actually so, due to the *'allArgumentPoints'* or *'allSeriesPoints'* hover mode being set. For these points, the *pointHoverChanged* event does not occur and their *isHovered()* method returns *false*.
+[note] Frequently, points that appear hovered over are not actually so, due to the *'allArgumentPoints'* or *'allSeriesPoints'* hover mode being set. For these points, the *pointHoverChanged* event does not occur and their *isHovered()* method returns **false**.

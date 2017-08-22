@@ -12,7 +12,7 @@ The current page index can be accessed and modified via the [pageIndex()](/Docum
     dataSource.pageIndex(1); // Switch to the next page
     dataSource.load();
 
-To disable paging, assign *false* to the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) configuration option of the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
+To disable paging, assign **false** to the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) configuration option of the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
 
     <!--JavaScript-->
     var dataSource = new DevExpress.data.DataSource({

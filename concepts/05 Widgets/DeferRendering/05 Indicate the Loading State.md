@@ -1,4 +1,4 @@
-While the content of the **DeferRendering** widget is getting ready, the widget can display a loading indicator. It is disabled by default, so assign *true* to the [showLoadIndicator](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#showLoadIndicator) if you need to enable it.
+While the content of the **DeferRendering** widget is getting ready, the widget can display a loading indicator. It is disabled by default, so assign **true** to the [showLoadIndicator](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#showLoadIndicator) if you need to enable it.
 
     <!--HTML--><div data-options="dxView: { name: 'Products', title: 'Products' }">
         <div data-options="dxContent: { targetPlaceholder: 'content' }" data-bind="dxDeferRendering: {

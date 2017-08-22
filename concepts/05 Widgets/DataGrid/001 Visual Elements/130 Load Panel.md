@@ -13,13 +13,13 @@ As you can see in the image above, the load panel consists of a loading indicato
 The following load panel features can be changed using the properties of the **loadPanel** object.
 
 * **Availability**		
-By default, the load panel is enabled for remote data sources only. To enable it for any data source, regardless whether it is local or remote, assign *true* to the [enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/#enabled) property. To disable the load panel completely, assign *false* to the same property.
+By default, the load panel is enabled for remote data sources only. To enable it for any data source, regardless whether it is local or remote, assign **true** to the [enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/#enabled) property. To disable the load panel completely, assign **false** to the same property.
 
 * **Pane Visibility**		
-The load panel pane is visible by default. If it is not required, hide it by assigning *false* to the [showPane](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/#showPane) property.
+The load panel pane is visible by default. If it is not required, hide it by assigning **false** to the [showPane](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/#showPane) property.
 
 * **Loading Indicator Options**		
-By default, the loading indicator is visible. If you require hiding it, assign *false* to the [showIndicator](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/#showIndicator) property. Additionally, you can specify the image to be displayed as a loading indicator. For this purpose, assign the URL of this image to the [indicatorSrc](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/#indicatorSrc) property.
+By default, the loading indicator is visible. If you require hiding it, assign **false** to the [showIndicator](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/#showIndicator) property. Additionally, you can specify the image to be displayed as a loading indicator. For this purpose, assign the URL of this image to the [indicatorSrc](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/#indicatorSrc) property.
 
 * **Text**		
 To change the text displayed by the load panel, use its [text](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/loadPanel/#text) property.

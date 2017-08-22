@@ -2,7 +2,7 @@ Crosshair is a pointer represented by two mutually-crossing lines stretched over
 
 ![DevExtreme HTML5 JavaScript Charts Crosshair](/Content/images/doc/17_2/ChartJS/visual_elements/crosshair.png)
 
-To enable the crosshair, set the **crosshair** | [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/#enabled) option to *true*. To show the crosshair labels, do the same with the **crosshair** | [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/label/) | **visible** option.
+To enable the crosshair, set the **crosshair** | [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/#enabled) option to **true**. To show the crosshair labels, do the same with the **crosshair** | [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/label/) | **visible** option.
 
 ---
 ##### jQuery

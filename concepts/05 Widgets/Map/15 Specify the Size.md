@@ -10,7 +10,7 @@ The default size of the **Map** widget is 300x300 pixels. To change it, use to t
         });
     });
 
-If you prefer specifying the widget size using CSS, set the **width** and **height** options to *null*. 
+If you prefer specifying the widget size using CSS, set the **width** and **height** options to **null**. 
 
     <!--JavaScript-->
     $(function() {

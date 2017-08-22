@@ -12,7 +12,7 @@ By default, to expand/collapse a group, the user clicks its expand/collapse butt
         }
     };
 
-You can entirely disallow the user to collapse groups. For this purpose, set the **grouping** | [allowCollapsing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#allowCollapsing) option to *false*.
+You can entirely disallow the user to collapse groups. For this purpose, set the **grouping** | [allowCollapsing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#allowCollapsing) option to **false**.
 
     <!--JavaScript-->var dataGridOptions = {
         // ...

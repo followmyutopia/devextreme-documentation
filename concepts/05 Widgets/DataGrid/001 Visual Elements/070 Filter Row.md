@@ -12,7 +12,7 @@ To configure the filter row, use [filterRow](/Documentation/ApiReference/UI_Widg
 		}
     });
 
-By default, the filter row is hidden. To make it visible, set the [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#visible) property of the **filterRow** object to *true*.
+By default, the filter row is hidden. To make it visible, set the [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#visible) property of the **filterRow** object to **true**.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...
@@ -21,7 +21,7 @@ By default, the filter row is hidden. To make it visible, set the [visible](/Doc
 		}
     });
 
-A filter row can have additional elements, e.g., when a column has a *'date'* or *'boolean'* [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType), or a column is declared as a [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/) column. The image below illustrates a filter row with a date and a boolean cell. The date cell contains a calendar that helps choose a date value, while the boolean cell is a select box containing two items: *true* and *false*.
+A filter row can have additional elements, e.g., when a column has a *'date'* or *'boolean'* [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType), or a column is declared as a [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/) column. The image below illustrates a filter row with a date and a boolean cell. The date cell contains a calendar that helps choose a date value, while the boolean cell is a select box containing two items: **true** and **false**.
 
 ![DevExtreme DataGrid FilterRow](/Content/images/doc/17_2/DataGrid/FilterRow_SpecificCells.png)
 

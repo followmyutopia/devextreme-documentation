@@ -3,7 +3,7 @@ The **DataGrid** provides several methods with which to perform selection in cod
 	<!--JavaScript-->var key = dataGridInstance.keyOf(dataObject);
 	dataGridInstance.selectRows(key);
 
-[note]Calling this method with one argument deselects previously selected records. If you need these records to remain selected, call this method with *true* as the second argument.
+[note]Calling this method with one argument deselects previously selected records. If you need these records to remain selected, call this method with **true** as the second argument.
 
 Additionally, you can select rows by their indexes using the [selectRowsByIndexes(indexes)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectRowsByIndexesindexes) method. 
 

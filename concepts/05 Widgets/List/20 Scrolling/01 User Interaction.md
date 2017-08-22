@@ -1,4 +1,4 @@
-An end user can scroll the **List** with a swipe gesture and with the scrollbar. Although by default the swipe gesture is active for mobile devices and the scrollbar is active for desktops, you can force any or both of them to be used on all platforms. For this purpose, set the [scrollByContent](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#scrollByContent) or [scrollByThumb](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#scrollByThumb) option to *true*.
+An end user can scroll the **List** with a swipe gesture and with the scrollbar. Although by default the swipe gesture is active for mobile devices and the scrollbar is active for desktops, you can force any or both of them to be used on all platforms. For this purpose, set the [scrollByContent](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#scrollByContent) or [scrollByThumb](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#scrollByThumb) option to **true**.
 
     <!--JavaScript-->
     $(function() {
@@ -9,7 +9,7 @@ An end user can scroll the **List** with a swipe gesture and with the scrollbar.
         });
     });
 
-The **List** employs native scrolling on most platforms, except non-Mac desktops and devices based on Android older than version 4. To employ native scrolling on all platforms without exception, assign *true* to the [useNativeScrolling](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#useNativeScrolling) option. Note that if you assign *false* to this option, the **List** will simulate scrolling on all platforms.
+The **List** employs native scrolling on most platforms, except non-Mac desktops and devices based on Android older than version 4. To employ native scrolling on all platforms without exception, assign **true** to the [useNativeScrolling](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#useNativeScrolling) option. Note that if you assign **false** to this option, the **List** will simulate scrolling on all platforms.
 
     <!--JavaScript-->
     $(function() {
@@ -40,7 +40,7 @@ On mobile devices, the user can pull the **List** to scroll it slightly further 
         });
     });
 
-If you want to disable scrolling completely, assign *false* to the [scrollingEnabled](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#scrollingEnabled) option.
+If you want to disable scrolling completely, assign **false** to the [scrollingEnabled](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#scrollingEnabled) option.
 
     <!--JavaScript-->
     $(function() {

@@ -1,4 +1,4 @@
-﻿Follow the steps below to enable exporting.
+Follow the steps below to enable exporting.
 
 - Add a link to the JSZip library to your app/site. Learn where you can get it from topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
@@ -9,7 +9,7 @@
 
     [note]Reference the **jszip.min.js** script *before* the DevExtreme scripts.
 
-- Set the grid's [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/) | [enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#enabled) option to *true*.
+- Set the grid's [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/) | [enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#enabled) option to **true**.
 
 - Specify a default name for the resulting file using the **export** | [fileName](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#fileName) option.
 
@@ -31,7 +31,7 @@ When export is enabled, an Export button is displayed above the grid.
 
 Pressing this button, an end user can export grid data in the required format.
 
-When a possibility to export only the currently selected rows is needed, set the **export** | [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option to *true*. End users will be given a choice between exporting the total grid or selected rows only.
+When a possibility to export only the currently selected rows is needed, set the **export** | [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option to **true**. End users will be given a choice between exporting the total grid or selected rows only.
 
 ![DevExtreme DataGrid Exporting Selected Rows](/Content/images/doc/17_2/DataGrid/Export_SelectedRows.png)
 

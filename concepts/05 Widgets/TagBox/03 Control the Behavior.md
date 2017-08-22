@@ -14,7 +14,7 @@ By default, the **TagBox** closes the drop-down list _immediately_ after a user 
         });
     });
 
-When selected items overflow the input field, they are arranged in several lines. To disable this behavior, set the [multiline](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#multiline) option to *false*.
+When selected items overflow the input field, they are arranged in several lines. To disable this behavior, set the [multiline](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#multiline) option to **false**.
 
     <!--JavaScript-->
     $(function() {
@@ -29,7 +29,7 @@ When selected items overflow the input field, they are arranged in several lines
         });
     });
 
-By default, selected items stay in the drop-down list. If they should be hidden after being selected, set the [hideSelectedItems](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#hideSelectedItems) option to *true*.
+By default, selected items stay in the drop-down list. If they should be hidden after being selected, set the [hideSelectedItems](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#hideSelectedItems) option to **true**.
 
     <!--JavaScript-->
     $(function() {
@@ -44,7 +44,7 @@ By default, selected items stay in the drop-down list. If they should be hidden 
         });
     });
 
-The **TagBox** allows a user to clear selection in one click on the **Clear** button. To show this button, assign *true* to the [showClearButton](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#showClearButton) option.
+The **TagBox** allows a user to clear selection in one click on the **Clear** button. To show this button, assign **true** to the [showClearButton](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#showClearButton) option.
 
     <!--JavaScript-->
     $(function() {

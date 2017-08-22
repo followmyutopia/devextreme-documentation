@@ -52,7 +52,7 @@ To configure point labels, use the fields of the [label](/Documentation/ApiRefer
 
 ---
 
-Point labels are not visible by default. To make them visible, assign *true* to the **label** | **visible** option. With this configuration, point labels are displayed detached from their respective series points. You can make the connection between labels and points more evident by making label connectors visible. For this purpose, assign *true* to the **label** | [connector](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/label/connector/) | **visible** option.
+Point labels are not visible by default. To make them visible, assign **true** to the **label** | **visible** option. With this configuration, point labels are displayed detached from their respective series points. You can make the connection between labels and points more evident by making label connectors visible. For this purpose, assign **true** to the **label** | [connector](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/label/connector/) | **visible** option.
 
 ---
 ##### jQuery

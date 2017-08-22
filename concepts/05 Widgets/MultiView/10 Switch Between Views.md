@@ -1,4 +1,4 @@
-By default, an end user can switch between views by swiping. Assign *false* to the [swipeEnabled](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#swipeEnabled) option to disable this feature.
+By default, an end user can switch between views by swiping. Assign **false** to the [swipeEnabled](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#swipeEnabled) option to disable this feature.
 
     <!--JavaScript-->
     $(function() {
@@ -12,7 +12,7 @@ You can switch the views from code by changing the [selectedIndex](/Documentatio
 
     <!--JavaScript-->$("#multiViewContainer").dxMultiView("option", "selectedIndex", 1);
 
-By default, the **MultiView** widget animates switching between views. You can disable animation by setting the [animationEnabled](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#animationEnabled) option to *false*.
+By default, the **MultiView** widget animates switching between views. You can disable animation by setting the [animationEnabled](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#animationEnabled) option to **false**.
 
     <!--JavaScript-->
     $(function() {

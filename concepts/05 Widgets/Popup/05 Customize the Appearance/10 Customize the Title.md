@@ -1,4 +1,4 @@
-By default, the **Popup** allocates a part of its area to the title, regardless of whether you specified the title text or did not. To hide the title, set the [showTitle](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#showTitle) option to *false*. Besides the text, the title area also contains a button that closes the **Popup**. To hide this button alone, assign *false* to the [showCloseButton](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#showCloseButton) option. 
+By default, the **Popup** allocates a part of its area to the title, regardless of whether you specified the title text or did not. To hide the title, set the [showTitle](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#showTitle) option to **false**. Besides the text, the title area also contains a button that closes the **Popup**. To hide this button alone, assign **false** to the [showCloseButton](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#showCloseButton) option. 
 
     <!--JavaScript-->$(function() {
         $("#popupContainer").dxPopup({

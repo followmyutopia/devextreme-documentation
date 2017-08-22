@@ -2,7 +2,7 @@ The **Scheduler** shows all available resource kinds in the appointment details 
 
 ![Scheduler Appointment Resources](/Content/images/doc/17_2/UiWidgets/Scheduler_Resources_SelectBox.png)
 
-To allow multiple resources, assign *true* to the [allowMultiple](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#allowMultiple) option of the corresponding resource kind. 
+To allow multiple resources, assign **true** to the [allowMultiple](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#allowMultiple) option of the corresponding resource kind. 
 
     <!--JavaScript-->
     var resources = [

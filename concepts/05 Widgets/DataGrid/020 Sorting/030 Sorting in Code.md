@@ -60,7 +60,7 @@ Alternatively, the **calculateSortValue** option can accept the name of the data
 
 ####Clear Sorting in Code
 
-To clear sorting settings of a column, assign *undefined* to the **sortIndex** option of this column using the **columnOption** method. The following command clears sorting settings from a *"Position"* column.
+To clear sorting settings of a column, assign **undefined** to the **sortIndex** option of this column using the **columnOption** method. The following command clears sorting settings from a *"Position"* column.
 
     <!--JavaScript-->dataGridInstance.columnOption('Position', 'sortIndex', undefined);
 

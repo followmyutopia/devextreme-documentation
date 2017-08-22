@@ -1,5 +1,5 @@
-Set the [allowColumnReordering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#allowColumnReordering) option to *true* to allow a user to reorder columns. 
-If a specific column should not be moved, set its [allowReordering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowReordering) option to *false*.
+Set the [allowColumnReordering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#allowColumnReordering) option to **true** to allow a user to reorder columns. 
+If a specific column should not be moved, set its [allowReordering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowReordering) option to **false**.
 
 ---
 ##### jQuery

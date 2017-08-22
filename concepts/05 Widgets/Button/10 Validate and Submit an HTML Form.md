@@ -1,6 +1,6 @@
 [note]In MVC projects, you can configure the same features using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/). See [this topic](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_an_HTML_Form/) for details.
 
-Commonly, editors nested into an HTML form are supposed to be validated on the client and then submitted to the server. The **Button** widget supports this scenario out of the box. Place the **Button** on the HTML form and set the [useSubmitBehavior](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#useSubmitBehavior) option to *true*.
+Commonly, editors nested into an HTML form are supposed to be validated on the client and then submitted to the server. The **Button** widget supports this scenario out of the box. Place the **Button** on the HTML form and set the [useSubmitBehavior](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#useSubmitBehavior) option to **true**.
 
     <!--HTML--><form action="/Login" method="post">
         <div id="login"></div>

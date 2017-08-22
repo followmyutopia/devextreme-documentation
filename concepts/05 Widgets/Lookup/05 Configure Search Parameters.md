@@ -56,7 +56,7 @@ There is a delay between the moment a user finishes typing and the moment the **
         });
     });
 
-The **Lookup** widget also clears previous search results before the drop-down menu is displayed by default. Assign *false* to the [cleanSearchOnOpening](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#cleanSearchOnOpening) option to keep them.
+The **Lookup** widget also clears previous search results before the drop-down menu is displayed by default. Assign **false** to the [cleanSearchOnOpening](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#cleanSearchOnOpening) option to keep them.
 
     <!--JavaScript-->$(function() {
         $("#lookupContainer").dxLookup({
@@ -65,7 +65,7 @@ The **Lookup** widget also clears previous search results before the drop-down m
         });
     });
 
-Assign *false* to the [searchEnabled](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#searchEnabled) option if you need to disable searching.
+Assign **false** to the [searchEnabled](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#searchEnabled) option if you need to disable searching.
 
     <!--JavaScript-->$(function() {
         $("#lookupContainer").dxLookup({

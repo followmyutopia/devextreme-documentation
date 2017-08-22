@@ -15,7 +15,7 @@ To change the size of the **Popup**, specify the [height](/Documentation/ApiRefe
         });
     });
 
-To allow an end user to resize the **Popup**, assign *true* to the [resizeEnabled](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#resizeEnabled) option.
+To allow an end user to resize the **Popup**, assign **true** to the [resizeEnabled](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#resizeEnabled) option.
 
     <!--JavaScript-->
     $(function() {
@@ -42,7 +42,7 @@ If you need to position the **Popup** against a specific element on your page, s
 
 This configuration of the **position** option reads as follows: "place **my** _left_ side **at** the _left_ side **of** the *"#targetElement"*.
 
-By default, an end user is allowed to change the **Popup** position only on desktops. To enable this feature on other devices too, set the [dragEnabled](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#dragEnabled) option to *true*. Note that the user drags the **Popup** by its title, so the title should _not_ be hidden.  
+By default, an end user is allowed to change the **Popup** position only on desktops. To enable this feature on other devices too, set the [dragEnabled](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#dragEnabled) option to **true**. Note that the user drags the **Popup** by its title, so the title should _not_ be hidden.  
 
     <!--JavaScript-->$(function() {
         $("#popupContainer").dxPopup({

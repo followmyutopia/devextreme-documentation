@@ -1,4 +1,4 @@
-By default, the **Popover** is displayed without a title. To add it, set the [showTitle](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#showTitle) option to *true* and specify the title text using the [title](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#title) option. The title can contain a button that closes the **Popover**. To enable it, assign *true* to the [showCloseButton](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#showCloseButton) option. 
+By default, the **Popover** is displayed without a title. To add it, set the [showTitle](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#showTitle) option to **true** and specify the title text using the [title](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#title) option. The title can contain a button that closes the **Popover**. To enable it, assign **true** to the [showCloseButton](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#showCloseButton) option. 
 
     <!--JavaScript-->$(function() {
         $("#popoverContainer").dxPopover({

@@ -2,7 +2,7 @@ An all-day appointment is a non-recurring appointment that lasts all day.
 
 ![Scheduler All-Day Appointment](/Content/images/doc/17_2/UiWidgets/Scheduler_AllDayAppointment.png)
 
-An object defining an all-day appointment should have the [allDay](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#allDay) field set to *true* and the [startDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#startDate) field specified; [endDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#endDate) is optional.
+An object defining an all-day appointment should have the [allDay](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#allDay) field set to **true** and the [startDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#startDate) field specified; [endDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#endDate) is optional.
 
     <!--JavaScript-->
     var allDayAppointment = [{
@@ -55,4 +55,4 @@ In the UI, to mark an appointment as all-day, toggle the *"All day"* switcher on
 
 ![Scheduler All Day Appointment Details](/Content/images/doc/17_2/UiWidgets/Scheduler_AllDayAppointment_Details.png)
 
-All-day appointments are displayed in the all-day panel, which is visible by default. If you do not intend to use such appointments, hide the all-day panel by assigning *false* to the [showAllDayPanel](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#showAllDayPanel) option.
+All-day appointments are displayed in the all-day panel, which is visible by default. If you do not intend to use such appointments, hide the all-day panel by assigning **false** to the [showAllDayPanel](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#showAllDayPanel) option.

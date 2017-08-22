@@ -13,7 +13,7 @@ Bar labels can be tuned using [label](/Documentation/ApiReference/Data_Visualiza
 These options are briefly described below.
 
 - **Visibility**	
-Bar labels are displayed by default. To hide them, assign *false* to the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#visible) option or directly to the **label** field.
+Bar labels are displayed by default. To hide them, assign **false** to the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#visible) option or directly to the **label** field.
 
 - **Text Customization**	
 You can specify a [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#format) for the value displayed by a label. Moreover, you are not limited to displaying the value of a bar only - you can customize the label's text per your requirements using the [customizeText](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#customizeText) option.

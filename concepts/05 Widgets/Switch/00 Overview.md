@@ -1,4 +1,4 @@
-The **Switch** is a widget that can be in two states: "On" (when [value](/Documentation/ApiReference/UI_Widgets/dxSwitch/Configuration/#value) is *true*) and "Off" (when [value](/Documentation/ApiReference/UI_Widgets/dxSwitch/Configuration/#value) is *false*).
+The **Switch** is a widget that can be in two states: "On" (when [value](/Documentation/ApiReference/UI_Widgets/dxSwitch/Configuration/#value) is **true**) and "Off" (when [value](/Documentation/ApiReference/UI_Widgets/dxSwitch/Configuration/#value) is **false**).
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-switch-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

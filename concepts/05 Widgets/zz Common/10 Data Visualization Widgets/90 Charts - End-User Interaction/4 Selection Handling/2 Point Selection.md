@@ -70,7 +70,7 @@ To handle the point selection event, assign a function to the [onPointSelectionC
 
 The **onPointSelectionChanged** function accepts an object that contains information on the selection event. Among fields of this object, you can find the point whose selection state has been changed. An object that represents this point is described in the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) section. Use the [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/Methods/#isSelected) method of this object to check the selection state of a point.
 
-[note] Frequently, points that appear selected are not actually so, due to the *'allArgumentPoints'* or *'allSeriesPoints'* selection mode having been set. For these points, the *pointSelectionChanged* event does not occur and their *isSelected()* method returns *false*.
+[note] Frequently, points that appear selected are not actually so, due to the *'allArgumentPoints'* or *'allSeriesPoints'* selection mode having been set. For these points, the *pointSelectionChanged* event does not occur and their *isSelected()* method returns **false**.
     
 To clear the point selection, call the **clearSelection()** method of the point or the same method of its parent series.
 

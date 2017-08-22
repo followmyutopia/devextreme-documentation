@@ -8,7 +8,7 @@ If you need to group menu items, group them in the data source as shown in the f
         items: ["Music", "Photos", "Downloads"]
     }];
 
-To let the widget know that data it works with is grouped, assign *true* to the [menuGrouped](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#menuGrouped) option.
+To let the widget know that data it works with is grouped, assign **true** to the [menuGrouped](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#menuGrouped) option.
 
     <!--JavaScript-->$(function () {
         $("#slideOutContainer").dxSlideOut({

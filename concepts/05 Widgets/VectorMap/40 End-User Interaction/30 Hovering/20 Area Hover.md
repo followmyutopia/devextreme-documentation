@@ -1,4 +1,4 @@
-Hover-related area settings reside in the [layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/) configuration object. By default, areas already respond to hovering over them, so there is no need to specify any options. But if this feature is not required, assign *false* to the [hoverEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#hoverEnabled) field of the area **layer**.
+Hover-related area settings reside in the [layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/) configuration object. By default, areas already respond to hovering over them, so there is no need to specify any options. But if this feature is not required, assign **false** to the [hoverEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#hoverEnabled) field of the area **layer**.
 
 	<!--JavaScript-->var vectorMapCfg = {
         // ...

@@ -12,7 +12,7 @@ The **filter(filterExpr)** method applied the specified filter to the grid's dat
 
 	<!--JavaScript-->dataGridInstance.clearFilter();
 
-A user-specified filter can also be cleared from code. For this purpose, assign *undefined* to the [filterValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValue) option of the required column using the [columnOption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method.
+A user-specified filter can also be cleared from code. For this purpose, assign **undefined** to the [filterValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValue) option of the required column using the [columnOption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method.
 	
 	<!--JavaScript-->dataGridInstance.columnOption('columnId', 'filterValue', undefined);
 

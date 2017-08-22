@@ -2,7 +2,7 @@ A tooltip is a small pop-up rectangle that displays information on a hovered val
 
 <img src="/Content/images/doc/17_2/ChartJS/CircularGaugeTooltip.png" alt="DevExtreme HTML5 JavaScript Gauges  CircularGaugeTooltip" style="display:block; margin:0 auto" />
 
-Tooltips are not enabled by default. To enable them, set the **enabled** option of the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/tooltip/) object to *true*.
+Tooltips are not enabled by default. To enable them, set the **enabled** option of the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/tooltip/) object to **true**.
 
 	<!--JavaScript-->var gaugeOptions = {
 		tooltip: {

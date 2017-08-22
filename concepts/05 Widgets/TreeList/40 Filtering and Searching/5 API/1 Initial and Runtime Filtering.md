@@ -165,7 +165,7 @@ All the aforementioned options and methods filter data that was returned by the 
     
 ---
 
-Since there are many ways to filter data, you may need to get a filter combined from all applied filters. For this, call the [getCombinedFilter()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getCombinedFilter) method. It returns the filter with [getters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) by default. Call it passing *true* as the argument to get the combined filter with [data fields](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataField).
+Since there are many ways to filter data, you may need to get a filter combined from all applied filters. For this, call the [getCombinedFilter()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getCombinedFilter) method. It returns the filter with [getters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) by default. Call it passing **true** as the argument to get the combined filter with [data fields](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataField).
 
 ---
 ##### jQuery

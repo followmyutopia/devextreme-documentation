@@ -2,7 +2,7 @@ When the **Chart** visualizes local data, loading is instant. But when the **Cha
 
 ![DevExtreme HTML5 JavaScript Charts LoadingIndicator](/Content/images/doc/17_2/ChartJS/visual_elements/loading_indicator.png)
 
-To activate the loading indicator, assign *true* to the [loadingIndicator](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/loadingIndicator/) | **show** option. Once data is loaded, the loading indicator will be hidden automatically.
+To activate the loading indicator, assign **true** to the [loadingIndicator](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/loadingIndicator/) | **show** option. Once data is loaded, the loading indicator will be hidden automatically.
 
 ---
 ##### jQuery

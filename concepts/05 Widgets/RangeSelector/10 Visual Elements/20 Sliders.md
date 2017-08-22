@@ -5,7 +5,7 @@ In the **RangeSelector** widget, sliders perform as the elements of control. By 
 There are two sliders on a range selector: left and right. Each slider consists of a handle and a marker, whose appearance can be specified using the [sliderHandle](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderHandle/) and [sliderMarker](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker/) configuration objects, respectively. The **sliderHandle** object does not have many options. You can change the color, opacity and width of slider handles using the corresponding fields of this object. In contrast, the **sliderMarker** object has more options. A brief overview of them is given below.
 
 - **Visibility**	
-Slider markers are displayed by default. To hide them, assign *false* to the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker/#visible) option.
+Slider markers are displayed by default. To hide them, assign **false** to the [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker/#visible) option.
 
 - **Text Customization**	
 You can specify a [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker/#format) for the values displayed by slider markers. Moreover, you are not limited to displaying only the values - you can customize the marker's text per your requirements using the [customizeText](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker/#customizeText) option.

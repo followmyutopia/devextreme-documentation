@@ -22,7 +22,7 @@ The object defining a layout within a layout set should expose the following fie
 - **root**  
 	Indicates whether or not the view to which the application navigates must be a root view (the view that is available from global navigation).
 - **customResolveRequired**  
-	Indicates whether or not the specified layout controller must be excluded when choosing the most appropriate controller for a view. When you set this field to *true*, it is implied that you will set it for views manually in a custom context. For this purpose, use the **resolveLayoutController** event (read below).
+	Indicates whether or not the specified layout controller must be excluded when choosing the most appropriate controller for a view. When you set this field to **true**, it is implied that you will set it for views manually in a custom context. For this purpose, use the **resolveLayoutController** event (read below).
 - **modal**  
 	Indicates whether or not the specified layout controller must be used to manage a modal view display.
 - Any field of the [device](/Documentation/ApiReference/Common/Object_Structures/device/) object.  

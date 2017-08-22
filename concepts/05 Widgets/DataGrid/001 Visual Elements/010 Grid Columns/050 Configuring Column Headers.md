@@ -22,7 +22,7 @@ Column headers in **DataGrid** are also used for sorting. To apply sorting to a 
 
 ![DevExtreme DataGrid ColumnHeaders](/Content/images/doc/17_2/DataGrid/ColumnHeadersWithSorting.png)
 
-In case column headers are not required, hide them by assigning *false* to the grid's [showColumnHeaders](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#showColumnHeaders) property.
+In case column headers are not required, hide them by assigning **false** to the grid's [showColumnHeaders](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#showColumnHeaders) property.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...

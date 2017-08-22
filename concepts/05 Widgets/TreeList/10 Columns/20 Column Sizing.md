@@ -29,7 +29,7 @@ If you do not explicitly specify certain columns' [width](/Documentation/ApiRefe
     
 ---
 
-Set the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnAutoWidth) option to *true* to make all columns adjust their widths to their content.
+Set the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnAutoWidth) option to **true** to make all columns adjust their widths to their content.
 
 ---
 ##### jQuery
@@ -51,7 +51,7 @@ Set the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Conf
     
 ---
 
-The widget allows a user to resize columns in two different modes: by changing the width of the next column or the width of the widget. To enable this functionality and set the mode, specify the [allowColumnResizing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#allowColumnResizing) and [columnResizingMode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnResizingMode) options, respectively. Note that you can prevent a specific column from being resized by assigning *false* to its [allowResizing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowResizing) option.
+The widget allows a user to resize columns in two different modes: by changing the width of the next column or the width of the widget. To enable this functionality and set the mode, specify the [allowColumnResizing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#allowColumnResizing) and [columnResizingMode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnResizingMode) options, respectively. Note that you can prevent a specific column from being resized by assigning **false** to its [allowResizing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowResizing) option.
 
 ---
 ##### jQuery

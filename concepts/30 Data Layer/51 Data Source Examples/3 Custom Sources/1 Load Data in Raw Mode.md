@@ -15,7 +15,7 @@ Once loaded, data is stored in the cache. If you need to clear the cache at some
     <!--JavaScript-->
     store.clearRawDataCache();
 
-To switch data caching off, assign *false* to the [cacheRawData](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#cacheRawData) option. Note that in this case, the CustomStore will reload all data on every call of the **load**, **byKey** and **totalCount** functions.
+To switch data caching off, assign **false** to the [cacheRawData](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#cacheRawData) option. Note that in this case, the CustomStore will reload all data on every call of the **load**, **byKey** and **totalCount** functions.
 
     <!--JavaScript-->
     var store = new DevExpress.data.CustomStore({

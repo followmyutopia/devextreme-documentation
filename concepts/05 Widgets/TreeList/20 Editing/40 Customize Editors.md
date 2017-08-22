@@ -105,7 +105,7 @@ Implement the **columns[]** | [editCellTemplate](/Documentation/ApiReference/UI_
     
 ---
 
-Editors are displayed in cells in the normal state too if you set the **columns** | [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways) option to *true*.
+Editors are displayed in cells in the normal state too if you set the **columns** | [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways) option to **true**.
 
 ---
 ##### jQuery

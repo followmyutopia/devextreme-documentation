@@ -15,4 +15,4 @@ Create a JavaScript file giving the *localization.XX.js* name to it, replacing X
         }
     });
 
-[note]If you generated a default dictionary for your application, but then added more keys to the application, call the **getDictionary** utility with *true* passed as a parameter. The returned object will include only the keys that are not contained in the application's dictionaries.
+[note]If you generated a default dictionary for your application, but then added more keys to the application, call the **getDictionary** utility with **true** passed as a parameter. The returned object will include only the keys that are not contained in the application's dictionaries.

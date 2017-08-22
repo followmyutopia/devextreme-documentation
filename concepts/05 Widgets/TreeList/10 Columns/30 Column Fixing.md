@@ -2,7 +2,7 @@ In some cases, the widget contains so many columns that they cause horizontal sc
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList ColumnFixing](/Content/images/doc/17_2/treelist/visual_elements/column_fixing.png)
 
-To allow this, set the **columnFixing** | [enabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columnFixing/#enabled) option to *true*. If a user should never fix (or unfix) a specific column, set its [allowFixing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFixing) option to *false*.
+To allow this, set the **columnFixing** | [enabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columnFixing/#enabled) option to **true**. If a user should never fix (or unfix) a specific column, set its [allowFixing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFixing) option to **false**.
 
 ---
 ##### jQuery
@@ -29,7 +29,7 @@ To allow this, set the **columnFixing** | [enabled](/Documentation/ApiReference/
     
 ---
 
-If a column should be fixed initially, assign *true* to its [fixed](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixed) option and specify its target position in the widget using the [fixedPosition](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixedPosition) option.
+If a column should be fixed initially, assign **true** to its [fixed](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixed) option and specify its target position in the widget using the [fixedPosition](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixedPosition) option.
 
 ---
 ##### jQuery
@@ -53,9 +53,9 @@ If a column should be fixed initially, assign *true* to its [fixed](/Documentati
     
 ---
 
-[note] Once you assign *true* to the **columnFixing** | **enabled** or **fixed** option, [command columns](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/) become fixed automatically.
+[note] Once you assign **true** to the **columnFixing** | **enabled** or **fixed** option, [command columns](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/) become fixed automatically.
 
-Since column fixing is effective only with horizontal scrolling, using it makes sense only if the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnAutoWidth) option is *false* and when the total width of columns exceeds the container width. Otherwise, fixed columns behave just like regular ones.
+Since column fixing is effective only with horizontal scrolling, using it makes sense only if the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnAutoWidth) option is **false** and when the total width of columns exceeds the container width. Otherwise, fixed columns behave just like regular ones.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/ColumnFixing/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

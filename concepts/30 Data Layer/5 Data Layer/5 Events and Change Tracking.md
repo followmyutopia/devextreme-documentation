@@ -61,7 +61,7 @@ Usually, a data-bound application contains a list view displaying list data, and
 
 ![Store Events](/Content/images/doc/17_2/PhoneJS/scheme-change-tracking.png)
 
-The following example illustrates how to implement a ViewModel for a list view in a [DevExtreme application](/Documentation/Guide/SPA_Framework/Application_Development/). In this example, when the **modified** event is raised, the **shouldReload** flag is set to *true*, which causes the reloading of data when the list view is being shown.
+The following example illustrates how to implement a ViewModel for a list view in a [DevExtreme application](/Documentation/Guide/SPA_Framework/Application_Development/). In this example, when the **modified** event is raised, the **shouldReload** flag is set to **true**, which causes the reloading of data when the list view is being shown.
 
     <!--JavaScript-->
     // A shared Store declaration

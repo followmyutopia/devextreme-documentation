@@ -29,7 +29,7 @@ The **TreeList** caches data by default. This allows the widget to decrease the 
 
 [note]When data processing operations are [delegated to the server](/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/), data is loaded every time these operations are performed even if caching is enabled. 
 
-If your data source changes frequently, disable caching by assigning *false* to the **cacheEnabled** option. 
+If your data source changes frequently, disable caching by assigning **false** to the **cacheEnabled** option. 
 
 ---
 ##### jQuery

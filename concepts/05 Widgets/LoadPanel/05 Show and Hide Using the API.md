@@ -1,6 +1,6 @@
 [note] In this article, the [Button](/Documentation/Guide/Widgets/Button/Overview/) widget is used to demonstrate how to show and hide the **LoadPanel**. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
 
-To show or hide the **LoadPanel** programmatically, call the [show()](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#show) or [hide()](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#hide) method. The same thing can be done using the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#toggleshowing) method. Pass *true* or *false* to this method to show or hide the **LoadPanel**, respectively.
+To show or hide the **LoadPanel** programmatically, call the [show()](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#show) or [hide()](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#hide) method. The same thing can be done using the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#toggleshowing) method. Pass **true** or **false** to this method to show or hide the **LoadPanel**, respectively.
 
 ---
 #####**jQuery**

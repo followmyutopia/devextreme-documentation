@@ -4,7 +4,7 @@ A header filter allows a user to filter values in an individual column by includ
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingHeaderFilter/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
-To make header filter icons visible for all columns, assign *true* to the [headerFilter](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/headerFilter/) | **visible** option. Set a column's [allowHeaderFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowHeaderFiltering) option to *false* if its header filter should not be available. Note that this option inherits the value of the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option by default.
+To make header filter icons visible for all columns, assign **true** to the [headerFilter](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/headerFilter/) | **visible** option. Set a column's [allowHeaderFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowHeaderFiltering) option to **false** if its header filter should not be available. Note that this option inherits the value of the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option by default.
 
 ---
 ##### jQuery

@@ -54,7 +54,7 @@ You can also call this method to detach a specific handler from an event or all 
     menuInstance
         .off("itemClick")
 
-If you subscribed to an event using an **on*EventName*** option, you can unsubscribe from it by setting this option to *undefined*.
+If you subscribed to an event using an **on*EventName*** option, you can unsubscribe from it by setting this option to **undefined**.
 
     <!--JavaScript-->menuInstance.option("onItemClick", undefined);
 

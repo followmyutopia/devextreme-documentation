@@ -75,7 +75,7 @@ If you need a more specific customization, define a custom template in the **col
     
 ---
 
-To hide column headers, assign *false* to the [showColumnHeaders](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#showColumnHeaders) option.
+To hide column headers, assign **false** to the [showColumnHeaders](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#showColumnHeaders) option.
 
 ---
 ##### jQuery

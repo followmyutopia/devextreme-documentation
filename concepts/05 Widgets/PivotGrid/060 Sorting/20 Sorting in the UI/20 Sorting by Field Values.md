@@ -6,7 +6,7 @@ Alternatively, this type of sorting can be performed using the [Field Panel](/Do
 
 ![DevExtreme PivotGrid FieldPanel](/Content/images/doc/17_2/DataGrid/PivotGrid_fieldPanel_sortingIcons.png)
 
-To allow the user to sort by field values, set the [allowSorting](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#allowSorting) option to *true*.
+To allow the user to sort by field values, set the [allowSorting](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#allowSorting) option to **true**.
 
     <!--JavaScript-->var pivotGridOptions = {
         // ...

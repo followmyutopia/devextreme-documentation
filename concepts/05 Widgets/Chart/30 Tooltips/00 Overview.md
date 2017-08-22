@@ -2,7 +2,7 @@ A tooltip is a small pop-up rectangle displaying information about a [series poi
 
 ![DevExtreme HTML5 JavaScript Charts Tooltip](/Content/images/doc/17_2/ChartJS/visual_elements/tooltip.png)
 
-All options configuring tooltips are collected in the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/) object. For example, to enable the tooltips, assign *true* to the **enabled** option of this object.
+All options configuring tooltips are collected in the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/) object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
 
 ---
 ##### jQuery

@@ -1,4 +1,4 @@
-On desktops and iOS devices, the drop-down menu is the [Popover](/Documentation/Guide/Widgets/Popover/Overview/) widget; on other devices, it is the [Popup](/Documentation/Guide/Widgets/Popup/Overview/) widget. To use the **Popup** on all devices, assign *false* to the [usePopover](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#usePopover) option. In this case, you can specify whether to [shade](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#shading) the area beneath the **Popup** and whether the **Popup** should occupy the [full screen](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#fullScreen). 
+On desktops and iOS devices, the drop-down menu is the [Popover](/Documentation/Guide/Widgets/Popover/Overview/) widget; on other devices, it is the [Popup](/Documentation/Guide/Widgets/Popup/Overview/) widget. To use the **Popup** on all devices, assign **false** to the [usePopover](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#usePopover) option. In this case, you can specify whether to [shade](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#shading) the area beneath the **Popup** and whether the **Popup** should occupy the [full screen](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#fullScreen). 
 
     <!--JavaScript-->
     $(function() {
@@ -56,7 +56,7 @@ The drop-down menu can have a title. Use the [title](/Documentation/ApiReference
         });
     });
 
-If you have not specified anything to be displayed in the title, hide it by assigning *false* to the [showPopupTitle](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#showPopupTitle) option.
+If you have not specified anything to be displayed in the title, hide it by assigning **false** to the [showPopupTitle](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#showPopupTitle) option.
 
 #####See Also#####
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance/)

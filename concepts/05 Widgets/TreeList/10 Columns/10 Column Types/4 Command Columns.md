@@ -4,7 +4,7 @@ Command columns are used for interaction. The **TreeList** provides the followin
 Contains editing controls. Appears when [editing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/) is allowed and depends on the [editing mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode).
 
 - **Adaptive Column**       
-Contains buttons that expand adaptive detail rows. Appears if [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnHidingEnabled) is *true* or [hidingPriority](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#hidingPriority) is set for at least one column and only when certain columns do not fit into the screen or container size.
+Contains buttons that expand adaptive detail rows. Appears if [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnHidingEnabled) is **true** or [hidingPriority](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#hidingPriority) is set for at least one column and only when certain columns do not fit into the screen or container size.
 
 ![DevExtreme HTML5 JavaScript TreeList CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/17_2/treelist/visual_elements/column-types_command.png)
 

@@ -12,7 +12,7 @@ The following code adds a simple **TextBox** with a [placeholder](/Documentation
         });
     });
 
-If an end user should _not_ be able to edit the value in the **TextBox**, assign *true* to the **readOnly** option. In this case, make sure to set the **value** option too.
+If an end user should _not_ be able to edit the value in the **TextBox**, assign **true** to the **readOnly** option. In this case, make sure to set the **value** option too.
 
     <!--JavaScript-->$(function() {
         $("#textBoxContainer").dxTextBox({

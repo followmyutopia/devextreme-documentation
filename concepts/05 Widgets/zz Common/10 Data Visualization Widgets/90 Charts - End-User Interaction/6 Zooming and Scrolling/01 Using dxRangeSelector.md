@@ -53,7 +53,7 @@ The **Chart** and **RangeSelector** widgets can operate together, allowing an en
         
     [note] The **valueChanged** event can fire either when an end-user keeps dragging the [sliders](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Sliders) or when he/she has released them. This depends on the value of the **behavior** | [callValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged) option. When implementing zooming/scrolling, make sure that this option is set to *'onMoving'*.
 
-    By default, the chart adjusts its value axis to the currently selected minimum and maximum values. To change this behavior, set the [adjustOnZoom](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#adjustOnZoom) option to *false*.
+    By default, the chart adjusts its value axis to the currently selected minimum and maximum values. To change this behavior, set the [adjustOnZoom](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#adjustOnZoom) option to **false**.
     
 <h4>Free and Fixed Range Scrolling</h4>
 

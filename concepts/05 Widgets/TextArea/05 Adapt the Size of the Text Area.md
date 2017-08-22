@@ -7,7 +7,7 @@ If the size of the widget should be fixed, specify it using the [height](/Docume
         });
     });
 
-Alternatively, the widget's height can adapt to the widget's contents. In this case, instead of specifying the **height** option, you need to set the **autoResizeEnabled** option to *true*. To specify the minimum and maximum height that the adapted **TextArea** can occupy, set the **minHeight** and **maxHeight** options.
+Alternatively, the widget's height can adapt to the widget's contents. In this case, instead of specifying the **height** option, you need to set the **autoResizeEnabled** option to **true**. To specify the minimum and maximum height that the adapted **TextArea** can occupy, set the **minHeight** and **maxHeight** options.
 
     <!--JavaScript-->$(function() {
         $("#textAreaContainer").dxTextArea({

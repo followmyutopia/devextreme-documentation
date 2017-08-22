@@ -54,7 +54,7 @@ Here, all items have the **id** field, and those items that have a parent includ
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
-Items on the highest hierarchical level have the parent ID equal to *0*, *null* or *undefined*, which indicates that these items belong to the root node. If you need to use another value, change the [rootValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#rootValue) option.
+Items on the highest hierarchical level have the parent ID equal to *0*, **null** or **undefined**, which indicates that these items belong to the root node. If you need to use another value, change the [rootValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#rootValue) option.
 
 ---
 ##### jQuery

@@ -2,9 +2,9 @@ To filter data against a specific column, an end user can invoke the column's he
 
 ![DevExtreme DataGrid Header Filter](/Content/images/doc/17_2/DataGrid/ColumnHeaderFilter.png)
 
-To make column header filtering available for end users, set the grid's [headerFilter](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/) | **visible** option to *true*.
+To make column header filtering available for end users, set the grid's [headerFilter](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/) | **visible** option to **true**.
 
-By default, the filter button is available for all grid columns. However, you can hide it for individual columns by setting their [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) option to *false*.
+By default, the filter button is available for all grid columns. However, you can hide it for individual columns by setting their [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) option to **false**.
 
 	<!--JavaScript-->var gridOptions = {
 		// ...
@@ -28,7 +28,7 @@ You can specify whether to include or exclude the records with the values select
 		]
     };
 
-If a filter must be applied to a column initially, set the [filterValues](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValue) option of this column. Note that the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) option of this column must be set to *true*. The following code leaves only those records, whose value in the *"City"* column equals 'Los Angeles'.
+If a filter must be applied to a column initially, set the [filterValues](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValue) option of this column. Note that the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) option of this column must be set to **true**. The following code leaves only those records, whose value in the *"City"* column equals 'Los Angeles'.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...
@@ -40,4 +40,4 @@ If a filter must be applied to a column initially, set the [filterValues](/Docum
 		]
     });
 
-To ensure that users cannot change the initially set filtering, make the column header filters invisible by setting the **headerFilter** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/#visible) or **columns** | [allowHeaderFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowHeaderFiltering) option to *false*.
+To ensure that users cannot change the initially set filtering, make the column header filters invisible by setting the **headerFilter** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/#visible) or **columns** | [allowHeaderFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowHeaderFiltering) option to **false**.

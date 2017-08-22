@@ -1,4 +1,4 @@
-Commonly, if editors are nested into an HTML form, they are supposed to be submitted to the server after being validated on the client. The DevExtreme [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget supports this scenario out of the box. Place the **Button** on the HTML form and pass *true* to the `UseSubmitBehavior` method.
+Commonly, if editors are nested into an HTML form, they are supposed to be submitted to the server after being validated on the client. The DevExtreme [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget supports this scenario out of the box. Place the **Button** on the HTML form and pass **true** to the `UseSubmitBehavior` method.
  
     <!--Razor C#-->
     @model Application1.ViewModels.LoginViewModel

@@ -131,7 +131,7 @@ This method can be called at any point of the application flow. For example, you
 
 ---
 
-The `bindChart(chart, integrationOptions)` method returns a function that unbinds the chart. If the method has returned *null*, the binding failed.
+The `bindChart(chart, integrationOptions)` method returns a function that unbinds the chart. If the method has returned **null**, the binding failed.
 
     <!--JavaScript-->var unbindChart = pivotGridInstance.bindChart('#chartWidget');
     // ...

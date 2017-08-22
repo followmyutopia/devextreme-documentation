@@ -1,4 +1,4 @@
-When the **Popover** is shown, the area beneath it can be shaded. To enable this behavior, assign *true* to the [shading](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#shading) option. The shading color is specified by the [shadingColor](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#shadingColor) option.
+When the **Popover** is shown, the area beneath it can be shaded. To enable this behavior, assign **true** to the [shading](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#shading) option. The shading color is specified by the [shadingColor](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#shadingColor) option.
 
     <!--HTML--><img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
     <div id="popoverContainer">

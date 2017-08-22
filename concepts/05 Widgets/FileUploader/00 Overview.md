@@ -13,7 +13,7 @@ The following code adds the **FileUploader** to your page. To restrict the file 
         });
     });
 
-By default, a user is allowed to upload only one file at a time. To allow uploading several files at once, set the [multiple](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#multiple) option to *true*.
+By default, a user is allowed to upload only one file at a time. To allow uploading several files at once, set the [multiple](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#multiple) option to **true**.
 
     <!--JavaScript-->$(function() {
         $("#fileUploaderContainer").dxFileUploader({

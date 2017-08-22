@@ -1,4 +1,4 @@
-By default, the change of the image is animated. You can specify how long the animation is using the [animationDuration](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#animationDuration) option. The lower its value, the faster the animation. In case you need to disable animation completely, set the [animationEnabled](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#animationEnabled) option to *false*.
+By default, the change of the image is animated. You can specify how long the animation is using the [animationDuration](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#animationDuration) option. The lower its value, the faster the animation. In case you need to disable animation completely, set the [animationEnabled](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#animationEnabled) option to **false**.
 
     <!--JavaScript-->
     $(function () {

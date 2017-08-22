@@ -25,7 +25,7 @@ A grid can start displaying data from a particular page. To specify the page, us
 		}
     });
 
-When you do not need paging, disable it by setting the **paging** | **enabled** field to *false*. Note that in this case, all data will be loaded at once, which may affect grid performance.
+When you do not need paging, disable it by setting the **paging** | **enabled** field to **false**. Note that in this case, all data will be loaded at once, which may affect grid performance.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...

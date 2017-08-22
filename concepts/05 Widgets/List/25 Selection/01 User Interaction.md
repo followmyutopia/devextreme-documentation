@@ -8,7 +8,7 @@ In the **List** widget, selection is disabled by default. To enable it, choose o
         });
     });
 
-To select a **List** item, an end user simply clicks or taps it. Selected items become shaded. If you want to indicate selected items more manifestly, set the [showSelectionControls](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#showSelectionControls) option to *true*. This setting adds a check box to each item on the **List**. Also, make this setting if you use the *"all"* **selectionMode**. Otherwise, the *"Select All"* check box will be missing.
+To select a **List** item, an end user simply clicks or taps it. Selected items become shaded. If you want to indicate selected items more manifestly, set the [showSelectionControls](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#showSelectionControls) option to **true**. This setting adds a check box to each item on the **List**. Also, make this setting if you use the *"all"* **selectionMode**. Otherwise, the *"Select All"* check box will be missing.
 
     <!--JavaScript-->
     $(function() {

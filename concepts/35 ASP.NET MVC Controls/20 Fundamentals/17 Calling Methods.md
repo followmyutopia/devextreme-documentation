@@ -49,7 +49,7 @@ You can put this code in any JavaScript constructions and execute it whenever yo
         }
     </script>
 
-If the method you are calling accepts arguments, pass them after the method's name. For example, the following code calls the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/#toggleshowing) method of the **Popup** widget with *true* as an argument.
+If the method you are calling accepts arguments, pass them after the method's name. For example, the following code calls the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/#toggleshowing) method of the **Popup** widget with **true** as an argument.
 
     $("#popup").dxPopup("toggle", true);
 

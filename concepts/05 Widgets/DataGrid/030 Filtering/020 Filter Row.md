@@ -37,12 +37,12 @@ Different filter operations may be applied to a column. To change the current fi
 	</table>
 </div>
 
-To make a filter row available for end users, set the **filterRow** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#visible) option to *true*.
+To make a filter row available for end users, set the **filterRow** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#visible) option to **true**.
 
 #####See Also#####
 - [DataGrid - Filter Row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Filter_Row)
 
-If the filter row is visible, filtering is enabled for all grid columns. However, you can disable it for individual columns by setting their [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) option to *false*.
+If the filter row is visible, filtering is enabled for all grid columns. However, you can disable it for individual columns by setting their [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) option to **false**.
 
 	<!--JavaScript-->var gridOptions = {
 		// ...
@@ -78,7 +78,7 @@ There may be cases when a user must be able to apply a filter, but not to change
 		]
     };
 
-If a filter must be applied to a column initially, set the [filterValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValue) option of this column. This value is applied using a filter operation specified by the [selectedFilterOperation](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#selectedFilterOperation) option. Note that the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) option of this column must be *true*. The following code leaves only those records, whose value in the *"Data"* column equals 10.
+If a filter must be applied to a column initially, set the [filterValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValue) option of this column. This value is applied using a filter operation specified by the [selectedFilterOperation](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#selectedFilterOperation) option. Note that the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFiltering) option of this column must be **true**. The following code leaves only those records, whose value in the *"Data"* column equals 10.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...
@@ -91,4 +91,4 @@ If a filter must be applied to a column initially, set the [filterValue](/Docume
 		]
     });
 
-To make set filtering impossible for a user to change, hide the filter row by setting the **filterRow** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#visible) option to *false*.
+To make set filtering impossible for a user to change, hide the filter row by setting the **filterRow** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#visible) option to **false**.

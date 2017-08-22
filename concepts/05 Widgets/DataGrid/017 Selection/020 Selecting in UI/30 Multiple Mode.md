@@ -2,7 +2,7 @@ When you need to select several rows at once, set the multiple selection mode. T
 
 ![DevExtreme DataGrid Selection](/Content/images/doc/17_2/DataGrid/SelectionMultiple.gif)
 
-The selection column enables a user to select all rows at once. This feature is controlled by the [allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll) option of the **selection** object, which is *true* by default. To disable the feature, set this option to *false*. Note that the user will still be able to deselect all rows at once.
+The selection column enables a user to select all rows at once. This feature is controlled by the [allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll) option of the **selection** object, which is **true** by default. To disable the feature, set this option to **false**. Note that the user will still be able to deselect all rows at once.
 
     <!--JavaScript-->$("#gridContainer").dxDataGrid({
         // ...

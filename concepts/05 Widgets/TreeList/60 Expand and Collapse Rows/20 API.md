@@ -1,4 +1,4 @@
-All rows are collapsed by default. Assign an array of keys to the [expandedRowKeys](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#expandedRowKeys) option to expand specific rows initially. If a to-be-expanded row lies deep in the hierarchy, make sure to include keys of all its parent rows as well. Set the [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#autoExpandAll) option to *true* if all rows should be expanded initially.
+All rows are collapsed by default. Assign an array of keys to the [expandedRowKeys](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#expandedRowKeys) option to expand specific rows initially. If a to-be-expanded row lies deep in the hierarchy, make sure to include keys of all its parent rows as well. Set the [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#autoExpandAll) option to **true** if all rows should be expanded initially.
 
 ---
 ##### jQuery

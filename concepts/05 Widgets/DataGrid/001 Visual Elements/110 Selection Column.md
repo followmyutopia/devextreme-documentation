@@ -1,4 +1,4 @@
-﻿When a user is allowed to [select](/Documentation/Guide/Widgets/DataGrid/Selection/) records in the [multiple mode](/Documentation/Guide/Widgets/DataGrid/Selection/#Selecting_in_UI/Multiple_Mode), a grid is supplemented with a selection column. This column contains a set of check boxes, each of which corresponds to a data row. Toggling a check box selects or deselects the row.
+When a user is allowed to [select](/Documentation/Guide/Widgets/DataGrid/Selection/) records in the [multiple mode](/Documentation/Guide/Widgets/DataGrid/Selection/#Selecting_in_UI/Multiple_Mode), a grid is supplemented with a selection column. This column contains a set of check boxes, each of which corresponds to a data row. Toggling a check box selects or deselects the row.
 
 ![DevExtreme DataGrid SelectionColumn](/Content/images/doc/17_2/DataGrid/SelectionColumn.png)
 
@@ -21,7 +21,7 @@ To change the selection column display policy, use the [showCheckBoxesMode](/Doc
     });
 
 
-Additionally, a user can select/deselect all rows at once using the check box located in the header of the selection column. Rows can be selected/deselected on the currently rendered pages or on all pages. To define this, specify the [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode) option. If the capability of all rows selection is not required, assign *false* to the **selection** | [allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll) property.
+Additionally, a user can select/deselect all rows at once using the check box located in the header of the selection column. Rows can be selected/deselected on the currently rendered pages or on all pages. To define this, specify the [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode) option. If the capability of all rows selection is not required, assign **false** to the **selection** | [allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll) property.
 
     <!--JavaScript-->$("#gridContainer").dxDataGrid({
         // ...

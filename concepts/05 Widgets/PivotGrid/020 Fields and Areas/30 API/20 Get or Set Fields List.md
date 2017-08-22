@@ -22,7 +22,7 @@ You can either [get all fields](/Documentation/ApiReference/Data_Layer/PivotGrid
 
 Virtually all options available in this object are the same as in the [fields configuration](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) reference section, except for the **index** field. This is a unique field index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array that can be used to identify this field (for example, when calling the [field(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid) method).
 
-To get fields of a particular area, use the [getAreaFields(area, collectGroups)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getAreaFieldsarea_collectGroups) method. The structure of the elements in the array returned by this method is similar to the one presented above. If the **collectGroups** parameter is set to *true*, this method will return groups as separate items without going into their structure. 
+To get fields of a particular area, use the [getAreaFields(area, collectGroups)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#getAreaFieldsarea_collectGroups) method. The structure of the elements in the array returned by this method is similar to the one presented above. If the **collectGroups** parameter is set to **true**, this method will return groups as separate items without going into their structure. 
 
 <!-- link to Fields Grouping -->
 

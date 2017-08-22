@@ -30,7 +30,7 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 Note that the use of the features listed below with the **ODataStore** may cause a significant delay, because they initiate data loading for all pages.
 
 - [summary calculation](/Documentation/Guide/Widgets/DataGrid/Summaries/)
-- [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) with the [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option set to *false*
+- [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) with the [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option set to **false**
 - a [header filter](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) with the default data source
 
 If you have a large amount of data and need these features, we recommend you use a [Custom Source](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/) instead.

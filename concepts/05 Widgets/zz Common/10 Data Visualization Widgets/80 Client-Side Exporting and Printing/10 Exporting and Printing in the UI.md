@@ -5,7 +5,7 @@ To export or print a widget, a user clicks <img src="/Content/images/doc/17_2/Ch
 Exporting and printing in the UI are configured by the [export](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/) object. The following exporting and printing characteristics can be changed using the fields of this object.
 
 * **Availability**      
-To enable exporting, assign *true* to the [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#enabled) field. With this setting, printing becomes available as well. If you need only exporting, disable printing by setting the [printingEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#printingEnabled) field to *false*.
+To enable exporting, assign **true** to the [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#enabled) field. With this setting, printing becomes available as well. If you need only exporting, disable printing by setting the [printingEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#printingEnabled) field to **false**.
 * **Formats and File Name**      
 By default, a user can export the widget into five formats: PNG, PDF, JPEG, SVG and GIF. To alter this set, use the [formats](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#formats) option. In addition, you can change the default name for the file with the exported widget using the [fileName](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#fileName) option.
 * **Background Color**      

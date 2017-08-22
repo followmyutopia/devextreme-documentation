@@ -16,7 +16,7 @@ The **Lookup** can organize items in groups. If you use a simple array as a data
         });
     });
 
-If you use the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/DataSource/), specify its [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option. In both cases, you need to make the **Lookup** know that its data source is grouped by assigning *true* to the [grouped](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#grouped) option.
+If you use the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/DataSource/), specify its [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option. In both cases, you need to make the **Lookup** know that its data source is grouped by assigning **true** to the [grouped](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#grouped) option.
 
     <!--JavaScript-->
     var lookupData = [

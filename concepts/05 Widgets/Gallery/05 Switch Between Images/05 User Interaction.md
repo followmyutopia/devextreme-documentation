@@ -13,7 +13,7 @@ To switch between images on touch-enabled devices, the user can perform the swip
         });
     });
 
-With the buttons and swipe gesture, the user switches images in a particular order, and once the last image is reached, the user can only switch back. For this case, you can enable the user to jump straight to the first image, if you set the [loop](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#loop) option to *true*.
+With the buttons and swipe gesture, the user switches images in a particular order, and once the last image is reached, the user can only switch back. For this case, you can enable the user to jump straight to the first image, if you set the [loop](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#loop) option to **true**.
 
     <!--JavaScript-->
     $(function () {
@@ -28,7 +28,7 @@ With the buttons and swipe gesture, the user switches images in a particular ord
         });
     });
 
-Below the current image, the **Gallery** shows navigation bullets that allow the user to switch images ignoring their order. To disable the navigation bullets, set the [indicatorEnabled](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#indicatorEnabled) option to *false*. If you need to hide them completely, assign *false* to the [showIndicator](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#showIndicator) option.
+Below the current image, the **Gallery** shows navigation bullets that allow the user to switch images ignoring their order. To disable the navigation bullets, set the [indicatorEnabled](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#indicatorEnabled) option to **false**. If you need to hide them completely, assign **false** to the [showIndicator](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#showIndicator) option.
 
     <!--JavaScript-->
     $(function () {
