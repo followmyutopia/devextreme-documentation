@@ -22,7 +22,7 @@ The **TreeList** widget supports single and multiple row selection. Use the **se
     
 ---
 
-In the single mode, only one row can be selected at a time. In the multiple mode, rows are supplied with check boxes for multiple selection. A check box in the header of the first column allows a user to select all rows at once.
+In the single mode, only one row can be selected at a time. In the multiple mode, rows are supplied with check boxes for multiple selection. A check box in the header of the first column allows a user to select all rows at once. Clicking this check box selects only those rows that meet filtering conditions if a filter is applied.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/17_2/treelist/selection.png)
 
