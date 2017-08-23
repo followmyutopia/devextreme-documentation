@@ -16,6 +16,9 @@ Specifies whether the column bands other columns or not.
 <!--fullDescription-->
 Unlike normal columns, band columns do not hold data. Instead, they collect two or more columns under one column header. In most cases, to set up this layout, you can declare the band column using a hierarchical structure. For example, the following code bands three columns under the *"Address"* header.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
             // ...
@@ -28,7 +31,23 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
         });
     });
 
+##### Angular
+    
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxi-column caption="Address">
+            <dxi-column dataField="City"></dxi-column>
+            <dxi-column dataField="Street"></dxi-column>
+            <dxi-column dataField="Apartment"></dxi-column>
+        </dxi-column>
+    </dx-data-grid>
+    
+---
+
 If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColumns) option to configure columns, the hierarchical structure cannot be implemented. To band columns in this case, use the **isBand** and [ownerBand]({basewidgetpath}/Configuration/columns/#ownerBand) options.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
@@ -47,6 +66,31 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
             }
         });
     });
+
+##### Angular
+    
+    <!--TypeScript-->
+    export class AppComponent {
+        customizeColumns (columns) {
+            columns.push({ // Pushes the "Address" band column into the "columns" array
+                caption: "Address",
+                isBand: true
+            });
+    
+            let addressFields = ['City', 'Street', 'Apartment'];
+            for (let i = 0; i < columns.length - 1; i++) {
+                if (addressFields.indexOf(columns[i].dataField) > -1) // If the column belongs to "Address",
+                    columns[i].ownerBand = columns.length - 1; // assigns "Address" as the owner band column
+            }
+        }
+    }
+
+    <!--HTML-->
+    <dx-data-grid ...
+        [customizeColumns]="customizeColumns">
+    </dx-data-grid>
+    
+---
 
 [note]Band columns must not have the **dataField** option set.
 

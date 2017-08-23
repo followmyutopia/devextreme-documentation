@@ -23,8 +23,12 @@ At runtime, the user can group grid records using the [context menu](/Documentat
     ];
 
 To group these records first by the *"LastName"* field and then by the *"FirstName"* field, use the following code.
-    
-    <!--JavaScript-->$("#gridContainer").dxDataGrid({
+
+---
+
+#####jQuery
+
+    <!--JavaScript-->$("#dataGridContainer").dxDataGrid({
         // ...
         columns: [
             { dataField: 'FirstName', groupIndex: 1 },
@@ -33,5 +37,15 @@ To group these records first by the *"LastName"* field and then by the *"FirstNa
         ]
     });
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridgroupinglocaldatagrouping/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#####Angular
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxi-column dataField="FirstName" [groupIndex]="1"></dxi-column>
+        <dxi-column dataField="LastName" [groupIndex]="0"></dxi-column>
+    </dx-data-grid>
+
+---
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

@@ -23,35 +23,83 @@ The calculation of a summary item value is conducted in several phases. Usually,
 
 The following code demonstrates a general structure of the **calculateCustomSummary** function. In this code, the [totalItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/) array contains two custom summary items. Within the **calculateCustomSummary** function, the **name** field identifies each summary item. Actions that follow depend on the calculation stage, which is obtained using the **summaryProcess** field.
 
-    <!--JavaScript-->$("#gridContainer").dxDataGrid({
-        // ...
-        summary: {
-            totalItems: [
-                { summaryType: 'custom', name: 'CustomSummary1' },
-                { summaryType: 'custom', name: 'CustomSummary2' }
-            ],
-            calculateCustomSummary: function (options) {
-                // Calculating "CustomSummary1"
-                if (options.name == 'CustomSummary1') {
-                    if (options.summaryProcess == 'start') {
-                        // Initializing "totalValue" here
-                    }
-                    if (options.summaryProcess == 'calculate') {
-                        // Modifying "totalValue" here
-                    }
-                    if (options.summaryProcess == 'finalize') {
-                        // Assigning the final value to "totalValue" here
-                    }
-                }
+---
+#####jQuery
 
-                // Calculating "CustomSummary2"
-                if (options.name == 'CustomSummary2') {
-                    // ...
-                    // Same "if" statements here
+    <!--JavaScript-->
+    $(function () {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            summary: {
+                totalItems: [
+                    { summaryType: 'custom', name: 'CustomSummary1' },
+                    { summaryType: 'custom', name: 'CustomSummary2' }
+                ],
+                calculateCustomSummary: function (options) {
+                    // Calculating "CustomSummary1"
+                    if (options.name == 'CustomSummary1') {
+                        if (options.summaryProcess == 'start') {
+                            // Initializing "totalValue" here
+                        }
+                        if (options.summaryProcess == 'calculate') {
+                            // Modifying "totalValue" here
+                        }
+                        if (options.summaryProcess == 'finalize') {
+                            // Assigning the final value to "totalValue" here
+                        }
+                    }
+
+                    // Calculating "CustomSummary2"
+                    if (options.name == 'CustomSummary2') {
+                        // ...
+                        // Same "if" statements here
+                    }
                 }
             }
-        }
+        });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxo-summary [calculateCustomSummary]="calculateSummary">
+            <dxi-total-item
+                summaryType="custom"
+                name="customSummary1">
+            </dxi-total-item>
+            <dxi-total-item
+                summaryType="custom"
+                name="customSummary2">
+            </dxi-total-item>
+        </dxo-summary>
+    </dx-data-grid>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        calculateSummary (options) {
+            // Calculating "CustomSummary1"
+            if (options.name == 'CustomSummary1') {
+                if (options.summaryProcess == 'start') {
+                    // Initializing "totalValue" here
+                }
+                if (options.summaryProcess == 'calculate') {
+                    // Modifying "totalValue" here
+                }
+                if (options.summaryProcess == 'finalize') {
+                    // Assigning the final value to "totalValue" here
+                }
+            }
+
+            // Calculating "CustomSummary2"
+            if (options.name == 'CustomSummary2') {
+                // ...
+                // Same "if" statements here
+            }
+        };
+    }
+
+---
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgriddatasummariescustomsummarytotals/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

@@ -26,6 +26,9 @@ A user input value. Values provided by the **selector** are compared to this val
 
 The following code snippet shows the default implementation of the **calculateFilterExpression** function. Adapt it according to your needs.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
             // ...
@@ -47,6 +50,32 @@ The following code snippet shows the default implementation of the **calculateFi
         });
     });
 
+##### Angular
+
+    <!--TypeScript-->
+    export class AppComponent {
+        calculateFilterExpression (filterValue, selectedFilterOperation) {
+            // Implementation for the "between" comparison operator
+            let column = this as any;
+            if (selectedFilterOperation === "between" && Array.isArray(filterValue)) {
+                var filterExpression = [
+                    [column.calculateCellValue, ">=", filterValue[0]], 
+                    "and", 
+                    [column.calculateCellValue, "<=", filterValue[1]]
+                ];
+                return filterExpression;
+            }
+            return [column.calculateCellValue, selectedFilterOperation || '=', filterValue];
+        }
+    }
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxi-column [calculateFilterExpression]="calculateFilterExpression" ... ></dxi-column>
+    </dx-data-grid>
+    
+---
+
 As you can see from the previous code, the filter expression for the *"between"* comparison operator should have a slightly different format.
 
     [[selector, ">=", startValue], "and", [selector, "<=", endValue]]
@@ -54,6 +83,9 @@ As you can see from the previous code, the filter expression for the *"between"*
 [note]
 
 Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOperation)** function and return its result to invoke the default behavior.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
@@ -65,6 +97,24 @@ Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOper
             }]
         });
     });
+
+##### Angular
+
+    <!--TypeScript-->
+    export class AppComponent {
+        calculateFilterExpression (filterValue, selectedFilterOperation) {
+            // ...
+            let column = this as any;
+            return column.defaultCalculateFilterExpression(filterValue, selectedFilterOperation);
+        }
+    }
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxi-column [calculateFilterExpression]="calculateFilterExpression" ... ></dxi-column>
+    </dx-data-grid>
+    
+---
 
 [/note]
 <!--/fullDescription-->

@@ -15,18 +15,35 @@ Specifies the template for detail sections.
 <!--fullDescription-->
 Use the **template** option to define the markup of detail sections in a master-detail hierarchy. Implement a function defining the content of a detail section and assign it to this option. For example, to display another **DataGrid** widget in the detail section, you can use the following code.
 
-    <!--JavaScript-->$("#gridContainer").dxDataGrid({
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $("#dataGridContainer").dxDataGrid({
         // ...
         masterDetail: {
             enabled: true,
             template: function (container, info) {
-                $('<div>').dxDataGrid({ // create a div container and place the **DataGrid** widget in it
-                    // ...
+                $('<div>').dxDataGrid({ 
                     // configure the widget here
-                }).appendTo(container); // append the div container to the detail section's container
+                }).appendTo(container); 
             }
         }
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-data-grid 
+        [masterDetail]="{ enabled: true, template: 'detail' }">
+        <div *dxTemplate="let employee of 'detail'">
+            <div class="internal-grid-container">
+                <dx-data-grid ... ></dx-data-grid>
+            </div>
+        </div>
+    </dx-data-grid>
+
+---
 
 [note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 
 

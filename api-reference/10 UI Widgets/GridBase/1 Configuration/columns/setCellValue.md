@@ -57,7 +57,7 @@ Using this function, you can process user input before it is saved to the data s
         </dxi-column>
         <dxi-column dataField="TotalPrice"></dxi-column>
     </dx-data-grid>
-    
+
 ---
 
 [note] To invoke the default behavior, call the **this.defaultSetCellValue(rowData, value)** function.

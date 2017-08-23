@@ -50,6 +50,9 @@ Certain features are disabled in a column with calculated values by default. The
 
 Call the **this.defaultCalculateCellValue(rowData)** function and return its result to invoke the default behavior.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
             columns: [{
@@ -60,6 +63,25 @@ Call the **this.defaultCalculateCellValue(rowData)** function and return its res
             }]
         });
     });
+
+##### Angular
+
+    <!--TypeScript-->
+    export class AppComponent {
+        calculateCellValue (rowData) {
+            // ...
+            let column = this as any;
+            return column.defaultCalculateCellValue(rowData);
+
+        }
+    }
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxi-column [calculateCellValue]="calculateCellValue" ... ></dxi-column>
+    </dx-data-grid>
+    
+---
 
 [/note]
 

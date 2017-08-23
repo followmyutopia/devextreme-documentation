@@ -36,19 +36,32 @@ Contains the group index of the current row. This field is useful if the **rowTy
 - **isExpanded**    
 Indicates whether or not the current row is expanded. This field is useful if the **rowType** field is *'group'*.
 
-When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the row template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. Note that dxTemplate should be bound to a `<table>` HTML element.
+When utilizing the [Knockout](http://knockoutjs.com/), [Angular](https://angular.io/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the row template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. Note that dxTemplate should be bound to a `<table>` HTML element.
 
 ---
+#####Angular
+
+    <!--HTML-->
+    <dx-data-grid ...
+        rowTemplate="rowTemplateName">
+        <tbody *dxTemplate="let data of 'rowTemplateName'" >
+            <tr class="dx-row main-row">
+                <td>{{data.id}}</td>
+                <td>{{data.name}}</td>
+            </tr>
+        </tbody>
+    </dx-data-grid>
+
 #####AngularJS
 
         <!--HTML--><div dx-data-grid="{
             <!-- other grid settings go here -->
             rowTemplate: 'rowTemplateName'
-        }">
+        }" dx-item-alias="item">
             <table data-options="dxTemplate: { name: 'rowTemplateName' }" >
                 <tr>
-                    <td>{{data.id}}</td>
-                    <td>{{data.name}}</td>
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
                 </tr>
             </table>
         </div>
@@ -58,11 +71,11 @@ When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://ang
         <!--HTML--><div data-bind="dxDataGrid: {
             <!-- other grid settings go here -->
             rowTemplate: 'rowTemplateName'
-        }" dx-item-alias="item">
+        }">
             <table data-options="dxTemplate: { name: 'rowTemplateName' }" >
                 <tr>
-                    <td>{{ item.data.id }}</td>
-                    <td>{{ item.data.name }}</td>
+                    <td data-bind="text: id"></td>
+                    <td data-bind="text: name"></td>
                 </tr>
             </table>
         </div>

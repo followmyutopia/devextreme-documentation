@@ -58,11 +58,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
-    // ...
     export class AppComponent {
-        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         customSortingFunction (rowData) {
             if (rowData.Position == "CEO")
                 return this.sortOrder == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top

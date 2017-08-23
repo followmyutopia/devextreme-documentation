@@ -19,6 +19,9 @@ Depending on the [dataType]({basewidgetpath}/Configuration/columns/#dataType), t
 
 Do not specify the **onValueChanged** option in this object. If you need to add custom logic to the standard value change handler, override the handler in the [onEditorPreparing]({basewidgetpath}/Configuration/#onEditorPreparing) function in the following manner.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
             // ...
@@ -35,5 +38,30 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
             }
         });
     });
+
+##### Angular
+    
+    <!--TypeScript-->
+    export class AppComponent {
+        onEditorPreparing (e) {
+            if (e.dataField == "requiredDataField") {
+                let standardHandler = e.editorOptions.onValueChanged;
+                e.editorOptions.onValueChanged = function (e) { // Overriding the standard handler
+                    // ...
+                    // Custom commands go here
+                    // ...
+                    standardHandler(e); // Calling the standard handler to save the edited value
+                }
+            }
+        }
+    }
+
+    <!--HTML-->
+    <dx-data-grid ... 
+        (onEditorPreparing)="onEditorPreparing($event)">
+    </dx-data-grid>
+    
+---
+
 [/note]
 <!--/fullDescription-->

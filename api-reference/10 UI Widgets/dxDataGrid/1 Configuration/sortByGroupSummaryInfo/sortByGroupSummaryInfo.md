@@ -16,50 +16,119 @@ Allows you to sort [groups](/Documentation/Guide/Widgets/DataGrid/Grouping/) acc
 <!--fullDescription-->
 Normally, when records are grouped by a column, the groups are sorted according to the values of this column. In a number of cases, such approaches cannot address your needs, e.g., when you require to sort groups by the number of records in each. For these cases, you can implement sorting according to the values of group summary items. These items are specified in the [groupItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) array. Assume that you have the following code that specifies three group summary items.
 
-    <!--JavaScript-->$("#gridContainer").dxDataGrid({
-        // ...
-        summary: {
-            groupItems: [{
-                column: 'Age',
-                summaryType: 'avg',
-                name: 'Average Age Group Summary'
-            }, {
-                column: 'Income',
-                summaryType: 'max'
-            }, {
-                column: 'Tasks',
-                summaryType: 'min'
-            }]
-        }
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            summary: {
+                groupItems: [{
+                    column: 'Age',
+                    summaryType: 'avg',
+                    name: 'Average Age Group Summary'
+                }, {
+                    column: 'Income',
+                    summaryType: 'max'
+                }, {
+                    column: 'Tasks',
+                    summaryType: 'min'
+                }]
+            }
+        });
     });
+
+#####Angular
+ 
+     <!--HTML-->
+     <dx-data-grid ... >
+         <dxo-summary>
+             <dxi-group-item
+                 column="Age"
+                 summaryType="avg"
+                 name="Average Age Group Summary">
+             </dxi-group-item>
+             <dxi-group-item
+                 column="Income"
+                 summaryType="max">
+             </dxi-group-item>
+             <dxi-group-item
+                 column="Tasks"
+                 summaryType="min">
+             </dxi-group-item>
+         </dxo-summary>
+     </dx-data-grid>
+
+---
 
 To use these summary items for sorting groups, assign an array of objects to the **sortByGroupSummaryInfo** option. In each object of this array, specify the [summaryItem](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/sortByGroupSummaryInfo/#summaryItem) field. This field determines the summary item to be used for summary-based sorting. In the following code, three objects form the **sortByGroupSummaryInfo** array. In each object, the **summaryItem** option determines different summary items using different values.
 
-    <!--JavaScript-->$("#gridContainer").dxDataGrid({
-        // ...
-        summary: {
-            groupItems: [ ... ]
-        },
-        sortByGroupSummaryInfo: [
-            { summaryItem: 1 }, // determines the maximum income item using its index in the "groupItems" array
-            { summaryItem: 'min' }, // determines the minimum tasks item using its aggregate function
-            { summaryItem: 'Average Age Group Summary' } // determines the average age item using its name
-        ]
+---
+#####jQuery
+    <!--JavaScript-->
+    $(function () {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            sortByGroupSummaryInfo: [
+                { summaryItem: 1 }, // determines the maximum income item using its index in the "groupItems" array
+                { summaryItem: 'min' }, // determines the minimum tasks item using its aggregate function
+                { summaryItem: 'Average Age Group Summary' } // determines the average age item using its name
+            ]
+        });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxi-sort-by-group-summary-info 
+            [summaryItem]="1"> <!-- determines the maximum income item using its index in the "groupItems" array -->
+        </dxi-sort-by-group-summary-info>
+        <dxi-sort-by-group-summary-info 
+            summaryItem="min"> <!-- determines the minimum tasks item using its aggregate function -->
+        </dxi-sort-by-group-summary-info>
+        <dxi-sort-by-group-summary-info 
+            summaryItem="Average Age Group Summary"> <!-- determines the average age item using its name -->
+        </dxi-sort-by-group-summary-info>
+    </dx-data-grid>
+    
+---
 
 After that, set the [groupColumn](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/sortByGroupSummaryInfo/#groupColumn) option for objects in the **sortByGroupSummaryInfo** array. This option identifies the column that must be used in grouping in order that a particular summary-based sorting setting be applied. If you have omitted this option from an object, the sorting setting specified by this object will be applied regardless of the column used in grouping.
 
-    <!--JavaScript-->$("#gridContainer").dxDataGrid({
-        // ...
-        summary: {
-            groupItems: [ ... ]
-        },
-        sortByGroupSummaryInfo: [
-            { summaryItem: 1, groupColumn: 'Tasks' }, // applies sorting only when records are grouped by the "Tasks" column
-            { summaryItem: 'min', groupColumn: 'Last Name' }, // applies sorting only when records are grouped by a "Last Name" column
-            { summaryItem: 'Average Age Group Summary' } // applies sorting regardless the grouping column
-        ]
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#gridContainer").dxDataGrid({
+            // ...
+            sortByGroupSummaryInfo: [
+                { summaryItem: 1, groupColumn: 'Tasks' }, // applies sorting only when records are grouped by the "Tasks" column
+                { summaryItem: 'min', groupColumn: 'Last Name' }, // applies sorting only when records are grouped by a "Last Name" column
+                { summaryItem: 'Average Age Group Summary' } // applies sorting regardless the grouping column
+            ]
+        });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxi-sort-by-group-summary-info 
+            [summaryItem]="1" groupColumn="Tasks"> <!-- applies sorting only when records are grouped by the "Tasks" column -->
+        </dxi-sort-by-group-summary-info>
+        <dxi-sort-by-group-summary-info 
+            summaryItem="min"
+            groupColumn="Last Name"> <!-- applies sorting only when records are grouped by a "Last Name" column -->
+        </dxi-sort-by-group-summary-info>
+        <dxi-sort-by-group-summary-info 
+            summaryItem="Average Age Group Summary"> <!--  applies sorting regardless the grouping column -->
+        </dxi-sort-by-group-summary-info>
+    </dx-data-grid>
+
+---
 
 [note]If several summary-based sorting settings match the current grouping, their indexes in the **sortByGroupSummaryInfo** array will dictate the order of their application.
 

@@ -18,18 +18,43 @@ The group summary provides a synopsis of a group of data. Groups of data are for
 
 To specify the items of the group summary, declare an array of objects, each of which contains at least two fields: [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#column) and [summaryType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#summaryType). The **column** field specifies the identifier of the column that provides data for an aggregate function. The **summaryType** specifies the aggregate function to be applied. The following code snippet shows how to declare two summary items.
 
-    <!--JavaScript-->$("#gridContainer").dxDataGrid({
-        // ...
-        summary: {
-            groupItems: [{
-                column: 'Age',
-                summaryType: 'avg'
-            }, {
-                column: 'LastName',
-                summaryType: 'count'
-            }]
-        }
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            summary: {
+                groupItems: [{
+                    column: 'Age',
+                    summaryType: 'avg'
+                }, {
+                    column: 'LastName',
+                    summaryType: 'count'
+                }]
+            }
+        });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxo-summary>
+            <dxi-group-item
+                column="Age"
+                summaryType="avg">
+            </dxi-group-item>
+            <dxi-group-item
+                column="LastName"
+                summaryType="count">
+            </dxi-group-item>
+        </dxo-summary>
+    </dx-data-grid>
+
+---
+
 
 A group summary item may be located either in the group row or the group footer. By default, the group row holds all summary items. To locate a summary item in the group footer, set the [showInGroupFooter](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#showInGroupFooter) option of this item to **true**.
 
