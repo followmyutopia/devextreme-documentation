@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **tick** | **visible** option instead.
+Use the **tick**.**visible** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

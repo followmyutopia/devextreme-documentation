@@ -14,5 +14,5 @@ Shows/hides row fields on the [field panel](/Documentation/Guide/Widgets/PivotGr
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Optionally, you can change the placeholder of the row field area on the field panel. Use the **texts** | [rowFieldArea](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/texts/#rowFieldArea) property for this purpose.
+Optionally, you can change the placeholder of the row field area on the field panel. Use the **texts**.[rowFieldArea](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/texts/#rowFieldArea) property for this purpose.
 <!--/fullDescription-->

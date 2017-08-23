@@ -15,10 +15,10 @@ Configures the vertical crosshair line individually.
 <!--fullDescription-->
 Crosshair lines can be configured using the following objects.
 
-* **crosshair** | [horizontalLine](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/horizontalLine/)       
+* **crosshair**.[horizontalLine](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/horizontalLine/)       
 Configures the horizontal crosshair line only.
 
-* **crosshair** | **verticalLine**     
+* **crosshair**.**verticalLine**     
 Configures the vertical crosshair line only.
 
 * **crosshair**    

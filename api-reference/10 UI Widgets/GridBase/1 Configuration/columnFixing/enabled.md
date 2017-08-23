@@ -15,5 +15,5 @@ Enables column fixing.
 
 <!--fullDescription-->
 #####See Also#####
-- **columns[]** | [fixedPosition]({basewidgetpath}/Configuration/columns/#fixedPosition)
+- **columns[]**.[fixedPosition]({basewidgetpath}/Configuration/columns/#fixedPosition)
 <!--/fullDescription-->

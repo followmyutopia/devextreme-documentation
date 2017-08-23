@@ -2,7 +2,7 @@ Error bars are used on charts to indicate an error or uncertainty in a reported 
 
 ![DevExtreme HTML5 JavaScript Charts Error Bars](/Content/images/doc/17_2/ChartJS/visual_elements/error_bars.png)
 
-Error bars can be generated either from concrete or calculated values. To generate one error bar, two values, high and low, are needed. If your data source provides concrete high and low values, assign the required data source fields to the [highValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/#highValueField) and [lowValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/#lowValueField) options of the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) | [valueErrorBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/) object.
+Error bars can be generated either from concrete or calculated values. To generate one error bar, two values, high and low, are needed. If your data source provides concrete high and low values, assign the required data source fields to the [highValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/#highValueField) and [lowValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/#lowValueField) options of the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/).[valueErrorBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/) object.
 
 ---
 ##### jQuery
@@ -78,10 +78,10 @@ Alternatively, error bar values can be calculated according to an algorithm. In 
 
 If error bars should have uniform settings, you can specify them using one of the following objects.
 
-- **commonSeriesSettings** | **%seriesType%** | **valueErrorBar**      
+- **commonSeriesSettings**.**%seriesType%**.**valueErrorBar**      
 Settings for all error bars belonging to the series of a specific [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#type) ([line](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#line), [bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#bar), etc.).
  
-- **commonSeriesSettings** | [valueErrorBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/valueErrorBar/)      
+- **commonSeriesSettings**.[valueErrorBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/valueErrorBar/)      
 Settings for all error bars in the **Chart**.
 
 Note that settings for individual series override type-specific settings which, in turn, override common settings.

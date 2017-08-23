@@ -56,7 +56,7 @@ A single **Chart** can contain several series at once. In this case, the [series
 
 Objects in the **series** array specify individual settings for series. You can also specify common settings for series using the following objects.
 
-- **commonSeriesSettings** | **%seriesType%** ([line](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#line), [bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#bar), etc.)          
+- **commonSeriesSettings**.**%seriesType%** ([line](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#line), [bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#bar), etc.)          
 Settings for all series of a specific type.
 
 - [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/)         

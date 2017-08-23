@@ -20,5 +20,5 @@ If a value in a series equals to zero or is undefined, the bar visualizing this 
 
 #####See Also#####
 - [barWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#barWidth) - controls the width of bars when **equalBarWidth** is **true**.
-- **series** | [minBarSize](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#minBarSize) - sets the minimal possible height for bars in a bar-like series.
+- **series**.[minBarSize](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#minBarSize) - sets the minimal possible height for bars in a bar-like series.
 <!--/fullDescription-->

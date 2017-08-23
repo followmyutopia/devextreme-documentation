@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **label** option instead.
+Use the **layers**.**label** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->
@@ -24,7 +24,7 @@ Texts for area labels are provided by one of the fields of the **attributes** ob
 
 If you have provided data for area labels, enable them on your map by assigning **true** to the [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/#enabled) option of the **label** object.
 
-In addition, you can change the appearance of area labels using the **label** | [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/font/) object.
+In addition, you can change the appearance of area labels using the **label**.[font](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/font/) object.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapareawithlabelandtwolegend/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

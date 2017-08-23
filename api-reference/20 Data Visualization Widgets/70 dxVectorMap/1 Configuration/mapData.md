@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataSource) option instead.
+Use the **layers**.[dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataSource) option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

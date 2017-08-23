@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **tick** | **length** option instead.
+Use the **tick**.**length** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

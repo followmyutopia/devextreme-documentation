@@ -33,7 +33,7 @@ The **TreeList** widget allows a user to add, delete and update data. Assign **t
     
 ---
 
-With the **TreeList** you can edit data in several modes. Use the **editing** | [mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode) option to specify it. 
+With the **TreeList** you can edit data in several modes. Use the **editing**.[mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode) option to specify it. 
 
 ---
 ##### jQuery

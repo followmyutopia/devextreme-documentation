@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **scale** | **label** | **overlappingBehavior** | [hideFirstOrLast]({basewidgetpath}/Configuration/scale/label/overlappingBehavior/#hideFirstOrLast) option instead.
+Use the **scale**.**label**.**overlappingBehavior**.[hideFirstOrLast]({basewidgetpath}/Configuration/scale/label/overlappingBehavior/#hideFirstOrLast) option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

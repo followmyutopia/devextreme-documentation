@@ -25,5 +25,5 @@ For example, consider that *min* is 1960 and *max* is 2010. If you set the **min
 endAxisValue = 2010 + (2010 - 1960) * 0.1 = 2010 + 50 * 0.1 = 2010 + 5 = 2015</span>
 
 #####See Also#####
-- **commonAxisSettings** | [valueMarginsEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/#valueMarginsEnabled) - enables/disables margins for axes.
+- **commonAxisSettings**.[valueMarginsEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/#valueMarginsEnabled) - enables/disables margins for axes.
 <!--/fullDescription-->

@@ -13,7 +13,7 @@ Now, if you change the `textBoxValue` component property in code, the **TextBox*
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Text_Box/Overview/Angular/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference/) | **WidgetName** | **Configuration**
+- [API Reference](/Documentation/ApiReference/).**WidgetName**.**Configuration**
 - [Create and Configure a Widget](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)
 - [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
 

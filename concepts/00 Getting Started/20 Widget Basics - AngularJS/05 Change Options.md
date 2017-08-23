@@ -49,7 +49,7 @@ The code above forces the widget to use the [$watch](https://docs.angularjs.org/
 <a href="http://www.youtube.com/watch?v=iIZj6hOFg0o&index=42&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference) | **WidgetName** | **Configuration**
+- [API Reference](/Documentation/ApiReference).**WidgetName**.**Configuration**
 - [Create and Configure a Widget](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget)
 
 [tags]basics, angularjs, change options, get, set, runtime, binding options, deep tracking, watch, watchCollection, two-way binding

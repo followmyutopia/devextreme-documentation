@@ -15,5 +15,5 @@ Specifies whether long text in [header items](/Documentation/Guide/Widgets/Pivot
 
 <!--fullDescription-->
 #####See Also#####
-- **PivotGridDataSource** | **fields** | [wordWrapEnabled](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#wordWrapEnabled) - applies word wrap to a specific field.
+- **PivotGridDataSource**.**fields**.[wordWrapEnabled](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#wordWrapEnabled) - applies word wrap to a specific field.
 <!--/fullDescription-->

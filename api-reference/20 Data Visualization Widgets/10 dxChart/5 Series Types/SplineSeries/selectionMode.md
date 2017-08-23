@@ -49,7 +49,7 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 
 #####See Also#####
 - [seriesSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#seriesSelectionMode) - specifies whether only one or several series can stay selected.
-- **series** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/selectionStyle/) - specifies the appearance of a series in the selected state.
-- **series** | **point** | [selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/point/#selectionMode) - specifies the selection mode of series points.
+- **series**.[selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/selectionStyle/) - specifies the appearance of a series in the selected state.
+- **series**.**point**.[selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/point/#selectionMode) - specifies the selection mode of series points.
 - [seriesSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesSelectionChanged) - an event that fires after the selection state of a series has been changed.
 <!--/fullDescription-->

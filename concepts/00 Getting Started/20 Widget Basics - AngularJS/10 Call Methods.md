@@ -17,6 +17,6 @@ As an alternative, you can save the widget instance in a scope property once the
     <!--JavaScript-->menuInstance.repaint();
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference) | **WidgetName** | **Methods**
+- [API Reference](/Documentation/ApiReference).**WidgetName**.**Methods**
 
 [tags]basics, angularjs, call methods, widget instance

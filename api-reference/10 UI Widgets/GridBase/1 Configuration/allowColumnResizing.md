@@ -18,6 +18,6 @@ By default, the width of each column depends on the [width of the widget]({basew
 
 #####See Also#####
 - [columnResizingMode]({basewidgetpath}/Configuration/#columnResizingMode)
-- **columns[]** | [allowResizing]({basewidgetpath}/Configuration/columns/#allowResizing)
-- **columns[]** | [width]({basewidgetpath}/Configuration/columns/#width)
+- **columns[]**.[allowResizing]({basewidgetpath}/Configuration/columns/#allowResizing)
+- **columns[]**.[width]({basewidgetpath}/Configuration/columns/#width)
 <!--/fullDescription-->

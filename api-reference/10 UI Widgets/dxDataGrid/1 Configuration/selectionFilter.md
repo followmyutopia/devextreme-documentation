@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies [filters](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) for the rows that must be selected initially. Applies only if **selection** | [deferred]({basewidgetpath}/Configuration/selection/#deferred) is **true**.
+Specifies [filters](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) for the rows that must be selected initially. Applies only if **selection**.[deferred]({basewidgetpath}/Configuration/selection/#deferred) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

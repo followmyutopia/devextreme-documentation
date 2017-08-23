@@ -9,7 +9,7 @@
 ===================================================================
 
 <!--deprecated-->
-Use the **Layer Element** | **applySettings(settings)** method instead.
+Use the **Layer Element**.**applySettings(settings)** method instead.
 <!--/deprecated--><!--shortDescription-->
 Applies the area settings specified as a parameter and updates the area appearance.
 <!--/shortDescription-->
@@ -32,6 +32,6 @@ The **settings** object should contain options to be changed for a certain area.
 - [selectedBorderColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#selectedBorderColor)
 - [selectedBorderWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#selectedBorderWidth)
 - [selectedColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#selectedColor)
-- **label** | [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/font/)
+- **label**.[font](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/font/)
 
 <!--/fullDescription-->

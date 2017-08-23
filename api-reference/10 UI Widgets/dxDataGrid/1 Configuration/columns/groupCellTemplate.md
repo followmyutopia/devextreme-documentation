@@ -45,9 +45,9 @@ Contains the settings of the column to which the current group cell belongs.
 - **summaryItems**  
 An array of [group summary items](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) that are defined to be displayed in a group row. The array objects have the structure of the group summary items with an addition of the **value** (the summary item value) and **columnCaption** (usually used to present a summary value) fields.
 - **groupContinuesMessage**        
-If the current group continues on the next page, this field contains a corresponding message. The value of this field equals the value of the **grouping** | [groupContinuesMessage](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#groupContinuesMessage) property. If the current group does not continue on the next page, this field equals **undefined**.
+If the current group continues on the next page, this field contains a corresponding message. The value of this field equals the value of the **grouping**.[groupContinuesMessage](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#groupContinuesMessage) property. If the current group does not continue on the next page, this field equals **undefined**.
 - **groupContinuedMessage**        
-If the current group is continued from the previous page, this field contains a corresponding message. The value of this field equals the value of the **grouping** | [groupContinuedMessage](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#groupContinuedMessage) property. If the current group is not continued from the previous page, this field equals **undefined**.
+If the current group is continued from the previous page, this field contains a corresponding message. The value of this field equals the value of the **grouping**.[groupContinuedMessage](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#groupContinuedMessage) property. If the current group is not continued from the previous page, this field equals **undefined**.
 
 [note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 
 

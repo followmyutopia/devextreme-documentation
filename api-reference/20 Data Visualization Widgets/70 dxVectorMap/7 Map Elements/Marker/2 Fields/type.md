@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **Layer** | **type** instead.
+Use the **Layer**.**type** instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

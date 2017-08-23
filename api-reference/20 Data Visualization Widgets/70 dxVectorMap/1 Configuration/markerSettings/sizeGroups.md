@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **sizeGroups** option instead.
+Use the **layers**.**sizeGroups** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

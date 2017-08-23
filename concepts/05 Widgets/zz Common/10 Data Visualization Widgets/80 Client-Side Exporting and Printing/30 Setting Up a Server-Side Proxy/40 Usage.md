@@ -1,1 +1,1 @@
-To enable server-side proxy support in a widget, set the **export** | [proxyUrl](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl) option to the proxy that will stream the file to an end user.
+To enable server-side proxy support in a widget, set the **export**.[proxyUrl](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl) option to the proxy that will stream the file to an end user.

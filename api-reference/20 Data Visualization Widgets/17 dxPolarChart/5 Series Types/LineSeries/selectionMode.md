@@ -28,5 +28,5 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 
 #####See Also#####
 - [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/LineSeries/selectionStyle/)
-- **point** | [selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/LineSeries/point/#selectionMode)
+- **point**.[selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/LineSeries/point/#selectionMode)
 <!--/fullDescription-->

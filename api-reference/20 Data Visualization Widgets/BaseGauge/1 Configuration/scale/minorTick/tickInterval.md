@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **scale** | **minorTickInterval** option instead.
+Use the **scale**.**minorTickInterval** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

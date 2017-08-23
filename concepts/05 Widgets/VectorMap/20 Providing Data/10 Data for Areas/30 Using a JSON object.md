@@ -1,4 +1,4 @@
-If you have your data as a JSON object, assign its [URI](http://en.wikipedia.org/wiki/Uniform_resource_identifier) to the **layers** | **dataSource** option. This way, no other actions will be required.
+If you have your data as a JSON object, assign its [URI](http://en.wikipedia.org/wiki/Uniform_resource_identifier) to the **layers**.**dataSource** option. This way, no other actions will be required.
 
 	<!--JavaScript-->var vectorMapCfg = {
         // ...

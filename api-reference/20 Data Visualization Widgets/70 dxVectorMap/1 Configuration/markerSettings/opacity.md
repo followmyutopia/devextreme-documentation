@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **opacity** option instead.
+Use the **layers**.**opacity** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

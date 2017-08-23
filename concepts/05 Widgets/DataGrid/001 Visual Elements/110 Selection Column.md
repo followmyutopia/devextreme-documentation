@@ -2,7 +2,7 @@ When a user is allowed to [select](/Documentation/Guide/Widgets/DataGrid/Selecti
 
 ![DevExtreme DataGrid SelectionColumn](/Content/images/doc/17_2/DataGrid/SelectionColumn.png)
 
-The selection column appears when the **selection** | [mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#mode) property is set to *'multiple'*.
+The selection column appears when the **selection**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#mode) property is set to *'multiple'*.
 
     <!--JavaScript-->$("#gridContainer").dxDataGrid({
         // ...
@@ -21,7 +21,7 @@ To change the selection column display policy, use the [showCheckBoxesMode](/Doc
     });
 
 
-Additionally, a user can select/deselect all rows at once using the check box located in the header of the selection column. Rows can be selected/deselected on the currently rendered pages or on all pages. To define this, specify the [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode) option. If the capability of all rows selection is not required, assign **false** to the **selection** | [allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll) property.
+Additionally, a user can select/deselect all rows at once using the check box located in the header of the selection column. Rows can be selected/deselected on the currently rendered pages or on all pages. To define this, specify the [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode) option. If the capability of all rows selection is not required, assign **false** to the **selection**.[allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll) property.
 
     <!--JavaScript-->$("#gridContainer").dxDataGrid({
         // ...

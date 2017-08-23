@@ -28,5 +28,5 @@ is the same as this:
     }
 
 #####See Also#####
-- **commonAxisSettings** | [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/title/) - configures all axis titles in the widget.
+- **commonAxisSettings**.[title](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/title/) - configures all axis titles in the widget.
 <!--/fullDescription-->

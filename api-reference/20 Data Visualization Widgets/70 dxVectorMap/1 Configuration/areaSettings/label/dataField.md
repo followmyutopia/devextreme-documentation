@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **label** | **dataField** option instead.
+Use the **layers**.**label**.**dataField** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

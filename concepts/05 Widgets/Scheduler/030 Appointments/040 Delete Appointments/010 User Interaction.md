@@ -28,7 +28,7 @@ If a user deletes a [recurring appointment](/Documentation/Guide/Widgets/Schedul
 
 ---
 
-To prevent a user from deleting an appointment, set the **editing** | [allowDeleting](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/editing/#allowDeleting) option to **false**.
+To prevent a user from deleting an appointment, set the **editing**.[allowDeleting](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/editing/#allowDeleting) option to **false**.
 
 ---
 

@@ -60,7 +60,7 @@ As an alternative, you can declare the whole object of widget options in the sco
 	</div>
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference) | **WidgetName** | **Configuration**
+- [API Reference](/Documentation/ApiReference).**WidgetName**.**Configuration**
 - [Change Options](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Change_Options)
 
 [tags]basics, angularjs, create, configure, initialize, design time, scope properties

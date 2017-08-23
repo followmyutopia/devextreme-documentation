@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **tick** | **color** option instead.
+Use the **tick**.**color** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

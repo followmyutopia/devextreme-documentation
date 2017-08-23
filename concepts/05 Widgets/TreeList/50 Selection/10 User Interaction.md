@@ -1,4 +1,4 @@
-The **TreeList** widget supports single and multiple row selection. Use the **selection** | [mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#mode) option to change the current mode.
+The **TreeList** widget supports single and multiple row selection. Use the **selection**.[mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#mode) option to change the current mode.
 
 ---
 ##### jQuery
@@ -26,7 +26,7 @@ In the single mode, only one row can be selected at a time. In the multiple mode
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/17_2/treelist/selection.png)
 
-You can disable the latter capability by setting the **selection** | [allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#allowSelectAll) option to *false*.
+You can disable the latter capability by setting the **selection**.[allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#allowSelectAll) option to *false*.
 
 ---
 ##### jQuery

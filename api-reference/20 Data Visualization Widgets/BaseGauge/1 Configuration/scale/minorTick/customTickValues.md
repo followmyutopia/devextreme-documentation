@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **scale** | **customMinorTicks** option instead.
+Use the **scale**.**customMinorTicks** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

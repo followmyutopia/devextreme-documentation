@@ -4,7 +4,7 @@ Filtering can be performed in one or several columns at a time. In addition, **D
 
 Searching is conducted differently in columns with different data types. To find a record by a numeric, boolean or date value, a user must enter the full value into the search panel. To find a record by a string value, entering a part of this value is sufficient.
 
-The search panel is available for end users when the [searchPanel](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/) | **visible** option is set to **true**.
+The search panel is available for end users when the [searchPanel](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/).**visible** option is set to **true**.
 
 #####See Also#####
 - [DataGrid - Search Panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel)
@@ -21,7 +21,7 @@ Although by default searching is performed in all columns, you can disable it in
 		]
     };
 
-You can also specify an initial search string using the **searchPanel** | [text](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/#text) option.
+You can also specify an initial search string using the **searchPanel**.[text](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/searchPanel/#text) option.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...

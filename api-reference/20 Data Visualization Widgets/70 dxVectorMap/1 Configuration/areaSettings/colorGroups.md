@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **colorGroups** option instead.
+Use the **layers**.**colorGroups** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

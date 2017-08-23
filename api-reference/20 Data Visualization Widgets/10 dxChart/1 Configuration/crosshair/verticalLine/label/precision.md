@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **crosshair** | **verticalLine** | **label** | [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/verticalLine/label/#format) | **precision** option instead.
+Use the **crosshair**.**verticalLine**.**label**.[format](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/verticalLine/label/#format).**precision** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

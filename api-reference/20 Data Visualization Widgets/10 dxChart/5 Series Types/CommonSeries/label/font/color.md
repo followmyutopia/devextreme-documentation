@@ -22,5 +22,5 @@ This option supports the following colors.
 * Predefined/cross-browser color names
 * [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
 
-[note]To color the background of point labels, use the **label** | **backgroundColor** option.
+[note]To color the background of point labels, use the **label**.**backgroundColor** option.
 <!--/fullDescription-->

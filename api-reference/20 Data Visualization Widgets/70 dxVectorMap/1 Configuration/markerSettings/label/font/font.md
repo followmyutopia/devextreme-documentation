@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **label** | **font** option instead.
+Use the **layers**.**label**.**font** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

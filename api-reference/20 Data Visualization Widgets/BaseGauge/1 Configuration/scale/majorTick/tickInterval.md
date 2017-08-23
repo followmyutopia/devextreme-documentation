@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **scale** | **tickInterval** option instead.
+Use the **scale**.**tickInterval** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

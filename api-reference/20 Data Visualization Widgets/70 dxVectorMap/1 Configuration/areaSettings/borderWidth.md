@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **borderWidth** option instead.
+Use the **layers**.**borderWidth** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

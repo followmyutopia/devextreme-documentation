@@ -53,6 +53,6 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 
 #####See Also#####
 - [pointSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#pointSelectionMode) - specifies whether only one or several bars can stay selected.
-- **series** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BarSeries/selectionStyle/) - specifies the appearance of bars in the selected state.
+- **series**.[selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BarSeries/selectionStyle/) - specifies the appearance of bars in the selected state.
 - [pointSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointSelectionChanged) - an event that fires after the selection state of a bar has been changed.
 <!--/fullDescription-->

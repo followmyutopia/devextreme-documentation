@@ -9,9 +9,9 @@ The **DataGrid** widget exports data to excel as it is presented in the grid - w
 
 You can enable some Excel features beforehand, using the following grid options:
 
-- **export** | [excelFilterEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#excelFilterEnabled)
+- **export**.[excelFilterEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#excelFilterEnabled)
 
-- **export** | [excelWrapTextEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#excelWrapTextEnabled)
+- **export**.[excelWrapTextEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#excelWrapTextEnabled)
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridexportexport/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
 <a href="http://www.youtube.com/watch?v=uFXD6NG3lo8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=50" class="button orange small fix-width-155" target="_blank">Watch Video</a>

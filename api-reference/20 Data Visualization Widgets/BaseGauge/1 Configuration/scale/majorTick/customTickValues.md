@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **scale** | **customTicks** option instead.
+Use the **scale**.**customTicks** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

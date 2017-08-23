@@ -22,6 +22,6 @@ A strip is a colored piece of the chart's background that highlights a range of 
 Each object in the **strips** array configures a single strip. To limit a strip, set its **startValue** and **endValue** options. You may set only one of them, in which case the strip will not have a limit at one end. Note that setting the **color** option is also necessary for a strip to be displayed.
 
 #####See Also#####
-- **valueAxis** | [stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/stripStyle/) - specifies the appearance of those strips that belong to the value axis.
-- **commonAxisSettings** | [stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/stripStyle/) - specifies the appearance of all strips in the widget.
+- **valueAxis**.[stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/stripStyle/) - specifies the appearance of those strips that belong to the value axis.
+- **commonAxisSettings**.[stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/stripStyle/) - specifies the appearance of all strips in the widget.
 <!--/fullDescription-->

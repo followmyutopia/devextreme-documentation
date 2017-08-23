@@ -46,6 +46,6 @@ This option impacts tick arrangement on axes that contain date-time values. The 
 </div>
 <div style="height:5px"></div>
 #####See Also#####
-- **argumentAxis** | [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tickInterval/) - sets a tick interval for the argument axis.
-- **valueAxis** | [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tickInterval/) - sets a tick interval for the value axis.
+- **argumentAxis**.[tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tickInterval/) - sets a tick interval for the argument axis.
+- **valueAxis**.[tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tickInterval/) - sets a tick interval for the value axis.
 <!--/fullDescription-->

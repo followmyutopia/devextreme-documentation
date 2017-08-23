@@ -51,5 +51,5 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 
 #####See Also#####
 - [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/hoverStyle/) - specifies the appearance of series in the hover state.
-- **point** | [hoverMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/point/#hoverMode) - specifies the hover mode of series points.
+- **point**.[hoverMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/point/#hoverMode) - specifies the hover mode of series points.
 <!--/fullDescription-->

@@ -27,7 +27,7 @@ Specifies the argument value of the currently represented point with applied for
 * **percent**    
 Specifies the proportional value of the currently represented point in a floating point format.
 * **percentText**    
-Specifies the value of the currently represented point as a percentage with a precision of the **format** | **percentPrecision** option.
+Specifies the value of the currently represented point as a percentage with a precision of the **format**.**percentPrecision** option.
 * **point.tag**        
 Specifies the tag of the currently represented point.
 

@@ -22,5 +22,5 @@ This option supports the following colors.
 * Predefined/cross-browser color names
 * [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
 
-[note]To color the background of the label, use the **label** | [backgroundColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/horizontalLine/label/#backgroundColor) option.
+[note]To color the background of the label, use the **label**.[backgroundColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/horizontalLine/label/#backgroundColor) option.
 <!--/fullDescription-->

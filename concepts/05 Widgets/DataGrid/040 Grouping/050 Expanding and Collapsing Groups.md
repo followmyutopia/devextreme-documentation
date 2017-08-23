@@ -2,7 +2,7 @@ Groups can be either expanded or collapsed. When expanded, a group is represente
 
 ![DevExtreme DataGrid Groups](/Content/images/doc/17_2/DataGrid/GroupsExpandedCollapsed.png)
 
-By default, to expand/collapse a group, the user clicks its expand/collapse button. On small-screen devices, this approach may impair the user experience. As an alternative, consider expanding/collapsing a group by a click on the group row. To specify the preferable mode, use the **grouping** | [expandMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#expandMode) option.
+By default, to expand/collapse a group, the user clicks its expand/collapse button. On small-screen devices, this approach may impair the user experience. As an alternative, consider expanding/collapsing a group by a click on the group row. To specify the preferable mode, use the **grouping**.[expandMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#expandMode) option.
 
     <!--JavaScript-->var dataGridOptions = {
         // ...
@@ -12,7 +12,7 @@ By default, to expand/collapse a group, the user clicks its expand/collapse butt
         }
     };
 
-You can entirely disallow the user to collapse groups. For this purpose, set the **grouping** | [allowCollapsing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#allowCollapsing) option to **false**.
+You can entirely disallow the user to collapse groups. For this purpose, set the **grouping**.[allowCollapsing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#allowCollapsing) option to **false**.
 
     <!--JavaScript-->var dataGridOptions = {
         // ...
@@ -22,7 +22,7 @@ You can entirely disallow the user to collapse groups. For this purpose, set the
         }
 	  };
 
-Groups in a grid may appear expanded or collapsed initially. To specify this for all groups, use the **grouping** | [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option. If you need to specify this setting for an individual column, use its [autoExpandGroup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#autoExpandGroup) option.
+Groups in a grid may appear expanded or collapsed initially. To specify this for all groups, use the **grouping**.[autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option. If you need to specify this setting for an individual column, use its [autoExpandGroup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#autoExpandGroup) option.
 
     <!--JavaScript-->var dataGridOptions = {
         // ...

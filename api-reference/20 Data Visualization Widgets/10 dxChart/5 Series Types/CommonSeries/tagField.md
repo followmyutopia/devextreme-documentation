@@ -20,5 +20,5 @@ This option allows you to associate virtually any required data with a series po
 Commonly, a chart contains several series, and many of them have the same **tagField** value. In this case, specify the **tagField** property in the **commonSeriesSettings** object. If a series must have a unique **tagField** value, specify the same property, but do so in the series object within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) array.
 
 #####See Also#####
-- **series** | [tag](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#tag) - associates data with an entire series.
+- **series**.[tag](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#tag) - associates data with an entire series.
 <!--/fullDescription-->

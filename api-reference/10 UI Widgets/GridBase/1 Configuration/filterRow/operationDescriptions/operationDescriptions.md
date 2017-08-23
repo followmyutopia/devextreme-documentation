@@ -14,5 +14,5 @@ Specifies descriptions for filter operations on the filter list.
 
 <!--fullDescription-->
 #####See Also#####
-- **columns[]** | [filterOperations]({basewidgetpath}/Configuration/columns/#filterOperations)
+- **columns[]**.[filterOperations]({basewidgetpath}/Configuration/columns/#filterOperations)
 <!--/fullDescription-->

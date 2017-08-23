@@ -98,6 +98,6 @@ If the **type** is the only field you need to specify in the **format** object, 
 When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `Format` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *"fixedPoint"* becomes `FixedPoint`.
 
 #####See Also#####
-- **format** | [currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency) - specifies the currency code for the currency format.
-- **format** | [precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision) - specifies the precision of values that have a numeric or currency format.
+- **format**.[currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency) - specifies the currency code for the currency format.
+- **format**.[precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision) - specifies the precision of values that have a numeric or currency format.
 <!--/fullDescription-->

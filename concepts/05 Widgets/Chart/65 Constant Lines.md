@@ -42,13 +42,13 @@ To configure the constant lines, declare the [constantLines](/Documentation/ApiR
 
 If several constant lines should have a uniform style, you can specify it using one of the following objects.
 
-- **argumentAxis** | [constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLineStyle/)         
+- **argumentAxis**.[constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLineStyle/)         
 Style for constant lines belonging to the argument axis.
 
-- **valueAxis** | [constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLineStyle/)         
+- **valueAxis**.[constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLineStyle/)         
 Style for constant lines belonging to the value axis.
 
-- **commonAxisSettings** | [constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/constantLineStyle/)         
+- **commonAxisSettings**.[constantLineStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/constantLineStyle/)         
 Style for all constant lines in the **Chart**.
 
 Note that individual settings override axis-specific settings which, in turn, override common settings.

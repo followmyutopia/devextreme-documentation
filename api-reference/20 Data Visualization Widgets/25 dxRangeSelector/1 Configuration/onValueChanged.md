@@ -18,7 +18,7 @@ A handler for the [valueChanged](/Documentation/ApiReference/Data_Visualization_
 <!--fullDescription-->
 When implementing the handling function, use the object passed to it as the parameter. Among fields of this object, you can find old and new start and end range values.
 
-The **onValueChanged** function can be called when a user moves a slider or after he/she has stopped moving it. To specify the required mode, use the **behavior** | [callValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged) option.
+The **onValueChanged** function can be called when a user moves a slider or after he/she has stopped moving it. To specify the required mode, use the **behavior**.[callValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged) option.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/charts-advanced_features-zooming_and_scrolling_api" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Demo</a>
 

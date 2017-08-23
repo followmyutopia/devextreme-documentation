@@ -21,7 +21,7 @@ If none of the [predefined formats](/Documentation/ApiReference/Common/Object_St
     }
     
 #####See Also#####
-- **format** | [parser](/Documentation/ApiReference/Common/Object_Structures/format/#parser) - parses string values into numeric or date-time values.
+- **format**.[parser](/Documentation/ApiReference/Common/Object_Structures/format/#parser) - parses string values into numeric or date-time values.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->number|date<!--/typeFunctionParamType1-->

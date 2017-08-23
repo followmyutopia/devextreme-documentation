@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **hoveredColor** option instead.
+Use the **layers**.**hoveredColor** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

@@ -1,4 +1,4 @@
-The **TreeList** widget uses the build-in validation engine to validate user input. You can attach validation rules using the **columns** | [validationRules](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#validationRules) option which accepts an array of objects with fields described in the [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section. The editor displays an error message if a value fails to pass the validation check.
+The **TreeList** widget uses the build-in validation engine to validate user input. You can attach validation rules using the **columns**.[validationRules](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#validationRules) option which accepts an array of objects with fields described in the [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section. The editor displays an error message if a value fails to pass the validation check.
 
 ---
 ##### jQuery

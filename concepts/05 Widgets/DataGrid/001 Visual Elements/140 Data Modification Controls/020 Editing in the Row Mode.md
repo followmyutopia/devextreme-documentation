@@ -13,7 +13,7 @@ This setting adds the "Add" button to the upper-right corner of the **DataGrid**
 * **allowDeleting** is **true**		
 This setting adds the "Delete" button to each grid row.
 
-In addition, the text of a certain button can be changed using the fields of the **editing** | [texts](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts/) object.
+In addition, the text of a certain button can be changed using the fields of the **editing**.[texts](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/texts/) object.
 
 <div class="simple-table">
 <table>

@@ -15,5 +15,5 @@ In a [boolean]({basewidgetpath}/Configuration/columns/#dataType) column, replace
 
 <!--fullDescription-->
 #####See Also#####
-- **columns[]** | [falseText]({basewidgetpath}/Configuration/columns/#falseText)
+- **columns[]**.[falseText]({basewidgetpath}/Configuration/columns/#falseText)
 <!--/fullDescription-->

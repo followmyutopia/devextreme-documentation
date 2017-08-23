@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **customize** option instead.
+Use the **layers**.**customize** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

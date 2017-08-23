@@ -46,7 +46,7 @@ If the axis displays numbers, assign a number to this option. If the axis displa
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VizTimeInterval` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'day'* becomes `Day`.
 
 #####See Also#####
-- **argumentAxis** | [minorTickCount](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#minorTickCount) - specifies how many minor ticks to place between two neighboring major ticks.
-- **argumentAxis** | [minorTick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTick/) - configures the appearance of minor ticks.
-- **argumentAxis** | [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTick/) - specifies the interval between major ticks.
+- **argumentAxis**.[minorTickCount](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#minorTickCount) - specifies how many minor ticks to place between two neighboring major ticks.
+- **argumentAxis**.[minorTick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTick/) - configures the appearance of minor ticks.
+- **argumentAxis**.[tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTick/) - specifies the interval between major ticks.
 <!--/fullDescription-->

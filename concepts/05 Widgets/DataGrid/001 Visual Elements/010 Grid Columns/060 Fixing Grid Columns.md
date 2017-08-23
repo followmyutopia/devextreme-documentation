@@ -2,7 +2,7 @@ The **DataGrid** widget allows you to anchor columns to the left or right grid e
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridcolumnscolumncustomization" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
-To anchor columns to grid edges, set the grid's [columnFixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) | **enabled** option to **true**. In this instance, column fixing-related commands will be available in the column headers' context menu. Using these commands, end users can anchor any column to the left or to the right grid edge and then unfix it.
+To anchor columns to grid edges, set the grid's [columnFixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/).**enabled** option to **true**. In this instance, column fixing-related commands will be available in the column headers' context menu. Using these commands, end users can anchor any column to the left or to the right grid edge and then unfix it.
 
 	<!--JavaScript-->var dataGridOptions = {
 		//...
@@ -15,7 +15,7 @@ To anchor columns to grid edges, set the grid's [columnFixing](/Documentation/Ap
 
 You can prevent the fixing of a particular column by setting its [allowFixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowFixing) option to **false**. In this instance, the fixing-related commands will not be available in the column's context menu.
 
-Columns can be fixed at runtime and at design time. If you require certain columns to appear fixed initially, set the columns' [fixed](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#fixed) option to **true**. In this instance, the grid's [columnFixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) | **enabled** option will automatically be set to **true**. 
+Columns can be fixed at runtime and at design time. If you require certain columns to appear fixed initially, set the columns' [fixed](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#fixed) option to **true**. In this instance, the grid's [columnFixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/).**enabled** option will automatically be set to **true**. 
 
 	<!--JavaScript-->var dataGridOptions = {
 		//...

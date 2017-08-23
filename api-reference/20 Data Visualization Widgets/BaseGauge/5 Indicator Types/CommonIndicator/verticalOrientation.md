@@ -13,7 +13,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the orientation of the *rangeBar* indicator. Applies only if the **geometry** | [orientation](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/geometry/#orientation) option is *"horizontal"*.
+Specifies the orientation of the *rangeBar* indicator. Applies only if the **geometry**.[orientation](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/geometry/#orientation) option is *"horizontal"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

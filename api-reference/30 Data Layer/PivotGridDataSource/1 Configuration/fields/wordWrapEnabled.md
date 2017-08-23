@@ -15,5 +15,5 @@ Specifies whether or not long text in [header items](/Documentation/Guide/Widget
 
 <!--fullDescription-->
 #####See Also#####
-- **PivotGrid** | [wordWrapEnabled](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#wordWrapEnabled) - applies word wrap to all fields in **PivotGrid**.
+- **PivotGrid**.[wordWrapEnabled](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#wordWrapEnabled) - applies word wrap to all fields in **PivotGrid**.
 <!--/fullDescription-->

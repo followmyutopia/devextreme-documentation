@@ -2,7 +2,7 @@ A group summary item is a grid element that aggregates a column of data in a gro
 
 ![DevExtreme DataGrid GroupPanel](/Content/images/doc/17_2/DataGrid/GroupSummary.png)
 
-To define a group summary item, use the [summary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/) | [groupItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) array.
+To define a group summary item, use the [summary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/).[groupItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) array.
     
     <!--JavaScript-->$("#gridContainer").dxDataGrid({
         // ...

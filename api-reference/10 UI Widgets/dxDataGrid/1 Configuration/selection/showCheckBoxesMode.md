@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies when to display checkboxes in rows. Applies only if **selection** | [mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#mode) is *"multiple"*.
+Specifies when to display checkboxes in rows. Applies only if **selection**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#mode) is *"multiple"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

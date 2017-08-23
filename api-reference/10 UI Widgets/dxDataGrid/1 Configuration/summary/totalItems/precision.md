@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the [valueFormat](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat) | **precision** option instead.
+Use the [valueFormat](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat).**precision** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

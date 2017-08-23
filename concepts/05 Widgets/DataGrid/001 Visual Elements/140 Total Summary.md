@@ -2,7 +2,7 @@ A total summary item is a grid element that aggregates the entire column of data
 
 ![Total Summary](/Content/images/doc/17_2/DataGrid/TotalSummary.png)
 
-To define a total summary item, use the [summary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/) | [totalItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/) array.
+To define a total summary item, use the [summary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/).[totalItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/) array.
 
     <!--JavaScript-->$("#gridContainer").dxDataGrid({
         // ...

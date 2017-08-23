@@ -26,5 +26,5 @@ This option has the following peculiarities.
 [/note]
 
 #####See Also#####
-- **columns[]** | [editorOptions]({basewidgetpath}/Configuration/columns/#editorOptions)
+- **columns[]**.[editorOptions]({basewidgetpath}/Configuration/columns/#editorOptions)
 <!--/fullDescription-->

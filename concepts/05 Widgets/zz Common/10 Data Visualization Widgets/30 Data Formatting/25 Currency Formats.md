@@ -1,4 +1,4 @@
-To set a currency format, assign *'currency'* to the **format** | [type](/Documentation/ApiReference/Common/Object_Structures/format/#type) option.
+To set a currency format, assign *'currency'* to the **format**.[type](/Documentation/ApiReference/Common/Object_Structures/format/#type) option.
 
     <!--JavaScript-->var widgetOptions = {
         // ...
@@ -17,7 +17,7 @@ To use any currency that differs from USD, follow these steps.
 
 1. Get the *currencies.json* file that corresponds to your locale from one of the folders [here](https://github.com/unicode-cldr/cldr-numbers-modern/tree/master/main).
 2. Load the contents of this file in your app using one of the methods described [here](https://github.com/jquery/globalize/blob/master/doc/cldr.md#how-do-i-load-cldr-data-into-globalize).
-3. Assign the [3-letter code](http://www.currency-iso.org/en/home/tables/table-a1.html) of the needed currency to the **format** | [currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency) option.
+3. Assign the [3-letter code](http://www.currency-iso.org/en/home/tables/table-a1.html) of the needed currency to the **format**.[currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency) option.
 
         <!--JavaScript-->var widgetOptions = {
             // ...
@@ -29,7 +29,7 @@ To use any currency that differs from USD, follow these steps.
             }
         };
     
-Additionally, you can specify the precision of currency values using the **format** | [precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision) option.
+Additionally, you can specify the precision of currency values using the **format**.[precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision) option.
 
     <!--JavaScript-->var widgetOptions = {
         // ...

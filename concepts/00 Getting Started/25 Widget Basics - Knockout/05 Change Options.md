@@ -18,7 +18,7 @@ Now, if you change an observable in code, the widget will receive the changes an
 [note]Options containing array and specified on the second (or further) level of the configuration object cannot be made observable.
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference) | **WidgetName** | **Configuration**
+- [API Reference](/Documentation/ApiReference).**WidgetName**.**Configuration**
 - [Create and Configure a Widget](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget)
 
 [tags]basics, knockout, change options, get, set, runtime, observables, two-way binding

@@ -1,4 +1,4 @@
-﻿To display a chart in the **RangeSelector** background, provide data for it using the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#dataSource) option. Next, specify the fields to be used as the argument and value fields. To do this, use the **argumentField** and **valueField** options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/#series) object. In case you have several chart series, their common settings can be specified within the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/#commonSeriesSettings) object.
+To display a chart in the **RangeSelector** background, provide data for it using the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#dataSource) option. Next, specify the fields to be used as the argument and value fields. To do this, use the **argumentField** and **valueField** options within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/#series) object. In case you have several chart series, their common settings can be specified within the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/chart/#commonSeriesSettings) object.
 
 	<!--JavaScript-->
 	var rangeSelectorOptions = {
@@ -20,7 +20,7 @@
 		}
 	};
 
-Additionally, you can [set up a color](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Background/Setting_Up_a_Color) for the range selector's background using the **background** | **color** option. In this case, a chart will be displayed on the background that will be painted in the specified color.
+Additionally, you can [set up a color](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/#Background/Setting_Up_a_Color) for the range selector's background using the **background**.**color** option. In this case, a chart will be displayed on the background that will be painted in the specified color.
 
 Besides displaying a chart in the background, the **RangeSelector** widget can be bound to the [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) widget in order to perform zooming and scrolling on the chart. Refer to the [End-User Interaction](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/) topic to learn more about these advanced features.
 

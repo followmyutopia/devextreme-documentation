@@ -25,6 +25,6 @@ Each object in the **panes** array configures a single pane. If you have several
 
 #####See Also#####
 - [commonPaneSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonPaneSettings/) - specifies common settings for all panes in a chart.
-- **series** | [pane](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#pane) - binds a series to a pane.
+- **series**.[pane](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#pane) - binds a series to a pane.
 - [defaultPane](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#defaultPane) - specifies which pane must be used by default.
 <!--/fullDescription-->

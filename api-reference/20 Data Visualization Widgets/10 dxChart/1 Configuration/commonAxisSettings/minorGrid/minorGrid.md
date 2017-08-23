@@ -19,10 +19,10 @@ In addition to the [major grid](/Documentation/ApiReference/Data_Visualization_W
 
 [note]Neither minor ticks, nor the minor grid can be displayed if the axis is of the *"discrete"* type.
 
-The **commonAxisSettings** | [minorGrid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/minorGrid/) object specifies common settings for all minor grid lines in the chart. To configure only those grid lines that descend from a particular axis, use the following objects.
+The **commonAxisSettings**.[minorGrid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/minorGrid/) object specifies common settings for all minor grid lines in the chart. To configure only those grid lines that descend from a particular axis, use the following objects.
 
-- **argumentAxis** | [minorGrid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorGrid/)     
-- **valueAxis** | [minorGrid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/minorGrid/)       
+- **argumentAxis**.[minorGrid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorGrid/)     
+- **valueAxis**.[minorGrid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/minorGrid/)       
 
 Axis-specific settings override common settings.
 

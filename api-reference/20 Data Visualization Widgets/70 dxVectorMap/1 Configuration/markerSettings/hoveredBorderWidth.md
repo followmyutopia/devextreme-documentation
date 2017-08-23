@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **hoveredBorderWidth** option instead.
+Use the **layers**.**hoveredBorderWidth** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

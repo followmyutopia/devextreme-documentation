@@ -3,10 +3,10 @@ Remote group paging helps to speed up grouping when there is a significant amoun
 Remote group paging has restrictions:
 
 - Filtering, paging, grouping, and sorting should be performed remotely.
-- Initially, all groups should be collapsed by setting the **grouping** | [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option to **false**.
+- Initially, all groups should be collapsed by setting the **grouping**.[autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option to **false**.
 - Do not call the [expandAll(groupIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandAllgroupIndex) method. Otherwise, the widget ignores remote group paging.
 
-Set the **remoteOperations** | [groupPaging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/#groupPaging) option to **true** to enable remote group paging. Note that with this setting, all other data processing operations (filtering, sorting, grouping, paging and summary calculation) also become remote. 
+Set the **remoteOperations**.[groupPaging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/#groupPaging) option to **true** to enable remote group paging. Note that with this setting, all other data processing operations (filtering, sorting, grouping, paging and summary calculation) also become remote. 
 
     <!--JavaScript-->
     $(function() {

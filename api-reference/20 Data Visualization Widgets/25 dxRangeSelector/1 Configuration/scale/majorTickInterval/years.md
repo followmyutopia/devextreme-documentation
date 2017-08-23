@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **tickInterval** | **years** option instead.
+Use the **tickInterval**.**years** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

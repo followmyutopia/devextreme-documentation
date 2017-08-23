@@ -18,7 +18,7 @@ When adapting to small container size, the widget may hide its accessory element
 1. [Title]({basewidgetpath}/Configuration/title)
 2. [Export menu icon]({basewidgetpath}/Configuration/export)
 3. [Legend]({basewidgetpath}/Configuration/legend)
-4. [Point labels]({basewidgetpath}/Configuration/commonSeriesSettings/label) (can be saved by setting the **adaptiveLayout** | [keepLabels]({basewidgetpath}/Configuration/adaptiveLayout#keepLabels) option to **true**)
+4. [Point labels]({basewidgetpath}/Configuration/commonSeriesSettings/label) (can be saved by setting the **adaptiveLayout**.[keepLabels]({basewidgetpath}/Configuration/adaptiveLayout#keepLabels) option to **true**)
 
 To specify the widget's size small enough for the layout to begin adapting, use the **height** and **width** options of the **adaptiveLayout** object.
 

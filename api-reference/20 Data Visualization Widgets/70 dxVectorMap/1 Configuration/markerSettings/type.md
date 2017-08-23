@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **elementType** option instead.
+Use the **layers**.**elementType** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

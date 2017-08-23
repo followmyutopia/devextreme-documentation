@@ -20,5 +20,5 @@ When using [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angu
 
 #####See Also#####
 - [onValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#onValueChanged)
-- **behavior** | [callValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged)
+- **behavior**.[callValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged)
 <!--/fullDescription-->

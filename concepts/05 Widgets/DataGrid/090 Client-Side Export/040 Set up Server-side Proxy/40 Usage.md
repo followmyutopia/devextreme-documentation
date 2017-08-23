@@ -1,1 +1,1 @@
-To enable server-side proxy support in a data grid, set the **export** | [proxyUrl](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#proxyUrl) option to the proxy that will stream the file to the end user.
+To enable server-side proxy support in a data grid, set the **export**.[proxyUrl](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#proxyUrl) option to the proxy that will stream the file to the end user.

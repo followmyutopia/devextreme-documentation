@@ -13,11 +13,11 @@ A header filter allows a user to filter values in an individual column by includ
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList HeaderFilter](/Content/images/doc/17_2/treelist/visual_elements/header_filter.png)
 
-To make header filter icons visible, assign **true** to the **headerFilter** | [visible]({basewidgetpath}/Configuration/headerFilter/#visible) option. Data in the popup menu can be customized using the [headerFilter]({basewidgetpath}/Configuration/columns/headerFilter/) option of a specific column.
+To make header filter icons visible, assign **true** to the **headerFilter**.[visible]({basewidgetpath}/Configuration/headerFilter/#visible) option. Data in the popup menu can be customized using the [headerFilter]({basewidgetpath}/Configuration/columns/headerFilter/) option of a specific column.
 
 #####See Also#####
 - [Header Filter](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Header_Filter)
-- **columns[]** | [allowHeaderFiltering]({basewidgetpath}/Configuration/columns/#allowHeaderFiltering)
+- **columns[]**.[allowHeaderFiltering]({basewidgetpath}/Configuration/columns/#allowHeaderFiltering)
 - [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
 - [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
 <!--/fullDescription-->

@@ -37,7 +37,7 @@ Different filter operations may be applied to a column. To change the current fi
 	</table>
 </div>
 
-To make a filter row available for end users, set the **filterRow** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#visible) option to **true**.
+To make a filter row available for end users, set the **filterRow**.[visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#visible) option to **true**.
 
 #####See Also#####
 - [DataGrid - Filter Row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Filter_Row)
@@ -91,4 +91,4 @@ If a filter must be applied to a column initially, set the [filterValue](/Docume
 		]
     });
 
-To make set filtering impossible for a user to change, hide the filter row by setting the **filterRow** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#visible) option to **false**.
+To make set filtering impossible for a user to change, hide the filter row by setting the **filterRow**.[visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterRow/#visible) option to **false**.

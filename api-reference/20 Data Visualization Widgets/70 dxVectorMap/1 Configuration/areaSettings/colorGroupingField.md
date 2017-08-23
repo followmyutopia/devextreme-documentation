@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **colorGroupingField** option instead.
+Use the **layers**.**colorGroupingField** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

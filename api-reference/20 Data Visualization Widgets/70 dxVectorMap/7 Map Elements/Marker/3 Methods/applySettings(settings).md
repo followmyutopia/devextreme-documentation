@@ -9,7 +9,7 @@
 ===================================================================
 
 <!--deprecated-->
-Use the **Layer Element** | **applySettings(settings)** method instead.
+Use the **Layer Element**.**applySettings(settings)** method instead.
 <!--/deprecated--><!--shortDescription-->
 Applies the marker settings specified as a parameter and updates marker appearance.
 <!--/shortDescription-->
@@ -32,5 +32,5 @@ The **settings** object should contain options to be changed for a certain marke
 - [selectedBorderColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#selectedBorderColor)
 - [selectedBorderWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#selectedBorderWidth)
 - [selectedColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#selectedColor)
-- **label** | [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/label/font/)
+- **label**.[font](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/label/font/)
 <!--/fullDescription-->

@@ -58,7 +58,7 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Confi
     
 ---
 
-Implement the **columns[]** | [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate) function for more extensive customization, in which you should specify your custom component's appearance and behavior in full. The following code uses this function to substitute an HTML check box for a default editor:
+Implement the **columns[]**.[editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate) function for more extensive customization, in which you should specify your custom component's appearance and behavior in full. The following code uses this function to substitute an HTML check box for a default editor:
 
 ---
 ##### jQuery
@@ -105,7 +105,7 @@ Implement the **columns[]** | [editCellTemplate](/Documentation/ApiReference/UI_
     
 ---
 
-Editors are displayed in cells in the normal state too if you set the **columns** | [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways) option to **true**.
+Editors are displayed in cells in the normal state too if you set the **columns**.[showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways) option to **true**.
 
 ---
 ##### jQuery

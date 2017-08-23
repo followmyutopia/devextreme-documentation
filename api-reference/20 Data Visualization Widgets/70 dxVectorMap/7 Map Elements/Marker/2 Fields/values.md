@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Get the pie values using the **Layer Element** | [attribute(name)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#attributename) method. The **name** parameter for pie values is set at the [dataField](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataField) option.
+Get the pie values using the **Layer Element**.[attribute(name)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#attributename) method. The **name** parameter for pie values is set at the [dataField](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataField) option.
 <!--/deprecated-->
 
 <!--shortDescription-->

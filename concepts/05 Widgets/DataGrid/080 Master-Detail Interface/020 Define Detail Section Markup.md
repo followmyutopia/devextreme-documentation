@@ -1,4 +1,4 @@
-﻿After enabling the master-detail interface, specify a template for detail sections. Templates allow you to place virtually anything into the detail sections. For instance, you can display another **DataGrid** or any other [UI widget](/Documentation/ApiReference/UI_Widgets/) there. To define a template, use the grid's **masterDetail** | [template](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/#template) option.
+After enabling the master-detail interface, specify a template for detail sections. Templates allow you to place virtually anything into the detail sections. For instance, you can display another **DataGrid** or any other [UI widget](/Documentation/ApiReference/UI_Widgets/) there. To define a template, use the grid's **masterDetail**.[template](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/#template) option.
 
 	<!--JavaScript-->$("#gridContainer").dxDataGrid({
 		// ...

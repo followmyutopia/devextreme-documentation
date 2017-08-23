@@ -49,7 +49,7 @@ or for points of an individual series:
         }]
 	};
 
-[note]The **point** configuration object defines the points of the line-like, scatter and area-like series only. To set the selection style for points of other series, use the **series** | **selectionStyle** object.
+[note]The **point** configuration object defines the points of the line-like, scatter and area-like series only. To set the selection style for points of other series, use the **series**.**selectionStyle** object.
 
 By default, the chart highlights the selected point only. But in some scenarios, you may need several points to be highlighted. To specify this, use the **selectionMode** option. Like the selection style, this option can be specified for all, type-specific or points of an individual series. It can accept one of the following values.
 

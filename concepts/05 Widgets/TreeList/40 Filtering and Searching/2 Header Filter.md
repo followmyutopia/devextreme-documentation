@@ -4,7 +4,7 @@ A header filter allows a user to filter values in an individual column by includ
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingHeaderFilter/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
-To make header filter icons visible for all columns, assign **true** to the [headerFilter](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/headerFilter/) | **visible** option. Set a column's [allowHeaderFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowHeaderFiltering) option to **false** if its header filter should not be available. Note that this option inherits the value of the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option by default.
+To make header filter icons visible for all columns, assign **true** to the [headerFilter](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/headerFilter/).**visible** option. Set a column's [allowHeaderFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowHeaderFiltering) option to **false** if its header filter should not be available. Note that this option inherits the value of the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option by default.
 
 ---
 ##### jQuery
@@ -54,7 +54,7 @@ A user can change the applied filter by including or excluding values to/from it
     
 ---
 
-A header filter's popup menu simply lists all column values by default. You can group them using the **headerFilter** | [groupInterval](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/headerFilter/#groupInterval) option if they are numbers or dates. You can also provide a completely custom data source for a header filter using the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/headerFilter/#dataSource) option. Refer to the option's description for details.
+A header filter's popup menu simply lists all column values by default. You can group them using the **headerFilter**.[groupInterval](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/headerFilter/#groupInterval) option if they are numbers or dates. You can also provide a completely custom data source for a header filter using the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/headerFilter/#dataSource) option. Refer to the option's description for details.
 
 #####See Also#####
 - [Filtering API - Initial and Runtime Filtering](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering)

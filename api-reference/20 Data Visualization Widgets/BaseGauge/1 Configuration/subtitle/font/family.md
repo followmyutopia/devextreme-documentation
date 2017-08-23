@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **title** | **subtitle** | **font** | **family** option instead.
+Use the **title**.**subtitle**.**font**.**family** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

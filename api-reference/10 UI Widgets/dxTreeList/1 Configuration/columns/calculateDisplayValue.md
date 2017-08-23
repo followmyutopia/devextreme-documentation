@@ -124,7 +124,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 [note]Do not use this option to format text in the cells. Use [customizeText]({basewidgetpath}/Configuration/columns/#customizeText) for this.
 
 #####See Also#####
-- **columns[]** | [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)
+- **columns[]**.[calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)
 <!--/fullDescription-->
 
 <!--handmade-->

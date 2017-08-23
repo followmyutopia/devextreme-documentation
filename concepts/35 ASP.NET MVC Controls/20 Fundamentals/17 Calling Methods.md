@@ -54,4 +54,4 @@ If the method you are calling accepts arguments, pass them after the method's na
     $("#popup").dxPopup("toggle", true);
 
 #####See Also#####
-- **API Reference** | **WidgetName** | **Methods** - lists all methods of a specific DevExtreme widget.
+- **API Reference**.**WidgetName**.**Methods** - lists all methods of a specific DevExtreme widget.

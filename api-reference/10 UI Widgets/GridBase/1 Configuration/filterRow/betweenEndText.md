@@ -15,5 +15,5 @@ Specifies a placeholder for the editor that specifies the end of a range when a 
 
 <!--fullDescription-->
 #####See Also#####
-- **filterRow** | [betweenStartText]({basewidgetpath}/Configuration/filterRow/#betweenStartText)
+- **filterRow**.[betweenStartText]({basewidgetpath}/Configuration/filterRow/#betweenStartText)
 <!--/fullDescription-->

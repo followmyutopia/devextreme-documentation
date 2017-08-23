@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--fullDescription-->
-A user can sort rows by values of a single or multiple columns depending on the value of the **sorting** | [mode]({basewidgetpath}/Configuration/sorting/#mode) option.
+A user can sort rows by values of a single or multiple columns depending on the value of the **sorting**.[mode]({basewidgetpath}/Configuration/sorting/#mode) option.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/17_2/treelist/visual_elements/sorting_sorted_columns.png)
 

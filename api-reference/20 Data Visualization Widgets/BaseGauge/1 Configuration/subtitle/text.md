@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **title** | **subtitle** | **text** option instead.
+Use the **title**.**subtitle**.**text** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

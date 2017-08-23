@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **label** | [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#format) | **precision** option instead.
+Use the **label**.[format](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#format).**precision** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

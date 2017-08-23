@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **tickInterval** | **seconds** option instead.
+Use the **tickInterval**.**seconds** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

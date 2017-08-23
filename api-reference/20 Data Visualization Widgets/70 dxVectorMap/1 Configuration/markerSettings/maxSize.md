@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **maxSize** option instead.
+Use the **layers**.**maxSize** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

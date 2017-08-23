@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **sliderMarker** | [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker/#format) | **precision** option instead.
+Use the **sliderMarker**.[format](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker/#format).**precision** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

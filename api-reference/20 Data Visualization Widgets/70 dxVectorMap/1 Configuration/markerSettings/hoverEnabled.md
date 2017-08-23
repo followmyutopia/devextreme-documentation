@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **hoverEnabled** option instead.
+Use the **layers**.**hoverEnabled** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

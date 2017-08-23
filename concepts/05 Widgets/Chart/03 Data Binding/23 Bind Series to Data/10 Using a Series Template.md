@@ -2,7 +2,7 @@ To bind series to data using a series template, start with setting common option
 
 [note]Certain series types need more than one value field or additional data fields to be specified. These series types are listed in the closing part of the [Bind Series to Data Directly](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/#Directly) topic.
 
-After that, use the **seriesTemplate** | [nameField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/seriesTemplate/#nameField) option to specify which data source field provides [names](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name) for series.
+After that, use the **seriesTemplate**.[nameField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/seriesTemplate/#nameField) option to specify which data source field provides [names](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name) for series.
 
 ---
 ##### jQuery
@@ -55,7 +55,7 @@ After that, use the **seriesTemplate** | [nameField](/Documentation/ApiReference
 
 ---
 
-If you need to change options of a particular series, return an [object with them](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) from the **seriesTemplate** | [customizeSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/seriesTemplate/#customizeSeries) function. This object will be merged with the **commonSeriesSettings** object. To identify a series, use the argument passed to this function.
+If you need to change options of a particular series, return an [object with them](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) from the **seriesTemplate**.[customizeSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/seriesTemplate/#customizeSeries) function. This object will be merged with the **commonSeriesSettings** object. To identify a series, use the argument passed to this function.
 
 ---
 ##### jQuery

@@ -27,7 +27,7 @@ Note that you can use a spider web for polar charts displaying discrete data. Fo
 
 ![SpiderWeb PolarLineSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/PolarLine_useSpiderWeb.png)
 
-Line polar charts are appropriate for data whose values span cyclically repeating arguments. In this instance, set the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/) | [period](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#period) option.
+Line polar charts are appropriate for data whose values span cyclically repeating arguments. In this instance, set the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/).[period](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#period) option.
 
 ![Cyclic PolarLineSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/PolarLine_Smooth_Cyclic.png)
 

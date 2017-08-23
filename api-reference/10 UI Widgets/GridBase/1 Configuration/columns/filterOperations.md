@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a set of available filter operations. Applies only if [filterRow]({basewidgetpath}/Configuration/filterRow/) | **visible** and [allowFiltering]({basewidgetpath}/Configuration/columns/#allowFiltering) are **true**.
+Specifies a set of available filter operations. Applies only if [filterRow]({basewidgetpath}/Configuration/filterRow/).**visible** and [allowFiltering]({basewidgetpath}/Configuration/columns/#allowFiltering) are **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -47,6 +47,6 @@ The **filterOperations** option can also accept an empty array. In this case, th
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `FilterOperations` enum. This enum accepts the following values: `Equal`, `NotEqual`, `LessThan`, `LessThanOrEqual`, `GreaterThan`, `GreaterThanOrEqual`, `NotContains`, `Contains`, `StartsWith`, `EndsWith` and `Between`.
 
 #####See Also#####
-- **columns[]** | [selectedFilterOperation]({basewidgetpath}/Configuration/columns/#selectedFilterOperation)
-- **columns[]** | [filterValue]({basewidgetpath}/Configuration/columns/#filterValue)
+- **columns[]**.[selectedFilterOperation]({basewidgetpath}/Configuration/columns/#selectedFilterOperation)
+- **columns[]**.[filterValue]({basewidgetpath}/Configuration/columns/#filterValue)
 <!--/fullDescription-->

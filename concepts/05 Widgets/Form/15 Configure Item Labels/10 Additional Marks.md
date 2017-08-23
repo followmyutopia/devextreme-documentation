@@ -21,7 +21,7 @@ To specify the mark or text for required and optional items, use the [requiredMa
         });
     });
 
-Each label ends with a colon. To hide it, assign **false** to the [showColonAfterLabel](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showColonAfterLabel) option. Note that you can show/hide a colon for an individual item using the **label** | [showColon](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/label/#showColon) option.
+Each label ends with a colon. To hide it, assign **false** to the [showColonAfterLabel](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showColonAfterLabel) option. Note that you can show/hide a colon for an individual item using the **label**.[showColon](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/label/#showColon) option.
 
     $(function() {
         $("#formContainer").dxForm({

@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **title** | **subtitle** | **font** | **opacity** option instead.
+Use the **title**.**subtitle**.**font**.**opacity** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

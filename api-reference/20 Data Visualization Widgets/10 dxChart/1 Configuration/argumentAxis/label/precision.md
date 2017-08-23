@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **argumentAxis** | **label** | [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#format) | **precision** option instead.
+Use the **argumentAxis**.**label**.[format](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#format).**precision** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

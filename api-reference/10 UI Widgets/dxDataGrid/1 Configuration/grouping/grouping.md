@@ -16,7 +16,7 @@ Specifies grouping settings and the behavior of [grouped](/Documentation/Guide/W
 An end-user can group data using the [group panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Panel), the context menu appearing by a click on a column header, or both. The following list provides an overview of grouping settings that you can specify using the **grouping** object.
 
 * **Enabling**      
-To enable grouping using the context menu, assign **true** to the [contextMenuEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#contextMenuEnabled) option. Also, you can enable grouping using the group panel. For this purpose, assign **true** or *"auto"* to the **groupPanel** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) option.
+To enable grouping using the context menu, assign **true** to the [contextMenuEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#contextMenuEnabled) option. Also, you can enable grouping using the group panel. For this purpose, assign **true** or *"auto"* to the **groupPanel**.[visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) option.
 
     ---
     #####jQuery

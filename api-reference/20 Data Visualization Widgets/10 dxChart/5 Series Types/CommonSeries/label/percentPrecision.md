@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **series** | **label** | **format** | **percentPrecision** instead.
+Use the **series**.**label**.**format**.**percentPrecision** instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

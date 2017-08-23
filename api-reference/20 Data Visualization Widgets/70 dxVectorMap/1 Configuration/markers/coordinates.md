@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Specify coordinates in the *"geometry.coordinates"* field of a [GeoJSON feature](http://geojson.org/geojson-spec.html#feature-objects). The GeoJSON object is passed to the **layers** | [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataSource) option.
+Specify coordinates in the *"geometry.coordinates"* field of a [GeoJSON feature](http://geojson.org/geojson-spec.html#feature-objects). The GeoJSON object is passed to the **layers**.[dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataSource) option.
 <!--/deprecated-->
 
 <!--shortDescription-->

@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the mode in which all the records are selected. Applies only if **selection** | [allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll) is **true**.
+Specifies the mode in which all the records are selected. Applies only if **selection**.[allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

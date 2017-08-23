@@ -15,7 +15,7 @@ Specifies whether a user can resize the column at runtime. Applies only if [allo
 
 <!--fullDescription-->
 #####See Also#####
-- **columns[]** | [width]({basewidgetpath}/Configuration/columns/#width)
+- **columns[]**.[width]({basewidgetpath}/Configuration/columns/#width)
 - [columnAutoWidth]({basewidgetpath}/Configuration/#columnAutoWidth)
 - [columnMinWidth]({basewidgetpath}/Configuration/#columnMinWidth)
 <!--/fullDescription-->

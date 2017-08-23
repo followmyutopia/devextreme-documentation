@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **title** | **subtitle** option instead.
+Use the **title**.**subtitle** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

@@ -44,13 +44,13 @@ When a user selects a series, it may react in one of the following ways dependin
     </table>
 </div>
 
-[note]Points in step area series are hidden by default. To make them visible, assign **true** to the **point** | **visible** option.
+[note]Points in step area series are hidden by default. To make them visible, assign **true** to the **point**.**visible** option.
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartSeriesSelectionMode` enum with one of the following values: `IncludePoints`, `ExcludePoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to a step area series.
 
 #####See Also#####
 - [seriesSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#seriesSelectionMode) - specifies whether only one or several series can stay selected.
-- **series** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StepAreaSeries/selectionStyle/) - specifies the appearance of a series in the selected state.
-- **series** | **point** | [selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StepAreaSeries/point/#selectionMode) - specifies the selection mode of series points.
+- **series**.[selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StepAreaSeries/selectionStyle/) - specifies the appearance of a series in the selected state.
+- **series**.**point**.[selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StepAreaSeries/point/#selectionMode) - specifies the selection mode of series points.
 - [seriesSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesSelectionChanged) - an event that fires after the selection state of a series has been changed.
 <!--/fullDescription-->

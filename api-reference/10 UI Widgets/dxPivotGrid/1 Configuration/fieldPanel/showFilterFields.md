@@ -14,5 +14,5 @@ Shows/hides filter fields on the [field panel](/Documentation/Guide/Widgets/Pivo
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Optionally, you can change the placeholder of the filter field area on the field panel. Use the **texts** | [filterFieldArea](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/texts/#filterFieldArea) property for this purpose.
+Optionally, you can change the placeholder of the filter field area on the field panel. Use the **texts**.[filterFieldArea](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/texts/#filterFieldArea) property for this purpose.
 <!--/fullDescription-->

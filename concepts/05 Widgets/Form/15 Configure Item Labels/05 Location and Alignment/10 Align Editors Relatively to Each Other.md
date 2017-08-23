@@ -2,8 +2,8 @@ By default, the widget aligns all editors of all simple items in straight column
 
 - [alignItemLabels](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#alignItemLabels) - for all _root_ simple items;
 - [alignItemLabelsInAllGroups](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#alignItemLabelsInAllGroups) - for all simple items nested _in all groups_;
-- **Group Item** | [alignItemLabels](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/#alignItemLabels) - for simple items nested _in a specific group_;
-- **Tabbed Item** | **tabs[]** | [alignItemLabels](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#alignItemLabels) - for simple items nested _in a specific tab_.
+- **Group Item**.[alignItemLabels](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/#alignItemLabels) - for simple items nested _in a specific group_;
+- **Tabbed Item**.**tabs[]**.[alignItemLabels](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#alignItemLabels) - for simple items nested _in a specific tab_.
 
 <!---->
 

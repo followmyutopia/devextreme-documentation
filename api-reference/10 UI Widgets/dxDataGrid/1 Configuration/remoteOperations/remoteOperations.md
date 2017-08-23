@@ -42,7 +42,7 @@ Data operations can be categorized into basic operations ([filtering](/Documenta
 
 To control individual operations, assign a Boolean value to a corresponding field of the **remoteOperations** object. To control all operations simultaneously, assign a Boolean value directly to the **remoteOperations** option. 
 
-[note]If you assign **true** to **remoteOperations**, the group paging feature is still performed on the client. To delegate it to the server, assign **true** to the **remoteOperations** | [groupPaging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/#groupPaging), but note that with this setting, all other operations are delegated to the server also.
+[note]If you assign **true** to **remoteOperations**, the group paging feature is still performed on the client. To delegate it to the server, assign **true** to the **remoteOperations**.[groupPaging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/#groupPaging), but note that with this setting, all other operations are delegated to the server also.
 
 [note]If actual data is stored on the server, making data operations local does _not_ guarantee that there won't be any queries for data to the server while these operations are being performed. It only guarantees that _calculations_ will be performed on the client.
 

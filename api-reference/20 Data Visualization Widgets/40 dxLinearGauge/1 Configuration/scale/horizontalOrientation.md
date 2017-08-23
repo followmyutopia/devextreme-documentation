@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the orientation of scale ticks. Applies only if the **geometry** | [orientation](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/geometry/#orientation) option is *"vertical"*.
+Specifies the orientation of scale ticks. Applies only if the **geometry**.[orientation](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/geometry/#orientation) option is *"vertical"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

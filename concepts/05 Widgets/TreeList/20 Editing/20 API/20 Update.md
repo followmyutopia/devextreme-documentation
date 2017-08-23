@@ -36,7 +36,7 @@ The [cellValue (rowIndex, visibleColumnIndex, value)](/Documentation/ApiReferenc
     
 ---
 
-The **TreeList** widget allows you to process an updated cell value in the **columns** | [setCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#setCellValue) function before this value is saved to the data source. 
+The **TreeList** widget allows you to process an updated cell value in the **columns**.[setCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#setCellValue) function before this value is saved to the data source. 
 
 ---
 ##### jQuery

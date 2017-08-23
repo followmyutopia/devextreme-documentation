@@ -28,8 +28,8 @@ This option accepts one of the following.
 [note]When using the **DataSource** object, turn the [pagination](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) off to prevent data from partitioning.
 
 #####See Also#####
-- **series** | [argumentField]({basewidgetpath}/Configuration/series/#argumentField)
-- **series** | [valueField]({basewidgetpath}/Configuration/series/#valueField)
+- **series**.[argumentField]({basewidgetpath}/Configuration/series/#argumentField)
+- **series**.[valueField]({basewidgetpath}/Configuration/series/#valueField)
 - [getDataSource()]({basewidgetpath}/Methods/#getDataSource)
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer)
 - [Data Layer - Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples)

@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **color** option instead.
+Use the **layers**.**color** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

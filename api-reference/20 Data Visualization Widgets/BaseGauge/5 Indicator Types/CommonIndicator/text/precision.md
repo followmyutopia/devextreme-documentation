@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **text** | **format** | **precision** option instead.
+Use the **text**.**format**.**precision** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **minorTick** | **visible** option instead.
+Use the **minorTick**.**visible** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

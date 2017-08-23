@@ -18,9 +18,9 @@ There are several approaches to colorizing tiles.
 
  - Colorizing each tile uniquely into the [color specified directly](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#colorField) in the data object.      
  - Colorizing tiles using the [colorizer](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/colorizer/).        
- - Specifying a single color for all tiles using the **tile** | **color** option.       
+ - Specifying a single color for all tiles using the **tile**.**color** option.       
 
-Use the latter approach only if you need to color all tiles uniformly. The **tile** | **color** option supports the following colors.
+Use the latter approach only if you need to color all tiles uniformly. The **tile**.**color** option supports the following colors.
 
 * Hexadecimal colors        
 * RGB colors        

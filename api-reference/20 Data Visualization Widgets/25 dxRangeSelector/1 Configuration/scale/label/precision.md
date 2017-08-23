@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **scale** | **label** | [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/label/#format) | **precision** option instead.
+Use the **scale**.**label**.[format](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/label/#format).**precision** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

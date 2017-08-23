@@ -28,5 +28,5 @@ To use any currency that differs from USD, follow these steps.
 3. Assign the 3-letter code of the needed currency to the **currency** option.
 
 #####See Also#####
-- **format** | [precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision) - specifies the precision of values that have the currency format.
+- **format**.[precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision) - specifies the precision of values that have the currency format.
 <!--/fullDescription-->

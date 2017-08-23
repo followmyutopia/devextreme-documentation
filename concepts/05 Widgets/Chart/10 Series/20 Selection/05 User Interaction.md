@@ -1,12 +1,12 @@
 When a user selects a series, the series changes its style to the one specified by the following objects.
 
-- **series** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/selectionStyle/)        
+- **series**.[selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/selectionStyle/)        
 The selection style for an individual series.
 
-- **commonSeriesSettings** | **%seriesType%** | **selectionStyle**                
+- **commonSeriesSettings**.**%seriesType%**.**selectionStyle**                
 The selection style for all series of a specific type ([line](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#line), [bar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#bar), etc.).
 
-- **commonSeriesSettings** | [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/selectionStyle/)         
+- **commonSeriesSettings**.[selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/selectionStyle/)         
 The selection style for all series in the **Chart**.
 
 Note that individual settings override type-specific settings which, in turn, override common settings.

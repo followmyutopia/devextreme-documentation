@@ -51,7 +51,7 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 
 #####See Also#####
 - [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/hoverStyle/) - specifies the appearance of series in the hover state.
-- **point** | [hoverMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/point/#hoverMode) - specifies the hover mode of series points.
+- **point**.[hoverMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/SplineSeries/point/#hoverMode) - specifies the hover mode of series points.
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureshovermode/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

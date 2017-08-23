@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **label** | **enabled** option instead.
+Use the **layers**.**label**.**enabled** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

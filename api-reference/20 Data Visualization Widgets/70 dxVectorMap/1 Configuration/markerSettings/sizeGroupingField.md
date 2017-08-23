@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **sizeGroupingField** option instead.
+Use the **layers**.**sizeGroupingField** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

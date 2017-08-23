@@ -4,13 +4,13 @@ A grid is a set of mutually-crossing vertical and horizontal lines that stretch 
 
 Grid lines can be configured using one of the following objects.
 
-- **argumentAxis** | [grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/grid/)     
+- **argumentAxis**.[grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/grid/)     
 Settings for the grid lines that ascend from the argument axis.
 
-- **valueAxis** | [grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/grid/)         
+- **valueAxis**.[grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/grid/)         
 Settings for the grid lines that ascend from the value axis.
 
-- **commonAxisSettings** | [grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/grid/)         
+- **commonAxisSettings**.[grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/grid/)         
 Settings for all grid lines in the **Chart**.
 
 Note that axis-specific settings override common settings.

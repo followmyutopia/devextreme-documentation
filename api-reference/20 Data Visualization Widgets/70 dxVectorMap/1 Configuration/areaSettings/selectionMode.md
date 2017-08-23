@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **selectionMode** option instead.
+Use the **layers**.**selectionMode** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

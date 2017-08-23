@@ -9,7 +9,7 @@
 ===================================================================
 
 <!--deprecated-->
-Use the **Layer Element** | [selected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#selected) method instead.
+Use the **Layer Element**.[selected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#selected) method instead.
 <!--/deprecated--><!--shortDescription-->
 Provides information about the selection state of a marker.
 <!--/shortDescription-->

@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Checks whether the row that represents a specific data object is selected. Takes effect only if **selection** | [deferred](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred) is **true**.
+Checks whether the row that represents a specific data object is selected. Takes effect only if **selection**.[deferred](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred) is **true**.
 <!--/shortDescription-->
 
 <!--paramName1-->data<!--/paramName1-->

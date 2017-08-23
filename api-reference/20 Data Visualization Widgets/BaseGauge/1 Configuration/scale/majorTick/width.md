@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **tick** | **width** option instead.
+Use the **tick**.**width** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

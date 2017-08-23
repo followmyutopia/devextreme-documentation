@@ -43,13 +43,13 @@ To configure the strips, declare the [strips](/Documentation/ApiReference/Data_V
 
 If several strips should have a uniform style, you can specify it using one of the following objects.
 
-- **argumentAxis** | [stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/stripStyle/)         
+- **argumentAxis**.[stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/stripStyle/)         
 Style for strips belonging to the argument axis.
 
-- **valueAxis** | [stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/stripStyle/)         
+- **valueAxis**.[stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/stripStyle/)         
 Style for strips belonging to the value axis.
 
-- **commonAxisSettings** | [stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/stripStyle/)         
+- **commonAxisSettings**.[stripStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/stripStyle/)         
 Style for all strips in the **Chart**.
 
 Note that individual settings override axis-specific settings which, in turn, override common settings.

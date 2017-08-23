@@ -15,7 +15,7 @@ Specifies whether a single point or multiple points can be selected in the chart
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To set the points to highlight along with the selected point, set the **series** | **point** | [selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/point/#selectionMode) option.
+To set the points to highlight along with the selected point, set the **series**.**point**.[selectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/point/#selectionMode) option.
 
 To learn how to select a point, refer to the [Selection Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Selection_Handling) topic.
 

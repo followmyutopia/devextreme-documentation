@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **minSize** option instead.
+Use the **layers**.**minSize** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

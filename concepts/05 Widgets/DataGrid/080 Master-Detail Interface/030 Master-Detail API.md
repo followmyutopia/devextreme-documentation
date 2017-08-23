@@ -12,6 +12,6 @@ These API methods work regardless of the [enabled](/Documentation/ApiReference/U
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridmaster-detailmasterdetailsapi/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
-In addition to the methods listed above, there is a **grouping** | [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option that defines the initial rows state.
+In addition to the methods listed above, there is a **grouping**.[autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option that defines the initial rows state.
 
 You can also perform custom actions before or after expanding/collapsing detail sections. For this purpose, use the [rowExpanding](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowExpanding), [rowExpanded](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowExpanded), [rowCollapsing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowCollapsing) and [rowCollapsed](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowCollapsed) events. To learn more about expanding and collapsing groups in the **DataGrid** widget, refer to the [Expanding and Collapsing Groups](/Documentation/Guide/Widgets/DataGrid/Grouping/#Expanding_and_Collapsing_Groups) topic.

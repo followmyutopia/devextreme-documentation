@@ -15,5 +15,5 @@ Specifies how many [minor ticks](/Documentation/ApiReference/Data_Visualization_
 
 <!--fullDescription-->
 #####See Also#####
-- **argumentAxis** | [minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTickInterval/) - specifies the interval between minor ticks. Has a higher priority than the **minorTickCount** option.
+- **argumentAxis**.[minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/minorTickInterval/) - specifies the interval between minor ticks. Has a higher priority than the **minorTickCount** option.
 <!--/fullDescription-->

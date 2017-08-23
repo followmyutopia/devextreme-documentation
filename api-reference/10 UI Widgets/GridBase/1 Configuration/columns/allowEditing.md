@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether a user can edit values in the column at runtime. By default, inherits the value of the **editing** | [allowUpdating]({basewidgetpath}/Configuration/editing/#allowUpdating) option.
+Specifies whether a user can edit values in the column at runtime. By default, inherits the value of the **editing**.[allowUpdating]({basewidgetpath}/Configuration/editing/#allowUpdating) option.
 <!--/shortDescription-->
 
 <!--fullDescription-->

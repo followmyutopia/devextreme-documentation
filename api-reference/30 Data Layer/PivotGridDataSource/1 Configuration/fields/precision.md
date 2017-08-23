@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the [format](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#format) | **precision** option instead.
+Use the [format](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#format).**precision** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

@@ -2,7 +2,7 @@ Values and subvalues are indicated on the gauge scale that is divided by scale t
 
 <img src="/Content/images/doc/17_2/ChartJS/LinearGaugeScaleTicks.png" alt="DevExtreme HTML5 JavaScript Gauges LinearGaugeScaleTicks" style="display:block; margin:0 auto" />
 
-To configure major and minor scale ticks, use the **scale** | [tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/scale/tick/) and **scale** | [minorTick](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/scale/minorTick/) configuration objects, respectively.
+To configure major and minor scale ticks, use the **scale**.[tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/scale/tick/) and **scale**.[minorTick](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/scale/minorTick/) configuration objects, respectively.
 
 	<!--JavaScript-->var gaugeOptions = {
 		scale: {
@@ -15,7 +15,7 @@ To configure major and minor scale ticks, use the **scale** | [tick](/Documentat
 		}
     };
 
-Major ticks are visible by default. To display minor ticks, you need to set the **minorTick** | **visible** option to **true**. You can change the visibility of the major ticks using the same option within the **tick** configuration object.
+Major ticks are visible by default. To display minor ticks, you need to set the **minorTick**.**visible** option to **true**. You can change the visibility of the major ticks using the same option within the **tick** configuration object.
 
 By default, scale ticks are generated automatically. If you are not satisfied with the automatically generated ticks, you can specify a custom interval for major and minor ticks. To do this, use the [tickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/scale/#tickInterval) and [minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/scale/#minorTickInterval) options, respectively.
 

@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) | **precision** option instead.
+Use the [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format).**precision** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

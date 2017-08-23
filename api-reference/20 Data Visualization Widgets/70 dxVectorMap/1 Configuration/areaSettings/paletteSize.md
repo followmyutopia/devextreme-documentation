@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **paletteSize** option instead.
+Use the **layers**.**paletteSize** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

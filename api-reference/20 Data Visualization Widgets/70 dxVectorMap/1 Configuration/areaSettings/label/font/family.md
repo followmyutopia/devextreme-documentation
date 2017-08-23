@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **label** | **font** | **family** option instead.
+Use the **layers**.**label**.**font**.**family** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

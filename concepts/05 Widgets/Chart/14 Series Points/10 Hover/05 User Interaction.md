@@ -2,13 +2,13 @@
 
 When a user pauses on a series point, it changes its style to the one specified by the following objects.
 
-- **series** | **point** | [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/point/hoverStyle/)        
+- **series**.**point**.[hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/point/hoverStyle/)        
 The hover style for all points of an individual series.
 
-- **commonSeriesSettings** | **%seriesType%** | **point** | **hoverStyle**                
+- **commonSeriesSettings**.**%seriesType%**.**point**.**hoverStyle**                
 The hover style for all points belonging to a series of a specific type ([line](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#line), [area](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/#area), etc.).
 
-- **commonSeriesSettings** | **point** | [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/hoverStyle/)       
+- **commonSeriesSettings**.**point**.[hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/point/hoverStyle/)       
 The hover style for all series points in the **Chart**.
 
 Note that individual settings override type-specific settings which, in turn, override common settings.

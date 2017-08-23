@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the widget should load pages adjacent to the current page. Applies only if **scrolling** | [mode]({basewidgetpath}/Configuration/scrolling/#mode) is *"virtual"*.
+Specifies whether the widget should load pages adjacent to the current page. Applies only if **scrolling**.[mode]({basewidgetpath}/Configuration/scrolling/#mode) is *"virtual"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

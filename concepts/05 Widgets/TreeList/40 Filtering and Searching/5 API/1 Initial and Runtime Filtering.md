@@ -94,7 +94,7 @@ To specify initial values for a [header filter](/Documentation/Guide/Widgets/Tre
     
 ---
 
-You can specify an initial text for the [search panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel) using the **searchPanel** | [text](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/searchPanel/#text) option. Call the [searchByText(text)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#searchByTexttext) method to change the text at runtime.
+You can specify an initial text for the [search panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel) using the **searchPanel**.[text](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/searchPanel/#text) option. Call the [searchByText(text)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#searchByTexttext) method to change the text at runtime.
 
 ---
 ##### jQuery

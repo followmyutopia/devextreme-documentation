@@ -86,7 +86,7 @@ Call the **this.defaultCalculateCellValue(rowData)** function and return its res
 [/note]
 
 #####See Also#####
-- **columns[]** | [calculateDisplayValue]({basewidgetpath}/Configuration/columns/#calculateDisplayValue)
+- **columns[]**.[calculateDisplayValue]({basewidgetpath}/Configuration/columns/#calculateDisplayValue)
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->

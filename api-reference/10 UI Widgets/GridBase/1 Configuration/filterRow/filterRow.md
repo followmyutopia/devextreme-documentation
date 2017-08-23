@@ -21,7 +21,7 @@ Each cell in the filter row contains a magnifying glass icon, pausing on which o
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid FilterRow](/Content/images/doc/17_2/DataGrid/visual_elements/filter_row_operation_chooser.png)
 
-To make the filter row visible, assign **true** to the **filterRow** | [visible]({basewidgetpath}/Configuration/filterRow/#visible) option.
+To make the filter row visible, assign **true** to the **filterRow**.[visible]({basewidgetpath}/Configuration/filterRow/#visible) option.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/Filtering/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 

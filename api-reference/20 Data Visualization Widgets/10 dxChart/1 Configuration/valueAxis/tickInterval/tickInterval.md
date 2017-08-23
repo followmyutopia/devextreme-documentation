@@ -48,6 +48,6 @@ When you use an axis of the *"logarithmic"* [type](/Documentation/ApiReference/D
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VizTimeInterval` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'day'* becomes `Day`.
 
 #####See Also#####
-- **valueAxis** | [tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tick/) - configures the appearance of major ticks.
-- **valueAxis** | [minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/minorTickInterval/) - specifies the interval between minor ticks.
+- **valueAxis**.[tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tick/) - configures the appearance of major ticks.
+- **valueAxis**.[minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/minorTickInterval/) - specifies the interval between minor ticks.
 <!--/fullDescription-->

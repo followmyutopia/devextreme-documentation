@@ -30,7 +30,7 @@ If you need to sort by a single column, setting the **sortOrder** option for tha
         }]    
     }
 
-Additionally, you can make the initially set sorting impossible for an end-user to change. For this purpose, turn the sorting feature off completely by setting the **sorting** | [mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/sorting/#mode) option to *'none'*.
+Additionally, you can make the initially set sorting impossible for an end-user to change. For this purpose, turn the sorting feature off completely by setting the **sorting**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/sorting/#mode) option to *'none'*.
 
     <!--JavaScript-->var dataGridOptions = {
         // ...

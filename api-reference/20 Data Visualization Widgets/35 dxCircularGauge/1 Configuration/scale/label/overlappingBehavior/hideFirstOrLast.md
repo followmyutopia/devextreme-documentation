@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **scale** | **label** | [hideFirstOrLast](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/scale/label/#hideFirstOrLast) option instead.
+Use the **scale**.**label**.[hideFirstOrLast](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/scale/label/#hideFirstOrLast) option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

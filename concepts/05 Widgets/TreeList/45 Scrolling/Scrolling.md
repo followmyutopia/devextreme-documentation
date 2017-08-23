@@ -4,9 +4,9 @@ Scrolling enables a user to browse data that lies outside the widget's viewport.
 Loads all rows simultaneously.
 
 - **Virtual**       
-Rows are loaded when they get into the viewport and removed once they leave it. Use this mode if a user should be able to scroll data jumping swiftly from one row to another. Scrolling in this mode becomes smoother if the widget preloads the adjacent pages. You can enable this feature by setting the **scrolling** | [preloadEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/scrolling/#preloadEnabled) option to **true**, but note that it may cause lags on low-performing devices.
+Rows are loaded when they get into the viewport and removed once they leave it. Use this mode if a user should be able to scroll data jumping swiftly from one row to another. Scrolling in this mode becomes smoother if the widget preloads the adjacent pages. You can enable this feature by setting the **scrolling**.[preloadEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/scrolling/#preloadEnabled) option to **true**, but note that it may cause lags on low-performing devices.
 
-Use the **scrolling** | [mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/scrolling/#mode) option to specify the current scrolling mode.
+Use the **scrolling**.[mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/scrolling/#mode) option to specify the current scrolling mode.
 
 ---
 ##### jQuery

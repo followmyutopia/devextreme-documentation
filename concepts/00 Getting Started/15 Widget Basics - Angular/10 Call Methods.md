@@ -18,7 +18,7 @@ To call a widget method, get the widget's component with a [view query](https://
     }
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference/) | **WidgetName** | **Methods**
+- [API Reference](/Documentation/ApiReference/).**WidgetName**.**Methods**
 - [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
 
 [tags]basics, angularjs, call methods, widget instance

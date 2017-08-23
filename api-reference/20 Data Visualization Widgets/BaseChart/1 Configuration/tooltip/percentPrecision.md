@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **tooltip** | [format]({basewidgetpath}/Configuration/tooltip#format) | **percentPrecision** option instead.
+Use the **tooltip**.[format]({basewidgetpath}/Configuration/tooltip#format).**percentPrecision** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

@@ -62,6 +62,6 @@ If you subscribed to an event using an **on*EventName*** option, you can unsubsc
     <!--JavaScript-->menuInstance.option("itemClick", undefined);
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference) | **WidgetName** | **Events**
+- [API Reference](/Documentation/ApiReference).**WidgetName**.**Events**
 
 [tags]basics, angularjs, handle events, subscribe, unsubscribe, on, off

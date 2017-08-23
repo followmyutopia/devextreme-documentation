@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **tickInterval** | **months** option instead.
+Use the **tickInterval**.**months** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

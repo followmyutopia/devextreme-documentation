@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **selectedBorderColor** option instead.
+Use the **layers**.**selectedBorderColor** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

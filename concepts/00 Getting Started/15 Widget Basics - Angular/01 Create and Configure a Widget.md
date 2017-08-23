@@ -50,7 +50,7 @@ For more information on using DevExtreme widgets with Angular, refer to the [Dev
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/Angular/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference/) | **WidgetName** | **Configuration**
+- [API Reference](/Documentation/ApiReference/).**WidgetName**.**Configuration**
 - [Change Options](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Change_Options/)
 - [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
 

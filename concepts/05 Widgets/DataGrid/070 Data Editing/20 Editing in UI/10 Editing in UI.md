@@ -11,7 +11,7 @@ The fields of the [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Co
 
 You can also specify whether a user can edit values in a specific column by using the [allowUpdating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowUpdating) option of this column.
 
-Editing in the **DataGrid** widget can be carried out in several modes. To specify the mode, set the **editing** | [mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode) option as shown in the code below.
+Editing in the **DataGrid** widget can be carried out in several modes. To specify the mode, set the **editing**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode) option as shown in the code below.
 
     <!--JavaScript-->$("#gridContainer").dxDataGrid({
         // ...

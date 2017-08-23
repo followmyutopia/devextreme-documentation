@@ -15,5 +15,5 @@ Specifies whether the [column chooser]({basewidgetpath}/Configuration/columnChoo
 
 <!--fullDescription-->
 #####See Also#####
-- **columns[]** | [visible]({basewidgetpath}/Configuration/columns/#visible)
+- **columns[]**.[visible]({basewidgetpath}/Configuration/columns/#visible)
 <!--/fullDescription-->

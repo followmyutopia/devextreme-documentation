@@ -1,11 +1,11 @@
-Grouping in the UI can be performed using the context menu. To enable this capability, assign **true** to the **grouping** | [contextMenuEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#contextMenuEnabled) option.
+Grouping in the UI can be performed using the context menu. To enable this capability, assign **true** to the **grouping**.[contextMenuEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#contextMenuEnabled) option.
 
 	<!--JavaScript-->var dataGridOptions = {
         // ...
 		grouping: { contextMenuEnabled: true }
 	};
 
-To allow grouping with the group panel as well, make the group panel visible using the **groupPanel** | [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) option.
+To allow grouping with the group panel as well, make the group panel visible using the **groupPanel**.[visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) option.
 
 	<!--JavaScript-->var dataGridOptions = {
         // ...

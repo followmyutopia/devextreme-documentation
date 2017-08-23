@@ -29,7 +29,7 @@ The following **Form** options cannot be specified using **formOptions**:
 
 #####See Also#####
 - [columnHidingEnabled]({basewidgetpath}/Configuration/#columnHidingEnabled)
-- **columns[]** | [hidingPriority]({basewidgetpath}/Configuration/columns/#hidingPriority)
+- **columns[]**.[hidingPriority]({basewidgetpath}/Configuration/columns/#hidingPriority)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

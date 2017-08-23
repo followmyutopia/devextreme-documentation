@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **tickInterval** | **days** option instead.
+Use the **tickInterval**.**days** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

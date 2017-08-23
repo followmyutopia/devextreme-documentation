@@ -12,7 +12,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers** | **palette** option instead.
+Use the **layers**.**palette** option instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

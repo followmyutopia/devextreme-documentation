@@ -105,7 +105,7 @@ The column with the **isBand** flag set to **true** can have the following prope
 - [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex)
 
 #####See Also#####
-- **columns** | [columns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/columns/)
+- **columns**.[columns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/columns/)
 <!--/fullDescription-->
 
 <!--handmade-->

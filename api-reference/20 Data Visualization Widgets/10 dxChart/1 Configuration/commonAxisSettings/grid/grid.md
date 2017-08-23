@@ -17,13 +17,13 @@ A grid is a set of mutually-crossing vertical and horizontal lines that stretch 
 
 ![DevExtreme HTML5 Charts GridLines](/Content/images/doc/17_2/ChartJS/visual_elements/grid_lines.png)
 
-The **commonAxisSettings** | [grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/grid/) object specifies common settings for all grid lines in the chart. To configure only those grid lines that descend from a particular axis, use the following objects.
+The **commonAxisSettings**.[grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/grid/) object specifies common settings for all grid lines in the chart. To configure only those grid lines that descend from a particular axis, use the following objects.
 
-- **argumentAxis** | [grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/grid/)     
-- **valueAxis** | [grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/grid/)       
+- **argumentAxis**.[grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/grid/)     
+- **valueAxis**.[grid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/grid/)       
 
 Axis-specific settings override common settings.
 
 #####See Also#####
-- **commonAxisSettings** | [minorGrid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/minorGrid/) - configures the minor grid built on minor ticks.
+- **commonAxisSettings**.[minorGrid](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/minorGrid/) - configures the minor grid built on minor ticks.
 <!--/fullDescription-->

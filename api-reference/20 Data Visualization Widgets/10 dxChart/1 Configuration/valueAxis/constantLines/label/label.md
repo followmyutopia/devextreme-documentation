@@ -31,6 +31,6 @@ To align the constant line label in the horizontal and vertical directions, use 
 To change the font of the constant line label, use the fields of the [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLines/label/font/) object.
 
 #####See Also#####
-- **valueAxis** | **constantLineStyle** | [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLineStyle/label/) - specifies a unified style for the labels of those constant lines that belong to the value axis.
-- **commonAxisSettings** | **constantLineStyle** | [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/constantLineStyle/label/) - specifies a unified style for the labels of all constant lines in the widget.
+- **valueAxis**.**constantLineStyle**.[label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/constantLineStyle/label/) - specifies a unified style for the labels of those constant lines that belong to the value axis.
+- **commonAxisSettings**.**constantLineStyle**.[label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonAxisSettings/constantLineStyle/label/) - specifies a unified style for the labels of all constant lines in the widget.
 <!--/fullDescription-->

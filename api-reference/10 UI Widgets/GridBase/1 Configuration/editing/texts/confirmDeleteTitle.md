@@ -15,5 +15,5 @@ Specifies a title for the window that asks a user to confirm deletion.
 
 <!--fullDescription-->
 #####See Also#####
-- **editing** | **texts** | [confirmDeleteMessage]({basewidgetpath}/Configuration/editing/texts/#confirmDeleteMessage)
+- **editing**.**texts**.[confirmDeleteMessage]({basewidgetpath}/Configuration/editing/texts/#confirmDeleteMessage)
 <!--/fullDescription-->

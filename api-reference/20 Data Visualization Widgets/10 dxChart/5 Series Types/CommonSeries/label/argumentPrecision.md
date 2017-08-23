@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--deprecated-->
-Use the **series** | **label** | **argumentFormat** | **precision** instead.
+Use the **series**.**label**.**argumentFormat**.**precision** instead.
 <!--/deprecated-->
 
 <!--shortDescription-->

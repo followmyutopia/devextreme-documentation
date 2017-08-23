@@ -15,5 +15,5 @@ Specifies whether column headers are visible.
 
 <!--fullDescription-->
 #####See Also#####
-- **columns[]** | [caption]({basewidgetpath}/Configuration/columns/#caption)
+- **columns[]**.[caption]({basewidgetpath}/Configuration/columns/#caption)
 <!--/fullDescription-->

@@ -16,7 +16,7 @@ Customizes the text displayed in column cells.
 [note]The **customizeText** function may be called when data displayed in the column matches the search condition to properly highlight the matching text.
 
 #####See Also#####
-- **columns[]** | [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)
+- **columns[]**.[calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->cellInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -43,7 +43,7 @@ Possible values: *"filterRow"*, *"headerFilter"* and *"search"*.
 <!--typeFunctionParamType1_field4-->string|number<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 Indicates how header filter values were combined into groups. Available if **target** is *"headerFilter"*.  
-For possible values, see the description of the **headerFilter** | [groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option.
+For possible values, see the description of the **headerFilter**.[groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option.
 <!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->

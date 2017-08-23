@@ -2,7 +2,7 @@ In a multiple mode, when a user clicks column headers, the grid behaves like the
 
 ![DevExtreme DataGrid SortingSingleMode](/Content/images/doc/17_2/DataGrid/SortingMultipleMode.gif)
 
-If sorting must not be permitted for a user, disable it by setting the **sorting** | **mode** option to *'none'*. You still will be able to [apply sorting in code](/Documentation/Guide/Widgets/DataGrid/Sorting/#Sorting_in_Code).
+If sorting must not be permitted for a user, disable it by setting the **sorting**.**mode** option to *'none'*. You still will be able to [apply sorting in code](/Documentation/Guide/Widgets/DataGrid/Sorting/#Sorting_in_Code).
 
     <!--JavaScript-->var dataGridOptions = {
 		// ...

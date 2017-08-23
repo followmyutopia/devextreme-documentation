@@ -34,5 +34,5 @@ The option can take on one of the following values.
 - "parse"  
  Creates a **ParseStore**. This value requires the [Parse extension](https://github.com/DevExpress/DevExtreme-Data-Parse).
 
-Each store has its own set of options. They are detailed on the links in the list above. Note that these options should be set in the **DataSource** | **store** object.
+Each store has its own set of options. They are detailed on the links in the list above. Note that these options should be set in the **DataSource**.**store** object.
 <!--/fullDescription-->

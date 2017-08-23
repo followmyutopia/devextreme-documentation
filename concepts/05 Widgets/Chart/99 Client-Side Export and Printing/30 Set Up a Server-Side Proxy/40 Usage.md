@@ -1,1 +1,1 @@
-To notify the widget that it must export the file through a proxy, specify the **export** | [proxyUrl](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl) option.
+To notify the widget that it must export the file through a proxy, specify the **export**.[proxyUrl](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl) option.

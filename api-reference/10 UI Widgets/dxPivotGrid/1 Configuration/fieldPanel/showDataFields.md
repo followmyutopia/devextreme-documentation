@@ -14,5 +14,5 @@ Shows/hides data fields on the [field panel](/Documentation/Guide/Widgets/PivotG
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Optionally, you can change the placeholder of the data field area on the field panel. Use the **texts** | [dataFieldArea](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/texts/#dataFieldArea) property for this purpose.
+Optionally, you can change the placeholder of the data field area on the field panel. Use the **texts**.[dataFieldArea](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldPanel/texts/#dataFieldArea) property for this purpose.
 <!--/fullDescription-->
