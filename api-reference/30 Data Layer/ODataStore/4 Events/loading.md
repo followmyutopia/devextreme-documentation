@@ -5,7 +5,7 @@
 
 **-->
 <!--merge--><!--/merge-->
-<!--type-->EVENT<!--/type-->
+<!--type-->event<!--/type-->
 ===========================================================================
 <!--typeFunctionParamName1_field8-->requireTotalCount<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->boolean<!--/typeFunctionParamType1_field8-->

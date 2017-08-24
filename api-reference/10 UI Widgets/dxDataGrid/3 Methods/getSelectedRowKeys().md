@@ -11,7 +11,7 @@
 Gets the currently selected rows' keys. 
 <!--/shortDescription-->
 
-<!--returnType-->array | Promise<!--/returnType-->
+<!--returnType-->array|Promise<!--/returnType-->
 <!--returnDescription-->
 The currently selected rows' keys or a Promise of the jQuery.Deferred object.
 <!--/returnDescription-->

@@ -6,7 +6,7 @@
 **-->
 <!--merge--><!--/merge-->
 <!--hidden-->false<!--/hidden-->
-<!--type-->EVENT<!--/type-->
+<!--type-->event<!--/type-->
 ===========================================================================
 
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
