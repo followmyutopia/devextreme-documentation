@@ -24,7 +24,7 @@ An object providing functions for parsing and rendering templates.
 A function that parses the passed HTML or DOM element and returns a template.
 <!--/paramDescription1_field1-->
 <!--paramName1_field2-->render<!--/paramName1_field2-->
-<!--paramType1_field2-->function(template, data)<!--/paramType1_field2-->
+<!--paramType1_field2-->function(template, data, index)<!--/paramType1_field2-->
 <!--paramDescription1_field2-->
 A function that inserts data into the template returned by the "compile" function and returns the HTML element to be rendered. The data and template are passed as the function's parameters.
 <!--/paramDescription1_field2-->
