@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--acceptValues-->'text' | 'email' | 'search' | 'tel' | 'url' | 'password'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

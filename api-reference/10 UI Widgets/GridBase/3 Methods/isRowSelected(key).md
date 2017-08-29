@@ -17,7 +17,7 @@ Checks whether the row with a specific key is selected. Takes effect only if **s
 The key of the row.
 <!--/paramDescription1-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 **true** if the row is selected; **false** otherwise.
 <!--/returnDescription-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'rectangleNeedle'<!--/default-->
 <!--acceptValues-->'rectangleNeedle' | 'triangleNeedle' | 'twoColorNeedle' | 'rangeBar' | 'triangleMarker' | 'textCloud'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

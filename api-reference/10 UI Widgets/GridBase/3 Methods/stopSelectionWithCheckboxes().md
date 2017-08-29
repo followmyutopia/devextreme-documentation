@@ -12,7 +12,7 @@
 
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 
 <!--/returnDescription-->

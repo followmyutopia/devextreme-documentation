@@ -7,7 +7,7 @@
 <!--dep-->..\..\..\layers\label\font\family.md<!--/dep-->
 ===========================================================================
 <!--default-->''Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana'<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'scatter'<!--/default-->
 <!--acceptValues-->'line' | 'area' | 'bar' | 'stackedbar' | 'scatter'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

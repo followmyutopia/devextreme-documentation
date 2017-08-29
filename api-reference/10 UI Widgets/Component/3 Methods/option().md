@@ -11,7 +11,7 @@
 Gets the widget's options.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The widget's options.
 <!--/returnDescription-->

@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->object | array<!--/type-->
+<!--type-->Object | Array<!--/type-->
 <!--inherits-->..\commonPaneSettings\commonPaneSettings.md<!--/inherits-->
 ===========================================================================
 

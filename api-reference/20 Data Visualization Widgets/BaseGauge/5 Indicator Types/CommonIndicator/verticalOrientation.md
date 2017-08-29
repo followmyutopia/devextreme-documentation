@@ -9,7 +9,7 @@
 <!--custom_default_for_value_indicators-->'bottom'<!--/custom_default_for_value_indicators-->
 <!--custom_default_for_subvalue_indicators-->'top'<!--/custom_default_for_subvalue_indicators-->
 <!--acceptValues-->'top' | 'bottom'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'logarithmic' | 'continuous' | 'discrete' | 'semidiscrete'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

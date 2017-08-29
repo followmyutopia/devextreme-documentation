@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'topToolbar'<!--/default-->
 <!--acceptValues-->'topToolbar' | 'bottomToolbar'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

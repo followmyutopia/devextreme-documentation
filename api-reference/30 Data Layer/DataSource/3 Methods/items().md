@@ -11,7 +11,7 @@
 Returns the array of items currently operated by the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 The array of items operated by the DataSource.
 <!--/returnDescription-->

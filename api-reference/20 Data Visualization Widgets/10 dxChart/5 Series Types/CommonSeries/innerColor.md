@@ -7,7 +7,7 @@
 ===========================================================================
 <!--propertyOf-->..\CandleStickSeries\CandleStickSeries.md<!--/propertyOf-->
 <!--default-->'#ffffff'<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

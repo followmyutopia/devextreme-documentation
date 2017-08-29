@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'center'<!--/default-->
 <!--acceptValues-->'before' | 'after' | 'center'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -11,7 +11,7 @@
 Provides information about the hover state of a series.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 Hover state of a series.
 <!--/returnDescription-->

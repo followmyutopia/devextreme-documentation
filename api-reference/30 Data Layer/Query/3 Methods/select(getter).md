@@ -17,7 +17,7 @@ Applies the specified transformation to each item.
 The getter specifying the transformation rules.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 This Query object.
 <!--/returnDescription-->

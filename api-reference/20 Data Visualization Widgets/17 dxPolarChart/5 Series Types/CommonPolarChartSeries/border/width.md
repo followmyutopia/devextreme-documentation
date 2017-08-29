@@ -7,7 +7,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\AreaSeries\AreaSeries.md,..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--default-->2<!--/default-->
-<!--type-->number<!--/type-->
+<!--type-->Number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

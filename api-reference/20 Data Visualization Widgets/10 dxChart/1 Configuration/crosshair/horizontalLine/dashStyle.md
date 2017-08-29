@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'solid'<!--/default-->
 <!--acceptValues-->'solid' | 'longDash' | 'dash' | 'dot'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

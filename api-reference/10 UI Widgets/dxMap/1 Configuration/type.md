@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'roadmap'<!--/default-->
 <!--acceptValues-->'hybrid' | 'roadmap' | 'satellite'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

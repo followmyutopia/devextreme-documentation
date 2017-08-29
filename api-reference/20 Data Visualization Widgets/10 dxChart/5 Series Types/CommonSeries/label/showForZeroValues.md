@@ -7,7 +7,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md,..\..\FullStackedBarSeries\FullStackedBarSeries.md,..\..\RangeBarSeries\RangeBarSeries.md<!--/propertyOf-->
 <!--default-->true<!--/default-->
-<!--type-->boolean<!--/type-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

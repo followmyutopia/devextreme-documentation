@@ -11,7 +11,7 @@
 Returns how many pages the grid contains.
 <!--/shortDescription-->
 
-<!--returnType-->numeric<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The number of pages in the grid.
 <!--/returnDescription-->

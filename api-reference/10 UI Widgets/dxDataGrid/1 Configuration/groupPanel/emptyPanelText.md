@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->'Drag a column header here to group by that column'<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

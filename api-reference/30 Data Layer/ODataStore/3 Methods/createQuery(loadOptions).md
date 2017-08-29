@@ -17,7 +17,7 @@ Creates the [Query](/Documentation/ApiReference/Data_Layer/Query/) object for th
 The optional query configuration object.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The desired Query object.
 <!--/returnDescription-->

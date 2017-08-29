@@ -6,7 +6,7 @@
 **-->
 <!--dep-->..\..\..\BaseWidget\1 Configuration\title\subtitle\subtitle.md<!--/dep-->
 ===========================================================================
-<!--type-->object | string<!--/type-->
+<!--type-->Object | String<!--/type-->
 <!--inherits-->..\..\..\BaseGauge\1 Configuration\subtitle\subtitle.md<!--/inherits-->
 ===========================================================================
 

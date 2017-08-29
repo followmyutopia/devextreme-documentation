@@ -8,7 +8,7 @@
 <!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--default-->'outside'<!--/default-->
 <!--acceptValues-->'outside' | 'inside'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

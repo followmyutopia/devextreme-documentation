@@ -7,7 +7,7 @@
 <!--EventForAction-->..\4 Events\itemClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->function | string<!--/type-->
+<!--type-->function | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

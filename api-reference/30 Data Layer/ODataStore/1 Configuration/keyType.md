@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--acceptValues-->'String' | 'Int32' | 'Int64' | 'Guid' | 'Boolean' | 'Single' | 'Decimal'<!--/acceptValues-->
-<!--type-->string | object<!--/type-->
+<!--type-->String | Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

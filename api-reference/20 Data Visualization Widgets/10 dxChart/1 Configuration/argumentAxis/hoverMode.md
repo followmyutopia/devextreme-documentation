@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'none' | 'allArgumentPoints'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

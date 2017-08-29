@@ -17,7 +17,7 @@ Checks whether a row is expanded or collapsed.
 The row key.
 <!--/paramDescription1-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 *true* if the row is expanded; **false** if collapsed.
 <!--/returnDescription-->

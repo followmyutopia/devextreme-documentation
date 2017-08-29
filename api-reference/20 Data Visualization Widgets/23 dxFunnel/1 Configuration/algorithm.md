@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'dynamicSlope'<!--/default-->
 <!--acceptValues-->'dynamicSlope' | 'dynamicHeight'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

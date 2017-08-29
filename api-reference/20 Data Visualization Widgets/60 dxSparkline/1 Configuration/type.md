@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'line'<!--/default-->
 <!--acceptValues-->'line' | 'spline' | 'stepline' | 'area' | 'splinearea' | 'steparea' | 'bar' | 'winloss'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

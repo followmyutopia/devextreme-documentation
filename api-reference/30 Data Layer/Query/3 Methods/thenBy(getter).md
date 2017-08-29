@@ -17,7 +17,7 @@ Adds one more sorting condition to the current [Query](/Documentation/ApiReferen
 The getter by which to sort the items.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The current Query object.
 <!--/returnDescription-->

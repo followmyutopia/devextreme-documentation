@@ -11,7 +11,7 @@
 Gets all map layers.
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 The array of [layers](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/).
 <!--/returnDescription-->

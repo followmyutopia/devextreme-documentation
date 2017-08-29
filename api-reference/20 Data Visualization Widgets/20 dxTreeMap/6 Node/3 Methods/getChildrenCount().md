@@ -11,7 +11,7 @@
 Indicates how many direct descendants the current node has.
 <!--/shortDescription-->
 
-<!--returnType-->number<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The number of direct descendants of the current node. *0* if there are none.
 <!--/returnDescription-->

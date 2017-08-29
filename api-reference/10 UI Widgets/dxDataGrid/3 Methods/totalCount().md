@@ -11,7 +11,7 @@
 Returns the number of records currently held by a grid.
 <!--/shortDescription-->
 
-<!--returnType-->numeric<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The number of records currently held by a grid.
 <!--/returnDescription-->

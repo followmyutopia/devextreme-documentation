@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'onMovingComplete'<!--/default-->
 <!--acceptValues-->'onMovingComplete' | 'onMoving'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -23,7 +23,7 @@ The name of the event to be subscribed.
 An event handler for the specified event.
 <!--/paramDescription2-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The object for which this method is called.
 <!--/returnDescription-->

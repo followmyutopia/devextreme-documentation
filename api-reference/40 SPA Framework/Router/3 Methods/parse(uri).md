@@ -17,7 +17,7 @@ Decodes the specified URI to an object using the [registered routing rules](/Doc
 The URI to be parsed.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 An object whose fields represent routing parameters. The field values are set to the parameter values extracted from the specified URI.
 <!--/returnDescription-->

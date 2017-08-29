@@ -11,7 +11,7 @@
 Indicates whether the node is visualized by a tile or a group of tiles.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 If **true**, the node is a tile; if **false**, the node is a group of tiles.
 <!--/returnDescription-->

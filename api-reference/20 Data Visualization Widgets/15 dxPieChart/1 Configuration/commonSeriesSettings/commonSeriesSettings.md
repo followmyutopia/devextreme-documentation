@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hideDefaults-->true<!--/hideDefaults-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\..\5 Series Types\CommonPieChartSeries\CommonPieChartSeries.md<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================

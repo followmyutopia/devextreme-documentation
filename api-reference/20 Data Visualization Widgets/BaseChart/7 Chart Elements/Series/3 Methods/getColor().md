@@ -11,7 +11,7 @@
 Gets the color of a particular series.
 <!--/shortDescription-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 The color of a series.
 <!--/returnDescription-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--acceptValues-->'dot' | 'bubble' | 'pie' | 'image'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

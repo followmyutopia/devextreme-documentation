@@ -18,7 +18,7 @@
 
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 
 <!--/returnDescription-->

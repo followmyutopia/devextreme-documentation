@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'onClick'<!--/default-->
 <!--acceptValues-->'onHover' | 'onClick'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

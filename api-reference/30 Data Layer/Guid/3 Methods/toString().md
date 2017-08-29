@@ -11,7 +11,7 @@
 Returns a string representation of the [Guid](/Documentation/ApiReference/Data_Layer/Guid/) instance.
 <!--/shortDescription-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 A string containing the GUID.
 <!--/returnDescription-->

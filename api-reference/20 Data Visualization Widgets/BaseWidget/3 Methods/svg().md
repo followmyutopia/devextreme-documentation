@@ -11,7 +11,7 @@
 Returns the widget's SVG markup.
 <!--/shortDescription-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 The widget's SVG markup.
 <!--/returnDescription-->

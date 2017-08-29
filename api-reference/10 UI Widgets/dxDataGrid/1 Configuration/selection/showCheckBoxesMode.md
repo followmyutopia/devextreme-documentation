@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'onClick'<!--/default-->
 <!--acceptValues-->'onClick' | 'onLongTap' | 'always' | 'none'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

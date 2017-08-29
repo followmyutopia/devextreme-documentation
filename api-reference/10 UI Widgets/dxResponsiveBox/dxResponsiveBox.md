@@ -7,7 +7,7 @@
 ===========================================================================
 <!--module-->ui/responsive_box<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js

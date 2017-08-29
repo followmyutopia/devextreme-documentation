@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--custom_default_for_windows_phone_8-->false<!--/custom_default_for_windows_phone_8-->
-<!--type-->boolean<!--/type-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

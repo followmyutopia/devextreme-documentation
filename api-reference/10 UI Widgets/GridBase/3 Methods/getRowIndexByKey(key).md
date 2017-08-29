@@ -17,7 +17,7 @@ Gets the index of a row by its key.
 The key of the row.
 <!--/paramDescription1-->
 
-<!--returnType-->numeric<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The *visible* index of the row. If nothing is found, returns *-1*.
 <!--/returnDescription-->

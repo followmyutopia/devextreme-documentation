@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--propertyOf-->..\..\AreaSeries\AreaSeries.md,..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md,..\..\LineSeries\LineSeries.md<!--/propertyOf-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

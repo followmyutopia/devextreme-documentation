@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'sum' | 'min' | 'max' | 'avg' | 'count' | 'custom'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

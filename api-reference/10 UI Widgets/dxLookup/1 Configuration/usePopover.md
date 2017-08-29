@@ -9,7 +9,7 @@
 <!--custom_default_for_android_below_version_4-->true<!--/custom_default_for_android_below_version_4-->
 <!--custom_default_for_desktop-->true<!--/custom_default_for_desktop-->
 <!--custom_default_for_ios-->true<!--/custom_default_for_ios-->
-<!--type-->boolean<!--/type-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

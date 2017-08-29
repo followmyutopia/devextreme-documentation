@@ -11,7 +11,7 @@
 Creates the [Query](/Documentation/ApiReference/Data_Layer/Query/) object for the underlying array.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The desired Query object.
 <!--/returnDescription-->

@@ -6,5 +6,5 @@
 **-->
 <!--merge--><!--/merge-->
 <!--dep-->scrolling\useNative.md<!--/dep-->
-<!--type-->string|boolean<!--/type-->
+<!--type-->String|Boolean<!--/type-->
 ===========================================================================

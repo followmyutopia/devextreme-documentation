@@ -7,7 +7,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\..\35 dxCircularGauge\5 Indicator Types\TwoColorNeedle\TwoColorNeedle.md<!--/propertyOf-->
 <!--default-->'#E18E92'<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

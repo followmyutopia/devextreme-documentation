@@ -17,7 +17,7 @@ Checks whether the row that represents a specific data object is selected. Takes
 The row's data object.
 <!--/paramDescription1-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 *true* if the row is selected; **false** otherwise.
 <!--/returnDescription-->

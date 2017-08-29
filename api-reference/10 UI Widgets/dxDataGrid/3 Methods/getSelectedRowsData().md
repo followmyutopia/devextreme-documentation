@@ -11,7 +11,7 @@
 Gets data objects of currently selected rows. 
 <!--/shortDescription-->
 
-<!--returnType-->array|Promise<!--/returnType-->
+<!--returnType-->Array|Promise<!--/returnType-->
 <!--returnDescription-->
 Data objects of currently selected rows or a Promise of the jQuery.Deferred object.
 <!--/returnDescription-->

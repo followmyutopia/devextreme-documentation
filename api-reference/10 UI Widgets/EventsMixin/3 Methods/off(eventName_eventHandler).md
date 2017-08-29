@@ -23,7 +23,7 @@ The name of the event to unsubscribe from.
 The handler to be detached from the specified event.
 <!--/paramDescription2-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The object for which this method is called.
 <!--/returnDescription-->

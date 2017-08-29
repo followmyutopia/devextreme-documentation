@@ -8,7 +8,7 @@
 <!--default-->'instantly'<!--/default-->
 <!--custom_default_for_Internet_Explorer_9_and_10-->'useForm'<!--/custom_default_for_Internet_Explorer_9_and_10-->
 <!--acceptValues-->'instantly' | 'useButtons' | 'useForm'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

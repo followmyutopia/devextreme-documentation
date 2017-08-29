@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'buttonClick'<!--/default-->
 <!--acceptValues-->'buttonClick' | 'rowClick'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

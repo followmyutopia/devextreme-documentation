@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\..\..\..\ColCountResponsible\ColCountResponsible.md<!--/inherits-->
 ===========================================================================
 

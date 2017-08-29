@@ -8,7 +8,7 @@
 <!--hidden--><!--/hidden-->
 <!--module-->ui/collection/ui.collection_widget.base<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\Widget\Widget.md,..\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
 ===========================================================================
 

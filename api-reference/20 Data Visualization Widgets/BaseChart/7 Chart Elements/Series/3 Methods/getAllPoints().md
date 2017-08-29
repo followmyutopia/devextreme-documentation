@@ -11,7 +11,7 @@
 Returns an array of all points in the series.
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 The points from the **series** point collection.
 <!--/returnDescription-->

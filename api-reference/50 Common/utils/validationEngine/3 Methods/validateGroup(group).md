@@ -17,7 +17,7 @@ Validates rules of the [validators](/Documentation/ApiReference/UI_Widgets/dxVal
 The key of the group to be validated.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 An object defining the result of validating the specified group.
 <!--/returnDescription-->

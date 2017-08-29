@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'full'<!--/default-->
 <!--acceptValues-->'full' | 'leftTop' | 'leftCenter' | 'leftBottom' | 'centerTop' | 'center' | 'centerBottom' | 'rightTop' | 'rightTop' | 'rightCenter' | 'rightBottom'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

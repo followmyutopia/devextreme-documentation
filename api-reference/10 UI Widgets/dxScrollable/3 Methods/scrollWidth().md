@@ -11,7 +11,7 @@
 Returns the width of the scrollable content in pixels.
 <!--/shortDescription-->
 
-<!--returnType-->numeric<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The value of the content width in pixels.
 <!--/returnDescription-->

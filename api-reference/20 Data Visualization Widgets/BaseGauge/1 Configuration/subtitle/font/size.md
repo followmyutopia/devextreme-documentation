@@ -7,7 +7,7 @@
 <!--dep-->..\..\..\..\BaseWidget\1 Configuration\title\subtitle\font\size.md<!--/dep-->
 ===========================================================================
 <!--default-->16<!--/default-->
-<!--type-->number | string<!--/type-->
+<!--type-->Number | String<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

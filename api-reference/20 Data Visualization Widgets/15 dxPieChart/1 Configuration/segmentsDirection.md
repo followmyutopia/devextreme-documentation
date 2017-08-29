@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'clockwise'<!--/default-->
 <!--acceptValues-->'clockwise' | 'anticlockwise'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

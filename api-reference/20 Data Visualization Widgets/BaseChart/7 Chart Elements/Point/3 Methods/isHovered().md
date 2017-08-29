@@ -11,7 +11,7 @@
 Provides information about the hover state of a point.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 Hover state of a point.
 <!--/returnDescription-->

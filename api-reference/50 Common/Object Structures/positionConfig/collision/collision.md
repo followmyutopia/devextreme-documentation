@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--acceptValues-->'none' | 'flip' | 'fit' | 'flipfit' | 'none flip' | 'flip none' | 'none fit' | 'fit none' | 'none flipfit' | 'flipfit none' | 'flip fit' | 'fit flip' | 'fit flipfit' | 'flipfit fit'<!--/acceptValues-->
-<!--type-->string | object<!--/type-->
+<!--type-->String | Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

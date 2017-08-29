@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'leftTopRightBottom'<!--/default-->
 <!--acceptValues-->'leftTopRightBottom' | 'leftBottomRightTop' | 'rightTopLeftBottom' | 'rightBottomLeftTop'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

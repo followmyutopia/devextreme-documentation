@@ -8,7 +8,7 @@
 <!--hidden--><!--/hidden-->
 <!--module-->ui/editor/editor<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 ===========================================================================
 

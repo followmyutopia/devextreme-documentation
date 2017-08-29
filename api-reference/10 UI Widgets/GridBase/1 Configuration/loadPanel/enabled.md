@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'auto' | true | false<!--/acceptValues-->
-<!--type-->string | boolean<!--/type-->
+<!--type-->String | Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

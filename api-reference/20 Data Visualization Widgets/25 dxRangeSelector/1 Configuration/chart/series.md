@@ -7,7 +7,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->
-<!--type-->object | array<!--/type-->
+<!--type-->Object | Array<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

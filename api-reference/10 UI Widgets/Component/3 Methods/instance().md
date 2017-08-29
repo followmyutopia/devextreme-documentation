@@ -11,7 +11,7 @@
 Returns this widget's instance. Use it to access other methods of the widget.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 This widget's instance.
 <!--/returnDescription-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'scrollBottom'<!--/default-->
 <!--acceptValues-->'scrollBottom' | 'nextButton'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

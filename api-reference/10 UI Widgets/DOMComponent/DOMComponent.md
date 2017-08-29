@@ -8,7 +8,7 @@
 <!--hidden--><!--/hidden-->
 <!--module-->core/dom_component<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\Component\Component.md<!--/inherits-->
 ===========================================================================
 

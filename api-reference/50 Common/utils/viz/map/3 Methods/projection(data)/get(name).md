@@ -17,7 +17,7 @@ Gets the default or custom projection from the projection storage.
 The projection name.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The projection.
 <!--/returnDescription-->

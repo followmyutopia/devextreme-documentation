@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'millisecond' | 'second' | 'minute' | 'hour' | 'day' | 'week' | 'month' | 'quarter' | 'year'<!--/acceptValues-->
-<!--type-->number | object | string<!--/type-->
+<!--type-->Number | Object | String<!--/type-->
 <!--inherits-->..\..\..\..\VizTimeInterval\VizTimeInterval.md<!--/inherits-->
 ===========================================================================
 

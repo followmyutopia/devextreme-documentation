@@ -8,7 +8,7 @@
 <!--default-->'vertical'<!--/default-->
 <!--custom_default_for_tablets-->'horizontal'<!--/custom_default_for_tablets-->
 <!--acceptValues-->'vertical' | 'horizontal'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

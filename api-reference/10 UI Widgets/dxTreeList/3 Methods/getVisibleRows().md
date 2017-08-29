@@ -11,7 +11,7 @@
 Gets all visible rows.
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 Visible rows.
 <!--/returnDescription-->

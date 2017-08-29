@@ -11,7 +11,7 @@
 Gets all visible columns.
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 Visible columns; may include command columns.
 <!--/returnDescription-->

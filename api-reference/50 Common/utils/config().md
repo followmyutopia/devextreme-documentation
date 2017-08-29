@@ -13,7 +13,7 @@
 Gets the current global configuration object.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 An object representing the current global configuration options.
 <!--/returnDescription-->

@@ -11,7 +11,7 @@
 Returns the main gauge value.
 <!--/shortDescription-->
 
-<!--returnType-->number<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The main gauge value.
 <!--/returnDescription-->

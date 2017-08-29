@@ -11,7 +11,7 @@
 Gets data displayed in a PivotGrid.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 Pivot grid data.
 <!--/returnDescription-->

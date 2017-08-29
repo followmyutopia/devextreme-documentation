@@ -11,7 +11,7 @@
 Returns the current **group** option value.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 A group expression.
 <!--/returnDescription-->

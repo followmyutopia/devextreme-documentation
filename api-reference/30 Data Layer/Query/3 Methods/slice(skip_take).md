@@ -23,7 +23,7 @@ Specifies the count of the items to skip.
 Optional. Specifies the count of the items to pick out. If this argument is not specified, all non-skipped items will be picked out.
 <!--/paramDescription2-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The current Query object.
 <!--/returnDescription-->

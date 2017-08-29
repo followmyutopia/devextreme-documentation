@@ -14,7 +14,7 @@ Use the **Layer Element**.[selected()](/Documentation/ApiReference/Data_Visualiz
 Provides information about the selection state of a marker.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 Selection state of the marker.
 <!--/returnDescription-->

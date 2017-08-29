@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'standard'<!--/default-->
 <!--acceptValues-->'standard' | 'virtual' | 'infinite'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\..\LineSeries\LineSeries.md,..\..\..\AreaSeries\AreaSeries.md,..\..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
-<!--type-->string | object<!--/type-->
+<!--type-->String | Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

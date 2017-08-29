@@ -11,7 +11,7 @@
 Gets the current coordinates of the map center.
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 The current coordinates of the map center.
 <!--/returnDescription-->

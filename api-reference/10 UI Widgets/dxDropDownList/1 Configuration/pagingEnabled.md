@@ -7,7 +7,7 @@
 <!--dep-->..\..\..\30 Data Layer\DataSource\1 Configuration\paginate.md<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->boolean<!--/type-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

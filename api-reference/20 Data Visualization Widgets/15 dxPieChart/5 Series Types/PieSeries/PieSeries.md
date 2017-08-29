@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\CommonPieChartSeries\CommonPieChartSeries.md<!--/inherits-->
 ===========================================================================
 

@@ -11,7 +11,7 @@
 <!--custom_default_for_windows-->'context'<!--/custom_default_for_windows-->
 <!--custom_default_for_generic-->'static'<!--/custom_default_for_generic-->
 <!--acceptValues-->'static' | 'toggle' | 'slideButton' | 'slideItem' | 'swipe' | 'context'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -17,7 +17,7 @@ Checks whether a specific group or master row is expanded or collapsed.
 The key of the group or master row.
 <!--/paramDescription1-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 *true* if the row is expanded; **false** if collapsed.
 <!--/returnDescription-->

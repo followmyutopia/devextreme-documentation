@@ -13,7 +13,7 @@
 Gets the current locale identifier.
 <!--/shortDescription-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 The identifier of the current locale.
 <!--/returnDescription-->

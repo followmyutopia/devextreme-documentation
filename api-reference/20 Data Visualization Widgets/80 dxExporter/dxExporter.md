@@ -6,7 +6,7 @@
 **-->
 <!--dep--><!--/dep-->
 ===========================================================================
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\..\10 UI Widgets\Component\Component.md<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js

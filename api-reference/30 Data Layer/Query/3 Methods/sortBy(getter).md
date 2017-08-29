@@ -17,7 +17,7 @@ Sorts current [Query](/Documentation/ApiReference/Data_Layer/Query/) data.
 The getter by which to sort the data.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 This Query object.
 <!--/returnDescription-->

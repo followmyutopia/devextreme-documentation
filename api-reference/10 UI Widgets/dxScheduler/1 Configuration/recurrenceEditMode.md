@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'dialog'<!--/default-->
 <!--acceptValues-->'dialog' | 'series' | 'occurrence'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

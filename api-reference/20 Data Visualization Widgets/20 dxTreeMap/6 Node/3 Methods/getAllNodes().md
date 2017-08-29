@@ -11,7 +11,7 @@
 Returns all descendant nodes.
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 Descendant nodes. Each member of this array has fields and methods described in the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node) section.
 <!--/returnDescription-->

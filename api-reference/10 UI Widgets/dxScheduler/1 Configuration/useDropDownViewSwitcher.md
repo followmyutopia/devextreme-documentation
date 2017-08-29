@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--custom_default_for_mobile-->true<!--/custom_default_for_mobile-->
-<!--type-->boolean<!--/type-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--propertyOf-->..\..\CandleStickSeries\CandleStickSeries.md,..\..\StockSeries\StockSeries.md<!--/propertyOf-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

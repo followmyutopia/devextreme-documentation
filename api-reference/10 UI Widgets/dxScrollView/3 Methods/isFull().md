@@ -12,7 +12,7 @@
 Returns a value indicating if the scrollView content is larger then the widget container.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 A Boolean value indicating if the scrollView content is larger than the widget container.
 <!--/returnDescription-->

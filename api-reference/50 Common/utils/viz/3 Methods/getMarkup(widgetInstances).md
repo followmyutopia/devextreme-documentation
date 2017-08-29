@@ -19,7 +19,7 @@ Gets the SVG markup of specific widgets for their subsequent export.
 The instances of the widgets whose markup should be returned.
 <!--/paramDescription1-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 The widgets' SVG markup. Pass it to the [exportFromMarkup(markup, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#exportFromMarkupmarkup_options) method to export the widgets.
 <!--/returnDescription-->

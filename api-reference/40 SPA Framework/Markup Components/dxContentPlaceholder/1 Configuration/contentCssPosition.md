@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'absolute'<!--/default-->
 <!--acceptValues-->'absolute' | 'static'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

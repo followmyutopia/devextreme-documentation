@@ -7,7 +7,7 @@
 <!--EventForAction-->..\4 Events\seriesClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->function(e) | string<!--/type-->
+<!--type-->function(e) | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

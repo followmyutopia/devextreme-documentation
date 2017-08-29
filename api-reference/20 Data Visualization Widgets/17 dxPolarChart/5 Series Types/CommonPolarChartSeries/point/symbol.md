@@ -8,7 +8,7 @@
 <!--propertyOf-->..\..\LineSeries\LineSeries.md,..\..\AreaSeries\AreaSeries.md,..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->'circle'<!--/default-->
 <!--acceptValues-->'circle' | 'square' | 'polygon' | 'triangle' | 'cross'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

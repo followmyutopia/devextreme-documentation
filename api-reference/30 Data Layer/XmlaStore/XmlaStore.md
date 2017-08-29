@@ -7,7 +7,7 @@
 ===========================================================================
 <!--module-->ui/pivot_grid/xmla_store<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

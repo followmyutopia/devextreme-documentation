@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'onScroll'<!--/default-->
 <!--acceptValues-->'onScroll' | 'onHover' | 'always' | 'never'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

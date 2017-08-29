@@ -19,7 +19,7 @@ Requests that the browser call a specified function to update animation before t
 Specifies the function to call when it's time to update your animation for the next repaint.
 <!--/paramDescription1-->
 
-<!--returnType-->number<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The request id that uniquely identifies the entry in the callback list.
 <!--/returnDescription-->

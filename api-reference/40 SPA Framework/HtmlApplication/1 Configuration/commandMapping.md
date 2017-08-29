@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->DevExpress.framework.CommandMapping.defaultMapping<!--/default-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

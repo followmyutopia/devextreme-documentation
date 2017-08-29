@@ -8,7 +8,7 @@
 <!--hidden--><!--/hidden-->
 <!--default-->'simple'<!--/default-->
 <!--acceptValues-->'simple' | 'strict'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'absoluteVariation' | 'percentVariation' | 'percentOfColumnTotal' | 'percentOfRowTotal' | 'percentOfColumnGrandTotal' | 'percentOfRowGrandTotal' | 'percentOfGrandTotal'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

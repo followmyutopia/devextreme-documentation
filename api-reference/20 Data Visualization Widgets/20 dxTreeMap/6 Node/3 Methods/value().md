@@ -11,7 +11,7 @@
 Gets the raw value of the node.
 <!--/shortDescription-->
 
-<!--returnType-->number<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The raw value of the node.
 <!--/returnDescription-->

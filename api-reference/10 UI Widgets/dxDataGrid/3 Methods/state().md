@@ -11,7 +11,7 @@
 Returns the current state of the grid.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 An [opaque data object](https://en.wikipedia.org/wiki/Opaque_data_type) presenting the grid state.
 <!--/returnDescription-->

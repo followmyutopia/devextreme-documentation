@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'simple'<!--/default-->
 <!--acceptValues-->'simple' | 'group' | 'tabbed' | 'empty'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -17,7 +17,7 @@ Gets the options of a column using its identifier.
 The name, index, data field, or caption of the column.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The options of the column.
 <!--/returnDescription-->

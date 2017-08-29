@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'horizontal'<!--/default-->
 <!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

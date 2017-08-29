@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'auto' | 'rightOrBottom' | 'leftOrTop'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

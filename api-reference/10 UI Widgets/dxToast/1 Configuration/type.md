@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'info'<!--/default-->
 <!--acceptValues-->'info' | 'warning' | 'error' | 'success' | 'custom'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -7,7 +7,7 @@
 <!--dep-->..\label\overlappingBehavior\overlappingBehavior.md<!--/dep-->
 ===========================================================================
 <!--default-->true<!--/default-->
-<!--type-->boolean<!--/type-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

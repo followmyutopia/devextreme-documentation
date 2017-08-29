@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'onViewShown'<!--/default-->
 <!--acceptValues-->'onViewShown' | 'onViewRendering'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

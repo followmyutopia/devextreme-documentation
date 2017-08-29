@@ -11,7 +11,7 @@
 Gets data objects of currently selected rows. 
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 Data objects of currently selected rows.
 <!--/returnDescription-->

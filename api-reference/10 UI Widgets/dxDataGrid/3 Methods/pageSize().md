@@ -11,7 +11,7 @@
 Gets the current [page size](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#pageSize).
 <!--/shortDescription-->
 
-<!--returnType-->numeric<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The current page size.
 <!--/returnDescription-->

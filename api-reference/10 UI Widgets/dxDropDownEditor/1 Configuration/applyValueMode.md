@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'instantly'<!--/default-->
 <!--acceptValues-->'useButtons' | 'instantly'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

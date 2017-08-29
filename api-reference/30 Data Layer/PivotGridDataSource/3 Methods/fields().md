@@ -11,7 +11,7 @@
 Gets all [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) from the data source.
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 Array of fields.
 <!--/returnDescription-->

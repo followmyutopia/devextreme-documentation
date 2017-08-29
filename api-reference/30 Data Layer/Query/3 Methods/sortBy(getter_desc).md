@@ -23,7 +23,7 @@ The getter by which to sort the data.
 Specifies whether to sort items in descending or ascending order.
 <!--/paramDescription2-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 This Query object.
 <!--/returnDescription-->

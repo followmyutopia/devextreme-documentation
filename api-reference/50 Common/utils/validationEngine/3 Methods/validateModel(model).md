@@ -17,7 +17,7 @@ Validates the rules that are defined within the **dxValidator** objects that are
 The ViewModel object that has fields extended by the **dxValidator** objects.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 An object defining the result of validating the specified ViewModel.
 <!--/returnDescription-->

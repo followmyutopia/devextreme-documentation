@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'topN' | 'smallValueThreshold' | 'none'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -11,7 +11,7 @@
 Returns the key expression specified by the **key** configuration option of the underlying Store.
 <!--/shortDescription-->
 
-<!--returnType-->object|string|number<!--/returnType-->
+<!--returnType-->Object|String|Number<!--/returnType-->
 <!--returnDescription-->
 A key expression.
 <!--/returnDescription-->

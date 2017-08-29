@@ -8,7 +8,7 @@
 <!--hidden--><!--/hidden-->
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'multiple' | 'single' | 'all' | 'none'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

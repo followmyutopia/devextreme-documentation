@@ -12,7 +12,7 @@
 
 <!--/shortDescription-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 
 <!--/returnDescription-->

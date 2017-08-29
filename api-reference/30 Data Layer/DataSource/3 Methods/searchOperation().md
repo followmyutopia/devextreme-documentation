@@ -11,7 +11,7 @@
 Returns the currently specified search operation.
 <!--/shortDescription-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 A search operation expression.
 <!--/returnDescription-->

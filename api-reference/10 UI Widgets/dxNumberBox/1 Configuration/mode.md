@@ -8,7 +8,7 @@
 <!--default-->'text'<!--/default-->
 <!--custom_default_for_mobile_devices-->'number'<!--/custom_default_for_mobile_devices-->
 <!--acceptValues-->'text' | 'number'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

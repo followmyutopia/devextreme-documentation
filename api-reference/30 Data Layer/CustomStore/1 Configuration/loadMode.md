@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'processed'<!--/default-->
 <!--acceptValues-->'processed' | 'raw'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'google'<!--/default-->
 <!--acceptValues-->'bing' | 'google' | 'googleStatic'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

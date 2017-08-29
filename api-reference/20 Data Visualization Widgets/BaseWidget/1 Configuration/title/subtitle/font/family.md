@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->''Segoe UI Light', 'Helvetica Neue Light', 'Trebuchet MS', Verdana'<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -14,7 +14,7 @@ Use the layer's [getElements()](/Documentation/ApiReference/Data_Visualization_W
 Returns an array with all the map markers.
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 An array of the map markers.
 <!--/returnDescription-->

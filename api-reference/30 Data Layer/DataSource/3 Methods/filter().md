@@ -11,7 +11,7 @@
 Returns the current **filter** option value.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 A filter expression.
 <!--/returnDescription-->

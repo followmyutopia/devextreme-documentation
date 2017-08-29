@@ -17,7 +17,7 @@ Formats an object to a URI.
 An object whose fields represent routing parameters.
 <!--/paramDescription1-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 A URI generated from the specified object using the [registered routing rules](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing).
 <!--/returnDescription-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--propertyOf-->..\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
 <!--default-->'size'<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

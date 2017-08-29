@@ -9,7 +9,7 @@
 <!--custom_default_for_value_indicators-->'right'<!--/custom_default_for_value_indicators-->
 <!--custom_default_for_subvalue_indicators-->'left'<!--/custom_default_for_subvalue_indicators-->
 <!--acceptValues-->'left' | 'right'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

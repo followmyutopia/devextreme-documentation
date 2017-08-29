@@ -17,7 +17,7 @@ Detaches all event handlers from the specified event.
 The name of the event to unsubscribe from.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The object for which this method is called.
 <!--/returnDescription-->

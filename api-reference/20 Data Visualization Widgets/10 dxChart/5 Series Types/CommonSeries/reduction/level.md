@@ -8,7 +8,7 @@
 <!--propertyOf-->..\..\CandleStickSeries\CandleStickSeries.md,..\..\StockSeries\StockSeries.md<!--/propertyOf-->
 <!--default-->'close'<!--/default-->
 <!--acceptValues-->'close' | 'open' | 'low' | 'high'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

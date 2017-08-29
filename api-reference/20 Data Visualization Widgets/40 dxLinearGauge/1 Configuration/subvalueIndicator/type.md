@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'triangleMarker'<!--/default-->
 <!--acceptValues-->'rectangle' | 'circle' | 'rhombus' | 'rangeBar' | 'triangleMarker' | 'textCloud'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

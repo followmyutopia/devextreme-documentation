@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'normal'<!--/default-->
 <!--acceptValues-->'normal' | 'default' | 'back' | 'danger' | 'success'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

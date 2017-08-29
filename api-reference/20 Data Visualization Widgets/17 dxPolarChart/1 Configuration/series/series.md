@@ -8,7 +8,7 @@
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--default-->undefined<!--/default-->
-<!--type-->object | array<!--/type-->
+<!--type-->Object | Array<!--/type-->
 <!--inherits-->..\..\5 Series Types\CommonPolarChartSeries\CommonPolarChartSeries.md<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================

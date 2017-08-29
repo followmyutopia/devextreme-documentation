@@ -34,7 +34,7 @@ The function that converts coordinates from the [-1, 1] * [-1, 1] space to the d
 The projection's aspect ratio.
 <!--/paramDescription1_field3-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The projection.
 <!--/returnDescription-->

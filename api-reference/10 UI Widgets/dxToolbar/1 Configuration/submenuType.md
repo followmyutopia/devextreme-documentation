@@ -8,7 +8,7 @@
 <!--hidden--><!--/hidden-->
 <!--default-->'dxDropDownMenu'<!--/default-->
 <!--acceptValues-->'actionSheet' | 'listTop' | 'listBottom' | 'dropDownMenu'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

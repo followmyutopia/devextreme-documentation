@@ -7,7 +7,7 @@
 ===========================================================================
 <!--propertyOf-->..\StackedBarSeries\StackedBarSeries.md,..\FullStackedBarSeries\FullStackedBarSeries.md<!--/propertyOf-->
 <!--default-->'default'<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

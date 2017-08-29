@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'start'<!--/default-->
 <!--acceptValues-->'start' | 'end' | 'center' | 'stretch'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

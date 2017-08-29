@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'resetHistory'<!--/default-->
 <!--acceptValues-->'keepHistory' | 'resetHistory'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

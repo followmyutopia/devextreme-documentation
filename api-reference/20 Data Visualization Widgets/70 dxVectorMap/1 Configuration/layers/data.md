@@ -7,7 +7,7 @@
 <!--dep-->dataSource.md<!--/dep-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->object | DataSource | DataSource configuration<!--/type-->
+<!--type-->Object | DataSource | DataSource configuration<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

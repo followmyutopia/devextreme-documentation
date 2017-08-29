@@ -11,7 +11,7 @@
 Indicates whether the current node is active.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 **true** if the node belongs to the currently displayed collection of nodes; **false** otherwise.
 <!--/returnDescription-->

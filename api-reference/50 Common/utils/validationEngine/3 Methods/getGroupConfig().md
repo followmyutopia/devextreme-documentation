@@ -11,7 +11,7 @@
 Provides access to the object that represents the default validation group.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 An object representing the requested group.
 <!--/returnDescription-->

@@ -11,7 +11,7 @@
 Returns the height of the list content in pixels.
 <!--/shortDescription-->
 
-<!--returnType-->numeric<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The value of the content height in pixels.
 <!--/returnDescription-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\LineSeries\LineSeries.md,..\..\AreaSeries\AreaSeries.md,..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->true<!--/default-->
-<!--type-->boolean<!--/type-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

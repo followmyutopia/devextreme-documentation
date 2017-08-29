@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'excludePoints'<!--/default-->
 <!--acceptValues-->'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

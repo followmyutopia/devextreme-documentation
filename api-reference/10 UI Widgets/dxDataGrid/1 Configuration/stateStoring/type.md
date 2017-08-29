@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'localStorage'<!--/default-->
 <!--acceptValues-->'localStorage' | 'sessionStorage' | 'custom'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

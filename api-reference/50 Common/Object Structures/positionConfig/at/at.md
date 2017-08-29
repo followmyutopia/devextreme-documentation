@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--acceptValues-->'left' | 'right' | 'top' | 'bottom' | 'center' | 'left top' | 'left bottom' | 'right top' | 'right bottom'<!--/acceptValues-->
-<!--type-->string | object<!--/type-->
+<!--type-->String | Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

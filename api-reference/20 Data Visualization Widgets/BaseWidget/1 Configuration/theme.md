@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'generic.light'<!--/default-->
 <!--acceptValues-->'generic.light' | 'generic.dark' | 'generic.contrast' | 'android5.light' | 'ios7.default' | 'win10.black' | 'win10.white'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

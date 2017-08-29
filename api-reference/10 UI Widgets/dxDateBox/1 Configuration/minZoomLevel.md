@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'century'<!--/default-->
 <!--acceptValues-->'month' | 'year' | 'decade' | 'century'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

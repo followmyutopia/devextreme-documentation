@@ -17,7 +17,7 @@ Filters the current [Query](/Documentation/ApiReference/Data_Layer/Query/) data.
 A function that returns a Boolean value indicating whether or not an item is included in the resulting array.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The Query object.
 <!--/returnDescription-->

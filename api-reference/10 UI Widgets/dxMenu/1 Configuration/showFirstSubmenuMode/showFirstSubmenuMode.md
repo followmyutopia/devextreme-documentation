@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->{ name: 'onClick', delay: { show: 50, hide: 300 } }<!--/default-->
 <!--acceptValues-->'onHover' | 'onClick'<!--/acceptValues-->
-<!--type-->Object | string<!--/type-->
+<!--type-->Object | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

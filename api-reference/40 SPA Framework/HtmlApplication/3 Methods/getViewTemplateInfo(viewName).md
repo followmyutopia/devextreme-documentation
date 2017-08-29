@@ -17,7 +17,7 @@ Returns a [configuration object](/Documentation/ApiReference/SPA_Framework/Marku
 The name of the requested view.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 A configuration object of the dxView component representing the specified view.
 <!--/returnDescription-->

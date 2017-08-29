@@ -11,7 +11,7 @@
 Returns the name of the currently applied theme.
 <!--/shortDescription-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 The name of the currently applied theme.
 <!--/returnDescription-->

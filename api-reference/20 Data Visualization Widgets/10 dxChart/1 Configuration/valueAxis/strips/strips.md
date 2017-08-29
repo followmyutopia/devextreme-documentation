@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->array<!--/type-->
+<!--type-->Array<!--/type-->
 <!--inherits-->..\..\commonAxisSettings\stripStyle\stripStyle.md<!--/inherits-->
 ===========================================================================
 

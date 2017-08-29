@@ -11,7 +11,7 @@
 Validates rules of the [validators](/Documentation/ApiReference/UI_Widgets/dxValidator/) that belong to the default validation group.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 An object defining the result of validating the default group.
 <!--/returnDescription-->

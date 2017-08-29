@@ -8,7 +8,7 @@
 <!--hidden--><!--/hidden-->
 <!--module-->ui/hierarchical_collection/ui.hierarchical_collection_widget<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 ===========================================================================
 

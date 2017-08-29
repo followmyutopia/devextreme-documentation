@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'outside'<!--/default-->
 <!--acceptValues-->'outside' | 'center' | 'inside'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

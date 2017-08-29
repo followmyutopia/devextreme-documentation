@@ -11,7 +11,7 @@
 Returns the current scroll position against the leftmost position.
 <!--/shortDescription-->
 
-<!--returnType-->numeric<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The requested scroll position.
 <!--/returnDescription-->

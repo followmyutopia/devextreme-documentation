@@ -17,7 +17,7 @@ Removes a viewInfo object from the cache by the specified key.
 A key under which the viewInfo object to be removed is stored within the view cache.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The viewInfo object that has been removed.
 <!--/returnDescription-->

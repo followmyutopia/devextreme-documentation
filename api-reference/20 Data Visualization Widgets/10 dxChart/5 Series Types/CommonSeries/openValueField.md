@@ -8,7 +8,7 @@
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--propertyOf-->..\StockSeries\StockSeries.md,..\CandleStickSeries\CandleStickSeries.md<!--/propertyOf-->
 <!--default-->'open'<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

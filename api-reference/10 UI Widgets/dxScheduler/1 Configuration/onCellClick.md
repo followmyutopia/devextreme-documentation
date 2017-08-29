@@ -7,7 +7,7 @@
 <!--EventForAction-->..\4 Events\cellClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->function | string<!--/type-->
+<!--type-->function | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

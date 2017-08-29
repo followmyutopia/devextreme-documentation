@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'outside'<!--/default-->
 <!--acceptValues-->'outside' | 'inside' | 'columns'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

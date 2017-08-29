@@ -12,7 +12,7 @@ dataSource: ["Prepare 2013 Financial","Prepare 3013 Marketing Plan","Update Pers
 ===========================================================================
 <!--module-->ui/list<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js

@@ -23,7 +23,7 @@ The type name.
 The target entity key value.
 <!--/paramDescription2-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The desired proxy object.
 <!--/returnDescription-->

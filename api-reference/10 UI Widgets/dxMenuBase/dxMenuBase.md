@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\HierarchicalCollectionWidget\HierarchicalCollectionWidget.md<!--/inherits-->
 ===========================================================================
 

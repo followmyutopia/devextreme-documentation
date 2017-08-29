@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'start'<!--/default-->
 <!--acceptValues-->'start' | 'end' | 'center' | 'space-between' | 'space-around'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

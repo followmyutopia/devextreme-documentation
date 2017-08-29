@@ -11,7 +11,7 @@
 Gets the current value of the map zoom factor.
 <!--/shortDescription-->
 
-<!--returnType-->number<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The current value of the zoom factor.
 <!--/returnDescription-->

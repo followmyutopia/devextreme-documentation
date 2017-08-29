@@ -9,7 +9,7 @@
 <!--custom_default_for_android_below_version_4-->'nextButton'<!--/custom_default_for_android_below_version_4-->
 <!--custom_default_for_desktop-->'nextButton'<!--/custom_default_for_desktop-->
 <!--acceptValues-->'scrollBottom' | 'nextButton'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

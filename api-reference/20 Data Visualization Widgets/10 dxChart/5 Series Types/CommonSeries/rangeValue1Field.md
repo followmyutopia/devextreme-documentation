@@ -8,7 +8,7 @@
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--propertyOf-->..\RangeBarSeries\RangeBarSeries.md,..\RangeAreaSeries\RangeAreaSeries.md<!--/propertyOf-->
 <!--default-->'val1'<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

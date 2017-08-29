@@ -8,7 +8,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\FullStackedAreaSeries\FullStackedAreaSeries.md,..\..\FullStackedBarSeries\FullStackedBarSeries.md,..\..\FullStackedLineSeries\FullStackedLineSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
-<!--type-->number<!--/type-->
+<!--type-->Number<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

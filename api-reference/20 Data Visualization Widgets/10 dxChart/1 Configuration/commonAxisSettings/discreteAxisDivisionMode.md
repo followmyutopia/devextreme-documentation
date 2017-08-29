@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'betweenLabels'<!--/default-->
 <!--acceptValues-->'betweenLabels' | 'crossLabels'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -11,7 +11,7 @@
 Provides information about the selection state of a point.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 Selection state of a point.
 <!--/returnDescription-->

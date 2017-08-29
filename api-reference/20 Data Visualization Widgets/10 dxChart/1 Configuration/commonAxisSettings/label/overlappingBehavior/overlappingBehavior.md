@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'hide'<!--/default-->
 <!--acceptValues-->'stagger' | 'rotate' | 'hide' | 'none'<!--/acceptValues-->
-<!--type-->string | object<!--/type-->
+<!--type-->String | Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

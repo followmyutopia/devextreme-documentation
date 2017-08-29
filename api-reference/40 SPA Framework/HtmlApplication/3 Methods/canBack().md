@@ -11,7 +11,7 @@
 Returns a Boolean value indicating whether or not backwards navigation is currently possible.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 **true** if the backwards navigation is possible. Otherwise, the value is **false**.
 <!--/returnDescription-->

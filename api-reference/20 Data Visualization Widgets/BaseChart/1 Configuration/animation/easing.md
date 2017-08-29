@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'easeOutCubic'<!--/default-->
 <!--acceptValues-->'easeOutCubic' | 'linear'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

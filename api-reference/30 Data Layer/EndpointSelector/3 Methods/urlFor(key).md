@@ -17,7 +17,7 @@ Returns an endpoint for the specified key.
 The endpoint key.
 <!--/paramDescription1-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 The required endpoint.
 <!--/returnDescription-->

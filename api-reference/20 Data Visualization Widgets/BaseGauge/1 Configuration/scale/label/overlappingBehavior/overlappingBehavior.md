@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'hide'<!--/default-->
 <!--acceptValues-->'hide' | 'none'<!--/acceptValues-->
-<!--type-->string | object<!--/type-->
+<!--type-->String | Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

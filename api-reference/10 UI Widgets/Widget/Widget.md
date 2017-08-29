@@ -8,7 +8,7 @@
 <!--hidden--><!--/hidden-->
 <!--module-->ui/widget/ui.widget<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\DOMComponent\DOMComponent.md<!--/inherits-->
 ===========================================================================
 

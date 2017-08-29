@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'dragAndDrop'<!--/default-->
 <!--acceptValues-->'dragAndDrop' | 'select'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

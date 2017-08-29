@@ -19,7 +19,7 @@ Encodes the specified string or array of bytes to **base64** encoding.
 A string or array of bytes to be encoded.
 <!--/paramDescription1-->
 
-<!--returnType-->string<!--/returnType-->
+<!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
 The resulting **base64** string.
 <!--/returnDescription-->

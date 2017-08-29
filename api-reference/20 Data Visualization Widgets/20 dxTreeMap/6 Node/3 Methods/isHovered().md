@@ -11,7 +11,7 @@
 Indicates whether the node is in the hover state or not.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 **true** if the node is in the hover state; **false** otherwise.
 <!--/returnDescription-->

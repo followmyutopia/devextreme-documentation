@@ -7,7 +7,7 @@
 ===========================================================================
 <!--module-->data/odata/utils<!--/module-->
 <!--export-->EdmLiteral<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

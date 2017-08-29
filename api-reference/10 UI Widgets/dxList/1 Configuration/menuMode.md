@@ -8,7 +8,7 @@
 <!--default-->'context'<!--/default-->
 <!--custom_default_for_ios-->'slide'<!--/custom_default_for_ios-->
 <!--acceptValues-->'context' | 'slide'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

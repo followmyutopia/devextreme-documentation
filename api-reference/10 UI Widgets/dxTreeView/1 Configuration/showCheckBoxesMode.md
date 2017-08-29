@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'none' | 'normal' | 'selectAll'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

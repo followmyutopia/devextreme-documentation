@@ -12,7 +12,7 @@
 <!--custom_default_for_generic_desktop-->'calendar'<!--/custom_default_for_generic_desktop-->
 <!--custom_default_for_no-phone_windows-->'calendar'<!--/custom_default_for_no-phone_windows-->
 <!--acceptValues-->'native' | 'calendar' | 'rollers' | 'list'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

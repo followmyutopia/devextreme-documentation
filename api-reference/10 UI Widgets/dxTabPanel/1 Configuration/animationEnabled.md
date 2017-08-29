@@ -6,5 +6,5 @@
 **-->
 <!--merge--><!--/merge-->
 <!--custom_default_for_generic-->false<!--/custom_default_for_generic-->
-<!--type-->boolean<!--/type-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================

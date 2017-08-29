@@ -23,7 +23,7 @@ An X coordinate of the client area.
 An Y coordinate of the client area.
 <!--/paramDescription2-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 Map coordinates.
 <!--/returnDescription-->

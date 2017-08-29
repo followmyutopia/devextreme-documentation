@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
 <!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

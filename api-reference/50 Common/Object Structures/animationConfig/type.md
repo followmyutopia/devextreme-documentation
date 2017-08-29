@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'custom'<!--/default-->
 <!--acceptValues-->'fade' | 'fadeIn' | 'fadeOut' | 'pop' | 'slide' | 'slideIn' | 'slideOut' | 'css'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

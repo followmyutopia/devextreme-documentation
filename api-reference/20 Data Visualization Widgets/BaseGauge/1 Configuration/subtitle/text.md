@@ -7,7 +7,7 @@
 <!--dep-->..\..\..\BaseWidget\1 Configuration\title\subtitle\text.md<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

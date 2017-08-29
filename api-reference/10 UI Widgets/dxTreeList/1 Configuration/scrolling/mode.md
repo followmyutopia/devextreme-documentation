@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'virtual'<!--/default-->
 <!--acceptValues-->'standard' | 'virtual'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

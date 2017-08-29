@@ -20,7 +20,7 @@ Obtains the color sets of a predefined or registered palette.
 The palette name.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The palette settings.
 <!--/returnDescription-->

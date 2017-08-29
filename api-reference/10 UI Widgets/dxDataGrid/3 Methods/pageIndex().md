@@ -11,7 +11,7 @@
 Gets the index of the current page.
 <!--/shortDescription-->
 
-<!--returnType-->numeric<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The index of the current page.
 <!--/returnDescription-->

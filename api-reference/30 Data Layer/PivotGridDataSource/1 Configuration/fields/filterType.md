@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'include'<!--/default-->
 <!--acceptValues-->'include' | 'exclude'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

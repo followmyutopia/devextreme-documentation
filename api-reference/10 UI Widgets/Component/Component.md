@@ -8,7 +8,7 @@
 <!--hidden--><!--/hidden-->
 <!--module-->core/component<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\EventsMixin\EventsMixin.md<!--/inherits-->
 ===========================================================================
 

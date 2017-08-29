@@ -17,7 +17,7 @@ Subscribes to the specified events.
 An object of the following structure: { "eventName1": handler1, "eventName2": handler2, ...}
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The object for which this method is called.
 <!--/returnDescription-->

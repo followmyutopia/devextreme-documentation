@@ -23,7 +23,7 @@ The element to animate.
 An object that defines element [animation options](/Documentation/ApiReference/Common/Object_Structures/animationConfig).
 <!--/paramDescription2-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 A Promise of the jQuery.Deferred object resolved after animation is completed.
 <!--/returnDescription-->

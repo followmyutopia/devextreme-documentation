@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'bottom'<!--/default-->
 <!--acceptValues-->'bottom' | 'top' | 'left' | 'right'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

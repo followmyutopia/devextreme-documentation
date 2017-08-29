@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'standard'<!--/default-->
 <!--acceptValues-->'standard' | 'rotate' | 'stagger'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

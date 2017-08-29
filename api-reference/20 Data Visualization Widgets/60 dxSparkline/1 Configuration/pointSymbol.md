@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'circle'<!--/default-->
 <!--acceptValues-->'circle' | 'square' | 'polygon' | 'triangle' | 'cross'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

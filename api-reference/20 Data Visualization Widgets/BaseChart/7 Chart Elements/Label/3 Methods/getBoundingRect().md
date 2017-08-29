@@ -11,7 +11,7 @@
 Gets the parameters of the label's [minimum bounding rectangle](http://en.wikipedia.org/wiki/Minimum_bounding_rectangle) (MBR).
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 An object with the following content: *{ x: numeric, y: numeric, height: numeric, width: numeric }*.
 <!--/returnDescription-->

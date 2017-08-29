@@ -11,7 +11,7 @@
 Gets the current size of the widget.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The current size of the widget.
 <!--/returnDescription-->

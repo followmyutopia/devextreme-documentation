@@ -11,7 +11,7 @@
 Gets the layer element coordinates.
 <!--/shortDescription-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 The element coordinates.
 <!--/returnDescription-->

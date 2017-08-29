@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'mobileApp'<!--/default-->
 <!--acceptValues-->'mobileApp' | 'webSite'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

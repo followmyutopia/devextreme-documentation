@@ -11,7 +11,7 @@
 Gets all visible rows.
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 Visible [rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows).
 <!--/returnDescription-->

@@ -11,7 +11,7 @@
 Checks whether the widget has unsaved changes.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 **true** if the widget has unsaved changes; otherwise - **false**.
 <!--/returnDescription-->

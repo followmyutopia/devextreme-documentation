@@ -8,7 +8,7 @@
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--propertyOf-->..\LineSeries\LineSeries.md,..\StackedLineSeries\StackedLineSeries.md,..\FullStackedLineSeries\FullStackedLineSeries.md,..\StackedSplineSeries\StackedSplineSeries.md,..\FullStackedSplineSeries\FullStackedSplineSeries.md,..\SplineSeries\SplineSeries.md,..\StepLineSeries\StepLineSeries.md,..\AreaSeries\AreaSeries.md,..\StackedAreaSeries\StackedAreaSeries.md,..\FullStackedAreaSeries\FullStackedAreaSeries.md,..\SplineAreaSeries\SplineAreaSeries.md,..\StepAreaSeries\StepAreaSeries.md,..\ScatterSeries\ScatterSeries.md,..\BarSeries\BarSeries.md,..\StackedBarSeries\StackedBarSeries.md,..\FullStackedBarSeries\FullStackedBarSeries.md,..\BubbleSeries\BubbleSeries.md<!--/propertyOf-->
 <!--default-->'val'<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

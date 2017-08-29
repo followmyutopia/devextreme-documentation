@@ -11,7 +11,7 @@
 Returns how far the list content is scrolled from the top.
 <!--/shortDescription-->
 
-<!--returnType-->numeric<!--/returnType-->
+<!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
 The value of the current scroll position from the top in pixels.
 <!--/returnDescription-->

@@ -17,7 +17,7 @@ Provides access to the object that represents the specified validation group.
 The key of the requested group.
 <!--/paramDescription1-->
 
-<!--returnType-->object<!--/returnType-->
+<!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
 An object representing the requested group.
 <!--/returnDescription-->

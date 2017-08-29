@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->array | PivotGridDataSource | PivotGridDataSource configuration<!--/type-->
+<!--type-->Array | PivotGridDataSource | PivotGridDataSource configuration<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'driving'<!--/default-->
 <!--acceptValues-->'driving' | 'walking'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

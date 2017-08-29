@@ -8,7 +8,7 @@
 <!--EventForAction-->..\4 Events\areaClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->function | string<!--/type-->
+<!--type-->function | String<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

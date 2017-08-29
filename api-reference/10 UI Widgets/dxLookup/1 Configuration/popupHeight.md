@@ -9,7 +9,7 @@
 <!--custom_default_for_android_below_version_4-->'auto'<!--/custom_default_for_android_below_version_4-->
 <!--custom_default_for_desktop-->'auto'<!--/custom_default_for_desktop-->
 <!--custom_default_for_iPad-->'auto'<!--/custom_default_for_iPad-->
-<!--type-->number | string | function<!--/type-->
+<!--type-->Number | String | function<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

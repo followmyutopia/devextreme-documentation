@@ -7,7 +7,7 @@
 ===========================================================================
 <!--module-->framework/command<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

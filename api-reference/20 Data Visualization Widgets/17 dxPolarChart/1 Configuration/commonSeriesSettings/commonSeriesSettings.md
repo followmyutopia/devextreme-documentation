@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hideDefaults-->true<!--/hideDefaults-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\..\5 Series Types\CommonPolarChartSeries\CommonPolarChartSeries.md<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================

@@ -11,7 +11,7 @@
 Provides information about the visibility state of a point.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 Visibility state of a point.
 <!--/returnDescription-->

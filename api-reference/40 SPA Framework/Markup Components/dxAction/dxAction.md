@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->function(e) | string | object<!--/type-->
+<!--type-->function(e) | String | Object<!--/type-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

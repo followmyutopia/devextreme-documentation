@@ -7,7 +7,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\..\..\RangeAreaSeries\RangeAreaSeries.md<!--/propertyOf-->
 <!--default-->undefined<!--/default-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hidePropertyOf--><!--/hidePropertyOf-->
-<!--type-->object<!--/type-->
+<!--type-->Object<!--/type-->
 <!--inherits-->..\..\..\BaseGauge\5 Indicator Types\CommonIndicator\CommonIndicator.md<!--/inherits-->
 ===========================================================================
 

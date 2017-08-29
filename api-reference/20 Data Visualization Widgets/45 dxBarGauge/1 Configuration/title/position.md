@@ -8,7 +8,7 @@
 ===========================================================================
 <!--default-->'top-center'<!--/default-->
 <!--acceptValues-->'top-left' | 'top-center' | 'top-right' | 'bottom-left' | 'bottom-center' | 'bottom-right'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

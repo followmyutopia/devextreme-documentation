@@ -11,7 +11,7 @@
 Cancels the load operation associated with the specified identifier.
 <!--/shortDescription-->
 
-<!--returnType-->boolean<!--/returnType-->
+<!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
 Indicates whether the operation is successfully canceled (*true*) or was not found (*false*).
 <!--/returnDescription-->

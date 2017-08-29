@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'multiple'<!--/default-->
 <!--acceptValues-->'single' | 'multiple'<!--/acceptValues-->
-<!--type-->string<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

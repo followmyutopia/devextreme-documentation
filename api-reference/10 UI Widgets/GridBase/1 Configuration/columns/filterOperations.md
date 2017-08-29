@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'=' | '<>' | '<' | '<=' | '>' | '>=' | 'notcontains' | 'contains' | 'startswith' | 'endswith' | 'between'<!--/acceptValues-->
-<!--type-->array<!--/type-->
+<!--type-->Array<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

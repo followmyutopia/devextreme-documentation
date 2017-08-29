@@ -11,7 +11,7 @@
 Returns visible series points.
 <!--/shortDescription-->
 
-<!--returnType-->array<!--/returnType-->
+<!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
 Visible points.
 <!--/returnDescription-->
