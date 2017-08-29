@@ -11,15 +11,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [fileSaving]({basewidgetpath}/Events#fileSaving) event.
+A handler for the **fileSaving** event. Executed before a file with exported data is saved on the user's local storage.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To perform a custom action before a file with exported data is saved on the user's local storage, assign a function to this option. Within this function, you can use the object passed to it as the parameter. For example, using the **cancel** field of this object, you can cancel file saving.
-
 #####See Also#####
-- [onExporting]({basewidgetpath}/Configuration#onExporting) - allows you to request exporting details and prevent exporting.
-- [onExported]({basewidgetpath}/Configuration#onExported) - allows you to notify an end user when exporting is completed.
+- [onExporting]({basewidgetpath}/Configuration#onExporting)
+- [onExported]({basewidgetpath}/Configuration#onExported)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

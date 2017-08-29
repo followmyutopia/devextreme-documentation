@@ -11,9 +11,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not the widget supports right-to-left representation.
+Switches the widget to a right-to-left representation.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The most common scenario is switching all the widgets to a right-to-left reading order. In this instance, set the **DevExpress.rtlEnabled** field to **true**. If you need to switch the reading order in a particular widget, use the **rtlEnabled** configuration option of this widget. 
+When this option is set to **true**, the widget text flows from right to left, and the layout of elements is reversed. To switch the entire application/site to the right-to-left representation, assign **true** to the **rtlEnabled** field of the object passed to the [DevExpress.config(config)](/Documentation/ApiReference/Common/utils/#configconfig) method.
+
+    <!--JavaScript-->DevExpress.config({
+        rtlEnabled: true
+    });
 <!--/fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Turns the funnel upside down.
 <!--/shortDescription-->
 
 <!--fullDescription-->

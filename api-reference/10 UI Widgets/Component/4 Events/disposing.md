@@ -13,8 +13,6 @@ Raised when the widget is removed from the DOM using the [remove()](http://api.j
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Main article: [onDisposing]({basewidgetpath}/Configuration/#onDisposing)
-
 #####See Also#####
 - **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **incidentOccurred** event.
+A handler for the **incidentOccurred** event. Executed when an error or warning appears in the widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -19,7 +19,7 @@ When an error or warning appears, the widget notifies you by passing a message t
 * **id**    
 Contains the ID of the incident. The full list of IDs can be found in the **Errors and Warnings** section.
 * **type**        
-Contains the type of the incident. This field equals *'error'* for errors or *'warning'* for warnings.
+Contains the type of the incident. This field equals *"error"* for errors or *"warning"* for warnings.
 * **args**    
 Contains the argument of the incident's message. The content of this field varies greatly, depending on the incident. For example, it may contain the name of the data source field that was not specified correctly, or the name of the option that was not set properly.
 * **text**        
@@ -27,7 +27,7 @@ Contains the text passed to the browser console. This text includes the content 
 * **widget**    
 Contains the name of the widget that produced the error or warning.
 * **version**    
-Contains the currently used version of the ChartJS library.
+Contains the currently used version of the DevExtreme library.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

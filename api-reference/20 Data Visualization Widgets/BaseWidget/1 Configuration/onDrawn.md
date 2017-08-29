@@ -11,11 +11,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **drawn** event.
+A handler for the **drawn** event. Executed when the widget has finished drawing itself.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a callback function to this option if you need to perform specific actions when the widget has finished drawing itself. When implementing this function, you can access the drawn widget using the function's parameter.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

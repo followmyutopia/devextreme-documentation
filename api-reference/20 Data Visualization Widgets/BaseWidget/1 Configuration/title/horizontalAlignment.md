@@ -15,7 +15,8 @@ Specifies the title's alignment in a horizontal direction.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To set the title's alignment in a vertical direction, use the [verticalAlignment]({basewidgetpath}/Configuration/title#verticalAlignment) option.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option with the `HorizontalAlignment` enum that accepts the following values: `Left`, `Center` and `Right`.
 
-When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `HorizontalAlignment` enum. This enum accepts the following values: `Left`, `Center` and `Right`.
+#####See Also#####
+- **title**.[verticalAlignment]({basewidgetpath}/Configuration/title#verticalAlignment)
 <!--/fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the widget has finished drawing itself.
+Raised when the widget has finished drawing itself.
 <!--/shortDescription-->
 
 <!--fullDescription-->

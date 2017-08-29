@@ -11,15 +11,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [exported]({basewidgetpath}/Events#exported) event.
+A handler for the **exported** event. Executed after data from the widget is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To perform a custom action after data from the widget is exported, assign a function to this option. For example, this function can notify the user that the exporting has been completed. Within this function, you can use the object passed to it as the parameter.
-
 #####See Also#####
-- [onExporting]({basewidgetpath}/Configuration#onExporting) - allows you to request exporting details and prevent exporting.
-- [onFileSaving]({basewidgetpath}/Configuration#onFileSaving) - allows you to access exported data and/or prevent it from being saved into a file on the user's local storage.
+- [onExporting]({basewidgetpath}/Configuration#onExporting)
+- [onFileSaving]({basewidgetpath}/Configuration#onFileSaving)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -39,5 +37,5 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Data that is available for binding against the element. Available only in the Knockout approach.
+The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->

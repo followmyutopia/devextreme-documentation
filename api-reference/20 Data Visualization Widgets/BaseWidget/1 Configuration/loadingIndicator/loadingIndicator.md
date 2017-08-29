@@ -20,6 +20,6 @@ When the widget visualizes local data, loading is instant. But when the widget i
 To activate the loading indicator, assign **true** to the **loadingIndicator**.**show** option. Once data is loaded, the loading indicator will be hidden automatically.
 
 #####See Also#####
-- [showLoadingIndicator()]({basewidgetpath}/Methods/#showLoadingIndicator) - shows the loading indicator.
-- [hideLoadingIndicator()]({basewidgetpath}/Methods/#hideLoadingIndicator) - hides the loading indicator.
+- [showLoadingIndicator()]({basewidgetpath}/Methods/#showLoadingIndicator)
+- [hideLoadingIndicator()]({basewidgetpath}/Methods/#hideLoadingIndicator)
 <!--/fullDescription-->
