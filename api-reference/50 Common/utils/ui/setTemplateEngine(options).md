@@ -26,7 +26,7 @@ A function that parses the passed HTML or DOM element and returns a template.
 <!--paramName1_field2-->render<!--/paramName1_field2-->
 <!--paramType1_field2-->function(template, data, index)<!--/paramType1_field2-->
 <!--paramDescription1_field2-->
-A function that inserts data into the template returned by the "compile" function and returns the HTML element to be rendered. The data and template are passed as the function's parameters.
+A function that inserts data into the template returned by the "compile" function and returns the HTML element to be rendered. The template, data and item index are passed as the function's parameters. Note that the item index is defined only for collection widgets, for example, [List](/Documentation/Guide/Widgets/List/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), [Scheduler](/Documentation/Guide/Widgets/Scheduler/Overview/).
 <!--/paramDescription1_field2-->
 
 <!--fullDescription-->
