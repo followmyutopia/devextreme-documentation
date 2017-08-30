@@ -1,6 +1,6 @@
 If you do not need a simple item to be bound to a [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) field, create an unbound item. It can be useful if you need, for example, to hide or show some additional information. To create such an item, specify its [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#name), but do _not_ set its **dataField** option. You will be able to access the item by this name if you need to.
 
-In the following example, the `order` item contains the [DataGrid](/Documentation/Guide/Widgets/DataGrid/) widget. This widget is shown only when the [CheckBox](/Documentation/Guide/Widgets/CheckBox/) in the `show-order` item is checked. Both the `order` and `show-order` items are unbound items. 
+In the following example, the `order` item contains the [DataGrid](/Documentation/Guide/Widgets/DataGrid/Overview/) widget. This widget is shown only when the [CheckBox](/Documentation/Guide/Widgets/CheckBox/) in the `show-order` item is checked. Both the `order` and `show-order` items are unbound items. 
 
     <!--JavaScript-->$(function () {
         var isOrderShown = false;

@@ -16,5 +16,6 @@ Specifies [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/DataValidation/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
 #####See Also#####
+- [Data Validation](/Documentation/Guide/Widgets/DataGrid/Editing/#Data_Validation)
 - [rowValidating]({basewidgetpath}/Events/#rowValidating)
 <!--/fullDescription-->

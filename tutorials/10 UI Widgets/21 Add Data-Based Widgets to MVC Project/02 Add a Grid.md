@@ -64,7 +64,7 @@
         
 
 - Sort grid data locally.  
-    By default, sorting is enabled and performed locally in the **DataGrid** widget. So, you can sort records in a column by clicking its [header](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Configuring_Column_Headers). In addition, you have an opportunity to sort data remotely, but this will work only if the server side supports sorting. You can read details in the [Use Custom Sources](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/) topic. In this tutorial, data sorting is performed locally.
+    By default, sorting is enabled and performed locally in the **DataGrid** widget. So, you can sort records in a column by clicking its [header](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Column_Headers/). In addition, you have an opportunity to sort data remotely, but this will work only if the server side supports sorting. You can read details in the [Use Custom Sources](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/) topic. In this tutorial, data sorting is performed locally.
 
 #####See Also#####
 - [Configure DataGrid Tutorial](/Documentation/Tutorial/UI_Widgets/Configure_DataGrid/#Configure_DataGrid) - detailed information on how to configure the **DataGrid** widget

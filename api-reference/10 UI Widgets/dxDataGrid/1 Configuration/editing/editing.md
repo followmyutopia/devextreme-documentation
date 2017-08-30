@@ -20,6 +20,5 @@ The widget can allow a user to add, update and delete data. To control which of 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/RowEditingAndEditingEvents/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
-- [DataGrid - Editing in UI](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI)
-- [DataGrid - Editing in Code](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_Code)
+- [Editing](/Documentation/Guide/Widgets/DataGrid/Editing/)
 <!--/fullDescription-->

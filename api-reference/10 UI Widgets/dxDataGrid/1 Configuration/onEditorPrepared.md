@@ -15,7 +15,7 @@ A handler for the [editorPrepared](/Documentation/ApiReference/UI_Widgets/dxData
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Many grid elements are based on editors. For example, the [search panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel) is based on a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Selection_Column) on check boxes in full, etc. Editors are also used to edit a cell or row in a grid. You can customize the **DataGrid**'s default editors by changing their settings in the **onEditorPrepared** function if they do not meet your requirements. This function is called after an editor is created.
+Many grid elements are constructed on editors. For example, the [search panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel) is constructed on a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/) is built on check boxes in full, etc. Obviously, editors are also used to edit a cell or a row in a grid. When default editors provided by **DataGrid** do not meet your requirements, you can customize them by changing their settings within the **onEditorPrepared** function. This function will be called after an editor is created.
 
 When implementing this function, use the object passed to it as its argument. Among the fields of this object, you can find the created editor's options. These options differ depending on the editor's parent element. Check the **parentType** field of the function's argument to identify the parent element.
 

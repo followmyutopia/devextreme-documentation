@@ -21,6 +21,6 @@ By default, once a user selects a row, the data source is instantly notified abo
 
 #####See Also#####
 - [Selection](/Documentation/Guide/Widgets/DataGrid/Selection/)
-- [Deferred Selection](/Documentation/Guide/Widgets/DataGrid/Features_for_Remote_Data/Deferred_Selection/)
+- [Deferred Selection](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Deferred_Selection)
 - [onSelectionChanged]({basewidgetpath}/Configuration/#onSelectionChanged)
 <!--/fullDescription-->

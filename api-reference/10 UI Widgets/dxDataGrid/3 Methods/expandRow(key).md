@@ -18,8 +18,10 @@ The key of the group or master row.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-To expand a [group row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows), call this method with an array (each member of which is a grouping value). To expand a [master row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/), pass its key to this method.
+To expand a group row, call this method with an array (each member of which is a grouping value). To expand a [master row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/), pass its key to this method.
 
 #####See Also#####
 - **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/)
+- [Expand and Collapse Groups - API](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Expand_and_Collapse_Groups)
+- [Master-Detail Interface - API](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/#API)
 <!--/fullDescription-->

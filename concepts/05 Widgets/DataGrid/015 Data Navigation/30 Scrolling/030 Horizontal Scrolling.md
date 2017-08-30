@@ -1,4 +1,0 @@
-In addition to the vertical scrolling, an end-user may encounter horizontal scrolling, which allows users to browse columns that are concealed because they extend beyond the borders of the widget container. This type of scrolling is rather rare and cannot be configured by any options. It appears when the total width of grid columns exceeds the width of the widget container, which might occur in two cases:
-
-* when you have specified constant [widths](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#width) for all grid columns;		
-* when the width of columns is calculated on the base of their content. It is the result of setting the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#columnAutoWidth) option to **true**.

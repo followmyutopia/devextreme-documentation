@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a custom template for the [group cell](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) of a grid column.
+Specifies a custom template for the group cell of a grid column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -37,9 +37,9 @@ Contains the value of the current group cell in a string format. Use this field 
 - **displayValue**        
 Contains the value displayed by the current group cell. Differs from the **value** field only when the column to which the current cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
 - **columnIndex**        
-Contains the index of the column to which the current group cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+Contains the index of the column to which the current group cell belongs. For more information on how this index is calculated, refer to the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 - **rowIndex**        
-Contains the index of the row that the current group cell occupies. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
+Contains the index of the row that the current group cell occupies. For further information about row indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 - **column**        
 Contains the settings of the column to which the current group cell belongs.
 - **summaryItems**  

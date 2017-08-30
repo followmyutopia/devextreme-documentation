@@ -59,4 +59,7 @@ By default, a summary item is placed in the column that provides data for it. If
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgriddatasummariesgridtotals/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <a href="https://www.youtube.com/watch?v=Ru43cnfrqGM&index=40&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
+
+#####See Also#####
+- [Total Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/)
 <!--/fullDescription-->

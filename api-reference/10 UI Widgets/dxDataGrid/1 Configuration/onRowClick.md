@@ -15,7 +15,7 @@ A handler for the [rowClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/E
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **rowClick** event fires when a user clicks a [grid row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows). When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the clicked row.
+The **rowClick** event fires when a user clicks a grid row. When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the clicked row.
 
 Alternatively, you can navigate to a specific URL when the **rowClick** event fires. For this purpose, assign this URL to the **onRowClick** option.
 
@@ -73,12 +73,12 @@ Grid columns. Each column in this array is represented by an object with column 
 <!--typeFunctionParamName1_field9-->rowIndex<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->number<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The *visible* index of the clicked row. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that [group rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) are also counted and thus have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
+The *visible* index of the clicked row. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that group rows are also counted and thus have row indexes. For further information about row indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rowType<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->string<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-The type of the clicked row. This field equals *'data'* for [ordinary rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows), *'group'* for [group rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) or *'detail'* for [detail sections](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail). Use this field to distinguish rows by type.
+The type of the clicked row. This field equals *'data'* for data rows, *'group'* for group rows or *'detail'* for [detail sections](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail). Use this field to distinguish rows by type.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->isSelected<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->boolean<!--/typeFunctionParamType1_field11-->
@@ -88,7 +88,7 @@ Indicates whether the clicked row is [selected](/Documentation/Guide/Widgets/Dat
 <!--typeFunctionParamName1_field12-->isExpanded<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-Indicates whether or not the [group row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) is expanded. This field is useful if the **rowType** field is *'group'*.
+Indicates whether or not the group row is expanded. This field is useful if the **rowType** field is *'group'*.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->groupIndex<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->number<!--/typeFunctionParamType1_field13-->

@@ -74,7 +74,7 @@ Localized apps and apps that use custom date, number or currency formatting requ
 
 [note]Globalize scripts need to go _before_ DevExtreme scripts.
 
-Reference the JSZip library if you use the [client-side export feature](/Documentation/Guide/Widgets/DataGrid/Client-Side_Export/) in the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) and [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widgets.
+Reference the JSZip library if you use the [client-side exporting feature](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/) in the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) and [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widgets.
 
     <!--HTML-->
     <!-- JSZip library -->

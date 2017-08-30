@@ -47,5 +47,9 @@ To group these records first by the *"LastName"* field and then by the *"FirstNa
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/RecordGrouping/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridgroupinglocaldatagrouping/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+
+#####See Also#####
+-[Initial and Runtime Grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Initial_and_Runtime_Grouping)
+
 <!--/fullDescription-->

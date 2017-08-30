@@ -18,6 +18,7 @@ A handler for the [fileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid
 Assign a function to perform a custom action before an Excel file with exported data will be saved on the user's local storage.
 
 #####See Also#####
+- [Client-Side Exporting - Events](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/#Events)
 - [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting) - allows you to request exporting details and prevent exporting.
 - [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) - allows you to notify an end user when exporting is completed.
 <!--/fullDescription-->

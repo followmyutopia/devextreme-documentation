@@ -21,5 +21,6 @@ To update data in cache, call the [refresh()]({basewidgetpath}/Methods/#refresh)
 [note]If you fetch data from the server, some operations with data can be executed [remotely]({basewidgetpath}/Configuration/remoteOperations/), while others - locally. If you perform basic operations (sorting, filtering, and paging) remotely and advanced operations (grouping and summary calculation) locally, certain user actions will force **DataGrid** to query the server for data repeatedly despite caching being enabled. Particularly, the advanced operations demand data to be reloaded completely  from the server to provide correct results.
 
 #####See Also#####
+- [Data Caching](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Data_Caching/)
 - [getDataSource()]({basewidgetpath}/Methods/#getDataSource)
 <!--/fullDescription-->

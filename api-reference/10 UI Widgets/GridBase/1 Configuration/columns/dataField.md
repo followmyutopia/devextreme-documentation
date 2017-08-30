@@ -48,5 +48,5 @@ The **columns** array can contain only the names of data source fields, which is
 ---
 
 #####See Also#####
-- [Specifying Grid Columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Specifying_Grid_Columns)
+- [Columns - Overview](/Documentation/Guide/Widgets/DataGrid/Columns/Overview/)
 <!--/fullDescription-->

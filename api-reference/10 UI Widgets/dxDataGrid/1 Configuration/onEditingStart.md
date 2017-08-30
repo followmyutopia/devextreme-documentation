@@ -15,7 +15,7 @@ A handler for the [editingStart](/Documentation/ApiReference/UI_Widgets/dxDataGr
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **editingStart** event fires before a row (in [row edit mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Row_Mode)) or a cell (in [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode)) switches into the editing state. When implementing a handler for this event, use the object passed to it as its argument. Among the fields of this object, you can find parameters of the about-to-be-edited row.
+The **editingStart** event fires before a row (in [row edit mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Row_Mode)) or a cell (in [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Batch_Mode)) switches into the editing state. When implementing a handler for this event, use the object passed to it as its argument. Among the fields of this object, you can find parameters of the about-to-be-edited row.
 
 If you need to prevent a specific row or cell from switching into the editing state, assign **true** to the **cancel** field of the object passed to the handler as the argument.
 
@@ -61,5 +61,5 @@ A flag allowing you to prevent the row from switching into the editing state.
 <!--typeFunctionParamName1_field7-->column<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->object<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The [options of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns) whose cell is switching into the editing state; useful in [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode).
+The [options of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns) whose cell is switching into the editing state; useful in [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Batch_Mode).
 <!--/typeFunctionParamDescription1_field7-->

@@ -9,11 +9,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the options of a grid [pager](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Pager).
+Specifies the options of a grid [pager](/Documentation/Guide/Widgets/DataGrid/Paging/#User_Interaction).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A pager is a grid element that allows the user to navigate through grid pages and change their size at runtime. By default, the pager is visible if [paging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/) is enabled and you do not use virtual or infinite [scrolling](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Scrolling/Vertical_Scrolling). To change the pager's visibility explicitly, use its [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#visible) option.
+A pager is a grid element that allows the user to navigate through grid pages and change their size at runtime. By default, the pager is visible if [paging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/) is enabled and you do not use virtual or infinite [scrolling](/Documentation/Guide/Widgets/DataGrid/Scrolling/). To change the pager's visibility explicitly, use its [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#visible) option.
 
 The pager consists of a page navigator and a page size selector. The page navigator contains the numbers of pages. Clicking a page number navigates the user to the page. The page size selector contains the page sizes that can be selected. They are specified by the [allowedPageSizes](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#allowedPageSizes) option of the **pager** configuration object. The page size selector is hidden by default. To make it visible, assign **true** to the pager's [showPageSizeSelector](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#showPageSizeSelector) option.
 

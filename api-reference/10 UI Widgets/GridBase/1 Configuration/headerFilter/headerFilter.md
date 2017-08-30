@@ -25,5 +25,5 @@ To make header filter icons visible, assign **true** to the **headerFilter**.[vi
 - **columns[]**.[allowHeaderFiltering]({basewidgetpath}/Configuration/columns/#allowHeaderFiltering)
 - [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
 - [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
-- [Header Filter](/Documentation/Guide/Widgets/DataGrid/Filtering/#Column_Header_Filter)
+- [Header Filter](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Header_Filter)
 <!--/fullDescription-->

@@ -17,10 +17,10 @@ When the width of all columns exceeds the widget width, horizontal scrolling app
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnFixing](/Content/images/doc/17_2/DataGrid/visual_elements/column_fixing.png)
 
-When you enable column fixing, [command columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns) become fixed automatically. 
+When you enable column fixing, [command columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/) become fixed automatically. 
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/ColumnCustomization/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
 #####See Also#####
-- [Fixing Grid Columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Fixing_Grid_Columns)
+- [Column Fixing](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Fixing/)
 <!--/fullDescription-->

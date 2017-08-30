@@ -10,9 +10,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a pattern for the *'avg'* summary items displayed in a [group row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) or in any other column rather than the parent one.
+Specifies a pattern for the *'avg'* summary items displayed in a group row or in any other column rather than the parent one.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [Group Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/)
 <!--/fullDescription-->

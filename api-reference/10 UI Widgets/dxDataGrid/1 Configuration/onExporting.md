@@ -18,6 +18,7 @@ A handler for the [exporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/
 Assign a function to perform a custom action before exporting grid data.
 
 #####See Also#####
+- [Client-Side Exporting - Events](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/#Events)
 - [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/) - configures client-side exporting.
 - [customizeExportData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeExportData) - customizes grid columns and data before exporting.
 - [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) - allows you to notify an end user when exporting is completed.

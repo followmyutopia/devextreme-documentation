@@ -14,8 +14,8 @@ Some functionality relies on additional libraries.
 - **Globalize** version 1.x     
 Allows you to localize your app and use custom date, number and currency [formatting](/Documentation/ApiReference/Common/Object_Structures/format/). For details on when and how to use the Globalize library, see [topics about localization](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/).
 
-- **JSZip**        
-Needed to support the [client-side export feature](/Documentation/Guide/Widgets/DataGrid/Client-Side_Export/) in the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) and [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widgets.
+- [**JSZip**](https://stuk.github.io/jszip/)         
+Needed to support the [client-side exporting feature](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/) in the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) and [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widgets.
 
 - **Webpack** version 1.13 (available [via npm](/Documentation/Guide/Getting_Started/Installation/npm_Package) only)        
 Allows you to create your own [DevExtreme modules](/Documentation/Guide/Common/Modularity/) that include only what you need.

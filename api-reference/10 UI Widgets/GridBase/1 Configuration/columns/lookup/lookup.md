@@ -82,5 +82,7 @@ With this code, the *Bus ID* column contains license plates instead of IDs. More
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/BatchEditing/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Demo</a>
 
 #####See Also#####
-- [Features for Remote Data - Lookup Optimization](/Documentation/17_2/Guide/Widgets/DataGrid/Features_for_Remote_Data/Lookup_Optimization/)
+- [Lookup Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Lookup_Columns/)
+- [Features for Remote Data - Lookup Optimization](/Documentation/Guide/Widgets/DataGrid/Features_for_Remote_Data/Lookup_Optimization/)
+>>>>>>> 7322ae87... Data grid guides (#1042)
 <!--/fullDescription-->

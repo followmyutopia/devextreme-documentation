@@ -6,7 +6,7 @@
 
 - Assign a configuration object for the DataSource object to the **dataSource** grid option. For details on grid data binding, refer to the [Data Binding](/Documentation/Guide/Widgets/DataGrid/Data_Binding/) article.
 
-The **DataGrid** widget assumes local sorting by default. So, you can sort records in a column by clicking its [header](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Configuring_Column_Headers).
+The **DataGrid** widget assumes local sorting by default. So, you can sort records in a column by clicking its [header](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Column_Headers/).
 
 At this step, you can run the project and see that the grid is displayed with all loaded data.
 

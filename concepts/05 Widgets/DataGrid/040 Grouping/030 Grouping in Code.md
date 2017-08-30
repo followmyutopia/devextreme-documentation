@@ -1,3 +1,0 @@
-If required, you can apply grouping in code. For this purpose, assign an integer number to the [groupIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex) option of the required column using the [columnOption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method. To ungroup records, assign **undefined** to this option using the same method. To clear grouping settings of all columns, call the [clearGrouping()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearGrouping) method as shown in the code snippet below.
-
-	<!--JavaScript-->dataGridInstance.clearGrouping();

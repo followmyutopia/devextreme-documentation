@@ -15,13 +15,16 @@ A handler for the [editorPreparing](/Documentation/ApiReference/UI_Widgets/dxDat
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Many grid elements are based on editors. For example, the [search panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel) is based on a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Selection_Column) on check boxes in full, etc. Editors are also used to edit a cell or a row in a grid. When default editors provided by **DataGrid** do not meet your requirements, implement a custom editor. For this purpose, assign a function to the **onEditorPreparing** option. This function accepts an object as the parameter. Assign **true** to the **cancel** field of this object. After that, implement your editor using the other fields of this object.
+Many grid elements are constructed on editors. For example, the [search panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel) is constructed on a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/) is built on check boxes in full, etc. Obviously, editors are also used to edit a cell or a row in a grid. When default editors provided by **DataGrid** do not meet your requirements, implement a custom editor. For this purpose, assign a function to the **onEditorPreparing** option. This function accepts an object as the parameter. Assign **true** to the **cancel** field of this object. After that, implement your editor using the other fields of this object.
 
 You can distinguish editors by their parent element. Also, the parent element defines data passed to the **onEditorPreparing** function. To identify the parent element, check the **parentType** field of the function's argument.
 
 When the **parentType** is *'dataRow'* or *'headerRow'*, you can use the options described in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) reference section.
 
 [note]If you have specified the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate) option, the **onEditorPreparing** function will not be executed when a row or a cell switches into the editing state.
+
+#####See Also#####
+- [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

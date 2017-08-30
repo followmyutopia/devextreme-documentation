@@ -21,4 +21,7 @@ If the **masterDetail**.**enabled** option is **false**, the expanding arrows ar
 Setting this option to **false** is recommended if you need a custom logic of expanding/collapsing the detail sections. When implementing this logic, you can use specific API methods. To check whether the detail section is expanded or collapsed, use the [isRowExpanded(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#isRowExpandedkey) method. To expand or collapse a specific detail section, call the [expandRow(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandRowkey) or [collapseRow(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#collapseRowkey) method respectively.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/MasterDetailAPI/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+
+#####See Also#####
+- [Master-Detail Interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/)
 <!--/fullDescription-->

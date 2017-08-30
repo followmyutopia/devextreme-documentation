@@ -10,7 +10,7 @@ The jQuery and Globalize packages, upon which DevExtreme depends, will be instal
 
     bower install angular
 
-If you use the [client-side export](/Documentation/Guide/Widgets/DataGrid/Client-Side_Export/), also install the JSZip library.
+If you use the [client-side export](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/), also install the JSZip library.
 
     bower install Stuk/jszip
 

@@ -1,3 +1,0 @@
-When a grid contains thousands of records, it may be hard to find the needed ones using [scrolling](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Scrolling) or [pager navigation](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/#Pager_Navigation). In those cases, the **DataGrid** widget offers its filtering capabilities.
-
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridfilteringandsortingfiltering/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

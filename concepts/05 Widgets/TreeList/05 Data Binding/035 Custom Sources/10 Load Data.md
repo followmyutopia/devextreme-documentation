@@ -123,7 +123,7 @@ Here is a generalized configuration of the **CustomStore** for the **TreeList** 
                                 .then(response => {
                                     var json = response.json();
                                     // You can process the received data here
-                                    return json.items
+                                    return json.data
                                 });
                 }
             });

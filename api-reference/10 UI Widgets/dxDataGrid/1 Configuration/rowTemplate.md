@@ -24,13 +24,13 @@ Contains the **DataGrid** instance.
 - **values**    
 Contains an array of values of the current row in the order they exist in the data source.
 - **rowIndex**        
-Contains the index of the current row. When you have several pages in the grid, grid rows are indexed beginning with 0 on each page. Note that group cells count as rows and have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
+Contains the index of the current row. When you have several pages in the grid, grid rows are indexed beginning with 0 on each page. Note that group cells count as rows and have row indexes. For further information about row indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 - **columns**        
 Contains an array of grid columns. An object with column settings represents each column in this array. The order of columns in this array coincides with the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array.
 - **isSelected**    
 Indicates whether or not the current row is selected.
 - **rowType**        
-Defines the type of the current row. This field equals *'data'* for [ordinary rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) or *'group'* for [group rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows). Use this field to distinguish rows by type.
+Defines the type of the current row. This field equals *'data'* for data rows or *'group'* for group rows. Use this field to distinguish rows by type.
 - **groupIndex**    
 Contains the group index of the current row. This field is useful if the **rowType** field is *'group'*.
 - **isExpanded**    

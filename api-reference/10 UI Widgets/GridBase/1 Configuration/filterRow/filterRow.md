@@ -26,7 +26,7 @@ To make the filter row visible, assign **true** to the **filterRow**.[visible]({
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/Filtering/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
+- [Filter Row](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Filter_Row)
 - [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
 - [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
-- [Filtering](/Documentation/Guide/Widgets/DataGrid/Filtering/)
 <!--/fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the message displayed in a [group row](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) when the corresponding group continues on the next page.
+Specifies the message displayed in a group row when the corresponding group continues on the next page.
 <!--/shortDescription-->
 
 <!--fullDescription-->

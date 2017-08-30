@@ -24,9 +24,9 @@ When adapting to a small container or screen, the **TreeList** can hide columns.
     <!--HTML-->
     <dx-tree-list ... 
         [columnHidingEnabled]="true">
-        <dxi-column hidingPriority="2" ... ></dxi-column> <!-- a valuable column -->
-        <dxi-column hidingPriority="1" ... ></dxi-column> <!-- a not-so-valuable column -->
-        <dxi-column hidingPriority="0" ... ></dxi-column> <!-- a first-to-hide column -->
+        <dxi-column [hidingPriority]="2" ... ></dxi-column> <!-- a valuable column -->
+        <dxi-column [hidingPriority]="1" ... ></dxi-column> <!-- a not-so-valuable column -->
+        <dxi-column [hidingPriority]="0" ... ></dxi-column> <!-- a first-to-hide column -->
     </dx-tree-list>
     
 ---
@@ -56,7 +56,7 @@ You can expand or collapse adaptive detail rows programmatically by calling the 
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
         expandAdaptiveDetailRow (key) {
             if (!this.treeList.instance.isAdaptiveDetailRowExpanded(key)) {
-                this.treeList.instance.treeList.expandAdaptiveDetailRow(key);
+                this.treeList.instance.expandAdaptiveDetailRow(key);
             }
         }
     }

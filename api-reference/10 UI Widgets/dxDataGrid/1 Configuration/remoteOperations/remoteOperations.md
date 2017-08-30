@@ -16,7 +16,7 @@ Specifies the operations that must be performed on the server side.
 <!--fullDescription-->
 Data for the **DataGrid** can be stored on the client or come from the server. As a rule, manipulating data on the server enhances **DataGrid** performance. However, the server might be falling short of implementing certain operations, in which case, they can be performed on the client.
 
-Data operations can be categorized into basic operations ([filtering](/Documentation/Guide/Widgets/DataGrid/Filtering/), [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/), [paging](/Documentation/Guide/Widgets/DataGrid/Data_Navigation/)) and advanced operations ([grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/), [group paging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/#groupPaging), [summary calculation](/Documentation/Guide/Widgets/DataGrid/Summaries/)). The following table shows where data operations are performed by default.
+Data operations can be categorized into basic operations ([filtering](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/), [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/), [paging](/Documentation/Guide/Widgets/DataGrid/Paging/)) and advanced operations ([grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/), [group paging](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Remote_Group_Paging), [summary calculation](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/)). The following table shows where data operations are performed by default.
 
 <div class="simple-table">
 <table>

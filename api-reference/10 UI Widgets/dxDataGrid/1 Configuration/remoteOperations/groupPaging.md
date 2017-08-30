@@ -22,5 +22,5 @@ Note that remote group paging has a number of restrictions:
  
 [note]When **groupPaging** is enabled, all other operations (filtering, sorting, paging, grouping and summaries calculation) also become remote. 
 
-For details, see the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Features_for_Remote_Data/Remote_Group_Paging/) topic.
+For details, see the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Remote_Group_Paging) topic.
 <!--/fullDescription-->

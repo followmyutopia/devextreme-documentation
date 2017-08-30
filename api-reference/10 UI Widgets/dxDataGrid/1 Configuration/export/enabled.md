@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Enables the [client-side export](/Documentation/Guide/Widgets/DataGrid/Client-Side_Export/) feature.
+Enables the [client-side exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/) feature.
 <!--/shortDescription-->
 
 <!--fullDescription-->

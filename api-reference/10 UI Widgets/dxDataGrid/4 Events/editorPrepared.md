@@ -15,7 +15,7 @@ Fires after an editor is created.
 <!--fullDescription-->
 Instead, you can use the [onEditorPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditorPrepared) option to handle the event.
 
-Many grid elements are based on editors. For example, the [search panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel) is based on a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Selection_Column) is built on check boxes in full, etc. Obviously, editors are also used to edit cells or rows in a grid. When default editors provided by **DataGrid** do not meet your requirements, you can customize them by changing their settings within the **editorPrepared** event handler. This handler will be called after an editor is created.
+Many grid elements are constructed on editors. For example, the [search panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel) is constructed on a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/) is built on check boxes in full, etc. Obviously, editors are also used to edit cells or rows in a grid. When default editors provided by **DataGrid** do not meet your requirements, you can customize them by changing their settings within the **editorPrepared** event handler. This handler will be called after an editor is created.
 
 When implementing the handler, use the object passed to it as its argument. Among the fields of this object, you can find the options of the created editor. These options differ depending on the parent element of the editor. To identify the parent element, check the **parentType** field of the handler's argument.
 

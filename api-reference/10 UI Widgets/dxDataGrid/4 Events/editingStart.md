@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before a row (in [row edit mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Row_Mode)) or a cell (in [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode)) switches into the editing state.
+Fires before a row (in [row edit mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Row_Mode)) or a cell (in [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Batch_Mode)) switches into the editing state.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -62,5 +62,5 @@ A flag allowing you to prevent the row from switching into the editing state.
 <!--typeFunctionParamName1_field7-->column<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->object<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The [options of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns) whose cell is switching into the editing state; useful in the [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode).
+The [options of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns) whose cell is switching into the editing state; useful in the [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Batch_Mode).
 <!--/typeFunctionParamDescription1_field7-->

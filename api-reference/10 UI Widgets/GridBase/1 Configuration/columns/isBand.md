@@ -110,5 +110,5 @@ The column with the **isBand** flag set to **true** can have the following prope
 - [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex)
 
 #####See Also#####
-- [Band Columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Band_Columns)
+- [Band Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Band_Columns/)
 <!--/fullDescription-->

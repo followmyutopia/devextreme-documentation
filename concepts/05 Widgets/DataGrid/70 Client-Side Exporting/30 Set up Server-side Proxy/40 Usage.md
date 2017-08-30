@@ -1,0 +1,1 @@
+Specify the **export**.[proxyUrl](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#proxyUrl) option to make the widget export a file through the proxy.

@@ -15,4 +15,7 @@ Specifies whether to show the page size selector or not.
 
 <!--fullDescription-->
 If you want a user to be able to change the page size at runtime, make the page size selector visible by setting the **showPageSizeSelector** option to **true**. Note that the pager should be visible as well, because the page size selector is a part of it. To specify page sizes that can be selected, set the **allowedPageSizes** option.
+
+#####See Also#####
+- [Paging - User Interaction](/Documentation/Guide/Widgets/DataGrid/Paging/#User_Interaction)
 <!--/fullDescription-->

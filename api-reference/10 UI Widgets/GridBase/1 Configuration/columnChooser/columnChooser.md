@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Configures the [column chooser](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Column_Chooser).
+Configures the [column chooser](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Chooser/).
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -19,7 +19,7 @@ DevExteme does not require the following libraries to be referenced in your appl
 
 - JSZIP library
 
- You need to reference the JSZIP library only when [exporting data to a file](/Documentation/Guide/Widgets/DataGrid/Client-Side_Export/).
+ You need to reference the JSZIP library only when [exporting data to a file](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/).
 
 [note]Reference the DevExtreme scripts (dx.mobile or dx.web) after external scripts.
 

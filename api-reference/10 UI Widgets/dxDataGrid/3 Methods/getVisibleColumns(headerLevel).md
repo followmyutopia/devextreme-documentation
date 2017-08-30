@@ -8,7 +8,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets all visible columns at a specific hierarchical level of column headers. Use it to access [banded columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Band_Columns). 
+Gets all visible columns at a specific hierarchical level of column headers. Use it to access [banded columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Band_Columns/). 
 <!--/shortDescription-->
 
 <!--paramName1-->headerLevel<!--/paramName1-->

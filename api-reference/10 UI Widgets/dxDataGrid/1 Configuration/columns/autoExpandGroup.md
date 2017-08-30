@@ -15,5 +15,6 @@ Specifies whether groups appear expanded or not when records are grouped by a sp
 
 <!--fullDescription-->
 #####See Also#####
-- [DataGrid - Expanding and Collapsing Groups](/Documentation/Guide/Widgets/DataGrid/Grouping/#Expanding_and_Collapsing_Groups)
+- [Expand and Collapse Groups - API](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Expand_and_Collapse_Groups)
+- [Expand and Collapse Groups - User Interaction](/Documentation/Guide/Widgets/DataGrid/Grouping/#User_Interaction/Expand_and_Collapse_Groups)
 <!--/fullDescription-->

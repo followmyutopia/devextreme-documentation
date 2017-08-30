@@ -11,7 +11,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the [group panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Panel) is visible or not.
+Specifies whether the [group panel](/Documentation/Guide/Widgets/DataGrid/Grouping/#User_Interaction/Group_Data) is visible or not.
 <!--/shortDescription-->
 
 <!--fullDescription-->

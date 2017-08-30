@@ -60,7 +60,7 @@ Grid columns. Each column in this array is represented by an object with column 
 <!--typeFunctionParamName1_field8-->rowIndex<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The *visible* index of the prepared row. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that [group cells](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) are also counted as rows and, thus, have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
+The *visible* index of the prepared row. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that group cells are also counted as rows and, thus, have row indexes. For further information about row indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->rowType<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->string<!--/typeFunctionParamType1_field9-->

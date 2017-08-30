@@ -22,7 +22,6 @@ To make the search panel visible, set the **searchPanel**.[visible]({basewidgetp
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/Filtering/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
-- [Search Panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Search_Panel)
-- [Searching](/Documentation/Guide/Widgets/DataGrid/Filtering/#Searching)
+- [Search Panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel)
 - [searchByText(text)]({basewidgetpath}/Methods/#searchByTexttext)
 <!--/fullDescription-->

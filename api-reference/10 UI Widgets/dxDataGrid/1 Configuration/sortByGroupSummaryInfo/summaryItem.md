@@ -185,4 +185,6 @@ The **summaryItem** option accepts one of the following values.
 
     ---
 
+#####See Also#####
+-[Sort by Group Summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/#Sort_by_Group_Summary)
 <!--/fullDescription-->

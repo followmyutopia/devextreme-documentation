@@ -13,7 +13,7 @@ Gets all visible columns.
 
 <!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
-Visible columns; may include [command columns](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Command_Columns).
+Visible columns; may include [command columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/).
 <!--/returnDescription-->
 
 <!--fullDescription-->

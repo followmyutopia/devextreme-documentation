@@ -15,4 +15,7 @@ Specifies whether or not to display buttons that switch the grid to the previous
 
 <!--fullDescription-->
 Although the page navigator already contains clickable page numbers, you can also supply it with buttons that navigate a user to the previous or next page. To do this, set the **showNavigationButtons** option to **true**.
+
+#####See Also#####
+- [Paging - User Interaction](/Documentation/Guide/Widgets/DataGrid/Paging/#User_Interaction)
 <!--/fullDescription-->

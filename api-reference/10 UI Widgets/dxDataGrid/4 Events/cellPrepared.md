@@ -68,7 +68,7 @@ The value of the prepared cell in a string format. Use this field to get the val
 <!--typeFunctionParamName1_field9-->columnIndex<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->number<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The index of the column to which the prepared cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+The index of the column to which the prepared cell belongs. For more information on how this index is calculated, refer to the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->column<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->object<!--/typeFunctionParamType1_field10-->
@@ -78,7 +78,7 @@ The [settings of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/C
 <!--typeFunctionParamName1_field11-->rowIndex<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->number<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-The index of the row to which the prepared cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that [group cells](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) are also counted as rows and thus have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
+The index of the row to which the prepared cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that group cells are also counted as rows and thus have row indexes. For further information about row indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->rowType<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->string<!--/typeFunctionParamType1_field12-->
@@ -98,7 +98,7 @@ Indicates whether or not the current row is selected.
 <!--typeFunctionParamName1_field15-->isExpanded<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->boolean<!--/typeFunctionParamType1_field15-->
 <!--typeFunctionParamDescription1_field15-->
-Indicates whether or not the [group cell](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) is expanded. This field is useful if the **rowType** field is *'group'*.
+Indicates whether or not the group cell is expanded. This field is useful if the **rowType** field is *'group'*.
 <!--/typeFunctionParamDescription1_field15-->
 <!--typeFunctionParamName1_field16-->cellElement<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->jQuery<!--/typeFunctionParamType1_field16-->

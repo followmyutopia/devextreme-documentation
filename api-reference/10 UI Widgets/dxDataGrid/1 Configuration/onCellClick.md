@@ -15,7 +15,7 @@ A handler for the [cellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **cellClick** event fires when a user clicks a [grid cell](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Cells). When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the clicked cell.
+The **cellClick** event fires when a user clicks a grid cell. When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the clicked cell.
 
 Alternatively, you can navigate to a specific URL when the **cellClick** event fires. For this purpose, assign this URL to the **onCellClick** option.
 
@@ -76,7 +76,7 @@ The value of the clicked cell in a string format. Use this field to get the valu
 <!--typeFunctionParamName1_field10-->columnIndex<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->number<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-The current index of the column to which the clicked cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+The current index of the column to which the clicked cell belongs. For more information on how this index is calculated, refer to the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->column<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->object<!--/typeFunctionParamType1_field11-->
@@ -86,12 +86,12 @@ The [settings of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/C
 <!--typeFunctionParamName1_field12-->rowIndex<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->number<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-The *visible* index of the row to which the clicked cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that [group cells](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows) are also counted as rows and, thus, have row indexes. For further information about row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
+The *visible* index of the row to which the clicked cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that group cells are also counted as rows and, thus, have row indexes. For further information about row indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->rowType<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->string<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-The type of the row to which the clicked cell belongs. This field equals *'data'* for [ordinary rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) or *'group'* for [group rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Rows). Use this field to distinguish rows by type.
+The type of the row to which the clicked cell belongs. This field equals *'data'* for data rows or *'group'* for group rows. Use this field to distinguish rows by type.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->cellElement<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->jQuery<!--/typeFunctionParamType1_field14-->

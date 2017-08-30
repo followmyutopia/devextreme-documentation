@@ -15,7 +15,7 @@ Specifies the mode in which all the records are selected. Applies only if **sele
 <!--/shortDescription-->
 
 <!--fullDescription-->
-**selectAllMode** specifies how records should be selected on clicking the ["Select All" check box](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Selection_Column) and by calling the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectAll)/[deselectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll) methods. The following modes are available.
+**selectAllMode** specifies how records should be selected on clicking the ["Select All" check box](/Documentation/Guide/Widgets/DataGrid/Selection/#User_Interaction) and by calling the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectAll)/[deselectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll) methods. The following modes are available.
 
 - *'page'*  
  Selects records on currently rendered pages.       
@@ -29,4 +29,7 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 
 <a href=" https://js.devexpress.com/Demos/WidgetsGallery/#demo/data_grid-selection-multiple_record_selection_modes" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a> 
 
+
+#####See Also#####
+- [Selection - User Interaction](/Documentation/Guide/Widgets/DataGrid/Selection/#User_Interaction)
 <!--/fullDescription-->

@@ -19,5 +19,6 @@ Generally, exporting is performed using client-side API in browsers. However, th
 - Your proxy will receive a POST request with the following parameters in the request body: **fileName**, **contentType** (the MIME type of the file) and **base64** (the base-64 encoded file content).
 - The proxy should return the decoded file with the "Content-Disposition" header set to *attachment; filename="<fileName.xslx>"*.
 
-The sample proxy implementation for ASPx-based and PHP-based web servers is presented in the **DataGrid**.[Client-Side Export](/Documentation/Guide/Widgets/DataGrid/Client-Side_Export/#Set_up_Server-side_Proxy) article.
+The sample proxy implementation for ASPx-based and PHP-based web servers is presented in the [Client-Side Exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/) article.
+
 <!--/fullDescription-->

@@ -28,9 +28,9 @@ The display value of the cell. Differs from the **value** field only when the co
 - **text**: <font size="-1">String</font>        
 **displayValue** after applying [format]({basewidgetpath}/Configuration/columns/#format) and [customizeText]({basewidgetpath}/Configuration/columns/#customizeText).
 - **columnIndex**: <font size="-1">Number</font>        
-The index of the column to which the cell belongs. For more information on how this index is calculated, refer to the [Calculating the Column Index](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Columns/Calculating_the_Column_Index) topic.
+The index of the column to which the cell belongs. For more information on how this index is calculated, refer to the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 - **rowIndex**: <font size="-1">Number</font>        
-The index of the row to which the cell belongs. Begins with 0 on each page. Group rows are included. For details on row indexes, see the [Grid Rows](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Grid_Rows) topic.
+The index of the row to which the cell belongs. Begins with 0 on each page. Group rows are included. For details on row indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 - **column**: <font size="-1">Object</font>        
 The settings of the column to which the cell belongs.
 - **rowType**: <font size="-1">String</font>        
@@ -55,6 +55,7 @@ When you use a template engine, the **editCellTemplate** option should be given 
 [note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to **false**.
 
 #####See Also#####
+- [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors)
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 <!--/fullDescription-->

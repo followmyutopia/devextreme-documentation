@@ -18,15 +18,15 @@ Specifies how a user edits data.
 The following list points out the differences in editing modes.
 
 - **Row**       
-A user edits one row at a time. The widget saves changes when the row leaves the editing state. See [Row Mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Row_Mode).
+A user edits one row at a time. The widget saves changes when the row leaves the editing state. See [Row Mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Row_Mode).
 - **Batch**     
-A user edits data cell by cell. The widget does not save changes until a user clicks the global *"Save"* button. See [Batch Mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Batch_Mode).
+A user edits data cell by cell. The widget does not save changes until a user clicks the global *"Save"* button. See [Batch Mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Batch_Mode).
 - **Cell**      
-Differs from the batch mode in that the widget saves changes when the cell leaves the editing state. See [Cell Mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Cell_Mode).
+Differs from the batch mode in that the widget saves changes when the cell leaves the editing state. See [Cell Mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Cell_Mode).
 - **Form**      
-On entering the editing state, a row becomes a form with editable fields. The widget saves changes after a user clicks the *"Save"* button. See [Form Mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Form_Mode).
+On entering the editing state, a row becomes a form with editable fields. The widget saves changes after a user clicks the *"Save"* button. See [Form Mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Form_Mode).
 - **Popup**     
-Differs from the form mode in that the form with editable fields is placed in a popup window. See [Popup Mode](/Documentation/Guide/Widgets/DataGrid/Data_Editing/#Editing_in_UI/Popup_Mode).
+Differs from the form mode in that the form with editable fields is placed in a popup window. See [Popup Mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Popup_Mode).
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `GridEditMode` enum. This enum accepts the following values: `Row`, `Batch`, `Cell`, `Form` and `Popup`.
 

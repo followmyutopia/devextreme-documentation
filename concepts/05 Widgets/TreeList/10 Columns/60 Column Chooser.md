@@ -64,7 +64,8 @@ Call the [showColumnChooser()](/Documentation/ApiReference/UI_Widgets/dxTreeList
 ---
 ##### jQuery
 
-    <!--JavaScript-->$("#treeListContainer").dxTreeList("instance");
+    <!--JavaScript-->
+    var treeList = $("#treeListContainer").dxTreeList("instance");
     treeList.showColumnChooser();
     treeList.hideColumnChooser();
 
