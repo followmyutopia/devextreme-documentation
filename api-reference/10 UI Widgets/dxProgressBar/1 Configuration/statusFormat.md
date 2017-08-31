@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->function(ratio, value) { return 'Progress: ' + Math.round(ratio * 100) + '%' }<!--/default-->
-<!--type-->String | function<!--/type-->
+<!--type-->String | function(ratio, value)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

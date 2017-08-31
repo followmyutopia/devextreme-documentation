@@ -6,7 +6,7 @@
 **-->
 <!--EventForAction-->..\4 Events\loadingChanged.md<!--/EventForAction-->
 ===========================================================================
-<!--type-->function<!--/type-->
+<!--type-->function(isLoading)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -6,7 +6,7 @@
 **-->
 <!--EventForAction-->..\4 Events\validated.md<!--/EventForAction-->
 ===========================================================================
-<!--type-->function(validatedInfo)<!--/type-->
+<!--type-->function(selectedRowsInfo)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

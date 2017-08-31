@@ -7,7 +7,7 @@
 <!--EventForAction-->..\4 Events\progress.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->function<!--/type-->
+<!--type-->function(e)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

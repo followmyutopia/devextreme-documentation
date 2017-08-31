@@ -36,6 +36,16 @@
 <!--typeFunctionParamDescription1_field3-->
 
 <!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamName1_field4-->percent<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->Number<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamDescription1_field4-->
+
+<!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamName1_field5-->percentText<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamDescription1_field5-->
+
+<!--/typeFunctionParamDescription1_field5-->
 
 <!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->

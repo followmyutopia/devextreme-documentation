@@ -8,7 +8,7 @@
 <!--EventForAction-->..\4 Events\itemSelected.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->function<!--/type-->
+<!--type-->function(e)<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

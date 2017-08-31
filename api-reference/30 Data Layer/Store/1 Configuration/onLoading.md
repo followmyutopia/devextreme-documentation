@@ -6,7 +6,7 @@
 **-->
 <!--EventForAction-->..\4 Events\loading.md<!--/EventForAction-->
 ===========================================================================
-<!--type-->function<!--/type-->
+<!--type-->function(loadOptions)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

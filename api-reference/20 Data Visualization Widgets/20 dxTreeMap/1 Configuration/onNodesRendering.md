@@ -7,7 +7,7 @@
 <!--EventForAction-->..\4 Events\nodesRendering.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->function<!--/type-->
+<!--type-->function(e)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

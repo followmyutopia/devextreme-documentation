@@ -7,7 +7,7 @@
 <!--merge--><!--/merge-->
 <!--hidden-->false<!--/hidden-->
 <!--default-->null<!--/default-->
-<!--type-->function<!--/type-->
+<!--type-->function(e)<!--/type-->
 <!--keep--><!--/keep-->
 ===========================================================================
 

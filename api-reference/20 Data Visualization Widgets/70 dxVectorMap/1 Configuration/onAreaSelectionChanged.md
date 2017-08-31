@@ -8,7 +8,7 @@
 <!--EventForAction-->..\4 Events\areaSelectionChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->function<!--/type-->
+<!--type-->function(e)<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

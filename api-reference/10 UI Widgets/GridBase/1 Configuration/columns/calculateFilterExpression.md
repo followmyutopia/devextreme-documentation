@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->function(filterValue, selectedFilterOperation, target)<!--/type-->
+<!--type-->function(filtervalue, selectedFilterOperation, target)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

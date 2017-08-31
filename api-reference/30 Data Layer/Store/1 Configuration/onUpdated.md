@@ -6,7 +6,7 @@
 **-->
 <!--EventForAction-->..\4 Events\updated.md<!--/EventForAction-->
 ===========================================================================
-<!--type-->function<!--/type-->
+<!--type-->function(key, values)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -6,7 +6,7 @@
 **-->
 <!--EventForAction-->..\4 Events\inserting.md<!--/EventForAction-->
 ===========================================================================
-<!--type-->function<!--/type-->
+<!--type-->function(values)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

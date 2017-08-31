@@ -8,7 +8,7 @@
 <!--EventForAction-->..\4 Events\markerClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->function | String<!--/type-->
+<!--type-->function(e) | String<!--/type-->
 ===========================================================================
 
 <!--deprecated-->
