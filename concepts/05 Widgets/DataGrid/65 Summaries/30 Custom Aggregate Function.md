@@ -163,6 +163,6 @@ The **value** field of the function's parameter provides access to data, and thi
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CustomSummaries/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
-- [Format Text and Value](/Documentation/Guide/Widgets/DataGrid/Summary/Format_Text_and_Value/)
+- [Format Text and Value](/Documentation/Guide/Widgets/DataGrid/Summaries/Format_Text_and_Value/)
 
 [tags]dataGrid, data grid, custom summary, calculateCustomSummary

@@ -56,7 +56,7 @@ Defines grouping levels to be applied to the data. Each object can have the foll
     * **isExpanded**: <span style="font-size:smaller">Boolean</span>     
     Defines whether the group's data objects should be returned instead of grouping data. Relevant only for the last group.
     * **groupInterval**: <span style="font-size:smaller">Number or String</span>     
-    A numeric value groups data in ranges of the given length. A string value applies only to dates and can be one of *"year"*, *"quarter"*, *"month"*, *"day"*, *"dayOfWeek"*, *"hour"*, *"minute"* and *"second"*. This parameter is present only when the widget sends a request for the [header filter](/Documentation/Guide/Widgets/DataGrid/Filtering/#Column_Header_Filter)'s data, and only if this data contains numbers or dates. Note that for numbers, the [groupInterval](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval) option should be specified explicitly.
+    A numeric value groups data in ranges of the given length. A string value applies only to dates and can be one of *"year"*, *"quarter"*, *"month"*, *"day"*, *"dayOfWeek"*, *"hour"*, *"minute"* and *"second"*. This parameter is present only when the widget sends a request for the [header filter](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Header_Filter)'s data, and only if this data contains numbers or dates. Note that for numbers, the [groupInterval](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval) option should be specified explicitly.
 
 * **groupSummary**: <span style="font-size:smaller">Array</span>     
 The structure is the same as for **totalSummary**, but these summary values are returned for each group. Used in conjunction with **group**.
@@ -169,4 +169,4 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
 
 ---
 
-Consider using the remote group paging feature when grouping large data lowers **DataGrid** performance. Note that for this feature, both the server and the client sides should be configured differently. Refer to the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Features_for_Remote_Data/Remote_Group_Paging/) topic for more information.
+Consider using the remote group paging feature when grouping large data lowers **DataGrid** performance. Note that for this feature, both the server and the client sides should be configured differently. Refer to the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Remote_Group_Paging) topic for more information.

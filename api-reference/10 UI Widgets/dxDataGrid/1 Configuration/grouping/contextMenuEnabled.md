@@ -20,7 +20,7 @@ Set this option to **true** to enable grouping using the context menu. In this c
 
 #####See Also#####
 - [Grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/)
-- **groupPanel**.[visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) - enables the user to group data using the [group panel](/Documentation/Guide/Widgets/DataGrid/Visual_Elements/#Group_Panel).
+- **groupPanel**.[visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#visible) - enables the user to group data using the [group panel](/Documentation/Guide/Widgets/DataGrid/Grouping/#User_Interaction).
 - **columns[]**.[allowGrouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping) - disallows grouping for an individual column.
 - **grouping**.[texts](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/texts/) - customizes the context menu items.
 
