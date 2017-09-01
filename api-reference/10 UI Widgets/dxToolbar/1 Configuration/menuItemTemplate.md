@@ -11,19 +11,22 @@
 
 <!--shortDescription-->
 The template used to render menu items.
+Specifies a custom template for a menu item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-As in all container widgets in DevExtreme, toolbar menu items are displayed by a default HTML template. This template is based on certain fields of the data source (these fields are listed in the description of the widgets that are used to present a toolbar menu). You can define a custom item template that will use specific fields of the data source. 
+If you use the Angular, AngularJS or Knockout library, you can implement this template with the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. This template's binding context depends on the library you use.
 
-A binding context of a menu item template is the data source object that corresponds to the currently rendered item.
+In Angular apps, an item's object and index extend the standard binding context (a component instance). Access the former using the input variable that is declared after the `let` and before `of` keywords, and the latter by the variable that is set to the `index` property.
 
-So, in **Knockout approach**, you can bind template elements to the item object fields directly. To access another binding context within a template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+In AngularJS apps, an item's object and index extend the standard binding context (the scope). Access the former using an alias that you specify in the `dx-item-alias` directive, and the latter the `$index` variable. Use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables if you need to access another binding context from the template.
 
-In **AngularJS approach**, if you need to access item object fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add the directive to the widget element to specify an alias to the root object of an item. Without this directive, item object fields are beyond reach. To access another binding context within a menu item template, use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
+In Knockout apps, you can bind template elements directly to an item object's fields. Use the `$index` variable to get the item's index. Use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables if you need to access another binding context from the template. 
+
 
 #####See Also#####
 - [Toolbar - Customize Item Appearance](/Documentation/Guide/Widgets/Toolbar/Customize_Item_Appearance/)
+- [Angular - Custom Templates](https://github.com/DevExpress/devextreme-angular#custom-templates)
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
@@ -48,5 +51,5 @@ An HTML element of the menu item to be rendered.
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A template name or a template container.
+A template name or container.
 <!--/typeFunctionReturnDescription-->

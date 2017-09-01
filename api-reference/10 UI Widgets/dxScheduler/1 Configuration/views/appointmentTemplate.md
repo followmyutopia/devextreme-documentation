@@ -10,23 +10,23 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering appointments.
+Specifies a custom template for an appointment.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A binding context of an appointment template is the data source object that corresponds to the currently rendered appointment.
+If you use the Angular, AngularJS or Knockout library, you can implement this template with the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. This template's binding context depends on the library you use.
 
 ---
 
 #####Angular#####
 
-Use a variable that is declared in the template via the `let` keyword to access appointment object fields in **Angular** apps. 
+In Angular apps, an item's object and index extend the standard binding context (a component instance). Access the former using the input variable that is declared after the `let` and before `of` keywords, and the latter by the variable that is set to the `index` property.
 
     <!--HTML-->
     <dx-scheduler ...
         [views]="views">
-        <div *dxTemplate="let appointment of 'appointmentTemplate'">
-            <div class="appointment-header">{{appointment.text}}</div>
+        <div *dxTemplate="let appointment of 'appointmentTemplate'; let i = index">
+            <div class="appointment-header">[{{i}}] {{appointment.text}}</div>
             <div class="appointment-time">{{appointment.startDate}} - {{appointment.endDate}}</div>
         </div>
     </dx-scheduler>
@@ -43,7 +43,7 @@ Use a variable that is declared in the template via the `let` keyword to access 
 
 #####AngularJS#####
 
-In **AngularJS** apps, if you need to access appointment object fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+In AngularJS apps, an item's object and index extend the standard binding context (the scope). Access the former using an alias that you specify in the `dx-item-alias` directive, and the latter the `$index` variable. Use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables if you need to access another binding context from the template.
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -71,6 +71,7 @@ In **AngularJS** apps, if you need to access appointment object fields within a 
 ---
 
 #####See Also#####
+- [Angular - Custom Templates](https://github.com/DevExpress/devextreme-angular#custom-templates)
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 
@@ -95,5 +96,5 @@ An HTML element of the appointment to be rendered.
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A template name or a template container.
+A template name or container.
 <!--/typeFunctionReturnDescription-->

@@ -12,64 +12,212 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-A markup component used to define markup options for a template.
+A custom template's markup.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The dxTemplate markup component is used to introduce a template markup for collection container widget items ([List](/Documentation/ApiReference/UI_Widgets/dxList/), [Gallery](/Documentation/ApiReference/UI_Widgets/dxGallery/), [TileView](/Documentation/ApiReference/UI_Widgets/dxTileView/), etc.) or container widgets ([Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/), etc.) in Knockout and AngularJS applications. The template element should be contained in an element representing the required widget.
+The **dxTemplate** markup component specifies a custom template for a container widget or a collection widget's items in Angular, AngularJS and Knockout apps. Place this template within the widget's element, specify the template [name](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/Configuration/#name) and assign it to the corresponding **xxxTemplate** option (for example, **itemTemplate**, **containerTempate**). You can omit specifying the **xxxTemplate** option if you use the default template name, for instance, *item* for the **itemTemplate**, *content* for the **contentTemplate**. 
+
+Commonly, the **dxTemplate** is in the component's (Angular), scope's (AngularJS) or view model's (Knockout) binding context, but it can differ depending on the widget element you specify the template for. See the corresponding **xxxTemplate** option description for more information on a specific template's binding context. Use [Knockout](http://knockoutjs.com/documentation/binding-context.html) or [AngularJS](https://docs.angularjs.org/guide/scope) binding variables if you need to access another binding context from the template.
 
 ---
+
+#####Angular
+
+    <!--HTML-->
+    <dx-popup
+        [width]="300"
+        [height]="250"
+        contentTemplate="info"
+        [visible]="true">
+        <div *dxTemplate="let data of 'info'">
+            <p>
+                Full Name:
+                <span>{{employee.FirstName}}</span>
+                <span>{{employee.LastName}}</span>
+            </p>
+            <p>Birth Date: <span>{{employee.BirthDate}}</span></p>
+            <p>Address: <span>{{employee.Address}}</span></p>
+        </div>
+    </dx-popup>
+
+    <!--TypeScript-->
+    import { DxPopupModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee: { };
+        constructor() {
+            this.employee = {
+                FirstName: "Sandra",
+                LastName: "Johnson",
+                BirthDate: "1974/11/15",
+                Address: "4600 N Virginia Rd."
+            };
+        }
+    }
+
 #####AngularJS
 
     <!--HTML-->
-    <div dx-tile-view="{ dataSource: tileViewData, itemTemplate: 'tileTemplate' }" dx-item-alias="item">
-        <div data-options="dxTemplate: { name: 'tileTemplate' }">
-            <h1>{{item.name}}</h1>
-            <p>Area: <i>{{item.area}}</i> km2</p>
-            <p>Population: <i>{{item.population}}</i></p>
-            <p>Capital: <i>{{item.capital}}</i></p>
-        </div>
+    <div ng-controller="DemoController">
+        <div class="popup" 
+            dx-popup="{
+                width: 300,
+                height: 250,
+                contentTemplate: 'info',   
+                visible: true
+            }">
+            <div data-options="dxTemplate: { name:'info' }">
+                <p>
+                    Full Name:
+                    <span>{{employee.FirstName}}</span> 
+                    <span>{{employee.LastName}}</span>
+                </p>            
+                <p>Birth Date: <span>{{employee.BirthDate}}</span></p>
+                <p>Address: <span>{{employee.Address}}</span></p>
+            </div>
+        </div>    
     </div>
+
+    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.employee = {
+                FirstName: "Sandra",
+                LastName: "Johnson",
+                BirthDate: "1974/11/15",
+                Address: "4600 N Virginia Rd."
+            };
+        });
 
 #####Knockout
 
     <!--HTML-->
-    <div data-bind="dxTileView: { dataSource: tileViewData, itemTemplate: 'tileTemplate' }">
-        <div data-options="dxTemplate: { name: 'tileTemplate' }">
-            <h1 data-bind="text: name"></h1>
-            <p>Area: <i data-bind="text: area"></i> km2</p>
-            <p>Population: <i data-bind="text: population"></i></p>
-            <p>Capital: <i data-bind="text: capital"></i></p>
-        </div>
+    <div data-bind="dxPopup: {
+        width: 300,
+        height: 250,
+        contentTemplate: 'info',   
+        visible: true
+    }">
+        <div data-options="dxTemplate: { name:'info' }">
+            <p>
+                Full Name:
+                <span data-bind="text: employee.FirstName"></span> 
+                <span data-bind="text: employee.LastName"></span>
+            </p>            
+            <p>Birth Date: <span data-bind="text: employee.BirthDate"></span></p>
+            <p>Address: <span data-bind="text: employee.Address"></span></p>
+        </div>   
     </div>
+
+    <!--JavaScript-->var viewModel= {
+        employee: {
+            FirstName: "Sandra",
+            LastName: "Johnson",
+            BirthDate: "1974/11/15",
+            Address: "4600 N Virginia Rd."
+        }
+    };
+
+    ko.applyBindings(viewModel);
 
 ---
 
-[note]Pay attention to the binding context of the template that you define. In most cases, the binding context of an item template is the data source object that corresponds to the currently rendered item, and a view model - in other widget element templates. Since there can be exceptions in this rule, read notes in the descriptions of the corresponding **XXXTemplate** options and bind template elements to the accessible fields directly (see the code above). At the same time, you can access another binding context within a template, using [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
+When you specify an item template in Knockout apps, you can bind this template's elements directly to an item object's fields. In Angular and AngularJS apps, an item object extends the standard binding context. In AngularJS apps, you can access it only using an alias that you specify in the `dx-item-alias` directive. In Angular apps, use the input variable that is declared via the `let` keyword. In all Angular, AngularJs and Knockout apps, you can also bind a template element to the rendered item's index using the `index` keyword. 
 
-[note]In **AngularJS approach**, in collection widgets, if you need to access item object's fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add the directive to the widget element to specify an alias to the root object of an item (see the code above). Without this directive, item object fields are beyond reach.
+---
 
-The dxTemplate component has a single option - "name". This is the template's identifier. Assign this name to the **itemTemplate** option of the widget in which the template is introduced. In this instance, this template will be applied to the widget items. However, the **itemTemplate** option has a specified default value, and you can use it as a name for the template. In this instance, you do not have to assign the template name to the widget's **itemTemplate** configuration option.
+#####Angular
 
-    <!--HTML--><div data-bind="dxRadioGroup:{dataSource: employees}">
-        <div data-options="dxTemplate: {name: 'item'}">
-            <span data-bind="text: name"></span> (hired at <span data-bind="text: hired"></span>)
+    <!--HTML-->
+    <dx-list [dataSource]="fruits">
+        <div *dxTemplate="let fruit of 'item'; let i = index">
+            <span>[{{i}}] </span>
+            <b>{{fruit.name}}</b><br />
+            <p>{{fruit.count}}</p>
+        </div>
+    </dx-list>
+
+    <!--TypeScript-->
+    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        fruits: any[];
+        constructor() {
+            this.fruits = [
+                { name: "Apples", count: 10 },
+                { name: "Oranges", count: 12 },
+                { name: "Lemons", count: 15 },
+                { name: "Pears", count: 20 },
+                { name: "Pineapples", count: 3 }
+            ];
+        }
+    }
+
+
+#####AngularJS
+
+    <!--HTML-->
+    <div ng-controller="DemoController">
+        <div dx-list="{
+            dataSource: fruits
+        }" dx-item-alias="fruit">
+            <div data-options="dxTemplate: { name: 'item' }">
+                <span>[{{$index}}] </span>
+                <b>{{fruit.name}}</b><br />
+                <p>{{fruit.count}}</p>
+            </div>
         </div>
     </div>
 
-A widget element can contain several template elements. In this instance, use the **itemTemplate** configuration option of the collection container widget to specify which template to use for rendering.
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function ($scope) {
+            $scope.fruits = [
+                { name: "Apples", count: 10 },
+                { name: "Oranges", count: 12 },
+                { name: "Lemons", count: 15 },
+                { name: "Pears", count: 20 },
+                { name: "Pineapples", count: 3 }
+            ];
+        });
 
-You can define special templates for specific devices. In addition, you can define multiple templates with the same name, which are targeted for different devices. To set a target device for a template, use the fields of the [device](/Documentation/ApiReference/Common/Object_Structures/device/) object as markup options of **dxTemplate**.
+#####Knockout
+
+    <!--HTML-->
+    <div data-bind="dxList: { dataSource: fruits }">
+        <div data-options="dxTemplate: { name: 'item' }">
+            [<span data-bind="text: $index"></span>]
+            <b data-bind="text: name"></b><br />
+            <p data-bind="text: count"></p>
+        </div>
+    </div>
+
+
+    <!--JavaScript-->
+    var viewModel = {
+        fruits: [
+            { name: "Apples", count: 10 },
+            { name: "Oranges", count: 12 },
+            { name: "Lemons", count: 15 },
+            { name: "Pears", count: 20 },
+            { name: "Pineapples", count: 3 }
+        ]
+    };
+
+    ko.applyBindings(viewModel);
+
+---
+
+In AngularJs and Knockout apps, you can define different templates intended for different devices. Specify the [device object's](/Documentation/ApiReference/Common/Object_Structures/device/) fields as the **dxTemplate**'s markup options to set a target device for a template. 
 
     <!--JavaScript-->
     <div data-options="dxTemplate: { name: 'item', platform: 'ios', phone: true }">
         This is a template for an iPhone.
     </div>
-
     <div data-options="dxTemplate: { name: 'item', tablet: true }">
         This is a template for any tablet.
     </div>
 
-As you can see, you can specify the target platform as well as the device type.
-
+#####See Also#####
+- [Angular - Custom Templates](https://github.com/DevExpress/devextreme-angular#custom-templates)
 <!--/fullDescription-->
