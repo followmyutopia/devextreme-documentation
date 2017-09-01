@@ -73,7 +73,7 @@ Allows you to customize the appearance of the chart.
 Allows you to customize the chart series.
 <!--/paramDescription2_field7-->
 
-<!--returnType-->function|null<!--/returnType-->
+<!--returnType-->function()|null<!--/returnType-->
 <!--returnDescription-->
 Unbinds the chart. If **null**, then binding failed.
 <!--/returnDescription-->

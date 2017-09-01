@@ -19,7 +19,7 @@ Compiles a setter function from the setter expression.
 A getter expression.
 <!--/paramDescription1-->
 
-<!--returnType-->function<!--/returnType-->
+<!--returnType-->function()<!--/returnType-->
 <!--returnDescription-->
 The resulting setter function.
 <!--/returnDescription-->

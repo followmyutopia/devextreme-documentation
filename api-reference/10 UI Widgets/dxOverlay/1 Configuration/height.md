@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->function() { return $(window).height() * 0.8 }<!--/default-->
-<!--type-->Number | String | function<!--/type-->
+<!--type-->Number | String | function()<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

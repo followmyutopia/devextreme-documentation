@@ -6,5 +6,5 @@
 **-->
 <!--merge--><!--/merge-->
 <!--default-->'auto'<!--/default-->
-<!--type-->Number|String|function<!--/type-->
+<!--type-->Number|String|function()<!--/type-->
 ===========================================================================

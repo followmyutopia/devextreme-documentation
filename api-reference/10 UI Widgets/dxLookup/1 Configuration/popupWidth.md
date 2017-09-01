@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->function() {return $(window).width() * 0.8 }<!--/default-->
 <!--custom_default_for_iPad-->function() { return Math.min($(window).width(), $(window).height()) * 0.4; }<!--/custom_default_for_iPad-->
-<!--type-->Number | String | function<!--/type-->
+<!--type-->Number | String | function()<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -7,7 +7,7 @@
 <!--EventForAction-->..\4 Events\titleClick.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->function | String<!--/type-->
+<!--type-->function() | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

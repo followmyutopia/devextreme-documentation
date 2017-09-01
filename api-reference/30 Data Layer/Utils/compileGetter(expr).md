@@ -19,7 +19,7 @@ Compiles a getter function from the getter expression.
 A getter expression.
 <!--/paramDescription1-->
 
-<!--returnType-->function<!--/returnType-->
+<!--returnType-->function()<!--/returnType-->
 <!--returnDescription-->
 The resulting getter function.
 <!--/returnDescription-->
