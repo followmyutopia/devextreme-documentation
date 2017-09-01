@@ -1,6 +1,6 @@
 In this mode a user edits data row by row. When a user clicks an *"Edit"* button, the corresponding row enters the editing state, and the *"Save"* and *"Cancel"* buttons appear in the [command column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/). The widget saves changes only if the *"Save"* button is clicked. If a user starts editing another row, sorts or filters data, it discards the changes.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Editing Row Mode Editing State](/Content/images/doc/17_1/DataGrid/editing/row_mode_editing_state.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Editing Row Mode Editing State](/Content/images/doc/17_2/DataGrid/editing/row_mode_editing_state.png)
 
 Clicking a *"Delete"* button invokes the confirmation dialog that allows a user to cancel row deletion. Use the code below to hide this dialog.
 

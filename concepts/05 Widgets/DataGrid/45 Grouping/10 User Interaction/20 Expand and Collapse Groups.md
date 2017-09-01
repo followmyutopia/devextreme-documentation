@@ -1,6 +1,6 @@
 A user expands or collapses a group row by clicking its expand/collapse button. 
 
-![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Grouping Expanded and Collapsed Rows](/Content/images/doc/17_1/DataGrid/GroupsExpandedCollapsed.png)
+![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Grouping Expanded and Collapsed Rows](/Content/images/doc/17_2/DataGrid/GroupsExpandedCollapsed.png)
 
 Set the **grouping**.[expandMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#expandMode) option to *"rowClick"* to allow a user to expand or collapse a group row by clicking it as it could be difficult to press this button on small-screen devices.
 

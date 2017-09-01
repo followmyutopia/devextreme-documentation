@@ -141,4 +141,4 @@ The **groupCount** should be returned only if the **requireGroupCount** paramete
 ---
 
 #####See Also#####
-- [DataGrid and Web API Example](https://github.com/DevExpress/devextreme-examples/tree/17_1/datagrid-webapi)
+- [DataGrid and Web API Example](https://github.com/DevExpress/devextreme-examples/tree/17_2/datagrid-webapi)
