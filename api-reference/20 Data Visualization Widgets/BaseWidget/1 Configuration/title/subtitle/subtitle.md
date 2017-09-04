@@ -9,9 +9,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the widget subtitle.
+Configures the widget's subtitle.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use this property to set the text to be displayed below the widget title. If you need to specify the subtitle's font, assign an object to the **subtitle** property with the **font** field specified. In this instance, set the subtitle text to the **text** property.
+If you need to specify the subtitle's text only, assign it directly to this option. Otherwise, set this option to an object with the **text** and other fields specified.
 <!--/fullDescription-->

@@ -10,11 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the size of the widget in pixels.
+Specifies the widget's size in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, the widget occupies the entire area of the container. If you need to set a particular size for the widget, different from the container's size, assign a height and width in pixels to **height** and **width** properties of the **size** object.
-
-Using the **size** object, you can hide the widget. For this purpose, simply assign 0 to both the height and width of the widget.
+The widget occupies its container's entire area by default. Use the **size** object to specify the widget's size if it should be different from that of its container. Assign 0 to **size** object's **height** and **width** options to hide the widget.
 <!--/fullDescription-->

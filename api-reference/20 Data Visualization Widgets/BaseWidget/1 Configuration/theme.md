@@ -11,11 +11,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Sets the name of the theme to be used in the widget.
+Sets the name of the theme the widget uses.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use this property to set a [predefined](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes) or [custom](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes/Customize_a_Theme) theme. The options defining chart appearance will be set to the values that are set in the specified theme. You can override some of these values within the chart's configuration object.
+A theme is a widget configuration that gives the widget a distinctive appearance. Use can use one of the [predefined themes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes) or create a [custom one](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes/Customize_a_Theme). Changing the option values in the widget's configuration object overrides the theme's corresponding values.
 
 [note]The following themes were deprecated or renamed: _'desktop'_, _'desktop-dark'_, _'android'_, _'android-holo-light'_, _'ios'_, _'win8'_, _'win8-white'_, _'win8.white'_, _'win8.black'_. In new applications, use themes listed in the accepted values.
 

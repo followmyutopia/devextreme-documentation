@@ -9,11 +9,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the widget title.
+Configures the widget's title.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use this property to set the text to be displayed as the widget title. If you need to specify the title's position in the widget, assign an object to the **title** property with the required fields specified. In this instance, set the title's text using the [text]({basewidgetpath}/Configuration/title#text) property.
+The widget's title is a short text that usually indicates what is visualized. If you need to specify the title's text only, assign it directly to the **title** option. Otherwise, set this option to an object with the **text** and other fields specified.
 
-The widget can display additional text in the subtitle. It is placed under the title. Use properties of the [subtitle]({basewidgetpath}/Configuration/title/subtitle) object to assign a text to the subtitle and change its font.
+The title can be accompanied by a subtitle elaborating on the visualized subject using the **title**.[subtitle]({basewidgetpath}/Configuration/title/subtitle/) object.
 <!--/fullDescription-->
