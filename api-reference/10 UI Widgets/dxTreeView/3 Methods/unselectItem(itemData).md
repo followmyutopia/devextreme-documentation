@@ -8,16 +8,15 @@
 ===================================================================
 
 <!--shortDescription-->
-Expands the specified item.
+
 <!--/shortDescription-->
 
-<!--paramName1-->itemElement<!--/paramName1-->
-<!--paramType1-->Node<!--/paramType1-->
+<!--paramName1-->itemData<!--/paramName1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The HTML element of the item, or the item object, or the item key to expand.
+
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-#####See Also#####
-- [Expand and Collapse Nodes](/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes/#Using_the_API)
+
 <!--/fullDescription-->
