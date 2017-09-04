@@ -2,7 +2,7 @@ The following code shows the [onValueChanged](/Documentation/ApiReference/UI_Wid
 
     <!--JavaScript-->
     $(function(){
-        var simpleProducts = [
+        var products = [
             "HD Video Player",
             "SuperHD Video Player",
             "SuperPlasma 50",
@@ -11,8 +11,8 @@ The following code shows the [onValueChanged](/Documentation/ApiReference/UI_Wid
         ],
         maxItems = 2;
 
-        $("#productsSimple").dxTagBox({
-            dataSource: simpleProducts,
+        $("#tagBoxContainer").dxTagBox({
+            dataSource: products,
             onValueChanged: function(e) {
                 if (e.value.length > maxItems) {
                     var newValue = e.value.slice(0, maxItems); 
@@ -23,7 +23,7 @@ The following code shows the [onValueChanged](/Documentation/ApiReference/UI_Wid
         });
 
         var tooltip = $("#tooltipContainer").dxTooltip({
-            target: "#productsSimple",
+            target: "#tagBoxContainer",
             position:"bottom", 
             hideEvent: {
                 name: "mouseout",
@@ -33,6 +33,6 @@ The following code shows the [onValueChanged](/Documentation/ApiReference/UI_Wid
     });
 
     <!--HTML-->
-    <div id="productsSimple"></div>
+    <div id="tagBoxContainer"></div>
     <div id="tooltipContainer">Limit reached</div>
 
