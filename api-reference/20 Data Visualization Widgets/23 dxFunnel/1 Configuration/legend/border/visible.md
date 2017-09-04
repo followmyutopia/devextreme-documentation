@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Shows the legend's border.
 <!--/shortDescription-->
 
 <!--fullDescription-->

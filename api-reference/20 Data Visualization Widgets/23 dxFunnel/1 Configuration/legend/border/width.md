@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the width of the legend's border in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

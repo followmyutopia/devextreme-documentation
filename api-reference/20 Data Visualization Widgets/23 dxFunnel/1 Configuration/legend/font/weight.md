@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the legend items' font weight.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the legend's visibility.
 <!--/shortDescription-->
 
 <!--fullDescription-->
