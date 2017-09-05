@@ -8,13 +8,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Cancels the selection of the specified item.
+Clears the selection of an item found using an HTML element.
 <!--/shortDescription-->
 
 <!--paramName1-->itemElement<!--/paramName1-->
 <!--paramType1-->Node<!--/paramType1-->
 <!--paramDescription1-->
-The DOM node, the data object, or the key of the item whose selection should be cancelled.
+The item's HTML element. 
 <!--/paramDescription1-->
 
 <!--fullDescription-->
