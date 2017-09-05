@@ -1,4 +1,4 @@
-Use the [selectedRowKeys](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#selectedRowKeys) option to select rows initially. Note that to access a row by its key, you should specify the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) option in the [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) that underlies the [dataSource](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource).
+Use the [selectedRowKeys](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#selectedRowKeys) option to select rows initially. Note that to access a row by its key, you should specify the **DataGrid**'s [keyExpr](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#keyExpr) or the Store's [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) option.
 
 ---
 ##### jQuery

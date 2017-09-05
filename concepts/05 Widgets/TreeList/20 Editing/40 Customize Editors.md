@@ -1,4 +1,4 @@
-The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType) defines a cell's editor, which can be configured using the [editorOptions](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editorOptions) object. You cannot change the editor's type or **onValueChanged** event handler using this object. Implement the [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onEditorPreparing) function if you do need to change them.
+The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType) defines a cell's editor that can be configured using the [editorOptions](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editorOptions) object. However, this object cannot be used to change the editor's type or **onValueChanged** event handler. Instead, use the [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onEditorPreparing) function as shown in the following code. The function's parameter provides the **editorName** and **editorOptions** fields for changing the used editor and its configuration.
 
 ---
 ##### jQuery
@@ -18,11 +18,11 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Confi
                 if (e.dataField == "Name") {
                     // Changes the editor's type
                     e.editorName = "dxTextArea";
-                    e.editorOptions.onValueChanged = function (e) {
+                    e.editorOptions.onValueChanged = function (args) {
                         // Implement your logic here
 
                         // Updates the cell value
-                        e.setValue(value);
+                        e.setValue(args.value);
                     }
                 }
             }
@@ -46,11 +46,11 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Confi
             if (e.dataField == "Name") {
                 // Changes the editor's type
                 e.editorName = "dxTextArea";
-                e.editorOptions.onValueChanged = function (e) {
+                e.editorOptions.onValueChanged = function (args) {
                     // Implement your logic here
 
                     // Updates the cell value
-                    e.setValue(value);
+                    e.setValue(args.value);
                 }
             }
         }

@@ -1,4 +1,4 @@
-To bind the **TreeList** to data in the JSON format, assign a URL leading to data to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource) option.  
+To bind the **TreeList** to data in the JSON format, assign the data's URL to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource) option.  
 
 ---
 ##### jQuery
@@ -13,7 +13,7 @@ To bind the **TreeList** to data in the JSON format, assign a URL leading to dat
 
     <!--HTML-->
     <dx-tree-list
-        dataSource="http://www.example.com/dataservices/data.json">
+        dataSource="https://jsonplaceholder.typicode.com/posts">
     </dx-tree-list>
 
 ---
@@ -38,7 +38,7 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
 
 ---
 
-If you need to process data after obtaining it, implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). For details, see the [Custom Sources](/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/) topic.
+Implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) if you need to process data after obtaining it. See the [Custom Sources](/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/) topic for more details.
 
 #####See Also#####
 - [TreeList - Access the DataSource](/Documentation/Guide/Widgets/TreeList/Data_Binding/Access_the_DataSource/)

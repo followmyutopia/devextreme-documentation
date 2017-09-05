@@ -1,4 +1,4 @@
-If you do not explicitly specify certain columns' [width](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#width), the **TreeList** tries to distribute the available space equally among columns at startup. As a result, cell values may appear truncated. To guarantee a minimum width for a column, use the [minWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#minWidth) option. Note that all mentioned settings may cause horizontal scrolling if columns cannot fit into the widget's width.
+If you do not explicitly specify certain columns' [width](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#width), the **TreeList** distributes the available space equally among columns at startup. As a result, cell values may appear truncated. Use the [columnMinWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnMinWidth) option to specify a minimum width for all columns and the [minWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#minWidth) for an individual column. Note that all these settings may cause horizontal scrolling if columns cannot fit into the widget's width.
 
 ---
 ##### jQuery
@@ -51,7 +51,7 @@ Set the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Conf
     
 ---
 
-The widget allows a user to resize columns in two different modes: by changing the width of the next column or the width of the widget. To enable this functionality and set the mode, specify the [allowColumnResizing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#allowColumnResizing) and [columnResizingMode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnResizingMode) options, respectively. Note that you can prevent a specific column from being resized by assigning **false** to its [allowResizing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowResizing) option.
+The widget allows a user to resize columns in two different modes: by changing the next column's width or the widget's width. To enable this functionality and set the mode, specify the [allowColumnResizing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#allowColumnResizing) and [columnResizingMode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnResizingMode) options, respectively. Note that you can prevent a specific column from being resized by assigning **false** to its [allowResizing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowResizing) option.
 
 ---
 ##### jQuery

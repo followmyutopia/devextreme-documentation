@@ -1,7 +1,1 @@
-Working with large datasets may lower the **DataGrid**'s performance. Consider using remote data sources to enhance it:
-
-- [JSON](/Documentation/Guide/Widgets/DataGrid/Data_Binding/JSON_Data/)
-- [OData](/Documentation/Guide/Widgets/DataGrid/Data_Binding/OData_Service/)
-
-Use a [custom source](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/) if you need to get full control over all data processing operations such as [filtering](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/), [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/), [paging](/Documentation/Guide/Widgets/DataGrid/Paging/), [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) and [summary calculation](/Documentation/Guide/Widgets/DataGrid/Summaries/). Then, depending on the required functionality, you may use the features described below to speed up the process.  
-
+If the **DataGrid** is going to work with a large dataset, we recommend delegating data processing operations to the server as described in the [Custom Sources](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/) topic. Additionally, you can make the following tweaks to enhance the **DataGrid**'s performance.

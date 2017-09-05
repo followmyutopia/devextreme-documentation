@@ -32,7 +32,7 @@ Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Config
     
 ---
 
-Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) function to populate a column with custom values. This function is designed to create unbound columns - columns that are not bound to any individual data field. In the following example, this function combines full names from data that the **firstName** and **lastName** fields provide. 
+Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) function to populate a column with custom values. This function is designed to create unbound columns - columns that are not bound to any individual data field. In the following example, this function combines full names using data from the **firstName** and **lastName** fields: 
 
 ---
 ##### jQuery
@@ -66,4 +66,4 @@ Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGr
     
 ---
 
-Note that [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/) and [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) in unbound columns is disabled by default, and their cells can be [edited](/Documentation/Guide/Widgets/DataGrid/Editing/) at runtime only if you implement the [setCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#setCellValue) function.
+Note that [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/) and [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) in unbound columns are disabled by default, and their cells can be [edited](/Documentation/Guide/Widgets/DataGrid/Editing/) at runtime only if you implement the [setCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#setCellValue) function.

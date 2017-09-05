@@ -1,4 +1,4 @@
-To bind the **TreeList** to data provided by an OData service, use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/). It provides an interface for loading and editing data, and allows you to handle data-related events.
+Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind the **TreeList** to data an OData service supplies. It provides an interface for loading and editing data, and allows you to handle data-related events.
 
 ---
 ##### jQuery
@@ -36,7 +36,7 @@ To bind the **TreeList** to data provided by an OData service, use the [ODataSto
 
 ---
 
-Data kept in the **ODataStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). For example, the **DataSource** can filter data.
+Data kept in the **ODataStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/), for example, it can filter data.
 
 ---
 ##### jQuery
