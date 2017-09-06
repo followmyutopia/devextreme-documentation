@@ -7,7 +7,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->
-<!--type-->Number | date | String<!--/type-->
+<!--type-->Number | Date | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
