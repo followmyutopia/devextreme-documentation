@@ -23,7 +23,7 @@ The direction in which to search for the previous cell. Can be 'row' or 'column'
 Specifies whether to allow this method to return cells from groups other than the current one.
 <!--/paramDescription2-->
 
-<!--returnType-->SummaryCell<!--/returnType-->
+<!--returnType-->dxPivotGridSummaryCell<!--/returnType-->
 <!--returnDescription-->
 The cell previous to the current one.
 <!--/returnDescription-->

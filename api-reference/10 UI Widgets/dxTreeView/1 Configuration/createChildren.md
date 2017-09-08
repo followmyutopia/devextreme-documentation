@@ -40,7 +40,7 @@ In the following code, the **createChildren** function makes a query to the serv
 - [TreeView - Use Plain Data](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->parentNode<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxtreeviewnode<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->dxTreeViewNode<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The node that has been expanded; **null** for the root node.
 <!--/typeFunctionParamDescription1-->

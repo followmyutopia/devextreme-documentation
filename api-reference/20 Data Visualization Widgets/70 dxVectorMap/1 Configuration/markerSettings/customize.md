@@ -38,12 +38,12 @@ Specifies if a marker is selected when the map is created. To select a marker at
 Specifies the text that accompanies a marker.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->marker<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Marker object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->markerObjects<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The marker to be customized.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Marker configuration<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->dxVectorMapOptions_markerSettings<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A configuration object for the marker.
 <!--/typeFunctionReturnDescription-->

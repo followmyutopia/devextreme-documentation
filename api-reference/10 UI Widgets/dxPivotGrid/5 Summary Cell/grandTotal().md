@@ -11,7 +11,7 @@
 Gets the **Grand Total** of the entire pivot grid.
 <!--/shortDescription-->
 
-<!--returnType-->SummaryCell<!--/returnType-->
+<!--returnType-->dxPivotGridSummaryCell<!--/returnType-->
 <!--returnDescription-->
 The Grand Total cell.
 <!--/returnDescription-->

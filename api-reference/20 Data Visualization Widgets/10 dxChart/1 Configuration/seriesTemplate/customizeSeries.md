@@ -23,7 +23,7 @@ To determine the series to which the function's return value will be applied, us
 The name of the series to be customized.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Series configuration<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->dxChartOptions_series<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A configuration object for the series.
 <!--/typeFunctionReturnDescription-->

@@ -30,7 +30,7 @@ If the **items** option contains definition for form items, you usually do not n
  An empty item used to add a space between neighboring form items.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->item<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Form item<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->dxFormSimpleItem|dxFormGroupItem|dxFormTabbedItem|dxFormEmptyItem<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Provides access to the item instance.
 <!--/typeFunctionParamDescription1-->

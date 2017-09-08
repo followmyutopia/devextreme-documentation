@@ -41,7 +41,7 @@ The [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator) object that 
 The current row data. Exists only when you validate a [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid) or [TreeList](/Documentation/ApiReference/UI_Widgets/dxTreeList) cell's value.
 <!--/typeFunctionParamDescription1_field4-->
 
-<!--typeFunctionReturnType-->true|false<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->boolean<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A Boolean value that indicates whether the validated value is valid against the checked rule.
 <!--/typeFunctionReturnDescription-->

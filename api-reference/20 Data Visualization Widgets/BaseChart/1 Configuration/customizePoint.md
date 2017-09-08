@@ -120,7 +120,7 @@ In the financial series ([*candlestick*](/Documentation/ApiReference/Data_Visual
 Information defining the series point.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Point configuration<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->dxChartSeriesTypes_CommonSeries_point<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A configuration object for the point.
 <!--/typeFunctionReturnDescription-->

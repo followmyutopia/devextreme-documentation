@@ -17,7 +17,7 @@ Gets the row or column field to which the current cell belongs.
 The area from which to get a field. Can be *'row'* or *'column'*.
 <!--/paramDescription1-->
 
-<!--returnType-->PivotGridField<!--/returnType-->
+<!--returnType-->PivotGridDataSourceOptions_fields<!--/returnType-->
 <!--returnDescription-->
 The row or column field.
 <!--/returnDescription-->

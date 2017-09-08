@@ -20,7 +20,7 @@ The name for the component to register.
 <!--/paramDescription1-->
 
 <!--paramName2-->class<!--/paramName2-->
-<!--paramType2-->Class<!--/paramType2-->
+<!--paramType2-->object<!--/paramType2-->
 <!--paramDescription2-->
 A DevExpress.Class inheritor implementing the component's functionality.
 <!--/paramDescription2-->

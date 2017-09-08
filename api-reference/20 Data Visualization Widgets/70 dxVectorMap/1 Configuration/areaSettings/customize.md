@@ -40,12 +40,12 @@ Specifies the index of the color when using [palettes](/Documentation/ApiReferen
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapcolorscustomization/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->area<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Area object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->areaObjects<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The area to be customized.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Area configuration<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->dxVectorMapOptions_areaSettings<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A configuration object for the area.
 <!--/typeFunctionReturnDescription-->

@@ -118,7 +118,7 @@ In the financial series ([*candlestick*](/Documentation/ApiReference/Data_Visual
 Information defining the series point the label belongs to.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Label configuration<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->dxChartSeriesTypes_CommonSeries_label<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A configuration object for the point label.
 <!--/typeFunctionReturnDescription-->

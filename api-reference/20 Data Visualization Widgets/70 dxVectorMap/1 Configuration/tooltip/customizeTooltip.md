@@ -38,7 +38,7 @@ When implementing a callback function for this option, you can access the hovere
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Area object|Marker object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->areaObjects|markerObjects<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Defines the area/marker for which a tooltip is about to be displayed.
 <!--/typeFunctionParamDescription1-->

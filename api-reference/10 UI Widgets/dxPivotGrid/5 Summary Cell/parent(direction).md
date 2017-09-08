@@ -17,7 +17,7 @@ Gets the parent cell in a specified direction.
 The direction in which to search for the parent cell. Can be 'row' or 'column'.
 <!--/paramDescription1-->
 
-<!--returnType-->SummaryCell<!--/returnType-->
+<!--returnType-->dxPivotGridSummaryCell<!--/returnType-->
 <!--returnDescription-->
 The parent cell.
 <!--/returnDescription-->

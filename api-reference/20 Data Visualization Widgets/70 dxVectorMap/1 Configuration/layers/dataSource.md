@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Object | DataSource | DataSource configuration | String<!--/type-->
+<!--type-->Object | DataSource | DataSource_Options | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -12,7 +12,7 @@ Deselects the specified point. The point is displayed in an initial style.
 <!--/shortDescription-->
 
 <!--paramName1-->point<!--/paramName1-->
-<!--paramType1-->Point<!--/paramType1-->
+<!--paramType1-->basePointObject<!--/paramType1-->
 <!--paramDescription1-->
 The point to be deselected.
 <!--/paramDescription1-->

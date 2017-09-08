@@ -12,7 +12,7 @@ Gets the cell located by the path of the source cell with one field value change
 <!--/shortDescription-->
 
 <!--paramName1-->field<!--/paramName1-->
-<!--paramType1-->PivotGridField<!--/paramType1-->
+<!--paramType1-->PivotGridDataSourceOptions_fields<!--/paramType1-->
 <!--paramDescription1-->
 The index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array, [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) or [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption) of the field.
 <!--/paramDescription1-->
@@ -23,7 +23,7 @@ The index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSo
 The **field**'s value.
 <!--/paramDescription2-->
 
-<!--returnType-->SummaryCell<!--/returnType-->
+<!--returnType-->dxPivotGridSummaryCell<!--/returnType-->
 <!--returnDescription-->
 The target cell.
 <!--/returnDescription-->

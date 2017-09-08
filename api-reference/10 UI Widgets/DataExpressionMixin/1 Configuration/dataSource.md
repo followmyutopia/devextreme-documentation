@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->String | Array | DataSource | DataSource configuration<!--/type-->
+<!--type-->String | Array | DataSource | DataSource_Options<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

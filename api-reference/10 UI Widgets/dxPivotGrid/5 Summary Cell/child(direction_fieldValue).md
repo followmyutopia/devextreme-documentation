@@ -23,7 +23,7 @@ The direction in which to search for the child cell. Can be 'row' or 'column'.
 The value of the child field whose summary cell should be returned.
 <!--/paramDescription2-->
 
-<!--returnType-->SummaryCell<!--/returnType-->
+<!--returnType-->dxPivotGridSummaryCell<!--/returnType-->
 <!--returnDescription-->
 The child cell.
 <!--/returnDescription-->

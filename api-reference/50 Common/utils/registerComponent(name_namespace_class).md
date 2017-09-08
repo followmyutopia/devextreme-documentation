@@ -26,7 +26,7 @@ The object that represents the namespace within which the registered component w
 <!--/paramDescription2-->
 
 <!--paramName3-->class<!--/paramName3-->
-<!--paramType3-->Class<!--/paramType3-->
+<!--paramType3-->object<!--/paramType3-->
 <!--paramDescription3-->
 A DevExpress.Class inheritor implementing the component's functionality.
 <!--/paramDescription3-->

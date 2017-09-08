@@ -19,7 +19,7 @@ With this function, you can perform additional calculations on each summary valu
 There are several predefined post-processing functions. You can enable one of them by using the [summaryDisplayMode](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode) option.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->SummaryCell<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->dxPivotGridSummaryCell<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The object for accessing the data of the current cell and the neighboring cells.
 <!--/typeFunctionParamDescription1-->

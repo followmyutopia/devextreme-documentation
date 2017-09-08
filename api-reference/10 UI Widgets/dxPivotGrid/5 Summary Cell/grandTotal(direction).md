@@ -17,7 +17,7 @@ Gets a partial Grand Total cell of a row or column.
 The direction in which to search for the grand total cell. Can be 'row' or 'column'.
 <!--/paramDescription1-->
 
-<!--returnType-->SummaryCell<!--/returnType-->
+<!--returnType-->dxPivotGridSummaryCell<!--/returnType-->
 <!--returnDescription-->
 The partial Grand Total cell.
 <!--/returnDescription-->

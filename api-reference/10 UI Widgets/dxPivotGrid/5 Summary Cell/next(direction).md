@@ -17,7 +17,7 @@ Gets the cell next to the current one in a specified direction.
 The direction in which to search for the next cell. Can be 'row' or 'column'.
 <!--/paramDescription1-->
 
-<!--returnType-->SummaryCell<!--/returnType-->
+<!--returnType-->dxPivotGridSummaryCell<!--/returnType-->
 <!--returnDescription-->
 The cell next to the current one.
 <!--/returnDescription-->

@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->Array | DataSource configuration | function(options)<!--/type-->
+<!--type-->Array | DataSource_Options | function(options)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -49,7 +49,7 @@ The data of the row.
 The key value of the row.
 <!--/typeFunctionParamDescription1_field2-->
 
-<!--typeFunctionReturnType-->array|DataSource configuration<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->array|DataSourceOptions<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 An array of data objects or a **DataSource** configuration object.
 <!--/typeFunctionReturnDescription-->
