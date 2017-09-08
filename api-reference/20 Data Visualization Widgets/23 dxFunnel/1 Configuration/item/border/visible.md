@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Makes a funnel item's border visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->

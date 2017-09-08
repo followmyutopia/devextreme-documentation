@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies hatching lines' width in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
