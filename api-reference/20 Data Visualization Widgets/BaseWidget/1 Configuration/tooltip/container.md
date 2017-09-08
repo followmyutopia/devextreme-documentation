@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the container to draw tooltips inside of it.
+Specifies the container in which to draw tooltips. The default container is the HTML DOM `<body>` element.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, tooltips are shown within the **body** DOM element. Use this option if you need to specify another container for tooltips.
+
 <!--/fullDescription-->

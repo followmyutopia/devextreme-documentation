@@ -10,11 +10,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the font color of the text displayed by a tooltip.
+Specifies tooltips' font color.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option supports the following colors.
+This option supports the following colors:
 
 * Hexadecimal colors
 * RGB colors

@@ -9,9 +9,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Configures tooltips.
+Configures tooltips - small pop-up rectangles that display information about a data-visualizing widget element being pressed or hovered over with the mouse pointer.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A tooltip is a miniature rectangle displaying the widget data. A tooltip appears when the end-user hovers the cursor over a widget element. You can enable/disable tooltips, change their appearance and format their text using fields of the **tooltip** configuration object.
+
 <!--/fullDescription-->

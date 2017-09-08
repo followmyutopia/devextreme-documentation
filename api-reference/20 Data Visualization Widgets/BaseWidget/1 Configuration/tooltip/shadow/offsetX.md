@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the horizontal offset of the tooltip's shadow relative to the tooltip itself measured in pixels.
+Specifies the horizontal offset of a tooltip's shadow relative to the tooltip itself. Measured in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

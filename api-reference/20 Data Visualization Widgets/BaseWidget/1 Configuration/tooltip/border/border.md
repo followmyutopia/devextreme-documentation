@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the appearance of the tooltip's border.
+Configures a tooltip's border.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -10,11 +10,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the color of the tooltip's border.
+Colors a tooltip's border.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option supports the following colors.
+This option supports the following colors:
 
 * Hexadecimal colors
 * RGB colors

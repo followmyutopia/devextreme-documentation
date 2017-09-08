@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the font family of the text displayed by a tooltip.
+Specifies tooltips' font family.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For details on acceptable values, refer to the [Font family](http://www.w3.org/TR/CSS21/fonts.html#propdef-font-family) article.
+Refer to the [Font family](http://www.w3.org/TR/CSS21/fonts.html#propdef-font-family) article for details on acceptable values.
 <!--/fullDescription-->

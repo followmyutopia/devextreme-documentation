@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the font weight of the text displayed by a tooltip.
+Specifies tooltips' font weight.
 <!--/shortDescription-->
 
 <!--fullDescription-->

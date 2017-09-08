@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the length of the tooltip's arrow in pixels.
+Specifies the length of a tooltip's arrow in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

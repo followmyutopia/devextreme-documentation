@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Generates space above and below the text displayed by a tooltip.
+Generates an empty space, measured in pixels, between a tooltip's top/bottom border and its text.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![TooltipPadding ChartJS](/Content/images/doc/17_2/ChartJS/TooltipPaddingTopBottom.png)
+![DevExtreme HTML5 JavaScript Funnel Tooltips Top-Bottom Padding](/Content/images/doc/17_2/ChartJS/TooltipPaddingTopBottom.png)
 <!--/fullDescription-->

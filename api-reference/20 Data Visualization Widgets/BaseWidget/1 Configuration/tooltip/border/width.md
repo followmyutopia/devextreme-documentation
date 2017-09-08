@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the width of the tooltip's border in pixels.
+Specifies the width of a tooltip's border in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

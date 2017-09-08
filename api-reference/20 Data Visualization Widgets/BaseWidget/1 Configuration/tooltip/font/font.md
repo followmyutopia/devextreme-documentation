@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the font of the text displayed by a tooltip.
+Specifies tooltips' font options.
 <!--/shortDescription-->
 
 <!--fullDescription-->

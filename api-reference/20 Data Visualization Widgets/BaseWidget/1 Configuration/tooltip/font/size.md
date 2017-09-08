@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the font size of the text displayed by a tooltip.
+Specifies tooltips' font size.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For details on acceptable values, refer to the [Font size](http://www.w3.org/TR/CSS21/fonts.html#propdef-font-size) article.
+Refer to the [Font size](http://www.w3.org/TR/CSS21/fonts.html#propdef-font-size) article for details on acceptable values.
 <!--/fullDescription-->

@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Generates space on the left and the right of the text displayed by a tooltip.
+Generates an empty space, measured in pixels, between a tooltip's left/right border and its text.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![TooltipPadding ChartJS](/Content/images/doc/17_2/ChartJS/TooltipPaddingLeftRight.png)
+![DevExtreme HTML5 JavaScript Funnel Tooltips Left-Right Padding](/Content/images/doc/17_2/ChartJS/TooltipPaddingLeftRight.png)
 <!--/fullDescription-->

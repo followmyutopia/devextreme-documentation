@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the appearance of the tooltip's shadow.
+Configures a tooltip's shadow.
 <!--/shortDescription-->
 
 <!--fullDescription-->

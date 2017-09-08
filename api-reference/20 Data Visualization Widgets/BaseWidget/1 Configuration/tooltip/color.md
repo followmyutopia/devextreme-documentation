@@ -10,11 +10,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the color of tooltips.
+Colors all tooltips.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option supports the following colors.
+This option supports the following colors:
 
 * Hexadecimal colors
 * RGB colors
@@ -22,5 +22,5 @@ This option supports the following colors.
 * Predefined/cross-browser color names
 * [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
 
-This option sets one color for all tooltips in the widget. To specify a color for a particular tooltip, use the [customizeTooltip]({basewidgetpath}/Configuration/tooltip#customizeTooltip) option.
+This option sets one color for all tooltips. You can specify a particular tooltip's color in the **tooltip**.[customizeTooltip]({basewidgetpath}/Configuration/tooltip#customizeTooltip) function.
 <!--/fullDescription-->
