@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->function(itemsInfo)<!--/type-->
+<!--type-->function(itemInfo)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -16,7 +16,7 @@ Customizes the text displayed by legend items.
 <!--fullDescription-->
 [note]The **this** object also exposes the **item** and **text** fields.
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->itemsInfo<!--/typeFunctionParamName1-->
+<!--typeFunctionParamName1-->itemInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the funnel item and its corresponding legend item.

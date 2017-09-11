@@ -38,18 +38,18 @@ Colors the tooltip's border.
 <!--typeFunctionParamDescription1-->
 Information on the funnel item being paused on.
 <!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Number<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamName1_field1-->item<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->dxfunnelItem<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The item's value as it is in the data source.
 <!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamName1_field2-->value<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The item's value with applied [formatting](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/tooltip/#format).
 <!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->item<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->dxfunnelItem<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamName1_field3-->valueText<!--/typeFunctionParamName1_field3-->
+<!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
 <!--/typeFunctionParamDescription1_field3-->

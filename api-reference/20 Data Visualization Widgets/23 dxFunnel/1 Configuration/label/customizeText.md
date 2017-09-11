@@ -31,11 +31,6 @@
 <!--typeFunctionParamDescription1_field2-->
 
 <!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->value<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Number<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-
-<!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->percent<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Number<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
