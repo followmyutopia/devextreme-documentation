@@ -14,7 +14,7 @@ As an alternative, you can save the widget instance in a scope property once the
 
 ... and call any method of the saved instance afterwards.
 
-    <!--JavaScript-->menuInstance.repaint();
+    <!--JavaScript-->$scope.menuInstance.repaint();
 
 #####See Also#####
 - [API Reference](/Documentation/ApiReference).**WidgetName**.**Methods**
