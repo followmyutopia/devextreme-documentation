@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies labels' font options.
 <!--/shortDescription-->
 
 <!--fullDescription-->

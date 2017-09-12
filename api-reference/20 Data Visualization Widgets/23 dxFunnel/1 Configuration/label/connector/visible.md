@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Shows label connectors.
 <!--/shortDescription-->
 
 <!--fullDescription-->

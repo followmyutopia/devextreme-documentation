@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the label border width.
 <!--/shortDescription-->
 
 <!--fullDescription-->

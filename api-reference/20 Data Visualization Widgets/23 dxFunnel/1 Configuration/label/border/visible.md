@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Shows the label borders.
 <!--/shortDescription-->
 
 <!--fullDescription-->

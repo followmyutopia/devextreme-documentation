@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies labels' font weight.
 <!--/shortDescription-->
 
 <!--fullDescription-->

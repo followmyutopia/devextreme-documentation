@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the label connector width in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

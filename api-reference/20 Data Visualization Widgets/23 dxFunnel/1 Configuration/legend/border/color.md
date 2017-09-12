@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Colors for the legend's border.
+Colors the legend's border.
 <!--/shortDescription-->
 
 <!--fullDescription-->

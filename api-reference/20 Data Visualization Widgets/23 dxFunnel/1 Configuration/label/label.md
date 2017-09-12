@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures funnel item labels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Controls the labels' visibility.
 <!--/shortDescription-->
 
 <!--fullDescription-->
