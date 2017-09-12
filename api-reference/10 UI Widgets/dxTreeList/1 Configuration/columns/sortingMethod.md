@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--fullDescription-->
-This function accepts two cell values and should return a number indicating their sort order. The number can be:
+This function accepts two cell values and should return a number indicating their sort order:
 
 - *Less than zero*     
 *value1* goes before *value2*.
@@ -30,6 +30,10 @@ The string comparison is culture-insensitive by default. Use the following code 
             columns: [{
                 dataField: "fieldName",
                 sortingMethod: function (value1, value2) {
+                    // Handling null values
+                    if(!value1 && value2) return -1;
+                    if(!value1 && !value2) return 0;
+                    if(value1 && !value2) return 1;
                     // Determines whether two strings are equivalent in the current locale
                     return value1.localeCompare(value2);
                 }
@@ -42,6 +46,10 @@ The string comparison is culture-insensitive by default. Use the following code 
     <!--TypeScript-->
     export class AppComponent {
         sortStringsConsideringCulture (value1, value2) {
+            // Handling null values
+            if(!value1 && value2) return -1;
+            if(!value1 && !value2) return 0;
+            if(value1 && !value2) return 1;
             // Determines whether two strings are equivalent in the current locale
             return value1.localeCompare(value2);
         }
