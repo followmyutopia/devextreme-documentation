@@ -34,7 +34,7 @@ The item's raw value.
 <!--typeFunctionParamName1_field3-->valueText<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The item's value with an applied [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format) and converted to string.
+The item's [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->percent<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Number<!--/typeFunctionParamType1_field4-->
@@ -44,7 +44,7 @@ The item's percentage value.
 <!--typeFunctionParamName1_field5-->percentText<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The item's percentage value with an applied [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format) and converted to string.
+The item's [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format) percentage value converted to a string.
 <!--/typeFunctionParamDescription1_field5-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
