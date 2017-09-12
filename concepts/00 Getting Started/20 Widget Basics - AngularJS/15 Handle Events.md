@@ -9,8 +9,6 @@ You can subscribe to an event using a configuration option. All event handling o
         onSelectionChanged: handler2
 	 }"></div>
 
-<!---->
-
     <!--JavaScript-->function Controller ($scope) {
         $scope.handler1 = function (info) {
 			// Handles the "itemClick" event
@@ -23,7 +21,7 @@ You can subscribe to an event using a configuration option. All event handling o
 As a more flexible solution, you can use the **on()** method. It allows you to subscribe to events at runtime and even to attach several handlers to a single event.
 
     <!--JavaScript-->// Subscribes to the "itemClick" and "selectionChanged" events
-    menuInstance
+    $scope.menuInstance
 		.on({
 			"itemClick": handler1,
 			"selectionChanged": handler2
@@ -32,7 +30,7 @@ As a more flexible solution, you can use the **on()** method. It allows you to s
 <!-------------->
 
     <!--JavaScript-->// Attaches several handlers to the "itemClick" event
-    menuInstance
+    $scope.menuInstance
 		.on("itemClick", handler1)
 		.on("itemClick", handler2);
 
@@ -43,23 +41,23 @@ As a more flexible solution, you can use the **on()** method. It allows you to s
 
 To detach all the handlers that you attached with the **on()** method, call the **off()** method without arguments.
 
-    <!--JavaScript-->menuInstance.off();
+    <!--JavaScript-->$scope.menuInstance.off();
 
 Also, you can call this method to detach a specific handler from an event or all handlers from a particular event.
 
 	<!--JavaScript-->// Detaches the "handler1" from the "itemClick" event leaving other handlers (if any) intact
-    menuInstance
+    $scope.menuInstance
 		.off("itemClick", handler1)
 
 <!-------------->
 
     <!--JavaScript-->// Detaches all handlers from the "itemClick" event
-    menuInstance
+    $scope.menuInstance
 		.off("itemClick")
 
 If you subscribed to an event using an **on*EventName*** option, you can unsubscribe from it by setting this option to **undefined**.
 
-    <!--JavaScript-->menuInstance.option("itemClick", undefined);
+    <!--JavaScript-->$scope.menuInstance.option("itemClick", undefined);
 
 #####See Also#####
 - [API Reference](/Documentation/ApiReference).**WidgetName**.**Events**
