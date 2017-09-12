@@ -9,12 +9,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised after an option of the widget is changed.
+Raised after a widget option is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Main article: [onOptionChanged]({basewidgetpath}/Configuration/#onOptionChanged)
-
 #####See Also#####
 - **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/)
 <!--/fullDescription-->
@@ -31,15 +29,15 @@ The widget's instance.
 <!--typeFunctionParamName1_field4-->name<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-A short name of the option whose value has been changed.
+The option's short name.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->fullName<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-A full name of the option whose value has been changed; contains a full hierarchy of the option.
+The option's full name; contains the option's full hierarchy.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->value<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-A new value for the option.
+A new option value.
 <!--/typeFunctionParamDescription1_field6-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies which data source field provides colors for funnel items. If such a field is absent, the [palette] (/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#palette) provides the colors.
+Specifies which data source field provides colors for funnel items. If this field is absent, the [palette](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#palette) provides the colors.
 <!--/shortDescription-->
 
 <!--fullDescription-->
