@@ -90,7 +90,45 @@ An end user can use the following keys to interact with the widget.
     </table>
 </div>
 
+You can implement a custom handler for a key using the [registerKeyHandler(key, handler)](/Documentation/ApiReference/UI_Widgets/dxScheduler/Methods/#registerKeyHandlerkey_handler) method.
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    function registerKeyHandlers () {
+        let scheduler =  $("#schedulerContainer").dxScheduler("instance");
+        scheduler.registerKeyHandler("backspace", function (e) {
+            // The argument "e" contains information on the event
+        });
+        scheduler.registerKeyHandler("space", function (e) {
+            // ...
+        });
+    }
+    
+
+##### Angular
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxSchedulerComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxSchedulerComponent) scheduler: DxSchedulerComponent
+        registerKeyHandlers () {
+            this.scheduler.instance.registerKeyHandler("backspace", function (e) {
+                // The argument "e" contains information on the event
+            });
+            this.scheduler.instance.registerKeyHandler("space", function (e) {
+                // ...
+            });
+        }
+    }
+
+---
+
 #####See Also#####
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)
 - [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
 - [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
 

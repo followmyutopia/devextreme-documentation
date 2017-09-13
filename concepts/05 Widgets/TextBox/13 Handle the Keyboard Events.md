@@ -37,10 +37,47 @@ If you are going to change the handling functions at runtime, or if you need to 
         .on("keyDown", keyDownHandler1)
         .on("keyDown", keyDownHandler2);
 
+You can also implement handlers for other keys using the [registerKeyHandler(key, handler)](/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#registerKeyHandlerkey_handler) method.
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    function registerKeyHandlers () {
+        let textBox =  $("#textBoxContainer").dxTextBox("instance");
+        textBox.registerKeyHandler("backspace", function (e) {
+            // The argument "e" contains information on the event
+        });
+        textBox.registerKeyHandler("space", function (e) {
+            // ...
+        });
+    }
+    
+
+##### Angular
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxTextBoxComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxTextBoxComponent) textBox: DxTextBoxComponent
+        registerKeyHandlers () {
+            this.textBox.instance.registerKeyHandler("backspace", function (e) {
+                // The argument "e" contains information on the event
+            });
+            this.textBox.instance.registerKeyHandler("space", function (e) {
+                // ...
+            });
+        }
+    }
+
+---
+
 #####See Also#####
 - **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Handling_Events_and_Defining_Callbacks)
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)
 - [TextBox - Handle the Value Change Event](/Documentation/Guide/Widgets/TextBox/Handle_the_Value_Change_Event/)
 - [TextBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_box-overview)
-- [TextBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTextBox/)
 
 [tags]textBox, text box, editor, keyboard events, keyup, keydown, keypress, enterkey

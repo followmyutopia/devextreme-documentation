@@ -29,8 +29,45 @@ An end user can use the following keys to interact with the widget.
   </table>
 </div>
 
+You can implement a custom handler for a key using the [registerKeyHandler(key, handler)](/Documentation/ApiReference/UI_Widgets/dxRadioGroup/Methods/#registerKeyHandlerkey_handler) method.
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    function registerKeyHandlers () {
+        let radioGroup =  $("#radioGroupContainer").dxRadioGroup("instance");
+        radioGroup.registerKeyHandler("backspace", function (e) {
+            // The argument "e" contains information on the event
+        });
+        radioGroup.registerKeyHandler("space", function (e) {
+            // ...
+        });
+    }
+    
+
+##### Angular
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxRadioGroupComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxRadioGroupComponent) radioGroup: DxRadioGroupComponent
+        registerKeyHandlers () {
+            this.radioGroup.instance.registerKeyHandler("backspace", function (e) {
+                // The argument "e" contains information on the event
+            });
+            this.radioGroup.instance.registerKeyHandler("space", function (e) {
+                // ...
+            });
+        }
+    }
+
+---
 
 #####See Also#####
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)
 - [RadioGroup Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-radio_group-overview)
 - [RadioGroup API Reference](/Documentation/ApiReference/UI_Widgets/dxRadioGroup/)
 

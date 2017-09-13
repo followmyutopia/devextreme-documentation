@@ -80,3 +80,43 @@ A user can interact with the widget using the following keys:
     <sup>6</sup> - The <a href="/Documentation/17_2/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel">search panel</a> must be visible.<br />
     <sup>7</sup> - <b>sorting</b> | <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/sorting/#mode">mode</a> must be <i>"multiple"</i>.
 </div>
+
+You can implement a custom handler for a key using the [registerKeyHandler(key, handler)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#registerKeyHandlerkey_handler) method.
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    function registerKeyHandlers () {
+        let treeList =  $("#treeListContainer").dxTreeList("instance");
+        treeList.registerKeyHandler("backspace", function (e) {
+            // The argument "e" contains information on the event
+        });
+        treeList.registerKeyHandler("space", function (e) {
+            // ...
+        });
+    }
+    
+
+##### Angular
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxTreeListComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent
+        registerKeyHandlers () {
+            this.treeList.instance.registerKeyHandler("backspace", function (e) {
+                // The argument "e" contains information on the event
+            });
+            this.treeList.instance.registerKeyHandler("space", function (e) {
+                // ...
+            });
+        }
+    }
+
+---
+
+#####See Also#####
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)

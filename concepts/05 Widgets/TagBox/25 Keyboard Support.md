@@ -41,11 +41,47 @@ An end user can use the following keys to interact with the widget.
   </table>
 </div>
 
+You can implement a custom handler for a key using the [registerKeyHandler(key, handler)](/Documentation/ApiReference/UI_Widgets/dxTagBox/Methods/#registerKeyHandlerkey_handler) method.
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    function registerKeyHandlers () {
+        let tagBox =  $("#tagBoxContainer").dxTagBox("instance");
+        tagBox.registerKeyHandler("backspace", function (e) {
+            // The argument "e" contains information on the event
+        });
+        tagBox.registerKeyHandler("space", function (e) {
+            // ...
+        });
+    }
+    
+
+##### Angular
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxTagBoxComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxTagBoxComponent) tagBox: DxTagBoxComponent
+        registerKeyHandlers () {
+            this.tagBox.instance.registerKeyHandler("backspace", function (e) {
+                // The argument "e" contains information on the event
+            });
+            this.tagBox.instance.registerKeyHandler("space", function (e) {
+                // ...
+            });
+        }
+    }
+
+---
 
 #####See Also#####
+- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)
 - [TagBox - Enable Searching](/Documentation/Guide/Widgets/TagBox/Enable_Searching/)
 - [TagBox - Control the Behavior](/Documentation/Guide/Widgets/TagBox/Control_the_Behavior/)
-- [TagBox - Handle the Value Change Event](/Documentation/Guide/Widgets/TagBox/Handle_the_Value_Change_Event/)
 - [TagBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTagBox/)
 - [TagBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-tag_box-overview)
 
