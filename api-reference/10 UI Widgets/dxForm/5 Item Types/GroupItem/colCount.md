@@ -21,16 +21,16 @@ For extra small screens, this option always equals *1* to make the widget adapti
     <!--JavaScript-->
     $(function(){
         $("#formContainer").dxForm({
-			// ...
-			items: [{
-				itemType: "group",
-				items: [ ... ],
-				colCountByScreen: {
-					xs: 2
-				}
-			},
-			// ...
-			]
+            // ...
+            items: [{
+                itemType: "group",
+                items: [ ... ],
+                colCountByScreen: {
+                    xs: 2
+                }
+            },
+            // ...
+            ]
         });
     });
 
