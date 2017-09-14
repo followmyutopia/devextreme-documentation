@@ -11,6 +11,10 @@ A user can interact with the widget using the following keys:
           <td>Navigates through cells</td>
         </tr>
         <tr>
+          <td>Shift + Mouse Wheel</td>
+          <td>Scrolls the content left/right if the horizontal scrolling is taking place.</td>
+        </tr>
+        <tr>
           <td>Enter</td>
           <td>
             <ul>

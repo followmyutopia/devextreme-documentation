@@ -13,6 +13,11 @@ An end user can use the following keys to interact with the widget.
           <td>Shifts focus to the next/previous appointment.</td>
         </tr>
         <tr>
+          <td></td>
+          <td>Shift + Mouse Wheel</td>
+          <td>Scrolls the content left/right if the horizontal scrolling is taking place.</td>
+        </tr>
+        <tr>
           <td>Date Navigator</td>
           <td>
             Tab / Shift+Tab

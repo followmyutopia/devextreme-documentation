@@ -17,6 +17,10 @@ An end user can use the following keys to interact with the widget.
       <td>&rarr;</td>
       <td> Moves focus to the next tab.</td>
     </tr>
+    <tr>
+      <td>Shift + Mouse Wheel</td>
+      <td>Scrolls the tabs left/right if the <a href="/Documentation/ApiReference/UI_Widgets/dxTabs/Configuration/#scrollingEnabled">scrollingEnabled</a> option is <b>true</b>.</td>
+    </tr>
     </tbody>
   </table>
 </div>

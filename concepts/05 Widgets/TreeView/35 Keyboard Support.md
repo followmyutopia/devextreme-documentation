@@ -10,6 +10,10 @@ An end user can use the following keys to interact with the widget.
     </thead>
     <tbody>
     <tr>
+      <td>Shift + Mouse Wheel</td>
+      <td>Scrolls the content left/right if the <a href="/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#scrollDirection">scrollDirection</a> option is <i>"horizontal"</i> or <i>"both"</i>.</td>
+    </tr>
+    <tr>
       <td>&uarr; / &darr;</td>
       <td>Moves focus to the previous/next node.</td>
     </tr>

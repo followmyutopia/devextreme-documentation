@@ -14,8 +14,8 @@ An end user can use the following keys to interact with the widget.
       <td>Scrolls the content up/down if the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction">scrolling direction</a> is <i>"vertical"</i> or <i>"both"</i>.</td>
     </tr>
     <tr>
-      <td>&larr; / &rarr;</td>
-      <td>Scrolls the content left/right if the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction">scrolling direction</a> is <i>"horizontal"</i> or <i>"both"</i>.</td>
+      <td>Mouse Wheel + Shift or &larr; / &rarr;</td>
+      <td>Scrolls the content left/right if the <a href="/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction">scrolling direction</a> is <i>"horizontal"</i> or <i>"both"</i>.</td>
     </tr>
     <tr>
       <td>Page Up / Page Down</td>
