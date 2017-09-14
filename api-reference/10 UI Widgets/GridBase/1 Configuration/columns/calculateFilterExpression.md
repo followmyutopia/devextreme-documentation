@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->function(filtervalue, selectedFilterOperation, target)<!--/type-->
+<!--type-->function(filterValue, selectedFilterOperation, target)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -118,7 +118,7 @@ Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOper
 
 [/note]
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->filtervalue<!--/typeFunctionParamName1-->
+<!--typeFunctionParamName1-->filterValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 A user input value.

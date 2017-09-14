@@ -6,7 +6,7 @@
 **-->
 <!--EventForAction-->..\4 Events\validated.md<!--/EventForAction-->
 ===========================================================================
-<!--type-->function(selectedRowsInfo)<!--/type-->
+<!--type-->function(validatedInfo)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -16,7 +16,7 @@ A handler for the [validated](/Documentation/ApiReference/UI_Widgets/dxValidator
 <!--fullDescription-->
 Assign a function to perform a custom action after an editor value is validated against the specified [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules).
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->selectedRowsInfo<!--/typeFunctionParamName1-->
+<!--typeFunctionParamName1-->validatedInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Provides function parameters.
