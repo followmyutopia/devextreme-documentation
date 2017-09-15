@@ -6,12 +6,14 @@ Loads all rows simultaneously. A user scrolls within one page if [paging](/Docum
 - **Virtual**       
 Pages are loaded when entering the viewport and removed once they leave. This mode allows users to scroll data by jumping swiftly from one row to another. Scrolling in this mode becomes smoother if the widget preloads the adjacent pages. You can enable this feature by setting the **scrolling**.[preloadEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/scrolling/#preloadEnabled) option to **true**, but note that it may cause lags on low-performing devices.
 
-    <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/VirtualScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Virtual Scrolling Demo</a>
-
 - **Infinite**      
 The next page is loaded once the scrollbar reaches the end of its scale. Use this mode if a user should scroll data gradually, from the first to the last page.
 
-    <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/InfiniteScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">Infinite Scrolling Demo</a>
+    [note]Set the **grouping**.[allowCollapsing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#allowCollapsing) option to **false** when using infinite scrolling in conjunction with grouping.
+
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/InfiniteScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Infinite Scrolling Demo</a>
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Virtual Scrolling Demo</a>
 
 Use the **scrolling**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/scrolling/#mode) option to specify the current scrolling mode.
 

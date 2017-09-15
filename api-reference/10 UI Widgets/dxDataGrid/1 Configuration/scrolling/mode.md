@@ -26,6 +26,8 @@ Pages are loaded when they get into the viewport and removed once they leave it.
 - **Infinite**      
 Each next page is loaded once the scrollbar reaches the end of its scale. Use this mode if a user should scroll data gradually, from the first to the last page.
 
+    [note]Set the **grouping**.[allowCollapsing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#allowCollapsing) option to **false** when using infinite scrolling in conjunction with grouping.
+
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `GridScrollingMode` enum. This enum accepts the following values: `Standard`, `Virtual` and `Infinite`.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/InfiniteScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Infinite Scrolling Demo</a>
