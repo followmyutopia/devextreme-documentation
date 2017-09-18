@@ -102,9 +102,9 @@ This example shows how to make a query for data.
                 load: function (loadOptions) {
                     var d = $.Deferred();
                     $.getJSON("http://mydomain.com/MyDataService", {
-                        sort: loadOptions.sort,
-                        filter: loadOptions.filter,
-                        searchExpr: loadOptions.searchExpr,
+                        sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
+                        filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
+                        searchExpr: loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "",
                         searchOperation: loadOptions.searchOperation,
                         searchValue: loadOptions.searchValue
                     }).done(function(result) {
@@ -133,9 +133,9 @@ This example shows how to make a query for data.
             this.pieChartDataSource = new DataSource({
                 load: function (loadOptions) {
                     let params: URLSearchParams = new URLSearchParams();
-                    params.set("sort", loadOptions.sort);
-                    params.set("filter", loadOptions.filter);
-                    params.set("searchExpr", loadOptions.searchExpr);
+                    params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
+                    params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
+                    params.set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "");
                     params.set("searchOperation", loadOptions.searchOperation);
                     params.set("searchValue", loadOptions.searchValue);
                     return http.get('http://mydomain.com/MyDataService', {

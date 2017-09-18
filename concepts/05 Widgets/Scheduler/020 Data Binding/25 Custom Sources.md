@@ -91,7 +91,7 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
         load: function (loadOptions) {
             var d = $.Deferred();
             $.getJSON('http://mydomain.com/MyDataService', {  
-                filter: loadOptions.filter
+                filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : ""
             }).done(function (result) {
                 // You can process the received data here
                 d.resolve(result);
@@ -142,8 +142,8 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
             this.schedulerDataSource = new DataSource({
                 load: function (loadOptions) {
                     let params: URLSearchParams = new URLSearchParams();
-                    params.set("filter", loadOptions.filter); 
-                    return http.get('http://mydomain.com/MyDataService' + {
+                    params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : ""); 
+                    return http.get('http://mydomain.com/MyDataService', {
                                     search: params
                                 })
                                 .toPromise()

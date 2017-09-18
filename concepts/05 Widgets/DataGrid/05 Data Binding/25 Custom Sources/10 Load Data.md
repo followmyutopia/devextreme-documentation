@@ -98,12 +98,12 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
             $.getJSON('http://mydomain.com/MyDataService', {
                 skip: loadOptions.skip,
                 take: loadOptions.take,
-                sort: loadOptions.sort,
-                filter: loadOptions.filter,
+                sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
+                filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
                 requireTotalCount: loadOptions.requireTotalCount,
-                totalSummary: loadOptions.totalSummary,
-                group: loadOptions.group,
-                groupSummary: loadOptions.groupSummary
+                totalSummary: loadOptions.totalSummary ? JSON.stringify(loadOptions.totalSummary) : "",
+                group: loadOptions.group ? JSON.stringify(loadOptions.group) : "",
+                groupSummary: loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : ""
             }).done(function (result) {
                     d.resolve(result.data, { 
                         totalCount: result.totalCount,
@@ -138,13 +138,13 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
                     let params: URLSearchParams = new URLSearchParams();
                     params.set("skip", loadOptions.skip);
                     params.set("take", loadOptions.take);
-                    params.set("sort", loadOptions.sort);
-                    params.set("filter", loadOptions.filter);
+                    params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
+                    params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
                     params.set("requireTotalCount", loadOptions.requireTotalCount);
-                    params.set("totalSummary", loadOptions.totalSummary);
-                    params.set("group", loadOptions.group);
-                    params.set("groupSummary", loadOptions.groupSummary);
-                    return http.get('http://mydomain.com/MyDataService' + {
+                    params.set("totalSummary", loadOptions.totalSummary ? JSON.stringify(loadOptions.totalSummary) : "");
+                    params.set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
+                    params.set("groupSummary", loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : "");
+                    return http.get('http://mydomain.com/MyDataService', {
                                     search: params
                                 })
                                 .toPromise()

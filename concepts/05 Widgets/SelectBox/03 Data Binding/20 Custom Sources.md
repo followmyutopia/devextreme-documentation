@@ -93,12 +93,12 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
                     $.getJSON("http://mydomain.com/MyDataService", {
                         skip: loadOptions.skip,
                         take: loadOptions.take,
-                        sort: loadOptions.sort,
-                        filter: loadOptions.filter,
-                        searchExpr: loadOptions.searchExpr,
+                        sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
+                        filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
+                        searchExpr: loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "",
                         searchOperation: loadOptions.searchOperation,
                         searchValue: loadOptions.searchValue,
-                        group: loadOptions.group
+                        group: loadOptions.group ? JSON.stringify(loadOptions.group) : ""
                     }).done(function(result) {
                         // Here, you can perform operations unsupported by the server
                         d.resolve(result.data);

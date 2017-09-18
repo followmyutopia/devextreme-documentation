@@ -98,12 +98,12 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
                     $.getJSON("http://mydomain.com/MyDataService", {
                         skip: loadOptions.skip,
                         take: loadOptions.take,
-                        sort: loadOptions.sort,
-                        filter: loadOptions.filter,
-                        searchExpr: loadOptions.searchExpr,
+                        sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
+                        filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
+                        searchExpr: loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "",
                         searchOperation: loadOptions.searchOperation,
                         searchValue: loadOptions.searchValue,
-                        group: loadOptions.group,
+                        group: loadOptions.group ? JSON.stringify(loadOptions.group) : "",
                         requireTotalCount: loadOptions.requireTotalCount
                     }).done(function(result) {
                         // Here, you can perform operations unsupported by the server

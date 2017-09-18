@@ -30,12 +30,12 @@ The example below shows how to implement the **load** function. Note that in thi
                         // Passing settings to the server
                         
                         // Pass if the remoteOperations option is set to true
-                        take: loadOptions.take ? JSON.stringify(loadOptions.take) : "",
-                        skip: loadOptions.skip ? JSON.stringify(loadOptions.skip) : "",
+                        take: loadOptions.take,
+                        skip: loadOptions.skip,
                         group: loadOptions.group ? JSON.stringify(loadOptions.group) : "",
                         filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
-                        totalSummary: loadOptions.totalSummary,
-                        groupSummary: loadOptions.groupSummary
+                        totalSummary: loadOptions.totalSummary ? JSON.stringify(loadOptions.totalSummary) : "",
+                        groupSummary: loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : ""
                     }).done(function (result) {
                         // You can process the received data here
 

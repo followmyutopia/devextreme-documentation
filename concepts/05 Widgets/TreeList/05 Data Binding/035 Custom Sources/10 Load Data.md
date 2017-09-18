@@ -74,10 +74,10 @@ Here is a generalized configuration of the **CustomStore** for the **TreeList** 
         load: function (loadOptions) {
             var d = $.Deferred();
             $.getJSON('http://mydomain.com/MyDataService', {
-                sort: loadOptions.sort,
-                filter: loadOptions.filter,
-                group: loadOptions.group,
-                parentIds: loadOptions.parentIds
+                sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
+                filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
+                group: loadOptions.group ? JSON.stringify(loadOptions.group) : "",
+                parentIds: loadOptions.parentIds ? JSON.stringify(loadOptions.parentIds) : ""
             }).done(function (result) {
                 // You can process the received data here
                 d.resolve(result.data);
@@ -112,11 +112,11 @@ Here is a generalized configuration of the **CustomStore** for the **TreeList** 
             this.treeListDataSource = new DataSource({
                 load: function (loadOptions) {
                     let params: URLSearchParams = new URLSearchParams();
-                    params.set("sort", loadOptions.sort);
-                    params.set("filter", loadOptions.filter);
-                    params.set("group", loadOptions.group);
-                    params.set("parentIds", loadOptions.parentIds);
-                    return http.get('http://mydomain.com/MyDataService' + {
+                    params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
+                    params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
+                    params.set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
+                    params.set("parentIds", loadOptions.parentIds ? JSON.stringify(loadOptions.parentIds) : "");
+                    return http.get('http://mydomain.com/MyDataService', {
                                     search: params
                                 })
                                 .toPromise()
