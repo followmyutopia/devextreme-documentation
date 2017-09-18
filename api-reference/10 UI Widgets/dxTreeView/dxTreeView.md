@@ -98,7 +98,7 @@ dataSource: [{
 ===========================================================================
 <!--module-->ui/tree_view<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\HierarchicalCollectionWidget\HierarchicalCollectionWidget.md<!--/inherits-->
+<!--inherits-->..\HierarchicalCollectionWidget\HierarchicalCollectionWidget.md,..\SearchBoxMixin\SearchBoxMixin.md<!--/inherits-->
 <!--lib-->
 dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

@@ -12,8 +12,7 @@ dataSource: ["Prepare 2013 Financial","Prepare 3013 Marketing Plan","Update Pers
 ===========================================================================
 <!--module-->ui/list<!--/module-->
 <!--export-->default<!--/export-->
-<!--type-->Object<!--/type-->
-<!--inherits-->..\CollectionWidget\CollectionWidget.md<!--/inherits-->
+<!--inherits-->..\CollectionWidget\CollectionWidget.md,..\SearchBoxMixin\SearchBoxMixin.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
