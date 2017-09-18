@@ -1,5 +1,8 @@
 For a minor customization of **Autocomplete** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxAutocomplete/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#autocompleteContainer").dxAutocomplete({
@@ -13,9 +16,52 @@ For a minor customization of **Autocomplete** items, you can use the default ite
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for items of the widget. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for the **Autocomplete** items.
+##### Angular
+
+    <!--TypeScript-->
+    export class AppComponent {
+        autocompleteData = [
+            { text: "James" },
+            { text: "John", disabled: true },
+            { text: "Joseph", visible: false }
+        ]
+    }
+
+    <!--HTML-->
+    <dx-autocomplete
+        [dataSource]="autocompleteData"
+        valueExpr="text"
+        placeholder="Type first name...">
+    </dx-autocomplete>
 
 ---
+
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for items of the widget. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for the **Autocomplete** items.
+
+---
+##### Angular
+
+    <!--HTML-->
+    <dx-autocomplete
+        [dataSource]="autocompleteData"
+        valueExpr="country"
+        placeholder="Type country name..."
+        itemTemplate="full">
+        <div *dxTemplate="let itemObj of 'full'">
+            <p>Country: <b>{{itemObj.country}}</b></p>
+            <p style="color:grey;">Capital: <b>{{itemObj.capital}}</b></p>
+        </div>
+    </dx-autocomplete>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        autocompleteData = [
+            { country: "Afghanistan", capital: "Kabul" },
+            { country: "Albania", capital: "Tirana" },
+            // ...
+        ]
+    }
+
 #####**AngularJS**
 
     <!--HTML-->
@@ -23,12 +69,12 @@ Using the default item template is the easiest way to customize an item, but it 
         <div dx-autocomplete="{
             dataSource: autocompleteData,
             valueExpr: 'country',
-            placeholder: 'Type country name',
+            placeholder: 'Type country name...',
             itemTemplate: 'full'
         }" dx-item-alias="itemObj">
             <div data-options="dxTemplate: { name: 'full' }">
-                <p>Country: <b>{{ itemObj.country }}</b></p>
-                <p style="color:grey;">Capital: <b>{{ itemObj.capital }}</b></p>
+                <p>Country: <b>{{itemObj.country}}</b></p>
+                <p style="color:grey;">Capital: <b>{{itemObj.capital}}</b></p>
             </div>
         </div>
     </div>
@@ -40,7 +86,7 @@ Using the default item template is the easiest way to customize an item, but it 
             $scope.autocompleteData = [
                 { country: "Afghanistan", capital: "Kabul" },
                 { country: "Albania", capital: "Tirana" },
-                // . . .
+                // ...
             ];
         });
 
@@ -52,7 +98,7 @@ Using the default item template is the easiest way to customize an item, but it 
     <div data-bind="dxAutocomplete: {
         dataSource: autocompleteData,
         valueExpr: 'country',
-        placeholder: 'Type country name',
+        placeholder: 'Type country name...',
         itemTemplate: 'full'
     }">
         <div data-options="dxTemplate: { name: 'full' }">
@@ -66,7 +112,7 @@ Using the default item template is the easiest way to customize an item, but it 
         autocompleteData: [
             { country: "Afghanistan", capital: "Kabul" },
             { country: "Albania", capital: "Tirana" },
-            // . . .
+            // ...
         ]
     };
 
@@ -80,14 +126,14 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
     var autocompleteData = [
         { country: "Afghanistan", capital: "Kabul" },
         { country: "Albania", capital: "Tirana" },
-        // . . .
+        // ...
     ];
 
     $(function() {
         $("#autocompleteContainer").dxAutocomplete({
             dataSource: autocompleteData,
             valueExpr: 'country',
-            placeholder: 'Type country name',
+            placeholder: 'Type country name...',
             itemTemplate: function (itemData, itemIndex, itemElement) {
                 itemElement.append("<p>Country: <b>" + itemData.country + "</b></p>");
                 itemElement.append("<p style='color:grey;'>Capital: <b>" + itemData.capital + "</b></p>");
@@ -106,7 +152,7 @@ You can also customize an individual **Autocomplete** item. For this purpose, de
     var autocompleteData = [
         { text: "James"},
         { text: "Joseph", template: $("#individualTemplate") },
-        // . . .
+        // ...
     ];
 
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine) article.
