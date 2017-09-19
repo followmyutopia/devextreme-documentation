@@ -1,10 +1,10 @@
-As DevExtreme applications are packed using the [PhoneGap Build](https://build.phonegap.com/), they must include the Cordova library. The [DevExtreme project templates](/Documentation/Guide/VS_Integration/Project_Templates/#DevExtreme_App_Project_Template) contain a fake *cordova.js* file located in the application project's root. When packing applications using the **Build Native Package** wizard, this fake file is replaced with a valid platform-specific Cordova library version ("cli-6.0.0" for Windows Phone, "cli-5.2.0" for other platforms). You can pack DevExtreme applications with the Cordova library of another version. For this purpose, do the following.
+As DevExtreme applications are packed using the [PhoneGap Build](https://build.phonegap.com/), they must include the Cordova library. The [DevExtreme project templates](/Documentation/Guide/VS_Integration/Project_Templates/#DevExtreme_App_Project_Template) contain a fake *cordova.js* file located in the application project's root. When packing applications using the **Build Native Package** wizard, this fake file is replaced with a valid Cordova library version. You can pack DevExtreme applications with the Cordova library of another version. For this purpose, do the following.
 
 - Specify the required version of the Cordova library within the *config.xml* file.
 
         <!--HTML--><widget xmlns="http://www.w3.org/ns/widgets">
             <!--...-->
-            <preference name="phonegap-version" value="cli-5.2.0" />
+            <preference name="phonegap-version" value="cli-6.5.0" />
             <!--...-->
         </widget>
 
