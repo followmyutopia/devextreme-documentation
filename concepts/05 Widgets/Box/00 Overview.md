@@ -4,6 +4,9 @@ The **Box** widget allows you to arrange various elements within it. Separate an
 
 The following code adds a simple **Box** containing three items to your page. The items are plain texts placed in differently-colored rectangles. They have an equal width specified by equal values of the **ratio** option. The items are arranged in a row.
 
+---
+##### jQuery
+
     <!--HTML--><div id="boxContainer">
         <div class="box-item orange" data-options="dxItem: { ratio: 1 }"> Item 1 </div>
         <div class="box-item yellow" data-options="dxItem: { ratio: 1 }"> Item 2 </div>
@@ -26,6 +29,43 @@ The following code adds a simple **Box** containing three items to your page. Th
     .orange { background: #f39e6c }
     .yellow { background: #f5e5a6 }
     .green { background: #94d7c7 }
+
+##### Angular
+
+    <!--HTML-->
+    <dx-box
+        direction="row"
+        [height]="100">
+        <dxi-item class="box-item orange" [ratio]="1"> Item 1 </dxi-item>
+        <dxi-item class="box-item yellow" [ratio]="1"> Item 2 </dxi-item>
+        <dxi-item class="box-item green"  [ratio]="1"> Item 3 </dxi-item>
+    </dx-box>
+
+    <!--TypeScript-->
+    import { DxBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxBoxModule
+        ],
+        // ...
+    })
+
+    <!--CSS-->.box-item {
+        text-align: center;
+        padding-top: 34px;
+        font-size: 16px;
+    }
+
+    .orange { background: #f39e6c }
+    .yellow { background: #f5e5a6 }
+    .green { background: #94d7c7 }
+
+---
 
 Note that the **Box** items in the code above are declared using the [dxItem](/Documentation/ApiReference/UI_Widgets/Markup_Components/#dxItem) markup component. An object passed to this component can have the following fields. 
 

@@ -31,6 +31,9 @@ When choosing the layout for a specific screen, the widget considers the screen'
 
 If a size qualifier should be identified with other screen width values, use the [screenByWidth](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#screenByWidth) option to specify the relation.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#responsiveBoxContainer").dxResponsiveBox({
             // ...
@@ -45,6 +48,42 @@ If a size qualifier should be identified with other screen width values, use the
             }
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <html style="height:100%">
+        <body style="height:100%">
+            <dx-responsive-box ...
+                [screenByWidth]="getSizeQualifier">
+                <!-- ... -->
+            </dx-responsive-box>
+        </body>
+    </html>
+
+    <!--TypeScript-->
+    import { DxResponsiveBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        getSizeQualifier (width) {
+            if (width < 640)
+                return 'xs';
+            if (width < 1280)
+                return 'sm';
+            if (width < 1920)
+                return 'md';
+            return 'lg';
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxResponsiveBoxModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)

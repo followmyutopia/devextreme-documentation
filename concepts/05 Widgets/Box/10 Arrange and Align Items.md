@@ -1,5 +1,8 @@
 Items can be arranged in a row or in a column depending on the value of the [direction](/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#direction) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#boxContainer").dxBox({
             direction: "row", // or "col"
@@ -7,6 +10,32 @@ Items can be arranged in a row or in a column depending on the value of the [dir
             width: 200
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-box
+        [height]="200"
+        [width]="200"
+        direction="row"> <!-- or "col" -->
+        <!-- ... -->
+    </dx-box>
+
+    <!--TypeScript-->
+    import { DxBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxBoxModule
+        ],
+        // ...
+    })
+
+---
 
 <div class="documentation-gallery">
     <script type="text/template"> 
@@ -25,6 +54,9 @@ Items can be arranged in a row or in a column depending on the value of the [dir
 
 If the **Box** items do not occupy the entire **Box**, you can align them along and crosswise the specified **direction**. For this purpose, use the [align](/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#align) and [crossAlign](/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#crossAlign) options, respectively.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#boxContainer").dxBox({
             direction: "col",
@@ -33,6 +65,33 @@ If the **Box** items do not occupy the entire **Box**, you can align them along 
             crossAlign: "stretch"
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-box
+        direction="col"
+        [height]="200"
+        align="center"
+        crossAlign="stretch">
+        <!-- ... -->
+    </dx-box>
+
+    <!--TypeScript-->
+    import { DxBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxBoxModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [Box - Nest One Box into Another](/Documentation/Guide/Widgets/Box/Nest_One_Box_into_Another/)

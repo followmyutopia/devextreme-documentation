@@ -7,59 +7,44 @@ The **ResponsiveBox** widget allows you to create an application or a website wi
 
 The following code creates a simple **ResponsiveBox**. The widget defines an ordinary page layout: a header, a footer, content area, left- and right-side bars. On small and extra small screens, the bars are hidden to give more space to the content. Note that the height of all elements that are ancestors to the **ResponsiveBox** (such as `<body>` and `<html>`) is explicitly set to *"100%"*. This makes the **ResponsiveBox** occupy full screen height.
 
-    <!--HTML--><html style="height:100%">
-        <!-- ... -->
+---
+##### jQuery
+
+    <!--HTML-->
+    <html style="height:100%">
+        <body style="height:100%">
+            <div id="responsiveBoxContainer">
+                <div class="header" data-options="dxItem: {
+                    location: [
+                        { screen: 'md lg', row: 0, col: 0, colspan: 3 },
+                        { screen: 'xs sm', row: 0, col: 0 }
+                    ]
+                }"> <p>Header</p> </div>
+
+                <div class="content" data-options="dxItem: {
+                    location: [
+                        { screen: 'md lg', row: 1, col: 1 },
+                        { screen: 'xs sm', row: 1, col: 0 }
+                    ]
+                }"> <p>Content</p> </div>
+
+                <div class="left-side-bar" data-options="dxItem: {
+                    location: { screen: 'md lg', row: 1, col: 0 }
+                }"> <p>Left Bar</p> </div>
+
+                <div class="right-side-bar" data-options="dxItem: {
+                    location: { screen: 'md lg', row: 1, col: 2 }
+                }"> <p>Right Bar</p> </div>
+
+                <div class="footer" data-options="dxItem: {
+                    location: [
+                        { screen: 'md lg', row: 2, col: 0, colspan: 3 },
+                        { screen: 'xs sm', row: 2, col: 0 }
+                    ]
+                }"> <p>Footer</p> </div>
+            </div>
+        </body>
     </html>
-    
-    <body style="height:100%">
-        <div id="responsiveBoxContainer">
-            <div class="header" data-options="dxItem: {
-                location: [{
-                    screen: 'md lg',
-                    row: 0, col: 0,
-                    colspan: 3
-                }, {
-                    screen: 'xs sm',
-                    row: 0, col: 0
-                }]
-            }"> <p>Header</p> </div>
-
-            <div class="content" data-options="dxItem: {
-                location: [{
-                    screen: 'md lg',
-                    row: 1, col: 1
-                }, {
-                    screen: 'xs sm',
-                    row: 1, col: 0
-                }]
-            }"> <p>Content</p> </div>
-
-            <div class="left-side-bar" data-options="dxItem: {
-                location: {
-                    screen: 'md lg',
-                    row: 1, col: 0
-                }
-            }"> <p>Left Bar</p> </div>
-
-            <div class="right-side-bar" data-options="dxItem: {
-                location: {
-                    screen: 'md lg',
-                    row: 1, col: 2
-                }
-            }"> <p>Right Bar</p> </div>
-
-            <div class="footer" data-options="dxItem: {
-                location: [{
-                    screen: 'md lg',
-                    row: 2, col: 0,
-                    colspan: 3
-                }, {
-                    screen: 'xs sm',
-                    row: 2, col: 0
-                }]
-            }"> <p>Footer</p> </div>
-        </div>
-    </body>
 
     <!--JavaScript-->$(function() {
         $("#responsiveBoxContainer").dxResponsiveBox({
@@ -87,6 +72,78 @@ The following code creates a simple **ResponsiveBox**. The widget defines an ord
     .left-side-bar { background: #94d7c7 }
     .right-side-bar { background: #77c7e7 }
     .footer { background: #7b9bcf }
+
+##### Angular
+
+    <!--HTML-->
+    <html style="height:100%">
+        <body style="height:100%">
+            <dx-responsive-box id="responsiveBox">
+                <dxi-row [ratio]="1"></dxi-row>
+                <dxi-row [ratio]="2"></dxi-row>
+                <dxi-row [ratio]="0.7"></dxi-row>
+                <dxi-col [ratio]="0.5" screen="md lg"></dxi-col>
+                <dxi-col [ratio]="2"></dxi-col>
+                <dxi-col [ratio]="0.5" screen="md lg"></dxi-col>
+                
+                <dxi-item class="header">
+                    <dxi-location screen="md lg" [row]="0" [col]="0" [colspan]="3"></dxi-location>
+                    <dxi-location screen="xs sm" [row]="0" [col]="0"></dxi-location>
+                    <p>Header</p>
+                </dxi-item>
+                
+                <dxi-item class="content">
+                    <dxi-location screen="md lg" [row]="1" [col]="1"></dxi-location>
+                    <dxi-location screen="xs sm" [row]="1" [col]="0"></dxi-location>
+                    <p>Content</p>
+                </dxi-item>
+                
+                <dxi-item class="left-side-bar">
+                    <dxi-location screen="md lg" [row]="1" [col]="0"></dxi-location>
+                    <p>Left Bar</p>
+                </dxi-item>
+                
+                <dxi-item class="right-side-bar">
+                    <dxi-location screen="md lg" [row]="1" [col]="2"></dxi-location>
+                    <p>Right Bar</p>
+                </dxi-item>
+                
+                <dxi-item class="footer">
+                    <dxi-location screen="md lg" [row]="2" [col]="0" [colspan]="3"></dxi-location>
+                    <dxi-location screen="xs sm" [row]="2" [col]="0"></dxi-location>
+                    <p>Footer</p>
+                </dxi-item>
+            </dx-responsive-box>
+        </body>
+    </html>
+
+    <!--TypeScript-->
+    import { DxResponsiveBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxResponsiveBoxModule
+        ],
+        // ...
+    })
+
+    <!--CSS-->#responsiveBox p {
+        font-size: 16px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .header { background: #f39e6c }
+    .content { background: #f5e5a6 }
+    .left-side-bar { background: #94d7c7 }
+    .right-side-bar { background: #77c7e7 }
+    .footer { background: #7b9bcf }
+
+---
     
 The **ResponsiveBox** elements in the code above are declared using the [dxItem](/Documentation/ApiReference/UI_Widgets/Markup_Components/#dxItem) markup component. An object passed to this component can have the following fields.
 
