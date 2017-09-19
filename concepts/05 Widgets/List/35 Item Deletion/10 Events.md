@@ -1,5 +1,8 @@
 To execute certain commands before or after an item is deleted from the **List**, handle the [itemDeleting](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemDeleting) or [itemDeleted](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemDeleted) event. If the functions that handle these events are not going to be changed during the lifetime of the widget, assign them to the **on*EventName*** option when you configure the widget.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function () {
         $("#listContainer").dxList({
             // ...
@@ -18,9 +21,35 @@ To execute certain commands before or after an item is deleted from the **List**
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-list ...
+        (onItemDeleting)="onItemDeleting($event)"
+        (onItemDeleted)="onItemDeleted($event)">
+    </dx-list>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        onItemDeleting (e) {
+            let itemData = e.itemData;
+            let itemDomNode = e.itemElement;
+            let itemIndex = e.itemIndex;
+            // Handler of the "itemDeleting" event
+        }
+        onItemDeleted (e) {
+            let itemData = e.itemData;
+            let itemDomNode = e.itemElement;
+            let itemIndex = e.itemIndex;
+            // Handler of the "itemDeleted" event
+        }
+    }
+
+---
+
 [note]The **itemDeleted** event is raised when an item is deleted from the **List**. However, this does not mean that the item was actually deleted from the data source.
 
-If you are going to change the event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method.
+If you are going to change the event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var itemDeletingEventHandler1 = function(e) {

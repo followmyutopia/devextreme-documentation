@@ -1,5 +1,8 @@
 To execute certain commands when the **List** is scrolled, handle the [scroll](/Documentation/ApiReference/UI_Widgets/dxList/Events/#scroll) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the **onScroll** option when you configure the widget.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function () {
         $("#listContainer").dxList({
             // ...
@@ -12,7 +15,26 @@ To execute certain commands when the **List** is scrolled, handle the [scroll](/
         });
     });
 
-If you are going to change the **scroll** event handler at runtime, or if you need to attach several handlers to this event, subscribe to it using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method.
+#####Angular
+
+    <!--HTML-->
+    <dx-list ...
+        (onScroll)="onScroll($event)">
+    </dx-list>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        onScroll (e) {
+            var scrollOffset = e.scrollOffset.top;
+            var scrolledToTop = e.reachedTop;
+            var scrolledToBottom = e.reachedBottom;
+            // Handler of the "scroll" event
+        }
+    }
+
+---
+
+If you are going to change the **scroll** event handler at runtime, or if you need to attach several handlers to this event, subscribe to it using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var scrollEventHandler1 = function(e) {

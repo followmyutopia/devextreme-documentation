@@ -1,5 +1,8 @@
 To execute certain commands when an item changes its position, handle the [itemReordered](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemReordered) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the **onItemReordered** option when you configure the widget.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function () {
         $("#listContainer").dxList({
             // ...
@@ -13,7 +16,28 @@ To execute certain commands when an item changes its position, handle the [itemR
         });
     });
 
-If you are going to change the **itemReordered** event handler at runtime, or if you need to attach several handlers to this event, subscribe to it using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method.
+#####Angular
+
+    <!--HTML-->
+    <dx-list
+        (onItemReordered)="onItemReordered($event)">
+    </dx-list>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        @ViewChild(DxListComponent) list: DxListComponent;
+        onItemReordered (e) {
+            let itemData = e.itemData;
+            let itemDomNode = e.itemElement;
+            let from = e.fromIndex;
+            let to = e.toIndex;
+            // Handler of the "itemReordered" event
+        }
+    }
+
+---
+
+If you are going to change the **itemReordered** event handler at runtime, or if you need to attach several handlers to this event, subscribe to it using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var itemReorderedEventHandler1 = function(e) {

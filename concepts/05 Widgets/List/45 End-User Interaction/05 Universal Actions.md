@@ -1,5 +1,8 @@
 Universal actions are those actions that raise the same event despite being performed differently on desktop platforms and on touch-enabled devices. For example, both a click and a tap on an item raise the [itemClick](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemClick) event. To handle it, assign a function to the [onItemClick](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemClick) option, or subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#oneventName_eventHandler) method.
 
+---
+#####jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#listContainer").dxList({
@@ -24,6 +27,22 @@ Universal actions are those actions that raise the same event despite being perf
     $("#listContainer").dxList("instance")
         .on("itemClick", itemClickEventHandler1)
         .on("itemClick", itemClickEventHandler2)
+
+#####Angular
+
+    <!--HTML-->
+    <dx-list ...
+        (onItemClick)="onItemClick($event)">
+    </dx-list>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        onItemClick (e) {
+            // Event handling commands go here
+        }
+    }
+
+---
 
 The **List** supports other universal actions, which are provided as a part of basic **List** functionality. They are described in the following topics.
 

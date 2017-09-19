@@ -4,6 +4,9 @@ The **List** is a widget that represents a collection of items in a scrollable l
 
 The following code adds a simple **List** to your page. The simplest configuration of the widget requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#dataSource) to be specified.
 
+---
+#####jQuery
+
     <!--HTML--><div id="listContainer"></div>
 
     <!--JavaScript-->var fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
@@ -13,6 +16,22 @@ The following code adds a simple **List** to your page. The simplest configurati
             dataSource: fruits
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-list
+        [dataSource]="fruits">
+    </dx-list>
+
+    <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+    }
+
+---
 
 The **List** supports a great variety of features. To learn more about a particular feature, refer to a dedicated topic in this documentation section.
 

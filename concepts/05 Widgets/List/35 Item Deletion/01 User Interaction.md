@@ -1,13 +1,26 @@
 To allow the user to delete items from the **List**, set the [allowItemDeleting](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#allowItemDeleting) option to **true**. The mode in which the user deletes items depends on the value of the **itemDeleteMode** option. There are several modes that are enumerated in the code below. To spot the difference between them and choose the most suitable one, refer to the example that completes the [option's description](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#itemDeleteMode) in the API reference.
 
+---
+#####jQuery
+
     <!--JavaScript-->
     $(function() {
-		$("#listContainer").dxList({
+        $("#listContainer").dxList({
             // ...
             allowItemDeleting: true,
             itemDeleteMode: "toggle" // or "static" | "slideButton" | "slideItem" | "swipe" | "context"
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-list ...
+        [allowItemDeleting]="true"
+        itemDeleteMode="toggle"> <!-- or "static" | "slideButton" | "slideItem" | "swipe" | "context" -->
+    </dx-list>
+
+---
 
 [note]If **List** items are [supplied with the context menu](/Documentation/Guide/Widgets/List/Item_Context_Menu/), the **itemDeleteMode** option is ignored in favor of the [menuMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#menuMode) option.
 

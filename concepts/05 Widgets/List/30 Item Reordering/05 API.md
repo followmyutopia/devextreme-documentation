@@ -3,6 +3,9 @@ You can reorder **List** items from code in the following ways.
 - **By index**        
 Pass the index to the [reorderItem(itemIndex, toItemIndex)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#reorderItemitemIndex_toItemIndex) method. If the **List** is [grouped](/Documentation/Guide/Widgets/List/Grouping/In_the_Data_Source/), this method should be given two objects with the indexes of the groups and the items.
 
+    ---
+    #####jQuery
+
         <!--JavaScript-->
         var list = $("#listContainer").dxList("instance");
         // Places the item with index 1 after the item with index 5 
@@ -14,8 +17,36 @@ Pass the index to the [reorderItem(itemIndex, toItemIndex)](/Documentation/ApiRe
             { group: 4, item: 2 }
         );
 
+
+    #####Angular
+
+        <!--TypeScript-->
+        import { ..., ViewChild } from '@angular/core';
+        import { DxListModule, DxListComponent } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            @ViewChild(DxListComponent) list: DxListComponent;
+            reorderItems (index1, index2) {
+                // Places the item with index1 after the item with index2 
+                this.list.instance.reorderItem(index1, index2);
+            }
+            reorderItemsInGroups (groupIndex1, itemIndex1, groupIndex2, itemIndex2) {
+                // Takes the item with index itemIndex1 from the group with groupIndex1
+                // and places it to the group with groupIndex2 after the item with itemIndex2 
+                this.list.instance.reorderItem(
+                    { group: groupIndex1, item: itemIndex1 },
+                    { group: groupIndex2, item: itemIndex2 }
+                );
+            }
+        }
+
+    ---
+
 - **By DOM node**      
 Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [reorderItem(itemElement, toItemElement)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#reorderItemitemElement_toItemElement) method.
+
+    ---
+    #####jQuery
 
         <!--JavaScript-->
         var list = $("#listContainer").dxList("instance");
@@ -23,6 +54,24 @@ Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [re
         var itemNodes = $("#listContainer").find(".dx-list-item");
         // Makes the first item the last
         list.reorderItem(itemNodes[0], itemNodes[itemNodes.length-1]);
+
+    #####Angular
+
+        <!--TypeScript-->
+        import { ..., ViewChild } from '@angular/core';
+        import { DxListModule, DxListComponent } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            @ViewChild(DxListComponent) list: DxListComponent;
+            makeFirstItemLast () {
+                // Finds all List items
+                let itemNodes = document.getElementsByClassName("dx-list-item");
+                // Makes the first item the last
+                this.list.instance.reorderItem(itemNodes[0], itemNodes[itemNodes.length-1]);
+            }
+        }
+
+    ---
 
 #####See Also#####
 - [Widget Basics - Call Methods](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/)

@@ -1,5 +1,8 @@
 If you want to offer the user a set of commands related to a **List** item, you can do so with the context menu. To specify the commands, use the [menuItems](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/menuItems/) array. Each object in this array configures a single command.
 
+---
+#####jQuery
+
     <!--JavaScript-->var fruits = [
         { fruit: "Apples", count: 10 },
         { fruit: "Oranges", count: 12 },
@@ -14,23 +17,64 @@ If you want to offer the user a set of commands related to a **List** item, you 
             },
             menuItems: [{
                 text: "Add to Cart",
-                action: function(e) {
+                action: function (e) {
                     // ...
                     DevExpress.ui.notify(e.itemData.fruit + " are added to cart");
                 }
             }, {
                 text: "See Details",
-                action: function(e) {
+                action: function (e) {
                     // ...
                 }
             }, {
                 text: "Register a Complaint",
-                action: function(e) {
+                action: function (e) {
                     // ...
                 }
             }]
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-list
+        [dataSource]="fruits"
+        [menuItems]="menuItems">
+        <div *dxTemplate="let data of 'item'">
+            <b>{{data.fruit}}</b>
+        </div>
+    </dx-list>
+
+    <!--TypeScript-->
+    import notify from 'devextreme/ui/notify';
+    // ...
+    export class AppComponent {
+        fruits = [
+            { fruit: "Apples", count: 10 },
+            { fruit: "Oranges", count: 12 },
+            { fruit: "Lemons", count: 15 }
+        ];
+        menuItems = [{
+            text: "Add to Cart",
+            action: function (e) {
+                // ...
+                notify(e.itemData.fruit + " are added to cart");
+            }
+        }, {
+            text: "See Details",
+            action: function (e) {
+                // ...
+            }
+        }, {
+            text: "Register a Complaint",
+            action: function (e) {
+                // ...
+            }
+        }];
+    }
+
+---
 
 The user can access the commands in one of the following ways depending on the value of the [menuMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#menuMode) option.
 
@@ -42,6 +86,9 @@ The user swipes an item to access the commands. If the **menuItems** array conta
 
 <!---->
 
+---
+#####jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#listContainer").dxList({
@@ -49,6 +96,15 @@ The user swipes an item to access the commands. If the **menuItems** array conta
             menuMode: "context" // or "slide"
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-list
+        menuMode="context"> <!-- or "slide" -->
+    </dx-list>
+
+---
 
 #####See Also#####
 - [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)

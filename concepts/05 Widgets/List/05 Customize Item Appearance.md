@@ -1,5 +1,8 @@
 For a minor customization of **List** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three items: each item has a badge, the second is disabled and the third is hidden.
 
+---
+#####jQuery
+
     <!--JavaScript-->var fruits = [
         { text: "Apples", badge: 10 },
         { text: "Oranges", badge: 12, disabled: true },
@@ -12,11 +15,52 @@ For a minor customization of **List** items, you can use the default item templa
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for **List** items.
+#####Angular
+
+    <!--TypeScript-->
+    export class AppComponent {
+        fruits = [
+            { text: "Apples", badge: 10 },
+            { text: "Oranges", badge: 12, disabled: true },
+            { text: "Lemons", badge: 15, visible: false }
+        ];
+    }
+
+    <!--HTML-->
+    <dx-list
+        [dataSource]="fruits">
+    </dx-list>
 
 ---
 
-#####**AngularJS**
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for **List** items.
+
+---
+
+#####Angular
+
+    <!--HTML-->
+    <dx-list
+        [dataSource]="fruits"
+        itemTemplate="listItem">
+        <div *dxTemplate="let item of 'listItem'">
+            <b>{{item.name}}</b><br />
+            <p style="margin:0px">{{item.count}}</p>
+        </div>
+    </dx-list>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        fruits = [
+            { name: "Apples", count: 10 },
+            { name: "Oranges", count: 12 },
+            { name: "Lemons", count: 15 },
+            { name: "Pears", count: 20 },
+            { name: "Pineapples", count: 3 }
+        ];
+    }
+
+#####AngularJS
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -45,7 +89,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-#####**Knockout**
+#####Knockout
 
     <!--HTML-->
     <div data-bind="dxList: {

@@ -2,7 +2,54 @@ By default, group headers contain the text of the **key** field in a bold font. 
 
 ---
 
-#####**AngularJS**
+#####Angular
+
+    <!--HTML-->
+    <dx-list
+        [dataSource]="listDataSource"
+        [grouped]="true"
+        groupTemplate="group"
+        itemTemplate="item">
+        <div *dxTemplate="let itemObj of 'item'">
+            <p style="margin:0px">{{itemObj.name}} | {{itemObj.count}}</p>
+        </div>
+        <div *dxTemplate="let groupObj of 'group'">
+            <p>{{itemObj.key}} | {{itemObj.overallCount}}</p>
+        </div>
+    </dx-list>
+
+    <!--TypeScript-->
+    import DataSource from 'devextreme/data/data_source';
+    // ...
+    export class AppComponent {
+        fruitsVegetables = [{
+            key: "Fruits",
+            items: [
+                { name: "Apples", count: 10 },
+                { name: "Oranges", count: 12 },
+                { name: "Lemons", count: 15 }
+            ]
+        }, {
+            key: "Vegetables",
+            items: [
+                { name: "Potatoes", count: 5 },
+                { name: "Tomatoes", count: 9 },
+                { name: "Turnips", count: 8 }
+            ]
+        }];
+        listDataSource = new DataSource({
+            store: fruitsVegetables,
+            map: function(groupedItem) {
+                var overallCount = 0;
+                groupedItem.items.forEach(function(item) {
+                    overallCount += item.count;
+                })
+                return Object.assign(groupedItem, { overallCount: overallCount });
+            }
+        });
+    }
+
+#####AngularJS
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -40,20 +87,20 @@ By default, group headers contain the text of the **key** field in a bold font. 
                 ]
             }];
             $scope.listDataSource = new DevExpress.data.DataSource({
-            	store: fruitsVegetables,
+                store: fruitsVegetables,
                 map: function(groupedItem) {
-                	var overallCount = 0;
+                    var overallCount = 0;
                     groupedItem.items.forEach(function(item) {
-                    	overallCount += item.count;
+                        overallCount += item.count;
                     })
-                	return $.extend(groupedItem, { overallCount: overallCount })
+                    return $.extend(groupedItem, { overallCount: overallCount })
                 }
             });
         });
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-#####**Knockout**
+#####Knockout
 
     <!--HTML-->
     <div data-bind="dxList: {
@@ -104,19 +151,19 @@ If you use jQuery alone, combine the HTML markup for group headers manually with
     $(function() {
         $("#listContainer").dxList({
             dataSource: new DevExpress.data.DataSource({
-            	store: fruitsVegetables,
+                store: fruitsVegetables,
                 map: function(groupedItem) {
-                	var overallCount = 0;
+                    var overallCount = 0;
                     groupedItem.items.forEach(function(item) {
-                    	overallCount += item.count;
+                        overallCount += item.count;
                     });
-                	return $.extend(groupedItem, { overallCount: overallCount })
+                    return $.extend(groupedItem, { overallCount: overallCount })
                 }
             }),
             grouped: true,
             groupTemplate: function(groupData, _, groupElement) {
-            	groupElement.append(
-                	$("<p>").text(groupData.key + " | " + groupData.overallCount)
+                groupElement.append(
+                    $("<p>").text(groupData.key + " | " + groupData.overallCount)
                 )
             },
             itemTemplate: function(data, _, element) {

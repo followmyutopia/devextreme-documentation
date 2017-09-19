@@ -1,5 +1,8 @@
 To bind the **List** to data in a JSON format, assign the URL leading to data to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#dataSource) option.  
     
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#listContainer").dxList({
             dataSource: "https://jsonplaceholder.typicode.com/posts",
@@ -16,7 +19,23 @@ To bind the **List** to data in a JSON format, assign the URL leading to data to
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-list
+        dataSource="https://jsonplaceholder.typicode.com/posts">
+        <div *dxTemplate="let data of 'item'">
+            <i>{{data.id}}</i> | <b>{{data.title}}</b><br/>
+            <p style="margin-top:10px; white-space='normal'">{{data.body}}</p> 
+        </div>
+    </dx-list>
+
+---
+
 Note that you can also use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#listContainer").dxList({
@@ -24,6 +43,15 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
             // ...
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-list
+        dataSource="http://www.example.com/dataservices/jsonpdata?callback=?">
+    </dx-list>
+
+---
 
 If you need to process data after obtaining it, implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). For details, see the [Custom Sources](/Documentation/Guide/Widgets/List/Data_Binding/Custom_Sources/) topic.
 

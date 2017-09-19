@@ -1,5 +1,8 @@
 ﻿To bind the **List** to data provided by an OData service, use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#listContainer").dxList({
             dataSource: new DevExpress.data.ODataStore({
@@ -9,10 +12,10 @@
             itemTemplate: function(data, _, element) {
                 element.append(
                     $("<img />").attr("src", "data:image/jpg;base64," + data.Product_Primary_Image)
-                    			.height(30).width(30)
+                                .height(30).width(30)
                                 .addClass("item-image"),
                     $("<p>").text(data.Product_Name)
-                    		.addClass("item-text")
+                            .addClass("item-text")
                 )
             }
         });
@@ -28,7 +31,44 @@
         margin: 0px 0px 0px 10px;
     }
 
+#####Angular
+
+    <!--TypeScript-->
+    import ODataStore from 'devextreme/data/odata/store';
+    // ...
+    export class AppComponent {
+        listDataSource = new ODataStore({
+            url: "https://js.devexpress.com/Demos/DevAV/odata/Products",
+            key: "Product_ID"
+        });
+    }
+
+    <!--HTML-->
+    <dx-list
+        [dataSource]="listDataSource">
+        <div *dxTemplate="let data of 'item'">
+            <img class="item-image" src="data:image/jpg;base64,{{data.Product_Primary_Image}}" style="height:30px; width:30px">
+            <p class="item-text">{{data.Product_Name}}</p>
+        </div>
+    </dx-list>
+
+    <!--CSS-->
+    .item-image {
+        vertical-align: middle;
+    }
+
+    .item-text {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0px 0px 0px 10px;
+    }
+
+---
+
 Data kept in the **ODataStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). For example, the **DataSource** can group or filter data.
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#listContainer").dxList({
@@ -48,6 +88,36 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
             }
         });
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    import 'devextreme/data/odata/store';
+    import DataSource from 'devextreme/data/data_source';
+    // ...
+    export class AppComponent {
+        productDataSource = new DataSource({
+            store: {
+                type: "odata",
+                url: "https://js.devexpress.com/Demos/DevAV/odata/Products",
+                key: "Product_ID"
+            },
+            group: "Product_Category",
+            filter: ["Product_Available", "=", true]
+        });
+    }
+
+    <!--HTML-->
+    <dx-list
+        [dataSource]="productDataSource"
+        [grouped]="true" >
+        <div *dxTemplate="let data of 'item'">
+            <!-- The template is omitted for brevity -->
+            <!-- See the previous code example -->
+        </div>
+    </dx-list>
+
+---
 
 #####See Also#####
 - [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores)

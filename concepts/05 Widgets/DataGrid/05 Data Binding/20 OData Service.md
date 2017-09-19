@@ -19,7 +19,7 @@ Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind
 #####Angular
 
     <!--TypeScript-->
-    import 'devextreme/data/odata/store';
+    import ODataStore from 'devextreme/data/odata/store';
     // ...
     export class AppComponent {
         productStore = new ODataStore({

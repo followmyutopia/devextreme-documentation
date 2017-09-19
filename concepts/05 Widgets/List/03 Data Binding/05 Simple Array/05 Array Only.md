@@ -1,5 +1,8 @@
 To bind the **List** to an array, pass this array to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#dataSource) option. The array may contain primitive values...
 
+---
+#####jQuery
+
     <!--JavaScript-->var fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
 
     $(function() {
@@ -8,7 +11,24 @@ To bind the **List** to an array, pass this array to the [dataSource](/Documenta
         });
     });
 
+#####Angular
+
+    <!--TypeScript-->
+    export class AppComponent {
+        fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
+    }
+
+    <!--HTML-->
+    <dx-list
+        [dataSource]="fruits">
+    </dx-list>
+
+---
+
 ... or objects.
+
+---
+#####jQuery
 
     <!--JavaScript-->var fruits = [
         { fruit: "Apples", count: 10 },
@@ -30,7 +50,33 @@ To bind the **List** to an array, pass this array to the [dataSource](/Documenta
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-list>
+        <dxi-item *ngFor="let item of fruits">
+            <b>{{item.fruit}}</b><br/>
+            <p style="margin:0">{{item.count}}</p>
+        </dxi-item>
+    </dx-list>
+
+    <!--TypeScript-->
+    export class AppComponent {
+        fruits = [
+            { fruit: "Apples", count: 10 },
+            { fruit: "Oranges", count: 12 },
+            { fruit: "Lemons", count: 15 },
+            { fruit: "Pears", count: 20 },
+            { fruit: "Pineapples", count: 3 }
+        ];
+    }
+
+---
+
 If objects in an array need to be processed (sorted, filtered, grouped, etc.), you can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept). For example, in the following code, a Query sorts objects in the `fruits` array by the `count` field in descending order.
+
+---
+#####jQuery
 
     <!--JavaScript-->var fruits = [
         { fruit: "Apples", count: 10 },
@@ -40,7 +86,7 @@ If objects in an array need to be processed (sorted, filtered, grouped, etc.), y
     $(function() {
         $("#listContainer").dxList({
             dataSource: DevExpress.data.query(fruits)
-        				    .sortBy("count", true)
+                            .sortBy("count", true)
                             .toArray(),
             itemTemplate: function(data, _, element) {
                 element.append(
@@ -50,6 +96,34 @@ If objects in an array need to be processed (sorted, filtered, grouped, etc.), y
             }
         });
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    import query from 'devextreme/data/query';
+    // ...
+    export class AppComponent {
+        fruits = [
+            { fruit: "Apples", count: 10 },
+            // ...
+        ];
+        getSortedFruits () {
+            return query(this.fruits)
+                    .sortBy("count", true)
+                    .toArray();
+        }
+    }
+
+    <!--HTML-->
+    <dx-list
+        [dataSource]="getSortedFruits()">
+        <div *dxTemplate="let data of 'item'">
+            <b>{{data.fruit}}</b><br/>
+            <p style="margin:0">{{data.count}}</p>
+        </div>
+    </dx-list>
+
+---
 
 #####See Also#####
 - [Data Layer - Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)

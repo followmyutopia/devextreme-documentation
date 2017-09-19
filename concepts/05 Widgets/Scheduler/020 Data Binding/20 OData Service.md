@@ -17,7 +17,7 @@ To bind the **Scheduler** to data provided by an OData service, use the [ODataSt
 ##### Angular
 
     <!--TypeScript-->
-    import 'devextreme/data/odata/store';
+    import ODataStore from 'devextreme/data/odata/store';
     // ...
     export class AppComponent {
         appointmentStore = new ODataStore({
