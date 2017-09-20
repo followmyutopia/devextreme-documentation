@@ -7,6 +7,12 @@
 <!--merge--><!--/merge-->
 <!--type-->method<!--/type-->
 ===========================================================================
+
+<!--paramName1-->options<!--/paramName1-->
+<!--paramType1-->object<!--/paramType1-->
+<!--paramDescription1-->
+
+<!--/paramDescription1-->
 <!--paramName1_field8-->expand<!--/paramName1_field8-->
 <!--paramType1_field8-->string|array<!--/paramType1_field8-->
 <!--paramDescription1_field8-->

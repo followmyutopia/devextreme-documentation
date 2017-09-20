@@ -5,12 +5,12 @@
 
 **-->
 ===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->any<!--/type-->
+<!--default-->true<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the current value displayed by the widget.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

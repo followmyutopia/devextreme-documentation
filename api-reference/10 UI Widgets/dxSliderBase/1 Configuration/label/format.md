@@ -5,12 +5,12 @@
 
 **-->
 ===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->any<!--/type-->
+<!--default-->function(value) { return value }<!--/default-->
+<!--type-->format<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the current value displayed by the widget.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

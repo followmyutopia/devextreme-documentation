@@ -11,7 +11,7 @@
 Starts loading data.
 <!--/shortDescription-->
 
-<!--paramName1-->obj<!--/paramName1-->
+<!--paramName1-->options<!--/paramName1-->
 <!--paramType1-->object<!--/paramType1-->
 <!--paramDescription1-->
 The object specifying data shaping options.

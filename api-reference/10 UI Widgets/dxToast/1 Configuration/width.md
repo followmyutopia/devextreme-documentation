@@ -11,5 +11,4 @@
 <!--custom_default_for_android-->'auto'<!--/custom_default_for_android-->
 <!--custom_default_for_android_phone-->function() { return $(window).width(); }<!--/custom_default_for_android_phone-->
 <!--custom_default_for_windows_phone_10-->function() { return $(window).width(); }<!--/custom_default_for_windows_phone_10-->
-<!--type-->Number|String|function()<!--/type-->
 ===========================================================================

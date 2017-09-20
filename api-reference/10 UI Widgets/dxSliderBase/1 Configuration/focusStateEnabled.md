@@ -5,5 +5,5 @@
 
 **-->
 <!--merge--><!--/merge-->
-<!--custom_default_for_windows_8-->function() { return $(window).width(); }<!--/custom_default_for_windows_8-->
+<!--custom_default_for_generic-->true<!--/custom_default_for_generic-->
 ===========================================================================

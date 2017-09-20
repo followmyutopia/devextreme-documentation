@@ -6,11 +6,11 @@
 **-->
 ===========================================================================
 <!--default-->''<!--/default-->
-<!--type-->any<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the current value displayed by the widget.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

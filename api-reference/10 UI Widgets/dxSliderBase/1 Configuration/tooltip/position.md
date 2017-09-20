@@ -5,12 +5,13 @@
 
 **-->
 ===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->any<!--/type-->
+<!--default-->'top'<!--/default-->
+<!--acceptValues-->'top' | 'bottom'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the current value displayed by the widget.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

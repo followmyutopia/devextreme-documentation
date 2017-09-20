@@ -10,7 +10,7 @@
 ===========================================================================
 <!--module-->ui/range_slider<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\dxSlider\dxSlider.md<!--/inherits-->
+<!--inherits-->..\dxSliderBase\dxSliderBase.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

@@ -5,12 +5,12 @@
 
 **-->
 ===========================================================================
-<!--default-->''<!--/default-->
-<!--type-->any<!--/type-->
+<!--hidden--><!--/hidden-->
+<!--inherits-->..\dxTrackBar\dxTrackBar.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the current value displayed by the widget.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
