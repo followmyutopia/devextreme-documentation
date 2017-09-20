@@ -20,6 +20,9 @@ If you are using the modular approach, link the localization module as demonstra
     //Loads messages from the dictionary.
     localization.loadMessages(deMessages);
 
+
+[note]The way you link modules depends on the selected module loader (for example, [jspm](https://jspm.io/docs/plugins.html), [Webpack](https://webpack.js.org/loaders/#json) or others).
+
 If you are using Globalize, refer to the [Localization - Use Globalize](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) article to learn how to link Globalize modules.
 
 For information on linking modules required for Intl localization, refer to [Intl](https://github.com/DevExpress/DevExtreme-Intl#getting-started) documentation.
