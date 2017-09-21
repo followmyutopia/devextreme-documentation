@@ -27,6 +27,20 @@ To set up this layout, describe the hierarchy of columns directly in an object o
             <dxi-column dataField="Skype"></dxi-column>
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -58,6 +72,8 @@ If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxDataG
 ##### Angular
     
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         customizeColumns (columns) {
             columns.push({ // Pushes the "Contacts" band column into the "columns" array
@@ -72,6 +88,13 @@ If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxDataG
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ...
@@ -121,6 +144,20 @@ Band columns support hierarchies of any nesting level making the following struc
             </dxi-column>
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

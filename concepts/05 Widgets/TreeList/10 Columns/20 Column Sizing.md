@@ -26,6 +26,20 @@ If you do not explicitly specify certain columns' [width](/Documentation/ApiRefe
         <dxi-column dataField="Title" [width]="200"></dxi-column>
         <dxi-column dataField="Address" [minWidth]="150"></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -48,6 +62,20 @@ Set the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Conf
     <dx-tree-list ...
         [columnAutoWidth]="true">
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -78,6 +106,20 @@ The widget allows a user to resize columns in two different modes: by changing t
         columnResizingMode="widget"> <!-- or 'nextColumn' -->
         <dxi-column dataField="Title" [allowResizing]="false"></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

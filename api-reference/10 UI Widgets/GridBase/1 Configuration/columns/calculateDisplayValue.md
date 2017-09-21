@@ -37,6 +37,20 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         </dxi-column>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->
@@ -85,11 +99,20 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         getCountryWithCapital(rowData) {
             return rowData.capital + " (" + rowData.country + ")";
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ##### ASP.NET MVC Controls
 

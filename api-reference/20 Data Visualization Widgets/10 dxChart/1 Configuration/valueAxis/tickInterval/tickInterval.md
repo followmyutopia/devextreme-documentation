@@ -41,6 +41,20 @@ If the axis displays numbers, assign a number to this option. If the axis displa
         </dxi-value-axis>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 When you use an axis of the *"logarithmic"* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type), ticks are generated on a base of powers. For example, assuming that the [logarithm base](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#logarithmBase) is 10 and the tick interval is 1, ticks are generated at 10<sup>-2</sup>, 10<sup>-1</sup>, 10<sup>0</sup>, 10<sup>1</sup>, 10<sup>2</sup>, 10<sup>3</sup>, etc. If the tick interval becomes 2, ticks are generated at 10<sup>-1</sup>, 10<sup>1</sup>, 10<sup>3</sup>, etc.

@@ -41,6 +41,20 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
             <dxi-column dataField="Apartment"></dxi-column>
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -87,6 +101,20 @@ For example, the following code specifies the **width** and **sortOrder** option
             <dxi-column dataField="Apartment"></dxi-column>
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -135,6 +163,20 @@ Band columns support hierarchies of any nesting level. It means that the followi
             ...
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

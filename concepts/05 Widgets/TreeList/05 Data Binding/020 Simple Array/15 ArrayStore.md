@@ -17,6 +17,7 @@ If you want to extend the functionality of a JavaScript array, place it into an 
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
     import ArrayStore from 'devextreme/data/array_store';
     // ...
     export class AppComponent {
@@ -30,6 +31,13 @@ If you want to extend the functionality of a JavaScript array, place it into an 
             }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-tree-list
         [dataSource]="employeeStore">
@@ -63,6 +71,7 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {
@@ -74,6 +83,13 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
             sort: { getter: "fullName", desc: true }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-tree-list
         [dataSource]="employeeDataSource">

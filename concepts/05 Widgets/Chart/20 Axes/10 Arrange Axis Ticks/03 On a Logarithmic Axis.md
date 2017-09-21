@@ -24,6 +24,20 @@ A logarithmic axis indicates numeric values; each of them is the [logarithmBase]
         </dxo-argument-axis>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 As an alternative to **tickInterval**, you can use the [axisDivisionFactor](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#axisDivisionFactor) option to arrange ticks. This option specifies the minimum distance between two side-by-side ticks in pixels.
@@ -51,6 +65,20 @@ As an alternative to **tickInterval**, you can use the [axisDivisionFactor](/Doc
             <dxo-tick [visible]="true"></dxo-tick>
         </dxo-argument-axis>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

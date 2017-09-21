@@ -39,6 +39,21 @@ The master-detail interface becomes available after you specify the detail secti
         </div>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
+
 ---
 
 Once loaded, a detail section's content remains cached until a user switches to another page in the **DataGrid** or reloads the web page.

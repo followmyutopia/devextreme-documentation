@@ -25,6 +25,8 @@ To bind the **PieChart** to an array, pass this array to the [dataSource](/Docum
 ##### Angular
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruits = [
             { fruit: 'Apples', count: 10 },
@@ -34,6 +36,13 @@ To bind the **PieChart** to an array, pass this array to the [dataSource](/Docum
             { fruit: 'Pineapples', count: 3 }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-pie-chart [dataSource]="fruits">
         <!-- See details in the "Bind Series to Data" topic -->
@@ -68,6 +77,7 @@ If objects in the array need to be processed (sorted, filtered, etc.), you can c
 ##### Angular
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
     import query from 'devextreme/data/query';
     // ...
     export class AppComponent {
@@ -82,6 +92,13 @@ If objects in the array need to be processed (sorted, filtered, etc.), you can c
             return query(this.fruits).sortBy("count", true).toArray();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-pie-chart [dataSource]="getSortedFruits()">
         <dxi-series argumentField="fruit" valueField="count"></dxi-series>

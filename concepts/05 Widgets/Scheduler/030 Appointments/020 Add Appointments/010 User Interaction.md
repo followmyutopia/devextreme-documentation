@@ -31,4 +31,18 @@ To prevent an end user from adding an appointment, set the **editing**.[allowAdd
         <dxo-editing [allowAdding]="false"></dxo-editing>
     </dx-scheduler>
 
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
+
 ---

@@ -25,6 +25,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import { Http, HttpModule } from '@angular/http';
+    import { DxSchedulerModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -40,6 +41,14 @@ You need to configure the **CustomStore** in detail for accessing a server built
             })
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-scheduler
@@ -132,6 +141,7 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { DxSchedulerModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -168,6 +178,14 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-scheduler

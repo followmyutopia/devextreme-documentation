@@ -26,6 +26,20 @@ Client-side exporting requires referencing the [JSZip](https://stuk.github.io/js
         <dxo-export [enabled]="true"></dxo-export>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 The resulting file gets its name from the [fileName](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#fileName) option, and may contain only selected rows if you set the [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option to **true**.
@@ -57,6 +71,20 @@ The resulting file gets its name from the [fileName](/Documentation/ApiReference
             fileName="NewFileName">
         </dxo-export>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

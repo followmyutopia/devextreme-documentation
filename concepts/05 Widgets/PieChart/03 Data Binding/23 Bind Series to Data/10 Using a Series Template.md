@@ -40,6 +40,8 @@ After that, use the **seriesTemplate**.[nameField](/Documentation/ApiReference/D
     </dx-pie-chart>
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruitProduction = [
             { fruit: "Apples", year: 2014, produced: 84 },
@@ -50,6 +52,13 @@ After that, use the **seriesTemplate**.[nameField](/Documentation/ApiReference/D
             { fruit: "Oranges", year: 2016, produced: 76 }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -94,6 +103,8 @@ If you need to change options of a particular series, return an [object with the
     </dx-pie-chart>
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruitProduction = [
             { fruit: "Apples", year: 2014, produced: 84 },
@@ -104,6 +115,13 @@ If you need to change options of a particular series, return an [object with the
             return seriesName == 2016 ? { color: 'blue' } : { }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

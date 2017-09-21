@@ -30,6 +30,13 @@ The following code adds a simple **List** to your page. The simplest configurati
     export class AppComponent {
         fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 ---
 

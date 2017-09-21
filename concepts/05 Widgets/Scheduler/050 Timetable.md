@@ -39,6 +39,8 @@ The **Scheduler** widget allows you to customize its timetable: to specify the t
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
     export class AppComponent  {
         schedulerData = [{
             text: "Website Re-Design Plan",
@@ -53,6 +55,13 @@ The **Scheduler** widget allows you to customize its timetable: to specify the t
         ];
         currentDate = new Date(2016, 4, 25);
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -83,6 +92,8 @@ In addition, you can define custom templates for cells, time scales and date sca
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
     export class AppComponent  {
         schedulerData = [{
             text: "His Girl Friday",
@@ -97,7 +108,14 @@ In addition, you can define custom templates for cells, time scales and date sca
         ];
         currentDate = new Date(2016, 4, 24);
     }
-
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 #####**AngularJS**
 

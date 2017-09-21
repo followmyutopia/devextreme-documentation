@@ -18,6 +18,13 @@ Regardless of the data source you use, the **List** always wraps it in the [Data
             this.listDataSource = this.dataGrid.instance.getDataSource();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
     
 ---
 

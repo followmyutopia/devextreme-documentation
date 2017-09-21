@@ -22,6 +22,20 @@ To activate the loading indicator, assign **true** to the [loadingIndicator](/Do
         <dxo-loading-indicator [show]="true"></dxo-loading-indicator>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 If you need to show or hide the loading indicator at runtime, call the [showLoadingIndicator()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#showLoadingIndicator) or [hideLoadingIndicator()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#hideLoadingIndicator) method.
@@ -48,6 +62,13 @@ If you need to show or hide the loading indicator at runtime, call the [showLoad
             this.chart.instance.hideLoadingIndicator();
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

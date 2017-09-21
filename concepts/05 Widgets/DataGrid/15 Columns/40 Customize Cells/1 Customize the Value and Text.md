@@ -19,11 +19,20 @@ Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Config
 ##### Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         priceColumn_customizeText (cellInfo) {
             return cellInfo.value + "$";
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ... >
@@ -53,11 +62,20 @@ Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGr
 ##### Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fullNameColumn_calculateCellValue (rowData) {
             return rowData.firstName + " " + rowData.lastName;
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ... >

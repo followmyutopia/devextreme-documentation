@@ -31,6 +31,20 @@ Set the [showNavigationButtons](/Documentation/ApiReference/UI_Widgets/dxDataGri
         </dxo-pager>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 Assign **true** to the [showInfo](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#showInfo) option to show the page information. You can change the default text by specifiyng the [infoText](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/#infoText).
@@ -63,6 +77,20 @@ Assign **true** to the [showInfo](/Documentation/ApiReference/UI_Widgets/dxDataG
             infoText="Page #{0}. Total: {1} ({2} items)">
         </dxo-pager>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

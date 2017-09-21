@@ -60,6 +60,14 @@ The **Chart** can be zoomed and scrolled using the [RangeSelector](/Documentatio
             this.chart.instance.zoomArgument(e.value[0], e.value[1]);
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule,
+            DxRangeSelectorModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -95,6 +103,21 @@ If you need to fix a zoom window and allow the user only to move it along the sc
         [value]="[0, 10]">
         <dxo-scale [minRange]="10" [maxRange]="10"></dxo-scale>
     </dx-range-selector>
+
+    <!--TypeScript-->
+    import { DxChartModule, DxRangeSelectorModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule,
+            DxRangeSelectorModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -40,6 +40,20 @@ Groups are sorted by values of a column they are grouped by. You can also sort t
         </dxi-sort-by-group-summary-info>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 Summary-based sorting is applied when you group data by any column. If you need to apply it only when a specific column groups data, specify its name in the [groupColumn](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/sortByGroupSummaryInfo/#groupColumn) field.
@@ -99,6 +113,20 @@ Summary-based sorting is applied when you group data by any column. If you need 
             sortOrder="desc">         
         </dxi-sort-by-group-summary-info>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

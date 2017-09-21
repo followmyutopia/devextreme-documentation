@@ -21,6 +21,20 @@ The column chooser allows a user to change the set of columns at runtime. It is 
             mode="dragAndDrop"> <!-- or "select" -->
         </dxo-column-chooser>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -56,6 +70,20 @@ Set a column's [allowHiding](/Documentation/ApiReference/UI_Widgets/dxDataGrid/C
             [showInColumnChooser]="false"> <!-- does not appear in the column chooser even when hidden -->
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -84,6 +112,13 @@ Call the [showColumnChooser()](/Documentation/ApiReference/UI_Widgets/dxDataGrid
             this.dataGrid.instance.hideColumnChooser();
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

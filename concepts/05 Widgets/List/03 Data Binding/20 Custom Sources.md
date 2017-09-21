@@ -24,6 +24,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import { Http, HttpModule } from '@angular/http';
+    import { DxListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -39,6 +40,14 @@ You need to configure the **CustomStore** in detail for accessing a server built
             })
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-list
@@ -162,6 +171,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { DxListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -181,7 +191,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
                     params.set("filter", loadOptions.filter);
                     params.set("requireTotalCount", loadOptions.requireTotalCount);
                     params.set("group", loadOptions.group);
-                    return http.get('http://mydomain.com/MyDataService' + {
+                    return http.get('http://mydomain.com/MyDataService', {
                                     search: params
                                 })
                                 .toPromise()
@@ -201,6 +211,14 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-list

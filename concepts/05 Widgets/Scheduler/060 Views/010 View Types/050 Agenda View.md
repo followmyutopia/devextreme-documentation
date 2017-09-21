@@ -24,9 +24,11 @@ By default, the **agenda** view displays appointments for seven dates at a time 
     <!--HTML-->
     <dx-scheduler ...
         [views]="agendaView">
-    </dx-sxheduler>
+    </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
     export class AppComponent  { 
         // ...
         agendaView = [{
@@ -34,6 +36,13 @@ By default, the **agenda** view displays appointments for seven dates at a time 
             agendaDuration: 5
         }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---
 

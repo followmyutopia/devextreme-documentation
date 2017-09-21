@@ -38,6 +38,8 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
 ##### Angular
     
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onEditorPreparing (e) {
             if (e.dataField == "requiredDataField") {
@@ -51,6 +53,13 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ... 

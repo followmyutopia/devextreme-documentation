@@ -26,6 +26,20 @@ To enable both export and printing, assign **true** to the [export](/Documentati
         </dxo-export>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 If you want to restrict the set of formats available for export, change the **export**.[formats](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#formats) array. You can also specify the default name for the exported file using the [fileName](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#fileName) option.
@@ -53,6 +67,20 @@ If you want to restrict the set of formats available for export, change the **ex
             fileName="exported_chart">
         </dxo-export>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

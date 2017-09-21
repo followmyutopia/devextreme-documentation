@@ -41,6 +41,20 @@ To enable grouping using the context menu, assign **true** to the [contextMenuEn
             <dxo-group-panel [visible]="true"></dxo-group-panel>
         </dx-data-grid>
 
+        <!--TypeScript-->
+        import { DxDataGridModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
+
     ---
     
     If you need to disable grouping for an individual column, assign **false** to the [allowGrouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping) property of this column.
@@ -66,6 +80,20 @@ There are two modes defining how the user expands/collapses groups. The *"button
         <dx-data-grid ... >
             <dxo-grouping [expandMode]="buttonClick"></dxo-grouping> <!-- or 'rowClick' -->
         </dx-data-grid>
+
+        <!--TypeScript-->
+        import { DxDataGridModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -94,6 +122,20 @@ There are two modes defining how the user expands/collapses groups. The *"button
                 [allowCollapsing]="false">
             </dxo-grouping>
         </dx-data-grid>
+
+        <!--TypeScript-->
+        import { DxDataGridModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
 
     ---
 

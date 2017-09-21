@@ -31,6 +31,8 @@ Use a variable that is declared in the template via the `let` keyword to access 
     </div>
 
     <!--TypeScript-->
+    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
     export class AppComponent  { 
         // ...
         views = [
@@ -38,6 +40,14 @@ Use a variable that is declared in the template via the `let` keyword to access 
             { type: "workWeek", timeCellTemplate: "timeCellTemplate" }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 
 #####AngularJS#####

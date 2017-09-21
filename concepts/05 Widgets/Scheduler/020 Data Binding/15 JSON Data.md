@@ -16,6 +16,20 @@ To bind the **Scheduler** to data in the JSON format, assign a URL leading to da
         dataSource="http://url/to/json/data">
     </dx-scheduler>
 
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
+
 ---
 
 Note that you can also use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
@@ -36,6 +50,20 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     <dx-scheduler
         dataSource="http://url/to/json/data/jsonpdata?callback=?">
     </dx-scheduler>
+
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -24,6 +24,20 @@ The axis title is configured by the [title](/Documentation/ApiReference/Data_Vis
         </dxo-argument-axis>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 is the same as this:
@@ -49,6 +63,20 @@ is the same as this:
             <dxo-title text="Axis Title"></dxo-title>
         </dxo-argument-axis>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

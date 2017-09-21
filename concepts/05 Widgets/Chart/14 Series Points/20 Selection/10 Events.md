@@ -25,6 +25,8 @@ When a user selects a series point, the **Chart** fires the [pointSelectionChang
     </dx-chart>
 
     <!--JavaScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onPointSelectionChanged (e) {
             let point = e.target;
@@ -35,6 +37,13 @@ When a user selects a series point, the **Chart** fires the [pointSelectionChang
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

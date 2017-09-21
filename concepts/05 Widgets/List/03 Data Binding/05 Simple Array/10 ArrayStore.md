@@ -23,6 +23,7 @@
 #####Angular
 
     <!--TypeScript-->
+    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
     import ArrayStore from 'devextreme/data/array_store';
     // ...
     export class AppComponent {
@@ -34,6 +35,14 @@
             }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-list
         [dataSource]="fruitStore">
@@ -72,6 +81,7 @@ Data kept in an **ArrayStore** can be processed in the [DataSource](/Documentati
 #####Angular
 
     <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {
@@ -89,6 +99,13 @@ Data kept in an **ArrayStore** can be processed in the [DataSource](/Documentati
             }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-list

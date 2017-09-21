@@ -28,6 +28,20 @@ When adapting to a small container or screen, the **DataGrid** can hide columns.
         <dxi-column [hidingPriority]="1" ... ></dxi-column> <!-- a not-so-valuable column -->
         <dxi-column [hidingPriority]="0" ... ></dxi-column> <!-- a first-to-hide column -->
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -60,6 +74,13 @@ You can expand or collapse adaptive detail rows programmatically by calling the 
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -84,6 +105,8 @@ All adaptive detail rows contain the [DevExtreme Form widget](/Documentation/Api
 ##### Angular
     
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onAdaptiveDetailRowPreparing (e) {
             for (let formItem of e.formOptions.items) {
@@ -93,6 +116,13 @@ All adaptive detail rows contain the [DevExtreme Form widget](/Documentation/Api
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ...

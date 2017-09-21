@@ -116,7 +116,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxSchedulerComponent } from 'devextreme-angular';
+    import { DxSchedulerModule, DxSchedulerComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxSchedulerComponent) scheduler: DxSchedulerComponent
@@ -129,6 +129,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---
 

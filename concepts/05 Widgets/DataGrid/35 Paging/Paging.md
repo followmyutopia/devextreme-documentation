@@ -26,6 +26,20 @@ Paging is used to load data in portions, which improves the widget's performance
         </dxo-paging>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 When working with small datasets, you can disable paging by setting the **paging**.[enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#enabled) option to **false**.
@@ -49,6 +63,20 @@ When working with small datasets, you can disable paging by setting the **paging
     <dx-data-grid ... >
         <dxo-paging [enabled]="false"></dxo-paging>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

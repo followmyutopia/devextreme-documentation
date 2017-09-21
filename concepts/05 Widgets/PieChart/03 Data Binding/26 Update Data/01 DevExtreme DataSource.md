@@ -46,6 +46,13 @@ This technique is universal for any data source as anything passed to the [dataS
             this.ds = this.pieChart.instance.getDataSource();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
     
 ---
 

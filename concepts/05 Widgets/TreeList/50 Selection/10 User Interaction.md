@@ -19,6 +19,20 @@ The **TreeList** widget supports single and multiple row selection. Use the **se
             mode="single"> <!-- "multiple" | "none" -->
         </dxo-selection>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -49,6 +63,20 @@ You can disable the latter capability by setting the **selection**.[allowSelectA
             [allowSelectAll]="false">
         </dxo-selection>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

@@ -26,6 +26,20 @@ To allow a user to add, delete and update data in the **DataGrid**, assign **tru
         </dxo-editing>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 With these settings, the **DataGrid** expects that the server can also add, update and delete data. In addition, you need to configure the **CustomStore** as shown below. Note that in this example, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the **DataSource** configuration object to shorten the example.
@@ -69,6 +83,13 @@ With these settings, the **DataGrid** expects that the server can also add, upda
 #####Angular
 
     <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { DxDataGridModule } from 'devextreme-angular';
+    import DataSource from 'devextreme/data/data_source';
+    import CustomStore from 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
     export class AppComponent {
         gridDataSource: any = {};
         constructor(@Inject(Http) http: Http) {
@@ -89,6 +110,14 @@ With these settings, the **DataGrid** expects that the server can also add, upda
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-data-grid ...
         [dataSource]="gridDataSource">

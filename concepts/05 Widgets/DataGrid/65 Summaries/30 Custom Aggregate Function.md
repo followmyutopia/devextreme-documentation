@@ -72,6 +72,8 @@ The last call for the summary item. At this stage finalize calculations, for exa
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateMeans (e) {
             if (e.name == "Mean") {
@@ -98,6 +100,13 @@ The last call for the summary item. At this stage finalize calculations, for exa
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -144,6 +153,8 @@ The **value** field of the function's parameter provides access to data, and thi
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateCustomSummary (e) {
             if (e.name === "SelectedRowsSummary") {
@@ -157,6 +168,13 @@ The **value** field of the function's parameter provides access to data, and thi
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

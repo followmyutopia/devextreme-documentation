@@ -19,6 +19,20 @@ With the **TreeList** widget, a user can sort by single and multiple columns. Us
             mode="single"> <!-- or "multiple" | "none" -->
         </dxo-sorting>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -50,5 +64,19 @@ To disable sorting in the whole widget, set the **sorting**.**mode** option to *
     <dx-tree-list ... >
         <dxi-column [allowSorting]="false"></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---

@@ -36,6 +36,20 @@ Use the **editing**.[popup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Co
             <dxo-popup [showTitle]="true" title="Row in the editing state"></dxo-popup>
         </dxo-editing>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

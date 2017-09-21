@@ -27,6 +27,20 @@ Use the **scrolling**.[mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/C
             mode="standard"> <!-- or "virtual" -->
         </dxo-scrolling>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -51,6 +65,20 @@ The **TreeList** adapts its scrolling mechanism to the current platform. It util
             [useNative]="true"> <!-- or false | "auto" -->
         </dxo-scrolling>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -81,6 +109,20 @@ The current platform determines the native scrolling settings and you cannot adj
             showScrollbar="onHover"> <!-- or "onClick" | "always" | "never" -->
         </dxo-scrolling>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

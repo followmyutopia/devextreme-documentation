@@ -19,6 +19,8 @@ For a minor customization of **Autocomplete** items, you can use the default ite
 ##### Angular
 
     <!--TypeScript-->
+    import { DxAutocompleteModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         autocompleteData = [
             { text: "James" },
@@ -26,6 +28,13 @@ For a minor customization of **Autocomplete** items, you can use the default ite
             { text: "Joseph", visible: false }
         ]
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxAutocompleteModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-autocomplete
@@ -54,6 +63,8 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-autocomplete>
 
     <!--TypeScript-->
+    import { DxAutocompleteModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         autocompleteData = [
             { country: "Afghanistan", capital: "Kabul" },
@@ -61,6 +72,13 @@ Using the default item template is the easiest way to customize an item, but it 
             // ...
         ]
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxAutocompleteModule
+        ],
+        // ...
+    })
 
 #####**AngularJS**
 

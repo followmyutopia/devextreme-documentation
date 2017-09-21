@@ -41,6 +41,8 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Confi
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onEditorPreparing (e) {
             if (e.dataField == "Name") {
@@ -55,6 +57,13 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Confi
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -97,11 +106,20 @@ Implement the **columns[]**.[editCellTemplate](/Documentation/ApiReference/UI_Wi
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         setCheckBoxValue (args, cellInfo) {
             cellInfo.setValue(args.target.checked);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -132,6 +150,20 @@ Editors are displayed in cells in the normal state too if you set the **columns*
             [showEditorAlways]="true">
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

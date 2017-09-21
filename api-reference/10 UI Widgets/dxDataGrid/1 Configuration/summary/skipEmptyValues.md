@@ -62,6 +62,8 @@ Specified in the **summary** object, this option affects all summaries in the gr
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateSummary (options) {
             if (options.name == 'customSummary1') {
@@ -76,6 +78,13 @@ Specified in the **summary** object, this option affects all summaries in the gr
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 <!--/fullDescription-->

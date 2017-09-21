@@ -18,6 +18,20 @@ In the **List** widget, selection is disabled by default. To enable it, choose o
         selectionMode="single"> <!-- or "multiple" | "all" | "none" (disables selection) -->
     </dx-list>
 
+    <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
+
 ---
 
 To select a **List** item, an end user simply clicks or taps it. Selected items become shaded. If you want to indicate selected items more manifestly, set the [showSelectionControls](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#showSelectionControls) option to **true**. This setting adds a check box to each item on the **List**. Also, make this setting if you use the *"all"* **selectionMode**. Otherwise, the *"Select All"* check box will be missing.
@@ -40,6 +54,20 @@ To select a **List** item, an end user simply clicks or taps it. Selected items 
         [showSelectionControls]="true"> 
     </dx-list>
 
+    <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
+
 ---
 
 When data in the **List** is [paginated](/Documentation/Guide/Widgets/List/Paging/), you can choose whether the *"Select All"* check box will select all items on all pages or items on the currently rendered pages only. To make this choice, specify the [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectAllMode) option.
@@ -61,6 +89,20 @@ When data in the **List** is [paginated](/Documentation/Guide/Widgets/List/Pagin
     <dx-list ...
         selectAllMode="allPages"> <!-- or "page" -->
     </dx-list>
+
+    <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 ---
 

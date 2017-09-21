@@ -45,7 +45,7 @@ The simplest widget configuration requires specifying a [dataSource](/Documentat
     </dx-drop-down-box>
 
     <!--TypeScript-->
-    import { DxDropDownBoxModule, DxListModule } from 'devextreme-angular';
+    import { DxDropDownBoxModule, DxListModule, DxTemplateModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
@@ -56,6 +56,15 @@ The simplest widget configuration requires specifying a [dataSource](/Documentat
             this.isDropDownBoxOpened = false;
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDropDownBoxModule,
+            DxListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -128,7 +137,7 @@ If your data is an array of objects, specify:
     </dx-drop-down-box>
 
     <!--TypeScript-->
-    import { DxDropDownBoxModule, DxDataGridModule } from 'devextreme-angular';
+    import { DxDropDownBoxModule, DxDataGridModule, DxTemplateModule } from 'devextreme-angular';
     import ArrayStore from 'devextreme/data/array_store';
     // ...
     export class AppComponent  {
@@ -146,6 +155,15 @@ If your data is an array of objects, specify:
             this.isDropDownBoxOpened = false;
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDropDownBoxModule,
+            DxDataGridModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 ---
 

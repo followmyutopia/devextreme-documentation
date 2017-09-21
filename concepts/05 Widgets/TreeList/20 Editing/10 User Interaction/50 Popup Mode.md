@@ -36,6 +36,20 @@ Use the **editing**.[popup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Co
             <dxo-popup [showTitle]="true" title="Row in the editing state"></dxo-popup>
         </dxo-editing>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

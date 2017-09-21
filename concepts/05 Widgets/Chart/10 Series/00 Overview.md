@@ -23,6 +23,20 @@ The most important characteristic of a series is its type. The **Chart** provide
         <dxi-series type="bar" ... ></dxi-series>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+	@NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 A single **Chart** can contain several series at once. In this case, the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) option accepts an array of series objects. To enable a user to identify a series among others on the [chart legend](/Documentation/Guide/Widgets/Chart/Legend/Overview/), specify its [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name).
@@ -51,6 +65,20 @@ A single **Chart** can contain several series at once. In this case, the [series
         <dxi-series type="bar" name="Men" ... ></dxi-series>
         <dxi-series type="area" name="Women" ... ></dxi-series>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+	@NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -95,6 +123,20 @@ Note that individual settings override type-specific settings which, in turn, ov
             </dxo-bar>
         </dxo-common-series-settings>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+	@NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

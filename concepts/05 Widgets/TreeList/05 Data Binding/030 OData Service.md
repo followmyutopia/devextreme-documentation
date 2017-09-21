@@ -18,6 +18,7 @@ Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
     import ODataStore from 'devextreme/data/odata/store';
     // ...
     export class AppComponent {
@@ -29,6 +30,13 @@ Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind
             }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-tree-list
         [dataSource]="productStore">
@@ -57,6 +65,7 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
     import 'devextreme/data/odata/store';
     import DataSource from 'devextreme/data/data_source';
     // ...
@@ -70,6 +79,13 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
             filter: ["Product_Available", "=", true]
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-tree-list
         [dataSource]="productDataSource">

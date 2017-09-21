@@ -51,6 +51,20 @@ Note that the financial series require four value fields: [openValueField](/Docu
         </dxo-common-series-settings>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Financial series gauge price reduction by comparing the values of two neighboring points. Use the **reduction**.[level](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/reduction/#level) option to specify whether it should be the open, close, high, or low values. The **reduction**.[color](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/reduction/#color) colors points whose value decreases.
@@ -78,6 +92,20 @@ Financial series gauge price reduction by comparing the values of two neighborin
             <dxo-reduction level="high" color="blue"></dxo-reduction>
         </dxi-series>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

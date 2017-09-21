@@ -31,6 +31,8 @@ To execute certain commands before or after a row was expanded or collapsed, han
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onRowExpanding (e) {
             // Handler of the "rowExpanding" event
@@ -45,6 +47,13 @@ To execute certain commands before or after a row was expanded or collapsed, han
             // Handler of the "rowCollapsed" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

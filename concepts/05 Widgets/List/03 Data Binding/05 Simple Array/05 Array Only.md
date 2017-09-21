@@ -14,9 +14,18 @@ To bind the **List** to an array, pass this array to the [dataSource](/Documenta
 #####Angular
 
     <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-list
@@ -61,6 +70,8 @@ To bind the **List** to an array, pass this array to the [dataSource](/Documenta
     </dx-list>
 
     <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruits = [
             { fruit: "Apples", count: 10 },
@@ -70,6 +81,13 @@ To bind the **List** to an array, pass this array to the [dataSource](/Documenta
             { fruit: "Pineapples", count: 3 }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -100,6 +118,7 @@ If objects in an array need to be processed (sorted, filtered, grouped, etc.), y
 #####Angular
 
     <!--TypeScript-->
+    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
     import query from 'devextreme/data/query';
     // ...
     export class AppComponent {
@@ -113,6 +132,14 @@ If objects in an array need to be processed (sorted, filtered, grouped, etc.), y
                     .toArray();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-list
@@ -121,7 +148,7 @@ If objects in an array need to be processed (sorted, filtered, grouped, etc.), y
             <b>{{data.fruit}}</b><br/>
             <p style="margin:0">{{data.count}}</p>
         </div>
-    </dx-list>
+    </dx-list>   
 
 ---
 

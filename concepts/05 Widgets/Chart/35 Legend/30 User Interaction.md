@@ -18,6 +18,20 @@ A user can interact with the legend by pausing on legend items. When a user does
         <dxo-legend hoverMode="none"></dxo-legend>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Series that consist of several elements rather than just series points ([Range Area](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/), all [line](/Documentation/Guide/Widgets/Chart/Series_Types/Line_Series/) and [area](/Documentation/Guide/Widgets/Chart/Series_Types/Area_Series/) series) can be highlighted _without_ the series points. For this, set the **hoverMode** option to *"excludePoints"*. For other series, this setting has the same effect as *"none"*.
@@ -39,6 +53,20 @@ Series that consist of several elements rather than just series points ([Range A
     <!--HTML--><dx-chart>
         <dxo-legend hoverMode="excludePoints"></dxo-legend>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -83,12 +111,21 @@ In addition, a user can click legend items. By default, the widget does not reac
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onLegendClick (e) {
             let series = e.target;
             // Event handling commands go here
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

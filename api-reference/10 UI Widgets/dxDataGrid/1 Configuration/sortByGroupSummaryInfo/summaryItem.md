@@ -52,6 +52,20 @@ The **summaryItem** option accepts one of the following values.
             </dxi-sort-by-group-summary-info>
         </dx-data-grid>
 
+        <!--TypeScript-->
+        import { DxDataGridModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
+
     ---
 
 - The index of a summary item in the [groupItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/) array. The following code sorts groups according to the values of the group summary item that has index 0.    
@@ -85,6 +99,20 @@ The **summaryItem** option accepts one of the following values.
                 summaryItem="0"> 
             </dxi-sort-by-group-summary-info>
         </dx-data-grid>
+
+        <!--TypeScript-->
+        import { DxDataGridModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -138,6 +166,20 @@ The **summaryItem** option accepts one of the following values.
             </dxi-sort-by-group-summary-info>
         </dx-data-grid>
 
+        <!--TypeScript-->
+        import { DxDataGridModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
+
     ---
         
 - The [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#name), [data field](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField) or [caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption) of a column. In this case, the grid will use the first item from the **groupItems** array whose [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#column) option matches the **summaryItem** option. For example, the following code declares two group summary items with identical values to the **column** option. However, groups will be sorted only according to the values of the group summary item whose **summaryType** option equals *'min'*, because this item is declared before the other one.        
@@ -182,6 +224,20 @@ The **summaryItem** option accepts one of the following values.
                 summaryItem="Income">
             </dxi-sort-by-group-summary-info>
         </dx-data-grid>
+
+        <!--TypeScript-->
+        import { DxDataGridModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
 
     ---
 

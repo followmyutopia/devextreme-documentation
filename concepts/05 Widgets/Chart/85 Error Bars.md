@@ -35,13 +35,22 @@ Error bars can be generated either from concrete or calculated values. To genera
         </dxi-series>
     </dx-chart>
 
-    <!--JavaScript-->
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         chartDataSource = [
             { arg: 1, val: 200, highError: 5, lowError: 3 },
             // ...
         ]
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -73,6 +82,20 @@ Alternatively, error bar values can be calculated according to an algorithm. In 
             </dxo-value-error-bar>
         </dxi-series>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -129,6 +152,20 @@ Note that settings for individual series override type-specific settings which, 
             </dxo-value-error-bar>
         </dxo-common-series-settings>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

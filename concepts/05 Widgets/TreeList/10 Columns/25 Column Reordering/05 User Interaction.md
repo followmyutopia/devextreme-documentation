@@ -23,6 +23,20 @@ If a specific column should not be moved, set its [allowReordering](/Documentati
         [allowColumnReordering]="true">
         <dxi-column dataField="CompanyName" [allowReordering]="false"></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

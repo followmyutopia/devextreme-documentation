@@ -25,6 +25,8 @@ When a user pauses on a series, the **Chart** fires the [seriesHoverChanged](/Do
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onSeriesHoverChanged (e) {
             let series = e.target;
@@ -35,6 +37,13 @@ When a user pauses on a series, the **Chart** fires the [seriesHoverChanged](/Do
             }
         };
     }
+	@NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

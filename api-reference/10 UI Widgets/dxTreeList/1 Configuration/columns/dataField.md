@@ -39,6 +39,20 @@ The **columns** array can contain only the names of data source fields, which is
         <dxi-column dataField="ShipName"></dxi-column>
         <dxi-column dataField="ShipCity"></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

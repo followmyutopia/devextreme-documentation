@@ -19,11 +19,20 @@ Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxTreeList/Config
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         priceColumn_customizeText (cellInfo) {
             return cellInfo.value + "$";
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ... >
@@ -53,11 +62,20 @@ Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeLi
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fullNameColumn_calculateCellValue (rowData) {
             return rowData.firstName + " " + rowData.lastName;
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ... >

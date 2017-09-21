@@ -19,6 +19,13 @@ Call the [pageCount()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods
             this.dataGrid.instance.pageCount();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -53,6 +60,13 @@ The **DataGrid** also provides the [pageIndex(newIndex)](/Documentation/ApiRefer
             this.dataGrid.instance.pageIndex(this.dataGrid.instance.pageCount() - 1);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

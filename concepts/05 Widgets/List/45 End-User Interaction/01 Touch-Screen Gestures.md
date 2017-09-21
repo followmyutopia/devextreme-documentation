@@ -37,11 +37,20 @@ Swipe can be used to [delete an item](/Documentation/Guide/Widgets/List/Item_Del
         </dx-list>
 
         <!--TypeScript-->
+        import { DxListModule } from 'devextreme-angular';
+        // ...
         export class AppComponent {
             onItemSwipe (e) {
                 // Event handling commands go here
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -68,6 +77,20 @@ Long tap can be used to access the commands of the [context menu](/Documentation
             [itemHoldTimeout]="1000"> <!-- the widget will wait one second before raising the "itemHold" event -->
         </dx-list>
 
+        <!--TypeScript-->
+        import { DxListModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
+
     ---
 
 - **Pull Down to Refresh**          
@@ -90,6 +113,20 @@ This gesture refreshes data in the **List**. To enable it, assign **true** to th
         <dx-list ...
             [pullRefreshEnabled]="true">  
         </dx-list>
+
+        <!--TypeScript-->
+        import { DxListModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 

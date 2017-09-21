@@ -65,6 +65,14 @@ The following code adds a simple **ActionSheet** to your page. The widget is sho
             notify(name + " clicked", "success", 3000);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxActionSheetModule,
+            DxButtonModule
+        ],
+        // ...
+    })
 
 ---
 

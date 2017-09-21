@@ -102,6 +102,7 @@ Here is a generalized configuration of the **CustomStore** for the **TreeList** 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { DxTreeListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -129,6 +130,14 @@ Here is a generalized configuration of the **CustomStore** for the **TreeList** 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-tree-list ...
         [dataSource]="treeListDataSource">

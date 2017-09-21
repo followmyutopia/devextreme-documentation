@@ -24,6 +24,20 @@ The visual range of arguments/values on an axis should include all arguments/val
         </dxo-argument-axis>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Axes can be relocated to their opposite side using the [position](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#position) option. Note that available positions for each axis depend on whether the chart is [rotated](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#rotated) or not.
@@ -53,6 +67,20 @@ Axes can be relocated to their opposite side using the [position](/Documentation
             position="right">
         </dxi-value-axis>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

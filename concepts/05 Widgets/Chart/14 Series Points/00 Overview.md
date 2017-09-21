@@ -50,6 +50,20 @@ For those series whose points are simple dots ([Range Area](/Documentation/Guide
         </dxo-common-series-settings>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 For those series whose points have distinctive appearance ([Range Bar](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/) and [Bubble](/Documentation/Guide/Widgets/Chart/Series_Types/Bubble_Series/), all [bar](/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/) and [financial](/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/) series), a dedicated object is not provided, and all point-related settings are declared directly in the **series**, ***%seriesType%***, or **commonSeriesSettings** object. For details on available settings, refer to the description of a particular series type in the [Series Types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/) section of the API reference.
@@ -87,6 +101,8 @@ Settings specified in the manner described above apply to a congregation of seri
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         // Assigns the red color to all series points with value more than 100
         // Other series points remain painted in blue
@@ -94,6 +110,13 @@ Settings specified in the manner described above apply to a congregation of seri
             return pointInfo.value > 100 ? { color: 'red' } : { }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

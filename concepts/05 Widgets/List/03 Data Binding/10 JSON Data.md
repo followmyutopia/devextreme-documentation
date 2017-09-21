@@ -30,6 +30,21 @@ To bind the **List** to data in a JSON format, assign the URL leading to data to
         </div>
     </dx-list>
 
+    <!--TypeScript-->
+    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
+
 ---
 
 Note that you can also use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
@@ -50,6 +65,20 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     <dx-list
         dataSource="http://www.example.com/dataservices/jsonpdata?callback=?">
     </dx-list>
+
+    <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 ---
 

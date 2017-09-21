@@ -43,6 +43,20 @@ Note that **Bubble** series require an additional data field that provides size 
         </dxo-common-series-settings>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Refer to the [BubbleSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BubbleSeries/) section of the API Reference for a full list of options available to a **Bubble** series.

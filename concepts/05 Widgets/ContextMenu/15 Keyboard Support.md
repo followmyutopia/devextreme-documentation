@@ -58,7 +58,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxContextMenuComponent } from 'devextreme-angular';
+    import { DxContextMenuModule, DxContextMenuComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxContextMenuComponent) contextMenu: DxContextMenuComponent
@@ -71,6 +71,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxContextMenuModule
+        ],
+        // ...
+    })
 
 ---
 

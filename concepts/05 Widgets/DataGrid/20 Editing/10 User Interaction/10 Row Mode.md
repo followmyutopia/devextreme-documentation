@@ -30,6 +30,20 @@ Clicking a *"Delete"* button invokes the confirmation dialog that allows a user 
             <dxo-texts [confirmDeleteMessage]="null"></dxo-texts>
         </dxo-editing>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

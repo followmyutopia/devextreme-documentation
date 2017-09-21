@@ -32,6 +32,20 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
             calculateSortValue="isOnVacation"> <!-- provides values to be used in sorting -->
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -58,6 +72,8 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         customSortingFunction (rowData) {
             if (rowData.Position == "CEO")
@@ -66,6 +82,13 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
                 return rowData.Position; // Others are sorted as usual
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ... >

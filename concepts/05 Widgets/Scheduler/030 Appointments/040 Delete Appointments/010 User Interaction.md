@@ -26,6 +26,20 @@ If a user deletes a [recurring appointment](/Documentation/Guide/Widgets/Schedul
         recurrenceEditMode="occurrence"> <!-- or 'series' | 'dialog' -->
     </dx-scheduler>
 
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
+
 ---
 
 To prevent a user from deleting an appointment, set the **editing**.[allowDeleting](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/editing/#allowDeleting) option to **false**.
@@ -48,5 +62,19 @@ To prevent a user from deleting an appointment, set the **editing**.[allowDeleti
     <dx-scheduler ... >
         <dxo-editing [allowDeleting]="false"></dxo-editing>
     </dx-scheduler>
+
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---

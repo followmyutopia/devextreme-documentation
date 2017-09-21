@@ -62,7 +62,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxTagBoxComponent } from 'devextreme-angular';
+    import { DxTagBoxModule, DxTagBoxComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxTagBoxComponent) tagBox: DxTagBoxComponent
@@ -75,6 +75,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTagBoxModule
+        ],
+        // ...
+    })
 
 ---
 

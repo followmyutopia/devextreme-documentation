@@ -23,6 +23,20 @@ To specify what views are available within the switcher, use the [views](/Docume
         [views]="['day', 'week', 'agenda']">
     </dx-scheduler>
 
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
+
 ---
 
 On mobile devices, the view switcher is displayed as a drop-down menu. 
@@ -49,6 +63,20 @@ To use the drop-down menu on all types of devices, assign **true** to the [useDr
     <dx-scheduler ...
         [useDropDownViewSwitcher]="true">
     </dx-scheduler>
+
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -19,6 +19,20 @@ With the ever-growing variety of platforms, today's web sites and applications c
         <dxo-adaptive-layout [height]="300" [width]="400"></dxo-adaptive-layout>
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 <a href="https://jsfiddle.net/ChartJS/2arphpsx/" class="button orange small fix-width-155" target="_blank">View Demo on JSFiddle</a>
@@ -44,6 +58,13 @@ The layout does not automatically adapt to changes made in the widget's containe
             this.pieChart.instance.render();
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -36,6 +36,20 @@ Use the **scrolling**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/C
             mode="standard"> <!-- or "virtual" | "infinite" -->
         </dxo-scrolling>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -60,6 +74,20 @@ The **DataGrid** adapts its scrolling mechanism to the current platform. It util
             [useNative]="true"> <!-- or false | "auto" -->
         </dxo-scrolling>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -90,6 +118,20 @@ The current platform determines the native scrolling settings and you cannot adj
             showScrollbar="onHover"> <!-- or "onClick" | "always" | "never" -->
         </dxo-scrolling>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

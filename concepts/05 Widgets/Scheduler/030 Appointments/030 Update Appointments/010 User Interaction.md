@@ -32,6 +32,20 @@ If a user updates a [recurring appointment](/Documentation/Guide/Widgets/Schedul
         recurrenceEditMode="occurrence"> <!-- or 'series' | 'dialog' -->
     </dx-scheduler>
 
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
+
 ---
 
 To prevent a user from updating an appointment, set the **editing**.[allowUpdating](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/editing/#allowUpdating) option to **false**.
@@ -54,5 +68,19 @@ To prevent a user from updating an appointment, set the **editing**.[allowUpdati
     <dx-scheduler ... >
         <dxo-editing [allowUpdating]="false"></dxo-editing>
     </dx-scheduler>
+
+    <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---

@@ -23,6 +23,20 @@ If data column values should be cast to another type (for example, date values s
     <dx-data-grid ... >
         <dxi-column dataField="HireDate" dataType="date"></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

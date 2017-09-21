@@ -16,6 +16,20 @@ To bind the **TreeList** to data in the JSON format, assign the data's URL to th
         dataSource="https://jsonplaceholder.typicode.com/posts">
     </dx-tree-list>
 
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
+
 ---
 
 Note that you can also use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
@@ -35,6 +49,20 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     <dx-tree-list
         dataSource="http://www.example.com/dataservices/jsonpdata?callback=?">
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
 ---
 

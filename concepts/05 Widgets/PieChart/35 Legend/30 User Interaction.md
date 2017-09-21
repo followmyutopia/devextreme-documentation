@@ -18,6 +18,20 @@ A user can interact with the legend by pausing on legend items. When a user does
         <dxo-legend hoverMode="none"></dxo-legend>
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Pausing on a legend item causes the [pointHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Events/#pointHoverChanged) event to raise. Refer to the [Series Hover Events](/Documentation/Guide/Widgets/PieChart/Series/Hover/#Events) topic for details on handling this event.
@@ -59,12 +73,21 @@ In addition, a user can click legend items. The widget does not react to this by
     </dx-pie-chart>
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onLegendClick (e) {
             let points = e.points;
             // Event handling commands go here
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

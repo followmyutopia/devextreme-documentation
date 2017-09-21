@@ -29,6 +29,13 @@ Pass the index to the [deleteItem(itemIndex)](/Documentation/ApiReference/UI_Wid
                 this.list.instance.deleteItem({ group: groupIndex, item: itemIndex });
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -60,6 +67,13 @@ Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [de
                 this.list.instance.deleteItem(itemNodes[itemNodes.length-1]);
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 

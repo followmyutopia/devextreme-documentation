@@ -19,6 +19,13 @@ Regardless of the data source you use, the **TreeList** always wraps it in the [
             this.ds = this.treeList.instance.getDataSource();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

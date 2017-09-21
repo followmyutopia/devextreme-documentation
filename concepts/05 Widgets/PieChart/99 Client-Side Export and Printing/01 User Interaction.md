@@ -26,6 +26,20 @@ To enable both export and printing, assign **true** to the [export](/Documentati
         </dxo-export>
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 If you want to restrict the set of formats available for export, change the **export**.[formats](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/export/#formats) array. You can also specify the default name for the exported file using the [fileName](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/export/#fileName) option.
@@ -53,6 +67,20 @@ If you want to restrict the set of formats available for export, change the **ex
             fileName="exported_chart">
         </dxo-export>
     </dx-pie-chart>
+
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

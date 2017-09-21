@@ -46,7 +46,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxSliderComponent } from 'devextreme-angular';
+    import { DxSliderModule, DxSliderComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxSliderComponent) slider: DxSliderComponent
@@ -59,6 +59,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSliderModule
+        ],
+        // ...
+    })
 
 ---
 

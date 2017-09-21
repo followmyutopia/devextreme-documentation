@@ -59,6 +59,20 @@ Note that axis-specific settings override common settings.
         </dxo-common-axis-settings>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 [tags]chart, grid, minor grid, grid lines

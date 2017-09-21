@@ -27,6 +27,8 @@ The **List** widget fires the [selectionChanged](/Documentation/ApiReference/UI_
     </dx-list>
 
     <!--TypeScript-->
+    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onSelectionChanged (e) {
             let addedItems = e.addedItems;
@@ -38,6 +40,13 @@ The **List** widget fires the [selectionChanged](/Documentation/ApiReference/UI_
             // Handler of the "selectAllValueChanged" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 ---
 

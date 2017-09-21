@@ -23,6 +23,13 @@ Pass *-1* to the [expandAll(groupIndex)](/Documentation/ApiReference/UI_Widgets/
             this.dataGrid.instance.collapseAll(-1);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -58,6 +65,13 @@ The [expandRow(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

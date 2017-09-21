@@ -21,6 +21,20 @@ To rotate the **Chart**, set the [rotated](/Documentation/ApiReference/Data_Visu
         [rotated]="true">
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Besides being swapped around, chart axes can be inverted, or "mirrored".
@@ -58,6 +72,20 @@ To invert both argument and value axes, assign **true** to the [inverted](/Docum
         <dxo-argument-axis [inverted]="true"></dxo-argument-axis>
         <dxi-value-axis [inverted]="true"></dxi-value-axis>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

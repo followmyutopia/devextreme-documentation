@@ -45,16 +45,21 @@ Commonly, the **dxTemplate** is in the component's (Angular), scope's (AngularJS
     import { DxPopupModule, DxTemplateModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        employee: { };
-        constructor() {
-            this.employee = {
-                FirstName: "Sandra",
-                LastName: "Johnson",
-                BirthDate: "1974/11/15",
-                Address: "4600 N Virginia Rd."
-            };
-        }
+        employee = {
+            FirstName: "Sandra",
+            LastName: "Johnson",
+            BirthDate: "1974/11/15",
+            Address: "4600 N Virginia Rd."
+        };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopupModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 #####AngularJS
 
@@ -141,17 +146,22 @@ When you specify an item template in Knockout apps, you can bind this template's
     import { DxListModule, DxTemplateModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        fruits: any[];
-        constructor() {
-            this.fruits = [
-                { name: "Apples", count: 10 },
-                { name: "Oranges", count: 12 },
-                { name: "Lemons", count: 15 },
-                { name: "Pears", count: 20 },
-                { name: "Pineapples", count: 3 }
-            ];
-        }
+        fruits = [
+            { name: "Apples", count: 10 },
+            { name: "Oranges", count: 12 },
+            { name: "Lemons", count: 15 },
+            { name: "Pears", count: 20 },
+            { name: "Pineapples", count: 3 }
+        ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 
 #####AngularJS

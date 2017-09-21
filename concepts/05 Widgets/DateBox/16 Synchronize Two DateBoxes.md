@@ -5,11 +5,13 @@
 
     <!--JavaScript-->$(function() {
         var startDate = $("#startDate").dxDateBox({
+            value: new Date(),
             onValueChanged: function (e) {
                 endDate.option("min", e.value);
             }
         }).dxDateBox("instance");
         var endDate = $("#endDate").dxDateBox({
+            value: new Date(),
             onValueChanged: function (e) {
                 startDate.option("max", e.value);
             }
@@ -30,10 +32,20 @@
         [(value)]="endValue">
     </dx-date-box>
 
-    <!--TypeScript-->export class AppComponent {
-        startValue: Date;
-        endValue: Date;
+    <!--TypeScript-->
+    import { DxDateBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        startValue: Date = new Date();
+        endValue: Date = new Date();
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDateBoxModule
+        ],
+        // ...
+    })
 
 ##### AngularJS
 
@@ -51,8 +63,8 @@
     }"></div>
 
     <!--JavaScript-->function Controller($scope) {
-        $scope.startValue = {};
-        $scope.endValue = {};
+        $scope.startValue = new Date();
+        $scope.endValue = new Date();
     }
 
 ##### Knockout
@@ -67,8 +79,8 @@
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        startDate: ko.observable({}),
-        endDate: ko.observable({}),
+        startDate: ko.observable(new Date()),
+        endDate: ko.observable(new Date()),
     };
     ko.applyBindings(viewModel);
 

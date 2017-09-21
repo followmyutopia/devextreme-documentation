@@ -31,6 +31,8 @@ You can execute certain commands before or after a row was expanded or collapsed
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onRowExpanding (e) {
             // Handler of the "rowExpanding" event
@@ -45,6 +47,13 @@ You can execute certain commands before or after a row was expanded or collapsed
             // Handler of the "rowCollapsed" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

@@ -31,5 +31,12 @@ Clears all filters at once.
             this.treeList.instance.clearFilter("search");
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---

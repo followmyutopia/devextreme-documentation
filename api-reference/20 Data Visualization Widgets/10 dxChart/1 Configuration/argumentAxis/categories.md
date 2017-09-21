@@ -49,6 +49,20 @@ To sort the arguments, for example, alphabetically, you need to assign an array 
         </dxo-argument-axis>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 [note]Arguments missing from the **categories** array will be added to its end automatically.

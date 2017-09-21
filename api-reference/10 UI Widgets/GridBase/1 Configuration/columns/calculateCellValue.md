@@ -67,6 +67,8 @@ Call the **this.defaultCalculateCellValue(rowData)** function and return its res
 ##### Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateCellValue (rowData) {
             // ...
@@ -75,6 +77,13 @@ Call the **this.defaultCalculateCellValue(rowData)** function and return its res
 
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ... >

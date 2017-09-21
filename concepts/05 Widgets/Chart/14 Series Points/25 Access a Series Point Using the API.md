@@ -25,6 +25,13 @@ Gets all points of the series.
                 this.seriesPointCollection = series.getAllPoints();
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -50,6 +57,13 @@ Gets those points of the series that has a specific argument. Returns more than 
                 this.chinaPoints = series.getPointsByArg("China");
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -75,6 +89,13 @@ Gets a point by its index in the series. The index is zero-based.
                 this.firstPoint = series.getPointByPos(0);
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -100,6 +121,13 @@ Gets those points of the series that fall into the range from [min](/Documentati
                 this.visiblePoints = series.getVisiblePoints(0);
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -126,12 +154,21 @@ Apart from the API methods, you can access a series point in the event handlers.
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onPointClick (e) {
             let point = e.target;
             // ...
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -56,6 +56,20 @@ Note that individual settings override type-specific settings which, in turn, ov
         </dxo-common-series-settings>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+	@NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 To choose which series elements should be highlighted when a user selects a series, specify the **selectionMode** option. Just like **selectionStyle**, this option can be specified for all series in the **Chart**, for all series of a specific type, or for an individual series. Note also that depending on the series type, the **selectionMode** option accepts different values. For information about them, visit the [Series Types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/) section of the API reference, choose the employed series type, and refer to its **selectionMode** option description.
@@ -91,6 +105,20 @@ To choose which series elements should be highlighted when a user selects a seri
         </dxo-common-series-settings>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+	@NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 <a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Selection/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
@@ -113,6 +141,20 @@ By default, only a single series can be in the selected state at a time. If you 
     <dx-chart 
         seriesSelectionMode="multiple"> <!-- or 'single' -->
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+	@NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

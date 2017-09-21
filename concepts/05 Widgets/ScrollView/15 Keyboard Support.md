@@ -50,7 +50,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxScrollViewComponent } from 'devextreme-angular';
+    import { DxScrollViewModule, DxScrollViewComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxScrollViewComponent) scrollView: DxScrollViewComponent
@@ -63,6 +63,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxScrollViewModule
+        ],
+        // ...
+    })
 
 ---
 

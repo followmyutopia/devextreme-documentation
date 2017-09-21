@@ -126,6 +126,7 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { DxDataGridModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -161,6 +162,14 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-data-grid ...
         [dataSource]="gridDataSource"

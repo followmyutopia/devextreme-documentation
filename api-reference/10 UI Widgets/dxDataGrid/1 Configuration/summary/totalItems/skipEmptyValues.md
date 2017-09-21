@@ -37,6 +37,20 @@ Specified in a summary configuration object, this option affects an individual s
         <dxo-summary [skipEmptyValues]="false"></dxo-summary>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 [note]This option does not have any effect when you use a remote data source.
@@ -84,6 +98,8 @@ Specified in a summary configuration object, this option affects an individual s
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateSummary (options) {
             if (options.name == 'customSummary1') {
@@ -98,6 +114,13 @@ Specified in a summary configuration object, this option affects an individual s
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

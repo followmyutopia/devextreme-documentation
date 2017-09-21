@@ -26,6 +26,20 @@ To make the filter row visible, assign **true** to the [filterRow](/Documentatio
         <dxo-filter-row [visible]="true"></dxo-filter-row>
         <dxi-column [allowFiltering]="false" ... ></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -52,6 +66,20 @@ A user-specified filter applies automatically with a delay by default. Alternati
             applyFilter="onClick">
         </dxo-filter-row>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -85,6 +113,20 @@ The set of available filters can be restricted using the [filterOperations](/Doc
             [filterOperations]="[]">
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

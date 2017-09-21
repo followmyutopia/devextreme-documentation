@@ -34,6 +34,20 @@ The **DataGrid** uses the [CustomStore](/Documentation/ApiReference/Data_Layer/C
         <!-- [remoteOperations]="true" -->
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 [note]Use server-side filtering if your server returns hierarchical (grouped) data because client-side filtering requires inputting plain data.

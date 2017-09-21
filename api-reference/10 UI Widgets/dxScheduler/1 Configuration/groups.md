@@ -41,6 +41,8 @@ The array elements should be strings specifying the **field** field of the resou
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
     export class AppComponent  {
         // ...
         resources = [
@@ -48,6 +50,13 @@ The array elements should be strings specifying the **field** field of the resou
             { field: 'teacher', dataSource: this.teachersDataSource }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
     
 ---
 

@@ -48,6 +48,11 @@ You can send the human-readable values from the server as a part of the main dat
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    import 'devextreme/data/array_store';
+    // or
+    // import 'devextreme/data/odata/store';
+    // import 'devextreme/data/custom_store';
     export class AppComponent {
         dataSource: any;
         constructor() {
@@ -59,6 +64,13 @@ You can send the human-readable values from the server as a part of the main dat
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

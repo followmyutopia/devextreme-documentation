@@ -40,6 +40,8 @@ Here, all items have the **id** field, and those items that have a parent includ
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         plainData = [
             { key: '1', fullName: "John Heart", position: "CEO" }, 
@@ -49,6 +51,13 @@ Here, all items have the **id** field, and those items that have a parent includ
             { key: '2', fullName: "Greta Sims", position: "HR Manager" }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -84,6 +93,8 @@ Items on the highest hierarchical level have the parent ID equal to *0*, **null*
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         plainData = [
             { id: '1', head: '-1', fullName: "John Heart", position: "CEO" }, 
@@ -93,6 +104,13 @@ Items on the highest hierarchical level have the parent ID equal to *0*, **null*
             { id: '2', head: '-1', fullName: "Greta Sims", position: "HR Manager" } 
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
 ---
 

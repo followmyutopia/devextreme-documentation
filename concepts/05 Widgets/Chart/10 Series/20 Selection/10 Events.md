@@ -25,6 +25,8 @@ When a user selects a series, the **Chart** fires the [seriesSelectionChanged](/
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onSeriesSelectionChanged (e) {
             let series = e.target;
@@ -35,6 +37,13 @@ When a user selects a series, the **Chart** fires the [seriesSelectionChanged](/
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

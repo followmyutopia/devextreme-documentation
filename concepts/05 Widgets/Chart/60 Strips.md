@@ -39,6 +39,20 @@ To configure the strips, declare the [strips](/Documentation/ApiReference/Data_V
         </dxi-value-axis>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 If several strips should have a uniform style, you can specify it using one of the following objects.
@@ -109,6 +123,20 @@ Note that individual settings override axis-specific settings which, in turn, ov
             </dxo-strip-style>
         </dxo-common-axis-settings>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

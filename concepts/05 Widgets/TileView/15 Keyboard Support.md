@@ -54,7 +54,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxTileViewComponent } from 'devextreme-angular';
+    import { DxTileViewModule, DxTileViewComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxTileViewComponent) tileView: DxTileViewComponent
@@ -67,6 +67,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTileViewModule
+        ],
+        // ...
+    })
 
 ---
 

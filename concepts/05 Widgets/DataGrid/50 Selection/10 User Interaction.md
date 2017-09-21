@@ -20,6 +20,20 @@ The **DataGrid** widget supports single and multiple row selection. Use the **se
             mode="single"> <!-- "multiple" | "none" -->
         </dxo-selection>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -54,6 +68,20 @@ The check box in the column's header selects all rows or only the currently rend
         </dxo-selection>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 You can prevent users from selecting all rows by setting the **selection**.[allowSelectAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll) option to **false**.
@@ -80,6 +108,20 @@ You can prevent users from selecting all rows by setting the **selection**.[allo
             [allowSelectAll]="false">
         </dxo-selection>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -107,6 +149,20 @@ The [showCheckBoxesMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Confi
             showCheckBoxesMode="none">    <!-- or "onClick" | "onLongTap" | "always" -->
         </dxo-selection>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

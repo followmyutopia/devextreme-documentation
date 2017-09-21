@@ -38,6 +38,20 @@ The **TreeList** widget uses the build-in validation engine to validate user inp
             </dxi-validation-rule>
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -62,6 +76,8 @@ The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configur
 ##### Angular
     
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         barAdministratorLogin (e) {
             if (e.isValid && e.newData.Login === "Administrator") {
@@ -70,6 +86,13 @@ The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configur
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ...

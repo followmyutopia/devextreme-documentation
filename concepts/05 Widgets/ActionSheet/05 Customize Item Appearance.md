@@ -29,6 +29,8 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-action-sheet>
 
     <!--TypeScript-->
+    import { DxActionSheetModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         actionSheetData = [
             { text: "Reply" },
@@ -38,6 +40,14 @@ Using the default item template is the easiest way to customize an item, but it 
         ];
         isActionSheetVisible: Boolean = true;
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxActionSheetModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
     <!--CSS-->
     .action-sheet-button {

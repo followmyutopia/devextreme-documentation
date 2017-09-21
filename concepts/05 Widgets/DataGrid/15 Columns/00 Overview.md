@@ -24,6 +24,20 @@ Columns represent sets of data values that have the same type. To configure colu
         <dxi-column dataField="CompanyName"></dxi-column>
         <dxi-column dataField="City"></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -45,12 +59,21 @@ The **DataGrid** generates a column per data field if you do not specify the **c
 ##### Angular
     
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         customizeColumns (columns) {
             columns[0].width = 100;
             columns[1].width = 210;
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ...

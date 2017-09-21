@@ -26,6 +26,20 @@ To allow this, set the **columnFixing**.[enabled](/Documentation/ApiReference/UI
         <dxo-column-fixing [enabled]="true"></dxo-column-fixing>
         <dxi-column [allowFixing]="true" ... ></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -50,6 +64,20 @@ If a column should be fixed initially, assign **true** to its [fixed](/Documenta
     <dx-data-grid ... >
         <dxi-column [fixed]="true" fixedPosition="left" ... ></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

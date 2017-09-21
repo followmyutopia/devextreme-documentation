@@ -39,6 +39,8 @@ You can handle these events with functions. Assign the handling functions to the
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onExporting (e) {
             // Handler of the "exporting" event
@@ -50,6 +52,13 @@ You can handle these events with functions. Assign the handling functions to the
             // Handler of the "fileSaving" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

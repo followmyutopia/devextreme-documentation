@@ -24,6 +24,20 @@ To make header filter icons visible for all columns, assign **true** to the [hea
         <dxo-header-filter [visible]="true"></dxo-header-filter>
         <dxi-column [allowHeaderFiltering]="false" ... ></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -49,6 +63,20 @@ A user can change the applied filter by including or excluding values to/from it
             [filterType]="exclude"> <!-- or "include" -->
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

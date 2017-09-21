@@ -49,6 +49,8 @@ The string comparison is culture-insensitive by default. Use the following code 
 #####Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         sortStringsConsideringCulture (value1, value2) {
             // Handling null values
@@ -59,7 +61,13 @@ The string comparison is culture-insensitive by default. Use the following code 
             return value1.localeCompare(value2);
         }
     }
-
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ... >

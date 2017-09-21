@@ -76,6 +76,8 @@ The following code demonstrates a general structure of the **calculateCustomSumm
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateSummary (options) {
             // Calculating "CustomSummary1"
@@ -98,6 +100,13 @@ The following code demonstrates a general structure of the **calculateCustomSumm
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

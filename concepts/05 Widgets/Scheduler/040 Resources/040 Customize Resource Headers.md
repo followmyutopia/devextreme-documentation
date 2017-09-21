@@ -20,6 +20,8 @@ For AngularJS and Knockout apps, DevExtreme provides a markup component called [
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         schedulerData = [{ 
             text: "Meeting",
@@ -36,6 +38,14 @@ For AngularJS and Knockout apps, DevExtreme provides a markup component called [
         ];
         currentDate = new Date(2016, 4, 24);
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 #####**AngularJS**
 

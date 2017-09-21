@@ -19,6 +19,20 @@ With the ever-growing variety of platforms, today's web sites and applications c
         <dxo-adaptive-layout [height]="300" [width]="400"></dxo-adaptive-layout>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 <a href="https://jsfiddle.net/ChartJS/2m1pv4ag/" class="button orange small fix-width-155" target="_blank">View Demo on JSFiddle</a>
@@ -44,6 +58,13 @@ The layout does not automatically adapt to changes made in the widget's containe
             this.chart.instance.render();
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

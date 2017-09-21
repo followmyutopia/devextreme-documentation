@@ -49,6 +49,13 @@ You can relocate or resize the command columns by changing their **visibleIndex*
             this.treeList.instance.columnOption("command:adaptive", "width", 80);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -78,6 +85,8 @@ You can also customize cells of command columns using the [onCellPrepared](/Docu
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onCellPrepared (e) {
             if (e.rowType == "data") {
@@ -93,6 +102,13 @@ You can also customize cells of command columns using the [onCellPrepared](/Docu
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ...

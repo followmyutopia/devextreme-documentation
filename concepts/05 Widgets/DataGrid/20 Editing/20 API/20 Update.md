@@ -19,6 +19,8 @@ The [cellValue (rowIndex, visibleColumnIndex, value)](/Documentation/ApiReferenc
 ##### Angular
     
     <!--TypeScript-->
+    import { DxDataGridModule, DxButtonModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         updateCell () {
@@ -26,6 +28,14 @@ The [cellValue (rowIndex, visibleColumnIndex, value)](/Documentation/ApiReferenc
             this.dataGrid.instance.saveEditData();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule,
+            DxButtonModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ... ></dx-data-grid>
@@ -66,12 +76,21 @@ The **DataGrid** widget allows you to process an updated cell value in the **col
 ##### Angular
     
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         setCellValue (rowData, value) {
             rowData.ID = value + Math.random() * 100;
             rowData.Full_Name = value;
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid>
@@ -109,6 +128,8 @@ Call the [hasEditData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Metho
 ##### Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule, DxButtonModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         saveEditData () {
@@ -118,6 +139,14 @@ Call the [hasEditData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Metho
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule,
+            DxButtonModule
+        ],
+        // ...
+    })
     
     <!--HTML-->
     <dx-data-grid ... ></dx-data-grid>

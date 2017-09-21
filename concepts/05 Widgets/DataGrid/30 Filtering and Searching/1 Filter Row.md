@@ -24,6 +24,20 @@ To make the filter row visible, assign **true** to the [filterRow](/Documentatio
         <dxo-filter-row [visible]="true"></dxo-filter-row>
         <dxi-column [allowFiltering]="false" ... ></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -50,6 +64,20 @@ A user-specified filter applies automatically with a delay by default. Alternati
             applyFilter="onClick">
         </dxo-filter-row>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -83,6 +111,20 @@ The set of available filters can be restricted using the [filterOperations](/Doc
             [filterOperations]="[]">
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

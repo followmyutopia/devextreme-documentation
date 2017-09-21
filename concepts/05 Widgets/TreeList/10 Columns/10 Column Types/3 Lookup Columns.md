@@ -41,6 +41,8 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         orders = [ ... ];
         lookupData = [
@@ -50,6 +52,13 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
             // ...
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -88,6 +97,8 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         orders = [ ... ];
         lookupData = [
@@ -97,6 +108,13 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
             // ...
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

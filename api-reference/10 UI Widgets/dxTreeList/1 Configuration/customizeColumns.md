@@ -32,12 +32,21 @@ Use this function to make minor adjustments to automatically generated columns. 
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         customizeColumns (columns) {
             columns[0].width = 100;
             columns[1].width = 210;
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ...

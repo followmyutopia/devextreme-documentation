@@ -45,7 +45,7 @@ You can initialize widget options with a string value or the value of a componen
 
 [note]Initializing widget options in this manner does not mean that the widget option will be changed once its component property is changed. If you are looking for this kind of data binding, refer to the [Change Options](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Change_Options) topic.
 
-For more information on using DevExtreme widgets with Angular, refer to the [DevExtreme-Angular README](https://github.com/DevExpress/DevExtreme-angular#angular-2-ui-and-visualization-components-based-on-devextreme-widgets) on GitHub.
+For more information on using DevExtreme widgets with Angular, refer to the [DevExtreme-Angular README](https://github.com/DevExpress/DevExtreme-angular#angular-ui-and-visualization-components-based-on-devextreme-widgets) on GitHub.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/Angular/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 

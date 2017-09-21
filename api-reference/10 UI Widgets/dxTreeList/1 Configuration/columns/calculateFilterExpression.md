@@ -49,6 +49,8 @@ The following code snippet shows the default implementation of the **calculateFi
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {
             // Implementation for the "between" comparison operator
@@ -63,6 +65,13 @@ The following code snippet shows the default implementation of the **calculateFi
             return [this.calculateCellValue, selectedFilterOperation || '=', filterValue];
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ... >
@@ -96,12 +105,21 @@ Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOper
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {
             // ...
             return this.defaultCalculateFilterExpression(filterValue, selectedFilterOperation);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ... >

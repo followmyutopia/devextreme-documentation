@@ -17,6 +17,13 @@ Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/
             this.dataGrid.instance.deselectRows(keys);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -44,6 +51,13 @@ Call the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Me
             this.dataGrid.instance.clearSelection();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

@@ -28,6 +28,20 @@ When adapting to a small container or screen, the **TreeList** can hide columns.
         <dxi-column [hidingPriority]="1" ... ></dxi-column> <!-- a not-so-valuable column -->
         <dxi-column [hidingPriority]="0" ... ></dxi-column> <!-- a first-to-hide column -->
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -60,6 +74,13 @@ You can expand or collapse adaptive detail rows programmatically by calling the 
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -84,6 +105,8 @@ All adaptive detail rows contain the [DevExtreme Form widget](/Documentation/Api
 ##### Angular
     
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onAdaptiveDetailRowPreparing (e) {
             for (let formItem of e.formOptions.items) {
@@ -93,6 +116,13 @@ All adaptive detail rows contain the [DevExtreme Form widget](/Documentation/Api
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ...

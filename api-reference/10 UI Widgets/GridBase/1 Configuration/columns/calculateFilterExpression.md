@@ -53,6 +53,8 @@ The following code snippet shows the default implementation of the **calculateFi
 ##### Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {
             // Implementation for the "between" comparison operator
@@ -68,6 +70,13 @@ The following code snippet shows the default implementation of the **calculateFi
             return [column.calculateCellValue, selectedFilterOperation || '=', filterValue];
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ... >
@@ -101,6 +110,8 @@ Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOper
 ##### Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {
             // ...
@@ -108,6 +119,13 @@ Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOper
             return column.defaultCalculateFilterExpression(filterValue, selectedFilterOperation);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ... >

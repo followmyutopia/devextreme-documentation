@@ -28,6 +28,20 @@ Declare several objects in the [valueAxis](/Documentation/ApiReference/Data_Visu
             <dxi-value-axis name="percentageAxis"></dxi-value-axis>
         </dx-chart>
 
+        <!--TypeScript-->
+        import { DxChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
+
     ---
 
 2. **Bind series to value axes**        
@@ -59,6 +73,20 @@ Bind each series to a value axis using the [axis](/Documentation/ApiReference/Da
                 <!-- This series will be automatically bound to the 'absoluteAxis' -->
             </dxi-series>
         </dx-chart>
+
+        <!--TypeScript-->
+        import { DxChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -95,6 +123,20 @@ All value axes in the **Chart** are synchronized by default, but you can explici
             [multipleAxesSpacing]="10">
         </dxi-value-axis>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

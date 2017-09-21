@@ -16,6 +16,20 @@ To bind the **PieChart** to data in a JSON format, assign the URL referring to d
         dataSource="http://www.example.com/dataservices/data.json">
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Note that you can also use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
@@ -35,6 +49,20 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     <dx-pie-chart
         dataSource="http://www.example.com/dataservices/jsonpdata?callback=?">
     </dx-pie-chart>
+
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

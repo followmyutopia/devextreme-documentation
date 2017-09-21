@@ -20,6 +20,8 @@ To bind the **DataGrid** to an array, pass this array to the [dataSource](/Docum
 #####Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         books = [
             { author: 'D. Adams', title: "The Hitchhiker's Guide to the Galaxy", year: 1979, genre: 'Comedy, sci-fi' },
@@ -27,6 +29,13 @@ To bind the **DataGrid** to an array, pass this array to the [dataSource](/Docum
             { author: 'M. Mitchell', title: "Gone with the Wind", year: 1936, genre: 'Historical fiction' }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-data-grid
         [dataSource]="books">
@@ -60,6 +69,7 @@ If objects in the array need to be processed (sorted or filtered), you can creat
 #####Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
     import query from 'devextreme/data/query';
     // ...
     export class AppComponent {
@@ -74,6 +84,13 @@ If objects in the array need to be processed (sorted or filtered), you can creat
                     .toArray();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-data-grid
         [dataSource]="getSortedAndFilteredBooks()">

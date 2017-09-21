@@ -18,6 +18,8 @@ For a minor customization of **List** items, you can use the default item templa
 #####Angular
 
     <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruits = [
             { text: "Apples", badge: 10 },
@@ -25,6 +27,13 @@ For a minor customization of **List** items, you can use the default item templa
             { text: "Lemons", badge: 15, visible: false }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-list
@@ -50,6 +59,8 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-list>
 
     <!--TypeScript-->
+    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruits = [
             { name: "Apples", count: 10 },
@@ -59,6 +70,14 @@ Using the default item template is the easiest way to customize an item, but it 
             { name: "Pineapples", count: 3 }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 #####AngularJS
 

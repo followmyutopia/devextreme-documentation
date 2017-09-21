@@ -32,8 +32,11 @@ Each DevExtreme editor allows changing its validation state and error message us
 
 ##### Angular
 
-    <!--TypeScript-->export class AppComponent {
-        login: string;
+    <!--TypeScript-->
+    import { DxTextBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        login: string = "";
         isLoginValid: boolean = true;
         loginValidationError: Object = {};
         validateLogin = function (params) {
@@ -50,6 +53,13 @@ Each DevExtreme editor allows changing its validation state and error message us
             isLoginValid = true;
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-text-box 
         [(value)]="login"

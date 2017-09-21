@@ -20,6 +20,20 @@ To allow the user to delete items from the **List**, set the [allowItemDeleting]
         itemDeleteMode="toggle"> <!-- or "static" | "slideButton" | "slideItem" | "swipe" | "context" -->
     </dx-list>
 
+    <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
+
 ---
 
 [note]If **List** items are [supplied with the context menu](/Documentation/Guide/Widgets/List/Item_Context_Menu/), the **itemDeleteMode** option is ignored in favor of the [menuMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#menuMode) option.

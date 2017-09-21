@@ -19,6 +19,13 @@ Regardless of the data source you use, the **DataGrid** always wraps it in the [
             this.ds = this.dataGrid.instance.getDataSource();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

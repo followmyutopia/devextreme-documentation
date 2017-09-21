@@ -22,6 +22,20 @@ To configure the appearance, location, and content of the legend, use options co
         <dxo-legend ... ></dxo-legend>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 #####See Also#####

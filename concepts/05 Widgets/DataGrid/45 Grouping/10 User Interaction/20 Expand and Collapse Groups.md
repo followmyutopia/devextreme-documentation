@@ -28,6 +28,20 @@ Set the **grouping**.[expandMode](/Documentation/ApiReference/UI_Widgets/dxDataG
         </dxo-grouping>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 You can prevent a user from expanding and collapsing groups by assigning **false** to the **grouping**.[allowCollapsing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#allowCollapsing) option. After that, you can expand and collapse groups only [programmatically](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Expand_and_Collapse_Groups).
@@ -56,5 +70,19 @@ You can prevent a user from expanding and collapsing groups by assigning **false
             [allowCollapsing]="false">
         </dxo-grouping>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---

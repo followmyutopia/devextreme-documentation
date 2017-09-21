@@ -20,6 +20,13 @@ Set a column's [groupIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Co
             this.dataGrid.instance.columnOption("City", "groupIndex", undefined);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -45,6 +52,13 @@ You can ungroup data by all columns at once using the [clearGrouping()](/Documen
             this.dataGrid.instance.clearGrouping();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

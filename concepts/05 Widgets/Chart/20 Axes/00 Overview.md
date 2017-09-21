@@ -36,6 +36,20 @@ To configure the argument or value axis individually, use the [argumentAxis](/Do
         </dxo-common-axis-settings>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Axes can be of one of the following types.
@@ -83,6 +97,20 @@ Usually, the **Chart** chooses the axis type automatically according to the type
         </dxi-value-axis>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+    
 ---
 
 For better readability of visualized data, any axis is divided into parts using ticks. Different axis types demand ticks to be arranged differently. See the [Arrange Axis Ticks](/Documentation/Guide/Widgets/Chart/Axes/Arrange_Axis_Ticks/) topic for further details.

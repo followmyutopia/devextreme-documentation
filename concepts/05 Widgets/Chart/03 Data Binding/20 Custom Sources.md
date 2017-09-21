@@ -24,6 +24,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import { Http, HttpModule } from '@angular/http';
+    import { DxChartModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -43,6 +44,14 @@ You need to configure the **CustomStore** in detail for accessing a server built
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-chart ...
         [dataSource]="chartDataSource">
@@ -125,6 +134,7 @@ This example shows how to make a query for data.
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { DxChartModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -154,6 +164,14 @@ This example shows how to make a query for data.
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-chart ...
         [dataSource]="chartDataSource">

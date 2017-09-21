@@ -27,6 +27,20 @@ To set up this layout, describe the hierarchy of columns directly in an object o
             <dxi-column dataField="Skype"></dxi-column>
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -56,6 +70,8 @@ If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxTreeL
 ##### Angular
     
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         customizeColumns (columns) {
             columns.push({ // Pushes the "Contacts" band column into the "columns" array
@@ -70,6 +86,13 @@ If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxTreeL
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ...
@@ -119,6 +142,20 @@ Band columns support hierarchies of any nesting level making the following struc
             </dxi-column>
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

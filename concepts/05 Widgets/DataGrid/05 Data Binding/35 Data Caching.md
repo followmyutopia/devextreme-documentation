@@ -24,6 +24,13 @@ The **DataGrid** caches data by default. This allows the widget to decrease the 
             dataGridDataSource.load();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -48,6 +55,20 @@ If your data source changes frequently, disable caching by assigning **false** t
     <dx-data-grid ...
         [cacheEnabled]="false">
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

@@ -25,6 +25,8 @@ To bind the **Chart** to an array, pass this array to the [dataSource](/Document
 ##### Angular
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruits = [
             { fruit: 'Apples', count: 10 },
@@ -34,6 +36,13 @@ To bind the **Chart** to an array, pass this array to the [dataSource](/Document
             { fruit: 'Pineapples', count: 3 }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-chart [dataSource]="fruits">
         <!-- See details in the "Bind Series to Data" topic -->
@@ -72,6 +81,7 @@ If objects in an array need to be processed (sorted, filtered, etc.), you can cr
 ##### Angular
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
     import query from 'devextreme/data/query';
     // ...
     export class AppComponent {
@@ -86,6 +96,13 @@ If objects in an array need to be processed (sorted, filtered, etc.), you can cr
             return query(this.fruits).sortBy("count", true).toArray();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-chart [dataSource]="getSortedFruits()">
         <dxi-series argumentField="fruit" valueField="count"></dxi-series>

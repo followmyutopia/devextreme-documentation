@@ -19,6 +19,20 @@ With the **DataGrid** widget, a user can sort by single and multiple columns. Us
             mode="single"> <!-- or "multiple" | "none" -->
         </dxo-sorting>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -50,5 +64,19 @@ To disable sorting in the whole widget, set the **sorting**.**mode** option to *
     <dx-data-grid ... >
         <dxi-column [allowSorting]="false"></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---

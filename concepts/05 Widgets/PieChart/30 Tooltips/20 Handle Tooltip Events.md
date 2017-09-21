@@ -25,6 +25,8 @@ When a tooltip becomes shown or hidden, the **PieChart** fires the [tooltipShown
     </dx-pie-chart>
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onTooltipShown (e) {
             let point = e.target;
@@ -35,6 +37,13 @@ When a tooltip becomes shown or hidden, the **PieChart** fires the [tooltipShown
             // Handler of the "tooltipHidden" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -18,6 +18,13 @@ Before accessing a series point, gain access to its series by calling the [getAl
             this.series = this.pieChart.instance.getAllSeries()[0];
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -46,6 +53,13 @@ Gets all the series points.
                 this.seriesPoints = series.getAllPoints();
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxPieChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -71,6 +85,13 @@ Gets those series points that have a specific argument.
                 this.chinaPoints = series.getPointsByArg("China");
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxPieChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -96,6 +117,13 @@ Gets a point using its index. The index is zero-based.
                 this.firstPoint = series.getPointByPos(0);
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxPieChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -121,6 +149,13 @@ Gets only [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxPie
                 this.visiblePoints = series.getVisiblePoints();
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxPieChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -147,12 +182,21 @@ Apart from the API methods, you can access a series point in the event handlers.
     </dx-pie-chart>
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onPointClick (e) {
             let point = e.target;
             // ...
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

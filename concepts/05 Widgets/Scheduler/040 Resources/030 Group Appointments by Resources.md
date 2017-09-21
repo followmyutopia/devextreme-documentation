@@ -46,6 +46,8 @@ To group appointments by resources, assign an array to the [groups](/Documentati
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
     export class AppComponent  { 
         // ...
         appointments = [{ 
@@ -57,6 +59,13 @@ To group appointments by resources, assign an array to the [groups](/Documentati
         // ...
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---
 

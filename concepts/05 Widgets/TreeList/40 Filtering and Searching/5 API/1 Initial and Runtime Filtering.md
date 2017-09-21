@@ -43,6 +43,13 @@ The API for filtering differs depending on the UI element that it affects. To sp
             this.treeList.instance.columnOption(dataFieldName, "filterValue", newValue);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -91,6 +98,13 @@ To specify initial values for a [header filter](/Documentation/Guide/Widgets/Tre
             this.treeList.instance.columnOption(dataFieldName, "filterValues", newValue);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -132,6 +146,13 @@ You can specify an initial text for the [search panel](/Documentation/Guide/Widg
             this.treeList.instance.searchByText(newString);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -162,6 +183,13 @@ All the aforementioned options and methods filter data that was returned by the 
             ]);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -184,6 +212,13 @@ Since there are many ways to filter data, you may need to get a filter combined 
             return this.treeList.instance.getCombinedFilter(true);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

@@ -24,6 +24,8 @@ To execute certain commands when an item changes its position, handle the [itemR
     </dx-list>
 
     <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         @ViewChild(DxListComponent) list: DxListComponent;
         onItemReordered (e) {
@@ -34,6 +36,13 @@ To execute certain commands when an item changes its position, handle the [itemR
             // Handler of the "itemReordered" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -30,6 +30,8 @@ To execute certain commands before or after an item is deleted from the **List**
     </dx-list>
 
     <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onItemDeleting (e) {
             let itemData = e.itemData;
@@ -44,6 +46,13 @@ To execute certain commands before or after an item is deleted from the **List**
             // Handler of the "itemDeleted" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 ---
 

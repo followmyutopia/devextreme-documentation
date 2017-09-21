@@ -18,6 +18,20 @@ The **PieChart** provides two options that control the layout algorithm, allowin
         segmentsDirection="anticlockwise"> <!-- or "clockwise" -->
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 You can try both these options on the **PieChart** below.

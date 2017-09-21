@@ -24,6 +24,20 @@ All options configuring tooltips are collected in the [tooltip](/Documentation/A
         </dxo-tooltip>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Options declared in the **tooltip** object apply to all tooltips in the **Chart**. If you want to customize a specific tooltip, assign a function to the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/#customizeTooltip) option. This function must return an object with options for the tooltip that you want to customize.
@@ -57,6 +71,8 @@ Options declared in the **tooltip** object apply to all tooltips in the **Chart*
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         // Paints the tooltips of all points whose value is more than 100 in red
         // Other tooltips remain painted in yellow
@@ -64,6 +80,13 @@ Options declared in the **tooltip** object apply to all tooltips in the **Chart*
             return pointInfo.value > 100 ? { color: 'red' } : { }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -37,6 +37,8 @@ A simple JavaScript array containing a collection of plain objects.
     ##### Angular
 
         <!--TypeScript-->
+        import { DxTreeListModule } from 'devextreme-angular';
+        // ...
         export class AppComponent {
             headerFilterData: any;
             constructor () {
@@ -51,6 +53,13 @@ A simple JavaScript array containing a collection of plain objects.
                 ];
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxTreeListModule
+            ],
+            // ...
+        })
 
         <!--HTML--><dx-tree-list ...>
             <dxi-column>
@@ -100,6 +109,7 @@ A [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration
     ##### Angular
 
         <!--TypeScript-->
+        import { DxTreeListModule } from 'devextreme-angular';
         import 'devextreme/data/custom_store';
         // ...
         export class AppComponent {
@@ -124,6 +134,13 @@ A [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration
                 };
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxTreeListModule
+            ],
+            // ...
+        })
 
         <!--HTML--><dx-tree-list ...>
             <dxi-column>
@@ -163,6 +180,7 @@ A function in which you can modify the current data source configuration.
     #####Angular
 
         <!--TypeScript-->
+        import { DxTreeListModule } from 'devextreme-angular';
         import 'devextreme/data/data_source';
         // ...
         export class AppComponent {
@@ -184,6 +202,13 @@ A function in which you can modify the current data source configuration.
                 };
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxTreeListModule
+            ],
+            // ...
+        })
 
         <!--HTML--><dx-tree-list ...>
             <dxi-column>
@@ -236,6 +261,7 @@ If you use a data source that does not contain the required fields (**text** and
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
     import ArrayStore from 'devextreme/data/array_store';
     import DataSource from 'devextreme/data/data_source';
     // ...
@@ -263,6 +289,13 @@ If you use a data source that does not contain the required fields (**text** and
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-tree-list ...>
         <dxi-column>

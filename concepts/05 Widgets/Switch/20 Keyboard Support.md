@@ -46,7 +46,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxSwitchComponent } from 'devextreme-angular';
+    import { DxSwitchModule, DxSwitchComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxSwitchComponent) switch: DxSwitchComponent
@@ -59,6 +59,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSwitchModule
+        ],
+        // ...
+    })
 
 ---
 

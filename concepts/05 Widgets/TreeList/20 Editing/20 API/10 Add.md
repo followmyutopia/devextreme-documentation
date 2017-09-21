@@ -18,6 +18,13 @@ Use the [addRow()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#ad
            this.treeList.instance.addRow();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -51,11 +58,20 @@ You can specify initial values for a newly added row in the [onInitNewRow](/Docu
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onInitNewRow (e) {
             e.data.Hire_Date = new Date();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

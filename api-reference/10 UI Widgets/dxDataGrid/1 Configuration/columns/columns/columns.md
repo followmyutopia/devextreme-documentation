@@ -43,6 +43,20 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
         </dxi-column>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 A nested column has almost every property a regular column has. These properties are described in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) section of the Reference.
@@ -88,6 +102,20 @@ For example, the following code specifies the **width** and **sortOrder** proper
             <dxi-column dataField="Apartment"></dxi-column>
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -136,6 +164,20 @@ Band columns support hierarchies of any nesting level. It means that the followi
             ...
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

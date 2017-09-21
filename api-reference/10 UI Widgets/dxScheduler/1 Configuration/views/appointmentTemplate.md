@@ -32,6 +32,8 @@ In Angular apps, an item's object and index extend the standard binding context 
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
     export class AppComponent  { 
         // ...
         views = [
@@ -39,6 +41,14 @@ In Angular apps, an item's object and index extend the standard binding context 
             { type: "workWeek", appointmentTemplate: "appointmentTemplate" }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 
 #####AngularJS#####

@@ -27,6 +27,20 @@ Declare several objects in the [panes](/Documentation/ApiReference/Data_Visualiz
             <dxi-panes name="bottomPane"></dxi-panes>
         </dx-chart>
 
+        <!--TypeScript-->
+        import { DxChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
+
     ---
 
 2. **Bind value axes to panes**         
@@ -53,6 +67,20 @@ Bind each of them to a pane using the [pane](/Documentation/ApiReference/Data_Vi
             <dxi-value-axis pane="topPane"></dxi-value-axis>
             <dxi-value-axis pane="bottomPane"></dxi-value-axis>
         </dx-chart>
+
+        <!--TypeScript-->
+        import { DxChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -91,6 +119,20 @@ Bind each series to a pane using the [pane](/Documentation/ApiReference/Data_Vis
             </dxi-series>
         </dx-chart>
 
+        <!--TypeScript-->
+        import { DxChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
+
     ---
 
 If all panes in a multi-pane chart should have uniform settings, you can specify them in the [commonPaneSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonPaneSettings/) object.
@@ -122,6 +164,20 @@ If all panes in a multi-pane chart should have uniform settings, you can specify
             </dxo-border>
         </dxo-common-pane-settings>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

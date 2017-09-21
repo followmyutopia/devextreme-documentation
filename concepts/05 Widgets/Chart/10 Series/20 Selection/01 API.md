@@ -25,6 +25,8 @@ The selection capability is not provided out of the box, but it can be implement
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onSeriesClick (e) {
             let series = e.target;
@@ -35,6 +37,13 @@ The selection capability is not provided out of the box, but it can be implement
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -65,6 +74,8 @@ There are series that consist of points only, for example, [bar](/Documentation/
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onPointClick (e) {
             let series = e.target.series;
@@ -75,6 +86,13 @@ There are series that consist of points only, for example, [bar](/Documentation/
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -97,6 +115,13 @@ In the previous code examples, selection was cleared of a specific series. If yo
             this.chart.instance.clearSelection();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -17,6 +17,7 @@ To bind the **Scheduler** to data provided by an OData service, use the [ODataSt
 ##### Angular
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
     import ODataStore from 'devextreme/data/odata/store';
     // ...
     export class AppComponent {
@@ -27,6 +28,13 @@ To bind the **Scheduler** to data provided by an OData service, use the [ODataSt
             }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-scheduler
@@ -56,6 +64,7 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 ##### Angular
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
     import 'devextreme/data/odata/store';
     import DataSource from 'devextreme/data/data_source';
     // ...
@@ -69,6 +78,13 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
             paginate: false
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-scheduler

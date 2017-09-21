@@ -17,6 +17,20 @@ To bind the **DataGrid** to data in the JSON format, assign the data's URL to th
         dataSource="https://jsonplaceholder.typicode.com/posts">
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/AjaxRequest/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
@@ -39,6 +53,20 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     <dx-data-grid
         dataSource="http://www.example.com/dataservices/jsonpdata?callback=?">
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

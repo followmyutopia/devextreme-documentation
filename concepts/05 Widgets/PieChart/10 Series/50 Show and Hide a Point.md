@@ -27,6 +27,8 @@ The **PieChart** provides an API for showing and hiding a series point at runtim
     </dx-pie-chart>
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onLegendClick (e) {
             let points = e.points;
@@ -40,5 +42,12 @@ The **PieChart** provides an API for showing and hiding a series point at runtim
             */
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---

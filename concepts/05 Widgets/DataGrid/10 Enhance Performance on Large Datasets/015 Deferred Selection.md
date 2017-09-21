@@ -35,6 +35,7 @@ Use the deferred mode to increase the **DataGrid**'s performance when [selecting
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
     import 'devextreme/data/odata/store';
     // ...
     export class AppComponent {
@@ -44,8 +45,15 @@ Use the deferred mode to increase the **DataGrid**'s performance when [selecting
                 url: "https://js.devexpress.com/Demos/DevAV/odata/Products",
                 key: "Product_ID"
             }
-        };
+        }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -74,6 +82,20 @@ The following tasks require using different API in the deferred mode comparing w
         <dx-data-grid ...
             selectionFilter="['Task_Status', '=', 'Completed']">
         </dx-data-grid>
+
+        <!--TypeScript-->
+        import { DxDataGridModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
 
     ---
     
@@ -113,6 +135,14 @@ The following tasks require using different API in the deferred mode comparing w
                     .subscribe();
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule,
+                HttpModule
+            ],
+            // ...
+        })
 
     ---
 

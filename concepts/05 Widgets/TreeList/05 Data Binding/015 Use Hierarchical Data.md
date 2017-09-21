@@ -34,6 +34,8 @@ If you use hierarchical data, set the [dataStructure](/Documentation/ApiReferenc
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         hierarchicalData = [{
             fullName: "John Heart",
@@ -55,6 +57,13 @@ If you use hierarchical data, set the [dataStructure](/Documentation/ApiReferenc
             city: "Los Angeles"
         }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-tree-list
         [dataSource]="hierarchicalData"
@@ -102,6 +111,8 @@ All items with children have the **items** field. If you use another name for th
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         hierarchicalData = [{
             fullName: "John Heart",
@@ -119,6 +130,13 @@ All items with children have the **items** field. If you use another name for th
             }]
         }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -38,7 +38,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxCheckBoxComponent } from 'devextreme-angular';
+    import { DxCheckBoxModule, DxCheckBoxComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxCheckBoxComponent) checkBox: DxCheckBoxComponent
@@ -51,6 +51,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxCheckBoxModule
+        ],
+        // ...
+    })
 
 ---
 

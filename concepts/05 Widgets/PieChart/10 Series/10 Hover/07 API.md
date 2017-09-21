@@ -11,11 +11,20 @@ You can switch a series point into the hover state and back again by calling its
 ##### Angular
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         toggleSeriesHoverState (point) {
             !point.isHovered() ? point.hover() : point.clearHover();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -43,6 +43,20 @@ Configure each summary item in the **summary**.[totalItems](/Documentation/ApiRe
         </dxo-summary>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/GridSummaries/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

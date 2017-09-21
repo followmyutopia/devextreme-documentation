@@ -51,7 +51,7 @@ The following code adds a simple **Accordion** to your page. Note that each data
     </dx-accordion>
 
     <!--TypeScript-->
-    import { DxAccordionModule } from 'devextreme-angular';
+    import { DxAccordionModule, DxTemplateModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         accordionData = [{
@@ -73,6 +73,14 @@ The following code adds a simple **Accordion** to your page. Note that each data
             return Object.keys(item);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxAccordionModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 ---
 

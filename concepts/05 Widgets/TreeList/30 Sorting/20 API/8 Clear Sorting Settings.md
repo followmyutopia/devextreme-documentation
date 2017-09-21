@@ -22,5 +22,12 @@ You can clear sorting settings for all columns by calling the [clearSorting()](/
             this.treeList.instance.clearSorting();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---

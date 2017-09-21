@@ -33,6 +33,20 @@ Assigning **true** to the **grouping**.[contextMenuEnabled](/Documentation/ApiRe
         </dxo-group-panel>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 You can prevent a user from dragging columns to the group panel, in which case it becomes an informative component only: a user can see the columns that participate in grouping, but cannot change them. Set the **groupPanel**.[allowColumnDragging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/#allowColumnDragging) option to **false** to activate this behavior. You might want to group data [initially](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Initial_and_Runtime_Grouping) in this case.
@@ -60,6 +74,20 @@ You can prevent a user from dragging columns to the group panel, in which case i
             [allowColumnDragging]="false"> 
         </dxo-group-panel>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -90,5 +118,19 @@ If a specific column should never take part in grouping, set its [allowGrouping]
             [allowGrouping]="false">
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---

@@ -52,10 +52,14 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
 
 ##### Angular
 
-    <!--TypeScript-->export class AppComponent {
-        $callbacks = $.Callbacks()
-        phone: string;
-        email: string;
+    <!--TypeScript-->
+    import { DxTextBoxModule, DxValidatorModule, DxValidationSummaryModule, DxButtonModule } from 'devextreme-angular';
+    import $ from 'jquery';
+    // ...
+    export class AppComponent {
+        $callbacks = $.Callbacks();
+        phone: string = "";
+        email: string = "";
         borderStyle: string = "none";
         rules = [{
             type: "required",
@@ -70,13 +74,23 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
             },
             validationRequestsCallbacks: $callbacks
         };
-        function revalidate () {
+        revalidate () {
             $callbacks.fire();
         };
-        function submit (e) {
+        submit (e) {
             e.validationGroup.validate();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule,
+            DxValidatorModule,
+            DxValidationSummaryModule,
+            DxButtonModule
+        ],
+        // ...
+    })
 
     <!--HTML--><div id="contacts" [style.border]="borderStyle">
         <dx-text-box

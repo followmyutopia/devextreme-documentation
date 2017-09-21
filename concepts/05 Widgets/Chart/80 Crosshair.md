@@ -27,6 +27,20 @@ To enable the crosshair, set the **crosshair**.[enabled](/Documentation/ApiRefer
         </dxo-crosshair>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 For information about all options of the crosshair and its labels, visit the [crosshair](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/) section of the API reference.

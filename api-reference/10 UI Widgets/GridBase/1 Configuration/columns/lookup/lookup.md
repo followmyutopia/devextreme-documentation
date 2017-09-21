@@ -62,6 +62,8 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         drivers = [
             { driverID: 1, firstName: 'John', lastName: 'Smith', busID: 2 },
@@ -74,6 +76,13 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
             { busID: 3, plates: 'CD-9876' }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

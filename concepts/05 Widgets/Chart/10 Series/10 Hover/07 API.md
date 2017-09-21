@@ -11,11 +11,20 @@ You can switch a series into the hover state by calling its [hover()](/Documenta
 ##### Angular
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         toggleSeriesHoverState (series) {
             !series.isHovered() ? series.hover() : series.clearHover();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

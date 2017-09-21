@@ -42,6 +42,8 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
 ##### Angular
     
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onEditorPreparing (e) {
             if (e.dataField == "requiredDataField") {
@@ -55,6 +57,13 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ... 

@@ -22,6 +22,20 @@ By default, exactly one panel can be in the expanded state at one moment. To cha
         [multiple]="true">   <!-- Multiple panels may be expanded -->
     </dx-accordion>
 
+    <!--TypeScript-->
+    import { DxAccordionModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxAccordionModule
+        ],
+        // ...
+    })
+
 ---
 
 #####See Also#####

@@ -17,6 +17,20 @@ In multi-series charts, point labels often overlap. To decide how to resolve ove
         resolveLabelOverlapping="shift"> <!-- or 'hide' | 'none' -->
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Another way to deal with overlapping labels is to hide all labels of a specific series once their count exceeds a certain limit. Mostly, this feature is useful if the series accepts new points at runtime. To specify the limit on point labels, assign a number to the [maxLabelCount](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/#maxLabelCount) option.
@@ -42,6 +56,20 @@ Another way to deal with overlapping labels is to hide all labels of a specific 
     <dx-pie-chart ... >
         <dxi-series [maxLabelCount]="10" ... ></dxi-series>
     </dx-pie-chart>
+
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

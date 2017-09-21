@@ -21,6 +21,20 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
             calculateSortValue="isOnVacation"> <!-- provides values to be used in sorting -->
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -59,6 +73,13 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
                 return rowData.Position; // Others are sorted as usual
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ... >

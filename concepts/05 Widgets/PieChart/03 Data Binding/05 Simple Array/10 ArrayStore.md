@@ -33,7 +33,9 @@ If you want to extend the functionality of a JavaScript array, place it into an 
 ##### Angular
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
+    import 'devextreme/data/array_store'
     // ...
     export class AppComponent {
         fruits = [
@@ -54,6 +56,13 @@ If you want to extend the functionality of a JavaScript array, place it into an 
             paginate: false
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-pie-chart [dataSource]="pieChartDataSource">
         <dxi-series argumentField="fruit" valueField="count"></dxi-series>
@@ -97,6 +106,7 @@ As you may notice, in the previous code, the **ArrayStore** is not declared expl
 ##### Angular
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {
@@ -119,6 +129,13 @@ As you may notice, in the previous code, the **ArrayStore** is not declared expl
             paginate: false
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-pie-chart [dataSource]="pieChartDataSource">
         <dxi-series argumentField="fruit" valueField="count"></dxi-series>

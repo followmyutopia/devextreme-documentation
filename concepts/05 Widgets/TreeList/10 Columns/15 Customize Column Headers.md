@@ -24,6 +24,20 @@ Specify the **columns**.[caption](/Documentation/ApiReference/UI_Widgets/dxDataG
     <dx-tree-list ... >
         <dxi-column dataField="CompanyName" caption="Company"></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -72,6 +86,21 @@ If you need a more specific customization, define a custom template in the **col
             <i style="color: black">Mailing Address</i>
         </div>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -94,6 +123,20 @@ To hide column headers, assign **false** to the [showColumnHeaders](/Documentati
     <dx-tree-list ...
         [showColumnHeaders]="false">
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

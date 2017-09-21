@@ -5,7 +5,7 @@ Associate a DevExtreme editor with the [Validator](/Documentation/ApiReference/U
 
     <!--JavaScript-->$(function () {
         $("#login").dxTextBox({
-            value: null,
+            value: '',
             placeholder: 'Login'
         }).dxValidator({
             validationRules: [{
@@ -23,8 +23,11 @@ Associate a DevExtreme editor with the [Validator](/Documentation/ApiReference/U
 
 ##### Angular
 
-    <!--TypeScript-->export class AppComponent {
-        login: string;
+    <!--TypeScript-->
+    import { DxTextBoxModule, DxValidatorModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        login: string = '';
         loginRules = [{
             type: 'required'
         }, {
@@ -33,6 +36,14 @@ Associate a DevExtreme editor with the [Validator](/Documentation/ApiReference/U
             message: 'Do not use digits.'
         }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule,
+            DxValidatorModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-text-box [(value)]="login" placeholder="Login">
         <dx-validator [validationRules]="loginRules"></dx-validator>

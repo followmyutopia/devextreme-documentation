@@ -42,7 +42,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxNavBarComponent } from 'devextreme-angular';
+    import { DxNavBarModule, DxNavBarComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxNavBarComponent) navBar: DxNavBarComponent
@@ -55,6 +55,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxNavBarModule
+        ],
+        // ...
+    })
 
 ---
 

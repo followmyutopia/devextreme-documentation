@@ -29,12 +29,14 @@ Each series point allows you to show or hide its tooltip programmatically. For t
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         // Shows the tooltip only when a user clicks a series point
         onPointClick (e) {
             let point = e.target;
             point.showTooltip();
-        },
+        }
         // Hides the tooltip once the user moves away from the series point
         onPointHoverChanged (e) {
             let point = e.target;
@@ -43,6 +45,13 @@ Each series point allows you to show or hide its tooltip programmatically. For t
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -65,6 +74,13 @@ You can also hide the tooltip regardless of the point to which it belongs. To do
             this.chart.instance.hideTooltip();
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

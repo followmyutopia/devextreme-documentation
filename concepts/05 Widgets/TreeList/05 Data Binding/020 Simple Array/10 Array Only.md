@@ -20,6 +20,8 @@ To bind the **TreeList** to an array, pass this array to the [dataSource](/Docum
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         employees = [
             { id: '1', fullName: "John Heart", position: "CEO" }, 
@@ -28,6 +30,13 @@ To bind the **TreeList** to an array, pass this array to the [dataSource](/Docum
             { id: '2', fullName: "Greta Sims", position: "HR Manager" }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-tree-list
         [dataSource]="employees">
@@ -59,6 +68,7 @@ If objects in the array need to be processed (sorted or filtered), you can creat
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
     import query from 'devextreme/data/query';
     // ...
     export class AppComponent {
@@ -70,6 +80,13 @@ If objects in the array need to be processed (sorted or filtered), you can creat
             return query(this.employees).sortBy("fullName", true).toArray();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-tree-list
         [dataSource]="getSortedEmployees()">

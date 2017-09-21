@@ -43,6 +43,21 @@ Use the **template** option to define the markup of detail sections in a master-
         </div>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
+
 ---
 
 [note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 

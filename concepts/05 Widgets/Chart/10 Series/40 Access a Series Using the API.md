@@ -21,6 +21,13 @@ Gets all series of the **Chart**.
                 this.seriesCollection = this.chart.instance.getAllSeries();
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -45,6 +52,13 @@ Gets a series by its [name](/Documentation/ApiReference/Data_Visualization_Widge
                 this.series = this.chart.instance.getSeriesByName("Series 1");
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -69,6 +83,13 @@ Gets a series by its index in the [series](/Documentation/ApiReference/Data_Visu
                 this.series = this.chart.instance.getSeriesByPos(0);
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -95,12 +116,21 @@ Apart from the API methods, you can access a series in the event handlers. For e
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onSeriesClick (e) {
             let series = e.target;
             // ...
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

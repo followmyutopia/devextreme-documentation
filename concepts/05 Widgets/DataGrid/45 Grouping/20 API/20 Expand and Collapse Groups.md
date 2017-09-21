@@ -45,6 +45,13 @@ The **DataGrid** provides the following API for expanding and collapsing groups:
                 this.dataGrid.instance.expandAll();
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -95,6 +102,13 @@ The **DataGrid** provides the following API for expanding and collapsing groups:
                 this.dataGrid.instance.expandAll(1);
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -131,6 +145,13 @@ The **DataGrid** provides the following API for expanding and collapsing groups:
                 }
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxDataGridModule
+            ],
+            // ...
+        })
 
     ---
 

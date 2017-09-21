@@ -36,6 +36,20 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
             calculateSortValue="isOnVacation"> <!-- provides values to be used in sorting -->
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -62,6 +76,8 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         customSortingFunction (rowData) {
             if (rowData.Position == "CEO")
@@ -70,6 +86,13 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
                 return rowData.Position; // Others are sorted as usual
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ... >

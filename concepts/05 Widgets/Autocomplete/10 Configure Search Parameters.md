@@ -28,6 +28,8 @@ The **Autocomplete** can provide suggestions in two different modes: *'contains'
     </dx-autocomplete>
 
     <!--TypeScript-->
+    import { DxAutocompleteModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         autocompleteData = [
             { country: "Afghanistan", capital: "Kabul" },
@@ -35,6 +37,13 @@ The **Autocomplete** can provide suggestions in two different modes: *'contains'
             // ...
         ]
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxAutocompleteModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -57,6 +66,20 @@ By default, the **Autocomplete** widget starts providing suggestions once an end
         [minSearchLength]="3">
     </dx-autocomplete>
 
+    <!--TypeScript-->
+    import { DxAutocompleteModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxAutocompleteModule
+        ],
+        // ...
+    })
+
 ---
 
 You can also specify the time interval the widget should wait before providing suggestions. Assign this time interval measured in milliseconds to the [searchTimeout](/Documentation/ApiReference/UI_Widgets/dxAutocomplete/Configuration/#searchTimeout) option.
@@ -77,6 +100,20 @@ You can also specify the time interval the widget should wait before providing s
     <dx-autocomplete ...
         [searchTimeout]="500">
     </dx-autocomplete>
+
+    <!--TypeScript-->
+    import { DxAutocompleteModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxAutocompleteModule
+        ],
+        // ...
+    })
 
 ---
 

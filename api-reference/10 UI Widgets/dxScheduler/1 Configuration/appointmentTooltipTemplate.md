@@ -45,6 +45,23 @@ Use a variable that is declared in the template via the `let` keyword to access 
         </div>
     </dx-scheduler>
 
+    
+    <!--TypeScript-->
+    import { DxSchedulerModule, DxButtonModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule,
+            DxTemplateModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
 #####AngularJS#####
 
 In **AngularJS** apps, if you need to access appointment object fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment tooltip template, use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables.

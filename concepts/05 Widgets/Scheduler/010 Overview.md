@@ -51,6 +51,13 @@ The following code adds the **Scheduler** widget to your page. The simplest conf
         ];
         currentDate = new Date(2016, 4, 25);
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -130,6 +137,13 @@ If your appointments have a different structure, specify:
         ];
         currentDate = new Date(2016, 4, 25);
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---
 

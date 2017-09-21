@@ -30,11 +30,20 @@ The **TreeList** widget raises events before and after a row is inserted, update
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onRowInserting (e) {
             // Handler of the "rowInserting" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -77,12 +86,21 @@ In addition, the **TreeList** raises the [initNewRow](/Documentation/ApiReferenc
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onInitNewRow (e) { // Handler of the "initNewRow" event
             // Sets an initial value for the "Hire_Date" field
             e.data.Hire_Date = new Date();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
     

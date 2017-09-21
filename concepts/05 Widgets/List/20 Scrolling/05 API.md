@@ -94,6 +94,13 @@ The following examples shows how to call these methods.
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 <!---->
 
@@ -114,6 +121,13 @@ The following examples shows how to call these methods.
             this.list.instance.scrollToItem(listGroupNodes[listGroupNodes.length-1]);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 <!---->
 
@@ -136,6 +150,13 @@ The following examples shows how to call these methods.
             this.list.instance.scrollBy(100);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 ---
 

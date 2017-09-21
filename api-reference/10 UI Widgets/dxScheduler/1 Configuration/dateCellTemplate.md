@@ -30,6 +30,21 @@ Use a variable that is declared in the template via the `let` keyword to access 
         </div>
     </dx-scheduler>
 
+    <!--TypeScript-->
+    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
+
 #####AngularJS#####
 
 In the **AngularJS** apps, if you need to access day scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, object fields are unavailable. To access another binding context within a date scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.

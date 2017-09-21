@@ -42,6 +42,7 @@ Paging settings are configured in the [DevExtreme DataSource](/Documentation/Api
     </dx-list>
 
     <!--TypeScript-->
+    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import 'devextreme/data/odata/store';
     // ...
@@ -56,6 +57,14 @@ Paging settings are configured in the [DevExtreme DataSource](/Documentation/Api
             pageSize: 5
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
     <!--CSS-->.item-text {
         display: inline-block;
@@ -87,6 +96,20 @@ The next page can be loaded immediately as the user scrolls the **List** down to
     <dx-list ...
         pageLoadMode="scrollBottom"> <!-- or "nextButton" -->
     </dx-list>
+
+    <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 ---
 

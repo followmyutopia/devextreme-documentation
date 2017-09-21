@@ -25,6 +25,8 @@ When a user selects a series point, the **PieChart** fires the [pointSelectionCh
     </dx-pie-chart>
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onPointSelectionChanged (e) {
             let point = e.target;
@@ -35,6 +37,13 @@ When a user selects a series point, the **PieChart** fires the [pointSelectionCh
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -23,6 +23,20 @@ Depending on whether the legend is oriented vertically or horizontally, the **Pi
             </dxo-legend>
         </dx-pie-chart>
 
+        <!--TypeScript-->
+        import { DxPieChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxPieChartModule
+            ],
+            // ...
+        })
+
     ---
 
     [note] To center a horizontally-oriented legend, assign *"center"* to the [horizontalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/legend/#horizontalAlignment) option. For details on the legend's location, refer to the [Relocate the Legend](/Documentation/Guide/Widgets/PieChart/Legend/Relocate_the_Legend/) topic.
@@ -53,6 +67,20 @@ To distribute all legend items between several columns (in a vertically-oriented
             </dxo-legend>
         </dx-pie-chart>
 
+        <!--TypeScript-->
+        import { DxPieChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxPieChartModule
+            ],
+            // ...
+        })
+
     ---
 
 - **Adjust the empty space between columns and rows**         
@@ -80,6 +108,20 @@ Regardless the legend orientation, you can adjust the empty space between column
                 [rowItemSpacing]="30">
             </dxo-legend>
         </dx-pie-chart>
+
+        <!--TypeScript-->
+        import { DxPieChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxPieChartModule
+            ],
+            // ...
+        })
 
     ---
 

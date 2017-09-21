@@ -36,6 +36,20 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
             <dxi-column dataField="Apartment"></dxi-column>
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -65,6 +79,8 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
 ##### Angular
     
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         customizeColumns (columns) {
             columns.push({ // Pushes the "Address" band column into the "columns" array
@@ -79,6 +95,13 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ...

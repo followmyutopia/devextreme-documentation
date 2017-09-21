@@ -30,6 +30,20 @@ The title is configured by the [title](/Documentation/ApiReference/Data_Visualiz
         </dxo-title>
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 <a href='/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
@@ -51,6 +65,20 @@ You can set the title's text more concisely by assigning it directly to the **ti
     <!--HTML--><dx-pie-chart ...
         text="I am the Title">
     </dx-pie-chart>
+
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

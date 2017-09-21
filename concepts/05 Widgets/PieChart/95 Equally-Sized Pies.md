@@ -27,6 +27,20 @@ The **PieChart** widget comprises of a pie and other elements which can affect t
         sizeGroup="pies">
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 The widgets should have identical layouts, that is, the same container size, [title](/Documentation/Guide/Widgets/PieChart/Title_and_Subtitle/) and [legend](/Documentation/Guide/Widgets/PieChart/Legend/Overview/) position, etc. Note also that a single page can contain many size groups, but a widget can be a member of only one of them.

@@ -22,6 +22,20 @@ Zooming and scrolling are configured separately as well as their support for mou
         scrollingMode="all"> <!-- or "touch" | "mouse" | "none" -->
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>

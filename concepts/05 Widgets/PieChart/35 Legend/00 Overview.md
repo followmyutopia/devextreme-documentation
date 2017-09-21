@@ -22,6 +22,20 @@ To configure the appearance, location, and content of the legend, use options co
         <dxo-legend ... ></dxo-legend>
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 #####See Also#####

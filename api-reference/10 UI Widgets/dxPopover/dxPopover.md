@@ -44,7 +44,9 @@ You can create the widget using one of the following approaches.
         target="#targetElement"
         showEvent="dxhoverstart"
         hideEvent="dxhoverend">
+        <div *dxTemplate="let data of 'content'">
             <p>Popover content</p>
+        </div>
     </dx-popover>
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  

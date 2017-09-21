@@ -44,6 +44,13 @@ For a minor customization of **Scheduler** appointments, you can use the default
         ];
         currentDate = new Date(2016, 4, 25);
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-scheduler
@@ -71,6 +78,8 @@ Using the default appointment template is the easiest way to customize an appoin
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
     export class AppComponent  {
         schedulerData = [{
             movie: "His Girl Friday",
@@ -87,6 +96,14 @@ Using the default appointment template is the easiest way to customize an appoin
         ];
         currentDate = new Date(2016, 4, 24);
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 #####**AngularJS**
 

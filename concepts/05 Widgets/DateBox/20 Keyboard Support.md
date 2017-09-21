@@ -71,7 +71,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxDateBoxComponent } from 'devextreme-angular';
+    import { DxDateBoxModule, DxDateBoxComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxDateBoxComponent) dateBox: DxDateBoxComponent
@@ -84,6 +84,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDateBoxModule
+        ],
+        // ...
+    })
 
 ---
 

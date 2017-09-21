@@ -23,6 +23,8 @@ To execute certain commands when the **List** is scrolled, handle the [scroll](/
     </dx-list>
 
     <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onScroll (e) {
             var scrollOffset = e.scrollOffset.top;
@@ -31,6 +33,13 @@ To execute certain commands when the **List** is scrolled, handle the [scroll](/
             // Handler of the "scroll" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 ---
 

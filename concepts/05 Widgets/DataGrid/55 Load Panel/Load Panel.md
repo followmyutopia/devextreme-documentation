@@ -23,6 +23,20 @@ The load panel is shown only for remote data sources by default. To show it rega
             [enabled]="true"> <!-- or false | "auto" -->
         </dxo-load-panel>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -50,6 +64,13 @@ You can also control the load panel programmatically using the [beginCustomLoadi
             this.dataGrid.instance.endCustomLoading();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -78,6 +99,20 @@ Since the load panel is a DevExtreme [LoadPanel](/Documentation/Guide/Widgets/Lo
             indicatorSrc="https://js.devexpress.com/Content/data/loadingIcons/rolling.svg">
         </dxo-load-panel>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

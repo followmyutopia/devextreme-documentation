@@ -30,6 +30,20 @@ The **DataGrid** widget allows a user to add, delete and update data. Assign **t
         </dxo-editing>
         <dxi-column dataField="id" [allowEditing]="false"></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -56,6 +70,20 @@ With the **DataGrid** you can edit data in several modes. Use the **editing**.[m
             mode="row"> <!-- 'batch' | 'cell' | 'form' | 'popup' -->
         </dxo-editing>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

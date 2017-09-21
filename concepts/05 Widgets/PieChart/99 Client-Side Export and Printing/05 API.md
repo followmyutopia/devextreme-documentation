@@ -23,6 +23,13 @@ To export the **PieChart** using the API, call the [exportTo(fileName, format)](
             this.pieChart.instance.print();
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -63,6 +70,13 @@ You can also export several widgets at once using their SVG markup. Gather the m
             });
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-pie-chart id="pieChartContainer1" ... ></dx-pie-chart>

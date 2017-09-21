@@ -38,6 +38,20 @@ To specify the **Scatter** series type, assign *"scatter"* to the **series[]**.[
         </dxo-common-series-settings>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Refer to the [ScatterSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/ScatterSeries/) section of the API Reference for a full list of options available to a **Scatter** series.

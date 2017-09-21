@@ -43,6 +43,20 @@ The **DataGrid** uses the DevExtreme [Form](/Documentation/Guide/Widgets/Form/Ov
             </dxo-form-item>
         </dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -111,6 +125,20 @@ The form contains only the editable fields, or "simple items" (as they are calle
         <dxi-column dataField="Email"></dxi-column>
         <dxi-column dataField="Skype"></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

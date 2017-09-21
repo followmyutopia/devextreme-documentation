@@ -21,6 +21,20 @@ The **Pie** series type is used by default, but you can change it to **Doughnut*
         type="doughnut"> <!-- or "donut" -->
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Use the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/) option to configure a series. Pass an object to this option if you have only one series, or an array of objects when you have multiple series. In the latter case, you can also specify settings common for all series in the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/commonSeriesSettings/) object, for example: 
@@ -53,6 +67,20 @@ Use the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieCha
         <dxi-series valueField="women"></dxi-series>
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 Settings specified for a series apply to all its points. If you need to customize an individual point, assign a function to the [customizePoint](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#customizePoint) option. This function must return an object with options for the point that you want to customize.
@@ -83,6 +111,8 @@ Settings specified for a series apply to all its points. If you need to customiz
     </dx-pie-chart>
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         // All series points with the value more than 100 turn red
         // Other series points remain blue
@@ -90,6 +120,13 @@ Settings specified for a series apply to all its points. If you need to customiz
             return pointInfo.value > 100 ? { color: 'red' } : { }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

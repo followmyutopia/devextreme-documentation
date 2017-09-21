@@ -54,6 +54,20 @@ All group items are displayed in parentheses after the group header by default. 
         </dxo-summary>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/GroupSummaries/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>

@@ -17,6 +17,13 @@ A column is considered hidden when its [visible](/Documentation/ApiReference/UI_
             this.dataGrid.instance.columnOption("Email", "visible", false);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

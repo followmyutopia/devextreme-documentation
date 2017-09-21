@@ -25,6 +25,20 @@ To allow a user to add, delete and update data in the **TreeList**, assign **tru
         </dxo-editing>
     </dx-tree-list>
 
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
+
 ---
 
 With these settings, the **TreeList** expects that the server can also add, update and delete data. In addition, you need to configure the **CustomStore** as shown below. Note that in this example, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the **DataSource** configuration object to shorten the example.
@@ -67,6 +81,13 @@ With these settings, the **TreeList** expects that the server can also add, upda
 ##### Angular
 
     <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { DxTreeListModule } from 'devextreme-angular';
+    import DataSource from 'devextreme/data/data_source';
+    import CustomStore from 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
     export class AppComponent {
         treeListDataSource: any = {};
         constructor(@Inject(Http) http: Http) {
@@ -87,6 +108,14 @@ With these settings, the **TreeList** expects that the server can also add, upda
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-tree-list ...
         [dataSource]="treeListDataSource">

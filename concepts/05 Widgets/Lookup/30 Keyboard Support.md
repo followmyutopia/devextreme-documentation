@@ -54,7 +54,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxLookupComponent } from 'devextreme-angular';
+    import { DxLookupModule, DxLookupComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxLookupComponent) lookup: DxLookupComponent
@@ -67,6 +67,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
 
 ---
 

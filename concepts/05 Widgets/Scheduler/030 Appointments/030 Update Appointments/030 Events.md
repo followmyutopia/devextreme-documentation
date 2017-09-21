@@ -25,6 +25,8 @@ To execute certain commands before or after an appointment was updated, handle t
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onAppointmentUpdating (e) {
             // Handler of the "appointmentUpdating" event
@@ -34,6 +36,13 @@ To execute certain commands before or after an appointment was updated, handle t
             // Handler of the "appointmentUpdated" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---
 

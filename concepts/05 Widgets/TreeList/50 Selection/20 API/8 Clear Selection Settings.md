@@ -17,6 +17,13 @@ Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxTreeList/
             this.treeList.instance.deselectRows(keys);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -44,6 +51,13 @@ The [deselectAll()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#d
             this.treeList.instance.clearSelection();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

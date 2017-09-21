@@ -30,6 +30,20 @@ The **TreeList** widget allows a user to add, delete and update data. Assign **t
         </dxo-editing>
         <dxi-column dataField="id" [allowEditing]="false"></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -56,6 +70,20 @@ With the **TreeList** you can edit data in several modes. Use the **editing**.[m
             mode="row"> <!-- 'batch' | 'cell' | 'form' | 'popup' -->
         </dxo-editing>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

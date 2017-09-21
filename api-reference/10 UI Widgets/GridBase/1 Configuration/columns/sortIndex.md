@@ -45,6 +45,20 @@ To sort data first by the *"Last Name"* and then by the *"First Name"* column, u
         <dxi-column dataField="firstName" [sortIndex]="1" sortOrder="asc"></dxi-column>
         <dxi-column dataField="lastName" [sortIndex]="1" sortOrder="asc"></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

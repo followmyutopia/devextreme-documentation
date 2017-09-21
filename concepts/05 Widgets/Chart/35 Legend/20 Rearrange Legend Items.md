@@ -23,6 +23,20 @@ Depending on whether the legend is oriented vertically or horizontally, the **Ch
             </dxo-legend>
         </dx-chart>
 
+        <!--TypeScript-->
+        import { DxChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
+
     ---
 
     [note] To center a horizontally-oriented legend, assign *"center"* to the [horizontalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/legend/#horizontalAlignment) option. For details on the location of the legend on a chart, refer to the [Relocate the Legend](/Documentation/Guide/Widgets/Chart/Legend/Relocate_the_Legend/) topic.
@@ -53,6 +67,20 @@ To distribute all legend items between several columns (in a vertically-oriented
             </dxo-legend>
         </dx-chart>
 
+        <!--TypeScript-->
+        import { DxChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
+
     ---
 
 - **Adjust the empty space between columns and rows**         
@@ -80,6 +108,20 @@ Regardless the legend orientation, you can adjust the empty space between column
                 [rowItemSpacing]="30">
             </dxo-legend>
         </dx-chart>
+
+        <!--TypeScript-->
+        import { DxChartModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxChartModule
+            ],
+            // ...
+        })
 
     ---
 

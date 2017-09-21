@@ -25,6 +25,8 @@ The **Chart** provides an API for showing and hiding a series at runtime. The mo
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onLegendClick (e) {
             let series = e.target;
@@ -35,6 +37,13 @@ The **Chart** provides an API for showing and hiding a series at runtime. The mo
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -61,6 +70,20 @@ A series can be hidden initially. For this, assign **false** to the [visible](/D
     <dx-chart ... >
         <dxi-series [visible]="false" ...></dxi-series>
     </dx-chart>
+
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

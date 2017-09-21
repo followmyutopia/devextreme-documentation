@@ -26,6 +26,20 @@ To make the search panel visible, assign **true** to the [searchPanel](/Document
         <dxo-search-panel [visible]="true"></dxo-search-panel>
         <dxi-column [allowSearch]="false" ... ></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

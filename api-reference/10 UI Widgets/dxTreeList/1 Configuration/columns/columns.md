@@ -45,6 +45,20 @@ This option accepts an array of objects, where each object configures a single c
         <dxi-column dataField="CompanyName"></dxi-column>
         <dxi-column dataField="City"></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

@@ -17,6 +17,7 @@ If you want to extend the functionality of a JavaScript array, place it into the
 ##### Angular
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
     import ArrayStore from 'devextreme/data/array_store';
     // ...
     export class AppComponent {
@@ -28,6 +29,13 @@ If you want to extend the functionality of a JavaScript array, place it into the
             }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-scheduler
@@ -68,6 +76,7 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
 ##### Angular
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {
@@ -90,6 +99,13 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
             }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-scheduler

@@ -36,6 +36,20 @@ Customize a summary item's text and value format using the **displayFormat** and
         </dxo-summary>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 Specify the **customizeText** function for a more detailed customization.
@@ -78,6 +92,8 @@ Specify the **customizeText** function for a more detailed customization.
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         customizeText (e) {
             if (e.value < 4) {
@@ -86,6 +102,13 @@ Specify the **customizeText** function for a more detailed customization.
             return "Items: " + e.value;
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

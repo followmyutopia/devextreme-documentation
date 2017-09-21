@@ -50,6 +50,8 @@ You can validate any group by calling its [validate()](/Documentation/ApiReferen
 
 
     <!--TypeScript-->
+    import { DxTextBoxModule, DxValidatorModule, /* DxValidationGroupModule */ } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         // ...
         loginClick: function (e) {
@@ -59,6 +61,15 @@ You can validate any group by calling its [validate()](/Documentation/ApiReferen
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule,
+            DxValidatorModule,
+            // DxValidationGroupModule
+        ],
+        // ...
+    })
 
 ##### AngularJS
 

@@ -25,7 +25,12 @@ Use the [selectedRowKeys](/Documentation/ApiReference/UI_Widgets/dxTreeList/Conf
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
+    import 'devextreme/data/array_store';
+    // or
+    // import 'devextreme/data/odata/store';
+    // import 'devextreme/data/custom_store';
     // ...
     export class AppComponent {
         treeListDataSource = new DataSource({
@@ -35,6 +40,13 @@ Use the [selectedRowKeys](/Documentation/ApiReference/UI_Widgets/dxTreeList/Conf
             }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -70,6 +82,13 @@ You can select rows at runtime as well with the [selectRows(keys, preserve)](/Do
             this.treeList.instance.selectAll();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -97,5 +116,12 @@ To get the keys or data of the selected rows, call the [getSelectedRowKeys()](/D
             return this.treeList.instance.getSelectedRowsData();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---

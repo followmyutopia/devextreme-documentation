@@ -40,6 +40,8 @@ This handler allows you to customize the context menu.
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onContextMenuPreparing (e) { 
             if (e.target == "header" && e.columnIndex == 0) {
@@ -52,6 +54,13 @@ This handler allows you to customize the context menu.
             } 
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ...

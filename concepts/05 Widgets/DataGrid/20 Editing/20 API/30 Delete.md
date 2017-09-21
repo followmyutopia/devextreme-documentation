@@ -42,6 +42,8 @@ Call the [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid
     </dx-button>
 
     <!--TypeScript-->
+    import { DxDataGridModule, DxButtonModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         deleteRow () {
@@ -49,6 +51,14 @@ Call the [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid
             this.dataGrid.instance.deleteRow(1);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule,
+            DxButtonModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -63,12 +73,21 @@ Note that in the [batch mode](/Documentation/Guide/Widgets/DataGrid/Editing/#Use
 ##### Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         undeleteRow () {
             this.dataGrid.instance.undeleteRow(1);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

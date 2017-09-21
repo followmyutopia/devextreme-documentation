@@ -50,7 +50,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxRadioGroupComponent } from 'devextreme-angular';
+    import { DxRadioGroupModule, DxRadioGroupComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxRadioGroupComponent) radioGroup: DxRadioGroupComponent
@@ -63,6 +63,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxRadioGroupModule
+        ],
+        // ...
+    })
 
 ---
 

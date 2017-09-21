@@ -11,11 +11,20 @@ You can switch a point into the hover state by calling its [hover()](/Documentat
 ##### Angular
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         togglePointHoverState (point) {
             !point.isHovered() ? point.hover() : point.clearHover();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

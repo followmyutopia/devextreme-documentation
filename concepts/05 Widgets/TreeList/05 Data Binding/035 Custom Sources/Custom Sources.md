@@ -19,14 +19,27 @@ To consume data from a custom source, the **TreeList** uses the [CustomStore](/D
 
 ##### Angular
 
-    <!--HTML--><dx-tree-list ...
-        [dataSource]="treeListDataSource">
+    <!--HTML--><dx-tree-list ... >
         <dxo-remote-operations
             [filtering]="true"
             [sorting]="true"
             [grouping]="true"> <!-- Grouping is required only when a user can filter data using a header filter -->
         </dxo-remote-operations>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -39,6 +39,13 @@ Pass the index to the [reorderItem(itemIndex, toItemIndex)](/Documentation/ApiRe
                 );
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -70,6 +77,13 @@ Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [re
                 this.list.instance.reorderItem(itemNodes[0], itemNodes[itemNodes.length-1]);
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 

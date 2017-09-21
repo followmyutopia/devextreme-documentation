@@ -12,6 +12,21 @@ DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiRef
         </div>
     </dx-tree-list>
 
+    <!--TypeScript-->
+    import { DxTreeListModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)
 
     <!--HTML-->
@@ -92,6 +107,8 @@ While **cellTemplate** customizes data cells only, the [onCellPrepared](/Documen
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onCellPrepared (e) {
             if (e.rowType == "detailAdaptive") {
@@ -99,6 +116,13 @@ While **cellTemplate** customizes data cells only, the [onCellPrepared](/Documen
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list

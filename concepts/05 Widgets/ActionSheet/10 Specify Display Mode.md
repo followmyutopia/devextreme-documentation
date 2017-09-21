@@ -21,6 +21,20 @@ By default, the **ActionSheet** comes up from the bottom of the page. If you set
         target="#actionSheetTarget">
     </dx-action-sheet>
 
+    <!--TypeScript-->
+    import { DxActionSheetModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxActionSheetModule
+        ],
+        // ...
+    })
+
 ---
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Action_Sheet/PopoverMode/jQuery/iOS/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>

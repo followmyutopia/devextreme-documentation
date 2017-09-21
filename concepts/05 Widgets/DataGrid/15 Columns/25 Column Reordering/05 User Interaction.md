@@ -23,5 +23,19 @@ If a specific column should not be moved, set its [allowReordering](/Documentati
         [allowColumnReordering]="true">
         <dxi-column dataField="CompanyName" [allowReordering]="false"></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---

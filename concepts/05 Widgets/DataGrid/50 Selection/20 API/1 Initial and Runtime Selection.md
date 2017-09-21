@@ -25,7 +25,12 @@ Use the [selectedRowKeys](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Conf
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
+    import 'devextreme/data/array_store';
+    // or
+    // import 'devextreme/data/odata/store';
+    // import 'devextreme/data/custom_store';
     // ...
     export class AppComponent {
         dataGridDataSource = new DataSource({
@@ -35,6 +40,13 @@ Use the [selectedRowKeys](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Conf
             }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -79,6 +91,13 @@ The **DataGrid** provides two methods that select rows at runtime: [selectRows(k
             e.component.selectRowsByIndexes([0]);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ...
@@ -107,6 +126,13 @@ To select all rows at once, call the [selectAll()](/Documentation/ApiReference/U
             this.dataGrid.instance.selectAll();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -134,6 +160,13 @@ Call the [getSelectedRowKeys()](/Documentation/ApiReference/UI_Widgets/dxDataGri
             return this.dataGrid.instance.getSelectedRowsData();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

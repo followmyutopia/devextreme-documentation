@@ -33,6 +33,20 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
         </dxi-column>
     </dx-tree-list>
 
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
+
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->
@@ -81,11 +95,20 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     </dx-tree-list>
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         getCountryWithCapital (rowData) {
             return rowData.capital + " (" + rowData.country + ")";
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
 ##### ASP.NET MVC Controls
 

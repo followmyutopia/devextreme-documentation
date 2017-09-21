@@ -44,6 +44,8 @@ Many **TreeList** elements are based on editors. For example, the search panel i
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onEditorPreparing (e) { 
             if (e.dataField == "name") {
@@ -60,6 +62,13 @@ Many **TreeList** elements are based on editors. For example, the search panel i
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ...
@@ -94,6 +103,8 @@ If you use a third-party editor, cancel creation of the default editor and then 
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onEditorPreparing (e) { 
             if(e.dataField === "hidden") {
@@ -107,6 +118,13 @@ If you use a third-party editor, cancel creation of the default editor and then 
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ...

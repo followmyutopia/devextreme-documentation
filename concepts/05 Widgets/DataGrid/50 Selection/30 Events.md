@@ -23,6 +23,8 @@ The **DataGrid** widget raises the [selectionChanged](/Documentation/ApiReferenc
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onSelectionChanged (e) { // Handler of the "selectionChanged" event
             let currentSelectedRowKeys = e.currentSelectedRowKeys;
@@ -32,6 +34,13 @@ The **DataGrid** widget raises the [selectionChanged](/Documentation/ApiReferenc
             // ...
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

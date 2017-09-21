@@ -28,6 +28,20 @@ Set the **remoteOperations**.[groupPaging](/Documentation/ApiReference/UI_Widget
         <dxo-remote-operations [groupPaging]="true"></dxo-remote-operations>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 Now, the **DataGrid** requires server-implemented group paging. Use the following ASP.NET and PHP server extensions to implement group paging and other data processing operations:
@@ -132,6 +146,14 @@ The **groupCount** should be returned only if the **requireGroupCount** paramete
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule,
+            HttpModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-data-grid ...
         [dataSource]="gridDataSource"

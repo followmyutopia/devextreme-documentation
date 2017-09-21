@@ -58,7 +58,7 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxTextBoxComponent } from 'devextreme-angular';
+    import { DxTextBoxModule, DxTextBoxComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxTextBoxComponent) textBox: DxTextBoxComponent
@@ -71,6 +71,13 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule
+        ],
+        // ...
+    })
 
 ---
 

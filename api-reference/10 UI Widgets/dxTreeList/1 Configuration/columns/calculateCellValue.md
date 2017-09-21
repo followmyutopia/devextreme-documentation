@@ -59,12 +59,21 @@ To invoke the default behavior, call the **this.defaultCalculateCellValue(rowDat
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         calculateCellValue (rowData) {
             // ...
             return this.defaultCalculateCellValue(rowData);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ... >

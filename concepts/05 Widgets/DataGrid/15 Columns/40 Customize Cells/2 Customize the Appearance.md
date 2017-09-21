@@ -12,6 +12,21 @@ DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiRef
         </div>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)
 
     <!--HTML-->
@@ -92,6 +107,8 @@ While **cellTemplate** customizes data cells only, the [onCellPrepared](/Documen
 ##### Angular
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onCellPrepared (e) {
             if (e.rowType == "detailAdaptive") {
@@ -99,6 +116,13 @@ While **cellTemplate** customizes data cells only, the [onCellPrepared](/Documen
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid

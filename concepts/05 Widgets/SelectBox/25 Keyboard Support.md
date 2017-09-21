@@ -58,7 +58,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxSelectBoxComponent } from 'devextreme-angular';
+    import { DxSelectBoxModule, DxSelectBoxComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxSelectBoxComponent) selectBox: DxSelectBoxComponent
@@ -71,6 +71,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSelectBoxModule
+        ],
+        // ...
+    })
 
 ---
 

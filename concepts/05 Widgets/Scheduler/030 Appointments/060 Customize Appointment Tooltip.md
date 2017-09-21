@@ -16,6 +16,8 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
     export class AppComponent  {
         schedulerData = [{
             text: "His Girl Friday",
@@ -28,6 +30,14 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
         ];
         currentDate = new Date(2016, 4, 24);
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
 #####**AngularJS**
 

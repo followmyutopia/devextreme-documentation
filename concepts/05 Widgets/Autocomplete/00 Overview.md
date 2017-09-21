@@ -41,6 +41,13 @@ The following code adds the **Autocomplete** to your page. The simplest configur
             // ...
         ]
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxAutocompleteModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -83,6 +90,13 @@ If your data is an array of objects, use the [valueExpr](/Documentation/ApiRefer
             // ...
         ]
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxAutocompleteModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -127,6 +141,13 @@ Usually, the data field that provides suggestions is the same data field that is
             // ...
         ]
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxAutocompleteModule
+        ],
+        // ...
+    })
 
 ---
 

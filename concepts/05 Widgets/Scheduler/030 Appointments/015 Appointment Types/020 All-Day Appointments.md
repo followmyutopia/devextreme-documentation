@@ -39,6 +39,8 @@ If appointments in your data source omit the **allDay** field, but have another 
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
     export class AppComponent  {
         allDayAppointments = [{
             text: "Fix bugs",
@@ -46,6 +48,13 @@ If appointments in your data source omit the **allDay** field, but have another 
             long: true
         }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -21,6 +21,20 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
             calculateSortValue="isOnVacation"> <!-- provides values to be used in sorting -->
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -47,6 +61,8 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
 ##### Angular
 
     <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         customSortingFunction (rowData) {
             if (rowData.Position == "CEO")
@@ -55,6 +71,13 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
                 return rowData.Position; // Others are sorted as usual
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ... >

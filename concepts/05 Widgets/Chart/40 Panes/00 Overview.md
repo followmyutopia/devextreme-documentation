@@ -31,6 +31,20 @@ Panes are configured by the [panes](/Documentation/ApiReference/Data_Visualizati
         </dxi-panes>
     </dx-chart>
 
+    <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
+
 ---
 
 For a multi-pane chart, the **panes** option accepts an array. For further details, refer to the [Multi-Pane Chart](/Documentation/Guide/Widgets/Chart/Panes/Multi-Pane_Chart/) topic.

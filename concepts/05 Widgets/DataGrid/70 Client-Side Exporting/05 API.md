@@ -19,5 +19,12 @@ Call [exportToExcel(selectionOnly)](/Documentation/ApiReference/UI_Widgets/dxDat
             this.dataGrid.instance.exportToExcel(true);
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---

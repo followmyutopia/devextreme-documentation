@@ -17,6 +17,20 @@ All rows are collapsed by default. Assign an array of keys to the [expandedRowKe
         [expandedRowKeys]="[1, 5, 18]">
         <!-- autoExpandAll: true -->
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -50,6 +64,13 @@ Call the [expandRow(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Meth
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

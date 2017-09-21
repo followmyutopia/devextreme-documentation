@@ -50,7 +50,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxRangeSliderComponent } from 'devextreme-angular';
+    import { DxRangeSliderModule, DxRangeSliderComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxRangeSliderComponent) rangeSlider: DxRangeSliderComponent
@@ -63,6 +63,13 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxRangeSliderModule
+        ],
+        // ...
+    })
 
 ---
 

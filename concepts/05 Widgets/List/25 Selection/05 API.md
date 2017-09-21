@@ -40,6 +40,13 @@ Add or remove the key from the [selectedItemKeys](/Documentation/ApiReference/UI
                 this.list.instance.option("selectedItemKeys", selectedKeys);
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -62,6 +69,20 @@ Add or remove the key from the [selectedItemKeys](/Documentation/ApiReference/UI
         <dx-list ...
             [selectedItemKeys]="[0, 2, 5]">
         </dx-list>
+
+        <!--TypeScript-->
+        import { DxListModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            // ...
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -116,6 +137,13 @@ Add or remove the data object from the [selectedItems](/Documentation/ApiReferen
                 this.list.instance.option("selectedItems", selectedItems);
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -137,10 +165,27 @@ Add or remove the data object from the [selectedItems](/Documentation/ApiReferen
 
     #####Angular
 
+        <!--HTML-->
         <dx-list ...
             [dataSource]="fruits"
             [selectedItems]="[fruits[0], fruits[2]]">
         </dx-list>
+
+        <!--TypeScript-->
+        import { DxListModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            fruits = [
+                // ...
+            ]
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -197,6 +242,13 @@ Pass the index to the [selectItem(itemIndex)](/Documentation/ApiReference/UI_Wid
                 }
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 
@@ -237,6 +289,13 @@ Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [se
                 }
             }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
     ---
 

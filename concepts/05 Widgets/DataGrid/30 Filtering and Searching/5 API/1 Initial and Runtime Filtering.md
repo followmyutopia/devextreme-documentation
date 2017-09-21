@@ -41,6 +41,13 @@ The API for filtering differs depending on the UI element that it affects. To sp
             this.dataGrid.instance.columnOption(dataFieldName, "filterValue", newValue);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -88,6 +95,13 @@ To specify initial values for a [header filter](/Documentation/Guide/Widgets/Dat
             this.dataGrid.instance.columnOption(dataFieldName, "filterValues", newValue);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -127,6 +141,13 @@ You can specify an initial text for the [search panel](/Documentation/Guide/Widg
             this.dataGrid.instance.searchByText(newString);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -157,6 +178,13 @@ All the aforementioned options and methods filter data that was returned by the 
             ]);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -179,6 +207,13 @@ Since there are many ways to filter data, you may need to get a filter combined 
             return this.dataGrid.instance.getCombinedFilter(true);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

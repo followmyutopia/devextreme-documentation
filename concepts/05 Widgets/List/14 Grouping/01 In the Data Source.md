@@ -34,6 +34,8 @@ Items in the **List** are grouped if they are grouped in the data source. The **
 #####Angular
 
     <!--TypeScript-->
+    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruitsVegetables = [{
             key: "Fruits",
@@ -51,6 +53,14 @@ Items in the **List** are grouped if they are grouped in the data source. The **
             ]
         }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-list
@@ -109,6 +119,7 @@ If objects in your data source miss the **key** and **items** fields, use the [m
 #####Angular
 
     <!--TypeScript-->
+    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {
@@ -137,6 +148,14 @@ If objects in your data source miss the **key** and **items** fields, use the [m
             }
         });
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-list
@@ -181,6 +200,7 @@ If your data is not grouped at all, you can group it using the [group](/Document
 #####Angular
 
     <!--TypeScript-->
+    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {
@@ -197,7 +217,14 @@ If your data is not grouped at all, you can group it using the [group](/Document
             group: "type"
         });
     }
-
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-list

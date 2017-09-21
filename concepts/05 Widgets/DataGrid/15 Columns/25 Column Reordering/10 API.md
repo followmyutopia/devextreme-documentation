@@ -16,11 +16,20 @@ The [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/co
 ##### Angular
     
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         customizeColumns (columns) {
             column[2].visibleIndex = 1;
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-data-grid ...
@@ -49,6 +58,13 @@ The **visibleIndex** option can also be changed at runtime to reorder columns re
             this.dataGrid.instance.columnOption(1, "visibleIndex", 0);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 

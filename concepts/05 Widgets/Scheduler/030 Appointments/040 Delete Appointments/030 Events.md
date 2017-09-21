@@ -25,6 +25,8 @@ To execute certain commands before or after an appointment was deleted, handle t
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onAppointmentDeleting (e) {
             // Handler of the "appointmentDeleting" event
@@ -34,6 +36,13 @@ To execute certain commands before or after an appointment was deleted, handle t
             // Handler of the "appointmentDeleted" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
     
 ---
 

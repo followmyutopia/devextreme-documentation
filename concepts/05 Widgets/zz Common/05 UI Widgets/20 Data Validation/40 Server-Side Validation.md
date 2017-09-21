@@ -21,7 +21,7 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
             return false;
         };
         $("#login").dxTextBox({
-            value: null,
+            value: "",
             placeholder: 'Login'
         }).dxValidator({
             validationRules: [{
@@ -38,7 +38,10 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
 
 ##### Angular
 
-    <!--TypeScript-->export class AppComponent {
+    <!--TypeScript-->
+    import { DxTextBoxModule, DxValidatorModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
         var validateLogin = function (params) {
             $.ajax({
                 url: "http://www.example.com/services/validate-login",
@@ -55,7 +58,7 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
             // Validation result until the response is recieved
             return false;
         };
-        login: string;
+        login: string = "";
         loginRules = [{
             type: 'required',
             message: 'Login is required'
@@ -64,6 +67,14 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
             validationCallback: validateLogin
         }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule,
+            DxValidatorModule
+        ],
+        // ...
+    })
 
     <!--HTML--><dx-text-box [(value)]="login" placeholder="Login">
         <dx-validator [validationRules]="loginRules"></dx-validator>

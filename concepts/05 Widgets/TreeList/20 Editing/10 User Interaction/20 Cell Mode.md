@@ -32,6 +32,20 @@ Clicking a *"Delete"* button invokes the confirmation dialog that allows a user 
             <dxo-texts [confirmDeleteMessage]="null"></dxo-texts>
         </dxo-editing>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

@@ -23,6 +23,13 @@ To export a widget using the API, call the [exportTo(fileName, format)](/Documen
             this.chart.instance.print();
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 
@@ -64,9 +71,16 @@ You can also export several widgets at once using their SVG markup. Gather the m
             });
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
-    <dx-chart id="chartContainer1" ... ></dx-chart>
-    <dx-chart id="chartContainer2" ... ></dx-chart>
+    <dx-chart #chartContainer1 ... ></dx-chart>
+    <dx-chart #chartContainer2 ... ></dx-chart>
 
 ---

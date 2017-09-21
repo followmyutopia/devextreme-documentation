@@ -26,6 +26,20 @@ To make header filter icons visible for all columns, assign **true** to the [hea
         <dxo-header-filter [visible]="true"></dxo-header-filter>
         <dxi-column [allowHeaderFiltering]="false" ... ></dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -51,6 +65,20 @@ A user can change the applied filter by including or excluding values to/from it
             [filterType]="exclude"> <!-- or "include" -->
         </dxi-column>
     </dx-tree-list>
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
     
 ---
 

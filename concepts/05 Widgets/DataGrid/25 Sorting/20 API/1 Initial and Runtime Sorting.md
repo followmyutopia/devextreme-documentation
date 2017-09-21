@@ -21,6 +21,20 @@ Rows are sorted according to the data source by default. Set the [sortOrder](/Do
         <dxi-column dataField="City"    [sortIndex]="1" sortOrder="asc"></dxi-column>
         <dxi-column dataField="Country" [sortIndex]="0" sortOrder="asc"></dxi-column>
     </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
 
@@ -50,5 +64,12 @@ Change the **sortOrder** and **sortIndex** options using the [columnOption](/Doc
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---

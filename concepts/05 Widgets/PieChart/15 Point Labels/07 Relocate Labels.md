@@ -25,6 +25,20 @@ Labels are located beside their series points by default. Change the **series**.
         </dxi-series>
     </dx-pie-chart>
 
+    <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
+
 ---
 
 <a href='/Demos/WidgetsGallery/Demo/Charts/PieWithCustomLabels/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>

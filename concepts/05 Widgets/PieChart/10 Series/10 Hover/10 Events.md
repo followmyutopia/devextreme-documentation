@@ -24,6 +24,8 @@ When a user hovers the mouse pointer on a series point, the **PieChart** fires t
     </dx-pie-chart>
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onPointHoverChanged (e) {
             let point = e.target;
@@ -34,6 +36,13 @@ When a user hovers the mouse pointer on a series point, the **PieChart** fires t
             }
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

@@ -24,6 +24,13 @@ To access a point label, call the [getLabel()](/Documentation/ApiReference/Data_
             this.label = seriesPoints[0].getLabel();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 ---
 

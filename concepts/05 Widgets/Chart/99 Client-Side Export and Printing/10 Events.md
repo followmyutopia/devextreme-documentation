@@ -39,6 +39,8 @@ You can handle these events with functions. If the handling functions are not go
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         onExporting (e) {
             // Handler of the "exporting" event
@@ -50,6 +52,13 @@ You can handle these events with functions. If the handling functions are not go
             // Handler of the "fileSaving" event
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 ---
 

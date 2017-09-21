@@ -58,7 +58,7 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxTextAreaComponent } from 'devextreme-angular';
+    import { DxTextAreaModule, DxTextAreaComponent } from 'devextreme-angular';
     // ...
     export class AppComponent {
         @ViewChild(DxTextAreaComponent) textArea: DxTextAreaComponent
@@ -71,6 +71,13 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
             });
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextAreaModule
+        ],
+        // ...
+    })
 
 ---
 

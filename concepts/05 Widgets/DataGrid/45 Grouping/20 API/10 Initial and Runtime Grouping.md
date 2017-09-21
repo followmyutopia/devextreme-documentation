@@ -30,6 +30,20 @@ Assign a non-negative integer to the **columns**.[groupIndex](/Documentation/Api
         </dxi-column>
     </dx-data-grid>
 
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
 ---
 
 You can change a column's **groupIndex** at runtime using the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method. 
@@ -54,6 +68,13 @@ You can change a column's **groupIndex** at runtime using the [columnOption(id, 
             this.dataGrid.instance.columnOption("City", "groupIndex", 0);
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 ---
 

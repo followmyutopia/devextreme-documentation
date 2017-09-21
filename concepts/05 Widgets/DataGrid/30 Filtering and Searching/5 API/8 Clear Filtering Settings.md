@@ -31,5 +31,12 @@ Clears all filters at once.
             this.dataGrid.instance.clearFilter("search");
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
     
 ---
