@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The item's calculated percentage value.
 <!--/shortDescription-->
 
 <!--fullDescription-->

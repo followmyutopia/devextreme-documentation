@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The funnel item's zero-based index in the funnel items' array.
 <!--/shortDescription-->
 
 <!--fullDescription-->
