@@ -35,7 +35,7 @@ The [widget's instance](/Documentation/ApiReference/Data_Visualization_Widgets/d
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->center<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->array<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Array<number><!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The updated geographical coordinates of the center.
 <!--/typeFunctionParamDescription1_field3-->

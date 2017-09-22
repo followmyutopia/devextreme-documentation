@@ -35,7 +35,7 @@ You can resolve the returned jQuery.Deferred with any data. For example, the key
 An object representing the inserted item.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Promise<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A Promise of the jQuery.Deferred object resolved after the item has been inserted.
 <!--/typeFunctionReturnDescription-->

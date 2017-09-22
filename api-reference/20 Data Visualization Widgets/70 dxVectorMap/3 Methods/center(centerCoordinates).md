@@ -12,7 +12,7 @@ Sets the coordinates of the map center.
 <!--/shortDescription-->
 
 <!--paramName1-->centerCoordinates<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
+<!--paramType1-->Array<number><!--/paramType1-->
 <!--paramDescription1-->
 New coordinates for the map center. Pass **null** to reset the coordinates.
 <!--/paramDescription1-->

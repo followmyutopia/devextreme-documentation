@@ -34,7 +34,7 @@ The method passed to this option should return either the [jQuery.Deferred](http
 The required key value.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Promise<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A Promise of the jQuery.Deferred object resolved after the item has been loaded.
 <!--/typeFunctionReturnDescription-->

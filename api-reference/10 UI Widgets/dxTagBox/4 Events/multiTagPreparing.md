@@ -44,7 +44,7 @@ The model data. Available only when using Knockout.
 The multi-tag's container.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->selectedItems<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->array<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Array<string,number,Object><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The currently selected items.
 <!--/typeFunctionParamDescription1_field5-->

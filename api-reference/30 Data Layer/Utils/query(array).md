@@ -14,7 +14,7 @@ Creates a [Query](/Documentation/ApiReference/Data_Layer/Query/) instance.
 <!--/shortDescription-->
 
 <!--paramName1-->array<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
+<!--paramType1-->Array<any><!--/paramType1-->
 <!--paramDescription1-->
 The array associated with this Query.
 <!--/paramDescription1-->

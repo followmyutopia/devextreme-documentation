@@ -20,13 +20,13 @@ The function assigned to this option will be called between the [onExporting](/D
 - **columns[]**.[allowExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowExporting)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->array<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Array<dxDataGridOptions_columns><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 [Grid columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->rows<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->array<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Array<dxDataGridRowObject><!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 [Grid rows](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/). If only selected rows are to be exported, this array contains only them.
 <!--/typeFunctionParamDescription2-->

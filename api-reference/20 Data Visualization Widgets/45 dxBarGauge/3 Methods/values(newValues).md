@@ -12,7 +12,7 @@ Updates the values displayed by a gauge.
 <!--/shortDescription-->
 
 <!--paramName1-->values<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
+<!--paramType1-->Array<number><!--/paramType1-->
 <!--paramDescription1-->
 A set of new values.
 <!--/paramDescription1-->

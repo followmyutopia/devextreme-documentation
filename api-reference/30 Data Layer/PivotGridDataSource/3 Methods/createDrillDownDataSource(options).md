@@ -17,12 +17,12 @@ Provides access to a list of records ([facts](/Documentation/Guide/Widgets/Pivot
 Configuration object.
 <!--/paramDescription1-->
 <!--paramName1_field1-->columnPath<!--/paramName1_field1-->
-<!--paramType1_field1-->array<!--/paramType1_field1-->
+<!--paramType1_field1-->Array<any><!--/paramType1_field1-->
 <!--paramDescription1_field1-->
 A path to the cell in the 'column' area.
 <!--/paramDescription1_field1-->
 <!--paramName1_field2-->rowPath<!--/paramName1_field2-->
-<!--paramType1_field2-->array<!--/paramType1_field2-->
+<!--paramType1_field2-->Array<any><!--/paramType1_field2-->
 <!--paramDescription1_field2-->
 A path to the cell in the 'row' area.
 <!--/paramDescription1_field2-->
@@ -37,7 +37,7 @@ An index of the summary value in the 'data' area.
 Maximum items count in the resulting list.
 <!--/paramDescription1_field4-->
 <!--paramName1_field5-->customColumns<!--/paramName1_field5-->
-<!--paramType1_field5-->array<!--/paramType1_field5-->
+<!--paramType1_field5-->Array<any><!--/paramType1_field5-->
 <!--paramDescription1_field5-->
 A list of field names that will be included in each fact.
 <!--/paramDescription1_field5-->

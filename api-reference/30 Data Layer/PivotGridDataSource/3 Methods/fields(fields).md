@@ -12,7 +12,7 @@ Sets the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Con
 <!--/shortDescription-->
 
 <!--paramName1-->fields<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
+<!--paramType1-->Array<PivotGridDataSourceOptions_fields><!--/paramType1-->
 <!--paramDescription1-->
 Array of fields.
 <!--/paramDescription1-->

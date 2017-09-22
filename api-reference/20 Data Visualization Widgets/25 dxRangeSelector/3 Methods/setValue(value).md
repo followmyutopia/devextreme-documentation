@@ -12,7 +12,7 @@ Selects a specific range.
 <!--/shortDescription-->
 
 <!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
+<!--paramType1-->Array<number,string,Date><!--/paramType1-->
 <!--paramDescription1-->
 Two values that represent the start and end values of the range to be selected.
 <!--/paramDescription1-->

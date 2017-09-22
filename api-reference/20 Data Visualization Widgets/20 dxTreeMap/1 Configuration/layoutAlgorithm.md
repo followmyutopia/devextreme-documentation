@@ -64,7 +64,7 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 Data for implementing a custom layout algorithm.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->rect<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->array<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Array<number><!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The rectangle available for subdivision.    
 Contains the X and Y coordinates of two diagonally-opposite points in the following format: *[x1, y1, x2, y2]*.
@@ -75,7 +75,7 @@ Contains the X and Y coordinates of two diagonally-opposite points in the follow
 The sum total value of all nodes on the current level.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->items<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->array<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Array<any><!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 A set of items to distribute. Each object in this array contains the **value** and **rect** fields.<br/>By default, **rect** is **undefined**. It must be assigned an array of the following format: *[x1, y1, x2, y2]*, where *(x1, y1)* and *(x2, y2)* are coordinates of two diagonally-opposite points defining a rectangle.
 <!--/typeFunctionParamDescription1_field3-->

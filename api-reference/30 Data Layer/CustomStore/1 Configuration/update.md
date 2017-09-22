@@ -45,7 +45,7 @@ The key value of the item being updated.
 The object containing new values for the specified item.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->Promise<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A Promise of the jQuery.Deferred object resolved after the item has been updated.
 <!--/typeFunctionReturnDescription-->

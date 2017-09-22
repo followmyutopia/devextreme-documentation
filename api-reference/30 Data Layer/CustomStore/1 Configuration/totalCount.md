@@ -31,7 +31,7 @@ Data filtering conditions.
 Data grouping options.
 <!--/typeFunctionParamDescription1_field2-->
 
-<!--typeFunctionReturnType-->Promise<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Promise<number><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A Promise of the jQuery.Deferred object resolved after data has been loaded.
 <!--/typeFunctionReturnDescription-->

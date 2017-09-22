@@ -89,7 +89,7 @@ A search operation expression.
 A getter representing a search expression.
 <!--/typeFunctionParamDescription1_field11-->
 
-<!--typeFunctionReturnType-->Promise<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A promise of a deferred object resolved after data is loaded.
 <!--/typeFunctionReturnDescription-->

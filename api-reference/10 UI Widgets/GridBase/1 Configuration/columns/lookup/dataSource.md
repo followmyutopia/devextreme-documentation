@@ -49,7 +49,7 @@ The data of the row.
 The key value of the row.
 <!--/typeFunctionParamDescription1_field2-->
 
-<!--typeFunctionReturnType-->array|DataSourceOptions<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Array<any>|DataSourceOptions<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 An array of data objects or a **DataSource** configuration object.
 <!--/typeFunctionReturnDescription-->

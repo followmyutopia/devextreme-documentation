@@ -64,7 +64,7 @@ Provides information required for displaying a view. The following fields are av
 The layout controller that must be used to provide a layout markup for the given view.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->availableLayoutControllers<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->array<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Array<Object><!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 A collection of the layout controllers that are registered in the application and appropriate for the current device (its platform and form). Each object exposes the "controller" field and the fields presenting the [device](/Documentation/ApiReference/Common/Object_Structures/device/) object fields.
 <!--/typeFunctionParamDescription1_field3-->

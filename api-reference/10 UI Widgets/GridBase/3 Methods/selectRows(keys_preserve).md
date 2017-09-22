@@ -12,7 +12,7 @@ Selects rows by keys.
 <!--/shortDescription-->
 
 <!--paramName1-->keys<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
+<!--paramType1-->Array<any><!--/paramType1-->
 <!--paramDescription1-->
 The keys of the rows to be selected.
 <!--/paramDescription1-->

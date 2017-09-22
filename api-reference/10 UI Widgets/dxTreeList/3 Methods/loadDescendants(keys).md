@@ -12,7 +12,7 @@ Loads a specific node's descendants. Takes effect only if data has the [plain st
 <!--/shortDescription-->
 
 <!--paramName1-->keys<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
+<!--paramType1-->Array<any><!--/paramType1-->
 <!--paramDescription1-->
 Node keys.
 <!--/paramDescription1-->

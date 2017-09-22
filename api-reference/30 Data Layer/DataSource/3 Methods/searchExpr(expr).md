@@ -12,7 +12,7 @@ Sets the [searchExpr](/Documentation/ApiReference/Data_Layer/DataSource/Configur
 <!--/shortDescription-->
 
 <!--paramName1-->expr<!--/paramName1-->
-<!--paramType1-->getter|array<!--/paramType1-->
+<!--paramType1-->getter|Array<string><!--/paramType1-->
 <!--paramDescription1-->
 A getter representing a search expression.
 <!--/paramDescription1-->

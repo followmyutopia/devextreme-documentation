@@ -17,7 +17,7 @@ A handler for the [loaded]({basewidgetpath}/Events/#loaded) event.
 Assign a function to perform a custom action after data is loaded.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->result<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->array<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Array<any><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The loaded data array.
 <!--/typeFunctionParamDescription1-->

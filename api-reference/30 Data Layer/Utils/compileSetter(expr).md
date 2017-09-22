@@ -14,7 +14,7 @@ Compiles a setter function from the setter expression.
 <!--/shortDescription-->
 
 <!--paramName1-->expr<!--/paramName1-->
-<!--paramType1-->string|array<!--/paramType1-->
+<!--paramType1-->string|Array<string><!--/paramType1-->
 <!--paramDescription1-->
 A getter expression.
 <!--/paramDescription1-->

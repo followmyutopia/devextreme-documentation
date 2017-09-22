@@ -21,7 +21,7 @@ The method passed to this option should return either the [jQuery.Deferred](http
 The key value of the item being removed.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Promise<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Promise<void><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A Promise of the jQuery.Deferred object resolved after the item has been removed.
 <!--/typeFunctionReturnDescription-->

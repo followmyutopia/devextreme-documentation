@@ -52,7 +52,7 @@ A header item.
 A header item value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->children<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->array<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Array<any><!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 Children belonging to the header item; available only when the item is expanded.
 <!--/typeFunctionParamDescription1_field2-->
@@ -68,7 +68,7 @@ A header item.
 A header item value.
 <!--/typeFunctionParamDescription2_field1-->
 <!--typeFunctionParamName2_field2-->children<!--/typeFunctionParamName2_field2-->
-<!--typeFunctionParamType2_field2-->array<!--/typeFunctionParamType2_field2-->
+<!--typeFunctionParamType2_field2-->Array<any><!--/typeFunctionParamType2_field2-->
 <!--typeFunctionParamDescription2_field2-->
 Children belonging to the header item; available only when the item is expanded.
 <!--/typeFunctionParamDescription2_field2-->

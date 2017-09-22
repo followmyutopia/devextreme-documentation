@@ -18,7 +18,7 @@ Area whose header item should be expanded.
 <!--/paramDescription1-->
 
 <!--paramName2-->path<!--/paramName2-->
-<!--paramType2-->array<!--/paramType2-->
+<!--paramType2-->Array<Object><!--/paramType2-->
 <!--paramDescription2-->
 Path to an item.
 <!--/paramDescription2-->

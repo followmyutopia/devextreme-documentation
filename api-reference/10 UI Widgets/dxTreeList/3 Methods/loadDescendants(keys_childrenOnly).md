@@ -12,7 +12,7 @@ Loads all or only direct descendants of specific nodes. Takes effect only if dat
 <!--/shortDescription-->
 
 <!--paramName1-->keys<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
+<!--paramType1-->Array<any><!--/paramType1-->
 <!--paramDescription1-->
 Node keys.
 <!--/paramDescription1-->

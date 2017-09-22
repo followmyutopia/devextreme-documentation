@@ -39,12 +39,12 @@ An HTML element of the widget.
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->addedItems<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->array<any><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An array of items added to selection.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->removedItems<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->array<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->array<any><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 An array of items removed from selection.
 <!--/typeFunctionParamDescription1_field5-->

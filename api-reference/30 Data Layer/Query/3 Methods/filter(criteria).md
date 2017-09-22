@@ -12,7 +12,7 @@ Filters the current [Query](/Documentation/ApiReference/Data_Layer/Query/) data.
 <!--/shortDescription-->
 
 <!--paramName1-->criteria<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
+<!--paramType1-->Array<any><!--/paramType1-->
 <!--paramDescription1-->
 A filter expression.
 <!--/paramDescription1-->

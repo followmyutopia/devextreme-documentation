@@ -12,7 +12,7 @@ Updates gauge subvalues.
 <!--/shortDescription-->
 
 <!--paramName1-->subvalues<!--/paramName1-->
-<!--paramType1-->array<!--/paramType1-->
+<!--paramType1-->Array<number><!--/paramType1-->
 <!--paramDescription1-->
 A new array of gauge subvalues.
 <!--/paramDescription1-->

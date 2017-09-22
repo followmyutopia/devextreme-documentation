@@ -12,7 +12,7 @@ Adds a marker to the map.
 <!--/shortDescription-->
 
 <!--paramName1-->markerOptions<!--/paramName1-->
-<!--paramType1-->object|array<!--/paramType1-->
+<!--paramType1-->Object|Array<Object><!--/paramType1-->
 <!--paramDescription1-->
 A marker object and an array of marker objects.
 <!--/paramDescription1-->

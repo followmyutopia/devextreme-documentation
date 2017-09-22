@@ -12,7 +12,7 @@ Creates global navigation commands.
 <!--/shortDescription-->
 
 <!--paramName1-->navigationConfig<!--/paramName1-->
-<!--paramType1-->Array<!--/paramType1-->
+<!--paramType1-->Array<Object><!--/paramType1-->
 <!--paramDescription1-->
 An array of dxCommand configuration objects defining commands for the global navigation.
 <!--/paramDescription1-->
