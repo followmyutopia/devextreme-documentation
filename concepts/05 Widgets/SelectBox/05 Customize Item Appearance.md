@@ -1,5 +1,8 @@
 For a minor customization of **SelectBox** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
 
+---
+#####jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#selectBoxContainer").dxSelectBox({
@@ -14,10 +17,79 @@ For a minor customization of **SelectBox** items, you can use the default item t
         });
     });
 
+#####Angular
+
+    <!--TypeScript-->
+    import { DxSelectBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        products =  [
+            { text: "HD Video Player" },
+            { text: "SuperHD Video Player", disabled: true },
+            { text: "SuperPlasma 50", visible: false }
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule
+         ],
+         // ...
+     })
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="products"
+        valueExpr="text"
+        displayExpr="text"
+        placeholder="Select a product...">
+    </dx-select-box>
+
+---
+
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for the **SelectBox** items.
 
 ---
-#####**AngularJS**
+#####Angular
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="selectBoxData"
+        displayExpr="name"
+        valueExpr="id"
+        itemTemplate="item">
+        <div *dxTemplate="let data of 'item'">
+            <img ng-src="{{data.imgSrc}}"/>
+            <div style="display:inline-block">{{data.name}}</div>
+        </div>
+    </dx-select-box>
+
+    <!--TypeScript-->
+    import { DxSelectBoxModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        selectBoxData = [{
+            id: 1,
+            name: "HD Video Player",
+            imgSrc: "images/products/1-small.png"
+        }, {
+            id: 2,
+            name: "UltraHD Player",
+            imgSrc: "images/products/2-small.png"
+        },
+        // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule,
+             DxTemplateModule
+         ],
+         // ...
+     })
+
+#####AngularJS
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -28,8 +100,8 @@ Using the default item template is the easiest way to customize an item, but it 
             itemTemplate: 'item'
         }" dx-item-alias="product">
             <div data-options="dxTemplate: { name: 'item' }">
-                <img ng-src="{{ product.imgSrc }}"/>
-                <div style="display:inline-block">{{ product.name }}</div>
+                <img ng-src="{{product.imgSrc}}"/>
+                <div style="display:inline-block">{{product.name}}</div>
             </div>
         </div>
     </div>
@@ -46,13 +118,13 @@ Using the default item template is the easiest way to customize an item, but it 
                 name: "UltraHD Player",
                 imgSrc: "images/products/2-small.png"
             },
-            // . . .
+            // ...
             ];
         });
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-#####**Knockout**
+#####Knockout
 
     <!--HTML-->
     <div data-bind="dxSelectBox: {
@@ -78,7 +150,7 @@ Using the default item template is the easiest way to customize an item, but it 
             name: "UltraHD Player",
             imgSrc: "images/products/2-small.png"
         },
-        // . . .
+        // ...
         ]
     };
 
@@ -133,8 +205,7 @@ You can also customize an individual **SelectBox** item. For this purpose, decla
 Using similar techniques, you can customize the input field of the **SelectBox**. The template for it should be assigned to the [fieldTemplate](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#fieldTemplate) option. Note that the input field must contain the [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) widget.
 
 ---
-
-#####**jQuery**
+#####jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -145,7 +216,7 @@ Using similar techniques, you can customize the input field of the **SelectBox**
             value: 1,
             fieldTemplate: function(selectedItem, fieldElement) {
                 return $("<div />").append(
-                	$("<img />").attr("src", selectedItem.imgSrc),
+                    $("<img />").attr("src", selectedItem.imgSrc),
                     $("<div />").dxTextBox({ value: selectedItem.name })
                                 .css("display", "inline-block")
                 );
@@ -153,7 +224,40 @@ Using similar techniques, you can customize the input field of the **SelectBox**
         });
     });
 
-#####**AngularJS**
+#####Angular
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="selectBoxData"
+        valueExpr="id"
+        [value]="1"
+        displayExpr="name"
+        fieldTemplate="inputField">
+        <div *dxTemplate="let data of 'inputField'">
+            <img ng-src="{{data.imgSrc}}" />
+            <div style="display:inline-block" dx-text-box="{ value: data.name }"></div>
+        </div>
+    </dx-select-box>
+
+    <!--TypeScript-->
+    import { DxSelectBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        selectBoxData = [
+            { id: 1, name: "HD Video Player", imgSrc: "images/products/1-small.png" },
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule
+         ],
+         // ...
+     })
+
+
+#####AngularJS
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -171,7 +275,7 @@ Using similar techniques, you can customize the input field of the **SelectBox**
         </div>
     </div>
 
-#####**Knockout**
+#####Knockout
 
     <!--HTML-->
     <div data-bind="dxSelectBox: {

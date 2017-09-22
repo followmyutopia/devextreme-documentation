@@ -2,11 +2,14 @@
 
 The **SelectBox** widget allows an end user to search through its items. This feature is disabled by default. To enable it, assign **true** to the [searchEnabled](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#searchEnabled) option. Use the [searchExpr](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#searchExpr) option to specify which data fields should be searched. Assign an _array_ of field names to this option if you need to search several fields.
 
+---
+#####jQuery
+
     <!--JavaScript-->
     var selectBoxData = [
         { id: 1, country: "Afghanistan", capital: "Kabul" },
         { id: 2, country: "Albania", capital: "Tirana" },
-        // . . .
+        // ...
     ];
 
     $(function() {
@@ -19,9 +22,43 @@ The **SelectBox** widget allows an end user to search through its items. This fe
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="selectBoxData"
+        valueExpr="id"
+        displayExpr="country"
+        [searchEnabled]="true"
+        [searchExpr]="['country', 'capital']">
+    </dx-select-box>
+
+    <!--TypeScript-->
+    import { DxSelectBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        selectBoxData = [
+            { id: 1, country: "Afghanistan", capital: "Kabul" },
+            { id: 2, country: "Albania", capital: "Tirana" },
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule
+         ],
+         // ...
+     })
+
+---
+
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 When a user types a string in the input field, the **SelectBox** suggests all items that _contain_ this string. Assign *'startswith'* to the [searchMode](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#searchMode) option if you want the **SelectBox** to suggest only those items that _start_ with the input string.
+
+---
+#####jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -35,7 +72,42 @@ When a user types a string in the input field, the **SelectBox** suggests all it
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="selectBoxData"
+        valueExpr="id"
+        displayExpr="country"
+        [searchEnabled]="true"
+        searchExpr="country"
+        searchMode="startswith">
+    </dx-select-box>
+
+    <!--TypeScript-->
+    import { DxSelectBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        selectBoxData = [
+            { id: 1, country: "Afghanistan", capital: "Kabul" },
+            { id: 2, country: "Albania", capital: "Tirana" },
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule
+         ],
+         // ...
+     })
+
+---
+
 There is a delay between the moment a user finishes typing and the moment the search is executed. To increase or descrease it, use the [searchTimeout](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#searchTimeout) option. The delay is measured in milliseconds.
+
+---
+#####jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -49,7 +121,42 @@ There is a delay between the moment a user finishes typing and the moment the se
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="selectBoxData"
+        valueExpr="id"
+        displayExpr="country"
+        [searchEnabled]="true"
+        searchExpr="country"
+        [searchTimeout]="1000">
+    </dx-select-box>
+
+    <!--TypeScript-->
+    import { DxSelectBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        selectBoxData = [
+            { id: 1, country: "Afghanistan", capital: "Kabul" },
+            { id: 2, country: "Albania", capital: "Tirana" },
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule
+         ],
+         // ...
+     })
+
+---
+
 The **SelectBox** widget starts searching after a user has typed at least one character by default. Use the **minSearchLength** option to increase the number of characters that triggers the search. 
+
+---
+#####jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -62,6 +169,37 @@ The **SelectBox** widget starts searching after a user has typed at least one ch
             minSearchLength: 3
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="selectBoxData"
+        valueExpr="id"
+        displayExpr="country"
+        [searchEnabled]="true"
+        searchExpr="country"
+        [minSearchLength]="3">
+    </dx-select-box>
+
+    <!--TypeScript-->
+    import { DxSelectBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        selectBoxData = [
+            { id: 1, country: "Afghanistan", capital: "Kabul" },
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule
+         ],
+         // ...
+     })
+
+---
 
 #####See Also#####
 - [SelectBox - Create a User-Defined Item](/Documentation/Guide/Widgets/SelectBox/Create_a_User-Defined_Item/)

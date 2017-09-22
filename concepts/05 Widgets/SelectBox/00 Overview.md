@@ -4,6 +4,9 @@ The **SelectBox** widget is an editor that allows an end user to select an item 
 
 The following code adds the **SelectBox** to your page. The simplest configuration of the widget requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#dataSource) to be specified. In addition, you can specify the [placeholder](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#placeholder) to be displayed when the **SelectBox** is empty.
 
+---
+#####jQuery
+
     <!--HTML-->
     <div id="selectBoxContainer"></div>
 
@@ -14,11 +17,40 @@ The following code adds the **SelectBox** to your page. The simplest configurati
                 "HD Video Player",
                 "SuperHD Video Player",
                 "SuperPlasma 50",
-                // . . .
+                // ...
             ],
             placeholder: "Select a product..."
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="products"
+        placeholder="Select a product...">
+    </dx-select-box>
+
+    <!--TypeScript-->
+    import { DxSelectBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        products = [
+            "HD Video Player",
+            "SuperHD Video Player",
+            "SuperPlasma 50",
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule
+         ],
+         // ...
+     })
+
+---
 
 If your data is an array of objects, specify: 
 
@@ -29,11 +61,14 @@ If your data is an array of objects, specify:
 
 <!---->
 
+---
+#####jQuery
+
     <!--JavaScript-->
     var selectBoxData = [
         { id: 1, country: "Afghanistan" },
         { id: 2, country: "Albania" },
-        // . . .
+        // ...
     ];
 
     $(function() {
@@ -43,6 +78,35 @@ If your data is an array of objects, specify:
             displayExpr: 'country'
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="selectBoxData"
+        valueExpr="id"
+        displayExpr="country">
+    <dx-select-box>
+
+    <!--TypeScript-->
+    import { DxSelectBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        selectBoxData = [
+            { id: 1, country: "Afghanistan" },
+            { id: 2, country: "Albania" },
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule
+         ],
+         // ...
+     })
+
+---
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)

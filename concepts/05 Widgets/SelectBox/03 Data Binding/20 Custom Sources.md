@@ -5,16 +5,56 @@
 
 You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. Note that instead of declaring the **CustomStore** explicitly, you can specify its members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#selectBoxContainer").dxSelectBox({
             dataSource: new DevExpress.data.DataSource({
                 loadMode: "raw",   
-                load: function (loadOptions) {
+                load: function () {
                     return $.getJSON('https://mydomain.com/MyDataService');
                 }
             })
         });
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule } from '@angular/http';
+    import DataSource from 'devextreme/data/data_source';
+    import { DxSelectBoxModule } from 'devextreme-angular';
+    import 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent  {
+        selectBoxData: any = {};
+        constructor(@Inject(Http) http: Http) {
+            this.selectBoxData = new DataSource({
+                loadMode: "raw",   
+                load: function () {
+                    return http.get('https://mydomain.com/MyDataService').toPromise();
+                }
+            })
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule,
+             HttpModule
+         ],
+         // ...
+     })
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="selectBoxData">
+    </dx-select-box>
+
+---
 
 [note]We advise against using this mode with large amounts of data because all data is loaded at once.
 
@@ -85,6 +125,9 @@ If the **group** setting is absent, the object structure is different:
 
 If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#value) beforehand, the **CustomStore** must implement the [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) operation as well. Here is a generalized configuration of the **CustomStore** for the **SelectBox** widget.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#selectBoxContainer").dxSelectBox({
             dataSource: new DevExpress.data.DataSource({
@@ -116,6 +159,71 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
             })
         });
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { DxSelectBoxModule } from 'devextreme-angular';
+    import DataSource from 'devextreme/data/data_source';
+    import 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent {
+        selectBoxData: any = {};
+        constructor(@Inject(Http) http: Http) {
+            this.selectBoxData = new DataSource({
+                load: function (loadOptions) {
+                    let params: URLSearchParams = new URLSearchParams();
+                    params.set("skip", loadOptions.skip);
+                    params.set("take", loadOptions.take);
+                    params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
+                    params.set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "");
+                    params.set("searchOperation", loadOptions.searchOperation);
+                    params.set("searchValue", loadOptions.searchValue);
+                    params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
+                    params.set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
+                    return http.get('http://mydomain.com/MyDataService', {
+                                    search: params
+                                })
+                                .toPromise()
+                                .then(response => {
+                                    var json = response.json();
+                                    // You can process the received data here
+                                    return {
+                                        data: json.data
+                                    }
+                                });
+                },
+                byKey: function (key) {
+                    return http.get('https://mydomain.com/MyDataService?id=' + key)
+                                .toPromise()
+                                .then(response => {
+                                    var json = response.json();
+                                    return {
+                                        data: json.data
+                                    };
+                                });
+                }
+            });
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule,
+             HttpModule 
+         ],
+         // ...
+     })
+
+    <!--HTML-->
+    <dx-select-box
+        [dataSource]="selectBoxData">
+    </dx-select-box>
+
+---
 
 #####See Also#####
 - [Data Layer - DataSource Examples | Custom Sources](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources)

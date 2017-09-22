@@ -10,33 +10,95 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering the widget text field.
+The template to be used for rendering the widget text field. Must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/) widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option enables you to render the widget text field depending on selected item values.
+If you use the Angular, AngularJS or Knockout library, you can implement this template with the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. This template's binding context depends on the library you use.
 
-A binding context of an item template is the data source object that corresponds to the currently selected item.
+In Angular apps, the standard binding context (a component instance) is extended by the selected item's object. Access it by the input variable that is declared after the `let` and before `of` keywords.
 
-So, in **Knockout approach**, you can bind template elements to the item's fields directly (see the code below). To access another binding context within a field template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
+In AngularJS apps, the selected item's object extends the standard binding context (the scope). Access it by an alias that you specify in the `dx-item-alias` directive. Use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables if you need to access another binding context from the template.
 
-In **AngularJS approach**, if you need to access item object's fields within a template, use a variable whose name is assigned to the `dx-item-alias` directive (see the code below). Add the directive to the widget element to specify an alias to the root object of an item. Without this directive, item object fields are beyond reach. To access another binding context within a field template, use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
+In Knockout apps, you can bind template elements directly to the selected item object's fields. Use Knockout binding variables if you need to access another binding context from the template.
 
 ---
-#####AngularJS#####
+#####Angular
 
     <!--HTML-->
-    <div data-options="dxTemplate: { name:'myField' }" dx-item-alias="itemObj">
-        <div dx-text-box=" { value: itemObj.name + ' (' + itemObj.capital + ')' } "></div>
-    </div>
+    <dx-select-box ...
+        [dataSource]="selectBoxData"
+        fieldTemplate="field">
+        <div *dxTemplate="let data of 'field'">
+            <dx-text-box 
+                [value]="data.name + ' (' + data.country + ')'" } 
+            ></dx-text-box>
+        </div>
+    </dx-select-box>
 
-#####Knockout#####
+    <!--TypeScript-->
+    import { DxSelectBoxModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        selectBoxData = [
+            { id: 1, name: "SuperPlasma 50", country: "USA" },
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxSelectBoxModule,
+             DxTemplateModule
+         ],
+         // ...
+     })
+
+#####AngularJS
 
     <!--HTML-->
-    <div data-options="dxTemplate: { name:'myField' }">
-        <div data-bind="dxTextBox: { value: name + ' (' + capital + ')' } "></div>
+    <div dx-select-box="{
+        // ...
+        dataSource: selectBoxData,
+        fieldTemplate: 'field'
+    }">
+        <div data-options="dxTemplate: { name:'field' }" dx-item-alias="itemObj">
+            <div dx-text-box="{ value: itemObj.name + ' (' + itemObj.country + ')' }"></div>
+        </div>
     </div>
 
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.selectBoxData = [
+                { id: 1, name: "SuperPlasma 50", country: "USA" },
+                // ...
+            ];
+        });
+
+
+#####Knockout
+
+    <!--HTML-->
+    <div data-bind="dxSelectBox: {
+        dataSource: selectBoxData,
+        fieldTemplate: 'field'
+    }">
+        <div data-options="dxTemplate: { name: 'field' }">
+            <div data-bind="dxTextBox: { value: name + ' (' + capital + ')' } "></div>
+        </div>
+    </div>
+
+    <!--JavaScript-->
+    var viewModel = {
+        selectBoxData: [
+            { id: 1, name: "SuperPlasma 50", country: "USA" },
+            // ...
+        ]
+    };
+    
+    ko.applyBindings(viewModel);
+    
 ---
 
 #####See Also#####
