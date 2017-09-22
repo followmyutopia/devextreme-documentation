@@ -1,5 +1,8 @@
 **Gallery** items are not sctrictly images. They can contain text or other elements of your choice. For a minor customization of **Gallery** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxGallery/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates two items: one is disabled and the other has a specified [alt attribute](http://www.w3schools.com/tags/att_img_alt.asp).
 
+---
+#####jQuery
+
     <!--JavaScript-->
     $(function () {
         $("#galleryContainer").dxGallery({
@@ -14,11 +17,86 @@
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize gallery items.
+#####Angular
+
+    <!--HTML-->
+    <dx-gallery
+        [dataSource]="galleryDataSource"
+        [height]="300">
+    </dx-gallery>
+
+    <!--TypeScript-->
+    import { DxGalleryModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        galleryDataSource = [{
+            imageSrc: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png",
+            disabled: true
+        }, {
+            imageSrc: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png",
+            imageAlt: "Peter"
+        }];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxGalleryModule
+        ],
+        // ...
+    })
 
 ---
 
-#####**AngularJS**
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize gallery items.
+
+---
+
+#####Angular
+
+    <!--HTML-->
+    <dx-gallery
+        [dataSource]="galleryDataSource"
+        [height]="300"
+        itemTemplate="item">
+        <div *dxTemplate="let data of 'item'">
+            <p><b>Name</b>: <span>{{data.name}}</span></p>
+            <img src="{{data.path}}" alt="{{data.name}}" />
+        </div>
+    </dx-gallery>
+
+    <!--TypeScript-->
+    import { DxGalleryModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        galleryDataSource = [
+            { path: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png", name: "Maria" },
+            { path: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png", name: "John" },
+            { path: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person3.png", name: "Xavier" }
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxGalleryModule,
+            DxTemplateModule
+        ],
+        // ...
+    })
+
+#####AngularJS
+
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-gallery="{
+            dataSource: galleryData,
+            height: 300,
+            itemTemplate: 'item'
+        }" dx-item-alias="item">
+            <div data-options="dxTemplate: { name: 'item' }">
+                <p><b>Name</b>: <span>{{item.name}}</span></p>
+                <img ng-attr-src="{{item.path}}" ng-attr-alt="{{item.name}}" />
+            </div>
+        </div>
+    </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
@@ -29,32 +107,9 @@ Using the default item template is the easiest way to customize an item, but it 
             ];
         });
 
-    <!--HTML--><div ng-controller="DemoController">
-        <div dx-gallery="{
-            dataSource: galleryData,
-            height: 300,
-            itemTemplate: 'item'
-        }" dx-item-alias="item">
-            <div data-options="dxTemplate: { name: 'item' }">
-                <p><b>Name</b>: <span>{{ item.name }}</span></p>
-                <img ng-attr-src="{{ item.path }}" ng-attr-alt="{{ item.name }}" />
-            </div>
-        </div>
-    </div>
-
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-#####**Knockout**
-
-    <!--JavaScript-->var viewModel = {
-        galleryData: [
-            { path: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png", name: "Maria" },
-            { path: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png", name: "John" },
-            { path: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person3.png", name: "Xavier" }
-        ]
-    };
-
-    ko.applyBindings(viewModel);
+#####Knockout
 
     <!--HTML-->
     <div data-bind="dxGallery: {
@@ -67,6 +122,16 @@ Using the default item template is the easiest way to customize an item, but it 
             <img data-bind="attr: { src: path, alt: name }" />
         </div>
     </div>
+
+    <!--JavaScript-->var viewModel = {
+        galleryData: [
+            { path: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png", name: "Maria" },
+            { path: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png", name: "John" },
+            { path: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person3.png", name: "Xavier" }
+        ]
+    };
+
+    ko.applyBindings(viewModel);
 
 ---
 

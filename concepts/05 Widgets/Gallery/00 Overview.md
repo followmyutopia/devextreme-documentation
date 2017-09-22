@@ -4,6 +4,9 @@ The **Gallery** is a widget that displays a collection of images in a carousel. 
 
 The following code adds the **Gallery** widget to your page. The simplest configuration of the widget requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#dataSource) and [height](/Documentation/ApiReference/UI_Widgets/dxGallery/Configuration/#height) to be specified.
 
+---
+#####jQuery
+
     <!--HTML--><div id="galleryContainer"></div>
 
     <!--JavaScript-->
@@ -18,6 +21,35 @@ The following code adds the **Gallery** widget to your page. The simplest config
             height: 300
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-gallery
+        [dataSource]="galleryDataSource"
+        [height]="300">
+    </dx-gallery>
+
+    <!--TypeScript-->
+    import { DxGalleryModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        galleryDataSource = [
+            "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png",
+            "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png",
+            "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person3.png",
+            "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person4.png"
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxGalleryModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
