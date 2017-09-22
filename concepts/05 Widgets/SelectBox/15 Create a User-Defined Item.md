@@ -55,9 +55,9 @@ Besides selecting the existing values, a user can add new values to the **Select
             // Creates a new entry
             var newItem = { id: nextId, firstName: e.text };
             // Adds the entry to the data source
-            selectBoxData.store().insert(newItem);
+            this.selectBoxData.store().insert(newItem);
             // Reloads the data source
-            selectBoxData.reload();
+            this.selectBoxData.reload();
             return newItem;
         }
     }
