@@ -184,13 +184,13 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
                     let params: URLSearchParams = new URLSearchParams();
                     params.set("skip", loadOptions.skip);
                     params.set("take", loadOptions.take);
-                    params.set("sort", loadOptions.sort);
-                    params.set("searchExpr", loadOptions.searchExpr);
+                    params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
+                    params.set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "");
                     params.set("searchOperation", loadOptions.searchOperation);
                     params.set("searchValue", loadOptions.searchValue);
-                    params.set("filter", loadOptions.filter);
+                    params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
                     params.set("requireTotalCount", loadOptions.requireTotalCount);
-                    params.set("group", loadOptions.group);
+                    params.set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
                     return http.get('http://mydomain.com/MyDataService', {
                                     search: params
                                 })
