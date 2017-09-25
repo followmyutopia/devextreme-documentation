@@ -11,10 +11,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Allows you to rotate or stagger axis labels.
+Allows you to rotate or stagger axis labels. Applies to the horizontal axis only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+[note] Unless the [rotated](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#rotated) option is set to **true**, the argument axis is horizontal and the value axis is vertical.
+
 This option accepts one of the following values.
 
 - **rotate**      
