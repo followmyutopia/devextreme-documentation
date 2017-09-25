@@ -4,6 +4,9 @@ The **Button** widget is a simple button that performs specified commands when a
 
 The following code adds a simple **Button** to your page.
 
+---
+##### jQuery
+
     <!--HTML--><div id="buttonContainer"></div>
 
     <!--JavaScript-->$(function () {
@@ -15,7 +18,34 @@ The following code adds a simple **Button** to your page.
         });
     });
 
-In the previous code, the [click](/Documentation/ApiReference/UI_Widgets/dxButton/Events/#click) event is handled using the [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) option. Alternatively, you can attach one or several handlers to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#oneventName_eventHandler) method.
+##### Angular
+
+    <!--HTML-->
+    <dx-button
+        text="OK"
+        (onClick)="okClicked()">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxButtonModule } from 'devextreme-angular';
+    import notify from 'devextreme/ui/notify';
+    // ...
+    export class AppComponent {
+        okClicked () {
+            notify("The OK button was clicked")
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
+
+In the previous code, the [click](/Documentation/ApiReference/UI_Widgets/dxButton/Events/#click) event is handled using the [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) option. Alternatively, you can attach one or several handlers to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var clickHandler1 = function (e) {

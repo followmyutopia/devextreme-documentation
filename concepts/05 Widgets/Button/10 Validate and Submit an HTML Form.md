@@ -2,27 +2,31 @@
 
 Commonly, editors nested into an HTML form are supposed to be validated on the client and then submitted to the server. The **Button** widget supports this scenario out of the box. Place the **Button** on the HTML form and set the [useSubmitBehavior](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#useSubmitBehavior) option to **true**.
 
-    <!--HTML--><form action="/Login" method="post">
+---
+##### jQuery
+
+    <!--HTML-->
+    <form action="/Login" method="post">
         <div id="login"></div>
         <div id="password"></div>
         <div id="validateAndSubmit"></div>
     </form>
 
     <!--JavaScript-->$(function() {
-		$("#login").dxTextBox({
-    		name: "Login"
+        $("#login").dxTextBox({
+            name: "Login"
         }).dxValidator({
-    		validationRules: [
-        		{ type: "required" }
+            validationRules: [
+                { type: "required" }
             ]
         });
     
         $("#password").dxTextBox({
-    		name: "Password",
-    		mode: "password"
+            name: "Password",
+            mode: "password"
         }).dxValidator({
-    		validationRules: [
-        		{ type: "required" }
+            validationRules: [
+                { type: "required" }
             ]
         });
     
@@ -32,6 +36,45 @@ Commonly, editors nested into an HTML form are supposed to be validated on the c
             useSubmitBehavior: true
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <form action="/Login" method="post">
+        <dx-text-box name="Login">
+            <dx-validator>
+                <dxi-validation-rule type="required"></dxi-validation-rule>
+            </dx-validator>
+        </dx-text-box>
+        <dx-text-box name="Password" mode="password">
+            <dx-validator>
+                <dxi-validation-rule type="required"></dxi-validation-rule>
+            </dx-validator>
+        </dx-text-box>
+        <dx-button
+            text="Submit"
+            type="success"
+            [useSubmitBehavior]="true">
+        </dx-button>
+    </form>
+
+    <!--TypeScript-->
+    import { DxTextBoxModule, DxValidatorModule, DxButtonModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule,
+            DxValidatorModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
 
 Note that the [name](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#name) option of the **TextBox** widgets in the previous code specifies the [name](http://www.w3schools.com/tags/att_input_name.asp) attribute of the underlying `<input>` element.
 
