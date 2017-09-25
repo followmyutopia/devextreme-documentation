@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether a tooltip is enabled.
 <!--/shortDescription-->
 
 <!--fullDescription-->

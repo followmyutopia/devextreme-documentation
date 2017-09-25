@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures a tooltip.
 <!--/shortDescription-->
 
 <!--fullDescription-->

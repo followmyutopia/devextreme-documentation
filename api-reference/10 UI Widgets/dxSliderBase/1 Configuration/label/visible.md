@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether slider labels are visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->

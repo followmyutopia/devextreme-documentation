@@ -11,9 +11,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether a tooltip is over or under the slider.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VerticalEdge` enum. This enum accepts the following values: `Top` and `Bottom`.
 <!--/fullDescription-->

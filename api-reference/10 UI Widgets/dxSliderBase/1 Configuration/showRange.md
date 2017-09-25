@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether to highlight the selected range.
 <!--/shortDescription-->
 
 <!--fullDescription-->

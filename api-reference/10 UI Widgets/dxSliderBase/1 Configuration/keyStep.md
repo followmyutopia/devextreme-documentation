@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the step by which a handle moves when a user presses **Page Up** or **Page Down**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
