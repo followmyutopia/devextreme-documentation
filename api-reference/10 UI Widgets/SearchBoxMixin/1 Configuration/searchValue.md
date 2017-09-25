@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the current search string.
 <!--/shortDescription-->
 
 <!--fullDescription-->

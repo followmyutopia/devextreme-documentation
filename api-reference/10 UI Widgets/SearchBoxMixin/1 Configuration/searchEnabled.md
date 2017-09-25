@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether searching is enabled. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+[note]Searching works with source data of plain structure only. Subsequently, data can be transformed to hierarchical structure using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
 <!--/fullDescription-->

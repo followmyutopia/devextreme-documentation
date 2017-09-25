@@ -6,7 +6,7 @@
 **-->
 
 <!--shortDescription-->
-
+Configures searching.
 <!--/shortDescription-->
 
 <!--fullDescription-->
