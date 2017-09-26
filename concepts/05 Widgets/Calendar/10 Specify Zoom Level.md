@@ -1,5 +1,8 @@
 To specify which calendar view (month, year, decade or century) should be displayed at first, set the [zoomLevel](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#zoomLevel) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#calendarContainer").dxCalendar({
@@ -7,7 +10,33 @@ To specify which calendar view (month, year, decade or century) should be displa
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-calendar ...
+        zoomLevel="year">
+    </dx-calendar>
+
+    <!--TypeScript-->
+    import { DxCalendarModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxCalendarModule
+        ],
+        // ...
+    })
+
+---
+
 To make certain calendar views inaccessible, specify the [maxZoomLevel](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#maxZoomLevel) and [minZoomLevel](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#minZoomLevel) options. For example, the following code enables the month, year and decade calendar views leaving the century view behind.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -16,6 +45,30 @@ To make certain calendar views inaccessible, specify the [maxZoomLevel](/Documen
             maxZoomLevel: 'month'
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-calendar ...
+        minZoomLevel="decade"
+        maxZoomLevel="month">
+    </dx-calendar>
+
+    <!--TypeScript-->
+    import { DxCalendarModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxCalendarModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [Calendar - Handle the Value Change Event](/Documentation/Guide/Widgets/Calendar/Handle_the_Value_Change_Event)

@@ -1,43 +1,71 @@
-For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for cells.
+For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for cells.
 
 ---
+##### Angular
+
+    <!--HTML-->
+    <dx-calendar
+        [(value)]="currentDate">
+        <span *dxTemplate="let cellData of 'cell'; let i = index"
+             [style.font-style]="i == 0 || i == 6 ? 'italic' : 'normal'">
+             {{cellData.text}}
+        </span>
+    </dx-calendar>
+
+    <!--TypeScript-->
+    import { DxCalendarModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        currentDate: Date = new Date();
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxCalendarModule
+        ],
+        // ...
+    })
 
 #####**AngularJS**
+
+    <!--HTML--><div ng-controller="DemoController">
+        <div dx-calendar="{
+            cellTemplate: 'cell',
+            bindingOptions: {
+                value: 'currentDate'
+            }
+        }" dx-item-alias="cellData">
+            <span data-options="dxTemplate: { name: 'cell' }"
+                  style="font-style: {{$index == 0 || $index == 6 ? 'italic' : 'normal'}}">
+                  {{cellData.text}}
+            </span>
+        </div>
+    </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.currentDate = new Date();
         });
 
-    <!--HTML--><div ng-controller="DemoController">
-        <div dx-calendar="{
-            value: currentDate,
-            cellTemplate: 'cell'
-        }" dx-item-alias="item">
-            <div data-options="dxTemplate: { name: 'cell' }">
-                <span style="font-style:italic;">{{ item.text }}</span>
-            </div>
-        </div>
-    </div>
-
 [note] The `dx-item-alias` directive specifies the variable that is used to access the cell object.
 
 #####**Knockout**
-
-    <!--JavaScript-->var viewModel = {
-        currentDate: new Date()
-    };
-
-    ko.applyBindings(viewModel);
 
     <!--HTML--><div data-bind="dxCalendar: {
         value: currentDate,
         cellTemplate: 'cell'
     }">
-        <div data-options="dxTemplate: { name: 'cell' }">
-            <span style="font-style:italic;" data-bind="text: text"></span>
-        </div>
+        <span data-options="dxTemplate: { name: 'cell' }" data-bind="{
+            style: { 'font-style': $index == 0 || $index == 6 ? 'italic' : 'normal' },
+            text: text
+        }"></span>
     </div>
+
+    <!--JavaScript-->var viewModel = {
+        currentDate: ko.observable(new Date())
+    };
+
+    ko.applyBindings(viewModel);
 
 ---
 
@@ -47,8 +75,11 @@ If you use jQuery alone, combine the HTML markup for cells manually with jQuery 
     $(function () {
         $("#calendarContainer").dxCalendar({
             value: new Date(),
-            cellTemplate: function (itemData, itemIndex, itemElement) {
-                itemElement.append("<p style='font-style:italic;'>" + itemData.text + "</p>");
+            cellTemplate: function (cellData, cellIndex, cellElement) {
+                var italic = $("<span>").css('font-style', 'italic')
+                                        .text(cellData.text);
+                var normal = $("<span>").text(cellData.text);
+                return (cellIndex == 0 || cellIndex == 6) ? italic : normal;
             }
         });
     });
