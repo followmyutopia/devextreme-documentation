@@ -1,5 +1,8 @@
 For a minor customization of **ContextMenu** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three context menu items. Between the first and the second items lies a separator dividing one group of items from another. All the items are supplied with [icons](/Documentation/Guide/Themes/Icon_Library/).
 
+---
+#####jQuery
+
     <!--JavaScript-->var contextMenuItems = [
         { text: "Zoom In", icon: "plus" },
         { text: "Share", icon: "message", beginGroup: true },
@@ -9,15 +12,78 @@ For a minor customization of **ContextMenu** items, you can use the default item
     $(function () {
         $("#contextMenuContainer").dxContextMenu({
             items: contextMenuItems,
-            target: "#someElement"
+            target: "#someElement",
+            visible: true
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize context menu items.
+#####Angular
+
+    <!--HTML-->
+    <dx-context-menu
+        [items]="contextMenuItems"
+        target="#someElement"
+        [visible]="true">
+    </dx-context-menu>
+
+    <!--TypeScript-->
+    import { DxContextMenuModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        contextMenuItems = [
+            { text: "Zoom In", icon: "plus" },
+            { text: "Share", icon: "message" },
+            { text: "Download", icon: "download" }
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxContextMenuModule
+         ],
+         // ...
+     })
 
 ---
 
-#####**AngularJS**
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize context menu items.
+
+---
+
+#####Angular
+
+    <!--HTML-->
+    <dx-context-menu
+        [items]="contextMenuItems"
+        target="#someElement"
+        itemTemplate="item"
+        [visible]="true">
+        <div *dxTemplate="let data of 'item'; let i = index">
+            <span class="dx-icon-{{data.icon}}"></span> 
+            <i style="margin-left:5px">{{data.text}}</i><span> [{{i + 1}}]</span>
+        </div>
+    </dx-context-menu>
+
+    <!--TypeScript-->
+    import { DxContextMenuModule, DxTemplateModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        contextMenuItems = [
+            { text: "Zoom In", icon: "plus" },
+            { text: "Share", icon: "message" },
+            { text: "Download", icon: "download" }
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxContextMenuModule,
+             DxTemplateModule
+         ],
+         // ...
+     })
+
+#####AngularJS
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
@@ -31,19 +97,20 @@ Using the default item template is the easiest way to customize an item, but it 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-context-menu="{
             items: contextMenuItems,
-            itemTemplate: 'items',
-            target: '#someElement'
+            itemTemplate: 'item',
+            target: '#someElement',
+            visible: true
         }" dx-item-alias="item">
-            <div data-options="dxTemplate: { name: 'items' }">
-                <span class="dx-icon-{{ item.icon }}"></span> 
-                <i style="margin-left:5px">{{ item.text }}</i>
+            <div data-options="dxTemplate: { name: 'item' }">
+                <span class="dx-icon-{{item.icon}}"></span> 
+                <i style="margin-left:5px">{{item.text}}</i><span> [{{$index + 1}}]</span>
             </div>
         </div>
     </div>
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-#####**Knockout**
+#####Knockout
 
     <!--JavaScript-->var viewModel = {
         contextMenuItems: [
@@ -57,12 +124,13 @@ Using the default item template is the easiest way to customize an item, but it 
 
     <!--HTML--><div data-bind="dxContextMenu: {
         items: contextMenuItems,
-        itemTemplate: 'items',
-        target: '#someElement'
+        itemTemplate: 'item',
+        target: '#someElement',
+        visible: true
     }">
-        <div data-options="dxTemplate: { name: 'items' }">
+        <div data-options="dxTemplate: { name: 'item' }">
             <span data-bind="css: 'dx-icon-' + icon"></span>
-            <i style="margin-left:5px" data-bind="text: text"></i>
+            <i style="margin-left:5px" data-bind="text: text"></i> [<span data-bind="text: $index"></span>]
         </div>
     </div>
 
@@ -79,11 +147,12 @@ If you use jQuery alone, combine the HTML markup for context menu items manually
     $(function () {
         $("#contextMenuContainer").dxContextMenu({
             items: contextMenuItems,
+            visible: true,
             itemTemplate: function (itemData, itemIndex, itemElement) {
                 var iconElement = $("<span></span>");
                 iconElement.addClass("dx-icon-" + itemData.icon);
                 itemElement.append(iconElement);
-                itemElement.append("<i style='margin-left:5px'>" + itemData.text + "</i>");
+                itemElement.append("<i style='margin-left:5px'>" + itemData.text + "</i>" + " [" + itemIndex + "]");
             },
             target: '#someElement'
         });

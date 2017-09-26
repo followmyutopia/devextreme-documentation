@@ -17,7 +17,7 @@ To open or close the **ContextMenu** from code, call the [show()](/Documentation
             text: "Open the context menu",
             onClick: function () {
                 $("#contextMenuContainer").dxContextMenu("show");
-                // ---------- or ----------
+                // === or ===
                 $("#contextMenuContainer").dxContextMenu("toggle", true);
             }
         });
@@ -28,11 +28,44 @@ To open or close the **ContextMenu** from code, call the [show()](/Documentation
         });
     });
 
-When using AngularJS or Knockout, use a different approach. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#visible) property of the **ContextMenu** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the context menu will be opened or closed.
+When using Angular, AngularJS or Knockout, use a different approach. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#visible) property of the **ContextMenu** widget to a component property (in Angular), a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this property or variable, and the context menu will be opened or closed.
 
 ---
 
-#####**AngularJS**
+#####Angular
+
+    <!--HTML-->
+    <dx-button
+        text="Open the context menu"
+        (onClick)="isContextMenuVisible = true">
+    </dx-button>
+    <dx-context-menu
+        [items]="contextMenuItems"
+        target="#someElement"
+        [visible]="isContextMenuVisible">
+    </dx-context-menu>
+
+    <!--TypeScript-->
+    import { DxContextMenuModule, DxButtonModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        contextMenuItems = [
+            { text: "Zoom In", icon: "plus" },
+            { text: "Share", icon: "message" },
+            { text: "Download", icon: "download" }
+        ];
+        isContextMenuVisible = false;
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxContextMenuModule,
+             DxButtonModule
+         ],
+         // ...
+     })
+
+#####AngularJS
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-button="{
@@ -61,7 +94,7 @@ When using AngularJS or Knockout, use a different approach. Bind the [visible](/
             }
         });
 
-#####**Knockout**
+#####Knockout
 
     <!--HTML--><div data-bind="dxButton: {
         text: 'Open the context menu',
@@ -90,6 +123,9 @@ When using AngularJS or Knockout, use a different approach. Bind the [visible](/
 
 When invoking the context menu from code, you may want to specify its [position](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#position).
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function () {
         $("#buttonContainer").dxButton({
             text: "Open the context menu",
@@ -97,7 +133,6 @@ When invoking the context menu from code, you may want to specify its [position]
                 $("#contextMenuContainer").dxContextMenu("show");
             }
         });
-
         $("#contextMenuContainer").dxContextMenu({
             items: contextMenuItems,
             target: "#someElement",
@@ -107,5 +142,43 @@ When invoking the context menu from code, you may want to specify its [position]
             }
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-button
+        text="Open the context menu"
+        (onClick)="isContextMenuVisible = true">
+    </dx-button>
+    <dx-context-menu
+        [items]="contextMenuItems"
+        target="#someElement"
+        [visible]="isContextMenuVisible"
+        [position]="{ my: 'top right', at: 'top left' }">
+    </dx-context-menu>
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxContextMenuModule, DxContextMenuComponent, DxButtonModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxContextMenuComponent) contextMenu: DxContextMenuComponent;
+        contextMenuItems = [
+            { text: "Zoom In", icon: "plus" },
+            { text: "Share", icon: "message" },
+            { text: "Download", icon: "download" }
+        ];
+        isContextMenuVisible = false;
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxContextMenuModule,
+             DxButtonModule
+         ],
+         // ...
+     })
+
+---
 
 This configuration of the **position** option reads as follows: "place **my** _top right_ corner **at** the _top left_ corner of the target element".

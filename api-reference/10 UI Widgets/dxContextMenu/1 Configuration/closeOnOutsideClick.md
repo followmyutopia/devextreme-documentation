@@ -14,15 +14,47 @@ A Boolean value specifying whether or not the widget is closed if a user clicks 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The function passed to this option enables you to specify a custom condition for closing the widget . For instance, you can prevent closing until a user clicks a certain element.
+The function passed to this option enables you to specify a custom condition for closing the widget. For instance, you can prevent closing until a user clicks a certain element.
+
+---
+#####jQuery
 
     <!--JavaScript-->
-    var widgetOptions = {
+    $(function () {
+        $("#contextMenuContainer").dxContextMenu({
+            // ...
+            closeOnOutsideClick: function(e) {
+                return e.target === $("#someElement").get()[0];
+            }
+        });
+    });
+
+#####Angular
+
+    <!--TypeScript-->
+    import { DxContextMenuModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
         // ...
-        closeOnOutsideClick: function(e) {
-            return e.target === $("#someElement").get()[0];
+        closeOnOutsideClick (e) {
+            return e.target === document.getElementById("someElement");
         }
     }
+    @NgModule({
+         imports: [
+             // ...
+             DxContextMenuModule
+         ],
+         // ...
+     })
+
+    <!--HTML-->
+    <dx-context-menu ...
+        (closeOnOutsideClick)="closeOnOutsideClick($event)">
+    </dx-context-menu>
+
+---
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->jQueryEvent<!--/typeFunctionParamType1-->
