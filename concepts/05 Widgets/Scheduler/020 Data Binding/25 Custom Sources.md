@@ -36,7 +36,11 @@ You need to configure the **CustomStore** in detail for accessing a server built
             this.schedulerDataSource = new DataSource({
                 loadMode: "raw",   
                 load: function () {
-                    return http.get('https://mydomain.com/MyDataService').toPromise();
+                    return http.get('https://mydomain.com/MyDataService')
+                                .toPromise()
+                                .then(response => {
+                                    return response.json();
+                                });
                 }
             })
         }
