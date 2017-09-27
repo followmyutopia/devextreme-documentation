@@ -78,6 +78,74 @@ If you need to access the selected files at runtime, get the value of the [value
 
     <!--JavaScript-->var files = $("#fileUploaderContainer").dxFileUploader("option", "value");
 
+With Angular, AngularJS, or Knockout, use a different technique. Bind the **value** property of the **FileUploader** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, you can access the file array within any method. 
+
+---
+
+#####Angular
+
+    <!--TypeScript-->
+    import { DxFileUploaderModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+        value: any[] = [];
+        getSelectedFiles () {
+            return this.value;
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFileUploaderModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-file-uploader ...
+        [(value)]="value">
+    </dx-file-uploader>
+
+#####AngularJS
+
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.value = [];
+            $scope.getSelectedFiles = function () {
+                return $scope.value;
+            }
+        });
+
+    <!--HTML-->
+    <div dx-file-uploader="{ 
+        ...
+        bindingOptions: {
+            value: 'value'
+        }
+    }"></div>
+
+#####Knockout
+
+    <!--JavaScript-->
+    var viewModel = {
+        value: ko.observableArray(),
+        getSelectedFiles: function () {
+            return viewModel.value();
+        }
+    };
+
+    ko.applyBindings(viewModel);
+
+    <!--HTML-->
+    <div data-bind="dxFileUploader: { 
+        ...
+        value: value
+    }"></div>
+
+---
+
 The **FileUploader** can operate in two different modes, each demanding a different client- and server-side configuration. See the [Client-Side Settings](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Client-Side_Settings/) article for more details.
 
 #####See Also#####
