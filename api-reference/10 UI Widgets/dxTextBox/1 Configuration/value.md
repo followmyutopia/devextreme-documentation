@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies a value the widget displays.
 <!--/shortDescription-->
 
 <!--fullDescription-->
