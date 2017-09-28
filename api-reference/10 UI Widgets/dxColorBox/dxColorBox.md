@@ -39,7 +39,7 @@ You can create the widget using one of the following approaches.
 
     <!--HTML-->
     <dx-color-box
-        [value]="rgba(255, 144, 0, 0.3)"
+        value="rgba(255, 144, 0, 0.3)"
         [editAlphaChannel]="true">
     </dx-color-box>
 

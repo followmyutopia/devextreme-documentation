@@ -4,6 +4,9 @@ The **CheckBox** is a small box, which when selected by the end user, shows that
 
 The following code adds the **CheckBox** to your page.
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="checkBoxContainer"></div>
  
@@ -14,6 +17,30 @@ The following code adds the **CheckBox** to your page.
             value: undefined
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-check-box
+        text="Check me"
+        [(value)]="checkBoxValue">
+    </dx-check-box>
+
+    <!--TypeScript-->
+    import { DxCheckBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        checkBoxValue: boolean;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxCheckBoxModule
+        ],
+        // ...
+    })
+
+---
 
 The **CheckBox** widget can have the following states: checked (the **value** option is _true_), unchecked (**value** is _false_), undetermined (**value** is _undefined_).
 

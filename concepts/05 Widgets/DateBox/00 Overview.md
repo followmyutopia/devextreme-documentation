@@ -4,6 +4,9 @@ The **DateBox** is a widget that displays a date and time in a specified format,
 
 The following code adds a simple **DateBox** to your page.
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="dateBoxContainer"></div>
 
@@ -14,6 +17,30 @@ The following code adds a simple **DateBox** to your page.
             type: "date"
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-date-box
+        [(value)]="date"
+        type="date">
+    </dx-date-box>
+
+    <!--TypeScript-->
+    import { DxDateBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        date: Date = new Date()
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDateBoxModule
+        ],
+        // ...
+    })
+
+---
 
 The **DateBox** accepts values of the following formats: [dates](http://www.w3schools.com/jsref/jsref_obj_date.asp), numeric values specifying the number of milliseconds since January 1, 1970, 00:00:00, and strings that match the following patterns: `'yyyy-MM-dd'`, `'yyyy-MM-ddTHH:mm:ss'`, `'yyyy-MM-ddTHH:mm:ssZ'`, or `'yyyy-MM-ddTHH:mm:ssx'`. Note that in code, the format stays the same until a value of a different format is assigned to the **value** option. For example, numbers remain numbers until you pass a string to the **value** option.
 

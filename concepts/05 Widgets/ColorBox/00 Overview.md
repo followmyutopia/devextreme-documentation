@@ -4,6 +4,9 @@ The **ColorBox** is a widget that allows an end user to enter a color or pick it
 
 The following code adds a simple **ColorBox** to your page.
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="colorBoxContainer"></div>
 
@@ -13,6 +16,29 @@ The following code adds a simple **ColorBox** to your page.
             value: "#FF0000"
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-color-box
+        [(value)]="color">
+    </dx-color-box>
+
+    <!--TypeScript-->
+    import { DxColorBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        color: string = "#FF0000"
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxColorBoxModule
+        ],
+        // ...
+    })
+
+---
 
 The **ColorBox** accepts colors in hexadecimal (_"#FF0000"_), RGB (_"rgb(255, 0, 0)"_) and RGBA (_"rgba(255, 0, 0, 1)"_) formats, as well as [color names](http://www.w3schools.com/cssref/css_colors.asp). When an end user selects a color from the drop-down editor, the textual representation of the selected color is hexadecimal.
 

@@ -1,5 +1,8 @@
 To process a new **CheckBox** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxCheckBox/Configuration/#onValueChanged) option when you configure the widget.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#checkBoxContainer").dxCheckBox({
@@ -11,7 +14,34 @@ To process a new **CheckBox** value, you need to handle the value change event. 
         });
     });
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to the value change event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxCheckBox/Methods/#oneventName_eventHandler) method.
+##### Angular
+
+    <!--HTML-->
+    <dx-check-box
+        (onValueChanged)="checkBox_valueChanged($event)">
+    </dx-check-box>
+
+    <!--TypeScript-->
+    import { DxCheckBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        checkBox_valueChanged (e) {
+            let previousValue = e.previousValue;
+            let newValue = e.value;
+            // Event handling commands go here
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxCheckBoxModule
+        ],
+        // ...
+    })
+
+---
+
+If you are going to change event handlers at runtime, or if you need to attach several handlers to the value change event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxCheckBox/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var valueChangedHandler1 = function (e) {

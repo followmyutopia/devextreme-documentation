@@ -1,5 +1,8 @@
 If instead of picking a value, an end user types it into the **DateBox**, this value applies when the [change](https://developer.mozilla.org/en/docs/Web/Events/change) event is raised. If you need the value to be applied on another event, set the [valueChangeEvent](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#valueChangeEvent) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#dateBoxContainer").dxDateBox({
@@ -9,7 +12,35 @@ If instead of picking a value, an end user types it into the **DateBox**, this v
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-date-box
+        [(value)]="date"
+        type="date"
+        valueChangeEvent="keyup">
+    </dx-date-box>
+
+    <!--TypeScript-->
+    import { DxDateBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        date: Date = new Date()
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDateBoxModule
+        ],
+        // ...
+    })
+
+---
+
 To process a new **DateBox** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#onValueChanged) option when you configure the widget.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -23,7 +54,34 @@ To process a new **DateBox** value, you need to handle the value change event. I
         });
     });
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to the value change event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxDateBox/Methods/#oneventName_eventHandler) method.
+##### Angular
+
+    <!--HTML-->
+    <dx-date-box ...
+        (onValueChanged)="dateBox_valueChanged($event)">
+    </dx-date-box>
+
+    <!--TypeScript-->
+    import { DxDateBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        dateBox_valueChanged (e) {
+            let previousValue = e.previousValue;
+            let newValue = e.value;
+            // Event handling commands go here
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDateBoxModule
+        ],
+        // ...
+    })
+
+---
+
+If you are going to change event handlers at runtime, or if you need to attach several handlers to the value change event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxDateBox/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var valueChangedHandler1 = function (e) {

@@ -23,7 +23,7 @@ The following code adds a simple **Button** to your page.
     <!--HTML-->
     <dx-button
         text="OK"
-        (onClick)="okClicked()">
+        (onClick)="okClicked($event)">
     </dx-button>
 
     <!--TypeScript-->
@@ -31,7 +31,7 @@ The following code adds a simple **Button** to your page.
     import notify from 'devextreme/ui/notify';
     // ...
     export class AppComponent {
-        okClicked () {
+        okClicked (e) {
             notify("The OK button was clicked")
         }
     }

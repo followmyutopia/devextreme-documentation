@@ -19,6 +19,9 @@ By default, the picking control and its appearance vary depending on the platfor
 
 For the **List** picker, you can specify the step of available time values in minutes using the [interval](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#interval) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#dateBoxContainer").dxDateBox({
@@ -28,6 +31,32 @@ For the **List** picker, you can specify the step of available time values in mi
             interval: 20
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-date-box
+        [(value)]="date"
+        type="time"
+        pickerType="list"
+        [interval]="20">
+    </dx-date-box>
+
+    <!--TypeScript-->
+    import { DxDateBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        date: Date = new Date()
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDateBoxModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [DateBox - Control the Behavior](/Documentation/Guide/Widgets/DateBox/Control_the_Behavior)
