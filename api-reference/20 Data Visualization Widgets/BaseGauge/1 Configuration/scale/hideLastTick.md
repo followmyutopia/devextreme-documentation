@@ -4,7 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--dep--><!--/dep-->
+<!--dep-->..\..\..\35 dxCircularGauge\1 Configuration\scale\label\hideFirstOrLast.md<!--/dep-->
 ===========================================================================
 <!--default-->false<!--/default-->
 <!--type-->Boolean<!--/type-->

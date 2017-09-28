@@ -4,7 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--dep--><!--/dep-->
+<!--dep-->onClick.md<!--/dep-->
 <!--EventForAction-->..\4 Events\areaClick.md<!--/EventForAction-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->

@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--default-->'dxDropDownMenu'<!--/default-->
+<!--default-->'dropDownMenu'<!--/default-->
 <!--acceptValues-->'actionSheet' | 'listTop' | 'listBottom' | 'dropDownMenu'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

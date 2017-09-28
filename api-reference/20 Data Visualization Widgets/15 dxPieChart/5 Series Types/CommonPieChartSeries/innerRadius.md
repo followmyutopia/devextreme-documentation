@@ -4,7 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--dep--><!--/dep-->
+<!--dep-->..\..\1 Configuration\innerRadius.md<!--/dep-->
 ===========================================================================
 <!--propertyOf-->..\DoughnutSeries\DoughnutSeries.md<!--/propertyOf-->
 <!--default-->0.5<!--/default-->

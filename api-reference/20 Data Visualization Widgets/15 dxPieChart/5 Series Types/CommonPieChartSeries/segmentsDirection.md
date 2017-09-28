@@ -4,7 +4,7 @@
 -------------------------------------------
 
 **-->
-<!--dep--><!--/dep-->
+<!--dep-->..\..\1 Configuration\segmentsDirection.md<!--/dep-->
 ===========================================================================
 <!--default-->'clockwise'<!--/default-->
 <!--acceptValues-->'clockwise' | 'anticlockwise'<!--/acceptValues-->

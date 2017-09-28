@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--acceptValues-->'dxButton' | 'dxTabs' | 'dxCheckBox' | 'dxSelectBox' | 'dxTextBox' | 'dxAutocomplete' | 'dxDateBox' | 'dxMenu' | 'dxDropDownMenu'<!--/acceptValues-->
+<!--acceptValues-->'dxButton' | 'dxTabs' | 'dxCheckBox' | 'dxSelectBox' | 'dxTextBox' | 'dxAutocomplete' | 'dxDateBox' | 'dxMenu'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
