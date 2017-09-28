@@ -42,7 +42,7 @@ Paging settings are configured in the [DevExtreme DataSource](/Documentation/Api
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import 'devextreme/data/odata/store';
     // ...
@@ -60,8 +60,7 @@ Paging settings are configured in the [DevExtreme DataSource](/Documentation/Api
     @NgModule({
         imports: [
             // ...
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })

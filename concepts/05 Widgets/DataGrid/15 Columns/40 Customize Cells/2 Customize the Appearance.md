@@ -13,7 +13,7 @@ DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiRef
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxDataGridModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -21,8 +21,7 @@ DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiRef
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule,
-            DxTemplateModule
+            DxDataGridModule
         ],
         // ...
     })

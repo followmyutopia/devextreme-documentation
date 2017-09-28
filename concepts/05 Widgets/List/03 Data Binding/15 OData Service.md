@@ -34,7 +34,7 @@
 #####Angular
 
     <!--TypeScript-->
-    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxListModule } from 'devextreme-angular';
     import ODataStore from 'devextreme/data/odata/store';
     // ...
     export class AppComponent {
@@ -46,8 +46,7 @@
     @NgModule({
         imports: [
             // ...
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })
@@ -101,7 +100,7 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 #####Angular
 
     <!--TypeScript-->
-    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxListModule } from 'devextreme-angular';
     import 'devextreme/data/odata/store';
     import DataSource from 'devextreme/data/data_source';
     // ...
@@ -119,8 +118,7 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
     @NgModule({
         imports: [
             // ...
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })

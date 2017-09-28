@@ -88,7 +88,7 @@ If you need a more specific customization, define a custom template in the **col
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxDataGridModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -96,8 +96,7 @@ If you need a more specific customization, define a custom template in the **col
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule,
-            DxTemplateModule
+            DxDataGridModule
         ],
         // ...
     })

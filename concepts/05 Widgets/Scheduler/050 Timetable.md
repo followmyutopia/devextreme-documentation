@@ -92,7 +92,7 @@ In addition, you can define custom templates for cells, time scales and date sca
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from 'devextreme-angular';
     // ...
     export class AppComponent  {
         schedulerData = [{
@@ -111,8 +111,7 @@ In addition, you can define custom templates for cells, time scales and date sca
     @NgModule({
         imports: [
             // ...
-            DxSchedulerModule,
-            DxTemplateModule
+            DxSchedulerModule
         ],
         // ...
     })

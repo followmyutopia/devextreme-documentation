@@ -40,7 +40,7 @@ If the user should be able to collapse or expand a group in the **List**, set th
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxListModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         fruitsVegetables = [{
@@ -57,8 +57,7 @@ If the user should be able to collapse or expand a group in the **List**, set th
     @NgModule({
         imports: [
             // ...
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })

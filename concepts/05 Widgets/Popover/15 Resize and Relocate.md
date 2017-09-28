@@ -34,7 +34,7 @@ To change the size of the **Popover**, specify the [height](/Documentation/ApiRe
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxPopoverModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -42,8 +42,7 @@ To change the size of the **Popover**, specify the [height](/Documentation/ApiRe
     @NgModule({
         imports: [
             // ...
-            DxPopoverModule,
-            DxTemplateModule
+            DxPopoverModule
         ],
         // ...
     })
@@ -95,7 +94,7 @@ If you need to position the **Popover** against a certain side of the [target el
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxPopoverModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -103,8 +102,7 @@ If you need to position the **Popover** against a certain side of the [target el
     @NgModule({
         imports: [
             // ...
-            DxPopoverModule,
-            DxTemplateModule
+            DxPopoverModule
         ],
         // ...
     })

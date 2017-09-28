@@ -129,7 +129,7 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the [visib
     </dx-button>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxTemplateModule, DxButtonModule } from 'devextreme-angular';
+    import { DxPopoverModule, DxButtonModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         isPopoverVisible: boolean = false;
@@ -137,8 +137,7 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the [visib
     @NgModule({
         imports: [
             // ...
-            DxPopoverModule,
-            DxTemplateModule
+            DxPopoverModule
         ],
         // ...
     })

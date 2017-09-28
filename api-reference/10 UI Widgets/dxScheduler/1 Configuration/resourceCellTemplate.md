@@ -34,7 +34,7 @@ Use a variable that is declared in the template via the `let` keyword to access 
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from 'devextreme-angular';
     // ...
     export class AppComponent  { 
         // ...
@@ -52,8 +52,7 @@ Use a variable that is declared in the template via the `let` keyword to access 
     @NgModule({
         imports: [
             // ...
-            DxSchedulerModule,
-            DxTemplateModule
+            DxSchedulerModule
         ],
         // ...
     })

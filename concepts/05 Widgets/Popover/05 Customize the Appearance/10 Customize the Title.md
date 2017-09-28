@@ -36,7 +36,7 @@ The **Popover** is displayed without a title by default. To add it, set the [sho
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxPopoverModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -44,8 +44,7 @@ The **Popover** is displayed without a title by default. To add it, set the [sho
     @NgModule({
         imports: [
             // ...
-            DxPopoverModule,
-            DxTemplateModule
+            DxPopoverModule
         ],
         // ...
     })
@@ -110,7 +109,7 @@ If you need to define the title completely, specify a template for it as shown i
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxPopoverModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -118,8 +117,7 @@ If you need to define the title completely, specify a template for it as shown i
     @NgModule({
         imports: [
             // ...
-            DxPopoverModule,
-            DxTemplateModule
+            DxPopoverModule
         ],
         // ...
     })

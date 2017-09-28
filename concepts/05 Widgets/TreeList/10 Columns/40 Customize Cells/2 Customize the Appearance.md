@@ -13,7 +13,7 @@ DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiRef
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxTreeListModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -21,8 +21,7 @@ DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiRef
     @NgModule({
         imports: [
             // ...
-            DxTreeListModule,
-            DxTemplateModule
+            DxTreeListModule
         ],
         // ...
     })

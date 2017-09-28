@@ -40,7 +40,7 @@ The master-detail interface becomes available after you specify the detail secti
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxDataGridModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -48,8 +48,7 @@ The master-detail interface becomes available after you specify the detail secti
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule,
-            DxTemplateModule
+            DxDataGridModule
         ],
         // ...
     })

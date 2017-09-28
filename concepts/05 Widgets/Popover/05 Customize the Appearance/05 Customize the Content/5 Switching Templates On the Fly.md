@@ -58,7 +58,7 @@ If you need to render different templates depending on a specific condition, def
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxTemplateModule, DxButtonModule } from 'devextreme-angular';
+    import { DxPopoverModule, DxButtonModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         currentTemplate: string = "template1";
@@ -70,7 +70,6 @@ If you need to render different templates depending on a specific condition, def
         imports: [
             // ...
             DxPopoverModule,
-            DxTemplateModule,
             DxButtonModule
         ],
         // ...

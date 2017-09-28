@@ -106,7 +106,7 @@ Implement the **columns[]**.[editCellTemplate](/Documentation/ApiReference/UI_Wi
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxDataGridModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         setCheckBoxValue (args, cellInfo) {
@@ -116,8 +116,7 @@ Implement the **columns[]**.[editCellTemplate](/Documentation/ApiReference/UI_Wi
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule,
-            DxTemplateModule
+            DxDataGridModule
         ],
         // ...
     })

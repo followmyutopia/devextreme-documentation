@@ -29,7 +29,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-action-sheet>
 
     <!--TypeScript-->
-    import { DxActionSheetModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxActionSheetModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         actionSheetData = [
@@ -43,8 +43,7 @@ Using the default item template is the easiest way to customize an item, but it 
     @NgModule({
         imports: [
             // ...
-            DxActionSheetModule,
-            DxTemplateModule
+            DxActionSheetModule
         ],
         // ...
     })

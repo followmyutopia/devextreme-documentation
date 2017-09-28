@@ -118,7 +118,7 @@ If objects in an array need to be processed (sorted, filtered, grouped, etc.), y
 #####Angular
 
     <!--TypeScript-->
-    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxListModule } from 'devextreme-angular';
     import query from 'devextreme/data/query';
     // ...
     export class AppComponent {
@@ -135,8 +135,7 @@ If objects in an array need to be processed (sorted, filtered, grouped, etc.), y
     @NgModule({
         imports: [
             // ...
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })

@@ -19,7 +19,7 @@ By default, group headers contain the text of the **key** field in a bold font. 
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {
@@ -52,8 +52,7 @@ By default, group headers contain the text of the **key** field in a bold font. 
     @NgModule({
         imports: [
             // ...
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })

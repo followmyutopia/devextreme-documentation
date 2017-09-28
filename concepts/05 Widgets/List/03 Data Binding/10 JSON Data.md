@@ -31,7 +31,7 @@ To bind the **List** to data in a JSON format, assign the URL leading to data to
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxListModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -39,8 +39,7 @@ To bind the **List** to data in a JSON format, assign the URL leading to data to
     @NgModule({
         imports: [
             // ...
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })

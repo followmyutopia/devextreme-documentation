@@ -65,7 +65,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxGalleryModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         galleryDataSource = [
@@ -77,8 +77,7 @@ Using the default item template is the easiest way to customize an item, but it 
     @NgModule({
         imports: [
             // ...
-            DxGalleryModule,
-            DxTemplateModule
+            DxGalleryModule
         ],
         // ...
     })

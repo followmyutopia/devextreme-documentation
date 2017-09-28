@@ -16,7 +16,7 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from 'devextreme-angular';
     // ...
     export class AppComponent  {
         schedulerData = [{
@@ -33,8 +33,7 @@ When a user clicks an appointment, the **Scheduler** shows a tooltip that can be
     @NgModule({
         imports: [
             // ...
-            DxSchedulerModule,
-            DxTemplateModule
+            DxSchedulerModule
         ],
         // ...
     })

@@ -30,7 +30,7 @@ To specify when the **Popover** should be shown and hidden, set the [showEvent](
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxPopoverModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -38,8 +38,7 @@ To specify when the **Popover** should be shown and hidden, set the [showEvent](
     @NgModule({
         imports: [
             // ...
-            DxPopoverModule,
-            DxTemplateModule
+            DxPopoverModule
         ],
         // ...
     })
@@ -95,7 +94,7 @@ The **Popover** can also be hidden when a user clicks outside it or presses the 
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxPopoverModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -103,8 +102,7 @@ The **Popover** can also be hidden when a user clicks outside it or presses the 
     @NgModule({
         imports: [
             // ...
-            DxPopoverModule,
-            DxTemplateModule
+            DxPopoverModule
         ],
         // ...
     })

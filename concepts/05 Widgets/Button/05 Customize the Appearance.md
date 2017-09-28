@@ -119,7 +119,7 @@ If you need to define the **Button** content completely, implement a template fo
     </dx-button>
 
     <!--TypeScript-->
-    import { DxButtonModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxButtonModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         foo (e) {
@@ -129,8 +129,7 @@ If you need to define the **Button** content completely, implement a template fo
     @NgModule({
         imports: [
             // ...
-            DxButtonModule,
-            DxTemplateModule
+            DxButtonModule
         ],
         // ...
     })

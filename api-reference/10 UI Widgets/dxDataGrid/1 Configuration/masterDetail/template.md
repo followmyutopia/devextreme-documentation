@@ -44,7 +44,7 @@ Use the **template** option to define the markup of detail sections in a master-
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxDataGridModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -52,8 +52,7 @@ Use the **template** option to define the markup of detail sections in a master-
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule,
-            DxTemplateModule
+            DxDataGridModule
         ],
         // ...
     })

@@ -88,7 +88,7 @@ If you need a more specific customization, define a custom template in the **col
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxTreeListModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -96,8 +96,7 @@ If you need a more specific customization, define a custom template in the **col
     @NgModule({
         imports: [
             // ...
-            DxTreeListModule,
-            DxTemplateModule
+            DxTreeListModule
         ],
         // ...
     })

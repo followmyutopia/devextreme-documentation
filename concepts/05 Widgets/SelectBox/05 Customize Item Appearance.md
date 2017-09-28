@@ -65,7 +65,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         selectBoxData = [{
@@ -83,8 +83,7 @@ Using the default item template is the easiest way to customize an item, but it 
     @NgModule({
          imports: [
              // ...
-             DxSelectBoxModule,
-             DxTemplateModule
+             DxSelectBoxModule
          ],
          // ...
      })

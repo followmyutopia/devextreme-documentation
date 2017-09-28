@@ -53,7 +53,7 @@ When utilizing the [Knockout](http://knockoutjs.com/), [Angular](https://angular
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxDataGridModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -61,8 +61,7 @@ When utilizing the [Knockout](http://knockoutjs.com/), [Angular](https://angular
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule,
-            DxTemplateModule
+            DxDataGridModule
         ],
         // ...
     })

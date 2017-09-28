@@ -47,7 +47,7 @@ If you want to offer the user a set of commands related to a **List** item, you 
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxListModule } from 'devextreme-angular';
     import notify from 'devextreme/ui/notify';
     // ...
     export class AppComponent {
@@ -77,8 +77,7 @@ If you want to offer the user a set of commands related to a **List** item, you 
     @NgModule({
         imports: [
             // ...
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })

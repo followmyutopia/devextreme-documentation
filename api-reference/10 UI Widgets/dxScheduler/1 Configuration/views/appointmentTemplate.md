@@ -32,7 +32,7 @@ In Angular apps, an item's object and index extend the standard binding context 
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from 'devextreme-angular';
     // ...
     export class AppComponent  { 
         // ...
@@ -44,8 +44,7 @@ In Angular apps, an item's object and index extend the standard binding context 
     @NgModule({
         imports: [
             // ...
-            DxSchedulerModule,
-            DxTemplateModule
+            DxSchedulerModule
         ],
         // ...
     })

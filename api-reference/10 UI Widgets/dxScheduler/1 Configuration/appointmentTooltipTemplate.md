@@ -47,7 +47,7 @@ Use a variable that is declared in the template via the `let` keyword to access 
 
     
     <!--TypeScript-->
-    import { DxSchedulerModule, DxButtonModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxSchedulerModule, DxButtonModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -56,7 +56,6 @@ Use a variable that is declared in the template via the `let` keyword to access 
         imports: [
             // ...
             DxSchedulerModule,
-            DxTemplateModule,
             DxButtonModule
         ],
         // ...

@@ -16,7 +16,7 @@ By default, group headers display text of the **key** field in a bold font. You 
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     // ...
     export class AppComponent {
@@ -49,8 +49,7 @@ By default, group headers display text of the **key** field in a bold font. You 
     @NgModule({
          imports: [
              // ...
-             DxSelectBoxModule,
-             DxTemplateModule
+             DxSelectBoxModule
          ],
          // ...
      })

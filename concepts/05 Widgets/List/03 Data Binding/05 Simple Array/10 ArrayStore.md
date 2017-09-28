@@ -23,7 +23,7 @@
 #####Angular
 
     <!--TypeScript-->
-    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxListModule } from 'devextreme-angular';
     import ArrayStore from 'devextreme/data/array_store';
     // ...
     export class AppComponent {
@@ -38,8 +38,7 @@
     @NgModule({
         imports: [
             // ...
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })

@@ -59,7 +59,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxListModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         fruits = [
@@ -73,8 +73,7 @@ Using the default item template is the easiest way to customize an item, but it 
     @NgModule({
         imports: [
             // ...
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })

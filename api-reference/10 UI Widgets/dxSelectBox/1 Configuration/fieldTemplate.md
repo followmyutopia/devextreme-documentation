@@ -37,7 +37,7 @@ In Knockout apps, you can bind template elements directly to the selected item o
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         selectBoxData = [
@@ -48,8 +48,7 @@ In Knockout apps, you can bind template elements directly to the selected item o
     @NgModule({
          imports: [
              // ...
-             DxSelectBoxModule,
-             DxTemplateModule
+             DxSelectBoxModule
          ],
          // ...
      })

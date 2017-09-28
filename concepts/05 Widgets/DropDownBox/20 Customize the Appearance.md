@@ -60,7 +60,7 @@ You can configure the drop-down field using the [dropDownOptions](/Documentation
     </dx-drop-down-box>
 
     <!--TypeScript-->
-    import { DxDropDownBoxModule, DxListModule, DxTemplateModule } from 'devextreme-angular';
+    import { DxDropDownBoxModule, DxListModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
@@ -75,8 +75,7 @@ You can configure the drop-down field using the [dropDownOptions](/Documentation
         imports: [
             // ...
             DxDropDownBoxModule,
-            DxListModule,
-            DxTemplateModule
+            DxListModule
         ],
         // ...
     })
