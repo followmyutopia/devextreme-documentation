@@ -46,6 +46,6 @@ To control individual operations, assign a Boolean value to a corresponding fiel
 
 Note that when the operations are performed remotely, the **TreeList** does not support:
 
-- sorting, grouping and filtering by [calculated columns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue);
+- sorting, grouping and filtering by columns with the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue) or [calculateDisplayValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateDisplayValue) option defined;
 - custom sorting using functions (that is, [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateSortValue) accepts strings only).
 <!--/fullDescription-->

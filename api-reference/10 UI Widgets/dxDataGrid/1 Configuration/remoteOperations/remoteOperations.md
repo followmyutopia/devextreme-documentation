@@ -48,7 +48,7 @@ To control individual operations, assign a Boolean value to a corresponding fiel
 
 Note that when operations are performed remotely, the **DataGrid** does not support:
 
-- sorting, grouping and filtering by [calculated columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue);
+- sorting, grouping and filtering by columns with the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) or [calculateDisplayValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateDisplayValue) option defined;
 - custom grouping and custom sorting using functions (that is, [calculateGroupValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateGroupValue) and [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateSortValue) accept strings only);
 - [custom summary calculation](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary).
 
