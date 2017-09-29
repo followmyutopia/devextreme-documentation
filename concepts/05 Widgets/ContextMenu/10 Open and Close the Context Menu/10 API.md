@@ -159,10 +159,9 @@ When invoking the context menu from code, you may want to specify its [position]
 
     <!--TypeScript-->
     import { ..., ViewChild } from '@angular/core';
-    import { DxContextMenuModule, DxContextMenuComponent, DxButtonModule } from 'devextreme-angular';
+    import { DxContextMenuModule, DxButtonModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        @ViewChild(DxContextMenuComponent) contextMenu: DxContextMenuComponent;
         contextMenuItems = [
             { text: "Zoom In", icon: "plus" },
             { text: "Share", icon: "message" },
