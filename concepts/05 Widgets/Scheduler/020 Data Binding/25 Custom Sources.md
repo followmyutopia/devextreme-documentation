@@ -3,7 +3,7 @@ DevExtreme provides the [CustomStore](/Documentation/ApiReference/Data_Layer/Cus
 - [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
 - [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
 
-You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. Note that instead of declaring the **CustomStore** explicitly, you can specify its members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object.
+You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. 
 
 ---
 
@@ -12,10 +12,13 @@ You need to configure the **CustomStore** in detail for accessing a server built
     <!--JavaScript-->$(function() {
         $("#schedulerContainer").dxScheduler({
             dataSource: new DevExpress.data.DataSource({
-                loadMode: "raw",   
-                load: function () {
-                    return $.getJSON('https://mydomain.com/MyDataService');
-                }
+                store: new DevExpress.data.CustomStore({
+                    loadMode: "raw",   
+                    load: function () {
+                        return $.getJSON('https://mydomain.com/MyDataService');
+                    }
+                }),
+                paginate: false
             })
         });
     });
@@ -34,14 +37,17 @@ You need to configure the **CustomStore** in detail for accessing a server built
         schedulerDataSource: any = {};
         constructor(@Inject(Http) http: Http) {
             this.schedulerDataSource = new DataSource({
-                loadMode: "raw",   
-                load: function () {
-                    return http.get('https://mydomain.com/MyDataService')
-                                .toPromise()
-                                .then(response => {
-                                    return response.json();
-                                });
-                }
+                store: new CustomStore({
+                    loadMode: "raw",   
+                    load: function () {
+                        return http.get('https://mydomain.com/MyDataService')
+                                    .toPromise()
+                                    .then(response => {
+                                        return response.json();
+                                    });
+                    }
+                }),
+                paginate: false
             })
         }
     }
@@ -101,6 +107,7 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
 #####jQuery
 
     var schedulerDataSource = new DevExpress.data.DataSource({
+        paginate: false,
         load: function (loadOptions) {
             var d = $.Deferred();
             $.getJSON('http://mydomain.com/MyDataService', {  
@@ -154,31 +161,34 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
         schedulerDataSource: any = {};
         constructor(@Inject(Http) http: Http) {
             this.schedulerDataSource = new DataSource({
-                load: function (loadOptions) {
-                    let params: URLSearchParams = new URLSearchParams();
-                    params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : ""); 
-                    return http.get('http://mydomain.com/MyDataService', {
-                                    search: params
-                                })
-                                .toPromise()
-                                .then(response => {
-                                    var json = response.json();
-                                    // You can process the received data here
-                                    return json.items
-                                });
-                },
-                insert: function (values) {
-                    return http.post('http://mydomain.com/MyDataService', values)
-                               .toPromise();
-                },
-                remove: function (key) {
-                    return http.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
-                               .toPromise();
-                },
-                update: function (key, values) {
-                    return http.put('http://mydomain.com/MyDataService' + encodeURIComponent(key), values)
-                               .toPromise();
-                }
+                store: new CustomStore({
+                    load: function (loadOptions) {
+                        let params: URLSearchParams = new URLSearchParams();
+                        params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : ""); 
+                        return http.get('http://mydomain.com/MyDataService', {
+                                        search: params
+                                    })
+                                    .toPromise()
+                                    .then(response => {
+                                        var json = response.json();
+                                        // You can process the received data here
+                                        return json.items
+                                    });
+                    },
+                    insert: function (values) {
+                        return http.post('http://mydomain.com/MyDataService', values)
+                                .toPromise();
+                    },
+                    remove: function (key) {
+                        return http.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
+                                .toPromise();
+                    },
+                    update: function (key, values) {
+                        return http.put('http://mydomain.com/MyDataService' + encodeURIComponent(key), values)
+                                .toPromise();
+                    }
+                }),
+                paginate: false
             });
         }
     }

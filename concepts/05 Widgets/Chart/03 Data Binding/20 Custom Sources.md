@@ -3,7 +3,7 @@ DevExtreme provides the [CustomStore](/Documentation/ApiReference/Data_Layer/Cus
 - [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
 - [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
 
-You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. Note that instead of declaring the **CustomStore** explicitly, you can specify its members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object.
+You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. 
 
 ---
 ##### jQuery
@@ -11,10 +11,13 @@ You need to configure the **CustomStore** in detail for accessing a server built
     <!--JavaScript-->$(function() {
         $("#chartContainer").dxChart({
             dataSource: new DevExpress.data.DataSource({
-                loadMode: "raw",   
-                load: function () {
-                    return $.getJSON('https://mydomain.com/MyDataService');
-                }
+                store: new DevExpress.data.CustomStore({
+                    loadMode: "raw",   
+                    load: function () {
+                        return $.getJSON('https://mydomain.com/MyDataService');
+                    }
+                }),
+                paginate: false
             })
         });
     });
@@ -33,14 +36,17 @@ You need to configure the **CustomStore** in detail for accessing a server built
         chartDataSource: any = {};
         constructor(@Inject(Http) http: Http) {
             this.chartDataSource = new DataSource({
-                loadMode: "raw",   
-                load: function () {
-                    return http.get('http://mydomain.com/MyDataService')
-                               .toPromise()
-                               .then(response => {
-                                   return response.json();
-                               });
-                }
+                store: new CustomStore({
+                    loadMode: "raw",   
+                    load: function () {
+                        return http.get('http://mydomain.com/MyDataService')
+                                .toPromise()
+                                .then(response => {
+                                    return response.json();
+                                });
+                    }
+                }),
+                paginate: false
             });
         }
     }
@@ -143,24 +149,26 @@ This example shows how to make a query for data.
         chartDataSource: any = {};
         constructor(@Inject(Http) http: Http) {
             this.chartDataSource = new DataSource({
-                load: function (loadOptions) {
-                    let params: URLSearchParams = new URLSearchParams();
-                    params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
-                    params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
-                    params.set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "");
-                    params.set("searchOperation", loadOptions.searchOperation);
-                    params.set("searchValue", loadOptions.searchValue);
-                    return http.get('http://mydomain.com/MyDataService', {
-                                    search: params
-                                })
-                                .toPromise()
-                                .then(response => {
-                                    var json = response.json();
-                                    // Here, you can perform operations unsupported by the server
-                                    // or any other operations on the retrieved data
-                                    return json.items
-                                });
-                }
+                store: new CustomStore({
+                    load: function (loadOptions) {
+                        let params: URLSearchParams = new URLSearchParams();
+                        params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
+                        params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
+                        params.set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "");
+                        params.set("searchOperation", loadOptions.searchOperation);
+                        params.set("searchValue", loadOptions.searchValue);
+                        return http.get('http://mydomain.com/MyDataService', {
+                                        search: params
+                                    })
+                                    .toPromise()
+                                    .then(response => {
+                                        var json = response.json();
+                                        // Here, you can perform operations unsupported by the server
+                                        // or any other operations on the retrieved data
+                                        return json.items
+                                    });
+                    }
+                })
             });
         }
     }

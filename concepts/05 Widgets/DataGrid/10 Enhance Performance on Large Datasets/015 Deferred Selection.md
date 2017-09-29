@@ -69,16 +69,17 @@ The following tasks require using different API in the deferred mode comparing w
 
     #####jQuery
 
-            <!--JavaScript-->
-            $(function () {
-                $("#dataGridContainer").dxDataGrid({
-                    // ...
-                    selectionFilter: ["Task_Status", "=", "Completed"]
-                });
+        <!--JavaScript-->
+        $(function () {
+            $("#dataGridContainer").dxDataGrid({
+                // ...
+                selectionFilter: ["Task_Status", "=", "Completed"]
             });
+        });
 
     #####Angular
 
+        <!--HTML-->
         <dx-data-grid ...
             selectionFilter="['Task_Status', '=', 'Completed']">
         </dx-data-grid>

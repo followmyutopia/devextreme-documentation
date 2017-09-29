@@ -3,15 +3,17 @@
 - [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
 - [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
 
-You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. Note that instead of declaring the **CustomStore** explicitly, you can specify its members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object.
+You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. 
 
     <!--JavaScript-->$(function() {
         $("#tagBoxContainer").dxTagBox({
             dataSource: new DevExpress.data.DataSource({
-                loadMode: "raw",   
-                load: function () {
-                    return $.getJSON('https://mydomain.com/MyDataService');
-                }
+                store: new DevExpress.data.CustomStore({
+                    loadMode: "raw",   
+                    load: function () {
+                        return $.getJSON('https://mydomain.com/MyDataService');
+                    }
+                })
             })
         });
     });

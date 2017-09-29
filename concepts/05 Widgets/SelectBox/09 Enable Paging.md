@@ -26,16 +26,18 @@ Paging is used to load data in portions, which improves the widget's performance
     import { Http, HttpModule } from '@angular/http';
     import { DxSelectBoxModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
-    import 'devextreme/data/custom_store';
+    import CustomStore from 'devextreme/data/custom_store';
     // ...
     export class AppComponent {
         selectBoxData: any = {};
         constructor(@Inject(Http) http: Http) {
             this.selectBoxData = new DataSource({
-                loadMode: "raw",
-                load: function () {
-                    return http.get("https://mydomain.com/MyDataService");
-                },
+                store: new CustomStore({
+                    loadMode: "raw",
+                    load: function () {
+                        return http.get("https://mydomain.com/MyDataService");
+                    },
+                }),
                 paginate: true,
                 pageSize: 5
             });
