@@ -1,6 +1,4 @@
-[note]In this article, the [CheckBox](/Documentation/Guide/Widgets/CheckBox/Overview/) widget is used to change **Form** options. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
-
-To change the [Form configuration](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) at runtime, use the [option(optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#optionoptionName_optionValue) method. 
+To change the [Form configuration](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) at runtime, call the [option(optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#optionoptionName_optionValue) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     $(function() {
@@ -21,6 +19,38 @@ To change the [Form configuration](/Documentation/ApiReference/UI_Widgets/dxForm
             }
         });
     });
+
+With Angular, bind the option to change to a component or element property.
+
+    <!--HTML-->
+    <dx-form
+        [(formData)]="employee"
+        [disabled]="disableForm.value">
+    </dx-form>
+    <dx-check-box #disableForm
+        text="Disable the Form"
+        [value]="false">
+    </dx-check-box>
+
+    <!--TypeScript-->
+    import { DxFormModule, DxCheckBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "John",
+            lastName: "Heart",
+            phone: "+1(213) 555-9392",
+            email: "jheart@dx-email.com"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule,
+            DxCheckBoxModule
+        ],
+        // ...
+    })
 
 #####See Also#####
 - [Get and Set Options - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/)

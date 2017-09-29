@@ -1,5 +1,8 @@
 To process a new form item value, you need to handle the [fieldDataChanged](/Documentation/ApiReference/UI_Widgets/dxForm/Events/#fieldDataChanged) event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onFieldDataChanged](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onFieldDataChanged) option when you configure the widget.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#formContainer").dxForm({
@@ -11,7 +14,35 @@ To process a new form item value, you need to handle the [fieldDataChanged](/Doc
         });
     });
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to the **fieldDataChanged** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#oneventName_eventHandler) method.
+##### Angular
+
+    <!--HTML-->
+    <dx-form ...
+        (onFieldDataChanged)="form_fieldDataChanged($event)">
+    </dx-form>
+
+    <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+        form_fieldDataChanged (e) {
+            let updatedField = e.dataField;
+            let newValue = e.value;
+            // Event handling commands go here
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
+
+---
+
+If you are going to change event handlers at runtime, or if you need to attach several handlers to the **fieldDataChanged** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var fieldDataChangedHandler1 = function (e) {

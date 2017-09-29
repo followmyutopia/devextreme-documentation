@@ -1,5 +1,8 @@
 Not only you can bind the **Form** to an existing data object, but you can also generate a new data object directly from the **Form** items. For this purpose, bind simple items from the [items](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) array to not-yet-existing data fields using the [dataField](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField) option. Once a user enters a value into such an item, the corresponding data field is created in the data object. To obtain this data object, get the value of the **formData** option using the [option(optionName)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#optionoptionName) method.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#formContainer").dxForm({
@@ -19,6 +22,36 @@ Not only you can bind the **Form** to an existing data object, but you can also 
             }
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-form
+        (onFormDataChanged)="form_formDataChanged($event)">
+        <dxi-item dataField="firstName" editorType="dxTextBox"></dxi-item>
+        <dxi-item dataField="lastName"  editorType="dxTextBox"></dxi-item>
+        <dxi-item dataField="birthDate" editorType="dxDateBox"></dxi-item>
+    </dx-form>
+
+    <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = { }
+        form_formDataChanged (e) {
+            this.employee = e.component.option("formData");
+            // ...
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [Form - Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)

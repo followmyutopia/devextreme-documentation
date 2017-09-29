@@ -7,13 +7,16 @@ By default, the widget aligns all editors of all simple items in straight column
 
 <!---->
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#formContainer").dxForm({
             formData: {
                 firstName: "John",
                 lastName: "Heart",
-                hireDate: new Date(2012, 04, 13),
+                hireDate: new Date(2012, 4, 13),
                 city: "Los Angeles",
                 position: "CEO",
                 phone: "+1(213) 555-9392",
@@ -32,6 +35,49 @@ By default, the widget aligns all editors of all simple items in straight column
             }]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-form
+        [(formData)]="employee"
+        [alignItemLabels]="false"
+        [alignItemLabelsInAllGroups]="false">
+        <dxi-item dataField="firstName"></dxi-item>
+        <dxi-item dataField="lastName"></dxi-item>
+        <dxi-item itemType="group"
+            caption="Contacts"
+            [items]="['phone', 'email']">
+        </dxi-item>
+        <dxi-item itemType="group"
+            caption="Misc Data"
+            [items]="['position', 'city']">
+        </dxi-item>
+    </dx-form>
+
+    <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "John",
+            lastName: "Heart",
+            hireDate: new Date(2012, 4, 13),
+            city: "Los Angeles",
+            position: "CEO",
+            phone: "+1(213) 555-9392",
+            email: "jheart@dx-email.com"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [Form - Configure Item Labels | Additional Marks](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Additional_Marks/)

@@ -1,6 +1,4 @@
-[note]In this article, the [Button](/Documentation/Guide/Widgets/Button/Overview/) widget is used to change item options. This choice is made for purely demonstrational purposes, and you can do the same operations using another widget following the same guidelines.
-
-To change a single item option at runtime, call the [itemOption(field, option, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionfield_option_value) method. If the needed item is [in a group](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/) or [in a tab](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/), the *field* parameter should be given the group caption or tab title followed by the item's name. An example is shown below.
+To change a single item option at runtime, call the [itemOption(field, option, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionfield_option_value) method.  This approach is more typical of jQuery. If the needed item is [in a group](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/) or [in a tab](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/), the *field* parameter should be given the group caption or tab title followed by the item's name. An example is shown below.
 
     <!--JavaScript-->
     $(function() {
@@ -18,10 +16,11 @@ To change a single item option at runtime, call the [itemOption(field, option, v
             }]
         }).dxForm("instance");
 
-        $("#buttonContainer").dxButton({
-            text: 'Hide the Phone Number',
-            onClick: function () {
-                form.itemOption("Contacts.phone", "visible", false);
+        $("#checkBoxContainer").dxCheckBox({
+            text: 'Show the Phone Number',
+            value: true,
+            onValueChanged: function (e) {
+                form.itemOption("Contacts.phone", "visible", e.value);
             }
         });
     });
@@ -42,6 +41,43 @@ Being called with the *field* parameter only, this method returns the current co
             }
         });
     });
+
+With Angular, bind the option to change to a component or element property.
+    
+    <!--HTML-->
+    <dx-form
+        [(formData)]="employee">
+        <dxi-item dataField="firstName"></dxi-item>
+        <dxi-item dataField="lastName"></dxi-item>
+        <dxi-item itemType="group" caption="Contacts">
+            <dxi-item dataField="phone" [visible]="showPhone.value"></dxi-item>
+            <dxi-item dataField="email"></dxi-item>
+        </dxi-item>
+    </dx-form>
+    <dx-check-box #showPhone
+        text="Show the Phone Number"
+        [value]="true">
+    </dx-check-box>
+
+    <!--TypeScript-->
+    import { DxFormModule, DxCheckBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "John",
+            lastName: "Heart",
+            phone: "+1(213) 555-9392",
+            email: "jheart@dx-email.com"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule,
+            DxCheckBoxModule
+        ],
+        // ...
+    })
 
 #####See Also#####
 - **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)

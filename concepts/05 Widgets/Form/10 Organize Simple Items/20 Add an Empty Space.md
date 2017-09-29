@@ -1,5 +1,8 @@
 If you need to add an empty space between neighboring items, use an [empty item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/). To create it, assign *"empty"* to the [itemType](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/#itemType) option. To define how many columns the empty item must span, specify the [colSpan](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/#colSpan) option. For the full list of available options, visit the [Empty Item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/) section.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#formContainer").dxForm({
@@ -17,6 +20,39 @@ If you need to add an empty space between neighboring items, use an [empty item]
             }, "lastName", "position"]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-form
+        [(formData)]="employee"
+        [colCount]="2">
+        <dxi-item itemType="empty"></dxi-item>
+        <dxi-item dataField="firstName"></dxi-item>
+        <dxi-item itemType="empty" [colSpan]="2"></dxi-item>
+        <dxi-item dataField="lastName"></dxi-item>
+        <dxi-item dataField="position"></dxi-item>
+    </dx-form>
+
+    <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "John",
+            lastName: "Heart",
+            position: "CEO"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [Form - Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)

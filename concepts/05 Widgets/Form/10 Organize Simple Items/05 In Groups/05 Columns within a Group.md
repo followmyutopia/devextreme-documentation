@@ -1,5 +1,8 @@
 Items within a group can be organized in several columns. To specify the number of columns, use the [colCount](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/#colCount) option. Note that the entire **Form** layout can also be organized in columns if the [colCount](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#colCount) option is declared on the root level. In this case, use the [colSpan](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/#colSpan) option to define how many general columns the group must span. 
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#formContainer").dxForm({
@@ -27,3 +30,45 @@ Items within a group can be organized in several columns. To specify the number 
             }]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-form
+        [(formData)]="employee"
+        [colCount]="2"> <!-- Splits the Form layout in two columns -->
+        <dxi-item
+            itemType="group"
+            caption="Personal Data"
+            [colSpan]="2" <!-- Makes this group span both general columns -->
+            [colCount]="3" <!-- Organizes items inside this group in three columns -->
+            [items]="['firstName', 'lastName', 'position']">
+        </dxi-item>
+        <dxi-item
+            itemType="group"
+            caption="Contacts"
+            [items]="['phone', 'email']">
+        </dxi-item>
+    </dx-form>
+
+    <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "John",
+            lastName: "Heart",
+            position: "CEO",
+            phone: "+1(213) 555-9392",
+            email: "jheart@dx-email.com"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
+
+---

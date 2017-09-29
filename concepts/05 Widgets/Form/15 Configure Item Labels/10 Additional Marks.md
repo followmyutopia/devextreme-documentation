@@ -2,6 +2,9 @@
 
 To specify the mark or text for required and optional items, use the [requiredMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#requiredMark) and [optionalMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#optionalMark) options. Note that the "optional" mark will not be displayed until you set the [showOptionalMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showOptionalMark) option to **true**. You can also hide the "required" mark using the [showRequiredMark](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showRequiredMark) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#formContainer").dxForm({
@@ -21,7 +24,43 @@ To specify the mark or text for required and optional items, use the [requiredMa
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-form
+        [(formData)]="employee"
+        requiredMark="!"
+        optionalMark="opt"
+        [showOptionalMark]="true">
+        <dxi-item dataField="firstName" [isRequired]="true"></dxi-item>
+        <dxi-item dataField="lastName"  [isRequired]="true"></dxi-item>
+        <dxi-item dataField="position"></dxi-item>
+    </dx-form>
+
+    <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "John",
+            lastName: "Heart",
+            position: "CEO"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
+
+---
+
 Each label ends with a colon. To hide it, assign **false** to the [showColonAfterLabel](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showColonAfterLabel) option. Note that you can show/hide a colon for an individual item using the **label**.[showColon](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/label/#showColon) option.
+
+---
+##### jQuery
 
     $(function() {
         $("#formContainer").dxForm({
@@ -37,6 +76,39 @@ Each label ends with a colon. To hide it, assign **false** to the [showColonAfte
             }]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-form
+        [(formData)]="employee"
+        [showColonAfterLabel]="false">
+        <dxi-item dataField="firstName"></dxi-item>
+        <dxi-item dataField="lastName"></dxi-item>
+        <dxi-item dataField="position">
+            <dxo-label [showColon]="true"></dxo-label>
+        </dxi-item>
+    </dx-form>
+
+    <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "John",
+            lastName: "Heart",
+            position: "CEO"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [Form - Configure Item Labels | Location and Alignment](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Location_and_Alignment/)

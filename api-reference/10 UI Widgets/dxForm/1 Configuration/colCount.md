@@ -19,8 +19,11 @@ The count of columns in the form layout.
 
 For extra small screens, this option always equals *1* to make the widget adaptive. To override this logic, specify the [colCountByScreen](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/colCountByScreen/) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->
-    $(function(){
+    $(function() {
         $("#formContainer").dxForm({
             // ...
             colCountByScreen: {
@@ -28,6 +31,29 @@ For extra small screens, this option always equals *1* to make the widget adapti
             }
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-form ... >
+        <dxo-col-count-by-screen [xs]="2"></dxo-col-count-by-screen>
+    </dx-form>
+
+    <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
+
+---
 
 [/note]
 

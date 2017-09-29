@@ -4,6 +4,9 @@ The **Form** widget represents fields of a data object as a collection of label-
 
 The following code adds the **Form** widget to your page. The simplest configuration of this widget includes only a data object. 
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="formContainer"></div>
 
@@ -15,14 +18,47 @@ The following code adds the **Form** widget to your page. The simplest configura
                 lastName: "Heart",
                 position: "CEO",
                 officeNo: 901,
-                birthDate: new Date(1964, 03, 15),
-                hireDate: new Date(2012, 04, 13),
+                birthDate: new Date(1964, 3, 15),
+                hireDate: new Date(2012, 4, 13),
                 city: "Los Angeles",
                 phone: "+1(213) 555-9392",
                 email: "jheart@dx-email.com"
             }
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-form
+        [(formData)]="employee">
+    </dx-form>
+
+    <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "John",
+            lastName: "Heart",
+            position: "CEO",
+            officeNo: 901,
+            birthDate: new Date(1964, 3, 15),
+            hireDate: new Date(2012, 4, 13),
+            city: "Los Angeles",
+            phone: "+1(213) 555-9392",
+            email: "jheart@dx-email.com"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
+
+---
 
 The configuration above creates one label-editor pair per each field of the data object. Such a pair is called ["simple item"](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/). Simple items can be organized in [groups](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/), [tabs](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/) and [columns](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/).
 

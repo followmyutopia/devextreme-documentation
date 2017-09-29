@@ -26,78 +26,7 @@ If you need to update form data at runtime, redefine the [formData](/Documentati
         });
     });
 
-If you use the **MVVM approach**, provide two-way binding for the [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object.
-
----
-
-#####**AngularJS**
-
-    <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function DemoController($scope) {
-            $scope.employees = [{
-                name: "John Heart",
-                position: "CEO",
-                officeNo: "901"
-            }, {
-                name: "Bill Silver",
-                position: "HR Manager",
-                officeNo: "905"
-            }];
-            $scope.data = $scope.employees[0];
-        });
-
-    <!--HTML-->
-    <div ng-controller="demoController">
-        <div dx-select-box="{
-            displayExpr: 'name',
-            dataSource: employees,
-            bindingOptions: {
-                value: 'data'
-            }
-        }"></div>
-        <div dx-form="{
-             bindingOptions: {
-                'formData': 'data'
-             }
-        }"></div>
-    </div>
-
-#####**Knockout**
-
-    <!--JavaScript-->
-    var employees = [{
-            name: "John Heart",
-            position: "CEO",
-            officeNo: "901"
-        }, {
-            name: "Bill Silver",
-            position: "HR Manager",
-            officeNo: "905"
-        }];
-    
-    var viewModel = {
-        data: ko.observable(employees[0]),
-        employees: employees
-    };
-
-    ko.applyBindings(viewModel);
-
-    <!--HTML-->
-    <div data-bind="dxForm: {
-        formData: data
-    }"></div>
-    <div data-bind="dxSelectBox: {
-        dataSource: employees,
-        displayExpr: 'name',
-        value: data
-    }"></div>
-
----
-
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
-
-The **Form** widget provides methods that update specific **formData** fields and rerender the corresponding editors without rerendering the whole widget. The [updateData(dataField, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadataField_value) method updates the value of a single field. The [updateData(data)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadata) method updates values of several fields at once. In the following code, these methods are called on the [Button](/Documentation/Guide/Widgets/Button/Overview/) click.
+The **Form** widget provides methods that update specific **formData** fields and rerender the corresponding editors without rerendering the whole widget. The [updateData(dataField, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadataField_value) method updates the value of a single field. The [updateData(data)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadata) method updates values of several fields at once. In the following code, these methods are called on a [Button](/Documentation/Guide/Widgets/Button/Overview/) click.
 
     <!--JavaScript-->
     $(function() {
@@ -126,6 +55,36 @@ The **Form** widget provides methods that update specific **formData** fields an
             }
         });
     });
+
+With Angular, two-way binding to a component property is sufficient to update [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) at runtime. Swapping the whole **formData** object rerenders the widget from scratch; updating specific **formData** fields rerenders only the corresponding editors.
+
+    <!--HTML-->
+    <dx-form [(formData)]="employee"></dx-form>
+    <dx-button
+        text="Update the Phone Number"
+        (onClick)="employee.phone = '+1(333) 888-7698'">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxFormModule, DxButtonModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "Joe",
+            lastName: "Heart",
+            phone: "+1(213) 555-9392"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
 - [Form - Handle the Value Change Event](/Documentation/Guide/Widgets/Form/Handle_the_Value_Change_Event/)

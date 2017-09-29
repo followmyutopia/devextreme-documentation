@@ -1,4 +1,4 @@
-To change the options of an editor, get its instance first using the [getEditor(field)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#getEditorfield) method. After that, call the **option(optionName, optionValue)** or **option(optionName, options)** method of this instance. 
+To change the options of an editor, get its instance first using the [getEditor(field)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#getEditorfield) method. After that, call the **option(optionName, optionValue)** or **option(optionName, options)** method of this instance. This approach is more typical of jQuery. 
 
     <!--JavaScript-->
     $(function() {
@@ -11,16 +11,52 @@ To change the options of an editor, get its instance first using the [getEditor(
             }
         }).dxForm("instance");
 
-        $("#buttonContainer").dxButton({
-            text: "Disable the First Name Editor",
-            onClick: function () {
+        $("#checkBoxContainer").dxCheckBox({
+            text: 'Disable the First Name Editor',
+            value: false,
+            onValueChanged: function (e) {
                 form.getEditor("firstName")
-                    .option("disabled", true);
+                    .option("disabled", e.value);
             }
         });
     });
 
 [note]The **getEditor(field)** method is available for visible form items only.
+
+With Angular, bind the option to change in the [editorOptions](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorOptions) object to a component or element property.
+    
+    <!--HTML-->
+    <dx-form
+        [(formData)]="employee">
+        <dxi-item dataField="firstName" [editorOptions]="{ disabled: disableFirstName.value }"></dxi-item>
+        <dxi-item dataField="lastName"></dxi-item>
+        <dxi-item dataField="phone"></dxi-item>
+        <dxi-item dataField="email"></dxi-item>
+    </dx-form>
+    <dx-check-box #disableFirstName
+        text="Disable the First Name Editor"
+        [value]="false">
+    </dx-check-box>
+
+    <!--TypeScript-->
+    import { DxFormModule, DxCheckBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "John",
+            lastName: "Heart",
+            phone: "+1(213) 555-9392",
+            email: "jheart@dx-email.com"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule,
+            DxCheckBoxModule
+        ],
+        // ...
+    })
 
 #####See Also#####
 - **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)

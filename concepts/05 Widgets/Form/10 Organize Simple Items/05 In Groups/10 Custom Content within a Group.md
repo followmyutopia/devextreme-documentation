@@ -1,17 +1,22 @@
 The **Form** widget allows you to place custom content, for example, an image, under the group caption.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $("#formContainer").dxForm({
         formData: {
             firstName: "John",
-            lastName: "Heart"
+            lastName: "Heart",
+            picture: "http://here/goes/the/picture.jpg"
         },
         colCount: 2,
         items: [{
             itemType: "group",
             caption: "Picture",
             template: function (data, itemElement) {
-                itemElement.append("<img src='http://here/goes/the/picture.jpg'>");
+                $("<img>").attr("src", data.formData.picture)
+                    .appendTo(itemElement)
             }
         }, {
             itemType: "group",
@@ -19,6 +24,46 @@ The **Form** widget allows you to place custom content, for example, an image, u
             items: ["firstName", "lastName"]
         }]
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-form
+        [(formData)]="employee">
+        <dxi-item
+            itemType="group"
+            caption="Picture"
+            [template]="'pictureTemplate'">
+            <div *dxTemplate="let data of 'pictureTemplate'">
+                <img src="{{data.formData.picture}}">
+            </div>
+        </dxi-item>
+        <dxi-item
+            itemType="group"
+            caption="Personal Data"
+            [items]="['firstName', 'lastName']">
+        </dxi-item>
+    </dx-form>
+
+    <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        employee = {
+            firstName: "John",
+            lastName: "Heart",
+            picture: "http://here/goes/the/picture.jpg"
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [Form - Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
