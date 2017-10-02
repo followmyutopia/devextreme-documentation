@@ -10,11 +10,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Contains the type of the column to which the data cell belongs. 
+The type of the column to which the cell belongs. Available for data area cells only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **columnType** field has the following values.
+The **columnType** field has the following values:
 
 - *'D'*  
     A data field.
@@ -22,7 +22,5 @@ The **columnType** field has the following values.
     The [Total](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) column.
 - *'GT'*  
     The [Grand total](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) column.
-
-Note that this field has a value only if the cell belongs to the [data area](/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/#Areas).
 
 <!--/fullDescription-->

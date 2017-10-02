@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Contains the boolean value indicating whether or not the cell is in an expanded state.
+Indicates whether the cell is expanded. Available for row or data area cells only.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -8,7 +8,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Contains the cell value.
+The cell's value.
 <!--/shortDescription-->
 
 <!--fullDescription-->

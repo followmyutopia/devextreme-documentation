@@ -9,9 +9,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Contains the path to the row/column cell.
+The path to the row/column cell. Available for row or column area cells only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Note that this field has a value only if the cell belongs to the row or column area.
+
 <!--/fullDescription-->

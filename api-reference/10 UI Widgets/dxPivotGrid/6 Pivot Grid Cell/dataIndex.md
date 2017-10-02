@@ -8,10 +8,10 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
-<!--shortDescription-->
-Contains the index of the data field.
+<!--shortDescription--> 
+The data field's index. Available for data area cells only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Note that this field has a value only if the cell belongs to the data area.
+
 <!--/fullDescription-->
