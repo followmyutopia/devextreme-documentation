@@ -66,7 +66,77 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
 
 ---
 
-Implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) if you need to process data after obtaining it. See the [Custom Sources](/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/) topic for more details.
+If you need to specify request headers or process response data, use the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) - a flexible instrument that allows you to configure data access manually. Implement its [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the code below to add custom headers to the request. Note that you can specify **CustomStore** members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object instead of declaring them explicitly.
+
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("#treeListContainer").dxTreeList({
+            dataSource: new DevExpress.data.DataSource({
+                load: function () {
+                    var d = $.Deferred();
+                    return $.getJSON('https://mydomain.com/MyDataService', { 
+                        header1: "customHeader1",
+                        header2: "customHeader2",
+                        // ...
+                    })
+                    .done(function(result) {
+                        // Here, you can process the response
+                        d.resolve(result);
+                    });
+                }
+            })
+        });
+    });
+
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule } from '@angular/http';
+    import { DxTreeListModule } from 'devextreme-angular';
+    import DataSource from 'devextreme/data/data_source';
+    import 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent {
+        treeListDataSource: any = {};
+        constructor(@Inject(Http) http: Http) {
+            this.treeListDataSource = new DataSource({
+                load: function () {
+                    return http.get('https://mydomain.com/MyDataService', { 
+                        header1: "customHeader1",
+                        header2: "customHeader2",
+                        // ...
+                    })
+                    .toPromise()
+                    .then(response => {
+                        // Here, you can process the response
+                        return response.json()
+                    });
+                }
+            })
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule,
+            HttpModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-tree-list ...
+        [dataSource]="treeListDataSource">
+    </dx-tree-list>
+
+---
+
+The **CustomStore** requires requires thorough configuration if data is processed on the server. See the [Custom Sources](/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/) topic for more details.
 
 #####See Also#####
 - [TreeList - Access the DataSource](/Documentation/Guide/Widgets/TreeList/Data_Binding/Access_the_DataSource/)
