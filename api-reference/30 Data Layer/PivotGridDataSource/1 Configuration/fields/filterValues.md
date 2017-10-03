@@ -10,9 +10,16 @@
 ===========================================================================
 
 <!--shortDescription-->
-The filter values for the current field.
+Specifies by which values the field is filtered. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can [exclude](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#filterType) these values from the data returned by the data source or keep them only by [including](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#filterType) these values.
+This option accepts the following values: 
+
+- **null**  
+[filterType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#filterType) is *"exclude"* and all values are selected; or **filterType** is *"include"* and none values are selected.
+
+- Array     
+Any value is selected.
+
 <!--/fullDescription-->
