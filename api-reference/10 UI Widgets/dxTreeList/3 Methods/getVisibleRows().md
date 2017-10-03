@@ -8,12 +8,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets all visible rows.
+Gets currently rendered rows.
 <!--/shortDescription-->
 
 <!--returnType-->Array<!--/returnType-->
 <!--returnDescription-->
-Visible rows.
+Currently rendered rows. 
 <!--/returnDescription-->
 
 <!--fullDescription-->
