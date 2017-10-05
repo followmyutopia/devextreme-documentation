@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Indicates whether the cell is expanded. Available for row or data area cells only.
+Indicates whether the cell is expanded. Available for row or column area cells only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
