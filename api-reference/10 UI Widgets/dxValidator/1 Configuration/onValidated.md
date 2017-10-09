@@ -17,7 +17,7 @@ A handler for the [validated](/Documentation/ApiReference/UI_Widgets/dxValidator
 Assign a function to perform a custom action after an editor value is validated against the specified [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules).
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->validatedInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
@@ -32,17 +32,17 @@ The value of the [name](/Documentation/ApiReference/UI_Widgets/dxValidator/Confi
 Indicates whether all the rules checked for the value are satisfied.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->value<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The validated value.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->validationRules<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<Object><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An array of validation rules specified for the current **dxValidator** object.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->brokenRule<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->object<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The object representing the first broken rule on the list of specified validation rules.
 <!--/typeFunctionParamDescription1_field5-->

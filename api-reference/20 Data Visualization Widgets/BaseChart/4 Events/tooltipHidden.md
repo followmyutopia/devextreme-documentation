@@ -37,7 +37,7 @@ The [widget's instance]({basewidgetpath}/Methods/#instance).
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->target<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Point<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->basePointObject<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The series point whose tooltip becomes hidden.
 <!--/typeFunctionParamDescription1_field3-->

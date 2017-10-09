@@ -42,7 +42,7 @@ The index of the group.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->jQuery<!--/typeFunctionParamType3-->
+<!--typeFunctionParamType3-->Element<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
 The element of the group.
 <!--/typeFunctionParamDescription3-->

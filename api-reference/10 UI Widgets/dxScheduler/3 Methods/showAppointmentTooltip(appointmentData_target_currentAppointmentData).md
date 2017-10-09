@@ -24,7 +24,7 @@ Specifies the target element the tooltip points to.
 <!--/paramDescription2-->
 
 <!--paramName3-->currentAppointmentData<!--/paramName3-->
-<!--paramType3-->Object<!--/paramType3-->
+<!--paramType3-->Object|undefined<!--/paramType3-->
 <!--paramDescription3-->
 The current appointment data object.
 <!--/paramDescription3-->

@@ -11,7 +11,7 @@
 Returns an HTML element of the widget content block.
 <!--/shortDescription-->
 
-<!--returnType-->jQuery<!--/returnType-->
+<!--returnType-->Element<!--/returnType-->
 <!--returnDescription-->
 An element of the widget content block.
 <!--/returnDescription-->

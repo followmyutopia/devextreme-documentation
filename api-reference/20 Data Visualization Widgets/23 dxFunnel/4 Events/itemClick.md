@@ -35,7 +35,7 @@ The [widget's instance]({basewidgetpath}/Methods/#instance).
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->jQueryEvent<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->jQuery-event object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->jQueryEvent<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The original jQuery event.
 <!--/typeFunctionParamDescription1_field3-->

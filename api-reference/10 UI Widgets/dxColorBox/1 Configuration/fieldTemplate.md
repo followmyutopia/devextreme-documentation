@@ -28,7 +28,7 @@ The selected value.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->fieldElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->jQuery<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Element<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 An HTML element of the field to be rendered.
 <!--/typeFunctionParamDescription2-->

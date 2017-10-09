@@ -31,7 +31,7 @@ Provides function parameters.
 Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 An HTML element of the widget.
 <!--/typeFunctionParamDescription1_field2-->
@@ -51,7 +51,7 @@ Specifies the jQuery event that caused action execution.
 The data that is bound to the swiped item.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->itemElement<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->jQuery<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Element<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 An HTML element of the item.
 <!--/typeFunctionParamDescription1_field6-->

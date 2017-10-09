@@ -29,7 +29,7 @@ Information about the event.
 The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -39,7 +39,7 @@ The widget's container.
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->brokenRules<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<Object><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An array of broken rules. The structure of rule objects is described in the [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section.
 <!--/typeFunctionParamDescription1_field4-->

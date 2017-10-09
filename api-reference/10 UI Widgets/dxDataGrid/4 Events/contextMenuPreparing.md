@@ -21,7 +21,7 @@ Handle this event to change the set of items in a context menu before it is disp
 - **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Handling_Events_and_Defining_Callbacks)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -31,7 +31,7 @@ Information about the event.
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -41,7 +41,7 @@ The widget's container.
 Data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->items<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<Object><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An array of items to be displayed by the context menu. The item objects must have the fields that are used by the **ContextMenu** [default item template](/Documentation/ApiReference/UI_Widgets/dxMenu/Default_Item_Template). 
 <!--/typeFunctionParamDescription1_field4-->
@@ -61,7 +61,7 @@ The cell that has been clicked to invoke the context menu.
 The current index of the column to which the clicked cell belongs. For more information on how this index is calculated, refer to the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->object<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->Object<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The [settings of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) to which the clicked cell belongs.
 <!--/typeFunctionParamDescription1_field8-->

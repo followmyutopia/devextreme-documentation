@@ -66,7 +66,7 @@ The value to which the search expression value is compared.
 A search operation expression.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->searchExpr<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->getter|Array<string><!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->getter|Array<getter><!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 A getter representing a search expression.
 <!--/typeFunctionParamDescription1_field10-->

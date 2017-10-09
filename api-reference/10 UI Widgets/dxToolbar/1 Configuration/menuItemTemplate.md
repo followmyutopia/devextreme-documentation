@@ -44,7 +44,7 @@ The index of the menu item to be rendered.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->jQuery<!--/typeFunctionParamType3-->
+<!--typeFunctionParamType3-->Element<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
 An HTML element of the menu item to be rendered.
 <!--/typeFunctionParamDescription3-->

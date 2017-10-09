@@ -28,7 +28,7 @@ Information about the event.
 The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -48,7 +48,7 @@ The updated data of the row; contains only those fields that have been updated.
 The key of the row. If a field providing keys is not specified in the data source, the whole data object is considered the key.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->error<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->JavaScript Error object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Error<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The standard [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) object defining an error that may occur during updating.
 <!--/typeFunctionParamDescription1_field6-->

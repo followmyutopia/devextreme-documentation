@@ -14,7 +14,7 @@
 
 <!--/paramDescription1-->
 <!--paramName1_field8-->expand<!--/paramName1_field8-->
-<!--paramType1_field8-->string|array<!--/paramType1_field8-->
+<!--paramType1_field8-->string|Array<string><!--/paramType1_field8-->
 <!--paramDescription1_field8-->
 Specifies whether or not the server should return the total count of items in the **extra.itemCount** field of the argument passed to the **done** callback.
 <!--/paramDescription1_field8-->

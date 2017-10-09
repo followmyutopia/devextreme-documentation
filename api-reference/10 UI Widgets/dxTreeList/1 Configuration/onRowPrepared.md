@@ -28,7 +28,7 @@ Information about the event.
 The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -49,12 +49,12 @@ The row key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAda
 For plain data, the value of the key depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->values<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Array<Object><!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Values displayed in the row cells.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->columns<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Array<Object><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 [Configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of all columns.
 <!--/typeFunctionParamDescription1_field7-->

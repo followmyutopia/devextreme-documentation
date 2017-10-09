@@ -11,7 +11,7 @@
 Returns an HTML element of the popup window content.
 <!--/shortDescription-->
 
-<!--returnType-->jQuery<!--/returnType-->
+<!--returnType-->Element<!--/returnType-->
 <!--returnDescription-->
 An element of the popup window content.
 <!--/returnDescription-->

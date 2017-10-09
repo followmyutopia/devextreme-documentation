@@ -41,7 +41,7 @@ The index of the group to be rendered.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->jQuery<!--/typeFunctionParamType3-->
+<!--typeFunctionParamType3-->Element<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
 An HTML element of the group to be rendered.
 <!--/typeFunctionParamDescription3-->

@@ -17,7 +17,7 @@ Gets the element of a row by its index.
 The visible index of the row.
 <!--/paramDescription1-->
 
-<!--returnType-->jQuery|undefined<!--/returnType-->
+<!--returnType-->Element|undefined<!--/returnType-->
 <!--returnDescription-->
 The element of the row; provides access to [element-related jQuery operations](http://api.jquery.com/?s=element).
 <!--/returnDescription-->

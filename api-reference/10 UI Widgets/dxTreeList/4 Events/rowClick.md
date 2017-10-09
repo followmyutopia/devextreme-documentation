@@ -29,7 +29,7 @@ Information about the event.
 The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -39,7 +39,7 @@ The widget's container.
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->jQueryEvent<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->jQuery-event object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->jQueryEvent<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The original jQuery event.
 <!--/typeFunctionParamDescription1_field4-->
@@ -55,12 +55,12 @@ The row key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAda
 For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->values<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Array<Object><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 Values displayed in the row cells.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->columns<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->array<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->Array<Object><!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 [Configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of all columns.
 <!--/typeFunctionParamDescription1_field8-->

@@ -34,7 +34,7 @@ The argument or the value of the point.
 The argument or the value with an applied [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/label/#format) and converted to string.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->point<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Point<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->chartPointObject<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The **Point** object.
 <!--/typeFunctionParamDescription1_field3-->

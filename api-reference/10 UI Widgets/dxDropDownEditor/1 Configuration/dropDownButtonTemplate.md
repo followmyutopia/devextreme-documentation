@@ -36,7 +36,7 @@ The button's icon.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->jQuery<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Element<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The button's element.
 <!--/typeFunctionParamDescription2-->

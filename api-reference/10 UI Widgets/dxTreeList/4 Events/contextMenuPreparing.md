@@ -19,7 +19,7 @@ Main article: [onContextMenuPreparing](/Documentation/ApiReference/UI_Widgets/dx
 - **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Handling_Events_and_Defining_Callbacks)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -29,7 +29,7 @@ Information about the event.
 The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -39,7 +39,7 @@ The widget's container.
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->items<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<Object><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 Items to be displayed in the context menu. The structure of items is described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) section.
 <!--/typeFunctionParamDescription1_field4-->
@@ -59,7 +59,7 @@ The container of this element.
 The index of the column on which the context menu is invoked.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->object<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->Object<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 [Configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of this column.
 <!--/typeFunctionParamDescription1_field8-->

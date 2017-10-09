@@ -43,12 +43,12 @@ The [widget's instance](/Documentation/ApiReference/Data_Visualization_Widgets/d
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->jQueryEvent<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->jQuery-event object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->jQueryEvent<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The jQuery event extended by the **x** and **y** fields.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->MapLayerElement object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->MapLayerElement<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The clicked layer element (if available).
 <!--/typeFunctionParamDescription1_field4-->

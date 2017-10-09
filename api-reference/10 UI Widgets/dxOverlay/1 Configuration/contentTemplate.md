@@ -27,7 +27,7 @@ This option enables you to render widget contents depending on field values of t
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->contentElement<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->jQuery<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Element<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The jQuery object of the widget content element.
 <!--/typeFunctionParamDescription1-->

@@ -23,7 +23,7 @@ Specifies the key value of the required items.
 An object specifying additional options.
 <!--/paramDescription2-->
 <!--paramName2_field1-->expand<!--/paramName2_field1-->
-<!--paramType2_field1-->string|array<!--/paramType2_field1-->
+<!--paramType2_field1-->string|Array<string><!--/paramType2_field1-->
 <!--paramDescription2_field1-->
 An array of the strings that represent the names of the navigation properties to be loaded synchronously with the requested data item (see [Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Associations)).
 <!--/paramDescription2_field1-->

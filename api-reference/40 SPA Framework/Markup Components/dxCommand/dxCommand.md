@@ -8,6 +8,7 @@
 <!--module-->framework/command<!--/module-->
 <!--export-->default<!--/export-->
 <!--type-->Object<!--/type-->
+<!--inherits-->..\..\..\10 UI Widgets\DOMComponent\DOMComponent.md<!--/inherits-->
 <!--lib-->
 dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

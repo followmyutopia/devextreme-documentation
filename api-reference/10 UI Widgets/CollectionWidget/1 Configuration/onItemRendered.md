@@ -28,7 +28,7 @@ Provides function parameters.
 Provides access to the [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 An HTML element of the widget.
 <!--/typeFunctionParamDescription1_field2-->
@@ -43,7 +43,7 @@ Provides access to the data available for binding against the element. Available
 The data that is bound to the item to be rendered.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->jQuery<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Element<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 An HTML element of the item.
 <!--/typeFunctionParamDescription1_field5-->

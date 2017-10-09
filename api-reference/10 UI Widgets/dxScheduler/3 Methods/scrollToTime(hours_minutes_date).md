@@ -24,7 +24,7 @@ A minute component of the target value.
 <!--/paramDescription2-->
 
 <!--paramName3-->date<!--/paramName3-->
-<!--paramType3-->Date<!--/paramType3-->
+<!--paramType3-->Date|undefined<!--/paramType3-->
 <!--paramDescription3-->
 A date component of the target value.
 <!--/paramDescription3-->

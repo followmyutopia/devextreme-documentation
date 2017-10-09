@@ -41,12 +41,12 @@ The [widget's instance]({basewidgetpath}/Methods/#instance).
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->jQueryEvent<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->jQuery-event object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->jQueryEvent<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The jQuery event.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Point<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->basePointObject<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The clicked series point.
 <!--/typeFunctionParamDescription1_field4-->

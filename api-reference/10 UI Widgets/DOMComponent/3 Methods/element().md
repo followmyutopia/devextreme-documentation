@@ -11,7 +11,7 @@
 Gets the root element of the widget.
 <!--/shortDescription-->
 
-<!--returnType-->jQuery<!--/returnType-->
+<!--returnType-->Element<!--/returnType-->
 <!--returnDescription-->
 The root element of the widget.
 <!--/returnDescription-->

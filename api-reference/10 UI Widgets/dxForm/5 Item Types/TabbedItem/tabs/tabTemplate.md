@@ -29,7 +29,7 @@ The index of the tab in the [tabs](/Documentation/ApiReference/UI_Widgets/dxForm
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->tabElement<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->object<!--/typeFunctionParamType3-->
+<!--typeFunctionParamType3-->Element<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
 The HTML element of the tab.
 <!--/typeFunctionParamDescription3-->

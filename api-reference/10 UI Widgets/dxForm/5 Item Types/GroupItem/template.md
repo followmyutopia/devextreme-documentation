@@ -42,7 +42,7 @@ An object providing access to the field data, form instance and the configuratio
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Element<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 An HTML element of the group item to be rendered.
 <!--/typeFunctionParamDescription2-->

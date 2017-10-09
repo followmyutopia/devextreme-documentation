@@ -31,7 +31,7 @@ Information about the event.
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -46,12 +46,12 @@ Data that is available for binding against the element. Available only in the Kn
 The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) to which the prepared cell belongs.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cellElement<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->jQuery<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Element<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The container of the prepared cell.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cell<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->PivotGridCell<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->dxPivotGridPivotGridCell<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The cell object.
 <!--/typeFunctionParamDescription1_field6-->

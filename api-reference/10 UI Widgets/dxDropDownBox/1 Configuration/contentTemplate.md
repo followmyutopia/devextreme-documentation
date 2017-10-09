@@ -31,7 +31,7 @@ Data associated with the widget.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->jQuery<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Element<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The content element.
 <!--/typeFunctionParamDescription2-->

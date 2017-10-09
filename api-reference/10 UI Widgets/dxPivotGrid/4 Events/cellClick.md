@@ -21,7 +21,7 @@ When implementing a handling function for this event, use the object passed to t
 - **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Handling_Events_and_Defining_Callbacks)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -31,7 +31,7 @@ Information about the event.
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -46,12 +46,12 @@ Data that is available for binding against the element. Available only in the Kn
 The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) to which the clicked cell belongs.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cellElement<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->jQuery<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Element<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The jQuery element of the clicked cell.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cell<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->PivotGridCell<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->dxPivotGridPivotGridCell<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The clicked cell object.
 <!--/typeFunctionParamDescription1_field6-->
@@ -66,17 +66,17 @@ The index of the row to which the clicked cell belongs.
 The index of the column to which the clicked cell belongs.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->columnFields<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->Array<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->Array<PivotGridDataSourceOptions_fields><!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 Fields of the *column* area.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rowFields<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->Array<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->Array<PivotGridDataSourceOptions_fields><!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 Fields of the *row* area.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->dataFields<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->Array<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamType1_field11-->Array<PivotGridDataSourceOptions_fields><!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 Fields of the *data* area.
 <!--/typeFunctionParamDescription1_field11-->

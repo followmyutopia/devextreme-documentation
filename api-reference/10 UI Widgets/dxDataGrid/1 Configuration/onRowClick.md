@@ -36,7 +36,7 @@ Information about the event.
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -46,7 +46,7 @@ The widget's container.
 Data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->jQueryEvent<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->jQuery-event object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->jQueryEvent<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The jQuery event.
 <!--/typeFunctionParamDescription1_field4-->
@@ -61,12 +61,12 @@ The object of the data source represented by the clicked row.
 The key value of the clicked row.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->values<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Array<Object><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 Values of the clicked row as they exist in the data source.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->columns<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->array<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->Array<Object><!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 Grid columns. Each column in this array is represented by an object with column settings. The order of columns in this array and columns in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array coincides.
 <!--/typeFunctionParamDescription1_field8-->

@@ -27,7 +27,7 @@ Information about the event.
 The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -43,7 +43,7 @@ The format of the file to be saved.
 Possible Values: 'PNG' | 'PDF' | 'JPEG' | 'SVG' | 'GIF'
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->data<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->blob<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->BLOB<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 Exported data as a BLOB.
 <!--/typeFunctionParamDescription1_field5-->

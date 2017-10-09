@@ -28,7 +28,7 @@ Information about the event.
 The [widget's instance](/Documentation/ApiReference/UI_Widgets/dxToolbar/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -38,7 +38,7 @@ The widget's container.
 The model data. Available only when using Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->multiTagElement<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->jQuery<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Element<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The multi-tag's container.
 <!--/typeFunctionParamDescription1_field4-->

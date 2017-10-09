@@ -28,7 +28,7 @@ Information about the event.
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -48,12 +48,12 @@ The object of a data source represented by the prepared row. This field is unava
 The key of the row. If a field providing keys is not specified in a [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource), the whole data object is considered the key. This field is unavailable if the **rowType** field is set to *"header"*, *"filter"* or *"totalFooter"*.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->values<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Array<Object><!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Values of the current row as they exist in the data source.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->columns<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->array<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Array<Object><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 Grid columns. Each column in this array is represented by an object with column settings. The order of columns in this array and columns in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array coincides.
 <!--/typeFunctionParamDescription1_field7-->

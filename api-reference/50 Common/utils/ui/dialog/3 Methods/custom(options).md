@@ -29,7 +29,7 @@ Specifies the dialog's title.
 Specifies the message displayed by the dialog.
 <!--/paramDescription1_field2-->
 <!--paramName1_field3-->buttons<!--/paramName1_field3-->
-<!--paramType1_field3-->array<!--/paramType1_field3-->
+<!--paramType1_field3-->Array<Object><!--/paramType1_field3-->
 <!--paramDescription1_field3-->
 Each item in this array represents options for a button to be displayed in the dialog.
 <!--/paramDescription1_field3-->

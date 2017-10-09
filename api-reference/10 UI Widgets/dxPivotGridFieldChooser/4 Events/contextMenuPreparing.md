@@ -31,7 +31,7 @@ Information about the event.
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->jQuery<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -41,7 +41,7 @@ The widget's container.
 Data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->items<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<Object><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An array of items to be displayed by the context menu. The item objects must have the fields that are used by the <b>ContextMenu</b> [default item template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template).
 <!--/typeFunctionParamDescription1_field4-->
@@ -51,7 +51,7 @@ An array of items to be displayed by the context menu. The item objects must hav
 The clicked [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) type.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->field<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->PivotGridDataSourceOptions_fields<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Options of the clicked field.
 <!--/typeFunctionParamDescription1_field6-->

@@ -35,7 +35,7 @@ The [widget's instance](/Documentation/ApiReference/Data_Visualization_Widgets/d
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->target<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Series<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->polarChartSeriesObject<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The series whose selection state has been changed.
 <!--/typeFunctionParamDescription1_field3-->
