@@ -5,11 +5,12 @@
 
 **-->
 ===========================================================================
-<!--type-->method<!--/type-->
+<!--default-->false<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Creates an EdmLiteral instance and assigns the specified value to it.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

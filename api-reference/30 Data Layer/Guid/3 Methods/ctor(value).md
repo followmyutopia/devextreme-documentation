@@ -4,18 +4,13 @@
 -------------------------------------------
 
 **-->
-===================================================================
-===================================================================
+===========================================================================
+<!--type-->method<!--/type-->
+===========================================================================
 
 <!--shortDescription-->
 Creates a new [Guid](/Documentation/ApiReference/Data_Layer/Guid/) instance that holds the specified GUID.
 <!--/shortDescription-->
-
-<!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
-<!--paramDescription1-->
-A string representation of the GUID.
-<!--/paramDescription1-->
 
 <!--fullDescription-->
 The separators in the **value** argument are optional.
