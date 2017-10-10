@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures the header filter feature.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the height of the popup menu containing filtering values.
 <!--/shortDescription-->
 
 <!--fullDescription-->
