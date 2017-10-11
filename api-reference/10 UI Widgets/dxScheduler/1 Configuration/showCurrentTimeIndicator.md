@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the current date-time indicator's visibility.
 <!--/shortDescription-->
 
 <!--fullDescription-->

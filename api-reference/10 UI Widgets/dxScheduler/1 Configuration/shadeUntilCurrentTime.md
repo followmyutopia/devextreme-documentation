@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether to apply shading to cover the timetable up to the current time.
 <!--/shortDescription-->
 
 <!--fullDescription-->
