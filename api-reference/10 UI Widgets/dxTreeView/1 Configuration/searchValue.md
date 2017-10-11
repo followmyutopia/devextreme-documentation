@@ -10,10 +10,10 @@
 
 <!--fullDescription-->
 
-[note]When the [virtual mode](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#virtualModeEnabled) is enabled, the **TreeView** filters only the currently loaded items.
+[note]When the [virtual mode](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#virtualModeEnabled) is enabled, the **TreeView** searches only the loaded items.
 
 #####See Also#####
-- [Filter Nodes](/Documentation/Guide/Widgets/TreeView/Filter_Nodes/)
+- [Search Nodes](/Documentation/Guide/Widgets/TreeView/Search_Nodes/)
 <!--/fullDescription-->
 
 <!--handmade--><!--/handmade-->

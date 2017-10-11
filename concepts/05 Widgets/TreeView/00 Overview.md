@@ -3,7 +3,7 @@ The **TreeView** widget is a tree-like representation of textual data.
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
 <a href="https://www.youtube.com/watch?v=j3d94lzW4Vw&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=37" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
-The following code adds a simple **TreeView** to your page.
+The following code adds a simple **TreeView** to your page:
 
     <!--HTML--><div id="treeViewContainer"></div>
 
@@ -29,12 +29,12 @@ The following code adds a simple **TreeView** to your page.
         });
     });
 
-Note that the data source in the code above has a hierarchical structure, yet data sources with a plain structure are supported as well. To learn how you can customize hierarchical and plain data sources, see the [Use Hierarchical Data](/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data) and [Use Plain Data](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data) articles.
+Note that the data source in the code above has a hierarchical structure, however, it also supports data sources with a plain structure. See the [Use Hierarchical Data](/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data) and [Use Plain Data](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data) articles to learn how you can customize hierarchical and plain data sources.
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [TreeView - Access a Node](/Documentation/Guide/Widgets/TreeView/Access_a_Node)
-- [TreeView - Filter Nodes](/Documentation/Guide/Widgets/TreeView/Filter_Nodes)
+- [TreeView - Search Nodes](/Documentation/Guide/Widgets/TreeView/Search_Nodes/)
 - [TreeView - Expand and Collapse Nodes](/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes)
 - [TreeView - Select Nodes](/Documentation/Guide/Widgets/TreeView/Select_Nodes)
 - [TreeView - Customize Node Appearance](/Documentation/Guide/Widgets/TreeView/Customize_Node_Appearance)
