@@ -1,4 +1,4 @@
-[note]Searching works with source data of plain structure only. Subsequently, data can be transformed to hierarchical structure using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
+[note] Searching works when inputting a plain data structure only. However, if you need the searching capability and hierarchical data, transform the plain data using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
 
 In addition to filtering capabilities, the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) provides the search API. It is a convenient way to augment filtering by text search. The search API consists of three options: [searchExpr](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr), [searchOperation](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchOperation), and [searchValue](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchValue).
 

@@ -21,7 +21,7 @@ In most cases, you should pass the name of a field by whose value data items are
         searchExpr: ["firstName", "lastName"]
     });
 
-[note]Searching works with source data of plain structure only. Subsequently, data can be transformed to hierarchical structure using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
+[note] Searching works when inputting a plain data structure only. However, if you need the searching capability and hierarchical data, transform the plain data using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
 
 #####See Also#####
 - [Search Api section](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api)
