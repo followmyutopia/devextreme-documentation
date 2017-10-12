@@ -70,7 +70,7 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
 
 ---
 
-If you need to specify request headers or process response data, use the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/)- a flexible instrument that allows you to configure data access manually. Implement its [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the code below to add custom headers to the request. Note that you can specify **CustomStore** members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object instead of declaring them explicitly.
+If you need to specify request headers or process response data, use the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) - a flexible instrument that allows you to configure data access manually. Implement its [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the code below to add custom headers to the request. Note that you can specify **CustomStore** members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object instead of declaring them explicitly.
 
 ---
 #####jQuery
