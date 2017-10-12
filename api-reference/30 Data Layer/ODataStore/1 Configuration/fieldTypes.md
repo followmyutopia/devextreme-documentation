@@ -18,12 +18,39 @@ Set this option if you are going to [filter data](/Documentation/Guide/Data_Laye
 
     <!--JavaScript-->
     var store = new DevExpress.data.ODataStore({
-        url: "/url/to/service",
+        url: "/url/to/the/service",
         key: "ProductID",
         fieldTypes: {
             ProductID: "Guid",
             ProductName: "String",
-            ProductPrice: "Int16"
+            ProductPrice: "Int32"
         }
     });
+
+You can configure this option in an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/) as follows:
+
+    <!--Razor C#-->@(Html.DevExtreme().WidgetName()
+        .DataSource(d => d.OData()
+            .Url("/url/to/the/service")
+            .Key("ProductID")
+            .FieldTypes(new Dictionary<string, EdmType> {
+                { "ProductID", EdmType.Guid },
+                { "ProductName", EdmType.String },
+                { "ProductPrice", EdmType.Int32 }
+            })
+        )
+    )
+
+    <!--Razor VB-->@(Html.DevExtreme().WidgetName() _
+        .DataSource(Function(ds)
+            Return ds.OData() _
+                     .Url("/url/to/the/service")
+                     .Key("ProductID") _
+                     .FieldTypes(New Dictionary(Of String, EdmType) From {
+                         { "ProductID", EdmType.Guid },
+                         { "ProductName", EdmType.String },
+                         { "ProductPrice", EdmType.Int32 }
+                     })
+        End Function)
+    )
 <!--/fullDescription-->
