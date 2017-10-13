@@ -20,13 +20,13 @@ A string value specifying the message text.
 <!--/paramDescription1-->
 
 <!--paramName2-->type<!--/paramName2-->
-<!--paramType2-->string<!--/paramType2-->
+<!--paramType2-->string|undefined<!--/paramType2-->
 <!--paramDescription2-->
 A string value specifying the message type.
 <!--/paramDescription2-->
 
 <!--paramName3-->displayTime<!--/paramName3-->
-<!--paramType3-->integer<!--/paramType3-->
+<!--paramType3-->integer|undefined<!--/paramType3-->
 <!--paramDescription3-->
 A numeric value specifying the time span during which the message is shown.
 <!--/paramDescription3-->

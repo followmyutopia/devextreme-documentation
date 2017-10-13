@@ -17,7 +17,7 @@ Filters the current [Query](/Documentation/ApiReference/Data_Layer/Query/) data.
 A filter expression.
 <!--/paramDescription1-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
 The Query object.
 <!--/returnDescription-->

@@ -24,7 +24,7 @@ Instead, you can use the [onTitleRendered](/Documentation/ApiReference/UI_Widget
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->titleElement<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->jQuery<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Element<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The HTML element of the item title.
 <!--/typeFunctionParamDescription1_field1-->

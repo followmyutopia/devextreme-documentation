@@ -19,7 +19,7 @@ Creates a [Query](/Documentation/ApiReference/Data_Layer/Query/) instance.
 The array associated with this Query.
 <!--/paramDescription1-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
 The created Query instance.
 <!--/returnDescription-->

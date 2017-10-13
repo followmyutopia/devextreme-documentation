@@ -43,7 +43,7 @@ Provides access to the data that is available for binding against the element. A
 The data that is bound to the item whose item is clicked.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->jQuery<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Element<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 An HTML element of the item.
 <!--/typeFunctionParamDescription1_field5-->

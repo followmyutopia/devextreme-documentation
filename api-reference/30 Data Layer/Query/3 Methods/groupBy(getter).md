@@ -17,7 +17,7 @@ Groups the current [Query](/Documentation/ApiReference/Data_Layer/Query/) data.
 The getter by which to group the data.
 <!--/paramDescription1-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
 This Query object.
 <!--/returnDescription-->

@@ -80,7 +80,7 @@ Indicates whether the editor is disabled.
 Indicates whether the editor uses a right-to-left representation.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->editorElement<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->jQuery<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamType1_field11-->Element<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 The editor's container.
 <!--/typeFunctionParamDescription1_field11-->

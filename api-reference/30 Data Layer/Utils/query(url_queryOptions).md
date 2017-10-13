@@ -25,7 +25,7 @@ Specifies the URL of the remote data service.
 Specifies additional query options.
 <!--/paramDescription2-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
 The created Query instance.
 <!--/returnDescription-->

@@ -71,7 +71,7 @@ Using a template engine, pass one of the following values to the **groupCellTemp
 - A function that returns a jQuery object or a DOM Node representing the template's container.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->jQuery<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Element<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The cell under customization.
 <!--/typeFunctionParamDescription1-->

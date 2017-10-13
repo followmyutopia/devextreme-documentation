@@ -49,7 +49,7 @@ Items to be displayed in the context menu. The structure of items is described i
 The name of the element on which the context menu is invoked: 'header', 'content' or 'footer'. This field is read only.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->targetElement<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->jQuery<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Element<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The container of this element.
 <!--/typeFunctionParamDescription1_field6-->

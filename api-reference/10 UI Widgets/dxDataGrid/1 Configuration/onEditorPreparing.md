@@ -89,7 +89,7 @@ Allows you to cancel the creation of the editor.
 Set it to **true** and implement a custom editor if your scenario requires it.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->editorElement<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->jQuery<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->Element<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 The editor's container.
 <!--/typeFunctionParamDescription1_field12-->
