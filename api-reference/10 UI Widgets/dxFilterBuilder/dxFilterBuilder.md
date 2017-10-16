@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--module-->ui/filterbuilder<!--/module-->
+<!--module-->ui/filter_builder<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 ===========================================================================
