@@ -52,7 +52,7 @@ Specifies the widget's new value.
 Specifies the widget's previous value.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->jQueryEvent<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->jQueryEvent<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->jQuery.Event<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 A deprecated field. Use the itemData field instead.
 <!--/typeFunctionParamDescription1_field6-->

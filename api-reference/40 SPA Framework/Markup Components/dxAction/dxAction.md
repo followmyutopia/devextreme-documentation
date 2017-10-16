@@ -50,7 +50,7 @@ The DOM element involved in this binding.
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->jQueryEvent<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->jQueryEvent<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->jQuery.Event<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 Specifies the jQuery event that caused the action execution.
 <!--/typeFunctionParamDescription1_field3-->

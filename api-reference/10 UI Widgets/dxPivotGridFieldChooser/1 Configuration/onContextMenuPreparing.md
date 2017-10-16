@@ -53,7 +53,7 @@ The clicked [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Co
 Options of the clicked field.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->jQueryEvent<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->jQueryEvent<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->jQuery.Event<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The jQuery event.
 <!--/typeFunctionParamDescription1_field7-->

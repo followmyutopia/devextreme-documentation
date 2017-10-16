@@ -54,7 +54,7 @@ An HTML element of the item.
 Specifies the index of the item.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->jQueryEvent<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->jQueryEvent<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->jQuery.Event<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field7-->

@@ -56,7 +56,7 @@ The object associated with the clicked appointment.
 An HTML element of the clicked appointment.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->jQueryEvent<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->jQueryEvent<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->jQuery.Event<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field7-->

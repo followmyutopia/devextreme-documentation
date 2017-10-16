@@ -38,7 +38,7 @@ An HTML element of the widget.
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->jQueryEvent<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->jQueryEvent<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->jQuery.Event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 Specifies the jQuery event that caused the action execution.
 <!--/typeFunctionParamDescription1_field4-->

@@ -44,7 +44,7 @@ Provides access to the data that is available for binding against the element. A
 Returns the location of the clicked point on the map (if the 'google' or 'bing' provider is used).
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->jQueryEvent<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->jQueryEvent<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->jQuery.Event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 Returns a jQuery event that caused the action execution (if a static google provider is used).
 <!--/typeFunctionParamDescription1_field5-->

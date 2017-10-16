@@ -40,7 +40,7 @@ The [widget's instance](/Documentation/ApiReference/Data_Visualization_Widgets/d
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->jQueryEvent<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->jQueryEvent<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->jQuery.Event<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The jQuery event.
 <!--/typeFunctionParamDescription1_field3-->

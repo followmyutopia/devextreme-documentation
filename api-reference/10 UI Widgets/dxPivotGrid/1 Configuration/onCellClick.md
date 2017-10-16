@@ -78,7 +78,7 @@ Fields of the *row* area.
 Fields of the *data* area.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->jQueryEvent<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->jQueryEvent<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->jQuery.Event<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 The jQuery event.
 <!--/typeFunctionParamDescription1_field12-->
