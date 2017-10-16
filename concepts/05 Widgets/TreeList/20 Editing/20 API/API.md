@@ -1,0 +1,1 @@
+[note] Editing works with [plain data](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Plain_Data/) only. 
