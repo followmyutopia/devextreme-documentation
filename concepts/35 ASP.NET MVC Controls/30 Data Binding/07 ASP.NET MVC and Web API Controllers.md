@@ -26,7 +26,7 @@ Access to MVC controllers in an MVC 3, 4, 5 and .NET Core MVC app is configured 
         End Function)
     )
 
-The code below details the `GridDataController`. CRUD operations are performed on the "Orders" collection from the [Northwind](https://northwinddatabase.codeplex.com/) database. Note the use of [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data), a library that facilitates the process of writing a controller for DevExtreme ASP.NET MVC Controls.
+The code below details the `GridDataController`. CRUD operations are performed on the [Northwind](https://northwinddatabase.codeplex.com/) database's "Orders" collection. Note the use of [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data), a library that facilitates writing a controller for DevExtreme ASP.NET MVC Controls.
 
 ---
 
@@ -362,7 +362,7 @@ The controller looks like this:
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/WebAPIService/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 
-Previous examples show use-cases in which a control is on the same site with data it accesses, and routing helps find the right controller and actions. If data is on a different site, you can use the URL to access it via the `RemoteController()` method of the `DataSource()`'s lambda parameter. This method opens a chain whose members mirror the [fields of the client-side method](https://github.com/DevExpress/DevExtreme.AspNet.Data#client-side-method) in the already familiar DevExtreme.AspNet.Data library.
+Previous examples show use-cases in which a control is on the same site as the data it accesses, and routing helps find the right controller and actions. If the data is on a different site, you can use the URL to access it via the `RemoteController()` method of the `DataSource()`'s lambda parameter. This method opens a chain whose members mirror the [client-side method fields](https://github.com/DevExpress/DevExtreme.AspNet.Data#client-side-method) in the already familiar DevExtreme.AspNet.Data library.
 
     <!--Razor C#-->
     @(Html.DevExtreme().DataGrid()
@@ -385,5 +385,25 @@ Previous examples show use-cases in which a control is on the same site with dat
                      .InsertUrl("http://www.example.com/Orders/InsertOrder") _
                      .UpdateUrl("http://www.example.com/Orders/UpdateOrder") _
                      .DeleteUrl("http://www.example.com/Orders/DeleteOrder")
+        End Function)
+    )
+
+In an app organized into [areas](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/areas), a control from a view belonging to one area may need to access a data controller belonging to another. Use the `Area()` method to specify the data controller's area in this case. 
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        .DataSource(ds => ds
+            .Mvc()
+            .Area("DifferentArea")
+            // ...
+        )
+    )
+
+    <!--Razor VB-->
+    @(Html.DevExtreme().DataGrid() _
+        .DataSource(Function(ds)
+            Return ds.Mvc() _
+                     .Area("DifferentArea") _
+                     ' ...
         End Function)
     )
