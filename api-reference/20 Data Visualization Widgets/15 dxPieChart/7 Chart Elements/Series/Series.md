@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-This section describes fields and methods that you can use in code to manipulate the **Series** object.
+This section describes the **Series** object, which represents a series.
 <!--/shortDescription-->
 
 <!--fullDescription-->

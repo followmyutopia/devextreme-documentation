@@ -6,7 +6,7 @@
 **-->
 
 <!--shortDescription-->
-This section lists the methods and fields of the map elements. 
+This section describes vector map elements. 
 <!--/shortDescription-->
 
 <!--fullDescription-->

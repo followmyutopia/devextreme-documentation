@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-This section describes the methods that can be used in code to manipulate the **Point** object.
+This section describes the **Point** object, which represents a series point.
 <!--/shortDescription-->
 
 <!--fullDescription-->

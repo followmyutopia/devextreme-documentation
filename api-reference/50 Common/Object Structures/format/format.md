@@ -49,6 +49,8 @@ Instead of fields described in this section, you can use fields accepted by Glob
     }
 
 See the [numberFormatter](https://github.com/jquery/globalize/blob/master/doc/api/number/number-formatter.md), [currencyFormatter](https://github.com/jquery/globalize/blob/master/doc/api/currency/currency-formatter.md) and [dateFormatter](https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md) documents for further information. Note that this approach might require additional [CLDR modules](https://github.com/jquery/globalize/blob/master/README.md#2-cldr-content) not shipped with the DevExtreme package.
+
+<a href="/Demos/WidgetsGallery/Demo/RangeSelector/CustomFormatting/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->number|date<!--/typeFunctionParamType1-->

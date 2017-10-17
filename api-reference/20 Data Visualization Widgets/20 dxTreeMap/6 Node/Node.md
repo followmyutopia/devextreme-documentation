@@ -8,7 +8,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-This section describes fields and methods that can be used in code to manipulate a **Node** object.
+This section describes the **Node** object, which represents a treemap node.
 <!--/shortDescription-->
 
 <!--fullDescription-->

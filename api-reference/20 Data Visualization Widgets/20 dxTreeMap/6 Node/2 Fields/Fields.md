@@ -6,7 +6,7 @@
 **-->
 
 <!--shortDescription-->
-This section describes fields that can be used in code to manipulate a **Node** object.
+Fields that provide information on the treemap node.
 <!--/shortDescription-->
 
 <!--fullDescription-->

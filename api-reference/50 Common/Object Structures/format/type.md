@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a predefined format.
+Specifies a predefined format. Does not apply if you have specified the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) function.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -93,11 +93,11 @@ If the **type** is the only field you need to specify in the **format** object, 
 
     <!--JavaScript-->format: "shortDate"
 
-[note]The **type** option is not applied if you have specified the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) function.
-
 When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `Format` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *"fixedPoint"* becomes `FixedPoint`.
 
+<a href="/Demos/WidgetsGallery/Demo/DataGrid/RightToLeftSupport/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+
 #####See Also#####
-- **format**.[currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency) - specifies the currency code for the currency format.
-- **format**.[precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision) - specifies the precision of values that have a numeric or currency format.
+- **format**.[currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency)
+- **format**.[precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision)
 <!--/fullDescription-->

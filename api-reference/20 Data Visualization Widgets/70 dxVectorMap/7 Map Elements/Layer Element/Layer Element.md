@@ -8,7 +8,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-This section describes the fields and methods that can be used in code to manipulate the **Layer Element** object.
+This section describes the **Layer Element** object, which represents a vector map layer element.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -25,4 +25,6 @@ This option applies when the [type](/Documentation/ApiReference/Common/Object_St
 - 'millions'
 - 'billions'
 - 'trillions'
+
+<a href="/Demos/WidgetsGallery/Demo/Gauges/LabelsCustomization/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 <!--/fullDescription-->

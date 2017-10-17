@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-This section describes the methods that can be used in code to manipulate the **Label** object.
+This section describes the **Label** object, which represents a point label.
 <!--/shortDescription-->
 
 <!--fullDescription-->

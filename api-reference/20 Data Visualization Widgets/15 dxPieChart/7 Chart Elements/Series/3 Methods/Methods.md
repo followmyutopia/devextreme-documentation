@@ -6,7 +6,7 @@
 **-->
 
 <!--shortDescription-->
-This section describes methods that you can use in code to manipulate the **Series** object.
+Methods used to control the series.
 <!--/shortDescription-->
 
 <!--fullDescription-->
