@@ -1,4 +1,4 @@
-Client-side data validation allows you to validate input values _before_ sending them to the server, and therefore, without reloading the page. DevExtreme ASP.NET MVC Controls validate input values using the [Data Annotation validation attributes](https://www.asp.net/mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-6) of model properties. The following validation attributes are supported.
+Client-side data validation allows you to validate input values _before_ sending them to the server and without reloading the page. DevExtreme ASP.NET MVC Controls validate input values using model properties' [Data Annotation validation attributes](https://www.asp.net/mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-6). The following validation attributes are supported:
 
 - `[Required]`
 - `[StringLength]`
@@ -7,7 +7,9 @@ Client-side data validation allows you to validate input values _before_ sending
 - `[Compare]`
 - `[Custom]`
 
-Model properties that have one or several of these attributes can be validated. For example, suppose that a `Person` model contains a `FirstName` property that has three validation attributes.
+[note] We also provide the `[DevExtremeRequired]` attribute that adopts the HTML5 validation behavior: it considers **false** an invalid Boolean value, whereas the standard `[Required]` accepts both **true** and **false**. You can find more details in [this blog post](https://community.devexpress.com/blogs/aspnet/archive/2017/09/18/devextreme-mvc-client-side-validation-required-attribute-changes-17-1-6.aspx).
+
+Model properties that have one or several of these attributes can be validated. For example, a `Person` model contains a `FirstName` property that has three validation attributes:
 
     <!--C#-->
     using System.ComponentModel.DataAnnotations;
@@ -33,7 +35,7 @@ Model properties that have one or several of these attributes can be validated. 
         End Class
     End Namespace
 
-To apply these validation attributes to a DevExtreme editor, create this editor using one of the `EditorFor` methods. Substitute "Editor" in `EditorFor` with the editor's name. For example, to create the DevExtreme [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) editor, you need to call the `TextBoxFor` method.
+To apply these validation attributes to a DevExtreme editor, create this editor using a `EditorFor` method. Substitute "Editor" in `EditorFor` with the editor's name. For example, to create the DevExtreme [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) editor, call the `TextBoxFor` method:
 
     <!--Razor C#-->
     @model ApplicationName.Models.Person
@@ -45,7 +47,7 @@ To apply these validation attributes to a DevExtreme editor, create this editor 
 
     @(Html.DevExtreme().TextBoxFor(Function(model) model.FirstName))
 
-As an alternative, you can use a more explicit syntax for binding an editor to a model property and, consequently, applying validation attributes. Pass the property's name to the `Name` method and an intial value to the `Value` method. The previous and following code samples produce the same result. 
+As an alternative, you can use a more explicit syntax for binding an editor to a model property and applying validation attributes. Pass the property's name to the `Name` method and an initial value to the `Value` method. The previous and following code samples produce the same result: 
 
     <!--Razor C#-->
     @model ApplicationName.Models.Person
@@ -63,9 +65,9 @@ As an alternative, you can use a more explicit syntax for binding an editor to a
         .Value(Model.FirstName)
     )
 
-[note] For the [RangeSlider](/Documentation/ApiReference/UI_Widgets/dxRangeSlider) widget, use the `StartName` and `EndName` methods instead of the `Name` method.
+[note] Use the `StartName` and `EndName` methods instead of the `Name` method for the [RangeSlider](/Documentation/ApiReference/UI_Widgets/dxRangeSlider) widget.
 
-By default, the input value is validated each time the [change](https://developer.mozilla.org/en-US/docs/Web/Events/change) event is raised. To change the DOM event that triggers validation, set the [valueChangeEvent](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#valueChangeEvent) option.
+The input value is validated each time the [change](https://developer.mozilla.org/en-US/docs/Web/Events/change) event is raised by default. To change the DOM event that triggers validation, set the [valueChangeEvent](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#valueChangeEvent) option.
 
     <!--Razor C#-->
     @(Html.DevExtreme().TextBoxFor(model => model.FirstName)
@@ -79,7 +81,7 @@ By default, the input value is validated each time the [change](https://develope
 
 [note]
 
-If the `[Range]` attribute should limit a date or time range, use the `RangeAttribute` [overload that accepts type](https://msdn.microsoft.com/en-us/library/cc679255(v=vs.110).aspx) as the first argument. The date/time values must be set as strings. See an example in the following code.
+If the `[Range]` attribute should limit a date or time range, use the `RangeAttribute` [overload that accepts a type](https://msdn.microsoft.com/en-us/library/cc679255(v=vs.110).aspx) as the first argument. The date/time values must be set as strings. See an example in the following code:
 
     <!--C#-->
     namespace ApplicationName.Models {
