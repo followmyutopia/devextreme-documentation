@@ -49,7 +49,7 @@ The widget's container.
 The jQuery event.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->node<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->dxtreemapnode<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->dxTreeMapNode<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The clicked node.
 <!--/typeFunctionParamDescription1_field4-->

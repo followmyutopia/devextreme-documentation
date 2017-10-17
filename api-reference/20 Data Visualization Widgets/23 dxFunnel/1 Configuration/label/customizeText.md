@@ -22,7 +22,7 @@ Customizes labels' text.
 Information on the funnel item that owns the label.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->item<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxfunnelItem<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->dxFunnelItem<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
 <!--/typeFunctionParamDescription1_field1-->

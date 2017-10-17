@@ -37,7 +37,7 @@ The [widget's instance]({basewidgetpath}/Methods/#instance).
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->item<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->dxfunnelItem<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->dxFunnelItem<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
 <!--/typeFunctionParamDescription1_field3-->

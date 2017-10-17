@@ -11,7 +11,7 @@
 Returns the root node.
 <!--/shortDescription-->
 
-<!--returnType-->dxtreemapnode<!--/returnType-->
+<!--returnType-->dxTreeMapNode<!--/returnType-->
 <!--returnDescription-->
 The root node.
 <!--/returnDescription-->

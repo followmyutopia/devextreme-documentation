@@ -17,7 +17,7 @@ Gets a specific node from a collection of direct descendants.
 The [index](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Fields/#index) of the desired node in the array of child nodes.
 <!--/paramDescription1-->
 
-<!--returnType-->dxtreemapnode<!--/returnType-->
+<!--returnType-->dxTreeMapNode<!--/returnType-->
 <!--returnDescription-->
 The specific node.
 <!--/returnDescription-->

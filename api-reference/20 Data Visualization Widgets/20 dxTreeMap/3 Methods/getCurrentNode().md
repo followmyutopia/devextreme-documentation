@@ -11,7 +11,7 @@
 Returns the current node.
 <!--/shortDescription-->
 
-<!--returnType-->dxtreemapnode<!--/returnType-->
+<!--returnType-->dxTreeMapNode<!--/returnType-->
 <!--returnDescription-->
 The current node.
 <!--/returnDescription-->

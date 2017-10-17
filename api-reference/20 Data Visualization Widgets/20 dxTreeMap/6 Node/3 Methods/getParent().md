@@ -11,7 +11,7 @@
 Returns the parent node of the current node.
 <!--/shortDescription-->
 
-<!--returnType-->dxtreemapnode<!--/returnType-->
+<!--returnType-->dxTreeMapNode<!--/returnType-->
 <!--returnDescription-->
 The parent node of the current node. **null** if the parent is the root node.
 <!--/returnDescription-->

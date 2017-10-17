@@ -35,7 +35,7 @@ The widget's instance.
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->root<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->dxtreemapnode<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->dxTreeMapNode<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The root node.
 <!--/typeFunctionParamDescription1_field3-->

@@ -51,7 +51,7 @@ The value of the node from the data source.
 The value of the node with applied [formatting](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/#format).
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->node<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->dxtreemapnode<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->dxTreeMapNode<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The node that has entered the hover state.
 <!--/typeFunctionParamDescription1_field3-->
