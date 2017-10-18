@@ -13,7 +13,7 @@ Customize a summary item's text and value format using the **displayFormat** and
                     summaryType: "sum",
                     showInColumn: "TotalAmount",
                     valueFormat: "currency",
-                    displayText: "Column: {1}. Sales: {0}"
+                    displayFormat: "Column: {1}. Sales: {0}"
                 },
                 // ...
                 ]
@@ -31,7 +31,7 @@ Customize a summary item's text and value format using the **displayFormat** and
                 summaryType="sum"
                 showInColumn="TotalAmount"
                 valueFormat="currency"
-                displayText="Column: {1}. Sales: {0}">
+                displayFormat="Column: {1}. Sales: {0}">
             </dxi-total-item>
         </dxo-summary>
     </dx-data-grid>
