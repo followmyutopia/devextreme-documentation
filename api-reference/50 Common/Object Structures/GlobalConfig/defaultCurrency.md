@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the default currency the widgets use.
 <!--/shortDescription-->
 
 <!--fullDescription-->
