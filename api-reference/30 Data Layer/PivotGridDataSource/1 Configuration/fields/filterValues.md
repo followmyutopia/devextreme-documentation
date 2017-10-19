@@ -14,12 +14,8 @@ Specifies by which values the field is filtered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts the following values: 
+When a user selects the popup menu's *"Select All"* checkbox, this option becomes **null** and the [filterType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#filterType) - *"exclude"*.
 
-- **null**  
-[filterType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#filterType) is *"exclude"* and all values are selected; or **filterType** is *"include"* and none values are selected.
-
-- Array     
-Any value is selected.
-
+#####See Also#####
+- [allowFiltering](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowFiltering)
 <!--/fullDescription-->

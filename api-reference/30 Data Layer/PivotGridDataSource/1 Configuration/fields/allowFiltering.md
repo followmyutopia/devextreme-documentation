@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Allows an end-user to change filtering options.
+Allows a user to filter fields by selecting or deselecting values in the popup menu.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-With this option enabled, an end-user can filter pivot grid data using the filter icons in the [field chooser](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Chooser) or on the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
+A user can click a filter icon in the  [field chooser](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Chooser) or [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel) when this option is set to **true** to invoke a popup menu.
 <!--/fullDescription-->
