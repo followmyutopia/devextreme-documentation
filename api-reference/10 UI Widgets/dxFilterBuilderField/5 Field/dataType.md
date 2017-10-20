@@ -5,12 +5,13 @@
 
 **-->
 ===========================================================================
-<!--default-->'USD'<!--/default-->
+<!--default-->'string'<!--/default-->
+<!--acceptValues-->'string' | 'number' | 'date' | 'datetime' | 'boolean' | 'object'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the default currency the widgets use.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

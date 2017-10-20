@@ -27,7 +27,7 @@ The function passed to this option enables you to specify a custom condition for
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->jQuery.Event<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Holds the jQuery event that caused widget closing.
 <!--/typeFunctionParamDescription1-->

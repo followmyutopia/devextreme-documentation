@@ -17,7 +17,7 @@ Raised when a user has performed a double click on the element.
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->jQuery.Event<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The standard jQuery event argument. For the information on event handler arguments, refer to the [UI Events introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/).
 <!--/typeFunctionParamDescription1-->

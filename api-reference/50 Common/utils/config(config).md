@@ -14,7 +14,7 @@ Sets the global configuration object.
 <!--/shortDescription-->
 
 <!--paramName1-->config<!--/paramName1-->
-<!--paramType1-->globalConfig<!--/paramType1-->
+<!--paramType1-->GlobalConfig<!--/paramType1-->
 <!--paramDescription1-->
 An object containing the required global configuration options.
 <!--/paramDescription1-->

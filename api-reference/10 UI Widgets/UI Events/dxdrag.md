@@ -17,7 +17,7 @@ Raised when the drag gesture has been performed.
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->jQuery.Event<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The standard jQuery event argument. The following fields are added to existing fields of this argument object. For the information on event handler arguments, refer to the [UI Events introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/).
 <!--/typeFunctionParamDescription1-->

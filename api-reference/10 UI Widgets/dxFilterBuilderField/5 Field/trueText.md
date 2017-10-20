@@ -5,12 +5,12 @@
 
 **-->
 ===========================================================================
-<!--default-->'USD'<!--/default-->
+<!--default-->'true'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the default currency the widgets use.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -5,12 +5,13 @@
 
 **-->
 ===========================================================================
-<!--default-->'USD'<!--/default-->
+<!--hidden--><!--/hidden-->
+<!--acceptValues-->'=' | '<>' | '<' | '<=' | '>' | '>=' | 'notcontains' | 'contains' | 'startswith' | 'endswith' | 'isblank' | 'isnotblank'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the default currency the widgets use.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

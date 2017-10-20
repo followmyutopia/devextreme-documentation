@@ -5,14 +5,19 @@
 
 **-->
 ===========================================================================
-<!--default-->'USD'<!--/default-->
-<!--type-->String<!--/type-->
+<!--default-->undefined<!--/default-->
+<!--type-->String | function(data)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the default currency the widgets use.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
 
 <!--/fullDescription-->
+<!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
+<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamDescription1-->
+
+<!--/typeFunctionParamDescription1-->
