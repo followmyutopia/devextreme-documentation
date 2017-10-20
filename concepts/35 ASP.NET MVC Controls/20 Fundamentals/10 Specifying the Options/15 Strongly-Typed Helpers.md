@@ -4,9 +4,7 @@ Many item collections can be configured using strongly-typed helpers. This appro
     @(Html.DevExtreme().DataGrid<Order>()
         .Columns(columns => {
             columns.AddFor(m => m.CustomerID);
-                
-            columns.AddFor(m => m.OrderDate)
-                   .DataType(GridColumnDataType.Date);
+            columns.AddFor(m => m.OrderDate);
         })
     )
 
@@ -14,9 +12,7 @@ Many item collections can be configured using strongly-typed helpers. This appro
     @(Html.DevExtreme().DataGrid(Of Order)() _
         .Columns(Sub(columns)
             columns.AddFor(Function(m) m.CustomerID)
-                
-            columns.AddFor(Function(m) m.OrderDate) _
-                   .DataType(GridColumnDataType.Date)
+            columns.AddFor(Function(m) m.OrderDate)
         End Sub)
     )
 
