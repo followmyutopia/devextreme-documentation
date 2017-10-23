@@ -9,21 +9,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the serialization format for date-time values.
+Specifies date-time values' serialization format. Use it only if you do not specify the [dataSource]({basewidgetpath}/Configuration/#dataSource) at design time.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If you do _not_ set the [dataSource]({basewidgetpath}/Configuration/#dataSource) option at design time, the widget cannot detect the format of date-time values automatically. In this case, specify the **dateSerializationFormat** option. You can also do this to serialize date-time values to a specific format.
-
-The following formats are supported.
+Without a data source, the widget cannot detect the date-time values' format. In this case, specify the **dateSerializationFormat** option that supports the following formats:
 
 - `"yyyy-MM-dd"` - a local date  
 
-- `"yyyy-MM-ddTHH:mm:ss"` - a local date and time  
+- `"yyyy-MM-ddTHH:mm:ss"` - local date and time  
 
-- `"yyyy-MM-ddTHH:mm:ssZ"` - a UTC date and time  
+- `"yyyy-MM-ddTHH:mm:ssZ"` - the UTC date and time  
 
-- `"yyyy-MM-ddTHH:mm:ssx"` - a date and time with a timezone
+- `"yyyy-MM-ddTHH:mm:ssx"` - date and time with a timezone
 
-Note that this option only applies if the **forceIsoDateParsing** field of the [global configuration object](/Documentation/ApiReference/Common/utils/#configconfig) is set to **true**.
+This option applies only if the **forceIsoDateParsing** field is set to **true** in the [global configuration object](/Documentation/ApiReference/Common/utils/#configconfig).
 <!--/fullDescription-->
