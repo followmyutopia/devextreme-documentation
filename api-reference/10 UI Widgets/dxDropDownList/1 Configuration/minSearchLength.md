@@ -10,11 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-The minimum number of characters that must be entered into the text box to begin a search.
+The minimum number of characters that must be entered into the text box to begin a search. Applies only if [searchEnabled]({basewidgetpath}/Configuration/#searchEnabled) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option makes sense only if the **searchEnabled** option is set to **true**.
-
 
 <!--/fullDescription-->
