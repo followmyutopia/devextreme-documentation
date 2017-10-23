@@ -13,7 +13,7 @@ The user implementation of the [totalCount(options)](/Documentation/ApiReference
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The method passed to this option should return either the [jQuery.Deferred](http://api.jquery.com/jQuery.Deferred) promise or **jQuery.Deferred** compatible object.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->loadOptions<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
@@ -33,5 +33,5 @@ Data grouping options.
 
 <!--typeFunctionReturnType-->Promise<number><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A Promise of the jQuery.Deferred object resolved after data has been loaded.
+A Promise that is resolved after data is loaded.
 <!--/typeFunctionReturnDescription-->

@@ -25,9 +25,10 @@ The bag of parameters supported by the operation.
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise of the jQuery.Deferred object resolved after the operation has completed.
+A Promise that is resolved after the operation has completed. It is a [jQuery.Promise](http://api.jquery.com/Types/#Promise) if the [useJQuery](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#useJQuery) flag is enabled and a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) otherwise.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-For more information, refer to the [Invoking Service Operations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Invoking_Service_Operations) documentation section.
+#####See Also#####
+- [Invoking Service Operations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Invoking_Service_Operations)
 <!--/fullDescription-->

@@ -2,7 +2,7 @@ The **DeferRendering** is a widget that waits for its content to be ready before
 
 [note]The **DeferRendering** widget is designed for applications built using the [DevExtreme SPA Framework](/Documentation/Guide/SPA_Framework/Views_and_Layouts/). Bear in mind that code examples in this section are supposed to be used in the SPA Framework environment.
 
-In the following example, the [List](/Documentation/ApiReference/UI_Widgets/dxList/) widget is populated with remote data. While this data is being loaded, the **DeferRendering** widget displays a loading indicator. Note that the **DeferRendering** requires its [renderWhen](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#renderWhen) option to be set to a [jQuery.Promise](http://api.jquery.com/Types/#Promise). The content of the **DeferRendering** will be shown once the Deferred of this Promise is [resolved](http://api.jquery.com/deferred.resolve/).
+In the following example, the [List](/Documentation/ApiReference/UI_Widgets/dxList/) widget is populated with remote data. While this data is being loaded, the **DeferRendering** widget displays a loading indicator. Note that the **DeferRendering** requires its [renderWhen](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#renderWhen) option to be set to a Promise ([jQuery](http://api.jquery.com/Types/#Promise) or [native](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)). The content of the **DeferRendering** will be shown once this Promise is resolved.
 
     <!--HTML--><div data-options="dxView: { name: 'Products', title: 'Products' }">
         <div data-options="dxContent: { targetPlaceholder: 'content' }" data-bind="dxDeferRendering: {

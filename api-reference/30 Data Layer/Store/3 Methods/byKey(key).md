@@ -19,7 +19,7 @@ Specifies the key value of the required items.
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise of the jQuery.Deferred object resolved after the item has been loaded.
+A Promise that is resolved after the item is loaded. It is a [jQuery.Promise](http://api.jquery.com/Types/#Promise) if the [useJQuery](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#useJQuery) flag is enabled and a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) otherwise.
 <!--/returnDescription-->
 
 <!--fullDescription-->

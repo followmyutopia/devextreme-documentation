@@ -35,7 +35,5 @@ This class requires you to implement all data access operations. Each function i
         . . .  
     });
 
-Note that despite Store operations being asynchronous and returning the [jQuery.Deferred](http://api.jquery.com/jQuery.Deferred) promise, you do not need to create the **jQuery.Deferred** object within your function. The function should return an object compatible with **jQuery.Deferred**.
-
 For more information on creating a CustomStore, refer to the [Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources) topic.
 <!--/fullDescription-->

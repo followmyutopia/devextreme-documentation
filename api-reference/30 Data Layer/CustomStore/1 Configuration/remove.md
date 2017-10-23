@@ -13,7 +13,7 @@ The user implementation of the [remove(key)](/Documentation/ApiReference/Data_La
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The method passed to this option should return either the [jQuery.Deferred](http://api.jquery.com/jQuery.Deferred) promise or **jQuery.Deferred** compatible object.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object|string|number<!--/typeFunctionParamType1-->
@@ -23,5 +23,5 @@ The key value of the item being removed.
 
 <!--typeFunctionReturnType-->Promise<void><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A Promise of the jQuery.Deferred object resolved after the item has been removed.
+A Promise that is resolved after the item is removed.
 <!--/typeFunctionReturnDescription-->

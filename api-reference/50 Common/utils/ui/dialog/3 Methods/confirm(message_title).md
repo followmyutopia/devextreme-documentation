@@ -27,7 +27,7 @@ A string value representing the dialog title.
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A JQuery Deferred object whose resolve field contains a Boolean value specifying whether the user has clicked the "Yes" or "No" button.
+A Promise that is resolved with a Boolean value specifying whether the user has clicked the "Yes" or "No" button when the dialog is closed. It is a [jQuery.Promise](http://api.jquery.com/Types/#Promise) if the [useJQuery](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#useJQuery) flag is enabled and a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) otherwise.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -19,7 +19,7 @@ A string containing the URI of the HTML page or a jQuery object presenting a tem
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise of the jQuery Deferred object that is resolved when the template is loaded or rejected when loading fails.
+A Promise that is resolved after the template is loaded or rejected after loading failed. It is a [jQuery.Promise](http://api.jquery.com/Types/#Promise) if the [useJQuery](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#useJQuery) flag is enabled and a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) otherwise.
 <!--/returnDescription-->
 
 <!--fullDescription-->

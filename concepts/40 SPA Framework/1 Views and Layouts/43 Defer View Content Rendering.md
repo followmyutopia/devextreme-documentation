@@ -21,7 +21,7 @@ View rendering may take significant time. For instance, there may be a delay whi
 		};   
 	};
 
-The content enclosed into the **DeferRendering** widget is shown when the jQuery.Promise object assigned to the widget's [renderWhen](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#renderWhen) option is resolved. While waiting for the moment when the deferred content is allowed to be rendered, you can show a loading indicator. For this purpose, set the widget's [showLoadIndicator](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#showLoadIndicator) option to **true**.
+The content enclosed into the **DeferRendering** widget is shown when the Promise object assigned to the widget's [renderWhen](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#renderWhen) option is resolved. While waiting for the moment when the deferred content is allowed to be rendered, you can show a loading indicator. For this purpose, set the widget's [showLoadIndicator](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#showLoadIndicator) option to **true**.
 
 To specify the animation to be used when showing the deferred content enclosed to the **DeferRendering** widget, use the widget's [animation](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#animation) option.
 

@@ -19,7 +19,7 @@ Specifies the target element the widget points to.
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise of the jQuery Deferred object resolved if the widget is displayed and rejected if it is not.
+A Promise that is resolved if the widget is displayed and rejected otherwise. It is a [jQuery.Promise](http://api.jquery.com/Types/#Promise) if the [useJQuery](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#useJQuery) flag is enabled and a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) otherwise.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -13,9 +13,9 @@ The user implementation of the [insert(values)](/Documentation/ApiReference/Data
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The method passed to this option should return either the [jQuery.Deferred](http://api.jquery.com/jQuery.Deferred) promise or the **jQuery.Deferred** compatible object.
+The method passed to this option should return a Promise.
 
-You can resolve the returned jQuery.Deferred with any data. For example, the key of the inserted item.
+You can resolve the returned Promise with any data. For example, the key of the inserted item.
 
     <!--JavaScript-->
     var store = new DevExpress.data.CustomStore({
@@ -37,5 +37,5 @@ An object representing the inserted item.
 
 <!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A Promise of the jQuery.Deferred object resolved after the item has been inserted.
+A Promise of the jQuery.Deferred object resolved after the item is inserted.
 <!--/typeFunctionReturnDescription-->

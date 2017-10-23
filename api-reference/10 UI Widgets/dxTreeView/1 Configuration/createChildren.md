@@ -47,5 +47,5 @@ The node that has been expanded; **null** for the root node.
 
 <!--typeFunctionReturnType-->Promise<any>|Array<Object><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A Promise of a Deferred object resolved with the result from the server or an array of objects to be converted to child nodes.
+A Promise that is resolved with the result from the server or an array of objects to be converted to child nodes.
 <!--/typeFunctionReturnDescription-->

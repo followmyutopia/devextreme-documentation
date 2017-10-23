@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the jQuery.Promise or boolean value, which when resolved, forces widget content to render.
+Specifies when the widget content is rendered.
 <!--/shortDescription-->
-
+ 
 <!--fullDescription-->
-
+The widget content is rendered when this option is set to **true**, or when a Promise assigned to this option is resolved.
 <!--/fullDescription-->

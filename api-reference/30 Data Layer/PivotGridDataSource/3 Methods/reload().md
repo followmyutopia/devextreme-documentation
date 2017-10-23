@@ -13,7 +13,7 @@ Starts reloading data from any [store](/Documentation/ApiReference/Data_Layer/Pi
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise of the jQuery.Deferred object, which is resolved when data has been loaded.
+A Promise that is resolved after data is loaded. It is a [jQuery.Promise](http://api.jquery.com/Types/#Promise) if the [useJQuery](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#useJQuery) flag is enabled and a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) otherwise.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -47,5 +47,5 @@ Text of the widget's text field.
 
 <!--typeFunctionReturnType-->object|Promise<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The item object or the jQuery Deferred object resolved when a custom item is created.
+The item object or a Promise that is resolved after a custom item is created.
 <!--/typeFunctionReturnDescription-->

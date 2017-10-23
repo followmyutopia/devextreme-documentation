@@ -49,7 +49,7 @@ Unlike the [alert](/Documentation/ApiReference/Common/Utils/ui/dialog/Methods/#a
         myDialog.show();
     };
 
-The **show()** method returns the promise of the jQuery Deferred object, which passes the dialog result. Use the following code to obtain the dialog result.
+The **show()** method returns a Promise that is resolved with the dialog result. Use the following code to obtain the dialog result.
 
     <!--JavaScript-->var myDialog = DevExpress.ui.dialog.custom(dialogOptions);
     myDialog.show().done(function(dialogResult){

@@ -19,7 +19,7 @@ Indicates whether or not to prevent reachBottom action execution.
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Deferred jQuery object.
+A Promise that is resolved after the widget is released. It is a [jQuery.Promise](http://api.jquery.com/Types/#Promise) if the [useJQuery](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#useJQuery) flag is enabled and a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) otherwise.
 <!--/returnDescription-->
 
 <!--fullDescription-->

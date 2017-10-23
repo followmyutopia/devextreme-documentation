@@ -16,7 +16,7 @@ A handler for the **itemDeleting** event. Executed before an item is deleted fro
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To cancel item deletion, assign **true** to the **cancel** field of the handler parameter. To perform an asynchronous action before deleting an item, assign a [jQuery.Promise](http://api.jquery.com/Types/#Promise) to the **cancel** field. The item will be deleted once the Deferred object of this Promise is resolved. The code below adds a confirmation dialog displayed before the item is deleted.
+You can cancel item deletion by setting the handler parameter's **cancel** field to **true**. This field also accepts a Promise ([jQuery](http://api.jquery.com/Types/#Promise) or [native](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)), which enables you to perform an asynchronous action before an item is deleted.
 
     <!--JavaScript-->
     var widgetOptions = {

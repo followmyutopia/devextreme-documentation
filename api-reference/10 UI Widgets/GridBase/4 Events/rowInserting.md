@@ -46,5 +46,5 @@ The data of the to-be-inserted row.
 <!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->boolean|Promise<void><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-Allows you to cancel insertion of the row.
+Allows you to cancel row insertion.
 <!--/typeFunctionParamDescription1_field5-->

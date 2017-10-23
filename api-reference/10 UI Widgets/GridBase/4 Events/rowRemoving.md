@@ -51,5 +51,5 @@ The key of the row. If a field providing keys is not specified in the data sourc
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->boolean|Promise<void><!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-Allows you to cancel removal of the row.
+Allows you to cancel row removal.
 <!--/typeFunctionParamDescription1_field6-->

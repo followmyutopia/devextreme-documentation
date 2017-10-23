@@ -91,5 +91,5 @@ A getter representing a search expression.
 
 <!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A promise of a deferred object resolved after data is loaded.
+A Promise that is resolved after data is loaded.
 <!--/typeFunctionReturnDescription-->

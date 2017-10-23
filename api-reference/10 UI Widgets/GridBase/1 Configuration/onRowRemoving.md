@@ -15,7 +15,7 @@ A handler for the **rowRemoving** event. Executed before a row is removed from t
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To cancel row removal, assign **true** to the **cancel** field of the handler parameter. To perform an asynchronous action before removing the row, assign a [jQuery.Promise](http://api.jquery.com/Types/#Promise) to the **cancel** field. The row will be removed once the Deferred object of this Promise is resolved.
+You can cancel row removal by setting the handler parameter's **cancel** field to **true**. This field also accepts a Promise ([jQuery](http://api.jquery.com/Types/#Promise) or [native](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)), which enables you to perform an asynchronous action before a row is removed.
 
 [note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), if several rows are to be removed, this handler will be executed for each row individually.
 <!--/fullDescription-->

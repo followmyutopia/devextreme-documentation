@@ -13,5 +13,5 @@ Specifies whether or not the DataSource instance requests the total count of ite
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If this option is set to **true**, the **done** callback of the **Deferred.Promise** returned by the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method will hold the **extra** argument containing the **totalCount**, which holds the total count of data source items.
+If this option is set to **true**, the callback of the **Promise** returned by the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method will hold the **extra** argument containing the **totalCount**, which holds the total count of data source items.
 <!--/fullDescription-->

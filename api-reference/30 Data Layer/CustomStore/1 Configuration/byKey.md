@@ -13,7 +13,7 @@ The user implementation of the [byKey(key, extraOptions)](/Documentation/ApiRefe
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The method passed to this option should return either the [jQuery.Deferred](http://api.jquery.com/jQuery.Deferred) promise or the **jQuery.Deferred** compatible object.
+The method passed to this option should return a Promise.
 
     <!--JavaScript-->
     var myStore = new DevExpress.data.CustomStore({
@@ -36,5 +36,5 @@ The required key value.
 
 <!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A Promise of the jQuery.Deferred object resolved after the item has been loaded.
+A Promise that is resolved after the item is loaded.
 <!--/typeFunctionReturnDescription-->

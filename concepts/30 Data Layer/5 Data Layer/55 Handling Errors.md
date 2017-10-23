@@ -15,7 +15,7 @@ A Store enables you to handle errors that occur only within itself. To handle St
         }
     };
 
-DevExtreme also provides an ability to handle errors that occur during operation execution. All DevExtreme data transfer operations are asynchronous and return the [jQuery.Deferred](http://api.jquery.com/jQuery.Deferred) promise object allowing you to specify both success and error callbacks. To handle the operation error, pass the error handling function to the **fail()** method of the returned object.
+DevExtreme also provides an ability to handle errors that occur during operation execution. All DevExtreme data transfer operations are asynchronous and return a Promise ([jQuery](http://api.jquery.com/Types/#Promise) or [native](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) depending on the [useJQuery](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#useJQuery) flag's value) allowing you to specify both success and error callbacks.
 
 The following example illustrates how to handle errors that occurred during the execution of the [load](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) operation of a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
 
