@@ -1,5 +1,8 @@
 ﻿Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind the **Lookup** to data provided by an OData service.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#lookupContainer").dxLookup({
             dataSource: new DevExpress.data.ODataStore({
@@ -11,7 +14,39 @@
         });
     });
 
+#####Angular
+
+    <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    import ODataStore from 'devextreme/data/odata/store';
+    // ...
+    export class AppComponent {
+        lookupDataSource = new ODataStore({
+            url: "https://js.devexpress.com/Demos/DevAV/odata/Products",
+            key: "Product_ID"
+        });
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-lookup
+        [dataSource]="lookupDataSource"
+        valueExpr="Product_Cost"
+        displayExpr="Product_Name">
+    </dx-lookup>
+
+---
+
 Data kept in the **ODataStore** can be processed in a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). For example, the **DataSource** can filter data.
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#lookupContainer").dxLookup({
@@ -27,6 +62,40 @@ Data kept in the **ODataStore** can be processed in a [DataSource](/Documentatio
             displayExpr: "Product_Name"
         });
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    import DataSource from 'devextreme/data/data_source';
+    import 'devextreme/data/odata/store';
+    // ...
+    export class AppComponent {
+        lookupDataSource = new DataSource({
+            store: {
+                type: "odata",
+                url: "https://js.devexpress.com/Demos/DevAV/odata/Products",
+                key: "Product_ID"
+            },
+            filter: ["Product_Available", "=", true]
+        });
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-lookup
+        [dataSource]="lookupDataSource"
+        valueExpr="Product_Cost"
+        displayExpr="Product_Name">
+    </dx-lookup>
+
+---
 
 #####See Also#####
 - [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores)

@@ -1,5 +1,8 @@
 Load JSON data by assigning its URL to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#dataSource) option. 
-    
+
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#lookupContainer").dxLookup({
             dataSource: "https://jsonplaceholder.typicode.com/users",
@@ -8,7 +11,35 @@ Load JSON data by assigning its URL to the [dataSource](/Documentation/ApiRefere
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-lookup
+        dataSource="https://jsonplaceholder.typicode.com/users"
+        valueExpr="username"
+        displayExpr="name">
+    </dx-lookup>
+
+    <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
+
+---
+
 Note that you can also use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#lookupContainer").dxLookup({
@@ -16,6 +47,29 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
             // ...
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-lookup ...
+        dataSource="http://www.example.com/dataservices/jsonpdata?callback=?">
+    </dx-lookup>
+
+    <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
+
+---
 
 Implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) if you need to process data after obtaining it. See the [Custom Sources](/Documentation/Guide/Widgets/Lookup/Data_Binding/Custom_Sources/) topic for more details.
 

@@ -4,6 +4,9 @@ The **Lookup** is a widget that allows an end user to search for an item in a co
 
 The following code adds the **Lookup** widget to your page. The simplest configuration requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#dataSource) to be specified. In addition, you can define the [placeholder](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#placeholder) to be displayed when the **Lookup** input field is empty.
 
+---
+#####jQuery
+
     <!--HTML-->
     <div id="lookupContainer"></div>
 
@@ -14,11 +17,35 @@ The following code adds the **Lookup** widget to your page. The simplest configu
                 "HD Video Player",
                 "SuperHD Video Player",
                 "SuperPlasma 50",
-                // . . .
+                // ...
             ],
             placeholder: "Select a product..."
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-lookup
+        [dataSource]="lookupDataSource"
+        placeholder="Select a product...">
+    </dx-lookup>
+
+    <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        lookupDataSource = [ "HD Video Player", "SuperHD Video Player", "SuperPlasma 50" ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
+
+---
 
 If your data is an array of objects, specify: 
 
@@ -29,11 +56,14 @@ If your data is an array of objects, specify:
 
 <!---->
 
+---
+#####jQuery
+
     <!--JavaScript-->
     var lookupData = [
         { id: 1, country: "Afghanistan" },
         { id: 2, country: "Albania" },
-        // . . .
+        // ...
     ];
 
     $(function() {
@@ -44,6 +74,34 @@ If your data is an array of objects, specify:
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-lookup
+        [dataSource]="lookupDataSource"
+        valueExpr="id"
+        displayExpr="country">
+    </dx-lookup>
+
+    <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        lookupDataSource = [
+            { id: 1, country: "Afghanistan" },
+            { id: 2, country: "Albania" },
+            // ...
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)

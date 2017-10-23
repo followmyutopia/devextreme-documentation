@@ -3,18 +3,66 @@
 - [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
 - [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
 
-You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. Note that instead of declaring the **CustomStore** explicitly, you can specify its members directly in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object.
+You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. 
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#lookupContainer").dxLookup({
             dataSource: new DevExpress.data.DataSource({
-                loadMode: "raw",   
-                load: function () {
-                    return $.getJSON('https://mydomain.com/MyDataService');
-                }
+                store: new DevExpress.data.CustomStore({
+                    loadMode: "raw",   
+                    load: function () {
+                        return $.getJSON('https://mydomain.com/MyDataService');
+                    }
+                })
             })
         });
     });
+
+
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule } from '@angular/http';
+    import DataSource from 'devextreme/data/data_source';
+    import { DxLookupModule } from 'devextreme-angular';
+    import CustomStore from 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent {
+        lookupDataSource: any = {};
+        constructor(@Inject(Http) http: Http) {
+            this.lookupData = new DataSource({
+                store: new CustomStore({
+                    loadMode: "raw",   
+                    load: function () {
+                        return http.get('https://mydomain.com/MyDataService')
+                                    .toPromise()
+                                    .then(response => {
+                                        return response.json();
+                                    });
+                    }
+                })
+            })
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-lookup
+        dataSource="lookupData">
+    </dx-lookup>
+
+---
 
 [note]We advise against using this mode with large amounts of data because all data is loaded at once.
 
@@ -85,6 +133,9 @@ If the **group** setting is absent, the object structure is different:
 
 If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#value) beforehand, the **CustomStore** must implement the [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) operation as well. Here is a generalized configuration of the **CustomStore** for the **Lookup** widget.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#lookupContainer").dxLookup({
             dataSource: new DevExpress.data.DataSource({
@@ -116,6 +167,73 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
             })
         });
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { DxLookupModule } from 'devextreme-angular';
+    import DataSource from 'devextreme/data/data_source';
+    import CustomStore from 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent {
+        lookupData: any = {};
+        constructor(@Inject(Http) http: Http) {
+            this.lookupData = new DataSource({
+                store: new CustomStore({
+                    load: function (loadOptions) {
+                        let params: URLSearchParams = new URLSearchParams();
+                        params.set("skip", loadOptions.skip);
+                        params.set("take", loadOptions.take);
+                        params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
+                        params.set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "");
+                        params.set("searchOperation", loadOptions.searchOperation);
+                        params.set("searchValue", loadOptions.searchValue);
+                        params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
+                        params.set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
+                        return http.get('http://mydomain.com/MyDataService', {
+                                        search: params
+                                    })
+                                    .toPromise()
+                                    .then(response => {
+                                        var json = response.json();
+                                        // You can process the received data here
+                                        return {
+                                            data: json.data
+                                        }
+                                    });
+                    },
+                    byKey: function (key) {
+                        return http.get('https://mydomain.com/MyDataService?id=' + key)
+                                    .toPromise()
+                                    .then(response => {
+                                        var json = response.json();
+                                        return {
+                                            data: json.data
+                                        };
+                                    });
+                    }
+                })
+            });
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxLookupModule,
+             HttpModule 
+         ],
+         // ...
+     })
+
+    <!--HTML-->
+    <dx-lookup
+        [dataSource]="lookupData">
+    </dx-lookup>
+
+---
 
 #####See Also#####
 - [Data Layer - DataSource Examples | Custom Sources](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources)

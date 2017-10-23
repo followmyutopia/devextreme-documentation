@@ -1,10 +1,13 @@
 By default, the **Lookup** applies a value immediately after an end user chooses an item from the drop-down menu. To change this behavior and apply the value after a user clicks the "Apply" button, assign *'useButtons'* to the [applyValueMode](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#applyValueMode) option.
 
+---
+#####jQuery
+
     <!--JavaScript-->
     var lookupData = [
         { id: 1, country: "Afghanistan" },
         { id: 2, country: "Albania" },
-        // . . .
+        // ...
     ];
 
     $(function() {
@@ -16,7 +19,40 @@ By default, the **Lookup** applies a value immediately after an end user chooses
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-lookup
+        [dataSource]="lookupDataSource"
+        valueExpr="id"
+        displayExpr="country"
+        applyValueMode="useButtons">
+    </dx-lookup>
+
+    <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        lookupDataSource =  [
+            { id: 1, country: "Afghanistan" },
+            { id: 2, country: "Albania" },
+            // ...
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
+
+---
+
 To process a new **Lookup** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onValueChanged) option when you configure the widget.
+
+---
+#####jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -29,9 +65,36 @@ To process a new **Lookup** value, you need to handle the value change event. If
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-lookup ...
+        (onValueChanged)="onValueChanged($event)">
+    </dx-lookup>
+
+    <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        onValueChanged (e) {
+            let previousValue = e.previousValue;
+            let newValue = e.value;
+            // Event handling commands go here
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxLookupModule
+         ],
+         // ...
+     })
+
+---
+
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/EventHandling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to the value change event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxLookup/Methods/#oneventName_eventHandler) method.
+If you are going to change event handlers at runtime, or if you need to attach several handlers to the value change event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxLookup/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var valueChangedHandler1 = function (e) {
@@ -52,6 +115,5 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 - **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Handling_Events_and_Defining_Callbacks)
-- [Lookup API Reference](/Documentation/ApiReference/UI_Widgets/dxLookup/)
 
 [tags]lookup, change value, valueChangeEvent, valueChanged, apply mode, apply value, apply instantly, use buttons

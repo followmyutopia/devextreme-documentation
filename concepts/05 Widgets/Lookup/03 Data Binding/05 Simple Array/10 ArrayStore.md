@@ -1,5 +1,8 @@
 ﻿Extend a JavaScript array's functionality by placing it into an [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/). It provides an interface for loading and editing data, and allows you to handle data-related events.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#lookupContainer").dxLookup({
             dataSource: new DevExpress.data.ArrayStore({
@@ -13,7 +16,42 @@
         });
     });
 
+#####Angular
+
+    <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    import ArrayStore from 'devextreme/data/array_store';
+    // ...
+    export class AppComponent {
+        products = [/* ... */ ];
+        lookupDataSource = new ArrayStore({
+            data: this.products,
+            onLoaded: function () {
+                // Event handling commands go here
+            }
+        });
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-lookup
+        [dataSource]="lookupDataSource"
+        valueExpr="price"
+        displayExpr="name">
+    </dx-lookup>
+
+---
+
 Data kept in the **ArrayStore** can be processed in a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). For example, the **DataSource** can sort data.
+
+---
+#####jQuery
 
     <!--JavaScript-->
     var products = [
@@ -33,6 +71,36 @@ Data kept in the **ArrayStore** can be processed in a [DataSource](/Documentatio
             displayExpr: 'name'
         });
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    import DataSource from 'devextreme/data/data_source';
+    // ...
+    export class AppComponent {
+        products = [/* ... */ ];
+        lookupDataSource = new DataSource({
+            store: this.products,
+            sort: { getter: "name", desc: true }
+        });
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-lookup
+        [dataSource]="lookupDataSource"
+        valueExpr="price"
+        displayExpr="name">
+    </dx-lookup>
+
+---
 
 [note]Even if you have [passed a JavaScript array](/Documentation/Guide/Widgets/Lookup/Data_Binding/Simple_Array/Array_Only/) to the **dataSource** option, the **Lookup** automatically places it into an **ArrayStore** wrapped into the **DataSource** you can get with the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxLookup/Methods/#getDataSource) method.
 

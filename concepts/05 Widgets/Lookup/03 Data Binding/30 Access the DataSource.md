@@ -1,6 +1,28 @@
 Regardless of the data source you use, the **Lookup** always wraps it in a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Call the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxLookup/Methods/#getDataSource) method to get the instance of the **DataSource**.
 
+---
+#####jQuery
+
     <!--JavaScript-->var lookupDataSource = $("#lookupContainer").dxLookup("getDataSource");
+
+#####Angular
+
+    <!--TypeScript-->
+    import { DxLookupModule, DxLookupComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxLookupComponent) lookup: DxLookupComponent;
+        lookupDataSource = this.lookup.instance.getDataSource();
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxLookupModule
+         ],
+         // ...
+     })
+
+---
 
 Now, you can call [any method](/Documentation/ApiReference/Data_Layer/DataSource/Methods/) the **DataSource** exposes. For example, you can reload data using the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method.
 
