@@ -25,7 +25,7 @@ The DOM node of the item after which the specified item should be placed.
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise that is resolved if the item is moved and rejected otherwise. It is a [jQuery.Promise](http://api.jquery.com/Types/#Promise) if the [useJQuery](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#useJQuery) flag is enabled and a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) otherwise.
+A Promise that is resolved if the item is moved and rejected otherwise. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

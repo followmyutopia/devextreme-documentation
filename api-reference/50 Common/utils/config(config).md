@@ -22,7 +22,7 @@ An object containing the required global configuration options.
 <!--fullDescription-->
     DevExpress.config({
         rtlEnabled: true,
-        useJQuery: false,
+        forceIsoDateParsing: false,
         //...
     });
 <!--/fullDescription-->

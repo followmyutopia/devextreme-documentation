@@ -19,7 +19,7 @@ A Boolean value specifying whether to show or hide the widget.
 
 <!--returnType-->Promise<!--/returnType-->
 <!--returnDescription-->
-A Promise that is resolved after the widget is shown or hidden. It is a [jQuery.Promise](http://api.jquery.com/Types/#Promise) if the [useJQuery](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#useJQuery) flag is enabled and a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) otherwise.
+A Promise that is resolved after the widget is shown or hidden. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

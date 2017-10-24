@@ -19,7 +19,7 @@ Pass this object to the [DevExpress.config(globalConfig)](/Documentation/ApiRefe
 
     DevExpress.config({
         rtlEnabled: true,
-        useJQuery: false,
+        forceIsoDateParsing: false,
         //...
     });
 <!--/fullDescription-->
