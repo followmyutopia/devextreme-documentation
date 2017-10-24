@@ -17,7 +17,7 @@
 
 <!--/paramDescription1-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->DOMComponent<!--/returnType-->
 <!--returnDescription-->
 
 <!--/returnDescription-->
