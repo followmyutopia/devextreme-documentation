@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->'generic.light'<!--/default-->
-<!--acceptValues-->'generic.light' | 'generic.dark' | 'generic.contrast' | 'android5.light' | 'ios7.default' | 'win10.black' | 'win10.white'<!--/acceptValues-->
+<!--acceptValues-->'generic.light' | 'generic.dark' | 'generic.contrast' | 'generic.carmine' | 'generic.darkmoon' | 'generic.softblue' | 'generic.darkviolet' | 'generic.greenmist' | 'android5.light' | 'ios7.default' | 'win10.black' | 'win10.white'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
