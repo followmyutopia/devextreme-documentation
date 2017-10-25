@@ -31,7 +31,7 @@ Information about the event.
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -57,7 +57,7 @@ The cell that has been clicked to invoke the context menu.
 **NOTE:** Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->cellElement<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Element<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The clicked cell's container.   
 **NOTE:** Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).

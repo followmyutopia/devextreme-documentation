@@ -23,7 +23,7 @@ The index of the row that owns the cell.
 The visible index of the column that owns the cell.
 <!--/paramDescription2-->
 
-<!--returnType-->Element|undefined<!--/returnType-->
+<!--returnType-->dxElement|undefined<!--/returnType-->
 <!--returnDescription-->
 The element of the cell; provides access to [element-related jQuery operations](http://api.jquery.com/?s=element).
 <!--/returnDescription-->

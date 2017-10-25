@@ -28,7 +28,7 @@ Information about the event.
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -48,7 +48,7 @@ An array of items to be displayed by the context menu. The item objects must hav
 The name of the grid element on which the context menu is invoked: 'headerPanel', 'header', 'content' or 'footer'.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->targetElement<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Element<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->dxElement<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The cell that has been clicked to invoke the context menu.
 <!--/typeFunctionParamDescription1_field6-->

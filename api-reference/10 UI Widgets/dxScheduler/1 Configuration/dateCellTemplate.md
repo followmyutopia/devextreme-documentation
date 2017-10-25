@@ -79,7 +79,7 @@ The index of the date scale item to be rendered.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->Element<!--/typeFunctionParamType3-->
+<!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
 An HTML element of the date scale item to be rendered.
 <!--/typeFunctionParamDescription3-->

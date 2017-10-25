@@ -16,7 +16,7 @@ A function called before animation is started.
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->$element<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Element<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The animated object.
 <!--/typeFunctionParamDescription1-->

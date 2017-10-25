@@ -34,7 +34,7 @@ Information about the event.
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -80,7 +80,7 @@ Indicates whether the editor is disabled.
 Indicates whether the editor uses a right-to-left representation.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->editorElement<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->Element<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamType1_field11-->dxElement<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 The editor's container.
 <!--/typeFunctionParamDescription1_field11-->

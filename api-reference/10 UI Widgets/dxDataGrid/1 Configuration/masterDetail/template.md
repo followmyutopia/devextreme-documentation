@@ -102,7 +102,7 @@ Using a template engine, pass one of the following values to the **template** op
 - A function that returns a jQuery object or a DOM Node representing the template's container.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->detailElement<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Element<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The detail section's container.
 <!--/typeFunctionParamDescription1-->

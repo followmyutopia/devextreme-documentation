@@ -42,7 +42,7 @@
 <!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionParamName2-->container<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Element<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 
 <!--/typeFunctionParamDescription2-->

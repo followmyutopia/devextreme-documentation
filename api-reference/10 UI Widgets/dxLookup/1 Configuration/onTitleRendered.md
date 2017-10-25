@@ -23,12 +23,12 @@ Assign a function to perform a custom action after a collection item title is re
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->titleElement<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Element<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->dxElement<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The HTML element of the item title.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 An HTML element of the widget.
 <!--/typeFunctionParamDescription1_field2-->

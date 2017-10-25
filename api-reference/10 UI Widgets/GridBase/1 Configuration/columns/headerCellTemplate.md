@@ -39,7 +39,7 @@ When you use a template engine, the **headerCellTemplate** option should be give
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->columnHeader<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Element<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The header that you are customizing.
 <!--/typeFunctionParamDescription1-->

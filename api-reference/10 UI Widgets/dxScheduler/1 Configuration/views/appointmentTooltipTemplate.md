@@ -32,7 +32,7 @@ The appointment object whose tooltip should be rendered.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->Element<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 An HTML element of the appointment tooltip to be rendered.
 <!--/typeFunctionParamDescription2-->

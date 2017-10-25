@@ -11,7 +11,7 @@
 Gets the root element of the widget.
 <!--/shortDescription-->
 
-<!--returnType-->Element<!--/returnType-->
+<!--returnType-->dxElement<!--/returnType-->
 <!--returnDescription-->
 The root element of the widget.
 <!--/returnDescription-->

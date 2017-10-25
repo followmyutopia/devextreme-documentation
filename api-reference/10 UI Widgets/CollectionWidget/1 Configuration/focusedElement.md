@@ -7,5 +7,5 @@
 <!--merge--><!--/merge-->
 <!--hidden--><!--/hidden-->
 <!--default-->null<!--/default-->
-<!--type-->Element<!--/type-->
+<!--type-->dxElement<!--/type-->
 ===========================================================================

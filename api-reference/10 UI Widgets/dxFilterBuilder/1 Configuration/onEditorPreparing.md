@@ -28,7 +28,7 @@
 
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 
 <!--/typeFunctionParamDescription1_field2-->
@@ -72,3 +72,28 @@
 <!--typeFunctionParamDescription1_field10-->
 
 <!--/typeFunctionParamDescription1_field10-->
+<!--typeFunctionParamName1_field11-->updateValueTimeout<!--/typeFunctionParamName1_field11-->
+<!--typeFunctionParamType1_field11-->number<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamDescription1_field11-->
+
+<!--/typeFunctionParamDescription1_field11-->
+<!--typeFunctionParamName1_field12-->width<!--/typeFunctionParamName1_field12-->
+<!--typeFunctionParamType1_field12-->number<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamDescription1_field12-->
+
+<!--/typeFunctionParamDescription1_field12-->
+<!--typeFunctionParamName1_field13-->readOnly<!--/typeFunctionParamName1_field13-->
+<!--typeFunctionParamType1_field13-->boolean<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamDescription1_field13-->
+
+<!--/typeFunctionParamDescription1_field13-->
+<!--typeFunctionParamName1_field14-->disabled<!--/typeFunctionParamName1_field14-->
+<!--typeFunctionParamType1_field14-->boolean<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamDescription1_field14-->
+
+<!--/typeFunctionParamDescription1_field14-->
+<!--typeFunctionParamName1_field15-->rtlEnabled<!--/typeFunctionParamName1_field15-->
+<!--typeFunctionParamType1_field15-->boolean<!--/typeFunctionParamType1_field15-->
+<!--typeFunctionParamDescription1_field15-->
+
+<!--/typeFunctionParamDescription1_field15-->

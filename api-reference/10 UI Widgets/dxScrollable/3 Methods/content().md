@@ -11,7 +11,7 @@
 Returns an HTML element of the widget.
 <!--/shortDescription-->
 
-<!--returnType-->Element<!--/returnType-->
+<!--returnType-->dxElement<!--/returnType-->
 <!--returnDescription-->
 An element representing in widget.
 <!--/returnDescription-->

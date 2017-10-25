@@ -68,7 +68,7 @@ Provides function parameters.
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxScheduler/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
@@ -88,7 +88,7 @@ The data that is bound to the initial appointment.
 The data that is bound to the appointment to be rendered.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->appointmentElement<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Element<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->dxElement<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 An HTML element of the appointment.
 <!--/typeFunctionParamDescription1_field6-->

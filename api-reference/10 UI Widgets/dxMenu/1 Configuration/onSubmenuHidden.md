@@ -28,7 +28,7 @@ Provides function parameters.
 Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Element<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 An HTML element of the widget.
 <!--/typeFunctionParamDescription1_field2-->
@@ -38,7 +38,7 @@ An HTML element of the widget.
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->rootItem<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Element<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->dxElement<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 A jQuery object of the root menu element for which the submenu is hidden.
 <!--/typeFunctionParamDescription1_field4-->

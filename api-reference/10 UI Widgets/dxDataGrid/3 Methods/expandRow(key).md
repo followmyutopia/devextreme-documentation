@@ -17,6 +17,11 @@ Allows you to expand a specific group or master row by its key.
 The key of the group or master row.
 <!--/paramDescription1-->
 
+<!--returnType-->Promise<!--/returnType-->
+<!--returnDescription-->
+
+<!--/returnDescription-->
+
 <!--fullDescription-->
 To expand a group row, call this method with an array (each member of which is a grouping value). To expand a [master row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/), pass its key to this method.
 

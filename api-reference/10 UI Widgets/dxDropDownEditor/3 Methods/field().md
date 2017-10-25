@@ -11,7 +11,7 @@
 Returns an &lt;input&gt; element of the widget.
 <!--/shortDescription-->
 
-<!--returnType-->Element<!--/returnType-->
+<!--returnType-->dxElement<!--/returnType-->
 <!--returnDescription-->
 An &lt;input&gt; element of the widget.
 <!--/returnDescription-->

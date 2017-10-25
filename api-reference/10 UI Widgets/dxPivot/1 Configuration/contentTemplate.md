@@ -19,7 +19,7 @@ If the contentTemplate is defined, the widget does not render selected items. It
 If this option is defined, the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxPivot/Configuration/#itemTemplate) option is ignored.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->container<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Element<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The jQuery object of the widget content element.
 <!--/typeFunctionParamDescription1-->

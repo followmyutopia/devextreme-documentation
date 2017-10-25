@@ -121,7 +121,7 @@ When you implement a row template with a template engine, take into account cert
 To customize a row without defining the entire template, handle the [rowPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowPrepared) event.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowElement<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Element<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The row under customization.
 <!--/typeFunctionParamDescription1-->
