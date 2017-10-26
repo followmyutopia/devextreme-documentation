@@ -1,20 +1,8 @@
 The DevExtreme data visualization widgets consist of many elements, each of which has options that determine appearance. The default values of appearance options are united in a <i>theme</i>.
 
-DevExtreme provides at least one predefined theme for each supported platform. The list of supported platforms and themes is included below.
+DevExtreme provides Android, iOS and Windows themes as well as several generic themes. Generic themes are platform-agnostic and vary in color scheme.
 
-* **Android**
-    * 'android5.light'
-
-* **iOS**
-    * 'ios7.default'
-
-* **Windows 10**
-    * 'win10.black'
-    * 'win10.white'
-
-DevExtreme also provides the platform-agnostic theme set called **Generic**, which includes the 'generic.light' and 'generic.dark' themes.
-
-Each DevExtreme visualization widget has a **theme** configuration option that allows you to set a theme. It is also convenient to apply a theme for the entire page with several DevExtreme widgets. To do this, use the **DevExpress.viz.currentTheme** method passing the name of the required theme as a parameter.
+Each DevExtreme visualization widget has a [theme](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#theme) configuration option that allows you to set a theme. It is also convenient to apply a theme for the entire page with several DevExtreme widgets. To do this, use the **DevExpress.viz.currentTheme** method passing the name of the required theme as a parameter.
 
     <!--JavaScript-->DevExpress.viz.currentTheme('android5.light');
 

@@ -3,7 +3,7 @@ If you are satisfied with the majority of option values in the applied predefine
 - Introduce an object for a new theme and give a name to it.
 
         <!--JavaScript-->var myTheme = {
-            name: 'myCustomTheme',	
+            name: 'myCustomTheme',    
         };
 
 - Specify the required settings for each widget you use within separate objects.
@@ -13,15 +13,15 @@ If you are satisfied with the majority of option values in the applied predefine
             chart: {
                 // Theme options for "Chart"
             },
-			pie: {
-				// Theme options for "PieChart"
-			},
-			gauge: {
-				// Theme options for "CircularGauge" and "LinearGauge"
-			},
-			barGauge: {
-				// Theme options for "BarGauge"
-			},
+            pie: {
+                // Theme options for "PieChart"
+            },
+            gauge: {
+                // Theme options for "CircularGauge" and "LinearGauge"
+            },
+            barGauge: {
+                // Theme options for "BarGauge"
+            },
             rangeSelector: {
                 // Theme options for "RangeSelector"
             },
@@ -33,6 +33,12 @@ If you are satisfied with the majority of option values in the applied predefine
             },
             map: {
                 // Theme options for "VectorMap"
+            },
+            treemap: {
+                // Theme options for "TreeMap"
+            },
+            funnel: {
+                // Theme options for "Funnel"
             }
         };
 
