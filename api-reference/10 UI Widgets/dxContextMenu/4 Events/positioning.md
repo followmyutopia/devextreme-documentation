@@ -44,7 +44,7 @@ Provides access to the data that is available for binding against the element. A
 Returns a jQuery event that caused the event.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->position<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->position<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->positionConfig<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 An object that holds context menu positioning options.
 <!--/typeFunctionParamDescription1_field5-->

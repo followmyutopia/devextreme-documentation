@@ -44,7 +44,7 @@ Data that is available for binding against the element. Available only in the Kn
 The appointment object to be added to the data source.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Boolean|Promise<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Boolean|Promise<Boolean><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 A flag allowing you to prevent the appointment from being added to the data source.
 <!--/typeFunctionParamDescription1_field5-->

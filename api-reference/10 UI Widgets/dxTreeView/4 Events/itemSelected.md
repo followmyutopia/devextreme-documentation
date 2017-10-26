@@ -42,7 +42,7 @@ An HTML element of the widget.
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field7-->node<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->dxtreeviewnode<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->dxTreeViewNode<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 A node of the selected item.
 <!--/typeFunctionParamDescription1_field7-->

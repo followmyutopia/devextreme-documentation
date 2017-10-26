@@ -76,7 +76,7 @@ An HTML element of the widget.
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->file<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->File<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An uploaded file.
 <!--/typeFunctionParamDescription1_field4-->
@@ -86,7 +86,7 @@ An uploaded file.
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->request<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->XMLHttpRequest<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Specifies an XMLHttpRequest for the file.
 <!--/typeFunctionParamDescription1_field6-->

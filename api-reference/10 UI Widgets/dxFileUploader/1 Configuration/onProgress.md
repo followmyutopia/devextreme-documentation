@@ -38,7 +38,7 @@ An HTML element of the widget.
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->file<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->File<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An uploaded file.
 <!--/typeFunctionParamDescription1_field4-->
@@ -58,7 +58,7 @@ The total count of uploaded bytes.
 The total count of bytes in the XMLHttpRequest.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->jQueryEvent<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->ProgressEvent<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->jQuery.Event<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 An XMLHttpRequest progress event that caused the action execution.
 <!--/typeFunctionParamDescription1_field8-->

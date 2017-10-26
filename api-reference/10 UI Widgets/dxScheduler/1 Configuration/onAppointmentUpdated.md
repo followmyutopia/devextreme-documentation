@@ -43,7 +43,7 @@ Provides access to the data that is available for binding against the element. A
 The appointment object updated in the data source.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->error<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->JavaScript Error object<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Error<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The standard [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) object that defines the occurred error.
 <!--/typeFunctionParamDescription1_field5-->

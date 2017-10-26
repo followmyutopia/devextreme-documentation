@@ -45,7 +45,7 @@ The model data. Available only if you use Knockout.
 Text of the widget's text field.
 <!--/typeFunctionParamDescription1_field4-->
 
-<!--typeFunctionReturnType-->object|Promise<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->object|Promise<object><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The item object or a Promise that is resolved after a custom item is created.
 <!--/typeFunctionReturnDescription-->

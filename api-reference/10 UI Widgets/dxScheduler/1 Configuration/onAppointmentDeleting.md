@@ -43,7 +43,7 @@ Data that is available for binding against the element. Available only in the Kn
 The appointment object to be deleted from the data source.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Boolean|Promise<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Boolean|Promise<Boolean><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 A flag that allows you to prevent an appointment from being deleted. This field accepts a Boolean value or Promise. If you pass Promise to this field, appointment deleting is continued or canceled once Promise has been resolved.
 <!--/typeFunctionParamDescription1_field5-->

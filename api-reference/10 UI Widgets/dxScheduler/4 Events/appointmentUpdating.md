@@ -49,7 +49,7 @@ The appointment object to be updated in the data source.
 The appointment object containing new values for the specified appointment. 
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Boolean|Promise<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Boolean|Promise<Boolean><!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 A flag allowing you to prevent the appointment from being updated in the data source.
 <!--/typeFunctionParamDescription1_field6-->

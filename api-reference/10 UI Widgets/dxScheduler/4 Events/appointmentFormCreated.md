@@ -44,7 +44,7 @@ Provides access to the data that is available for binding against the element. A
 The object associated with the appointment for which a form is created.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->form<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->dxForm<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 An instance of the [Form](/Documentation/ApiReference/UI_Widgets/dxForm) widget used to edit the appointment details.
 <!--/typeFunctionParamDescription1_field5-->

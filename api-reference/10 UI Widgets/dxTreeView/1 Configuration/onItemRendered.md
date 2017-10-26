@@ -30,7 +30,7 @@ An HTML element of the widget.
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field8-->node<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->dxtreeviewnode<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->dxTreeViewNode<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The item node.
 <!--/typeFunctionParamDescription1_field8-->

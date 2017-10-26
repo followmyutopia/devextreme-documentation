@@ -49,7 +49,7 @@ An uploaded file.
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->request<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->XMLHttpRequest<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Specifies an XMLHttpRequest for the file.
 <!--/typeFunctionParamDescription1_field6-->

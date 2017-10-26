@@ -38,12 +38,12 @@ An HTML element of the widget.
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->value<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->array<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<File><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 Newly selected files.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->previousValue<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->array<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Array<File><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 Previously selected files.
 <!--/typeFunctionParamDescription1_field5-->

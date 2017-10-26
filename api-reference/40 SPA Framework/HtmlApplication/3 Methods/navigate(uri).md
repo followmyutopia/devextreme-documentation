@@ -11,16 +11,11 @@
 
 <!--/shortDescription-->
 
-<!--paramName1-->element<!--/paramName1-->
-<!--paramType1-->Node|JQuery<!--/paramType1-->
+<!--paramName1-->uri<!--/paramName1-->
+<!--paramType1-->string|object|undefined<!--/paramType1-->
 <!--paramDescription1-->
 
 <!--/paramDescription1-->
-
-<!--returnType-->DOMComponent<!--/returnType-->
-<!--returnDescription-->
-
-<!--/returnDescription-->
 
 <!--fullDescription-->
 
