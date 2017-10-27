@@ -16,7 +16,7 @@ Holds on a function called when the item is clicked.
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemElement<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->jQuery<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Specifies the current item element.
 <!--/typeFunctionParamDescription1-->

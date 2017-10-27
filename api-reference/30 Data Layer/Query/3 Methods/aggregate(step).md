@@ -17,7 +17,7 @@ Calculates a custom summary for the items in the current [Query](/Documentation/
 A function called for each item.
 <!--/paramDescription1-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<any><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved after the operation is completed. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

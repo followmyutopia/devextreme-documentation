@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -92,7 +92,7 @@ The visible index of the row to which the cell belongs.
 The [type of the row](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->cellElement<!--/typeFunctionParamName1_field14-->
-<!--typeFunctionParamType1_field14-->jQuery<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamType1_field14-->dxElement<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
 The cell's container.
 <!--/typeFunctionParamDescription1_field14-->

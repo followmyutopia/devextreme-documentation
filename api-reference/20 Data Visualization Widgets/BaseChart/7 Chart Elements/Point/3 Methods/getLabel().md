@@ -11,7 +11,7 @@
 Allows you to obtain the label(s) of the series point.
 <!--/shortDescription-->
 
-<!--returnType-->baseLabelObject|Array<!--/returnType-->
+<!--returnType-->baseLabelObject|Array<baseLabelObject><!--/returnType-->
 <!--returnDescription-->
 The point label(s).
 <!--/returnDescription-->

@@ -8,7 +8,7 @@
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--default-->undefined<!--/default-->
-<!--type-->Object | Array<!--/type-->
+<!--type-->Object | Array<Object><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

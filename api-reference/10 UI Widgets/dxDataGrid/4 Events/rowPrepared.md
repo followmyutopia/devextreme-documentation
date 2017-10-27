@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -86,7 +86,7 @@ Indicates whether the prepared row is [selected](/Documentation/Guide/Widgets/Da
 Indicates whether the prepared row is expanded.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->rowElement<!--/typeFunctionParamName1_field13-->
-<!--typeFunctionParamType1_field13-->jQuery<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamType1_field13-->dxElement<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
 The element of the hovered row.
 <!--/typeFunctionParamDescription1_field13-->

@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -58,8 +58,13 @@ Specifies the index of the expanded item.
 <!--typeFunctionParamDescription1_field7-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field7-->
-<!--typeFunctionParamName1_field8-->node<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->dxTreeViewNode<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamName1_field8-->event<!--/typeFunctionParamName1_field8-->
+<!--typeFunctionParamType1_field8-->event<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The expanded item node.
 <!--/typeFunctionParamDescription1_field8-->
+<!--typeFunctionParamName1_field9-->node<!--/typeFunctionParamName1_field9-->
+<!--typeFunctionParamType1_field9-->dxTreeViewNode<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamDescription1_field9-->
+
+<!--/typeFunctionParamDescription1_field9-->

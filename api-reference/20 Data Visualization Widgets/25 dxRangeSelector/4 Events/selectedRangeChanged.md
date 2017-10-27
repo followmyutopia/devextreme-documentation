@@ -7,7 +7,7 @@
 <!--dep-->..\1 Configuration\onValueChanged.md<!--/dep-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

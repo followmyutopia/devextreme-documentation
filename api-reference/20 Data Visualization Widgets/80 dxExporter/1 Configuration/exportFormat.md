@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->['PDF', 'PNG', 'SVG']<!--/default-->
 <!--acceptValues-->'PNG' | 'JPEG' | 'GIF' | 'PDF' | 'SVG'<!--/acceptValues-->
-<!--type-->Array<!--/type-->
+<!--type-->Array<String><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

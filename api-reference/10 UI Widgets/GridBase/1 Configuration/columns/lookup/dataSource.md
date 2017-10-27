@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->Array | DataSource_Options | function(options)<!--/type-->
+<!--type-->Array<any> | DataSource_Options | function(options)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

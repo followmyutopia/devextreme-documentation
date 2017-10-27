@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -48,8 +48,13 @@ An uploaded file.
 <!--typeFunctionParamDescription1_field5-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->request<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->XMLHttpRequest<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamName1_field6-->event<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->event<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Specifies an XMLHttpRequest for the file.
 <!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamName1_field7-->request<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->XMLHttpRequest<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamDescription1_field7-->
+
+<!--/typeFunctionParamDescription1_field7-->

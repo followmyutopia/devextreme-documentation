@@ -17,7 +17,7 @@ Selects rows by indexes.
 The indexes of the rows to be selected.
 <!--/paramDescription1-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<any><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved after the rows are selected. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

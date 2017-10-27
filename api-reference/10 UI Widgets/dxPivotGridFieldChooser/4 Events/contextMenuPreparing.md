@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -60,3 +60,8 @@ Options of the clicked field.
 <!--typeFunctionParamDescription1_field7-->
 The jQuery event.
 <!--/typeFunctionParamDescription1_field7-->
+<!--typeFunctionParamName1_field8-->event<!--/typeFunctionParamName1_field8-->
+<!--typeFunctionParamType1_field8-->event<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamDescription1_field8-->
+
+<!--/typeFunctionParamDescription1_field8-->

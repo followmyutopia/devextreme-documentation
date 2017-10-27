@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -102,7 +102,7 @@ Indicates whether the row is selected. Available if **rowType** is *'data'* or *
 Indicates whether the row is expanded or collapsed. Available if **rowType** is *'data'* or *'detail'*.
 <!--/typeFunctionParamDescription1_field15-->
 <!--typeFunctionParamName1_field16-->cellElement<!--/typeFunctionParamName1_field16-->
-<!--typeFunctionParamType1_field16-->jQuery<!--/typeFunctionParamType1_field16-->
+<!--typeFunctionParamType1_field16-->dxElement<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
 The cell's container.
 <!--/typeFunctionParamDescription1_field16-->

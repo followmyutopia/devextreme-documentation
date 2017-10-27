@@ -5,7 +5,7 @@
 
 **-->
 <!--merge--><!--/merge-->
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 <!--typeFunctionParamName1_field4-->start<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->number<!--/typeFunctionParamType1_field4-->

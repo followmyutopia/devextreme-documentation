@@ -52,8 +52,13 @@ An HTML element of the clicked cell.
 <!--typeFunctionParamDescription1_field6-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Boolean<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 Indicates whether or not to cancel execution of the default cell click handler.
 <!--/typeFunctionParamDescription1_field7-->
+<!--typeFunctionParamName1_field8-->cancel<!--/typeFunctionParamName1_field8-->
+<!--typeFunctionParamType1_field8-->Boolean<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamDescription1_field8-->
+
+<!--/typeFunctionParamDescription1_field8-->

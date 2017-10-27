@@ -11,7 +11,7 @@
 Gets the currently selected rows' keys. 
 <!--/shortDescription-->
 
-<!--returnType-->Array|Promise<!--/returnType-->
+<!--returnType-->Array<any>|Promise<any><!--/returnType-->
 <!--returnDescription-->
 The currently selected rows' keys or a Promise that is resolved with an array of keys.
 <!--/returnDescription-->

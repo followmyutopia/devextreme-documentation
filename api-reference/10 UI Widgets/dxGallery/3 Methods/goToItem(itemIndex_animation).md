@@ -23,7 +23,7 @@ An index of the required gallery item.
 A Boolean value indicating whether or not to use animation when switching to the required item.
 <!--/paramDescription2-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<void><!--/returnType-->
 <!--returnDescription-->
 A deferred object resolved after the gallery item has changed.
 <!--/returnDescription-->

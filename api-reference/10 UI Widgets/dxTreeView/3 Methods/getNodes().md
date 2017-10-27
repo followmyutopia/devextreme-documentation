@@ -11,7 +11,7 @@
 Returns all nodes of the tree view.
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<dxTreeViewNode><!--/returnType-->
 <!--returnDescription-->
 An array of tree view nodes.
 <!--/returnDescription-->

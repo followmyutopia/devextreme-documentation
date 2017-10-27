@@ -7,7 +7,7 @@
 <!--dep-->..\1 Configuration\onSelectionChanged.md<!--/dep-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

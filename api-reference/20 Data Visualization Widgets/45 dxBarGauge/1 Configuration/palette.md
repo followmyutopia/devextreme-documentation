@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'Default'<!--/default-->
 <!--acceptValues-->'Default' | 'Soft Pastel' | 'Harmony Light' | 'Pastel' | 'Bright' | 'Soft' | 'Ocean' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Soft Blue' | 'Dark Violet' | 'Green Mist'<!--/acceptValues-->
-<!--type-->Array | String<!--/type-->
+<!--type-->Array<String> | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -17,7 +17,7 @@ Calculates the sum of item getter values in the current [Query](/Documentation/A
 The required getter.
 <!--/paramDescription1-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<Number><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved after the operation is completed. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

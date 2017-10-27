@@ -11,7 +11,7 @@
 Returns the [searchExpr](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) option value.
 <!--/shortDescription-->
 
-<!--returnType-->getter|Array<!--/returnType-->
+<!--returnType-->getter|Array<getter><!--/returnType-->
 <!--returnDescription-->
 A getter representing a search expression.
 <!--/returnDescription-->

@@ -17,7 +17,7 @@ Gets points from the series point collection based on the specified argument.
 The argument of the point(s) to be found.
 <!--/paramDescription1-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<basePointObject><!--/returnType-->
 <!--returnDescription-->
 The points that are found by the specified argument.
 <!--/returnDescription-->

@@ -17,7 +17,7 @@ Gets all child cells in a specified direction.
 The direction in which to search for child cells. Can be 'row' or 'column'.
 <!--/paramDescription1-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<dxPivotGridSummaryCell><!--/returnType-->
 <!--returnDescription-->
 The array of child cells.
 <!--/returnDescription-->

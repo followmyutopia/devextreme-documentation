@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -46,7 +46,7 @@
 
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->editorElement<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->jQuery<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->dxElement<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 
 <!--/typeFunctionParamDescription1_field6-->

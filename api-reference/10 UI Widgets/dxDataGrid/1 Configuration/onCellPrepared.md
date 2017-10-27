@@ -100,7 +100,7 @@ Indicates whether the prepared row is selected. This field is useful if the **ro
 Indicates whether or not the group cell is expanded.  This field is unavailable if the **rowType** field is set to *"header"*, *"filter"* or *"totalFooter"*.
 <!--/typeFunctionParamDescription1_field15-->
 <!--typeFunctionParamName1_field16-->cellElement<!--/typeFunctionParamName1_field16-->
-<!--typeFunctionParamType1_field16-->jQuery<!--/typeFunctionParamType1_field16-->
+<!--typeFunctionParamType1_field16-->dxElement<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
 The element of the prepared cell.
 <!--/typeFunctionParamDescription1_field16-->

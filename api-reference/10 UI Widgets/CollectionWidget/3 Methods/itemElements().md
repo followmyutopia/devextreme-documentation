@@ -12,7 +12,7 @@
 
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<Node><!--/returnType-->
 <!--returnDescription-->
 
 <!--/returnDescription-->

@@ -17,7 +17,7 @@ Adds an item to the data associated with this Store.
 An object representing the new item.
 <!--/paramDescription1-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<any><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved after the item is inserted. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -63,8 +63,13 @@ The total count of bytes in the XMLHttpRequest.
 <!--typeFunctionParamDescription1_field8-->
 An XMLHttpRequest progress event that caused the action execution.
 <!--/typeFunctionParamDescription1_field8-->
-<!--typeFunctionParamName1_field9-->request<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->XMLHttpRequest<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamName1_field9-->event<!--/typeFunctionParamName1_field9-->
+<!--typeFunctionParamType1_field9-->event<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 An XMLHttpRequest for the file.
 <!--/typeFunctionParamDescription1_field9-->
+<!--typeFunctionParamName1_field10-->request<!--/typeFunctionParamName1_field10-->
+<!--typeFunctionParamType1_field10-->XMLHttpRequest<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamDescription1_field10-->
+
+<!--/typeFunctionParamDescription1_field10-->

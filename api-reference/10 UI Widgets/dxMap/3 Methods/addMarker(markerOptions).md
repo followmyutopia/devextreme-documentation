@@ -17,7 +17,7 @@ Adds a marker to the map.
 A marker object and an array of marker objects.
 <!--/paramDescription1-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<Object><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved with an original marker instance when the marker is added. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

@@ -8,7 +8,7 @@
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--default-->undefined<!--/default-->
-<!--type-->Object | Array<!--/type-->
+<!--type-->Object | Array<Object><!--/type-->
 <!--inherits-->..\..\5 Series Types\CommonSeries\CommonSeries.md<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================

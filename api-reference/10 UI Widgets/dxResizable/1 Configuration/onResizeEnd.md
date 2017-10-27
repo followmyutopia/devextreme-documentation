@@ -42,13 +42,18 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamDescription1_field4-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->width<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->number<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The current widget width.
 <!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->height<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamName1_field6-->width<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->number<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The current widget height.
 <!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamName1_field7-->height<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamDescription1_field7-->
+
+<!--/typeFunctionParamDescription1_field7-->

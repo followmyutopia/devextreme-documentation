@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -43,3 +43,8 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamDescription1_field4-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamDescription1_field5-->
+
+<!--/typeFunctionParamDescription1_field5-->

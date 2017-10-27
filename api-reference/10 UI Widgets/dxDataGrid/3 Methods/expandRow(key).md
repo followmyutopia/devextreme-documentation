@@ -17,7 +17,7 @@ Allows you to expand a specific group or master row by its key.
 The key of the group or master row.
 <!--/paramDescription1-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<void><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved after the row is expanded. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

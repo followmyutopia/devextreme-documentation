@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -60,8 +60,13 @@ An HTML element of the clicked appointment.
 <!--typeFunctionParamDescription1_field7-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field7-->
-<!--typeFunctionParamName1_field8-->cancel<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->Boolean<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamName1_field8-->event<!--/typeFunctionParamName1_field8-->
+<!--typeFunctionParamType1_field8-->event<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 Indicates whether or not to cancel execution of the default appointment click handler.
 <!--/typeFunctionParamDescription1_field8-->
+<!--typeFunctionParamName1_field9-->cancel<!--/typeFunctionParamName1_field9-->
+<!--typeFunctionParamType1_field9-->Boolean<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamDescription1_field9-->
+
+<!--/typeFunctionParamDescription1_field9-->

@@ -4,10 +4,15 @@
 -------------------------------------------
 
 **-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================
+
+<!--deprecated-->
+
+<!--/deprecated-->
 
 <!--shortDescription-->
 Indicates whether or not to set ticks of a date-time scale at the beginning of each date-time interval.

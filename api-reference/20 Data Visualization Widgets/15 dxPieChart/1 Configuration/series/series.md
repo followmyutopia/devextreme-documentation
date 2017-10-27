@@ -7,7 +7,7 @@
 ===========================================================================
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--default-->undefined<!--/default-->
-<!--type-->Object | Array<!--/type-->
+<!--type-->Object | Array<Object><!--/type-->
 <!--inherits-->..\..\5 Series Types\CommonPieChartSeries\CommonPieChartSeries.md<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================

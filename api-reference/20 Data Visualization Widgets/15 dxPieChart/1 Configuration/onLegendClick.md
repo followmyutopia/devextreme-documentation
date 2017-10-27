@@ -40,13 +40,18 @@ The widget's container.
 <!--typeFunctionParamDescription1_field3-->
 The jQuery event.
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->String|Number<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamName1_field4-->event<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The argument of the point(s) corresponding to the clicked legend item.
 <!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->points<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Array<Object><!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamName1_field5-->target<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->String|Number<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The [point(s)](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Chart_Elements/Point/) corresponding to the clicked legend item.
 <!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamName1_field6-->points<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->Array<Object><!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->

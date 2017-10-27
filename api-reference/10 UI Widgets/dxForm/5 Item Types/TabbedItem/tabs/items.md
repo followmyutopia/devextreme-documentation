@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->Array<!--/type-->
+<!--type-->Array<dxFormSimpleItem, dxFormGroupItem, dxFormTabbedItem, dxFormEmptyItem><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

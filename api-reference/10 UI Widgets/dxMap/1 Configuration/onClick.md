@@ -49,3 +49,8 @@ Specifies the location of the clicked point on the map (if the 'google' or 'bing
 <!--typeFunctionParamDescription1_field5-->
 The jQuery event that caused action execution (if a static google provider is used).
 <!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamName1_field6-->event<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->event<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->

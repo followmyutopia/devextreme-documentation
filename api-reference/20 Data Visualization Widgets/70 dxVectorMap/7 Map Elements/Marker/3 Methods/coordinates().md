@@ -14,7 +14,7 @@ Use the **Layer Element**.**coordinates()** method instead.
 Returns the coordinates of a specific marker.
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<Number><!--/returnType-->
 <!--returnDescription-->
 The coordinates of a specific marker.
 <!--/returnDescription-->

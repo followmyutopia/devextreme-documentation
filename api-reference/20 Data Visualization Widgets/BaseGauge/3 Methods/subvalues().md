@@ -11,7 +11,7 @@
 Returns an array of gauge subvalues.
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<Number><!--/returnType-->
 <!--returnDescription-->
 An array of gauge subvalues.
 <!--/returnDescription-->

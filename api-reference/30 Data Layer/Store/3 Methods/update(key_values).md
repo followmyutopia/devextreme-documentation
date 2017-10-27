@@ -23,7 +23,7 @@ The key value of the item being updated.
 The object containing new values for the specified item.
 <!--/paramDescription2-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<any><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved after the item is updated. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

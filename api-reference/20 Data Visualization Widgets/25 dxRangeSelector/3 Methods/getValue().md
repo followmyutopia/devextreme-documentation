@@ -11,7 +11,7 @@
 Gets the currently selected range.
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<Number, String, Date><!--/returnType-->
 <!--returnDescription-->
 Two values that represent the start and end values of the currently selected range.
 <!--/returnDescription-->

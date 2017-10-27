@@ -23,7 +23,7 @@ Gets all fields within a specified area.
 Specifies whether to display groups as separate items.
 <!--/paramDescription2-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<PivotGridDataSource_Options_fields><!--/returnType-->
 <!--returnDescription-->
 An array of [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/).
 <!--/returnDescription-->

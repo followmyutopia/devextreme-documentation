@@ -53,7 +53,7 @@
 
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->editorElement<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->jQuery<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 
 <!--/typeFunctionParamDescription1_field7-->

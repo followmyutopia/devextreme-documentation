@@ -20,7 +20,7 @@ Returns the value of an attribute.
 The name of an attribute.
 <!--/paramDescription1-->
 
-<!--returnType-->Object|Array|Number|String|Boolean<!--/returnType-->
+<!--returnType-->Object|Array<any>|Number|String|Boolean<!--/returnType-->
 <!--returnDescription-->
 The value of the required attribute.
 <!--/returnDescription-->

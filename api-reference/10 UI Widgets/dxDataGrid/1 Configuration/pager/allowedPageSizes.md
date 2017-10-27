@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->'auto'<!--/default-->
 <!--acceptValues-->'auto'<!--/acceptValues-->
-<!--type-->Array | String<!--/type-->
+<!--type-->Array<Number> | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

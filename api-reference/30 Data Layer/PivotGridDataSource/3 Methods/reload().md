@@ -11,7 +11,7 @@
 Starts reloading data from any [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/) and updating the data source.
 <!--/shortDescription-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<any><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved after data is loaded. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

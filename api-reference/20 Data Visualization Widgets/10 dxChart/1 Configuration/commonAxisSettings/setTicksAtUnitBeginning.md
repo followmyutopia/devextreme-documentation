@@ -4,10 +4,15 @@
 -------------------------------------------
 
 **-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================
+
+<!--deprecated-->
+
+<!--/deprecated-->
 
 <!--shortDescription-->
 Rounds off date-time values to the nearest tick interval. Applies only to the axes of the *"continuous"* type containing date-time values.

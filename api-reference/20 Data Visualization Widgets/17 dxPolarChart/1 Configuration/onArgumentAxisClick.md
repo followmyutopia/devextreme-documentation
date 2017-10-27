@@ -39,13 +39,18 @@ The widget's container.
 <!--typeFunctionParamDescription1_field3-->
 The jQuery event.
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamName1_field4-->event<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The argument axis.
 <!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->argument<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Date|Number|string<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamName1_field5-->target<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The value of the clicked label.
 <!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamName1_field6-->argument<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->Date|Number|string<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->

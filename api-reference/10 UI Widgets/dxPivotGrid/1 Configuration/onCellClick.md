@@ -82,8 +82,13 @@ Fields of the *data* area.
 <!--typeFunctionParamDescription1_field12-->
 The jQuery event.
 <!--/typeFunctionParamDescription1_field12-->
-<!--typeFunctionParamName1_field13-->cancel<!--/typeFunctionParamName1_field13-->
-<!--typeFunctionParamType1_field13-->boolean<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamName1_field13-->event<!--/typeFunctionParamName1_field13-->
+<!--typeFunctionParamType1_field13-->event<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
 Set this field to **true** if you need to prevent the clicked field from expansion.
 <!--/typeFunctionParamDescription1_field13-->
+<!--typeFunctionParamName1_field14-->cancel<!--/typeFunctionParamName1_field14-->
+<!--typeFunctionParamType1_field14-->boolean<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamDescription1_field14-->
+
+<!--/typeFunctionParamDescription1_field14-->

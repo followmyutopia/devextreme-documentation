@@ -11,7 +11,7 @@
 Gets the current coordinates of the map viewport.
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<Number><!--/returnType-->
 <!--returnDescription-->
 The current coordinates of the map viewport.
 <!--/returnDescription-->

@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -101,7 +101,7 @@ Indicates whether or not the current row is selected.
 Indicates whether or not the group cell is expanded. This field is useful if the **rowType** field is *'group'*.
 <!--/typeFunctionParamDescription1_field15-->
 <!--typeFunctionParamName1_field16-->cellElement<!--/typeFunctionParamName1_field16-->
-<!--typeFunctionParamType1_field16-->jQuery<!--/typeFunctionParamType1_field16-->
+<!--typeFunctionParamType1_field16-->dxElement<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
 The element of the prepared cell.
 <!--/typeFunctionParamDescription1_field16-->

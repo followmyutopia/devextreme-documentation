@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -55,3 +55,8 @@ Specifies the widget's previous value.
 <!--typeFunctionParamDescription1_field6-->
 A deprecated field. Use the itemData field instead.
 <!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamDescription1_field7-->
+
+<!--/typeFunctionParamDescription1_field7-->

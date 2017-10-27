@@ -17,7 +17,7 @@ Collapses the specified group.
 The index of the group to be collapsed.
 <!--/paramDescription1-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<void><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved if the group is collapsed and rejected otherwise. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

@@ -29,7 +29,7 @@ The bag of parameters supported by the operation.
 Specifies the HTTP method for this operation. The default value is "POST".
 <!--/paramDescription3-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<void><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved after the operation has completed. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

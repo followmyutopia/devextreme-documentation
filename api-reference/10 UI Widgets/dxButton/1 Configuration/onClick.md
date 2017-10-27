@@ -55,8 +55,13 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamDescription1_field4-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->validationGroup<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->object<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 Specifies the object representing the validation group to which the button is related.
 <!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamName1_field6-->validationGroup<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->

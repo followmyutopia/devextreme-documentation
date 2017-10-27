@@ -11,7 +11,7 @@
 Returns an array of all series in the chart.
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<baseSeriesObject><!--/returnType-->
 <!--returnDescription-->
 The series from the chart's **series** collection.
 <!--/returnDescription-->

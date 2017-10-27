@@ -11,7 +11,7 @@
 Returns the array of current [Query](/Documentation/ApiReference/Data_Layer/Query/) items.
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<any><!--/returnType-->
 <!--returnDescription-->
 The array of items.
 <!--/returnDescription-->

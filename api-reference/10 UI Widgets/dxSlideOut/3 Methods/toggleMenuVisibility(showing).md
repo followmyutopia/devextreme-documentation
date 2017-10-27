@@ -17,7 +17,7 @@ Toggles the visibility of the widget's slide-out menu.
 A Boolean value specifying whether to show or hide the widget's slide-out menu.
 <!--/paramDescription1-->
 
-<!--returnType-->Promise<!--/returnType-->
+<!--returnType-->Promise<void><!--/returnType-->
 <!--returnDescription-->
 A Promise that is resolved after the menu is shown/hidden. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->

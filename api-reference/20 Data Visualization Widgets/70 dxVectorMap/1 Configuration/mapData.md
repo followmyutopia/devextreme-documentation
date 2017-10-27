@@ -8,7 +8,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->
-<!--type-->Array | String<!--/type-->
+<!--type-->Array<String> | String<!--/type-->
 ===========================================================================
 
 <!--deprecated-->

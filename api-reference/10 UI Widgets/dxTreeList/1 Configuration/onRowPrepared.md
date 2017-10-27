@@ -79,7 +79,7 @@ Indicates whether the row is selected. Available if **rowType** is *'data'* or *
 Indicates whether the row is expanded or collapsed. Available if **rowType** is *'data'* or *'detail'*.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->rowElement<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->jQuery<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->dxElement<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 The row's container.
 <!--/typeFunctionParamDescription1_field12-->

@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Array<!--/type-->
+<!--type-->Array<Object><!--/type-->
 <!--inherits-->..\..\commonAxisSettings\constantLineStyle\constantLineStyle.md<!--/inherits-->
 ===========================================================================
 

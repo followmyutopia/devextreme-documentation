@@ -11,7 +11,7 @@
 Gets the currently selected rows' keys. 
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<any><!--/returnType-->
 <!--returnDescription-->
 The currently selected row keys.
 <!--/returnDescription-->

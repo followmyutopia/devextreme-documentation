@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->event<!--/type-->
+<!--type-->eventType<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -53,3 +53,8 @@ Returns the widget's previous value.
 <!--typeFunctionParamDescription1_field6-->
 Specifies the jQuery event that caused the action execution.
 <!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamDescription1_field7-->
+
+<!--/typeFunctionParamDescription1_field7-->

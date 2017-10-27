@@ -11,7 +11,7 @@
 Gets all visible columns.
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<dxDataGrid_Options_columns><!--/returnType-->
 <!--returnDescription-->
 Visible columns; may include [command columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/).
 <!--/returnDescription-->

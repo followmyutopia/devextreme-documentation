@@ -7,7 +7,7 @@
 ===========================================================================
 <!--default-->['day', 'week']<!--/default-->
 <!--acceptValues-->'day' | 'week' | 'workWeek' | 'month' | 'timelineDay' | 'timelineWeek' | 'timelineWorkWeek' | 'timelineMonth' | 'agenda'<!--/acceptValues-->
-<!--type-->Array<!--/type-->
+<!--type-->Array<String><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

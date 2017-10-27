@@ -6,7 +6,7 @@
 **-->
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Array | DataSource | DataSource_Options | String<!--/type-->
+<!--type-->Array<any> | DataSource | DataSource_Options | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

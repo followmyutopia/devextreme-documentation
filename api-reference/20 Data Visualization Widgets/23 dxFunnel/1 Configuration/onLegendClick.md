@@ -38,8 +38,13 @@ The widget's container.
 <!--typeFunctionParamDescription1_field3-->
 The original jQuery event.
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->item<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->dxFunnelItem<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamName1_field4-->event<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
 <!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamName1_field5-->item<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->dxFunnelItem<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamDescription1_field5-->
+
+<!--/typeFunctionParamDescription1_field5-->

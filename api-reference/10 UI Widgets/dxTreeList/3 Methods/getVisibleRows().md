@@ -11,7 +11,7 @@
 Gets currently rendered rows.
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<dxTreeListRowObject><!--/returnType-->
 <!--returnDescription-->
 Currently rendered rows. 
 <!--/returnDescription-->

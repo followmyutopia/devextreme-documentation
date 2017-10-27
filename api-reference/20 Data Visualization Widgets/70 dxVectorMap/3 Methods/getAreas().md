@@ -14,7 +14,7 @@ Use the layer's [getElements()](/Documentation/ApiReference/Data_Visualization_W
 Returns an array with all the map areas.
 <!--/shortDescription-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<areaObjects><!--/returnType-->
 <!--returnDescription-->
 An array of the map areas.
 <!--/returnDescription-->

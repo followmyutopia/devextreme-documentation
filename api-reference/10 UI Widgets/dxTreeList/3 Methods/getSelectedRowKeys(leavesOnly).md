@@ -17,7 +17,7 @@ Gets the currently selected row keys.
 Specifies whether this method returns only leaves' keys.
 <!--/paramDescription1-->
 
-<!--returnType-->Array<!--/returnType-->
+<!--returnType-->Array<any><!--/returnType-->
 <!--returnDescription-->
 The currently selected row keys.
 <!--/returnDescription-->

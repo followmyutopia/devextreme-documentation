@@ -88,7 +88,7 @@ The [settings of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/C
 The type of the row to which the current cell belongs. This field equals *'data'* for data rows or *'group'* for group rows. Use this field to distinguish rows by type.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->cellElement<!--/typeFunctionParamName1_field14-->
-<!--typeFunctionParamType1_field14-->jQuery<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamType1_field14-->dxElement<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
 The element of the hovered cell.
 <!--/typeFunctionParamDescription1_field14-->

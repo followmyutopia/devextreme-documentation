@@ -11,7 +11,7 @@
 Gets data objects of currently selected rows. 
 <!--/shortDescription-->
 
-<!--returnType-->Array|Promise<!--/returnType-->
+<!--returnType-->Array<any>|Promise<any><!--/returnType-->
 <!--returnDescription-->
 Data objects of currently selected rows or a Promise that is resolved with an array of these objects.
 <!--/returnDescription-->
