@@ -32,7 +32,7 @@ Provides access to the widget's instance.
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Indicates whether or not to cancel hiding the action sheet menu when clicking the Cancel button.
+The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
@@ -42,5 +42,5 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamName1_field4-->cancel<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->boolean<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Specifies whether or not to cancel hiding the action sheet.
+Indicates whether or not to cancel hiding the action sheet when the Cancel button is clicked.
 <!--/typeFunctionParamDescription1_field4-->

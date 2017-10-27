@@ -58,7 +58,7 @@ The index of the menu item to be rendered.
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
 <!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
-An HTML element of the menu item to be rendered.
+The container of the menu item to be rendered.
 <!--/typeFunctionParamDescription3-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

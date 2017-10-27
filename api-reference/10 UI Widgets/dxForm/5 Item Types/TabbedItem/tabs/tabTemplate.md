@@ -31,5 +31,5 @@ The index of the tab in the [tabs](/Documentation/ApiReference/UI_Widgets/dxForm
 <!--typeFunctionParamName3-->tabElement<!--/typeFunctionParamName3-->
 <!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
-The HTML element of the tab.
+The tab's container.
 <!--/typeFunctionParamDescription3-->

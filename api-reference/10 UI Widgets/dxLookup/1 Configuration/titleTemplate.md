@@ -28,7 +28,7 @@ This option enables you to render the widget title depending on field values of 
 <!--typeFunctionParamName1-->titleElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An HTML element containing the rendered title.
+The title's container.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

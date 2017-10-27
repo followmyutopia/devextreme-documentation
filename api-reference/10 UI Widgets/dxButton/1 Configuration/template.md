@@ -47,7 +47,7 @@ The button's icon.
 <!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The jQuery object of the button content element.
+The button content's container.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->string|jQuery<!--/typeFunctionReturnType-->

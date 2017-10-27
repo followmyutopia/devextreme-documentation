@@ -31,7 +31,7 @@ Provides access to the widget's instance.
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-An HTML element of the widget.
+The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
@@ -46,5 +46,5 @@ The data that is bound to the item whose title should be rendered.
 <!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-An HTML element of the item.
+The item's container.
 <!--/typeFunctionParamDescription1_field5-->

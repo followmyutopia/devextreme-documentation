@@ -40,7 +40,7 @@ The item object associated with a tag to be rendered.
 <!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-An HTML element of the tag to be rendered.
+The container of the tag to be rendered.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

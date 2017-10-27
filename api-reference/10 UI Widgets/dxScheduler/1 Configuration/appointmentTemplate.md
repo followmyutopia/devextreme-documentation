@@ -86,7 +86,7 @@ The index of the appointment to be rendered.
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
 <!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
-An HTML element of the appointment to be rendered.
+The container of the appointment to be rendered.
 <!--/typeFunctionParamDescription3-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

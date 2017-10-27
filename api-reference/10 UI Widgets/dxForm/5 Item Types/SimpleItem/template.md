@@ -38,7 +38,7 @@ An object providing access to the field data, form instance and the configuratio
 <!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-An HTML element of the item to be rendered.
+The container of the item to be rendered.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

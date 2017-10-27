@@ -25,7 +25,7 @@ The name of the data field in the data source.
 
 <!--returnType-->dxElement|undefined<!--/returnType-->
 <!--returnDescription-->
-The element of the cell; provides access to [element-related jQuery operations](http://api.jquery.com/?s=element).
+The cell's container. An [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery element](http://api.jquery.com/Types/#jQuery) when you use jQuery. If the specified row or data field does not exist, the method returns **undefined**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -13,7 +13,7 @@ Returns an HTML element of the widget menu block.
 
 <!--returnType-->dxElement<!--/returnType-->
 <!--returnDescription-->
-An element of the widget menu block.
+The widget menu's element. An [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

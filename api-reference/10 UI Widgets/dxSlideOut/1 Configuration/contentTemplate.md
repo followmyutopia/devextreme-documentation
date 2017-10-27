@@ -21,7 +21,7 @@ If this option is defined, the [itemTemplate](/Documentation/ApiReference/UI_Wid
 <!--typeFunctionParamName1-->container<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The jQuery object of the widget content element.
+The widget content's container.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

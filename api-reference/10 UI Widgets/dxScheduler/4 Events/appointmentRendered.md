@@ -53,5 +53,5 @@ The data that is bound to the appointment to be rendered.
 <!--typeFunctionParamName1_field6-->appointmentElement<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->dxElement<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-An HTML element of the appointment.
+The appointment's container.
 <!--/typeFunctionParamDescription1_field6-->

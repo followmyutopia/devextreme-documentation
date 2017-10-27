@@ -48,7 +48,7 @@ The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configurat
 <!--typeFunctionParamName1_field5-->cellElement<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The jQuery element of the clicked cell.
+The clicked cell's container.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cell<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->dxPivotGridPivotGridCell<!--/typeFunctionParamType1_field6-->

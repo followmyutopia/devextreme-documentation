@@ -30,7 +30,7 @@ Provides access to the widget's instance.
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-An HTML element of the widget.
+The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
@@ -40,7 +40,7 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamName1_field4-->rootItem<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->dxElement<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-A jQuery object of the root menu element for which the submenu is being hidden.
+The container of the root menu element for which the submenu is being hidden.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->boolean<!--/typeFunctionParamType1_field5-->

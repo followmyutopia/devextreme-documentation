@@ -13,7 +13,7 @@ Returns an &lt;input&gt; element of the widget.
 
 <!--returnType-->dxElement<!--/returnType-->
 <!--returnDescription-->
-An &lt;input&gt; element of the widget.
+The widget's &lt;input&gt; element. An [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

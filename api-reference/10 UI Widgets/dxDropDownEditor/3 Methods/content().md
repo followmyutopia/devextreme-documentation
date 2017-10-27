@@ -13,7 +13,7 @@ Returns an HTML element of the popup window content.
 
 <!--returnType-->dxElement<!--/returnType-->
 <!--returnDescription-->
-An element of the popup window content.
+The popup window content's container. An [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

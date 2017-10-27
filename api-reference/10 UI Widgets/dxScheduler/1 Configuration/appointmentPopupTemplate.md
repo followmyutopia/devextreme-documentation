@@ -56,7 +56,7 @@ The appointment object whose popup should be rendered.
 <!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-An HTML element of the appointment popup to be rendered.
+The container of the appointment popup to be rendered.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->string|jQuery<!--/typeFunctionReturnType-->

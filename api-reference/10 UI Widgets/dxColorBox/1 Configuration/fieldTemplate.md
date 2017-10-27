@@ -30,7 +30,7 @@ The selected value.
 <!--typeFunctionParamName2-->fieldElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-An HTML element of the field to be rendered.
+The container of the field to be rendered.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

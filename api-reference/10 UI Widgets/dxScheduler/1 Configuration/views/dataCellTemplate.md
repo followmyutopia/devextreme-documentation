@@ -44,7 +44,7 @@ The index of the table cell to be rendered.
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
 <!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
-An HTML element of the table cell to be rendered.
+The container of the table cell to be rendered.
 <!--/typeFunctionParamDescription3-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

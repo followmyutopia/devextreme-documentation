@@ -44,7 +44,7 @@ The index of the group.
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
 <!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
-The element of the group.
+The group's container.
 <!--/typeFunctionParamDescription3-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
