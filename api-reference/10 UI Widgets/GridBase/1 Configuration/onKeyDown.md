@@ -41,10 +41,10 @@ The original jQuery event.
 <!--typeFunctionParamName1_field4-->event<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Indicates whether the widget has already handled this event.
+The event that caused action execution.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->handled<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->boolean<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-
+Indicates whether the widget has already handled this event.
 <!--/typeFunctionParamDescription1_field5-->

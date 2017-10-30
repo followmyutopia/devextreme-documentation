@@ -59,13 +59,10 @@ Specifies the jQuery event that caused action execution.
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field5-->validationGroup<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->object<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-Specifies the validation group object to which the button is related.
+Specifies the event that caused action execution.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->validationGroup<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+Specifies the validation group object to which the button is related.
 <!--/typeFunctionParamDescription1_field6-->

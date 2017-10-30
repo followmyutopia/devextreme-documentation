@@ -86,10 +86,10 @@ The jQuery event.
 <!--typeFunctionParamName1_field13-->event<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->event<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-Set this field to **true** if you need to prevent the clicked field from expansion.
+The event that caused the action execution.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->cancel<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->boolean<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-
+Set this field to **true** if you need to prevent the clicked field from expansion.
 <!--/typeFunctionParamDescription1_field14-->

@@ -39,21 +39,21 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The jQuery event.
+The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->jQueryEvent<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->jQuery.Event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The clicked series.
+The jQuery event.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamDeprecated1_field4-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field4-->
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-
+The event that caused action execution.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->target<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->chartSeriesObject<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+The clicked series.
 <!--/typeFunctionParamDescription1_field6-->

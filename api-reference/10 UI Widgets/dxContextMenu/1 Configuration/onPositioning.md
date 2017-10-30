@@ -46,10 +46,10 @@ Returns a jQuery event that caused the event.
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-An object that holds context menu positioning options.
+Specifies the event that caused action execution.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->position<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->positionConfig<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+An object that holds context menu positioning options.
 <!--/typeFunctionParamDescription1_field6-->

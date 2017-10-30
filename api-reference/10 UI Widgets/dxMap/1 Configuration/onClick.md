@@ -53,5 +53,5 @@ The jQuery event that caused action execution (if a static google provider is us
 <!--typeFunctionParamName1_field6-->event<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->event<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+The event that caused the action execution.
 <!--/typeFunctionParamDescription1_field6-->

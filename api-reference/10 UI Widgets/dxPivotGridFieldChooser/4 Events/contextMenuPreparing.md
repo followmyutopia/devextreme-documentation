@@ -64,5 +64,5 @@ The jQuery event.
 <!--typeFunctionParamName1_field8-->event<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->event<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-
+The event that caused the action execution.
 <!--/typeFunctionParamDescription1_field8-->

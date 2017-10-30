@@ -47,15 +47,15 @@ Specifies the jQuery event that caused action execution.
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The current widget width.
+Specifies the event that caused the action execution.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->width<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->number<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The current widget height.
+The current widget width.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->height<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-
+The current widget height.
 <!--/typeFunctionParamDescription1_field7-->

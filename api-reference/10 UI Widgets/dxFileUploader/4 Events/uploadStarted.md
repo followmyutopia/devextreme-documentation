@@ -52,10 +52,10 @@ Specifies the jQuery event that caused action execution.
 <!--typeFunctionParamName1_field6-->event<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->event<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-Specifies an XMLHttpRequest for the file.
+The event that caused action execution.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->request<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->XMLHttpRequest<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-
+Specifies an XMLHttpRequest for the file.
 <!--/typeFunctionParamDescription1_field7-->

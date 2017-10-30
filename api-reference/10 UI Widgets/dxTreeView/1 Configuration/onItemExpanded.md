@@ -65,10 +65,10 @@ Specifies the jQuery event that caused action execution.
 <!--typeFunctionParamType1_field8-->event<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The expanded item node.
+Specifies the event that caused the action execution.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->node<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->dxTreeViewNode<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-
+The expanded item node.
 <!--/typeFunctionParamDescription1_field9-->

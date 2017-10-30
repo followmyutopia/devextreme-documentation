@@ -67,10 +67,10 @@ An XMLHttpRequest progress event that caused the action execution.
 <!--typeFunctionParamName1_field9-->event<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->event<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-An XMLHttpRequest for the file.
+The event that caused action execution.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->request<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->XMLHttpRequest<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-
+An XMLHttpRequest for the file.
 <!--/typeFunctionParamDescription1_field10-->

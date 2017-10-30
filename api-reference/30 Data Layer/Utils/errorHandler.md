@@ -27,5 +27,5 @@ For more information on handling errors, refer to the [Data Layer](/Documentatio
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Error<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-
+The JavaScript **Error** object.
 <!--/typeFunctionParamDescription1-->

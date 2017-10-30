@@ -47,5 +47,5 @@ The jQuery event that caused the action execution.
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-
+Specifies the event that caused action execution.
 <!--/typeFunctionParamDescription1_field5-->

@@ -53,11 +53,11 @@ Specifies the widget's previous value.
 <!--typeFunctionParamName1_field6-->jQueryEvent<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->jQuery.Event<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-A deprecated field. Use the itemData field instead.
+Specifies the jQuery event that caused the action execution.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamDeprecated1_field6-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field6-->
 <!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-
+Specifies the jQuery event that caused the action execution.
 <!--/typeFunctionParamDescription1_field7-->

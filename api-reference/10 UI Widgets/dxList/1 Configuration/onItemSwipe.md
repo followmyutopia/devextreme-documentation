@@ -49,25 +49,25 @@ Specifies the jQuery event that caused action execution.
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The data that is bound to the swiped item.
+Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->itemData<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The item's container.
+The data that is bound to the swiped item.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->itemElement<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The index of the swiped items. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
+The item's container.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->itemIndex<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->number | object<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-Specifies whether the swipe operation is performed in the left or right direction.
+The index of the swiped items. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->direction<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->string<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-
+Specifies whether the swipe operation is performed in the left or right direction.
 <!--/typeFunctionParamDescription1_field9-->

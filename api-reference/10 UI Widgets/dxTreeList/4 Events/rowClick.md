@@ -47,56 +47,56 @@ The original jQuery event.
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The row data.
+The event that caused the action execution.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->data<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The row key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.       
-For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
+The row data.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->key<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->any<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-Values displayed in the row cells.
+The row key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.       
+For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->values<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->Array<Object><!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-[Configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of all columns.
+Values displayed in the row cells.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->columns<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->Array<Object><!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The row's visible index.
+[Configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of all columns.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rowIndex<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->number<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-The [type of the row](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
+The row's visible index.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->rowType<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->string<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Indicates whether the row is selected. Available if **rowType** is *'data'* or *'detail'*.
+The [type of the row](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->isSelected<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-Indicates whether the row is expanded or collapsed. Available if **rowType** is *'data'* or *'detail'*.
+Indicates whether the row is selected. Available if **rowType** is *'data'* or *'detail'*.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->isExpanded<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->boolean<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-The row's container.
+Indicates whether the row is expanded or collapsed. Available if **rowType** is *'data'* or *'detail'*.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->rowElement<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->dxElement<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-Indicates whether internal widget handlers have already handled the event.
+The row's container.
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->handled<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->boolean<!--/typeFunctionParamType1_field15-->
 <!--typeFunctionParamDescription1_field15-->
-
+Indicates whether internal widget handlers have already handled the event.
 <!--/typeFunctionParamDescription1_field15-->

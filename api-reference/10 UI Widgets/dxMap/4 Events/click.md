@@ -52,5 +52,5 @@ Returns a jQuery event that caused the action execution (if a static google prov
 <!--typeFunctionParamName1_field6-->event<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->event<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+Returns the event that caused the action execution.
 <!--/typeFunctionParamDescription1_field6-->

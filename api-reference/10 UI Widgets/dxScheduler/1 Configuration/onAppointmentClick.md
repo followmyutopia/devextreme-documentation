@@ -101,10 +101,10 @@ Specifies the jQuery event that caused action execution.
 <!--typeFunctionParamName1_field8-->event<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->event<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-Indicates whether or not to cancel execution of the default appointment click handler.
+Specifies the event that caused the action execution.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->cancel<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->Boolean<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-
+Indicates whether or not to cancel execution of the default appointment click handler.
 <!--/typeFunctionParamDescription1_field9-->
