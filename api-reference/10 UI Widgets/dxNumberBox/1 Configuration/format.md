@@ -32,7 +32,7 @@ The format can contain the following characters:
     <tr>
       <td>&#35;</td>
       <td>
-            A digit or nothing. One symbol matches several integer digits, but only decimal digit. </br> 
+            A digit or nothing. One symbol matches several integer digits, but only one decimal digit. </br> 
             For example, "#.#" matches "123.4", not "123.45".
       </td>
     </tr>

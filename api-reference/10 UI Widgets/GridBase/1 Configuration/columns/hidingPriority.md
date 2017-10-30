@@ -14,7 +14,7 @@ Specifies the order in which columns are hidden when the widget adapts to the sc
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **hidingPriority** is a unique positive integer that ascends from right to left beginning with 0. Columns with low **hidingPriority** are hidden first.
+The **hidingPriority** is a unique positive integer that ascends from right to left beginning with 0 by default. Columns with low **hidingPriority** are hidden first.
 
 [note]Specifying **hidingPriority** for at least one column enables the column hiding feature and cancels the default hiding priorities.
 
