@@ -23,7 +23,7 @@ Assign a function to perform a custom action before a context menu is displayed 
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -58,7 +58,7 @@ The cell that has been clicked to invoke the context menu.
 The current index of the column to which the clicked cell belongs. For more information on how this index is calculated, refer to the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->Object<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->dxDataGridOptions_columns<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The [settings of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) to which the clicked cell belongs.
 <!--/typeFunctionParamDescription1_field8-->

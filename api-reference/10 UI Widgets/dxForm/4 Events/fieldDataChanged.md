@@ -24,7 +24,7 @@ Instead, you can use the [onFieldDataChanged](/Documentation/ApiReference/UI_Wid
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 Provides access to the form instance.
 <!--/typeFunctionParamDescription1_field1-->

@@ -30,22 +30,27 @@ The **valueChanged** event can be fired when a user moves a slider or after he/s
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [widget's instance](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->value<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Array<number,string,Date><!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
+<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 Two values that represent new start and end values.
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->previousValue<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamName1_field4-->value<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Array<number,string,Date><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 Two values that represent old start and end values.
 <!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamName1_field5-->previousValue<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->Array<number,string,Date><!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamDescription1_field5-->
+
+<!--/typeFunctionParamDescription1_field5-->

@@ -24,7 +24,7 @@ Main article: [onRowPrepared](/Documentation/ApiReference/UI_Widgets/dxTreeList/
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [widget's instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -55,7 +55,7 @@ For plain data, the key value depends on the [keyExpr](/Documentation/ApiReferen
 Values displayed in the row cells.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->columns<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Array<Object><!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Array<dxTreeListOptions_columns><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 [Configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of all columns.
 <!--/typeFunctionParamDescription1_field7-->

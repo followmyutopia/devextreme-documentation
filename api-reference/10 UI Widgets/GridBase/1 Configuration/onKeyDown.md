@@ -23,7 +23,7 @@ A handler for the **keyDown** event. Executed when the widget is in focus and a 
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -37,6 +37,7 @@ The widget's container.
 <!--typeFunctionParamDescription1_field3-->
 The original jQuery event.
 <!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamDeprecated1_field3-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field3-->
 <!--typeFunctionParamName1_field4-->event<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->

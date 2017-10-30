@@ -23,7 +23,7 @@ Specifies a callback function that is called when widget content is shown and an
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 A root element of the shown markup.
 <!--/typeFunctionParamDescription1_field1-->

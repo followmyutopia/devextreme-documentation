@@ -22,8 +22,8 @@ Assign a function to perform a custom action after a collection item title is re
 <!--typeFunctionParamDescription1-->
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->titleElement<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxElement<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The HTML element of the item title.
 <!--/typeFunctionParamDescription1_field1-->
@@ -37,3 +37,8 @@ The widget's container.
 <!--typeFunctionParamDescription1_field3-->
 Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
 <!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamName1_field4-->titleElement<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->dxElement<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamDescription1_field4-->
+
+<!--/typeFunctionParamDescription1_field4-->

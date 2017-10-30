@@ -28,7 +28,7 @@ Note that you can handle the **focusIn** event within the widget's configuration
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -47,6 +47,7 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamDescription1_field4-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamDeprecated1_field4-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field4-->
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->

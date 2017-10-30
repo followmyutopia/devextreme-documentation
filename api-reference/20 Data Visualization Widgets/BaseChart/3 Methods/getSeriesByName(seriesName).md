@@ -17,7 +17,7 @@ Gets a series within the chart's **series** collection by the specified name (se
 The name of the series to be found.
 <!--/paramDescription1-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->chartSeriesObject<!--/returnType-->
 <!--returnDescription-->
 The series that is found by the specified name.
 <!--/returnDescription-->

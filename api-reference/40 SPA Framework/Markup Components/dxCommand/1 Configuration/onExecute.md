@@ -24,7 +24,7 @@ You can assign a URL to which the browser will navigate when the widget is click
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 Returns the command instance.
 <!--/typeFunctionParamDescription1_field1-->

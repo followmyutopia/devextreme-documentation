@@ -24,7 +24,7 @@ To navigate to a specific URL when the **click** event fires for action sheet bu
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
@@ -43,6 +43,7 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamDescription1_field4-->
 The jQuery event that caused the action execution.
 <!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamDeprecated1_field4-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field4-->
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->

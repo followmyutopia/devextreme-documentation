@@ -63,7 +63,7 @@ Assign a function to perform a custom action after an appointment has been click
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
@@ -97,6 +97,7 @@ The clicked appointment's container.
 <!--typeFunctionParamDescription1_field7-->
 Specifies the jQuery event that caused action execution.
 <!--/typeFunctionParamDescription1_field7-->
+<!--typeFunctionParamDeprecated1_field7-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field7-->
 <!--typeFunctionParamName1_field8-->event<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->event<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->

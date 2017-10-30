@@ -49,7 +49,7 @@ This option accepts an array of dates...
 Information about the checked date.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->dxDateBox<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxCalendar/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->

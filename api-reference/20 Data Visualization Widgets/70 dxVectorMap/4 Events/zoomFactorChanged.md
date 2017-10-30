@@ -25,17 +25,22 @@ If you need to perform specific actions when the map zoom factor is changed, imp
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [widget's instance](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->zoomFactor<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->number<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
+<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The updated zoom factor.
 <!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamName1_field4-->zoomFactor<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->number<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamDescription1_field4-->
+
+<!--/typeFunctionParamDescription1_field4-->

@@ -54,6 +54,7 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamDescription1_field3-->
 Specifies the jQuery event that caused the action execution.
 <!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamDeprecated1_field3-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field3-->
 <!--typeFunctionParamName1_field4-->event<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->

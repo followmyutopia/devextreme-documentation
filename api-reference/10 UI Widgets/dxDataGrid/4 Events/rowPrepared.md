@@ -26,7 +26,7 @@ When implementing a handling function for this event, use the object passed to t
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -56,7 +56,7 @@ The key of the row. If a field providing keys is not specified in a [data source
 Values of the current row as they exist in the data source.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->columns<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Array<Object><!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Array<dxDataGridOptions_columns><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 Grid columns. Each column in this array is represented by an object with column settings. The order of columns in this array and columns in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array coincides.
 <!--/typeFunctionParamDescription1_field7-->

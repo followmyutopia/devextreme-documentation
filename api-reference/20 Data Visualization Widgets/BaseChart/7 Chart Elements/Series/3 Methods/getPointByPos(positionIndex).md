@@ -17,7 +17,7 @@ Gets a point from the series point collection based on the specified point posit
 The index of the point to be found within the series point collection.
 <!--/paramDescription1-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->basePointObject<!--/returnType-->
 <!--returnDescription-->
 The point that is found by the specified position index.
 <!--/returnDescription-->

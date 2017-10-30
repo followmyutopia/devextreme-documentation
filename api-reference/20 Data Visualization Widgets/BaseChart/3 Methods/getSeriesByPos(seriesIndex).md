@@ -17,7 +17,7 @@ Gets a series within the chart's **series** collection by its position number.
 The index of the series to be found within the chart's **series** collection.
 <!--/paramDescription1-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->chartSeriesObject<!--/returnType-->
 <!--returnDescription-->
 The series that is found by the specified position index.
 <!--/returnDescription-->

@@ -25,7 +25,7 @@ To navigate to a specific URL when the **itemClick** event fires, assign that UR
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->

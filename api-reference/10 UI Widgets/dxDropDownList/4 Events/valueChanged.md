@@ -24,7 +24,7 @@ Instead, you can use the [onValueChanged]({basewidgetpath}/Configuration/#onValu
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -53,6 +53,7 @@ Returns the widget's previous value.
 <!--typeFunctionParamDescription1_field6-->
 Specifies the jQuery event that caused the action execution.
 <!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamDeprecated1_field6-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field6-->
 <!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->

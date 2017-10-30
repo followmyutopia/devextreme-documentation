@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--type-->Object | String | Array<Object><!--/type-->
+<!--type-->Object | String | Array<Number><!--/type-->
 <!--inherits-->..\..\..\..\MapLocation\MapLocation.md<!--/inherits-->
 ===========================================================================
 

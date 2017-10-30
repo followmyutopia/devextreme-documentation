@@ -23,7 +23,7 @@ A handler for the **cellPrepared** event. Executed after the widget creates a ce
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -71,7 +71,7 @@ Use to get the value with the applied [format](/Documentation/ApiReference/UI_Wi
 The index of the column to which the cell belongs.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->column<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->object<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->dxTreeListOptions_columns<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 [Configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of this column.
 <!--/typeFunctionParamDescription1_field10-->

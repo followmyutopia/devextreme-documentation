@@ -12,7 +12,7 @@ Selects rows by indexes.
 <!--/shortDescription-->
 
 <!--paramName1-->indexes<!--/paramName1-->
-<!--paramType1-->Array<any><!--/paramType1-->
+<!--paramType1-->Array<number><!--/paramType1-->
 <!--paramDescription1-->
 The indexes of the rows to be selected.
 <!--/paramDescription1-->

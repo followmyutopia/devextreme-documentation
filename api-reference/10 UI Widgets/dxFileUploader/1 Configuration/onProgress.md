@@ -23,7 +23,7 @@ Assign a function to perform a custom action when a segment of a file has been u
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
@@ -62,6 +62,7 @@ The total count of bytes in the XMLHttpRequest.
 <!--typeFunctionParamDescription1_field8-->
 An XMLHttpRequest progress event that caused the action execution.
 <!--/typeFunctionParamDescription1_field8-->
+<!--typeFunctionParamDeprecated1_field8-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field8-->
 <!--typeFunctionParamName1_field9-->event<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->event<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->

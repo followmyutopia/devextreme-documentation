@@ -24,7 +24,7 @@ Instead, you can use the [onClick](/Documentation/ApiReference/UI_Widgets/dxMap/
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 Provides access to the widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
@@ -48,6 +48,7 @@ Returns the location of the clicked point on the map (if the 'google' or 'bing' 
 <!--typeFunctionParamDescription1_field5-->
 Returns a jQuery event that caused the action execution (if a static google provider is used).
 <!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamDeprecated1_field5-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field5-->
 <!--typeFunctionParamName1_field6-->event<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->event<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->

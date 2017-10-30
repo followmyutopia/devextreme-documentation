@@ -23,7 +23,7 @@ The **cellHoverChanged** event fires when the hover state of a grid cell is chan
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [widget's instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -78,7 +78,7 @@ The index of the column to which the current cell belongs. For more information 
 The *visible* index of the row to which the current cell belongs. When you have several pages in a grid, grid rows are indexed beginning with 0 on each page. Note that group cells are also counted as rows and, thus, have row indexes. For further information about row indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->column<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->object<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->dxDataGridOptions_columns<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 The [settings of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) to which the current cell belongs.
 <!--/typeFunctionParamDescription1_field12-->

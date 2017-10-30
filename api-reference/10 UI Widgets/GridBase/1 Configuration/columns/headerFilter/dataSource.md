@@ -322,7 +322,7 @@ Data source options.
 The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->dataSource<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->DataSourceOptions<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The header filter's data source.
 <!--/typeFunctionParamDescription1_field2-->

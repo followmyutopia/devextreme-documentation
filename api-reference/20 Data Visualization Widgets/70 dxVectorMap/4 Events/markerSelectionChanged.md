@@ -32,17 +32,22 @@ To identify whether a marker has been selected or deselected, call its [selected
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [widget's instance](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->target<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->markerObjects<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
+<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The selected/deselected area.
 <!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->markerObjects<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamDescription1_field4-->
+
+<!--/typeFunctionParamDescription1_field4-->

@@ -27,17 +27,22 @@ Within the handler, you can use the object passed to it as the parameter. Among 
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->node<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->dxTreeMapNode<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
+<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 In most cases, the root node. When drilling down, the node of the highest displayed level.
 <!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamName1_field4-->node<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->dxTreeMapNode<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamDescription1_field4-->
+
+<!--/typeFunctionParamDescription1_field4-->

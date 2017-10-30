@@ -24,7 +24,7 @@ Main article: [onCellHoverChanged](/Documentation/ApiReference/UI_Widgets/dxTree
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -82,7 +82,7 @@ The index of the column to which the cell belongs.
 The visible index of the row to which the cell belongs.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->column<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->object<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->dxTreeListOptions_columns<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 [Configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of the column.
 <!--/typeFunctionParamDescription1_field12-->

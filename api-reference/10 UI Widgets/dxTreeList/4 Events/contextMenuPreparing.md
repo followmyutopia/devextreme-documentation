@@ -24,7 +24,7 @@ Main article: [onContextMenuPreparing](/Documentation/ApiReference/UI_Widgets/dx
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -59,7 +59,7 @@ The container of this element.
 The index of the column on which the context menu is invoked.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->Object<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->dxTreeListOptions_columns<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 [Configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of this column.
 <!--/typeFunctionParamDescription1_field8-->

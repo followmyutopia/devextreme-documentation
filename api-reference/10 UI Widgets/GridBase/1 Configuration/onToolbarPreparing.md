@@ -101,7 +101,7 @@ The following code shows how you can customize the toolbar using this handler.
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The [widget's instance]({basewidgetpath}/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -116,7 +116,7 @@ The widget's container.
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->toolbarOptions<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->dxToolbarOptions<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The [options of the toolbar](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/). 
 <!--/typeFunctionParamDescription1_field4-->

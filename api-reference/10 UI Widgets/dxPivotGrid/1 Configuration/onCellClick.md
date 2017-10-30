@@ -23,7 +23,7 @@ The **cellClick** event fires when a user clicks a pivot grid cell. When impleme
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -82,6 +82,7 @@ Fields of the *data* area.
 <!--typeFunctionParamDescription1_field12-->
 The jQuery event.
 <!--/typeFunctionParamDescription1_field12-->
+<!--typeFunctionParamDeprecated1_field12-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field12-->
 <!--typeFunctionParamName1_field13-->event<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->event<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->

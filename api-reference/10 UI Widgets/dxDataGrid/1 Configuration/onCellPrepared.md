@@ -25,7 +25,7 @@ The **cellPrepared** event fires after a cell has been rendered. When implementi
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -70,7 +70,7 @@ The value of the current cell in a string format. Use this field to get the valu
 The index of the column to which the prepared cell belongs. For more information on how this index is calculated, refer to the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->column<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->object<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->dxDataGridOptions_columns<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 The [settings of the column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) to which the prepared cell belongs.
 <!--/typeFunctionParamDescription1_field10-->

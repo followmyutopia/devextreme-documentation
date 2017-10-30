@@ -24,7 +24,7 @@ Instead, you can use the [onShown](/Documentation/ApiReference/UI_Widgets/dxDefe
 Provides function parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 A root element of the shown markup.
 <!--/typeFunctionParamDescription1_field1-->

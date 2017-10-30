@@ -14,7 +14,7 @@ Use the getAllSeries() method instead.
 Provides access to the **PieChart** series.
 <!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->pieChartSeriesObject<!--/returnType-->
 <!--returnDescription-->
 The **PieChart** series.
 <!--/returnDescription-->
