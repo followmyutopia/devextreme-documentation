@@ -44,10 +44,10 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The selected/deselected area.
+The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->areaObjects<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-
+The selected/deselected area.
 <!--/typeFunctionParamDescription1_field4-->

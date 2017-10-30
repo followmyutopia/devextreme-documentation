@@ -39,15 +39,15 @@ The [widget's instance](/Documentation/ApiReference/Data_Visualization_Widgets/d
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The updated start range value.
+The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->startValue<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Date|Number<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The updated end range value.
+The updated start range value.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->endValue<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Date|Number<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-
+The updated end range value.
 <!--/typeFunctionParamDescription1_field5-->

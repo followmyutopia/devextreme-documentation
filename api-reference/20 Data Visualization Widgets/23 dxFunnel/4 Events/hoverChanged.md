@@ -35,10 +35,10 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
+The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->item<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->dxFunnelItem<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-
+The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
 <!--/typeFunctionParamDescription1_field4-->

@@ -38,10 +38,10 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The root node.
+The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->root<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->dxTreeMapNode<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-
+The root node.
 <!--/typeFunctionParamDescription1_field4-->

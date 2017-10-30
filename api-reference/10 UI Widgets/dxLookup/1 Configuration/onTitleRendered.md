@@ -39,6 +39,6 @@ Provides access to the data that is available for binding against the element. A
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->titleElement<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->dxElement<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-
+<!--typeFunctionParamDescription1_field3-->
+The title's container.
 <!--/typeFunctionParamDescription1_field4-->
