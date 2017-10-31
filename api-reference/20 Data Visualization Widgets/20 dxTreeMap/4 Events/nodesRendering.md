@@ -39,10 +39,10 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-In most cases, the root node. When drilling down, the node of the highest displayed level.
+The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->node<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->dxTreeMapNode<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-
+In most cases, the root node. When drilling down, the node of the highest displayed level.
 <!--/typeFunctionParamDescription1_field4-->
