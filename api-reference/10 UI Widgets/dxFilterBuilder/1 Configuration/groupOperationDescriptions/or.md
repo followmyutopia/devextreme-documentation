@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The *"or"* operation's description.
 <!--/shortDescription-->
 
 <!--fullDescription-->

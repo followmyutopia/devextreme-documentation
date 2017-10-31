@@ -9,89 +9,93 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Raised before an editor is created. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#onEditorPreparing)
 
+#####See Also#####
+- **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Handling_Events_and_Defining_Callbacks)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-
+Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-
+The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-
+The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-
+The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->value<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->any<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-
+The editor's value.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->setValue(newValue)<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-
+A method that you should call to change the field value after the editor's value is changed.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->boolean<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+Allows you to cancel the creation of the editor.    
+Set it to **true** and implement a custom editor if your scenario requires it.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->editorElement<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-
+The editor's container.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->editorName<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->string<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-
+Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*. 
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->editorOptions<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->object<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-
+Gets and sets the editor configuration.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->dataField<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->string<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-
+The data field's name.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->updateValueTimeout<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->number<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-
+Gets and sets the delay between when a user stops typing a field value and when it is applied.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->width<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->number<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-
+The editor's width.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->readOnly<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->boolean<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-
+Indicates whether the editor is read-only.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->disabled<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->boolean<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-
+Indicates whether the editor is disabled.
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->rtlEnabled<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->boolean<!--/typeFunctionParamType1_field15-->
 <!--typeFunctionParamDescription1_field15-->
-
+Indicates whether the editor uses right-to-left representation.
 <!--/typeFunctionParamDescription1_field15-->

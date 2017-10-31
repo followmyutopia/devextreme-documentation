@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The *"isnotblank"* operation's description.
 <!--/shortDescription-->
 
 <!--fullDescription-->

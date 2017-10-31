@@ -11,9 +11,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the default group operation.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+The following operations are available: *"and"*, *"notAnd"*, *"or"* and *"notOr"*.
 <!--/fullDescription-->

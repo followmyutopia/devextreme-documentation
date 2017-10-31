@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies group operation descriptions.
 <!--/shortDescription-->
 
 <!--fullDescription-->

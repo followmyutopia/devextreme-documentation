@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The *"startswith"* operation's description.
 <!--/shortDescription-->
 
 <!--fullDescription-->

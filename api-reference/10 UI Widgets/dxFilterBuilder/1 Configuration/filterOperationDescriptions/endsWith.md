@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The *"endswith"* operation's description.
 <!--/shortDescription-->
 
 <!--fullDescription-->

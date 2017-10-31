@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The *"isblank"* operation's description.
 <!--/shortDescription-->
 
 <!--fullDescription-->

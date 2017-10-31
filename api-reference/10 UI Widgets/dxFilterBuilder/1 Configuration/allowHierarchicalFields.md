@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether the widget can display hierarchical data fields. 
 <!--/shortDescription-->
 
 <!--fullDescription-->

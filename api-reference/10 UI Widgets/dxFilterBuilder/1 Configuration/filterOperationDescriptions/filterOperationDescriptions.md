@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies filter operation descriptions.
 <!--/shortDescription-->
 
 <!--fullDescription-->

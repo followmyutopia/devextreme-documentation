@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The *"notand"* operation's description.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the name of a field to be filtered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
