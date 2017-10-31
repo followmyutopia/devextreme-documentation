@@ -39,11 +39,20 @@ The **onItemClick** event handler is often used to implement item selection as s
     </dx-funnel>
 
     <!--TypeScript-->
+    import { DxFunnelModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         selectItem (e) {
             e.item.select(!e.item.isSelected())
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxFunnelModule
+        ],
+        // ...
+    })
 
 ---
 

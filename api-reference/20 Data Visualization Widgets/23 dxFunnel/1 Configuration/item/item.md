@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures funnel items' appearance.
 <!--/shortDescription-->
 
 <!--fullDescription-->
