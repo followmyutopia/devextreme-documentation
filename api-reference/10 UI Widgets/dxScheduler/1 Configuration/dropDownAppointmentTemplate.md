@@ -109,7 +109,7 @@ The current appointment's index.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->Element<!--/typeFunctionParamType3-->
+<!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
 The current appointment's container.
 <!--/typeFunctionParamDescription3-->
