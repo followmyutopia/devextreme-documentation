@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures the scale breaks' appearance.
 <!--/shortDescription-->
 
 <!--fullDescription-->

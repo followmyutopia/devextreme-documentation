@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Along with the **startValue** option, limits the scale break.
 <!--/shortDescription-->
 
 <!--fullDescription-->

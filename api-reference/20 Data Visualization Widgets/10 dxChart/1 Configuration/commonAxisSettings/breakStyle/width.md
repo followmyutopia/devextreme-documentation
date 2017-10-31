@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the scale breaks' width in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

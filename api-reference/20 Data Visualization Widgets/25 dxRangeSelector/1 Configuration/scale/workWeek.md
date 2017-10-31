@@ -10,9 +10,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies which days are workdays. The array can contain values from 0 (Sunday) to 6 (Saturday). Applies only if [workdaysOnly](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#workdaysOnly) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [singleWorkdays](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#singleWorkdays)
+- [holidays](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#holidays)
 <!--/fullDescription-->

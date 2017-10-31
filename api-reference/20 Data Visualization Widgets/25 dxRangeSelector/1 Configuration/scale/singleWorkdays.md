@@ -10,9 +10,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Days to be included in the scale when [workdaysOnly](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#workdaysOnly) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [workWeek](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/#workWeek)
 <!--/fullDescription-->
