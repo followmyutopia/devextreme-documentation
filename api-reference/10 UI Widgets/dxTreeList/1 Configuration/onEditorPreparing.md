@@ -109,12 +109,13 @@ If you use a third-party editor, cancel creation of the default editor and then 
         onEditorPreparing (e) { 
             if(e.dataField === "hidden") {
                 e.cancel = true;
-                $('<input type="checkbox">')
-                    .prop("checked", e.value)
-                    .on("change", function(args) {
-                        e.setValue(args.target.checked);
-                    })
-                    .appendTo(e.editorElement);
+                let checkbox = document.createElement("INPUT");
+                checkbox.setAttribute("type", "checkbox");
+                checkbox.setAttribute("checked", e.value);
+                checkbox.addEventListener("change", function(args) {
+                                                        e.setValue(args.target.checked);
+                                                    });
+                e.editorElement.appendChild(checkbox);
             }
         }
     }
