@@ -14,5 +14,5 @@ The *"notand"* operation's description.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+This operation returns a reverted result of an *"and"* operation: `["!", [[condition1], "and", [condition2]]]`.
 <!--/fullDescription-->
