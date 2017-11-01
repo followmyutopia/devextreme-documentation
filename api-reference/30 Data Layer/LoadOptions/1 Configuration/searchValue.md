@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The current search value.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+A comparison operation. One of the following: *"="*, *"<>"*, *">"*, *">="*, *"<"*, *"<="*, *"startswith"*, *"endswith"*, *"contains"*, *"notcontains"*, *"isblank"* and *"isnotblank"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

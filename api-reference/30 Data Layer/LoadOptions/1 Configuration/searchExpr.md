@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+A data field or an expression whose value is compared to the search value.
 <!--/shortDescription-->
 
 <!--fullDescription-->
