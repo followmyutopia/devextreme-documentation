@@ -18,9 +18,133 @@ Formats values.
 This option accepts three types of values.
 
 * **String**  
- One of the predefined formats (accepted by the [type](/Documentation/ApiReference/Common/Object_Structures/format/#type) option) or a date format string (accepted by the [raw option](https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md#parameters) of the Globalize [date formatter](https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md)). For  information on values accepted by the raw option, refer to the [LDML documentation](http://www.unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table).
+ One of the predefined formats (see the [type](/Documentation/ApiReference/Common/Object_Structures/format/#type) option) or a format string. The built-in localization engine supports the following format characters: 
 
- [note]The use of a custom date format requires Globalize libraries to be referenced within your application. For more information on using the Globalize library, refer to the [Localization](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) guide.
+
+ **Numeric Formats**
+
+    <div class="simple-table">
+    <table>
+    <thead>
+    <tr>
+      <th>Format character</th>
+      <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>0</td>
+      <td>A digit. Displays '0' if it is not specified in the UI.</td>
+    </tr>
+    <tr>
+      <td>&#35;</td>
+      <td>
+            A digit or nothing. One symbol matches several integer digits, but only one decimal digit. </br> 
+            For example, "#.#" matches "123.4", not "123.45".
+      </td>
+    </tr>
+    <tr>
+      <td>.</td>
+      <td>A decimal separator. Displayed in the localized variant.</td>
+    </tr>
+    <tr>
+      <td>,</td>
+      <td>A group separator. Displayed in the localized variant.</td>
+    </tr>
+    <tr>
+      <td>%</td>
+      <td>
+            The percent sign. Divides the input value by 100. </br>    
+            If it is enclosed in single quotes ('%'), it only adds this sign to the input value.
+      </td>
+    </tr>
+    <tr>
+      <td>;</td>
+      <td>Separates positive and negative numbers. If there is no explicit negative format, a positive number receives the "-" prefix. </td>
+    </tr>
+    <tr>
+      <td>Other characters</td>
+      <td>
+            Any character. Should be placed only at the format string's beginning or end. </br>
+            You can use the special characters above as well (in single quote marks).
+      </td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+
+ **Date-Time Formats** 
+
+    <div class="simple-table">
+    <table>
+    <thead>
+    <tr>
+      <th>Format character</th>
+      <th>Description</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>y</td>
+      <td>A calendar year. </td>
+    </tr>
+    <tr>
+      <td>Q</td>
+      <td>
+        A quarter number or name.</br>       
+        For example, "Q" matches "2", "QQ" - "02", "QQQ" - "Q2", "QQQQ" - "2nd quarter".
+      </td>
+    </tr>
+    <tr>
+      <td>M</td>
+      <td>
+        A month number or name.</br>         
+        For example, "M" matches "9", "MM" - "09", "MMM" - "Sep", "MMMM" - "September", "MMMMM" - "S".
+      </td>
+    </tr>
+    <tr>
+      <td>d</td>
+      <td>A month day.</td>
+    </tr>
+    <tr>
+      <td>E</td>
+      <td>
+        A week day name.</br>    
+        For example, "E", "EE" or "EEE" matches "Tue", "EEEE" - "Tuesday", "EEEEE" - "T", "EEEEEE" - "Tu". 
+      </td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>
+        A day period (am or pm).</br>        
+        For example, "a" matches "am", "aaaaa" - "a".
+      </td>
+    </tr>
+    <tr>
+      <td>h</td>
+      <td>An hour. From 1 to 12.</td>
+    </tr>
+    <tr>
+      <td>H</td>
+      <td>An hour. From 0 to 23.</td>
+    </tr>
+    <tr>
+      <td>m</td>
+      <td>A minute.</td>
+    </tr>
+    <tr>
+      <td>s</td>
+      <td>A second.</td>
+    </tr>
+    <tr>
+      <td>S</td>
+      <td>A fractional second.</td>
+    </tr>
+    </tbody>
+    </table>
+    </div> 
+
+ [note] [Reference the Globalize library](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) within your application to use other [numeric](http://unicode.org/reports/tr35/tr35-numbers.html#Special_Pattern_Characters) or [datetime](http://unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table) format characters.
 
 * **Function**  
  Specifies a custom format. A shortcut for the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) option.
@@ -42,7 +166,7 @@ This option accepts three types of values.
             parser: Function // a parsing function for string values
         }
 
-Instead of fields described in this section, you can use fields accepted by Globalize formatters. In this case, do not specify the **type** option. For example, you can use skeletons to format dates.
+You can use the fields Globalize formatters accept instead of the fields described in this section. In this case, do not specify the **type** option. For example, you can use skeletons to format dates:
 
     format: {
         skeleton: 'GyMMMd'
