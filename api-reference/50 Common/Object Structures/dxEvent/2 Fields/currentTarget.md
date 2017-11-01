@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The DOM element within the current event propagation stage.
 <!--/shortDescription-->
 
 <!--fullDescription-->

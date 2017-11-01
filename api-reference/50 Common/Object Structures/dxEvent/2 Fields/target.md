@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The DOM element that initiated the event.
 <!--/shortDescription-->
 
 <!--fullDescription-->
