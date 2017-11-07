@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a font weight for the label of the horizontal crosshair line.
+Specifies a font weight for the label of the horizontal crosshair line. Accepts values from 100 to 900 in increments of 100. Higher values increase boldness.
 <!--/shortDescription-->
 
 <!--fullDescription-->
