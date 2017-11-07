@@ -5,24 +5,29 @@
 
 **-->
 ===================================================================
-<!--module-->core/config<!--/module-->
-<!--export-->default<!--/export-->
 ===================================================================
 
 <!--shortDescription-->
-Sets the global configuration object.
+
 <!--/shortDescription-->
 
-<!--paramName1-->config<!--/paramName1-->
-<!--paramType1-->globalConfig<!--/paramType1-->
+<!--paramName1-->element<!--/paramName1-->
+<!--paramType1-->dxElement<!--/paramType1-->
 <!--paramDescription1-->
-An object containing the required global configuration options.
+
 <!--/paramDescription1-->
 
+<!--paramName2-->extraParameters<!--/paramName2-->
+<!--paramType2-->object<!--/paramType2-->
+<!--paramDescription2-->
+
+<!--/paramDescription2-->
+
+<!--returnType-->Boolean<!--/returnType-->
+<!--returnDescription-->
+
+<!--/returnDescription-->
+
 <!--fullDescription-->
-    DevExpress.config({
-        rtlEnabled: true,
-        forceIsoDateParsing: false,
-        //...
-    });
+
 <!--/fullDescription-->
