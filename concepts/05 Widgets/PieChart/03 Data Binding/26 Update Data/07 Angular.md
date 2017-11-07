@@ -5,6 +5,8 @@ Enclose the **dataSource** option in square brackets to bind it to an array usin
     <!--HTML--><dx-pie-chart [dataSource]="fruits"></dx-pie-chart>
     
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruits = [
             { fruit: 'Apples', count: 10 },
@@ -12,6 +14,13 @@ Enclose the **dataSource** option in square brackets to bind it to an array usin
             { fruit: 'Lemons', count: 15 }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 #####See Also#####
 - [DevExtreme Angular on GitHub](https://github.com/devexpress/DevExtreme-angular)
