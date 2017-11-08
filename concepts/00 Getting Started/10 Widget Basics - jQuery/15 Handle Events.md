@@ -14,7 +14,9 @@ You can subscribe to an event using a configuration option. All event handling o
 
  As a more flexible solution, you can use the **on()** method. It allows you to subscribe to events at runtime and even to attach several handlers to a single event.
 
-    <!--JavaScript-->// Subscribes to the "itemClick" and "selectionChanged" events
+    <!--JavaScript-->
+    var menuInstance = $("#menuContainer").dxMenu("instance");
+    // Subscribes to the "itemClick" and "selectionChanged" events
     menuInstance
         .on({
             "itemClick": handler1,
@@ -23,7 +25,9 @@ You can subscribe to an event using a configuration option. All event handling o
 
 <!-------------->
 
-    <!--JavaScript-->// Attaches several handlers to the "itemClick" event
+    <!--JavaScript-->
+    var menuInstance = $("#menuContainer").dxMenu("instance");
+    // Attaches several handlers to the "itemClick" event
     menuInstance
         .on("itemClick", handler1)
         .on("itemClick", handler2);
@@ -35,23 +39,28 @@ You can subscribe to an event using a configuration option. All event handling o
 
 To detach all the handlers that you attached with the **on()** method, call the **off()** method without arguments.
 
-    <!--JavaScript-->menuInstance.off();
+    <!--JavaScript-->
+    $("#menuContainer").dxMenu("instance").off();
 
 Also, you can call this method to detach a specific handler from an event or all handlers from a particular event.
 
-    <!--JavaScript-->// Detaches the "handler1" from the "itemClick" event leaving other handlers (if any) intact
-    menuInstance
-        .off("itemClick", handler1)
+    <!--JavaScript-->
+    var menuInstance = $("#menuContainer").dxMenu("instance");
+    // Detaches the "handler1" from the "itemClick" event leaving other handlers (if any) intact
+    menuInstance.off("itemClick", handler1)
 
 <!-------------->
 
-    <!--JavaScript-->// Detaches all handlers from the "itemClick" event
-    menuInstance
-        .off("itemClick")
+    <!--JavaScript-->
+    var menuInstance = $("#menuContainer").dxMenu("instance");
+    // Detaches all handlers from the "itemClick" event
+    menuInstance.off("itemClick")
 
 If you subscribed to an event using an **on*EventName*** option, you can unsubscribe from it by setting this option to **undefined**.
 
-    <!--JavaScript-->menuInstance.option("onItemClick", undefined);
+    <!--JavaScript-->
+    var menuInstance = $("#menuContainer").dxMenu("instance");
+    menuInstance.option("onItemClick", undefined);
 
 #####See Also#####
 - [API Reference](/Documentation/ApiReference).**WidgetName**.**Events**
