@@ -31,6 +31,7 @@ A binding context of an item template is an object containing the following fiel
  Configuration object of the current form item editor.
 
 #####See Also#####
+- [Custom Content within a Group](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/#Custom_Content_within_a_Group)
 - [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
 - [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 

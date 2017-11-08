@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specified the indent between the marker and the scale lables.
+Specified the indent between the marker and the scale labels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

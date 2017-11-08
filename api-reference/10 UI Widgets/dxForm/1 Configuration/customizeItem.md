@@ -28,6 +28,10 @@ If the **items** option contains definition for form items, you usually do not n
 
 - [Empty](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/)  
  An empty item used to add a space between neighboring form items.
+
+
+#####See Also#####
+- [Customize a Simple Item](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/#Customize_a_Simple_Item)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->item<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxFormSimpleItem|dxFormGroupItem|dxFormTabbedItem|dxFormEmptyItem<!--/typeFunctionParamType1-->

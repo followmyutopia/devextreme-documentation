@@ -65,4 +65,7 @@ For extra small screens, this option always equals *1* to make the widget adapti
 ---
 
 [/note]
+
+#####See Also#####
+- [Columns within a Group](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/#Columns_within_a_Group)
 <!--/fullDescription-->

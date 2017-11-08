@@ -70,4 +70,6 @@ For extra small screens, this option always equals *1* to make the widget adapti
 ---
 
 [/note]
+
+- [Columns within a Tab](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/#Columns_within_a_Tab)
 <!--/fullDescription-->

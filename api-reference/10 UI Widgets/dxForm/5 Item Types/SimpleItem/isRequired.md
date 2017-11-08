@@ -62,4 +62,7 @@ If you specify validation rules using the [validationRules](/Documentation/ApiRe
 ---
 
 [/note]
+
+#####See Also#####
+- [Customize a Simple Item](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/#Customize_a_Simple_Item)
 <!--/fullDescription-->

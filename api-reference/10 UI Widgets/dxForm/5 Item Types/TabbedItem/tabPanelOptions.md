@@ -14,5 +14,6 @@ Holds a [configuration object](/Documentation/ApiReference/UI_Widgets/dxTabPanel
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [Configure the Tab Panel](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/#Configure_the_Tab_Panel)
 <!--/fullDescription-->

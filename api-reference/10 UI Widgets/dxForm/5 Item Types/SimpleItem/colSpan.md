@@ -14,5 +14,6 @@ Specifies the number of columns spanned by the item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [Span Columns](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/#Span_Columns)
 <!--/fullDescription-->
