@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering appointments in the appointment collector's drop-down menu.
+The template to be used for rendering appointments in the appointment collector's drop-down list.
 <!--/shortDescription-->
 
 <!--fullDescription-->
