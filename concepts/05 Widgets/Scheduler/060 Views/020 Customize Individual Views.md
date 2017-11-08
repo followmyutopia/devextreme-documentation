@@ -1,6 +1,6 @@
-To customize individual views, assign an array of configuration objects to the **views** option. Each object contains the [type](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#type) option that defines what view is customized. For the full list of options, refer to the [API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/).
+To customize individual views, assign an array of configuration objects to the **views** option. Each object contains the [type](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#type) option that defines which view is customized. Refer to the [API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/) for a list of options.
 
-The following code defines three views: the first is not customized, the second has specific cell duration and a custom template for the time scale, the third is grouped by resources.
+The following code defines three views: the first is not customized, the second has a specific cell duration and a custom template for the time scale, and the third is grouped by resources.
 
 ---
 #####jQuery
@@ -190,7 +190,8 @@ The following code defines three views: the first is not customized, the second 
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Customize Individual Views Demo</a>
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/IncreaseViewDuration/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Increase View Duration Demo</a>
 
 #####See Also#####
 - [Scheduler - View Types](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/)
