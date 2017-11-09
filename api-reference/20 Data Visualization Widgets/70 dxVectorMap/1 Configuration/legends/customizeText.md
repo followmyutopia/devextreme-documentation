@@ -37,12 +37,12 @@ The end value of the group indicated by the legend item.
 The index of the group indicated by the legend item.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->color<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->string|undefined<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The color of the legend item. This field is **undefined** if the [source](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#source) is *'markerSizeGroups'*.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->size<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->number|undefined<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->number<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The diameter of the legend item in pixels. This field is **undefined** if the [source](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#source) is *'areaColorGroups'* or *'markerColorGroups'*.
 <!--/typeFunctionParamDescription1_field5-->
