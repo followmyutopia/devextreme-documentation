@@ -4,12 +4,14 @@
 -------------------------------------------
 
 **-->
-<!--merge--><!--/merge-->
-<!--type-->method<!--/type-->
+===========================================================================
+<!--type-->Object<!--/type-->
 ===========================================================================
 
-<!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->LoadOptions<!--/paramType1-->
-<!--paramDescription1-->
+<!--shortDescription-->
 
-<!--/paramDescription1-->
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->
