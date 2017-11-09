@@ -11,6 +11,11 @@
 Updates the dimensions of the scrollable contents.
 <!--/shortDescription-->
 
+<!--returnType-->Promise<void><!--/returnType-->
+<!--returnDescription-->
+
+<!--/returnDescription-->
+
 <!--fullDescription-->
 Use this method to fit the widget contents to the widget size after it (size) has been changed.
 
