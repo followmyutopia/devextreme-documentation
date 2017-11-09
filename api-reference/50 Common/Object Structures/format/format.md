@@ -15,10 +15,10 @@ Formats values.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts three types of values.
+This option accepts three types of values:
 
 * **String**  
- One of the predefined formats (see the [type](/Documentation/ApiReference/Common/Object_Structures/format/#type) option) or a format string. The built-in localization engine supports the following format characters: 
+ One of the predefined formats (see the [type](/Documentation/ApiReference/Common/Object_Structures/format/#type) option) or a format string. The built-in localization engine supports the following characters: 
 
 
  **Numeric Formats**
@@ -39,7 +39,7 @@ This option accepts three types of values.
     <tr>
       <td>&#35;</td>
       <td>
-            A digit or nothing. One symbol matches several integer digits, but only one decimal digit. </br> 
+            A digit or nothing. One symbol represents several integer digits, but only one decimal digit. </br> 
             For example, "#.#" matches "123.4", not "123.45".
       </td>
     </tr>
@@ -66,7 +66,7 @@ This option accepts three types of values.
       <td>Other characters</td>
       <td>
             Any character. Should be placed only at the format string's beginning or end. </br>
-            You can use the special characters above as well (in single quote marks).
+            You can use the special characters above as well (in single quotation marks).
       </td>
     </tr>
     </tbody>
@@ -150,7 +150,7 @@ This option accepts three types of values.
  Specifies a custom format. A shortcut for the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) option.
  
 * **Object**  
- Allows you to configure the format in many aspects. Can have one of these two structures.
+ Allows you to configure the format. Can have one of these two structures:
 
         // Uses a predefined format
         format: {
@@ -166,13 +166,20 @@ This option accepts three types of values.
             parser: Function // a parsing function for string values
         }
 
-You can use the fields Globalize formatters accept instead of the fields described in this section. In this case, do not specify the **type** option. For example, you can use skeletons to format dates:
+ If you use the [devextreme-intl](https://github.com/DevExpress/DevExtreme-Intl#devextreme-intl) module, you can specify the Intl [NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat#Parameters)'s and [DateTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat#Parameters)'s `options` parameter fields:    
 
-    format: {
-        skeleton: 'GyMMMd'
-    }
+        format: { year: "2-digit", month: "narrow", day: "2-digit" }
+        === or ===
+        format: { style: "currency", currency: "EUR", useGrouping: true }
 
-See the [numberFormatter](https://github.com/jquery/globalize/blob/master/doc/api/number/number-formatter.md), [currencyFormatter](https://github.com/jquery/globalize/blob/master/doc/api/currency/currency-formatter.md) and [dateFormatter](https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md) documents for further information. Note that this approach might require additional [CLDR modules](https://github.com/jquery/globalize/blob/master/README.md#2-cldr-content) not shipped with the DevExtreme package.
+ If you [use Globalize](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize), you can use the fields Globalize formatters accept instead of the fields described in this section. For example, you can use skeletons to format dates. Note that this approach might require additional [CLDR modules](https://github.com/jquery/globalize/blob/master/README.md#2-cldr-content) not shipped with the DevExtreme package.
+
+        format: { skeleton: 'GyMMMd' }
+
+ #####See Also#####
+ - [Globalize - numberFormatter](https://github.com/jquery/globalize/blob/master/doc/api/number/number-formatter.md)
+ - [Globalize - currencyFormatter](https://github.com/jquery/globalize/blob/master/doc/api/currency/currency-formatter.md)
+ - [Globalize - dateFormatter](https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md)
 
 <a href="/Demos/WidgetsGallery/Demo/RangeSelector/CustomFormatting/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 <!--/fullDescription-->
