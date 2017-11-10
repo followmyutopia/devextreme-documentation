@@ -1,4 +1,4 @@
-The **Scheduler** widget allows you to customize its timetable: to specify the time period for it and the duration of a single cell. For this purpose, use the [startDayHour](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#startDayHour), [endDayHour](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#endDayHour) and [cellDuration](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#cellDuration) options. Using the [firstDayOfWeek](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#firstDayOfWeek) option, you can define the day of the week that will be shown first.
+The **Scheduler** widget allows you to customize its timetable. You can specify the time period and a single cell's duration via the [startDayHour](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#startDayHour), [endDayHour](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#endDayHour), and [cellDuration](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#cellDuration) options. Using the [firstDayOfWeek](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#firstDayOfWeek) option, you can define the weekday that is shown first.
 
 ---
 
@@ -65,7 +65,17 @@ The **Scheduler** widget allows you to customize its timetable: to specify the t
 
 ---
 
-In addition, you can define custom templates for cells, time scales and date scales. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define templates for timetable parts.
+You can also adjust cells' size in the table and around it using the DevExtreme CSS classes. For example, the `.dx-scheduler-cell-sizes-horizontal` and `.dx-scheduler-cell-sizes-vertical` classes specify the cells' width and height, respectively.
+
+    <!--CSS-->
+    .dx-scheduler-cell-sizes-horizontal {
+        width: 200px !important;
+    }
+    .dx-scheduler-cell-sizes-vertical {
+        height: 200px !important;
+    }
+
+For a more detailed customization, define custom templates for cells, time scales, and date scales. DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) for Angular, AngularJS and Knockout apps. The following code shows how you can use **dxTemplate** to define templates for timetable parts:
 
 ---
 
@@ -201,7 +211,7 @@ In addition, you can define custom templates for cells, time scales and date sca
 
 ---
 
-If you use jQuery alone, combine the HTML markup for cells, time scales and date scales manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [timeCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#timeCellTemplate), [dateCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dateCellTemplate) and [dataCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataCellTemplate) callback functions as shown in the following code.
+If you use jQuery alone, combine the HTML markup for cells, time scales and date scales manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [timeCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#timeCellTemplate), [dateCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dateCellTemplate) and [dataCellTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataCellTemplate) callback functions as shown in the following code:
 
     <!--JavaScript-->var schedulerData = [{
         text: "His Girl Friday",
@@ -242,7 +252,7 @@ If you use jQuery alone, combine the HTML markup for cells, time scales and date
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CellTemplates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
 
-In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine) article.
+You can also use a 3rd-party template engine to customize widget appearance. See the [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine) article for more information.
 
 #####See Also#####
 - [Scheduler - Customize Appointment](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/)
