@@ -10,13 +10,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a format for the summary item value.
+Specifies a summary item value's display format.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]DevExtreme widgets provide a wide choice of [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type). If you are, however, going to use custom formats, link the [Globalize](https://github.com/jquery/globalize) library to your project. Learn how to do this from topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section for details on accepted values. 
 
 #####See Also#####
 - [Format Text and Value](/Documentation/Guide/Widgets/DataGrid/Summaries/Format_Text_and_Value/)
-- [format](/Documentation/ApiReference/Common/Object_Structures/format/) - a comprehensive overview of the capabilities provided by this option.
 <!--/fullDescription-->

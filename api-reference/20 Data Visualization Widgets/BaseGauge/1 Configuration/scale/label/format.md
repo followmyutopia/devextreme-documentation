@@ -10,11 +10,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a format for the text displayed in scale labels.
+Formats a value before it is displayed in a scale label. Accepts only numeric formats.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section for details on accepted values.
+
 #####See Also#####
-- [format](/Documentation/ApiReference/Common/Object_Structures/format/) - provides a comprehensive overview of formatting capabilities. Note that only numeric subset of the predefined formats can be used.
-- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Data_Formatting) - shows how to apply formatting to various widget elements.
+- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Data_Formatting)
 <!--/fullDescription-->
