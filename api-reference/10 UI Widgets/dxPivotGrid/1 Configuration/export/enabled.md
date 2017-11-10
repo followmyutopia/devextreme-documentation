@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Enables client-side export.
+Enables client-side exporting.
 <!--/shortDescription-->
 
 <!--fullDescription-->

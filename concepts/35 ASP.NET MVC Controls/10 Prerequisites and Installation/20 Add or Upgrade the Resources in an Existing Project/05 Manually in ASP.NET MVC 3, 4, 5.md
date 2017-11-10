@@ -51,7 +51,7 @@
                     // NOTE: jQuery may already be included in the default script bundle. Check the BundleConfig.cs file​​​
                     // scriptBundle
                     //    .Include("~/Scripts/jquery-1.10.2.js");
-                    // JSZip for client-side export
+                    // JSZip for client-side exporting
                     // scriptBundle
                     //    .Include("~/Scripts/jszip.js");
                     // DevExtreme + extensions

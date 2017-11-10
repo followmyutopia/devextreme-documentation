@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the URL of the server-side proxy that streams the resulting file to the end user to enable export in **IE9** and **Safari** browsers.
+Specifies the URL of the server-side proxy that streams the resulting file to the end user to enable exporting in **IE9** and **Safari** browsers.
 <!--/shortDescription-->
 
 <!--fullDescription-->

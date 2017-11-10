@@ -1,4 +1,4 @@
-To bind the **Scheduler** to data in the JSON format, assign a URL leading to data to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataSource) option.  
+To bind the **Scheduler** to data in the JSON format, assign the data's URL to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataSource) option.  
 
 ---
 ##### jQuery

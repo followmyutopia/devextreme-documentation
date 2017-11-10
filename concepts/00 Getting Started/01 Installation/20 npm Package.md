@@ -46,7 +46,7 @@ After installation is completed, you can find all the libraries in the **node_mo
     <script type="text/javascript" src="node_modules/globalize/dist/globalize/currency.js"></script>
     <script type="text/javascript" src="node_modules/globalize/dist/globalize/date.js"></script>
 
-    <!-- Reference the JSZip script if you need client-side export -->
+    <!-- Reference the JSZip script if you need client-side exporting -->
     <script type="text/javascript" src="node_modules/jszip/dist/jszip.js"></script>
 
     <!-- DevExtreme themes -->

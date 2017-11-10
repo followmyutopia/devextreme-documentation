@@ -32,7 +32,7 @@ Finally, add some interactivity.
 - [Tooltips](/Documentation/Guide/Widgets/Chart/Tooltips/Overview/)
 - [Crosshair](/Documentation/Guide/Widgets/Chart/Crosshair/)
 - [Zooming and Scrolling](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/)
-- [Client-Side Export and Printing](/Documentation/Guide/Widgets/Chart/Client-Side_Export_and_Printing/)
+- [Client-Side Exporting and Printing](/Documentation/Guide/Widgets/Chart/Client-Side_Exporting_and_Printing/)
 - [Adaptive Layout](/Documentation/Guide/Widgets/Chart/Adaptive_Layout/)
 
 #####See Also#####

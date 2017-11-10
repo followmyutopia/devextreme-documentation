@@ -23,7 +23,7 @@ Then, make the **PieChart** more informative with the following elements.
 Finally, add some interactivity.
 
 - [Tooltips](/Documentation/Guide/Widgets/PieChart/Tooltips/Overview/)
-- [Client-Side Export and Printing](/Documentation/Guide/Widgets/PieChart/Client-Side_Export_and_Printing/)
+- [Client-Side Exporting and Printing](/Documentation/Guide/Widgets/PieChart/Client-Side_Exporting_and_Printing/)
 - [Adaptive Layout](/Documentation/Guide/Widgets/PieChart/Adaptive_Layout/)
 
 #####See Also#####

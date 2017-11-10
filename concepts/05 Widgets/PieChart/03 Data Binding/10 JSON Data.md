@@ -1,4 +1,4 @@
-To bind the **PieChart** to data in a JSON format, assign the URL referring to data to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#dataSource) option.  
+To bind the **PieChart** to data in a JSON format, assign the data's URL to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#dataSource) option.  
 
 ---
 ##### jQuery

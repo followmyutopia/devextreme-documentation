@@ -3,7 +3,7 @@
     var legendColumnCount = 1;
     var legendRowCount = 1;
     var legendRowItemSpacing = 8;
-    var legendColumnItemSpacing = 8;
+    var legendColumnItemSpacing = 20;
     
     var chart = $("#chart").dxChart({
         dataSource: [

@@ -9,7 +9,7 @@ To bind the **PieChart** to data provided by an OData service, use the [ODataSto
                 store: {
                     type: 'odata',
                     url: 'http://www.example.com/dataservices/odata/targetData',
-                    key: 'ID'
+                    key: 'Id'
                 },
                 paginate: false
             })

@@ -20,5 +20,5 @@ Generally, exporting is performed using client-side API in browsers. However, th
 - The proxy should return the decoded file with the "Content-Disposition" header set to *attachment; filename="<fileName.xslx>"*.
 
 #####See Also#####
-- [Setting Up a Server-Side Proxy](/Documentation/Guide/Widgets/Chart/Client-Side_Export_and_Printing/#Set_Up_a_Server-Side_Proxy)
+- [Setting Up a Server-Side Proxy](/Documentation/Guide/Widgets/Chart/Client-Side_Exporting_and_Printing/#Set_Up_a_Server-Side_Proxy)
 <!--/fullDescription-->

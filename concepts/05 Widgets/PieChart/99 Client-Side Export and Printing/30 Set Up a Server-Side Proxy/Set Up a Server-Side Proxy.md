@@ -1,1 +1,0 @@
-See the instructions [here](/Documentation/Guide/Widgets/Chart/Client-Side_Export_and_Printing/#Set_Up_a_Server-Side_Proxy).
