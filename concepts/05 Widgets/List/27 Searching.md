@@ -1,4 +1,4 @@
-[note] Searching works when inputting a plain data structure only. However, if you need the searching capability and hierarchical data, transform the plain data using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
+[note] Searching works when inputting a plain data structure only. However, if you need the searching capability and grouped data, transform the plain data using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
 
 Searching is disabled in the **List** widget by default. Assign **true** to the [searchEnabled](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#searchEnabled) option to display the search panel. The [searchExpr](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#searchExpr) option specifies which data fields should be searched. Assign an _array_ of field names to it if you need to search several fields.
 
