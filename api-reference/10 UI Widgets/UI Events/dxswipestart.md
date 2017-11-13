@@ -19,7 +19,7 @@ The event supports the **direction** option, which specifies whether the event i
 <!--typeFunctionParamName1-->event<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->event<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The standard jQuery event argument. The following field is added to existing fields of this argument object. For the information on event handler arguments, refer to the [UI Events introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/).
+The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery. The following field is added to existing fields of this argument object. For the information on event handler arguments, refer to the [UI Events introduction](/Documentation/ApiReference/UI_Widgets/UI_Events/).
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->cancel<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->boolean<!--/typeFunctionParamType1_field1-->

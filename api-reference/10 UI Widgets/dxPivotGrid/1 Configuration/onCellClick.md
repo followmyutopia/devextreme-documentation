@@ -80,13 +80,13 @@ Fields of the *data* area.
 <!--typeFunctionParamName1_field12-->jQueryEvent<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->jQuery.Event<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-The jQuery event.
+The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamDeprecated1_field12-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field12-->
 <!--typeFunctionParamName1_field13-->event<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->event<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-The event that caused the action execution.
+The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->cancel<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->boolean<!--/typeFunctionParamType1_field14-->

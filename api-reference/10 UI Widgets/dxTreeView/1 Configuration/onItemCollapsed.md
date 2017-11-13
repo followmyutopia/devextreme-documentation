@@ -58,13 +58,13 @@ Specifies the index of the collapsed item.
 <!--typeFunctionParamName1_field7-->jQueryEvent<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->jQuery.Event<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-Specifies the jQuery event that caused action execution.
+The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamDeprecated1_field7-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field7-->
 <!--typeFunctionParamName1_field8-->event<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->event<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-Specifies the event that caused the action execution.
+The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->node<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->dxTreeViewNode<!--/typeFunctionParamType1_field9-->

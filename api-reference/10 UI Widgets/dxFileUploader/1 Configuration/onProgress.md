@@ -60,13 +60,13 @@ The total count of bytes in the XMLHttpRequest.
 <!--typeFunctionParamName1_field8-->jQueryEvent<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->jQuery.Event<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-An XMLHttpRequest progress event that caused the action execution.
+The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamDeprecated1_field8-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field8-->
 <!--typeFunctionParamName1_field9-->event<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->event<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The event that caused the action execution.
+The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->request<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->XMLHttpRequest<!--/typeFunctionParamType1_field10-->

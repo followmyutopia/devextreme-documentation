@@ -50,13 +50,13 @@ The clicked cell's container.
 <!--typeFunctionParamName1_field6-->jQueryEvent<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->jQuery.Event<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-Specifies the jQuery event that caused action execution.
+The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamDeprecated1_field6-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field6-->
 <!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-Specifies the event that caused the action execution.
+The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->cancel<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->Boolean<!--/typeFunctionParamType1_field8-->

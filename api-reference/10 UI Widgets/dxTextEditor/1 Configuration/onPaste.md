@@ -40,11 +40,11 @@ Provides access to the data that is available for binding against the element. A
 <!--typeFunctionParamName1_field4-->jQueryEvent<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->jQuery.Event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Specifies the jQuery event that caused the action execution.
+The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamDeprecated1_field4-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field4-->
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-Specifies the event that caused the action execution.
+The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
