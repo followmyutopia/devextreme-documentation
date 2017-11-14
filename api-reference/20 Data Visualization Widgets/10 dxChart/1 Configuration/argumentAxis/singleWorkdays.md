@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Days to be included in the axis when [workdaysOnly](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#workdaysOnly) is **true**.
+Dates to be included on the axis when [workdaysOnly](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#workdaysOnly) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

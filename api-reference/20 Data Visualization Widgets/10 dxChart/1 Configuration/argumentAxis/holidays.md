@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Days to be excluded from the axis when [workdaysOnly](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#workdaysOnly) is **true**.
+Dates to be excluded from the axis when [workdaysOnly](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#workdaysOnly) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
