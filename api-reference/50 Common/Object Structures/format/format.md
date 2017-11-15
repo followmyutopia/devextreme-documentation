@@ -116,8 +116,7 @@ This option accepts three types of values:
     <tr>
       <td>a</td>
       <td>
-        A day period (am or pm).</br>        
-        For example, "a" matches "am".
+        A day period (am or pm).
       </td>
     </tr>
     <tr>
