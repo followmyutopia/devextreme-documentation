@@ -110,14 +110,14 @@ This option accepts three types of values:
       <td>E</td>
       <td>
         A week day name.</br>    
-        For example, "E", "EE" or "EEE" matches "Tue", "EEEE" - "Tuesday", "EEEEE" - "T", "EEEEEE" - "Tu". 
+        For example, "E", "EE" or "EEE" matches "Tue", "EEEE" - "Tuesday", "EEEEE" - "T". 
       </td>
     </tr>
     <tr>
       <td>a</td>
       <td>
         A day period (am or pm).</br>        
-        For example, "a" matches "am", "aaaaa" - "a".
+        For example, "a" matches "am".
       </td>
     </tr>
     <tr>
