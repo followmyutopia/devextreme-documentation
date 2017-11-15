@@ -46,7 +46,7 @@ A function used to customize a web request before it is sent.
 
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->dataType<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->string<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 
 <!--/typeFunctionParamDescription1_field6-->
