@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The time span after which the popover is hidden.
+The delay in milliseconds after which the widget is hidden.
 <!--/shortDescription-->
 
 <!--fullDescription-->

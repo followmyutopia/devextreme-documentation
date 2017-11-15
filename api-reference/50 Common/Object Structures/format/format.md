@@ -180,7 +180,7 @@ This option accepts three types of values:
  - [Globalize - currencyFormatter](https://github.com/jquery/globalize/blob/master/doc/api/currency/currency-formatter.md)
  - [Globalize - dateFormatter](https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md)
 
-<a href="/Demos/WidgetsGallery/Demo/RangeSelector/CustomFormatting/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->number|date<!--/typeFunctionParamType1-->

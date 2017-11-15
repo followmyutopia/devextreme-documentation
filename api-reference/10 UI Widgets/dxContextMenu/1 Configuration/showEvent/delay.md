@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The time span after which the widget is shown.
+The delay in milliseconds after which the widget is displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
