@@ -15,7 +15,7 @@ Specifies a set of available filter operations.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The following table lists default operations by [data types](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType):
+The following table lists default operations by [data type](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType):
 
 <div class="simple-table">
 <table>
@@ -50,7 +50,9 @@ The following table lists default operations by [data types](/Documentation/ApiR
 </table>
 </div>
 
-[note] The *"isblank"* operation returns null values only; *"isnotblank"* - non-null values only.
+The *"isblank"* operation returns null values only; *"isnotblank"* - non-null values.
+
+[note] [Lookup](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/lookup/)'s default operations are [ "=", "<>", "isblank", "isnotblank" ] regardless of the data type.
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `FilterBuilderFieldFilterOperations` enum. This enum accepts the following values: `Equal`, `NotEqual`, `LessThan`, `LessThanOrEqual`, `GreaterThan`, `GreaterThanOrEqual`, `NotContains`, `Contains`, `StartsWith`, `EndsWith`, `IsBlank` and `IsNotBlank`.
 <!--/fullDescription-->
