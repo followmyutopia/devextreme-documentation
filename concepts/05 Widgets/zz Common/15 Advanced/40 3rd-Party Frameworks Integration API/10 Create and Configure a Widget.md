@@ -1,10 +1,13 @@
-To create a widget use the appropriate jQuery plugin. The options object passed to the plugin constructor specifies configuration options of the widget.
+To create a widget, call its constructor passing the target element and a configuration object. The target element may need to have additional style properties set, for example, data visualization widgets' **display** should be set to "block".
 
-    import $ from 'jquery'
-    import 'devextreme/ui/accordion'
+    import Accordion from 'devextreme/ui/accordion';
     ...
-    let $element = $('<div>').appendTo($container);
-    let instance = $element.dxAccordion(options).dxAccordion('instance');
+    let container = document.getElementById("root");
+    let element = document.createElement("div");
+    container.appendChild(element);
+    let instance = new Accordion(element, options);
     ...
 
-In the example above, the **$element** variable holds the HTML element associated with the widget. Data visualization widgets require this element to have the **display** style property set to "block". Additionally, some widgets (e.g. DataGrid) require the container to have defined size. Thus, place widget elements into a container element attached to the document (**$container** in the example above).
+If you do not use modules, access the widget's constructor via the **DevExpress.ui** namespace.
+
+    let instance = new DevExpress.ui.dxAccordion(element, options);

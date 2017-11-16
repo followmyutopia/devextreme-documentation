@@ -1,6 +1,6 @@
-To provide two-way binging and template support, pass a properly configured object to the **integrationOptions** option of the widget.
+Specify the widget's **integrationOptions** option to provide two-way binding and template support.
 
-    $element.dxAccordion({
+    DevExpress.ui.dxAccordion(element, {
         ...
         integrationOptions: {
             watchMethod: ...
@@ -9,69 +9,77 @@ To provide two-way binging and template support, pass a properly configured obje
         }
     })
 
-The integrationOptions configuration object contains the following fields.
+The **integrationOptions** configuration object contains the following fields:
 
 - **watchMethod**
 
- This field accepts the following function.
+ This field accepts the following function:
 
-        function(expressionGetter: ExpressionGetter, callback: CallbackFn, options?: WatchOptions): DisposeFn
+        function(expressionGetter, callback, watchOptions)
 
  Where
 
- - **ExpressionGetter** - An expression being watched. Accepts a function or string.
+ - **expressionGetter** - An expression being watched. Accepts a function or string.
 
- - **CallbackFn** - A callback called when the watcher is first set, and then each time the expressionGetter's value change has been detected during the digest loop.
+ - **callback** - A callback is called when the watcher is first set and each time it detects a value is changed for the expressionGetter during the internal evaluation loop.
 
- - **WatchOptions** - An object containing two Boolean fields:
+ - **watchOptions** - An object containing two Boolean fields:
 
      - **skipImmediate** - Specifies whether to skip the first value comparison.
 
      - **deep** - Specifies whether the watcher uses deep or shallow comparison.
 
- - **DisposeFn** - A function called when watchers related to the widget are disposed of.
-
-Most of DevExtreme widgets allow you to adjust their appearance using templates. You can specify a template by the name, using a function, or define markup. Use the following fields to provide template support.
+ - The method should return a function that is called when watchers related to the widget are deleted.
 
 - **templates**
 
- This field holds an array of named templates that are added when the widget is being initialized. An item key should correspond to the template name. The item value should be the following object.
+ This field holds a map of the templates that are added when the widget is initialized. Item keys should correspond to template names. Item values should be objects that contain render functions.
 
-        {
-            render: function(renderData: RenderData): JQuery { ... }
+        templates: {
+            itemTemplate: {
+                render: function (renderData){
+                    // 'renderData' includes the following fields:
+                    // 'model' - data to be applied on markup
+                    // 'itemIndex' - index of item in collection (or id in hierarchical collections)
+                    // 'container' - append rendered markup to this element
+                    ...
+                }
+            }
         }
 
- Where 
-
-        interface RenderData {
-            model: any; // Data to be applied on markup
-            itemIndex: any; // Index of item in collection (or id in hierarchical collections)
-            container: any; // Append rendered markup to this element
-        }
-
- The function should return a jQuery element containing the rendered template.
+ The **render** function should return an HTML element containing the rendered template.
 
 - **createTemplate**
 
- Define this method to support the capability to specify a template using a function or markup. This method should accept an HTML string or DOM passed to a **...Template** option of the widget and return a jQuery element containing the rendered template.
+ A function that processes a custom template. It accepts an HTML markup or a DOM node passed to a widget's **...Template** option and returns an object with a render function.
 
-In some cases, a widget can remove markup created by the template's **render()** method, e.g. item templates are removed when items are updated. If you need to dispose of resources allocated by the removed template (e.g. event handlers), subscribe to the **dxremove** event.
+        createTemplate: function(source) {
+            var template = Hogan.compile(source);
+            return {
+                render: function(args) {
+                    return template.render(args.data);
+                }
+            };
+        }
+
+In some cases, templates are removed at runtime, for example, when items are updated. To delete resources allocated to removed templates, handle to the **dxremove** event.
 
     integrationOptions: {
         templates: {
             "item": {
                 render: function(args) {
-                    var $div = $("<div>").dxButton({
+                    var div = document.createElement("div");
+                    new Button(div ,{
                         text: args.model
                     });
                     var intervalId = setInterval(function() {
                         console.log(args.model);
                     }, 500);
-                    $div.on("dxremove", function() {
+                    DevExpress.events.on(div, "dxremove", function() {
                         clearInterval(intervalId);
                     });
-                    args.container.append($div);
-                    return $div;
+                    args.container.appendChild(div);
+                    return div;
                 }
             }
         }
