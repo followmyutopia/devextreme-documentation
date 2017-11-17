@@ -44,5 +44,21 @@ A function to execute on triggering the event.
 <!--/paramDescription5-->
 
 <!--fullDescription-->
+The following parameters are passed to the **handler** function:
 
+- **element**  
+ The HTML element on which the event was triggered.
+
+- **extraParameters**  
+ Additional parameters. See [UI Events](/Documentation/ApiReference/UI_Widgets/UI_Events/) for details.
+
+The method should return a Boolean value: **true** to continue, or **false** to stop the event propagation.
+ 
+The following example demonstrates how to attach a handler to the [dxhold](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxhold) event for all elements with `my-element` class using the **one** method.
+    
+    var dxholdHandler = function(element, extraParameters) {
+        // Process element hold
+        return true;
+    }
+    DevExpress.events.one(document, "dxhold", ".my-element", { timeout: 1000 }, dxholdHandler);
 <!--/fullDescription-->

@@ -38,5 +38,11 @@ A handler to detach.
 <!--/paramDescription4-->
 
 <!--fullDescription-->
+The following example demonstrates how to detach a handler from the [dxhold](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxhold) event for all elements with `my-element` class:
 
+    var dxholdHandler = function() {
+        // Process element hold
+    }
+    ...
+    DevExpress.events.off(document, "dxhold", ".my-element", dxholdHandler);
 <!--/fullDescription-->

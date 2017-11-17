@@ -32,5 +32,8 @@ Additional parameters to pass to the event handler.
 <!--/paramDescription3-->
 
 <!--fullDescription-->
+The following code executes all [dxhold](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxhold) event handlers of the element with the "myElement" id:
 
+    var element = document.getElementById("myElement");
+    DevExpress.events.trigger(element, "dxhold", { timeout: 1000 });
 <!--/fullDescription-->
