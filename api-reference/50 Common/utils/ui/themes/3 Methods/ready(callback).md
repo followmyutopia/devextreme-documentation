@@ -18,5 +18,5 @@ A function to execute after the theme is ready.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-
+[note]The specified callback is executed only once. Call **ready** before each [current(themeName)](/Documentation/ApiReference/Common/utils/ui/themes/Methods/#currentthemeName) call to execute the callback each time the theme changes.
 <!--/fullDescription-->
