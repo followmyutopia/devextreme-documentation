@@ -29,7 +29,7 @@ In addition, you can implement the [parser](/Documentation/ApiReference/Common/O
 
 If **formatter** is the only field that you need to specify in the **format** object, assign the function straight to the **format** option as shown below.
 
-    <!--JavaScript--><!--JavaScript-->var widgetOptions = {
+    <!--JavaScript-->var widgetOptions = {
         // ...
         customizableElement: {
             format: function (originalValue) {
