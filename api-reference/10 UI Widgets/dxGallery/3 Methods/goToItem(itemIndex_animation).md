@@ -25,7 +25,7 @@ A Boolean value indicating whether or not to use animation when switching to the
 
 <!--returnType-->Promise<void><!--/returnType-->
 <!--returnDescription-->
-A deferred object resolved after the gallery item has changed.
+A Promise that is resolved after the gallery item has changed. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

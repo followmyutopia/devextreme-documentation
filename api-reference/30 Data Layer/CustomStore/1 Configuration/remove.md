@@ -23,5 +23,5 @@ The key value of the item being removed.
 
 <!--typeFunctionReturnType-->Promise<void><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A Promise that is resolved after the item is removed.
+A Promise that is resolved after the item is removed. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/typeFunctionReturnDescription-->
