@@ -18,7 +18,7 @@ A function used to customize a web request before it is sent.
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Specifies the request parameters.
+The request parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->url<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
@@ -33,7 +33,7 @@ Specifies whether the request is asynchronous or synchronous.
 <!--typeFunctionParamName1_field3-->method<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-A string that specifies the request method ("GET", "POST", "PATCH", or "MERGE").
+The request method ("GET", "POST", "PATCH", or "MERGE").
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->timeout<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->number<!--/typeFunctionParamType1_field4-->
@@ -53,5 +53,5 @@ The request body; for example, when updating an item, this property holds the va
 <!--typeFunctionParamName1_field7-->headers<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->object<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-An object holding the request headers.
+The request headers.
 <!--/typeFunctionParamDescription1_field7-->
