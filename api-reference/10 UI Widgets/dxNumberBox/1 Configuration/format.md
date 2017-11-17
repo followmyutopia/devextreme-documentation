@@ -66,4 +66,6 @@ The format can contain the following characters:
   </table>
 </div>
 
+<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/NumberBox/Formatting/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Demo</a>
+
 <!--/fullDescription-->
