@@ -1,4 +1,4 @@
-Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#deselectRowskeys) method to clear the selection of specific rows.
+Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#deselectRowskeys) method to clear the selection of specific rows. With the non-recursive selection, one key deselects one row; with [recursive](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#recursive) - a row with its nested rows. 
 
 ---
 ##### jQuery
@@ -27,7 +27,7 @@ Call the [deselectRows(keys)](/Documentation/ApiReference/UI_Widgets/dxTreeList/
     
 ---
 
-The [deselectAll()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#deselectAll) method clears selection of all visible rows, and can be used when you apply a [filter](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/) and want to keep the selection of invisible rows that do not meet the filtering conditions. To clear selection of all rows regardless of their visibility, call the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#clearSelection) method.
+The [deselectAll()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#deselectAll) method clears selection of all visible rows and can be used when you apply a [filter](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/) and want to keep the selection of invisible rows that do not meet the filtering conditions. To clear the selection of all rows regardless of their visibility, call the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#clearSelection) method.
 
 ---
 ##### jQuery
