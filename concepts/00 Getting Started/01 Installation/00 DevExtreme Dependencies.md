@@ -1,15 +1,12 @@
-DevExtreme has the following dependencies.
+DevExtreme is integrated with the following libraries and frameworks:
 
 - **jQuery** versions 2.1 - 2.2 and 3.x
-
-Optionally, you can use DevExtreme with the following MVVM frameworks.
-
 - **Knockout** versions 2.2.3 - 2.3.0 and 3.1.0 - 3.4.0
 - **AngularJS** versions 1.2 - 1.5
 - **Angular** versions 2.2.1+     
-    For information on installing and using DevExtreme with Angular, see the [devextreme-angular](https://github.com/DevExpress/devextreme-angular) repository on GitHub.
+    See the [devextreme-angular](https://github.com/DevExpress/devextreme-angular) repository on GitHub for information on installing and     using DevExtreme with Angular.
 
-Some functionality relies on additional libraries.
+Certain features may require additional libraries:
 
 - **Globalize** version 1.x     
 Allows you to localize your app and use custom date, number and currency [formatting](/Documentation/ApiReference/Common/Object_Structures/format/). For details on when and how to use the Globalize library, see [topics about localization](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/).
