@@ -1,7 +1,5 @@
 The Navbar layout is available for all platforms supported by the framework. This layout is characterized by the presence of a navigation control on a view. The navigation control is global navigation that provides access to the root views of the application.
 
-See a step-by-step example in the <a href="/Documentation/17_2/Tutorial/SPA_Framework/Add_a_Navigation_Bar#Add_a_Navigation_Bar">Add a Navigation Bar</a> tutorial.
-
 <a id="iOSNavbarLayout"></a><h4>iOS</h4>
 
 ![NavBar iOS](/Content/images/doc/17_2/PhoneJS/navbar_ios.png)

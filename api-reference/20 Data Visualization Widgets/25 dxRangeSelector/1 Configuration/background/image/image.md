@@ -21,7 +21,5 @@ The height of the specified image must be less than or equal to the following va
 
 If the image size is smaller than the background size, a default background color will be displayed in the remaining area. You can set a custom color (e.g. an empty color) for the background using the **color** property of the **background** configuration object.
 
-To see an example of how to show an image in the background, refer to the [Customize the Appearance](/Documentation/Tutorial/Data_Visualization/Configure_RangeSelector/#Customize_the_Appearance) lesson in the Getting Started section.
-
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectorimageonbackground/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->

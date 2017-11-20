@@ -1,9 +1,0 @@
-<article data-show-web="/Content/Applications/17_2/DataVisualization/Lessons/ConfigureGauges/Step6/gauges.html" data-show-first="linearGauge.js">
-Along with the **CircularGauge** widget, the DevExtreme data visualization library supplies you with its line-shaped brother - the **LinearGauge** widget. Use this topic to learn how to configure this widget to your requirements, and thus get a linear gauge that displays the local temperature and the temperature of the selected city.
-
-Virtually all the settings you specified for **CircularGauge** can be used in **LinearGauge**. The scale, range container and ticks are configured in the same way as are the value and subvalues. The only difference is the **geometry** | [orientation](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/geometry/#orientation) option, which specifies whether to direct the widget in the horizontal or vertical direction.
-
-Add a div container for **LinearGauge** to your HTML page. Create the *linearGauge.js* JavaScript file and reference it on this HTML page. Then, copy-paste the **CircularGauge**'s configuration to the JavaScript file. Specify the **geometry** | **orientation** option for **LinearGauge**. After that, add lines of code to the **onValueChanged** handler of **SelectBox**. These lines update the **LinearGauge**'s value when the user selects a city from **SelectBox**. Finally, place the div containers with gauge widgets into another div container in order to align them center.
-
-In the next step, you will add one more gauge widget from the DevExtreme Data Visualization library - **BarGauge**.
-</article>

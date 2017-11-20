@@ -19,5 +19,4 @@ To disable view caching, set this option to **true**. In this mode, this view wi
 
 To disable caching totally for all application views, set the application's [disableViewCache](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#disableViewCache) configuration option to **true**.
 
-To see an example, refer to the [Disable View Caching](/Documentation/Tutorial/SPA_Framework/Disable_View_Caching/#Disable_View_Caching) tutorial.
 <!--/fullDescription-->

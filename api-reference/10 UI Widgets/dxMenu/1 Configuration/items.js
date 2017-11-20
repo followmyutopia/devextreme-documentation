@@ -1,14 +1,5 @@
 menuItems = [
     {
-        text: "Tutorials",
-        items: [
-            { text: "VS Integration" },
-            { text: "UI Widgets" },
-            { text: "Data Visualization" },
-            { text: "Data Layer" }
-        ]
-    },
-    {
         text: "Guides",
         items: [
             { text: "Demos Inside" },

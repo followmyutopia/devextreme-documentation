@@ -2,6 +2,3 @@
 
 Use ODataStore to access one OData entity specified by the URL, or the [ODataContext](/Documentation/ApiReference/Data_Layer/ODataContext/) object to communicate with an entire OData service.
 
-#####See Also#####
-- [Data Layer - Access OData Service Data Via DataSource](/Documentation/Tutorial/Data_Layer/Access_OData_Service_Data_Via_DataSource#Access_OData_Service_Data_Via_DataSource)
-

@@ -13,5 +13,5 @@ Returns the name of the series [pane](/Documentation/ApiReference/Data_Visualiza
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn more on how to display series in different panes, refer to the [Create a Multi-Pane Chart](/Documentation/Tutorial/Data_Visualization/Create_a_Multi-Pane_Chart/) tutorial.
+
 <!--/fullDescription-->

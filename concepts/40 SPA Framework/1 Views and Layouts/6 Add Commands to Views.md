@@ -24,8 +24,6 @@ In some scenarios, it is not appropriate to add commands to a view using the vie
 
 The objects that represent commands in the **commands** array must have the same structure as the [configuration objects](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxCommand/) of the **dxCommand** markup components.
 
-You can see an example of defining the **commands** array within a ViewModel object in the [Add Global Navigation Commands to a View](/Documentation/Tutorial/SPA_Framework/Add_Global_Navigation_Commands_to_a_View/#Add_Global_Navigation_Commands_to_a_View) tutorial.
-
 To display commands, the layout in which a view is displayed must include command containers. These are the elements in the layout markup that are marked by the **data-options** attribute set to **dxCommandContainer**. The following code demonstrates a command container that displays commands by toolbar items.
 
     <!--HTML--><div class="layout-header">

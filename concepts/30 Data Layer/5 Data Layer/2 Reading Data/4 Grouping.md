@@ -145,6 +145,3 @@ The loaded array looks like the following.
         .done(function (result) {
             // 'result' contains the 'data' array grouped by the 'birthYear' property value.
         });
-
-#####See Also#####
-- [Data Layer - Grouping Tutorial](/Documentation/Tutorial/Data_Layer/Grouping#Grouping).

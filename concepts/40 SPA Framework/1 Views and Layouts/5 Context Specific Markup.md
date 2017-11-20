@@ -18,8 +18,6 @@ As you can see, you can specify the target platform as well as the device type.
 
 A DevExtreme application, when running, retrieves information about the device from the browser. Thus, the application will display the views and layouts that are most appropriate for the used device, and will then apply the style sheets that correspond to this device.
 
-See a step-by-step example in the <a href="/Documentation/17_2/Tutorial/SPA_Framework/Define_Device-Specific_View_Markup#Define_Device-Specific_View_Markup">Define Device-Specific View Markup</a> tutorial.
-
 ####Orientation Specific Markup####
 
 You can define view templates that are specific to the 'portrait' and 'landscape' device orientations. To set a target device orientation for a view, use the [orientation](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxView/Configuration/#orientation) configuration option of the corresponding **dxView** markup component. In the following example, the 'home' view will have data displayed using the [List](/Documentation/ApiReference/UI_Widgets/dxList/) widget when the device on which the application is currently displayed has a 'portrait' orientation. When changing the device orientation to 'landscape', the 'home' view will be rerendered. In the newly applied HTML template, data will be displayed using the [TileView](/Documentation/ApiReference/UI_Widgets/dxTileView/) widget. When rotating the device back to the 'portrait' orientation, the view will be rerendered and will display data using the **List** widget again.

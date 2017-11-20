@@ -10,6 +10,6 @@ The *.dxView* files are the HTML files that can be opened using the **View Desig
 
 The *app.config.js* file includes the configuration object used to initialize the [application object](/Documentation/Guide/SPA_Framework/Application_Project/#Application_Object). 
 
-Generally, the basic project template is the minimum requirement for starting to build an application. You can then extend the project as required. This is demonstrated in the [Your First Application](/Documentation/Tutorial/VS_Integration/Your_First_Mobile_App_in_Visual_Studio/) tutorial.
+Generally, the basic project template is the minimum requirement for starting to build an application. You can then extend the project as required.
 
 The application created using the **Basic Application** template can be built for the desktop or packaged for iOS, Android, WinPhone and PhoneGap. For details, refer to the [Packaging Tools](/Documentation/Guide/VS_Integration/Packaging_Tools/) documentation section.

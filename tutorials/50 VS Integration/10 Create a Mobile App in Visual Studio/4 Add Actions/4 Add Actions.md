@@ -1,2 +1,0 @@
-Add the actions that are planned on the [application map](/Documentation/Tutorial/VS_Integration/Create_a_Mobile_App_in_Visual_Studio/#Application_Map) to your views. Start by modifying the views' HTML markup, so that the actions become available for end-user manipulation. The description of how to define the functions implementing these actions will be given in the [Add ViewModels](/Documentation/Tutorial/VS_Integration/Create_a_Mobile_App_in_Visual_Studio/#Add_ViewModels) tutorial section.
-

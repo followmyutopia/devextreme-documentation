@@ -19,7 +19,7 @@ In non-basic applications, different layouts can be used for different views. Fo
 	- **Windows Phone**  
 		Root views are displayed in the [Navbar](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Win8NavbarLayout) layout. Other views are displayed in the [Split](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Split_Layout) layout.
 	- **iOS** and **Android**  
-		All views are displayed in the [Split](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Split_Layout) layout. It is recommended, that the first navigated view in an application includes global navigation. For this purpose, implement a 'navigation' view with a widget(s) that will allow you to navigate to the application's root views. To see an example of an application using this layout set, refer to the [Add Global Navigation Commands to a View](/Documentation/Tutorial/SPA_Framework/Add_Global_Navigation_Commands_to_a_View/#Add_Global_Navigation_Commands_to_a_View) tutorial.
+		All views are displayed in the [Split](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Split_Layout) layout. It is recommended, that the first navigated view in an application includes global navigation. For this purpose, implement a 'navigation' view with a widget(s) that will allow you to navigate to the application's root views.
 
 - **simple**  
 	All views are displayed in the [Simple layout](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Simple_Layout) on all platforms.

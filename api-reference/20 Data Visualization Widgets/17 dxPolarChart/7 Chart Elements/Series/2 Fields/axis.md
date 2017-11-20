@@ -14,5 +14,5 @@ Returns the name of the value [axis](/Documentation/ApiReference/Data_Visualizat
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn more on how to display a chart with several value axes, refer to the [Create a Multi-Axis Chart](/Documentation/Tutorial/Data_Visualization/Create_a_Multi-Axis_Chart/) tutorial.
+
 <!--/fullDescription-->

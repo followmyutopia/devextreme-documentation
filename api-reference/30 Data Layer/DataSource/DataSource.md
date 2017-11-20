@@ -33,7 +33,7 @@ You can also pass the **DataSource** configuration object to the dataSource opti
 
 [note] If you create a **DataSource** instance outside the widget, be sure to [dispose](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#dispose) of it when it is no longer used. If the **DataSource** is created within the widget, it will be disposed of automatically.
 
-Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/), [Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/), and [Data-Bound Application](/Documentation/Tutorial/#Bind_to_Real_Data) topics for more information about working with data in DevExtreme.
+Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) and [Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/) topics for more information about working with data in DevExtreme.
 
 When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the options of the **DataSource** in the `DataSourceOptions()` method.
 

@@ -78,5 +78,3 @@ The sorting condition can be specified using the [sort](/Documentation/ApiRefere
             // 'result' contains the 'data' array items sorted by 'firstName' in the descending order and then by 'lastName'
         });
 
-#####See Also#####
-- [Data Layer - Sorting Tutorial](/Documentation/Tutorial/Data_Layer/Sorting#Sorting)

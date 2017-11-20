@@ -39,5 +39,4 @@ In addition, you can specify a custom layout set. For this purpose, assign an ar
 
 #####See Also#####
 - [SPA Framework - Custom Layout Sets](/Documentation/Guide/SPA_Framework/Built-in_Layouts#Custom_Layout_Sets) topic.
-- [SPA Framework - Use a Custom Layout Set](/Documentation/Tutorial/SPA_Framework/Use_a_Custom_Layout_Set#Use_a_Custom_Layout_Set)
 <!--/fullDescription-->

@@ -22,6 +22,3 @@ To replace the auto-generated Back command with a custom one, define a command a
     <!--HTML--><div data-bind="dxCommand: { id: 'back', title: 'Back', location: 'before', type: 'back', onExecute: '#_back' }" ></div>
 
 In the code above, the custom Back command uses the '#_back' registered function to navigate back to the previous view. Generally, you can assign this function to any command to perform the "navigate back to the previous view" functionality.
-
-#####See Also#####
-- [SPA Framework - Handle the Hardware Back Button](/Documentation/Tutorial/SPA_Framework/Handle_the_Hardware_Back_Button#Handle_the_Hardware_Back_Button)

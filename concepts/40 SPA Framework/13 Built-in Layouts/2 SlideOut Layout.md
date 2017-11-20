@@ -1,7 +1,5 @@
 The SlideOut layout is available for all the platforms supported by the framework. This layout is characterized by its slide-out menu that is hidden behind the main screen. This menu can be revealed by a click on the top left corner menu icon. The slide-out menu represents a global navigation that provides access to the root views of the application.
 
-See a step-by-step example in the <a href="/Documentation/17_2/Tutorial/SPA_Framework/Use_a_SlideOut_Menu#Use_a_SlideOut_Menu">Use a SlideOut Menu</a> tutorial.
-
 <a id="iOSSlideOutLayout"></a><h4>iOS</h4>
 
 ![SlideOut iOS](/Content/images/doc/17_2/PhoneJS/slideout_ios_root.png)

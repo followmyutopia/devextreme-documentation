@@ -16,7 +16,7 @@ The ViewModel may get the required data from the view's **Model** - a JavaScript
 Within the function that returns a ViewModel, you can use the information that is passed when navigating to the view. This information is accessible using the following parameters of the function.
 
 - **Navigation parameters**  
-	When navigating to a view, extra navigation parameters can be specified in addition to the name of the target view. These parameters conform to the application's [routing format](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing). You can access these navigation parameters as the fields of the object passed as the first parameter of the function that returns the ViewModel of the target view. To see an example, refer to the [Pass a Parameter to a View](/Documentation/Tutorial/SPA_Framework/Your_First_Application/#Pass_a_Parameter_to_a_View) step of the **Your First Application** tutorial.
+	When navigating to a view, extra navigation parameters can be specified in addition to the name of the target view. These parameters conform to the application's [routing format](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing). You can access these navigation parameters as the fields of the object passed as the first parameter of the function that returns the ViewModel of the target view.
 
 - **View info**  
 	The second parameter passed as the function's parameter represents an object that specifies the information that is gathered on the view by the time the function is called. The following fields of this object are accessible: **key**, **viewName**, **uri**, **routeData**, **canBack** and **previousViewInfo**.

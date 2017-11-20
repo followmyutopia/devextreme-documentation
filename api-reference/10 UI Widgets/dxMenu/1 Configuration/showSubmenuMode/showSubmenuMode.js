@@ -2,9 +2,9 @@
 var myViewModel = {
     menuItems: [
         {
-            text: "Tutorials",
+            text: "Guides",
             items: [
-                { text: "VS Integration" },
+                { text: "Demos Inside" },
                 {
                     text: "UI Widgets",
                     items: [
@@ -13,15 +13,6 @@ var myViewModel = {
                         { text: "Angular Approach" }
                     ]
                 },
-                { text: "Data Visualization" },
-                { text: "Data Layer" }
-            ]
-        },
-        {
-            text: "Guides",
-            items: [
-                { text: "Demos Inside" },
-                { text: "UI Widgets" },
                 { text: "Data Visualization" },
                 { text: "Themes" },
                 { text: "Common" }
@@ -48,9 +39,9 @@ var myApp = angular.module('myApp', ['dx']);
 myApp.controller("demoController", function ($scope) {
     $scope.menuItems = [
         {
-            text: "Tutorials",
+            text: "Guides",
             items: [
-                { text: "VS Integration" },
+                { text: "Demos Inside" },
                 {
                     text: "UI Widgets",
                     items: [
@@ -59,15 +50,6 @@ myApp.controller("demoController", function ($scope) {
                         { text: "Angular Approach" }
                     ]
                 },
-                { text: "Data Visualization" },
-                { text: "Data Layer" }
-            ]
-        },
-        {
-            text: "Guides",
-            items: [
-                { text: "Demos Inside" },
-                { text: "UI Widgets" },
                 { text: "Data Visualization" },
                 { text: "Themes" },
                 { text: "Common" }
@@ -95,9 +77,9 @@ angular.element(document).ready(function () {
 $("#myMenu").dxMenu({
     items: [
         {
-            text: "Tutorials",
+            text: "Guides",
             items: [
-                { text: "VS Integration" },
+                { text: "Demos Inside" },
                 {
                     text: "UI Widgets",
                     items: [
@@ -106,15 +88,6 @@ $("#myMenu").dxMenu({
                         { text: "Angular Approach" }
                     ]
                 },
-                { text: "Data Visualization" },
-                { text: "Data Layer" }
-            ]
-        },
-        {
-            text: "Guides",
-            items: [
-                { text: "Demos Inside" },
-                { text: "UI Widgets" },
                 { text: "Data Visualization" },
                 { text: "Themes" },
                 { text: "Common" }

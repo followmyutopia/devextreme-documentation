@@ -19,6 +19,3 @@ To disable paging, assign **false** to the [paginate](/Documentation/ApiReferenc
         paginate: false,
         . . .
     });
-
-#####See Also#####
-- [Data Layer - Paging Tutorial](/Documentation/Tutorial/Data_Layer/Paging#Paging)

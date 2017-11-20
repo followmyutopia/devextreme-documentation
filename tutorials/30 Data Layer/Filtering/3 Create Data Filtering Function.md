@@ -1,4 +1,0 @@
-﻿<article data-show-web="/Content/Applications/117_2DataLayer/Filtering/Step4/markup.html" data-show-first="script.js">
-
-Implement a function that will apply new filtering options to the DataSource instance and load data. The [filter()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#filterfilterExpr) method applies new filtering options to the DataSource instance. The **filteringOptions** parameter of the **filterData** function specifies the [filtering expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) passed to the **filter()** method. The [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method loads data in consideration of the applied filtering options.
-</article>

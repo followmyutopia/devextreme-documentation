@@ -1,9 +1,0 @@
-<article data-show="/Content/Applications/17_2/framework/ViewEvents/step1/index.html" data-show-first="views/home.html">
-
-Use a [simple application](/Documentation/Tutorial/SPA_Framework/Change_a_View_Title_Dynamically/#Prepare_a_Simple_Application) to handle view events. There will be enough to have the 'home' view. In this view, there will be a button to navigate to a 'log' view. While displaying the 'log' view, the result of raising view events will be logged. At this step, define the 'home' and 'log' views and implement navigation between them.
-
-- Add the 'log' view to the application (to learn how to do this, refer to the [Your First Application](/Documentation/Tutorial/SPA_Framework/Your_First_Application/) tutorial).
-- Add the [TextArea](/Documentation/ApiReference/UI_Widgets/dxTextArea/) widget to this view and bind its [value](/Documentation/ApiReference/UI_Widgets/dxTextArea/Configuration/#value) configuration option to the ViewModel's **log** field. Make the **log** ViewModel field [obseravable](http://knockoutjs.com/documentation/observables.html), so that the textbox that is bound to this field is updated when the field's value is changed.
-- Add the [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget to the 'home' view. Bind its [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) configuration option to the **showLog** ViewModel field. Set this field to a function where you will call the application's [navigate](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#navigateuri_options) method to navigate to the 'log' view.
-
-</article>

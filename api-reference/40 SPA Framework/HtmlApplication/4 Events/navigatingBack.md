@@ -32,9 +32,6 @@ This event allows you to handle a Back button click, even if the hardware Back b
         Application1.app.currentViewModel = null;
     });
 
-#####See Also#####
-- [SPA Framework - Handle the Hardware Back Button](/Documentation/Tutorial/SPA_Framework/Handle_the_Hardware_Back_Button#Handle_the_Hardware_Back_Button)
-
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

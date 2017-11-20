@@ -4,8 +4,6 @@ When defining views, specify the pane in which a view will be displayed in the S
 
 [note]If you use the Split layout, the DevExtreme SPA framework adds an additional navigation stack for the "detail" pane. This stack holds all views whose **pane** option is set to "detail" or is not defined. To put a view to the main navigation stack, set the **pane** option to "master". If you navigate from the Split layout to a non-Split layout, set the **pane** option of the target view to "master". Otherwise, this view will be put to the additional ("detail") stack, which may cause unexpected behavior.
 
-To see an example, refer to the [Use Split Layout For Tablets](/Documentation/Tutorial/SPA_Framework/Use_Split_Layout_For_Tablets/) tutorial.
-
 <a id="iOSSplitLayout"></a><h4>iOS</h4>
 
 ![Split](/Content/images/doc/17_2/PhoneJS/split-ios.png)

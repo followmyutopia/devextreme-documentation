@@ -1,4 +1,0 @@
-﻿<article data-show-web="/Content/Applications/117_2DataLayer/Grouping/Step4/markup.html" data-show-first="script.js">
-
-Implement a function that will apply new grouping options to the DataSource instance and load data. The [group()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#groupgroupExpr) method applies new grouping options to the DataSource instance. The **groupingOptions** parameter of the **groupData** function specifies the [grouping expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) passed to the **group()** method. The [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method loads data in consideration of the applied grouping options.
-</article>

@@ -49,7 +49,4 @@ In this instance, the toolbar's text will be set to the value of the statically 
 
 If the field to which the layout's element is bound has another name, change the corresponding field name in your ViewModel or the option name in the dxView definition. If a layout does not include a UI element that represents a view title, neither the **title** field in your ViewModel nor the **title** option in the dxView definition will have an effect.
 
-#####See Also#####
-- [SPA Framework - Change a View Title Dynamically](/Documentation/Tutorial/SPA_Framework/Change_a_View_Title_Dynamically#Change_a_View_Title_Dynamically)
-
 <!--/fullDescription-->

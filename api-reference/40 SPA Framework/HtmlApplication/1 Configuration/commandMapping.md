@@ -79,9 +79,4 @@ Command options override the corresponding defaults that are declared for all co
 
 [note]If you use [predefined layouts](/Documentation/Guide/SPA_Framework/Built-in_Layouts/), it is only required to define a mapping for your custom commands. An application loads default command mapping and extends it by your custom command mapping declared within the application's configuration object. To learn what commands are mapped to the built-in layouts by default, refer to the [Default Command Mapping](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Default_Command_Mapping) topic.
 
-#####See Also#####
-- [SPA Framework - Add Commands to Views](/Documentation/Guide/SPA_Framework/Views_and_Layouts#Add_Commands_to_Views)
-- [SPA Framework - Add a Toolbar Button](/Documentation/Tutorial/SPA_Framework/Add_a_Toolbar_Button#Add_a_Toolbar_Button)
-- [SPA Framework - Add a Menu Item](/Documentation/Tutorial/SPA_Framework/Add_a_Menu_Item#Add_a_Menu_Item)
-
 <!--/fullDescription-->

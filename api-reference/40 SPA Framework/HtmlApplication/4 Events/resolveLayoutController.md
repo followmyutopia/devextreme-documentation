@@ -45,7 +45,6 @@ Use the [on(eventName, eventHandler)](/Documentation/ApiReference/SPA_Framework/
 #####See Also#####
 - [SPA Framework - Custom Layout Sets](/Documentation/Guide/SPA_Framework/Built-in_Layouts#Custom_Layout_Sets)
 - [SPA Framework - View Life Cycle](/Documentation/Guide/SPA_Framework/Views_and_Layouts#View_Life_Cycle)
-- [SPA Framework - Set a Layout for a View](/Documentation/Tutorial/SPA_Framework/Set_a_Layout_for_a_View#Set_a_Layout_for_a_View)
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

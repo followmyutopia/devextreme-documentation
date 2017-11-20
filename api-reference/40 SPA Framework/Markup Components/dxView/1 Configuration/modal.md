@@ -21,8 +21,6 @@ To display a modal view in a popup window, add the [Popup Layout](/Documentation
         </div>
     </div>
 
-To see an example of using a modal view in a DevExtreme application, refer to the [Logon When Navigating to a View](/Documentation/Tutorial/SPA_Framework/Logon_When_Navigating_to_a_View/#Logon_When_Navigating_to_a_View) tutorial.
-
 If a view should be modal in specific scenarios only, do not set the **modal** option for it. Instead, use the **modal** parameter when navigating to the view using the [navigate()](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#navigateuri_options) method or the **modal** option when using a [command](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxCommand/).
 
 Pay attention to the recommendations given for using modal views in the [Modal Contexts](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/Modal.html#//apple_ref/doc/uid/TP40006556-CH64-SW1) article. If it is better to display an "alert"/"confirm" dialog instead of a modal view, use an appropriate method of the [DevExpress.ui.dialog](/Documentation/ApiReference/Common/Utils/ui/dialog/) object.

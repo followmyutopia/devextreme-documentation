@@ -37,6 +37,3 @@ If you return back to a previous view and invoke a new view from it, the history
 ![New Branch from Navigation Stack](/Content/images/doc/17_2/PhoneJS/NewBranchFromNavigationStack.png)
 
 When pressing a navigation control item, the corresponding root view is displayed. If this view has been displayed before, it is restored from the cache. You can change this behavior and display the view that was displayed last in the stack based on this root view. For this purpose, set the [navigateToRootViewMode](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#navigateToRootViewMode) option of the HtmlApplication object to *keepHistory*.
-
-#####See Also#####
-- [SPA Framework - Navigate Forward and Backwards to a View](/Documentation/Tutorial/SPA_Framework/Navigate_Forward_and_Backwards_to_a_View#Navigate_Forward_and_Backwards_to_a_View)

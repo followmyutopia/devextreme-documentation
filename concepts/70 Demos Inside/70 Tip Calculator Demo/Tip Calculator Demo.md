@@ -6,6 +6,4 @@ Technically, the TipCalculator is a simple single-screen application. It contain
 The TipCalculator demo is located in your **Demos** folder within your DevExtreme package. In addition, you can download this demo from the [GitHub resource](https://github.com/DevExpress/DevExtreme-14.2-TipCalculator-Knockout). Go through the steps below to review what is inside.
 
 [note]You may notice that the TipCalculator demo is localized (you will find strings replaced by the @text keys in HTML code and globalize dictionaries linked in the application). However, localization aspects are not detailed in this article for the sake of simplicity. You can learn how to localize applications in the [Localization](/Documentation/Guide/SPA_Framework/Localization/) documentation section.
-
-If you want to learn the basics of how to create applications using the DevExtreme framework, start with the [Your First Application](/Documentation/Tutorial/SPA_Framework/Your_First_Application/) step-by-step tutorial. It discusses the main ideas required for building applications using the DevExtreme framework.
 </article>
