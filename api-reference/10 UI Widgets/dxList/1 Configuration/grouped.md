@@ -10,12 +10,25 @@
 ===========================================================================
 
 <!--shortDescription-->
-A Boolean value specifying whether or not to display a grouped list.
+Specifies whether data items should be grouped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If this option is set to 'true', the object assigned to the items option should
-include the **key** and **items** properties. The **key** property specifies the group caption in the list. The **items** property represents an array listing the group items.
+When this option is **true**, make sure that all data source objects have the following structure:
+
+    <!--JavaScript-->var dataSource = [{
+        key: "Group 1", // Group caption 
+        items: [ // Items in the group
+            { ... },
+            { ... }
+        ]
+    }, {
+        // ...
+    }];
+
+You can supply data to this structure using the **DataSource** object's [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
+
+[note]Only one-level grouping is supported.
 
 #####See Also#####
 - [List - Grouping](/Documentation/Guide/Widgets/List/Grouping/In_the_Data_Source/)

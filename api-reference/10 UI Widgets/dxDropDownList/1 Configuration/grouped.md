@@ -14,7 +14,7 @@ Specifies whether data items should be grouped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When you set this option to **true**, make sure that all data source objects have the following structure.
+When this option is **true**, make sure that all data source objects have the following structure:
 
     <!--JavaScript-->var dataSource = [{
         key: "Group 1", // Group caption 
@@ -26,9 +26,13 @@ When you set this option to **true**, make sure that all data source objects hav
         // ...
     }];
 
-You can bring data to this structure using the [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option of the **DataSource** object.
+You can supply data to this structure using the **DataSource** object's [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
+
+[note]Only one-level grouping is supported.
 
 #####See Also#####
 - [SelectBox - Grouped Items Demo](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/jQuery/Light/)
 - [TagBox - Grouped Items Demo](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/jQuery/Light/)
+- [SelectBox - Grouping](/Documentation/Guide/Widgets/SelectBox/Grouping/)
+- [TagBox - Grouping](/Documentation/Guide/Widgets/TagBox/Grouping/)
 <!--/fullDescription-->
