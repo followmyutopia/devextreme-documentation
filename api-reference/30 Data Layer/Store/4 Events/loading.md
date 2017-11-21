@@ -18,5 +18,5 @@ To learn how to handle events, refer to the [Events and Change Tracking](/Docume
 <!--typeFunctionParamName1-->loadOptions<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->LoadOptions<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object defining options for the loaded data.
+An object containing data processing settings.
 <!--/typeFunctionParamDescription1-->

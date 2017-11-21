@@ -31,7 +31,7 @@ This function's implementation has certain specifics depending on the widget in 
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->LoadOptions<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object specifying data shaping options.
+An object containing data processing settings.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->

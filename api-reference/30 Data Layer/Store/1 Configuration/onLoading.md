@@ -19,5 +19,5 @@ Assign a function to perform a custom action before data is loaded.
 <!--typeFunctionParamName1-->loadOptions<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->LoadOptions<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object defining options for the loaded data.
+An object containing data processing settings.
 <!--/typeFunctionParamDescription1-->
