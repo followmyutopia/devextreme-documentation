@@ -1,0 +1,84 @@
+The **FilterBuilder** widget allows a user to build complex filter expressions with an unlimited number of filter conditions using the UI. 
+
+<a href="http://js.devexpress.com/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/Angular/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+
+The following code adds a simple **FilterBuilder** to your page. Note that each item in the [fields](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields) array contains the [dataField](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField). The filter expression is defined in the [value](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#value) option and should contain only those data fields that are present in the **fields** array.
+
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#filterBuilder").dxFilterBuilder({
+            value: [
+                [
+                    ["Product_Name", "startswith", "Super"],
+                    "and",
+                    ["Product_Cost", ">=", 300]
+                ],
+                "Or",
+                [
+                    ["Product_Name", "contains", "HD"],
+                    "and",
+                    ["Product_Cost", "<", 200]
+                ]
+            ],
+            fields: [{
+                caption: "ID",
+                dataField: "Product_ID",
+                dataType: "number"
+            }, {
+                dataField: "Product_Name"
+            }, {
+                caption: "Cost",
+                dataField: "Product_Cost",
+                dataType: "number",
+                format: "currency"
+            }]
+        });
+    });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-filter-builder 
+        [fields]="fields">
+    </dx-filter-builder>
+
+    <!--TypeScript-->
+    import { DxFilterBuilderModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        fields = [{
+            caption: "ID",
+            dataField: "Product_ID",
+            dataType: "number"
+        }, {
+            dataField: "Product_Name"
+        }, {
+            caption: "Cost",
+            dataField: "Product_Cost",
+            dataType: "number",
+            format: "currency"
+        }];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFilterBuilderModule
+        ],
+        // ...
+    })
+
+---
+
+The **FilterBuilder** displays the filter expression as a tree structure, where nodes represent simple filter conditions. Each condition consists of a data field, operation and value. A logical operation combines conditions into groups. For example, the following image shows how the above filter expression looks in the UI:
+
+![DevExtreme HTML5 JavaScript Filter Builder Groups](/Content/images/doc/17_2/FilterBuilder/visual_elements/groups.png)
+
+#####See Also#####
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
+- [Integrate with a Widget](/Documentation/Guide/Widgets/FilterBuilder/Integrate_with_Widget/)
+- [Predefine Filter Values](/Documentation/Guide/Widgets/FilterBuilder/Predefine_Filter_Values/)
+
+[tags]filter builder, filterBuilder, filter expression, condition, overview
