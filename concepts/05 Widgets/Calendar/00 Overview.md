@@ -43,47 +43,6 @@ The following code adds a simple **Calendar** to your page.
 
 The **Calendar** accepts values of the following formats: [dates](http://www.w3schools.com/jsref/jsref_obj_date.asp), numeric values specifying the number of milliseconds since January 1, 1970, 00:00:00, and strings that match the following patterns: `'yyyy-MM-dd'`, `'yyyy-MM-ddTHH:mm:ss'`, `'yyyy-MM-ddTHH:mm:ssZ'`, or `'yyyy-MM-ddTHH:mm:ssx'`. Note that in code, the format stays the same until a value of a different format is assigned to the **value** option. For example, numbers remain numbers until you pass a string to the **value** option.
 
-To specify the date range, use the [min](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#min) and [max](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#max) options.
-
----
-##### jQuery
-
-    <!--JavaScript-->
-    $(function() {
-        $("#calendarContainer").dxCalendar({
-            value: new Date(),
-            min: new Date(2000, 1, 1),
-            max: new Date(2020, 12, 31)
-        });
-    });
-
-##### Angular
-
-    <!--HTML-->
-    <dx-calendar
-        [(value)]="date"
-        [min]="minDate"
-        [max]="maxDate">
-    </dx-calendar>
-
-    <!--TypeScript-->
-    import { DxCalendarModule } from 'devextreme-angular';
-    // ...
-    export class AppComponent {
-        date: Date = new Date();
-        minDate: Date = new Date(2000, 1, 1);
-        maxDate: Date = new Date(2020, 12, 31);
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxCalendarModule
-        ],
-        // ...
-    })
-
----
-
 To specify which day should be considered the beginning of the week, pass its index (0 - for Sunday, 1 - for Monday, and so on) to the [firstDayOfWeek](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#firstDayOfWeek) option.
 
 ---
