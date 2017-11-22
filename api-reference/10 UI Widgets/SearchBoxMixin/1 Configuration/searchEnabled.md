@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether searching is enabled. 
+Specifies whether the search panel is visible. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
