@@ -25,6 +25,8 @@ Items in the **TagBox** can be grouped if they are grouped in the data source. T
         });
     });
 
+[note]Only one-level grouping is supported.
+
 If objects in your data source miss the **key** and **items** fields, use the [map](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map) function of the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) to create **key** + **items** field mappings. You can find more information on the **map** function in the [Data Layer - Item Mapping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Item_Mapping) topic.
 
     <!--JavaScript-->var fruitsVegetables = [{
