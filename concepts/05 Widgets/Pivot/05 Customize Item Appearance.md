@@ -171,11 +171,9 @@ You can also customize an individual view or title. For this purpose, declare a 
 
 In cases when you need to manage the content of views regardless of which view is selected, use the [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxPivot/Configuration/#contentTemplate) option.
 
-In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine) article.
+In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
 
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [Pivot - Categorize Data for Views](/Documentation/Guide/Widgets/Pivot/Categorize_Data_for_Views)
 - [Pivot Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-pivot-overview/ios7)
 - [Pivot API Reference](/Documentation/ApiReference/UI_Widgets/dxPivot/)

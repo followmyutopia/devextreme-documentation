@@ -21,10 +21,7 @@ Whether you use a default or a custom template for widget items, you can specify
 - Assign a function that returns the jQuery object or a DOM Node of the template's container.
 
 #####See Also#####
-- [template](/Documentation/ApiReference/Common/Object_Structures/template/)
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
-
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->string|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->

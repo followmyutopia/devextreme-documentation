@@ -167,5 +167,3 @@ If your data is an array of objects, specify:
 
 #####See Also#####
 - [DropDownBox - Customize the Appearance](/Documentation/Guide/Widgets/DropDownBox/Customize_the_Appearance/)
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)

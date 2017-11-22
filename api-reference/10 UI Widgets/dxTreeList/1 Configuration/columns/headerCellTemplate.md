@@ -31,8 +31,7 @@ It is also possible to define the template using the following template engines.
 When you use a template engine, the **headerCellTemplate** option should be given a jQuery object or a DOM node representing the template's container, or a function that returns either of them.
 
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 
 <!--handmade-->

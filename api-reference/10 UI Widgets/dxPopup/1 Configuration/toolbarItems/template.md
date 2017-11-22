@@ -19,11 +19,5 @@ Whether you use a default or a custom template for widget items, you can specify
 - Assign a DOM Node of the template's container.
 - Assign a function that returns the jQuery object or a DOM Node of the template's container.
 
-[note]The [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) component can not be used as a **toolbarItems** template .
-
-#####See Also#####
-- [template](/Documentation/ApiReference/Common/Object_Structures/template/)
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
-
+[note]The [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) component can not be used as a **toolbarItems** template.
 <!--/fullDescription-->

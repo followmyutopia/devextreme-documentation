@@ -49,26 +49,13 @@ If the current group continues on the next page, this field contains a correspon
 - **groupContinuedMessage**        
 If the current group is continued from the previous page, this field contains a corresponding message. The value of this field equals the value of the **grouping**.[groupContinuedMessage](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#groupContinuedMessage) property. If the current group is not continued from the previous page, this field equals **undefined**.
 
-[note]When utilizing the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. 
+When using Knockout, AngularJS or Angular, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component.
 
 #####See Also#####
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
+- [Default Templates](/Documentation/Guide/Widgets/Common/Templates/#Default_Templates)
 
-It is also possible to define a group cell template in markup. For this purpose, use one of the following template engines. The above-mentioned cell settings can be accessed in a similar manner inside the template.
-
-- [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)        
-- [JsRender](https://github.com/BorisMoore/jsrender)        
-- [Mustache](http://mustache.github.io/)
-- [Hogan](http://twitter.github.io/hogan.js/)
-- [Underscore](http://underscorejs.org/)
-- [Handlebars](http://handlebarsjs.com/)
-- [doT](http://olado.github.io/doT/index.html)
-
-Using a template engine, pass one of the following values to the **groupCellTemplate** option.
-
-- A jQuery object representing the template's container.        
-- A DOM Node representing the template's container.        
-- A function that returns a jQuery object or a DOM Node representing the template's container.
+[3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->

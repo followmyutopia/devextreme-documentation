@@ -17,9 +17,7 @@ The template to be used for rendering the widget input field.
 Note that the input field template must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/) widget.
 
 #####See Also#####
-- [template](/Documentation/ApiReference/Common/Object_Structures/template/)
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->string<!--/typeFunctionParamType1-->

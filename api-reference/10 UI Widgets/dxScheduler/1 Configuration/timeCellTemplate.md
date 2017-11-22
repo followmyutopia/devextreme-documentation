@@ -63,8 +63,7 @@ In the **AngularJS** apps, if you need to access time scale item fields within a
 [note]There is no **timeCellTemplate** in such views as 'month', 'timelineMonth' and 'agenda'.
 
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

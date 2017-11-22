@@ -137,8 +137,6 @@ If you need to define the **Button** content completely, implement a template fo
 ---
     
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [Button API Reference](/Documentation/ApiReference/UI_Widgets/dxAccordion/)
 
 [tags]button, appearance, customize, templates, type, icon

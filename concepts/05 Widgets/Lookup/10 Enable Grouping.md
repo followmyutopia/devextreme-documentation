@@ -238,7 +238,6 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
     });
 
 #####See Also#####
-- [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine)
 - [Lookup - Customize the Appearance](/Documentation/Guide/Widgets/Lookup/Customize_the_Appearance/)
 - [Lookup - Enable Paging](/Documentation/Guide/Widgets/Lookup/Enable_Paging/)
 - [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)

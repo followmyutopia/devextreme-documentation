@@ -25,23 +25,8 @@ As in all container widgets in DevExtreme, slide-out menu items are displayed by
 [note]A binding context of a menu item template is the data source object that corresponds to the currently rendered item. So, you can bind template elements to the item object's fields directly (see the code above). To access another binding context within a menu item template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
 
 #####See Also#####
-- [SlideOut - Customize Menu Items](/Documentation/Guide/Widgets/SlideOut/Customize_Menu_Items/)
-- [SlideOut - Customize the View](/Documentation/Guide/Widgets/SlideOut/Customize_the_View/)
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
-
-If you have several menu item templates specified within the widget, assign the name of a specific template to the widget's **menuItemTemplate** option.
-
-You can define the markup for a menu item template as a separate element, as demonstrated below.
-
-    <!--HTML--><script type="text/html" id="person-template">
-        <h3 data-bind="text: name"></h3>
-        <p>Address: <span data-bind="text: address"></span></p>
-    </script>
-
-To set the common template as a menu item template, pass the template container element to the **menuItemTemplate** option. The option accepts a jQuery object, a DOM node, or a function that returns a jQuery object or a DOM node.
-
-
+- [Customize Menu Items](/Documentation/Guide/Widgets/SlideOut/Customize_Menu_Items/)
+- [Customize the View](/Documentation/Guide/Widgets/SlideOut/Customize_the_View/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

@@ -1,4 +1,4 @@
-The **Form** widget allows you to specify custom templates for an individual tab and its content. For this purpose, assign callback functions to the [tabTemplate](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#tabTemplate) and [template](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#template) options, respectively. With [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS) and [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout), you can declare templates using a different technique described in the [Implement a Custom Template](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/#Implement_a_Custom_Template) topic.
+The **Form** widget allows you to specify custom templates for an individual tab and its content. For this purpose, assign callback functions to the [tabTemplate](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#tabTemplate) and [template](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#template) options, respectively. With Angular, you can declare templates using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) component.
 
 ---
 ##### jQuery
@@ -91,3 +91,6 @@ The **Form** widget allows you to specify custom templates for an individual tab
     })
 
 ---
+
+#####See Also#####
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)

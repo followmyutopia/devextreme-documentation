@@ -153,8 +153,7 @@ The drop-down menu can have a title. Use the [title](/Documentation/ApiReference
 If you have not specified anything to be displayed in the title, hide it by assigning **false** to the [showPopupTitle](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#showPopupTitle) option.
 
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 - [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Templates/)
 
 

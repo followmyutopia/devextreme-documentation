@@ -198,7 +198,7 @@ If you use only jQuery, manually combine HTML markup for the drop-down list usin
         right: 10px;
     }
 
-You can also use a 3rd-party template engine to customize the widget appearance. See the [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine) article for more information.
+You can also use a 3rd-party template engine to customize the widget appearance. See the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article for more information.
 
 #####See Also#####
 - [Scheduler - Customize Appointment](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/)

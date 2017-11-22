@@ -43,11 +43,9 @@ In some cases, you may need to define a custom template for group headers, for e
         });
     });
 
-[note]In AngularJS and Knockout apps, you can use DevExtreme's own markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). For more information, see the [Implement a Custom Template](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/#Implement_a_Custom_Template) topic.
+[note]In AngularJS and Knockout apps, you can use DevExtreme's own markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). For more information, see the [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates) topic.
 
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [SlideOut - Customize Menu Items](/Documentation/Guide/Widgets/SlideOut/Customize_Menu_Items)
 - [SlideOut Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
 - [SlideOut API Reference](/Documentation/ApiReference/UI_Widgets/dxSlideOut/)

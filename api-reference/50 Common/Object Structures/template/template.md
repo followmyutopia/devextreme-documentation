@@ -9,175 +9,116 @@
 ===========================================================================
 
 <!--shortDescription-->
-A template notation used to specify a template for widget elements (item, title, content, etc.).
+A template notation used to specify templates for widget elements.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To use a template pass a value that has one of the following types to a template option (**itemTemplate**, **titleTemplate**, **contentTemplate**, **template**, etc.).
+To use a template, pass a value with one of the following types to a widget's **...Template** option:
 
-- String
+- **String**         
+Specifies the name of the template to use if the template is defined within a widget using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component.
 
- Specifies the name of the template to use, if the template is defined within a widget using the dxTemplate markup option.
-
- #####AngularJS#####
-
-        <!--HTML-->
-        <div dx-list="listOptions" dx-item-alias="itemData">
-            <div data-options="dxTemplate:{ name:'customTemplate' }">
-                <i>{{title}}</i><br/>
-                <b>{{text}}</b>
-            </div>
-        </div>
-
-        <!--JavaScript-->
-        var myApp = angular.module('myApp', ['dx']);
-        myApp.controller("demoController", function ($scope) {
-            $scope.listOptions = {
-                // ...
-                itemTemplate: 'customTemplate'
-            }
-        });
-        angular.element(document).ready(function () {
-            angular.bootstrap(document, ['myApp']);
-        });
-
- #####Knockout#####
+    ---
+    #####Angular
 
         <!--HTML-->
-        <div data-bind="dxList: listOptions">
-            <div data-options="dxTemplate:{ name:'customTemplate' }">
-                <i data-bind="title"></i><br/>
-                <b data-bind="text"></b>
+        <dx-list ...
+            itemTemplate="listItem">
+            <div *dxTemplate="let itemData of 'listItem'; let itemIndex = index">
+                {{itemIndex}} - {{itemData.itemProperty}}
             </div>
-        </div>
+        </dx-list>
 
-        <!--JavaScript-->
-        var myViewModel = {
-            listOptions: {
-                // ...
-                itemTemplate: 'customTemplate'
-            }
-        }
-        ko.applyBindings(myViewModel);
-
-- DOM Node or jQuery
-
- Specifies the element of the template to use. This approach is used if the template is specified out of the widget.
-
- #####AngularJS#####
-
-        <!--HTML-->
-        <script type="text/html" id="customTemplate">
-            <i>{{title}}</i><br/>
-            <b>{{text}}</b>
-        </script>
-        <div dx-list="listOptions" dx-item-alias="itemData"></div>
-
-        <!--JavaScript-->
-        var myApp = angular.module('myApp', ['dx']);
-        myApp.controller("demoController", function ($scope) {
-            $scope.listOptions = {
-                // ...
-                itemTemplate: $('#customTemplate')
-            }
-        });
-        angular.element(document).ready(function () {
-            angular.bootstrap(document, ['myApp']);
-        });
-
- #####Knockout#####
-
-        <!--HTML-->
-        <script type="text/html" id="customTemplate">
-            <i data-bind="title"></i><br/>
-            <b data-bind="text"></b>
-        </script>
-        <div data-bind="dxList: listOptions"></div>
-
-        <!--JavaScript-->
-        var myViewModel = {
-            listOptions: {
-                // ...
-                itemTemplate: $('#customTemplate')
-            }
-        }
-        ko.applyBindings(myViewModel);
-
-- function
-
- You can use a function that returns a template name or a template element if a template is defined within or out of the widget. This approach is almost similar to the first two approaches described above. However, it enables you to choose a template depending on certain conditions.
-
- #####AngularJS#####
-
-        <!--HTML-->
-        <div dx-list="listOptions" dx-item-alias="itemData">
-            <div data-options="dxTemplate:{ name:'usualTemplate' }">
-                <i>{{title}}</i><br/>
-                <b>{{text}}</b>
-            </div>
-            <div data-options="dxTemplate:{ name:'importantTemplate' }">
-                <h2>{{title}}</h2><br/>
-                <b style="color: red;">{{text}}</b>
-            </div>
-        </div>
-
-        <!--JavaScript-->
-        var myApp = angular.module('myApp', ['dx']);
-        myApp.controller("demoController", function ($scope) {
-            $scope.listOptions = {
-                // ...
-                itemTemplate: function (itemData, itemIndex, itemElement) {
-                    if(itemData.important)
-                        return 'importantTemplate';
-                    return usualTemplate;
-                }
-            }
-        });
-        angular.element(document).ready(function () {
-            angular.bootstrap(document, ['myApp']);
-        });
-
- #####Knockout#####
-
-        <!--HTML-->
-        <div data-bind="dxList: listOptions">
-            <div data-options="dxTemplate:{ name:'standardTemplate' }">
-                <i data-bind="title"></i><br/>
-                <b data-bind="text"></b>
-            </div>
-            <div data-options="dxTemplate:{ name:'importantTemplate' }">
-                <h2 data-bind="title"></h2><br/>
-                <b style="color: red;" data-bind="text"></b>
-            </div>
-        </div>
-
-        <!--JavaScript-->
-        var myViewModel = {
-            listOptions: {
-                // ...
-                itemTemplate: function (itemData, itemIndex, itemElement) {
-                    if(itemData.important)
-                        return 'importantTemplate';
-                    return usualTemplate;
-                }
-            }
-        }
-        ko.applyBindings(myViewModel);
-
- Alternatively, you can use a function to render the element. In this case, the function should return nothing; hoever, it should append the required markup to the rendered element, which can be accessed using the appropriate argument. The rendering function is usually used in the jQuery approach.
-
-        <!--JavaScript-->
-        var listOptions = {
+        <!--TypeScript-->
+        import { DxListModule } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
             // ...
-            itemTemplate: function (itemData, itemIndex, itemElement) {
-                itemElement.append("<i>itemData.title</i><br/>");
-                itemElement.append("<b>itemData.text</b>");
-            }
         }
+        @NgModule({
+            imports: [
+                // ...
+                DxListModule
+            ],
+            // ...
+        })
 
- The list of arguments passed to the function depends on the option, which the function is assigned to. For example, if the function is passed to the **itemTemplate** option, it accepts the *itemData*, *itemIndex* and *itemElement* arguments. If the function is passed to the **contentTemplate** option, it accepts the *contentElement* argument. The arguments passed to this function are listed in a particular option description.
+    #####AngularJS
+
+        <!--HTML-->
+        <div ng-controller="DemoController">
+            <div dx-list="{
+                ...
+                itemTemplate: 'listItem'
+            }" dx-item-alias="itemData">
+                <div data-options="dxTemplate: { name: 'listItem' }">
+                    {{$index}} - {{itemData.itemProperty}}
+                </div>
+            </div>
+        </div>
+
+        <!--JavaScript-->
+        angular.module('DemoApp', ['dx'])
+            .controller('DemoController', function ($scope) {
+                // ...
+            });
+
+    #####Knockout
+
+        <!--HTML-->
+        <div data-bind="dxList: {
+            ...
+            itemTemplate: 'listItem'
+        }">
+            <div data-options="dxTemplate: { name: 'listItem' }">
+                <span data-bind="text: $index"></span> - <span data-bind="text: itemProperty"></span>
+            </div>
+        </div>
+
+
+        <!--JavaScript-->
+        var viewModel = {
+            // ...
+        };
+
+        ko.applyBindings(viewModel);
+
+    ---
+
+- **DOM Node or jQuery**        
+Specifies the page element containing the template. Useful for referring to external templates when [using a 3rd-party template engine](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines).
+
+        <!--JavaScript-->
+        DevExpress.ui.setTemplateEngine("underscore");
+
+        $(function() {
+            $("#list").dxList({
+                // ...
+                itemTemplate: $("#itemTemplate")
+            });
+        })
+
+        <!--HTML-->
+        <div id="list"></div>
+        <script type="text/html" id="itemTemplate">
+            <!-- your Underscore template -->
+        </script>
+
+- **Function**      
+Combines the HTML markup using jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/):
+
+        <!--JavaScript-->
+        $(function() {
+            $("#listContainer").dxList({
+                // ...
+                itemTemplate: function (itemData, itemIndex, element) {
+                    element.append(
+                        $("<span>").text(itemIndex) - $("<span>").text(itemData.itemProperty)
+                    )
+                }
+            });
+        });
 
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
+- [Templates](/Documentation/Guide/Widgets/Common/Templates/)
 <!--/fullDescription-->

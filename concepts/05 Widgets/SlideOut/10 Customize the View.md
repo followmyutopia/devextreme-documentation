@@ -109,8 +109,6 @@ In the second use-case, you have some component that gets updated each time a us
 As you can see in the code above, a markup for the **SlideOut** view is defined in the [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#contentTemplate) function. Unlike **itemTemplate**, this function is called only once - when the **SlideOut** is being rendered.
 
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [SlideOut - Customize Menu Items](/Documentation/Guide/Widgets/SlideOut/Customize_Menu_Items)
 - [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer)
 - [SlideOut Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)

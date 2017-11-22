@@ -1,0 +1,1 @@
+Templates allow you to customize DevExtreme widgets. This article gives an overview of the capabilities that DevExtreme provides for implementing and applying templates.

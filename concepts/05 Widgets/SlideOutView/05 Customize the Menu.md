@@ -102,11 +102,9 @@ By default, the menu slides out from the left side of the screen. To make it sli
         // ...
     });
 
-In addition, you can use a 3rd-party template engine to customize the menu. For more information, see the [Use an Alternative Template Engine](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Use_an_Alternative_Template_Engine) article.
+In addition, you can use a 3rd-party template engine to customize the menu. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
  
 #####See Also#####
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/#Customize_Widget_Element_Appearance)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
 - [SlideOutView - Customize the View](/Documentation/Guide/Widgets/SlideOutView/Customize_the_View/)
 - [SlideOutView - Open and Close the Menu Using the API](/Documentation/Guide/Widgets/SlideOutView/Open_and_Close_the_Menu_Using_the_API/)
 - [SlideOutView API Reference](/Documentation/ApiReference/UI_Widgets/dxSlideOutView/)

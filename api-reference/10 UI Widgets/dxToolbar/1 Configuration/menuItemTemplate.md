@@ -25,11 +25,7 @@ In Knockout apps, you can bind template elements directly to an item object's fi
 
 
 #####See Also#####
-- [Toolbar - Customize Item Appearance](/Documentation/Guide/Widgets/Toolbar/Customize_Item_Appearance/)
-- [Angular - Custom Templates](https://github.com/DevExpress/devextreme-angular#custom-templates)
-- [Customize Widget Element Appearance](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance/)
-- [Customize Widget Element Appearance - MVVM Approach](/Documentation/Guide/Widgets/Common/UI_Widgets/Customize_Widget_Element_Appearance_-_MVVM_Approach/)
-
+- [Customize Item Appearance](/Documentation/Guide/Widgets/Toolbar/Customize_Item_Appearance/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
