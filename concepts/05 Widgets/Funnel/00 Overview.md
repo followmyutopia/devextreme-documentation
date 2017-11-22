@@ -23,7 +23,7 @@ After that, give the widget a distinctive look and make it more informative with
 Finally, add some interactivity:
 
 - [Tooltips](/Documentation/Guide/Widgets/Funnel/Tooltips/Overview/)
-- [Client-Side Export and Printing](/Documentation/Guide/Widgets/Funnel/Client-Side_Export_and_Printing/)
+- [Client-Side Exporting and Printing](/Documentation/Guide/Widgets/Funnel/Client-Side_Exporting_and_Printing/)
 - [Adaptive Layout](/Documentation/Guide/Widgets/Funnel/Adaptive_Layout/)
 
 #####See Also#####

@@ -78,7 +78,8 @@ The **FilterBuilder** displays the filter expression as a tree structure, where 
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
-- [Integrate with a Widget](/Documentation/Guide/Widgets/FilterBuilder/Integrate_with_Widget/)
+- [Integrate with a Widget](/Documentation/Guide/Widgets/FilterBuilder/Integrate_with_a_Widget/)
 - [Predefine Filter Values](/Documentation/Guide/Widgets/FilterBuilder/Predefine_Filter_Values/)
+- [API Reference](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/)
 
 [tags]filter builder, filterBuilder, filter expression, condition, overview
