@@ -11,6 +11,9 @@ To set the location of items on a toolbar, use the [location](/Documentation/Api
 
 Toolbar items with identical **location** preserve the order they have in the data source. For example, items produced by the code below will have the following order: "Add", "Edit", "Products", "Suppliers", "Delete", "About".
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#toolbarContainer").dxToolbar({
@@ -25,7 +28,38 @@ Toolbar items with identical **location** preserve the order they have in the da
         });
     });
 
+##### Angular
+
+    <!--TypeScript-->
+    import { DxToolbarModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        items = [
+            { text: 'Delete', location: 'after' },
+            { text: 'About', location: 'after' },
+            { text: 'Products', location: 'center' },
+            { text: 'Suppliers', location: 'center' },
+            { text: 'Add', location: 'before' },
+            { text: 'Edit', location: 'before' }
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxToolbarModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-toolbar [items]="items"></dx-toolbar>
+
+---
+
 When there is not enough width for all toolbar items, or if certain toolbar items are secondary, they can be rendered as commands on the overflow menu. This menu can be a [Popover](/Documentation/Guide/Widgets/Popover/), an [Action Sheet](/Documentation/Guide/Widgets/ActionSheet/) or a Drop-Down Menu, depending on which device the application is running on. To render a toolbar item as a command on the overflow menu, assign *"always"* or *"auto"* to the [locateInMenu](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#locateInMenu) option.
+
+---
+#####jQuery 
 
     <!--JavaScript-->
     $(function() {
@@ -42,6 +76,36 @@ When there is not enough width for all toolbar items, or if certain toolbar item
             }]
         });
     });
+
+##### Angular
+
+    <!--TypeScript-->
+    import { DxToolbarModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        items = [{
+            text: 'Add',
+            locateInMenu: 'auto'
+        }, {
+            text: 'Change',
+            locateInMenu: 'always'
+        }, {
+            text: 'Remove',
+            locateInMenu: 'always'
+        }];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxToolbarModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-toolbar [items]="items"></dx-toolbar>
+
+---
 
 #####See Also#####
 - [Toolbar - Specify Item Type](/Documentation/Guide/Widgets/Toolbar/#Specify_Item_Type)

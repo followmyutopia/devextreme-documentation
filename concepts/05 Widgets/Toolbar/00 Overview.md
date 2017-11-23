@@ -4,6 +4,9 @@ The **Toolbar** is a widget containing items that usually manage screen content.
 
 The following code adds a simple **Toolbar** to your page. Three items are plain text and one is a [Button](/Documentation/Guide/Widgets/Button/) widget. 
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="toolbarContainer"></div>
 
@@ -29,6 +32,44 @@ The following code adds a simple **Toolbar** to your page. Three items are plain
             }]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-toolbar [items]="items"></dx-toolbar>
+
+    <!--TypeScript-->
+    import { DxToolbarModule, DxButtonModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        items = [{
+            widget: 'dxButton',
+            options: {
+                type: 'back',
+                text: 'Back'
+            },
+            location: 'before'
+        }, {
+            text: 'Add',
+            locateInMenu: 'always'
+        }, {
+            text: 'Change',
+            locateInMenu: 'always'
+        }, {
+            text: 'Products',
+            location: 'center'
+        }];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxToolbarModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
 
 Note that all data source objects in the code above follow the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/) pattern. This provides a default appearance for toolbar items, which can be customized later.
 
