@@ -9,24 +9,22 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the currency code for the *'currency'* format.
+Specifies the currency code. Applies only if [type](/Documentation/ApiReference/Common/Object_Structures/format/#type) is *"currency"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]The use of currency formats rather than 'USD' requires Globalize libraries to be referenced within your application. For more information on using Globalize library, refer to the [Localization](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) guide.
+[note]Reference Globalize or Intl if you specify a currency code other than "USD".
 
-This option accepts a 3-letter code specified by [ISO 4217](http://www.currency-iso.org/en/home/tables/table-a1.html) for each currency. Alternatively, you can set this option to *'default'*, in which case, the global default currency will be applied.
-
-The global default currency is specified by the **defaultCurrency** field of the object returned by the **DevExpress.config()** method. By default, it is *'USD'*. To change it, use the following code.
-
-    <!--JavaScript-->DevExpress.config({ defaultCurrency: 'EUR' });
-    
-To use any currency that differs from USD, follow these steps.
+This option accepts a 3-letter code specified by [ISO 4217](http://www.currency-iso.org/en/home/tables/table-a1.html) for each currency. If you use Intl, just assign the code to this option. If you use Globalize, do the following: 
 
 1. Get the *currencies.json* file that corresponds to your culture from one of the folders [here](https://github.com/unicode-cldr/cldr-numbers-modern/tree/master/main).
 2. Load the contents of this file in your app using one of the methods described [here](https://github.com/jquery/globalize/blob/master/doc/cldr.md#how-do-i-load-cldr-data-into-globalize).
-3. Assign the 3-letter code of the needed currency to the **currency** option.
+3. Assign the 3-letter code of the needed currency to this option.
+
+Alternatively, you can assign *"default"* to this option, in which case, the [global default currency](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#defaultCurrency) is applied.
 
 #####See Also#####
 - **format**.[precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision)
+- [Localization - Using Globalize](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/)
+- [Localization - Using Intl](https://github.com/DevExpress/DevExtreme-Intl#devextreme-intl)
 <!--/fullDescription-->

@@ -18,7 +18,7 @@ Formats values.
 This option accepts three types of values:
 
 * **String**  
- One of the predefined formats (see the [type](/Documentation/ApiReference/Common/Object_Structures/format/#type) option) or a format string. The built-in localization engine supports the following characters: 
+ One of the predefined formats (see the [type](/Documentation/ApiReference/Common/Object_Structures/format/#type) option) or a format string. The built-in localization engine supports the following characters. You can specify different formats by repeating these characters. 
 
 
  **Numeric Formats**
@@ -40,16 +40,22 @@ This option accepts three types of values:
       <td>&#35;</td>
       <td>
             A digit or nothing. One symbol represents several integer digits, but only one decimal digit. </br> 
-            For example, "#.#" matches "123.4", not "123.45".
+            For example, "#.#" represents "123.4", but not "123.45".
       </td>
     </tr>
     <tr>
       <td>.</td>
-      <td>A decimal separator. Displayed in the localized variant.</td>
+      <td>
+            A decimal separator. </br>
+            Displayed according to the <a href="/Documentation/ApiReference/Common/Object_Structures/globalConfig/#decimalSeparator">decimalSeparator</a> or the set locale if you use Intl or Globalize.
+      </td>
     </tr>
     <tr>
       <td>,</td>
-      <td>A group separator. Displayed in the localized variant.</td>
+      <td>
+            A group separator. </br>
+            Displayed according to the <a href="/Documentation/ApiReference/Common/Object_Structures/globalConfig/#thousandsSeparator">thousandsSeparator</a> or the set locale if you use Intl or Globalize.
+      </td>
     </tr>
     <tr>
       <td>%</td>
@@ -92,14 +98,14 @@ This option accepts three types of values:
       <td>Q</td>
       <td>
         A quarter number or name.</br>       
-        For example, "Q" matches "2", "QQ" - "02", "QQQ" - "Q2", "QQQQ" - "2nd quarter".
+        Available combinations with example: "Q" - "2", "QQ" - "02", "QQQ" - "Q2" and "QQQQ" - "2nd quarter".
       </td>
     </tr>
     <tr>
       <td>M</td>
       <td>
         A month number or name.</br>         
-        For example, "M" matches "9", "MM" - "09", "MMM" - "Sep", "MMMM" - "September", "MMMMM" - "S".
+        Available combinations with example: "M" - "9", "MM" - "09", "MMM" - "Sep", "MMMM" - "September", "MMMMM" - "S".
       </td>
     </tr>
     <tr>
@@ -110,7 +116,7 @@ This option accepts three types of values:
       <td>E</td>
       <td>
         A week day name.</br>    
-        For example, "E", "EE" or "EEE" matches "Tue", "EEEE" - "Tuesday", "EEEEE" - "T". 
+        Available combinations with example: "E", "EE" or "EEE" - "Tue", "EEEE" - "Tuesday", "EEEEE" - "T". 
       </td>
     </tr>
     <tr>
