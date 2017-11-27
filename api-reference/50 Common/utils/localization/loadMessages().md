@@ -36,4 +36,5 @@ The object passed to this method should have the following structure. The first 
         }
     }
 
+[note] This method should be called only once - at the application's launch. It is necessary to reload the page each time you need to load new messages.
 <!--/fullDescription-->

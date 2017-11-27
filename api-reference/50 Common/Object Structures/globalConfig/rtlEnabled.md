@@ -10,7 +10,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the widgets support a right-to-left representation.
+Specifies whether the widgets support a right-to-left representation. Available for individual widgets as well.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -10,13 +10,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets the global configuration object.
+Configures your application before its launch. 
 <!--/shortDescription-->
 
 <!--paramName1-->config<!--/paramName1-->
 <!--paramType1-->globalConfig<!--/paramType1-->
 <!--paramDescription1-->
-An object containing the required global configuration options.
+Global configuration options.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
@@ -25,4 +25,6 @@ An object containing the required global configuration options.
         forceIsoDateParsing: false,
         //...
     });
+
+[note] This method should be called only once - at the application's launch. It is necessary to reload the page each time you need to apply new global configuration parameters.
 <!--/fullDescription-->
