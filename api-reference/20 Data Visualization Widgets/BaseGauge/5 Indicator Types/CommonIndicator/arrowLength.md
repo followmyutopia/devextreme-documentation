@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--propertyOf-->..\..\..\35 dxCircularGauge\5 Indicator Types\TextCloud\TextCloud.md,..\..\..\40 dxLinearGauge\5 Indicator Types\TextCloud\TextCloud.md<!--/propertyOf-->
+<!--propertyOf-->..\..\..\dxCircularGauge\5 Indicator Types\TextCloud\TextCloud.md,..\..\..\dxLinearGauge\5 Indicator Types\TextCloud\TextCloud.md<!--/propertyOf-->
 <!--default-->5<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================

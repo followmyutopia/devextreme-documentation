@@ -5,7 +5,7 @@
 
 **-->
 ===========================================================================
-<!--propertyOf-->..\..\..\35 dxCircularGauge\5 Indicator Types\TwoColorNeedle\TwoColorNeedle.md,..\..\..\35 dxCircularGauge\5 Indicator Types\RectangleNeedle\RectangleNeedle.md,..\..\..\35 dxCircularGauge\5 Indicator Types\TriangleNeedle\TriangleNeedle.md<!--/propertyOf-->
+<!--propertyOf-->..\..\..\dxCircularGauge\5 Indicator Types\TwoColorNeedle\TwoColorNeedle.md,..\..\..\dxCircularGauge\5 Indicator Types\RectangleNeedle\RectangleNeedle.md,..\..\..\dxCircularGauge\5 Indicator Types\TriangleNeedle\TriangleNeedle.md<!--/propertyOf-->
 <!--default-->14<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================
