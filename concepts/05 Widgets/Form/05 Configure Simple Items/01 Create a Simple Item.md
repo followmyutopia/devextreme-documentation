@@ -93,7 +93,7 @@ The editor that will be used in a particular simple item depends on the type of 
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule, DxCalendarModule, DxTextAreaModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         employee = {
@@ -105,7 +105,9 @@ The editor that will be used in a particular simple item depends on the type of 
     @NgModule({
         imports: [
             // ...
-            DxFormModule
+            DxFormModule,
+            DxCalendarModule,
+            DxTextAreaModule
         ],
         // ...
     })

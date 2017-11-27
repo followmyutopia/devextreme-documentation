@@ -41,7 +41,7 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Confi
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule, DxTextAreaModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         onEditorPreparing (e) {
@@ -60,7 +60,8 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Confi
     @NgModule({
         imports: [
             // ...
-            DxTreeListModule
+            DxTreeListModule,
+            DxTextAreaModule
         ],
         // ...
     })

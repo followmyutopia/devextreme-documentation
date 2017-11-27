@@ -92,7 +92,8 @@ Indicates whether the editor is read-only.
 <!--typeFunctionParamName1_field14-->editorName<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->string<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*. 
+Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.          
+Import a new editor's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/). 
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->editorOptions<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->object<!--/typeFunctionParamType1_field15-->

@@ -57,7 +57,7 @@ The following code shows how you can customize the toolbar using this handler.
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule, DxButtonModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         onToolbarPreparing (e) { 
@@ -80,7 +80,8 @@ The following code shows how you can customize the toolbar using this handler.
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            DxDataGridModule,
+            DxButtonModule
         ],
         // ...
     })

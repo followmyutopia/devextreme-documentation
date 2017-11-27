@@ -41,7 +41,7 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Confi
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule, DxTextAreaModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         onEditorPreparing (e) {
@@ -60,7 +60,8 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Confi
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            DxDataGridModule,
+            DxTextAreaModule
         ],
         // ...
     })

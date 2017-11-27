@@ -51,7 +51,7 @@ The following code shows how you can customize the toolbar using this handler.
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule, DxButtonModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         onToolbarPreparing (e) { 
@@ -74,7 +74,8 @@ The following code shows how you can customize the toolbar using this handler.
     @NgModule({
         imports: [
             // ...
-            DxTreeListModule
+            DxTreeListModule,
+            DxButtonModule
         ],
         // ...
     })

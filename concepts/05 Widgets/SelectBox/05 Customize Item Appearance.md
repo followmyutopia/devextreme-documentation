@@ -234,12 +234,14 @@ Using similar techniques, you can customize the input field of the **SelectBox**
         fieldTemplate="inputField">
         <div *dxTemplate="let data of 'inputField'">
             <img ng-src="{{data.imgSrc}}" />
-            <div style="display:inline-block" dx-text-box="{ value: data.name }"></div>
+            <dx-text-box style="display:inline-block" 
+                [value]="data.name" 
+            ></dx-text-box>
         </div>
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule, DxTextBoxModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         selectBoxData = [
@@ -250,7 +252,8 @@ Using similar techniques, you can customize the input field of the **SelectBox**
     @NgModule({
          imports: [
              // ...
-             DxSelectBoxModule
+             DxSelectBoxModule,
+             DxTextBoxModule
          ],
          // ...
      })

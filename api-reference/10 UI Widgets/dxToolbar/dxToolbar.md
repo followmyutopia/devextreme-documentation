@@ -71,9 +71,19 @@ You can create the widget using one of the following approaches.
     <dx-toolbar [items]="toolbarData"></dx-toolbar>
 
     <!--TypeScript-->
+    import { DxToolbarModule, DxButtonModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         toolbarData = toolbarItems;
     }
+    @NgModule({
+         imports: [
+             // ...
+             DxToolbarModule,
+             DxButtonModule
+         ],
+         // ...
+     })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

@@ -14,9 +14,7 @@ A widget that presents a toolbar item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This data source field is used by a default item template. If you use the default template for your widget items, you can specify the **widget** field in the data source to specify the widget by which a toolbar item must be displayed. Set the configuration options that are exposed by the configuration object of the specified widget. For this purpose, specify the [options](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#options) field in the data source.
-
-[note]If you use the **Menu** widget as a toolbar item, the [adaptivityEnabled](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#adaptivityEnabled) option does not apply.
+[note]Import the specified widget's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/). 
 
 When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure this option with a lambda expression in the following manner.
 
@@ -40,5 +38,6 @@ When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fund
     )
 
 #####See Also#####
+- [Default Item Template - options](/Documentation/ApiReference/UI_Widgets/dxToolbar/Default_Item_Template/#options)
 - [Toolbar - Specify Item Type](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type/)
 <!--/fullDescription-->

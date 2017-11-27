@@ -14,6 +14,8 @@ Specifies which editor widget is used to display and edit the form item value.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+[note]If you use [DevExtreme modules](/Documentation/Guide/Common/Modularity/), import the editor's module when specifying this option. You can omit modules for the "dxTextBox", "dxDateBox", "dxCheckBox" and "dxNumberBox" because the **Form** widget imports them automatically when creating form items. 
+
 When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure the editor in the following manner.
 
     <!--Razor C#-->@(Html.DevExtreme().Form()

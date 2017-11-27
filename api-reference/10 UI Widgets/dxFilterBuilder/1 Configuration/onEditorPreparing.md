@@ -181,7 +181,8 @@ The editor's container.
 <!--typeFunctionParamName1_field8-->editorName<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->string<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*. 
+Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.      
+Import a new editor's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/). 
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->editorOptions<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->object<!--/typeFunctionParamType1_field9-->
