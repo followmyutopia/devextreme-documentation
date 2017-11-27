@@ -30,18 +30,21 @@ Toolbar items with identical **location** preserve the order they have in the da
 
 ##### Angular
 
+    <!--HTML-->
+    <dx-toolbar>
+        <dxi-item text="Delete" location="after"></dxi-item>
+        <dxi-item text="About" location="after"></dxi-item>
+        <dxi-item text="Products" location="center"></dxi-item>
+        <dxi-item text="Suppliers" location="center"></dxi-item>
+        <dxi-item text="Add" location="before"></dxi-item>
+        <dxi-item text="Edit" location="before"></dxi-item>
+    </dx-toolbar>
+
     <!--TypeScript-->
     import { DxToolbarModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        items = [
-            { text: 'Delete', location: 'after' },
-            { text: 'About', location: 'after' },
-            { text: 'Products', location: 'center' },
-            { text: 'Suppliers', location: 'center' },
-            { text: 'Add', location: 'before' },
-            { text: 'Edit', location: 'before' }
-        ];
+        // ...
     }
     @NgModule({
         imports: [
@@ -50,9 +53,6 @@ Toolbar items with identical **location** preserve the order they have in the da
         ],
         // ...
     })
-
-    <!--HTML-->
-    <dx-toolbar [items]="items"></dx-toolbar>
 
 ---
 
@@ -64,35 +64,28 @@ When there is not enough width for all toolbar items, or if certain toolbar item
     <!--JavaScript-->
     $(function() {
         $("#toolbarContainer").dxToolbar({
-            items: [{
-                text: 'Add',
-                locateInMenu: 'auto'
-            }, {
-                text: 'Change',
-                locateInMenu: 'always'
-            }, {
-                text: 'Remove',
-                locateInMenu: 'always'
-            }]
+            items: [
+                { text: 'Add', locateInMenu: 'auto' },
+                { text: 'Change', locateInMenu: 'always' },
+                { text: 'Remove', locateInMenu: 'always' }
+            ]
         });
     });
 
 ##### Angular
 
+    <!--HTML-->
+    <dx-toolbar>
+        <dxi-item text="Add" locateInMenu="auto"></dxi-item>
+        <dxi-item text="Change" locateInMenu="always"></dxi-item>
+        <dxi-item text="Remove" locateInMenu="always"></dxi-item>
+    </dx-toolbar>
+
     <!--TypeScript-->
     import { DxToolbarModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        items = [{
-            text: 'Add',
-            locateInMenu: 'auto'
-        }, {
-            text: 'Change',
-            locateInMenu: 'always'
-        }, {
-            text: 'Remove',
-            locateInMenu: 'always'
-        }];
+        // ...
     }
     @NgModule({
         imports: [
@@ -101,9 +94,6 @@ When there is not enough width for all toolbar items, or if certain toolbar item
         ],
         // ...
     })
-
-    <!--HTML-->
-    <dx-toolbar [items]="items"></dx-toolbar>
 
 ---
 

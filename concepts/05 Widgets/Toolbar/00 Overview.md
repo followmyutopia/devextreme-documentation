@@ -36,29 +36,34 @@ The following code adds a simple **Toolbar** to your page. Three items are plain
 ##### Angular
 
     <!--HTML-->
-    <dx-toolbar [items]="items"></dx-toolbar>
+    <dx-toolbar>
+        <dxi-item
+            widget="dxButton"
+            location="before"
+            [options]="{
+                type: 'back',
+                text: 'Back'
+            }">
+        </dxi-item>
+        <dxi-item
+            text="Add"
+            locateInMenu="always">
+        </dxi-item>
+        <dxi-item
+            text="Change"
+            locateInMenu="always">
+        </dxi-item>
+        <dxi-item
+            text="Products"
+            location="center">
+        </dxi-item>
+    </dx-toolbar>
 
     <!--TypeScript-->
     import { DxToolbarModule, DxButtonModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        items = [{
-            widget: 'dxButton',
-            options: {
-                type: 'back',
-                text: 'Back'
-            },
-            location: 'before'
-        }, {
-            text: 'Add',
-            locateInMenu: 'always'
-        }, {
-            text: 'Change',
-            locateInMenu: 'always'
-        }, {
-            text: 'Products',
-            location: 'center'
-        }];
+        // ...
     }
     @NgModule({
         imports: [

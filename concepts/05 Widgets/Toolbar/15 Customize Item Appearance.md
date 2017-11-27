@@ -30,29 +30,37 @@ For a minor customization of **Toolbar** items, you can use the default item tem
 
 ##### Angular
 
+    <!--HTML-->
+    <dx-toolbar>
+        <dxi-item
+            widget="dxButton"
+            location="before"
+            [options]="{
+                type: 'back',
+                text: 'Back'
+            }">
+        </dxi-item>
+        <dxi-item
+            text="Change"
+            locateInMenu="always"
+            [visible]="false">
+        </dxi-item>
+        <dxi-item
+            text="Remove"
+            locateInMenu="always"
+            [disabled]="true">
+        </dxi-item>
+        <dxi-item
+            text="Products"
+            location="center">
+        </dxi-item>
+    </dx-toolbar>
+
     <!--TypeScript-->
     import { DxToolbarModule, DxButtonModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        items = [{
-            widget: 'dxButton',
-            options: {
-                type: 'back',
-                text: 'Back'
-            },
-            location: 'before'
-        }, {
-            text: 'Change',
-            locateInMenu: 'always',
-            visible: false
-        }, {
-            text: 'Remove',
-            locateInMenu: 'always',
-            disabled: true
-        }, {
-            text: 'Products',
-            location: 'center'
-        }];
+        // ...
     }
     @NgModule({
         imports: [
@@ -62,9 +70,6 @@ For a minor customization of **Toolbar** items, you can use the default item tem
         ],
         // ...
     })
-
-    <!--HTML-->
-    <dx-toolbar [items]="items"></dx-toolbar>
 
 ---
 

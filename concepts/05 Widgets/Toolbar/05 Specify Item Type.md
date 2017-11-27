@@ -21,20 +21,18 @@ A **Toolbar** item may be plain text or a widget. Text items should have the [te
 
 ##### Angular
 
+    <!--HTML-->
+    <dx-toolbar>
+        <dxi-item text="Delete" location="before"></dxi-item>
+        <dxi-item text="Products" location="center"></dxi-item>
+        <dxi-item text="Add" location="after"></dxi-item>
+    </dx-toolbar>
+
     <!--TypeScript-->
     import { DxToolbarModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        items = [{
-            text: 'Delete',
-            location: 'before'
-        }, {
-            text: 'Products',
-            location: 'center'
-        }, {
-            text: 'Add',
-            location: 'after'
-        }];
+        // ...
     }
     @NgModule({
         imports: [
@@ -43,9 +41,6 @@ A **Toolbar** item may be plain text or a widget. Text items should have the [te
         ],
         // ...
     })
-
-    <!--HTML-->
-    <dx-toolbar [items]="items"></dx-toolbar>
 
 ---
 
@@ -85,33 +80,38 @@ Items that contain a widget should have the [widget](/Documentation/ApiReference
 
 ##### Angular
 
+    <!--HTML-->
+    <dx-toolbar>
+        <dxi-item
+            widget="dxButton"
+            [options]="buttonOptions"
+            location="before">
+        </dxi-item>
+        <dxi-item
+            widget="dxSelectBox"
+            [options]="selectBoxOptions"
+            location="after">
+        </dxi-item>
+    </dx-toolbar>
+    
     <!--TypeScript-->
     import { DxToolbarModule, DxButtonModule, DxSelectBoxModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        items = [{
-            widget: 'dxButton',
-            options: {
-                type: 'back',
-                text: 'Back',
-                onClick: function () {
-                    // ...
-                }
-            },
-            location: 'before'
-        }, {
-            widget: 'dxSelectBox',
-            options: {
-                width: 140,
-                items: ['All', 'Family', 'Favorites'],
-                onItemClick: function (e) {
-                    // ...
-                }
-            },
-            location: 'after'
-        },
-        // ...  
-        ];
+        buttonOptions = {
+            type: 'back',
+            text: 'Back',
+            onClick: function () {
+                // ...
+            }
+        };
+        selectBoxOptions = {
+            width: 140,
+            items: ['All', 'Family', 'Favorites'],
+            onItemClick: function (e) {
+                // ...
+            }
+        };
     }
     @NgModule({
         imports: [
@@ -122,9 +122,6 @@ Items that contain a widget should have the [widget](/Documentation/ApiReference
         ],
         // ...
     })
-
-    <!--HTML-->
-    <dx-toolbar [items]="items"></dx-toolbar>
 
 ---
 
