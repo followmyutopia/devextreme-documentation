@@ -4,6 +4,11 @@ Use this class to customize the **Scheduler**'s table cells and the cells above 
 
 <!--fullDescription-->
 
+    <!--CSS-->
+    #yourSchedulerID .dx-scheduler-cell-sizes-horizontal {
+        width: 200px;
+    }
+
 <!--/fullDescription-->
 
 <!--handmade-->

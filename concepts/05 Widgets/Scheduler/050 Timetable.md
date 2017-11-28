@@ -65,14 +65,14 @@ The **Scheduler** widget allows you to customize its timetable. You can specify 
 
 ---
 
-You can also adjust cells' size in the table and around it using the DevExtreme CSS classes. For example, the `.dx-scheduler-cell-sizes-horizontal` and `.dx-scheduler-cell-sizes-vertical` classes specify the cells' width and height, respectively.
+You can also adjust cells' size in the table and around it using the DevExtreme CSS classes. For example, the `.dx-scheduler-cell-sizes-horizontal` and `.dx-scheduler-cell-sizes-vertical` classes specify the cells' width and height, respectively. 
 
     <!--CSS-->
-    .dx-scheduler-cell-sizes-horizontal {
-        width: 200px !important;
+    #yourSchedulerID .dx-scheduler-cell-sizes-horizontal {
+        width: 200px;
     }
-    .dx-scheduler-cell-sizes-vertical {
-        height: 200px !important;
+    #yourSchedulerID .dx-scheduler-cell-sizes-vertical {
+        height: 200px;
     }
 
 For a more detailed customization, define custom templates for cells, time scales, and date scales. DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) for Angular, AngularJS and Knockout apps. The following code shows how you can use **dxTemplate** to define templates for timetable parts:
