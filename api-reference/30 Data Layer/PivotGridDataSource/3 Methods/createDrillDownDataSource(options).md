@@ -37,7 +37,7 @@ An index of the summary value in the 'data' area.
 Maximum items count in the resulting list.
 <!--/paramDescription1_field4-->
 <!--paramName1_field5-->customColumns<!--/paramName1_field5-->
-<!--paramType1_field5-->Array<string, number, Date><!--/paramType1_field5-->
+<!--paramType1_field5-->Array<string><!--/paramType1_field5-->
 <!--paramDescription1_field5-->
 A list of field names that will be included in each fact.
 <!--/paramDescription1_field5-->
