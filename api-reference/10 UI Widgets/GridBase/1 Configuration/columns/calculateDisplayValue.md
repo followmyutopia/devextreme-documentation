@@ -19,7 +19,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             columns: [{
                 dataField: "countryID", // provides values for editing
                 calculateDisplayValue: "country" // provides display values
@@ -30,15 +30,15 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### Angular
 
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-{widget-name} ... >
         <dxi-column
             dataField="countryID" <!-- provides values for editing -->
             calculateDisplayValue="country"> <!-- provides display values -->
         </dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -46,7 +46,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
@@ -54,7 +54,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->
-    @(Html.DevExtreme().DataGrid()
+    @(Html.DevExtreme().{WidgetName}()
         .Columns(columns => columns.Add()
             .DataField("CountryID")
             .CalculateDisplayValue("Country")
@@ -62,7 +62,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     )
 
     <!--Razor VB-->
-    @(Html.DevExtreme().DataGrid() _
+    @(Html.DevExtreme().{WidgetName}() _
         .Columns(Sub(columns)
             columns.Add() _
                 .DataField("CountryID") _
@@ -78,7 +78,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             columns: [{
                 dataField: "countryID", // provides values for editing
                 calculateDisplayValue: function (rowData) { // combines display values
@@ -91,15 +91,15 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### Angular
 
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-{widget-name} ... >
         <dxi-column
             dataField="countryID" <!-- provides values for editing -->
             [calculateDisplayValue]="getCountryWithCapital"> <!-- combines display values -->
         </dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         getCountryWithCapital(rowData) {
@@ -109,7 +109,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
@@ -117,7 +117,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->
-    @(Html.DevExtreme().DataGrid()
+    @(Html.DevExtreme().{WidgetName}()
         .Columns(columns => columns.Add()
             .DataField("CountryID")
             .CalculateDisplayValue(new JS("getCountryWithCapital"))
@@ -131,7 +131,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     </script>
 
     <!--Razor VB-->
-    @(Html.DevExtreme().DataGrid() _
+    @(Html.DevExtreme().{WidgetName}() _
         .Columns(Sub(columns)
             columns.Add() _
                 .DataField("CountryID") _

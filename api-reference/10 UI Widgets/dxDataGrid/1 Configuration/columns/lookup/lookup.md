@@ -9,7 +9,7 @@
 ===========================================================================
 
 <!--fullDescription-->
-A lookup column restricts the set of values that can be chosen when a user edits or filters the column. In a lookup column, each cell is a drop-down menu. You can use a lookup column when you need to substitute displayed values for required values. For example, consider that you have two arrays of objects: `drivers` and `buses`.
+A lookup column restricts the set of values that can be chosen when a user edits or filters the column. In a lookup column, each cell is a drop-down menu. You can use a lookup column when you need to substitute displayed values with required values. For example, consider that you have two arrays of objects: `drivers` and `buses`.
 
     <!--JavaScript-->var drivers = [
         { driverID: 1, firstName: 'John', lastName: 'Smith', busID: 2 },
@@ -29,7 +29,7 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#treeListContainer").dxTreeList({
+        $("#dataGridContainer").dxDataGrid({
             dataSource: drivers,
             // ...
             columns: [{
@@ -46,7 +46,7 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
 ##### Angular
 
     <!--HTML-->
-    <dx-tree-list [dataSource]="drivers">
+    <dx-data-grid [dataSource]="drivers">
         <dxi-column dataField="busID">
             <dxo-lookup
                 [dataSource]="buses"
@@ -54,10 +54,10 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
                 displayExpr="plates">
             </dxo-lookup>
         </dxi-column>
-    </dx-tree-list>
+    </dx-data-grid>
 
-    <!--JavaScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         drivers = [
@@ -74,7 +74,7 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
     @NgModule({
         imports: [
             // ...
-            DxTreeListModule
+            DxDataGridModule
         ],
         // ...
     })
@@ -82,6 +82,12 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
 ---
 
 With this code, the *Bus ID* column contains license plates instead of IDs. Moreover, the user can choose a plate number from the drop-down menu when editing cells or applying a filter to this column.
+
+<a href="/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Demo</a>
+
+#####See Also#####
+- [Lookup Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Lookup_Columns/)
+- [Enhance Performance on Large Datasets - Lookup Optimization](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Lookup_Optimization)
 <!--/fullDescription-->
 
 <!--handmade-->

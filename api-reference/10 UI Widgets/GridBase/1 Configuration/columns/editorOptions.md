@@ -23,7 +23,7 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             onEditorPreparing: function(e) {
                 if (e.dataField == "requiredDataField") {
@@ -42,7 +42,7 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
 ##### Angular
     
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         onEditorPreparing (e) {
@@ -60,7 +60,7 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })

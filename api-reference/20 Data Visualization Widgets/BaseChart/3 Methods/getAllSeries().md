@@ -13,7 +13,7 @@ Returns an array of all series in the chart.
 
 <!--returnType-->Array<baseSeriesObject><!--/returnType-->
 <!--returnDescription-->
-The series from the chart's **series** collection.
+An array of [Series]({basewidgetpath}/Chart_Elements/Series/) objects.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -19,6 +19,8 @@ To apply sorting to a column, a user clicks its header or selects a command from
 
 Note that rows are sorted within their hierarchical level.
 
+<a href="/Demos/WidgetsGallery/Demo/TreeList/MultipleSorting/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+
 #####See Also#####
 - [Sorting](/Documentation/Guide/Widgets/TreeList/Sorting/)
 <!--/fullDescription-->

@@ -8,8 +8,6 @@
 <!--merge--><!--/merge-->
 ===========================================================================
 
-<!--fullDescription-->
-This option is used if the [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) option value is 'tree'.
-
-
-<!--/fullDescription-->
+<!--shortDescription-->
+Specifies which data field contains nested items. Applies only if the [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) option is *"tree"*.
+<!--/shortDescription-->

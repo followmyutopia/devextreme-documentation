@@ -8,18 +8,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets a series within the chart's **series** collection by its position number.
+Gets a series within the chart's [series]({basewidgetpath}/Configuration/series/) array by index.
 <!--/shortDescription-->
 
 <!--paramName1-->seriesIndex<!--/paramName1-->
 <!--paramType1-->number<!--/paramType1-->
 <!--paramDescription1-->
-The index of the series to be found within the chart's **series** collection.
+The index of the series to be found within the chart's **series** array.
 <!--/paramDescription1-->
 
 <!--returnType-->chartSeriesObject<!--/returnType-->
 <!--returnDescription-->
-The series that is found by the specified position index.
+A [Series]({basewidgetpath}/Chart_Elements/Series/) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->

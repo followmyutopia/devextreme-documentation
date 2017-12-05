@@ -28,7 +28,7 @@ To sort data first by the *"Last Name"* and then by the *"First Name"* column, u
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [
                 { dataField: 'firstName', sortIndex: 1, sortOrder: 'asc' },
@@ -41,13 +41,13 @@ To sort data first by the *"Last Name"* and then by the *"First Name"* column, u
 ##### Angular
     
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-{widget-name} ... >
         <dxi-column dataField="firstName" [sortIndex]="1" sortOrder="asc"></dxi-column>
-        <dxi-column dataField="lastName" [sortIndex]="1" sortOrder="asc"></dxi-column>
-    </dx-data-grid>
+        <dxi-column dataField="lastName" [sortIndex]="0" sortOrder="asc"></dxi-column>
+    </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -55,7 +55,7 @@ To sort data first by the *"Last Name"* and then by the *"First Name"* column, u
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })

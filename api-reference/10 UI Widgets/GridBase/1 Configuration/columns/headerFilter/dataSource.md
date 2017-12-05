@@ -24,7 +24,7 @@ A simple JavaScript array containing a collection of plain objects.
 
         <!--JavaScript-->
         $(function () {
-            $("#dataGridContainer").dxDataGrid({
+            $("#{widgetName}Container").dx{WidgetName}({
                 headerFilter: {
                     dataSource: [{
                         text: "Zero",    // A string to be displayed in the UI
@@ -42,7 +42,7 @@ A simple JavaScript array containing a collection of plain objects.
     ##### Angular
 
         <!--TypeScript-->
-        import { DxDataGridModule } from 'devextreme-angular';
+        import { Dx{WidgetName}Module } from 'devextreme-angular';
         // ...
         export class AppComponent {
             headerFilterData: any;
@@ -61,16 +61,16 @@ A simple JavaScript array containing a collection of plain objects.
         @NgModule({
             imports: [
                 // ...
-                DxDataGridModule
+                Dx{WidgetName}Module
             ],
             // ...
         })
 
-        <!--HTML--><dx-data-grid ...>
+        <!--HTML--><dx-{widget-name} ...>
             <dxi-column>
                 <dxo-header-filter [dataSource]="headerFilterData"></dxo-header-filter>
             </dxi-column>
-        </dx-data-grid>
+        </dx-{widget-name}>
 
     ---
 
@@ -85,7 +85,7 @@ A [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration
             var now = new Date();
             var startOfWeek = new Date(now.setDate(now.getDate() - now.getDay() - 1 + (now.getDay()==0?-6:1)));             
             var startOfDay = new Date(now.setHours(0,0,0,0));
-            $("#dataGridContainer").dxDataGrid({
+            $("#{widgetName}Container").dx{WidgetName}({
                 // ...
                 columns: [{
                     // ...
@@ -114,7 +114,7 @@ A [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration
     ##### Angular
 
         <!--TypeScript-->
-        import { DxDataGridModule } from 'devextreme-angular';
+        import { Dx{WidgetName}Module } from 'devextreme-angular';
         import 'devextreme/data/custom_store';
         // ...
         export class AppComponent {
@@ -142,16 +142,16 @@ A [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration
         @NgModule({
             imports: [
                 // ...
-                DxDataGridModule
+                Dx{WidgetName}Module
             ],
             // ...
         })
 
-        <!--HTML--><dx-data-grid ...>
+        <!--HTML--><dx-{widget-name} ...>
             <dxi-column>
                 <dxo-header-filter [dataSource]="headerFilterData"></dxo-header-filter>
             </dxi-column>
-        </dx-data-grid>
+        </dx-{widget-name}>
 
     ---
 
@@ -163,7 +163,7 @@ A function in which you can modify the current data source configuration.
 
         <!--JavaScript-->
         $(function () {
-            $("#dataGridContainer").dxDataGrid({
+            $("#{widgetName}Container").dx{WidgetName}({
                 headerFilter: {
                     dataSource: function (data) {
                         data.dataSource.postProcess = function (results) {
@@ -185,7 +185,7 @@ A function in which you can modify the current data source configuration.
     #####Angular
 
         <!--TypeScript-->
-        import { DxDataGridModule } from 'devextreme-angular';
+        import { Dx{WidgetName}Module } from 'devextreme-angular';
         import 'devextreme/data/data_source';
         // ...
         export class AppComponent {
@@ -210,16 +210,16 @@ A function in which you can modify the current data source configuration.
         @NgModule({
             imports: [
                 // ...
-                DxDataGridModule
+                Dx{WidgetName}Module
             ],
             // ...
         })
 
-        <!--HTML--><dx-data-grid ...>
+        <!--HTML--><dx-{widget-name} ...>
             <dxi-column>
                 <dxo-header-filter [dataSource]="headerFilterData"></dxo-header-filter>
             </dxi-column>
-        </dx-data-grid>
+        </dx-{widget-name}>
 
     ---
 
@@ -240,7 +240,7 @@ If you use a data source that does not contain the required fields (**text** and
             key: ["categoryId", "categoryCode"]
         });
 
-        $("#gridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
                 // ...
@@ -266,7 +266,7 @@ If you use a data source that does not contain the required fields (**text** and
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     import ArrayStore from 'devextreme/data/array_store';
     import DataSource from 'devextreme/data/data_source';
     // ...
@@ -297,16 +297,16 @@ If you use a data source that does not contain the required fields (**text** and
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
 
-    <!--HTML--><dx-data-grid ...>
+    <!--HTML--><dx-{widget-name} ...>
         <dxi-column>
             <dxo-header-filter [dataSource]="headerFilterData"></dxo-header-filter>
         </dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
 
 ---
 

@@ -9,7 +9,9 @@
 ===========================================================================
 
 <!--fullDescription-->
-[note]This option's default value is not supported and should be redefined if the widget is bound to an [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/), to a [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) or to a data source containing objects.
+All rows are monochrome without any visual distinctions by default. However, if you set this option to **true**, ordinary-looking rows will alternate with slightly shaded ones.
+
+<a href="/Demos/WidgetsGallery/Demo/DataGrid/Appearance/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
 
 <!--handmade-->

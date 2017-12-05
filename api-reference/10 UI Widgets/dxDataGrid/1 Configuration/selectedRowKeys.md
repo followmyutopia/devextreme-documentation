@@ -5,17 +5,12 @@
 
 **-->
 ===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
 <!--shortDescription-->
-A Boolean value specifying whether or not the search bar is visible.
+Specifies the keys of rows that must be selected initially. Applies only if **selection**.[deferred]({basewidgetpath}/Configuration/selection/#deferred) is **false**.
 <!--/shortDescription-->
 
-<!--fullDescription-->
-#####See Also#####
-- [Configure Search Parameters](/Documentation/Guide/Widgets/Lookup/Configure_Search_Parameters/)
-
-
-<!--/fullDescription-->
+<!--handmade-->
+<!--/handmade-->

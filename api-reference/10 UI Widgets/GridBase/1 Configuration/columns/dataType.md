@@ -26,7 +26,7 @@ Date-time values have the following specifics.
     #####jQuery 
 
         <!--JavaScript-->$(function() {
-            $("#dataGridContainer").dxDataGrid({
+            $("#{widgetName}Container").dx{WidgetName}({
                 // ...
                 columns: [{
                     dataField: "HireDate",
@@ -40,17 +40,17 @@ Date-time values have the following specifics.
     #####Angular
 
         <!--HTML-->
-        <dx-data-grid>
+        <dx-{widget-name}>
             <dxi-column
                 dataField="HireDate"
                 dataType="date"
                 format="shortDateShortTime"
                 [editorOptions]="{ type: 'datetime' }">
             </dxi-column>
-        </dx-data-grid>
+        </dx-{widget-name}>
 
         <!--TypeScript-->
-        import { DxDataGridModule } from 'devextreme-angular';
+        import { Dx{WidgetName}Module } from 'devextreme-angular';
         // ...
         export class AppComponent {
             // ...
@@ -58,7 +58,7 @@ Date-time values have the following specifics.
         @NgModule({
             imports: [
                 // ...
-                DxDataGridModule
+                Dx{WidgetName}Module
             ],
             // ...
         })
@@ -68,5 +68,5 @@ Date-time values have the following specifics.
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `GridColumnDataType` enum. This enum accepts the following values: `String`, `Number`, `Date`, `DateTime`, `Boolean` and `Object`.
 
 #####See Also#####
-- [Data Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Data_Columns/)
+- [Data Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Data_Columns/)
 <!--/fullDescription-->

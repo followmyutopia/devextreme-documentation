@@ -20,7 +20,7 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#treeListContainer").dxTreeList({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
                 caption: 'Address',
@@ -34,16 +34,16 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
 ##### Angular
     
     <!--HTML-->
-    <dx-tree-list ... >
+    <dx-{widget-name} ... >
         <dxi-column caption="Address">
             <dxi-column dataField="City"></dxi-column>
             <dxi-column dataField="Street"></dxi-column>
             <dxi-column dataField="Apartment"></dxi-column>
         </dxi-column>
-    </dx-tree-list>
+    </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -51,16 +51,16 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
     @NgModule({
         imports: [
             // ...
-            DxTreeListModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
     
 ---
 
-A nested column has almost every option a regular column has. These options are described in the [columns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) section of the Reference.
+A nested column has almost every option a regular column has. These options are described in the [columns](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columns/) section of the Reference.
 
-[note]There is an exception though: nested columns cannot be [fixed](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columnFixing/) alone, therefore specifying the [fixed](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixed) and [fixedPosition](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixedPosition) options for them is useless. However, the whole band column can be fixed as usual.
+[note]There is an exception though: nested columns cannot be [fixed](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columnFixing/) alone, therefore specifying the [fixed](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columns/#fixed) and [fixedPosition](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columns/#fixedPosition) options for them is useless. However, the whole band column can be fixed as usual.
 
 For example, the following code specifies the **width** and **sortOrder** options of the *"Street"* column nested within the fixed *"Address"* band column.
 
@@ -68,7 +68,7 @@ For example, the following code specifies the **width** and **sortOrder** option
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#treeListContainer").dxTreeList({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
                 caption: 'Address',
@@ -91,7 +91,7 @@ For example, the following code specifies the **width** and **sortOrder** option
 ##### Angular
     
     <!--HTML-->
-    <dx-tree-list ... >
+    <dx-{widget-name} ... >
         <dxi-column
             caption="Address"
             [fixed]="true"
@@ -100,10 +100,10 @@ For example, the following code specifies the **width** and **sortOrder** option
             <dxi-column dataField="Street" [width]="100" sortOrder="asc"></dxi-column>
             <dxi-column dataField="Apartment"></dxi-column>
         </dxi-column>
-    </dx-tree-list>
+    </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -111,7 +111,7 @@ For example, the following code specifies the **width** and **sortOrder** option
     @NgModule({
         imports: [
             // ...
-            DxTreeListModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
@@ -124,7 +124,7 @@ Band columns support hierarchies of any nesting level. It means that the followi
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#treeListContainer").dxTreeList({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
                 caption: 'A',
@@ -145,7 +145,7 @@ Band columns support hierarchies of any nesting level. It means that the followi
 ##### Angular
     
     <!--HTML-->
-    <dx-tree-list ... >
+    <dx-{widget-name} ... >
         <dxi-column caption="A">
             <dxi-column dataField="A1"></dxi-column>
             <dxi-column dataField="A2"></dxi-column>
@@ -162,10 +162,10 @@ Band columns support hierarchies of any nesting level. It means that the followi
         <dxi-column caption="B">
             ...
         </dxi-column>
-    </dx-tree-list>
+    </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -173,15 +173,18 @@ Band columns support hierarchies of any nesting level. It means that the followi
     @NgModule({
         imports: [
             // ...
-            DxTreeListModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
     
 ---
 
-Band columns have the [isBand](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#isBand) flag. Banded columns have the [ownerBand](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#ownerBand) option set. Use these options to distinguish band and banded columns from regular ones in code.
+Band columns have the [isBand](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columns/#isBand) flag. Banded columns have the [ownerBand](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columns/#ownerBand) option set. Use these options to distinguish band and banded columns from regular ones in code.
 
+#####See Also#####
+- [Band Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Band_Columns/)
+- [Column Fixing](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Fixing/)
 <!--/fullDescription-->
 
 <!--handmade-->

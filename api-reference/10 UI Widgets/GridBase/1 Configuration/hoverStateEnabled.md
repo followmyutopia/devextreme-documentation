@@ -8,10 +8,9 @@
 <!--merge--><!--/merge-->
 ===========================================================================
 
-<!--fullDescription-->
-#####See Also#####
-- [rowValidating]({basewidgetpath}/Events/#rowValidating)
-<!--/fullDescription-->
+<!--shortDescription-->
+Specifies whether to highlight rows when a user moves the mouse pointer over them.
+<!--/shortDescription-->
 
 <!--handmade-->
 <!--/handmade-->

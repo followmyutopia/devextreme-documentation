@@ -20,7 +20,7 @@ The **columns** array can contain only the names of data source fields, which is
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [
                 'CustomerID',
@@ -36,17 +36,17 @@ The **columns** array can contain only the names of data source fields, which is
 ##### Angular
     
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-{widget-name} ... >
         <dxi-column dataField="CustomerID"></dxi-column>
         <dxi-column dataField="EmployeeID" [width]="200"></dxi-column>
         <dxi-column dataField="OrderDate"></dxi-column>
         <dxi-column dataField="Freight" format="fixedPoint"></dxi-column>
         <dxi-column dataField="ShipName"></dxi-column>
         <dxi-column dataField="ShipCity"></dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -54,7 +54,7 @@ The **columns** array can contain only the names of data source fields, which is
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
@@ -62,5 +62,5 @@ The **columns** array can contain only the names of data source fields, which is
 ---
 
 #####See Also#####
-- [Columns - Overview](/Documentation/Guide/Widgets/DataGrid/Columns/Overview/)
+- [Columns - Overview](/Documentation/Guide/Widgets/{WidgetName}/Columns/Overview/)
 <!--/fullDescription-->

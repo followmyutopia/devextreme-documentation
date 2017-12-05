@@ -19,7 +19,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             columns: [{
                 dataField: "Position", // provides values for the column
                 calculateSortValue: "isOnVacation" // provides values to be used in sorting 
@@ -30,15 +30,15 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### Angular
     
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-{widget-name} ... >
         <dxi-column
             dataField="Position" <!--provides values for the column -->
             calculateSortValue="isOnVacation"> <!-- provides values to be used in sorting -->
         </dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -46,7 +46,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
@@ -59,24 +59,24 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        var dataGrid = $("#dataGridContainer").dxDataGrid({
+        var {widgetName} = $("#{widgetName}Container").dx{WidgetName}({
             columns: [{
                 dataField: 'Position',
                 sortOrder: "asc",
                 calculateSortValue: function (rowData) {
                     if (rowData.Position == "CEO")
-                        return dataGrid.columnOption('Position', 'sortOrder') == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
+                        return {widgetName}.columnOption('Position', 'sortOrder') == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
                     else
                         return rowData.Position; // Others are sorted as usual
                 }
             }]
-        }).dxDataGrid("instance");
+        }).dx{WidgetName}("instance");
     });
 
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         customSortingFunction (rowData) {
@@ -89,19 +89,19 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
 
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-{widget-name} ... >
         <dxi-column
             dataField="Position"
             sortOrder="asc"
             [calculateSortValue]="customSortingFunction">
         </dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
     
 ---
 

@@ -71,7 +71,7 @@ A user can interact with the widget using the following keys:
     </table>
 </div>
 
-<div style="font-size:12px">
+<div style="font-size:12px;margin-bottom:10px;">
     <sup>1</sup> - A select box appears in a cell of a <a href="/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Lookup_Columns/">lookup column</a>.<br />
     <sup>2</sup> - A calendar appears in a data cell when a column contains <i>"date"</i> <a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType">type</a> data.<br />
     <sup>3</sup> - <b>selection</b> | <a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#mode">mode</a> must be different from <i>"none"</i>.<br />

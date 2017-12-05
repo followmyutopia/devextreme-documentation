@@ -20,7 +20,7 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
                 caption: 'Address',
@@ -34,16 +34,16 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
 ##### Angular
     
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-{widget-name} ... >
         <dxi-column caption="Address">
             <dxi-column dataField="City"></dxi-column>
             <dxi-column dataField="Street"></dxi-column>
             <dxi-column dataField="Apartment"></dxi-column>
         </dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -51,7 +51,7 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
@@ -64,7 +64,7 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             customizeColumns: function(columns) {
                 columns.push({ // Pushes the "Address" band column into the "columns" array
@@ -84,7 +84,7 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
 ##### Angular
     
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         customizeColumns (columns) {
@@ -103,15 +103,15 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
 
     <!--HTML-->
-    <dx-data-grid ...
+    <dx-{widget-name} ...
         [customizeColumns]="customizeColumns">
-    </dx-data-grid>
+    </dx-{widget-name}>
     
 ---
 
@@ -133,5 +133,5 @@ The column with the **isBand** flag set to **true** can have the following prope
 - [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex)
 
 #####See Also#####
-- [Band Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Band_Columns/)
+- [Band Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Band_Columns/)
 <!--/fullDescription-->

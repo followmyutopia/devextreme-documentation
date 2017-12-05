@@ -30,7 +30,7 @@ This option accepts one of the following.
 The widget cannot track changes that a third party makes in the data source. To bring data in the widget up to date in this case, call the [refresh()]({basewidgetpath}/Methods/#refresh) method.
 
 #####See Also#####
-- [Data Binding](/Documentation/Guide/Widgets/DataGrid/Data_Binding/)
+- [Data Binding](/Documentation/Guide/Widgets/{WidgetName}/Data_Binding/)
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
 - [Data Layer - DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples)
 <!--/fullDescription-->

@@ -19,7 +19,7 @@ Using this function, you can process user input before it is saved to the data s
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [
                 "Price",
@@ -40,7 +40,7 @@ Using this function, you can process user input before it is saved to the data s
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         setCellValue (newData, value, currentRowData) {
@@ -51,13 +51,13 @@ Using this function, you can process user input before it is saved to the data s
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
 
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-{widget-name} ... >
         <dxi-column dataField="Price"></dxi-column>
         <dxi-column
             dataField="Count"
@@ -65,7 +65,7 @@ Using this function, you can process user input before it is saved to the data s
             [setCellValue]="setCellValue">
         </dxi-column>
         <dxi-column dataField="TotalPrice"></dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
 
 ---
 

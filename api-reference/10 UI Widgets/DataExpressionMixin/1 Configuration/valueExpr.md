@@ -10,9 +10,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies which data field provides the widget [value]({basewidgetpath}/Configuration/#value).
+Specifies which data field provides the widget's [value]({basewidgetpath}/Configuration/#value). When this option is not set, the **value** is the entire data object.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If the option's value is *"this"*, the widget returns the entire selected object from the **value** option. Note that the *"this"* value is not supported by a widget bound to an [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
+
 <!--/fullDescription-->

@@ -16,6 +16,7 @@ Customizes the text displayed in column cells.
 [note]The **customizeText** function may be called when data displayed in the column matches the search condition to properly highlight the matching text.
 
 #####See Also#####
+- [Customize the Value and Text](/Documentation/Guide/Widgets/{WidgetName}/Columns/Customize_Cells/#Customize_the_Value_and_Text)
 - **columns[]**.[calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->cellInfo<!--/typeFunctionParamName1-->

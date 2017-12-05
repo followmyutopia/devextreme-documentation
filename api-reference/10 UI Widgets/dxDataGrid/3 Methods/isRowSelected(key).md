@@ -4,19 +4,13 @@
 -------------------------------------------
 
 **-->
-<!--d-->
-Selects the series.
-<!--/d-->
 ===================================================================
+<!--merge--><!--/merge-->
 ===================================================================
 
 <!--shortDescription-->
-Selects the series. The series is displayed in a 'selected' style.
+Checks whether the row with a specific key is selected. Takes effect only if **selection**.[deferred]({basewidgetpath}/Configuration/selection/#deferred) is **false**.
 <!--/shortDescription-->
-
-<!--fullDescription-->
-To learn about series selection, refer to the [Selection Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Selection_Handling) section.
-<!--/fullDescription-->
 
 <!--handmade-->
 <!--/handmade-->

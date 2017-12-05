@@ -30,7 +30,7 @@ The string comparison is culture-insensitive by default. Use the following code 
 
     <!--JavaScript-->
     $(function () {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
                 dataField: "fieldName",
@@ -49,7 +49,7 @@ The string comparison is culture-insensitive by default. Use the following code 
 #####Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         sortStringsConsideringCulture (value1, value2) {
@@ -64,24 +64,24 @@ The string comparison is culture-insensitive by default. Use the following code 
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
 
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-{widget-name} ... >
         <dxi-column
             dataField="fieldName"
             [sortingMethod]="sortStringsConsideringCulture">
         </dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
 
 ---
 
-When implementing the **sortingMethod** function, you can access the [column's configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) using the **this** keyword.
+When implementing the **sortingMethod** function, you can access the [column's configuration](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columns/) using the **this** keyword.
 
-[note]The **sortingMethod**'s *value1* and *value2* are the values returned from the [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateSortValue) function if the latter is specified.
+[note]The **sortingMethod**'s *value1* and *value2* are the values returned from the [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columns/#calculateSortValue) function if the latter is specified.
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value1<!--/typeFunctionParamName1-->

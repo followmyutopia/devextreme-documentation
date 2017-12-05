@@ -34,7 +34,7 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             dataSource: drivers,
             // ...
             columns: [{
@@ -51,7 +51,7 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
 ##### Angular
 
     <!--HTML-->
-    <dx-data-grid [dataSource]="drivers">
+    <dx-{widget-name} [dataSource]="drivers">
         <dxi-column dataField="busID">
             <dxo-lookup
                 [dataSource]="buses"
@@ -59,10 +59,10 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
                 displayExpr="plates">
             </dxo-lookup>
         </dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         drivers = [
@@ -79,7 +79,7 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
@@ -88,9 +88,6 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
 
 With this code, the *Bus ID* column contains license plates instead of IDs. Moreover, the user can choose a plate number from the drop-down menu when editing cells or applying a filter to this column.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/BatchEditing/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Demo</a>
-
 #####See Also#####
-- [Lookup Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Lookup_Columns/)
-- [Enhance Performance on Large Datasets - Lookup Optimization](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Lookup_Optimization)
+- [Lookup Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Lookup_Columns/)
 <!--/fullDescription-->
