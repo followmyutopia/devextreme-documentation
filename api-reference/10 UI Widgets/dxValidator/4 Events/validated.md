@@ -21,7 +21,7 @@ Instead, you can use the [onValidated](/Documentation/ApiReference/UI_Widgets/dx
 <!--typeFunctionParamName1-->validatedInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Provides function parameters.
+Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->name<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->

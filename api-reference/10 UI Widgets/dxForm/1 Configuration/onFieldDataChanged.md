@@ -23,22 +23,22 @@ Assign a function to perform a custom action after the value of a [formData](/Do
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Provides function parameters.
+Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the form instance.
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The form's container.
+The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
+The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->dataField<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
@@ -48,5 +48,5 @@ The path to the [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configu
 <!--typeFunctionParamName1_field5-->value<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The new value of the field.
+The field's new value.
 <!--/typeFunctionParamDescription1_field5-->

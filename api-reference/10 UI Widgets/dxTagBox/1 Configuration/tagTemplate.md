@@ -29,13 +29,13 @@ In Knockout apps, you can bind template elements directly to an item object's fi
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The item object associated with a tag to be rendered.
+The current tag's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The container of the tag to be rendered.
+The tag's container.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

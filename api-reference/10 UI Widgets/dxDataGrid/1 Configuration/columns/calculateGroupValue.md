@@ -18,7 +18,7 @@ By default, [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) is condu
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The data object presented by the current grid row.
+The current row's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->any<!--/typeFunctionReturnType-->

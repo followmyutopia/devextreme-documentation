@@ -30,19 +30,19 @@ In Knockout apps, you can bind template elements directly to an item object's fi
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The menu item object to be rendered.
+The current menu item's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The index of the menu item to be rendered.
+The current menu item's index.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
 <!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
-The container of the menu item to be rendered.
+The current menu item's container.
 <!--/typeFunctionParamDescription3-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

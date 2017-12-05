@@ -47,16 +47,16 @@ In the **AngularJS approach**, if you need to access the item object's fields wi
 <!--typeFunctionParamName1-->selectedItem<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The data that is bound to the selected item.
+The selected item's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->fieldElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The container of the field to be rendered.
+The field's container.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A template name or a template container.
+A template name or container.
 <!--/typeFunctionReturnDescription-->

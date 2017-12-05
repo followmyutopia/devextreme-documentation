@@ -84,22 +84,22 @@ In **AngularJS** apps, if you need to access date scale item fields within a tem
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The currently rendered object that represents a date scale item.
+The data of the current date scale item.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The index of the date scale item to be rendered.
+The item's index.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->itemElement<!--/typeFunctionParamName3-->
 <!--typeFunctionParamType3-->dxElement<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
-The container of the date scale item to be rendered.
+The item's container.
 <!--/typeFunctionParamDescription3-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A template name or a template container.
+A template name or container.
 <!--/typeFunctionReturnDescription-->

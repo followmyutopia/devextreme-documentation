@@ -34,7 +34,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -117,5 +117,5 @@ The name of the field that provides data for the column to which the editor belo
 <!--typeFunctionParamName1_field17-->row<!--/typeFunctionParamName1_field17-->
 <!--typeFunctionParamType1_field17-->dxDataGridRowObject<!--/typeFunctionParamType1_field17-->
 <!--typeFunctionParamDescription1_field17-->
-The properties of the row to which the editor belongs.
+The [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) of the row to which the editor belongs.
 <!--/typeFunctionParamDescription1_field17-->

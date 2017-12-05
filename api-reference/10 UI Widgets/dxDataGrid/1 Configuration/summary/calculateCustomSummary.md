@@ -123,12 +123,12 @@ Summary information.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->dxDataGrid<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget [instance](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->name<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name) of the summary item.
+The summary item's [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name).
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->summaryProcess<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
@@ -143,5 +143,5 @@ If the custom summary item is calculated by a [column](/Documentation/ApiReferen
 <!--typeFunctionParamName1_field5-->totalValue<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The resulting summary item value.
+The resulting summary item's value.
 <!--/typeFunctionParamDescription1_field5-->

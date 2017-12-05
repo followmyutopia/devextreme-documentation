@@ -36,5 +36,5 @@ If the **items** option contains definition for form items, you usually do not n
 <!--typeFunctionParamName1-->item<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxFormSimpleItem|dxFormGroupItem|dxFormTabbedItem|dxFormEmptyItem<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Provides access to the item instance.
+The item's object.
 <!--/typeFunctionParamDescription1-->

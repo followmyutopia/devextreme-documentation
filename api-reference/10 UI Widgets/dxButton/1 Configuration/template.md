@@ -31,7 +31,7 @@ This option enables you to render a widget depending on the values of the field 
 <!--typeFunctionParamName1-->buttonData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object holding the button data.
+The button's data.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->text<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->

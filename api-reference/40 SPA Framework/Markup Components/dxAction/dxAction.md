@@ -37,7 +37,7 @@ Generally, the **dxAction** binding is analogous to the [dxclick](/Documentation
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Provides function parameters.
+Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->element<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->jQuery<!--/typeFunctionParamType1_field1-->
@@ -47,7 +47,7 @@ The DOM element involved in this binding.
 <!--typeFunctionParamName1_field2-->model<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
+The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->jQueryEvent<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->jQuery.Event<!--/typeFunctionParamType1_field3-->

@@ -17,7 +17,7 @@ This field can have one of the following values.
 
 - *"data"* - for rows representing data objects
 - *"detail"* - for the row containing the detail section in the [master-detail interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/)
-- *"detailAdaptive" - for the row containing in the detail section of the [adaptive column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/)
+- *"detailAdaptive"* - for the row containing in the detail section of the [adaptive column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/)
 - *"group"* - for group rows
 - *"groupFooter"* - for the row displayed in the [group footer](/Documentation/Guide/Widgets/DataGrid/Summaries/Group_Summary/#Alignment_and_Location)
 - *"header"* - for the [header row](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Column_Headers/)

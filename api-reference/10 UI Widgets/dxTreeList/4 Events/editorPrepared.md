@@ -26,7 +26,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -91,5 +91,5 @@ The name of the field that provides data for the column to which the editor belo
 <!--typeFunctionParamName1_field14-->row<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->dxTreeListRowObject<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-The properties of the row to which the editor belongs.
+The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row to which the editor belongs.
 <!--/typeFunctionParamDescription1_field14-->

@@ -35,7 +35,7 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Data that is available for binding against the element. Available only in the Knockout approach.
+The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->area<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
@@ -50,7 +50,7 @@ The cell's container.
 <!--typeFunctionParamName1_field6-->cell<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->dxPivotGridPivotGridCell<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The cell object.
+The cell [properties](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Pivot_Grid_Cell/).
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->rowIndex<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
@@ -65,17 +65,17 @@ The index of the column to which the clicked cell belongs.
 <!--typeFunctionParamName1_field9-->columnFields<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->Array<PivotGridDataSourceOptions_fields><!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-Fields of the *column* area.
+The *column* area's fields.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rowFields<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->Array<PivotGridDataSourceOptions_fields><!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-Fields of the *row* area.
+The *row* area's fields.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->dataFields<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->Array<PivotGridDataSourceOptions_fields><!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Fields of the *data* area.
+The *data* area's fields.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->jQueryEvent<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->jQuery.Event<!--/typeFunctionParamType1_field12-->
@@ -91,5 +91,5 @@ The event that caused the handler execution. It is a [dxEvent](/Documentation/Ap
 <!--typeFunctionParamName1_field14-->cancel<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->boolean<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-Set this field to **true** if you need to prevent the clicked field from expansion.
+Allows you to cancel field expansion.
 <!--/typeFunctionParamDescription1_field14-->

@@ -123,11 +123,11 @@ To customize a row without defining the entire template, handle the [rowPrepared
 <!--typeFunctionParamName1-->rowElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The row under customization.
+The row's container.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->rowInfo<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The options of the current row.
+The row [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/).
 <!--/typeFunctionParamDescription2-->

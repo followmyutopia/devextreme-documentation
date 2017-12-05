@@ -60,11 +60,11 @@ When using Knockout, AngularJS or Angular, you can specify the template using th
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The cell under customization.
+The current cell's container.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->cellInfo<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The options of the current cell.
+The current cell's properties.
 <!--/typeFunctionParamDescription2-->

@@ -34,5 +34,5 @@ The widget content's container.
 
 <!--typeFunctionReturnType-->string|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A template name or a template container.
+A template name or container.
 <!--/typeFunctionReturnDescription-->

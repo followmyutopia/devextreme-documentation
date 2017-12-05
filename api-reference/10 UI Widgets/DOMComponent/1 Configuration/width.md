@@ -31,5 +31,5 @@ A function returning either of the above. For example:
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->number|string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The widget width.
+The widget's width.
 <!--/typeFunctionReturnDescription-->

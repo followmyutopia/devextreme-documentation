@@ -36,7 +36,7 @@ This event allows you to handle a Back button click, even if the hardware Back b
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Provides function parameters.
+Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->cancel<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Boolean<!--/typeFunctionParamType1_field1-->

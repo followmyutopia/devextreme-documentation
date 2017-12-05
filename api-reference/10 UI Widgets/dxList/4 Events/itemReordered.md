@@ -27,12 +27,12 @@ To enable item reordering, set the [allowItemReordering](/Documentation/ApiRefer
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Provides function parameters.
+Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the widget's instance.
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -42,12 +42,12 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
+The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->itemData<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The data that is bound to the reordered item.
+The reordered item's data.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
@@ -57,15 +57,16 @@ The item's container.
 <!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->number | object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-Specifies the current index of the item after reordering. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }. This field holds the same value as **toIndex**.
+The item's index after reordering. This field holds the same value as **toIndex**.      
+In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }. 
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->fromIndex<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-Specifies the previous index of the item. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
+The item's previous index. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->toIndex<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-Specifies the current index of the item. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
+The item's current index. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
 <!--/typeFunctionParamDescription1_field8-->

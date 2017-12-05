@@ -29,7 +29,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -55,12 +55,12 @@ The event that caused the handler execution. It is a [dxEvent](/Documentation/Ap
 <!--typeFunctionParamName1_field6-->data<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The row data.
+The row's data.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->key<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->any<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The row key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.       
+The row's key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.       
 For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->values<!--/typeFunctionParamName1_field8-->
@@ -71,7 +71,7 @@ Values displayed in the row cells.
 <!--typeFunctionParamName1_field9-->columns<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->Array<Object><!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-All column [Configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
+All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rowIndex<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->number<!--/typeFunctionParamType1_field10-->
@@ -81,7 +81,7 @@ The row's visible index.
 <!--typeFunctionParamName1_field11-->rowType<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->string<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-The [type of the row](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
+The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->isSelected<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->boolean<!--/typeFunctionParamType1_field12-->

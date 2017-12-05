@@ -34,10 +34,10 @@ The option's short name.
 <!--typeFunctionParamName1_field5-->fullName<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The option's full name; contains the option's full hierarchy.
+The option's full name. Contains a full hierarchy of the option.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->value<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-A new option value.
+The option's new value.
 <!--/typeFunctionParamDescription1_field6-->

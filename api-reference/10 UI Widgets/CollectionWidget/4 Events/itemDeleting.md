@@ -27,7 +27,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the [widget's instance]({basewidgetpath}/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -42,7 +42,7 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->itemData<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The data of the to-be-deleted item.
+The data of the item to be removed.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
@@ -52,7 +52,7 @@ The item's container.
 <!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->number | object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The index of the to-be-deleted item.
+The item's index.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->boolean | Promise<void><!--/typeFunctionParamType1_field7-->

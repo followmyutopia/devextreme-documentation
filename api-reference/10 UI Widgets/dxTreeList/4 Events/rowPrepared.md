@@ -26,7 +26,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The [widget's instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -41,13 +41,13 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The row data. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.
+The row's data. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The row key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.       
-For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
+The row's key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.      
+For plain data, the value of the key depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->values<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Array<Object><!--/typeFunctionParamType1_field6-->
@@ -57,7 +57,7 @@ Values displayed in the row cells.
 <!--typeFunctionParamName1_field7-->columns<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->Array<dxTreeListOptions_columns><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-[Configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of all columns.
+All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->rowIndex<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
@@ -67,7 +67,7 @@ The row's visible index.
 <!--typeFunctionParamName1_field9-->rowType<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->string<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The [type of the row](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
+The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->isSelected<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->boolean<!--/typeFunctionParamType1_field10-->

@@ -42,5 +42,5 @@ The right edge of the currently selected range.
 <!--typeFunctionParamName1_field6-->value<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->array<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-Two values that represent start and end values.
+The start and end values.
 <!--/typeFunctionParamDescription1_field6-->

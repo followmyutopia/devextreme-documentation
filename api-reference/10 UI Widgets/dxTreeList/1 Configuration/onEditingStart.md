@@ -25,7 +25,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -40,7 +40,7 @@ The model data. Available only if Knockout is used.
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Data of a row to be edited.
+The data of the row to be edited.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
@@ -56,5 +56,5 @@ Allows you to cancel row editing.
 <!--typeFunctionParamName1_field7-->column<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->object<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-[Configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of the column whose cell is switching to the editing state. Available in *'cell'* or *'batch'* [editing mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode).
+The [configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) of the column whose cell is switching to the editing state. Available in *'cell'* or *'batch'* [editing mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode).
 <!--/typeFunctionParamDescription1_field7-->

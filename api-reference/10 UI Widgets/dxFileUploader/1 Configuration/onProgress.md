@@ -20,12 +20,12 @@ Assign a function to perform a custom action when a segment of a file has been u
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Provides function parameters.
+Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Provides access to the widget's instance.
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -35,7 +35,7 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Provides access to the data that is available for binding against the element. Available only in the Knockout approach.
+The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->file<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->File<!--/typeFunctionParamType1_field4-->
@@ -45,12 +45,12 @@ An uploaded file.
 <!--typeFunctionParamName1_field5-->segmentSize<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Number<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The size of an uploaded file segment.
+The size of the uploaded file segment.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->bytesLoaded<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Number<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The total count of uploaded bytes.
+The total count of the uploaded bytes.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->bytesTotal<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->

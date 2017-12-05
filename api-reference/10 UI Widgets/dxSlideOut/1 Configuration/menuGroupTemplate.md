@@ -28,19 +28,19 @@ In Knockout apps, you can bind template elements directly to a group object's fi
 <!--typeFunctionParamName1-->groupData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The group object to be rendered.
+The current group's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->groupIndex<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The index of the group to be rendered.
+The current group's index.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->groupElement<!--/typeFunctionParamName3-->
 <!--typeFunctionParamType3-->object<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
-An HTML element of the group to be rendered.
+The current group's container.
 <!--/typeFunctionParamDescription3-->
 
 <!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->

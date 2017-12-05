@@ -25,7 +25,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget [instance](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -35,7 +35,7 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Data that is available for binding against the element. Available only in the Knockout approach.
+The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->items<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Array<Object><!--/typeFunctionParamType1_field4-->
@@ -45,31 +45,31 @@ An array of items to be displayed by the context menu. The item objects must hav
 <!--typeFunctionParamName1_field5-->area<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The clicked [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) type.
+The clicked [area's](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) type.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cell<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->dxPivotGridPivotGridCell<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The cell that has been clicked to invoke the context menu.    
-**NOTE:** Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
+Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->cellElement<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The clicked cell's container.    
-**NOTE:** Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
+Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->columnIndex<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The index of the column to which the clicked cell belongs.    
-<b>NOTE: </b>Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
+Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->rowIndex<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->number<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 The index of the row to which the clicked cell belongs.    
-<b>NOTE: </b>Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
+Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel).
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->dataFields<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->Array<PivotGridDataSourceOptions_fields><!--/typeFunctionParamType1_field10-->
@@ -89,6 +89,6 @@ Fields in the 'column' area.
 <!--typeFunctionParamName1_field13-->field<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->PivotGridDataSourceOptions_fields<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-Options of the clicked field.    
-<b>NOTE: </b>Available for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel) only.
+This field's [configuration](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/).    
+Available for fields in the [field panel](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Panel) only.
 <!--/typeFunctionParamDescription1_field13-->
