@@ -27,7 +27,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The [widget's instance](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -53,5 +53,5 @@ The event that caused the handler execution. It is a [dxEvent](/Documentation/Ap
 <!--typeFunctionParamName1_field6-->target<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->chartSeriesObject<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The series to which the clicked legend item belongs.
+The series that corresponds to the clicked legend item; described in the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/) section.
 <!--/typeFunctionParamDescription1_field6-->

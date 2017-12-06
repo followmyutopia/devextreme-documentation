@@ -25,5 +25,5 @@ The name of the series to be customized.
 
 <!--typeFunctionReturnType-->dxPieChartOptions_series<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A configuration object for the series.
+The series' [configuration](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/).
 <!--/typeFunctionReturnDescription-->

@@ -43,5 +43,5 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->node<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->dxTreeMapNode<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The node whose selection state has been changed.
+The node whose selection state has been changed; described in the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) section.
 <!--/typeFunctionParamDescription1_field4-->

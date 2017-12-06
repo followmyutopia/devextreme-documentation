@@ -46,7 +46,7 @@ The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/
 <!--typeFunctionParamName1_field2-->value<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The item's raw value.
+The raw item value.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->valueText<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->

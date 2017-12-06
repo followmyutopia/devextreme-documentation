@@ -26,20 +26,20 @@ Information about the point a user paused on.
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Date|Number|string<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The argument or the value of the point.
+The raw argument value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The argument or the value with an applied [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/label/#format) and converted to string.
+The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/label/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->point<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->chartPointObject<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The **Point** object.
+The [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) object.
 <!--/typeFunctionParamDescription1_field3-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text to be displayed in the crosshair labels.
+The text for the crosshair label to display.
 <!--/typeFunctionReturnDescription-->

@@ -43,5 +43,5 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The object containing the hovered bar's index.
+Information on the bar being pressed or hovered over with the mouse pointer. Contains the **index** field.
 <!--/typeFunctionParamDescription1_field4-->

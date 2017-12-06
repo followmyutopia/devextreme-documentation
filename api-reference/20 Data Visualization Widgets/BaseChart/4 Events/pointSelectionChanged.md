@@ -27,7 +27,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The [widget's instance]({basewidgetpath}/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
@@ -37,5 +37,5 @@ The widget's container.
 <!--typeFunctionParamName1_field3-->target<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->basePointObject<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The series point whose selection state has been changed.
+The series point whose selection state has been changed; described in the [Point]({basewidgetpath}/Chart_Elements/Point/) section.
 <!--/typeFunctionParamDescription1_field3-->

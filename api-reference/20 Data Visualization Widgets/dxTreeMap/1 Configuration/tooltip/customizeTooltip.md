@@ -38,25 +38,25 @@ When implementing a callback function for this option, you can use the value of 
 <!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the node that has entered the hover state.
+Information on the node being pressed or hovered over with the mouse pointer.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The value of the node from the data source.
+The raw node value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The value of the node with applied [formatting](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/#format).
+The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->node<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->dxTreeMapNode<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The node that has entered the hover state.
+The [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) object.
 <!--/typeFunctionParamDescription1_field3-->
 
 <!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text or markup to be displayed in a tooltip, along with that tooltip's color.
+The tooltip's text or markup and color.
 <!--/typeFunctionReturnDescription-->

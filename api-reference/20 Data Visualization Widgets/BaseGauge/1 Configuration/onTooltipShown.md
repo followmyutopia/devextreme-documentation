@@ -28,7 +28,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The [widget's instance]({basewidgetpath}/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -43,5 +43,5 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The object containing the hovered indicator's index.
+Information on the (sub)value indicator being pressed or hovered over with the mouse pointer. Contains the **type** (*"value-indicator"* or *"subvalue-indicator"*) and **index** (**undefined** for value indicators) fields.
 <!--/typeFunctionParamDescription1_field4-->

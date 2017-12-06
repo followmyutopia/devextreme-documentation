@@ -21,20 +21,20 @@ When implementing a callback function for this option, use the value displayed i
 <!--typeFunctionParamName1-->indicatedValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Defines an indicated value.
+Information on the indicated value.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Specifies the scale value to be displayed in the indicator.
+The raw value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Specifies the scale value with applied formatting if the format option is set.
+The formatted value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text to be displayed by an indicator.
+The text for the indicator to display.
 <!--/typeFunctionReturnDescription-->

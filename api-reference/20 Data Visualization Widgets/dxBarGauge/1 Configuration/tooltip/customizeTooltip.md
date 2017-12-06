@@ -40,17 +40,17 @@ To review text customization in greater detail, refer to the [Customize Text](/D
 <!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Defines a value indicated by a bar.
+Information on the bar value.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The value as it was specified in the [values](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#values) array.
+The raw value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The value with applied [formatting](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/tooltip/#format).
+The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/tooltip/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->index<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->number<!--/typeFunctionParamType1_field3-->
@@ -60,5 +60,5 @@ A zero-based index of the hovered bar. The closer this bar is to the gauge's cen
 
 <!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text or markup to be displayed in a tooltip, along with that tooltip's color.
+The tooltip's text or markup and color.
 <!--/typeFunctionReturnDescription-->

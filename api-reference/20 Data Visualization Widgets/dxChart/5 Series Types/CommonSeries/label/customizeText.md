@@ -179,10 +179,10 @@ The following fields are inherent to financial series ([candlestick](/Documentat
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information defining the series point.
+Information on the series point.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text to be displayed in the point label.
+The text for the label to display.
 <!--/typeFunctionReturnDescription-->

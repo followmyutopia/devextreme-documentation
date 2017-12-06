@@ -21,25 +21,25 @@ Alternatively, you can use the **this** object within the function. This object 
 <!--typeFunctionParamName1-->seriesInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the series to be presented in the legend.
+Information on the series.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->seriesName<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->any<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Specifies the name of the series for which the current legend item is created.
+The series' name.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->seriesIndex<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Specifies the index of the series for which the current legend item is created.
+The series' index.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->seriesColor<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Specifies the color of the series for which the current legend item is created.
+The series' color.
 <!--/typeFunctionParamDescription1_field3-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text to be displayed by a legend item.
+The text for the legend item to display.
 <!--/typeFunctionReturnDescription-->

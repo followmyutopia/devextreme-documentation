@@ -20,10 +20,10 @@ Allows you to change tooltip appearance.
 <!--typeFunctionParamName1-->pointsInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Defines the point value to be displayed in a tooltip.
+Information on the point being pressed or hovered over with the mouse pointer.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text or markup to be displayed in a tooltip, along with the tooltip's settings.
+The tooltip's text or markup and appearance settings.
 <!--/typeFunctionReturnDescription-->

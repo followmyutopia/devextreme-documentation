@@ -41,7 +41,7 @@ The model data. Available only if Knockout is used.
 <!--typeFunctionParamName1_field4-->file<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-An uploaded file.
+The uploaded file.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->jQueryEvent<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->jQuery.Event<!--/typeFunctionParamType1_field5-->

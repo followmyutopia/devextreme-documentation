@@ -24,7 +24,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The [widget's instance]({basewidgetpath}/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -44,7 +44,7 @@ The name of the file to which the widget is about to be exported.
 <!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->boolean<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-Assign **true** to this field if you need to prevent exporting.
+Allows you to prevent exporting.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->format<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->string<!--/typeFunctionParamType1_field6-->

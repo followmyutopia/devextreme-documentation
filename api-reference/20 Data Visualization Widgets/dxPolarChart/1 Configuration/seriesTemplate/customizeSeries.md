@@ -25,5 +25,5 @@ The name of the series to be customized.
 
 <!--typeFunctionReturnType-->dxPolarChartOptions_series<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A configuration object for the series.
+The series' [configuration](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/).
 <!--/typeFunctionReturnDescription-->

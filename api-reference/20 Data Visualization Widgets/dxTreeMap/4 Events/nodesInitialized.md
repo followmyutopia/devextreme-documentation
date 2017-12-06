@@ -44,5 +44,5 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->root<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->dxTreeMapNode<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The root node.
+The root node; described in the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) section.
 <!--/typeFunctionParamDescription1_field4-->

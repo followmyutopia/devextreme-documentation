@@ -29,7 +29,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget [instance](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -44,10 +44,10 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->rangeStart<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Date|Number<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The value that became the start of the argument axis after zooming or scrolling ended.
+The argument axis' start value after zooming or scrolling.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->rangeEnd<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Date|Number<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The value that became the end of the argument axis after zooming or scrolling ended.
+The argument axis' end value after zooming or scrolling.
 <!--/typeFunctionParamDescription1_field5-->

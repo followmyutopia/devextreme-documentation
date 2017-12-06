@@ -19,7 +19,7 @@ Customizes labels' text.
 <!--typeFunctionParamName1-->itemInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information on the funnel item that owns the label.
+Information on the funnel item.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->item<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->dxFunnelItem<!--/typeFunctionParamType1_field1-->
@@ -29,7 +29,7 @@ The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/
 <!--typeFunctionParamName1_field2-->value<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The item's raw value.
+The raw item value.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->valueText<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
@@ -49,5 +49,5 @@ The item's [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dx
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The label's customized text.
+The text for the label to display.
 <!--/typeFunctionReturnDescription-->

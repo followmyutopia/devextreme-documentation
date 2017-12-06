@@ -40,10 +40,10 @@ When implementing a callback function for this option, you can access the hovere
 <!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->areaObjects|markerObjects<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Defines the area/marker for which a tooltip is about to be displayed.
+Information on the area/marker being pressed or hovered over with the mouse pointer.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text or markup to be displayed in a tooltip, along with that tooltip's color.
+The tooltip's text or markup and color.
 <!--/typeFunctionReturnDescription-->

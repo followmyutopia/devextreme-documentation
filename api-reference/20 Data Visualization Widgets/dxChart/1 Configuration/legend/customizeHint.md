@@ -18,25 +18,25 @@ This option accepts a function that must return the required text. When implemen
 <!--typeFunctionParamName1-->seriesInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information on the series that corresponds to the legend item.
+Information on the series.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->seriesName<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->any<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name) of the series. To get the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/) object by this name, call the [getSeriesByName(seriesName)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByNameseriesName) method.
+The series' [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#name). To get the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/) object by this name, call the [getSeriesByName(seriesName)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByNameseriesName) method.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->seriesIndex<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The index of the series in the **series**. To get the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/) object by this index, call the [getSeriesByPos(seriesIndex)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByPosseriesIndex) method.
+The index of the series in the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) array. To get the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/) object by this index, call the [getSeriesByPos(seriesIndex)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByPosseriesIndex) method.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->seriesColor<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#color) of the series.
+The series' [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#color).
 <!--/typeFunctionParamDescription1_field3-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text to be displayed in the hint.
+The text for the hint to display.
 <!--/typeFunctionReturnDescription-->

@@ -53,10 +53,10 @@ The **customizeLabel** function accepts an object providing information about th
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information defining the series point the label belongs to.
+Information on the series point.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->dxChartSeriesTypes_CommonSeries_label<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A configuration object for the point label.
+The label's [configuration]({basewidgetpath}/Configuration/commonSeriesSettings/label/).
 <!--/typeFunctionReturnDescription-->

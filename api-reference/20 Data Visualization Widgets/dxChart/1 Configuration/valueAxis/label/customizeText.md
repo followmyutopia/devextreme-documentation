@@ -19,20 +19,20 @@ Customizes the text displayed by axis labels.
 <!--typeFunctionParamName1-->axisValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Contains the value displayed by an axis label.
+Information on the axis value.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Date|Number|string<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The raw value from the data source.
+The raw value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The <a href="/Documentation/17_2/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/label/#format">formatted</a> value.
+The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/label/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text to be displayed by the axis label.
+The text for the label to display.
 <!--/typeFunctionReturnDescription-->

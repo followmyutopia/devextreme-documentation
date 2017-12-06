@@ -21,20 +21,20 @@ When implementing a callback function for this property, use the value displayed
 <!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Defines a scale value.
+Information on the scale value.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Date|Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Specifies the scale value that is currently selected.
+The raw value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Specifies the currently selected scale value with applied [formatting](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker#format).
+The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text to be displayed by a slider marker.
+The text for the slider marker to display.
 <!--/typeFunctionReturnDescription-->

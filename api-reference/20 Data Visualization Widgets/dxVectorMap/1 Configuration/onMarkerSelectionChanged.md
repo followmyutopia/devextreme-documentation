@@ -33,7 +33,7 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The [widget's instance](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#instance).
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
@@ -48,5 +48,5 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->markerObjects<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The selected/deselected marker.
+The selected/deselected marker; described in the [Marker](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/) section.
 <!--/typeFunctionParamDescription1_field4-->

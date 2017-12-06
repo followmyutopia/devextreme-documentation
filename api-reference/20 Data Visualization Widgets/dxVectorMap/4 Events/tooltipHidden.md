@@ -44,5 +44,5 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->MapLayerElement<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The area or marker for which a tooltip was displayed.
+The layer element whose tooltip is hidden; described in the [Layer Element](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/) section.
 <!--/typeFunctionParamDescription1_field4-->

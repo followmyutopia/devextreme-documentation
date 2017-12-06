@@ -21,25 +21,25 @@ Alternatively, you can use the **this** object within the function. This object 
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the point to be presented in the legend.
+Information on the series point.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->pointName<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->any<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Specifies the name of the point argument for which the current legend item is created.
+The point's name.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->pointIndex<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Specifies the index of the point for which the current legend item is created.
+The point's index.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->pointColor<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Specifies the color of the point for which the current legend item is created.
+The point's color.
 <!--/typeFunctionParamDescription1_field3-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text to be displayed by a legend item.
+The text for the legend item to display.
 <!--/typeFunctionReturnDescription-->

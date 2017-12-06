@@ -34,5 +34,5 @@ The legend item's original text.
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The legend item's customized text.
+The text for the legend item to display.
 <!--/typeFunctionReturnDescription-->

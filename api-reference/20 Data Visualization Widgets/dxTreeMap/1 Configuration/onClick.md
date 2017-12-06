@@ -63,5 +63,5 @@ The event that caused the handler execution. It is a [dxEvent](/Documentation/Ap
 <!--typeFunctionParamName1_field6-->node<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->dxTreeMapNode<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The clicked node.
+The clicked node; described in the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) section.
 <!--/typeFunctionParamDescription1_field6-->

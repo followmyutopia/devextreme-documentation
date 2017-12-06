@@ -45,10 +45,10 @@ To get general information on data formatting, refer to the [Data Formatting](/D
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Defines the point value to be displayed in a label.
+Information on the series point.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text to be displayed in a label.
+The text for the label to display.
 <!--/typeFunctionReturnDescription-->
