@@ -4,18 +4,22 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
 ##### jQuery
 
     <!--JavaScript-->$(function () {
-        var $callbacks = $.Callbacks();
+        var callbacks = [];
         var phone = $("#phone").dxTextBox({
             placeholder: "Phone",
             onValueChanged: function (e) {
-                $callbacks.fire() // Commences validation
+                callbacks.forEach(func => {
+                    func();
+                }); // Commences validation
             }
         }).dxTextBox("instance");
         var email = $("#email").dxTextBox({
             type: "email",
             placeholder: "Email",
             onValueChanged: function (e) {
-                $callbacks.fire() // Commences validation
+                callbacks.forEach(func => {
+                    func();
+                }); // Commences validation
             }
         }).dxTextBox("instance");
         $("#validator").dxValidator({
@@ -30,7 +34,7 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
                 applyValidationResults: function (e) {
                     $("#contacts").css({ "border": e.isValid ? "none" : "1px solid red" });
                 },
-                validationRequestsCallbacks: $callbacks
+                validationRequestsCallbacks: callbacks
             }
         });
         $("#button").dxButton({
@@ -54,10 +58,9 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
 
     <!--TypeScript-->
     import { DxTextBoxModule, DxValidatorModule, DxValidationSummaryModule, DxButtonModule } from 'devextreme-angular';
-    import $ from 'jquery';
     // ...
     export class AppComponent {
-        $callbacks = $.Callbacks();
+        callbacks = [];
         phone: string = "";
         email: string = "";
         borderStyle: string = "none";
@@ -72,10 +75,12 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
             applyValidationResults: function (e) {
                 borderStyle = e.isValid ? "none" : "1px solid red";
             },
-            validationRequestsCallbacks: $callbacks
+            validationRequestsCallbacks: callbacks
         };
         revalidate () {
-            $callbacks.fire();
+            callbacks.forEach(func => {
+                func();
+            });
         };
         submit (e) {
             e.validationGroup.validate();
@@ -120,7 +125,7 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
         .controller('demoController', function ($scope) {
-            $scope.$callbacks = $.Callbacks();
+            $scope.callbacks = [];
             $scope.phone = "";
             $scope.email = "";
             $scope.borderStyle = "none";
@@ -135,10 +140,12 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
                 applyValidationResults: function (e) {
                     $scope.borderStyle = e.isValid ? "none" : "1px solid red";
                 },
-                validationRequestsCallbacks: $scope.$callbacks
+                validationRequestsCallbacks: $scope.callbacks
             };
             $scope.revalidate = function () {
-                $scope.$callbacks.fire();
+                $scope.callbacks.forEach(func => {
+                    func();
+                })
             };
             $scope.submit = function (e) {
                 e.validationGroup.validate();
@@ -177,7 +184,7 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
 ##### Knockout#####
 
     <!--JavaScript-->
-    $callbacks = $.Callbacks();
+    callbacks = [];
     var viewModel = {
         phone: ko.observable(""),
         email: ko.observable(""),
@@ -193,10 +200,12 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
             applyValidationResults: function (e) {
                 viewModel.borderStyle(e.isValid ? "none" : "1px solid red");
             },
-            validationRequestsCallbacks: $callbacks
+            validationRequestsCallbacks: callbacks
         },
         revalidate: function () {
-            $callbacks.fire();
+            callbacks.forEach(func => {
+                func();
+            })
         },
         submit: function (e) {
             e.validationGroup.validate();
