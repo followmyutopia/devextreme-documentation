@@ -111,7 +111,7 @@ If your data is an array of objects, specify:
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [SelectBox - Customize Item Appearance](/Documentation/Guide/Widgets/SelectBox/Customize_Item_Appearance/)
-- [SelectBox - Enable Searching](/Documentation/Guide/Widgets/SelectBox/Enable_Searching/)
+- [SelectBox - Configure Search Parameters](/Documentation/Guide/Widgets/SelectBox/Configure_Search_Parameters/)
 - [SelectBox - Create a User-Defined Item](/Documentation/Guide/Widgets/SelectBox/Create_a_User-Defined_Item/)
 - [SelectBox - Handle the Value Change Event](/Documentation/Guide/Widgets/SelectBox/Handle_the_Value_Change_Event/)
 - [SelectBox - Keyboard Support](/Documentation/Guide/Widgets/SelectBox/Keyboard_Support/)

@@ -83,7 +83,7 @@ Besides selecting the existing values, a user can add new values to the **Select
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 #####See Also#####
-- [SelectBox - Enable Searching](/Documentation/Guide/Widgets/SelectBox/Enable_Searching/)
+- [SelectBox - Configure Search Parameters](/Documentation/Guide/Widgets/SelectBox/Configure_Search_Parameters/)
 - [SelectBox - Handle the Value Change Event](/Documentation/Guide/Widgets/SelectBox/Handle_the_Value_Change_Event/)
 - [SelectBox API Reference](/Documentation/ApiReference/UI_Widgets/dxSelectBox/)
 - [SelectBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-select_box-overview)

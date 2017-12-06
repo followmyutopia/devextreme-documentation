@@ -50,7 +50,7 @@ If your data is an array of objects, specify:
 - [TagBox - Control the Behavior](/Documentation/Guide/Widgets/TagBox/Control_the_Behavior/)
 - [TagBox - Handle the Value Change Event](/Documentation/Guide/Widgets/TagBox/Handle_the_Value_Change_Event/)
 - [TagBox - Customize Item Appearance](/Documentation/Guide/Widgets/TagBox/Customize_Item_Appearance/)
-- [TagBox - Enable Searching](/Documentation/Guide/Widgets/TagBox/Enable_Searching/)
+- [TagBox - Configure Search Parameters](/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/)
 - [TagBox - Create a User-Defined Item](/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/)
 - [TagBox - Keyboard Support](/Documentation/Guide/Widgets/TagBox/Keyboard_Support/)
 - [TagBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTagBox/)

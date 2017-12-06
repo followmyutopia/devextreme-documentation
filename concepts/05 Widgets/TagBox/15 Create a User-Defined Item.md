@@ -33,7 +33,7 @@ Besides selecting the existing values, a user can add new values to the **TagBox
 
 #####See Also#####
 - [TagBox - Handle the Value Change Event](/Documentation/Guide/Widgets/TagBox/Handle_the_Value_Change_Event/)
-- [TagBox - Enable Searching](/Documentation/Guide/Widgets/TagBox/Enable_Searching/)
+- [TagBox - Configure Search Parameters](/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/)
 - [TagBox - Control the Behavior](/Documentation/Guide/Widgets/TagBox/Control_the_Behavior/)
 - [TagBox API Reference](/Documentation/ApiReference/UI_Widgets/dxTagBox/)
 - [TagBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-tag_box-overview)

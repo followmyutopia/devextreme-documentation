@@ -241,7 +241,7 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
 - [Access the DataSource](/Documentation/Guide/Widgets/SelectBox/Data_Binding/Access_the_DataSource/)
 - [Grouping](/Documentation/Guide/Widgets/SelectBox/Grouping/In_the_Data_Source/)
-- [Enable Searching](/Documentation/Guide/Widgets/SelectBox/Enable_Searching/)
+- [Configure Search Parameters](/Documentation/Guide/Widgets/SelectBox/Configure_Search_Parameters/)
 - [SelectBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/Overview/jQuery/Light/)
 
 [tags]selectBox, data binding, provide data, custom data source, CustomStore, DataSource, load

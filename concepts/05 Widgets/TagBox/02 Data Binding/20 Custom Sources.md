@@ -133,7 +133,7 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
 - [Access the DataSource](/Documentation/Guide/Widgets/TagBox/Data_Binding/Access_the_DataSource/)
 - [Grouping](/Documentation/Guide/Widgets/TagBox/Grouping/In_the_Data_Source/)
-- [Enable Searching](/Documentation/Guide/Widgets/TagBox/Enable_Searching/)
+- [Configure Search Parameters](/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/)
 - [TagBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tag_Box/Overview/jQuery/Light/)
 
 [tags]tagBox, data binding, provide data, custom data source, CustomStore, DataSource, load
