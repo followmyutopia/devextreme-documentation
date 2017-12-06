@@ -6,7 +6,7 @@
 **-->
 <!--EventForAction-->..\4 Events\customItemCreating.md<!--/EventForAction-->
 ===========================================================================
-<!--default-->null<!--/default-->
+<!--default-->function(e) { e.customItem = e.text; }<!--/default-->
 <!--type-->function(e)<!--/type-->
 ===========================================================================
 
@@ -44,8 +44,13 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamDescription1_field4-->
 Text of the widget's text field.
 <!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamName1_field5-->customItem<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->string|object|Promise<any><!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamDescription1_field5-->
 
-<!--typeFunctionReturnType-->object|Promise<object><!--/typeFunctionReturnType-->
+<!--/typeFunctionParamDescription1_field5-->
+
+<!--typeFunctionReturnType-->string|object|Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The item object or a Promise that is resolved after a custom item is created.
 <!--/typeFunctionReturnDescription-->

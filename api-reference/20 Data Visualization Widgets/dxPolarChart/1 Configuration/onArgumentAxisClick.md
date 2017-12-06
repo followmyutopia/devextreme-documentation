@@ -51,13 +51,8 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 <!--typeFunctionParamDescription1_field5-->
 The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->target<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamName1_field6-->argument<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->Date|Number|string<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The argument axis.
 <!--/typeFunctionParamDescription1_field6-->
-<!--typeFunctionParamName1_field7-->argument<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Date|Number|string<!--/typeFunctionParamType1_field7-->
-<!--typeFunctionParamDescription1_field7-->
-The value of the clicked label.
-<!--/typeFunctionParamDescription1_field7-->
