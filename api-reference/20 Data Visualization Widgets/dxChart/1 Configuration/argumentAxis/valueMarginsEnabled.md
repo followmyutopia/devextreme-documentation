@@ -4,11 +4,11 @@
 -------------------------------------------
 
 **-->
-<!--d-->Enables margin of plot<!--/d-->
 ===========================================================================
 <!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
+
 <!--fullDescription-->
 By default, the argument axis extends slightly beyond its extrema. It prevents cutting off parts of the minimum and maximum series points. To disable this feature, set the **valueMarginsEnabled** option to **false**.
 

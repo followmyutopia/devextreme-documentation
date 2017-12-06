@@ -4,7 +4,6 @@
 -------------------------------------------
 
 **-->
-<!--d-->Tooltip custom format and color function. Return object  {color: string; text:string}<!--/d-->
 ===========================================================================
 <!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
