@@ -1,3 +1,7 @@
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
+
 <!--shortDescription-->
 This section describes components that can be used when defining a widget markup.
 <!--/shortDescription-->
@@ -5,6 +9,3 @@ This section describes components that can be used when defining a widget markup
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

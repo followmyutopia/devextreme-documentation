@@ -6,6 +6,7 @@
 **-->
 <!--d-->The height of the widget.<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -36,6 +37,3 @@ The widget's minimum height depends on the current theme. If the **height** opti
 
 [/note]
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

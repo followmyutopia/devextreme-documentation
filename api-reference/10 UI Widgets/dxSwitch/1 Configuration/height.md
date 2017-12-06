@@ -6,6 +6,7 @@
 **-->
 <!--d-->The height of the widget.<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -29,6 +30,3 @@ A function returning either of the above. For example:
 
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

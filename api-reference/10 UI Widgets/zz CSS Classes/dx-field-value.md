@@ -1,3 +1,7 @@
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
+
 <!--shortDescription-->
 A class used to display a field value containing a widget within the [dx-field](/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-field) element.
 <!--/shortDescription-->
@@ -89,6 +93,3 @@ DevExtreme UI widgets includes [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) 
         float: left;
     }
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

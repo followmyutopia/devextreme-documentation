@@ -6,6 +6,7 @@
 **-->
 <!--d-->A data source used to fetch items of the widget.<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -30,6 +31,3 @@ To display widget items, a default template can be used. This template is based 
 #####See Also#####
 - [createChildren](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#createChildren) - allows you to load nodes manually.
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -17,6 +18,3 @@ To update data in cache, call the [refresh()]({basewidgetpath}/Methods/#refresh)
 - [Data Caching](/Documentation/Guide/Widgets/TreeList/Data_Binding/Data_Caching/)
 - [getDataSource()]({basewidgetpath}/Methods/#getDataSource)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

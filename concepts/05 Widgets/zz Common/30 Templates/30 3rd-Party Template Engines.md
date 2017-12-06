@@ -1,9 +1,9 @@
 You can choose a 3rd-party template engine if you do not use Angular, AngularJS, or Knockout. DevExtreme supports the following template engines out of the box:
 
+- [Underscore](http://underscorejs.org/)
 - [JsRender](https://github.com/BorisMoore/jsrender)
 - [Mustache](http://mustache.github.io/)
 - [Hogan](http://twitter.github.io/hogan.js/)
-- [Underscore](http://underscorejs.org/)
 - [Handlebars](http://handlebarsjs.com/)
 - [doT](http://olado.github.io/doT/index.html)
 

@@ -6,12 +6,10 @@
 **-->
 <!--d-->Specifies html attributes of the widget root element.<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

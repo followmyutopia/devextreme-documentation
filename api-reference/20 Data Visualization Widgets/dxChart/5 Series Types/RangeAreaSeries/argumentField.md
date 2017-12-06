@@ -6,6 +6,7 @@
 **-->
 <!--d-->Argument field<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -14,6 +15,3 @@ Each point in a range-like series has one argument and two values. Arguments are
 
 Commonly, when a chart contains several series, many of them have the same argument field. In this case, assign the name of this field to the **argumentField** property of the [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/) object. If a series must have a unique argument field, specify the same property, but do so in the series object within the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) array.
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

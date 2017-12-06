@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--default-->'input change keyup'<!--/default-->
 <!--type-->string<!--/type-->
 ===========================================================================
@@ -17,5 +18,3 @@ Specifies after which [DOM events](https://en.wikipedia.org/wiki/DOM_events#HTML
 
 <!--/fullDescription-->
 
-<!--handmade-->
-<!--/handmade-->

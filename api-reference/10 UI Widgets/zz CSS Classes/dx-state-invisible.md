@@ -1,3 +1,7 @@
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
+
 <!--shortDescription-->
 Set this class to a widget element to hide the widget.
 <!--/shortDescription-->
@@ -5,6 +9,3 @@ Set this class to a widget element to hide the widget.
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

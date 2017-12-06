@@ -6,6 +6,7 @@
 **-->
 <!--d-->Root Utils folder.<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -15,6 +16,3 @@ This section describes an API that can be used in different application parts su
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

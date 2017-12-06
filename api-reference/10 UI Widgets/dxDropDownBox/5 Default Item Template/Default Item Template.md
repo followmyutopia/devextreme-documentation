@@ -4,8 +4,8 @@
 -------------------------------------------
 
 **-->
-
 ===================================================================
+<!--handmade--><!--/handmade-->
 <!--hidden--><!--/hidden-->
 ===================================================================
 
@@ -16,6 +16,3 @@ This topic helps to hide the default item template from the **DropDownBox** widg
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

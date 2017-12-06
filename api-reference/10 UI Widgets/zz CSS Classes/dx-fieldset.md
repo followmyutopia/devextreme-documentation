@@ -1,3 +1,7 @@
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
+
 <!--shortDescription-->
 Defines the appearance of an element displaying a list of field-value pairs.
 <!--/shortDescription-->
@@ -52,6 +56,3 @@ DevExtreme UI widgets include [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) m
 
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposefieldsetfieldsetfieldset/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

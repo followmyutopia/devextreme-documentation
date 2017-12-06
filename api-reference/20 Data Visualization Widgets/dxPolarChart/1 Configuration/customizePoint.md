@@ -6,6 +6,7 @@
 **-->
 <!--d-->Custom style of individual point<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -49,7 +50,3 @@ The **customizePoint** function accepts an object providing information about th
     </table>
 </div>
 <!--/fullDescription-->
-
-
-<!--handmade-->
-<!--/handmade-->

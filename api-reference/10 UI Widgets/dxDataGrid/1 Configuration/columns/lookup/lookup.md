@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -89,6 +90,3 @@ With this code, the *Bus ID* column contains license plates instead of IDs. More
 - [Lookup Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Lookup_Columns/)
 - [Enhance Performance on Large Datasets - Lookup Optimization](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Lookup_Optimization)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

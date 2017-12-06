@@ -1,3 +1,7 @@
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
+
 <!--shortDescription-->
 Use this class to add a custom icon to the style sheet used in your application.
 <!--/shortDescription-->
@@ -19,6 +23,3 @@ The icons that are added to the stylesheet via this class can be used for DevExt
     <!--HTML--><div class="button" data-bind="dxButton: { icon: 'myicon', text: 'Click me' }"></div>
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

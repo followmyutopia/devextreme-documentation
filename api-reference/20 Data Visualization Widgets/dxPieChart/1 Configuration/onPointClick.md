@@ -6,6 +6,7 @@
 **-->
 <!--d-->Point click event<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -19,6 +20,3 @@ To learn more about how to handle click operations, and to see an example, refer
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnutwithselection/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

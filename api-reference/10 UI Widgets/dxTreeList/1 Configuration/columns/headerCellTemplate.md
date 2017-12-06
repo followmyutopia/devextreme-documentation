@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -33,6 +34,3 @@ When you use a template engine, the **headerCellTemplate** option should be give
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

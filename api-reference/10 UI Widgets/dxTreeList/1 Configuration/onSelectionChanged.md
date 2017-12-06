@@ -6,6 +6,7 @@
 **-->
 <!--EventForAction-->..\4 Events\selectionChanged.md<!--/EventForAction-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -14,6 +15,3 @@ If a field providing key values is not specified in the data source, the whole d
 
 Call the [byKey(key)]({basewidgetpath}/Methods/#byKeykey) method to retrieve data.
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

@@ -1,3 +1,7 @@
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
+
 <!--shortDescription-->
 Defines the appearance of an element displaying a field-value pair within a [dx-fieldset](/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-fieldset) element.
 <!--/shortDescription-->
@@ -54,6 +58,3 @@ DevExtreme UI widgets include [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) m
         float: left;
     }
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

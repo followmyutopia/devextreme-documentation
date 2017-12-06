@@ -6,6 +6,7 @@
 **-->
 <!--d-->The height of the widget.<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -38,6 +39,3 @@ The option affects only the size of the widget container. To specify the size of
 [/note]
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

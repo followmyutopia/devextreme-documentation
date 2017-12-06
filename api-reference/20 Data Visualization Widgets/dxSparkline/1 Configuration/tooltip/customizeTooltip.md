@@ -6,6 +6,7 @@
 **-->
 <!--d-->Tooltip custom format and color function. Return object  {color: string; text:string}<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -59,6 +60,3 @@ To access the fields above, you can use the function's parameter as well as the 
 
 To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

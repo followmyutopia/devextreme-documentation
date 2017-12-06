@@ -6,6 +6,7 @@
 **-->
 <!--d-->Size options<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -16,6 +17,3 @@ Using the **size** object, you can hide the widget. For this purpose, simply ass
 
 [note]The **size** configuration object reserves space for the main widget elements, while displaying a tooltip may require extra space. To reserve the area around the widget for the tooltip, you can apply a [margin](http://www.w3schools.com/css/css_margin.asp) to the widget's container.
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

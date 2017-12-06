@@ -1,3 +1,7 @@
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
+
 <!--shortDescription-->
 This section describes the structure of the objects that are used in API multiple times as function parameters or option values.
 <!--/shortDescription-->
@@ -5,6 +9,3 @@ This section describes the structure of the objects that are used in API multipl
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

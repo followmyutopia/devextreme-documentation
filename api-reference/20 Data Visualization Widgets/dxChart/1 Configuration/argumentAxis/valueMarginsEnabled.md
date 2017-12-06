@@ -6,6 +6,7 @@
 **-->
 <!--d-->Enables margin of plot<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 <!--fullDescription-->
@@ -17,6 +18,3 @@ By default, the argument axis extends slightly beyond its extrema. It prevents c
 - **argumentAxis**.[minValueMargin](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#minValueMargin) - sets a custom margin for minimum series points.
 - **argumentAxis**.[maxValueMargin](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#maxValueMargin) - sets a custom margin for maximum series points.
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

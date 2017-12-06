@@ -6,6 +6,7 @@
 **-->
 <!--d-->Specifies apply value mode<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -20,5 +21,3 @@ The option accepts the following values.
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `EditorApplyValueMode` enum. This enum accepts the following values: `Instantly` and `UseButtons`.
 <!--/fullDescription-->
-<!--handmade-->
-<!--/handmade-->

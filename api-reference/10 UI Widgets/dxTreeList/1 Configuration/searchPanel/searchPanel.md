@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -21,6 +22,3 @@ To make the search panel visible, set the **searchPanel**.[visible]({basewidgetp
 - [Search Panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel)
 - [searchByText(text)]({basewidgetpath}/Methods/#searchByTexttext)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

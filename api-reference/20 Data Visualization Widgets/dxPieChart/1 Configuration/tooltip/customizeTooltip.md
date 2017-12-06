@@ -6,6 +6,7 @@
 **-->
 <!--d-->Tooltip custom format and color function. Return object  {color: string; text:string}<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -53,6 +54,3 @@ To get general information on data formatting, refer to the [Data Formatting](/D
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturestooltiphtmlsupport" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

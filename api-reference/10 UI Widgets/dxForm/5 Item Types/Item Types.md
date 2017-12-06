@@ -4,6 +4,9 @@
 -------------------------------------------
 
 **-->
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
 
 <!--shortDescription-->
 This section describes item types available in the **Form** widget.
@@ -12,6 +15,3 @@ This section describes item types available in the **Form** widget.
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

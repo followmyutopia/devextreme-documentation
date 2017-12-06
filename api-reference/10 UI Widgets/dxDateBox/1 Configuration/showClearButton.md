@@ -6,6 +6,7 @@
 **-->
 <!--d-->A boolean indicating whether to show clear button<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -16,6 +17,3 @@ The **Clear** button sets the widget value to **null**.
 
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

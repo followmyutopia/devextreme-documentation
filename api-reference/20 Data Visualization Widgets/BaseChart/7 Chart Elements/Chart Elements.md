@@ -4,6 +4,9 @@
 -------------------------------------------
 
 **-->
+===================================================================
+<!--handmade--><!--/handmade-->
+===================================================================
 
 <!--shortDescription-->
 This section describes chart elements. 
@@ -12,6 +15,3 @@ This section describes chart elements.
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

@@ -6,6 +6,7 @@
 **-->
 <!--d-->Custom style of individual point<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -30,6 +31,3 @@ The index of the point in the points array.
 
 In addition, these values can be accessed using the **this** object.
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -51,6 +52,3 @@ When you use a template engine, the **editCellTemplate** option should be given 
 #####See Also#####
 - [Customize Editors](/Documentation/Guide/Widgets/TreeList/Editing/#Customize_Editors)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

@@ -6,6 +6,7 @@
 **-->
 <!--d-->A data source used to fetch the data for lookup.<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -29,5 +30,3 @@ To display widget items, a default template can be used. This template is based 
 
 <!--/fullDescription-->
 
-<!--handmade-->
-<!--/handmade-->

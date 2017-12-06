@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -89,6 +90,3 @@ To invoke the default behavior, call the **this.defaultCalculateCellValue(rowDat
 - **columns[]**.[calculateDisplayValue]({basewidgetpath}/Configuration/columns/#calculateDisplayValue)
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

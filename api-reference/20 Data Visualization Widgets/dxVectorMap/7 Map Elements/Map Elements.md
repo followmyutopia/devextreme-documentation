@@ -4,6 +4,9 @@
 -------------------------------------------
 
 **-->
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
 
 <!--shortDescription-->
 This section describes vector map elements. 
@@ -12,6 +15,3 @@ This section describes vector map elements.
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

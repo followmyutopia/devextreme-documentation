@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -130,6 +131,3 @@ Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOper
 
 [/note]
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

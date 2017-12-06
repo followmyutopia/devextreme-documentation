@@ -9,6 +9,7 @@ get label of point
 <!--/d-->
 <!--rd-->label of the point<!--/rd-->
 ===================================================================
+<!--handmade--><!--/handmade-->
 ===================================================================
 
 <!--shortDescription-->
@@ -23,6 +24,3 @@ The point label.
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

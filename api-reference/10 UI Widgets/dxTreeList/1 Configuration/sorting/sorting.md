@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -24,6 +25,3 @@ Note that rows are sorted within their hierarchical level.
 #####See Also#####
 - [Sorting](/Documentation/Guide/Widgets/TreeList/Sorting/)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

@@ -6,6 +6,7 @@
 **-->
 <!--d-->rangebarSeries hover mode<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--hidden--><!--/hidden-->
 <!--type-->object<!--/type-->
 ===========================================================================
@@ -17,6 +18,3 @@ This member is supposed to be hidden, because scatter series doesn't have a sele
 <!--fullDescription-->
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

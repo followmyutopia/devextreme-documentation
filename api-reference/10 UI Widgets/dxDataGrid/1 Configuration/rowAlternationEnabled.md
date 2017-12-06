@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -13,6 +14,3 @@ All rows are monochrome without any visual distinctions by default. However, if 
 
 <a href="/Demos/WidgetsGallery/Demo/DataGrid/Appearance/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

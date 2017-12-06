@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -48,6 +49,3 @@ When you use a template engine, the **cellTemplate** option should be given a jQ
 - [Customize Cells Appearance](/Documentation/Guide/Widgets/TreeList/Columns/Customize_Cells/#Customize_the_Appearance)
 - [onCellPrepared]({basewidgetpath}/Configuration/#onCellPrepared)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

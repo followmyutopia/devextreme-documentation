@@ -1,3 +1,7 @@
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
+
 <!--shortDescription-->
 A class used to display header of a [dx-fieldset](/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-fieldset) element.
 <!--/shortDescription-->
@@ -14,5 +18,3 @@ A class used to display header of a [dx-fieldset](/Documentation/ApiReference/UI
 
 The **dx-fieldset-header** element can hold plain text, UI widgets, knockout bindings or custom markup.
 <!--/fullDescription-->
-<!--handmade-->
-<!--/handmade-->

@@ -1,3 +1,7 @@
+===========================================================================
+<!--handmade--><!--/handmade-->
+===========================================================================
+
 <!--shortDescription-->
 A class used to display a field value containing a static text within the [dx-field](/Documentation/ApiReference/UI_Widgets/CSS_Classes/#dx-field) element.
 <!--/shortDescription-->
@@ -21,6 +25,3 @@ The **dx-field-value-static** element can hold plain text, knockout bindings or 
         float: left;
     }
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

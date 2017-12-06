@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -27,6 +28,3 @@ To make the filter row visible, assign **true** to the **filterRow**.[visible]({
 - [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr)
 - [clearFilter(filterName)]({basewidgetpath}/Methods/#clearFilterfilterName)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

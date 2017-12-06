@@ -5,6 +5,7 @@
 
 **-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--default-->undefined<!--/default-->
 <!--type-->array<!--/type-->
 ===========================================================================
@@ -186,6 +187,3 @@ Band columns have the [isBand](/Documentation/ApiReference/UI_Widgets/dx{WidgetN
 - [Band Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Band_Columns/)
 - [Column Fixing](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Fixing/)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

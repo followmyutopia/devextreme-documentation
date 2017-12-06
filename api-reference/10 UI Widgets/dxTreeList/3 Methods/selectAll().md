@@ -5,6 +5,7 @@
 
 **-->
 ===================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===================================================================
 
@@ -16,6 +17,3 @@ If a filter is applied, this method selects only those rows that meet the filter
 - [selectRows(keys, preserve)]({basewidgetpath}/Methods/#selectRowskeys_preserve) 
 - [selection]({basewidgetpath}/Configuration/selection/)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

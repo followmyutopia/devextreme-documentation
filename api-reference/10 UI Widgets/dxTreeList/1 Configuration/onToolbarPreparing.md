@@ -6,6 +6,7 @@
 **-->
 <!--EventForAction-->..\4 Events\toolbarPreparing.md<!--/EventForAction-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -88,6 +89,3 @@ The following code shows how you can customize the toolbar using this handler.
 ---
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

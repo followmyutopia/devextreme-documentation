@@ -6,6 +6,7 @@
 **-->
 <!--d-->The width of the widget.<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -35,6 +36,3 @@ Even if the width of the widget is specified, the count of columns may depend on
 [/note]
 
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

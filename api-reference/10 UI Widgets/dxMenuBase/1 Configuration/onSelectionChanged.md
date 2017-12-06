@@ -6,6 +6,7 @@
 **-->
 <!--EventForAction-->..\4 Events\selectionChanged.md<!--/EventForAction-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -14,6 +15,3 @@
 - [selectionMode]({basewidgetpath}/Configuration/#selectionMode)
 - [selectByClick]({basewidgetpath}/Configuration/#selectByClick)
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->

@@ -6,6 +6,7 @@
 **-->
 <!--d-->The width of the widget.<!--/d-->
 ===========================================================================
+<!--handmade--><!--/handmade-->
 <!--merge--><!--/merge-->
 ===========================================================================
 
@@ -36,6 +37,3 @@ The widget has a minimum width that depends on the current theme. If the **width
 
 [/note]
 <!--/fullDescription-->
-
-<!--handmade-->
-<!--/handmade-->
