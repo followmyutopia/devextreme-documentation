@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'circle'<!--/default-->
 <!--acceptValues-->'circle' | 'square' | 'polygon' | 'triangle' | 'cross'<!--/acceptValues-->

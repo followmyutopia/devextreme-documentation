@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--EventForAction-->..\4 Events\loadingChanged.md<!--/EventForAction-->
 ===========================================================================
 <!--type-->function(isLoading)<!--/type-->

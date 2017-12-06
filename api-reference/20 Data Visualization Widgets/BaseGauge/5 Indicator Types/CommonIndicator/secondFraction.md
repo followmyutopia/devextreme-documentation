@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--propertyOf-->..\..\..\dxCircularGauge\5 Indicator Types\TwoColorNeedle\TwoColorNeedle.md<!--/propertyOf-->
 <!--default-->0.4<!--/default-->

@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--propertyOf-->..\..\CandleStickSeries\CandleStickSeries.md,..\..\StockSeries\StockSeries.md<!--/propertyOf-->
 <!--default-->'close'<!--/default-->

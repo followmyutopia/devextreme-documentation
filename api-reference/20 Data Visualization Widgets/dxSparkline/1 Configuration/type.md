@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'line'<!--/default-->
 <!--acceptValues-->'line' | 'spline' | 'stepline' | 'area' | 'splinearea' | 'steparea' | 'bar' | 'winloss'<!--/acceptValues-->

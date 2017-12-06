@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--dep-->..\..\1 Configuration\innerRadius.md<!--/dep-->
 ===========================================================================
 <!--propertyOf-->..\DoughnutSeries\DoughnutSeries.md<!--/propertyOf-->

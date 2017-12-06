@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 
 <!--shortDescription-->
 This section describes events raised by this **ODataStore** instance.

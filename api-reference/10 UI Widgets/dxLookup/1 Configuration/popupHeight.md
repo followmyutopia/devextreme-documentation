@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->function() { return $(window).height() * 0.8 }<!--/default-->
 <!--custom_default_for_android_below_version_4-->'auto'<!--/custom_default_for_android_below_version_4-->

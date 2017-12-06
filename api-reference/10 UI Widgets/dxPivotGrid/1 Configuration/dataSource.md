@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Array<Object> | PivotGridDataSource | PivotGridDataSource_Options<!--/type-->

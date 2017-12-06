@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'start'<!--/default-->
 <!--acceptValues-->'start' | 'end' | 'center' | 'space-between' | 'space-around'<!--/acceptValues-->

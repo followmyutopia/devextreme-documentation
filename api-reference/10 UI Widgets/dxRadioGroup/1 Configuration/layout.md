@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'vertical'<!--/default-->
 <!--custom_default_for_tablets-->'horizontal'<!--/custom_default_for_tablets-->

@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'onScroll'<!--/default-->
 <!--custom_default_for_desktop-->'onHover'<!--/custom_default_for_desktop-->

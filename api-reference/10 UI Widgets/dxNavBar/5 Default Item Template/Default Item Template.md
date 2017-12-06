@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 
 <!--shortDescription-->
 This section lists the data source fields that are used in a default template for navbar items.

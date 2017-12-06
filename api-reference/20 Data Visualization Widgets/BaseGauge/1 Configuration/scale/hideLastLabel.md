@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--dep-->..\..\..\dxCircularGauge\1 Configuration\scale\label\hideFirstOrLast.md<!--/dep-->
 ===========================================================================
 <!--default-->false<!--/default-->

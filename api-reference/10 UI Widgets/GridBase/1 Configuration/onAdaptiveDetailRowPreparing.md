@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--EventForAction-->..\4 Events\adaptiveDetailRowPreparing.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->

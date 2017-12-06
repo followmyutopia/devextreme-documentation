@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--merge--><!--/merge-->
 <!--dep-->scrolling\useNative.md<!--/dep-->
 <!--type-->String|Boolean<!--/type-->

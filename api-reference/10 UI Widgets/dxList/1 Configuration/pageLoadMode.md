@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'scrollBottom'<!--/default-->
 <!--custom_default_for_android_below_version_4-->'nextButton'<!--/custom_default_for_android_below_version_4-->

@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--merge--><!--/merge-->
 <!--default-->function() {return $(window).width() * 0.8 }<!--/default-->
 <!--custom_default_for_windows_8-->function() { return $(window).width(); }<!--/custom_default_for_windows_8-->

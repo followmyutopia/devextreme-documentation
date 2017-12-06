@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'discrete' | 'continuous' | 'logarithmic'<!--/acceptValues-->

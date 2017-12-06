@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'native'<!--/default-->
 <!--custom_default_for_android_below_version_4-->'rollers'<!--/custom_default_for_android_below_version_4-->

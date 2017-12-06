@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--propertyOf-->..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--default-->'default'<!--/default-->

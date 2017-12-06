@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--dep-->..\..\..\BaseWidget\1 Configuration\title\horizontalAlignment.md<!--/dep-->
 ===========================================================================
 <!--default-->'top-center'<!--/default-->

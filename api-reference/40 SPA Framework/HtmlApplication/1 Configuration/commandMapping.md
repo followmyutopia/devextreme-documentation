@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->DevExpress.framework.CommandMapping.defaultMapping<!--/default-->
 <!--type-->Object<!--/type-->

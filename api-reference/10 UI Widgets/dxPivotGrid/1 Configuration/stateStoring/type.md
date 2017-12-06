@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'localStorage'<!--/default-->
 <!--acceptValues-->'localStorage' | 'sessionStorage' | 'custom'<!--/acceptValues-->

@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--merge--><!--/merge-->
 <!--hidden-->false<!--/hidden-->
 <!--default-->null<!--/default-->

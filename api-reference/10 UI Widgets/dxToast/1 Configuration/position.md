@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--merge--><!--/merge-->
 <!--custom_default_for_windows_8-->'top center'<!--/custom_default_for_windows_8-->
 <!--custom_default_for_windows_10-->'bottom right'<!--/custom_default_for_windows_10-->

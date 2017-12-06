@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--widgettree-->
 dataSource: [
     "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person1.png",

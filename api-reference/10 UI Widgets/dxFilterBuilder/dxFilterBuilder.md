@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--widgettree-->
 allowHierarchicalFields: true,
 value: [["UnitPrice", "=", 12], "and", ["Shipped", "=", "2017/12/1"]],

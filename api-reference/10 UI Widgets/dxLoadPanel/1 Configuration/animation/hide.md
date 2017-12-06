@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--merge--><!--/merge-->
 <!--default-->null<!--/default-->
 <!--type-->animationConfig<!--/type-->

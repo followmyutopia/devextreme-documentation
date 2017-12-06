@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--dep-->onValueChanged.md<!--/dep-->
 <!--EventForAction-->..\4 Events\selectedRangeChanged.md<!--/EventForAction-->
 ===========================================================================

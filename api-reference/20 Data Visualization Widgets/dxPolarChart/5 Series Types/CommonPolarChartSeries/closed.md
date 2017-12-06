@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--propertyOf-->..\AreaSeries\AreaSeries.md,..\LineSeries\LineSeries.md<!--/propertyOf-->
 <!--default-->true<!--/default-->

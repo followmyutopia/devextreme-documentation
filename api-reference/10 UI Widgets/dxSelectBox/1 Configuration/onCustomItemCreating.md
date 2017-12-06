@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--EventForAction-->..\4 Events\customItemCreating.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->function(e) { e.customItem = e.text; }<!--/default-->

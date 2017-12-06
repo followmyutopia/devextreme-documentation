@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--module-->ui/hierarchical_collection/ui.hierarchical_collection_widget<!--/module-->

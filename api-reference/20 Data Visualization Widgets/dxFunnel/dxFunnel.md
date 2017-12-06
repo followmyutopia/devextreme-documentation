@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--widgettree-->
 dataSource: [
     { action: "Visited the Website", users: 9152 },

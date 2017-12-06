@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->String | Array<String, CollectionWidgetItemTemplate> | DataSource | DataSource_Options<!--/type-->

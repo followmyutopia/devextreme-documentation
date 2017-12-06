@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'onMovingComplete'<!--/default-->
 <!--acceptValues-->'onMovingComplete' | 'onMoving'<!--/acceptValues-->

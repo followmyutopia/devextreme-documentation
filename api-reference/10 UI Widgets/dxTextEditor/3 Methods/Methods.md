@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 
 <!--shortDescription-->
 This section describes the members used to manipulate the widget.

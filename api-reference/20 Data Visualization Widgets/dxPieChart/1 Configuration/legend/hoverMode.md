@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'allArgumentPoints'<!--/default-->
 <!--acceptValues-->'allArgumentPoints' | 'none'<!--/acceptValues-->

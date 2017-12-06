@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--widgettree-->
 dataSource: [
     { text: "Super Mart of the West" },

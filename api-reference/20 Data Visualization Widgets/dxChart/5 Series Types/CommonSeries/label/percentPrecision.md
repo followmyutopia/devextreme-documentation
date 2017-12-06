@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--dep--><!--/dep-->
 ===========================================================================
 <!--propertyOf-->..\..\FullStackedAreaSeries\FullStackedAreaSeries.md,..\..\FullStackedBarSeries\FullStackedBarSeries.md,..\..\FullStackedLineSeries\FullStackedLineSeries.md<!--/propertyOf-->

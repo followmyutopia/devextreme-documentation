@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'text'<!--/default-->
 <!--custom_default_for_mobile_devices-->'number'<!--/custom_default_for_mobile_devices-->

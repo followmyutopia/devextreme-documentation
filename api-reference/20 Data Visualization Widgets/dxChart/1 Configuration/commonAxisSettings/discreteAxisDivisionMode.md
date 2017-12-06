@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 ===========================================================================
 <!--default-->'betweenLabels'<!--/default-->
 <!--acceptValues-->'betweenLabels' | 'crossLabels'<!--/acceptValues-->

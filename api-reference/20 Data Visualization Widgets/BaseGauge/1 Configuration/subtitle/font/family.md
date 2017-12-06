@@ -1,9 +1,3 @@
-<!--**
-/*-------------------------------------------
-    Auto-generated file. Do not modify.
--------------------------------------------
-
-**-->
 <!--dep-->..\..\..\..\BaseWidget\1 Configuration\title\subtitle\font\family.md<!--/dep-->
 ===========================================================================
 <!--default-->''Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana'<!--/default-->
