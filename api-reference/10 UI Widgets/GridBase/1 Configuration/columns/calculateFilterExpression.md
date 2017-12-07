@@ -7,37 +7,41 @@ Specifies the column's custom filtering rules.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This function must return a filter expression, which is an array of the following format:
+This function must return a [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). The simplest filter expression has the following format:
 
     [selector, selectedFilterOperation, filterValue]
 
 - **selector**      
-A data source field or a function providing actual values for the column. If you are in doubt what to pass here, pass **this.calculateCellValue**.
+A data source field or a function providing actual column values. Pass **this.calculateCellValue** if your column contains [calculated values]({basewidgetpath}/Configuration/columns/#calculateCellValue).
 - **selectedFilterOperation**       
 A comparison operator. One of the following: *"=", "<>", ">", ">=", "<", "<=", "between", "startswith", "endswith", "contains", "notcontains"*.    
-- **filterValue**        
-A user input value. Values provided by the **selector** are compared to this value.
 
-The following code snippet shows the default implementation of the **calculateFilterExpression** function. Adapt it according to your needs.
+ [note] For the *"between"* operator, the returned filter expression has a slightly different format: `[[selector, ">=", startValue], "and", [selector, "<=", endValue]]`. 
+
+- **filterValue**        
+A user input value. Values the **selector** provides are compared to this value.
+
+The following code shows the default **calculateFilterExpression** function implementation. You can change it as required.
 
 ---
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
                 calculateFilterExpression: function (filterValue, selectedFilterOperation) {
                     // Implementation for the "between" comparison operator
                     if (selectedFilterOperation === "between" && $.isArray(filterValue)) {
                         var filterExpression = [
-                            [this.calculateCellValue, ">=", filterValue[0]], 
+                            [this.dataField, ">=", filterValue[0]], 
                             "and", 
-                            [this.calculateCellValue, "<=", filterValue[1]]
+                            [this.dataField, "<=", filterValue[1]]
                         ];
                         return filterExpression;
                     }
-                    return [this.calculateCellValue, selectedFilterOperation || '=', filterValue];
+                    // Invokes the default filtering behavior
+                    return this.defaultCalculateFilterExpression.apply(this, arguments);
                 },
                 // ...
             }]
@@ -47,88 +51,40 @@ The following code snippet shows the default implementation of the **calculateFi
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
     // ...
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {
             // Implementation for the "between" comparison operator
-            let column = this as any;
             if (selectedFilterOperation === "between" && Array.isArray(filterValue)) {
                 var filterExpression = [
-                    [column.calculateCellValue, ">=", filterValue[0]], 
+                    [this.dataField, ">=", filterValue[0]], 
                     "and", 
-                    [column.calculateCellValue, "<=", filterValue[1]]
+                    [this.dataField, "<=", filterValue[1]]
                 ];
                 return filterExpression;
             }
-            return [column.calculateCellValue, selectedFilterOperation || '=', filterValue];
+            // Invokes the default filtering behavior
+            return this.defaultCalculateFilterExpression.apply(this, arguments);
         }
     }
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            Dx{WidgetName}Module
         ],
         // ...
     })
 
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-{widget-name} ... >
         <dxi-column [calculateFilterExpression]="calculateFilterExpression" ... ></dxi-column>
-    </dx-data-grid>
+    </dx-{widget-name}>
     
 ---
 
-As you can see from the previous code, the filter expression for the *"between"* comparison operator should have a slightly different format.
+In the previous code, the **defaultCalculateFilterExpression** function invokes the default behavior. You can omit the function call if you do not need it. 
 
-    [[selector, ">=", startValue], "and", [selector, "<=", endValue]]
-
-[note]
-
-Call the **this.defaultCalculateFilterExpression(filterValue, selectedFilterOperation)** function and return its result to invoke the default behavior.
-
----
-##### jQuery
-
-    <!--JavaScript-->$(function() {
-        $("#dataGridContainer").dxDataGrid({
-            columns: [{
-                calculateFilterExpression: function(filterValue, selectedFilterOperation) {
-                    // ...
-                    return this.defaultCalculateFilterExpression(filterValue, selectedFilterOperation);
-                }
-            }]
-        });
-    });
-
-##### Angular
-
-    <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
-    // ...
-    export class AppComponent {
-        calculateFilterExpression (filterValue, selectedFilterOperation) {
-            // ...
-            let column = this as any;
-            return column.defaultCalculateFilterExpression(filterValue, selectedFilterOperation);
-        }
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxDataGridModule
-        ],
-        // ...
-    })
-
-    <!--HTML-->
-    <dx-data-grid ... >
-        <dxi-column [calculateFilterExpression]="calculateFilterExpression" ... ></dxi-column>
-    </dx-data-grid>
-    
----
-
-[/note]
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->filterValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->
@@ -139,7 +95,7 @@ A user input value.
 <!--typeFunctionParamName2-->selectedFilterOperation<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->string<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The currently selected filter operation.
+The selected filter operation.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->target<!--/typeFunctionParamName3-->
