@@ -3,14 +3,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-An array of the strings that represent the names of the navigation properties to be loaded simultaneously with the OData store's entity.
+Specifies the navigation properties that are loaded with the OData entity. Available only for the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option is specific to the data sources that use a [data store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) of the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) type.
-
-To learn more on this option, refer to the [Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Associations) topic.
-
 In an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option in the `OData()` data source:
 
     <!--Razor C#-->
@@ -28,4 +24,6 @@ In an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamenta
         End Function)
     )
 
+#####See Also#####
+- [Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Associations)
 <!--/fullDescription-->

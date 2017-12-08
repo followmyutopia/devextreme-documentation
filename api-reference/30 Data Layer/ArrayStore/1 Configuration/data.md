@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the array associated with this Store.
+Specifies the array associated with the Store.
 <!--/shortDescription-->
 
 <!--fullDescription-->

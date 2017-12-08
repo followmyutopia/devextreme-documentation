@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function used to customize a web request before it is sent.
+Specifies a function used to customize a web request before it is sent.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If you use jQuery, the **options** argument can contain any fields that [jQuery.ajax()](http://api.jquery.com/jquery.ajax/) supports.
+If you use jQuery, the **options** argument can contain fields [jQuery.ajax()](http://api.jquery.com/jquery.ajax/) supports.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

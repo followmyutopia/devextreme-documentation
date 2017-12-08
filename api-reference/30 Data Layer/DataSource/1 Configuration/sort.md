@@ -3,20 +3,18 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the initial **sort** option value.
+Specifies data sorting options.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For information on **sort** expressions, refer to the [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting) section of the Data Layer article.
-
-In an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option in the following manner:
+In an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option as follows:
 
     <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()
         .DataSourceOptions(dso => dso
-            .Sort("Discount", false) // for a single sorting condition
+            .Sort("Discount", false) // for sorting by a single field
             // === or ===
-            .Sort(s => {             // for multiple sorting conditions
+            .Sort(s => {             // for sorting by multiple fields
                 s.AddSorting("LastName");
                 s.AddSorting("Discount", false);
             })
@@ -26,13 +24,15 @@ In an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamenta
     <!--Razor VB-->
     @(Html.DevExtreme().WidgetName() _
         .DataSourceOptions(Sub(dso)
-            dso.Sort("Discount", False) ' for a single sorting condition
+            dso.Sort("Discount", False) ' for sorting by a single field
             ' === or ===
-            dso.Sort(Sub(s)             ' for multiple sorting conditions
+            dso.Sort(Sub(s)             ' for sorting by multiple fields
                 s.AddSorting("LastName")
                 s.AddSorting("Discount", False)
             End Sub)
         End Sub)
     )
 
+#####See Also#####
+- [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting)
 <!--/fullDescription-->

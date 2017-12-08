@@ -3,9 +3,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-The cube name.
+Specifies the name of the OLAP cube to use from the [catalog](/Documentation/ApiReference/Data_Layer/XmlaStore/Configuration/#catalog).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The name of the [OLAP cube](https://msdn.microsoft.com/en-us/library/ms175641.aspx) whose data will be displayed by the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
+#####See Also#####
+- [Cubes in Multidimensional Models](https://docs.microsoft.com/en-us/sql/analysis-services/multidimensional-models/cubes-in-multidimensional-models)
 <!--/fullDescription-->

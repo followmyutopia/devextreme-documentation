@@ -3,9 +3,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-The HTTP address to an XMLA OLAP server.
+Specifies the URL to the OLAP server.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This address should point to the MSMDPUMP extension. By default, it looks as follows: *http://&lt;servername&gt;/OLAP/msmdpump.dll*
+This URL should point to the MSMDPUMP extension. It looks as follows by default: *http://&lt;servername&gt;/OLAP/msmdpump.dll*
 <!--/fullDescription-->

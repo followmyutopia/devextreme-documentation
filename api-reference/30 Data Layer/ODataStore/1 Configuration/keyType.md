@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the type of the ODataStore key property. The following key types are supported out of the box: **String**, **Int32**, **Int64**, **Boolean**, **Single**, **Decimal** and [Guid](/Documentation/ApiReference/Data_Layer/Guid/).
+Specifies the type of the key property or properties.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -17,7 +17,7 @@ If a key expression is a simple [getter](/Documentation/Guide/Data_Layer/Data_La
         keyType: "Guid"
     });
 
-If you specified a composite key, the [keyType](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#keyType) option should take on an object providing corresponding properties for each key expression, as demonstrated in the following example.
+If you specified a composite key, the **keyType** option should apply an object providing corresponding properties for each key expression, as demonstrated in the following example:
 
     <!--JavaScript-->
     var context = new DevExpress.data.ODataContext({
@@ -33,7 +33,7 @@ If you specified a composite key, the [keyType](/Documentation/ApiReference/Data
         }
     });
 
-When specifying this option in an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), use the `EdmType` enum accepting the following values: `Int32`, `Int64`, `Guid`, `String`, `Boolean`, `Single` and `Decimal`.
+When specifying this option in an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), use the `EdmType` enum that has the following values: `Int32`, `Int64`, `Guid`, `String`, `Boolean`, `Single` and `Decimal`.
 
 #####See Also#####
 - [fieldTypes](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#fieldTypes)

@@ -3,9 +3,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies data grouping conditions.
+Specifies data grouping options.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For information on group expressions, refer to the [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) section of the Data Layer article.
+#####See Also#####
+- [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping)
 <!--/fullDescription-->

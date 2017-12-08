@@ -3,9 +3,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the initial **select** option value.
+Specifies the fields to select from data objects.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For information on **select** expressions, refer to the [Select Expressions](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Select_Expressions) section of the Data Layer article.
+#####See Also#####
+- [Select Expressions](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Select_Expressions)
 <!--/fullDescription-->

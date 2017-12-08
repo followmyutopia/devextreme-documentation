@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the URL of the entity being accessed via the current ODataStore.
+Specifies the URL of the OData entity to access.
 <!--/shortDescription-->
 
 <!--fullDescription-->

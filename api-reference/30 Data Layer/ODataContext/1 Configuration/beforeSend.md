@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function used to customize a web request before it is sent.
+Specifies a function used to customize a web request before it is sent.
 <!--/shortDescription-->
 
 <!--fullDescription-->

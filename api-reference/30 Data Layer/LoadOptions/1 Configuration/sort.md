@@ -7,7 +7,7 @@ A sort expression.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Defines sorting parameters. This object can have the following fields:
+Defines sorting options. This object can have the following fields:
 
 * **selector**: <span style="font-size:smaller">String</span>     
 The field name to sort by.

@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a value by which the required items are searched.
+Specifies the fields to search.
 <!--/shortDescription-->
 
 <!--fullDescription-->
