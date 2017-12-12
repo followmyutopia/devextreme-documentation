@@ -5,7 +5,13 @@ Client-side data validation allows you to validate input values _before_ sending
 - `[Range]`
 - `[RegularExpression]`
 - `[Compare]`
+- `[Display]` *
+- `[DisplayName]` *
 - `[Custom]`
+
+<div style="font-size:12px;margin-bottom:10px;">
+    * - Supported only for controls configured using <a href="/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Specifying_the_Options/Strongly-Typed_Helpers">strongly-typed helpers</a>.
+</div>
 
 [note] We also provide the `[DevExtremeRequired]` attribute that adopts the HTML5 validation behavior: it considers **false** an invalid Boolean value, whereas the standard `[Required]` accepts both **true** and **false**. You can find more details in [this blog post](https://community.devexpress.com/blogs/aspnet/archive/2017/09/18/devextreme-mvc-client-side-validation-required-attribute-changes-17-1-6.aspx).
 
