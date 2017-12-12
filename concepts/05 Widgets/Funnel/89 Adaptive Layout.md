@@ -35,6 +35,8 @@ With the ever-growing variety of platforms, today's web sites and applications c
 
 ---
 
+<a href="https://jsfiddle.net/ChartJS/j1v235o8/" class="button orange small fix-width-155" target="_blank">View Demo on JSFiddle</a>
+
 [note]
 
 The layout does not automatically adapt to changes made in the widget's container at runtime. Therefore, if you enable a user to resize the container, call the [render()](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Methods/#render) method after each resizing to render the **Funnel** in the new size.
