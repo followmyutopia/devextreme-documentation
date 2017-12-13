@@ -48,15 +48,6 @@ The **Form** widget allows you to specify custom templates for an individual tab
                 title="Data Protection Policy"
                 tabTemplate="tab"
                 [template]="'tabContent'">
-                <div *dxTemplate="let tabData of 'tab'; let i = index">
-                    <p style="color:red">{{tabData.title}}</p>
-                </div>
-                <div *dxTemplate="let data of 'tabContent'; let i = index">
-                    <p>
-                        <i>By filling out this form, you agree
-                        to the terms of the <a href='#'>Data Protection Policy</a></i>
-                    </p>
-                </div>
             </dxi-tab>
             <dxi-tab
                 title="Info"
@@ -67,6 +58,15 @@ The **Form** widget allows you to specify custom templates for an individual tab
                 [items]="['phone', 'email']">
             </dxi-tab>
         </dxi-item>
+        <div *dxTemplate="let tabData of 'tab'; let i = index">
+            <p style="color:red">{{tabData.title}}</p>
+        </div>
+        <div *dxTemplate="let data of 'tabContent'">
+            <p>
+                <i>By filling out this form, you agree
+                   to the terms of the <a href='#'>Data Protection Policy</a></i>
+            </p>
+        </div>
     </dx-form>
 
     <!--TypeScript-->

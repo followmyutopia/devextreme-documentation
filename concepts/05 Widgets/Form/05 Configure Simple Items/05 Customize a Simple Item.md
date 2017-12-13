@@ -10,7 +10,18 @@ If none of the available editors suit your requirements, you can define a custom
                 name: "John Heart",
                 picture: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png"
             },
-            items: [ "name", {
+            items: [{ 
+                dataField: "name",
+                template: function (data, itemElement) {
+                    itemElement.append("<div id='textAreaContainer'>")
+                               .dxTextArea({
+                                   value: data.component.option('formData')[data.dataField],
+                                   onValueChanged: function(e) {
+                                       data.component.updateData(data.dataField, e.value);
+                                   }
+                               });
+                }
+            }, {
                 dataField: "picture",
                 template: function (data, itemElement) {
                     itemElement.append("<img src='" + data.editorOptions.value + "'>");
@@ -24,13 +35,19 @@ If none of the available editors suit your requirements, you can define a custom
     <!--HTML-->
     <dx-form
         [(formData)]="employee">
-        <dxi-item dataField="name"></dxi-item>
-        <dxi-item dataField="picture"
+        <dxi-item 
+            dataField="name"
+            [template]="'nameTemplate'"></dxi-item>
+        <dxi-item 
+            dataField="picture" 
             [template]="'pictureTemplate'">
-            <div *dxTemplate="let data of 'pictureTemplate'">
-                <img src="{{data.editorOptions.value}}">
-            </div>
         </dxi-item>
+        <div *dxTemplate="let data of 'nameTemplate'">
+            <dx-text-area [(value)]="data.component.option('formData')[data.dataField]"></dx-text-area>
+        </div>
+        <div *dxTemplate="let data of 'pictureTemplate'">
+            <img src="{{data.editorOptions.value}}">
+        </div>
     </dx-form>
 
     <!--TypeScript-->

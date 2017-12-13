@@ -57,19 +57,17 @@ In the following example, the `order` item contains the [DataGrid](/Documentatio
         [(formData)]="employee">
         <dxi-item dataField="firstName"></dxi-item>
         <dxi-item dataField="lastName"></dxi-item>
-        <dxi-item name="show-order"
-            [template]="'showOrder'">
+        <dxi-item name="show-order">
             <dxo-label text="Show the Order"></dxo-label>
-            <div *dxTemplate="let data of 'showOrder'">
+            <div *dxTemplate>
                 <dx-check-box
                     [(value)]="order.visible">
                 </dx-check-box>
             </div>
         </dxi-item>
         <dxi-item #order name="order"
-            [visible]="false"
-            [template]="'order'">
-            <div *dxTemplate="let data of 'order'">
+            [visible]="false">
+            <div *dxTemplate>
                 <dx-data-grid
                     [dataSource]="orders">
                 </dx-data-grid>
