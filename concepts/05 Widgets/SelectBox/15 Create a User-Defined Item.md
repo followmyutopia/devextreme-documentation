@@ -1,4 +1,4 @@
-Besides selecting the existing values, a user can add new values to the **SelectBox**. To enable this feature, assign **true** to the [acceptCustomValue](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#acceptCustomValue) option. Note that you should implement the [onCustomItemCreating](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#onCustomItemCreating) handler to create a new entry to the data source.
+A user can select existing values and add new values to the **SelectBox**. To enable this feature, assign **true** to the [acceptCustomValue](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#acceptCustomValue) option. Note that you should implement the [onCustomItemCreating](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#onCustomItemCreating) handler to create a new data source entry.
 
 ---
 #####jQuery
@@ -24,13 +24,11 @@ Besides selecting the existing values, a user can add new values to the **Select
                 // Generates a new 'id'
                 var nextId = Math.max.apply(Math, selectBoxData.items().map(function(c) { return c.id; })) + 1;
                 // Creates a new entry
-                var newItem = { id: nextId, firstName: e.text };
+                e.customItem = { id: nextId, firstName: e.text };
                 // Adds the entry to the data source
-                selectBoxData.store().insert(newItem);
+                selectBoxData.store().insert(e.customItem);
                 // Reloads the data source
                 selectBoxData.reload();
-
-                return newItem;
             }
         });
     });
@@ -51,14 +49,13 @@ Besides selecting the existing values, a user can add new values to the **Select
         });
         onCustomItemCreating (e) {
             // Generates a new 'id'
-            var nextId = Math.max.apply(Math, selectBoxData.items().map(function(c) { return c.id; })) + 1;
+            var nextId = Math.max.apply(Math, this.selectBoxData.items().map(function(c) { return c.id; })) + 1;
             // Creates a new entry
-            var newItem = { id: nextId, firstName: e.text };
+            e.customItem = { id: nextId, firstName: e.text };
             // Adds the entry to the data source
-            this.selectBoxData.store().insert(newItem);
+            this.selectBoxData.store().insert(e.customItem);
             // Reloads the data source
             this.selectBoxData.reload();
-            return newItem;
         }
     }
     @NgModule({

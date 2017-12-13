@@ -35,15 +35,15 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->text<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Text of the widget's text field.
+The input field's text.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->customItem<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->string|object|Promise<any><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-
+The field where to place a custom item.
 <!--/typeFunctionParamDescription1_field5-->
 
 <!--typeFunctionReturnType-->string|object|Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The item object or a Promise that is resolved after a custom item is created.
+A custom item or a Promise that is resolved after the item is created. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/typeFunctionReturnDescription-->

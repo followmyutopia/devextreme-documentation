@@ -1,4 +1,4 @@
-Besides selecting the existing values, a user can add new values to the **TagBox**. To enable this feature, assign **true** to the [acceptCustomValue](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#acceptCustomValue) option. Note that you should implement the [onCustomItemCreating](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onCustomItemCreating) handler to create a new entry to the data source.
+A user can select existing values and add new values to the **TagBox**. To enable this feature, assign **true** to the [acceptCustomValue](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#acceptCustomValue) option. Note that you should implement the [onCustomItemCreating](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onCustomItemCreating) handler to create a new data source entry.
 
     <!--HTML-->
     <div id="tagBoxContainer"></div>
@@ -21,13 +21,11 @@ Besides selecting the existing values, a user can add new values to the **TagBox
             // Generates a new 'id'
             var nextId = Math.max.apply(Math, tagBoxData.items().map(function(c) { return c.id; })) + 1;
             // Creates a new entry
-            var newItem = { id: nextId, firstName: e.text };
+            e.customItem = { id: nextId, firstName: e.text };
             // Adds the entry to the data source
-            tagBoxData.store().insert(newItem);
+            tagBoxData.store().insert(e.customItem);
             // Reloads the data source
             tagBoxData.reload();
-
-            return newItem;
         }
     });
 
