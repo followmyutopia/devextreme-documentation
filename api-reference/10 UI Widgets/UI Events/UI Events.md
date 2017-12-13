@@ -10,89 +10,86 @@ The events used to handle user interaction with UI elements.
 
 <!--fullDescription-->
 <a name="introduction"></a>
-When developing an application you may often need to process a user gesture or another kind of interaction with a specific UI element. DevExtreme suggests UI events for this purpose. You can subscribe to an event of the required element to execute the specified function when the element is swiped, held, clicked, etc. You can use the jQuery, Knockout, or AngularJS approach to subscribe to a required event.
+DevExtreme provides UI events for processing a user's interaction with a specific UI element. The [DevExpress.events](/Documentation/ApiReference/Common/utils/events/Methods/) namespace exposes an API to work with the UI events. 
 
-- **jQuery**
+The following code shows how to attach, trigger and then detach a **dxhold** event handler from a page element with the "target" ID. An extra "timeout" parameter specifies how long the "target" should be held to allow the handler to execute.
 
- If you use jQuery, you may use standard jQuery facilities to [subscribe to and unsubscribe from events](http://api.jquery.com/category/events/event-handler-attachment).
+    <!--JavaScript-->
+    var dxholdHandler = function (event) {
+        alert(`The ${event.target.textContent} element is being held for ${event.data.timeout} ms.`);
+        return true; // true - continues event propagation, false - stops.
+    }
 
-        <!--JavaScript-->
-        var clickEventHandler = function(event) {
-            alert("The '" + $(event.target).text() + "' element has been clicked");
-        };
-        $("#myElement").on("dxclick", clickEventHandler);
+    DevExpress.events.on(document, "dxhold", "#target", { timeout: 1000 }, dxholdHandler);
+    // Without extra parameters
+    // DevExpress.events.on(document, "dxhold", "#target", dxholdHandler);
+    
+    DevExpress.events.trigger(document.getElementById("target"), "dxhold");
 
- In the case of the jQuery approach, the event handler function accepts an **event** argument, which holds a [jQuery.event](http://api.jquery.com/category/events/event-object) object.
+    DevExpress.events.off(document, "dxhold", "#target", dxholdHandler);
 
- You can also specify additional event options if the event supports them.
+The following code shows how to perform similar tasks using jQuery, AngularJS, or Knockout:
 
-        <!--JavaScript-->
-        $("#myElement").on("dxhold", { timeout: 1000 }, holdEventHandler);
+---
+##### jQuery
 
-- **Knockout**
+    <!--JavaScript-->
+    var dxholdHandler = function (jQueryEvent) {
+        alert(`The ${$(jQueryEvent.target).text()} element is being held for ${jQueryEvent.data.timeout} ms.`);
+    };
+    
+    $("#target").on("dxhold", { timeout: 1000 }, dxholdHandler); 
+    // Without extra parameters
+    // $("#target").on("dxhold", dxholdHandler);
 
- To subscribe the required event using Knockout, apply one of the following bindings to the element.
+    $("#target").trigger("dxhold");
 
-        <!--HTML-->
-        <div id="myElement" data-bind="event: { dxclick: clickEventHandler }">
-            My Element
-        </div>
+    $("#target").off("dxhold", dxholdHandler);
 
- or
+See [jQuery documentation](http://api.jquery.com/category/events/event-handler-attachment) for details.
 
-        <!--HTML-->
-        <div id="myElement" data-bind="dxclick: clickEventHandler">
-            My Element
-        </div>
+##### Knockout
 
-        <!--JavaScript-->
-        var viewModel = {
-            clickEventHandler: function(data, event) {
-                alert("The '" + $(event.target).text() + "' element has been clicked");
-            }
+    <!--HTML-->
+    <div id="target" data-bind="dxhold: { execute: dxholdHandler, timeout: 1000 }">
+        Target element
+    </div>
+    <!-- Without extra parameters -->
+    <!-- <div id="target" data-bind="dxhold: dxholdHandler">
+        Target element
+    </div> -->
+
+    <!--JavaScript-->
+    var viewModel = {
+        dxholdHandler: function (viewModel, jQueryEvent) {
+            alert(`The ${$(jQueryEvent.target).text()} element is being held for ${jQueryEvent.data.timeout} ms.`);
         }
+    }
 
- In the case of the Knockout approach, the event handler function accepts the following arguments.
+[note]Knockout does not provide an API to unsubscribe from an event.
 
- - **data**  
- An object holding the current view model.
+See [Knockout documentation](http://knockoutjs.com/documentation/event-binding.html) for details.
 
- - **event**  
- A [jQuery.event](http://api.jquery.com/category/events/event-object) object.
+##### AngularJS
 
- Refer to the [Knockout documentation](http://knockoutjs.com/documentation/event-binding.html) for more information on event binding.
+    <!--HTML-->
+    <div id="target" dx-hold="{ execute: 'dxholdHandler($event)', timeout: 1000 }">
+        Target element
+    </div>
+    <!-- Without extra parameters -->
+    <!-- <div id="target" dx-hold="dxholdHandler($event)">
+        Target element
+    </div> -->
 
- The Knockout approach accepts the following syntax for specifying event options.
-
-        <!--HTML-->
-        <div id="myElement" data-bind="dxHold: { execute: holdEventHandler, timeout: 1000 }">
-        </div>
-
-- **AngularJS**
-
- AngularJS enables you to subscribe to an event in the following way.
-
-        <!--HTML-->
-        <div id="myElement" dx-click="clickEventHandler($event)">
-        </div>
-
- In the case of the AngularJS approach, to access the [jQuery.Event](http://api.jquery.com/category/events/event-object) object associated with the current event, pass the **$event** argument to the handler function as shown above. 
-
- You can access this object within a handler function using the **event** parameter as demonstrated in the following example.
-
-        <!--JavaScript-->
-        var myApp = angular.module('myApp', ['dx']);
-        myApp.controller("demoController", function ($scope) {
-            $scope.clickEventHandler = function(event) {
-                alert("The '" + $(event.target).text() + "' element has been clicked");
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.dxholdHandler = function (jQueryEvent) {
+                alert(`The ${$(jQueryEvent.target).text()} element is being held for ${jQueryEvent.data.timeout} ms.`);
             }
         });
 
- The AngularJS approach also enables you to specify additional event options using the following syntax.
-
-        <!--HTML-->
-        <div id="myElement" dx-hold="{ execute: 'holdEventHandler($event)', timeout: 1000 }">
-        </div>
-
-[note]An event handling a function for certain DevExtreme UI events may support additional parameters described in the required event description.
+[note]AngularJS does not provide an API to unsubscribe from an event.
+ 
+---
 <!--/fullDescription-->
