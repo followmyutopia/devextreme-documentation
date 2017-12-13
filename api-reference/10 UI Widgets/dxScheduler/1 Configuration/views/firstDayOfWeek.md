@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The first day of a week.
+The first day of a week. Does not apply to the [agenda view](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View). 
 <!--/shortDescription-->
 
 <!--fullDescription-->

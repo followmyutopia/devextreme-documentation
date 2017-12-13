@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the first day of a week.
+Specifies the first day of a week. Does not apply to the [agenda view](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View). 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option can take on a value from 0 to 6.
+This option can accept a value from 0 to 6:
 
 - 0 - Sunday
 - 1 - Monday
@@ -19,7 +19,7 @@ This option can take on a value from 0 to 6.
 - 5 - Friday
 - 6 - Saturday
 
-By default, the value provided by the culture settings is used.
+The value provided by the culture settings is used by default.
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `FirstDayOfWeek` enum. This enum accepts the following values: `Sunday`, `Monday`, `Tuesday`, `Wednesday`, `Thursday`, `Friday` and `Saturday`.
 <!--/fullDescription-->
