@@ -15,5 +15,5 @@ Specifies whether to export all the data presented in the grid or the selected r
 For details on exporting, refer to the [Client-Side Exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/) article.
 
 #####See Also#####
-- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)
+#include common-link-callmethods
 <!--/fullDescription-->

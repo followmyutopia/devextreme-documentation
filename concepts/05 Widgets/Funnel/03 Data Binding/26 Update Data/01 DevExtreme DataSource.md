@@ -65,6 +65,6 @@ After that, you need to access the underlying [Store](/Documentation/Guide/Data_
 [note] You can also apply data shaping options, such as [filtering](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#filterfilterExpr), [sorting](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#sortsortExpr), etc., using the **DataSource** at runtime. In any case, call the **load** method afterwards to notify the **Funnel** of the changes.
 
 #####See Also#####
-- **Call Methods**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Call_Methods/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Call_Methods/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Call_Methods/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Call_Methods/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)
+#include common-link-callmethods
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
 - [Data Layer - DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/)

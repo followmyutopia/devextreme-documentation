@@ -61,7 +61,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
         .on('valueChanged', valueChangedHandler2);
 
 #####See Also#####
-- **Handle Events**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Handle_Events/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Handle_Events/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Handle_Events/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Handle_Events/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Handling_Events_and_Defining_Callbacks)- [CheckBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-check_box-overview)
+#include common-link-handleevents
+- [CheckBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-check_box-overview)
 - [CheckBox API Reference](/Documentation/ApiReference/UI_Widgets/dxCheckBox/)
 
 [tags]check box, checkBox, editor, get value, set value

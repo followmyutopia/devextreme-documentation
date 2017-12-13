@@ -36,5 +36,5 @@ To validate the rules that are defined within the **dxValidator** objects, call 
 
     <!--JavaScript-->DevExpress.validationEngine.registerModelForValidation(viewModel);
 
-#include uiwidgets-ref-validate-result with { }
+#include uiwidgets-ref-validate-result
 <!--/fullDescription-->
