@@ -27,14 +27,5 @@ A validation group's key can be represented in the following manner.
 - A string name  
  When you use the jQuery approach for validation, a validation group is usually a string because it is the simplest way to unite several widgets in one group - by setting the same group name for the **validationGroup** configuration option of the associated **dxValidator** objects. In this and other similar cases, where you specify a validation group as a string, pass the validation group name as a parameter to the **validateGroup(group)** function.
 
-The object returned by the **validateGroup(group)** function has the following structure.
-
-- **isValid**  
- Indicates whether or not all the rules checked for the specified group are satisfied.
-
-- **brokenRules**  
- An array of broken rules. The structure of rule objects is described in the [validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section.
-
-- **validators**  
- An array of **Validator** widgets that are included to the validated group.
+#include uiwidgets-ref-validate-result with { }
 <!--/fullDescription-->

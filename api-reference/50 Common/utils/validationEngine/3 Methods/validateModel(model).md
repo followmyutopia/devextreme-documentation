@@ -36,12 +36,5 @@ To validate the rules that are defined within the **dxValidator** objects, call 
 
     <!--JavaScript-->DevExpress.validationEngine.registerModelForValidation(viewModel);
 
-The object returned by this function has the following structure.
-
-- **isValid**  
-    Indicates whether all the rules checked for the specified ViewModel are satisfied.
-- **brokenRules**  
-    An array of broken rules. The structure of rule objects is described in the [validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section.
-- **validators**  
-    An array of **Validator** widgets that are included to the validated ViewModel.
+#include uiwidgets-ref-validate-result with { }
 <!--/fullDescription-->
