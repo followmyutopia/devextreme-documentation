@@ -6,7 +6,7 @@ Customizes the node.
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 A [tile](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#tile) or a [group](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#group).
 <!--/paramDescription1-->

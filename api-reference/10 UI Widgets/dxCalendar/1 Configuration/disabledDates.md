@@ -41,12 +41,12 @@ This option accepts an array of dates...
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the checked date.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxCalendar/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->
@@ -56,12 +56,12 @@ The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxCalendar/Method
 The currently checked date.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->view<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The current [view](/Documentation/ApiReference/UI_Widgets/dxCalendar/Default_Cell_Template/#view).
 <!--/typeFunctionParamDescription1_field3-->
 
-<!--typeFunctionReturnType-->boolean<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Boolean<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 **true** if the date should be disabled; otherwise **false**.
 <!--/typeFunctionReturnDescription-->

@@ -13,7 +13,7 @@ Note that the option affects the actual popup size only if the **fullScreen** op
 
 
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->number|string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The required width of the widget popup element.
 <!--/typeFunctionReturnDescription-->

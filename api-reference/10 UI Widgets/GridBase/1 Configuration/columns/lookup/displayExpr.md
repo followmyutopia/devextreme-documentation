@@ -52,7 +52,7 @@ Values in a lookup column are sorted by the **valueExpr** field. Implement the c
 [/note]
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 A row's data.
 <!--/typeFunctionParamDescription1-->

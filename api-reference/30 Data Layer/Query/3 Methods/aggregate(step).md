@@ -6,7 +6,7 @@ Calculates a custom summary for the items in the current [Query](/Documentation/
 <!--/shortDescription-->
 
 <!--paramName1-->step<!--/paramName1-->
-<!--paramType1-->function<!--/paramType1-->
+<!--paramType1-->function()<!--/paramType1-->
 <!--paramDescription1-->
 A function called for each item.
 <!--/paramDescription1-->

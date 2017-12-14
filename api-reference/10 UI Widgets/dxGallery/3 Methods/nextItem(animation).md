@@ -6,7 +6,7 @@ Shows the next gallery item.
 <!--/shortDescription-->
 
 <!--paramName1-->animation<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 A Boolean value indicating whether or not to use animation when switching to the next item.
 <!--/paramDescription1-->

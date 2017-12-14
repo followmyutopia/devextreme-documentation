@@ -12,7 +12,7 @@ The initial appointment data object.
 <!--/paramDescription1-->
 
 <!--paramName2-->target<!--/paramName2-->
-<!--paramType2-->string|Node|jQuery<!--/paramType2-->
+<!--paramType2-->String|Node|jQuery<!--/paramType2-->
 <!--paramDescription2-->
 Specifies the target element the tooltip points to.
 <!--/paramDescription2-->

@@ -110,7 +110,7 @@ The following code demonstrates a general structure of the **calculateCustomSumm
 - [Custom Aggregate Function](/Documentation/Guide/Widgets/DataGrid/Summaries/Custom_Aggregate_Function/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Summary information.
 <!--/typeFunctionParamDescription1-->
@@ -120,12 +120,12 @@ Summary information.
 The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->name<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The summary item's [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name).
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->summaryProcess<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 Indicates the stage of the summary item calculation; equals *'start'*, *'calculate'* or *'finalize'*.
 <!--/typeFunctionParamDescription1_field3-->

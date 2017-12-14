@@ -11,7 +11,7 @@ Specifies the device-dependent default configuration options for this component.
 An object specifying default options for the component and the device for which the options must be applied.
 <!--/paramDescription1-->
 <!--paramName1_field1-->device<!--/paramName1_field1-->
-<!--paramType1_field1-->Object|Array<Object>|function<!--/paramType1_field1-->
+<!--paramType1_field1-->Object|Array<Object>|function()<!--/paramType1_field1-->
 <!--paramDescription1_field1-->
 An object representing device parameters, or an array of objects representing device parameters, or a function that provides information on the current device as an input parameter and returning a Boolean value.
 <!--/paramDescription1_field1-->

@@ -6,13 +6,13 @@ Sorts current [Query](/Documentation/ApiReference/Data_Layer/Query/) data.
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 The getter by which to sort the data.
 <!--/paramDescription1-->
 
 <!--paramName2-->desc<!--/paramName2-->
-<!--paramType2-->boolean<!--/paramType2-->
+<!--paramType2-->Boolean<!--/paramType2-->
 <!--paramDescription2-->
 Specifies whether to sort items in descending or ascending order.
 <!--/paramDescription2-->

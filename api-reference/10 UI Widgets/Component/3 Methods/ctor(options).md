@@ -7,7 +7,7 @@
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->ComponentOptions|undefined<!--/paramType1-->
+<!--paramType1-->Component_Options|undefined<!--/paramType1-->
 <!--paramDescription1-->
 
 <!--/paramDescription1-->

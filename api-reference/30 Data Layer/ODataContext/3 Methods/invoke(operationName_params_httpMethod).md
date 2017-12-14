@@ -6,19 +6,19 @@ Initiates the specified WebGet service operation that returns nothing. For the i
 <!--/shortDescription-->
 
 <!--paramName1-->operationName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The name of the operation to invoke.
 <!--/paramDescription1-->
 
 <!--paramName2-->params<!--/paramName2-->
-<!--paramType2-->object<!--/paramType2-->
+<!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
 The bag of parameters supported by the operation.
 <!--/paramDescription2-->
 
 <!--paramName3-->httpMethod<!--/paramName3-->
-<!--paramType3-->object<!--/paramType3-->
+<!--paramType3-->Object<!--/paramType3-->
 <!--paramDescription3-->
 Specifies the HTTP method for this operation. The default value is "POST".
 <!--/paramDescription3-->

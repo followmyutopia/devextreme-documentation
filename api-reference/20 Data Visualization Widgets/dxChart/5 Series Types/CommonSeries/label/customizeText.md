@@ -171,12 +171,12 @@ The following fields are inherent to financial series ([candlestick](/Documentat
 - [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Data_Formatting) - shows how to apply formatting to various widget elements.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the series point.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The text for the label to display.
 <!--/typeFunctionReturnDescription-->

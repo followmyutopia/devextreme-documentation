@@ -6,7 +6,7 @@ Sets the **group** option value.
 <!--/shortDescription-->
 
 <!--paramName1-->groupExpr<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 A group expression.
 <!--/paramDescription1-->

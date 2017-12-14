@@ -9,7 +9,7 @@ Sets a new selection state for an area.
 <!--/shortDescription-->
 
 <!--paramName1-->state<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 Specifies whether to select or deselect the area.
 <!--/paramDescription1-->

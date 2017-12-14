@@ -13,7 +13,7 @@ By default, legend items identify series by color and name. You can also provide
 Alternatively, you can use the **this** object within the function. This object has the same structure as the object passed as a parameter.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->seriesInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the series.
 <!--/typeFunctionParamDescription1-->
@@ -28,12 +28,12 @@ The series' name.
 The series' index.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->seriesColor<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The series' color.
 <!--/typeFunctionParamDescription1_field3-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The text for the legend item to display.
 <!--/typeFunctionReturnDescription-->

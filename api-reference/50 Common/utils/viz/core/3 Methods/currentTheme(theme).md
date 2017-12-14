@@ -9,7 +9,7 @@ Applies a theme for the entire page with several DevExtreme visualization widget
 <!--/shortDescription-->
 
 <!--paramName1-->theme<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The name of a new theme.
 <!--/paramDescription1-->

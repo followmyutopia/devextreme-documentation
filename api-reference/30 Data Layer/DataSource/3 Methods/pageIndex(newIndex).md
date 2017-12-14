@@ -6,7 +6,7 @@ Specifies the index of the page to be loaded during the next [load()](/Documenta
 <!--/shortDescription-->
 
 <!--paramName1-->newIndex<!--/paramName1-->
-<!--paramType1-->numeric<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 A zero-based index.
 <!--/paramDescription1-->

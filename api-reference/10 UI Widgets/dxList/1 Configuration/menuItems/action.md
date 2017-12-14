@@ -16,7 +16,7 @@ Specifies the current item element.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemData<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 Specifies the current item data object.
 <!--/typeFunctionParamDescription2-->

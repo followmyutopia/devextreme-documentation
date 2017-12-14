@@ -13,7 +13,7 @@
 <!--/paramDescription1-->
 
 <!--paramName2-->extraParameters<!--/paramName2-->
-<!--paramType2-->object<!--/paramType2-->
+<!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
 
 <!--/paramDescription2-->

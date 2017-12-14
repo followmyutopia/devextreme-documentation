@@ -27,7 +27,7 @@ The widget's instance.
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
@@ -37,7 +37,7 @@ The model data. Available only if you use Knockout.
 Items to be displayed in the context menu. Their structure is described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) section.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->target<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The name of the grid element on which the context menu is invoked: 'headerPanel', 'header', 'content' or 'footer'.
 <!--/typeFunctionParamDescription1_field5-->
@@ -47,17 +47,17 @@ The name of the grid element on which the context menu is invoked: 'headerPanel'
 This element's container.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->columnIndex<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The index of the column on which the context menu is invoked. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->dxDataGridOptions_columns<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->dxDataGrid_Options_columns<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->rowIndex<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->number<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->Number<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 The visible index of the row on which the context menu is invoked. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field9-->

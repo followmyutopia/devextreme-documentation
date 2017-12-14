@@ -6,13 +6,13 @@ Exports the widget into a document with a specified name and format.
 <!--/shortDescription-->
 
 <!--paramName1-->fileName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The name of a destination file.
 <!--/paramDescription1-->
 
 <!--paramName2-->format<!--/paramName2-->
-<!--paramType2-->string<!--/paramType2-->
+<!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
 A required format.  
 Accepted Values: 'PNG' | 'PDF' | 'JPEG' | 'SVG' | 'GIF'

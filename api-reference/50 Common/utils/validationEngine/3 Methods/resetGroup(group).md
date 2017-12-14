@@ -6,7 +6,7 @@ Resets the values and validation result of the editors that belong to the specif
 <!--/shortDescription-->
 
 <!--paramName1-->group<!--/paramName1-->
-<!--paramType1-->string|object<!--/paramType1-->
+<!--paramType1-->String|Object<!--/paramType1-->
 <!--paramDescription1-->
 The key of the requested group.
 <!--/paramDescription1-->

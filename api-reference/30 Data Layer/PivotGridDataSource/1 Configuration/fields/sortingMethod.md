@@ -36,12 +36,12 @@ The function returns a number that has one of three values listed below.
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->a<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 A header item.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string|number<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String|Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 A header item value.
 <!--/typeFunctionParamDescription1_field1-->
@@ -52,12 +52,12 @@ Children belonging to the header item; available only when the item is expanded.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionParamName2-->b<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 A header item.
 <!--/typeFunctionParamDescription2-->
 <!--typeFunctionParamName2_field1-->value<!--/typeFunctionParamName2_field1-->
-<!--typeFunctionParamType2_field1-->string|number<!--/typeFunctionParamType2_field1-->
+<!--typeFunctionParamType2_field1-->String|Number<!--/typeFunctionParamType2_field1-->
 <!--typeFunctionParamDescription2_field1-->
 A header item value.
 <!--/typeFunctionParamDescription2_field1-->
@@ -67,7 +67,7 @@ A header item value.
 Children belonging to the header item; available only when the item is expanded.
 <!--/typeFunctionParamDescription2_field2-->
 
-<!--typeFunctionReturnType-->number<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 Indicates whether a comes before b.
 <!--/typeFunctionReturnDescription-->

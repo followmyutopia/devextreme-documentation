@@ -6,7 +6,7 @@ Adds one more sorting option to the current [Query](/Documentation/ApiReference/
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 The getter by which to sort the items.
 <!--/paramDescription1-->

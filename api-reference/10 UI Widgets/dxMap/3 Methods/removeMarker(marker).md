@@ -6,7 +6,7 @@ Removes a marker from the map.
 <!--/shortDescription-->
 
 <!--paramName1-->marker<!--/paramName1-->
-<!--paramType1-->Object|number|Array<Object><!--/paramType1-->
+<!--paramType1-->Object|Number|Array<Object><!--/paramType1-->
 <!--paramDescription1-->
 A marker options object, marker index or an array of markers to be removed.
 <!--/paramDescription1-->

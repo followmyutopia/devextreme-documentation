@@ -6,7 +6,7 @@ Collapses the specified item.
 <!--/shortDescription-->
 
 <!--paramName1-->index<!--/paramName1-->
-<!--paramType1-->numeric<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The index of the item to collapse.
 <!--/paramDescription1-->

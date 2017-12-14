@@ -6,13 +6,13 @@ Updates the values of form item options.
 <!--/shortDescription-->
 
 <!--paramName1-->field<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 Specifies the path to the required [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) field, or the name of the required item.
 <!--/paramDescription1-->
 
 <!--paramName2-->options<!--/paramName2-->
-<!--paramType2-->object<!--/paramType2-->
+<!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
 A configuration object containing options to be updated and their values.
 <!--/paramDescription2-->

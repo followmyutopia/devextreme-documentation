@@ -32,7 +32,7 @@ When implementing the function for this option, you can access the scale value r
 To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the scale value.
 <!--/typeFunctionParamDescription1-->
@@ -42,12 +42,12 @@ Information on the scale value.
 The raw value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The [formatted]({basewidgetpath}/Configuration/tooltip/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
 
-<!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The tooltip's configuration.
 <!--/typeFunctionReturnDescription-->

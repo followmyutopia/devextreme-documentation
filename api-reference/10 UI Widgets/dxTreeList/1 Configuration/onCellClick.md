@@ -12,7 +12,7 @@ A handler for the **cellClick** event. Executed after a user clicks a cell.
 When using DevExtreme SPA Framework, you can navigate to a specific URL on a click. For this, assign this URL or its anchor part (#) directly to this option.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -27,7 +27,7 @@ The widget's instance.
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
@@ -43,7 +43,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->data<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The data of the row to which the cell belongs. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.
 <!--/typeFunctionParamDescription1_field6-->
@@ -59,33 +59,33 @@ For plain data, the key value depends on the [keyExpr](/Documentation/ApiReferen
 The cell's raw value. Available if the **rowType** is *'data'*.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->displayValue<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->string<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 The cell's displayed value. Available if the **rowType** is *'data'*.      
 Differs from the **value** field only when the cell belongs to the [lookup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/) column. 
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->text<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->string<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->String<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#format) value converted to a string. Available if the **rowType** is *'data'*.     
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->columnIndex<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->number<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamType1_field11-->Number<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 The index of the column to which the cell belongs.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->column<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->object<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->Object<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->rowIndex<!--/typeFunctionParamName1_field13-->
-<!--typeFunctionParamType1_field13-->number<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamType1_field13-->Number<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
 The visible index of the row to which the cell belongs.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->rowType<!--/typeFunctionParamName1_field14-->
-<!--typeFunctionParamType1_field14-->string<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamType1_field14-->String<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
 The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
 <!--/typeFunctionParamDescription1_field14-->

@@ -6,7 +6,7 @@ Scrolls the list content by the specified number of pixels.
 <!--/shortDescription-->
 
 <!--paramName1-->distance<!--/paramName1-->
-<!--paramType1-->numeric<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 A distance to be scrolled in pixels.
 <!--/paramDescription1-->

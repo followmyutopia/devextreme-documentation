@@ -6,7 +6,7 @@ Overrides actual device information to force the application to operate as if it
 <!--/shortDescription-->
 
 <!--paramName1-->deviceName<!--/paramName1-->
-<!--paramType1-->string|Device<!--/paramType1-->
+<!--paramType1-->String|Device<!--/paramType1-->
 <!--paramDescription1-->
 The required device name or an object specifying platform information.
 <!--/paramDescription1-->

@@ -16,12 +16,12 @@ Assign a function to perform a custom action after an editor value is validated 
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->name<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The value of the [name](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#name) option.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->isValid<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->boolean<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Boolean<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 Indicates whether all the rules checked for the value are satisfied.
 <!--/typeFunctionParamDescription1_field2-->

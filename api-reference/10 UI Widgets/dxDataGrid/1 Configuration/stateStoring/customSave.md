@@ -12,7 +12,7 @@ If you chose the *custom* state storing [type](/Documentation/ApiReference/UI_Wi
 To specify a callback function that performs specific actions on state loading, use the [customLoad](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/stateStoring/#customLoad) option.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->gridState<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 A current grid state.
 <!--/typeFunctionParamDescription1-->

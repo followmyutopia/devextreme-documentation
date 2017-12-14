@@ -10,7 +10,7 @@ Specifies the text for a hint that appears when a user hovers the mouse pointer 
 This option accepts a function that must return the required text. When implementing this function, use its parameter to access the information on the point that corresponds to the legend item.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the series point.
 <!--/typeFunctionParamDescription1-->
@@ -25,12 +25,12 @@ The point's name.
 The point's index.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->pointColor<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The point's color.
 <!--/typeFunctionParamDescription1_field3-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The text for the hint to display.
 <!--/typeFunctionReturnDescription-->

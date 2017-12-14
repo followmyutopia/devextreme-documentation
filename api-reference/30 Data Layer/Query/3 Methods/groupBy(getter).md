@@ -6,7 +6,7 @@ Groups the current [Query](/Documentation/ApiReference/Data_Layer/Query/) data.
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 The getter by which to group the data.
 <!--/paramDescription1-->

@@ -6,7 +6,7 @@ Scrolls list content to the specified position.
 <!--/shortDescription-->
 
 <!--paramName1-->location<!--/paramName1-->
-<!--paramType1-->numeric<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The position to scroll to (in pixels).
 <!--/paramDescription1-->

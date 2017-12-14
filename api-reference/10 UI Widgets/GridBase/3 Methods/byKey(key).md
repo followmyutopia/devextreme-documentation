@@ -6,7 +6,7 @@ Allows you to obtain a data object by its key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->object|string|number<!--/paramType1-->
+<!--paramType1-->Object|String|Number<!--/paramType1-->
 <!--paramDescription1-->
 The key value of the required data object.
 <!--/paramDescription1-->

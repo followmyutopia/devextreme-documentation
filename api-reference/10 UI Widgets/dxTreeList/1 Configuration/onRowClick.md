@@ -16,7 +16,7 @@ When using DevExtreme SPA Framework, you can navigate to a specific URL on a cli
 [note]When the clicked row is in the editing state or switches to this state, the **onRowClick** handler is not executed. Instead, specify the **onCellClick** handler. 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -31,7 +31,7 @@ The widget's instance.
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
@@ -47,7 +47,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->data<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The row's data.
 <!--/typeFunctionParamDescription1_field6-->
@@ -68,22 +68,22 @@ Values displayed in the row cells.
 All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rowIndex<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->number<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->Number<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 The row's visible index.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->rowType<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->string<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamType1_field11-->String<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType).
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->isSelected<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->boolean<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->Boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 Indicates whether the row is selected. Available if **rowType** is *'data'* or *'detail'*.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->isExpanded<!--/typeFunctionParamName1_field13-->
-<!--typeFunctionParamType1_field13-->boolean<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamType1_field13-->Boolean<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
 Indicates whether the row is expanded or collapsed. Available if **rowType** is *'data'* or *'detail'*.
 <!--/typeFunctionParamDescription1_field13-->
@@ -93,7 +93,7 @@ Indicates whether the row is expanded or collapsed. Available if **rowType** is 
 The row's container.
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->handled<!--/typeFunctionParamName1_field15-->
-<!--typeFunctionParamType1_field15-->boolean<!--/typeFunctionParamType1_field15-->
+<!--typeFunctionParamType1_field15-->Boolean<!--/typeFunctionParamType1_field15-->
 <!--typeFunctionParamDescription1_field15-->
 Indicates whether internal widget handlers have already handled the event.
 <!--/typeFunctionParamDescription1_field15-->

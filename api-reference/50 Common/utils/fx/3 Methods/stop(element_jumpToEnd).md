@@ -12,7 +12,7 @@ The element whose animation should be stopped.
 <!--/paramDescription1-->
 
 <!--paramName2-->jumpToEnd<!--/paramName2-->
-<!--paramType2-->boolean<!--/paramType2-->
+<!--paramType2-->Boolean<!--/paramType2-->
 <!--paramDescription2-->
 A boolean value specifying whether to apply the target animation state to the specified object or leave the current state.
 <!--/paramDescription2-->

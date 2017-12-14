@@ -6,7 +6,7 @@ Sets the label to the node.
 <!--/shortDescription-->
 
 <!--paramName1-->label<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 A new label.
 <!--/paramDescription1-->

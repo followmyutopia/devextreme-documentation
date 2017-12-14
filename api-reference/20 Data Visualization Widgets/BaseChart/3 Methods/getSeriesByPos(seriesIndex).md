@@ -6,7 +6,7 @@ Gets a series within the chart's [series]({basewidgetpath}/Configuration/series/
 <!--/shortDescription-->
 
 <!--paramName1-->seriesIndex<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The index of the series to be found within the chart's **series** array.
 <!--/paramDescription1-->

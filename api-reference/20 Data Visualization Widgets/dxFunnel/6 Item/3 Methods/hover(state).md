@@ -6,7 +6,7 @@ Changes the funnel item's hover state.
 <!--/shortDescription-->
 
 <!--paramName1-->state<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 **true** sets the funnel item into the hover state; **false** sets it back.
 <!--/paramDescription1-->

@@ -6,7 +6,7 @@ Displays the [load panel]({basewidgetpath}/Configuration/loadPanel/).
 <!--/shortDescription-->
 
 <!--paramName1-->messageText<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 Text to be displayed in the load panel.
 <!--/paramDescription1-->

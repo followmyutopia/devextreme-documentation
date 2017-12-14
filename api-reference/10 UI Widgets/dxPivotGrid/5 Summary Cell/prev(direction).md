@@ -6,7 +6,7 @@ Gets the cell prior to the current one in a specified direction.
 <!--/shortDescription-->
 
 <!--paramName1-->direction<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The direction in which to search for the previous cell. Can be 'row' or 'column'.
 <!--/paramDescription1-->

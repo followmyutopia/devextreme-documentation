@@ -29,7 +29,7 @@ Generally, the **dxAction** binding is analogous to the [dxclick](/Documentation
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -39,7 +39,7 @@ Information about the event.
 The DOM element involved in this binding.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->model<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->object<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Object<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field2-->

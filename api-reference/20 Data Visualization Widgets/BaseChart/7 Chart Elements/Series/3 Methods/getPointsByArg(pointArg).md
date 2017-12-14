@@ -6,7 +6,7 @@ Gets points from the series point collection based on the specified argument.
 <!--/shortDescription-->
 
 <!--paramName1-->pointArg<!--/paramName1-->
-<!--paramType1-->number|string|date<!--/paramType1-->
+<!--paramType1-->Number|String|Date<!--/paramType1-->
 <!--paramDescription1-->
 The argument of the point(s) to be found.
 <!--/paramDescription1-->

@@ -6,7 +6,7 @@ Selects or cancels the funnel item's selection.
 <!--/shortDescription-->
 
 <!--paramName1-->state<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 **true** selects the funnel item; **false** cancels the selection.
 <!--/paramDescription1-->

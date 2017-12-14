@@ -6,7 +6,7 @@ Adds a route to the map.
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->object|Array<Object><!--/paramType1-->
+<!--paramType1-->Object|Array<Object><!--/paramType1-->
 <!--paramDescription1-->
 A route object and an array of route objects.
 <!--/paramDescription1-->

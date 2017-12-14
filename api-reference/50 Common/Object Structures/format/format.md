@@ -183,12 +183,12 @@ This option accepts three types of values:
 <a href="/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->number|date<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Number|Date<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 A value to be formatted.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The value after formatting.
 <!--/typeFunctionReturnDescription-->

@@ -16,7 +16,7 @@ The option can hold a value of the following types.
 
 
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->number|string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The maximum height value.
 <!--/typeFunctionReturnDescription-->

@@ -6,7 +6,7 @@ Sets the **filter** option value.
 <!--/shortDescription-->
 
 <!--paramName1-->filterExpr<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 A filter expression.
 <!--/paramDescription1-->

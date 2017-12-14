@@ -6,7 +6,7 @@ Sets the current search operation.
 <!--/shortDescription-->
 
 <!--paramName1-->op<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 A search operation expression.
 <!--/paramDescription1-->

@@ -8,12 +8,12 @@ Compiles a getter function from the getter expression.
 <!--/shortDescription-->
 
 <!--paramName1-->expr<!--/paramName1-->
-<!--paramType1-->string|Array<string><!--/paramType1-->
+<!--paramType1-->String|Array<String><!--/paramType1-->
 <!--paramDescription1-->
 A getter expression.
 <!--/paramDescription1-->
 
-<!--returnType-->method<!--/returnType-->
+<!--returnType-->function()<!--/returnType-->
 <!--returnDescription-->
 The resulting getter function.
 <!--/returnDescription-->

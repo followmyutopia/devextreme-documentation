@@ -11,7 +11,7 @@ Customizes labels' text.
 [note]The **this** object also exposes all the **itemInfo** object fields.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the funnel item.
 <!--/typeFunctionParamDescription1-->
@@ -26,7 +26,7 @@ The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/
 The raw item value.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->valueText<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The item's [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field3-->
@@ -36,12 +36,12 @@ The item's [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dx
 The item's percentage value.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->percentText<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The item's [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/#format) percentage value converted to a string.
 <!--/typeFunctionParamDescription1_field5-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The text for the label to display.
 <!--/typeFunctionReturnDescription-->

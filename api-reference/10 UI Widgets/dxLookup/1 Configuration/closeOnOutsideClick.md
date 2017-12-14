@@ -50,7 +50,7 @@ The function passed to this option enables you to specify a custom condition for
 ---
 
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->boolean<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Boolean<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The required option value.
 <!--/typeFunctionReturnDescription-->

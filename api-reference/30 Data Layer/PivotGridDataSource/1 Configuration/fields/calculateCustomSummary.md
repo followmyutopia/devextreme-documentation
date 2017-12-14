@@ -38,12 +38,12 @@ The following code demonstrates a general structure of the **calculateCustomSumm
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Summary information.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->summaryProcess<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 Indicates the stage of the summary value calculation; possible values are *'start'*, *'calculate'* or *'finalize'*.
 <!--/typeFunctionParamDescription1_field1-->

@@ -93,7 +93,7 @@ Call the **this.defaultCalculateCellValue(rowData)** function and return its res
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Data of the row to which the cell belongs.
 <!--/typeFunctionParamDescription1-->

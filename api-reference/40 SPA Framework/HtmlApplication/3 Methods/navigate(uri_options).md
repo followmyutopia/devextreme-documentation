@@ -6,13 +6,13 @@ Navigates to the specified URI.
 <!--/shortDescription-->
 
 <!--paramName1-->uri<!--/paramName1-->
-<!--paramType1-->string|object<!--/paramType1-->
+<!--paramType1-->String|Object<!--/paramType1-->
 <!--paramDescription1-->
 A string containing the URI to which the application should navigate.
 <!--/paramDescription1-->
 
 <!--paramName2-->options<!--/paramName2-->
-<!--paramType2-->object<!--/paramType2-->
+<!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
 Specifies additional navigation parameters.
 <!--/paramDescription2-->
@@ -22,12 +22,12 @@ Specifies additional navigation parameters.
 Indicates whether to create a new navigation stack based on the navigated view.
 <!--/paramDescription2_field1-->
 <!--paramName2_field2-->target<!--/paramName2_field2-->
-<!--paramType2_field2-->string<!--/paramType2_field2-->
+<!--paramType2_field2-->String<!--/paramType2_field2-->
 <!--paramDescription2_field2-->
 Specifies whether to add the navigated view to the navigation stack or replace the current view. The following values are accepted: 'blank' and 'current'.
 <!--/paramDescription2_field2-->
 <!--paramName2_field3-->direction<!--/paramName2_field3-->
-<!--paramType2_field3-->string<!--/paramType2_field3-->
+<!--paramType2_field3-->String<!--/paramType2_field3-->
 <!--paramDescription2_field3-->
 The direction in which the layout controller will animate the transition to show the view. The following values are accepted: 'backward', 'forward' or 'none'.
 <!--/paramDescription2_field3-->

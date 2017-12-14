@@ -18,7 +18,7 @@ There are several predefined post-processing functions. You can enable one of th
 The object for accessing the data of the current cell and the neighboring cells.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->number<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The new cell value.
 <!--/typeFunctionReturnDescription-->

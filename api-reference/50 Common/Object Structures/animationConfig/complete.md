@@ -16,7 +16,7 @@ The animated object.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->config<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The animation configuration object.
 <!--/typeFunctionParamDescription2-->

@@ -6,7 +6,7 @@ Subscribes to the specified events.
 <!--/shortDescription-->
 
 <!--paramName1-->events<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object of the following structure: { "eventName1": handler1, "eventName2": handler2, ...}
 <!--/paramDescription1-->

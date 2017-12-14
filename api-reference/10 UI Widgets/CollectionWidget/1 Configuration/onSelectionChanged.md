@@ -12,7 +12,7 @@ A handler for the **selectionChanged** event. Raised after an item is selected o
 Assign a function to perform a custom action after a collection item is selected or unselected.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -27,17 +27,17 @@ The widget's instance.
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->addedItems<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->array<any><!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<any><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The data of the items that have been selected.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->removedItems<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->array<any><!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Array<any><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The data of the items whose selection has been canceled.
 <!--/typeFunctionParamDescription1_field5-->

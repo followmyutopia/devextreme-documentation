@@ -9,7 +9,7 @@ Return the value of an attribute.
 <!--/shortDescription-->
 
 <!--paramName1-->name<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The name of an attribute.
 <!--/paramDescription1-->

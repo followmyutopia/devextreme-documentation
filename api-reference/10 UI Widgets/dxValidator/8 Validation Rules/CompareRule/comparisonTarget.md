@@ -11,7 +11,7 @@ The rule is valid if the validated value is equal to the return value of the **c
 
 [note]The operator specified by the [comparisonType](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/CompareRule/#comparisonType) option is used for comparison.
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A value to be compared with the validated value.
 <!--/typeFunctionReturnDescription-->

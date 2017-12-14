@@ -8,7 +8,7 @@ Loads DevExtreme messages.
 <!--/shortDescription-->
 
 <!--paramName1-->messages<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object containing messages to load.
 <!--/paramDescription1-->

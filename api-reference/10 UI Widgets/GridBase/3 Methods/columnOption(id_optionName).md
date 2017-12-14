@@ -6,13 +6,13 @@ Gets the value of a specific option set for a specific column.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->number|string<!--/paramType1-->
+<!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
 The name, index, data field or caption of the column.
 <!--/paramDescription1-->
 
 <!--paramName2-->optionName<!--/paramName2-->
-<!--paramType2-->string<!--/paramType2-->
+<!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
 The name of the required option.
 <!--/paramDescription2-->

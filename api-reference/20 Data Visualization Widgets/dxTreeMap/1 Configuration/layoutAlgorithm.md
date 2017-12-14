@@ -53,18 +53,18 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Data for implementing a custom layout algorithm.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->rect<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Array<number><!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Array<Number><!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The rectangle available for subdivision.    
 Contains the X and Y coordinates of two diagonally-opposite points in the following format: *[x1, y1, x2, y2]*.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->sum<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->number<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The sum total value of all nodes on the current level.
 <!--/typeFunctionParamDescription1_field2-->

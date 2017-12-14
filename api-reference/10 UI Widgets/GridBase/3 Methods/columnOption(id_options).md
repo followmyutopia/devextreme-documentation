@@ -6,13 +6,13 @@ Assigns new values to several options of a specific column at once.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->number|string<!--/paramType1-->
+<!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
 The name, index, data field, or caption of the column.
 <!--/paramDescription1-->
 
 <!--paramName2-->options<!--/paramName2-->
-<!--paramType2-->object<!--/paramType2-->
+<!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
 The options with their new values.
 <!--/paramDescription2-->

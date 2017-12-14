@@ -6,7 +6,7 @@ Sets the PivotGridDataSource state.
 <!--/shortDescription-->
 
 <!--paramName1-->state<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 A PivotGridDataSource state returned by the [state()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#state) method.
 <!--/paramDescription1-->

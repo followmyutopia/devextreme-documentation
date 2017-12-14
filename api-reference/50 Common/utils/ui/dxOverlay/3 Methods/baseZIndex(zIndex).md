@@ -6,7 +6,7 @@ A static method that specifies the base z-index for all overlay widgets.
 <!--/shortDescription-->
 
 <!--paramName1-->zIndex<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The z-index value.
 <!--/paramDescription1-->

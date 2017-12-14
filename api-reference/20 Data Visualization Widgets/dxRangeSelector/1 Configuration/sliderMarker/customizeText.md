@@ -13,7 +13,7 @@ When implementing a callback function for this property, use the value displayed
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Range_Selector/CustomFormatting/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the scale value.
 <!--/typeFunctionParamDescription1-->
@@ -23,12 +23,12 @@ Information on the scale value.
 The raw value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The text for the slider marker to display.
 <!--/typeFunctionReturnDescription-->

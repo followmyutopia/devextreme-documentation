@@ -6,7 +6,7 @@ Gets the layer by its name.
 <!--/shortDescription-->
 
 <!--paramName1-->name<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#name) of the required layer.
 <!--/paramDescription1-->

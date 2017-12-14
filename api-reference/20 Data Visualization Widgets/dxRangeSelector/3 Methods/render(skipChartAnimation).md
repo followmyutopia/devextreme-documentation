@@ -6,7 +6,7 @@ Redraws a widget.
 <!--/shortDescription-->
 
 <!--paramName1-->skipChartAnimation<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 Specifies whether or not to animate the chart within a range selector on render.
 <!--/paramDescription1-->

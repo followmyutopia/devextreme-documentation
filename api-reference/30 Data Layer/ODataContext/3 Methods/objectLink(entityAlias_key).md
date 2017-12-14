@@ -6,13 +6,13 @@ Return a special proxy object to describe the entity link.
 <!--/shortDescription-->
 
 <!--paramName1-->entityAlias<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The type name.
 <!--/paramDescription1-->
 
 <!--paramName2-->key<!--/paramName2-->
-<!--paramType2-->object|string|number<!--/paramType2-->
+<!--paramType2-->Object|String|Number<!--/paramType2-->
 <!--paramDescription2-->
 The target entity key value.
 <!--/paramDescription2-->

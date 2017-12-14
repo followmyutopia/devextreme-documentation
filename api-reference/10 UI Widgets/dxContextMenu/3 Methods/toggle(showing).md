@@ -6,7 +6,7 @@ Shows or hides the widget depending on the argument.
 <!--/shortDescription-->
 
 <!--paramName1-->showing<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 Indicates whether to show or hide the widget.
 <!--/paramDescription1-->

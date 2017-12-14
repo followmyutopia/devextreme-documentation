@@ -6,13 +6,13 @@ Gets all fields within a specified area.
 <!--/shortDescription-->
 
 <!--paramName1-->area<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 [Area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) type.
 <!--/paramDescription1-->
 
 <!--paramName2-->collectGroups<!--/paramName2-->
-<!--paramType2-->boolean<!--/paramType2-->
+<!--paramType2-->Boolean<!--/paramType2-->
 <!--paramDescription2-->
 Specifies whether to display groups as separate items.
 <!--/paramDescription2-->

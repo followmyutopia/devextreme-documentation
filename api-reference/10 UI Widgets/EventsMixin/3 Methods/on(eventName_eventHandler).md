@@ -6,13 +6,13 @@ Subscribes to a specified event.
 <!--/shortDescription-->
 
 <!--paramName1-->eventName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The name of the event to be subscribed.
 <!--/paramDescription1-->
 
 <!--paramName2-->eventHandler<!--/paramName2-->
-<!--paramType2-->function<!--/paramType2-->
+<!--paramType2-->function()<!--/paramType2-->
 <!--paramDescription2-->
 An event handler for the specified event.
 <!--/paramDescription2-->

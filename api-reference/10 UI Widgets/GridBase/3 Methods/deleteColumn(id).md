@@ -6,7 +6,7 @@ Removes a specific column from the widget.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->number|string<!--/paramType1-->
+<!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
 The name, index, data field, or caption of the column.
 <!--/paramDescription1-->

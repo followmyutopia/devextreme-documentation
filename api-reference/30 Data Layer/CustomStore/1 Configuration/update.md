@@ -28,13 +28,13 @@ You can resolve the returned Promise with any data. For example, the key of the 
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object|string|number<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The key value of the item being updated.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->values<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The object containing new values for the specified item.
 <!--/typeFunctionParamDescription2-->

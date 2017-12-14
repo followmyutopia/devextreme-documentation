@@ -6,13 +6,13 @@ Limits the data item count.
 <!--/shortDescription-->
 
 <!--paramName1-->skip<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 Specifies the count of the items to skip.
 <!--/paramDescription1-->
 
 <!--paramName2-->take<!--/paramName2-->
-<!--paramType2-->number|undefined<!--/paramType2-->
+<!--paramType2-->Number|undefined<!--/paramType2-->
 <!--paramDescription2-->
 Optional. Specifies the count of the items to pick out. If this argument is not specified, all non-skipped items will be picked out.
 <!--/paramDescription2-->

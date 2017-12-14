@@ -6,7 +6,7 @@ Switches a grid to a specified page.
 <!--/shortDescription-->
 
 <!--paramName1-->newIndex<!--/paramName1-->
-<!--paramType1-->numeric<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The index of the page to switch to.
 <!--/paramDescription1-->

@@ -13,22 +13,22 @@ This option accepts a function that must return the text to be displayed in the 
 - [Format Text and Value](/Documentation/Guide/Widgets/DataGrid/Summaries/Format_Text_and_Value/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The summary item's data.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string|number|date<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String|Number|Date<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The summary item's value as it was calculated.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The summary item's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat) value.
 <!--/typeFunctionParamDescription1_field2-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 Text to be displayed in the summary item. 
 <!--/typeFunctionReturnDescription-->

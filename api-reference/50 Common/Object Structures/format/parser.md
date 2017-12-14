@@ -28,12 +28,12 @@ A widget calls this function internally, for example, when a user enters a value
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->string<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->String<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 A string value to be parsed.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->number|date<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Number|Date<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The value after parsing.
 <!--/typeFunctionReturnDescription-->

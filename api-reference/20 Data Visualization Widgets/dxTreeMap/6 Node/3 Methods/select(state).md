@@ -6,7 +6,7 @@ Sets the selection state of a node.
 <!--/shortDescription-->
 
 <!--paramName1-->state<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 Pass **true** to select the node; **false** to deselect.
 <!--/paramDescription1-->

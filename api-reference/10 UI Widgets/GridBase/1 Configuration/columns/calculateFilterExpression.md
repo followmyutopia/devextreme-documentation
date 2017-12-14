@@ -93,13 +93,13 @@ A user input value.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->selectedFilterOperation<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->string<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->String<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The selected filter operation.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->target<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->string<!--/typeFunctionParamType3-->
+<!--typeFunctionParamType3-->String<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
 The UI element where the filter expression was set.  
 Possible values: *"filterRow"*, *"headerFilter"* and *"search"*.

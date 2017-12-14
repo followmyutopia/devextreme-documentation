@@ -21,7 +21,7 @@ A function returning the widget height (e.g., height:function(){ return baseHeig
 
 
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->number|string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The widget height.
 <!--/typeFunctionReturnDescription-->

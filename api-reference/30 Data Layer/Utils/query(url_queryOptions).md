@@ -8,13 +8,13 @@ Creates a [Query](/Documentation/ApiReference/Data_Layer/Query/) instance for ac
 <!--/shortDescription-->
 
 <!--paramName1-->url<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 Specifies the URL of the remote data service.
 <!--/paramDescription1-->
 
 <!--paramName2-->queryOptions<!--/paramName2-->
-<!--paramType2-->object<!--/paramType2-->
+<!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
 Specifies additional query options.
 <!--/paramDescription2-->

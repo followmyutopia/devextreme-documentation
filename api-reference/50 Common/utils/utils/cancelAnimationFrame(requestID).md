@@ -8,7 +8,7 @@ Cancels an animation frame request scheduled with the [requestAnimationFrame](/D
 <!--/shortDescription-->
 
 <!--paramName1-->requestID<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The identifier returned by **requestAnimationFrame** method.
 <!--/paramDescription1-->

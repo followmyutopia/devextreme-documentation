@@ -7,7 +7,7 @@ Toggles the loading state of the widget.
 <!--/shortDescription-->
 
 <!--paramName1-->showOrHide<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 A Boolean value specifying whether to enable or disable the loading state.
 <!--/paramDescription1-->

@@ -6,13 +6,13 @@ Adds the specified animation preset to the animation repository by the specified
 <!--/shortDescription-->
 
 <!--paramName1-->name<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The name by which the preset is added to the animation repository.
 <!--/paramDescription1-->
 
 <!--paramName2-->config<!--/paramName2-->
-<!--paramType2-->object<!--/paramType2-->
+<!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
 An object defining the animation preset to be registered.
 <!--/paramDescription2-->

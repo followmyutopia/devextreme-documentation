@@ -1,5 +1,5 @@
 <!--merge--><!--/merge-->
-<!--type-->method<!--/type-->
+<!--type-->function(options)<!--/type-->
 ===========================================================================
 
 <!--paramName1-->options<!--/paramName1-->

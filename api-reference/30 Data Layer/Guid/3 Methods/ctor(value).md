@@ -6,7 +6,7 @@ Creates a new [Guid](/Documentation/ApiReference/Data_Layer/Guid/) instance that
 <!--/shortDescription-->
 
 <!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 A string representation of the GUID.
 <!--/paramDescription1-->

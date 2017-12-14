@@ -6,7 +6,7 @@ Checks whether or not a viewInfo object is contained in the view cache under the
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The key of the requested viewInfo object.
 <!--/paramDescription1-->

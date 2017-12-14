@@ -14,7 +14,7 @@ Assign a function to perform a custom action when clicking the Cancel button. Us
 To navigate to a specific URL when the **cancelClick** event fires, assign that URL or the anchor part (#) of that URL directly to this option as a string.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -29,12 +29,12 @@ The widget's instance.
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->cancel<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->boolean<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Boolean<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 Allows you to cancel hiding of the action sheet after the Cancel button is clicked.
 <!--/typeFunctionParamDescription1_field4-->

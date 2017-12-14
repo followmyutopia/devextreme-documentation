@@ -109,7 +109,7 @@ In the financial series ([*candlestick*](/Documentation/ApiReference/Data_Visual
 <a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturespointimage/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the series point.
 <!--/typeFunctionParamDescription1-->

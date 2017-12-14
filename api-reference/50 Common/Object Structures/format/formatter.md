@@ -18,12 +18,12 @@ If none of the [predefined formats](/Documentation/ApiReference/Common/Object_St
 - **format**.[parser](/Documentation/ApiReference/Common/Object_Structures/format/#parser)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->number|date<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Number|Date<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 A value to be formatted.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The value after formatting.
 <!--/typeFunctionReturnDescription-->

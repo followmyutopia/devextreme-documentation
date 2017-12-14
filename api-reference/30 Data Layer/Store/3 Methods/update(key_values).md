@@ -6,13 +6,13 @@ Updates the data item specified by the key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->object|string|number<!--/paramType1-->
+<!--paramType1-->Object|String|Number<!--/paramType1-->
 <!--paramDescription1-->
 The key value of the item being updated.
 <!--/paramDescription1-->
 
 <!--paramName2-->values<!--/paramName2-->
-<!--paramType2-->object<!--/paramType2-->
+<!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
 The object containing new values for the specified item.
 <!--/paramDescription2-->

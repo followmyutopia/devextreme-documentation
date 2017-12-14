@@ -11,7 +11,7 @@ Customizes the text displayed by legend items.
 [note]The **this** object also exposes the **item** and **text** fields.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the funnel item and its corresponding legend item.
 <!--/typeFunctionParamDescription1-->
@@ -21,12 +21,12 @@ Information on the funnel item and its corresponding legend item.
 The [Item](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/) object.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->text<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The legend item's original text.
 <!--/typeFunctionParamDescription1_field2-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The text for the legend item to display.
 <!--/typeFunctionReturnDescription-->

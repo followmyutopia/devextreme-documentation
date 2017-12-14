@@ -8,17 +8,17 @@ Sets a custom template engine defined via custom compile and render functions.
 <!--/shortDescription-->
 
 <!--paramName1-->templateEngineOptions<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object providing functions for parsing and rendering templates.
 <!--/paramDescription1-->
 <!--paramName1_field1-->compile<!--/paramName1_field1-->
-<!--paramType1_field1-->function(html, $element)<!--/paramType1_field1-->
+<!--paramType1_field1-->function()<!--/paramType1_field1-->
 <!--paramDescription1_field1-->
 A function that parses the passed HTML or DOM element and returns a template.
 <!--/paramDescription1_field1-->
 <!--paramName1_field2-->render<!--/paramName1_field2-->
-<!--paramType1_field2-->function(template, data, index)<!--/paramType1_field2-->
+<!--paramType1_field2-->function()<!--/paramType1_field2-->
 <!--paramDescription1_field2-->
 A function that inserts data into the template returned by the "compile" function and returns the HTML element to be rendered. The template, data and item index are passed as the function's parameters. Note that the item index is defined only for collection widgets, for example, [List](/Documentation/Guide/Widgets/List/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), [Scheduler](/Documentation/Guide/Widgets/Scheduler/Overview/).
 <!--/paramDescription1_field2-->

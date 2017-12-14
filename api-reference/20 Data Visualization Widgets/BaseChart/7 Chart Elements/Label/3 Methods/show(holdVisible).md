@@ -6,7 +6,7 @@ Shows the point label and keeps it visible until the [hide()]({basewidgetpath}/C
 <!--/shortDescription-->
 
 <!--paramName1-->holdVisible<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 Specifies whether to keep the point label visible.
 <!--/paramDescription1-->

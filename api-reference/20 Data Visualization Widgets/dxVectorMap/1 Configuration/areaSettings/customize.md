@@ -39,7 +39,7 @@ Specifies the index of the color when using [palettes](/Documentation/ApiReferen
 The area to be customized.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->dxVectorMapOptions_areaSettings<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->dxVectorMap_Options_areaSettings<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A configuration object for the area.
 <!--/typeFunctionReturnDescription-->

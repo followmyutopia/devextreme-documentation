@@ -6,7 +6,7 @@ Gets all visible columns at a specific hierarchical level of column headers. Use
 <!--/shortDescription-->
 
 <!--paramName1-->headerLevel<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The level of column headers.
 <!--/paramDescription1-->

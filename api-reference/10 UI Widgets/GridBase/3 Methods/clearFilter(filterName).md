@@ -6,7 +6,7 @@ Clears all row filters of a specific type.
 <!--/shortDescription-->
 
 <!--paramName1-->filterName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The type of the filter to be cleared.
 <!--/paramDescription1-->

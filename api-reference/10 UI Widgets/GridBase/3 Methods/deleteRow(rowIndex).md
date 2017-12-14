@@ -6,7 +6,7 @@ Removes a specific row from the widget.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The index of the row to be removed.
 <!--/paramDescription1-->

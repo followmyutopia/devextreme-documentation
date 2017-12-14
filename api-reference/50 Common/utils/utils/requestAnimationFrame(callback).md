@@ -8,7 +8,7 @@ Requests that the browser call a specified function to update animation before t
 <!--/shortDescription-->
 
 <!--paramName1-->callback<!--/paramName1-->
-<!--paramType1-->function<!--/paramType1-->
+<!--paramType1-->function()<!--/paramType1-->
 <!--paramDescription1-->
 Specifies the function to call when it's time to update your animation for the next repaint.
 <!--/paramDescription1-->

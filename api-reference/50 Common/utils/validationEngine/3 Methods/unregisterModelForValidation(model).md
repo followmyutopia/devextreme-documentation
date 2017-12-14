@@ -6,7 +6,7 @@ Unregisters all the [Validator](/Documentation/ApiReference/UI_Widgets/dxValidat
 <!--/shortDescription-->
 
 <!--paramName1-->model<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 Specifies the model to unregister.
 <!--/paramDescription1-->

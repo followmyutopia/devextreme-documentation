@@ -6,7 +6,7 @@ Gets the value of the form item option.
 <!--/shortDescription-->
 
 <!--paramName1-->field<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 Specifies the path to the required [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) field, or the name of the required item.
 <!--/paramDescription1-->

@@ -6,7 +6,7 @@ Gets the index of a row by its key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->object|string|number<!--/paramType1-->
+<!--paramType1-->Object|String|Number<!--/paramType1-->
 <!--paramDescription1-->
 The key of the row.
 <!--/paramDescription1-->

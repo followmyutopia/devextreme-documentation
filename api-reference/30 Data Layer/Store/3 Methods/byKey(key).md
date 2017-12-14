@@ -6,7 +6,7 @@ Returns the data item specified by the key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->object|string|number<!--/paramType1-->
+<!--paramType1-->Object|String|Number<!--/paramType1-->
 <!--paramDescription1-->
 Specifies the key value of the required items.
 <!--/paramDescription1-->

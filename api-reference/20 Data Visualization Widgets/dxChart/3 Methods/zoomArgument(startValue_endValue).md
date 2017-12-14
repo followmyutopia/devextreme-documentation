@@ -6,13 +6,13 @@ Sets the specified start and end values for the chart's argument axis.
 <!--/shortDescription-->
 
 <!--paramName1-->startValue<!--/paramName1-->
-<!--paramType1-->Number|Date|string<!--/paramType1-->
+<!--paramType1-->Number|Date|String<!--/paramType1-->
 <!--paramDescription1-->
 A new start value for the argument axis.
 <!--/paramDescription1-->
 
 <!--paramName2-->endValue<!--/paramName2-->
-<!--paramType2-->Number|Date|string<!--/paramType2-->
+<!--paramType2-->Number|Date|String<!--/paramType2-->
 <!--paramDescription2-->
 A new end value for the argument axis.
 <!--/paramDescription2-->

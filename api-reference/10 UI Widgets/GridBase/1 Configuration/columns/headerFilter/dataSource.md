@@ -306,17 +306,17 @@ If you use a data source that does not contain the required fields (**text** and
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Data source options.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->dataSource<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->DataSourceOptions<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->DataSource_Options<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The header filter's data source.
 <!--/typeFunctionParamDescription1_field2-->

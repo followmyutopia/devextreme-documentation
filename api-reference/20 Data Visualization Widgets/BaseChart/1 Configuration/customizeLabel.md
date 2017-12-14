@@ -45,7 +45,7 @@ The **customizeLabel** function accepts an object providing information about th
 </div>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the series point.
 <!--/typeFunctionParamDescription1-->

@@ -6,17 +6,17 @@ Obtains the total count of items that will be returned by the **load()** functio
 <!--/shortDescription-->
 
 <!--paramName1-->obj<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object holding filtering and grouping options.
 <!--/paramDescription1-->
 <!--paramName1_field1-->filter<!--/paramName1_field1-->
-<!--paramType1_field1-->object<!--/paramType1_field1-->
+<!--paramType1_field1-->Object<!--/paramType1_field1-->
 <!--paramDescription1_field1-->
 Data filtering conditions.
 <!--/paramDescription1_field1-->
 <!--paramName1_field2-->group<!--/paramName1_field2-->
-<!--paramType1_field2-->object<!--/paramType1_field2-->
+<!--paramType1_field2-->Object<!--/paramType1_field2-->
 <!--paramDescription1_field2-->
 Data grouping options.
 <!--/paramDescription1_field2-->

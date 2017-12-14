@@ -6,7 +6,7 @@ Sets the coordinates of the map viewport.
 <!--/shortDescription-->
 
 <!--paramName1-->viewportCoordinates<!--/paramName1-->
-<!--paramType1-->Array<number><!--/paramType1-->
+<!--paramType1-->Array<Number><!--/paramType1-->
 <!--paramDescription1-->
 New coordinates for the map viewport. Pass **null** to reset the viewport.
 <!--/paramDescription1-->

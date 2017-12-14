@@ -6,7 +6,7 @@ Calculates the sum of item getter values in the current [Query](/Documentation/A
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 The required getter.
 <!--/paramDescription1-->

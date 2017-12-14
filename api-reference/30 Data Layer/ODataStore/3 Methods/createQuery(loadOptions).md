@@ -6,7 +6,7 @@ Creates the [Query](/Documentation/ApiReference/Data_Layer/Query/) object for th
 <!--/shortDescription-->
 
 <!--paramName1-->loadOptions<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 The optional query configuration object.
 <!--/paramDescription1-->

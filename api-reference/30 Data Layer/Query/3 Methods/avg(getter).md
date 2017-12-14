@@ -6,7 +6,7 @@ Calculates the average item value for the current [Query](/Documentation/ApiRefe
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 A getter for calculating the current value.
 <!--/paramDescription1-->

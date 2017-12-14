@@ -6,7 +6,7 @@ Gets the currently selected row keys.
 <!--/shortDescription-->
 
 <!--paramName1-->leavesOnly<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 Specifies whether this method returns only leaves' keys.
 <!--/paramDescription1-->

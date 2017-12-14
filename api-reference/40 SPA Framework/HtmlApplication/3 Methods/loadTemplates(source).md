@@ -6,7 +6,7 @@ Adds a specified HTML template to a collection of view or layout templates.
 <!--/shortDescription-->
 
 <!--paramName1-->source<!--/paramName1-->
-<!--paramType1-->string|jQuery<!--/paramType1-->
+<!--paramType1-->String|jQuery<!--/paramType1-->
 <!--paramDescription1-->
 A string containing the URI of the HTML page or a jQuery object presenting a template markup.
 <!--/paramDescription1-->

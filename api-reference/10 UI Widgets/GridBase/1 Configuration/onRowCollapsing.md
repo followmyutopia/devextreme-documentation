@@ -12,7 +12,7 @@ A handler for the **rowCollapsing** event. Executed before a row is collapsed.
 To cancel row collapsing, assign **true** to the **cancel** field of the handler parameter.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -27,7 +27,7 @@ The widget's instance.
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
@@ -37,7 +37,7 @@ The model data. Available only if you use Knockout.
 The key of the row.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->boolean<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Boolean<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 Allows you to cancel row collapsing.
 <!--/typeFunctionParamDescription1_field5-->

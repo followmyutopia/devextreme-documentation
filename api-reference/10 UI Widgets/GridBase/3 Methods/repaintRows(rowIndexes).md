@@ -6,7 +6,7 @@ Repaints specific rows.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndexes<!--/paramName1-->
-<!--paramType1-->Array<number><!--/paramType1-->
+<!--paramType1-->Array<Number><!--/paramType1-->
 <!--paramDescription1-->
 Row indexes.
 <!--/paramDescription1-->

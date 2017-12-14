@@ -6,7 +6,7 @@ Returns the key of the Store item that matches the specified object.
 <!--/shortDescription-->
 
 <!--paramName1-->obj<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object whose key value you need to get.
 <!--/paramDescription1-->

@@ -6,7 +6,7 @@ Redraws a widget.
 <!--/shortDescription-->
 
 <!--paramName1-->renderOptions<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object containing rerendering options.
 <!--/paramDescription1-->

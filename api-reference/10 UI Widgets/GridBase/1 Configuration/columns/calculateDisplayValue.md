@@ -147,7 +147,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 - **columns[]**.[calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The data of the row to which the cell belongs.
 <!--/typeFunctionParamDescription1-->

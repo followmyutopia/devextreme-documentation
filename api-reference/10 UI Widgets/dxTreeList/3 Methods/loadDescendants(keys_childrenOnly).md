@@ -12,7 +12,7 @@ Node keys.
 <!--/paramDescription1-->
 
 <!--paramName2-->childrenOnly<!--/paramName2-->
-<!--paramType2-->boolean<!--/paramType2-->
+<!--paramType2-->Boolean<!--/paramType2-->
 <!--paramDescription2-->
 Pass **true** to load only children, **false** to load all the specified node's descendants.          
 **false** by default.

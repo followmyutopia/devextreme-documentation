@@ -6,7 +6,7 @@ Gets a data object's key.
 <!--/shortDescription-->
 
 <!--paramName1-->obj<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 A data object.
 <!--/paramDescription1-->

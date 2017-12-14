@@ -23,7 +23,7 @@ The method passed to this option should return a Promise.
     });
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object|string|number<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The required key value.
 <!--/typeFunctionParamDescription1-->

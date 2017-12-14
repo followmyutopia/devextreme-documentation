@@ -6,7 +6,7 @@ Sets the value of the map zoom factor.
 <!--/shortDescription-->
 
 <!--paramName1-->zoomFactor<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 A new value of the zoom factor. Pass **null** to reset the zoom factor.
 <!--/paramDescription1-->

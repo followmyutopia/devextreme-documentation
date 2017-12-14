@@ -14,7 +14,7 @@ Many **TreeList** elements are based on editors. For example, the search panel i
 [note]For cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate), the **onEditorPrepared** handler is not executed.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -29,12 +29,12 @@ The widget's instance.
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->parentType<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The editor's location. One of *'dataRow'*, *'filterRow'*, *'headerRow'* or *'searchPanel'*.
 <!--/typeFunctionParamDescription1_field4-->
@@ -49,22 +49,22 @@ The editor's value.
 A method that you need to call to change the cell value after the editor's value is changed.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->updateValueTimeout<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 Gets and sets the delay between the moment a user stops typing a filter value and the moment it is applied. Available if **parentType** is *'filterRow'* or *'searchPanel'*.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->width<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->Number<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The editor's width; equals **null** for editors of all parent types except for the *'searchPanel'*.  
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->disabled<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->boolean<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->Boolean<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 Indicates whether the editor is disabled.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rtlEnabled<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->boolean<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->Boolean<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 Indicates whether the editor uses right-to-left representation.
 <!--/typeFunctionParamDescription1_field10-->
@@ -74,12 +74,12 @@ Indicates whether the editor uses right-to-left representation.
 The editor's container.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->readOnly<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->boolean<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->Boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 Indicates whether the editor is read-only.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->dataField<!--/typeFunctionParamName1_field13-->
-<!--typeFunctionParamType1_field13-->string<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamType1_field13-->String<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
 The name of the field that provides data for the column to which the editor belongs.
 <!--/typeFunctionParamDescription1_field13-->

@@ -6,7 +6,7 @@ Scrolls widget content by the specified number of pixels in horizontal and verti
 <!--/shortDescription-->
 
 <!--paramName1-->distanceObject<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object specifying a distance to be scrolled in pixels.
 <!--/paramDescription1-->

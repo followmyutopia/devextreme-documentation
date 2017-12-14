@@ -23,7 +23,7 @@ A function returning either of the above. For example:
             return window.innerWidth / 1.5;
         }
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->number|string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The widget's width.
 <!--/typeFunctionReturnDescription-->

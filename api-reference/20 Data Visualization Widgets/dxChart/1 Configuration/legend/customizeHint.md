@@ -10,7 +10,7 @@ Specifies the text for a hint that appears when a user hovers the mouse pointer 
 This option accepts a function that must return the required text. When implementing this function, use its parameter to access the information on the series that corresponds to the legend item.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->seriesInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the series.
 <!--/typeFunctionParamDescription1-->
@@ -25,12 +25,12 @@ The series' [name](/Documentation/ApiReference/Data_Visualization_Widgets/dxChar
 The index of the series in the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/) array. To get the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/) object by this index, call the [getSeriesByPos(seriesIndex)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getSeriesByPosseriesIndex) method.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->seriesColor<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The series' [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#color).
 <!--/typeFunctionParamDescription1_field3-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The text for the hint to display.
 <!--/typeFunctionReturnDescription-->

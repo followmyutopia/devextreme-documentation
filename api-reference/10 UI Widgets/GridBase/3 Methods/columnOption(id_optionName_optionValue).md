@@ -6,13 +6,13 @@ Assigns a new value to a single option of a specific column.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
-<!--paramType1-->number|string<!--/paramType1-->
+<!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
 The name, index, data field, or caption of the column.
 <!--/paramDescription1-->
 
 <!--paramName2-->optionName<!--/paramName2-->
-<!--paramType2-->string<!--/paramType2-->
+<!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
 The name of the option to change.
 <!--/paramDescription2-->

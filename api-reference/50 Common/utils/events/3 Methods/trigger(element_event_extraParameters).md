@@ -14,13 +14,13 @@ An element to which the handlers to execute are attached.
 <!--/paramDescription1-->
 
 <!--paramName2-->event<!--/paramName2-->
-<!--paramType2-->string|event<!--/paramType2-->
+<!--paramType2-->String|event<!--/paramType2-->
 <!--paramDescription2-->
 The event or its name.
 <!--/paramDescription2-->
 
 <!--paramName3-->extraParameters<!--/paramName3-->
-<!--paramType3-->object<!--/paramType3-->
+<!--paramType3-->Object<!--/paramType3-->
 <!--paramDescription3-->
 Additional parameters to pass to the event handler.
 <!--/paramDescription3-->

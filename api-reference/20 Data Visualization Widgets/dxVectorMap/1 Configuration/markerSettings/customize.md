@@ -37,7 +37,7 @@ Specifies the text that accompanies a marker.
 The marker to be customized.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->dxVectorMapOptions_markerSettings<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->dxVectorMap_Options_markerSettings<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A configuration object for the marker.
 <!--/typeFunctionReturnDescription-->

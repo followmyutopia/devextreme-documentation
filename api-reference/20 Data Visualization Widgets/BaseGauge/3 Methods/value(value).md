@@ -6,7 +6,7 @@ Updates a gauge value.
 <!--/shortDescription-->
 
 <!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 A new gauge value.
 <!--/paramDescription1-->

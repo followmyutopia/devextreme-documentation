@@ -6,13 +6,13 @@ Registers a handler to be executed when a user presses a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The key for which the handler should be registered.
 <!--/paramDescription1-->
 
 <!--paramName2-->handler<!--/paramName2-->
-<!--paramType2-->function<!--/paramType2-->
+<!--paramType2-->function()<!--/paramType2-->
 <!--paramDescription2-->
 A handler.
 <!--/paramDescription2-->

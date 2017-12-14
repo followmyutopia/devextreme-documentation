@@ -37,7 +37,7 @@ When implementing a callback function for this option, you can access the hovere
 Information on the area/marker being pressed or hovered over with the mouse pointer.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The tooltip's text or markup and color.
 <!--/typeFunctionReturnDescription-->

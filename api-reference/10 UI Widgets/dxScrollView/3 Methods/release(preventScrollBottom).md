@@ -6,7 +6,7 @@ Notifies the scroll view that data loading is finished.
 <!--/shortDescription-->
 
 <!--paramName1-->preventScrollBottom<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 Indicates whether or not to prevent reachBottom action execution.
 <!--/paramDescription1-->

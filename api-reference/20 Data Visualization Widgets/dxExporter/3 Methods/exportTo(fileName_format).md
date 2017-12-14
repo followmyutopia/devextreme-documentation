@@ -6,13 +6,13 @@ Exports a DevExtreme data visualization widget into a file with a specified name
 <!--/shortDescription-->
 
 <!--paramName1-->fileName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The name of a destination file.
 <!--/paramDescription1-->
 
 <!--paramName2-->format<!--/paramName2-->
-<!--paramType2-->string<!--/paramType2-->
+<!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
 A required format.
 <!--/paramDescription2-->

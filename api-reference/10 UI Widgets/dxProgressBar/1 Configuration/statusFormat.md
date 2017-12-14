@@ -18,18 +18,18 @@ A function passed to this option should take on a numeric value and return a for
 The function may also return a string containing a Globalize format pattern.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->ratio<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->number<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The ratio of the current progress to the entire range. (From 0 to 1)
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->value<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The widget's value.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The customized progress status string.
 <!--/typeFunctionReturnDescription-->

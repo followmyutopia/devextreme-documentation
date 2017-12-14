@@ -6,7 +6,7 @@ Gets a point from the series point collection based on the specified point posit
 <!--/shortDescription-->
 
 <!--paramName1-->positionIndex<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The index of the point to be found within the series point collection.
 <!--/paramDescription1-->

@@ -6,7 +6,7 @@ Adds an item to the data associated with this Store.
 <!--/shortDescription-->
 
 <!--paramName1-->values<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object representing the new item.
 <!--/paramDescription1-->

@@ -6,7 +6,7 @@ Registers all the [Validator](/Documentation/ApiReference/UI_Widgets/dxValidator
 <!--/shortDescription-->
 
 <!--paramName1-->model<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 The ViewModel object has fields extended by the **dxValidator** objects.
 <!--/paramDescription1-->

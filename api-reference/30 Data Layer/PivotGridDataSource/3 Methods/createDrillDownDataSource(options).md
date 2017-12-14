@@ -6,32 +6,32 @@ Provides access to a list of records ([facts](/Documentation/Guide/Widgets/Pivot
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 Configuration object.
 <!--/paramDescription1-->
 <!--paramName1_field1-->columnPath<!--/paramName1_field1-->
-<!--paramType1_field1-->Array<string, number, Date><!--/paramType1_field1-->
+<!--paramType1_field1-->Array<String, Number, Date><!--/paramType1_field1-->
 <!--paramDescription1_field1-->
 A path to the cell in the 'column' area.
 <!--/paramDescription1_field1-->
 <!--paramName1_field2-->rowPath<!--/paramName1_field2-->
-<!--paramType1_field2-->Array<string, number, Date><!--/paramType1_field2-->
+<!--paramType1_field2-->Array<String, Number, Date><!--/paramType1_field2-->
 <!--paramDescription1_field2-->
 A path to the cell in the 'row' area.
 <!--/paramDescription1_field2-->
 <!--paramName1_field3-->dataIndex<!--/paramName1_field3-->
-<!--paramType1_field3-->number<!--/paramType1_field3-->
+<!--paramType1_field3-->Number<!--/paramType1_field3-->
 <!--paramDescription1_field3-->
 An index of the summary value in the 'data' area.
 <!--/paramDescription1_field3-->
 <!--paramName1_field4-->maxRowCount<!--/paramName1_field4-->
-<!--paramType1_field4-->number<!--/paramType1_field4-->
+<!--paramType1_field4-->Number<!--/paramType1_field4-->
 <!--paramDescription1_field4-->
 Maximum items count in the resulting list.
 <!--/paramDescription1_field4-->
 <!--paramName1_field5-->customColumns<!--/paramName1_field5-->
-<!--paramType1_field5-->Array<string><!--/paramType1_field5-->
+<!--paramType1_field5-->Array<String><!--/paramType1_field5-->
 <!--paramDescription1_field5-->
 A list of field names that will be included in each fact.
 <!--/paramDescription1_field5-->

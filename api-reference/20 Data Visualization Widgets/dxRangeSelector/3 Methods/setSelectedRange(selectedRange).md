@@ -9,7 +9,7 @@ Sets a specified range.
 <!--/shortDescription-->
 
 <!--paramName1-->selectedRange<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object representing the start and end values of the selected range to be set.
 <!--/paramDescription1-->

@@ -6,7 +6,7 @@ Validates the rules that are defined within the **dxValidator** objects that are
 <!--/shortDescription-->
 
 <!--paramName1-->model<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 The ViewModel object that has fields extended by the **dxValidator** objects.
 <!--/paramDescription1-->

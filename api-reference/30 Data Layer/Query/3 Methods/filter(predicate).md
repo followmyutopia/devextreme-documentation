@@ -6,7 +6,7 @@ Filters the current [Query](/Documentation/ApiReference/Data_Layer/Query/) data.
 <!--/shortDescription-->
 
 <!--paramName1-->predicate<!--/paramName1-->
-<!--paramType1-->function<!--/paramType1-->
+<!--paramType1-->function()<!--/paramType1-->
 <!--paramDescription1-->
 A function that returns a Boolean value indicating whether or not an item is included in the resulting array.
 <!--/paramDescription1-->

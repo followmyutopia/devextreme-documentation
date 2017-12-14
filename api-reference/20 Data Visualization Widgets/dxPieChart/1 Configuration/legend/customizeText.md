@@ -13,7 +13,7 @@ By default, legend items identify chart points (sectors) by color and argument n
 Alternatively, you can use the **this** object within the function. This object has the same structure as the object passed as a parameter.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the series point.
 <!--/typeFunctionParamDescription1-->
@@ -28,12 +28,12 @@ The point's name.
 The point's index.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->pointColor<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->string<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The point's color.
 <!--/typeFunctionParamDescription1_field3-->
 
-<!--typeFunctionReturnType-->string<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The text for the legend item to display.
 <!--/typeFunctionReturnDescription-->

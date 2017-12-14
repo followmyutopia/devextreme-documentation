@@ -6,7 +6,7 @@ Detaches all event handlers from the specified event.
 <!--/shortDescription-->
 
 <!--paramName1-->eventName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The name of the event to unsubscribe from.
 <!--/paramDescription1-->

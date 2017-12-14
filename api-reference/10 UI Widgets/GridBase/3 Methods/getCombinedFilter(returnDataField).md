@@ -6,7 +6,7 @@ Returns the total filter that combines all the filters applied.
 <!--/shortDescription-->
 
 <!--paramName1-->returnDataField<!--/paramName1-->
-<!--paramType1-->boolean<!--/paramType1-->
+<!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
 Specifies whether the total filter should contain data fields instead of [getters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters).
 <!--/paramDescription1-->

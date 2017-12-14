@@ -29,7 +29,7 @@ Note that the **onItemDeleted** and **onItemDeleting** handlers are not executed
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -44,12 +44,12 @@ The widget's instance.
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->itemData<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The data of the item to be removed.
 <!--/typeFunctionParamDescription1_field4-->
@@ -59,12 +59,12 @@ The data of the item to be removed.
 The item's container.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->number | object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Number|Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The item's index.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->boolean | Promise<void><!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Boolean|Promise<void><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 Allows you to cancel the item deletion.
 <!--/typeFunctionParamDescription1_field7-->

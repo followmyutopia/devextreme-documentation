@@ -6,7 +6,7 @@ Expands a specified header item.
 <!--/shortDescription-->
 
 <!--paramName1-->area<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 Area whose header item should be expanded.
 <!--/paramDescription1-->

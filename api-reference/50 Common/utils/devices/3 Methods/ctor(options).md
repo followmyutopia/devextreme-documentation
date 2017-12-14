@@ -7,7 +7,7 @@
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 
 <!--/paramDescription1-->

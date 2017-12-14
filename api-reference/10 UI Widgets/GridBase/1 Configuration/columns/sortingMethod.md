@@ -90,7 +90,7 @@ A value to be compared.
 A value to be compared. 
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->number<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 Indicates whether *value1* goes before *value2*.
 <!--/typeFunctionReturnDescription-->

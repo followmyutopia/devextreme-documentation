@@ -6,13 +6,13 @@ Initiates the specified WebGet service operation that returns a value. For the i
 <!--/shortDescription-->
 
 <!--paramName1-->operationName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The name of the operation to invoke.
 <!--/paramDescription1-->
 
 <!--paramName2-->params<!--/paramName2-->
-<!--paramType2-->object<!--/paramType2-->
+<!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
 The bag of parameters supported by the operation.
 <!--/paramDescription2-->

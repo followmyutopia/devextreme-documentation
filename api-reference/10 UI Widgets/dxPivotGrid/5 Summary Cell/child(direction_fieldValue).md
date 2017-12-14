@@ -6,13 +6,13 @@ Gets the child cell in a specified direction.
 <!--/shortDescription-->
 
 <!--paramName1-->direction<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The direction in which to search for the child cell. Can be 'row' or 'column'.
 <!--/paramDescription1-->
 
 <!--paramName2-->fieldValue<!--/paramName2-->
-<!--paramType2-->number|string<!--/paramType2-->
+<!--paramType2-->Number|String<!--/paramType2-->
 <!--paramDescription2-->
 The value of the child field whose summary cell should be returned.
 <!--/paramDescription2-->

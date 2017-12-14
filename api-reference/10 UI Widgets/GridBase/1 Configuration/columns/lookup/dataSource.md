@@ -28,12 +28,12 @@ The lookup data source must contain fields assigned to the [valueExpr]({basewidg
 - [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The settings of a row.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->data<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->object<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The data of the row.
 <!--/typeFunctionParamDescription1_field1-->
@@ -43,7 +43,7 @@ The data of the row.
 The key value of the row.
 <!--/typeFunctionParamDescription1_field2-->
 
-<!--typeFunctionReturnType-->Array<any>|DataSourceOptions<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Array<any>|DataSource_Options<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 An array of data objects or a **DataSource** configuration object.
 <!--/typeFunctionReturnDescription-->

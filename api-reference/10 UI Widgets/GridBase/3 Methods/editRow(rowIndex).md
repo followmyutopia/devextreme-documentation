@@ -6,7 +6,7 @@ Switches a specific row into the editing state. Takes effect only if the [editin
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The index of the row.
 <!--/paramDescription1-->

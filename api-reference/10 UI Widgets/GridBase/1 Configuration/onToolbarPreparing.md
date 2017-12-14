@@ -91,7 +91,7 @@ The following code shows how you can customize the toolbar using this handler.
 <a href="https://www.youtube.com/watch?v=oWWL6iILMPM&index=1&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&t=3s" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -106,12 +106,12 @@ The widget's instance.
 The widget's container.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->toolbarOptions<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->dxToolbarOptions<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->dxToolbar_Options<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The [options of the toolbar](/Documentation/ApiReference/UI_Widgets/dxToolbar/Configuration/). 
 <!--/typeFunctionParamDescription1_field4-->

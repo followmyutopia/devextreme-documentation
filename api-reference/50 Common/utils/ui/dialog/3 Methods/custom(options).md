@@ -8,7 +8,7 @@ Creates a custom dialog using the options specified by the passed configuration 
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object defining options for the dialog.
 <!--/paramDescription1-->

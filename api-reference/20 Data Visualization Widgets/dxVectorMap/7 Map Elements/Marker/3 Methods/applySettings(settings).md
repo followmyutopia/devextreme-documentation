@@ -9,7 +9,7 @@ Applies the marker settings specified as a parameter and updates marker appearan
 <!--/shortDescription-->
 
 <!--paramName1-->settings<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 A configuration object for the marker.
 <!--/paramDescription1-->

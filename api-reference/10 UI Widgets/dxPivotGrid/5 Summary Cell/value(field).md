@@ -6,7 +6,7 @@ Gets the value of any field linked with the current cell.
 <!--/shortDescription-->
 
 <!--paramName1-->field<!--/paramName1-->
-<!--paramType1-->PivotGridDataSourceOptions_fields<!--/paramType1-->
+<!--paramType1-->PivotGridDataSource_Options_fields<!--/paramType1-->
 <!--paramDescription1-->
 The index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array, [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) or [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption) of the field.
 <!--/paramDescription1-->

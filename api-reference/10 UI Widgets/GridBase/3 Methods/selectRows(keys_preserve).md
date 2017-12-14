@@ -12,7 +12,7 @@ The keys of the rows to be selected.
 <!--/paramDescription1-->
 
 <!--paramName2-->preserve<!--/paramName2-->
-<!--paramType2-->boolean<!--/paramType2-->
+<!--paramType2-->Boolean<!--/paramType2-->
 <!--paramDescription2-->
 Specifies whether previously selected rows should stay selected.
 <!--/paramDescription2-->

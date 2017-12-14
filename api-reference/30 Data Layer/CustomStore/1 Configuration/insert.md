@@ -24,7 +24,7 @@ You can resolve the returned Promise with any data. For example, the key of the 
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 An object representing the inserted item.
 <!--/typeFunctionParamDescription1-->

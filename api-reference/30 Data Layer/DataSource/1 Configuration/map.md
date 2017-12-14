@@ -10,12 +10,12 @@ The item mapping function.
 For more information on item mapping, refer to the [Item Mapping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Item_Mapping) section of the Data Layer article.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->dataItem<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The data item to be processed.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The processed data item.
 <!--/typeFunctionReturnDescription-->

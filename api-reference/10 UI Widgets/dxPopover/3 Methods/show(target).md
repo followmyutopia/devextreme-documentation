@@ -6,7 +6,7 @@ Displays the widget for the specified target element.
 <!--/shortDescription-->
 
 <!--paramName1-->target<!--/paramName1-->
-<!--paramType1-->string|Node|jQuery<!--/paramType1-->
+<!--paramType1-->String|Node|jQuery<!--/paramType1-->
 <!--paramDescription1-->
 Specifies the target element the widget points to.
 <!--/paramDescription1-->

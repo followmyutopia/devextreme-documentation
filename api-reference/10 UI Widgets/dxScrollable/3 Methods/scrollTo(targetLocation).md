@@ -6,7 +6,7 @@ Scrolls widget content to the specified position.
 <!--/shortDescription-->
 
 <!--paramName1-->targetLocation<!--/paramName1-->
-<!--paramType1-->numeric<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 A position to scroll to, in pixels.
 <!--/paramDescription1-->

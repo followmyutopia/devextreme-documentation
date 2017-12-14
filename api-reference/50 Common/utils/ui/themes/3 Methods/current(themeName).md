@@ -6,7 +6,7 @@ Changes the current theme to the specified one.
 <!--/shortDescription-->
 
 <!--paramName1-->themeName<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The name of the theme to activate.
 <!--/paramDescription1-->

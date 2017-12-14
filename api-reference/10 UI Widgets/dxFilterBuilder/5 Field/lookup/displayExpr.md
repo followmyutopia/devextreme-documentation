@@ -12,7 +12,7 @@ This option accepts a string - the name of the data field that provides displaye
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The current data object.
 <!--/typeFunctionParamDescription1-->

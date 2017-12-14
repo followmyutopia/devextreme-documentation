@@ -6,7 +6,7 @@ Removes a route from the map.
 <!--/shortDescription-->
 
 <!--paramName1-->route<!--/paramName1-->
-<!--paramType1-->object|number|Array<Object><!--/paramType1-->
+<!--paramType1-->Object|Number|Array<Object><!--/paramType1-->
 <!--paramDescription1-->
 A route options object, route index or an array of route to be removed.
 <!--/paramDescription1-->

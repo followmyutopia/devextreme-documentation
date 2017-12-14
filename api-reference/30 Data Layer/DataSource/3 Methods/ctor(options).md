@@ -7,7 +7,7 @@
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->CustomStoreOptions|DataSourceOptions<!--/paramType1-->
+<!--paramType1-->CustomStore_Options|DataSource_Options<!--/paramType1-->
 <!--paramDescription1-->
 
 <!--/paramDescription1-->

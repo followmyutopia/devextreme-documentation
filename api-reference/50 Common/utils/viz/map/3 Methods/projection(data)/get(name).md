@@ -6,7 +6,7 @@ Gets the default or custom projection from the projection storage.
 <!--/shortDescription-->
 
 <!--paramName1-->name<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The projection name.
 <!--/paramDescription1-->

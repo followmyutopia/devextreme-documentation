@@ -8,7 +8,7 @@ Sets the current locale identifier.
 <!--/shortDescription-->
 
 <!--paramName1-->locale<!--/paramName1-->
-<!--paramType1-->string<!--/paramType1-->
+<!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The required locale identifier.
 <!--/paramDescription1-->

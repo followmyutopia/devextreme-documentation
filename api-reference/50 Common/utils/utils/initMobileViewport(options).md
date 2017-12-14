@@ -8,7 +8,7 @@ Sets parameters for the **viewport** meta tag.
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object specifying whether to enable or disable pinch-zooming and panning gestures within a mobile browser's view port.
 <!--/paramDescription1-->

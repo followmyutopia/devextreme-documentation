@@ -6,7 +6,7 @@ Validates rules of the [validators](/Documentation/ApiReference/UI_Widgets/dxVal
 <!--/shortDescription-->
 
 <!--paramName1-->group<!--/paramName1-->
-<!--paramType1-->string|object<!--/paramType1-->
+<!--paramType1-->String|Object<!--/paramType1-->
 <!--paramDescription1-->
 The key of the group to be validated.
 <!--/paramDescription1-->

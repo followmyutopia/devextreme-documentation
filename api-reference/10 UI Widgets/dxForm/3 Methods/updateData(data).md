@@ -6,7 +6,7 @@ Updates the specified fields of the [formData](/Documentation/ApiReference/UI_Wi
 <!--/shortDescription-->
 
 <!--paramName1-->data<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 An object containing the fields to be updated and their new values.
 <!--/paramDescription1-->

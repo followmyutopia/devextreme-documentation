@@ -6,7 +6,7 @@ Gets the element of a row by its index.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
-<!--paramType1-->number<!--/paramType1-->
+<!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
 The visible index of the row.
 <!--/paramDescription1-->

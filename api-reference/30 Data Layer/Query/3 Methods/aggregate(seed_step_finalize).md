@@ -6,19 +6,19 @@ Calculates a custom summary for the items in the current [Query](/Documentation/
 <!--/shortDescription-->
 
 <!--paramName1-->seed<!--/paramName1-->
-<!--paramType1-->object<!--/paramType1-->
+<!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
 The initial value.
 <!--/paramDescription1-->
 
 <!--paramName2-->step<!--/paramName2-->
-<!--paramType2-->function<!--/paramType2-->
+<!--paramType2-->function()<!--/paramType2-->
 <!--paramDescription2-->
 A function called for each item.
 <!--/paramDescription2-->
 
 <!--paramName3-->finalize<!--/paramName3-->
-<!--paramType3-->function<!--/paramType3-->
+<!--paramType3-->function()<!--/paramType3-->
 <!--paramDescription3-->
 A function invoked after the operation is finished.
 <!--/paramDescription3-->

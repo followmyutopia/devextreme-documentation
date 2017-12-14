@@ -30,7 +30,7 @@ Specifies the color of the tooltip border.
 When implementing a callback function for this option, you can use the value of the node that has entered the hover state. This value can be accessed using the object passed as the function's parameter or the **this** object.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the node being pressed or hovered over with the mouse pointer.
 <!--/typeFunctionParamDescription1-->
@@ -40,7 +40,7 @@ Information on the node being pressed or hovered over with the mouse pointer.
 The raw node value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tooltip/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
@@ -50,7 +50,7 @@ The [formatted](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap
 The [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) object.
 <!--/typeFunctionParamDescription1_field3-->
 
-<!--typeFunctionReturnType-->object<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The tooltip's text or markup and color.
 <!--/typeFunctionReturnDescription-->
