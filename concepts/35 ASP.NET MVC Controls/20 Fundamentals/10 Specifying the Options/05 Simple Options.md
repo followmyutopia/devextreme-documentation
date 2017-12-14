@@ -1,8 +1,8 @@
-To specify a simple widget option, call the corresponding control method and pass the required option value.
+To specify a simple option, call the corresponding control method and pass the required option value.
 
     <!--Razor C#-->
     @(Html.DevExtreme().Button()
-        .ID("submitButton") // sets the "id" attribute of the widget container
+        .ID("submitButton") // sets the "id" attribute of the control container
         .Text("submit") // sets the button text
         .Width(100) // sets the button width
     )
@@ -16,10 +16,10 @@ To specify a simple widget option, call the corresponding control method and pas
 
 [note]
 
-Specifying the `ID` option is not necessary. However, you may need it if you plan to access the widget's JavaScript API at runtime (for example, to [call a method](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)). The `ID` option's value should meet certain requirements: 
+Specifying the `ID` option is not necessary. However, you may need it if you plan to access the control's JavaScript API at runtime (for example, to [call a method](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Calling_Methods)). The `ID` option's value should meet certain requirements: 
 
 - It must always be unique in a page's context;     
-- If a partial view is loaded multiple times, each partial view instance must render all the widgets with unique IDs;     
+- If a partial view is loaded multiple times, each partial view instance must render all the controls with unique IDs;     
 - It should meet the [`id` attribute's requirements in HTML5](https://www.w3.org/TR/html5/dom.html#the-id-attribute).
 
 [/note]

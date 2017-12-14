@@ -1,4 +1,4 @@
-Commonly, if editors are nested into an HTML form, they are supposed to be submitted to the server after being validated on the client. The DevExtreme [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) widget supports this scenario out of the box. Place the **Button** on the HTML form and pass **true** to the `UseSubmitBehavior` method.
+Commonly, if editors are nested into an HTML form, they are supposed to be submitted to the server after being validated on the client. The DevExtreme [Button](/Documentation/ApiReference/UI_Widgets/dxButton/) control supports this scenario out of the box. Place the **Button** on the HTML form and pass **true** to the `UseSubmitBehavior` method.
  
     <!--Razor C#-->
     @model Application1.ViewModels.LoginViewModel
@@ -49,7 +49,7 @@ Commonly, if editors are nested into an HTML form, they are supposed to be submi
         End Using
     End Using
 
-Note that the **Button** validates the **TextBox** widgets in the previous code provided that the *"Login"* and *"Password"* model properties have [Data Annotation validation attributes](https://www.asp.net/mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-6).
+Note that the **Button** validates the **TextBox** controls in the previous code provided that the *"Login"* and *"Password"* model properties have [Data Annotation validation attributes](https://www.asp.net/mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-6).
 
 [note]The **Button** may validate different [validation groups](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_a_Group_of_Editors/), but it always submits a definite HTML form - the one in which it is nested. To avoid mixing up validated and submitted values, we recommend that a single HTML form contain only a single validation group.
 
@@ -58,6 +58,6 @@ Note that the **Button** validates the **TextBox** widgets in the previous code 
 #####See Also#####
 - [Client-Side Validation - Overview](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)
 - [Client-Side Validation - Implement a Custom Validation Rule](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Implement_a_Custom_Validation_Rule/)
-- [Client-Side Validation - Validate and Submit the Form Widget](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_the_Form_Widget/)
+- [Client-Side Validation - Validate and Submit the Form Control](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_the_Form_Control/)
 
 [tags]asp.net mvc controls, validate a form, submit a form, submit editors, UseSubmitBehavior

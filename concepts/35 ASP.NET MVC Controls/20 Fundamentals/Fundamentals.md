@@ -2,7 +2,7 @@ DevExtreme ASP.NET MVC Controls are a set of server-side controls that allow you
 
 ![DevExtreme ASP.NET MVC Controls - JavaScript Generated from Razor Code](/Content/images/doc/17_2/Common/MvcWrappers/rendering.png) 
 
-This guide offers the basics in DevExtreme ASP.NET MVC Controls, such as creating and configuring a DevExtreme widget, handling the events and implementing templates.
+This guide offers the basics in DevExtreme ASP.NET MVC Controls, such as creating and configuring a control, handling the events and implementing templates.
 
 #####See Also#####
 - [ASP.NET MVC Controls - Prerequisites and Installation](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/)

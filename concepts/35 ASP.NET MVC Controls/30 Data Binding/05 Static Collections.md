@@ -1,4 +1,4 @@
-A static collection will be serialized to JSON and embedded into the widget configuration.
+A static collection will be serialized to JSON and embedded into a control's configuration.
 
     <!--Razor C#-->
     @(Html.DevExtreme().SelectBox()

@@ -1,4 +1,4 @@
-An OLAP cube is a multi-dimensional dataset that allows for data mining and analysis. For displaying data from an OLAP cube, DevExtreme provides the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget. You can access the OLAP cube by calling the `DataSource()` method as shown in the following code. The lambda expression passed to this method configures the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) data store.
+An OLAP cube is a multi-dimensional dataset that allows for data mining and analysis. For displaying data from an OLAP cube, DevExtreme provides the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) control. You can access the OLAP cube by calling the `DataSource()` method as shown in the following code. The lambda expression passed to this method configures the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) data store.
 
     <!--Razor C#-->
     @(Html.DevExtreme().PivotGrid()

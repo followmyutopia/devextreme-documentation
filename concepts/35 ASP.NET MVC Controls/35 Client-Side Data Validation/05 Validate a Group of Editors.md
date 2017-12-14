@@ -116,7 +116,7 @@ Those editors whose validation group is not specified explicitly are collected i
         }
     </script>
 
-[note] Frequently, a collection of editors should be submitted after being validated. The DevExtreme **Button** widget supports this scenario out of the box. See the [Validate and Submit an HTML Form](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_an_HTML_Form/) topic for details.
+[note] Frequently, a collection of editors should be submitted after being validated. The DevExtreme **Button** control supports this scenario out of the box. See the [Validate and Submit an HTML Form](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_an_HTML_Form/) topic for details.
 
 Each editor displays validation errors relevant only to it. If you need all errors relevant to a validation group to be displayed in one place, add a [ValidationSummary](/Documentation/ApiReference/UI_Widgets/dxValidationSummary/) to your page.
 

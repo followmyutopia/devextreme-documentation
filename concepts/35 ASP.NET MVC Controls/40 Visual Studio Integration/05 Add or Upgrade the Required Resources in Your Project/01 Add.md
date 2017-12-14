@@ -18,7 +18,7 @@ To add resources DevExtreme ASP.NET MVC Controls require to your project, follow
 
 Now DevExtreme ASP.NET MVC Controls are set up for your project. If any issues appear during the process, address them by following the messages in the **Output** window. After that, repeat the steps above starting with step 2.
 
-[note] **ASP.NET MVC 3 to 5 only**. Certain resources are added, but not linked, because either they are already linked in the basic project template, or they provide specific functionality. Those resources are jQuery, JSZip for client-side exporting in the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) widget and data for the [VectorMap](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/) widget. To link any of those resources, uncomment the corresponding code lines in the **AppStart/DevExtremeBundleConfig.cs** file.
+[note] **ASP.NET MVC 3 to 5 only**. Certain resources are added, but not linked, because either they are already linked in the basic project template, or they provide specific functionality. Those resources are jQuery, JSZip for client-side exporting in the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) control and data for the [VectorMap](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/) control. To link any of those resources, uncomment the corresponding code lines in the **AppStart/DevExtremeBundleConfig.cs** file.
 
 #####See Also#####
 - [ASP.NET MVC Controls - Fundamentals](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/)

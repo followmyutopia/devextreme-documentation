@@ -71,7 +71,7 @@ As an alternative, you can use a more explicit syntax for binding an editor to a
         .Value(Model.FirstName)
     )
 
-[note] Use the `StartName` and `EndName` methods instead of the `Name` method for the [RangeSlider](/Documentation/ApiReference/UI_Widgets/dxRangeSlider) widget.
+[note] Use the `StartName` and `EndName` methods instead of the `Name` method for the [RangeSlider](/Documentation/ApiReference/UI_Widgets/dxRangeSlider) control.
 
 The input value is validated each time the [change](https://developer.mozilla.org/en-US/docs/Web/Events/change) event is raised by default. To change the DOM event that triggers validation, set the [valueChangeEvent](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#valueChangeEvent) option.
 
@@ -116,6 +116,6 @@ If the `[Range]` attribute should limit a date or time range, use the `RangeAttr
 - [Client-Side Validation - Validate a Group of Editors](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_a_Group_of_Editors)
 - [Client-Side Validation - Implement a Custom Validation Rule](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Implement_a_Custom_Validation_Rule)
 - [Client-Side Validation - Validate and Submit an HTML Form](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_an_HTML_Form/)
-- [Client-Side Validation - Validate and Submit the Form Widget](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_the_Form_Widget/)
+- [Client-Side Validation - Validate and Submit the Form Control](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_and_Submit_the_Form_Control/)
 
 [tags]asp.net mvc controls, client-side data validation, data annotations, validation attributes

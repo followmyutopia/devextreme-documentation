@@ -1,4 +1,4 @@
-External templates can be declared as a named template, a partial view, or a `@helper` block (MVC 3, 4, 5 only). Commonly, you need to declare an external template for high-level nesting or if you want to reuse it. Controls placed in such a template are aware of it and behave accordingly. In the following example, the [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/) widget nests a template with the [List](/Documentation/ApiReference/UI_Widgets/dxList/) widget. The **List**, in turn, nests another template for its items.
+External templates can be declared as a named template, a partial view, or a `@helper` block (MVC 3, 4, 5 only). Commonly, you need to declare an external template for high-level nesting or if you want to reuse it. Controls placed in such a template are aware of it and behave accordingly. In the following example, the [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/) control nests a template with the [List](/Documentation/ApiReference/UI_Widgets/dxList/) control. The **List**, in turn, nests another template for its items.
 
 - **Named template**    
 

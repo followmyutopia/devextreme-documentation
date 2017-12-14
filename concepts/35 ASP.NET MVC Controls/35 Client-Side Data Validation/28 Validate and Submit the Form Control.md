@@ -1,4 +1,4 @@
-Editors nested in the [Form](/Documentation/ApiReference/UI_Widgets/dxForm/) widget can be validated only if they are bound to model properties that have [Data Annotation validation attributes](https://www.asp.net/mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-6). To bind such editors, use the `DataField` method. Note that you can omit specifying the editor explicitly if the [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) with default settings satisfies your needs.
+Editors nested in the [Form](/Documentation/ApiReference/UI_Widgets/dxForm/) control can be validated only if they are bound to model properties that have [Data Annotation validation attributes](https://www.asp.net/mvc/overview/older-versions/mvc-music-store/mvc-music-store-part-6). To bind such editors, use the `DataField` method. Note that you can omit specifying the editor explicitly if the [TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/) with default settings satisfies your needs.
 
     <!--Razor C#-->
     @(Html.DevExtreme().Form()

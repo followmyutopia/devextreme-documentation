@@ -1,4 +1,4 @@
-A common use case of templates is the detail section of the [master-detail UI](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/) in the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) widget. Consider the following code, in which the detail section nests another **DataGrid** whose controller gets the `data.OrderID` free variable as a loading parameter.
+A common use case of templates is the detail section of the [master-detail UI](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/) in the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) control. Consider the following code, in which the detail section nests another **DataGrid** whose controller gets the `data.OrderID` free variable as a loading parameter.
     
     <!--Razor C#-->
     @(Html.DevExtreme().DataGrid()
@@ -53,7 +53,7 @@ A common use case of templates is the detail section of the [master-detail UI](/
             End Sub)
     End Code
 
-Note that the `data.ID` free variable is wrapped in the `new JS()` construction. This construction allows you to embed JavaScript statements in the resulting widget configuration. In particular, the data source configuration of the nested **DataGrid** from the preceding code yields the following output.
+Note that the `data.ID` free variable is wrapped in the `new JS()` construction. This construction allows you to embed JavaScript statements in the resulting control configuration. In particular, the data source configuration of the nested **DataGrid** from the preceding code yields the following output.
 
     "dataSource": {
         "store": DevExpress.data.AspNet.createStore({
