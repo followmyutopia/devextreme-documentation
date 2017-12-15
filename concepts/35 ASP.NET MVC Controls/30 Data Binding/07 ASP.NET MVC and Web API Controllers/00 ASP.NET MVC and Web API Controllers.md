@@ -202,7 +202,7 @@ The code below details the `GridDataController`. CRUD operations are performed o
 
 ---
 
-If you use a Web API controller in your app, configure access to it using the `WebApi()` method of the `DataSource()`'s lambda parameter. The `WebApi()` exposes the same methods as `Mvc()` for specifying the controller and action names, but with one addition: You can pass **true** to the `UpdateAction`, `InsertAction`, and `DeleteAction` methods if the actions are called `Get`, `Put`, `Post`, and `Delete`. The `WebApi()` method is not intended for .NET Core MVC apps.
+If you use a Web API controller in your app, configure access to it using the `WebApi()` method of the `DataSource()`'s lambda parameter. The `WebApi()` exposes the same methods as `Mvc()` for specifying the controller and action names, but with one addition: You can pass **true** to the `UpdateAction`, `InsertAction`, and `DeleteAction` methods for routing based on Http[Verb] attributes. The `WebApi()` method is not intended for .NET Core MVC apps.
 
     <!--Razor C#-->
     @(Html.DevExtreme().DataGrid()
