@@ -31,6 +31,10 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 
 [note] Specifying this option with an object as well as with the *"enlargeTickInterval"* and *"ignore"* values is <span style="color:red">deprecated</span>.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/AxisLabelsOverlapping/jQuery/Light/"
+}
+
 #####See Also#####
 - [Axis Labels](/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/)
 <!--/fullDescription-->
