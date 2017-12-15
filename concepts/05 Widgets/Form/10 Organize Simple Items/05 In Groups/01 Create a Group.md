@@ -32,13 +32,16 @@ In the context of the **Form** widget, a group is called ["group item"](/Documen
         [(formData)]="employee">
         <dxi-item
             itemType="group"
-            caption="Personal Data"
-            [items]="['firstName', 'lastName', 'position']">
+            caption="Personal Data">
+                <dxi-item dataField="firstName"></dxi-item>
+                <dxi-item dataField="lastName"></dxi-item>
+                <dxi-item dataField="position"></dxi-item>
         </dxi-item>
         <dxi-item
             itemType="group"
-            caption="Contacts"
-            [items]="['phone', 'email']">
+            caption="Contacts">
+                <dxi-item dataField="phone"></dxi-item>
+                <dxi-item dataField="email"></dxi-item>
         </dxi-item>
     </dx-form>
 

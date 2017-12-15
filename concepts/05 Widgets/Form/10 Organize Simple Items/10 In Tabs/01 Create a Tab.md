@@ -33,13 +33,14 @@ The **Form** widget allows you to organize items in tabs. In the context of the 
         [(formData)]="employee">
         <dxi-item dataField="name"></dxi-item>
         <dxi-item itemType="tabbed">
-            <dxi-tab
-                title="Info"
-                [items]="['position', 'hireDate', 'city']">
+            <dxi-tab title="Info">
+                <dxi-item dataField="position"></dxi-item>
+                <dxi-item dataField="hireDate"></dxi-item>
+                <dxi-item dataField="city"></dxi-item>
             </dxi-tab>
-            <dxi-tab
-                title="Contacts"
-                [items]="['phone', 'email']">
+            <dxi-tab title="Contacts">
+                <dxi-item dataField="phone"></dxi-item>
+                <dxi-item dataField="email"></dxi-item>
             </dxi-tab>
         </dxi-item>
     </dx-form>

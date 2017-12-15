@@ -45,13 +45,16 @@ The content of a tab can be organized in columns. The [colCount](/Documentation/
             <dxi-tab
                 title="Info"
                 [colSpan]="2" <!-- Makes this tab span both general columns -->
-                [colCount]="3" <!-- Organizes items inside this tab in three columns -->
-                [items]="['position', 'hireDate', 'city']">
+                [colCount]="3"> <!-- Organizes items inside this tab in three columns -->
+                    <dxi-item dataField="position"></dxi-item>
+                    <dxi-item dataField="hireDate"></dxi-item>
+                    <dxi-item dataField="city"></dxi-item>
             </dxi-tab>
             <dxi-tab
                 title="Contacts"
-                [colCount]="2"
-                [items]="['phone', 'email']">
+                [colCount]="2">
+                    <dxi-item dataField="phone"></dxi-item>
+                    <dxi-item dataField="email"></dxi-item>
             </dxi-tab>
         </dxi-item>
     </dx-form>

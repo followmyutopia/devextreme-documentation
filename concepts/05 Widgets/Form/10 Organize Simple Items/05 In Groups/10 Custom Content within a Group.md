@@ -37,8 +37,9 @@ The **Form** widget allows you to place custom content, for example, an image, u
         </dxi-item>
         <dxi-item
             itemType="group"
-            caption="Personal Data"
-            [items]="['firstName', 'lastName']">
+            caption="Personal Data">
+                <dxi-item dataField="firstName"></dxi-item>
+                <dxi-item dataField="lastName"></dxi-item>
         </dxi-item>
         <div *dxTemplate="let data of 'pictureTemplate'">
             <img src="{{data.formData.picture}}">

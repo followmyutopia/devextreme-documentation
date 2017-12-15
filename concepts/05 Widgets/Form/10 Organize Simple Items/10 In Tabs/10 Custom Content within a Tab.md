@@ -49,13 +49,14 @@ The **Form** widget allows you to specify custom templates for an individual tab
                 tabTemplate="tab"
                 [template]="'tabContent'">
             </dxi-tab>
-            <dxi-tab
-                title="Info"
-                [items]="['position', 'hireDate', 'city']">
+            <dxi-tab title="Info">
+                <dxi-item dataField="position"></dxi-item>
+                <dxi-item dataField="hireDate"></dxi-item>
+                <dxi-item dataField="city"></dxi-item>
             </dxi-tab>
-            <dxi-tab
-                title="Contacts"
-                [items]="['phone', 'email']">
+            <dxi-tab title="Contacts">
+                <dxi-item dataField="phone"></dxi-item>
+                <dxi-item dataField="email"></dxi-item>
             </dxi-tab>
         </dxi-item>
         <div *dxTemplate="let tabData of 'tab'; let i = index">
