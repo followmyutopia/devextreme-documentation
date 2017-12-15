@@ -6,13 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the interval between [major ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tick/).
+Specifies the interval between [major ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tick/). Does not apply to [discrete axes](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Major ticks divide an axis into segments thus improving the viewer's perception of visualized data. Major ticks are generated automatically, unless the **tickInterval** option is set.
-
-If the axis displays numbers, assign a number to this option. If the axis displays date-time values, assign one of the accepted string values or an object to this option. The object should contain only one of all fields described in this section, for example:
+If the axis displays numbers, set the **tickInterval** to a number. This number should fall into a range of 0 to 1 for a full-stacked series. For example, a **tickInterval** of 0.2 places a tick every 20%. If the axis displays date-time values, set the **tickInterval** to an accepted string value or object that contains one of the fields described in this section, for example:
 
 ---
 ##### jQuery
@@ -51,11 +49,11 @@ If the axis displays numbers, assign a number to this option. If the axis displa
 
 ---
 
-When you use an axis of the *"logarithmic"* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type), ticks are generated on a base of powers. For example, assuming that the [logarithm base](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#logarithmBase) is 10 and the tick interval is 1, ticks are generated at 10<sup>-2</sup>, 10<sup>-1</sup>, 10<sup>0</sup>, 10<sup>1</sup>, 10<sup>2</sup>, 10<sup>3</sup>, etc. If the tick interval becomes 2, ticks are generated at 10<sup>-1</sup>, 10<sup>1</sup>, 10<sup>3</sup>, etc.
+When you use a *"logarithmic"* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type) axis, ticks are generated as an exponentiation. For example, assuming that the [logarithm base](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#logarithmBase) is 10 and the tick interval is 1, ticks are generated at 10<sup>-2</sup>, 10<sup>-1</sup>, 10<sup>0</sup>, 10<sup>1</sup>, 10<sup>2</sup>, 10<sup>3</sup>, etc. If the tick interval is 2, ticks are generated at 10<sup>-1</sup>, 10<sup>1</sup>, 10<sup>3</sup>, etc.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VizTimeInterval` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *'day'* becomes `Day`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option with the `VizTimeInterval` enum which accepts the same predefined values, but they start with an upper-case letter, for example, *'day'* becomes `Day`.
 
 #####See Also#####
-- **valueAxis**.[tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tick/) - configures the appearance of major ticks.
-- **valueAxis**.[minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/minorTickInterval/) - specifies the interval between minor ticks.
+- **valueAxis**.[tick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/tick/)
+- **valueAxis**.[minorTickInterval](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/minorTickInterval/)
 <!--/fullDescription-->
