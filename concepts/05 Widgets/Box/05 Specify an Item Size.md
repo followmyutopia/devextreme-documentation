@@ -2,7 +2,7 @@
 
 An item's size is controlled by three settings: [baseSize](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#baseSize), [ratio](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#ratio), and [shrink](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#shrink). The **baseSize** defines the initial item size in pixels. The item's size changes according to **ratio** and **shrink** if the **Box**'s size changes.
 
-To understand how **ratio** affects the item size, you need to first grasp the concept of unoccupied area. An unoccupied area emerges when the **Box** provides more space than needed to fit all items of specified **baseSize**s.
+When the **Box** provides more space than the items' **baseSize**s require, an unoccupied area emerges.
 
 ![DevExtreme Box: Unoccupied area](/Content/images/doc/17_2/UiWidgets/Box/Box_baseSize.png)
 
