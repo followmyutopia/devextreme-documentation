@@ -1,8 +1,8 @@
-The **Box** widget allows you to arrange various elements within it. Separate and adaptive, the **Box** widget acts as a building block for the layout.
+The **Box** widget allows you to arrange various elements within it. This widget is separate and adaptive and acts as the layout's building block.
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
 
-The following code adds a simple **Box** containing three items to your page. The items are plain texts placed in differently-colored rectangles. They have an equal width specified by equal values of the **ratio** option. The items are arranged in a row.
+The following code adds a simple **Box** containing three items to your page. These items are plain texts placed in differently-colored rectangles arranged in a row. Equal **ratio** option values ensure they have equal widths.
 
 ---
 ##### jQuery
@@ -67,10 +67,11 @@ The following code adds a simple **Box** containing three items to your page. Th
 
 ---
 
-Note that the **Box** items in the code above are declared using the [dxItem](/Documentation/ApiReference/UI_Widgets/Markup_Components/#dxItem) markup component. An object passed to this component can have the following fields. 
+Note that the **Box** items in the code above are declared using the [dxItem](/Documentation/ApiReference/UI_Widgets/Markup_Components/#dxItem) markup component. An object passed to this component can have the following fields:
 
 - [baseSize](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#baseSize)
 - [ratio](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#ratio)
+- [shrink](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#shrink)
 - [template](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#template)
 - [visible](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#visible)
 
