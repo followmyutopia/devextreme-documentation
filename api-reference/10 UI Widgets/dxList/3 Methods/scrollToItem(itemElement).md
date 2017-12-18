@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Scrolls the list to the specified item.
+Scrolls the content to an item found using its DOM node.
 <!--/shortDescription-->
 
 <!--paramName1-->itemElement<!--/paramName1-->
 <!--paramType1-->Node<!--/paramType1-->
 <!--paramDescription1-->
-The target element node.
+The item's DOM node.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

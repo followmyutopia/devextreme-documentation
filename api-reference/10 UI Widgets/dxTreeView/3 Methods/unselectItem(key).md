@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Clears the selection of an item found using a key.
+Cancels the selection of an item with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->

@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Selects all widget items.
+Selects all items.
 <!--/shortDescription-->
 
 <!--fullDescription-->

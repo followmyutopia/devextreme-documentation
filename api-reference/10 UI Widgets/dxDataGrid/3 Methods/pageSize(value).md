@@ -8,7 +8,7 @@ Sets the [page size](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configura
 <!--paramName1-->value<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-A new value of the page size.
+The page size.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Clears selection of the specified item from the list.
+Cancels the selection of an item with a specific index.
 <!--/shortDescription-->
 
 <!--paramName1-->itemIndex<!--/paramName1-->
 <!--paramType1-->Number|Object<!--/paramType1-->
 <!--paramDescription1-->
-The index of the list item whose selection should be cleared. If the list is grouped, pass an object with the required group and item indexes, e.g., { group: 0, index: 0 }.
+The item's index. If items are grouped, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

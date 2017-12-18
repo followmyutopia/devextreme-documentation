@@ -7,7 +7,7 @@ Gets the **Popup** instance of the field chooser window.
 
 <!--returnType-->dxPopup<!--/returnType-->
 <!--returnDescription-->
-The field chooser popup instance.
+The **Popup** instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->

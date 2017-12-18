@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Detaches all event handlers from the specified event.
+Detaches all event handlers from a single event.
 <!--/shortDescription-->
 
 <!--paramName1-->eventName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name of the event to unsubscribe from.
+The event's name.
 <!--/paramDescription1-->
 
 <!--returnType-->Object<!--/returnType-->

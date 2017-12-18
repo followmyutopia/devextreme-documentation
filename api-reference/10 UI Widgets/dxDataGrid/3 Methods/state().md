@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current state of the grid.
+Gets the current grid state.
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->

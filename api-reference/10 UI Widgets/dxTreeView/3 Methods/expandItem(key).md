@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Expands an item found using a key.
+Expands an item with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->

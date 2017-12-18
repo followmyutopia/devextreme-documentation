@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Displays the widget for the specified target element.
+Shows the widget for a target element.
 <!--/shortDescription-->
 
 <!--paramName1-->target<!--/paramName1-->
 <!--paramType1-->String|Node|jQuery<!--/paramType1-->
 <!--paramDescription1-->
-Specifies the target element the widget points to.
+The target element.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->

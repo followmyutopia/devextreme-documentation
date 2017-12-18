@@ -8,7 +8,7 @@ Sets focus on a specific cell.
 <!--paramName1-->element<!--/paramName1-->
 <!--paramType1-->Node|jQuery<!--/paramType1-->
 <!--paramDescription1-->
-The element of the cell.
+The cell's container.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

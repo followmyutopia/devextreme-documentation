@@ -7,7 +7,7 @@ Validates rules of the [validators](/Documentation/ApiReference/UI_Widgets/dxVal
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-An object defining the result of validating the current group.
+The current group's validation result.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns how far the list content is scrolled from the top.
+Gets the top scroll offset.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The value of the current scroll position from the top in pixels.
+The top scroll offset in pixels.
 <!--/returnDescription-->
 
 <!--fullDescription-->

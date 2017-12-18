@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the total filter that combines all the filters applied.
+Gets the total filter that combines all the filters applied.
 <!--/shortDescription-->
 
 <!--returnType-->any<!--/returnType-->

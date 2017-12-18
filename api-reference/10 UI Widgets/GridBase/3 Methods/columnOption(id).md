@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the options of a column using its identifier.
+Gets all options of a column with a specific identifier.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
 <!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
-The name, index, data field, or caption of the column.
+The column's index, data field, caption or unique name.
 <!--/paramDescription1-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-The options of the column.
+The column's options.
 <!--/returnDescription-->
 
 <!--fullDescription-->

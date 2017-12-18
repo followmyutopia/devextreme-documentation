@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Clears selection of the specified item.
+Cancels the selection of an item found using its DOM node.
 <!--/shortDescription-->
 
 <!--paramName1-->itemElement<!--/paramName1-->
 <!--paramType1-->Node<!--/paramType1-->
 <!--paramDescription1-->
-The DOM node of the item whose selection should be cleared.
+The item's DOM node.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

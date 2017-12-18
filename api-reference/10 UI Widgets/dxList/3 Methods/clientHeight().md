@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the height of the widget in pixels.
+Gets the widget's height in pixels.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The value of the widget height in pixels.
+The widget's height in pixels.
 <!--/returnDescription-->
 
 <!--fullDescription-->

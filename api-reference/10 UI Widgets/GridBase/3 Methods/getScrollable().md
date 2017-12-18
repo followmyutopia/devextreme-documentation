@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the instance of the scrollable part of the widget. 
+Gets the instance of the widget's scrollable part. 
 <!--/shortDescription-->
 
 <!--returnType-->dxScrollable<!--/returnType-->
 <!--returnDescription-->
-The instance of the scrollable part of the widget.
+The scrollable part's instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->

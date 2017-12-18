@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns an HTML element of the popup window content.
+Gets the popup window's content.
 <!--/shortDescription-->
 
 <!--returnType-->dxElement<!--/returnType-->
 <!--returnDescription-->
-The popup window content's container. An [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+An [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

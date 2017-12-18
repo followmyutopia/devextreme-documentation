@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the widget's instance using a DOM element.
+Gets the instance of a widget found using its DOM node.
 <!--/shortDescription-->
 
 <!--paramName1-->element<!--/paramName1-->
 <!--paramType1-->Node|jQuery<!--/paramType1-->
 <!--paramDescription1-->
-An element containing the widget.
+The widget's container.
 <!--/paramDescription1-->
 
 <!--returnType-->DOMComponent<!--/returnType-->

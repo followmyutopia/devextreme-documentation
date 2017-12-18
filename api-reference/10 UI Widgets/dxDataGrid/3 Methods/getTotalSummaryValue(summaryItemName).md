@@ -8,12 +8,12 @@ Gets the value of a [total summary item](/Documentation/ApiReference/UI_Widgets/
 <!--paramName1-->summaryItemName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name) of the total summary item.
+The total summary item's [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name).
 <!--/paramDescription1-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-The automatically calculated value of the total summary item.
+The total summary item's value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

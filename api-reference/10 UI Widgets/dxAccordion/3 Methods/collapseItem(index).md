@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Collapses the specified item.
+Collapses an item with a specific index.
 <!--/shortDescription-->
 
 <!--paramName1-->index<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-The index of the item to collapse.
+The item's index.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->

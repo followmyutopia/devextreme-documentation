@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Allows you to expand a specific group or master row by its key.
+Expands a group or a master row with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
 <!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
-The key of the group or master row.
+The key of the group or the master row.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->

@@ -8,7 +8,7 @@ Gets all visible columns at a specific hierarchical level of column headers. Use
 <!--paramName1-->headerLevel<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-The level of column headers.
+The column headers' level.
 <!--/paramDescription1-->
 
 <!--returnType-->Array<dxDataGrid_Options_columns><!--/returnType-->

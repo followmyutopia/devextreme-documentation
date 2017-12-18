@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the value of a cell found by the row index and column index.
+Gets the value of a cell with specific row and column indexes.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
@@ -19,7 +19,7 @@ The visible index of the column to which the cell belongs.
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-The value of the cell.
+The cell's value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

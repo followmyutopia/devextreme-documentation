@@ -8,7 +8,7 @@ Adds a marker to the map.
 <!--paramName1-->markerOptions<!--/paramName1-->
 <!--paramType1-->Object|Array<Object><!--/paramType1-->
 <!--paramDescription1-->
-A marker object and an array of marker objects.
+The [Marker](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/) object(s).
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<Object><!--/returnType-->

@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Displays the widget's menu block.
+Shows the slide-out menu.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<void><!--/returnType-->

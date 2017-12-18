@@ -2,24 +2,24 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the value of a specific option set for a specific column.
+Gets the value of a single column option.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
 <!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
-The name, index, data field or caption of the column.
+The column's index, data field, caption or unique name.
 <!--/paramDescription1-->
 
 <!--paramName2-->optionName<!--/paramName2-->
 <!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
-The name of the required option.
+The option's name.
 <!--/paramDescription2-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-The value of this option.
+The option's value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

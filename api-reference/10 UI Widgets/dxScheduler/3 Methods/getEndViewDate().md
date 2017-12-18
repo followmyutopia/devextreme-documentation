@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the end date of the current view.
+Gets the current view's end date.
 <!--/shortDescription-->
 
 <!--returnType-->Date<!--/returnType-->
 <!--returnDescription-->
-The end date of the current view.
+The view's end date.
 <!--/returnDescription-->
 
 <!--fullDescription-->

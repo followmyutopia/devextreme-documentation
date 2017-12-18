@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Hides the widget's menu block.
+Hides the widget's slide-out menu.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<void><!--/returnType-->

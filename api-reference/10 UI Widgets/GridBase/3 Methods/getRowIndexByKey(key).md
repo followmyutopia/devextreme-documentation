@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the index of a row by its key.
+Gets the index of a row with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
 <!--paramType1-->Object|String|Number<!--/paramType1-->
 <!--paramDescription1-->
-The key of the row.
+The row's key.
 <!--/paramDescription1-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The *visible* index of the row. If nothing is found, returns *-1*.
+The row's visible index; *-1* if nothing found.
 <!--/returnDescription-->
 
 <!--fullDescription-->

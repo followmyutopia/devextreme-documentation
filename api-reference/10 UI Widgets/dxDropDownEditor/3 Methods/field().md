@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns an &lt;input&gt; element of the widget.
+Gets the widget's `<input>` element.
 <!--/shortDescription-->
 
 <!--returnType-->dxElement<!--/returnType-->
 <!--returnDescription-->
-The widget's &lt;input&gt; element. An [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+An [HTML element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

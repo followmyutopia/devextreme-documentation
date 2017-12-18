@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Notifies the scroll view that data loading is finished.
+Notifies the **ScrollView** that data loading is finished.
 <!--/shortDescription-->
 
 <!--paramName1-->preventScrollBottom<!--/paramName1-->
 <!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
-Indicates whether or not to prevent reachBottom action execution.
+Specifies whether to prevent the [onReachBottom](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#onReachBottom) handler execution.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->

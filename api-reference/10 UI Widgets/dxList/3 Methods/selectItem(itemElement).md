@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Selects the specified item.
+Selects an item found using its DOM node.
 <!--/shortDescription-->
 
 <!--paramName1-->itemElement<!--/paramName1-->
 <!--paramType1-->Node<!--/paramType1-->
 <!--paramDescription1-->
-The DOM node of the item to be selected.
+The item's DOM node.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

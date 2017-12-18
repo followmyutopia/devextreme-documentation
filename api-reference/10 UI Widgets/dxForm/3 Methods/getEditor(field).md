@@ -2,23 +2,50 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns an editor instance associated with the specified [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) field or [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#name) of the form item.
+Gets an editor instance. Takes effect only if the form item is visible.
 <!--/shortDescription-->
 
 <!--paramName1-->field<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The path to the required **formData** field or **name** of the form item.
+A simple form item's [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#name) or a path to it.           
+The path may include the group's caption or tab's title.
 <!--/paramDescription1-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-An instance of the required editor.
+The editor instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-[note]The method returns an editor instance only if a form item is visible.
+The following code shows how to get an editor of an item in a group:
+
+    <!--JavaScript-->
+    $(function () {
+        $("#formContainer").dxForm({
+            formData: {
+                firstName: "John",
+                lastName: "Heart",
+                phone: "+1(213) 555-9392",
+                email: "jheart@dx-email.com"
+            },
+            items: ["firstName", "lastName", {
+                itemType: "group",
+                caption: "Contacts",
+                items: ["phone", "email"]
+            }]
+        }).dxForm("instance");
+
+        $("#buttonContainer").dxButton({
+            text: 'Customize Phone Editor',
+            onClick: function (e) {
+                var editor = form.getEditor(Contacts.phone);
+                // Customizations go here
+            }
+        });
+    });
 
 #####See Also#####
 #include common-link-callmethods
+- [Change Options at Runtime - Editor Options](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Editor_Options/)
 <!--/fullDescription-->

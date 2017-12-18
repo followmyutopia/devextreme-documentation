@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Scrolls the list content by the specified number of pixels.
+Scrolls the content by a specified distance.
 <!--/shortDescription-->
 
 <!--paramName1-->distance<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-A distance to be scrolled in pixels.
+The distance in pixels.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

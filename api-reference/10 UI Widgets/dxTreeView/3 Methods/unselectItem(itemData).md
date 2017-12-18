@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Clears the selection of an item found using a data object.
+Cancels the selection of an item found using its data object.
 <!--/shortDescription-->
 
 <!--paramName1-->itemData<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The item's data source object. 
+The item's data object. 
 <!--/paramDescription1-->
 
 <!--fullDescription-->

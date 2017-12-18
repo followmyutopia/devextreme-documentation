@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the number of data columns in the widget including [visible]({basewidgetpath}/Configuration/columns/#visible) and hidden columns, but without command columns.
+Gets the data column count. Includes visible and hidden columns, excludes command columns.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The number of data columns in the widget.
+The data column count.
 <!--/returnDescription-->
 
 <!--fullDescription-->

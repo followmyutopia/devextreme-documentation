@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets a node by its key.
+Gets a node with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
 <!--paramType1-->Object|String|Number<!--/paramType1-->
 <!--paramDescription1-->
-The key of the node.
+The node's key.
 <!--/paramDescription1-->
 
 <!--returnType-->dxTreeListNode<!--/returnType-->
 <!--returnDescription-->
-The node. If nothing is found, returns **undefined**.
+The [Node](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/) object; **undefined** if nothing found.
 <!--/returnDescription-->
 
 <!--fullDescription-->

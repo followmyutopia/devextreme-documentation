@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Selects rows by keys.
+Selects rows with specific keys.
 <!--/shortDescription-->
 
 <!--paramName1-->keys<!--/paramName1-->
 <!--paramType1-->Array<any><!--/paramType1-->
 <!--paramDescription1-->
-The keys of the rows to be selected.
+The row keys.
 <!--/paramDescription1-->
 
 <!--paramName2-->preserve<!--/paramName2-->

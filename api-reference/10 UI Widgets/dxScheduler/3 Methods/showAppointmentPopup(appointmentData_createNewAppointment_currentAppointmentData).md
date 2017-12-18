@@ -2,25 +2,25 @@
 ===================================================================
 
 <!--shortDescription-->
-Displays the Appointment Details popup.
+Shows the appointment details form.
 <!--/shortDescription-->
 
 <!--paramName1-->appointmentData<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The initial appointment data object.
+The initial appointment.
 <!--/paramDescription1-->
 
 <!--paramName2-->createNewAppointment<!--/paramName2-->
 <!--paramType2-->Boolean|undefined<!--/paramType2-->
 <!--paramDescription2-->
-A Boolean value specifying whether or not a new appointment is created when editing is finished.
+Specifies whether a new appointment is created when editing is finished.
 <!--/paramDescription2-->
 
 <!--paramName3-->currentAppointmentData<!--/paramName3-->
 <!--paramType3-->Object|undefined<!--/paramType3-->
 <!--paramDescription3-->
-The current appointment data object.
+The current appointment.
 <!--/paramDescription3-->
 
 <!--fullDescription-->

@@ -2,19 +2,19 @@
 ===================================================================
 
 <!--shortDescription-->
-Switches a specific cell into the editing state. The cell is found by the row index and column index. Takes effect only if the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *'batch'* or *'cell'*.
+Switches a cell with specific row and column indexes to the editing state. Takes effect only if the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *'batch'* or *'cell'*.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-The index of the row that owns the cell.
+The index of the row to which the cell belongs.
 <!--/paramDescription1-->
 
 <!--paramName2-->visibleColumnIndex<!--/paramName2-->
 <!--paramType2-->Number<!--/paramType2-->
 <!--paramDescription2-->
-The visible index of the column that owns the cell.
+The visible index of the column to which the cell belongs.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

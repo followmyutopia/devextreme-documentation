@@ -7,7 +7,7 @@ Validates the values of all editors on the form against the list of the [validat
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-An object defining the result of validation.
+The validation result.
 <!--/returnDescription-->
 
 <!--fullDescription-->

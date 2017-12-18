@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Switches a specific cell into the editing state. The cell is found by the row index and data field. Takes effect only if the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *'batch'* or *'cell'*.
+Switches a cell with a specific row index and a data field to the editing state. Takes effect only if the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *'batch'* or *'cell'*.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-The index of the row that owns the cell.
+The index of the row to which the cell belongs.
 <!--/paramDescription1-->
 
 <!--paramName2-->dataField<!--/paramName2-->

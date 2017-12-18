@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Expands an adaptive detail row found by the key of its parent data row.
+Expands an adaptive detail row. 
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
 <!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
-The key of the data row.
+The key of the data row to which the adaptive detail row belongs.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

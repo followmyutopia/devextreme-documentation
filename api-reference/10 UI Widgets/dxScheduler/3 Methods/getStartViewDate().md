@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the start date of the current view.
+Gets the current view's start date.
 <!--/shortDescription-->
 
 <!--returnType-->Date<!--/returnType-->
 <!--returnDescription-->
-The start date of the current view.
+The view's start date.
 <!--/returnDescription-->
 
 <!--fullDescription-->

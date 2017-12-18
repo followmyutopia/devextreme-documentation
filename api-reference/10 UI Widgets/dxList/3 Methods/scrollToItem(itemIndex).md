@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Scrolls the list to the specified item.
+Scrolls the content to an item with a specific index.
 <!--/shortDescription-->
 
 <!--paramName1-->itemIndex<!--/paramName1-->
 <!--paramType1-->Number|Object<!--/paramType1-->
 <!--paramDescription1-->
-The target element index.
+The item's index.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current scroll position against the leftmost position.
+Gets the left scroll offset.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The requested scroll position.
+The left scroll offset in pixels.
 <!--/returnDescription-->
 
 <!--fullDescription-->

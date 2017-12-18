@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Displays the [load panel]({basewidgetpath}/Configuration/loadPanel/). 
+Shows the [load panel]({basewidgetpath}/Configuration/loadPanel/). 
 <!--/shortDescription-->
 
 <!--paramName1-->messageText<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-Text to be displayed in the load panel.
+The text for the load panel to display.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

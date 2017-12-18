@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the width of the scrollable widget in pixels.
+Gets the widget's width.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The value of the widget width in pixels.
+The widget's width in pixels.
 <!--/returnDescription-->
 
 <!--fullDescription-->

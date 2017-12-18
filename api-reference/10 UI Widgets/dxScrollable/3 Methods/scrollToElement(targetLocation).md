@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Scrolls widget content to the specified element.
+Scrolls the content to an element.
 <!--/shortDescription-->
 
 <!--paramName1-->element<!--/paramName1-->
 <!--paramType1-->Node|jQuery<!--/paramType1-->
 <!--paramDescription1-->
-A DOM Node or jQuery object the widget should scroll to.
+A DOM Node or jQuery element to scroll to.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

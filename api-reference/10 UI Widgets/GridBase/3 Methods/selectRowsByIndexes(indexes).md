@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Selects rows by indexes.
+Selects rows with specific indexes.
 <!--/shortDescription-->
 
 <!--paramName1-->indexes<!--/paramName1-->
 <!--paramType1-->Array<Number><!--/paramType1-->
 <!--paramDescription1-->
-The indexes of the rows to be selected.
+The row indexes.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<any><!--/returnType-->

@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Toggles the visibility of the widget's menu block.
+Shows or hides the slide-out menu depending on the argument.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<void><!--/returnType-->

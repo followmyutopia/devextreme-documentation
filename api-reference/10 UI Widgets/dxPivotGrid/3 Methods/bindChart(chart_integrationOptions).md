@@ -8,14 +8,14 @@ Binds a [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 <!--paramName1-->chart<!--/paramName1-->
 <!--paramType1-->String|jQuery|Object<!--/paramType1-->
 <!--paramDescription1-->
-**Chart** to be bound to **PivotGrid**.    
-Accepts the [instance](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods/#instance), [jQuery element](http://api.jquery.com/Types/#jQuery) or [selector](https://api.jquery.com/category/selectors/) of **Chart**'s container.
+The **Chart** to be bound to the **PivotGrid**.    
+Accepts the **Chart**'s instance, [jQuery element](http://api.jquery.com/Types/#jQuery) or container [selector](https://api.jquery.com/category/selectors/).
 <!--/paramDescription1-->
 
 <!--paramName2-->integrationOptions<!--/paramName2-->
 <!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
-Configures **Chart** contents and appearance.
+The **Chart**'s configuration.
 <!--/paramDescription2-->
 <!--paramName2_field1-->inverted<!--/paramName2_field1-->
 <!--paramType2_field1-->Boolean<!--/paramType2_field1-->
@@ -31,9 +31,9 @@ Accepts one of the following values.
 
 - *"singleAxis"* - values of all data fields are displayed on a single [value axis](/Documentation/Guide/Widgets/Chart/Axes/Overview/).  
 - *"splitAxes"* - each data field gets an individual value axis. Applies only if **putDataFieldsInto** is *"series"*.  
-- *"splitPanes"* - each data field gets an individual [pane](/Documentation/Guide/Widgets/Chart/Panes/Overview/). Applies only if **putDataFieldsInto** is *"series"*.  
+- *"splitPanes"* - each data field gets an individual [pane](/Documentation/Guide/Widgets/Chart/Panes/Overview/). Applies only if **putDataFieldsInto** is *"series"*.      
 
-**NOTE:** Applies only if **PivotGrid** contains several [data fields](/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/#Fields).
+Applies only if the **PivotGrid** contains several [data fields](/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/#Fields).
 <!--/paramDescription2_field2-->
 <!--paramName2_field3-->putDataFieldsInto<!--/paramName2_field3-->
 <!--paramType2_field3-->String<!--/paramType2_field3-->
@@ -47,29 +47,29 @@ Accepts one of the following values.
 <!--paramName2_field4-->alternateDataFields<!--/paramName2_field4-->
 <!--paramType2_field4-->Boolean<!--/paramType2_field4-->
 <!--paramDescription2_field4-->
-Default Value: *true*.   
+Default Value: **true**.   
 Specifies whether to alternate data fields in the resulting chart or not.   
-**NOTE:** Applies only if **PivotGrid** contains several data fields.
+Applies only if the **PivotGrid** contains several data fields.
 <!--/paramDescription2_field4-->
 <!--paramName2_field5-->processCell<!--/paramName2_field5-->
 <!--paramType2_field5-->function()<!--/paramType2_field5-->
 <!--paramDescription2_field5-->
-Allows you to process data of a grid cell before it will be visualized by the chart.
+Allows you to process cell data before the **Chart** visualizes it.
 <!--/paramDescription2_field5-->
 <!--paramName2_field6-->customizeChart<!--/paramName2_field6-->
 <!--paramType2_field6-->function()<!--/paramType2_field6-->
 <!--paramDescription2_field6-->
-Allows you to customize the appearance of the chart.
+Allows you to customize the **Chart**'s appearance.
 <!--/paramDescription2_field6-->
 <!--paramName2_field7-->customizeSeries<!--/paramName2_field7-->
 <!--paramType2_field7-->function()<!--/paramType2_field7-->
 <!--paramDescription2_field7-->
-Allows you to customize the chart series.
+Allows you to customize the series.
 <!--/paramDescription2_field7-->
 
 <!--returnType-->function()|null<!--/returnType-->
 <!--returnDescription-->
-Unbinds the chart. If **null**, then binding failed.
+Unbinds the **Chart**. If **null**, then binding failed.
 <!--/returnDescription-->
 
 <!--fullDescription-->

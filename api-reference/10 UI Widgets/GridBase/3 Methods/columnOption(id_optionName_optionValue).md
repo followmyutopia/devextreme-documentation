@@ -2,25 +2,25 @@
 ===================================================================
 
 <!--shortDescription-->
-Assigns a new value to a single option of a specific column.
+Updates the value of a single column option.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
 <!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
-The name, index, data field, or caption of the column.
+The column's index, data field, caption or unique name.
 <!--/paramDescription1-->
 
 <!--paramName2-->optionName<!--/paramName2-->
 <!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
-The name of the option to change.
+The option's name.
 <!--/paramDescription2-->
 
 <!--paramName3-->optionValue<!--/paramName3-->
 <!--paramType3-->any<!--/paramType3-->
 <!--paramDescription3-->
-A new value for this option.
+The option's new value.
 <!--/paramDescription3-->
 
 <!--fullDescription-->

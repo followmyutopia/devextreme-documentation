@@ -7,7 +7,7 @@ Validates the value of the editor that is controlled by the current **Validator*
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-An object defining the validation result.
+The validation result.
 <!--/returnDescription-->
 
 <!--fullDescription-->

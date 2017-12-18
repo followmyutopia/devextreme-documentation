@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Collapses the specified group.
+Collapses a group with a specific index.
 <!--/shortDescription-->
 
 <!--paramName1-->groupIndex<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-The index of the group to be collapsed.
+The group's index.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->

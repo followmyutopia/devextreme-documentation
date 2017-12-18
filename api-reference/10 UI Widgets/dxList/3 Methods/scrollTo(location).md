@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Scrolls list content to the specified position.
+Scrolls the content to a specific position.
 <!--/shortDescription-->
 
 <!--paramName1-->location<!--/paramName1-->

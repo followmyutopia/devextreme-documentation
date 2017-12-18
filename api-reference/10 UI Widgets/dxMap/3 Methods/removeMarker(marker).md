@@ -8,7 +8,7 @@ Removes a marker from the map.
 <!--paramName1-->marker<!--/paramName1-->
 <!--paramType1-->Object|Number|Array<Object><!--/paramType1-->
 <!--paramDescription1-->
-A marker options object, marker index or an array of markers to be removed.
+The [Marker](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/) object(s) or an index. 
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->

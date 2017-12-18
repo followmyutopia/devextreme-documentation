@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Hides an appointment details popup.
+Hides an appointment details form.
 <!--/shortDescription-->
 
 <!--paramName1-->saveChanges<!--/paramName1-->
 <!--paramType1-->Boolean|undefined<!--/paramType1-->
 <!--paramDescription1-->
-A Boolean value specifying whether or not to save changes made in the appointment detail popup.
+Specifies whether to save changes.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

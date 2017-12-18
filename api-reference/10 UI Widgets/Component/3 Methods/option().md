@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the widget's options.
+Gets all widget options.
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->

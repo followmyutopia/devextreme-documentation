@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the value of a cell found by the row index and data field.
+Gets the value of a cell with a specific row index and a data field.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
@@ -14,12 +14,12 @@ The index of the row to which the cell belongs.
 <!--paramName2-->dataField<!--/paramName2-->
 <!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
-The name of the data field in the data source.
+The data field.
 <!--/paramDescription2-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-The value of the cell.
+The cell's value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

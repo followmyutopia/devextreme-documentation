@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Selects an item found using a key.
+Selects an item with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->

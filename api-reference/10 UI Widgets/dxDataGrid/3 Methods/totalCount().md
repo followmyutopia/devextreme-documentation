@@ -2,16 +2,16 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the number of records currently held by a grid.
+Gets the total row count.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The number of records currently held by a grid.
+The total row count.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Use this method to get the number of records currently held by a grid. Note that if records are filtered by a user using the [filter row](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Filter_Row) and [search panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel) or from code using the [filter(filterExpr)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#filterfilterExpr) and [searchByText(text)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#searchByTexttext) methods, the **totalCount()** method returns the number of records left after filtering.
+[note]If any filter is applied, this method returns the count of records after [filtering](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/).
 
 #####See Also#####
 #include common-link-callmethods

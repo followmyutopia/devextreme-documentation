@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Toggles the visibility of the widget's slide-out menu.
+Shows or hides the slide-out menu depending on the argument.
 <!--/shortDescription-->
 
 <!--paramName1-->showing<!--/paramName1-->
 <!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
-A Boolean value specifying whether to show or hide the widget's slide-out menu.
+Specifies whether to show or hide the widget.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->

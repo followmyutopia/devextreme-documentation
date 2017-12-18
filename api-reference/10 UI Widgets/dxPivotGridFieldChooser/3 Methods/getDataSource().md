@@ -7,7 +7,7 @@ Gets the **PivotGridDataSource** instance.
 
 <!--returnType-->PivotGridDataSource<!--/returnType-->
 <!--returnDescription-->
-The data source of the pivot grid the field chooser is bound to.
+The [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/) instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->

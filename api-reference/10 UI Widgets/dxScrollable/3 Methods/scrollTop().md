@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current scroll position against the topmost position.
+Gets the top scroll offset.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The requested scroll position.
+The top scroll offset in pixels.
 <!--/returnDescription-->
 
 <!--fullDescription-->

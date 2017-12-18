@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Collapses groups or master rows in a grid.
+Collapses master rows or groups of a specific level.
 <!--/shortDescription-->
 
 <!--paramName1-->groupIndex<!--/paramName1-->
 <!--paramType1-->Number|undefined<!--/paramType1-->
 <!--paramDescription1-->
-The index of the groups to collapse. Pass **undefined** to collapse all groups. Pass *-1* to collapse all master rows.
+The group's level. Pass **undefined** to collapse all groups. Pass *-1* to collapse all master rows.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

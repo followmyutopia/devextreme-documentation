@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Clears selection of specific rows.
+Cancels the selection of rows with specific keys.
 <!--/shortDescription-->
 
 <!--paramName1-->keys<!--/paramName1-->
 <!--paramType1-->Array<any><!--/paramType1-->
 <!--paramDescription1-->
-The keys of rows whose selection should be cleared.
+The row keys.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<any><!--/returnType-->

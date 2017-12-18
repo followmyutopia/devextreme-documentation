@@ -7,7 +7,7 @@ Gets the current [page size](/Documentation/ApiReference/UI_Widgets/dxDataGrid/C
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The current page size.
+The page size.
 <!--/returnDescription-->
 
 <!--fullDescription-->

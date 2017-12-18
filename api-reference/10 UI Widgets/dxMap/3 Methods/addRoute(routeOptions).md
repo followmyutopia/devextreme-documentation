@@ -8,7 +8,7 @@ Adds a route to the map.
 <!--paramName1-->options<!--/paramName1-->
 <!--paramType1-->Object|Array<Object><!--/paramType1-->
 <!--paramDescription1-->
-A route object and an array of route objects.
+The [Route](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/) object(s).
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<Object><!--/returnType-->

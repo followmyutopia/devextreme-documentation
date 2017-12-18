@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the height of the list content in pixels.
+Gets the content's height in pixels.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The value of the content height in pixels.
+The content's height in pixels.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current scroll position of the widget content.
+Gets the current scroll position.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The current scroll position in pixels.
+The scroll position in pixels.
 <!--/returnDescription-->
 
 <!--fullDescription-->

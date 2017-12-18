@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Updates the specified field of the [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object and the corresponding editor on the form.
+Updates a [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) field and the corresponding editor.
 <!--/shortDescription-->
 
 <!--paramName1-->dataField<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-Specifies the path to the required **formData** field.
+A path to the **formData** field.
 <!--/paramDescription1-->
 
 <!--paramName2-->value<!--/paramName2-->

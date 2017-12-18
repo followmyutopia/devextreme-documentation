@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Removes the specified item from the list.
+Removes an item found using its DOM node.
 <!--/shortDescription-->
 
 <!--paramName1-->itemElement<!--/paramName1-->
 <!--paramType1-->Node<!--/paramType1-->
 <!--paramDescription1-->
-The item element node.
+The item's DOM node.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->

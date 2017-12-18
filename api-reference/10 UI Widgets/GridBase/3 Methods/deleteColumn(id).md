@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Removes a specific column from the widget.
+Removes a column.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
 <!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
-The name, index, data field, or caption of the column.
+The column's index, data field, caption or unique name.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

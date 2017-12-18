@@ -8,7 +8,7 @@ Gets a data object's key.
 <!--paramName1-->obj<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-A data object.
+The data object.
 <!--/paramDescription1-->
 
 <!--returnType-->any<!--/returnType-->

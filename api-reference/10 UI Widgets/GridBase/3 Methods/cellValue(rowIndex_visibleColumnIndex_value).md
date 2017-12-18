@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Assigns a new value to a cell found by the row index and column index.
+Sets a new value to a cell with specific row and column indexes.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
@@ -20,7 +20,7 @@ The visible index of the column to which the cell belongs.
 <!--paramName3-->value<!--/paramName3-->
 <!--paramType3-->any<!--/paramType3-->
 <!--paramDescription3-->
-A new value for the cell.
+The cell's new value.
 <!--/paramDescription3-->
 
 <!--fullDescription-->

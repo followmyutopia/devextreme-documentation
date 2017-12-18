@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the index of the current page.
+The current page index.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The index of the current page.
+The page index.
 <!--/returnDescription-->
 
 <!--fullDescription-->

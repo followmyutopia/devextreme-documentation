@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Expands a specific row.
+Expands a row with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
 <!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
-The row key.
+The row's key.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->

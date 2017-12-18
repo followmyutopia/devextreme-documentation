@@ -2,19 +2,19 @@
 ===================================================================
 
 <!--shortDescription-->
-Assigns a new value to a specific option.
+Updates the value of a single option.
 <!--/shortDescription-->
 
 <!--paramName1-->optionName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The option name or the full path to the option. 
+The option's name or full path. 
 <!--/paramDescription1-->
 
 <!--paramName2-->optionValue<!--/paramName2-->
 <!--paramType2-->any<!--/paramType2-->
 <!--paramDescription2-->
-A new value for this option.
+This option's new value.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

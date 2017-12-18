@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Clears selection of all items.
+Cancels the selection of all items.
 <!--/shortDescription-->
 
 <!--fullDescription-->

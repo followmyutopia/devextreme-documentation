@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns a Boolean value that indicates whether or not the specified item is selected.
+Checks whether an item found using its DOM node is selected.
 <!--/shortDescription-->
 
 <!--paramName1-->itemElement<!--/paramName1-->
 <!--paramType1-->Node<!--/paramType1-->
 <!--paramDescription1-->
-The item element node.
+The item's DOM node.
 <!--/paramDescription1-->
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-A Boolean value specifying whether or not the requested item is selected.
+**true** if the item is selected; otherwise **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

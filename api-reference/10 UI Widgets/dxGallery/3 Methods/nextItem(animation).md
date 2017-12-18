@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Shows the next gallery item.
+Shows the next image.
 <!--/shortDescription-->
 
 <!--paramName1-->animation<!--/paramName1-->
 <!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
-A Boolean value indicating whether or not to use animation when switching to the next item.
+Specifies whether switching to the image should be animated.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->
 <!--returnDescription-->
-A Promise that is resolved after the gallery item has changed. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
+A Promise that is resolved after the image is shown. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->

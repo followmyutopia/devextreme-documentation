@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns this widget's instance. Use it to access other methods of the widget.
+Gets the widget's instance. Use it to access other methods of the widget.
 <!--/shortDescription-->
 
 <!--returnType-->Component<!--/returnType-->

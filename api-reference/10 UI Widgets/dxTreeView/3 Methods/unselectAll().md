@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Unselects all widget items.
+Cancels the selection of all items.
 <!--/shortDescription-->
 
 <!--fullDescription-->

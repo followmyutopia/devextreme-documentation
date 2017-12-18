@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns a filter expression applied to the widget's data source using the [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr) method.
+Gets a filter expression applied to the widget's data source using the [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr) method.
 <!--/shortDescription-->
 
 <!--returnType-->any<!--/returnType-->

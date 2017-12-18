@@ -2,19 +2,19 @@
 ===================================================================
 
 <!--shortDescription-->
-Subscribes to a specified event.
+Subscribes to an event.
 <!--/shortDescription-->
 
 <!--paramName1-->eventName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name of the event to be subscribed.
+The event's name.
 <!--/paramDescription1-->
 
 <!--paramName2-->eventHandler<!--/paramName2-->
 <!--paramType2-->function()<!--/paramType2-->
 <!--paramDescription2-->
-An event handler for the specified event.
+The event's handler.
 <!--/paramDescription2-->
 
 <!--returnType-->Object<!--/returnType-->

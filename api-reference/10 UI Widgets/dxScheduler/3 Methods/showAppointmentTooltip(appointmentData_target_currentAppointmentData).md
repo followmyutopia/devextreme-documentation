@@ -2,25 +2,25 @@
 ===================================================================
 
 <!--shortDescription-->
-Displays the appointment tooltip for the specified target element.
+Shows a tooltip for a target element.
 <!--/shortDescription-->
 
 <!--paramName1-->appointmentData<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The initial appointment data object.
+The initial appointment.
 <!--/paramDescription1-->
 
 <!--paramName2-->target<!--/paramName2-->
 <!--paramType2-->String|Node|jQuery<!--/paramType2-->
 <!--paramDescription2-->
-Specifies the target element the tooltip points to.
+The target element.
 <!--/paramDescription2-->
 
 <!--paramName3-->currentAppointmentData<!--/paramName3-->
 <!--paramType3-->Object|undefined<!--/paramType3-->
 <!--paramDescription3-->
-The current appointment data object.
+The current appointment.
 <!--/paramDescription3-->
 
 <!--fullDescription-->

@@ -2,24 +2,25 @@
 ===================================================================
 
 <!--shortDescription-->
-Updates the appointment specified by the first method parameter by the appointment object specified by the second method parameter in the data associated with the widget.
+Updates an appointment.
 <!--/shortDescription-->
 
 <!--paramName1-->target<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The appointment object to be updated.
+The appointment to be updated.
 <!--/paramDescription1-->
 
 <!--paramName2-->appointment<!--/paramName2-->
 <!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
-The appointment object containing new values for the specified target appointment. 
+The appointment with updated data.
 <!--/paramDescription2-->
 
 <!--fullDescription-->
-Consider handling the [appointmentUpdating](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentUpdating) and [appointmentUpdated](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentUpdated) events to perform custom actions before and after updating an appointment in the widget's data source.
 
 #####See Also#####
 #include common-link-callmethods
+- [onAppointmentUpdating](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onUppointmentUpdating)
+- [onAppointmentUpdated](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onUppointmentUpdated)
 <!--/fullDescription-->

@@ -3,13 +3,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Toggles the loading state of the widget.
+Toggles the widget's loading state.
 <!--/shortDescription-->
 
 <!--paramName1-->showOrHide<!--/paramName1-->
 <!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
-A Boolean value specifying whether to enable or disable the loading state.
+Specifies whether to enable or disable the loading state.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Expands groups or master rows in a grid.
+Expands master rows or groups of a specific level.
 <!--/shortDescription-->
 
 <!--paramName1-->groupIndex<!--/paramName1-->
 <!--paramType1-->Number|undefined<!--/paramType1-->
 <!--paramDescription1-->
-The index of the groups to expand. Pass **undefined** to expand all groups. Pass *-1* to expand all master rows.
+The group's level. Pass **undefined** to expand all groups. Pass *-1* to expand all master rows.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Collapses an item found using an HTML element.
+Collapses an item found using its DOM node.
 <!--/shortDescription-->
 
 <!--paramName1-->itemElement<!--/paramName1-->
 <!--paramType1-->Node<!--/paramType1-->
 <!--paramDescription1-->
-The item's HTML element. 
+The item's DOM node. 
 <!--/paramDescription1-->
 
 <!--fullDescription-->

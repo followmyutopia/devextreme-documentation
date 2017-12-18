@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Checks whether the row that represents a specific data object is selected. Takes effect only if **selection**.[deferred](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred) is **true**.
+Checks whether a row found using its data object is selected. Takes effect only if **selection**.[deferred](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred) is **true**.
 <!--/shortDescription-->
 
 <!--paramName1-->data<!--/paramName1-->
@@ -13,7 +13,7 @@ The row's data object.
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-*true* if the row is selected; **false** otherwise.
+**true** if the row is selected; otherwise **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

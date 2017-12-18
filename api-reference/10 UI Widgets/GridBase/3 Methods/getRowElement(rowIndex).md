@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the element of a row by its index.
+Gets the container of a row with a specific index.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-The visible index of the row.
+The row's visible index.
 <!--/paramDescription1-->
 
 <!--returnType-->Array<Node>|jQuery|undefined<!--/returnType-->
 <!--returnDescription-->
-The element of the row; provides access to [element-related jQuery operations](http://api.jquery.com/?s=element).
+The row's container.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -5,13 +5,13 @@
 <!--deprecated-->
 Use the [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deleteRowrowIndex) method instead.
 <!--/deprecated--><!--shortDescription-->
-Removes a specific row from a grid.
+Removes a row with a specific index.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-The index of the row to be removed.
+The row's index.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

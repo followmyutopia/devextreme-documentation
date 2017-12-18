@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Allows you to obtain a data object by its key.
+Gets a data object with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
 <!--paramType1-->Object|String|Number<!--/paramType1-->
 <!--paramDescription1-->
-The key value of the required data object.
+The data object's key.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<Object><!--/returnType-->

@@ -8,7 +8,7 @@ Clears all row filters of a specific type.
 <!--paramName1-->filterName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The type of the filter to be cleared.
+The filter type.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

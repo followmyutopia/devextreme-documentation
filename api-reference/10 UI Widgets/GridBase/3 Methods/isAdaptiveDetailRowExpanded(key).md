@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Checks whether a specific adaptive detail row is expanded or collapsed.
+Checks whether an adaptive detail row is expanded or collapsed.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
 <!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
-The key of a data row.
+The key of the data row to which the adaptive detail row belongs.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

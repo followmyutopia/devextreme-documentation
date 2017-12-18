@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the width of the scrollable content in pixels.
+Gets the scrollable content's width in pixels.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The value of the content width in pixels.
+The content's width in pixels.
 <!--/returnDescription-->
 
 <!--fullDescription-->

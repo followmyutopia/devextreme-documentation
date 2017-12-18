@@ -2,19 +2,19 @@
 ===================================================================
 
 <!--shortDescription-->
-Moves the specified item to the specified position in the list.
+Reorders items found using their DOM nodes.
 <!--/shortDescription-->
 
 <!--paramName1-->itemElement<!--/paramName1-->
 <!--paramType1-->Node<!--/paramType1-->
 <!--paramDescription1-->
-The DOM node of the item to be moved.
+The DOM node of the item to be reordered.
 <!--/paramDescription1-->
 
 <!--paramName2-->toItemElement<!--/paramName2-->
 <!--paramType2-->Node<!--/paramType2-->
 <!--paramDescription2-->
-The DOM node of the item after which the specified item should be placed.
+The DOM node of the item after which the reordered item should be placed.
 <!--/paramDescription2-->
 
 <!--returnType-->Promise<void><!--/returnType-->

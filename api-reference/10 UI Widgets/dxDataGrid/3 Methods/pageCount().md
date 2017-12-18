@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns how many pages the grid contains.
+Gets the total page count.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The number of pages in the grid.
+The total page count.
 <!--/returnDescription-->
 
 <!--fullDescription-->

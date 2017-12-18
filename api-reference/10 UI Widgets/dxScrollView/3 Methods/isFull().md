@@ -3,12 +3,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns a value indicating if the scrollView content is larger then the widget container.
+Checks whether the **ScrollView**'s content is larger than the widget container.
 <!--/shortDescription-->
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-A Boolean value indicating if the scrollView content is larger than the widget container.
+**true** if the **ScrollView**'s content is larger; otherwise **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

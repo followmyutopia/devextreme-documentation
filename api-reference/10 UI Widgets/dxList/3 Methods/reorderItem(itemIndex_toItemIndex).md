@@ -2,19 +2,19 @@
 ===================================================================
 
 <!--shortDescription-->
-Moves the specified item to the specified position in the list.
+Reorders items with specific indexes.
 <!--/shortDescription-->
 
 <!--paramName1-->itemIndex<!--/paramName1-->
 <!--paramType1-->Number|Object<!--/paramType1-->
 <!--paramDescription1-->
-The index number of the item to be moved.
+The index of the item to be reordered.
 <!--/paramDescription1-->
 
 <!--paramName2-->toItemIndex<!--/paramName2-->
 <!--paramType2-->Number|Object<!--/paramType2-->
 <!--paramDescription2-->
-The index of the item after which the specified item is placed.
+The index of the item after which the reordered item should be placed.
 <!--/paramDescription2-->
 
 <!--returnType-->Promise<void><!--/returnType-->

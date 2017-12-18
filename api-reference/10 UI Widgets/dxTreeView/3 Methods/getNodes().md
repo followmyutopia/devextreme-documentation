@@ -2,14 +2,14 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns all nodes of the tree view.
+Gets all nodes.
 <!--/shortDescription-->
 
 <!--returnType-->Array<dxTreeViewNode><!--/returnType-->
 <!--returnDescription-->
-An array of tree view nodes.
+All nodes. Their structure is described in the [Node](/Documentation/ApiReference/UI_Widgets/dxTreeView/Node/) section.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-For the information about the tree view node structure, refer to the [Node section](/Documentation/ApiReference/UI_Widgets/dxTreeView/Node/) of API Reference.
+
 <!--/fullDescription-->

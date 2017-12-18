@@ -8,7 +8,7 @@ Removes a route from the map.
 <!--paramName1-->route<!--/paramName1-->
 <!--paramType1-->Object|Number|Array<Object><!--/paramType1-->
 <!--paramDescription1-->
-A route options object, route index or an array of route to be removed.
+The [Route](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/) object(s) or an index. 
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->
