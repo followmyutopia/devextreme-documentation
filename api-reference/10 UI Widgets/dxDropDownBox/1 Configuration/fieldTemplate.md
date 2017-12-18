@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(value, fieldElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -79,7 +79,7 @@ The template must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Ove
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Selected values.
 <!--/typeFunctionParamDescription1-->
@@ -90,7 +90,7 @@ Selected values.
 The container of the field to be rendered.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

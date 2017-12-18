@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(templateData, contentElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -19,7 +19,7 @@ If you use the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angular
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->templateData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Data associated with the widget.
 <!--/typeFunctionParamDescription1-->
@@ -30,7 +30,7 @@ Data associated with the widget.
 The content's container.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template's name or container.
 <!--/typeFunctionReturnDescription-->

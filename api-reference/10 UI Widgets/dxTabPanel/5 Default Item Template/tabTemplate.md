@@ -1,5 +1,5 @@
 ===========================================================================
-<!--type-->template<!--/type-->
+<!--type-->template | function()<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -17,7 +17,7 @@ Whether you use a default or a custom template for tab items, you can specify a 
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->string|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or a template container.
 <!--/typeFunctionReturnDescription-->

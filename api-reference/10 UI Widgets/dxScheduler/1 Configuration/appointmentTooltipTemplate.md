@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'appointmentTooltip'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(appointmentData, contentElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -91,7 +91,7 @@ In **AngularJS** apps, if you need to access appointment object fields within a 
 - [Customize Appointment Tooltip](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment_Tooltip/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->appointmentData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The data of the appointment whose tooltip is rendered.
 <!--/typeFunctionParamDescription1-->
@@ -102,7 +102,7 @@ The data of the appointment whose tooltip is rendered.
 The appointment's container.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->string|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

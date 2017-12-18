@@ -1,5 +1,5 @@
 ===========================================================================
-<!--type-->template<!--/type-->
+<!--type-->template | function(cellElement, cellInfo)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -58,7 +58,7 @@ The cell that you are customizing.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->cellInfo<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The settings of the cell.
 <!--/typeFunctionParamDescription2-->

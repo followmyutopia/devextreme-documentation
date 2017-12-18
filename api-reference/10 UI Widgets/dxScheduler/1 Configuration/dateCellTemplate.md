@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(itemData, itemIndex, itemElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -60,13 +60,13 @@ In the **AngularJS** apps, if you need to access day scale item fields within a 
 - [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The data of the current date scale item.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The item's index.
 <!--/typeFunctionParamDescription2-->
@@ -77,7 +77,7 @@ The item's index.
 The item's container.
 <!--/typeFunctionParamDescription3-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

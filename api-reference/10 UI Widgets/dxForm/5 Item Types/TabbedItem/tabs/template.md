@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(tabData, tabIndex, tabElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -15,13 +15,13 @@ The template to be used for rendering the tab content.
 - [template](/Documentation/ApiReference/Common/Object_Structures/template/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->tabData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 A data object associated with the tab.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->tabIndex<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The index of the tab in the [tabs](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/) array.
 <!--/typeFunctionParamDescription2-->

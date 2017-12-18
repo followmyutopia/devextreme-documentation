@@ -1,5 +1,5 @@
 ===========================================================================
-<!--type-->template<!--/type-->
+<!--type-->template | function(rowElement, rowInfo)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -121,7 +121,7 @@ The row's container.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->rowInfo<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The row [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/).
 <!--/typeFunctionParamDescription2-->

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'dropDownButton'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(buttonData, contentElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -14,17 +14,17 @@ If you use the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angular
 - [SelectBox - Customize Drop-Down Button Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/CustomizeDropDownButton/jQuery/Light/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->buttonData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 An object holding the button data.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->text<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The button's text.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->icon<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The button's icon.
 <!--/typeFunctionParamDescription1_field2-->
@@ -35,7 +35,7 @@ The button's icon.
 The button's container.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->string|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

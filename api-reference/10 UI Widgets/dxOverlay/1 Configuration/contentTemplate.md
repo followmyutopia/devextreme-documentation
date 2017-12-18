@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'content'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(contentElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -26,7 +26,7 @@ This option enables you to render widget contents depending on field values of t
 The widget content's container.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->string|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

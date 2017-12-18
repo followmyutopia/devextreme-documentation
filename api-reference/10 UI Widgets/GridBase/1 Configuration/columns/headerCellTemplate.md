@@ -1,5 +1,5 @@
 ===========================================================================
-<!--type-->template<!--/type-->
+<!--type-->template | function(columnHeader, headerInfo)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -38,7 +38,7 @@ The header that you are customizing.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->headerInfo<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The settings of the header.
 <!--/typeFunctionParamDescription2-->

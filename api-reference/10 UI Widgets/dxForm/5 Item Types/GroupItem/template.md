@@ -1,5 +1,5 @@
 ===========================================================================
-<!--type-->template<!--/type-->
+<!--type-->template | function(data, itemElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -28,7 +28,7 @@ A binding context of an item template is an object containing the following fiel
 - [Custom Content within a Group](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/#Custom_Content_within_a_Group)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 An object providing access to the field data, form instance and the configuration object of the editor.
 <!--/typeFunctionParamDescription1-->
@@ -39,7 +39,7 @@ An object providing access to the field data, form instance and the configuratio
 The container of the group item to be rendered.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or a template container.
 <!--/typeFunctionReturnDescription-->

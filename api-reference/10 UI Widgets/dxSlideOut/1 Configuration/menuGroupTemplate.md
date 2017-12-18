@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'menuGroup'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(groupData, groupIndex, groupElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -20,24 +20,24 @@ In Knockout apps, you can bind template elements directly to a group object's fi
 - [Group Menu Items](/Documentation/Guide/Widgets/SlideOut/Group_Menu_Items/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->groupData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The current group's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->groupIndex<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The current group's index.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionParamName3-->groupElement<!--/typeFunctionParamName3-->
-<!--typeFunctionParamType3-->object<!--/typeFunctionParamType3-->
+<!--typeFunctionParamType3-->Object<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
 The current group's container.
 <!--/typeFunctionParamDescription3-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

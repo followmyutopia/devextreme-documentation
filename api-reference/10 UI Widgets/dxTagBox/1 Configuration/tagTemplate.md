@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'tag'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(itemData, itemElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -21,7 +21,7 @@ In Knockout apps, you can bind template elements directly to an item object's fi
 - [Customize Item Appearance](/Documentation/Guide/Widgets/TagBox/Customize_Item_Appearance/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The current tag's data.
 <!--/typeFunctionParamDescription1-->
@@ -32,7 +32,7 @@ The current tag's data.
 The tag's container.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

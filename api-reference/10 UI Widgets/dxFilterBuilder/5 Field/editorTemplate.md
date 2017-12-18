@@ -1,5 +1,5 @@
 ===========================================================================
-<!--type-->template<!--/type-->
+<!--type-->template | function(conditionInfo, container)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -11,17 +11,17 @@ Specifies the editor's custom template.
 - [template](/Documentation/ApiReference/Common/Object_Structures/template/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->conditionInfo<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The condition's settings.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string|number|date<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String|Number|Date<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The condition's data field value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->filterOperation<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->string<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The condition's operation.
 <!--/typeFunctionParamDescription1_field2-->
@@ -31,7 +31,7 @@ The condition's operation.
 The condition's configuration.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->setValue<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->function<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->function()<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 A method that you should call to change the field value after the editor's value is changed.
 <!--/typeFunctionParamDescription1_field4-->
@@ -42,7 +42,7 @@ A method that you should call to change the field value after the editor's value
 The editor's container.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

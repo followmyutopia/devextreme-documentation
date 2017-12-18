@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'group'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(groupData, groupIndex, groupElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -23,13 +23,13 @@ In Knockout apps, you can bind template elements directly to a group object's fi
 - [Customize Group Headers](/Documentation/Guide/Widgets/List/Grouping/Customize_Group_Headers/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->groupData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The current group's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->groupIndex<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The current group's index.
 <!--/typeFunctionParamDescription2-->
@@ -40,7 +40,7 @@ The current group's index.
 The current group's container.
 <!--/typeFunctionParamDescription3-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

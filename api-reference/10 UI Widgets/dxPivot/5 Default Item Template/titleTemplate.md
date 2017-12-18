@@ -1,5 +1,5 @@
 ===========================================================================
-<!--type-->template<!--/type-->
+<!--type-->template | function()<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -12,7 +12,7 @@ A template used for rendering the item title.
 #####See Also#####
 - [Customize Item Appearance](/Documentation/Guide/Widgets/Pivot/Customize_Item_Appearance/)
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->string|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

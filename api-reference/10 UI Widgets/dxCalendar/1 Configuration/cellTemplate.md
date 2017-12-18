@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'cell'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(itemData, itemIndex, itemElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -25,13 +25,13 @@ The binding context of the template as well as the **itemData** parameter of a f
 - [Customize Cell Appearance](/Documentation/Guide/Widgets/Calendar/Customize_Cell_Appearance/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The current cell's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The current cell's index.
 <!--/typeFunctionParamDescription2-->
@@ -42,7 +42,7 @@ The current cell's index.
 The current cell's container.
 <!--/typeFunctionParamDescription3-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or a template container.
 <!--/typeFunctionReturnDescription-->

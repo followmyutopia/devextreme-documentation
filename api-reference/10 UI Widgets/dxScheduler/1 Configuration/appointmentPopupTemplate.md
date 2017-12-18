@@ -1,7 +1,7 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->'appointmentPopup'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(appointmentData, contentElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -39,7 +39,7 @@ In **AngularJS approach**, if you need to access appointment object's fields wit
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->appointmentData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The data of the appointment whose popup is rendered.
 <!--/typeFunctionParamDescription1-->
@@ -50,7 +50,7 @@ The data of the appointment whose popup is rendered.
 The appointment's container.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->string|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

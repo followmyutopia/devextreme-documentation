@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'content'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(container)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -18,7 +18,7 @@ If this option is defined, the [itemTemplate](/Documentation/ApiReference/UI_Wid
 The widget's container.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

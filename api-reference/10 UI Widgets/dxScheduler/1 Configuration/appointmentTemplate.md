@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'item'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(itemData, itemIndex, itemElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -62,13 +62,13 @@ In AngularJS apps, an item's object and index extend the standard binding contex
 - [Customize Appointment](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The current appointment's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The current appointment's index.
 <!--/typeFunctionParamDescription2-->
@@ -79,7 +79,7 @@ The current appointment's index.
 The current appointment's container.
 <!--/typeFunctionParamDescription3-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

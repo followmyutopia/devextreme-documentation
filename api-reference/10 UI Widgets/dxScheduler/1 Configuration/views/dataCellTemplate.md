@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(itemData, itemIndex, itemElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -22,13 +22,13 @@ In **AngularJS approach**, if you need to access cell object fields within a tem
 - [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The current table cell's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The current table cell's index.
 <!--/typeFunctionParamDescription2-->
@@ -39,7 +39,7 @@ The current table cell's index.
 The current table cell's container.
 <!--/typeFunctionParamDescription3-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

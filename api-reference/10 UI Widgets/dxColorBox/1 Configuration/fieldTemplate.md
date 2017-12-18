@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(value, fieldElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -14,7 +14,7 @@ Note that the input field template must contain the [TextBox](/Documentation/Gui
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->string<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->String<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The selected value.
 <!--/typeFunctionParamDescription1-->
@@ -25,7 +25,7 @@ The selected value.
 The current field's container.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or a template container.
 <!--/typeFunctionReturnDescription-->

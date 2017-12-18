@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'group'<!--/default-->
-<!--type-->template<!--/type-->
+<!--type-->template | function(itemData, itemIndex, itemElement)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -24,13 +24,13 @@ In Knockout apps, you can bind template elements directly to a group object's fi
 - [TagBox - Grouped Items Demo](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/jQuery/Light/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The group's data.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->number<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 The group's index.
 <!--/typeFunctionParamDescription2-->
@@ -41,7 +41,7 @@ The group's index.
 The group's container.
 <!--/typeFunctionParamDescription3-->
 
-<!--typeFunctionReturnType-->string|Node|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

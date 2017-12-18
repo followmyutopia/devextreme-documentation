@@ -1,5 +1,5 @@
 ===========================================================================
-<!--type-->template<!--/type-->
+<!--type-->template | function(detailElement, detailInfo)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -65,7 +65,7 @@ The detail section's container.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->detailInfo<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->object<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 Information about the master row.
 <!--/typeFunctionParamDescription2-->
@@ -75,7 +75,7 @@ Information about the master row.
 The key of the master row.
 <!--/typeFunctionParamDescription2_field1-->
 <!--typeFunctionParamName2_field2-->data<!--/typeFunctionParamName2_field2-->
-<!--typeFunctionParamType2_field2-->object<!--/typeFunctionParamType2_field2-->
+<!--typeFunctionParamType2_field2-->Object<!--/typeFunctionParamType2_field2-->
 <!--typeFunctionParamDescription2_field2-->
 The object of the data source presented by the master row.
 <!--/typeFunctionParamDescription2_field2-->
