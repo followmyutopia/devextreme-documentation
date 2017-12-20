@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->template | function(templateData, contentElement)<!--/type-->
+<!--type-->template<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

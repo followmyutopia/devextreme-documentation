@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'dropDownButton'<!--/default-->
-<!--type-->template | function(buttonData, contentElement)<!--/type-->
+<!--type-->template<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

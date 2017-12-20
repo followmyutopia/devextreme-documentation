@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'appointmentTooltip'<!--/default-->
-<!--type-->template | function(appointmentData, contentElement)<!--/type-->
+<!--type-->template<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

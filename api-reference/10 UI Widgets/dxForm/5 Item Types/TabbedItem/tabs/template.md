@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->template | function(tabData, tabIndex, tabElement)<!--/type-->
+<!--type-->template<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'title'<!--/default-->
-<!--type-->template | function(itemData, itemIndex, itemElement)<!--/type-->
+<!--type-->template<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

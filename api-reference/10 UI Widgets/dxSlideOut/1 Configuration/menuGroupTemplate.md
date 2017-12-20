@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'menuGroup'<!--/default-->
-<!--type-->template | function(groupData, groupIndex, groupElement)<!--/type-->
+<!--type-->template<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
