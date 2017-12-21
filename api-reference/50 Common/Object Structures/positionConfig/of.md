@@ -7,90 +7,30 @@ The target element that the widget is positioned against.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The option can take on one of the following values.
+The option accepts one of the following values.
 
-    <!--JavaScript-->
-    // CSS selector
-    position: { of: '#targetElement' };
+- A [native CSS selector](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors), or a [jQuery selector](https://api.jquery.com/category/selectors/) if you use jQuery
 
-    // jQuery wrapper
-    position: { of: $('#targetElement') };
+        position: { of: '#targetElement' };
 
-    // DOM element
-    position: { of: document.getElementById('#targetElement') };
+- A jQuery wrapper
 
-You can also pass a jQuery Event object to the **of** option. In this case, the element is positioned against the point whose coordinates equal [event.pageX](https://api.jquery.com/event.pageX) and [event.pageY](https://api.jquery.com/event.pageY) values.
+        position: { of: $('#targetElement') };
 
-    <!--HTML-->
-    <div id="myElement">. . .</div>
-    <div id="myPopover">
-        <p>Popover content</p>
-    </div>
+- A DOM element
 
-    <!--JavaScript-->
-    $("#myPopover").dxPopover({
-        position: {
-            my: "top",
-            at: "bottom",
-            of: "#myElement"
-        }
-    });
-    $("#myElement").click(function(event){
-        $("#myPopover").dxPopover("instance").option("position.of", event);
-        $("#myPopover").dxPopover("instance").show();
-    })
+        position: { of: document.getElementById('#targetElement') };
 
-#####AngularJS#####
+- The [Window](https://developer.mozilla.org/en-US/docs/Web/API/Window) object
 
-    <!--HTML-->
-    <div id="myElement" ng-click="processClick($event)">. . .</div>
-    <div data-bind="dxPopover: {
-        position: {
-            my: 'top',
-            at: 'bottom',
-            of: ofValue
-        },
-        bindingOptions: {
-            visible: 'popoverVisible',
-            'position.of': 'ofValue'
-        }
-    }">
-        <p>Popover content</p>
-    </div>
+        position: { of: window };
 
-    <!--JavaScript-->
-    function Controller($scope) {
-        $scope.popoverVisible = false;
-        $scope.ofValue = "#myElement";
-        $scope.processClick = function($event) {
-            $scope.ofValue = event;
-            $scope.popoverVisible = true;
-        }
-    }
+- A [jQueryEvent](http://api.jquery.com/Types/#Event) or [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) object.
 
-#####Knockout#####
+ The widget is positioned against the **event.pageX** and **event.pageY** coordinates. In the following example, the [Popover](/Documentation/ApiReference/UI_Widgets/dxPopover/) widget is positioned against a clicked point on the "targetElement".
 
-    <!--HTML-->
-    <div id="myElement" data-bind="click: processClick">. . .</div>
-    <div data-bind="dxPopover: {
-        visible: popoverVisible,
-        position: {
-            my: 'top',
-            at: 'bottom',
-            of: ofValue
-        }
-    }">
-        <p>Popover content</p>
-    </div>
-
-    <!--JavaScript-->
-    var viewModel = {
-        popoverVisible: ko.observable(false),
-        ofValue: ko.observable("#myElement"),
-        processClick: function(data, event) {
-            this.ofValue(event);
-            this.popoverVisible(true);
-        }
-    }
-
+        $("#targetElement").click(function (event) {
+            $("#popover").dxPopover("option", "position.of", event);
+            // ...
+        })
 <!--/fullDescription-->

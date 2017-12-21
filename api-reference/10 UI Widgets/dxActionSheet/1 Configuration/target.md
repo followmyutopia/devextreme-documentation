@@ -3,11 +3,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the element the action sheet popover points at.
+Specifies the element the action sheet popover points at. Applies only if [usePopover](/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/#usePopover) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This options should be utilizes only if the [usePopover](/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/#usePopover) option is set to **true**.
-
-
+#include uiwidgets-ref-target
 <!--/fullDescription-->
