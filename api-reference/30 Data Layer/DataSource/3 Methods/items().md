@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the array of items currently operated by the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
+Gets data items the **DataSource** currently operate.
 <!--/shortDescription-->
 
 <!--returnType-->Array<any><!--/returnType-->
 <!--returnDescription-->
-The array of items operated by the DataSource.
+The data items.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns an array of gauge subvalues.
+Gets subvalues.
 <!--/shortDescription-->
 
 <!--returnType-->Array<Number><!--/returnType-->
 <!--returnDescription-->
-An array of gauge subvalues.
+The subvalues.
 <!--/returnDescription-->
 
 <!--fullDescription-->

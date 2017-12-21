@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance.
+Gets the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance.
 <!--/shortDescription-->
 
 <!--returnType-->DataSource<!--/returnType-->

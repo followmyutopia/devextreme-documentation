@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the currently specified search operation.
+Gets the [searchOperation](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchOperation) option's value.
 <!--/shortDescription-->
 
 <!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
-A search operation expression.
+The option's value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Validates rules of the [validators](/Documentation/ApiReference/UI_Widgets/dxValidator/) that belong to the specified validation group.
+Validates editors from a specific validation group.
 <!--/shortDescription-->
 
 <!--paramName1-->group<!--/paramName1-->
 <!--paramType1-->String|Object<!--/paramType1-->
 <!--paramDescription1-->
-The key of the group to be validated.
+The validation group's key.
 <!--/paramDescription1-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-An object defining the result of validating the specified group.
+The validation result.
 <!--/returnDescription-->
 
 <!--fullDescription-->
@@ -28,4 +28,7 @@ A validation group's key can be represented in the following manner.
  When you use the jQuery approach for validation, a validation group is usually a string because it is the simplest way to unite several widgets in one group - by setting the same group name for the **validationGroup** configuration option of the associated **dxValidator** objects. In this and other similar cases, where you specify a validation group as a string, pass the validation group name as a parameter to the **validateGroup(group)** function.
 
 #include uiwidgets-ref-validate-result
+
+#####See Also#####
+- [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules)
 <!--/fullDescription-->

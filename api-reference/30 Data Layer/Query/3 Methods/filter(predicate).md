@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Filters the current [Query](/Documentation/ApiReference/Data_Layer/Query/) data.
+Filters data items using a custom function.
 <!--/shortDescription-->
 
 <!--paramName1-->predicate<!--/paramName1-->
 <!--paramType1-->function()<!--/paramType1-->
 <!--paramDescription1-->
-A function that returns a Boolean value indicating whether or not an item is included in the resulting array.
+A function that accepts a data item and returns a Boolean value indicating whether the resulting array includes the item.
 <!--/paramDescription1-->
 
 <!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
-The Query object.
+The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->

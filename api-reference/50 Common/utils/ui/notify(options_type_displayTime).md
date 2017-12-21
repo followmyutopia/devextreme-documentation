@@ -10,21 +10,22 @@ Creates a toast message.
 <!--paramName1-->options<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The configuration object of the **Toast** widget.
+The **Toast** [configuration](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/).
 <!--/paramDescription1-->
 
 <!--paramName2-->type<!--/paramName2-->
 <!--paramType2-->String|undefined<!--/paramType2-->
 <!--paramDescription2-->
-A string value specifying the message type.
+The message's type: "info", "warning", "error" or "success".
 <!--/paramDescription2-->
 
 <!--paramName3-->displayTime<!--/paramName3-->
 <!--paramType3-->Number|undefined<!--/paramType3-->
 <!--paramDescription3-->
-A numeric value specifying the time span during which the message is shown.
+The time interval in milliseconds for which the message is displayed.
 <!--/paramDescription3-->
 
 <!--fullDescription-->
-Pass the [configuration object](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/) of the **Toast** widget as a parameter. Alternatively, use the [notify(message, type, displayTime)](/Documentation/ApiReference/Common/Utils/ui/#notifymessage_type_displayTime) method overload.
+#####See Also#####
+- [notify(message, type, displayTime)](/Documentation/ApiReference/Common/utils/ui/#notifymessage_type_displayTime)
 <!--/fullDescription-->

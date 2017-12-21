@@ -8,7 +8,7 @@ Starts loading data.
 <!--paramName1-->options<!--/paramName1-->
 <!--paramType1-->LoadOptions<!--/paramType1-->
 <!--paramDescription1-->
-An object containing data processing settings.
+Data processing settings.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<any><!--/returnType-->

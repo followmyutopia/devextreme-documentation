@@ -2,14 +2,14 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current **filter** option value.
+Gets the [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option's value.
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-A filter expression.
+A filter expression; described in the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-For information on filter expressions, refer to the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section of the Data Layer article.
+
 <!--/fullDescription-->

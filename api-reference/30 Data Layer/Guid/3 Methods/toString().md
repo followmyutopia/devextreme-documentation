@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns a string representation of the [Guid](/Documentation/ApiReference/Data_Layer/Guid/) instance.
+Gets a [Guid](/Documentation/ApiReference/Data_Layer/Guid/) converted to a string.
 <!--/shortDescription-->
 
 <!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
-A string containing the GUID.
+The GUID.
 <!--/returnDescription-->
 
 <!--fullDescription-->

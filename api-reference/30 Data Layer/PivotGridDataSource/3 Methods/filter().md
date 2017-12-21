@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the current [filter expression](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#filter). Cannot be used for the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) store type.
+Gets the [filter](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#filter) option's value. Does not take effect for the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-A filter expression.
+The current filter expression; described in the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Redraws a widget.
+Redraws the widget.
 <!--/shortDescription-->
 
 <!--paramName1-->renderOptions<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-An object containing rerendering options.
+Rendering options.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

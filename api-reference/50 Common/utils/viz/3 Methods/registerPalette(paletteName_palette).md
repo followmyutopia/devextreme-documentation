@@ -10,13 +10,13 @@ Registers a new palette.
 <!--paramName1-->paletteName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The new palette name.
+The palette's name.
 <!--/paramDescription1-->
 
 <!--paramName2-->palette<!--/paramName2-->
 <!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
-The new palette settings.
+The palette's settings.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

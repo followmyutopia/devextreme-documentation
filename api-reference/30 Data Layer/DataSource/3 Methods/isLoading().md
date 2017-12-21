@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Indicates whether or not the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) is currently being loaded.
+Checks whether the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) is being loaded.
 <!--/shortDescription-->
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-If the DataSource is being loaded, it returns true; otherwise, it returns false.
+**true** if the **DataSource** is being loaded; otherwise **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

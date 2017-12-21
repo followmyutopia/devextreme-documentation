@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Adds an item to the data associated with this Store.
+Adds an item to the Store's data.
 <!--/shortDescription-->
 
 <!--paramName1-->values<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-An object representing the new item.
+A new item.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<any><!--/returnType-->

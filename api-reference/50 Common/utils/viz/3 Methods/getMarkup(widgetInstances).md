@@ -10,7 +10,7 @@ Gets the SVG markup of specific widgets for their subsequent export.
 <!--paramName1-->widgetInstances<!--/paramName1-->
 <!--paramType1-->Array<DOMComponent><!--/paramType1-->
 <!--paramDescription1-->
-The instances of the widgets whose markup should be returned.
+The widget instances.
 <!--/paramDescription1-->
 
 <!--returnType-->String<!--/returnType-->

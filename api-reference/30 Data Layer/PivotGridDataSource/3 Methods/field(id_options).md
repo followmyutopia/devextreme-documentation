@@ -2,19 +2,19 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets one or more [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) of a specified field.
+Updates the values of several field options.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
 <!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
-The index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array, [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) or [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption) of the field.
+The field's index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array, [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) or [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption).
 <!--/paramDescription1-->
 
 <!--paramName2-->options<!--/paramName2-->
 <!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
-Option/value pairs object.
+[Options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) with their new values.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

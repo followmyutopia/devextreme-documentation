@@ -10,7 +10,7 @@ Loads DevExtreme messages.
 <!--paramName1-->messages<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-An object containing messages to load.
+The messages to be loaded.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

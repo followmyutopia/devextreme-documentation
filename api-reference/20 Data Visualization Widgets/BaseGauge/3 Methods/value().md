@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the main gauge value.
+Gets the [main value]({basewidgetpath}/Configuration/#value).
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The main gauge value.
+The main value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

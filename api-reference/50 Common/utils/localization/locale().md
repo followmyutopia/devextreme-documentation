@@ -9,7 +9,7 @@ Gets the current locale identifier.
 
 <!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
-The identifier of the current locale.
+The identifier.
 <!--/returnDescription-->
 
 <!--fullDescription-->

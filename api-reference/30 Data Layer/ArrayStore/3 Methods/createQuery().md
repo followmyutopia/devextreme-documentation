@@ -7,7 +7,7 @@ Creates the [Query](/Documentation/ApiReference/Data_Layer/Query/) object for th
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-The desired Query object.
+The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->

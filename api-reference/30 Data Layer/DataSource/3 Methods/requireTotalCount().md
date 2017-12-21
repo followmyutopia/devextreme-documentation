@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current [requireTotalCount](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#requireTotalCount) option value.
+Gets the [requireTotalCount](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#requireTotalCount) option's value.
 <!--/shortDescription-->
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-The current value of the **requireTotalCount** option.
+The option's value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

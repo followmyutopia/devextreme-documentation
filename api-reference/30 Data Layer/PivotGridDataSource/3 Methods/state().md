@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the current PivotGridDataSource state (fields configuration, sorting, filters, expanded headers, etc.)
+Gets the current **PivotGridDataSource** state.
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-A current PivotGridDataSource state.
+The **PivotGridDataSource** state - fields configuration, filters, expanded headers, etc.
 <!--/returnDescription-->
 
 <!--fullDescription-->

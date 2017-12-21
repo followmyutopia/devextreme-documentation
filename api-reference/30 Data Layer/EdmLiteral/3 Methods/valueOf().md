@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns a string representation of the value associated with this **EdmLiteral** object.
+Gets the **EdmLiteral**'s value converted to a string.
 <!--/shortDescription-->
 
 <!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
-A string representation of this **EdmLiteral**.
+The value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

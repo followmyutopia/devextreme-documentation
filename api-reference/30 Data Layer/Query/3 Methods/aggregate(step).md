@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Calculates a custom summary for the items in the current [Query](/Documentation/ApiReference/Data_Layer/Query/).
+Calculates a custom summary for all data items.
 <!--/shortDescription-->
 
 <!--paramName1-->step<!--/paramName1-->

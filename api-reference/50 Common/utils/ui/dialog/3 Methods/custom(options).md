@@ -4,33 +4,33 @@
 ===================================================================
 
 <!--shortDescription-->
-Creates a custom dialog using the options specified by the passed configuration object.
+Creates a custom dialog.
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-An object defining options for the dialog.
+The dialog's options.
 <!--/paramDescription1-->
 <!--paramName1_field1-->title<!--/paramName1_field1-->
 <!--paramType1_field1-->String<!--/paramType1_field1-->
 <!--paramDescription1_field1-->
-Specifies the dialog's title.
+The dialog's title.
 <!--/paramDescription1_field1-->
 <!--paramName1_field2-->message<!--/paramName1_field2-->
 <!--paramType1_field2-->String<!--/paramType1_field2-->
 <!--paramDescription1_field2-->
-Specifies the message displayed by the dialog.
+The dialog's message.
 <!--/paramDescription1_field2-->
 <!--paramName1_field3-->buttons<!--/paramName1_field3-->
 <!--paramType1_field3-->Array<Object><!--/paramType1_field3-->
 <!--paramDescription1_field3-->
-Each item in this array represents options for a button to be displayed in the dialog.
+Options for buttons to be displayed in the dialog.
 <!--/paramDescription1_field3-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-An object representing the required dialog.
+An object representing the dialog.
 <!--/returnDescription-->
 
 <!--fullDescription-->

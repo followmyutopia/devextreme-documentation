@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Indicates whether or not at least one [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method execution has successfully finished.
+Checks whether data is loaded in the **DataSource**.
 <!--/shortDescription-->
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-If the load() method execution has successfully finished, it returns true; otherwise, it returns false.
+**true** if data is loaded; otherwise **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

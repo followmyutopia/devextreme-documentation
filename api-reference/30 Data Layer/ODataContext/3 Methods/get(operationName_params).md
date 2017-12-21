@@ -2,19 +2,19 @@
 ===================================================================
 
 <!--shortDescription-->
-Initiates the specified WebGet service operation that returns a value. For the information on service operations, refer to the [OData documentation](http://www.odata.org/documentation).
+Invokes a WebGet [service operation](http://www.odata.org/documentation) that returns a value. 
 <!--/shortDescription-->
 
 <!--paramName1-->operationName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name of the operation to invoke.
+The operation's name.
 <!--/paramDescription1-->
 
 <!--paramName2-->params<!--/paramName2-->
 <!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
-The bag of parameters supported by the operation.
+The operation's parameters.
 <!--/paramDescription2-->
 
 <!--returnType-->Promise<any><!--/returnType-->

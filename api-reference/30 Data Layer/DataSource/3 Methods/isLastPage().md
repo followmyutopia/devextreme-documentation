@@ -2,14 +2,14 @@
 ===================================================================
 
 <!--shortDescription-->
-Indicates whether or not the current page contains fewer items than the number of items specified by the [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) configuration option.
+Checks whether the count of items on the current page is less than the [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize). Takes effect only with enabled [paging](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate).
 <!--/shortDescription-->
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-If the loaded page size is less then the specified page size, the value is true; otherwise, the value is false.
+**true** if the item count is less than the **pageSize**; otherwise **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-[note] If [paging](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) is disabled, the method always returns **true**.
+
 <!--/fullDescription-->

@@ -8,7 +8,7 @@ Resets the values and validation result of the editors that belong to the specif
 <!--paramName1-->group<!--/paramName1-->
 <!--paramType1-->String|Object<!--/paramType1-->
 <!--paramDescription1-->
-The key of the requested group.
+The validation group's key.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

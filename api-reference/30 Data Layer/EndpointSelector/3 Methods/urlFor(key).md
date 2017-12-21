@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns an endpoint for the specified key.
+Gets an endpoint with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The endpoint key.
+The endpoint's key.
 <!--/paramDescription1-->
 
 <!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
-The required endpoint.
+The endpoint.
 <!--/returnDescription-->
 
 <!--fullDescription-->

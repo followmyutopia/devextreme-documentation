@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the array of current [Query](/Documentation/ApiReference/Data_Layer/Query/) items.
+Gets data items.
 <!--/shortDescription-->
 
 <!--returnType-->Array<any><!--/returnType-->
 <!--returnDescription-->
-The array of items.
+The data items.
 <!--/returnDescription-->
 
 <!--fullDescription-->

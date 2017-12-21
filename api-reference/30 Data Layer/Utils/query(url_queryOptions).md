@@ -4,24 +4,24 @@
 ===================================================================
 
 <!--shortDescription-->
-Creates a [Query](/Documentation/ApiReference/Data_Layer/Query/) instance for accessing the remote service specified by a URL.
+Creates a [Query](/Documentation/ApiReference/Data_Layer/Query/) instance for accessing a remote service by its URL.
 <!--/shortDescription-->
 
 <!--paramName1-->url<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-Specifies the URL of the remote data service.
+The remote data service's URL.
 <!--/paramDescription1-->
 
 <!--paramName2-->queryOptions<!--/paramName2-->
 <!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
-Specifies additional query options.
+Additional query options.
 <!--/paramDescription2-->
 
 <!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
-The created Query instance.
+The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets all map layers.
+Gets all layers.
 <!--/shortDescription-->
 
 <!--returnType-->Array<MapLayer><!--/returnType-->
 <!--returnDescription-->
-The array of [layers](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/).
+The [Layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/) objects.
 <!--/returnDescription-->
 
 <!--fullDescription-->

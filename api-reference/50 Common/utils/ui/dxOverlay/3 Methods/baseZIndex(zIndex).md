@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-A static method that specifies the base z-index for all overlay widgets.
+Specifies the base z-index for all overlay widgets.
 <!--/shortDescription-->
 
 <!--paramName1-->zIndex<!--/paramName1-->

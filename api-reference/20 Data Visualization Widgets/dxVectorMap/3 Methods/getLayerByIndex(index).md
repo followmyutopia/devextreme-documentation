@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the layer by its index.
+Gets a layer with a specific index.
 <!--/shortDescription-->
 
 <!--paramName1-->index<!--/paramName1-->
@@ -13,7 +13,7 @@ The index in the [layers](/Documentation/ApiReference/Data_Visualization_Widgets
 
 <!--returnType-->MapLayer<!--/returnType-->
 <!--returnDescription-->
-The requested layer.
+The [Layer](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->

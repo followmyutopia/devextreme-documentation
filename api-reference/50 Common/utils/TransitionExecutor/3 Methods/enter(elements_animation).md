@@ -2,19 +2,19 @@
 ===================================================================
 
 <!--shortDescription-->
-Registers a set of elements that should be animated as "entering" using the specified animation configuration.
+Registers the set of elements that should be animated as "entering" using the specified animation configuration.
 <!--/shortDescription-->
 
 <!--paramName1-->elements<!--/paramName1-->
 <!--paramType1-->jQuery<!--/paramType1-->
 <!--paramDescription1-->
-A jQuery object including the elements to be animated.
+The elements to be animated.
 <!--/paramDescription1-->
 
 <!--paramName2-->animation<!--/paramName2-->
 <!--paramType2-->animationConfig|String<!--/paramType2-->
 <!--paramDescription2-->
-An object defining the target animation or the name of the animation that is registered in the [animationPresets](/Documentation/ApiReference/Common/Utils/animationPresets) repository.
+The animation configuration or the name of an animation from the [animationPresets](/Documentation/ApiReference/Common/Utils/animationPresets) repository.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets a series within the chart's [series]({basewidgetpath}/Configuration/series/) array by the specified [name]({basewidgetpath}/Configuration/series/#name).
+Gets a series with a specific name.
 <!--/shortDescription-->
 
 <!--paramName1-->seriesName<!--/paramName1-->
 <!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
-The name of the series to be found.
+The series' [name]({basewidgetpath}/Configuration/series/#name).
 <!--/paramDescription1-->
 
 <!--returnType-->chartSeriesObject<!--/returnType-->
 <!--returnDescription-->
-A [Series]({basewidgetpath}/Chart_Elements/Series/) object or **null** if the series is not found.
+The [Series]({basewidgetpath}/Chart_Elements/Series/) object; **null** if nothing is found.     
 <!--/returnDescription-->
 
 <!--fullDescription-->

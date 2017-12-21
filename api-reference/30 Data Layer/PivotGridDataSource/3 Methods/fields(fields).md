@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) option.
+Updates all the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/).
 <!--/shortDescription-->
 
 <!--paramName1-->fields<!--/paramName1-->
 <!--paramType1-->Array<PivotGridDataSource_Options_fields><!--/paramType1-->
 <!--paramDescription1-->
-Array of fields.
+New field options.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

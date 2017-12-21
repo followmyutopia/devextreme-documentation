@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Provides access to the object that represents the default validation group.
+Gets the default validation group.
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-An object representing the requested group.
+The default validation group.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -2,13 +2,14 @@
 ===================================================================
 
 <!--shortDescription-->
-Deletes the specified animation or clears all the animation repository, if an animation name is not passed.
+Deletes an animation with a specific name.
 <!--/shortDescription-->
 
 <!--paramName1-->name<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name of the animation to delete from the animation repository.
+The animation's name.           
+Pass **null** to delete all the animations.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

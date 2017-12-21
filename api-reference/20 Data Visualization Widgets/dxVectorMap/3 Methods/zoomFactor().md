@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the current value of the map zoom factor.
+Gets the current zoom factor value.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The current value of the zoom factor.
+The zoom factor value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

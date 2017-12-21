@@ -4,20 +4,21 @@
 ===================================================================
 
 <!--shortDescription-->
-Creates a [Query](/Documentation/ApiReference/Data_Layer/Query/) instance.
+Creates a **Query** instance.
 <!--/shortDescription-->
 
 <!--paramName1-->array<!--/paramName1-->
 <!--paramType1-->Array<any><!--/paramType1-->
 <!--paramDescription1-->
-The array associated with this Query.
+Data items.
 <!--/paramDescription1-->
 
 <!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
-The created Query instance.
+The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-For more information on Queries, refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept) article.
+#####See Also#####
+- [Data Layer - Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
 <!--/fullDescription-->

@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns an array of all series in the chart.
+Gets all the series.
 <!--/shortDescription-->
 
 <!--returnType-->Array<baseSeriesObject><!--/returnType-->
 <!--returnDescription-->
-An array of [Series]({basewidgetpath}/Chart_Elements/Series/) objects.
+The [Series]({basewidgetpath}/Chart_Elements/Series/) objects.
 <!--/returnDescription-->
 
 <!--fullDescription-->

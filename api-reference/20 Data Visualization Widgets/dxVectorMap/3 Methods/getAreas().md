@@ -5,12 +5,12 @@
 <!--deprecated-->
 Use the layer's [getElements()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/Methods/#getElements) method instead.
 <!--/deprecated--><!--shortDescription-->
-Returns an array with all the map areas.
+Gets an array with all the map areas.
 <!--/shortDescription-->
 
 <!--returnType-->Array<areaObjects><!--/returnType-->
 <!--returnDescription-->
-An array of the map areas.
+[Area](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/) objects.
 <!--/returnDescription-->
 
 <!--fullDescription-->

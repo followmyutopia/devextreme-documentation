@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Resets all the changes made in the animation repository.
+Deletes all custom animations.
 <!--/shortDescription-->
 
 <!--fullDescription-->

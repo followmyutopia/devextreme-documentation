@@ -7,7 +7,7 @@ Returns real [information](/Documentation/ApiReference/Common/Object_Structures/
 
 <!--returnType-->Device<!--/returnType-->
 <!--returnDescription-->
-An object containing information about the current device.
+Information about the current device.
 <!--/returnDescription-->
 
 <!--fullDescription-->

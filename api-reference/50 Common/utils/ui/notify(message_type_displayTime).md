@@ -10,21 +10,21 @@ Creates a toast message.
 <!--paramName1-->message<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-A string value specifying the message text.
+The message's text.
 <!--/paramDescription1-->
 
 <!--paramName2-->type<!--/paramName2-->
 <!--paramType2-->String|undefined<!--/paramType2-->
 <!--paramDescription2-->
-A string value specifying the message type.
+The message's type: "info", "warning", "error" or "success".
 <!--/paramDescription2-->
 
 <!--paramName3-->displayTime<!--/paramName3-->
 <!--paramType3-->Number|undefined<!--/paramType3-->
 <!--paramDescription3-->
-A numeric value specifying the time span during which the message is shown.
+The time interval in milliseconds for which the message is displayed.
 <!--/paramDescription3-->
 
 <!--fullDescription-->
-The type parameter can take on one of the following values: 'info'|'warning'|'error'|'success'.
+
 <!--/fullDescription-->

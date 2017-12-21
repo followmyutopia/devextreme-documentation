@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the widget's SVG markup.
+Gets the widget's SVG markup.
 <!--/shortDescription-->
 
 <!--returnType-->String<!--/returnType-->

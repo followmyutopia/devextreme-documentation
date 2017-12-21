@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the key expression specified via the **key** configuration option.
+Gets the [key]({basewidgetpath}/Configuration/#key) option's value.
 <!--/shortDescription-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-A key expression or an array of key expressions.
+The option's value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

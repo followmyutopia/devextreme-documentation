@@ -4,13 +4,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets a specified template engine.
+Sets a template engine.
 <!--/shortDescription-->
 
 <!--paramName1-->templateEngineName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name of the template engine to be set. The following values are acceptable: "jquery-tmpl", "jsrender", "mustache", "hogan", "underscore", "handlebars" and "doT".
+The template engine's name: *"jquery-tmpl", "jsrender", "mustache", "hogan", "underscore", "handlebars"* and *"doT"*.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

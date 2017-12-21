@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the current coordinates of the map viewport.
+Gets the current map viewport coordinates.
 <!--/shortDescription-->
 
 <!--returnType-->Array<Number><!--/returnType-->
 <!--returnDescription-->
-The current coordinates of the map viewport.
+The viewport coordinates.
 <!--/returnDescription-->
 
 <!--fullDescription-->

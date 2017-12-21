@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Changes the current theme to the specified one.
+Sets a theme with a specific name.
 <!--/shortDescription-->
 
 <!--paramName1-->themeName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name of the theme to activate.
+The theme's name.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

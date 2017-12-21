@@ -4,18 +4,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Requests that the browser call a specified function to update animation before the next repaint.
+Makes the browser call a function to update animation before the next repaint.
 <!--/shortDescription-->
 
 <!--paramName1-->callback<!--/paramName1-->
 <!--paramType1-->function()<!--/paramType1-->
 <!--paramDescription1-->
-Specifies the function to call when it's time to update your animation for the next repaint.
+The function.
 <!--/paramDescription1-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The request id that uniquely identifies the entry in the callback list.
+The current request's ID.
 <!--/returnDescription-->
 
 <!--fullDescription-->

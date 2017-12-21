@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns a value indicating whether the specified element is being animated.
+Checks whether an element is being animated.
 <!--/shortDescription-->
 
 <!--paramName1-->element<!--/paramName1-->
 <!--paramType1-->Node<!--/paramType1-->
 <!--paramDescription1-->
-The element to check for being animated.
+The element.
 <!--/paramDescription1-->
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-If the specified element is being animated, the method returns **true**. Otherwise, **false**.
+**true** if the element is being animated; otherwise **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

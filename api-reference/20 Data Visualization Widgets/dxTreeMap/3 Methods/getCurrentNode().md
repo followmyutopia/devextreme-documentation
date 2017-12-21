@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current node.
+Gets the current node.
 <!--/shortDescription-->
 
 <!--returnType-->dxTreeMapNode<!--/returnType-->
 <!--returnDescription-->
-The current node.
+The [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Methods/#getCurrentNode) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->

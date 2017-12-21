@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Calculates the average item value for the current [Query](/Documentation/ApiReference/Data_Layer/Query/), if each Query item has a numeric type.
+Calculates the average item value. Takes effect only if data is a numeric array.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<Number><!--/returnType-->

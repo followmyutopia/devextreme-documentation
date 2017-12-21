@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Calculates the sum of item values in the current [Query](/Documentation/ApiReference/Data_Layer/Query/).
+Calculates the sum of item values.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<Number><!--/returnType-->

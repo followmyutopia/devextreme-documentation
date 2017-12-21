@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Applies a new [filter expression](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#filter). Cannot be used for the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) store type.
+Sets the [filter](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#filter) option's value. Does not take effect for the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
 <!--/shortDescription-->
 
 <!--paramName1-->filterExpr<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-A filter expression.
+A filter expression; described in the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
@@ -17,5 +17,4 @@ To apply a new filtering expression, call the [reload()](/Documentation/ApiRefer
     <!--JavaScript-->pivotGridDataSource.filter("price", "<", 100);
     pivotGridDataSource.reload()
 
-For information on filter expressions, refer to the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section of the Data Layer article.
 <!--/fullDescription-->

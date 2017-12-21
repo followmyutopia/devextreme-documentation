@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option value.
+Gets the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option's value.
 <!--/shortDescription-->
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-The current value of the **paginate** option.
+The option's value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

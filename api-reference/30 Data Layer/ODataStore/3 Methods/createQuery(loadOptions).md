@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Creates the [Query](/Documentation/ApiReference/Data_Layer/Query/) object for the OData endpoint.
+Creates a **Query** object for the OData endpoint.
 <!--/shortDescription-->
 
 <!--paramName1-->loadOptions<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The optional query configuration object.
+The **Query** configuration.
 <!--/paramDescription1-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-The desired Query object.
+The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -5,12 +5,12 @@
 <!--deprecated-->
 Use the getAllSeries() method instead.
 <!--/deprecated--><!--shortDescription-->
-Provides access to the **PieChart** series.
+Gets all the series.
 <!--/shortDescription-->
 
 <!--returnType-->pieChartSeriesObject<!--/returnType-->
 <!--returnDescription-->
-The **PieChart** series.
+The series.
 <!--/returnDescription-->
 
 <!--fullDescription-->

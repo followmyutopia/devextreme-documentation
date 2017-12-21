@@ -4,13 +4,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Compiles a getter function from the getter expression.
+Compiles a getter function from a getter expression.
 <!--/shortDescription-->
 
 <!--paramName1-->expr<!--/paramName1-->
 <!--paramType1-->String|Array<String><!--/paramType1-->
 <!--paramDescription1-->
-A getter expression.
+The getter expression.
 <!--/paramDescription1-->
 
 <!--returnType-->function()<!--/returnType-->

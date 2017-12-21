@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Cancels the load operation associated with the specified identifier.
+Cancels the load operation with a specific identifier.
 <!--/shortDescription-->
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-Indicates whether the operation is successfully canceled (*true*) or was not found (*false*).
+**true** if operation is canceled; **false** if it was not found.
 <!--/returnDescription-->
 
 <!--fullDescription-->

@@ -10,13 +10,13 @@ Registers a new component in the specified namespace.
 <!--paramName1-->name<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name for the component to register.
+The component's name.
 <!--/paramDescription1-->
 
 <!--paramName2-->namespace<!--/paramName2-->
 <!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
-The object that represents the namespace within which the registered component will be accessible.
+The namespace.
 <!--/paramDescription2-->
 
 <!--paramName3-->componentClass<!--/paramName3-->

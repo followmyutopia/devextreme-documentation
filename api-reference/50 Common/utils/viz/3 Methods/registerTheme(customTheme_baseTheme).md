@@ -10,13 +10,13 @@ Registers a new theme based on the existing one.
 <!--paramName1-->customTheme<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The new theme settings.
+The theme's settings.
 <!--/paramDescription1-->
 
 <!--paramName2-->baseTheme<!--/paramName2-->
 <!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
-The base theme name.
+The base theme's name.
 <!--/paramDescription2-->
 
 <!--fullDescription-->

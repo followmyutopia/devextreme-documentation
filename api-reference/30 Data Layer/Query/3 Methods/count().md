@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the total count of items in the current [Query](/Documentation/ApiReference/Data_Layer/Query/).
+Gets the total item count.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<Number><!--/returnType-->

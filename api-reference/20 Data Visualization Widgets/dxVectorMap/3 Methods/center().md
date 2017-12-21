@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the current coordinates of the map center.
+Gets the current map center coordinates.
 <!--/shortDescription-->
 
 <!--returnType-->Array<Number><!--/returnType-->
 <!--returnDescription-->
-The current coordinates of the map center.
+The current map center coordinates.
 <!--/returnDescription-->
 
 <!--fullDescription-->

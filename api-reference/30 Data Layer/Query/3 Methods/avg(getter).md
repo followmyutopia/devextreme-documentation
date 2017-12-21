@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Calculates the average item value for the current [Query](/Documentation/ApiReference/Data_Layer/Query/).
+Calculates the average getter value. 
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-A getter for calculating the current value.
+The [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) to be used for calculating the average value.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<Number><!--/returnType-->
@@ -28,5 +28,4 @@ The following example demonstrates how to calculate the average value of the **p
 
 If a Query item is a numeric value, use the [avg()](/Documentation/ApiReference/Data_Layer/Query/Methods/#avg) method instead of this one.
 
-For information on getters, refer to the [Getters and Setters section](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) of the Data Layer article.
 <!--/fullDescription-->

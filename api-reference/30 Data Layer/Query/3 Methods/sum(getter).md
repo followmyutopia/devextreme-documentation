@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Calculates the sum of item getter values in the current [Query](/Documentation/ApiReference/Data_Layer/Query/).
+Calculates the sum of getter values.
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The required getter.
+The [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) to be used for calculating the sum.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<Number><!--/returnType-->
@@ -28,5 +28,4 @@ The following example demonstrates how to calculate the total **price** value of
 
 If a Query item is a numeric value, use the [sum()](/Documentation/ApiReference/Data_Layer/Query/Methods/#sum) method instead of this one.
 
-For information on getters, refer to the [Getters and Setters section](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) of the Data Layer article.
 <!--/fullDescription-->

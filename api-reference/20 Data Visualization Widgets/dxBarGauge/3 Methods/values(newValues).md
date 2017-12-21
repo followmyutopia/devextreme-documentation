@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Updates the values displayed by a gauge.
+Updates all the [values](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#values).
 <!--/shortDescription-->
 
 <!--paramName1-->values<!--/paramName1-->
 <!--paramType1-->Array<Number><!--/paramType1-->
 <!--paramDescription1-->
-A set of new values.
+New values.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

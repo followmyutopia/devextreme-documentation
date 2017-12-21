@@ -4,18 +4,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Obtains the color sets of a predefined or registered palette.
+Gets the color sets of a predefined or registered palette.
 <!--/shortDescription-->
 
 <!--paramName1-->paletteName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The palette name.
+The palette's name.
 <!--/paramDescription1-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-The palette settings.
+The palette's settings.
 <!--/returnDescription-->
 
 <!--fullDescription-->

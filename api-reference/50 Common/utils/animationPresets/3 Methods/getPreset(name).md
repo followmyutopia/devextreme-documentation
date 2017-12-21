@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the configuration of the animation found in the animation repository by the specified name for the current device.
+Gets the configuration of an animation with a specific name. 
 <!--/shortDescription-->
 
 <!--paramName1-->name<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name of the requested animation configuration.
+The animation's name.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

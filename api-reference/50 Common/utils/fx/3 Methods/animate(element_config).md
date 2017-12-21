@@ -2,19 +2,19 @@
 ===================================================================
 
 <!--shortDescription-->
-Animates the specified element.
+Animates an element.
 <!--/shortDescription-->
 
 <!--paramName1-->element<!--/paramName1-->
 <!--paramType1-->Node<!--/paramType1-->
 <!--paramDescription1-->
-The element to animate.
+The element.
 <!--/paramDescription1-->
 
 <!--paramName2-->config<!--/paramName2-->
 <!--paramType2-->animationConfig<!--/paramType2-->
 <!--paramDescription2-->
-An object that defines element [animation options](/Documentation/ApiReference/Common/Object_Structures/animationConfig).
+The element's [animation options](/Documentation/ApiReference/Common/Object_Structures/animationConfig).
 <!--/paramDescription2-->
 
 <!--returnType-->Promise<void><!--/returnType-->

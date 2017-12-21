@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets the coordinates of the map center.
+Sets the map center coordinates.
 <!--/shortDescription-->
 
 <!--paramName1-->centerCoordinates<!--/paramName1-->
 <!--paramType1-->Array<Number><!--/paramType1-->
 <!--paramDescription1-->
-New coordinates for the map center. Pass **null** to reset the coordinates.
+New map center coordinates. Pass **null** to reset the coordinates.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

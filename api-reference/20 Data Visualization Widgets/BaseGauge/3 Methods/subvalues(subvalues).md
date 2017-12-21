@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Updates gauge subvalues.
+Updates subvalues.
 <!--/shortDescription-->
 
 <!--paramName1-->subvalues<!--/paramName1-->
 <!--paramType1-->Array<Number><!--/paramType1-->
 <!--paramDescription1-->
-A new array of gauge subvalues.
+New subvalues.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

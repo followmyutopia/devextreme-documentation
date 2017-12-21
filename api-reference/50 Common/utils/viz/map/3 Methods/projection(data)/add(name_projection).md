@@ -8,7 +8,7 @@ Adds a new projection to the internal projections storage.
 <!--paramName1-->name<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The projection name.
+The projection's name.
 <!--/paramDescription1-->
 
 <!--paramName2-->projection<!--/paramName2-->

@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Return a special proxy object to describe the entity link.
+Gets a special proxy object to describe the entity link.
 <!--/shortDescription-->
 
 <!--paramName1-->entityAlias<!--/paramName1-->
@@ -19,7 +19,7 @@ The target entity key value.
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-The desired proxy object.
+The proxy object.
 <!--/returnDescription-->
 
 <!--fullDescription-->

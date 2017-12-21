@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Selects a specific range.
+Sets the selected range.
 <!--/shortDescription-->
 
 <!--paramName1-->value<!--/paramName1-->
 <!--paramType1-->Array<Number, String, Date><!--/paramType1-->
 <!--paramDescription1-->
-Two values that represent the start and end values of the range to be selected.
+New start and end values.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

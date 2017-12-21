@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Redraws a widget.
+Redraws the widget.
 <!--/shortDescription-->
 
 <!--paramName1-->skipChartAnimation<!--/paramName1-->
 <!--paramType1-->Boolean<!--/paramType1-->
 <!--paramDescription1-->
-Specifies whether or not to animate the chart within a range selector on render.
+Specifies whether to animate the background chart on render.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

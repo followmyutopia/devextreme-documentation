@@ -7,7 +7,7 @@ Gets the currently selected range.
 
 <!--returnType-->Array<Number, String, Date><!--/returnType-->
 <!--returnDescription-->
-Two values that represent the start and end values of the currently selected range.
+The start and end values.
 <!--/returnDescription-->
 
 <!--fullDescription-->

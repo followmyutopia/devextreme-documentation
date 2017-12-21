@@ -10,13 +10,13 @@ Creates an alert dialog message containing a single "OK" button.
 <!--paramName1-->message<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-A string value representing the dialog message.
+The dialog's message.
 <!--/paramDescription1-->
 
 <!--paramName2-->title<!--/paramName2-->
 <!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
-A string value representing the dialog title.
+The dialog's title.
 <!--/paramDescription2-->
 
 <!--returnType-->Promise<void><!--/returnType-->

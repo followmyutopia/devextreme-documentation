@@ -10,7 +10,7 @@ Registers a new component in the [DevExpress.ui](/Documentation/ApiReference/Com
 <!--paramName1-->name<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name for the component to register.
+The component's name.
 <!--/paramDescription1-->
 
 <!--paramName2-->componentClass<!--/paramName2-->

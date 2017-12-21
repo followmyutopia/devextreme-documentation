@@ -2,14 +2,15 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the [searchExpr](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) option value.
+Gets the [searchExpr](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) option's value.
 <!--/shortDescription-->
 
 <!--returnType-->getter|Array<getter><!--/returnType-->
 <!--returnDescription-->
-A getter representing a search expression.
+The option's value; described in the [Getters and Setters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) section.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-For more information on searching, refer to the [Search Api section](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api) of the Data Layer article. For information on getters, refer to the [Getters and Setters section](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) of the Data Layer article. 
+#####See Also#####
+- [Data Layer - Search API](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api)
 <!--/fullDescription-->

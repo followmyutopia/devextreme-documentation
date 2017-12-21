@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the key expression specified by the **key** configuration option of the underlying Store.
+Gets the value of the underlying Store's **key** option.
 <!--/shortDescription-->
 
 <!--returnType-->Object|String|Number<!--/returnType-->

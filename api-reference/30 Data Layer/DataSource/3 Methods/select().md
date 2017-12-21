@@ -2,14 +2,14 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current **select** option value.
+Gets the [select](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#select) option's value.
 <!--/shortDescription-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-A select expression.
+The current select expression; described in the [Select Expressions](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Select_Expressions) section.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-For information on select expressions, refer to the [Select Expressions](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Select_Expressions) section of the Data Layer article.
+
 <!--/fullDescription-->

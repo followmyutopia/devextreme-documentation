@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Finds the item with the maximum value in the [Query](/Documentation/ApiReference/Data_Layer/Query/).
+Finds a data item with the maximum value. Takes effect only if data is a numeric array.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<Number, Date><!--/returnType-->

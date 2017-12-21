@@ -10,7 +10,7 @@ Changes the current theme for all data visualization widgets on the page.
 <!--paramName1-->theme<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The new theme's name.
+A new theme's name.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

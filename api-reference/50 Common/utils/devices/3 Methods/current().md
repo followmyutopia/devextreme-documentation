@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns [information](/Documentation/ApiReference/Common/Object_Structures/device/) about the current device.
+Gets [information](/Documentation/ApiReference/Common/Object_Structures/device/) on the current device.
 <!--/shortDescription-->
 
 <!--returnType-->Device<!--/returnType-->
 <!--returnDescription-->
-An object containing information about the current device.
+Information on the current device.
 <!--/returnDescription-->
 
 <!--fullDescription-->

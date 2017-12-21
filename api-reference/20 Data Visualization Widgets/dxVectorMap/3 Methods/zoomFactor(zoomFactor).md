@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets the value of the map zoom factor.
+Sets the zoom factor value.
 <!--/shortDescription-->
 
 <!--paramName1-->zoomFactor<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-A new value of the zoom factor. Pass **null** to reset the zoom factor.
+A new zoom factor value. Pass **null** to reset the zoom factor.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

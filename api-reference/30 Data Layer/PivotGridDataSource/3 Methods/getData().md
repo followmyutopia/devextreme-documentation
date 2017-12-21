@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets data displayed in a PivotGrid.
+Gets the **PivotGrid**'s data.
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-Pivot grid data.
+The data.
 <!--/returnDescription-->
 
 <!--fullDescription-->

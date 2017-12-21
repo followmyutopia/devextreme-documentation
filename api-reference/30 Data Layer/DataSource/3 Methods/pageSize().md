@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current **pageSize** option value.
+Gets the [page size](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize).
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The current page size value.
+The page size.
 <!--/returnDescription-->
 
 <!--fullDescription-->

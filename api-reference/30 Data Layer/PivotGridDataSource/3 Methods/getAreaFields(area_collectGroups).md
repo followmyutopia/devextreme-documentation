@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets all fields within a specified area.
+Gets all the fields within an area.
 <!--/shortDescription-->
 
 <!--paramName1-->area<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-[Area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) type.
+The area's [type](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area).
 <!--/paramDescription1-->
 
 <!--paramName2-->collectGroups<!--/paramName2-->
@@ -19,9 +19,9 @@ Specifies whether to display groups as separate items.
 
 <!--returnType-->Array<PivotGridDataSource_Options_fields><!--/returnType-->
 <!--returnDescription-->
-An array of [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/).
+All [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) of all the fields.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-If the **collectGroups** parameter is set to **true**, this method will return groups as separate items without going into their structure.
+
 <!--/fullDescription-->

@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets all [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) from the data source.
+Gets all the fields.
 <!--/shortDescription-->
 
 <!--returnType-->Array<PivotGridDataSource_Options_fields><!--/returnType-->
 <!--returnDescription-->
-Array of fields.
+All [options](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) of all the fields.
 <!--/returnDescription-->
 
 <!--fullDescription-->

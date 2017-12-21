@@ -4,13 +4,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Compiles a setter function from the setter expression.
+Compiles a setter function from a setter expression.
 <!--/shortDescription-->
 
 <!--paramName1-->expr<!--/paramName1-->
 <!--paramType1-->String|Array<String><!--/paramType1-->
 <!--paramDescription1-->
-A getter expression.
+The setter expression.
 <!--/paramDescription1-->
 
 <!--returnType-->function()<!--/returnType-->

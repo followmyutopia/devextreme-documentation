@@ -7,7 +7,7 @@ Returns the current device orientation.
 
 <!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
-The "portrait" or "landscape" value specifying device orientation.
+The current device orientation: *"portrait"* or *"landscape"*.
 <!--/returnDescription-->
 
 <!--fullDescription-->

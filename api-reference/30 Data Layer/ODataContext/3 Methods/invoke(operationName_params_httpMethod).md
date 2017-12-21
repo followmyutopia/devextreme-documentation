@@ -2,25 +2,25 @@
 ===================================================================
 
 <!--shortDescription-->
-Initiates the specified WebGet service operation that returns nothing. For the information on service operations, refer to the [OData documentation](http://www.odata.org/documentation).
+Invokes a WebGet [service operation](http://www.odata.org/documentation) that returns nothing. 
 <!--/shortDescription-->
 
 <!--paramName1-->operationName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name of the operation to invoke.
+The operation's name
 <!--/paramDescription1-->
 
 <!--paramName2-->params<!--/paramName2-->
 <!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
-The bag of parameters supported by the operation.
+The operation's parameters.
 <!--/paramDescription2-->
 
 <!--paramName3-->httpMethod<!--/paramName3-->
 <!--paramType3-->Object<!--/paramType3-->
 <!--paramDescription3-->
-Specifies the HTTP method for this operation. The default value is "POST".
+The HTTP method for this operation. "POST" by default.
 <!--/paramDescription3-->
 
 <!--returnType-->Promise<void><!--/returnType-->

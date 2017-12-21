@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns an array of gauge values.
+Gets all the [values](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#values).
 <!--/shortDescription-->
 
 <!--returnType-->Array<Number><!--/returnType-->
 <!--returnDescription-->
-An array of gauge values.
+The values.
 <!--/returnDescription-->
 
 <!--fullDescription-->

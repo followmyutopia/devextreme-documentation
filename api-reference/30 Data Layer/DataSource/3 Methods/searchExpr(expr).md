@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets the [searchExpr](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) option value.
+Sets the [searchExpr](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) option's value.
 <!--/shortDescription-->
 
 <!--paramName1-->expr<!--/paramName1-->
 <!--paramType1-->getter|Array<getter><!--/paramType1-->
 <!--paramDescription1-->
-A getter representing a search expression.
+A new value; described in the [Getters and Setters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) section.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
@@ -17,5 +17,6 @@ A getter representing a search expression.
     dataSource.searchOperation("contains");
     dataSource.searchValue("Jo");
 
-For more information on searching, refer to the [Search Api section](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api) of the Data Layer article. For information on getters, refer to the [Getters and Setters section](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) of the Data Layer article. 
+#####See Also#####
+- [Data Layer - Search API](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api)
 <!--/fullDescription-->

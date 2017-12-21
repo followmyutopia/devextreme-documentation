@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Finds the item with the maximum getter value.
+Finds a data item with the maximum getter value.
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The required getter.
+The [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters).
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<Number, Date><!--/returnType-->
@@ -28,5 +28,4 @@ The following example demonstrates how to get the maximum value from the **price
 
 If a Query item is a numeric value, use the [max()](/Documentation/ApiReference/Data_Layer/Query/Methods/#max) method instead of this one.
 
-For information on getters, refer to the [Getters and Setters section](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) of the Data Layer article.
 <!--/fullDescription-->

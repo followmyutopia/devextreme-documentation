@@ -2,29 +2,29 @@
 ===================================================================
 
 <!--shortDescription-->
-Adds the specified animation preset to the animation repository by the specified name.
+Adds an animation with a specific name to the animation repository.
 <!--/shortDescription-->
 
 <!--paramName1-->name<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name by which the preset is added to the animation repository.
+The animation's name.
 <!--/paramDescription1-->
 
 <!--paramName2-->config<!--/paramName2-->
 <!--paramType2-->Object<!--/paramType2-->
 <!--paramDescription2-->
-An object defining the animation preset to be registered.
+Information on the animation.
 <!--/paramDescription2-->
 <!--paramName2_field1-->animation<!--/paramName2_field1-->
 <!--paramType2_field1-->animationConfig<!--/paramType2_field1-->
 <!--paramDescription2_field1-->
-A configuration object for the registered animation preset.
+The animation's configuration.
 <!--/paramDescription2_field1-->
 <!--paramName2_field2-->device<!--/paramName2_field2-->
 <!--paramType2_field2-->Device<!--/paramType2_field2-->
 <!--paramDescription2_field2-->
-An object defining the target devices for which the animation preset is registered.
+The animation's target device.
 <!--/paramDescription2_field2-->
 
 <!--fullDescription-->

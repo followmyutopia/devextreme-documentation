@@ -2,14 +2,14 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the current **sort** option value.
+Gets the [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) option's value.
 <!--/shortDescription-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-A sort expression.
+The current sort expression; described in the [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting) section.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-For information on sort expressions, refer to the [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting) section of the Data Layer article.
+
 <!--/fullDescription-->

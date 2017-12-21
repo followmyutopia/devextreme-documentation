@@ -4,12 +4,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the current global configuration object.
+Gets the current global configuration.
 <!--/shortDescription-->
 
 <!--returnType-->globalConfig<!--/returnType-->
 <!--returnDescription-->
-An object representing the current global configuration options.
+The [global configuration](/Documentation/ApiReference/Common/Object_Structures/globalConfig/).
 <!--/returnDescription-->
 
 <!--fullDescription-->

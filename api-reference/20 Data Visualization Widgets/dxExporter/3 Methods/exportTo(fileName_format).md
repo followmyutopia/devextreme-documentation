@@ -2,19 +2,19 @@
 ===================================================================
 
 <!--shortDescription-->
-Exports a DevExtreme data visualization widget into a file with a specified name and format.
+Exports the widget.
 <!--/shortDescription-->
 
 <!--paramName1-->fileName<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The name of a destination file.
+The name of the file to which the widget is about to be exported.
 <!--/paramDescription1-->
 
 <!--paramName2-->format<!--/paramName2-->
 <!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
-A required format.
+The file's format.  
 <!--/paramDescription2-->
 
 <!--fullDescription-->

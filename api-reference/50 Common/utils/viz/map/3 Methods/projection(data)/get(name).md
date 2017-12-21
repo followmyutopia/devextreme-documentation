@@ -8,7 +8,7 @@ Gets the default or custom projection from the projection storage.
 <!--paramName1-->name<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The projection name.
+The projection's name.
 <!--/paramDescription1-->
 
 <!--returnType-->Object<!--/returnType-->

@@ -5,7 +5,7 @@
 <!--deprecated-->
 Use the [getValue()](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Methods/#getValue) method instead.
 <!--/deprecated--><!--shortDescription-->
-Returns the currently selected range.
+Gets the currently selected range.
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->

@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Removes the data item specified by the key.
+Removes a data item with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->key<!--/paramName1-->
 <!--paramType1-->Object|String|Number<!--/paramType1-->
 <!--paramDescription1-->
-The data item key value.
+The key.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<void><!--/returnType-->

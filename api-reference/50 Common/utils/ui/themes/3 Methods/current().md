@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the name of the currently applied theme.
+Gets the current theme's name.
 <!--/shortDescription-->
 
 <!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
-The name of the currently applied theme.
+The current theme's name.
 <!--/returnDescription-->
 
 <!--fullDescription-->

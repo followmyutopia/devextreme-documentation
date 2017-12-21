@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Adds one more sorting option to the current [Query](/Documentation/ApiReference/Data_Layer/Query/).
+Adds one more sorting expression to the **Query**.
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The getter by which to sort the items.
+The [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) to be used for sorting data items.
 <!--/paramDescription1-->
 
 <!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
-The current Query object.
+The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->
@@ -29,5 +29,4 @@ The following example demonstrates how to get an array of Query items sorted by 
 
 #####See Also#####
 - [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting)
-- [Getters and Setters](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters)
 <!--/fullDescription-->

@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Specifies a function to execute when the theme is loaded.
+Specifies a function to be executed after the theme is loaded.
 <!--/shortDescription-->
 
 <!--paramName1-->callback<!--/paramName1-->
 <!--paramType1-->function()<!--/paramType1-->
 <!--paramDescription1-->
-A function to execute after the theme is ready.
+The function.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

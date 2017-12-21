@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Returns the [searchValue](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchValue) option value.
+Gets the [searchValue](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchValue) option's value.
 <!--/shortDescription-->
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-The value to which the search expression value is compared.
+The option's value.
 <!--/returnDescription-->
 
 <!--fullDescription-->

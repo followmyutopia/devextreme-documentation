@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Specifies the index of the currently loaded page.
+Gets the current page index.
 <!--/shortDescription-->
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-A zero-based index.
+A zero-based page index.
 <!--/returnDescription-->
 
 <!--fullDescription-->
