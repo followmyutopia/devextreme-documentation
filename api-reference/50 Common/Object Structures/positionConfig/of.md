@@ -30,7 +30,7 @@ The option accepts one of the following values.
  The widget is positioned against the **event.pageX** and **event.pageY** coordinates. In the following example, the [Popover](/Documentation/ApiReference/UI_Widgets/dxPopover/) widget is positioned against a clicked point on the "targetElement".
 
         $("#targetElement").click(function (event) {
-            $("#popover").dxPopover("option", "position.of", event);
-            // ...
+            $("#popover").dxPopover("option", "position.of", event);
+            // ...
         })
 <!--/fullDescription-->
