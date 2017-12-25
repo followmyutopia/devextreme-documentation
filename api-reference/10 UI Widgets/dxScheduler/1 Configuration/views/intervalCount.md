@@ -15,7 +15,9 @@ The following is a list of views and their default intervals:
 - *"workWeek"*, *"timelineWorkWeek"* - a week without weekends      
 - *"month"* - a month
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/IncreasedViewDuration/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/IncreaseViewDuration/jQuery/Light/"
+}
 
 #####See Also#####
 - [agendaDuration](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#agendaDuration)
