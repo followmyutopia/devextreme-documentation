@@ -43,15 +43,15 @@ A user can interact with the widget using the following keys:
         </tr>
         <tr>
           <td>Shift + Space or Shift + Click</td>
-          <td>Selects or clears the selection of a range of rows between the last selected or deselected and the focused rows.<sup>4</sup></td>
+          <td>Selects or clears the selection of a range of rows between the last selected or deselected and the focused rows.<sup>4,5</sup></td>
         </tr>
         <tr>
           <td>Ctrl + A</td>
-          <td>Selects all rows.<sup>3,5</sup></td>
+          <td>Selects all rows.<sup>3,6</sup></td>
         </tr>
         <tr>
           <td>Ctrl + F</td>
-          <td>Focuses the search panel.<sup>6</sup>
+          <td>Focuses the search panel.<sup>7</sup>
         </tr>
         <tr>
           <td>PageUp / PageDown</td>
@@ -66,7 +66,7 @@ A user can interact with the widget using the following keys:
             Shift + Click / Ctrl + Click<br/>
             on a column header
           </td>
-          <td>Applies/clears sorting settings of the column.<sup>7</sup></td>
+          <td>Applies/clears sorting settings of the column.<sup>8</sup></td>
         </tr>
         <tr>
           <td>Ctrl + &rarr; / Ctrl + &larr;</td>
@@ -76,13 +76,14 @@ A user can interact with the widget using the following keys:
 </div>
 
 <div style="font-size:12px">
-    <sup>1</sup> - A select box appears in a cell of a <a href="/Documentation/17_2/Guide/Widgets/TreeList/Columns/Column_Types/Lookup_Columns/">lookup column</a>.<br />
-    <sup>2</sup> - A calendar appears in a data cell when a column contains <i>"date"</i> <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType">type</a> data.<br />
-    <sup>3</sup> - <b>selection</b> | <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#mode">mode</a> must be different from <i>"none"</i>.<br />
-    <sup>4</sup> - <b>selection</b> | <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#mode">mode</a> must be <i>"multiple"</i>.<br />
-    <sup>5</sup> - <b>selection</b> | <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#allowSelectAll">allowSelectAll</a> must be <i>true</i>.<br />
-    <sup>6</sup> - The <a href="/Documentation/17_2/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel">search panel</a> must be visible.<br />
-    <sup>7</sup> - <b>sorting</b> | <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/sorting/#mode">mode</a> must be <i>"multiple"</i>.
+    <sup>1</sup> - A select box appears in a cell of a <a href="/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Lookup_Columns/">lookup column</a>.<br />
+    <sup>2</sup> - A calendar appears in a data cell when a column contains <i>"date"</i> <a href="/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType">type</a> data.<br />
+    <sup>3</sup> - <b>selection</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#mode">mode</a> must be different from <i>"none"</i>.<br />
+    <sup>4</sup> - <b>selection</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#mode">mode</a> must be <i>"multiple"</i>.<br />
+    <sup>5</sup> - <b>selection</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#recursive">recursive</a> must be <i>false</i>.<br />
+    <sup>6</sup> - <b>selection</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/selection/#allowSelectAll">allowSelectAll</a> must be <i>true</i>.<br />
+    <sup>7</sup> - The <a href="/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel">search panel</a> must be visible.<br />
+    <sup>8</sup> - <b>sorting</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/sorting/#mode">mode</a> must be <i>"multiple"</i>.
 </div>
 
 You can implement a custom handler for a key using the [registerKeyHandler(key, handler)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#registerKeyHandlerkey_handler) method.
