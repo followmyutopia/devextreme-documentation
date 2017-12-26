@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Resets the widget's value to null.
+Resets the [value]({basewidgetpath}/Configuration/#value) option to the default value.
 <!--/shortDescription-->
 
 <!--fullDescription-->

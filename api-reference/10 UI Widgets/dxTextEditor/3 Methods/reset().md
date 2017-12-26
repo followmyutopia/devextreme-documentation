@@ -1,8 +1,9 @@
 ===================================================================
+<!--handmade--><!--/handmade-->
 ===================================================================
 
 <!--shortDescription-->
-Resets the [value]({basewidgetpath}/Configuration/#value) option to the default value.
+Resets the [value]({basewidgetpath}/Configuration/#value) option to an empty string.
 <!--/shortDescription-->
 
 <!--fullDescription-->

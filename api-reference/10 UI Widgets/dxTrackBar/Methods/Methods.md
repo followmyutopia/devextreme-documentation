@@ -1,11 +1,11 @@
 ===================================================================
+<!--handmade--><!--/handmade-->
 ===================================================================
 
 <!--shortDescription-->
-Resets the [value]({basewidgetpath}/Configuration/#value) option to the default value.
+This section describes the methods that control the widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#####See Also#####
-#include common-link-callmethods
+
 <!--/fullDescription-->
