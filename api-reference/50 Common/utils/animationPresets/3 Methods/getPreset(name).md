@@ -13,7 +13,7 @@ The animation's name.
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-
+The animation configuration.
 <!--/returnDescription-->
 
 <!--fullDescription-->

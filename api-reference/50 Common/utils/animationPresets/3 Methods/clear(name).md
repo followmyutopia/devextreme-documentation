@@ -9,7 +9,6 @@ Deletes an animation with a specific name.
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 The animation's name.           
-Pass **null** to delete all the animations.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
