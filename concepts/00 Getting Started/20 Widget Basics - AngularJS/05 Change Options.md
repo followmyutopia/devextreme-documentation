@@ -1,4 +1,4 @@
-All operations with widget options are carried out through the scope properties these options are bound to. To bind a widget option to a scope property, use the **bindingOptions** object as shown in the following code.
+All operations with widget options are carried out through the scope properties these options are bound to. To bind a widget option to a scope property, use the **bindingOptions** object as shown in the following code. Note that the scope property name in this object is enclosed in quotes.
 
     <!--HTML--><div ng-controller="Controller">
         <div dx-check-box="{
