@@ -92,5 +92,5 @@ A value to be compared.
 
 <!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-Indicates whether *value1* goes before *value2*.
+Specifies whether *value1* goes before *value2*.
 <!--/typeFunctionReturnDescription-->

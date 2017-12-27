@@ -17,5 +17,5 @@ Information about the event.
 <!--typeFunctionParamName1_field1-->orientation<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The "portrait" or "landscape" value specifying new device orientation.
+A new device orientation: *"portrait"* or *"landscape"*.
 <!--/typeFunctionParamDescription1_field1-->

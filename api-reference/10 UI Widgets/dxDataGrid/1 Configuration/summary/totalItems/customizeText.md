@@ -30,5 +30,5 @@ The summary item's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid
 
 <!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-Text to be displayed in the summary item. 
+The text for the summary item to display.
 <!--/typeFunctionReturnDescription-->

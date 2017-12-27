@@ -87,7 +87,7 @@ Selected values.
 <!--typeFunctionParamName2-->fieldElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The container of the field to be rendered.
+The current field's container.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->

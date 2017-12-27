@@ -16,7 +16,7 @@ If you use the [Knockout](http://knockoutjs.com/) or [AngularJS](https://angular
 <!--typeFunctionParamName1-->buttonData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object holding the button data.
+Information about the button.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->text<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->

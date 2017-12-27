@@ -29,5 +29,5 @@ Note that the **height** option of the [TileView](/Documentation/ApiReference/UI
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->number|string<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The widget height.
+The widget's height.
 <!--/typeFunctionReturnDescription-->

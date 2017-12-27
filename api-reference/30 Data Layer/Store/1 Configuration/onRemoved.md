@@ -13,5 +13,5 @@ Assign a function to perform a custom action after a data item has been removed.
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-A key value of the removed item.
+The removed item's key.
 <!--/typeFunctionParamDescription1-->

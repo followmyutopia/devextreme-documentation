@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The user implementation of the [byKey(key, extraOptions)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#byKeykey_extraOptions) method.
+Specifies a custom implementation of the [byKey(key, extraOptions)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#byKeykey_extraOptions) method.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -25,7 +25,7 @@ The method passed to this option should return a Promise.
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The required key value.
+A key value.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->

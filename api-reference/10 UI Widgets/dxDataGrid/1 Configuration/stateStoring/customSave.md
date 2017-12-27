@@ -14,5 +14,5 @@ To specify a callback function that performs specific actions on state loading, 
 <!--typeFunctionParamName1-->gridState<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-A current grid state.
+The current **DataGrid** state.
 <!--/typeFunctionParamDescription1-->

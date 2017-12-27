@@ -12,5 +12,5 @@ To learn how to handle events, refer to the [Events and Change Tracking](/Docume
 <!--typeFunctionParamName1-->isLoading<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->boolean<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Indicates if data is being loaded.
+Indicates whether data is being loaded.
 <!--/typeFunctionParamDescription1-->

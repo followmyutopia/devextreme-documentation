@@ -12,5 +12,5 @@ To learn how to handle events, refer to the [Events and Change Tracking](/Docume
 <!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object representing the item being inserted.
+The item to be inserted.
 <!--/typeFunctionParamDescription1-->

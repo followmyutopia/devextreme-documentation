@@ -27,10 +27,10 @@ Data associated with the widget.
 <!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The content's container.
+The widget's content.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A template's name or container.
+A template name or container.
 <!--/typeFunctionReturnDescription-->

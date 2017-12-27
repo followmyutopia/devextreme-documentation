@@ -16,11 +16,11 @@ The function assigned to this option will be called between the [onExporting](/D
 <!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Array<dxDataGrid_Options_columns><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-[Grid columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
+All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->rows<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Array<dxDataGridRowObject><!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-[Grid rows](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/). If only selected rows are to be exported, this array contains only them.
+The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) objects. If only selected rows are to be exported, this array contains only them.
 <!--/typeFunctionParamDescription2-->

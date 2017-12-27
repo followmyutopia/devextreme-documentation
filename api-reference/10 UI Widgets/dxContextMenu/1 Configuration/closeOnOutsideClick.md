@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A Boolean value specifying whether or not the widget is closed if a user clicks outside of the context menu.
+Specifies whether to close the **ContextMenu** if a user clicks outside it.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -58,5 +58,5 @@ The event that caused widget closing. It is a [dxEvent](/Documentation/ApiRefere
 
 <!--typeFunctionReturnType-->Boolean<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The required option value.
+**true** if the widget should be closed; otherwise **false**.
 <!--/typeFunctionReturnDescription-->

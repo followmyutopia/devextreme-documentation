@@ -11,5 +11,5 @@ If you chose the *custom* state storing [type](/Documentation/ApiReference/UI_Wi
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->Promise<Object><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A pivot grid state.
+A **PivotGrid** state.
 <!--/typeFunctionReturnDescription-->

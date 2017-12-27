@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The user implementation of the [remove(key)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#removekey) method.
+Specifies a custom implementation of the [remove(key)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#removekey) method.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -12,7 +12,7 @@ The user implementation of the [remove(key)](/Documentation/ApiReference/Data_La
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The key value of the item being removed.
+The key of the item to be removed.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Promise<void><!--/typeFunctionReturnType-->

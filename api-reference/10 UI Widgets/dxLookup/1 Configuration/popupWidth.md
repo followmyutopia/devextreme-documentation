@@ -5,15 +5,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-The width of the widget popup element.
+Specifies the popup element's width. Applies only if [fullScreen](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#fullScreen) is **false**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Note that the option affects the actual popup size only if the **fullScreen** option is set to false. Otherwise, the popup is shown in a full screen mode.
-
-
+#include uiwidgets-ref-width
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The required width of the widget popup element.
+The popup element's width.
 <!--/typeFunctionReturnDescription-->

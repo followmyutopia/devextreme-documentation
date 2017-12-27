@@ -154,5 +154,5 @@ The data of the row to which the cell belongs.
 
 <!--typeFunctionReturnType-->any<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A display value for the cell.
+The value for the cell to display.
 <!--/typeFunctionReturnDescription-->

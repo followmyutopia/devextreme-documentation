@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The data post processing function.
+Specifies a post processing function.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -12,10 +12,10 @@ For more information on post processing, refer to the [Post Processing](/Documen
 <!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Array<any><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The data array to be processed.
+The data loaded in the **DataSource**.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Array<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The processed data array.
+The data after processing.
 <!--/typeFunctionReturnDescription-->

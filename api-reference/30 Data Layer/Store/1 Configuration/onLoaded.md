@@ -13,5 +13,5 @@ Assign a function to perform a custom action after data is loaded.
 <!--typeFunctionParamName1-->result<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Array<any><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The loaded data array.
+The loaded data.
 <!--/typeFunctionParamDescription1-->

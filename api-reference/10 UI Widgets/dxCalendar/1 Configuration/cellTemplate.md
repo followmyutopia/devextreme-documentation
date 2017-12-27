@@ -44,5 +44,5 @@ The current cell's container.
 
 <!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A template name or a template container.
+A template name or container.
 <!--/typeFunctionReturnDescription-->

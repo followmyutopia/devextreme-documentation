@@ -13,5 +13,5 @@ Assign a function to perform a custom action when data loading fails.
 <!--typeFunctionParamName1-->error<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object defining the occurred error.
+The occurred error.
 <!--/typeFunctionParamDescription1-->

@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The item mapping function.
+Specifies an item mapping function.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -12,10 +12,10 @@ For more information on item mapping, refer to the [Item Mapping](/Documentation
 <!--typeFunctionParamName1-->dataItem<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The data item to be processed.
+An initial data item.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The processed data item.
+A modified data item.
 <!--/typeFunctionReturnDescription-->

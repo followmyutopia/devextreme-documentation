@@ -13,5 +13,5 @@ Assign a function to perform a custom action before a data item is removed.
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-A key value of the item being removed.
+The key of the item to be removed.
 <!--/typeFunctionParamDescription1-->

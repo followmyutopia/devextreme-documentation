@@ -34,11 +34,11 @@ When you use a template engine, the **headerCellTemplate** option should be give
 <!--typeFunctionParamName1-->columnHeader<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The header that you are customizing.
+The current header's container.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->headerInfo<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The settings of the header.
+The header's properties.
 <!--/typeFunctionParamDescription2-->

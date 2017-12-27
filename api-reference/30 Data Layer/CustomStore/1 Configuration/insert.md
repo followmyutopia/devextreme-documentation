@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The user implementation of the [insert(values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#insertvalues) method.
+Specifies a custom implementation of the [insert(values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#insertvalues) method.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -26,7 +26,7 @@ You can resolve the returned Promise with any data. For example, the key of the 
 <!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object representing the inserted item.
+The item to be inserted.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->

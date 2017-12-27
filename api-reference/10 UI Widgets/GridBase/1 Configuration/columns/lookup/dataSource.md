@@ -30,20 +30,20 @@ The lookup data source must contain fields assigned to the [valueExpr]({basewidg
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The settings of a row.
+Information on the current row.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->data<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Object<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The data of the row.
+The row's data.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->key<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->any<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The key value of the row.
+The row's key.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->Array<any>|DataSource_Options<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-An array of data objects or a **DataSource** configuration object.
+An array of data objects or a **DataSource** [configuration](Documentation/ApiReference/Data_Layer/DataSource/Configuration/).
 <!--/typeFunctionReturnDescription-->

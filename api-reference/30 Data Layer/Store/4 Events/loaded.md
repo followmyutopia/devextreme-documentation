@@ -12,5 +12,5 @@ To learn how to handle events, refer to the [Events and Change Tracking](/Docume
 <!--typeFunctionParamName1-->result<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Array<any><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The loaded data array.
+The loaded data.
 <!--/typeFunctionParamDescription1-->

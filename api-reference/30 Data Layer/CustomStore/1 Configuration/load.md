@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The user implementation of the [load(options)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#loadoptions) method.
+Specifies a custom implementation of the [load(options)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#loadoptions) method.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -25,7 +25,7 @@ This function's implementation has certain specifics depending on the widget in 
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->LoadOptions<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object containing data processing settings.
+Data processing settings.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->

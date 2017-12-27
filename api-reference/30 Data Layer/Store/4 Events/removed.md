@@ -12,5 +12,5 @@ To learn how to handle events, refer to the [Events and Change Tracking](/Docume
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object|string|number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-A key value of the removed item.
+The removed item's key.
 <!--/typeFunctionParamDescription1-->

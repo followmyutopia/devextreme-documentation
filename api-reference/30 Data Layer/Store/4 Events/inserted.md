@@ -12,11 +12,11 @@ To learn how to handle events, refer to the [Events and Change Tracking](/Docume
 <!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object representing the inserted item.
+The inserted item.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->key<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->object|string|number<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-A key value of the inserted item.
+The item's key.
 <!--/typeFunctionParamDescription2-->

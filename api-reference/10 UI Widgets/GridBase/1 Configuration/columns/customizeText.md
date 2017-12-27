@@ -16,23 +16,22 @@ Customizes the text displayed in column cells.
 <!--typeFunctionParamName1-->cellInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The settings of a cell.
+Information on the current cell.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->String|Number|Date<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The value of the cell as it is specified in the data source.
+The cell's raw value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The value of the cell with applied format.
+The [fomatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->target<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Indicates the type of the UI element where the **customizeText** function was called.  
-Possible values: *"filterRow"*, *"headerFilter"* and *"search"*.
+The UI element where the **customizeText** function was called: *"filterRow"*, *"headerFilter"* and *"search"*.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->groupInterval<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->String|Number<!--/typeFunctionParamType1_field4-->
@@ -43,5 +42,5 @@ For possible values, see the description of the **headerFilter**.[groupInterval]
 
 <!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text for the cell.
+The text for the cell to display.
 <!--/typeFunctionReturnDescription-->

@@ -13,5 +13,5 @@ Assign a function to perform a custom action when all fields are loaded from the
 <!--typeFunctionParamName1-->fields<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Array<PivotGridDataSource_Options_fields><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An array of fields.
+All field [configurations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/).
 <!--/typeFunctionParamDescription1-->

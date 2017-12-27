@@ -19,16 +19,16 @@ Alternatively, you can specify the drawing order using a comparison function. It
 <!--typeFunctionParamName1-->a<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-A [data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) object.
+A [data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) object to be compared.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->b<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-A [data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) object.
+A [data source](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) object to be compared.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-Indicates whether *a* should go before *b*.
+Specifies whether *a* goes before *b*.
 <!--/typeFunctionReturnDescription-->

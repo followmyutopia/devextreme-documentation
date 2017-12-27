@@ -20,7 +20,7 @@ If none of the [predefined formats](/Documentation/ApiReference/Common/Object_St
 <!--typeFunctionParamName1-->value<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Number|Date<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-A value to be formatted.
+The value to be formatted.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->

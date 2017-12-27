@@ -72,10 +72,10 @@ Information about the master row.
 <!--typeFunctionParamName2_field1-->key<!--/typeFunctionParamName2_field1-->
 <!--typeFunctionParamType2_field1-->any<!--/typeFunctionParamType2_field1-->
 <!--typeFunctionParamDescription2_field1-->
-The key of the master row.
+The master row's key.
 <!--/typeFunctionParamDescription2_field1-->
 <!--typeFunctionParamName2_field2-->data<!--/typeFunctionParamName2_field2-->
 <!--typeFunctionParamType2_field2-->Object<!--/typeFunctionParamType2_field2-->
 <!--typeFunctionParamDescription2_field2-->
-The object of the data source presented by the master row.
+The master row's data object.
 <!--/typeFunctionParamDescription2_field2-->

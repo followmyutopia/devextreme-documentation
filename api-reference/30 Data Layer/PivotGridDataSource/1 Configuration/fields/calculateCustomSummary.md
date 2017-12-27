@@ -40,17 +40,17 @@ The following code demonstrates a general structure of the **calculateCustomSumm
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Summary information.
+Information on the summary.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->summaryProcess<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-Indicates the stage of the summary value calculation; possible values are *'start'*, *'calculate'* or *'finalize'*.
+The stage of the summary value calculation: *'start'*, *'calculate'* or *'finalize'*.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->value<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->any<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The data value for aggregation.
+The value for aggregation.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->totalValue<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->any<!--/typeFunctionParamType1_field3-->

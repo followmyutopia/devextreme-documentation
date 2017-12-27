@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The height of the widget in pixels.
+Specifies the widget's height in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

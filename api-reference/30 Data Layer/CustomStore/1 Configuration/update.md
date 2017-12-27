@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The user implementation of the [update(key, values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#updatekey_values) method.
+Specifies a custom implementation of the [update(key, values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#updatekey_values) method.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -30,13 +30,13 @@ You can resolve the returned Promise with any data. For example, the key of the 
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The key value of the item being updated.
+The key of the item to be updated.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->values<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The object containing new values for the specified item.
+Item fields with their new values.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->

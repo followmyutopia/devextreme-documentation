@@ -12,5 +12,5 @@ If you chose the *custom* state storing [type](/Documentation/ApiReference/UI_Wi
 <!--typeFunctionParamName1-->state<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The current pivot grid state.
+The current **PivotGrid** state.
 <!--/typeFunctionParamDescription1-->

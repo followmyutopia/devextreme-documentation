@@ -54,11 +54,11 @@ When you use a template engine, the **editCellTemplate** option should be given 
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The cell that you are customizing.
+The current cell's container.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->cellInfo<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The settings of the cell.
+The cell's properties.
 <!--/typeFunctionParamDescription2-->

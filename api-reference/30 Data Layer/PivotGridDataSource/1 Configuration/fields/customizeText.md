@@ -12,20 +12,20 @@ When implementing a callback function for this option, you can access the value 
 <!--typeFunctionParamName1-->cellInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The value of a cell.
+Information on the current cell's value.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->String|Number|Date<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-A cell value as it is specified in the data source.
+The raw value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->valueText<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-A cell value with applied formatting.
+The formatted value converted to a string.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text to be displayed in a cell.
+The text for the cell to display.
 <!--/typeFunctionReturnDescription-->

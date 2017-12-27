@@ -19,5 +19,5 @@ Whether you use a default or a custom template for menu items, you can specify a
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A template name or a template container.
+A template name or container.
 <!--/typeFunctionReturnDescription-->

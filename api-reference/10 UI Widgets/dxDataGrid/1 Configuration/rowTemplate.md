@@ -123,5 +123,5 @@ The row's container.
 <!--typeFunctionParamName2-->rowInfo<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The row [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/).
+The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) object.
 <!--/typeFunctionParamDescription2-->

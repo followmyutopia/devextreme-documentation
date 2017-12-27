@@ -13,33 +13,22 @@ Use the **template** option of a group item to display custom content under a gr
 
 [note]To define a custom template used to render group items, assign the required template name or template container to each simple item's template option.
 
-A binding context of an item template is an object containing the following fields. So, you can bind template elements to these fields directly. To access another binding context within an item template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
-
-- component  
- An instance of the current **Form** widget.
-
-- dataField  
- A [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object field bound to the form item being rendered.
-
-- editorOptions  
- Configuration object of the current form item editor.
-
 #####See Also#####
 - [Custom Content within a Group](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/#Custom_Content_within_a_Group)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-An object providing access to the field data, form instance and the configuration object of the editor.
+The **formData** object and the **Form** instance.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The container of the group item to be rendered.
+The current group item's container.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A template name or a template container.
+A template name or container.
 <!--/typeFunctionReturnDescription-->

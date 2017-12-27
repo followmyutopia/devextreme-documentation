@@ -38,12 +38,12 @@ The function returns a number that has one of three values listed below.
 <!--typeFunctionParamName1-->a<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-A header item.
+A header item to be compared.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->String|Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-A header item value.
+The header item's value.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->children<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->Array<any><!--/typeFunctionParamType1_field2-->
@@ -54,12 +54,12 @@ Children belonging to the header item; available only when the item is expanded.
 <!--typeFunctionParamName2-->b<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-A header item.
+A header item to be compared.
 <!--/typeFunctionParamDescription2-->
 <!--typeFunctionParamName2_field1-->value<!--/typeFunctionParamName2_field1-->
 <!--typeFunctionParamType2_field1-->String|Number<!--/typeFunctionParamType2_field1-->
 <!--typeFunctionParamDescription2_field1-->
-A header item value.
+The header item's value.
 <!--/typeFunctionParamDescription2_field1-->
 <!--typeFunctionParamName2_field2-->children<!--/typeFunctionParamName2_field2-->
 <!--typeFunctionParamType2_field2-->Array<any><!--/typeFunctionParamType2_field2-->
@@ -69,5 +69,5 @@ Children belonging to the header item; available only when the item is expanded.
 
 <!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-Indicates whether a comes before b.
+Specifies whether *a* goes before *b*.
 <!--/typeFunctionReturnDescription-->

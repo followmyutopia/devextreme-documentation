@@ -12,11 +12,11 @@ Holds on a function called when the item is clicked.
 <!--typeFunctionParamName1-->itemElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Specifies the current item element.
+The clicked item's container.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->itemData<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-Specifies the current item data object.
+The item's data.
 <!--/typeFunctionParamDescription2-->

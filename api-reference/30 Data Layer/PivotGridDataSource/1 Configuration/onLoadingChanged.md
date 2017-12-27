@@ -13,5 +13,5 @@ Assign a function to perform a custom action when the data loading status is cha
 <!--typeFunctionParamName1-->isLoading<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Boolean<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Indicates if data is being loaded.
+Indicates whether data is being loaded.
 <!--/typeFunctionParamDescription1-->

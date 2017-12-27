@@ -46,5 +46,5 @@ The button content's container.
 
 <!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A template name or a template container.
+A template name or container.
 <!--/typeFunctionReturnDescription-->

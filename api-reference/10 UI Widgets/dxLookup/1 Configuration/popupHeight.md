@@ -7,15 +7,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-The height of the widget popup element.
+Specifies the popup element's height. Applies only if [fullScreen](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#fullScreen) is **false**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Note that the option affects the actual popup size only if the **fullScreen** option is set to false. Otherwise, the popup is shown in a full screen mode.
-
-
+#include uiwidgets-ref-height
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The required height of the widget popup element.
+The popup element's height.
 <!--/typeFunctionReturnDescription-->

@@ -15,10 +15,10 @@ There are several predefined post-processing functions. You can enable one of th
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxPivotGridSummaryCell<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The object for accessing the data of the current cell and the neighboring cells.
+The data of the current and neighboring cells.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The new cell value.
+The cell's new value.
 <!--/typeFunctionReturnDescription-->

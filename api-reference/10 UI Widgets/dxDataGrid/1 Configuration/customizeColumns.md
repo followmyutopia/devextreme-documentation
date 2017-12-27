@@ -12,5 +12,5 @@ Usually, each column in **DataGrid** is configured individually using options wi
 <!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Array<dxDataGrid_Options_columns><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Grid columns.
+All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1-->
