@@ -6,9 +6,7 @@ Right-click your project in the Visual Studio Solution Explorer and choose **Pro
 
 ![Standard Plugins](Content/images/doc/17_2/DevExtreme/StandardPlugins.png)
 
-Check the necessary plugins. These plugins will be added to the project's *config.xml* file.
-
-[note]If versions are not specified for standard plugins within the project's *config.xml* file, the latest plugin versions that are used in the DevExtreme default PhoneGap application template will be used when building a native package.
+Check the necessary plugins. They will be added to the project's **config.xml** file. Open this file and specify versions for the added plugins to make sure that they are compatible with the [used Cordova version](/Documentation/Guide/VS_Integration/Packaging_Tools/#Set_Cordova_Version).
 
 ###3rd Party Plugins###
 
@@ -18,16 +16,16 @@ To use a [custom 3rd party PhoneGap plugin](https://build.phonegap.com/plugins) 
 
         <!--HTML--><widget xmlns="http://www.w3.org/ns/widgets">
             <!--...-->
-            <plugin name="cordova-plugin-barcodescanner"/>
+            <plugin name="cordova-plugin-barcodescanner" version="0.7.3"/>
         </widget>
 
     The registered plugin will appear in the Plugins list in the checked state automatically.
 
-![3rd Party Plugins](Content/images/doc/17_2/DevExtreme/3rdPartyPlugins.png)
+    ![3rd Party Plugins](Content/images/doc/17_2/DevExtreme/3rdPartyPlugins.png)
 
 - [Build a custom PhoneGap application template](/Documentation/Guide/VS_Integration/Packaging_Tools/#Build_Custom_PhoneGap_Application_Template) with the required plugin inside.
 
-[note]If you do not specify versions for the added 3rd-party plugins within the project's *config.xml* file, the latest plugin versions that are contained on the [PhoneGap](https://build.phonegap.com/plugins) site will be used when building a custom PhoneGap application template.
+[note] We recommend specifying versions for the added Cordova plugins in the **config.xml** file to make sure that they are compatible with the [used Cordova version](/Documentation/Guide/VS_Integration/Packaging_Tools/#Set_Cordova_Version).
 
 ###Custom Plugins###
 
