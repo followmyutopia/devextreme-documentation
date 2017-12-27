@@ -4,8 +4,8 @@ Currently, the following versions are supported.
 
 - **Knockout** versions 2.2.3 - 2.3.0 and 3.1.0 - 3.4.0
 
-- **AngularJS** version 1.2 - 1.6  
-    When using version 1.3 - 1.6, pay attention to the [Migration Guide](http://ng-learn.org/2014/06/Migration_Guide_from_1-2_to1-3/).
+- **AngularJS** version 1.2+  
+    When using version 1.3 or higher, pay attention to the [Migration Guide](http://ng-learn.org/2014/06/Migration_Guide_from_1-2_to1-3/).
 
 These scripts are accessible within your DevExtreme Package or via CDN.
 
