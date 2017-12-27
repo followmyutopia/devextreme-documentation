@@ -2,7 +2,7 @@ DevExtreme is integrated with the following libraries and frameworks:
 
 - **jQuery** versions 2.1 - 2.2 and 3.x
 - **Knockout** versions 2.2.3 - 2.3.0 and 3.1.0 - 3.4.0
-- **AngularJS** versions 1.2 - 1.5
+- **AngularJS** versions 1.2 - 1.6
 - **Angular** versions 2.2.1+     
     See the [devextreme-angular](https://github.com/DevExpress/devextreme-angular) repository on GitHub for information on installing and     using DevExtreme with Angular.
 
