@@ -62,4 +62,6 @@ The format can contain the following characters:
 
 <a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/NumberBox/Formatting/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Demo</a>
 
+[note] If you set this option, the telephone keyboard will be used for editing on mobile devices. It may lack the point, comma, and other symbols useful when entering decimals. Set the [mode](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#mode) option to "text" to use the standard keyboard instead.
+
 <!--/fullDescription-->
