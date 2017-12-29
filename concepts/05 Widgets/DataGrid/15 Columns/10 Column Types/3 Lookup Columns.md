@@ -135,8 +135,13 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
     
 ---
 
+Each cell in the lookup column is constructed on the [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/) widget which can be customized using [editorOptions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editorOptions). See the [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors) topic for details.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/jQuery/Light/"
+}
+
 #####See Also#####
 - [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/)
-- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
 
 [tags] dataGrid, data grid, column types, lookup columns
