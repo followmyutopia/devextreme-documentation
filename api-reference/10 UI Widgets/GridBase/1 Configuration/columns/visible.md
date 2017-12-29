@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the column is visible or not.
+Specifies whether the column is visible, that is, occupies space in the table.
 <!--/shortDescription-->
 
 <!--fullDescription-->
