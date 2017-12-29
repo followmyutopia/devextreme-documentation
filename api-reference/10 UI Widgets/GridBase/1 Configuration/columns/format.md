@@ -8,9 +8,7 @@ Formats a value before it is displayed in a column cell.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]
-
-Specify the **editorOptions.format** option to format a value being edited.
+This option also controls the user input in cells that use the [DateBox](/Documentation/Guide/Widgets/DateBox/Overview/) widget for editing. For cells that use other widgets, you can specify the [editorOptions]({basewidgetpath}/Configuration/columns/#editorOptions).**format** option.
 
 ---
 #####jQuery
@@ -48,8 +46,6 @@ Specify the **editorOptions.format** option to format a value being edited.
     </dx-{widget-name}>
 
 ---
-
-[/note]
 
 #####See Also#####
 - [format](/Documentation/ApiReference/Common/Object_Structures/format/)
