@@ -43,6 +43,6 @@ If data column values should be cast to another type (for example, date values s
 #####See Also#####
 - [Customize Cells](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/)
 - [Lookup Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/#Lookup_Columns)
-- [DataGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/jQuery/Light/)
 
 [tags] dataGrid, data grid, column types, data columns

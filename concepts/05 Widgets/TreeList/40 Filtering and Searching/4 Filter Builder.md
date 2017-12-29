@@ -124,4 +124,4 @@ Then, add a button that updates a filter of the **TreeList**'s data source accor
 
 #####See Also#####
 - [Filtering API - Initial and Runtime Filtering](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering)
-- [DataGrid with the Filter Builder Demo](https://js.devexpress.com/Demos/WidgetsGallery/Demo/FilterBuilder/WithTreeList/Angular/Light/)
+- [DataGrid with the Filter Builder Demo](/Demos/WidgetsGallery/Demo/FilterBuilder/WithTreeList/Angular/Light/)

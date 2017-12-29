@@ -137,6 +137,6 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
 
 #####See Also#####
 - [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/)
-- [DataGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
 
 [tags] dataGrid, data grid, column types, lookup columns

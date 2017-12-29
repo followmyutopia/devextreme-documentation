@@ -13,4 +13,6 @@ To change the color of a *spline area* sparkline, set the [lineColor](/Documenta
 
 Regular points cannot be displayed in a *spline area* sparkline, but you can make extreme points visible. For further information, refer to the [Series Points](/Documentation/Guide/Widgets/Sparkline/Visual_Elements/#Series_Points) topic.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartssparklinessparklinesarea/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartssparklinessparklinesarea/"
+}

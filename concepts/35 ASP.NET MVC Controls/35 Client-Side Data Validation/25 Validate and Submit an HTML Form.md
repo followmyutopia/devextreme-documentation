@@ -53,7 +53,9 @@ Note that the **Button** validates the **TextBox** controls in the previous code
 
 [note]The **Button** may validate different [validation groups](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Validate_a_Group_of_Editors/), but it always submits a definite HTML form - the one in which it is nested. To avoid mixing up validated and submitted values, we recommend that a single HTML form contain only a single validation group.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Validation/Overview/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Validation/Overview/Mvc/Light/"
+}
 
 #####See Also#####
 - [Client-Side Validation - Overview](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)

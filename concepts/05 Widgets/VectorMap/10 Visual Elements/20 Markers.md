@@ -4,9 +4,9 @@ Four types of markers are available in **VectorMap**: dot, bubble, pie and image
 
 ![DevExtreme ChartJS VectorMap](/Content/images/doc/17_2/ChartJS/MapMarkerTypes.png)
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Vector_Map/ImageMarkers/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Image Markers Demo</a>
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Vector_Map/ImageMarkers/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Bubble Markers Demo</a>
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Vector_Map/PieMarkers/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Pie Markers Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Vector_Map/ImageMarkers/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Image Markers Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Vector_Map/ImageMarkers/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Bubble Markers Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Vector_Map/PieMarkers/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Pie Markers Demo</a>
 
 #####See Also#####
 - [Vector Map - Data for Markers](/Documentation/Guide/Widgets/VectorMap/Providing_Data#Data_for_Markers)

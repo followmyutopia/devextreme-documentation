@@ -25,4 +25,4 @@ Finally, configure the most useful end-user capabilities.
 - [Selection](/Documentation/Guide/Widgets/TreeList/Selection/)
 
 #####See Also#####
-- [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)
+- [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)

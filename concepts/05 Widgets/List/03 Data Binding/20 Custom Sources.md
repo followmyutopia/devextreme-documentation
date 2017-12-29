@@ -243,6 +243,6 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
 - [List - Access the DataSource](/Documentation/Guide/Widgets/List/Data_Binding/Access_the_DataSource/)
 - [List - Paging](/Documentation/Guide/Widgets/List/Paging/)
-- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
+- [List Demos](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
 
 [tags]list, data binding, provide data, custom data source, CustomStore, DataSource, load

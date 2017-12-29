@@ -91,7 +91,9 @@ In addition, a user can click legend items. The widget does not react to this by
 
 ---
 
-<a href='/Demos/WidgetsGallery/Demo/Charts/Pie/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/Pie/jQuery/Light/"
+}
 
 #####See Also#####
 #include common-link-handleevents

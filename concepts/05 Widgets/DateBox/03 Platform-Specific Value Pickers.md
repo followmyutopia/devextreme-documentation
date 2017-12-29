@@ -62,7 +62,7 @@ For the **List** picker, you can specify the step of available time values in mi
 - [DateBox - Control the Behavior](/Documentation/Guide/Widgets/DateBox/Control_the_Behavior)
 - [DateBox - Specify Value Range](/Documentation/Guide/Widgets/DateBox/Specify_Value_Range)
 - [DateBox - Handle the Value Change Event](/Documentation/Guide/Widgets/DateBox/Handle_the_Value_Change_Event)
-- [DateBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-date_box-overview)
+- [DateBox Demos](/Demos/WidgetsGallery/#demo/editors-date_box-overview)
 - [DateBox API Reference](/Documentation/ApiReference/UI_Widgets/dxDateBox/)
 
 [tags]date box, dateBox, editor, scheduling, picker type, calendar, rollers, list, pickerType, interval

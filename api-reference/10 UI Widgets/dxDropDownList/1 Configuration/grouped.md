@@ -25,8 +25,8 @@ You can supply data to this structure using the **DataSource** object's [group](
 [note]Only one-level grouping is supported.
 
 #####See Also#####
-- [SelectBox - Grouped Items Demo](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/jQuery/Light/)
-- [TagBox - Grouped Items Demo](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/jQuery/Light/)
+- [SelectBox - Grouped Items Demo](/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/jQuery/Light/)
+- [TagBox - Grouped Items Demo](/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/jQuery/Light/)
 - [SelectBox - Grouping](/Documentation/Guide/Widgets/SelectBox/Grouping/)
 - [TagBox - Grouping](/Documentation/Guide/Widgets/TagBox/Grouping/)
 <!--/fullDescription-->

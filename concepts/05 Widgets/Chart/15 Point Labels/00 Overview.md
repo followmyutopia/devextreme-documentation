@@ -116,7 +116,7 @@ For details on other options of point labels, refer to the [label](/Documentatio
 #####See Also#####
 - [Customize Point Labels](/Documentation/Guide/Widgets/Chart/Point_Labels/Customize_Point_Labels/)
 - [Resolve Label Overlapping](/Documentation/Guide/Widgets/Chart/Point_Labels/Resolve_Overlapping/)
-- [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/CustomizePointsAndLabels/jQuery/Light/)
+- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/CustomizePointsAndLabels/jQuery/Light/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, point labels, overview, common label settings, label connector

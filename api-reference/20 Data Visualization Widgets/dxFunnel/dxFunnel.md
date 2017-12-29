@@ -148,7 +148,9 @@ You can create the **Funnel** widget using one of the following approaches:
 
 ---
 
-<a href="/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/"
+}
 
 #####See Also#####
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)

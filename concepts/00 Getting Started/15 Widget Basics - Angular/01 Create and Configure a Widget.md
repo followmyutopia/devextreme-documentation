@@ -47,7 +47,9 @@ You can initialize widget options with a string value or the value of a componen
 
 For more information on using DevExtreme widgets with Angular, refer to the [DevExtreme-Angular README](https://github.com/DevExpress/DevExtreme-angular#angular-ui-and-visualization-components-based-on-devextreme-widgets) on GitHub.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/Angular/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/Angular/Light/"
+}
 
 #####See Also#####
 - [API Reference](/Documentation/ApiReference/).**WidgetName**.**Configuration**

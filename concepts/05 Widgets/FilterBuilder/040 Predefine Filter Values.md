@@ -121,7 +121,9 @@ Each lookup field has an individual [data source](/Documentation/ApiReference/UI
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/jQuery/Light/"
+}
 
 #####See Also#####
 - [lookup](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/lookup/)

@@ -10,6 +10,8 @@ Alternatively, you can navigate to a specific URL when the **pointClick** event 
 
 To learn more about how to handle click operations, and to see an example, refer to the [Click Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Click_Handling) topic.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnutwithselection/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnutwithselection/"
+}
 
 <!--/fullDescription-->

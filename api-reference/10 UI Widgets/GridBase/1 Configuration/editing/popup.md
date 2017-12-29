@@ -9,5 +9,7 @@ Configures the popup. Used only if **editing**.[mode]({basewidgetpath}/Configura
 <!--fullDescription-->
 The popup always contains a form, whose items are used for editing. The **popup** object contains options that customize the popup itself (see their list in the [Popup Configuration](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/) section). To customize the form items, use the [form](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#form) option.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/PopupEditing/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/PopupEditing/jQuery/Light/"
+}
 <!--/fullDescription-->

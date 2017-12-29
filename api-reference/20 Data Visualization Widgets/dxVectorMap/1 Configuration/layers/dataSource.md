@@ -8,7 +8,9 @@ Specifies a data source for the layer.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Vector_Map/CustomMapData/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Vector_Map/CustomMapData/jQuery/Light/"
+}
 
 #####See Also#####
 - [VectorMap - Data for Areas](/Documentation/Guide/Widgets/VectorMap/Providing_Data/#Data_for_Areas)

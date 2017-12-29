@@ -13,7 +13,9 @@ When a node's selected state is changed, the **TreeView** fires the [itemSelecti
         });
     });
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/jQuery/Light/"
+}
 
 #####See Also#####
 - [TreeView - Access a Node](/Documentation/Guide/Widgets/TreeView/Access_a_Node)

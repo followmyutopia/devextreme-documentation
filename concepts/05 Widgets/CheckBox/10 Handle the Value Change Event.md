@@ -62,7 +62,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 
 #####See Also#####
 #include common-link-handleevents
-- [CheckBox Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-check_box-overview)
+- [CheckBox Demos](/Demos/WidgetsGallery/#demo/editors-check_box-overview)
 - [CheckBox API Reference](/Documentation/ApiReference/UI_Widgets/dxCheckBox/)
 
 [tags]check box, checkBox, editor, get value, set value

@@ -91,7 +91,9 @@ You can create the widget using one of the following approaches.
 
 Note that DevExtreme widgets require linking the jQuery library to your application. The Knockout or AngularJS library is also needed if you use the Knockout or AngularJS approach. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposescrollviewscrollviewscrollview/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposescrollviewscrollviewscrollview/"
+}
 
 #####See Also#####
 - [ScrollView - Overview](/Documentation/Guide/Widgets/ScrollView/Overview/)

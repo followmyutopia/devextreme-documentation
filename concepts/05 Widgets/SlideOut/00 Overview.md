@@ -1,6 +1,8 @@
 The **SlideOut** widget is a classic slide-out menu paired with a view. An end user opens the menu by swiping away the view.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7"
+}
 
 The following code adds a primitive **SlideOut** to your page.
 

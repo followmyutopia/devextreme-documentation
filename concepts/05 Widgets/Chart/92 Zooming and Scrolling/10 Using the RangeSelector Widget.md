@@ -71,7 +71,9 @@ The **Chart** can be zoomed and scrolled using the [RangeSelector](/Documentatio
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrollingAPI/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrollingAPI/jQuery/Light/"
+}
 
 #####See Also#####
 - [zoomArgument(startValue, endValue)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#zoomArgumentstartValue_endValue)

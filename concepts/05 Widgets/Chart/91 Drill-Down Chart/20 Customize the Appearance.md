@@ -68,4 +68,6 @@ The **Chart** provides the [customizePoint](/Documentation/ApiReference/Data_Vis
 
 This article outlined the steps to implement a drill-down chart and provided code examples for each step. For the full code, refer to the **Drill-Down Chart** demo.
 
-<a href="/Demos/WidgetsGallery/Demo/Charts/ChartsDrillDown/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/ChartsDrillDown/jQuery/Light/"
+}

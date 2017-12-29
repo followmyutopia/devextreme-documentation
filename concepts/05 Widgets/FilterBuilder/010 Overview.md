@@ -1,6 +1,8 @@
 The **FilterBuilder** widget allows a user to build complex filter expressions with an unlimited number of filter conditions using the UI. 
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/Angular/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/Angular/Light/"
+}
 
 The following code adds a simple **FilterBuilder** to your page. Note that each item in the [fields](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields) array contains the [dataField](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField). The filter expression is defined in the [value](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#value) option and should contain only those data fields that are present in the **fields** array.
 

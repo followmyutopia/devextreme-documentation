@@ -1,6 +1,8 @@
 The **Lookup** is a widget that allows an end user to search for an item in a collection shown in a drop-down menu.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-lookup-basics" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/actions_and_lists-lookup-basics"
+}
 
 The following code adds the **Lookup** widget to your page. The simplest configuration requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#dataSource) to be specified. In addition, you can define the [placeholder](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#placeholder) to be displayed when the **Lookup** input field is empty.
 

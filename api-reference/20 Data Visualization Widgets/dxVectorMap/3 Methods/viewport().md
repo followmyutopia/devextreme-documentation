@@ -13,7 +13,9 @@ The viewport coordinates.
 <!--fullDescription-->
 This method returns the viewport coordinates as an array of four values in the [*minLongitude*, *maxLatitude*, *maxLongitude*, *minLatitude*] form.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapviewport/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapviewport/"
+}
 
 #####See Also#####
 #include common-link-callmethods

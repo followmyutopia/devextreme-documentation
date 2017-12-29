@@ -102,7 +102,9 @@ You can also customize an individual label. For this purpose, assign a function 
 
 ---
 
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/CustomizePointsAndLabels/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/CustomizePointsAndLabels/jQuery/Light/"
+}
 
 #####See Also#####
 - [Resolve Label Overlapping](/Documentation/Guide/Widgets/Chart/Point_Labels/Resolve_Overlapping/)

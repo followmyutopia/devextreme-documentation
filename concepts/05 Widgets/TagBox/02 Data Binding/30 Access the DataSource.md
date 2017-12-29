@@ -8,6 +8,6 @@ Now, you can call [any method](/Documentation/ApiReference/Data_Layer/DataSource
 
 #####See Also#####
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
-- [TagBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tag_Box/Overview/jQuery/Light/)
+- [TagBox Demos](/Demos/WidgetsGallery/Demo/Tag_Box/Overview/jQuery/Light/)
 
 [tags]tagBox, data binding, access data source, getDataSource, reload data

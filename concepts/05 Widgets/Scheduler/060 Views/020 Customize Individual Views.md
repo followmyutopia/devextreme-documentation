@@ -190,14 +190,14 @@ The following code defines three views: the first is not customized, the second 
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Customize Individual Views Demo</a>
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/IncreaseViewDuration/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Increase View Duration Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Customize Individual Views Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Scheduler/IncreaseViewDuration/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Increase View Duration Demo</a>
 
 #####See Also#####
 - [Scheduler - View Types](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/)
 - [Scheduler - Customize Appointment](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/)
 - [Scheduler - Customize Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
-- [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
+- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
 - [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
 
 [tags]scheduler, customize individual view

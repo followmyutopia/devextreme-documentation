@@ -21,7 +21,9 @@ Specifies the mode in which all the records are selected. Applies only if **sele
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SelectAllMode` enum. This enum accepts the following values: `Page` and `AllPages`.
 
-<a href=" https://js.devexpress.com/Demos/WidgetsGallery/#demo/data_grid-selection-multiple_record_selection_modes" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a> 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/data_grid-selection-multiple_record_selection_modes"
+} 
 
 
 #####See Also#####

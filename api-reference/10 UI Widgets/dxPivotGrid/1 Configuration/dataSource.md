@@ -18,5 +18,7 @@ The DataSource is an object that includes options for data sorting, grouping and
 
 For more information on how to implement a data source and bind it to your pivot grid, refer to the [Data Binding](/Documentation/Guide/Widgets/PivotGrid/Data_Binding/) topic.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Pivot_Grid/LocalDataSource/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/LocalDataSource/jQuery/Light/"
+}
 <!--/fullDescription-->

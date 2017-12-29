@@ -24,7 +24,9 @@ To enable the Virtual Mode, set the [virtualModeEnabled](/Documentation/ApiRefer
         });
     });
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/VirtualMode/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_View/VirtualMode/jQuery/Light/"
+}
 
 If the Virtual Mode does not meet your requirements, you can get full control over nodes and how to load them in the [createChildren](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#createChildren) function. This function will be called at the beginning of the widget's lifetime and each time a user expands a node whose child nodes have not been loaded yet.
 
@@ -41,7 +43,9 @@ If the Virtual Mode does not meet your requirements, you can get full control ov
         });
     });
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/LoadDataOnDemand/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_View/LoadDataOnDemand/jQuery/Light/"
+}
 
 #####See Also#####
 - [TreeView - Expand and Collapse Nodes](/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes)

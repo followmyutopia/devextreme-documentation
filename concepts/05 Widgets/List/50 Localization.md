@@ -107,7 +107,7 @@ Some messages can be defined by **List** options as well as by keys. The followi
 </div>
 
 #####See Also#####
-- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
+- [List Demos](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 
 [tags]list, localization, translation, localization keys, localize messages, localize texts

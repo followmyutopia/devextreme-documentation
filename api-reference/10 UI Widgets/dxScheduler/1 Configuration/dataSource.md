@@ -21,7 +21,9 @@ This option accepts one of the following.
 
 To display appointments, a default template can be used. This template is based on the data source fields that are listed in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/) section of the widget's API. Alternatively, you can implement a [custom template](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/). 
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposeschedulerschedulergooglecalendarintegration" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposeschedulerschedulergooglecalendarintegration"
+}
 
 #####See Also#####
 - [Scheduler - Data Binding](/Documentation/Guide/Widgets/Scheduler/Data_Binding/)

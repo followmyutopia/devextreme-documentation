@@ -125,7 +125,7 @@ You can also customize an individual menu item. For this purpose, declare a temp
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
 
 #####See Also#####
-- [Menu Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-menu-overview)
+- [Menu Demos](/Demos/WidgetsGallery/#demo/navigation-menu-overview)
 - [Menu API Reference](/Documentation/ApiReference/UI_Widgets/dxMenu/)
 
 [tags]menu, item appearance, customize, templates

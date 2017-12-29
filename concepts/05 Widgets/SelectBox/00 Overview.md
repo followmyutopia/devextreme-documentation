@@ -1,6 +1,8 @@
 The **SelectBox** widget is an editor that allows an end user to select an item from a drop-down list.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-select_box-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/editors-select_box-overview"
+}
 
 The following code adds the **SelectBox** to your page. The simplest configuration of the widget requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#dataSource) to be specified. In addition, you can specify the [placeholder](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/#placeholder) to be displayed when the **SelectBox** is empty.
 

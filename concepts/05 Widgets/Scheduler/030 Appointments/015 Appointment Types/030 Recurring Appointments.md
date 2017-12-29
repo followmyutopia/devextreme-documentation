@@ -85,5 +85,5 @@ These fields will be saved as the **recurrenceRule** field of an appointment obj
 - [Scheduler - Update Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/)
 - [Scheduler - Delete Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/Delete_Appointments/)
 - [Scheduler - Customize Appointment](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/)
-- [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
+- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
 - [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)

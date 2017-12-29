@@ -72,7 +72,7 @@ To specify one or another series type, assign its name to the **series[]**.[type
 
 Refer to the [Series Types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/) section of the API Reference for a full list of options available to a specific series type.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Area/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Area Series Demos</a>
+<a href="/Demos/WidgetsGallery/Demo/Charts/Area/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Area Series Demos</a>
 
 #####See Also#####
 - [Series](/Documentation/Guide/Widgets/Chart/Series/Overview/)

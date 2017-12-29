@@ -55,5 +55,5 @@ If you [group appointmetns by resources](/Documentation/Guide/Widgets/Scheduler/
 #####See Also#####
 - [Scheduler - Customize Individual Views](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/)
 - [Scheduler - Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/)
-- [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
+- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
 - [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)

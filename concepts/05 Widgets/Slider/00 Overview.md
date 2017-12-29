@@ -1,6 +1,8 @@
 The **Slider** is a widget that allows an end user to set a numeric value on a continuous range of possible values.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-slider-overview/ios7" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-slider-overview/ios7"
+}
 
 The following code adds a simple **Slider** to your page. The **min** and **max** options limit the range of accepted values. The **value** sets the initial value for the widget.
 

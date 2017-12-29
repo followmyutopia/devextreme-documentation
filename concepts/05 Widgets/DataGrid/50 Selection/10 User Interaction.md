@@ -166,8 +166,8 @@ The [showCheckBoxesMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Confi
     
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/RowSelection/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Single Selection Demo</a>
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionModes/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Multiple Selection Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/DataGrid/RowSelection/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Single Selection Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionModes/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Multiple Selection Demo</a>
 
 #####See Also#####
 - [Deferred Selection](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Deferred_Selection)

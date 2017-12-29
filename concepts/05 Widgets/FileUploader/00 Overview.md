@@ -1,6 +1,8 @@
 The **FileUploader** widget enables an end user to upload files to the server. An end user can select files in the file explorer or drag and drop files on the page's **FileUploader** area.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-file_uploader-file_selection" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/actions_and_lists-file_uploader-file_selection"
+}
 <a href="http://www.youtube.com/watch?v=h8jGcKE33ME&index=51&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 The following code adds the **FileUploader** to your page. Use the [accept](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#accept) option to restrict the file types that can be uploaded to the server. This option is like the underlying `<input>` element's *"accept"* attribute and accepts the same values described [here](http://www.w3schools.com/TAGs/att_input_accept.asp).

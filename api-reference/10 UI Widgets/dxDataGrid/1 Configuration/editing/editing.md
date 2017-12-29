@@ -11,7 +11,9 @@ The widget can allow a user to add, update and delete data. To control which of 
 
 [note] Before allowing a user to add, update, and delete, make sure that your [data source]({basewidgetpath}/Configuration/#dataSource) supports these actions.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/RowEditingAndEditingEvents/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/RowEditingAndEditingEvents/jQuery/Light/"
+}
 
 #####See Also#####
 - [Editing](/Documentation/Guide/Widgets/DataGrid/Editing/)

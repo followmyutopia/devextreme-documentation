@@ -102,7 +102,7 @@ You can also customize an individual tab. For this purpose, declare a template f
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
 
 #####See Also#####
-- [Tabs Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tabs-overview)
+- [Tabs Demos](/Demos/WidgetsGallery/#demo/navigation-tabs-overview)
 - [Tabs API Reference](/Documentation/ApiReference/UI_Widgets/dxTabs/)
 
 [tags]tabs, item appearance, customize, templates, template, custom template, default item, default template

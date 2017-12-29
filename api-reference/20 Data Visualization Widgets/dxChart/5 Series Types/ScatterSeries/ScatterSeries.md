@@ -11,5 +11,7 @@ Describes settings supported by a series of the *scatter* type.
 <!--fullDescription-->
 ![DevExtreme HTML5 Charts ScatterSeriesType](/Content/images/doc/17_2/ChartJS/Scatter.png)
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesscatter/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesscatter/"
+}
 <!--/fullDescription-->

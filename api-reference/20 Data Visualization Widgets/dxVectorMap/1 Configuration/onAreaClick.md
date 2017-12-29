@@ -19,7 +19,9 @@ When implementing a handling function, use the object passed to it as its parame
 
 Alternatively, you can navigate to a specific URL when the **areaClick** event fires. For this purpose, assign this URL to the **onAreaClick** option.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapcolorscustomization/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapcolorscustomization/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

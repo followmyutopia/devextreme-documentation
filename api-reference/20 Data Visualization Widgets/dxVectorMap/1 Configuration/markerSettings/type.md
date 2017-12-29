@@ -25,5 +25,7 @@ Markers are represented by pie charts. To specify values for pie slices, assign 
 * **image**        
 Markers are represented by custom images. To specify an image for a marker, assign a URL of this image to the **url** field specified in the object of the **markers** array.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapimagemarkers/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapimagemarkers/"
+}
 <!--/fullDescription-->

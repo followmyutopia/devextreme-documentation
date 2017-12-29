@@ -130,12 +130,12 @@ You can also customize an individual tile. For this purpose, declare a template 
 
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tile_View/ItemTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px; width:240px" target="_blank">View Built-In Template Engine Demo</a>
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tile_View/Item3RdPartyEngineTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px; width:240px" target="_blank">View 3rd-Party Template Engine Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Tile_View/ItemTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px; width:240px" target="_blank">View Built-In Template Engine Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Tile_View/Item3RdPartyEngineTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px; width:240px" target="_blank">View 3rd-Party Template Engine Demo</a>
 
 #####See Also#####
 - [TileView - Specify the Size of Tiles](/Documentation/Guide/Widgets/TileView/Specify_the_Size_of_Tiles)
-- [TileView Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tile_view-overview)
+- [TileView Demos](/Demos/WidgetsGallery/#demo/navigation-tile_view-overview)
 - [TileView API Reference](/Documentation/ApiReference/UI_Widgets/dxTileView/)
 
 [tags]tile view, tileView, item appearance, tile appearance, customize, templates, template, custom template, default item, default template

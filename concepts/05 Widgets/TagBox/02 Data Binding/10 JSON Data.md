@@ -21,6 +21,6 @@ Implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/)
 
 #####See Also#####
 - [Access the DataSource](/Documentation/Guide/Widgets/TagBox/Data_Binding/Access_the_DataSource/)
-- [TagBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tag_Box/Overview/jQuery/Light/)
+- [TagBox Demos](/Demos/WidgetsGallery/Demo/Tag_Box/Overview/jQuery/Light/)
 
 [tags]tagBox, data binding, provide data, json, jsonp

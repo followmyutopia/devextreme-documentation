@@ -46,7 +46,9 @@ The [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Conf
 
 ---
 
-<a href='/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/"
+}
 
 You can set the title's text more concisely by assigning it directly to the **title** option. This is useful if you are satisfied with the title's default settings and do not need a subtitle. 
 

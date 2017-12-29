@@ -104,7 +104,9 @@ The following code demonstrates a general structure of the **calculateCustomSumm
 
 ---
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgriddatasummariescustomsummarytotals/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/datagridgriddatasummariescustomsummarytotals/"
+}
 
 #####See Also#####
 - [Custom Aggregate Function](/Documentation/Guide/Widgets/DataGrid/Summaries/Custom_Aggregate_Function/)

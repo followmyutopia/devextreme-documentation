@@ -12,7 +12,9 @@ To add markers at design-time, pass an array of objects to the [markers](/Docume
         });
     });
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Map/Markers/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Map/Markers/jQuery/Light/"
+}
 
 To add or remove a marker at runtime, call the [addMarker(markerOptions)](/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#addMarkermarkerOptions) or [removeMarker(marker)](/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#removeMarkermarker) method.
 
@@ -137,7 +139,7 @@ With AngularJS or Knockout, use a different technique. Bind the **markers** opti
 #####See Also#####
 - [Map - Customize Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/Customize/)
 - [Map - Handle Marker Related Events](/Documentation/Guide/Widgets/Map/Configure_Markers/Handle_the_Related_Events/)
-- [Map Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-markers)
+- [Map Demos](/Demos/WidgetsGallery/#demo/maps-map-markers)
 - [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
 
 [tags]map, markers, location, add marker, remove marker, add on click

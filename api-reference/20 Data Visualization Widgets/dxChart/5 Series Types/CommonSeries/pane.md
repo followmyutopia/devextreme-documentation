@@ -13,5 +13,7 @@ If this option is not specified, the series will belong to the [default pane](/D
 #####See Also#####
 - [panes](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/panes/) - declares a collection of panes.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesmultipanes/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesmultipanes/"
+}
 <!--/fullDescription-->

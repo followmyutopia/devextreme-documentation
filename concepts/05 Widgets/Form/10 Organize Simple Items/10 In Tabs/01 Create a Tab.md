@@ -67,4 +67,6 @@ The **Form** widget allows you to organize items in tabs. In the context of the 
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields"
+}

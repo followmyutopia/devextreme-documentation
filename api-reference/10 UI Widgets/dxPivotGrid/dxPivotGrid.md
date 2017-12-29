@@ -180,6 +180,8 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 
 To provide data for the **PivotGrid** widget, specify a data source. **PivotGrid** accepts the [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/) data source only. You can pass its configuration to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#dataSource) field without creating the separate **PivotGridDataSource** object as shown above.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/data_grid-pivot_grid_data_binding-local_data_source" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/data_grid-pivot_grid_data_binding-local_data_source"
+}
 <a href="http://www.youtube.com/watch?v=a3B0XLSIEBM&index=49&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 <!--/fullDescription-->

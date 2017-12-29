@@ -87,5 +87,7 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 #####See Also#####
 - [Map - Overview](/Documentation/Guide/Widgets/Map/Overview/)
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsmapmapmap/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/mapsmapmapmap/"
+}
 <!--/fullDescription-->

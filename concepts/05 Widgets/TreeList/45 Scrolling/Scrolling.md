@@ -127,4 +127,4 @@ The current platform determines the native scrolling settings and you cannot adj
 ---
 
 #####See Also#####
-- [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)
+- [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)

@@ -114,4 +114,6 @@ The editor that will be used in a particular simple item depends on the type of 
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/CustomizeItem/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Form/CustomizeItem/jQuery/Light/"
+}

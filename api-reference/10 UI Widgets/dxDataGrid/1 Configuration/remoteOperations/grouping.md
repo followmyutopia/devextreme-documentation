@@ -8,5 +8,7 @@ Specifies whether or not [grouping](/Documentation/Guide/Widgets/DataGrid/Groupi
 <!--/shortDescription-->
 
 <!--fullDescription-->
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/RemoteGrouping/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/RemoteGrouping/jQuery/Light/"
+}
 <!--/fullDescription-->

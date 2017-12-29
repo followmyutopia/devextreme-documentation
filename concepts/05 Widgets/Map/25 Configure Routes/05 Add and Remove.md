@@ -15,7 +15,9 @@ To add routes at design-time, pass an array of objects to the [routes](/Document
         });
     });
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Map/Routes/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Map/Routes/jQuery/Light/"
+}
 
 To add or remove a route at runtime, call the [addRoute(routeOptions)](/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#addRouterouteOptions) or [removeRoute(route)](/Documentation/ApiReference/UI_Widgets/dxMap/Methods/#removeRouteroute) method.
 
@@ -142,7 +144,7 @@ With AngularJS or Knockout, use a different technique. Bind the **routes** optio
 #####See Also#####
 - [Map - Customize Routes](/Documentation/Guide/Widgets/Map/Configure_Routes/Customize/)
 - [Map - Handle Route Related Events](/Documentation/Guide/Widgets/Map/Configure_Routes/Handle_the_Related_Events/)
-- [Map Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-routes)
+- [Map Demos](/Demos/WidgetsGallery/#demo/maps-map-routes)
 - [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
 
 [tags]map, routes, location, add route, remove route

@@ -103,7 +103,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [TreeView Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure)
+- [TreeView Demos](/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure)
 - [TreeView API Reference](/Documentation/ApiReference/UI_Widgets/dxTreeView/)
 
 [tags]treeview, tree view, navigation, accessibility, keyboard shortcuts

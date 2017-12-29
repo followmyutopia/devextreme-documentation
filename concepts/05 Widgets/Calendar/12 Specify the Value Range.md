@@ -85,7 +85,9 @@ If you need to disable specific dates, use the [disabledDates](/Documentation/Ap
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Calendar/Overview/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Calendar/Overview/jQuery/Light/"
+}
 
 #####See Also#####
 - [Calendar - Handle the Value Change Event](/Documentation/Guide/Widgets/Calendar/Handle_the_Value_Change_Event)

@@ -119,7 +119,9 @@ To choose which series elements should be highlighted when a user pauses on a se
 
 ---
 
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/HoverMode/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/HoverMode/jQuery/Light/"
+}
 
 #####See Also#####
 - [Point Hover](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Hover_Handling/#Point_Hover)

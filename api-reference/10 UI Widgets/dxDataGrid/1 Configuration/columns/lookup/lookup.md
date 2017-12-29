@@ -78,7 +78,9 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
 
 With this code, the *Bus ID* column contains license plates instead of IDs. Moreover, the user can choose a plate number from the drop-down menu when editing cells or applying a filter to this column.
 
-<a href="/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/jQuery/Light/"
+}
 
 #####See Also#####
 - [Lookup Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Lookup_Columns/)

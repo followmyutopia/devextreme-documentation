@@ -72,8 +72,8 @@ To specify one or another series type, assign its name to the **series[]**.[type
 
 Refer to the [Series Types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/) section of the API Reference for a full list of options available to a specific series type.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Line/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Line Demo</a>
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Spline/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Spline Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Charts/Line/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Line Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Charts/Spline/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Spline Demo</a>
 
 #####See Also#####
 - [Series](/Documentation/Guide/Widgets/Chart/Series/Overview/)

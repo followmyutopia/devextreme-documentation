@@ -1,6 +1,8 @@
 The **Button** widget is a simple button that performs specified commands when a user clicks it.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-button-predefined_types" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/actions_and_lists-button-predefined_types"
+}
 
 The following code adds a simple **Button** to your page.
 

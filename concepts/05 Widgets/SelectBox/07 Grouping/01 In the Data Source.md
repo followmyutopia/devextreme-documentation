@@ -224,7 +224,9 @@ If your data is not grouped, you can group it using the [group](/Documentation/A
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/jQuery/Light/"
+}
 
 #####See Also#####
 - [SelectBox - Grouping | Customize Group Headers](/Documentation/Guide/Widgets/SelectBox/Grouping/Customize_Group_Headers/)

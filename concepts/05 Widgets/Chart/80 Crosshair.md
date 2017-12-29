@@ -45,6 +45,8 @@ To enable the crosshair, set the **crosshair**.[enabled](/Documentation/ApiRefer
 
 For information about all options of the crosshair and its labels, visit the [crosshair](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/crosshair/) section of the API reference.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Crosshair/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/Crosshair/jQuery/Light/"
+}
 
 [tags]chart, crosshair, pointer

@@ -127,7 +127,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [Icon Library](/Documentation/Guide/Themes/Icon_Library/)
-- [TreeView Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/jQuery/Light/)
+- [TreeView Demos](/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/jQuery/Light/)
 - [TreeView API Reference](/Documentation/ApiReference/UI_Widgets/dxTreeView/)
 
 [tags]treeview, tree view, item appearance, customize, templates, template, custom template, default item, default template

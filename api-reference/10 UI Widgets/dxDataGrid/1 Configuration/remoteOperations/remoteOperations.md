@@ -46,5 +46,7 @@ Note that when operations are performed remotely, the **DataGrid** does not supp
 - custom grouping and custom sorting using functions (that is, [calculateGroupValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateGroupValue) and [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateSortValue) accept strings only);
 - [custom summary calculation](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary).
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/data_grid-grid_data_binding-custom_data_source" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/data_grid-grid_data_binding-custom_data_source"
+}
 <!--/fullDescription-->

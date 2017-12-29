@@ -89,7 +89,9 @@ If the **type** is the only field you need to specify in the **format** object, 
 
 When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `Format` enum. This enum accepts the same values, but they start with an upper-case letter, for example, *"fixedPoint"* becomes `FixedPoint`.
 
-<a href="/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/"
+}
 
 #####See Also#####
 - **format**.[currency](/Documentation/ApiReference/Common/Object_Structures/format/#currency)

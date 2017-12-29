@@ -67,7 +67,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [Toolbar Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-toolbar-overview)
+- [Toolbar Demos](/Demos/WidgetsGallery/#demo/navigation-toolbar-overview)
 - [Toolbar API Reference](/Documentation/ApiReference/UI_Widgets/dxToolbar/)
 
 [tags]toolbar, navigation, accessibility, keyboard shortcuts

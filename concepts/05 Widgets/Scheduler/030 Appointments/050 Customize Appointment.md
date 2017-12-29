@@ -201,7 +201,9 @@ If you use only jQuery, combine HTML markup for appointments manually with jQuer
         });
     });
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/"
+}
 
 You can also customize an individual appointment. For this purpose, declare a template for this appointment as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#template) field of the appointment's data object.
 

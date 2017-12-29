@@ -63,7 +63,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [Button Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-button-icons)
+- [Button Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-button-icons)
 - [Button API Reference](/Documentation/ApiReference/UI_Widgets/dxButton/)
 
 [tags]button, accessibility, keyboard shortcuts

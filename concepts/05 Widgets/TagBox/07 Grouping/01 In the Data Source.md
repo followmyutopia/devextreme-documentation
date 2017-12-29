@@ -85,7 +85,9 @@ If your data is not grouped at all, you can group it using the [group](/Document
         });
     });
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/jQuery/Light/"
+}
 
 #####See Also#####
 - [TagBox - Grouping | Customize Group Headers](/Documentation/Guide/Widgets/TagBox/Grouping/Customize_Group_Headers/)

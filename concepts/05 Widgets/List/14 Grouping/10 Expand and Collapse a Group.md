@@ -64,7 +64,9 @@ If the user should be able to collapse or expand a group in the **List**, set th
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/GroupedList/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/List/GroupedList/jQuery/Light/"
+}
 
 To collapse or expand a specific group programmatically, call the [collapseGroup(groupIndex)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#collapseGroupgroupIndex) or [expandGroup(groupIndex)](/Documentation/ApiReference/UI_Widgets/dxList/Methods/#expandGroupgroupIndex) method.
 

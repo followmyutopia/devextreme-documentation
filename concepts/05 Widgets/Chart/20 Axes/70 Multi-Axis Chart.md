@@ -140,7 +140,9 @@ All value axes in the **Chart** are synchronized by default, but you can explici
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/MultipleAxes/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultipleAxes/jQuery/Light/"
+}
 
 #####See Also#####
 - [Multi-Pane Chart](/Documentation/Guide/Widgets/Chart/Panes/Multi-Pane_Chart/)

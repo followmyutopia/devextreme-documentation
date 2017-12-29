@@ -1,6 +1,8 @@
 The **Panorama** widget is a full-screen widget that allows you to arrange items on a long horizontal canvas split into several views. Each view contains several items, and an end user navigates the views with the swipe gesture. The **Panorama** is often used as a navigation map on the first page of an application. 
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-panorama-overview/ios7" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/navigation-panorama-overview/ios7"
+}
 
 Most primitive **Panorama** needs an collection of [items](/Documentation/ApiReference/UI_Widgets/dxPanorama/Configuration/#items)
 and a [title](/Documentation/ApiReference/UI_Widgets/dxPanorama/Configuration/#title). In addition, you can specify a [backgroundImage](/Documentation/ApiReference/UI_Widgets/dxPanorama/Configuration/backgroundImage/). For example, the following code adds a simple **Panorama** to your page.

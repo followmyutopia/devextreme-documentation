@@ -17,5 +17,7 @@ If you have specified the [field that provides marker-sizing data](/Documentatio
 
 For example, consider that the **sizeGroups** array contains four items: [0, 1, 2, 3]. This array specifies three ranges, or groups: 0-1, 1-2 and 2-3. Thus, data values will be split up into three groups. Each group will be assigned a size correlating with the group values. This size will be calculated automatically taking into account the [minSize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#minSize) and [maxSize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#maxSize) values. Markers of those data values that does not match neither group will have a default size.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapbubblemarkers/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapbubblemarkers/"
+}
 <!--/fullDescription-->

@@ -11,6 +11,8 @@ When client-side exporting is [enabled](/Documentation/ApiReference/UI_Widgets/d
 
 [note]Client-side exporting requires the JSZip library. Learn where you can get it from topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridexportexport/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/datagridgridexportexport/"
+}
 <a href="http://www.youtube.com/watch?v=uFXD6NG3lo8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=50" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 <!--/fullDescription-->

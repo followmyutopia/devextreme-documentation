@@ -45,7 +45,7 @@ This configuration of the **position** option reads as follows: "place **my** _l
 
 #####See Also#####
 - [Toast - Customize the Content](/Documentation/Guide/Widgets/Toast/Customize_the_Content/)
-- [Toast Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-toast-overview)
+- [Toast Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-toast-overview)
 - [Toast API Reference](/Documentation/ApiReference/UI_Widgets/dxToast/)
 
 [tags]toast, overlay, template, size, height, width, position

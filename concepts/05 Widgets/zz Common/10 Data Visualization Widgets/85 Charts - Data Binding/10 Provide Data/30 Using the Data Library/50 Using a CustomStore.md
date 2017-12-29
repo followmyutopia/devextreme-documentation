@@ -18,4 +18,6 @@ To see more examples of CustomStore implementation, refer to the [Custom Sources
 
 After you have created a DataSource, you need to bind it to your chart. Refer to the [Bind Data](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Bind_Data/) section to learn how to do this.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsremotedatasourcedataprocessingusingthedatasourceobject/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartschartsremotedatasourcedataprocessingusingthedatasourceobject/"
+}

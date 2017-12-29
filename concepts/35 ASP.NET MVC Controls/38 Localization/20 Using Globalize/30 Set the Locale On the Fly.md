@@ -14,4 +14,6 @@ Open the view with controls to localize, add a `<script>` tag to the bottom, and
             navigator.userLanguage);
     </script>
 
-<a href="/Demos/WidgetsGallery/Demo/Localization/UsingGlobalize/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Localization/UsingGlobalize/Mvc/Light/"
+}

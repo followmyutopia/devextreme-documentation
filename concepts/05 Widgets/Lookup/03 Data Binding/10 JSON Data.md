@@ -75,6 +75,6 @@ Implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/)
 
 #####See Also#####
 - [Access the DataSource](/Documentation/Guide/Widgets/Lookup/Data_Binding/Access_the_DataSource/)
-- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/jQuery/Light/)
+- [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/jQuery/Light/)
 
 [tags]Lookup, data binding, provide data, json, jsonp

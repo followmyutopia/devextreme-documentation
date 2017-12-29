@@ -158,7 +158,9 @@ To use the custom validation rule, create a DevExtreme editor for the model prop
 
     @(Html.DevExtreme().NumberBoxFor(Function(model) model.Age))
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Validation/Overview/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Validation/Overview/Mvc/Light/"
+}
 
 #####See Also#####
 - [Client-Side Validation - Overview](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)

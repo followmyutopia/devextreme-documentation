@@ -166,7 +166,9 @@ Each editor displays validation errors relevant only to it. If you need all erro
     @* Displays validation errors relevant to the default group *@
     @(Html.DevExtreme().ValidationSummary())
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Validation/Overview/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Validation/Overview/Mvc/Light/"
+}
 
 #####See Also#####
 - [Client-Side Validation - Overview](/Documentation/Guide/ASP.NET_MVC_Controls/Client-Side_Data_Validation/Overview/)

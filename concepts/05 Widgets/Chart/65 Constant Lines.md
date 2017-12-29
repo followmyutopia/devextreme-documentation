@@ -141,7 +141,9 @@ Note that individual settings override axis-specific settings which, in turn, ov
 
 For information about all options of the constant lines, visit the [constantLines](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLines/) section of the API reference.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/ServerSideDataProcessing/Knockout/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/ServerSideDataProcessing/Knockout/Light/"
+}
 
 #####See Also#####
 - [Grid](/Documentation/Guide/Widgets/Chart/Grid/)

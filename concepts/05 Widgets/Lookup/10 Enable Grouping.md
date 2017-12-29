@@ -240,6 +240,6 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
 #####See Also#####
 - [Lookup - Customize the Appearance](/Documentation/Guide/Widgets/Lookup/Customize_the_Appearance/)
 - [Lookup - Enable Paging](/Documentation/Guide/Widgets/Lookup/Enable_Paging/)
-- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
+- [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/)
 
 [tags]lookup, group, group template, customize

@@ -56,7 +56,9 @@ To specify the **Scatter** series type, assign *"scatter"* to the **series[]**.[
 
 Refer to the [ScatterSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/ScatterSeries/) section of the API Reference for a full list of options available to a **Scatter** series.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Scatter/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/Scatter/jQuery/Light/"
+}
 
 #####See Also#####
 - [Series Points](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/)

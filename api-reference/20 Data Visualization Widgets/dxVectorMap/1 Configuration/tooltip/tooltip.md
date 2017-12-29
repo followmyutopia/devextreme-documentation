@@ -17,5 +17,7 @@ Specify the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Wi
 
 You can also change the appearance of tooltips using fields of the **tooltip** configuration object.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapcolorscustomization/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapcolorscustomization/"
+}
 <!--/fullDescription-->

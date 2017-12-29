@@ -1,6 +1,8 @@
 The **TreeView** widget is a tree-like representation of textual data.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/navigation-tree_view-hierarchical_data_structure"
+}
 <a href="https://www.youtube.com/watch?v=j3d94lzW4Vw&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=37" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 The following code adds a simple **TreeView** to your page:

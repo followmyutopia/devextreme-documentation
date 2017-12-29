@@ -90,7 +90,9 @@ Options declared in the **tooltip** object apply to all tooltips in the **PieCha
 
 ---
 
-<a href='/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/jQuery/Light/"
+}
 
 #####See Also#####
 - [Show and Hide a Tooltip](/Documentation/Guide/Widgets/PieChart/Tooltips/Show_and_Hide_a_Tooltip/)

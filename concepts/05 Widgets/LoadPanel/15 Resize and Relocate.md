@@ -39,7 +39,7 @@ This configuration of the **position** option reads as follows: "place **my** _l
 
 #####See Also#####
 - [LoadPanel - Customize the Appearance](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/)
-- [LoadPanel Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_panel-overview)
+- [LoadPanel Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_panel-overview)
 - [LoadPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/)
 
 [tags]loadPanel, load panel, overlay, size, height, width, position

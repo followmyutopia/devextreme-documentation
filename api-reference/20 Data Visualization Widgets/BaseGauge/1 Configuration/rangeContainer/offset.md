@@ -8,5 +8,7 @@ Specifies the offset of the range container from an invisible scale line in pixe
 <!--/shortDescription-->
 
 <!--fullDescription-->
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementscustomlayout/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementscustomlayout/"
+}
 <!--/fullDescription-->

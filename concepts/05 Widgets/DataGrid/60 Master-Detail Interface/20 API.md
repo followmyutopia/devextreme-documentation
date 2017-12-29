@@ -75,4 +75,6 @@ The [expandRow(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/MasterDetailAPI/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/MasterDetailAPI/jQuery/Light/"
+}

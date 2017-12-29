@@ -87,4 +87,4 @@ Since column fixing is effective only with horizontal scrolling, using it makes 
 
 #####See Also#####
 - [Adaptability](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/)
-- [DataGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)

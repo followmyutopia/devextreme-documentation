@@ -57,7 +57,7 @@ If you need to render different templates depending on a specific condition, def
 
 #####See Also#####
 - [Tooltip - Resize and Relocate](/Documentation//Guide/Widgets/Tooltip/Resize_and_Relocate/)
-- [Tooltip Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-tooltip-overview)
+- [Tooltip Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-tooltip-overview)
 - [Tooltip API Reference](/Documentation/ApiReference/UI_Widgets/dxTooltip/)
 
 [tags]tooltip, overlay, template, customize the content, content template

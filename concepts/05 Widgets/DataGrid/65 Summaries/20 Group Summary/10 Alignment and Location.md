@@ -70,4 +70,6 @@ All group items are displayed in parentheses after the group header by default. 
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/GroupSummaries/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/GroupSummaries/jQuery/Light/"
+}

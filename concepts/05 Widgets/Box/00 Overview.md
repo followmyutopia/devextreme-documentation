@@ -1,6 +1,8 @@
 The **Box** widget allows you to arrange various elements within it. This widget is separate and adaptive and acts as the layout's building block.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-box-overview"
+}
 
 The following code adds a simple **Box** containing three items to your page. These items are plain texts placed in differently-colored rectangles arranged in a row. Equal **ratio** option values ensure they have equal widths.
 

@@ -142,6 +142,8 @@ You can also customize cells of command columns using the [onCellPrepared](/Docu
     
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/CustomizeCommandColumns/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomizeCommandColumns/jQuery/Light/"
+}
 
 [tags] dataGrid, data grid, column types, command columns, editing column, adaptive column, selection column

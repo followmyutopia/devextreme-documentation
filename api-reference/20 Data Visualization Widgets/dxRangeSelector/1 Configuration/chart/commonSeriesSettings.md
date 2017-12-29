@@ -11,6 +11,8 @@ Use this object's properties to set the options for all chart series at once. Th
 
 For information on all the properties of the **commonSeriesSettings** configuration object, refer to its description in the **chartOptions** reference section: [commonSeriesSettings](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/commonSeriesSettings/). Note that the **RangeSelector** widget may have its own default values for the **commonSeriesSettings** options. For instance, the **type** option is set to 'area' in the **RangeSelector** widget. In the **Chart** widget, this option is set to 'line' by default.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Range_Selector/DiscreteScale/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Range_Selector/DiscreteScale/jQuery/Light/"
+}
 
 <!--/fullDescription-->

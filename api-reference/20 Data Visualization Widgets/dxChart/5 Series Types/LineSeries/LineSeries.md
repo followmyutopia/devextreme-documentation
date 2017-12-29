@@ -11,5 +11,7 @@ Describes settings supported by a series of the *line* type.
 <!--fullDescription-->
 ![DevExtreme HTML5 Charts LineSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/Line.png)
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesline/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesline/"
+}
 <!--/fullDescription-->

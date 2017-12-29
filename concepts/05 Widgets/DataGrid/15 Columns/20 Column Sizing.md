@@ -124,7 +124,9 @@ The widget allows a user to resize columns in two different modes: by changing t
     
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/ColumnResizing/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/ColumnResizing/jQuery/Light/"
+}
 
 #####See Also#####
 - [DataGrid - Column Reordering](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Reordering/)

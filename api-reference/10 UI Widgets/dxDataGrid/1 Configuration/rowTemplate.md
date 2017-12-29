@@ -108,7 +108,9 @@ Using a template engine, pass one of the following values to the **rowTemplate**
 
 When you implement a row template with a template engine, take into account certain specifics. Particularly, the `<tr>` element that represents a row should have the `dx-row` class for correct operation of all widget features.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/Row3RdPartyEngineTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/Row3RdPartyEngineTemplate/jQuery/Light/"
+}
 
 [note] When you use a row template, we recommend you disable the [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping), and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) features. The template's content cannot automatically synchronize with the column layout, which makes these features inoperative.
 

@@ -123,7 +123,9 @@ The widget allows a user to resize columns in two different modes: by changing t
     
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/Resizing/AngularJS/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/Resizing/AngularJS/Light/"
+}
 
 #####See Also#####
 - [TreeList - Column Reordering](/Documentation/Guide/Widgets/TreeList/Columns/Column_Reordering/)

@@ -91,6 +91,6 @@ The **Lookup**'s default behavior is to load the next page once a user scrolls t
 
 #####See Also#####
 - [Lookup - Enable Grouping](/Documentation/Guide/Widgets/Lookup/Enable_Grouping/)
-- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
+- [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/)
 
 [tags]lookup, paginate, page size, pageSize, loading mode

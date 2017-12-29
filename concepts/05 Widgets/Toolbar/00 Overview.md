@@ -1,6 +1,8 @@
 The **Toolbar** is a widget containing items that usually manage screen content. Those items can be plain text or widgets.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-toolbar-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/navigation-toolbar-overview"
+}
 
 The following code adds a simple **Toolbar** to your page. Three items are plain text and one is a [Button](/Documentation/Guide/Widgets/Button/) widget. 
 

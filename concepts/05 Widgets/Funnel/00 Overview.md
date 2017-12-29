@@ -1,6 +1,8 @@
 The **Funnel** is a widget that visualizes a value at different stages in the form of a funnel. It helps assess value changes throughout these stages and identify potential issues.
 
-<a href='/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/FunnelChart/jQuery/Light/"
+}
 
 The **Funnel** can visualize data from any source. Refer to the following topics for details on how to bind the **Funnel** to your data source:
 

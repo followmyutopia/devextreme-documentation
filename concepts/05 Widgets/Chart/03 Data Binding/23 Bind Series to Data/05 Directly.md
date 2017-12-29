@@ -113,9 +113,9 @@ Need one **argumentField** and four value fields: [openValueField](/Documentatio
 - **[Range Series](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/)**      
 Need one **argumentField** and two value fields: [rangeValue1Field](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/#rangeValue1Field) and [rangeValue2Field](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/RangeAreaSeries/#rangeValue2Field).
 
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Bubble/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>Bubble Series Demo</a>
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Stock/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>Financial Series Demo</a> 
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/RangeBar/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>Range Series Demo</a> 
+<a href="/Demos/WidgetsGallery/Demo/Charts/Bubble/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Bubble Series Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Charts/Stock/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Financial Series Demo</a> 
+<a href="/Demos/WidgetsGallery/Demo/Charts/RangeBar/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Range Series Demo</a> 
 
 #####See Also#####
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)

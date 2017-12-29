@@ -1,6 +1,8 @@
 The **RangeSlider** is a widget that allows an end user to choose a range of numeric values. Basically, the **RangeSlider** is the [Slider](/Documentation/Guide/Widgets/Slider/Overview/) widget with a second handle added.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-range_slider-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-range_slider-overview"
+}
 
 The following code adds a simple **RangeSlider** to your page. The **start** and **end** options specify the selected interval. The **min** and **max** options limit the range of accepted values.
 

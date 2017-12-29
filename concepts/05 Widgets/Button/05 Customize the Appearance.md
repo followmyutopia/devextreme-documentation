@@ -40,7 +40,9 @@ The **Button** widget provides five predefined appearances controlled by the [ty
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/jQuery/Light/"
+}
 
 Apart from plain text, the **Button** can display an icon. DevExtreme provides [built-in icons](/Documentation/Guide/Themes/Icon_Library/) that change their appearance depending on the platform. Certainly, you can [use an external icon library](/Documentation/Guide/Themes/Icon_Library/#Use_External_Icon_Libraries) or even [standalone icons](/Documentation/Guide/Themes/Icon_Library/#Alternative_to_the_Icon_Library). To specify the icon, set the [icon](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#icon) option.
 
@@ -86,7 +88,9 @@ Apart from plain text, the **Button** can display an icon. DevExtreme provides [
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/Icons/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Button/Icons/jQuery/Light/"
+}
 
 If you need to define the **Button** content completely, implement a template for it using the [template](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#template) option as shown in the following example.
 

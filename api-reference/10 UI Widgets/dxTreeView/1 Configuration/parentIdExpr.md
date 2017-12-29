@@ -13,5 +13,7 @@ This option is used if the [dataStructure](/Documentation/ApiReference/UI_Widget
 
 
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigationtreeviewtreeviewplaindatastructure/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/navigationtreeviewtreeviewplaindatastructure/"
+}
 <!--/fullDescription-->

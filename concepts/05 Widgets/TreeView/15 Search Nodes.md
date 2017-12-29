@@ -61,7 +61,9 @@ Searching is disabled in the **TreeView** widget by default. Assign **true** to 
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/TreeView/Searching/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/TreeView/Searching/jQuery/Light/"
+}
 
 When a user types a string in the input field, the **TreeView** suggests all nodes that _contain_ this string. Assign *'startswith'* to the [searchMode](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#searchMode) option if you want the **TreeView** to suggest only those nodes that _start_ with the input string.
 

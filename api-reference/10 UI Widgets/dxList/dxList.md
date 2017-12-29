@@ -98,5 +98,7 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 - [List - Overview](/Documentation/Guide/Widgets/List/Overview)
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/actionsandlistslistlistlisteditingandapi/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/actionsandlistslistlistlisteditingandapi/"
+}
 <!--/fullDescription-->

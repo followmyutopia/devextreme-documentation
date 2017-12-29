@@ -51,5 +51,7 @@ Use this method if you need to get information on what facts were involved in th
         // the "items" array contains all items
     });
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Pivot_Grid/DrillDown/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/DrillDown/jQuery/Light/"
+}
 <!--/fullDescription-->

@@ -25,6 +25,8 @@ To use one of them, pass its name to the [DevExpress.ui.setTemplateEngine(name)]
         <!-- your Underscore template -->
     </script>
 
-<a href="/Demos/WidgetsGallery/Demo/List/Item3RdPartyEngineTemplate/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/List/Item3RdPartyEngineTemplate/jQuery/Light/"
+}
 
 You can also use other template engines, but you need to implement functions that compile and render templates in this case. See [DevExpress.ui.setTemplateEngine(options)](/Documentation/ApiReference/Common/Utils/ui/#setTemplateEngineoptions) for details.

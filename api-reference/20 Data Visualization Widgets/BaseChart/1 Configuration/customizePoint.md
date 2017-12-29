@@ -106,7 +106,9 @@ In the financial series ([*candlestick*](/Documentation/ApiReference/Data_Visual
 
 [note]All fields listed in this description are also exposed by the **this** object.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturespointimage/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturespointimage/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

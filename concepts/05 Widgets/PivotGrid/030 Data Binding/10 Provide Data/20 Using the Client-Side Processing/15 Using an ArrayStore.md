@@ -34,4 +34,6 @@ This type of store is great when you need a simple data source with the data lif
 
 After you have created a data source configuration object, you need to bind it to your grid. Refer to the [Bind Data](/Documentation/Guide/Widgets/PivotGrid/Data_Binding/#Bind_Data) section to learn how to do this.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Pivot_Grid/LocalDataSource/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/LocalDataSource/jQuery/Light/"
+}

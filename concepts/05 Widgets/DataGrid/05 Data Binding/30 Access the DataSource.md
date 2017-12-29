@@ -36,6 +36,6 @@ You can now call [any method](/Documentation/ApiReference/Data_Layer/DataSource/
 
 #####See Also#####
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
-- [DataGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
 
 [tags]dataGrid, data grid, data binding, access data source, getDataSource, reload data

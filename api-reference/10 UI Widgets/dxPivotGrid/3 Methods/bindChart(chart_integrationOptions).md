@@ -75,7 +75,9 @@ Unbinds the **Chart**. If **null**, then binding failed.
 <!--fullDescription-->
 Main article: [Integration with Chart](/Documentation/Guide/Widgets/PivotGrid/Integration_with_Chart/)
 
-<a href="/Demos/WidgetsGallery/Demo/PivotGrid/ChartIntegration/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/ChartIntegration/jQuery/Light/"
+}
 
 #####See Also#####
 #include common-link-callmethods

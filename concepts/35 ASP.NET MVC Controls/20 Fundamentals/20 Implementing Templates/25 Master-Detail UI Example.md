@@ -67,6 +67,8 @@ Note that the `data.ID` free variable is wrapped in the `new JS()` construction.
         })
     }
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/MasterDetailView/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/MasterDetailView/Mvc/Light/"
+}
 
-You can find more examples of templates in our [technical demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/WebApi/Mvc/Light/) and [sample applications](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/#Sample_Applications).
+You can find more examples of templates in our [technical demos](/Demos/WidgetsGallery/Demo/List/WebApi/Mvc/Light/) and [sample applications](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/#Sample_Applications).

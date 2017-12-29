@@ -56,7 +56,7 @@ If none of the available editors suit your requirements, you can define a custom
     export class AppComponent {
         employee = {
             name: "John Heart",
-            picture: "https://js.devexpress.com/Content/images/doc/17_1/PhoneJS/person2.png"
+            picture: "https://js.devexpress.com/Content/images/doc/17_2/PhoneJS/person2.png"
         }
     }
     @NgModule({
@@ -199,5 +199,5 @@ You can modify automatically generated items using the [customizeItem](/Document
 - [Form - Organize Simple Items in Columns](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Columns/)
 - [Form - Add an Empty Space Between Simple Items](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/Add_an_Empty_Space/)
 - [Form - Configure Item Labels](/Documentation/Guide/Widgets/Form/Configure_Item_Labels/Location_and_Alignment/)
-- [Form Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-customize_item)
+- [Form Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-customize_item)
 - [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)

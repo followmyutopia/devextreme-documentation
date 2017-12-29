@@ -54,5 +54,7 @@ DevExtreme UI widgets include [WAI-ARIA](http://www.w3.org/WAI/intro/aria.php) m
         </div>
     </div>
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/formsandmulti-purposefieldsetfieldsetfieldset/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposefieldsetfieldsetfieldset/"
+}
 <!--/fullDescription-->

@@ -2,7 +2,9 @@ The search panel allows searching for values in several columns at once. Search 
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList SearchPanel](/Content/images/doc/17_2/treelist/visual_elements/search_panel.png)
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingSearchPanel/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/UsingSearchPanel/jQuery/Light/"
+}
 
 To make the search panel visible, assign **true** to the [searchPanel](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/).**visible** option. You can set a column's [allowSearch](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowSearch) option to **false** if it should be excluded from searching. Note that this option inherits the value of the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option by default.
 

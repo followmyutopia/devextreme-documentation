@@ -1,6 +1,8 @@
 The **Menu** widget is a panel with clickable items. A click on an item opens a drop-down menu, which can contain several submenus.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-menu-overview" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/navigation-menu-overview"
+}
 <a href="https://www.youtube.com/watch?v=XR3HePJDa70&index=2&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 The following code adds the **Menu** widget to your page. Note that the data source of the widget declares several nesting levels. First-level items produce items for the widget panel, or "root items". Other items go to drop-down menus.

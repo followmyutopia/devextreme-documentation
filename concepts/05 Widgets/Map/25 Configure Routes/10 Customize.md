@@ -26,7 +26,7 @@ The [route configuration](/Documentation/ApiReference/UI_Widgets/dxMap/Configura
 #####See Also#####
 - [Map - Handle Route Related Events](/Documentation/Guide/Widgets/Map/Configure_Routes/Handle_the_Related_Events/)
 - [Map - Add and Remove Routes](/Documentation/Guide/Widgets/Map/Configure_Routes/Add_and_Remove/)
-- [Map Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-routes)
+- [Map Demos](/Demos/WidgetsGallery/#demo/maps-map-routes)
 - [Map API Reference](/Documentation/ApiReference/UI_Widgets/dxMap/)
 
 [tags]map, route, opacity, thickness, weight, color, mode

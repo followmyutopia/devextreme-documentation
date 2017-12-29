@@ -52,6 +52,6 @@ If the server does not process data yet, employ one of the following extensions 
 
 If these extensions do not suit your needs, configure the **CustomStore** and implement server-side data processing following the instructions given in this article. Note that the server may leave some of the data processing operations unimplemented. In this case, make sure that the corresponding fields of the **remoteOperations** object are set to **false**.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/WebAPIService/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Web API Service Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Tree_List/WebAPIService/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Web API Service Demo</a>
 
 [tags]treeList, CustomStore, DataSource, remote operations. remoteOperations, filtering, sorting, grouping, load data, add, delete, update

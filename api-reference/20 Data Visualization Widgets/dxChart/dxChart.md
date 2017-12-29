@@ -164,7 +164,9 @@ You can create the **Chart** widget using one of the following approaches.
 
 All DevExtreme widgets require linking the jQuery library. Linking the Knockout or AngularJS library is optional. For detailed information on how to link the needed libraries, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsbarseriessimplestsingle/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartschartsbarseriessimplestsingle/"
+}
 
 #####See Also#####
 - [Chart - Overview](/Documentation/Guide/Widgets/Chart/Overview/)

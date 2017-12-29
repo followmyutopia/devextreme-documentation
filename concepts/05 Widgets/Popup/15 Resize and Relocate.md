@@ -57,7 +57,7 @@ By default, an end user is allowed to change the **Popup** position only on desk
 #####See Also#####
 - [Popup - Show and Hide the Popup](/Documentation/Guide/Widgets/Popup/Show_and_Hide_the_Popup/)
 - [Popup - Customize the Appearance](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Content/)
-- [Popup Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popup-overview)
+- [Popup Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popup-overview)
 - [Popup API Reference](/Documentation/ApiReference/UI_Widgets/dxPopup/)
 
 [tags]popup, overlay, size, height, width, resize, position, drag

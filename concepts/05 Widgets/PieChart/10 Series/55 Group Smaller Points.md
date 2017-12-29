@@ -122,4 +122,6 @@ The group for small points is called *"others"* by default. You can change this 
 
 ---
 
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/PieWithSmallValuesGrouped/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithSmallValuesGrouped/jQuery/Light/"
+}

@@ -11,4 +11,6 @@ To configure the Field Chooser, use the [fieldChooser](/Documentation/ApiReferen
 
 Although the Field Chooser is already integrated in **PivotGrid** and can be invoked using the context menu, you can add it as a [separate widget](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/) on your page. In this case, the Field Chooser will be displayed continuously and will not overlay the pivot grid.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/data_grid-pivot_grid-field_chooser" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/data_grid-pivot_grid-field_chooser"
+}

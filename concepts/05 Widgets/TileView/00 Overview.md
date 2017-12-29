@@ -1,6 +1,8 @@
 The **TileView** widget contains a collection of tiles. Tiles can store much more information than ordinary buttons, that is why they are very popular in apps designed for touch devices.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-tileview-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/actions_and_lists-tileview-overview"
+}
 
 The following code adds a primitive **TileView** to your page.
 
@@ -28,7 +30,9 @@ By default, the widget is oriented horizontally, but you can orient it verticall
         });
     });
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tile_View/Directions/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tile_View/Directions/jQuery/Light/"
+}
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)

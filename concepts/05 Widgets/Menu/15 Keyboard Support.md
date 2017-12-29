@@ -83,7 +83,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [Menu Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-menu-overview)
+- [Menu Demos](/Demos/WidgetsGallery/#demo/navigation-menu-overview)
 - [Menu API Reference](/Documentation/ApiReference/UI_Widgets/dxMenu/)
 
 [tags]menu, accessibility, keyboard shortcuts

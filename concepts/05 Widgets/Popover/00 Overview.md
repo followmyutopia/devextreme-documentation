@@ -1,6 +1,8 @@
 The **Popover** is a widget that shows notifications within a box with an arrow pointing to a specified UI element.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popover-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popover-overview"
+}
 
 The following code creates a simple **Popover** on your page and attaches it to another element (in this example, to an image).
 

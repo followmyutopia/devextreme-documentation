@@ -27,5 +27,7 @@ You can supply data to this structure using the **DataSource** object's [group](
 #####See Also#####
 - [List - Grouping](/Documentation/Guide/Widgets/List/Grouping/In_the_Data_Source/)
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/actionsandlistslistlistgroupedlist/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/actionsandlistslistlistgroupedlist/"
+}
 <!--/fullDescription-->

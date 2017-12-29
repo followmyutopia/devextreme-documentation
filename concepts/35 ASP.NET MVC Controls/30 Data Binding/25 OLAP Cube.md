@@ -23,4 +23,6 @@ An OLAP cube is a multi-dimensional dataset that allows for data mining and anal
         End Function)
     )
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Pivot_Grid/OLAPDataSource/Mvc/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/OLAPDataSource/Mvc/Light/"
+}

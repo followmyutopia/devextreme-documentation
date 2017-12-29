@@ -30,6 +30,6 @@ Now, you can call [any method](/Documentation/ApiReference/Data_Layer/DataSource
 
 #####See Also#####
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
-- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/jQuery/Light/)
+- [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/jQuery/Light/)
 
 [tags]Lookup, data binding, access data source, getDataSource, reload data

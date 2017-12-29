@@ -73,7 +73,9 @@ Another way to deal with overlapping labels is to hide all labels of a specific 
 
 ---
 
-<a href='/Demos/WidgetsGallery/Demo/Charts/PieWithResolvedLabelOverlapping/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithResolvedLabelOverlapping/jQuery/Light/"
+}
 
 #####See Also#####
 - [Adaptive Layout](/Documentation/Guide/Widgets/PieChart/Adaptive_Layout/)

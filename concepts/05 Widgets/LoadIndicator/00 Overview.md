@@ -1,6 +1,8 @@
 The **LoadIndicator** is a UI element notifying the viewer that a process is in progress.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_indicator-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_indicator-overview"
+}
 
 The following code adds a simple **LoadIndicator** to your page. You can change the widget size, using the [height](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#height) and [width](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#height) options.
 

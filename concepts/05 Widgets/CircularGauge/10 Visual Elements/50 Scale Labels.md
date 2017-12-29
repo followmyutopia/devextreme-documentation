@@ -23,4 +23,6 @@ You can specify a [format](/Documentation/ApiReference/Data_Visualization_Widget
 - **Appearance**	
 The font style used for displaying the label text can be varied using options of the [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/scale/label/font/) configuration object. In addition, scale labels can be indented from their ticks using the [indentFromTick](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Configuration/scale/label/#indentFromTick) option.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/ScaleLabelFormatting/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Gauges/ScaleLabelFormatting/jQuery/Light/"
+}

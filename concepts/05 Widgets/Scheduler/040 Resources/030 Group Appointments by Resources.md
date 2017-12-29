@@ -72,7 +72,9 @@ To group appointments by resources, assign an array to the [groups](/Documentati
 
 ![Scheduler Grouping by Resources](/Content/images/doc/17_2/UiWidgets/Scheduler_ResourceGroups.png)
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/GroupedAppointments/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupedAppointments/jQuery/Light/"
+}
 
 #####See Also#####
 - [Scheduler - Assign Appointments to Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/)

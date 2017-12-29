@@ -18,4 +18,6 @@ By default, a tooltip displays the value of a hovered widget element without for
 * **Font Settings**    
 To customize the appearance of the tooltip text, define the font options within the [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/tooltip/font/) configuration object.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Gauges/Tooltip/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Gauges/Tooltip/jQuery/Light/"
+}

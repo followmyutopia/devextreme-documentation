@@ -83,7 +83,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [ContextMenu Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-context_menu-overview)
+- [ContextMenu Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-context_menu-overview)
 - [ContextMenu API Reference](/Documentation/ApiReference/UI_Widgets/dxContextMenu/)
 
 [tags]context menu, contextMenu, accessibility, keyboard shortcuts

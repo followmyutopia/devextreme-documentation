@@ -1,6 +1,8 @@
 The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widgets/Tabs/Overview/) and [MultiView](/Documentation/Guide/Widgets/MultiView/Overview/) widgets. It automatically synchronizes the selected tab with the currently displayed view and vice versa.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/navigation-tab_panel-overview"
+}
 <a href="https://www.youtube.com/watch?v=SyGIlFZY_S0&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=38" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 The following code adds a simple **TabPanel** to your page.

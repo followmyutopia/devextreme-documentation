@@ -242,6 +242,6 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
 - [Access the DataSource](/Documentation/Guide/Widgets/Lookup/Data_Binding/Access_the_DataSource/)
 - [Enable Grouping](/Documentation/Guide/Widgets/Lookup/Enable_Grouping/)
 - [Configure Search Parameters](/Documentation/Guide/Widgets/Lookup/Configure_Search_Parameters/)
-- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/jQuery/Light/)
+- [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/jQuery/Light/)
 
 [tags]lookup, data binding, provide data, custom data source, CustomStore, DataSource, load

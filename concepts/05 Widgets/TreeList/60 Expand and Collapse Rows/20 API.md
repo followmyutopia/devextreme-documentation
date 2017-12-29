@@ -76,4 +76,4 @@ Call the [expandRow(key)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Meth
 
 #####See Also#####
 #include common-link-callmethods
-- [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)
+- [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)

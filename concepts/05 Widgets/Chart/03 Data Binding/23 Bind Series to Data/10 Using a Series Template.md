@@ -126,7 +126,9 @@ If you need to change options of a particular series, return an [object with the
 
 ---
 
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/SeriesTemplates/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a> 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/SeriesTemplates/jQuery/Light/"
+} 
 
 #####See Also#####
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)

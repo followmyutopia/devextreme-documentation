@@ -33,7 +33,9 @@ To bind the **DataGrid** to data in the JSON format, assign the data's URL to th
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/AjaxRequest/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/AjaxRequest/jQuery/Light/"
+}
 
 Note that you can also use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
 
@@ -144,6 +146,6 @@ The **CustomStore** requires thorough configuration if data is processed on the 
 
 #####See Also#####
 - [Access the DataSource](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Access_the_DataSource/)
-- [DataGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/Angular/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/Angular/Light/)
 
 [tags]dataGrid, data grid, data binding, json, jsonp, callback parameter

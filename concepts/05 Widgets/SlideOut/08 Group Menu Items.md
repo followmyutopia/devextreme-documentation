@@ -47,7 +47,7 @@ In some cases, you may need to define a custom template for group headers, for e
 
 #####See Also#####
 - [SlideOut - Customize Menu Items](/Documentation/Guide/Widgets/SlideOut/Customize_Menu_Items)
-- [SlideOut Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
+- [SlideOut Demos](/Demos/WidgetsGallery/#demo/navigation-slideout-overview/ios7)
 - [SlideOut API Reference](/Documentation/ApiReference/UI_Widgets/dxSlideOut/)
 
 [tags]slide-out menu, slideOut, group appearance, customize, templates

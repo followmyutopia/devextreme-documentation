@@ -11,5 +11,7 @@ An object defining a series of the **doughnut** type.
 <!--fullDescription-->
 ![DoughnutSeriesType DonutSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/Doughnut.png)
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnut/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartschartsdoughnutseriesdoughnut/"
+}
 <!--/fullDescription-->

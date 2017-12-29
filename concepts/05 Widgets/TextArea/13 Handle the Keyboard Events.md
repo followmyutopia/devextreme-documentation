@@ -85,6 +85,6 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
 #include common-link-handleevents
 #include common-link-callmethods
 - [TextArea - Handle the Value Change Event](/Documentation/Guide/Widgets/TextArea/Handle_the_Value_Change_Event/)
-- [TextArea Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_area-overview)
+- [TextArea Demos](/Demos/WidgetsGallery/#demo/editors-text_area-overview)
 
 [tags]textArea, text area, editor, keyboard events, keyup, keydown, keypress, enterkey

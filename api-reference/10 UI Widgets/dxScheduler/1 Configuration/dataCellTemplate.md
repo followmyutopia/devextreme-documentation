@@ -16,7 +16,9 @@ In the **AngularJS approach**, if you need to access cell object fields within a
 
 [note]There is no **dataCellTemplate** in the [agenda](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View) view.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-cell_templates" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-cell_templates"
+}
 
 #####See Also#####
 - [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)

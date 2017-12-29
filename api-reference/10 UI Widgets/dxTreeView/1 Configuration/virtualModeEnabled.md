@@ -14,7 +14,9 @@ If the option is set to **true**, the widget initially loads only root items. Ch
 
 Use this option to improve the widget performance when working with a huge data source.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/VirtualMode/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_View/VirtualMode/jQuery/Light/"
+}
 
 #####See Also#####
 - [Enhance Performance on Large Datasets](/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/)

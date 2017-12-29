@@ -36,7 +36,7 @@ Finally, add some interactivity.
 - [Adaptive Layout](/Documentation/Guide/Widgets/Chart/Adaptive_Layout/)
 
 #####See Also#####
-- [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/LocalDataSource/jQuery/Light/)
+- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/LocalDataSource/jQuery/Light/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, overview

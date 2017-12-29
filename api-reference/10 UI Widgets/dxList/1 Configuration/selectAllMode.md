@@ -22,5 +22,7 @@ The **selectAllMode** specifies how records should be selected on clicking the "
 #####See Also#####
 - [List - Selection - User Interaction](/Documentation/Guide/Widgets/List/Selection/#User_Interaction)
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/"
+}
 <!--/fullDescription-->

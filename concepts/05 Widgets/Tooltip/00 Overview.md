@@ -1,6 +1,8 @@
 The **Tooltip** widget displays a tooltip for a specified element on the page.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-tooltip-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/dialogs_and_notifications-tooltip-overview"
+}
 
 The following code creates a simple **Tooltip** on your page and attaches it to another element (in this example, to an image).
 

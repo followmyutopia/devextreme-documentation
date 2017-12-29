@@ -11,7 +11,9 @@ A handler for the [cellPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGr
 <!--fullDescription-->
 The **cellPrepared** event fires after a cell has been rendered. When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the prepared cell.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridtemplatescellpreparedtemplate/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/datagridgridtemplatescellpreparedtemplate/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

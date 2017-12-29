@@ -92,7 +92,9 @@ To process a new **Lookup** value, you need to handle the value change event. If
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/EventHandling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Lookup/EventHandling/jQuery/Light/"
+}
 
 If you are going to change event handlers at runtime, or if you need to attach several handlers to the value change event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxLookup/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 

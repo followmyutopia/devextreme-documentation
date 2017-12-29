@@ -2,7 +2,7 @@ If you built your custom themes based on the [DevExtreme predefined themes](/Doc
 
 When you built your custom theme in a Theme Builder, you saved the differences from the base theme by using the **Export** feature to a file (there are instructions in the [Save the Changes](/Documentation/Guide/Themes/Theme_Builder/#Save_the_Changes) topic). Follow the steps below to apply these differences to the corresponding newly released base theme.
 
-- Open the [Theme Builder](http://js.devexpress.com/ThemeBuilder/).
+- Open the [Theme Builder](/ThemeBuilder/).
 
 - Press **Import**. Paste the differences that you saved in the JSON format (using the **Export** feature) to the invoked window. Click **Apply**.
 

@@ -7,7 +7,9 @@ Specifies [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/
 <!--/shortDescription-->
 
 <!--fullDescription-->
-<a href="/Demos/WidgetsGallery/Demo/DataGrid/DataValidation/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/DataValidation/jQuery/Light/"
+}
 
 #####See Also#####
 - [Data Validation](/Documentation/Guide/Widgets/{WidgetName}/Editing/#Data_Validation)

@@ -30,7 +30,7 @@ The **Popup** has two toolbars: top and bottom. Items on these toolbars can be p
 - [Popup - Customize the Content](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Content/)
 - [Popup - Customize the Title](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Title/)
 - [Popup - Color the Shading of the Background](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Color_the_Shading_of_the_Background/)
-- [Popup Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popup-overview)
+- [Popup Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popup-overview)
 - [Popup API Reference](/Documentation/ApiReference/UI_Widgets/dxPopup/)
 
 [tags]popup, overlay, customize, toolbar items, top toolbar, bottom toolbar

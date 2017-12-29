@@ -37,7 +37,9 @@ By default, the **ActionSheet** comes up from the bottom of the page. If you set
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Action_Sheet/PopoverMode/jQuery/iOS/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Action_Sheet/PopoverMode/jQuery/iOS/"
+}
 
 #####See Also#####
 - [ActionSheet - Customize Item Appearance](/Documentation/Guide/Widgets/ActionSheet/Customize_Item_Appearance/)

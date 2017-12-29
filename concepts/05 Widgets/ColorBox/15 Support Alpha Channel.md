@@ -37,7 +37,7 @@ By default, the **ColorBox** does _not_ allow an end user to control the transpa
 
 #####See Also#####
 - [ColorBox - Handle the Value Change Event](/Documentation/Guide/Widgets/ColorBox/Handle_the_Value_Change_Event)
-- [ColorBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-color_box-overview)
+- [ColorBox Demos](/Demos/WidgetsGallery/#demo/editors-color_box-overview)
 - [ColorBox API Reference](/Documentation/ApiReference/UI_Widgets/dxColorBox/)
 
 [tags]color box, colorBox, editor, transparency, alpha channel 

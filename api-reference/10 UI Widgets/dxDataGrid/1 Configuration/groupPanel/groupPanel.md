@@ -18,5 +18,7 @@ In case you need to show the group panel, but make it irresponsive, assign **fal
 - **grouping**.[contextMenuEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#contextMenuEnabled) - enables the user to group data using the context menu.
 - **columns[]**.[allowGrouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping) - disallows grouping for an individual column.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridgroupinglocaldatagrouping/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/datagridgridgroupinglocaldatagrouping/"
+}
 <!--/fullDescription-->

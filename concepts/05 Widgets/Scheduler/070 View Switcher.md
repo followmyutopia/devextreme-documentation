@@ -82,5 +82,5 @@ To use the drop-down menu on all types of devices, assign **true** to the [useDr
 
 #####See Also#####
 - [Scheduler - View Types](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/)
-- [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
+- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
 - [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)

@@ -162,6 +162,8 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 - [Scheduler - Views](/Documentation/Guide/Widgets/Scheduler/Views/)
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/"
+}
 <a href="http://www.youtube.com/watch?v=evabB5-rZZ8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=52" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 <!--/fullDescription-->

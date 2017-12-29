@@ -1,3 +1,5 @@
 DevExtreme comes with a set of predefined themes. Each theme is represented by CSS classes that are responsible for giving consistency to an application. Within the predefined themes, you will find those that are meant for your particular mobile platform. You can find the theme files in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 17.2\DevExtreme\Sources\Lib\css** by default. A folder with predefined themes is added to the application project templates as well.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Common/EditorsOverview/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Common/EditorsOverview/jQuery/Light/"
+}

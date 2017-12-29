@@ -83,7 +83,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [ColorBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-color_box-overview)
+- [ColorBox Demos](/Demos/WidgetsGallery/#demo/editors-color_box-overview)
 - [ColorBox API Reference](/Documentation/ApiReference/UI_Widgets/dxColorBox/)
 
 [tags]color box, colorBox, navigation, accessibility, keyboard shortcuts

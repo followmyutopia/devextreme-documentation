@@ -1,6 +1,8 @@
 The **ScrollView** is a widget that enables a user to scroll its content.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scrollview-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scrollview-overview"
+}
 
 The following code adds a simple **ScrollView** to your page. The [width](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#width) and [height](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#height) options specify the widget size. By default, the **ScrollView** allows a user to scroll its content vertically. To change this behavior, use the [direction](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#direction) option. Note that horizontal scrolling appears only if the content is wider than the **ScrollView**. Otherwise, the content adapts to the width of the **ScrollView**.
 

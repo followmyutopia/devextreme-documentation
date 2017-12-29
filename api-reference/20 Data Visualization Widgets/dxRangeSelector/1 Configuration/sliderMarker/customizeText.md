@@ -10,7 +10,9 @@ Specifies a callback function that returns the text to be displayed by slider ma
 <!--fullDescription-->
 When implementing a callback function for this property, use the value displayed in a slider marker. This value can be accessed using the fields of the object that is passed as the function's parameter. Alternatively, you can use the **this** object within the function. This object has the same structure as the object passed as a parameter.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Range_Selector/CustomFormatting/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Range_Selector/CustomFormatting/jQuery/Light/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

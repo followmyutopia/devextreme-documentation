@@ -12,7 +12,9 @@ This option accepts values from 0 to 1 excluding 0. The assigned value specifies
 
 [note]When adapting to the small screen or container size, the widget may ignore this option.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/CustomBarWidth/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/CustomBarWidth/jQuery/Light/"
+}
 
 #####See Also#####
 - **series**.[minBarSize](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#minBarSize) - sets the minimal possible height for bars in a bar-like series.

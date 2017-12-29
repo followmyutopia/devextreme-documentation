@@ -64,7 +64,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #include common-link-handleevents
 - [Calendar - Specify Zoom Level](/Documentation/Guide/Widgets/Calendar/Specify_Zoom_Level)
 - [Calendar - Customize Cell Appearance](/Documentation/Guide/Widgets/Calendar/Customize_Cell_Appearance)
-- [Calendar Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-calendar-overview)
+- [Calendar Demos](/Demos/WidgetsGallery/#demo/editors-calendar-overview)
 - [Calendar API Reference](/Documentation/ApiReference/UI_Widgets/dxCalendar/)
 
 [tags]calendar, editor, get value, set value

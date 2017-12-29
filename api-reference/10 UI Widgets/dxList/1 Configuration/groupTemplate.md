@@ -17,7 +17,9 @@ In AngularJS apps, a group's object and index extend the standard binding contex
 
 In Knockout apps, you can bind template elements directly to a group object's fields. Use the `$index` variable to get the item's index. Use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables if you need to access another binding context from the template. 
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/actionsandlistslistlistgroupedlist/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/actionsandlistslistlistgroupedlist/"
+}
 
 #####See Also#####
 - [Customize Group Headers](/Documentation/Guide/Widgets/List/Grouping/Customize_Group_Headers/)

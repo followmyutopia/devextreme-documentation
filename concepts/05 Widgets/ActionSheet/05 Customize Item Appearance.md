@@ -177,7 +177,7 @@ You can also customize an individual **ActionSheet** button. For this purpose, d
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
 
 #####See Also#####
-- [ActionSheet Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-action_sheet-overview/ios7)
+- [ActionSheet Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-action_sheet-overview/ios7)
 - [ActionSheet API Reference](/Documentation/ApiReference/UI_Widgets/dxActionSheet/)
 
 [tags]action sheet, actionSheet, item appearance, customize, templates, template, default item, default template

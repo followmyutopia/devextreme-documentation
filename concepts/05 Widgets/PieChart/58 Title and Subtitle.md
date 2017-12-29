@@ -46,7 +46,9 @@ The title is configured by the [title](/Documentation/ApiReference/Data_Visualiz
 
 ---
 
-<a href='/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithMultipleSeries/jQuery/Light/"
+}
 
 You can set the title's text more concisely by assigning it directly to the **title** option. This is useful if you are satisfied with the default settings of the title and do not need a subtitle. 
 

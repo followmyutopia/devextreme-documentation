@@ -53,7 +53,9 @@ To bind the **Chart** to an array, pass this array to the [dataSource](/Document
 
 After that, you need to bind one or several **Chart** series to data. Depending on the [series type](/Documentation/Guide/Widgets/Chart/Series_Types/) you chose, use one of the techniques described in the [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/) topic.
 
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/LocalDataSource/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/LocalDataSource/jQuery/Light/"
+}
 
 If objects in an array need to be processed (sorted, filtered, etc.), you can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept). For example, in the following code, a Query sorts objects in the `fruits` array by the `count` field in descending order.
 

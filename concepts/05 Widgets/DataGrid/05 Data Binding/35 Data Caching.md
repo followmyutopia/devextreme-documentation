@@ -75,6 +75,6 @@ If your data source changes frequently, disable caching by assigning **false** t
 #####See Also#####
 #include common-link-callmethods
 - [DataGrid - Access the DataSource](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Access_the_DataSource/)
-- [DataGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/LocalDataSource/jQuery/Light/)
 
 [tags] dataGrid, data grid, caching, cache, enable caching, cacheEnabled

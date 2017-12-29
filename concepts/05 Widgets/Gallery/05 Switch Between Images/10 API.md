@@ -110,5 +110,5 @@ To navigate to a specific image, call the [goToItem(itemIndex, animation)](/Docu
 ---
 
 #####See Also#####
-- [Gallery Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview)
+- [Gallery Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-gallery-overview)
 - [Gallery API Reference](/Documentation/ApiReference/UI_Widgets/dxGallery/)

@@ -128,7 +128,7 @@ Items that contain a widget should have the [widget](/Documentation/ApiReference
 #####See Also#####
 - [Toolbar - Specify Item Location](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Location)
 - [Toolbar - Customize Item Appearance](/Documentation/Guide/Widgets/Toolbar/Customize_Item_Appearance)
-- [Toolbar Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-toolbar-overview)
+- [Toolbar Demos](/Demos/WidgetsGallery/#demo/navigation-toolbar-overview)
 - [Toolbar API Reference](/Documentation/ApiReference/UI_Widgets/dxToolbar/)
 
 [tags]toolbar, type, item type, widget item

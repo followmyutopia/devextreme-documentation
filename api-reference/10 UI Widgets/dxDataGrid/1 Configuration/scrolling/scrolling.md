@@ -9,7 +9,9 @@ Configures scrolling.
 <!--fullDescription-->
 Scrolling allows a user to browse data left outside the current viewport. The widget provides several scrolling modes detailed in the [mode]({basewidgetpath}/Configuration/scrolling/#mode) option description.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/jQuery/Light/"
+}
 
 #####See Also#####
 - [Scrolling](/Documentation/Guide/Widgets/DataGrid/Scrolling/)

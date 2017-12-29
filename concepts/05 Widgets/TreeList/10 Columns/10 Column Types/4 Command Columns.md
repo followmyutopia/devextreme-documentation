@@ -118,6 +118,6 @@ You can also customize cells of command columns using the [onCellPrepared](/Docu
 ---
 
 #####See Also#####
-- [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/Adaptability/jQuery/Light/)
+- [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/Adaptability/jQuery/Light/)
 
 [tags] treelist, tree list, column types, command columns, editing column, adaptive column

@@ -75,6 +75,6 @@ Implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/)
 
 #####See Also#####
 - [Access the DataSource](/Documentation/Guide/Widgets/SelectBox/Data_Binding/Access_the_DataSource/)
-- [SelectBox Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/Overview/jQuery/Light/)
+- [SelectBox Demos](/Demos/WidgetsGallery/Demo/Select_Box/Overview/jQuery/Light/)
 
 [tags]selectBox, data binding, provide data, json, jsonp

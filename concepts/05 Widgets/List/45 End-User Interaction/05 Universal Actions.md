@@ -71,7 +71,7 @@ The **List** supports other universal actions, which are provided as a part of b
 - [Item Deletion - Handle Related Events](/Documentation/Guide/Widgets/List/Item_Deletion/#Events)
 
 #####See Also#####
-- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
+- [List Demos](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 
 [tags]list, item click, onItemClick

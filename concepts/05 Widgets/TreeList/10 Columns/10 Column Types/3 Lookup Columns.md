@@ -120,6 +120,6 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
 
 #####See Also#####
 - [lookup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/)
-- [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/UsingFilterRow/jQuery/Light/)
+- [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/UsingFilterRow/jQuery/Light/)
 
 [tags] treelist, tree list, column types, lookup columns

@@ -67,7 +67,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 
 #####See Also#####
 #include common-link-callmethods
-- [NavBar Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7)
+- [NavBar Demos](/Demos/WidgetsGallery/#demo/navigation-navbar-overview/ios7)
 - [NavBar API Reference](/Documentation/ApiReference/UI_Widgets/dxNavBar/)
 
 [tags]nav bar, navBar, navigation bar, accessibility, keyboard shortcuts

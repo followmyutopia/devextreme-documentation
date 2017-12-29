@@ -1,6 +1,8 @@
 The **Pivot** provides a quick way to manage multiple views. It includes a collection of views and a navigation header. An end user switches the views by swiping them or by clicking their titles on the navigation header. This widget is very useful for presenting categorized lists.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-pivot-overview/ios7" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/navigation-pivot-overview/ios7"
+}
 
 The following code adds a primitive **Pivot** widget to your page.
 

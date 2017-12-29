@@ -250,6 +250,6 @@ Assign **false** to the [searchEnabled](/Documentation/ApiReference/UI_Widgets/d
 #####See Also#####
 - [Lookup - Enable Grouping](/Documentation/Guide/Widgets/Lookup/Enable_Grouping/)
 - [Lookup - Enable Paging](/Documentation/Guide/Widgets/Lookup/Enable_Paging/)
-- [Lookup Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Basics/)
+- [Lookup Demos](/Demos/WidgetsGallery/Demo/Lookup/Basics/)
 
 [tags]lookup, search, search mode, time interval, min search length, disable searching, placeholder, clean search parameters, searchExpr

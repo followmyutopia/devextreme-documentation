@@ -36,5 +36,7 @@ The projection.
 <!--fullDescription-->
 After creating the custom projection, you can [add it to the projections storage](/Documentation/ApiReference/Common/Utils/viz/map/Methods/#addname_projection) or assign the returning object to the [projection](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#projection) option of the  widget.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-vector_map-custom_projection/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/maps-vector_map-custom_projection/"
+}
 <!--/fullDescription-->

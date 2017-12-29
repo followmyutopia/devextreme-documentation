@@ -1,6 +1,8 @@
 Timeline views display appointments on a horizontal timeline. The **Scheduler** widget arranges appointments from left to right. If their time intervals overlap, the width of appointments is decreased and they are placed alongside or under each other.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Timelines/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/Timelines/jQuery/Light/"
+}
 
 The **Scheduler** widget supports the following timeline views.
 

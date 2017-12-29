@@ -18,5 +18,7 @@ Alternatively, error bar values can be calculated according to an algorithm. In 
 
 [note]Error bars are available for axes of the numeric [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#type) only.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureserorrbar/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureserorrbar/"
+}
 <!--/fullDescription-->

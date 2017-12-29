@@ -33,7 +33,9 @@ In the **AngularJS approach**, if you need to access the item object's fields wi
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Lookup/Templates/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Lookup/Templates/jQuery/Light/"
+}
 
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)

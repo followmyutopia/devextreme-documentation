@@ -30,4 +30,4 @@ The widget has the rich UI that provides the following end-user capabilities:
 - [Master-Detail Interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/)
 
 #####See Also#####
-- [DataGrid Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/jQuery/Light/)
+- [DataGrid Demos](/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/jQuery/Light/)

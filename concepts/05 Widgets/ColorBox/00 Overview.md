@@ -1,6 +1,8 @@
 The **ColorBox** is a widget that allows an end user to enter a color or pick it out from the drop-down editor.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-color_box-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/editors-color_box-overview"
+}
 
 The following code adds a simple **ColorBox** to your page.
 

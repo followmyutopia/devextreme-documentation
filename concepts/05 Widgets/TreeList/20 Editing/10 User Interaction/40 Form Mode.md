@@ -144,4 +144,6 @@ The form contains only the editable fields, or "simple items" (as they are calle
 
 See the topics in the [Organize Simple Items](/Documentation/Guide/Widgets/Form/Organize_Simple_Items) section for more information on organizing simple items on the form. You can also specify other **Form** widget options in the **editing**.**form** object to configure the editing form. Refer to the [Form Guides](/Documentation/Guide/Widgets/Form/) for more information.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/FormEditing/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/FormEditing/jQuery/Light/"
+}

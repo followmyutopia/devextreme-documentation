@@ -90,7 +90,7 @@ To invert both argument and value axes, assign **true** to the [inverted](/Docum
 ---
 
 #####See Also#####
-- [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/)
+- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, rotate, invert, mirror

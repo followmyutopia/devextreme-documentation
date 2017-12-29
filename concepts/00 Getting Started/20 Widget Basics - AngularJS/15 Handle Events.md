@@ -19,7 +19,9 @@ You can subscribe to an event using a configuration option. All event handling o
         }
     }
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Menu/Overview/AngularJS/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/AngularJS/Light/"
+}
 
 #####See Also#####
 - [API Reference](/Documentation/ApiReference).**WidgetName**.**Events**

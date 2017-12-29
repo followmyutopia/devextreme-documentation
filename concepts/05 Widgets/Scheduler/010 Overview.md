@@ -1,6 +1,8 @@
 The **Scheduler** is a widget that represents scheduled data and allows a user to manage it.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/"
+}
 
 The following code adds the **Scheduler** widget to your page. The simplest configuration requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#dataSource) to be specified. In addition, you can define a date that should be displayed by default using the [currentDate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentDate) option.
 
@@ -155,7 +157,7 @@ If your appointments have a different structure, specify:
 - [Scheduler - Views](/Documentation/Guide/Widgets/Scheduler/Views/)
 - [Scheduler - View Switcher](/Documentation/Guide/Widgets/Scheduler/View_Switcher/)
 - [Scheduler - Keyboard Support](/Documentation/Guide/Widgets/Scheduler/Keyboard_Support/)
-- [Scheduler Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
+- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
 - [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
 
 [tags]scheduler, overview, default template, textExpr, startDateExpr, endDateExpr

@@ -20,8 +20,8 @@ In Knockout apps, you can bind template elements directly to a group object's fi
 #####See Also#####
 - [template](/Documentation/ApiReference/Common/Object_Structures/template/)
 - [Angular - Custom Templates](https://github.com/DevExpress/devextreme-angular#custom-templates)
-- [SelectBox - Grouped Items Demo](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/jQuery/Light/)
-- [TagBox - Grouped Items Demo](http://js.devexpress.com/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/jQuery/Light/)
+- [SelectBox - Grouped Items Demo](/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/jQuery/Light/)
+- [TagBox - Grouped Items Demo](/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/jQuery/Light/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

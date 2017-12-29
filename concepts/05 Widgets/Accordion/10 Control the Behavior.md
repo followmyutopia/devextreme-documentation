@@ -39,7 +39,7 @@ By default, exactly one panel can be in the expanded state at one moment. To cha
 ---
 
 #####See Also#####
-- [Accordion Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-accordion-overview)
+- [Accordion Demos](/Demos/WidgetsGallery/#demo/navigation-accordion-overview)
 - [Accordion API Reference](/Documentation/ApiReference/UI_Widgets/dxAccordion/)
 
 [tags]accordion, behavior, collapse, expand, multiple

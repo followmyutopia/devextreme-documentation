@@ -18,7 +18,9 @@ You can subscribe to an event using a configuration option. All event handling o
 
     ko.applyBindings(viewModel);
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Menu/Overview/Knockout/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/Knockout/Light/"
+}
 
 #####See Also#####
 - [API Reference](/Documentation/ApiReference).**WidgetName**.**Events**

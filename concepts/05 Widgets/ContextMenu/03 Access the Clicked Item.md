@@ -63,7 +63,7 @@ If you are going to change event handlers at runtime, or if you need to attach s
 #include common-link-handleevents
 - [ContextMenu - Customize Item Appearance](/Documentation/Guide/Widgets/ContextMenu/Customize_Item_Appearance)
 - [ContextMenu - Open and Close](/Documentation/Guide/Widgets/ContextMenu/Open_and_Close_the_Context_Menu/)
-- [ContextMenu Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-context_menu-overview)
+- [ContextMenu Demos](/Demos/WidgetsGallery/#demo/actions_and_lists-context_menu-overview)
 - [ContextMenu API Reference](/Documentation/ApiReference/UI_Widgets/dxContextMenu/)
 
 [tags]context menu, contextMenu, access the clicked item, onItemClick, itemClick

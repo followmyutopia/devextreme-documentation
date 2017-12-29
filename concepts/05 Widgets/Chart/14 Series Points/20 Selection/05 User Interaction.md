@@ -130,7 +130,9 @@ To choose which elements should be highlighted when a user selects a point, spec
 
 ---
 
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Selection/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/Selection/jQuery/Light/"
+}
 
 By default, only a single point can be in the selected state at a time. If you need to allow multiple points to be in this state, assign *"multiple"* to the [pointSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#pointSelectionMode) option.
 
@@ -167,7 +169,9 @@ By default, only a single point can be in the selected state at a time. If you n
 
 ---
 
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/MultiplePointSelection/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePointSelection/jQuery/Light/"
+}
 
 #####See Also#####
 - [Series Selection - User Interaction](/Documentation/Guide/Widgets/Chart/Series/Selection/#User_Interaction)

@@ -9,7 +9,9 @@ Ajax upload. Files are uploaded after a user clicks the **Upload** button.
 - *"useForm"*  
 HTML form upload. Files are uploaded when the HTML form is submitted.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/File_Uploader/FileUploading/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/File_Uploader/FileUploading/jQuery/Light/"
+}
 
 [note]Because Internet Explorer 9 does not support the [FormData](https://developer.mozilla.org/en/docs/Web/API/FormData) interface, you can only upload files using the HTML form in this browser.
 

@@ -1,6 +1,8 @@
 The **Map** is an interactive widget that displays a geographic map with markers and routes.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/maps-map-providers_and_types" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/maps-map-providers_and_types"
+}
 
 The code below adds the **Map** widget to your page. The **Map** is [centered](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/center/) and [zoomed](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#zoom) and supplied with [controls](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#controls) that allow a user to [zoom and navigate](/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/) the **Map** or [change its type](/Documentation/Guide/Widgets/Map/Specify_the_Provider_and_Type/).
 

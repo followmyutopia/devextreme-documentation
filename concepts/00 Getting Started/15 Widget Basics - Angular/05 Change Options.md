@@ -10,7 +10,9 @@ All operations with widget options are carried out through the properties of the
 
 Now, if you change the `textBoxValue` component property in code, the **TextBox** text will mirror the changes. And vice versa, if an end user changes **TextBox** in the UI, the `textBoxValue` component property will be updated.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Text_Box/Overview/Angular/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Text_Box/Overview/Angular/Light/"
+}
 
 #####See Also#####
 - [API Reference](/Documentation/ApiReference/).**WidgetName**.**Configuration**

@@ -106,7 +106,9 @@ When data in the **List** is [paginated](/Documentation/Guide/Widgets/List/Pagin
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/"
+}
 
 #####See Also#####
 - [Widget Basics - Create and Configure a Widget](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)

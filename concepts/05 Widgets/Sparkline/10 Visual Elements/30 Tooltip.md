@@ -39,4 +39,6 @@ You can change the visibility, color, width and other settings of the tooltip bo
 * **Shadow**		
 The tooltip is displayed casting a small shadow. To specify its blurriness, opacity, color and other settings, use [shadow](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/tooltip/shadow/) object fields.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/charts-sparklines-simple_sparklines" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/charts-sparklines-simple_sparklines"
+}

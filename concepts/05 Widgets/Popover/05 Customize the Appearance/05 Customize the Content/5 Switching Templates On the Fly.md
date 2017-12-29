@@ -125,4 +125,4 @@ If you need to render different templates depending on a specific condition, def
 - [ASP.NET MVC Controls - Implementing Templates](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Implementing_Templates)
 - [Popover - Customize the Title](/Documentation/Guide/Widgets/Popover/Customize_the_Appearance/Customize_the_Title/)
 - [Popover - Specify Toolbar Items](/Documentation/Guide/Widgets/Popover/Customize_the_Appearance/Specify_Toolbar_Items/)
-- [Popover Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popover-overview)
+- [Popover Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popover-overview)

@@ -57,7 +57,9 @@ Frequently, the **id** of an item is also its **text**. In this case, set both t
         });
     });
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_View/FlatDataStructure/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_View/FlatDataStructure/jQuery/Light/"
+}
 
 #####See Also#####
 - [TreeView - Use Hierarchical Data](/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data)

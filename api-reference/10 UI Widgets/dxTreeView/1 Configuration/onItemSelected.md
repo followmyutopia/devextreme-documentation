@@ -16,7 +16,9 @@ A handler for the [itemSelected](/Documentation/ApiReference/UI_Widgets/dxTreeVi
 <!--fullDescription-->
 Assign a function to perform a custom action when a tree view item is selected.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigationtreeviewtreeviewselectionandcustomization/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/navigationtreeviewtreeviewselectionandcustomization/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

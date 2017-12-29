@@ -44,7 +44,9 @@ To set up this layout, describe the hierarchy of columns directly in an object o
     
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/MultiRowHeadersBands/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/MultiRowHeadersBands/jQuery/Light/"
+}
 
 If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeColumns) function to configure columns, the hierarchy cannot be described declaratively. To band columns in this case, use the [isBand](/Documentation//ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#isBand) and [ownerBand](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#ownerBand) options. Using the same options, you can distinguish band and nested columns from other columns in code.
 

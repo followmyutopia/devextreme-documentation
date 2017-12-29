@@ -1,6 +1,8 @@
 The **TextBox** is a widget that enables a user to enter and edit a single line of text.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-text_box-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/editors-text_box-overview"
+}
 
 The following code adds a simple **TextBox** with a [placeholder](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#placeholder) to your page.
 

@@ -17,7 +17,9 @@ To handle an event, use a configuration option. All event handling options are g
         }
     }
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Button/Icons/Angular/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Button/Icons/Angular/Light/"
+}
 
 #####See Also#####
 - [API Reference](/Documentation/ApiReference/).**WidgetName**.**Events**

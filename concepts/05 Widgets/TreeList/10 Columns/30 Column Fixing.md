@@ -85,7 +85,9 @@ If a column should be fixed initially, assign **true** to its [fixed](/Documenta
 
 Since column fixing is effective only with horizontal scrolling, using it makes sense only if the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#columnAutoWidth) option is **false** and when the total width of columns exceeds the container width. Otherwise, fixed columns behave just like regular ones.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/ColumnFixing/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/ColumnFixing/jQuery/Light/"
+}
 
 #####See Also#####
 - [Adaptability](/Documentation/Guide/Widgets/TreeList/Columns/Adaptability/)

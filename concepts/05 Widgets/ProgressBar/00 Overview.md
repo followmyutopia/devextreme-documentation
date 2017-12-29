@@ -1,6 +1,8 @@
 The **ProgressBar** is a widget that shows current progress.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-progress_bar-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/dialogs_and_notifications-progress_bar-overview"
+}
 
 The following code adds a simple **ProgressBar** to your page. The **value** option specifies the current value. The **min** and **max** options limit the range of accepted values. The progress is measured in percentages and calculated by the following formula: `(value / max) * 100`. If the current progress is unknown yet, set the **value** option to **false**.
 

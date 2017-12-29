@@ -95,6 +95,6 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 
 #####See Also#####
 - [Data Layer - Data Source Examples | OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
-- [TreeList Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)
+- [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)
 
 [tags]treeList, data binding, provide data, odata, ODataStore, DataSource, process data

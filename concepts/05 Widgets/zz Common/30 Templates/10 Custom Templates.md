@@ -92,7 +92,9 @@ DevExtreme provides the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Mark
 
 ---
 
-<a href="/Demos/WidgetsGallery/Demo/List/ItemTemplate/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/List/ItemTemplate/jQuery/Light/"
+}
 
 You can define custom templates for individual items in<a name="In_Collection_Widgets" style="position: relative; top: -120px;">&nbsp;</a>collection widgets. In Angular, AngularJS, and Knockout apps, declare the items using the [dxItem](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxItem/) component as shown in the following code. Do not set the widget's **dataSource** option. To do the same with jQuery, assign a function combining the HTML markup to a data source object's **template** option.
 

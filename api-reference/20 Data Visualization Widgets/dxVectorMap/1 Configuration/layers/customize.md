@@ -25,7 +25,9 @@ Only the following options can be changed in the **customize** function.
 - [selectedColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#selectedColor)
 - [size](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#size)
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/jQuery/Light/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->elements<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Array<MapLayerElement><!--/typeFunctionParamType1-->

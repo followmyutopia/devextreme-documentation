@@ -12,5 +12,7 @@ Consider making selection deferred if the widget needs to operate a large volume
 
 [note]Deferred selection is unsupported when [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#selectAllMode) is *'page'*.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/DeferredSelection/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a> 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/DeferredSelection/jQuery/Light/"
+} 
 <!--/fullDescription-->

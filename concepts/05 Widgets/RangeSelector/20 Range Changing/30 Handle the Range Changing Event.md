@@ -2,5 +2,5 @@
 
 The function assigned to the **onValueChanged** option can be called either when moving a slider or after the movement has been completed. To specify when the **onValueChanged** function should be called, use the **behavior**.[callValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged) option. 
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Range_Selector/UseRangeSelectionForCalculation/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Use Range Selection for Calculation Demo</a>
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Range_Selector/UseRangeSelectionForFiltering/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Use Range Selection for Filtering Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Range_Selector/UseRangeSelectionForCalculation/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Use Range Selection for Calculation Demo</a>
+<a href="/Demos/WidgetsGallery/Demo/Range_Selector/UseRangeSelectionForFiltering/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Use Range Selection for Filtering Demo</a>

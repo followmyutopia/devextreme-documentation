@@ -49,7 +49,9 @@ In addition, you can change the layout direction. For this purpose, use the [lay
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `TreeMapLayoutAlgorithm` enum. This enum accepts the following values: `Squarified`, `Strip` and `SliceAndDice`.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/TilingAlgorithms/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/TilingAlgorithms/jQuery/Light/"
+}
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

@@ -13,7 +13,9 @@ A header filter allows a user to filter values in an individual column by includ
 
 To make header filter icons visible, assign **true** to the **headerFilter**.[visible]({basewidgetpath}/Configuration/headerFilter/#visible) option. Data in the popup menu can be customized using the [headerFilter]({basewidgetpath}/Configuration/columns/headerFilter/) option of a specific column.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/{WidgetName}/Filtering/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/Filtering/jQuery/Light/"
+}
 
 #####See Also#####
 - [Header Filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter)

@@ -136,6 +136,8 @@ Note that DevExtreme widgets require you to link the jQuery library to your appl
 - [DataGrid - Data Binding](/Documentation/Guide/Widgets/DataGrid/Data_Binding/)
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 
-<a href="http://js.devexpress.com/Demos/DataGridGallery/#chart/datagridspagingandscrollingpager" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/DataGridGallery/#chart/datagridspagingandscrollingpager"
+}
 <a href="http://www.youtube.com/watch?v=KJpS2Iwrrg8&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=5" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 <!--/fullDescription-->

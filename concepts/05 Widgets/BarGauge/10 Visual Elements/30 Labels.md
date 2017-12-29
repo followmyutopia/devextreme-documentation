@@ -21,4 +21,6 @@ You can specify a [format](/Documentation/ApiReference/Data_Visualization_Widget
 - **Appearance**	
 The font style used for displaying the label text can be varied using [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/font/) configuration object options. Also, the width and color of the label's connector can be changed using the [connectorColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#connectorColor) and [connectorWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#connectorWidth) options respectively. In addition, bar labels can be indented from the upper bar using the [indent](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/label/#indent) option.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/gaugesbargaugesbargaugebasicelementslabelscustomization/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/gaugesbargaugesbargaugebasicelementslabelscustomization/"
+}

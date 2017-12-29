@@ -41,7 +41,9 @@ Labels are located beside their series points by default. Change the **series**.
 
 ---
 
-<a href='/Demos/WidgetsGallery/Demo/Charts/PieWithCustomLabels/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/PieWithCustomLabels/jQuery/Light/"
+}
 
 #####See Also#####
 - [Resolve Label Overlapping](/Documentation/Guide/Widgets/PieChart/Point_Labels/Resolve_Overlapping/)

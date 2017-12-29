@@ -22,5 +22,7 @@ In order to apply a palette to a map, follow the next steps.
 - Use the **paletteSize** option to define how many colors should be produced from the palette or array specified in the previous step.
 - Specify the index of the color from the colors array, which should be used for coloring an area, using the **paletteIndex** field of the object returned by the [customize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#customize) callback function.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormappalette/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormappalette/"
+}
 <!--/fullDescription-->

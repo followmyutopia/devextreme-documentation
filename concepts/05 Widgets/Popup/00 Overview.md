@@ -1,6 +1,8 @@
 The **Popup** widget is a pop-up window overlaying the current view. 
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popup-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popup-overview"
+}
 
 The following code adds a simple **Popup** to your page, along with a [Button](/Documentation/Guide/Widgets/Button/Overview/) that invokes it. The simplest configuration of the **Popup** requires the content and [title](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#title) to be specified. 
 

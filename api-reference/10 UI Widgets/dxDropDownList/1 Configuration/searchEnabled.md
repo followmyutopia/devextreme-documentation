@@ -8,7 +8,9 @@ Specifies whether to allow searching.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-<a href="/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Select_Box/SearchAndEditing/jQuery/Light/"
+}
 
 #####See Also#####
 - [Configure Search Parameters](/Documentation/Guide/Widgets/{WidgetName}/Configure_Search_Parameters/)

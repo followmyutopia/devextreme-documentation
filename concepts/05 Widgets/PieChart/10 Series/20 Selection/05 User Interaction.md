@@ -113,4 +113,6 @@ Only a single point can be in the selected state at a time by default. If you ne
 
 ---
 
-<a href='https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/DoughnutSelection/jQuery/Light/' class='button orange small fix-width-155' target='_blank'>View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/DoughnutSelection/jQuery/Light/"
+}

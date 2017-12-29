@@ -20,5 +20,7 @@ If you have provided data for area labels, enable them on your map by assigning 
 
 In addition, you can change the appearance of area labels using the **label**.[font](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/label/font/) object.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/mapsvectormapvectormapareawithlabelandtwolegend/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapareawithlabelandtwolegend/"
+}
 <!--/fullDescription-->

@@ -11,5 +11,7 @@ Substitutes the [standard point symbols](/Documentation/ApiReference/Data_Visual
 <!--fullDescription-->
 To display an image instead of series points, assign its URL to the **url** option. If needed, resize the image using the **height** and **width** options. Otherwise, you can assign the URL directly to the **image** option.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturespointimage/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturespointimage/"
+}
 <!--/fullDescription-->

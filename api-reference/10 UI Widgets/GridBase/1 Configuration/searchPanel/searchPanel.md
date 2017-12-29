@@ -13,7 +13,9 @@ The search panel allows searching for values in several columns at once. The wid
 
 To make the search panel visible, set the **searchPanel**.[visible]({basewidgetpath}/Configuration/searchPanel/#visible) option to **true**.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Data_Grid/Filtering/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/Filtering/jQuery/Light/"
+}
 
 #####See Also#####
 - [Search Panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel)

@@ -55,4 +55,6 @@ Use the **editing**.[popup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Co
 
 Since the popup and form modes are very similar, you can use the same **columns**.[formItem](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#formItem) and **editing**.[form](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#form) options to customize items and layout in both modes. See the [Form Mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Form_Mode) topic for more details on form customization.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/jQuery/Light/" class="button orange small fix-width-155" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/jQuery/Light/"
+}

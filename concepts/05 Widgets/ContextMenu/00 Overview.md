@@ -1,6 +1,8 @@
 The **ContextMenu** widget displays a single- or multi-level context menu. An end user invokes this menu by a right click or a long press.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/actions_and_lists-context_menu-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/actions_and_lists-context_menu-overview"
+}
 
 The following code adds the **ContextMenu** widget to your page and binds it to an image using the [target](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#target) option. Note that the data source of the widget declares several nesting levels. Items in the resulting context menu mirror this structure.
 

@@ -10,7 +10,9 @@ Specifies whether all bars should have equal width, even if some values are miss
 <!--fullDescription-->
 If a value in a series equals to zero or is undefined, the bar visualizing this value will not be displayed on the chart making an empty space. If you need to fill this space by extending the neighbouring bars, set the **equalBarWidth** option to **false**.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/AutoCalculatedBarWidth/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/AutoCalculatedBarWidth/jQuery/Light/"
+}
 
 #####See Also#####
 - [barWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#barWidth) - controls the width of bars when **equalBarWidth** is **true**.

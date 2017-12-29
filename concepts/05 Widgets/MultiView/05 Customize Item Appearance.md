@@ -151,7 +151,7 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 #####See Also#####
 - [MultiView - Switch Between Views](/Documentation/Guide/Widgets/MultiView/Switch_Between_Views/)
 - [MultiView - Loop the Views](/Documentation/Guide/Widgets/MultiView/Loop_the_Views/)
-- [MultiView Demos](http://js.devexpress.com/Demos/WidgetsGallery/#demo/navigation-multi_view-overview)
+- [MultiView Demos](/Demos/WidgetsGallery/#demo/navigation-multi_view-overview)
 - [MultiView API Reference](/Documentation/ApiReference/UI_Widgets/dxMultiView/)
 
 [tags]multi view, multiView, item appearance, customize, templates, template, custom template

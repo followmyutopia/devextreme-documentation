@@ -85,7 +85,7 @@ In addition to the **text** field, the **title** object may contain fields that 
 #####See Also#####
 - [Chart Title and Subtitle](/Documentation/Guide/Widgets/Chart/Title_and_Subtitle/)
 - [Limit and Relocate the Axes](/Documentation/Guide/Widgets/Chart/Axes/Limit_and_Relocate_the_Axes/)
-- [Chart Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Bubble/jQuery/Light/)
+- [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/Bubble/jQuery/Light/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, axis titles, title font, title margin

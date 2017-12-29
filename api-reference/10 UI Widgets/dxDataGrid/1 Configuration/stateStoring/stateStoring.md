@@ -13,5 +13,7 @@ At runtime, end-users may adjust user interface settings to their needs. By defa
 
 **DataGrid** provides the [state](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#state) method to operate the grid state in code. Call this method without arguments to obtain the grid state. When you need to set the grid state, call this method with the state object as its argument. You can also return the widget to its default state by calling the [state](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#state) method with the empty array or **null** argument.
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridstatepersistencestatepersistence/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/datagridgridstatepersistencestatepersistence/"
+}
 <!--/fullDescription-->

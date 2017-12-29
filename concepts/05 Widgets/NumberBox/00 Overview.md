@@ -1,6 +1,8 @@
 The **NumberBox** is a widget that displays a numeric value and allows a user to modify it by typing in a value, and incrementing or decrementing it using the keyboard or mouse.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/#demo/editors-number_box-overview" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/editors-number_box-overview"
+}
 
 The following code adds the **NumberBox** to your page. The simplest configuration of the widget requires only a [value](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#value) to be specified. In addition, you can specify the [placeholder](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#placeholder) to be displayed when the number box is empty.
 

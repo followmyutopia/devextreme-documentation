@@ -127,6 +127,6 @@ If you need to position the **Popover** against a certain side of the [target el
 #####See Also#####
 - [Popover - Show and Hide the Popover](/Documentation/Guide/Widgets/Popover/Show_and_Hide_the_Popover/)
 - [Popover - Customize the Content](/Documentation/Guide/Widgets/Popover/Customize_the_Appearance/Customize_the_Content/)
-- [Popover Demos](https://js.devexpress.com/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popover-overview)
+- [Popover Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-popover-overview)
 
 [tags]popover, overlay, size, height, width, position

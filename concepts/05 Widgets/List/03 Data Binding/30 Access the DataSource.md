@@ -34,7 +34,7 @@ Now, you can call [any method](/Documentation/ApiReference/Data_Layer/DataSource
 
 #####See Also#####
 - [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
-- [List Demos](https://js.devexpress.com/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
+- [List Demos](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
 - [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 
 [tags]list, data binding, access data source, getDataSource, reload data

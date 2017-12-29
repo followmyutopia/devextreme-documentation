@@ -55,5 +55,7 @@ The function passed to this option should take on the screen width as a paramete
 
 ---
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/jQuery/Light/"
+}
 <!--/fullDescription-->

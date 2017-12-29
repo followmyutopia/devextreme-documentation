@@ -111,7 +111,7 @@ Financial series gauge price reduction by comparing the values of two neighborin
 
 See the [CandleStickSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/CandleStickSeries/) and [StockSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/) API Reference sections for a full list of options available to a financial series.
 
-<a href="https://js.devexpress.com/Demos/WidgetsGallery/Demo/Charts/Stock/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Financial Series Demos</a>
+<a href="/Demos/WidgetsGallery/Demo/Charts/Stock/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Financial Series Demos</a>
 
 #####See Also#####
 - [Series](/Documentation/Guide/Widgets/Chart/Series/Overview/)

@@ -13,7 +13,9 @@ When paging is on, you can specify the size of grid pages using the [pageSize](/
 
 A paginated grid can be navigated by a user at runtime. For this purpose, he or she can use a [pager](/Documentation/Guide/Widgets/DataGrid/Paging/#User_Interaction) or [scrolling](/Documentation/Guide/Widgets/DataGrid/Scrolling/).
 
-<a href="http://js.devexpress.com/Demos/WidgetsGallery/#demo/datagridgridpagingandscrollingpager/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/datagridgridpagingandscrollingpager/"
+}
 
 #####See Also#####
 - [Paging](/Documentation/Guide/Widgets/DataGrid/Paging/)
