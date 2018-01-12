@@ -4,23 +4,18 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering table cells.
+Specifies a custom template for table cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A binding context of a cell template is the object that corresponds to the currently rendered table cell.
-
-So, in **Knockout approach**, you can bind template elements to the cell object fields. To access another binding context within a template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
-
-In **AngularJS approach**, if you need to access cell object fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, the fields of cell object  are unavailable. To access another binding context within a table cell template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
-
-[note]There is no **dataCellTemplate** in the [agenda](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View) view.
+[note] There is no **dataCellTemplate** in the [agenda](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/#Agenda_View) view.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-cell_templates"
 }
 
 #####See Also#####
+- [Customize Individual Views](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/)
 - [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->

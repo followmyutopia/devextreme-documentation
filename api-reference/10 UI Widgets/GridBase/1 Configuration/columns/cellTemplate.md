@@ -7,9 +7,7 @@ Specifies a custom template for column cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use this option to specify completely custom markup for column cells. See [template](/Documentation/ApiReference/Common/Object_Structures/template/) for information on what this option accepts.
-
-Below is the list of fields passed as the **cellInfo** object.
+The **cellInfo** object has the following fields:
 
 - **data**: <font size="-1">Object</font>        
 The data of the row to which the cell belongs.
@@ -30,18 +28,6 @@ The settings of the column to which the cell belongs.
 - **rowType**: <font size="-1">String</font>        
 The type of the row to which the cell belongs. Equals *"data"* for ordinary rows or *"group"* for group rows.
 
-It is also possible to define the template using the following template engines. You can access the aforementioned cell settings inside the template in a similar manner.
-
-- [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)        
-- [JsRender](https://github.com/BorisMoore/jsrender)        
-- [Mustache](http://mustache.github.io/)
-- [Hogan](http://twitter.github.io/hogan.js/)
-- [Underscore](http://underscorejs.org/)
-- [Handlebars](http://handlebarsjs.com/)
-- [doT](http://olado.github.io/doT/index.html)
-
-When you use a template engine, the **cellTemplate** option should be given a jQuery object or a DOM node representing the template's container, or a function that returns either of them.
-
 [note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to **false**.
 
 <a href="/Demos/WidgetsGallery/Demo/Data_Grid/ColumnTemplate/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 5px;" target="_blank">View Function Template Demo</a>
@@ -49,6 +35,7 @@ When you use a template engine, the **cellTemplate** option should be given a jQ
 
 #####See Also#####
 - [Customize Cells Appearance](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/#Customize_the_Appearance)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 - [onCellPrepared]({basewidgetpath}/Configuration/#onCellPrepared)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->

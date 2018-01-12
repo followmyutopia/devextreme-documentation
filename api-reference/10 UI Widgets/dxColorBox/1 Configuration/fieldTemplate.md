@@ -4,12 +4,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering the widget input field.
+Specifies a custom template for the input field. Must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/) widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Note that the input field template must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/) widget.
-
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->

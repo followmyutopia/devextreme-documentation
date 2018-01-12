@@ -4,13 +4,17 @@
 ===========================================================================
 
 <!--shortDescription-->
-A template to be used for rendering widget content.
+Specifies a custom template for the widget content. Rendered only once - when the widget is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If the contentTemplate is defined, the widget does not render selected items. It renders only the content template when the widget is created. You can use the [onItemClick](/Documentation/ApiReference/UI_Widgets/dxPivot/Configuration/#onItemClick) option to manually update the content when a menu item is clicked.
+Use to manage the content regardless of which view is selected. You can use the [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxPivot/Configuration/#onSelectionChanged) option to manually update the content when a title is clicked.
 
 If this option is defined, the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxPivot/Configuration/#itemTemplate) option is ignored.
+
+#####See Also#####
+- [Customize Item Appearance](/Documentation/Guide/Widgets/Pivot/Customize_Item_Appearance/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->container<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->

@@ -4,99 +4,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering appointments in the appointment collector's drop-down list.
+Specifies a custom template for appointments in the appointment collector's drop-down list.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This template's binding context is the object that corresponds to the currently rendered appointment.
 
----
-#####jQuery
-
-    <!--JavaScript-->$(function () {
-        $("#scheduler").dxScheduler({
-            // ...
-            dataSource: [{
-                text: 'Meeting customers',
-                startDate: new Date(2017, 4, 10, 11, 0),
-                endDate: new Date(2017, 4, 10, 13, 0),
-                imgSrc: "images/1-small.png"
-
-            }, {
-                text: 'Summing up the results',
-                startDate: new Date(2017, 4, 11, 12, 0),
-                endDate: new Date(2017, 4, 11, 13, 0),
-                imgSrc: "images/2-small.png"
-            },
-            // ...
-            ],
-            views: [
-                "day",
-                { 
-                    type: "month",
-                    dropDownAppointmentTemplate: function (data, index) {
-                        return $("<div />").append(
-                            $("<img />").attr("src", data.imgSrc),
-                            $("<p />").text(data.text)
-                                    .css("display", "inline-block")
-                                    .css("font-style", (index % 2 == 0) ? "italic" : "normal")
-                        );
-                    }
-                }
-            ]
-        });
-    });
-
-#####Angular
-
-    <!--HTML-->
-    <dx-scheduler ...
-        [dataSource]="appointments"
-        [views]="[
-            'day', 
-            { type: 'month', dropDownAppointmentTemplate: 'ddAppointmentTemplate' }
-        ]">
-        <div *dxTemplate="let appointment of 'ddAppointmentTemplate'; let i = index">
-            <img src="{{appointment.imgSrc}}"/>
-            <div 
-                style="display:inline-block" 
-                [style.font-style]="i % 2 == 0 ? 'italic' : 'normal'">
-                {{appointment.text}}
-            </div>
-        </div>
-    </dx-scheduler>
-
-    <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
-    // ...
-    export class AppComponent {
-        appointments = [{
-            text: 'Meeting customers',
-            startDate: new Date(2017, 4, 10, 11, 0),
-            endDate: new Date(2017, 4, 10, 13, 0),
-            imgSrc: "images/1-small.png"
-
-        }, {
-            text: 'Summing up the results',
-            startDate: new Date(2017, 4, 11, 12, 0),
-            endDate: new Date(2017, 4, 11, 13, 0),
-            imgSrc: "images/2-small.png"
-        },
-        // ...
-        ];
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxSchedulerModule
-        ],
-        // ...
-    })
-
----
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/AdaptiveAppointments/jQuery/Light/"
+}
 
 #####See Also#####
-- [template](/Documentation/ApiReference/Common/Object_Structures/template/)
+- [Customize Drop-Down List](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Drop-Down_List/)
+- [Customize Individual Views](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

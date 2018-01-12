@@ -4,23 +4,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-A template to be used for rendering the **Button** widget.
+Specifies a custom template for the **Button** widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option enables you to render a widget depending on the values of the field of the template context object or view model fields.
-
-    <!--HTML-->
-    <div data-bind="dxButton: { template: 'myButton'}">
-        <div data-options="dxTemplate: { name:'myButton' }">
-            <span data-bind="dxLoadIndicator: { visible: $parent.isLoading }"></span>
-            <span>Load</span>
-        </div>
-    </div>
-
-[note]A binding context of a template contains only fields listed in the [Default Template](/Documentation/ApiReference/UI_Widgets/dxButton/Default_Template/) topic. So, you can bind template elements to these fields directly. To access another binding context within a template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
-
-
+#####See Also#####
+- [Customize the Appearance](/Documentation/Guide/Widgets/Button/Customize_the_Appearance/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->buttonData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

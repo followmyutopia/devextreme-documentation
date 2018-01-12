@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering calendar cells.
+Specifies a custom template for calendar cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The binding context of the template as well as the **itemData** parameter of a function passed to this option is an object containing the following fields.
+The **itemData** object has the following fields:
 
 - **text**  
  A text displayed by the cell.
@@ -19,10 +19,9 @@ The binding context of the template as well as the **itemData** parameter of a f
 - **view**  
  The name of the current view.
 
-[note]A binding context of an item template is the data source object that corresponds to the currently rendered cell. To access another binding context within an item template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
-
 #####See Also#####
 - [Customize Cell Appearance](/Documentation/Guide/Widgets/Calendar/Customize_Cell_Appearance/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

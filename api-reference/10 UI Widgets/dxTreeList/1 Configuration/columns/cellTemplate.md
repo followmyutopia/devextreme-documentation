@@ -4,9 +4,7 @@
 ===========================================================================
 
 <!--fullDescription-->
-Use this option to specify completely custom markup for column cells. See [template](/Documentation/ApiReference/Common/Object_Structures/template/) for information on what this option accepts.
-
-Below is the list of fields passed as the **cellInfo** object.
+The **cellInfo** object has the following fields:
 
 - **data**: <font size="-1">Object</font>        
 Data of the row to which the cell belongs.
@@ -25,21 +23,10 @@ The index of the row to which the cell belongs. Begins with 0 on each page.
 - **column**: <font size="-1">Object</font>        
 The settings of the column to which the cell belongs.
 
-It is also possible to define a cell template using the following template engines. You can access the aforementioned cell settings inside the template in a similar manner.
-
-- [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)        
-- [JsRender](https://github.com/BorisMoore/jsrender)        
-- [Mustache](http://mustache.github.io/)
-- [Hogan](http://twitter.github.io/hogan.js/)
-- [Underscore](http://underscorejs.org/)
-- [Handlebars](http://handlebarsjs.com/)
-- [doT](http://olado.github.io/doT/index.html)
-
-When you use a template engine, the **cellTemplate** option should be given a jQuery object or a DOM node representing the template's container, or a function that returns either of them.
-
 [note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to **false**.
 
 #####See Also#####
 - [Customize Cells Appearance](/Documentation/Guide/Widgets/TreeList/Columns/Customize_Cells/#Customize_the_Appearance)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 - [onCellPrepared]({basewidgetpath}/Configuration/#onCellPrepared)
 <!--/fullDescription-->

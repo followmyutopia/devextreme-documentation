@@ -4,60 +4,15 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering time scale items.
+Specifies a custom template for time scale items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A binding context of a time template is the object that corresponds to the currently rendered item of the time scale.
-
----
-
-#####Angular
-
-Use a variable that is declared in the template via the `let` keyword to access time scale item fields in **Angular** apps.
-
-    <!--HTML-->
-    <dx-scheduler ...
-        timeCellTemplate="timeCellTemplate">
-        <div *dxTemplate="let time of 'timeCellTemplate'">
-            <div class="time">{{time.text}}</div>
-        </div>
-    </div>
-    
-    <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
-    // ...
-    export class AppComponent {
-        // ...
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxSchedulerModule
-        ],
-        // ...
-    })
-
-#####AngularJS#####
-
-In the **AngularJS** apps, if you need to access time scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, the fields of time scale item are unavailable. To access another binding context within a time scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
-
-    <!--HTML-->
-    <div dx-scheduler="{ 
-        ...
-        timeCellTemplate: 'timeTemplate'
-    }" dx-item-alias="item">
-        <div data-options="dxTemplate: {name: 'timeTemplate'}">
-            <div class="time">{{item.text}}</div>
-        </div>
-    </div>
-
----
-
 [note]There is no **timeCellTemplate** in such views as 'month', 'timelineMonth' and 'agenda'.
 
 #####See Also#####
 - [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering the widget's text field.
+Specifies a custom template for the text field. Must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/) widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The template must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/) widget.
+In the following code, the **fieldTemplate** is used to stylize the text field with a custom CSS class:
 
 ---
 
@@ -18,17 +18,22 @@ The template must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Ove
     $(function () {
         $("dropDownBoxContainer").dxDropDownBox({
             // ...
-            fieldTemplate: function (data, container) {
+            fieldTemplate: function (value, fieldElement) {
                 var result = $("<div class='custom-item'>");
                 result
                     .dxTextBox({
-                        value: data,
+                        value: value,
                         readOnly: true 
                     });
-                container.append(result);
+                fieldElement.append(result);
             }
         });
     });
+
+    <!--CSS-->
+    .custom-item {
+        font-size: 16px;
+    }
 
 #####Angular
 
@@ -45,6 +50,11 @@ The template must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Ove
         </div>
     </dx-drop-down-box>
 
+    <!--CSS-->
+    .custom-item {
+        font-size: 16px;
+    }
+
 #####AngularJS
 
     <!--HTML-->
@@ -59,6 +69,11 @@ The template must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Ove
         </div>
     </div>
 
+    <!--CSS-->
+    .custom-item {
+        font-size: 16px;
+    }
+
 #####Knockout
 
     <!--HTML-->
@@ -68,10 +83,15 @@ The template must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Ove
     }">
         <div data-options="dxTemplate: { name: 'field' }">
             <div class="custom-item">
-                <div data-bind="dxTextBox: {value: $data, readOnly: true }"></div>
+                <div data-bind="dxTextBox: { value: $data, readOnly: true }"></div>
             </div>
         </div>
     </div>
+
+    <!--CSS-->
+    .custom-item {
+        font-size: 16px;
+    }
 
 ---
 

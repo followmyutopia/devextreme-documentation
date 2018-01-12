@@ -4,75 +4,14 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering date scale items.
+Specifies a custom template for date scale items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A binding context of a date template is the object that corresponds to the currently rendered item of the date scale.
-
----
-
-#####Angular
-
-Use a variable that is declared in the template via the `let` keyword to access day scale item fields in **Angular** apps. 
-
-    <!--HTML-->
-    <dx-scheduler ...
-        [views]="views">
-        <div *dxTemplate="let date of 'dateTemplate'">
-            <div class="date">{{date.text}}</div>
-        </div>
-    </dx-scheduler>
-
-    <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
-    // ...
-    export class AppComponent  { 
-        // ...
-        views = [
-            "day",
-            { type: "workWeek", dateCellTemplate: "dateTemplate" }
-        ];
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxSchedulerModule
-        ],
-        // ...
-    })
-
-#####AngularJS#####
-
-In **AngularJS** apps, if you need to access date scale item fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, object fields are unavailable. To access another binding context within a date scale template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
-
-    <!--HTML-->
-    <div ng-controller="DemoController">
-        <div dx-scheduler="{ 
-            ...
-            views: views
-        }" dx-item-alias="item">
-            <div data-options="dxTemplate: { name: 'dateTemplate' }">
-                <div class="date">{{ item.text }}</div>
-            </div>
-        </div>
-    </div>
-
-    <!--JavaScript-->
-    var DemoApp = angular.module('DemoApp', ['dx']);
-    DemoApp.controller('DemoController', function DemoController($scope) {
-        // ...
-        $scope.views = [
-            "day",
-            { type: "workWeek", dateCellTemplate: "dateTemplate" }
-        ];
-    });
-
----
-
-[note]There is no **dateCellTemplate** in such views as 'day' and 'timelineDay'.
+[note] There is no **dateCellTemplate** in such views as 'day' and 'timelineDay'.
 
 #####See Also#####
+- [Customize Individual Views](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/)
 - [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->

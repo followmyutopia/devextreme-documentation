@@ -4,18 +4,18 @@
 ===========================================================================
 
 <!--shortDescription-->
-The template to be used for rendering an appointment tooltip.
+Specifies a custom template for appointment tooltips.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A binding context of an appointment tooltip template is the data source object that corresponds to the currently rendered appointment.
-
-So, in **Knockout approach**, you can bind template elements to the appointment object's fields directly. To access another binding context within an appointment tooltip template, use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables.
-
-In **AngularJS approach**, if you need to access appointment object fields within a template, use a variable whose name is assigned to the **dx-item-alias** directive. Add the directive to the widget element to specify an alias to the root object. Without this directive, appointment object fields are beyond reach. To access another binding context within an appointment tooltip template, use [Angular](https://docs.angularjs.org/guide/scope) binding variables.
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/"
+}
 
 #####See Also#####
+- [Customize Individual Views](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/)
 - [Customize Appointment Tooltip](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment_Tooltip/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->appointmentData<!--/typeFunctionParamName1-->

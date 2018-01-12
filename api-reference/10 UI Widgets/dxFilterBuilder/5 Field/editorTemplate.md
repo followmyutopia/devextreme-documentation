@@ -8,7 +8,7 @@ Specifies the editor's custom template.
 
 <!--fullDescription-->
 #####See Also#####
-- [template](/Documentation/ApiReference/Common/Object_Structures/template/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->conditionInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

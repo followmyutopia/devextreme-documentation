@@ -4,21 +4,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-A template to be used for rendering the widget title.
+Specifies a custom template for the widget title. Does not apply if the [title](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#title) is defined.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option enables you to render the widget title depending on field values of the bound data model.
-
-    <!--HTML-->
-    <div data-options="dxTemplate: { name:'myTitle' }">
-        <h3><span data-bind="text: title"></span> info</h3>
-    </div>
-
-[note]A binding context of a title template is the bound view model. So, you can bind template elements to the view model's fields directly (see the code above). To access another binding context within a title template, use the [Knockout](http://knockoutjs.com/documentation/binding-context.html)/[AngularJS](https://docs.angularjs.org/guide/scope) binding variables.
-
-[note] The **titleTemplate** option makes sense if the [title](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#title) option is undefined.
-
+#####See Also#####
+- [Customize the Title](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Title/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->titleElement<!--/typeFunctionParamName1-->

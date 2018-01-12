@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a custom template for the group cell of a grid column.
+Specifies a custom template for group cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, a group cell displays the name of the column used for grouping combined with the value from this column by which grid records are grouped. If you need to represent custom data in a group cell, use the **groupCellTemplate** option. Implement a callback function customizing the content of a group cell and assign it to this option. This function will be invoked every time the column with the specified template is involved in grouping.
-
-When implementing the **groupCellTemplate** function, you can access the group cell under customization using the function's first parameter. This parameter provides access to [element-related jQuery operations](http://api.jquery.com/?s=element). In addition, you can access the options of the cell using the fields of the function's second parameter. These fields are listed below.
+The **cellInfo** object has the following fields:
 
 - **data**        
 Contains a data object that represents data items matching a grouping key. For example, if you group grid records by country, the following object can be obtained from the **data** field.
@@ -43,13 +41,9 @@ If the current group continues on the next page, this field contains a correspon
 - **groupContinuedMessage**        
 If the current group is continued from the previous page, this field contains a corresponding message. The value of this field equals the value of the **grouping**.[groupContinuedMessage](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#groupContinuedMessage) property. If the current group is not continued from the previous page, this field equals **undefined**.
 
-When using Knockout, AngularJS or Angular, you can specify the template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component.
-
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 - [Default Templates](/Documentation/Guide/Widgets/Common/Templates/#Default_Templates)
-
-[3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->cellElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->

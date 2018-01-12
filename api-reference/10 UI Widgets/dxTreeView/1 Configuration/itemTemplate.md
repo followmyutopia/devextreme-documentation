@@ -1,14 +1,10 @@
 ===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->template<!--/type-->
+<!--handmade--><!--/handmade-->
+<!--merge--><!--/merge-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies a custom template for the menu content.
-<!--/shortDescription-->
 
 <!--fullDescription-->
 #####See Also#####
-- [Customize the Menu](/Documentation/Guide/Widgets/SlideOutView/Customize_the_Menu/)
+- [Customize Node Appearance](/Documentation/Guide/Widgets/TreeView/Customize_Node_Appearance/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->

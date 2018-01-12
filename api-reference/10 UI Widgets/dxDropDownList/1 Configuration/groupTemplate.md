@@ -8,20 +8,14 @@ Specifies a custom template for group captions.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If you use the Angular, AngularJS or Knockout library, you can implement this template with the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. This template's binding context depends on the library you use.
-
-In Angular apps, a group's object and index extend the standard binding context (a component instance). Access the former using the input variable that is declared after the `let` and before `of` keywords, and the latter by the variable that is set to the `index` property.
-
-In AngularJS apps, a group's object and index extend the standard binding context (the scope). Access the former using an alias that you specify in the `dx-item-alias` directive, and the latter the `$index` variable. Use [AngularJS](https://docs.angularjs.org/guide/scope) binding variables if you need to access another binding context from the template.
-
-In Knockout apps, you can bind template elements directly to a group object's fields. Use the `$index` variable to get the item's index. Use [Knockout](http://knockoutjs.com/documentation/binding-context.html) binding variables if you need to access another binding context from the template. 
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/GroupedItems/jQuery/Light/"
+}
 
 #####See Also#####
-- [template](/Documentation/ApiReference/Common/Object_Structures/template/)
-- [Angular - Custom Templates](https://github.com/DevExpress/devextreme-angular#custom-templates)
-- [SelectBox - Grouped Items Demo](/Demos/WidgetsGallery/Demo/Select_Box/GroupedItems/jQuery/Light/)
-- [TagBox - Grouped Items Demo](/Demos/WidgetsGallery/Demo/Tag_Box/GroupedItems/jQuery/Light/)
+- [Customize Group Headers](/Documentation/Guide/Widgets/{WidgetName}/Grouping/Customize_Group_Headers/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

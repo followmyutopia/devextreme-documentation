@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a custom template for grid rows.
+Specifies a custom template for rows.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use the **rowTemplate** option to define the markup of all rows in a grid. Implement a callback function defining the content of a grid row and assign it to this option. This function is invoked every time **DataGrid** rerenders itself.
-
-When implementing the **rowTemplate** function, you can access the row under customization using the function's first parameter. This parameter provides access to [element-related jQuery operations](http://api.jquery.com/?s=element), and you can access row options using the fields of the function's second parameter that are listed below.
+The **rowInfo** object has the following fields:
 
 - **data**        
 Contains the object of the data source represented by the current row.
@@ -30,7 +28,7 @@ Contains the group index of the current row. This field is useful if the **rowTy
 - **isExpanded**    
 Indicates whether or not the current row is expanded. This field is useful if the **rowType** field is *'group'*.
 
-When utilizing the [Knockout](http://knockoutjs.com/), [Angular](https://angular.io/) or [AngularJS](https://angularjs.org/) library in your application, you can specify the row template using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. Note that dxTemplate should be bound to a `<table>` HTML element.
+When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component for AngularJS, and Knockout apps, declare it within a `<table>` HTML element. For Angular - within `<tbody>`.
 
 ---
 #####Angular
@@ -63,7 +61,7 @@ When utilizing the [Knockout](http://knockoutjs.com/), [Angular](https://angular
 #####AngularJS
 
         <!--HTML--><div dx-data-grid="{
-            <!-- other grid settings go here -->
+            ...
             rowTemplate: 'rowTemplateName'
         }" dx-item-alias="item">
             <table data-options="dxTemplate: { name: 'rowTemplateName' }" >
@@ -77,7 +75,7 @@ When utilizing the [Knockout](http://knockoutjs.com/), [Angular](https://angular
 #####Knockout
 
         <!--HTML--><div data-bind="dxDataGrid: {
-            <!-- other grid settings go here -->
+            ...
             rowTemplate: 'rowTemplateName'
         }">
             <table data-options="dxTemplate: { name: 'rowTemplateName' }" >
@@ -90,31 +88,17 @@ When utilizing the [Knockout](http://knockoutjs.com/), [Angular](https://angular
 
 ---
 
-It is also possible to define a row template in markup. For this purpose, use one of the following template engines. The cell settings mentioned above can be accessed in a similar manner inside the template.
-
-- [jQuery Templates](https://github.com/BorisMoore/jquery-tmpl)        
-- [JsRender](https://github.com/BorisMoore/jsrender)        
-- [Mustache](http://mustache.github.io/)
-- [Hogan](http://twitter.github.io/hogan.js/)
-- [Underscore](http://underscorejs.org/)
-- [Handlebars](http://handlebarsjs.com/)
-- [doT](http://olado.github.io/doT/index.html)
-
-Using a template engine, pass one of the following values to the **rowTemplate** option:
-
-- A jQuery object representing the template's container.        
-- A DOM Node representing the template's container.        
-- A function that returns a jQuery object or a DOM Node representing the template's container.
-
-When you implement a row template with a template engine, take into account certain specifics. Particularly, the `<tr>` element that represents a row should have the `dx-row` class for correct operation of all widget features.
+You can also use a 3rd-party template engine to customize row appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article. Note that the `<tr>` element that represents a row should have the `dx-row` class for correct operation of all widget features.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Data_Grid/Row3RdPartyEngineTemplate/jQuery/Light/"
 }
 
-[note] When you use a row template, we recommend you disable the [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping), and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) features. The template's content cannot automatically synchronize with the column layout, which makes these features inoperative.
+[note] Disable the [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping), and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) features when specifying the row template. Its content cannot automatically synchronize with the column layout, which makes these features inoperative.
 
-To customize a row without defining the entire template, handle the [rowPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowPrepared) event.
+#####See Also#####
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
+- [onRowPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowPrepared)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
