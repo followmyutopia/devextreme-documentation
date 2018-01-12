@@ -142,6 +142,7 @@ Each cell in the lookup column is constructed on the [SelectBox](/Documentation/
 }
 
 #####See Also#####
+- [Bind a Lookup Column to a Custom Data Source](/Documentation/Guide/Widgets/DataGrid/How_To/Bind_a_Lookup_Column_to_a_Custom_Data_Source/)
 - [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/)
 
 [tags] dataGrid, data grid, column types, lookup columns

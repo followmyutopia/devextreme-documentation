@@ -83,7 +83,7 @@ With this code, the *Bus ID* column contains license plates instead of IDs. More
 }
 
 #####See Also#####
-- [Lookup Columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Lookup_Columns/)
+- [Bind a Lookup Column to a Custom Data Source](/Documentation/Guide/Widgets/DataGrid/How_To/Bind_a_Lookup_Column_to_a_Custom_Data_Source/)
 - [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors)
 - [Enhance Performance on Large Datasets - Lookup Optimization](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Lookup_Optimization)
 <!--/fullDescription-->

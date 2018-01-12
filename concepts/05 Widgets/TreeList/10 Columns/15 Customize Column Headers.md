@@ -2,7 +2,7 @@ The **TreeList** generates column headers based on the names of [data fields](/D
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList ColumnHeaders](/Content/images/doc/17_2/treelist/visual_elements/column_headers.png)
 
-Specify the **columns**.[caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption) option to change the column header text.
+Specify the **columns**.[caption](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#caption) option to change the column header text.
 
 ---
 ##### jQuery

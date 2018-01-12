@@ -121,6 +121,7 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
 Each cell in the lookup column is constructed on the [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/) widget which can be customized using [editorOptions](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editorOptions). See the [Customize Editors](/Documentation/Guide/Widgets/TreeList/Editing/#Customize_Editors) topic for details.
 
 #####See Also#####
+- [Bind a Lookup Column to a Custom Data Source](/Documentation/Guide/Widgets/TreeList/How_To/Bind_a_Lookup_Column_to_a_Custom_Data_Source/)
 - [lookup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/)
 - [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/UsingFilterRow/jQuery/Light/)
 

@@ -14,18 +14,12 @@ This option accepts one of the following.
 A simple JavaScript array containing a collection of plain objects.
 
 - [**DataSource Configuration Object**](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)       
-A configuration object of the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Learn more about the **DataSource** and the DevExtreme Data Layer concept from the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) topic.
-
-    [note] When using a [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) for the lookup data source, you are required to implement the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) and [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) functions.
+A configuration object of the **DataSource**. See [Bind a Lookup Column to a Custom Data Source](/Documentation/Guide/Widgets/{WidgetName}/How_To/Bind_a_Lookup_Column_to_a_Custom_Data_Source/).
 
 - **Function**      
 A function that returns either an array of objects or a **DataSource** configuration object.
 
 The lookup data source must contain fields assigned to the [valueExpr]({basewidgetpath}/Configuration/columns/lookup/#valueExpr) and [displayExpr]({basewidgetpath}/Configuration/columns/lookup/#displayExpr) options.
-
-#####See Also#####
-- [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)
-- [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

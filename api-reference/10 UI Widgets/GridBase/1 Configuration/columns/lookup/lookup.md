@@ -83,6 +83,6 @@ All `drivers` have the `busID` field, which refers to a bus. If `drivers` is the
 With this code, the *Bus ID* column contains license plates instead of IDs. Moreover, the user can choose a plate number from the drop-down menu when editing cells or applying a filter to this column.
 
 #####See Also#####
-- [Lookup Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Lookup_Columns/)
+- [Bind a Lookup Column to a Custom Data Source](/Documentation/Guide/Widgets/{WidgetName}/How_To/Bind_a_Lookup_Column_to_a_Custom_Data_Source/)
 - [Customize Editors](/Documentation/Guide/Widgets/{WidgetName}/Editing/#Customize_Editors)
 <!--/fullDescription-->
