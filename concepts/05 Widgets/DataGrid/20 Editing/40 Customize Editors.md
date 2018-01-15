@@ -10,19 +10,17 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Confi
             columns: [{
                 dataField: "Note",
                 editorOptions: {
-                    minHeight: 200
+                    height: 200
                 }
             }, // ...
             ],
             onEditorPreparing: function(e) {
-                if (e.dataField == "Name") {
-                    // Changes the editor's type
-                    e.editorName = "dxTextArea";
+                if (e.dataField == "Note") {
+                    e.editorName = "dxTextArea"; // Changes the editor's type
                     e.editorOptions.onValueChanged = function (args) {
                         // Implement your logic here
 
-                        // Updates the cell value
-                        e.setValue(args.value);
+                        e.setValue(args.value); // Updates the cell value
                     }
                 }
             }
@@ -36,7 +34,7 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Confi
         (onEditorPreparing)="onEditorPreparing($event)">
         <dxi-column
             dataField="Note"
-            [editorOptions]="{ minHeight: 200 }">
+            [editorOptions]="{ height: 200 }">
         </dxi-column>
     </dx-data-grid>
 
@@ -45,14 +43,12 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Confi
     // ...
     export class AppComponent {
         onEditorPreparing (e) {
-            if (e.dataField == "Name") {
-                // Changes the editor's type
-                e.editorName = "dxTextArea";
+            if (e.dataField == "Note") {
+                e.editorName = "dxTextArea"; // Changes the editor's type
                 e.editorOptions.onValueChanged = function (args) {
                     // Implement your logic here
 
-                    // Updates the cell value
-                    e.setValue(args.value);
+                    e.setValue(args.value); // Updates the cell value
                 }
             }
         }
@@ -65,6 +61,32 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Confi
         ],
         // ...
     })
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .Columns(cols => {
+            // ...
+            cols.Add().DataField("Note")
+                .EditorOptions(new { height = 200 });
+        })
+        .OnEditorPreparing("dataGrid_editorPreparing")
+    )
+
+    <script type="text/javascript">
+        function dataGrid_editorPreparing(e) {
+            if (e.dataField == "Note") {
+                e.editorName = "dxTextArea"; // Changes the editor's type
+                e.editorOptions.onValueChanged = function (args) {
+                    // Implement your logic here
+
+                    e.setValue(args.value); // Updates the cell value
+                }
+            }
+        }
+    </script>
     
 ---
 
@@ -121,6 +143,30 @@ Implement the **columns[]**.[editCellTemplate](/Documentation/ApiReference/UI_Wi
         ],
         // ...
     })
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .Columns(cols => {
+            // ...
+            cols.Add().DataField("Hidden")
+                .EditCellTemplate(new JS("dataGrid_hidden_editCellTemplate"));
+        })
+    )
+
+    <script type="text/javascript">
+        function dataGrid_hidden_editCellTemplate (cellElement, cellInfo) {
+            $('<input type="checkbox">')
+                .prop("checked", cellInfo.value)
+                .prop("disabled", cellInfo.setValue ? null : "disabled")
+                .on("change", function (args) {
+                    cellInfo.setValue(args.target.checked);
+                })
+                .appendTo(cellElement);
+        }
+    </script>
     
 ---
 
@@ -165,6 +211,19 @@ Editors are displayed in cells in the normal state too if you set the **columns*
         ],
         // ...
     })
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .Columns(cols => {
+            // ...
+            cols.Add().DataField("Hidden")
+                .DataType(GridColumnDataType.Boolean)
+                .ShowEditorAlways(true);
+        })
+    )
     
 ---
 

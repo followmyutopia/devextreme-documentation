@@ -57,6 +57,26 @@ The **TreeList** uses the DevExtreme [Form](/Documentation/Guide/Widgets/Form/Ov
         ],
         // ...
     })
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().TreeList()
+        // ...
+        .Editing(e => e
+            .AllowUpdating(true)
+            .Mode(GridEditMode.Form)
+        )
+        .Columns(cols => {
+            // ...
+            cols.Add().DataField("Full_Name")
+                .FormItem(item => item
+                    .ColSpan(2)
+                    .Label(l => l.Location(FormLabelLocation.Top)
+                )
+            );
+        })
+    )
     
 ---
 
@@ -120,8 +140,8 @@ The form contains only the editable fields, or "simple items" (as they are calle
             </dxo-form>
         </dxo-editing>
         <dxi-column dataField="Full_Name"></dxi-column>
-        <dxi-column dataField="Title"></dxi-column>
         <dxi-column dataField="Prefix"></dxi-column>
+        <dxi-column dataField="Position"></dxi-column>
         <dxi-column dataField="Email"></dxi-column>
         <dxi-column dataField="Skype"></dxi-column>
     </dx-tree-list>
@@ -139,6 +159,41 @@ The form contains only the editable fields, or "simple items" (as they are calle
         ],
         // ...
     })
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().TreeList()
+        // ...
+        .Editing(e => e
+            .AllowUpdating(true)
+            .Mode(GridEditMode.Form)
+            .Form(f => f
+                .Items(i => {
+                    i.AddGroup()
+                        .Caption("Personal Data")
+                        .Items(groupItems => {
+                            groupItems.AddSimple().DataField("Full_Name");
+                            groupItems.AddSimple().DataField("Prefix");
+                            groupItems.AddSimple().DataField("Position");
+                        });
+                    i.AddGroup()
+                        .Caption("Contacts")
+                        .Items(groupItems => {
+                            groupItems.AddSimple().DataField("Email");
+                            groupItems.AddSimple().DataField("Skype");
+                        });
+                })
+            )
+        )
+        .Columns(cols => {
+            cols.Add().DataField("Full_Name");
+            cols.Add().DataField("Prefix");
+            cols.Add().DataField("Position");
+            cols.Add().DataField("Email");
+            cols.Add().DataField("Skype");
+        })
+    )
     
 ---
 
