@@ -1,8 +1,8 @@
 ===========================================================================
 <!--default-->'static'<!--/default-->
-<!--custom_default_for_ios-->'slideItem'<!--/custom_default_for_ios-->
-<!--custom_default_for_android-->'swipe'<!--/custom_default_for_android-->
-<!--custom_default_for_windows-->'context'<!--/custom_default_for_windows-->
+<!--custom_default_for_iOS-->'slideItem'<!--/custom_default_for_iOS-->
+<!--custom_default_for_Android-->'swipe'<!--/custom_default_for_Android-->
+<!--custom_default_for_Windows_Mobile-->'context'<!--/custom_default_for_Windows_Mobile-->
 <!--acceptValues-->'static' | 'toggle' | 'slideButton' | 'slideItem' | 'swipe' | 'context'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

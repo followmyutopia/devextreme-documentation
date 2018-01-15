@@ -1,7 +1,6 @@
 ===========================================================================
 <!--default-->function() { return $(window).height() * 0.8 }<!--/default-->
-<!--custom_default_for_desktop-->'auto'<!--/custom_default_for_desktop-->
-<!--custom_default_for_iPad-->'auto'<!--/custom_default_for_iPad-->
+<!--custom_default_for_desktop_and_iPad-->'auto'<!--/custom_default_for_desktop_and_iPad-->
 <!--type-->Number | String | function()<!--/type-->
 ===========================================================================
 

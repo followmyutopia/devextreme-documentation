@@ -1,7 +1,6 @@
 ===========================================================================
 <!--default-->false<!--/default-->
-<!--custom_default_for_desktop-->true<!--/custom_default_for_desktop-->
-<!--custom_default_for_ios-->true<!--/custom_default_for_ios-->
+<!--custom_default_for_desktop_and_iOS-->true<!--/custom_default_for_desktop_and_iOS-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
