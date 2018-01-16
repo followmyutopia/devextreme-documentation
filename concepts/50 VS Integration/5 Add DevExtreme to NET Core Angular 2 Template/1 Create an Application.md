@@ -1,3 +1,0 @@
-Create an ASP.NET Core Angular 2 application using the "ASP.NET Core Angular 2 Starter Application (.NET Core)" template. For details, refer to the [Steve Sanderson's Blog](http://blog.stevensanderson.com/2016/10/04/angular2-template-for-visual-studio).
-
-![ASP.NET Core Angular 2 Starter Application (.NET Core) application template](/Content/images/doc/17_2/DevExtreme/NetCoreAngular2ApplicationTemplate.png)
