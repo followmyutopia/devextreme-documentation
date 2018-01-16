@@ -34,7 +34,7 @@ The button's icon.
 The button content's container.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

@@ -20,7 +20,7 @@ Specifies a custom template for the widget content.
 The widget content's container.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

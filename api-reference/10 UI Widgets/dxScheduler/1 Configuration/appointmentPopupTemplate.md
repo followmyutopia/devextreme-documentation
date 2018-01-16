@@ -50,7 +50,7 @@ The data of the appointment whose popup is rendered.
 The appointment's container.
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->

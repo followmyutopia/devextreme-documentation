@@ -12,7 +12,7 @@ A template used for rendering the item title.
 #####See Also#####
 - [Customize Item Appearance](/Documentation/Guide/Widgets/Pivot/Customize_Item_Appearance/)
 <!--/fullDescription-->
-<!--typeFunctionReturnType-->String|jQuery<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 A template name or container.
 <!--/typeFunctionReturnDescription-->
