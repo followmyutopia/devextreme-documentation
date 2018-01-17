@@ -57,6 +57,6 @@ After you have declared a configuration object, pass it to the [jQuery plugin](/
 <a href="http://www.youtube.com/watch?v=-k05YGTLp4I&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=46" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference).**WidgetName**.**Configuration**
+- **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart).[Configuration](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/)
 
 [tags]typescript support, configure, initialize, type definitions, namespaces

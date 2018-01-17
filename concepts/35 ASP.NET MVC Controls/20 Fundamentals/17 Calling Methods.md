@@ -54,4 +54,4 @@ If the method you are calling accepts arguments, pass them after the method's na
     $("#popup").dxPopup("toggle", true);
 
 #####See Also#####
-- **API Reference**.**ControlName**.**Methods** - lists all methods of a specific control.
+- **API Reference**.**ControlName**.**Methods**, for example, **API Reference**.[Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/).[Methods](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/) - lists all methods of a specific control.

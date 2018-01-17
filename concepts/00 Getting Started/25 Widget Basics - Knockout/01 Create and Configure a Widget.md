@@ -52,7 +52,7 @@ As an alternative, you can declare the whole object of widget options in the vie
     <!--HTML--><div data-bind="dxChart: chartOptions"></div>
 
 #####See Also#####
-- [Reference](/Documentation/ApiReference/).**WidgetName**.**Configuration**
+- **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart).[Configuration](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/)
 - [Change Options](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Change_Options)
 
 [tags]basics, knockout, create, configure, initialize, design time, view model

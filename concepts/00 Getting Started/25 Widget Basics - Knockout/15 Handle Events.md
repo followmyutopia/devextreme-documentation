@@ -23,6 +23,6 @@ You can subscribe to an event using a configuration option. All event handling o
 }
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference).**WidgetName**.**Events**
+- **API Reference**.**WidgetName**.**Events**, for example, **API Reference**.[Menu](/Documentation/ApiReference/UI_Widgets/dxMenu/).[Events](/Documentation/ApiReference/UI_Widgets/dxMenu/Events/)
 
 [tags]basics, knockout, handle events, subscribe

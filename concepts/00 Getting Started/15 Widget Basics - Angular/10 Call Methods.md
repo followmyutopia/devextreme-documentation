@@ -47,7 +47,7 @@ If a page contains several instances of one widget, you can get a specific one u
     }
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference/).**WidgetName**.**Methods**
+- **API Reference**.**WidgetName**.**Methods**, for example, **API Reference**.[DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/).[Methods](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/)
 - [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
 
 [tags]basics, angularjs, call methods, widget instance

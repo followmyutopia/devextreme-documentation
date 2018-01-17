@@ -52,7 +52,7 @@ All operations with widget options are carried out using the **option()** method
 [note]When you pass an object to the **option(options)** method or to the jQuery plugin at runtime as shown in the previous code, options specified in this object will be merged with the options that were [specified at design time](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget).
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference).**WidgetName**.**Configuration**
+- **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[Menu](/Documentation/ApiReference/UI_Widgets/dxMenu/).[Configuration](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/)
 - [Create and Configure a Widget - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget)
 
 [tags]basics, jquery, change options, get, set, runtime

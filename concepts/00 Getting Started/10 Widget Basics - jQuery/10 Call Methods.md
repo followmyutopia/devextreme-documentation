@@ -13,6 +13,6 @@ As an alternative, you can obtain the widget instance first, and then call any m
     var fruitsSeries = chartInstance.getSeriesByName("fruits");
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference).**WidgetName**.**Methods**
+- **API Reference**.**WidgetName**.**Methods**, for example, **API Reference**.[Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/).[Methods](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/)
 
 [tags]basics, jquery, call methods, widget instance, method arguments

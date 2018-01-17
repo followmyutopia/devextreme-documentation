@@ -15,7 +15,7 @@ Now, if you change the `textBoxValue` component property in code, the **TextBox*
 }
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference/).**WidgetName**.**Configuration**
+- **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[TextBox](/Documentation/ApiReference/UI_Widgets/dxTextBox/).[Configuration](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/)
 - [Create and Configure a Widget](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)
 - [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
 

@@ -22,7 +22,7 @@ To handle an event, use a configuration option. All event handling options are g
 }
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference/).**WidgetName**.**Events**
+- **API Reference**.**WidgetName**.**Events**, for example, **API Reference**.[DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/).[Events](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/)
 - [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
 
 [tags]basics, angular, handle events, subscribe

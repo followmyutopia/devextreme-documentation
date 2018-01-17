@@ -52,7 +52,7 @@ For more information on using DevExtreme widgets with Angular, refer to the [Dev
 }
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference/).**WidgetName**.**Configuration**
+- **API Reference**.**WidgetName**.**Configuration**, for example, **API Reference**.[Button](/Documentation/ApiReference/UI_Widgets/dxButton/).[Configuration](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/)
 - [Change Options](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Change_Options/)
 - [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
 

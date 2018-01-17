@@ -63,6 +63,6 @@ If you subscribed to an event using an **on*EventName*** option, you can unsubsc
     menuInstance.option("onItemClick", undefined);
 
 #####See Also#####
-- [API Reference](/Documentation/ApiReference).**WidgetName**.**Events**
+- **API Reference**.**WidgetName**.**Events**, for example, **API Reference**.[Menu](/Documentation/ApiReference/UI_Widgets/dxMenu/).[Events](/Documentation/ApiReference/UI_Widgets/dxMenu/Events/)
 
 [tags]basics, jquery, handle events, subscribe, unsubscribe, on, off
