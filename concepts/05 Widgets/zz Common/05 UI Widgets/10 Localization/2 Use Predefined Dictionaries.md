@@ -1,9 +1,16 @@
-DevExtreme comes with ready-to-use predefined dictionaries. These dictionaries include all the captions, titles and messages that are used in DevExtreme UI widgets. DevExtreme includes the following dictionary files providing the localization of desktop, mobile and multi-purpose UI widgets for the **ru**, **ja**, **de** and **en** locales, respectively.
+DevExtreme comes with the following predefined dictionaries that provide localizations for the **en**, **ru**, **de**, and **ja** locales. These dictionaries are curated by DevExpress.
 
-- *dx.messages.ru.js*  
-- *dx.messages.ja.js*  
-- *dx.messages.de.js*  
 - *dx.messages.en.js*  
+- *dx.messages.ru.js*  
+- *dx.messages.de.js*   
+- *dx.messages.ja.js*  
+
+Additional dictionaries, which provide localizations for the **es** and **pt-BR** locales, are contributed by the community.
+
+- *dx.messages.es.js*  
+- *dx.messages.pt-BR.js*  
+
+To correct an existing translation or add a new one, fork the [DevExtreme repository](https://github.com/DevExpress/DevExtreme) on GitHub and follow the instructions from the [Contribution Guide](https://github.com/DevExpress/DevExtreme/blob/18_1/CONTRIBUTING.md).
 
 [note]You are not required to link the "en" locale dictionary because it is already included in DevExtreme libraries. You can use the **dx.messages.en.js** dictionary to create custom dictionaries for other locales based on this dictionary.
 
