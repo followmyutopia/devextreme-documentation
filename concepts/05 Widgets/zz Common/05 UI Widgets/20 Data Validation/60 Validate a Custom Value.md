@@ -69,16 +69,16 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
             message: "Specify your phone or email"
         }];
         adapterConfig = {
-            getValue: function () {
-                return phone + email;
+            getValue: () => {
+                return this.phone + this.email;
             },
-            applyValidationResults: function (e) {
-                borderStyle = e.isValid ? "none" : "1px solid red";
+            applyValidationResults: (e) => {
+                this.borderStyle = e.isValid ? "none" : "1px solid red";
             },
-            validationRequestsCallbacks: callbacks
+            validationRequestsCallbacks: this.callbacks
         };
         revalidate () {
-            callbacks.forEach(func => {
+            this.callbacks.forEach(func => {
                 func();
             });
         };
