@@ -1,7 +1,6 @@
 ===========================================================================
 <!--propertyOf-->..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md<!--/propertyOf-->
-<!--custom_default_for_value_indicators-->'bottom'<!--/custom_default_for_value_indicators-->
-<!--custom_default_for_subvalue_indicators-->'top'<!--/custom_default_for_subvalue_indicators-->
+<!--default-->'bottom' (value_indicators), 'top' (subvalue_indicators)<!--/default-->
 <!--acceptValues-->'top' | 'bottom'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

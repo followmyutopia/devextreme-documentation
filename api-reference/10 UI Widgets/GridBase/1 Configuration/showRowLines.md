@@ -1,6 +1,5 @@
 ===========================================================================
-<!--default-->false<!--/default-->
-<!--custom_default_for_iOS-->true<!--/custom_default_for_iOS-->
+<!--default-->false, true (iOS)<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 

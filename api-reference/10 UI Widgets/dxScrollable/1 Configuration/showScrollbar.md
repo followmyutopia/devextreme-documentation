@@ -1,6 +1,5 @@
 ===========================================================================
-<!--default-->'onScroll'<!--/default-->
-<!--custom_default_for_desktop-->'onHover'<!--/custom_default_for_desktop-->
+<!--default-->'onScroll', 'onHover' (desktop)<!--/default-->
 <!--acceptValues-->'onScroll' | 'onHover' | 'always' | 'never'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

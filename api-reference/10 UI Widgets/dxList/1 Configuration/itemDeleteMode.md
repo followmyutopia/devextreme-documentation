@@ -1,8 +1,5 @@
 ===========================================================================
-<!--default-->'static'<!--/default-->
-<!--custom_default_for_iOS-->'slideItem'<!--/custom_default_for_iOS-->
-<!--custom_default_for_Android-->'swipe'<!--/custom_default_for_Android-->
-<!--custom_default_for_Windows_Mobile-->'context'<!--/custom_default_for_Windows_Mobile-->
+<!--default-->'static', 'slideItem' (iOS), 'swipe' (Android), 'context' (Windows_Mobile)<!--/default-->
 <!--acceptValues-->'static' | 'toggle' | 'slideButton' | 'slideItem' | 'swipe' | 'context'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

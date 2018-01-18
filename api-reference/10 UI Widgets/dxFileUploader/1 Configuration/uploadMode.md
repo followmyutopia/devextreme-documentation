@@ -1,6 +1,5 @@
 ===========================================================================
-<!--default-->'instantly'<!--/default-->
-<!--custom_default_for_Internet_Explorer_9_and_10-->'useForm'<!--/custom_default_for_Internet_Explorer_9_and_10-->
+<!--default-->'instantly', 'useForm' (Internet_Explorer_9, Internet_Explorer_10)<!--/default-->
 <!--acceptValues-->'instantly' | 'useButtons' | 'useForm'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

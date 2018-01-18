@@ -1,7 +1,5 @@
 ===========================================================================
-<!--default-->true<!--/default-->
-<!--custom_default_for_desktop-->false<!--/custom_default_for_desktop-->
-<!--custom_default_for_Mac-->true<!--/custom_default_for_Mac-->
+<!--default-->true, false (desktop), true (Mac)<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 

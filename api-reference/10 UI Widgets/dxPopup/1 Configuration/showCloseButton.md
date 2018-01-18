@@ -1,6 +1,5 @@
 ===========================================================================
-<!--default-->false<!--/default-->
-<!--custom_default_for_desktop-->true<!--/custom_default_for_desktop-->
+<!--default-->false, true (desktop)<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 

@@ -1,6 +1,5 @@
 ===========================================================================
-<!--default-->true<!--/default-->
-<!--custom_default_for_Android,_iOS_and_Windows_Mobile-->false<!--/custom_default_for_Android,_iOS_and_Windows_Mobile-->
+<!--default-->true, false (Android, iOS, Windows_Mobile)<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 

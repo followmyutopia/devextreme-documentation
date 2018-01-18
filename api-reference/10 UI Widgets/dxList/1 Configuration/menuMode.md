@@ -1,6 +1,5 @@
 ===========================================================================
-<!--default-->'context'<!--/default-->
-<!--custom_default_for_iOS-->'slide'<!--/custom_default_for_iOS-->
+<!--default-->'context', 'slide' (iOS)<!--/default-->
 <!--acceptValues-->'context' | 'slide'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

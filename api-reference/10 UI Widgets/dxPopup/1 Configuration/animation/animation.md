@@ -1,5 +1,5 @@
 <!--merge--><!--/merge-->
-<!--custom_default_for_iOS-->{ show: { type: 'slide', duration: 400, from: { position: { my: 'top', at: 'bottom', of: window } }, to: { position: { my: 'center', at: 'center', of: window } } }, hide: { type: 'slide', duration: 400, from: { position: { my: 'center', at: 'center', of: window } }, to: { position: { my: 'top', at: 'bottom', of: window } } } }<!--/custom_default_for_iOS-->
+<!--default-->{ show: { type: 'slide', duration: 400, from: { position: { my: 'top', at: 'bottom', of: window } }, to: { position: { my: 'center', at: 'center', of: window } } }, hide: { type: 'slide', duration: 400, from: { position: { my: 'center', at: 'center', of: window } }, to: { position: { my: 'top', at: 'bottom', of: window } } }} (iOS)<!--/default-->
 <!--keep--><!--/keep-->
 ===========================================================================
 <!--fullDescription-->

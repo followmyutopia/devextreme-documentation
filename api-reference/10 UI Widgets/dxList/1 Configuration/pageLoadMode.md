@@ -1,6 +1,5 @@
 ===========================================================================
-<!--default-->'scrollBottom'<!--/default-->
-<!--custom_default_for_desktop-->'nextButton'<!--/custom_default_for_desktop-->
+<!--default-->'scrollBottom', 'nextButton' (desktop)<!--/default-->
 <!--acceptValues-->'scrollBottom' | 'nextButton'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

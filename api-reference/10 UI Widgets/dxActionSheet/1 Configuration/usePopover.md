@@ -1,6 +1,5 @@
 ===========================================================================
-<!--default-->false<!--/default-->
-<!--custom_default_for_iPad-->true<!--/custom_default_for_iPad-->
+<!--default-->false, true (iPad)<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 

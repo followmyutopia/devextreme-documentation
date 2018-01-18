@@ -1,7 +1,6 @@
 ===========================================================================
 <!--propertyOf-->..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md<!--/propertyOf-->
-<!--custom_default_for_value_indicators-->'right'<!--/custom_default_for_value_indicators-->
-<!--custom_default_for_subvalue_indicators-->'left'<!--/custom_default_for_subvalue_indicators-->
+<!--default-->'right' (value_indicators), 'left' (subvalue_indicators)<!--/default-->
 <!--acceptValues-->'left' | 'right'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

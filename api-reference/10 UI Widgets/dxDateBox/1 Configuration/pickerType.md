@@ -1,10 +1,5 @@
 ===========================================================================
-<!--default-->'native'<!--/default-->
-<!--custom_default_for_android_below_version_4.4-->'rollers'<!--/custom_default_for_android_below_version_4.4-->
-<!--custom_default_for_desktop-->'rollers'<!--/custom_default_for_desktop-->
-<!--custom_default_for_windows-->'rollers'<!--/custom_default_for_windows-->
-<!--custom_default_for_generic_desktop-->'calendar'<!--/custom_default_for_generic_desktop-->
-<!--custom_default_for_no-phone_windows-->'calendar'<!--/custom_default_for_no-phone_windows-->
+<!--default-->'native', 'rollers' (android_below_version_4.4, desktop, windows), 'calendar' (generic_desktop, no-phone_windows)<!--/default-->
 <!--acceptValues-->'native' | 'calendar' | 'rollers' | 'list'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

@@ -1,6 +1,5 @@
 ===========================================================================
-<!--default-->function() {return $(window).width() * 0.8 }<!--/default-->
-<!--custom_default_for_iPad-->function() { return Math.min($(window).width(), $(window).height()) * 0.4; }<!--/custom_default_for_iPad-->
+<!--default-->function() {return $(window).width() * 0.8 }, function() { return Math.min($(window).width(), $(window).height()) * 0.4; } (iPad)<!--/default-->
 <!--type-->Number | String | function()<!--/type-->
 ===========================================================================
 

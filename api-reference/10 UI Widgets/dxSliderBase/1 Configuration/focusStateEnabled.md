@@ -1,3 +1,3 @@
 <!--merge--><!--/merge-->
-<!--custom_default_for_desktop-->true<!--/custom_default_for_desktop-->
+<!--default-->true (desktop)<!--/default-->
 ===========================================================================

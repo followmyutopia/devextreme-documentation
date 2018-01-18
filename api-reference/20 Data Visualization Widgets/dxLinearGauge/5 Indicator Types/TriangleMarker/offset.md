@@ -1,4 +1,4 @@
 <!--merge--><!--/merge-->
-<!--custom_default_for_value_and_subvalue_indicators-->10<!--/custom_default_for_value_and_subvalue_indicators-->
+<!--default-->10 (value_and_subvalue_indicators)<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================
