@@ -42,7 +42,7 @@ This article describes how to create an ASP.NET Core Angular application and add
 
 6. Open the ClientApp\app\components\fetchdata\fetchdata.component.html file and replace the table in it with the following code, which creates the DevExtreme **DataGrid** widget and binds it to sample data already provided by the `FetchDataComponent`:
 
-    <dx-data-grid [dataSource]="forecasts"></dx-data-grid>
+        <dx-data-grid [dataSource]="forecasts"></dx-data-grid>
 
 7. Run the application and when it has been loaded, navigate to the Fetch data page to view the **DataGrid**.
 
