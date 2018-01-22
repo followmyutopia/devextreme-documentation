@@ -11,7 +11,7 @@ The **cellInfo** object has the following fields:
 
 - **data**: <font size="-1">Object</font>        
 The data of the row to which the cell belongs.
-- **component**: <font size="-1">jQuery</font>  
+- **component**: <font size="-1">Object</font>  
 The widget's instance.
 - **value**: <font size="-1">Any</font>        
 The value of the cell as it is specified in the data source.

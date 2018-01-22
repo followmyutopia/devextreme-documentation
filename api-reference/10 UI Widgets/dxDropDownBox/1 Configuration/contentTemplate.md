@@ -12,7 +12,7 @@ The **templateData** object has the following fields:
 
 - **value**: <font size="-1">Any</font>    
     The currently selected value.  
-- **component**: <font size="-1">jQuery</font>  
+- **component**: <font size="-1">Object</font>  
     The widget's instance.
 
 #####See Also#####

@@ -9,7 +9,7 @@ Specifies a custom template for column headers.
 <!--fullDescription-->
 The **headerInfo** object has the following fields:
 
-- **component**: <font size="-1">jQuery</font>  
+- **component**: <font size="-1">Object</font>  
 The widget's instance.
 - **columnIndex**: <font size="-1">Number</font>        
 The index of the column to which the header belongs. For details on how this index is calculated, refer to the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
