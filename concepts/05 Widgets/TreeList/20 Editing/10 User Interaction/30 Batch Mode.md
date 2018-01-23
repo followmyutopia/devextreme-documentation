@@ -1,4 +1,4 @@
-In the batch mode, like in the [cell mode](/Documentation/Guide/Widgets/TreeList/Editing/#User_Interaction/Cell_Mode), a user edits data cell by cell. However, in this mode the widget stores changes in a buffer until a user clicks the global *"Save"* button instead of saving them immediately. This mode is useful for saving multiple changes by sending only one request to the server.
+In the batch mode, like in the [cell mode](/Documentation/Guide/Widgets/TreeList/Editing/#User_Interaction/Cell_Mode), a user edits data cell by cell. However, in this mode the widget stores changes in a buffer until a user clicks the global *"Save"* button instead of saving them immediately. This mode is useful when you need to defer saving multiple changes.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Editing Batch Mode](/Content/images/doc/17_2/treelist/editing/batch_mode.png)
 
