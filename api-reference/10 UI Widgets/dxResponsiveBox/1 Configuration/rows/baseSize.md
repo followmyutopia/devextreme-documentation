@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-The base height of the row.
+The row's base height. Ignored when the [singleColumnScreen](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#singleColumnScreen) option arranges all elements in a single column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `Mode` enum that accepts the value `Auto`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `Mode` enum that accepts the `Auto` value.
 <!--/fullDescription-->
