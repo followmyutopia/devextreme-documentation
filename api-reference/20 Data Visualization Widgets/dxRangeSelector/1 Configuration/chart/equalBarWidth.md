@@ -1,7 +1,11 @@
+<!--dep-->..\..\..\dxChart\5 Series Types\CommonSeries\ignoreEmptyPoints.md<!--/dep-->
 ===========================================================================
-<!--default-->true<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================
+
+<!--deprecated-->
+
+<!--/deprecated-->
 
 <!--shortDescription-->
 Specifies whether all bars in a series must have the same width, or may have different widths if any points in other series are missing.

@@ -53,7 +53,7 @@ For a more profound column customization, declare the [columns](/Documentation/A
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<dxTreeList_Options_columns><!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Array<dxTreeListColumn><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
 <!--/typeFunctionParamDescription1-->

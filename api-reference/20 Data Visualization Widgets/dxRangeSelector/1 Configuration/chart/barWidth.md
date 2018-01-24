@@ -1,7 +1,11 @@
+<!--dep-->..\..\..\dxChart\5 Series Types\CommonSeries\barPadding.md<!--/dep-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================
+
+<!--deprecated-->
+
+<!--/deprecated-->
 
 <!--shortDescription-->
 Specifies a common bar width as a percentage from 0 to 1.

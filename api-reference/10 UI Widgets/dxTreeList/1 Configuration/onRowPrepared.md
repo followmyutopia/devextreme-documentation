@@ -48,7 +48,7 @@ For plain data, the value of the key depends on the [keyExpr](/Documentation/Api
 Values displayed in the row cells.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->columns<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Array<dxTreeList_Options_columns><!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Array<dxTreeListColumn><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field7-->

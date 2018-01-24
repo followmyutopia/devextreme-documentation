@@ -72,7 +72,7 @@ The index of the column to which the cell belongs. For details on indexes, see t
 The row's visible index. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->column<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->dxDataGrid_Options_columns<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->dxDataGridColumn<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field12-->

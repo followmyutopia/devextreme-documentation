@@ -55,7 +55,7 @@ This element's container.
 The index of the column on which the context menu is invoked. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->dxDataGridOptions_columns<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->dxDataGridColumn<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field8-->

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->Array<dxDataGrid_Options_columns><!--/type-->
+<!--type-->Array<dxDataGridColumn><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

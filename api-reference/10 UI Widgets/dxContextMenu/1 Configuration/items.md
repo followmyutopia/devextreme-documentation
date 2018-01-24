@@ -1,3 +1,3 @@
 <!--merge--><!--/merge-->
-<!--type-->Array<dxTreeViewItemTemplate><!--/type-->
+<!--type-->Array<dxContextMenuItemTemplate><!--/type-->
 ===========================================================================

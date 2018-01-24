@@ -66,7 +66,7 @@ The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configu
 The index of the column to which the cell belongs.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->column<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->dxTreeListOptions_columns<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->dxTreeListColumn<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field10-->

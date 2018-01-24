@@ -1,10 +1,10 @@
 ===========================================================================
-<!--default-->{ my: 'center', at: 'center', of: window }<!--/default-->
-<!--type-->String | positionConfig<!--/type-->
+<!--default-->undefined<!--/default-->
+<!--type-->Number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-An object defining widget [positioning options](/Documentation/ApiReference/Common/Object_Structures/positionConfig/).
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -5,7 +5,7 @@
 Gets all visible columns.
 <!--/shortDescription-->
 
-<!--returnType-->Array<dxTreeList_Options_columns><!--/returnType-->
+<!--returnType-->Array<dxTreeListColumn><!--/returnType-->
 <!--returnDescription-->
 Visible columns; may include command columns.
 <!--/returnDescription-->

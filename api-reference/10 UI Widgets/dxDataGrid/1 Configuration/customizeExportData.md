@@ -14,7 +14,7 @@ The function assigned to this option will be called between the [onExporting](/D
 - **columns[]**.[allowExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowExporting)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Array<dxDataGrid_Options_columns><!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Array<dxDataGridColumn><!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1-->

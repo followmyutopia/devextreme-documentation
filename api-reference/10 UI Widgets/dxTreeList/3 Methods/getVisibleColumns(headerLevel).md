@@ -11,7 +11,7 @@ Gets all visible columns at a specific hierarchical level of column headers. Use
 The column headers' level.
 <!--/paramDescription1-->
 
-<!--returnType-->Array<dxTreeList_Options_columns><!--/returnType-->
+<!--returnType-->Array<dxTreeListColumn><!--/returnType-->
 <!--returnDescription-->
 Visible columns; may include command columns.
 <!--/returnDescription-->

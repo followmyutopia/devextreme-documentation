@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->Array<dxTreeList_Options_columns><!--/type-->
+<!--type-->Array<dxTreeListColumn><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

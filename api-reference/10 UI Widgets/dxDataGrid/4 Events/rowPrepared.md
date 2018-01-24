@@ -51,7 +51,7 @@ If a field providing keys is not specified in the [data source](/Documentation/A
 Values displayed in the row cells.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->columns<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Array<dxDataGridOptions_columns><!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Array<dxDataGridColumn><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field7-->

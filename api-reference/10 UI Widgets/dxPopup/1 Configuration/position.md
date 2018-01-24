@@ -1,5 +1,5 @@
 <!--merge--><!--/merge-->
-<!--type-->positionConfig<!--/type-->
+<!--type-->String|positionConfig<!--/type-->
 <!--keep--><!--/keep-->
 ===========================================================================
 <!--fullDescription-->

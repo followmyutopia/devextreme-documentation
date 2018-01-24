@@ -1,6 +1,6 @@
 <!--EventForAction-->..\4 Events\customItemCreating.md<!--/EventForAction-->
 ===========================================================================
-<!--default-->function(e) { e.customItem = e.text; }<!--/default-->
+<!--default-->function(e) { if(!e.customItem) { e.customItem = e.text; } }<!--/default-->
 <!--type-->function(e)<!--/type-->
 ===========================================================================
 

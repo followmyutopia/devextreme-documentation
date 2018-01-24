@@ -11,7 +11,7 @@ Gets all visible columns at a specific hierarchical level of column headers. Use
 The column headers' level.
 <!--/paramDescription1-->
 
-<!--returnType-->Array<dxDataGrid_Options_columns><!--/returnType-->
+<!--returnType-->Array<dxDataGridColumn><!--/returnType-->
 <!--returnDescription-->
 Visible columns; may include command columns.
 <!--/returnDescription-->

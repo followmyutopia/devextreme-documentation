@@ -105,7 +105,7 @@ This element's container.
 The index of the column on which the context menu is invoked.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->column<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->dxTreeList_Options_columns<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->dxTreeListColumn<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field8-->

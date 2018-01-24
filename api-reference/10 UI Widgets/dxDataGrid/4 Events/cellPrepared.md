@@ -66,7 +66,7 @@ The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configu
 The index of the column to which the cell belongs. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->column<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->dxDataGridOptions_columns<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->dxDataGridColumn<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field10-->

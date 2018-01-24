@@ -1,7 +1,11 @@
+<!--dep-->..\5 Series Types\CommonPolarChartSeries\barPadding.md<!--/dep-->
 ===========================================================================
-<!--default-->undefined<!--/default-->
 <!--type-->Number<!--/type-->
 ===========================================================================
+
+<!--deprecated-->
+
+<!--/deprecated-->
 
 <!--shortDescription-->
 Specifies a common bar width as a percentage from 0 to 1.
