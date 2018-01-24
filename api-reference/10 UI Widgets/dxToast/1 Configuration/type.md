@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'info'<!--/default-->
-<!--acceptValues-->'info' | 'warning' | 'error' | 'success' | 'custom'<!--/acceptValues-->
+<!--acceptValues-->'custom' | 'error' | 'info' | 'success' | 'warning'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

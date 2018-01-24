@@ -1,5 +1,5 @@
 ===========================================================================
-<!--acceptValues-->'dxTextBox' | 'dxNumberBox' | 'dxDateBox' | 'dxCheckBox' | 'dxSwitch' | 'dxSelectBox' | 'dxLookup' | 'dxTagBox' | 'dxTextArea' | 'dxColorBox' | 'dxCalendar' | 'dxAutocomplete' | 'dxRadioGroup' | 'dxSlider' | 'dxDropDownBox'<!--/acceptValues-->
+<!--acceptValues-->'dxAutocomplete' | 'dxCalendar' | 'dxCheckBox' | 'dxColorBox' | 'dxDateBox' | 'dxDropDownBox' | 'dxLookup' | 'dxNumberBox' | 'dxRadioGroup' | 'dxSelectBox' | 'dxSlider' | 'dxSwitch' | 'dxTagBox' | 'dxTextArea' | 'dxTextBox'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'full'<!--/default-->
-<!--acceptValues-->'full' | 'leftTop' | 'leftCenter' | 'leftBottom' | 'centerTop' | 'center' | 'centerBottom' | 'rightTop' | 'rightTop' | 'rightCenter' | 'rightBottom'<!--/acceptValues-->
+<!--acceptValues-->'center' | 'centerBottom' | 'centerTop' | 'full' | 'leftBottom' | 'leftCenter' | 'leftTop' | 'rightBottom' | 'rightCenter' | 'rightTop'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

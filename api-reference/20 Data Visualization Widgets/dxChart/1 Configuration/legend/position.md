@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'outside'<!--/default-->
-<!--acceptValues-->'outside' | 'inside'<!--/acceptValues-->
+<!--acceptValues-->'inside' | 'outside'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

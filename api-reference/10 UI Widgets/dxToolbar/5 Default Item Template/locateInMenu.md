@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'never'<!--/default-->
-<!--acceptValues-->'always' | 'never' | 'auto'<!--/acceptValues-->
+<!--acceptValues-->'always' | 'auto' | 'never'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'dialog'<!--/default-->
-<!--acceptValues-->'dialog' | 'series' | 'occurrence'<!--/acceptValues-->
+<!--acceptValues-->'dialog' | 'occurrence' | 'series'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

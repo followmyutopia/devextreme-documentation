@@ -1,5 +1,5 @@
 ===========================================================================
-<!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'allArgumentPoints' | 'allSeriesPoints' | 'excludePoints' | 'includePoints' | 'nearestPoint' | 'none' | 'onlyPoint'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

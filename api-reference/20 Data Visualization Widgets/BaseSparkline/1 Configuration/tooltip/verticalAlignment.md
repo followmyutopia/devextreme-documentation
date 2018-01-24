@@ -1,7 +1,7 @@
 <!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'top' | 'bottom'<!--/acceptValues-->
+<!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

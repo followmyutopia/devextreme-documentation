@@ -1,7 +1,7 @@
 <!--dep-->callValueChanged.md<!--/dep-->
 ===========================================================================
 <!--default-->'onMovingComplete'<!--/default-->
-<!--acceptValues-->'onMovingComplete' | 'onMoving'<!--/acceptValues-->
+<!--acceptValues-->'onMoving' | 'onMovingComplete'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

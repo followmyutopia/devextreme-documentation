@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'clockwise'<!--/default-->
-<!--acceptValues-->'clockwise' | 'anticlockwise'<!--/acceptValues-->
+<!--acceptValues-->'anticlockwise' | 'clockwise'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'leftTopRightBottom'<!--/default-->
-<!--acceptValues-->'leftTopRightBottom' | 'leftBottomRightTop' | 'rightTopLeftBottom' | 'rightBottomLeftTop'<!--/acceptValues-->
+<!--acceptValues-->'leftBottomRightTop' | 'leftTopRightBottom' | 'rightBottomLeftTop' | 'rightTopLeftBottom'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

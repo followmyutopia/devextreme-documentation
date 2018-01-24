@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'onClick'<!--/default-->
-<!--acceptValues-->'onHover' | 'onClick'<!--/acceptValues-->
+<!--acceptValues-->'onClick' | 'onHover'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

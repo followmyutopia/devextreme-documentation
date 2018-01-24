@@ -1,7 +1,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'year' | 'month' | 'day' | 'quarter' | 'hour' | 'minute' | 'second'<!--/acceptValues-->
-<!--type-->String | Number<!--/type-->
+<!--acceptValues-->'day' | 'hour' | 'minute' | 'month' | 'quarter' | 'second' | 'year'<!--/acceptValues-->
+<!--type-->Number | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

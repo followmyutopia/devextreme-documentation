@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'normal'<!--/default-->
-<!--acceptValues-->'normal' | 'default' | 'back' | 'danger' | 'success'<!--/acceptValues-->
+<!--acceptValues-->'back' | 'danger' | 'default' | 'normal' | 'success'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

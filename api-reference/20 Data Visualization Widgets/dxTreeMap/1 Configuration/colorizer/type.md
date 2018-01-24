@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'discrete' | 'gradient' | 'range' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'discrete' | 'gradient' | 'none' | 'range'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'center'<!--/default-->
-<!--acceptValues-->'before' | 'after' | 'center'<!--/acceptValues-->
+<!--acceptValues-->'after' | 'before' | 'center'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

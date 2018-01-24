@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'none'<!--/default-->
-<!--acceptValues-->'topN' | 'smallValueThreshold' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'none' | 'smallValueThreshold' | 'topN'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

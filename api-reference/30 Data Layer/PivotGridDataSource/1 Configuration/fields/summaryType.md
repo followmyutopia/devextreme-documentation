@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'count'<!--/default-->
-<!--acceptValues-->'sum' | 'min' | 'max' | 'avg' | 'count' | 'custom'<!--/acceptValues-->
+<!--acceptValues-->'avg' | 'count' | 'custom' | 'max' | 'min' | 'sum'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

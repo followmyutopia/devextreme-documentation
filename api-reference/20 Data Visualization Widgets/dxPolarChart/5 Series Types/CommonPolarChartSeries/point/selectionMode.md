@@ -1,7 +1,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\LineSeries\LineSeries.md,..\..\AreaSeries\AreaSeries.md,..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'allArgumentPoints' | 'allSeriesPoints' | 'none' | 'onlyPoint'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

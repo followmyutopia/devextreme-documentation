@@ -1,7 +1,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\LineSeries\LineSeries.md,..\..\StackedLineSeries\StackedLineSeries.md,..\..\FullStackedLineSeries\FullStackedLineSeries.md,..\..\StackedSplineSeries\StackedSplineSeries.md,..\..\FullStackedSplineSeries\FullStackedSplineSeries.md,..\..\SplineSeries\SplineSeries.md,..\..\StepLineSeries\StepLineSeries.md<!--/propertyOf-->
 <!--default-->'solid'<!--/default-->
-<!--acceptValues-->'solid' | 'longDash' | 'dash' | 'dot'<!--/acceptValues-->
+<!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

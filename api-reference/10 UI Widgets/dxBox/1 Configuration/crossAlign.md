@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'start'<!--/default-->
-<!--acceptValues-->'start' | 'end' | 'center' | 'stretch'<!--/acceptValues-->
+<!--acceptValues-->'center' | 'end' | 'start' | 'stretch'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

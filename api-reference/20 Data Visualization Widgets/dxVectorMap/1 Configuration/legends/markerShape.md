@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'square'<!--/default-->
-<!--acceptValues-->'square' | 'circle'<!--/acceptValues-->
+<!--acceptValues-->'circle' | 'square'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

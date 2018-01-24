@@ -1,6 +1,6 @@
 ===========================================================================
 <!--propertyOf-->..\AreaSeries\AreaSeries.md,..\BarSeries\BarSeries.md,..\StackedBarSeries\StackedBarSeries.md,..\LineSeries\LineSeries.md<!--/propertyOf-->
-<!--acceptValues-->'onlyPoint' | 'allSeriesPoints' | 'allArgumentPoints' | 'nearestPoint' | 'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'allArgumentPoints' | 'allSeriesPoints' | 'excludePoints' | 'includePoints' | 'nearestPoint' | 'none' | 'onlyPoint'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

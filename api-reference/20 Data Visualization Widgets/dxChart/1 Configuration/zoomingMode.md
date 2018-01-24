@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'none'<!--/default-->
-<!--acceptValues-->'none' | 'touch' | 'mouse' | 'all'<!--/acceptValues-->
+<!--acceptValues-->'all' | 'mouse' | 'none' | 'touch'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

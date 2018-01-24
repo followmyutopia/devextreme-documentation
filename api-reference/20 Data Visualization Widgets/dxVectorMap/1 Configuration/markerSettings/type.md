@@ -1,7 +1,7 @@
 <!--dep-->..\layers\elementType.md<!--/dep-->
 ===========================================================================
 <!--default-->'dot'<!--/default-->
-<!--acceptValues-->'dot' | 'bubble' | 'pie' | 'image'<!--/acceptValues-->
+<!--acceptValues-->'bubble' | 'dot' | 'image' | 'pie'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

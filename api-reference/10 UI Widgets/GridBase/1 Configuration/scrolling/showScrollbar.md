@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'onScroll'<!--/default-->
-<!--acceptValues-->'onScroll' | 'onHover' | 'always' | 'never'<!--/acceptValues-->
+<!--acceptValues-->'always' | 'never' | 'onHover' | 'onScroll'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

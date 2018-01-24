@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'none'<!--/default-->
-<!--acceptValues-->'none' | 'allArgumentPoints'<!--/acceptValues-->
+<!--acceptValues-->'allArgumentPoints' | 'none'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

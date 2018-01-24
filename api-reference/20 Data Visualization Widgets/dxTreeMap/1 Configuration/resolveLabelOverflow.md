@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'hide'<!--/default-->
-<!--acceptValues-->'hide' | 'ellipsis'<!--/acceptValues-->
+<!--acceptValues-->'ellipsis' | 'hide'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

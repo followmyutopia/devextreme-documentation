@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'text'<!--/default-->
-<!--acceptValues-->'text' | 'email' | 'search' | 'tel' | 'url' | 'password'<!--/acceptValues-->
+<!--acceptValues-->'email' | 'password' | 'search' | 'tel' | 'text' | 'url'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

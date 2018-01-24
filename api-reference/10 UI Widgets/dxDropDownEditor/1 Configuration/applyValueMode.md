@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'instantly'<!--/default-->
-<!--acceptValues-->'useButtons' | 'instantly'<!--/acceptValues-->
+<!--acceptValues-->'instantly' | 'useButtons'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

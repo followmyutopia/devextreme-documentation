@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'static', 'slideItem' (iOS), 'swipe' (Android), 'context' (Windows_Mobile)<!--/default-->
-<!--acceptValues-->'static' | 'toggle' | 'slideButton' | 'slideItem' | 'swipe' | 'context'<!--/acceptValues-->
+<!--acceptValues-->'context' | 'slideButton' | 'slideItem' | 'static' | 'swipe' | 'toggle'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

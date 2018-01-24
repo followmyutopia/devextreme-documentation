@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'onHover'<!--/default-->
-<!--acceptValues-->'onHover' | 'always'<!--/acceptValues-->
+<!--acceptValues-->'always' | 'onHover'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

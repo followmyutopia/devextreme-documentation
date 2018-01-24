@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'century'<!--/default-->
-<!--acceptValues-->'month' | 'year' | 'decade' | 'century'<!--/acceptValues-->
+<!--acceptValues-->'century' | 'decade' | 'month' | 'year'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

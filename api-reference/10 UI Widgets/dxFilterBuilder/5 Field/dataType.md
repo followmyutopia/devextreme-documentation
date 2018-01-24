@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'string'<!--/default-->
-<!--acceptValues-->'string' | 'number' | 'date' | 'datetime' | 'boolean' | 'object'<!--/acceptValues-->
+<!--acceptValues-->'boolean' | 'date' | 'datetime' | 'number' | 'object' | 'string'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

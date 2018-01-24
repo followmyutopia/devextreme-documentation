@@ -1,7 +1,7 @@
 <!--dep-->..\type.md<!--/dep-->
 ===========================================================================
 <!--default-->'pie'<!--/default-->
-<!--acceptValues-->'pie' | 'doughnut' | 'donut'<!--/acceptValues-->
+<!--acceptValues-->'donut' | 'doughnut' | 'pie'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

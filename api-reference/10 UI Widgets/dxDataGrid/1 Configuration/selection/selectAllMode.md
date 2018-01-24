@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'allPages'<!--/default-->
-<!--acceptValues-->'page' | 'allPages'<!--/acceptValues-->
+<!--acceptValues-->'allPages' | 'page'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

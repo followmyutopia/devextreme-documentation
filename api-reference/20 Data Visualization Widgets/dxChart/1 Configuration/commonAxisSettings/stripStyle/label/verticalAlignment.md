@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'center'<!--/default-->
-<!--acceptValues-->'top' | 'center' | 'bottom'<!--/acceptValues-->
+<!--acceptValues-->'bottom' | 'center' | 'top'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

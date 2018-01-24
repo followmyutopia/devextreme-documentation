@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'columns'<!--/default-->
-<!--acceptValues-->'inside' | 'outside' | 'columns'<!--/acceptValues-->
+<!--acceptValues-->'columns' | 'inside' | 'outside'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

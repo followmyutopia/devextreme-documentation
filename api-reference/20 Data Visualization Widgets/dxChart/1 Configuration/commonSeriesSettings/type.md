@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'line'<!--/default-->
-<!--acceptValues-->'line' | 'stackedline' | 'fullstackedline' | 'area' | 'stackedarea' | 'fullstackedarea' | 'bar' | 'stackedbar' | 'fullstackedbar' | 'spline' | 'splinearea' | 'scatter' | 'candlestick' | 'stock' | 'rangearea' | 'rangebar' | 'stepline' | 'steparea' | 'bubble' | 'fullstackedspline' | 'stackedspline' | 'stackedsplinearea' | 'fullstackedsplinearea'<!--/acceptValues-->
+<!--acceptValues-->'area' | 'bar' | 'bubble' | 'candlestick' | 'fullstackedarea' | 'fullstackedbar' | 'fullstackedline' | 'fullstackedspline' | 'fullstackedsplinearea' | 'line' | 'rangearea' | 'rangebar' | 'scatter' | 'spline' | 'splinearea' | 'stackedarea' | 'stackedbar' | 'stackedline' | 'stackedspline' | 'stackedsplinearea' | 'steparea' | 'stepline' | 'stock'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

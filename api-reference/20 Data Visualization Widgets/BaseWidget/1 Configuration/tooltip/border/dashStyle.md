@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'solid'<!--/default-->
-<!--acceptValues-->'solid' | 'longDash' | 'dash' | 'dot'<!--/acceptValues-->
+<!--acceptValues-->'dash' | 'dot' | 'longDash' | 'solid'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

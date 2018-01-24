@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'string' | 'number' | 'date'<!--/acceptValues-->
+<!--acceptValues-->'date' | 'number' | 'string'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

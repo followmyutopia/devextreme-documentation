@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'onClick'<!--/default-->
-<!--acceptValues-->'onClick' | 'onLongTap' | 'always' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'always' | 'none' | 'onClick' | 'onLongTap'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'waved'<!--/default-->
-<!--acceptValues-->'waved' | 'straight'<!--/acceptValues-->
+<!--acceptValues-->'straight' | 'waved'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'scatter'<!--/default-->
-<!--acceptValues-->'line' | 'area' | 'bar' | 'stackedbar' | 'scatter'<!--/acceptValues-->
+<!--acceptValues-->'area' | 'bar' | 'line' | 'scatter' | 'stackedbar'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

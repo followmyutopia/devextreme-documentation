@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'custom'<!--/default-->
-<!--acceptValues-->'fade' | 'fadeIn' | 'fadeOut' | 'pop' | 'slide' | 'slideIn' | 'slideOut' | 'css'<!--/acceptValues-->
+<!--acceptValues-->'css' | 'fade' | 'fadeIn' | 'fadeOut' | 'pop' | 'slide' | 'slideIn' | 'slideOut'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

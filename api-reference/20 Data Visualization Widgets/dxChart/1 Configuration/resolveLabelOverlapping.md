@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'none'<!--/default-->
-<!--acceptValues-->'none' | 'hide' | 'stack'<!--/acceptValues-->
+<!--acceptValues-->'hide' | 'none' | 'stack'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

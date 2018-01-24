@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'none'<!--/default-->
-<!--acceptValues-->'none' | 'flip' | 'fit' | 'flipfit'<!--/acceptValues-->
+<!--acceptValues-->'fit' | 'flip' | 'flipfit' | 'none'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

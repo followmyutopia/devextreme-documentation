@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'includePoints'<!--/default-->
-<!--acceptValues-->'includePoints' | 'excludePoints' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'excludePoints' | 'includePoints' | 'none'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

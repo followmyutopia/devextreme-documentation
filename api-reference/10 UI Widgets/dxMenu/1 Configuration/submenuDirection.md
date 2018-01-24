@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'auto'<!--/default-->
-<!--acceptValues-->'auto' | 'rightOrBottom' | 'leftOrTop'<!--/acceptValues-->
+<!--acceptValues-->'auto' | 'leftOrTop' | 'rightOrBottom'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

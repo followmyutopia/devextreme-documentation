@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'date'<!--/default-->
-<!--acceptValues-->'date' | 'time' | 'datetime'<!--/acceptValues-->
+<!--acceptValues-->'date' | 'datetime' | 'time'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

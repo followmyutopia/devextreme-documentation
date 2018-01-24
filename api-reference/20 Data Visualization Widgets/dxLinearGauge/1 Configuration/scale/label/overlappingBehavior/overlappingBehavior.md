@@ -1,3 +1,4 @@
 <!--merge--><!--/merge-->
-<!--type-->String|Object<!--/type-->
+<!--acceptValues-->'hide'|'none'<!--/acceptValues-->
+<!--type-->Object|String<!--/type-->
 ===========================================================================

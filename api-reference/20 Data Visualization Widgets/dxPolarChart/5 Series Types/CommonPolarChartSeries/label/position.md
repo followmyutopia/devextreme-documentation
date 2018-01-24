@@ -1,7 +1,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\BarSeries\BarSeries.md,..\..\StackedBarSeries\StackedBarSeries.md<!--/propertyOf-->
 <!--default-->'outside'<!--/default-->
-<!--acceptValues-->'outside' | 'inside'<!--/acceptValues-->
+<!--acceptValues-->'inside' | 'outside'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

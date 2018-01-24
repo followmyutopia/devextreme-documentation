@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'dynamicSlope'<!--/default-->
-<!--acceptValues-->'dynamicSlope' | 'dynamicHeight'<!--/acceptValues-->
+<!--acceptValues-->'dynamicHeight' | 'dynamicSlope'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

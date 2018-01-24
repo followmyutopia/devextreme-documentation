@@ -1,7 +1,7 @@
 <!--dep-->..\..\1 Configuration\segmentsDirection.md<!--/dep-->
 ===========================================================================
 <!--default-->'clockwise'<!--/default-->
-<!--acceptValues-->'clockwise' | 'anticlockwise'<!--/acceptValues-->
+<!--acceptValues-->'anticlockwise' | 'clockwise'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

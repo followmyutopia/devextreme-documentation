@@ -1,6 +1,6 @@
 ===========================================================================
-<!--acceptValues-->'none' | 'flip' | 'fit' | 'flipfit' | 'none flip' | 'flip none' | 'none fit' | 'fit none' | 'none flipfit' | 'flipfit none' | 'flip fit' | 'fit flip' | 'fit flipfit' | 'flipfit fit'<!--/acceptValues-->
-<!--type-->String | Object<!--/type-->
+<!--acceptValues-->'fit' | 'fit flip' | 'fit flipfit' | 'fit none' | 'flip' | 'flip fit' | 'flip none' | 'flipfit' | 'flipfit fit' | 'flipfit none' | 'none' | 'none fit' | 'none flip' | 'none flipfit'<!--/acceptValues-->
+<!--type-->Object | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

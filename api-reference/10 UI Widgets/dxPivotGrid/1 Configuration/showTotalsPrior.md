@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'none'<!--/default-->
-<!--acceptValues-->'rows' | 'columns' | 'both' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'both' | 'columns' | 'none' | 'rows'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

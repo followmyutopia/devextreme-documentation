@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'scrollBottom'<!--/default-->
-<!--acceptValues-->'scrollBottom' | 'nextButton'<!--/acceptValues-->
+<!--acceptValues-->'nextButton' | 'scrollBottom'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

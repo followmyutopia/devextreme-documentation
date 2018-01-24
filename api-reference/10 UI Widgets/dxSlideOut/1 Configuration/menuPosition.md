@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'normal'<!--/default-->
-<!--acceptValues-->'normal' | 'inverted'<!--/acceptValues-->
+<!--acceptValues-->'inverted' | 'normal'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

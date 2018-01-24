@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'numeric' | 'datetime' | 'string'<!--/acceptValues-->
+<!--acceptValues-->'datetime' | 'numeric' | 'string'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

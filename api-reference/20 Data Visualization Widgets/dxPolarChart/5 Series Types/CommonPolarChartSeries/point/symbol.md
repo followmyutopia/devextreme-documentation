@@ -1,7 +1,7 @@
 ===========================================================================
 <!--propertyOf-->..\..\LineSeries\LineSeries.md,..\..\AreaSeries\AreaSeries.md,..\..\ScatterSeries\ScatterSeries.md<!--/propertyOf-->
 <!--default-->'circle'<!--/default-->
-<!--acceptValues-->'circle' | 'square' | 'polygon' | 'triangle' | 'cross'<!--/acceptValues-->
+<!--acceptValues-->'circle' | 'cross' | 'polygon' | 'square' | 'triangle'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

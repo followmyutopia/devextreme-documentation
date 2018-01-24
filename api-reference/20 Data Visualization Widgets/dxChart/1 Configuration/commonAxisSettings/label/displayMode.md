@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'standard'<!--/default-->
-<!--acceptValues-->'standard' | 'rotate' | 'stagger'<!--/acceptValues-->
+<!--acceptValues-->'rotate' | 'stagger' | 'standard'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

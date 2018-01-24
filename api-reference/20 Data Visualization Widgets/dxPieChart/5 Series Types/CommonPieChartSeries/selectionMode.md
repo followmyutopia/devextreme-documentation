@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'onlyPoint'<!--/default-->
-<!--acceptValues-->'onlyPoint' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'none' | 'onlyPoint'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

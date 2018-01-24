@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'discrete' | 'continuous' | 'logarithmic'<!--/acceptValues-->
+<!--acceptValues-->'continuous' | 'discrete' | 'logarithmic'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,7 +1,7 @@
 <!--dep-->..\tickInterval\tickInterval.md<!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'millisecond' | 'second' | 'minute' | 'hour' | 'day' | 'week' | 'month' | 'quarter' | 'year'<!--/acceptValues-->
+<!--acceptValues-->'day' | 'hour' | 'millisecond' | 'minute' | 'month' | 'quarter' | 'second' | 'week' | 'year'<!--/acceptValues-->
 <!--type-->Number | Object | String<!--/type-->
 ===========================================================================
 

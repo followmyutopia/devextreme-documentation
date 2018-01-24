@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'include'<!--/default-->
-<!--acceptValues-->'include' | 'exclude'<!--/acceptValues-->
+<!--acceptValues-->'exclude' | 'include'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

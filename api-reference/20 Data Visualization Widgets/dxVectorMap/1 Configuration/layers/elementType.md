@@ -1,6 +1,6 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--acceptValues-->'dot' | 'bubble' | 'pie' | 'image'<!--/acceptValues-->
+<!--acceptValues-->'bubble' | 'dot' | 'image' | 'pie'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

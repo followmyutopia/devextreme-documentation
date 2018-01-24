@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'localStorage'<!--/default-->
-<!--acceptValues-->'localStorage' | 'sessionStorage' | 'custom'<!--/acceptValues-->
+<!--acceptValues-->'custom' | 'localStorage' | 'sessionStorage'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

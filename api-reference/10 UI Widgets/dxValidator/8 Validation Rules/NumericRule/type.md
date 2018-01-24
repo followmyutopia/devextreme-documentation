@@ -1,5 +1,5 @@
 ===========================================================================
-<!--acceptValues-->'numeric'<!--/acceptValues-->
+<!--acceptValues-->'compare' | 'custom' | 'email' | 'numeric' | 'pattern' | 'range' | 'required' | 'stringLength'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

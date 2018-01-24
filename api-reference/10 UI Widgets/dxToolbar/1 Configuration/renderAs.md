@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'topToolbar'<!--/default-->
-<!--acceptValues-->'topToolbar' | 'bottomToolbar'<!--/acceptValues-->
+<!--acceptValues-->'bottomToolbar' | 'topToolbar'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

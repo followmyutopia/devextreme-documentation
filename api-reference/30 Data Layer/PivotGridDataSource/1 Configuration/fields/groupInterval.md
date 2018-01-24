@@ -1,7 +1,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'year' | 'quarter' | 'month' | 'day' | 'dayOfWeek'<!--/acceptValues-->
-<!--type-->String | Number<!--/type-->
+<!--acceptValues-->'day' | 'dayOfWeek' | 'month' | 'quarter' | 'year'<!--/acceptValues-->
+<!--type-->Number | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

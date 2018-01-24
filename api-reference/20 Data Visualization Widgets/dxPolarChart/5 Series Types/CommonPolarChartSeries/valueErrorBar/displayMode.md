@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'auto'<!--/default-->
-<!--acceptValues-->'auto' | 'low' | 'high' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'auto' | 'high' | 'low' | 'none'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

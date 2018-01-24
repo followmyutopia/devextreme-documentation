@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->{ name: 'onHover', delay: { show: 0, hide: 0 } }<!--/default-->
-<!--acceptValues-->'onHover' | 'onClick'<!--/acceptValues-->
+<!--acceptValues-->'onClick' | 'onHover'<!--/acceptValues-->
 <!--type-->Object | String<!--/type-->
 ===========================================================================
 

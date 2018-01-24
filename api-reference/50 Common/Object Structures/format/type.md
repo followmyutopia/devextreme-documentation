@@ -1,5 +1,5 @@
 ===========================================================================
-<!--acceptValues-->'currency' | 'fixedPoint' | 'percent' | 'decimal' | 'exponential' | 'largeNumber' | 'thousands' | 'millions' | 'billions' | 'trillions' | 'longDate' | 'longTime' | 'longDateLongTime' | 'monthAndDay' | 'monthAndYear' | 'quarterAndYear' | 'shortDate' | 'shortTime' | 'shortDateShortTime' | 'second' | 'millisecond' | 'day' | 'month' | 'quarter' | 'year' | 'dayOfWeek' | 'hour' | 'minute'<!--/acceptValues-->
+<!--acceptValues-->'billions' | 'currency' | 'day' | 'dayOfWeek' | 'decimal' | 'exponential' | 'fixedPoint' | 'hour' | 'largeNumber' | 'longDate' | 'longDateLongTime' | 'longTime' | 'millions' | 'millisecond' | 'minute' | 'month' | 'monthAndDay' | 'monthAndYear' | 'percent' | 'quarter' | 'quarterAndYear' | 'second' | 'shortDate' | 'shortDateShortTime' | 'shortTime' | 'thousands' | 'trillions' | 'year'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

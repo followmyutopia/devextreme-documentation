@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'row' | 'column'<!--/acceptValues-->
+<!--acceptValues-->'column' | 'row'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

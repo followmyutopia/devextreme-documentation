@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'vertical'<!--/default-->
-<!--acceptValues-->'vertical' | 'horizontal' | 'both'<!--/acceptValues-->
+<!--acceptValues-->'both' | 'horizontal' | 'vertical'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

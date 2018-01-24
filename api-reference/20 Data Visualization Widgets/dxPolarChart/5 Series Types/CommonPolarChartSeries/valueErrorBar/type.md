@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'percent' | 'stdError' | 'stdDeviation' | 'variance' | 'fixed'<!--/acceptValues-->
+<!--acceptValues-->'fixed' | 'percent' | 'stdDeviation' | 'stdError' | 'variance'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'line'<!--/default-->
-<!--acceptValues-->'line' | 'spline' | 'stepline' | 'area' | 'splinearea' | 'steparea' | 'bar' | 'winloss'<!--/acceptValues-->
+<!--acceptValues-->'area' | 'bar' | 'line' | 'spline' | 'splinearea' | 'steparea' | 'stepline' | 'winloss'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

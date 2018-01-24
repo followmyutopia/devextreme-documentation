@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'logarithmic' | 'continuous' | 'discrete' | 'semidiscrete'<!--/acceptValues-->
+<!--acceptValues-->'continuous' | 'discrete' | 'logarithmic' | 'semidiscrete'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

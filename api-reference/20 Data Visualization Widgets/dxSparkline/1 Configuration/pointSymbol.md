@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'circle'<!--/default-->
-<!--acceptValues-->'circle' | 'square' | 'polygon' | 'triangle' | 'cross'<!--/acceptValues-->
+<!--acceptValues-->'circle' | 'cross' | 'polygon' | 'square' | 'triangle'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
