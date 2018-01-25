@@ -5,19 +5,14 @@
 ===========================================================================
 
 <!--shortDescription-->
-Sets the palette to be used for colorizing funnel items.
+Sets the palette to be used to colorize funnel items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts either the name of a [predefined palette](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes) or an array of colors in one of the following formats.
+#include dataviz-ref-palette
 
-* Hexadecimal colors        
-* RGB colors        
-* RGBA colors       
-* Predefined/cross-browser color names      
-* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
-
-If the funnel has more items than the palette has colors, the colors are repeated with slight modification.
-
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `VizPalette` enum. This enum accepts the following values: `Default`, `SoftPastel`, `HarmonyLight`, `Pastel`, `Bright`, `Soft`, `Ocean`, `Vintage`, `Violet`, `Carmine`, `DarkMoon`, `SoftBlue`, `DarkViolet` and `GreenMist`.
+#####See Also#####
+- [Palettes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes)
+- [paletteExtensionMode]({basewidgetpath}/Configuration/#paletteExtensionMode)
+- [colorField](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#colorField)
 <!--/fullDescription-->

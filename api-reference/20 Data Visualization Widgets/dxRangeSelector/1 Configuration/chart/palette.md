@@ -5,11 +5,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-Sets the name of the palette to be used in the range selector's chart. Alternatively, an array of colors can be set as a custom palette to be used within this chart.
+Sets the palette to be used to colorize series in the chart.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn more about chart palettes, refer to the [Palettes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes) topic.
+#include dataviz-ref-palette
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `VizPalette` enum. This enum accepts the following values: `Default`, `SoftPastel`, `HarmonyLight`, `Pastel`, `Bright`, `Soft`, `Ocean`, `Vintage`, `Violet`, `Carmine`, `DarkMoon`, `SoftBlue`, `DarkViolet` and `GreenMist`.
+#####See Also#####
+- [Palettes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes)
+- **chart**.[paletteExtensionMode]({basewidgetpath}/Configuration/chart/#paletteExtensionMode)
 <!--/fullDescription-->
