@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->
+<!--acceptValues-->undefined | 'center' | 'left' | 'right'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -47,3 +47,8 @@ The model data. Available only if Knockout is used.
 <!--typeFunctionParamDescription1_field7-->
 The selected item's node.
 <!--/typeFunctionParamDescription1_field7-->
+<!--typeFunctionParamName1_field8-->itemElement<!--/typeFunctionParamName1_field8-->
+<!--typeFunctionParamType1_field8-->dxElement<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamDescription1_field8-->
+
+<!--/typeFunctionParamDescription1_field8-->

@@ -35,8 +35,13 @@ The widget's container.
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field7-->node<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->dxTreeViewNode<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamName1_field7-->itemElement<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 A node of the selected item.
 <!--/typeFunctionParamDescription1_field7-->
+<!--typeFunctionParamName1_field8-->node<!--/typeFunctionParamName1_field8-->
+<!--typeFunctionParamType1_field8-->dxTreeViewNode<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamDescription1_field8-->
+
+<!--/typeFunctionParamDescription1_field8-->

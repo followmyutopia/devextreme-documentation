@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'column' | 'data' | 'filter' | 'row'<!--/acceptValues-->
+<!--acceptValues-->undefined | 'column' | 'data' | 'filter' | 'row'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

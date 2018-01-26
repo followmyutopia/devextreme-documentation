@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'asc' | 'desc'<!--/acceptValues-->
+<!--acceptValues-->undefined | 'asc' | 'desc'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
