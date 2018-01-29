@@ -43,10 +43,10 @@ The model data. Available only if Knockout is used.
 <!--typeFunctionParamName1_field7-->itemElement<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The item's node.
+The selected item's container.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->node<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->dxTreeViewNode<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-
+The selected item's node.
 <!--/typeFunctionParamDescription1_field8-->

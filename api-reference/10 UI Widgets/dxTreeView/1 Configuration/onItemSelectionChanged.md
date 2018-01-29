@@ -50,5 +50,5 @@ The selected item's node.
 <!--typeFunctionParamName1_field8-->itemElement<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->dxElement<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-
+The selected item's container.
 <!--/typeFunctionParamDescription1_field8-->
