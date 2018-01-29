@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'row'<!--/default-->
-<!--acceptValues-->'batch' | 'cell' | 'form' | 'popup' | 'row'<!--/acceptValues-->
+<!--acceptValues-->'batch' | 'cell' | 'row' | 'form' | 'popup'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

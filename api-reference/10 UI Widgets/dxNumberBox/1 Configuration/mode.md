@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'text', 'number' (mobile_devices)<!--/default-->
-<!--acceptValues-->'number' | 'tel' | 'text'<!--/acceptValues-->
+<!--acceptValues-->'number' | 'text' | 'tel'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

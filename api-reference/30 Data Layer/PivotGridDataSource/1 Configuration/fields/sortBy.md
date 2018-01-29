@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'displayText' | 'none' | 'value'<!--/acceptValues-->
+<!--acceptValues-->'displayText' | 'value' | 'none'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

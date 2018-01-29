@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'billions' | 'currency' | 'day' | 'dayOfWeek' | 'decimal' | 'exponential' | 'fixedPoint' | 'hour' | 'largeNumber' | 'longDate' | 'longDateLongTime' | 'longTime' | 'millions' | 'millisecond' | 'minute' | 'month' | 'monthAndDay' | 'monthAndYear' | 'percent' | 'quarter' | 'quarterAndYear' | 'second' | 'shortDate' | 'shortDateShortTime' | 'shortTime' | 'thousands' | 'trillions' | 'year'<!--/acceptValues-->
+<!--acceptValues-->'billions' | 'currency' | 'day' | 'decimal' | 'exponential' | 'fixedPoint' | 'largeNumber' | 'longDate' | 'longTime' | 'millions' | 'millisecond' | 'month' | 'monthAndDay' | 'monthAndYear' | 'percent' | 'quarter' | 'quarterAndYear' | 'shortDate' | 'shortTime' | 'thousands' | 'trillions' | 'year' | 'dayOfWeek' | 'hour' | 'longDateLongTime' | 'minute' | 'second' | 'shortDateShortTime'<!--/acceptValues-->
 <!--type-->function(value) | Object | String<!--/type-->
 ===========================================================================
 
