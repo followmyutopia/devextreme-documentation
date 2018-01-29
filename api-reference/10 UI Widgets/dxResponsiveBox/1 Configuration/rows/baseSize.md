@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The row's base height. Ignored when the [singleColumnScreen](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#singleColumnScreen) option arranges all elements in a single column.
+The row's base height. Calculated automatically when the [singleColumnScreen](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#singleColumnScreen) option arranges all elements in a single column.
 <!--/shortDescription-->
 
 <!--fullDescription-->

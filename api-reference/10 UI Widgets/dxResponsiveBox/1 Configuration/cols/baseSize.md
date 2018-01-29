@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The column's base width. Ignored when the [singleColumnScreen](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#singleColumnScreen) option arranges all elements in a single column.
+The column's base width. Calculated automatically when the [singleColumnScreen](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#singleColumnScreen) option arranges all elements in a single column.
 <!--/shortDescription-->
 
 <!--fullDescription-->
