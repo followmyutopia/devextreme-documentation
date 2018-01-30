@@ -3,17 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before a row (in [row edit mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Row_Mode)) or a cell (in [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Batch_Mode)) switches into the editing state.
+Raised before a cell or row switches to the editing state.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onEditingStart](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditingStart) option to handle the event.
-
-When implementing a handling function for this event, use the object passed to this function as its argument. Among the fields of this object, you can find parameters of the about-to-be-edited row.
-
-If you need to prevent a specific row or cell from switching into the editing state, assign **true** to the **cancel** field of the object passed to the handler as the argument.
-
-You can also distinguish rows that exist in the data source from rows that have not yet been transmitted to the data source. For this purpose, use the **key** field of the object with the row parameters. Not-yet-transmitted rows have this field **undefined**.
+Main article: [onEditingStart](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditingStart)
 
 #####See Also#####
 #include common-link-handleevents

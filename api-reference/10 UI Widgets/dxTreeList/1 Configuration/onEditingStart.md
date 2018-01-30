@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for **editingStart**. Executed before a cell or row switches to the editing state.
+A handler for the **editingStart** event. Executed before a cell or row switches to the editing state.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+In cell or batch [editing mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode), this handler is executed while rendering cells of columns whose [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways) option is set to **true**.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

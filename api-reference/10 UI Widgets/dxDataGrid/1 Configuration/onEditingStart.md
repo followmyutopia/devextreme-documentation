@@ -5,15 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [editingStart](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#editingStart) event.
+A handler for the **editingStart** event. Executed before a cell or row switches to the editing state.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **editingStart** event fires before a row (in [row edit mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Row_Mode)) or a cell (in [batch edit mode](/Documentation/Guide/Widgets/DataGrid/Editing/#User_Interaction/Batch_Mode)) switches into the editing state. When implementing a handler for this event, use the object passed to it as its argument. Among the fields of this object, you can find parameters of the about-to-be-edited row.
-
-If you need to prevent a specific row or cell from switching into the editing state, assign **true** to the **cancel** field of the object passed to the handler as the argument.
-
-You can also distinguish rows that exist in the data source from rows that have not yet been transmitted to the data source. For this purpose, use the **key** field of the object with the row parameters. Not-yet-transmitted rows have this field **undefined**.
+In cell or batch [editing mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode), this handler is executed while rendering cells of columns whose [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#showEditorAlways) option is set to **true**.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/datagridgrideditingrow/"
