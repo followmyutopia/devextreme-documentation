@@ -1,3 +1,7 @@
+Make sure you linked all the required resources before creating a widget:
+
+- **Link Resources**: [Local Scripts](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) | [CDN Services](/Documentation/Guide/Getting_Started/Installation/CDN_Services/) | [NuGet Package](/Documentation/Guide/Getting_Started/Installation/NuGet_Package/) | [Bower Package](/Documentation/Guide/Getting_Started/Installation/Bower_Package/) | [npm Package](/Documentation/Guide/Getting_Started/Installation/npm_Package/)
+
 All DevExtreme widgets can be created on a page in the same manner - using a widget-specific Knockout binding. To create, for example, the dxChart widget, add a `<div>` element to the `<body>` tag of your page and use the `dxChart` binding as the following code shows.
 
     <!--HTML--><div data-bind="dxChart: { }"></div>
