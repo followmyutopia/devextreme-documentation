@@ -1,9 +1,9 @@
 ===========================================================================
-<!--type-->Object<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-An object containing information about the pivot grid cell.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

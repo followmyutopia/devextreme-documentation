@@ -2,10 +2,15 @@
 ===================================================================
 
 <!--shortDescription-->
-Recalculates the widget's size and position without rerendering.
+
 <!--/shortDescription-->
 
+<!--paramName1-->callback<!--/paramName1-->
+<!--paramType1-->function()<!--/paramType1-->
+<!--paramDescription1-->
+
+<!--/paramDescription1-->
+
 <!--fullDescription-->
-#####See Also#####
-#include common-link-callmethods
+
 <!--/fullDescription-->

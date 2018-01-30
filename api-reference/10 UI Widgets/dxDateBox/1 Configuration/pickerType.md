@@ -1,5 +1,5 @@
 ===========================================================================
-<!--default-->'native', 'rollers' (android_below_version_4.4, desktop, windows), 'calendar' (generic_desktop, no-phone_windows)<!--/default-->
+<!--default-->'calendar', 'native' (iOS, Android), 'rollers' (Android_below_version_4.4, phones_on_Windows_Mobile)<!--/default-->
 <!--acceptValues-->'calendar' | 'list' | 'native' | 'rollers'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

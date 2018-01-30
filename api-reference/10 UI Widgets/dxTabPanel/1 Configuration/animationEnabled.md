@@ -1,4 +1,4 @@
 <!--merge--><!--/merge-->
-<!--default-->false (generic)<!--/default-->
+<!--default-->false, true (Android, iOS, Windows_Mobile)<!--/default-->
 <!--type-->Boolean<!--/type-->
 ===========================================================================

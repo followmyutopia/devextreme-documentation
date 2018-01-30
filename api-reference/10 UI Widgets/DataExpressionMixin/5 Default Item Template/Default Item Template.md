@@ -1,3 +1,6 @@
+===========================================================================
+<!--type-->Object<!--/type-->
+===========================================================================
 
 <!--shortDescription-->
 This section lists the data source fields that are used in a default item template.

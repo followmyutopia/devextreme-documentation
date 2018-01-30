@@ -1,11 +1,12 @@
 ===================================================================
+<!--module-->viz/themes<!--/module-->
+<!--export-->currentTheme<!--/export-->
 ===================================================================
 
 <!--shortDescription-->
-Recalculates the widget's size and position without rerendering.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#####See Also#####
-#include common-link-callmethods
+
 <!--/fullDescription-->

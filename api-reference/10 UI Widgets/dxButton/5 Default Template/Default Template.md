@@ -1,3 +1,6 @@
+===========================================================================
+<!--type-->Object<!--/type-->
+===========================================================================
 
 <!--shortDescription-->
 This section lists the fields of a context object available in a button template.

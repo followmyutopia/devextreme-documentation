@@ -21,6 +21,16 @@ Use the **template** option of a group item to display custom content under a gr
 <!--typeFunctionParamDescription1-->
 The **formData** object and the **Form** instance.
 <!--/typeFunctionParamDescription1-->
+<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->dxForm<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamDescription1_field1-->
+
+<!--/typeFunctionParamDescription1_field1-->
+<!--typeFunctionParamName1_field2-->formData<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamType1_field2-->Object<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamDescription1_field2-->
+
+<!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->

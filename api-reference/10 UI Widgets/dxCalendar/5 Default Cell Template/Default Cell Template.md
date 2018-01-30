@@ -1,3 +1,6 @@
+===========================================================================
+<!--type-->Object<!--/type-->
+===========================================================================
 
 <!--shortDescription-->
 This section lists the fields that are used in a default template for calendar cells.

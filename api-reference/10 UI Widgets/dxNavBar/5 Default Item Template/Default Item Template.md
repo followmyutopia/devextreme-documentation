@@ -1,3 +1,7 @@
+===========================================================================
+<!--type-->Object<!--/type-->
+<!--inherits-->..\..\dxTabs\5 Default Item Template\Default Item Template.md<!--/inherits-->
+===========================================================================
 
 <!--shortDescription-->
 This section lists the data source fields that are used in a default template for navbar items.

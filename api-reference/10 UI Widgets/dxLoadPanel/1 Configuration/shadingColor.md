@@ -1,3 +1,3 @@
 <!--merge--><!--/merge-->
-<!--default-->'transparent' (generic)<!--/default-->
+<!--default-->'transparent', '' (Android, iOS, Windows_Mobile)<!--/default-->
 ===========================================================================
