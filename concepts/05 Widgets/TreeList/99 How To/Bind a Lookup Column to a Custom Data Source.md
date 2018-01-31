@@ -82,7 +82,7 @@ In the following code snippet, `Author Name` is a [lookup column](/Documentation
 
 ---
 
-The following alternative **CustomStore** configuration delegates data processing to the server. The [loadOptions](/Documentation/ApiReference/Data_Layer/LoadOptions/Configuration/) object passed to the **load** function contains data processing settings that should be sent to the server with the GET request. In this example, the **load** function sends only sorting settings because the only specified **DataSource** option is [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) (see the commented out code lines). Note that the **CustomStore** must also contain a [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) implementation. 
+The following alternative **CustomStore** configuration delegates data processing to the server. The [loadOptions](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/) object passed to the **load** function contains data processing settings that should be sent to the server with the GET request. In this example, the **load** function sends only sorting settings because the only specified **DataSource** option is [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) (see the commented out code lines). Note that the **CustomStore** must also contain a [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) implementation. 
 
 ---
 ##### jQuery
