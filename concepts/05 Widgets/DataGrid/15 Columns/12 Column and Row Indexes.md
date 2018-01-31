@@ -8,6 +8,8 @@ The following indexes can be used in methods and callback functions:
 
     ![DevExtreme HTML5 JavaScript DataGrid Visible Column Index](/Content/images/doc/17_2/DataGrid/GridColumnIndexes.png)
 
+    Do not confuse the visible column index with the index specified using the **column**.[visibleIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visibleIndex) option. The latter is used in column reordering.
+
 - **Row Index**         
     Starts from 0 and increases by 1 per row including group rows. With [paging](/Documentation/Guide/Widgets/DataGrid/Paging/), the index resets on each page.
 

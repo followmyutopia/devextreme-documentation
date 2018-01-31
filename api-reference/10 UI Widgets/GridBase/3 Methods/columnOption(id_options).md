@@ -46,7 +46,7 @@ One of the following values:
  - Any string matching the following format: *"optionName:value"*  
     Here, *optionName* is one of the [column options]({basewidgetpath}/Configuration/columns/).
 
-    [note]In command columns, you can change only the [width]({basewidgetpath}/Configuration/columns/#width) and the [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex).  
+    [note]In command columns, you can change only the [width]({basewidgetpath}/Configuration/columns/#width) and the [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex). See the [Command Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Command_Columns/) topic for details.  
 
 #####See Also#####
 #include common-link-callmethods

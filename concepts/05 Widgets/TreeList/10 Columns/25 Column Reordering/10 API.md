@@ -68,6 +68,8 @@ The **visibleIndex** option can also be changed at runtime to reorder columns re
     
 ---
 
+For details on command column reordering, see the [Command Columns](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/) topic.
+
 #####See Also#####
 #include common-link-callmethods
 - [Data Columns](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Data_Columns/)
