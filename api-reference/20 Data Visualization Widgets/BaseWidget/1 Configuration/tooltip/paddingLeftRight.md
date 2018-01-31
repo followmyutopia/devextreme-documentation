@@ -8,5 +8,5 @@ Generates an empty space, measured in pixels, between a tooltip's left/right bor
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 JavaScript Funnel Tooltips Left-Right Padding](/Content/images/doc/17_2/ChartJS/TooltipPaddingLeftRight.png)
+![DevExtreme HTML5 JavaScript Funnel Tooltips Left-Right Padding](/Content/images/doc/18_1/ChartJS/TooltipPaddingLeftRight.png)
 <!--/fullDescription-->

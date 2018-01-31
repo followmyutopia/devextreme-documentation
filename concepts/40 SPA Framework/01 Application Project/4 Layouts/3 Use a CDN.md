@@ -2,9 +2,9 @@ It is not always necessary to deliver the [predefined layouts](/Documentation/Gu
 
 The DevExpress CDN hosts DevExtreme layouts and enables you to easily add them to your applications. Links to the required files should be added in the following manner.
 
-    <!--HTML--><link rel="dx-template" type="text/html" href="https://cdn3.devexpress.com/jslib/minor_17_2/layouts/Navbar/NavbarLayout.html"/>    
-    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_2/layouts/Navbar/NavbarLayout.js"></script>
-    <link rel="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_2/layouts/Navbar/NavbarLayout.css"/>
-    <link rel="dx-template" type="text/html" href="https://cdn3.devexpress.com/jslib/minor_17_2/layouts/Simple/SimpleLayout.html"/>    
-    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_2/layouts/Simple/SimpleLayout.js"></script>
-    <link rel="text/css" href="https://cdn3.devexpress.com/jslib/minor_17_2/layouts/Simple/SimpleLayout.css"/>
+    <!--HTML--><link rel="dx-template" type="text/html" href="https://cdn3.devexpress.com/jslib/minor_18_1/layouts/Navbar/NavbarLayout.html"/>    
+    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_1/layouts/Navbar/NavbarLayout.js"></script>
+    <link rel="text/css" href="https://cdn3.devexpress.com/jslib/minor_18_1/layouts/Navbar/NavbarLayout.css"/>
+    <link rel="dx-template" type="text/html" href="https://cdn3.devexpress.com/jslib/minor_18_1/layouts/Simple/SimpleLayout.html"/>    
+    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_1/layouts/Simple/SimpleLayout.js"></script>
+    <link rel="text/css" href="https://cdn3.devexpress.com/jslib/minor_18_1/layouts/Simple/SimpleLayout.css"/>

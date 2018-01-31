@@ -9,7 +9,7 @@ Describes settings supported by a series of the *step rea* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts StepAreaSeriesType](/Content/images/doc/17_2/ChartJS/StepArea.png)
+![DevExtreme HTML5 Charts StepAreaSeriesType](/Content/images/doc/18_1/ChartJS/StepArea.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsareaseriesstep/"

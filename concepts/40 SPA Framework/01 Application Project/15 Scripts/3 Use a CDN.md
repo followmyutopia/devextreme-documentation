@@ -7,8 +7,8 @@ To use the **jQuery** and **Knockout** libraries, use the [Microsoft Ajax CDN](h
     
 The DevExpress CDN hosts the dx.mobile and dx.web libraries and enables you to easily add them to your applications. Links to these libraries should be added in the following manner.
 
-    <!--HTML--><script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_2/js/dx.mobile.js"></script>
+    <!--HTML--><script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_1/js/dx.mobile.js"></script>
 
 or ...
 
-    <!--HTML--><script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_17_2/js/dx.web.js"></script>
+    <!--HTML--><script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_1/js/dx.web.js"></script>

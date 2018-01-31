@@ -14,7 +14,7 @@ This option depends on the **label**.**verticalAlignment** in the following way.
 - **verticalAlignment** is *"bottom"* &rarr; padding applies to the bottom side of a constant line;      
 - **verticalAlignment** is *"center"* &rarr; padding is calculated automatically.
 
-![DevExtreme HTML5 Charts ConstantLinePadding](/Content/images/doc/17_2/ChartJS/ConstantLinePaddingTopBottom.png)
+![DevExtreme HTML5 Charts ConstantLinePadding](/Content/images/doc/18_1/ChartJS/ConstantLinePaddingTopBottom.png)
 
 #####See Also#####
 - **argumentAxis**.**constantLineStyle**.**label**.[verticalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLineStyle/label/#verticalAlignment) - aligns constant line labels in the vertical direction. Applies to the constant lines belonging to the argument axis.

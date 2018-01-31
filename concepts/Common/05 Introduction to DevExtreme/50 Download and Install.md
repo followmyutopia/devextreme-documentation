@@ -10,7 +10,7 @@ To include DevExtreme to your project, use the appropriate distribution package.
 
 - [NuGet](/Documentation/Guide/Getting_Started/Installation/NuGet_Package/)
 
-        Install-Package DevExtreme.Web -Version minor_17_2
+        Install-Package DevExtreme.Web -Version minor_18_1
 
 For Visual Studio integration features, get the Windows installer, or otherwise, download just the client-side library and its widgets as a zip archive.
 

@@ -32,7 +32,7 @@ An end user can use the following keys to interact with the widget.
           <td>Selects the focused element of the navigator.</td>
         </tr>
         <tr>
-          <td><a href="/Documentation/17_2/Guide/Widgets/Scheduler/View_Switcher/">View Switcher</a></td>
+          <td><a href="/Documentation/Guide/Widgets/Scheduler/View_Switcher/">View Switcher</a></td>
           <td>&larr;  or &rarr; </td>        
           <td>Switches between scheduler views.</td>
         </tr>

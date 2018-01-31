@@ -1,4 +1,4 @@
-![DevExtreme ChartJS AvailableFormats](/Content/images/doc/17_2/ChartJS/AvailableFormats_NumericFormats.png)
+![DevExtreme ChartJS AvailableFormats](/Content/images/doc/18_1/ChartJS/AvailableFormats_NumericFormats.png)
 
 [note]Formats from the left column can be paired with formats from the right column using a space separator, e.g., *'fixedPoint thousands'*.
 
@@ -25,7 +25,7 @@ To set a numeric format, use the **format**.[type](/Documentation/ApiReference/C
 		}
 	};
     
-![DevExpress HTML5 DataVisualizationWidgets Chart Format Precision](/Content/images/doc/17_2/ChartJS/Format_Precision.png)
+![DevExpress HTML5 DataVisualizationWidgets Chart Format Precision](/Content/images/doc/18_1/ChartJS/Format_Precision.png)
 
 The **format** option also accepts strings. Use this capability as a shortcut for specifying a predefined format.
 

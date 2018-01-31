@@ -23,15 +23,15 @@ An end user can use the following keys to interact with the widget.
     </tr>
     <tr>
       <td>Enter or Space</td>
-      <td><a href="/Documentation/17_2/Guide/Widgets/List/Selection/#User_Interaction">Selects</a> the focused item.</td>
+      <td><a href="/Documentation/Guide/Widgets/List/Selection/#User_Interaction">Selects</a> the focused item.</td>
     </tr>
     <tr>
       <td>Shift + &uarr; / &darr;</td>
-      <td>Shifts the focused item one item up/down. Active if the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxList/Configuration/#allowItemReordering">allowItemReordering</a> option is set to <i>true</i>.</td>
+      <td>Shifts the focused item one item up/down. Active if the <a href="/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#allowItemReordering">allowItemReordering</a> option is set to <i>true</i>.</td>
     </tr>
     <tr>
       <td>Delete</td>
-      <td>Removes the focused item. Active if the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxList/Configuration/#allowItemDeleting">allowItemDeleting</a> option is set to <i>true</i>.</td>
+      <td>Removes the focused item. Active if the <a href="/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#allowItemDeleting">allowItemDeleting</a> option is set to <i>true</i>.</td>
     </tr>
     </tbody>
   </table>

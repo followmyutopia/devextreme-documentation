@@ -1,10 +1,10 @@
 Normally, there is a commonality between application screens. In the following image, a toolbar and navigation bar are located on each screen.
 
-![View Merged into Layout](/Content/images/doc/17_2/PhoneJS/commonLayoutInScreens.png)
+![View Merged into Layout](/Content/images/doc/18_1/PhoneJS/commonLayoutInScreens.png)
 
 The framework allows you to organize some structure for each screen. This structure is called **layout**. It is defined once by a markup declared as a [dxLayout](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxLayout/) markup component. This markup includes so-called placeholders for varying content. In the image above, the list on the first screen is changed to another list on the second screen and to a set of fields on the third screen. In addition, the title and a set of buttons on the toolbar are changed from screen to screen. The changing content is defined within the [dxView](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxViewPlaceholder/) markup component. When navigating to a view, the markup of the corresponding **dxView** template is merged with the markup of the required **dxLayout** component. The resulting markup is then rendered as a page.
 
-![View Merged into Layout](/Content/images/doc/17_2/PhoneJS/NavbarLayoutAndViewGathering.png)
+![View Merged into Layout](/Content/images/doc/18_1/PhoneJS/NavbarLayoutAndViewGathering.png)
 
 To define a layout, add a **div** element and include the required markup in it. Set the **div** element's **data-options** attribute to [dxLayout](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxLayout/), and specify the required [layout markup options](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxLayout/Configuration/).
 
@@ -21,7 +21,7 @@ To add a placeholder to a layout, add a **div** element, set the **data-options*
 
 In the following image, you can see that a layout may include static content. This content is not changed from  view to view. However, the content in placeholders is changing. When an application navigates to a view, the view's [content](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Insert_View_into_Layout) is merged with the content of the layout content placeholders.
 
-![Content Placeholders](/Content/images/doc/17_2/PhoneJS/ContentPlaceholders.png)
+![Content Placeholders](/Content/images/doc/18_1/PhoneJS/ContentPlaceholders.png)
 
 Since there can be several placeholders in a layout, their content will be shown sooner or later depending on the difficulty of the inner elements. So to show the entire changing content at once, wrap all the content placeholders by a div element and apply the **data-options** attribute set to [dxTransition](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxTransition/). 
 
@@ -35,7 +35,7 @@ Since there can be several placeholders in a layout, their content will be shown
 
 Note that a transition element unites changing content. The markup outside this element is static.
 
-![Transition Element](/Content/images/doc/17_2/PhoneJS/TransitionElement.png)
+![Transition Element](/Content/images/doc/18_1/PhoneJS/TransitionElement.png)
 
 Use the **dxTransition** component's [animation](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxTransition/Configuration/#animation) configuration option to set the animation that will be used when the content that is rendered to the placeholders included to the **dxTransition** element is changed.
 

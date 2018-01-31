@@ -1,6 +1,6 @@
 A tooltip is a small pop-up rectangle displaying information about a [series point](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/) that the user pauses on. By default, the information is the point value, but it is possible to display anything in a tooltip.
 
-![DevExtreme HTML5 JavaScript Charts Tooltip](/Content/images/doc/17_2/ChartJS/visual_elements/tooltip.png)
+![DevExtreme HTML5 JavaScript Charts Tooltip](/Content/images/doc/18_1/ChartJS/visual_elements/tooltip.png)
 
 All options configuring tooltips are collected in the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/tooltip/) object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
 

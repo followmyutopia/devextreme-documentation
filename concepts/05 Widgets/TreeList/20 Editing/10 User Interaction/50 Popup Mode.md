@@ -1,6 +1,6 @@
 The popup mode is the [form mode](/Documentation/Guide/Widgets/TreeList/Editing/#User_Interaction/Form_Mode) with the form placed in a popup window.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Editing Popup Mode](/Content/images/doc/17_2/treelist/editing/popup_mode.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Editing Popup Mode](/Content/images/doc/18_1/treelist/editing/popup_mode.png)
 
 Use the **editing**.[popup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#popup) object to customize the popup window. Refer to the [Popup Configuration](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/) section to learn which fields this object can contain.
 

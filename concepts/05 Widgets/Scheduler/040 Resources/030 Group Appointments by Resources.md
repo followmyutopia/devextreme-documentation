@@ -70,7 +70,7 @@ To group appointments by resources, assign an array to the [groups](/Documentati
 ---
 
 
-![Scheduler Grouping by Resources](/Content/images/doc/17_2/UiWidgets/Scheduler_ResourceGroups.png)
+![Scheduler Grouping by Resources](/Content/images/doc/18_1/UiWidgets/Scheduler_ResourceGroups.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupedAppointments/jQuery/Light/"

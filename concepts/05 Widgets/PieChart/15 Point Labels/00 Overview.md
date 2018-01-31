@@ -1,6 +1,6 @@
 Each series point can be accompanied with a label that displays the point's value or custom data.
 
-![DevExtreme HTML5 JavaScript PieChart SeriesPointLabels](/Content/images/doc/17_2/PieChart/visual_elements/point_labels.png)
+![DevExtreme HTML5 JavaScript PieChart SeriesPointLabels](/Content/images/doc/18_1/PieChart/visual_elements/point_labels.png)
 
 To configure point labels, use the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/) object. You can declare it as follows.
 

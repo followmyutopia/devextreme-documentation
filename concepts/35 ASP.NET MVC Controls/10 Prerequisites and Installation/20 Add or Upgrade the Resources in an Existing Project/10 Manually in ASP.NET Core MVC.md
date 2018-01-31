@@ -8,7 +8,7 @@
 
         Find your authorization key in your DevExpress account's [Download Manager](https://www.devexpress.com/ClientCenter/DownloadManager/).
 
-        ![DevExtreme ASP.NET MVC Controls - Install the NuGet Packages](/Content/images/doc/17_2/Common/download-manager.png)
+        ![DevExtreme ASP.NET MVC Controls - Install the NuGet Packages](/Content/images/doc/18_1/Common/download-manager.png)
 
         Run the following command with this key. If `nuget` is not recognized, install the NuGet CLI using [this instruction](https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference).
             

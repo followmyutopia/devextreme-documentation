@@ -1,6 +1,6 @@
 A tooltip is a small popup rectangle containing information about the values of a bullet graph. The tooltip appears when a user hovers the mouse pointer over the bullet graph.
 
-![DevExtreme ChartJS BulletChart BulletGraph](/Content/images/doc/17_2/ChartJS/BulletTooltip.png)
+![DevExtreme ChartJS BulletChart BulletGraph](/Content/images/doc/18_1/ChartJS/BulletTooltip.png)
 
 Tooltips are configured using fields of the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/Configuration/tooltip/) object. By default, they are enabled. However, if your scenario requires you to change the visibility of the tooltip, use the [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/tooltip/#enabled) field of the **tooltip** object.
 

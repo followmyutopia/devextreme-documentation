@@ -47,7 +47,7 @@ When adapting to a small container or screen, the **DataGrid** can hide columns.
 
 Data from hidden columns is still available in adaptive detail rows. A user can expand or collapse these rows by clicking the ellipsis buttons in the adaptive column.
 
-![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Adaptability](/Content/images/doc/17_2/DataGrid/visual_elements/adaptive-column.png)
+![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Adaptability](/Content/images/doc/18_1/DataGrid/visual_elements/adaptive-column.png)
 
 #include common-demobutton-named with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/GridAdaptabilityOverview/jQuery/Light/",

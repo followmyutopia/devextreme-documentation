@@ -1,10 +1,10 @@
 In the *bar* series type, data is displayed as sets of rectangular bars with lengths proportional to the values that they represent. Often, *bar* series are used to compare values in different discrete categories such as months, countries, age, etc. When there are several bar series, bars for each argument are displayed side-by-side. If you need to show bars for each series stacked on each other, use the *stackedBar* series type (see [Stacked Bar](/Documentation/Guide/Widgets/PolarChart/Series_Types/#Stacked_Bar)).
 
-![PolarBarSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/PolarBar.png)
+![PolarBarSeriesType ChartJS](/Content/images/doc/18_1/ChartJS/PolarBar.png)
 
 To understand how polar charts are built, imagine how a chart in a rectangular coordinate system is transformed by rounding its argument axis.
 
-![Transformation from Rectangular to Polar Coordinates PolarBarSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/PolarBar_TransformationFromStandardChart.png)
+![Transformation from Rectangular to Polar Coordinates PolarBarSeriesType ChartJS](/Content/images/doc/18_1/ChartJS/PolarBar_TransformationFromStandardChart.png)
 
 To use the *bar* series type, assign *'bar'* to the **type** property of the **series** configuration object.
 

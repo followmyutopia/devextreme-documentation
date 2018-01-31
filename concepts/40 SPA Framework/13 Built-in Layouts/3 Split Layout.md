@@ -6,7 +6,7 @@ When defining views, specify the pane in which a view will be displayed in the S
 
 <a id="iOSSplitLayout"></a><h4>iOS</h4>
 
-![Split](/Content/images/doc/17_2/PhoneJS/split-ios.png)
+![Split](/Content/images/doc/18_1/PhoneJS/split-ios.png)
 
 **Links**:
 
@@ -19,7 +19,7 @@ When defining views, specify the pane in which a view will be displayed in the S
 
 <a id="AndroidSplitLayout"></a><h4>Android</h4>
 
-![Split](/Content/images/doc/17_2/PhoneJS/split_android.png)
+![Split](/Content/images/doc/18_1/PhoneJS/split_android.png)
 
 **Links**:
 
@@ -32,7 +32,7 @@ When defining views, specify the pane in which a view will be displayed in the S
 
 <a id="Win8SplitLayout"></a><h4>Windows Phone</h4>
 
-![Split](/Content/images/doc/17_2/PhoneJS/split-win8.png)
+![Split](/Content/images/doc/18_1/PhoneJS/split-win8.png)
 
 **Links**:
 

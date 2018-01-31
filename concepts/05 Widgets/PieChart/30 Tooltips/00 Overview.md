@@ -1,6 +1,6 @@
 A tooltip is a small pop-up rectangle displaying information about a series point that the user pauses on. The information is the point value by default, but it is possible to display anything in a tooltip.
 
-![DevExtreme HTML5 JavaScript PieChart Tooltip](/Content/images/doc/17_2/PieChart/visual_elements/tooltip.png)
+![DevExtreme HTML5 JavaScript PieChart Tooltip](/Content/images/doc/18_1/PieChart/visual_elements/tooltip.png)
 
 All options configuring tooltips are collected in the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/tooltip/) object. For example, to enable the tooltips, assign **true** to the **enabled** option of this object.
 

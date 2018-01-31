@@ -31,11 +31,11 @@ An end user can use the following keys to interact with the widget.
     </tr>
     <tr>
         <td>Asterisk Sign (*)</td>
-        <td>Expands all nodes. Available only if <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeView/Configuration/#expandAllEnabled">expandAllEnabled</a> is set to <i>true</i>.</td>
+        <td>Expands all nodes. Available only if <a href="/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#expandAllEnabled">expandAllEnabled</a> is set to <i>true</i>.</td>
     </tr>
     <tr>
         <td>Minus Sign (-)</td>
-        <td>Collapses all nodes. Available only if <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeView/Configuration/#expandAllEnabled">expandAllEnabled</a> is set to <i>true</i>.</td>
+        <td>Collapses all nodes. Available only if <a href="/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#expandAllEnabled">expandAllEnabled</a> is set to <i>true</i>.</td>
     </tr>
     <tr>
         <td>Enter or Space</td>

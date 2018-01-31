@@ -18,7 +18,7 @@ For example, consider that **min** is 1960 and **max** is 2010. If you set the *
 
 *startValue = 1960 - (2010 - 1960) * 0.1 = 1960 - 50 * 0.1 = 1960 - 5 = 1955*
 
-![MinValueMargin ChartJS](/Content/images/doc/17_2/ChartJS/PolarValueMargins.png)
+![MinValueMargin ChartJS](/Content/images/doc/18_1/ChartJS/PolarValueMargins.png)
 
 To discover how the axis' end value is calculated, refer to the **maxValueMargin** option description.
 

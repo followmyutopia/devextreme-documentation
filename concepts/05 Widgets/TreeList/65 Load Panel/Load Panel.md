@@ -1,6 +1,6 @@
 The load panel is displayed while the widget loads data. It consists of a loading indicator and text, both placed on a pane.
 
-![DevExtreme HTML5/JavaScript TreeList Widget - Load Panel](/Content/images/doc/17_2/DataGrid/visual_elements/load_panel.png)
+![DevExtreme HTML5/JavaScript TreeList Widget - Load Panel](/Content/images/doc/18_1/DataGrid/visual_elements/load_panel.png)
 
 The load panel is shown only for remote data sources by default. To show it regardless of the data source type, assign **true** to the **loadPanel**.[enabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/loadPanel/#enabled) option. Setting the same option to **false** disables the load panel completely.
 

@@ -1,6 +1,6 @@
 A tooltip is a small popup rectangle containing information about an [area](/Documentation/Guide/Widgets/VectorMap/Visual_Elements/#Areas) or a [marker](/Documentation/Guide/Widgets/VectorMap/Visual_Elements/#Markers) when a user hovers the mouse pointer over it. In common cases, a tooltip is required to display the name of the area or marker. However, it can display any information you may find useful.
 
-![DevExtreme ChartJS VectorMap](/Content/images/doc/17_2/ChartJS/MapTooltip.png)
+![DevExtreme ChartJS VectorMap](/Content/images/doc/18_1/ChartJS/MapTooltip.png)
 
 Tooltips are configured using fields of the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/) object. By default, they are disabled. To enable them, assign **true** to the [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/#enabled) field of the **tooltip** object.
 

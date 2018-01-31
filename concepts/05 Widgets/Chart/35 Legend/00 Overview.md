@@ -1,6 +1,6 @@
 The legend is a chart component that helps a user identify series. It contains several colored items, one per series. 
 
-![DevExtreme HTML5 JavaScript Charts Legend](/Content/images/doc/17_2/ChartJS/visual_elements/legend.png)
+![DevExtreme HTML5 JavaScript Charts Legend](/Content/images/doc/18_1/ChartJS/visual_elements/legend.png)
 
 To configure the appearance, location, and content of the legend, use options collected in the [legend](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/legend/) object. 
 

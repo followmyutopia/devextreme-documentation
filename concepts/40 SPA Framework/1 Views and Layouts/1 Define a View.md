@@ -9,7 +9,7 @@ To implement a view's HTML markup, add a **div** element and include the require
 
 The view's markup may have [bindings](http://knockoutjs.com/documentation/binding-syntax.html) to the fields of the view's **ViewModel**. Implement the ViewModel as an object returned by a JavaScript function. This function must have the view's name and must be declared within the application's [namespace](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#namespace).
 
-![View and Layout Merging](/Content/images/doc/17_2/PhoneJS/DefineAView.png)
+![View and Layout Merging](/Content/images/doc/18_1/PhoneJS/DefineAView.png)
 
 The ViewModel may get the required data from the view's **Model** - a JavaScript object in a general case. However, there may be scenarios when the ViewModel prepares data by itself.
 

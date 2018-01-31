@@ -82,7 +82,7 @@ A nested **Box** is configured similarly to an ordinary **Box**. To nest one **B
 
 This code yields the following result.
 
-![DevExtreme HTML5 LayoutWidget Box](/Content/images/doc/17_2/UiWidgets/Box/Box_nested-boxes.png)
+![DevExtreme HTML5 LayoutWidget Box](/Content/images/doc/18_1/UiWidgets/Box/Box_nested-boxes.png)
 
 #####See Also#####
 - [Box - Arrange and Align Items](/Documentation/Guide/Widgets/Box/Arrange_and_Align_Items/)

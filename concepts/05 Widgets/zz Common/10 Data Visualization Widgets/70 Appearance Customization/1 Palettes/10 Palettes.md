@@ -17,6 +17,6 @@ The "Default" palette is used by default. To apply another palette, use the **pa
 
 Below, you can see the predefined palettes.
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/17_2/DataVisualization/Guides/VizPalettes/palettes.html, /Content/Applications/17_2/DataVisualization/Guides/VizPalettes/palettes.js, /Content/Applications/17_2/DataVisualization/Guides/VizPalettes/palettes.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/18_1/DataVisualization/Guides/VizPalettes/palettes.html, /Content/Applications/18_1/DataVisualization/Guides/VizPalettes/palettes.js, /Content/Applications/18_1/DataVisualization/Guides/VizPalettes/palettes.css"></div>
 
 The following subsections provide information about the available palette customizations:

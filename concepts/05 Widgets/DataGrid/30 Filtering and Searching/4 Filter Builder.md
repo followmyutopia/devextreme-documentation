@@ -1,6 +1,6 @@
 The [**FilterBuilder**](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/) widget helps a user build a complex filter expression and apply it to all grid columns at once.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid FilterBuilder](/Content/images/doc/17_2/DataGrid/visual_elements/filter_builder.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid FilterBuilder](/Content/images/doc/18_1/DataGrid/visual_elements/filter_builder.png)
 
 To integrate the **FilterBuilder** with the **DataGrid**, first, pass an array of columns that should be filtered to the **FilterBuilder**'s [fields](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields) option. Each item in this array should at least have the [dataField](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField). The following code allows using all **DataGrid** columns in the **FilterBuilder**:
 

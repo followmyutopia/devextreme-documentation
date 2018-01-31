@@ -1,10 +1,10 @@
 With the *scatter* series type, data is displayed as a collection of points. This series type is often used to display radar points.
 
-![PolarScatterSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/PolarScatter.png)
+![PolarScatterSeriesType ChartJS](/Content/images/doc/18_1/ChartJS/PolarScatter.png)
 
 To understand how polar charts are built, imagine how a chart in a rectangular coordinate system is transformed by rounding its argument axis.
 
-![Transformation from Rectangular to Polar Coordinates PolarScatterSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/PolarScatter_TransformationFromStandardChart.png)
+![Transformation from Rectangular to Polar Coordinates PolarScatterSeriesType ChartJS](/Content/images/doc/18_1/ChartJS/PolarScatter_TransformationFromStandardChart.png)
 
 **PolarChart** uses the *scatter* series type by default. But in some cases, you may need to specify this series type explicitly. For this purpose, assign *'scatter'* to the **type** property of the **series** configuration object.
 
@@ -19,7 +19,7 @@ To learn how to specify data for a chart series, refer to the [Data Binding](/Do
 
 Note that you can use a spider web for polar charts displaying discrete data. For this purpose, set the widget's [useSpiderWeb](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#useSpiderWeb) option to **true**.
 
-![SpiderWeb PolarScatterSeriesType ChartJS](/Content/images/doc/17_2/ChartJS/PolarScatter_useSpiderWeb.png)
+![SpiderWeb PolarScatterSeriesType ChartJS](/Content/images/doc/18_1/ChartJS/PolarScatter_useSpiderWeb.png)
 
 You can change the default appearance using series options. For instance, you can change the following.
 

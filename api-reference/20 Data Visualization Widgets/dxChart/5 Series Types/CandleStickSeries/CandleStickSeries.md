@@ -9,7 +9,7 @@ Describes settings supported by a series of the *candlestick* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts CandleStickSeriesType](/Content/images/doc/17_2/ChartJS/CandleStick.png)
+![DevExtreme HTML5 Charts CandleStickSeriesType](/Content/images/doc/18_1/ChartJS/CandleStick.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsfinancialseriescandlestick/"

@@ -1,6 +1,6 @@
 Unlike [data columns](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/#Data_Columns), band columns do not hold any data. Instead, they collect two or more data columns under one column header. 
 
-![DevExtreme HTML5 JavaScript TreeList BandColumns MultiRowHeaders BandedLayout](/Content/images/doc/17_2/treelist/visual_elements/column-types_band.png)
+![DevExtreme HTML5 JavaScript TreeList BandColumns MultiRowHeaders BandedLayout](/Content/images/doc/18_1/treelist/visual_elements/column-types_band.png)
 
 To set up this layout, describe the hierarchy of columns directly in an object of the [columns](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/) array. For example, the following code bands three columns under the *"Contacts"* header.
 

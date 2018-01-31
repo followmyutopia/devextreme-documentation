@@ -1,6 +1,6 @@
 Data columns are the most common type of columns used in the **DataGrid** widget. They are generated for all [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array members that do not configure [band columns](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/#Band_Columns). Usually, a data column displays values from a [data field](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField) to which it is bound, but you can populate a data column with custom values (see [Customize Cells](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/)).
 
-![DevExtreme HTML5 JavaScript DataGrid DataColumns](/Content/images/doc/17_2/DataGrid/visual_elements/column-types_data.png)
+![DevExtreme HTML5 JavaScript DataGrid DataColumns](/Content/images/doc/18_1/DataGrid/visual_elements/column-types_data.png)
 
 If data column values should be cast to another type (for example, date values stored as strings), specify the target type using the [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType) option.
 

@@ -1,6 +1,6 @@
 To export or print the **PieChart**, a user clicks the *"Exporting/Printing"* button and selects a command from the drop-down menu. The **Print** command opens the browser's **Print** window that lets the user select preferred printing settings and send the print job to the printer. The other commands save a file of the selected format in the user's local storage.
 
-![DevExtreme HTML5 JavaScript PieChart Export Menu](/Content/images/doc/17_2/PieChart/visual_elements/export_menu.png)
+![DevExtreme HTML5 JavaScript PieChart Export Menu](/Content/images/doc/18_1/PieChart/visual_elements/export_menu.png)
 
 You can enable both exporting and printing by setting the [export](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/export/).**enabled** option to **true**. If you need only exporting to be available to the user, disable printing by assigning **false** to the **export**.[printingEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/export/#printingEnabled) option.
 

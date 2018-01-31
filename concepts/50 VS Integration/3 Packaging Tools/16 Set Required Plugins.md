@@ -4,7 +4,7 @@ If you access device features in your application, specify the PhoneGap plugins 
 
 Right-click your project in the Visual Studio Solution Explorer and choose **Properties** in the invoked window. All the [standard PhoneGap plugins](https://build.phonegap.com/plugins) are listed by default within the **PhoneGap** tab.
 
-![Standard Plugins](Content/images/doc/17_2/DevExtreme/StandardPlugins.png)
+![Standard Plugins](Content/images/doc/18_1/DevExtreme/StandardPlugins.png)
 
 Check the necessary plugins. They will be added to the project's **config.xml** file. Open this file and specify versions for the added plugins to make sure that they are compatible with the [used Cordova version](/Documentation/Guide/VS_Integration/Packaging_Tools/#Set_Cordova_Version).
 
@@ -21,7 +21,7 @@ To use a [custom 3rd party PhoneGap plugin](https://build.phonegap.com/plugins) 
 
     The registered plugin will appear in the Plugins list in the checked state automatically.
 
-    ![3rd Party Plugins](Content/images/doc/17_2/DevExtreme/3rdPartyPlugins.png)
+    ![3rd Party Plugins](Content/images/doc/18_1/DevExtreme/3rdPartyPlugins.png)
 
 - [Build a custom PhoneGap application template](/Documentation/Guide/VS_Integration/Packaging_Tools/#Build_Custom_PhoneGap_Application_Template) with the required plugin inside.
 

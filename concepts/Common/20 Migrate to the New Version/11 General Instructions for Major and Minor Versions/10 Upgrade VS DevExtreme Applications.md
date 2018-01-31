@@ -4,13 +4,13 @@ There are two ways of accessing the Project Converter.
 
 - Open your solution/project in Visual Studio. Right click the solution/project to display the context menu and choose **Upgrade DevExtreme Solution to the Latest Version...** (or equivalently **Upgrade DevExtreme Project to the Latest Version...**).
 
-    ![Invoke Project Converter](Content/images/doc/17_2/DevExtreme/ProjectConverterFromMenu.png)
+    ![Invoke Project Converter](Content/images/doc/18_1/DevExtreme/ProjectConverterFromMenu.png)
 
 - Run the **ProjectConverter.exe** program from the folder where DevExtreme is installed. By default, it is located in the "...\Program Files (x86)\DevExpress 17.2\DevExtreme\Tools\DevExtreme HTML JS\" folder.
 
 Specify the path to the project(s) to be upgraded in the **Project folder** text box.
 
-![Project Converter](Content/images/doc/17_2/DevExtreme/ProjectConverter.png)
+![Project Converter](Content/images/doc/18_1/DevExtreme/ProjectConverter.png)
 
 Review the advanced options. Check **Process Subdirectories** if you also want to upgrade files in any subdirectories. Check **Create Backup Files** to create copies of the original files that are about to be upgraded (Project Converter will add a .bak extension to the file names of the copies), so that you can recreate the original project should you encounter any problems.
 

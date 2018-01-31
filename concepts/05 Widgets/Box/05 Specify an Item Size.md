@@ -4,11 +4,11 @@ An item's size is controlled by three settings: [baseSize](/Documentation/ApiRef
 
 When the **Box** provides more space than the items' **baseSize**s require, an unoccupied area emerges.
 
-![DevExtreme Box: Unoccupied area](/Content/images/doc/17_2/UiWidgets/Box/Box_baseSize.png)
+![DevExtreme Box: Unoccupied area](/Content/images/doc/18_1/UiWidgets/Box/Box_baseSize.png)
 
 The unoccupied area can be distributed among the items according to **ratio**s. If all items have the same **ratio**, the area is distributed evenly. The following is an example of when **ratio**s are different. As a result, *Item 2* gets a portion twice the size of  *Item 3*, but three times smaller than *Item 1*:
 
-![DevExtreme Box: Distribution of unoccuppied area](/Content/images/doc/17_2/UiWidgets/Box/Box_baseSizeWithRatio.png)
+![DevExtreme Box: Distribution of unoccuppied area](/Content/images/doc/18_1/UiWidgets/Box/Box_baseSizeWithRatio.png)
 
 ---
 ##### jQuery
@@ -73,11 +73,11 @@ The unoccupied area can be distributed among the items according to **ratio**s. 
 
 **ratio** applies when there is an available space, **shrink** applies when space is limited. After all items' **baseSize** are added up, they may be too large to fit into the container.
 
-![DevExtreme Box: Items overflow the container](/Content/images/doc/17_2/UiWidgets/Box/box-overflow.png)
+![DevExtreme Box: Items overflow the container](/Content/images/doc/18_1/UiWidgets/Box/box-overflow.png)
 
 **shrink** determines how much the items should shrink to fit in this case. The higher the **shrink** value, the more an item shrinks relative to the rest of the items. The following example illustrates a situation when all items have the same **shrink** value:
 
-![DevExtreme Box: Items shrink evenly to fit into the container](/Content/images/doc/17_2/UiWidgets/Box/box-shrink-evenly.png)
+![DevExtreme Box: Items shrink evenly to fit into the container](/Content/images/doc/18_1/UiWidgets/Box/box-shrink-evenly.png)
 
 ---
 ##### jQuery
@@ -142,7 +142,7 @@ The unoccupied area can be distributed among the items according to **ratio**s. 
 
 Note how the result is different if *Item 2*'s **shrink** value is twice more than the other items:
 
-![DevExtreme Box: Item 2 shrinks twice more than the others](/Content/images/doc/17_2/UiWidgets/Box/box-shrink-unevenly.png)
+![DevExtreme Box: Item 2 shrinks twice more than the others](/Content/images/doc/18_1/UiWidgets/Box/box-shrink-unevenly.png)
 
 ---
 ##### jQuery

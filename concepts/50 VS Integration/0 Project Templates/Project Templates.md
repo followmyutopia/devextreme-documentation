@@ -2,6 +2,6 @@ To standardize application code in terms of naming and structure and simplify th
 
 To create a project using one of the DevExtreme templates, select **File** | **New** | **Project...** from the Visual Studio main menu. This will take you to the **New Project** dialog.
 
-![New Project Dialog](Content/images/doc/17_2/DevExtreme/Tutorial_NewProject.png)
+![New Project Dialog](Content/images/doc/18_1/DevExtreme/Tutorial_NewProject.png)
 
 In the **Projects** tree view, select **DevExtreme**. In the **Templates** list view, choose a project template, specify a name for it and click **OK**.

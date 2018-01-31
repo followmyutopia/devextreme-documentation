@@ -20,5 +20,5 @@ Series is hovered and selected.
 
 You can also use the **isHovered()** and **isSelected()** series methods to check whether a series is hovered or selected.
 
-To learn more about the handling of series hover and selection, refer to the [Series Hover](/Documentation/17_2/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Hover_Handling/#Series_Hover) and [Series Selection](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Selection_Handling/#Series_Selection) topics.
+To learn more about the handling of series hover and selection, refer to the [Series Hover](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Hover_Handling/#Series_Hover) and [Series Selection](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Selection_Handling/#Series_Selection) topics.
 <!--/fullDescription-->

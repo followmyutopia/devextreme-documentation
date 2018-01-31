@@ -1,6 +1,6 @@
 **Range Area** and **Range Bar** series emphasize the difference between a point's high and low value using a shaded area or a set of bars respectively.
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/17_2/DataVisualization/Guides/ChartSeriesTypes/range.html, /Content/Applications/17_2/DataVisualization/Guides/ChartSeriesTypes/range.js"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/18_1/DataVisualization/Guides/ChartSeriesTypes/range.html, /Content/Applications/18_1/DataVisualization/Guides/ChartSeriesTypes/range.js"></div>
 
 Assign *"rangearea"* or *"rangebar"* to the **series[]**.[type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#type) option to specify the corresponding series type. You can configure:
 

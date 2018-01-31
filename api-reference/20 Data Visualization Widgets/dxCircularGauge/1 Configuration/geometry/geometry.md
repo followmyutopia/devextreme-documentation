@@ -9,7 +9,7 @@ Specifies the options required to set the geometry of the **CircularGauge** widg
 <!--fullDescription-->
 Specify the **startAngle** and **endAngle** options of the **geometry** configuration object to customize the shape of the circular gauge's arc. This arc is drawn from the **startAngle** to the **endAngle** as it is illustrated by the following image.
 
-![GaugeGeometry ChartJS](/Content/images/doc/17_2/ChartJS/CircularGaugeGeometry.png)
+![GaugeGeometry ChartJS](/Content/images/doc/18_1/ChartJS/CircularGaugeGeometry.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Gauges/AnglesCustomization/jQuery/Light/"

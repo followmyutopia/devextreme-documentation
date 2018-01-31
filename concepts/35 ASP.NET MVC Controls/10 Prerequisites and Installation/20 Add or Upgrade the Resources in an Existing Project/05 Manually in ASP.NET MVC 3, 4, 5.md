@@ -13,7 +13,7 @@
     
 4. Install the **DevExtreme.AspNet.Data** NuGet package from [NuGet.org](https://www.nuget.org/packages/DevExtreme.AspNet.Data/).
 
-    ![DevExtreme ASP.NET MVC Controls - Install the DevExtreme.AspNet.Data NuGet Package](/Content/images/doc/17_2/Common/MvcWrappers/nuget_add-devextreme-data-package.png)
+    ![DevExtreme ASP.NET MVC Controls - Install the DevExtreme.AspNet.Data NuGet Package](/Content/images/doc/18_1/Common/MvcWrappers/nuget_add-devextreme-data-package.png)
 
 5. Copy the DevExtreme scripts and CSS files:
 

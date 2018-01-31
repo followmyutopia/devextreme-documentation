@@ -1,6 +1,6 @@
 When using Visual Studio, you can add the DevExtreme libraries to your application using the [DevExtreme Web](https://www.nuget.org/packages/DevExtreme.Web/) NuGet package. Run the following command in the [Package Manager Console](https://docs.nuget.org/consume/package-manager-console) to install this package:
 
-    Install-Package DevExtreme.Web -Version minor_17_2
+    Install-Package DevExtreme.Web -Version minor_18_1
 
 The jQuery and Globalize packages, upon which DevExtreme depends, are installed as well. If you need the Knockout and AngularJS packages, you should install them individually. Note that Knockout and AngularJS are not supposed to be used together.
 

@@ -10,6 +10,6 @@ Configures hatching that applies when a user selects the series.
 <!--fullDescription-->
 Hatching is filling an area or a bar (depending on the series type) with parallel diagonal lines. In the **Chart** widget, it applies when a user selects a series.
 
-<img src="/Content/images/doc/17_2/ChartJS/hoverMode/hatching_area.png" />
-<img src="/Content/images/doc/17_2/ChartJS/hoverMode/hatching_bar.png" />
+<img src="/Content/images/doc/18_1/ChartJS/hoverMode/hatching_area.png" />
+<img src="/Content/images/doc/18_1/ChartJS/hoverMode/hatching_bar.png" />
 <!--/fullDescription-->

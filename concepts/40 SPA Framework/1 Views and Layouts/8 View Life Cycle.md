@@ -10,7 +10,7 @@ The replacement of a view with another view is initiated by invoking the [naviga
 
 <a id="GetViewInfo"></a><h4>1 - Get View Info</h4>
 
-![Step 1](/Content/images/doc/17_2/PhoneJS/ViewLifeCycle_Step1.png)  
+![Step 1](/Content/images/doc/18_1/PhoneJS/ViewLifeCycle_Step1.png)  
 
 When a view's display process begins, the only thing we know about the view is its name. It is the view name that is specified in the URI passed as the **navigate** function's parameter or the default view name specified in the [routing rule](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing). To get more information about the view, the application's [view cache](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#viewCache) is used. Information on all views that are contained in the current [navigation history](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/) is stored within the cache. However, there can be no information on a view in the cache, because the view was removed during the application flow, or the view has not been displayed before or the cache is [disabled](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#disableViewCache). In this instance, the information on the view is gathered from scratch and added to the cache, so that the next time everything that is needed to display this view is contained in the cache.
 
@@ -41,7 +41,7 @@ The following events of the **HTMLApplication** object can be handled to change 
 
 <a id="CreateViewModel"></a><h4>2 - Create a View Model</h4>
 
-![Step 2](/Content/images/doc/17_2/PhoneJS/ViewLifeCycle_Step3.png)  
+![Step 2](/Content/images/doc/18_1/PhoneJS/ViewLifeCycle_Step3.png)  
 
 To get the View Model object, a function with the same name as the view is searched for in the application's [namespace](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#namespace), and, if found, the function is called. The object returned by this function is the view's ViewModel.
 
@@ -55,13 +55,13 @@ The following events of the **HTMLApplication** object can be handled to change 
 
 <a id="RenderView"></a><h4>3 - Render the View</h4>
 
-![Step 3](/Content/images/doc/17_2/PhoneJS/ViewLifeCycle_Step4.png)  
+![Step 3](/Content/images/doc/18_1/PhoneJS/ViewLifeCycle_Step4.png)  
 
 When showing a view for the first time or when information on it has been removed from the [cache](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#viewCache), the **viewInfo** object does not contain the **renderResult** field. At this step, the view is rendered and the result of the rendering is assigned to this field.
 
 To be shown within the layout, the content of the view's dxContent elements is merged with the corresponding dxContentPlaceholder elements of the layout. The merged result is added to the corresponding dxTransition element of the layout as an additional view markup in an inactive state.
 
-![View Rendering](/Content/images/doc/17_2/PhoneJS/ViewRendering.png)
+![View Rendering](/Content/images/doc/18_1/PhoneJS/ViewRendering.png)
 
 [note]Only the markup that is added to the dxContent elements will be rendered to the resulting view.
 
@@ -74,11 +74,11 @@ The following events of the **HTMLApplication** object can be handled to change 
 
 <a id="ShowView"></a><h4>4 - Show the View</h4>
 
-![Step 4](/Content/images/doc/17_2/PhoneJS/ViewLifeCycle_Step5.png)
+![Step 4](/Content/images/doc/18_1/PhoneJS/ViewLifeCycle_Step5.png)
 
 To show the view, the inactive markup corresponding to this view is made active while other markup elements, which correspond to the previously shown view, are made inactive.
 
-![Show View](/Content/images/doc/17_2/PhoneJS/ShowView.png)
+![Show View](/Content/images/doc/18_1/PhoneJS/ShowView.png)
 
 [note]You can access the active view using the *$('.dx-active-view .my-selector')* selector.
 
@@ -104,7 +104,7 @@ Handle the following event at this step.
 
 The next time the application navigates to the view, the view is ready to be displayed if information on this view is stored in the [cache](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#viewCache). If the previous view was displayed by the same layout controller, there is an "inactive" markup of the current view in the dxTransition element of the layout. So, the view is made active and the previous active content is made inactive.
 
-![Show View](/Content/images/doc/17_2/PhoneJS/ShowViewRepeatedly.png)
+![Show View](/Content/images/doc/18_1/PhoneJS/ShowViewRepeatedly.png)
 
 If the layout controller of the previous view is not the controller of the displayed view, the previous controller is deactivated first. This means that the layout markup provided by this controller is removed from the **view port** element of the application page. The controller of the view that must be displayed is then activated. Therefore, the layout markup provided by this controller is inserted to the **view port** element of the application page.
 

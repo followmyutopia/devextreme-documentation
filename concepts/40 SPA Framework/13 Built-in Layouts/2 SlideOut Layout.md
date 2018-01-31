@@ -2,9 +2,9 @@ The SlideOut layout is available for all the platforms supported by the framewor
 
 <a id="iOSSlideOutLayout"></a><h4>iOS</h4>
 
-![SlideOut iOS](/Content/images/doc/17_2/PhoneJS/slideout_ios_root.png)
+![SlideOut iOS](/Content/images/doc/18_1/PhoneJS/slideout_ios_root.png)
 
-![SlideOut iOS](/Content/images/doc/17_2/PhoneJS/slideout_ios_secondary.png)
+![SlideOut iOS](/Content/images/doc/18_1/PhoneJS/slideout_ios_secondary.png)
 
 [note]If you place a command to the 'ios-view-footer' command container, add the 'view-footer' content placeholder to your view as well. In this instance, the dxContent component with the 'ios-view-footer' command container defined in the layout will be rendered to the 'view-footer' content placeholder of your view.
 
@@ -16,7 +16,7 @@ The SlideOut layout is available for all the platforms supported by the framewor
 
 <a id="AndroidSlideOutLayout"></a><h4>Android</h4>
 
-![SlideOut Android](/Content/images/doc/17_2/PhoneJS/slideout_android.png)
+![SlideOut Android](/Content/images/doc/18_1/PhoneJS/slideout_android.png)
 
 **Links**:
 
@@ -26,7 +26,7 @@ The SlideOut layout is available for all the platforms supported by the framewor
 
 <a id="WinPhone8SlideOutLayout"></a><h4>Windows Phone 8</h4>
 
-![SlideOut Windows Phone 8](/Content/images/doc/17_2/PhoneJS/slideout_winphone8.png)
+![SlideOut Windows Phone 8](/Content/images/doc/18_1/PhoneJS/slideout_winphone8.png)
 
 **Links**:
 
@@ -36,9 +36,9 @@ The SlideOut layout is available for all the platforms supported by the framewor
 
 <a id="GenericSlideOutLayout"></a><h4>Generic</h4>
 
-![SlideOut Generic](/Content/images/doc/17_2/PhoneJS/slideout_generic_root.png)
+![SlideOut Generic](/Content/images/doc/18_1/PhoneJS/slideout_generic_root.png)
 
-![SlideOut Generic](/Content/images/doc/17_2/PhoneJS/slideout_generic_secondary.png)
+![SlideOut Generic](/Content/images/doc/18_1/PhoneJS/slideout_generic_secondary.png)
 
 [note]If you place a command in the 'generic-view-footer' command container, add the 'view-footer' content placeholder to your view as well. In this instance, the dxContent component with the 'generic-view-footer' command container defined in the layout will be rendered to the 'view-footer' content placeholder of your view.
 

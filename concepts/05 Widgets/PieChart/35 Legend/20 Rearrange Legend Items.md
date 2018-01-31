@@ -127,7 +127,7 @@ Regardless the legend orientation, you can adjust the empty space between column
 
 Below, you can try out all the mentioned options in action.
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/17_2/DataVisualization/Guides/PieChartLegend/rearrangeLegendItems.html, /Content/Applications/17_2/DataVisualization/Guides/PieChartLegend/rearrangeLegendItems.js, /Content/Applications/17_2/DataVisualization/Guides/PieChartLegend/rearrangeLegendItems.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/18_1/DataVisualization/Guides/PieChartLegend/rearrangeLegendItems.html, /Content/Applications/18_1/DataVisualization/Guides/PieChartLegend/rearrangeLegendItems.js, /Content/Applications/18_1/DataVisualization/Guides/PieChartLegend/rearrangeLegendItems.css"></div>
 
 #####See Also#####
 - [Relocate the Legend](/Documentation/Guide/Widgets/PieChart/Legend/Relocate_the_Legend/)

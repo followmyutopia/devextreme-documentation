@@ -47,7 +47,7 @@ When adapting to a small container or screen, the **TreeList** can hide columns.
 
 Data from hidden columns is still available in adaptive detail rows. A user can expand or collapse these rows by clicking the ellipsis buttons in the adaptive column.
 
-![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Adaptability](/Content/images/doc/17_2/treelist/visual_elements/adaptive-column.png)
+![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Adaptability](/Content/images/doc/18_1/treelist/visual_elements/adaptive-column.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/TreeList/Adaptability/jQuery/Light/"

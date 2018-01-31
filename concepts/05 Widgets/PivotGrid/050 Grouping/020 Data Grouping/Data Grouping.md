@@ -2,4 +2,4 @@
 
 Pivot grid's way of displaying information requires data to be split into independent chunks. For [dimensions](/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/#Areas), these chunks are called **header items** and the process of their generation is called **data grouping**. Each header item is a condition for calculating [summary values](/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/#Areas). There are many different ways to generate header items from data. The function responsible for splitting data is called **selector**. The default selector returns the unique values of the [dataType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataType) among all the [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) values. This article describes how to configure the selector function and implement your own.
 
-![](/Content/images/doc/17_2/DataGrid/PivotGrid_DataGrouping.png)
+![](/Content/images/doc/18_1/DataGrid/PivotGrid_DataGrouping.png)

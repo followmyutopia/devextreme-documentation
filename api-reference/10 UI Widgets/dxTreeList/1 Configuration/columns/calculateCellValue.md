@@ -16,19 +16,19 @@ Certain features are disabled in a column with calculated values by default. The
         </tr>
         <tr>
           <td>Editing</td>
-          <td>Implement the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#setCellValue">setCellValue</a> function.</td>
+          <td>Implement the <a href="/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#setCellValue">setCellValue</a> function.</td>
         </tr>
         <tr>
           <td>Sorting</td>
-          <td>Set the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowSorting">allowSorting</a> option to <i>true</i>.</td>
+          <td>Set the <a href="/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowSorting">allowSorting</a> option to <i>true</i>.</td>
         </tr>
         <tr>
           <td>Filtering</td>
-          <td>Set the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering">allowFiltering</a> option to <i>true</i>.</td>
+          <td>Set the <a href="/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering">allowFiltering</a> option to <i>true</i>.</td>
         </tr>
         <tr>
           <td>Searching</td>
-          <td>Set the <a href="/Documentation/17_2/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowSearch">allowSearch</a> option to <i>true</i>.</td>
+          <td>Set the <a href="/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowSearch">allowSearch</a> option to <i>true</i>.</td>
         </tr>
     </table>
 </div>

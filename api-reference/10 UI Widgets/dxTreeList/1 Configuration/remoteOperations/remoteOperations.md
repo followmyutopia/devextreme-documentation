@@ -20,12 +20,12 @@ Data operations can be categorized into basic operations (filtering, sorting) an
     <th>Advanced operations</th>
  </tr>
  <tr>
-    <td><a href="/Documentation/17_2/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources">CustomStore</a></td>
+    <td><a href="/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources">CustomStore</a></td>
     <td style="text-align:center">client</td>
     <td style="text-align:center">client</td>
  </tr>
  <tr>
-    <td><a href="/Documentation/17_2/Guide/Data_Layer/Data_Source_Examples/#OData">ODataStore</a></td>
+    <td><a href="/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData">ODataStore</a></td>
     <td style="text-align:center">server</td>
     <td style="text-align:center">client (always)</td>
  </tr>

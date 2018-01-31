@@ -1,6 +1,6 @@
 A series represents a group of related data points. The most important characteristic of a series is its type, which determines a particular visual representation of data. You can find more details on each series type in the corresponding topics of the [PolarChart Series Types](/Documentation/Guide/Widgets/PolarChart/Series_Types/) section. Here, you will learn how to set a series type and other series options.
 
-![Series](/Content/images/doc/17_2/ChartJS/Polar_Series.png)
+![Series](/Content/images/doc/18_1/ChartJS/Polar_Series.png)
 
 To set a series type, use the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/#type) property of the **series** configuration object.
 

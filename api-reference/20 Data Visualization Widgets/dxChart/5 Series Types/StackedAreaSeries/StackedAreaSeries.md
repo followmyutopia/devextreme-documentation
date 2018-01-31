@@ -9,7 +9,7 @@ Describes settings supported by a series of the *stacked area* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts StackedAreaSeriesType](/Content/images/doc/17_2/ChartJS/StackedArea.png)
+![DevExtreme HTML5 Charts StackedAreaSeriesType](/Content/images/doc/18_1/ChartJS/StackedArea.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsareaseriesarea/"

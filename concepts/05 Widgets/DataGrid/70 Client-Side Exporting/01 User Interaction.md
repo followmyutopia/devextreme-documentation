@@ -1,6 +1,6 @@
 A user clicks the **Export** button to save an Excel file with exported data. Data types, sorting, filtering, and grouping settings are preserved.
 
-![DevExtreme HTML5 JavaScript DataGrid Export Button](/Content/images/doc/17_2/DataGrid/exported_data.png)
+![DevExtreme HTML5 JavaScript DataGrid Export Button](/Content/images/doc/18_1/DataGrid/exported_data.png)
 
 Client-side exporting requires referencing the [JSZip](https://stuk.github.io/jszip/) library on the page. See the guides in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section for more information. After that, you can enable exporting in the **DataGrid** by setting the **export**.[enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#enabled) option to **true**.
 

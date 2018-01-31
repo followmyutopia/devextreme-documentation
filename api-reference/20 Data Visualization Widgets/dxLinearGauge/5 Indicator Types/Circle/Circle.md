@@ -11,9 +11,9 @@ An object that defines a gauge indicator of the **circle** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![Circle Gauge Value Indicator DevExtreme](/Content/images/doc/17_2/ChartJS/CircleValueIndicator.png)
+![Circle Gauge Value Indicator DevExtreme](/Content/images/doc/18_1/ChartJS/CircleValueIndicator.png)
 
 **Subvalue Indicator**
 
-![Circle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/17_2/ChartJS/CircleSubvalueIndicator.png)
+![Circle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/18_1/ChartJS/CircleSubvalueIndicator.png)
 <!--/fullDescription-->

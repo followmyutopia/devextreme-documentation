@@ -1,6 +1,6 @@
 ﻿Specify what device to use in the Design View by using the **Device Settings Toolbar**.
 
-![Toolbar](Content/images/doc/17_2/DevExtreme/DesignerToolbar.png)
+![Toolbar](Content/images/doc/18_1/DevExtreme/DesignerToolbar.png)
 
 Here are the options to be set for changing the device.
 
@@ -26,4 +26,4 @@ Here are the options to be set for changing the device.
 
 To show/hide the **Device Settings Toolbar**, use the button that is displayed in the image below.
 
-![Show Toolbar](Content/images/doc/17_2/DevExtreme/ShowToolbarButton.png)
+![Show Toolbar](Content/images/doc/18_1/DevExtreme/ShowToolbarButton.png)
