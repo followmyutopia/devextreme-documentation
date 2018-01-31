@@ -61,5 +61,9 @@ Call the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Me
     
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionAPI/jQuery/Light/"
+} 
+
 #####See Also#####
 #include common-link-callmethods

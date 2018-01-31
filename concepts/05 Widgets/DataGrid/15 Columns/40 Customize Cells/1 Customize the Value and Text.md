@@ -84,4 +84,8 @@ Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGr
     
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/ColumnCustomization/jQuery/Light/"
+} 
+
 Note that [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/) and [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) in unbound columns are disabled by default, and their cells can be [edited](/Documentation/Guide/Widgets/DataGrid/Editing/) at runtime only if you implement the [setCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#setCellValue) function.

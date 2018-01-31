@@ -80,6 +80,10 @@ In the UI, to mark an appointment as recurring, toggle the *"Repeat"* switcher o
 
 These fields will be saved as the **recurrenceRule** field of an appointment object. Note that although a recurring appointment is displayed as several appointments on the timetable, only a single appointment object is saved in the data source.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/RecurringAppointments/jQuery/Light/"
+}
+
 #####See Also#####
 - [Scheduler - Add Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/Add_Appointments/)
 - [Scheduler - Update Appointments](/Documentation/Guide/Widgets/Scheduler/Appointments/Update_Appointments/)

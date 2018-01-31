@@ -120,5 +120,11 @@ Selection is non-recursive by default, that is, only the clicked row is selected
     
 ---
 
-<a href="/Demos/WidgetsGallery/Demo/Tree_List/SingleRowSelection/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Single Selection Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/Tree_List/MultipleRowSelection/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Multiple Selection Demo</a>
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/SingleRowSelection/jQuery/Light/",
+    name: "Single Selection"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Tree_List/MultipleRowSelection/jQuery/Light/",
+    name: "Multiple Selection"
+}

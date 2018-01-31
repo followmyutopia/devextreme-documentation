@@ -29,8 +29,13 @@ Specifies the color of the tooltip border.
 
 When implementing a callback function for this option, you can access the hovered area or marker. For this purpose, use the object passed as the function's parameter or the **this** object. To discover the members of the obtained object that can be used, see the [Area](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/) or [Marker](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/) class description of the **Map Elements** reference section.
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/jQuery/Light/"
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/jQuery/Light/",
+    name: "Colors Customization"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/jQuery/Light/",
+    name: "Tooltip HTML Support"
 }
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->

@@ -23,7 +23,7 @@ This function can be used when implementing [zooming](/Documentation/Guide/Widge
 When the chart's [adjustOnZoom](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#adjustOnZoom) option is set to _true_, the maximum and minimum values of the chart's value axis are changed to correspond to the maximum and minimum values of the chart's series. This is required to remove the empty area in the chart that may appear when changing the maximum and minimum values of the argument axis. To prevent value axis adjustment in response to argument axis boundary changes, set the **adjustOnZoom** option to _false_.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesautoajustment/"
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrollingAPI/jQuery/Light/"
 }
 
 #####See Also#####

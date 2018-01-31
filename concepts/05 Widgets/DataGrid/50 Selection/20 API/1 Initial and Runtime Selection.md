@@ -136,6 +136,10 @@ To select all rows at once, call the [selectAll()](/Documentation/ApiReference/U
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionAPI/jQuery/Light/"
+} 
+
 Call the [getSelectedRowKeys()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowKeys) or [getSelectedRowsData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getSelectedRowsData) method to get the selected row's keys or data.
 
 ---

@@ -7,9 +7,7 @@ An array of routes shown on the map.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
-
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsmapmaproutes/"
+    url: "/Demos/WidgetsGallery/Demo/Map/Routes/jQuery/Light/"
 }
 <!--/fullDescription-->

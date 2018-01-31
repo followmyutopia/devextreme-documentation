@@ -21,5 +21,7 @@ The check box can be in one of the following states depending on the **value** o
 
 An end-user can change the widget value using the **Enter** or **Space** key.
 
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/CheckBox/Overview/jQuery/Light/"
+}
 <!--/fullDescription-->

@@ -17,6 +17,6 @@ The available option values are based on map types supported by the Google map p
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `GeoMapType` enum. This enum accepts the following values: `Hybrid`, `Roadmap` and `Satellite`.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsmapmapmap/"
+    url: "/Demos/WidgetsGallery/Demo/Map/ProvidersAndTypes/jQuery/Light/"
 }
 <!--/fullDescription-->

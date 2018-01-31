@@ -7,5 +7,7 @@ Defines common settings for all [*step line* series](/Documentation/ApiReference
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/StepLine/jQuery/Light/"
+}
 <!--/fullDescription-->

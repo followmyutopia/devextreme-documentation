@@ -117,6 +117,16 @@ Specifies the reduction value of the currently hovered point with applied format
 The function's parameter represents the same object as the **this** object. If appropriate, you can use the function's parameter to obtain the value that is currently represented by a tooltip.
 
 To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
+
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/APIDisplayATooltip/jQuery/Light/",
+    name: "Display a Tooltip"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/TooltipHTMLSupport/jQuery/Light/",
+    name: "Tooltip HTML Support"
+}
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

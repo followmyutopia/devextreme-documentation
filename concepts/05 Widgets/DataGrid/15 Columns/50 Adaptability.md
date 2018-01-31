@@ -49,6 +49,15 @@ Data from hidden columns is still available in adaptive detail rows. A user can 
 
 ![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Adaptability](/Content/images/doc/17_2/DataGrid/visual_elements/adaptive-column.png)
 
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridAdaptabilityOverview/jQuery/Light/",
+    name: "Adaptability"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/GridColumnsHidingPriority/jQuery/Light/",
+    name: "Hiding Priority"
+}
+
 You can expand or collapse adaptive detail rows programmatically by calling the [expandAdaptiveDetailRow(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandAdaptiveDetailRowkey) or [collapseAdaptiveDetailRow()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#collapseAdaptiveDetailRow) method. Note that adaptive detail rows cannot be expanded simultaneously, therefore, calling the **expandAdaptiveDetailRow(key)** method collapses the previously expanded row. To check whether a specific row is expanded, call the [isAdaptiveDetailRowExpanded(key)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#isAdaptiveDetailRowExpandedkey) method.
 
 ---

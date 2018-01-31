@@ -20,6 +20,6 @@ There are two different scrolling modes.
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PivotGridScrollingMode` enum. This enum accepts the following values: `Standard` and `Virtual`.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/data_grid-pivot_grid-virtual_scrolling"
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/VirtualScrolling/jQuery/Light/"
 }
 <!--/fullDescription-->

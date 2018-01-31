@@ -12,7 +12,7 @@ A handler for the [cellPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGr
 The **cellPrepared** event fires after a cell has been rendered. When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the prepared cell.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/datagridgridtemplatescellpreparedtemplate/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CellCustomization/jQuery/Light/"
 }
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

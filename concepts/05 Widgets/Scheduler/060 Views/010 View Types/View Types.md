@@ -39,4 +39,8 @@ A user switches between views with the [View Switcher](/Documentation/Guide/Widg
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/BasicViews/jQuery/Light/"
+}
+
 [tags]scheduler, view, type, month, day, timeline views, timelineWeek, timelineWorkWeek, timelineMonth, workWeek, week, agenda, collapsed appointments, current view

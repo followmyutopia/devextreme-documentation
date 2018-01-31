@@ -30,6 +30,10 @@ Specifies the color of the tooltip border.
 When implementing a callback function for this option, you can use the value indicated by a bar. This value can be accessed using the object passed as the function's parameter or the **this** object.
 
 To review text customization in greater detail, refer to the [Customize Text](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Customize_Text) topic.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Gauges/Tooltip/jQuery/Light/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

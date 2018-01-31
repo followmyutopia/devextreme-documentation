@@ -80,3 +80,7 @@ To disable sorting in the whole widget, set the **sorting**.**mode** option to *
     })
     
 ---
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/MultipleSorting/jQuery/Light/"
+}

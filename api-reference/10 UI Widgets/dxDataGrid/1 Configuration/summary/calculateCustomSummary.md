@@ -105,7 +105,7 @@ The following code demonstrates a general structure of the **calculateCustomSumm
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/datagridgriddatasummariescustomsummarytotals/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomSummaries/jQuery/Light/"
 }
 
 #####See Also#####

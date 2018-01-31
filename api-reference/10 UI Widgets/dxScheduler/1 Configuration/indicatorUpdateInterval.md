@@ -8,5 +8,7 @@ Specifies the time interval between when the [date-time indicator](/Documentatio
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/jQuery/Light/"
+}
 <!--/fullDescription-->

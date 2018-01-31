@@ -53,6 +53,10 @@ To bind the **Scheduler** to an array, pass this array to the [dataSource](/Docu
     
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/SimpleArray/jQuery/Light/"
+}
+
 If objects in the array need to be processed (for example, filtered), you can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept). In the following code, a Query selects objects with `text` containing *'meet'*.
 
 ---
@@ -111,7 +115,6 @@ If objects in the array need to be processed (for example, filtered), you can cr
 #####See Also#####
 - [Data Layer - Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
 - [Data Binding - ArrayStore](/Documentation/Guide/Widgets/Scheduler/Data_Binding/Simple_Array/ArrayStore/)
-- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
 - [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)
 
 [tags]scheduler, data binding, provide data, array, process data, query

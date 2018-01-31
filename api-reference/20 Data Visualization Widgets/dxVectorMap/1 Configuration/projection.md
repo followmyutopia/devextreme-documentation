@@ -11,8 +11,12 @@ Specifies the map projection.
 <!--fullDescription-->
 Pass the object returned by the [projection(data)](/Documentation/ApiReference/Common/Utils/viz/map/Methods/#projectiondata) or [get(name)](/Documentation/ApiReference/Common/Utils/viz/map/Methods/#getname) method to this option.
 
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/maps-vector_map-custom_projection/"
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/CustomProjection/jQuery/Light/",
+    name: "Custom Projection"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/FloorPlan/jQuery/Light/",
+    name: "Floor Plan"
 }
 <!--/fullDescription-->

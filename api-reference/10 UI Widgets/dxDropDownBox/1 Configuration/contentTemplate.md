@@ -15,6 +15,10 @@ The **templateData** object has the following fields:
 - **component**: <font size="-1">Object</font>  
     The widget's instance.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/jQuery/Light/"
+}
+
 #####See Also#####
 - [DropDownBox - Overview](/Documentation/Guide/Widgets/DropDownBox/Overview/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)

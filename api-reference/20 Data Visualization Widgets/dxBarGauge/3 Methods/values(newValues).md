@@ -15,7 +15,7 @@ New values.
 Use this method to change gauge values at runtime.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugesbargaugesbargaugeapiandbindingvariablenumberofbars/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/VariableNumberOfBars/jQuery/Light/"
 }
 
 #####See Also#####

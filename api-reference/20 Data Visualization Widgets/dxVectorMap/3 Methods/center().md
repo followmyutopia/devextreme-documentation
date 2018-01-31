@@ -14,7 +14,7 @@ The current map center coordinates.
 This method returns the center coordinates as an array of two values in the [*longitude*, *latitude*] format.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapzoomingandcentering/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/ZoomingAndCentering/jQuery/Light/"
 }
 
 #####See Also#####

@@ -178,4 +178,8 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/jQuery/Light/"
+}
+
 Consider using the remote group paging feature when grouping large data lowers **DataGrid** performance. Note that for this feature, both the server and the client sides should be configured differently. Refer to the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Remote_Group_Paging) topic for more information.

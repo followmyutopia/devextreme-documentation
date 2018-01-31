@@ -78,6 +78,9 @@ Additionally, you can apply shading to cover the timetable up to the current tim
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CurrentTimeIndicator/jQuery/Light/"
+}
+
 #####See Also#####
-- [Scheduler Demos](/Demos/WidgetsGallery/Demo/Scheduler/Overview/jQuery/Light/)
 - [Scheduler API Reference](/Documentation/ApiReference/UI_Widgets/dxScheduler/)

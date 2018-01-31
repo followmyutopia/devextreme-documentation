@@ -15,6 +15,12 @@ When the scale is built on values from a [data source](/Documentation/ApiReferen
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartDataType` enum. This enum accepts the following values: `Numeric`, `DateTime` and `String`.
 
-<a href="/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectorscaledatatypedatatimesupport/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Date-Time Scale Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/Range_Selector/NumericScale/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Numeric Scale Demo</a>
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/RangeSelector/NumericScaleLightweight/jQuery/Light/",
+    name: "Numeric Scale"
+}
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/RangeSelector/DateTimeScaleLightweight/jQuery/Light/",
+    name: "Date-Time Scale"
+}
 <!--/fullDescription-->

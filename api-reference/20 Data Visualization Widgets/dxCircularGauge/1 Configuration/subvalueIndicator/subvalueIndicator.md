@@ -21,6 +21,6 @@ The subvalue indicator is a pointer which designates an extra value on a scale. 
 - [TwoColorNeedle](/Documentation/ApiReference/Data_Visualization_Widgets/dxCircularGauge/Indicator_Types/TwoColorNeedle/)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementsdifferentsubvalueindicatortypes/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentSubvalueIndicatorTypes/jQuery/Light/"
 }
 <!--/fullDescription-->

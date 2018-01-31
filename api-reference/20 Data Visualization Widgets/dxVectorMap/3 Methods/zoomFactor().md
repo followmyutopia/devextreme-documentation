@@ -12,7 +12,7 @@ The zoom factor value.
 
 <!--fullDescription-->
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapzoomingandcentering/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/ZoomingAndCentering/jQuery/Light/"
 }
 
 #####See Also#####

@@ -44,7 +44,7 @@ To bind the **DataGrid** to an array, pass this array to the [dataSource](/Docum
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/LocalDataSource/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/SimpleArray/jQuery/Light/"
 }
 
 If objects in the array need to be processed (sorted or filtered), you can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept). For example, in the following code, a Query sorts objects in the `books` array in the descending order by the `author` field and selects objects with a `title` containing *'it'*.

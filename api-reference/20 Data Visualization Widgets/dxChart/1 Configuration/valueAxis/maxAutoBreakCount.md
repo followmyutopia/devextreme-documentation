@@ -8,5 +8,7 @@ Sets a limit on [auto-calculated scale breaks](/Documentation/ApiReference/Data_
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/ScaleBreaks/jQuery/Light/"
+}
 <!--/fullDescription-->

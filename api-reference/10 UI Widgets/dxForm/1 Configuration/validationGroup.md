@@ -24,4 +24,8 @@ In some cases, the **Form** editors should be validated by the [Button](/Documen
             }
         });
     })
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Form/Validation/jQuery/Light/"
+}
 <!--/fullDescription-->

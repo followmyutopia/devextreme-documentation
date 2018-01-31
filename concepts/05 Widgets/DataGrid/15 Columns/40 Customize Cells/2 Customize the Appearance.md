@@ -136,5 +136,9 @@ While **cellTemplate** customizes data cells only, the [onCellPrepared](/Documen
     
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/ColumnTemplate/jQuery/Light/"
+}
+
 #####See Also#####
 - [Customize Column Headers](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Column_Headers/)

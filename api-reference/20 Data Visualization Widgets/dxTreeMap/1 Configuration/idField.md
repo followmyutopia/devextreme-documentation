@@ -32,4 +32,9 @@ Note that in this data source, objects that have children have the *"id"* field 
         idField: 'id',
         parentField: 'parent'
     };
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/FlatDataStructure/jQuery/Light/"
+}
+
 <!--/fullDescription-->

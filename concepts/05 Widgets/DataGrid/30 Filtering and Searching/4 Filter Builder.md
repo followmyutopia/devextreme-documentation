@@ -122,8 +122,9 @@ Then, add a button that updates a filter of the **DataGrid**'s data source accor
 
 ---
 
-<a href="/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/Angular/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">DataGrid with the Filter Builder Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/DataGrid/FilterBuilder/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">DataGrid with the Filter Builder in the Toolbar Demo</a>
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/Angular/Light/"
+}
 
 #####See Also#####
 - [Filtering API - Initial and Runtime Filtering](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering)

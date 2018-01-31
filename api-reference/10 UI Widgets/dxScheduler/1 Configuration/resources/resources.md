@@ -18,10 +18,7 @@ The name of the appointment object field that specifies a resource of this kind 
 
 There are more fields that can be specified within a resource kind object. They are listed below. For details on how to define a resource and assign it to scheduler appointments, refer to the [Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/) article.
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupedAppointments/jQuery/Light/"
-}
-
 #####See Also#####
+- **Demos**: [Resources](/Demos/WidgetsGallery/Demo/Scheduler/Resources/jQuery/Light/) | [Grouping by Resources](/Demos/WidgetsGallery/Demo/Scheduler/GroupedAppointments/jQuery/Light/)
 - [Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Assign_Appointments_to_Resources/)
 <!--/fullDescription-->

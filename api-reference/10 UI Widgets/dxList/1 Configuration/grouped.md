@@ -20,14 +20,14 @@ When this option is **true**, make sure that all data source objects have the fo
         // ...
     }];
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/List/GroupedList/jQuery/Light/"
+}
+
 You can supply data to this structure using the **DataSource** object's [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
 
 [note]Only one-level grouping is supported.
 
 #####See Also#####
 - [List - Grouping](/Documentation/Guide/Widgets/List/Grouping/In_the_Data_Source/)
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/actionsandlistslistlistgroupedlist/"
-}
 <!--/fullDescription-->

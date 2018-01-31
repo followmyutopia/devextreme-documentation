@@ -15,4 +15,8 @@ If you assign a string that specifies the mode name to this option, the widget w
     showFirstSubmenuMode: "onHover"
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `ShowSubmenuMode` enum. This enum accepts the following values: `OnHover` and `OnClick`.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Menu/Overview/jQuery/Light/"
+}
 <!--/fullDescription-->

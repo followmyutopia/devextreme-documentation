@@ -18,6 +18,6 @@ Specify the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Wi
 You can also change the appearance of tooltips using fields of the **tooltip** configuration object.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapcolorscustomization/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/TooltipHTMLSupport/jQuery/Light/"
 }
 <!--/fullDescription-->

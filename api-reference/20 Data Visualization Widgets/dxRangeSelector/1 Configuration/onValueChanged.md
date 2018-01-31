@@ -15,7 +15,7 @@ When implementing the handling function, use the object passed to it as the para
 The **onValueChanged** function can be called when a user moves a slider or after he/she has stopped moving it. To specify the required mode, use the **behavior**.[callValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged) option.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/charts-advanced_features-zooming_and_scrolling_api"
+    url: "/Demos/WidgetsGallery/Demo/RangeSelector/UseRangeSelectionForFiltering/jQuery/Light/"
 }
 
 #####See Also#####

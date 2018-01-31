@@ -15,6 +15,6 @@ Each legend requires the [source](/Documentation/ApiReference/Data_Visualization
 A map legend contains several legend items. A legend item consists of a marker and a text. You can change the size of markers using the [markerSize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#markerSize) option. To provide texts for legend items, you need to implement the [customizeText](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#customizeText) function.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapareawithlabelandtwolegend/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/AreaWithLabelsAndTwoLegends/jQuery/Light/"
 }
 <!--/fullDescription-->

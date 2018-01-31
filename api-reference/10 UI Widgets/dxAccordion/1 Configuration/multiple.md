@@ -8,5 +8,7 @@ Specifies whether the widget can expand several items or only a single item at o
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Accordion/Overview/jQuery/Light/"
+}
 <!--/fullDescription-->

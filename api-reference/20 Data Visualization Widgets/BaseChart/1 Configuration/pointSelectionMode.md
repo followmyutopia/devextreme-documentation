@@ -15,7 +15,12 @@ To learn how to select a point, refer to the [Selection Handling](/Documentation
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartElementSelectionMode` enum. This enum accepts the following values: `Single` and `Multiple`.
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesmiltiplepointselection/"
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePointSelection/jQuery/Light/",
+    name: "Multiple Point Selection"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/APISelectAPoint/jQuery/Light/",
+    name: "API - Select a Point"
 }
 <!--/fullDescription-->

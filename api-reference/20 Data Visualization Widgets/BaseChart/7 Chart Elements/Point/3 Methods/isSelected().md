@@ -15,7 +15,12 @@ When a point is selected, this method returns **true**. Otherwise, the returned 
 
 You can select a point using its **select()** method. To learn more about point and series selection, refer to the [Selection Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Selection_Handling) topic.
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesmiltiplepointselection/"
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/MultiplePointSelection/jQuery/Light/",
+    name: "Multiple Point Selection"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/APISelectAPoint/jQuery/Light/",
+    name: "API - Select a Point"
 }
 <!--/fullDescription-->

@@ -15,3 +15,7 @@ If in your scenario, several nodes could be in the selected state at a time, set
             showCheckBoxesMode: 'normal' // or 'selectAll'
         });
     });
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/TreeView/ItemSelectionAndCustomization/jQuery/Light/"
+}

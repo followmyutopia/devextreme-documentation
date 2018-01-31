@@ -17,4 +17,8 @@ The widget resizes the appointments without a limit to fit them into a cell.
 The widget narrows the appointments down to 20 pixels in height. If they still do not fit into the cell, the widget aggregates them in an appointment collector.
 - **Number**    
 The number of appointments allowed in a single cell. Appointments are aggregated in an appointment collector when this number is exceeded.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/AdaptiveAppointments/jQuery/Light/"
+}
 <!--/fullDescription-->

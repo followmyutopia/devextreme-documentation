@@ -8,5 +8,7 @@ Specifies whether all items can be collapsed or whether at least one item must a
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Accordion/Overview/jQuery/Light/"
+}
 <!--/fullDescription-->

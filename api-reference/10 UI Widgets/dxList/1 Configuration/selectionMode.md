@@ -28,10 +28,10 @@ This option accepts the following values.
 
  When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ListSelectionMode` enum. This enum accepts the following values: `Single`, `Multiple`, `All` and `None`.
 
-#####See Also#####
-- [List - Selection - User Interaction](/Documentation/Guide/Widgets/List/Selection/#User_Interaction)
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/"
 }
+
+#####See Also#####
+- [List - Selection - User Interaction](/Documentation/Guide/Widgets/List/Selection/#User_Interaction)
 <!--/fullDescription-->

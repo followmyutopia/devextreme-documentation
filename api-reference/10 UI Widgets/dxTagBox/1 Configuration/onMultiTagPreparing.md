@@ -9,7 +9,9 @@ A handler for the **multiTagPreparing** event. Executed before the multi-tag is 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/jQuery/Light/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

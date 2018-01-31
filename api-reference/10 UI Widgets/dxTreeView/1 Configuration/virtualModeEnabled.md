@@ -15,7 +15,7 @@ If the option is set to **true**, the widget initially loads only root items. Ch
 Use this option to improve the widget performance when working with a huge data source.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_View/VirtualMode/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeView/VirtualMode/jQuery/Light/"
 }
 
 #####See Also#####

@@ -36,6 +36,10 @@ To allow the user to delete items from the **List**, set the [allowItemDeleting]
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/"
+}
+
 [note]If **List** items are [supplied with the context menu](/Documentation/Guide/Widgets/List/Item_Context_Menu/), the **itemDeleteMode** option is ignored in favor of the [menuMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#menuMode) option.
 
 [note]If you use a remote data source, the **List** itself does not delete items from it; it only makes a query to it. It is the data source that is responsible for this query to be correctly processed and for the item to be actually deleted.

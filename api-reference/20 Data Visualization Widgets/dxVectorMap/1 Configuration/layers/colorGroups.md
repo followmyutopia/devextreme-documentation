@@ -13,6 +13,6 @@ If you have specified the [field that provides area-coloring data](/Documentatio
 For example, imagine that the **colorGroups** array contains four items: [0, 1, 2, 3]. This array specifies three ranges, or groups: 0-1, 1-2 and 2-3. Thus, data values will be split up into three groups. Each group will be assigned a color from the [palette](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#palette) in order to paint the corresponding areas. Areas of those data values that do not match neither group will be drawn in a default color.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormappalette/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/Palette/jQuery/Light/"
 }
 <!--/fullDescription-->

@@ -134,4 +134,8 @@ To define resource kinds, assign an array of objects specifying them to the [res
 
 Note that every resource instance should have a special structure that includes *id*, *color* and *text* fields. If the structure of your resources differs, set the [valueExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#valueExpr), [colorExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#colorExpr) and [displayExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#displayExpr) options as shown in the code above.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/Resources/jQuery/Light/"
+}
+
 [tags]scheduler, appointment, resource, resource kind, resource structure, assign resource, fieldExpr

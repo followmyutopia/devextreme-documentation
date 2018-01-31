@@ -122,6 +122,10 @@ Call the [showColumnChooser()](/Documentation/ApiReference/UI_Widgets/dxTreeList
     
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/TreeList/ColumnChooser/jQuery/Light/"
+}
+
 #####See Also#####
 - [Hide a Column Using the API](/Documentation/Guide/Widgets/TreeList/Columns/Hide_a_Column_Using_the_API/)
 - [Adaptability](/Documentation/Guide/Widgets/TreeList/Columns/Adaptability/)

@@ -26,7 +26,7 @@ Only the following options can be changed in the **customize** function.
 - [size](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#size)
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/ColorsCustomization/jQuery/Light/"
 }
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->elements<!--/typeFunctionParamName1-->

@@ -1,3 +1,7 @@
 DevExtreme provides an easy way to localize UI widgets. It uses the localization module to load translations of specific captions/messages such as 'Back', 'Cancel', 'Select', 'Loading', 'Search' and others to the corresponding languages. The DevExtreme locale extensions are provided by separate **dictionary** files. These dictionaries can be found in the **[Sources]/Lib/js/localization** folder within the DevExtreme zip archive or in the folder where you have installed DevExtreme. For the [modular approach](/Documentation/Guide/Common/Modularity/), the dictionaries are provided as json files stored in the **node_modules/devextreme/localization/messages** folder. You can customize these dictionaries and create new ones for other cultures.
 
-To localize dates, numbers and currencies, you can use third-party libraries - [Intl](https://github.com/DevExpress/DevExtreme-Intl) or [Globalize](Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/). In addition DevExtreme allows you use Globalize library to localize messages.
+To localize dates, numbers and currencies, you can use third-party libraries - [Intl](https://github.com/DevExpress/DevExtreme-Intl) or [Globalize](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/). In addition DevExtreme allows you use Globalize library to localize messages.
+
+#####See Also#####
+- [Localization - Using Globalize Demo](/Demos/WidgetsGallery/Demo/Localization/UsingGlobalize/jQuery/Light/)
+- [Localization - Using Intl Demo](/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/)

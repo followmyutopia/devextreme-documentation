@@ -101,6 +101,10 @@ The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configur
     
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/DataValidation/jQuery/Light/"
+}
+
 #####See Also#####
 - [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
 

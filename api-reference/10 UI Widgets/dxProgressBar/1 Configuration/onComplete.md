@@ -10,6 +10,10 @@ A handler for the [complete](/Documentation/ApiReference/UI_Widgets/dxProgressBa
 
 <!--fullDescription-->
 Assign a function to perform a custom action when the [value](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#value) option value reaches the [max](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#max) option value.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/ProgressBar/Overview/jQuery/Light/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

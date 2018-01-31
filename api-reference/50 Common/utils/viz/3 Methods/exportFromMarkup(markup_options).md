@@ -100,6 +100,11 @@ The parameter contains the following fields:
 <!--/paramDescription2_field9-->
 
 <!--fullDescription-->
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/jQuery/Light/"
+}
+
 #####See Also#####
 - [DevExpress.viz.getMarkup(widgetInstances)](/Documentation/ApiReference/Common/utils/viz/Methods/#getMarkupwidgetInstances)
 - [exportTo(fileName, format)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#exportTofileName_format)

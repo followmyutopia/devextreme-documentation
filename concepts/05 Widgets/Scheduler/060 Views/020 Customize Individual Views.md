@@ -190,8 +190,14 @@ The following code defines three views: the first is not customized, the second 
 
 ---
 
-<a href="/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Customize Individual Views Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/Scheduler/IncreaseViewDuration/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Increase View Duration Demo</a>
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomizeIndividualViews/jQuery/Light/",
+    name: "Customize Individual Views"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/IncreaseViewDuration/jQuery/Light/",
+    name: "Increase View Duration"
+}
 
 #####See Also#####
 - [Scheduler - View Types](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/)

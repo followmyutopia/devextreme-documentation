@@ -19,7 +19,7 @@ In addition, you can get the current coordinates of the map viewport by calling 
 If you have implemented the [onCenterChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onCenterChanged) or [onZoomFactorChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onZoomFactorChanged) callback functions, they will be triggered when the viewport coordinates are changed using the **viewport(viewportCoordinates)** method.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapviewport/"
+    url: "/Demos/WidgetsGallery/Demo/VectorMap/DynamicViewport/jQuery/Light/"
 }
 
 #####See Also#####

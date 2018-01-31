@@ -15,4 +15,8 @@ The value of this option affects the set of keyboard buttons shown on the mobile
  - 'password' - the text box shows a password character instead of the actual characters typed
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `TextBoxMode` enum. This enum accepts the following values: `Text`, `Email`, `Search`, `Tel`, `Url` and `Password`.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/TextBox/Overview/jQuery/Light/"
+}
 <!--/fullDescription-->

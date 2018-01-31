@@ -11,13 +11,13 @@ Holds an array of form items.
 The array passed to this option can hold items of the following types.
 
 - [Simple](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/)  
- A standard item consisting of a label and an editor widget used to specify a value of the associated data field.
+ A standard item consisting of a label and an editor widget used to specify a value of the associated data field. See [demo](/Demos/WidgetsGallery/Demo/Form/CustomizeItem/jQuery/Light/).
 
 - [Group](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/)  
- An item representing a container of another form items.
+ An item representing a container of another form items. See [demo](/Demos/WidgetsGallery/Demo/Form/GroupedFields/jQuery/Light/).
 
 - [Tabbed](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/)  
- An item representing a tabbed container of another form items.
+ An item representing a tabbed container of another form items. See [demo](/Demos/WidgetsGallery/Demo/Form/GroupedFields/jQuery/Light/).
 
 - [Empty](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/)  
  An empty item used to add a space between neighboring items.

@@ -21,6 +21,10 @@ Possible values: 'PNG' | 'PDF' | 'JPEG' | 'SVG' | 'GIF'
 <!--fullDescription-->
 [note]**IE9** and **Safari on Mac OS** do not implement an API for saving files. Therefore, exporting in these browsers requires setting up a server-side proxy. For details, refer to the **export** | [proxyUrl]({basewidgetpath}/Configuration/export#proxyUrl) option description.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/ExportAndPrintingAPI/jQuery/Light/"
+}
+
 #####See Also#####
 - [DevExpress.viz.exportFromMarkup(markup, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#exportFromMarkupmarkup_options)
 - [export]({basewidgetpath}/Configuration/export)

@@ -3,6 +3,11 @@ DevExtreme provides the [CustomStore](/Documentation/ApiReference/Data_Layer/Cus
 - [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
 - [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
 
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/WebAPIService/jQuery/Light/",
+    name: "Web API Service"
+}
+
 You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. 
 
 ---

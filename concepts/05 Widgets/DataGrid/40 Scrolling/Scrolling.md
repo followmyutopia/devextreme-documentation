@@ -11,9 +11,14 @@ The next page is loaded once the scrollbar reaches the end of its scale. Use thi
 
     [note]Set the **grouping**.[allowCollapsing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#allowCollapsing) option to **false** when using infinite scrolling in conjunction with grouping.
 
-
-<a href="/Demos/WidgetsGallery/Demo/Data_Grid/InfiniteScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Infinite Scrolling Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Virtual Scrolling Demo</a>
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/InfiniteScrolling/jQuery/Light/",
+    name: "Infinite Scrolling"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/jQuery/Light/",
+    name: "Virtual Scrolling"
+}
 
 Use the **scrolling**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/scrolling/#mode) option to specify the current scrolling mode.
 

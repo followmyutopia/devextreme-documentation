@@ -14,8 +14,13 @@ A new value.
 <!--fullDescription-->
 Use this method to change the main gauge value at runtime.
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugeapiandbindingvalueindicatorsapi/"
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Gauges/ValueIndicatorsAPI/jQuery/Light/",
+    name: "Value Indicators API"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Gauges/VariableNumberOfSubvalueIndicators/jQuery/Light/",
+    name: "Subvalue Indicators"
 }
 
 #####See Also#####

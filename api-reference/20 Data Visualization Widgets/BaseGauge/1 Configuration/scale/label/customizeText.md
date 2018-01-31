@@ -13,7 +13,7 @@ When implementing a callback function for this property, use the scale value to 
 For general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting) topic.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/gaugescirculargaugescirculargaugebasicelementsscalelabelformatting/"
+    url: "/Demos/WidgetsGallery/Demo/Gauges/ScaleLabelFormatting/jQuery/Light/"
 }
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->

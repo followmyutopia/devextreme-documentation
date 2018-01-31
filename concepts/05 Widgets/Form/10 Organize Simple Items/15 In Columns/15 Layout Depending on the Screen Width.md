@@ -61,10 +61,13 @@ The **Form** widget enables you to specify different layouts for different scree
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Form/ColumnsAdaptability/jQuery/Light/"
+}
+
 #####See Also#####
 - [Form - Configure Simple Items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
 - [Form - Organize Simple Items in Groups](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/)
 - [Form - Organize Simple Items in Tabs](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/)
 - [Form - Add an Empty Space Between Smple Items](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/Add_an_Empty_Space/)
-- [Form Demos](/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-grouped_fields)
 - [Form API Reference](/Documentation/ApiReference/UI_Widgets/dxForm/)

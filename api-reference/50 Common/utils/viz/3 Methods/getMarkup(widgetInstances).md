@@ -19,6 +19,10 @@ The widgets' SVG markup. Pass it to the [exportFromMarkup(markup, options)](/Doc
 <!--/returnDescription-->
 
 <!--fullDescription-->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/ExportSeveralCharts/jQuery/Light/"
+}
+
 #####See Also#####
 - [svg()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#svg)
 <!--/fullDescription-->
