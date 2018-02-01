@@ -4,10 +4,6 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **tick**.**length** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies the length of the scale's major ticks.
 <!--/shortDescription-->

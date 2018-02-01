@@ -5,10 +5,6 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **horizontalAlignment** and **verticalAlignment** options instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies the position of the title.
 <!--/shortDescription-->

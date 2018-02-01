@@ -3,10 +3,6 @@
 <!--type-->Object<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the tick option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies options of the gauge's major ticks.
 <!--/shortDescription-->

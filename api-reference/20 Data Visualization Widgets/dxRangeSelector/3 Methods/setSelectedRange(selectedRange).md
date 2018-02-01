@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the [setValue(value)](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Methods/#setValuevalue) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Sets a specified range.
 <!--/shortDescription-->
 

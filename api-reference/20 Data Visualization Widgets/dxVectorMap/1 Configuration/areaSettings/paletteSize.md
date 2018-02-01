@@ -4,10 +4,6 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**paletteSize** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies the number of colors in a palette.
 <!--/shortDescription-->

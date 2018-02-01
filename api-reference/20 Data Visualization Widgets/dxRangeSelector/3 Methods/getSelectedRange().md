@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the [getValue()](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Methods/#getValue) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Gets the currently selected range.
 <!--/shortDescription-->
 

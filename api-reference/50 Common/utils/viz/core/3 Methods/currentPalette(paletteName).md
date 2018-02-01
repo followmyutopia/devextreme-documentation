@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the [DevExpress.viz.currentPalette(paletteName)](/Documentation/ApiReference/Common/Utils/viz/Methods/#currentPalettepaletteName) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Applies a predefined or registered custom palette to all visualization widgets at once.
 <!--/shortDescription-->
 

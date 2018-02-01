@@ -4,10 +4,6 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**label**.**enabled** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Enables marker labels.
 <!--/shortDescription-->

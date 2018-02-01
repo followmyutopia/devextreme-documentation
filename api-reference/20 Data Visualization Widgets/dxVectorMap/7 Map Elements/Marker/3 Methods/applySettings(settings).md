@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the **Layer Element**.**applySettings(settings)** method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Applies the marker settings specified as a parameter and updates marker appearance.
 <!--/shortDescription-->
 

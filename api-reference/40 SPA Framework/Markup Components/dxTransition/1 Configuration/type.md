@@ -5,10 +5,6 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the [animation]({basewidgetpath}/Configuration/#animation) option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies the transition type.
 <!--/shortDescription-->

@@ -4,10 +4,6 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**colorGroupingField** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies the field that provides data to be used for coloring markers.
 <!--/shortDescription-->

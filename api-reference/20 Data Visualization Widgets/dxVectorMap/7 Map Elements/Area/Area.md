@@ -2,10 +2,6 @@
 ===========================================================================
 ===========================================================================
 
-<!--deprecated-->
-Use the [Layer Element](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/) instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 This section describes the fields and methods that can be used in code to manipulate the **Area** object.
 <!--/shortDescription-->

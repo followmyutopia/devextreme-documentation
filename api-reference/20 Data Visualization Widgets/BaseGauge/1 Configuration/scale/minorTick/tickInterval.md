@@ -4,10 +4,6 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **scale**.**minorTickInterval** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies an interval between minor ticks.
 <!--/shortDescription-->

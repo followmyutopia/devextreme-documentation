@@ -4,10 +4,6 @@
 <!--type-->Number | Object<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the [placeholderHeight](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/sliderMarker/#placeholderHeight) and [indent](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/indent/) options instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies in pixels the height and width of the space reserved for the range selector slider markers.
 <!--/shortDescription-->

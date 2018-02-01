@@ -4,10 +4,6 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **title**.**subtitle**.**text** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies a text for the subtitle.
 <!--/shortDescription-->

@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the [DevExpress.viz.currentTheme(theme)](/Documentation/ApiReference/Common/Utils/viz/Methods/#currentThemetheme) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Applies a theme for the entire page with several DevExtreme visualization widgets.
 <!--/shortDescription-->
 

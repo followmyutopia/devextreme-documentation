@@ -5,10 +5,6 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**selectionMode** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies whether a single or multiple markers can be selected on a vector map.
 <!--/shortDescription-->

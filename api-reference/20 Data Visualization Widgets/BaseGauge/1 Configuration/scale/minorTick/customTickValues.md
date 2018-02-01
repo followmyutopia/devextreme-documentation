@@ -5,10 +5,6 @@
 <!--type-->Array<Number><!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **scale**.**customMinorTicks** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies an array of custom minor ticks.
 <!--/shortDescription-->

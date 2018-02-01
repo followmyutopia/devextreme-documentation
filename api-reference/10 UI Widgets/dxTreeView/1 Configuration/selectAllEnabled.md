@@ -4,10 +4,6 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the [showCheckBoxesMode]({basewidgetpath}/Configuration/#showCheckBoxesMode) options instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies whether the "Select All" check box is displayed over the tree view.
 <!--/shortDescription-->

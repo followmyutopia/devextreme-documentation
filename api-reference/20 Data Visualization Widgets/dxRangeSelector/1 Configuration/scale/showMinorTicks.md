@@ -4,10 +4,6 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **minorTick**.**visible** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Indicates whether or not to show minor ticks on the scale.
 <!--/shortDescription-->
