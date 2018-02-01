@@ -12,10 +12,10 @@ $(function () {
     $("#pieChartContainer").dxPieChart({
         dataSource: dataSource,
         series: {
-            type: 'doughnut',
             argumentField: 'continent',
             valueField: 'population'
         },
+        type: 'doughnut',
         tooltip: {
             format: {
                 type: 'largeNumber',

@@ -38,7 +38,9 @@ var dataArray = [
             { id: 15, text: "Black-chinned Sparrow" }
         ]
     }
-];//<!--@Knockout-->
+];
+
+//<!--@Knockout-->
 var myViewModel = {
     treeViewData: dataArray,
     text: ko.observable("Select All")
@@ -62,8 +64,7 @@ $("#demoBox").dxScrollView({
 $("#myTreeView").dxTreeView({
     dataSource: dataArray,
     width: "auto",
-    showCheckBoxes: true,
-    selectAllEnabled: true,
+    showCheckBoxesMode: 'selectAll',
     selectAllText: "Select All"
 });
 $("#selectAllTextBox").dxTextBox({

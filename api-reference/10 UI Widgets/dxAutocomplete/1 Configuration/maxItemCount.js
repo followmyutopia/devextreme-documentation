@@ -34,7 +34,7 @@ var autocompleteData = new DevExpress.data.DataSource([]);
 $("#myAutocomplete").dxAutocomplete({
     dataSource: autocompleteData,
     maxItemCount: 10,
-    displayExpr: 'country',
+    valueExpr: 'country',
     placeholder: 'Type country name',
     itemTemplate: function (itemData, itemIndex, itemElement) {
         itemElement.append("Country: <b>" + itemData.country + "</b><br/>\

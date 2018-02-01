@@ -4,7 +4,7 @@
         scale: {
             startValue: 0,
             endValue: 10,
-            showMinorTicks: false
+            minorTick: { visible: false }
         },
         behavior: {
             snapToTicks: false

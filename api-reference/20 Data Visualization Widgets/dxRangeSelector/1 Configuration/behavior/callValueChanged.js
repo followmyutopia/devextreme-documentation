@@ -4,8 +4,8 @@
             startValue: new Date(2011, 0, 1),
             endValue: new Date(2011, 11, 31),
             minorTickInterval: 'day',
+            minorTick: { visible: false },
             tickInterval: 'month',
-            showMinorTicks: false,
             marker: { visible: false },
             label: {
                 format: 'MMM'

@@ -12,7 +12,8 @@
         <div data-bind="dxTreeView: {
             dataSource: treeViewData,
             width: 'auto',
-            showCheckBoxes: true,
+            showCheckBoxesMode: 'normal',
+            selectionMode: 'multiple',
             selectNodesRecursive: recursiveSelection
         }">
         </div>
@@ -31,7 +32,8 @@
         <div dx-tree-view="{
             dataSource: treeViewData,
             width: 'auto',
-            showCheckBoxes: true,
+            showCheckBoxesMode: 'normal',
+            selectionMode: 'multiple',
             bindingOptions: {
                 selectNodesRecursive: 'recursiveSelection'
             }

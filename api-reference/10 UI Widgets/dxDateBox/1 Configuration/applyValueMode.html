@@ -1,7 +1,7 @@
 <!--@Knockout-->
 <div class="dateBox" data-bind="dxDateBox: {
     applyValueMode: applyMode,
-    format: 'date',
+    type: 'date',
     pickerType: 'calendar'
 }"></div>
 <div class="dx-fieldset">
@@ -17,7 +17,7 @@
 <!--@AngularJS-->
 <div ng-controller="demoController">
     <div class="dateBox" dx-date-box="{
-        format: 'date',
+        type: 'date',
         pickerType: 'calendar',
         bindingOptions: {
             applyValueMode: 'applyMode'

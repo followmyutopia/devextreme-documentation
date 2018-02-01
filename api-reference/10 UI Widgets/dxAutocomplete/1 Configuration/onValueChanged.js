@@ -37,7 +37,7 @@ angular.element(document).ready(function () {
 var autocompleteData = new DevExpress.data.DataSource([]);
 $("#myAutocomplete").dxAutocomplete({
     dataSource: autocompleteData,
-    displayExpr: 'country',
+    valueExpr: 'country',
     placeholder: 'Type country name',
     onValueChanged: function (e) {
         DevExpress.ui.notify("New widget value is \"" + e.value + "\"", "info", 2000);

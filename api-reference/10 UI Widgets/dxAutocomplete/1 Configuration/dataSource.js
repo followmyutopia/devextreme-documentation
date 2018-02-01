@@ -31,7 +31,7 @@ angular.element(document).ready(function () {
 var autocompleteData = new DevExpress.data.DataSource([]);
 $("#myAutocomplete").dxAutocomplete({
     dataSource: autocompleteData,
-    displayExpr: 'country',
+    valueExpr: 'country',
     placeholder: 'Type country name',
     itemTemplate: function (itemData, itemIndex, itemElement) {
         itemElement.append("Country: <b>" + itemData.country + "</b><br/>\

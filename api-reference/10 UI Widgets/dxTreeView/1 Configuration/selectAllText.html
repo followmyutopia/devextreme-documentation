@@ -12,8 +12,7 @@
         <div data-bind="dxTreeView: {
             dataSource: treeViewData,
             width: 'auto',
-            showCheckBoxes: true,
-            selectAllEnabled: true,
+            showCheckBoxesMode: 'multiple',
             selectAllText: text
         }">
         </div>
@@ -32,8 +31,7 @@
         <div dx-tree-view="{
             dataSource: treeViewData,
             width: 'auto',
-            showCheckBoxes: true,
-            selectAllEnabled: true,
+            showCheckBoxesMode: 'multiple',
             bindingOptions: {
                 selectAllText: 'text'
             }

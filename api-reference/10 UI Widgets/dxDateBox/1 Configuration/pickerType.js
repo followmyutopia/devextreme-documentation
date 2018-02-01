@@ -11,18 +11,18 @@ angular.element(document).ready(function () {
 //<!--@jQuery-->
 $("#nativePicker").dxDateBox({
     pickerType: "native",
-    format: "datetime"
+    type: "datetime"
 });
 $("#calendarPicker").dxDateBox({
     pickerType: "calendar",
-    format: "date"
+    type: "date"
 });
 $("#rollersPicker").dxDateBox({
     pickerType: "rollers",
-    format: "datetime"
+    type: "datetime"
 });
 $("#listPicker").dxDateBox({
     pickerType: "list",
-    format: "time"
+    type: "time"
 });
 //<!--/@jQuery-->

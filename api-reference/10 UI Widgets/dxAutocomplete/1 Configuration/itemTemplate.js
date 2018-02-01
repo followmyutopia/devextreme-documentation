@@ -42,7 +42,7 @@ var fullTemplate = function (itemData, itemIndex, itemElement) {
 };
 $("#myAutocomplete").dxAutocomplete({
     dataSource: autocompleteData,
-    displayExpr: 'country',
+    valueExpr: 'country',
     placeholder: 'Type country name',
     itemTemplate: briefTemplate
 });

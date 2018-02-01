@@ -2,7 +2,7 @@
 <div class="autocomplete" data-bind="dxAutocomplete: {
     dataSource: autocompleteDataSource,
     disabled: autocompleteDisabled,
-    displayExpr: 'country',
+    valueExpr: 'country',
     placeholder: 'Type country name',
     itemTemplate: 'item'
 }">
@@ -22,7 +22,7 @@
 <div ng-controller="demoController">
     <div class="autocomplete" dx-autocomplete="{
         dataSource: autocompleteDataSource,
-        displayExpr: 'country',
+        valueExpr: 'country',
         placeholder: 'Type country name',
         itemTemplate: 'item',
         bindingOptions: {

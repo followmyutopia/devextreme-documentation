@@ -1,7 +1,7 @@
 <!--@Knockout-->
 <div class="autocomplete" data-bind="dxAutocomplete: {
     dataSource: autocompleteDataSource,
-    displayExpr: 'country',
+    valueExpr: 'country',
     placeholder: 'Type country name',
     valueChangeEvent: currentEvent,
     onValueChanged: valueChanged
@@ -25,7 +25,7 @@
 <div ng-controller="demoController">
     <div class="autocomplete" dx-autocomplete="{
         dataSource: autocompleteDataSource,
-        displayExpr: 'country',
+        valueExpr: 'country',
         placeholder: 'Type country name',
         onValueChanged: valueChanged,
         bindingOptions: {

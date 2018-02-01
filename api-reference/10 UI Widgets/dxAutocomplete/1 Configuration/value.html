@@ -1,7 +1,7 @@
 ﻿<!--@Knockout-->
 <div class="autocomplete" data-bind="dxAutocomplete: {
     dataSource: autocompleteDataSource,
-    displayExpr: 'country',
+    valueExpr: 'country',
     placeholder: 'Type country name',
     value: autocompleteValue
 }">
@@ -21,7 +21,7 @@
 <div ng-controller="demoController">
     <div class="autocomplete" ng-model="autocompleteValue" dx-autocomplete="{
         dataSource: autocompleteDataSource,
-        displayExpr: 'country',
+        valueExpr: 'country',
         placeholder: 'Type country name'
     }" dx-item-alias="itemObj">
         <div data-options="dxTemplate: { name: 'item' }">

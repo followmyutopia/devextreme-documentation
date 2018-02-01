@@ -48,7 +48,7 @@ $("#myList").dxList({
     height: '80%',
     dataSource: listDataSource,
     pullRefreshEnabled: true,
-    autoPagingEnabled: false,
+    pageLoadMode: 'nextButton',
     showNextButton: true,
     itemTemplate: function (itemData, itemIndex, itemElement) {
         itemElement.append("<p style=\"font-size:larger;\"><b>" + itemData.name + "</b></p>");

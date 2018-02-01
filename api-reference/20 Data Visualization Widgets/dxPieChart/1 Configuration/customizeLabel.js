@@ -14,7 +14,6 @@ $(function () {
         series: {
             argumentField: 'continent',
             valueField: 'population',
-            type: 'doughnut',
             label: {
                 visible: true,
                 connector: { visible: true },
@@ -24,6 +23,7 @@ $(function () {
                 }
             }
         },
+        type: 'doughnut',
         title: 'Population by Continent',
         palette: 'Ocean',
         customizeLabel: function (point) {

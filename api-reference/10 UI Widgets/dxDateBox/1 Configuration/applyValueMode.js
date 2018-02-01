@@ -17,7 +17,7 @@ angular.element(document).ready(function () {
 //<!--/@AngularJS-->
 //<!--@jQuery-->
 $("#myDateBox").dxDateBox({
-    format: 'date',
+    type: 'date',
     pickerType: 'calendar'
 });
 $("#modeSelector").dxSelectBox({

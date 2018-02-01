@@ -2,7 +2,7 @@
 <div id="myList" data-bind="dxList: {
     height: '80%',
     dataSource: listDataSource,
-    autoPagingEnabled: false,
+    pageLoadMode: 'nextButton',
     pullRefreshEnabled: true,
     showNextButton: true,
     nextButtonText: nextText
@@ -26,7 +26,7 @@
     <div id="myList" dx-list="{
         height: '80%',
         dataSource: listDataSource,
-        autoPagingEnabled: false,
+        pageLoadMode: 'nextButton',
         pullRefreshEnabled: true,
         showNextButton: true,
         bindingOptions: {

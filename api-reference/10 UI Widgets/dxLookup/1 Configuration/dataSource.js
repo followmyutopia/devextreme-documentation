@@ -78,7 +78,6 @@ $("#myLookup").dxLookup({
     dataSource: lookupDataSource,
     displayExpr: 'name',
     valueExpr: 'this',
-    pagingEnabled: false,
     title: 'States',
     onValueChanged: function (e) {
         fillFields(e.value);

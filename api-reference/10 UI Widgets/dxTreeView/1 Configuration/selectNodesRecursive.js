@@ -40,7 +40,9 @@ var dataArray = [
             { id: 15, text: "Black-chinned Sparrow" }
         ]
     }
-];//<!--@Knockout-->
+];
+
+//<!--@Knockout-->
 var myViewModel = {
     treeViewData: dataArray,
     recursiveSelection: ko.observable(true)
@@ -64,7 +66,8 @@ $("#demoBox").dxScrollView({
 $("#myTreeView").dxTreeView({
     dataSource: dataArray,
     width: "auto",
-    showCheckBoxes: true,
+    showCheckBoxesMode: 'normal',
+    selectionMode: 'multiple',
     selectNodesRecursive: true
 });
 $("#recursiveSelector").dxSwitch({

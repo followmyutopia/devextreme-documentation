@@ -12,7 +12,6 @@ $(function () {
     $("#pieChartContainer").dxPieChart({
         dataSource: dataSource,
         series: {
-            type: 'doughnut',
             argumentField: 'continent',
             valueField: 'population',
             label: {
@@ -24,6 +23,7 @@ $(function () {
                 connector: { visible: true }
             }
         },
+        type: 'doughnut',
         innerRadius: 0.8,
         legend: {
             horizontalAlignment: 'center',
