@@ -1,7 +1,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->
-<!--type-->Object | Array<Object><!--/type-->
+<!--type-->dxChart_Options_series | Array<dxChart_Options_series><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
