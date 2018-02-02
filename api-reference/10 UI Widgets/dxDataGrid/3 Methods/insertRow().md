@@ -2,7 +2,9 @@
 ===================================================================
 ===================================================================
 
-<!--shortDescription-->
+<!--deprecated-->
+Use the [addRow()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#addRow) method instead.
+<!--/deprecated--><!--shortDescription-->
 Adds a new data row to a grid.
 <!--/shortDescription-->
 

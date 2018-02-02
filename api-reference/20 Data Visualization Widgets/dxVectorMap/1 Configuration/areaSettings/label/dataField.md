@@ -3,6 +3,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**label**.**dataField** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the data field that provides data for area labels.
 <!--/shortDescription-->

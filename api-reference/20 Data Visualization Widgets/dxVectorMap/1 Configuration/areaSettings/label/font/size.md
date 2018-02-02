@@ -4,6 +4,10 @@
 <!--type-->Number | String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**label**.**font**.**size** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a font size for area labels.
 <!--/shortDescription-->

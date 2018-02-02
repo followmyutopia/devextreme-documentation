@@ -4,6 +4,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**label**.**font**.**family** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a font family for marker labels.
 <!--/shortDescription-->

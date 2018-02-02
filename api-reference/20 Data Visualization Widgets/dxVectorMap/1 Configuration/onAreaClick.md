@@ -6,6 +6,10 @@
 <!--type-->function(e) | String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the [onClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onClick) option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 A handler for the [areaClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Events/#areaClick) event.
 <!--/shortDescription-->

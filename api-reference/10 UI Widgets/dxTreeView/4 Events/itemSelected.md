@@ -3,6 +3,10 @@
 <!--type-->eventType<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the [onItemSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemSelectionChanged) option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Fires when a tree view item is selected.
 <!--/shortDescription-->

@@ -4,6 +4,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**selectedColor** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a color for an area when this area is selected.
 <!--/shortDescription-->

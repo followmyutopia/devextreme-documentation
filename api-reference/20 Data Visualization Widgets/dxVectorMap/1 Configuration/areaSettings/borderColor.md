@@ -4,6 +4,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**borderColor** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a color for the area border.
 <!--/shortDescription-->

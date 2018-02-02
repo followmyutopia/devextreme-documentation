@@ -5,6 +5,10 @@
 <!--type-->Array<Number><!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **scale**.**customTicks** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies an array of custom major ticks.
 <!--/shortDescription-->

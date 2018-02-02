@@ -4,6 +4,10 @@
 <!--type-->Object | DataSource | DataSource_Options<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataSource) option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a data source for the layer.
 <!--/shortDescription-->

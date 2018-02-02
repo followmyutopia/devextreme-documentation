@@ -3,6 +3,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **Layer**.**type** instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Contains the element type.
 <!--/shortDescription-->

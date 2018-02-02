@@ -5,6 +5,10 @@
 <!--type-->Array<String> | String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**palette** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the name of a palette or a custom set of colors to be used for coloring markers of the *pie* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#type).
 <!--/shortDescription-->

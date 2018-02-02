@@ -4,6 +4,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **tick**.**color** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the color of the scale's major ticks.
 <!--/shortDescription-->

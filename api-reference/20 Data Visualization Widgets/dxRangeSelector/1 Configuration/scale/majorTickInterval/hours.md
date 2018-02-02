@@ -3,6 +3,10 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **tickInterval**.**hours** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the count in hours between the scale's major ticks.
 <!--/shortDescription-->

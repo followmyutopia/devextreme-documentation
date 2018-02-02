@@ -4,6 +4,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**sizeGroupingField** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the field that provides data to be used for sizing [bubble](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#type) markers.
 <!--/shortDescription-->

@@ -3,6 +3,10 @@
 <!--type-->Object<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the *"marker"* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#type) element of the [layers](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/) array.
+<!--/deprecated-->
+
 <!--shortDescription-->
 An object specifying options for the map markers.
 <!--/shortDescription-->

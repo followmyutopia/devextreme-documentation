@@ -3,6 +3,10 @@
 <!--type-->Object | String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **title**.**subtitle** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a subtitle for the widget.
 <!--/shortDescription-->

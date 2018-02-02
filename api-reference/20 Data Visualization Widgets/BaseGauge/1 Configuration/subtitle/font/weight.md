@@ -4,6 +4,10 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **title**.**subtitle**.**font**.**weight** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the font weight for the subtitle. Accepts values from 100 to 900 in increments of 100. Higher values increase boldness.
 <!--/shortDescription-->

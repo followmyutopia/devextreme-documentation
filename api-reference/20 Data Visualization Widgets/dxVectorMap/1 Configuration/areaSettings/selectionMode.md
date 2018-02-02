@@ -5,6 +5,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**selectionMode** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies whether single or multiple areas can be selected on a vector map.
 <!--/shortDescription-->

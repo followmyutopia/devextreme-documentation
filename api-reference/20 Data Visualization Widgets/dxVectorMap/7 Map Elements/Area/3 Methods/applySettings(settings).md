@@ -2,7 +2,9 @@
 ===================================================================
 ===================================================================
 
-<!--shortDescription-->
+<!--deprecated-->
+Use the **Layer Element**.**applySettings(settings)** method instead.
+<!--/deprecated--><!--shortDescription-->
 Applies the area settings specified as a parameter and updates the area appearance.
 <!--/shortDescription-->
 

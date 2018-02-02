@@ -2,7 +2,9 @@
 ===================================================================
 ===================================================================
 
-<!--shortDescription-->
+<!--deprecated-->
+Use the [DevExpress.viz.getPalette(paletteName)](/Documentation/ApiReference/Common/Utils/viz/Methods/#getPalettepaletteName) method instead.
+<!--/deprecated--><!--shortDescription-->
 Obtains the color sets of a predefined or registered palette.
 <!--/shortDescription-->
 

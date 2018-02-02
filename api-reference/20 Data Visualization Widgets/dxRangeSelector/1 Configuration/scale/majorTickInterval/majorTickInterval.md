@@ -5,6 +5,10 @@
 <!--type-->Number | Object | String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **tickInterval** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies an interval between major ticks.
 <!--/shortDescription-->

@@ -6,6 +6,10 @@
 <!--type-->function(e)<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the [onValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#onValueChanged) option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 A handler for the [selectedRangeChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Events/#selectedRangeChanged) event.
 <!--/shortDescription-->

@@ -4,6 +4,10 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the [config(config)](/Documentation/ApiReference/Common/utils/#configconfig) method instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies whether or not the entire application/site supports right-to-left representation.
 <!--/shortDescription-->

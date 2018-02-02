@@ -4,6 +4,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**color** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a color for an area.
 <!--/shortDescription-->

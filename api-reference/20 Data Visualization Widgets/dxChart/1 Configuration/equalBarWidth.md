@@ -3,6 +3,10 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies whether all bars should have equal width, even if some values are missing from a series. Applies only to bar-like series.
 <!--/shortDescription-->

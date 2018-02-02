@@ -4,6 +4,10 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **tick**.**visible** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Indicates whether scale major ticks are visible or not.
 <!--/shortDescription-->

@@ -5,6 +5,10 @@
 <!--type-->function(e)<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the [itemSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemSelectionChanged) event instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 A handler for the [itemSelected](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemSelected) event.
 <!--/shortDescription-->

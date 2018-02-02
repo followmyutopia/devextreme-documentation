@@ -4,6 +4,10 @@
 <!--type-->Array<Number><!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**sizeGroups** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Allows you to display [bubbles](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#type) with similar attributes in the same size.
 <!--/shortDescription-->

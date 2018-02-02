@@ -4,6 +4,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.[dataField](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataField) option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a URL for a map marker of the *image* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#type).
 <!--/shortDescription-->

@@ -4,6 +4,10 @@
 <!--type-->function(marker)<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**customize** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the function that customizes each marker individually.
 <!--/shortDescription-->

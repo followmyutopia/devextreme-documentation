@@ -4,6 +4,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **title**.**subtitle**.**font**.**family** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a font family for the subtitle.
 <!--/shortDescription-->

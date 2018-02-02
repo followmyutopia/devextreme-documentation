@@ -4,6 +4,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**hoveredBorderColor** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a color for the marker border when the marker is hovered over.
 <!--/shortDescription-->

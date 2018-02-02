@@ -3,6 +3,10 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **tickInterval**.**years** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the count in years between the scale's major ticks.
 <!--/shortDescription-->

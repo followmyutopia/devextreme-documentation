@@ -4,6 +4,10 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Specify the **value** as one of the GeoJSON attributes (the GeoJSON object is passed to the **layers**.[dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataSource) option) and reference it using the **layers**.[dataField](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataField) option.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a value for a map marker of the *bubble* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#type).
 <!--/shortDescription-->

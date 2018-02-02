@@ -2,7 +2,9 @@
 ===================================================================
 ===================================================================
 
-<!--shortDescription-->
+<!--deprecated-->
+Use the getAllSeries() method instead.
+<!--/deprecated--><!--shortDescription-->
 Gets all the series.
 <!--/shortDescription-->
 

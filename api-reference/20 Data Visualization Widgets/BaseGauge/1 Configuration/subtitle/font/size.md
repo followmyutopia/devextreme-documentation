@@ -4,6 +4,10 @@
 <!--type-->Number | String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **title**.**subtitle**.**font**.**size** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a font size for the subtitle.
 <!--/shortDescription-->

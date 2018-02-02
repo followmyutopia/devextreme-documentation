@@ -3,6 +3,10 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies whether or not all bars in a series must have the same angle, or may have different angles if any points in other series are missing.
 <!--/shortDescription-->

@@ -4,6 +4,10 @@
 <!--type-->eventType<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the [click](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Events/#click) event instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Fires when a user clicks a marker.
 <!--/shortDescription-->

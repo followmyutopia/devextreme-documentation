@@ -4,6 +4,10 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the [overlappingBehavior](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/label/#overlappingBehavior) option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies whether or not to expand the current tick interval if labels overlap each other.
 <!--/shortDescription-->

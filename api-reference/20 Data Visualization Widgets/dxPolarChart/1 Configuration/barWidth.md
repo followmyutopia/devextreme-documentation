@@ -3,6 +3,10 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies a common bar width as a percentage from 0 to 1.
 <!--/shortDescription-->

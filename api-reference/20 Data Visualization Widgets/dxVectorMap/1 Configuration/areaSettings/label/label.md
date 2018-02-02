@@ -3,6 +3,10 @@
 <!--type-->Object<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**label** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Configures area labels.
 <!--/shortDescription-->

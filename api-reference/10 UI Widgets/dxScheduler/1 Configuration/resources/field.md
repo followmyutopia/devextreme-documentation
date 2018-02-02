@@ -4,6 +4,10 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the [fieldExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/resources/#fieldExpr) option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 The name of the appointment object field that specifies a resource of this kind.
 <!--/shortDescription-->

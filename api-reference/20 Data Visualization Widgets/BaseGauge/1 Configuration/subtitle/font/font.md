@@ -3,6 +3,10 @@
 <!--type-->Object<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **title**.**subtitle**.**font** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies font options for the subtitle.
 <!--/shortDescription-->

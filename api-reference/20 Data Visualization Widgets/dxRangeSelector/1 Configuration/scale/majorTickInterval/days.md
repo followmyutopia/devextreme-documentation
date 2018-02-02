@@ -3,6 +3,10 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **tickInterval**.**days** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the count in days between the scale's major ticks.
 <!--/shortDescription-->

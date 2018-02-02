@@ -3,6 +3,10 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **tickInterval**.**seconds** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the count in seconds between the scale's major ticks.
 <!--/shortDescription-->

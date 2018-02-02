@@ -4,6 +4,10 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**borderWidth** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Specifies the width of the area border in pixels.
 <!--/shortDescription-->

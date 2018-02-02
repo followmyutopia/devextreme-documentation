@@ -4,6 +4,10 @@
 <!--type-->eventType<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Handle the [valueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Events/#valueChanged) event instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Fires when the selected range is changed.
 <!--/shortDescription-->

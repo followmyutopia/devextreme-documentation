@@ -4,6 +4,10 @@
 <!--type-->Array<Number><!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the **layers**.**colorGroups** option instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Allows you to paint markers with similar attributes in the same color.
 <!--/shortDescription-->

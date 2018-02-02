@@ -4,6 +4,10 @@
 <!--type-->eventType<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+Use the [dxpinchend](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxpinchend) event instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 Raised when the zoom gesture has been completed.
 <!--/shortDescription-->

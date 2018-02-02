@@ -2,7 +2,9 @@
 ===================================================================
 ===================================================================
 
-<!--shortDescription-->
+<!--deprecated-->
+Use the **Layer Element**.**coordinates()** method instead.
+<!--/deprecated--><!--shortDescription-->
 Returns the coordinates of a specific marker.
 <!--/shortDescription-->
 
