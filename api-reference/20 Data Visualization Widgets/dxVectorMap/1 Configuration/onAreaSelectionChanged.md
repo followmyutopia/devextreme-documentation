@@ -6,10 +6,6 @@
 <!--type-->function(e)<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the [onSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onSelectionChanged) option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 A handler for the [areaSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Events/#areaSelectionChanged) event.
 <!--/shortDescription-->

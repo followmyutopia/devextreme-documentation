@@ -1,4 +1,4 @@
-<!--dep-->..\..\..\BaseWidget\1 Configuration\title\horizontalAlignment.md<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->'top-center'<!--/default-->
 <!--acceptValues-->'bottom-center' | 'bottom-left' | 'bottom-right' | 'top-center' | 'top-left' | 'top-right'<!--/acceptValues-->

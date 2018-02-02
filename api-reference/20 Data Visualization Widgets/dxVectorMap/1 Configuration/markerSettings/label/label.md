@@ -3,10 +3,6 @@
 <!--type-->Object<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**label** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies marker label options.
 <!--/shortDescription-->

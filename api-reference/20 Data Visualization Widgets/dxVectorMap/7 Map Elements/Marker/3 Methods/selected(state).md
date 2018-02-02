@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the **Layer Element**.[selected(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#selectedstate) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Sets a new selection state for a marker.
 <!--/shortDescription-->
 

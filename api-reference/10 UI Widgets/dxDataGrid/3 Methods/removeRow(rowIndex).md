@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deleteRowrowIndex) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Removes a row with a specific index.
 <!--/shortDescription-->
 

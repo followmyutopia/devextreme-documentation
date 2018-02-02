@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the layer's [clearSelection()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/Methods/#clearSelection) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Deselects all the selected markers on a map. The markers are displayed in their initial style after.
 <!--/shortDescription-->
 

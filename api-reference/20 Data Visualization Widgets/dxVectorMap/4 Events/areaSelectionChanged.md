@@ -4,10 +4,6 @@
 <!--type-->eventType<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the [selectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Events/#selectionChanged) event instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Fires when a user selects/deselects an area.
 <!--/shortDescription-->

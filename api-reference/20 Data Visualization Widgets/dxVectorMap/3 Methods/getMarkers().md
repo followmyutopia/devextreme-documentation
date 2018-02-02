@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the layer's [getElements()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer/Methods/#getElements) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Gets all the map markers.
 <!--/shortDescription-->
 

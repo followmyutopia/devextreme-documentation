@@ -4,10 +4,6 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**label**.**font**.**opacity** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies a font opacity for area labels.
 <!--/shortDescription-->

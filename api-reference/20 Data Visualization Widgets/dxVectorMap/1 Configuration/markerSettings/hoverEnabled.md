@@ -4,10 +4,6 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**hoverEnabled** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies whether or not to change the appearance of a marker when it is hovered over.
 <!--/shortDescription-->

@@ -5,10 +5,6 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**elementType** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies the type of markers to be used on the map.
 <!--/shortDescription-->

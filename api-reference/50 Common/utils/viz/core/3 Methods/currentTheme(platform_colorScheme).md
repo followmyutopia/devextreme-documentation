@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the [DevExpress.viz.currentTheme(platform, colorScheme)](/Documentation/ApiReference/Common/Utils/viz/Methods/#currentThemeplatform_colorScheme) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Applies a new theme (with the color scheme defined separately) for the entire page with several DevExtreme visualization widgets.
 <!--/shortDescription-->
 

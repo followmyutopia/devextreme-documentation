@@ -4,10 +4,6 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Instead, use the [overlappingBehavior]({basewidgetpath}/Configuration/scale/label/overlappingBehavior/) option directly.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies whether or not to expand the current **major tick interval** if labels overlap each other.
 <!--/shortDescription-->

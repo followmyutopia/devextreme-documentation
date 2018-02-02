@@ -5,10 +5,6 @@
 <!--type-->Array<String> | String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**palette** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies the name of the palette or a custom range of colors to be used for coloring a map.
 <!--/shortDescription-->

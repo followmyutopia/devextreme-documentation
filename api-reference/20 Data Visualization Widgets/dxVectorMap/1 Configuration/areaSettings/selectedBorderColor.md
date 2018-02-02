@@ -4,10 +4,6 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**selectedBorderColor** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies a color for the area border when the area is selected.
 <!--/shortDescription-->

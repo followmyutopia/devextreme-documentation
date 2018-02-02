@@ -1,11 +1,11 @@
-<!--dep-->..\layers\dataSource.md<!--/dep-->
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
 <!--deprecated-->
-Use the **layers**.[dataField](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataField) option instead.
+Specify the **url** as one of the GeoJSON attributes (the GeoJSON object is passed to the **layers**.[dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataSource) option) and reference it using the **layers**.[dataField](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#dataField) option.
 <!--/deprecated-->
 
 <!--shortDescription-->

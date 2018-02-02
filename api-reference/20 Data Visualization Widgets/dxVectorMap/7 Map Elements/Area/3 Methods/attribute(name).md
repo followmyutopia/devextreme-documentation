@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the **Layer Element**.**attribute(name, value)** method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Return the value of an attribute.
 <!--/shortDescription-->
 

@@ -4,10 +4,6 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**label**.**font**.**color** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies a font color for marker labels.
 <!--/shortDescription-->

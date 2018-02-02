@@ -4,10 +4,6 @@
 <!--type-->function(area)<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**customize** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies the function that customizes each area individually.
 <!--/shortDescription-->

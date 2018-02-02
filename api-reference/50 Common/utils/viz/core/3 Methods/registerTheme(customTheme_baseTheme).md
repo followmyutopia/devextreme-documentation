@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the [DevExpress.viz.registerTheme(customTheme, baseTheme)](/Documentation/ApiReference/Common/Utils/viz/Methods/#registerThemecustomTheme_baseTheme) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Registers a new theme based on the existing one.
 <!--/shortDescription-->
 

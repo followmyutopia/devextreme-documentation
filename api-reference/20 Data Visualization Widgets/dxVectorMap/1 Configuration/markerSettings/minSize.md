@@ -4,10 +4,6 @@
 <!--type-->Number<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**minSize** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies the pixel-measured diameter of the marker that represents the smallest value. Setting this option makes sense only if you use markers of the *bubble* [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/markerSettings/#type).
 <!--/shortDescription-->

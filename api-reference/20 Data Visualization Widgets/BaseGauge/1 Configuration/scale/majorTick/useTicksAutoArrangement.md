@@ -4,10 +4,6 @@
 <!--type-->Boolean<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **overlappingBehavior** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies whether or not to expand the current major tick interval if labels overlap each other.
 <!--/shortDescription-->

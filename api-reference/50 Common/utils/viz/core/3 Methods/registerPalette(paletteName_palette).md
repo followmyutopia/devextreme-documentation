@@ -2,9 +2,7 @@
 ===================================================================
 ===================================================================
 
-<!--deprecated-->
-Use the [DevExpress.viz.registerPalette(paletteName, palette)](/Documentation/ApiReference/Common/Utils/viz/Methods/#registerPalettepaletteName_palette) method instead.
-<!--/deprecated--><!--shortDescription-->
+<!--shortDescription-->
 Registers a new palette.
 <!--/shortDescription-->
 

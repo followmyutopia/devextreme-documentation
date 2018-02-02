@@ -6,10 +6,6 @@
 <!--type-->function(e)<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the [onSelecitonChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onSelectionChanged) option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 A handler for the [markerSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Events/#markerSelectionChanged) event.
 <!--/shortDescription-->

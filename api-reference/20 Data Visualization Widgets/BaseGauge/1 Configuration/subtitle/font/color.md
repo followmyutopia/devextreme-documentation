@@ -4,10 +4,6 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **title**.**subtitle**.**font**.**color** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies a font color for the subtitle.
 <!--/shortDescription-->

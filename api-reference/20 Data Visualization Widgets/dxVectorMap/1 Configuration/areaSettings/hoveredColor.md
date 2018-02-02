@@ -4,10 +4,6 @@
 <!--type-->String<!--/type-->
 ===========================================================================
 
-<!--deprecated-->
-Use the **layers**.**hoveredColor** option instead.
-<!--/deprecated-->
-
 <!--shortDescription-->
 Specifies a color for an area when this area is hovered over.
 <!--/shortDescription-->
