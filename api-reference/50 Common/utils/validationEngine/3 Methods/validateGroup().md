@@ -5,7 +5,7 @@
 Validates editors from the default validation group.
 <!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->dxValidationGroupResult<!--/returnType-->
 <!--returnDescription-->
 The validation result.
 <!--/returnDescription-->

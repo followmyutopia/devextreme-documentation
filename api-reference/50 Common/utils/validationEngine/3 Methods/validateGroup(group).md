@@ -11,7 +11,7 @@ Validates editors from a specific validation group.
 The validation group's key.
 <!--/paramDescription1-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->dxValidationGroupResult<!--/returnType-->
 <!--returnDescription-->
 The validation result.
 <!--/returnDescription-->

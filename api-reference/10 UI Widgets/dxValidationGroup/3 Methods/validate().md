@@ -5,7 +5,7 @@
 Validates rules of the [validators](/Documentation/ApiReference/UI_Widgets/dxValidator/) that belong to the current validation group.
 <!--/shortDescription-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->dxValidationGroupResult<!--/returnType-->
 <!--returnDescription-->
 The current group's validation result.
 <!--/returnDescription-->
