@@ -26,7 +26,7 @@ The option can take on the following values, depending on the animation type.
         }
 
 - **slide**  
- The option takes on an object containing the **opacity** property and properties specifying the element position (**top**, **left**, **bottom**, and **right**).
+ The option takes on an object containing the **opacity** property and properties specifying the element position (**top** and **left**).
 
         <!--JavaScript-->
         from: {
