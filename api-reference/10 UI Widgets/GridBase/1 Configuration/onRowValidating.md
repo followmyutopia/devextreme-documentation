@@ -34,7 +34,7 @@ The widget's container.
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->brokenRules<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Array<dxValidationRule><!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An array of broken rules. The structure of rule objects is described in the [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section.
 <!--/typeFunctionParamDescription1_field4-->

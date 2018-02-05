@@ -31,12 +31,12 @@ Indicates whether all the rules checked for the value are satisfied.
 The validated value.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->validationRules<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Array<dxValidationRule><!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An array of validation rules specified for the current **dxValidator** object.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->brokenRule<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->dxValidationRule<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->RequiredRule|NumericRule|RangeRule|StringLengthRule|CustomRule|CompareRule|PatternRule|EmailRule<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The object representing the first broken rule on the list of specified validation rules.
 <!--/typeFunctionParamDescription1_field5-->
