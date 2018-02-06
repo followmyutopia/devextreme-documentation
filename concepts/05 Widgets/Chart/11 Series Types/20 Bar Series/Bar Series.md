@@ -60,9 +60,6 @@ To specify one or another series type, assign its name to the **series[]**.[type
 
 Refer to the [BarSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/BarSeries/), [StackedBarSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StackedBarSeries/), or [FullStackedBarSeries](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/FullStackedBarSeries/) section of the API Reference for a full list of options available to a specific series type. Most these options are self-explanatory, yet several of them are worth special mention.
 
-- [barWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#barWidth)      
-Regulates the width of bars as a correlation between a bar and the empty space around it.<br />
-Note that this option is not series-specific and thus, applies to all bars in a **Chart**.
 - [minBarSize](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#minBarSize)      
 Specifies the minimum height of bars in a series; allows you to keep bars big enough for user interaction.
 - [stack](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/#stack) (for stacked series)        
