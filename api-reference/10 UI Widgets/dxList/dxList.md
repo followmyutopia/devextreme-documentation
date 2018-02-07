@@ -17,7 +17,7 @@ The **List** is a widget that represents a collection of items in a scrollable l
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can create the widget using one of the following approaches.
+#include common-ref-roottopic-introduction with { WidgetName: "List" }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
@@ -92,7 +92,7 @@ You can create the widget using one of the following approaches.
 
 ---
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+ 
 
 #####See Also#####
 - [List - Overview](/Documentation/Guide/Widgets/List/Overview)

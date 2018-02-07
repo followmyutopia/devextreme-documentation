@@ -36,7 +36,7 @@ The **Chart** is a widget that visualizes data from a local or remote storage us
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can create the **Chart** widget using one of the following approaches.
+#include common-ref-roottopic-introduction with { WidgetName: "Chart" }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

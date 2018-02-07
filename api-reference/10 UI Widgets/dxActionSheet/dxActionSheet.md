@@ -22,7 +22,7 @@ The **ActionSheet** widget is a sheet containing a set of buttons located one un
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can create the widget using one of the following approaches.
+#include common-ref-roottopic-introduction with { WidgetName: "ActionSheet" }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
@@ -76,8 +76,6 @@ You can create the widget using one of the following approaches.
     )
 
 ---
-
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/actionsandlistsactionsheetactionsheetactionsheet/iphone/ios7/default/default"

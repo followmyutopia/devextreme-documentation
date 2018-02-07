@@ -24,7 +24,7 @@ The **Funnel** is a widget that visualizes a value at different stages. It helps
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can create the **Funnel** widget using one of the following approaches:
+#include common-ref-roottopic-introduction with { WidgetName: "Funnel" }
 
 ---
 ##### jQuery

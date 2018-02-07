@@ -8,13 +8,11 @@ dx.web.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-A complementary widget for the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) that allows you to manage data displayed in the **PivotGrid**.
+A complementary widget for the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) that allows you to manage data displayed in the **PivotGrid**. The field chooser is already integrated in the **PivotGrid** and can be invoked using the context menu. If you need to continuously display the field chooser near the **PivotGrid** widget, use the **PivotGridFieldChooser** widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The field chooser is already integrated in the **PivotGrid** and can be invoked using the context menu. If you need to continuously display the field chooser near the **PivotGrid** widget, use the **PivotGridFieldChooser** widget.
-
-You can add the **PivotGridFieldChooser** widget using one of the following approaches.
+#include common-ref-roottopic-introduction with { WidgetName: "PivotGridFieldChooser" }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
@@ -86,7 +84,7 @@ You can add the **PivotGridFieldChooser** widget using one of the following appr
 
 Both the **PivotGridFieldChooser** and the **PivotGrid** must be bound to one and the same instance of the [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/). Create the **PivotGridDataSource** individually and then assign it to both widgets as shown in the code above.
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+ 
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/datagridpivotgridpivotgridfieldchooser"

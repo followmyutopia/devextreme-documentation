@@ -8,15 +8,13 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-The widget that is used in the Knockout and AngularJS approaches to combine the editors to be validated.
+The **ValidationGroup** is a widget that allows you to validate several editors simultaneously.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use the **ValidationGroup** widget to combine the editors to be validated, the **Button** widget to validate these editors on button click and the **ValidationSummary** widget to display validation errors occurred in these editors.
-
 [note]Nested validation groups are not supported.
 
-You can create the **ValidationGroup** widget using one of the following approaches.
+#include common-ref-roottopic-introduction with { WidgetName: "ValidationGroup" }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
@@ -154,7 +152,7 @@ You can create the **ValidationGroup** widget using one of the following approac
 
 ---
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+ 
 
 #####See Also#####
 - [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)

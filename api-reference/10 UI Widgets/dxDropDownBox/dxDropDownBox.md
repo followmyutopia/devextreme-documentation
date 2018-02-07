@@ -9,7 +9,7 @@ The **DropDownBox** widget consists of a text field, which displays the current 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can create the widget using one of the following approaches.
+#include common-ref-roottopic-introduction with { WidgetName: "DropDownBox" }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

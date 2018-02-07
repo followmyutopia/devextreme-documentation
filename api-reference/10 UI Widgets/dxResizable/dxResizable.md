@@ -12,9 +12,7 @@ The **Resizable** widget enables its content to be resizable in the UI.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **Resizable** widget is an element that can be resized by an end user. It displays data located inside the HTML element of the widget. You can specify minimum and maximum size using the [minHeight](/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#minHeight), [minWidth](/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#minWidth), [maxHeight](/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#maxHeight) and [maxWidth](/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#maxWidth) options. The [handles](/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#handles) option enables you to specify which element borders are used as a handle for resizing.
-
-You can create the widget using one of the following approaches.
+#include common-ref-roottopic-introduction with { WidgetName: "Resizable" }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

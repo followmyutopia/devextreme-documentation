@@ -43,7 +43,7 @@ This widget represents a scale (numeric or date-time) and two sliders. A user se
 
 <img style="margin:0px auto;display:block" src="/Content/images/doc/18_1/ChartJS/RangeSelector_new.gif" alt="RangeSelector" />
 
-You can create the widget using one of the following approaches.
+#include common-ref-roottopic-introduction with { WidgetName: "RangeSelector" }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
@@ -128,7 +128,7 @@ You can create the widget using one of the following approaches.
 
 ---
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
+ 
 
 A chart can be displayed in the [background](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/background/) of the **RangeSelector** widget. This allows end users to select the required range in a chart series. You can also integrate the **RangeSelector** widget with a stand-alone [Chart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/) widget to emulate chart [zooming and scrolling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Zooming_and_Scrolling/#Using_dxRangeSelector).
 
