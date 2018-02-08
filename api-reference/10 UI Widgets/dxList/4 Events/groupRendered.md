@@ -25,7 +25,7 @@ The widget's instance.
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The widget's container.
+The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
@@ -40,7 +40,7 @@ The current group's data.
 <!--typeFunctionParamName1_field5-->groupElement<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The group's container.
+The group's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->groupIndex<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->number<!--/typeFunctionParamType1_field6-->

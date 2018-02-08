@@ -27,7 +27,7 @@ The widget's instance.
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The widget's container.
+The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
@@ -47,7 +47,7 @@ The clicked appointment.
 <!--typeFunctionParamName1_field6-->appointmentElement<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->dxElement<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The clicked appointment's container.
+The clicked appointment's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->jQueryEvent<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->jQuery.Event<!--/typeFunctionParamType1_field7-->

@@ -35,7 +35,7 @@ The [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#form
 <!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The current group item's container.
+The current group item's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->

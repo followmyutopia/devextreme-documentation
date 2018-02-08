@@ -28,7 +28,7 @@ The widget's instance.
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The widget's container.
+The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
@@ -43,7 +43,7 @@ The data that is bound to the clicked item.
 <!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The item's container.
+The item's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->number | object<!--/typeFunctionParamType1_field6-->

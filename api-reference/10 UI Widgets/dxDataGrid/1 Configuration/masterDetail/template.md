@@ -57,7 +57,7 @@ Specifies a custom template for detail sections.
 <!--typeFunctionParamName1-->detailElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The detail section's container.
+The detail section's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->detailInfo<!--/typeFunctionParamName2-->

@@ -27,7 +27,7 @@ The widget's instance.
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The widget's container.
+The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
@@ -53,7 +53,7 @@ The swiped item's data.
 <!--typeFunctionParamName1_field7-->itemElement<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The item's container.
+The item's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->itemIndex<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->Number|Object<!--/typeFunctionParamType1_field8-->

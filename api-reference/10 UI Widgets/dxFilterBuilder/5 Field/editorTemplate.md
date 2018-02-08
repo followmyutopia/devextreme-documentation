@@ -39,7 +39,7 @@ A method that you should call to change the field value after the editor's value
 <!--typeFunctionParamName2-->container<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The editor's container.
+The editor's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->

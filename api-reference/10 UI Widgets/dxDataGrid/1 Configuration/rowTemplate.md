@@ -107,7 +107,7 @@ You can also use a 3rd-party template engine to customize row appearance. For mo
 <!--typeFunctionParamName1-->rowElement<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The row's container.
+The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->rowInfo<!--/typeFunctionParamName2-->

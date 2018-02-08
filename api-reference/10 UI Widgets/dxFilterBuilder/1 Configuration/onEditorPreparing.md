@@ -144,7 +144,7 @@ The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/M
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The widget's container.
+The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
@@ -170,7 +170,7 @@ Set it to **true** and implement a custom editor if your scenario requires it.
 <!--typeFunctionParamName1_field7-->editorElement<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The editor's container.
+The editor's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->editorName<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->String<!--/typeFunctionParamType1_field8-->

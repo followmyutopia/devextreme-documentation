@@ -25,7 +25,7 @@ The widget's instance.
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The widget's container.
+The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
@@ -87,7 +87,7 @@ Indicates whether the row is expanded or collapsed. Available if **rowType** is 
 <!--typeFunctionParamName1_field14-->rowElement<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->dxElement<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-The row's container.
+The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->handled<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->boolean<!--/typeFunctionParamType1_field15-->
