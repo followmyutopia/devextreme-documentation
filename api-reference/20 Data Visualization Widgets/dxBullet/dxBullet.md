@@ -16,7 +16,7 @@ The **Bullet** widget is useful when you need to compare a single measure to a t
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction with { WidgetName: "Bullet" }
+#include common-ref-roottopic-introduction with { }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

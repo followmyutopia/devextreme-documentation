@@ -15,7 +15,7 @@ The **Slider** is a widget that allows an end user to set a numeric value on a c
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction with { WidgetName: "Slider" }
+#include common-ref-roottopic-introduction with { }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

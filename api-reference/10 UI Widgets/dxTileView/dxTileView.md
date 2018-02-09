@@ -24,7 +24,7 @@ The **TileView** widget contains a collection of tiles. Tiles can store much mor
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction with { WidgetName: "TileView" }
+#include common-ref-roottopic-introduction with { }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

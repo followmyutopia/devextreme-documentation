@@ -39,7 +39,7 @@ The **Sparkline** widget is a compact chart that contains only one series. Owing
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction with { WidgetName: "Sparkline" }
+#include common-ref-roottopic-introduction with { }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

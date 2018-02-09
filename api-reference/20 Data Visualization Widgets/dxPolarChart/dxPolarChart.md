@@ -41,7 +41,7 @@ The **PolarChart** widget visualizes data in a polar coordinate system. In this 
 <img src="/Content/images/doc/18_1/ChartJS/PolarChart_rectangular.png" alt="DevExtreme HTML5 Charts DataVisualization" style="display:inline-block; vertical-align:bottom" />
 <img src="/Content/images/doc/18_1/ChartJS/PolarChart_polar.png" alt="DevExtreme HTML5 Charts PolarChart RadarChart DataVisualization" style="display:inline-block; vertical-align:bottom" />
 
-#include common-ref-roottopic-introduction with { WidgetName: "PolarChart" }
+#include common-ref-roottopic-introduction with { }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

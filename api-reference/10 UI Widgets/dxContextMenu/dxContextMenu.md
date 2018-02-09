@@ -27,7 +27,7 @@ The **ContextMenu** widget displays a single- or multi-level context menu. An en
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction with { WidgetName: "ContextMenu" }
+#include common-ref-roottopic-introduction with { }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

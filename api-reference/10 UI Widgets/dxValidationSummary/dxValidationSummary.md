@@ -16,7 +16,7 @@ This widget has a collection of items that present the validation errors that cu
 
 ![dxValidationSummary Widget](/Content/images/doc/18_1/Common/dxValidationSummary.png)
 
-#include common-ref-roottopic-introduction with { WidgetName: "ValidationSummary" }
+#include common-ref-roottopic-introduction with { }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

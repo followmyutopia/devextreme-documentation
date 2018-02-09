@@ -22,8 +22,8 @@ dx.web.js, dx.viz-web.js, dx.all.js
 The **Accordion** widget contains several panels displayed one under another. These panels can be collapsed or expanded by an end user, which makes this widget very useful for presenting information in a limited amount of space.
 <!--/shortDescription-->
 
-<!--fullDescription-->
-#include common-ref-roottopic-introduction with { WidgetName: "Accordion" }
+<!--fullDescription--> 
+#include common-ref-roottopic-introduction with { }
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
