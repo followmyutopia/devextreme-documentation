@@ -30,7 +30,7 @@ The **TagBox** widget is an editor that allows an end user to select multiple it
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction with { }
+#include common-ref-roottopic-introduction
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

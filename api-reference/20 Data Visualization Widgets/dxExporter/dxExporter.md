@@ -20,7 +20,7 @@ To operate, **Exporter** requires the [PhantomJS](http://phantomjs.org/) WebKit 
 
 When your server is ready, add **Exporter** onto your page.
 
-#include common-ref-roottopic-introduction with { }
+#include common-ref-roottopic-introduction
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

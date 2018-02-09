@@ -15,7 +15,7 @@ The **CircularGauge** is a widget that indicates values on a circular numeric sc
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction with { }
+#include common-ref-roottopic-introduction
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

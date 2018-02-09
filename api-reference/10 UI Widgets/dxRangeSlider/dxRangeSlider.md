@@ -15,7 +15,7 @@ The **RangeSlider** is a widget that allows an end user to choose a range of num
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction with { }
+#include common-ref-roottopic-introduction
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  

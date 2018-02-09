@@ -31,7 +31,7 @@ The **FilterBuilder** widget allows a user to build complex filter expressions w
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-ref-roottopic-introduction with { }
+#include common-ref-roottopic-introduction
 
 ---
 

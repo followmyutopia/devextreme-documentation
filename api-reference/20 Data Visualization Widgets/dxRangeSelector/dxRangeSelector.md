@@ -43,7 +43,7 @@ This widget represents a scale (numeric or date-time) and two sliders. A user se
 
 <img style="margin:0px auto;display:block" src="/Content/images/doc/18_1/ChartJS/RangeSelector_new.gif" alt="RangeSelector" />
 
-#include common-ref-roottopic-introduction with { }
+#include common-ref-roottopic-introduction
 
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
