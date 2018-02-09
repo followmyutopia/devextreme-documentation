@@ -4,7 +4,12 @@
     "GridBaseColumn",
     "dxDataGridColumn",
     "dxTreeListColumn",
-    "DOMComponent/Options/bindingOptions"
+    "DOMComponent/Options/bindingOptions",
+    "Element",
+    "Font",
+    "animationSets",
+    "devices",
+    "layoutSets"
   ],
 
   "10 UI Widgets": {
@@ -108,7 +113,11 @@
     },
 
     "dxContextMenu": {
-      "$Widget": "dxContextMenu"
+      "$Widget": "dxContextMenu",
+      "5 Default Item Template": {
+        "Default Item Template.md": "dxContextMenuItemTemplate",
+        "$Widget": "dxContextMenuItemTemplate"
+      }
     },
 
     "dxDataGrid": {
@@ -220,7 +229,11 @@
     },
 
     "dxMenu": {
-      "$Widget": "dxMenu"
+      "$Widget": "dxMenu",
+      "5 Default Item Template": {
+        "Default Item Template.md": "dxMenuItemTemplate",
+        "$Widget": "dxMenuItemTemplate"
+      }
     },
 
     "dxMenuBase": {
@@ -480,7 +493,12 @@
     },
 
     "dxValidationGroup": {
-      "$Widget": "dxValidationGroup"
+      "$Widget": "dxValidationGroup",
+
+      "9 Validation Result": {
+        "Validation Result.md": "dxValidationGroupResult",
+        "$Widget": "dxValidationGroupResult"
+      }
     },
 
     "dxValidationSummary": {
@@ -522,6 +540,11 @@
         "StringLengthRule": {
           "$Object": "StringLengthRule"
         }
+      },
+
+      "9 Validation Result": {
+        "Validation Result.md": "dxValidatorResult",
+        "$Widget": "dxValidatorResult"
       }
     },
 
@@ -612,7 +635,8 @@
       "W1007.md": "Errors and Warnings/W1007",
       "W1008.md": "Errors and Warnings/W1008",
       "W1009.md": "Errors and Warnings/W1009",
-      "W1010.md": "Errors and Warnings/W1010"
+      "W1010.md": "Errors and Warnings/W1010",
+      "W1011.md": "Errors and Warnings/W1011"
     }
   },
 
@@ -1319,6 +1343,7 @@
         "E0022.md": "Errors and Warnings/E0022",
         "E0023.md": "Errors and Warnings/E0023",
         "E0024.md": "Errors and Warnings/E0024",
+        "E0025.md": "Errors and Warnings/E0025",
         "E0100.md": "Errors and Warnings/E0100",
         "E0101.md": "Errors and Warnings/E0101",
         "E0102.md": "Errors and Warnings/E0102",
