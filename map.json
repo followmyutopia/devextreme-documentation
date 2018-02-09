@@ -5,7 +5,7 @@
     "dxDataGridColumn",
     "dxTreeListColumn",
     "DOMComponent/Options/bindingOptions",
-    "Element",
+    "dxElement",
     "Font",
     "animationSets",
     "devices",
