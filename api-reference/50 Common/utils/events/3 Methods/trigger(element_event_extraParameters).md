@@ -8,7 +8,7 @@ Executes all handlers of a given event type attached to the specified element.
 <!--/shortDescription-->
 
 <!--paramName1-->element<!--/paramName1-->
-<!--paramType1-->dxElement<!--/paramType1-->
+<!--paramType1-->Node|Array<Node><!--/paramType1-->
 <!--paramDescription1-->
 An element to which the handlers to execute are attached.
 <!--/paramDescription1-->

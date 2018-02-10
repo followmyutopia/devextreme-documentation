@@ -6,8 +6,8 @@
 
 <!--/shortDescription-->
 
-<!--paramName1-->element<!--/paramName1-->
-<!--paramType1-->dxElement<!--/paramType1-->
+<!--paramName1-->event<!--/paramName1-->
+<!--paramType1-->dxEvent<!--/paramType1-->
 <!--paramDescription1-->
 
 <!--/paramDescription1-->
