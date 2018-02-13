@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'blend'<!--/default-->
-<!--acceptValues-->'blend' | 'extrapolate' | 'alternate'<!--/acceptValues-->
+<!--acceptValues-->'alternate' | 'blend' | 'extrapolate'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
