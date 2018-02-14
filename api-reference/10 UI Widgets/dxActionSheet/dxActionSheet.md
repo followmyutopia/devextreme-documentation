@@ -29,8 +29,16 @@ The **ActionSheet** widget is a sheet containing a set of buttons located one un
 
     <!--JavaScript-->$(function () {
         $("#actionSheet").dxActionSheet({
-            dataSource: actionSheetData,
-            visible: true
+            dataSource: [
+                { text: "Command 1" },
+                { text: "Command 2" },
+                { text: "Command 3" },
+                { text: "Command 4" }
+            ],
+            visible: true,
+            onItemClick: function (e) {
+                alert("The " + e.itemData.text + " button was clicked");
+            }
         });
     });
 
@@ -42,38 +50,114 @@ The **ActionSheet** widget is a sheet containing a set of buttons located one un
     <!--HTML-->
     <dx-action-sheet
         [dataSource]="actionSheetData"
-        [visible]="true">
+        [visible]="true"
+        (onItemClick)="showAlert($event)">
     </dx-action-sheet>
+
+    <!--TypeScript-->
+    import { DxActionSheetModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        actionSheetData = [
+            { text: "Command 1" },
+            { text: "Command 2" },
+            { text: "Command 3" },
+            { text: "Command 4" }
+        ];
+        showAlert (e) {
+            alert("The " + e.itemData.text + " button was clicked");
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxActionSheetModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
-    <div dx-action-sheet="{
-        dataSource: actionSheetData,
-        visible: true
-    }"></div>
+    <div ng-controller="DemoController">
+        <div dx-action-sheet="{
+            dataSource: actionSheetData,
+            visible: true,
+            onItemClick: showAlert
+        }"></div>
+    </div>
+
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function ($scope) {
+            $scope.actionSheetData = [
+                { text: "Command 1" },
+                { text: "Command 2" },
+                { text: "Command 3" },
+                { text: "Command 4" }
+            ];
+            $scope.showAlert = function (e) {
+                alert("The " + e.itemData.text + " button was clicked");
+            };
+        });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
     <div data-bind="dxActionSheet: {
         dataSource: actionSheetData,
-        visible: true
+        visible: true,
+        onItemClick: function (e) {
+            alert('The ' + e.itemData.text + ' button was clicked');
+        }
     }"></div>
+
+    <!--JavaScript-->
+    var viewModel = {
+        actionSheetData: [
+            { text: "Command 1" },
+            { text: "Command 2" },
+            { text: "Command 3" },
+            { text: "Command 4" }
+        ]
+    };
+
+    ko.applyBindings(viewModel);
 
 #####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
 
     <!--Razor C#-->@(Html.DevExtreme().ActionSheet()
         .ID("actionSheet")
-        .DataSource(ActionSheetData)
+        .DataSource(new[] {
+            new { text = "Command 1" },
+            new { text = "Command 2" },
+            new { text = "Command 3" },
+            new { text = "Command 4" }
+        })
         .Visible(true)
+        .OnItemClick(@<text>
+            function (e) {
+                alert("The " + e.itemData.text + " button was clicked");
+            }
+        </text>)
     )
 
     <!--Razor VB-->@(Html.DevExtreme().ActionSheet() _
         .ID("actionSheet") _
-        .DataSource(ActionSheetData) _
-        .Visible(True)
+        .DataSource({
+            New With { .text = "Command 1" },
+            New With { .text = "Command 2" },
+            New With { .text = "Command 3" },
+            New With { .text = "Command 4" }
+        }) _
+        .Visible(True) _
+        .OnItemClick("button_click")
     )
+    <script>
+        function button_click (e) {
+            alert("The " + e.itemData.text + " button was clicked");
+        }
+    </script>
 
 ---
 

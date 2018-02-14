@@ -36,17 +36,10 @@ The **TagBox** widget is an editor that allows an end user to select multiple it
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
     <!--JavaScript-->
-    var states = [
-        { id: 1, state: "Alabama", capital: "Montgomery" },
-        { id: 2, state: "Alaska", capital: "Juneau" },
-        { id: 3, state: "Arizona", capital: "Phoenix" },
-        // ...
-    ];
     $(function() {
         $("#tagBox").dxTagBox({
-            dataSource: states,
-            valueExpr: 'id',
-            displayExpr: 'state'
+            dataSource: [ "Item 1", "Item 2", "Item 3" ],
+            maxDisplayedTags: 2
         });
     });
 
@@ -57,51 +50,48 @@ The **TagBox** widget is an editor that allows an end user to select multiple it
 
     <!--HTML-->
     <dx-tag-box
-        [dataSource]="states"
-        valueExpr="id"
-        displayExpr="state">
+        [dataSource]="tagBoxDataSource"
+        [maxDisplayedTags]="2">
     </dx-tag-box>
 
     <!--TypeScript-->
+    import { DxTagBoxModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
-        states = [
-            // ...   
-        ];
+        tagBoxDataSource = [ "Item 1", "Item 2", "Item 3" ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTagBoxModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-tag-box="{
-            dataSource: states,
-            valueExpr: 'id',
-            displayExpr: 'state'
+            dataSource: tagBoxDataSource,
+            maxDisplayedTags: 2
         }"></div>
     </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.states = [
-                { id: 1, state: "Alabama", capital: "Montgomery" },
-                { id: 2, state: "Alaska", capital: "Juneau" },
-                { id: 3, state: "Arizona", capital: "Phoenix" },
-                // ...
-            ];
+            $scope.tagBoxDataSource = [ "Item 1", "Item 2", "Item 3" ];
         });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
     <div data-bind="dxTagBox: {
-        dataSource: states,
-        valueExpr: 'id',
-        displayExpr: 'state'
+        dataSource: tagBoxDataSource,
+        maxDisplayedTags: 2
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        states: [
-            // ...
-        ]
+        tagBoxDataSource: [ "Item 1", "Item 2", "Item 3" ]
     };
     ko.applyBindings(viewModel);
 
@@ -109,16 +99,14 @@ The **TagBox** widget is an editor that allows an end user to select multiple it
 
     <!--Razor C#-->@(Html.DevExtreme().TagBox()
         .ID("tagBox")
-        .DataSource(States)
-        .DisplayExpr("state")
-        .ValueExpr("id")
+        .DataSource(new[] { "Item 1", "Item 2", "Item 3" })
+        .MaxDisplayedTags(2)
     )
 
     <!--Razor VB-->@(Html.DevExtreme().TagBox() _
         .ID("tagBox") _
-        .DataSource(States) _
-        .DisplayExpr("state") _
-        .ValueExpr("id")
+        .DataSource({ "Item 1", "Item 2", "Item 3" }) _
+        .MaxDisplayedTags(2)
     )
 
 ---

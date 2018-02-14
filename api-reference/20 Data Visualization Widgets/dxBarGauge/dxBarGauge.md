@@ -39,6 +39,20 @@ The **BarGauge** widget contains several circular bars that each indicates a sin
         [values]="[21.3, 54.1, 30.9, 45.2, 89.41]">
     </dx-bar-gauge>
 
+    <!--TypeScript-->
+    import { DxBarGaugeModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxBarGaugeModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
@@ -63,7 +77,7 @@ The **BarGauge** widget contains several circular bars that each indicates a sin
         .ID("barGauge")
         .StartValue(0)
         .EndValue(100)
-        .Values(new [] { 21.3, 54.1, 30.9, 45.2, 89.41 })
+        .Values(new[] { 21.3, 54.1, 30.9, 45.2, 89.41 })
     )
 
     <!--Razor VB-->@(Html.DevExtreme().BarGauge() _

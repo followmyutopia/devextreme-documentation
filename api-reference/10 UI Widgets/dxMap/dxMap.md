@@ -42,6 +42,20 @@ The **Map** is an interactive widget that displays a geographic map with markers
         center="40.749825, -73.987963">
     </dx-map>
 
+    <!--TypeScript-->
+    import { DxMapModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMapModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

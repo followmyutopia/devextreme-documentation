@@ -24,9 +24,8 @@ The **Lookup** is a widget that allows an end user to search for an item in a co
 
     <!--JavaScript-->$(function () {
         $("#lookup").dxLookup({
-            dataSource: employees,
-            displayExpr: 'name',
-            title: 'Employees'
+            dataSource: [ "Item 1", "Item 2", "Item 3" ],
+            placeholder: "Select an item"
         });
     });
 
@@ -37,48 +36,48 @@ The **Lookup** is a widget that allows an end user to search for an item in a co
 
     <!--HTML-->
     <dx-lookup
-        [dataSource]="employees"
-        displayExpr="name"
-        title="Employees">
+        [dataSource]="lookupDataSource"
+        placeholder="Select an item">
     </dx-lookup>
 
     <!--TypeScript-->
+    import { DxLookupModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
-        employees = [
-            // ...   
-        ];
+        lookupDataSource = [ "Item 1", "Item 2", "Item 3" ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxLookupModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-lookup="{
-            dataSource: employees,
-            displayExpr: 'name',
-            title: 'Employees'
+            dataSource: lookupDataSource,
+            placeholder: 'Select an item'
         }"></div>
     </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.employees = [
-                // ...   
-            ];
+            $scope.lookupDataSource = [ "Item 1", "Item 2", "Item 3" ];
         });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
     <div data-bind="dxLookup: {
-        dataSource: employees,
-        displayExpr: 'name',
-        title: 'Employees'
+        dataSource: lookupDataSource,
+        placeholder: 'Select an item'
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        employees: [
-            // ...
-        ]
+        lookupDataSource: [ "Item 1", "Item 2", "Item 3" ]
     };
     ko.applyBindings(viewModel);
 
@@ -86,16 +85,14 @@ The **Lookup** is a widget that allows an end user to search for an item in a co
 
     <!--Razor C#-->@(Html.DevExtreme().Lookup()
         .ID("lookup")
-        .DataSource(Employees)
-        .DisplayExpr("name")
-        .Title("Employees")
+        .DataSource(new[] { "Item 1", "Item 2", "Item 3" })
+        .Placeholder("Select an item")
     )
 
     <!--Razor VB-->@(Html.DevExtreme().Lookup() _
         .ID("lookup") _
-        .DataSource(Employees) _
-        .DisplayExpr("name") _
-        .Title("Employees")
+        .DataSource({ "Item 1", "Item 2", "Item 3" }) _
+        .Placeholder("Select an item")
     )
 
 ---

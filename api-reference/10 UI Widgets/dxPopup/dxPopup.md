@@ -42,9 +42,18 @@ The **Popup** widget is a pop-up window overlaying the current view.
     </dx-popup>
 
     <!--TypeScript-->
+    import { DxPopupModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
         isPopupVisible = true;
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopupModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

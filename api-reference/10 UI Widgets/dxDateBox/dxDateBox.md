@@ -40,11 +40,20 @@ The **DateBox** is a widget that displays date and time in a specified format, a
     </dx-date-box>
 
     <!--TypeScript-->
+    import { DxDateBoxModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         minDate = new Date(2000, 0, 1);
         maxDate = new Date(2029, 11, 31);
         currentDate = new Date();
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDateBoxModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

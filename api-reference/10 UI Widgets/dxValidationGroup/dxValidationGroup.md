@@ -56,18 +56,35 @@ The **ValidationGroup** is a widget that allows you to validate several editors 
         <dx-text-box name="FirstName">
             <dx-validator>
                 <dxi-validation-rule type="required" message="First name is required"></dxi-validation-rule>
-                . . .
+                ...
             </dx-validator>
         </dx-text-box>
         <dx-text-box name="LastName">
             <dx-validator>
                 <dxi-validation-rule type="required" message="Last name is required"></dxi-validation-rule>
-                . . .
+                ...
             </dx-validator>
         </dx-text-box>
         <dx-validation-summary></dx-validation-summary>
         <dx-button></dx-button>
     </dx-validation-group>
+
+    <!--TypeScript-->
+    import { DxValidationGroupModule, DxTextBoxModule, DxButtonModule, DxValidatorModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxValidationGroupModule,
+            DxTextBoxModule,
+            DxButtonModule,
+            DxValidatorModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

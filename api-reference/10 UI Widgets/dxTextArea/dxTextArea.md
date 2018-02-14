@@ -34,6 +34,20 @@ The **TextArea** is a widget that enables a user to enter and edit a multi-line 
     <!--HTML-->
     <dx-text-area placeholder="Type a text here..."></dx-text-area>
 
+    <!--TypeScript-->
+    import { DxTextAreaModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextAreaModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

@@ -19,9 +19,7 @@ The **SlideOut** widget is a classic slide-out menu paired with a view. An end u
 
     <!--JavaScript-->$(function () {
         $("#slideOut").dxSlideOut({
-            dataSource: ['SuperLCD 42', 'SuperLED 42', 'SuperLED 50',
-                        'SuperLCD 55', 'SuperLCD 70', 'DesktopLCD 19',
-                        'DesktopLCD 21', 'DesktopLED 21'],
+            dataSource: [ "Item 1", "Item 2", "Item 3", "Item 4" ],
             onItemClick: function (e) {
                 e.component.hideMenu();
             }
@@ -43,35 +41,38 @@ The **SlideOut** widget is a classic slide-out menu paired with a view. An end u
 
     <!--HTML-->
     <dx-slide-out
-        [dataSource]="displays"
+        [dataSource]="slideOutDataSource"
         (onItemClick)="closeSlideOut($event)">
     </dx-slide-out>
 
     <!--TypeScript-->
+    import { DxSlideOutModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
-        displays = [
-            // ...
-        ];
+        slideOutDataSource = [ "Item 1", "Item 2", "Item 3", "Item 4" ];
         closeSlideOut = function (e) {
             e.component.hideMenu();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSlideOutModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
     <div id="slideOut" dx-slide-out="{
-        dataSource: displays,
+        dataSource: slideOutDataSource,
         onItemClick: closeSlideOut
     }"></div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.displays = [
-                'SuperLCD 42', 'SuperLED 42', 'SuperLED 50',
-                'SuperLCD 55', 'SuperLCD 70', 'DesktopLCD 19',
-                'DesktopLCD 21', 'DesktopLED 21'  
-            ];
+            $scope.slideOutDataSource = [ "Item 1", "Item 2", "Item 3", "Item 4" ];
             $scope.closeSlideOut = function (e) {
                 e.component.hideMenu();
             }
@@ -89,11 +90,7 @@ The **SlideOut** widget is a classic slide-out menu paired with a view. An end u
 
     <!--HTML-->
     <div id="slideOut" data-bind="dxSlideOut: {
-        dataSource: [
-            'SuperLCD 42', 'SuperLED 42', 'SuperLED 50',
-            'SuperLCD 55', 'SuperLCD 70', 'DesktopLCD 19',
-            'DesktopLCD 21', 'DesktopLED 21'
-        ],
+        dataSource: [ "Item 1", "Item 2", "Item 3", "Item 4" ],
         onItemClick: function (e) {
             e.component.hideMenu();
         }
@@ -111,11 +108,7 @@ The **SlideOut** widget is a classic slide-out menu paired with a view. An end u
 
     <!--Razor C#-->@(Html.DevExtreme().SlideOut()
         .ID("slideOut")
-        .DataSource(new [] {
-            "SuperLCD 42", "SuperLED 42", "SuperLED 50",
-            "SuperLCD 55", "SuperLCD 70", "DesktopLCD 19",
-            "DesktopLCD 21", "DesktopLED 21"
-        })
+        .DataSource(new[] { "Item 1", "Item 2", "Item 3", "Item 4" })
         .OnItemClick(@<text>
             function (e) {
                 e.component.hideMenu();
@@ -125,11 +118,7 @@ The **SlideOut** widget is a classic slide-out menu paired with a view. An end u
 
     <!--Razor VB-->@(Html.DevExtreme().SlideOut() _
         .ID("slideOut") _
-        .DataSource({
-            "SuperLCD 42", "SuperLED 42", "SuperLED 50",
-            "SuperLCD 55", "SuperLCD 70", "DesktopLCD 19",
-            "DesktopLCD 21", "DesktopLED 21"
-        }) _
+        .DataSource({ "Item 1", "Item 2", "Item 3", "Item 4" }) _
         .OnItemClick("slideOut_itemClick")
     )
     <script>

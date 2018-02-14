@@ -42,11 +42,20 @@ The **Calendar** is a widget that displays a calendar and allows an end user to 
     </dx-calendar>
 
     <!--TypeScript-->
+    import { DxCalendarModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         minDate = new Date(2000, 0, 1);
         maxDate = new Date(2029, 11, 31);
         currentDate = new Date();
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxCalendarModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

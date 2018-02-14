@@ -44,13 +44,28 @@ The **VectorMap** is a widget that visualizes geographical locations. This widge
     <dx-vector-map>
         <dxi-layer
             type="area"
-            [dataSource]="DevExpress.viz.map.sources.world">
+            [dataSource]="worldMap">
             <dxo-label
                 [enabled]="true"
                 dataField="name">
             </dxo-label>
         </dxi-layer>
     </dx-vector-map>
+
+    <!--TypeScript-->
+    import { DxVectorMapModule } from 'devextreme-angular';
+    import * as maps from 'vectormap-data/world.js';
+    // ...
+    export class AppComponent {
+        worldMap: any = maps.world;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxVectorMapModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

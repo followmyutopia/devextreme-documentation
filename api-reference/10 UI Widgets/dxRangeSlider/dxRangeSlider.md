@@ -38,6 +38,20 @@ The **RangeSlider** is a widget that allows an end user to choose a range of num
         [start]="20 [end]="60">
     </dx-range-slider>
 
+    <!--TypeScript-->
+    import { DxRangeSliderModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxRangeSliderModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

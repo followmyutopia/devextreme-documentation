@@ -56,6 +56,20 @@ The **Resizable** widget enables its content to be resizable in the UI.
         width: 100%
     }
 
+    <!--TypeScript-->
+    import { DxResizableModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxResizableModule
+        ],
+        // ...
+    })
+
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

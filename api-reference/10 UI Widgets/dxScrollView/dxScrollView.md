@@ -40,6 +40,20 @@ The **ScrollView** is a widget that enables a user to scroll its content.
             <div id="content"></div>
     </dx-scroll-view>
 
+    <!--TypeScript-->
+    import { DxScrollViewModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxScrollViewModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

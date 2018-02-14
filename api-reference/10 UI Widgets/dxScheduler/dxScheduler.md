@@ -53,6 +53,8 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
     </dx-scheduler>
 
     <!--TypeScript-->
+    import { DxSchedulerModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
         schedulerData = [{
                 text: 'Meeting customers',
@@ -66,6 +68,13 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
             // ...
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSchedulerModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

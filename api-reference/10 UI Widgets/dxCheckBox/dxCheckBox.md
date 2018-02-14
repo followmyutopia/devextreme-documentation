@@ -42,11 +42,20 @@ The **CheckBox** is a small box, which when selected by the end user, shows that
     </dx-check-box>
 
     <!--TypeScript-->
+    import { DxCheckBoxModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         checkBoxToggled(e) {
             alert(e.value);
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxCheckBoxModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

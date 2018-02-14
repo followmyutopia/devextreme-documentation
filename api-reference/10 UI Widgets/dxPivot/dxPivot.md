@@ -38,22 +38,19 @@ The **Pivot** provides a quick way to manage multiple views. It includes a colle
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-    <!--JavaScript-->var pivotItems = [{
-        title: "Main courses",
-        text: "First and second courses of a meal"
-    }, {
-        title: "Seafood",
-        text: "Seafood: ocean and sea"
-    }, {
-        title: "Desserts",
-        text: "Desserts: biscuits and cookies"
-    }, {
-        title: "Drinks",
-        text: "Drinks: soft vine and tea"
-    }];
+    <!--JavaScript-->
     $(function () {
         $("#pivot").dxPivot({
-            items: pivotItems,
+            items: [{
+                title: "Item 1 Title",
+                text: "Item 1 Text Content"
+            }, {
+                title: "Item 2 Title",
+                text: "Item 2 Text Content"
+            }, {
+                title: "Item 3 Title",
+                text: "Item 3 Text Content"
+            }],
             height: 300
         });
     });
@@ -70,11 +67,27 @@ The **Pivot** provides a quick way to manage multiple views. It includes a colle
     </dx-pivot>
 
     <!--TypeScript-->
+    import { DxPivotModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
-        pivotItems = [
-            // ...   
-        ];
+        pivotItems = [{
+            title: "Item 1 Title",
+            text: "Item 1 Text Content"
+        }, {
+            title: "Item 2 Title",
+            text: "Item 2 Text Content"
+        }, {
+            title: "Item 3 Title",
+            text: "Item 3 Text Content"
+        }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPivotModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -87,9 +100,16 @@ The **Pivot** provides a quick way to manage multiple views. It includes a colle
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.pivotItems = [
-                // ...   
-            ];
+            $scope.pivotItems = [{
+                title: "Item 1 Title",
+                text: "Item 1 Text Content"
+            }, {
+                title: "Item 2 Title",
+                text: "Item 2 Text Content"
+            }, {
+                title: "Item 3 Title",
+                text: "Item 3 Text Content"
+            }];
         });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
@@ -101,9 +121,16 @@ The **Pivot** provides a quick way to manage multiple views. It includes a colle
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        pivotItems: [
-            // ...
-        ]
+        pivotItems: [{
+            title: "Item 1 Title",
+            text: "Item 1 Text Content"
+        }, {
+            title: "Item 2 Title",
+            text: "Item 2 Text Content"
+        }, {
+            title: "Item 3 Title",
+            text: "Item 3 Text Content"
+        }]
     };
     ko.applyBindings(viewModel);
 

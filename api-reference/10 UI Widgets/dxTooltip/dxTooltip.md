@@ -42,6 +42,20 @@ The **Tooltip** widget displays a tooltip for a specified element on the page.
             <p>Tooltip content</p>
     </dx-tooltip>
 
+    <!--TypeScript-->
+    import { DxTooltipModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTooltipModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

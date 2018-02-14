@@ -41,11 +41,20 @@ The **Button** widget is a simple button that performs specified commands when a
     </dx-button>
 
     <!--TypeScript-->
+    import { DxButtonModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         buttonClicked() {
             alert("The Button was clicked");
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxButtonModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

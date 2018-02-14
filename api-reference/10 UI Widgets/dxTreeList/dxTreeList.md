@@ -33,8 +33,13 @@ The **TreeList** is a widget that represents data from a local or remote source 
 
     <!--JavaScript-->$(function () {
         $("#treeList").dxTreeList({
-            dataSource: customers,
-            columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
+            dataSource: [
+                { id: '1', fullName: "John Heart", position: "CEO" }, 
+                { id: '1_1', parentId: '1', fullName: "Samantha Bright", position: "COO" }, 
+                { id: '2_1', parentId: '2', fullName: "Robert Reagan", position: "CMO" }, 
+                { id: '2', fullName: "Greta Sims", position: "HR Manager" }
+            ]
+            columns: ['fullName', 'position']
         });
     });
 
@@ -43,18 +48,18 @@ The **TreeList** is a widget that represents data from a local or remote source 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
-    <dx-tree-list [dataSource]="customers">
-        <dxi-column dataField="CompanyName"></dxi-column>
-        <dxi-column dataField="City"></dxi-column>
-        <dxi-column dataField="State"></dxi-column>
-        <dxi-column dataField="Phone"></dxi-column>
-        <dxi-column dataField="Fax"></dxi-column>
+    <dx-tree-list [dataSource]="employees">
+        <dxi-column dataField="fullName"></dxi-column>
+        <dxi-column dataField="position"></dxi-column>
     </dx-tree-list>
 
     <!--TypeScript-->
     export class AppComponent {
-        customers = [
-            // ...   
+        employees = [
+            { id: '1', fullName: "John Heart", position: "CEO" }, 
+            { id: '1_1', parentId: '1', fullName: "Samantha Bright", position: "COO" }, 
+            { id: '2_1', parentId: '2', fullName: "Robert Reagan", position: "CMO" }, 
+            { id: '2', fullName: "Greta Sims", position: "HR Manager" }
         ];
     }
 
@@ -62,28 +67,34 @@ The **TreeList** is a widget that represents data from a local or remote source 
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-tree-list="{
-            dataSource: customers,
-            columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
+            dataSource: employees,
+            columns: ['fullName', 'position']
         }"></div>
     </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.customers = [
-                // ...   
+            $scope.employees = [
+                { id: '1', fullName: "John Heart", position: "CEO" }, 
+                { id: '1_1', parentId: '1', fullName: "Samantha Bright", position: "COO" }, 
+                { id: '2_1', parentId: '2', fullName: "Robert Reagan", position: "CMO" }, 
+                { id: '2', fullName: "Greta Sims", position: "HR Manager" }
             ];
         });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div data-bind="dxTreeList: {
-        dataSource: customers,
-        columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
+        dataSource: employees,
+        columns: ['fullName', 'position']
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        customers: [
-            // ...
+        employees: [
+            { id: '1', fullName: "John Heart", position: "CEO" }, 
+            { id: '1_1', parentId: '1', fullName: "Samantha Bright", position: "COO" }, 
+            { id: '2_1', parentId: '2', fullName: "Robert Reagan", position: "CMO" }, 
+            { id: '2', fullName: "Greta Sims", position: "HR Manager" }
         ]
     };
     ko.applyBindings(viewModel);
@@ -92,25 +103,32 @@ The **TreeList** is a widget that represents data from a local or remote source 
 
     <!--Razor C#-->@(Html.DevExtreme().TreeList()
         .ID("treeList")
-        .DataSource(Customers)
-        .Columns(columns => {
-            columns.Add().DataField("CompanyName");
-            columns.Add().DataField("City");
-            columns.Add().DataField("State");
-            columns.Add().DataField("Phone");
-            columns.Add().DataField("Fax");
+        .DataSource(new[] {
+            new { ID = "1", ParentID = "0", FullName = "John Heart", Position = "CEO" },
+            new { ID = "1_1", ParentID = "1", FullName = "Samantha Bright", Position = "COO" },
+            new { ID = "2_1", ParentID = "2", FullName = "Robert Reagan", Position = "CMO" },
+            new { ID = "2", ParentID = "0", FullName = "Greta Sims", Position = "HR Manager" }
+        }, "Id")
+        .ParentIdExpr("ParentID")
+        .Columns(columns =>
+        {
+            columns.Add().DataField("FullName");
+            columns.Add().DataField("Position");
         })
     )
 
     <!--Razor VB-->@(Html.DevExtreme().TreeList() _
         .ID("treeList") _
-        .DataSource(Customers) _
+        .DataSource({
+            New With { .ID = "1", .FullName = "John Heart", .Position = "CEO" },
+            New With { .ID = "1_1", .ParentID = "1", .FullName = "Samantha Bright", .Position = "COO" },
+            New With { .ID = "2_1", .ParentID = "2", .FullName = "Robert Reagan", .Position = "CMO" },
+            New With { .ID = "2", .FullName = "Greta Sims", .Position = "HR Manager" }
+        }, "Id") _
+        .ParentIdExpr("ParentID") _
         .Columns(Sub(columns)
-            columns.Add().DataField("CompanyName")
-            columns.Add().DataField("City")
-            columns.Add().DataField("State")
-            columns.Add().DataField("Phone")
-            columns.Add().DataField("Fax")
+            columns.Add().DataField("FullName")
+            columns.Add().DataField("Position")
         End Sub)
     )
 

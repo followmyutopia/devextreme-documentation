@@ -29,67 +29,64 @@ The **TileView** widget contains a collection of tiles. Tiles can store much mor
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-    <!--HTML-->
-    <div id="tileView">
-        <div data-options="dxTemplate: { name: 'tile' }">
-            <p style="font-size:larger"><b data-bind="text: state"></b></p>
-            <p>Capital: <i data-bind="text: capital"></i></p>
-            <p>Population: <i data-bind="text: population"></i></p>
-        </div>
-    </div>
-
     <!--JavaScript-->
-    var states = [
-        { state: "Alabama", capital: "Montgomery", population: 4822023 },
-        { state: "Alaska", capital: "Juneau", population: 731449 },
-        { state: "Arizona", capital: "Phoenix", population: 6553255 },
-        // ...
-    ];
     $(function() {
         $("#tileView").dxTileView({
-            dataSource: states,
-            itemTemplate: "tile"
+            dataSource: [
+                { text: "Tile 1 Text" },
+                { text: "Tile 2 Text" },
+                { text: "Tile 3 Text" }
+            ],
+            baseItemHeight: 130,
+            baseItemWidth: 180
         });
     });
+
+    <!--HTML-->
+    <div id="tileView">
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
     <dx-tile-view
-        [dataSource]="states"
-        itemTemplate="tile">
-            <div *dxTemplate="let tileData of 'tile'">
-                <p style="font-size:larger"><b> {{ tileData.state }} </b></p>
-                <p>Capital: <i> {{ tileData.capital }} </i></p>
-                <p>Population: <i> {{ tileData.population }} </i></p>
-            </div>
+        [dataSource]="tileViewDataSource"
+        [baseItemHeight]="130"
+        [baseItemWidth]=180>
     </dx-tile-view>
 
     <!--TypeScript-->
+    import { DxTileViewModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
-        states = [
-            // ...
+        tileViewDataSource = [
+            { text: "Tile 1 Text" },
+            { text: "Tile 2 Text" },
+            { text: "Tile 3 Text" }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTileViewModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
     <div dx-tile-view="{
-        dataSource: states,
-        itemTemplate: 'tile'
-    }" dx-item-alias="itemObj">
-        <div data-options="dxTemplate: { name: 'tile' }">
-            <p style="font-size:larger"><b> {{ itemObj.state }} </b></p>
-            <p>Capital: <i> {{ itemObj.capital }} </i></p>
-            <p>Population: <i> {{ itemObj.population }} </i></p>
-        </div>
-    </div>
+        dataSource: tileViewDataSource,
+        baseItemHeight: 130,
+        baseItemWidth: 180
+    }"></div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.states = [
-                // ...   
+            $scope.tileViewDataSource = [
+                { text: "Tile 1 Text" },
+                { text: "Tile 2 Text" },
+                { text: "Tile 3 Text" }
             ];
         });
 
@@ -97,19 +94,16 @@ The **TileView** widget contains a collection of tiles. Tiles can store much mor
 
     <!--HTML-->
     <div data-bind="dxTileView: {
-        dataSource: states,
-        itemTemplate: 'tile'
-    }">
-        <div data-options="dxTemplate: { name: 'tile' }">
-            <p style="font-size:larger"><b data-bind="text: state"></b></p>
-            <p>Capital: <i data-bind="text: capital"></i></p>
-            <p>Population: <i data-bind="text: population"></i></p>
-        </div>
-    </div>
+        dataSource: tileViewDataSource,
+        baseItemHeight: 130,
+        baseItemWidth: 180
+    }"></div>
 
     <!--JavaScript-->var viewModel = {
-        states: [
-            // ...
+        tileViewDataSource: [
+            { text: "Tile 1 Text" },
+            { text: "Tile 2 Text" },
+            { text: "Tile 3 Text" }
         ]
     };
     ko.applyBindings(viewModel);
@@ -118,26 +112,25 @@ The **TileView** widget contains a collection of tiles. Tiles can store much mor
 
     <!--Razor C#-->@(Html.DevExtreme().TileView()
         .ID("tileView")
-        .DataSource(States)
-        .ItemTemplate(@<text>
-            <p style="font-size:larger"><b> <%= state %> </b></p>
-            <p>Capital: <i> <%= capital %> </i></p>
-            <p>Population: <i> <%= population %> </i></p>
-        </text>)
+        .DataSource(new[] {
+            new { text = "Tile 1 Text" },
+            new { text = "Tile 2 Text" },
+            new { text = "Tile 3 Text" }
+        })
+        .BaseItemHeight(130)
+        .BaseItemWidth(180)
     )
 
-    <!--Razor VB-->@Code
-        Html.DevExtreme().TileView() _
+    <!--Razor VB-->@(Html.DevExtreme().TileView() _
             .ID("tileView") _
-            .DataSource(States) _
-            .ItemTemplate(Sub()
-                @<text>
-                    <p style="font-size:larger"><b> <%= state %> </b></p>
-                    <p>Capital: <i> <%= capital %> </i></p>
-                    <p>Population: <i> <%= population %> </i></p>
-                </text>
-            End Sub).Render()
-    End Code
+            .DataSource({
+                New With { .text = "Tile 1 Text" },
+                New With { .text = "Tile 2 Text" },
+                New With { .text = "Tile 3 Text" }
+            }) _
+            .BaseItemHeight(130) _
+            .BaseItemWidth(180)
+    )
 
 ---
 

@@ -91,6 +91,20 @@ The **PivotGrid** is a widget that allows you to display and analyze multi-dimen
         </dxi-field>
     </dx-pivot-grid>
 
+    <!--TypeScript-->
+    import { DxPivotGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPivotGridModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div dx-pivot-grid="{

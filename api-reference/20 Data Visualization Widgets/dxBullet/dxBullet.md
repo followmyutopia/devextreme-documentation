@@ -42,6 +42,20 @@ The **Bullet** widget is useful when you need to compare a single measure to a t
         [target]="24">
     </dx-bullet>
 
+    <!--TypeScript-->
+    import { DxBulletModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxBulletModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

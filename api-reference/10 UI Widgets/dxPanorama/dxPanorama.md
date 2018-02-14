@@ -38,19 +38,16 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
 ---
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
-    <!--JavaScript-->var panoramaItems = [{
-        title: "Main courses",
-        text: "First and second courses of a meal"
-    }, {
-        title: "Seafood",
-        text: "Seafood: ocean and sea"
-    },
-        // . . .
-    ];
+    <!--JavaScript-->
     $(function () {
         $("#panorama").dxPanorama({
-            items: panoramaItems,
-            title: "Online Menu",
+            items: [{
+                title: "Item 1 Title",
+                text: "Item 1 Text Content"
+            }, {
+                title: "Item 2 Title",
+                text: "Item 2 Text Content"
+            }],
             backgroundImage: {
                 url: '/here/goes/your/image.png',
                 height: 600,
@@ -74,8 +71,7 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
 
     <!--HTML-->
     <dx-panorama
-        [items]="panoramaItems"
-        title="Online Menu">
+        [items]="panoramaItems">
         <dxo-background-image
             url="/here/goes/your/image.png"
             [height]="600"
@@ -84,18 +80,30 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
     </dx-panorama>
 
     <!--TypeScript-->
+    import { DxPanoramaModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
-        panoramaItems = [
-            // ...   
-        ];
+        panoramaItems = [{
+            title: "Item 1 Title",
+            text: "Item 1 Text Content"
+        }, {
+            title: "Item 2 Title",
+            text: "Item 2 Text Content"
+        }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPanoramaModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div ng-controller="DemoController">
         <div id="panorama" dx-panorama="{
             items: panoramaItems,
-            title: 'Online Menu',
             backgroundImage: {
                 url: '/here/goes/your/image.png',
                 height: 600,
@@ -106,9 +114,13 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.panoramaItems = [
-                // ...   
-            ];
+            $scope.panoramaItems = [{
+                title: "Item 1 Title",
+                text: "Item 1 Text Content"
+            }, {
+                title: "Item 2 Title",
+                text: "Item 2 Text Content"
+            }];
         });
 
     <!--CSS-->#panorama {
@@ -124,7 +136,6 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
     <!--HTML-->
     <div id="panorama" data-bind="dxPanorama: {
         items: panoramaItems,
-        title: 'Online Menu',
         backgroundImage: {
             url: '/here/goes/your/image.png',
             height: 600,
@@ -133,9 +144,13 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        panoramaItems: [
-            // ...
-        ]
+        panoramaItems: [{
+            title: "Item 1 Title",
+            text: "Item 1 Text Content"
+        }, {
+            title: "Item 2 Title",
+            text: "Item 2 Text Content"
+        }]
     };
     ko.applyBindings(viewModel);
 

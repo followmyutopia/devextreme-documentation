@@ -25,10 +25,10 @@ The **RadioGroup** is a widget that contains a set of radio buttons and allows a
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
     <!--JavaScript-->var radioGroupItems = [
-        { text: "Low", color: "grey" },
-        { text: "Normal", color: "green" },
-        { text: "Urgent", color: "yellow" },
-        { text: "High", color: "red" }
+        { text: "Item 1", color: "grey" },
+        { text: "Item 2", color: "green" },
+        { text: "Item 3", color: "yellow" },
+        { text: "Item 4", color: "red" }
     ];
     $(function () {
         $("#radioGroup").dxRadioGroup({
@@ -53,11 +53,23 @@ The **RadioGroup** is a widget that contains a set of radio buttons and allows a
     </dx-radio-group>
 
     <!--TypeScript-->
+    import { DxRadioGroupModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
         radioGroupItems = [
-            // ...
+            { text: "Item 1", color: "grey" },
+            { text: "Item 2", color: "green" },
+            { text: "Item 3", color: "yellow" },
+            { text: "Item 4", color: "red" }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxRadioGroupModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -73,7 +85,10 @@ The **RadioGroup** is a widget that contains a set of radio buttons and allows a
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.radioGroupItems = [
-                // ...
+                { text: "Item 1", color: "grey" },
+                { text: "Item 2", color: "green" },
+                { text: "Item 3", color: "yellow" },
+                { text: "Item 4", color: "red" }
             ];
         });
 
@@ -90,7 +105,10 @@ The **RadioGroup** is a widget that contains a set of radio buttons and allows a
 
     <!--JavaScript-->var viewModel = {
         radioGroupItems: [
-            // ...
+            { text: "Item 1", color: "grey" },
+            { text: "Item 2", color: "green" },
+            { text: "Item 3", color: "yellow" },
+            { text: "Item 4", color: "red" }
         ]
     };
     ko.applyBindings(viewModel);
@@ -103,10 +121,10 @@ The **RadioGroup** is a widget that contains a set of radio buttons and allows a
         .ValueExpr("color")
         .Value("green")
         .DataSource(new object[] {
-            new { text = "Low", color = "grey" },
-            new { text = "Normal", color = "green" },
-            new { text = "Urgent", color = "yellow" },
-            new { text = "High", color = "red" }
+            new { text = "Item 1", color = "grey" },
+            new { text = "Item 2", color = "green" },
+            new { text = "Item 3", color = "yellow" },
+            new { text = "Item 4", color = "red" }
         })
     )
 
@@ -116,10 +134,10 @@ The **RadioGroup** is a widget that contains a set of radio buttons and allows a
         .ValueExpr("color") _
         .Value("green") _
         .DataSource(New Object() {
-            New With { .text = "Low", .color = "grey" },
-            New With { .text = "Normal", .color = "green" },
-            New With { .text = "Urgent", .color = "yellow" },
-            New With { .text = "High", .color = "red" }
+            New With { .text = "Item 1", .color = "grey" },
+            New With { .text = "Item 2", .color = "green" },
+            New With { .text = "Item 3", .color = "yellow" },
+            New With { .text = "Item 4", .color = "red" }
         })
     )
 

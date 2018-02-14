@@ -95,11 +95,22 @@ The **PolarChart** widget visualizes data in a polar coordinate system. In this 
     </dx-polar-chart>
 
     <!--TypeScript-->
+    import { DxPolarChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         temperature = [
-            // ...   
+            { month: "January", day: 6, night: 2 },
+            { month: "February", day: 7, night: 2 },
+            { month: "March", day: 10, night: 3 }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPolarChartModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -122,7 +133,7 @@ The **PolarChart** widget visualizes data in a polar coordinate system. In this 
             $scope.temperature = [
                 { month: "January", day: 6, night: 2 },
                 { month: "February", day: 7, night: 2 },
-                // ...
+                { month: "March", day: 10, night: 3 }
             ];
         });
 
@@ -145,7 +156,7 @@ The **PolarChart** widget visualizes data in a polar coordinate system. In this 
         temperature: [
             { month: "January", day: 6, night: 2 },
             { month: "February", day: 7, night: 2 },
-            // ...
+            { month: "March", day: 10, night: 3 }
         ]
     };
     ko.applyBindings(viewModel);
@@ -154,27 +165,35 @@ The **PolarChart** widget visualizes data in a polar coordinate system. In this 
 
     <!--Razor C#-->@(Html.DevExtreme().PolarChart()
         .ID("polarChart")
-        .DataSource(Temperature)
+        .DataSource(new[] {
+            new { Month = "January", Day = 6, Night = 2 },
+            new { Month = "February", Day = 7, Night = 2 },
+            new { Month = "March", Day = 10, Night = 3 }
+        })
         .CommonSeriesSettings(c => c
-            .ArgumentField("month")
+            .ArgumentField("Month")
             .Type(PolarChartSeriesType.Scatter)
         )
         .Series(series => {
-            series.Add().ValueField("day");
-            series.Add().ValueField("night");
+            series.Add().ValueField("Day");
+            series.Add().ValueField("Night");
         })
     )
 
     <!--Razor VB-->@(Html.DevExtreme().PolarChart() _
         .ID("polarChart") _
-        .DataSource(Temperature) _
+        .DataSource({
+            New With { .Month = "January", .Day = 6, .Night = 2 },
+            New With { .Month = "February", .Day = 7, .Night = 2 },
+            New With { .Month = "March", .Day = 10, .Night = 3 }
+        }) _
         .CommonSeriesSettings(Sub(c)
-            c.ArgumentField("month") _
+            c.ArgumentField("Month") _
                 .Type(PolarChartSeriesType.Scatter)
         End Sub) _
         .Series(Sub(series)
-            series.Add().ValueField("day")
-            series.Add().ValueField("night")
+            series.Add().ValueField("Day")
+            series.Add().ValueField("Night")
         End Sub)
     )
 

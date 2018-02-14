@@ -43,6 +43,20 @@ The **Popover** is a widget that shows notifications within a box with an arrow 
         </div>
     </dx-popover>
 
+    <!--TypeScript-->
+    import { DxPopoverModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopoverModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div id="targetElement"></div>

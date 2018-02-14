@@ -39,9 +39,18 @@ The **LoadPanel** is an overlay widget notifying the viewer that loading is in p
     </dx-load-panel>
 
     <!--TypeScript-->
+    import { DxLoadPanelModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         isLoadPanelVisible = true;
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadPanelModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

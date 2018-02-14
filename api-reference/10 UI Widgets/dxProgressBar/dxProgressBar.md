@@ -40,6 +40,20 @@ The **ProgressBar** is a widget that shows current progress.
         [value]="49">
     </dx-progress-bar>
 
+    <!--TypeScript-->
+    import { DxProgressBarModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxProgressBarModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

@@ -37,6 +37,20 @@ The **ColorBox** is a widget that allows an end user to enter a color or pick it
         [editAlphaChannel]="true">
     </dx-color-box>
 
+    <!--TypeScript-->
+    import { DxColorBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxColorBoxModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div dx-color-box="{

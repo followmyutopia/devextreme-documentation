@@ -72,10 +72,19 @@ This widget represents a scale (numeric or date-time) and two sliders. A user se
     </dx-range-selector>
 
     <!--TypeScript-->
+    import { DxRangeSelectorModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         startDate = new Date(2011, 0, 1);
         endDate = new Date(2011, 5, 1);
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxRangeSelectorModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

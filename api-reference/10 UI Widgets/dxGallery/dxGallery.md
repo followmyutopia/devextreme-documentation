@@ -48,6 +48,8 @@ The **Gallery** is a widget that displays a collection of images in a carousel. 
     </dx-gallery>
 
     <!--TypeScript-->
+    import { DxGalleryModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         galleryData = [
             'http://path/to/image/1.png',
@@ -55,6 +57,13 @@ The **Gallery** is a widget that displays a collection of images in a carousel. 
             'http://path/to/image/3.png'
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxGalleryModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

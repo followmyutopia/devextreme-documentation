@@ -75,6 +75,8 @@ The **Chart** is a widget that visualizes data from a local or remote storage us
     </dx-chart>
 
     <!--TypeScript-->
+    import { DxChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruits = [
             { fruit: 'Oranges', yield: 10, consumed: 7 },
@@ -82,6 +84,13 @@ The **Chart** is a widget that visualizes data from a local or remote storage us
             { fruit: 'Bananas', yield: 9, consumed: 9 }  
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -136,27 +145,35 @@ The **Chart** is a widget that visualizes data from a local or remote storage us
 
     <!--Razor C#-->@(Html.DevExtreme().Chart()
         .ID("chart")
-        .DataSource(Fruits)
+        .DataSource(new[] {
+            new { Fruit = "Oranges", Yield = 10, Consumed = 7 },
+            new { Fruit = "Apples", Yield = 15, Consumed = 14 },
+            new { Fruit = "Bananas", Yield = 9, Consumed = 9 }
+        })
         .CommonSeriesSettings(c => c
-            .ArgumentField("fruit")
+            .ArgumentField("Fruit")
             .Type(SeriesType.Bar)
         )
         .Series(series => {
-            series.Add().ValueField("yield");
-            series.Add().ValueField("consumed");
+            series.Add().ValueField("Yield");
+            series.Add().ValueField("Consumed");
         })
     )
 
     <!--Razor VB-->@(Html.DevExtreme().Chart() _
         .ID("chart") _
-        .DataSource(Fruits) _
+        .DataSource({
+            New With { .Fruit = "Oranges", .Yield = 10, .Consumed = 7 },
+            New With { .Fruit = "Apples", .Yield = 15, .Consumed = 14 },
+            New With { .Fruit = "Bananas", .Yield = 9, .Consumed = 9 }
+        }) _
         .CommonSeriesSettings(Sub(c)
-            c.ArgumentField("fruit") _
+            c.ArgumentField("Fruit") _
                 .Type(SeriesType.Bar)
         End Sub) _
         .Series(Sub(series)
-            series.Add().ValueField("yield")
-            series.Add().ValueField("consumed")
+            series.Add().ValueField("Yield")
+            series.Add().ValueField("Consumed")
         End Sub)
     )
 

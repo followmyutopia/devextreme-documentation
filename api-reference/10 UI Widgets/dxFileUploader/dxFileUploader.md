@@ -34,6 +34,20 @@ The **FileUploader** widget enables an end user to upload files to the server. A
     <!--HTML-->
     <dx-file-uploader accept="image/*"></dx-file-uploader>
 
+    <!--TypeScript-->
+    import { DxFileUploaderModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxFileUploaderModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div dx-file-uploader="{

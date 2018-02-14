@@ -61,13 +61,13 @@ This widget has a collection of items that present the validation errors that cu
         <dx-text-box name="FirstName">
             <dx-validator>
                 <dxi-validation-rule type="required" message="First name is required"></dxi-validation-rule>
-                . . .
+                ...
             </dx-validator>
         </dx-text-box>
         <dx-text-box name="LastName">
             <dx-validator>
                 <dxi-validation-rule type="required" message="Last name is required"></dxi-validation-rule>
-                . . .
+                ...
             </dx-validator>
         </dx-text-box>
         <dx-validation-summary></dx-validation-summary>
@@ -78,11 +78,23 @@ This widget has a collection of items that present the validation errors that cu
     </dx-validation-group>
 
     <!--TypeScript-->
+    import { DxValidationSummaryModule, DxTextBoxModule, DxButtonModule, DxValidatorModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
         validate(params) {
             params.validationGroup.validate();
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxValidationSummaryModule,
+            DxTextBoxModule, 
+            DxButtonModule, 
+            DxValidatorModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

@@ -45,9 +45,9 @@ The **PieChart** is a widget that visualizes data as a circle divided into secto
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
     <!--JavaScript-->var fruits = [
-        { fruit: 'Oranges', yield: 10, consumed: 7 },
-        { fruit: 'Apples', yield: 15, consumed: 14 },
-        { fruit: 'Bananas', yield: 9, consumed: 9 }
+        { fruit: "Oranges", yield: 10, consumed: 7 },
+        { fruit: "Apples", yield: 15, consumed: 14 },
+        { fruit: "Bananas", yield: 9, consumed: 9 }
     ];
     $(function() {
         $("#pieChart").dxPieChart({
@@ -74,11 +74,22 @@ The **PieChart** is a widget that visualizes data as a circle divided into secto
     </dx-pie-chart>
 
     <!--TypeScript-->
+    import { DxPieChartModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruits = [
-            // ...   
+            { fruit: "Oranges", yield: 10, consumed: 7 },
+            { fruit: "Apples", yield: 15, consumed: 14 },
+            { fruit: "Bananas", yield: 9, consumed: 9 }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxPieChartModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -98,9 +109,9 @@ The **PieChart** is a widget that visualizes data as a circle divided into secto
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
             $scope.fruits = [
-                { fruit: 'Oranges', yield: 10, consumed: 7 },
-                { fruit: 'Apples', yield: 15, consumed: 14 },
-                { fruit: 'Bananas', yield: 9, consumed: 9 }   
+                { fruit: "Oranges", yield: 10, consumed: 7 },
+                { fruit: "Apples", yield: 15, consumed: 14 },
+                { fruit: "Bananas", yield: 9, consumed: 9 }   
             ];
         });
 
@@ -120,9 +131,9 @@ The **PieChart** is a widget that visualizes data as a circle divided into secto
 
     <!--JavaScript-->var viewModel = {
         fruits: [
-            { fruit: 'Oranges', yield: 10, consumed: 7 },
-            { fruit: 'Apples', yield: 15, consumed: 14 },
-            { fruit: 'Bananas', yield: 9, consumed: 9 }
+            { fruit: "Oranges", yield: 10, consumed: 7 },
+            { fruit: "Apples", yield: 15, consumed: 14 },
+            { fruit: "Bananas", yield: 9, consumed: 9 }
         ]
     };
     ko.applyBindings(viewModel);
@@ -131,25 +142,33 @@ The **PieChart** is a widget that visualizes data as a circle divided into secto
 
     <!--Razor C#-->@(Html.DevExtreme().PieChart()
         .ID("pieChart")
-        .DataSource(Fruits)
+        .DataSource(new[] {
+            new { Fruit = "Oranges", Yield = 10, Consumed = 7 },
+            new { Fruit = "Apples", Yield = 15, Consumed = 14 },
+            new { Fruit = "Bananas", Yield = 9, Consumed = 9 }
+        })
         .CommonSeriesSettings(c => c
-            .ArgumentField("fruit")
+            .ArgumentField("Fruit")
         )
         .Series(series => {
-            series.Add().ValueField("yield");
-            series.Add().ValueField("consumed");
+            series.Add().ValueField("Yield");
+            series.Add().ValueField("Consumed");
         })
     )
 
     <!--Razor VB-->@(Html.DevExtreme().PieChart() _
         .ID("pieChart") _
-        .DataSource(Fruits) _
+        .DataSource({
+            New With { .Fruit = "Oranges", .Yield = 10, .Consumed = 7 },
+            New With { .Fruit = "Apples", .Yield = 15, .Consumed = 14 },
+            New With { .Fruit = "Bananas", .Yield = 9, .Consumed = 9 }
+        }) _
         .CommonSeriesSettings(Sub(c)
-            c.ArgumentField("fruit")
+            c.ArgumentField("Fruit")
         End Sub) _
         .Series(Sub(series)
-            series.Add().ValueField("yield")
-            series.Add().ValueField("consumed")
+            series.Add().ValueField("Yield")
+            series.Add().ValueField("Consumed")
         End Sub)
     
 

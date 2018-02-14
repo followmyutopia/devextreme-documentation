@@ -47,8 +47,18 @@ The **DataGrid** is a widget that represents data from a local or remote source 
 
     <!--JavaScript-->$(function () {
         $("#dataGrid").dxDataGrid({
-            dataSource: customers,
-            columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
+            dataSource: [{
+                ID: 1,
+                CompanyName: "Super Mart of the West",
+                City: "Bentonville",
+                State: "Arkansas"
+            }, {
+                ID: 2,
+                CompanyName: "Electronics Depot",
+                City: "Atlanta",
+                State: "Georgia"
+            }],
+            columns: ['CompanyName', 'City', 'State']
         });
     });
 
@@ -61,44 +71,75 @@ The **DataGrid** is a widget that represents data from a local or remote source 
         <dxi-column dataField="CompanyName"></dxi-column>
         <dxi-column dataField="City"></dxi-column>
         <dxi-column dataField="State"></dxi-column>
-        <dxi-column dataField="Phone"></dxi-column>
-        <dxi-column dataField="Fax"></dxi-column>
     </dx-data-grid>
 
     <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
-        customers = [
-            // ...   
-        ];
+        customers = [{
+            ID: 1,
+            CompanyName: "Super Mart of the West",
+            City: "Bentonville",
+            State: "Arkansas"
+        }, {
+            ID: 2,
+            CompanyName: "Electronics Depot",
+            City: "Atlanta",
+            State: "Georgia"
+        }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-data-grid="{
             dataSource: customers,
-            columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
+            columns: ['CompanyName', 'City', 'State']
         }"></div>
     </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.customers = [
-                // ...   
-            ];
+            $scope.customers = [{
+                ID: 1,
+                CompanyName: "Super Mart of the West",
+                City: "Bentonville",
+                State: "Arkansas"
+            }, {
+                ID: 2,
+                CompanyName: "Electronics Depot",
+                City: "Atlanta",
+                State: "Georgia"
+            }];
         });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div data-bind="dxDataGrid: {
         dataSource: customers,
-        columns: ['CompanyName', 'City', 'State', 'Phone', 'Fax']
+        columns: ['CompanyName', 'City', 'State']
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        customers: [
-            // ...
-        ]
+        customers: [{
+            ID: 1,
+            CompanyName: "Super Mart of the West",
+            City: "Bentonville",
+            State: "Arkansas"
+        }, {
+            ID: 2,
+            CompanyName: "Electronics Depot",
+            City: "Atlanta",
+            State: "Georgia"
+        }]
     };
     ko.applyBindings(viewModel);
 
@@ -106,25 +147,47 @@ The **DataGrid** is a widget that represents data from a local or remote source 
 
     <!--Razor C#-->@(Html.DevExtreme().DataGrid()
         .ID("dataGrid")
-        .DataSource(Customers)
+        .DataSource(new[] {
+            new { 
+                ID = 1,
+                CompanyName = "Super Mart of the West",
+                City = "Bentonville",
+                State = "Arkansas" 
+            }, 
+            new {
+                ID = 2,
+                CompanyName = "Electronics Depot",
+                City = "Atlanta",
+                State = "Georgia"
+            }
+        })
         .Columns(columns => {
             columns.Add().DataField("CompanyName");
             columns.Add().DataField("City");
             columns.Add().DataField("State");
-            columns.Add().DataField("Phone");
-            columns.Add().DataField("Fax");
         })
     )
 
     <!--Razor VB-->@(Html.DevExtreme().DataGrid() _
         .ID("dataGrid") _
-        .DataSource(Customers) _
+        .DataSource({
+            New With { 
+                .ID= 1,
+                .CompanyName = "Super Mart of the West",
+                .City = "Bentonville",
+                .State = "Arkansas" 
+            }, 
+            New With {
+                .ID = 2,
+                .CompanyName = "Electronics Depot",
+                .City = "Atlanta",
+                .State = "Georgia"
+            }
+        }) _
         .Columns(Sub(columns)
             columns.Add().DataField("CompanyName")
             columns.Add().DataField("City")
             columns.Add().DataField("State")
-            columns.Add().DataField("Phone")
-            columns.Add().DataField("Fax")
         End Sub)
     )
 

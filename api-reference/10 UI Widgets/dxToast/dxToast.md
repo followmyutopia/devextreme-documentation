@@ -54,12 +54,21 @@ The **Toast** is a widget that provides pop-up notifications.
     </dx-button>
 
     <!--TypeScript-->
+    import { DxToastModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
         isToastVisible = false;
         showToast() {
             this.isToastVisible = true;
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxToastModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

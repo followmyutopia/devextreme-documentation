@@ -32,21 +32,20 @@ The **Menu** widget is a panel with clickable items. A click on an item opens a 
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
     <!--JavaScript-->
-    var menuItems = [
-        { text: "Hide" },
-        { text: "Delete" },
-        {
-            text: "Clipboard",
-            items: [
-                { text: "Copy text" },
-                { text: "Clear text" },
-                { text: "Paste text" }
-            ]
-        }
-    ];
     $(function () {
         $("#menu").dxMenu({
-            items: menuItems
+            items: [
+                { text: "Hide" },
+                { text: "Delete" },
+                {
+                    text: "Clipboard",
+                    items: [
+                        { text: "Copy" },
+                        { text: "Clear" },
+                        { text: "Paste" }
+                    ]
+                }
+            ]
         });
     });
 
@@ -59,11 +58,29 @@ The **Menu** widget is a panel with clickable items. A click on an item opens a 
     <dx-menu [items]="menuItems"></dx-menu>
 
     <!--TypeScript-->
+    import { DxMenuModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         menuItems = [
-            // ...   
+            { text: "Hide" },
+            { text: "Delete" },
+            {
+                text: "Clipboard",
+                items: [
+                    { text: "Copy" },
+                    { text: "Clear" },
+                    { text: "Paste" }
+                ]
+            }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxMenuModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -76,7 +93,16 @@ The **Menu** widget is a panel with clickable items. A click on an item opens a 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
             $scope.menuItems = [
-                // ...   
+                { text: "Hide" },
+                { text: "Delete" },
+                {
+                    text: "Clipboard",
+                    items: [
+                        { text: "Copy" },
+                        { text: "Clear" },
+                        { text: "Paste" }
+                    ]
+                }
             ];
         });
 
@@ -89,7 +115,16 @@ The **Menu** widget is a panel with clickable items. A click on an item opens a 
 
     <!--JavaScript-->var viewModel = {
         menuItems: [
-            // ...
+            { text: "Hide" },
+            { text: "Delete" },
+            {
+                text: "Clipboard",
+                items: [
+                    { text: "Copy" },
+                    { text: "Clear" },
+                    { text: "Paste" }
+                ]
+            }
         ]
     };
     ko.applyBindings(viewModel);
@@ -102,9 +137,9 @@ The **Menu** widget is a panel with clickable items. A click on an item opens a 
             items.Add().Text("Hide");
             items.Add().Text("Delete");
             items.Add().Text("Clipboard").Items(clipboardItems => {
-                clipboardItems.Add().Text("Copy text");
-                clipboardItems.Add().Text("Clear text");
-                clipboardItems.Add().Text("Paste text");
+                clipboardItems.Add().Text("Copy");
+                clipboardItems.Add().Text("Clear");
+                clipboardItems.Add().Text("Paste");
             });
         })
     )
@@ -115,9 +150,9 @@ The **Menu** widget is a panel with clickable items. A click on an item opens a 
             items.Add().Text("Hide")
             items.Add().Text("Delete")
             items.Add().Text("Clipboard").Items(Sub(clipboardItems)
-                clipboardItems.Add().Text("Copy text")
-                clipboardItems.Add().Text("Clear text")
-                clipboardItems.Add().Text("Paste text")
+                clipboardItems.Add().Text("Copy")
+                clipboardItems.Add().Text("Clear")
+                clipboardItems.Add().Text("Paste")
             End Sub)
         End Sub)
     )

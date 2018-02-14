@@ -44,11 +44,22 @@ The **Tabs** is a tab strip used to switch between pages or views. This widget i
     <dx-tabs [items]="tabs"></dx-tabs>
 
     <!--TypeScript-->
+    import { DxTabsModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
         tabs = [
-            // ...   
+            { text: "User", icon: "user" },
+            { text: "Comment", icon: "comment" },
+            { text: "Find", icon: "find", badge: "new" }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTabsModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

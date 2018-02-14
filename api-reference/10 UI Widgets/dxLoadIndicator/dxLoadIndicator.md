@@ -34,9 +34,18 @@ The **LoadIndicator** is a UI element notifying the viewer that a process is in 
     <dx-load-indicator [(visible)]="isLoadIndicatorVisible"></dx-load-indicator>
 
     <!--TypeScript-->
+    import { DxLoadIndicatorModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         isLoadIndicatorVisible = true;
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadIndicatorModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

@@ -37,6 +37,20 @@ A widget that is used to validate the associated DevExtreme editors against the 
         </dx-validator>
     </dx-text-box>
 
+    <!--TypeScript-->
+    import { DxValidatorModule, DxTextBoxModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxValidatorModule,
+            DxTextBoxModule
+        ],
+        // ...
+    })
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

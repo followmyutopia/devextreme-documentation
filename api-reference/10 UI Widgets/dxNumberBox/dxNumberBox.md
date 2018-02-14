@@ -42,6 +42,20 @@ The **NumberBox** is a widget that displays a numeric value and allows a user to
         placeholder="Enter your age">
     </dx-number-box>
 
+    <!--TypeScript-->
+    import { DxNumberBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxNumberBoxModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

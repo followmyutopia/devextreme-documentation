@@ -35,14 +35,14 @@ The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widge
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
     <!--JavaScript-->var tabs = [{
-        title: 'Info',
-        text: 'This is Info Tab'
+        title: 'Tab 1 Title',
+        text: 'Tab 1 Text Content'
     }, {
-        title: 'Contacts',
-        text: 'This is Contacts Tab'
+        title: 'Tab 2 Title',
+        text: 'Tab 2 Text Content'
     }, {
-        title: 'Address',
-        text: 'This is Address Tab'
+        title: 'Tab 3 Title',
+        text: 'Tab 3 Text Content'
     }];
     $(function () {
         $("#tabPanel").dxTabPanel({
@@ -59,11 +59,27 @@ The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widge
     <dx-tab-panel [items]="tabs"></dx-tab-panel>
 
     <!--TypeScript-->
+    import { DxTabPanelModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
-        tabs = [
-            // ...
-        ];
+        tabs = [{
+            title: 'Tab 1 Title',
+            text: 'Tab 1 Text Content'
+        }, {
+            title: 'Tab 2 Title',
+            text: 'Tab 2 Text Content'
+        }, {
+            title: 'Tab 3 Title',
+            text: 'Tab 3 Text Content'
+        }];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTabPanelModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -75,9 +91,16 @@ The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widge
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.tabs = [
-                // ...   
-            ];
+            $scope.tabs = [{
+                title: 'Tab 1 Title',
+                text: 'Tab 1 Text Content'
+            }, {
+                title: 'Tab 2 Title',
+                text: 'Tab 2 Text Content'
+            }, {
+                title: 'Tab 3 Title',
+                text: 'Tab 3 Text Content'
+            }];
         });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
@@ -88,9 +111,16 @@ The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widge
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        tabs: [
-            // ...
-        ]
+        tabs: [{
+            title: 'Tab 1 Title',
+            text: 'Tab 1 Text Content'
+        }, {
+            title: 'Tab 2 Title',
+            text: 'Tab 2 Text Content'
+        }, {
+            title: 'Tab 3 Title',
+            text: 'Tab 3 Text Content'
+        }]
     };
     ko.applyBindings(viewModel);
 
@@ -99,18 +129,18 @@ The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widge
     <!--Razor C#-->@(Html.DevExtreme().TabPanel()
         .ID("tabPanel")
         .Items(items => {
-            items.Add().Title("Info").Text("This is Info Tab");
-            items.Add().Title("Contacts").Text("This is Contacts Tab");
-            items.Add().Title("Address").Text("This is Address Tab");
+            items.Add().Title("Tab 1 Title").Text("Tab 1 Text Content");
+            items.Add().Title("Tab 2 Title").Text("Tab 2 Text Content");
+            items.Add().Title("Tab 3 Title").Text("Tab 3 Text Content");
         })
     )
 
     <!--Razor VB-->@(Html.DevExtreme().TabPanel() _
         .ID("tabPanel") _
         .Items(Sub(items)
-            items.Add().Title("Info").Text("This is Info Tab")
-            items.Add().Title("Contacts").Text("This is Contacts Tab")
-            items.Add().Title("Address").Text("This is Address Tab")
+            items.Add().Title("Tab 1 Title").Text("Tab 1 Text Content")
+            items.Add().Title("Tab 2 Title").Text("Tab 2 Text Content")
+            items.Add().Title("Tab 3 Title").Text("Tab 3 Text Content")
         End Sub)
     )
 

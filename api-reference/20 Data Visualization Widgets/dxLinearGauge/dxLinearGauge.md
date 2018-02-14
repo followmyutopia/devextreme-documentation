@@ -47,7 +47,7 @@ The **LinearGauge** is a widget that indicates values on a linear numeric scale.
             [startValue]="50"
             [endValue]="150">
         </dxo-scale>
-        <dxo-rangeContainer>
+        <dxo-range-container>
             <dxi-range 
                 [startValue]="50"
                 [endValue]="90">
@@ -60,8 +60,22 @@ The **LinearGauge** is a widget that indicates values on a linear numeric scale.
                 [startValue]="130"
                 [endValue]="150">
             </dxi-range>
-        </dxo-rangeContainer>
-    </dx-circular-gauge>
+        </dxo-range-container>
+    </dx-linear-gauge>
+
+    <!--TypeScript-->
+    import { DxLinearGaugeModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLinearGaugeModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

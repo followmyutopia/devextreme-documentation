@@ -109,26 +109,16 @@ The **TreeView** widget is a tree-like representation of textual data.
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
     <!--JavaScript-->
-    var species = [
-        { id: 1, parentId: 0, text: "Species" },
-        { id: 2, parentId: 1, text: "Cat" },
-        { id: 3, parentId: 1, text: "Dog" },
-        { id: 4, parentId: 1, text: "Cow" },
-        { id: 5, parentId: 2, text: "Abyssinian" },
-        { id: 6, parentId: 2, text: "Aegean cat" },
-        { id: 7, parentId: 2, text: "Australian Mist" },
-        { id: 8, parentId: 3, text: "Affenpinscher" },
-        { id: 9, parentId: 3, text: "Afghan Hound" },
-        { id: 10, parentId: 3, text: "Airedale Terrier" },
-        { id: 11, parentId: 3, text: "Akita Inu" },
-        { id: 12, parentId: 0, text: "Birds" },
-        { id: 13, parentId: 12, text: "Akekee" },
-        { id: 14, parentId: 12, text: "Arizona Woodpecker" },
-        { id: 15, parentId: 12, text: "Black-chinned Sparrow" }
-    ];
     $(function () {
         $("#treeView").dxTreeView({
-            dataSource: species,
+            dataSource: [
+                { id: "1", text: "Item 1" },
+                { id: "1_1", text: "Subitem 1.1", parentId: "1" },
+                { id: "1_2", text: "Subitem 1.2", parentId: "1" },
+                { id: "2", text: "Item 2" },
+                { id: "2_1", text: "Subitem 2.1", parentId: "2" },
+                { id: "2_2", text: "Subitem 2.2", parentId: "2" }
+            ],
             dataStructure: 'plain'
         });
     });
@@ -140,30 +130,49 @@ The **TreeView** widget is a tree-like representation of textual data.
 
     <!--HTML-->
     <dx-tree-view
-        [dataSource]="species"
+        [dataSource]="treeViewDataSource"
         dataStructure="plain">
     </dx-tree-view>
 
     <!--TypeScript-->
+    import { DxTreeViewModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
-        species = [
-            // ...   
+        treeViewDataSource = [
+            { id: "1", text: "Item 1" },
+            { id: "1_1", text: "Subitem 1.1", parentId: "1" },
+            { id: "1_2", text: "Subitem 1.2", parentId: "1" },
+            { id: "2", text: "Item 2" },
+            { id: "2_1", text: "Subitem 2.1", parentId: "2" },
+            { id: "2_2", text: "Subitem 2.2", parentId: "2" }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeViewModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-tree-view="{
-            dataSource: species,
+            dataSource: treeViewDataSource,
             dataStructure: 'plain'
         }"></div>
     </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.species = [
-                // ...   
+            $scope.treeViewDataSource = [
+                { id: "1", text: "Item 1" },
+                { id: "1_1", text: "Subitem 1.1", parentId: "1" },
+                { id: "1_2", text: "Subitem 1.2", parentId: "1" },
+                { id: "2", text: "Item 2" },
+                { id: "2_1", text: "Subitem 2.1", parentId: "2" },
+                { id: "2_2", text: "Subitem 2.2", parentId: "2" }
             ];
         });
 
@@ -171,13 +180,18 @@ The **TreeView** widget is a tree-like representation of textual data.
 
     <!--HTML-->
     <div data-bind="dxTreeView: {
-        dataSource: species,
+        dataSource: treeViewDataSource,
         dataStructure: 'plain'
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        species: [
-            // ...
+        treeViewDataSource: [
+            { id: "1", text: "Item 1" },
+            { id: "1_1", text: "Subitem 1.1", parentId: "1" },
+            { id: "1_2", text: "Subitem 1.2", parentId: "1" },
+            { id: "2", text: "Item 2" },
+            { id: "2_1", text: "Subitem 2.1", parentId: "2" },
+            { id: "2_2", text: "Subitem 2.2", parentId: "2" }
         ]
     };
     ko.applyBindings(viewModel);
@@ -186,13 +200,27 @@ The **TreeView** widget is a tree-like representation of textual data.
 
     <!--Razor C#-->@(Html.DevExtreme().TreeView()
         .ID("treeView")
-        .DataSource(Species)
+        .DataSource(new object[] {
+            new { id = "1", text = "Item 1" },
+            new { id = "1_1", text = "Subitem 1.1", parentId = "1" },
+            new { id = "1_2", text = "Subitem 1.2", parentId = "1" },
+            new { id = "2", text = "Item 2" },
+            new { id = "2_1", text = "Subitem 2.1", parentId = "2" },
+            new { id = "2_2", text = "Subitem 2.2", parentId = "2" }
+        })
         .DataStructure(TreeViewDataStructure.Plain)
     )
 
     <!--Razor VB-->@(Html.DevExtreme().TreeView() _
         .ID("treeView") _
-        .DataSource(Species) _
+        .DataSource({
+            New With { .id = "1", .text = "Item 1" },
+            New With { .id = "1_1", .text = "Subitem 1.1", .parentId = "1" },
+            New With { .id = "1_2", .text = "Subitem 1.2", .parentId = "1" },
+            New With { .id = "2", .text = "Item 2" },
+            New With { .id = "2_1", .text = "Subitem 2.1", .parentId = "1" },
+            New With { .id = "2_2", .text = "Subitem 2.2", .parentId = "1" }
+        }) _
         .DataStructure(TreeViewDataStructure.Plain)
     )
 

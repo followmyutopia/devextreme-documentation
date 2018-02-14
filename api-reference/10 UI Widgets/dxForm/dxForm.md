@@ -83,6 +83,8 @@ The **Form** widget represents fields of a data object as a collection of label-
     </dx-form>
 
     <!--TypeScript-->
+    import { DxFormModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         companyData = {
             id: 1,
@@ -95,6 +97,13 @@ The **Form** widget represents fields of a data object as a collection of label-
             website: "http://www.nowebsite.com"
         };
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxFormModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -165,52 +174,52 @@ The **Form** widget represents fields of a data object as a collection of label-
 
     <!--Razor C#-->@(Html.DevExtreme().Form()
         .FormData(new {
-            id = 1,
-            name = "Super Mart of the West",
-            city = "Bentonville",
-            state = "Arkansas",
-            zip = 727161232,
-            phone = "(800) 555-2797",
-            fax = "(800) 555-2171",
-            website = "http://www.nowebsite.com"
+            ID = 1,
+            Name = "Super Mart of the West",
+            City = "Bentonville",
+            State = "Arkansas",
+            Zip = 727161232,
+            Phone = "(800) 555-2797",
+            Fax = "(800) 555-2171",
+            Website = "http://www.nowebsite.com"
         })
         .Items(formItems => {
-            formItems.AddSimple().DataField("name");
+            formItems.AddSimple().DataField("Name");
             formItems.AddGroup().Caption("Location").Items(locationItems => {
-                locationItems.AddSimple().DataField("city");
-                locationItems.AddSimple().DataField("state");
-                locationItems.AddSimple().DataField("zip");
+                locationItems.AddSimple().DataField("City");
+                locationItems.AddSimple().DataField("State");
+                locationItems.AddSimple().DataField("Zip");
             });
             formItems.AddGroup().Caption("Contacts").Items(contactsItems => {
-                contactsItems.AddSimple().DataField("phone");
-                contactsItems.AddSimple().DataField("fax");
-                contactsItems.AddSimple().DataField("website");
+                contactsItems.AddSimple().DataField("Phone");
+                contactsItems.AddSimple().DataField("Fax");
+                contactsItems.AddSimple().DataField("Website");
             });
         })
     )
 
     <!--Razor VB-->@(Html.DevExtreme().Form() _
         .FormData(New With {
-            .id = 1,
-            .name = "Super Mart of the West",
-            .city = "Bentonville",
-            .state = "Arkansas",
-            .zip = 727161232,
-            .phone = "(800) 555-2797",
-            .fax = "(800) 555-2171",
-            .website = "http://www.nowebsite.com"
+            .Id = 1,
+            .Name = "Super Mart of the West",
+            .City = "Bentonville",
+            .State = "Arkansas",
+            .Zip = 727161232,
+            .Phone = "(800) 555-2797",
+            .Fax = "(800) 555-2171",
+            .Website = "http://www.nowebsite.com"
         }) _
         .Items(Sub(formItems)
             formItems.AddSimple().DataField("name")
             formItems.AddGroup().Caption("Location").Items(Sub(locationItems)
-                locationItems.AddSimple().DataField("city")
-                locationItems.AddSimple().DataField("state")
-                locationItems.AddSimple().DataField("zip")
+                locationItems.AddSimple().DataField("City")
+                locationItems.AddSimple().DataField("State")
+                locationItems.AddSimple().DataField("Zip")
             End Sub)
             formItems.AddGroup().Caption("Contacts").Items(Sub(contactsItems)
-                contactsItems.AddSimple().DataField("phone")
-                contactsItems.AddSimple().DataField("fax")
-                contactsItems.AddSimple().DataField("website")
+                contactsItems.AddSimple().DataField("Phone")
+                contactsItems.AddSimple().DataField("Fax")
+                contactsItems.AddSimple().DataField("Website")
             End Sub)
         End Sub)
     )  

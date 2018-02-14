@@ -24,8 +24,8 @@ The **List** is a widget that represents a collection of items in a scrollable l
 
     <!--JavaScript-->$(function () {
         $("#list").dxList({
-            dataSource: listData,
-            grouped: true
+            dataSource: [ "Item 1", "Item 2", "Item 3" ],
+            searchEnabled: true
         });
     });
 
@@ -36,43 +36,46 @@ The **List** is a widget that represents a collection of items in a scrollable l
     <!--HTML-->
     <dx-list
         [dataSource]="listData"
-        [grouped]="true">
+        [searchEnabled]="true">
     </dx-list>
 
     <!--TypeScript-->
+    import { DxListModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
-        listData = [
-            // ...
-        ]
+        listData = [ "Item 1", "Item 2", "Item 3" ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-list="{
             dataSource: listData,
-            grouped: true
+            searchEnabled: true
         }"></div>
     </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.listData = [
-                // ...
-            ]
+            $scope.listData = [ "Item 1", "Item 2", "Item 3" ];
         });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div data-bind="dxList: {
         dataSource: listData,
-        grouped: true
+        searchEnabled: true
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        listData: [
-            // ...
-        ]
+        listData: [ "Item 1", "Item 2", "Item 3" ]
     };
     ko.applyBindings(viewModel);
 
@@ -80,14 +83,14 @@ The **List** is a widget that represents a collection of items in a scrollable l
 
     <!--Razor C#-->@(Html.DevExtreme().List()
         .ID("list")
-        .DataSource(ListData)
-        .Grouped(true)
+        .DataSource(new[] { "Item 1", "Item 2", "Item 3" })
+        .SearchEnabled(true)
     )
 
     <!--Razor VB-->@(Html.DevExtreme().List() _
         .ID("list") _
-        .DataSource(ListData) _
-        .Grouped(True)
+        .DataSource({ "Item 1", "Item 2", "Item 3" }) _
+        .SearchEnabled(True)
     )
 
 ---

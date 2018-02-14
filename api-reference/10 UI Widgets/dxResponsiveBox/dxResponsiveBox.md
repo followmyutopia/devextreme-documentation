@@ -85,6 +85,20 @@ The **ResponsiveBox** widget allows you to create an application or a website wi
         </dxi-item>
     </dx-responsive-box>
 
+    <!--TypeScript-->
+    import { DxResponsiveBoxModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxResponsiveBoxModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><html style="height:100%">

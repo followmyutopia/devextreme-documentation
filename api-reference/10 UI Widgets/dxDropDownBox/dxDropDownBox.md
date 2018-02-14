@@ -54,6 +54,8 @@ The **DropDownBox** widget consists of a text field, which displays the current 
     </dx-drop-down-box>
 
     <!--TypeScript-->
+    import { DxDropDownBoxModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
         selectedFruit = fruits[0];
@@ -63,6 +65,13 @@ The **DropDownBox** widget consists of a text field, which displays the current 
             isDropDownBoxOpened = false;
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxDropDownBoxModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

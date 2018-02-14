@@ -34,6 +34,20 @@ The **Switch** is a widget that can be in two states: "On" and "Off".
     <!--HTML-->
     <dx-switch [value]="true"></dx-switch>
 
+    <!--TypeScript-->
+    import { DxSwitchModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSwitchModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

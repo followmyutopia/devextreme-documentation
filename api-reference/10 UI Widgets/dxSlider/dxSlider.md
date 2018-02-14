@@ -39,6 +39,20 @@ The **Slider** is a widget that allows an end user to set a numeric value on a c
         [value]="25">
     </dx-slider>
 
+    <!--TypeScript-->
+    import { DxSliderModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSliderModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

@@ -47,7 +47,7 @@ The **CircularGauge** is a widget that indicates values on a circular numeric sc
             [startValue]="50"
             [endValue]="150">
         </dxo-scale>
-        <dxo-rangeContainer>
+        <dxo-range-container>
             <dxi-range 
                 [startValue]="50"
                 [endValue]="90">
@@ -60,8 +60,22 @@ The **CircularGauge** is a widget that indicates values on a circular numeric sc
                 [startValue]="130"
                 [endValue]="150">
             </dxi-range>
-        </dxo-rangeContainer>
+        </dxo-range-container>
     </dx-circular-gauge>
+
+    <!--TypeScript-->
+    import { DxCircularGaugeModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxCircularGaugeModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 

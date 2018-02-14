@@ -36,17 +36,10 @@ The **SelectBox** widget is an editor that allows an end user to select an item 
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
     <!--JavaScript-->
-    var states = [
-        { id: 1, state: "Alabama", capital: "Montgomery" },
-        { id: 2, state: "Alaska", capital: "Juneau" },
-        { id: 3, state: "Arizona", capital: "Phoenix" },
-        // ...
-    ];
     $(function() {
         $("#selectBox").dxSelectBox({
-            dataSource: states,
-            valueExpr: 'id',
-            displayExpr: 'state'
+            dataSource: [ "Item 1", "Item 2", "Item 3" ],
+            searchEnabled: true
         });
     });
 
@@ -57,48 +50,48 @@ The **SelectBox** widget is an editor that allows an end user to select an item 
 
     <!--HTML-->
     <dx-select-box
-        [dataSource]="states"
-        valueExpr="id"
-        displayExpr="state">
+        [dataSource]="selectBoxDataSource"
+        [searchEnabled]="true">
     </dx-select-box>
 
     <!--TypeScript-->
+    import { DxSelectBoxModule } from 'devextreme-angular'
+    // ...
     export class AppComponent {
-        states = [
-            // ...   
-        ];
+        selectBoxDataSource = [ "Item 1", "Item 2", "Item 3" ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSelectBoxModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-select-box="{
-            dataSource: states,
-            valueExpr: 'id',
-            displayExpr: 'state'
+            dataSource: selectBoxDataSource,
+            searchEnabled: true
         }"></div>
     </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
-            $scope.states = [
-                // ...   
-            ];
+            $scope.selectBoxDataSource = [ "Item 1", "Item 2", "Item 3" ];
         });
 
 #####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
     <div data-bind="dxSelectBox: {
-        dataSource: states,
-        valueExpr: 'id',
-        displayExpr: 'state'
+        dataSource: selectBoxDataSource,
+        searchEnabled: true
     }"></div>
 
     <!--JavaScript-->var viewModel = {
-        states: [
-            // ...
-        ]
+        selectBoxDataSource: [ "Item 1", "Item 2", "Item 3" ]
     };
     ko.applyBindings(viewModel);
 
@@ -106,16 +99,14 @@ The **SelectBox** widget is an editor that allows an end user to select an item 
 
     <!--Razor C#-->@(Html.DevExtreme().SelectBox()
         .ID("selectBox")
-        .DataSource(States)
-        .DisplayExpr("state")
-        .ValueExpr("id")
+        .DataSource(new[] { "Item 1", "Item 2", "Item 3" })
+        .SearchEnabled(true)
     )
 
     <!--Razor VB-->@(Html.DevExtreme().SelectBox() _
         .ID("selectBox") _
-        .DataSource(States) _
-        .DisplayExpr("state") _
-        .ValueExpr("id")
+        .DataSource({ "Item 1", "Item 2", "Item 3" }) _
+        .SearchEnabled(True)
     )
 
 ---

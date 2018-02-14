@@ -93,11 +93,22 @@ The **Sparkline** widget is a compact chart that contains only one series. Owing
     </dx-sparkline>
 
     <!--TypeScript-->
+    import { DxSparklineModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         temperature = [
-            // ...   
+            { month: "January", day: 6, night: 2 },
+            { month: "February", day: 7, night: 2 },
+            { month: "March", day: 10, night: 3 }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxSparklineModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -118,7 +129,9 @@ The **Sparkline** widget is a compact chart that contains only one series. Owing
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
             $scope.temperature = [
-                // ...   
+                { month: "January", day: 6, night: 2 },
+                { month: "February", day: 7, night: 2 },
+                { month: "March", day: 10, night: 3 }
             ];
         });
 
@@ -140,7 +153,9 @@ The **Sparkline** widget is a compact chart that contains only one series. Owing
 
     <!--JavaScript-->var viewModel = {
         temperature: [
-            // ...
+            { month: "January", day: 6, night: 2 },
+            { month: "February", day: 7, night: 2 },
+            { month: "March", day: 10, night: 3 }
         ]
     };
     ko.applyBindings(viewModel);
@@ -149,33 +164,48 @@ The **Sparkline** widget is a compact chart that contains only one series. Owing
 
     <!--Razor C#-->@(Html.DevExtreme().Sparkline()
         .ID("daySpakline")
-        .DataSource(Temperature)
+        .DataSource(new JS ("temperature"))
         .ArgumentField("month")
         .ValueField("day")
         .Type(SparklineType.Bar)
     )
     @(Html.DevExtreme().Sparkline()
         .ID("nightSpakline")
-        .DataSource(Temperature)
+        .DataSource(new JS("temperature"))
         .ArgumentField("month")
         .ValueField("night")
         .Type(SparklineType.Bar)
     )
+    <script> 
+        var temperature = [
+            { month: "January", day: 6, night: 2 },
+            { month: "February", day: 7, night: 2 },
+            { month: "March", day: 10, night: 3 }
+        ];
+    </script>
+
 
     <!--Razor VB-->@(Html.DevExtreme().Sparkline() _
         .ID("daySpakline") _
-        .DataSource(Temperature) _
+        .DataSource(New JS("temperature")) _
         .ArgumentField("month") _
         .ValueField("day") _
         .Type(SparklineType.Bar)
     )
     @(Html.DevExtreme().Sparkline() _
         .ID("nightSpakline") _
-        .DataSource(Temperature) _
+        .DataSource(New JS("temperature")) _
         .ArgumentField("month") _
         .ValueField("night") _
         .Type(SparklineType.Bar)
     )
+    <script>
+        var temperature = [
+            { month: "January", day: 6, night: 2 },
+            { month: "February", day: 7, night: 2 },
+            { month: "March", day: 10, night: 3 }
+        ];
+    </script>
 
 ---
 

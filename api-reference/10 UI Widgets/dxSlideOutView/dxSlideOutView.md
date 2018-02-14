@@ -56,6 +56,20 @@ The **SlideOutView** widget is a classic slide-out menu paired with a view. This
             </div>
     </dx-slide-out-view>
 
+    <!--TypeScript-->
+    import { DxSlideOutViewModule } from 'devextreme-angular'
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxSlideOutViewModule
+        ],
+        // ...
+    })
+
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->

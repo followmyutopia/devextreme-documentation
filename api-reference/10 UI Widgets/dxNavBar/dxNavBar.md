@@ -37,7 +37,7 @@ The **NavBar** is a widget that navigates the application views.
             items: [
                 { text: "Home", icon: "home" },
                 { text: "About", icon: "info" },
-                { text: "favorites", icon: "favorites", badge: "new" }
+                { text: "Favorites", icon: "favorites", badge: "new" }
             ]
         });
     });
@@ -51,8 +51,22 @@ The **NavBar** is a widget that navigates the application views.
     <dx-nav-bar>
         <dxi-item text="Home" icon="home"></dxi-item>
         <dxi-item text="About" icon="info"></dxi-item>
-        <dxi-item text=favorites" icon=favorites" badge="new"></dxi-item>
+        <dxi-item text="Favorites" icon="favorites" badge="new"></dxi-item>
     </dx-nav-bar>
+
+    <!--TypeScript-->
+    import { DxNavBarModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxNavBarModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -61,7 +75,7 @@ The **NavBar** is a widget that navigates the application views.
         items: [
             { text: 'Home', icon: 'home' },
             { text: 'About', icon: 'info' },
-            { text: 'favorites', icon: 'favorites', badge: 'new' }
+            { text: 'Favorites', icon: 'favorites', badge: 'new' }
         ]
     }"></div>
 
@@ -72,7 +86,7 @@ The **NavBar** is a widget that navigates the application views.
         items: [
             { text: 'Home', icon: 'home' },
             { text: 'About', icon: 'info' },
-            { text: 'favorites', icon: 'favorites', badge: 'new' }
+            { text: 'Favorites', icon: 'favorites', badge: 'new' }
         ]
     }"></div>
 

@@ -27,14 +27,13 @@ The **MultiView** is a widget that contains several views. An end user navigates
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
     <!--JavaScript-->
-    var multiViewItems = [
-        { text: "Personal Data" },
-        { text: "Contacts" },
-        { text: "Address" }
-    ];
     $(function () {
         $("#multiView").dxMultiView({
-            items: multiViewItems
+            items: [
+                { text: "View 1" },
+                { text: "View 2" },
+                { text: "View 3" }
+            ]
         });
     });
 
@@ -47,11 +46,22 @@ The **MultiView** is a widget that contains several views. An end user navigates
     <dx-multi-view [items]="multiViewItems"></dx-multi-view>
 
     <!--TypeScript-->
+    import { DxMultiViewModule } from 'devextreme-angular';
+    // ...
     export class AppComponent {
         multiViewItems = [
-            // ...   
+            { text: "View 1" },
+            { text: "View 2" },
+            { text: "View 3" }
         ];
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxMultiViewModule
+        ],
+        // ...
+    })
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
@@ -64,7 +74,9 @@ The **MultiView** is a widget that contains several views. An end user navigates
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
             $scope.multiViewItems = [
-                // ...   
+                { text: "View 1" },
+                { text: "View 2" },
+                { text: "View 3" }
             ];
         });
 
@@ -77,7 +89,9 @@ The **MultiView** is a widget that contains several views. An end user navigates
 
     <!--JavaScript-->var viewModel = {
         multiViewItems: [
-            // ...
+            { text: "View 1" },
+            { text: "View 2" },
+            { text: "View 3" }
         ]
     };
     ko.applyBindings(viewModel);
@@ -87,18 +101,18 @@ The **MultiView** is a widget that contains several views. An end user navigates
     <!--Razor C#-->@(Html.DevExtreme().MultiView()
         .ID("multiView")
         .Items(items => {
-            items.Add().Text("Personal Data");
-            items.Add().Text("Contacts");
-            items.Add().Text("Address");
+            items.Add().Text("View 1");
+            items.Add().Text("View 2");
+            items.Add().Text("View 3");
         })
     )
 
     <!--Razor VB-->@(Html.DevExtreme().MultiView() _
         .ID("multiView") _
         .Items(Sub(items)
-            items.Add().Text("Personal Data")
-            items.Add().Text("Contacts")
-            items.Add().Text("Address")
+            items.Add().Text("View 1")
+            items.Add().Text("View 2")
+            items.Add().Text("View 3")
         End Sub)
     )
 

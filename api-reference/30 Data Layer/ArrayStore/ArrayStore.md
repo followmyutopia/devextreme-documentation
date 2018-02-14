@@ -43,7 +43,7 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
         .ID("selectBox")
         .DataSource(ds => ds.Array()
             .Key("id")
-            .Data(new [] {
+            .Data(new[] {
                 new { id = 1, state = "Alabama", capital = "Montgomery" },
                 new { id = 2, state = "Alaska", capital = "Juneau" },
                 new { id = 3, state = "Arizona", capital = "Phoenix" },
