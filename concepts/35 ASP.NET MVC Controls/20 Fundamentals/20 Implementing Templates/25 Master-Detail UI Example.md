@@ -26,7 +26,7 @@ A common use case of templates is the detail section of the [master-detail UI](/
     )
 
     <!--Razor VB-->
-    @Code
+    @Code ' Wrap the widget in Code if you use @<text> inside
         Html.DevExtreme().DataGrid() _
             .DataSource(Function(d) d.WebApi().Controller("DataGridMasterDetailView").Key("ID")) _
             .Columns(Sub(columns)
@@ -50,7 +50,8 @@ A common use case of templates is the detail section of the [master-detail UI](/
                             )
                         </text>
                 End Sub)
-            End Sub)
+            End Sub) _
+            .Render()  ' End the configuration with Render() because it is inside Code
     End Code
 
 Note that the `data.ID` free variable is wrapped in the `new JS()` construction. This construction allows you to embed JavaScript statements in the resulting control configuration. In particular, the data source configuration of the nested **DataGrid** from the preceding code yields the following output.

@@ -25,7 +25,7 @@ Consider the following code example that implements the [master-detail interface
     )
 
     <!--Razor VB-->
-    @Code
+    @Code ' Wrap the widget in Code if you use @<text> inside
         Html.DevExtreme().DataGrid() _
             .DataSource(Function(d) d.WebApi().Controller("Employees").Key("ID")) _
             .Columns(Sub(columns)
@@ -47,7 +47,8 @@ Consider the following code example that implements the [master-detail interface
                             )
                         </text>
                 End Sub)
-            End Sub)
+            End Sub) _
+            .Render() ' End the configuration with Render() because it is inside Code
     End Code
 
 If the control is not in a template and no variables are provided, you can get data for a load parameter using a JavaScript function accessed with the same `new JS()` construct. In the following code, the **DataGrid** control uses the `getDateBoxValue()` function to get a value for the `orderDate` load parameter from the **DateBox** control. The `refreshGrid()` function, which is called each time the **DateBox** value changes, calls the **DataGrid**'s [refresh()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#refresh) method that makes a new load query with the updated load parameter.
