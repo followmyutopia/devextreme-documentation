@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->{ my: 'center', at: 'center', of: window }<!--/default-->
-<!--type-->String | positionConfig<!--/type-->
+<!--type-->String | positionConfig | function()<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
