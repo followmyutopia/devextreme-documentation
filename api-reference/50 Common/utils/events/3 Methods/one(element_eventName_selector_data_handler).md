@@ -4,13 +4,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Attaches an event handler to be executed only once to the specified element.
+Attaches an event handler to be executed only once to the specified elements.
 <!--/shortDescription-->
 
 <!--paramName1-->element<!--/paramName1-->
 <!--paramType1-->Node|Array<Node><!--/paramType1-->
 <!--paramDescription1-->
-An element to which to attach the handler.
+An HTML element or an array of elements to which to attach the handler.
 <!--/paramDescription1-->
 
 <!--paramName2-->eventName<!--/paramName2-->

@@ -4,13 +4,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Detaches an event handler from the specified element.
+Detaches an event handler from the specified elements.
 <!--/shortDescription-->
 
 <!--paramName1-->element<!--/paramName1-->
 <!--paramType1-->Node|Array<Node><!--/paramType1-->
 <!--paramDescription1-->
-An element from which to detach the handler.
+An HTML element or an array of elements from which to detach the handler.
 <!--/paramDescription1-->
 
 <!--paramName2-->eventName<!--/paramName2-->
