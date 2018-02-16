@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Enables state storing.
 <!--/shortDescription-->
 
 <!--fullDescription-->
