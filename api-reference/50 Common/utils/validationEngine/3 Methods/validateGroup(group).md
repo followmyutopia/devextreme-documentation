@@ -27,8 +27,6 @@ A validation group's key can be represented in the following manner.
 - A string name  
  When you use the jQuery approach for validation, a validation group is usually a string because it is the simplest way to unite several widgets in one group - by setting the same group name for the **validationGroup** configuration option of the associated **dxValidator** objects. In this and other similar cases, where you specify a validation group as a string, pass the validation group name as a parameter to the **validateGroup(group)** function.
 
-#include uiwidgets-ref-validate-result
-
 #####See Also#####
 - [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules)
 <!--/fullDescription-->

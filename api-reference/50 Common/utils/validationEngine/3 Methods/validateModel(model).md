@@ -13,7 +13,7 @@ The ViewModel object that has fields extended by the **dxValidator** objects.
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-The validation result.
+The [validation result](/Documentation/ApiReference/UI_Widgets/dxValidationGroup/Validation_Result/).
 <!--/returnDescription-->
 
 <!--fullDescription-->
@@ -35,6 +35,5 @@ To register the rules that are defined within the **dxValidator** objects, call 
 To validate the rules that are defined within the **dxValidator** objects, call the **DevExpress.validationEngine.validateModel(model)** function passing the ViewModel object as a parameter.
 
     <!--JavaScript-->DevExpress.validationEngine.registerModelForValidation(viewModel);
-
-#include uiwidgets-ref-validate-result
+    
 <!--/fullDescription-->

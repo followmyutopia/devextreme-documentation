@@ -11,8 +11,6 @@ The validation result.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-#include uiwidgets-ref-validate-result
-
 #####See Also#####
 #include common-link-callmethods
 <!--/fullDescription-->

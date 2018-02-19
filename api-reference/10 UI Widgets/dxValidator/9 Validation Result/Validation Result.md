@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+A validation result.
 <!--/shortDescription-->
 
 <!--fullDescription-->

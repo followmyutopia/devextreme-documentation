@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+A rule that failed to pass the check.
 <!--/shortDescription-->
 
 <!--fullDescription-->

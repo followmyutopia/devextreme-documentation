@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Validation rules specified for the **Validator**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
