@@ -165,6 +165,12 @@
 
     "dxFilterBuilder": {
       "$Widget": "dxFilterBuilder",
+      "1 Configuration": {
+        "customOperations": {
+            "customOperations.md": "dxFilterBuilder/Options/customOperations",
+            "$Object": "dxFilterBuilderCustomOperation"
+        }
+      },
       "5 Field": {
         "Field.md": "dxFilterBuilderField",
         "$Widget": "dxFilterBuilderField"
