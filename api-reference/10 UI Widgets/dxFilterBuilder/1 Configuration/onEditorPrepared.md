@@ -58,28 +58,33 @@ The editor's name.
 <!--typeFunctionParamDescription1_field8-->
 The data field's name.
 <!--/typeFunctionParamDescription1_field8-->
-<!--typeFunctionParamName1_field9-->updateValueTimeout<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->Number<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamName1_field9-->filterOperation<!--/typeFunctionParamName1_field9-->
+<!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 Gets and sets the delay between when a user stops typing a field value and when it is applied.
 <!--/typeFunctionParamDescription1_field9-->
-<!--typeFunctionParamName1_field10-->width<!--/typeFunctionParamName1_field10-->
+<!--typeFunctionParamName1_field10-->updateValueTimeout<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->Number<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 The editor's width.
 <!--/typeFunctionParamDescription1_field10-->
-<!--typeFunctionParamName1_field11-->readOnly<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->Boolean<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamName1_field11-->width<!--/typeFunctionParamName1_field11-->
+<!--typeFunctionParamType1_field11-->Number<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 Indicates whether the editor is read-only.
 <!--/typeFunctionParamDescription1_field11-->
-<!--typeFunctionParamName1_field12-->disabled<!--/typeFunctionParamName1_field12-->
+<!--typeFunctionParamName1_field12-->readOnly<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->Boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 Indicates whether the editor is disabled.
 <!--/typeFunctionParamDescription1_field12-->
-<!--typeFunctionParamName1_field13-->rtlEnabled<!--/typeFunctionParamName1_field13-->
+<!--typeFunctionParamName1_field13-->disabled<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->Boolean<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
 Indicates whether the editor uses right-to-left representation.
 <!--/typeFunctionParamDescription1_field13-->
+<!--typeFunctionParamName1_field14-->rtlEnabled<!--/typeFunctionParamName1_field14-->
+<!--typeFunctionParamType1_field14-->Boolean<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamDescription1_field14-->
+
+<!--/typeFunctionParamDescription1_field14-->
