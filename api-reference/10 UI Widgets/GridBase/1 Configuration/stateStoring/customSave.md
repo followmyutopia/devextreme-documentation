@@ -121,5 +121,5 @@ In the following code, the state is saved and loaded from a remote storage:
 <!--typeFunctionParamName1-->gridState<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The current **{WidgetName}** state.
+The current widget state.
 <!--/typeFunctionParamDescription1-->

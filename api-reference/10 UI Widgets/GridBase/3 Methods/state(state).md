@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Sets the **{WidgetName}** state.
+Sets the widget state.
 <!--/shortDescription-->
 
 <!--paramName1-->state<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The **{WidgetName}** state to be set.
+The widget state to be set.
 <!--/paramDescription1-->
 
 <!--fullDescription-->

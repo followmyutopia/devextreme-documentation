@@ -11,5 +11,5 @@ Use the **customSave** and **customLoad** functions to manually implement state 
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->Promise<Object><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A **{WidgetName}** state. As a rule, it is a state that you save within the [customSave]({basewidgetpath}/Configuration/stateStoring/#customSave) function.
+The widget state. As a rule, it is a state that you save within the [customSave]({basewidgetpath}/Configuration/stateStoring/#customSave) function.
 <!--/typeFunctionReturnDescription-->

@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the key for storing the **{WidgetName}** state.
+Specifies the key for storing the widget state.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the current **{WidgetName}** state.
+Gets the current widget state.
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-The current **{WidgetName}** state.
+The current widget state.
 <!--/returnDescription-->
 
 <!--fullDescription-->
