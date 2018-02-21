@@ -86,8 +86,6 @@ The value axis supports auto-calculated scale breaks, which can be enabled by se
 
 ---
 
-[note]Value axes do not support scale breaks in a [multi-axis chart](/Documentation/Guide/Widgets/Chart/Axes/Multi-Axis_Chart/).
-
 #####See Also#####
 - [Strips](/Documentation/Guide/Widgets/Chart/Strips/)
 - [Constant Lines](/Documentation/Guide/Widgets/Chart/Constant_Lines/)

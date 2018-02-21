@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Enables auto-calculated scale breaks. Applies only if the axis' [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type) is *"continuous"* or *"logarithmic"*. Does not apply to a multi-axis chart.
+Enables auto-calculated scale breaks. Applies only if the axis' [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#type) is *"continuous"* or *"logarithmic"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
