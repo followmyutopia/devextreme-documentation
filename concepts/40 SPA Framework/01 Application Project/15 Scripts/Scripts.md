@@ -15,7 +15,7 @@ DevExteme does not require the following libraries to be referenced in your appl
     3. Non-USD currency [formatting](/Documentation/ApiReference/Common/Object_Structures/format/)
     4. Custom date and number [formatting](/Documentation/ApiReference/Common/Object_Structures/format/)
 
- To learn more about how to use the globalize library, refer the [Localization](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) topic.
+ To learn more about how to use the Globalize library, refer the [Localization Using Globalize](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries/Using_Globalize) topic.
 
 - JSZIP library
 

@@ -9,6 +9,6 @@ You need to reference [Globalize](https://github.com/jquery/globalize/releases) 
 3. Non-USD currency [formatting](/Documentation/ApiReference/Common/Object_Structures/format/)
 4. Custom date and number [formatting](/Documentation/ApiReference/Common/Object_Structures/format/)
 
-To learn more about how to use the globalize library refer the [Localization](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) topic.
+To learn more about how to use the Globalize library refer the [Localization Using Globalize](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries/Using_Globalize) topic.
 
 You can use **any familiar code editor** (e.g., **Sublime Text**) to develop DevExtreme applications, or you can use Visual Studio. In this instance, project templates, a design-time environment, a device simulator and wizards for easy application packaging are all available to you.

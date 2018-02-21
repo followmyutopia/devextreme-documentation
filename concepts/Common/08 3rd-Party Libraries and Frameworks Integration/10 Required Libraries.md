@@ -9,7 +9,7 @@ Certain DevExtreme functionality also requires [Globalize](https://github.com/jq
 
 The currently supported version of Globalize is version 1.x. 
 
- To learn more about how to use the globalize library, refer the [Localization](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) topic.
+ To learn more about how to use the Globalize library, refer the [Localization Using Globalize](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries/Using_Globalize) topic.
 
 You can also load these libraries from a Content Delivery Network (CDN).
 

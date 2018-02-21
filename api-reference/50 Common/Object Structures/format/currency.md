@@ -7,7 +7,7 @@ Specifies the currency code. Applies only if [type](/Documentation/ApiReference/
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]Reference Globalize or Intl if you specify a currency code other than "USD".
+[note] [Reference Globalize or Intl](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries) if you specify a currency code other than "USD".
 
 This option accepts a 3-letter code specified by [ISO 4217](http://www.currency-iso.org/en/home/tables/table-a1.html) for each currency. If you use Intl, just assign the code to this option. If you use Globalize, do the following: 
 
@@ -19,6 +19,5 @@ Alternatively, you can assign *"default"* to this option, in which case, the [gl
 
 #####See Also#####
 - **format**.[precision](/Documentation/ApiReference/Common/Object_Structures/format/#precision)
-- [Localization - Using Globalize](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/)
-- [Localization - Using Intl](https://github.com/DevExpress/DevExtreme-Intl#devextreme-intl)
+- [Localization](/Documentation/Guide/Common/Localization/)
 <!--/fullDescription-->

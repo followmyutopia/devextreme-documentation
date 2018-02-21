@@ -25,6 +25,6 @@ Take a look below for an example of links in code.
 
 [note]Dictionary scripts must be linked in the same order as those presented in the example above. DevExtreme scripts must be linked above dictionary scripts.
 
-If you are using Globalize, refer to the [Localization - Use Globalize](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) article to learn how to link Globalize modules.
+If you are using Globalize, refer to the [Localization Using Globalize](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries/Using_Globalize) article to learn how to link Globalize modules.
 
 For the information on linking modules required for Intl localization, refer to [Intl](https://github.com/DevExpress/DevExtreme-Intl) documentation.

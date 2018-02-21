@@ -54,11 +54,7 @@ Static messages for any DevExtreme widget are defined in a locale-specific dicti
 
 ---
 
-[note] DevExtreme ships several predefined dictionaries for most widespread locales. For details, see the [Use Predefined Dictionaries](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization/#Use_Predefined_Dictionaries) topic. 
-
-#####See Also#####
-- [Localization](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization/)
-- [Localization - Use Globalize](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) 
+[note] DevExtreme ships several predefined dictionaries for most widespread locales. For details, see the [Localization](/Documentation/Guide/Common/Localization/) topic. 
 
 Some messages can be defined by **List** options as well as by keys. The following table draws the correspondence between options and keys that define the same messages. Note that the options always take precedence over the keys.
 

@@ -8,7 +8,7 @@ The default currency. Accepts a 3-letter code specified by [ISO 4217](https://ww
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]Reference Globalize or Intl if you specify a currency other than "USD".
+[note] [Reference Globalize or Intl](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries) if you specify a currency other than "USD".
 
 If you use Intl, just assign the currency code to this field.
 
@@ -22,6 +22,5 @@ If you use Globalize, do the following:
     <!--JavaScript-->DevExpress.config({ defaultCurrency: 'EUR' });
 
 #####See Also#####
-- [Localization - Using Globalize](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/)
-- [Localization - Using Intl](https://github.com/DevExpress/DevExtreme-Intl#devextreme-intl)
+- [Localization](/Documentation/Guide/Common/Localization/)
 <!--/fullDescription-->

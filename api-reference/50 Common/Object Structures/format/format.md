@@ -143,7 +143,7 @@ This option accepts three types of values:
     </table>
     </div> 
 
- [note] [Reference the Globalize library](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize/) within your application to use other [numeric](http://unicode.org/reports/tr35/tr35-numbers.html#Special_Pattern_Characters) or [datetime](http://unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table) format characters.
+ [note] [Reference the Globalize library](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries/Using_Globalize) in your application to use other [numeric](http://unicode.org/reports/tr35/tr35-numbers.html#Special_Pattern_Characters) or [datetime](http://unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table) format characters.
 
 * **Function**  
  Specifies a custom format. A shortcut for the [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) option.
@@ -165,20 +165,15 @@ This option accepts three types of values:
             parser: Function // a parsing function for string values
         }
 
- If you use the [devextreme-intl](https://github.com/DevExpress/DevExtreme-Intl#devextreme-intl) module, you can specify the Intl [NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat#Parameters)'s and [DateTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat#Parameters)'s `options` parameter fields:    
+ If you [use Devextreme-Intl](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries/Using_Intl), you can specify the Intl [NumberFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat#Parameters)'s and [DateTimeFormat](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat#Parameters)'s `options` parameter fields:    
 
         format: { year: "2-digit", month: "narrow", day: "2-digit" }
         === or ===
         format: { style: "currency", currency: "EUR", useGrouping: true }
 
- If you [use Globalize](/Documentation/Guide/Widgets/Common/UI_Widgets/Localization_-_Use_Globalize), you can use the fields Globalize formatters accept instead of the fields described in this section. For example, you can use skeletons to format dates. Note that this approach might require additional [CLDR modules](https://github.com/jquery/globalize/blob/master/README.md#2-cldr-content) not shipped with the DevExtreme package.
+ If you [use Globalize](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries/Using_Globalize), you can use the fields accepted by [numberFormatter](https://github.com/jquery/globalize/blob/master/doc/api/number/number-formatter.md), [currencyFormatter](https://github.com/jquery/globalize/blob/master/doc/api/currency/currency-formatter.md), and [dateFormatter](https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md) instead of the fields described in this section. For example, you can use skeletons to format dates. Note that this approach might require additional [CLDR modules](https://github.com/jquery/globalize/blob/master/README.md#2-cldr-content) not shipped with the DevExtreme package.
 
         format: { skeleton: 'GyMMMd' }
-
- #####See Also#####
- - [Globalize - numberFormatter](https://github.com/jquery/globalize/blob/master/doc/api/number/number-formatter.md)
- - [Globalize - currencyFormatter](https://github.com/jquery/globalize/blob/master/doc/api/currency/currency-formatter.md)
- - [Globalize - dateFormatter](https://github.com/jquery/globalize/blob/master/doc/api/date/date-formatter.md)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/jQuery/Light/"
