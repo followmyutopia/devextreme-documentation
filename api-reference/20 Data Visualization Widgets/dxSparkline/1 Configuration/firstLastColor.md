@@ -8,13 +8,7 @@ Sets a color for the boundary of both the first and last points on a sparkline.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option supports the following colors.
-
-* Hexadecimal colors
-* RGB colors
-* RGBA colors
-* Predefined/cross-browser color names
-* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+#include common-colorlist
 
 Make sure that the [showFirstLast](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#showFirstLast) option is set to **true**, so that this option takes effect.
 

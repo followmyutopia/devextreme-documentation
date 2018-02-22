@@ -9,11 +9,5 @@ Specifies a font color for the text displayed by the indicator.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option supports the following colors.
-
-- Hexadecimal colors
-- RGB colors
-- RGBA colors
-- Predefined/Cross-browser color names
-- [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+#include common-colorlist
 <!--/fullDescription-->

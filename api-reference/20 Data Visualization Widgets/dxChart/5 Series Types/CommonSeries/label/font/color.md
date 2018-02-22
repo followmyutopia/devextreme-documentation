@@ -8,13 +8,7 @@ Specifies a font color for point labels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option supports the following colors.
-
-* Hexadecimal colors
-* RGB colors
-* RGBA colors
-* Predefined/cross-browser color names
-* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+#include common-colorlist
 
 [note]To color the background of point labels, use the **label**.**backgroundColor** option.
 <!--/fullDescription-->

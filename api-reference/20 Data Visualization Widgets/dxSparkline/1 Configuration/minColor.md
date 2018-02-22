@@ -8,13 +8,7 @@ Sets a color for the boundary of the minimum point on a sparkline.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option supports the following colors.
-
-* Hexadecimal colors
-* RGB colors
-* RGBA colors
-* Predefined/cross-browser color names
-* [Predefined SVG colors](http://www.w3.org/TR/SVG/types.html#ColorKeywords)
+#include common-colorlist
 
 Make sure that the [showMinMax](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/#showMinMax) option is set to **true**, so that this option takes effect.
 
