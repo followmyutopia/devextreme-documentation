@@ -162,7 +162,7 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
         });
     });
 
-You can also customize an individual view or tab. For this purpose, declare a template for this view or tab as a script and pass its `id` to the [template](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#template) or [tabTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#tabTemplate) option, respectively.
+You can also customize an individual view or tab. For this purpose, declare a template for this view or tab as a script and pass an appropriate [selector](http://api.jquery.com/category/selectors/) to the [template](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#template) or [tabTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/#tabTemplate) option, respectively.
 
     <!--HTML-->
     <script id="individualViewTemplate" type="text/html">
