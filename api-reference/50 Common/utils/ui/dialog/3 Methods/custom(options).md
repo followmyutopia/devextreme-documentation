@@ -27,6 +27,11 @@ The dialog's message.
 <!--paramDescription1_field3-->
 Options for buttons to be displayed in the dialog.
 <!--/paramDescription1_field3-->
+<!--paramName1_field4-->showTitle<!--/paramName1_field4-->
+<!--paramType1_field4-->Boolean<!--/paramType1_field4-->
+<!--paramDescription1_field4-->
+
+<!--/paramDescription1_field4-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
