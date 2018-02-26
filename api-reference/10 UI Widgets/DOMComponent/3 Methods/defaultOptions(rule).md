@@ -13,7 +13,7 @@ The component's default device options.
 <!--paramName1_field1-->device<!--/paramName1_field1-->
 <!--paramType1_field1-->Object|Array<Object>|function()<!--/paramType1_field1-->
 <!--paramDescription1_field1-->
-Device parameters.      
+[Device parameters](/Documentation/ApiReference/Common/Object_Structures/device/).      
 When specifying a function, get information about the current device from the argument. Return **true** if the options should be applied to the device. 
 <!--/paramDescription1_field1-->
 <!--paramName1_field2-->options<!--/paramName1_field2-->
@@ -23,13 +23,35 @@ Options to be applied.
 <!--/paramDescription1_field2-->
 
 <!--fullDescription-->
-The **defaultOptions** method is a static method supported by the widget class. The following code demonstrates how to specify default options for all buttons in the application executed on the iOS platform.
+The **defaultOptions** method is a static method supported by the widget class. The following code demonstrates how to specify default options for all instances of the **{WidgetName}** widget in an application executed on the desktop.
+
+---
+#####jQuery
 
     <!--JavaScript-->
-    DevExpress.ui.dxButton.defaultOptions({ 
-        device: { platform: "ios" },
+    DevExpress.ui.dx{WidgetName}.defaultOptions({ 
+        device: { deviceType: "desktop" },
         options: {
-            text: "Click me"
+            // Here go the {WidgetName} options
         }
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    import {WidgetName} from 'devextreme/ui/{widget_name}';
+    // ...
+    export class AppComponent {
+        constructor () {
+            var {widgetName}: any = {WidgetName};
+            {widgetName}.defaultOptions({
+                device: { deviceType: "desktop" },
+                options: {
+                    // Here go the {WidgetName} options
+                }
+            });
+        }
+    }
+
+---
 <!--/fullDescription-->
