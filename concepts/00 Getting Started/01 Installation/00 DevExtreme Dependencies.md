@@ -14,6 +14,8 @@ Needed to support the [client-side exporting feature](/Documentation/Guide/Widge
 - **Webpack** version 1.13+ (available [via npm](/Documentation/Guide/Getting_Started/Installation/npm_Package) only)        
 Allows you to create your own [DevExtreme modules](/Documentation/Guide/Common/Modularity/) that include only what you need.
 
+DevExtreme ASP.NET MVC Controls have additional dependencies that are detailed in the [Prerequisites and Installation](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/) topic.
+
 #####See Also#####
 - [Local Scripts](/Documentation/Guide/Getting_Started/Installation/Local_Scripts)
 - [CDN Services](/Documentation/Guide/Getting_Started/Installation/CDN_Services)
