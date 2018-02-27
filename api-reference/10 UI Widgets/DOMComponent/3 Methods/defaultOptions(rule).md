@@ -43,8 +43,7 @@ The **defaultOptions** method is a static method supported by the widget class. 
     // ...
     export class AppComponent {
         constructor () {
-            var {widgetName}: any = {WidgetName};
-            {widgetName}.defaultOptions({
+            {WidgetName}.defaultOptions({
                 device: { deviceType: "desktop" },
                 options: {
                     // Here go the {WidgetName} options
