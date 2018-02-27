@@ -30,7 +30,7 @@ Options for buttons to be displayed in the dialog.
 <!--paramName1_field4-->showTitle<!--/paramName1_field4-->
 <!--paramType1_field4-->Boolean<!--/paramType1_field4-->
 <!--paramDescription1_field4-->
-
+Specifies whether to show the title.
 <!--/paramDescription1_field4-->
 
 <!--returnType-->Object<!--/returnType-->
