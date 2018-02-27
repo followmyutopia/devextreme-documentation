@@ -1,6 +1,6 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--acceptValues-->'=' | '<>' | '<' | '<=' | '>' | '>=' | 'notcontains' | 'contains' | 'startswith' | 'endswith' | 'isblank' | 'isnotblank'<!--/acceptValues-->
+<!--acceptValues-->'=' | '<>' | '<' | '<=' | '>' | '>=' | 'contains' | 'endswith' | 'isblank' | 'isnotblank' | 'notcontains' | 'startswith'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

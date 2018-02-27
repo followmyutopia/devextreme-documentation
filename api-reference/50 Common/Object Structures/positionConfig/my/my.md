@@ -1,6 +1,6 @@
 ===========================================================================
 <!--acceptValues-->'bottom' | 'center' | 'left' | 'left bottom' | 'left top' | 'right' | 'right bottom' | 'right top' | 'top'<!--/acceptValues-->
-<!--type-->Object | String<!--/type-->
+<!--type-->String | Object<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

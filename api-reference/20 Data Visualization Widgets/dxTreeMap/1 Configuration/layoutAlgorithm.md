@@ -1,7 +1,7 @@
 ===========================================================================
 <!--default-->'squarified'<!--/default-->
 <!--acceptValues-->'sliceanddice' | 'squarified' | 'strip'<!--/acceptValues-->
-<!--type-->function(e) | String<!--/type-->
+<!--type-->String | function(e)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

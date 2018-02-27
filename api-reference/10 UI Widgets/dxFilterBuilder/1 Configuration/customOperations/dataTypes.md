@@ -1,6 +1,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->Array<Enums.FilterBuilderFieldDataType><!--/type-->
+<!--acceptValues-->'string' | 'number' | 'date' | 'boolean' | 'object' | 'datetime'<!--/acceptValues-->
+<!--type-->Array<String><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

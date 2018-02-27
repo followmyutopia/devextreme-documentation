@@ -1,7 +1,7 @@
 ===========================================================================
 <!--default-->'bottom'<!--/default-->
 <!--acceptValues-->'bottom' | 'left' | 'right' | 'top'<!--/acceptValues-->
-<!--type-->positionConfig | String<!--/type-->
+<!--type-->String | positionConfig<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
