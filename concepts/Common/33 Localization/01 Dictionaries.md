@@ -12,7 +12,7 @@ The community contributed and is curating the following dictionaries:
 - Finnish (fi)
 - French (fr)
 - Italian (it)
-- Portuguese (pt)
+- Brazilian Portuguese (pt)
 - Spanish (es)
 - Swedish (sv)
 
