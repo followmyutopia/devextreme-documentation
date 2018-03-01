@@ -3,17 +3,13 @@ The template implementation depends on the used framework or library. Examples o
 ---
 ##### jQuery 
 
-    <!--HTML-->
-    <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
-    <div id="popoverContainer"></div>
-
     <!--JavaScript-->$(function() {
-        $("#popoverContainer").dxPopover({
+        $("#tooltipContainer").dxTooltip({
             target: "#image",
             showEvent: 'dxhoverstart',
             contentTemplate: function (contentElement) {
                 contentElement.append(
-                    $("<p />").text("Static Content"),
+                    $("<p />").text("Static content"),
                     $("<div />").attr("id", "switchContainer").dxSwitch({
                         // The "Switch" widget is configured here
                     })
@@ -22,24 +18,28 @@ The template implementation depends on the used framework or library. Examples o
         });
     });
 
+    <!--HTML-->
+    <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
+    <div id="tooltipContainer"></div>
+
 ##### Angular
 
     <!--HTML-->
     <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
-    <dx-popover
+    <dx-tooltip
         target="#image"
         showEvent="dxhoverstart"
-        contentTemplate="popoverContent">
-        <div *dxTemplate="let data of 'popoverContent'">
+        contentTemplate="tooltipContent">
+        <div *dxTemplate="let data of 'tooltipContent'">
             <p>Static content</p>
             <dx-switch>
                 <!-- The "Switch" widget is configured here -->
             </dx-switch>
         </div>
-    </dx-popover>
+    </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxSwitchModule } from 'devextreme-angular';
+    import { DxTooltipModule, DxSwitchModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -47,7 +47,7 @@ The template implementation depends on the used framework or library. Examples o
     @NgModule({
         imports: [
             // ...
-            DxPopoverModule,
+            DxTooltipModule,
             DxSwitchModule
         ],
         // ...
@@ -56,7 +56,7 @@ The template implementation depends on the used framework or library. Examples o
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->
-    @(Html.DevExtreme().Popover()
+    @(Html.DevExtreme().Tooltip()
         .Target("#image")
         .ShowEvent("dxhoverstart")
         .ContentTemplate(@<text>

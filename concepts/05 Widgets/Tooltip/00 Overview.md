@@ -6,18 +6,65 @@ The **Tooltip** widget displays a tooltip for a specified element on the page.
 
 The following code creates a simple **Tooltip** on your page and attaches it to another element (in this example, to an image).
 
+---
+##### jQuery
+
     <!--HTML--><img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
-    <div id="tooltipContainer">
-        <p>Tooltip content</p>
-    </div>
+    <div id="tooltipContainer"></div>
 
     <!--JavaScript-->$(function() {
         $("#tooltipContainer").dxTooltip({
             target: "#image",
             showEvent: 'dxhoverstart',
-            hideEvent: 'dxhoverend'
+            hideEvent: 'dxhoverend',
+            contentTemplate: function (contentElement) {
+                contentElement.append(
+                    $("<p />").text("Tooltip content")
+                )
+            }
         });
     });
+
+##### Angular
+
+    <!--HTML--><img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
+    <dx-tooltip
+        target="#image"
+        showEvent="dxhoverstart"
+        hideEvent="dxhoverend">
+        <div *dxTemplate="let data of 'content'">
+            <p>Tooltip content</p>
+        </div>
+    </dx-tooltip>
+
+    <!--TypeScript-->
+    import { DxTooltipModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTooltipModule
+        ],
+        // ...
+    })
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().Tooltip()
+        .Target("#image")
+        .ShowEvent("dxhoverstart")
+        .HideEvent("dxhoverend")
+        .ContentTemplate(@<text>
+            <p>Tooltip content</p>
+        </text>)
+    )
+    <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
+
+---
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)

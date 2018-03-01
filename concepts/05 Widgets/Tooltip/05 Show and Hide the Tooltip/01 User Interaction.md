@@ -1,4 +1,4 @@
-To change the size of the **Tooltip**, specify the [height](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#height) and [width](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#width) options. Note that the **Tooltip**'s arrow takes its share of the overall size.
+To specify when the **Tooltip** should be shown and hidden, set the [showEvent](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/showEvent/) and [hideEvent](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/hideEvent/) options. These options can accept several events at once as well as an object.
 
 ---
 ##### jQuery 
@@ -8,8 +8,6 @@ To change the size of the **Tooltip**, specify the [height](/Documentation/ApiRe
             target: "#image",
             showEvent: 'dxhoverstart',
             hideEvent: 'dxhoverend',
-            height: 70,
-            width: 200,
             contentTemplate: function (contentElement) {
                 contentElement.append(
                     $("<p />").text("Tooltip content")
@@ -18,10 +16,8 @@ To change the size of the **Tooltip**, specify the [height](/Documentation/ApiRe
         });
     });
 
-    <!--HTML-->
-    <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
+    <!--HTML--><img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
     <div id="tooltipContainer"></div>
-
 
 ##### Angular
 
@@ -30,9 +26,7 @@ To change the size of the **Tooltip**, specify the [height](/Documentation/ApiRe
     <dx-tooltip
         target="#image"
         showEvent="dxhoverstart"
-        hideEvent="dxhoverend"
-        [height]="70"
-        [width]="200">
+        hideEvent="dxhoverend">
         <div *dxTemplate="let data of 'content'">
             <p>Tooltip content</p>
         </div>
@@ -62,14 +56,12 @@ To change the size of the **Tooltip**, specify the [height](/Documentation/ApiRe
         .ContentTemplate(@<text>
             <p>Tooltip content</p>
         </text>)
-        .Height(70)
-        .Width(200)
     )
     <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
 
 ---
 
-If you need to position the **Tooltip** against a certain side of the [target element](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#target), set the [position](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#position) option.
+The **Tooltip** can also be hidden when a user clicks outside it or presses the **Back** button on the device. To control this behavior of the **Tooltip**, use the [closeOnBackButton](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#closeOnBackButton) and [closeOnOutsideClick](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#closeOnOutsideClick) options.
 
 ---
 ##### jQuery 
@@ -79,7 +71,8 @@ If you need to position the **Tooltip** against a certain side of the [target el
             target: "#image",
             showEvent: 'dxhoverstart',
             hideEvent: 'dxhoverend',
-            position: "top", // or "bottom" | "left" | "right"
+            closeOnBackButton: false,
+            closeOnOutsideClick: false,
             contentTemplate: function (contentElement) {
                 contentElement.append(
                     $("<p />").text("Tooltip content")
@@ -88,8 +81,7 @@ If you need to position the **Tooltip** against a certain side of the [target el
         });
     });
 
-    <!--HTML-->
-    <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
+    <!--HTML--><img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
     <div id="tooltipContainer"></div>
 
 ##### Angular
@@ -100,7 +92,8 @@ If you need to position the **Tooltip** against a certain side of the [target el
         target="#image"
         showEvent="dxhoverstart"
         hideEvent="dxhoverend"
-        position="top"> <!-- or "bottom" | "left" | "right" -->
+        [closeOnBackButton]="false"
+        [closeOnOutsideClick]="false">
         <div *dxTemplate="let data of 'content'">
             <p>Tooltip content</p>
         </div>
@@ -130,15 +123,9 @@ If you need to position the **Tooltip** against a certain side of the [target el
         .ContentTemplate(@<text>
             <p>Tooltip content</p>
         </text>)
-        .Position(Position.Top) // or Position.Bottom | Position.Left | Position.Right
+        .CloseOnOutsideClick(false)
+        .CloseOnBackButton(false)
     )
     <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
 
 ---
-
-#####See Also#####
-- [Tooltip - Customize the Content](/Documentation/Guide/Widgets/Tooltip/Customize_the_Content/)
-- [Tooltip Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-tooltip-overview)
-- [Tooltip API Reference](/Documentation/ApiReference/UI_Widgets/dxTooltip/)
-
-[tags]tooltip, overlay, template, size, height, width, position

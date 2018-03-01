@@ -2,11 +2,16 @@
 
 To show or hide the **Tooltip** programmatically, call the [show()](/Documentation/ApiReference/UI_Widgets/dxTooltip/Methods/#show) or [hide()](/Documentation/ApiReference/UI_Widgets/dxTooltip/Methods/#hide) method. The same thing can be done using the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxTooltip/Methods/#toggleshowing) method. Pass **true** or **false** to this method to show or hide the **Tooltip**, respectively.
 
+---
+##### jQuery 
+
     <!--JavaScript-->$(function() {
 		$("#tooltipContainer").dxTooltip({
             target: "#image",
-            contentTemplate: function () {
-                return $("<p />").text("Tooltip content");
+            contentTemplate: function (contentElement) {
+                contentElement.append(
+                    $("<p />").text("Tooltip content")
+                )
             }
         });
 
@@ -29,7 +34,55 @@ To show or hide the **Tooltip** programmatically, call the [show()](/Documentati
         });
     });
 
+    <!--HTML--><img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
+    <div id="tooltipContainer"></div>
+    <div id="showButton"></div>
+    <div id="hideButton"></div>
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().Tooltip()
+        .ID("tooltip")
+        .Target("#image")
+        .ContentTemplate(@<text>
+            <p>Tooltip content</p>
+        </text>)
+    )
+    <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
+
+    @(Html.DevExtreme().Button()
+        .ID("showButton")
+        .Text("Show the Tooltip")
+        .OnClick("showTooltip")
+    )
+
+    @(Html.DevExtreme().Button()
+        .ID("hideButton")
+        .Text("Hide the Tooltip")
+        .OnClick("hideTooltip")
+    )
+
+    <script type="text/javascript">
+        function showTooltip () {
+            $("#tooltip").dxTooltip("show");
+            // ===== or =====
+            $("#tooltip").dxTooltip("toggle", true);
+        }
+
+        function hideTooltip () {
+            $("#tooltip").dxTooltip("hide");
+            // ===== or =====
+            $("#tooltip").dxTooltip("toggle", false);
+        } 
+    </script>
+
+---
+
 The **show()** method called without arguments shows the **Tooltip** for the [target specified beforehand](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#target). If you need to change the target once, call the [show(target)](/Documentation/ApiReference/UI_Widgets/dxTooltip/Methods/#showtarget) method.
+
+---
+##### jQuery 
 
     <!--JavaScript-->$(function() {
         // ...
@@ -41,9 +94,57 @@ The **show()** method called without arguments shows the **Tooltip** for the [ta
         });
     });
 
-With AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#visible) property of the **Tooltip** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **Tooltip** will appear or disappear.
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    // ...
+
+    <script type="text/javascript">
+        function showTooltip () {
+            $("#tooltip").dxTooltip("show", "#newTarget");
+        }
+        // ...
+    </script>
 
 ---
+
+With Angular, AngularJS, or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxTooltip/Configuration/#visible) property of the **Tooltip** widget to a component property (in Angular), a scope property (in AngularJS) or an observable variable (in Knockout). After that, change them, and the **Tooltip** will appear or disappear.
+
+---
+##### Angular
+
+    <!--HTML-->
+    <img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
+    <dx-tooltip
+        target="#image"
+        [visible]="isTooltipVisible">
+        <div *dxTemplate="let data of 'content'">
+            <p>Tooltip content</p>
+        </div>
+    </dx-tooltip>
+    <dx-button
+        text="Show the Tooltip"
+        (onClick)="isTooltipVisible = true">
+    </dx-button>
+    <dx-button
+        text="Hide the Tooltip"
+        (onClick)="isTooltipVisible = false">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxTooltipModule, DxButtonModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        isTooltipVisible: boolean = false;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTooltipModule
+        ],
+        // ...
+    })
+
 #####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
