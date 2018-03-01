@@ -4,15 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the form item name.
+Specifies a name that identifies the form item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use this option if you need to create a form item without binding it to a formData field. You can use the item name to identify this form item when calling any of the following methods.
-
-- [getEditor(field)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#getEditorfield)  
-- [itemOption(field, option, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionfield_option_value)  
-- [itemOption(field, options)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionfield_options)  
-- [updateData(data)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadata)  
-- [updateData(dataField, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadataField_value)  
+Use the name instead of the data field to access [unbound simple items](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/#Create_an_Unbound_Simple_Item) in methods like [getEditor(field)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#getEditorfield), [itemOption(field)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionfield), etc.
 <!--/fullDescription-->
