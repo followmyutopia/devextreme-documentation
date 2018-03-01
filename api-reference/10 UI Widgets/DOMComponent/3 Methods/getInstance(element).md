@@ -17,5 +17,18 @@ The widget's instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->
+The following code gets the **{WidgetName}** instance found in an element with ID `my{WidgetName}`:
 
+    // Modular approach
+    import {WidgetName} from 'devextreme/ui/{widget_name}';
+    ...
+    let element = document.getElementById("my{WidgetName}");
+    let instance = {WidgetName}.getInstance(element);
+    
+    // Non-modular approach
+    let element = document.getElementById("my{WidgetName}");
+    let instance = DevExpress.ui.dx{WidgetName}.getInstance(element);
+
+#####See Also#####
+- [3rd-Party Frameworks Integration API](/Documentation/Guide/Widgets/Common/Advanced/3rd-Party_Frameworks_Integration_API/)
 <!--/fullDescription-->
