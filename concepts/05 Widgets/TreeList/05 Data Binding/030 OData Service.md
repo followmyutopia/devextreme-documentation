@@ -1,4 +1,4 @@
-Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind the **TreeList** to data an OData service supplies. It provides an interface for loading and editing data, and allows you to handle data-related events.
+Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind the **TreeList** to data an OData service supplies. It provides an interface for loading and editing data and allows you to handle data-related events.
 
 ---
 ##### jQuery
@@ -92,6 +92,8 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
     </dx-tree-list>
 
 ---
+
+[note] Setting the **ODataStore**'s **deserializeDates** option to **false** may cause filtering issues in the **TreeList**. See this option's [description](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#deserializeDates) for details.
 
 #####See Also#####
 - [Data Layer - Data Source Examples | OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)

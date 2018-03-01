@@ -1,4 +1,4 @@
-To bind the **Scheduler** to data provided by an OData service, use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/). It presents an interface for loading and editing data and allows you to handle data-related events.
+Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind the **Scheduler** to data an OData service provides. It presents an interface for loading and editing data and allows you to handle data-related events.
 
 ---
 ##### jQuery
@@ -43,7 +43,7 @@ To bind the **Scheduler** to data provided by an OData service, use the [ODataSt
 
 ---
 
-Data kept in the **ODataStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). For example, the **DataSource** can filter data.
+Data kept in the **ODataStore** can be processed in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). For example, the **DataSource** can filter data as shown in the following code. Note that the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option is set **false** to prevent data from being partitioned because the **Scheduler** does not support paging.
 
 ---
 ##### jQuery
@@ -93,7 +93,7 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 
 ---
 
-[note]If you define the **ODataStore** within the **DataSource**, set the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to **false**. This is needed to prevent data from being partitioned as the **Scheduler** does not support paging.
+[note] Setting the **ODataStore**'s **deserializeDates** option to **false** may cause filtering issues in the **Scheduler**. See this option's [description](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#deserializeDates) for details.
 
 #####See Also#####
 - [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores)

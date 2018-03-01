@@ -1,4 +1,4 @@
-Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind the **DataGrid** to data an OData service supplies. It provides an interface for loading and editing data, and allows you to handle data-related events.
+Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind the **DataGrid** to data an OData service supplies. It provides an interface for loading and editing data and allows you to handle data-related events.
 
 ---
 
@@ -96,7 +96,9 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 
 ---
 
-Note that using the features listed below with the **ODataStore** may cause a significant delay, because they initiate data loading for all pages.
+[note] Setting the **ODataStore**'s **deserializeDates** option to **false** may cause filtering issues in the **DataGrid**. See this option's [description](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#deserializeDates) for details.
+
+Using the following features with the **ODataStore** may decrease the performance because they initiate data loading for all pages:
 
 - [summary calculation](/Documentation/Guide/Widgets/DataGrid/Summaries/)
 - [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) with the [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option set to **false**
