@@ -41,6 +41,7 @@ If you need to render different templates depending on a specific condition, def
 
     <!--HTML--><img id="image" src="https://www.devexpress.com/DXR.axd?r=9999_17-FD0Id" />
     <dx-button
+        id="buttonContainer"
         text="Change the Template"
         (onClick)="changeTemplate()">
     </dx-button>
