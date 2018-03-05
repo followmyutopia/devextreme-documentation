@@ -6,6 +6,9 @@ If the **TreeView** performance is low, consider enabling the Virtual Mode. In t
 
 To enable the Virtual Mode, set the [virtualModeEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#virtualModeEnabled) option to **true**.
 
+---
+##### jQuery
+
     <!--JavaScript-->var plainData = [
         { id: 1,  text: 'Fruits',     parentId: -1 },
         { id: 11, text: 'Apples',     parentId: 1, hasItems: false },
@@ -24,24 +27,100 @@ To enable the Virtual Mode, set the [virtualModeEnabled](/Documentation/ApiRefer
         });
     });
 
+##### Angular
+
+    <!--HTML--><dx-tree-view
+        [dataSource]="plainData"
+        dataStructure="plain"
+        [virtualModeEnabled]="true"
+        [rootValue]="-1">
+    </dx-tree-view>
+
+    <!--TypeScript-->
+    import { DxTreeViewModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        plainData = [
+            { id: 1,  text: 'Fruits',     parentId: -1 },
+            { id: 11, text: 'Apples',     parentId: 1, hasItems: false },
+            { id: 12, text: 'Oranges',    parentId: 1, hasItems: false },
+            { id: 2,  text: 'Vegetables', parentId: -1 },
+            { id: 21, text: 'Cucumbers',  parentId: 2, hasItems: false },
+            { id: 22, text: 'Tomatoes',   parentId: 2, hasItems: false }
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeViewModule
+        ],
+        // ...
+    })
+
+---
+
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Tree_View/VirtualMode/jQuery/Light/"
 }
 
 If the Virtual Mode does not meet your requirements, you can get full control over nodes and how to load them in the [createChildren](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#createChildren) function. This function will be called at the beginning of the widget's lifetime and each time a user expands a node whose child nodes have not been loaded yet.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
         $("#treeViewContainer").dxTreeView({
             createChildren: function (parentNode) {
                 var d = $.Deferred();
-                $.get("http://url/to/the/service", parentNode).done(function (result) {
-                    d.resolve(result);
-                });
+                $.get("http://url/to/the/service", {
+                        parentId: parentNode ? JSON.stringify(parentNode.key) : "0"
+                    })
+                    .done(function (result) {
+                        d.resolve(result);
+                    });
                 return d.promise();
             },
             dataStructure: 'plain'
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-tree-view
+        [createChildren]="createChildren"
+        dataStructure="plain">
+    </dx-tree-view>
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import 'rxjs/add/operator/toPromise';
+    import { DxTreeViewModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        constructor(@Inject(Http) http: Http) { }
+        createChildren = (parentNode) => {
+            let params: URLSearchParams = new URLSearchParams();
+            params.set("parentId", parentNode ? JSON.stringify(parentNode.key) : "0");
+            return http.get("http://url/to/the/service", {
+                                search: params
+                            })
+                            .toPromise()
+                            .then(response => {
+                                return response.json()
+                            });
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeViewModule,
+            HttpModule
+        ],
+        // ...
+    })
+
+---
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Tree_View/LoadDataOnDemand/jQuery/Light/"

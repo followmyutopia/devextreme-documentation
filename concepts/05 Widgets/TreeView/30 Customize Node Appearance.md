@@ -24,9 +24,47 @@ For minor customization of nodes, you can use the default item template. This te
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize nodes.
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize nodes.
 
 ---
+##### Angular
+
+    <!--HTML--><dx-tree-view
+        [dataSource]="hierarchicalData"
+        itemTemplate="itemTemplate">
+        <div *dxTemplate="let itemObj of 'itemTemplate'">
+            <i>{{itemObj.text}}</i>
+        </div>
+    </dx-tree-view>
+
+    <!--TypeScript-->
+    import { DxTreeViewModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        hierarchicalData = [{
+            id: '1',
+            text: 'Fruits',
+            items: [
+                { id: '1_1', text: 'Apples' },
+                { id: '1_2', text: 'Oranges' }
+            ]
+        }, {
+            id: '2',
+            text: 'Vegetables',
+            items: [
+                { id: '2_1', text: 'Cucumbers' },
+                { id: '2_2', text: 'Tomatoes' }
+            ]
+        }];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeViewModule
+        ],
+        // ...
+    })
+
 #####**AngularJS**
 
     <!--HTML--><div ng-controller="DemoController">
@@ -35,7 +73,7 @@ Using the default item template is the easiest way to customize an item, but it 
             itemTemplate: 'itemTemplate'
         }" dx-item-alias="itemObj">
             <div data-options="dxTemplate: { name: 'itemTemplate' }">
-                <i>{{ itemObj.text }}</i>
+                <i>{{itemObj.text}}</i>
             </div>
         </div>
     </div>

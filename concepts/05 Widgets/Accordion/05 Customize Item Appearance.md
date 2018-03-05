@@ -30,12 +30,12 @@ Using the default item template is the easiest way to customize an item, but it 
         itemTitleTemplate="title"
         itemTemplate="item">
         <div *dxTemplate="let employee of 'title'">
-            <span>employee.firstName</span>
-            <span>employee.lastName</span>
+            <span>{{employee.firstName}}</span>
+            <span>{{employee.lastName}}</span>
         </div>
         <div *dxTemplate="let employee of 'item'">
-            <span>employee.birthDate</span>
-            <span>employee.position</span>
+            <span>{{employee.birthDate}}</span>
+            <span>{{employee.position}}</span>
         </div>
     </dx-accordion>
 

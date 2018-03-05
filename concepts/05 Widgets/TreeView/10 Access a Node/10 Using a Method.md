@@ -1,6 +1,32 @@
 Call the [getNodes()](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#getNodes) method to get **TreeView** nodes at any point in the application flow.
 
+---
+##### jQuery
+
     <!--JavaScript-->var allNodes = $("#treeViewContainer").dxTreeView("getNodes");
+
+##### Angular
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxTreeViewModule, DxTreeViewComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
+        nodeCollection: Array<any> = [];
+        getNodes () {
+            this.nodeCollection = this.treeView.instance.getNodes();
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeViewModule
+        ],
+        // ...
+    })
+    
+---
 
 All node objects contain a similar set of fields, which are described in the [Node](/Documentation/ApiReference/UI_Widgets/dxTreeView/Node/) documentation section.
 

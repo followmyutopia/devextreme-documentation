@@ -9,20 +9,62 @@ Allows you to load nodes manually.
 <!--fullDescription-->
 If you have a large data source hosted remotely, loading all of it may take considerable time. To quicken the process, you can load data for an individual node using the **createChildren** function. This function will be called at the beginning of the widget's lifetime and each time a user expands a node whose child nodes have not been loaded yet.
 
-In the following code, the **createChildren** function makes a query to the server passing the `parentNode` object. The structure of this object is described in the [Node](/Documentation/ApiReference/UI_Widgets/dxTreeView/Node/) section.
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeViewContainer").dxTreeView({
             createChildren: function (parentNode) {
                 var d = $.Deferred();
-                $.get("http://url/to/the/service", parentNode).done(function (result) {
-                    d.resolve(result);
-                });
+                $.get("http://url/to/the/service", {
+                        parentId: parentNode ? JSON.stringify(parentNode.key) : "0"
+                    })
+                    .done(function (result) {
+                        d.resolve(result);
+                    });
                 return d.promise();
             },
             dataStructure: 'plain'
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-tree-view
+        [createChildren]="createChildren"
+        dataStructure="plain">
+    </dx-tree-view>
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import 'rxjs/add/operator/toPromise';
+    import { DxTreeViewModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        constructor(@Inject(Http) http: Http) { }
+        createChildren = (parentNode) => {
+            let params: URLSearchParams = new URLSearchParams();
+            params.set("parentId", parentNode ? JSON.stringify(parentNode.key) : "0");
+            return http.get("http://url/to/the/service", {
+                                search: params
+                            })
+                            .toPromise()
+                            .then(response => {
+                                return response.json()
+                            });
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeViewModule,
+            HttpModule
+        ],
+        // ...
+    })
+
+---
 
 [note]The **createChildren** function applies only if the [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) option is set to *"plain"* and the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataSource) option is unspecified.
 

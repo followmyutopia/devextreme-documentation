@@ -7,6 +7,9 @@ The **TreeView** widget is a tree-like representation of textual data.
 
 The following code adds a simple **TreeView** to your page:
 
+---
+##### jQuery
+
     <!--HTML--><div id="treeViewContainer"></div>
 
     <!--JavaScript-->$(function() {
@@ -30,6 +33,44 @@ The following code adds a simple **TreeView** to your page:
             }]
         });
     });
+
+##### Angular
+
+    <!--HTML--><dx-tree-view
+        [dataSource]="hierarchicalData">
+    </dx-tree-view>
+
+    <!--TypeScript-->
+    import { DxTreeViewModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        hierarchicalData = [{
+            id: '1',
+            text: 'Fruits',
+            expanded: true,
+            items: [
+                { id: '1_1', text: 'Apples' },
+                { id: '1_2', text: 'Oranges' }
+            ]
+        }, {
+            id: '2',
+            text: 'Vegetables',
+            expanded: true,
+            items: [
+                { id: '2_1', text: 'Cucumbers' },
+                { id: '2_2', text: 'Tomatoes' }
+            ]
+        }];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeViewModule
+        ],
+        // ...
+    })
+
+---
 
 Note that the data source in the code above has a hierarchical structure, however, it also supports data sources with a plain structure. See the [Use Hierarchical Data](/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data) and [Use Plain Data](/Documentation/Guide/Widgets/TreeView/Use_Plain_Data) articles to learn how you can customize hierarchical and plain data sources.
 
