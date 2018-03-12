@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the legend's bottom margin in pixels.
+Specifies the legend's top margin in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
