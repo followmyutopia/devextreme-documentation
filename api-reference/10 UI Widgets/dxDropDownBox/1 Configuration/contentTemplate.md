@@ -28,6 +28,16 @@ The **templateData** object has the following fields:
 <!--typeFunctionParamDescription1-->
 Data associated with the widget.
 <!--/typeFunctionParamDescription1-->
+<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->dxDropDownBox<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamDescription1_field1-->
+
+<!--/typeFunctionParamDescription1_field1-->
+<!--typeFunctionParamName1_field2-->value<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamType1_field2-->any<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamDescription1_field2-->
+
+<!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->

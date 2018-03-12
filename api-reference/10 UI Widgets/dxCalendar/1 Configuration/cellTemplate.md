@@ -28,6 +28,21 @@ The **itemData** object has the following fields:
 <!--typeFunctionParamDescription1-->
 The current cell's data.
 <!--/typeFunctionParamDescription1-->
+<!--typeFunctionParamName1_field1-->date<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->Date<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamDescription1_field1-->
+
+<!--/typeFunctionParamDescription1_field1-->
+<!--typeFunctionParamName1_field2-->view<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamDescription1_field2-->
+
+<!--/typeFunctionParamDescription1_field2-->
+<!--typeFunctionParamName1_field3-->text<!--/typeFunctionParamName1_field3-->
+<!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamDescription1_field3-->
+
+<!--/typeFunctionParamDescription1_field3-->
 
 <!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Number<!--/typeFunctionParamType2-->

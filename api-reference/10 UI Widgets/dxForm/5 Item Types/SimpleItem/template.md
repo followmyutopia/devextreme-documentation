@@ -26,6 +26,26 @@ A binding context of an item template is an object containing the following fiel
 <!--typeFunctionParamDescription1-->
 The [dataField](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField), **Form** instance and the editor configuration.
 <!--/typeFunctionParamDescription1-->
+<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->dxForm<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamDescription1_field1-->
+
+<!--/typeFunctionParamDescription1_field1-->
+<!--typeFunctionParamName1_field2-->dataField<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamDescription1_field2-->
+
+<!--/typeFunctionParamDescription1_field2-->
+<!--typeFunctionParamName1_field3-->editorOptions<!--/typeFunctionParamName1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamDescription1_field3-->
+
+<!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamName1_field4-->editorType<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamDescription1_field4-->
+
+<!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionParamName2-->itemElement<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->dxElement<!--/typeFunctionParamType2-->
