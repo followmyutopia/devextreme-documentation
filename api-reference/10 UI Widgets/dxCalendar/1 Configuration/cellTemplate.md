@@ -8,17 +8,6 @@ Specifies a custom template for calendar cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **itemData** object has the following fields:
-
-- **text**  
- A text displayed by the cell.
-
-- **date**  
- A Date object associated with the cell.
-
-- **view**  
- The name of the current view.
-
 #####See Also#####
 - [Customize Cell Appearance](/Documentation/Guide/Widgets/Calendar/Customize_Cell_Appearance/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
@@ -31,17 +20,17 @@ The current cell's data.
 <!--typeFunctionParamName1_field1-->date<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->Date<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-
+A Date object associated with the cell.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->view<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-
+The current view's name.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->text<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-
+The cell's text.
 <!--/typeFunctionParamDescription1_field3-->
 
 <!--typeFunctionParamName2-->itemIndex<!--/typeFunctionParamName2-->

@@ -8,13 +8,6 @@ Specifies a custom template for the drop-down content.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **templateData** object has the following fields:
-
-- **value**: <font size="-1">Any</font>    
-    The currently selected value.  
-- **component**: <font size="-1">Object</font>  
-    The widget's instance.
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/jQuery/Light/"
 }
@@ -31,12 +24,12 @@ Data associated with the widget.
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->dxDropDownBox<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-
+The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->value<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->any<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-
+The currently selected value.
 <!--/typeFunctionParamDescription1_field2-->
 
 <!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
