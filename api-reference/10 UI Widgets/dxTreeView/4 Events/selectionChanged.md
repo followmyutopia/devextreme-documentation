@@ -3,17 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Raised after selecting an item or clearing its selection.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onSelectionChanged) option to handle the event.
-
-This event fires in one of the following cases.
-
-1. The [selectByClick](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#selectByClick) option is set to **true**.
-2. The [showCheckBoxesMode](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#showCheckBoxesMode) option is not set to *'none'*.
-3. You use one of the methods: [selectAll](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#selectAll), [unselectAll](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#unselectAll), [selectItem](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#selectItemitemElement), [unselectItem](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#unselectItemitemElement).
+Main article: [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onSelectionChanged)
 
 #####See Also#####
 #include common-link-handleevents
