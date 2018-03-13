@@ -1,8 +1,23 @@
-<!--merge--><!--/merge-->
+===========================================================================
 <!--type-->eventType<!--/type-->
-<!--keep--><!--/keep-->
 ===========================================================================
 
+<!--shortDescription-->
+
+<!--/shortDescription-->
+
+<!--fullDescription-->
+Instead, you can use the [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onSelectionChanged) option to handle the event.
+
+This event fires in one of the following cases.
+
+1. The [selectByClick](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#selectByClick) option is set to **true**.
+2. The [showCheckBoxesMode](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#showCheckBoxesMode) option is not set to *'none'*.
+3. You use one of the methods: [selectAll](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#selectAll), [unselectAll](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#unselectAll), [selectItem](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#selectItemitemElement), [unselectItem](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#unselectItemitemElement).
+
+#####See Also#####
+#include common-link-handleevents
+<!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
@@ -23,15 +38,3 @@ The widget's container. It is an [HTML Element](https://developer.mozilla.org/en
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
-<!--fullDescription-->
-Instead, you can use the [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onSelectionChanged) option to handle the event.
-
-This event fires in one of the following cases.
-
-1. The [selectByClick](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#selectByClick) option is set to **true**.
-2. The [showCheckBoxesMode](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#showCheckBoxesMode) option is not set to *'none'*.
-3. You use one of the methods: [selectAll](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#selectAll), [unselectAll](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#unselectAll), [selectItem](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#selectItemitemElement), [unselectItem](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#unselectItemitemElement).
-
-#####See Also#####
-#include common-link-handleevents
-<!--/fullDescription-->
