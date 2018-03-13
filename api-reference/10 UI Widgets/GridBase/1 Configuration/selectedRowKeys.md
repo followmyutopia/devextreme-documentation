@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the keys of rows that must be selected initially. 
+Allows you to select rows or learn which rows are selected.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To access a row by its key, you should specify the field that provides keys. For this, use the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) option of the [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) that underlies the [dataSource]({basewidgetpath}/Configuration/#dataSource). If no key was specified, the whole data object is considered the key. However, we recommend specifying the **key** option to prevent selection from being duplicated.
+You should specify the field that provides keys to access a row using its key. For this, use the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) option of the [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) that underlies the [dataSource]({basewidgetpath}/Configuration/#dataSource). The whole data object is considered the key if no key field is specified. However, we recommend specifying the **key** option to prevent duplicating the selection.
 
 #####See Also#####
 - [Initial and Runtime Selection](/Documentation/Guide/Widgets/{WidgetName}/Selection/#API/Initial_and_Runtime_Selection)

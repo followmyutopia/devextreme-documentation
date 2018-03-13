@@ -4,5 +4,5 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the keys of rows that must be selected initially. Applies only if **selection**.[deferred]({basewidgetpath}/Configuration/selection/#deferred) is **false**.
+Allows you to select rows or learn which rows are selected. Applies only if **selection**.[deferred]({basewidgetpath}/Configuration/selection/#deferred) is **false**.
 <!--/shortDescription-->
