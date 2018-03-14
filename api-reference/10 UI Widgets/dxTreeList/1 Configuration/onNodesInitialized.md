@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **nodesInitialized** event. Executed after all nodes in the widget are initialized.
+A handler for the **nodesInitialized** event. Executed after the loaded nodes are initialized.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This handler is  executed once - at the beginning of the widget's lifetime. You can perform operations on the node structure within this handler. 
+Use this handler to modify the [node fields](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/). You can traverse the tree using the [forEachNode(callback)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#forEachNodecallback) method or implement your custom algorithm. Within this algorithm, start traversing from the root node, which is available via the handler parameter's **root** field.  Every node, including the root one, provides access to its child nodes in the **children** field, which allows traversing the whole tree.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
