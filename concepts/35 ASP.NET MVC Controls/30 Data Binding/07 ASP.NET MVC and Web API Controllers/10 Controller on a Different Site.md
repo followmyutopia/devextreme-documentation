@@ -1,4 +1,4 @@
-Previous examples show use-cases in which a control is on the same site as the data it accesses, and routing helps find the right controller and actions. If the data is on a different site, you can use the URL to access it via the `RemoteController()` method of the `DataSource()`'s lambda parameter. This method opens a chain whose members mirror the [client-side method fields](https://github.com/DevExpress/DevExtreme.AspNet.Data#client-side-method) in the already familiar DevExtreme.AspNet.Data library.
+Previous examples show use-cases in which a control is on the same site as the data it accesses, and routing helps find the right controller and actions. If the data is on a different site, you can use the URL to access it via the `RemoteController()` method of the `DataSource()`'s lambda parameter. This method opens a chain whose members mirror the [client-side method fields](https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/client-side-with-jquery.md#api-reference) in the already familiar DevExtreme.AspNet.Data library.
 
     <!--Razor C#-->
     @(Html.DevExtreme().DataGrid()
