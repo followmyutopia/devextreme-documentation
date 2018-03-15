@@ -15,6 +15,6 @@ To provide the required stylesheets for your application, you can put them into 
 
 The *dx.common.css* and *dx.spa.css* files include styles that are required for DevExtreme applications, with no relationship to the device on which the application is running.
 
-All the files with styles are available for you in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 17.2\DevExtreme\Sources** by default.
+All the files with styles are available for you in the DevExtreme zip archive or in the folder where you have installed DevExtreme, which is **C:\Program Files (x86)\DevExpress 18.1\DevExtreme\Sources** by default.
 
 In the application template project, all the DevExtreme stylesheets are already located within the **css** folder. Links to these stylesheets are given within the application page.

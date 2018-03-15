@@ -6,7 +6,7 @@ DevExtreme provides a set of modules. Each module contains a small portion of th
 
 DevExtreme modules are distributed as an npm package only. Install the package to the directory where you wish to store the files.  
 
-    npm install devextreme@17.2 --save --save-exact
+    npm install devextreme@18.1 --save --save-exact
 
 We recommend saving an exact version of DevExtreme to avoid unexpected updates due to DevExtreme not using Semantic Versioning. In our versioning system, the increment of the first or middle number means a major release, which may contain behavior changes.
 

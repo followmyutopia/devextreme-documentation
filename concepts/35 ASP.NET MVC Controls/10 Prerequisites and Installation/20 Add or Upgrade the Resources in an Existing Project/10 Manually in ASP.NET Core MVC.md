@@ -18,7 +18,7 @@
 
         DevExtreme NuGet packages for ASP.NET Core MVC are included in the [installer for Windows](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/#Download_and_Installation). Add their path to the package sources by running the following command. If `nuget` is not recognized, install the NuGet CLI using [this instruction](https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference).
             
-            nuget sources Add -Name "DevExtreme ASP.NET MVC Controls" -Source "%ProgramFiles(x86)%\DevExpress 17.2\DevExtreme\System\DevExtreme\Bin\AspNetCore"
+            nuget sources Add -Name "DevExtreme ASP.NET MVC Controls" -Source "%ProgramFiles(x86)%\DevExpress 18.1\DevExtreme\System\DevExtreme\Bin\AspNetCore"
 
     In both cases, you can change the %AppData%\NuGet\NuGet.config file as follows instead of running commands in the NuGet CLI:
 
@@ -29,7 +29,7 @@
                      value="https://nuget.devexpress.com/{authorization key}/api" />
                 <!-- or -->
                 <add key="DevExtreme ASP.NET MVC Controls"
-                     value="%ProgramFiles(x86)%\DevExpress 17.2\DevExtreme\System\DevExtreme\Bin\AspNetCore" />
+                     value="%ProgramFiles(x86)%\DevExpress 18.1\DevExtreme\System\DevExtreme\Bin\AspNetCore" />
             </packageSources>
         </configuration>
 
@@ -43,7 +43,7 @@
         "dependencies": {
             ...
             "jquery": "~3.1",
-            "devextreme": "~17.2",
+            "devextreme": "~18.1",
             "devextreme-aspnet-data": "~1"
         }
 
