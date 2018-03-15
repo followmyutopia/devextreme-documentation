@@ -1,4 +1,4 @@
-To change a single item option at runtime, call the [itemOption(field, option, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionfield_option_value) method.  This approach is more typical of jQuery. If the needed item is [in a group](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/) or [in a tab](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/), the *field* parameter should be given the group caption or tab title followed by the item's name. An example is shown below.
+To change a single item option at runtime, call the [itemOption(id, option, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionid_option_value) method.  This approach is more typical of jQuery. If the needed item is [in a group](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Groups/) or [in a tab](/Documentation/Guide/Widgets/Form/Organize_Simple_Items/In_Tabs/), the *field* parameter should be given the group caption or tab title followed by the item's name. An example is shown below.
 
     <!--JavaScript-->
     $(function() {
@@ -25,7 +25,7 @@ To change a single item option at runtime, call the [itemOption(field, option, v
         });
     });
 
-To change several options at a time, pass an object to the [itemOption(field, options)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionfield_options) method.
+To change several options at a time, pass an object to the [itemOption(id, options)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionid_options) method.
 Being called with the *field* parameter only, this method returns the current configuration of the specified form item.
 
     <!--JavaScript-->

@@ -1,4 +1,4 @@
-To change the options of an editor, get its instance first using the [getEditor(field)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#getEditorfield) method. After that, call the **option(optionName, optionValue)** or **option(optionName, options)** method of this instance. This approach is more typical of jQuery. 
+To change the options of an editor, get its instance first using the [getEditor(dataField)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#getEditordataField) method. After that, call the **option(optionName, optionValue)** or **option(optionName, options)** method of this instance. This approach is more typical of jQuery. 
 
     <!--JavaScript-->
     $(function() {
@@ -21,7 +21,7 @@ To change the options of an editor, get its instance first using the [getEditor(
         });
     });
 
-[note]The **getEditor(field)** method is available for visible form items only.
+[note]The **getEditor(dataField)** method is available for visible form items only.
 
 With Angular, bind the option to change in the [editorOptions](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorOptions) object to a component or element property.
     

@@ -1,4 +1,4 @@
-To customize the appointment details form, create a handler of the [appointmentFormCreated](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentFormCreated) event. The handler allows you to get the [Form](/Documentation/Guide/Widgets/Form/Overview/) instance used to render the appointment details. Within the handler function, use the [itemOption(field, options)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionfield_options) method to update options of a form item.
+To customize the appointment details form, create a handler of the [appointmentFormCreated](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentFormCreated) event. The handler allows you to get the [Form](/Documentation/Guide/Widgets/Form/Overview/) instance used to render the appointment details. Within the handler function, use the [itemOption(id, options)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#itemOptionid_options) method to update options of a form item.
 
 ---
 
