@@ -17,7 +17,6 @@ The data object's key.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-If a field providing key values is not specified in the [data source]({basewidgetpath}/Configuration/#dataSource), the whole data object is considered the key. In this case, this method returns its argument.
 
 #####See Also#####
 #include common-link-callmethods

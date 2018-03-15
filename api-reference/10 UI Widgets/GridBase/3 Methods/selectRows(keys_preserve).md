@@ -27,9 +27,8 @@ By default, this method call clears selection of previously selected rows. To ke
 
     <!--JavaScript-->widgetInstance.selectRows([5, 10, 12], true);
 
-You should specify the field that provides keys to access a row using its key. For this, use the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) option of the [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) that underlies the [dataSource]({basewidgetpath}/Configuration/#dataSource). The whole data object is considered the key if no key field is specified. However, we recommend specifying the **key** option to prevent duplicating the selection.
-
 #####See Also#####
 #include common-link-callmethods
+- [Initial and Runtime Selection](/Documentation/Guide/Widgets/{WidgetName}/Selection/#API/Initial_and_Runtime_Selection)
 - [selectRowsByIndexes(indexes)]({basewidgetpath}/Methods/#selectRowsByIndexesindexes)
 <!--/fullDescription-->

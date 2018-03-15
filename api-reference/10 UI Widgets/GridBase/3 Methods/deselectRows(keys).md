@@ -17,9 +17,8 @@ A Promise that is resolved after selection is cleared. It is a [native Promise](
 <!--/returnDescription-->
 
 <!--fullDescription-->
-To access a row by its key, you should specify the field that provides keys in the [data source]({basewidgetpath}/Configuration/#dataSource). If no key was specified, the whole data object is considered the key.
-
 #####See Also#####
 #include common-link-callmethods
+- [Initial and Runtime Selection](/Documentation/Guide/Widgets/{WidgetName}/Selection/#API/Initial_and_Runtime_Selection)
 - [deselectAll()]({basewidgetpath}/Methods/#deselectAll)
 <!--/fullDescription-->
