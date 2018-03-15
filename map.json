@@ -5,6 +5,7 @@
     "dxDataGridColumn",
     "dxTreeListColumn",
     "dxFilterBuilderCustomOperation",
+    "chartPointAggregationInfoObject",
     "DOMComponent/Options/bindingOptions",
     "dxElement",
     "Font",
@@ -802,6 +803,10 @@
 
       "7 Chart Elements": {
         "Point": {
+          "aggregationInfo": {
+            "aggregationInfo.md": "chartPointObject/Fields/aggregationInfo",
+            "$Object": "chartPointAggregationInfoObject"
+          },
           "$Widget": "chartPointObject"
         },
         "Series": {
