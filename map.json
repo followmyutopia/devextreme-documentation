@@ -803,9 +803,11 @@
 
       "7 Chart Elements": {
         "Point": {
-          "aggregationInfo": {
-            "aggregationInfo.md": "chartPointObject/Fields/aggregationInfo",
-            "$Object": "chartPointAggregationInfoObject"
+          "2 Fields": {
+            "aggregationInfo": {
+              "aggregationInfo.md": "chartPointObject/Fields/aggregationInfo",
+              "$Object": "chartPointAggregationInfoObject"
+             }
           },
           "$Widget": "chartPointObject"
         },
