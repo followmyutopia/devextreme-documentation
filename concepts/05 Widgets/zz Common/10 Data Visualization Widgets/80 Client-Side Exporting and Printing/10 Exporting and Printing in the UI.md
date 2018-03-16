@@ -12,4 +12,4 @@ By default, a user can export the widget into five formats: PNG, PDF, JPEG, SVG 
 By default, the background of the widget is transparent. To fill it with a color of your choice, specify the [backgroundColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#backgroundColor) option.
 
 #####See Also#####
-- [Setting Up a Server-Side Proxy](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Client-Side_Exporting_and_Printing/#Setting_Up_a_Server-Side_Proxy) - shows how to set up a server-side proxy to support the exporting and printing features in the **IE9** and **Safari on Mac OS** browsers.
+- [Setting Up a Server-Side Proxy](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Client-Side_Exporting_and_Printing/#Setting_Up_a_Server-Side_Proxy) - shows how to set up a server-side proxy to support the exporting and printing features in the **Safari on Mac OS** browser.

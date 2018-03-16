@@ -13,8 +13,6 @@ HTML form upload. Files are uploaded when the HTML form is submitted.
     url: "/Demos/WidgetsGallery/Demo/File_Uploader/FileUploading/jQuery/Light/"
 }
 
-[note]Because Internet Explorer 9 does not support the [FormData](https://developer.mozilla.org/en/docs/Web/API/FormData) interface, you can only upload files using the HTML form in this browser.
-
 The following examples show how to configure the **FileUploader** for uploading files using Ajax requests and an HTML form. Note that in both cases, the [name](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#name) option is specified to access the uploaded files on the server.
 
 - **Ajax upload**

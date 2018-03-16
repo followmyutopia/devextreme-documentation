@@ -36,7 +36,7 @@ The color that fills transparent regions.
 <!--paramName2_field4-->proxyUrl<!--/paramName2_field4-->
 <!--paramType2_field4-->String<!--/paramType2_field4-->
 <!--paramDescription2_field4-->
-The URL of a server-side proxy required for export in IE9 and Safari on Mac OS. See [proxyUrl](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl) for details.
+The URL of a server-side proxy required for export in Safari on Mac OS. See [proxyUrl](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/export/#proxyUrl) for details.
 <!--/paramDescription2_field4-->
 <!--paramName2_field5-->width<!--/paramName2_field5-->
 <!--paramType2_field5-->Number<!--/paramType2_field5-->
