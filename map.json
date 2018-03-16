@@ -805,7 +805,7 @@
         "Point": {
           "2 Fields": {
             "aggregationInfo": {
-              "aggregationInfo.md": "chartPointObject/Fields/aggregationInfo",
+              "aggregationInfo.md": "chartPointObject/aggregationInfo",
               "$Object": "chartPointAggregationInfoObject"
              }
           },
