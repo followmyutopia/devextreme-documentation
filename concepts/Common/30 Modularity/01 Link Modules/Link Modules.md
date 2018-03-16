@@ -10,7 +10,7 @@ DevExtreme modules are distributed as an npm package only. Install the package t
 
 We recommend saving an exact version of DevExtreme to avoid unexpected updates due to DevExtreme not using Semantic Versioning. In our versioning system, the increment of the first or middle number means a major release, which may contain behavior changes.
 
-[note]You may require 3-rd party libraries and frameworks integration. For details on supported versions, see the [3rd-Party Libraries and Frameworks Integration](/Documentation/Guide/Common/3rd-Party_Libraries_and_Frameworks_Integration/) topic.
+[note]You may require 3-rd party libraries and frameworks integration. For details on supported versions, see [Integration with 3rd-Party Libraries and Frameworks](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks).
 
 Use one of the following ways to link up the required modules to your application.  
 

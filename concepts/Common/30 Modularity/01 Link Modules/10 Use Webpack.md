@@ -40,7 +40,7 @@ Then, create the bundle.
 
     webpack
 
-[note]Check the supported versions of 3rd-party libraries. For details, see the [3rd-Party Libraries and Frameworks Integration](/Documentation/Guide/Common/3rd-Party_Libraries_and_Frameworks_Integration/) topic.
+[note]Check the supported versions of 3rd-party libraries. For details, see [Integration with 3rd-Party Libraries and Frameworks](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks).
 
 The example below demonstrates how to create an application with a single button using modules, and how to configure [Webpack](http://webpack.github.io/docs/) to pick up and bundle all the required scripts to your application.  
 

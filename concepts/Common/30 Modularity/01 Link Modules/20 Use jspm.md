@@ -26,7 +26,7 @@ Then, in the HTML page, import your application's main entry point.
         System.import('./index.js');
     </script>
 
-[note]Check the supported versions of 3rd-party libraries. For details, see the [3rd-Party Libraries and Frameworks Integration](/Documentation/Guide/Common/3rd-Party_Libraries_and_Frameworks_Integration/) topic.
+[note]Check the supported versions of 3rd-party libraries. For details, see [Integration with 3rd-Party Libraries and Frameworks](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks).
 
 The example below demonstrates how to create an application with a single button using the modules from a local directory.
 
