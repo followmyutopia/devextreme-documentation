@@ -1,5 +1,13 @@
-<!--merge--><!--/merge-->
-<!--default-->'avg'<!--/default-->
-<!--acceptValues-->'sum'|'count'|'max'|'min'|'sum'|'custom'<!--/acceptValues-->
+===========================================================================
+<!--default-->'sum'<!--/default-->
+<!--acceptValues-->'avg' | 'count' | 'max' | 'min' | 'sum' | 'custom'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
+
+<!--shortDescription-->
+
+<!--/shortDescription-->
+
+<!--fullDescription-->
+
+<!--/fullDescription-->

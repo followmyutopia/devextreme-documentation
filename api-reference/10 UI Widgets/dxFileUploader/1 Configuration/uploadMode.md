@@ -1,5 +1,5 @@
 ===========================================================================
-<!--default-->'instantly', 'useForm' (Internet_Explorer_9, Internet_Explorer_10)<!--/default-->
+<!--default-->'instantly'<!--/default-->
 <!--acceptValues-->'instantly' | 'useButtons' | 'useForm'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
