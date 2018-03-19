@@ -8,16 +8,17 @@ Specifies the initial animation state.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The option can take on the following values, depending on the animation type.
+The values that this option accepts depend on the specified [animation type](/Documentation/ApiReference/Common/Object_Structures/animationConfig/#type). The following list illustrates the dependency:
 
 - **fade**  
- The **from** option takes on a numeric value from 0 to 1, which specifies the initial element opacity.
+ **from** accepts a number from 0 to 1 and specifies the widget's opacity. 0 makes the widget completely transparent; 1 makes it opaque.
 
         <!--JavaScript-->
         from: 0.1
 
 - **pop**  
- The option can take on an object containing the **scale** and **opacity** properties, which specify the initial element scale and opacity, respectively. Each property can take on a numeric value of 0 to 1.
+ **from** accepts an object with the **opacity** and **scale** fields; each takes a value from 0 to 1.     
+Opacity is specified the same way as in the **fade** animation type. A scale of 0 hides the widget; a scale of 1 displays the widget in its default size. 
     
         <!--JavaScript-->
         from: {
@@ -26,30 +27,30 @@ The option can take on the following values, depending on the animation type.
         }
 
 - **slide**  
- The option takes on an object containing the **opacity** property and properties specifying the element position (**top** and **left**).
+ **from** accepts an object with the **opacity** field and fields that configure the widget's position.         
+Opacity is specified the same way as in the **fade** animation type. The widget's position can be set using the **position** field that accepts the [position configuration object](/Documentation/ApiReference/Common/Object_Structures/positionConfig/). This approach covers all cases. You can also use the **top** and **left** fields, which are shortcuts for positioning the widget relative to its parent element or shifting the widget from its default position.
 
         <!--JavaScript-->
+        from: { 
+            opacity: 0.5, 
+            top: 100 // places the widget 100px below the parent element
+            /* top: "+=100" // shifts the widget 100px below its default position */
+        }
+        ==== or ====
         from: {
             opacity: 0.5,
-            top: -100
+            position: { my: 'top', at: 'top', of: "#targetElement" } // places the top of the widget at the top of the "targetElement"
         }
 
 - **css**  
- The option takes on a string specifying the CSS class or several CSS classes delimited by comma that you want to apply at the animation start.
+ **from** accepts a string specifying a CSS class or several CSS classes separated by a comma.
 
-        <!--JavaScript-->from: 'fade-out'
+        <!--JavaScript-->
+        from: "fade-out-text, fade-out-visibility"
 
-        <!--CSS-->.fade-out { opacity: 1; }
-
-You can specify the initial or target element position relative to the current element position. For this purpose use the **+=** or **-=** operators.
-
-    <!--JavaScript-->
-    from: {
-        top: "-=300",
-    }
-    to: {
-        top: "+=200",
-    }
+        <!--CSS-->
+        .fade-out-visibility { opacity: 0; }
+        .fade-out-text { font-size: 5pt; }
 
 When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option with an object instead of the usual lambda expression.
 
