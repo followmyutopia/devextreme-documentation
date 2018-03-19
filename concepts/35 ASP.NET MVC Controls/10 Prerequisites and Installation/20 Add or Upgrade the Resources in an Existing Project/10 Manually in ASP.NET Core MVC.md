@@ -10,13 +10,13 @@
 
         ![DevExtreme ASP.NET MVC Controls - Install the NuGet Packages](/Content/images/doc/18_1/Common/download-manager.png)
 
-        Run the following command with this key. If `nuget` is not recognized, install the NuGet CLI using [this instruction](https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference).
+        Run the following command with this key. If `nuget` is not recognized, install the NuGet CLI using [these instructions](https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference).
             
             nuget sources Add -Name "DevExpress NuGet Feed" -Source "https://nuget.devexpress.com/{authorization key}/api"
 
     - **Local Source**
 
-        DevExtreme NuGet packages for ASP.NET Core MVC are included in the [installer for Windows](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/#Download_and_Installation). Add their path to the package sources by running the following command. If `nuget` is not recognized, install the NuGet CLI using [this instruction](https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference).
+        DevExtreme NuGet packages for ASP.NET Core MVC are included in the [installer for Windows](/Documentation/Guide/ASP.NET_MVC_Controls/Prerequisites_and_Installation/#Download_and_Installation). Add their path to the package sources by running the following command. If `nuget` is not recognized, install the NuGet CLI using [these instructions](https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference).
             
             nuget sources Add -Name "DevExtreme ASP.NET MVC Controls" -Source "%ProgramFiles(x86)%\DevExpress 18.1\DevExtreme\System\DevExtreme\Bin\AspNetCore"
 
@@ -38,10 +38,11 @@
         dotnet add package DevExtreme.AspNet.Data
         dotnet add package DevExtreme.AspNet.Core
 
-4. Reference the **jquery**, **devextreme**, and **devextreme-aspnet-data** bower packages in the bower.json file's `"dependencies"` section. If this file is absent, run the [`bower init`](https://bower.io/docs/api/#init) command.
+4. Open the bower.json file and reference the **jquery**, **devextreme**, and **devextreme-aspnet-data** packages in the `"dependencies"` section. In addition, change the **bootstrap** version to 3.3.7 or later because earlier versions do not support jQuery v3. If bower.json is absent, run the [`bower init`](https://bower.io/docs/api/#init) command.
 
         "dependencies": {
             ...
+            "bootstrap": "3.3.7",
             "jquery": "~3.1",
             "devextreme": "~18.1",
             "devextreme-aspnet-data": "~1"
