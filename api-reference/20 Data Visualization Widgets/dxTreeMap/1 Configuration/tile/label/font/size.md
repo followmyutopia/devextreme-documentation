@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the size of the text displayed by the tile labels.
+Specifies the size of the tile labels' text.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include dataviz-ref-fontsize-acceptedvalues
 <!--/fullDescription-->

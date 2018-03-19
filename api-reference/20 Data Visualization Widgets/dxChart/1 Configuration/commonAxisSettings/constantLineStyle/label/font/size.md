@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a font size for constant line labels.
+Specifies the constant line labels' font size.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For details on acceptable values, refer to the [Font size](http://www.w3.org/TR/CSS21/fonts.html#propdef-font-size) article.
+#include dataviz-ref-fontsize-acceptedvalues
 <!--/fullDescription-->

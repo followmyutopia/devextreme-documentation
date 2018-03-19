@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies font size for the text displayed by the indicator.
+Specifies the font size of the indicator's text.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For details on acceptable values, refer to the [Font size](http://www.w3.org/TR/CSS21/fonts.html#propdef-font-size) article.
+#include dataviz-ref-fontsize-acceptedvalues
 <!--/fullDescription-->
