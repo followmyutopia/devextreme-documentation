@@ -11,4 +11,11 @@ Use this rule type to ensure the target editor value is specified. The rule will
 
 - If the validated value is null.
 - If the specified value has a type that is not expected for the target field (e.g., a string for the [DateBox](/Documentation/ApiReference/UI_Widgets/dxDateBox/) widget).
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Validation/Overview/jQuery/Light/"
+}
+
+#####See Also#####
+- [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
 <!--/fullDescription-->

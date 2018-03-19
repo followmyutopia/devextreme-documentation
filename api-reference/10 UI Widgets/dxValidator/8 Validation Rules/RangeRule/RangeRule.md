@@ -8,4 +8,11 @@ A validation rule that demands the target value be within the specified value ra
 
 <!--fullDescription-->
 To specify the range that the validated value must match, set the rule's [min](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/RangeRule/#min) and [max](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/RangeRule/#max) configuration options. Note that the specified range can be on a date-time or numeric scale. To validate a value against a string length, use the [stringLength](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/StringLengthRule/) rule.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Validation/Overview/jQuery/Light/"
+}
+
+#####See Also#####
+- [Data Validation](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/)
 <!--/fullDescription-->
