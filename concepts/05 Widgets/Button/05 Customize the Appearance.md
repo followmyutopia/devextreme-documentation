@@ -141,6 +141,7 @@ If you need to define the **Button** content completely, implement a template fo
 ---
     
 #####See Also#####
-- [Button API Reference](/Documentation/ApiReference/UI_Widgets/dxAccordion/)
+- [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
+- [Button API Reference](/Documentation/ApiReference/UI_Widgets/dxButton/)
 
 [tags]button, appearance, customize, templates, type, icon
