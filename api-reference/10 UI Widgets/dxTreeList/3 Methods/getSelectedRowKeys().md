@@ -13,6 +13,6 @@ The currently selected row keys.
 <!--fullDescription-->
 #####See Also#####
 #include common-link-callmethods
-- [Initial and Runtime Selection](/Documentation/Guide/Widgets/dxTreeList/Selection/#API/Initial_and_Runtime_Selection)
+- [Initial and Runtime Selection](/Documentation/Guide/Widgets/TreeList/Selection/#API/Initial_and_Runtime_Selection)
 - [getSelectedRowsData()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getSelectedRowsData)
 <!--/fullDescription-->
