@@ -163,5 +163,6 @@ The **FilterBuilder** widget allows a user to build complex filter expressions w
 
 #####See Also#####
 - [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/)
+- [FilterBuilder - Overview](/Documentation/Guide/Widgets/FilterBuilder/Overview/)
 
 <!--/fullDescription-->

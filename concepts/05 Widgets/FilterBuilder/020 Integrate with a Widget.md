@@ -90,7 +90,7 @@ contain data fields from a widget's data source. For example, the following code
 
 ---
 
-To filter data, update the data source's [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) according to the built filter expression stored in the [value](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#value) option. The following code does this on a button click:
+To filter data, update the data source's [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) according to the built filter expression. The following code does this on a button click:
 
 ---
 #####jQuery
@@ -101,7 +101,7 @@ To filter data, update the data source's [filter](/Documentation/ApiReference/Da
         $("#button").dxButton({
             text: "Apply Filter",
             onClick: function () {
-                var filter = $("#filterBuilder").dxFilterBuilder("instance").option("value");
+                var filter = $("#filterBuilder").dxFilterBuilder("instance").getFilterExpression();
                 var listData = $("#list").dxList("instance").getDataSource();
                 listData.filter(filter);
                 listData.load();
@@ -126,7 +126,7 @@ To filter data, update the data source's [filter](/Documentation/ApiReference/Da
         // ...
         buttonClick() {
             let listData = this.list.getDataSource();
-            listData.filter(this.filterBuilder.value);
+            listData.filter(this.filterBuilder.getFilterExpression());
             listData.load();
         }
     }

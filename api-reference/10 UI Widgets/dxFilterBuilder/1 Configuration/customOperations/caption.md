@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the operation's caption.
 <!--/shortDescription-->
 
 <!--fullDescription-->

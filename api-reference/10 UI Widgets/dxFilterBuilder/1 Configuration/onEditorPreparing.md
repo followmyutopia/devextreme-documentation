@@ -9,7 +9,7 @@ A handler for the **editorPreparing** event. Executed before an editor is create
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The widget offers a user a different editor for entering a value depending on the field's [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType): [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/), [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), etc. Within this handler, you can customize a default editor or substitute it for another DevExtreme editor. To do the latter, assign the editor's name to the **editorName** field and then configure the editor in the **editorOptions** object. If you specify the editor's **onValueChanged** handler, call the **setValue(newValue)** method in it to update the value.
+The widget offers a user a different editor for entering a value depending on the field's [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType): [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/), [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), etc. Within this handler, you can customize a default editor or substitute it for another DevExtreme editor. To do the latter, assign the editor's name to the **editorName** field and configure the editor in the **editorOptions** object. If you specify the editor's **onValueChanged** handler, call the **setValue(newValue)** method in it to update the value.
 
 ---
 ##### jQuery
@@ -71,7 +71,7 @@ The widget offers a user a different editor for entering a value depending on th
     
 ---
 
-If you use a third-party editor, cancel the default editor creation and then implement your one. Call the **setValue(newValue)** method in the **onEditorPreparing** handler to notify the **FilterBuilder** of the changed value.
+If you use a third-party editor, cancel the default editor creation and implement this one instead. Call the **setValue(newValue)** method in the **onEditorPreparing** handler to notify the **FilterBuilder** of the changed value.
 
 ---
 ##### jQuery
@@ -159,7 +159,7 @@ The editor's value.
 <!--typeFunctionParamName1_field5-->setValue(newValue)<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-A method that you should call to change the data field's value after the editor's value is changed.
+A method that you should call to change the field's value after the editor's value changes.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Boolean<!--/typeFunctionParamType1_field6-->
@@ -191,30 +191,30 @@ The data field's name.
 <!--typeFunctionParamName1_field11-->filterOperation<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->String<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Gets and sets the delay between when a user stops typing a field value and when it is applied.
+The applied filter operation.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->updateValueTimeout<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->Number<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-The editor's width.
+Gets and sets the delay between when a user stops typing the field value and when it is applied.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->width<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->Number<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-Indicates whether the editor is read-only.
+The editor's width.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->readOnly<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->Boolean<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-Indicates whether the editor is disabled.
+Indicates whether the editor is read-only.
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->disabled<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->Boolean<!--/typeFunctionParamType1_field15-->
 <!--typeFunctionParamDescription1_field15-->
-Indicates whether the editor uses right-to-left representation.
+Indicates whether the editor is disabled.
 <!--/typeFunctionParamDescription1_field15-->
 <!--typeFunctionParamName1_field16-->rtlEnabled<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->Boolean<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
-
+Indicates whether the editor uses right-to-left representation.
 <!--/typeFunctionParamDescription1_field16-->

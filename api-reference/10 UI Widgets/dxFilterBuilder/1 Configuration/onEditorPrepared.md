@@ -41,7 +41,7 @@ The editor's value.
 <!--typeFunctionParamName1_field5-->setValue(newValue)<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-A method that you need to call to change the data field's value after the editor's value is changed.
+A method that you need to call to change the field's value after the editor's value changes.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->editorElement<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->dxElement<!--/typeFunctionParamType1_field6-->
@@ -61,30 +61,30 @@ The data field's name.
 <!--typeFunctionParamName1_field9-->filterOperation<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-Gets and sets the delay between when a user stops typing a field value and when it is applied.
+The applied filter operation.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->updateValueTimeout<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->Number<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-The editor's width.
+Gets and sets the delay between when a user stops typing the field's value and when it is applied.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->width<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->Number<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Indicates whether the editor is read-only.
+The editor's width.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->readOnly<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->Boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-Indicates whether the editor is disabled.
+Indicates whether the editor is read-only.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->disabled<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->Boolean<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-Indicates whether the editor uses right-to-left representation.
+Indicates whether the editor is disabled.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->rtlEnabled<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->Boolean<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-
+Indicates whether the editor uses right-to-left representation.
 <!--/typeFunctionParamDescription1_field14-->

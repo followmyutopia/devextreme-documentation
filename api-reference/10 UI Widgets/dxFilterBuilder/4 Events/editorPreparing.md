@@ -40,13 +40,13 @@ The editor's value.
 <!--typeFunctionParamName1_field5-->setValue(newValue)<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-A method that you should call to change the field value after the editor's value is changed.
+A method that you should call to change the field's value after the editor's value changes
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->boolean<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Allows you to cancel the creation of the editor.    
-Set it to **true** and implement a custom editor if your scenario requires it.
+Set it to **true** and implement a custom editor if required.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->editorElement<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->dxElement<!--/typeFunctionParamType1_field7-->
@@ -56,7 +56,7 @@ The editor's container. It is an [HTML Element](https://developer.mozilla.org/en
 <!--typeFunctionParamName1_field8-->editorName<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->string<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.          
+Allows you to change the editor. Accepts names of DevExtreme widgets only, for example, *"dxTextBox"*.      
 Import a new editor's module when using [DevExtreme modules](/Documentation/Guide/Common/Modularity/). 
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->editorOptions<!--/typeFunctionParamName1_field9-->
@@ -72,30 +72,30 @@ The data field's name.
 <!--typeFunctionParamName1_field11-->filterOperation<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->string<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Gets and sets the delay between when a user stops typing a field value and when it is applied.
+The applied filter operation.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->updateValueTimeout<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->number<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-The editor's width.
+Gets and sets the delay between when a user stops typing the field's value and when it is applied.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->width<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->number<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-Indicates whether the editor is read-only.
+The editor's width.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->readOnly<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->boolean<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-Indicates whether the editor is disabled.
+Indicates whether the editor is read-only.
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->disabled<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->boolean<!--/typeFunctionParamType1_field15-->
 <!--typeFunctionParamDescription1_field15-->
-Indicates whether the editor uses right-to-left representation.
+Indicates whether the editor is disabled.
 <!--/typeFunctionParamDescription1_field15-->
 <!--typeFunctionParamName1_field16-->rtlEnabled<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->boolean<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
-
+Indicates whether the editor uses right-to-left representation.
 <!--/typeFunctionParamDescription1_field16-->
