@@ -10,7 +10,7 @@ Gets a filter expression that contains only operations supported by the **DataSo
 A **DataSource**-compatible filter expression.
 <!--/returnDescription-->
 
-<!--fullDescription-->    
+<!--fullDescription-->
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/jQuery/Light/"
 }
