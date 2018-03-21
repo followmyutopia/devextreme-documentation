@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-An object providing data for the form.
+Provides the **Form**'s data. Gets updated every time form fields change.
 <!--/shortDescription-->
 
 <!--fullDescription-->
