@@ -1,10 +1,10 @@
 ===========================================================================
-<!--default-->325, 315 (Material)<!--/default-->
-<!--type-->Number<!--/type-->
+<!--default-->false<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the height of the popup menu that contains values for filtering.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
