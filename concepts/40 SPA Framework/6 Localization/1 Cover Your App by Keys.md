@@ -25,3 +25,5 @@ And here is the HTML markup where the text to be displayed on the view is replac
             }"></div>
         </div>
     </div>
+
+[note] The @-keys should be specified in the HTML markup only.
