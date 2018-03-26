@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not the store combines the search expression with the filter expression.
+Specifies whether the store combines the search and filter expressions. Defaults to **true** if the [loadMode](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#loadMode) is *"raw"* and **false** if it is *"processed"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The default value of this option is **true** if [loadMode](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#loadMode) is *"raw"*, and **false** if **loadMode** is *"processed"*.
+
 <!--/fullDescription-->

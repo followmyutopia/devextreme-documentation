@@ -7,39 +7,64 @@ Specifies a custom implementation of the [update(key, values)](/Documentation/Ap
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The method passed to this option should return a Promise.
-
-You can resolve the returned Promise with any data. For example, the key of the updated item.
+---
+##### jQuery
 
     <!--JavaScript-->
     var store = new DevExpress.data.CustomStore({
+        // ...
         update: function (key, values) {
-            var deferred = $.Deferred();
-            $.ajax({
-                url: SERVICE_URL + "/" + encodeURIComponent(key),
+            return $.ajax({
+                url: "http://mydomain.com/MyDataService/myEntity" + encodeURIComponent(key),
                 method: "PUT",
                 data: values
-            }).done(function(){
-                deferred.resolve(key);
-            });
-            return deferred.promise();
+            })
         }
     });
 
+##### Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import CustomStore from "devextreme/data/custom_store";
+    import { Http, HttpModule } from '@angular/http';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent {
+        store: CustomStore;
+        constructor(@Inject(Http) http: Http) {
+            this.store = new CustomStore({
+                // ...
+                update: (key, values) => {
+                    return http.put("http://mydomain.com/MyDataService/myEntity" + encodeURIComponent(key), values)
+                        .toPromise();
+                }
+            });
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            HttpModule 
+        ],
+        // ...
+    })
+
+---
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The key of the item to be updated.
+The key of the data item to be updated.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->values<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-Item fields with their new values.
+An object with new values for the data item.
 <!--/typeFunctionParamDescription2-->
 
 <!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A Promise that is resolved after the item is updated. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
+A Promise that is resolved after the data item is updated. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/typeFunctionReturnDescription-->

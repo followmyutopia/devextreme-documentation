@@ -7,29 +7,58 @@ Specifies a custom implementation of the [insert(values)](/Documentation/ApiRefe
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The method passed to this option should return a Promise.
-
-You can resolve the returned Promise with any data. For example, the key of the inserted item.
+---
+##### jQuery
 
     <!--JavaScript-->
     var store = new DevExpress.data.CustomStore({
+        // ...
         insert: function (values) {
-            var deferred = $.Deferred();
-            $.post("http://www.example.com/service/myEntity", values).done(function(data) {
-                deferred.resolve(data.key);
+            return $.ajax({
+                url: "http://mydomain.com/MyDataService/myEntity",
+                method: "POST",
+                data: values
             })
-            return deferred.promise();
         }
     });
 
+##### Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import CustomStore from "devextreme/data/custom_store";
+    import { Http, HttpModule } from '@angular/http';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent {
+        store: CustomStore;
+        constructor(@Inject(Http) http: Http) {
+            this.store = new CustomStore({
+                // ...
+                insert: (values) => {
+                    return http.post("http://mydomain.com/MyDataService/myEntity", values)
+                        .toPromise();
+                }
+            });
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            HttpModule 
+        ],
+        // ...
+    })
+
+---
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The item to be inserted.
+The data item to be inserted.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A Promise that is resolved after the item is inserted. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
+A Promise that is resolved after the data item is inserted. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/typeFunctionReturnDescription-->

@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes configuration options used to configure the CustomStore.
+This section describes options that configure the **CustomStore**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
