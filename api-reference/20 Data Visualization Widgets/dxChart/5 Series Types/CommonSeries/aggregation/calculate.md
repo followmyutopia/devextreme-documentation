@@ -22,7 +22,7 @@
 
 <!--/typeFunctionParamDescription2-->
 
-<!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Object|Array<Object><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 
 <!--/typeFunctionReturnDescription-->

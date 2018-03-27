@@ -1,5 +1,5 @@
 ===========================================================================
-<!--default-->'left', 'top' (material)<!--/default-->
+<!--default-->'left', 'top' (Material)<!--/default-->
 <!--acceptValues-->'left' | 'right' | 'top'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

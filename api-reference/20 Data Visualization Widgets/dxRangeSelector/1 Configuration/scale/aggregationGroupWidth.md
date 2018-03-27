@@ -1,10 +1,10 @@
 ===========================================================================
-<!--default-->true, false (Material)<!--/default-->
-<!--type-->Boolean<!--/type-->
+<!--default-->undefined<!--/default-->
+<!--type-->Number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not a colon is displayed at the end of form labels.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
