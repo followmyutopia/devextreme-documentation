@@ -5,16 +5,16 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **rowUpdated** event. Executed after a row has been updated in the data source.
+A function that is executed after a row has been updated in the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), if several rows have been updated, this handler will be executed for each row individually.
+[note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), if several rows have been updated, this function will be executed for each row individually.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

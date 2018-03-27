@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--fullDescription-->
-This handler allows you to customize the toolbar. Depending on the configuration, the widget may add the following items to the toolbar:
+This function allows you to customize the toolbar. Depending on the configuration, the widget may add the following items to the toolbar:
 
 - <img src="/Content/images/doc/18_1/DataGrid/icons/columnChooser.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar ColumnChooserButton" style="margin:1px; vertical-align:middle"/> - *"columnChooserButton"*    
 - <img src="/Content/images/doc/18_1/DataGrid/icons/toolbar_add.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar AddButton" style="margin:1px; vertical-align:middle"/> - *"addRowButton"*    
@@ -15,7 +15,7 @@ This handler allows you to customize the toolbar. Depending on the configuration
 - <img src="/Content/images/doc/18_1/DataGrid/icons/toolbar_applyFilter.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Toolbar ApplyFilterButton" style="margin:1px; vertical-align:middle"/> - *"applyFilterButton"*     
 - [*"searchPanel"*]({basewidgetpath}/Configuration/searchPanel/)
 
-The following code shows how you can customize the toolbar using this handler.
+The following code shows how you can customize the toolbar using this function.
 
 ---
 ##### jQuery

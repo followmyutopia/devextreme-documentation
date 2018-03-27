@@ -5,14 +5,14 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **selectionChanged** event. Executed after selecting a row or clearing its selection. 
+A function that is executed after selecting a row or clearing its selection. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This handler has the following specifics:
+This function has the following specifics:
 
-- If a field providing key values is not specified in the data source, the whole data object is considered the key. In this case, all arrays passed to the handler contain data objects instead of keys.
-- When selection is [deferred]({basewidgetpath}/Configuration/selection/#deferred), this handler does not provide access to keys and data.
+- If a field providing key values is not specified in the data source, the whole data object is considered the key. In this case, all arrays passed to the function contain data objects instead of keys.
+- When selection is [deferred]({basewidgetpath}/Configuration/selection/#deferred), this function does not provide access to keys and data.
 
 Call the [byKey(key)]({basewidgetpath}/Methods/#byKeykey) method to retrieve data.
 
@@ -23,7 +23,7 @@ Call the [byKey(key)]({basewidgetpath}/Methods/#byKeykey) method to retrieve dat
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

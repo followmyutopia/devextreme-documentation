@@ -5,17 +5,130 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [editorPreparing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#editorPreparing) event.
+A function that is executed before an editor is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Many grid elements are constructed on editors. For example, the [search panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel) is constructed on a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/) is built on check boxes in full, etc. Obviously, editors are also used to edit a cell or a row in a grid. When default editors provided by **DataGrid** do not meet your requirements, implement a custom editor. For this purpose, assign a function to the **onEditorPreparing** option. This function accepts an object as the parameter. Assign **true** to the **cancel** field of this object. After that, implement your editor using the other fields of this object.
+Many **DataGrid** elements are based on editors. For example, the search panel is based on a text box, the selection column uses check boxes, etc. Within this function, you can customize a default editor or substitute it for another DevExtreme editor. To do the latter, assign the editor's name to the **editorName** field and then configure the editor in the **editorOptions** object. If you specify the editor's **onValueChanged** function, call the **setValue(newValue)** method in it to update the cell value.
 
-You can distinguish editors by their parent element. Also, the parent element defines data passed to the **onEditorPreparing** function. To identify the parent element, check the **parentType** field of the function's argument.
+---
+##### jQuery
 
-When the **parentType** is *'dataRow'* or *'headerRow'*, you can use the options described in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) reference section.
+    <!--JavaScript-->
+    $(function() {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            onEditorPreparing: function(e) {
+                if (e.dataField == "name") {
+                    e.editorName = "dxTextArea";
+                    e.editorOptions.showClearButton = true;
+                    e.editorOptions.onValueChanged = function (e) {
+                        var value = e.value;
+                        if(value == "") {
+                            alert("TextArea is empty");
+                            return;
+                        }
+                        e.setValue(value);
+                    }
+                }
+            }
+        });
+    });
 
-[note]If you have specified the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate) option, the **onEditorPreparing** function will not be executed when a row or a cell switches into the editing state.
+##### Angular
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        onEditorPreparing (e) { 
+            if (e.dataField == "name") {
+                e.editorName = "dxTextArea";
+                e.editorOptions.showClearButton = true;
+                e.editorOptions.onValueChanged = function (e) {
+                    var value = e.value;
+                    if (value == "") {
+                        alert("TextArea is empty");
+                        return;
+                    }
+                    e.setValue(value);
+                }
+            }
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-data-grid ...
+        (onEditorPreparing)="onEditorPreparing($event)">
+    </dx-data-grid>
+    
+---
+
+If you use a third-party editor, cancel creation of the default editor and then implement your own one. To notify the **DataGrid** of the changed value, call the **setValue(newValue)** method in the **onEditorPreparing** function.
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            onEditorPreparing: function(e) {
+                if(e.dataField === "hidden") {
+                    e.cancel = true;
+                    $('<input type="checkbox">')
+                        .prop("checked", e.value)
+                        .on("change", function(args) {
+                            e.setValue(args.target.checked);
+                        })
+                        .appendTo(e.editorElement);
+                }
+            }
+        });
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        onEditorPreparing (e) { 
+            if(e.dataField === "hidden") {
+                e.cancel = true;
+                let checkbox = document.createElement("INPUT");
+                checkbox.setAttribute("type", "checkbox");
+                checkbox.setAttribute("checked", e.value);
+                checkbox.addEventListener("change", function(args) {
+                                                        e.setValue(args.target.checked);
+                                                    });
+                e.editorElement.appendChild(checkbox);
+            }
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-data-grid ...
+        (onEditorPreparing)="onEditorPreparing($event)">
+    </dx-data-grid>
+    
+---
+
+[note]For cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate), the **onEditorPreparing** function is not executed.
 
 #####See Also#####
 - [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors)
@@ -23,7 +136,7 @@ When the **parentType** is *'dataRow'* or *'headerRow'*, you can use the options
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
@@ -44,7 +157,7 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The editor's location. One of *'dataRow'*, *'filterRow'*, *'headerRow'* or *'searchPanel'*.      
-Options passed to the handler depend on this value.
+Options passed to the function depend on this value.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->value<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->

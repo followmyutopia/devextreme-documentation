@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **editingStart** event. Executed before a cell or row switches to the editing state.
+A function that is executed before a cell or row switches to the editing state.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In cell or batch [editing mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode), this handler is executed while rendering cells of columns whose [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#showEditorAlways) option is set to **true**.
+In cell or batch [editing mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode), this function is executed while rendering cells of columns whose [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#showEditorAlways) option is set to **true**.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/datagridgrideditingrow/"
@@ -18,7 +18,7 @@ In cell or batch [editing mode](/Documentation/ApiReference/UI_Widgets/dxDataGri
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

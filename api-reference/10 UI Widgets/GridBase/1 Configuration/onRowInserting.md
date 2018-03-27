@@ -5,18 +5,18 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **rowInserting** event. Executed before a new row is inserted into the data source.
+A function that is executed before a new row is inserted into the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can cancel row insertion by setting the handler parameter's **cancel** field to **true**. This field also accepts a Promise ([jQuery](http://api.jquery.com/Types/#Promise) or [native](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)), which enables you to perform an asynchronous action before a row is inserted.
+You can cancel row insertion by setting the function parameter's **cancel** field to **true**. This field also accepts a Promise ([jQuery](http://api.jquery.com/Types/#Promise) or [native](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)), which enables you to perform an asynchronous action before a row is inserted.
 
-[note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), if several rows are to be inserted, this handler will be executed for each row individually.
+[note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), if several rows are to be inserted, this function will be executed for each row individually.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [editorPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#editorPrepared) event.
+A function that is executed after an editor is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -20,7 +20,7 @@ When the **parentType** is *'dataRow'* or *'headerRow'*, you can use the options
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

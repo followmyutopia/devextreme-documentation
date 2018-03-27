@@ -5,21 +5,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [fileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#fileSaving) event.
+A function that is executed before a file with exported data is saved to the user's local storage.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before an Excel file with exported data will be saved on the user's local storage.
-
 #####See Also#####
 - [Client-Side Exporting - Events](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/#Events)
-- [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting) - allows you to request exporting details and prevent exporting.
-- [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) - allows you to notify an end user when exporting is completed.
+- [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting)
+- [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

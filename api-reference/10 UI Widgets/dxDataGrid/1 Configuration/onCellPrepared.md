@@ -5,12 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [cellPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#cellPrepared) event.
+A function that is executed after the widget creates a cell.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **cellPrepared** event fires after a cell has been rendered. When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the prepared cell.
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/CellCustomization/jQuery/Light/"
 }
@@ -18,7 +16,7 @@ The **cellPrepared** event fires after a cell has been rendered. When implementi
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

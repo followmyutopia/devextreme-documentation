@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **dataErrorOccurred** event. Executed when an error occurs in the data source. 
+A function that is executed when an error occurs in the data source. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Handles errors that might occur in the data source. To obtain a human-readable description of the error in the handler, use the **error.message** field.
+Handles errors that might occur in the data source. To obtain a human-readable description of the error in the function, use the **error.message** field.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

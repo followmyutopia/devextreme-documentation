@@ -5,20 +5,18 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **rowClick** event. Executed when a user clicks a row.
+A function that is executed when a user clicks a row.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Prior to this handler, the widget executes the [onCellClick](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onCellClick) handler and sometimes internal handlers. You can use the **handled** field to check whether internal handlers were executed.
+Prior to this function, the widget executes the [onCellClick](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onCellClick) function and sometimes internal functions. You can use the **handled** field to check whether internal functions were executed.
 
-When using DevExtreme SPA Framework, you can navigate to a specific URL on a click. For this, assign this URL or its anchor part (#) directly to this option.
-
-[note]When the clicked row is in the editing state or switches to this state, the **onRowClick** handler is not executed. Instead, specify the **onCellClick** handler. 
+[note] When the clicked row is in the editing state or switches to this state, the **onRowClick** function is not executed. Instead, specify the **onCellClick** function. 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
@@ -38,13 +36,13 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->jQueryEvent<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->jQuery.Event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
+The jQuery event that caused the the function's execution. Deprecated in favor of the **event** field.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamDeprecated1_field4-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field4-->
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
+The event that caused the the function's execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->data<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
@@ -95,5 +93,5 @@ The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US
 <!--typeFunctionParamName1_field15-->handled<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->Boolean<!--/typeFunctionParamType1_field15-->
 <!--typeFunctionParamDescription1_field15-->
-Indicates whether internal widget handlers have already handled the event.
+Indicates whether internal widget functions have already handled the event.
 <!--/typeFunctionParamDescription1_field15-->

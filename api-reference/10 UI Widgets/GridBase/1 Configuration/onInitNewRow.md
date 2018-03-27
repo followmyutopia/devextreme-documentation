@@ -5,16 +5,16 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **initNewRow** event. Executed before a new row is added to the widget.
+A function that is executed before a new row is added to the widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Using this handler, you can populate a newly added row with data by default. Add fields to the **data** object so that they correspond to fields of a [data source]({basewidgetpath}/Configuration/#dataSource) object. Note that the **data** object may omit some fields present in the data source object. Add only those fields that must initialize specific cells of a new row.
+Using this function, you can populate a newly added row with data by default. Add fields to the **data** object so that they correspond to fields of a [data source]({basewidgetpath}/Configuration/#dataSource) object. Note that the **data** object may omit some fields present in the data source object. Add only those fields that must initialize specific cells of a new row.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

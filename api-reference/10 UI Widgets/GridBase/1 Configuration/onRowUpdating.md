@@ -5,18 +5,18 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **rowUpdating** event. Executed before a row is updated in the data source.
+A function that is executed before a row is updated in the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can cancel row updating by setting the handler parameter's **cancel** field to **true**. This field also accepts a Promise ([jQuery](http://api.jquery.com/Types/#Promise) or [native](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)), which enables you to perform an asynchronous action before a row is updated.
+You can cancel row updating by setting the function parameter's **cancel** field to **true**. This field also accepts a Promise ([jQuery](http://api.jquery.com/Types/#Promise) or [native](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)), which enables you to perform an asynchronous action before a row is updated.
 
-[note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), if several rows are to be updated, this handler will be executed for each row individually.
+[note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), if several rows are to be updated, this function will be executed for each row individually.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

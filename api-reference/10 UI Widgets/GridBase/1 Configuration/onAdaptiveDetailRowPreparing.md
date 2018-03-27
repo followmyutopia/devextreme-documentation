@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **adaptiveDetailRowPreparing** event. Executed before an adaptive detail row is rendered.
+A function that is executed before an adaptive detail row is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Adaptive detail rows display information from columns that were hidden when the widget adapted to the screen or container size. Each adaptive detail row contains the [Form](/Documentation/Guide/Widgets/Form/Overview/) widget that you can customize within the **onAdaptiveDetailRowPreparing** handler using the **formOptions** object. Refer to the [Form Configuration](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) section for details on options of the **Form** widget.
+Adaptive detail rows display information from columns that were hidden when the widget adapted to the screen or container size. Each adaptive detail row contains the [Form](/Documentation/Guide/Widgets/Form/Overview/) widget that you can customize within the **onAdaptiveDetailRowPreparing** function using the **formOptions** object. Refer to the [Form Configuration](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) section for details on options of the **Form** widget.
 
 [note]
 
@@ -28,7 +28,7 @@ The following **Form** options cannot be specified using **formOptions**:
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

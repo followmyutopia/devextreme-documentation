@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **toolbarPreparing** event. Executed before the toolbar is created.
+A function that is executed before the toolbar is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This handler allows you to customize the toolbar. Depending on the configuration, the widget may add the following items to the toolbar:
+This function allows you to customize the toolbar. Depending on the configuration, the widget may add the following items to the toolbar:
 
 - <img src="/Content/images/doc/18_1/DataGrid/icons/columnChooser.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar ColumnChooserButton" style="margin:1px; vertical-align:middle"/> - *"columnChooserButton"*    
 - <img src="/Content/images/doc/18_1/DataGrid/icons/toolbar_add.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Toolbar AddButton" style="margin:1px; vertical-align:middle"/> - *"addRowButton"*    
@@ -20,7 +20,7 @@ This handler allows you to customize the toolbar. Depending on the configuration
 - [*"groupPanel"*](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/groupPanel/) 
 - [*"searchPanel"*]({basewidgetpath}/Configuration/searchPanel/)
 
-The following code shows how you can customize the toolbar using this handler.
+The following code shows how you can customize the toolbar using this function.
 
 ---
 ##### jQuery
@@ -95,7 +95,7 @@ The following code shows how you can customize the toolbar using this handler.
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

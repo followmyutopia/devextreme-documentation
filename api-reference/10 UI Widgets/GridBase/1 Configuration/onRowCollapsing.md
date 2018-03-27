@@ -5,16 +5,16 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **rowCollapsing** event. Executed before a row is collapsed.
+A function that is executed before a row is collapsed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To cancel row collapsing, assign **true** to the **cancel** field of the handler parameter.
+To cancel row collapsing, assign **true** to the **cancel** field of the function parameter.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

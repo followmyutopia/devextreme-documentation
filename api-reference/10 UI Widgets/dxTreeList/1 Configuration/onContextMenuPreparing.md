@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **contextMenuPreparing** event. Executed before a context menu is rendered.
+A function that is executed before a context menu is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This handler allows you to customize the context menu.
+This function allows you to customize the context menu.
 
 ---
 ##### jQuery
@@ -67,7 +67,7 @@ This handler allows you to customize the context menu.
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

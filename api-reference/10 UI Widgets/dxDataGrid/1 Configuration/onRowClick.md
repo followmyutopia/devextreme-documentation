@@ -5,24 +5,18 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [rowClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowClick) event.
+A function that is executed when a user clicks a row.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **rowClick** event fires when a user clicks a grid row. When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the clicked row.
+Prior to this function, the widget executes the [onCellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick) function and sometimes internal functions. You can use the **handled** field to check whether internal functions were executed.
 
-Alternatively, you can navigate to a specific URL when the **rowClick** event fires. For this purpose, assign this URL to the **onRowClick** option.
-
-[note]If there are any internal grid handlers for the row click, the **rowClick** event fires only after these handlers are executed. In this case, the **handled** field of the handler function parameter is set to **true**.
-
-In addition, you can perform certain actions when a user clicks a cell. For this purpose, handle the [cellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#cellClick) event. Note that the **cellClick** fires before the **rowClick**.
-
-[note] When the clicked row is in the editing state, or switches to the editing state, the **rowClick** event will not fire. Instead, you can use the **cellClick**.
+[note] When the clicked row is in the editing state or switches to this state, the **onRowClick** function is not executed. Instead, specify the **onCellClick** function.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
@@ -42,13 +36,13 @@ The model data. Available only if Knockout is used.
 <!--typeFunctionParamName1_field4-->jQueryEvent<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->jQuery.Event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The jQuery event that caused the handler execution. Deprecated in favor of the **event** field.
+The jQuery event that caused the the function's execution. Deprecated in favor of the **event** field.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamDeprecated1_field4-->Use 'event' instead.<!--/typeFunctionParamDeprecated1_field4-->
 <!--typeFunctionParamName1_field5-->event<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->event<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
+The event that caused the the function's execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->data<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
@@ -104,5 +98,5 @@ The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US
 <!--typeFunctionParamName1_field16-->handled<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->Boolean<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
-Indicates whether internal widget handlers have already handled the event.
+Indicates whether internal widget functions have already handled the event.
 <!--/typeFunctionParamDescription1_field16-->

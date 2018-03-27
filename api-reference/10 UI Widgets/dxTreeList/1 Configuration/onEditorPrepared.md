@@ -5,18 +5,18 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **editorPrepared** event. Executed after an editor is created.
+A function that is executed after an editor is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Many **TreeList** elements are based on editors. For example, the search panel is based on a text box, a selection column uses check boxes, etc. You can customize automatically created editors using this handler. 
+Many **TreeList** elements are based on editors. For example, the search panel is based on a text box, a selection column uses check boxes, etc. You can customize automatically created editors using this function. 
 
-[note]For cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate), the **onEditorPrepared** handler is not executed.
+[note]For cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate), the **onEditorPrepared** function is not executed.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

@@ -5,23 +5,21 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [exporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#exporting) event.
+A function that is executed before data from the widget is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before exporting grid data.
-
 #####See Also#####
 - [Client-Side Exporting - Events](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/#Events)
-- [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/) - configures client-side exporting.
-- [customizeExportData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeExportData) - customizes grid columns and data before exporting.
-- [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) - allows you to notify an end user when exporting is completed.
-- [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving) - allows you to access exported data and/or prevent it from being saved into a file on the user's local storage.
+- [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/)
+- [customizeExportData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeExportData)
+- [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported)
+- [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->

@@ -5,16 +5,16 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **nodesInitialized** event. Executed after the loaded nodes are initialized.
+A function that is executed after the loaded nodes are initialized.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use this handler to modify the [node fields](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/). You can traverse the tree using the [forEachNode(callback)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#forEachNodecallback) method or implement your custom algorithm. Within this algorithm, start traversing from the root node, which is available via the handler parameter's **root** field.  Every node, including the root one, provides access to its child nodes in the **children** field, which allows traversing the whole tree.
+Use this function to modify the [node fields](/Documentation/ApiReference/UI_Widgets/dxTreeList/Node/). You can traverse the tree using the [forEachNode(callback)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#forEachNodecallback) method or implement your custom algorithm. Within this algorithm, start traversing from the root node, which is available via the function parameter's **root** field.  Every node, including the root one, provides access to its child nodes in the **children** field, which allows traversing the whole tree.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event.
+Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
