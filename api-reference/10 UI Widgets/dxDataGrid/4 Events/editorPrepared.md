@@ -64,7 +64,7 @@ Gets and sets the delay between the moment a user stops typing a filter value an
 <!--typeFunctionParamName1_field8-->width<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The editor's width; equals **null** for editors of all parent types except for the *'searchPanel'*. 
+The editor's width; equals **null** for all editors except for those whose **parentType** equals *"searchPanel"*.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->disabled<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->boolean<!--/typeFunctionParamType1_field9-->
