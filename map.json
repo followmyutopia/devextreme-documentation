@@ -595,6 +595,7 @@
     },
 
     "Errors and Warnings": {
+      "Errors and Warnings.md": "ErrorsUIWidgets",
       "$Object": "ErrorsUIWidgets"
     }
   },
@@ -1011,6 +1012,7 @@
     },
 
     "zz Errors and Warnings": {
+      "Errors and Warnings.md": "ErrorsData",
       "$Object" : "ErrorsData"
     }
   },
@@ -1074,6 +1076,7 @@
     },
 
     "zz Errors and Warnings": {
+      "Errors and Warnings.md": "ErrorsFramework",
       "$Object": "ErrorsFramework"
     }
   },
@@ -1208,6 +1211,7 @@
       },
 
       "zz Errors and Warnings": {
+        "Errors and Warnings.md": "ErrorsCore",
         "$Object": "ErrorsCore"
       }
     }
