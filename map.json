@@ -184,6 +184,10 @@
 
       "5 Item Types": {
 
+        "ButtonItem": {
+            "$Widget": "dxFormButtonItem"
+        },
+
         "EmptyItem": {
           "$Widget": "dxFormEmptyItem"
         },
