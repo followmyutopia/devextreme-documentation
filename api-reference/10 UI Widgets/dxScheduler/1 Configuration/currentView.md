@@ -2,6 +2,7 @@
 <!--default-->'day'<!--/default-->
 <!--acceptValues-->'agenda' | 'day' | 'month' | 'timelineDay' | 'timelineMonth' | 'timelineWeek' | 'timelineWorkWeek' | 'week' | 'workWeek'<!--/acceptValues-->
 <!--type-->String<!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
 ===========================================================================
 
 <!--shortDescription-->

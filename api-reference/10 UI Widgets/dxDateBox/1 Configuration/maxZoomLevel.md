@@ -1,3 +1,4 @@
+<!--dep-->calendarOptions.md<!--/dep-->
 ===========================================================================
 <!--default-->'month'<!--/default-->
 <!--acceptValues-->'century' | 'decade' | 'month' | 'year'<!--/acceptValues-->

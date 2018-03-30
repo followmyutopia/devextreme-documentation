@@ -2,6 +2,7 @@
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->'<' | '<=' | '<>' | '=' | '>' | '>=' | 'between' | 'contains' | 'endswith' | 'notcontains' | 'startswith'<!--/acceptValues-->
 <!--type-->String<!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
 ===========================================================================
 
 <!--shortDescription-->

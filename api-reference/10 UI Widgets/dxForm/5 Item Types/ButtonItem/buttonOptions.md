@@ -1,11 +1,10 @@
 ===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--default-->undefined<!--/default-->
+<!--type-->dxButton_Options<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the column is visible, that is, occupies space in the table.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

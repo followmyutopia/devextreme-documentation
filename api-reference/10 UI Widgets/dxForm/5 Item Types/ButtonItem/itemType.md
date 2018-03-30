@@ -1,11 +1,11 @@
 ===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--default-->'simple'<!--/default-->
+<!--acceptValues-->'empty' | 'group' | 'simple' | 'tabbed' | 'button'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the column is visible, that is, occupies space in the table.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

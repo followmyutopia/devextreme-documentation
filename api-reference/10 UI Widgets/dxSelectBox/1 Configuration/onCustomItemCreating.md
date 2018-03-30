@@ -43,8 +43,3 @@ The input field's text.
 <!--typeFunctionParamDescription1_field5-->
 The field where to place a custom item.
 <!--/typeFunctionParamDescription1_field5-->
-
-<!--typeFunctionReturnType-->String|Object|Promise<any><!--/typeFunctionReturnType-->
-<!--typeFunctionReturnDescription-->
-A custom item or a Promise that is resolved after the item is created. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
-<!--/typeFunctionReturnDescription-->

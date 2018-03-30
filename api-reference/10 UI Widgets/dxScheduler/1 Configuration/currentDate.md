@@ -1,6 +1,7 @@
 ===========================================================================
 <!--default-->new Date()<!--/default-->
 <!--type-->Date | Number | String<!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
 ===========================================================================
 
 <!--shortDescription-->

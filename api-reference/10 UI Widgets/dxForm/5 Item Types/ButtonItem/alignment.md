@@ -1,11 +1,11 @@
 ===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--default-->'right'<!--/default-->
+<!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the column is visible, that is, occupies space in the table.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

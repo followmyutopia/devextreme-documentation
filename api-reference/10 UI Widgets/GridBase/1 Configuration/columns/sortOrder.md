@@ -2,6 +2,7 @@
 <!--default-->undefined<!--/default-->
 <!--acceptValues-->undefined | 'asc' | 'desc'<!--/acceptValues-->
 <!--type-->String<!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
 ===========================================================================
 
 <!--shortDescription-->

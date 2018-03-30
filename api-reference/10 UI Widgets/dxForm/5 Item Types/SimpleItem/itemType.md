@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'simple'<!--/default-->
-<!--acceptValues-->'empty' | 'group' | 'simple' | 'tabbed'<!--/acceptValues-->
+<!--acceptValues-->'empty' | 'group' | 'simple' | 'tabbed' | 'button'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

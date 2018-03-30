@@ -28,7 +28,7 @@ If the **items** option contains definition for form items, you usually do not n
 - [Customize a Simple Item](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/#Customize_a_Simple_Item)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->item<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->dxFormSimpleItem|dxFormGroupItem|dxFormTabbedItem|dxFormEmptyItem<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->dxFormSimpleItem|dxFormGroupItem|dxFormTabbedItem|dxFormEmptyItem|dxFormButtonItem<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The item's object.
 <!--/typeFunctionParamDescription1-->
