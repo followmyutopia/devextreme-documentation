@@ -8,7 +8,7 @@ Specifies the origin of data for the widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts one of the following.
+This option accepts one of the following: 
 
 - **Array of Objects**      
  A simple JavaScript array containing a collection of plain objects.
@@ -20,6 +20,8 @@ This option accepts one of the following.
  A **DataSource** is an object that provides a handy API for data processing. A **DataSource** is a stateful object, which means that it saves data processing settings and applies them each time data is loaded. All underlying data access logic of a **DataSource** is isolated in a **Store**. A **Store** provides an API for reading and modifying data. Unlike the **DataSource**, a **Store** is a stateless object.
 
     [note]If you use [data mapping](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map), features like [export]({basewidgetpath}/Configuration/export/) and [selection]({basewidgetpath}/Methods/#getSelectedRowsData) may work incorrectly. We recommend using [calculated columns]({basewidgetpath}/Configuration/columns/#calculateCellValue) instead of mapping.
+
+#include widgets-ref-datasource-fieldname-note
 
 The widget cannot track changes that a third party makes in the data source. To bring data in the widget up to date in this case, call the [refresh()]({basewidgetpath}/Methods/#refresh) method.
 

@@ -21,6 +21,8 @@ This option accepts one of the following:
 
     [note]Turn the **DataSource**'s [pagination](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) off to prevent data from partitioning.
 
+#include widgets-ref-datasource-fieldname-note
+
 #####See Also#####
 - [argumentField]({basewidgetpath}/Configuration/series/#argumentField) | [valueField]({basewidgetpath}/Configuration/series/#valueField)
 - [getDataSource()]({basewidgetpath}/Methods/#getDataSource)
