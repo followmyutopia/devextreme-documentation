@@ -15,7 +15,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
                 }
                 protected override ValidationResult IsValid(object value, ValidationContext validationContext)
                 {
-                    DateTime dateToCheck = (DateTime)value;
+                    DateTime? dateToCheck = (DateTime?)value;
                     if(dateToCheck <= DateTime.Now.AddYears(-21)) {
                         return ValidationResult.Success;
                     }
@@ -48,7 +48,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
                     MyBase.New("The value of the {0} field is not valid")
                 End Sub
                 Protected Overrides Function IsValid(value As Object, validationContext As ValidationContext) As ValidationResult
-                    Dim DateToCheck As Date = CType(value, Date)
+                    Dim DateToCheck As Date? = CType(value, Date?)
                     If DateToCheck <= Now.AddYears(-21) Then
                         Return ValidationResult.Success
                     End If
@@ -104,7 +104,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
                     return true;
                 }
                 protected override ValidationResult IsValid(object value, ValidationContext validationContext) {
-                    DateTime date = (DateTime)value;
+                    DateTime? date = (DateTime?)value;
                     if(date <= DateTime.Now.AddYears(-21)) {
                         return ValidationResult.Success;
                     }
@@ -121,7 +121,7 @@ If the built-in validation rules do not meet your requirements, implement a cust
             public class Person {
                 // ...
                 [VerifyAge(ErrorMessage = "Persons under 21 are not allowed")]
-                public int Age { get; set; }
+                public DateTime? BirthDate { get; set; }
             }
         }
 
@@ -131,18 +131,15 @@ If the built-in validation rules do not meet your requirements, implement a cust
             Public Class Person
                 ' ...
                 <VerifyAge(ErrorMessage:="Persons under 21 are not allowed")>
-                Public Property Age() As Integer
+                Public Property BirthDate() As Date?
             End Class
         End Namespace
 
 3. In the view, declare a JavaScript function that implements all validation logic.
 
         <script>
-            function verifyAge (options) {
-                if (!(options.value >= 21)) {
-                    return false;
-                }
-                return true;
+            function verifyAge(options) {
+                return options.value && new Date(Date.now()).getFullYear() - options.value.getFullYear() >= 21;
             }
         </script>
 
@@ -151,12 +148,12 @@ To use the custom validation rule, create a DevExtreme editor for the model prop
     <!--Razor C#-->
     @model ApplicationName.Models.Person
 
-    @(Html.DevExtreme().NumberBoxFor(model => model.Age))
+    @(Html.DevExtreme().DateBoxFor(model => model.BirthDate))
 
     <!--Razor VB-->
     @ModelType ApplicationName.Models.Person
 
-    @(Html.DevExtreme().NumberBoxFor(Function(model) model.Age))
+    @(Html.DevExtreme().DateBoxFor(Function(model) model.BirthDate))
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Validation/Overview/Mvc/Light/"
