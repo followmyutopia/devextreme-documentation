@@ -1,7 +1,7 @@
 ===========================================================================
-<!--default-->'auto'<!--/default-->
-<!--acceptValues-->'auto' | true | false<!--/acceptValues-->
-<!--type-->String | Boolean<!--/type-->
+<!--default-->'standard'<!--/default-->
+<!--acceptValues-->'standard' | 'virtual'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

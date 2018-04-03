@@ -1,7 +1,6 @@
 ===========================================================================
-<!--default-->'auto'<!--/default-->
-<!--acceptValues-->'auto' | true | false<!--/acceptValues-->
-<!--type-->String | Boolean<!--/type-->
+<!--default-->'Enable the filter'<!--/default-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
