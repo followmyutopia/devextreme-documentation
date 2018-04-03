@@ -179,8 +179,6 @@ The **Chart** is a widget that visualizes data from a local or remote storage us
 
 ---
 
-All DevExtreme widgets require linking the jQuery library. Linking the Knockout or AngularJS library is optional. For detailed information on how to link the needed libraries, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsbarseriessimplestsingle/"
 }

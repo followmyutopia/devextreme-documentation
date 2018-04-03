@@ -86,8 +86,6 @@ The **DeferRendering** is a widget that waits for its content to be ready before
 
 ---
 
-Note that DevExtreme widgets require you to link the jQuery library to your application. To use the Knockout approach, the Knockout library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
-
 #####See Also#####
 - [DeferRendering](/Documentation/Guide/Widgets/DeferRendering/Overview/)
 

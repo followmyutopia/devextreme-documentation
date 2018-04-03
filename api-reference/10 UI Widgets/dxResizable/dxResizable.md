@@ -147,8 +147,6 @@ The **Resizable** widget enables its content to be resizable in the UI.
 
 ---
 
-Note that DevExtreme widgets require linking the jQuery library to your application. The Knockout or AngularJS library is also needed if you use the Knockout or AngularJS approach. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
-
 #####See Also#####
 - [Resizable - Overview](/Documentation/Guide/Widgets/Resizable/Overview/)
 

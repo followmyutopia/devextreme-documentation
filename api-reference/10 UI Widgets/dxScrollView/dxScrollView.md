@@ -103,8 +103,6 @@ The **ScrollView** is a widget that enables a user to scroll its content.
 
 ---
 
-Note that DevExtreme widgets require linking the jQuery library to your application. The Knockout or AngularJS library is also needed if you use the Knockout or AngularJS approach. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposescrollviewscrollviewscrollview/"
 }

@@ -186,8 +186,6 @@ The **DropDownBox** widget consists of a text field, which displays the current 
 
 ---
 
-Note that DevExtreme widgets require linking the jQuery library to your application. If you use the Knockout or AngularJS approach, the Knockout or AngularJS library is also required. For detailed information on linking these libraries to your project, refer to the topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Drop_Down_Box/SingleSelection/jQuery/Light/"
 }
