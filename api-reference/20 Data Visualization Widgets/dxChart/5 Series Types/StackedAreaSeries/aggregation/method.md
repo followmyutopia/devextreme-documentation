@@ -1,6 +1,6 @@
 ===========================================================================
-<!--default-->'standard'<!--/default-->
-<!--acceptValues-->'auto' | 'standard' | 'virtual'<!--/acceptValues-->
+<!--default-->'avg'<!--/default-->
+<!--acceptValues-->'avg' | 'count' | 'max' | 'min' | 'sum' | 'custom'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

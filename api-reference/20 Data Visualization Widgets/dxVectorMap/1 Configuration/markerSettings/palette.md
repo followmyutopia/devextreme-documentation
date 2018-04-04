@@ -1,7 +1,7 @@
 <!--dep-->..\layers\palette.md<!--/dep-->
 ===========================================================================
-<!--default-->'Default'<!--/default-->
-<!--acceptValues-->'Default' | 'Soft Pastel' | 'Harmony Light' | 'Pastel' | 'Bright' | 'Soft' | 'Ocean' | 'Vintage' | 'Violet' | 'Carmine' | 'Dark Moon' | 'Soft Blue' | 'Dark Violet' | 'Green Mist'<!--/acceptValues-->
+<!--default-->'Material'<!--/default-->
+<!--acceptValues-->'Bright' | 'Carmine' | 'Dark Moon' | 'Dark Violet' | 'Default' | 'Green Mist' | 'Harmony Light' | 'Ocean' | 'Pastel' | 'Soft' | 'Soft Blue' | 'Soft Pastel' | 'Vintage' | 'Violet' | 'Material' | 'Office'<!--/acceptValues-->
 <!--type-->Array<String> | String<!--/type-->
 ===========================================================================
 

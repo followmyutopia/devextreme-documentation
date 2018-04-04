@@ -17,7 +17,7 @@
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->series<!--/typeFunctionParamName2-->
-<!--typeFunctionParamType2-->baseSeriesObject<!--/typeFunctionParamType2-->
+<!--typeFunctionParamType2-->chartSeriesObject<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
 
 <!--/typeFunctionParamDescription2-->
