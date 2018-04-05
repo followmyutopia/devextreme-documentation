@@ -6,11 +6,14 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **done** event.
+A function that is executed when all series are ready.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [getAllSeries()]({basewidgetpath}/Methods/#getAllSeries)
+- [getSeriesByName(seriesName)]({basewidgetpath}/Methods/#getSeriesByNameseriesName)
+- [getSeriesByPos(seriesIndex)]({basewidgetpath}/Methods/#getSeriesByPosseriesIndex)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

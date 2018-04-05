@@ -6,7 +6,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **drawn** event. Executed when the widget has finished drawing itself.
+A function that is executed when the widget's rendering has finished.
 <!--/shortDescription-->
 
 <!--fullDescription-->

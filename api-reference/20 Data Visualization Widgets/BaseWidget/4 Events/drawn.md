@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when the widget has finished drawing itself.
+Raised when the widget's rendering has finished.
 <!--/shortDescription-->
 
 <!--fullDescription-->
