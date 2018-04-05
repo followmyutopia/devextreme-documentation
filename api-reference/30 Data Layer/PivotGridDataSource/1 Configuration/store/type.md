@@ -1,5 +1,5 @@
 ===========================================================================
-<!--acceptValues-->'array' | 'local' | 'odata' | 'breeze' | 'jaydata' | 'xmla'<!--/acceptValues-->
+<!--acceptValues-->'array' | 'local' | 'odata' | 'xmla'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,6 +1,5 @@
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'vertical' | 'horizontal'<!--/acceptValues-->
+<!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
