@@ -63,7 +63,7 @@ The row's visible index. For details on indexes, see the [Column and Row Indexes
 <!--typeFunctionParamName1_field9-->rowType<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->string<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType). Can have one of the following values: *"data"*, *"detail"*, *"group"*, *"groupFooter"*, *"header"*, *"filter"* or *"totalFooter"*. 
+The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType). Can have one of the following values: *"data"*, *"detail"*, *"detailAdaptive"*, *"group"*, *"groupFooter"*, *"header"*, *"filter"* or *"totalFooter"*. 
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->groupIndex<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->number<!--/typeFunctionParamType1_field10-->
@@ -78,7 +78,7 @@ Indicates whether the prepared row is [selected](/Documentation/Guide/Widgets/Da
 <!--typeFunctionParamName1_field12-->isExpanded<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-Indicates whether the row is expanded or collapsed. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFooter"*.
+Indicates whether the row is expanded or collapsed. Unavailable if **rowType** is *"header"*, *"filter"*, or *"totalFooter"*.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->rowElement<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->dxElement<!--/typeFunctionParamType1_field13-->

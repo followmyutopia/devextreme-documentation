@@ -60,7 +60,7 @@ The row's visible index. For details on indexes, see the [Column and Row Indexes
 <!--typeFunctionParamName1_field9-->rowType<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType). Can have one of the following values: *"data"*, *"detail"*, *"group"*, *"groupFooter"*, *"header"*, *"filter"* or *"totalFooter"*. 
+The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType). Can have one of the following values: *"data"*, *"detail"*, *"detailAdaptive"*, *"group"*, *"groupFooter"*, *"header"*, *"filter"* or *"totalFooter"*. 
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->groupIndex<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->Number<!--/typeFunctionParamType1_field10-->

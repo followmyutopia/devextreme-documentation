@@ -77,7 +77,7 @@ The row's visible index. For details on indexes, see the [Column and Row Indexes
 <!--typeFunctionParamName1_field12-->rowType<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->String<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-The row's type. Can have one of the following values: *"data"*, *"detail"*, *"group"*, *"groupFooter"*, *"header"*, *"filter"* or *"totalFooter"*. 
+The row's type. Can have one of the following values: *"data"*, *"detail"*, *"detailAdaptive"*, *"group"*, *"groupFooter"*, *"header"*, *"filter"* or *"totalFooter"*. 
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->row<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->dxDataGridRowObject<!--/typeFunctionParamType1_field13-->
