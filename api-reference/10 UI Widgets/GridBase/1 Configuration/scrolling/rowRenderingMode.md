@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'standard'<!--/default-->
-<!--acceptValues-->'auto' | 'standard' | 'virtual'<!--/acceptValues-->
+<!--acceptValues-->'standard' | 'virtual'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,10 +1,10 @@
 ===========================================================================
-<!--default-->true, false (mobile_devices)<!--/default-->
-<!--type-->Boolean<!--/type-->
+<!--acceptValues-->'adaptive' | 'edit' | 'expand' | 'select'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-A Boolean value that specifies the availability of navigation buttons.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
