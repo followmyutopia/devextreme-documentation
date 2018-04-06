@@ -5,9 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies how to aggregate series points. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include dataviz-ref-aggrmethod-singlepointseries with {
+    seriesType: "Scatter"
+}
 <!--/fullDescription-->

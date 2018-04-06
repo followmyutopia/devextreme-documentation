@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Contains data objects that were aggregated into this point.
 <!--/shortDescription-->
 
 <!--fullDescription-->

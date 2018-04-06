@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Enables data aggregation for the series.
 <!--/shortDescription-->
 
 <!--fullDescription-->
