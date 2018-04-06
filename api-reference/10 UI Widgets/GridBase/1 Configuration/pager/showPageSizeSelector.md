@@ -4,9 +4,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether to show the page size selector.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [allowedPageSizes]({basewidgetpath}/Configuration/pager/#allowedPageSizes)
 <!--/fullDescription-->

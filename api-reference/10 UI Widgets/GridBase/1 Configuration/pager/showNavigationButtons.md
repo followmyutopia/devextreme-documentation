@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether to show navigation buttons.
 <!--/shortDescription-->
 
 <!--fullDescription-->

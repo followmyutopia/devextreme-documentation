@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether to show the [page information]({basewidgetpath}/Configuration/pager/#infoText).
 <!--/shortDescription-->
 
 <!--fullDescription-->

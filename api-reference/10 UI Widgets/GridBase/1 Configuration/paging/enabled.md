@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Enables paging.
 <!--/shortDescription-->
 
 <!--fullDescription-->
