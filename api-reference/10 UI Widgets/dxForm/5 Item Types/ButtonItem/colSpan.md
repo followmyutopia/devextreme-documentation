@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies how many columns the item spans.
 <!--/shortDescription-->
 
 <!--fullDescription-->

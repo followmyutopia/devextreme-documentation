@@ -5,20 +5,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the type of the current item.
+Specifies the item's type. Set it to *"group"* to create a group item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The structure of the form item object depends on the value of this option.
-
-This article describes the structure of an item whose type is "group". The following item types are also available.
-
-- simple  
- [Simple item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/) is an editor-label pair usually bound to a [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object field used to display and modify this field.
-
-- tabbed  
- [Tabbed item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/) is a tabbed panel whose tabs contain child form items. You can customize the layout options for each tab separately.
-
-- empty  
- [Empty item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/) is an empty span between neighboring items. You can specify the number of columns spanned by an empty item.
+#####See Also#####
+- [Simple Item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/)
+- [Tabbed Item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/)
+- [Empty Item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/)
+- [Button Item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/ButtonItem/)
 <!--/fullDescription-->

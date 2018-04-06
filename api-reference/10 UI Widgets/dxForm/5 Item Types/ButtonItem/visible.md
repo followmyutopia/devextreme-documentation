@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether the item is visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->
