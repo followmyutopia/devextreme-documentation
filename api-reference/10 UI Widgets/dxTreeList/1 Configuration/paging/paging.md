@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures paging.
 <!--/shortDescription-->
 
 <!--fullDescription-->
