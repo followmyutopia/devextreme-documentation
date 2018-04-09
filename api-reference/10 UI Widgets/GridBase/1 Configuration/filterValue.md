@@ -3,7 +3,7 @@
 <!--type-->Filter expression<!--/type-->
 ===========================================================================
 
-<!--shortDescription--> 
+<!--shortDescription-->
 Specifies a filter expression.         
 <!--/shortDescription-->
 
