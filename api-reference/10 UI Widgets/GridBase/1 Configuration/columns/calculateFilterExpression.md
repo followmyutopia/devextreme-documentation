@@ -102,7 +102,7 @@ The selected filter operation.
 <!--typeFunctionParamType3-->String<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
 The UI element where the filter expression was set.  
-Possible values: *"filterRow"*, *"headerFilter"* and *"search"*.
+Possible values: *"filterRow"*, *"headerFilter"*, *"filterBuilder", and *"search"*.
 <!--/typeFunctionParamDescription3-->
 
 <!--typeFunctionReturnType-->Filter expression<!--/typeFunctionReturnType-->
