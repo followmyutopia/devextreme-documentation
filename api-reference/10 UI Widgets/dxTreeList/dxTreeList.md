@@ -34,11 +34,13 @@ The **TreeList** is a widget that represents data from a local or remote source 
     <!--JavaScript-->$(function () {
         $("#treeList").dxTreeList({
             dataSource: [
-                { id: '1', fullName: "John Heart", position: "CEO" }, 
-                { id: '1_1', parentId: '1', fullName: "Samantha Bright", position: "COO" }, 
-                { id: '2_1', parentId: '2', fullName: "Robert Reagan", position: "CMO" }, 
-                { id: '2', fullName: "Greta Sims", position: "HR Manager" }
-            ]
+                { key: "1", fullName: "John Heart", position: "CEO" }, 
+                { key: "1_1", head: "1", fullName: "Samantha Bright", position: "COO" }, 
+                { key: "2_1", head: "2", fullName: "Robert Reagan", position: "CMO" }, 
+                { key: "2", fullName: "Greta Sims", position: "HR Manager" }
+            ],
+            keyExpr: "key",
+            parentIdExpr: "head",
             columns: ['fullName', 'position']
         });
     });
@@ -48,7 +50,10 @@ The **TreeList** is a widget that represents data from a local or remote source 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
-    <dx-tree-list [dataSource]="employees">
+    <dx-tree-list 
+        [dataSource]="employees"
+        keyExpr="key"
+        parentIdExpr="head">
         <dxi-column dataField="fullName"></dxi-column>
         <dxi-column dataField="position"></dxi-column>
     </dx-tree-list>
@@ -56,10 +61,10 @@ The **TreeList** is a widget that represents data from a local or remote source 
     <!--TypeScript-->
     export class AppComponent {
         employees = [
-            { id: '1', fullName: "John Heart", position: "CEO" }, 
-            { id: '1_1', parentId: '1', fullName: "Samantha Bright", position: "COO" }, 
-            { id: '2_1', parentId: '2', fullName: "Robert Reagan", position: "CMO" }, 
-            { id: '2', fullName: "Greta Sims", position: "HR Manager" }
+            { key: "1", fullName: "John Heart", position: "CEO" }, 
+            { key: "1_1", head: "1", fullName: "Samantha Bright", position: "COO" }, 
+            { key: "2_1", head: "2", fullName: "Robert Reagan", position: "CMO" }, 
+            { key: "2", fullName: "Greta Sims", position: "HR Manager" }
         ];
     }
 
@@ -68,6 +73,8 @@ The **TreeList** is a widget that represents data from a local or remote source 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-tree-list="{
             dataSource: employees,
+            keyExpr: 'key',
+            parentIdExpr: 'head',
             columns: ['fullName', 'position']
         }"></div>
     </div>
@@ -75,10 +82,10 @@ The **TreeList** is a widget that represents data from a local or remote source 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller("DemoController", function ($scope) {
             $scope.employees = [
-                { id: '1', fullName: "John Heart", position: "CEO" }, 
-                { id: '1_1', parentId: '1', fullName: "Samantha Bright", position: "COO" }, 
-                { id: '2_1', parentId: '2', fullName: "Robert Reagan", position: "CMO" }, 
-                { id: '2', fullName: "Greta Sims", position: "HR Manager" }
+                { key: "1", fullName: "John Heart", position: "CEO" }, 
+                { key: "1_1", head: "1", fullName: "Samantha Bright", position: "COO" }, 
+                { key: "2_1", head: "2", fullName: "Robert Reagan", position: "CMO" }, 
+                { key: "2", fullName: "Greta Sims", position: "HR Manager" }
             ];
         });
 
@@ -86,15 +93,17 @@ The **TreeList** is a widget that represents data from a local or remote source 
 
     <!--HTML--><div data-bind="dxTreeList: {
         dataSource: employees,
+        keyExpr: 'key',
+        parentIdExpr: 'head',
         columns: ['fullName', 'position']
     }"></div>
 
     <!--JavaScript-->var viewModel = {
         employees: [
-            { id: '1', fullName: "John Heart", position: "CEO" }, 
-            { id: '1_1', parentId: '1', fullName: "Samantha Bright", position: "COO" }, 
-            { id: '2_1', parentId: '2', fullName: "Robert Reagan", position: "CMO" }, 
-            { id: '2', fullName: "Greta Sims", position: "HR Manager" }
+            { key: "1", fullName: "John Heart", position: "CEO" }, 
+            { key: "1_1", head: "1", fullName: "Samantha Bright", position: "COO" }, 
+            { key: "2_1", head: "2", fullName: "Robert Reagan", position: "CMO" }, 
+            { key: "2", fullName: "Greta Sims", position: "HR Manager" }
         ]
     };
     ko.applyBindings(viewModel);
@@ -103,32 +112,32 @@ The **TreeList** is a widget that represents data from a local or remote source 
 
     <!--Razor C#-->@(Html.DevExtreme().TreeList()
         .ID("treeList")
-        .DataSource(new[] {
-            new { ID = "1", ParentID = "0", FullName = "John Heart", Position = "CEO" },
-            new { ID = "1_1", ParentID = "1", FullName = "Samantha Bright", Position = "COO" },
-            new { ID = "2_1", ParentID = "2", FullName = "Robert Reagan", Position = "CMO" },
-            new { ID = "2", ParentID = "0", FullName = "Greta Sims", Position = "HR Manager" }
-        }, "Id")
-        .ParentIdExpr("ParentID")
+        .DataSource(new object[] {
+            new { key = "1", fullName = "John Heart", position = "CEO" },
+            new { key = "1_1", head = "1", fullName = "Samantha Bright", position = "COO" },
+            new { key = "2_1", head = "2", fullName = "Robert Reagan", position = "CMO" },
+            new { key = "2", fullName = "Greta Sims", position = "HR Manager" }
+        }, "key")
+        .ParentIdExpr("head")
         .Columns(columns =>
         {
-            columns.Add().DataField("FullName");
-            columns.Add().DataField("Position");
+            columns.Add().DataField("fullName");
+            columns.Add().DataField("position");
         })
     )
 
     <!--Razor VB-->@(Html.DevExtreme().TreeList() _
         .ID("treeList") _
         .DataSource({
-            New With { .ID = "1", .FullName = "John Heart", .Position = "CEO" },
-            New With { .ID = "1_1", .ParentID = "1", .FullName = "Samantha Bright", .Position = "COO" },
-            New With { .ID = "2_1", .ParentID = "2", .FullName = "Robert Reagan", .Position = "CMO" },
-            New With { .ID = "2", .FullName = "Greta Sims", .Position = "HR Manager" }
-        }, "Id") _
-        .ParentIdExpr("ParentID") _
+            New With { .key = "1", .fullName = "John Heart", .position = "CEO" },
+            New With { .key = "1_1", .head = "1", .fullName = "Samantha Bright", .position = "COO" },
+            New With { .key = "2_1", .head = "2", .fullName = "Robert Reagan", .position = "CMO" },
+            New With { .key = "2", .fullName = "Greta Sims", .position = "HR Manager" }
+        }, "key") _
+        .ParentIdExpr("head") _
         .Columns(Sub(columns)
-            columns.Add().DataField("FullName")
-            columns.Add().DataField("Position")
+            columns.Add().DataField("fullName")
+            columns.Add().DataField("position")
         End Sub)
     )
 

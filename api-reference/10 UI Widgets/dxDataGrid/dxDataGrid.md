@@ -58,6 +58,7 @@ The **DataGrid** is a widget that represents data from a local or remote source 
                 City: "Atlanta",
                 State: "Georgia"
             }],
+            keyExpr: "ID",
             columns: ['CompanyName', 'City', 'State']
         });
     });
@@ -67,7 +68,9 @@ The **DataGrid** is a widget that represents data from a local or remote source 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
-    <dx-data-grid [dataSource]="customers">            
+    <dx-data-grid 
+        [dataSource]="customers"
+        keyExpr="ID">            
         <dxi-column dataField="CompanyName"></dxi-column>
         <dxi-column dataField="City"></dxi-column>
         <dxi-column dataField="State"></dxi-column>
@@ -102,6 +105,7 @@ The **DataGrid** is a widget that represents data from a local or remote source 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-data-grid="{
             dataSource: customers,
+            keyExpr: 'ID',
             columns: ['CompanyName', 'City', 'State']
         }"></div>
     </div>
@@ -125,6 +129,7 @@ The **DataGrid** is a widget that represents data from a local or remote source 
 
     <!--HTML--><div data-bind="dxDataGrid: {
         dataSource: customers,
+        keyExpr: 'ID',
         columns: ['CompanyName', 'City', 'State']
     }"></div>
 
@@ -160,7 +165,7 @@ The **DataGrid** is a widget that represents data from a local or remote source 
                 City = "Atlanta",
                 State = "Georgia"
             }
-        })
+        }, "ID")
         .Columns(columns => {
             columns.Add().DataField("CompanyName");
             columns.Add().DataField("City");
@@ -183,7 +188,7 @@ The **DataGrid** is a widget that represents data from a local or remote source 
                 .City = "Atlanta",
                 .State = "Georgia"
             }
-        }) _
+        }, "ID") _
         .Columns(Sub(columns)
             columns.Add().DataField("CompanyName")
             columns.Add().DataField("City")
