@@ -1,4 +1,4 @@
-Paging improves the widget's performance on large datasets because it loads data in portions. To enable paging, set the **paging**.[enabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/paging/#enabled) option to **true**. Use the [pageSize](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/paging/#pageSize) option to change the number of rows per page. You can also specify which page to display by default using the [pageIndex](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/paging/#pageIndex) option.
+Paging improves the widget's performance on large datasets because it renders rows by pages instead of rendering them at once. To enable paging, set the **paging**.[enabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/paging/#enabled) option to **true**. Use the [pageSize](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/paging/#pageSize) option to change the number of rows per page. You can also specify which page to display by default using the [pageIndex](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/paging/#pageIndex) option.
 
 ---
 
