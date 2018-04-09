@@ -12,6 +12,9 @@ A function that is executed after the widget creates a cell.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/CellCustomization/jQuery/Light/"
 }
+
+#####See Also#####
+- [Customize Cells](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/#Customize_the_Appearance)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

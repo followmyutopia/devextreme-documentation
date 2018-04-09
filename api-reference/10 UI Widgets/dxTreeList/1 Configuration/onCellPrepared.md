@@ -9,7 +9,8 @@ A function that is executed after the widget creates a cell.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [Customize Cells](/Documentation/Guide/Widgets/TreeList/Columns/Customize_Cells/#Customize_the_Appearance)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
