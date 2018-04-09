@@ -1,10 +1,10 @@
 ===========================================================================
-<!--default-->300, 200 (Material)<!--/default-->
-<!--type-->Number<!--/type-->
+<!--default-->true<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-A number specifying the time in milliseconds spent on the animation of the expanding or collapsing of a panel.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

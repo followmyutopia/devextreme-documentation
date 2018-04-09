@@ -1,10 +1,10 @@
 ===========================================================================
-<!--default-->300, 200 (Material)<!--/default-->
-<!--type-->Number<!--/type-->
+<!--acceptValues-->'adaptive' | 'edit' | 'expand' | 'select'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-A number specifying the time in milliseconds spent on the animation of the expanding or collapsing of a panel.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

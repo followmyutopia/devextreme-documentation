@@ -6,7 +6,7 @@
 <!--/shortDescription-->
 
 <!--paramName1-->mode<!--/paramName1-->
-<!--paramType1-->String<!--/paramType1-->
+<!--paramType1-->Enums.TreeListGetSelectedKeysMode<!--/paramType1-->
 <!--paramDescription1-->
 
 <!--/paramDescription1-->
