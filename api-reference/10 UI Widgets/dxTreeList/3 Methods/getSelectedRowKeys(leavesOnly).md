@@ -2,8 +2,12 @@
 ===================================================================
 ===================================================================
 
+<!--deprecated-->
+Use the [getSelectedRowKeys(mode)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getSelectedRowKeysmode) method instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
-Gets the currently selected row keys. 
+Gets the selected rows' keys. 
 <!--/shortDescription-->
 
 <!--paramName1-->leavesOnly<!--/paramName1-->
@@ -14,7 +18,7 @@ Specifies whether this method returns only leaves' keys.
 
 <!--returnType-->Array<any><!--/returnType-->
 <!--returnDescription-->
-The currently selected row keys.
+The selected rows' keys.
 <!--/returnDescription-->
 
 <!--fullDescription-->
