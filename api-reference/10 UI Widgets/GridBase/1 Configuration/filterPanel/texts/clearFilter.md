@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The text of the *"Clear"* link.
 <!--/shortDescription-->
 
 <!--fullDescription-->

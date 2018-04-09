@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether the filter panel is visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->
