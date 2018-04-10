@@ -4,9 +4,7 @@
 
 <!--deprecated-->
 Use the [getSelectedRowKeys(mode)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getSelectedRowKeysmode) method instead.
-<!--/deprecated-->
-
-<!--shortDescription-->
+<!--/deprecated--><!--shortDescription-->
 Gets the selected rows' keys. 
 <!--/shortDescription-->
 
