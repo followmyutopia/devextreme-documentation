@@ -190,10 +190,11 @@ This example shows how to make a query for data.
 ---
 
 #####See Also#####
-- [Data Layer - DataSource Examples | Custom Sources](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources)
-- [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
 - [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)
+- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
+- [Data Layer - DataSource Examples | Custom Sources](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources)
+- [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, data binding, provide data, custom data source, CustomStore, DataSource, load

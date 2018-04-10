@@ -143,8 +143,7 @@ Note that individual settings override type-specific settings which, in turn, ov
 #####See Also#####
 - [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)
 - [Series Points](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/)
-- [Series Hover](/Documentation/Guide/Widgets/Chart/Series/Hover/)
-- [Series Selection](/Documentation/Guide/Widgets/Chart/Series/Selection/)
+- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
 - [Access a Series Using the API](/Documentation/Guide/Widgets/Chart/Series/Access_a_Series_Using_the_API/)
 
 [tags]chart, overview, series type, series name, common series settings, inidividual series settings

@@ -48,4 +48,7 @@ Series points get aggregated by individual [aggregation intervals](/Documentatio
     Applies a custom aggregate function specified in the [calculate](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/#calculate) option. 
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartSeriesAggregationMethod` enum with one of the following values: `Avg`, `Count`, `Max`, `Min`, `Ohlc`, `Range`, `Sum`, and `Custom`.
+
+#####See Also#####
+- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
 <!--/fullDescription-->

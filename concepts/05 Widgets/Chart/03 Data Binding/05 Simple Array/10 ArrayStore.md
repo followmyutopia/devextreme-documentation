@@ -149,6 +149,7 @@ As you may notice, in the previous code, the **ArrayStore** is not declared expl
 - [Data Layer - DataSource Examples | In-memory Data](/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data)
 - [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)
+- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
 - [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/jQuery/Light/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 

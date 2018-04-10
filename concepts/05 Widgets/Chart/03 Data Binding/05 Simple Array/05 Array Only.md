@@ -113,9 +113,8 @@ If objects in an array need to be processed (sorted, filtered, etc.), you can cr
 ---
 
 #####See Also#####
-- [Bind to the ArrayStore](/Documentation/Guide/Widgets/Chart/Data_Binding/Simple_Array/ArrayStore/)
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)
-- [Data Layer - Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
+- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, data binding, provide data, array, process data, Query

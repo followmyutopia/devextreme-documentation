@@ -19,3 +19,6 @@ Calculates the sum of all point values in an interval.
 Applies a custom aggregate function specified in the [calculate](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/#calculate) option. 
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartSeriesAggregationMethod` enum with one of the following values: `Avg`, `Count`, `Max`, `Min`, `Sum`, and `Custom`. Note that although this enum accepts more values, only these can be applied to a **{seriesType}** series.
+
+#####See Also#####
+- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)

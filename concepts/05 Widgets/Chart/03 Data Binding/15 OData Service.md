@@ -136,10 +136,11 @@ As you may notice, in the previous code, the **ODataStore** is not declared expl
 }
 
 #####See Also#####
-- [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores)
-- [Data Layer - Data Source Examples | OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
 - [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)
+- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
+- [Data Layer - What Are Stores](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores)
+- [Data Layer - Data Source Examples | OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, data binding, provide data, odata, ODataStore, DataSource, process data

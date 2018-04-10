@@ -81,6 +81,7 @@ If you need to process data after obtaining it, implement the [CustomStore](/Doc
 #####See Also#####
 - [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)
 - [Update Data in the Chart](/Documentation/Guide/Widgets/Chart/Data_Binding/Update_Data/)
+- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
 [tags]chart, data binding, provide data, json, jsonp

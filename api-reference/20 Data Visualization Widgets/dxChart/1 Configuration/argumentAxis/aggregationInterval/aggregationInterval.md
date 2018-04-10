@@ -65,6 +65,7 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
 }
 
 #####See Also#####
+- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
 - **series**.[aggregation](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/aggregation/)
 - [aggregationGroupWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#aggregationGroupWidth)
 <!--/fullDescription-->

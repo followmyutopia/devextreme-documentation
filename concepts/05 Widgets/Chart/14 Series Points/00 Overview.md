@@ -127,6 +127,7 @@ Settings specified in the manner described above apply to a congregation of seri
 #####See Also#####
 - [Access a Series Point Using the API](/Documentation/Guide/Widgets/Chart/Series_Points/Access_a_Series_Point_Using_the_API/)
 - [Series Overview](/Documentation/Guide/Widgets/Chart/Series/Overview/)
+- [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
 - [Chart Demos](/Demos/WidgetsGallery/Demo/Charts/CustomizePointsAndLabels/jQuery/Light/)
 - [Chart API Reference](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/)
 
