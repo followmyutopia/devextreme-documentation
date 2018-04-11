@@ -111,21 +111,6 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
 
 [note]Band columns must not have the **dataField** option set.
 
-The column with the **isBand** flag set to **true** can have the following properties only.
-
-- [alignment]({basewidgetpath}/Configuration/columns/#alignment)
-- [allowFixing]({basewidgetpath}/Configuration/columns/#allowFixing)
-- [allowHiding]({basewidgetpath}/Configuration/columns/#allowHiding)
-- [allowReordering]({basewidgetpath}/Configuration/columns/#allowReordering)
-- [caption]({basewidgetpath}/Configuration/columns/#caption)
-- [cssClass]({basewidgetpath}/Configuration/columns/#cssClass)
-- [fixed]({basewidgetpath}/Configuration/columns/#fixed)
-- [fixedPosition]({basewidgetpath}/Configuration/columns/#fixedPosition)
-- [headerCellTemplate]({basewidgetpath}/Configuration/columns/#headerCellTemplate)
-- [name]({basewidgetpath}/Configuration/columns/#name)
-- [visible]({basewidgetpath}/Configuration/columns/#visible)
-- [visibleIndex]({basewidgetpath}/Configuration/columns/#visibleIndex)
-
 #####See Also#####
 - [Band Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Band_Columns/)
 <!--/fullDescription-->

@@ -33,19 +33,15 @@ The text displayed in the column header.
 
 * **Service String**  
 One of the following values:
- - *"command:edit"*    
-    Gets the editing column.
 
- - *"command:select"*    
-    Gets the selection column.  
-
- - *"command:adaptive"*  
-    Gets the adaptive column.  
+ - *"command:commandColumn"*   
+    Here, *commandColumn* is a value of the [command]({basewidgetpath}/Configuration/columns/#command) option.
 
  - Any string matching the following format: *"optionName:value"*  
-    Here, the *optionName* is one of the [column options]({basewidgetpath}/Configuration/columns/).
+    Here, *optionName* is one of the [column options]({basewidgetpath}/Configuration/columns/).
 
 #####See Also#####
-#include common-link-callmethods
 - [columns]({basewidgetpath}/Configuration/columns/)
+- [Command Columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Command_Columns/)
+#include common-link-callmethods
 <!--/fullDescription-->
