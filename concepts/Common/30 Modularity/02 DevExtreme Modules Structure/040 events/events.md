@@ -1,1 +1,19 @@
-A folder containing modules that expose UI events.
+Exposes an object that serves as a namespace for methods used for working with [UI events](/Documentation/ApiReference/UI_Widgets/UI_Events/).
+
+Exports:
+
+- *off* - The [off](/Documentation/ApiReference/Common/utils/events/Methods/#offelement_eventName_selector_handler) method
+
+        require("events").off
+
+- *on* - The [on](/Documentation/ApiReference/Common/utils/events/Methods/#onelement_eventName_selector_data_handler) method
+
+        require("events").on
+
+- *one* - The [one](/Documentation/ApiReference/Common/utils/events/Methods/#oneelement_eventName_selector_data_handler) method
+
+        require("events").one
+
+- *trigger* - The [trigger](/Documentation/ApiReference/Common/utils/events/Methods/#triggerelement_event_extraParameters) method
+
+        require("events").trigger
