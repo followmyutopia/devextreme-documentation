@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the container in which to place the **{WidgetName}**. 
+Specifies the container in which to place the widget. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
