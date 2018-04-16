@@ -1,4 +1,5 @@
 <!--merge--><!--/merge-->
 <!--default-->'none'<!--/default-->
+<!--acceptValues-->'left'|'none'|'right'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

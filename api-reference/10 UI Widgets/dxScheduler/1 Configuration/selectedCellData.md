@@ -1,11 +1,13 @@
 ===========================================================================
-<!--type-->Array<Number><!--/type-->
+<!--default-->[]<!--/default-->
+<!--type-->Array<any><!--/type-->
+<!--readonly--><!--/readonly-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the available page sizes in the page size selector.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When this option is set to *"auto"*, the widget determines the allowed page sizes depending on the amount of data.
+
 <!--/fullDescription-->
