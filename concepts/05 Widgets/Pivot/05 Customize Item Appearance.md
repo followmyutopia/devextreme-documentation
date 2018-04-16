@@ -1,3 +1,5 @@
+<span style="color:red"><b>IMPORTANT:</b></span> The **Pivot** widget is deprecated since v18.1. We recommend using the [TabPanel](/Documentation/Guide/Widgets/TabPanel/Overview/) widget instead.
+
 A **Pivot** item includes a view and a title. For a minor customization of **Pivot** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxPivot/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates two **Pivot** items: the first contains only text and a title, the second is disabled.
 
     <!--JavaScript-->

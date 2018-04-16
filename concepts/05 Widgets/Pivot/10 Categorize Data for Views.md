@@ -1,3 +1,5 @@
+<span style="color:red"><b>IMPORTANT:</b></span> The **Pivot** widget is deprecated since v18.1. We recommend using the [TabPanel](/Documentation/Guide/Widgets/TabPanel/Overview/) widget instead.
+
 Because as a rule, the **Pivot** presents categorized lists, you need to form them in code. For example, assume that you have the following array named `contacts`.
 
     <!--JavaScript-->

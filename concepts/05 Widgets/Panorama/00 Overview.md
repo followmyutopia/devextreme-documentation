@@ -1,3 +1,5 @@
+<span style="color:red"><b>IMPORTANT:</b></span> The **Panorama** widget is deprecated since v18.1. We recommend using the [TabPanel](/Documentation/Guide/Widgets/TabPanel/Overview/) or [MultiView](/Documentation/Guide/Widgets/MultiView/Overview/) widget instead.
+
 The **Panorama** widget is a full-screen widget that allows you to arrange items on a long horizontal canvas split into several views. Each view contains several items, and an end user navigates the views with the swipe gesture. The **Panorama** is often used as a navigation map on the first page of an application. 
 
 #include common-demobutton with {

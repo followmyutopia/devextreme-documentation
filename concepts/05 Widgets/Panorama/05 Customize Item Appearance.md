@@ -1,3 +1,5 @@
+<span style="color:red"><b>IMPORTANT:</b></span> The **Panorama** widget is deprecated since v18.1. We recommend using the [TabPanel](/Documentation/Guide/Widgets/TabPanel/Overview/) or [MultiView](/Documentation/Guide/Widgets/MultiView/Overview/) widget instead.
+
 For a minor customization of **Panorama** views, you can use the default item template. This template defines the appearance of a view depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxPanorama/Default_Item_Template/) are present or absent from the view's data object. For example, the following code generates two **Panorama** views: the first is disabled, the second contains only text and a title.
 
     <!--JavaScript-->
