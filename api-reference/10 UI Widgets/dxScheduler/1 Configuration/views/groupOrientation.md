@@ -16,6 +16,10 @@ For the **day**, **month**, **week**, and **workWeek** view types.
 - *"vertical"*          
 For the **timelineDay**, **timelineMonth**, **timelineWeek**, and **timelineWorkWeek** view types. For the **agenda**, resource headers are always organized vertically.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupOrientation/jQuery/Light/"
+}
+
 #####See Also#####
 - [Group Appointments by Resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/)
 <!--/fullDescription-->

@@ -9,7 +9,9 @@ A function that is executed when a user attempts to open the browser's context m
 <!--/shortDescription-->
 
 <!--fullDescription-->
- 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/ContextMenuIntegration/jQuery/Light/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
