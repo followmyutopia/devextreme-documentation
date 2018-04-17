@@ -12,6 +12,7 @@ The widget state to be set.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
+See an example in the [state()]({basewidgetpath}/Methods/#state) method.
 
 #####See Also#####
 #include common-link-callmethods
