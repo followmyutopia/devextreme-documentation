@@ -7,5 +7,5 @@ Specifies whether to synchronize the [filter row](/Documentation/Guide/Widgets/{
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option set to *"auto"* means that the synchronization is on if the [filter panel](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterPanel/) is visible, and off otherwise.
+The synchronization is on by default if the [filter panel](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/filterPanel/) is visible, and off otherwise.
 <!--/fullDescription-->

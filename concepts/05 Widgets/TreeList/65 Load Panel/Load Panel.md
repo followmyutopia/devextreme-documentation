@@ -10,7 +10,7 @@ The load panel is shown only for remote data sources by default. To show it rega
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             loadPanel: {
-                enabled: true // or false | "auto"
+                enabled: true
             }
         });
     });
@@ -20,7 +20,7 @@ The load panel is shown only for remote data sources by default. To show it rega
     <!--HTML-->
     <dx-tree-list ... >
         <dxo-load-panel
-            [enabled]="true"> <!-- or false | "auto" -->
+            [enabled]="true">
         </dxo-load-panel>
     </dx-tree-list>
 

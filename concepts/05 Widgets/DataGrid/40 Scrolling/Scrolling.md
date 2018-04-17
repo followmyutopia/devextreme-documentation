@@ -66,7 +66,7 @@ The **DataGrid** adapts its scrolling mechanism to the current platform. It util
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
             scrolling: {
-                useNative: true // or false | "auto"
+                useNative: true
             }
         });
     });
@@ -76,7 +76,7 @@ The **DataGrid** adapts its scrolling mechanism to the current platform. It util
     <!--HTML-->
     <dx-data-grid ... >
         <dxo-scrolling
-            [useNative]="true"> <!-- or false | "auto" -->
+            [useNative]="true">
         </dxo-scrolling>
     </dx-data-grid>
 

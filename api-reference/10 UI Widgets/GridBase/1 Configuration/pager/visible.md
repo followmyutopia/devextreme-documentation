@@ -7,5 +7,5 @@ Specifies whether the pager is visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When this option is set to *"auto"*, the pager is visible if paging is [enabled]({basewidgetpath}/Configuration/paging/#enabled) and invisible otherwise.
+The pager is visible by default if paging is [enabled]({basewidgetpath}/Configuration/paging/#enabled) and invisible otherwise.
 <!--/fullDescription-->

@@ -52,7 +52,7 @@ The **TreeList** adapts its scrolling mechanism to the current platform. It util
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
             scrolling: {
-                useNative: true // or false | "auto"
+                useNative: true
             }
         });
     });
@@ -62,7 +62,7 @@ The **TreeList** adapts its scrolling mechanism to the current platform. It util
     <!--HTML-->
     <dx-tree-list ... >
         <dxo-scrolling
-            [useNative]="true"> <!-- or false | "auto" -->
+            [useNative]="true">
         </dxo-scrolling>
     </dx-tree-list>
 
