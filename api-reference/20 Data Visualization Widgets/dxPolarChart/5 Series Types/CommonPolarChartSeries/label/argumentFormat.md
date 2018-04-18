@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a format for arguments displayed by point labels.
+Formats the point argument before it is displayed in the point label. To format the point value, use the [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/label/#format) option.
 <!--/shortDescription-->
 
 <!--fullDescription-->

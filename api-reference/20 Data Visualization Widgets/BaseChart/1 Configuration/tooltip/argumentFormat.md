@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a format for arguments of the chart's series points.
+Formats the point argument before it is displayed in the tooltip. To format the point value, use the [format]({basewidgetpath}/Configuration/tooltip/#format) option.
 <!--/shortDescription-->
 
 <!--fullDescription-->

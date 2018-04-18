@@ -4,19 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Formats the point argument before it will be displayed in the point label.
+Formats the point argument before it is displayed in the point label. To format the point value, use the [format](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/label/#format) option.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Be default, a point label displays only the point value. Using the **label**.**customizeText** option, you can instruct the label to display the point argument as well. The **argumentFormat** option applies in this case only.
-
-This option accepts an object whose fields are described in the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section. However, there is one more field available called **argumentPrecision**. This field accepts a number specifying how many digits after the decimal point to save in a value of a [numeric format](/Documentation/ApiReference/Common/Object_Structures/format/#type). See an example in the following code.
-
-    // 12.3456 --> 12.34
-    argumentFormat: {
-        type: "fixedPoint",
-        argumentPrecision: 2
-    }
+A point label displays only the point value by default. Using the **label**.[customizeText](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/label/#customizeText) option, you can instruct the label to display the point argument as well. The **argumentFormat** option applies in this case only. This option accepts an object whose fields are described in the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section.
 
 [note]DevExtreme widgets provide a wide choice of [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type). If you are, however, going to use custom formats, link the [Globalize](https://github.com/jquery/globalize) library to your project. Learn how to do this from topics in the [Installation](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) section.
 
