@@ -7,9 +7,16 @@ Configures the popup. Used only if **editing**.[mode]({basewidgetpath}/Configura
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The popup always contains a form, whose items are used for editing. The **popup** object contains options that customize the popup itself (see their list in the [Popup Configuration](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/) section). To customize the form items, use the [form](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#form) option.
+You can specify most of the [Popup options](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/) in this object except those listed below. The **{WidgetName}** overriddes these options.
+
+- [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#contentTemplate)
+- [fullScreen](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#fullScreen)
+- [showTitle](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#showTitle)
+- [toolbarItems](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/toolbarItems/)
+
+The popup always contains a form whose items are used for editing. Use the [form]({basewidgetpath}/Configuration/editing/#form) option to customize the form items.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/PopupEditing/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/{WidgetName}/PopupEditing/jQuery/Light/"
 }
 <!--/fullDescription-->
