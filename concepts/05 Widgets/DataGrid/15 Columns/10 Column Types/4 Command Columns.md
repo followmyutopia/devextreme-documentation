@@ -1,18 +1,20 @@
-Command columns are used for interaction. The **DataGrid** provides the following command columns.
+Command columns are used for interaction. The **DataGrid** provides the following command columns:
 
 - **Editing Column**        
 Contains editing controls. Appears when [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/) is allowed and depends on the [editing mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode).
 
 - **Adaptive Column**       
-Contains buttons that expand adaptive detail rows. Appears if [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#columnHidingEnabled) is **true** or [hidingPriority](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#hidingPriority) is set for at least one column and only when certain columns do not fit into the screen or container size.
+Contains the ellipsis buttons that expand/collapse [adaptive detail rows](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/). Appears if [columnHidingEnabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#columnHidingEnabled) is **true** or [hidingPriority](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#hidingPriority) is set for at least one column and only when certain columns do not fit into the screen or container size.
 
 - **Selection Column**    
 Contains check boxes that select rows. Appears if **selection**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#mode) is *"multiple"* and [showCheckBoxesMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#showCheckBoxesMode) differs from *"none"*.
 
+- **Expand Column**     
+Contains the arrow buttons that expand/collapse [groups](/Documentation/Guide/Widgets/DataGrid/Grouping/) and [detail sections](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/).
 
 ![DevExtreme HTML5 JavaScript DataGrid CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/18_1/DataGrid/Command_Columns.png)
 
-You can relocate or resize the command columns by changing their **visibleIndex** and **width** options. For this, call the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method as shown by the following code.
+You can relocate or resize the command columns by changing their **visibleIndex** and **width** options. For this, call the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method as shown by the following code:
 
 ---
 ##### jQuery
@@ -37,6 +39,9 @@ You can relocate or resize the command columns by changing their **visibleIndex*
 
     // changes the width of the adaptive column to 80 pixels
     dataGrid.columnOption("command:adaptive", "width", 80);
+
+    // changes the width of the expand column to 70 pixels
+    dataGrid.columnOption("command:expand", "width", 70);
 
 ##### Angular
 
@@ -67,6 +72,10 @@ You can relocate or resize the command columns by changing their **visibleIndex*
             // changes the width of the adaptive column to 80 pixels
             this.dataGrid.instance.columnOption("command:adaptive", "width", 80);
         }
+        modifyExpandColumn () {
+            // changes the width of the adaptive column to 70 pixels
+            this.dataGrid.instance.columnOption("command:expand", "width", 70);
+        }
     }
     @NgModule({
         imports: [
@@ -78,27 +87,23 @@ You can relocate or resize the command columns by changing their **visibleIndex*
     
 ---
 
-You can also customize cells of command columns using the [onCellPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellPrepared) function. To distinguish cells of a command column from others, check the argument's **column.command** field for the *"edit"*, *"adaptive"* or *"select"* value.
+You can also customize command columns' cells using the [onCellPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellPrepared) function. To distinguish between cells of a command column and other cells, check the argument's **column.command** field for the *"edit"*, *"adaptive"*, *"expand"*, or *"select"* value. In the following code, the editing column's cells are customized by attaching a new click handler to the *"Edit"* links: 
 
 ---
 ##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
-            onCellPrepared: function(e) {
-                if (e.rowType == "data") {
-                    var cell = e.cellElement;
-                    switch (e.column.command) {
-                        case "edit":
-                            // ...
-                            break;
-                        case "adaptive":
-                            // ...
-                            break;
-                        case "select";
-                            // ...
-                            break;
-                    }
+            // ...
+            editing: { allowUpdating: true },
+            onCellPrepared: function (e) {
+                if (e.rowType == "data" && e.column.command == "edit") {
+                    var cellElement = e.cellElement,
+                        editLink = cellElement.find(".dx-link-edit");
+                    editLink.off("dxclick");
+                    editLink.on("dxclick", (args) => {
+                        // Implement your logic here
+                    });
                 }
             }
         });
@@ -108,22 +113,17 @@ You can also customize cells of command columns using the [onCellPrepared](/Docu
 
     <!--TypeScript-->
     import { DxDataGridModule } from 'devextreme-angular';
+    import * as events from "devextreme/events";
     // ...
     export class AppComponent {
         onCellPrepared (e) {
-            if (e.rowType == "data") {
-                let cell = e.cellElement;
-                switch (e.column.command) {
-                    case "edit":
-                        // ...
-                        break;
-                    case "adaptive":
-                        // ...
-                        break;
-                    case "select";
-                        // ...
-                        break;
-                }
+            if (e.rowType == "data" && e.column.command == "edit") {
+                let cellElement = e.cellElement,
+                    editLink = cellElement.querySelector(".dx-link-edit");
+                events.off(editLink); 
+                events.on(editLink, "dxclick", (args) => {
+                    // Implement your logic here
+                });
             }
         };
     }
@@ -138,12 +138,42 @@ You can also customize cells of command columns using the [onCellPrepared](/Docu
     <!--HTML-->
     <dx-data-grid ...
         (onCellPrepared)="onCellPrepared($event)">
+        <dxo-editing 
+            [allowUpdating]="true">
+        </dxo-editing>
     </dx-data-grid>
     
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        .ID("dataGrid")
+        .Editing(e => { 
+            e.AllowUpdating(true); 
+        })
+        .OnCellPrepared("dataGrid_cellPrepared")
+        // ...
+    )
+    <script type="text/javascript"> 
+        function dataGrid_cellPrepared (e) {
+            if (e.rowType == "data" && e.column.command == "edit") {
+                var cellElement = e.cellElement,
+                    editLink = cellElement.find(".dx-link-edit");
+                editLink.off("dxclick");
+                editLink.on("dxclick", (args) => {
+                    // Implement your logic here
+                });
+            }
+        }
+    </script>
+
 ---
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/jQuery/Light/"
 }
+
+#####See Also#####
+- [Create a Custom Command Column](/Documentation/Guide/Widgets/DataGrid/How_To/Create_a_Custom_Command_Column/)
 
 [tags] dataGrid, data grid, column types, command columns, editing column, adaptive column, selection column

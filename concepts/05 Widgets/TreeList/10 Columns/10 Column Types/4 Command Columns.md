@@ -59,24 +59,23 @@ You can relocate or resize the command columns by changing their **visibleIndex*
     
 ---
 
-You can also customize cells of command columns using the [onCellPrepared](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onCellPrepared) function. To distinguish cells of a command column from others, check the argument's **column.command** field for the *"edit"* or *"adaptive"* value.
+You can also customize cells of command columns using the [onCellPrepared](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onCellPrepared) function. To distinguish cells of a command column from others, check the argument's **column.command** field for the *"edit"* or *"adaptive"* value. In the following code, the editing column's cells are customized by attaching a new click handler to the *"Edit"* links: 
 
 ---
 ##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeListContainer").dxTreeList({
-            onCellPrepared: function(e) {
-                if (e.rowType == "data") {
-                    var cell = e.cellElement;
-                    switch (e.column.command) {
-                        case "edit":
-                            // ...
-                            break;
-                        case "adaptive":
-                            // ...
-                            break;
-                    }
+            // ...
+            editing: { allowUpdating: true },
+            onCellPrepared: function (e) {
+                if (e.rowType == "data" && e.column.command == "edit") {
+                    var cellElement = e.cellElement,
+                        editLink = cellElement.find(".dx-link-edit");
+                    editLink.off("dxclick");
+                    editLink.on("dxclick", (args) => {
+                        // Implement your logic here
+                    });
                 }
             }
         });
@@ -86,19 +85,17 @@ You can also customize cells of command columns using the [onCellPrepared](/Docu
 
     <!--TypeScript-->
     import { DxTreeListModule } from 'devextreme-angular';
+    import * as events from "devextreme/events";
     // ...
     export class AppComponent {
         onCellPrepared (e) {
-            if (e.rowType == "data") {
-                let cell = e.cellElement;
-                switch (e.column.command) {
-                    case "edit":
-                        // ...
-                        break;
-                    case "adaptive":
-                        // ...
-                        break;
-                }
+            if (e.rowType == "data" && e.column.command == "edit") {
+                let cellElement = e.cellElement,
+                    editLink = cellElement.querySelector(".dx-link-edit");
+                events.off(editLink); 
+                events.on(editLink, "dxclick", (args) => {
+                    // Implement your logic here
+                });
             }
         };
     }
@@ -113,11 +110,39 @@ You can also customize cells of command columns using the [onCellPrepared](/Docu
     <!--HTML-->
     <dx-tree-list ...
         (onCellPrepared)="onCellPrepared($event)">
+        <dxo-editing 
+            [allowUpdating]="true">
+        </dxo-editing>
     </dx-tree-list>
-    
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().TreeList()
+        .ID("treeList")
+        .Editing(e => { 
+            e.AllowUpdating(true); 
+        })
+        .OnCellPrepared("treeList_cellPrepared")
+        // ...
+    )
+    <script type="text/javascript"> 
+        function treeList_cellPrepared (e) {
+            if (e.rowType == "data" && e.column.command == "edit") {
+                var cellElement = e.cellElement,
+                    editLink = cellElement.find(".dx-link-edit");
+                editLink.off("dxclick");
+                editLink.on("dxclick", (args) => {
+                    // Implement your logic here
+                });
+            }
+        }
+    </script>
+
 ---
 
 #####See Also#####
+- [Create a Custom Command Column](/Documentation/Guide/Widgets/TreeList/How_To/Create_a_Custom_Command_Column/)
 - [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/Adaptability/jQuery/Light/)
 
 [tags] treelist, tree list, column types, command columns, editing column, adaptive column
