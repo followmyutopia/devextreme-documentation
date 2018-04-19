@@ -39,8 +39,17 @@ The text displayed in the column header.
 
 * **Service String**  
 One of the following values:
- - *"command:commandColumn"*   
-    Here, *commandColumn* is a value of the [command]({basewidgetpath}/Configuration/columns/#command) option.
+ - *"command:edit"*    
+    Gets the editing column.
+
+ - *"command:select"*    
+    Gets the selection column.   
+
+ - *"command:adaptive"*  
+    Gets the adaptive column.  
+
+ - *"command:expand"*  
+    Gets the expand column.  
 
  - Any string matching the following format: *"optionName:value"*  
     Here, *optionName* is one of the [column options]({basewidgetpath}/Configuration/columns/).
