@@ -37,7 +37,7 @@ To zoom a standalone **Chart** initially, call its [zoomArgument(startValue, end
 
 ---
 
-If the **Chart** is [bound to the RangeSelector](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/#Using_the_RangeSelector_Widget), specify the initial zoom for the **Chart** by setting the [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value) option of the **RangeSelector**.
+If the **Chart** is [bound to the RangeSelector](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/#Using_the_RangeSelector_Widget), specify the **Chart**'s initial zoom by setting the **RangeSelector**'s [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value) option. 
 
 ---
 ##### jQuery

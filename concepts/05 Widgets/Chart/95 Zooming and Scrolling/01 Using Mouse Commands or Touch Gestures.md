@@ -1,4 +1,4 @@
-Mouse-equipped users zoom the chart by rotating the mouse wheel and scroll it by dragging the chart's plot. Users with touch-enabled devices zoom the chart using the spread and pinch gestures, and scroll the chart using the drag gesture.
+Users can zoom the chart by rotating the mouse wheel and scroll it by dragging its plot. On touch-enabled devices, users can zoom the chart using the spread and pinch gestures and scroll the chart using the drag gesture.
 
 ![DevExtreme HTML5 JavaScript Charts Zooming Scrolling](/Content/images/doc/18_1/ChartJS/devextreme-chart-NewZoomScroll.gif)
 

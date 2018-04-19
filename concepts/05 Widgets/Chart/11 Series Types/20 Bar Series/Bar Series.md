@@ -71,3 +71,4 @@ Allows you to distribute bars of a single argument between several side-by-side 
 - [Series Points](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/)
 - [Bind Series to Data](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/)
 - [Range Series](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/)
+- [Bi-Directional Bar Chart](/Documentation/Guide/Widgets/Chart/Bi-Directional_Bar_Chart/)

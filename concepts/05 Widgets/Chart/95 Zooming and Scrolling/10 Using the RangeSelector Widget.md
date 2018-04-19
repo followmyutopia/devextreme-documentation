@@ -1,4 +1,4 @@
-The **Chart** can be zoomed and scrolled using the [RangeSelector](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/) widget. The following code shows how to bind these widgets together. Note that both the **Chart** and **RangeSelector** have a common data source and may have common series configuration if the **RangeSelector** should display the **Chart** in the background. 
+The **Chart** can be zoomed and scrolled using the [RangeSelector](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/) widget. The following code shows how to bind these widgets. Note that the **Chart** and **RangeSelector** have a common data source and may have the same series configuration if the **RangeSelector** should display the **Chart** in the background. 
 
 ---
 ##### jQuery
@@ -78,7 +78,7 @@ The **Chart** can be zoomed and scrolled using the [RangeSelector](/Documentatio
 #####See Also#####
 - [zoomArgument(startValue, endValue)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#zoomArgumentstartValue_endValue)
 
-If you need to fix a zoom window and allow the user only to move it along the scale, set the [minRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/minRange/) and [maxRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/maxRange/) options of the [scale](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/) object to a single value defining the length of the zoom window. Make sure to specify the initial zoom using the [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value) option.
+If you need to fix the zoom window and allow users to only move it along the scale, set the [scale](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/) object's [minRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/minRange/) and [maxRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/maxRange/) options to a single value defining the zoom window's length. Make sure to specify the initial zoom using the [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value) option.
 
 ---
 ##### jQuery
