@@ -125,7 +125,7 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
     import { DxDataGridModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
@@ -133,31 +133,29 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
     // ...
     export class AppComponent {
         gridDataSource: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.gridDataSource = new DataSource({
                 load: function (loadOptions) {
-                    let params: URLSearchParams = new URLSearchParams();
-                    params.set("skip", loadOptions.skip);
-                    params.set("take", loadOptions.take);
-                    params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
-                    params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
-                    params.set("requireTotalCount", loadOptions.requireTotalCount);
-                    params.set("totalSummary", loadOptions.totalSummary ? JSON.stringify(loadOptions.totalSummary) : "");
-                    params.set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
-                    params.set("groupSummary", loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : "");
-                    return http.get('http://mydomain.com/MyDataService', {
-                                    search: params
-                                })
-                                .toPromise()
-                                .then(response => {
-                                    var json = response.json();
-                                    // You can process the received data here
-                                    return {
-                                        data: json.data,
-                                        totalCount: json.totalCount,
-                                        summary: json.summary
-                                    }
-                                });
+                    let params: HttpParams = new HttpParams()
+                        .set("skip", loadOptions.skip)
+                        .set("take", loadOptions.take)
+                        .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
+                        .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
+                        .set("requireTotalCount", loadOptions.requireTotalCount)
+                        .set("totalSummary", loadOptions.totalSummary ? JSON.stringify(loadOptions.totalSummary) : "")
+                        .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "")
+                        .set("groupSummary", loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : "");
+                    return httpClient.get('http://mydomain.com/MyDataService', {
+                            params: params
+                        })
+                        .toPromise()
+                        .then(result => {
+                            return {
+                                data: result.data,
+                                totalCount: result.totalCount,
+                                summary: result.summary
+                            };
+                        });
                 }
             });
         }
@@ -166,7 +164,7 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
         imports: [
             // ...
             DxDataGridModule,
-            HttpModule
+            HttpClientModule
         ],
         // ...
     })

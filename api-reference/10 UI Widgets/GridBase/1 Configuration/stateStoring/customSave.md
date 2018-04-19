@@ -57,50 +57,43 @@ In the following code, the state is saved and loaded from a remote storage:
 #####Angular
 
     <!--TypeScript-->
-    import { Http, HttpModule, Headers, RequestOptions, ResponseContentType, RequestMethod  } from '@angular/http';
+    import { HttpClient, HttpClientModule, HttpHeaders, HttpRequest } from '@angular/common/http';
     import { Dx{WidgetName}Module } from 'devextreme-angular';
     import 'rxjs/add/operator/toPromise';
     import 'rxjs/add/operator/catch';
     // ...
     export class AppComponent {
-        constructor(private http: Http) { }
+        constructor(private httpClient: HttpClient) { }
 
         sendStorageRequest = (storageKey, dataType, method, data) => {
             let url  = "https://url/to/your/storage/" + JSON.stringify(storageKey);
-            let options: RequestOptions = new RequestOptions({
-                headers: new Headers({
+            let req: HttpRequest = new HttpRequest(method, url, {
+                headers: new HttpHeaders({
                     "Accept": "text/html",
                     "Content-Type": "text/html"
                 }),
-                method: method,
                 responseType: dataType
             });
-            if (data) { 
-                options.body = JSON.stringify(data);
+            if (data) {
+                req.body = JSON.stringify(data);
             }
-            return http.request(url, options)
-                        .toPromise()
-                        .then(response => {
-                            return response.json();
-                        })
-                        .catch(error => {
-                            return Promise.reject(error.message || error)
-                        });
+            return httpClient.request(req)
+                .toPromise();
         }
 
         loadState = () => {
-            return this.sendStorageRequest('storageKey', ResponseContentType.Json, RequestMethod.Get);
+            return this.sendStorageRequest('storageKey', 'json', 'Get');
         } 
 
         saveState = (state) => {
-            this.sendStorageRequest('storageKey', ResponseContentType.Text, RequestMethod.Put, state);
+            this.sendStorageRequest('storageKey', 'text', 'Put', state);
         }
     }
     @NgModule({
         imports: [
             // ...
             Dx{WidgetName}Module,
-            HttpModule
+            HttpClientModule
         ],
         // ...
     })

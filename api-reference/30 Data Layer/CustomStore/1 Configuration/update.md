@@ -27,16 +27,16 @@ Specifies a custom implementation of the [update(key, values)](/Documentation/Ap
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import CustomStore from "devextreme/data/custom_store";
-    import { Http, HttpModule } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import 'rxjs/add/operator/toPromise';
     // ...
     export class AppComponent {
         store: CustomStore;
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.store = new CustomStore({
                 // ...
                 update: (key, values) => {
-                    return http.put("http://mydomain.com/MyDataService/myEntity" + encodeURIComponent(key), values)
+                    return httpClient.put("http://mydomain.com/MyDataService/myEntity" + encodeURIComponent(key), values)
                         .toPromise();
                 }
             });
@@ -45,7 +45,7 @@ Specifies a custom implementation of the [update(key, values)](/Documentation/Ap
     @NgModule({
         imports: [
             // ...
-            HttpModule 
+            HttpClientModule 
         ],
         // ...
     })

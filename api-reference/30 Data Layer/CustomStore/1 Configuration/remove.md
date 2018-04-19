@@ -26,16 +26,16 @@ Specifies a custom implementation of the [remove(key)](/Documentation/ApiReferen
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import CustomStore from "devextreme/data/custom_store";
-    import { Http, HttpModule } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import 'rxjs/add/operator/toPromise';
     // ...
     export class AppComponent {
         store: CustomStore;
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.store = new CustomStore({
                 // ...
                 remove: (key) => {
-                    return http.delete("http://mydomain.com/MyDataService" + encodeURIComponent(key))
+                    return httpClient.delete("http://mydomain.com/MyDataService" + encodeURIComponent(key))
                         .toPromise();
                 }
             });
@@ -44,7 +44,7 @@ Specifies a custom implementation of the [remove(key)](/Documentation/ApiReferen
     @NgModule({
         imports: [
             // ...
-            HttpModule 
+            HttpClientModule 
         ],
         // ...
     })

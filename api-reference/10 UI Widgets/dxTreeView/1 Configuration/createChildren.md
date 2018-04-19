@@ -37,29 +37,26 @@ If you have a large data source hosted remotely, loading all of it may take cons
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
     import 'rxjs/add/operator/toPromise';
     import { DxTreeViewModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        constructor(@Inject(Http) http: Http) { }
+        constructor(@Inject(HttpClient) httpClient: HttpClient) { }
         createChildren = (parentNode) => {
-            let params: URLSearchParams = new URLSearchParams();
-            params.set("parentId", parentNode ? JSON.stringify(parentNode.key) : "0");
-            return http.get("http://url/to/the/service", {
-                                search: params
-                            })
-                            .toPromise()
-                            .then(response => {
-                                return response.json()
-                            });
+            let params: HttpParams = new HttpParams()
+                .set("parentId", parentNode ? JSON.stringify(parentNode.key) : "0");
+            return httpClient.get("http://url/to/the/service", {
+                    params: params
+                })
+                .toPromise();
         }
     }
     @NgModule({
         imports: [
             // ...
             DxTreeViewModule,
-            HttpModule
+            HttpClientModule 
         ],
         // ...
     })

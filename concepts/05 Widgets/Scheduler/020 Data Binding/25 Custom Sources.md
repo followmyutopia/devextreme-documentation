@@ -32,7 +32,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import { DxSchedulerModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
@@ -40,16 +40,13 @@ You need to configure the **CustomStore** in detail for accessing a server built
     // ...
     export class AppComponent  {
         schedulerDataSource: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.schedulerDataSource = new DataSource({
                 store: new CustomStore({
                     loadMode: "raw",   
                     load: function () {
-                        return http.get('https://mydomain.com/MyDataService')
-                                    .toPromise()
-                                    .then(response => {
-                                        return response.json();
-                                    });
+                        return httpClient.get('https://mydomain.com/MyDataService')
+                            .toPromise();
                     }
                 }),
                 paginate: false
@@ -60,7 +57,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
         imports: [
             // ...
             DxSchedulerModule,
-            HttpModule
+            HttpClientModule
         ],
         // ...
     })
@@ -156,7 +153,7 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
     import { DxSchedulerModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
@@ -164,33 +161,32 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
     // ...
     export class AppComponent {
         schedulerDataSource: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.schedulerDataSource = new DataSource({
                 store: new CustomStore({
                     load: function (loadOptions) {
-                        let params: URLSearchParams = new URLSearchParams();
-                        params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : ""); 
-                        return http.get('http://mydomain.com/MyDataService', {
-                                        search: params
-                                    })
-                                    .toPromise()
-                                    .then(response => {
-                                        var json = response.json();
-                                        // You can process the received data here
-                                        return json.items
-                                    });
+                        let params: HttpParams = new HttpParams().
+                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : ""); 
+                        return httpClient.get('http://mydomain.com/MyDataService', {
+                                params: params
+                            })
+                            .toPromise()
+                            .then(result => {
+                                // You can process the received data here
+                                return result;
+                            });
                     },
                     insert: function (values) {
-                        return http.post('http://mydomain.com/MyDataService', values)
-                                .toPromise();
+                        return httpClient.post('http://mydomain.com/MyDataService', values)
+                            .toPromise();
                     },
                     remove: function (key) {
-                        return http.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
-                                .toPromise();
+                        return httpClient.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
+                            .toPromise();
                     },
                     update: function (key, values) {
-                        return http.put('http://mydomain.com/MyDataService' + encodeURIComponent(key), values)
-                                .toPromise();
+                        return httpClient.put('http://mydomain.com/MyDataService' + encodeURIComponent(key), values)
+                            .toPromise();
                     }
                 }),
                 paginate: false
@@ -201,7 +197,7 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
         imports: [
             // ...
             DxSchedulerModule,
-            HttpModule
+            HttpClientModule
         ],
         // ...
     })

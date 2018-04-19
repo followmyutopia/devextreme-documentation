@@ -25,7 +25,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import { DxListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
@@ -33,16 +33,13 @@ You need to configure the **CustomStore** in detail for accessing a server built
     // ...
     export class AppComponent  {
         listDataSource: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.listDataSource = new DataSource({
                 store: new CustomStore({
                     loadMode: "raw",   
                     load: function () {
-                        return http.get('https://mydomain.com/MyDataService')
-                                    .toPromise()
-                                    .then(response => {
-                                        return response.json();
-                                    });
+                        return httpClient.get('https://mydomain.com/MyDataService')
+                            .toPromise();
                     }
                 })
             })
@@ -52,7 +49,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
         imports: [
             // ...
             DxListModule,
-            HttpModule
+            HttpClientModule
         ],
         // ...
     })
@@ -178,7 +175,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
     import { DxListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
@@ -186,36 +183,35 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
     // ...
     export class AppComponent {
         listDataSource: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.listDataSource = new DataSource({
                 store: new CustomStore({
                     load: function (loadOptions) {
-                        let params: URLSearchParams = new URLSearchParams();
-                        params.set("skip", loadOptions.skip);
-                        params.set("take", loadOptions.take);
-                        params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
-                        params.set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "");
-                        params.set("searchOperation", loadOptions.searchOperation);
-                        params.set("searchValue", loadOptions.searchValue);
-                        params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
-                        params.set("requireTotalCount", loadOptions.requireTotalCount);
-                        params.set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
-                        return http.get('http://mydomain.com/MyDataService', {
-                                        search: params
-                                    })
-                                    .toPromise()
-                                    .then(response => {
-                                        var json = response.json();
-                                        // You can process the received data here
-                                        return {
-                                            data: json.data,
-                                            totalCount: json.totalCount
-                                        }
-                                    });
+                        let params: HttpParams = new HttpParams()
+                            .set("skip", loadOptions.skip)
+                            .set("take", loadOptions.take)
+                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
+                            .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
+                            .set("searchOperation", loadOptions.searchOperation)
+                            .set("searchValue", loadOptions.searchValue)
+                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
+                            .set("requireTotalCount", loadOptions.requireTotalCount)
+                            .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
+                        return httpClient.get('http://mydomain.com/MyDataService', {
+                                params: params
+                            })
+                            .toPromise()
+                            .then(result => {
+                                // Here, you can perform operations unsupported by the server
+                                return {
+                                    data: result.data,
+                                    totalCount: result.totalCount
+                                };
+                            });
                     },
                     remove: function (key) {
-                        return http.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
-                                .toPromise();
+                        return httpClient.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
+                            .toPromise();
                     }
                 })
             });
@@ -225,7 +221,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
         imports: [
             // ...
             DxListModule,
-            HttpModule
+            HttpClientModule
         ],
         // ...
     })

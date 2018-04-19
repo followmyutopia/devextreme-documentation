@@ -26,7 +26,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import { DxPieChartModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
@@ -34,16 +34,13 @@ You need to configure the **CustomStore** in detail for accessing a server built
     // ...
     export class AppComponent {
         pieChartDataSource: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.pieChartDataSource = new DataSource({
                 store: new CustomStore({
                     loadMode: "raw",   
                     load: function () {
-                        return http.get('http://mydomain.com/MyDataService')
-                                .toPromise()
-                                .then(response => {
-                                    return response.json();
-                                });
+                        return httpClient.get('http://mydomain.com/MyDataService')
+                            .toPromise();
                     }
                 }),
                 paginate: false
@@ -54,7 +51,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
         imports: [
             // ...
             DxPieChartModule,
-            HttpModule
+            HttpClientModule
         ],
         // ...
     })
@@ -137,7 +134,7 @@ This example shows how to make a query for data.
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
     import { DxPieChartModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
@@ -145,26 +142,25 @@ This example shows how to make a query for data.
     // ...
     export class AppComponent {
         pieChartDataSource: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.pieChartDataSource = new DataSource({
                 store: new CustomStore({
                     load: function (loadOptions) {
-                        let params: URLSearchParams = new URLSearchParams();
-                        params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
-                        params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
-                        params.set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "");
-                        params.set("searchOperation", loadOptions.searchOperation);
-                        params.set("searchValue", loadOptions.searchValue);
-                        return http.get('http://mydomain.com/MyDataService', {
-                                        search: params
-                                    })
-                                    .toPromise()
-                                    .then(response => {
-                                        var json = response.json();
-                                        // Here, you can perform operations unsupported by the server
-                                        // or any other operations on the retrieved data
-                                        return json.items
-                                    });
+                        let params: HttpParams = new HttpParams()
+                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
+                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
+                            .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
+                            .set("searchOperation", loadOptions.searchOperation)
+                            .set("searchValue", loadOptions.searchValue);
+                        return httpClient.get('http://mydomain.com/MyDataService', {
+                                params: params
+                            })
+                            .toPromise()
+                            .then(result => {
+                                // Here, you can perform operations unsupported by the server
+                                // or any other operations on the retrieved data
+                                return result.data;
+                            });
                     }
                 })
             });
@@ -174,7 +170,7 @@ This example shows how to make a query for data.
         imports: [
             // ...
             DxPieChartModule,
-            HttpModule
+            HttpClientModule
         ],
         // ...
     })

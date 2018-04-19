@@ -25,7 +25,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import DataSource from 'devextreme/data/data_source';
     import { DxSelectBoxModule } from 'devextreme-angular';
     import CustomStore from 'devextreme/data/custom_store';
@@ -33,16 +33,13 @@ You need to configure the **CustomStore** in detail for accessing a server built
     // ...
     export class AppComponent  {
         selectBoxData: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.selectBoxData = new DataSource({
                 store: new CustomStore({
                     loadMode: "raw",   
                     load: function () {
-                        return http.get('https://mydomain.com/MyDataService')
-                                    .toPromise()
-                                    .then(response => {
-                                        return response.json();
-                                    });
+                        return httpClient.get('https://mydomain.com/MyDataService')
+                            .toPromise();
                     }
                 })
             })
@@ -52,7 +49,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
          imports: [
              // ...
              DxSelectBoxModule,
-             HttpModule
+             HttpClientModule
          ],
          // ...
      })
@@ -172,7 +169,7 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
     import { DxSelectBoxModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
@@ -180,40 +177,31 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
     // ...
     export class AppComponent {
         selectBoxData: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.selectBoxData = new DataSource({
                 store: new CustomStore({
                     load: function (loadOptions) {
-                        let params: URLSearchParams = new URLSearchParams();
-                        params.set("skip", loadOptions.skip);
-                        params.set("take", loadOptions.take);
-                        params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
-                        params.set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "");
-                        params.set("searchOperation", loadOptions.searchOperation);
-                        params.set("searchValue", loadOptions.searchValue);
-                        params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
-                        params.set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
-                        return http.get('http://mydomain.com/MyDataService', {
-                                        search: params
-                                    })
-                                    .toPromise()
-                                    .then(response => {
-                                        var json = response.json();
-                                        // You can process the received data here
-                                        return {
-                                            data: json.data
-                                        }
-                                    });
+                        let params: HttpParams = new HttpParams()
+                            .set("skip", loadOptions.skip)
+                            .set("take", loadOptions.take)
+                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
+                            .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
+                            .set("searchOperation", loadOptions.searchOperation)
+                            .set("searchValue", loadOptions.searchValue)
+                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
+                            .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
+                        return httpClient.get('http://mydomain.com/MyDataService', {
+                                params: params
+                            })
+                            .toPromise()
+                            .then(result => {
+                                // Here, you can perform operations unsupported by the server
+                                return result.data;
+                            });
                     },
                     byKey: function (key) {
-                        return http.get('https://mydomain.com/MyDataService?id=' + key)
-                                    .toPromise()
-                                    .then(response => {
-                                        var json = response.json();
-                                        return {
-                                            data: json.data
-                                        };
-                                    });
+                        return httpClient.get('https://mydomain.com/MyDataService?id=' + key)
+                            .toPromise();
                     }
                 })
             });
@@ -223,7 +211,7 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
          imports: [
              // ...
              DxSelectBoxModule,
-             HttpModule 
+             HttpClientModule 
          ],
          // ...
      })

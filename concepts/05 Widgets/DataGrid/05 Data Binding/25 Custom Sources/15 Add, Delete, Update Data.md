@@ -84,7 +84,7 @@ With these settings, the **DataGrid** expects that the server can also add, upda
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import { DxDataGridModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import CustomStore from 'devextreme/data/custom_store';
@@ -92,20 +92,20 @@ With these settings, the **DataGrid** expects that the server can also add, upda
     // ...
     export class AppComponent {
         gridDataSource: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.gridDataSource = new DataSource({
                 // ...
                 insert: function (values) {
-                    return http.post('http://mydomain.com/MyDataService', values)
-                               .toPromise();
+                    return httpClient.post('http://mydomain.com/MyDataService', values)
+                        .toPromise();
                 },
                 remove: function (key) {
-                    return http.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
-                               .toPromise();
+                    return httpClient.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
+                        .toPromise();
                 },
                 update: function (key, values) {
-                    return http.put('http://mydomain.com/MyDataService' + encodeURIComponent(key), values)
-                               .toPromise();
+                    return httpClient.put('http://mydomain.com/MyDataService' + encodeURIComponent(key), values)
+                        .toPromise();
                 }
             });
         }
@@ -114,7 +114,7 @@ With these settings, the **DataGrid** expects that the server can also add, upda
         imports: [
             // ...
             DxDataGridModule,
-            HttpModule
+            HttpClientModule
         ],
         // ...
     })

@@ -95,7 +95,7 @@ If you need to specify request headers or process response data, use the [Custom
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import { DxTreeListModule } from 'devextreme-angular';
     import DataSource from 'devextreme/data/data_source';
     import 'devextreme/data/custom_store';
@@ -103,18 +103,20 @@ If you need to specify request headers or process response data, use the [Custom
     // ...
     export class AppComponent {
         treeListDataSource: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.treeListDataSource = new DataSource({
                 load: function () {
-                    return http.get('https://mydomain.com/MyDataService', { 
-                        header1: "customHeader1",
-                        header2: "customHeader2",
-                        // ...
+                    return httpClient.get('https://mydomain.com/MyDataService', {
+                        headers: { 
+                            "header1": "customHeader1",
+                            "header2": "customHeader2",
+                            // ...
+                        }
                     })
                     .toPromise()
-                    .then(response => {
+                    .then(result => {
                         // Here, you can process the response
-                        return response.json()
+                        return result;
                     });
                 }
             })
@@ -124,7 +126,7 @@ If you need to specify request headers or process response data, use the [Custom
         imports: [
             // ...
             DxTreeListModule,
-            HttpModule
+            HttpClientModule
         ],
         // ...
     })

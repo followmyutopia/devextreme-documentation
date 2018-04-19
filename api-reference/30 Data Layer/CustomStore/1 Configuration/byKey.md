@@ -28,22 +28,17 @@ Specifies a custom implementation of the [byKey(key)](/Documentation/ApiReferenc
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
     import CustomStore from "devextreme/data/custom_store";
-    import { Http, HttpModule } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import 'rxjs/add/operator/toPromise';
     // ...
     export class AppComponent {
         store: CustomStore;
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.store = new CustomStore({
                 // ...
                 byKey: (key) => {
-                    return http.get("http://mydomain.com/MyDataService?id=" + key)
-                        .toPromise()
-                        .then(response => {
-                            return {
-                                data: response.json().data
-                            };
-                        });
+                    return httpClient.get("http://mydomain.com/MyDataService?id=" + key)
+                        .toPromise();
                 }
             });
         }
@@ -51,7 +46,7 @@ Specifies a custom implementation of the [byKey(key)](/Documentation/ApiReferenc
     @NgModule({
         imports: [
             // ...
-            HttpModule 
+            HttpClientModule 
         ],
         // ...
     })

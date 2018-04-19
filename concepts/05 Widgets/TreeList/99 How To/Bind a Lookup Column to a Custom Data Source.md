@@ -38,7 +38,7 @@ In the following code snippet, `Author Name` is a [lookup column](/Documentation
 
     <!--TypeScript-->
     import { Component, Inject } from '@angular/core';
-    import { Http, HttpModule } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import { DxTreeListModule } from 'devextreme-angular';
     import CustomStore from 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -46,7 +46,7 @@ In the following code snippet, `Author Name` is a [lookup column](/Documentation
     @Component({ ... })
     export class AppComponent {
         lookupDataSource = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.lookupDataSource = {
                 store: new CustomStore({
                     key: "id",
@@ -54,17 +54,22 @@ In the following code snippet, `Author Name` is a [lookup column](/Documentation
                     load: function () {
                         // Returns an array of objects that have the following structure:
                         // { id: 1, name: "John Doe" }
-                        return http.get("https://mydomain.com/MyDataService/authors/")
-                                .toPromise()
-                                .then(response => {
-                                    return response.json();
-                                });
+                        return httpClient.get("https://mydomain.com/MyDataService/authors/")
+                            .toPromise();
                     }
                 }),
                 sort: "name"
             };
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule,
+            HttpClientModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list ... >
@@ -127,7 +132,7 @@ The following alternative **CustomStore** configuration delegates data processin
 
     <!--TypeScript-->
     import { Component, Inject } from '@angular/core';
-    import { Http, HttpModule, URLSearchParams } from '@angular/http';
+    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
     import { DxTreeListModule } from 'devextreme-angular';
     import CustomStore from 'devextreme/data/custom_store';
     import 'rxjs/add/operator/toPromise';
@@ -135,38 +140,40 @@ The following alternative **CustomStore** configuration delegates data processin
     @Component({ ... })
     export class AppComponent {
         lookupDataSource = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.lookupDataSource = {
                 store: new CustomStore({
                     key: "id",
                     load: function (loadOptions) {
-                        let params: URLSearchParams = new URLSearchParams();
-                        params.set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
-                        // params.set("skip", JSON.stringify(loadOptions.skip));
-                        // params.set("take", JSON.stringify(loadOptions.take));
-                        // params.set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "");
-                        // params.set("searchOperation", loadOptions.searchOperation);
-                        // params.set("searchValue", JSON.stringify(loadOptions.searchValue));
-                        // params.set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "");
-                        // params.set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
-                        return http.get("https://mydomain.com/MyDataService/authors/", { search: params })
-                                .toPromise()
-                                .then(response => {
-                                    return response.json();
-                                });
+                        let params: HttpParams = new HttpParams()
+                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
+                            // .set("skip", JSON.stringify(loadOptions.skip))
+                            // .set("take", JSON.stringify(loadOptions.take))
+                            // .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
+                            // .set("searchOperation", loadOptions.searchOperation)
+                            // .set("searchValue", JSON.stringify(loadOptions.searchValue))
+                            // .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
+                            // .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
+                        return httpClient.get("https://mydomain.com/MyDataService/authors/", { params: params })
+                            .toPromise();
                     },
                     byKey: function (key) {
-                        return http.get("https://mydomain.com/MyDataService/authors/" + encodeURIComponent(key))
-                            .toPromise()
-                            .then(response => {
-                                return response.json();
-                            });
+                        return httpClient.get("https://mydomain.com/MyDataService/authors/" + encodeURIComponent(key))
+                            .toPromise();
                     }
                 }),
                 sort: "name"
             }
         }
     }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule,
+            HttpClientModule
+        ],
+        // ...
+    })
 
     <!--HTML-->
     <dx-tree-list>

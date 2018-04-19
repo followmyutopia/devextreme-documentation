@@ -121,15 +121,15 @@ The following tasks require using different API in the deferred mode comparing w
 
         <!--TypeScript-->
         import { ..., ViewChild } from '@angular/core';
-        import { Http, HttpModule } from '@angular/http';
+        import { HttpClient, HttpClientModule } from '@angular/common/http';
         import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
         // ...
         export class AppComponent {
             @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
-            constructor(private http: Http) { }
+            constructor(private httpClient: HttpClient) { }
             sendSelectedRows() {
                 var selectionFilter = this.dataGrid.instance.option("selectionFilter");
-                this.http
+                this.httpClient
                     .post('url/to/data/processing/method',  
                     "filter: " + (selectionFilter ? JSON.stringify(selectionFilter) : null)
                     )
@@ -140,7 +140,7 @@ The following tasks require using different API in the deferred mode comparing w
             imports: [
                 // ...
                 DxDataGridModule,
-                HttpModule
+                HttpClientModule
             ],
             // ...
         })

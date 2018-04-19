@@ -23,7 +23,7 @@ Paging is used to load data in portions, which improves the widget's performance
 
     <!--TypeScript-->
     import { ..., Inject } from '@angular/core';
-    import { Http, HttpModule } from '@angular/http';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import DataSource from 'devextreme/data/data_source';
     import { DxLookupModule } from 'devextreme-angular';
     import CustomStore from 'devextreme/data/custom_store';
@@ -31,16 +31,13 @@ Paging is used to load data in portions, which improves the widget's performance
     // ...
     export class AppComponent {
         lookupDataSource: any = {};
-        constructor(@Inject(Http) http: Http) {
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.lookupData = new DataSource({
                 store: new CustomStore({
                     loadMode: "raw",   
                     load: function () {
-                        return http.get('https://mydomain.com/MyDataService')
-                                    .toPromise()
-                                    .then(response => {
-                                        return response.json();
-                                    });
+                        return httpClient.get('https://mydomain.com/MyDataService')
+                            .toPromise();
                     }
                 }),
                 paginate: true,
@@ -51,7 +48,8 @@ Paging is used to load data in portions, which improves the widget's performance
     @NgModule({
         imports: [
             // ...
-            DxLookupModule
+            DxLookupModule,
+            HttpClientModule
         ],
         // ...
     })
