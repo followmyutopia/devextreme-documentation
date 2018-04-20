@@ -43,7 +43,7 @@ The **Toast** is a widget that provides pop-up notifications.
 
     <!--HTML-->
     <dx-toast
-        message="Connection problem",
+        message="Connection problem"
         type="error"
         [displayTime]="3000"
         [(visible)]="isToastVisible">

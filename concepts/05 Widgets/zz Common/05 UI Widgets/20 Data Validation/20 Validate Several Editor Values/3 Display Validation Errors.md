@@ -24,7 +24,7 @@ All group validation errors can be displayed in the [ValidationSummary](/Documen
     <!-- /dx-validation-group -->
 
         <!--TypeScript-->
-    import { ..., DxValidationGroupModule, DxValidationSummaryModule } from 'devextreme-angular';
+    import { ..., /* DxValidationGroupModule */, DxValidationSummaryModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
         // ...
@@ -32,7 +32,7 @@ All group validation errors can be displayed in the [ValidationSummary](/Documen
     @NgModule({
         imports: [
             // ...
-            DxValidationGroupModule,
+            // DxValidationGroupModule,
             DxValidationSummaryModule
         ],
         // ...

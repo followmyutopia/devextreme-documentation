@@ -78,7 +78,7 @@ This widget has a collection of items that present the validation errors that cu
     </dx-validation-group>
 
     <!--TypeScript-->
-    import { DxValidationSummaryModule, DxTextBoxModule, DxButtonModule, DxValidatorModule } from 'devextreme-angular'
+    import { DxValidationSummaryModule, DxValidationGroupModule, DxTextBoxModule, DxButtonModule, DxValidatorModule } from 'devextreme-angular'
     // ...
     export class AppComponent {
         validate(params) {
@@ -89,6 +89,7 @@ This widget has a collection of items that present the validation errors that cu
         imports: [
             // ...
             DxValidationSummaryModule,
+            DxValidationGroupModule,
             DxTextBoxModule, 
             DxButtonModule, 
             DxValidatorModule
