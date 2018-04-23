@@ -2,20 +2,20 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets a point from the series point collection based on the specified point position.
+Gets a series point with the specified index.
 <!--/shortDescription-->
 
 <!--paramName1-->positionIndex<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-The index of the point to be found within the series point collection.
+A zero-based index. Series points are indexed according to their drawing order.
 <!--/paramDescription1-->
 
 <!--returnType-->basePointObject<!--/returnType-->
 <!--returnDescription-->
-The point that is found by the specified position index.
+A series point found by the index.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Points in the series point collection are arranged as they go along the argument axis from left to right. Note that the series are numbered from zero in the series collection.
+
 <!--/fullDescription-->

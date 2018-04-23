@@ -2,20 +2,20 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets points from the series point collection based on the specified argument.
+Gets a series point with the specified argument value.
 <!--/shortDescription-->
 
 <!--paramName1-->pointArg<!--/paramName1-->
 <!--paramType1-->Number|String|Date<!--/paramType1-->
 <!--paramDescription1-->
-The argument of the point(s) to be found.
+An argument value.
 <!--/paramDescription1-->
 
 <!--returnType-->Array<basePointObject><!--/returnType-->
 <!--returnDescription-->
-The points that are found by the specified argument.
+Series points that correspond to the argument value, or an empty array if none was found.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-If a point with the specified argument is not found, the function returns *empty array*.
+
 <!--/fullDescription-->

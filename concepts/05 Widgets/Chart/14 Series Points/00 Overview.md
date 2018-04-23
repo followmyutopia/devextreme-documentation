@@ -1,4 +1,4 @@
-A series point is a visual representation of a data object. Series points come in many shapes and sizes because of the different nature of [series types](/Documentation/Guide/Widgets/Chart/Series_Types/). 
+A series point is a visual representation of one or several data objects. Series points can have different shapes and sizes depending on the [series types](/Documentation/Guide/Widgets/Chart/Series_Types/). 
 
 ![DevExtreme HTML5 JavaScript Charts SeriesPoints](/Content/images/doc/18_1/ChartJS/visual_elements/series_points.png)
 
@@ -66,7 +66,7 @@ For those series whose points are simple dots ([Range Area](/Documentation/Guide
 
 ---
 
-For those series whose points have distinctive appearance ([Range Bar](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/) and [Bubble](/Documentation/Guide/Widgets/Chart/Series_Types/Bubble_Series/), all [bar](/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/) and [financial](/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/) series), a dedicated object is not provided, and all point-related settings are declared directly in the **series**, ***%seriesType%***, or **commonSeriesSettings** object. For details on available settings, refer to the description of a particular series type in the [Series Types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/) section of the API reference.
+A dedicated object is not provided for series whose points have a distinctive appearance ([Range Bar](/Documentation/Guide/Widgets/Chart/Series_Types/Range_Series/) and [Bubble](/Documentation/Guide/Widgets/Chart/Series_Types/Bubble_Series/), all [bar](/Documentation/Guide/Widgets/Chart/Series_Types/Bar_Series/) and [financial](/Documentation/Guide/Widgets/Chart/Series_Types/Financial_Series/) series), and all point-related settings are declared directly in the **series**, ***%seriesType%***, or **commonSeriesSettings** object. Refer to the description of a particular series type in the [Series Types](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/) section of the API reference for more details on the available settings.
 
 [note] Individual settings override type-specific settings which, in turn, override common settings.
 
