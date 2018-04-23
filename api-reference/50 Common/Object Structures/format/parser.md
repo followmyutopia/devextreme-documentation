@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Parses string values into numeric or date-time values. Always used with [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter).
+Parses string values into numeric or date-time values. Can be used with [formatter](/Documentation/ApiReference/Common/Object_Structures/format/#formatter) or one of the [predefined formats](/Documentation/ApiReference/Common/Object_Structures/format/#type).
 <!--/shortDescription-->
 
 <!--fullDescription-->
