@@ -119,15 +119,15 @@ The **groupCount** should be returned only if the **requireGroupCount** paramete
             this.gridDataSource = new DataSource({
                 load: function (loadOptions) {
                     let params: HttpParams = new HttpParams()
-                        .set("skip", loadOptions.skip)
-                        .set("take", loadOptions.take)
+                        .set("skip", JSON.stringify(loadOptions.skip))
+                        .set("take", JSON.stringify(loadOptions.take))
                         .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
                         .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
-                        .set("requireTotalCount", loadOptions.requireTotalCount)
+                        .set("requireTotalCount", JSON.stringify(loadOptions.requireTotalCount))
                         .set("totalSummary", loadOptions.totalSummary ? JSON.stringify(loadOptions.totalSummary) : "")
                         .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "")
                         .set("groupSummary", loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : "")
-                        .set("requireGroupCount", loadOptions.requireGroupCount); // added
+                        .set("requireGroupCount", JSON.stringify(loadOptions.requireGroupCount)); // added
                     return httpClient.get('http://mydomain.com/MyDataService', {
                             params: params
                         })

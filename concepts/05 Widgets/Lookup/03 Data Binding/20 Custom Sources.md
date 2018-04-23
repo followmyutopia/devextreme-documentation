@@ -183,8 +183,8 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
                 store: new CustomStore({
                     load: function (loadOptions) {
                         let params: HttpParams = new HttpParams()
-                            .set("skip", loadOptions.skip)
-                            .set("take", loadOptions.take)
+                            .set("skip", JSON.stringify(loadOptions.skip))
+                            .set("take", JSON.stringify(loadOptions.take))
                             .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
                             .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
                             .set("searchOperation", loadOptions.searchOperation)

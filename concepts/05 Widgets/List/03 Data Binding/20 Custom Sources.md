@@ -188,14 +188,14 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
                 store: new CustomStore({
                     load: function (loadOptions) {
                         let params: HttpParams = new HttpParams()
-                            .set("skip", loadOptions.skip)
-                            .set("take", loadOptions.take)
+                            .set("skip", JSON.stringify(loadOptions.skip))
+                            .set("take", JSON.stringify(loadOptions.take))
                             .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
                             .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
                             .set("searchOperation", loadOptions.searchOperation)
                             .set("searchValue", loadOptions.searchValue)
                             .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
-                            .set("requireTotalCount", loadOptions.requireTotalCount)
+                            .set("requireTotalCount", JSON.stringify(loadOptions.requireTotalCount))
                             .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
                         return httpClient.get('http://mydomain.com/MyDataService', {
                                 params: params
