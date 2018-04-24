@@ -9,7 +9,7 @@ Specifies the hint that appears when a user points to an axis label.
 <!--fullDescription-->
 ![DevExtreme HTML5 Charts AxisLabelHint](/Content/images/doc/18_1/ChartJS/visual_elements/axis_label_hint.png)
 
-[note]The **value** and **valueText** fields are also exposed by the **this** object.
+#include dataviz-ref-functioncontext
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->argument<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -104,7 +104,7 @@ In the financial series ([*candlestick*](/Documentation/ApiReference/Data_Visual
     </table>
 </div>
 
-[note]All fields listed in this description are also exposed by the **this** object.
+#include dataviz-ref-functioncontext
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturespointimage/"

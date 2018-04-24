@@ -7,7 +7,11 @@ Customizes the text displayed in column cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]The **customizeText** function may be called when data displayed in the column matches the search condition to properly highlight the matching text.
+The **customizeText** function may be called when data displayed in the column matches the search condition to properly highlight the matching text.
+
+#include uiwidgets-ref-functioncontext with { 
+    value: "column's configuration"
+}
 
 #####See Also#####
 - [Customize the Value and Text](/Documentation/Guide/Widgets/{WidgetName}/Columns/Customize_Cells/#Customize_the_Value_and_Text)

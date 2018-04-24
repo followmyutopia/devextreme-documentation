@@ -8,7 +8,7 @@ Specifies a callback function that returns the text to be displayed by slider ma
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a callback function for this property, use the value displayed in a slider marker. This value can be accessed using the fields of the object that is passed as the function's parameter. Alternatively, you can use the **this** object within the function. This object has the same structure as the object passed as a parameter.
+#include dataviz-ref-functioncontext
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Range_Selector/CustomFormatting/jQuery/Light/"

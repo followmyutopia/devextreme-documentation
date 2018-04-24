@@ -8,7 +8,7 @@ Customizes the text displayed by legend items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]The **this** object also exposes the **item** and **text** fields.
+#include dataviz-ref-functioncontext
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

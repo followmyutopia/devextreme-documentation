@@ -7,7 +7,9 @@ Customizes the field value's text representation.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include uiwidgets-ref-functioncontext with { 
+    value: "custom operation's configuration"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->fieldInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

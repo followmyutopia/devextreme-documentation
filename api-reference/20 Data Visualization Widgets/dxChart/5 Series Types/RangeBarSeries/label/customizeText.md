@@ -59,10 +59,10 @@ This option accepts a function whose parameter exposes the following fields.
     </table>
 </div>
 
-[note]All fields listed in this description are also exposed by the **this** object.
+#include dataviz-ref-functioncontext
 
 #####See Also#####
-- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Data_Formatting) - shows how to apply formatting to various widget elements.
+- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Data_Formatting)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

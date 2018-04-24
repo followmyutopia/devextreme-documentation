@@ -8,7 +8,7 @@ Customizes labels' text.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]The **this** object also exposes all the **itemInfo** object fields.
+#include dataviz-ref-functioncontext
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

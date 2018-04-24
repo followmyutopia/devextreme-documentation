@@ -7,7 +7,7 @@ Specifies the text for a hint that appears when a user hovers the mouse pointer 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts a function that must return the required text. When implementing this function, use its parameter to access the value displayed by the axis label.
+#include dataviz-ref-functioncontext
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->argument<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -8,7 +8,7 @@ Customizes the text displayed by axis labels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]The **value** and **valueText** fields are also exposed by the **this** object.
+#include dataviz-ref-functioncontext
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->axisValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

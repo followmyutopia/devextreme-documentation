@@ -99,6 +99,10 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     
 ---
 
+#include uiwidgets-ref-functioncontext with { 
+    value: "column's configuration"
+}
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -73,10 +73,11 @@ The string comparison is culture-insensitive by default. Use the following code 
 
 ---
 
-When implementing the **sortingMethod** function, you can access the [column's configuration](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columns/) using the **this** keyword.
+[note]The **sortingMethod**'s *value1* and *value2* are the values returned from the [calculateSortValue]({basewidgetpath}/Configuration/columns/#calculateSortValue) function if the latter is specified.
 
-[note]The **sortingMethod**'s *value1* and *value2* are the values returned from the [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columns/#calculateSortValue) function if the latter is specified.
-
+#include uiwidgets-ref-functioncontext with { 
+    value: "column's configuration"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->value1<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->

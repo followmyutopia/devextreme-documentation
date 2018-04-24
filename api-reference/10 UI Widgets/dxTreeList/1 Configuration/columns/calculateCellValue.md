@@ -79,6 +79,10 @@ To invoke the default behavior, call the **this.defaultCalculateCellValue(rowDat
 
 [/note]
 
+#include uiwidgets-ref-functioncontext with { 
+    value: "column's configuration"
+}
+
 #####See Also#####
 - [Customize the Value and Text](/Documentation/Guide/Widgets/TreeList/Columns/Customize_Cells/#Customize_the_Value_and_Text)
 - **columns[]**.[calculateDisplayValue]({basewidgetpath}/Configuration/columns/#calculateDisplayValue)

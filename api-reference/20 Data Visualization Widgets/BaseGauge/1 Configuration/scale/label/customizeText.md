@@ -8,13 +8,14 @@ Specifies a callback function that returns the text to be displayed in scale lab
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a callback function for this property, use the scale value to be displayed in a label. This value can be accessed using the fields of the object that is passed as the function's parameter. Alternatively, you can use the **this** object within the function. This object has the same structure as the object passed as a parameter.
-
-For general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting) topic.
+#include dataviz-ref-functioncontext
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Gauges/ScaleLabelFormatting/jQuery/Light/"
 }
+
+#####See Also#####
+- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->scaleValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

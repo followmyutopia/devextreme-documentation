@@ -27,7 +27,7 @@ Specifies the color of the text displayed by a tooltip.
 - **borderColor**        
 Specifies the color of the tooltip border.
 
-When implementing a callback function for this option, you can use the value of the node that has entered the hover state. This value can be accessed using the object passed as the function's parameter or the **this** object.
+#include dataviz-ref-functioncontext
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

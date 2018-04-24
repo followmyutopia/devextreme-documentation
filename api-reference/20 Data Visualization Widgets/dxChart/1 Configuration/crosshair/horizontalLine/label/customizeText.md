@@ -8,7 +8,7 @@ Customizes the text displayed by the label that belongs to the horizontal crossh
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]The parameter of the **customizeText** function is mirrored by the **this** object.
+#include dataviz-ref-functioncontext
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

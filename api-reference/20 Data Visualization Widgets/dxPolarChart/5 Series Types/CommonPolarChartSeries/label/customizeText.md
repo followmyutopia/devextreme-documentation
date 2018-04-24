@@ -8,7 +8,7 @@ Specifies a callback function that returns the text to be displayed by point lab
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a callback function for this property, use the point value to be displayed in a label. In addition, you can use the argument of the currently displayed value. These values can be accessed using the following properties of the **this** object.
+The function's parameter has the following fields:
 
 * **originalValue**    
 Specifies the value of the currently represented point as it is set in the data source.
@@ -31,10 +31,10 @@ Provides access to the currently represented point. To learn more about the fiel
 * **seriesName**   
 Specifies the series of the currently represented point.
 
+#include dataviz-ref-functioncontext
 
-The function's parameter represents the same object as the **this** object. If appropriate, you can use the function's parameter to obtain the value that is currently represented by a label.
-
-To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
+#####See Also#####
+- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -9,7 +9,7 @@ Allows you to change tooltip appearance.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include dataviz-ref-functioncontext
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->pointsInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -7,7 +7,7 @@ Specifies the text for a hint that appears when a user hovers the mouse pointer 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts a function that must return the required text. When implementing this function, use its parameter to access the information on the series that corresponds to the legend item.
+#include dataviz-ref-functioncontext
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->seriesInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -88,6 +88,10 @@ Call the **this.defaultCalculateCellValue(rowData)** function and return its res
 
 [/note]
 
+#include uiwidgets-ref-functioncontext with { 
+    value: "column's configuration"
+}
+
 #####See Also#####
 - **columns[]**.[calculateDisplayValue]({basewidgetpath}/Configuration/columns/#calculateDisplayValue)
 

@@ -8,9 +8,10 @@ Specifies a callback function that returns a text for labels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a callback function for this option, you can use the value indicated by a bar. This value can be accessed using the fields of the object that is passed as the function's parameter. Alternatively, you can use the **this** object within the function. This object has the same structure as the object passed as a parameter.
+#include dataviz-ref-functioncontext
 
-To discover text customization in greater detail, refer to the [Customize Text](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Customize_Text) topic.
+#####See Also#####
+- [Customize Text](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/#Customize_Text)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->barValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

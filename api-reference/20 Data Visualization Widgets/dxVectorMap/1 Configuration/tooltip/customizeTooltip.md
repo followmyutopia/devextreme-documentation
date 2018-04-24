@@ -27,7 +27,7 @@ Specifies the color of the text displayed by a tooltip.
 - **borderColor**        
 Specifies the color of the tooltip border.
 
-When implementing a callback function for this option, you can access the hovered area or marker. For this purpose, use the object passed as the function's parameter or the **this** object. To discover the members of the obtained object that can be used, see the [Area](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/) or [Marker](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/) class description of the **Map Elements** reference section.
+#include dataviz-ref-functioncontext
 
 #include common-demobutton-named with {
     url: "/Demos/WidgetsGallery/Demo/Vector_Map/ColorsCustomization/jQuery/Light/",
@@ -41,7 +41,7 @@ When implementing a callback function for this option, you can access the hovere
 <!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->areaObjects|markerObjects<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information on the area/marker being pressed or hovered over with the mouse pointer.
+Information on the [area](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/)/[marker](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/) being pressed or hovered over with the mouse pointer.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Object<!--/typeFunctionReturnType-->

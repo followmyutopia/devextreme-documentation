@@ -24,7 +24,7 @@ Specifies the color of the text displayed by a tooltip.
 - **borderColor**        
 Specifies the color of the tooltip border.
 
-When implementing the function for this option, you can use information about the tooltip's point. For example, you can access the argument or value of this point. To do this, use the following fields of the **this** object.
+This function's parameter has the following fields:
 
 * **originalValue**    
 Specifies the value of the currently represented point as it is set in the data source.
@@ -46,5 +46,8 @@ Provides access to the hovered point. To learn more about the field and methods 
 Provides access to the array of points with the same argument as the currently hovered point. This field is accessible when the [shared](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/tooltip/#shared) option of the **tooltip** object is set to **true**. To learn more about the fields and methods of the point object, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Point/) topic in the "Chart Elements" reference section.
 The function's parameter represents the same object as the **this** object. If appropriate, you can use the function's parameter to obtain the value that is currently represented by a tooltip.
 
-To get general information on data formatting, refer to the [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) topic.
+#include dataviz-ref-functioncontext
+
+#####See Also#####
+- [Data Formatting](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Data_Formatting/) 
 <!--/fullDescription-->

@@ -7,6 +7,10 @@ Specifies a function that returns a filter expression for this custom operation.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include uiwidgets-ref-functioncontext with { 
+    value: "custom operation's configuration"
+}
+
 #####See Also#####
 - [Implement a Custom Operation](/Documentation/Guide/Widgets/FilterBuilder/Implement_a_Custom_Operation/)
 <!--/fullDescription-->

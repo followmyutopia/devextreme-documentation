@@ -9,8 +9,6 @@ Specifies the function that customizes each area individually.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a function for this option, use the fields of the [Area](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/) object. To access this object, use the function's parameter or the **this** object.
-
 The **customize** function should return the object that contains options to be changed for a certain area. These options are listed below.
 
 - [borderColor](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#borderColor)
@@ -27,6 +25,8 @@ Specifies whether or not an area is selected when the map is created. To select 
 - **paletteIndex**    
 Specifies the index of the color when using [palettes](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/#palette). This option is ignored when the **color** field is specified.
 
+#include dataviz-ref-functioncontext
+
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapcolorscustomization/"
 }
@@ -39,5 +39,5 @@ The area to be customized.
 
 <!--typeFunctionReturnType-->dxVectorMap_Options_areaSettings<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A configuration object for the area.
+A [configuration object](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/areaSettings/) for the area.
 <!--/typeFunctionReturnDescription-->

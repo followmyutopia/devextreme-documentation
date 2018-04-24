@@ -10,7 +10,7 @@ Specifies a callback function that returns the text to be displayed in an indica
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a callback function for this option, use the value displayed in the indicator. This value can be accessed using the fields of the object that is passed as the function's parameter. Alternatively, you can use the **this** object within the function. This object has the same structure as the object passed as a parameter.
+#include dataviz-ref-functioncontext
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->indicatedValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

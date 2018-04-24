@@ -141,7 +141,11 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     
 ---
 
-[note]Do not use this option to format text in cells. Use [customizeText]({basewidgetpath}/Configuration/columns/#customizeText) for this.
+#include uiwidgets-ref-functioncontext with { 
+    value: "column's configuration"
+}
+
+Do not use this option to format text in cells. Use [customizeText]({basewidgetpath}/Configuration/columns/#customizeText) for this.
 
 #####See Also#####
 - **columns[]**.[calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)

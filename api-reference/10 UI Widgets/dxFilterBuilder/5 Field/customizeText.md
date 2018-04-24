@@ -7,7 +7,9 @@ Customizes the input value's display text.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include uiwidgets-ref-functioncontext with { 
+    value: "field's configuration"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->fieldInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

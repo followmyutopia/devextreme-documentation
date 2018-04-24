@@ -92,6 +92,10 @@ The following code shows the default **calculateFilterExpression** function impl
 ---
 
 In the previous code, the **defaultCalculateFilterExpression** function invokes the default behavior. You can omit the function call if you do not need it. 
+
+#include uiwidgets-ref-functioncontext with { 
+    value: "field's configuration"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->filterValue<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->any<!--/typeFunctionParamType1-->
