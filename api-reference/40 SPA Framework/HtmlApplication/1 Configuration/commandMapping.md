@@ -4,17 +4,17 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies where the [commands](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views) that are defined in the application's views must be displayed.
+Specifies where the [commands](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views) that are defined in the application's views must be displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 When adding a command to a view, specify in which command container this command must be displayed. For this purpose do the following.
 
 - Learn in which layout the view that contains this command will be displayed.  
-    If you use a predefined layout set, read [this topic](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Ready-to-Use_Layout_Sets) to learn in which layout your view will be displayed.
+    If you use a predefined layout set, read [this topic](/Documentation/17_2/Guide/SPA_Framework/Built-in_Layouts/#Ready-to-Use_Layout_Sets) to learn in which layout your view will be displayed.
 
 - Learn what command containers are available in this layout.  
-    Since a layout can be defined for several platforms, learn the identifiers of the command containers provided for all these platforms. If you use built-in layouts, read [this topic](/Documentation/Guide/SPA_Framework/Built-in_Layouts/) to learn what command containers they expose.
+    Since a layout can be defined for several platforms, learn the identifiers of the command containers provided for all these platforms. If you use built-in layouts, read [this topic](/Documentation/17_2/Guide/SPA_Framework/Built-in_Layouts/) to learn what command containers they expose.
 
 - Add your command to the list of the commands that the required command containers display.  
     Use the **commandMapping** configuration option of the HtmlApplication object. The object that is assigned to this option must expose fields named by the command container identifiers. These fields must be assigned to the object with the following fields.  
@@ -71,6 +71,6 @@ The following fields can be set for commands.
 
 Command options override the corresponding defaults that are declared for all commands of a particular command container.
 
-[note]If you use [predefined layouts](/Documentation/Guide/SPA_Framework/Built-in_Layouts/), it is only required to define a mapping for your custom commands. An application loads default command mapping and extends it by your custom command mapping declared within the application's configuration object. To learn what commands are mapped to the built-in layouts by default, refer to the [Default Command Mapping](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Default_Command_Mapping) topic.
+[note]If you use [predefined layouts](/Documentation/17_2/Guide/SPA_Framework/Built-in_Layouts/), it is only required to define a mapping for your custom commands. An application loads default command mapping and extends it by your custom command mapping declared within the application's configuration object. To learn what commands are mapped to the built-in layouts by default, refer to the [Default Command Mapping](/Documentation/17_2/Guide/SPA_Framework/Built-in_Layouts/#Default_Command_Mapping) topic.
 
 <!--/fullDescription-->

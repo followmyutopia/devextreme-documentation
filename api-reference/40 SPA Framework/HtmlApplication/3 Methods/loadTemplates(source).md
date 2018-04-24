@@ -36,7 +36,7 @@ The markup that is passed as the method's parameter should be defined using the 
     </div>
 
 #####See Also#####
-- [SPA Framework - Views and Layouts](/Documentation/Guide/SPA_Framework/Views_and_Layouts)
+- [SPA Framework - Views and Layouts](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts)
 
 [note]If more than one view/layout template is found, an exception will be raised. So, check to see that there are no templates for a view/layout when you add a template dynamically. Use the [getViewTemplate](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#getViewTemplateviewName) and [getViewTemplateInfo](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#getViewTemplateInfoviewName) methods to find a view template in a template collection.
 

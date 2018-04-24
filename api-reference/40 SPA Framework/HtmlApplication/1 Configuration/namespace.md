@@ -18,7 +18,7 @@ The object passed to this option should be previously defined. The following exa
         MyAppNamespace.app.navigate();
     });
 
-When defining the functions that return [ViewModels](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Define_a_View) for application views, create these functions within the application's namespace specified via the **namespace** option.
+When defining the functions that return [ViewModels](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#Define_a_View) for application views, create these functions within the application's namespace specified via the **namespace** option.
 
     <!--JavaScript-->MyAppNamespace.home = Function() {
         var viewModel = {

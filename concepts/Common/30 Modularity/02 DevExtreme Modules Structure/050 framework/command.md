@@ -1,4 +1,4 @@
-Exposes a markup component used to define markup options for a [command](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views).
+Exposes a markup component used to define markup options for a [command](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views).
 
 Exports:
 

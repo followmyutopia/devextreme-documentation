@@ -13,7 +13,6 @@ The widget has a minimum width that depends on the current theme. If the **width
 - Generic - 280x270
 - Android - 290x260
 - iOS - 260x260
-- Windows - 278x278
 
 [/note]
 <!--/fullDescription-->

@@ -13,7 +13,7 @@ An object whose fields represent routing parameters.
 
 <!--returnType-->String<!--/returnType-->
 <!--returnDescription-->
-A URI generated from the specified object using the [registered routing rules](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing).
+A URI generated from the specified object using the [registered routing rules](/Documentation/17_2/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing).
 <!--/returnDescription-->
 
 <!--fullDescription-->

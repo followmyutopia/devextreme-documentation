@@ -26,5 +26,5 @@ An object whose field names correspond to the pattern parameters. These fields a
 <!--fullDescription-->
 Use this method to register a routing rule in an application. Call this method after instantiating the [HtmlApplication](/Documentation/ApiReference/SPA_Framework/HtmlApplication/) object.
 
-For details of possible variants of rule patterns, defaults and constraints, refer to the [Declare a Routing](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing) topic.
+For details of possible variants of rule patterns, defaults and constraints, refer to the [Declare a Routing](/Documentation/17_2/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing) topic.
 <!--/fullDescription-->

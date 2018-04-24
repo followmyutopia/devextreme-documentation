@@ -20,7 +20,7 @@ A view is defined by a piece of HTML markup that forms the view template. The vi
         </div>
     </div>
 
-You can define [a view for a specific device](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Device_Specific_Markup) only (e.g. iPhone). For this purpose, specify dxView options with the same names as the fields of the [device](/Documentation/ApiReference/Common/Object_Structures/device/) object.
+You can define [a view for a specific device](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#Device_Specific_Markup) only (e.g. iPhone). For this purpose, specify dxView options with the same names as the fields of the [device](/Documentation/ApiReference/Common/Object_Structures/device/) object.
 
-For more information about views, refer to the [Views and Layouts](/Documentation/Guide/SPA_Framework/Views_and_Layouts/) help section.
+For more information about views, refer to the [Views and Layouts](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/) help section.
 <!--/fullDescription-->

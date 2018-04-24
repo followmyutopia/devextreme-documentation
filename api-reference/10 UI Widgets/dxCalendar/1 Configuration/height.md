@@ -13,7 +13,6 @@ The widget's minimum height depends on the current theme. If the **height** opti
 - Generic - 280x270
 - Android - 290x260
 - iOS - 260x260
-- Windows - 278x278
 
 [/note]
 <!--/fullDescription-->

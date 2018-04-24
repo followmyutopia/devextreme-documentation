@@ -29,5 +29,5 @@ The dxViewPlaceholder markup component enables you to display a view inside anot
         </div>
     </div>
 
-For more information about views, refer to the [Views and Layouts](/Documentation/Guide/SPA_Framework/Views_and_Layouts/) help section.
+For more information about views, refer to the [Views and Layouts](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/) help section.
 <!--/fullDescription-->

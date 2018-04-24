@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Decodes the specified URI to an object using the [registered routing rules](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing).
+Decodes the specified URI to an object using the [registered routing rules](/Documentation/17_2/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing).
 <!--/shortDescription-->
 
 <!--paramName1-->uri<!--/paramName1-->

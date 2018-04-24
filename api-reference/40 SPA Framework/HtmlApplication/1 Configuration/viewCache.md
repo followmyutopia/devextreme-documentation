@@ -42,6 +42,6 @@ Then, assign your view cache object to the application's **viewCache** configura
         viewCache: new MyNamespace.AdvancedViewCache(),
     });
 
-For details on the view display process, refer to the [View Life Cycle](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#View_Life_Cycle) topic.
+For details on the view display process, refer to the [View Life Cycle](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#View_Life_Cycle) topic.
 
 <!--/fullDescription-->

@@ -21,7 +21,7 @@ The function passed to this option should contain a call to the [release()](/Doc
         }
     }
 
-[note]The "pull down to refresh" gesture is not supported by desktop browsers and Windows Phone devices. You can use it only in [mobile themes](/Documentation/Guide/Themes/Predefined_Themes/) except the Windows Phone theme.
+[note]The "pull down to refresh" gesture is not supported by desktop browsers. You can use it only in mobile themes.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -19,13 +19,13 @@ The **viewInfo** object that is accessible from the event handler's parameter ex
         //...
     });
 
-[note]This event can be handled for a specific view only. To do so, add the **viewShown** field to the view's ViewModel and assign the required function (handler) to it. For details, refer to the [Handle View Events](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Handle_View_Events) topic.
+[note]This event can be handled for a specific view only. To do so, add the **viewShown** field to the view's ViewModel and assign the required function (handler) to it. For details, refer to the [Handle View Events](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#Handle_View_Events) topic.
 
 This event is appropriate for sending asynchronous requests, because the transition to the view is already completed at this time, and the forthcoming response will not interrupt the process of the view display.
 
 To perform specific actions after the view is rendered for the first time, handle the [viewRendered](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Events/#viewRendered) event.
 
-For details on events related to the view display process, refer to the [View Life Cycle](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#View_Life_Cycle) topic.
+For details on events related to the view display process, refer to the [View Life Cycle](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#View_Life_Cycle) topic.
 
 [note]If you use device APIs provided by [Apache Cordova](https://cordova.apache.org/) in your application, call device API functions after the [deviceready](http://cordova.apache.org/docs/en/5.0.0/cordova_events_events.md.html#deviceready) event of Cordova has fired. Otherwise, the application may work too slow on startup. The **deviceready** event fires when Apache Cordova is fully loaded.
 <!--/fullDescription-->

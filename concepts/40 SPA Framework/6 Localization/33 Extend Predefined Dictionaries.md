@@ -1,1 +1,0 @@
-If you need to localize custom captions/messages in your application, use Globalize or another 3rd-party localization library. To learn how to localize messages using Globalize, refer to the [Localization Using Globalize](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries/Using_Globalize) article.

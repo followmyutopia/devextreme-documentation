@@ -9,7 +9,7 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-An object that manages [views](/Documentation/Guide/SPA_Framework/Views_and_Layouts/) and controls the application life cycle.
+An object that manages [views](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/) and controls the application life cycle.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -19,7 +19,7 @@ The **HtmlApplication** object connects markup elements, scripts and styles to a
         MyApp.app = new DevExpress.framework.html.HtmlApplication();
     });
 
-To configure the HtmlApplication object, pass a [configuration object](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/) as the constructor's parameter. Specify the required options within the configuration object. For instance, specify the [set of layouts](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#layoutSet) to be used as a skeleton for application views. Using the application object, register a [routing rule](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/) for the application and navigate to a starting view.
+To configure the HtmlApplication object, pass a [configuration object](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/) as the constructor's parameter. Specify the required options within the configuration object. For instance, specify the [set of layouts](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#layoutSet) to be used as a skeleton for application views. Using the application object, register a [routing rule](/Documentation/17_2/Guide/SPA_Framework/Navigation_and_Routing/) for the application and navigate to a starting view.
 
     <!--JavaScript-->window.MyApp = {};
     $(function() {

@@ -13,5 +13,5 @@ The DevExtreme SPA framework comes with an integrated navigation system that all
 
 To parse a URI or format an object to a URI, use the Router's [parse(uri)](/Documentation/ApiReference/SPA_Framework/Router/Methods/#parseuri) and [format(obj)](/Documentation/ApiReference/SPA_Framework/Router/Methods/#formatobj) methods respectively.
 
-To learn more about routing rules, refer to the [Declare a Routing](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing) topic.
+To learn more about routing rules, refer to the [Declare a Routing](/Documentation/17_2/Guide/SPA_Framework/Navigation_and_Routing/#Declare_a_Routing) topic.
 <!--/fullDescription-->

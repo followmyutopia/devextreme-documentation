@@ -9,7 +9,7 @@ Copy the new JavaScript files from the **[Sources]**/**Lib**/**js** DevExtreme f
     [note]The **css** folder must include the **icons** folder with font icons.
 
 - **Update Layouts**  
-Copy the new [layout](/Documentation/Guide/SPA_Framework/Built-in_Layouts/) files from the **[Sources]**/**Lib**/**layouts** DevExtreme folder to the equivalent folder in your applications.
+Copy the new [layout](/Documentation/17_2/Guide/SPA_Framework/Built-in_Layouts/) files from the **[Sources]**/**Lib**/**layouts** DevExtreme folder to the equivalent folder in your applications.
 
 You can find all these resources in the DevExtreme zip archive or in the DevExtreme folder, which is **C:\Program Files (x86)\DevExpress 18.1\DevExtreme** by default.
 

@@ -9,7 +9,7 @@ Specifies application behavior when the user navigates to a root view.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A mobile application usually consists of several root views accessible from [global navigation](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Global_Navigation_Items). Each root view may have a stack of child views that are invoked one after another. For instance, a child view can be invoked to show detailed information on an item selected within a root view. To learn more about navigation stacks, refer to the [Navigation History in Mobile Apps](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/?#Navigation_History_in_Mobile_Apps) topic.
+A mobile application usually consists of several root views accessible from [global navigation](/Documentation/17_2/Guide/SPA_Framework/Built-in_Layouts/#Global_Navigation_Items). Each root view may have a stack of child views that are invoked one after another. For instance, a child view can be invoked to show detailed information on an item selected within a root view. To learn more about navigation stacks, refer to the [Navigation History in Mobile Apps](/Documentation/17_2/Guide/SPA_Framework/Navigation_and_Routing/?#Navigation_History_in_Mobile_Apps) topic.
 
 The **navigateToRootViewMode** option specifies whether the child view stack of a root view is kept or reset when you return to this root view.
 

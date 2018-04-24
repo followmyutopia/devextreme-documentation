@@ -17,7 +17,7 @@ The function handling this event should contain a call to the [release()](/Docum
         options.component.release();
     })
 
-[note]The "pull down to refresh" gesture is not supported by desktop browsers and Windows Phone devices. You can use it only in [mobile themes](/Documentation/Guide/Themes/Predefined_Themes/) except the Windows Phone theme.
+[note]The "pull down to refresh" gesture is not supported by desktop browsers. You can use it only in mobile themes.
 
 #####See Also#####
 #include common-link-handleevents

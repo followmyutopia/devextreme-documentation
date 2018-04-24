@@ -1,1 +1,0 @@
-**Basic Application (Type Script)** is the same as the [Basic Application](/Documentation/Guide/VS_Integration/Project_Templates/#Basic_Application) project. The only difference is that the TypeScript language is used in the Basic Application (Type Script) and the required Type Script libraries are referenced in it.

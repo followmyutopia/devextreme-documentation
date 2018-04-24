@@ -9,7 +9,7 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-A markup component used to define markup options for a [command](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views).
+A markup component used to define markup options for a [command](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views).
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -19,7 +19,7 @@ The dxCommand markup component allows you to define a view-related action in an 
         <div data-bind="dxCommand: { id: 'myCommand', onExecute: '#product-details', title: 'Add' } "></div>
     </div>
 
-As you can see in the code above, a command can be used for [navigation](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Navigate_to_a_View). In this instance, you can set the [onExecute](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxCommand/Configuration/#onExecute) option to a URI or to an object defining a URI. In addition, you can specify navigation options for a command - the options that have the same names as the fields of the **options** object passed as the second parameter to the [HtmlApplication.navigate(uri, options)](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#navigateuri_options) method.
+As you can see in the code above, a command can be used for [navigation](/Documentation/17_2/Guide/SPA_Framework/Navigation_and_Routing/#Navigate_to_a_View). In this instance, you can set the [onExecute](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxCommand/Configuration/#onExecute) option to a URI or to an object defining a URI. In addition, you can specify navigation options for a command - the options that have the same names as the fields of the **options** object passed as the second parameter to the [HtmlApplication.navigate(uri, options)](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Methods/#navigateuri_options) method.
 
 A command's markup options can be bound to ViewModel fields. Here is an example.
 
@@ -35,5 +35,5 @@ To be displayed, a command must be registered within a command container using t
 
 In the code above, the specified **hint** option will be applied if the widget that will display the command has the **hint** option in its configuration.
 
-To learn more about commands and how to display them in a view, read the [Add Commands to Views](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views) topic.
+To learn more about commands and how to display them in a view, read the [Add Commands to Views](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views) topic.
 <!--/fullDescription-->

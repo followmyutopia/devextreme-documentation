@@ -18,7 +18,7 @@ To access the ViewModel, use the **model** field of the **viewInfo** object. Thi
 
 In addition to the **model** field, the **viewInfo** object exposes the **viewName**, **uri**, **routeData**,  **viewTemplateInfo** and **layoutController** fields.
 
-For details on this and other events related to the view display process, refer to the [View Life Cycle](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#View_Life_Cycle) topic.
+For details on this and other events related to the view display process, refer to the [View Life Cycle](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#View_Life_Cycle) topic.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

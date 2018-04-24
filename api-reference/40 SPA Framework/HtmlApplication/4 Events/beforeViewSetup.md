@@ -18,7 +18,7 @@ Use the [on(eventName, eventHandler)](/Documentation/ApiReference/SPA_Framework/
 
 The object passed as the event handler's parameter provides access to the **viewInfo** object. At this step, the **viewInfo** object exposes the following  fields: **viewName**, **uri**, **routeData**, **viewTemplateInfo** and **layoutController**. You can add the **model** field. The object assigned to this field will be used as the view's View Model.
 
-For details on this and other events related to the view display process, refer to the [View Life Cycle](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#View_Life_Cycle) topic.
+For details on this and other events related to the view display process, refer to the [View Life Cycle](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#View_Life_Cycle) topic.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->

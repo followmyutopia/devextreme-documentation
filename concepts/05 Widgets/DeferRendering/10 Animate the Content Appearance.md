@@ -29,7 +29,7 @@ In most cases, elements appear on the page as a single whole, but if you have a 
 Here, the `.dx-list-item` is a [selector](https://api.jquery.com/category/selectors/) pointing to each **List** item. Note also that the **animation** option accepts one of the [predefined animations](/Documentation/ApiReference/Common/utils/animationPresets/). All predefined staggering animations have a `stagger-` prefix in their names.
 
 #####See Also#####
-- [SPA Framework - Animation](/Documentation/Guide/SPA_Framework/Animation/)
+- [SPA Framework - Animation](/Documentation/17_2/Guide/SPA_Framework/Animation/)
 - [DeferRendering - Indicate the Loading State](/Documentation/Guide/Widgets/DeferRendering/Indicate_the_Loading_State/)
 - [DeferRendering API Reference](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/)
 

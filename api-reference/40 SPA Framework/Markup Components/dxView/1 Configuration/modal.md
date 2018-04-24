@@ -7,7 +7,7 @@ Indicates whether the view should be displayed in a modal mode.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To display a modal view in a popup window, add the [Popup Layout](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Popup_Layout) to your application. This layout uses the [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/) widget to display a view in a popup window. By default the **SimpleLayoutController** controller is used to manage the popup window content. So, when defining a modal view, find out which [content placeholders](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Insert_View_into_Layout) and [command containers](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views) are available in the [Simple Layout](/Documentation/Guide/SPA_Framework/Built-in_Layouts/#Simple_Layout).
+To display a modal view in a popup window, add the [Popup Layout](/Documentation/17_2/Guide/SPA_Framework/Built-in_Layouts/#Popup_Layout) to your application. This layout uses the [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/) widget to display a view in a popup window. By default the **SimpleLayoutController** controller is used to manage the popup window content. So, when defining a modal view, find out which [content placeholders](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#Insert_View_into_Layout) and [command containers](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#Add_Commands_to_Views) are available in the [Simple Layout](/Documentation/17_2/Guide/SPA_Framework/Built-in_Layouts/#Simple_Layout).
 
     <!--HTML--><div data-options="dxView : { name: 'login', title: 'Log in', modal: true } " >
         <div data-options="dxContent : { targetPlaceholder: 'content' } " >

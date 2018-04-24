@@ -9,7 +9,7 @@ Fires before the lookup list is refreshed as a result of the "pull down to refre
 <!--fullDescription-->
 Instead, you can use the [onPullRefresh](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onPullRefresh) option to handle the event.
 
-[note]The "pull down to refresh" gesture is not supported by desktop browsers and Windows Phone devices. You can use it only in [mobile themes](/Documentation/Guide/Themes/Predefined_Themes/) except the Windows Phone theme.
+[note]The "pull down to refresh" gesture is not supported by desktop browsers. You can use it only in mobile themes.
 
 #####See Also#####
 #include common-link-handleevents

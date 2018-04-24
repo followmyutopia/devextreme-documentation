@@ -23,7 +23,7 @@ Use **dxAction** binding to execute a custom action when clicking a bound HTML e
 
 Generally, the **dxAction** binding is analogous to the [dxclick](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxclick) event supplied with the DexExtreme UI Events library. However, there two distinctions.
 
- - The **dxAction** binding allows you to navigate to a URL by assigning that URL (a string or an object) as a binding value. For details, refer to the [Navigate to a View](/Documentation/Guide/SPA_Framework/Navigation_and_Routing/#Navigate_to_a_View) topic.
+ - The **dxAction** binding allows you to navigate to a URL by assigning that URL (a string or an object) as a binding value. For details, refer to the [Navigate to a View](/Documentation/17_2/Guide/SPA_Framework/Navigation_and_Routing/#Navigate_to_a_View) topic.
  
  - When you assign a function to dxAction binding, you can use the function's parameters to access the DOM element involved in this binding, the model that is available for binding against the element and the jQueryEvent that caused the action execution.
 

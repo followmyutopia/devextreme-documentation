@@ -12,5 +12,5 @@ When adding information about a view to a filled cache, the first added view is 
 
 When a view is requested from the cache to be displayed repeatedly, it becomes the last in the cache stack.
 
-For details on the process of view caching and displaying, refer to the [View Life Cycle](/Documentation/Guide/SPA_Framework/Views_and_Layouts/#View_Life_Cycle) topic.
+For details on the process of view caching and displaying, refer to the [View Life Cycle](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#View_Life_Cycle) topic.
 <!--/fullDescription-->
