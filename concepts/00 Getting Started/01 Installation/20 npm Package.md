@@ -1,70 +1,18 @@
-[note] If you use Angular, follow instructions given [here](https://github.com/DevExpress/devextreme-angular#add-to-existing-app).
+Run the following command to install the [main DevExtreme package](https://www.npmjs.com/package/devextreme)'s major release version:
 
-DevExtreme is available through the [npm](https://www.npmjs.com/) package manager. Run the following command to install or upgrade the [DevExtreme package](https://www.npmjs.com/package/devextreme):
+    npm install devextreme@18.1 --save --save-exact
+
+DevExtreme also provides [pre-release packages](https://github.com/DevExpress/DevExtreme/releases) that contain hotfixes and new features for early testing. Run the following command to install the latest pre-release package:
 
     npm install devextreme@18.1-unstable --save --save-exact
 
-We recommend saving an exact version of DevExtreme to avoid unexpected updates due to DevExtreme not using Semantic Versioning. In our versioning system, the increment of the first or middle number means a major release, which may contain behavior changes.
+[note] We recommend saving an exact version of DevExtreme to avoid unexpected updates due to DevExtreme not using Semantic Versioning. In our versioning system, the first and middle number indicates a major release which may contain behavior changes.
 
-[note]
+You need additional npm packages to use DevExtreme with Angular, Vue, or React. See the instructions in the dedicated GitHub repositories: [Angular](https://github.com/DevExpress/devextreme-angular#add-to-existing-app), [Vue](https://github.com/DevExpress/devextreme-vue#install-devextreme), [React](https://github.com/DevExpress/devextreme-react#install-devextreme).
 
-npm@3 does not install peer dependencies automatically. You need to install jQuery manually with the following command:
-
-    npm install jquery
-
-[/note]
-
-Use the following commands to install additional libraries.
-
-    // Allow you to use the MVVM approach
-    npm install knockout@3.4
-    npm install angular@1
-
-    // Enable you to localize your app
-    npm install globalize@1
-    npm install cldr-data
-
-    // Enables you to create your own DevExtreme modules
-    npm install webpack@1.13
-
-After installation is completed, you can find all the libraries in the **node_modules** folder. Link them within your index page's `<head>` tag.
-
-    <!--HTML-->
-    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
-
-    <!-- Reference either Knockout or AngularJS, if you do -->
-    <script type="text/javascript" src="node_modules/knockout/build/output/knockout-latest.js"></script>
-    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
-
-    <!-- Reference Globalize if you need to localize app or your app uses custom date, number or currency formatting --> 
-    <script type="text/javascript" src="node_modules/cldrjs/dist/cldr.js"></script>
-    <script type="text/javascript" src="node_modules/cldrjs/dist/cldr/event.js"></script>
-    <script type="text/javascript" src="node_modules/cldrjs/dist/cldr/supplemental.js"></script>
-    <script type="text/javascript" src="node_modules/globalize/dist/globalize.js"></script>
-    <script type="text/javascript" src="node_modules/globalize/dist/globalize/message.js"></script>
-    <script type="text/javascript" src="node_modules/globalize/dist/globalize/number.js"></script>
-    <script type="text/javascript" src="node_modules/globalize/dist/globalize/currency.js"></script>
-    <script type="text/javascript" src="node_modules/globalize/dist/globalize/date.js"></script>
-
-    <!-- Reference the JSZip script if you need client-side exporting -->
-    <script type="text/javascript" src="node_modules/jszip/dist/jszip.js"></script>
-
-    <!-- DevExtreme themes -->
-    <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.common.css" />
-    <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.light.css" />
-
-    <!-- A DevExtreme library -->
-    <script type="text/javascript" src="node_modules/devextreme/dist/js/dx.all.js"></script>
-    <!-- <script type="text/javascript" src="node_modules/devextreme/dist/js/dx.mobile.js"></script> -->
-    <!-- <script type="text/javascript" src="node_modules/devextreme/dist/js/dx.viz.js"></script> -->
-    <!-- <script type="text/javascript" src="node_modules/devextreme/dist/js/dx.web.js"></script> -->
-    <!-- <script type="text/javascript" src="node_modules/devextreme/dist/js/dx.viz-web.js"></script> -->
-    
 #####See Also#####
-- [npm Documentation](https://docs.npmjs.com/)
-- [NuGet Package](/Documentation/Guide/Getting_Started/Installation/NuGet_Package)
-- [Bower Package](/Documentation/Guide/Getting_Started/Installation/Bower_Package)
 - [DevExtreme Modularity](/Documentation/Guide/Common/Modularity/)
+- **Create and Configure a Widget**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)
 - [Predefined Themes](/Documentation/Guide/Themes/Predefined_Themes/)
 
 [tags]getting started, install, npm, package
