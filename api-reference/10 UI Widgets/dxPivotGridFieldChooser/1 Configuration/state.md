@@ -88,11 +88,11 @@ The state includes field configurations, expanded headers, and other settings. T
     </dx-pivot-grid-field-chooser>
     <dx-button
         text="Apply Changes"
-        (onClick)="applyChanges($event)">
+        (onClick)="applyChanges()">
     </dx-button>
     <dx-button
         text="Cancel Changes"
-        (onClick)="cancelChanges($event)">
+        (onClick)="cancelChanges()">
     </dx-button>
 
 ---
@@ -100,4 +100,5 @@ The state includes field configurations, expanded headers, and other settings. T
 #####See Also#####
 - [applyChanges()](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Methods/#applyChanges)
 - [cancelChanges()](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Methods/#cancelChanges)
+- [PivotGridDataSource - state()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#state)
 <!--/fullDescription-->
