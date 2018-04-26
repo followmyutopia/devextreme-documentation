@@ -47,6 +47,8 @@ You can initialize widget options with a string value or the value of a componen
 
 For more information on using DevExtreme widgets with Angular, refer to the [DevExtreme-Angular README](https://github.com/DevExpress/DevExtreme-angular#angular-ui-and-visualization-components-based-on-devextreme-widgets) on GitHub.
 
+DevExtreme supports [server-side rendering](https://angular.io/guide/universal#angular-universal-server-side-rendering), which can be used to speed up your application loading. See DevExtreme-Angular README's [Server-side Rendering](https://github.com/devexpress/DevExtreme-angular#server-side-rendering) section for more information.
+
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/Angular/Light/"
 }
