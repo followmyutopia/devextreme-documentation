@@ -35,7 +35,7 @@ The [fomatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/c
 <!--typeFunctionParamName1_field3-->target<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The UI element where the **customizeText** function was called: *"filterRow"*, *"headerFilter"* and *"search"*.
+The UI element where the **customizeText** function was called: *"filterRow"*, *"headerFilter"*, *"search"*, *"filerPanel"*, or *"filterBuilder"*.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->groupInterval<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->String|Number<!--/typeFunctionParamType1_field4-->
