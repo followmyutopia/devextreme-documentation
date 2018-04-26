@@ -11,23 +11,17 @@
 
         // Checks whether or not the request contains a file and if this file is empty or not
         if (file == null || file.ContentLength <= 0) {
-            Response.StatusCode = 400;
-            Response.StatusDescription = "File is not specified";
-            return new EmptyResult();
+            throw new HttpException("File is not specified");
         }
 
         // Checks that the file size does not exceed the allowed size
         if (file.ContentLength > maxFileSize) {
-            Response.StatusCode = 400;
-            Response.StatusDescription = "File is too big";
-            return new EmptyResult();
+            throw new HttpException("File is too big");
         }
 
         // Checks that the file is an image
         if (!file.ContentType.Contains("image")) {
-            Response.StatusCode = 400;
-            Response.StatusDescription = "Invalid file type";
-            return new EmptyResult();
+            throw new HttpException("Invalid file type");
         }
 
         try {
@@ -38,15 +32,12 @@
                 file.SaveAs(path);
         }
         catch (Exception e) {
-            Response.StatusCode = 400;
-            Response.StatusDescription = "Invalid file name";
-            return new EmptyResult();
+            throw new HttpException("Invalid file name");
         }
         return new EmptyResult();
     }
 
     <!--VB-->
-
     Function AsyncUpload() As ActionResult
         Dim file As HttpPostedFileBase = Request.Files("file")
         ' Specifies the target location for the uploaded files'
@@ -57,23 +48,17 @@
 
         ' Checks whether or not the request contains a file and if this file is empty or not'
         If (IsNothing(file) Or file.ContentLength <= 0) Then
-            Response.StatusCode = 400
-            Response.StatusDescription = "File is not specified"
-            Return New EmptyResult()
+            Throw New HttpException("File is not specified")
         End If
 
         ' Checks that the file size does not exceed the allowed size'
         If (file.ContentLength > maxFileSize) Then
-            Response.StatusCode = 400
-            Response.StatusDescription = "File is too big"
-            Return New EmptyResult()
+            Throw New HttpException("File is too big")
         End If
 
         ' Checks that the file is an image'
         If (Not file.ContentType.Contains("image")) Then
-            Response.StatusCode = 400
-            Response.StatusDescription = "Invalid file type"
-            Return New EmptyResult()
+            Throw New HttpException("Invalid file type")
         End If
 
         Try
@@ -83,11 +68,38 @@
             ' If all checks are passed, save the file.'
                 file.SaveAs(path)
         Catch ex As Exception
-            Response.StatusCode = 400
-            Response.StatusDescription = "Invalid file name"
-            Return New EmptyResult()
+            Throw New HttpException("Invalid file name")
         End Try
 
         Return New EmptyResult()
 
     End Function
+
+You can pass the exception messages to the client using a custom action filter:
+
+    <!--C#-->
+    [NonAction]
+    protected override void OnActionExecuted(ActionExecutedContext filter) {
+        var exception = filter.Exception;
+        if (exception != null) {
+            filter.HttpContext.Response.StatusCode = 500;
+            filter.Result = new JsonResult {
+                Data = exception.Message
+            };
+            filter.ExceptionHandled = true;
+        }
+    }
+
+    <!--VB-->
+    <NonAction()>
+    Protected Overrides Sub OnActionExecuted(ByVal filter As ActionExecutedContext)
+        Dim exception As Exception = filter.Exception
+        If exception IsNot Nothing Then
+            filter.HttpContext.Response.StatusCode = 500
+            filter.Result = New JsonResult With {.Data = exception.Message}
+            filter.ExceptionHandled = True
+        End If
+    End Sub
+
+#####See Also#####
+- [Creating Custom Action Filters](https://msdn.microsoft.com/en-us/library/dd381609(v=vs.100).aspx)
