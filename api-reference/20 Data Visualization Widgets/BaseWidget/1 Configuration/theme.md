@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'generic.light'<!--/default-->
-<!--acceptValues-->'generic.light' | 'generic.dark' | 'generic.contrast' | 'generic.carmine' | 'generic.darkmoon' | 'generic.softblue' | 'generic.darkviolet' | 'generic.greenmist' | 'android5.light' | 'ios7.default' | 'material.blue.light' | 'material.lime.light' | 'material.orange.light' | 'material.purple.light' | 'material.teal.light'<!--/acceptValues-->
+<!--acceptValues-->'android5.light' | 'generic.dark' | 'generic.light' | 'generic.contrast' | 'ios7.default' | 'generic.carmine' | 'generic.darkmoon' | 'generic.darkviolet' | 'generic.greenmist' | 'generic.softblue' | 'material.blue.light' | 'material.lime.light' | 'material.orange.light' | 'material.purple.light' | 'material.teal.light'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
