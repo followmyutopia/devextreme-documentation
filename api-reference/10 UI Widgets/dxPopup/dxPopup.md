@@ -38,7 +38,9 @@ The **Popup** widget is a pop-up window overlaying the current view.
     <dx-popup
         title="Popup Title"
         [(visible)]="isPopupVisible">
-            <p>Popup content</p>
+            <div *dxTemplate="let data of 'content'">
+                <p>Popup content</p>
+            </div>
     </dx-popup>
 
     <!--TypeScript-->
