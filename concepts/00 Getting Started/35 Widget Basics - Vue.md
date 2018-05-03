@@ -1,1 +1,1 @@
-The basics of using DevExtreme widgets as Vue components are described in the [DevExtreme Vue](https://github.com/DevExpress/devextreme-vue) repo on GitHub.
+The basics of using DevExtreme widgets as Vue components are described in the [DevExtreme Vue](https://github.com/DevExpress/devextreme-vue/blob/master/README.md) repo on GitHub.

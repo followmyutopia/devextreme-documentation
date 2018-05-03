@@ -12,7 +12,7 @@ You need additional npm packages to use DevExtreme with Angular, Vue, or React. 
 
 #####See Also#####
 - [DevExtreme Modularity](/Documentation/Guide/Common/Modularity/)
-- **Create and Configure a Widget**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)
+- **Create and Configure a Widget**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/) | [Vue](https://github.com/DevExpress/devextreme-vue#use-devextreme-components) | [React](https://github.com/DevExpress/devextreme-react#use-components)
 - [Predefined Themes](/Documentation/Guide/Themes/Predefined_Themes/)
 
 [tags]getting started, install, npm, package
