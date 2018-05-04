@@ -6,5 +6,7 @@ Cancels changes made in the widget without applying them to the **PivotGrid**. T
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/StandaloneFieldChooser/jQuery/Light/"
+}
 <!--/fullDescription-->

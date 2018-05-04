@@ -97,6 +97,10 @@ The state includes field configurations, expanded headers, and other settings. T
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/StandaloneFieldChooser/Angular/Light/"
+}
+
 #####See Also#####
 - [applyChanges()](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Methods/#applyChanges)
 - [cancelChanges()](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Methods/#cancelChanges)
