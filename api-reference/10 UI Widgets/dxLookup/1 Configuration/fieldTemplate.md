@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a custom template for the input field. Must contain the [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/) widget.
+Specifies a custom template for the input field.
 <!--/shortDescription-->
 
 <!--fullDescription-->
