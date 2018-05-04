@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether searching is enabled in the field chooser.
+Specifies whether the field chooser allows searching in the *"All Fields"* section.
 <!--/shortDescription-->
 
 <!--fullDescription-->
