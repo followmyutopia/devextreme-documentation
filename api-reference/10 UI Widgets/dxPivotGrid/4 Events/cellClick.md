@@ -30,12 +30,12 @@ The widget [instance](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Methods
 The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->area<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) to which the clicked cell belongs.
 <!--/typeFunctionParamDescription1_field4-->
@@ -50,27 +50,27 @@ The cell's container. It is an [HTML Element](https://developer.mozilla.org/en-U
 The cell [properties](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Pivot_Grid_Cell/).
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->rowIndex<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->number<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The index of the row to which the clicked cell belongs.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->columnIndex<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->number<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->Number<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The index of the column to which the clicked cell belongs.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->columnFields<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->Array<PivotGridDataSourceOptions_fields><!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->Array<PivotGridDataSource_Options_fields><!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 The *column* area's fields.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rowFields<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->Array<PivotGridDataSourceOptions_fields><!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->Array<PivotGridDataSource_Options_fields><!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 The *row* area's fields.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->dataFields<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->Array<PivotGridDataSourceOptions_fields><!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamType1_field11-->Array<PivotGridDataSource_Options_fields><!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 The *data* area's fields.
 <!--/typeFunctionParamDescription1_field11-->
@@ -86,7 +86,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->cancel<!--/typeFunctionParamName1_field14-->
-<!--typeFunctionParamType1_field14-->boolean<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamType1_field14-->Boolean<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
 Allows you to cancel field expansion.
 <!--/typeFunctionParamDescription1_field14-->

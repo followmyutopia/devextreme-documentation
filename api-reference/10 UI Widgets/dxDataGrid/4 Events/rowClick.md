@@ -21,7 +21,7 @@ In addition, you can perform certain actions when a user clicks a cell. For this
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -36,7 +36,7 @@ The widget's instance.
 The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
@@ -52,7 +52,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->data<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The row's data.
 <!--/typeFunctionParamDescription1_field6-->
@@ -72,28 +72,28 @@ Values displayed in the row cells.
 All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rowIndex<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->number<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->Number<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 The row's visible index. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->rowType<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->string<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamType1_field11-->String<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGRid/Row/#rowType).
 Can be one of the following: *'data'* for data rows, *'group'* for group rows, *'detail'* for [detail sections](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail), or *"detailAdaptive"* for [adaptive detail rows](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/).
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->isSelected<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->boolean<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->Boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 Indicates whether the row is [selected](/Documentation/Guide/Widgets/DataGrid/Selection/).
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->isExpanded<!--/typeFunctionParamName1_field13-->
-<!--typeFunctionParamType1_field13-->boolean<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamType1_field13-->Boolean<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
 Indicates whether or not the group row is expanded. Available if **rowType** is *'group'*.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->groupIndex<!--/typeFunctionParamName1_field14-->
-<!--typeFunctionParamType1_field14-->number<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamType1_field14-->Number<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
 The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex). Available if **rowType** is *'group'*.
 <!--/typeFunctionParamDescription1_field14-->
@@ -103,7 +103,7 @@ The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Config
 The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field15-->
 <!--typeFunctionParamName1_field16-->handled<!--/typeFunctionParamName1_field16-->
-<!--typeFunctionParamType1_field16-->boolean<!--/typeFunctionParamType1_field16-->
+<!--typeFunctionParamType1_field16-->Boolean<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
 Indicates whether internal widget handlers have already handled the event.
 <!--/typeFunctionParamDescription1_field16-->

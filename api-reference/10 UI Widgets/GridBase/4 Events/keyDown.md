@@ -13,7 +13,7 @@ Main article: [onKeyDown]({basewidgetpath}/Configuration/#onKeyDown)
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -39,7 +39,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->handled<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->boolean<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Boolean<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 Indicates whether the widget has already handled this event.
 <!--/typeFunctionParamDescription1_field5-->

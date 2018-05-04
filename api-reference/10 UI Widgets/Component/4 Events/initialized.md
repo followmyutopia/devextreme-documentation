@@ -13,7 +13,7 @@ Main article: [onInitialized]({basewidgetpath}/Configuration/#onInitialized)
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->

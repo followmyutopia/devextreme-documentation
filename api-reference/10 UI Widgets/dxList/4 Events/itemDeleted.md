@@ -17,7 +17,7 @@ Note that the **itemDeleted** event is raised only if an item is deleted using t
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -32,12 +32,12 @@ The widget's instance.
 The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->itemData<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The removed item's data.
 <!--/typeFunctionParamDescription1_field4-->
@@ -47,7 +47,7 @@ The removed item's data.
 The item's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->number | object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Number|Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The removed item's index. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
 <!--/typeFunctionParamDescription1_field6-->

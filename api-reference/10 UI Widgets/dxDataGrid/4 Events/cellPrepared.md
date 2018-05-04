@@ -15,7 +15,7 @@ When implementing a handling function for this event, use the object passed to t
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -30,12 +30,12 @@ The widget's instance.
 The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The data of the row to which the cell belongs. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFooter"*.
 <!--/typeFunctionParamDescription1_field4-->
@@ -51,17 +51,17 @@ If a field providing keys is not specified in the [data source](/Documentation/A
 The cell's raw value. 
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->displayValue<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->string<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->String<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The cell's displayed value. Differs from the **value** field only when the column to which the prepared cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->text<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->string<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->String<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->columnIndex<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->number<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->Number<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 The index of the column to which the cell belongs. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field9-->
@@ -71,12 +71,12 @@ The index of the column to which the cell belongs. For details on indexes, see t
 This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->rowIndex<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->number<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamType1_field11-->Number<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 The row's visible index. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->rowType<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->string<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->String<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 The row's type. Can have one of the following values: *"data"*, *"detail"*, *"detailAdaptive"*, *"group"*, *"groupFooter"*, *"header"*, *"filter"* or *"totalFooter"*. 
 <!--/typeFunctionParamDescription1_field12-->
@@ -86,12 +86,12 @@ The row's type. Can have one of the following values: *"data"*, *"detail"*, *"de
 The row [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/).
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->isSelected<!--/typeFunctionParamName1_field14-->
-<!--typeFunctionParamType1_field14-->boolean<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamType1_field14-->Boolean<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
 Indicates whether the row is selected. 
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->isExpanded<!--/typeFunctionParamName1_field15-->
-<!--typeFunctionParamType1_field15-->boolean<!--/typeFunctionParamType1_field15-->
+<!--typeFunctionParamType1_field15-->Boolean<!--/typeFunctionParamType1_field15-->
 <!--typeFunctionParamDescription1_field15-->
 Indicates whether the row is expanded or collapsed. Unavailable if **rowType** is *"header"*, *"filter"* or *"totalFooter"*.
 <!--/typeFunctionParamDescription1_field15-->

@@ -12,7 +12,7 @@ Fires when a user clicks a [label](/Documentation/Guide/Widgets/Chart/Axes/Axis_
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -27,7 +27,7 @@ The widget's instance.
 The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
@@ -43,7 +43,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->argument<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Date|Number|string<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Date|Number|String<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The clicked label's value.
 <!--/typeFunctionParamDescription1_field6-->

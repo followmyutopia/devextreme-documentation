@@ -15,7 +15,7 @@ When implementing a handling function for this event, use the object passed to t
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -30,17 +30,17 @@ The widget's instance.
 The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->eventType<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->string<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 Indicates whether the pointer entered or left the cell. Can be either *'mouseover'* or *'mouseout'*.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->data<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->object<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The data of the row to which the cell belongs.
 <!--/typeFunctionParamDescription1_field5-->
@@ -55,22 +55,22 @@ The row's key. If a field providing keys is not specified in the [data source](/
 The cell's raw value.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->text<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->string<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->String<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->displayValue<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->string<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 The cell's displayed value. Differs from the **value** field only when the column to which the current cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->columnIndex<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->number<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->Number<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 The index of the column to which the cell belongs. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->rowIndex<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->number<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamType1_field11-->Number<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 The row's visible index. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field11-->
@@ -80,7 +80,7 @@ The row's visible index. For details on indexes, see the [Column and Row Indexes
 This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->rowType<!--/typeFunctionParamName1_field13-->
-<!--typeFunctionParamType1_field13-->string<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamType1_field13-->String<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
 The row's type. This field equals *'data'* for data rows or *'group'* for group rows. 
 <!--/typeFunctionParamDescription1_field13-->

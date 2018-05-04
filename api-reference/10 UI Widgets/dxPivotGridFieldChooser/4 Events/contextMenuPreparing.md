@@ -15,7 +15,7 @@ Handle this event to change the set of items in the context menu before it is di
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -30,7 +30,7 @@ The widget's instance.
 The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
@@ -40,12 +40,12 @@ The model data. Available only if Knockout is used.
 Items to be displayed in the context menu. Their structure is described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) section.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->area<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->string<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->String<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The clicked [area's](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) type.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->field<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->PivotGridDataSourceOptions_fields<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->PivotGridDataSource_Options_fields<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The [configuration](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) of the field on which the context menu is invoked.
 <!--/typeFunctionParamDescription1_field6-->

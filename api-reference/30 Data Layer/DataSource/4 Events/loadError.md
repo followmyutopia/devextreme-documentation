@@ -15,7 +15,7 @@ To learn how to handle events, refer to the [Events and Change Tracking](/Docume
 The occurred error.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->message<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The system message about the error.
 <!--/typeFunctionParamDescription1_field1-->

@@ -13,7 +13,7 @@ Main article: [onRowValidating]({basewidgetpath}/Configuration/#onRowValidating)
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -28,17 +28,17 @@ The widget's instance.
 The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->brokenRules<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Array<RequiredRule,NumericRule,RangeRule,StringLengthRule,CustomRule,CompareRule,PatternRule,EmailRule><!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An array of broken rules. The structure of rule objects is described in the [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->isValid<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->boolean<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Boolean<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 Indicates whether data in all cells of the row satisfies the validation rules.
 <!--/typeFunctionParamDescription1_field5-->
@@ -48,17 +48,17 @@ Indicates whether data in all cells of the row satisfies the validation rules.
 The key of the row. If a field providing keys is not specified in the data source, the whole data object is considered the key.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->newData<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->object<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Object<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The data of the validated row after changes.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->oldData<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->object<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->Object<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The data of the validated row before changes.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->errorText<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->string<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 An error message to be displayed.
 <!--/typeFunctionParamDescription1_field9-->

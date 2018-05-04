@@ -18,12 +18,12 @@ Instead, you can use the [onValidated](/Documentation/ApiReference/UI_Widgets/dx
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->name<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->string<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The value of the [name](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#name) option.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->isValid<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->boolean<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Boolean<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 Indicates whether all the rules checked for the value are satisfied.
 <!--/typeFunctionParamDescription1_field2-->
@@ -33,7 +33,7 @@ Indicates whether all the rules checked for the value are satisfied.
 The validated value.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->validationRules<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Array<RequiredRule,NumericRule,RangeRule,StringLengthRule,CustomRule,CompareRule,PatternRule,EmailRule><!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Array<RequiredRule, NumericRule, RangeRule, StringLengthRule, CustomRule, CompareRule, PatternRule, EmailRule><!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 An array of the validation rules specified for the current **dxValidator** object.
 <!--/typeFunctionParamDescription1_field4-->

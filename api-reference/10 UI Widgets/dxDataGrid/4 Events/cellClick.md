@@ -19,7 +19,7 @@ In addition, you can perform some actions when a user clicks a row. For this pur
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information about the event.
 <!--/typeFunctionParamDescription1-->
@@ -34,7 +34,7 @@ The widget's instance.
 The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->object<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
@@ -50,7 +50,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->data<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The data of the row to which the cell belongs. 
 <!--/typeFunctionParamDescription1_field6-->
@@ -65,32 +65,32 @@ The row's key. If a field providing keys is not specified in the [data source](/
 The cell's raw value.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->displayValue<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->string<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 The cell's displayed value. Differs from the **value** field only when the column to which the clicked cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->text<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->string<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamType1_field10-->String<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->columnIndex<!--/typeFunctionParamName1_field11-->
-<!--typeFunctionParamType1_field11-->number<!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamType1_field11-->Number<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 The index of the column to which the cell belongs. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->column<!--/typeFunctionParamName1_field12-->
-<!--typeFunctionParamType1_field12-->object<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamType1_field12-->Object<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
 This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/).
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->rowIndex<!--/typeFunctionParamName1_field13-->
-<!--typeFunctionParamType1_field13-->number<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamType1_field13-->Number<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
 The visible index of the row to which the cell belongs. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->rowType<!--/typeFunctionParamName1_field14-->
-<!--typeFunctionParamType1_field14-->string<!--/typeFunctionParamType1_field14-->
+<!--typeFunctionParamType1_field14-->String<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
 The type of the row to which the clicked cell belongs. This field equals *'data'* for data rows or *'group'* for group rows. Use this field to distinguish rows by type.
 <!--/typeFunctionParamDescription1_field14-->

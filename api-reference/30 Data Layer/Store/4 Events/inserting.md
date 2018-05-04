@@ -10,7 +10,7 @@ Fires before a data item is added.
 To learn how to handle events, refer to the [Events and Change Tracking](/Documentation/Guide/Data_Layer/Data_Layer/#Events_and_Change_Tracking) topic.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 The item to be inserted.
 <!--/typeFunctionParamDescription1-->

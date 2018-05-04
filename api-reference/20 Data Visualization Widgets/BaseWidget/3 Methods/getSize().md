@@ -5,7 +5,7 @@
 Gets the current widget size.
 <!--/shortDescription-->
 
-<!--returnType-->BaseWidgetOptions_size<!--/returnType-->
+<!--returnType-->BaseWidget_Options_size<!--/returnType-->
 <!--returnDescription-->
 The current widget size.
 <!--/returnDescription-->
