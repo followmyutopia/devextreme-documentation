@@ -1,4 +1,4 @@
-The [center](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/center/) option centers the **Map** to a specific location. In addition to location formats accepted by the [current provider](/Documentation/Guide/Widgets/Map/Specify_the_Provider_and_Type/), the **center** option accepts the following ones. 
+The [center](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/center/) option centers the **Map** on a specific location. The **center** option accepts the following location formats in addition to the formats the [current provider](/Documentation/Guide/Widgets/Map/Specify_the_Provider_and_Type/) accepts: 
 
 - *{ lat: 40.749825, lng: -73.987963 }*
 - *"40.749825, -73.987963"*
@@ -18,7 +18,7 @@ To zoom the **Map**, set the [zoom](/Documentation/ApiReference/UI_Widgets/dxMap
         });
     });
 
-Note that the **center** and **zoom** options may be ignored in favor of displaying all [markers](/Documentation/Guide/Widgets/Map/Configure_Markers/) and [routes](/Documentation/Guide/Widgets/Map/Configure_Routes/). To disable this behavior, assign **false** to the [autoAdjust](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#autoAdjust) option.
+Note that the widget can automatically change the **center** and **zoom** options to display all [markers](/Documentation/Guide/Widgets/Map/Configure_Markers/) and [routes](/Documentation/Guide/Widgets/Map/Configure_Routes/) and align them with the widget's center. To disable this behavior, assign **false** to the [autoAdjust](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#autoAdjust) option.
 
     <!--JavaScript-->
     $(function() {
