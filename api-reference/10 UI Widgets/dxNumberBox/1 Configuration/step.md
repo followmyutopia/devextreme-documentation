@@ -4,11 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies by which value the widget value changes when a spin button is clicked.
+Specifies how much the widget's value changes when using the spin buttons, Up/Down arrow keys, or mouse wheel.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The option makes sense only if the **showSpinButtons** option is set to **true**.
-
 
 <!--/fullDescription-->
