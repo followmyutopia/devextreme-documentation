@@ -16,8 +16,12 @@ The next page is loaded once the scrollbar reaches the end of its scale. Use thi
     name: "Infinite Scrolling"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Data_Grid/VirtualScrolling/jQuery/Light/",
-    name: "Virtual Scrolling"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/VirtualScrolling/jQuery/Light/",
+    name: "Local Virtual Scrolling"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RemoteVirtualScrolling/jQuery/Light/",
+    name: "Remote Virtual Scrolling"
 }
 
 Use the **scrolling**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/scrolling/#mode) option to specify the current scrolling mode.
