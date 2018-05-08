@@ -12,6 +12,10 @@ As an alternative, you can save the widget instance in a scope property once the
         };
     }
 
+    <!--HTML--><div ng-controller="Controller">
+        <div dx-menu="menuOptions"></div>
+    </div>
+
 ... and call any method of the saved instance afterwards.
 
     <!--JavaScript-->$scope.menuInstance.repaint();
