@@ -187,7 +187,7 @@ The **DropDownBox** widget consists of a text field, which displays the current 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Drop_Down_Box/SingleSelection/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/jQuery/Light/"
 }
 <a href="https://www.youtube.com/watch?v=j578mQfW99o&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 

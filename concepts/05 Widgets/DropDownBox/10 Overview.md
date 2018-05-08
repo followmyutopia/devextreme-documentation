@@ -1,7 +1,7 @@
 The **DropDownBox** is a widget that consists of a text field, which displays the current value, and a drop-down field, which can contain any UI element.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Drop_Down_Box/SingleSelection/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DropDownBox/SingleSelection/jQuery/Light/"
 }
 
 The simplest widget configuration requires specifying a [dataSource](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#dataSource), [value](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#value) and [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxDropDownBox/Configuration/#contentTemplate). The following code adds the **DropDownBox** to your page: 
