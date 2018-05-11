@@ -78,7 +78,7 @@ Allows you to notify a user when exporting completes.
 <!--paramName2_field9-->onFileSaving<!--/paramName2_field9-->
 <!--paramType2_field9-->function()<!--/paramType2_field9-->
 <!--paramDescription2_field9-->
-Allows you to access exported data and/or prevent it from being saved into a file on the user's local storage.      
+Allows you to access exported data and/or prevent it from being saved to a file on the user's local storage.      
 The parameter contains the following fields:
 
 <div>
@@ -101,7 +101,7 @@ The parameter contains the following fields:
 <!--paramName2_field10-->margin<!--/paramName2_field10-->
 <!--paramType2_field10-->Number<!--/paramType2_field10-->
 <!--paramDescription2_field10-->
-
+An empty space to be added around the exported SVG block; measured in pixels.
 <!--/paramDescription2_field10-->
 
 <!--fullDescription-->
