@@ -1,6 +1,6 @@
 You can also create a new view with a scaffolded DevExtreme control on it. It is an MVC view or a Razor page, depending on the type of project.
 
-1. In **Solution Explorer**, right-click the folder in which to place the view. On the invoked menu, point to **Add** and then click **View...** or **New Scaffolded Item...**.
+1. In **Solution Explorer**, right-click the folder in which to place the view. On the invoked menu, point to **Add** and then click **View...**/**Razor Page...** or **New Scaffolded Item...**.
 
     ![DevExtreme ASP.NET MVC Controls - Add New Scaffolded Item on the context menu](/Content/images/doc/18_1/Common/MvcWrappers/scaffolding_view_new-item.png)
 
