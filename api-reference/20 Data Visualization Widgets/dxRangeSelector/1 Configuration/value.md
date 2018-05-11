@@ -1,7 +1,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Array<Number, String, Date><!--/type-->
-<!--firedEvents-->valuechanged<!--/firedEvents-->
+<!--firedEvents-->valueChanged<!--/firedEvents-->
 ===========================================================================
 
 <!--shortDescription-->
