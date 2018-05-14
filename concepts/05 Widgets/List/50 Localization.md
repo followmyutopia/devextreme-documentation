@@ -1,4 +1,4 @@
-Static messages for any DevExtreme widget are defined in a locale-specific dictionary as key-value pairs. To localize the **List** widget in particular, you need to redefine values for the following keys. To load the dictionaries, use the [loadMessages](/Documentation/ApiReference/Common/utils/localization/#loadMessages) method defined in the `DevExpress.localization` namespace.
+Static messages for any DevExtreme widget are defined in a locale-specific dictionary as key-value pairs. To localize the **List** widget, you need to redefine the following keys' values. To load the dictionaries, use the [loadMessages(messages)](/Documentation/ApiReference/Common/utils/localization/#loadMessagesmessages) method defined in the `DevExpress.localization` namespace.
 
 ---
 #####jQuery
@@ -54,9 +54,9 @@ Static messages for any DevExtreme widget are defined in a locale-specific dicti
 
 ---
 
-[note] DevExtreme ships several predefined dictionaries for most widespread locales. For details, see the [Localization](/Documentation/Guide/Common/Localization/) topic. 
+[note] DevExtreme ships several predefined dictionaries for most locales. See the [Localization](/Documentation/Guide/Common/Localization/) topic for more information. 
 
-Some messages can be defined by **List** options as well as by keys. The following table draws the correspondence between options and keys that define the same messages. Note that the options always take precedence over the keys.
+Some messages can be defined by **List** options as well as keys. The following table illustrates the options and keys that define the same messages. Note that the options always take precedence over keys.
 
 <div class="simple-table">
   <table>
