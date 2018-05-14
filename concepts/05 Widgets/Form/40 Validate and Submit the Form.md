@@ -1,4 +1,4 @@
-The **Form** widget uses the built-in validation engine to validate form item values. You can attach validation rules to a simple item using its [validationRules](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#validationRules) option. You can do it when you [create items explicitly](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/#Create_a_Simple_Item)...
+The **Form** widget uses the built-in validation engine to validate form item values. You can attach validation rules to a simple item using its [validationRules](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#validationRules) option when you [create items explicitly](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/#Create_a_Simple_Item)...
 
 ---
 ##### jQuery
@@ -129,33 +129,35 @@ The **Form** widget uses the built-in validation engine to validate form item va
 
 ---
 
-[note] The [RequiredRule](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/RequiredRule/) is attached to a form item implicitly if the [isRequired](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#isRequired) option of this item is set to **true**.
+[note] The [RequiredRule](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/RequiredRule/) is attached to a form item implicitly if this item's [isRequired](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#isRequired) option is set to **true**.
 
-A single **Form** editor is validated individually once its value is changed. If the value fails to pass the validation check, the editor displays an error message. Note that in addition, you can call the [validate()](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#validate) method to validate all **Form** editors at once. In this case, the **Form** can display all occurred validation errors in the bottom, but only if you set the [showValidationSummary](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showValidationSummary) option to **true**. 
+A single **Form** editor is validated individually once its value changes. If the value fails to pass the validation check, the editor displays an error message. Note that you can also call the [validate()](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#validate) method to validate all **Form** editors simultaneously. In this case, the **Form** can display all validation errors at the bottom if you set the [showValidationSummary](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#showValidationSummary) option to **true**. 
 
 <div class="simulator-desktop-container" data-view="Content/Applications/18_1/UIWidgets/dxForm/Validation/markup.html, Content/Applications/18_1/UIWidgets/dxForm/Validation/script.js, Content/Applications/18_1/UIWidgets/dxForm/common-styles.css"></div>
 
-Commonly, **Form** editors should be submitted to the server after being successfully validated on the client. This scenario is supported by the [Button](/Documentation/Guide/Widgets/Button/Overview/) widget out of the box. Wrap both **Form** and **Button** widgets in the [`<form>`](http://www.w3schools.com/html/html_forms.asp) tag. Then, bind the **Button** to the inner validation group of the **Form** using the [validationGroup](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#validationGroup) option. After that, pass **true** to the [useSubmitBehavior](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#useSubmitBehavior) option of the **Button** to activate the submit behavior. In this case, a click on the **Button** validates all **Form** editors, and if they are valid, submits the HTML form to the server.
+Usually, **Form** editors should be submitted to the server after being successfully validated on the client. The following code shows how to do this using a [button form item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/ButtonItem/). Note that the **Form** widget is wrapped in the [`<form>`](http://www.w3schools.com/html/html_forms.asp) tag in the markup.
 
 ---
 ##### jQuery
 
     <!--HTML--><form action="/Login" method="post">
         <div id="formWidget"></div>
-        <div id="validateSubmitButton"></div>
     </form>
 
     <!--JavaScript-->
     $(function () {
         $("#formWidget").dxForm({
             // ...
-            validationGroup: "groupName"
-        });
-    
-        $("#validateSubmitButton").dxButton({
-            // ...
             validationGroup: "groupName",
-            useSubmitBehavior: true
+            items: [{
+                itemType: "button",
+                buttonOptions: {
+                    text: "Submit the Form",
+                    useSubmitBehavior: true
+                }
+            },
+            // ...
+            ]
         });
     });
 
@@ -165,25 +167,26 @@ Commonly, **Form** editors should be submitted to the server after being success
     <form action="/Login" method="post">
         <dx-form ...
             validationGroup="groupName">
-            <!-- ... -->
+            <dxi-item 
+                itemType="button"
+                [buttonOptions]="buttonOptions">
+            </dxi-item>
         </dx-form>
-        <dx-button ...
-            validationGroup="groupName"
-            [useSubmitBehavior]="true">
-        </dx-button>
     </form>
 
     <!--TypeScript-->
-    import { DxFormModule, DxButtonModule } from 'devextreme-angular';
+    import { DxFormModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        // ...
+        buttonOptions = {
+            text: "Submit the Form",
+            useSubmitBehavior: true
+        }
     }
     @NgModule({
         imports: [
             // ...
-            DxFormModule,
-            DxButtonModule
+            DxFormModule
         ],
         // ...
     })
