@@ -14,6 +14,7 @@ The messages to be loaded.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
+
 ---
 ##### jQuery
 
@@ -52,6 +53,7 @@ The messages to be loaded.
             });
         }
     }
+
 ---
 
 [note]It is necessary to reload the page each time you load new messages.

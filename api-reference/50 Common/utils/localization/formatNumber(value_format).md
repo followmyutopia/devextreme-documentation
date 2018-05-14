@@ -25,6 +25,7 @@ The formatted string.
 <!--/returnDescription-->
 
 <!--fullDescription-->
+
 ---
 ##### jQuery
 
@@ -43,5 +44,6 @@ The formatted string.
             console.log(numberString); // logs "25%"
         }
     }
+
 ---
 <!--/fullDescription-->

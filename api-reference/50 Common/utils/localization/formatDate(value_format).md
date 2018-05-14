@@ -25,6 +25,7 @@ The formatted string.
 <!--/returnDescription-->
 
 <!--fullDescription-->
+
 ---
 ##### jQuery
 
@@ -43,5 +44,6 @@ The formatted string.
             console.log(dateString); // logs "Monday, May 7, 2018"
         }
     }
+
 ---
 <!--/fullDescription-->
