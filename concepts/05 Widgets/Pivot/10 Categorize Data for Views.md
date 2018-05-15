@@ -48,7 +48,6 @@ Note that the **Pivot** in this example employs DevExtreme's own **DataSource** 
 
 #####See Also#####
 - [Pivot - Customize Item Appearance](/Documentation/Guide/Widgets/Pivot/Customize_Item_Appearance)
-- [Pivot Demos](/Demos/WidgetsGallery/#demo/navigation-pivot-overview/ios7)
 - [Pivot API Reference](/Documentation/ApiReference/UI_Widgets/dxPivot/)
 
 [tags]pivot, categorize, list, filter

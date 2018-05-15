@@ -177,7 +177,6 @@ In addition, you can use a 3rd-party template engine to customize widget appeara
 
 #####See Also#####
 - [Pivot - Categorize Data for Views](/Documentation/Guide/Widgets/Pivot/Categorize_Data_for_Views)
-- [Pivot Demos](/Demos/WidgetsGallery/#demo/navigation-pivot-overview/ios7)
 - [Pivot API Reference](/Documentation/ApiReference/UI_Widgets/dxPivot/)
 
 [tags]pivot, item appearance, customize, templates, template, custom template, default item, default template

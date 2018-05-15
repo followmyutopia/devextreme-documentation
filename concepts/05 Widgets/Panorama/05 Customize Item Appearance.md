@@ -156,7 +156,6 @@ You can also customize an individual view. For this purpose, declare a template 
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
 
 #####See Also#####
-- [Panorama Demos](/Demos/WidgetsGallery/#demo/navigation-panorama-overview/ios7)
 - [Panorama API Reference](/Documentation/ApiReference/UI_Widgets/dxPanorama/)
 
 [tags]panorama, item appearance, customize, templates, template, custom template, default item, default template

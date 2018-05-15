@@ -29,6 +29,10 @@ dx.mobile.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 
+<!--deprecated-->
+[note] The **Panorama** widget is <span style="color:red">deprecated</span> since v18.1. We recommend using the [TabPanel](/Documentation/Guide/Widgets/TabPanel/Overview/) or [MultiView](/Documentation/Guide/Widgets/MultiView/Overview/) widget instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 The **Panorama** widget is a full-screen widget that allows you to arrange items on a long horizontal canvas split into several views. Each view contains several items, and an end user navigates the views with the swipe gesture. The **Panorama** is often used as a navigation map on the first page of an application.
 <!--/shortDescription-->
@@ -164,13 +168,6 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
     }
 
 ---
-
- 
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigationpanoramapanoramapanorama/iphone/ios7/default/default"
-}
-<a href="http://www.youtube.com/watch?v=zVDFC0BuGG0&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=11" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
 - [Panorama - Overview](/Documentation/Guide/Widgets/Panorama/Overview/)

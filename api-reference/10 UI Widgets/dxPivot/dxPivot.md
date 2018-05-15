@@ -29,6 +29,10 @@ dx.mobile.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 
+<!--deprecated-->
+[note] The **Pivot** widget is <span style="color:red">deprecated</span> since v18.1. We recommend using the [TabPanel](/Documentation/Guide/Widgets/TabPanel/Overview/) widget instead.
+<!--/deprecated-->
+
 <!--shortDescription-->
 The **Pivot** provides a quick way to manage multiple views. It includes a collection of views and a navigation header. An end user switches the views by swiping them or by clicking their titles on the navigation header.
 <!--/shortDescription-->
@@ -136,13 +140,6 @@ The **Pivot** provides a quick way to manage multiple views. It includes a colle
     ko.applyBindings(viewModel);
 
 ---
-
- 
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/navigationpivotpivotpivot/iphone/ios7/default/default"
-}
-<a href="http://www.youtube.com/watch?v=EVE8ykPZxOE&index=10&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
 #####See Also#####
 - [Pivot - Overview](/Documentation/Guide/Widgets/Pivot/Overview/)
