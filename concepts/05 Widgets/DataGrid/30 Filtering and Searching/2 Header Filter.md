@@ -42,7 +42,7 @@ Assign **true** to the [headerFilter](/Documentation/ApiReference/UI_Widgets/dxD
     
 ---
 
-A user can change the applied filter by including or excluding values. Use a column's [filterType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterType) option to specify the required mode. You can specify the initial filter by combining this option and the [filterValues](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValues) option. To change it at runtime, call the [columnOption](/Documentation/ApiReference/UI_Widgets/dxDataGridMethods/#columnOptionid_options) method:
+A user can change the applied filter by including or excluding values. Use a column's [filterType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterType) option to specify the required mode. You can specify the initial filter by combining this option and the [filterValues](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValues) option. To change it at runtime, call the [columnOption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_options) method:
 
 ---
 ##### jQuery

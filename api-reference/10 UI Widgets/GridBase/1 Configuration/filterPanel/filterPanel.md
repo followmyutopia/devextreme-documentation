@@ -19,5 +19,6 @@ Clicking on the filter expression opens the [filter builder]({basewidgetpath}/Co
 If you change the filter expression in the filter panel or filter builder, the changes are reflected in the [filter row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row) and [header filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter), and vice versa. You can disable this synchronization by setting the [filterSyncEnabled]({basewidgetpath}/Configuration/#filterSyncEnabled) option to **false**. In this case, the filter panel remains synchronized with the filter builder.
 
 #####See Also#####
+- [Filter Panel](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Panel)
 - [filterBuilderPopup]({basewidgetpath}/Configuration/#filterBuilderPopup)
 <!--/fullDescription-->

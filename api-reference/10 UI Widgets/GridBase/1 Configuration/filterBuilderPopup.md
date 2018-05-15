@@ -11,5 +11,5 @@ Configures the popup in which the integrated [filter builder]({basewidgetpath}/C
 See the [Popup configuration](/Documentation/ApiReference/UI_Widgets/dxPopup/) for options that you can specify in this object.
 
 #####See Also#####
-- [filterPanel]({basewidgetpath}/Configuration/filterPanel/)
+- [Filter Panel](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Panel)
 <!--/fullDescription-->

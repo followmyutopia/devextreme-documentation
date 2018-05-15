@@ -1,8 +1,4 @@
-The [**FilterBuilder**](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/) widget helps a user build a complex filter expression and apply it to all grid columns at once.
-
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList FilterBuilder](/Content/images/doc/18_1/treeList/visual_elements/filter_builder.png)
-
-To integrate the **FilterBuilder** with the **TreeList**, first, pass an array of columns that should be filtered to the **FilterBuilder**'s [fields](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields) option. Each item in this array should at least have the [dataField](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField) at least. The following code allows using all **TreeList** columns in the **FilterBuilder**:
+The **TreeList** widget has an integrated filter builder that can be invoked using the [filter panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Filter_Panel). You can also use the [FilterBuilder](/Documentation/Guide/Widgets/FilterBuilder/Overview/) widget as a standalone component. Pass an array of columns that should be filtered to the **FilterBuilder**'s [fields](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#fields) option. Each item in this array should at least have the [dataField](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField). The following code allows using **TreeList** columns in the **FilterBuilder**:
 
 ---
 #####jQuery
@@ -70,7 +66,7 @@ To integrate the **FilterBuilder** with the **TreeList**, first, pass an array o
 
 ---
 
-Then, add a button that updates a filter of the **TreeList**'s data source according to the build filter expression. The [value](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#value) option stores this expression.
+Then, add a button that updates a filter of the **TreeList**'s data source according to the filter expression:
 
 ---
 #####jQuery
@@ -81,7 +77,7 @@ Then, add a button that updates a filter of the **TreeList**'s data source accor
         $("#button").dxButton({
             text: "Apply Filter",
             onClick: function () {
-                var filter = $("#filterBuilder").dxFilterBuilder("instance").option("value");
+                var filter = $("#filterBuilder").dxFilterBuilder("instance").getFilterExpression();
                 $("#treeList").dxTreeList("instance").filter(filter);
             }
         });
@@ -102,7 +98,7 @@ Then, add a button that updates a filter of the **TreeList**'s data source accor
         @ViewChild(DxFilterBuilderComponent) filterBuilder: DxFilterBuilderComponent;
         // ...
         buttonClick() {
-            this.treeList.filter(this.filterBuilder.value);
+            this.treeList.filter(this.filterBuilder.getFilterExpression());
         }
     }
     @NgModule({
@@ -124,4 +120,3 @@ Then, add a button that updates a filter of the **TreeList**'s data source accor
 
 #####See Also#####
 - [Filtering API - Initial and Runtime Filtering](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering)
-- [DataGrid with the Filter Builder Demo](/Demos/WidgetsGallery/Demo/FilterBuilder/WithTreeList/Angular/Light/)

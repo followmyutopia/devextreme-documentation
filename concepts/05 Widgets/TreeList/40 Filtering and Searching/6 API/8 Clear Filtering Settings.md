@@ -7,9 +7,9 @@ Clears the [header filter](/Documentation/Guide/Widgets/TreeList/Filtering_and_S
 - *"search"*        
 Clears the [search panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel).
 - *"dataSource"*        
-Clears the data source filter, whether defined [in the configuration](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) or applied by the [filter(filterExpr)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#filterfilterExpr) method.
+Clears the data source filter defined [in the configuration](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) or applied by the [filter(filterExpr)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#filterfilterExpr) method.
 - *Without any parameter*         
-Clears all filters at once.
+Clears all filters.
 
 <!---->
 
