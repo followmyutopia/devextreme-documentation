@@ -9,6 +9,7 @@ Assign **true** to the [headerFilter](/Documentation/ApiReference/UI_Widgets/dxD
 
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
+            // ...
             headerFilter: { visible: true },
             columns: [{
                 // ...
@@ -41,26 +42,39 @@ Assign **true** to the [headerFilter](/Documentation/ApiReference/UI_Widgets/dxD
     
 ---
 
-A user can change the applied filter by including or excluding values to/from it. Use a column's [filterType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterType) option to specify the required mode.
+A user can change the applied filter by including or excluding values. Use a column's [filterType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterType) option to specify the required mode. You can specify the initial filter by combining this option and the [filterValues](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#filterValues) option. To change it at runtime, call the [columnOption](/Documentation/ApiReference/UI_Widgets/dxDataGridMethods/#columnOptionid_options) method:
 
 ---
 ##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
+            // ...
             columns: [{
                 // ...
-                filterType: "exclude" // or "include"
+                dataField: "OrderDate",
+                filterType: "exclude", // or "include"
+                filterValues: [2014]
             }]
         });
+    });
+
+<!---->
+
+    <!--JavaScript-->
+    $("#dataGridContainer").dxDataGrid("columnOption", "OrderDate", {
+        filterType: "include",
+        filterValues: [2015, 2015]
     });
 
 ##### Angular
     
     <!--HTML-->
     <dx-data-grid ... >
-        <dxi-column ...
-            [filterType]="exclude"> <!-- or "include" -->
+        <dxi-column 
+            dataField="OrderDate"
+            [(filterValues)]="filterValues"
+            [(filterType)]="filterType"> 
         </dxi-column>
     </dx-data-grid>
 
@@ -68,7 +82,12 @@ A user can change the applied filter by including or excluding values to/from it
     import { DxDataGridModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        // ...
+        filterValues: Array<any> = [2014];
+        filterType: string = "exclude";    // or "include"
+        applyFilter (filterType, values) {
+            this.filterType = filterType;
+            this.filterValues = values;
+        }
     }
     @NgModule({
         imports: [
@@ -80,13 +99,14 @@ A user can change the applied filter by including or excluding values to/from it
     
 ---
 
-The header filter provides a searching capability that you can enable using the **headerFilter**.[allowSearch](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/#allowSearch) option. The same option can be declared in a column's configuration object, in which case it controls searching in that column's header filter.
+You can use the **headerFilter**.[allowSearch](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/headerFilter/#allowSearch) option to enable the header filter's searching capability. The same option can be declared in a column's configuration object, in which case it controls searching in that column's header filter.
 
 ---
 ##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
+            // ...
             headerFilter: { 
                 visible: true,
                 allowSearch: true
