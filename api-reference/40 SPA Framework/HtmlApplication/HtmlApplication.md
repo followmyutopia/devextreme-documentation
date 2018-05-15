@@ -1,3 +1,4 @@
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--module-->framework/html/html_application<!--/module-->
 <!--export-->default<!--/export-->

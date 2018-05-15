@@ -1,3 +1,4 @@
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--module-->framework/html/command_container<!--/module-->
 <!--type-->Object<!--/type-->

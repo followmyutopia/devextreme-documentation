@@ -1,3 +1,4 @@
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--module-->framework/html/view_engine_components<!--/module-->
 <!--type-->Object<!--/type-->
