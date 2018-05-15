@@ -1,6 +1,11 @@
+<!--dep--><!--/dep-->
 ===========================================================================
 <!--handmade--><!--/handmade-->
 ===========================================================================
+
+<!--deprecated-->
+#include spa-deprecated-note
+<!--/deprecated-->
 
 <!--shortDescription-->
 This section describes framework components that can be used when defining markup of an application page.

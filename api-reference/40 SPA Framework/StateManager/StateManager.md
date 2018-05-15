@@ -5,6 +5,10 @@
 <!--type-->Object<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+#include spa-deprecated-note
+<!--/deprecated-->
+
 <!--shortDescription-->
 An object that stores the current application state.
 <!--/shortDescription-->

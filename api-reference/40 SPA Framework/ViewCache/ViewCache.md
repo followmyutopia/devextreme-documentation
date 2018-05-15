@@ -9,6 +9,10 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 
+<!--deprecated-->
+#include spa-deprecated-note
+<!--/deprecated-->
+
 <!--shortDescription-->
 An object that stores information about views displayed in the application.
 <!--/shortDescription-->

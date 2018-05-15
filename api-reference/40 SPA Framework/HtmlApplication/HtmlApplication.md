@@ -9,6 +9,10 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 
+<!--deprecated-->
+#include spa-deprecated-note
+<!--/deprecated-->
+
 <!--shortDescription-->
 An object that manages [views](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/) and controls the application life cycle.
 <!--/shortDescription-->

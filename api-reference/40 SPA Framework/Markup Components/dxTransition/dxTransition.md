@@ -7,6 +7,10 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 
+<!--deprecated-->
+#include spa-deprecated-note
+<!--/deprecated-->
+
 <!--shortDescription-->
 A markup component used to configure transitions for content that changes in a [layout](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxLayout/).
 <!--/shortDescription-->

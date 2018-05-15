@@ -7,6 +7,10 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 
+<!--deprecated-->
+#include spa-deprecated-note
+<!--/deprecated-->
+
 <!--shortDescription-->
 A markup component used to indicate a widget in a [layout markup](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxLayout/) as a command container.
 <!--/shortDescription-->

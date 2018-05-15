@@ -7,6 +7,10 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 
+<!--deprecated-->
+#include spa-deprecated-note
+<!--/deprecated-->
+
 <!--shortDescription-->
 
 A markup component used to define markup options for a [layout](/Documentation/17_2/Guide/SPA_Framework/Views_and_Layouts/#Define_Layouts).

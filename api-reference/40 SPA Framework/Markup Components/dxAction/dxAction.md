@@ -6,6 +6,10 @@ dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
 <!--/lib-->
 ===========================================================================
 
+<!--deprecated-->
+#include spa-deprecated-note
+<!--/deprecated-->
+
 <!--shortDescription-->
 Custom [Knockout](http://knockoutjs.com/documentation/introduction.html) binding that links an HTML element with a specific action.
 <!--/shortDescription-->

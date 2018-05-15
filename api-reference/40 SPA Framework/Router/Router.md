@@ -5,6 +5,10 @@
 <!--type-->Object<!--/type-->
 ===========================================================================
 
+<!--deprecated-->
+#include spa-deprecated-note
+<!--/deprecated-->
+
 <!--shortDescription-->
 An object responsible for routing.
 <!--/shortDescription-->
