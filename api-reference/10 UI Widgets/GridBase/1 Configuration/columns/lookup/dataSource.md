@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->Array<any> | DataSource_Options | function(options)<!--/type-->
+<!--type-->Array<any> | DataSource_Options | Store | function(options)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -37,7 +37,7 @@ The row's data.
 The row's key.
 <!--/typeFunctionParamDescription1_field2-->
 
-<!--typeFunctionReturnType-->Array<any>|DataSource_Options<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Array<any>|DataSource_Options|Store<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 An array of data objects or a **DataSource** [configuration](Documentation/ApiReference/Data_Layer/DataSource/Configuration/).
 <!--/typeFunctionReturnDescription-->
