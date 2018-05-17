@@ -8,6 +8,8 @@ Specifies the popup element's height. Applies only if [fullScreen](/Documentatio
 <!--/shortDescription-->
 
 <!--fullDescription-->
+In the Material theme, the default value is calculated so that the **Lookup** contains four items.
+
 #include uiwidgets-ref-height
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->Number|String<!--/typeFunctionReturnType-->
