@@ -12,10 +12,10 @@ Specifies the scrolling mode.
 The following scrolling modes are available in the widget:
 
 - **Standard**      
-All rows are loaded at once. Scrolling appears only if the widget height cannot fit all rows.
+Rows are rendered at once or by pages if [paging](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/paging/) is enabled. Scrolling appears only if all the rows cannot fit into the widget's height.
 
 - **Virtual**       
-Rows are loaded when they get into the viewport and removed once they leave it. Use this mode if a user should be able to scroll data jumping from one row to another.
+This mode is an alternative to paging where pages are rendered when they get into the viewport and removed once they leave it. Use this mode if a user should be able to scroll data by pages.
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `TreeListScrollingMode` enum. This enum accepts the following values: `Standard` and `Virtual`.
 <!--/fullDescription-->

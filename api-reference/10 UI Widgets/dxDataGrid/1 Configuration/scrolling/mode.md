@@ -12,13 +12,13 @@ Specifies the scrolling mode.
 The following scrolling modes are available in the widget:
 
 - **Standard**      
-A user scrolls a single page only. Scrolling appears only if the widget height cannot fit [all rows of a page](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#pageSize). In this mode, scrolling is auxiliary, while main navigation is performed with the [pager](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/). If [paging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/) is disabled, the widget loads all rows at once, which may decrease the widget performance. In this case, we recommend choosing another scrolling mode.
+A user scrolls a single page only. Scrolling appears only if [all the page's rows](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#pageSize) do not fit into the widget's height. In this mode, the [pager](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/pager/) performs the main navigation and scrolling is auxiliary. If [paging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/) is disabled, the widget loads all rows at once, which may decrease the widget's performance. In this case, we recommend choosing another scrolling mode.
 
 - **Virtual**       
-Pages are loaded when they get into the viewport and removed once they leave it. Use this mode if a user should be able to scroll data jumping from one page to another.
+This mode is an alternative to paging where pages are loaded when they get into the viewport and removed once they leave it. Use this mode if a user should be able to scroll data by pages.
 
 - **Infinite**      
-Each next page is loaded once the scrollbar reaches the end of its scale. Use this mode if a user should scroll data gradually, from the first to the last page.
+This mode is an alternative to paging where each next page is loaded once the scrollbar reaches the end of its scale. Use this mode if a user should scroll data gradually, from the first to the last page.
 
     [note]Set the **grouping**.[allowCollapsing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#allowCollapsing) option to **false** when using infinite scrolling in conjunction with grouping.
 
