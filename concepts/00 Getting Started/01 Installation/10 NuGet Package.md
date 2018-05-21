@@ -2,17 +2,11 @@ When using Visual Studio, you can add the DevExtreme libraries to your applicati
 
     Install-Package DevExtreme.Web -Version minor_18_1
 
-The jQuery and Globalize packages, upon which DevExtreme depends, are installed as well. If you need the Knockout and AngularJS packages, you should install them individually. Note that Knockout and AngularJS are not supposed to be used together.
+You can also use the [Manage NuGet Packages](https://docs.nuget.org/consume/Package-Manager-Dialog) dialog to install or update the package.
 
-    Install-Package knockoutjs
+[note] The **DevExtreme Web** package contains inseparable DevExtreme scripts. We recommend using the [DevExtreme npm package](/Documentation/Guide/Getting_Started/Installation/npm_Package/) instead if you are developing a modular application.
 
-<!-------->
-
-    Install-Package AngularJS
-
-Use the **Manage NuGet Packages** dialog in Visual Studio as an alternative way to install or update the **DevExtreme Web** package. You can find more information [here](https://docs.nuget.org/consume/Package-Manager-Dialog).
-
-After installing all the necessary packages, link the required scripts within your index page's `<head>` tag as shown in the [Local Scripts](/Documentation/Guide/Getting_Started/Installation/Local_Scripts) article.
+After installing the NuGet package, you need to link the DevExtreme stylesheets and scripts. Open your index page and add the links to the `<head>` tag as shown in the [Local Scripts](/Documentation/Guide/Getting_Started/Installation/Local_Scripts) article. Note that the NuGet package contains only **dx.viz.js**, **dx.web.js**, and **dx.viz-web.js**.
 
 #####See Also#####
 - [Installing NuGet](http://docs.nuget.org/docs/start-here/installing-nuget)
