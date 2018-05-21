@@ -46,11 +46,11 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
     <!--JavaScript-->$(function() {
         var dataGrid = $("#dataGridContainer").dxDataGrid({
             columns: [{
-                dataField: 'Position',
+                dataField: "Position",
                 sortOrder: "asc",
                 calculateSortValue: function (rowData) {
                     if (rowData.Position == "CEO")
-                        return dataGrid.option('Position', 'sortOrder') == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top   
+                        return dataGrid.columnOption('Position', 'sortOrder') == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top  
                     else
                         return rowData.Position; // Others are sorted as usual
                 }
