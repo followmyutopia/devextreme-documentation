@@ -46,6 +46,7 @@ The **SlideOutView** widget is a classic slide-out menu paired with a view. This
 
     <!--HTML-->
     <dx-slide-out-view
+        id="slideOutView"
         contentTemplate="view"
         menuTemplate="menu">
             <div *dxTemplate="let viewData of 'view'">
@@ -69,6 +70,14 @@ The **SlideOutView** widget is a classic slide-out menu paired with a view. This
         ],
         // ...
     })
+
+    <!--CSS-->::ng-deep #slideOutView {
+        height: auto;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
 
 #####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
 
