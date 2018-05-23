@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets data objects of currently selected rows. 
+Gets the data objects of the rows selected explicitly [via the API](/Documentation/Guide/Widgets/TreeList/Selection/#API/Initial_and_Runtime_Selection) or via a click or tap.
 <!--/shortDescription-->
 
 <!--returnType-->Array<any><!--/returnType-->
 <!--returnDescription-->
-Data objects of currently selected rows.
+The selected rows' data objects.
 <!--/returnDescription-->
 
 <!--fullDescription-->
