@@ -63,7 +63,7 @@ Using this function, you can process user input before it is saved to the data s
 
 ---
 
-To invoke the default behavior, call the **this.defaultSetCellValue(rowData, value)** function.
+To invoke the default behavior, call the **this.defaultSetCellValue(newData, value)** function.
 
 #include uiwidgets-ref-functioncontext with { 
     value: "column's configuration"
