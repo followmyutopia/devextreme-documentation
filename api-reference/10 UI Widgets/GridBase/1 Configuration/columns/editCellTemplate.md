@@ -9,6 +9,11 @@ Specifies a custom template for column cells in the editing state.
 <!--fullDescription-->
 The **cellInfo** object has the following fields:
 
+- **setValue(newValue)**: <font size="-1">Method</font>        
+Sets a new cell value.
+
+ [note] A call of this method tells the widget that the value has been changed. Because of this, in *batch* [edit mode]({basewidgetpath}/Configuration/editing/#mode), an edited cell can be highlighted even if its value was not actually changed, for example, if a user switched this cell into the editing state and then immediately switched it back without changing the value. To prevent this behavior, check that the value has actually been changed before calling the **setValue(newValue)** method.
+ 
 - **data**: <font size="-1">Object</font>        
 The data of the row to which the cell belongs.
 - **component**: <font size="-1">Object</font>  
@@ -27,11 +32,6 @@ The index of the row to which the cell belongs. Begins with 0 on each page. Grou
 The settings of the column to which the cell belongs.
 - **rowType**: <font size="-1">String</font>        
 The type of the row to which the cell belongs. Equals *"data"* for ordinary rows or *"group"* for group rows.
-- **setValue(newValue)**: <font size="-1">Method</font>        
-Saves the edited value. After this method is called, the editing process ends.
-
-    [note] A call of this method tells the widget that the value has been changed. Because of this, in *batch* [edit mode]({basewidgetpath}/Configuration/editing/#mode), an edited cell can be highlighted even if its value was not actually changed, for example, if a user switched this cell into the editing state and then immediately switched it back without changing the value. To prevent this behavior, check that the value has actually been changed before calling the **setValue(newValue)** method.
-
 
 [note]If you implement two-way data binding in your template, make sure that you have switched off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to **false**.
 
