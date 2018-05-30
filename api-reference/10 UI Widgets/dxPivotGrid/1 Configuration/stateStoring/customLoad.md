@@ -3,13 +3,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a callback function that performs specific actions on state loading.
+Specifies a function that is executed on state loading. Applies only if the [type](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#type) is *'custom'*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If you chose the *custom* state storing [type](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#type), use the functions assigned to the [customSave](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#customSave) and **customLoad** options for handling state changes. The function assigned to the **customLoad** option is called when a state is restored. This function should return an object representing a pivot grid state. Normally, it is the object saved within the [customSave](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#customSave) function.
+Use the **customSave** and **customLoad** functions to manually implement state storing: in **customSave**, save the state to a custom storage; in **customLoad**, load it. You can also adjust the state in both functions. See an example in the [customSave](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#customSave) topic.
 <!--/fullDescription-->
 <!--typeFunctionReturnType-->Promise<Object><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A **PivotGrid** state.
+The widget state. As a rule, it is a state that you save within the [customSave](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#customSave) function.
 <!--/typeFunctionReturnDescription-->
