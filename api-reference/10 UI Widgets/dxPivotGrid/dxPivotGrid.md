@@ -59,43 +59,33 @@ The **PivotGrid** is a widget that allows you to display and analyze multi-dimen
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
 
     <!--HTML-->
-    <dx-pivot-grid>
-        <dxo-data-source>
-            <dxo-store
-                type="odata"
-                url="http://url/to/the/service"
-                key="OrderID"
-                keyType="Int32">
-            </dxo-store>
-        </dxo-data-source>
-        <dxi-field
-            area="column"
-            dataField="OrderDate"
-            dataType="date">
-        </dxi-field>
-        <dxi-field
-            area="row"
-            dataField="ShipCountry">
-        </dxi-field>
-        <dxi-field
-            area="row"
-            dataField="ShipCity">
-        </dxi-field>
-        <dxi-field
-            area="row"
-            dataField="ShipName">
-        </dxi-field>
-        <dxi-field
-            area="data"
-            summaryType="count">
-        </dxi-field>
+    <dx-pivot-grid
+        [dataSource]="pivotGridDataSource">
     </dx-pivot-grid>
 
     <!--TypeScript-->
     import { DxPivotGridModule } from 'devextreme-angular';
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
     // ...
     export class AppComponent {
-        // ...
+        pivotGridDataSource: PivotGridDataSource;
+        constructor() {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                store: {
+                    type: 'odata',
+                    url: 'http://url/to/the/service',
+                    key: 'OrderID',
+                    keyType: 'Int32'
+                },
+                fields: [
+                    { area: 'column', dataField: 'OrderDate', dataType: 'date' },
+                    { area: 'row', dataField: 'ShipCountry' },
+                    { area: 'row', dataField: 'ShipCity' },
+                    { area: 'row', dataField: 'ShipName' },
+                    { area: 'data', summaryType: 'count' }
+                ]
+            });
+        }
     }
     @NgModule({
         imports: [
@@ -152,7 +142,7 @@ The **PivotGrid** is a widget that allows you to display and analyze multi-dimen
         .DataSource(ds => ds
             .Store(store => store.OData()
                 .Url("http://url/to/the/service")
-                .Key(new string[] { "OrderID" })
+                .Key("OrderID")
                 .KeyType(EdmType.Int32)
             )
             .Fields(fields => {
@@ -173,7 +163,7 @@ The **PivotGrid** is a widget that allows you to display and analyze multi-dimen
             ds.Store(Function(store)
                 Return store.OData() _
                     .Url("http://url/to/the/service") _
-                    .Key(New String() { "OrderID" }) _
+                    .Key("OrderID") _
                     .KeyType(EdmType.Int32)
                 End Function) _
             .Fields(Sub(fields)
