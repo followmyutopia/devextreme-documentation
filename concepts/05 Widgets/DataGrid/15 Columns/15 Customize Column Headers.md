@@ -80,7 +80,7 @@ If you need a more specific customization, define a custom template in the **col
             headerCellTemplate="addressHeaderTemplate">
         </dxi-column>
         <div *dxTemplate="let info of 'titleHeaderTemplate'">
-            <p style="font-size:16px">info.column.caption</p>
+            <p style="font-size:16px">{{info.column.caption}}</p>
         </div>
         <div *dxTemplate="let info of 'addressHeaderTemplate'">
             <i style="color: black">Mailing Address</i>
