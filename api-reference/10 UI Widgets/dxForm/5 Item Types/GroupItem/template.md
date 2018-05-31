@@ -9,7 +9,7 @@ A template to be used for rendering a group item.
 <!--fullDescription-->
 Use the **template** option of a group item to display custom content under a group caption, for instance an image. To specify a custom template for items contained in a group, define the **template** option of each of these items.
 
-![Form With Image](/Content/images/doc/18_1/UiWidgets/FormWithImage.png)
+![Form With Image](/Content/images/doc/18_2/UiWidgets/FormWithImage.png)
 
 [note]To define a custom template used to render group items, assign the required template name or template container to each simple item's template option.
 

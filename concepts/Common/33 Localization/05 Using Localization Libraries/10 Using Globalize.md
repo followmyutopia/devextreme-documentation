@@ -30,10 +30,10 @@ All the components are also available via CDN and npm.
             <script src="https://cdnjs.cloudflare.com/ajax/libs/globalize/1.3.0/globalize/currency.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/globalize/1.3.0/globalize/date.min.js"></script>
             <!-- DevExtreme library -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_18_1/js/dx.all.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.all.js"></script>
             <!-- Dictionary files for German and Russian languages -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_18_1/js/localization/dx.messages.de.js"></script>
-            <script src="https://cdn3.devexpress.com/jslib/minor_18_1/js/localization/dx.messages.ru.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/localization/dx.messages.de.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/localization/dx.messages.ru.js"></script>
         </head>
         <script>
             $(function() {

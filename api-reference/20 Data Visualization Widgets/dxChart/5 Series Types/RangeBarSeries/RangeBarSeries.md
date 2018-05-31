@@ -9,7 +9,7 @@ Describes settings supported by a series of the *range bar* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts RangeBarSeriesType](/Content/images/doc/18_1/ChartJS/RangeBar.png)
+![DevExtreme HTML5 Charts RangeBarSeriesType](/Content/images/doc/18_2/ChartJS/RangeBar.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsrangeseriesbar/"

@@ -11,9 +11,9 @@ An object that defines a gauge indicator of the **textCloud** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![TextCloud Gauge Value Indicator DevExtreme](/Content/images/doc/18_1/ChartJS/TextCloudValueIndicator.png)
+![TextCloud Gauge Value Indicator DevExtreme](/Content/images/doc/18_2/ChartJS/TextCloudValueIndicator.png)
 
 **Subvalue Indicator**
 
-![TextCloud Gauge Subvalue Indicator DevExtreme](/Content/images/doc/18_1/ChartJS/TextCloudSubvalueIndicator.png)
+![TextCloud Gauge Subvalue Indicator DevExtreme](/Content/images/doc/18_2/ChartJS/TextCloudSubvalueIndicator.png)
 <!--/fullDescription-->

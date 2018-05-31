@@ -1,6 +1,6 @@
 The **ResponsiveBox** widget allows you to create an application or a website with a layout adapted to different screen sizes.
 
-![DevExtreme HTML5 JavaScript ResponsiveBox](/Content/images/doc/18_1/UiWidgets/responsive-box.png)
+![DevExtreme HTML5 JavaScript ResponsiveBox](/Content/images/doc/18_2/UiWidgets/responsive-box.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-responsive_box-overview/tablet-landscape"

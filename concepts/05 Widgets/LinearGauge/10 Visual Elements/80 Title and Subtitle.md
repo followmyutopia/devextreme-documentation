@@ -1,6 +1,6 @@
 The **LinearGauge** can be displayed with a title and a subtitle. These elements usually contain general explanations about the data represented by the gauge. You can, however, place any kind of information in the gauge title and subtitle.
 
-<img src="/Content/images/doc/18_1/ChartJS/LinearGaugeTitleSubtitle.png" alt="DevExtreme HTML5 JavaScript Gauges LinearGaugeTitleSubtitle" style="display:block; margin:0 auto" />
+<img src="/Content/images/doc/18_2/ChartJS/LinearGaugeTitleSubtitle.png" alt="DevExtreme HTML5 JavaScript Gauges LinearGaugeTitleSubtitle" style="display:block; margin:0 auto" />
 
 To specify a gauge title and subtitle, use the [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/title/) and its nested [subtitle](/Documentation/ApiReference/Data_Visualization_Widgets/dxLinearGauge/Configuration/title/subtitle/) options. Both these options accept either a string with the title/subtitle text:
 

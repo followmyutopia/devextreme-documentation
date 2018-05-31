@@ -1,6 +1,6 @@
 A label that displays the item's value or custom data can accompany each funnel item.
 
-![Funnel Item Labels](/Content/images/doc/18_1/funnel/visual_elements/item-labels.png)
+![Funnel Item Labels](/Content/images/doc/18_2/funnel/visual_elements/item-labels.png)
 
 Options that configure item labels are collected in the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/label/) object. Refer to its description in the API reference or to other topics in this section for details on item label settings.
 

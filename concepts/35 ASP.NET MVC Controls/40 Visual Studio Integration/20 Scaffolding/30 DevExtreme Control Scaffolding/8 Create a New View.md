@@ -2,15 +2,15 @@ You can also create a new view with a scaffolded DevExtreme control on it. It is
 
 1. In **Solution Explorer**, right-click the folder in which to place the view. On the invoked menu, point to **Add** and then click **View...**/**Razor Page...** or **New Scaffolded Item...**.
 
-    ![DevExtreme ASP.NET MVC Controls - Add New Scaffolded Item on the context menu](/Content/images/doc/18_1/Common/MvcWrappers/scaffolding_view_new-item.png)
+    ![DevExtreme ASP.NET MVC Controls - Add New Scaffolded Item on the context menu](/Content/images/doc/18_2/Common/MvcWrappers/scaffolding_view_new-item.png)
 
 2. In the **Add Scaffold** window, choose **MVC View with a DevExtreme Control** or **Razor Page with a DevExtreme Control** and click **Add**.
 
-    ![DevExtreme ASP.NET MVC Controls - The Add Scaffold window](/Content/images/doc/18_1/Common/MvcWrappers/scaffolding_view_add-scaffold-window.png)
+    ![DevExtreme ASP.NET MVC Controls - The Add Scaffold window](/Content/images/doc/18_2/Common/MvcWrappers/scaffolding_view_add-scaffold-window.png)
 
 3. In the wizard, follow the configuration steps, which include entering the view's name, choosing the DevExtreme control to scaffold, and configuring data binding and related settings. At the last step, click **Add** to finish the scaffolding.
 
-    ![DevExtreme ASP.NET MVC Controls - The Add View window](/Content/images/doc/18_1/Common/MvcWrappers/scaffolding_add-view.png)
+    ![DevExtreme ASP.NET MVC Controls - The Add View window](/Content/images/doc/18_2/Common/MvcWrappers/scaffolding_add-view.png)
 
 Finally, reference the view as a partial view or use it as a separate page.
 

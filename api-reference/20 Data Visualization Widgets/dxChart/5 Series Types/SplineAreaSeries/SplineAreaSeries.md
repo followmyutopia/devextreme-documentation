@@ -9,7 +9,7 @@ Describes settings supported by a series of the *spline area* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts SplineAreaSeriesType](/Content/images/doc/18_1/ChartJS/SplineArea.png)
+![DevExtreme HTML5 Charts SplineAreaSeriesType](/Content/images/doc/18_2/ChartJS/SplineArea.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsareaseriesspline/"

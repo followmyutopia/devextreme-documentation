@@ -12,7 +12,7 @@ Contains check boxes that select rows. Appears if **selection**.[mode](/Document
 - **Expand Column**     
 Contains the arrow buttons that expand/collapse [groups](/Documentation/Guide/Widgets/DataGrid/Grouping/) and [detail sections](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/).
 
-![DevExtreme HTML5 JavaScript DataGrid CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/18_1/DataGrid/Command_Columns.png)
+![DevExtreme HTML5 JavaScript DataGrid CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/18_2/DataGrid/Command_Columns.png)
 
 You can relocate or resize the command columns by changing their **visibleIndex** and **width** options. For this, call the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method as shown by the following code:
 

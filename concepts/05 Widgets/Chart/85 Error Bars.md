@@ -1,6 +1,6 @@
 Error bars are used on charts to indicate an error or uncertainty in a reported measurement. They give a general idea of how precise the measurement is.
 
-![DevExtreme HTML5 JavaScript Charts Error Bars](/Content/images/doc/18_1/ChartJS/visual_elements/error_bars.png)
+![DevExtreme HTML5 JavaScript Charts Error Bars](/Content/images/doc/18_2/ChartJS/visual_elements/error_bars.png)
 
 Error bars can be generated either from concrete or calculated values. To generate one error bar, two values, high and low, are needed. If your data source provides concrete high and low values, assign the required data source fields to the [highValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/#highValueField) and [lowValueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/#lowValueField) options of the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/).[valueErrorBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/series/valueErrorBar/) object.
 

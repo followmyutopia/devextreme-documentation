@@ -33,7 +33,7 @@ The example below demonstrates how to create an application with a single button
 ---
 #####jQuery####
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_1/jspm-jquery) from GitHub. To use it, follow the instructions on GitHub.  
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_2/jspm-jquery) from GitHub. To use it, follow the instructions on GitHub.  
 
 **index.js**
 
@@ -79,7 +79,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
 [note] To use AngularJS and DevExtreme widget modules with RequireJS, you should load the DevExtreme [integration](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/angular) and angular modules.
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_1/jspm-angularjs) from GitHub. To use it, follow the instructions on GitHub.  
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_2/jspm-angularjs) from GitHub. To use it, follow the instructions on GitHub.  
 
 **index.js**
 
@@ -133,7 +133,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
 [note]To use KnockoutJS and DevExtreme widget modules with RequireJS, load the DevExtreme [integration module](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/knockout).
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_1/jspm-knockout) from GitHub. To use it, follow the instructions on GitHub.  
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_2/jspm-knockout) from GitHub. To use it, follow the instructions on GitHub.  
 
 **index.js**
 

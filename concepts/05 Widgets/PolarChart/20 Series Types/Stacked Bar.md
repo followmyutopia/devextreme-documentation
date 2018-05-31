@@ -1,10 +1,10 @@
 The *stackedBar* series type is used when there are several series that represent values for discrete categories. With this series type, data is displayed as triangular bars with lengths proportional to the values that they represent. Bars of each subsequent series are stacked on top of the bars of the previous series. The height of the resulting bar shows the combined result of a category.
 
-![PolarStackedBarSeriesType ChartJS](/Content/images/doc/18_1/ChartJS/PolarStackedBar.png)
+![PolarStackedBarSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarStackedBar.png)
 
 To understand how polar charts are built, imagine how a chart in a rectangular coordinate system is transformed by rounding its argument axis.
 
-![Transformation from Rectangular to Polar Coordinates PolarStackedBarSeriesType ChartJS](/Content/images/doc/18_1/ChartJS/PolarStackedBar_TransformationFromStandardChart.png)
+![Transformation from Rectangular to Polar Coordinates PolarStackedBarSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarStackedBar_TransformationFromStandardChart.png)
 
 To use the *stackedBar* series type, assign *'stackedbar'* to the **type** property of the **series** configuration object.
 

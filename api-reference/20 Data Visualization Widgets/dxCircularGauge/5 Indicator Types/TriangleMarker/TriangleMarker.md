@@ -11,9 +11,9 @@ An object that defines a gauge indicator of the **triangleMarker** type.
 <!--fullDescription-->
 **Value Indicator**
 
-![TriangleMarker Gauge Value Indicator DevExtreme](/Content/images/doc/18_1/ChartJS/TriangleMarkerValueIndicator.png)
+![TriangleMarker Gauge Value Indicator DevExtreme](/Content/images/doc/18_2/ChartJS/TriangleMarkerValueIndicator.png)
 
 **Subvalue Indicator**
 
-![TriangleMarker Gauge Subvalue Indicator DevExtreme](/Content/images/doc/18_1/ChartJS/TriangleMarkerSubvalueIndicator.png)
+![TriangleMarker Gauge Subvalue Indicator DevExtreme](/Content/images/doc/18_2/ChartJS/TriangleMarkerSubvalueIndicator.png)
 <!--/fullDescription-->

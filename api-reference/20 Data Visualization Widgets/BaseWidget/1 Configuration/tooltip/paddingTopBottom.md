@@ -8,5 +8,5 @@ Generates an empty space, measured in pixels, between a tooltip's top/bottom bor
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 JavaScript Funnel Tooltips Top-Bottom Padding](/Content/images/doc/18_1/ChartJS/TooltipPaddingTopBottom.png)
+![DevExtreme HTML5 JavaScript Funnel Tooltips Top-Bottom Padding](/Content/images/doc/18_2/ChartJS/TooltipPaddingTopBottom.png)
 <!--/fullDescription-->

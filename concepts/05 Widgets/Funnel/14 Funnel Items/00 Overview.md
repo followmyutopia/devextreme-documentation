@@ -1,6 +1,6 @@
 A funnel item is a visual representation of a data object.
 
-![Funnel Items](/Content/images/doc/18_1/funnel/visual_elements/funnel-items.png)
+![Funnel Items](/Content/images/doc/18_2/funnel/visual_elements/funnel-items.png)
 
 Funnel items get their colors from the [palette](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#palette) by default. If you want to use colors from the data source, specify the [colorField](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#colorField) option.
 

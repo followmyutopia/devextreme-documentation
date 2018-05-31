@@ -8,7 +8,7 @@ If none of the available editors suit your requirements, you can define a custom
         $("#formContainer").dxForm({
             formData: {
                 name: "John Heart",
-                picture: "https://js.devexpress.com/Content/images/doc/18_1/PhoneJS/person2.png"
+                picture: "https://js.devexpress.com/Content/images/doc/18_2/PhoneJS/person2.png"
             },
             items: [{ 
                 dataField: "name",
@@ -56,7 +56,7 @@ If none of the available editors suit your requirements, you can define a custom
     export class AppComponent {
         employee = {
             name: "John Heart",
-            picture: "https://js.devexpress.com/Content/images/doc/18_1/PhoneJS/person2.png"
+            picture: "https://js.devexpress.com/Content/images/doc/18_2/PhoneJS/person2.png"
         }
     }
     @NgModule({

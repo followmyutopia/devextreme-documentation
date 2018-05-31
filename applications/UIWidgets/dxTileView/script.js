@@ -3,5 +3,5 @@ tileViewDataSource = new DevExpress.data.DataSource("/Content/data/states.txt");
 
 //Generates the path to the required image file
 getImagePath = function (name) {
-    return "/Content/images/doc/18_1/PhoneJS/flags/" + name.replace(" ", "") + ".gif";
+    return "/Content/images/doc/18_2/PhoneJS/flags/" + name.replace(" ", "") + ".gif";
 };

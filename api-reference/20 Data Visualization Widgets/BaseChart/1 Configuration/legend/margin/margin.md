@@ -12,5 +12,5 @@ When this option is set to a number, the specified margin applies to all the sid
 
 Whether or not the specified margin is applied to a particular side of the legend depends on the legend's location. The location is determined by the **horizontalAlignment** and **verticalAlignment** options. Refer to the **top**, **bottom**, **left** and **right** options' description to discover when the margin applies to the corresponding side of the legend.
 
-![LegendMargin ChartJS](/Content/images/doc/18_1/ChartJS/LegendMargin.png)
+![LegendMargin ChartJS](/Content/images/doc/18_2/ChartJS/LegendMargin.png)
 <!--/fullDescription-->

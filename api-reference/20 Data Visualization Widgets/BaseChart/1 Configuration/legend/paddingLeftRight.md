@@ -8,5 +8,5 @@ Specifies a blank space between a legend's left/right boundaries and the inner i
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![LegendPadding ChartJS](/Content/images/doc/18_1/ChartJS/LegendPaddingLeftRight.png)
+![LegendPadding ChartJS](/Content/images/doc/18_2/ChartJS/LegendPaddingLeftRight.png)
 <!--/fullDescription-->

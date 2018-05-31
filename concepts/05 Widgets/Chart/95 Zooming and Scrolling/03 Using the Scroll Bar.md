@@ -1,6 +1,6 @@
 The scrollbar is a chart element used for scrolling.
 
-![DevExtreme HTML5 JavaScript Charts ScrollBar](/Content/images/doc/18_1/ChartJS/visual_elements/scroll_bar.png)
+![DevExtreme HTML5 JavaScript Charts ScrollBar](/Content/images/doc/18_2/ChartJS/visual_elements/scroll_bar.png)
 
 You can configure the scrollbar using the [scrollBar](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/) object. To display the scrollbar, set this object's [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/scrollBar/#visible) option to **true** after enabling [scrolling](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode) and [zooming](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) in the **Chart**.
 

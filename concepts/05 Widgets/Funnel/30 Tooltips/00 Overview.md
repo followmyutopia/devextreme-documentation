@@ -1,6 +1,6 @@
 A tooltip is a small pop-up rectangle that displays information about a funnel item if it is pressed or the mouse pointer hovers over it. The information is the item's argument and value by default, but it is possible to display anything in a tooltip.
 
-![Funnel Tooltip](/Content/images/doc/18_1/Funnel/visual_elements/tooltip.png)
+![Funnel Tooltip](/Content/images/doc/18_2/Funnel/visual_elements/tooltip.png)
 
 All options configuring tooltips are collected in the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/tooltip/) object. For example, to enable tooltips, assign **true** to this object's **enabled** option.
 

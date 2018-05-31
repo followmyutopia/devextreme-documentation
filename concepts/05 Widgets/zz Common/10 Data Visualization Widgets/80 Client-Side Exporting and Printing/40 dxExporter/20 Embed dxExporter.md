@@ -14,4 +14,4 @@ To add **Exporter** to your page, do the following.
 			$("#exportMenu").dxExporter();
 		});
 
-If you run your page, you will see the ![Exporter Icon ChartJS](/Content/images/doc/18_1/ChartJS/ExporterFormat.png) and ![Exporter Icon ChartJS](/Content/images/doc/18_1/ChartJS/ExporterPrint.png) icons on it. But exporting and printing do not work yet, because the **Exporter** widget is not tuned properly. Refer to the next step to tune it.
+If you run your page, you will see the ![Exporter Icon ChartJS](/Content/images/doc/18_2/ChartJS/ExporterFormat.png) and ![Exporter Icon ChartJS](/Content/images/doc/18_2/ChartJS/ExporterPrint.png) icons on it. But exporting and printing do not work yet, because the **Exporter** widget is not tuned properly. Refer to the next step to tune it.

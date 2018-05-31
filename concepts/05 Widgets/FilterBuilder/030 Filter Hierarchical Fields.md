@@ -74,7 +74,7 @@ In the following code, the **FilterBuilder** allows filtering by three fields, t
 
 ---
 
-![DevExtreme HTML5 JavaScript Filter Builder Hierarchical Fields](/Content/images/doc/18_1/FilterBuilder/visual_elements/hierarchical_fields.png)
+![DevExtreme HTML5 JavaScript Filter Builder Hierarchical Fields](/Content/images/doc/18_2/FilterBuilder/visual_elements/hierarchical_fields.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/FilterBuilder/Angular/Light/"

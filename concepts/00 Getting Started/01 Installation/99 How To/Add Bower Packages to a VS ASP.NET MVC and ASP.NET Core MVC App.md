@@ -4,7 +4,7 @@ Since edition 2015, Visual Studio supports Bower out of the box. Follow the step
 
 2. Find the `dependencies` section in this file, put a comma after the last entry and copy-paste the following line:
 
-        "devextreme": "~18.1" // restores DevExtreme
+        "devextreme": "~18.2" // restores DevExtreme
 
     Wait a few seconds for the libraries to load. DevExtreme scripts are be located in the **wwwroot/lib/devextreme** folder.
 

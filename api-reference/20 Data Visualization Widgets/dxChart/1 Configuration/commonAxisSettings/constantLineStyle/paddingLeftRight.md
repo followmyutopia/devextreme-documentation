@@ -14,7 +14,7 @@ This option depends on the **label**.**horizontalAlignment** in the following wa
 - **horizontalAlignment** is *"right"* &rarr; padding applies to the right side of a constant line;      
 - **horizontalAlignment** is *"center"* &rarr; padding is calculated automatically.
 
-![DevExtreme HTML5 Charts ConstantLinePadding](/Content/images/doc/18_1/ChartJS/ConstantLinePaddingLeftRight.png)
+![DevExtreme HTML5 Charts ConstantLinePadding](/Content/images/doc/18_2/ChartJS/ConstantLinePaddingLeftRight.png)
 
 #####See Also#####
 - **argumentAxis**.**constantLineStyle**.**label**.[horizontalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/constantLineStyle/label/#horizontalAlignment) - aligns constant line labels in the horizontal direction. Applies to the constant lines belonging to the argument axis.

@@ -1,6 +1,6 @@
 A zero level line indicates zero on a bullet graph. It serves as a starting point to the [bullet bar](/Documentation/Guide/Widgets/Bullet/Visual_Elements/#Bullet_Bar).
 
-![DevExtreme ChartJS BulletChart BulletGraph](/Content/images/doc/18_1/ChartJS/BulletZeroLine.png)
+![DevExtreme ChartJS BulletChart BulletGraph](/Content/images/doc/18_2/ChartJS/BulletZeroLine.png)
 
 By default, the zero level line is visible. However, in certain scenarios, you may need to change its visibility. For this purpose, use the [showZeroLevel](/Documentation/ApiReference/Data_Visualization_Widgets/dxBullet/Configuration/#showZeroLevel) option.
 

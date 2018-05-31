@@ -1,6 +1,6 @@
 Axis labels display values indicated by [major axis ticks](/Documentation/Guide/Widgets/Chart/Axes/Axis_Ticks/).
 
-![DevExtreme HTML5 JavaScript Charts AxisLabels](/Content/images/doc/18_1/ChartJS/visual_elements/axis_labels.png)
+![DevExtreme HTML5 JavaScript Charts AxisLabels](/Content/images/doc/18_2/ChartJS/visual_elements/axis_labels.png)
 
 You can configure axis labels using the [label](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/) object. It comprises options that specify the [alignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#alignment), [font](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/font/), [text](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#customizeText), and other attributes of axis labels. Pay particular attention to the [displayMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#displayMode) option that allows you to rotate or stagger axis labels.
 

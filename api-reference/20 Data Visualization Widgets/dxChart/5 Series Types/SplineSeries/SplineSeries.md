@@ -9,7 +9,7 @@ Describes settings supported by a series of the *spline* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts SplineSeriesType](/Content/images/doc/18_1/ChartJS/Spline.png)
+![DevExtreme HTML5 Charts SplineSeriesType](/Content/images/doc/18_2/ChartJS/Spline.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesspline/"

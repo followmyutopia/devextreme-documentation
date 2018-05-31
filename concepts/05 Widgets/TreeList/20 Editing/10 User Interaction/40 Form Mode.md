@@ -1,6 +1,6 @@
 In the form mode, a row becomes a form with editable fields in the editing state. A form field corresponds to a row's cell.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Editing Form Mode](/Content/images/doc/18_1/treelist/editing/form_mode.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Editing Form Mode](/Content/images/doc/18_2/treelist/editing/form_mode.png)
 
 The **TreeList** uses the DevExtreme [Form](/Documentation/Guide/Widgets/Form/Overview/) widget as the form. You can customize individual form fields using the **columns[]**.[formItem](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#formItem) object whose members are described in the [Simple Item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/) section. Note that this object does not allow changing or configuring the editor (see [Customize Editors](/Documentation/Guide/Widgets/TreeList/Editing/#Customize_Editors)).
 

@@ -8,5 +8,5 @@ Specifies the angle in arc degrees to which the argument axis should be rotated.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![Start Angle ChartJS](/Content/images/doc/18_1/ChartJS/PolarChartStartAngle.png)
+![Start Angle ChartJS](/Content/images/doc/18_2/ChartJS/PolarChartStartAngle.png)
 <!--/fullDescription-->

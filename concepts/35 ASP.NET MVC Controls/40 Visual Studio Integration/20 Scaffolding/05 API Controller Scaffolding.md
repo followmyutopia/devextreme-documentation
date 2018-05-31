@@ -4,15 +4,15 @@ The scaffolded API controller contains REST actions that perform CRUD operations
 
 1. In **Solution Explorer**, right-click the Controllers folder. On the invoked menu, point to **Add** and then click **Controller...** or **New Scaffolded Item...**.
 
-    ![DevExtreme ASP.NET MVC Controls - Add New Scaffolded Item in Context Menu](/Content/images/doc/18_1/Common/MvcWrappers/scaffolding_new-item.png)
+    ![DevExtreme ASP.NET MVC Controls - Add New Scaffolded Item in Context Menu](/Content/images/doc/18_2/Common/MvcWrappers/scaffolding_new-item.png)
 
 2. In the **Add Scaffold** window, choose **DevExtreme Web API Controller with actions, using Entity Framework** for an ASP.NET MVC 5 app or **DevExtreme API Controller with actions, using Entity Framework** for an ASP.NET Core MVC app and click **Add**.
 
-    ![DevExtreme ASP.NET MVC Controls - Add Scaffold Window](/Content/images/doc/18_1/Common/MvcWrappers/scaffolding_add-scaffold-window.png)
+    ![DevExtreme ASP.NET MVC Controls - Add Scaffold Window](/Content/images/doc/18_2/Common/MvcWrappers/scaffolding_add-scaffold-window.png)
 
 3. In the **Add Controller** window, select the data context and model for which to generate the controller, enter the controller's name, and click **Add**.
 
-    ![DevExtreme ASP.NET MVC Controls - Add Controller Window](/Content/images/doc/18_1/Common/MvcWrappers/scaffolding_add-controller-window.png)
+    ![DevExtreme ASP.NET MVC Controls - Add Controller Window](/Content/images/doc/18_2/Common/MvcWrappers/scaffolding_add-controller-window.png)
 
     [note] If your project does not contain a data context, generate it by following the [Entity Framework Code First to an Existing Database](https://msdn.microsoft.com/library/jj200620(v=vs.113).aspx) walkthrough for Entity Framework or the [Getting Started with EF Core on ASP.NET Core with an Existing Database](https://docs.microsoft.com/ef/core/get-started/aspnetcore/existing-db) walkthrough for Entity Framework Core.
 

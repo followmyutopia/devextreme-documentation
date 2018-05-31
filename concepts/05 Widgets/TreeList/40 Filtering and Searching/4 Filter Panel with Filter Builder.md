@@ -1,10 +1,10 @@
 The filter panel displays the applied filter expression.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout TreeList Filter Panel](/Content/images/doc/18_1/TreeList/visual_elements/filter_panel.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout TreeList Filter Panel](/Content/images/doc/18_2/TreeList/visual_elements/filter_panel.png)
 
 Clicking on the filter expression opens the integrated filter builder.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout TreeList Filter Panel](/Content/images/doc/18_1/TreeList/visual_elements/integrated_filter_builder.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout TreeList Filter Panel](/Content/images/doc/18_2/TreeList/visual_elements/integrated_filter_builder.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/TreeList/FilterPanel/jQuery/Light/"

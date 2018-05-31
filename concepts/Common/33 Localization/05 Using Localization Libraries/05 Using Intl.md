@@ -11,12 +11,12 @@
         <head>
             <!-- ... -->
             <!-- DevExtreme library -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_18_1/js/dx.all.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.all.js"></script>
             <!-- DevExtreme-Intl module -->
-            <script src="https://unpkg.com/devextreme-intl@18.1/dist/devextreme-intl.min.js"></script>
+            <script src="https://unpkg.com/devextreme-intl@18.2/dist/devextreme-intl.min.js"></script>
             <!-- Dictionary files for German and Russian languages -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_18_1/js/localization/dx.messages.de.js"></script>
-            <script src="https://cdn3.devexpress.com/jslib/minor_18_1/js/localization/dx.messages.ru.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/localization/dx.messages.de.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/localization/dx.messages.ru.js"></script>
         </head>
         <body>
             <script>

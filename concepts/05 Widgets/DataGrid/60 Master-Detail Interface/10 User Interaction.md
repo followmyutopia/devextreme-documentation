@@ -1,6 +1,6 @@
 The master-detail interface supplies a standard data row with an expandable section that contains detail data. In master-detail terms, the data row is called *"master row"* and the expandable section - *"detail section"*.
 
-![DevExtreme HTML5/JavaScript DataGrid Widget Master Detail Interface](/Content/images/doc/18_1/DataGrid/MasterDetail.png)
+![DevExtreme HTML5/JavaScript DataGrid Widget Master Detail Interface](/Content/images/doc/18_2/DataGrid/MasterDetail.png)
 
 The master-detail interface becomes available after you specify the detail sections' contents using the **masterDetail**.[template](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/#template) option. You can expand and collapse detail sections [programmatically](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/#API) or enable a user to do it by setting the **masterDetail**.[enabled](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/#enabled) option to **true**. Set the **masterDetail**.[autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail/#autoExpandAll) option to **true** to expand these sections by default.
 

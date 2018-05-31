@@ -9,7 +9,7 @@ Configures the crosshair feature.
 <!--fullDescription-->
 Crosshair is a pointer represented by two mutually-crossing lines stretched over the entire chart plot. The crosshair helps a user identify the values of the series points precisely. When enabled, the crosshair follows the cursor and snaps to the nearest series point.
 
-![DevExtreme HTML5 Charts Crosshair](/Content/images/doc/18_1/ChartJS/visual_elements/crosshair.png)
+![DevExtreme HTML5 Charts Crosshair](/Content/images/doc/18_2/ChartJS/visual_elements/crosshair.png)
 
 To enable the crosshair, set the **crosshair**.**enabled** option to **true**. Assign **true** to the **crosshair**.**label**.**visible** option as well to make the crosshair labels visible.
 

@@ -27,4 +27,4 @@ To make a custom dictionary:
 3. Translate the strings in it.
 4. Link it to your page using a `<script>` tag.
 
-You can submit custom dictionaries to our [repository on GitHub](https://github.com/DevExpress/DevExtreme). Please, refer to our [Contribution Guide](https://github.com/DevExpress/DevExtreme/blob/18_1/CONTRIBUTING.md) before submitting content.
+You can submit custom dictionaries to our [repository on GitHub](https://github.com/DevExpress/DevExtreme). Please, refer to our [Contribution Guide](https://github.com/DevExpress/DevExtreme/blob/18_2/CONTRIBUTING.md) before submitting content.

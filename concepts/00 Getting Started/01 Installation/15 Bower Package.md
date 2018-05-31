@@ -1,6 +1,6 @@
 Whatever IDE you develop apps in, you can always add the DevExtreme libraries to your project using the [devextreme](https://github.com/devexpress/bower-devextreme) Bower package. To install it, open the console, navigate to your app folder and run the following command.
 
-    bower install devextreme#~18.1 --save
+    bower install devextreme#~18.2 --save
 
 The jQuery and Globalize packages, upon which DevExtreme depends, will be installed as well, but the Knockout and AngularJS packages will not. If you need them, install them individually. Note that Knockout and AngularJS are not supposed to be used together.
 

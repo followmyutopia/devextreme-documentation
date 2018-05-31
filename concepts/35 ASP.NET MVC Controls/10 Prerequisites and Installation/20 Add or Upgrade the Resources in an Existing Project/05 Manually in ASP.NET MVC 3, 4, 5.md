@@ -1,6 +1,6 @@
 1. Open your project in Visual Studio.
 
-2. Add the DevExtreme.AspNet.Mvc.dll assembly to References. You can find the assembly in %ProgramFiles(x86)%\DevExpress 18.1\DevExtreme\System\DevExtreme\Bin\AspNet if you did not change the default installation path. Alternatively, you can install the **DevExtreme.AspNet.Mvc** NuGet package from the [DevExpress NuGet feed](https://www.devexpress.com/Support/Center/Question/Details/T466415/devexpress-nuget-packages).
+2. Add the DevExtreme.AspNet.Mvc.dll assembly to References. You can find the assembly in %ProgramFiles(x86)%\DevExpress 18.2\DevExtreme\System\DevExtreme\Bin\AspNet if you did not change the default installation path. Alternatively, you can install the **DevExtreme.AspNet.Mvc** NuGet package from the [DevExpress NuGet feed](https://www.devexpress.com/Support/Center/Question/Details/T466415/devexpress-nuget-packages).
 
 3. Add the `DevExtreme.AspNet.Mvc` namespace to the Views\Web.config file:
 
@@ -13,12 +13,12 @@
     
 4. Install the **DevExtreme.AspNet.Data** NuGet package from [NuGet.org](https://www.nuget.org/packages/DevExtreme.AspNet.Data/).
 
-    ![DevExtreme ASP.NET MVC Controls - Install the DevExtreme.AspNet.Data NuGet Package](/Content/images/doc/18_1/Common/MvcWrappers/nuget_add-devextreme-data-package.png)
+    ![DevExtreme ASP.NET MVC Controls - Install the DevExtreme.AspNet.Data NuGet Package](/Content/images/doc/18_2/Common/MvcWrappers/nuget_add-devextreme-data-package.png)
 
 5. Copy the DevExtreme scripts and CSS files:
 
-    - from %ProgramFiles(x86)%\DevExpress 18.1\DevExtreme\Sources\Lib\css to the Content folder     
-    - from %ProgramFiles(x86)%\DevExpress 18.1\DevExtreme\Sources\Lib\js to the Scripts folder       
+    - from %ProgramFiles(x86)%\DevExpress 18.2\DevExtreme\Sources\Lib\css to the Content folder     
+    - from %ProgramFiles(x86)%\DevExpress 18.2\DevExtreme\Sources\Lib\js to the Scripts folder       
     
 6. Create a DevExtremeBundleConfig.cs file in the AppStart folder and configure bundles for the DevExtreme resources in it:
 

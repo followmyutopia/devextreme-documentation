@@ -1,6 +1,6 @@
 A series is a collection of related data points. The most important characteristic of a series is its type. The **PieChart** provides **Pie** and **Doughnut** series types; the only difference  between them is the **Doughnut** has a blank center.
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/18_1/DataVisualization/Guides/PieChartSeriesTypes/pie.html, /Content/Applications/18_1/DataVisualization/Guides/PieChartSeriesTypes/pie.js"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/18_2/DataVisualization/Guides/PieChartSeriesTypes/pie.html, /Content/Applications/18_2/DataVisualization/Guides/PieChartSeriesTypes/pie.js"></div>
 
 The **Pie** series type is used by default, but you can change it to **Doughnut** using the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#type) option. 
 

@@ -84,7 +84,7 @@ Axes can be relocated to their opposite side using the [position](/Documentation
 
 ---
 
-![DevExtreme HTML5 JavaScript Charts ArgumentAxis ValueAxis](/Content/images/doc/18_1/ChartJS/visual_elements/axes_relocated.png)
+![DevExtreme HTML5 JavaScript Charts ArgumentAxis ValueAxis](/Content/images/doc/18_2/ChartJS/visual_elements/axes_relocated.png)
 
 #####See Also#####
 - [Axis Titles](/Documentation/Guide/Widgets/Chart/Axes/Axis_Titles/)

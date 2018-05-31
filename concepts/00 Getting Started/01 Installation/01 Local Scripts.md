@@ -1,4 +1,4 @@
-You can find all the required files in the DevExtreme zip archive or in the DevExtreme folder, which is **C:\Program Files (x86)\DevExpress 18.1\DevExtreme\Sources** by default. Copy the **Lib** folder into the folder with your application. Then, depending on the library or framework you use in your app, link the required files within your index page's `<head>` tag, in the given order.
+You can find all the required files in the DevExtreme zip archive or in the DevExtreme folder, which is **C:\Program Files (x86)\DevExpress 18.2\DevExtreme\Sources** by default. Copy the **Lib** folder into the folder with your application. Then, depending on the library or framework you use in your app, link the required files within your index page's `<head>` tag, in the given order.
 
 ---
 

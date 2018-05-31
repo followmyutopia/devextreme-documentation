@@ -40,7 +40,7 @@ The example below demonstrates how to create an application with a single button
 ---
 #####jQuery####
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_1/requirejs-jquery) from GitHub. To use it, follow the instructions on GitHub.
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-jquery) from GitHub. To use it, follow the instructions on GitHub.
 
     <!--HTML-->
     <!DOCTYPE html>
@@ -85,7 +85,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
 [note] To use AngularJS and DevExtreme widget modules with RequireJS, load the DevExtreme [integration](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/angular) and angular modules.
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_1/requirejs-angularjs) from GitHub. To use it, follow the instructions on GitHub.
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-angularjs) from GitHub. To use it, follow the instructions on GitHub.
 
     <!--HTML-->
     <!DOCTYPE html>
@@ -147,7 +147,7 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 
 [note]To use KnockoutJS and DevExtreme widget modules with RequireJS, load the DevExtreme [integration module](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/knockout).
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_1/requirejs-knockout) from GitHub. To use it, follow the instructions on GitHub.
+You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-knockout) from GitHub. To use it, follow the instructions on GitHub.
 
     <!--HTML-->
     <!DOCTYPE html>

@@ -9,7 +9,7 @@ Configures the column chooser.
 <!--fullDescription-->
 The column chooser allows a user to hide columns at runtime. To enable it, assign **true** to the **columnChooser**.[enabled]({basewidgetpath}/Configuration/columnChooser/#enabled) option.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout {WidgetName} Column Chooser](/Content/images/doc/18_1/{WidgetName}/visual_elements/column_chooser.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout {WidgetName} Column Chooser](/Content/images/doc/18_2/{WidgetName}/visual_elements/column_chooser.png)
 
 #####See Also#####
 - [Column Chooser](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Chooser/)
