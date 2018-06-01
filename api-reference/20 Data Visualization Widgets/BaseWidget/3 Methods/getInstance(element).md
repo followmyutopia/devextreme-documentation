@@ -1,4 +1,5 @@
 ===================================================================
+<!--handmade--><!--/handmade-->
 ===================================================================
 
 <!--shortDescription-->
@@ -20,7 +21,7 @@ The widget's instance.
 The following code gets the **{WidgetName}** instance found in an element with ID `my{WidgetName}`:
 
     // Modular approach
-    import {WidgetName} from 'devextreme/ui/{widget_name}';
+    import {WidgetName} from 'devextreme/viz/{widget_name}';
     ...
     let element = document.getElementById("my{WidgetName}");
     let instance = {WidgetName}.getInstance(element) as {WidgetName};

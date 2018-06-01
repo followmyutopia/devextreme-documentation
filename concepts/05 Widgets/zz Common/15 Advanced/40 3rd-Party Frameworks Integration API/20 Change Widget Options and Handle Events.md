@@ -4,7 +4,7 @@ A specific widget instance is required to call methods and subscribe to events. 
     import Accordion from 'devextreme/ui/accordion';
     ...
     let element = document.getElementById("myAccordion");
-    let instance = Accordion.getInstance(element);
+    let instance = Accordion.getInstance(element) as Accordion;
 
     // Non-modular approach:
     let element = document.getElementById("myAccordion");
