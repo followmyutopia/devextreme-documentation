@@ -3,13 +3,66 @@
 ===========================================================================
 
 <!--shortDescription-->
-Customizes grid columns and data before exporting.
+Customizes data before exporting. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The function assigned to this option will be called between the [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting) and [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) functions. Use the arguments of this function to access and change different column and row options.
+This function is called between the [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting) and [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) functions. This function customizes data; the other functions can be used to customize grid columns.
+ 
+In the following code, the **customizeExportData** function replaces empty values with the *"Is Blank"* value:
+
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            customizeExportData: function (columns, rows) {
+                rows.forEach(function (row) {
+                    var rowValues = row.values;
+                    for (var i = 0; i < rowValues.length; i++) {
+                        if (rowValues[i] == "")
+                            rowValues[i] = "Is Blank";
+                    }
+                })
+            }
+        });
+    });
+
+#####Angular
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        customizeExportData (columns, rows) {
+            rows.forEach(function (row) {
+                let rowValues =  row.values;
+                for(let i = 0; i < rowValues.length; i++) {
+                    if (rowValues[i] == "")
+                        rowValues[i] = "Is Blank";
+                }
+            })
+        };
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-data-grid ...
+        [customizeExportData]="customizeExportData">
+    </dx-data-grid>
+
+---
 
 #####See Also#####
+- [Client-Side Exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/)
 - [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/).**enabled**
 - **columns[]**.[allowExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowExporting)
 <!--/fullDescription-->
@@ -22,5 +75,5 @@ All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Co
 <!--typeFunctionParamName2-->rows<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Array<dxDataGridRowObject><!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) objects. If only selected rows are to be exported, this array contains only them.
+The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) objects. This array contains only the exported rows.
 <!--/typeFunctionParamDescription2-->

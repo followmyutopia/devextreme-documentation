@@ -5,15 +5,68 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed before data from the widget is exported.
+A function that is executed before data is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+You can use this function with the [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) function to adjust columns before exporting. In the following code, these functions are used to change a column's caption for the exported file without changing it in the widget:
+
+---
+##### jQuery
+
+    <!--JavaScript-->$(function() {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            onExporting: function (e) {
+                // Changes the caption 
+                e.component.beginUpdate();
+                e.component.columnOption("dataField", "caption", "New Caption");
+            },
+            onExported: function (e) {
+                // Restores the original caption
+                e.component.columnOption("dataField", "caption", "Original Caption");
+                e.component.endUpdate();
+            }
+        });
+    });
+
+
+##### Angular
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        onExporting (e) {
+            // Changes the caption 
+            e.component.beginUpdate();
+            e.component.columnOption("dataField", "caption", "New Caption");
+        };
+        onExported (e) {
+            // Restores the original caption
+            e.component.columnOption("dataField", "caption", "Original Caption");
+            e.component.endUpdate();
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
+    <!--HTML--><dx-data-grid ...
+        (onExporting)="onExporting($event)"
+        (onExported)="onExported($event)">
+    </dx-data-grid>
+
+---
+
 #####See Also#####
-- [Client-Side Exporting - Events](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/#Events)
+- [Client-Side Exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/)
 - [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/)
 - [customizeExportData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeExportData)
-- [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported)
 - [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

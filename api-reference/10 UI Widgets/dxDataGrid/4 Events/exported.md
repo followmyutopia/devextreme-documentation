@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the exporting of grid data is completed.
+Raised after data is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) option to handle the event.
+Main article: [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported)
 
 #####See Also#####
 #include common-link-handleevents

@@ -28,3 +28,5 @@ Call [exportToExcel(selectionOnly)](/Documentation/ApiReference/UI_Widgets/dxDat
     })
 
 ---
+
+You can customize data before exporting by specifying the [customizeExportData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeExportData) function. See an example in its description.

@@ -1,4 +1,4 @@
-A user clicks the **Export** button to save an Excel file with exported data. Data types, sorting, filtering, and grouping settings are preserved.
+A user clicks the **Export** button to save an Excel file with the exported data. Data types, sorting, filtering, and grouping settings are maintained.
 
 ![DevExtreme HTML5 JavaScript DataGrid Export Button](/Content/images/doc/18_2/DataGrid/exported_data.png)
 
@@ -42,7 +42,54 @@ Client-side exporting requires referencing the [JSZip](https://stuk.github.io/js
 
 ---
 
-The resulting file gets its name from the [fileName](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#fileName) option, and may contain only selected rows if you set the [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option to **true**.
+You can disable exporting a specific column by setting its [allowExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowExporting) option to **false**:
+
+---
+
+#####jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#dataGridContainer").dxDataGrid({
+            export: {
+                enabled: true
+            },
+            columns: [{
+                dataField: "id",
+                allowExporting: false
+            }, 
+                // ...
+            ]
+        });
+    });
+
+
+#####Angular
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dxo-export [enabled]="true"></dxo-export>
+        <dxi-column dataField="id" [allowExporting]="false"></dxi-column>
+        <!-- ... -->
+    </dx-data-grid>
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
+---
+
+The resulting file is renamed according to the [fileName](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#fileName) option, and contains only the selected rows if you set the [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option to **true**.
 
 ---
 

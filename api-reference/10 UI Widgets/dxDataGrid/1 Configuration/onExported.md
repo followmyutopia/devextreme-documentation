@@ -5,14 +5,15 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed after data from the widget is exported.
+A function that is executed after data is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+You can use this function with the [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting) function to adjust columns before exporting. See an example in the **onExporting** description.
+
 #####See Also#####
-- [Client-Side Exporting - Events](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/#Events)
-- [customizeExportData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeExportData) 
-- [onExporting](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExporting)
+- [Client-Side Exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/)
+- [customizeExportData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#customizeExportData)
 - [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
