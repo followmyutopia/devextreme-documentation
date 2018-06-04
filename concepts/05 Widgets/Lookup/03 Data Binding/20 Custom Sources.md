@@ -1,9 +1,6 @@
-﻿DevExtreme provides the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component, a flexible instrument that allows you to configure data access manually, for consuming data from any source. The following extensions for ASP.NET and PHP servers simplify the task of configuring the **CustomStore** and implement server-side data processing as well:
+﻿Access to a custom data source is configured using the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component. DevExtreme provides [ASP.NET](https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/README.md) and [PHP](https://github.com/DevExpress/DevExtreme-PHP-Data/blob/master/README.md) extensions that help configure it and implement server-side data processing. You can also use the third-party extension for [MongoDB](https://github.com/oliversturm/devextreme-query-mongodb/blob/master/README.md). If these extensions are not suitable for your data source, follow the instructions below to configure the **CustomStore** manually.
 
-- [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
-- [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
-
-You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. 
+The **CustomSource**'s configuration differs depending on whether data is processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server using the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the following example:
 
 ---
 #####jQuery
@@ -12,6 +9,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
         $("#lookupContainer").dxLookup({
             dataSource: new DevExpress.data.DataSource({
                 store: new DevExpress.data.CustomStore({
+                    key: "ID",
                     loadMode: "raw",   
                     load: function () {
                         return $.getJSON('https://mydomain.com/MyDataService');
@@ -37,6 +35,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.lookupData = new DataSource({
                 store: new CustomStore({
+                    key: "ID",
                     loadMode: "raw",   
                     load: function () {
                         return httpClient.get('https://mydomain.com/MyDataService')
@@ -62,12 +61,12 @@ You need to configure the **CustomStore** in detail for accessing a server built
 
 ---
 
-[note]We advise against using this mode with large amounts of data because all data is loaded at once.
+[note]We recommend not using this mode with large amounts of data because all data is loaded at once.
 
 In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function and depend on the operations (paging, filtering, sorting, etc.) that you have enabled in the **DataSource**. The following settings are relevant for the **Lookup**:
 
 * **take**: <span style="font-size:smaller">Number</span>      
-Restricts the number of top-level data objects to return.
+Restricts the number of top-level data objects that are returned.
 
 * **skip**: <span style="font-size:smaller">Number</span>      
 Skips some data objects from the start of the result set. **skip** and **take** are present if [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) is **true** and [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) is set in the **DataSource**.
@@ -129,7 +128,7 @@ If the **group** setting is absent, the object structure is different:
         data: [ ... ] // result data objects
     }
 
-If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#value) beforehand, the **CustomStore** must implement the [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) operation as well. Here is a generalized configuration of the **CustomStore** for the **Lookup** widget.
+If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#value) beforehand, the **CustomStore** should implement the [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) operation as well. Below is a generalized **CustomStore** configuration for the **Lookup** widget.
 
 ---
 #####jQuery
@@ -137,6 +136,7 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
     <!--JavaScript-->$(function() {
         $("#lookupContainer").dxLookup({
             dataSource: new DevExpress.data.DataSource({
+                key: "ID",
                 load: function (loadOptions) {
                     var d = $.Deferred();
                     $.getJSON("http://mydomain.com/MyDataService", {
@@ -181,6 +181,7 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.lookupData = new DataSource({
                 store: new CustomStore({
+                    key: "ID",
                     load: function (loadOptions) {
                         let params: HttpParams = new HttpParams()
                             .set("skip", JSON.stringify(loadOptions.skip))
