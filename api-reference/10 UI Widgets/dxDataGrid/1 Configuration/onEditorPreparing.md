@@ -164,7 +164,7 @@ Options passed to the function depend on this value.
 <!--typeFunctionParamDescription1_field5-->
 The editor's value.
 <!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->setValue(newValue)<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamName1_field6-->setValue(newValue, newText)<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 A method that you should call to change the cell value after the editor's value is changed.
