@@ -5,21 +5,26 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to summarize each next summary value with the previous one by rows or columns.
+Specifies whether to calculate the running total by rows or by columns.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-After [aggregating](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryType) and [post-processing](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode) stages, you can perform the last calculation on the resulting summary values &#8212; adding of each summary value to the previous one (starting from the second) by rows or columns. For example, if you have the following row values
+For example, a pivot grid row contains the following summary values:
 
-    [2, 6, -3, 0, 8]
+    [ 3, 3, 3, 3, 3 ]
 
-and the **runningTotal** option is set to 'row', the pivot grid will display the row as follows.
+If the **runningTotal** option is set to *"row"*, each value in this row is added to the previous value:
 
-    [2, 8, 5, 5, 13]
+    [ 3, 6, 9, 12, 15 ]
+
+This also applies to columns if the **runningTotal** option is set to *"column"*.
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PivotGridRunningTotalMode` enum. This enum accepts the following values: `Row` and `Column`.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/RunningTotals/jQuery/Light/"
 }
+
+#####See Also#####
+- **fields[]**.[allowCrossGroupCalculation](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#allowCrossGroupCalculation)
 <!--/fullDescription-->

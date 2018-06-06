@@ -17,14 +17,44 @@ A Promise that is resolved after data is loaded. It is a [native Promise](https:
 <!--/returnDescription-->
 
 <!--fullDescription-->
-    <!--JavaScript-->
-    store.load(options)
-        .done(function(result) {
-            // 'result' contains the loaded data
-        })
-        .fail(function(error) {
-            // handle error
-        })
+---
+##### jQuery
 
-For more information on data shaping options, refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data) topic.
+    <!--JavaScript-->
+    var store = new DevExpress.data.{WidgetName}({
+        // {WidgetName} is configured here
+    });
+
+    store.load(options)
+         .done(function (data) {
+             // Process "data" here
+         })
+         .fail(function (error) {
+             // Handle the "error" here
+         });
+
+##### Angular
+
+    <!--TypeScript-->
+    import {WidgetName} from "devextreme/data/{widget_name}";
+    import DevExpress from "devextreme/bundles/dx.all";
+    // ...
+    export class AppComponent {
+        store: {WidgetName};
+        constructor() {
+            this.store = new {WidgetName}({
+                // {WidgetName} is configured here
+            });
+            let options: DevExpress.data.LoadOptions = {
+                // Data processing settings are specified here
+            };
+            this.store.load(options)
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                );
+        };
+    }
+    
+---
 <!--/fullDescription-->

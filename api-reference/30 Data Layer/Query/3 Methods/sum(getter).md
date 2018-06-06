@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Calculates the sum of getter values.
+Calculates the sum of all values found using a [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters).
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) to be used for calculating the sum.
+A getter; in most cases, the name of the field that provides values for the calculation.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<Number><!--/returnType-->
@@ -17,15 +17,7 @@ A Promise that is resolved after the operation is completed. It is a [native Pro
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The following example demonstrates how to calculate the total **price** value of the Query items.
-
-    <!--JavaScript-->
-    DevExpress.data.query(inputArray)
-        .sum("price")
-        .done(function(result) {
-            // 'result' holds the desired value
-        });
-
-If a Query item is a numeric value, use the [sum()](/Documentation/ApiReference/Data_Layer/Query/Methods/#sum) method instead of this one.
-
+#include datalayer-ref-query-gettersummarymethods-desc with {
+    summary: "sum"
+}
 <!--/fullDescription-->

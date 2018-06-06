@@ -4,19 +4,45 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [loadError](/Documentation/ApiReference/Data_Layer/DataSource/Events/#loadError) event.
+A function that is executed when data loading fails.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when data loading fails.
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var ds = new DevExpress.data.DataSource({
+        onLoadError: function (error) {
+            console.log(error.message);
+        }
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        ds: DataSource;
+        constructor() {
+            this.ds = new DataSource({
+                onLoadError: (error) => {
+                    console.log(error.message);
+                }
+            });
+        }
+    }
+
+---
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->error<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The occurred error.
+The error.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->message<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The system message about the error.
+The error message.
 <!--/typeFunctionParamDescription1_field1-->

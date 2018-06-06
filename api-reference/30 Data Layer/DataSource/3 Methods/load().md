@@ -7,29 +7,49 @@ Starts loading data.
 
 <!--returnType-->Promise<any><!--/returnType-->
 <!--returnDescription-->
-A Promise that is resolved after the data is loaded. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
+A Promise that is resolved after data is loaded. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Use the following code to access the loaded data.
+---
+##### jQuery
 
     <!--JavaScript-->
-    dataSource.load()
-        .done(function(result) {
-            // 'result' contains the loaded data
+    var ds = new DevExpress.data.DataSource({
+        // DataSource is configured here
+    });
+
+    ds.load()
+        .done(function (data) {
+            // Process "data" here
         })
-        .fail(function(error) {
-            // handle error
+        .fail(function (error) {
+            // Handle the "error" here
         });
 
-The Promise object returned by the **load()** method is extended by the **operationId** field. Pass its value to the [cancel(operationId)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#canceloperationId) method to cancel the invoked operation.
+##### Angular
 
-    <!--JavaScript-->
-    var loadPromise = dataSource.load();
-    loadPromise.done(function(result) {
-        . . .
-    });
-    . . .
-    dataSource.cancel(loadPromise.operationId);
+    <!--TypeScript-->
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        ds: DataSource;
+        constructor() {
+            this.ds = new DataSource({
+                // DataSource is configured here
+            });
+            this.ds.load()
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                )
+        }
+    }
 
+---
+
+The Promise returned from this method is extended with the **operationId** field which you can use to cancel the invoked operation. See [cancel(operationId)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#canceloperationId) for details.
+
+#####See Also#####
+- [reload()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload)
 <!--/fullDescription-->

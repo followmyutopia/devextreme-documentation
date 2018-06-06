@@ -4,9 +4,35 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [modified]({basewidgetpath}/Events/#modified) event.
+A function that is executed after a data item is added, updated, or removed from the store.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after data is modified.
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var store = new DevExpress.data.{WidgetName}({
+        onModified: function () {
+            // Your code goes here
+        }
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import {WidgetName} from "devextreme/data/{widget_name}";
+    // ...
+    export class AppComponent {
+        store: {WidgetName};
+        constructor() {
+            this.store = new {WidgetName}({
+                onModified: function () {
+                    // Your code goes here
+                }
+            })
+        }
+    }
+    
+---
 <!--/fullDescription-->

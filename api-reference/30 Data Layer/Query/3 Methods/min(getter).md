@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Finds a data item with the minimum getter value.
+Calculates the minumum of all values found using a [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters).
 <!--/shortDescription-->
 
 <!--paramName1-->getter<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters).
+A getter; in most cases, the name of the field that provides values for the calculation.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<Number, Date><!--/returnType-->
@@ -17,15 +17,7 @@ A Promise that is resolved after the operation is completed. It is a [native Pro
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The following example demonstrates how to get the minimum value from the **price** property values of the Query items.
-
-    <!--JavaScript-->
-    DevExpress.data.query(inputArray)
-        .max("price")
-        .done(function(result) {
-            // 'result' holds the desired value
-        });
-
-If a Query item is a numeric value, use the [min()](/Documentation/ApiReference/Data_Layer/Query/Methods/#min) method instead of this one.
-
+#include datalayer-ref-query-gettersummarymethods-desc with {
+    summary: "min"
+}
 <!--/fullDescription-->

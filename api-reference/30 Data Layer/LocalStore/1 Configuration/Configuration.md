@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes configuration options used to configure the LocalStore.
+This section describes options that configure the **LocalStore**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

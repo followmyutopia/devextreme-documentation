@@ -11,6 +11,5 @@ The option's value; described in the [Getters and Setters](/Documentation/Guide/
 <!--/returnDescription-->
 
 <!--fullDescription-->
-#####See Also#####
-- [Data Layer - Search API](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api)
+
 <!--/fullDescription-->

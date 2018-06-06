@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the value of the **withCredentials** field of the underlying [jqXHR object](http://api.jquery.com/jQuery.ajax/#jqXHR).
+Specifies whether to send cookies, authorization headers, and client certificates in a cross-origin request. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Setting this option to **true** enables the sending of cookies and authorization headers to foreign domains (CORS-related).
+
 <!--/fullDescription-->

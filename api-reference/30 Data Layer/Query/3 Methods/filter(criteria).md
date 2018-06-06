@@ -13,13 +13,38 @@ A filter expression; described in the [Filtering](/Documentation/Guide/Data_Laye
 
 <!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
-The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
+The **Query** with transformed data.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The following example demonstrates how to get an array of the Query items whose **price** value is lower than 500.
+---
+##### jQuery
 
     <!--JavaScript-->
-    var data = DevExpress.data.query(inputArray).filter("price", "<", 500).toArray();
+    var dataObjects = [ ... ];
 
+    var filteredData = DevExpress.data.query(dataObjects)
+        .filter(["price", "<", 500])
+        // or
+        // .filter("price", "<", 500)
+        .toArray();
+
+##### Angular
+
+    <!--TypeScript-->
+    import Query from "devextreme/data/query";
+    // ...
+    export class AppComponent {
+        constructor () {
+            let dataObjects = [ ... ];
+
+            let filteredData = Query(dataObjects)
+                .filter(["price", "<", 500])
+                // or
+                // .filter("price", "<", 500)
+                .toArray();
+        };
+    }
+
+---
 <!--/fullDescription-->

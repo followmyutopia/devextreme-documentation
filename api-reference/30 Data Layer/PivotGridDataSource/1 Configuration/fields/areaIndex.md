@@ -4,11 +4,76 @@
 ===========================================================================
 
 <!--shortDescription-->
-Index among the other fields displayed within the same area.
+Specifies the field's order among the other fields in the same area. Corresponds to the field's order in the **fields** array by default.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can change the field order within an area by using this option. By default, the field order in the pivot grid is similar to the fields order in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array.
+---
+##### jQuery
 
-[note] The order of fields affects the hierarchy structure in the header of the pivot grid. This option should not be confused with the sorting concept.
+    <!--JavaScript-->
+    $(function() {
+        var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+            // ...
+            fields: [{
+                dataField: "city",
+                area: "row",
+                areaIndex: 1
+            }, {
+                dataField: "country",
+                area: "row",
+                areaIndex: 0 // Countries nest cities
+            },
+            // ...
+            ]
+        });
+
+        $("#pivotGridContainer").dxPivotGrid({
+            dataSource: pivotGridDataSource
+        });
+    });
+    
+
+##### Angular
+
+    <!--TypeScript-->
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    import { DxPivotGridModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        pivotGridDataSource: PivotGridDataSource;
+        constructor() {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                // ...
+                fields: [{
+                    dataField: "city",
+                    area: "row",
+                    areaIndex: 1
+                }, {
+                    dataField: "country",
+                    area: "row",
+                    areaIndex: 0 // Countries nest cities
+                },
+                // ...
+                ]
+            });
+        }
+    }
+
+    @NgModule({
+        imports: [
+            // ...
+            DxPivotGridModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-pivot-grid
+        [dataSource]="pivotGridDataSource">
+    </dx-pivot-grid>
+
+---
+
+[note] The field's order affects the [headers](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers)'s hierarchy structure and is not related to the sorting concept.
 <!--/fullDescription-->

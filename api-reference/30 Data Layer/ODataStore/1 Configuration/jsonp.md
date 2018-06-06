@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the ODataStore uses the JSONP approach to access non-CORS-compatible remote services.
+Specifies whether data should be sent using [JSONP](https://www.w3schools.com/js/js_json_jsonp.asp).
 <!--/shortDescription-->
 
 <!--fullDescription-->

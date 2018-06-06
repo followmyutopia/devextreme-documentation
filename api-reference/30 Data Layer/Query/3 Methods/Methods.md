@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the methods used to access the data associated with the Query.
+This section describes methods that perform operations on data associated with the **Query**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

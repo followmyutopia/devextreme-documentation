@@ -3,11 +3,51 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function used to customize a web request before it is sent.
+Specifies a function that customizes the request before it is sent to the server.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+---
+#####jQuery
 
+    <!--JavaScript-->
+    var store = new DevExpress.data.ODataStore({
+        url: "https://js.devexpress.com/Demos/DevAV/odata/Products",  
+        beforeSend: function (e) {  
+            e.params = {
+                "param1": "value1",
+                "param2": "value2"
+            };
+            e.headers = {
+                accept: "text/html"
+            };
+        }
+    });
+
+#####Angular
+
+    <!--TypeScript-->
+    import ODataStore from "devextreme/data/odata/store";
+    // ...
+    export class AppComponent {
+        store: ODataStore;
+        constructor() {
+            this.store = new ODataStore({
+                url: "https://js.devexpress.com/Demos/DevAV/odata/Products",  
+                beforeSend: function (e) {  
+                    e.params = {
+                        "param1": "value1",
+                        "param2": "value2"
+                    };
+                    e.headers = {
+                        accept: "text/html"
+                    };
+                }
+            });
+        };
+    }
+
+---
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
@@ -22,7 +62,7 @@ The request URL.
 <!--typeFunctionParamName1_field2-->async<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->Boolean<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Specifies whether the request is asynchronous or synchronous.
+Indicates whether the request is asynchronous or synchronous.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->method<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
@@ -37,12 +77,13 @@ The request timeout.
 <!--typeFunctionParamName1_field5-->params<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The additional request parameters.
+Additional request parameters.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->payload<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The request body; for example, when updating an item, this property holds the values object.
+The request body; for example, when updating an item, this property holds an object with new values.        
+Unavailable if the request method is "GET".
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->headers<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->Object<!--/typeFunctionParamType1_field7-->

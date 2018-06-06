@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to use JSONP to access CORS-incompatiable remote services.
+Specifies whether data should be sent using [JSONP](https://www.w3schools.com/js/js_json_jsonp.asp).
 <!--/shortDescription-->
 
 <!--fullDescription-->

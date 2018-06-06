@@ -4,11 +4,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Indicates whether or not the automatic field generation from data in the [Store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/) is enabled.
+Specifies whether to auto-generate pivot grid fields from the [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/)'s data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-With this option enabled, the automatically generated fields will be available in the Field Chooser.
+If you disable this option, the **PivotGrid** contains only the fields configured in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array. With this option enabled, these fields are accompanied by auto-generated fields, which do not belong to any [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) by default and are only available in the [field chooser](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Chooser).
 
-If you disable this option, the PivotGrid will contain only those fields that are configured in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array.
+#####See Also#####
+- [Fields and Areas](/Documentation/Guide/Widgets/PivotGrid/Fields_and_Areas/)
 <!--/fullDescription-->

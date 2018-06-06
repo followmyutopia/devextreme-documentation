@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the absolute width of the field in the pivot grid.
+Specifies the field's width in pixels when the field is displayed in the pivot grid.
 <!--/shortDescription-->
 
 <!--fullDescription-->

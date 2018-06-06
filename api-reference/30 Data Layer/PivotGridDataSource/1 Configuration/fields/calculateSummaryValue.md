@@ -4,21 +4,80 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a callback function that allows you to modify summary values after they are calculated.
+Specifies a custom post-processing function for summary values.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-With this function, you can perform additional calculations on each summary value and take into account the values of the neighboring cells. The function takes the [Summary Cell](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Summary_Cell/) object as an argument and returns the new summary value. The summary value calculated by aggregation of facts (according to the [summaryType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryType)) is replaced with the value returned by this function.
+This and [other post-processing functions](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode) allow you to perform additional calculations on each summary value and take into account neighboring cells' summary values.
 
-There are several predefined post-processing functions. You can enable one of them by using the [summaryDisplayMode](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode) option.
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+            // ...
+            fields: [{
+                // ...
+                calculateSummaryValue: function (summaryCell) {
+                    // Your code goes here
+                }
+            }]
+        });
+
+        $("#pivotGridContainer").dxPivotGrid({
+            dataSource: pivotGridDataSource
+        });
+    });
+    
+
+##### Angular
+
+    <!--TypeScript-->
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    import { DxPivotGridModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        pivotGridDataSource: PivotGridDataSource;
+        constructor() {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                // ...
+                fields: [{
+                    // ...
+                    calculateSummaryValue: function (summaryCell) {
+                        // Your code goes here
+                    }
+                }]
+            });
+        }
+    }
+
+    @NgModule({
+        imports: [
+            // ...
+            DxPivotGridModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-pivot-grid
+        [dataSource]="pivotGridDataSource">
+    </dx-pivot-grid>
+
+---
+
+#include uiwidgets-ref-functioncontext with { 
+    value: "field's configuration"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->dxPivotGridSummaryCell<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The data of the current and neighboring cells.
+The cell whose summary value is being processed.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionReturnType-->Number<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The cell's new value.
+The cell's new summary value.
 <!--/typeFunctionReturnDescription-->

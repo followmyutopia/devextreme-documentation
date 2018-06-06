@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the configuration options used to configure the **XmlaStore**.
+This section describes options that configure the **XmlaStore**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

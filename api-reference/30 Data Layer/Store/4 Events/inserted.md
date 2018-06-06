@@ -3,16 +3,16 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a data item is added.
+Raised after a data item is added to the store.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn how to handle events, refer to the [Events and Change Tracking](/Documentation/Guide/Data_Layer/Data_Layer/#Events_and_Change_Tracking) topic.
+Main article: [onInserted]({basewidgetpath}/Configuration/#onInserted)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->values<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The inserted item.
+The added data item.
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->key<!--/typeFunctionParamName2-->

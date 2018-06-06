@@ -9,51 +9,143 @@ dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-A [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) providing access to a separate [OData](http://www.odata.org) web service entity.
+The **ODataStore** is a store that provides an interface for loading and editing data from an individual OData entity collection and handling related events.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To access the entire OData service, use the [ODataContext](/Documentation/ApiReference/Data_Layer/ODataContext/) object.
-
-If you need to create a separate **ODataStore** instance, call the `ODataStore` constructor and specify the URL of the required entity via the [url](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#url) configuration option.
+---
+##### jQuery  
 
     <!--JavaScript-->
     var store = new DevExpress.data.ODataStore({
-        url: "/url/to/service",
-        key: "CategoryID",
-        keyType: "Int32"
+        url: "http://www.example.com/Northwind.svc/Products",
+        key: "ProductID",
+        keyType: "Int32",
+        // Other ODataStore options go here
     });
 
-Note that the [key](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#key) and [keyType](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#keyType) configuration options provide read-write access to the entity.
+    // ===== or inside the DataSource =====
+    var dataSource = new DevExpress.data.DataSource({
+        store: {
+            type: "odata",
+            url: "http://www.example.com/Northwind.svc/Products",
+            key: "ProductID",
+            keyType: "Int32",
+            // Other ODataStore options go here
+        },
+        // Other DataSource options go here
+    });
 
-#####See Also#####
-- [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
+##### Angular  
 
-When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the **ODataStore** using the syntax shown in the following example. This example configures the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) widget.
+    <!--TypeScript-->
+    import ODataStore from "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        store: ODataStore;
+        dataSource: DataSource;
+        constructor () {
+            this.store = new ODataStore({
+                url: "http://www.example.com/Northwind.svc/Products",
+                key: "ProductID",
+                keyType: "Int32",
+                // Other ODataStore options go here
+            });
 
-    <!--Razor C#-->@(Html.DevExtreme().DataGrid()
-        .ID("dataGrid")
+            // ===== or inside the DataSource =====
+            this.dataSource = new DataSource({
+                store: new ODataStore({
+                    url: "http://www.example.com/Northwind.svc/Products",
+                    key: "ProductID",
+                    keyType: "Int32",
+                    // Other ODataStore options go here
+                }),
+                // Other DataSource options go here
+            });
+        }
+    }
+
+##### AngularJS  
+
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.store = new DevExpress.data.ODataStore({
+                url: "http://www.example.com/Northwind.svc/Products",
+                key: "ProductID",
+                keyType: "Int32",
+                // Other ODataStore options go here
+            });
+
+            // ===== or inside the DataSource =====
+            $scope.dataSource = new DevExpress.data.DataSource({
+                store: {
+                    type: "odata",
+                    url: "http://www.example.com/Northwind.svc/Products",
+                    key: "ProductID",
+                    keyType: "Int32",
+                    // Other ODataStore options go here
+                },
+                // Other DataSource options go here
+            });
+        });
+
+##### Knockout  
+
+    <!--JavaScript-->    
+    var viewModel = {
+        store: new DevExpress.data.ODataStore({
+            url: "http://www.example.com/Northwind.svc/Products",
+            key: "ProductID",
+            keyType: "Int32",
+            // Other ODataStore options go here
+        })
+
+        // ===== or inside the DataSource =====
+        dataSource: new DevExpress.data.DataSource({
+            store: {
+                type: "odata",
+                url: "http://www.example.com/Northwind.svc/Products",
+                key: "ProductID",
+                keyType: "Int32",
+                // Other ODataStore options go here
+            },
+            // Other DataSource options go here
+        })
+    };
+
+    ko.applyBindings(viewModel);
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->@(Html.DevExtreme().WidgetName()
         .DataSource(ds => ds.OData()
-            .Version(4)
-            .Url("http://services.odata.org/V4/Northwind/Northwind.svc/Products")
-            .JSONP(true)
+            .Url("http://www.example.com/Northwind.svc/Products")
             .Key("ProductID")
-            .Expand("Category")
+            .KeyType(EdmType.Int32)
+            // Other ODataStore options go here
         )
     )
 
-    <!--Razor VB-->@(Html.DevExtreme().DataGrid() _
-        .ID("dataGrid") _
+    <!--Razor VB-->@(Html.DevExtreme().WidgetName() _
         .DataSource(Function(ds)
             Return ds.OData() _
-                     .Version(4) _
-                     .Url("http://services.odata.org/V4/Northwind/Northwind.svc/Products") _
-                     .JSONP(True) _
+                     .Url("http://www.example.com/Northwind.svc/Products") _
                      .Key("ProductID") _
-                     .Expand("Category")
+                     .KeyType(EdmType.Int32) _
+                     @* ... *@
+                     @* Other ODataStore options go here *@
+                     @* ... *@
         End Function)
     )
 
+---
+
+To access an entire OData service, use the [ODataContext](/Documentation/ApiReference/Data_Layer/ODataContext/) instead.
+
 #####See Also#####
+- [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
+- [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 <!--/fullDescription-->

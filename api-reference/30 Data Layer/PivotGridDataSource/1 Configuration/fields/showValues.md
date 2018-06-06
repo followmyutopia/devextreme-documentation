@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not to display summary values. Applies only to the fields whose [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) is *"data"*. Inherits the value of [showTotals](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#showTotals) by default.
+Specifies whether to display the field's summary values. Applies only if the field is in the data [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area). Inherits the [showTotals](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#showTotals)' value by default.
 <!--/shortDescription-->
 
 <!--fullDescription-->

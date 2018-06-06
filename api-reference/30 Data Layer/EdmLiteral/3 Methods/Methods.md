@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the methods of the **EdmLiteral** object.
+This section describes methods that control an **EdmLiteral** instance.
 <!--/shortDescription-->
 
 <!--fullDescription-->

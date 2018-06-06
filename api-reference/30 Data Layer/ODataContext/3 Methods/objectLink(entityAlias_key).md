@@ -2,35 +2,79 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets a special proxy object to describe the entity link.
+Gets a link to an entity with a specific key.
 <!--/shortDescription-->
 
 <!--paramName1-->entityAlias<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The type name.
+The alias of the entity's collection.
 <!--/paramDescription1-->
 
 <!--paramName2-->key<!--/paramName2-->
 <!--paramType2-->Object|String|Number<!--/paramType2-->
 <!--paramDescription2-->
-The target entity key value.
+The entity's key value.
 <!--/paramDescription2-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-The proxy object.
+An object that contains the link to the entity.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-This method is used within the [insert()](/Documentation/ApiReference/Data_Layer/ODataStore/Methods/#insertvalues) and [update()](/Documentation/ApiReference/Data_Layer/ODataStore/Methods/#updatekey_values) method calls.
+Call this method within the [insert()](/Documentation/ApiReference/Data_Layer/ODataStore/Methods/#insertvalues) or the [update()](/Documentation/ApiReference/Data_Layer/ODataStore/Methods/#updatekey_values) method to change the relationships between entities. The following code links the order with ID `1` to the customer with ID `2`:
 
-The following example demonstrates how to change the Category property of the Product entity with the key **1** to the Category with the key **2**.
+---
+#####jQuery
 
     <!--JavaScript-->
-    context.Products.update(1, {
-        Category: context.objectLink("Categories", 2)
+    var context = new DevExpress.data.ODataContext({
+        url: "https://js.devexpress.com/Demos/DevAV/odata/",
+        entities: { 
+            Orders: {  
+                key: "Order_ID", 
+                keyType: "Int32" 
+            },
+            Customers: { 
+                key: "Customer_ID", 
+                keyType: "Int32" 
+            }
+        } 
+    });  
+    context.Orders.update(1, {
+        Customer: context.objectLink("Customers", 2) 
     });
 
-For more information on linking entities, refer to the [Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Data_Source_Examples_OData_Associations) section of the Data Source Examples article.
+#####Angular
+
+    <!--TypeScript-->
+    import ODataContext from "devextreme/data/odata/context";
+    // ...
+    export class AppComponent {
+        context: ODataContext;
+        constructor() {
+            this.context = new ODataContext({
+                url: "https://js.devexpress.com/Demos/DevAV/odata/",
+                entities: { 
+                    Orders: {  
+                        key: "Order_ID", 
+                        keyType: "Int32" 
+                    },
+                    Customers: { 
+                        key: "Customer_ID", 
+                        keyType: "Int32" 
+                    }
+                }
+            });
+            this.context.Orders.update(1, {
+                Customer: context.objectLink("Customers", 2) 
+            });
+        }
+    }
+
+---
+
+#####See Also#####
+- [Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Data_Source_Examples_OData_Associations)
 <!--/fullDescription-->

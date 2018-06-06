@@ -2,14 +2,45 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the [filter](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#filter) option's value. Does not take effect for the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
+Gets the [filter](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#filter) option's value. Does not affect an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-The current filter expression; described in the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section.
+A filter expression.
 <!--/returnDescription-->
 
 <!--fullDescription-->
+---
+##### jQuery
 
+    <!--JavaScript-->
+    var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+        // ...
+        filter: ["age", ">", 18]
+    });
+
+    var filterExpr = pivotGridDataSource.filter(); // returns ["age", ">", 18]
+    
+##### Angular
+
+    <!--TypeScript-->
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    // ...
+    export class AppComponent {
+        pivotGridDataSource: PivotGridDataSource;
+        constructor() {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                // ...
+                filter: ["age", ">", 18]
+            });
+
+            let filterExpr = this.pivotGridDataSource.filter(); // returns ["age", ">", 18]
+        }
+    }
+
+---
+
+#####See Also#####
+- [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
 <!--/fullDescription-->

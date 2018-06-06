@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when data loading is failed.
+Raised when data loading fails.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn how to handle events, refer to the [Events and Change Tracking](/Documentation/Guide/Data_Layer/Data_Layer/#Events_and_Change_Tracking) topic.
+Main article: [onLoadError](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#onLoadError)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->error<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -4,9 +4,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the data is flushed immediatelly after each change operation, or after the delay specified via the **flushInterval** option.
+Specifies whether the **LocalStore** saves changes in the local storage immediately.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [flushInterval](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#flushInterval)
 <!--/fullDescription-->

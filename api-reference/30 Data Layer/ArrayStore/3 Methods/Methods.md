@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the methods used to access the data associated with the ArrayStore.
+This section describes methods that control the **ArrayStore**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

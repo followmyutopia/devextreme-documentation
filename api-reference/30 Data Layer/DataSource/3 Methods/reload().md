@@ -11,15 +11,5 @@ A Promise that is resolved after loading is completed and rejected after loading
 <!--/returnDescription-->
 
 <!--fullDescription-->
-
-The Promise object returned by the **reload()** method is extended by the **operationId** field. Pass its value to the [cancel(operationId)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#canceloperationId) method to cancel the invoked operation.
-
-    <!--JavaScript-->
-    var reloadPromise = dataSource.reload();
-    reloadPromise.done(function(result) {
-        . . .
-    });
-    . . .
-    dataSource.cancel(reloadPromise.operationId);
-
+The Promise returned from this method is extended with the **operationId** field which you can use to cancel the invoked operation. See [cancel(operationId)](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#canceloperationId) for details.
 <!--/fullDescription-->

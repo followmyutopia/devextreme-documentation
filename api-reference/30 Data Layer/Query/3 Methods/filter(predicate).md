@@ -8,23 +8,44 @@ Filters data items using a custom function.
 <!--paramName1-->predicate<!--/paramName1-->
 <!--paramType1-->function()<!--/paramType1-->
 <!--paramDescription1-->
-A function that accepts a data item and returns a Boolean value indicating whether the resulting array includes the item.
+A function that accepts a data item and returns **true** if it should be included in the resulting array and **false** otherwise.
 <!--/paramDescription1-->
 
 <!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
-The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
+The **Query** with transformed data.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The following example demonstrates how to get an array of the Query items whose **price** value is lower than 500.
+---
+##### jQuery
 
     <!--JavaScript-->
-    var data = DevExpress.data.query(inputArray).filter(function(item){
-        if(item.price < 500)
-            return true;
-        return false;
-    }).toArray();
+    var filteredData = DevExpress.data.query([10, 20, 40, 50, 30])
+        .filter(function (dataItem) {
+            return dataItem < 25;
+        })
+        .toArray();
 
-For information on filtering, refer to the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) section of the Data Layer article.
+    console.log(filteredData); // outputs [10, 20]
+
+##### Angular
+
+    <!--TypeScript-->
+    import Query from "devextreme/data/query";
+    // ...
+    export class AppComponent {
+        constructor () {
+            let filteredData = Query([10, 20, 40, 50, 30])
+                .filter(dataItem => dataItem < 25)
+                .toArray();
+
+            console.log(filteredData); // outputs [10, 20]
+        };
+    }
+
+---
+
+#####See Also#####
+- [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering)
 <!--/fullDescription-->

@@ -7,9 +7,10 @@ Gets the [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/
 
 <!--returnType-->any<!--/returnType-->
 <!--returnDescription-->
-The current sort expression; described in the [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting) section.
+A sort expression.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting)
 <!--/fullDescription-->

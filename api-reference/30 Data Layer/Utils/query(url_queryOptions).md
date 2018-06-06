@@ -4,13 +4,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Creates a [Query](/Documentation/ApiReference/Data_Layer/Query/) instance for accessing a remote service by its URL.
+Creates a [Query](/Documentation/ApiReference/Data_Layer/Query/) instance that accesses a remote data service using its URL.
 <!--/shortDescription-->
 
 <!--paramName1-->url<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The remote data service's URL.
+The data service's URL.
 <!--/paramDescription1-->
 
 <!--paramName2-->queryOptions<!--/paramName2-->
@@ -21,15 +21,31 @@ Additional query options.
 
 <!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
-The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
+A **Query** instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The object passed to the **queryOptions** argument should provide the **adapter** method implementing the remote data access logic, in addition to options passed to this method, because the **queryOptions** object is passed to the **adapter** method as well.
+The **queryOptions** object should contain the **adapter** function that implements data access logic. Otherwise, the default adapter that implements the OData protocol is used. The **queryOptions** object can also contain the **errorHandler** function for handling errors that may occur during the **Query**'s execution.
 
-If you leave the **adapter** property unspecified, the default adapter implementing the [OData protocol](http://www.odata.org) will be used.
+---
+##### jQuery
 
-The **queryOptions** object may also provide the **errorHandler** property specifying function [handling errors](/Documentation/Guide/Data_Layer/Data_Layer/#Handling_Errors) that occurred within the [Query](/Documentation/ApiReference/Data_Layer/Query/).
+    <!--JavaScript-->
+    var query = DevExpress.data.query("http://mydomain.com/MyDataService", queryOptions);
 
-For more information on Queries, refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept) article.
+##### Angular
+
+    <!--TypeScript-->
+    import Query from "devextreme/data/query";
+    // ...
+    export class AppComponent {
+        constructor () {
+            let query = Query("http://mydomain.com/MyDataService", queryOptions);
+        };
+    }
+
+---
+
+#####See Also#####
+- [Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
 <!--/fullDescription-->

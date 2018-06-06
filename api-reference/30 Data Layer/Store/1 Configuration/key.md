@@ -3,16 +3,35 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the key property or properties.
+Specifies the key property (or properties) used to access data items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The key configuration option is required if you create a Store for read-write data access. An appropriate [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) specifies the key property. If you need to specify a compound key property, assign an array of getters to this option.
+In the following example, the `ProductID` and `ProductCode` properties are specified as key properties:
 
-The following example demonstrates how to set **id** and **code** key properties:
+---
+##### jQuery
 
     <!--JavaScript-->
-    var storeConfig = {
-        key: ["id", "code"]
+    var store = new DevExpress.data.{WidgetName}({
+        // ...
+        key: ["ProductID", "ProductCode"]
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import {WidgetName} from "devextreme/data/{widget_name}";
+    // ...
+    export class AppComponent {
+        store: {WidgetName};
+        constructor() {
+            this.store = new {WidgetName}({
+                // ...
+                key: ["ProductID", "ProductCode"]
+            })
+        }
     }
+    
+---
 <!--/fullDescription-->

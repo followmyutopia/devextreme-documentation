@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the version of the OData protocol used to interact with the data service.
+Specifies the OData version.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]If the version option holds 2, ODataStore uses the "MERGE" method to send requests. Otherwise, it uses the "PATCH" method. To override this behavior, use the [beforeSend](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#beforeSend) option.
+If the version is 2, the **ODataContext** uses the "MERGE" method to send requests; otherwise, it uses "PATCH". Set the **method** field of the [beforeSend](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#beforeSend) function's parameter to override this behavior.
 <!--/fullDescription-->

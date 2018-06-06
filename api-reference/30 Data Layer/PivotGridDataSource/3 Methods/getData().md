@@ -2,87 +2,100 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the **PivotGrid**'s data.
+Gets the loaded data. Another data portion is loaded every time a [header item](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers) is expanded.
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->
-The data.
+The loaded data.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-This method returns pivot grid data in the following structure.
+This method returns an object with the following structure:
 
     <!--JavaScript-->{
-        "rows":[
-            {
-                "value": /*Row 1 value*/,
-                "index": /*Row 1 index*/,
-                "text": /*Row 1 caption*/
+        rows: [{
+            index: /* Row 1 index */,
+            text:  /* Row 1 caption */,
+            value: /* Row 1 value */
+        }, {
+            index: /* Row 2 index */,
+            text:  /* Row 2 caption */,
+            value: /* Row 2 value */,
+            children: [{
+                index: /* Row 2.1 index */,
+                text:  /* Row 2.1 caption */,
+                value: /* Row 2.1 value */,
+                children: [ /* Level 3 and deeper */ ]
             },
-            {
-                "value": /*Row 2 value*/,
-                "index": /*Row 2 index*/,
-                "text": /*Row 2 caption*/
-                "children":[
-                    {
-                        "value": /*Row 2.1 value*/,
-                        "index": /*Row 2.1 index*/,
-                        "text": /*Row 2.1 caption*/,
-                        "children": [/*Level 3 and deeper*/]
-                    },
-                    . . .
-                ]
-            },
-            . . .
+            // ...
+            ]
+        },
+        // ...
         ],
-        "columns":[
-            {
-                "value": /*Column 1 value*/,
-                "index": /*Column 1 index*/,
-                "text": /*Column 1 caption*/
+        columns: [{
+            index: /* Column 1 index */,
+            text:  /* Column 1 caption */,
+            value: /* Column 1 value */
+        }, {
+            index: /* Column 2 index */,
+            text:  /* Column 2 caption */,
+            value: /* Column 2 value */,
+            children: [{
+                index: /* Column 2.1 index */,
+                text:  /* Column 2.1 caption */,
+                value: /* Column 2.1 value */,
+                children: [ /* Level 3 and deeper */ ]
             },
-            {
-                "value": /*Column 2 value*/,
-                "index": /*Column 2 index*/,
-                "text": /*Column 2 caption*/
-                "children":[
-                    {
-                        "value": /*Column 2.1 value*/,
-                        "index": /*Column 2.1 index*/,
-                        "text": /*Column 2.1 caption*/,
-                        "children": [/*Level 3 and deeper*/]
-                    },
-                    . . .
-                ]
-            },
-            . . .
+            // ...
+            ]
+        },
+        // ...
         ],
-        "values":[
+        values: [
             [
                 [
-                    /*Measure 1 value*/,
-                    /*Measure 2 value*/,
-                    . . .
+                    /* Measure 1 summary value 1 */,
+                    /* Measure 2 summary value 1 */,
+                    // ...
                 ],
-                . . .
+                [
+                    /* Measure 1 summary value 2 */,
+                    /* Measure 2 summary value 2 */,
+                    // ...
+                ],
+                // ...
             ],
-            . . .
-        ]
+            // ...
+        ],
+        grandTotalRowIndex: 0,
+        grandTotalColumnIndex: 0
+        
     }
 
-[note] *Measure* is an alternative name for a field to be used for calculating summary values. Such fields are located in the **Data Fields** section of the [Field Chooser](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/).
+[note] "Measure" refers to a pivot grid field in the data [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area).
 
-As shown above, the object has three fields &#8212; *rows*, *columns* and *values*. The *rows* and *columns* arrays contain the following fields:
+The object mentioned above contains three arrays: `rows`, `columns`, and `values`. Objects in the `rows` and `columns` arrays describe [header items](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers) in the row and column areas and contain the following fields:
 
-* *value* &#8212; the item as it was retrieved from the data source;
-* *index* &#8212; the row/column index pointing to the corresponding summary value from the *values* array;
-* *text* &#8212; the item's caption as it appears in the pivot grid;
-* *children* &#8212; the optional array that contains items of the deeper hierarchical levels.
+* `index` - the index of the row/column that contains the header item; used to find a summary value in the `values` array;
+* `value` - the field value from the data source that corresponds to the header item;
+* `text` - the header item's caption;
+* `children` - an optional array that contains lower-level header items.
 
-The *values* array contains the summary values, each one has three indexes. You can get a summary value using the following pattern.
+The `values` array contains summary values. Each of them has three indexes. To get a summary value, use the following pattern:
 
-    <!--JavaScript-->var value = values[/*row index*/][/*column index*/][/*measure index*/];
+    <!--JavaScript-->var value = values[/* row index */][/* column index */][/* measure index */];
+
+You can pass `grandTotalRowIndex` and `grandTotalColumnIndex` as row index and column index to get [grand total values](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals).
     
-[note] If you use [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) and your [data area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) is empty, this function will return **values of the default measure**, which were sent by an OLAP server. Although the OLAP server sends such values, they are hidden from the UI and can be obtained by this function only.
+[note]
+
+If you use the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) and your data area is empty, this method returns **the default measure values**. They are hidden from the UI until you place the default measure in the data area using the [field(id, options)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options) method. The default measure is specified on the OLAP server.
+
+    <!--JavaScript-->pivotGridDataSource.field(/* measure name */, { area: "data" });
+
+[/note]
+
+#####See Also#####
+- [createDrillDownDataSource(options)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#createDrillDownDataSourceoptions)
 <!--/fullDescription-->

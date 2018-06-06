@@ -9,46 +9,148 @@ dx.web.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-An object that provides access to data for the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
+The **PivotGridDataSource** is an object that provides an API for processing data from an underlying [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/). This object is used in the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The PivotGridDataSource object is a connection between a [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget and the data provided by a web service or data stored locally. The DataSource underlying data access logic is isolated in a [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores). You can use the following Store types in the PivotGridDataSource.
+---
+##### jQuery  
 
-* [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/)        
-    Provides access to an in-memory array.
+    <!--JavaScript-->
+    $(function() {
+        var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+            store: {
+                // ...
+                // Underlying store is configured here
+                // ...
+            },
+            fields: [{
+                area: "column",
+                dataField: "OrderDate",
+                dataType: "date"
+            }, {
+                area: "row",
+                dataField: "ShipCity"
+            }, {
+                area: "data",
+                summaryType: "count"
+            }]
+        });
+        
+        $("#pivotGridContainer").dxPivotGrid({
+            dataSource: pivotGridDataSource
+        });
+    });
 
-* [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/)        
-    Provides access to a remote OLAP service.
+##### Angular  
 
-* [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/)        
-    Provides access to an HTML5 web storage.
+    <!--TypeScript-->
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    import { DxPivotGridModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        pivotGridDataSource: PivotGridDataSource;
+        constructor () {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                store: {
+                    // ...
+                    // Underlying store is configured here
+                    // ...
+                },
+                fields: [{
+                    area: "column",
+                    dataField: "OrderDate",
+                    dataType: "date"
+                }, {
+                    area: "row",
+                    dataField: "ShipCity"
+                }, {
+                    area: "data",
+                    summaryType: "count"
+                }]
+            });
+        }
+    }
 
-* [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/)        
-    Provides access to a remote OData service.
+    @NgModule({
+        imports: [
+            // ...
+            DxPivotGridModule
+        ],
+        // ...
+    })
 
-* [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/)        
-    A Store that enables you to implement your own data access logic.
+    <!--HTML-->
+    <dx-pivot-grid
+        [dataSource]="pivotGridDataSource">
+    </dx-pivot-grid>
 
-To create a PivotGridDataSource instance, call its constructor and pass the [configuration object](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/) to it.
+##### AngularJS  
 
-    <!--JavaScript-->var myDataSource = new DevExpress.data.PivotGridDataSource(pivotGridDataSourceConfig);
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+                store: {
+                    // ...
+                    // Underlying store is configured here
+                    // ...
+                },
+                fields: [{
+                    area: "column",
+                    dataField: "OrderDate",
+                    dataType: "date"
+                }, {
+                    area: "row",
+                    dataField: "ShipCity"
+                }, {
+                    area: "data",
+                    summaryType: "count"
+                }]
+            });
+        });
 
-The core field of the configuration object is [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/). If your Store type is [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/), no additional configuration is required, whereas if you use other Store types, you also need to describe your data for [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) by assigning the list of fields to the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array.
+    <!--HTML-->
+    <div dx-pivot-grid="{
+        dataSource: pivotGridDataSource
+    }"></div>
 
-To associate a PivotGridDataSource instance with the widget, pass this instance to the dataSource option of the widget.
+##### Knockout  
 
-    <!--HTML--><div data-bind="dxPivotGrid: { dataSource: myDataSource }"></div>
+    <!--JavaScript-->
+    var viewModel = {
+        pivotGridDataSource: new DevExpress.data.PivotGridDataSource({
+            store: {
+                // ...
+                // Underlying store is configured here
+                // ...
+            },
+            fields: [{
+                area: "column",
+                dataField: "OrderDate",
+                dataType: "date"
+            }, {
+                area: "row",
+                dataField: "ShipCity"
+            }, {
+                area: "data",
+                summaryType: "count"
+            }]
+        })
+    };
 
-You can also pass the PivotGridDataSource configuration object to the dataSource option. In this case, the PivotGridDataSource instance will be automatically created within the widget.
+    ko.applyBindings(viewModel);
 
-    <!--HTML--><div data-bind="dxPivotGrid: { dataSource: pivotGridDataSourceConfig }"></div>
+    <!--HTML-->
+    <div data-bind="dxPivotGrid: {
+        dataSource: pivotGridDataSource
+    }"></div>
 
-[note] If you create a PivotGridDataSource instance outside the widget, be sure to [dispose](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#dispose) of it when it is no longer used. If the PivotGridDataSource is created within the widget, it will be disposed of automatically.
+---
 
-Refer to the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) and [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) topics for more information about working with data in DevExtreme.
+[note] If you create a **PivotGridDataSource** instance outside the widget (as shown above), make sure to [dispose](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#dispose) of it when it is no longer used. If the instance is created inside the widget, it will be disposed of automatically.
 
-When using the **PivotGrid** widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the options of the **PivotGridDataSource** in the `DataSource()` method.
+When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure the **PivotGridDataSource** using the syntax shown in the following example. This example configures the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
 
     <!--Razor C#-->@(Html.DevExtreme().PivotGrid()
         .ID("pivotGrid")
@@ -61,9 +163,7 @@ When using the **PivotGrid** widget as an [ASP.NET MVC Control](/Documentation/G
                 fields.Add().Area(PivotGridArea.Column)
                     .DataField("OrderDate")
                     .DataType(PivotGridDataType.Date);
-                fields.Add().Area(PivotGridArea.Row).DataField("ShipCountry");
                 fields.Add().Area(PivotGridArea.Row).DataField("ShipCity");
-                fields.Add().Area(PivotGridArea.Row).DataField("ShipName");
                 fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count);
             })
         )
@@ -80,13 +180,12 @@ When using the **PivotGrid** widget as an [ASP.NET MVC Control](/Documentation/G
                             fields.Add().Area(PivotGridArea.Column) _
                                 .DataField("OrderDate") _
                                 .DataType(PivotGridDataType.Date)
-                            fields.Add().Area(PivotGridArea.Row).DataField("ShipCountry")
                             fields.Add().Area(PivotGridArea.Row).DataField("ShipCity")
-                            fields.Add().Area(PivotGridArea.Row).DataField("ShipName")
                             fields.Add().Area(PivotGridArea.Data).SummaryType(SummaryType.Count)
                         End Sub)
         End Function)
     )
 
-For information on how to configure data access in ASP.NET MVC Controls, see the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/) topic.
+#####See Also#####
+- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 <!--/fullDescription-->

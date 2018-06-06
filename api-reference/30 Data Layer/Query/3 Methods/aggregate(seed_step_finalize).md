@@ -20,7 +20,7 @@ A function called for each item.
 <!--paramName3-->finalize<!--/paramName3-->
 <!--paramType3-->function()<!--/paramType3-->
 <!--paramDescription3-->
-A function invoked after the operation is finished.
+A function that is called after the calculation is finished.
 <!--/paramDescription3-->
 
 <!--returnType-->Promise<any><!--/returnType-->
@@ -29,30 +29,52 @@ A Promise that is resolved after the operation is completed. It is a [native Pro
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The **step** function takes on two arguments. The first argument is an accumulator value changed on each **step** function execution. The **step** function should return the updated value of this argument. The second argument is a value of the current item. The **finalize** function takes on the resulting accumulator value, and should return the desired value. 
-
-The following example demonstrates how to calculate the average value for the Query items. 
-
-Suppose that each item of the Query is an object that provides the **price** numeric property, among other properties. To calculate the average price value, calculate the total price and divide it by the item count.
-
-In this case, the **seed** argument specifies the initial value of the total price, which will be increased within the **step** function called for each item. The **finalize** function will divide the total price by the item count.
+---
+##### jQuery
 
     <!--JavaScript-->
-    var count = 0;
-    DevExpress.data.query(inputArray)
-        .aggregate(
-            0, 
-            function(total) {
-                return total + itemData;
-                count++;
-            },
-            function(total) {
-                return total / count;
-            }
-         )
-        .done(function(result) {
-            // 'result' holds the desired value
+    var step = function (total, itemData) {
+        // "total" is an accumulator value that should be changed on each iteration
+        // "itemData" is the item to which the function is being applied
+        return total + itemData;
+    };
+
+    var finalize = function (total) {
+        // "total" is the resulting accumulator value
+        return total / 1000;
+    };
+
+    DevExpress.data.query([10, 20, 30, 40, 50])
+        .aggregate(0, step, finalize)
+        .done(function (result) {
+            console.log(result); // outputs 0.15
         });
 
-The average value calculation is an example of this function's usage. However, note that this functionality is already implemented in the [avg()](/Documentation/ApiReference/Data_Layer/Query/Methods/#avg) and [avg(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#avggetter) methods.
+##### Angular
+
+    <!--TypeScript-->
+    import Query from "devextreme/data/query";
+    // ...
+    export class AppComponent {
+        constructor () {
+            let step = (total, itemData) => {
+                // "total" is an accumulator value that should be changed on each iteration
+                // "itemData" is the item to which the function is being applied
+                return total + itemData;
+            };
+
+            let finalize = total => {
+                // "total" is the resulting accumulator value
+                return total / 1000;
+            };
+
+            Query([10, 20, 30, 40, 50])
+                .aggregate(0, step, finalize)
+                .then(result => {
+                    console.log(result); // outputs 0.15
+                });
+        };
+    }
+
+---
 <!--/fullDescription-->

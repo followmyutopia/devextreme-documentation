@@ -4,20 +4,20 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to allow the [predefined summary post-processing functions](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode) ('absoluteVariation' and 'percentVariation') and [runningTotal](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#runningTotal) to take values of different groups into account.
+Specifies whether to take neighboring groups' summary values into account when calculating a [running total](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#runningTotal) and [absolute or percent variation](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryDisplayMode).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For example, consider you have a [runningTotal](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#runningTotal) option set to 'row' and your pivot grid contains the following row split into three groups.
+For example, a pivot grid row contains the following summary values split into three groups:
 
-    [[8, 3, -6], [5, 3, 0], [1, -4, 2]]
+    [ [1, 1, 1], [2, 2, 2], [3, 3, 3] ]
 
-If the **allowCrossGroupCalculation** option is set to **false**, each group will be independent of the previous and the row will be displayed as follows.
+This row can be displayed differently depending on the **allowCrossGroupCalculation** option's value, provided that the running total is calculated by rows:
 
-    [[8, 11, 5], [5, 8, 8], [1, -3, -1]]
+    [ [1, 2, 3], [2, 4, 6], [3, 6, 9] ]    // allowCrossGroupCalculation: false
+    [ [1, 2, 3], [5, 7, 9], [12, 15, 18] ] // allowCrossGroupCalculation: true
 
-With the **allowCrossGroupCalculation** option set to **true**, the running total will act regardless of group bounds and same row will be displayed as follows.
-
-    [[8, 11, 5], [10, 13, 13], [14, 10, 12]]
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/PivotGrid/RunningTotals/jQuery/Light/"
+}
 <!--/fullDescription-->

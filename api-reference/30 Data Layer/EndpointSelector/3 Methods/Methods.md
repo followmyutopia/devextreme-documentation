@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the methods of the **EndpointSelector** object.
+This section describes methods that control an **EndpointSelector** instance.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Starts reloading data from any [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/) and updating the data source.
+Clears the loaded **PivotGridDataSource** data and calls the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<any><!--/returnType-->
@@ -11,15 +11,5 @@ A Promise that is resolved after data is loaded. It is a [native Promise](https:
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Use this method to update the pivot grid if you expect changes in data.
 
-Use the following code to access loaded data.
-
-    <!--JavaScript-->    dataSource.reload()
-        .done(function(result) {
-            // 'result' contains the loaded data
-        })
-        .fail(function(error) {
-            // handle error
-        });
 <!--/fullDescription-->

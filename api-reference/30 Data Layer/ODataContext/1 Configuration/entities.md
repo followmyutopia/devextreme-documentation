@@ -3,25 +3,62 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the list of entities to be accessed with the ODataContext.
+Specifies entity collections to be accessed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The object passed to this option should contain Fields whose names equal the corresponding entity names. The ODataContext will create an ODataStore instance for each entity. Therefore, each of these properties takes on an [ODataStore configuration](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/) object.
+The **ODataContext** creates an **ODataStore** per entity collection, so you need to use [ODataStore options](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/) for configuring access to entity collections. In the following code, access to the `Employees` and `Customers` entity collections is configured, but only `Customers` is loaded using the [load()](/Documentation/ApiReference/Data_Layer/ODataStore/Methods/#load) method:
+
+---
+#####jQuery
 
     <!--JavaScript-->
     var context = new DevExpress.data.ODataContext({
-        url: "http://www.example.com/Northwind.svc",
-        entities: {
-            Categories: { 
-                key: "CategoryID", 
+        url: "https://js.devexpress.com/Demos/DevAV/odata/",
+        entities: { 
+            // Configures access to "https://js.devexpress.com/Demos/DevAV/odata/Employees"
+            Employees: { 
+                key: "Employee_ID", 
                 keyType: "Int32" 
             },
-            MyCustomers: { 
-                name: "Customers",
-                key: "CustomerID", 
-                keyType: "String" 
+            // Configures access to "https://js.devexpress.com/Demos/DevAV/odata/Customers"
+            Clients: {              // The collection alias
+                name: "Customers",  // The collection name
+                key: "Customer_ID", 
+                keyType: "Int32" 
             }
         }
     });
+    context.Clients.load();
+
+#####Angular
+
+    <!--TypeScript-->
+    import ODataContext from "devextreme/data/odata/context";
+    // ...
+    export class AppComponent {
+        context: ODataContext;
+        constructor() {
+            this.context = new ODataContext({
+                url: "https://js.devexpress.com/Demos/DevAV/odata/",
+                entities: { 
+                    // Configures access to "https://js.devexpress.com/Demos/DevAV/odata/Employees"
+                    Employees: { 
+                        key: "Employee_ID", 
+                        keyType: "Int32" 
+                    },
+                    // Configures access to "https://js.devexpress.com/Demos/DevAV/odata/Customers"
+                    Clients: {              // The collection alias
+                        name: "Customers",  // The collection name
+                        key: "Customer_ID", 
+                        keyType: "Int32" 
+                    }
+                }
+            });
+            this.context.Clients.load();
+        }
+    }
+
+---
+
 <!--/fullDescription-->

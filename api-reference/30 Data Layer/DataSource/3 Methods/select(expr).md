@@ -8,11 +8,41 @@ Sets the [select](/Documentation/ApiReference/Data_Layer/DataSource/Configuratio
 <!--paramName1-->expr<!--/paramName1-->
 <!--paramType1-->any<!--/paramType1-->
 <!--paramDescription1-->
-A select expression; described in the [Select Expressions](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Select_Expressions) section.
+A select expression.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-    <!--JavaScript-->
-    dataSource.select("firstName", "lastName", "age");
+---
+##### jQuery
 
+    <!--JavaScript-->
+    var ds = new DevExpress.data.DataSource({
+        // DataSource is configured here
+    });
+
+    ds.select(["firstName", "lastName", "birthDate"]);
+    // or
+    // ds.select("firstName", "lastName", "birthDate");
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        ds: DataSource;
+        constructor() {
+            this.ds = new DataSource({
+                // DataSource is configured here
+            });
+            this.ds.select(["firstName", "lastName", "birthDate"]);
+            // or
+            // this.ds.select("firstName", "lastName", "birthDate");
+        }
+    }
+
+---
+
+#####See Also#####
+- [Select Expressions](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Data_Transformation/Select_Expressions)
 <!--/fullDescription-->

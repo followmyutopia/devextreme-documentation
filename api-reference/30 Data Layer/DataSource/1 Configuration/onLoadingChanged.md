@@ -4,11 +4,38 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [loadingChanged](/Documentation/ApiReference/Data_Layer/DataSource/Events/#loadingChanged) event.
+A function that is executed when the data loading status changes.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the data loading status is changed.
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var ds = new DevExpress.data.DataSource({
+        onLoadingChanged: function (isLoading) {
+            // Your code goes here
+        }
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        ds: DataSource;
+        constructor() {
+            this.ds = new DataSource({
+                onLoadingChanged: (isLoading) => {
+                    // Your code goes here
+                }
+            });
+        }
+    }
+
+---
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->isLoading<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Boolean<!--/typeFunctionParamType1-->

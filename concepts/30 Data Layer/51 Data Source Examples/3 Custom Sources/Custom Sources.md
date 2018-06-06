@@ -1,4 +1,4 @@
-Any custom data access logic can be implemented using the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) class. In the CustomStore, all data access operations must be implemented by a developer.
+Custom data access logic can be implemented using the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) class. A developer should implement all data access operations in the CustomStore.
 
     <!--JavaScript-->
     var myStore = new DevExpress.data.CustomStore({
@@ -18,7 +18,7 @@ Any custom data access logic can be implemented using the [CustomStore](/Documen
         store: myStore
     });
     
-DataSource supports a more brief syntax, without introducing an explicit CustomStore instance.
+The DataSource supports a more brief syntax without introducing an explicit CustomStore instance.
 
     <!--JavaScript-->
     var dataSource = new DevExpress.data.DataSource({
@@ -34,7 +34,7 @@ DataSource supports a more brief syntax, without introducing an explicit CustomS
         . . .
     });
     
-As an example, consider the following synthetic implementation, which generates a read-only infinite list:
+For example, the following synthetic implementation generates an infinite read-only list:
 
     <!--JavaScript-->
     var infiniteListSource = new DevExpress.data.DataSource({
@@ -49,4 +49,6 @@ As an example, consider the following synthetic implementation, which generates 
         }
     });
 
-In this example, **load** and **byKey** functions are synchronous, that is they return a result right away. In the next example, we will connect to a remote web service and therefore functions will return **jQuery.Deferred** promises.
+In this example, **load** and **byKey** functions are synchronous, that is they instantly return a result. In the next example, we connect to a remote web service, and therefore functions return **jQuery.Deferred** promises.
+
+[note] DevExtreme also provides store implementations for the [BreezeJS](https://github.com/DevExpress/DevExtreme-Data-BreezeJS) and [JayData](https://github.com/DevExpress/DevExtreme-Data-JayData) data libraries. You can use them as a reference if you decide to introduce a custom store implementation for another data library.

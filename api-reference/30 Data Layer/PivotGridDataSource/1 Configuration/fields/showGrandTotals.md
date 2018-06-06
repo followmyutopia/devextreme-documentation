@@ -4,9 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not to display [Grand Total](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) values for the field.
+Specifies whether to display the field's [grand totals](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals). Applies only if the field is in the data [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]This options takes effect only when set for a field located in the *"data"* area.
+#####See Also#####
+- **PivotGrid**.[showColumnGrandTotals](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#showColumnGrandTotals)
+- **PivotGrid**.[showRowGrandTotals](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#showRowGrandTotals)
 <!--/fullDescription-->

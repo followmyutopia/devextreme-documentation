@@ -2,9 +2,34 @@
 ===================================================================
 
 <!--shortDescription-->
-Clears all data associated with the current [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/).
+Clears all the **ArrayStore**'s associated data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+---
+##### jQuery
 
+    <!--JavaScript-->
+    var store = new DevExpress.data.ArrayStore({
+        // ArrayStore is configured here
+    });
+
+    store.clear();
+
+##### Angular
+
+    <!--TypeScript-->
+    import ArrayStore from "devextreme/data/array_store";
+    // ...
+    export class AppComponent {
+        store: ArrayStore;
+        constructor() {
+            this.store = new ArrayStore({
+                // ArrayStore is configured here
+            });
+            this.store.clear();
+        }
+    }
+
+---
 <!--/fullDescription-->

@@ -2,12 +2,12 @@
 ===================================================================
 
 <!--shortDescription-->
-Checks whether the **PivotGridDataSource** is being loaded.
+Checks whether the **PivotGridDataSource** is loading data.
 <!--/shortDescription-->
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-**true** if it is being loaded; otherwise **false**.
+**true** if data is being loaded; otherwise **false**.
 <!--/returnDescription-->
 
 <!--fullDescription-->

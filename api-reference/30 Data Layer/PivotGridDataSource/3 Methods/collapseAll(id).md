@@ -2,15 +2,45 @@
 ===================================================================
 
 <!--shortDescription-->
-Collapses all header items of a field.
+Collapses all header items of a field with the specified identifier.
 <!--/shortDescription-->
 
 <!--paramName1-->id<!--/paramName1-->
 <!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
-The field's index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array, [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField) or [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption).
+The field's [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField), [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption), or index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
+---
+##### jQuery
 
+    <!--JavaScript-->
+    var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    pivotGridDataSource.collapseAll("Region");
+    
+##### Angular
+
+    <!--TypeScript-->
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    // ...
+    export class AppComponent {
+        pivotGridDataSource: PivotGridDataSource;
+        constructor() {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                // PivotGridDataSource is configured here
+            });
+
+            this.pivotGridDataSource.collapseAll("Region");
+        }
+    }
+
+---
+
+#####See Also#####
+- [expandAll(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#expandAllid)
+- **fields[]**.[expanded](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded)
 <!--/fullDescription-->

@@ -4,11 +4,37 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [loading]({basewidgetpath}/Events/#loading) event.
+A function that is executed before data is loaded to the store.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before data is loaded.
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var store = new DevExpress.data.{WidgetName}({
+        onLoading: function (loadOptions) {
+            // Your code goes here
+        }
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import {WidgetName} from "devextreme/data/{widget_name}";
+    // ...
+    export class AppComponent {
+        store: {WidgetName};
+        constructor() {
+            this.store = new {WidgetName}({
+                onLoading: function (loadOptions) {
+                    // Your code goes here
+                }
+            })
+        }
+    }
+    
+---
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->loadOptions<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->LoadOptions<!--/typeFunctionParamType1-->

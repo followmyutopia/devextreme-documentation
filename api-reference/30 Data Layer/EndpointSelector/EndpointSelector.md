@@ -5,24 +5,86 @@
 ===========================================================================
 
 <!--shortDescription-->
-An object used to manage OData endpoints in your application.
+The **EndpointSelector** is an object for managing OData endpoints in your application.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This object selects local data service URL or production data service URL depending on the application execution mode. The endpoint options are passed to the **EndpointSelector** constructor.
+This object selects local or production OData service URL depending on whether the app's local or deployed version is running.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     var endpointSelector = new DevExpress.data.EndpointSelector({
         db1: {
-            local: "http://localhost:55555/service1.svc/"
+            local: "http://localhost:55555/service1.svc/",
             production: "http://services.example.com/service1.svc/"
         },
         db2: {
-            local: "http://localhost:55555/service2.svc/"
+            local: "http://localhost:55555/service2.svc/",
             production: "http://services.example.com/service2.svc/"
         },
-        . . .
+        // ...
     });
 
-Note that the EndpointSelector can hold several endpoints. You can access the required one by its key using the [urlFor(key)](/Documentation/ApiReference/Data_Layer/EndpointSelector/Methods/#urlForkey) method.
+##### Angular
+
+    <!--TypeScript-->
+    import EndpointSelector from "devextreme/data/endpoint_selector";
+    // ...
+    export class AppComponent {
+        endpointSelector: EndpointSelector;
+        constructor() {
+            this.endpointSelector = new EndpointSelector({
+                db1: {
+                    local: "http://localhost:55555/service1.svc/",
+                    production: "http://services.example.com/service1.svc/"
+                },
+                db2: {
+                    local: "http://localhost:55555/service2.svc/",
+                    production: "http://services.example.com/service2.svc/"
+                },
+                // ...
+            });
+        }
+    }
+
+##### AngularJS  
+
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.endpointSelector = new DevExpress.data.EndpointSelector({
+                db1: {
+                    local: "http://localhost:55555/service1.svc/",
+                    production: "http://services.example.com/service1.svc/"
+                },
+                db2: {
+                    local: "http://localhost:55555/service2.svc/",
+                    production: "http://services.example.com/service2.svc/"
+                },
+                // ...
+            });
+        });
+
+##### Knockout  
+
+    <!--JavaScript-->
+    var viewModel = {
+        endpointSelector: new DevExpress.data.EndpointSelector({
+            db1: {
+                local: "http://localhost:55555/service1.svc/",
+                production: "http://services.example.com/service1.svc/"
+            },
+            db2: {
+                local: "http://localhost:55555/service2.svc/",
+                production: "http://services.example.com/service2.svc/"
+            },
+            // ...
+        })
+    };
+
+    ko.applyBindings(viewModel);
+
+---
 <!--/fullDescription-->

@@ -2,34 +2,57 @@
 ===================================================================
 
 <!--shortDescription-->
-Adds an item to the Store's data.
+Adds a data item to the store.
 <!--/shortDescription-->
 
 <!--paramName1-->values<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-A new item.
+A data item.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<any><!--/returnType-->
 <!--returnDescription-->
-A Promise that is resolved after the item is inserted. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
+A Promise that is resolved after the data item is added. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-    <!--JavaScript-->
-    store.insert({
-            id: 5,
-            name: "item1",
-            value: 10
-        })
-        .done(function(values, key) {
-            //'values' contains the inserted item values
-            //'key' contains the inserted item key
-        })
-        .fail(function(error) {
-            //handle error
-        });
+---
+##### jQuery
 
-[note] If data already contains an object with the same key property value as the object being inserted, the insertion fails.
+    <!--JavaScript-->
+    var store = new DevExpress.data.{WidgetName}({
+        // {WidgetName} is configured here
+    });
+
+    store.insert({ id: 1, name: "John Doe" })
+         .done(function (dataItem, key) {
+             // Process the "key" and "dataItem" here
+         })
+         .fail(function (error) {
+             // Handle the "error" here
+         });
+
+##### Angular
+
+    <!--TypeScript-->
+    import {WidgetName} from "devextreme/data/{widget_name}";
+    // ...
+    export class AppComponent {
+        store: {WidgetName};
+        constructor() {
+            this.store = new {WidgetName}({
+                // {WidgetName} is configured here
+            });
+            this.store.insert({ id: 1, name: "John Doe" })
+                .then(
+                    (dataItem) => { /* Process the "dataItem" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                );
+        };
+    }
+    
+---
+
+[note] The data item's key value should be unique or the insertion fails.
 <!--/fullDescription-->

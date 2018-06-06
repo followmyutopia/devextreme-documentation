@@ -3,9 +3,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after data is modified.
+Raised after a data item is added, updated, or removed from the store.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn how to handle events, refer to the [Events and Change Tracking](/Documentation/Guide/Data_Layer/Data_Layer/#Events_and_Change_Tracking) topic.
+Main article: [onModified]({basewidgetpath}/Configuration/#onModified)
 <!--/fullDescription-->

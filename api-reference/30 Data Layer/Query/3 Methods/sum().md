@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Calculates the sum of item values.
+Calculates the sum of all values.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<Number><!--/returnType-->
@@ -11,15 +11,7 @@ A Promise that is resolved after the operation is completed. It is a [native Pro
 <!--/returnDescription-->
 
 <!--fullDescription-->
-If a Query item is an object, you should transform it to a numeric type with the [select(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#selectgetter) method, or use the [sum(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#sumgetter) method instead of **sum()**.
-
-The following example demonstrates how to calculate the total **price** value of the Query items.
-
-    <!--JavaScript-->
-    DevExpress.data.query(inputArray)
-        .select("price")
-        .sum()
-        .done(function(result) {
-            // 'result' holds the desired value
-        });
+#include datalayer-ref-query-summarymethods-desc with {
+    summary: "sum"
+}
 <!--/fullDescription-->

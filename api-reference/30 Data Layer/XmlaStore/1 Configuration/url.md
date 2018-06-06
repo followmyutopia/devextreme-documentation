@@ -3,9 +3,46 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the URL to the OLAP server.
+Specifies the OLAP server's URL.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This URL should point to the MSMDPUMP extension. It looks as follows by default: *http://&lt;servername&gt;/OLAP/msmdpump.dll*
+This should be the MSMDPUMP.dll URL and usually has the following format: *http://&lt;servername&gt;/OLAP/msmdpump.dll*.
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var store = new DevExpress.data.XmlaStore({
+        url: "https://my-web-srv01/OLAP/msmdpump.dll",
+        catalog: "AdventureWorksDW2012",
+        cube: "Adventure Works"
+    });
+
+    var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+        // ...
+        store: store
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    import XmlaStore from "devextreme/ui/pivot_grid/xmla_store";
+    // ...
+    export class AppComponent {
+        pivotGridDataSource: PivotGridDataSource;
+        constructor() {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                // ...
+                store: new XmlaStore({
+                    url: "https://my-web-srv01/OLAP/msmdpump.dll",
+                    catalog: "AdventureWorksDW2012",
+                    cube: "Adventure Works"
+                })
+            });
+        }
+    }
+
+---
 <!--/fullDescription-->

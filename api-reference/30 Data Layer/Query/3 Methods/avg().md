@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Calculates the average item value. Takes effect only if data is a numeric array.
+Calculates the average of all values. Applies only to numeric arrays.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<Number><!--/returnType-->
@@ -11,15 +11,7 @@ A Promise that is resolved after the operation is completed. It is a [native Pro
 <!--/returnDescription-->
 
 <!--fullDescription-->
-If a Query item is an object, you should transform it to a numeric type with the [select(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#selectgetter) method, or use the [avg(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#avggetter) method instead of **avg()**.
-
-The following example demonstrates how to calculate the average value of the **price** property values of the Query items.
-
-    <!--JavaScript-->
-    DevExpress.data.query(inputArray)
-        .select("price")
-        .avg()
-        .done(function(result) {
-            // 'result' holds the desired value
-        });
+#include datalayer-ref-query-summarymethods-desc with {
+    summary: "avg"
+}
 <!--/fullDescription-->

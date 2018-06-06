@@ -7,16 +7,65 @@ Specifies data sorting options.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option as follows:
+This option accepts one of the following:
+
+- **String**        
+The field name to sort by.
+
+- **Object**        
+An object with the following fields:
+
+    * **selector**: String    
+    The field name to sort by.
+    * **desc**: Boolean     
+     Sorts the **selector** field in descending order.
+
+- **Array**         
+An array of strings and objects described above.
+
+- **Function**      
+A function implementing custom sorting logic.
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var ds = new DevExpress.data.DataSource({
+        // ...
+        sort: [
+            "LastName",
+            { selector: "Discount", desc: true }
+        ]
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        ds: DataSource;
+        constructor() {
+            this.ds = new DataSource({
+                // ...
+                sort: [
+                    "LastName",
+                    { selector: "Discount", desc: true }
+                ]
+            });
+        }
+    }
+
+##### ASP.NET MVC Controls
 
     <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()
         .DataSourceOptions(dso => dso
-            .Sort("Discount", false) // for sorting by a single field
+            .Sort("Discount", true) // for sorting by a single field
             // === or ===
             .Sort(s => {             // for sorting by multiple fields
                 s.AddSorting("LastName");
-                s.AddSorting("Discount", false);
+                s.AddSorting("Discount", true);
             })
         )
     )
@@ -24,14 +73,16 @@ In an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamenta
     <!--Razor VB-->
     @(Html.DevExtreme().WidgetName() _
         .DataSourceOptions(Sub(dso)
-            dso.Sort("Discount", False) ' for sorting by a single field
+            dso.Sort("Discount", True) ' for sorting by a single field
             ' === or ===
             dso.Sort(Sub(s)             ' for sorting by multiple fields
                 s.AddSorting("LastName")
-                s.AddSorting("Discount", False)
+                s.AddSorting("Discount", True)
             End Sub)
         End Sub)
     )
+
+---
 
 #####See Also#####
 - [Sorting](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Sorting)

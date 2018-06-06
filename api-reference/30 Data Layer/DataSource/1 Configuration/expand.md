@@ -3,11 +3,41 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the navigation properties that are loaded with the OData entity. Available only for the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
+Specifies the navigation properties to be loaded with the OData entity. Available only for the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option in the `OData()` data source:
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var ds = new DevExpress.data.DataSource({
+        store: {
+            type: "odata",
+            // ODataStore is configured here
+        },
+        expand: ["PropertyName1", "PropertyName2"]
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from "devextreme/data/data_source";
+    import ODataStore from "devextreme/data/odata/store";
+    // ...
+    export class AppComponent {
+        ds: DataSource;
+        constructor() {
+            this.ds = new DataSource({
+                store: new ODataStore({
+                    // ODataStore is configured here
+                }),
+                expand: ["PropertyName1", "PropertyName2"]
+            });
+        }
+    }
+
+##### ASP.NET MVC Controls
 
     <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()
@@ -23,7 +53,9 @@ In an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamenta
                      .Expand("PropertyName1", "PropertyName2")
         End Function)
     )
+    
+---
 
 #####See Also#####
-- [Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Associations)
+- [OData - Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Associations)
 <!--/fullDescription-->

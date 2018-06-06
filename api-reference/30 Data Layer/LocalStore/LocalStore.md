@@ -9,19 +9,145 @@ dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-A [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) providing access to the HTML5 Web Storage.
+The **LocalStore** is a store that provides an interface for loading and editing data from HTML Web Storage (also known as **window.localStorage**) and handling related events.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When creating a LocalStore instance, specify the [name](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#name) configuration option, which is required to identify the data within the storage.
+When configuring the **LocalStore**, specify the [name](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#name) under which data should be saved in the browser's **localStorage** object.
+
+---
+##### jQuery  
 
     <!--JavaScript-->
+    var states = [
+        { id: 1, state: "Alabama", capital: "Montgomery" },
+        { id: 2, state: "Alaska", capital: "Juneau" },
+        { id: 3, state: "Arizona", capital: "Phoenix" },
+        // ...
+    ];
+
     var store = new DevExpress.data.LocalStore({
-        name: "MyLocalData",
-        key: "id"
+        key: "id",
+        data: states,
+        name: "myLocalData",
+        // Other LocalStore options go here
     });
 
-Note that the [key](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#key) option is required if you are going to use the Store for read-write access to data.
+    // ===== or inside the DataSource =====
+    var dataSource = new DevExpress.data.DataSource({
+        store: {
+            type: "local",
+            key: "id",
+            data: states,
+            name: "myLocalData",
+            // Other LocalStore options go here
+        },
+        // Other DataSource options go here
+    });
 
-For more information on working with LocalStore data, refer to the [Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Local_Data) article.
+##### Angular  
+
+    <!--TypeScript-->
+    import LocalStore from "devextreme/data/local_store";
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        store: LocalStore;
+        dataSource: DataSource;
+        states = [
+            { id: 1, state: "Alabama", capital: "Montgomery" },
+            { id: 2, state: "Alaska", capital: "Juneau" },
+            { id: 3, state: "Arizona", capital: "Phoenix" },
+            // ...
+        ];
+        constructor () {
+            this.store = new LocalStore({
+                key: "id",
+                data: this.states,
+                name: "myLocalData",
+                // Other LocalStore options go here
+            });
+
+            // ===== or inside the DataSource =====
+            this.dataSource = new DataSource({
+                store: new LocalStore({
+                    key: "id",
+                    data: this.states,
+                    name: "myLocalData",
+                    // Other LocalStore options go here
+                }),
+                // Other DataSource options go here
+            });
+        }
+    }
+
+##### AngularJS  
+
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            var states = [
+                { id: 1, state: "Alabama", capital: "Montgomery" },
+                { id: 2, state: "Alaska", capital: "Juneau" },
+                { id: 3, state: "Arizona", capital: "Phoenix" },
+                // ...
+            ];
+            $scope.store = new DevExpress.data.LocalStore({
+                key: "id",
+                data: states,
+                name: "myLocalData",
+                // Other LocalStore options go here
+            });
+
+            // ===== or inside the DataSource =====
+            $scope.dataSource = new DevExpress.data.DataSource({
+                store: {
+                    type: "local",
+                    key: "id",
+                    data: states,
+                    name: "myLocalData",
+                    // Other LocalStore options go here
+                },
+                // Other DataSource options go here
+            });
+        });
+
+##### Knockout  
+
+    <!--JavaScript-->
+    var states = [
+        { id: 1, state: "Alabama", capital: "Montgomery" },
+        { id: 2, state: "Alaska", capital: "Juneau" },
+        { id: 3, state: "Arizona", capital: "Phoenix" },
+        // ...
+    ];
+    
+    var viewModel = {
+        store: new DevExpress.data.LocalStore({
+            key: "id",
+            data: states,
+            name: "myLocalData",
+            // Other LocalStore options go here
+        })
+
+        // ===== or inside the DataSource =====
+        dataSource: new DevExpress.data.DataSource({
+            store: {
+                type: "local",
+                key: "id",
+                data: states,
+                name: "myLocalData",
+                // Other LocalStore options go here
+            },
+            // Other DataSource options go here
+        })
+    };
+
+    ko.applyBindings(viewModel);
+
+---
+
+#####See Also#####
+- [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
+- [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)
 <!--/fullDescription-->

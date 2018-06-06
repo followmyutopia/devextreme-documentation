@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the methods used to manipulate the ODataContext.
+This section describes the methods that control the **ODataContext**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

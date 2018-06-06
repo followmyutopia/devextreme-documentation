@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the data loading status is changed.
+Raised when the data loading status is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn how to handle events, refer to the [Events and Change Tracking](/Documentation/Guide/Data_Layer/Data_Layer/#Events_and_Change_Tracking) topic.
+Main article: [onLoadingChanged](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#onLoadingChanged)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->isLoading<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Boolean<!--/typeFunctionParamType1-->

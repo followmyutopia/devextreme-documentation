@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A boolean value specifying whether or not the field is visible in the pivot grid and the [Field Chooser](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/fieldChooser/).
+Specifies whether the field is visible in the pivot grid and [field chooser](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Field_Chooser).
 <!--/shortDescription-->
 
 <!--fullDescription-->

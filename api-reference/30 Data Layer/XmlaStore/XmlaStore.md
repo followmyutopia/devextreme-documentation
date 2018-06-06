@@ -8,21 +8,110 @@ dx.web.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-A [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) that provides access to an OLAP cube according to the XMLA standard.
+The **XmlaStore** is a store that provides an interface for accessing an OLAP cube according to the XMLA standard.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To create an **XmlaStore** instance, specify your OLAP server's [URL](/Documentation/ApiReference/Data_Layer/XmlaStore/Configuration/#url), the [database name](/Documentation/ApiReference/Data_Layer/XmlaStore/Configuration/#catalog) and the [name of the cube](/Documentation/ApiReference/Data_Layer/XmlaStore/Configuration/#cube) whose data the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget should display.
+The **XmlaStore** is used in the [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/) which, in turn, is used in the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
 
-    <!--JavaScript-->var store = new DevExpress.data.XmlaStore({
+---
+##### jQuery  
+
+    <!--JavaScript-->
+    var store = new DevExpress.data.XmlaStore({
         url: "http://my-web-srv01/OLAP/msmdpump.dll",
         catalog: "AdventureWorksDW2012",
         cube: "Adventure Works"
     });
 
-The **XmlaStore** currently supports only Microsoft Analysis Services. Refer to the [Multidimensional Modeling](https://msdn.microsoft.com/en-us/library/ms170208.aspx) MSDN tutorial for comprehensive information about Microsoft Analysis Services OLAP tool. To learn how to configure HTTP access to analysis services on IIS, refer to the [Configure HTTP Access to Analysis Services on IIS 8.0](https://technet.microsoft.com/en-us/library/gg492140.aspx) article. 
+    // ===== or inside the PivotGridDataSource =====
+    var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+        store: {
+            type: "xmla",
+            url: "http://my-web-srv01/OLAP/msmdpump.dll",
+            catalog: "AdventureWorksDW2012",
+            cube: "Adventure Works"
+        },
+        // Other PivotGridDataSource options go here
+    });
 
-When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the **XmlaStore** using the syntax shown in the following example. This example configures the [PivotGrid](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/) widget.
+##### Angular  
+
+    <!--TypeScript-->
+    import XmlaStore from "devextreme/ui/pivot_grid/xmla_store";
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    // ...
+    export class AppComponent {
+        store: XmlaStore;
+        pivotGridDataSource: PivotGridDataSource;
+        constructor () {
+            this.store = new XmlaStore({
+                url: "http://my-web-srv01/OLAP/msmdpump.dll",
+                catalog: "AdventureWorksDW2012",
+                cube: "Adventure Works"
+            });
+
+            // ===== or inside the PivotGridDataSource =====
+            this.pivotGridDataSource = new PivotGridDataSource({
+                store: {
+                    type: "xmla",
+                    url: "http://my-web-srv01/OLAP/msmdpump.dll",
+                    catalog: "AdventureWorksDW2012",
+                    cube: "Adventure Works"
+                },
+                // Other PivotGridDataSource options go here
+            });
+        }
+    }
+
+##### AngularJS  
+
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.store = new DevExpress.data.XmlaStore({
+                url: "http://my-web-srv01/OLAP/msmdpump.dll",
+                catalog: "AdventureWorksDW2012",
+                cube: "Adventure Works"
+            });
+
+            // ===== or inside the PivotGridDataSource =====
+            $scope.pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+                store: {
+                    type: "xmla",
+                    url: "http://my-web-srv01/OLAP/msmdpump.dll",
+                    catalog: "AdventureWorksDW2012",
+                    cube: "Adventure Works"
+                },
+                // Other PivotGridDataSource options go here
+            });
+        });
+
+##### Knockout  
+
+    <!--JavaScript-->
+    var viewModel = {
+        store: new DevExpress.data.XmlaStore({
+            url: "http://my-web-srv01/OLAP/msmdpump.dll",
+            catalog: "AdventureWorksDW2012",
+            cube: "Adventure Works"
+        })
+
+        // ===== or inside the PivotGridDataSource =====
+        pivotGridDataSource: new DevExpress.data.PivotGridDataSource({
+            store: {
+                type: "xmla",
+                url: "http://my-web-srv01/OLAP/msmdpump.dll",
+                catalog: "AdventureWorksDW2012",
+                cube: "Adventure Works"
+            },
+            // Other PivotGridDataSource options go here
+        })
+    };
+
+    ko.applyBindings(viewModel);
+
+##### ASP.NET MVC Controls
 
     <!--Razor C#-->@(Html.DevExtreme().PivotGrid()
         .DataSource(ds => ds
@@ -45,4 +134,10 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
         End Function)
     )
 
+---
+
+The **XmlaStore** currently supports only the Microsoft Analysis Services OLAP tool. Refer to the [Multidimensional Modeling](https://docs.microsoft.com/en-us/sql/analysis-services/multidimensional-modeling-adventure-works-tutorial?view=sql-analysis-services-2017) tutorial for more information on it. To learn how to configure HTTP access to Analysis Services on IIS, see [this article](https://docs.microsoft.com/en-us/sql/analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0?view=sql-analysis-services-2017).
+
+#####See Also#####
+- [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 <!--/fullDescription-->

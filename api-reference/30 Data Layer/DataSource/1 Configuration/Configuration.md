@@ -1,21 +1,46 @@
 
 <!--shortDescription-->
-This section describes configuration options used to configure the data source.
+This section describes options that configure the **DataSource**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]To create a **DataSource** instance that uses custom data access logic, pass the [CustomStore configuration object](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/) to the **DataSource** constructor. As an example, consider the following synthetic implementation, which generates a read-only infinite list.
+[note]
+
+The **DataSource** allows specifying [**CustomStore** options](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/) in its configuration object, as shown in the following code:
+
+---
+##### jQuery
 
     <!--JavaScript-->
-    var infiniteListSource = new DevExpress.data.DataSource({
-        load: function(loadOptions) {
-            var result = [ ];
-            for(var i = 0; i < loadOptions.take; i++)
-                result.push({ id: 1 + loadOptions.skip + i });
-            return result;
+    var infiniteList = new DevExpress.data.DataSource({
+        load: function (loadOptions) {
+            // Loading data objects
         },
-        byKey: function(key) {
-            return { id: key };
+        byKey: function (key) {
+            // Retrieving a data object by key
         }
     });
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        infiniteList: DataSource;
+        constructor() {
+            this.infiniteList = new DataSource({
+                load: (loadOptions) => {
+                    // Loading data objects
+                },
+                byKey: (key) => {
+                    // Retrieving a data object by key
+                }
+            });
+        }
+    }
+
+---
+
+[/note]
 <!--/fullDescription-->

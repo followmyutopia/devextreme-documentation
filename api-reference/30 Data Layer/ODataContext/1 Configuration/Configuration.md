@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes configuration options used to configure the ODataContext.
+This section describes the **ODataContext**'s configuration options.
 <!--/shortDescription-->
 
 <!--fullDescription-->

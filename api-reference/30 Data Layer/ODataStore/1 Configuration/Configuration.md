@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the configuration options used to configure the ODataStore.
+This section describes the **ODataStore**'s configuration options.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Invokes a WebGet [service operation](http://www.odata.org/documentation) that returns nothing. 
+Invokes an OData operation that returns nothing. 
 <!--/shortDescription-->
 
 <!--paramName1-->operationName<!--/paramName1-->
@@ -20,7 +20,8 @@ The operation's parameters.
 <!--paramName3-->httpMethod<!--/paramName3-->
 <!--paramType3-->Object<!--/paramType3-->
 <!--paramDescription3-->
-The HTTP method for this operation. "POST" by default.
+The HTTP method for this operation ("GET", "POST", "PATCH", or "MERGE").            
+"POST" by default.
 <!--/paramDescription3-->
 
 <!--returnType-->Promise<void><!--/returnType-->
@@ -29,6 +30,32 @@ A Promise that is resolved after the operation has completed. It is a [native Pr
 <!--/returnDescription-->
 
 <!--fullDescription-->
+---
+#####jQuery
+
+    <!--JavaScript-->
+    var context = new DevExpress.data.ODataContext({
+        // ODataContext is configured here
+    });
+    context.invoke("Add", { fieldName: "fieldValue" }, "POST");
+
+#####Angular
+
+    <!--TypeScript-->
+    import ODataContext from "devextreme/data/odata/context";
+    // ...
+    export class AppComponent {
+        context: ODataContext;
+        constructor() {
+            this.context = new ODataContext({
+                // ODataContext is configured here
+            });
+            this.context.invoke("Add", { fieldName: "fieldValue" }, "POST");
+        }
+    }
+
+---
+
 #####See Also#####
 - [Invoking Service Operations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Invoking_Service_Operations)
 <!--/fullDescription-->

@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the methods used to manipulate the **PivotGridDataSource** object.
+This section describes methods that control the **PivotGridDataSource**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

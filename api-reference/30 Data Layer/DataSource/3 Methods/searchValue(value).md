@@ -12,8 +12,44 @@ A new value.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-    <!--JavaScript-->
-    dataSource.searchValue("Jo");
+Call the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method to update the widget bound to the **DataSource**:
 
-For more information on searching, refer to the [Search Api section](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api) of the Data Layer article.
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var ds = new DevExpress.data.DataSource({
+        // DataSource is configured here
+    });
+
+    ds.searchExpr("firstName");
+    ds.searchOperation("contains");
+    ds.searchValue("Jo");
+
+    ds.load();
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        ds: DataSource;
+        constructor() {
+            this.ds = new DataSource({
+                // DataSource is configured here
+            });
+            
+            this.ds.searchExpr("firstName");
+            this.ds.searchOperation("contains");
+            this.ds.searchValue("Jo");
+
+            this.ds.load();
+        }
+    }
+
+---
+
+#####See Also#####
+- [Data Layer - Search API](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api)
 <!--/fullDescription-->

@@ -2,9 +2,37 @@
 ===================================================================
 
 <!--shortDescription-->
-Disposes of all resources associated with this PivotGridDataSource.
+Disposes of all the resources allocated to the **PivotGridDataSource** instance.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use this method only if you created the DataSource manually (not using a widget).
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
+
+    pivotGridDataSource.dispose();
+    
+##### Angular
+
+    <!--TypeScript-->
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    // ...
+    export class AppComponent {
+        pivotGridDataSource: PivotGridDataSource;
+        constructor() {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                // PivotGridDataSource is configured here
+            });
+
+            this.pivotGridDataSource.dispose();
+        }
+    }
+
+---
+
+[note] Do not call this method if the widget created the **PivotGridDataSource** instance.
 <!--/fullDescription-->

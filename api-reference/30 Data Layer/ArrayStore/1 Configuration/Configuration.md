@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes configuration options used to configure the ArrayStore.
+This section describes options that configure the **ArrayStore**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

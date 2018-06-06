@@ -27,13 +27,41 @@ A Promise that is resolved after the total item count is obtained. It is a [nati
 <!--/returnDescription-->
 
 <!--fullDescription-->
+---
+##### jQuery
+
     <!--JavaScript-->
-    myStore.totalCount(options)
-        .done(function(result) {
-            // 'result' contains the item count.
-        })
-        .fail(function(error) {
-            // handle error
-        });
+    var store = new DevExpress.data.{WidgetName}({
+        // {WidgetName} is configured here
+    });
+
+    store.totalCount()
+         .done(function (count) {
+             // Process the "count" here
+         })
+         .fail(function (error) {
+             // Handle the "error" here
+         });
+
+##### Angular
+
+    <!--TypeScript-->
+    import {WidgetName} from "devextreme/data/{widget_name}";
+    // ...
+    export class AppComponent {
+        store: {WidgetName};
+        constructor() {
+            this.store = new {WidgetName}({
+                // {WidgetName} is configured here
+            });
+            this.store.totalCount()
+                .then(
+                    (count) => { /* Process the "count" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                );
+        };
+    }
+    
+---
 
 <!--/fullDescription-->

@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the methods used to access the data associated with the ODataStore.
+This section describes the methods that control the **ODataStore**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

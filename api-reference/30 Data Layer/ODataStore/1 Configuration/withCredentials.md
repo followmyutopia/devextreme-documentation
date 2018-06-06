@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to send cookies and authorization headers to foreign domains in a cross-origin request.
+Specifies whether to send cookies, authorization headers, and client certificates in a cross-origin request. 
 <!--/shortDescription-->
 
 <!--fullDescription-->

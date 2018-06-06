@@ -4,9 +4,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-Allows an end-user to expand/collapse all header items within a header level.
+Specifies whether a user can expand/collapse all items within the same column or row header level using the context menu.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-With this option enabled, an end-user can right-click a header level and choose the corresponding context menu item to expand or collapse all header items within this level.
+#####See Also#####
+- [Grouping](/Documentation/Guide/Widgets/PivotGrid/Grouping/)
+- **fields[]**.[expanded](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#expanded)
+- [expandAll(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#collapseAllid) | [collapseAll(id)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#expandAllid)
+- [expandHeaderItem(area, path)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#expandHeaderItemarea_path) | [collapseHeaderItem(area, path)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#collapseHeaderItemarea_path)
 <!--/fullDescription-->

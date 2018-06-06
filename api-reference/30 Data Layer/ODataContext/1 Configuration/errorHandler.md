@@ -3,28 +3,39 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the function called if the ODataContext causes an error.
+Specifies a function that is executed when the **ODataContext** throws an error.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The function passed to this option takes on the JavaScript **Error** object as a parameter.
+This function accepts a JavaScript [Error](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error) object as the parameter.
+
+---
+#####jQuery
 
     <!--JavaScript-->
     var context = new DevExpress.data.ODataContext({
-        url: "http://www.example.com/Northwind.svc",
-        errorHandler: function(error) {
-            alert(error.message);
-        },
-        entities: {
-            Categories: {
-                key: "CategoryID",
-                keyType: "Int32"
-            },
-            MyCustomers: {
-                name: "Customers",
-                key: "CustomerID",
-                keyType: "String"
-            }
+        // ...
+        errorHandler: function (error) {
+            console.log(error.message);
         }
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    import ODataContext from "devextreme/data/odata/context";
+    // ...
+    export class AppComponent {
+        context: ODataContext;
+        constructor() {
+            this.context = new ODataContext({
+                // ...
+                errorHandler: function (error) {
+                    console.log(error.message);
+                }
+            })
+        }
+    }
+
+---
 <!--/fullDescription-->

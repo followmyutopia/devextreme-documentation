@@ -12,11 +12,5 @@ A new value; described in the [Getters and Setters](/Documentation/Guide/Data_La
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-    <!--JavaScript-->
-    dataSource.searchExpr("firstName");
-    dataSource.searchOperation("contains");
-    dataSource.searchValue("Jo");
 
-#####See Also#####
-- [Data Layer - Search API](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api)
 <!--/fullDescription-->

@@ -3,14 +3,14 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before a data item is removed.
+Raised before a data item is removed from the store.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To learn how to handle events, refer to the [Events and Change Tracking](/Documentation/Guide/Data_Layer/Data_Layer/#Events_and_Change_Tracking) topic.
+Main article: [onRemoving]({basewidgetpath}/Configuration/#onRemoving)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->key<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object|String|Number<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The key of the item to be removed.
+The key of the data item to be removed.
 <!--/typeFunctionParamDescription1-->

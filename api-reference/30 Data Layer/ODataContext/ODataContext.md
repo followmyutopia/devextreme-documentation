@@ -8,11 +8,14 @@ dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-Provides access to the entire [OData](http://www.odata.org) service.
+The **ODataContent** is an object that provides access to an entire OData service.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The ODataContext object creates several [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) instances inside. Each of these instances accesses a separate entity. To create an ODataContext instance, pass the configuration object to the ODataContext constructor. Specify the service URL and the list of entities you need to access.
+This object creates several [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) instances. Each instance accesses an individual entity collection.
+
+---
+##### jQuery  
 
     <!--JavaScript-->
     var context = new DevExpress.data.ODataContext({
@@ -22,22 +25,15 @@ The ODataContext object creates several [ODataStore](/Documentation/ApiReference
                 key: "CategoryID",
                 keyType: "Int32"
             },
-            MyCustomers: {
+            // An entity collection alias
+            Clients: {
                 name: "Customers",
                 key: "CustomerID",
                 keyType: "String"
-            }
-        }
-    });
-
-If you need to specify a composite key for an entity, assign an array of key expressions to the [key](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#key) option. In this case, the [keyType](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#keyType) option takes on an object providing corresponding properties for each key expression, as demonstrated in the following example.
-
-    <!--JavaScript-->
-    var context = new DevExpress.data.ODataContext({
-        url: "http://www.example.com/Northwind.svc",
-        entities: {
+            },
             Products: {
-                key: [ "ProductID", "ProductCode" ],
+                // A composite key
+                key: ["ProductID", "ProductCode"],
                 keyType: {
                     ProductID: "Guid",
                     ProductCode: "Int32" 
@@ -46,8 +42,103 @@ If you need to specify a composite key for an entity, assign an array of key exp
         }
     });
 
+##### Angular  
 
-The ODataContext object also includes the [get()](/Documentation/ApiReference/Data_Layer/ODataContext/Methods/#getoperationName_params) and [invoke()](/Documentation/ApiReference/Data_Layer/ODataContext/Methods/#invokeoperationName_params_httpMethod) methods used to invoke service operations, and the [objectLink()](/Documentation/ApiReference/Data_Layer/ODataContext/Methods/#objectLinkentityAlias_key) helper method to [link entities](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Data_Source_Examples_OData_Associations).
+    <!--TypeScript-->
+    import ODataContext from "devextreme/data/odata/context";
+    // ...
+    export class AppComponent {
+        context: ODataContext;
+        constructor () {
+            this.context = new ODataContext({
+                url: "http://www.example.com/Northwind.svc",
+                entities: {
+                    Categories: {
+                        key: "CategoryID",
+                        keyType: "Int32"
+                    },
+                    // An entity collection alias
+                    Clients: {
+                        name: "Customers",
+                        key: "CustomerID",
+                        keyType: "String"
+                    },
+                    Products: {
+                        // A composite key
+                        key: ["ProductID", "ProductCode"],
+                        keyType: {
+                            ProductID: "Guid",
+                            ProductCode: "Int32" 
+                        }
+                    }
+                }
+            });
+        }
+    }
 
-For more information on working with OData, refer to the [Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData) article.
+##### AngularJS  
+
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            $scope.context = new DevExpress.data.ODataContext({
+                url: "http://www.example.com/Northwind.svc",
+                entities: {
+                    Categories: {
+                        key: "CategoryID",
+                        keyType: "Int32"
+                    },
+                    // An entity collection alias
+                    Clients: {
+                        name: "Customers",
+                        key: "CustomerID",
+                        keyType: "String"
+                    },
+                    Products: {
+                        // A composite key
+                        key: ["ProductID", "ProductCode"],
+                        keyType: {
+                            ProductID: "Guid",
+                            ProductCode: "Int32" 
+                        }
+                    }
+                }
+            })
+        });
+
+##### Knockout  
+
+    <!--JavaScript-->  
+    var viewModel = {
+        context: new DevExpress.data.ODataContext({
+            url: "http://www.example.com/Northwind.svc",
+            entities: {
+                Categories: {
+                    key: "CategoryID",
+                    keyType: "Int32"
+                },
+                // An entity collection alias
+                Clients: {
+                    name: "Customers",
+                    key: "CustomerID",
+                    keyType: "String"
+                },
+                Products: {
+                    // A composite key
+                    key: ["ProductID", "ProductCode"],
+                    keyType: {
+                        ProductID: "Guid",
+                        ProductCode: "Int32" 
+                    }
+                }
+            }
+        })
+    };
+
+    ko.applyBindings(viewModel);
+
+---
+
+#####See Also#####
+- [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
 <!--/fullDescription-->

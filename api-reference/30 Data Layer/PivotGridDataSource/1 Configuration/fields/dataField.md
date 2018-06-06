@@ -4,9 +4,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Name of the data source field containing data for the pivot grid field.
+Specifies which data source field provides data for the pivot grid field.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/)
 <!--/fullDescription-->

@@ -4,22 +4,102 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the function that determines how to split data from the data source into ranges for header items. Cannot be used for the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) store type and along with [remote operations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations).
+Specifies a function that combines the field's values into groups for the [headers](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers). Cannot be used with an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) or [remote operations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a callback function for this option, you can access the value of a field using the object passed as the function's parameter. This function must return the range name according to the data value passed into it. 
+This function is an alternative to the [groupInterval](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#groupInterval) option and should return a group name that corresponds to a data object. The function's parameter represents this data object. For example, the **selector** function in the following code groups birth dates by decades:
 
-The following code implements a selector function that groups the birth dates by decades.
+---
+##### jQuery
 
-    <!--JavaScript-->function (data) {
-        return Math.floor(data.birthdate.getFullYear() / 10) * 10 
-    }
-
-Another example: the following function divides values into *"> 1000"* and *"< 1000"* groups against a threshold value of 1000.
-
-    <!--JavaScript-->function (data) {
-        return data.amount > 1000 ? '> 1000' : '< 1000'
-    }
+    <!--JavaScript-->
+    $(function() {
+        var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+            // ...
+            fields: [{
+                caption: "Birth Decade",
+                area: "column",
+                selector: function (data) {
+                    var birthDate = new Date(data.birthDate);
+                    return Math.floor(birthDate.getFullYear() / 10) * 10;
+                }
+            }]
+        });
+    });
     
+##### Angular
+
+    <!--TypeScript-->
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    // ...
+    export class AppComponent {
+        pivotGridDataSource: PivotGridDataSource;
+        constructor() {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                // ...
+                fields: [{
+                    caption: "Birth Decade",
+                    area: "column",
+                    selector: function (data) {
+                        let birthDate = new Date(data.birthDate);
+                        return Math.floor(birthDate.getFullYear() / 10) * 10;
+                    }
+                }]
+            });
+        }
+    }
+
+---
+
+Another example: a **selector** that places values below and over 1000 into different groups:
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+            // ...
+            fields: [{
+                caption: "Amount",
+                area: "column",
+                selector: function (data) {
+                    return data.amount > 1000 ? "> 1000" : "< 1000"
+                }
+            }]
+        });
+    });
+    
+##### Angular
+
+    <!--TypeScript-->
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    // ...
+    export class AppComponent {
+        pivotGridDataSource: PivotGridDataSource;
+        constructor() {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                // ...
+                fields: [{
+                    caption: "Amount",
+                    area: "column",
+                    selector: function (data) {
+                        return data.amount > 1000 ? "> 1000" : "< 1000"
+                    }
+                }]
+            });
+        }
+    }
+
+---
+
+[note] The **selector** function cannot be used with [remote operations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations). Instead, create a calculated data field on the server and [bind a pivot grid field to it](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField).
+
+#include uiwidgets-ref-functioncontext with { 
+    value: "field's configuration"
+}
+
+#####See Also#####
+- [Data Grouping](/Documentation/Guide/Widgets/PivotGrid/Grouping/#Data_Grouping)
 <!--/fullDescription-->

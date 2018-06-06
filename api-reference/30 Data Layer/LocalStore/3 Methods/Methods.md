@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the methods used to access the data associated with the Store.
+This section describes methods that control the **LocalStore**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

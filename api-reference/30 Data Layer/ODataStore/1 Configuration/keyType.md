@@ -8,33 +8,41 @@ Specifies the type of the key property or properties.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If a key expression is a simple [getter](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters), the **keyType** option takes on a string value.
+Set this option if you do not need to [filter data](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). Otherwise, use the [fieldTypes](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#fieldTypes) option. In the following code, the `Product_ID` and `Product_Code` key properties are `Guid` and `Int32`, respectively:
+
+---
+#####jQuery
 
     <!--JavaScript-->
     var store = new DevExpress.data.ODataStore({
-        url: "/url/to/service",
-        key: "ProductID",
-        keyType: "Guid"
-    });
-
-If you specified a composite key, the **keyType** option should apply an object providing corresponding properties for each key expression, as demonstrated in the following example:
-
-    <!--JavaScript-->
-    var context = new DevExpress.data.ODataContext({
-        url: "http://www.example.com/Northwind.svc",
-        entities: {
-            Products: {
-                key: [ "ProductID", "ProductCode" ],
-                keyType: {
-                    ProductID: "Guid",
-                    ProductCode: "Int32"
-                }
-            }
+        url: "https://js.devexpress.com/Demos/DevAV/odata/Products",
+        key: [ "Product_ID", "Product_Code" ],
+        keyType: {
+            Product_ID: "Guid",
+            Product_Code: "Int32"
         }
     });
 
-When specifying this option in an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), use the `EdmType` enum that has the following values: `Int32`, `Int64`, `Guid`, `String`, `Boolean`, `Single` and `Decimal`.
+#####Angular
 
-#####See Also#####
-- [fieldTypes](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#fieldTypes)
+    <!--TypeScript-->
+    import ODataStore from "devextreme/data/odata/store";
+    // ...
+    export class AppComponent {
+        store: ODataStore;
+        constructor() {
+            this.store = new ODataStore({
+                url: "https://js.devexpress.com/Demos/DevAV/odata/Products",
+                key: [ "Product_ID", "Product_Code" ],
+                keyType: {
+                    Product_ID: "Guid",
+                    Product_Code: "Int32"
+                }
+            });
+        };
+    }
+
+---
+
+When specifying this option in an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), use the `EdmType` enum that has the following values: `Int32`, `Int64`, `Guid`, `String`, `Boolean`, `Single` and `Decimal`.
 <!--/fullDescription-->

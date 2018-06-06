@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets a [Guid](/Documentation/ApiReference/Data_Layer/Guid/) converted to a string.
+Gets the GUID. Works identically to the [valueOf()](/Documentation/ApiReference/Data_Layer/Guid/Methods/#valueOf) method.
 <!--/shortDescription-->
 
 <!--returnType-->String<!--/returnType-->
@@ -11,5 +11,26 @@ The GUID.
 <!--/returnDescription-->
 
 <!--fullDescription-->
+The returned GUID is always hyphened even if the **Guid** was created with a non-hyphened version:
 
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var guid = new DevExpress.data.Guid("40810dcce08b10a28227c67c8933c31a");
+    console.log(guid.toString()); // logs 40810dcc-e08b-10a2-8227-c67c8933c31a
+
+##### Angular
+
+    <!--TypeScript-->
+    import Guid from "devextreme/core/guid";
+    // ...
+    export class AppComponent {
+        constructor() {
+            let guid = new Guid("40810dcce08b10a28227c67c8933c31a");
+            console.log(guid.toString()); // logs 40810dcc-e08b-10a2-8227-c67c8933c31a
+        }
+    }
+
+---
 <!--/fullDescription-->

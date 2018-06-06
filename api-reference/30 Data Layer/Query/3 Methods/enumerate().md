@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Executes the [Query](/Documentation/ApiReference/Data_Layer/Query/).
+Executes the **Query**. This is an asynchronous alternative to the [toArray()](/Documentation/ApiReference/Data_Layer/Query/Methods/#toArray) method.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<any><!--/returnType-->
@@ -11,12 +11,30 @@ A Promise that is resolved after the operation is completed. It is a [native Pro
 <!--/returnDescription-->
 
 <!--fullDescription-->
+---
+##### jQuery
+
     <!--JavaScript-->
-    DevExpress.data.query("http://www.example.com/service.url", queryOptions)
+    DevExpress.data.query("http://mydomain.com/MyDataService", queryOptions)
         .enumerate()
-        .done(function(result) {
-            // 'result' holds the got array
+        .done(function (result) {
+            // "result" contains the obtained array
         });
 
-This method is an alternate to the [toArray()](/Documentation/ApiReference/Data_Layer/Query/Methods/#toArray) method. The same result, but different form.
+##### Angular
+
+    <!--TypeScript-->
+    import Query from "devextreme/data/query";
+    // ...
+    export class AppComponent {
+        constructor () {
+            Query("http://mydomain.com/MyDataService", queryOptions)
+                .enumerate()
+                .then(result => {
+                    // "result" contains the obtained array
+                });
+        };
+    }
+
+---
 <!--/fullDescription-->

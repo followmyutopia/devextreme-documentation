@@ -3,9 +3,22 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not the DataSource instance requests the total count of items available in the storage.
+Specifies whether the **DataSource** requests the total count of data items in the storage.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If this option is set to **true**, the callback of the **Promise** returned by the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method will hold the **extra** argument containing the **totalCount**, which holds the total count of data source items.
+If this option is set to **true**, the Promise that the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method returns is resolved with a second argument that contains the **totalCount** field:
+
+    <!--JavaScript-->
+    var ds = new DevExpress.data.DataSource({
+        // ...
+        requireTotalCount: true
+    });
+
+    ds.load()
+        .done(function (data, extra) {
+            // "data" contains the loaded data
+            // "extra" contains the "totalCount" field
+        });
+
 <!--/fullDescription-->

@@ -8,7 +8,7 @@ Calculates a custom summary for all data items.
 <!--paramName1-->step<!--/paramName1-->
 <!--paramType1-->function()<!--/paramType1-->
 <!--paramDescription1-->
-A function called for each item.
+A function that is called for each item.
 <!--/paramDescription1-->
 
 <!--returnType-->Promise<any><!--/returnType-->
@@ -17,23 +17,44 @@ A Promise that is resolved after the operation is completed. It is a [native Pro
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The **step** function takes on two arguments. The first argument is an accumulator value changed on each **step** function execution. The **step** function should return the updated value of this argument. 
+This is a shortcut for the [aggregate(seed, step, finalize)](/Documentation/ApiReference/Data_Layer/Query/Methods/#aggregateseed_step_finalize) method. It omits the **seed** and **finalize** parameters: instead of the **seed** value, the accumulator value is initialized with the first item's value; the **finalize** parameter's omission means that the calculation result is the accumulator value after the last **step** function's execution.
 
-[note] The accumulator value is initialized to the value of the first item. Therefore, the step function is called only for the second item, and subsequent items.
-
-The following example demonstrates how to calculate the total value for the Query items. Suppose that each item of the Query is an object providing the **price** numeric property, among other properties.
+---
+##### jQuery
 
     <!--JavaScript-->
-    var total = 0;
-    DevExpress.data.query(inputArray)
-        .aggregate(
-            function(total, itemData) {
-                total += itemData;
-            }
-        )
-        .done(function(result) {
-            // 'result' holds the desired value
+    var step = function (total, itemData) {
+        // "total" is an accumulator value that should be changed on each iteration
+        // "itemData" is the item to which the function is being applied
+        return total + itemData;
+    };
+
+    DevExpress.data.query([10, 20, 30, 40, 50])
+        .aggregate(step)
+        .done(function (result) {
+            console.log(result); // outputs 150
         });
 
-The total value calculation is a demonstrative example of this function's usage. However, note that this functionality is already implemented in the [sum()](/Documentation/ApiReference/Data_Layer/Query/Methods/#sum) and [sum(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#sumgetter) methods.
+##### Angular
+
+    <!--TypeScript-->
+    import Query from "devextreme/data/query";
+    // ...
+    export class AppComponent {
+        constructor () {
+            let step = (total, itemData) => {
+                // "total" is an accumulator value that should be changed on each iteration
+                // "itemData" is the item to which the function is being applied
+                return total + itemData;
+            };
+
+            Query([10, 20, 30, 40, 50])
+                .aggregate(step)
+                .then(result => {
+                    console.log(result); // outputs 150
+                });
+        };
+    }
+
+---
 <!--/fullDescription-->

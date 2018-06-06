@@ -5,26 +5,33 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies how to aggregate field data. Cannot be used for the [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/) store type.
+Specifies how to aggregate the field's data. Cannot be used with an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The following list gives an overview of available summary types.
+The summary type defines how to calculate the summary values that are displayed in the pivot grid's cells. The calculation is performed on a subset of [facts](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Summary_Values) that correspond to each field value in three areas (column, row, and filter).
+
+The following list describes available summary types:
 
 - *"sum"*        
-Sums up all [facts](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Summary_Values) within an area.
+Calculates the sum of all fact values.
+
 - *"min"*        
-Calculates the minimum [fact](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Summary_Values)'s value.
+Calculates the minimum fact value.
+
 - *"max"*        
-Calculates the maximum [fact](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Summary_Values)'s value.
+Calculates the maximum fact value.
+
 - *"avg"*        
-Calculates the average of all [facts](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Summary_Values) within an area.
+Calculates the average of all fact values.
+
 - *"count"*        
-Calculates the number of [facts](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Summary_Values) within an area.
+Calculates the number of facts.
+
 - *"custom"*    
-Allows you to specify a custom aggregate function using the [calculateCustomSummary](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#calculateCustomSummary) option.
+Applies a custom aggregate function specified in the [calculateCustomSummary](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#calculateCustomSummary) option.
 
-You can allow the user to change the summary type at runtime. Learn how to implement this capability from the [Runtime Summary Type Selection](/Documentation/Guide/Widgets/PivotGrid/Summaries/#Runtime_Summary_Type_Selection) topic.
+You can implement the capability to select the summary type at runtime using instructions from the [Runtime Summary Type Selection](/Documentation/Guide/Widgets/PivotGrid/Summaries/#Runtime_Summary_Type_Selection) article.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SummaryType` enum. This enum accepts the following values: `Sum`, `Min`, `Max`, `Avg`, `Count` and `Custom`.
+When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SummaryType` enum. This enum accepts the following values: `Sum`, `Min`, `Max`, `Avg`, `Count`, and `Custom`.
 <!--/fullDescription-->

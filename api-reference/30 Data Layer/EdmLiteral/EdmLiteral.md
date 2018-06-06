@@ -8,9 +8,10 @@ dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-An object used to work with [primitive data types](http://www.odata.org/documentation/odata-version-2-0/overview/#AbstractTypeSystem) not supported by JavaScript when accessing an [OData](http://www.odata.org) web service.
+The **EdmLiteral** is an object for working with primitive data types from the OData's [Abstract Type System](http://www.odata.org/documentation/odata-version-2-0/overview/#AbstractTypeSystem) that are not supported in JavaScript.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For more information on working with OData, refer to the [Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData) article.
+#####See Also#####
+- [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
 <!--/fullDescription-->

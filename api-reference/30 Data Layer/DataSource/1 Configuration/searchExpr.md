@@ -9,11 +9,31 @@ Specifies the fields to search.
 <!--fullDescription-->
 In most cases, you should pass the name of a field by whose value data items are searched. Assign an array of field names to this option if you need to search elements by several field values.
 
+---
+##### jQuery
+
     <!--JavaScript-->
-    var dataSource = new DevExpress.data.DataSource({
-        store: myStore,
+    var ds = new DevExpress.data.DataSource({
+        // ...
         searchExpr: ["firstName", "lastName"]
     });
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        ds: DataSource;
+        constructor() {
+            this.ds = new DataSource({
+                // ...
+                searchExpr: ["firstName", "lastName"]
+            });
+        }
+    }
+
+---
 
 You can use this option along with [searchOperation](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchOperation) and [searchValue](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchValue) to specify a simple filter. Use the [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option for more complex filtering conditions. Filters are combined if you specify them in both ways.
 

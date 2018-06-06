@@ -9,38 +9,148 @@ dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-A [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) accessing an in-memory array.
+The **ArrayStore** is a store that provides an interface for loading and editing an in-memory array and handling related events.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To associate an array with the **ArrayStore**, pass this array to the `ArrayStore` constructor.
+---
+##### jQuery  
 
     <!--JavaScript-->
-    var store = new DevExpress.data.ArrayStore(array);
+    var states = [
+        { id: 1, state: "Alabama", capital: "Montgomery" },
+        { id: 2, state: "Alaska", capital: "Juneau" },
+        { id: 3, state: "Arizona", capital: "Phoenix" },
+        // ...
+    ];
 
-If you need to specify configuration options of the **ArrayStore** other than data, pass an object to the `ArrayStore` constructor.
-
-    <!--JavaScript-->
     var store = new DevExpress.data.ArrayStore({
-        data: array,
         key: "id",
-        onModified: function() {
-            // 'modified' event handler
-        },
-        errorHandler: function(error) {
-            // Error handler
-        }
+        data: states,
+        // Other ArrayStore options go here
     });
 
-Note, that the [key](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#key) option is required if you are going to use the **ArrayStore** for read-write access to data.
+    // ===== or a simplified version =====
+    var store = new DevExpress.data.ArrayStore(states);
 
-#####See Also#####
-- [DataSource Examples - In-memory Data](/Documentation/Guide/Data_Layer/Data_Source_Examples/#In-memory_Data)
+    // ===== or inside the DataSource =====
+    var dataSource = new DevExpress.data.DataSource({
+        store: {
+            type: "array",
+            key: "id",
+            data: states,
+            // Other ArrayStore options go here
+        },
+        // Other DataSource options go here
+    });
 
-When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the **ArrayStore** using the syntax shown in the following example. This example configures the [SelectBox](/Documentation/ApiReference/UI_Widgets/dxSelectBox/) widget.
+##### Angular  
 
-    <!--Razor C#-->@(Html.DevExtreme().SelectBox()
-        .ID("selectBox")
+    <!--TypeScript-->
+    import ArrayStore from "devextreme/data/array_store";
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        store: ArrayStore;
+        dataSource: DataSource;
+        states = [
+            { id: 1, state: "Alabama", capital: "Montgomery" },
+            { id: 2, state: "Alaska", capital: "Juneau" },
+            { id: 3, state: "Arizona", capital: "Phoenix" },
+            // ...
+        ];
+        constructor () {
+            this.store = new ArrayStore({
+                key: "id",
+                data: this.states,
+                // Other ArrayStore options go here
+            });
+
+            // ===== or a simplified version =====
+            this.store = new ArrayStore(this.states);
+
+            // ===== or inside the DataSource =====
+            this.dataSource = new DataSource({
+                store: new ArrayStore({
+                    key: "id",
+                    data: this.states,
+                    // Other ArrayStore options go here
+                }),
+                // Other DataSource options go here
+            });
+        }
+    }
+
+##### AngularJS  
+
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function DemoController($scope) {
+            var states = [
+                { id: 1, state: "Alabama", capital: "Montgomery" },
+                { id: 2, state: "Alaska", capital: "Juneau" },
+                { id: 3, state: "Arizona", capital: "Phoenix" },
+                // ...
+            ];
+            $scope.store = new DevExpress.data.ArrayStore({
+                key: "id",
+                data: states,
+                // Other ArrayStore options go here
+            });
+
+            // ===== or a simplified version =====
+            $scope.store = new DevExpress.data.ArrayStore(states);
+
+            // ===== or inside the DataSource =====
+            $scope.dataSource = new DevExpress.data.DataSource({
+                store: {
+                    type: "array",
+                    key: "id",
+                    data: states,
+                    // Other ArrayStore options go here
+                },
+                // Other DataSource options go here
+            });
+        });
+
+##### Knockout  
+
+    <!--JavaScript-->
+    var states = [
+        { id: 1, state: "Alabama", capital: "Montgomery" },
+        { id: 2, state: "Alaska", capital: "Juneau" },
+        { id: 3, state: "Arizona", capital: "Phoenix" },
+        // ...
+    ];
+    
+    var viewModel = {
+        store: new DevExpress.data.ArrayStore({
+            key: "id",
+            data: states,
+            // Other ArrayStore options go here
+        })
+
+        // ===== or a simplified version =====
+        store: new DevExpress.data.ArrayStore(states)
+
+        // ===== or inside the DataSource =====
+        dataSource: new DevExpress.data.DataSource({
+            store: {
+                type: "array",
+                key: "id",
+                data: states,
+                // Other ArrayStore options go here
+            },
+            // Other DataSource options go here
+        })
+    };
+
+    ko.applyBindings(viewModel);
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().WidgetName()
         .DataSource(ds => ds.Array()
             .Key("id")
             .Data(new[] {
@@ -50,24 +160,18 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
                 // ...
             })
         )
-        .DisplayExpr("state")
-        .ValueExpr("id")
     )
     @* ===== or a simplified version ===== *@
-    @(Html.DevExtreme().SelectBox()
-        .ID("selectBox")
+    @(Html.DevExtreme().WidgetName()
         .DataSource(new[] {
             new { id = 1, state = "Alabama", capital = "Montgomery" },
             new { id = 2, state = "Alaska", capital = "Juneau" },
             new { id = 3, state = "Arizona", capital = "Phoenix" },
             // ...
         }, "id")
-        .DisplayExpr("state")
-        .ValueExpr("id")
     )
 
-    <!--Razor VB-->@(Html.DevExtreme().SelectBox() _
-        .ID("selectBox") _
+    <!--Razor VB-->@(Html.DevExtreme().WidgetName() _
         .DataSource(Function(ds)
             Return ds.Array() _
                      .Key("id") _
@@ -76,19 +180,20 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
                          New With { .id = 2, .state = "Alaska", .capital = "Juneau" },
                          New With { .id = 3, .state = "Arizona", .capital = "Phoenix" }
                      })
-        End Function) _
-        .DisplayExpr("state") _
-        .ValueExpr("id")
+        End Function)
     )
     @* ===== or a simplified version ===== *@
-    @(Html.DevExtreme().SelectBox() _
-        .ID("selectBox") _
+    @(Html.DevExtreme().WidgetName() _
         .DataSource({
             New With { .id = 1, .state = "Alabama", .capital = "Montgomery" },
             New With { .id = 2, .state = "Alaska", .capital = "Juneau" },
             New With { .id = 3, .state = "Arizona", .capital = "Phoenix" }
-        }, "id") _
-        .DisplayExpr("state") _
-        .ValueExpr("id")
+        }, "id")
     )
+
+---
+
+#####See Also#####
+- [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
+- [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)
 <!--/fullDescription-->

@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the type of the store used to access data.
+Specifies the **PivotGridDataSource**'s storage type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The option can take on one of the following values.
+This option accepts one of the following values:
 
 - "array"  
  Creates an [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/).
@@ -19,12 +19,10 @@ The option can take on one of the following values.
 - "odata"  
  Creates an [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
 
-- "breeze"  
- Creates a **BreezeStore**. This value requires the [Breeze extension](https://github.com/DevExpress/PhoneJS-DataLayerExtensions/tree/master/breeze).
-
-- "jaydata"  
- Creates a **JayDataStore**. This value requires the [JayData extension](https://github.com/DevExpress/PhoneJS-DataLayerExtensions/tree/master/jayData).
-
 - "xmla"  
  Creates an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
+
+Each store has options that are detailed in the links above. Declare these options in the **store** object.
+
+You can also implement custom data access logic as described in the [Use CustomStore](/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/) topic.
 <!--/fullDescription-->

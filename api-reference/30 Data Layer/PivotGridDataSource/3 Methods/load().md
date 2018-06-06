@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Starts updating the data source. Reloads data from the [XMLA](/Documentation/ApiReference/Data_Layer/XmlaStore/) [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/) only.
+Starts loading data.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<any><!--/returnType-->
@@ -11,17 +11,43 @@ A Promise that is resolved after data is loaded. It is a [native Promise](https:
 <!--/returnDescription-->
 
 <!--fullDescription-->
-Use this method to update the pivot grid after making changes in the data source, for example after editing a field using the [field(id, options)](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#fieldid_options) method.
+---
+##### jQuery
 
-Use the following code to access loaded data.
+    <!--JavaScript-->
+    var pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
+        // PivotGridDataSource is configured here
+    });
 
-    <!--JavaScript-->    dataSource.load()
-        .done(function(result) {
-            // 'result' contains the loaded data
+    pivotGridDataSource.load()
+        .done(function (data) {
+            // Process "data" here
         })
-        .fail(function(error) {
-            // handle error
+        .fail(function (error) {
+            // Handle the "error" here
         });
 
-[note] If you need to fully reload data from a [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/) that differs from XMLA, use the [reload()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#reload) method.
+##### Angular
+
+    <!--TypeScript-->
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
+    // ...
+    export class AppComponent {
+        pivotGridDataSource: PivotGridDataSource;
+        constructor() {
+            this.pivotGridDataSource = new PivotGridDataSource({
+                // PivotGridDataSource is configured here
+            });
+            this.pivotGridDataSource.load()
+                .then(
+                    (data) => { /* Process "data" here */ },
+                    (error) => { /* Handle the "error" here */ }
+                )
+        }
+    }
+
+---
+
+#####See Also#####
+- [reload()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload)
 <!--/fullDescription-->

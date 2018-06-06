@@ -7,19 +7,23 @@ Cancels the load operation with a specific identifier.
 
 <!--returnType-->Boolean<!--/returnType-->
 <!--returnDescription-->
-**true** if operation is canceled; **false** if it was not found.
+**true** if the operation was canceled; **false** if it was not found.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-You can access the load operation identifier using the **operationId** field extending the Promise object returned by the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) or [reload()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload) method.
+You can access the operation identifier using the **operationId** field that extends the Promise object returned from the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) and [reload()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#reload) methods.
 
     <!--JavaScript-->
-    var loadPromise = dataSource.load();
-    loadPromise.done(function(result) {
-        . . .
+    var ds = new DevExpress.data.DataSource({
+        // DataSource is configured here
     });
-    . . .
-    dataSource.cancel(loadPromise.operationId);
 
-[note]The **cancel(operationId)** method does not interrupt the HTTP request.
+    var loadPromise = ds.load();
+    loadPromise.done(function (result) {
+        // ...
+    });
+
+    ds.cancel(loadPromise.operationId);
+
+[note] Calling this method does not interrupt the HTTP request.
 <!--/fullDescription-->

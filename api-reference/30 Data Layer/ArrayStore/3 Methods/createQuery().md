@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Creates the [Query](/Documentation/ApiReference/Data_Layer/Query/) object for the underlying array.
+Creates a **Query** for the underlying array.
 <!--/shortDescription-->
 
 <!--returnType-->Object<!--/returnType-->
@@ -11,10 +11,35 @@ The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-This method is used internally by the [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/), but you can also use it for advanced queries.
+---
+##### jQuery
 
     <!--JavaScript-->
-    var query = myStore.createQuery();
+    var store = new DevExpress.data.ArrayStore({
+        // ArrayStore is configured here
+    });
 
-For more information on Queries, refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept) article.
+    var query = store.createQuery();
+
+##### Angular
+
+    <!--TypeScript-->
+    import ArrayStore from "devextreme/data/array_store";
+    import DevExpress from "devextreme/bundles/dx.all";
+    // ...
+    export class AppComponent {
+        store: ArrayStore;
+        query: DevExpress.data.Query;
+        constructor() {
+            this.store = new ArrayStore({
+                // ArrayStore is configured here
+            });
+            this.query = this.store.createQuery();
+        }
+    }
+
+---
+
+#####See Also#####
+- [Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
 <!--/fullDescription-->

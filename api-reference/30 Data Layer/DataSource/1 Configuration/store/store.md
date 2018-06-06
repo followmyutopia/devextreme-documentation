@@ -3,9 +3,65 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the underlying [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) instance used to access data.
+Configures the store underlying the **DataSource**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can assign a Store instance or an array to this option. If you assign an array to the **store** option, the [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/) will automatically be created within the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
+This option accepts one of the following:
+
+* **Store instance**            
+An [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/), [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/), [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/), or [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) instance.
+
+* **Store configuration object**        
+An **ArrayStore**, **LocalStore**, or **ODataStore** configuration object. Make sure to set the [type](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/store/#type) option.
+
+* **Array**         
+Assigning an array to the **store** option automatically creates an **ArrayStore** in the **DataSource**.
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    var ds = new DevExpress.data.DataSource({
+        store: new DevExpress.data.ArrayStore({
+            // ArrayStore instance
+        })
+        // ===== or =====
+        store: {
+            type: "array",
+            // ArrayStore configuration object
+        }
+        // ===== or =====
+        store: [
+            { id: 1, name: "John Doe" }
+        ]
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import DataSource from "devextreme/data/data_source";
+    import ArrayStore from "devextreme/data/array_store";
+    // ...
+    export class AppComponent {
+        ds: DataSource;
+        constructor() {
+            this.ds = new DataSource({
+                store: new ArrayStore({
+                    // ArrayStore instance
+                })
+                // ===== or =====
+                store: {
+                    type: "array",
+                    // ArrayStore configuration object
+                }
+                // ===== or =====
+                store: [
+                    { id: 1, name: "John Doe" }
+                ]
+            });
+        }
+    }
+    
+---
 <!--/fullDescription-->

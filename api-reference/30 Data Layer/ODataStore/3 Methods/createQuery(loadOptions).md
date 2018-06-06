@@ -2,13 +2,13 @@
 ===================================================================
 
 <!--shortDescription-->
-Creates a **Query** object for the OData endpoint.
+Creates a **Query** for the OData endpoint.
 <!--/shortDescription-->
 
 <!--paramName1-->loadOptions<!--/paramName1-->
 <!--paramType1-->Object<!--/paramType1-->
 <!--paramDescription1-->
-The **Query** configuration.
+An object containing the [expand](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#expand), [requireTotalCount](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireTotalCount), and [customQueryParams](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#customQueryParams) properties.
 <!--/paramDescription1-->
 
 <!--returnType-->Object<!--/returnType-->
@@ -17,10 +17,33 @@ The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-This method is used internally by the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/), but you can also use it for advanced queries.
+
+---
+#####jQuery
 
     <!--JavaScript-->
-    var query = myStore.createQuery();
+    var store = new DevExpress.data.ODataStore({
+        // ODataStore is configured here
+    });
+    var query = store.createQuery({ expand: "propertyName" });
 
-For more information on Queries, refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept) article. See also the [query(url, queryOptions) utility method](/Documentation/ApiReference/Data_Layer/Utils/#queryurl_queryOptions) description.
+#####Angular
+
+    <!--TypeScript-->
+    import ODataStore from "devextreme/data/odata/store";
+    // ...
+    export class AppComponent {
+        store: ODataStore;
+        constructor() {
+            this.store = new ODataStore({
+                // ODataStore is configured here
+            });
+            this.store.createQuery({ expand: "propertyName" });
+        };
+    }
+
+---
+
+#####See Also#####
+- [Query Concept](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Concept)
 <!--/fullDescription-->

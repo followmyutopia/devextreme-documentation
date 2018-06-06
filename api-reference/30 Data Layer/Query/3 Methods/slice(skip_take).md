@@ -2,29 +2,75 @@
 ===================================================================
 
 <!--shortDescription-->
-Limits the number of data items.
+Gets a specified number of data items starting from a given index.
 <!--/shortDescription-->
 
 <!--paramName1-->skip<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-The number of items to be skipped.
+The index of the first data item to get.
 <!--/paramDescription1-->
 
 <!--paramName2-->take<!--/paramName2-->
 <!--paramType2-->Number|undefined<!--/paramType2-->
 <!--paramDescription2-->
-Optional. The number of items to pick out. 
+Optional. The number of data items to get.
 <!--/paramDescription2-->
 
 <!--returnType-->Query<!--/returnType-->
 <!--returnDescription-->
-The [Query](/Documentation/ApiReference/Data_Layer/Query/) object.
+The **Query** with transformed data.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The following example demonstrates how to pick 5 to 15 items from the Query.
+---
+##### jQuery
 
     <!--JavaScript-->
-    var data = DevExpress.data.query(inputArray).slice(5, 10).toArray();
+    var dataObjects = [
+        { name: "Amelia", birthYear: 1991, gender: "female" },
+        { name: "Benjamin", birthYear: 1983, gender: "male" },
+        { name: "Daniela", birthYear: 1987, gender: "female" },
+        { name: "Lee", birthYear: 1981, gender: "male" }
+    ];
+
+    var subset = DevExpress.data.query(dataObjects)
+        .slice(1, 2)
+        .toArray();
+
+    console.log(subset);
+    /* outputs
+    [
+        { name: "Benjamin", birthYear: 1983, gender: "male" },
+        { name: "Daniela", birthYear: 1987, gender: "female" }
+    ] */
+
+##### Angular
+
+    <!--TypeScript-->
+    import Query from "devextreme/data/query";
+    // ...
+    export class AppComponent {
+        constructor () {
+            let dataObjects = [
+                { name: "Amelia", birthYear: 1991, gender: "female" },
+                { name: "Benjamin", birthYear: 1983, gender: "male" },
+                { name: "Daniela", birthYear: 1987, gender: "female" },
+                { name: "Lee", birthYear: 1981, gender: "male" }
+            ];
+
+            let subset = Query(dataObjects)
+                .slice(1, 2)
+                .toArray();
+
+            console.log(subset);
+            /* outputs
+            [
+                { name: "Benjamin", birthYear: 1983, gender: "male" },
+                { name: "Daniela", birthYear: 1987, gender: "female" }
+            ] */
+        };
+    }
+
+---
 <!--/fullDescription-->

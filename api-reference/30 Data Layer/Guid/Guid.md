@@ -8,9 +8,10 @@ dx.mobile.js, dx.web.js, dx.viz.js, dx.viz-web.js, dx.all.js
 ===========================================================================
 
 <!--shortDescription-->
-An object used to generate and hold the GUID.
+The **Guid** is an object used to generate and contain a GUID.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-For more information on using the Guid object refer to the [Data Source Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Data_Source_Examples_OData_GUIDs) article.
+#####See Also#####
+- [DataSource Examples - GUIDs](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/GUIDs)
 <!--/fullDescription-->

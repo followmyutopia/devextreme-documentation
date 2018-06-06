@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-An object defining configuration options for the Store.
+This section describes the **{WidgetName}**'s configuration options.
 <!--/shortDescription-->
 
 <!--fullDescription-->
