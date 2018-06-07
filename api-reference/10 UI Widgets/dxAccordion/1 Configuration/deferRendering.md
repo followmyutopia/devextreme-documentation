@@ -4,11 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether widget content is rendered when the widget is shown or when rendering the widget.
+Specifies whether to render the panel's content when it is displayed. If **false**, the content is rendered immediately.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If this option is set to **true**, widget content is rendered when showing the widget. Otherwise, widget content is rendered when rendering the widget.
-
 
 <!--/fullDescription-->
