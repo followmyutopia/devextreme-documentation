@@ -799,10 +799,6 @@
       }
     },
 
-    "dxExporter": {
-      "$Widget": "dxExporter"
-    },
-
     "dxFunnel": {
       "$Widget": "dxFunnel",
 
