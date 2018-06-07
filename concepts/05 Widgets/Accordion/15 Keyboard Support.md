@@ -57,12 +57,12 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
+    import { ..., ViewChild, AfterViewInit } from '@angular/core';
     import { DxAccordionModule, DxAccordionComponent } from 'devextreme-angular';
     // ...
-    export class AppComponent {
+    export class AppComponent implements AfterViewInit {
         @ViewChild(DxAccordionComponent) accordion: DxAccordionComponent
-        registerKeyHandlers () {
+        ngAfterViewInit () {
             this.accordion.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event
             });

@@ -41,12 +41,12 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
+    import { ..., ViewChild, AfterViewInit } from '@angular/core';
     import { DxNavBarModule, DxNavBarComponent } from 'devextreme-angular';
     // ...
-    export class AppComponent {
+    export class AppComponent implements AfterViewInit {
         @ViewChild(DxNavBarComponent) navBar: DxNavBarComponent
-        registerKeyHandlers () {
+        ngAfterViewInit () {
             this.navBar.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event
             });

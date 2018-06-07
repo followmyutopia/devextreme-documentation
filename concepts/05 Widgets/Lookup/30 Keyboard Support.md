@@ -53,12 +53,12 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
+    import { ..., ViewChild, AfterViewInit } from '@angular/core';
     import { DxLookupModule, DxLookupComponent } from 'devextreme-angular';
     // ...
-    export class AppComponent {
+    export class AppComponent implements AfterViewInit {
         @ViewChild(DxLookupComponent) lookup: DxLookupComponent
-        registerKeyHandlers () {
+        ngAfterViewInit () {
             this.lookup.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event
             });

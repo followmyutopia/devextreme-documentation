@@ -49,12 +49,12 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
+    import { ..., ViewChild, AfterViewInit } from '@angular/core';
     import { DxCalendarModule, DxCalendarComponent } from 'devextreme-angular';
     // ...
-    export class AppComponent {
+    export class AppComponent implements AfterViewInit {
         @ViewChild(DxCalendarComponent) calendar: DxCalendarComponent
-        registerKeyHandlers () {
+        ngAfterViewInit () {
             this.calendar.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event
             });

@@ -57,12 +57,12 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
+    import { ..., ViewChild, AfterViewInit } from '@angular/core';
     import { DxTextBoxModule, DxTextBoxComponent } from 'devextreme-angular';
     // ...
-    export class AppComponent {
+    export class AppComponent implements AfterViewInit {
         @ViewChild(DxTextBoxComponent) textBox: DxTextBoxComponent
-        registerKeyHandlers () {
+        ngAfterViewInit () {
             this.textBox.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event
             });

@@ -77,12 +77,12 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
+    import { ..., ViewChild, AfterViewInit } from '@angular/core';
     import { DxTreeViewModule, DxTreeViewComponent } from 'devextreme-angular';
     // ...
-    export class AppComponent {
+    export class AppComponent implements AfterViewInit {
         @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent
-        registerKeyHandlers () {
+        ngAfterViewInit () {
             this.treeView.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event
             });

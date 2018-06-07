@@ -57,12 +57,12 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
+    import { ..., ViewChild, AfterViewInit } from '@angular/core';
     import { DxSelectBoxModule, DxSelectBoxComponent } from 'devextreme-angular';
     // ...
-    export class AppComponent {
+    export class AppComponent implements AfterViewInit {
         @ViewChild(DxSelectBoxComponent) selectBox: DxSelectBoxComponent
-        registerKeyHandlers () {
+        ngAfterViewInit () {
             this.selectBox.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event
             });

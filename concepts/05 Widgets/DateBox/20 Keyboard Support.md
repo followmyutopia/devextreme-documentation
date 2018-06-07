@@ -70,12 +70,12 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
+    import { ..., ViewChild, AfterViewInit } from '@angular/core';
     import { DxDateBoxModule, DxDateBoxComponent } from 'devextreme-angular';
     // ...
-    export class AppComponent {
+    export class AppComponent implements AfterViewInit {
         @ViewChild(DxDateBoxComponent) dateBox: DxDateBoxComponent
-        registerKeyHandlers () {
+        ngAfterViewInit () {
             this.dateBox.instance.registerKeyHandler("backspace", function (e) {
                 // The argument "e" contains information on the event
             });
