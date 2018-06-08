@@ -4,6 +4,9 @@ The pane is the element that lies under the loading indicator and text.
 
 The pane is shown by default. To hide it, assign **false** to the [showPane](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#showPane) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
 		$("#loadPanelContainer").dxLoadPanel({
             closeOnOutsideClick: true,
@@ -17,6 +20,36 @@ The pane is shown by default. To hide it, assign **false** to the [showPane](/Do
             } 
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-load-panel
+        [closeOnOutsideClick]="true"
+        [(visible)]="isLoadPanelVisible"
+        [showPane]="false">
+    </dx-load-panel>
+    <dx-button
+        text="Show the Load Panel"
+        (onClick)="isLoadPanelVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxLoadPanelModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isLoadPanelVisible: boolean = false;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadPanelModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [LoadPanel - Customize the Loading Indicator](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Customize_the_Loading_Indicator/)

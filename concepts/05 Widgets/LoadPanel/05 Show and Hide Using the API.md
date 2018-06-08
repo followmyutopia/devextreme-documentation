@@ -62,11 +62,37 @@ To show or hide the **LoadPanel** programmatically, call the [show()](/Documenta
 
 ---
 
-With AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#visible) property of the **LoadPanel** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **LoadPanel** will appear or disappear.
+With Angular, AngularJS, or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#visible) property of the **LoadPanel** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, change this property/variable, and the **LoadPanel** will appear or disappear.
 
 ---
+##### Angular
 
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) 
+    <!--HTML-->
+    <dx-load-panel
+        [closeOnOutsideClick]="true"
+        [(visible)]="isLoadPanelVisible">
+    </dx-load-panel>
+    <dx-button
+        text="Show the Load Panel"
+        (onClick)="isLoadPanelVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxLoadPanelModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isLoadPanelVisible: boolean = false;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadPanelModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+##### AngularJS
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-load-panel="{
@@ -89,7 +115,7 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
             }
         });
 
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+##### Knockout
 
     <!--HTML--><div data-bind="dxLoadPanel: {
         closeOnOutsideClick: true,
@@ -112,6 +138,9 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
 
 To execute certain commands before or after the **LoadPanel** is shown/hidden, handle the [showing](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#showing), [shown](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#shown), [hiding](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#hiding) or [hidden](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Events/#hidden) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option. For example, in the following code, a handler of the **shown** event is assigned to the [onShown](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#onShown) option. This handler hides the **LoadPanel** three seconds after it was shown.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
 		$("#loadPanelContainer").dxLoadPanel({
             onShown: function (e) {
@@ -129,7 +158,41 @@ To execute certain commands before or after the **LoadPanel** is shown/hidden, h
         });
     });
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#oneventName_eventHandler) method.
+##### Angular
+
+    <!--HTML-->
+    <dx-load-panel
+        [(visible)]="isLoadPanelVisible"
+        (onShown)="hideLoadPanel($event)">
+    </dx-load-panel>
+    <dx-button
+        text="Show the Load Panel"
+        (onClick)="isLoadPanelVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxLoadPanelModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isLoadPanelVisible: boolean = false;
+        hideLoadPanel (e) {
+            setTimeout(() => { 
+                e.component.hide();          
+            }, 3000);
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadPanelModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
+
+If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var shownEventHandler1 = function (e) {

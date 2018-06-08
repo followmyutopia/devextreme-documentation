@@ -1,5 +1,8 @@
 If you need to use a 3rd-party loading indicator inside the **LoadPanel**, assign its URL to the [indicatorSrc](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#indicatorSrc) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
 		$("#loadPanelContainer").dxLoadPanel({
             closeOnOutsideClick: true,
@@ -14,7 +17,41 @@ If you need to use a 3rd-party loading indicator inside the **LoadPanel**, assig
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-load-panel
+        [closeOnOutsideClick]="true"
+        [(visible)]="isLoadPanelVisible"
+        [indicatorSrc]="indicatorUrl">
+    </dx-load-panel>
+    <dx-button
+        text="Show the Load Panel"
+        (onClick)="isLoadPanelVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxLoadPanelModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isLoadPanelVisible: boolean = false;
+        indicatorUrl: string = "https://js.devexpress.com/Content/data/loadingIcons/rolling.svg";
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadPanelModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
+
 In case you do not need any loading indicator to be shown at all, assign **false** to the [showIndicator](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#showIndicator) option.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
 		$("#loadPanelContainer").dxLoadPanel({
@@ -29,6 +66,36 @@ In case you do not need any loading indicator to be shown at all, assign **false
             } 
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-load-panel
+        [closeOnOutsideClick]="true"
+        [(visible)]="isLoadPanelVisible"
+        [showIndicator]="false">
+    </dx-load-panel>
+    <dx-button
+        text="Show the Load Panel"
+        (onClick)="isLoadPanelVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxLoadPanelModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isLoadPanelVisible: boolean = false;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadPanelModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [LoadPanel - Change the Text](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Change_the_Text/)

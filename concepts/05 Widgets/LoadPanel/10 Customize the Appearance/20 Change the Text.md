@@ -1,5 +1,8 @@
 To change the text displayed by the **LoadPanel**, use the [message](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#message) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
 		$("#loadPanelContainer").dxLoadPanel({
             closeOnOutsideClick: true,
@@ -13,6 +16,36 @@ To change the text displayed by the **LoadPanel**, use the [message](/Documentat
             } 
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-load-panel
+        [closeOnOutsideClick]="true"
+        [(visible)]="isLoadPanelVisible"
+        message="Please, wait...">
+    </dx-load-panel>
+    <dx-button
+        text="Show the Load Panel"
+        (onClick)="isLoadPanelVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxLoadPanelModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isLoadPanelVisible: boolean = false;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadPanelModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [LoadPanel - Customize the Loading Indicator](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Customize_the_Loading_Indicator/)

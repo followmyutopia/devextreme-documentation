@@ -1,5 +1,8 @@
 When the **LoadPanel** is shown, the area beneath it can be shaded. The shading color is specified by the [shadingColor](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#shadingColor) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function() {
 		$("#loadPanelContainer").dxLoadPanel({
             closeOnOutsideClick: true,
@@ -13,6 +16,36 @@ When the **LoadPanel** is shown, the area beneath it can be shaded. The shading 
             } 
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-load-panel
+        [closeOnOutsideClick]="true"
+        [(visible)]="isLoadPanelVisible"
+        shadingColor="rgba(0, 0, 0, 0.2)">
+    </dx-load-panel>
+    <dx-button
+        text="Show the Load Panel"
+        (onClick)="isLoadPanelVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxLoadPanelModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isLoadPanelVisible: boolean = false;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadPanelModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [LoadPanel - Customize the Loading Indicator](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/Customize_the_Loading_Indicator/)

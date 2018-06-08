@@ -4,7 +4,7 @@ To specify whether the **LoadIndicator** is shown, change the [visible](/Documen
 
 ---
 
-#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+##### jQuery
 
     <!--HTML-->
     <div id="loadIndicatorContainer"></div>
@@ -25,7 +25,7 @@ To specify whether the **LoadIndicator** is shown, change the [visible](/Documen
         });
     });
 
-#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
+##### ASP.NET MVC Controls
 
     <!--Razor C#-->
     @(Html.DevExtreme().LoadIndicator()
@@ -67,11 +67,36 @@ To specify whether the **LoadIndicator** is shown, change the [visible](/Documen
 
 ---
 
-With AngularJS or Knockout, bind the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#visible) property of the **LoadIndicator** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **LoadIndicator** will appear or disappear.
+With Angular, AngularJS, or Knockout, bind the [visible](/Documentation/ApiReference/UI_Widgets/dxLoadIndicator/Configuration/#visible) property of the **LoadIndicator** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, change this property/variable, and the **LoadIndicator** will appear or disappear.
 
 ---
+##### Angular
 
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+    <!--HTML-->
+    <dx-load-indicator
+        [(visible)]="isLoadIndicatorVisible">
+    </dx-load-indicator>
+    <dx-button
+        text="Toggle the LoadIndicator"
+        (onClick)="isLoadIndicatorVisible = !isLoadIndicatorVisible">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxLoadIndicatorModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isLoadIndicatorVisible: boolean = true;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadIndicatorModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+##### AngularJS
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-load-indicator="{
@@ -81,20 +106,20 @@ With AngularJS or Knockout, bind the [visible](/Documentation/ApiReference/UI_Wi
         }"></div>
         <div dx-button="{
             text: 'Toggle the LoadIndicator',
-            onClick: clickHandler
+            onClick: toggleLoadIndicator
         }"></div>
     </div>
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.isLoadIndicatorVisible = false;
-            $scope.clickHandler = function () {
+            $scope.toggleLoadIndicator = function () {
                 var currentValue = $scope.isLoadIndicatorVisible;
                 $scope.isLoadIndicatorVisible = !currentValue;
             }
         });
 
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+##### Knockout
 
     <!--HTML--><div data-bind="dxLoadIndicator: {
         visible: isLoadIndicatorVisible

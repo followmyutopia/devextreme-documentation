@@ -6,6 +6,9 @@ The **LoadPanel** is an overlay widget notifying the viewer that loading is in p
 
 The following code adds to your page a simple **LoadPanel** and a [Button](/Documentation/Guide/Widgets/Button/Overview/) that invokes it. The [closeOnOutsideClick](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#closeOnOutsideClick) option set to **true** instructs the **LoadPanel** to hide once a user clicks outside it.
 
+---
+##### jQuery
+
     <!--HTML--><div id="loadPanelContainer"></div>
     <div id="buttonContainer"></div>
 
@@ -21,6 +24,35 @@ The following code adds to your page a simple **LoadPanel** and a [Button](/Docu
             } 
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-load-panel
+        [closeOnOutsideClick]="true"
+        [(visible)]="isLoadPanelVisible">
+    </dx-load-panel>
+    <dx-button
+        text="Show the Load Panel"
+        (onClick)="isLoadPanelVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxLoadPanelModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isLoadPanelVisible: boolean = false;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLoadPanelModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
