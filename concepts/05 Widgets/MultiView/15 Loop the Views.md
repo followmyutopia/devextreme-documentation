@@ -1,5 +1,8 @@
 The **MultiView** widget can display views in a loop. The loop mode enables an end user to swipe through the last view to the first and vice versa. To enable this mode, assign **true** to the [loop](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#loop) option.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#multiViewContainer").dxMultiView({
@@ -7,6 +10,30 @@ The **MultiView** widget can display views in a loop. The loop mode enables an e
             loop: true
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-multi-view
+        [dataSource]="multiViewItems"
+        [loop]="true">
+    </dx-multi-view>
+
+    <!--TypeScript-->
+    import { DxMultiViewModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        multiViewItems = [ ... ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMultiViewModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [MultiView - Customize Item Appearance](/Documentation/Guide/Widgets/MultiView/Customize_Item_Appearance)

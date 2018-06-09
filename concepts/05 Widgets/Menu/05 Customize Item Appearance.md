@@ -1,5 +1,8 @@
 For a minor customization of **Menu** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxMenu/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates two root items with two drop-down menu items each. The root items are supplied with [icons](/Documentation/Guide/Themes/Icon_Library/).
 
+---
+##### jQuery
+
     <!--JavaScript-->var menuItems = [{
         text: "Upload", icon: "upload",
         items: [
@@ -20,21 +23,93 @@ For a minor customization of **Menu** items, you can use the default item templa
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize menu items.
+##### Angular
+
+    <!--HTML-->
+    <dx-menu
+        [items]="menuItems">
+    </dx-menu>
+
+    <!--TypeScript-->
+    import { DxMenuModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        menuItems = [{
+            text: "Upload", icon: "upload",
+            items: [
+                { text: "From your computer" },
+                { text: "From a cloud service" }
+            ]
+        }, {
+            text: "Share", icon: "message",
+            items: [
+                { text: "Log in with Facebook" },
+                { text: "Log in with Twitter" }
+            ]
+        }];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMenuModule
+        ],
+        // ...
+    })
 
 ---
+
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize menu items.
+
+---
+##### Angular
+
+    <!--HTML-->
+    <dx-menu
+        [items]="menuItems"
+        itemTemplate="items">
+        <div *dxTemplate="let item of 'items'">
+            <i>{{item.text}}</i>
+        </div>
+    </dx-menu>
+
+    <!--TypeScript-->
+    import { DxMenuModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        menuItems = [{
+            text: "Upload",
+            items: [
+                { text: "From your computer" },
+                { text: "From a cloud service" }
+            ]
+        }, {
+            text: "Share",
+            items: [
+                { text: "Log in with Facebook" },
+                { text: "Log in with Twitter" }
+            ]
+        }];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMenuModule
+        ],
+        // ...
+    })
+
 #####**AngularJS**
 
     <!--JavaScript-->angular.module('DemoApp', ['dx'])
         .controller('DemoController', function DemoController($scope) {
             $scope.menuItems = [{
-                text: "Upload"
+                text: "Upload",
                 items: [
                     { text: "From your computer" },
                     { text: "From a cloud service" }
                 ]
             }, {
-                text: "Share"
+                text: "Share",
                 items: [
                     { text: "Log in with Facebook" },
                     { text: "Log in with Twitter" }
@@ -56,13 +131,13 @@ Using the default item template is the easiest way to customize an item, but it 
 
     <!--JavaScript-->var viewModel = {
         menuItems: [{
-            text: "Upload"
+            text: "Upload",
             items: [
                 { text: "From your computer" },
                 { text: "From a cloud service" }
             ]
         }, {
-            text: "Share"
+            text: "Share",
             items: [
                 { text: "Log in with Facebook" },
                 { text: "Log in with Twitter" }

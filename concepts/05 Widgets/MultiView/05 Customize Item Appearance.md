@@ -1,6 +1,63 @@
-To customize views in the **MultiView**, define a custom template for them. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for **MultiView** views.
+To customize views in the **MultiView**, define a custom template for them. For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for **MultiView** views.
 
 ---
+##### Angular
+
+    <!--HTML-->
+    <dx-multi-view
+        [dataSource]="multiViewItems"
+        itemTemplate="items">
+        <div *dxTemplate="let item of 'items'">
+            <div style="margin:25px;">
+                <h1>{{item.title}}</h1>
+                <div style="text-align:left;" *ngFor="let dataItem of item.dataArray">
+                    <p>{{dataItem.propertyKey}}: <b>{{dataItem.propertyValue}}</b></p>
+                </div>
+            </div>
+        </div>
+    </dx-multi-view>
+
+    <!--TypeScript-->
+    import { DxMultiViewModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    export class AppComponent {
+        multiViewItems = new DataSource({
+            store: [{
+                title: "Personal Data",
+                data: {
+                    firstName: "John",
+                    lastName: "Smith",
+                    birthYear: 1986
+                }
+            }, {
+                title: "Contacts",
+                data: {
+                    phone: "(555)555-5555",
+                    email: "John.Smith@example.com"
+                }
+            },
+            // ...
+            ],
+            // Brings each item of the array to a specific structure
+            map: (itemData) => {
+                itemData.dataArray = Object.keys(itemData.data).map((key) => {
+                    return {
+                        propertyKey: key,
+                        propertyValue: itemData.data[key]
+                    }
+                });
+                return itemData;
+            }
+        });
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMultiViewModule
+        ],
+        // ...
+    })
 
 #####**AngularJS**
 
@@ -38,7 +95,7 @@ To customize views in the **MultiView**, define a custom template for them. For 
                     email: "John.Smith@example.com"
                 }
             },
-            // . . . 
+            // ... 
             ];
         });
 
@@ -76,7 +133,7 @@ To customize views in the **MultiView**, define a custom template for them. For 
                     email: "John.Smith@example.com"
                 }
             },
-            // . . .
+            // ...
             ],
             // Brings each item of the array to a specific structure
             map: function (itemData) {
@@ -113,7 +170,7 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
             email: "John.Smith@example.com"
         }
     },
-    // . . . 
+    // ... 
     ];
 
     $(function() {

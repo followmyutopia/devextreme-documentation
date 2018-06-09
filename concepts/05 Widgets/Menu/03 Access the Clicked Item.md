@@ -1,5 +1,8 @@
 To access the clicked item, handle the [itemClick](/Documentation/ApiReference/UI_Widgets/dxMenu/Events/#itemClick) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the [onItemClick](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onItemClick) option when you configure the widget.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function () {
         $("#menuContainer").dxMenu({
             // ...
@@ -12,7 +15,35 @@ To access the clicked item, handle the [itemClick](/Documentation/ApiReference/U
         });
     });
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to the **itemClick** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxMenu/Methods/#oneventName_eventHandler) method.
+##### Angular
+
+    <!--HTML-->
+    <dx-menu ...
+        (onItemClick)="itemClick($event)">
+    </dx-menu>
+
+    <!--TypeScript-->
+    import { DxMenuModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        itemClick (e) {
+            let itemData = e.itemData;
+            let itemElement = e.itemElement;
+            let itemIndex = e.itemIndex;
+            // ...
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMenuModule
+        ],
+        // ...
+    })
+
+---
+
+If you are going to change event handlers at runtime, or if you need to attach several handlers to the **itemClick** event, subscribe to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxMenu/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var itemClickHandler1 = function (e) {

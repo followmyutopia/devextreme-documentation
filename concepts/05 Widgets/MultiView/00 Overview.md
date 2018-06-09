@@ -6,6 +6,9 @@ The **MultiView** is a widget that contains several views. An end user navigates
 
 In the most simple case, the **MultiView** widget requires only the [dataSource](/Documentation/ApiReference/UI_Widgets/dxMultiView/Configuration/#dataSource) option to be configured. Note that in such a case, data source items should have a structure similar to the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxMultiView/Default_Item_Template/). The following code adds the **MultiView** to your page.
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="multiViewContainer">
 
@@ -21,6 +24,31 @@ In the most simple case, the **MultiView** widget requires only the [dataSource]
             dataSource: multiViewItems
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-multi-view>
+        <dxi-item text="Personal Data"></dxi-item>
+        <dxi-item text="Contacts"></dxi-item>
+        <dxi-item text="Address"></dxi-item>
+    </dx-multi-view>
+
+    <!--TypeScript-->
+    import { DxMultiViewModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMultiViewModule
+        ],
+        // ...
+    })
+
+---
 
 More often, structure of the data source item differs from the default. For correct rendering of views, specify a [custom template](/Documentation/Guide/Widgets/MultiView/Customize_Item_Appearance). 
 

@@ -1,5 +1,8 @@
 To add routes at design-time, pass an array of objects to the [routes](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/) option. A route requires only its [locations](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/routes/locations/) to be specified. The locations will be connected and make up the route.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#mapContainer").dxMap({
@@ -14,6 +17,37 @@ To add routes at design-time, pass an array of objects to the [routes](/Document
             }]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-map
+        [zoom]="5"
+        [routes]="mapRoutes">
+    </dx-map>
+
+    <!--TypeScript-->
+    import { DxMapModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        mapRoutes = [{
+            locations: [
+                { lat: 40.782500, lng: -73.966111 },
+                "40.755833, -73.986389",
+                [ 40.753889, -73.981389 ],
+                "Brooklyn Bridge,New York,NY"
+            ]
+        }];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMapModule
+        ],
+        // ...
+    })
+
+---
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Map/Routes/jQuery/Light/"
@@ -53,9 +87,56 @@ To add or remove a route at runtime, call the [addRoute(routeOptions)](/Document
     // Removes the routes with indexes 0 and 2 in the "routes" array
     map.removeRoute([0, 2]);
 
-With AngularJS or Knockout, use a different technique. Bind the **routes** option of the **Map** widget to a scope property (in AngularJS) or an observable array (in Knockout). 
+With Angular, AngularJS, or Knockout, use a different technique. Bind the **routes** option of the **Map** widget to a component property (in Angular), a scope property (in AngularJS), or an observable array (in Knockout). 
 
 ---
+##### Angular
+
+    <!--HTML-->
+    <dx-map
+        [zoom]="10"
+        [markers]="mapRoutes">
+    </dx-map>
+    <dx-button
+        text="Add the Route"
+        (onClick)="addRoute()">
+    </dx-button>
+    <dx-button
+        text="Remove the Route"
+        (onClick)="removeRoute()">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxMapModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        mapRoutes = [{
+            locations: [
+                "40.782500, -73.966111",
+                "40.755833, -73.986389"
+            ]
+        }];
+        addRoute () {
+            this.mapRoutes.push({
+                locations: [
+                    "40.753889, -73.981389",
+                    "Brooklyn Bridge,New York,NY"
+                ]
+            });
+        };
+        removeRoute () {
+            this.mapRoutes.pop();
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMapModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
 #####**AngularJS**
 
     <!--HTML-->
@@ -85,7 +166,7 @@ With AngularJS or Knockout, use a different technique. Bind the **routes** optio
                     "40.755833, -73.986389"
                 ]
             }];
-            $scope.addRoute = function (e) {
+            $scope.addRoute = function () {
                 $scope.mapRoutes.push({
                     locations: [ 
                         "40.753889, -73.981389",
@@ -124,7 +205,7 @@ With AngularJS or Knockout, use a different technique. Bind the **routes** optio
                 "40.755833, -73.986389"
             ]
         }]),
-        addRoute: function (e) {
+        addRoute: function () {
             viewModel.mapRoutes.push({
                 locations: [ 
                     "40.753889, -73.981389",

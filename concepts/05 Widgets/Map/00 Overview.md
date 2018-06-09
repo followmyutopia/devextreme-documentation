@@ -6,6 +6,9 @@ The **Map** is an interactive widget that displays a geographic map with markers
 
 The code below adds the **Map** widget to your page. The **Map** is [centered](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/center/) and [zoomed](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#zoom) and supplied with [controls](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#controls) that allow a user to [zoom and navigate](/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/) the **Map** or [change its type](/Documentation/Guide/Widgets/Map/Specify_the_Provider_and_Type/).
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="mapContainer"></div>
  
@@ -17,6 +20,31 @@ The code below adds the **Map** widget to your page. The **Map** is [centered](/
             controls: true
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-map
+        [center]="{ lat: 40.749825, lng: -73.987963 }"
+        [controls]="true"
+        [zoom]="10">
+    </dx-map>
+
+    <!--TypeScript-->
+    import { DxMapModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMapModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)

@@ -1,5 +1,8 @@
 To add markers at design-time, pass an array of objects to the [markers](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/) option. A marker requires only its [location](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/markers/location/) to be specified.
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#mapContainer").dxMap({
@@ -11,6 +14,34 @@ To add markers at design-time, pass an array of objects to the [markers](/Docume
             ]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-map
+        [zoom]="5"
+        [markers]="mapMarkers">
+    </dx-map>
+
+    <!--TypeScript-->
+    import { DxMapModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        mapMarkers = [
+            { location: "40.749825, -73.090443" },
+            { location: "42.743244, -71.594375" },
+            { location: "37.058435, -74.903842" }
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMapModule
+        ],
+        // ...
+    })
+
+---
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Map/Markers/jQuery/Light/"
@@ -70,9 +101,46 @@ In the following code, a marker is added each time a user clicks someplace on th
         });
     });
 
-With AngularJS or Knockout, use a different technique. Bind the **markers** option of the **Map** widget to a scope property (in AngularJS) or an observable array (in Knockout). 
+With Angular, AngularJS, or Knockout, use a different technique. Bind the **markers** option of the **Map** widget to a component property (in Angular), a scope property (in AngularJS) or an observable array (in Knockout). 
 
 ---
+##### Angular
+
+    <!--HTML-->
+    <dx-map
+        [zoom]="10"
+        [markers]="mapMarkers"
+        (onClick)="addMarker($event)">
+    </dx-map>
+    <dx-button
+        text="Remove the Last Marker"
+        (onClick)="removeMarker()">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxMapModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        mapMarkers = [
+            { location: "40.749825, -73.090443" },
+            { location: "42.743244, -71.594375" }
+        ];
+        addMarker (e) {
+            this.mapMarkers.push({ location: e.location });
+        };
+        removeMarker () {
+            this.mapMarkers.pop();
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxMapModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
 #####**AngularJS**
 
     <!--HTML-->
