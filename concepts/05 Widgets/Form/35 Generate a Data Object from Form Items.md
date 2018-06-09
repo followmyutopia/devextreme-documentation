@@ -16,7 +16,7 @@ Not only you can bind the **Form** to an existing data object, but you can also 
                 dataField: "birthDate",
                 editorType: "dxDateBox"
             }],
-            onFormDataChanged: function(e) {
+            onFieldDataChanged: function(e) {
                 var newFormData = e.component.option("formData");
                 // ...
             }
@@ -27,7 +27,7 @@ Not only you can bind the **Form** to an existing data object, but you can also 
 
     <!--HTML-->
     <dx-form
-        (onFormDataChanged)="form_formDataChanged($event)">
+        (onFieldDataChanged)="form_fieldDataChanged($event)">
         <dxi-item dataField="firstName" editorType="dxTextBox"></dxi-item>
         <dxi-item dataField="lastName"  editorType="dxTextBox"></dxi-item>
         <dxi-item dataField="birthDate" editorType="dxDateBox"></dxi-item>
@@ -38,7 +38,7 @@ Not only you can bind the **Form** to an existing data object, but you can also 
     // ...
     export class AppComponent {
         employee = { }
-        form_formDataChanged (e) {
+        form_fieldDataChanged (e) {
             this.employee = e.component.option("formData");
             // ...
         }
