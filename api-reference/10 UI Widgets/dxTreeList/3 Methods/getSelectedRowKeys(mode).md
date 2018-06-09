@@ -40,4 +40,5 @@ Returns only leaves' keys.
 
 #####See Also#####
 #include common-link-callmethods
+- [getSelectedRowsData(mode)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getSelectedRowsDatamode)
 <!--/fullDescription-->

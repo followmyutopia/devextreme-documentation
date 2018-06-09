@@ -15,6 +15,7 @@ The selected rows' data objects.
 
 #####See Also#####
 #include common-link-callmethods
+- [getSelectedRowsData(mode)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#getSelectedRowsDatamode)
 - [cellValue(rowIndex, dataField)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#cellValuerowIndex_dataField)
 - [cellValue(rowIndex, visibleColumnIndex)](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#cellValuerowIndex_visibleColumnIndex)
 <!--/fullDescription-->
