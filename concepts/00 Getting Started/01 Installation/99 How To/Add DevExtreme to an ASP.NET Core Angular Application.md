@@ -1,8 +1,10 @@
-This article describes how to create an ASP.NET Core Angular application and add a DevExtreme widget to it. Before you begin, make sure that you have Visual Studio 2017 or higher and .NET Core 2.0 SDK installed.
+This article describes how to create an ASP.NET Core Angular application and add a DevExtreme widget to it. You need Visual Studio 2017 version 15.7 or later and .NET Core 2.1 SDK to do this.
+
+[note] DevExtreme v.17.2  supports earlier Visual Studio and .NET Core SDK versions. You can find instructions in [this article](/Documentation/17_2/Guide/VS_Integration/Add_DevExtreme_to_an_ASP.NET_Core_Angular_Application/).
 
 1. Open Visual Studio 2017 and create a new ASP.NET Core Angular application using the ASP.NET Core Web Application template.
 
-2. Open the package.json file and add the **devextreme** and **devextreme-angular** packages to the `devDependencies` section.
+1. Open the ClientApp\package.json file and add the **devextreme** and **devextreme-angular** packages to the `devDependencies` section:
 
         "devDependencies": {
             ...
@@ -10,22 +12,29 @@ This article describes how to create an ASP.NET Core Angular application and add
             "devextreme-angular": "minor_18_2"
         }
 
- Save the changes and wait until Visual Studio has downloaded the dependencies.
+    Save the changes and wait until Visual Studio has downloaded the dependencies.
 
-3. Open the webpack.config.vendor.js file, register the [required .css files](/Documentation/Guide/Themes/Predefined_Themes/) and then build the application to update the vendor bundle.
+1. Open the ClientApp\\.angular-cli.json file and register the [required .css files](/Documentation/Guide/Themes/Predefined_Themes/) in it:
 
-        const nonTreeShakableModules = [
-            ...
-            'devextreme/dist/css/dx.common.css',
-            'devextreme/dist/css/dx.light.css'
-        ];
+        {
+            "apps": [
+                {
+                    // ...
+                    "styles": [
+                        "../node_modules/devextreme/dist/css/dx.common.css",
+                        "../node_modules/devextreme/dist/css/dx.light.css",
+                        // ...
+                    ] 
+                }
+            ]
+        }
         
-4. Open the ClientApp\app\app.shared.module.ts file and import individual DevExtreme modules or the entire DevExtreme. Add the imported modules to the `imports` array:
+1. Open the ClientApp\src\app\app.module.ts file and import modules that contain individual DevExtreme widgets or a module containing all the DevExtreme widgets and related utilities:
 
-        // Imports the entire DevExtreme
+        // Imports all the DevExtreme widgets
         import { DevExtremeModule } from 'devextreme-angular'; 
         
-        // Imports a separate module
+        // Imports an individual widget
         // import { DxDataGridModule } from 'devextreme-angular'; 
 
         @NgModule({ 
@@ -38,12 +47,10 @@ This article describes how to create an ASP.NET Core Angular application and add
             ] 
         })
 
-5. Open the Views\Home\Index.cshtml file and remove the `asp-prerender-module` attribute from the `<app>` element. This disables server-side rendering, which is currently not supported by DevExtreme.
-
-6. Open the ClientApp\app\components\fetchdata\fetchdata.component.html file and replace the table in it with the following code, which creates the DevExtreme **DataGrid** widget and binds it to sample data already provided by the `FetchDataComponent`:
+1. Open the ClientApp\src\app\fetch-data\fetch-data.component.html file and replace the table in it with the following code. This code creates the DevExtreme **DataGrid** widget and binds it to sample data the `FetchDataComponent` provides:
 
         <dx-data-grid [dataSource]="forecasts"></dx-data-grid>
 
-7. Run the application and when it has been loaded, navigate to the Fetch data page to view the **DataGrid**.
+1. Run the application and when it is loaded, navigate to the Fetch data page to view the **DataGrid**.
 
-Refer to the [DevExtreme-Angular repository on GitHub](https://github.com/DevExpress/devextreme-angular) for more information on working with DevExtreme controls in Angular.
+Refer to [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular/blob/master/README.md) for more information on working with DevExtreme controls in Angular.
