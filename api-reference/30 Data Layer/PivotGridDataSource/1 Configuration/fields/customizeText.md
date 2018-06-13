@@ -62,6 +62,26 @@ Customizes the text displayed in summary cells.
         [dataSource]="pivotGridDataSource">
     </dx-pivot-grid>
 
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().PivotGrid()
+        .DataSource(ds => ds
+            // ...
+            .Fields(fields => {
+                fields.Add()
+                    // ...
+                    .CustomizeText("customizeText");
+            })
+        )
+    )
+
+    <script type="text/javascript">
+        function customizeText (cellInfo) {
+            // Your code goes here
+        }
+    </script>
+
 ---
 
 #include uiwidgets-ref-functioncontext with { 

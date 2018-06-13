@@ -82,6 +82,35 @@ A summary value calculation is conducted in three stages: *start*, in which the 
         [dataSource]="pivotGridDataSource">
     </dx-pivot-grid>
 
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().PivotGrid()
+        .DataSource(ds => ds
+            // ...
+            .Fields(fields => {
+                fields.Add()
+                    // ...
+                    .SummaryType(SummaryType.Custom)
+                    .CalculateCustomSummary("calculateCustomSummary");
+            })
+        )
+    )
+
+    <script type="text/javascript">
+        function calculateCustomSummary (options) {
+            if (options.summaryProcess == "start") {
+                options.totalValue = 0;
+            }
+            if (options.summaryProcess == "calculate") {
+                options.totalValue += options.value;
+            }
+            if (options.summaryProcess == "finalize") {
+                options.totalValue = options.totalValue / 1000
+            }
+        }
+    </script>
+
 ---
 
 #include uiwidgets-ref-functioncontext with { 

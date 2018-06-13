@@ -65,6 +65,26 @@ This and [other post-processing functions](/Documentation/ApiReference/Data_Laye
         [dataSource]="pivotGridDataSource">
     </dx-pivot-grid>
 
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().PivotGrid()
+        .DataSource(ds => ds
+            // ...
+            .Fields(fields => {
+                fields.Add()
+                    // ...
+                    .CalculateSummaryValue("calculateSummaryValue");
+            })
+        )
+    )
+
+    <script type="text/javascript">
+        function calculateSummaryValue (summaryCell) {
+            // Your code goes here
+        }
+    </script>
+
 ---
 
 #include uiwidgets-ref-functioncontext with { 

@@ -50,6 +50,28 @@ This function is an alternative to the [groupInterval](/Documentation/ApiReferen
         }
     }
 
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().PivotGrid()
+        .DataSource(ds => ds
+            // ...
+            .Fields(fields => {
+                fields.Add()
+                    .Caption("Birth Decade")
+                    .Area(PivotGridArea.Column)
+                    .Selector("groupByDecade")
+            })
+        )
+    )
+
+    <script type="text/javascript">
+        function groupByDecade (data) {
+            var birthDate = new Date(data.birthDate);
+            return Math.floor(birthDate.getFullYear() / 10) * 10;
+        }
+    </script>
+
 ---
 
 Another example: a **selector** that places values below and over 1000 into different groups:
@@ -91,6 +113,27 @@ Another example: a **selector** that places values below and over 1000 into diff
             });
         }
     }
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().PivotGrid()
+        .DataSource(ds => ds
+            // ...
+            .Fields(fields => {
+                fields.Add()
+                    .Caption("Amount")
+                    .Area(PivotGridArea.Column)
+                    .Selector("classifyValues")
+            })
+        )
+    )
+
+    <script type="text/javascript">
+        function classifyValues (data) {
+            return data.amount > 1000 ? "> 1000" : "< 1000"
+        }
+    </script>
 
 ---
 

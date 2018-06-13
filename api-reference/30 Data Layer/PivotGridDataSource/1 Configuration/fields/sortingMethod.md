@@ -61,6 +61,27 @@ Inside this function, you can access the [field's configuration](/Documentation/
         }
     }
 
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().PivotGrid()
+        .DataSource(ds => ds
+            // ...
+            .Fields(fields => {
+                fields.Add()
+                    // ...
+                    .SortingMethod("sortingMethod");
+            })
+        )
+    )
+
+    <script type="text/javascript">
+        function sortingMethod (a, b) {
+            var fieldSortOrder = this.sortOrder;
+            // ...
+        }
+    </script>
+
 ---
 
 #include uiwidgets-ref-functioncontext with { 
