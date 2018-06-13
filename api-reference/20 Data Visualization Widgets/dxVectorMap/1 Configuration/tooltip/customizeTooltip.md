@@ -39,7 +39,7 @@ Specifies the color of the tooltip border.
 }
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->areaObjects|markerObjects<!--/typeFunctionParamType1-->
+<!--typeFunctionParamType1-->MapLayerElement<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
 Information on the [area](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/)/[marker](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/) being pressed or hovered over with the mouse pointer.
 <!--/typeFunctionParamDescription1-->
