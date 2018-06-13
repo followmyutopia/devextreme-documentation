@@ -1,6 +1,6 @@
 
 <!--shortDescription-->
-This section describes the methods that can be used in code to manipulate the **Chart** widget.
+This section describes methods that control the **{WidgetName}** widget.
 <!--/shortDescription-->
 
 <!--fullDescription-->

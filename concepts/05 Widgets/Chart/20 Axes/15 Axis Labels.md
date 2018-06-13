@@ -46,7 +46,7 @@ You can configure axis labels using the [label](/Documentation/ApiReference/Data
 
 ---
 
-Another noteworthy option is [overlappingBehavior](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/overlappingBehavior/). It allows you to decide how axis labels should behave when they overlap each other.
+Another noteworthy option is [overlappingBehavior](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/label/#overlappingBehavior). It allows you to decide how axis labels should behave when they overlap each other.
 
 ---
 ##### jQuery
