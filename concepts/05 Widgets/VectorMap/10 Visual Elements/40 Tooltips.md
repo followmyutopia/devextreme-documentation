@@ -11,7 +11,7 @@ Tooltips are configured using fields of the [tooltip](/Documentation/ApiReferenc
 		}
 	};
 
-Then, you are required to specify the text to be displayed by a tooltip. Implement a function returning an object with the **text** field set and assign this function to the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/#customizeTooltip) option. When implementing it, you can use an [Area](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/) or [Marker](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/) object passed to this function as the argument. To distinguish areas from markers, check the **layer.type** field of this object against being equal to *'area'* or *'marker'*. For example, the following code snippet shows how to provide text only for marker tooltips.
+Then, you are required to specify the text to be displayed by a tooltip. Implement a function returning an object with the **text** field set and assign this function to the [customizeTooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/tooltip/#customizeTooltip) option. When implementing it, you can use the [Layer Element](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/) object passed to this function as the argument. To distinguish areas from markers, check the **layer.type** field of this object against being equal to *'area'* or *'marker'*. For example, the following code snippet shows how to provide text only for marker tooltips.
 
 	<!--JavaScript-->var vectorMapOptions = {
 		// ...

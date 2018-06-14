@@ -11,7 +11,7 @@
 		}]
 	};
 
-Being set directly in the marker **layer**, the color-specifying options are applied to all map markers at once. To set these options for a specific marker, specify them within the object returned by the [customize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#customize) function. When implementing this function, use a [Marker](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Marker/) object to identify the marker. This object is accessible using the function's argument as well as using the **this** object.
+Being set directly in the marker **layer**, the color-specifying options are applied to all map markers at once. To set these options for a specific marker, specify them within the object returned by the [customize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#customize) function. When implementing this function, use the [Layer Element](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/) object to identify the marker. This object is accessible using the function's argument as well as using the **this** object.
 
 	<!--JavaScript-->var vectorMapCfg = {
 		// ...

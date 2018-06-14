@@ -21,7 +21,7 @@ If you did not switch the hovering off, specify the appearance of areas in the h
         }]
 	};
 
-Note that specified directly in the area **layer**, the **hoveredColor** and **hoveredBorderColor** options are applied to all map areas at once. If you need to set these options for a specific area, specify them within the object returned by the [customize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#customize) function. When implementing this function, use an [Area](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Area/) object to identify the area. This object is accessible using the function's argument as well as using the **this** object.
+Note that specified directly in the area **layer**, the **hoveredColor** and **hoveredBorderColor** options are applied to all map areas at once. If you need to set these options for a specific area, specify them within the object returned by the [customize](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/layers/#customize) function. When implementing this function, use the [Layer Element](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/) object to identify the area. This object is accessible using the function's argument as well as using the **this** object.
 
 	<!--JavaScript-->var vectorMapCfg = {
 		// ...
