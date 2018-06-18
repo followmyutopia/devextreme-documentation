@@ -28,7 +28,7 @@ Contains the group index of the current row. This field is useful if the **rowTy
 - **isExpanded**    
 Indicates whether or not the current row is expanded. This field is useful if the **rowType** field is *'group'*.
 
-When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component for AngularJS, and Knockout apps, declare it within a `<table>` HTML element. For Angular - within `<tbody>`.
+When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component for AngularJS, and Knockout apps, declare it within a `<table>` HTML element. For Angular - within a `<tbody>` element with the `dx-row` class.
 
 ---
 #####Angular
@@ -36,8 +36,8 @@ When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Compon
     <!--HTML-->
     <dx-data-grid ...
         rowTemplate="rowTemplateName">
-        <tbody *dxTemplate="let data of 'rowTemplateName'" >
-            <tr class="dx-row main-row">
+        <tbody class="dx-row" *dxTemplate="let data of 'rowTemplateName'" >
+            <tr class="main-row">
                 <td>{{data.id}}</td>
                 <td>{{data.name}}</td>
             </tr>
@@ -92,7 +92,7 @@ When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Compon
     url: "/Demos/WidgetsGallery/Demo/DataGrid/RowTemplate/jQuery/Light/"
 }
 
-You can also use a 3rd-party template engine to customize row appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article. Note that the `<tr>` element that represents a row should have the `dx-row` class for correct operation of all widget features.
+You can also use a 3rd-party template engine to customize row appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article. Note that the `<tbody>` element that represents a row should have the `dx-row` class for correct operation of all widget features.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Data_Grid/Row3RdPartyEngineTemplate/jQuery/Light/"
