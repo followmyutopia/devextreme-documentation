@@ -1,12 +1,12 @@
 This article describes how to create an ASP.NET Core Angular application and add a DevExtreme widget to it. You need Visual Studio 2017 version 15.7 or later and .NET Core 2.1 SDK to do this.
 
-[note] DevExtreme v.17.2  supports earlier Visual Studio and .NET Core SDK versions. You can find instructions in [this article](/Documentation/17_2/Guide/VS_Integration/Add_DevExtreme_to_an_ASP.NET_Core_Angular_Application/).
+[note] DevExtreme v.17.2 supports earlier Visual Studio and .NET Core SDK versions. You can find instructions in [this article](/Documentation/17_2/Guide/VS_Integration/Add_DevExtreme_to_an_ASP.NET_Core_Angular_Application/).
 
 1. Open Visual Studio 2017 and create a new ASP.NET Core Angular application using the ASP.NET Core Web Application template.
 
-1. Open the ClientApp\package.json file and add the **devextreme** and **devextreme-angular** packages to the `devDependencies` section:
+1. Open the ClientApp\package.json file and add the **devextreme** and **devextreme-angular** packages to the `dependencies` section:
 
-        "devDependencies": {
+        "dependencies": {
             ...
             "devextreme": "minor_18_2",
             "devextreme-angular": "minor_18_2"
