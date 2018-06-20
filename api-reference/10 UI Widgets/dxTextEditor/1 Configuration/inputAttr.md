@@ -8,9 +8,42 @@ Specifies the attributes to be passed on to the underlying HTML element.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can configure this option in an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/) as follows:
+---
+#####jQuery
 
-    <!--Razor C#-->@(Html.DevExtreme().WidgetName()
+    $(function(){
+        $("#{widgetName}Container").dx{WidgetName}({
+            // ...
+            inputAttr: {
+                id: "inputId"
+            }
+        });
+    });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-{widget-name} ...
+        [inputAttr]="{ id: 'inputId' }">
+    </dx-{widget-name}>
+
+    <!--TypeScript-->
+    import { Dx{WidgetName}Module } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            Dx{WidgetName}Module
+        ],
+        // ...
+    })
+
+#####ASP.NET MVC Control
+
+    <!--Razor C#-->@(Html.DevExtreme().{WidgetName}()
         .InputAttr("id", "inputId")
         // ===== or =====
         .InputAttr(new {
@@ -22,7 +55,7 @@ You can configure this option in an [ASP.NET MVC Control](/Documentation/Guide/A
         })
     )
 
-    <!--Razor VB-->@(Html.DevExtreme().WidgetName() _
+    <!--Razor VB-->@(Html.DevExtreme().{WidgetName}() _
         .InputAttr("id", "inputId")
         ' ===== or =====
         .InputAttr(New With {
@@ -33,4 +66,7 @@ You can configure this option in an [ASP.NET MVC Control](/Documentation/Guide/A
             { "id", "inputId" }
         })
     )
+
+---
+
 <!--/fullDescription-->

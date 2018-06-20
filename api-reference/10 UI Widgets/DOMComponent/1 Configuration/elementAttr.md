@@ -8,9 +8,43 @@ Specifies the [attributes](http://www.w3schools.com/tags/ref_attributes.asp) to 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can configure this option in an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/) as follows:
+---
+#####jQuery
 
-    <!--Razor C#-->@(Html.DevExtreme().WidgetName()
+    $(function(){
+        $("#{widgetName}Container").dx{WidgetName}({
+            // ...
+            elementAttr: {
+                id: "elementId",
+                class: "class-name"
+            }
+        });
+    });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-{widget-name} ...
+        [elementAttr]="{ id: 'elementId', class: 'class-name' }">
+    </dx-{widget-name}>
+
+    <!--TypeScript-->
+    import { Dx{WidgetName}Module } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            Dx{WidgetName}Module
+        ],
+        // ...
+    })
+
+#####ASP.NET MVC Control
+
+    <!--Razor C#-->@(Html.DevExtreme().{WidgetName}()
         .ElementAttr("class", "class-name")
         // ===== or =====
         .ElementAttr(new {
@@ -25,7 +59,7 @@ You can configure this option in an [ASP.NET MVC Control](/Documentation/Guide/A
         
     )
 
-    <!--Razor VB-->@(Html.DevExtreme().WidgetName() _
+    <!--Razor VB-->@(Html.DevExtreme().{WidgetName}() _
         .ElementAttr("class", "class-name")
         ' ===== or =====
         .ElementAttr(New With {
@@ -38,4 +72,7 @@ You can configure this option in an [ASP.NET MVC Control](/Documentation/Guide/A
             { "class", "class-name" }
         })
     )
+
+---
+
 <!--/fullDescription-->
