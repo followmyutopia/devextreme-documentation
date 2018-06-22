@@ -2,6 +2,9 @@
 <!--module-->ui/drop_down_box<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\DataExpressionMixin\DataExpressionMixin.md,..\dxDropDownEditor\dxDropDownEditor.md<!--/inherits-->
+<!--lib-->
+dx.mobile.js, dx.web.js, dx.viz-web.js, dx.all.js
+<!--/lib-->
 ===========================================================================
 
 <!--shortDescription-->
