@@ -1,83 +1,36 @@
-The **CustomStore** needs the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function to load data from the server. This function accepts a collection of **loadOptions** and passes them to the server. The server then processes data according to the **loadOptions** and sends it back. The following **loadOptions** are relevant for the **DataGrid**:
+The **CustomStore** requires the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function. It sends data processing settings to the server and gets processed data back. These settings depend on which [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/) are enabled. The following data processing settings apply to the **DataGrid**:
 
-* **take**: <span style="font-size:smaller">Number</span>      
-Restricts the number of top-level data objects to return.
+- **Paging settings**: [take](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#take), [skip](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#skip), [requireTotalCount](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireTotalCount)
 
-* **skip**: <span style="font-size:smaller">Number</span>      
-Skips some data objects from the start of the result set. In conjunction with **take**, this parameter is used to implement paging.
+- **Sorting settings**: [sort](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#sort)         
 
-* **sort**: <span style="font-size:smaller">Array</span>      
-Defines sorting parameters. Multiple parameters apply to the data in sequence to implement multi-level sorting. Contains objects of the following structure:
+- **Filtering settings**: [filter](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#filter)    
 
-        { selector: "field", desc: true/false }    
+- **Grouping settings**: [group](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#group)      
+ The **groupInterval** field of the **group** setting is present only when the widget requests the [header filter](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Header_Filter)'s data, and only if this data contains numbers or dates. Note that for numbers, the [groupInterval](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval) option should be specified explicitly.
 
-* **filter**: <span style="font-size:smaller">Array</span>      
-Defines filtering parameters. Possible variants:
+- **Summary calculation settings**: [totalSummary](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#totalSummary), [groupSummary](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#groupSummary)      
 
-    * Binary filter
+- **Group paging settings**: [requireGroupCount](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireGroupCount)     
 
-            [ "field", "=", 3 ]
-
-    * Unary filter
-    
-             [ "!", [ "field", "=", 3 ] ]
-
-    * Complex filter
-    
-            [
-                [ "field", "=", 10 ],
-                "and",
-                [
-                    [ "otherField", "<", 3 ],
-                    "or",
-                    [ "otherField", ">", 11 ]
-                ]
-            ]
-
-    See the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) topic for more details.
-
-* **requireTotalCount**: <span style="font-size:smaller">Boolean</span>     
-Indicates that a total count of data objects in the result set must be returned in the **totalCount** field of the result. This count must reflect the number of data items after filtering, but disregard any **take** parameter used for the query.
-
-* **totalSummary**: <span style="font-size:smaller">Array</span>     
-Contains summary definitions of the following structure, where **summaryType** can be *"sum"*, *"avg"*, *"min"*, *"max"* or *"count"*:
-
-        { selector: "field", summaryType: "sum" }
-
-    The summary calculations' results should be returned in an array called **summary** that contains the result values in the same order as the summary definitions.
-
-* **group**: <span style="font-size:smaller">Array</span>     
-Defines grouping levels to be applied to the data. Each object can have the following parameters:
-
-    * **selector**: <span style="font-size:smaller">String</span>     
-    The field name to group by.
-    * **desc**: <span style="font-size:smaller">Boolean</span>     
-    Defines the selector field's descending sort order.
-    * **isExpanded**: <span style="font-size:smaller">Boolean</span>     
-    Defines whether the group's data objects should be returned instead of grouping data. Relevant only for the last group.
-    * **groupInterval**: <span style="font-size:smaller">Number or String</span>     
-    A numeric value groups data in ranges of the given length. A string value applies only to dates and can be one of *"year"*, *"quarter"*, *"month"*, *"day"*, *"dayOfWeek"*, *"hour"*, *"minute"* and *"second"*. This parameter is present only when the widget sends a request for the [header filter](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Header_Filter)'s data, and only if this data contains numbers or dates. Note that for numbers, the [groupInterval](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/headerFilter/#groupInterval) option should be specified explicitly.
-
-* **groupSummary**: <span style="font-size:smaller">Array</span>     
-The structure is the same as for **totalSummary**, but these summary values are returned for each group. Used in conjunction with **group**.
-
-After receiving these settings, the server should apply them to data and send back an object of the following structure:
+After receiving these settings, the server should apply them to data and send back an object with the following structure:
 
     {
         data: [{
             key: "Group 1",
             items: [ ... ],          // subgroups or data objects (for the last group when isExpanded = true)
-                                     // can be null when isExpanded = false and there are no further groups
-            count: 3,                // count of items in this group; required only when items is null
+                                     // can be null when isExpanded = false 
+            count: 3,                // count of items in this group; required only when items = null
             summary: [30, 20, 40]    // group summary results
         },
         ...
         ], 
-        totalCount: 200,             // if required in requireTotalCount
-        summary: [170, 20, 20, 1020] // total summary results
+        totalCount: 200,              // if required in requireTotalCount
+        summary: [170, 20, 20, 1020], // total summary results
+        groupCount: 35                // if required in requireGroupCount
     }
 
-If the server has not received the **group** parameter, the result object should be the following:
+If the server has not received the **group** parameter, the resulting object should be as follows:
 
     {
         data: [ ... ],               // result data objects
@@ -85,7 +38,7 @@ If the server has not received the **group** parameter, the result object should
         summary: [170, 20, 20, 1020] // total summary results
     }
 
-Here is a generalized configuration of the **CustomStore** for the **DataGrid** widget.
+Below is a generalized **CustomStore** configuration for the **DataGrid** widget:
 
 ---
 
@@ -103,7 +56,8 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
                 requireTotalCount: loadOptions.requireTotalCount,
                 totalSummary: loadOptions.totalSummary ? JSON.stringify(loadOptions.totalSummary) : "",
                 group: loadOptions.group ? JSON.stringify(loadOptions.group) : "",
-                groupSummary: loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : ""
+                groupSummary: loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : "",
+                requireGroupCount: loadOptions.requireGroupCount
             }).done(function (result) {
                     d.resolve(result.data, { 
                         totalCount: result.totalCount,
@@ -117,7 +71,7 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
     $(function() {
         $("#dataGridContainer").dxDataGrid({
             dataSource: gridDataSource,
-            remoteOperations: true
+            remoteOperations: { groupPaging: true }
         });
     });
 
@@ -144,7 +98,8 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
                         .set("requireTotalCount", JSON.stringify(loadOptions.requireTotalCount))
                         .set("totalSummary", loadOptions.totalSummary ? JSON.stringify(loadOptions.totalSummary) : "")
                         .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "")
-                        .set("groupSummary", loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : "");
+                        .set("groupSummary", loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : "")
+                        .set("requireGroupCount", JSON.stringify(loadOptions.requireGroupCount));
                     return httpClient.get('http://mydomain.com/MyDataService', {
                             params: params
                         })
@@ -153,7 +108,8 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
                             return {
                                 data: result.data,
                                 totalCount: result.totalCount,
-                                summary: result.summary
+                                summary: result.summary,
+                                groupCount: result.groupCount
                             };
                         });
                 }
@@ -170,8 +126,10 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
     })
 
     <!--HTML--><dx-data-grid ...
-        [dataSource]="gridDataSource"
-        [remoteOperations]="true">
+        [dataSource]="gridDataSource">
+        <dxo-remote-operations 
+            [groupPaging]="true">
+        </dxo-remote-operations>
     </dx-data-grid>
 
 ---
@@ -180,4 +138,3 @@ Here is a generalized configuration of the **CustomStore** for the **DataGrid** 
     url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/jQuery/Light/"
 }
 
-Consider using the remote group paging feature when grouping large data lowers **DataGrid** performance. Note that for this feature, both the server and the client sides should be configured differently. Refer to the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Remote_Group_Paging) topic for more information.

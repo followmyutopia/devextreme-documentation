@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A group summary expression.
+A group summary expression. Used with the [group](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#group) setting. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -11,5 +11,5 @@ Contains group summary definitions with the following structure, where **summary
 
     { selector: "field", summaryType: "sum" }
 
-When this option is specified, the store expects that each data object has the **summary** array that contains the result values in the same order as the summary definitions.
+When this option is specified, each data object should have a **summary** array that contains the resulting values in the same order as the summary definitions.
 <!--/fullDescription-->

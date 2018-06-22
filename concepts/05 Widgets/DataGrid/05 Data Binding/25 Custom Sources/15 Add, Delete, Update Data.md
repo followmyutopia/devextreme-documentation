@@ -6,7 +6,7 @@ To allow a user to add, delete and update data in the **DataGrid**, assign **tru
 
     <!--JavaScript-->
     $(function(){
-        $("#gridContainer").dxDataGrid({
+        $("#dataGridContainer").dxDataGrid({
             // ...
             editing: {
                 allowUpdating: true, 

@@ -4,17 +4,17 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not paging by groups must be performed on the server side.
+Specifies whether paging by groups should be performed on the server side.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Note that remote group paging has a number of restrictions:
+Remote group paging allows you to load groups from a remote source in portions. This feature speeds up grouping because the **DataGrid** transmits less data. However, requests become more frequent because the **DataGrid** sends several requests each time a user expands a group or sorts/filters data.
 
-1. Filtering, paging, grouping and (if needed) sorting, should be performed remotely. 
-2. Initially, all groups should be collapsed. For this purpose, set the **grouping** | [autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option to false.
-3. The widget does not support remote group paging in case the [expandAll(groupIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandAllgroupIndex) method is called.
+Remote group paging has the following restrictions:
+
+- Filtering, paging, grouping, and sorting should be performed on the server.
+- All groups should be collapsed initially by setting the **grouping**.[autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option to **false**.
+- The [expandAll(groupIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandAllgroupIndex) method should not be called. Otherwise, the widget ignores remote group paging.
  
-[note]When **groupPaging** is enabled, all other operations (filtering, sorting, paging, grouping and summaries calculation) also become remote. 
-
-For details, see the [Remote Group Paging](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Remote_Group_Paging) topic.
+[note] When **groupPaging** is enabled, all other operations (filtering, sorting, paging, grouping and summaries calculation) become remote. 
 <!--/fullDescription-->

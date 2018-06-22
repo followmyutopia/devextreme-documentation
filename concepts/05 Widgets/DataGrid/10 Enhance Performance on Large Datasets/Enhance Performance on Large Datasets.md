@@ -1,1 +1,1 @@
-We recommend enabling [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/) and delegating data processing operations to the server as described in the [Custom Sources](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/) topic if the **DataGrid** is using a large dataset. Additionally, you can make the following tweaks to enhance the **DataGrid**'s performance.
+

@@ -3,49 +3,88 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the operations that must be performed on the server side.
+Notifies the **DataGrid** of the server's data processing operations.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Data for the **DataGrid** can be stored on the client or come from the server. As a rule, manipulating data on the server enhances **DataGrid** performance. However, the server might be falling short of implementing certain operations, in which case, they can be performed on the client.
+Server-side data processing improves the widget's performance on large datasets. When the server does not implement particular operations (and/or the corresponding **remoteOperations** fields are **false**) they are executed on the client. Note that the widget may send queries to the server while executing a client-side operation.
 
-Data operations can be categorized into basic operations ([filtering](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/), [sorting](/Documentation/Guide/Widgets/DataGrid/Sorting/), [paging](/Documentation/Guide/Widgets/DataGrid/Paging/)) and advanced operations ([grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/), [group paging](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Remote_Group_Paging), [summary calculation](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/)). The following table shows where data operations are performed by default.
+The following table lists the possible **remoteOperations** configurations and the operations the server should implement. The server should also implement additional operations depending on the used widget functionality.
 
 <div class="simple-table">
-<table>
+<table style="text-align:center">
+ <tr>
+    <th>Setting</th>
+    <th>Required server-side operations</th>
+    <th>Additional server-side operations</th>
+ </tr>
+ <tr>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: true</code></td>
+    <td>all operations <b>except group paging</b></td>
+    <td>-</td>
+ </tr>
+ <tr>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: { groupPaging: true }</code></td>
+    <td>all operations <b>including group paging</b></td>
+    <td>-</td>
+ </tr>
+ <tr>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: { paging: true }</code></td>
+    <td>paging</td>
+    <td>filtering<sup>1</sup>, sorting<sup>1</sup>, summary calculation<sup>1</sup></td>
+ </tr>
+ <tr>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: { paging: true }</code><br/>(with grouping used in the widget)</td>
+    <td>paging, filtering, sorting</td>
+    <td>grouping<sup>3</sup>, summary calculation<sup>1</sup></td>
+ </tr>
   <tr>
-    <th></th>
-    <th>Basic operations</th>
-    <th>Advanced operations</th>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: { filtering: true }</code></td>
+    <td>filtering</td>
+    <td>-</td>
  </tr>
  <tr>
-    <td><a href="/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/">CustomStore</a></td>
-    <td style="text-align:center">client</td>
-    <td style="text-align:center">client</td>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: { sorting: true }</code></td>
+    <td>sorting</td>
+    <td>filtering<sup>1</sup></td>
  </tr>
  <tr>
-    <td><a href="/Documentation/Guide/Widgets/DataGrid/Data_Binding/OData_Service/">ODataStore</a></td>
-    <td style="text-align:center">server</td>
-    <td style="text-align:center">client (always)</td>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: { grouping: true }</code></td>
+    <td>grouping, filtering</td>
+    <td>sorting<sup>1</sup>, summary calculation<sup>1</sup></td>
+ </tr>
+ <tr>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: { summary: true }</code></td>
+    <td>summary calculation</td>
+    <td>filtering<sup>1</sup>, sorting<sup>2</sup>, grouping<sup>2</sup></td>
  </tr>
 </table>
 </div>
 
-[note]You cannot perform data operations on the server with an [ArrayStore](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Simple_Array/ArrayStore/), a [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/) or an [array of objects](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Simple_Array/Array_Only/).
+<div style="font-size:12px;margin-bottom:10px;margin-left:25px">
+    <sup>1</sup> - If this functionality is used in the widget.<br />
+    <sup>2</sup> - If <a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/">group summary calculation</a> is used.<br />
+    <sup>3</sup> - If <b>grouping</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll">autoExpandAll</a> is set to <b>false</b>
+</div>
 
-To control individual operations, assign a Boolean value to a corresponding field of the **remoteOperations** object. To control all operations simultaneously, assign a Boolean value directly to the **remoteOperations** option. 
+[note] Paging, filtering, and sorting are performed on the server side for the [ODataStore](/Documentation/Guide/Widgets/DataGrid/Data_Binding/OData_Service/), but you can change them to the client side by setting the corresponding **remoteOperations** fields to **false**. Other operations are always client-side.
 
-[note]If you assign **true** to **remoteOperations**, the group paging feature is still performed on the client. To delegate it to the server, assign **true** to the **remoteOperations**.[groupPaging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/#groupPaging), but note that with this setting, all other operations are delegated to the server also.
+The following restrictions apply when operations are remote:
 
-[note]If actual data is stored on the server, making data operations local does _not_ guarantee that there won't be any queries for data to the server while these operations are being performed. It only guarantees that _calculations_ will be performed on the client.
+- Sorting, grouping and filtering columns with the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) or [calculateDisplayValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateDisplayValue) option is not supported.
+- The [calculateGroupValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateGroupValue) and [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateSortValue) options accept only string values.
+- [Custom summary calculation](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary) is not supported.
+- With remote group paging, the **grouping**.[autoExpandAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/grouping/#autoExpandAll) option should be set to **false** and the [expandAll(groupIndex)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#expandAllgroupIndex) method should not be called.
 
-Note that when operations are performed remotely, the **DataGrid** does not support:
-
-- sorting, grouping and filtering by columns with the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) or [calculateDisplayValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateDisplayValue) option defined;
-- custom grouping and custom sorting using functions (that is, [calculateGroupValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateGroupValue) and [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateSortValue) accept strings only);
-- [custom summary calculation](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary).
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/data_grid-grid_data_binding-custom_data_source"
+#include common-demobutton-named with {
+    name: "Web API Service",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/jQuery/Light/"
 }
+#include common-demobutton-named with {
+    name: "Custom Service",
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/jQuery/Light/"
+}
+
+#####See Also#####
+- **Data Binding**: [Web API Service](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Web_API_Service/) | [PHP Service](/Documentation/Guide/Widgets/DataGrid/Data_Binding/PHP_Service/) | [MongoDB Service](/Documentation/Guide/Widgets/DataGrid/Data_Binding/MongoDB_Service/) | [Custom Sources](/Documentation/Guide/Widgets/DataGrid/Data_Binding/Custom_Sources/)
 <!--/fullDescription-->
