@@ -29,7 +29,7 @@ Specifies a function that customizes the request before it is sent to the server
                 "param2": "value2"
             };
             e.headers = {
-                accept: "text/html"
+                "Custom Header": "value"
             };
         }
     });
@@ -54,13 +54,13 @@ Specifies a function that customizes the request before it is sent to the server
                         keyType: "Int32" 
                     }
                 },
-                beforeSend: function (e) {  
+                beforeSend: (e) => {  
                     e.params = {
                         "param1": "value1",
                         "param2": "value2"
                     };
                     e.headers = {
-                        accept: "text/html"
+                        "Custom Header": "value"
                     };
                 }
             });

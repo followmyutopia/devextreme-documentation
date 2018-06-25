@@ -9,4 +9,6 @@ Specifies whether to send cookies, authorization headers, and client certificate
 
 <!--fullDescription-->
 This option's value is passed to the underlying [jqXHR object](http://api.jquery.com/jQuery.ajax/#jqXHR).
+
+Use the [beforeSend](/Documentation/ApiReference/Data_Layer/ODataContext/Configuration/#beforeSend) function to set custom authorization headers.
 <!--/fullDescription-->

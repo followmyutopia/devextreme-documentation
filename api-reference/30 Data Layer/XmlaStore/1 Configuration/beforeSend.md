@@ -17,7 +17,7 @@ Specifies a function that customizes the request before it is sent to the server
         cube: "Adventure Works",
         beforeSend: function (e) {  
             e.headers = {
-                customHeader: "value"
+                "Custom Header": "value"
             };
         }
     });
@@ -44,7 +44,7 @@ Specifies a function that customizes the request before it is sent to the server
                     cube: "Adventure Works",
                     beforeSend: (e) => {
                         e.headers = {
-                            customHeader: "value"
+                            "Custom Header": "value"
                         }
                     }
                 })
