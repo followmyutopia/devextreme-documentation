@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not an end user can reorder list items.
+Specifies whether a user can reorder list items. [Grouped](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#grouped) items cannot be moved from one group to another.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]The item reordering feature requires the [useNativeScrolling](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#useNativeScrolling) option to be set to **false** in Android.
+[note] On Android devices, this option applies only if the [useNativeScrolling](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#useNativeScrolling) option is set to **false**.
 
 #####See Also#####
 - [List - Item Reordering - User Interaction](/Documentation/Guide/Widgets/List/Item_Reordering/#User_Interaction)
