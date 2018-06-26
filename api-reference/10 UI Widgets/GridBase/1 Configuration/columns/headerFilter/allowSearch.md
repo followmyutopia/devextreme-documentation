@@ -8,5 +8,5 @@ Specifies whether searching is enabled in the header filter.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include grids-headerfilter-allowsearch-note
 <!--/fullDescription-->

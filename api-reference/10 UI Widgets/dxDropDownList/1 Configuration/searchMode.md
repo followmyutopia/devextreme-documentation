@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the binary operation used to filter data.
+Specifies a comparison operation used to search widget items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
