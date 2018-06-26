@@ -1,20 +1,37 @@
-Paging is used to load data in portions, which improves the widget's performance on large datasets. It is configured in the widget's [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Enable paging by setting the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to **true**, and specify the number of items per page using the [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) option.
+Paging enables the widget to load and render data in portions. Remote data loaded using the **CustomStore** in [raw mode](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Load_Data_in_Raw_Mode) and local data is only rendered one page at a time. In other cases, remote data is loaded and rendered one page at a time if the server can partition data.
+ 
+Paging options are set in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/): [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) enables paging; [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) specifies how many data items a page should contain.
+
+---
+#####jQuery
 
     <!--JavaScript-->
     $(function() {
         $("#tagBoxContainer").dxTagBox({
             dataSource: new DevExpress.data.DataSource({
-                loadMode: "raw",   
-                load: function () {
-                    return $.getJSON('https://mydomain.com/MyDataService');
-                },
+                store: /* A store is configured here */,
                 paginate: true,
-                pageSize: 5
+                pageSize: 10
             }),
-            valueExpr: "Product_ID",
-            displayExpr: "Product_Name"
+            // ...
         });
     });
+
+#####ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().TagBox()
+        .ID("tagBox")
+        .DataSource(d => d
+            // Data access is configured here
+        )
+        .DataSourceOptions(o => o
+            .Paginate(true)
+            .PageSize(10)
+        )
+    )
+
+---
 
 #####See Also#####
 - [Data Binding - Custom Sources](/Documentation/Guide/Widgets/TagBox/Data_Binding/Custom_Sources/)

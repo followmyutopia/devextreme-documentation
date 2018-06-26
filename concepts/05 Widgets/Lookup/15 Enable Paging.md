@@ -1,4 +1,6 @@
-Paging is used to load data in portions, which improves the widget's performance on large datasets. It is configured in the widget's [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Enable paging by setting the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to **true**, and specify the number of items per page using the [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) option.
+Paging enables the widget to load and render data in portions. Remote data loaded using the **CustomStore** in [raw mode](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Load_Data_in_Raw_Mode) and local data is only rendered one page at a time. In other cases, remote data is loaded and rendered one page at a time if the server can partition data.
+ 
+Paging options are set in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/): [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) enables paging; [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) specifies how many data items a page should contain.
 
 ---
 #####jQuery
@@ -7,63 +9,60 @@ Paging is used to load data in portions, which improves the widget's performance
     $(function() {
         $("#lookupContainer").dxLookup({
             dataSource: new DevExpress.data.DataSource({
-                loadMode: "raw",   
-                load: function () {
-                    return $.getJSON('https://mydomain.com/MyDataService');
-                },
+                store: /* A store is configured here */,
                 paginate: true,
-                pageSize: 5
+                pageSize: 10
             }),
-            valueExpr: "Product_ID",
-            displayExpr: "Product_Name"
+            // ...
         });
     });
 
 #####Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule } from '@angular/common/http';
     import DataSource from 'devextreme/data/data_source';
     import { DxLookupModule } from 'devextreme-angular';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
     // ...
     export class AppComponent {
         lookupDataSource: any = {};
-        constructor(@Inject(HttpClient) httpClient: HttpClient) {
+        constructor() {
             this.lookupData = new DataSource({
-                store: new CustomStore({
-                    loadMode: "raw",   
-                    load: function () {
-                        return httpClient.get('https://mydomain.com/MyDataService')
-                            .toPromise();
-                    }
-                }),
+                store: /* A store is configured here */,
                 paginate: true,
-                pageSize: 5
+                pageSize: 10
             })
         }
     }
     @NgModule({
         imports: [
             // ...
-            DxLookupModule,
-            HttpClientModule
+            DxLookupModule
         ],
         // ...
     })
 
     <!--HTML-->
-    <dx-lookup
-        [dataSource]="lookupData"
-        valueExpr="Product_ID"
-        displayExpr="Product_Name">
+    <dx-lookup ...
+        [dataSource]="lookupData">
     </dx-lookup>
+
+#####ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().Lookup()
+        .ID("lookup")
+        .DataSource(d => d
+            // Data access is configured here
+        )
+        .DataSourceOptions(o => o
+            .Paginate(true)
+            .PageSize(10)
+        )
+    )
 
 ---
 
-The **Lookup**'s default behavior is to load the next page once a user scrolls the item list to the bottom. If you set the [pageLoadMode](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#pageLoadMode) to *"nextButton"*, the **Lookup** loads the next page when a user clicks the **Next** button. This button gets the text from the [nextButtonText](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#nextButtonText) option.
+**Lookup** renders the next page once a user scrolls the item list to the bottom. If you set the [pageLoadMode](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#pageLoadMode) to *"nextButton"*, **Lookup** renders the next page when a user clicks the **Next** button. You can change this button's text using the [nextButtonText](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#nextButtonText) option:
 
 ---
 #####jQuery
