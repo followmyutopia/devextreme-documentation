@@ -4,9 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a background color for point labels.
+Colors the point labels' background. The default color is inherited from the points.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Labels are painted in the color of the series whose points they represent by default. You can set a custom background color. For this purpose, use the **backgroundColor** property of the **label** object.
+#include common-colorlist
+
+You can remove the label's background by setting this option to *"none"*. In this case, the label's text is the same color as the point.
 <!--/fullDescription-->

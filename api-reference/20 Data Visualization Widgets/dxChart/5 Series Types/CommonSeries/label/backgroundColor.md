@@ -4,9 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Colors the background of point labels. By default, point labels inherit the color from their points.
+Colors the point labels' background. The default color is inherited from the points.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include common-colorlist
 
+You can remove the label's background by setting this option to *"none"*. In this case, the label's text is the same color as the point.
 <!--/fullDescription-->
