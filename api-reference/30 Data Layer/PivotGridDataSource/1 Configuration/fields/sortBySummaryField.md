@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Sorts the field's values in the [headers](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers) by the specified measure's summary values.
+Sorts the field's values in the [headers](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Headers) by the specified measure's summary values. Accepts the measure's [name](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#name), [caption](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption), [dataField](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#dataField), or index in the [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This and the [sortBySummaryPath](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#sortBySummaryPath) options can be used together to sort the field's values by a specific column's or row's summary values. If **sortBySummaryPath** is unspecified, the field's values are sorted by the [grand totals](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) of the measure specified here, as it is with the `Region` field's values in the following code:
+This and the [sortBySummaryPath](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#sortBySummaryPath) options can be used together to sort the field's values by a specific column's or row's summary values. If **sortBySummaryPath** is unspecified, the field's values are sorted by the specified measure's [grand totals](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals), as it is with the `Region` field's values in the following code:
 
 ---
 ##### jQuery
