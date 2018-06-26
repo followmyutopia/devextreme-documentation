@@ -1,4 +1,12 @@
-To execute certain commands when a node's selected state is changed, handle the [itemSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemSelectionChanged) event. Assign an event handling function to the [onItemSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemSelectionChanged) option when you configure the widget if this function is going to remain unchanged.
+The **TreeView** raises the following selection-related events: 
+
+- [itemSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemSelectionChanged)            
+Raised after a node's selection state changes.
+
+- [selectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#selectAllValueChanged)          
+Raised after the "Select All" check box's state changes.
+
+You can handle these events with functions. Assign the handling functions to the [onItemSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemSelectionChanged) and [onSelectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onSelectAllValueChanged) options when you configure the widget if they are going to remain unchanged at runtime.
 
 ---
 ##### jQuery
@@ -7,6 +15,9 @@ To execute certain commands when a node's selected state is changed, handle the 
         $("#treeViewContainer").dxTreeView({
             onItemSelectionChanged: function (e) {
                 // Handler of the "itemSelectionChanged" event
+            },
+            onSelectAllValueChanged: function (e) {
+                // Handler of the "selectAllValueChanged" event
             }
         });
     });
@@ -15,7 +26,8 @@ To execute certain commands when a node's selected state is changed, handle the 
 
     <!--HTML-->
     <dx-tree-view ...
-        (onItemSelectionChanged)="onItemSelectionChanged($event)">
+        (onItemSelectionChanged)="onItemSelectionChanged($event)"
+        (onSelectAllValueChanged)="onSelectAllValueChanged($event)>
     </dx-tree-view>
 
     <!--TypeScript-->
@@ -24,6 +36,9 @@ To execute certain commands when a node's selected state is changed, handle the 
     export class AppComponent {
         onItemSelectionChanged (e) {
             // Handler of the "itemSelectionChanged" event
+        }
+        onSelectAllValueChanged (e) {
+            // Handler of the "selectAllValueChanged" event
         }
     }
     @NgModule({
