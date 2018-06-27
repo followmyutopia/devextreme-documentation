@@ -64,4 +64,5 @@ See the [Button configuration](/Documentation/ApiReference/UI_Widgets/dxButton/C
 
 ---
 
+#include widgets-config-object-option-note
 <!--/fullDescription-->

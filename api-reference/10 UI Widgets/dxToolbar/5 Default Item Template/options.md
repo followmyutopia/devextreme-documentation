@@ -11,6 +11,8 @@ This data source field is used by a default item template. If you use the defaul
 
 [note]If you use the **Menu** widget as a toolbar item, the [adaptivityEnabled](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#adaptivityEnabled) option does not apply.
 
+#include widgets-config-object-option-note
+
 #####See Also#####
 - [Toolbar - Specify Item Type](/Documentation/Guide/Widgets/Toolbar/Specify_Item_Type/)
 <!--/fullDescription-->

@@ -16,6 +16,8 @@ You can specify most of the [Popup options](/Documentation/ApiReference/UI_Widge
 
 The popup always contains a form whose items are used for editing. Use the [form]({basewidgetpath}/Configuration/editing/#form) option to customize the form items.
 
+#include widgets-config-object-option-note
+
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/{WidgetName}/PopupEditing/jQuery/Light/"
 }

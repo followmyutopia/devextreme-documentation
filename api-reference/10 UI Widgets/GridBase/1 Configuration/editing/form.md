@@ -20,6 +20,8 @@ There are some form parameters that you cannot specify using this option:
 
 [/note]
 
+#include widgets-config-object-option-note
+
 #####See Also#####
 - [Form Guides](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)
 <!--/fullDescription-->

@@ -9,4 +9,6 @@ Configures the search panel.
 
 <!--fullDescription-->
 See the [TextBox Configuration](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/) for options you can specify in this object.
+
+#include widgets-config-object-option-note
 <!--/fullDescription-->

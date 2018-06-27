@@ -9,4 +9,6 @@ Configures the drop-down field which holds the [content](/Documentation/ApiRefer
 
 <!--fullDescription-->
 See [Popup Configuration](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/) for options that you can specify in this object.
+
+#include widgets-config-object-option-note
 <!--/fullDescription-->

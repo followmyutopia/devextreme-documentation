@@ -19,4 +19,5 @@ You can specify most of the [Calendar options](/Documentation/ApiReference/UI_Wi
 - [tabIndex](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#tabIndex)
 - [value](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#value)
 
+#include widgets-config-object-option-note
 <!--/fullDescription-->
