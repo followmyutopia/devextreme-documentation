@@ -65,7 +65,7 @@ The **Scheduler** widget allows you to customize its timetable. You can specify 
 
 ---
 
-You can also adjust cells' size in the table and around it using the DevExtreme CSS classes. For example, the `.dx-scheduler-cell-sizes-horizontal` and `.dx-scheduler-cell-sizes-vertical` classes specify the cells' width and height, respectively. 
+You can also adjust cells' size in the table and around it using the DevExtreme CSS classes. For example, the `.dx-scheduler-cell-sizes-horizontal` and `.dx-scheduler-cell-sizes-vertical` classes specify the cells' width and height, respectively. These classes apply if the [crossScrollingEnabled](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#crossScrollingEnabled) option is set to **true**.
 
     <!--CSS-->
     #yourSchedulerID .dx-scheduler-cell-sizes-horizontal {
