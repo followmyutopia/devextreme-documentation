@@ -71,4 +71,5 @@ The **DataGrid** also provides the [pageIndex(newIndex)](/Documentation/ApiRefer
 ---
 
 #####See Also#####
+- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
 - [Scrolling](/Documentation/Guide/Widgets/DataGrid/Scrolling/)

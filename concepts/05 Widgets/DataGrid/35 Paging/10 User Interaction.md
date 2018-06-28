@@ -98,3 +98,6 @@ Assign **true** to the [showInfo](/Documentation/ApiReference/UI_Widgets/dxDataG
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/RecordPaging/jQuery/Light/"
 }
+
+#####See Also#####
+- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)

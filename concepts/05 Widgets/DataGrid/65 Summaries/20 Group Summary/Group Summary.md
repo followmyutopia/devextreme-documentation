@@ -72,5 +72,6 @@ Configure each summary item in the **summary**.[groupItems](/Documentation/ApiRe
 
 #####See Also#####
 - [Grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/)
+- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
 
 [tags]dataGrid, data grid, group summary, aggregate function, sort by summary, sortByGroupSummaryInfo, summaryType, alignment, location, alignByColumn. showInColumn, showInGroupFooter

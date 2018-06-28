@@ -170,4 +170,5 @@ The [showCheckBoxesMode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Confi
 <a href="/Demos/WidgetsGallery/Demo/DataGrid/MultipleRecordSelectionModes/jQuery/Light/" class="button orange small fix-width-155" target="_blank">Multiple Selection Demo</a>
 
 #####See Also#####
+- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
 - [Deferred Selection](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Deferred_Selection)

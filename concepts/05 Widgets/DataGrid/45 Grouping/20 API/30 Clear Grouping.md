@@ -64,4 +64,5 @@ You can ungroup data by all columns at once using the [clearGrouping()](/Documen
 
 #####See Also#####
 #include common-link-callmethods
+- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
 - [User Interaction - Clear Grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/#User_Interaction/Clear_Grouping)

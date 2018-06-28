@@ -63,4 +63,7 @@ Configure each summary item in the **summary**.[totalItems](/Documentation/ApiRe
     url: "/Demos/WidgetsGallery/Demo/DataGrid/GridSummaries/jQuery/Light/"
 }
 
+#####See Also#####
+- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
+
 [tags]dataGrid, data grid, total summary, aggregate function, summaryType, alignment, location, showInColumn

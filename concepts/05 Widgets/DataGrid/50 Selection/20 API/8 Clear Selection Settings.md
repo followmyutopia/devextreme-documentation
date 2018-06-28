@@ -66,4 +66,5 @@ Call the [clearSelection()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Me
 } 
 
 #####See Also#####
+- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/)
 #include common-link-callmethods
