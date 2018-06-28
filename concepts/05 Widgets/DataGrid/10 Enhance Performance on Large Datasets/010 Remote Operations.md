@@ -13,9 +13,9 @@ Specify the [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid
                 filtering: true,
                 paging: true,
                 sorting: true,
-                groupPaging: false,
-                grouping: false,
-                summary: false
+                groupPaging: true,
+                grouping: true,
+                summary: true
             }
         });
     }); 
@@ -27,9 +27,9 @@ Specify the [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid
             [filtering]="true"
             [paging]="true"
             [sorting]="true"
-            [summary]="false"
-            [grouping]="false"
-            [groupPaging]="false"> 
+            [summary]="true"
+            [grouping]="true"
+            [groupPaging]="true"> 
         </dxo-remote-operations>
     </dx-data-grid>
 

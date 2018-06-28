@@ -61,7 +61,8 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
             }).done(function (result) {
                     d.resolve(result.data, { 
                         totalCount: result.totalCount,
-                        summary: result.summary
+                        summary: result.summary,
+                        groupCount: result.groupCount
                     });
                 });
             return d.promise();
