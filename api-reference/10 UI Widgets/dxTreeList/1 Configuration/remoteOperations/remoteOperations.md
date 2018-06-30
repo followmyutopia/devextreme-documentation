@@ -3,42 +3,55 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies what operations are performed on the server.
+Notifies the **TreeList** of the server's data processing operations. Applies only if data has a [plain structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataStructure).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Data for the **TreeList** can either be stored on the client or come from the server. As a rule, manipulating data on the server enhances the **TreeList** performance. However, the server might be falling short of implementing certain operations. In this case, they can be performed on the client.
+Server-side data processing improves the widget's performance on large datasets. When the server does not implement particular operations (and/or the corresponding **remoteOperations** fields are **false**) they are executed on the client. Note that the widget may send queries to the server while executing a client-side operation.
 
-Data operations can be categorized into basic operations (filtering, sorting) and advanced operations (grouping). The following table shows where data operations are performed by default.
+The following table lists the possible **remoteOperations** configurations and the operations the server should implement. The server should also implement additional operations depending on the used widget functionality. 
 
 <div class="simple-table">
-<table>
+<table style="text-align:center">
+ <tr>
+    <th>Setting</th>
+    <th>Required server-side operations</th>
+    <th>Additional server-side operations</th>
+ </tr>
   <tr>
-    <th></th>
-    <th>Basic operations</th>
-    <th>Advanced operations</th>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: { filtering: true }</code></td>
+    <td>filtering</td>
+    <td>-</td>
  </tr>
  <tr>
-    <td><a href="/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources">CustomStore</a></td>
-    <td style="text-align:center">client</td>
-    <td style="text-align:center">client</td>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: { sorting: true }</code></td>
+    <td>sorting</td>
+    <td>filtering<sup>*</sup></td>
  </tr>
  <tr>
-    <td><a href="/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData">ODataStore</a></td>
-    <td style="text-align:center">server</td>
-    <td style="text-align:center">client (always)</td>
+    <td style="text-align:left; font-style:normal"><code>remoteOperations: { grouping: true }</code></td>
+    <td>grouping, filtering</td>
+    <td>sorting<sup>*</sup></td>
  </tr>
 </table>
 </div>
 
-[note]You cannot perform data operations on the server with an [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/), a [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/) or an array of objects.
+<div style="font-size:12px;margin-bottom:10px;margin-left:25px">
+    <sup>*</sup> - If this functionality is used in the widget.<br />
+</div>
 
-To control individual operations, assign a Boolean value to a corresponding field of the **remoteOperations** object. Note that making data operations remote makes sense only if data has a [plain structure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataStructure).
+[note] Filtering and sorting are performed on the server side for the [ODataStore](/Documentation/Guide/Widgets/TreeList/Data_Binding/OData_Service/), but you can change them to the client side by setting the corresponding **remoteOperations** fields to **false**. Other operations are always client-side.
 
-[note]If actual data is stored on the server, making data operations local does _not_ guarantee that no queries for data will be sent to the server while these operations are being performed. It only guarantees that _calculations_ will be performed on the client.
+When operations are performed on the server side, the **TreeList** does not support:
 
-Note that when the operations are performed remotely, the **TreeList** does not support:
-
-- sorting, grouping and filtering by columns with the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue) or [calculateDisplayValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateDisplayValue) option defined;
+- sorting, grouping, and filtering by columns with the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue) or [calculateDisplayValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateDisplayValue) option defined;
 - custom sorting using functions (that is, [calculateSortValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateSortValue) accepts strings only).
+
+#include common-demobutton-named with {
+    name: "Web API Service",
+    url: "/Demos/WidgetsGallery/Demo/TreeList/WebAPIService/jQuery/Light/"
+}
+
+#####See Also#####
+- **Data Binding**: [Web API Service](/Documentation/Guide/Widgets/TreeList/Data_Binding/Web_API_Service/) | [PHP Service](/Documentation/Guide/Widgets/TreeList/Data_Binding/PHP_Service/) | [MongoDB Service](/Documentation/Guide/Widgets/TreeList/Data_Binding/MongoDB_Service/) | [Custom Sources](/Documentation/Guide/Widgets/TreeList/Data_Binding/Custom_Sources/)
 <!--/fullDescription-->

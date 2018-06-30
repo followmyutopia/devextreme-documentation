@@ -100,3 +100,4 @@ Searching is performed differently depending on a column's [data type](/Document
 
 #####See Also#####
 - [Filtering API - Initial and Runtime Filtering](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#API/Initial_and_Runtime_Filtering)
+- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/)

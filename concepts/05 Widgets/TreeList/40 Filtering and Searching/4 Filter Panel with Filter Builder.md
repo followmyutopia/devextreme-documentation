@@ -189,3 +189,4 @@ The **TreeList** provides the [filterBuilder](/Documentation/ApiReference/UI_Wid
 
 #####See Also#####
 - [FilterBuilder - Overview](/Documentation/Guide/Widgets/FilterBuilder/Overview/)
+- [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/remoteOperations/)
