@@ -3,8 +3,7 @@
 To show or hide the **Popup** programmatically, call the [show()](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/#show) or [hide()](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/#hide) method. The same thing can be done using the [toggle(showing)](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/#toggleshowing) method. Pass **true** or **false** to this method to show or hide the **Popup**, respectively.
 
 ---
-
-#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#popupContainer").dxPopup({
@@ -31,7 +30,7 @@ To show or hide the **Popup** programmatically, call the [show()](/Documentation
         });
     });
 
-#####[**ASP.NET MVC Controls**](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Creating_a_Widget)
+##### ASP.NET MVC Controls
 
     <!--Razor C#-->
     @(Html.DevExtreme().Popup()
@@ -100,11 +99,43 @@ To show or hide the **Popup** programmatically, call the [show()](/Documentation
 
 ---
 
-With AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#visible) property of the **Popup** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **Popup** will appear or disappear.
+With Angular, AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#visible) property of the **Popup** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, change them, and the **Popup** will appear or disappear.
 
 ---
+##### Angular
 
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) 
+    <!--HTML-->
+    <dx-popup
+        title="Popup Title"
+        [(visible)]="isPopupVisible">
+        <div *dxTemplate="let data of 'content'">
+            <p>Popup content</p>
+        </div>
+    </dx-popup>
+    <dx-button
+        text="Show the Popup"
+        (onClick)="isPopupVisible = true">
+    </dx-button>
+    <dx-button
+        text="Hide the Popup"
+        (onClick)="isPopupVisible = false">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxPopupModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isPopupVisible: boolean = false;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopupModule
+        ],
+        // ...
+    })
+
+##### AngularJS
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -137,7 +168,7 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
             };
         });
 
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+##### Knockout
 
     <!--HTML-->
     <div data-bind="dxPopup: {

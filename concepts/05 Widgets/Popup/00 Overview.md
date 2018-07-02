@@ -6,6 +6,9 @@ The **Popup** widget is a pop-up window overlaying the current view.
 
 The following code adds a simple **Popup** to your page, along with a [Button](/Documentation/Guide/Widgets/Button/Overview/) that invokes it. The simplest configuration of the **Popup** requires the content and [title](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#title) to be specified. 
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="popupContainer">
         <p>Popup content</p>
@@ -25,6 +28,38 @@ The following code adds a simple **Popup** to your page, along with a [Button](/
             } 
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-popup
+        title="Popup Title"
+        [(visible)]="isPopupVisible">
+        <div *dxTemplate="let data of 'content'">
+            <p>Popup content</p>
+        </div>
+    </dx-popup>
+    <dx-button
+        text="Show the Popup"
+        (onClick)="isPopupVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxPopupModule, DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isPopupVisible: boolean = false;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopupModule,
+            DxButtonModule
+        ],
+        // ...
+    })
+
+---
 
 There are several ways to specify the content of the **Popup**. Learn more in the [Customize the Content](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Content/) article. The **Popup** can also be displayed with a toolbar. For detailed information, see the [Specify Toolbar Items](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Specify_Toolbar_Items/) topic. 
 

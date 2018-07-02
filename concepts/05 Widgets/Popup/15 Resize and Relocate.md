@@ -1,5 +1,8 @@
 To change the size of the **Popup**, specify the [height](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#height) and [width](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#width) options.
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="popupContainer">
         <p>Popup content</p>
@@ -15,7 +18,39 @@ To change the size of the **Popup**, specify the [height](/Documentation/ApiRefe
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-popup
+        title="Popup Title"
+        [(visible)]="isPopupVisible"
+        [height]="300"
+        [width]="500">
+        <div *dxTemplate="let data of 'content'">
+            <p>Popup content</p>
+        </div>
+    </dx-popup>
+
+    <!--TypeScript-->
+    import { DxPopupModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isPopupVisible: boolean = true;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopupModule
+        ],
+        // ...
+    })
+
+---
+
 To allow an end user to resize the **Popup**, assign **true** to the [resizeEnabled](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#resizeEnabled) option.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -26,7 +61,35 @@ To allow an end user to resize the **Popup**, assign **true** to the [resizeEnab
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-popup
+        title="Popup Title"
+        [(visible)]="isPopupVisible"
+        [resizeEnabled]="true">
+    </dx-popup>
+
+    <!--TypeScript-->
+    import { DxPopupModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isPopupVisible: boolean = true;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopupModule
+        ],
+        // ...
+    })
+
+---
+
 If you need to position the **Popup** against a specific element on your page, set the [position](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#position) option.
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#popupContainer").dxPopup({
@@ -40,9 +103,41 @@ If you need to position the **Popup** against a specific element on your page, s
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-popup
+        title="Popup Title"
+        [(visible)]="isPopupVisible">
+        <dxo-position
+            my="left"
+            at="left"
+            of="#targetElement">
+        </dxo-position>
+    </dx-popup>
+
+    <!--TypeScript-->
+    import { DxPopupModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isPopupVisible: boolean = true;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopupModule
+        ],
+        // ...
+    })
+
+---
+
 This configuration of the **position** option reads as follows: "place **my** _left_ side **at** the _left_ side **of** the *"#targetElement"*.
 
 By default, an end user is allowed to change the **Popup** position only on desktops. To enable this feature on other devices too, set the [dragEnabled](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#dragEnabled) option to **true**. Note that the user drags the **Popup** by its title, so the title should _not_ be hidden.  
+
+---
+##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#popupContainer").dxPopup({
@@ -51,6 +146,31 @@ By default, an end user is allowed to change the **Popup** position only on desk
             dragEnabled: true
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-popup
+        title="Popup Title"
+        [(visible)]="isPopupVisible"
+        [dragEnabled]="true">
+    </dx-popup>
+
+    <!--TypeScript-->
+    import { DxPopupModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isPopupVisible: boolean = true;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopupModule
+        ],
+        // ...
+    })
+
+---
 
 [note]Dragging is possible only if the *"height: 100%"* style is applied to the `<html>` element and *"min-height: 100%"* - to the `<body>` element.
 

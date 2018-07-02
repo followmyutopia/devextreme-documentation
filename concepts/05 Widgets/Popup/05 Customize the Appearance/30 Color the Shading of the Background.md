@@ -1,5 +1,8 @@
 When the **Popup** is shown, the area beneath it can be shaded. To enable this behavior, assign **true** to the [shading](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#shading) option. The shading color is specified by the [shadingColor](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#shadingColor) option.
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="popupContainer">
         <p>Popup content</p>
@@ -13,6 +16,32 @@ When the **Popup** is shown, the area beneath it can be shaded. To enable this b
             shadingColor: "rgba(0, 0, 0, 0.2)"
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-popup
+        title="Popup Title"
+        [(visible)]="isPopupVisible"
+        [shading]="true"
+        shadingColor="rgba(0, 0, 0, 0.2)">
+    </dx-popup>
+
+    <!--TypeScript-->
+    import { DxPopupModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        isPopupVisible: boolean = true;
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopupModule
+        ],
+        // ...
+    })
+
+---
 
 Note that the default shading color is transparent.
 

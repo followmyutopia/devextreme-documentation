@@ -1,5 +1,8 @@
 To execute certain commands before or after the **Popup** was shown/hidden, handle the [showing](/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#showing), [shown](/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#shown), [hiding](/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#hiding) or [hidden](/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#hidden) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option when you configure the widget.
 
+---
+##### jQuery
+
     <!--JavaScript-->$(function () {
         $("#popupContainer").dxPopup({
             // ...
@@ -18,7 +21,44 @@ To execute certain commands before or after the **Popup** was shown/hidden, hand
         });
     });
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/#oneventName_eventHandler) method.
+##### Angular
+
+    <!--HTML-->
+    <dx-popup ...
+        (onShowing)="popup_showing($event)"
+        (onShown)="popup_shown($event)"
+        (onHiding)="popup_hiding($event)"
+        (onHidden)="popup_hidden($event)">
+    </dx-popup>
+
+    <!--TypeScript-->
+    import { DxPopupModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        popup_showing (e) {
+            // Handler of the "showing" event
+        }
+        popup_shown (e) {
+            // Handler of the "shown" event
+        }
+        popup_hiding (e) {
+            // Handler of the "hiding" event
+        }
+        popup_hidden (e) {
+            // Handler of the "hidden" event
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPopupModule
+        ],
+        // ...
+    })
+
+---
+
+If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxPopup/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var hiddenEventHandler1 = function (e) {
