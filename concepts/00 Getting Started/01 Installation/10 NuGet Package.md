@@ -10,7 +10,5 @@ After installing the NuGet package, you need to link the DevExtreme stylesheets 
 
 #####See Also#####
 - [Installing NuGet](http://docs.nuget.org/docs/start-here/installing-nuget)
-- [Bower Package](/Documentation/Guide/Getting_Started/Installation/Bower_Package)
-- [npm Package](/Documentation/Guide/Getting_Started/Installation/npm_Package)
 
 [tags]getting started, install, nuget, package
