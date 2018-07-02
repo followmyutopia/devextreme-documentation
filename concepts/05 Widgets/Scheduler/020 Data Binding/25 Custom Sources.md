@@ -1,12 +1,4 @@
-DevExtreme provides the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component, a flexible instrument that allows you to configure data access manually, for consuming data from any source. The following extensions for ASP.NET and PHP servers simplify the task of configuring the **CustomStore** and implement server-side data processing as well:
-
-- [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
-- [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
-
-#include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/WebAPIService/jQuery/Light/",
-    name: "Web API Service"
-}
+Access to a custom data source is configured using the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component. DevExtreme provides [ASP.NET](/Documentation/Guide/Widgets/List/Data_Binding/Web_API_Service/) and [PHP](/Documentation/Guide/Widgets/List/Data_Binding/PHP_Service/) extensions to configure the **CustomStore** and implement server-side data processing. You can also use the third-party extension for [MongoDB](/Documentation/Guide/Widgets/List/Data_Binding/MongoDB_Service/). 
 
 You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. 
 
@@ -69,34 +61,9 @@ You need to configure the **CustomStore** in detail for accessing a server built
 
 ---
 
-In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function. In case of the **Scheduler**, the only relevant setting is **filter**, which is passed when the **Scheduler**'s [remoteFiltering](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#remoteFiltering) option is set to **true**:
+In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function. In case of the **Scheduler**, the only relevant setting is [filter](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#filter). It is passed when the **Scheduler**'s [remoteFiltering](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#remoteFiltering) option is set to **true**.
 
-* **filter**: <span style="font-size:smaller">Array</span>      
-Defines filtering parameters. Present if the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option is set. Possible variants:
-
-    * Binary filter
-
-            [ "field", "=", 3 ]
-
-    * Unary filter
-    
-             [ "!", [ "field", "=", 3 ] ]
-
-    * Complex filter
-    
-            [
-                [ "field", "=", 10 ],
-                "and",
-                [
-                    [ "otherField", "<", 3 ],
-                    "or",
-                    [ "otherField", ">", 11 ]
-                ]
-            ]
-
-    See the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) topic for more details.
-
-After receiving this setting, the server should apply it to data and send back an object of the following structure:
+After receiving this setting, the server should apply it to data and send back an object with the following structure:
 
     {
         data: [ ... ] // result data objects

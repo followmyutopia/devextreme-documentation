@@ -1,9 +1,6 @@
-﻿DevExtreme provides the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component, a flexible instrument that allows you to configure data access manually, for consuming data from any source. The following extensions for ASP.NET and PHP servers simplify the task of configuring the **CustomStore** and implement server-side data processing as well:
+﻿Access to a custom data source is configured using the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component. DevExtreme provides [ASP.NET](/Documentation/Guide/Widgets/List/Data_Binding/Web_API_Service/) and [PHP](/Documentation/Guide/Widgets/List/Data_Binding/PHP_Service/) extensions to configure the **CustomStore** and implement server-side data processing. You can also use the third-party extension for [MongoDB](/Documentation/Guide/Widgets/List/Data_Binding/MongoDB_Service/). 
 
-- [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data)
-- [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data)
-
-You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. 
+You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the following example: 
 
 ---
 #####jQuery
@@ -65,56 +62,22 @@ You need to configure the **CustomStore** in detail for accessing a server built
 
 In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function and depend on the operations (paging, filtering, sorting, etc.) that you have enabled in the **DataSource**. The following settings are relevant for the **List**:
 
-* **take**: <span style="font-size:smaller">Number</span>      
-Restricts the number of top-level data objects to return.
+- **Paging settings**: [take](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#take), [skip](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#skip), [requireTotalCount](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireTotalCount)   
+Present if [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) is **true** and [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) is set in the **DataSource**. The **requireTotalCount** setting appears when the **List**'s [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectAllMode) is *"allPages"*.
 
-* **skip**: <span style="font-size:smaller">Number</span>      
-Skips some data objects from the start of the result set. **skip** and **take** are present if [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) is **true** and [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) is set in the **DataSource**.
+- **Sorting settings**: [sort](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#sort)         
+Present if the **DataSource**'s [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) option is set.
 
-* **sort**: <span style="font-size:smaller">Array</span>      
-Defines sorting parameters. Present if the **DataSource**'s [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) option is set. Multiple parameters apply to the data in sequence to implement multi-level sorting. Contains objects of the following structure:
+- **Filtering settings**: [filter](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#filter)    
+Present if the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option is set or [searching is enabled](/Documentation/Guide/Widgets/List/Searching/) in the widget.
 
-        { selector: "field", desc: true/false }    
+- **Searching settings**: [searchExpr](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#searchExpr), [searchOperation](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#searchOperation), and [searchValue](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#searchValue)     
+Present if [corresponding options](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) are set in the **DataSource**.
 
-* **filter**: <span style="font-size:smaller">Array</span>      
-Defines filtering parameters. Present if the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option is set. Possible variants:
+- **Grouping settings**: [group](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#group)      
+Present if the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option is set.
 
-    * Binary filter
-
-            [ "field", "=", 3 ]
-
-    * Unary filter
-    
-             [ "!", [ "field", "=", 3 ] ]
-
-    * Complex filter
-    
-            [
-                [ "field", "=", 10 ],
-                "and",
-                [
-                    [ "otherField", "<", 3 ],
-                    "or",
-                    [ "otherField", ">", 11 ]
-                ]
-            ]
-
-    See the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) topic for more details.
-
-* **searchExpr**, **searchOperation** and **searchValue**: <span style="font-size:smaller">Strings</span>    
-Another way to define a filter restricted to one criterion. Present if [corresponding options](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) are set in the **DataSource**.
-
-* **group**: <span style="font-size:smaller">Array</span>     
-Defines grouping levels to be applied to the data. Present if the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option is set. Contains objects of the following structure:
-
-        { selector: "field", desc: true/false }
-
-    See the [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) topic for more details.
-
-* **requireTotalCount**: <span style="font-size:smaller">Boolean</span>     
-Indicates that a total count of data objects in the result set must be returned in the **totalCount** field of the result. This count must reflect the number of data items after filtering, but disregard any **take** parameter used for the query. Used when the **List**'s [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectAllMode) is *"allPages"*.
-
-After receiving these settings, the server should apply them to data and send back an object of the following structure:
+After receiving these settings, the server should apply them to data and send back an object with the following structure:
 
     {
         data: [{
@@ -126,14 +89,14 @@ After receiving these settings, the server should apply them to data and send ba
         totalCount: 100
     }
 
-If the **group** setting is absent, the object structure is different: 
+If the server has not received the **group** parameter, the resulting object should be as follows:
 
     {
         data: [ ... ], // result data objects
         totalCount: 100
     }
 
-If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/List/Item_Deletion/), the **CustomStore** must implement the [remove](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#remove) operation as well. Here is a generalized configuration of the **CustomStore** for the **List** widget.
+If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/List/Item_Deletion/), the **CustomStore** must implement the [remove](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#remove) operation as well. Below is a generalized configuration of the **CustomStore** for the **List** widget.
 
 ---
 #####jQuery

@@ -20,56 +20,22 @@ The **CustomSource**'s configuration differs depending on whether data is proces
 
 In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function and depend on the operations (paging, filtering, sorting, etc.) that you have enabled in the **DataSource**. The following settings are relevant for the **TagBox**:
 
-* **take**: <span style="font-size:smaller">Number</span>      
-Restricts the number of top-level data objects that are returned.
+- **Paging settings**: [take](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#take), [skip](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#skip), [requireTotalCount](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireTotalCount)   
+Present if [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) is **true** and [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) is set in the **DataSource**. The **requireTotalCount** setting appears when the **TagBox**'s [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#selectAllMode) is *"allPages"*.
 
-* **skip**: <span style="font-size:smaller">Number</span>      
-Skips some data objects from the start of the result set. **skip** and **take** are present if [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) is **true** and [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) is set in the **DataSource**.
+- **Sorting settings**: [sort](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#sort)         
+Present if the **DataSource**'s [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) option is set.
 
-* **sort**: <span style="font-size:smaller">Array</span>      
-Defines sorting parameters. Present if the **DataSource**'s [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) option is set. Multiple parameters apply to the data in sequence to implement multi-level sorting. Contains objects of the following structure:
+- **Filtering settings**: [filter](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#filter)    
+Present if the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option is set or [searching is enabled](/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/) in the widget.
 
-        { selector: "field", desc: true/false }    
+- **Searching settings**: [searchExpr](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#searchExpr), [searchOperation](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#searchOperation), and [searchValue](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#searchValue)     
+Present if [corresponding options](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) are set in the **DataSource**.
 
-* **filter**: <span style="font-size:smaller">Array</span>      
-Defines filtering parameters. Present if the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option is set. Possible variants:
+- **Grouping settings**: [group](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#group)      
+Present if the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option is set.
 
-    * Binary filter
-
-            [ "field", "=", 3 ]
-
-    * Unary filter
-    
-             [ "!", [ "field", "=", 3 ] ]
-
-    * Complex filter
-    
-            [
-                [ "field", "=", 10 ],
-                "and",
-                [
-                    [ "otherField", "<", 3 ],
-                    "or",
-                    [ "otherField", ">", 11 ]
-                ]
-            ]
-
-    See the [Filtering](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering) topic for more details.
-
-* **searchExpr**, **searchOperation** and **searchValue**: <span style="font-size:smaller">Strings</span>    
-Another way to define a filter restricted to one criterion. Present if [corresponding options](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) are set in the **DataSource**.
-
-* **group**: <span style="font-size:smaller">Array</span>     
-Defines grouping levels to be applied to the data. Present if the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option is set. Contains objects of the following structure:
-
-        { selector: "field", desc: true/false }
-
-    See the [Grouping](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Grouping) topic for more details.
-
-* **requireTotalCount**: <span style="font-size:smaller">Boolean</span>     
-Indicates that a total count of data objects in the result set must be returned in the **totalCount** field of the result. This count must reflect the number of data items after filtering, but disregard any **take** parameter used for the query. Used when the **TagBox**'s [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#selectAllMode) is *"allPages"*.
-
-After receiving these settings, the server should apply them to data and send back an object of the following structure:
+After receiving these settings, the server should apply them to data and send back an object with the following structure:
 
     {
         data: [{
@@ -88,7 +54,7 @@ If the **group** setting is absent, the object structure is different:
         totalCount: 100
     }
 
-If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#value) beforehand, the **CustomStore** should implement the [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) operation as well. Below is a generalized **CustomStore** configuration for the **TagBox** widget.
+If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#value) beforehand, the **CustomStore** should implement the [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) operation. If the **TagBox** allows a user [to add custom items](/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/), implement the [insert](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#insert) method. Below is a generalized **CustomStore** configuration for the **TagBox** widget.
 
     <!--JavaScript-->$(function() {
         $("#tagBoxContainer").dxTagBox({
@@ -121,6 +87,13 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
                             d.resolve(result);
                         });
                     return d.promise();
+                },
+                insert: function (values) {
+                    return $.ajax({
+                        url: "http://mydomain.com/MyDataService/",
+                        method: "POST",
+                        data: values
+                    })
                 }
             })
         });
