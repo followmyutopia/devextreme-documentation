@@ -49,7 +49,7 @@ Specify the **height** and **width** options to change the **LoadPanel**'s size:
 
 ---
 
-The [container](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#container) option specifies the **LoadPanel**'s container. The container is shaded when the **LoadPanel** is visible; the **LoadPanel** inherits styles from the container and is scrolled with. To position the widget near a specific element, use the [position](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#position) option:
+The [container](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#container) option specifies the **LoadPanel**'s container. The container is shaded when the **LoadPanel** is visible; the **LoadPanel** inherits styles from the container and is scrolled with. To position the widget relative to a specific element, use the [position](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#position) option:
 
 ---
 ##### jQuery
