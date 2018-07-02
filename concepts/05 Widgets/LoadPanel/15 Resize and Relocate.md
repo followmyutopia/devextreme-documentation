@@ -1,10 +1,10 @@
-To change the size of the **LoadPanel**, specify the **height** and **width** options.
+Specify the **height** and **width** options to change the **LoadPanel**'s size:
 
 ---
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-		$("#loadPanelContainer").dxLoadPanel({
+        $("#loadPanelContainer").dxLoadPanel({
             closeOnOutsideClick: true,
             height: 300,
             width: 500
@@ -49,21 +49,18 @@ To change the size of the **LoadPanel**, specify the **height** and **width** op
 
 ---
 
-If you need to position the **LoadPanel** against a specific element on your page, set the [position](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#position) option.
+The [container](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#container) option specifies the **LoadPanel**'s container. The container is shaded when the **LoadPanel** is visible; the **LoadPanel** inherits styles from the container and is scrolled with. To position the widget near a specific element, use the [position](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/Configuration/#position) option:
 
 ---
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-		$("#loadPanelContainer").dxLoadPanel({
+        $("#loadPanelContainer").dxLoadPanel({
             closeOnOutsideClick: true,
-            position: {
-                my: "left",
-                at: "left",
-                of: "#targetElement"
-            }
-        });
-
+            container: "#container",
+            position: { my: "left", at: "left", of: "#targetElement" }
+        });  
+ 
         $("#buttonContainer").dxButton({
             text: "Show the Load Panel", 
             onClick: function () {
@@ -77,6 +74,7 @@ If you need to position the **LoadPanel** against a specific element on your pag
     <!--HTML-->
     <dx-load-panel
         [closeOnOutsideClick]="true"
+        container="#container"
         [(visible)]="isLoadPanelVisible">
         <dxo-position
             my="left"
@@ -106,11 +104,10 @@ If you need to position the **LoadPanel** against a specific element on your pag
 
 ---
 
-This configuration of the **position** option reads as follows: "place **my** _left_ side **at** the _left_ side **of** the *"#targetElement"*.
+This configuration of the **position** option reads as follows: "place **my** _left_ side **at** the _left_ **of** the *"#targetElement"*.
 
 #####See Also#####
-- [LoadPanel - Customize the Appearance](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/)
+- [Customize the Appearance](/Documentation/Guide/Widgets/LoadPanel/Customize_the_Appearance/)
 - [LoadPanel Demos](/Demos/WidgetsGallery/#demo/dialogs_and_notifications-load_panel-overview)
-- [LoadPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxLoadPanel/)
 
 [tags]loadPanel, load panel, overlay, size, height, width, position

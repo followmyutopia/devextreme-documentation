@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the container in which to place the widget. 
+Specifies the widget's container. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
 The default container is defined during the widget's initialization. It is the viewport, or the body element if the viewport is not found, or the parent element if the previous two are absent.
 
-The specified container affects some features of the **LoadPanel**: the area to be shaded, behavior on scrolling, etc.
+The specified container is shaded when the **LoadPanel** is visible; the **LoadPanel** inherits styles from the container and is scrolled with it.
 <!--/fullDescription-->
