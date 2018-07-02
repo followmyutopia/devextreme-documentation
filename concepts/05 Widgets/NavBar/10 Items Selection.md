@@ -1,5 +1,8 @@
 An end user can select **NavBar** items in two different modes: *'single'* (by default) or *'multiple'*.  You can use the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/#selectionMode) option to change the mode. 
 
+---
+##### jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#navBarContainer").dxNavBar({
@@ -8,7 +11,35 @@ An end user can select **NavBar** items in two different modes: *'single'* (by d
         });
     });
 
+##### Angular
+
+    <!--HTML-->
+    <dx-nav-bar ...
+        selectionMode="multiple">
+        <dxi-item text="User" icon="user"></dxi-item>
+        <!-- ... -->
+    </dx-nav-bar>
+
+    <!--TypeScript-->
+    import { DxNavBarModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxNavBarModule
+        ],
+        // ...
+    })
+
+---
+
 If you need an item to be preselected, pass its index in the data source array to the [selectedIndex](/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/#selectedIndex) option.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     var navBarItems = [
@@ -20,12 +51,39 @@ If you need an item to be preselected, pass its index in the data source array t
     $(function() {
         $("#navBarContainer").dxNavBar({
             items: navBarItems,
-            selectedIndex: 1,
-            maxIndex: 2
+            selectedIndex: 1
         });
     });
 
-As an alternative, you can use the [selectedItem](/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/#selectedItem) (for *"single"* **selectionMode**) or [selectedItems](/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/#selectedItems) (for *"multiple"* **selectionMode**) options.
+##### Angular
+
+    <!--HTML-->
+    <dx-nav-bar [selectedIndex]="1">
+        <dxi-item text="User" icon="user"></dxi-item>
+        <dxi-item text="Find" icon="find"></dxi-item>
+        <dxi-item text="Favorites" icon="favorites"></dxi-item>
+    </dx-nav-bar>
+
+    <!--TypeScript-->
+    import { DxNavBarModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxNavBarModule
+        ],
+        // ...
+    })
+
+---
+
+As an alternative, you can use the [selectedItem](/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/#selectedItem) (for *"single"* **selectionMode**) or [selectedItems](/Documentation/ApiReference/UI_Widgets/dxNavBar/Configuration/#selectedItems) (for *"multiple"* **selectionMode**) options. This approach is suitable if the **NavBar** items are specified using an array rather than the [dxItem](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxItem/) markup component.
+
+---
+##### jQuery
 
     <!--JavaScript-->
     var navBarItems = [
@@ -40,13 +98,46 @@ As an alternative, you can use the [selectedItem](/Documentation/ApiReference/UI
     $(function() {
         $("#navBarContainer").dxNavBar({
             items: navBarItems,
-            maxIndex: 5
             selectedItem: navBarItems[3],
-            // ---------- or ----------
+            // ========== or ==========
             selectionMode: 'multiple',
             selectedItems: [ navBarItems[3], navBarItems[4] ]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-nav-bar
+        [items]="navBarItems"
+        [selectedItem]="navBarItems[3]">
+        <!-- ========== or ========== 
+        selectionMode="multiple"
+        [selectedItems]="[ navBarItems[3], navBarItems[4] ]"> -->
+    </dx-nav-bar>
+
+    <!--TypeScript-->
+    import { DxNavBarModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        navBarItems = [
+            { text: "User", icon: "user" },
+            { text: "Find", icon: "find" },
+            { text: "Favorites", icon: "favorites" },
+            { text: "About", icon: "info" },
+            { text: "Home", icon: "home" },
+            { text: "URI", icon: "tips" }
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxNavBarModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [NavBar - Customize Item Appearance](/Documentation/Guide/Widgets/NavBar/Customize_Item_Appearance)

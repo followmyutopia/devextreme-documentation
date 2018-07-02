@@ -6,6 +6,9 @@ The **NavBar** is a widget that navigates the application views.
 
 The following code adds the **NavBar** to your page. All navigation items have icons and one of them has a [badge](/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/#badge). 
 
+---
+##### jQuery
+
     <!--HTML-->
     <div id="navBarContainer"></div>
 
@@ -20,6 +23,32 @@ The following code adds the **NavBar** to your page. All navigation items have i
             ]
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-nav-bar>
+        <dxi-item text="User" icon="user"></dxi-item>
+        <dxi-item text="Find" icon="find"></dxi-item>
+        <dxi-item text="Favorites" icon="favorites" badge="New"></dxi-item>
+        <dxi-item text="About" icon="info"></dxi-item>
+    </dx-nav-bar>
+
+    <!--TypeScript-->
+    import { DxNavBarModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxNavBarModule
+        ],
+        // ...
+    })
+
+---
 
 Note that all data source items follow the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/) pattern. This provides a default item appearance, which can be customized later.
 
