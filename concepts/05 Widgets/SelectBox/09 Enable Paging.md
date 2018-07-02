@@ -1,5 +1,3 @@
-Paging enables the widget to load and render data in portions. Remote data loaded using the **CustomStore** in [raw mode](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Load_Data_in_Raw_Mode) and local data is only rendered one page at a time. In other cases, remote data is loaded and rendered one page at a time if the server can partition data.
- 
 Paging options are set in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/): [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) enables paging; [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) specifies how many data items a page should contain.
 
 ---
@@ -62,8 +60,10 @@ Paging options are set in the [DataSource](/Documentation/ApiReference/Data_Laye
 
 ---
 
+[Local arrays](/Documentation/Guide/Widgets/SelectBox/Data_Binding/Simple_Array/Array_Only/) and remote datasets loaded using the **CustomStore** in [raw mode](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Load_Data_in_Raw_Mode) are *only rendered* page by page. In other cases, remote datasets are *also loaded* page by page if the server can partition data.
+
 #####See Also#####
-- [Data Binding - Custom Sources](/Documentation/Guide/Widgets/SelectBox/Data_Binding/Custom_Sources/)
+- **Data Binding**: [Web API Service](/Documentation/Guide/Widgets/SelectBox/Data_Binding/Web_API_Service/) | [PHP Service](/Documentation/Guide/Widgets/SelectBox/Data_Binding/PHP_Service/) | [MongoDB Service](/Documentation/Guide/Widgets/SelectBox/Data_Binding/MongoDB_Service/) | [OData Service](/Documentation/Guide/Widgets/SelectBox/Data_Binding/OData_Service/) | [Custom Sources](/Documentation/Guide/Widgets/SelectBox/Data_Binding/Custom_Sources/) | [JavaScript Array](/Documentation/Guide/Widgets/SelectBox/Data_Binding/Simple_Array/Array_Only/)
 - [SelectBox Demos](/Demos/WidgetsGallery/Demo/SelectBox/Overview/jQuery/Light/)
 
 [tags]selectbox, select box, paginate, page size, pageSize

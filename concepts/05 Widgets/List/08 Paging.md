@@ -1,6 +1,4 @@
-﻿Paging enables the widget to load and render data in portions. Remote data loaded using the **CustomStore** in [raw mode](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Load_Data_in_Raw_Mode) and local data is only rendered one page at a time. In other cases, remote data is loaded and rendered one page at a time if the server can partition data.
- 
-Paging options are set in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/): [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) enables paging; [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) specifies how many data items a page should contain.
+﻿Paging options are set in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/): [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) enables paging; [pageSize](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pageSize) specifies how many data items a page should contain.
 
 ---
 #####jQuery
@@ -93,11 +91,12 @@ The next page can be rendered when a user scrolls the **List** down to the botto
 
 ---
 
-[note] The **List** loads as many pages as it can fit into its [height](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#height) when the widget is displayed for the first time and the **pageLoadMode** is set to *"scrollBottom"*.
+[note] The **List** renders as many pages as it can fit into its [height](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#height) when the widget is displayed for the first time and the **pageLoadMode** is set to *"scrollBottom"*.
+
+[Local arrays](/Documentation/Guide/Widgets/List/Data_Binding/Simple_Array/Array_Only/) and remote datasets loaded using the **CustomStore** in [raw mode](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources/Load_Data_in_Raw_Mode) are *only rendered* page by page. In other cases, remote datasets are *also loaded* page by page if the server can partition data.
 
 #####See Also#####
+- **Data Binding**: [Web API Service](/Documentation/Guide/Widgets/List/Data_Binding/Web_API_Service/) | [PHP Service](/Documentation/Guide/Widgets/List/Data_Binding/PHP_Service/) | [MongoDB Service](/Documentation/Guide/Widgets/List/Data_Binding/MongoDB_Service/) | [OData Service](/Documentation/Guide/Widgets/List/Data_Binding/OData_Service/) | [Custom Sources](/Documentation/Guide/Widgets/List/Data_Binding/Custom_Sources/) | [JavaScript Array](/Documentation/Guide/Widgets/List/Data_Binding/Simple_Array/Array_Only/)
 - [List - Localization](/Documentation/Guide/Widgets/List/Localization/)
-- [List Demos](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/)
-- [List API Reference](/Documentation/ApiReference/UI_Widgets/dxList/)
 
 [tags]list, paging, paginate, pageSize, pageLoadMode
