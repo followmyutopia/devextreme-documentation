@@ -131,7 +131,7 @@ If objects in your data source miss the **key** and **items** fields, use the [m
             ]
         }];
         selectBoxDataSource = new DataSource({
-            store: fruitsVegetables,
+            store: this.fruitsVegetables,
             map: function(item) {
                 return {
                     key: item.type,
@@ -201,7 +201,7 @@ If your data is not grouped, you can group it using the [group](/Documentation/A
             { type: "Vegetables", name: "Turnips", count: 8 }
         ];
         selectBoxDataSource = new DataSource({
-            store: fruitsVegetables,
+            store: this.fruitsVegetables,
             group: "type"
         });
     }

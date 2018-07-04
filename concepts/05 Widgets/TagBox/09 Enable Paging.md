@@ -15,6 +15,35 @@ Paging options are set in the [DataSource](/Documentation/ApiReference/Data_Laye
         });
     });
 
+#####Angular
+
+    <!--TypeScript-->
+    import { DxTagBoxModule } from 'devextreme-angular';
+    import DataSource from 'devextreme/data/data_source';
+    // ...
+    export class AppComponent {
+        tagBoxData: DataSource = {};
+        constructor() {
+            this.tagBoxData = new DataSource({
+                store: /* A store is configured here */,
+                paginate: true,
+                pageSize: 10
+            });
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule,
+         ],
+         // ...
+     })
+
+    <!--HTML-->
+    <dx-tag-box ...
+        [dataSource]="tagBoxData">
+    </dx-tag-box>
+
 #####ASP.NET MVC Controls
 
     <!--Razor C#-->

@@ -1,5 +1,8 @@
 Load JSON data by assigning its URL to the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#dataSource) option. 
-    
+
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#tagBoxContainer").dxTagBox({
             dataSource: "https://jsonplaceholder.typicode.com/users",
@@ -8,7 +11,35 @@ Load JSON data by assigning its URL to the [dataSource](/Documentation/ApiRefere
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-tag-box
+        dataSource="https://jsonplaceholder.typicode.com/users"
+        valueExpr="username"
+        displayExpr="name">
+    </dx-tag-box>
+
+    <!--TypeScript-->
+    import { DxTagBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule
+         ],
+         // ...
+     })
+
+---
+
 Note that you can also use a JSONP callback parameter supported by [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/).
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#tagBoxContainer").dxTagBox({
@@ -16,6 +47,29 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
             // ...
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-tag-box ...
+        dataSource="http://www.example.com/dataservices/jsonpdata?callback=?">
+    </dx-tag-box>
+
+    <!--TypeScript-->
+    import { DxTagBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule
+         ],
+         // ...
+     })
+
+---
 
 Implement the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) if you need to process data after obtaining it. See the [Custom Sources](/Documentation/Guide/Widgets/TagBox/Data_Binding/Custom_Sources/) topic for more details.
 

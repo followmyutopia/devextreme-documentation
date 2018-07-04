@@ -12,7 +12,10 @@ Regardless of the data source you use, the **SelectBox** always wraps it in a [D
     // ...
     export class AppComponent {
         @ViewChild(DxSelectBoxComponent) selectBox: DxSelectBoxComponent;
-        let selectBoxDataSource = this.selectBox.instance.getDataSource();
+        ds: any = {};
+        getDataSource () {
+            this.ds = this.selectBox.instance.getDataSource();
+        }
     }
     @NgModule({
          imports: [

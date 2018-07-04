@@ -1,5 +1,8 @@
 For a minor customization of **TagBox** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxTagBox/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three items: the first is not customized, the second is disabled and the third is hidden.
 
+---
+#####jQuery
+
     <!--JavaScript-->
     $(function() {
         $("#tagBoxContainer").dxTagBox({
@@ -14,10 +17,79 @@ For a minor customization of **TagBox** items, you can use the default item temp
         });
     });
 
+
+#####Angular
+
+    <!--TypeScript-->
+    import { DxTagBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        products =  [
+            { text: "HD Video Player" },
+            { text: "SuperHD Video Player", disabled: true },
+            { text: "SuperPlasma 50", visible: false }
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule
+         ],
+         // ...
+     })
+
+    <!--HTML-->
+    <dx-tag-box
+        [dataSource]="products"
+        valueExpr="text"
+        displayExpr="text"
+        placeholder="Select products...">
+    </dx-tag-box>
+
+---
+
 Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template for widget items. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code shows how you can use **dxTemplate** to define a template for the **TagBox** items.
 
 ---
-#####**AngularJS**
+#####Angular
+
+    <!--HTML-->
+    <dx-tag-box
+        [dataSource]="tagBoxData"
+        displayExpr="name"
+        valueExpr="id"
+        itemTemplate="item">
+        <div *dxTemplate="let data of 'item'">
+            <img src="{{data.imgSrc}}" />
+            <div style="display:inline-block">{{data.name}}</div>
+        </div>
+    </dx-tag-box>
+
+    <!--TypeScript-->
+    import { DxTagBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        tagBoxData = [{
+            id: 1,
+            name: "HD Video Player",
+            imgSrc: "images/products/1-small.png"
+        }, {
+            id: 2,
+            name: "UltraHD Player",
+            imgSrc: "images/products/2-small.png"
+        },
+        // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule
+         ],
+         // ...
+     })
+
+#####AngularJS
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -28,7 +100,7 @@ Using the default item template is the easiest way to customize an item, but it 
             itemTemplate: 'item'
         }" dx-item-alias="product">
             <div data-options="dxTemplate: { name: 'item' }">
-                <img ng-src="{{ product.imgSrc }}"/>
+                <img ng-src="{{ product.imgSrc }}" />
                 <div style="display:inline-block">{{ product.name }}</div>
             </div>
         </div>
@@ -46,7 +118,7 @@ Using the default item template is the easiest way to customize an item, but it 
                 name: "UltraHD Player",
                 imgSrc: "images/products/2-small.png"
             },
-            // . . .
+            // ...
             ];
         });
 
@@ -62,7 +134,7 @@ Using the default item template is the easiest way to customize an item, but it 
         itemTemplate: 'item'
     }">
         <div data-options="dxTemplate: { name: 'item' }">
-            <img data-bind="attr: { src: imgSrc }"/>
+            <img data-bind="attr: { src: imgSrc }" />
             <div style="display:inline-block" data-bind="text: name"></div>
         </div>
     </div>
@@ -78,7 +150,7 @@ Using the default item template is the easiest way to customize an item, but it 
             name: "UltraHD Player",
             imgSrc: "images/products/2-small.png"
         },
-        // . . .
+        // ...
         ]
     };
 
@@ -98,7 +170,7 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
         name: "UltraHD Player",
         imgSrc: "images/products/2-small.png"
     },
-    // . . .
+    // ...
     ];
 
     $(function() {
@@ -127,13 +199,13 @@ You can also customize an individual item in the drop-down list. For this purpos
     var tagBoxData = [
         { text: "SuperHD Player"},
         { text: "HD Video Player", template: $("#individualTemplate") },
-        // . . .
+        // ...
     ];
 
 Using similar techniques, you can also customize tags of the selected items. The template for them should be assigned to the [tagTemplate](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#tagTemplate) option. 
 
 ---
-#####**jQuery**
+#####jQuery
 
     <!--JavaScript-->
     $(function() {
@@ -147,7 +219,37 @@ Using similar techniques, you can also customize tags of the selected items. The
         });
     });
 
-#####**AngularJS**
+#####Angular
+
+    <!--HTML-->
+    <dx-tag-box
+        [dataSource]="tagBoxData"
+        valueExpr="id"
+        displayExpr="name"
+        tagTemplate="tagTemplate">
+        <div *dxTemplate="let data of 'tagTemplate'">
+            <p><b>{{data.name}}</b> ({{data.id}})</p>
+        </div>
+    </dx-tag-box>
+
+    <!--TypeScript-->
+    import { DxTagBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        tagBoxData = [
+            { id: 1, name: "HD Video Player", imgSrc: "images/products/1-small.png" },
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule
+         ],
+         // ...
+     })
+
+#####AngularJS
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -163,7 +265,7 @@ Using similar techniques, you can also customize tags of the selected items. The
         </div>
     </div>
 
-#####**Knockout**
+#####Knockout
 
     <!--HTML-->
     <div data-bind="dxTagBox: {

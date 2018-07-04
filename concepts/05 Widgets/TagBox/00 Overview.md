@@ -7,6 +7,9 @@ The **TagBox** widget is an editor that allows an end user to select multiple it
 
 The following code adds the **TagBox** to your page. The simplest configuration of the widget requires only a [dataSource](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#dataSource) to be specified. In addition, you can specify the [placeholder](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#placeholder) to be displayed when the **TagBox** is empty.
 
+---
+#####jQuery
+
     <!--HTML-->
     <div id="tagBoxContainer"></div>
 
@@ -17,11 +20,40 @@ The following code adds the **TagBox** to your page. The simplest configuration 
                 "HD Video Player",
                 "SuperHD Video Player",
                 "SuperPlasma 50",
-                // . . .
+                // ...
             ],
             placeholder: "Select products..."
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-tag-box
+        [dataSource]="products"
+        placeholder="Select products...">
+    </dx-tag-box>
+
+    <!--TypeScript-->
+    import { DxTagBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        products = [
+            "HD Video Player",
+            "SuperHD Video Player",
+            "SuperPlasma 50",
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule
+         ],
+         // ...
+     })
+
+---
 
 If your data is an array of objects, specify: 
 
@@ -32,11 +64,14 @@ If your data is an array of objects, specify:
 
 <!---->
 
+---
+#####jQuery
+
     <!--JavaScript-->
     var tagBoxData = [
         { id: 1, country: "Afghanistan" },
         { id: 2, country: "Albania" },
-        // . . .
+        // ...
     ];
 
     $(function() {
@@ -46,6 +81,35 @@ If your data is an array of objects, specify:
             displayExpr: 'country'
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-tag-box
+        [dataSource]="tagBoxData"
+        valueExpr="id"
+        displayExpr="country">
+    <dx-tag-box>
+
+    <!--TypeScript-->
+    import { DxTagBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        tagBoxData = [
+            { id: 1, country: "Afghanistan" },
+            { id: 2, country: "Albania" },
+            // ...
+        ];
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule
+         ],
+         // ...
+     })
+
+---
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)

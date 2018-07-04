@@ -1,6 +1,32 @@
 Regardless of the data source you use, the **TagBox** always wraps it in a [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). Call the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxTagBox/Methods/#getDataSource) method to get the instance of the **DataSource**.
 
+---
+#####jQuery
+
     <!--JavaScript-->var tagBoxDataSource = $("#tagBoxContainer").dxTagBox("getDataSource");
+
+#####Angular
+
+    <!--TypeScript-->
+    import { ViewChild, ... } from '@angular/core';
+    import { DxTagBoxModule, DxTagBoxComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxTagBoxComponent) tagBox: DxTagBoxComponent;
+        ds: any = {};
+        getDataSource () {
+            this.ds = this.tagBox.instance.getDataSource();
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule
+         ],
+         // ...
+     })
+
+---
 
 Now, you can call [any method](/Documentation/ApiReference/Data_Layer/DataSource/Methods/) the **DataSource** exposes. For example, you can reload data using the [load()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method.
 

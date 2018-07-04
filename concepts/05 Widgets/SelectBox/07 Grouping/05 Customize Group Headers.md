@@ -36,9 +36,9 @@ By default, group headers display text of the **key** field in a bold font. You 
             ]
         }];
         selectBoxDataSource = new DataSource({
-            store: fruitsVegetables,
+            store: this.fruitsVegetables,
             map: function(groupedItem) {
-                var overallCount = 0;
+                let overallCount = 0;
                 groupedItem.items.forEach(function(item) {
                     overallCount += item.count;
                 })

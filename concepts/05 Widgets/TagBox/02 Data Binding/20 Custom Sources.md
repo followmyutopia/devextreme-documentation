@@ -2,6 +2,9 @@
 
 The **CustomSource**'s configuration differs depending on whether data is processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server using the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the following example:
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#tagBoxContainer").dxTagBox({
             dataSource: new DevExpress.data.DataSource({
@@ -15,6 +18,47 @@ The **CustomSource**'s configuration differs depending on whether data is proces
             })
         });
     });
+
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { HttpClient, HttpClientModule } from '@angular/common/http';
+    import DataSource from 'devextreme/data/data_source';
+    import { DxTagBoxModule } from 'devextreme-angular';
+    import CustomStore from 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent  {
+        tagBoxData: DataSource = {};
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
+            this.tagBoxData = new DataSource({
+                store: new CustomStore({
+                    key: "ID",
+                    loadMode: "raw",   
+                    load: function () {
+                        return httpClient.get('https://mydomain.com/MyDataService')
+                            .toPromise();
+                    }
+                })
+            })
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule,
+             HttpClientModule
+         ],
+         // ...
+     })
+
+    <!--HTML-->
+    <dx-tag-box
+        [dataSource]="tagBoxData">
+    </dx-tag-box>
+
+---
 
 [note]We recommend not using this mode with large amounts of data because all data is loaded at once.
 
@@ -55,6 +99,9 @@ If the **group** setting is absent, the object structure is different:
     }
 
 If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#value) beforehand, the **CustomStore** should implement the [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) operation. If the **TagBox** allows a user [to add custom items](/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/), implement the [insert](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#insert) method. Below is a generalized **CustomStore** configuration for the **TagBox** widget.
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#tagBoxContainer").dxTagBox({
@@ -98,6 +145,74 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
             })
         });
     });
+
+
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., Inject } from '@angular/core';
+    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
+    import { DxTagBoxModule } from 'devextreme-angular';
+    import DataSource from 'devextreme/data/data_source';
+    import CustomStore from 'devextreme/data/custom_store';
+    import 'rxjs/add/operator/toPromise';
+    // ...
+    export class AppComponent {
+        tagBoxData: DataSource = {};
+        constructor(@Inject(HttpClient) httpClient: HttpClient) {
+            this.tagBoxData = new DataSource({
+                store: new CustomStore({
+                    key: "ID",
+                    load: function (loadOptions) {
+                        let params: HttpParams = new HttpParams()
+                            .set("skip", JSON.stringify(loadOptions.skip))
+                            .set("take", JSON.stringify(loadOptions.take))
+                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
+                            .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
+                            .set("searchOperation", loadOptions.searchOperation)
+                            .set("searchValue", loadOptions.searchValue)
+                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
+                            .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "")
+                            .set("requireGroupCount", JSON.stringify(loadOptions.requireGroupCount));
+                        return httpClient.get('http://mydomain.com/MyDataService', {
+                                params: params
+                            })
+                            .toPromise()
+                            .then(result => {
+                                // Here, you can perform operations unsupported by the server
+                                return {
+                                    data: result.data,
+                                    totalCount: result.totalCount
+                                };
+                            });
+                    },
+                    byKey: function (key) {
+                        return httpClient.get('https://mydomain.com/MyDataService?id=' + key)
+                            .toPromise();
+                    },
+                    insert: function (values) {
+                        return httpClient.post('http://mydomain.com/MyDataService', values)
+                            .toPromise();
+                    }
+                })
+            });
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTagBoxModule,
+             HttpClientModule 
+         ],
+         // ...
+     })
+
+    <!--HTML-->
+    <dx-tag-box
+        [dataSource]="tagBoxData">
+    </dx-tag-box>
+
+---
 
 #####See Also#####
 - [Data Layer - DataSource Examples | Custom Sources](/Documentation/Guide/Data_Layer/Data_Source_Examples/#Custom_Sources)

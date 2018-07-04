@@ -59,7 +59,7 @@ Using the default item template is the easiest way to customize an item, but it 
         valueExpr="id"
         itemTemplate="item">
         <div *dxTemplate="let data of 'item'">
-            <img ng-src="{{data.imgSrc}}"/>
+            <img src="{{data.imgSrc}}" />
             <div style="display:inline-block">{{data.name}}</div>
         </div>
     </dx-select-box>
@@ -99,7 +99,7 @@ Using the default item template is the easiest way to customize an item, but it 
             itemTemplate: 'item'
         }" dx-item-alias="product">
             <div data-options="dxTemplate: { name: 'item' }">
-                <img ng-src="{{product.imgSrc}}"/>
+                <img ng-src="{{product.imgSrc}}" />
                 <div style="display:inline-block">{{product.name}}</div>
             </div>
         </div>
@@ -133,7 +133,7 @@ Using the default item template is the easiest way to customize an item, but it 
         itemTemplate: 'item'
     }">
         <div data-options="dxTemplate: { name: 'item' }">
-            <img data-bind="attr: { src: imgSrc }"/>
+            <img data-bind="attr: { src: imgSrc }" />
             <div style="display:inline-block" data-bind="text: name"></div>
         </div>
     </div>

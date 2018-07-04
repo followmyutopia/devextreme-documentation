@@ -49,7 +49,7 @@ A user can select existing values and add new values to the **SelectBox**. To en
         });
         onCustomItemCreating (e) {
             // Generates a new 'id'
-            var nextId = Math.max.apply(Math, this.selectBoxData.items().map(function(c) { return c.id; })) + 1;
+            let nextId = Math.max.apply(Math, this.selectBoxData.items().map(function(c) { return c.id; })) + 1;
             // Creates a new entry
             e.customItem = { id: nextId, firstName: e.text };
             // Adds the entry to the data source

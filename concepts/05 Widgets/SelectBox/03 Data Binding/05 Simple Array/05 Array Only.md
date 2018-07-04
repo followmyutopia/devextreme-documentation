@@ -121,7 +121,7 @@ You can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Conce
             // ...
         ];
         getSortedProducts () {
-            return query(this.books)
+            return query(this.products)
                     .sortBy("price", true)
                     .toArray();
         }
