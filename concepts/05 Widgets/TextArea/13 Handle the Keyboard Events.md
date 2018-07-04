@@ -1,17 +1,20 @@
-The **TextArea** raises four keyboard events: [keyDown](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyDown), [keyPress](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyPress), [keyUp](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyUp) and [enterKey](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#enterKey). Within the functions that handle them, you can access the [original jQuery keyboard events](https://api.jquery.com/category/events/keyboard-events/). If you are _not_ going to change the functions during the lifetime of the widget, assign them to the respective widget options.
+The **TextArea** raises four keyboard events: [keyDown](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyDown), [keyPress](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyPress), [keyUp](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#keyUp) and [enterKey](/Documentation/ApiReference/UI_Widgets/dxTextArea/Events/#enterKey). Within the functions that handle them, you can access the original keyboard events. If you are _not_ going to change the functions during the lifetime of the widget, assign them to the respective widget options.
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#textAreaContainer").dxTextArea({
             onKeyDown: function (e) {
-                var keyCode = e.jQueryEvent.which;
+                var keyCode = e.event.key;
                 // Event handling commands go here
             },
             onKeyPress: function (e) {
-                var keyCode = e.jQueryEvent.which;
+                var keyCode = e.event.key;
                 // Event handling commands go here
             },
             onKeyUp: function (e) {
-                var keyCode = e.jQueryEvent.which;
+                var keyCode = e.event.key;
                 // Event handling commands go here
             },
             onEnterKey: function (e) {
@@ -20,16 +23,56 @@ The **TextArea** raises four keyboard events: [keyDown](/Documentation/ApiRefere
         });
     });
 
-If you are going to change the handling functions at runtime, or if you need to attach several functions to a single event, use the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxTextArea/Methods/#oneventName_eventHandler) method.
+#####Angular
+
+    <!--HTML-->
+    <dx-text-area
+        (onKeyDown)="onKeyDown($event)"
+        (onKeyPress)="onKeyPress($event)"
+        (onKeyUp)="onKeyUp($event)"
+        (onEnterKey)="onEnterKey($event)">
+    </dx-text-area>
+
+    <!--TypeScript-->
+    import { DxTextAreaModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        onKeyDown (e) {
+            let keyCode = e.event.key;
+            // Event handling commands go here
+        }
+        onKeyPress (e) {
+            let keyCode = e.event.key;
+            // Event handling commands go here
+        }
+        onKeyUp (e) {
+            let keyCode = e.event.key;
+            // Event handling commands go here
+        }
+        onEnterKey (e) {
+            // Event handling commands go here
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTextAreaModule
+         ],
+         // ...
+     })
+
+---
+
+If you are going to change the handling functions at runtime, or if you need to attach several functions to a single event, use the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxTextArea/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var keyDownHandler1 = function (e) {
-        var keyCode = e.jQueryEvent.which;
+        var keyCode = e.event.key;
         // First handler of the "keyDown" event
     };
 
     var keyDownHandler2 = function (e) {
-        var keyCode = e.jQueryEvent.which;
+        var keyCode = e.event.key;
         // Second handler of the "keyDown" event
     };
 

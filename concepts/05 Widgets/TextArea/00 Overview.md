@@ -6,6 +6,9 @@ The **TextArea** is a widget that enables a user to enter and edit a multi-line 
 
 The following code adds a simple **TextArea** with a [placeholder](/Documentation/ApiReference/UI_Widgets/dxTextArea/Configuration/#placeholder) to your page.
 
+---
+#####jQuery
+
     <!--HTML--><div id="textAreaContainer"></div>
 
     <!--JavaScript-->$(function() {
@@ -14,7 +17,33 @@ The following code adds a simple **TextArea** with a [placeholder](/Documentatio
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-text-area
+        placeholder="Type a text here...">
+    </dx-text-area>
+
+    <!--TypeScript-->
+    import { DxTextAreaModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTextAreaModule
+         ],
+         // ...
+     })
+
+---
+
 By default, the **TextArea** checks the entered text for spelling errors. To disable this feature, assign **false** to the **spellcheck** option.
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#textAreaContainer").dxTextArea({
@@ -22,7 +51,33 @@ By default, the **TextArea** checks the entered text for spelling errors. To dis
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-text-area
+        [spellcheck]="false">
+    </dx-text-area>
+
+    <!--TypeScript-->
+    import { DxTextAreaModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTextAreaModule
+         ],
+         // ...
+     })
+
+---
+
 If an end user should _not_ be able to edit the text in the **TextArea**, assign **true** to the **readOnly** option. In this case, make sure to set the **value** option too.
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#textAreaContainer").dxTextArea({
@@ -30,6 +85,30 @@ If an end user should _not_ be able to edit the text in the **TextArea**, assign
             readOnly: true
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-text-area
+        value="The text that should not be edited"
+        [readOnly]="true">
+    </dx-text-area>
+
+    <!--TypeScript-->
+    import { DxTextAreaModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+         imports: [
+             // ...
+             DxTextAreaModule
+         ],
+         // ...
+     })
+
+---
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
