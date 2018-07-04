@@ -47,6 +47,9 @@ A mask defines a pattern for the **TextBox** value. You can specify the mask usi
 
 You can also define custom masking elements using the [maskRules](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#maskRules) object. Each field of this object defines a single masking element.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#textBoxContainer").dxTextBox({
             mask: "SFFFFHN",
@@ -68,12 +71,53 @@ You can also define custom masking elements using the [maskRules](/Documentation
         });
     });
 
-The masked value goes to the read-only [text](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#text) option, while its unmasked equivalent goes to the [value](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#value) option. You can get the value of either of these options using the [option(optionName)](/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#optionoptionName) method.
+#####Angular
+
+    <!--HTML-->
+    <dx-text-box
+        mask="SFFFFHN"
+        [maskRules]="maskRules">
+    </dx-text-box>
+
+    <!--TypeScript-->
+    import { DxTextBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        maskRules = {
+            // a single character
+            'S': '$',
+
+            // a regular expression
+            'H': /[0-9A-F]/,
+
+            // an array of characters
+            'N': ['$', '%', '&', '@'],
+
+            // a function
+            'F': function (char) {
+                return char == char.toUpperCase();
+            }
+        };
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule
+        ],
+        // ...
+    })
+
+---
+
+The masked value goes to the read-only [text](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#text) option, while its unmasked equivalent goes to the [value](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#value) option. If you use jQuery, you can get the value of either of these options using the [option(optionName)](/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#optionoptionName) method.
 
     <!--JavaScript-->var maskedValue = $("#textBoxContainer").dxTextBox("option", "text");
     var unmaskedValue = $("#textBoxContainer").dxTextBox("option", "value");
     
 By default, the widget uses underscores to designate blanks in the masked value. You can specify another symbol using the [maskChar](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#maskChar) option.
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#textBoxContainer").dxTextBox({
@@ -82,7 +126,34 @@ By default, the widget uses underscores to designate blanks in the masked value.
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-text-box
+        mask="+1 (200) 000-0000"
+        maskChar="‒">
+    </dx-text-box>
+
+    <!--TypeScript-->
+    import { DxTextBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule
+        ],
+        // ...
+    })
+
+---
+
 If the input value does not match the mask, the **TextBox** displays an error message specified by the [maskInvalidMessage](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#maskInvalidMessage) option.
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#textBoxContainer").dxTextBox({
@@ -90,6 +161,30 @@ If the input value does not match the mask, the **TextBox** displays an error me
             maskInvalidMessage: "The input value does not match the mask"
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-text-box
+        mask="+1 (200) 000-0000"
+        maskInvalidMessage="The input value does not match the mask">
+    </dx-text-box>
+
+    <!--TypeScript-->
+    import { DxTextBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [TextBox Demos](/Demos/WidgetsGallery/#demo/editors-text_box-overview)

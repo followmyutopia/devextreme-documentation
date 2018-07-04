@@ -6,6 +6,9 @@ The **TextBox** is a widget that enables a user to enter and edit a single line 
 
 The following code adds a simple **TextBox** with a [placeholder](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#placeholder) to your page.
 
+---
+#####jQuery
+
     <!--HTML--><div id="textBoxContainer" style="width:300px"></div>
 
     <!--JavaScript-->$(function() {
@@ -14,7 +17,33 @@ The following code adds a simple **TextBox** with a [placeholder](/Documentation
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-text-box
+        placeholder="Type a text here...">
+    </dx-text-box>
+
+    <!--TypeScript-->
+    import { DxTextBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule
+        ],
+        // ...
+    })
+
+---
+
 If an end user should _not_ be able to edit the value in the **TextBox**, assign **true** to the **readOnly** option. In this case, make sure to set the **value** option too.
+
+---
+#####jQuery
 
     <!--JavaScript-->$(function() {
         $("#textBoxContainer").dxTextBox({
@@ -22,6 +51,30 @@ If an end user should _not_ be able to edit the value in the **TextBox**, assign
             readOnly: true
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-text-box
+        value="The text that should not be edited"
+        [readOnly]="true">
+    </dx-text-box>
+
+    <!--TypeScript-->
+    import { DxTextBoxModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTextBoxModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
