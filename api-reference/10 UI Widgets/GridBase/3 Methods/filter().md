@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets a filter expression applied to the widget's data source using the [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr) method.
+Gets a filter expression applied to the widget's data source using the [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr) method and the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option.
 <!--/shortDescription-->
 
 <!--returnType-->any<!--/returnType-->
