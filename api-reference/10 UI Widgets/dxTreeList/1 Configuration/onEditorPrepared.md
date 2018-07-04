@@ -9,9 +9,9 @@ A function that is executed after an editor is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Many **TreeList** elements are based on editors. For example, the search panel is based on a text box, a selection column uses check boxes, etc. You can customize automatically created editors using this function. 
+Numerous **TreeList** elements are based on editors: the [search panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel) is a text box, the [filter row](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Filter_Row) uses text boxes, calendars, and select boxes, and so on. This function allows you to add custom CSS classes to those default editors. To change their configuration or substitute them for other editors, use the [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onEditorPreparing) function.
 
-[note]For cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate), the **onEditorPrepared** function is not executed.
+[note] This function is not executed for cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate).
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->options<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
@@ -46,7 +46,7 @@ The editor's value.
 <!--typeFunctionParamName1_field6-->setValue(newValue, newText)<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-A method that you need to call to change the cell value after the editor's value is changed.
+A method that you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->updateValueTimeout<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
@@ -81,10 +81,10 @@ Indicates whether the editor is read-only.
 <!--typeFunctionParamName1_field13-->dataField<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->String<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-The name of the field that provides data for the column to which the editor belongs.
+The name of the field that provides data for the column the editor belongs to.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->row<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->dxTreeListRowObject<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row to which the editor belongs.
+The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row the editor belongs to.
 <!--/typeFunctionParamDescription1_field14-->

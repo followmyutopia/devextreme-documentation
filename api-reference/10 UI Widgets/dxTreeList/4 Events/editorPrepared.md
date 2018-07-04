@@ -45,7 +45,7 @@ The editor's value.
 <!--typeFunctionParamName1_field6-->setValue(newValue, newText)<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-A method that you need to call to change the cell value after the editor's value is changed.
+A method that you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->updateValueTimeout<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
@@ -80,10 +80,10 @@ Indicates whether the editor is read-only.
 <!--typeFunctionParamName1_field13-->dataField<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->String<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-The name of the field that provides data for the column to which the editor belongs.
+The name of the field that provides data for the column the editor belongs to.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->row<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->dxTreeListRowObject<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row to which the editor belongs.
+The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row the editor belongs to.
 <!--/typeFunctionParamDescription1_field14-->

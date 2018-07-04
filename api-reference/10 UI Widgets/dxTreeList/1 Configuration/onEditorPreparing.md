@@ -9,7 +9,9 @@ A function that is executed before an editor is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Many **TreeList** elements are based on editors. For example, the search panel is based on a text box, the selection column uses check boxes, etc. Within this function, you can customize a default editor or substitute it for another DevExtreme editor. To do the latter, assign the editor's name to the **editorName** field and then configure the editor in the **editorOptions** object. If you specify the editor's **onValueChanged** function, call the **setValue(newValue)** method in it to update the cell value.
+Numerous **TreeList** elements are based on editors: the [search panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel) is a text box, the [filter row](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Filter_Row) uses text boxes, calendars, and select boxes, and so on. Use this function to customize those default editors or substitute them for other editors. 
+
+In the following code, a default editor is replaced with the DevExtreme [TextArea](/Documentation/Guide/Widgets/TextArea/Overview/) widget. Note that the widget's **onValueChanged** function is overridden, and its declaration ends with the **setValue(newValue, newText)** method's call. This method updates the cell value.
 
 ---
 ##### jQuery
@@ -19,16 +21,12 @@ Many **TreeList** elements are based on editors. For example, the search panel i
         $("#treeList").dxTreeList({
             // ...
             onEditorPreparing: function(e) {
-                if (e.dataField == "name") {
-                    e.editorName = "dxTextArea";
+                if (e.dataField == "description") {
+                    e.editorName = "dxTextArea"; 
                     e.editorOptions.showClearButton = true;
-                    e.editorOptions.onValueChanged = function (e) {
-                        var value = e.value;
-                        if(value == "") {
-                            alert("TextArea is empty");
-                            return;
-                        }
-                        e.setValue(value);
+                    e.editorOptions.onValueChanged = function (event) {
+                        var value = event.value;
+                        e.setValue(value.toLowerCase()); 
                     }
                 }
             }
@@ -43,15 +41,11 @@ Many **TreeList** elements are based on editors. For example, the search panel i
     export class AppComponent {
         onEditorPreparing (e) { 
             if (e.dataField == "name") {
-                e.editorName = "dxTextArea";
+                e.editorName = "dxTextArea"; 
                 e.editorOptions.showClearButton = true;
-                e.editorOptions.onValueChanged = function (e) {
-                    var value = e.value;
-                    if (value == "") {
-                        alert("TextArea is empty");
-                        return;
-                    }
-                    e.setValue(value);
+                e.editorOptions.onValueChanged = function (event) {
+                    var value = event.value;
+                    e.setValue(value.toLowerCase()); 
                 }
             }
         }
@@ -71,7 +65,7 @@ Many **TreeList** elements are based on editors. For example, the search panel i
     
 ---
 
-If you use a third-party editor, cancel creation of the default editor and then implement your own one. To notify the **TreeList** of the changed value, call the **setValue(newValue)** method in the **onEditorPreparing** function.
+The following code shows how to replace a default editor with a non-DevExtreme editor (an HTML checkbox in this case):
 
 ---
 ##### jQuery
@@ -81,12 +75,12 @@ If you use a third-party editor, cancel creation of the default editor and then 
         $("#treeList").dxTreeList({
             // ...
             onEditorPreparing: function(e) {
-                if(e.dataField === "hidden") {
-                    e.cancel = true;
+                if(e.dataField === "completed") {
+                    e.cancel = true; // Cancels creating the default editor
                     $('<input type="checkbox">')
                         .prop("checked", e.value)
-                        .on("change", function(args) {
-                            e.setValue(args.target.checked);
+                        .on("change", function(event) {
+                            e.setValue(event.target.checked); 
                         })
                         .appendTo(e.editorElement);
                 }
@@ -101,14 +95,14 @@ If you use a third-party editor, cancel creation of the default editor and then 
     // ...
     export class AppComponent {
         onEditorPreparing (e) { 
-            if(e.dataField === "hidden") {
-                e.cancel = true;
+            if(e.dataField === "completed") {
+                e.cancel = true; // Cancels creating the default editor
                 let checkbox = document.createElement("INPUT");
                 checkbox.setAttribute("type", "checkbox");
                 checkbox.setAttribute("checked", e.value);
-                checkbox.addEventListener("change", function(args) {
-                                                        e.setValue(args.target.checked);
-                                                    });
+                checkbox.addEventListener("change", function(event) {
+                    e.setValue(event.target.checked);
+                });
                 e.editorElement.appendChild(checkbox);
             }
         }
@@ -128,7 +122,7 @@ If you use a third-party editor, cancel creation of the default editor and then 
     
 ---
 
-[note]For cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate), the **onEditorPreparing** function is not executed.
+[note] This function is not executed for cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate).
 
 #####See Also#####
 - [Customize Editors](/Documentation/Guide/Widgets/TreeList/Editing/#Customize_Editors)
@@ -166,7 +160,7 @@ The editor's value.
 <!--typeFunctionParamName1_field6-->setValue(newValue, newText)<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-A method that you should call to change the cell value after the editor's value is changed.
+A method that you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->updateValueTimeout<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
@@ -191,7 +185,7 @@ Indicates whether the editor uses right-to-left representation.
 <!--typeFunctionParamName1_field11-->cancel<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->Boolean<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Allows you to cancel the creation of the editor.    
+Allows you to cancel creating the editor.        
 Set it to **true** and implement a custom editor if your scenario requires it.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->editorElement<!--/typeFunctionParamName1_field12-->
@@ -218,10 +212,10 @@ Gets and sets the editor configuration.
 <!--typeFunctionParamName1_field16-->dataField<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->String<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
-The name of the field that provides data for the column to which the editor belongs.
+The name of the field that provides data for the column the editor belongs to.
 <!--/typeFunctionParamDescription1_field16-->
 <!--typeFunctionParamName1_field17-->row<!--/typeFunctionParamName1_field17-->
 <!--typeFunctionParamType1_field17-->dxTreeListRowObject<!--/typeFunctionParamType1_field17-->
 <!--typeFunctionParamDescription1_field17-->
-The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row to which the editor belongs.
+The [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/) of the row editor belongs to.
 <!--/typeFunctionParamDescription1_field17-->

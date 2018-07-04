@@ -3,19 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before an editor is created.
+Raised before an editor is created. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditorPreparing) option to handle the event.
-
-Many grid elements are constructed on editors. For example, the [search panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel) is constructed on a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/) is built on check boxes in full, etc. Obviously, editors are also used to edit a cell or a row in a grid. When default editors provided by **DataGrid** do not meet your requirements, implement a custom editor. For this purpose, attach a handling function to the **editorPreparing** event. This function accepts an object as the parameter. Assign **true** to the **cancel** field of this object. After that, implement your editor using the other fields of this object.
-
-You can distinguish editors by their parent element. Also, the parent element defines data passed to the **editorPreparing** handler. To identify the parent element, check the **parentType** field of the handler's argument.
-
-When the **parentType** is *'dataRow'* or *'headerRow'*, you can use the options described in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) reference section.
-
-[note]If you have specified the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate) option, the **editorPrepared** event will not fire when a row or a cell switches into the editing state.
+Main article: [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onEditorPreparing)
 
 #####See Also#####
 #include common-link-handleevents
@@ -44,7 +36,7 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The editor's location. One of *'dataRow'*, *'filterRow'*, *'headerRow'* or *'searchPanel'*.      
-Options passed to the handler depend on this value.
+Options passed to the function depend on this value.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->value<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
@@ -54,7 +46,7 @@ The editor's value.
 <!--typeFunctionParamName1_field6-->setValue(newValue, newText)<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-A method that you should call to change the cell value after the editor's value is changed.
+A method that you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->updateValueTimeout<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
@@ -79,7 +71,7 @@ Indicates whether the editor uses a right-to-left representation.
 <!--typeFunctionParamName1_field11-->cancel<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->Boolean<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Allows you to cancel the creation of the editor.    
+Allows you to cancel creating the editor.        
 Set it to **true** and implement a custom editor if your scenario requires it.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->editorElement<!--/typeFunctionParamName1_field12-->
@@ -106,10 +98,10 @@ Gets and sets the editor configuration.
 <!--typeFunctionParamName1_field16-->dataField<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->String<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
-The name of the field that provides data for the column to which the editor belongs.
+The name of the field that provides data for the column the editor belongs to.
 <!--/typeFunctionParamDescription1_field16-->
 <!--typeFunctionParamName1_field17-->row<!--/typeFunctionParamName1_field17-->
 <!--typeFunctionParamType1_field17-->dxDataGridRowObject<!--/typeFunctionParamType1_field17-->
 <!--typeFunctionParamDescription1_field17-->
-The [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) of the row to which the editor belongs.
+The [properties](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) of the row the editor belongs to.
 <!--/typeFunctionParamDescription1_field17-->
