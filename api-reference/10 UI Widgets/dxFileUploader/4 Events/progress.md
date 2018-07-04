@@ -61,7 +61,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 <!--typeFunctionParamName1_field9-->event<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->event<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/Types/#Event) when you use jQuery.
+The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->request<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->XMLHttpRequest<!--/typeFunctionParamType1_field10-->

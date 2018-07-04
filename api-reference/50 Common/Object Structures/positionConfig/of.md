@@ -25,7 +25,7 @@ The option accepts one of the following values.
 
         position: { of: window };
 
-- A [jQueryEvent](http://api.jquery.com/Types/#Event) or [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) object.
+- A [jQueryEvent](http://api.jquery.com/category/events/event-object/) or [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) object.
 
  The widget is positioned against the **event.pageX** and **event.pageY** coordinates. In the following example, the [Popover](/Documentation/ApiReference/UI_Widgets/dxPopover/) widget is positioned against a clicked point on the "targetElement".
 
