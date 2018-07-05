@@ -7,7 +7,7 @@
 The **cellInfo** object has the following fields:
 
 - **setValue(newValue, newText)**: <font size="-1">Method</font>        
-Sets a new cell value and, optionally, a displayed value. 
+A method that you should call to change the cell value and, optionally, the displayed value after the editor's value is changed. 
 
     [note] In batch [editing mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode), check that the value changed before calling this method. This ensures the cells are highlighted correctly.
 

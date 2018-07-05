@@ -10,7 +10,7 @@ Specifies a custom template for column cells in the editing state.
 The **cellInfo** object has the following fields:
 
 - **setValue(newValue, newText)**: <font size="-1">Method</font>        
-Sets a new cell value and, optionally, a displayed value. 
+A method that you should call to change the cell value and, optionally, the displayed value after the editor's value is changed.
 
  [note] In batch [editing mode]({basewidgetpath}/Configuration/editing/#mode), check that the value changed before calling this method to ensure correct cell highlighting.
  
