@@ -1,5 +1,8 @@
 For a minor customization of tiles, you can use the default item template. This template defines the appearance of a tile depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxTileView/Default_Item_Template/) are present or absent from the tile's data object. For example, the following code generates three tiles: the first is disabled, the second is not customized, the third is hidden.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         $("#tileViewContainer").dxTileView({
             dataSource: [
@@ -10,10 +13,79 @@ For a minor customization of tiles, you can use the default item template. This 
         });
     });
 
-Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize tiles.
+#####Angular
+
+    <!--TypeScript-->
+    import { DxTileViewModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        tileViewData = [
+            { text: "Alabama", disabled: true },
+            { text: "Alaska" },
+            { text: "Arizona", visible: false }
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTileViewModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-tile-view 
+        [dataSource]="tileViewData">
+    </dx-tile-view>
 
 ---
-#####**AngularJS**
+
+Using the default item template is the easiest way to customize an item, but it lacks flexibility. Instead, you can define a custom template. For Angular, AngularJS and Knockout apps, DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/). The following code gives a simple example of how you can use **dxTemplate** to customize tiles.
+
+---
+##### Angular
+
+    <!--HTML-->
+    <dx-tile-view 
+        [dataSource]="tileViewData"
+        [itemMargin]="15"
+        [baseItemHeight]="80"
+        [baseItemWidth]="140"
+        itemTemplate="tile">
+        <div class="tile" *dxTemplate="let data of 'tile'">
+            <p style="font-size:larger"><b>{{data.name}}</b></p>
+            <p>Capital: <i>{{data.capital}}</i></p>
+        </div>
+    </dx-tile-view>
+
+    <!--TypeScript-->
+    import { DxTileViewModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        tileViewData = [
+            { name: "Alabama", capital: "Montgomery" },
+            { name: "Alaska", capital: "Juneau" },
+            { name: "Arizona", capital: "Phoenix" },
+            // ...
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTileViewModule
+        ],
+        // ...
+    })
+
+    <!--CSS-->
+    .tile {
+        border-radius: .5em;
+        text-align: center;
+        color: white;
+        background: gray;
+    }
+
+#####AngularJS
 
     <!--HTML-->
     <div ng-controller="DemoController">
@@ -37,7 +109,7 @@ Using the default item template is the easiest way to customize an item, but it 
                 { name: "Alabama", capital: "Montgomery" },
                 { name: "Alaska", capital: "Juneau" },
                 { name: "Arizona", capital: "Phoenix" },
-                // . . .
+                // ...
             ];
         });
 
@@ -50,7 +122,7 @@ Using the default item template is the easiest way to customize an item, but it 
 
 [note] The `dx-item-alias` directive specifies the variable that is used to access the item object.
 
-#####**Knockout**
+#####Knockout
 
     <!--HTML-->
     <div data-bind="dxTileView: {
@@ -71,7 +143,7 @@ Using the default item template is the easiest way to customize an item, but it 
             { name: "Alabama", capital: "Montgomery" },
             { name: "Alaska", capital: "Juneau" },
             { name: "Arizona", capital: "Phoenix" },
-            // . . .
+            // ...
         ]
     };
 
@@ -92,7 +164,7 @@ If you use jQuery alone, combine the HTML markup for items manually with jQuery 
         { name: "Alabama", capital: "Montgomery" },
         { name: "Alaska", capital: "Juneau" },
         { name: "Arizona", capital: "Phoenix" },
-        // . . .
+        // ...
     ];
 
     $(function() {
@@ -125,7 +197,7 @@ You can also customize an individual tile. For this purpose, declare a template 
     <!--JavaScript-->var tileViewData = [
         { name: "Alabama", capital: "Montgomery" },
         { name: "Alaska", capital: "Juneau", template: $("#individualTileTemplate") },
-        // . . .
+        // ...
     ];
 
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.

@@ -5,11 +5,14 @@ width = baseItemWidth * widthRatio</span>
 
 For example, the following code makes the *"Massachusetts"* tile twice bigger than the other tiles.
 
+---
+#####jQuery
+
     <!--JavaScript-->var tileViewData = [
         { text: "Maine", capital: "Augusta" },
         { text: "Maryland", capital: "Annapolis" },
         { text: "Massachusetts", capital: "Boston", height: 2, widthRatio: 2 }
-        // . . .
+        // ...
     ];
 
     $(function() {
@@ -19,6 +22,36 @@ For example, the following code makes the *"Massachusetts"* tile twice bigger th
             baseItemWidth: 180
         });
     });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-tile-view 
+        [dataSource]="tileViewData"
+        [baseItemHeight]="130"
+        [baseItemWidth]="180">
+    </dx-tile-view>
+
+    <!--TypeScript-->
+    import { DxTileViewModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        tileViewData = [
+            { text: "Maine", capital: "Augusta" },
+            { text: "Maryland", capital: "Annapolis" },
+            { text: "Massachusetts", capital: "Boston", height: 2, widthRatio: 2 }
+            // ...
+        ];
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTileViewModule
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 - [TileView - Customize Tile Appearance](/Documentation/Guide/Widgets/TileView/Customize_Tile_Appearance)
