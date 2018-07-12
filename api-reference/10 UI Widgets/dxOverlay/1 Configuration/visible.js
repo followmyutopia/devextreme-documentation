@@ -1,1 +1,0 @@
-overlayVisible = ko.observable(false);
