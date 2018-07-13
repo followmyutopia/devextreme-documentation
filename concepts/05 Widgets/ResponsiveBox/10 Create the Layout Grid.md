@@ -1,9 +1,10 @@
-All **ResponsiveBox** elements are arranged against a layout grid defined by the [rows](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/rows/) and [cols](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/cols/) arrays. Each object in these arrays configures a single row or column. If you need two sets of equally-sized rows and columns, simply populate these arrays with empty objects.
+All **ResponsiveBox** elements are arranged in a layout grid according to the [rows](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/rows/) and [cols](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/cols/) arrays. Each object in these arrays configures a single row or column. Populate these arrays with empty objects to get two sets of equally-sized rows and columns.
 
 ---
 ##### jQuery
 
-    <!--JavaScript-->$(function() {
+    <!--JavaScript-->
+    $(function() {
         $("#responsiveBoxContainer").dxResponsiveBox({
             // Creates two rows of equal height
             rows: [
@@ -15,6 +16,13 @@ All **ResponsiveBox** elements are arranged against a layout grid defined by the
             ]
         });
     });
+
+    <!--HTML-->
+    <html style="height:100%">
+        <body style="height:100%">
+            <div id="responsiveBoxContainer"></div>
+        </body>
+    </html>
 
 ##### Angular
 
@@ -49,7 +57,29 @@ All **ResponsiveBox** elements are arranged against a layout grid defined by the
 
 ---
 
-To set the size of a row/column, use the **ratio** and **baseSize** options. The **ratio** option specifies the size of a row/column in relation to other rows/columns. If you use this option alone, the **ResponsiveBox** occupies the entire area assigned to it.
+The **baseSize**, **ratio**, and **shrink** settings control a row or column's size. The **baseSize** defines the row's or column's initial size in pixels. The size then changes according to **ratio** and **shrink** if the **ResponsiveBox**'s size changes.
+
+The **ResponsiveBox** can provide more space than rows' and columns' **baseSize**s require:
+
+![DevExtreme ResponsiveBox: Available width and height](/Content/images/doc/18_2/UiWidgets/ResponsiveBox/responsivebox-basesize.png)
+
+In this case, the columns' width and rows' height can be increased according to **ratio**s. If all rows or columns have the same **ratio**, the width or height is increased evenly. The following is an example of when **ratio**s are different:
+
+![DevExtreme ResponsiveBox: Distribution of available width and height](/Content/images/doc/18_2/UiWidgets/ResponsiveBox/responsivebox-basesize-withratio.png)
+
+If **ratio** applies when there is an available space, **shrink** applies when space is limited. After all rows' or columns' **baseSize**s are added up, they may be too large to fit into the container.
+
+![DevExtreme ResponsiveBox: Items overflow the container](/Content/images/doc/18_2/UiWidgets/ResponsiveBox/responsivebox-overflow.png)
+
+**shrink** determines how much the elements should shrink to fit in this case. The higher the **shrink** value, the more a row or column shrinks relative to the rest of the rows or columns. The following example illustrates a situation when all elements have the same **shrink** value:
+
+![DevExtreme ResponsiveBox: Items shrink evenly to fit into the container](/Content/images/doc/18_2/UiWidgets/ResponsiveBox/responsivebox-shrink-evenly.png)
+
+In the following image, the middle column's **shrink** value is more than the other columns', and the bottom row's **shrink** value is more than that of the top row.
+
+![DevExtreme ResponsiveBox: The middle column and the bottom row shrink more than the other columns and rows](/Content/images/doc/18_2/UiWidgets/ResponsiveBox/responsivebox-shrink-unevenly.png)
+
+The collections of rows and columns may differ depending on the screen's [size qualifier](/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/). You can use the **screen** option to specify on which screen types an individual row or column should appear.
 
 ---
 ##### jQuery
@@ -58,175 +88,7 @@ To set the size of a row/column, use the **ratio** and **baseSize** options. The
         $("#responsiveBoxContainer").dxResponsiveBox({
             rows: [
                 { ratio: 1 },
-                { ratio: 2 },
-                { ratio: 0.5 }
-            ],
-            cols: [
-                { ratio: 0.5 },
-                { ratio: 2 },
-                { ratio: 0.5 }
-            ]
-        });
-    });
-
-##### Angular
-
-    <!--HTML-->
-    <html style="height:100%">
-        <body style="height:100%">
-            <dx-responsive-box id="responsiveBox">
-                <dxi-row [ratio]="1"></dxi-row>
-                <dxi-row [ratio]="2"></dxi-row>
-                <dxi-row [ratio]="0.5"></dxi-row>
-                <dxi-col [ratio]="0.5"></dxi-col>
-                <dxi-col [ratio]="2"></dxi-col>
-                <dxi-col [ratio]="0.5"></dxi-col>
-            </dx-responsive-box>
-        </body>
-    </html>
-
-    <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular';
-    // ...
-    export class AppComponent {
-        // ...
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxResponsiveBoxModule
-        ],
-        // ...
-    })
-
----
-
-If you need to set the size of a row/column in pixels, set the **ratio** to *0* and specify the **baseSize** option. In this case, if the **ResponsiveBox** is bigger than all its elements combined, an area is left unoccupied.
-
----
-##### jQuery
-
-    <!--JavaScript-->$(function() {
-        $("#responsiveBoxContainer").dxResponsiveBox({
-            height: 500,
-            width: 500,
-            // Rows occupy a total height of 450 pixels, 50 pixels left
-            rows: [
-                { ratio: 0, baseSize: 150 },
-                { ratio: 0, baseSize: 200 },
-                { ratio: 0, baseSize: 100 }
-            ],
-            // Columns occupy a total width of 300 pixels, 200 pixels left
-            cols: [
-                { ratio: 0, baseSize: 50 },
-                { ratio: 0, baseSize: 200 },
-                { ratio: 0, baseSize: 50 }
-            ]
-        });
-    });
-
-##### Angular
-
-    <!--HTML-->
-    <html style="height:100%">
-        <body style="height:100%">
-            <dx-responsive-box id="responsiveBox"
-                [height]="500"
-                [width]="500">
-                <!-- Rows occupy a total height of 450 pixels, 50 pixels left -->
-                <dxi-row [ratio]="0" [baseSize]="150"></dxi-row>
-                <dxi-row [ratio]="0" [baseSize]="200"></dxi-row>
-                <dxi-row [ratio]="0" [baseSize]="100"></dxi-row>
-                <!-- Columns occupy a total width of 300 pixels, 200 pixels left -->
-                <dxi-col [ratio]="0" [baseSize]="50"></dxi-col>
-                <dxi-col [ratio]="0" [baseSize]="200"></dxi-col>
-                <dxi-col [ratio]="0" [baseSize]="50"></dxi-col>
-            </dx-responsive-box>
-        </body>
-    </html>
-
-    <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular';
-    // ...
-    export class AppComponent {
-        // ...
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxResponsiveBoxModule
-        ],
-        // ...
-    })
-
----
-
-To redistribute the unoccupied area between rows/columns, specify the **ratio** more than 0. The greater the **ratio** assigned to a row/column, the bigger the area added to this row/column.
-
----
-##### jQuery
-
-    <!--JavaScript-->$(function() {
-        $("#responsiveBoxContainer").dxResponsiveBox({
-            height: 500,
-            width: 500,
-            rows: [
-                { ratio: 1, baseSize: 150 },
-                { ratio: 2, baseSize: 200 },
-                { ratio: 1, baseSize: 100 }
-            ],
-            cols: [
-                { ratio: 1, baseSize: 50 },
-                { ratio: 2, baseSize: 200 },
-                { ratio: 1, baseSize: 50 }
-            ]
-        });
-    });
-
-##### Angular
-
-    <!--HTML-->
-    <html style="height:100%">
-        <body style="height:100%">
-            <dx-responsive-box id="responsiveBox"
-                [height]="500"
-                [width]="500">
-                <dxi-row [ratio]="1" [baseSize]="150"></dxi-row>
-                <dxi-row [ratio]="2" [baseSize]="200"></dxi-row>
-                <dxi-row [ratio]="1" [baseSize]="100"></dxi-row>
-                <dxi-col [ratio]="1" [baseSize]="50"></dxi-col>
-                <dxi-col [ratio]="2" [baseSize]="200"></dxi-col>
-                <dxi-col [ratio]="1" [baseSize]="50"></dxi-col>
-            </dx-responsive-box>
-        </body>
-    </html>
-
-    <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular';
-    // ...
-    export class AppComponent {
-        // ...
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxResponsiveBoxModule
-        ],
-        // ...
-    })
-
----
-
-The collections of rows and columns may differ depending on the screen's [size qualifier](/Documentation/Guide/Widgets/ResponsiveBox/Size_Qualifiers/). To specify on which screen types an individual row or column should appear, use the **screen** option. By default, all rows and columns appear on all screen types.
-
----
-##### jQuery
-
-    <!--JavaScript-->$(function() {
-        $("#responsiveBoxContainer").dxResponsiveBox({
-            rows: [
-                { ratio: 1 },
-                { ratio: 2 },
+                { ratio: 2, shrink: 2 },
                 { ratio: 0.7 }
             ],
             cols: [
@@ -238,6 +100,13 @@ The collections of rows and columns may differ depending on the screen's [size q
         });
     });
 
+    <!--HTML-->
+    <html style="height:100%">
+        <body style="height:100%">
+            <div id="responsiveBoxContainer"></div>
+        </body>
+    </html>
+
 ##### Angular
 
     <!--HTML-->
@@ -245,9 +114,9 @@ The collections of rows and columns may differ depending on the screen's [size q
         <body style="height:100%">
             <dx-responsive-box id="responsiveBox">
                 <dxi-row [ratio]="1"></dxi-row>
-                <dxi-row [ratio]="2"></dxi-row>
+                <dxi-row [ratio]="2" [shrink]="2"></dxi-row>
                 <dxi-row [ratio]="0.7"></dxi-row>
-                <dxi-col [ratio]="0.5"></dxi-col>
+                <dxi-col [ratio]="0.5" [shrink]="0.5"></dxi-col>
                 <!-- The following columns appear on medium and large screens only -->
                 <dxi-col [ratio]="2" screen="md lg"></dxi-col>
                 <dxi-col [ratio]="0.5" screen="md lg"></dxi-col>

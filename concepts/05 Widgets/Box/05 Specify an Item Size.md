@@ -1,8 +1,8 @@
-[note]In this document, "size" is an item's width or height, depending on whether the [direction](/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#direction) option is set to *"row"* or *"col"* respectively.
+[note]In this document, "size" is an item's width or height, depending on whether the [direction](/Documentation/ApiReference/UI_Widgets/dxBox/Configuration/#direction) option is set to *"row"* or *"col"*.
 
-An item's size is controlled by three settings: [baseSize](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#baseSize), [ratio](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#ratio), and [shrink](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#shrink). The **baseSize** defines the initial item size in pixels. The item's size changes according to **ratio** and **shrink** if the **Box**'s size changes.
+The [baseSize](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#baseSize), [ratio](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#ratio), and [shrink](/Documentation/ApiReference/UI_Widgets/dxBox/Default_Item_Template/#shrink) settings specify an item's size. The **baseSize** defines the item's initial size in pixels. The item's size changes according to **ratio** and **shrink** if the **Box**'s size changes.
 
-When the **Box** provides more space than the items' **baseSize**s require, an unoccupied area emerges.
+An unoccupied area emerges when the **Box** provides more space than the items' **baseSize**s require.
 
 ![DevExtreme Box: Unoccupied area](/Content/images/doc/18_2/UiWidgets/Box/Box_baseSize.png)
 
@@ -71,7 +71,7 @@ The unoccupied area can be distributed among the items according to **ratio**s. 
 
 ---
 
-**ratio** applies when there is an available space, **shrink** applies when space is limited. After all items' **baseSize** are added up, they may be too large to fit into the container.
+If **ratio** applies when there is an available space, **shrink** applies when space is limited. After all items' **baseSize** are added up, they can be too large to fit into the container.
 
 ![DevExtreme Box: Items overflow the container](/Content/images/doc/18_2/UiWidgets/Box/box-overflow.png)
 
@@ -140,9 +140,9 @@ The unoccupied area can be distributed among the items according to **ratio**s. 
 
 ---
 
-Note how the result is different if *Item 2*'s **shrink** value is twice more than the other items:
+The result is different if *Item 2*'s **shrink** value is more than the other items':
 
-![DevExtreme Box: Item 2 shrinks twice more than the others](/Content/images/doc/18_2/UiWidgets/Box/box-shrink-unevenly.png)
+![DevExtreme Box: Item 2 shrinks more than the others](/Content/images/doc/18_2/UiWidgets/Box/box-shrink-unevenly.png)
 
 ---
 ##### jQuery
