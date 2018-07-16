@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to display the field's [totals](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals). Applies only if the field is in the data [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area).
+Specifies whether to display the field's [totals](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals). 
 <!--/shortDescription-->
 
 <!--fullDescription-->
