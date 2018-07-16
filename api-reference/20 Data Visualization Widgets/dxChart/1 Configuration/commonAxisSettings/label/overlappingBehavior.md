@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'hide'<!--/default-->
-<!--acceptValues-->'stagger' | 'rotate' | 'hide' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'rotate' | 'stagger' | 'none' | 'hide'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

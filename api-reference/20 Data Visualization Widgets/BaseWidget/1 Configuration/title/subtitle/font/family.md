@@ -1,5 +1,5 @@
 ===========================================================================
-<!--default-->''Segoe UI Light', 'Helvetica Neue Light', 'Trebuchet MS', Verdana'<!--/default-->
+<!--default-->'"Segoe UI Light", "Helvetica Neue Light", "Segoe UI", "Helvetica Neue", "Trebuchet MS", Verdana, sans-serif'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

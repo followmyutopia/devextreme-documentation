@@ -1,3 +1,4 @@
+<!--dep-->horizontalAlignment.md<!--/dep-->
 ===========================================================================
 <!--default-->'right'<!--/default-->
 <!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->

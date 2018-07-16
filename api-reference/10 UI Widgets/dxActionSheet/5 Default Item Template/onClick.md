@@ -18,7 +18,7 @@ To navigate to a specific URL when the **click** event fires for action sheet bu
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->dxActionSheet<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->

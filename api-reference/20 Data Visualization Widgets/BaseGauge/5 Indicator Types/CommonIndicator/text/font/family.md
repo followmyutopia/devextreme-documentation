@@ -1,6 +1,6 @@
 ===========================================================================
 <!--propertyOf-->..\..\..\..\..\dxCircularGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\..\..\dxLinearGauge\5 Indicator Types\RangeBar\RangeBar.md,..\..\..\..\..\dxCircularGauge\5 Indicator Types\TextCloud\TextCloud.md,..\..\..\..\..\dxLinearGauge\5 Indicator Types\TextCloud\TextCloud.md<!--/propertyOf-->
-<!--default-->''Segoe UI', 'Helvetica Neue', 'Trebuchet MS', Verdana'<!--/default-->
+<!--default-->'"Segoe UI", "Helvetica Neue", "Trebuchet MS", Verdana, sans-serif'<!--/default-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -17,7 +17,7 @@ The event's name.
 The event's handler.
 <!--/paramDescription2-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->EventsMixin<!--/returnType-->
 <!--returnDescription-->
 The object for which this method is called.
 <!--/returnDescription-->

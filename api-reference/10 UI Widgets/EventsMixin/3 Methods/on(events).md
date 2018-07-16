@@ -11,7 +11,7 @@ Subscribes to events.
 Events with their handlers: { "eventName1": handler1, "eventName2": handler2, ...}
 <!--/paramDescription1-->
 
-<!--returnType-->Object<!--/returnType-->
+<!--returnType-->EventsMixin<!--/returnType-->
 <!--returnDescription-->
 The object for which this method is called.
 <!--/returnDescription-->
