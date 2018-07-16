@@ -6,6 +6,7 @@
     "dxTreeListColumn",
     "dxFilterBuilderCustomOperation",
     "chartPointAggregationInfoObject",
+    "dxSankeyConnectionInfoObject",
     "DOMComponent/Options/bindingOptions",
     "dxElement",
     "Font",
@@ -345,6 +346,10 @@
 
     "dxResizable": {
       "$Widget": "dxResizable"
+    },
+
+    "dxRecurrenceEditor": {
+      "$Widget": "dxRecurrenceEditor"
     },
 
     "dxResponsiveBox": {
@@ -769,6 +774,9 @@
         },
         "Series": {
           "$Widget": "chartSeriesObject"
+        },
+        "Axis": {
+          "$Widget": "chartAxisObject"
         }
       }
     },
@@ -901,6 +909,22 @@
 
     "dxRangeSelector": {
       "$Widget": "dxRangeSelector"
+    },
+
+    "dxSankey": {
+      "$Widget": "dxSankey",
+      "6 Node": {
+        "$Widget": "dxSankeyNode"
+      },
+      "7 Link": {
+        "2 Fields": {
+          "connection": {
+            "connection.md": "dxSankeyLink/connection",
+            "$Object": "dxSankeyConnectionInfoObject"
+          }
+        },
+        "$Widget": "dxSankeyLink"
+      }
     },
 
     "dxSparkline": {
