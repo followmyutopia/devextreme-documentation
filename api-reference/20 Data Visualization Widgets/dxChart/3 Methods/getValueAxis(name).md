@@ -11,6 +11,11 @@
 
 <!--/paramDescription1-->
 
+<!--returnType-->chartAxisObject<!--/returnType-->
+<!--returnDescription-->
+
+<!--/returnDescription-->
+
 <!--fullDescription-->
 
 <!--/fullDescription-->
