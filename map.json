@@ -776,6 +776,7 @@
           "$Widget": "chartSeriesObject"
         },
         "Axis": {
+           "Axis.md": "chartAxisObject",
           "$Widget": "chartAxisObject"
         }
       }
