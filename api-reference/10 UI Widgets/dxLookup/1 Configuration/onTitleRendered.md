@@ -5,11 +5,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [titleRendered](/Documentation/ApiReference/UI_Widgets/dxLookup/Events/#titleRendered) event.
+A function that is executed when the drop-down list's title is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a collection item title is rendered.
+#####See Also#####
+- [showPopupTitle](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#showPopupTitle)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

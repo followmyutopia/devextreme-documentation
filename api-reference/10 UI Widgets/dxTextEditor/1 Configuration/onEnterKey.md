@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **enterKey** event.
+A function that is executed when the Enter key has been pressed while the widget is focused.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after the 'Enter' key is pressed within the widget's input element.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

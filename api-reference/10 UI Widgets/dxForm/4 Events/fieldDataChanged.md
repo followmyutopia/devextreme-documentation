@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the value of a [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object field has been changed.
+Raised when the value of a [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object field is changed. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onFieldDataChanged](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onFieldDataChanged) option to handle the event.
+Main article: [onFieldDataChanged](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onFieldDataChanged)
 
 #####See Also#####
 #include common-link-handleevents

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a value within the widget's input element is changed by an end user. 
+Raised each time the widget's input is changed while the widget is focused.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onInput]({basewidgetpath}/Configuration/#onInput) option to handle the event.
+Main article: [onInput]({basewidgetpath}/Configuration/#onInput)
 
 #####See Also#####
 #include common-link-handleevents

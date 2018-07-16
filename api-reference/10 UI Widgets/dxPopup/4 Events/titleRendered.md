@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the widget title is rendered.
+Raised when the widget's [title]({basewidgetpath}/Configuration/#title) is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onTitleRendered](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#onTitleRendered) option to handle the event.
+Main article: [onTitleRendered]({basewidgetpath}/Configuration/#onTitleRendered)
 
 #####See Also#####
 #include common-link-handleevents

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a file or several files are added to or removed from selection.
+Raised when one or several files are added to or removed from the selection.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onValueChanged) option to handle the event.
+Main article: [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onValueChanged)
 
 #####See Also#####
 #include common-link-handleevents

@@ -6,15 +6,52 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [legendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Events/#legendClick) event.
+A function that is executed when a [legend item](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Legend) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the series to which the clicked legend item belongs. To learn about series members you can use, refer to the description of the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Series/) object.
+[note]
 
-Alternatively, you can navigate to a specific URL when the **legendClick** event fires. For this purpose, assign this URL to the **onLegendClick** option.
+The [onSeriesClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#onSeriesClick) function is executed after this function. The following code shows how to prevent this: 
 
-To learn more about handling click operations, and to see an example, refer to the [Click Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Click_Handling) topic.
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#polarChartContainer").dxPolarChart({
+            // ...
+            onLegendClick: function (e) {
+                e.event.cancel = true;
+            }
+        });
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import { DxPolarChartModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        polarChart_onLegendClick (e) {
+            e.event.cancel = true;
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxPolarChartModule
+        ],
+        // ...
+    })
+
+    <!--HTML--><dx-polar-chart ...
+        (onLegendClick)="polarChart_onLegendClick($event)">
+    </dx-polar-chart>
+
+---
+
+[/note]
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

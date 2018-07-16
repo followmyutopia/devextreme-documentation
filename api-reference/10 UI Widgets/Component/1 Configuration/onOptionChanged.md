@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **optionChanged** event. Executed after an option of the widget is changed.
+A function that is executed after a widget option is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->

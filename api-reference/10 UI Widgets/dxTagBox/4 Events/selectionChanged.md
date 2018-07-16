@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the selection changes.
+Raised when a list item is selected or the selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onSelectionChanged) option to handle the event.
+Main article: [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onSelectionChanged)
 
 #####See Also#####
 #include common-link-handleevents

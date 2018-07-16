@@ -8,6 +8,9 @@ Raised when a user attempts to open the browser's context menu for an appointmen
 
 <!--fullDescription-->
 Main article: [onAppointmentContextMenu](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentContextMenu)
+
+#####See Also#####
+#include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **AppointmentAdding** event.
+A function that is executed before an appointment is added to the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before an appointment is added to the widget's data source.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

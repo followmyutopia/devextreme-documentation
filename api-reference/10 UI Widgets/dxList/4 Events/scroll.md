@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires on each scroll gesture.
+Raised on each scroll gesture.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onScroll](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onScroll) option to handle the event.
+Main article: [onScroll](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onScroll)
 
 #####See Also#####
 - [List - Handle Scrolling-Related Events](/Documentation/Guide/Widgets/List/Scrolling/#Events)

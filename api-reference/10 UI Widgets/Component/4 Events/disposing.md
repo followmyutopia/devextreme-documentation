@@ -3,10 +3,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when the widget is removed from the DOM using the [remove()](http://api.jquery.com/remove/), [empty()](http://api.jquery.com/empty/), or [html()](http://api.jquery.com/html/) jQuery methods only.
+Raised before the widget is [disposed of]({basewidgetpath}/Methods/#dispose).
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onDisposing]({basewidgetpath}/Configuration/#onDisposing)
+
 #####See Also#####
 #include common-link-handleevents
 <!--/fullDescription-->

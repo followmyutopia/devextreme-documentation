@@ -5,12 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [scroll](/Documentation/ApiReference/UI_Widgets/dxList/Events/#scroll) event.
+A function that is executed on each scroll gesture.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action on each scroll gesture.
-
 #####See Also#####
 - [List - Handle Scrolling-Related Events](/Documentation/Guide/Widgets/List/Scrolling/#Events)
 <!--/fullDescription-->

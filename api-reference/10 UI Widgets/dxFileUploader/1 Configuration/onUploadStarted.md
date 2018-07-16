@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [uploadStarted](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Methods/#uploadStarted) event.
+A function that is executed when the file upload is started.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when file uploading is started.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

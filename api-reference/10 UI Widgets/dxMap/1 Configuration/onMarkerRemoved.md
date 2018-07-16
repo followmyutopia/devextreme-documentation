@@ -5,11 +5,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [markerRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Events/#markerRemoved) event.
+A function that is executed when a marker is removed from the map.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a marker is removed from the map.
+#####See Also#####
+- [Add and Remove a Marker](/Documentation/Guide/Widgets/Map/Configure_Markers/Add_and_Remove/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

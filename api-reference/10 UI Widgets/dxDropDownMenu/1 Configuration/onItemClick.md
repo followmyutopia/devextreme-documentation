@@ -5,13 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **itemClick** event.
+A function that is executed when a menu item is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the menu item is clicked.
 
-To navigate to a specific URL when the **itemClick** event fires, assign that URL or the anchor part (#) of that URL directly to this option as a string.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

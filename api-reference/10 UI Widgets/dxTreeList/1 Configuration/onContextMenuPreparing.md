@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed before a context menu is rendered.
+A function that is executed before the context menu is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This function allows you to customize the context menu.
+The following code shows how you can customize the context menu using this function:
 
 ---
 ##### jQuery

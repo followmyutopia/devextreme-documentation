@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed after the widget creates a row.
+A function that is executed after a row is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before hiding the overlay.
+Raised before the widget is hidden.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onHiding]({basewidgetpath}/Configuration/#onHiding) option to handle the event.
+Main article: [onHiding]({basewidgetpath}/Configuration/#onHiding)
 
 #####See Also#####
 #include common-link-handleevents

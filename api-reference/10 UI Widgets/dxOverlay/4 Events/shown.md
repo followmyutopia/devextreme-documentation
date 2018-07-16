@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the overlay is shown.
+Raised after the widget is displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onShown]({basewidgetpath}/Configuration/#onShown) option to handle the event.
+Main article: [onShown]({basewidgetpath}/Configuration/#onShown)
 
 #####See Also#####
 #include common-link-handleevents

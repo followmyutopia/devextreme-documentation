@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the submenu is displayed.
+Raised after a submenu is displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onSubmenuShown](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onSubmenuShown) option to handle the event.
+Main article: [onSubmenuShown](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onSubmenuShown)
 
 #####See Also#####
 #include common-link-handleevents

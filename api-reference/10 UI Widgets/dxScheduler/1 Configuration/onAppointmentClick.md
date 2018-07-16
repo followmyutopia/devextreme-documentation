@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [appointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentClick) event.
+A function that is executed when an appointment is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -48,8 +48,6 @@ If you click an appointment from the recurring series, for example the second ap
         */
         var targetedAppointmentData = e.targetedAppointmentData;
     }
-
-Assign a function to perform a custom action after an appointment has been clicked.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

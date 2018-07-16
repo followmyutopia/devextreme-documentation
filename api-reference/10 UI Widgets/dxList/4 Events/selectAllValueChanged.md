@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the select all check box value changes.
+Raised when the "Select All" check box value is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onSelectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onSelectAllValueChanged) option to handle the event.
-
-[note]This event fires only if the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectionMode) option is set to *'all'*.
+Main article: [onSelectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onSelectAllValueChanged)
 
 #####See Also#####
 - [List - Handle Selection-Related Events](/Documentation/Guide/Widgets/List/Selection/#Events)

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after resizing has been completed.
+Raised when resizing ends.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onResizeEnd](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#onResizeEnd) option to handle the event.
+Main article: [onResizeEnd](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#onResizeEnd)
 
 #####See Also#####
 #include common-link-handleevents

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the [value](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#value) option value has reached the [max](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#max) option value.
+Raised when the [value](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#value) reaches the [maximum](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#max).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onComplete](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#onComplete) option to handle the event.
+Main article: [onComplete](/Documentation/ApiReference/UI_Widgets/dxProgressBar/Configuration/#onComplete)
 
 #####See Also#####
 #include common-link-handleevents

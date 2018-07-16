@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised after selecting an item or clearing its selection.
+Raised when a tree view item is selected or the selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -5,13 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **buttonClick** event.
+A function that is executed when the button that opens the drop-down menu is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the button that invokes the drop down menu is clicked.
 
-To navigate to a specific URL when the **buttonClick** event fires, assign that URL or the anchor part (#) of that URL directly to this option as a string.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

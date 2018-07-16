@@ -6,13 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **hoverChanged** event.
+A function that is executed after the pointer enters or leaves a node.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the node whose hover state has been changed.
-
-To identify whether the node was hovered over or hovered out, call its [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isHovered) method. To identify whether the node is a single tile or a group of tiles, call its [isLeaf()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isLeaf) method. Other accessible fields and methods of a node are described in the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) section.
+To identify whether the pointer has entered or left the node, call the node's [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isHovered) method. To identify whether the node is a single tile or a group of tiles, use the node's [isLeaf()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isLeaf) method.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

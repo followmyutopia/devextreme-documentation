@@ -5,11 +5,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [markerAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Events/#markerAdded) event.
+A function that is executed when a marker is created on the map.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a marker is added to the map.
+#####See Also#####
+- [Add and Remove a Marker](/Documentation/Guide/Widgets/Map/Configure_Markers/Add_and_Remove/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

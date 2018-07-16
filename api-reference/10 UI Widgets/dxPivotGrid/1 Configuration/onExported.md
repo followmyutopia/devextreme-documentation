@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [exported](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Events/#exported) event.
+A function that is executed after data is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after the exporting of grid data is completed.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

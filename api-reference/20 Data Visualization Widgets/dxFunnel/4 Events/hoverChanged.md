@@ -4,10 +4,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised after a funnel item's hover state is changed in the UI or programmatically.
+Raised after the pointer enters or leaves a [funnel item](/Documentation/Guide/Widgets/Funnel/Funnel_Items/Overview/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onHoverChanged)
+
 #####See Also#####
 #include common-link-handleevents
 <!--/fullDescription-->

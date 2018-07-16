@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when file uploading has been aborted. 
+Raised when the file upload is aborted.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onUploadAborted](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onUploadAborted) option to handle the event.
+Main article: [onUploadAborted](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onUploadAborted)
 
 #####See Also#####
 #include common-link-handleevents

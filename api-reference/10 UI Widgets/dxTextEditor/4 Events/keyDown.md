@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a key is pressed down within the widget's input element. 
+Raised when a user is pressing a key on the keyboard.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onKeyDown]({basewidgetpath}/Configuration/#onKeyDown) option to handle the event.
+Main article: [onKeyDown]({basewidgetpath}/Configuration/#onKeyDown)
 
 #####See Also#####
 #include common-link-handleevents

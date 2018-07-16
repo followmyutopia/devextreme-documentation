@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **showing** event.
+A function that is executed before the widget is displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before showing the widget.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

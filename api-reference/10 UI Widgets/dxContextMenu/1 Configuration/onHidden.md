@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [hidden](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#hidden) event.
+A function that is executed after the **ContextMenu** is hidden.
 <!--/shortDescription-->
 
 <!--fullDescription-->

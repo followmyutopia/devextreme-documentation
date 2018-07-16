@@ -5,12 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [itemSwipe](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemSwipe) event.
+A function that is executed when a list item is swiped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when an item is swiped.
-
 #####See Also#####
 - [List - Touch-Screen Gestures](/Documentation/Guide/Widgets/List/End-User_Interaction/Touch-Screen_Gestures/)
 <!--/fullDescription-->

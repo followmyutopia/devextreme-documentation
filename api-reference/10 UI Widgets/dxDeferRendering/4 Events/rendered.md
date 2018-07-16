@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the widget's content has finished rendering but is not yet shown.
+Raised when the content is rendered but not yet displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onRendered](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#onRendered) option to handle the event.
+Main article: [onRendered](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#onRendered)
 
 #####See Also#####
 #include common-link-handleevents

@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [positioning](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Events/#positioning) event.
+A function that is executed before the **ContextMenu** is positioned.
 <!--/shortDescription-->
 
 <!--fullDescription-->

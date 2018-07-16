@@ -4,20 +4,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the selected range is changed.
+Raised after the widget's [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value) is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as the parameter. Among fields of this object, you can find old and new start and end range values.
-
-The **valueChanged** event can be fired when a user moves a slider or after he/she has stopped moving it. To specify the required mode, use the **behavior**.[callValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged) option.
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/charts-advanced_features-zooming_and_scrolling_api"
-}
+Main article: [onValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#onValueChanged)
 
 #####See Also#####
-- [onValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#onValueChanged)
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

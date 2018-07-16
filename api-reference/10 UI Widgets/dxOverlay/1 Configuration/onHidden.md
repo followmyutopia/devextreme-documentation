@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **hidden** event.
+A function that is executed after the widget is hidden.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after the widget is hidden.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

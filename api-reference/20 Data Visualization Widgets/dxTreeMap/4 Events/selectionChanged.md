@@ -4,13 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the selection state of a node has been changed.
+Raised when a node is selected or the selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the node whose selection state has been changed.
-
-To identify whether the node was selected or deselected, call its [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isSelected) method. To identify whether the node is a single tile or a group of tiles, call its [isLeaf()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isLeaf) method. Other accessible fields and methods of a node are described in the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) section.
+Main article: [onSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onSelectionChanged)
 
 #####See Also#####
 #include common-link-handleevents

@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the hover state of a cell is changed. 
+Raised after the pointer enters or leaves a cell.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onCellHoverChanged](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellHoverChanged) option to handle the event.
-
-When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the cell whose hover state has been changed. For example, to identify whether a cell has been hovered over or hovered out, check the value of the **eventType** field.
+Main article: [onCellHoverChanged](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellHoverChanged)
 
 #####See Also#####
 #include common-link-handleevents

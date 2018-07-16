@@ -4,13 +4,14 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a user selects/deselects a layer element.
+Raised when a layer element is selected or the selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the selected/deselected layer element. An object that represents this element has fields and methods documented in the [Layer Element](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/) class description.
+Main article: [onSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onSelectionChanged)
 
-To identify whether a layer element has been selected or deselected, call its [selected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Map_Elements/Layer_Element/Methods/#selected) method. Pass **true** or **false** to this method to select or deselect the marker.
+#####See Also#####
+#include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

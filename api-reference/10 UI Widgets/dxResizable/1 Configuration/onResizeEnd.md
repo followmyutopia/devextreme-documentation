@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [resizeEnd](/Documentation/ApiReference/UI_Widgets/dxResizable/Events/#resizeEnd) event.
+A function that is executed when resizing ends.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the widget has been resized.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

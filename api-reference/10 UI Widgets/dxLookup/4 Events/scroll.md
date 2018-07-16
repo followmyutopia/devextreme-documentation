@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires on each scroll gesture.
+Raised on each scroll gesture performed on the drop-down item list.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onScroll](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onScroll) option to handle the event.
+Main article: [onScroll](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onScroll)
 
 #####See Also#####
 #include common-link-handleevents

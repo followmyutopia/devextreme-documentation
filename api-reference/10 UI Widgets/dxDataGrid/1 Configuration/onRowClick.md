@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed when a user clicks a row.
+A function that is executed when a row is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->

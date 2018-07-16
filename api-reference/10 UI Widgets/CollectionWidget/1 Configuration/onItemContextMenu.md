@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [itemContextMenu]({basewidgetpath}/Events/#itemContextMenu) event.
+A function that is executed when a collection item is right-clicked or pressed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the right mouse button is clicked when the pointer is over a widget item, or when the "sustained" (also known as a long press) touch action is performed.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **closed** event.
+A function that is executed once the drop-down editor is closed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a drop-down editor has been hidden.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

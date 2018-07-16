@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [validated](/Documentation/ApiReference/UI_Widgets/dxValidator/Events/#validated) event.
+A function that is executed after a value is validated.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after an editor value is validated against the specified [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules).
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->validatedInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
@@ -23,7 +23,7 @@ The value of the [name](/Documentation/ApiReference/UI_Widgets/dxValidator/Confi
 <!--typeFunctionParamName1_field2-->isValid<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->Boolean<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Indicates whether all the rules checked for the value are satisfied.
+Indicates whether all the [rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules) checked for the value are satisfied.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->value<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->

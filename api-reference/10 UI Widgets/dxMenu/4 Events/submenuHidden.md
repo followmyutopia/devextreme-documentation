@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the submenu is hidden.
+Raised after a submenu is hidden.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onSubmenuHidden](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onSubmenuHidden) option to handle the event.
+Main article: [onSubmenuHidden](/Documentation/ApiReference/UI_Widgets/dxMenu/Configuration/#onSubmenuHidden)
 
 #####See Also#####
 #include common-link-handleevents

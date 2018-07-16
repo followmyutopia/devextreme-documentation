@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a tree view item is collapsed.
+Raised when a tree view item is collapsed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemCollapsed](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemCollapsed) option to handle the event.
+Main article: [onItemCollapsed](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemCollapsed)
 
 #####See Also#####
 #include common-link-handleevents

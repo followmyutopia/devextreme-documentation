@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the widget's input has been pasted.
+Raised when the widget's input has been pasted.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onPaste]({basewidgetpath}/Configuration/#onPaste) option to handle the event.
+Main article: [onPaste]({basewidgetpath}/Configuration/#onPaste)
 
 #####See Also#####
 #include common-link-handleevents

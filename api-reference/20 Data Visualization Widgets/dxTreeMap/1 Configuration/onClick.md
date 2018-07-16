@@ -6,22 +6,51 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [click](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Events/#click) event.
+A function that is executed when a node is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as the parameter. Among the fields of this object, you can find the clicked node. For example, the following function uses the node's [select(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#selectstate) and [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isSelected) methods to select/deselect the node on a click.
+This function is often used to implement item selection as shown in the following code:
 
-    <!--JavaScript-->var treeMapOptions = {
-        // ...
-        onClick: function (e) {
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#treeMapContainer").dxTreeMap({
+            // ...
+            onClick: function (e) {
+                e.node.select(!e.node.isSelected());
+            }
+        });
+    });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-tree-map ...
+        (onClick)="selectItem($event)">
+    </dx-tree-map>
+
+    <!--TypeScript-->
+    import { DxTreeMapModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        selectItem (e) {
             e.node.select(!e.node.isSelected());
         }
-    };
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeMapModule
+        ],
+        // ...
+    })
 
-To identify whether the clicked node is a tile or a group of tiles, use the [isLeaf()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isLeaf) method. To learn about other available members of a node, refer to the description of the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) object.
+---
 
-Alternatively, you can navigate to a specific URL when the **click** event fires. For this purpose, assign this URL to the **onClick** option.
+To identify whether the clicked node is a single tile or a group of tiles, use the node's [isLeaf()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isLeaf) method.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

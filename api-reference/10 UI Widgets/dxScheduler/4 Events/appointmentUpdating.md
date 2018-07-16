@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before an appointment is updated in the data source.
+Raised before an appointment is updated in the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onAppointmentUpdating](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentUpdating) option to handle the event.
+Main article: [onAppointmentUpdating](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentUpdating)
 
 #####See Also#####
 #include common-link-handleevents

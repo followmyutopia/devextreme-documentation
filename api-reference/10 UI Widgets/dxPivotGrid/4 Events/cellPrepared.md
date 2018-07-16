@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a cell has been rendered.
+Raised after a pivot grid cell is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onCellPrepared](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onCellPrepared) option to handle the event.
-
-When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the prepared cell.
+Main article: [onCellPrepared](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onCellPrepared)
 
 #####See Also#####
 #include common-link-handleevents

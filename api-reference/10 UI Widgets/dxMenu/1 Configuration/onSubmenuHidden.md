@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [submenuHidden](/Documentation/ApiReference/UI_Widgets/dxMenu/Events/#submenuHidden) event.
+A function that is executed after a submenu is hidden.
 <!--/shortDescription-->
 
 <!--fullDescription-->

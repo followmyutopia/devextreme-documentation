@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [cellClick](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Events/#cellClick) event.
+A function that is executed when a pivot grid cell is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **cellClick** event fires when a user clicks a pivot grid cell. When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the clicked cell.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

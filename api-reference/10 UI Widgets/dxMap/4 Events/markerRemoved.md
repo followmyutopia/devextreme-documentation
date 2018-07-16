@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a marker is removed from the map.
+Raised when a marker is removed from the map.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onMarkerRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerRemoved) option to handle the event.
+Main article: [onMarkerRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerRemoved)
 
 #####See Also#####
 #include common-link-handleevents

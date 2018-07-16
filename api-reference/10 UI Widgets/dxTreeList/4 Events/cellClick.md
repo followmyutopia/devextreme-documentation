@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when a user clicks a cell. 
+Raised when a cell is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->

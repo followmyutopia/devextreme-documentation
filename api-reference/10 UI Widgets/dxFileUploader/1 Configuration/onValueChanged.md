@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **valueChanged** event.
+A function that is executed when one or several files are added to or removed from the selection.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a file or several files are added to or removed from selection.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

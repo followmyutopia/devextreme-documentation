@@ -6,12 +6,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [centerChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Events/#centerChanged) event.
+A function that is executed each time the center coordinates are changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If you need to perform specific actions when the coordinates of the map center are changed, handle the **centerChanged** event. One of the ways to do this is to assign a function to the **onCenterChanged** option. This function will be called every time a user moves the map or when the center is being changed in code by calling the [center(centerCoordinates)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#centercenterCoordinates) or [viewport(viewportCoordinates)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#viewportviewportCoordinates) method. When implementing this function, use the object passed to it as its parameter. Among the fields of this object, you can find the updated center coordinates.
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapviewport/"
 }

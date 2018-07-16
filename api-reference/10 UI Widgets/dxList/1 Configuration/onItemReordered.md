@@ -6,13 +6,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [itemReordered](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemReordered) event.
+A function that is executed after a list item is moved to another position.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a list item is moved to another position.
-
 #####See Also#####
+- [allowItemReordering](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#allowItemReordering)
 - [List - Handle Reordering-Related Events](/Documentation/Guide/Widgets/List/Item_Reordering/#Events)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

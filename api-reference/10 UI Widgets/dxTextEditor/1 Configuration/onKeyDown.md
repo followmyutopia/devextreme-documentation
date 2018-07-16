@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **keyDown** event.
+A function that is executed when a user is pressing a key on the keyboard.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a key is pressed down within the widget's input element. 
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

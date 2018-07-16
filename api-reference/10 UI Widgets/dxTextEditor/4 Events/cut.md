@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the **Cut** DOM event has fired.
+Raised when the widget's input has been cut.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onCut]({basewidgetpath}/Configuration/#onCut) option to handle the event.
+Main article: [onCut]({basewidgetpath}/Configuration/#onCut)
 
 #####See Also#####
 #include common-link-handleevents

@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [uploaded](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Events/#uploaded) event.
+A function that is executed when a file is successfully uploaded.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a file has been uploaded.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

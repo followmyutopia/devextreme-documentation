@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a drop-down list has been hidden.
+Raised once the drop-down editor is closed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onClosed]({basewidgetpath}/Configuration/#onClosed) option to handle the event.
+Main article: [onClosed]({basewidgetpath}/Configuration/#onClosed)
 
 #####See Also#####
 #include common-link-handleevents

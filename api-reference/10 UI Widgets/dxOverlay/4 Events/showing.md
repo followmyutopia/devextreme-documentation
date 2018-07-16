@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before showing the overlay.
+Raised before the widget is displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onShowing]({basewidgetpath}/Configuration/#onShowing) option to handle the event.
+Main article: [onShowing]({basewidgetpath}/Configuration/#onShowing)
 
 #####See Also#####
 #include common-link-handleevents

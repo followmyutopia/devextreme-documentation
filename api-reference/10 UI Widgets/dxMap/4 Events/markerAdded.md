@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a marker is added to the map.
+Raised when a marker is created on the map.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onMarkerAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerAdded) option to handle the event.
+Main article: [onMarkerAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onMarkerAdded)
 
 #####See Also#####
 #include common-link-handleevents

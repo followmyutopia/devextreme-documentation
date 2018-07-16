@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **focusOut** event.
+A function that is executed when the widget loses focus.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after the widget's input element loses focus.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

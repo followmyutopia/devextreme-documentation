@@ -6,12 +6,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [zoomFactorChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Events/#zoomFactorChanged) event.
+A function that is executed each time the zoom factor is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If you need to perform specific actions when the map zoom factor is changed, handle the **zoomFactorChanged** event. One of the ways to do this is to assign a function to the **onZoomFactorChanged** option. This function will be called every time a user zooms the map or when the zoom factor is changed from code by calling the [zoomFactor(zoomFactor)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#zoomFactorzoomFactor) or [viewport(viewportCoordinates)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#viewportviewportCoordinates) method. When implementing this function, use the object passed to it as the parameter. Among the fields of this object, you can find the updated zoom factor.
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/mapsvectormapvectormapviewport/"
 }

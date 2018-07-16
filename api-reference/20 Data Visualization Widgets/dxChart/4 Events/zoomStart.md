@@ -4,15 +4,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when zooming or scrolling begins.
+Raised when zooming or scrolling begins.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onZoomStart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomStart)
+
 #####See Also#####
-- [onZoomStart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomStart) - a handler for this event.
-- [zoomingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) - enables zooming in the chart.
-- [scrollingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode) - enables scrolling in the chart.
-- [zoomEnd](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#zoomEnd) - an event that fires when zooming or scrolling ends.
 #include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

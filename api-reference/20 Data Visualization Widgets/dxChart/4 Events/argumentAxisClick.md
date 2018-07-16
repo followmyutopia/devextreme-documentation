@@ -4,10 +4,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a user clicks a [label](/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/) on the [argument axis](/Documentation/Guide/Widgets/Chart/Axes/Overview/).
+Raised when a [label](/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/) on the [argument axis](/Documentation/Guide/Widgets/Chart/Axes/Overview/) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onArgumentAxisClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onArgumentAxisClick)
+
 #####See Also#####
 #include common-link-handleevents
 <!--/fullDescription-->

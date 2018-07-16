@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [fileSaving](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Events/#fileSaving) event.
+A function that is executed before a file with exported data is saved to the user's local storage.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before an Excel file with [exported](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/export/) data will be saved on the user's local storage.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

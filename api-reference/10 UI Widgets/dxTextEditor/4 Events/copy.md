@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the widget's input has been copied. 
+Raised when the widget's input has been copied.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onCopy]({basewidgetpath}/Configuration/#onCopy) option to handle the event.
+Main article: [onCopy]({basewidgetpath}/Configuration/#onCopy)
 
 #####See Also#####
 #include common-link-handleevents

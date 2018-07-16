@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the map is clicked.
+Raised when any location on the map is clicked.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onClick](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onClick) option to handle the event.
+Main article: [onClick](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onClick)
 
 #####See Also#####
 #include common-link-handleevents

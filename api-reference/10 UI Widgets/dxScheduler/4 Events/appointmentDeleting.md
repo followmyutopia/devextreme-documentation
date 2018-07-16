@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before an appointment is deleted from the data source.
+Raised before an appointment is deleted from the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onAppointmentDeleting](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDeleting) option to handle the event.
+Main article: [onAppointmentDeleting](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDeleting)
 
 #####See Also#####
 #include common-link-handleevents

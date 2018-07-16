@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before loading the next page in the lookup list if autopaging is enabled.
+Raised before the next page is loaded.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onPageLoading](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onPageLoading) option to handle the event.
+Main article: [onPageLoading](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onPageLoading)
 
 #####See Also#####
 #include common-link-handleevents

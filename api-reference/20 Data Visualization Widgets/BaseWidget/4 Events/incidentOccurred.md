@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when an error or warning appears in the widget.
+Raised when an error or warning occurs.
 <!--/shortDescription-->
 
 <!--fullDescription-->

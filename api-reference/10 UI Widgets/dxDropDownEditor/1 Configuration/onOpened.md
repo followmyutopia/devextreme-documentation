@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **opened** event.
+A function that is executed once the drop-down editor is opened.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the drop-down editor is shown.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

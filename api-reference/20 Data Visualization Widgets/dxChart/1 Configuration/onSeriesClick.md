@@ -6,17 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [seriesClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesClick) event.
+A function that is executed when a [series](/Documentation/Guide/Widgets/Chart/Series/Overview/) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the clicked series. To learn about series members that you can use, refer to the description of the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/) object.
-
-[note] The **seriesClick** also fires when a user clicks a series point or a legend item, but only if it is not canceled in the [pointClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#pointClick) and [legendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#legendClick) event handlers.
-
-Alternatively, you can navigate to a specific URL when the **seriesClick** event fires. For this purpose, assign this URL to the **onSeriesClick** option.
-
-To learn more about handling click operations, and to see an example, refer to the [Click Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Click_Handling) topic.
+[note] This function is also executed when a [series point](/Documentation/Guide/Widgets/Chart/Series_Points/Overview/) or [legend item](/Documentation/Guide/Widgets/Chart/Legend/Overview/) is clicked or tapped. You can cancel the execution in the [onPointClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onPointClick) and [onLegendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onLegendClick) functions.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesmultipleseriesselection/"

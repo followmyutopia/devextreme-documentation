@@ -6,12 +6,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [valueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Events/#valueChanged) event.
+A function that is executed after the widget's [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value) is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing the handling function, use the object passed to it as the parameter. Among fields of this object, you can find old and new start and end range values.
-
 The **onValueChanged** function can be called when a user moves a slider or after he/she has stopped moving it. To specify the required mode, use the **behavior**.[callValueChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/behavior/#callValueChanged) option.
 
 #include common-demobutton with {

@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the editor value changes.
+Raised after the widget's [value](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#value) is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onValueChanged) option to handle the event.
-
-Use the **selectedItem** field of the argument object passed to the [selectionChanged]({basewidgetpath}\events\#selectionChanged) event handler to access the selected item.
+Main article: [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onValueChanged)
 
 #####See Also#####
 #include common-link-handleevents

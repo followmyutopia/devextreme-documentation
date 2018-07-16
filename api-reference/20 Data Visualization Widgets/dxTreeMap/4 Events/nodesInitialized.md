@@ -4,13 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when all nodes in the widget are initialized.
+Raised only once, after the nodes are initialized.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Implement a handler for this event to perform certain operations on the node structure. It will be called once - at the beginning of the widget's lifetime.
-
-Within the handler, use the object passed to it as the parameter. Among the fields of this object, you can find the root node. Using the [getAllChildren()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#getAllChildren) and [getChild(index)](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#getChildindex) of this node, you can access any other node in the widget. To learn about other available members of any node including the root node, refer to the description of the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) object.
+Main article: [onNodesInitialized](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onNodesInitialized)
 
 #####See Also#####
 #include common-link-handleevents

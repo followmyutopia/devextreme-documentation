@@ -3,19 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a user clicks a grid row.
+Raised when a row is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onRowClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowClick) option to handle the event.
-
-When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the clicked row.
-
-[note]If there are any internal grid handlers for the row click, the **rowClick** event fires only after these handlers are executed. In this case, the **handled** field of the handler parameter is set to **true**.
-
-In addition, you can perform certain actions when a user clicks a cell. For this purpose, handle the [cellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#cellClick) event. Note that the **cellClick** fires before the **rowClick**.
-
-[note] When the clicked row is in the editing state, or switches to the editing state, the **rowClick** event will not fire. Instead, you can use the **cellClick**.
+Main article: [onRowClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowClick)
 
 #####See Also#####
 #include common-link-handleevents

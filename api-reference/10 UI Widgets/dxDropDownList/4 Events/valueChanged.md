@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the editor value changes.
+Raised after the widget's [value]({basewidgetpath}/Configuration/#value) is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onValueChanged]({basewidgetpath}/Configuration/#onValueChanged) option to handle the event.
+Main article: [onValueChanged]({basewidgetpath}/Configuration/#onValueChanged)
 
 #####See Also#####
 #include common-link-handleevents

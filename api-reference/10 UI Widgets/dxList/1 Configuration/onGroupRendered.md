@@ -5,11 +5,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **groupRendered** event.
+A function that is executed when a group element is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after an item group element is rendered.
+#####See Also#####
+- [grouped](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#grouped)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

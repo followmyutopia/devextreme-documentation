@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a menu item is rendered.
+Raised when a regular menu item is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onMenuItemRendered](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#onMenuItemRendered) option to handle the event.
+Main article: [onMenuItemRendered](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#onMenuItemRendered)
 
 #####See Also#####
 #include common-link-handleevents

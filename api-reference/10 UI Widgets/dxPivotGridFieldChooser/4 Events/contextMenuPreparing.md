@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before displaying a context menu invoked by a right-click on one of the field chooser's fields.
+Raised before the context menu is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onContextMenuPreparing](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Configuration/#onContextMenuPreparing) option to handle the event.
-
-Handle this event to change the set of items in the context menu before it is displayed.
+Main article: [onContextMenuPreparing](/Documentation/ApiReference/UI_Widgets/dxPivotGridFieldChooser/Configuration/#onContextMenuPreparing)
 
 #####See Also#####
 #include common-link-handleevents

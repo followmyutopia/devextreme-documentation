@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **scroll** event.
+A function that is executed on each scroll gesture.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action on each scroll gesture.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

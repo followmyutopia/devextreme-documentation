@@ -6,7 +6,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **itemDeleting** event. Executed before an item is deleted from the data source.
+A function that is executed before a collection item is deleted from the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->

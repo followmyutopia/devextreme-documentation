@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after an edit form has been created for an appointment.
+Raised when an appointment's edit form is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onAppointmentFormCreated](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentFormCreated) option to handle the event.
+Main article: [onAppointmentFormCreated](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentFormCreated)
 
 #####See Also#####
 #include common-link-handleevents

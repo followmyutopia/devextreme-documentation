@@ -6,12 +6,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [itemDeleted]({basewidgetpath}/Events/#itemDeleted) event.
+A function that is executed after a collection item is deleted from the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a collection item is deleted.
-
 Note that the **itemDeleted** event is raised only if an item is deleted using the appropriate method of the widget or end-user interaction. If you delete an item from an observable array passed to the **dataSource** or **items** option, the widget entirely reloads the items array without raising the **itemDeleted** and **itemDeleting** events.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

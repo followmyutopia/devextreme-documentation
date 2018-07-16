@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after an appointment has been double clicked.
+Raised when an appointment is double-clicked or double-tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onAppointmentDblClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDblClick) option to handle the event.
-
-In case of recurring appointments or appointments with multiple resources, you may want to obtain information about the currently selected appointment, not the initial appointment. For this purpose, use the **targetedAppointmentData** field of the function parameter. Otherwise, use the **appointmentData** field.
+Main article: [onAppointmentDblClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDblClick)
 
 #####See Also#####
 #include common-link-handleevents

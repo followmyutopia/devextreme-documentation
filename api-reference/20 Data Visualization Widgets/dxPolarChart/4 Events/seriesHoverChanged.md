@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the hover state of a series has been changed.
+Raised after the pointer enters or leaves a series.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the series whose hover state has been changed. To identify whether this series was hovered over or hovered out, call its [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Series/Methods/#isHovered) method. To discover series' fields and methods you can use, refer to the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Series/) class description.
+Main article: [onSeriesHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#onSeriesHoverChanged)
 
 #####See Also#####
 #include common-link-handleevents

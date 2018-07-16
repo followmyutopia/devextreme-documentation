@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [resizeStart](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#onResizeStart) event.
+A function that is executed when resizing starts.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after resizing has been finished.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

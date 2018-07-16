@@ -6,11 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [itemReordered]({basewidgetpath}/Events/#itemReordered) event.
+A function that is executed after a collection item is moved to another position.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a list item is moved to another position.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

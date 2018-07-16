@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a callback function that is called when widget content is shown and animation has completed.
+A function that is executed when the content is displayed and animation is completed.
 <!--/shortDescription-->
 
 <!--fullDescription-->

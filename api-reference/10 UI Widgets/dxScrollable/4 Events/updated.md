@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the widget is updated.
+Raised each time the widget is updated.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onUpdated]({basewidgetpath}/Configuration/#onUpdated) option to handle the event.
+Main article: [onUpdated]({basewidgetpath}/Configuration/#onUpdated)
 
 #####See Also#####
 #include common-link-handleevents

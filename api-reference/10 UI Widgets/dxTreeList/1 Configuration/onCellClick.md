@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed after a user clicks a cell.
+A function that is executed when a cell is clicked or tapped. Executed before [onRowClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowClick).
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -3,10 +3,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised after data from the widget is exported.
+Raised after the widget is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onExported]({basewidgetpath}/Configuration/#onExported)
+
 #####See Also#####
 #include common-link-handleevents
 <!--/fullDescription-->

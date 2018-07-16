@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when an item on the chart legend is clicked.
+Raised when a [legend item](/Documentation/Guide/Widgets/Chart/Legend/Overview/) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the series to which the clicked legend item belongs. To learn about series' members you can use, refer to the description of the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/) object.
+Main article: [onLegendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onLegendClick)
 
 #####See Also#####
 #include common-link-handleevents

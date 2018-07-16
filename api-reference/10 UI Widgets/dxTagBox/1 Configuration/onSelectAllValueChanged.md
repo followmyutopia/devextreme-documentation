@@ -5,13 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [selectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxTagBox/Events/#selectAllValueChanged) event.
+A function that is executed when the "Select All" check box value is changed. Applies only if [showSelectionControls](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#showSelectionControls) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the select all check box value is changed.
 
-Note that this event fires only if the [showSelectionControls](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#showSelectionControls) option is set to **true**.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

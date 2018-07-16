@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires on each scroll gesture.
+Raised on each scroll gesture.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onScroll]({basewidgetpath}/Configuration/#onScroll) option to handle the event.
+Main article: [onScroll]({basewidgetpath}/Configuration/#onScroll)
 
 #####See Also#####
 #include common-link-handleevents

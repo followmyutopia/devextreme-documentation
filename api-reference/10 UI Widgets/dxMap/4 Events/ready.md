@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a map is rendered.
+Raised when the map is ready.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onReady](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onReady) option to handle the event.
+Main article: [onReady](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onReady)
 
 #####See Also#####
 #include common-link-handleevents

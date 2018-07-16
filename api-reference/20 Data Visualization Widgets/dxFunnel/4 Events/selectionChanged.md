@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised after a funnel item's selection state is changed in the UI or programmatically.
+Raised when a funnel item is selected or the selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->

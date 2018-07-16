@@ -5,12 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [fieldDataChanged](/Documentation/ApiReference/UI_Widgets/dxForm/Events/#fieldDataChanged) event.
+A function that is executed when the value of a [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object field is changed. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after the value of a [formData](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#formData) object field has been changed.
-
 #####See Also#####
 - [Handle the Value Change Event](/Documentation/Guide/Widgets/Form/Handle_the_Value_Change_Event/)
 <!--/fullDescription-->

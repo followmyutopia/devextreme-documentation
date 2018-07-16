@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [ready](/Documentation/ApiReference/UI_Widgets/dxMap/Events/#ready) event.
+A function that is executed when the map is ready.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a map is rendered.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

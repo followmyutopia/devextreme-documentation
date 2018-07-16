@@ -6,11 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **itemClick** event. Executed when a user clicks a funnel item.
+A function that is executed when a [funnel item](/Documentation/Guide/Widgets/Funnel/Funnel_Items/Overview/) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **onItemClick** event handler is often used to implement item selection as shown in the following code:
+This function is often used to implement item selection as shown in the following code:
 
 ---
 ##### jQuery

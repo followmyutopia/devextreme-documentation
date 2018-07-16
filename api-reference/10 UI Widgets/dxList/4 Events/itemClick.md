@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a list item is clicked.
+Raised when a list item is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemClick](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemClick) option to handle the event.
-
-[note] This event fires only if the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectionMode) option is set to *'none'*.
+Main article: [onItemClick](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemClick)
 
 #####See Also#####
 - [List - Universal Actions](/Documentation/Guide/Widgets/List/End-User_Interaction/Universal_Actions/)

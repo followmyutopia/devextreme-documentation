@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [titleRendered](/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#titleRendered) event.
+A function that is executed when the widget's [title]({basewidgetpath}/Configuration/#title) is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a collection item title is rendered.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

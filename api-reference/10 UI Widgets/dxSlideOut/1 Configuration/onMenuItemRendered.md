@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **menuItemRendered** event.
+A function that is executed when a regular menu item is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a menu item is rendered.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

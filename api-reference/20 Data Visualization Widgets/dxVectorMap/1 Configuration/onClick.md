@@ -6,21 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [click](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Events/#click) event.
+A function that is executed when any location on the map is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the object that represents the jQuery event extended by the following fields.
-
-* **x**        
-Contains the X coordinate of the clicked point.
-* **y**        
-Contains the Y coordinate of the clicked point.
-
-[note] The coordinates are calculated relatively to the client area, i.e., the widget's container. To convert them into map coordinates, use the [convertCoordinates(x,y)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#convertCoordinatesx_y) method.
-
-Alternatively, you can navigate to a specific URL when the **click** event fires. For this purpose, assign this URL to the **onClick** option.
-
+The clicked point's coordinates are available in the **event** field's **x** and **y** properties. The coordinates are calculated relatively to the client area which is the widget's container. To convert them into map coordinates, use the [convertCoordinates(x,y)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#convertCoordinatesx_y) method.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

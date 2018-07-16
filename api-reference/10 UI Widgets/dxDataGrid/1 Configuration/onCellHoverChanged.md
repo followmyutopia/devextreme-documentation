@@ -9,7 +9,7 @@ A function that is executed after the pointer enters or leaves a cell.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+To identify whether the pointer has entered or left the cell, check the **eventType** field's value.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

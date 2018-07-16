@@ -5,13 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [click](/Documentation/ApiReference/UI_Widgets/dxMap/Events/#click) event.
+A function that is executed when any location on the map is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the map is clicked.
 
-To navigate to a specific URL when the **click** event fires, assign that URL or the anchor part (#) of that URL directly to this option as a string.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

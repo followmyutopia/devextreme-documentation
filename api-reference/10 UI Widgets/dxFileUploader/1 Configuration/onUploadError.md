@@ -5,12 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [uploadError](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Events/#uploadError) event.
+A function that is executed when an error occurs during the file upload.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when an error has occurred during uploading.
-
 The following code shows how you can handle a network error.
 
 ---

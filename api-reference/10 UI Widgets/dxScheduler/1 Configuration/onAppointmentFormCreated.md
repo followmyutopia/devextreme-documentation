@@ -5,12 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [appointmentFormCreated](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentFormCreated) event.
+A function that is executed when an appointment's edit form is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after an edit form has been created for an appointment.
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/"
 }

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a tree view item is expanded.
+Raised when a tree view item is expanded.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemExpanded](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemExpanded) option to handle the event.
+Main article: [onItemExpanded](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#onItemExpanded)
 
 #####See Also#####
 #include common-link-handleevents

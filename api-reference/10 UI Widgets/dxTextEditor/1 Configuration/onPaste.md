@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **paste** event.
+A function that is executed when the widget's input has been pasted.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after the widget's input is pasted.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

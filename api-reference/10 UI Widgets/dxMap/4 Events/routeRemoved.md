@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a route is removed from the map.
+Raised when a route is removed from the map.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onRouteRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteRemoved) option to handle the event.
+Main article: [onRouteRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteRemoved)
 
 #####See Also#####
 #include common-link-handleevents

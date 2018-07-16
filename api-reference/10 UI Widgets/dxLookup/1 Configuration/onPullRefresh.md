@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [pullRefresh](/Documentation/ApiReference/UI_Widgets/dxLookup/Events/#pullRefresh) event.
+A function that is executed when the "pull to refresh" gesture is performed on the drop-down item list. Supported in mobile themes only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before the lookup list is refreshed as a result of the "pull down to refresh" gesture.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

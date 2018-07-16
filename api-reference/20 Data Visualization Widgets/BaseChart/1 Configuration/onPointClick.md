@@ -6,20 +6,56 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [pointClick]({basewidgetpath}/Events/#pointClick) event.
+A function that is executed when a series point is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the clicked series point. To learn about point's members that you can use, refer to the description of the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) object.
+[note]
 
-[note] A click on a series point causes the [seriesClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesClick) event to fire after the **pointClick** event. To prevent this behavior, assign **true** to the **jQueryEvent.cancel** field of the object passed to the **pointClick** event handler as the argument.
+The [onSeriesClick]({basewidgetpath}/Configuration/#onSeriesClick) function is executed after this function. The following code shows how to prevent this: 
 
-Alternatively, you can navigate to a specific URL when the **pointClick** event fires. For this purpose, assign this URL to the **onPointClick** option.
+---
+##### jQuery
 
-To learn more about how to handle click operations, and to see an example, refer to the [Click Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Click_Handling) topic.
+    <!--JavaScript-->
+    $(function () {
+        $("#{widgetName}Container").dx{WidgetName}({
+            // ...
+            onPointClick: function (e) {
+                e.event.cancel = true;
+            }
+        });
+    });
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeaturesselection/"
+##### Angular
+
+    <!--TypeScript-->
+    import { Dx{WidgetName}Module } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        {widgetName}_onPointClick (e) {
+            e.event.cancel = true;
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            Dx{WidgetName}Module
+        ],
+        // ...
+    })
+
+    <!--HTML--><dx-{widget-name} ...
+        (onPointClick)="{widgetName}_onPointClick($event)">
+    </dx-{widget-name}>
+
+---
+
+[/note]
+
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/Selection/jQuery/Light/",
+    name: "Bar Chart"
 }
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

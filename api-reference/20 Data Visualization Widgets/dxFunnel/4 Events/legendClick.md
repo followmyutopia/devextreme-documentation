@@ -4,10 +4,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when a user clicks a legend item.
+Raised when a [legend item](/Documentation/Guide/Widgets/Funnel/Legend/Overview/) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onLegendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onLegendClick)
+
 #####See Also#####
 #include common-link-handleevents
 - [legend](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/legend/)

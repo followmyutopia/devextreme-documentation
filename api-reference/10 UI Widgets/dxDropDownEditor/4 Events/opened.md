@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the drop-down editor is shown.
+Raised once the drop-down editor is opened.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onOpened]({basewidgetpath}/Configuration/#onOpened) option to handle the event.
+Main article: [onOpened]({basewidgetpath}/Configuration/#onOpened)
 
 #####See Also#####
 #include common-link-handleevents

@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **valueChanged** event. Executed after the widget's [value](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#value) is changed.
+A function that is executed after the widget's [value](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#value) is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->

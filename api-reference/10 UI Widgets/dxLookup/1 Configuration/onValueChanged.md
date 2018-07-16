@@ -5,14 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **valueChanged** event.
+A function that is executed after the widget's [value](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#value) is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the editor value changes.
-
-Use the **selectedItem** field of the argument object passed to the [onSelectionChanged]({basewidgetpath}\configuration\#onSelectionChanged) event handler to access selected item.
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Lookup/EventHandling/jQuery/Light/"
 }

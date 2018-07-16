@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when an item on the chart legend is clicked.
+Raised when a [legend item](/Documentation/Guide/Widgets/PieChart/Legend/Overview/) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can subscribe to this event using the [onLegendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#onLegendClick) option or the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Methods/#oneventName_eventHandler) method.
+Main article: [onLegendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/#onLegendClick)
 
 #####See Also#####
 #include common-link-handleevents

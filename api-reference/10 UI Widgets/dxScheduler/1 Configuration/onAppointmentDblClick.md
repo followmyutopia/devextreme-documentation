@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [appointmentDblClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#appointmentDblClick) event.
+A function that is executed when an appointment is double-clicked or double-tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -48,8 +48,6 @@ If you double-click an appointment from the recurring series, for example the se
         */
         var targetedAppointmentData = e.targetedAppointmentData;
     }
-
-Assign a function to perform a custom action after an appointment has been double clicked.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

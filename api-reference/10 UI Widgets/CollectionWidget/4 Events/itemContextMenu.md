@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the right mouse button is clicked when the pointer is over a widget item, or when the "sustained" (also known as a long press) touch action is performed.
+Raised when a collection item is right-clicked or pressed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemContextMenu]({basewidgetpath}/Configuration/#onItemContextMenu) option to handle the event.
+Main article: [onItemContextMenu]({basewidgetpath}/Configuration/#onItemContextMenu)
 
 #####See Also#####
 #include common-link-handleevents

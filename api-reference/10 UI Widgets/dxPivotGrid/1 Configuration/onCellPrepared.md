@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [cellPrepared](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Events/#cellPrepared) event.
+A function that is executed after a pivot grid cell is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **cellPrepared** event fires after a cell has been rendered. When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the prepared cell.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

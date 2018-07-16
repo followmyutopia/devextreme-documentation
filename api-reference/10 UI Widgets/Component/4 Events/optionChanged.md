@@ -7,6 +7,8 @@ Raised after a widget option is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onOptionChanged]({basewidgetpath}/Configuration/#onOptionChanged)
+
 #####See Also#####
 #include common-link-handleevents
 <!--/fullDescription-->

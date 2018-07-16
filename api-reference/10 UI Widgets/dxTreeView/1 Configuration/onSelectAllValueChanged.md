@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed after the "Select All" check box's state changes. Applies only if [showCheckBoxesMode](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#showCheckBoxesMode) is *"selectAll"* and [selectionMode](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#selectionMode) is *"multiple"*.
+A function that is executed when the "Select All" check box value is changed. Applies only if [showCheckBoxesMode](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#showCheckBoxesMode) is *"selectAll"* and [selectionMode](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#selectionMode) is *"multiple"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

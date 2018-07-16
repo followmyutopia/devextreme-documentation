@@ -6,10 +6,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **selectionChanged** event. Executed after a funnel item's selection state is changed in the UI or programmatically.
+A function that is executed when a funnel item is selected or the selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+To identify whether the selection has been applied or canceled, call the funnel item's [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/Methods/#isSelected) method.
+
 See [onItemClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#onItemClick) to learn how to implement selection.
 
 #####See Also#####

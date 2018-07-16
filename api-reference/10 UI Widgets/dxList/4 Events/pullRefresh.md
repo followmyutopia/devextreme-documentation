@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before the list is refreshed as a result of the "pull down to refresh" gesture.
+Raised when the "pull to refresh" gesture is performed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onPullRefresh](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onPullRefresh) option to handle the event.
-
-[note]The "pull down to refresh" gesture is not supported by desktop browsers. You can use it only in mobile themes.
+Main article: [onPullRefresh](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onPullRefresh)
 
 #####See Also#####
 - [List - Touch-Screen Gestures](/Documentation/Guide/Widgets/List/End-User_Interaction/Touch-Screen_Gestures/)

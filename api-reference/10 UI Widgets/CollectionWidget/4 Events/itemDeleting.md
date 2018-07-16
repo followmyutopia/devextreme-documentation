@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised before an item is deleted from the data source.
+Raised before a collection item is deleted from the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->

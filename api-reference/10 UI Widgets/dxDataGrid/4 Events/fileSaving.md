@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before the grid saves an Excel file with exported data on the user's local storage.
+Raised before a file with exported data is saved to the user's local storage.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving) option to handle the event.
+Main article: [onFileSaving](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onFileSaving)
 
 #####See Also#####
 #include common-link-handleevents

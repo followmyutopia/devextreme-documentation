@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised after the "Select All" check box's state changes.
+Raised when the "Select All" check box value is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->

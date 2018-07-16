@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [cellClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Events/#cellClick) event.
+A function that is executed when a view cell is clicked.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a view cell has been clicked.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

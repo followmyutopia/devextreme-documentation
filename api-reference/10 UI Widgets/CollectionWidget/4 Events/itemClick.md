@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a widget item is clicked.
+Raised when a collection item is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemClick]({basewidgetpath}/Configuration/#onItemClick) option to handle the event.
+Main article: [onItemClick]({basewidgetpath}/Configuration/#onItemClick).
 
 #####See Also#####
 #include common-link-handleevents

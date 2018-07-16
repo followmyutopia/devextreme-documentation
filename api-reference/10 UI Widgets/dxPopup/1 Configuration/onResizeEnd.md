@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [resizeEnd](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#onResizeEnd) event.
+A function that is executed when resizing ends.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after resizing has been completed.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

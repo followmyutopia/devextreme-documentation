@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the widget item title is being held for the time period specified by the [itemHoldTimeout](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemHoldTimeout) option.
+Raised when a tab has been held for a [specified period](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemHoldTimeout).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onTitleHold](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleHold) option to handle the event.
+Main article: [onTitleHold](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleHold)
 
 #####See Also#####
 #include common-link-handleevents

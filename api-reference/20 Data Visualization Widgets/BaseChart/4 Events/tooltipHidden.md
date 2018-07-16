@@ -4,13 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a point's tooltip becomes hidden.
+Raised when a tooltip becomes hidden.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The point's tooltip becomes invisible when a user hovers the mouse cursor over another series point. In addition, you can hide a tooltip in code, using the **hideTooltip()** method of the chart or point.
-
-When a tooltip is made hidden, you can perform specific actions by handling the **tooltipHidden** event. When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the series point whose tooltip becomes hidden.
+Main article: [onTooltipHidden]({basewidgetpath}/Configuration/#onTooltipHidden)
 
 #####See Also#####
 #include common-link-handleevents

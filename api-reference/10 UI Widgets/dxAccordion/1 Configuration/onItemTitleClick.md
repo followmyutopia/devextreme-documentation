@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [itemTitleClick](/Documentation/ApiReference/UI_Widgets/dxAccordion/Events/#itemTitleClick) event.
+A function that is executed when an accordion item's title is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->

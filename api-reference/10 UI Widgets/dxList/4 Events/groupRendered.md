@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after an item group element is rendered.
+Raised when a group element is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onGroupRendered](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onGroupRendered) option to handle the event.
+Main article: [onGroupRendered](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onGroupRendered)
 
 #####See Also#####
 #include common-link-handleevents

@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **input** event.
+A function that is executed each time the widget's input is changed while the widget is focused.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a value within the widget's input element is changed by an end user. 
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -5,13 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [cancelClick](/Documentation/ApiReference/UI_Widgets/dxActionSheet/Events/#cancelClick) event.
+A function that is executed when the **Cancel** button is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when clicking the Cancel button. Use the **cancel** field of the object passed as a function parameter. Set this field to **true** to prohibit the hiding of the action sheet menu when an end user clicks the Cancel button on it.
-
-To navigate to a specific URL when the **cancelClick** event fires, assign that URL or the anchor part (#) of that URL directly to this option as a string.
+Set the **cancel** field of the function's parameter to **true** to cancel the hiding of the action sheet after the **Cancel** button is clicked.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -5,14 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [itemClick](/Documentation/ApiReference/UI_Widgets/dxList/Events/#itemClick) event.
+A function that is executed when a list item is clicked or tapped. Applies only if the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectionMode) is *"none"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a widget item is clicked.
-
-To navigate to a specific URL when the **itemClick** event fires, assign that URL directly to this option.
-
 #####See Also#####
 - [List - Universal Actions](/Documentation/Guide/Widgets/List/End-User_Interaction/Universal_Actions/)
 <!--/fullDescription-->

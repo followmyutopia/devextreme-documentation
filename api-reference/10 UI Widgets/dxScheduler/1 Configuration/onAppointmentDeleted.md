@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **appointmentDeleted** event.
+A function that is executed after an appointment is deleted from the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after an appointment has been deleted from the widget's data source.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

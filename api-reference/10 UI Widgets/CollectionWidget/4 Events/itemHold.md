@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the widget's collection item is being held for the time period specified by the **itemHoldTimeout** option.
+Raised when a collection item has been held for a [specified period]({basewidgetpath}/Configuration/#itemHoldTimeout).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemHold]({basewidgetpath}/Configuration/#onItemHold) option to handle the event.
+Main article: [onItemHold]({basewidgetpath}/Configuration/#onItemHold)
 
 #####See Also#####
 #include common-link-handleevents

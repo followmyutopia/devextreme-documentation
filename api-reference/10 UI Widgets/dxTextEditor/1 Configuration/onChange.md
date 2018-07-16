@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **change** event.
+A function that is executed when the widget loses focus after the content has been changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a change within the widget's input element is committed by an end user. 
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

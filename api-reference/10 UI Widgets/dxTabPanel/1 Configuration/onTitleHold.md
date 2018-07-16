@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [titleHold](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Events/#titleHold) event.
+A function that is executed when a tab has been held for a [specified period](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemHoldTimeout).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the widget's collection item title is being held for a specified time period (see the [itemHoldTimeout](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemHoldTimeout) option).
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **hiding** event.
+A function that is executed before the widget is hidden.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before hiding the widget.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

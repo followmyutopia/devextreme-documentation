@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a list item is moved to another position.
+Raised after a collection item is moved to another position.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemReordered]({basewidgetpath}/Configuration/#onItemReordered) option to handle the event.
+Main article: [onItemReordered]({basewidgetpath}/Configuration/#onItemReordered)
 
 #####See Also#####
 #include common-link-handleevents

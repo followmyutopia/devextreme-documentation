@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after resizing has been started.
+Raised when resizing starts.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onResizeStart](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#onResizeStart) option to handle the event.
+Main article: [onResizeStart](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#onResizeStart)
 
 #####See Also#####
 #include common-link-handleevents

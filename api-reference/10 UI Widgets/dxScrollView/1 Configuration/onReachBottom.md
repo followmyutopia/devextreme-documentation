@@ -5,12 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [reachBottom](/Documentation/ApiReference/UI_Widgets/dxScrollView/Events/#reachBottom) event.
+A function that is executed when the content is scrolled down to the bottom.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after the widget is scrolled to the bottom and pulled up.
-
 The function passed to this option should contain a call to the [release()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#releasepreventScrollBottom) method, which releases the scroll view.
 
     <!--JavaScript-->

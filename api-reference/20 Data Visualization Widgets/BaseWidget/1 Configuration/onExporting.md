@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **exporting** event. Executed before data from the widget is exported.
+A function that is executed before the widget is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->

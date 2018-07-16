@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed after the widget creates a cell.
+A function that is executed after a grid cell is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -3,11 +3,14 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised after the widget's value is changed.
+Raised after the widget's [value](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#value) is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 Main article: [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Configuration/#onValueChanged)
+
+#####See Also#####
+#include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

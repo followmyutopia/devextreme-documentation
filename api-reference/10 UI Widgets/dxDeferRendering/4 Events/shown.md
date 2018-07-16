@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when widget content is shown and animation has completed.
+Raised when the content is displayed and animation is completed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onShown](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#onShown) option to handle the event.
+Main article: [onShown](/Documentation/ApiReference/UI_Widgets/dxDeferRendering/Configuration/#onShown)
 
 #####See Also#####
 #include common-link-handleevents

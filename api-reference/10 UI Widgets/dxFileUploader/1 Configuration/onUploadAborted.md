@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [uploadAborted](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Methods/#uploadAborted) event.
+A function that is executed when the file upload is aborted.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when file uploading has been aborted.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

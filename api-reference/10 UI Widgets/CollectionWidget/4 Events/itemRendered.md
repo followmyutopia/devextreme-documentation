@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a collection item is rendered.
+Raised after a collection item is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemRendered]({basewidgetpath}/Configuration/#onItemRendered) option to handle the event.
+Main article: [onItemRendered]({basewidgetpath}/Configuration/#onItemRendered)
 
 #####See Also#####
 #include common-link-handleevents

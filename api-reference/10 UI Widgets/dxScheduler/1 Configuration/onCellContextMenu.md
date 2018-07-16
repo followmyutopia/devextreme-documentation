@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed when a user attempts to open the browser's context menu for a cell. Allows you to replace this context menu with a custom one.
+A function that is executed when a user attempts to open the browser's context menu for a cell. Allows you to replace this context menu with a custom context menu.
 <!--/shortDescription-->
 
 <!--fullDescription-->

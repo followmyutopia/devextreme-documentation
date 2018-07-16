@@ -3,15 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the widget's input has been focused.
+Raised when the widget gets focus.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use the **on()** method to attach a handler for the **focusIn** event.
-
-To unsubscribe from this event, use the **off()** method.
-
-Note that you can handle the **focusIn** event within the widget's configuration object by assigning your handler to the **onFocusIn** option.
+Main article: [onFocusIn]({basewidgetpath}/Configuration/#onFocusIn)
 
 #####See Also#####
 #include common-link-handleevents

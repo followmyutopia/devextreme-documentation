@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the Enter key has been pressed within the widget's input element.
+Raised when the Enter key has been pressed while the widget is focused.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onEnterKey]({basewidgetpath}/Configuration/#onEnterKey) option to handle the event.
+Main article: [onEnterKey]({basewidgetpath}/Configuration/#onEnterKey)
 
 #####See Also#####
 #include common-link-handleevents

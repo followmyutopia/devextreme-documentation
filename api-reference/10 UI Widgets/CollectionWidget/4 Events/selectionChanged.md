@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a collection item is selected or unselected.
+Raised when a collection item is selected or the selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->

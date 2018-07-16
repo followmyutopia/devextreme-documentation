@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the widget title is rendered.
+Raised when the drop-down list's title is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onTitleRendered](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onTitleRendered) option to handle the event.
+Main article: [onTitleRendered](/Documentation/ApiReference/UI_Widgets/dxLookup/Configuration/#onTitleRendered)
 
 #####See Also#####
 #include common-link-handleevents

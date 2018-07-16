@@ -4,10 +4,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a user clicks a [label](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axis_Labels) on the [argument axis](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Argument_Axis).
+Raised when a [label](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axis_Labels) on the [argument axis](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Axes/Argument_Axis) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onArgumentAxisClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#onArgumentAxisClick)
+
 #####See Also#####
 #include common-link-handleevents
 <!--/fullDescription-->

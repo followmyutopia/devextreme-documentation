@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [editorEnterKey](/Documentation/ApiReference/UI_Widgets/dxPopup/Events/#titleRendered) event.
+A function that is executed when the Enter key has been pressed while an editor is focused.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a user presses the Enter key when an editor is focused.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

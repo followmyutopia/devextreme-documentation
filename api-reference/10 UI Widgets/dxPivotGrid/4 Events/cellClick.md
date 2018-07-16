@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a user clicks a pivot grid cell.
+Raised when a pivot grid cell is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onCellClick](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onCellClick) option to handle the event.
-
-When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the clicked cell.
+Main article: [onCellClick](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onCellClick)
 
 #####See Also#####
 #include common-link-handleevents

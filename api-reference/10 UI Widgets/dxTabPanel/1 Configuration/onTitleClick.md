@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [titleClick](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Events/#titleClick) event.
+A function that is executed when a tab is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a widget item title is clicked.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

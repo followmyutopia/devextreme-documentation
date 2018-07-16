@@ -6,13 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **tooltipShown** event.
+A function that is executed when a tooltip appears.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The sparkline's tooltip appears when a user hovers the mouse cursor over it. 
 
-When a tooltip appears, you can perform specific actions by handling the **tooltipShown** event. To do this, implement a handling function and assign it to this option. When implementing this function, use the object passed to it as its parameter. This object will provide you with the widget instance and its container.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

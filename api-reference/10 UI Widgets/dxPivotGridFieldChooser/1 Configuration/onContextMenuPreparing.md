@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **contextMenuPreparing** event.
+A function that is executed before the context menu is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before a context menu is displayed in the field chooser. For instance, you can change the set of items in the menu.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

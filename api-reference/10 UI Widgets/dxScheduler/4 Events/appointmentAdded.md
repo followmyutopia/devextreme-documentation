@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after an appointment has been added to the data source.
+Raised after an appointment is added to the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onAppointmentAdded](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentAdded) option to handle the event.
+Main article: [onAppointmentAdded](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentAdded)
 
 #####See Also#####
 #include common-link-handleevents

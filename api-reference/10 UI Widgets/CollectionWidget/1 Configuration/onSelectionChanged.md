@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **selectionChanged** event. Raised after an item is selected or unselected.
+A function that is executed when a collection item is selected or the selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a collection item is selected or unselected.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

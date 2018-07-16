@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised before a context menu is rendered.
+Raised before the context menu is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->

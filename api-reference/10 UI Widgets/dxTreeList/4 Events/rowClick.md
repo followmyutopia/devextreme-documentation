@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when a user clicks a row.
+Raised when a row is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->

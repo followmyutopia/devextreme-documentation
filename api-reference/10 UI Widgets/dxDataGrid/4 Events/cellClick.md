@@ -3,17 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a user clicks a grid cell.
+Raised when a cell is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onCellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick) option to handle the event.
-
-When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the clicked cell.
-
-In addition, you can perform some actions when a user clicks a row. For this purpose, handle the [rowClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowClick) event.
-
-[note]**cellClick** fires before **rowClick**.
+Main article: [onCellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick)
 
 #####See Also#####
 #include common-link-handleevents

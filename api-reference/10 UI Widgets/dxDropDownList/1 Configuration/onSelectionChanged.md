@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [selectionChanged]({basewidgetpath}/Events/#selectionChanged) event.
+A function that is executed when a list item is selected or the selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the selection changes.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

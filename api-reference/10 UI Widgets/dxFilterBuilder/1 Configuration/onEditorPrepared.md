@@ -5,13 +5,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **editorPrepared** event. Executed after an editor is created.
+A function that is executed after an editor is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The widget offers a user a different editor for entering a value depending on the field's [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType): [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/), [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), etc. You can customize automatically created editors using this handler.
+The widget offers a user a different editor for entering a value depending on the field's [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType): [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/), [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), etc. You can customize automatically created editors using this function.
 
-[note]This handler is not executed for fields that use the [editorTemplate](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#editorTemplate).
+[note]This function is not executed for fields that use the [editorTemplate](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#editorTemplate).
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

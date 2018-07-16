@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **disposing** event. Executed when the widget is removed from the DOM using the [remove()](http://api.jquery.com/remove/), [empty()](http://api.jquery.com/empty/), or [html()](http://api.jquery.com/html/) jQuery methods only.
+A function that is executed before the widget is [disposed of]({basewidgetpath}/Methods/#dispose).
 <!--/shortDescription-->
 
 <!--fullDescription-->

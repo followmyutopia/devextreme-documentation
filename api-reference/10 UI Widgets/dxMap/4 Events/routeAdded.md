@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a route is added to the map.
+Raised when a route is created on the map.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onRouteAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteAdded) option to handle the event.
+Main article: [onRouteAdded](/Documentation/ApiReference/UI_Widgets/dxMap/Configuration/#onRouteAdded)
 
 #####See Also#####
 #include common-link-handleevents

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after an editor value is validated against the specified [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules).
+Raised after a value is validated.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onValidated](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#onSelectionChanged) option to handle the event.
+Main article: [onValidated](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#onSelectionChanged)
 
 #####See Also#####
 #include common-link-handleevents
@@ -25,7 +25,7 @@ The value of the [name](/Documentation/ApiReference/UI_Widgets/dxValidator/Confi
 <!--typeFunctionParamName1_field2-->isValid<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->Boolean<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-Indicates whether all the rules checked for the value are satisfied.
+Indicates whether all the [rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Configuration/#validationRules) checked for the value are satisfied.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->value<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->

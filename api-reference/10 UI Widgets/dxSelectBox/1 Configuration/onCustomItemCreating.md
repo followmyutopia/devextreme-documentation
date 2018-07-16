@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [customItemCreating]({basewidgetpath}/Events/#customItemCreating) event. Executed when a user adds a custom item. Requires [acceptCustomValue]({basewidgetpath}/Configuration/#acceptCustomValue) to be set to **true**. 
+A function that is executed when a user adds a custom item. Requires [acceptCustomValue]({basewidgetpath}/Configuration/#acceptCustomValue) to be set to **true**. 
 <!--/shortDescription-->
 
 <!--fullDescription-->

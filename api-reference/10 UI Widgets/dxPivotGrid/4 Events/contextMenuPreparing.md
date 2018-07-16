@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before displaying a context menu that is invoked on one of the pivot grid's header or row cells.
+Raised before the context menu is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onContextMenuPreparing](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onContextMenuPreparing) option to handle the event.
-
-Handle this event to change the set of items in a context menu before it is displayed.
+Main article: [onContextMenuPreparing](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/#onContextMenuPreparing)
 
 #####See Also#####
 #include common-link-handleevents

@@ -3,19 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the widget is scrolled to the bottom and pulled up.
+Raised when the content is scrolled down to the bottom.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onReachBottom](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#onReachBottom) option to handle the event.
-
-The function handling this event should contain a call to the [release()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#releasepreventScrollBottom) method, which releases the scroll view.
-
-    <!--JavaScript-->
-    $("#scrollViewContainer").dxScrollView("instance").on("reachBottom", function(options) {
-        . . .
-        options.component.release();
-    })
+Main article: [onReachBottom](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#onReachBottom)
 
 #####See Also#####
 #include common-link-handleevents

@@ -5,14 +5,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [itemExpanded](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemExpanded) event.
+A function that is executed when a tree view item is expanded.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a tree view item is expanded.
-
 #####See Also#####
--[Expand and Collapse Nodes - Events](/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes/#Events)
+- [Expand and Collapse Nodes - Events](/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes/#Events)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

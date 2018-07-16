@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after an appointment is rendered.
+Raised when an appointment is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onAppointmentRendered](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentRendered) option to handle the event.
-
-In case of recurring appointments or appointments with multiple resources, you may want to obtain information about the appointment to be rendered, not the initial appointment. For this purpose, use the **targetedAppointmentData** field of the function parameter. Otherwise, use the **appointmentData** field.
+Main article: [onAppointmentRendered](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentRendered)
 
 #####See Also#####
 #include common-link-handleevents

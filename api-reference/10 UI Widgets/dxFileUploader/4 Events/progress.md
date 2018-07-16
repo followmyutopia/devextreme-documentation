@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a segment of a file has been uploaded.
+Raised when a file segment is uploaded.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onProgress](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onProgress) option to handle the event.
+Main article: [onProgress](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onProgress)
 
 #####See Also#####
 #include common-link-handleevents

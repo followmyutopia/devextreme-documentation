@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a file has been uploaded.
+Raised when a file is successfully uploaded.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onUploaded](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onUploaded) option to handle the event.
+Main article: [onUploaded](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onUploaded)
 
 #####See Also#####
 #include common-link-handleevents

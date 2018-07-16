@@ -5,15 +5,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [selectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxList/Events/#selectAllValueChanged) event.
+A function that is executed when the "Select All" check box value is changed. Applies only if the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectionMode) is *"all"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the select all check box value is changed.
-
-Note that this event fires only if the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectionMode) option is set to *'all'*.
-
 #####See Also#####
+- [selectAllMode](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#selectAllMode)
 - [List - Handle Selection-Related Events](/Documentation/Guide/Widgets/List/Selection/#Events)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the widget has been resized.
+Raised when resizing ends.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onResizeEnd](/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#onResizeEnd) option to handle the event.
+Main article: [onResizeEnd](/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#onResizeEnd)
 
 #####See Also#####
 #include common-link-handleevents

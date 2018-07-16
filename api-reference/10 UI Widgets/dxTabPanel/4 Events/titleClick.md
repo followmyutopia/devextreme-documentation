@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a widget item title is clicked.
+Raised when a tab is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onTitleClick](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleClick) option to handle the event.
+Main article: [onTitleClick](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleClick)
 
 #####See Also#####
 #include common-link-handleevents

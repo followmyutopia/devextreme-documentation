@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a widget item title is clicked.
+Raised when an accordion item's title is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemTitleClick](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#onItemTitleClick) option to handle the event.
+Main article: [onItemTitleClick](/Documentation/ApiReference/UI_Widgets/dxAccordion/Configuration/#onItemTitleClick)
 
 #####See Also#####
 #include common-link-handleevents

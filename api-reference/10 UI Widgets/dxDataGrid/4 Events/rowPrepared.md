@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a row has been rendered.
+Raised after a row is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onRowPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowPrepared) option to handle the event.
-
-When implementing a handling function for this event, use the object passed to this function as its parameter. Among the fields of this object, you can find data relating to the prepared row.
+Main article: [onRowPrepared](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowPrepared)
 
 #####See Also#####
 #include common-link-handleevents

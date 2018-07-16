@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a change within the widget's input element is committed by an end user. 
+Raised when the element loses focus after the content has been changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onChange]({basewidgetpath}/Configuration/#onChange) option to handle the event.
+Main article: [onChange]({basewidgetpath}/Configuration/#onChange)
 
 #####See Also#####
 #include common-link-handleevents

@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **initialized** event. Executed only once, after the widget is initialized. 
+A function that is executed only once, after the widget is initialized. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You cannot access widget elements in this handler because it is executed before they are ready.
+You cannot access widget elements in this function because it is executed before they are ready.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

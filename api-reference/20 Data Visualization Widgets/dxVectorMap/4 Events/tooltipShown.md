@@ -4,13 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a tooltip of an area or marker appears.
+Raised when a tooltip appears.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The tooltip appears when a user hovers the mouse cursor over a marker or area. 
-
-When a tooltip appears, you can perform specific actions by handling this event. To do this, implement a handling function and assign it to the [onTooltipShown](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onTooltipShown) option. When implementing this function, use the object passed to it as its parameter. Among the fields of this object, you can find the area or marker whose tooltip appears.
+Main article: [onTooltipShown](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onTooltipShown)
 
 #####See Also#####
 #include common-link-handleevents

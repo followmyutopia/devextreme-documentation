@@ -6,13 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [nodesInitialized](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Events/#nodesInitialized) event.
+A function that is executed only once, after the nodes are initialized.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use this handler to perform certain operations on the node structure. It will be called once - at the beginning of the widget's lifetime.
-
-Within the handler, you can use the object passed to it as the parameter. Among the fields of this object, you can find the root node. Using the [getAllNodes()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#getAllNodes), [getAllChildren()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#getAllChildren) and [getChild(index)](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#getChildindex) methods of this node, you can access any other node in the widget. To learn about other available members of any node including the root node, refer to the description of the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) object.
+Use this function to change the node structure. The root node is available via the **root** field of the function's parameter. Using the root node's [getAllNodes()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#getAllNodes), [getAllChildren()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#getAllChildren) and [getChild(index)](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#getChildindex) methods, you can access any other node.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

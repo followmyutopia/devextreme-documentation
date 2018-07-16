@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **fileSaving** event. Executed before a file with exported data is saved on the user's local storage.
+A function that is executed before a file with exported widget is saved to the user's local storage.
 <!--/shortDescription-->
 
 <!--fullDescription-->

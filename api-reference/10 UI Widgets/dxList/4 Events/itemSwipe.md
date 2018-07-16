@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when an item is swiped.
+Raised when a list item is swiped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemSwipe](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemSwipe) option to handle the event.
+Main article: [onItemSwipe](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemSwipe)
 
 #####See Also#####
 - [List - Touch-Screen Gestures](/Documentation/Guide/Widgets/List/End-User_Interaction/Touch-Screen_Gestures/)

@@ -5,13 +5,16 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **multiTagPreparing** event. Executed before the multi-tag is rendered.
+A function that is executed before the multi-tag is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/TagBox/TagCountLimitation/jQuery/Light/"
 }
+
+#####See Also#####
+- [Limit the Tag Count](/Documentation/Guide/Widgets/TagBox/Limit_the_Tag_Count/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

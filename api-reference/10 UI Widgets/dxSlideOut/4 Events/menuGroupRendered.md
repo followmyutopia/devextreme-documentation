@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a menu item group element is rendered.
+Raised when a group is rendered in the slide-out menu.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onMenuGroupRendered](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#onMenuGroupRendered) option to handle the event.
+Main article: [onMenuGroupRendered](/Documentation/ApiReference/UI_Widgets/dxSlideOut/Configuration/#onMenuGroupRendered)
 
 #####See Also#####
 #include common-link-handleevents

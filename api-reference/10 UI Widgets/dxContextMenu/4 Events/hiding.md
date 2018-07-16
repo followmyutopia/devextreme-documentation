@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before the context menu is hidden.
+Raised before the **ContextMenu** is hidden.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onHiding](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onHiding) option to handle the event.
+Main article: [onHiding](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onHiding)
 
 #####See Also#####
 #include common-link-handleevents

@@ -4,13 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a user clicks a series point.
+Raised when a series point is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the clicked series point. To learn about point's members that you can use, refer to the description of the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) object.
-
-[note] A click on a series point causes the [seriesClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#seriesClick) event to fire after the **pointClick** event. To prevent this behavior, assign **true** to the **jQueryEvent.cancel** field of the object passed to the **pointClick** event handler as the argument.
+Main article: [onPointClick]({basewidgetpath}/Configuration/#onPointClick)
 
 #####See Also#####
 #include common-link-handleevents

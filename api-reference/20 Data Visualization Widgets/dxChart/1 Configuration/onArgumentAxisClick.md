@@ -6,13 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [argumentAxisClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Events/#argumentAxisClick) event.
+A function that is executed when a [label](/Documentation/Guide/Widgets/Chart/Axes/Axis_Labels/) on the [argument axis](/Documentation/Guide/Widgets/Chart/Axes/Overview/) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as the parameter. You can find the value of the clicked label among fields of this object.
 
-Alternatively, you can navigate to a specific URL when the **argumentAxisClick** event fires. For this purpose, assign this URL to the **onArgumentAxisClick** option.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

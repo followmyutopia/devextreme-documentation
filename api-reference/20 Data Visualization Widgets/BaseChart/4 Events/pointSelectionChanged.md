@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the selection state of a series point has been changed.
+Raised when a series point is selected or the selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the series point whose selection state has been changed. To identify whether this point was selected or deselected, call its [isSelected()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/Methods/#isSelected) method. To discover point fields and methods, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) class description.
+Main article: [onPointSelectionChanged]({basewidgetpath}/Configuration/#onPointSelectionChanged)
 
 #####See Also#####
 #include common-link-handleevents

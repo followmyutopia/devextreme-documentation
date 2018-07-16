@@ -6,12 +6,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [legendClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Events/#legendClick) event.
+A function that is executed when a [legend item](/Documentation/Guide/Widgets/PieChart/Legend/Overview/) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts a function that executes custom commands or a URL to which the user must be navigated when the **legendClick** event is raised.
-
 #####See Also#####
 #include common-link-handleevents
 <!--/fullDescription-->

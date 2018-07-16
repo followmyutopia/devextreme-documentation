@@ -6,13 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [seriesHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Events/#seriesHoverChanged) event.
+A function that is executed after the pointer enters or leaves a series.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the series whose hover state has been changed. To identify whether this series was hovered over or hovered out, call its [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Series/Methods/#isHovered) method. To discover series fields and methods, refer to the [Series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Series/) class description.
-
-To learn more about how to handle hover operations, refer to the [Hover Handling](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Hover_Handling) topic.
+To identify whether the pointer has entered or left the series, call the series' [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Chart_Elements/Series/Methods/#isHovered) method.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

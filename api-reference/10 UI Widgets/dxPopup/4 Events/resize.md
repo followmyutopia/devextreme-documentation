@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires each time the widget is resized by one pixel.
+Raised each time the widget is resized by one pixel.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onResize](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#onResize) option to handle the event.
+Main article: [onResize](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#onResize)
 
 #####See Also#####
 #include common-link-handleevents

@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when a user clicks a funnel item.
+Raised when a [funnel item](/Documentation/Guide/Widgets/Funnel/Funnel_Items/Overview/) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->

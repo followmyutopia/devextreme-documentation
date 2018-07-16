@@ -4,15 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a list item is moved to another position.
+Raised after a list item is moved to another position.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemReordered](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemReordered) option to handle the event.
-
-To enable item reordering, set the [allowItemReordering](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#allowItemReordering) option to **true**.
-
-[note]If a user drags an item and drops it at the same location, the event does not fire.
+Main article: [onItemReordered](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemReordered)
 
 #####See Also#####
 - [List - Handle Reordering-Related Events](/Documentation/Guide/Widgets/List/Item_Reordering/#Events)

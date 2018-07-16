@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised after all widget nodes are initialized.
+Raised after the loaded nodes are initialized.
 <!--/shortDescription-->
 
 <!--fullDescription-->

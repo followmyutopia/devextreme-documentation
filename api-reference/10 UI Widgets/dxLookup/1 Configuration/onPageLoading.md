@@ -5,11 +5,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [pageLoading](/Documentation/ApiReference/UI_Widgets/dxLookup/Events/#pageLoading) event.
+A function that is executed before the next page is loaded.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before loading the next page in the lookup list if auto-paging is enabled.
+#####See Also#####
+- [Enable Paging](/Documentation/Guide/Widgets/Lookup/Enable_Paging/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

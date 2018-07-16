@@ -5,12 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [pullDown](/Documentation/ApiReference/UI_Widgets/dxScrollView/Events/#pullDown) event.
+A function that is executed when the "pull to refresh" gesture is performed. Supported in mobile themes only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after the widget is scrolled to the top and pulled down.
-
 The function passed to this option should contain a call to the [release()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#releasepreventScrollBottom) method, which releases the scroll view.
 
     <!--JavaScript-->
@@ -20,8 +18,6 @@ The function passed to this option should contain a call to the [release()](/Doc
             options.component.release();
         }
     }
-
-[note]The "pull down to refresh" gesture is not supported by desktop browsers. You can use it only in mobile themes.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

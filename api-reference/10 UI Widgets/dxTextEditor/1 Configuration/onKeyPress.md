@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **keyPress** event.
+A function that is executed when a user presses a key on the keyboard.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the **keypress** DOM event is raised for the current **input** element. 
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **exported** event. Executed after data from the widget is exported.
+A function that is executed after the widget is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->

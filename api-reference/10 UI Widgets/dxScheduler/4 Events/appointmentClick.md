@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after an appointment has been clicked.
+Raised when an appointment is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) option to handle the event.
-
-In case of recurring appointments or appointments with multiple resources, you may want to obtain information about the currently selected appointment, not the initial appointment. For this purpose, use the **targetedAppointmentData** field of the function parameter. Otherwise, use the **appointmentData** field.
+Main article: [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick)
 
 #####See Also#####
 #include common-link-handleevents

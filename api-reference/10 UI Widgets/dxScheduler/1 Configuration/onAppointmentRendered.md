@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **appointmentRendered** event.
+A function that is executed when an appointment is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -48,8 +48,6 @@ After the appointments from recurring series is rendered, for example the second
         */
         var targetedAppointmentData = e.targetedAppointmentData;
     }
-
-Assign a function to perform a custom action after an appointment is rendered.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

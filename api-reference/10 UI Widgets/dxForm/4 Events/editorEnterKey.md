@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a user presses the Enter key when an editor is focused.
+Raised when the Enter key has been pressed while an editor is focused.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onEditorEnterKey](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onEditorEnterKey) option to handle the event.
+Main article: [onEditorEnterKey](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onEditorEnterKey)
 
 #####See Also#####
 #include common-link-handleevents

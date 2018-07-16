@@ -3,21 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the widget is scrolled to the top and pulled down.
+Raised when the "pull to refresh" gesture is performed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onPullDown](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#onPullDown) option to handle the event.
-
-The function handling this event should contain a call to the [release()](/Documentation/ApiReference/UI_Widgets/dxScrollView/Methods/#releasepreventScrollBottom) method, which releases the scroll view.
-
-    <!--JavaScript-->
-    $("#scrollViewContainer").dxScrollView("instance").on("pullDown", function(options) {
-        . . .
-        options.component.release();
-    })
-
-[note]The "pull down to refresh" gesture is not supported by desktop browsers. You can use it only in mobile themes.
+Main article: [onPullDown](/Documentation/ApiReference/UI_Widgets/dxScrollView/Configuration/#onPullDown)
 
 #####See Also#####
 #include common-link-handleevents

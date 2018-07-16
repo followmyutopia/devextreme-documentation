@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the select all check box value changes.
+Raised when the "Select All" check box value is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onSelectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onSelectAllValueChanged) option to handle the event.
-
-[note]This event fires only if the [showSelectionControls](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#showSelectionControls) option is set to **true**.
+Main article: [onSelectAllValueChanged](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#onSelectAllValueChanged)
 
 #####See Also#####
 #include common-link-handleevents

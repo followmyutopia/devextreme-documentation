@@ -5,12 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [itemCollapsed](/Documentation/ApiReference/UI_Widgets/dxTreeView/Events/#itemCollapsed) event.
+A function that is executed when a tree view item is collapsed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when a tree view item is collapsed.
-
 #####See Also#####
 -[Expand and Collapse Nodes - Events](/Documentation/Guide/Widgets/TreeView/Expand_and_Collapse_Nodes/#Events)
 <!--/fullDescription-->

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the **keypress** DOM event has been raised for the current **input** element. 
+Raised when a user presses a key on the keyboard.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onKeyPress]({basewidgetpath}/Configuration/#onKeyPress) option to handle the event.
+Main article: [onKeyPress]({basewidgetpath}/Configuration/#onKeyPress)
 
 #####See Also#####
 #include common-link-handleevents

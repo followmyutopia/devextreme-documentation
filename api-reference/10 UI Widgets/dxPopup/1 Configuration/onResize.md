@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [resize](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#onResize) event.
+A function that is executed each time the widget is resized by one pixel.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action each time the widget is resized by one pixel.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

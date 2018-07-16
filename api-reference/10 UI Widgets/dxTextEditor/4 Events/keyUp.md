@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a key is released within the widget's input element. 
+Raised when a user releases a key on the keyboard.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onKeyUp]({basewidgetpath}/Configuration/#onKeyUp) option to handle the event.
+Main article: [onKeyUp]({basewidgetpath}/Configuration/#onKeyUp)
 
 #####See Also#####
 #include common-link-handleevents

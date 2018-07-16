@@ -6,11 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **hoverChanged** event. Executed after a funnel item's hover state is changed in the UI or programmatically.
+A function that is executed after the pointer enters or leaves a [funnel item](/Documentation/Guide/Widgets/Funnel/Funnel_Items/Overview/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+To identify whether the pointer has entered or left the funnel item, call the item's [isHovered()](Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Item/Methods/#isHovered) method.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

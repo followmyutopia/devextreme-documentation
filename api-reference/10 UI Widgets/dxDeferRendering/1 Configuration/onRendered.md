@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a callback function that is called when the widget's content has finished rendering but is not yet shown.
+A function that is executed when the content is rendered but not yet displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->

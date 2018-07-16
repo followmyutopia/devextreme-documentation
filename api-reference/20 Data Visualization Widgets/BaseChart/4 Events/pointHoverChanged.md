@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the hover state of a series point has been changed.
+Raised after the pointer enters or leaves a series point.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as its parameter. Among the fields of this object, you can find the series point whose hover state has been changed. To identify whether this point was hovered over or hovered out, call its [isHovered()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/Methods/#isHovered) method. To discover point fields and methods, refer to the [Point](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Point/) class description.
+Main article: [onPointHoverChanged]({basewidgetpath}/Configuration/#onPointHoverChanged)
 
 #####See Also#####
 #include common-link-handleevents

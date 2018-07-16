@@ -4,13 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when a widget item is deleted.
+Raised after a list item is deleted from the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onItemDeleted](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemDeleted) option to handle the event.
-
-Note that the **itemDeleted** event is raised only if an item is deleted using the appropriate method of the widget or end-user interaction. If you delete an item from an observable array passed to the **dataSource** or **items** option, the widget entirely reloads the items array without raising the **itemDeleted** and **itemDeleting** events.
+Main article: [onItemDeleted](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#onItemDeleted)
 
 #####See Also#####
 - [List - Handle Deletion-Related Events](/Documentation/Guide/Widgets/List/Item_Deletion/#Events)

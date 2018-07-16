@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when an end user started to resize the widget.
+Raised when resizing starts.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onResizeStart](/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#onResizeStart) option to handle the event.
+Main article: [onResizeStart](/Documentation/ApiReference/UI_Widgets/dxResizable/Configuration/#onResizeStart)
 
 #####See Also#####
 #include common-link-handleevents

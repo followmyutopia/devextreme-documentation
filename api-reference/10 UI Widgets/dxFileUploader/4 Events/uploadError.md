@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when an error has occurred during uploading.
+Raised when an error occurs during the file upload.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onUploadError](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onUploadError) option to handle the event.
+Main article: [onUploadError](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#onUploadError)
 
 #####See Also#####
 #include common-link-handleevents

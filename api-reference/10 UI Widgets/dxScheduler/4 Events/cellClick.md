@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a view cell has been clicked.
+Raised when a view cell is clicked.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onCellClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onCellClick) option to handle the event.
+Main article: [onCellClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onCellClick)
 
 #####See Also#####
 #include common-link-handleevents

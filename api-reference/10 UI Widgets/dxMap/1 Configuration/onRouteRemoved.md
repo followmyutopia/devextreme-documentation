@@ -5,11 +5,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [routeRemoved](/Documentation/ApiReference/UI_Widgets/dxMap/Events/#routeRemoved) event.
+A function that is executed when a route is removed from the map.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action after a route is removed from the map.
+#####See Also#####
+- [Add and Remove a Route](/Documentation/Guide/Widgets/Map/Configure_Routes/Add_and_Remove/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -3,10 +3,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised before a file with exported data is saved on the user's local storage.
+Raised before a file with exported widget is saved to the user's local storage.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onFileSaving]({basewidgetpath}/Configuration/#onFileSaving)
+
 #####See Also#####
 #include common-link-handleevents
 <!--/fullDescription-->

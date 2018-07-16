@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after an appointment has been deleted from the data source.
+Raised after an appointment is deleted from the data source.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onAppointmentDeleted](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDeleted) option to handle the event.
+Main article: [onAppointmentDeleted](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentDeleted)
 
 #####See Also#####
 #include common-link-handleevents

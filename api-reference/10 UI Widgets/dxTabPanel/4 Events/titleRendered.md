@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after a widget item title is rendered.
+Raised after a tab is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onTitleRendered](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleRendered) option to handle the event.
+Main article: [onTitleRendered](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onTitleRendered)
 
 #####See Also#####
 #include common-link-handleevents

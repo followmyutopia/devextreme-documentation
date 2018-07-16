@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before the context menu is positioned.
+Raised before the **ContextMenu** is positioned.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onPositioning](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onPositioning) option to handle the event.
+Main article: [onPositioning](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onPositioning)
 
 #####See Also#####
 #include common-link-handleevents

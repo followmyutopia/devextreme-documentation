@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **valueChanged** event.
+A function that is executed after the widget's [value]({basewidgetpath}/Configuration/#value) is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the editor value changes.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires after the widget's input element has lost focus.
+Raised when the widget gets focus.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onFocusOut]({basewidgetpath}/Configuration/#onFocusOut) option to handle the event.
+Main article: [onFocusOut]({basewidgetpath}/Configuration/#onFocusOut)
  
 #####See Also#####
 #include common-link-handleevents

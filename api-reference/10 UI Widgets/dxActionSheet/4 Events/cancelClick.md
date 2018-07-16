@@ -3,13 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the **Cancel** button is clicked.
+Raised when the **Cancel** button is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In the handling function, use the **cancel** field of the object passed as a handler parameter. Set this field to **true** to prohibit the hiding of the action sheet menu when an end user clicks the Cancel button on it.
-
-Instead, you can use the [onCancelClick](/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/#onCancelClick) option to handle the event.
+Main article: [onCancelClick](/Documentation/ApiReference/UI_Widgets/dxActionSheet/Configuration/#onCancelClick)
 
 #####See Also#####
 #include common-link-handleevents

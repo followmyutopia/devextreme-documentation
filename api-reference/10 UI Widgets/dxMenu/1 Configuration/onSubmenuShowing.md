@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [submenuShowing](/Documentation/ApiReference/UI_Widgets/dxMenu/Events/#submenuShowing) event.
+A function that is executed before a submenu is displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->

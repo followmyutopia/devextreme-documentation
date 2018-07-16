@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [resizeStart](/Documentation/ApiReference/UI_Widgets/dxResizable/Events/#resizeStart) event.
+A function that is executed when resizing starts.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when an end user started to resize the widget.
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

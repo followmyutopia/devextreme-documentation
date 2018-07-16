@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the button that invokes the drop down menu is clicked.
+Raised when the button that opens the drop-down menu is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onButtonClick]({basewidgetpath}/Configuration/#onButtonClick) option to handle the event.
+Main article: [onButtonClick]({basewidgetpath}/Configuration/#onButtonClick)
 
 #####See Also#####
 #include common-link-handleevents

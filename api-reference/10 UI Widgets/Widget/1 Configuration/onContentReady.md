@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **contentReady** event. Executed when the widget's content is ready. This handler may be executed multiple times during the widget's lifetime depending on the number of times its content changes.
+A function that is executed when the widget's content is ready and each time the content is changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->

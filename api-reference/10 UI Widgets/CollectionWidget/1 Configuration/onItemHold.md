@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [itemHold]({basewidgetpath}/Events/#itemHold) event.
+A function that is executed when a collection item has been held for a [specified period]({basewidgetpath}/Configuration/#itemHoldTimeout).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action when the widget's collection item is being held for a specified time period (see the **itemHoldTimeout** option).
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

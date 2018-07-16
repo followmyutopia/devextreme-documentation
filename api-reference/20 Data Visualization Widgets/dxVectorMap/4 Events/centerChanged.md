@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the coordinates of the map center are changed.
+Raised each time the center coordinates are changed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If you need to perform specific actions when the coordinates of the map center are changed, implement a function that handles the **centerChanged** event. This function will be called every time a user moves the map or when the center is being changed in code by calling the [center(centerCoordinates)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#centercenterCoordinates) or [viewport(viewportCoordinates)](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Methods/#viewportviewportCoordinates) method. When implementing this function, use the object passed to it as its parameter. Among the fields of this object, you can find the updated center coordinates.
+Main article: [onCenterChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#nCenterChanged)
 
 #####See Also#####
 #include common-link-handleevents

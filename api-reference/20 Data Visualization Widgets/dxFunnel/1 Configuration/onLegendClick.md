@@ -6,7 +6,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **legendClick** event. Executed when a user clicks a legend item.
+A function that is executed when a [legend item](/Documentation/Guide/Widgets/Funnel/Legend/Overview/) is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->

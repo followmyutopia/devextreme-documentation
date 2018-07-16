@@ -8,6 +8,8 @@ Raised when the widget's rendering has finished.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Main article: [onDrawn]({basewidgetpath}/Configuration/#onDrawn)
+
 #####See Also#####
 #include common-link-handleevents
 <!--/fullDescription-->

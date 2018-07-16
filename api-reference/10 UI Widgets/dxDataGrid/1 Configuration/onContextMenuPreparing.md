@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed before a context menu is rendered.
+A function that is executed before the context menu is rendered.
 <!--/shortDescription-->
 
 <!--fullDescription-->

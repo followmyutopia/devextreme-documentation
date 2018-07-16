@@ -5,12 +5,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the [pullRefresh](/Documentation/ApiReference/UI_Widgets/dxList/Events/#pullRefresh) event.
+A function that is executed when the "pull to refresh" gesture is performed. Supported in mobile themes only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Assign a function to perform a custom action before the list is refreshed as a result of the "pull down to refresh" gesture.
-
 #####See Also#####
 - [List - Touch-Screen Gestures](/Documentation/Guide/Widgets/List/End-User_Interaction/Touch-Screen_Gestures/)
 <!--/fullDescription-->

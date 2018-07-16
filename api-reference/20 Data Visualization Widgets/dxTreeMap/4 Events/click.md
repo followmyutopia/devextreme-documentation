@@ -4,20 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires when the user clicks a node.
+Raised when a node is clicked or tapped.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing a handling function, use the object passed to it as the parameter. Among the fields of this object, you can find the clicked node. To learn about node's members that you can use, refer to the description of the [Node](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/) object.
-
-To handle this event, attach a handler to it using the [on(eventName, eventHandler)](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Methods/#oneventName_eventHandler) method. For example, the handler in the following code selects/deselects the clicked node.
-
-    <!--JavaScript-->// ...
-    var selectNode = function (e) {
-        e.node.select(!e.node.isSelected());
-    };
-    
-    treeMapInstance.on('click', selectNode);
+Main article: [onClick](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onClick)
     
 #####See Also#####
 #include common-link-handleevents

@@ -5,11 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-A handler for the **editorPreparing** event. Executed before an editor is created.
+A function that is executed before an editor is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The widget offers a user a different editor for entering a value depending on the field's [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType): [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/), [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), etc. Within this handler, you can customize a default editor or substitute it for another DevExtreme editor. To do the latter, assign the editor's name to the **editorName** field and configure the editor in the **editorOptions** object. If you specify the editor's **onValueChanged** handler, call the **setValue(newValue)** method in it to update the value.
+The widget offers a user a different editor for entering a value depending on the field's [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType): [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/), [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), etc. Within this function, you can customize a default editor or substitute it for another DevExtreme editor. To do the latter, assign the editor's name to the **editorName** field and configure the editor in the **editorOptions** object. If you specify the editor's **onValueChanged** function, call the **setValue(newValue)** method in it to update the value.
 
 ---
 ##### jQuery
@@ -71,7 +71,7 @@ The widget offers a user a different editor for entering a value depending on th
     
 ---
 
-If you use a third-party editor, cancel the default editor creation and implement this one instead. Call the **setValue(newValue)** method in the **onEditorPreparing** handler to notify the **FilterBuilder** of the changed value.
+If you use a third-party editor, cancel the default editor creation and implement this one instead. Call the **setValue(newValue)** method in the **onEditorPreparing** function to notify the **FilterBuilder** of the changed value.
 
 ---
 ##### jQuery
@@ -128,7 +128,7 @@ If you use a third-party editor, cancel the default editor creation and implemen
     
 ---
 
-[note]This handler is not executed for fields that use the [editorTemplate](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#editorTemplate).
+[note]This function is not executed for fields that use the [editorTemplate](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#editorTemplate).
 
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->

@@ -3,11 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Fires before the context menu is displayed.
+Raised before the **ContextMenu** is shown.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Instead, you can use the [onShowing](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onShowing) option to handle the event.
+Main article: [onShowing](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Configuration/#onShowing)
 
 #####See Also#####
 #include common-link-handleevents
