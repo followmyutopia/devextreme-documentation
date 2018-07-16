@@ -1,9 +1,12 @@
 To execute certain commands before or after the **Toast** was shown/hidden, handle the [showing](/Documentation/ApiReference/UI_Widgets/dxToast/Events/#showing), [shown](/Documentation/ApiReference/UI_Widgets/dxToast/Events/#shown), [hiding](/Documentation/ApiReference/UI_Widgets/dxToast/Events/#hiding) or [hidden](/Documentation/ApiReference/UI_Widgets/dxToast/Events/#hidden) event. If the event handling function is not going to be changed during the lifetime of the widget, assign it to the corresponding **on*EventName*** option. For example, in the following code, a handler of the **hidden** event is assigned to the [onHidden](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#onHidden) option. This handler counts down from three replacing the message in the **Toast** at the same time.
 
+---
+#####jQuery
+
     <!--JavaScript-->$(function() {
         var counter = 3;
 
-		$("#toastContainer").dxToast({
+        $("#toastContainer").dxToast({
             message: counter,
             displayTime: 500,
             onHidden: function (e) {
@@ -11,7 +14,7 @@ To execute certain commands before or after the **Toast** was shown/hidden, hand
                 if (counter != 0) {
                     e.component.option("message", counter);
                 } else {
-                	e.component.option({
+                    e.component.option({
                         message: "Go!",
                         onHidden: undefined,
                         displayTime: 3000,
@@ -30,7 +33,55 @@ To execute certain commands before or after the **Toast** was shown/hidden, hand
         });
     });
 
-If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxToast/Methods/#oneventName_eventHandler) method.
+#####Angular
+
+    <!--HTML-->
+    <dx-toast
+        [(visible)]="isVisible"
+        [displayTime]="displayTime"
+        [message]="message"
+        (onHidden)="onHidden($event)"
+        [type]="type">
+    </dx-toast>
+    <dx-button
+        text="Start the Countdown"
+        (onClick)="isVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxToastModule, DxButtonModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        isVisible: boolean = false;
+        counter: number = 3;
+        displayTime: number = 500;
+        type = "info";
+        message: string = this.counter.toString();
+        onHidden (e) {
+            this.counter--;
+            if (counter != 0) {
+                this.message = this.counter.toString();
+            } else {
+                this.message = "Go!";
+                this.onHidden = undefined;
+                this.displayTime = 3000;
+                this.type = "success";
+            }
+            this.isVisible = true;
+        }
+    }
+    @NgModule({
+         imports: [
+             DxButtonModule,
+             DxToastModule,
+             // ...
+         ],
+         // ...
+     })
+
+---
+
+If you are going to change event handlers at runtime, or if you need to attach several handlers to a single event, subscribe to the events using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxToast/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
 
     <!--JavaScript-->
     var hiddenEventHandler1 = function (e) {

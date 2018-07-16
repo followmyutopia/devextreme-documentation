@@ -18,10 +18,38 @@ To show or hide the **Toast** programmatically, call the [show()](/Documentation
         });
     });
 
-With AngularJS or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#visible) property of the **Toast** widget to a scope property (in AngularJS) or an observable variable (in Knockout). After that, change this scope property or observable variable, and the **Toast** will appear or disappear.
+With Angular, AngularJS, or Knockout, use a different technique. Bind the [visible](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#visible) property of the **Toast** widget to a component property (in Angular), a scope property (in AngularJS), or an observable variable (in Knockout). After that, change this property or variable, and the **Toast** will appear or disappear.
 
 ---
-#####**AngularJS**
+#####Angular
+
+    <!--HTML-->
+    <dx-toast
+        [(visible)]="isVisible"
+        type="error"
+        message="Connection problem">
+    </dx-toast>
+    <dx-button
+        text="Show the Toast"
+        (onClick)="isVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxToastModule, DxButtonModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        isVisible: boolean = false;
+    }
+    @NgModule({
+         imports: [
+             DxButtonModule,
+             DxToastModule,
+             // ...
+         ],
+         // ...
+     })
+
+#####AngularJS
 
     <!--HTML--><div ng-controller="DemoController">
         <div dx-toast="{
@@ -45,7 +73,7 @@ With AngularJS or Knockout, use a different technique. Bind the [visible](/Docum
             }
         });
 
-#####**Knockout**
+#####Knockout
 
     <!--HTML--><div data-bind="dxToast: {
         message: 'Connection problem',

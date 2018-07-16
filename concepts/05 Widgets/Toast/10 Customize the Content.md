@@ -1,5 +1,8 @@
 The **Toast** widget provides four predefined appearances controlled by the [type](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type) option. The **type** can be *"info"*, *"warning"*, *"error"* or *"success"*, depending on the mood of the message that the **Toast** displays. You can specify this message using the [message](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#message) option.
 
+---
+#####jQuery
+
     $(function() {
         $("#toastContainer").dxToast({
             type: "success", // or "info" | "warning" | "error"
@@ -7,13 +10,65 @@ The **Toast** widget provides four predefined appearances controlled by the [typ
         });
     });
 
+#####Angular
+
+    <!--HTML-->
+    <dx-toast
+        message="Completed successfully!"
+        type="success"> <!-- or "info" | "warning" | "error" -->
+    </dx-toast>
+
+    <!--TypeScript-->
+    import { DxToastModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+         imports: [
+             DxToastModule,
+             // ...
+         ],
+         // ...
+     })
+
+---
+
 If you need to define the **Toast** content completely, specify a template for it. You can simply put this template inside the **Toast** container...
+
+---
+#####jQuery
 
     <!--HTML--><div id="toastContainer">
         <p style="background-color:green">Toast content</p>
     </div>
 
-... or you can combine the HTML markup for the template in the [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#contentTemplate) function. Note that this function will be called only once - when the **Toast** appears for the first time.
+#####Angular
+
+    <!--HTML-->
+    <dx-toast>
+        <div *dxTemplate="let data of 'content'">
+            <p style="background-color:green">Toast content</p>
+        </div>
+    </dx-toast>
+
+    <!--TypeScript-->
+    import { DxToastModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+         imports: [
+             DxToastModule,
+             // ...
+         ],
+         // ...
+     })
+
+---
+
+... or you can combine the HTML markup for the template in the [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#contentTemplate) function. Note that this function will be called only once - when the **Toast** appears for the first time. This approach is more typical of jQuery.
 
     <!--JavaScript-->$(function() {
         $("#toastContainer").dxToast({
@@ -28,6 +83,9 @@ If you need to define the **Toast** content completely, specify a template for i
 [note]To avoid rendering issues, always set the [type](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type) option to *"custom"* when you use a custom template.
 
 If you need to render different templates depending on a specific condition, define them inside the **Toast** container using the DevExtreme [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component. To switch the templates on-the-fly, change the value of the [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#contentTemplate) option.
+
+---
+#####jQuery
 
     <!--HTML--><div id="toastContainer">
         <div data-options="dxTemplate: { name: 'green' }">
@@ -57,6 +115,47 @@ If you need to render different templates depending on a specific condition, def
             } 
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-toast
+        type="custom"
+        [(visible)]="isVisible"
+        [contentTemplate]="contentTemplate">
+        <div *dxTemplate="let data of 'green'">
+            <p style="background-color:green">Green template</p>
+        </div>
+        <div *dxTemplate="let data of 'blue'">
+            <p style="background-color:blue">Blue template</p>
+        </div>
+    </dx-toast>
+    <dx-button
+        text="Change the Toast Template"
+        (onClick)="onClick($event)">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxToastModule, DxButtonModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        isVisible: boolean = false;
+        contentTemplate: string = "green";
+        onClick () {
+            this.contentTemplate = this.contentTemplate == "green" ? "blue" : "green";
+            this.isVisible = true;
+        }
+    }
+    @NgModule({
+         imports: [
+             DxButtonModule,
+             DxToastModule,
+             // ...
+         ],
+         // ...
+     })
+
+---
 
 #####See Also#####
 - [Toast - Resize and Relocate](/Documentation//Guide/Widgets/Toast/Resize_and_Relocate/)

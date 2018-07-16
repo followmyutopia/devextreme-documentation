@@ -6,18 +6,70 @@ The **Toast** is a widget that provides pop-up notifications.
 
 The **Toast** widget does not need to be created on the page before it can be shown. You can simply call the [notify(message, type, displayTime)](/Documentation/ApiReference/Common/utils/ui/#notifymessage_type_displayTime) method with values for the [message](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#message), [type](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type) and [displayTime](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#displayTime) options passed as the arguments.
 
+---
+#####jQuery
+
     <!--JavaScript-->DevExpress.ui.notify("Connection problem", "error", 3000)
 
+#####Angular
+
+    <!--TypeScript-->
+    import notify from 'devextreme/ui/notify';
+    // ...
+    export class AppComponent {
+        showToast() {
+            notify("Connection problem", "error", 3000);
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+         ],
+         // ...
+     })
+
+---
+
 If you need to specify other **Toast** options, call the same method, but this time [pass an object as the argument](/Documentation/ApiReference/Common/utils/ui/#notifyoptions). In this object, you can set [any Toast option](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/).
+
+---
+#####jQuery
 
     <!--JavaScript-->DevExpress.ui.notify({
         message: "Connection problem",
         type: "error",
         displayTime: 3000,
-        closeOnClick: true
+        height: 100
     });
 
+#####Angular
+
+    <!--TypeScript-->
+    import notify from 'devextreme/ui/notify';
+    // ...
+    export class AppComponent {
+        showToast() {
+            notify({
+                message: "Connection problem",
+                type: "error",
+                displayTime: 3000,
+                height: 100
+            });
+        }
+    }
+    @NgModule({
+         imports: [
+             // ...
+         ],
+         // ...
+     })
+
+---
+
 If you are going to reuse the **Toast**, then create it on the page using the following code. Note that in this code, the [Button](/Documentation/Guide/Widgets/Button/Overview/) widget invokes the **Toast**.
+
+---
+#####jQuery
 
     <!--HTML--><div id="toastContainer"></div>
     <div id="buttonContainer"></div>
@@ -35,6 +87,36 @@ If you are going to reuse the **Toast**, then create it on the page using the fo
             } 
         });
     });
+
+#####Angular
+
+    <!--HTML-->
+    <dx-toast
+        [(visible)]="isVisible"
+        type="error"
+        message="Connection problem">
+    </dx-toast>
+    <dx-button
+        text="Show the Toast"
+        (onClick)="isVisible = true">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxButtonModule, DxToastModule } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        isVisible: boolean = false;
+    }
+    @NgModule({
+         imports: [
+             DxButtonModule,
+             DxToastModule,
+             // ...
+         ],
+         // ...
+     })
+
+---
 
 The appearance of the **Toast** is predefined by its [type](/Documentation/ApiReference/UI_Widgets/dxToast/Configuration/#type). Depending on the mood of the message that the **Toast** displays, the **type** can be *"info"*, *"warning"*, *"error"* or *"success"*. There is also the *"custom"* **type** that allows you to define a custom appearance for the **Toast**. Find more information about this in the [Customize the Content](/Documentation/Guide/Widgets/Toast/Customize_the_Content/) article.
 
