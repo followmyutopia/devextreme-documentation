@@ -11,6 +11,10 @@ Specifies a function that returns a filter expression for this custom operation.
     value: "custom operation's configuration"
 }
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/jQuery/Light/"
+}
+
 #####See Also#####
 - [Implement a Custom Operation](/Documentation/Guide/Widgets/FilterBuilder/Implement_a_Custom_Operation/)
 <!--/fullDescription-->

@@ -149,8 +149,14 @@ To filter data, update the data source's [filter](/Documentation/ApiReference/Da
 
 ---
 
-<a href="/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Filter Builder with Data Grid Demo</a>
-<a href="/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/jQuery/Light/" class="button orange small fix-width-155" style="margin-right:5px;" target="_blank">Filter Builder with List Demo</a>
+#include common-demobutton-named with {
+    name: "Filter Builder with Data Grid",
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithDataGrid/jQuery/Light/"
+}
+#include common-demobutton-named with {
+    name: "Filter Builder with List",
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/jQuery/Light/"
+}
 
 #####See Also#####
 - [Predefine Filter Values](/Documentation/Guide/Widgets/FilterBuilder/Predefine_Filter_Values/)

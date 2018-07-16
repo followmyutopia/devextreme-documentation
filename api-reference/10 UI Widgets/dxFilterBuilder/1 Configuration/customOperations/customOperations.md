@@ -9,7 +9,7 @@ Configures custom filter operations.
 
 <!--fullDescription-->
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/WithList/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/jQuery/Light/"
 }
 
 #####See Also#####
