@@ -101,7 +101,7 @@ If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxTreeL
     
 ---
 
-[note] Nested columns have almost every [option of a data column](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/), except [fixed](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixed) and [fixedPosition](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixedPosition). Band columns, on the contrary, support a very limited set of options; all of them are listed in the [isBand](/Documentation//ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#isBand) option's description. Note that band columns must not have the [dataField](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataField) option set.
+[note] Nested columns have almost every [option of a data column](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/), except [fixed](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixed) and [fixedPosition](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#fixedPosition). Band columns, on the contrary, support a very limited set of options; all of them are listed in the [isBand](/Documentation//ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#isBand) option's description. 
 
 Band columns support hierarchies of any nesting level making the following structure acceptable.
 
