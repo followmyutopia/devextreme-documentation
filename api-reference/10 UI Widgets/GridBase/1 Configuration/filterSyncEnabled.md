@@ -7,5 +7,5 @@ Specifies whether to synchronize the [filter row](/Documentation/Guide/Widgets/{
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Synchronization is enabled if the [filter panel](/Documentation/ApiReference/UI_Widgets/{WidgetName}/Configuration/filterPanel/) is visible. When it is enabled, check that each column that allows filtering has the [dataField]({basewidgetpath}/Configuration/columns/#dataField) or [name]({basewidgetpath}/Configuration/columns/#name) option specified.
+Synchronization is enabled if the [filter panel](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/filterPanel/) is visible. When it is enabled, check that each column that allows filtering has the [dataField]({basewidgetpath}/Configuration/columns/#dataField) or [name]({basewidgetpath}/Configuration/columns/#name) option specified.
 <!--/fullDescription-->
