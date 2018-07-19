@@ -25,7 +25,7 @@ A **Query** instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The **queryOptions** object should contain the **adapter** function that implements data access logic. Otherwise, the default adapter that implements the OData protocol is used. The **queryOptions** object can also contain the **errorHandler** function for handling errors that may occur during the **Query**'s execution.
+The **queryOptions** object should contain the **adapter** function that implements data access logic. The **queryOptions** object can also contain the **errorHandler** function for handling errors that may occur during the **Query**'s execution.
 
 ---
 ##### jQuery
