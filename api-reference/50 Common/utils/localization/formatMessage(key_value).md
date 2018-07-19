@@ -51,12 +51,12 @@ The formatted message.
 ##### Angular
 
     <!--TypeScript-->
-    import { localization } from "devextreme";
+    import { formatMessage, loadMessages, locale } from "devextreme/localization";
     // ...
     export class AppComponent {
         constructor() {
             // Load the "greeting" message for the "en" and "es" locales
-            localization.loadMessages({
+            loadMessages({
                 "en": {
                     "greeting": "Hello, {0} {1}!",
                 },
@@ -66,12 +66,12 @@ The formatted message.
             });
 
             // Set the current locale to "en"
-            DevExpress.localization.locale("en");
-            console.log(localization.formatMessage("greeting", ["John", "Smith"])); // logs "Hello, John Smith!"
+            locale("en");
+            console.log(formatMessage("greeting", ["John", "Smith"])); // logs "Hello, John Smith!"
 
             // Set the current locale to "es"
-            DevExpress.localization.locale("es");
-            console.log(localization.formatMessage("greeting", ["John", "Smith"])); // logs "Hola, John Smith!"
+            locale("es");
+            console.log(formatMessage("greeting", ["John", "Smith"])); // logs "Hola, John Smith!"
         }
     }
 

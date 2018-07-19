@@ -36,11 +36,11 @@ The formatted string.
 ##### Angular
 
     <!--TypeScript-->
-    import { localization } from "devextreme";
+    import { formatNumber } from "devextreme/localization";
     // ...
     export class AppComponent {
         constructor() {
-            let numberString = localization.formatNumber(0.25, "percent");
+            let numberString = formatNumber(0.25, "percent");
             console.log(numberString); // logs "25%"
         }
     }

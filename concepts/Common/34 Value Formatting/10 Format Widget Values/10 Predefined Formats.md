@@ -1,6 +1,6 @@
 Predefined formats are string literals for formatting numbers and dates. See the **format**.[type](/Documentation/ApiReference/Common/Object_Structures/format/#type) description for a full list.
 
-Set the widget option called **format** to apply a predefined format. In the following code, this option specifies the format and precision of the tooltip's value in the **Slider** widget. A precision value of 2 means that the value always contains two decimal digits.
+Set the **format** widget option to apply a predefined format. In the following code, this option specifies the format and precision of the tooltip's value in the **Slider** widget. The value contains two decimal digits when the precision value is 2.
 
 ---
 ##### jQuery
@@ -39,7 +39,7 @@ Set the widget option called **format** to apply a predefined format. In the fol
     import { DxSliderModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        sliderValue = 6;
+        sliderValue: number = 6;
     }
     @NgModule({
         imports: [
@@ -51,9 +51,9 @@ Set the widget option called **format** to apply a predefined format. In the fol
 
 ---
 
-The **format** option in the previous example is specified with an object which allows specifying the precision. If you do not need precision, you can specify the **format** option with a string literal.
+The **format** option in the previous example is specified with an object which allows you to specify the precision. However, you can specify the **format** option with a string literal if this is not required.
 
-[note] The predefined formats also include a currency format which only adds a dollar sign before the value. To correctly localize and format currencies, add a [localization library](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries) to your app.
+[note] The predefined formats also include a currency format which adds a dollar sign before the value. You should use [Intl or Globalize](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/) in your app to correctly localize and format currencies.
 
 #####See Also#####
 - [RangeSelector Formatting Demo](/Demos/WidgetsGallery/Demo/RangeSelector/CustomFormatting/jQuery/Light/)

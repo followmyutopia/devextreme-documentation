@@ -1,8 +1,8 @@
-[Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) is the short name used to refer to a particular [ECMAScript Internationalization API](http://ecma-international.org/ecma-402/1.0/) object. DevExtreme supports this API via the [DevExtreme-Intl](https://github.com/DevExpress/DevExtreme-Intl) module. It is available on CDN and npm, or you can save the module (JavaScript file) on your local machine and use it.
+[Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) is the short name used to refer to a particular [ECMAScript Internationalization API](http://ecma-international.org/ecma-402/1.0/) object. DevExtreme supports this API via the [DevExtreme-Intl](https://github.com/DevExpress/DevExtreme-Intl) module. It is available on CDN and npm, or you can save the module (JavaScript file) on your local machine.
 
 * **CDN or local file**        
 
-    Include the DevExtreme-Intl module using the `<script>` tag as shown in the example below. German and Russian [dictionaries](/Documentation/Guide/Common/Localization/#Dictionaries) are included in this example as well. You can replace or complement them with additional dictionaries.
+    Use the `<script>` tag as shown in the example below to include the DevExtreme-Intl module. German and Russian [dictionaries](/Documentation/Guide/Common/Localization/#Dictionaries) are included in this example. You can also add or replace dictionaries.
 
     ---
     ##### CDN
@@ -39,7 +39,7 @@
 
         npm install --save-dev devextreme-intl
 
-    Then, include the `devextreme-intl` module and the dictionaries using the `import` or `require` statement&mdash;the statement depends on the syntax for working with modules. The following code shows ECMAScript 6 and CommonJS syntaxes:
+    Then, include the `devextreme-intl` module using the `import` or `require` statement&mdash;the statement depends on the syntax for working with modules. The code below shows ECMAScript 6 and CommonJS syntaxes. These examples include German and Russian dictionaries.
 
     ---
     ##### npm: ECMAScript 6 syntax
@@ -76,7 +76,7 @@
         url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/Angular/Light/"
     }
 
-The Intl setup automatically localizes and formats string, number, date, and currency values according to the specified locale. You can also use a currency other than USD globally or in format definitions:
+The Intl setup automatically localizes and formats string, number, date, and currency values according to the specified locale. You can use a currency other than USD globally or in format definitions:
 
 ---
 #####jQuery
@@ -132,6 +132,6 @@ The Intl setup automatically localizes and formats string, number, date, and cur
 
 ---
 
-In addition, you can use structures compatible with the Intl API for value formatting. See an example in the DevExtreme-Intl README's [API](https://github.com/DevExpress/DevExtreme-Intl#api) section. Note that DevExtreme provides extended formatting functionality out of the box, which is detailed [here](/Documentation/Guide/Common/Localization/#Value_Formatting).
+You can use structures compatible with the Intl API for value formatting. See an example in the DevExtreme-Intl README's [API](https://github.com/DevExpress/DevExtreme-Intl#api) section. The [Value Formatting](/Documentation/Guide/Common/Value_Formatting/) article provides information on the extended formatting functionality DevExtreme provides out of the box.
 
-[Sample projects](https://github.com/DevExpress/devextreme-examples) are available on GitHub, including localization projects. Use them as a starting point for creating new apps or as examples to copy code from when implementing certain functionality in your app.
+You can use the [Intl-Angular](https://github.com/DevExpress/devextreme-examples/tree/18_1/intl-angular) sample project as a starting point for creating new apps or as an example to copy code from when implementing specific functionality in your app.

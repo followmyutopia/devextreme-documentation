@@ -36,11 +36,11 @@ The formatted string.
 ##### Angular
 
     <!--TypeScript-->
-    import { localization } from "devextreme";
+    import { formatDate } from "devextreme/localization";
     // ...
     export class AppComponent {
         constructor() {
-            let dateString = localization.formatDate(new Date(2018, 4, 7), "longDate");
+            let dateString = formatDate(new Date(2018, 4, 7), "longDate");
             console.log(dateString); // logs "Monday, May 7, 2018"
         }
     }

@@ -1,0 +1,1 @@
+This article describes the API used to apply a format to date and numeric values. The specified format is the same in any locale unless [Intl](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Intl) or [Globalize](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Globalize) is used.
