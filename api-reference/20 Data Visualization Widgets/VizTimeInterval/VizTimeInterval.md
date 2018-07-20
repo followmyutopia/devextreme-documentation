@@ -1,6 +1,8 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
-<!--type-->Object<!--/type-->
+<!--default-->undefined<!--/default-->
+<!--acceptValues-->'day' | 'hour' | 'millisecond' | 'minute' | 'month' | 'quarter' | 'second' | 'week' | 'year'<!--/acceptValues-->
+<!--type-->Number | Object | String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
