@@ -4,7 +4,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Creates a custom dialog.
+Creates a dialog with custom buttons.
 <!--/shortDescription-->
 
 <!--paramName1-->options<!--/paramName1-->
@@ -39,35 +39,32 @@ An object representing the dialog.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-To create a custom dialog (with a custom set of buttons), call the **DevExpress.ui.dialog.custom(dialogOptions)** method. Specify configuration options for the dialog using the fields of the object passed as a parameter.
+The **custom** method only creates a dialog. To show it, call the created dialog instance's **show()** method. The method returns a Promise that is resolved with the dialog result. This result is the object returned in the clicked dialog button's [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) function.
 
-Unlike the [alert](/Documentation/ApiReference/Common/Utils/ui/dialog/Methods/#alertmessage_title) and [confirm](/Documentation/ApiReference/Common/Utils/ui/dialog/Methods/#confirmmessage_title) methods, the **custom** method does not display the dialog. Call the **show()** method of the created dialog instance to show the dialog.
-
-    <!--JavaScript-->var showDialog = function () {
-        var myDialog = new DevExpress.ui.dialog.custom(dialogOptions);
-        myDialog.show();
-    };
-
-The **show()** method returns a Promise that is resolved with the dialog result. Use the following code to obtain the dialog result.
-
-    <!--JavaScript-->var myDialog = DevExpress.ui.dialog.custom(dialogOptions);
-    myDialog.show().done(function(dialogResult){
-        alert(dialogResult);
-    });
-
-[note]The dialogResult parameter passes the object returned by the click event handler of the clicked dialog button.
-
-Use the **hide()** method to close the dialog before any button is clicked. The following code displays a dialog, and hides it if no button is clicked within 5 seconds.
-
-    <!--JavaScript-->var showDialog = function () {
+    <!--JavaScript-->
+    function() {
         var myDialog = DevExpress.ui.dialog.custom({
-            title: "Self hiding dialog",
-            message: "This dialog will close after 5 seconds",
-            buttons: [{ text: "Close now" }]
+            title: "Custom dialog",
+            message: "Dialog with custom buttons",
+            buttons: [{
+                text: "button 1",
+                onClick: function (e) {
+                    return { buttonText: e.component.option("text"), /* ... */ }
+                }
+            }, 
+            // ...
+            ]
         });
-        myDialog.show();
+        myDialog.show().done(function(dialogResult){
+            console.log(dialogResult.buttonText); // Outputs the clicked button's text
+        });
+    }
+
+Use the **hide()** method to close the dialog before any button is clicked. In the following code, the dialog is hidden after 5 seconds if a user does not click a button:
+
+    <!--JavaScript-->function () {
+        // ...
         setTimeout(function () { myDialog.hide(); }, 5000);
     }
 
-Pay attention to the recommendations given for using modality in the [Modal Contexts](https://developer.apple.com/library/ios/documentation/userexperience/conceptual/mobilehig/Modal.html#//apple_ref/doc/uid/TP40006556-CH64-SW1) article. In certain scenarios it may be better to display a [modal view](/Documentation/ApiReference/SPA_Framework/Markup_Components/dxView/Configuration/#modal) instead.
 <!--/fullDescription-->
