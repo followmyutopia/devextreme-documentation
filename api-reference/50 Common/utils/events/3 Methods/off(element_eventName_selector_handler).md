@@ -4,39 +4,41 @@
 ===================================================================
 
 <!--shortDescription-->
-Detaches an event handler from the specified elements.
+Detaches the specified event handler attached using the [on(element, eventName, selector, data, handler)](/Documentation/ApiReference/Common/utils/events/Methods/#onelement_eventName_selector_data_handler) or [on(element, eventName, selector, handler)](/Documentation/ApiReference/Common/utils/events/Methods/#onelement_eventName_selector_handler) method.
 <!--/shortDescription-->
 
 <!--paramName1-->element<!--/paramName1-->
 <!--paramType1-->Node|Array<Node><!--/paramType1-->
 <!--paramDescription1-->
-An HTML element or an array of elements from which to detach the handler.
+HTML elements from which to detach a handler.
 <!--/paramDescription1-->
 
 <!--paramName2-->eventName<!--/paramName2-->
 <!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
-The event name.
+An event name.
 <!--/paramDescription2-->
 
 <!--paramName3-->selector<!--/paramName3-->
 <!--paramType3-->String<!--/paramType3-->
 <!--paramDescription3-->
-A selector that must match the one originally passed to the [on()](/Documentation/ApiReference/Common/utils/events/Methods/#onelement_eventName_selector_data_handler) method when attaching the handler.
+A [CSS selector](https://www.w3schools.com/cssref/css_selectors.asp) passed to the **on** method when attaching the handler.
 <!--/paramDescription3-->
 
 <!--paramName4-->handler<!--/paramName4-->
 <!--paramType4-->function()<!--/paramType4-->
 <!--paramDescription4-->
-A handler to detach.
+The handler to detach.        
 <!--/paramDescription4-->
 
 <!--fullDescription-->
-The following example demonstrates how to detach a handler from the [dxhold](/Documentation/ApiReference/UI_Widgets/UI_Events/#dxhold) event for all elements with `my-element` class:
 
-    var dxholdHandler = function() {
-        // Process element hold
-    }
-    ...
-    DevExpress.events.off(document, "dxhold", ".my-element", dxholdHandler);
+    // Modular approach
+    import { off } from 'devextreme/events';
+    // ...
+    off(document, "dxclick", "#elementID", clickHandler);
+
+    // Non-modular approach
+    DevExpress.events.off(document, "dxclick", "#elementID", clickHandler);
+
 <!--/fullDescription-->
