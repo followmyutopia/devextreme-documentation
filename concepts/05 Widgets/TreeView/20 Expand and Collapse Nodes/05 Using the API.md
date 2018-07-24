@@ -1,32 +1,69 @@
-To expand or collapse a node programmatically, call the [expandItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#expandItemitemElement) or [collapseItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#collapseItemitemElement) method passing the key of the node as a parameter.
+The **TreeView** provides the following API to expand and collapse nodes: 
 
----
-##### jQuery
+- **All nodes**     
+You can use the [expandAll()](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#expandAll) and [collapseAll()](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#collapseAll) methods to expand and collapse nodes at once. Note that the **expandAll()** method expands only the loaded nodes if [data is loaded on demand](/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/).
 
-    <!--JavaScript-->$("#treeViewContainer").dxTreeView("expandItem", nodeKey);
-    // $("#treeViewContainer").dxTreeView("collapseItem", nodeKey);
+    ---
+    #####jQuery
 
-##### Angular
+        <!--JavaScript-->$("#treeViewContainer").dxTreeView("expandAll");
+        // $("#treeViewContainer").dxTreeView("collapseAll");
 
-    <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxTreeViewModule, DxTreeViewComponent } from 'devextreme-angular';
-    // ...
-    export class AppComponent {
-        @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
-        expandNode (key) {
-            this.treeView.instance.expandItem(key);
-        }
-        collapseNode (key) {
-            this.treeView.instance.collapseItem(key);
-        }
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxTreeViewModule
-        ],
+    ##### Angular
+
+        <!--TypeScript-->
+        import { ..., ViewChild } from '@angular/core';
+        import { DxTreeViewModule, DxTreeViewComponent } from 'devextreme-angular';
         // ...
-    })
+        export class AppComponent {
+            @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
+            expandAllNodes () {
+                this.treeView.instance.expandAll();
+            }
+            collapseAllNodes () {
+                this.treeView.instance.collapseAll();
+            }
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxTreeViewModule
+            ],
+            // ...
+        })
     
----
+    ---
+
+- **Individual nodes**  
+Call the [expandItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#expandItemitemElement) or [collapseItem(itemElement)](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/#collapseItemitemElement) method and pass a node key as an argument:
+
+    ---
+    ##### jQuery
+
+        <!--JavaScript-->$("#treeViewContainer").dxTreeView("expandItem", nodeKey);
+        // $("#treeViewContainer").dxTreeView("collapseItem", nodeKey);
+
+    ##### Angular
+
+        <!--TypeScript-->
+        import { ..., ViewChild } from '@angular/core';
+        import { DxTreeViewModule, DxTreeViewComponent } from 'devextreme-angular';
+        // ...
+        export class AppComponent {
+            @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;
+            expandNode (key) {
+                this.treeView.instance.expandItem(key);
+            }
+            collapseNode (key) {
+                this.treeView.instance.collapseItem(key);
+            }
+        }
+        @NgModule({
+            imports: [
+                // ...
+                DxTreeViewModule
+            ],
+            // ...
+        })
+        
+    ---
