@@ -17,7 +17,7 @@ A function that is executed before an appointment is added to the data source.
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->

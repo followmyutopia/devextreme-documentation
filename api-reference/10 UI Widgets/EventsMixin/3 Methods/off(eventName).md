@@ -11,7 +11,7 @@ Detaches all event handlers from a single event.
 The event's name.
 <!--/paramDescription1-->
 
-<!--returnType-->EventsMixin<!--/returnType-->
+<!--returnType-->{WidgetName}<!--/returnType-->
 <!--returnDescription-->
 The object for which this method is called.
 <!--/returnDescription-->

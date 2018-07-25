@@ -137,7 +137,7 @@ If you use a third-party editor, cancel the default editor creation and implemen
 Information about the event.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's [instance](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Methods/#instance).
 <!--/typeFunctionParamDescription1_field1-->

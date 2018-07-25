@@ -5,7 +5,7 @@
 Gets the widget's instance. Use it to access other methods of the widget.
 <!--/shortDescription-->
 
-<!--returnType-->Component<!--/returnType-->
+<!--returnType-->{WidgetName}<!--/returnType-->
 <!--returnDescription-->
 This widget's instance.
 <!--/returnDescription-->

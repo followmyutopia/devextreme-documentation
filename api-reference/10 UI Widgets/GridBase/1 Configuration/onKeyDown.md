@@ -17,7 +17,7 @@ A function that is executed when the widget is in focus and a key has been press
 Information about the event that caused the function's execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->DOMComponent<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The widget's instance.
 <!--/typeFunctionParamDescription1_field1-->
