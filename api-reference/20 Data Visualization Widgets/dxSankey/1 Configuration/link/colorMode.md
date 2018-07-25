@@ -1,6 +1,7 @@
 ===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
+<!--default-->'none'<!--/default-->
+<!--acceptValues-->'none' | 'source' | 'target' | 'gradient'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

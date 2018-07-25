@@ -15,12 +15,12 @@
 <!--typeFunctionParamDescription1-->
 
 <!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->from<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamName1_field1-->source<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 
 <!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->to<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamName1_field2-->target<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 

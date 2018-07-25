@@ -1,6 +1,7 @@
 ===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
+<!--default-->'ellipsis'<!--/default-->
+<!--acceptValues-->'ellipsis' | 'hide' | 'none'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
