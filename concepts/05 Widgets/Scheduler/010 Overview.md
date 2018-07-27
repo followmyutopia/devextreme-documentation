@@ -5,7 +5,6 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
 <map name="image-map">
     <area target="" alt="View Swither" title="View Swither" href="/Documentation/Guide/Widgets/Scheduler/View_Switcher/" coords="508,68,810,122" shape="rect">
     <area target="" alt="Resource Headers" title="Resource Headers" href="/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/" coords="163,124,811,162" shape="rect">
-    <area target="" alt="Date Navigator" title="Date Navigator" href="/Documentation/Guide/Widgets/Scheduler/Overview/" coords="174,78,418,115" shape="rect">
     <area target="" alt="All-Day Panel" title="All-Day Panel" href="/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Types/#All-Day_Appointments" coords="165,165,163,237,545,238,547,194,808,196,810,166" shape="poly">
     <area target="" alt="Appointment Tooltip" title="Appointment Tooltip" href="/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment_Tooltip/" coords="550,201,795,291" shape="rect">
     <area target="" alt="Appointment" title="Appointment" href="/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Types/" coords="272,244,509,309" shape="rect">
