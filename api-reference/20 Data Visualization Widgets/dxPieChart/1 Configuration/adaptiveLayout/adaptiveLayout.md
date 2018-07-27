@@ -17,4 +17,7 @@ When adapting to small container size, the widget may hide its accessory element
 To specify the widget's size small enough for the layout to begin adapting, use the **height** and **width** options of the **adaptiveLayout** object.
 
 <a href="https://jsfiddle.net/ChartJS/2arphpsx/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Demo on JSFiddle</a>
+
+#####See Also#####
+- [Adaptive Layout](/Documentation/Guide/Widgets/PieChart/Adaptive_Layout/)
 <!--/fullDescription-->

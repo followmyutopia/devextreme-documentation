@@ -45,6 +45,39 @@ When adapting to a small container or screen, the **DataGrid** can hide columns.
     
 ---
 
+[note]
+
+The layout does not automatically adapt to changes made in the widget's container at runtime. Therefore, if you enable a user to resize the container, call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#updateDimensions) method after each resizing to render the **DataGrid** in the new size.
+
+---
+##### jQuery
+
+    <!--JavaScript-->$("#dataGridContainer").dxDataGrid("updateDimensions");
+
+##### Angular
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxDataGridComponent) grid: DxDataGridComponent;
+        renderDataGrid () {
+            this.grid.instance.updateDimensions();
+        };
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
+---
+
+[/note]
+
 Data from hidden columns is still available in adaptive detail rows. A user can expand or collapse these rows by clicking the ellipsis buttons in the adaptive column.
 
 ![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Adaptability](/Content/images/doc/18_2/DataGrid/visual_elements/adaptive-column.png)

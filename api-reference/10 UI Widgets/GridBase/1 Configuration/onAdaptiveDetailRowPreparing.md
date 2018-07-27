@@ -24,6 +24,7 @@ The following **Form** options cannot be specified using **formOptions**:
 #####See Also#####
 - [columnHidingEnabled]({basewidgetpath}/Configuration/#columnHidingEnabled)
 - **columns[]**.[hidingPriority]({basewidgetpath}/Configuration/columns/#hidingPriority)
+- [Adaptability](/Documentation/Guide/Widgets/{WidgetName}/Columns/Adaptability/)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

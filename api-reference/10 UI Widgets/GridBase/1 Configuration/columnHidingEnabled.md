@@ -12,4 +12,5 @@ This option set to **true** makes the widget hide certain columns automatically 
 
 #####See Also#####
 - [onAdaptiveDetailRowPreparing]({basewidgetpath}/Configuration/#onAdaptiveDetailRowPreparing)
+- [Adaptability](/Documentation/Guide/Widgets/{WidgetName}/Columns/Adaptability/)
 <!--/fullDescription-->

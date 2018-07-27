@@ -17,4 +17,7 @@ When adapting to small container size, the widget may hide its accessory element
 To specify the widget's size small enough for the layout to begin adapting, use the **height** and **width** options of the **adaptiveLayout** object.
 
 <a href="https://jsfiddle.net/ChartJS/j1v235o8/" class="button orange small fix-width-155" target="_blank">View Demo on JSFiddle</a>
+
+#####See Also#####
+- [Adaptive Layout](/Documentation/Guide/Widgets/Funnel/Adaptive_Layout/)
 <!--/fullDescription-->

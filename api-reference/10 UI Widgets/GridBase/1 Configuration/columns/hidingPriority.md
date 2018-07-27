@@ -15,4 +15,5 @@ The **hidingPriority** is a unique positive integer that ascends from right to l
 #####See Also#####
 - [columnHidingEnabled]({basewidgetpath}/Configuration/#columnHidingEnabled)
 - [onAdaptiveDetailRowPreparing]({basewidgetpath}/Configuration/#onAdaptiveDetailRowPreparing)
+- [Adaptability](/Documentation/Guide/Widgets/{WidgetName}/Columns/Adaptability/)
 <!--/fullDescription-->

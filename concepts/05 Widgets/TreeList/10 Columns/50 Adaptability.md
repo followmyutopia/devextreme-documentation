@@ -45,6 +45,39 @@ When adapting to a small container or screen, the **TreeList** can hide columns.
     
 ---
 
+[note]
+
+The layout does not automatically adapt to changes made in the widget's container at runtime. Therefore, if you enable a user to resize the container, call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#updateDimensions) method after each resizing to render the **TreeList** in the new size.
+
+---
+##### jQuery
+
+    <!--JavaScript-->$("#treeListContainer").dxTreeList("updateDimensions");
+
+##### Angular
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from '@angular/core';
+    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    // ...
+    export class AppComponent {
+        @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
+        renderTreeList () {
+            this.treeList.instance.updateDimensions();
+        };
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
+
+---
+
+[/note]
+
 Data from hidden columns is still available in adaptive detail rows. A user can expand or collapse these rows by clicking the ellipsis buttons in the adaptive column.
 
 ![DevExtreme HTML5 JavaScript jQuery Knockout Angular TreeList Adaptability](/Content/images/doc/18_2/treelist/visual_elements/adaptive-column.png)
