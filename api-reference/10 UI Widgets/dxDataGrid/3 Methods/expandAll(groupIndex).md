@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Expands master rows or groups of a specific level.
+Expands master rows or groups of a specific level. Does not apply if data is remote. 
 <!--/shortDescription-->
 
 <!--paramName1-->groupIndex<!--/paramName1-->
@@ -12,7 +12,7 @@ The group's level. Pass **undefined** to expand all groups. Pass *-1* to expand 
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-[note]This method cannot be called when using a remote [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource).
+[note] The [rowExpanded](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Events/#rowExpanded) event is not raised when you call this method.
 
 #####See Also#####
 #include common-link-callmethods
