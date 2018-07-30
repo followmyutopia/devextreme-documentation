@@ -146,6 +146,10 @@
       "$Widget": "dxDeferRendering"
     },
 
+    "dxDrawer": {
+      "$Widget": "dxDrawer"
+    },
+
     "dxDropDownBox": {
       "$Widget": "dxDropDownBox"
     },
