@@ -47,7 +47,7 @@ When adapting to a small container or screen, the **TreeList** can hide columns.
 
 [note]
 
-The layout does not automatically adapt to changes made in the widget's container at runtime. Therefore, if you enable a user to resize the container, call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#updateDimensions) method after each resizing to render the **TreeList** in the new size.
+The table layout does not automatically adapt to changes made in the widget's container at runtime. Therefore, if you enable a user to resize the container, call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#updateDimensions) method after each resizing to render the **TreeList** in the new size.
 
 ---
 ##### jQuery
