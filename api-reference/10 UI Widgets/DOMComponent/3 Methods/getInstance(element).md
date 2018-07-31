@@ -17,7 +17,7 @@ The widget's instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The following code gets the **{WidgetName}** instance found in an element with ID `my{WidgetName}`:
+**getInstance** is a static method that the widget class supports. The following code demonstrates how to get the **{WidgetName}** instance found in an element with the `my{WidgetName}` ID:
 
     // Modular approach
     import {WidgetName} from 'devextreme/ui/{widget_name}';

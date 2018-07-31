@@ -18,7 +18,7 @@ The widget's instance.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The following code gets the **{WidgetName}** instance found in an element with ID `my{WidgetName}`:
+**getInstance** is a static method that the widget class supports. The following code demonstrates how to get the **{WidgetName}** instance found in an element with the `my{WidgetName}` ID:
 
     // Modular approach
     import {WidgetName} from 'devextreme/viz/{widget_name}';
@@ -28,7 +28,7 @@ The following code gets the **{WidgetName}** instance found in an element with I
     
     // Non-modular approach
     let element = document.getElementById("my{WidgetName}");
-    let instance = DevExpress.ui.dx{WidgetName}.getInstance(element);
+    let instance = DevExpress.viz.dx{WidgetName}.getInstance(element);
 
 #####See Also#####
 - [3rd-Party Frameworks Integration API](/Documentation/Guide/Widgets/Common/Advanced/3rd-Party_Frameworks_Integration_API/)

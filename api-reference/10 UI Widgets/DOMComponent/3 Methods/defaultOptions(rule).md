@@ -23,7 +23,7 @@ Options to be applied.
 <!--/paramDescription1_field2-->
 
 <!--fullDescription-->
-The **defaultOptions** method is a static method supported by the widget class. The following code demonstrates how to specify default options for all instances of the **{WidgetName}** widget in an application executed on the desktop.
+**defaultOptions** is a static method that the widget class supports. The following code demonstrates how to specify default options for all instances of the **{WidgetName}** widget in an application executed on the desktop.
 
 ---
 #####jQuery
