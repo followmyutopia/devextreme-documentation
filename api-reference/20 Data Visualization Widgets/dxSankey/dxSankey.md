@@ -59,18 +59,15 @@ The **Sankey** is a widget that visualizes the flow magnitude between value sets
     import { DxSankeyModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        data: any;
-        constructor() {
-            this.data = [
-                { source: "Brazil", target: "Portugal", weight: 5 },
-                { source: "Brazil", target: "Spain", weight: 1 },
-                { source: "Brazil", target: "England", weight: 1 },
-                { source: "Canada", target: "Portugal", weight: 1 },
-                { source: "Canada", target: "England", weight: 1 },
-                { source: "Mexico", target: "Portugal", weight: 1 },
-                { source: "Mexico", target: "Spain", weight: 5 }
-            ];
-        }
+        data: Array<{ source: string, target: string, weight: number }> = [
+            { source: "Brazil", target: "Portugal", weight: 5 },
+            { source: "Brazil", target: "Spain", weight: 1 },
+            { source: "Brazil", target: "England", weight: 1 },
+            { source: "Canada", target: "Portugal", weight: 1 },
+            { source: "Canada", target: "England", weight: 1 },
+            { source: "Mexico", target: "Portugal", weight: 1 },
+            { source: "Mexico", target: "Spain", weight: 5 }
+        ];
     }
     @NgModule({
         imports: [

@@ -33,16 +33,12 @@ In the following code, the `New Zealand` node is displayed at the bottom; the `A
     import { DxSankeyModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        data: any;
-        sortData: any;
-        constructor() {
-            this.data = [
-                { source: "Australia", target: "Portugal", weight: 5 },
-                { source: "New Zealand", target: "Portugal", weight: 1 },
-                { source: "Japan", target: "Senegal", weight: 3 }
-            ];
-            this.sortData = { "Australia": 1, "New Zealand": 3, "Japan": 2 }
-        }
+        data: Array<{ source: string, target: string, weight: number }> = [
+            { source: "Australia", target: "Portugal", weight: 5 },
+            { source: "New Zealand", target: "Portugal", weight: 1 },
+            { source: "Japan", target: "Senegal", weight: 3 }
+        ];
+        sortData = { "Australia": 1, "New Zealand": 3, "Japan": 2 };
     }
     @NgModule({
         imports: [
