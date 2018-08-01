@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Sets the borders' width in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

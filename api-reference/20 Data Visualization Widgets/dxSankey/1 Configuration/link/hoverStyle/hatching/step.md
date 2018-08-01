@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the distance in pixels between two hatching lines.
 <!--/shortDescription-->
 
 <!--fullDescription-->

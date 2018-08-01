@@ -5,9 +5,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Sets the palette to be used to colorize sankey nodes.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include dataviz-ref-palette
 
+#####See Also#####
+- [Palettes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes)
+- [paletteExtensionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#paletteExtensionMode)
 <!--/fullDescription-->

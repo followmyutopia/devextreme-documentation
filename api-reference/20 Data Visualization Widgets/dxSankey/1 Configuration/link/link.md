@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures sankey links' appearance.
 <!--/shortDescription-->
 
 <!--fullDescription-->

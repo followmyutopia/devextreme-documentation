@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the color a link changes to when it is hovered over or pressed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-colorlist
 <!--/fullDescription-->

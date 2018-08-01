@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The node's title.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Colors the links' borders.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-colorlist
 <!--/fullDescription-->

@@ -5,9 +5,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies hatching lines' direction.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include dataviz-hatching-direction
 <!--/fullDescription-->

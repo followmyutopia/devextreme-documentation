@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The link's weight.
 <!--/shortDescription-->
 
 <!--fullDescription-->

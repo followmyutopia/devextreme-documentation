@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+An object that describes the connection.
 <!--/shortDescription-->
 
 <!--fullDescription-->

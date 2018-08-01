@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures the links' borders.
 <!--/shortDescription-->
 
 <!--fullDescription-->

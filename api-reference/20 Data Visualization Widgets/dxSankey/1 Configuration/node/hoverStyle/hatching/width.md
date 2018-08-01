@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies hatching lines' width.
 <!--/shortDescription-->
 
 <!--fullDescription-->

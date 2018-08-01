@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Colors the labels' shadows.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-colorlist
 <!--/fullDescription-->

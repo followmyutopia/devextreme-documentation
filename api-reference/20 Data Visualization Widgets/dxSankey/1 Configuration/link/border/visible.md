@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether the borders are visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the nodes' width in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

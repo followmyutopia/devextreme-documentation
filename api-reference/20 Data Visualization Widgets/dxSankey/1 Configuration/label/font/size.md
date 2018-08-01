@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the labels' font size.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include dataviz-ref-fontsize-acceptedvalues
 <!--/fullDescription-->

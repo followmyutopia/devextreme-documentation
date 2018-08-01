@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures the nodes' borders.
 <!--/shortDescription-->
 
 <!--fullDescription-->

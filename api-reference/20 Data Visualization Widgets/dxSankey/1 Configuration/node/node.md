@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures sankey nodes' appearance.
 <!--/shortDescription-->
 
 <!--fullDescription-->

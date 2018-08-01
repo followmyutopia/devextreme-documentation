@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether the labels are visible.
 <!--/shortDescription-->
 
 <!--fullDescription-->

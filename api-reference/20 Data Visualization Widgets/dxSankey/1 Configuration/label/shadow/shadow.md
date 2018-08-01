@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures the labels' shadows.
 <!--/shortDescription-->
 
 <!--fullDescription-->
