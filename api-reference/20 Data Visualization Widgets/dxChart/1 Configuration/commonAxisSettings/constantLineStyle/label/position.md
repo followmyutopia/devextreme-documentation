@@ -11,5 +11,8 @@ Specifies the position of constant line labels on the chart plot.
 <!--fullDescription-->
 By default, constant line labels are displayed inside the chart plot near the constant lines they belong to. To place the labels outside the chart plot, set the **position** option to *"outside"*.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `RelativePosition` enum. This enum accepts the following values: `Inside` and `Outside`.
+#include common-ref-enum with {
+    enum: "`RelativePosition`",
+    values: "`Inside` and `Outside`"
+}
 <!--/fullDescription-->

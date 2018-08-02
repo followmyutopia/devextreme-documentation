@@ -13,5 +13,8 @@ For date columns, set this option to one of the string values. Groups in date co
 
 For numeric columns, assign a number to this option. This number designates a step with which groups should be generated. Column values are classified into these groups.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `HeaderFilterGroupInterval` enum. This enum accepts the following values: `Year`, `Quarter`, `Month`, `Day`, `Hour`, `Minute` and `Second`.
+#include common-ref-enum with {
+    enum: "`HeaderFilterGroupInterval`",
+    values: "`Year`, `Quarter`, `Month`, `Day`, `Hour`, `Minute`, and `Second`"
+}
 <!--/fullDescription-->

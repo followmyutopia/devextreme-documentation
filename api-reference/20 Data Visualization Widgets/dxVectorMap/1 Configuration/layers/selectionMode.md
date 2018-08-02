@@ -21,5 +21,8 @@ At runtime, you can do the following operations.
 
 The change of the selection state invokes the callback function assigned to the [onSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/#onSelectionChanged) option. Within this function, you can handle the selection event in the manner you require.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SelectionMode` enum. This enum accepts the following values: `None`, `Single` and `Multiple`.
+#include common-ref-enum with {
+    enum: "`SelectionMode`",
+    values: "`None`, `Single` and `Multiple`"
+}
 <!--/fullDescription-->

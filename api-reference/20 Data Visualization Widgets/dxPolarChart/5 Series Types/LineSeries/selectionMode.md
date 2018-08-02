@@ -18,7 +18,10 @@ The series changes its style, but the points do not.
 * **none**   
 The series does not react to selection.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartSeriesSelectionMode` enum with one of the following values: `IncludePoints`, `ExcludePoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to a line series.
+#include common-ref-enum with {
+    enum: "`ChartSeriesSelectionMode`",
+    values: "`IncludePoints`, `ExcludePoints`, and `None`"
+} Note that although this enum accepts more values, only the listed ones can be applied to a line series.
 
 #####See Also#####
 - [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/LineSeries/selectionStyle/)

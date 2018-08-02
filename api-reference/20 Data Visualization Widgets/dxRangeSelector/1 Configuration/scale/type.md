@@ -41,7 +41,10 @@ Another example: a semidiscrete scale built on numeric values. This time, the sc
         }
     };
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `RangeSelectorAxisScaleType` enum. This enum accepts the following values: `Discrete`, `Continuous`, `Logarithmic` and `Semidiscrete`.
+#include common-ref-enum with {
+    enum: "`RangeSelectorAxisScaleType`",
+    values: "`Discrete`, `Continuous`, `Logarithmic`, and `Semidiscrete`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposerangeselectorrangeselectorlogarithmicscale/"

@@ -27,7 +27,10 @@ Rotates axis labels through the angle specified by the **rotationAngle** option.
 - **stagger**      
 Arranges axis labels in two rows in a staggering manner. An empty space between the rows is specified by the **staggeringSpacing** option.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `OverlappingBehavior` enum. This enum accepts the following values: `Stagger`, `Rotate`, `Hide` and `None`.
+#include common-ref-enum with {
+    enum: "`OverlappingBehavior`",
+    values: "`Stagger`, `Rotate`, `Hide`, and `None`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/AxisLabelsOverlapping/jQuery/Light/"

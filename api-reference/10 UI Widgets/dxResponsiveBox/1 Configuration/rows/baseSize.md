@@ -9,5 +9,8 @@ The row's base height. Calculated automatically when the [singleColumnScreen](/D
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `Mode` enum that accepts the `Auto` value.
+#include common-ref-enum with {
+    enum: "`Mode`",
+    values: "`Auto`"
+}
 <!--/fullDescription-->

@@ -9,5 +9,8 @@ Specifies whether to display labels inside or outside funnel items or arrange th
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option with the `FunnelLabelPosition` enum that has the following values: `Inside`, `Outside` and `Columns`.
+#include common-ref-enum with {
+    enum: "`FunnelLabelPosition`",
+    values: "`Inside`, `Outside`, and `Columns`"
+}
 <!--/fullDescription-->

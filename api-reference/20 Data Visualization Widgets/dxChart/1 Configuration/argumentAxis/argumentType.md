@@ -11,7 +11,10 @@ Casts arguments to a specified data type.
 <!--fullDescription-->
 If your data source stores, for example, numbers as strings, specify the proper data type using the **argumentType** option.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartDataType` enum. This enum accepts the following values: `Numeric`, `DateTime` and `String`.
+#include common-ref-enum with {
+    enum: "`ChartDataType`",
+    values: "`Numeric`, `DateTime`, and `String`"
+}
 
 #####See Also#####
 - **valueAxis**.[valueType](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType) - casts values to a specified data type.

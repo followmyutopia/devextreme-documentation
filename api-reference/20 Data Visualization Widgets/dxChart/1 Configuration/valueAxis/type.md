@@ -20,7 +20,10 @@ Displays numeric values. Each value is the [logarithmBase](/Documentation/ApiRef
 
 Normally, there is no need to specify this option, because the axis type is determined automatically depending on the [type of values](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#valueType). However, you may force the use of a specific axis type, for example, to employ the *"discrete"* axis type with numeric or date-time values.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `AxisScaleType` enum. This enum accepts the following values: `Discrete`, `Continuous` and `Logarithmic`.
+#include common-ref-enum with {
+    enum: "`AxisScaleType`",
+    values: "`Discrete`, `Continuous`, and `Logarithmic`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureslogarithmicaxis/"

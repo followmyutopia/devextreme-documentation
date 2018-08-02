@@ -10,4 +10,9 @@ Specifies the direction of hatching lines.
 
 <!--fullDescription-->
 #include dataviz-hatching-direction
+
+#include common-ref-enum with {
+    enum: "`HatchingDirection`",
+    values: "`Right`, `Left`, and `None`"
+}
 <!--/fullDescription-->

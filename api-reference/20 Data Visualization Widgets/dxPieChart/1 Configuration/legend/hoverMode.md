@@ -13,5 +13,8 @@ In the **PieChart** widget, legend items represent series points. When a legend 
 
 You can set a custom 'hover' style for series points. To do this, use the **series**.**hoverStyle** configuration object.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartLegendHoverMode` enum. This enum accepts the following values: `AllArgumentPoints` and `None`.
+#include common-ref-enum with {
+    enum: "`ChartLegendHoverMode`",
+    values: "`AllArgumentPoints` and `None`"
+}
 <!--/fullDescription-->

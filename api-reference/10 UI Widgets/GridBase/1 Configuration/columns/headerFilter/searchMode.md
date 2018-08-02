@@ -9,5 +9,8 @@ Specifies a comparison operation used to search header filter values.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `CollectionSearchMode` enum. This enum accepts the following values: `Contains`, `StartsWith`, and `Equals`.
+#include common-ref-enum with {
+    enum: "`CollectionSearchMode`",
+    values: "`Contains`, `StartsWith`, and `Equals`"
+}
 <!--/fullDescription-->

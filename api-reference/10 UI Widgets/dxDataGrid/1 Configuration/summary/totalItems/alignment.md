@@ -48,7 +48,10 @@ The default alignment of a summary item depends on the [type of data](/Documenta
 </table>
 </div>
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `HorizontalAlignment` enum. This enum accepts the following values: `Left`, `Center` and `Right`.
+#include common-ref-enum with {
+    enum: "`HorizontalAlignment`",
+    values: "`Left`, `Center`, and `Right`"
+}
 
 #####See Also#####
 - [Total Summary - Alignment and Location](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/#Alignment_and_Location)

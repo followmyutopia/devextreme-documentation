@@ -13,5 +13,8 @@ The type of the axis values is determined based on the type of the values specif
 
 In some scenarios, you may need the type of the arguments that are specified in the data source to be converted to another type. In this instance, specify the desired type for the axis values using the **argumentType** property.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartDataType` enum. This enum accepts the following values: `Numeric`, `DateTime` and `String`.
+#include common-ref-enum with {
+    enum: "`ChartDataType`",
+    values: "`Numeric`, `DateTime`, and `String`"
+}
 <!--/fullDescription-->

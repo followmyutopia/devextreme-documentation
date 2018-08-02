@@ -49,5 +49,8 @@ The following symbols are available.
     </table>
 </div>
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PointSymbol` enum. This enum accepts the following values: `Circle`, `Square`, `Polygon`, `TriangleDown`, `TriangleUp` and `Cross`.
+#include common-ref-enum with {
+    enum: "`PointSymbol`",
+    values: "`Circle`, `Square`, `Polygon`, `TriangleDown`, `TriangleUp`, and `Cross`"
+}
 <!--/fullDescription-->

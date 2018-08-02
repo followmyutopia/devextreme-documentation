@@ -38,7 +38,10 @@ You can implement the capability to select the post-processing function at runti
 
 To specify a custom post-processing function, use the [calculateSummaryValue](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#calculateSummaryValue) option.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PivotGridSummaryDisplayMode` enum. This enum accepts the following values: `AbsoluteVariation`, `PercentVariation`, `PercentOfColumnTotal`, `PercentOfRowTotal`, `PercentOfColumnGrandTotal`, `PercentOfRowGrandTotal`, and `PercentOfGrandTotal`.
+#include common-ref-enum with {
+    enum: "`PivotGridSummaryDisplayMode`",
+    values: "`AbsoluteVariation`, `PercentVariation`, `PercentOfColumnTotal`, `PercentOfRowTotal`, `PercentOfColumnGrandTotal`, `PercentOfRowGrandTotal`, and `PercentOfGrandTotal`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/SummaryDisplayModes/jQuery/Light/"

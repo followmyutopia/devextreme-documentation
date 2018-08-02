@@ -11,7 +11,10 @@ Specifies which borders of the widget element are used as a handle.
 <!--fullDescription-->
 You can pass several values separated by a space. For example, "right bottom".
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option with the `ResizeHandle` enum that accepts the following values: `Top`, `Bottom`, `Right` and `Left`. You can combine these values by separating them with a comma, for example:
+#include common-ref-enum with {
+    enum: "`ResizeHandle`",
+    values: "`Top`, `Bottom`, `Right`, and `Left`"
+}
 
     <!--Razor C#-->@(Html.DevExtreme().Resizable()
         .Handles(ResizeHandle.Top, ResizeHandle.Bottom)

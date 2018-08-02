@@ -15,5 +15,8 @@ You can assign the following values to this option:
 - time - the widget displays only the time;
 - datetime - the widget displays both the date and time.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `DateBoxType` enum. This enum accepts the following values: `Date`, `DateTime` and `Time`.
+#include common-ref-enum with {
+    enum: "`DateBoxType`",
+    values: "`Date`, `DateTime`, and `Time`"
+}
 <!--/fullDescription-->

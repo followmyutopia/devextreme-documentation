@@ -40,5 +40,8 @@ This option accepts the following values.
     </table>
 </div>
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ValueErrorBarDisplayMode` enum. This enum accepts the following values: `Auto`, `Low`, `High` and `None`.
+#include common-ref-enum with {
+    enum: "`ValueErrorBarDisplayMode`",
+    values: "`Auto`, `Low`, `High`, and `None`"
+}
 <!--/fullDescription-->

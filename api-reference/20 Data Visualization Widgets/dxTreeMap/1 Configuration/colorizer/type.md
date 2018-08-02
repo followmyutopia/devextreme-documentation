@@ -37,5 +37,8 @@ The *"range"* algorithm is similar to *"gradient"*, but the array assigned to th
     
 As a result, tile values will be split up into three ranges: 0 to 300, 300 to 700 and 700 to 1000. The palette of two colors will generate three tints - one for each range. Thus, tiles of the range 0 - 300 will be colored red, tiles of the range 700 - 1000 will be colored blue, and tiles of the range 300 - 700 - a color in between. Tiles whose values match neither range will be painted in the color specified by the **tile**.[color](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/tile/#color) option.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `TreeMapColorizerType` enum. This enum accepts the following values: `Discrete`, `Gradient`, `Range` and `None`.
+#include common-ref-enum with {
+    enum: "`TreeMapColorizerType`",
+    values: "`Discrete`, `Gradient`, `Range`, and `None`"
+}
 <!--/fullDescription-->

@@ -13,7 +13,10 @@ When the scale is built on values from a [data source](/Documentation/ApiReferen
 
 [note]If dates in your data source are stored as strings, make sure that they have a [valid format](http://www.w3schools.com/js/js_date_formats.asp).
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartDataType` enum. This enum accepts the following values: `Numeric`, `DateTime` and `String`.
+#include common-ref-enum with {
+    enum: "`ChartDataType`",
+    values: "`Numeric`, `DateTime`, and `String`"
+}
 
 #include common-demobutton-named with {
     url: "/Demos/WidgetsGallery/Demo/RangeSelector/NumericScaleLightweight/jQuery/Light/",

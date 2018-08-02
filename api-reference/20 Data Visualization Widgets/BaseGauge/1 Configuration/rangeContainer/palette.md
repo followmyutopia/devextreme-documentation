@@ -11,6 +11,11 @@ Specifies the palette to be used for colorizing ranges in the range container.
 <!--fullDescription-->
 #include dataviz-ref-palette
 
+#include common-ref-enum with {
+    enum: "`VizPalette`",
+    values: "`Default`, `SoftPastel`, `HarmonyLight`, `Pastel`, `Bright`, `Soft`, `Ocean`, `Vintage`, `Violet`, `Carmine`, `DarkMoon`, `SoftBlue`, `DarkViolet`, and `GreenMist`"
+}
+
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Gauges/PaletteForRanges/jQuery/Light/"
 }

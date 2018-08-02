@@ -17,5 +17,8 @@ The option accepts the following values.
 - **useButtons**  
  Applies values when a user clicks the "OK" button.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `EditorApplyValueMode` enum. This enum accepts the following values: `Instantly` and `UseButtons`.
+#include common-ref-enum with {
+    enum: "`EditorApplyValueMode`",
+    values: "`Instantly` and `UseButtons`"
+}
 <!--/fullDescription-->

@@ -11,5 +11,8 @@ Specifies the value to be passed to the [type](http://www.w3schools.com/tags/att
 <!--fullDescription-->
 [note] If you set the [format](/Documentation/ApiReference/UI_Widgets/dxNumberBox/Configuration/#format) option, the **mode** for mobile devices is changed to *"tel"*; *"number"* is not available.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `NumberBoxMode` enum. This enum accepts the following values: `Text`, `Number`, and `Tel`.
+#include common-ref-enum with {
+    enum: "`NumberBoxMode`",
+    values: "`Text`, `Number`, and `Tel`"
+}
 <!--/fullDescription-->

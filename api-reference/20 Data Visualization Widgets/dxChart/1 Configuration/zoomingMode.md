@@ -13,7 +13,10 @@ This option allows you to control the zooming capability in your chart. By defau
 
 [note]In many cases, zooming is useless without scrolling, and vice versa. Hence, when enabling the zooming capability in your chart, consider [enabling the scrolling capability](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode) as well.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartPointerType` enum. This enum accepts the following values: `Mouse`, `Touch`, `All` and `None`.
+#include common-ref-enum with {
+    enum: "`ChartPointerType`",
+    values: "`Mouse`, `Touch`, `All`, and `None`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatures011_zoomingwithscroll/"

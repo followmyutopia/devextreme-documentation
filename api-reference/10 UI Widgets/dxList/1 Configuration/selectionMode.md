@@ -26,7 +26,10 @@ This option accepts the following values.
 
  [note]The check box that selects/unselects all items is displayed only if the [showSelectionControls]({basewidgetpath}/Configuration/#showSelectionControls) option is enabled. Otherwise, the 'all' mode works as 'multiple'.
 
- When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ListSelectionMode` enum. This enum accepts the following values: `Single`, `Multiple`, `All` and `None`.
+#include common-ref-enum with {
+    enum: "`ListSelectionMode`",
+    values: "`Single`, `Multiple`, `All`, and `None`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/List/ListSelection/jQuery/Light/"

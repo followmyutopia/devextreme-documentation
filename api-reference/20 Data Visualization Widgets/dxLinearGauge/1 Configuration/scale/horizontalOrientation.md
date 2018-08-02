@@ -11,5 +11,8 @@ Specifies the orientation of scale ticks. Applies only if the **geometry**.[orie
 <!--fullDescription-->
 This option specifies the orientation of scale ticks relative to an invisible scale line.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `HorizontalAlignment` enum. This enum accepts the following values: `Left`, `Center` and `Right`.
+#include common-ref-enum with {
+    enum: "`HorizontalAlignment`",
+    values: "`Left`, `Center`, and `Right`"
+}
 <!--/fullDescription-->

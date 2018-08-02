@@ -20,7 +20,10 @@ The series point that a user pauses on changes its style. Points with the same a
 * **none**   
 The series does not react to pointing to it.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartSeriesHoverMode` enum with one of the following values: `OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to a stock series.
+#include common-ref-enum with {
+    enum: "`ChartSeriesHoverMode`",
+    values: "`OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints`, and `None`"
+} Note that although this enum accepts more values, only the listed ones can be applied to a stock series.
 
 #####See Also#####
 - [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/StockSeries/hoverStyle/) - specifies the appearance of series in the hover state.

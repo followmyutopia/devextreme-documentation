@@ -16,5 +16,8 @@ The animation progresses according to the Ease-out cubic interpolation function 
 * **linear**   
 The animation progresses at a constant pace.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VizAnimationEasing` enum. This enum accepts the following values: `EaseOutCubic` and `Linear`.
+#include common-ref-enum with {
+    enum: "`VizAnimationEasing`",
+    values: "`EaseOutCubic` and `Linear`"
+}
 <!--/fullDescription-->

@@ -23,7 +23,10 @@ The selected point changes its style. Points with the same argument do it as wel
 * **none**   
 The point does not react to selecting.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartPointInteractionMode` enum. This enum accepts the following values: `OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints` and `None`.
+#include common-ref-enum with {
+    enum: "`ChartPointInteractionMode`",
+    values: "`OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints`, and `None`"
+}
 
 #####See Also#####
 - [pointSelectionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#pointSelectionMode) - specifies whether only one or several points can stay selected.

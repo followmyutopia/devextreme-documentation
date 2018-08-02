@@ -20,5 +20,8 @@ Displays numeric arguments. Each argument is the [logarithmBase](/Documentation/
 
 Normally, there is no need to specify this option, because the axis type is determined automatically depending on the [type of arguments](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#argumentType). However, you may force the use of a specific axis type, for example, to employ the *"discrete"* axis type with numeric or date-time arguments.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `AxisScaleType` enum. This enum accepts the following values: `Discrete`, `Continuous` and `Logarithmic`.
+#include common-ref-enum with {
+    enum: "`AxisScaleType`",
+    values: "`Discrete`, `Continuous`, and `Logarithmic`"
+}
 <!--/fullDescription-->

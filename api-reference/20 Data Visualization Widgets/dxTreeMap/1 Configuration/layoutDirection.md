@@ -15,5 +15,8 @@ The value of this option determines the start and end point of the layout. See t
 
 [note]If you use a custom [layout algorithm](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#layoutAlgorithm), this option will be ignored.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `TreeMapLayoutDirection` enum. This enum accepts the following values: `LeftTopRightBottom`, `LeftBottomRightTop`, `RightTopLeftBottom` and `RightBottomLeftTop`.
+#include common-ref-enum with {
+    enum: "`TreeMapLayoutDirection`",
+    values: "`LeftTopRightBottom`, `LeftBottomRightTop`, `RightTopLeftBottom`, and `RightBottomLeftTop`"
+}
 <!--/fullDescription-->

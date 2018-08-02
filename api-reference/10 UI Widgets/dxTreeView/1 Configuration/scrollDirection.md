@@ -9,5 +9,8 @@ A string value specifying available scrolling directions.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ScrollDirection` enum. This enum accepts the following values: `Vertical`, `Horizontal` and `Both`.
+#include common-ref-enum with {
+    enum: "`ScrollDirection`",
+    values: "`Vertical`, `Horizontal`, and `Both`"
+}
 <!--/fullDescription-->

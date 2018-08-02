@@ -30,7 +30,10 @@ The option accepts an array of views to be available within the scheduler [View 
 Set a default view by using the [currentView](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#currentView) option.  
 For more information on scheduler views, refer to the [Views](/Documentation/Guide/Widgets/Scheduler/Views/View_Types/) guide.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SchedulerViewType` enum. This enum accepts the following values: `Day`, `Week`, `WorkWeek`, `Month`, `TimelineDay`, `TimelineWeek`, `TimelineWorkWeek`, `TimelineMonth` and `Agenda`.
+#include common-ref-enum with {
+    enum: "`SchedulerViewType`",
+    values: "`Day`, `Week`, `WorkWeek`, `Month`, `TimelineDay`, `TimelineWeek`, `TimelineWorkWeek`, `TimelineMonth`, and `Agenda`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-scheduler-customize_individual_views"

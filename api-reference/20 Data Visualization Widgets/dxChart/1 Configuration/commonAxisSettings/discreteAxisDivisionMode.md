@@ -9,7 +9,10 @@ Specifies whether ticks and grid lines should cross axis labels or lie between t
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `DiscreteAxisDivisionMode` enum. This enum accepts the following values: `BetweenLabels` and `CrossLabels`.
+#include common-ref-enum with {
+    enum: "`DiscreteAxisDivisionMode`",
+    values: "`BetweenLabels` and `CrossLabels`"
+}
 
 #####See Also#####
 - **argumentAxis**.[type](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#type) - sets the type of the argument axis.

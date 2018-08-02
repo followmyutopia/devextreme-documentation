@@ -57,7 +57,10 @@ If the **dataStructure** option value is 'plain', the array should have a plain 
     url: "/Demos/WidgetsGallery/Demo/TreeView/FlatDataStructure/jQuery/Light/"
 }
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `TreeViewDataStructure` enum. This enum accepts the following values: `Plain` and `Tree`.
+#include common-ref-enum with {
+    enum: "`TreeViewDataStructure`",
+    values: "`Plain` and `Tree`"
+}
 
 #####See Also#####
 - [TreeView - Use Hierarchical Data](/Documentation/Guide/Widgets/TreeView/Use_Hierarchical_Data/)

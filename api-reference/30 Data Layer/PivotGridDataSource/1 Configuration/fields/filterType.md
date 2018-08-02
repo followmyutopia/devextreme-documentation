@@ -17,7 +17,10 @@ Values in the [header filter](/Documentation/Guide/Widgets/PivotGrid/Filtering/#
 - **exclude**       
 All values in the header filter are selected initially. Users changes the filter by clearing the selection of certain values.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `FilterType` enum. This enum accepts the following values: `Include` and `Exclude`.
+#include common-ref-enum with {
+    enum: "`FilterType`",
+    values: "`Include` and `Exclude`"
+}
 
 #####See Also#####
 - **fields[]**.[filterValues](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#filterValues)

@@ -48,5 +48,8 @@ The *"isblank"* operation returns null values only; *"isnotblank"* - non-null va
 
 [note] [Lookup](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/lookup/)'s default operations are [ "=", "<>", "isblank", "isnotblank" ] regardless of the data type.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `FilterBuilderFieldFilterOperations` enum. This enum accepts the following values: `Equal`, `NotEqual`, `LessThan`, `LessThanOrEqual`, `GreaterThan`, `GreaterThanOrEqual`, `Between`, `NotContains`, `Contains`, `StartsWith`, `EndsWith`, `IsBlank` and `IsNotBlank`.
+#include common-ref-enum with {
+    enum: "`FilterBuilderFieldFilterOperations`",
+    values: "`Equal`, `NotEqual`, `LessThan`, `LessThanOrEqual`, `GreaterThan`, `GreaterThanOrEqual`, `Between`, `NotContains`, `Contains`, `StartsWith`, `EndsWith`, `IsBlank`, and `IsNotBlank`"
+}
 <!--/fullDescription-->

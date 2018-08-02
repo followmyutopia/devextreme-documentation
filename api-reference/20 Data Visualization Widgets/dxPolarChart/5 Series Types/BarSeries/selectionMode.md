@@ -20,7 +20,10 @@ The selected series point changes its style. Points with the same argument do it
 * **none**   
 The series does not react to selection.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartSeriesSelectionMode` enum with one of the following values: `OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to a bar series.
+#include common-ref-enum with {
+    enum: "`ChartSeriesSelectionMode`",
+    values: "`OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints`, and `None`"
+} Note that although this enum accepts more values, only the listed ones can be applied to a bar series.
 
 #####See Also#####
 - [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/BarSeries/selectionStyle/)

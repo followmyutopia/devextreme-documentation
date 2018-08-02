@@ -24,5 +24,8 @@ When entering the selected state, a tile or a group of tiles changes its appeara
 
 To control the selection feature in code, use the [isSelected](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#isSelected), [select(state)](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Node/Methods/#selectstate) and [clearSelection()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Methods/#clearSelection) methods. In addition, you can perform certain actions when a node enters/leaves the selected state. For this purpose, implement the [onSelectionChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#onSelectionChanged) event handler. 
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SelectionMode` enum. This enum accepts the following values: `None`, `Single` and `Multiple`.
+#include common-ref-enum with {
+    enum: "`SelectionMode`",
+    values: "`None`, `Single` and `Multiple`"
+}
 <!--/fullDescription-->

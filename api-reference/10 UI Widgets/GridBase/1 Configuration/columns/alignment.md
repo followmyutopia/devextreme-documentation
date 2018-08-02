@@ -44,5 +44,9 @@ The default alignment of the content depends on the [type of data]({basewidgetpa
 </table>
 </div>
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `HorizontalAlignment` enum. This enum accepts the following values: `Left`, `Center` and `Right`.
+#include common-ref-enum with {
+    enum: "`HorizontalAlignment`",
+    values: "`Left`, `Center`, and `Right`"
+}
+
 <!--/fullDescription-->

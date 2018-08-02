@@ -18,5 +18,8 @@ A shortcut listed in the accepted values. Positions the widget relative to the w
 - **Function**      
 A function that returns one of the above. Use it to position the widget differently depending on a condition.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `PositionAlignment` enum. This enum accepts the following values: `Bottom`, `Center`, `Left`, `LeftBottom`, `LeftTop`, `RightBottom`, `RightTop`, and `Top`.
+#include common-ref-enum with {
+    enum: "`PositionAlignment`",
+    values: "`Bottom`, `Center`, `Left`, `LeftBottom`, `LeftTop`, `RightBottom`, `RightTop`, and `Top`"
+}
 <!--/fullDescription-->

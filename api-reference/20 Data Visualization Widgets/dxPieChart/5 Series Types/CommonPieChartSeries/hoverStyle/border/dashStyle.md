@@ -22,5 +22,8 @@ Displays a border using dots.
 * **any combination of 'longDash', 'dash' and 'dot'**   
 Displays a border by repeating the specified combination. For instance, 'dashdotdash'.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `DashStyle` enum. This enum accepts the following values: `Solid`, `LongDash`, `Dash` and `Dot`.
+#include common-ref-enum with {
+    enum: "`DashStyle`",
+    values: "`Solid`, `LongDash`, `Dash`, and `Dot`"
+}
 <!--/fullDescription-->

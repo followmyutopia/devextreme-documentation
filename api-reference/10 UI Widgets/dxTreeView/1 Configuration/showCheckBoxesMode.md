@@ -20,7 +20,10 @@ The option accepts the following values.
 - 'selectAll'  
  The widget displays a check box for each item and the 'select all' check box at the top of the widget.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `TreeViewCheckBoxMode` enum. This enum accepts the following values: `None`, `Normal` and `SelectAll`.
+#include common-ref-enum with {
+    enum: "`TreeViewCheckBoxMode`",
+    values: "`None`, `Normal`, and `SelectAll`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/jQuery/Light/"

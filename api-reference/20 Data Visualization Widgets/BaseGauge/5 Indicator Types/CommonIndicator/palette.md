@@ -10,4 +10,9 @@ Sets the palette to be used to colorize indicators differently.
 
 <!--fullDescription-->
 #include dataviz-ref-palette
+
+#include common-ref-enum with {
+    enum: "`VizPalette`",
+    values: "`Default`, `SoftPastel`, `HarmonyLight`, `Pastel`, `Bright`, `Soft`, `Ocean`, `Vintage`, `Violet`, `Carmine`, `DarkMoon`, `SoftBlue`, `DarkViolet`, and `GreenMist`"
+}
 <!--/fullDescription-->

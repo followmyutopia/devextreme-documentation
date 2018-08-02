@@ -12,5 +12,8 @@ Specifies the orientation of the *rangeBar* indicator. Applies only if the **geo
 <!--fullDescription-->
 This option specifies the orientation of an indicator relative to an invisible scale line.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VerticalEdge` enum. This enum accepts the following values: `Top` and `Bottom`.
+#include common-ref-enum with {
+    enum: "`VerticalEdge`",
+    values: "`Top` and `Bottom`"
+}
 <!--/fullDescription-->

@@ -15,7 +15,10 @@ Scrolling may also be performed using the scroll bar. To make it visible assign 
 
 [note]In many cases, scrolling is useless without zooming, and vice versa. Hence, when enabling the scrolling capability in your chart, consider [enabling the zooming capability](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) as well.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartPointerType` enum. This enum accepts the following values: `Mouse`, `Touch`, `All` and `None`.
+#include common-ref-enum with {
+    enum: "`ChartPointerType`",
+    values: "`Mouse`, `Touch`, `All`, and `None`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/jQuery/Light/"

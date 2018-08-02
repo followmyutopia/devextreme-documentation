@@ -19,7 +19,10 @@ If the **runningTotal** option is set to *"row"*, each value in this row is adde
 
 This also applies to columns if the **runningTotal** option is set to *"column"*.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PivotGridRunningTotalMode` enum. This enum accepts the following values: `Row` and `Column`.
+#include common-ref-enum with {
+    enum: "`PivotGridRunningTotalMode`",
+    values: "`Row` and `Column`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/RunningTotals/jQuery/Light/"

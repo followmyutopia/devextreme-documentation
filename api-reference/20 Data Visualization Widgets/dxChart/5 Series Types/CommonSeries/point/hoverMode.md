@@ -21,7 +21,10 @@ The point that a user pauses on changes its style. Points with the same argument
 * **none**   
 The point does not react to pointing to it.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartPointInteractionMode` enum. This enum accepts the following values: `OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints` and `None`.
+#include common-ref-enum with {
+    enum: "`ChartPointInteractionMode`",
+    values: "`OnlyPoint`, `AllSeriesPoints`, `AllArgumentPoints`, and `None`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureshovermode/"

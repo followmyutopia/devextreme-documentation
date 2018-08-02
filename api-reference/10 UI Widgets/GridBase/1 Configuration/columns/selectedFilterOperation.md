@@ -33,7 +33,10 @@ By default, the selected filter operation depends on the [data type]({basewidget
 </table>
 </div>
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `FilterOperations` enum. This enum accepts the following values: `Equal`, `NotEqual`, `LessThan`, `LessThanOrEqual`, `GreaterThan`, `GreaterThanOrEqual`, `NotContains`, `Contains`, `StartsWith`, `EndsWith` and `Between`.
+#include common-ref-enum with {
+    enum: "`FilterOperations`",
+    values: "`Equal`, `NotEqual`, `LessThan`, `LessThanOrEqual`, `GreaterThan`, `GreaterThanOrEqual`, `NotContains`, `Contains`, `StartsWith`, `EndsWith`, and `Between`"
+}
 
 #####See Also#####
 - [Filtering API](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#API)

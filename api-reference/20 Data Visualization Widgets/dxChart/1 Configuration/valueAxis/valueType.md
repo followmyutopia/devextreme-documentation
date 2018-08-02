@@ -13,7 +13,10 @@ If your data source stores, for example, numbers as strings, specify the proper 
 
 [note]If dates in your data source are stored as strings, make sure that they have a [valid format](http://www.w3schools.com/js/js_date_formats.asp).
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartDataType` enum. This enum accepts the following values: `Numeric`, `DateTime` and `String`.
+#include common-ref-enum with {
+    enum: "`ChartDataType`",
+    values: "`Numeric`, `DateTime`, and `String`"
+}
 
 #####See Also#####
 - **argumentAxis**.[argumentType](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#argumentType) - casts arguments to a proper data type.

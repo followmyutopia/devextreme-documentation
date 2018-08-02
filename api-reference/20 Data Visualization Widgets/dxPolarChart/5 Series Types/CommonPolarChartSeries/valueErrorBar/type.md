@@ -26,5 +26,8 @@ For information on variance, refer to the [article](http://en.wikipedia.org/wiki
 - **fixed**        
 Defines the confidential interval in constant values. Error bar values are determined by the **value** option. The high and low error bar values are drawn symmetrically up and down from the series point.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ValueErrorBarType` enum. This enum accepts the following values: `Percent`, `StdError`, `StdDeviation`, `Variance` and `Fixed`.
+#include common-ref-enum with {
+    enum: "`ValueErrorBarType`",
+    values: "`Percent`, `StdError`, `StdDeviation`, `Variance`, and `Fixed`"
+}
 <!--/fullDescription-->

@@ -16,5 +16,8 @@ The tooltip with the message is displayed when the editor is in focus.
 - **always**  
 The tooltip with the message is not hidden when the editor loses focus.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ValidationMessageMode` enum. This enum accepts the following values: `Auto` and `Always`.
+#include common-ref-enum with {
+    enum: "`ValidationMessageMode`",
+    values: "`Auto` and `Always`"
+}
 <!--/fullDescription-->

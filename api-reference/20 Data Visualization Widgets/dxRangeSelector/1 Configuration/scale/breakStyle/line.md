@@ -9,5 +9,8 @@ Specifies the scale breaks' line style.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ScaleBreakLineStyle` enum that accepts the `Waved` and `Straight` values.
+#include common-ref-enum with {
+    enum: "`ScaleBreakLineStyle`",
+    values: "`Waved` and `Straight`"
+}
 <!--/fullDescription-->

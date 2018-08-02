@@ -17,5 +17,8 @@ Only one row can be in the selected state at a time.
 - **Multiple**          
 Several rows can be in the selected state at a time.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SelectionMode` enum. This enum accepts the following values: `None`, `Single` and `Multiple`.
+#include common-ref-enum with {
+    enum: "`SelectionMode`",
+    values: "`None`, `Single`, and `Multiple`"
+}
 <!--/fullDescription-->

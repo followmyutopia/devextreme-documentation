@@ -33,5 +33,8 @@ Applies a custom aggregate function specified in the [calculateCustomSummary](/D
 
 You can implement the capability to select the summary type at runtime using instructions from the [Runtime Summary Type Selection](/Documentation/Guide/Widgets/PivotGrid/Summaries/#Runtime_Summary_Type_Selection) article.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SummaryType` enum. This enum accepts the following values: `Sum`, `Min`, `Max`, `Avg`, `Count`, and `Custom`.
+#include common-ref-enum with {
+    enum: "`SummaryType`",
+    values: "`Sum`, `Min`, `Max`, `Avg`, `Count`, and `Custom`"
+}
 <!--/fullDescription-->

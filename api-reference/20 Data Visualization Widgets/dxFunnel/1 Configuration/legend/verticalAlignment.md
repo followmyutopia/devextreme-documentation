@@ -9,7 +9,10 @@ Along with [horizontalAlignment]({basewidgetpath}/Configuration/legend#horizonta
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VerticalEdge` enum. This enum accepts the following values: `Top` and `Bottom`.
+#include common-ref-enum with {
+    enum: "`VerticalEdge`",
+    values: "`Top` and `Bottom`"
+}
 
 #####See Also#####
 - **legend**.[orientation]({basewidgetpath}/Configuration/legend#orientation)

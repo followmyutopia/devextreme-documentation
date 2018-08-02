@@ -13,7 +13,10 @@ When a discrete axis is divided, its ticks/grid lines are located between labels
 
 [note]This option is not designed to work in the [spider web](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#useSpiderWeb) mode.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `DiscreteAxisDivisionMode` enum. This enum accepts the following values: `BetweenLabels` and `CrossLabels`.
+#include common-ref-enum with {
+    enum: "`DiscreteAxisDivisionMode`",
+    values: "`BetweenLabels` and `CrossLabels`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartspolarandradarchartspolarandradarchartswindrose/"

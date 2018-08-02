@@ -13,7 +13,10 @@ Series point labels display series point values. If the series in your pie chart
 
 [note] If the [position](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/label/#position) option is set to *"inside"*, the *"shift"* mode in label overlapping is not available.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `PieChartResolveLabelOverlapping` enum. This enum accepts the following values: `None`, `Hide` and `Shift`.
+#include common-ref-enum with {
+    enum: "`PieChartResolveLabelOverlapping`",
+    values: "`None`, `Hide`, and `Shift`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartspieseriespiewithoverlappinglabels/"

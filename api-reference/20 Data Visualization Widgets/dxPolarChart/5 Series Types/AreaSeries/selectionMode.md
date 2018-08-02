@@ -20,7 +20,10 @@ The series does not react to selection.
 
 [note]Points in area series are hidden by default. To make them visible, assign **true** to the **point**.**visible** option.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartSeriesSelectionMode` enum with one of the following values: `IncludePoints`, `ExcludePoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to an area series.
+#include common-ref-enum with {
+    enum: "`ChartSeriesSelectionMode`",
+    values: "`IncludePoints`, `ExcludePoints`, and `None`"
+} Note that although this enum accepts more values, only the listed ones can be applied to an area series.
 
 #####See Also#####
 - [selectionStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/AreaSeries/selectionStyle/)

@@ -12,7 +12,10 @@ Specifies the currently displayed view. Accepts the view's [name](/Documentation
 <!--fullDescription-->
 In all situations when more than one view meets the **currentView** condition, the first matching view from the [views](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/) array takes precedence.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `SchedulerViewType` enum. This enum accepts the following values: `Day`, `Week`, `WorkWeek`, `Month`, `TimelineDay`, `TimelineWeek`, `TimelineWorkWeek`, `TimelineMonth` and `Agenda`.
+#include common-ref-enum with {
+    enum: "`SchedulerViewType`",
+    values: "`Day`, `Week`, `WorkWeek`, `Month`, `TimelineDay`, `TimelineWeek`, `TimelineWorkWeek`, `TimelineMonth`, and `Agenda`"
+}
 
 #####See Also#####
 - [Views](/Documentation/Guide/Widgets/Scheduler/Views/)

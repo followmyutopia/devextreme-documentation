@@ -41,7 +41,10 @@ When a user points to a series, it may react in one of the following ways depend
 </div>
 <div style="height:5px"></div>
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `ChartSeriesHoverMode` enum with one of the following values: `NearestPoint`, `IncludePoints`, `ExcludePoints`, and `None`. Note that although this enum accepts more values, only the listed ones can be applied to a line series.
+#include common-ref-enum with {
+    enum: "`ChartSeriesHoverMode`",
+    values: "`NearestPoint`, `IncludePoints`, `ExcludePoints`, and `None`"
+} Note that although this enum accepts more values, only the listed ones can be applied to a line series.
 
 #####See Also#####
 - [hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Series_Types/LineSeries/hoverStyle/) - specifies the appearance of series in the hover state.

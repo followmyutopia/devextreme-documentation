@@ -27,7 +27,10 @@ Check boxes are always hidden, which means that selection is always single-like 
 
 [Keyboard shortcuts](/Documentation/Guide/Widgets/DataGrid/Keyboard_Support/) work identically regardless of the chosen mode.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `GridSelectionShowCheckBoxesMode` enum. This enum accepts the following values: `OnClick`, `OnLongTap`, `Always` and `None`.
+#include common-ref-enum with {
+    enum: "`GridSelectionShowCheckBoxesMode`",
+    values: "`OnClick`, `OnLongTap`, `Always`, and `None`"
+}
 
 #####See Also#####
 - [Selection - User Interaction](/Documentation/Guide/Widgets/DataGrid/Selection/#User_Interaction)

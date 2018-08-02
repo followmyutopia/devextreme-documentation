@@ -9,5 +9,8 @@ Specifies a symbol to use as a point marker on a sparkline. Available for the sp
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), specify this option using the `VizPointSymbol` enum. This enum accepts the following values: `Circle`, `Square`, `Polygon`, `Triangle` and `Cross`.
+#include common-ref-enum with {
+    enum: "`VizPointSymbol`",
+    values: "`Circle`, `Square`, `Polygon`, `Triangle`, and `Cross`"
+}
 <!--/fullDescription-->

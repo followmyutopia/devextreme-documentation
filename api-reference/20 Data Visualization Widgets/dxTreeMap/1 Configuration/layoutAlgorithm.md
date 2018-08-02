@@ -47,7 +47,10 @@ If none of the predefined algorithms satisfy your needs, implement your own algo
 
 In addition, you can change the layout direction. For this purpose, use the [layoutDirection](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#layoutDirection) option.
 
-When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), you can specify this option using the `TreeMapLayoutAlgorithm` enum. This enum accepts the following values: `Squarified`, `Strip` and `SliceAndDice`.
+#include common-ref-enum with {
+    enum: "`TreeMapLayoutAlgorithm`",
+    values: "`Squarified`, `Strip`, and `SliceAndDice`"
+}
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Charts/TilingAlgorithms/jQuery/Light/"
