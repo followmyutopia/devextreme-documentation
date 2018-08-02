@@ -24,7 +24,7 @@ In the following code, a default editor is replaced with the DevExtreme [TextAre
                 if (e.dataField == "description") {
                     e.editorName = "dxTextArea"; 
                     e.editorOptions.showClearButton = true;
-                    e.editorOptions.onValueChanged = function (event) {
+                    e.editorOptions.onValueChanged = (event) => {
                         var value = event.value;
                         e.setValue(value.toLowerCase()); 
                     }
@@ -40,11 +40,11 @@ In the following code, a default editor is replaced with the DevExtreme [TextAre
     // ...
     export class AppComponent {
         onEditorPreparing (e) { 
-            if (e.dataField == "name") {
+            if (e.dataField == "description") {
                 e.editorName = "dxTextArea"; 
                 e.editorOptions.showClearButton = true;
-                e.editorOptions.onValueChanged = function (event) {
-                    var value = event.value;
+                e.editorOptions.onValueChanged = (event) => {
+                    let value = event.value;
                     e.setValue(value.toLowerCase()); 
                 }
             }
@@ -79,7 +79,7 @@ The following code shows how to replace a default editor with a non-DevExtreme e
                     e.cancel = true; // Cancels creating the default editor
                     $('<input type="checkbox">')
                         .prop("checked", e.value)
-                        .on("change", function(event) {
+                        .on("change", (event) => {
                             e.setValue(event.target.checked);
                         })
                         .appendTo(e.editorElement);
@@ -100,7 +100,7 @@ The following code shows how to replace a default editor with a non-DevExtreme e
                 let checkbox = document.createElement("INPUT");
                 checkbox.setAttribute("type", "checkbox");
                 checkbox.setAttribute("checked", e.value);
-                checkbox.addEventListener("change", function(event) {
+                checkbox.addEventListener("change", (event) => {
                     e.setValue(event.target.checked);
                 });
                 e.editorElement.appendChild(checkbox);

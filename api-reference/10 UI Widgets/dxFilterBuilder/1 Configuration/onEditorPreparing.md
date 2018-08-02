@@ -9,7 +9,9 @@ A function that is executed before an editor is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The widget offers a user a different editor for entering a value depending on the field's [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType): [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/), [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), etc. Within this function, you can customize a default editor or substitute it for another DevExtreme editor. To do the latter, assign the editor's name to the **editorName** field and configure the editor in the **editorOptions** object. If you specify the editor's **onValueChanged** function, call the **setValue(newValue)** method in it to update the value.
+The widget offers a user different editors for entering a value depending on the field's [dataType](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataType): [Calendar](/Documentation/Guide/Widgets/Calendar/Overview/), [TextBox](/Documentation/Guide/Widgets/TextBox/Overview/), [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/), and so on. Use this function to customize those default editors or substitute them for other editors. 
+
+In the following code, a default editor is replaced with the DevExtreme [TextArea](/Documentation/Guide/Widgets/TextArea/Overview/) widget. Note that the widget's **onValueChanged** function is overridden, and its declaration ends with the **setValue(newValue, newText)** method's call. This method updates the value.
 
 ---
 ##### jQuery
@@ -18,17 +20,13 @@ The widget offers a user a different editor for entering a value depending on th
     $(function() {
         $("#filterBuilder").dxFilterBuilder({
             // ...
-            onEditorPreparing: function(e) {
-                if (e.dataField == "name") {
-                    e.editorName = "dxTextArea";
+            onEditorPreparing: function (e) {
+                if (e.dataField == "description") {
+                    e.editorName = "dxTextArea"; 
                     e.editorOptions.showClearButton = true;
-                    e.editorOptions.onValueChanged = function (e) {
-                        var value = e.value;
-                        if(value == "") {
-                            alert("TextArea is empty");
-                            return;
-                        }
-                        e.setValue(value);
+                    e.editorOptions.onValueChanged = (event) => {
+                        var value = event.value;
+                        e.setValue(value.toLowerCase()); 
                     }
                 }
             }
@@ -42,16 +40,12 @@ The widget offers a user a different editor for entering a value depending on th
     // ...
     export class AppComponent {
         onEditorPreparing (e) { 
-            if (e.dataField == "name") {
-                e.editorName = "dxTextArea";
+            if (e.dataField == "description") {
+                e.editorName = "dxTextArea"; 
                 e.editorOptions.showClearButton = true;
-                e.editorOptions.onValueChanged = function (e) {
-                    var value = e.value;
-                    if (value == "") {
-                        alert("TextArea is empty");
-                        return;
-                    }
-                    e.setValue(value);
+                e.editorOptions.onValueChanged = (event) => {
+                    let value = event.value;
+                    e.setValue(value.toLowerCase()); 
                 }
             }
         }
@@ -71,7 +65,7 @@ The widget offers a user a different editor for entering a value depending on th
     
 ---
 
-If you use a third-party editor, cancel the default editor creation and implement this one instead. Call the **setValue(newValue)** method in the **onEditorPreparing** function to notify the **FilterBuilder** of the changed value.
+The following code shows how to replace a default editor with a non-DevExtreme editor (an HTML checkbox in this case):
 
 ---
 ##### jQuery
@@ -81,12 +75,12 @@ If you use a third-party editor, cancel the default editor creation and implemen
         $("#filterBuilder").dxFilterBuilder({
             // ...
             onEditorPreparing: function(e) {
-                if(e.dataField === "hidden") {
-                    e.cancel = true;
+                if(e.dataField === "completed") {
+                    e.cancel = true; // Cancels creating the default editor
                     $('<input type="checkbox">')
                         .prop("checked", e.value)
-                        .on("change", function(args) {
-                            e.setValue(args.target.checked);
+                        .on("change", (event) => {
+                            e.setValue(event.target.checked);
                         })
                         .appendTo(e.editorElement);
                 }
@@ -101,14 +95,14 @@ If you use a third-party editor, cancel the default editor creation and implemen
     // ...
     export class AppComponent {
         onEditorPreparing (e) { 
-            if(e.dataField === "hidden") {
-                e.cancel = true;
+            if(e.dataField === "completed") {
+                e.cancel = true; // Cancels creating the default editor
                 let checkbox = document.createElement("INPUT");
                 checkbox.setAttribute("type", "checkbox");
                 checkbox.setAttribute("checked", e.value);
-                checkbox.addEventListener("change", function(args) {
-                                                        e.setValue(args.target.checked);
-                                                    });
+                checkbox.addEventListener("change", (event) => {
+                    e.setValue(event.target.checked);
+                });
                 e.editorElement.appendChild(checkbox);
             }
         }
