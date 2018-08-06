@@ -1,10 +1,12 @@
 ===========================================================================
+<!--default-->true<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Occurs in the **Sankey** widget if the **weight** field has an incorrect data type or value in at least one data object.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Check that the **weight** field in each data object is an integer number greater than 0.
+
 <!--/fullDescription-->

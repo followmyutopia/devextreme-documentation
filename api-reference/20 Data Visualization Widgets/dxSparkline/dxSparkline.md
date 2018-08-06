@@ -28,7 +28,7 @@ dataSource: [{
 ===========================================================================
 <!--module-->viz/sparkline<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\BaseSparkline\BaseSparkline.md<!--/inherits-->
+<!--inherits-->..\BaseSparkline\BaseSparkline.md,..\..\10 UI Widgets\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

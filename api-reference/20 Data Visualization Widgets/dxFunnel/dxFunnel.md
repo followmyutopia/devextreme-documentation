@@ -13,7 +13,7 @@ label: { position: "inside" }
 ===========================================================================
 <!--module-->viz/funnel<!--/module-->
 <!--export-->default<!--/export-->
-<!--inherits-->..\BaseWidget\BaseWidget.md<!--/inherits-->
+<!--inherits-->..\BaseWidget\BaseWidget.md,..\..\10 UI Widgets\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
 <!--lib-->
 dx.viz.js, dx.viz-web.js, dx.all.js
 <!--/lib-->

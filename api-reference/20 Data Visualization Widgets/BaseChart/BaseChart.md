@@ -1,7 +1,7 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--type-->Object<!--/type-->
-<!--inherits-->..\BaseWidget\BaseWidget.md<!--/inherits-->
+<!--inherits-->..\BaseWidget\BaseWidget.md,..\..\10 UI Widgets\DataHelperMixin\DataHelperMixin.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
