@@ -21,7 +21,7 @@ A comparison operator. One of the following: *"=", "<>", ">", ">=", "<", "<=", "
 - **filterValue**        
 A user input value. Values the **selector** provides are compared to this value.
 
-The following code shows the default **calculateFilterExpression** function implementation. You can change it as required.
+In the following code, the **calculateFilterExpression** function implements the exclusive **between** operation. This is done by overriding the default inclusive **between** implementation.
 
 ---
 ##### jQuery
@@ -31,18 +31,13 @@ The following code shows the default **calculateFilterExpression** function impl
             // ...
             fields: [{
                 calculateFilterExpression: function (filterValue, selectedFilterOperation) {
-                    // Implementation for the "between" comparison operator
                     if (selectedFilterOperation === "between" && $.isArray(filterValue)) {
                         var filterExpression = [
-                            [this.dataField, ">=", filterValue[0]], 
+                            [this.dataField, ">", filterValue[0]], 
                             "and", 
-                            [this.dataField, "<=", filterValue[1]]
+                            [this.dataField, "<", filterValue[1]]
                         ];
                         return filterExpression;
-                    }
-                    // Implementation for the "isBlank" and "isNotBlank" operators
-                    if (filterValue === null && (selectedFilterOperation === "=" || selectedFilterOperation === "<>")) {
-                        return [this.dataField, selectedFilterOperation, null];
                     }
                     // Invokes the default filtering behavior
                     return this.defaultCalculateFilterExpression.apply(this, arguments);
@@ -59,18 +54,13 @@ The following code shows the default **calculateFilterExpression** function impl
     // ...
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {
-            // Implementation for the "between" comparison operator
             if (selectedFilterOperation === "between" && Array.isArray(filterValue)) {
                 var filterExpression = [
-                    [this.dataField, ">=", filterValue[0]], 
+                    [this.dataField, ">", filterValue[0]], 
                     "and", 
-                    [this.dataField, "<=", filterValue[1]]
+                    [this.dataField, "<", filterValue[1]]
                 ];
                 return filterExpression;
-            }
-            // Implementation for the "isBlank" and "isNotBlank" operators
-            if (filterValue === null && (selectedFilterOperation === "=" || selectedFilterOperation === "<>")) {
-                return [this.dataField, selectedFilterOperation, null];
             }
             // Invokes the default filtering behavior
             return this.defaultCalculateFilterExpression.apply(this, arguments);

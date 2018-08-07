@@ -44,7 +44,7 @@ The following table lists default operations by [data type](/Documentation/ApiRe
 </table>
 </div>
 
-The *"isblank"* operation returns null values only; *"isnotblank"* - non-null values.
+The *"isblank"* operation returns null values and empty strings; *"isnotblank"* returns other values.
 
 [note] [Lookup](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/lookup/)'s default operations are [ "=", "<>", "isblank", "isnotblank" ] regardless of the data type.
 
