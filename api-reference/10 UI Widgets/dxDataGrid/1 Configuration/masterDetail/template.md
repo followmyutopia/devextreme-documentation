@@ -7,6 +7,8 @@ Specifies a custom template for detail sections.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+You should call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#updateDimensions) method each time the size of the detail section's content changes to make the table layout automatically adapt its size. In the following code, the [TabPanel](/Documentation/Guide/Widgets/TabPanel/Overview/) in the detail section contains views that can have different heights. The **updateDimensions** method is called in the [onSelectionChanged](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#onSelectionChanged) handler to update the table layout when another view is selected.
+
 ---
 #####jQuery
 
@@ -16,8 +18,11 @@ Specifies a custom template for detail sections.
         masterDetail: {
             enabled: true,
             template: function (container, info) {
-                $('<div>').dxDataGrid({ 
-                    // configure the widget here
+                $('<div>').dxTabPanel({ 
+                    // ...
+                    onSelectionChanged: function () {
+                        $("#dataGridContainer").dxDataGrid("instance").updateDimensions();
+                    }
                 }).appendTo(container); 
             }
         }
@@ -28,23 +33,27 @@ Specifies a custom template for detail sections.
     <!--HTML-->
     <dx-data-grid  ...
         [masterDetail]="{ enabled: true, template: 'detail' }">
-        <div *dxTemplate="let employee of 'detail'">
-            <div class="internal-grid-container">
-                <dx-data-grid ... ></dx-data-grid>
-            </div>
+        <div *dxTemplate="let info of 'detail'">
+            <dx-tab-panel ... 
+                [onSelectionChanged]="onSelectionChanged">
+            </dx-tab-panel>
         </div>
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule, DxDataGridComponent, DxTabPanelModule } from 'devextreme-angular';
     // ...
     export class AppComponent {
-        // ...
+        @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent
+        onSelectionChanged () {
+           this.dataGrid.instance.updateDimensions();
+        }
     }
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            DxDataGridModule,
+            DxTabPanelModule
         ],
         // ...
     })
