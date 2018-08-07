@@ -33,7 +33,7 @@ The widget's container. It is an [HTML Element](https://developer.mozilla.org/en
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->item<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamName1_field4-->target<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->dxSankeyLink<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The [Link](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Link/) object.
