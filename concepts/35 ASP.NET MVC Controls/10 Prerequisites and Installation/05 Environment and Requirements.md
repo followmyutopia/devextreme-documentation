@@ -1,13 +1,14 @@
-DevExtreme ASP.NET MVC Controls support:
+DevExtreme ASP.NET MVC Controls need the following development environment:
 
-- .NET Framework 4.0 and later / .NET Core 1.0.1 and later
-- ASP.NET MVC 3 and later   
-- Visual Studio 2012 and later  
+- ASP.NET MVC 5
 
-[note]If you use Visual Studio 2012, make sure that you have the following updates and hotfixes applied. This ensures proper Razor code highlighting and the absence of unexpected dialog boxes.<br/>
-- [Visual Studio 2012 Update 5](https://www.microsoft.com/en-us/download/details.aspx?id=48708)     
-- [ASP.NET and Web Tools 2013.1 for Visual Studio 2012](https://www.microsoft.com/en-us/download/details.aspx?id=41532)     
-- [KB3002339 hotfix](https://support.microsoft.com/en-us/kb/3002339)
+    - Visual Studio 2015 and later
+    - .NET Framework 4.5.2 and later
+
+- ASP.NET Core MVC
+
+    - Visual Studio 2017 and later
+    - .NET Core 2.0 and later
 
 DevExtreme ASP.NET MVC Controls have the following dependencies:
 
