@@ -1,11 +1,11 @@
 DevExtreme ASP.NET MVC Controls need the following development environment:
 
-- ASP.NET MVC 5
+- For ASP.NET MVC 5:
 
     - Visual Studio 2015 and later
     - .NET Framework 4.5.2 and later
 
-- ASP.NET Core MVC
+- For ASP.NET Core:
 
     - Visual Studio 2017 and later
     - .NET Core 2.0 and later
