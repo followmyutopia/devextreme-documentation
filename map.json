@@ -640,6 +640,10 @@
 
         "CommonIndicator": {
           "$Object": "CommonIndicator"
+        },
+
+        "GaugeIndicator": {
+          "$Object": "GaugeIndicator"
         }
       }
     },
