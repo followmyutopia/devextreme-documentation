@@ -5,9 +5,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the event on which to expand/collapse a node.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-ref-enum with {
+    enum: "`TreeViewExpandEvent`",
+    values: "`DblClick` and `Click`"
+}
 <!--/fullDescription-->

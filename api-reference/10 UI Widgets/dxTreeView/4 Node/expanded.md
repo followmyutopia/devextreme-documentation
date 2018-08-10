@@ -3,9 +3,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Equals to **true** if the node is expanded; **false** if collapsed.
+Equals **true** if the node is expanded; **false** if collapsed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [expandEvent](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#expandEvent)
+- [expandedExpr](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#expandedExpr)
 <!--/fullDescription-->
