@@ -1,0 +1,18 @@
+You can use the [standard methods](http://www.w3schools.com/js/js_array_methods.asp) to make changes to the array. Then, use the [option(optionName, optionValue)](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Methods/#optionoptionName_optionValue) method to reassign the updated array to the **Sankey**.
+
+    <!--JavaScript-->var sankeyData = [
+        { source: 'Brazil', target: 'Spain', weight: 4 },
+        { source: 'Brazil', target: 'Portugal', weight: 5 },
+        { source: 'Brazil', target: 'England', weight: 2 },
+        { source: 'Canada', target: 'Portugal', weight: 2 },
+        { source: 'Canada', target: 'England', weight: 1 },
+        { source: 'Mexico', target: 'Portugal', weight: 9 },
+        { source: 'Mexico', target: 'Spain', weight: 5 }
+    ];
+
+    sankeyData.push({ source: 'Mexico', target: 'Spain', weight: 2 });
+    // Reassigns the "sankeyData" array to the Sankey 
+    $('#sankeyContainer').dxSankey('option', 'dataSource', sankeyData);
+
+#####See Also#####
+- [Get and Set Options - jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/)
