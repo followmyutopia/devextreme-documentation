@@ -1,6 +1,6 @@
 ===========================================================================
 <!--type-->Object<!--/type-->
-<!--inherits-->..\..\..\BaseGauge\5 Indicator Types\CommonIndicator\CommonIndicator.md<!--/inherits-->
+<!--inherits-->..\..\..\BaseGauge\5 Indicator Types\GaugeIndicator\GaugeIndicator.md<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================
 
