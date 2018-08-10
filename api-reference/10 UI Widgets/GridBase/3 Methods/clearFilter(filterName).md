@@ -12,13 +12,20 @@ The filter type.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-The method's parameter specifies what type of filter should be cleared. The parameter can have one of the following values:
+The method's parameter specifies what type of filter should be cleared. This parameter can have one of the following values:
 
-* 'dataSource' - clears the [dataSource filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) (defined in the configuration or applied by the [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr) method);
-* 'search' - clears the [search panel]({basewidgetpath}/Configuration/searchPanel/);
-* 'header' - clears the [column header filter]({basewidgetpath}/Configuration/headerFilter/);
-* 'row' - clears the [filter row]({basewidgetpath}/Configuration/filterRow/).
+- *"row"*       
+Clears the [filter row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row).
+- *"header"*        
+Clears the [header filter](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Header_Filter).
+- *"filterValue"*       
+Clears the [filter builder](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Panel_with_Filter_Builder) and the [synchronized filtering UI elements]({basewidgetpath}/Configuration/#filterSyncEnabled).
+- *"search"*        
+Clears the [search panel](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Search_Panel).
+- *"dataSource"*        
+Clears the data source filter defined [in the configuration](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) or applied by the [filter(filterExpr)]({basewidgetpath}/Methods/#filterfilterExpr) method.
 
 #####See Also#####
 #include common-link-callmethods
+- [clearFilter()]({basewidgetpath}/Methods/#clearFilter)
 <!--/fullDescription-->

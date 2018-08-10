@@ -1,15 +1,4 @@
-Use the [clearFilter(filterName)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearFilterfilterName) method to clear filtering settings. You can call it with one of the following parameters:
-
-- *"row"*       
-Clears the [filter row](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Filter_Row).
-- *"header"*        
-Clears the [header filter](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Header_Filter).
-- *"search"*        
-Clears the [search panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel).
-- *"dataSource"*        
-Clears the data source filter defined [in the configuration](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) or applied by the [filter(filterExpr)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#filterfilterExpr) method.
-- *Without any parameter*         
-Clears all filters.
+The [clearFilter(filterName)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#clearFilterfilterName) method allows you to clear different filter settings depending on the argument. Acceptable arguments are listed in the method's description.
 
 <!---->
 
