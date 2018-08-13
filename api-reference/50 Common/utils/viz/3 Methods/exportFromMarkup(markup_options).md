@@ -10,7 +10,7 @@ Allows you to export widgets using their SVG markup.
 <!--paramName1-->markup<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The SVG markup of the widgets you need to export.
+The SVG markup of the widgets you want to export.
 <!--/paramDescription1-->
 
 <!--paramName2-->options<!--/paramName2-->
@@ -26,7 +26,8 @@ The name of the file to be saved.
 <!--paramName2_field2-->format<!--/paramName2_field2-->
 <!--paramType2_field2-->String<!--/paramType2_field2-->
 <!--paramDescription2_field2-->
-The file's format. One of 'PNG', 'PDF', 'JPEG', 'SVG' and 'GIF'.
+The file's format. One of 'PNG', 'PDF', 'JPEG', 'SVG' and 'GIF'.    
+PNG is used if the browser does not support exporting to the specified format.
 <!--/paramDescription2_field2-->
 <!--paramName2_field3-->backgroundColor<!--/paramName2_field3-->
 <!--paramType2_field3-->String<!--/paramType2_field3-->
