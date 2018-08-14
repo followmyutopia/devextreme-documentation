@@ -10,7 +10,7 @@ An end user can use the following keys to interact with the widget.
     </thead>
     <tbody>
     <tr>
-      <td>Enter/Space</td>
+      <td>Space</td>
       <td>Changes the widget value.</td>
    </tr>
     </tbody>
