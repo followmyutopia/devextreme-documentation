@@ -6,30 +6,30 @@ DevExtreme provides the [DevExtreme-PHP-Data](https://github.com/DevExpress/DevE
     <!--JavaScript-->
     $(function() {
         var serviceUrl = "http://url/to/my/service.php";
-        $('#sankeyContainer').dxSankey({
+        $("#sankeyContainer").dxSankey({
             dataSource: DevExpress.data.AspNet.createStore({
-                key: ['from', 'to'],
+                key: ["from", "to"],
                 loadUrl: serviceUrl
             }),
-            sourceField: 'from',
-            targetField: 'to',
-            weightField: 'amount'
+            sourceField: "from",
+            targetField: "to",
+            weightField: "amount"
         })
     });
 
 #####Angular
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
-    import CustomStore from 'devextreme/data/custom_store';
-    import { createStore } from 'devextreme-aspnet-data-nojquery';
+    import { DxSankeyModule } from "devextreme-angular";
+    import CustomStore from "devextreme/data/custom_store";
+    import { createStore } from "devextreme-aspnet-data-nojquery";
     // ...
     export class AppComponent {
         store: CustomStore;
         constructor() {
-            const serviceUrl: string = 'http://url/to/my/service.php';
+            const serviceUrl: string = "http://url/to/my/service.php";
             this.store = createStore({
-                key: ['from', 'to'],
+                key: ["from", "to"],
                 loadUrl: serviceUrl
             })
         }

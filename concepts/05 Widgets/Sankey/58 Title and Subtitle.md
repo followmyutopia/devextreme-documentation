@@ -8,12 +8,12 @@ The [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Conf
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $('#sankeyContainer').dxSankey({
+        $("#sankeyContainer").dxSankey({
             // ...
             title: {
-                text: 'I am the Title',
+                text: "I am the Title",
                 subtitle: {
-                    text: 'I am the Subtitle'
+                    text: "I am the Subtitle"
                 }
             }
         });
@@ -31,7 +31,7 @@ The [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Conf
     </dx-sankey>
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
+    import { DxSankeyModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -52,9 +52,9 @@ You can set the title's text more concisely if you assign it directly to the **t
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $('#sankeyContainer').dxSankey({
+        $("#sankeyContainer").dxSankey({
             // ...
-            title: 'I am the Title'
+            title: "I am the Title"
         });
     });
 
@@ -65,7 +65,7 @@ You can set the title's text more concisely if you assign it directly to the **t
     </dx-sankey>
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
+    import { DxSankeyModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

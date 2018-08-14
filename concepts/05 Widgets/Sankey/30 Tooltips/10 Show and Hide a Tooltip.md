@@ -4,15 +4,15 @@ Tooltips can be invoked programmatically by calling a [Node](/Documentation/ApiR
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $('#sankeyContainer').dxSankey({
+        $("#sankeyContainer").dxSankey({
             // ...
             tooltip: { enabled: false },
             // Shows the tooltip only when a sankey link is clicked
-            onLinkClick: function (e) {
+            onLinkClick: function(e) {
                 e.target.showTooltip();
             },
             // Hides the tooltip when the sankey link is no longer hovered over or pressed
-            onLinkHoverChanged: function (e) {
+            onLinkHoverChanged: function(e) {
                 if (!e.target.isHovered()) {
                     e.component.hideTooltip();
                 }
@@ -31,7 +31,7 @@ Tooltips can be invoked programmatically by calling a [Node](/Documentation/ApiR
     </dx-sankey>
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
+    import { DxSankeyModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // Shows the tooltip only when a sankey link is clicked

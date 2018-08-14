@@ -5,7 +5,7 @@ The **Sankey** widget has an adaptive layout that enables the widget to hide opt
 
     <!--JavaScript-->
     $(function() {
-        $('#sankeyContainer').dxSankey({
+        $("#sankeyContainer").dxSankey({
             // ...
             adaptiveLayout: {
                 height: 300,
@@ -21,7 +21,7 @@ The **Sankey** widget has an adaptive layout that enables the widget to hide opt
     </dx-sankey>
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
+    import { DxSankeyModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -44,13 +44,13 @@ The layout does not automatically adapt if the widget's container is resized at 
 ##### jQuery
 
     <!--JavaScript-->
-    $('#sankeyContainer').dxSankey('render');
+    $("#sankeyContainer").dxSankey("render");
 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxSankeyModule, DxSankeyComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxSankeyModule, DxSankeyComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxSankeyComponent) sankey: DxSankeyComponent;

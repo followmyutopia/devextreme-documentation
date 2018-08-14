@@ -4,37 +4,37 @@ To bind the **Sankey** to an array, pass this array to the [dataSource](/Documen
 ##### jQuery
 
     <!--JavaScript-->var sankeyData = [
-        { from: 'Brazil', to: 'Spain', weight: 4 },
-        { from: 'Brazil', to: 'Portugal', weight: 5 },
-        { from: 'Brazil', to: 'England', weight: 2 },
-        { from: 'Canada', to: 'Portugal', weight: 2 },
-        { from: 'Canada', to: 'England', weight: 1 },
-        { from: 'Mexico', to: 'Portugal', weight: 9 },
-        { from: 'Mexico', to: 'Spain', weight: 5 }
+        { from: "Brazil", to: "Spain", weight: 4 },
+        { from: "Brazil", to: "Portugal", weight: 5 },
+        { from: "Brazil", to: "England", weight: 2 },
+        { from: "Canada", to: "Portugal", weight: 2 },
+        { from: "Canada", to: "England", weight: 1 },
+        { from: "Mexico", to: "Portugal", weight: 9 },
+        { from: "Mexico", to: "Spain", weight: 5 }
     ];
 
-    $(function () {
-        $('#sankeyContainer').dxSankey({
+    $(function() {
+        $("#sankeyContainer").dxSankey({
             dataSource: sankeyData,
-            sourceField: 'from',
-            targetField: 'to'
+            sourceField: "from",
+            targetField: "to"
         });
     });
 
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
+    import { DxSankeyModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         sankeyData: Array<{ from: string, to: string, weight: number }> = [
-            { from: 'Brazil', to: 'Spain', weight: 4 },
-            { from: 'Brazil', to: 'Portugal', weight: 5 },
-            { from: 'Brazil', to: 'England', weight: 2 },
-            { from: 'Canada', to: 'Portugal', weight: 2 },
-            { from: 'Canada', to: 'England', weight: 1 },
-            { from: 'Mexico', to: 'Portugal', weight: 9 },
-            { from: 'Mexico', to: 'Spain', weight: 5 }
+            { from: "Brazil", to: "Spain", weight: 4 },
+            { from: "Brazil", to: "Portugal", weight: 5 },
+            { from: "Brazil", to: "England", weight: 2 },
+            { from: "Canada", to: "Portugal", weight: 2 },
+            { from: "Canada", to: "England", weight: 1 },
+            { from: "Mexico", to: "Portugal", weight: 9 },
+            { from: "Mexico", to: "Spain", weight: 5 }
         ];
     }
     @NgModule({
@@ -60,39 +60,39 @@ You can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Conce
 ##### jQuery
 
     <!--JavaScript-->var sankeyData = [
-        { source: 'Brazil', target: 'Spain', weight: 4 },
-        { source: 'Brazil', target: 'Portugal', weight: 5 },
-        { source: 'Brazil', target: 'England', weight: 2 },
-        { source: 'Canada', target: 'Portugal', weight: 2 },
-        { source: 'Canada', target: 'England', weight: 1 },
-        { source: 'Mexico', target: 'Portugal', weight: 9 },
-        { source: 'Mexico', target: 'Spain', weight: 5 }
+        { source: "Brazil", target: "Spain", weight: 4 },
+        { source: "Brazil", target: "Portugal", weight: 5 },
+        { source: "Brazil", target: "England", weight: 2 },
+        { source: "Canada", target: "Portugal", weight: 2 },
+        { source: "Canada", target: "England", weight: 1 },
+        { source: "Mexico", target: "Portugal", weight: 9 },
+        { source: "Mexico", target: "Spain", weight: 5 }
     ];
 
-    $(function () {
-        $('#sankeyContainer').dxSankey({
-            dataSource: DevExpress.data.query(sankeyData).filter([ 'weight', '>', 3 ]).toArray()
+    $(function() {
+        $("#sankeyContainer").dxSankey({
+            dataSource: DevExpress.data.query(sankeyData).filter([ "weight", ">", 3 ]).toArray()
         });
     });
 
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
-    import query from 'devextreme/data/query';
+    import { DxSankeyModule } from "devextreme-angular";
+    import query from "devextreme/data/query";
     // ...
     export class AppComponent {
         sankeyData: Array<{ source: string, target: string, weight: number }> = [
-            { source: 'Brazil', target: 'Spain', weight: 4 },
-            { source: 'Brazil', target: 'Portugal', weight: 5 },
-            { source: 'Brazil', target: 'England', weight: 2 },
-            { source: 'Canada', target: 'Portugal', weight: 2 },
-            { source: 'Canada', target: 'England', weight: 1 },
-            { source: 'Mexico', target: 'Portugal', weight: 9 },
-            { source: 'Mexico', target: 'Spain', weight: 5 }
+            { source: "Brazil", target: "Spain", weight: 4 },
+            { source: "Brazil", target: "Portugal", weight: 5 },
+            { source: "Brazil", target: "England", weight: 2 },
+            { source: "Canada", target: "Portugal", weight: 2 },
+            { source: "Canada", target: "England", weight: 1 },
+            { source: "Mexico", target: "Portugal", weight: 9 },
+            { source: "Mexico", target: "Spain", weight: 5 }
         ];
         getFilteredData() {
-            return query(this.sankeyData).filter([ 'weight', '>', 3 ]).toArray();
+            return query(this.sankeyData).filter([ "weight", ">", 3 ]).toArray();
         }
     }
     @NgModule({

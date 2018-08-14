@@ -8,14 +8,14 @@ Options that configure tooltips are collected in the [tooltip](/Documentation/Ap
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $('#sankeyContainer').dxSankey({
+        $("#sankeyContainer").dxSankey({
             // ...
             tooltip: {
-                color: 'yellow',
+                color: "yellow",
                 // Tooltips of all nodes with outgoing weight less than 1 turn red
                 // Other tooltips remain yellow
-                customizeNodeTooltip: function (nodeInfo) {
-                    return nodeInfo.weightOut < 1 ? { color: 'red' } : { }
+                customizeNodeTooltip: function(nodeInfo) {
+                    return nodeInfo.weightOut < 1 ? { color: "red" } : { }
                 }
             }
         });
@@ -31,13 +31,13 @@ Options that configure tooltips are collected in the [tooltip](/Documentation/Ap
     </dx-sankey>
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
+    import { DxSankeyModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // Tooltips of all nodes with outgoing weight less than 1 turn red
         // Other tooltips remain yellow
         sankey_customizeNodeTooltip (nodeInfo) {
-            return nodeInfo.weightOut < 1 ? { color: 'red' } : { }
+            return nodeInfo.weightOut < 1 ? { color: "red" } : { }
         }
     }
     @NgModule({

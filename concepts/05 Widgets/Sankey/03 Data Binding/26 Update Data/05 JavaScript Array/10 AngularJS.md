@@ -10,16 +10,16 @@ Declare two-way binding between the [dataSource](/Documentation/ApiReference/Dat
     </div>
 
     <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function ($scope) {
+    angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function($scope) {
             $scope.sankeyData = [
-                { source: 'Brazil', target: 'Spain', weight: 4 },
-                { source: 'Brazil', target: 'Portugal', weight: 5 },
-                { source: 'Brazil', target: 'England', weight: 2 },
-                { source: 'Canada', target: 'Portugal', weight: 2 },
-                { source: 'Canada', target: 'England', weight: 1 },
-                { source: 'Mexico', target: 'Portugal', weight: 9 },
-                { source: 'Mexico', target: 'Spain', weight: 5 }
+                { source: "Brazil", target: "Spain", weight: 4 },
+                { source: "Brazil", target: "Portugal", weight: 5 },
+                { source: "Brazil", target: "England", weight: 2 },
+                { source: "Canada", target: "Portugal", weight: 2 },
+                { source: "Canada", target: "England", weight: 1 },
+                { source: "Mexico", target: "Portugal", weight: 9 },
+                { source: "Mexico", target: "Spain", weight: 5 }
             ];
         });
 

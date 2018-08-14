@@ -4,34 +4,34 @@ To bind the **Sankey** to data from an OData service, use the [ODataStore](/Docu
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $('#sankeyContainer').dxSankey({
+        $("#sankeyContainer").dxSankey({
             dataSource: new DevExpress.data.DataSource({
                 store: {
-                    type: 'odata',
-                    url: 'http://www.example.com/dataservices/odata/targetData',
-                    key: ['from', 'to']
+                    type: "odata",
+                    url: "http://www.example.com/dataservices/odata/targetData",
+                    key: ["from", "to"]
                 },
                 paginate: false
             }),
-            sourceField: 'from',
-            targetField: 'to',
-            weightField: 'amount'
+            sourceField: "from",
+            targetField: "to",
+            weightField: "amount"
         });
     });
 
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
-    import 'devextreme/data/odata/store';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxSankeyModule } from "devextreme-angular";
+    import "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         sankeyDataSource: DataSource = new DataSource({
             store: {
-                type: 'odata',
-                url: 'http://www.example.com/dataservices/odata/targetData',
-                key: ['from', 'to']
+                type: "odata",
+                url: "http://www.example.com/dataservices/odata/targetData",
+                key: ["from", "to"]
             },
             paginate: false
         });
@@ -60,43 +60,43 @@ The **DataSource** can also be used for data processing. In the following exampl
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $('#sankeyContainer').dxSankey({
+        $("#sankeyContainer").dxSankey({
             dataSource: new DevExpress.data.DataSource({
                 store: {
-                    type: 'odata',
-                    url: 'http://www.example.com/dataservices/odata/targetData',
-                    key: ['from', 'to']
+                    type: "odata",
+                    url: "http://www.example.com/dataservices/odata/targetData",
+                    key: ["from", "to"]
                 },
                 paginate: false,
                 filter: [
-                    [ 'amount', '>=', 6 ],
-                    [ 'amount', '<=', 8 ]
+                    [ "amount", ">=", 6 ],
+                    [ "amount", "<=", 8 ]
                 ]
             }),
-            sourceField: 'from',
-            targetField: 'to',
-            weightField: 'amount'
+            sourceField: "from",
+            targetField: "to",
+            weightField: "amount"
         });
     });
 
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
-    import 'devextreme/data/odata/store';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxSankeyModule } from "devextreme-angular";
+    import "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         sankeyDataSource: DataSource = new DataSource({
             store: {
-                type: 'odata',
-                url: 'http://www.example.com/dataservices/odata/targetData',
-                key: ['from', 'to']
+                type: "odata",
+                url: "http://www.example.com/dataservices/odata/targetData",
+                key: ["from", "to"]
             },
             paginate: false,
             filter: [
-                [ 'amount', '>=', 6 ],
-                [ 'amount', '<=', 8 ]
+                [ "amount", ">=", 6 ],
+                [ "amount", "<=", 8 ]
             ]
         });
     }

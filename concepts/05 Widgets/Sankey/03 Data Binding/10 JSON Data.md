@@ -4,11 +4,11 @@ To bind the **Sankey** to data in a JSON format, assign the data's URL to the [d
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $('#sankeyContainer').dxSankey({
-            dataSource: 'http://www.example.com/dataservices/data.json',
-            sourceField: 'from',
-            targetField: 'to',
-            weightField: 'amount'
+        $("#sankeyContainer").dxSankey({
+            dataSource: "http://www.example.com/dataservices/data.json",
+            sourceField: "from",
+            targetField: "to",
+            weightField: "amount"
         });
     });
 
@@ -23,7 +23,7 @@ To bind the **Sankey** to data in a JSON format, assign the data's URL to the [d
     </dx-sankey>
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
+    import { DxSankeyModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -44,11 +44,11 @@ Note that you can also use a [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/)
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $('#sankeyContainer').dxSankey({
-            dataSource: 'http://www.example.com/dataservices/jsonpdata?callback=?',
-            sourceField: 'from',
-            targetField: 'to',
-            weightField: 'amount'
+        $("#sankeyContainer").dxSankey({
+            dataSource: "http://www.example.com/dataservices/jsonpdata?callback=?",
+            sourceField: "from",
+            targetField: "to",
+            weightField: "amount"
         });
     });
 
@@ -63,7 +63,7 @@ Note that you can also use a [jQuery.ajax()](http://api.jquery.com/jQuery.ajax/)
     </dx-sankey>
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
+    import { DxSankeyModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

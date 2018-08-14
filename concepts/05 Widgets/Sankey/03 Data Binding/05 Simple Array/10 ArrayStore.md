@@ -4,22 +4,22 @@ You can place a JavaScript array in an [ArrayStore](/Documentation/ApiReference/
 ##### jQuery
 
     <!--JavaScript-->var sankeyData = [
-        { source: 'Brazil', target: 'Spain', weight: 4 },
-        { source: 'Brazil', target: 'Portugal', weight: 5 },
-        { source: 'Brazil', target: 'England', weight: 2 },
-        { source: 'Canada', target: 'Portugal', weight: 2 },
-        { source: 'Canada', target: 'England', weight: 1 },
-        { source: 'Mexico', target: 'Portugal', weight: 9 },
-        { source: 'Mexico', target: 'Spain', weight: 5 }
+        { source: "Brazil", target: "Spain", weight: 4 },
+        { source: "Brazil", target: "Portugal", weight: 5 },
+        { source: "Brazil", target: "England", weight: 2 },
+        { source: "Canada", target: "Portugal", weight: 2 },
+        { source: "Canada", target: "England", weight: 1 },
+        { source: "Mexico", target: "Portugal", weight: 9 },
+        { source: "Mexico", target: "Spain", weight: 5 }
     ];
 
-    $(function () {
-        $('#sankeyContainer').dxSankey({
+    $(function() {
+        $("#sankeyContainer").dxSankey({
             dataSource: new DevExpress.data.DataSource({
                 store: {
-                    type: 'array',
+                    type: "array",
                     data: sankeyData,
-                    onLoaded: function () {
+                    onLoaded: function() {
                         // Event handling commands go here
                     }
                 },
@@ -31,23 +31,23 @@ You can place a JavaScript array in an [ArrayStore](/Documentation/ApiReference/
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import 'devextreme/data/array_store'
+    import { DxSankeyModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import "devextreme/data/array_store";
     // ...
     export class AppComponent {
         sankeyData: Array<{ source: string, target: string, weight: number }> = [
-            { source: 'Brazil', target: 'Spain', weight: 4 },
-            { source: 'Brazil', target: 'Portugal', weight: 5 },
-            { source: 'Brazil', target: 'England', weight: 2 },
-            { source: 'Canada', target: 'Portugal', weight: 2 },
-            { source: 'Canada', target: 'England', weight: 1 },
-            { source: 'Mexico', target: 'Portugal', weight: 9 },
-            { source: 'Mexico', target: 'Spain', weight: 5 }
+            { source: "Brazil", target: "Spain", weight: 4 },
+            { source: "Brazil", target: "Portugal", weight: 5 },
+            { source: "Brazil", target: "England", weight: 2 },
+            { source: "Canada", target: "Portugal", weight: 2 },
+            { source: "Canada", target: "England", weight: 1 },
+            { source: "Mexico", target: "Portugal", weight: 9 },
+            { source: "Mexico", target: "Spain", weight: 5 }
         ];
         sankeyDataSource: DataSource = new DataSource({
             store: {
-                type: 'array',
+                type: "array",
                 data: this.sankeyData,
                 onLoaded: () => {
                     // Event handling commands go here
@@ -76,20 +76,20 @@ The **DataSource** can also be used for data processing. In the following exampl
 ##### jQuery
 
     <!--JavaScript-->var sankeyArray = [
-        [ 'Brazil', 'Spain', 4 ],
-        [ 'Brazil', 'Portugal', 5 ],
-        [ 'Brazil', 'England', 2 ],
-        [ 'Canada', 'Portugal', 2 ],
-        [ 'Canada', 'England', 1 ],
-        [ 'Mexico', 'Portugal', 9 ],
-        [ 'Mexico', 'Spain', 5 ]
+        [ "Brazil", "Spain", 4 ],
+        [ "Brazil", "Portugal", 5 ],
+        [ "Brazil", "England", 2 ],
+        [ "Canada", "Portugal", 2 ],
+        [ "Canada", "England", 1 ],
+        [ "Mexico", "Portugal", 9 ],
+        [ "Mexico", "Spain", 5 ]
     ];
     
-    $(function () {
-        $('#sankeyContainer').dxSankey({
+    $(function() {
+        $("#sankeyContainer").dxSankey({
             dataSource: new DevExpress.data.DataSource({
                 store: sankeyArray,
-                map: function (item) {
+                map: function(item) {
                     return {
                         source: item[0],
                         target: item[1],
@@ -104,18 +104,18 @@ The **DataSource** can also be used for data processing. In the following exampl
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxSankeyModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         sankeyArray: Array<any> = [
-            [ 'Brazil', 'Spain', 4 ],
-            [ 'Brazil', 'Portugal', 5 ],
-            [ 'Brazil', 'England', 2 ],
-            [ 'Canada', 'Portugal', 2 ],
-            [ 'Canada', 'England', 1 ],
-            [ 'Mexico', 'Portugal', 9 ],
-            [ 'Mexico', 'Spain', 5 ]
+            [ "Brazil", "Spain", 4 ],
+            [ "Brazil", "Portugal", 5 ],
+            [ "Brazil", "England", 2 ],
+            [ "Canada", "Portugal", 2 ],
+            [ "Canada", "England", 1 ],
+            [ "Mexico", "Portugal", 9 ],
+            [ "Mexico", "Spain", 5 ]
         ];
         sankeyDataSource: DataSource = new DataSource({
             store: this.sankeyArray,

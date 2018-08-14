@@ -6,40 +6,40 @@ To access a server that uses another technology, configure the **CustomStore** m
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $('#sankeyContainer').dxSankey({
+        $("#sankeyContainer").dxSankey({
             dataSource: new DevExpress.data.DataSource({
                 store: new DevExpress.data.CustomStore({
-                    loadMode: 'raw',   
-                    load: function () {
-                        return $.getJSON('https://mydomain.com/MyDataService');
+                    loadMode: "raw",   
+                    load: function() {
+                        return $.getJSON("https://mydomain.com/MyDataService");
                     }
                 }),
                 paginate: false
             }),
-            sourceField: 'from',
-            targetField: 'to',
-            weightField: 'amount'
+            sourceField: "from",
+            targetField: "to",
+            weightField: "amount"
         });
     });
 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule } from '@angular/common/http';
-    import { DxSankeyModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule } from "@angular/common/http";
+    import { DxSankeyModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent {
         sankeyDataSource: DataSource;
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
             this.sankeyDataSource = new DataSource({
                 store: new CustomStore({
-                    loadMode: 'raw',
+                    loadMode: "raw",
                     load: () => {
-                        return httpClient.get('https://mydomain.com/MyDataService')
+                        return httpClient.get("https://mydomain.com/MyDataService")
                             .toPromise();
                     }
                 }),
@@ -88,39 +88,39 @@ The following example shows how to make a query for data:
 ##### jQuery
 
     <!--JavaScript-->$(function() {
-        $('#sankeyContainer').dxSankey({
+        $("#sankeyContainer").dxSankey({
             dataSource: new DevExpress.data.DataSource({
-                load: function (loadOptions) {
+                load: function(loadOptions) {
                     var d = $.Deferred();
-                    $.getJSON('https://mydomain.com/MyDataService', {
-                        sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : '',
-                        filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : '',
-                        searchExpr: loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : '',
+                    $.getJSON("https://mydomain.com/MyDataService", {
+                        sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
+                        filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
+                        searchExpr: loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "",
                         searchOperation: loadOptions.searchOperation,
                         searchValue: loadOptions.searchValue
                     }).done(function(result) {
-                            // Here, you can perform operations unsupported by the server
+                            // Here you can perform operations the server does not support
                             // or any other operations on the retrieved data
                             d.resolve(result.data);
                         });
                     return d.promise();
                 }
             }),
-            sourceField: 'from',
-            targetField: 'to',
-            weightField: 'amount'
+            sourceField: "from",
+            targetField: "to",
+            weightField: "amount"
         });
     });
 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
-    import { DxSankeyModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule, HttpParams } from "@angular/common/http";
+    import { DxSankeyModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent {
         sankeyDataSource: DataSource;
@@ -129,12 +129,12 @@ The following example shows how to make a query for data:
                 store: new CustomStore({
                     load: (loadOptions) => {
                         let params: HttpParams = new HttpParams()
-                            .set('sort', loadOptions.sort ? JSON.stringify(loadOptions.sort) : '')
-                            .set('filter', loadOptions.filter ? JSON.stringify(loadOptions.filter) : '')
-                            .set('searchExpr', loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : '')
-                            .set('searchOperation', loadOptions.searchOperation)
-                            .set('searchValue', loadOptions.searchValue);
-                        return httpClient.get('https://mydomain.com/MyDataService', {
+                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
+                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
+                            .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
+                            .set("searchOperation", loadOptions.searchOperation)
+                            .set("searchValue", loadOptions.searchValue);
+                        return httpClient.get("https://mydomain.com/MyDataService", {
                                 params: params
                             })
                             .toPromise()
