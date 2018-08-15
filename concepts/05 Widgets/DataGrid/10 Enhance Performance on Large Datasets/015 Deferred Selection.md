@@ -16,7 +16,7 @@ Use the deferred mode to increase the **DataGrid**'s performance when [selecting
                 }
             },
             selection: {
-                mode: 'multiple',
+                mode: "multiple",
                 allowSelectAll: true,
                 deferred: true
             }
@@ -35,8 +35,8 @@ Use the deferred mode to increase the **DataGrid**'s performance when [selecting
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
-    import 'devextreme/data/odata/store';
+    import { DxDataGridModule } from "devextreme-angular";
+    import "devextreme/data/odata/store";
     // ...
     export class AppComponent {
         dataSource = {
@@ -81,11 +81,11 @@ The following tasks require using different API in the deferred mode comparing w
 
         <!--HTML-->
         <dx-data-grid ...
-            selectionFilter="['Task_Status', '=', 'Completed']">
+            [selectionFilter]="['Task_Status', '=', 'Completed']">
         </dx-data-grid>
 
         <!--TypeScript-->
-        import { DxDataGridModule } from 'devextreme-angular';
+        import { DxDataGridModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -120,9 +120,9 @@ The following tasks require using different API in the deferred mode comparing w
     #####Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { HttpClient, HttpClientModule } from '@angular/common/http';
-        import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { HttpClient, HttpClientModule } from "@angular/common/http";
+        import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
@@ -130,7 +130,7 @@ The following tasks require using different API in the deferred mode comparing w
             sendSelectedRows() {
                 var selectionFilter = this.dataGrid.instance.option("selectionFilter");
                 this.httpClient
-                    .post('url/to/data/processing/method',  
+                    .post("url/to/data/processing/method",  
                     "filter: " + (selectionFilter ? JSON.stringify(selectionFilter) : null)
                     )
                     .subscribe();
