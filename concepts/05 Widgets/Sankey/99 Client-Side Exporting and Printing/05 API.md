@@ -1,4 +1,4 @@
-To export the widget usштп the API, call the [exportTo(fileName, format)](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Methods/#exportTofileName_format) method and pass the file name and format (*"PNG"*, *"PDF"*, *"JPEG"*, *"SVG"* or *"GIF"*) as the arguments. Call the [print()](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Methods/#print) method to print the widget. This command opens the browser's **Print** window.
+To export the widget using the API, call the [exportTo(fileName, format)](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Methods/#exportTofileName_format) method and pass the file name and format (*"PNG"*, *"PDF"*, *"JPEG"*, *"SVG"* or *"GIF"*) as the arguments. Call the [print()](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Methods/#print) method to print the widget. This command opens the browser's **Print** window.
 
 ---
 ##### jQuery
