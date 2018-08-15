@@ -8,19 +8,18 @@ Holds an array of form items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The array passed to this option can hold items of the following types.
-
-- [Simple](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/)  
- A standard item consisting of a label and an editor widget used to specify a value of the associated data field. See [demo](/Demos/WidgetsGallery/Demo/Form/CustomizeItem/jQuery/Light/).
-
-- [Group](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/)  
- An item representing a container of another form items. See [demo](/Demos/WidgetsGallery/Demo/Form/GroupedFields/jQuery/Light/).
-
-- [Tabbed](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/)  
- An item representing a tabbed container of another form items. See [demo](/Demos/WidgetsGallery/Demo/Form/GroupedFields/jQuery/Light/).
-
-- [Empty](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/EmptyItem/)  
- An empty item used to add a space between neighboring items.
+#include common-demobutton-named with {
+    name: "Simple Items",
+    url: "/Demos/WidgetsGallery/Demo/Form/CustomizeItem/jQuery/Light/"
+}
+#include common-demobutton-named with {
+    name: "Grouped and Tabbed Items",
+    url: "/Demos/WidgetsGallery/Demo/Form/GroupedFields/jQuery/Light/"
+}
+#include common-demobutton-named with {
+    name: "Button Item",
+    url: "/Demos/WidgetsGallery/Demo/Form/Validation/jQuery/Light/"
+}
 
 When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), declare the items in the following manner.
 
@@ -44,6 +43,11 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
                     tabs.Add().Title("Phone")
                         // ...
                 });
+            rootItems.AddButton() // Adds a button item
+                .ButtonOptions(b => b.Text("Register")
+                    .Type(ButtonType.Success)
+                    .UseSubmitBehavior(true)
+                );
         })
     )
 
@@ -69,6 +73,14 @@ When using the widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_M
                     tabs.Add().Title("Phone")
                         ' ...
                 End Sub)
+            ' Adds a button item
+            rootItems.AddButton() _
+                .ButtonOptions(Sub(b)
+                    b.Text("Register") _
+                     .Type(ButtonType.Success) _
+                     .UseSubmitBehavior(True)
+                End Sub)
         End Sub)
     )
+    
 <!--/fullDescription-->
