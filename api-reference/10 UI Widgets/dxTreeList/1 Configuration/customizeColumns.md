@@ -26,7 +26,7 @@ Use this function to make minor adjustments to automatically generated columns. 
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeColumns (columns) {

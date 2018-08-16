@@ -11,14 +11,14 @@ Specifies the current check boxes display mode.
 <!--fullDescription-->
 The option accepts the following values.
 
-- 'none'  
+- "none"  
  The widget does not display check boxes.
 
-- 'normal'  
+- "normal"  
  The widget displays a check box for each item.
 
-- 'selectAll'  
- The widget displays a check box for each item and the 'select all' check box at the top of the widget.
+- "selectAll"  
+ The widget displays a check box for each item and the "select all" check box at the top of the widget.
 
 #include common-ref-enum with {
     enum: "`TreeViewCheckBoxMode`",

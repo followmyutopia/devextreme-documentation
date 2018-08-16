@@ -31,7 +31,7 @@ This option also controls the user input in cells that use the [DateBox](/Docume
 #####Angular
 
     <!--TypeScript-->
-    import { DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fields = [{

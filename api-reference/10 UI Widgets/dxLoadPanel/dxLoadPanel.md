@@ -39,7 +39,7 @@ The **LoadPanel** is an overlay widget notifying the viewer that loading is in p
     </dx-load-panel>
 
     <!--TypeScript-->
-    import { DxLoadPanelModule } from 'devextreme-angular';
+    import { DxLoadPanelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         isLoadPanelVisible = true;
@@ -63,8 +63,8 @@ The **LoadPanel** is an overlay widget notifying the viewer that loading is in p
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function DemoController($scope) {
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function DemoController($scope) {
             $scope.isLoadPanelVisible = true;
         });
 

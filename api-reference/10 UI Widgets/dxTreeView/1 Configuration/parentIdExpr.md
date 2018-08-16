@@ -9,7 +9,7 @@ Specifies the name of the data source item field for holding the parent key of t
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option is used if the [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) option is set to 'plain'.
+This option is used if the [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) option is set to "plain".
 
 
 

@@ -51,7 +51,7 @@ The row's data.
 <!--typeFunctionParamName1_field7-->key<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->any<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The row's key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.       
+The row's key. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.       
 For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->values<!--/typeFunctionParamName1_field8-->
@@ -77,12 +77,12 @@ The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType)
 <!--typeFunctionParamName1_field12-->isSelected<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->Boolean<!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-Indicates whether the row is selected. Available if **rowType** is *'data'* or *'detail'*.
+Indicates whether the row is selected. Available if **rowType** is *"data"* or *"detail"*.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->isExpanded<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->Boolean<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-Indicates whether the row is expanded or collapsed. Available if **rowType** is *'data'* or *'detail'*.
+Indicates whether the row is expanded or collapsed. Available if **rowType** is *"data"* or *"detail"*.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->rowElement<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->dxElement<!--/typeFunctionParamType1_field14-->

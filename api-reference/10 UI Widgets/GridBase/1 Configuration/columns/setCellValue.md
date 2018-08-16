@@ -34,7 +34,7 @@ Using this function, you can process user input before it is saved to the data s
 ##### Angular
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         setCellValue (newData, value, currentRowData) {

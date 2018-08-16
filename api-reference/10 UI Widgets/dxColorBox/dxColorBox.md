@@ -22,7 +22,7 @@ The **ColorBox** is a widget that allows an end user to enter a color or pick it
 
     <!--JavaScript-->$(function () {
         $("#colorBox").dxColorBox({
-            value: 'rgba(255, 144, 0, 0.3)',
+            value: "rgba(255, 144, 0, 0.3)",
             editAlphaChannel: true
         });
     });
@@ -38,7 +38,7 @@ The **ColorBox** is a widget that allows an end user to enter a color or pick it
     </dx-color-box>
 
     <!--TypeScript-->
-    import { DxColorBoxModule } from 'devextreme-angular';
+    import { DxColorBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

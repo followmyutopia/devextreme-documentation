@@ -25,7 +25,7 @@ The **NumberBox** is a widget that displays a numeric value and allows a user to
             value: 20,
             min: 16,
             max: 100,
-            placeholder: 'Enter your age'
+            placeholder: "Enter your age"
         });
     });
 
@@ -43,7 +43,7 @@ The **NumberBox** is a widget that displays a numeric value and allows a user to
     </dx-number-box>
 
     <!--TypeScript-->
-    import { DxNumberBoxModule } from 'devextreme-angular';
+    import { DxNumberBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

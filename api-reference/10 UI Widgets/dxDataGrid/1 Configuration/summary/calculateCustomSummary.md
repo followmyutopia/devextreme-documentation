@@ -7,7 +7,7 @@ Allows you to use a custom aggregate function to calculate the value of a summar
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If [predefined aggregate functions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType) do not meet your requirements, implement a custom one and assign it to the **calculateCustomSummary** option. This function will be called for each summary item whose **summaryType** property is set to *'custom'*.
+If [predefined aggregate functions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType) do not meet your requirements, implement a custom one and assign it to the **calculateCustomSummary** option. This function will be called for each summary item whose **summaryType** property is set to *"custom"*.
 
 When implementing the function, you can access useful information through the object passed to this function as its argument. Use the **name** field of this object to identify the summary item. 
 
@@ -26,25 +26,25 @@ The following code demonstrates a general structure of the **calculateCustomSumm
             // ...
             summary: {
                 totalItems: [
-                    { summaryType: 'custom', name: 'CustomSummary1' },
-                    { summaryType: 'custom', name: 'CustomSummary2' }
+                    { summaryType: "custom", name: "CustomSummary1" },
+                    { summaryType: "custom", name: "CustomSummary2" }
                 ],
                 calculateCustomSummary: function (options) {
                     // Calculating "CustomSummary1"
-                    if (options.name == 'CustomSummary1') {
-                        if (options.summaryProcess == 'start') {
+                    if (options.name == "CustomSummary1") {
+                        if (options.summaryProcess == "start") {
                             // Initializing "totalValue" here
                         }
-                        if (options.summaryProcess == 'calculate') {
+                        if (options.summaryProcess == "calculate") {
                             // Modifying "totalValue" here
                         }
-                        if (options.summaryProcess == 'finalize') {
+                        if (options.summaryProcess == "finalize") {
                             // Assigning the final value to "totalValue" here
                         }
                     }
 
                     // Calculating "CustomSummary2"
-                    if (options.name == 'CustomSummary2') {
+                    if (options.name == "CustomSummary2") {
                         // ...
                         // Same "if" statements here
                     }
@@ -70,25 +70,25 @@ The following code demonstrates a general structure of the **calculateCustomSumm
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         calculateSummary (options) {
             // Calculating "CustomSummary1"
-            if (options.name == 'CustomSummary1') {
-                if (options.summaryProcess == 'start') {
+            if (options.name == "CustomSummary1") {
+                if (options.summaryProcess == "start") {
                     // Initializing "totalValue" here
                 }
-                if (options.summaryProcess == 'calculate') {
+                if (options.summaryProcess == "calculate") {
                     // Modifying "totalValue" here
                 }
-                if (options.summaryProcess == 'finalize') {
+                if (options.summaryProcess == "finalize") {
                     // Assigning the final value to "totalValue" here
                 }
             }
 
             // Calculating "CustomSummary2"
-            if (options.name == 'CustomSummary2') {
+            if (options.name == "CustomSummary2") {
                 // ...
                 // Same "if" statements here
             }
@@ -129,7 +129,7 @@ The summary item's [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Conf
 <!--typeFunctionParamName1_field3-->summaryProcess<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->String<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-Indicates the stage of the summary item calculation; equals *'start'*, *'calculate'* or *'finalize'*.
+Indicates the stage of the summary item calculation; equals *"start"*, *"calculate"* or *"finalize"*.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->value<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->any<!--/typeFunctionParamType1_field4-->

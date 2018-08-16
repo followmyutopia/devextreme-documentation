@@ -72,7 +72,7 @@ The **Pivot** provides a quick way to manage multiple views. It includes a colle
     </dx-pivot>
 
     <!--TypeScript-->
-    import { DxPivotModule } from 'devextreme-angular';
+    import { DxPivotModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         pivotItems = [{
@@ -103,7 +103,7 @@ The **Pivot** provides a quick way to manage multiple views. It includes a colle
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.pivotItems = [{
                 title: "Item 1 Title",

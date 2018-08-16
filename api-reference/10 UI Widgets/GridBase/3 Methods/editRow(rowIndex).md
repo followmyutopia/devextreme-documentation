@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Switches a row with a specific index to the editing state. Takes effect only if the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *'row'*, *'popup'* or *'form'*.
+Switches a row with a specific index to the editing state. Takes effect only if the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *"row"*, *"popup"* or *"form"*.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->

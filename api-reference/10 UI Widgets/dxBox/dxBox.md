@@ -31,9 +31,9 @@ The **Box** widget allows you to arrange various elements within it. Separate an
 
     <!--JavaScript-->$(function () {
         $("#box").dxBox({
-            direction: 'row',
-            height: '70%',
-            width: '90%'
+            direction: "row",
+            height: "70%",
+            width: "90%"
         });
     });
 
@@ -65,7 +65,7 @@ The **Box** widget allows you to arrange various elements within it. Separate an
     </dx-box>
 
     <!--TypeScript-->
-    import { DxBoxModule } from 'devextreme-angular';
+    import { DxBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

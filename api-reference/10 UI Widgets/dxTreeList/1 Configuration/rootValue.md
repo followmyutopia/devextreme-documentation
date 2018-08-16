@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the root node's identifier. Applies if [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataStructure) is *'plain'*.
+Specifies the root node's identifier. Applies if [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataStructure) is *"plain"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

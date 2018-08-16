@@ -68,17 +68,17 @@ Unavailable for fields in the [field panel](/Documentation/Guide/Widgets/PivotGr
 <!--typeFunctionParamName1_field10-->dataFields<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->Array<PivotGridDataSource_Options_fields><!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-Fields in the 'data' area.
+Fields in the "data" area.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->rowFields<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->Array<PivotGridDataSource_Options_fields><!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Fields in the 'row' area.
+Fields in the "row" area.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->columnFields<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->Array<PivotGridDataSource_Options_fields><!--/typeFunctionParamType1_field12-->
 <!--typeFunctionParamDescription1_field12-->
-Fields in the 'column' area.
+Fields in the "column" area.
 <!--/typeFunctionParamDescription1_field12-->
 <!--typeFunctionParamName1_field13-->field<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->PivotGridDataSource_Options_fields<!--/typeFunctionParamType1_field13-->

@@ -34,7 +34,7 @@ The **TextBox** is a widget that enables a user to enter and edit a single line 
     <dx-text-box placeholder="Type a text here..."></dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular'
+    import { DxTextBoxModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...

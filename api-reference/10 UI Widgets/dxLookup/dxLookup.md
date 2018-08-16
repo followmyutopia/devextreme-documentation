@@ -41,7 +41,7 @@ The **Lookup** is a widget that allows an end user to search for an item in a co
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [ "Item 1", "Item 2", "Item 3" ];
@@ -63,7 +63,7 @@ The **Lookup** is a widget that allows an end user to search for an item in a co
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.lookupDataSource = [ "Item 1", "Item 2", "Item 3" ];
         });

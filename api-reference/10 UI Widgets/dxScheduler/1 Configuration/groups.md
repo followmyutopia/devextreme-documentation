@@ -15,13 +15,13 @@ The array elements should be strings specifying the **field** field of the resou
 #####jQuery
 
     <!--JavaScript-->var resources = [
-        { field: 'room', dataSource: roomsDataSource },
-        { field: 'teacher', dataSource: teachersDataSource }
+        { field: "room", dataSource: roomsDataSource },
+        { field: "teacher", dataSource: teachersDataSource }
     ];
     var schedulerOptions = {
         dataSource: appointments,
         resources: resources,
-        groups: ['room', 'teacher']
+        groups: ["room", "teacher"]
         //...
     }
 
@@ -35,13 +35,13 @@ The array elements should be strings specifying the **field** field of the resou
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         // ...
         resources = [
-            { field: 'room', dataSource: this.roomsDataSource },
-            { field: 'teacher', dataSource: this.teachersDataSource }
+            { field: "room", dataSource: this.roomsDataSource },
+            { field: "teacher", dataSource: this.teachersDataSource }
         ];
     }
     @NgModule({

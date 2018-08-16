@@ -18,7 +18,7 @@ You should call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/
         masterDetail: {
             enabled: true,
             template: function (container, info) {
-                $('<div>').dxTabPanel({ 
+                $("<div>").dxTabPanel({ 
                     // ...
                     onSelectionChanged: function () {
                         $("#dataGridContainer").dxDataGrid("instance").updateDimensions();
@@ -41,7 +41,7 @@ You should call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxDataGridComponent, DxTabPanelModule } from 'devextreme-angular';
+    import { DxDataGridModule, DxDataGridComponent, DxTabPanelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent

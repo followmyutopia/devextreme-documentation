@@ -46,29 +46,29 @@ The event that caused the handler execution. It is a [dxEvent](/Documentation/Ap
 <!--typeFunctionParamName1_field6-->data<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The data of the row to which the cell belongs. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.
+The data of the row to which the cell belongs. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->key<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->any<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The row's key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.       
+The row's key. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.       
 For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->value<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->any<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The cell's raw value. Available if the **rowType** is *'data'*.
+The cell's raw value. Available if the **rowType** is *"data"*.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->displayValue<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The cell's displayed value. Available if the **rowType** is *'data'*.      
+The cell's displayed value. Available if the **rowType** is *"data"*.      
 Differs from the **value** field only when the cell belongs to the [lookup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/) column. 
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->text<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->String<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#format) value converted to a string. Available if the **rowType** is *'data'*.     
+The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#format) value converted to a string. Available if the **rowType** is *"data"*.     
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->columnIndex<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->Number<!--/typeFunctionParamType1_field11-->
@@ -98,5 +98,5 @@ The cell's container. It is an [HTML Element](https://developer.mozilla.org/en-U
 <!--typeFunctionParamName1_field16-->row<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->dxTreeListRowObject<!--/typeFunctionParamType1_field16-->
 <!--typeFunctionParamDescription1_field16-->
-The row [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/). Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.
+The row [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/). Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
 <!--/typeFunctionParamDescription1_field16-->

@@ -59,7 +59,7 @@ The **DataGrid** is a widget that represents data from a local or remote source 
                 State: "Georgia"
             }],
             keyExpr: "ID",
-            columns: ['CompanyName', 'City', 'State']
+            columns: ["CompanyName", "City", "State"]
         });
     });
 
@@ -77,7 +77,7 @@ The **DataGrid** is a widget that represents data from a local or remote source 
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customers = [{
@@ -110,7 +110,7 @@ The **DataGrid** is a widget that represents data from a local or remote source 
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.customers = [{
                 ID: 1,

@@ -14,8 +14,8 @@ In **Knockout** apps, you may need to inform a user about an error that occurred
     var editorValue = ko.observable("").extend({
         dxValidator: {
             validationRules: [{
-                type: 'required',
-                message: 'Specify this value'
+                type: "required",
+                message: "Specify this value"
             }]
         }
     });

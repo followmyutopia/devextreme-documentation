@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a pattern for the *'count'* summary items.
+Specifies a pattern for the *"count"* summary items.
 <!--/shortDescription-->
 
 <!--fullDescription-->

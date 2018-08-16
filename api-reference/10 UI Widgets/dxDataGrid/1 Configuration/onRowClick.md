@@ -73,7 +73,7 @@ The row's visible index. For details on indexes, see the [Column and Row Indexes
 <!--typeFunctionParamType1_field11-->String<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
 The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGRid/Row/#rowType).
-Can be one of the following: *'data'* for data rows, *'group'* for group rows, *'detail'* for [detail sections](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail), or *"detailAdaptive"* for [adaptive detail rows](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/). 
+Can be one of the following: *"data"* for data rows, *"group"* for group rows, *"detail"* for [detail sections](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail), or *"detailAdaptive"* for [adaptive detail rows](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/). 
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->isSelected<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->Boolean<!--/typeFunctionParamType1_field12-->
@@ -83,12 +83,12 @@ Indicates whether the row is [selected](/Documentation/Guide/Widgets/DataGrid/Se
 <!--typeFunctionParamName1_field13-->isExpanded<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->Boolean<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-Indicates whether or not the group row is expanded. Available if **rowType** is *'group'*.
+Indicates whether or not the group row is expanded. Available if **rowType** is *"group"*.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->groupIndex<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->Number<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex). Available if **rowType** is *'group'*.
+The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex). Available if **rowType** is *"group"*.
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->rowElement<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->dxElement<!--/typeFunctionParamType1_field15-->

@@ -25,9 +25,9 @@ The **Tooltip** widget displays a tooltip for a specified element on the page.
 
     <!--JavaScript-->$(function () {
         $("#tooltip").dxTooltip({
-            target: '#targetElement',
-            showEvent: 'dxhoverstart',
-            hideEvent: 'dxhoverend'
+            target: "#targetElement",
+            showEvent: "dxhoverstart",
+            hideEvent: "dxhoverend"
         });
     });
 
@@ -43,7 +43,7 @@ The **Tooltip** widget displays a tooltip for a specified element on the page.
     </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxTooltipModule } from 'devextreme-angular'
+    import { DxTooltipModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...

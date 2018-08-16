@@ -36,7 +36,7 @@ Commonly, the **dxTemplate** is in the component's (Angular), scope's (AngularJS
     </dx-popup>
 
     <!--TypeScript-->
-    import { DxPopupModule } from 'devextreme-angular';
+    import { DxPopupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {
@@ -77,8 +77,8 @@ Commonly, the **dxTemplate** is in the component's (Angular), scope's (AngularJS
         </div>    
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function DemoController($scope) {
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function DemoController($scope) {
             $scope.employee = {
                 FirstName: "Sandra",
                 LastName: "Johnson",
@@ -136,7 +136,7 @@ When you specify an item template in Knockout apps, you can bind this template's
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [
@@ -172,8 +172,8 @@ When you specify an item template in Knockout apps, you can bind this template's
     </div>
 
     <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function ($scope) {
+    angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function ($scope) {
             $scope.fruits = [
                 { name: "Apples", count: 10 },
                 { name: "Oranges", count: 12 },

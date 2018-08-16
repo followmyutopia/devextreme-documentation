@@ -11,12 +11,12 @@ Specifies the mode in which all the records are selected. Applies only if **sele
 <!--fullDescription-->
 **selectAllMode** specifies how records should be selected on clicking the ["Select All" check box](/Documentation/Guide/Widgets/DataGrid/Selection/#User_Interaction) and by calling the [selectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#selectAll)/[deselectAll()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#deselectAll) methods. The following modes are available.
 
-- *'page'*  
+- *"page"*  
  Selects records on currently rendered pages.       
  
  [note]This mode is incompatible with [deferred selection](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred).
 
-- *'allPages'*  
+- *"allPages"*  
  Selects records on all pages.
 
 #include common-ref-enum with {

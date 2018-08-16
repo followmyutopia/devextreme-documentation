@@ -46,7 +46,7 @@ The **MultiView** is a widget that contains several views. An end user navigates
     <dx-multi-view [items]="multiViewItems"></dx-multi-view>
 
     <!--TypeScript-->
-    import { DxMultiViewModule } from 'devextreme-angular';
+    import { DxMultiViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         multiViewItems = [
@@ -71,7 +71,7 @@ The **MultiView** is a widget that contains several views. An end user navigates
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.multiViewItems = [
                 { text: "View 1" },

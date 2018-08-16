@@ -11,10 +11,10 @@ Specifies the radio group layout.
 <!--fullDescription-->
 The following values are available.
 
-- 'vertical'  
+- "vertical"  
     Radio buttons are arranged vertically - as a column.
 
-- 'horizontal'  
+- "horizontal"  
     Radio buttons are arranged horizontally - as a row.
 
 #include common-ref-enum with {

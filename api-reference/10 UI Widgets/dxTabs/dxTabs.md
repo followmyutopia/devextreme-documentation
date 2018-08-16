@@ -44,7 +44,7 @@ The **Tabs** is a tab strip used to switch between pages or views. This widget i
     <dx-tabs [items]="tabs"></dx-tabs>
 
     <!--TypeScript-->
-    import { DxTabsModule } from 'devextreme-angular'
+    import { DxTabsModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         tabs = [
@@ -69,7 +69,7 @@ The **Tabs** is a tab strip used to switch between pages or views. This widget i
         }"></div>
     /div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.tabs = [
                 { text: "User", icon: "user" },

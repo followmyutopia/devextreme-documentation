@@ -38,7 +38,7 @@ A widget that is used to validate the associated DevExtreme editors against the 
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxValidatorModule, DxTextBoxModule } from 'devextreme-angular'
+    import { DxValidatorModule, DxTextBoxModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...

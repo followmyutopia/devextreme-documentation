@@ -66,7 +66,7 @@ The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType)
 <!--typeFunctionParamName1_field10-->groupIndex<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->Number<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex). Available if **rowType** is *'group'*.
+The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex). Available if **rowType** is *"group"*.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->isSelected<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->Boolean<!--/typeFunctionParamType1_field11-->

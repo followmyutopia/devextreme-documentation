@@ -57,7 +57,7 @@ The **Resizable** widget enables its content to be resizable in the UI.
     }
 
     <!--TypeScript-->
-    import { DxResizableModule } from 'devextreme-angular'
+    import { DxResizableModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...

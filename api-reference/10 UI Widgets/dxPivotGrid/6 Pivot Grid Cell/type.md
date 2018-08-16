@@ -10,11 +10,11 @@ The cell's type. Available for row or column area cells only.
 <!--fullDescription-->
 The **type** field has the following values.
 
-- *'D'*  
+- *"D"*  
     A data field.
-- *'T'*  
+- *"T"*  
     The [Total](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) column/row.
-- *'GT'*  
+- *"GT"*  
     The [Grand total](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) column/row.
 
 <!--/fullDescription-->

@@ -39,8 +39,8 @@ A complementary widget for the [PivotGrid](/Documentation/ApiReference/UI_Widget
     <dx-pivot-grid [dataSource]="pivotGridDataSource"></dx-pivot-grid>
 
     <!--TypeScript-->
-    import { DxPivotGridFieldChooserModule } from 'devextreme-angular';
-    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    import { DxPivotGridFieldChooserModule } from "devextreme-angular";
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
     // ...
     export class AppComponent {
         pivotGridDataSource = new PivotGridDataSource({
@@ -66,7 +66,7 @@ A complementary widget for the [PivotGrid](/Documentation/ApiReference/UI_Widget
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.pivotGridDataSource = new DevExpress.data.PivotGridDataSource({
                 // ...   

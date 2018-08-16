@@ -35,12 +35,12 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The row's data. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.
+The row's data. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The row's key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.      
+The row's key. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.      
 For plain data, the value of the key depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->values<!--/typeFunctionParamName1_field6-->
@@ -66,12 +66,12 @@ The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType)
 <!--typeFunctionParamName1_field10-->isSelected<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->Boolean<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-Indicates whether the row is selected. Available if **rowType** is *'data'* or *'detail'*.
+Indicates whether the row is selected. Available if **rowType** is *"data"* or *"detail"*.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->isExpanded<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->Boolean<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-Indicates whether the row is expanded or collapsed. Available if **rowType** is *'data'* or *'detail'*.
+Indicates whether the row is expanded or collapsed. Available if **rowType** is *"data"* or *"detail"*.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->rowElement<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->dxElement<!--/typeFunctionParamType1_field12-->

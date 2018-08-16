@@ -22,7 +22,7 @@ The following example shows how to save the widget state in the local storage an
             // ...
         }).dx{WidgetName};
         $("#save").dxButton({
-            text: 'Save State',
+            text: "Save State",
             onClick: function() {
                 var state = {widgetName}.state();
                 // Saves the state in the local storage
@@ -30,7 +30,7 @@ The following example shows how to save the widget state in the local storage an
             }
         });
         $("#load").dxButton({
-            text: 'Load State',
+            text: "Load State",
             onClick: function() {
                 let state = JSON.parse(localStorage.getItem("{widgetName}State"));
                 {widgetName}.state(state);
@@ -41,12 +41,12 @@ The following example shows how to save the widget state in the local storage an
 #####Angular
 
     <!--TypeScript-->
-    import { Component, ViewChild } from '@angular/core';
+    import { Component, ViewChild } from "@angular/core";
     import { 
         Dx{WidgetName}Module, 
         DxButtonModule, 
         Dx{WidgetName}Component 
-    } from 'devextreme-angular';
+    } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(Dx{WidgetName}Component) {widgetName}: Dx{WidgetName}Component

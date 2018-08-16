@@ -23,14 +23,14 @@ This widget has a collection of items that present the validation errors that cu
 
     <!--JavaScript-->$(function() {
         var validationGroupName = "sampleGroup";
-        $("#textBox1").dxTextBox({ name: 'FirstName' })
+        $("#textBox1").dxTextBox({ name: "FirstName" })
             .dxValidator({
                 validationRules: [
                     // ...
                 ],
                 validationGroup: validationGroupName
             });
-        $("#textBox2").dxTextBox({ name: 'LastName' })
+        $("#textBox2").dxTextBox({ name: "LastName" })
             .dxValidator({
                 validationRules: [
                     // ...
@@ -42,7 +42,7 @@ This widget has a collection of items that present the validation errors that cu
         });
         $("#button").dxButton({
             validationGroup: validationGroupName,
-            text: 'Validate',
+            text: "Validate",
             onClick: function validate (params) {
                 params.validationGroup.validate();
             }
@@ -78,7 +78,7 @@ This widget has a collection of items that present the validation errors that cu
     </dx-validation-group>
 
     <!--TypeScript-->
-    import { DxValidationSummaryModule, DxValidationGroupModule, DxTextBoxModule, DxButtonModule, DxValidatorModule } from 'devextreme-angular'
+    import { DxValidationSummaryModule, DxValidationGroupModule, DxTextBoxModule, DxButtonModule, DxValidatorModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         validate(params) {
@@ -121,7 +121,7 @@ This widget has a collection of items that present the validation errors that cu
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.validate = function validate (params) {
                 params.validationGroup.validate();

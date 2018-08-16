@@ -55,7 +55,7 @@ The **NavBar** is a widget that navigates the application views.
     </dx-nav-bar>
 
     <!--TypeScript-->
-    import { DxNavBarModule } from 'devextreme-angular';
+    import { DxNavBarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

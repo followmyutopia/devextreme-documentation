@@ -34,7 +34,7 @@ The model data. Available only if Knockout is used.
 <!--typeFunctionParamName1_field4-->location<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The clicked point's location on the map (if the 'google' or 'bing' provider is used).
+The clicked point's location on the map (if the "google" or "bing" provider is used).
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->jQueryEvent<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->jQuery.Event<!--/typeFunctionParamType1_field5-->

@@ -22,7 +22,7 @@ The **CheckBox** is a small box, which when selected by the end user, shows that
 
     <!--JavaScript-->$(function () {
         $("#checkBox").dxCheckBox({
-            text: 'Toggle me',
+            text: "Toggle me",
             value: undefined,
             onValueChanged: function (e) {
                 alert(e.value);
@@ -42,7 +42,7 @@ The **CheckBox** is a small box, which when selected by the end user, shows that
     </dx-check-box>
 
     <!--TypeScript-->
-    import { DxCheckBoxModule } from 'devextreme-angular';
+    import { DxCheckBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         checkBoxToggled(e) {
@@ -67,7 +67,7 @@ The **CheckBox** is a small box, which when selected by the end user, shows that
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.checkBoxToggled = function (e) {
                 alert(e.value);

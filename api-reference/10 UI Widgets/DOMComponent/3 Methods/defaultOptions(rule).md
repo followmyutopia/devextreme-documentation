@@ -39,7 +39,7 @@ Options to be applied.
 #####Angular
 
     <!--TypeScript-->
-    import {WidgetName} from 'devextreme/ui/{widget_name}';
+    import {WidgetName} from "devextreme/ui/{widget_name}";
     // ...
     export class AppComponent {
         constructor () {

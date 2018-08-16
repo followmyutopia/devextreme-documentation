@@ -28,21 +28,21 @@ The main option you should specify when creating a widget is the [dataSource](/D
 
     <!--JavaScript-->
     var toolbarItems = [{
-        widget: 'dxButton',
+        widget: "dxButton",
         options: {
-            type: 'back',
-            text: 'Back'
+            type: "back",
+            text: "Back"
         },
-        location: 'before'
+        location: "before"
     }, {
-        text: 'Add',
-        locateInMenu: 'always'
+        text: "Add",
+        locateInMenu: "always"
     }, {
-        text: 'Change',
-        locateInMenu: 'always'
+        text: "Change",
+        locateInMenu: "always"
     }, {
-        text: 'Products',
-        location: 'center'
+        text: "Products",
+        location: "center"
     }];
 
 #include common-ref-roottopic-introduction
@@ -65,7 +65,7 @@ The main option you should specify when creating a widget is the [dataSource](/D
     <dx-toolbar [items]="toolbarData"></dx-toolbar>
 
     <!--TypeScript-->
-    import { DxToolbarModule, DxButtonModule } from 'devextreme-angular';
+    import { DxToolbarModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         toolbarData = toolbarItems;
@@ -87,8 +87,8 @@ The main option you should specify when creating a widget is the [dataSource](/D
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function DemoController($scope) {
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function DemoController($scope) {
             $scope.toolbarData = toolbarItems;
         });
 

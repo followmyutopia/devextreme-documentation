@@ -14,12 +14,12 @@ The function passed to this option accepts the screen's width as a parameter and
     var responsiveBoxOptions: {
         screenByWidth: function(width) {
             if( width < 768 )
-                return 'xs';
+                return "xs";
             if( width < 992 )
-                return 'sm';
+                return "sm";
             if( width < 1200 )
-                return 'md';
-            return 'lg';
+                return "md";
+            return "lg";
         }
     }
 <!--/fullDescription-->

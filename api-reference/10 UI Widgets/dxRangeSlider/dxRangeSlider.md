@@ -39,7 +39,7 @@ The **RangeSlider** is a widget that allows an end user to choose a range of num
     </dx-range-slider>
 
     <!--TypeScript-->
-    import { DxRangeSliderModule } from 'devextreme-angular'
+    import { DxRangeSliderModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...

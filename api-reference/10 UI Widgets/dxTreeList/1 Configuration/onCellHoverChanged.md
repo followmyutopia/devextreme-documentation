@@ -34,33 +34,33 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->eventType<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Indicates whether the pointer entered or left the cell. Can be either *'mouseover'* or *'mouseout'*.
+Indicates whether the pointer entered or left the cell. Can be either *"mouseover"* or *"mouseout"*.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->data<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The data of the row to which the cell belongs. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.
+The data of the row to which the cell belongs. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->key<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The row's key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.      
+The row's key. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.      
 For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->value<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->any<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The cell's raw value. Available if the **rowType** is *'data'*.
+The cell's raw value. Available if the **rowType** is *"data"*.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->text<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->String<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#format) value converted to a string. Available if the **rowType** is *'data'*.       
+The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#format) value converted to a string. Available if the **rowType** is *"data"*.       
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->displayValue<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The cell's displayed value. Available if the **rowType** is *'data'*.       
+The cell's displayed value. Available if the **rowType** is *"data"*.       
 Differs from the **value** field only when the cell belongs to the [lookup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/) column. 
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->columnIndex<!--/typeFunctionParamName1_field10-->
@@ -91,5 +91,5 @@ The cell's container. It is an [HTML Element](https://developer.mozilla.org/en-U
 <!--typeFunctionParamName1_field15-->row<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->dxTreeListRowObject<!--/typeFunctionParamType1_field15-->
 <!--typeFunctionParamDescription1_field15-->
-The row [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/). Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.
+The row [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/). Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
 <!--/typeFunctionParamDescription1_field15-->

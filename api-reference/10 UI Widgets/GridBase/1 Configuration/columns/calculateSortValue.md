@@ -32,7 +32,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -55,11 +55,11 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     <!--JavaScript-->$(function() {
         var {widgetName} = $("#{widgetName}Container").dx{WidgetName}({
             columns: [{
-                dataField: 'Position',
+                dataField: "Position",
                 sortOrder: "asc",
                 calculateSortValue: function (rowData) {
                     if (rowData.Position == "CEO")
-                        return {widgetName}.columnOption('Position', 'sortOrder') == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
+                        return {widgetName}.columnOption("Position", "sortOrder") == "asc" ? "aaa" : "zzz"; // CEOs are always displayed at the top
                     else
                         return rowData.Position; // Others are sorted as usual
                 }
@@ -70,12 +70,12 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 ##### Angular
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         customSortingFunction (rowData) {
             if (rowData.Position == "CEO")
-                return this.sortOrder == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
+                return this.sortOrder == "asc" ? "aaa" : "zzz"; // CEOs are always displayed at the top
             else
                 return rowData.Position; // Others are sorted as usual
         }

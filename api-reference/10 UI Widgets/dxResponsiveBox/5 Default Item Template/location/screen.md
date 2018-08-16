@@ -44,7 +44,7 @@ The **screen** option accepts one or several size qualifiers separated by a spac
     <!--HTML--><div id="responsiveBoxContainer">
         <div data-options="dxItem: {
             location: {
-                screen: 'md lg',
+                screen: "md lg",
                 row: 0, col: 0
             }
         }"></div>

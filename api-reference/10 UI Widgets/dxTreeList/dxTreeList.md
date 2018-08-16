@@ -44,7 +44,7 @@ The **TreeList** is a widget that represents data from a local or remote source 
             ],
             keyExpr: "key",
             parentIdExpr: "head",
-            columns: ['fullName', 'position']
+            columns: ["fullName", "position"]
         });
     });
 
@@ -82,7 +82,7 @@ The **TreeList** is a widget that represents data from a local or remote source 
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.employees = [
                 { key: "1", fullName: "John Heart", position: "CEO" }, 

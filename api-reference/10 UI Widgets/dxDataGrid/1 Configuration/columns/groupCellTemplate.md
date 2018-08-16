@@ -13,7 +13,7 @@ The **cellInfo** object has the following fields:
 Contains a data object that represents data items matching a grouping key. For example, if you group grid records by country, the following object can be obtained from the **data** field.
 
         <!--JavaScript-->{
-            key: 'Spain', // The name of a country
+            key: "Spain", // The name of a country
             items: [      // Data source objects corresponding to the key
                 { ... }, 
                 { ... },

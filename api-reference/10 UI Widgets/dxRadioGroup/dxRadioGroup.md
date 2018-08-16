@@ -53,7 +53,7 @@ The **RadioGroup** is a widget that contains a set of radio buttons and allows a
     </dx-radio-group>
 
     <!--TypeScript-->
-    import { DxRadioGroupModule } from 'devextreme-angular'
+    import { DxRadioGroupModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         radioGroupItems = [
@@ -82,8 +82,8 @@ The **RadioGroup** is a widget that contains a set of radio buttons and allows a
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function DemoController($scope) {
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function DemoController($scope) {
             $scope.radioGroupItems = [
                 { text: "Item 1", color: "grey" },
                 { text: "Item 2", color: "green" },

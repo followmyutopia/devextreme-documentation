@@ -40,9 +40,9 @@ The following code shows how you can customize the toolbar using this function.
 
                 // Adds a new item
                 toolbarItems.push({
-                    widget: 'dxButton', 
-                    options: { icon: 'user', onClick: function() { ... } },
-                    location: 'after'
+                    widget: "dxButton", 
+                    options: { icon: "user", onClick: function() { ... } },
+                    location: "after"
                 });
             }
         });
@@ -51,7 +51,7 @@ The following code shows how you can customize the toolbar using this function.
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxButtonModule } from 'devextreme-angular';
+    import { DxDataGridModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onToolbarPreparing (e) { 
@@ -65,9 +65,9 @@ The following code shows how you can customize the toolbar using this function.
             
             // Adds a new item
             toolbarItems.push({
-                widget: 'dxButton', 
-                options: { icon: 'user', onClick: function () { ... } },
-                location: 'after'
+                widget: "dxButton", 
+                options: { icon: "user", onClick: function () { ... } },
+                location: "after"
             });
         }
     }

@@ -21,14 +21,14 @@ The **ValidationGroup** is a widget that allows you to validate several editors 
 
     <!--JavaScript-->$(function() {
         var validationGroupName = "sampleGroup";
-        $("#textBox1").dxTextBox({ name: 'FirstName' })
+        $("#textBox1").dxTextBox({ name: "FirstName" })
             .dxValidator({
                 validationRules: [
                     // ...
                 ],
                 validationGroup: validationGroupName
             });
-        $("#textBox2").dxTextBox({ name: 'LastName' })
+        $("#textBox2").dxTextBox({ name: "LastName" })
             .dxValidator({
                 validationRules: [
                     // ...
@@ -70,7 +70,7 @@ The **ValidationGroup** is a widget that allows you to validate several editors 
     </dx-validation-group>
 
     <!--TypeScript-->
-    import { DxValidationGroupModule, DxTextBoxModule, DxButtonModule, DxValidatorModule } from 'devextreme-angular'
+    import { DxValidationGroupModule, DxTextBoxModule, DxButtonModule, DxValidatorModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...

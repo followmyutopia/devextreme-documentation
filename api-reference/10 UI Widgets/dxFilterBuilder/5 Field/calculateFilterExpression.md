@@ -50,7 +50,7 @@ In the following code, the **calculateFilterExpression** function implements the
 ##### Angular
 
     <!--TypeScript-->
-    import { DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {

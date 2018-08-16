@@ -17,8 +17,8 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
         $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
-                caption: 'Address',
-                columns: ['City', 'Street', 'Apartment']
+                caption: "Address",
+                columns: ["City", "Street", "Apartment"]
             }, {
                 // ...
             }]
@@ -37,7 +37,7 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
     </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -62,11 +62,11 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
             // ...
             customizeColumns: function(columns) {
                 columns.push({ // Pushes the "Address" band column into the "columns" array
-                    caption: 'Address',
+                    caption: "Address",
                     isBand: true
                 });
                 
-                var addressFields = ['City', 'Street', 'Apartment'];
+                var addressFields = ["City", "Street", "Apartment"];
                 for (var i = 0; i < columns.length-1; i++) {
                     if (addressFields.indexOf(columns[i].dataField) > -1) // If the column belongs to "Address",
                         columns[i].ownerBand = columns.length-1; // assigns "Address" as the owner band column
@@ -78,7 +78,7 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
 ##### Angular
     
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeColumns (columns) {
@@ -87,7 +87,7 @@ If you use the [customizeColumns]({basewidgetpath}/Configuration/#customizeColum
                 isBand: true
             });
     
-            let addressFields = ['City', 'Street', 'Apartment'];
+            let addressFields = ["City", "Street", "Apartment"];
             for (let i = 0; i < columns.length - 1; i++) {
                 if (addressFields.indexOf(columns[i].dataField) > -1) // If the column belongs to "Address",
                     columns[i].ownerBand = columns.length - 1; // assigns "Address" as the owner band column

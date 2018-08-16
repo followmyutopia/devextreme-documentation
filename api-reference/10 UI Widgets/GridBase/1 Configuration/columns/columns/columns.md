@@ -18,8 +18,8 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
         $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
-                caption: 'Address',
-                columns: ['City', 'Street', 'Apartment']
+                caption: "Address",
+                columns: ["City", "Street", "Apartment"]
             }, {
                 // ...
             }]
@@ -38,7 +38,7 @@ Unlike normal columns, band columns do not hold data. Instead, they collect two 
     </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -66,16 +66,16 @@ For example, the following code specifies the **width** and **sortOrder** option
         $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
-                caption: 'Address',
+                caption: "Address",
                 fixed: true,
-                fixedPosition: 'right',
+                fixedPosition: "right",
                 columns: [
-                    'City', {
-                        dataField: 'Street',
+                    "City", {
+                        dataField: "Street",
                         width: 100,
-                        sortOrder: 'asc'
+                        sortOrder: "asc"
                     },
-                    'Apartment'
+                    "Apartment"
                 ]
             }, {
                 // ...
@@ -98,7 +98,7 @@ For example, the following code specifies the **width** and **sortOrder** option
     </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -122,16 +122,16 @@ Band columns support hierarchies of any nesting level. It means that the followi
         $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [{
-                caption: 'A',
-                columns: [ 'A1', 'A2', {
-                    caption: 'A3',
-                    columns: ['A31', 'A32', {
-                        caption: 'A33',
-                        columns: ['A331', 'A332', 'A333']
+                caption: "A",
+                columns: [ "A1", "A2", {
+                    caption: "A3",
+                    columns: ["A31", "A32", {
+                        caption: "A33",
+                        columns: ["A331", "A332", "A333"]
                     }]
                 }]
             }, {
-                caption: 'B',
+                caption: "B",
                 columns: // ...
             }]
         });
@@ -160,7 +160,7 @@ Band columns support hierarchies of any nesting level. It means that the followi
     </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

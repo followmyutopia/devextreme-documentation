@@ -21,7 +21,7 @@ The **ScrollView** is a widget that enables a user to scroll its content.
         $("#scrollView").dxScrollView({
             height: 500,
             width: 500,
-            direction: 'both'
+            direction: "both"
         });
     });
 
@@ -41,7 +41,7 @@ The **ScrollView** is a widget that enables a user to scroll its content.
     </dx-scroll-view>
 
     <!--TypeScript-->
-    import { DxScrollViewModule } from 'devextreme-angular'
+    import { DxScrollViewModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...

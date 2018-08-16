@@ -10,11 +10,11 @@ The type of the row to which the cell belongs. Available for data area cells onl
 <!--fullDescription-->
 The **rowType** field has the following values:
 
-- *'D'*  
+- *"D"*  
     A data field.
-- *'T'*  
+- *"T"*  
     The [Total](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) row.
-- *'GT'*  
+- *"GT"*  
     The [Grand total](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Totals) row.
 
 <!--/fullDescription-->

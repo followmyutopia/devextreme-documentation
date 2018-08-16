@@ -61,7 +61,7 @@ The **DeferRendering** is a widget that waits for its content to be ready before
     <!--JavaScript-->var modelIsReady = $.Deferred();
     // Here goes a function that resolves the "readyToRender" Deferred object at a specific moment
     // ...
-    angular.module('DemoApp', ['dx'])
+    angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.modelIsReady = modelIsReady.promise();
         });

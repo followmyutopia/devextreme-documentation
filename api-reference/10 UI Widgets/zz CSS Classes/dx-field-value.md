@@ -30,7 +30,7 @@ A class used to display a field value containing a widget within the [dx-field](
         </div>
 
         <!--JavaScript-->
-        var myApp = angular.module('myApp', ['dx']);
+        var myApp = angular.module('myApp', ["dx"]);
         myApp.controller("demoController", function ($scope) {
             $scope.name = "John";
         });

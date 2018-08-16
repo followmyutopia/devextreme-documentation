@@ -55,7 +55,7 @@ The **TileView** widget contains a collection of tiles. Tiles can store much mor
     </dx-tile-view>
 
     <!--TypeScript-->
-    import { DxTileViewModule } from 'devextreme-angular'
+    import { DxTileViewModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         tileViewDataSource = [
@@ -81,7 +81,7 @@ The **TileView** widget contains a collection of tiles. Tiles can store much mor
         baseItemWidth: 180
     }"></div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.tileViewDataSource = [
                 { text: "Tile 1 Text" },

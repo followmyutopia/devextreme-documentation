@@ -52,7 +52,7 @@ The **Accordion** widget contains several panels displayed one under another. Th
     </dx-accordion>
 
     <!--TypeScript-->
-    import { DxAccordionModule } from 'devextreme-angular';
+    import { DxAccordionModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         accordionData = [
@@ -80,8 +80,8 @@ The **Accordion** widget contains several panels displayed one under another. Th
     </div>
 
     <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function DemoController($scope) {
+    angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function DemoController($scope) {
             $scope.accordionData = [
                 { title: "Panel 1 Title", text: "Panel 1 Text Content" },
                 { title: "Panel 2 Title", text: "Panel 2 Text Content" }

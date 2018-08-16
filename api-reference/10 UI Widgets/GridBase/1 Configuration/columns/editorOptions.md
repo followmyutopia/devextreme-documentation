@@ -36,7 +36,7 @@ Do not specify the **onValueChanged** option in this object. If you need to add 
 ##### Angular
     
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         onEditorPreparing (e) {

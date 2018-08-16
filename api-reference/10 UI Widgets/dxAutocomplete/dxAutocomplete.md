@@ -24,7 +24,7 @@ The **Autocomplete** widget is a textbox that provides suggestions while a user 
     <!--JavaScript-->$(function () {
         $("#autocomplete").dxAutocomplete({
             dataSource: [ "Item 1", "Item 2", "Item 3" ],
-            placeholder: 'Type item name...'
+            placeholder: "Type item name..."
         });
     });
 
@@ -40,7 +40,7 @@ The **Autocomplete** widget is a textbox that provides suggestions while a user 
     </dx-autocomplete>
 
     <!--TypeScript-->
-    import { DxAutocompleteModule } from 'devextreme-angular';
+    import { DxAutocompleteModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         autocompleteData = [ "Item 1", "Item 2", "Item 3" ];
@@ -64,8 +64,8 @@ The **Autocomplete** widget is a textbox that provides suggestions while a user 
     </div>
 
     <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function ($scope) {
+    angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function ($scope) {
             $scope.autocompleteData = [ "Item 1", "Item 2", "Item 3" ];
         });
 

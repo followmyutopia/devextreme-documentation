@@ -38,17 +38,17 @@ The **PivotGrid** is a widget that allows you to display and analyze multi-dimen
         $("#pivotGrid").dxPivotGrid({
             dataSource: {
                 store: {
-                    type: 'odata',
-                    url: 'http://url/to/the/service',
-                    key: 'OrderID',
-                    keyType: 'Int32'
+                    type: "odata",
+                    url: "http://url/to/the/service",
+                    key: "OrderID",
+                    keyType: "Int32"
                 },
                 fields: [
-                    { area: 'column', dataField: 'OrderDate', dataType: 'date' },
-                    { area: 'row', dataField: 'ShipCountry' },
-                    { area: 'row', dataField: 'ShipCity' },
-                    { area: 'row', dataField: 'ShipName' },
-                    { area: 'data', summaryType: 'count' }
+                    { area: "column", dataField: "OrderDate", dataType: "date" },
+                    { area: "row", dataField: "ShipCountry" },
+                    { area: "row", dataField: "ShipCity" },
+                    { area: "row", dataField: "ShipName" },
+                    { area: "data", summaryType: "count" }
                 ]
             }
         });
@@ -64,7 +64,7 @@ The **PivotGrid** is a widget that allows you to display and analyze multi-dimen
     </dx-pivot-grid>
 
     <!--TypeScript-->
-    import { DxPivotGridModule } from 'devextreme-angular';
+    import { DxPivotGridModule } from "devextreme-angular";
     import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
     // ...
     export class AppComponent {
@@ -72,17 +72,17 @@ The **PivotGrid** is a widget that allows you to display and analyze multi-dimen
         constructor() {
             this.pivotGridDataSource = new PivotGridDataSource({
                 store: {
-                    type: 'odata',
-                    url: 'http://url/to/the/service',
-                    key: 'OrderID',
-                    keyType: 'Int32'
+                    type: "odata",
+                    url: "http://url/to/the/service",
+                    key: "OrderID",
+                    keyType: "Int32"
                 },
                 fields: [
-                    { area: 'column', dataField: 'OrderDate', dataType: 'date' },
-                    { area: 'row', dataField: 'ShipCountry' },
-                    { area: 'row', dataField: 'ShipCity' },
-                    { area: 'row', dataField: 'ShipName' },
-                    { area: 'data', summaryType: 'count' }
+                    { area: "column", dataField: "OrderDate", dataType: "date" },
+                    { area: "row", dataField: "ShipCountry" },
+                    { area: "row", dataField: "ShipCity" },
+                    { area: "row", dataField: "ShipName" },
+                    { area: "data", summaryType: "count" }
                 ]
             });
         }

@@ -8,7 +8,7 @@ Specifies a custom template for time scale items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]There is no **timeCellTemplate** in such views as 'month', 'timelineMonth' and 'agenda'.
+[note]There is no **timeCellTemplate** in such views as "month", "timelineMonth" and "agenda".
 
 #####See Also#####
 - [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)

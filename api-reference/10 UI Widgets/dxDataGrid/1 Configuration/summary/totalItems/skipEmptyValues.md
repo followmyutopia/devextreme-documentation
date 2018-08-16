@@ -32,7 +32,7 @@ Specified in a summary configuration object, this option affects an individual s
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -64,11 +64,11 @@ Specified in a summary configuration object, this option affects an individual s
                     name: "customSummary1"
                 }],
                 calculateCustomSummary: function (options) {
-                    if (options.name == 'customSummary1') {
-                        if (options.summaryProcess == 'start') {
+                    if (options.name == "customSummary1") {
+                        if (options.summaryProcess == "start") {
                             options.totalValue = 0;
                         }
-                        if (options.summaryProcess == 'calculate') {
+                        if (options.summaryProcess == "calculate") {
                             if (e.value) {
                                 options.totalValue++;
                             }
@@ -92,15 +92,15 @@ Specified in a summary configuration object, this option affects an individual s
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         calculateSummary (options) {
-            if (options.name == 'customSummary1') {
-                if (options.summaryProcess == 'start') {
+            if (options.name == "customSummary1") {
+                if (options.summaryProcess == "start") {
                     options.totalValue = 0;
                 }
-                if (options.summaryProcess == 'calculate') {
+                if (options.summaryProcess == "calculate") {
                     if (e.value) {
                         options.totalValue++;
                     }

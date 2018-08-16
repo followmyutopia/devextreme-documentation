@@ -34,7 +34,7 @@ You can use this function with the [onExported](/Documentation/ApiReference/UI_W
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onExporting (e) {

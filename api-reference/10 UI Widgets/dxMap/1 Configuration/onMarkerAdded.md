@@ -40,5 +40,5 @@ The added marker's data.
 <!--typeFunctionParamName1_field5-->originalMarker<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The original marker that the current map provider uses (only for 'google' and 'bing' providers).
+The original marker that the current map provider uses (only for "google" and "bing" providers).
 <!--/typeFunctionParamDescription1_field5-->

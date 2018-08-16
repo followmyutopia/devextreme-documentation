@@ -58,7 +58,7 @@ The **Menu** widget is a panel with clickable items. A click on an item opens a 
     <dx-menu [items]="menuItems"></dx-menu>
 
     <!--TypeScript-->
-    import { DxMenuModule } from 'devextreme-angular';
+    import { DxMenuModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         menuItems = [
@@ -90,7 +90,7 @@ The **Menu** widget is a panel with clickable items. A click on an item opens a 
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.menuItems = [
                 { text: "Hide" },

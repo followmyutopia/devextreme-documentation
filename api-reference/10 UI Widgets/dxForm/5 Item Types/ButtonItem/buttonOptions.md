@@ -43,7 +43,7 @@ See the [Button configuration](/Documentation/ApiReference/UI_Widgets/dxButton/C
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         buttonOptions = {

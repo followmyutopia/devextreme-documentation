@@ -34,7 +34,7 @@ The **LoadIndicator** is a UI element notifying the viewer that a process is in 
     <dx-load-indicator [(visible)]="isLoadIndicatorVisible"></dx-load-indicator>
 
     <!--TypeScript-->
-    import { DxLoadIndicatorModule } from 'devextreme-angular';
+    import { DxLoadIndicatorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         isLoadIndicatorVisible = true;
@@ -57,7 +57,7 @@ The **LoadIndicator** is a UI element notifying the viewer that a process is in 
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.isLoadIndicatorVisible = true;
         });

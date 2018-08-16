@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a function that is executed on state saving. Applies only if the [type](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#type) is *'custom'*.
+Specifies a function that is executed on state saving. Applies only if the [type](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#type) is *"custom"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -20,8 +20,8 @@ In the following code, the state is saved and loaded from a remote storage:
         var storageRequestSettings = {
             url: "https://url/to/your/storage/" + JSON.stringify(storageKey),
             headers: {
-                'Accept' : 'text/html',
-                'Content-Type' : 'text/html'
+                "Accept" : "text/html",
+                "Content-Type" : "text/html"
             },
             method: method,
             dataType: dataType,
@@ -45,10 +45,10 @@ In the following code, the state is saved and loaded from a remote storage:
                 enabled: true,
                 type: "custom",
                 customLoad: function () {
-                    return sendStorageRequest('storageKey', 'json', 'GET');;
+                    return sendStorageRequest("storageKey", "json", "GET");;
                 },
                 customSave: function (state) {
-                    sendStorageRequest('storageKey', 'text', 'PUT', state);
+                    sendStorageRequest("storageKey", "text", "PUT", state);
                 }
             },
         });
@@ -57,10 +57,10 @@ In the following code, the state is saved and loaded from a remote storage:
 #####Angular
 
     <!--TypeScript-->
-    import { HttpClient, HttpClientModule, HttpHeaders, HttpRequest } from '@angular/common/http';
-    import { DxPivotGridModule } from 'devextreme-angular';
-    import 'rxjs/add/operator/toPromise';
-    import 'rxjs/add/operator/catch';
+    import { HttpClient, HttpClientModule, HttpHeaders, HttpRequest } from "@angular/common/http";
+    import { DxPivotGridModule } from "devextreme-angular";
+    import "rxjs/add/operator/toPromise";
+    import "rxjs/add/operator/catch";
     // ...
     export class AppComponent {
         constructor(private httpClient: HttpClient) { }
@@ -82,11 +82,11 @@ In the following code, the state is saved and loaded from a remote storage:
         }
 
         loadState = () => {
-            return this.sendStorageRequest('storageKey', 'json', 'Get');
+            return this.sendStorageRequest("storageKey", "json", "Get");
         } 
 
         saveState = (state) => {
-            this.sendStorageRequest('storageKey', 'text', 'Put', state);
+            this.sendStorageRequest("storageKey", "text", "Put", state);
         }
     }
     @NgModule({

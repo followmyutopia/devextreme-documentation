@@ -64,7 +64,7 @@ The **ContextMenu** widget displays a single- or multi-level context menu. An en
     </dx-context-menu>
 
     <!--TypeScript-->
-    import { DxContextMenuModule } from 'devextreme-angular';
+    import { DxContextMenuModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         contextMenuItems = [
@@ -98,7 +98,7 @@ The **ContextMenu** widget displays a single- or multi-level context menu. An en
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.contextMenuItems = [
                 { text: "Hide" },

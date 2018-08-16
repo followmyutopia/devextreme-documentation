@@ -22,7 +22,7 @@ The **FileUploader** widget enables an end user to upload files to the server. A
 
     <!--JavaScript-->$(function () {
         $("#fileUploader").dxFileUploader({
-            accept: 'image/*'
+            accept:"image/*"
         });
     });
 
@@ -35,7 +35,7 @@ The **FileUploader** widget enables an end user to upload files to the server. A
     <dx-file-uploader accept="image/*"></dx-file-uploader>
 
     <!--TypeScript-->
-    import { DxFileUploaderModule } from 'devextreme-angular';
+    import { DxFileUploaderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

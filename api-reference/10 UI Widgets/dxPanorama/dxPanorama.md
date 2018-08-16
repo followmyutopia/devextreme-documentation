@@ -54,7 +54,7 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
                 text: "Item 2 Text Content"
             }],
             backgroundImage: {
-                url: '/here/goes/your/image.png',
+                url: "/here/goes/your/image.png",
                 height: 600,
                 width: 800
             }
@@ -85,7 +85,7 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
     </dx-panorama>
 
     <!--TypeScript-->
-    import { DxPanoramaModule } from 'devextreme-angular';
+    import { DxPanoramaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         panoramaItems = [{
@@ -117,7 +117,7 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.panoramaItems = [{
                 title: "Item 1 Title",

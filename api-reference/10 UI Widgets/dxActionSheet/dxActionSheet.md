@@ -55,7 +55,7 @@ The **ActionSheet** widget is a sheet containing a set of buttons located one un
     </dx-action-sheet>
 
     <!--TypeScript-->
-    import { DxActionSheetModule } from 'devextreme-angular';
+    import { DxActionSheetModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         actionSheetData = [
@@ -88,8 +88,8 @@ The **ActionSheet** widget is a sheet containing a set of buttons located one un
     </div>
 
     <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function ($scope) {
+    angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function ($scope) {
             $scope.actionSheetData = [
                 { text: "Command 1" },
                 { text: "Command 2" },
@@ -108,7 +108,7 @@ The **ActionSheet** widget is a sheet containing a set of buttons located one un
         dataSource: actionSheetData,
         visible: true,
         onItemClick: function (e) {
-            alert('The ' + e.itemData.text + ' button was clicked');
+            alert("The " + e.itemData.text + " button was clicked");
         }
     }"></div>
 

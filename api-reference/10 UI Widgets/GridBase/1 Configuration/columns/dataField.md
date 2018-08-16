@@ -17,12 +17,12 @@ The **columns** array can contain only the names of data source fields, which is
         $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [
-                'CustomerID',
-                { dataField: 'EmployeeID', width: 200 },
-                'OrderDate',
-                { dataField: 'Freight', format: 'fixedPoint' },
-                'ShipName',
-                'ShipCity'
+                "CustomerID",
+                { dataField: "EmployeeID", width: 200 },
+                "OrderDate",
+                { dataField: "Freight", format: "fixedPoint" },
+                "ShipName",
+                "ShipCity"
             ]
         });
     });
@@ -40,7 +40,7 @@ The **columns** array can contain only the names of data source fields, which is
     </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

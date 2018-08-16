@@ -40,5 +40,5 @@ The added route's data.
 <!--typeFunctionParamName1_field5-->originalRoute<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The original route that the current map provider uses (only for 'google' and 'bing' providers).
+The original route that the current map provider uses (only for "google" and "bing" providers).
 <!--/typeFunctionParamDescription1_field5-->

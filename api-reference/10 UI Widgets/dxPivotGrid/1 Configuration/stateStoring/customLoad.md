@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a function that is executed on state loading. Applies only if the [type](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#type) is *'custom'*.
+Specifies a function that is executed on state loading. Applies only if the [type](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Configuration/stateStoring/#type) is *"custom"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->

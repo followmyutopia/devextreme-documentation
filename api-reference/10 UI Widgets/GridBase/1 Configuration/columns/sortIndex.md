@@ -12,8 +12,8 @@ Specifies the index according to which columns participate in sorting.
 This option accepts an integer specifying the index of the column in a collection of columns with applied sorting. For example, consider the following data source that can provide data for three columns.
 
     <!--JavaScript-->var dataSource = [
-        { firstName: 'John', lastName: 'Doe', title: 'Sales Manager' },
-        { firstName: 'Michael', lastName: 'King', title: 'Sales Representative' },
+        { firstName: "John", lastName: "Doe", title: "Sales Manager" },
+        { firstName: "Michael", lastName: "King", title: "Sales Representative" },
         // ...
     ];
 
@@ -26,8 +26,8 @@ To sort data first by the *"Last Name"* and then by the *"First Name"* column, u
         $("#{widgetName}Container").dx{WidgetName}({
             // ...
             columns: [
-                { dataField: 'firstName', sortIndex: 1, sortOrder: 'asc' },
-                { dataField: 'lastName', sortIndex: 0, sortOrder: 'asc' },
+                { dataField: "firstName", sortIndex: 1, sortOrder: "asc" },
+                { dataField: "lastName", sortIndex: 0, sortOrder: "asc" },
                 // ...
             ]
         });
@@ -42,7 +42,7 @@ To sort data first by the *"Last Name"* and then by the *"First Name"* column, u
     </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

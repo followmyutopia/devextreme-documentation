@@ -24,7 +24,7 @@ If you have a large data source hosted remotely, loading all of it may take cons
                     });
                 return d.promise();
             },
-            dataStructure: 'plain'
+            dataStructure: "plain"
         });
     });
 
@@ -36,10 +36,10 @@ If you have a large data source hosted remotely, loading all of it may take cons
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
-    import 'rxjs/add/operator/toPromise';
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule, HttpParams } from "@angular/common/http";
+    import "rxjs/add/operator/toPromise";
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         constructor(@Inject(HttpClient) httpClient: HttpClient) { }

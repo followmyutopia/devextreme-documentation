@@ -8,7 +8,7 @@ Specifies a custom template for date scale items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note] There is no **dateCellTemplate** in such views as 'day' and 'timelineDay'.
+[note] There is no **dateCellTemplate** in such views as "day" and "timelineDay".
 
 #####See Also#####
 - [Customize Individual Views](/Documentation/Guide/Widgets/Scheduler/Views/Customize_Individual_Views/)

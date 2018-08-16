@@ -8,7 +8,7 @@ Specifies a custom template for day scale items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]There is no **dateCellTemplate** in such views as 'day' and 'timelineDay'.
+[note]There is no **dateCellTemplate** in such views as "day" and "timelineDay".
 
 #####See Also#####
 - [Timetable](/Documentation/Guide/Widgets/Scheduler/Timetable/)

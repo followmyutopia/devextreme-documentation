@@ -32,7 +32,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -93,7 +93,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     </dx-{widget-name}>
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         getCountryWithCapital(rowData) {

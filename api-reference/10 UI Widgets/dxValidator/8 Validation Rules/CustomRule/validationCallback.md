@@ -18,7 +18,7 @@ In the following code, only odd numbers are considered valid:
             value: 3
         }).dxValidator({
             validationRules: [{
-                type: 'custom',
+                type: "custom",
                 validationCallback: validationCallback,
                 message: "This is an even number. Enter an odd one."
             }]
@@ -42,7 +42,7 @@ In the following code, only odd numbers are considered valid:
     </dx-number-box>
 
     <!--TypeScript-->
-    import { DxNumberBoxModule, DxValidatorModule } from 'devextreme-angular';
+    import { DxNumberBoxModule, DxValidatorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         validationCallback (e) {

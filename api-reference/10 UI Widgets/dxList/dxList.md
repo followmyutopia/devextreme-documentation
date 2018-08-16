@@ -40,7 +40,7 @@ The **List** is a widget that represents a collection of items in a scrollable l
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         listData = [ "Item 1", "Item 2", "Item 3" ];
@@ -62,7 +62,7 @@ The **List** is a widget that represents a collection of items in a scrollable l
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.listData = [ "Item 1", "Item 2", "Item 3" ];
         });

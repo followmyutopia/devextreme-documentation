@@ -22,8 +22,8 @@ The **Map** is an interactive widget that displays a geographic map with markers
 
     <!--JavaScript-->$(function () {
         $("#map").dxMap({
-            provider: 'bing',
-            type: 'roadmap',
+            provider: "bing",
+            type: "roadmap",
             zoom: 10,
             center: "40.749825, -73.987963"
         });
@@ -43,7 +43,7 @@ The **Map** is an interactive widget that displays a geographic map with markers
     </dx-map>
 
     <!--TypeScript-->
-    import { DxMapModule } from 'devextreme-angular';
+    import { DxMapModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

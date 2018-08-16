@@ -19,15 +19,15 @@ Normally, when records are grouped by a column, the groups are sorted according 
             // ...
             summary: {
                 groupItems: [{
-                    column: 'Age',
-                    summaryType: 'avg',
-                    name: 'Average Age Group Summary'
+                    column: "Age",
+                    summaryType: "avg",
+                    name: "Average Age Group Summary"
                 }, {
-                    column: 'Income',
-                    summaryType: 'max'
+                    column: "Income",
+                    summaryType: "max"
                 }, {
-                    column: 'Tasks',
-                    summaryType: 'min'
+                    column: "Tasks",
+                    summaryType: "min"
                 }]
             }
         });
@@ -55,7 +55,7 @@ Normally, when records are grouped by a column, the groups are sorted according 
      </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -80,8 +80,8 @@ To use these summary items for sorting groups, assign an array of objects to the
             // ...
             sortByGroupSummaryInfo: [
                 { summaryItem: 1 }, // determines the maximum income item using its index in the "groupItems" array
-                { summaryItem: 'min' }, // determines the minimum tasks item using its aggregate function
-                { summaryItem: 'Average Age Group Summary' } // determines the average age item using its name
+                { summaryItem: "min" }, // determines the minimum tasks item using its aggregate function
+                { summaryItem: "Average Age Group Summary" } // determines the average age item using its name
             ]
         });
     });
@@ -102,7 +102,7 @@ To use these summary items for sorting groups, assign an array of objects to the
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -127,9 +127,9 @@ After that, set the [groupColumn](/Documentation/ApiReference/UI_Widgets/dxDataG
         $("#gridContainer").dxDataGrid({
             // ...
             sortByGroupSummaryInfo: [
-                { summaryItem: 1, groupColumn: 'Tasks' }, // applies sorting only when records are grouped by the "Tasks" column
-                { summaryItem: 'min', groupColumn: 'Last Name' }, // applies sorting only when records are grouped by a "Last Name" column
-                { summaryItem: 'Average Age Group Summary' } // applies sorting regardless the grouping column
+                { summaryItem: 1, groupColumn: "Tasks" }, // applies sorting only when records are grouped by the "Tasks" column
+                { summaryItem: "min", groupColumn: "Last Name" }, // applies sorting only when records are grouped by a "Last Name" column
+                { summaryItem: "Average Age Group Summary" } // applies sorting regardless the grouping column
             ]
         });
     });
@@ -151,7 +151,7 @@ After that, set the [groupColumn](/Documentation/ApiReference/UI_Widgets/dxDataG
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -27,7 +27,7 @@ The **Popup** widget is a pop-up window overlaying the current view.
 
     <!--JavaScript-->$(function () {
         $("#popup").dxPopup({
-            title: 'Popup Title',
+            title: "Popup Title",
             visible: true
         });
     });
@@ -44,7 +44,7 @@ The **Popup** widget is a pop-up window overlaying the current view.
     </dx-popup>
 
     <!--TypeScript-->
-    import { DxPopupModule } from 'devextreme-angular'
+    import { DxPopupModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         isPopupVisible = true;
@@ -70,8 +70,8 @@ The **Popup** widget is a pop-up window overlaying the current view.
         </div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function DemoController($scope) {
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function DemoController($scope) {
             $scope.isPopupVisible = true;
         });
 

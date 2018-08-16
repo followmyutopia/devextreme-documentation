@@ -54,7 +54,7 @@ The **Toast** is a widget that provides pop-up notifications.
     </dx-button>
 
     <!--TypeScript-->
-    import { DxToastModule } from 'devextreme-angular'
+    import { DxToastModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         isToastVisible = false;
@@ -87,7 +87,7 @@ The **Toast** is a widget that provides pop-up notifications.
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.isToastVisible = false;
             $scope.showToast = function () {

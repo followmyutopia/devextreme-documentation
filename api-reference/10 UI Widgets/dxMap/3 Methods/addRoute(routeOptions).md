@@ -23,7 +23,7 @@ Each location can be specified in any of the following formats.
  - { lat: 40.749825, lng: -73.987963}
  - "40.749825, -73.987963"
  - [40.749825, -73.987963]
- - 'Brooklyn Bridge,New York,NY'
+ - "Brooklyn Bridge,New York,NY"
 
 #####See Also#####
 #include common-link-callmethods

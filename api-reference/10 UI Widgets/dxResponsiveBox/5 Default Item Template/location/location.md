@@ -11,8 +11,8 @@ If you need to specify different locations for [different screens](/Documentatio
 
     <!--HTML--><div data-options="dxItem: { 
         location: [
-            { row: 0, col: 0, colspan: 3, screen: 'lg'},
-            { row: 0, col: 0, colspan: 2, screen: 'xs sm md'}
+            { row: 0, col: 0, colspan: 3, screen: "lg"},
+            { row: 0, col: 0, colspan: 2, screen: "xs sm md"}
         ]
     }"> <p>Header</p> </div>
 <!--/fullDescription-->

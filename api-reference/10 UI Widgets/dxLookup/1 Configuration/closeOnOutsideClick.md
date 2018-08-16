@@ -26,7 +26,7 @@ The function passed to this option enables you to specify a custom condition for
 #####Angular
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

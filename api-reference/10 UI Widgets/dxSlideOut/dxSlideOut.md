@@ -46,7 +46,7 @@ The **SlideOut** widget is a classic slide-out menu paired with a view. An end u
     </dx-slide-out>
 
     <!--TypeScript-->
-    import { DxSlideOutModule } from 'devextreme-angular'
+    import { DxSlideOutModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         slideOutDataSource = [ "Item 1", "Item 2", "Item 3", "Item 4" ];
@@ -70,7 +70,7 @@ The **SlideOut** widget is a classic slide-out menu paired with a view. An end u
         onItemClick: closeSlideOut
     }"></div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.slideOutDataSource = [ "Item 1", "Item 2", "Item 3", "Item 4" ];
             $scope.closeSlideOut = function (e) {

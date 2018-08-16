@@ -22,7 +22,7 @@ If you specify validation rules using the [validationRules](/Documentation/ApiRe
             items: [{
                 // ...
                 validationRules: [
-                    { type: 'required' }
+                    { type: "required" }
                 ]
             },
             // ...
@@ -40,7 +40,7 @@ If you specify validation rules using the [validationRules](/Documentation/ApiRe
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -10,9 +10,9 @@ Specifies the [maximum zoom level](/Documentation/ApiReference/UI_Widgets/dxCale
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The zoom level ascends from 'month' to 'century' ('month'->'year'->'decade'->'century').
+The zoom level ascends from "month" to "century" ("month"->"year"->"decade"->"century").
 
-The option makes sense only if the [pickerType](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType) option is set to 'calendar'.
+The option makes sense only if the [pickerType](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType) option is set to "calendar".
 
 #include common-ref-enum with {
     enum: "`CalendarZoomLevel`",

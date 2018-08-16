@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the date display format. Ignored if the [pickerType](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType) option is *'native'*
+Specifies the date display format. Ignored if the [pickerType](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#pickerType) option is *"native"*
 <!--/shortDescription-->
 
 <!--fullDescription-->

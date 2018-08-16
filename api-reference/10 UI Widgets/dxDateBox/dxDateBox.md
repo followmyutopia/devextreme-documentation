@@ -40,7 +40,7 @@ The **DateBox** is a widget that displays date and time in a specified format, a
     </dx-date-box>
 
     <!--TypeScript-->
-    import { DxDateBoxModule } from 'devextreme-angular';
+    import { DxDateBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         minDate = new Date(2000, 0, 1);
@@ -67,7 +67,7 @@ The **DateBox** is a widget that displays date and time in a specified format, a
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.minDate = new Date(2000, 0, 1);
             $scope.maxDate = new Date(2029, 11, 31);

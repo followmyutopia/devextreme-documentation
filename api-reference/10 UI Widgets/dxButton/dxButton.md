@@ -23,7 +23,7 @@ The **Button** widget is a simple button that performs specified commands when a
 
     <!--JavaScript-->$(function () {
         $("#button").dxButton({
-            text: 'Click me',
+            text: "Click me",
             onClick: function() {
                 alert("The Button was clicked");
             }
@@ -41,7 +41,7 @@ The **Button** widget is a simple button that performs specified commands when a
     </dx-button>
 
     <!--TypeScript-->
-    import { DxButtonModule } from 'devextreme-angular';
+    import { DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         buttonClicked() {
@@ -65,7 +65,7 @@ The **Button** widget is a simple button that performs specified commands when a
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.buttonClicked = function () {
                 alert("The Button was clicked");

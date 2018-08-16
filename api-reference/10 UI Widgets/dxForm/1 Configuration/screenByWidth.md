@@ -18,10 +18,10 @@ The function passed to this option should take on the screen width as a paramete
         $("#formContainer").dxForm({
             // ...
             screenByWidth: function(width) {
-                if (width < 768) return 'xs';
-                if (width < 992) return 'sm';
-                if (width < 1200) return 'md';
-                return 'lg';
+                if (width < 768) return "xs";
+                if (width < 992) return "sm";
+                if (width < 1200) return "md";
+                return "lg";
             }
         });
     });
@@ -34,7 +34,7 @@ The function passed to this option should take on the screen width as a paramete
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

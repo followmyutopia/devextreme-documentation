@@ -23,11 +23,11 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
     <!--JavaScript-->$(function () {
         $("#scheduler").dxScheduler({
             dataSource: [{
-                text: 'Meeting customers',
+                text: "Meeting customers",
                 startDate: new Date(2015, 4, 10, 11, 0),
                 endDate: new Date(2015, 4, 10, 13, 0)
             }, {
-                text: 'Summing up the results',
+                text: "Summing up the results",
                 startDate: new Date(2015, 4, 11, 12, 0),
                 endDate: new Date(2015, 4, 11, 13, 0)
             },
@@ -53,15 +53,15 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular'
+    import { DxSchedulerModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         schedulerData = [{
-                text: 'Meeting customers',
+                text: "Meeting customers",
                 startDate: new Date(2015, 4, 10, 11, 0),
                 endDate: new Date(2015, 4, 10, 13, 0)
             }, {
-                text: 'Summing up the results',
+                text: "Summing up the results",
                 startDate: new Date(2015, 4, 11, 12, 0),
                 endDate: new Date(2015, 4, 11, 13, 0)
             },

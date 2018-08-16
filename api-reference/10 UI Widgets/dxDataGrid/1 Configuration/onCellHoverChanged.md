@@ -34,7 +34,7 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->eventType<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-Indicates whether the pointer entered or left the cell. Can be either *'mouseover'* or *'mouseout'*.
+Indicates whether the pointer entered or left the cell. Can be either *"mouseover"* or *"mouseout"*.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->data<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Object<!--/typeFunctionParamType1_field5-->
@@ -79,7 +79,7 @@ This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/
 <!--typeFunctionParamName1_field13-->rowType<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->String<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-The row's type. This field equals *'data'* for data rows or *'group'* for group rows. 
+The row's type. This field equals *"data"* for data rows or *"group"* for group rows. 
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->cellElement<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->dxElement<!--/typeFunctionParamType1_field14-->

@@ -119,7 +119,7 @@ The **TreeView** widget is a tree-like representation of textual data.
                 { id: "2_1", text: "Subitem 2.1", parentId: "2" },
                 { id: "2_2", text: "Subitem 2.2", parentId: "2" }
             ],
-            dataStructure: 'plain'
+            dataStructure: "plain"
         });
     });
 
@@ -135,7 +135,7 @@ The **TreeView** widget is a tree-like representation of textual data.
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular'
+    import { DxTreeViewModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         treeViewDataSource = [
@@ -164,7 +164,7 @@ The **TreeView** widget is a tree-like representation of textual data.
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.treeViewDataSource = [
                 { id: "1", text: "Item 1" },

@@ -42,7 +42,7 @@ The **Calendar** is a widget that displays a calendar and allows an end user to 
     </dx-calendar>
 
     <!--TypeScript-->
-    import { DxCalendarModule } from 'devextreme-angular';
+    import { DxCalendarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         minDate = new Date(2000, 0, 1);
@@ -70,7 +70,7 @@ The **Calendar** is a widget that displays a calendar and allows an end user to 
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.minDate = new Date(2000, 0, 1);
             $scope.maxDate = new Date(2029, 11, 31);

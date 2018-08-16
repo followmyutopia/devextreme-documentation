@@ -24,7 +24,7 @@ The state includes field configurations, expanded headers, and other settings. T
         });
         var fieldChooser = $("#fieldChooserContainer").dxPivotGridFieldChooser({
             dataSource: pivotGridDataSource,
-            applyChangesMode: 'onDemand',
+            applyChangesMode: "onDemand",
             // ...
         }).dxPivotGridFieldChooser("instance");
         $("#apply").dxButton({
@@ -49,8 +49,8 @@ The state includes field configurations, expanded headers, and other settings. T
         DxPivotGridModule,
         DxPivotGridFieldChooserModule, 
         DxButtonModule
-    } from 'devextreme-angular';
-    import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+    } from "devextreme-angular";
+    import PivotGridDataSource from "devextreme/ui/pivot_grid/data_source";
     // ...
     export class AppComponent {
         pivotGridDataSource: any;

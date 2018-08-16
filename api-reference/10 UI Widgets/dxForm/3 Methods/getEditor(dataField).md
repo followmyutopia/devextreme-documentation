@@ -35,7 +35,7 @@ The following code shows how to get an editor of an item in a group:
             }]
         }).dxForm("instance");
         $("#buttonContainer").dxButton({
-            text: 'Customize Phone Editor',
+            text: "Customize Phone Editor",
             onClick: function (e) {
                 var editor = form.getEditor("phone");
                 // Customizations go here

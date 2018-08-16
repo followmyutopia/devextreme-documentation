@@ -51,7 +51,7 @@ The following code shows the default **calculateFilterExpression** function impl
 ##### Angular
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {

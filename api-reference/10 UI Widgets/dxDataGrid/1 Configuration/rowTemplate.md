@@ -22,11 +22,11 @@ Contains an array of grid columns. An object with column settings represents eac
 - **isSelected**    
 Indicates whether or not the current row is selected.
 - **rowType**        
-Defines the type of the current row. This field equals *'data'* for data rows or *'group'* for group rows. Use this field to distinguish rows by type.
+Defines the type of the current row. This field equals *"data"* for data rows or *"group"* for group rows. Use this field to distinguish rows by type.
 - **groupIndex**    
-Contains the group index of the current row. This field is useful if the **rowType** field is *'group'*.
+Contains the group index of the current row. This field is useful if the **rowType** field is *"group"*.
 - **isExpanded**    
-Indicates whether or not the current row is expanded. This field is useful if the **rowType** field is *'group'*.
+Indicates whether or not the current row is expanded. This field is useful if the **rowType** field is *"group"*.
 
 When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component for AngularJS, and Knockout apps, declare it within a `<table>` HTML element. For Angular - within a `<tbody>` element with the `dx-row` class.
 
@@ -45,7 +45,7 @@ When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Compon
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

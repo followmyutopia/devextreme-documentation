@@ -33,7 +33,7 @@ In the following code, the **customizeExportData** function replaces empty value
 #####Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeExportData (columns, rows) {

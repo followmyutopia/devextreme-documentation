@@ -23,7 +23,7 @@ The marker object should include the following fields.
   - { lat: 40.749825, lng: -73.987963};
   - "40.749825, -73.987963";
   - [40.749825, -73.987963];
-  - 'Brooklyn Bridge,New York,NY';
+  - "Brooklyn Bridge,New York,NY";
 - **tooltip** (optional) - the marker tooltip;
 - **onClick** (optional) - a callback function performed when the marker is clicked;
 - **text** (optional) - the marker caption.

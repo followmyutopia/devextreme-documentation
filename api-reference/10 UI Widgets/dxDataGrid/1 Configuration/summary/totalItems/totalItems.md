@@ -21,11 +21,11 @@ To specify the items of the total summary, declare an array of objects, each of 
             // ...
             summary: {
                 totalItems: [{
-                    column: 'Age',
-                    summaryType: 'avg'
+                    column: "Age",
+                    summaryType: "avg"
                 }, {
-                    column: 'LastName',
-                    summaryType: 'count'
+                    column: "LastName",
+                    summaryType: "count"
                 }]
             }
         });
@@ -48,7 +48,7 @@ To specify the items of the total summary, declare an array of objects, each of 
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

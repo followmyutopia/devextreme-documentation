@@ -45,14 +45,14 @@ The **Form** widget represents fields of a data object as a collection of label-
         $("#form").dxForm({
             formData: companyData,
             items: [
-                'name', {
-                    itemType: 'group',
-                    caption: 'Location',
-                    items: ['city', 'state', 'zip']
+                "name", {
+                    itemType: "group",
+                    caption: "Location",
+                    items: ["city", "state", "zip"]
                 }, {
-                    itemType: 'group',
-                    caption: 'Contacts',
-                    items: ['phone', 'fax', 'website']
+                    itemType: "group",
+                    caption: "Contacts",
+                    items: ["phone", "fax", "website"]
                 }
             ]
         });
@@ -83,7 +83,7 @@ The **Form** widget represents fields of a data object as a collection of label-
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         companyData = {
@@ -124,7 +124,7 @@ The **Form** widget represents fields of a data object as a collection of label-
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.companyData = {
                 id: 1,

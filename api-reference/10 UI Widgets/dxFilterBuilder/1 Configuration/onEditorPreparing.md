@@ -36,7 +36,7 @@ In the following code, a default editor is replaced with the DevExtreme [TextAre
 ##### Angular
 
     <!--TypeScript-->
-    import { DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onEditorPreparing (e) { 
@@ -91,7 +91,7 @@ The following code shows how to replace a default editor with a non-DevExtreme e
 ##### Angular
 
     <!--TypeScript-->
-    import { DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onEditorPreparing (e) { 

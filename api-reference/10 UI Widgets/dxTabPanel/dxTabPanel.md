@@ -89,7 +89,7 @@ The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widge
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.tabs = [{
                 title: 'Tab 1 Title',

@@ -55,7 +55,7 @@ The **TagBox** widget is an editor that allows an end user to select multiple it
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular'
+    import { DxTagBoxModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         tagBoxDataSource = [ "Item 1", "Item 2", "Item 3" ];
@@ -77,7 +77,7 @@ The **TagBox** widget is an editor that allows an end user to select multiple it
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.tagBoxDataSource = [ "Item 1", "Item 2", "Item 3" ];
         });

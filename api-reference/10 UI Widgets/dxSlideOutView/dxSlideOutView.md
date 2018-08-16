@@ -29,8 +29,8 @@ The **SlideOutView** widget is a classic slide-out menu paired with a view. This
 
     <!--JavaScript-->$(function () {
         $("#slideOutView").dxSlideOutView({
-            contentTemplate: 'view',
-            menuTemplate: 'menu',
+            contentTemplate: "view",
+            menuTemplate: "menu",
         });
     });
 
@@ -58,7 +58,7 @@ The **SlideOutView** widget is a classic slide-out menu paired with a view. This
     </dx-slide-out-view>
 
     <!--TypeScript-->
-    import { DxSlideOutViewModule } from 'devextreme-angular'
+    import { DxSlideOutViewModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...

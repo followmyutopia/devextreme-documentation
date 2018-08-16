@@ -12,7 +12,7 @@ This field accepts the following values.
 - *"data"*  
     A row containing data.  
 - *"detail"*  
-    A row shown in the detail section when a user edits the row in the *'form'* editing [mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode).  
+    A row shown in the detail section when a user edits the row in the *"form"* editing [mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode).  
 - *"detailAdaptive"*  
     A row shown in the detail section of the adaptive column. This column appears when the widget adapts to the screen or container size.  
 - *"header"*  

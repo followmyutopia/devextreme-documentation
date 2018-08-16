@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Switches a cell with a specific row index and a data field to the editing state. Takes effect only if the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *'batch'* or *'cell'*.
+Switches a cell with a specific row index and a data field to the editing state. Takes effect only if the [editing mode]({basewidgetpath}/Configuration/editing/#mode) is *"batch"* or *"cell"*.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->

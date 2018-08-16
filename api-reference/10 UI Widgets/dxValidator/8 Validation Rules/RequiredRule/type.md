@@ -8,5 +8,5 @@ Specifies the type of the current rule.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Set this field to 'required' to define a rule that will be broken if the validated value is not specified.
+Set this field to "required" to define a rule that will be broken if the validated value is not specified.
 <!--/fullDescription-->

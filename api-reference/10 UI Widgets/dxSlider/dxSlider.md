@@ -40,7 +40,7 @@ The **Slider** is a widget that allows an end user to set a numeric value on a c
     </dx-slider>
 
     <!--TypeScript-->
-    import { DxSliderModule } from 'devextreme-angular'
+    import { DxSliderModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...

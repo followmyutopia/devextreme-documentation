@@ -11,20 +11,20 @@ Specifies item selection mode.
 <!--fullDescription-->
 This option accepts the following values.
 
-- *'none'*  
+- *"none"*  
  Selection is disabled.
 
-- *'single'*  
+- *"single"*  
  A user can select only a single item.
 
-- *'multiple'*  
+- *"multiple"*  
  A user can select several items.
 
-- *'all'*  
+- *"all"*  
  The **multiple** mode with a check box that selects/unselects all items.  
  If paging is enabled, the select all check box selects only items that have been already loaded.
 
- [note]The check box that selects/unselects all items is displayed only if the [showSelectionControls]({basewidgetpath}/Configuration/#showSelectionControls) option is enabled. Otherwise, the 'all' mode works as 'multiple'.
+ [note]The check box that selects/unselects all items is displayed only if the [showSelectionControls]({basewidgetpath}/Configuration/#showSelectionControls) option is enabled. Otherwise, the "all" mode works as "multiple".
 
 #include common-ref-enum with {
     enum: "`ListSelectionMode`",

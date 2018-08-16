@@ -55,7 +55,7 @@ The **SelectBox** widget is an editor that allows an end user to select an item 
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular'
+    import { DxSelectBoxModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         selectBoxDataSource = [ "Item 1", "Item 2", "Item 3" ];
@@ -77,7 +77,7 @@ The **SelectBox** widget is an editor that allows an end user to select an item 
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.selectBoxDataSource = [ "Item 1", "Item 2", "Item 3" ];
         });

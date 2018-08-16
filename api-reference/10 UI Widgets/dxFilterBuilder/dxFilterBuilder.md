@@ -79,7 +79,7 @@ The **FilterBuilder** widget allows a user to build complex filter expressions w
     </dx-filter-builder>
 
     <!--TypeScript-->
-    import { DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -35,7 +35,7 @@ The name of the file to be saved.
 <!--typeFunctionParamName1_field4-->format<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The format of the file to be saved. Equals *'EXCEL'* for an Excel file.
+The format of the file to be saved. Equals *"EXCEL"* for an Excel file.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->data<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Blob<!--/typeFunctionParamType1_field5-->

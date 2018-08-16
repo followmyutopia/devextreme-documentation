@@ -48,7 +48,7 @@ For extra small screens, this option always equals *1* to make the widget adapti
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

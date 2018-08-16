@@ -57,7 +57,7 @@ The **DropDownBox** widget consists of a text field, which displays the current 
     </dx-drop-down-box>
 
     <!--TypeScript-->
-    import { DxDropDownBoxModule } from 'devextreme-angular';
+    import { DxDropDownBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
@@ -97,8 +97,8 @@ The **DropDownBox** widget consists of a text field, which displays the current 
     </div>
 
     <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function ($scope) {
+    angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function ($scope) {
             $scope.fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
             $scope.selectedFruit = $scope.fruits[0];
             $scope.isDropDownBoxOpened = false;

@@ -20,15 +20,15 @@ In **AngularJS approach**, if you need to access appointment object's fields wit
         <!--HTML-->
         <div id="scheduler" dx-scheduler="options" dx-item-alias="showtime">
             <div data-options="dxTemplate: {name: 'popup-template'}">
-                <div class='movie-tooltip' ng-init="movieData = getMovieById(showtime.movieId)">
+                <div class="movie-tooltip" ng-init="movieData = getMovieById(showtime.movieId)">
                     <img ng-src="{{movieData.image}}" />
-                    <div class='movie-title'>Title:
+                    <div class="movie-title">Title:
                         <div ng-model="movieData.text" dx-text-box="{}"></div>
                     </div>
-                    <div class='movie-info'>
+                    <div class="movie-info">
                         Year: <div ng-model="movieData.year" dx-date-box="{}">
                     </div>
-                    <div class='movie-info'>
+                    <div class="movie-info">
                         Duration: <div ng-model="movieData.duration" dx-number-box="{}">
                     </div>
                 </div>

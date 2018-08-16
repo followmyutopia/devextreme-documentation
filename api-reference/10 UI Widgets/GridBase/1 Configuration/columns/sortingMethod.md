@@ -43,7 +43,7 @@ The string comparison is culture-insensitive by default. Use the following code 
 #####Angular
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
     // ...
     export class AppComponent {
         sortStringsConsideringCulture (value1, value2) {

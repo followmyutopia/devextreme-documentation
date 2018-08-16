@@ -82,8 +82,8 @@ See [Knockout documentation](http://knockoutjs.com/documentation/event-binding.h
     </div> -->
 
     <!--JavaScript-->
-    angular.module('DemoApp', ['dx'])
-        .controller('DemoController', function DemoController($scope) {
+    angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function DemoController($scope) {
             $scope.dxholdHandler = function (jQueryEvent) {
                 alert(`The ${$(jQueryEvent.target).text()} element is being held for ${jQueryEvent.data.timeout} ms.`);
             }

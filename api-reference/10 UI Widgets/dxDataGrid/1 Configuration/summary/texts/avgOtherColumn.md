@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a pattern for the *'avg'* summary items displayed in a group row or in any other column rather than the parent one.
+Specifies a pattern for the *"avg"* summary items displayed in a group row or in any other column rather than the parent one.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -41,7 +41,7 @@ The **ProgressBar** is a widget that shows current progress.
     </dx-progress-bar>
 
     <!--TypeScript-->
-    import { DxProgressBarModule } from 'devextreme-angular'
+    import { DxProgressBarModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...

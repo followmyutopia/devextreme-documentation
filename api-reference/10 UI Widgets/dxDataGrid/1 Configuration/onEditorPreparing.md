@@ -36,7 +36,7 @@ In the following code, a default editor is replaced with the DevExtreme [TextAre
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onEditorPreparing (e) { 
@@ -91,7 +91,7 @@ The following code shows how to replace a default editor with a non-DevExtreme e
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onEditorPreparing (e) { 
@@ -150,7 +150,7 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->parentType<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The editor's location. One of *'dataRow'*, *'filterRow'*, *'headerRow'* or *'searchPanel'*.      
+The editor's location. One of *"dataRow"*, *"filterRow"*, *"headerRow"* or *"searchPanel"*.      
 Options passed to the function depend on this value.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->value<!--/typeFunctionParamName1_field5-->
@@ -166,7 +166,7 @@ A method that you should call to change the cell value and, optionally, the disp
 <!--typeFunctionParamName1_field7-->updateValueTimeout<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-Gets and sets the delay between the moment a user stops typing a filter value and the moment it is applied. Available if **parentType** is *'filterRow'* or *'searchPanel'*.
+Gets and sets the delay between the moment a user stops typing a filter value and the moment it is applied. Available if **parentType** is *"filterRow"* or *"searchPanel"*.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->width<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->Number<!--/typeFunctionParamType1_field8-->

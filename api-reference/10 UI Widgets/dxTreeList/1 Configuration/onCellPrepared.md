@@ -35,29 +35,29 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The data of the row to which the cell belongs. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.
+The data of the row to which the cell belongs. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The row's key. Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.       
+The row's key. Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.       
 For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->value<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->any<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-The cell's raw value. Available if the **rowType** is *'data'*.
+The cell's raw value. Available if the **rowType** is *"data"*.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->displayValue<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->String<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-The cell's displayed value. Available if the **rowType** is *'data'*.       
+The cell's displayed value. Available if the **rowType** is *"data"*.       
 Differs from the **value** field only when the cell belongs to the [lookup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/) column.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->text<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->String<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#format) value converted to a string. Available if the **rowType** is *'data'*.        
+The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#format) value converted to a string. Available if the **rowType** is *"data"*.        
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->columnIndex<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->Number<!--/typeFunctionParamType1_field9-->
@@ -82,17 +82,17 @@ The row's [type](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/#rowType)
 <!--typeFunctionParamName1_field13-->row<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->dxTreeListRowObject<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-The row [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/). Available if the **rowType** is *'data'*, *'detail'* or *'detailAdaptive'*.
+The row [properties](/Documentation/ApiReference/UI_Widgets/dxTreeList/Row/). Available if the **rowType** is *"data"*, *"detail"* or *"detailAdaptive"*.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->isSelected<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->Boolean<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-Indicates whether the row is selected. Available if **rowType** is *'data'* or *'detail'*.
+Indicates whether the row is selected. Available if **rowType** is *"data"* or *"detail"*.
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->isExpanded<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->Boolean<!--/typeFunctionParamType1_field15-->
 <!--typeFunctionParamDescription1_field15-->
-Indicates whether the row is expanded or collapsed. Available if **rowType** is *'data'* or *'detail'*.
+Indicates whether the row is expanded or collapsed. Available if **rowType** is *"data"* or *"detail"*.
 <!--/typeFunctionParamDescription1_field15-->
 <!--typeFunctionParamName1_field16-->cellElement<!--/typeFunctionParamName1_field16-->
 <!--typeFunctionParamType1_field16-->dxElement<!--/typeFunctionParamType1_field16-->

@@ -86,7 +86,7 @@ The **ResponsiveBox** widget allows you to create an application or a website wi
     </dx-responsive-box>
 
     <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular'
+    import { DxResponsiveBoxModule } from "devextreme-angular"
     // ...
     export class AppComponent {
         // ...
