@@ -35,7 +35,7 @@ You should call the [updateDimensions()](/Documentation/ApiReference/UI_Widgets/
         [masterDetail]="{ enabled: true, template: 'detail' }">
         <div *dxTemplate="let info of 'detail'">
             <dx-tab-panel ... 
-                [onSelectionChanged]="onSelectionChanged">
+                (onSelectionChanged)="onSelectionChanged()">
             </dx-tab-panel>
         </div>
     </dx-data-grid>
