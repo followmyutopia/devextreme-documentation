@@ -25,7 +25,7 @@ To bind the **Scheduler** to an array, pass this array to the [dataSource](/Docu
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         appointments = [{
@@ -82,8 +82,8 @@ If objects in the array need to be processed (for example, filtered), you can cr
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
-    import query from 'devextreme/data/query';
+    import { DxSchedulerModule } from "devextreme-angular";
+    import query from "devextreme/data/query";
     // ...
     export class AppComponent {
         appointments = [{ 

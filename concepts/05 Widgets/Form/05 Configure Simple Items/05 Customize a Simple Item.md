@@ -51,7 +51,7 @@ If none of the available editors suit your requirements, you can define a custom
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {
@@ -101,7 +101,7 @@ A simple item can be accompanied by a line of text that gives a hint, for exampl
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {
@@ -158,7 +158,7 @@ You can modify automatically generated items using the [customizeItem](/Document
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

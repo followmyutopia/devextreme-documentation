@@ -21,7 +21,7 @@ With the **DataGrid** widget, a user can sort by single and multiple columns. Us
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -66,7 +66,7 @@ To disable sorting in the whole widget, set the **sorting**.**mode** option to *
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

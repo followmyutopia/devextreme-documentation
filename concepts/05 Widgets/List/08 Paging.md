@@ -17,8 +17,8 @@
 #####Angular
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxListModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         listDataSource = new DataSource({
@@ -76,7 +76,7 @@ The next page can be rendered when a user scrolls the **List** down to the botto
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

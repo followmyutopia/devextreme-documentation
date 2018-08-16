@@ -11,8 +11,8 @@ To export a widget using the API, call the [exportTo(fileName, format)](/Documen
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxChartModule, DxChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxChartComponent) chart: DxChartComponent;
@@ -54,9 +54,9 @@ You can also export several widgets at once using their SVG markup. Gather the m
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxChartModule, DxChartComponent } from 'devextreme-angular';
-    import exportMethods from 'devextreme/viz/export';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxChartModule, DxChartComponent } from "devextreme-angular";
+    import exportMethods from "devextreme/viz/export";
     // ...
     export class AppComponent {
         @ViewChild('chartContainer1') chart1: DxChartComponent;

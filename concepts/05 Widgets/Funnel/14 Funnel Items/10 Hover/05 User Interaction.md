@@ -26,7 +26,7 @@ When a user presses or hovers over funnel items, they change their style to the 
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -61,7 +61,7 @@ If you need to disable this feature, set the [hoverEnabled](/Documentation/ApiRe
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -47,7 +47,7 @@ Specifies a custom aggregate function. Applies only if the [aggregation method](
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customAggregateFunc (aggregationInfo, series) {

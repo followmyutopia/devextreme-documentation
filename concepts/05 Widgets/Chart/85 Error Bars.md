@@ -36,7 +36,7 @@ Error bars can be generated either from concrete or calculated values. To genera
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         chartDataSource = [
@@ -84,7 +84,7 @@ Alternatively, error bar values can be calculated according to an algorithm. In 
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -154,7 +154,7 @@ Note that settings for individual series override type-specific settings which, 
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -38,7 +38,7 @@ If a node is supposed to be expanded initially, set its [expanded](/Documentatio
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         hierarchicalData = [{

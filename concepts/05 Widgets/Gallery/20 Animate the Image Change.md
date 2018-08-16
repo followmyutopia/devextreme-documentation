@@ -28,7 +28,7 @@ By default, the change of the image is animated. You can specify how long the an
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule } from 'devextreme-angular';
+    import { DxGalleryModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         galleryDataSource = [

@@ -31,7 +31,7 @@ Assign a non-negative integer to the **columns**.[groupIndex](/Documentation/Api
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -59,8 +59,8 @@ You can change a column's **groupIndex** at runtime using the [columnOption(id, 
 #####Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;

@@ -35,7 +35,7 @@ The following code adds the **TagBox** to your page. The simplest configuration 
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products = [
@@ -92,7 +92,7 @@ If your data is an array of objects, specify:
     <dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [

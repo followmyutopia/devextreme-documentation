@@ -53,7 +53,7 @@ The following code adds a simple **Accordion** to your page. Note that each data
     </dx-accordion>
 
     <!--TypeScript-->
-    import { DxAccordionModule } from 'devextreme-angular';
+    import { DxAccordionModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         accordionData = [{

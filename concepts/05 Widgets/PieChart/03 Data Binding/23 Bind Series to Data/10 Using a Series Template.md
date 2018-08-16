@@ -40,7 +40,7 @@ After that, use the **seriesTemplate**.[nameField](/Documentation/ApiReference/D
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruitProduction = [
@@ -103,7 +103,7 @@ If you need to change options of a particular series, return an [object with the
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruitProduction = [

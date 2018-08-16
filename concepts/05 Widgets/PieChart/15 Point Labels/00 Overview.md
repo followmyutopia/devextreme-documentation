@@ -41,7 +41,7 @@ To configure point labels, use the [label](/Documentation/ApiReference/Data_Visu
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -86,7 +86,7 @@ Point labels are not visible by default. To make them visible, assign **true** t
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

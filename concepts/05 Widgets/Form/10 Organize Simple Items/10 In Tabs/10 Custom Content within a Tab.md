@@ -71,7 +71,7 @@ The **Form** widget allows you to specify custom templates for an individual tab
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

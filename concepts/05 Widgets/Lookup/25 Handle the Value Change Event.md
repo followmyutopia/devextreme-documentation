@@ -30,7 +30,7 @@ By default, the **Lookup** applies a value immediately after an end user chooses
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource =  [
@@ -73,7 +73,7 @@ To process a new **Lookup** value, you need to handle the value change event. If
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onValueChanged (e) {

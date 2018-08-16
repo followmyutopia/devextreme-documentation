@@ -31,7 +31,7 @@ You can configure axis labels using the [label](/Documentation/ApiReference/Data
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -75,7 +75,7 @@ Another noteworthy option is [overlappingBehavior](/Documentation/ApiReference/D
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

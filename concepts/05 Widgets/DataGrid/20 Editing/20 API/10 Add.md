@@ -9,8 +9,8 @@ Use the [addRow()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#ad
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
@@ -58,7 +58,7 @@ You can specify initial values for a newly added row in the [onInitNewRow](/Docu
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onInitNewRow (e) {

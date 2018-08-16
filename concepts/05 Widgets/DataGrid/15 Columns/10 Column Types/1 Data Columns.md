@@ -31,7 +31,7 @@ A data column automatically detects the type of its values. However, if the valu
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -14,7 +14,7 @@ To bind the **List** to an array, pass this array to the [dataSource](/Documenta
 #####Angular
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];
@@ -70,7 +70,7 @@ To bind the **List** to an array, pass this array to the [dataSource](/Documenta
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [
@@ -118,8 +118,8 @@ If objects in an array need to be processed (sorted, filtered, grouped, etc.), y
 #####Angular
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
-    import query from 'devextreme/data/query';
+    import { DxListModule } from "devextreme-angular";
+    import query from "devextreme/data/query";
     // ...
     export class AppComponent {
         fruits = [

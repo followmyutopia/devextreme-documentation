@@ -24,7 +24,7 @@ Associate a DevExtreme editor with the [Validator](/Documentation/ApiReference/U
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTextBoxModule, DxValidatorModule } from 'devextreme-angular';
+    import { DxTextBoxModule, DxValidatorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         login: string = '';

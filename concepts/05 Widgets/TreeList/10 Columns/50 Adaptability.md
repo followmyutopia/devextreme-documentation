@@ -30,7 +30,7 @@ When adapting to a small container or screen, the **TreeList** can hide columns.
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -57,8 +57,8 @@ The table layout does not automatically adapt to changes made in the widget's co
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
@@ -100,8 +100,8 @@ You can expand or collapse adaptive detail rows programmatically by calling the 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
@@ -142,7 +142,7 @@ All adaptive detail rows contain the [DevExtreme Form widget](/Documentation/Api
 ##### Angular
     
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onAdaptiveDetailRowPreparing (e) {

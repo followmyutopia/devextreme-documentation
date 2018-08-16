@@ -20,7 +20,7 @@ To bind the **TreeList** to an array, pass this array to the [dataSource](/Docum
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employees = [
@@ -70,8 +70,8 @@ If objects in the array need to be processed (sorted or filtered), you can creat
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
-    import query from 'devextreme/data/query';
+    import { DxTreeListModule } from "devextreme-angular";
+    import query from "devextreme/data/query";
     // ...
     export class AppComponent {
         employees = [

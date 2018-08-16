@@ -23,7 +23,7 @@ To configure the appearance, location, and content of the legend, use options co
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

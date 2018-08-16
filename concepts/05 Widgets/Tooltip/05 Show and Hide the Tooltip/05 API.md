@@ -132,7 +132,7 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the [visib
     </dx-button>
 
     <!--TypeScript-->
-    import { DxTooltipModule, DxButtonModule } from 'devextreme-angular';
+    import { DxTooltipModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         isTooltipVisible: boolean = false;

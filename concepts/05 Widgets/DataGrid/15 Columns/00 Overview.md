@@ -26,7 +26,7 @@ Columns represent sets of data values that have the same type. To configure colu
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -59,7 +59,7 @@ The **DataGrid** generates a column per data field if you do not specify the **c
 ##### Angular
     
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeColumns (columns) {

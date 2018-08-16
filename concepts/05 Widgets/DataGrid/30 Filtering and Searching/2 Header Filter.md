@@ -27,7 +27,7 @@ Assign **true** to the [headerFilter](/Documentation/ApiReference/UI_Widgets/dxD
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -79,7 +79,7 @@ A user can change the applied filter by including or excluding values. Use a col
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         filterValues: Array<any> = [2014];
@@ -131,7 +131,7 @@ You can use the **headerFilter**.[allowSearch](/Documentation/ApiReference/UI_Wi
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

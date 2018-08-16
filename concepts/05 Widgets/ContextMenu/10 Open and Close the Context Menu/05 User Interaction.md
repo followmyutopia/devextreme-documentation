@@ -27,7 +27,7 @@ By default, the **ContextMenu** appears when a user right-clicks the [target ele
     </dx-context-menu>
 
     <!--TypeScript-->
-    import { DxContextMenuModule } from 'devextreme-angular';
+    import { DxContextMenuModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         contextMenuItems = [
@@ -77,7 +77,7 @@ The **ContextMenu** is closed when a user clicks anywhere outside it. You can re
     </dx-context-menu>
 
     <!--TypeScript-->
-    import { DxContextMenuModule } from 'devextreme-angular';
+    import { DxContextMenuModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         contextMenuItems = [

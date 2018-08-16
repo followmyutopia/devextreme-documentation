@@ -12,8 +12,8 @@ The initial and runtime filtering API depends on the UI element and is described
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
@@ -45,8 +45,8 @@ You can create a filter that combines all the applied filters by calling the [ge
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;

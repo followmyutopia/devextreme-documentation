@@ -44,7 +44,7 @@ Note that **Bubble** series require an additional data field that provides size 
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

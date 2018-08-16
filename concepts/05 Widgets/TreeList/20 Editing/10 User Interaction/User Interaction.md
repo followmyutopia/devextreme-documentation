@@ -32,7 +32,7 @@ The **TreeList** widget allows a user to add, delete and update data. Assign **t
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -72,7 +72,7 @@ With the **TreeList** you can edit data in several modes. Use the **editing**.[m
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

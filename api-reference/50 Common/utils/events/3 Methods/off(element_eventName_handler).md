@@ -28,7 +28,7 @@ The handler to detach.
 <!--fullDescription-->
 
     // Modular approach
-    import { off } from 'devextreme/events';
+    import { off } from "devextreme/events";
     // ...
     off(document, "dxclick", clickHandler);
 

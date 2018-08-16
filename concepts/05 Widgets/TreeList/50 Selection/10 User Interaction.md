@@ -21,7 +21,7 @@ The **TreeList** widget supports single and multiple row selection. Use the **se
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -65,7 +65,7 @@ You can disable the latter feature by setting the **selection**.[allowSelectAll]
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -105,7 +105,7 @@ Selection is non-recursive by default, that is, only the clicked row is selected
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

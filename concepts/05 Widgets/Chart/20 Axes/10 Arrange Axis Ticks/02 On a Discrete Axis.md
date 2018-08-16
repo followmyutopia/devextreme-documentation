@@ -23,7 +23,7 @@ Values on a discrete axis are called ["categories"](/Documentation/ApiReference/
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

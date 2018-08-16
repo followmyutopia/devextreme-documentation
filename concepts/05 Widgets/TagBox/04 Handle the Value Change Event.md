@@ -22,7 +22,7 @@ To process new **TagBox** values, you need to handle the value change event. If 
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onValueChanged (e) {

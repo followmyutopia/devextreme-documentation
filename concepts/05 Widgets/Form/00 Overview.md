@@ -37,7 +37,7 @@ The following code adds the **Form** widget to your page. The simplest configura
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

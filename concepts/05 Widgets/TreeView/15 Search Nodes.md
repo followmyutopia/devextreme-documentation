@@ -39,7 +39,7 @@ Searching is disabled in the **TreeView** widget by default. Assign **true** to 
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         treeViewData = [
@@ -97,7 +97,7 @@ When a user types a string in the input field, the **TreeView** suggests all nod
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         treeViewData = [
@@ -157,7 +157,7 @@ You can customize the search panel by specifying the [searchEditorOptions](/Docu
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         treeViewData = [

@@ -38,7 +38,7 @@ The following code creates a simple **Tooltip** on your page and attaches it to 
     </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxTooltipModule } from 'devextreme-angular';
+    import { DxTooltipModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

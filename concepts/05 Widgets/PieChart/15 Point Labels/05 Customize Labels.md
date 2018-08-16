@@ -31,7 +31,7 @@ If you need to change the text displayed by point labels, declare the [customize
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeText (pointInfo: any) {
@@ -87,7 +87,7 @@ You can also customize an individual label. For this purpose, assign a function 
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // All point labels with the value more than 100 turn red

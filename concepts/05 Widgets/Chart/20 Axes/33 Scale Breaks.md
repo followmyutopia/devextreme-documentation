@@ -30,7 +30,7 @@ Use an axis' [breaks](/Documentation/ApiReference/Data_Visualization_Widgets/dxC
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -71,7 +71,7 @@ The value axis supports auto-calculated scale breaks, which can be enabled by se
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

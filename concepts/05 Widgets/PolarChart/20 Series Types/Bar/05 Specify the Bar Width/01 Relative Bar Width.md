@@ -33,7 +33,7 @@ Regulating the empty space on a bar's sides controls the relative angular bar wi
     </dx-polar-chart>
 
     <!--TypeScript-->
-    import { DxPolarChartModule } from 'devextreme-angular';
+    import { DxPolarChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -71,7 +71,7 @@ The parent group's width can be specified using the [barGroupPadding](/Documenta
     </dx-polar-chart>
 
     <!--TypeScript-->
-    import { DxPolarChartModule } from 'devextreme-angular';
+    import { DxPolarChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -49,8 +49,8 @@ To switch the **Gallery** to the next or previous image, call the [nextItem(anim
     </dx-button>
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxButtonModule, DxGalleryModule, DxGalleryComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxButtonModule, DxGalleryModule, DxGalleryComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxGalleryComponent) gallery: DxGalleryComponent;
@@ -91,7 +91,7 @@ To navigate to a specific image, call the [goToItem(itemIndex, animation)](/Docu
 #####Angular
 
     <!--TypeScript-->
-    import { DxGalleryModule, DxGalleryComponent } from 'devextreme-angular';
+    import { DxGalleryModule, DxGalleryComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxGalleryComponent) gallery: DxGalleryComponent;

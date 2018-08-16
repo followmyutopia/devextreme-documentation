@@ -17,7 +17,7 @@ When a user types a value into the **TextBox**, this value applies when the [cha
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -55,7 +55,7 @@ To process a new **TextBox** value, you need to handle the value change event. I
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onValueChanged (e) {

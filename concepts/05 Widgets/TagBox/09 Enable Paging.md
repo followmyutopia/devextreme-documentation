@@ -18,8 +18,8 @@ Paging options are set in the [DataSource](/Documentation/ApiReference/Data_Laye
 #####Angular
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxTagBoxModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         tagBoxData: DataSource = {};

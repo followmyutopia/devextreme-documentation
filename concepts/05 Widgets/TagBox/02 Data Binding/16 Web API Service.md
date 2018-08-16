@@ -19,9 +19,9 @@ DevExtreme provides the [DevExtreme.AspNet.Data](https://github.com/DevExpress/D
 #####Angular
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
-    import CustomStore from 'devextreme/data/custom_store';
-    import { createStore } from 'devextreme-aspnet-data-nojquery';
+    import { DxTagBoxModule } from "devextreme-angular";
+    import CustomStore from "devextreme/data/custom_store";
+    import { createStore } from "devextreme-aspnet-data-nojquery";
     // ...
     export class AppComponent {
         store: CustomStore;

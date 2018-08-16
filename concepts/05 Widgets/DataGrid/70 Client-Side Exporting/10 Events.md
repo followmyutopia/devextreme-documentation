@@ -39,7 +39,7 @@ You can handle these events with functions. Assign the handling functions to the
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onExporting (e) {

@@ -42,7 +42,7 @@ Call the [deleteRow(rowIndex)](/Documentation/ApiReference/UI_Widgets/dxTreeList
     </dx-button>
 
     <!--TypeScript-->
-    import { DxTreeListModule, DxButtonModule } from 'devextreme-angular';
+    import { DxTreeListModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
@@ -73,7 +73,7 @@ Note that in the [batch mode](/Documentation/Guide/Widgets/TreeList/Editing/#Use
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;

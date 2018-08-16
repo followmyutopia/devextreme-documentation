@@ -35,7 +35,7 @@ All layout elements are arranged against a [layout grid](/Documentation/Guide/Wi
     </html>
 
     <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular';
+    import { DxResponsiveBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -143,7 +143,7 @@ Every layout element has the [location](/Documentation/ApiReference/UI_Widgets/d
     </html>
 
     <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular';
+    import { DxResponsiveBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -202,7 +202,7 @@ If on some screens, all elements should be arranged in a single column, assign t
     </html>
 
     <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular';
+    import { DxResponsiveBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

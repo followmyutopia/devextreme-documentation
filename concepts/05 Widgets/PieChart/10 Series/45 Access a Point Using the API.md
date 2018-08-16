@@ -8,8 +8,8 @@ Before accessing a series point, gain access to its series by calling the [getAl
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxPieChartModule, DxPieChartComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
@@ -42,8 +42,8 @@ Gets all the series points.
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxPieChartModule, DxPieChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
@@ -74,8 +74,8 @@ Gets those series points that have a specific argument.
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxPieChartModule, DxPieChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
@@ -106,8 +106,8 @@ Gets a point using its index. The index is zero-based.
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxPieChartModule, DxPieChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
@@ -138,8 +138,8 @@ Gets only [visible](/Documentation/ApiReference/Data_Visualization_Widgets/dxPie
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxPieChartModule, DxPieChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;
@@ -182,7 +182,7 @@ Apart from the API methods, you can access a series point in the event handlers.
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onPointClick (e) {

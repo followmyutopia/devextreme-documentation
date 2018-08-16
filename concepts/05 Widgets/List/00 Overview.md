@@ -27,7 +27,7 @@ The following code adds a simple **List** to your page. The simplest configurati
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = ["Apples", "Oranges", "Lemons", "Pears", "Pineapples"];

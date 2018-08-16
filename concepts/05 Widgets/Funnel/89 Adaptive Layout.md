@@ -20,7 +20,7 @@ With the ever-growing variety of platforms, today's web sites and applications c
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -49,8 +49,8 @@ The layout does not automatically adapt to changes made in the widget's containe
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxFunnelModule, DxFunnelComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxFunnelModule, DxFunnelComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;

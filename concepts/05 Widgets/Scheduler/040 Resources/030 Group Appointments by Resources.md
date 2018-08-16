@@ -46,7 +46,7 @@ To group appointments by resources, assign an array to the [groups](/Documentati
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  { 
         // ...
@@ -90,7 +90,7 @@ You can change resource headers' orientation in an individual view using the **v
 #####Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

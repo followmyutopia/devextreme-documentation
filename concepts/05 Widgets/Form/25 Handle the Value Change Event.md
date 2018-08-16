@@ -22,7 +22,7 @@ To process a new form item value, you need to handle the [fieldDataChanged](/Doc
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

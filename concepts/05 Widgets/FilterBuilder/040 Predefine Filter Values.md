@@ -38,7 +38,7 @@ Each lookup field has an individual [data source](/Documentation/ApiReference/UI
     </dx-filter-builder>
 
     <!--TypeScript-->
-    import { DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupData = [
@@ -101,7 +101,7 @@ Each lookup field has an individual [data source](/Documentation/ApiReference/UI
     </dx-filter-builder>
 
     <!--TypeScript-->
-    import { DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         statuses = [

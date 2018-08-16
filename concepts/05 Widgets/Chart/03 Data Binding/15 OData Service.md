@@ -28,9 +28,9 @@ To bind the **Chart** to data provided by an OData service, use the [ODataStore]
 ##### Angular
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
-    import 'devextreme/data/odata/store';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxChartModule } from "devextreme-angular";
+    import "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         chartDataSource = new DataSource({
@@ -91,9 +91,9 @@ As you may notice, in the previous code, the **ODataStore** is not declared expl
 ##### Angular
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
-    import 'devextreme/data/odata/store';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxChartModule } from "devextreme-angular";
+    import "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         chartDataSource = new DataSource({

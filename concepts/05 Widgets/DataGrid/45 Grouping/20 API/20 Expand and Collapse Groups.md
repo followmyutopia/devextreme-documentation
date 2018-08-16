@@ -33,8 +33,8 @@ The **DataGrid** provides the following API for expanding and collapsing groups:
         </dx-data-grid>
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
@@ -93,8 +93,8 @@ The **DataGrid** provides the following API for expanding and collapsing groups:
         </dx-data-grid>
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
@@ -132,8 +132,8 @@ The **DataGrid** provides the following API for expanding and collapsing groups:
     #####Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;

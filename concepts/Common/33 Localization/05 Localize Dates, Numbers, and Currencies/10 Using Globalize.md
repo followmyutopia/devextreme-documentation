@@ -79,30 +79,30 @@ All the components are also available via CDN and npm.
     ##### npm: ECMAScript 6 syntax / SystemJS configuration
 
         <!--JavaScript-->
-        import 'devextreme/localization/globalize/number';
-        import 'devextreme/localization/globalize/date';
-        import 'devextreme/localization/globalize/currency';
-        import 'devextreme/localization/globalize/message';
+        import "devextreme/localization/globalize/number";
+        import "devextreme/localization/globalize/date";
+        import "devextreme/localization/globalize/currency";
+        import "devextreme/localization/globalize/message";
 
         // Dictionaries for German and Russian languages
-        import deMessages from 'devextreme/localization/messages/de.json!json';
-        import ruMessages from 'devextreme/localization/messages/ru.json!json';
+        import deMessages from "devextreme/localization/messages/de.json!json";
+        import ruMessages from "devextreme/localization/messages/ru.json!json";
 
         // Language-specific CLDR JSONs for German and Russian
-        import deCaGregorian from 'cldr-data/main/de/ca-gregorian.json!json';
-        import deNumbers from 'cldr-data/main/de/numbers.json!json';
-        import deCurrencies from 'cldr-data/main/de/currencies.json!json';
-        import ruCaGregorian from 'cldr-data/main/ru/ca-gregorian.json!json';
-        import ruNumbers from 'cldr-data/main/ru/numbers.json!json';
-        import ruCurrencies from 'cldr-data/main/ru/currencies.json!json';
+        import deCaGregorian from "cldr-data/main/de/ca-gregorian.json!json";
+        import deNumbers from "cldr-data/main/de/numbers.json!json";
+        import deCurrencies from "cldr-data/main/de/currencies.json!json";
+        import ruCaGregorian from "cldr-data/main/ru/ca-gregorian.json!json";
+        import ruNumbers from "cldr-data/main/ru/numbers.json!json";
+        import ruCurrencies from "cldr-data/main/ru/currencies.json!json";
 
-        import likelySubtags from 'cldr-data/supplemental/likelySubtags.json!json';
-        import timeData from 'cldr-data/supplemental/timeData.json!json';
-        import weekData from 'cldr-data/supplemental/weekData.json!json';
-        import currencyData from 'cldr-data/supplemental/currencyData.json!json';
-        import numberingSystems from 'cldr-data/supplemental/numberingSystems.json!json';
+        import likelySubtags from "cldr-data/supplemental/likelySubtags.json!json";
+        import timeData from "cldr-data/supplemental/timeData.json!json";
+        import weekData from "cldr-data/supplemental/weekData.json!json";
+        import currencyData from "cldr-data/supplemental/currencyData.json!json";
+        import numberingSystems from "cldr-data/supplemental/numberingSystems.json!json";
 
-        import Globalize from 'globalize';
+        import Globalize from "globalize";
 
         Globalize.load(
             deCaGregorian, deNumbers, deCurrencies,
@@ -125,25 +125,25 @@ All the components are also available via CDN and npm.
         System.config({
             // ...
             paths: {
-                'npm:': 'node_modules/'
+                "npm:": "node_modules/"
             },
             map: {
                 // ...
-                'globalize': 'npm:globalize/dist/globalize',
-                'cldr': 'npm:cldrjs/dist/cldr',
-                'cldr-data': 'npm:cldr-data',
-                'json': 'npm:systemjs-plugin-json/json.js',
+                "globalize": "npm:globalize/dist/globalize",
+                "cldr": "npm:cldrjs/dist/cldr",
+                "cldr-data": "npm:cldr-data",
+                "json": "npm:systemjs-plugin-json/json.js",
             },
             packages: {
                 app: {
                     // ...
-                    'globalize': {
-                        main: '../globalize.js',
-                        defaultExtension: 'js'
+                    "globalize": {
+                        main: "../globalize.js",
+                        defaultExtension: "js"
                     },
-                    'cldr': {
-                        main: '../cldr.js',
-                        defaultExtension: 'js'
+                    "cldr": {
+                        main: "../cldr.js",
+                        defaultExtension: "js"
                     }
                 }
             }
@@ -152,29 +152,29 @@ All the components are also available via CDN and npm.
     ##### npm: CommonJS syntax / Webpack configuration
 
         <!--JavaScript-->
-        require('devextreme/localization/globalize/message');
-        require('devextreme/localization/globalize/number');
-        require('devextreme/localization/globalize/currency');
-        require('devextreme/localization/globalize/date');
+        require("devextreme/localization/globalize/message");
+        require("devextreme/localization/globalize/number");
+        require("devextreme/localization/globalize/currency");
+        require("devextreme/localization/globalize/date");
 
         // Dictionaries for German and Russian languages
-        const deMessages = require('devextreme/localization/messages/de.json');
-        const ruMessages = require('devextreme/localization/messages/ru.json');
+        const deMessages = require("devextreme/localization/messages/de.json");
+        const ruMessages = require("devextreme/localization/messages/ru.json");
         
-        const Globalize = require('globalize');
+        const Globalize = require("globalize");
         Globalize.load(
             // Language-specific CLDR JSONs for German and Russian
-            require('cldr-data/main/de/ca-gregorian.json'),
-            require('cldr-data/main/de/numbers.json'),
-            require('cldr-data/main/de/currencies.json'),
-            require('cldr-data/main/ru/ca-gregorian.json'),
-            require('cldr-data/main/ru/numbers.json'),
-            require('cldr-data/main/ru/currencies.json'),
-            require('cldr-data/supplemental/likelySubtags.json'),
-            require('cldr-data/supplemental/timeData.json'),
-            require('cldr-data/supplemental/weekData.json'),
-            require('cldr-data/supplemental/currencyData.json'),
-            require('cldr-data/supplemental/numberingSystems.json')
+            require("cldr-data/main/de/ca-gregorian.json"),
+            require("cldr-data/main/de/numbers.json"),
+            require("cldr-data/main/de/currencies.json"),
+            require("cldr-data/main/ru/ca-gregorian.json"),
+            require("cldr-data/main/ru/numbers.json"),
+            require("cldr-data/main/ru/currencies.json"),
+            require("cldr-data/supplemental/likelySubtags.json"),
+            require("cldr-data/supplemental/timeData.json"),
+            require("cldr-data/supplemental/weekData.json"),
+            require("cldr-data/supplemental/currencyData.json"),
+            require("cldr-data/supplemental/numberingSystems.json")
         );
 
         Globalize.loadMessages(deMessages);
@@ -189,10 +189,10 @@ All the components are also available via CDN and npm.
             // ...
             resolve: {
                 alias: {
-                    globalize$: path.resolve( __dirname, 'node_modules/globalize/dist/globalize.js' ),
-                    globalize: path.resolve(__dirname, 'node_modules/globalize/dist/globalize'),
-                    cldr$: path.resolve(__dirname, 'node_modules/cldrjs/dist/cldr.js'),
-                    cldr: path.resolve(__dirname, 'node_modules/cldrjs/dist/cldr')
+                    globalize$: path.resolve( __dirname, "node_modules/globalize/dist/globalize.js" ),
+                    globalize: path.resolve(__dirname, "node_modules/globalize/dist/globalize"),
+                    cldr$: path.resolve(__dirname, "node_modules/cldrjs/dist/cldr.js"),
+                    cldr: path.resolve(__dirname, "node_modules/cldrjs/dist/cldr")
                 }
             }
         }
@@ -239,7 +239,7 @@ In addition, you can now format values using structures accepted by [numberForma
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

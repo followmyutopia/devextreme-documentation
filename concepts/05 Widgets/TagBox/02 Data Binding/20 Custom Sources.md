@@ -22,12 +22,12 @@ The **CustomSource**'s configuration differs depending on whether data is proces
 #####Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule } from '@angular/common/http';
-    import DataSource from 'devextreme/data/data_source';
-    import { DxTagBoxModule } from 'devextreme-angular';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule } from "@angular/common/http";
+    import DataSource from "devextreme/data/data_source";
+    import { DxTagBoxModule } from "devextreme-angular";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent  {
         tagBoxData: DataSource = {};
@@ -150,12 +150,12 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
 #####Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
-    import { DxTagBoxModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule, HttpParams } from "@angular/common/http";
+    import { DxTagBoxModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent {
         tagBoxData: DataSource = {};

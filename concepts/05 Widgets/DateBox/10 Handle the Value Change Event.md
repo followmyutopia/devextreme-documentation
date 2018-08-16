@@ -22,7 +22,7 @@ If instead of picking a value, an end user types it into the **DateBox**, this v
     </dx-date-box>
 
     <!--TypeScript-->
-    import { DxDateBoxModule } from 'devextreme-angular';
+    import { DxDateBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         date: Date = new Date()
@@ -62,7 +62,7 @@ To process a new **DateBox** value, you need to handle the value change event. I
     </dx-date-box>
 
     <!--TypeScript-->
-    import { DxDateBoxModule } from 'devextreme-angular';
+    import { DxDateBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         dateBox_valueChanged (e) {

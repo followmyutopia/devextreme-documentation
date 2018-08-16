@@ -34,7 +34,7 @@ The [barWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Co
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -72,7 +72,7 @@ Bar groups' width can be changed using the [barGroupWidth](/Documentation/ApiRef
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -26,7 +26,7 @@ By default, the image that the **Gallery** widget displays initially is the firs
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule } from 'devextreme-angular';
+    import { DxGalleryModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         galleryDataSource = [
@@ -80,7 +80,7 @@ As an alternative, you can specify the initial image using its data source objec
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule } from 'devextreme-angular';
+    import { DxGalleryModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         galleryDataSource = [{

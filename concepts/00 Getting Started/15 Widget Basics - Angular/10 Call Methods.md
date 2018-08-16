@@ -1,7 +1,7 @@
 Before calling a widget's method, get the widget's component using either its name or a [template reference variable](https://angular.io/guide/template-syntax#template-reference-variables--var-) applying the [@ViewChild()](https://angular.io/api/core/ViewChild) decorator. The component's **instance** property exposes all the widget's methods. The following example shows how to call the [DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/) widget's [refresh()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#refresh) method:
 
     <!--TypeScript-->
-    import { Component, ViewChild } from '@angular/core';
+    import { Component, ViewChild } from "@angular/core";
     import { DxDataGridComponent } from "devextreme-angular";
 
     @Component({
@@ -24,7 +24,7 @@ Before calling a widget's method, get the widget's component using either its na
 If a page contains several instances of one widget, you can get a specific one using a template reference variable as shown in the previous code, or you can get a [QueryList](https://angular.io/api/core/QueryList) of all instances using the [@ViewChildren()](https://angular.io/api/core/ViewChildren) decorator:
 
     <!--TypeScript-->
-    import { Component, ViewChildren, QueryList } from '@angular/core';
+    import { Component, ViewChildren, QueryList } from "@angular/core";
     import { DxDataGridComponent } from "devextreme-angular";
 
     @Component({

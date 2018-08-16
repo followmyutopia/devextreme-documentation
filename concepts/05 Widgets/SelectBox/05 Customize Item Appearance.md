@@ -20,7 +20,7 @@ For a minor customization of **SelectBox** items, you can use the default item t
 #####Angular
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products =  [
@@ -65,7 +65,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectBoxData = [{
@@ -241,7 +241,7 @@ Using similar techniques, you can customize the input field of the **SelectBox**
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule, DxTextBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule, DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectBoxData = [

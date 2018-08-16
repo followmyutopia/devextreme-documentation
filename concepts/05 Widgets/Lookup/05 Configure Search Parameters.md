@@ -34,7 +34,7 @@ The **Lookup** widget allows a user to search through its items. Moreover, the w
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [
@@ -87,7 +87,7 @@ The **Lookup** widget can provide suggestions in two different modes: *'contains
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [
@@ -127,7 +127,7 @@ The **Lookup** widget starts providing suggestions once an end user types the fi
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -162,7 +162,7 @@ There is a delay between the moment a user finishes typing and the moment the **
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -197,7 +197,7 @@ The **Lookup** widget also clears previous search results before the drop-down m
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -232,7 +232,7 @@ Assign **false** to the [searchEnabled](/Documentation/ApiReference/UI_Widgets/d
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

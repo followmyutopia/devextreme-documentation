@@ -31,7 +31,7 @@ Items in the **SelectBox** can be grouped if they are grouped in the data source
 #####Angular
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruitsVegetables = [{
@@ -111,8 +111,8 @@ If objects in your data source miss the **key** and **items** fields, use the [m
 #####Angular
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxSelectBoxModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         fruitsVegetables = [{
@@ -188,8 +188,8 @@ If your data is not grouped, you can group it using the [group](/Documentation/A
 #####Angular
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxSelectBoxModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         fruitsVegetables = [

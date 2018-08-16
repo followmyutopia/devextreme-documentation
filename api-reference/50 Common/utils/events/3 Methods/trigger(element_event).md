@@ -21,7 +21,7 @@ An event or its name.
 
 <!--fullDescription-->
     // Modular approach
-    import { trigger } from 'devextreme/events';
+    import { trigger } from "devextreme/events";
     // ...
     trigger(document, "customEvent");
 

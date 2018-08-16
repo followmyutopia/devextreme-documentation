@@ -28,7 +28,7 @@ Declare several objects in the [panes](/Documentation/ApiReference/Data_Visualiz
         </dx-chart>
 
         <!--TypeScript-->
-        import { DxChartModule } from 'devextreme-angular';
+        import { DxChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -69,7 +69,7 @@ Bind each of them to a pane using the [pane](/Documentation/ApiReference/Data_Vi
         </dx-chart>
 
         <!--TypeScript-->
-        import { DxChartModule } from 'devextreme-angular';
+        import { DxChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -120,7 +120,7 @@ Bind each series to a pane using the [pane](/Documentation/ApiReference/Data_Vis
         </dx-chart>
 
         <!--TypeScript-->
-        import { DxChartModule } from 'devextreme-angular';
+        import { DxChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -166,7 +166,7 @@ If all panes in a multi-pane chart should have uniform settings, you can specify
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

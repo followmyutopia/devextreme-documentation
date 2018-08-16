@@ -33,7 +33,7 @@ This function is often used to implement item selection as shown in the followin
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectItem (e) {

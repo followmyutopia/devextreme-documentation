@@ -27,7 +27,7 @@ You can enable both exporting and printing by setting the [export](/Documentatio
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -69,7 +69,7 @@ If you want to restrict the set of formats available for exporting, change the *
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

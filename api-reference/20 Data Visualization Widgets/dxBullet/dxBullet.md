@@ -43,7 +43,7 @@ The **Bullet** widget is useful when you need to compare a single measure to a t
     </dx-bullet>
 
     <!--TypeScript-->
-    import { DxBulletModule } from 'devextreme-angular';
+    import { DxBulletModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

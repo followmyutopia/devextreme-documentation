@@ -23,7 +23,7 @@ Options that configure the legend's appearance, location, and content are collec
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

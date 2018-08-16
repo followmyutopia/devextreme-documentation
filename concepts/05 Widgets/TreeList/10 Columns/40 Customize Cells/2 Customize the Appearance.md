@@ -13,7 +13,7 @@ DevExtreme provides a markup component called [dxTemplate](/Documentation/ApiRef
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -106,7 +106,7 @@ While **cellTemplate** customizes data cells only, the [onCellPrepared](/Documen
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onCellPrepared (e) {

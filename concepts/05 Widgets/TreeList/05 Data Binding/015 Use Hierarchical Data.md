@@ -34,7 +34,7 @@ If you use hierarchical data, set the [dataStructure](/Documentation/ApiReferenc
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         hierarchicalData = [{
@@ -111,7 +111,7 @@ All items with children have the **items** field. If you use another name for th
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         hierarchicalData = [{

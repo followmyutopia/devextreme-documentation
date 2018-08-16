@@ -21,7 +21,7 @@ Load JSON data by assigning its URL to the [dataSource](/Documentation/ApiRefere
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -56,7 +56,7 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

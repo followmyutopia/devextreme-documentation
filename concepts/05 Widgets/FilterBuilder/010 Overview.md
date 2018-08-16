@@ -48,7 +48,7 @@ The following code adds a simple **FilterBuilder** to your page. Note that each 
     </dx-filter-builder>
 
     <!--TypeScript-->
-    import { DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fields = [{

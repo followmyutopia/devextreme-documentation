@@ -35,7 +35,7 @@ If you need to add an empty space between neighboring items, use an [empty item]
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

@@ -26,7 +26,7 @@ Labels are located beside their series points by default. Change the **series**.
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

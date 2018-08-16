@@ -39,7 +39,7 @@ The **DataGrid** widget has an integrated filter builder that can be invoked usi
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxDataGridModule, DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         columns = [{
@@ -91,7 +91,7 @@ Then, add a button that updates a filter of the **DataGrid**'s data source accor
         DxFilterBuilderModule, 
         DxDataGridComponent, 
         DxFilterBuilderComponent 
-    } from 'devextreme-angular';
+    } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;

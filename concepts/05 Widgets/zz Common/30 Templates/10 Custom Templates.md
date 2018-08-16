@@ -13,7 +13,7 @@ DevExtreme provides the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Mark
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         listData = [
@@ -118,7 +118,7 @@ You can define custom templates for individual items in<a name="In_Collection_Wi
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule, DxButtonModule } from 'devextreme-angular';
+    import { DxListModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -28,7 +28,7 @@ If you do not explicitly specify certain columns' [width](/Documentation/ApiRefe
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -64,7 +64,7 @@ Set the [columnAutoWidth](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Conf
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -109,7 +109,7 @@ The widget allows a user to resize columns in two different modes: by changing t
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

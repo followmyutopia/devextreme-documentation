@@ -17,7 +17,7 @@ To bind the **PieChart** to data in a JSON format, assign the data's URL to the 
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -51,7 +51,7 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

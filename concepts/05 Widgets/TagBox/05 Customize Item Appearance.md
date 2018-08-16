@@ -21,7 +21,7 @@ For a minor customization of **TagBox** items, you can use the default item temp
 #####Angular
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products =  [
@@ -66,7 +66,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [{
@@ -233,7 +233,7 @@ Using similar techniques, you can also customize tags of the selected items. The
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [

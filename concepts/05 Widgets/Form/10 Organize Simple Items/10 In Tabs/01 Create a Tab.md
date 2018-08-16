@@ -46,7 +46,7 @@ The **Form** widget allows you to organize items in tabs. In the context of the 
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

@@ -39,7 +39,7 @@ If appointments in your data source omit the **allDay** field but have another f
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         allDayAppointments = [{

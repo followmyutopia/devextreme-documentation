@@ -25,7 +25,7 @@ To execute certain commands before or after an appointment was updated, handle t
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onAppointmentUpdating (e) {

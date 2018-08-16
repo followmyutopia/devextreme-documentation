@@ -30,7 +30,7 @@ Specify the [maxDisplayedTags](/Documentation/ApiReference/UI_Widgets/dxTagBox/C
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products = [
@@ -84,7 +84,7 @@ You can also customize the multi-tag within the [onMultiTagPreparing](/Documenta
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products = [

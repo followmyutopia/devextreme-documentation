@@ -32,7 +32,7 @@ Set the [showNavigationButtons](/Documentation/ApiReference/UI_Widgets/dxTreeLis
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -79,7 +79,7 @@ Assign **true** to the [showInfo](/Documentation/ApiReference/UI_Widgets/dxTreeL
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

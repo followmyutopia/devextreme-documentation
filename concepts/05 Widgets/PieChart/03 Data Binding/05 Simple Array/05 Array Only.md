@@ -25,7 +25,7 @@ To bind the **PieChart** to an array, pass this array to the [dataSource](/Docum
 ##### Angular
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [
@@ -77,8 +77,8 @@ If objects in the array need to be processed (sorted, filtered, etc.), you can c
 ##### Angular
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
-    import query from 'devextreme/data/query';
+    import { DxPieChartModule } from "devextreme-angular";
+    import query from "devextreme/data/query";
     // ...
     export class AppComponent {
         fruits = [

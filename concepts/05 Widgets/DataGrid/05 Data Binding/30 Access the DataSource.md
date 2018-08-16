@@ -9,8 +9,8 @@ Regardless of the data source you use, the **DataGrid** always wraps it in the [
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;

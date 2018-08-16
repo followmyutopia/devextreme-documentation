@@ -57,7 +57,7 @@ The following code adds the **Scheduler** widget to your page. The simplest conf
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         appointments = [{
@@ -143,7 +143,7 @@ If your appointments have a different structure, specify:
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         appointments = [{ 

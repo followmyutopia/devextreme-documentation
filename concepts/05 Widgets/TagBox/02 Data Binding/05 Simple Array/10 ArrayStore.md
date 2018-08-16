@@ -19,8 +19,8 @@
 #####Angular
 
     <!--TypeScript-->
-    import ArrayStore from 'devextreme/data/array_store';
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import ArrayStore from "devextreme/data/array_store";
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products = [ /* ... */ ];
@@ -75,8 +75,8 @@ Data kept in the **ArrayStore** can be processed in a [DataSource](/Documentatio
 #####Angular
 
     <!--TypeScript-->
-    import DataSource from 'devextreme/data/data_source';
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import DataSource from "devextreme/data/data_source";
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products = [

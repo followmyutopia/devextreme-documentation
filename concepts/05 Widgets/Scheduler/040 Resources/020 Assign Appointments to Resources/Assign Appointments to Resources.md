@@ -68,8 +68,8 @@ To define resource kinds, assign an array of objects specifying them to the [res
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxSchedulerModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent  {
         // ...

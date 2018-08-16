@@ -62,7 +62,7 @@ If a size qualifier should be identified with other screen width values, use the
     </html>
 
     <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular';
+    import { DxResponsiveBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         getSizeQualifier (width) {

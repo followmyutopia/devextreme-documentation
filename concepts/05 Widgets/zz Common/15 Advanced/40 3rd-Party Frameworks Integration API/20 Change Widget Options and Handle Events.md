@@ -1,7 +1,7 @@
 A specific widget instance is required to call methods and subscribe to events. Call the widget class's static **getInstance(element)** method to retrieve the existing widget instance.
 
     // Modular approach
-    import Accordion from 'devextreme/ui/accordion';
+    import Accordion from "devextreme/ui/accordion";
     ...
     let element = document.getElementById("myAccordion");
     let instance = Accordion.getInstance(element) as Accordion;

@@ -22,7 +22,7 @@ Labels are arranged in a column by default. Change the **label**.[position](/Doc
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

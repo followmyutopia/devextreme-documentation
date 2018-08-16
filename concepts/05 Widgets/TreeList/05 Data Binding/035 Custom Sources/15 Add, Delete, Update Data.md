@@ -26,7 +26,7 @@ To allow a user to add, delete and update data in the **TreeList**, assign **tru
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -81,12 +81,12 @@ With these settings, the **TreeList** expects that the server can also add, upda
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule } from '@angular/common/http';
-    import { DxTreeListModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule } from "@angular/common/http";
+    import { DxTreeListModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent {
         treeListDataSource: any = {};

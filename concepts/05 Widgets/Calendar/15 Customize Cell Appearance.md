@@ -13,7 +13,7 @@ For Angular, AngularJS, and Knockout apps, DevExtreme provides a markup componen
     </dx-calendar>
 
     <!--TypeScript-->
-    import { DxCalendarModule } from 'devextreme-angular';
+    import { DxCalendarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         currentDate: Date = new Date();

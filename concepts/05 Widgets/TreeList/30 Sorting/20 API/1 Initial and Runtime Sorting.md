@@ -23,7 +23,7 @@ Rows are sorted according to the data source by default. Set the [sortOrder](/Do
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -52,8 +52,8 @@ Change the **sortOrder** and **sortIndex** options using the [columnOption](/Doc
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;

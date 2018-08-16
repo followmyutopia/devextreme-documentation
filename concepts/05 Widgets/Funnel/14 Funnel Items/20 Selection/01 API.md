@@ -20,7 +20,7 @@ The selection capability is not provided out of the box, but it can be implement
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onItemClick (e) {
@@ -47,8 +47,8 @@ In the previous code example, selection was cleared of a specific item. If you n
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxFunnelModule, DxFunnelComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxFunnelModule, DxFunnelComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;

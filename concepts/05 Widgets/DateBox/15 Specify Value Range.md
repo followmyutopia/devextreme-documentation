@@ -24,7 +24,7 @@ To specify the date or time range, use the [min](/Documentation/ApiReference/UI_
     </dx-date-box>
 
     <!--TypeScript-->
-    import { DxDateBoxModule } from 'devextreme-angular';
+    import { DxDateBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -67,7 +67,7 @@ If an entered value falls out of the range, the widget displays an error message
     </dx-date-box>
 
     <!--TypeScript-->
-    import { DxDateBoxModule } from 'devextreme-angular';
+    import { DxDateBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

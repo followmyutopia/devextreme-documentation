@@ -21,7 +21,7 @@ The widget's instance.
 **getInstance** is a static method that the widget class supports. The following code demonstrates how to get the **{WidgetName}** instance found in an element with the `my{WidgetName}` ID:
 
     // Modular approach
-    import {WidgetName} from 'devextreme/viz/{widget_name}';
+    import {WidgetName} from "devextreme/viz/{widget_name}";
     ...
     let element = document.getElementById("my{WidgetName}");
     let instance = {WidgetName}.getInstance(element) as {WidgetName};

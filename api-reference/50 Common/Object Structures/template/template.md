@@ -24,7 +24,7 @@ Specifies the name of the template to use if the template is defined within a wi
         </dx-list>
 
         <!--TypeScript-->
-        import { DxListModule } from 'devextreme-angular';
+        import { DxListModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...

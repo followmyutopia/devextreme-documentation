@@ -24,10 +24,10 @@ Specifies a custom implementation of the [remove(key)](/Documentation/ApiReferen
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
+    import { ..., Inject } from "@angular/core";
     import CustomStore from "devextreme/data/custom_store";
-    import { HttpClient, HttpClientModule } from '@angular/common/http';
-    import 'rxjs/add/operator/toPromise';
+    import { HttpClient, HttpClientModule } from "@angular/common/http";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent {
         store: CustomStore;

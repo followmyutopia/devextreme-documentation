@@ -33,7 +33,7 @@ The [barWidth](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarCha
     </dx-polar-chart>
 
     <!--TypeScript-->
-    import { DxPolarChartModule } from 'devextreme-angular';
+    import { DxPolarChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -71,7 +71,7 @@ Bar groups' angular width can be changed using the [barGroupWidth](/Documentatio
     </dx-polar-chart>
 
     <!--TypeScript-->
-    import { DxPolarChartModule } from 'devextreme-angular';
+    import { DxPolarChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

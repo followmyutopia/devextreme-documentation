@@ -40,7 +40,7 @@ If the user should be able to collapse or expand a group in the **List**, set th
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruitsVegetables = [{
@@ -81,8 +81,8 @@ To collapse or expand a specific group programmatically, call the [collapseGroup
 #####Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxListModule, DxListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxListModule, DxListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxListComponent) list: DxListComponent;

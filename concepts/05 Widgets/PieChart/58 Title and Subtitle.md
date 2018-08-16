@@ -31,7 +31,7 @@ The title is configured by the [title](/Documentation/ApiReference/Data_Visualiz
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -69,7 +69,7 @@ You can set the title's text more concisely by assigning it directly to the **ti
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

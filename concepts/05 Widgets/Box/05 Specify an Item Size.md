@@ -46,7 +46,7 @@ The unoccupied area can be distributed among the items according to **ratio**s. 
     </dx-box>
 
     <!--TypeScript-->
-    import { DxBoxModule } from 'devextreme-angular';
+    import { DxBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -115,7 +115,7 @@ If **ratio** applies when there is an available space, **shrink** applies when s
     </dx-box>
 
     <!--TypeScript-->
-    import { DxBoxModule } from 'devextreme-angular';
+    import { DxBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -180,7 +180,7 @@ The result is different if *Item 2*'s **shrink** value is more than the other it
     </dx-box>
 
     <!--TypeScript-->
-    import { DxBoxModule } from 'devextreme-angular';
+    import { DxBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

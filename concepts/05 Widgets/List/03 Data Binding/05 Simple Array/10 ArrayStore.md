@@ -23,8 +23,8 @@
 #####Angular
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
-    import ArrayStore from 'devextreme/data/array_store';
+    import { DxListModule } from "devextreme-angular";
+    import ArrayStore from "devextreme/data/array_store";
     // ...
     export class AppComponent {
         fruits = [ /* ... */ ];
@@ -80,8 +80,8 @@ Data kept in an **ArrayStore** can be processed in the [DataSource](/Documentati
 #####Angular
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxListModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         fruits = [

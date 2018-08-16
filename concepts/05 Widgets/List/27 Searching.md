@@ -37,7 +37,7 @@ Searching is disabled in the **List** widget by default. Assign **true** to the 
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         listData = [
@@ -93,7 +93,7 @@ When a user types a string in the input field, the **List** suggests all items t
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         listData = [
@@ -151,7 +151,7 @@ You can customize the search panel by specifying the [searchEditorOptions](/Docu
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         listData = [

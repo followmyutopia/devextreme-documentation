@@ -29,7 +29,7 @@ The following code adds the **CheckBox** to your page.
     </dx-check-box>
 
     <!--TypeScript-->
-    import { DxCheckBoxModule } from 'devextreme-angular';
+    import { DxCheckBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         checkBoxValue: boolean;

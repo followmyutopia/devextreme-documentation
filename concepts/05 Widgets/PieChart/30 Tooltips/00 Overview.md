@@ -25,7 +25,7 @@ All options configuring tooltips are collected in the [tooltip](/Documentation/A
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -71,7 +71,7 @@ Options declared in the **tooltip** object apply to all tooltips in the **PieCha
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // Tooltips of all points with the value more than 100 turn red

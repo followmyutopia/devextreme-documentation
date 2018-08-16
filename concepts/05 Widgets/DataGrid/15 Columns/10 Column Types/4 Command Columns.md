@@ -46,8 +46,8 @@ You can relocate or resize the command columns by changing their **visibleIndex*
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
@@ -112,7 +112,7 @@ You can also customize command columns' cells using the [onCellPrepared](/Docume
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     import * as events from "devextreme/events";
     // ...
     export class AppComponent {

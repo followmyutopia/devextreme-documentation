@@ -32,7 +32,7 @@ To execute certain commands before or after the **ContextMenu** was opened/close
     </dx-context-menu>
 
     <!--TypeScript-->
-    import { DxContextMenuModule } from 'devextreme-angular';
+    import { DxContextMenuModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

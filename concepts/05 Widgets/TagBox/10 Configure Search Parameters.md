@@ -34,7 +34,7 @@ The **TagBox** widget allows an end user to search through its items. This featu
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [
@@ -83,7 +83,7 @@ When a user types a string in the input field, the **TagBox** suggests all items
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [
@@ -132,7 +132,7 @@ There is a delay between the moment a user finishes typing and the moment the se
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [
@@ -181,7 +181,7 @@ The **TagBox** widget starts searching after a user has typed at least one chara
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [

@@ -44,7 +44,7 @@ The following code adds a simple **Box** containing three items to your page. Th
     </dx-box>
 
     <!--TypeScript-->
-    import { DxBoxModule } from 'devextreme-angular';
+    import { DxBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

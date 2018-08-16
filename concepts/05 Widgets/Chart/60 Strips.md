@@ -40,7 +40,7 @@ To configure the strips, declare the [strips](/Documentation/ApiReference/Data_V
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -125,7 +125,7 @@ Note that individual settings override axis-specific settings which, in turn, ov
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

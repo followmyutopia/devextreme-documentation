@@ -24,7 +24,7 @@ When a funnel item's hover state is being changed, the **Funnel** raises the [ho
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onHoverChanged (e) {

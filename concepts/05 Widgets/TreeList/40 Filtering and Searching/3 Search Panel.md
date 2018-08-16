@@ -31,7 +31,7 @@ To make the search panel visible, assign **true** to the [searchPanel](/Document
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -78,7 +78,7 @@ Use the **searchPanel**.[text](/Documentation/ApiReference/UI_Widgets/dxTreeList
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         searchText: string = "4/1/2015";

@@ -23,7 +23,7 @@ To access the clicked item, handle the [itemClick](/Documentation/ApiReference/U
     </dx-context-menu>
 
     <!--TypeScript-->
-    import { DxContextMenuModule } from 'devextreme-angular';
+    import { DxContextMenuModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -27,7 +27,7 @@ If your dataset excludes non-working days, you can skip them on the axis as well
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -17,7 +17,7 @@ If only a single node should be in the selected state at a time, set the [select
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -51,7 +51,7 @@ To select several nodes simultaneously, set the [showCheckBoxesMode](/Documentat
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -37,7 +37,7 @@ To configure the argument or value axis individually, use the [argumentAxis](/Do
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -98,7 +98,7 @@ Usually, the **Chart** chooses the axis type automatically according to the type
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

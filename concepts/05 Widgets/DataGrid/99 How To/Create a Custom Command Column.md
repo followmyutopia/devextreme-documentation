@@ -52,8 +52,8 @@ In the following code, `command-editing` is a custom command column. It displays
 
     <!--TypeScript-->
     // app.component.ts
-    import { DxDataGridModule } from 'devextreme-angular';
-    import { AppRoutingModule } from './app-routing.module';
+    import { DxDataGridModule } from "devextreme-angular";
+    import { AppRoutingModule } from "./app-routing.module";
     // ...    
     export class AppComponent {
         dataSource = [{
@@ -77,8 +77,8 @@ In the following code, `command-editing` is a custom command column. It displays
 
     <!--TypeScript-->
     // app-routing.module.ts
-    import { RouterModule, Routes } from '@angular/router';
-    import { APP_BASE_HREF } from '@angular/common';
+    import { RouterModule, Routes } from "@angular/router";
+    import { APP_BASE_HREF } from "@angular/common";
     // ...    
     const routes: Routes = [
         { path: '', redirectTo: '/yourBaseRoot', pathMatch: 'full' },

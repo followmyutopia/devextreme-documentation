@@ -29,7 +29,7 @@ Set the **grouping**.[expandMode](/Documentation/ApiReference/UI_Widgets/dxDataG
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -72,7 +72,7 @@ You can prevent a user from expanding and collapsing groups by assigning **false
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

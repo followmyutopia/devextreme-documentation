@@ -11,8 +11,8 @@ To export the **Funnel** using the API, call the [exportTo(fileName, format)](/D
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxFunnelModule, DxFunnelComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxFunnelModule, DxFunnelComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
@@ -53,9 +53,9 @@ You can also export several widgets at once using their SVG markup. Gather the m
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxFunnelModule, DxFunnelComponent } from 'devextreme-angular';
-    import exportMethods from 'devextreme/viz/export';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxFunnelModule, DxFunnelComponent } from "devextreme-angular";
+    import exportMethods from "devextreme/viz/export";
     // ...
     export class AppComponent {
         @ViewChild('funnelContainer1') funnel1: DxFunnelComponent;

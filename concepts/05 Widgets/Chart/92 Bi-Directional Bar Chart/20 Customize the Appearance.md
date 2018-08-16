@@ -38,7 +38,7 @@ UI elements like [tooltips](/Documentation/Guide/Widgets/Chart/Tooltips/Overview
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

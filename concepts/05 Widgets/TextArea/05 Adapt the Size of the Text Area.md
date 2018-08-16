@@ -19,7 +19,7 @@ If the size of the widget should be fixed, specify it using the [height](/Docume
     </dx-text-area>
 
     <!--TypeScript-->
-    import { DxTextAreaModule } from 'devextreme-angular';
+    import { DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -57,7 +57,7 @@ Alternatively, the widget's height can adapt to the widget's contents. In this c
     </dx-text-area>
 
     <!--TypeScript-->
-    import { DxTextAreaModule } from 'devextreme-angular';
+    import { DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -36,7 +36,7 @@ Set the **format** widget option to apply a predefined format. In the following 
     </dx-slider>
 
     <!--TypeScript-->
-    import { DxSliderModule } from 'devextreme-angular';
+    import { DxSliderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         sliderValue: number = 6;

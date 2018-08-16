@@ -37,7 +37,7 @@ Editors belonging to a single **Validation Group** can be validated together. Al
     </dx-validation-group>
 
     <!--TypeScript-->
-    import { DxTextBoxModule, DxValidatorModule, DxValidationGroupModule } from 'devextreme-angular';
+    import { DxTextBoxModule, DxValidatorModule, DxValidationGroupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

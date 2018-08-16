@@ -56,7 +56,7 @@ The **Popover** has two toolbars: top and bottom. Items on these toolbars can be
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxButtonModule } from 'devextreme-angular';
+    import { DxPopoverModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         refresh () {

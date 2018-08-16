@@ -36,7 +36,7 @@ The following code creates a simple **Popover** on your page and attaches it to 
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule } from 'devextreme-angular';
+    import { DxPopoverModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

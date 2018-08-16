@@ -32,7 +32,7 @@ A custom function is useful when advanced formatting is required. The value to b
     </dx-slider>
 
     <!--TypeScript-->
-    import { DxSliderModule } from 'devextreme-angular';
+    import { DxSliderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         sliderValue = 6;

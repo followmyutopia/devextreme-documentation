@@ -39,7 +39,7 @@ The **Scheduler** widget allows you to customize its timetable. You can specify 
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         schedulerData = [{
@@ -102,7 +102,7 @@ For a more detailed customization, define custom templates for cells, time scale
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         schedulerData = [{

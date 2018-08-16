@@ -16,8 +16,8 @@ By default, group headers display text of the **key** field in a bold font. You 
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxTagBoxModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         fruitsVegetables = [{

@@ -23,7 +23,7 @@ The legend can be aligned in the horizontal or vertical direction using the [hor
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

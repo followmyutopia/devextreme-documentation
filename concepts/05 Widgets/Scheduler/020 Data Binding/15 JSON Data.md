@@ -17,7 +17,7 @@ To bind the **Scheduler** to data in the JSON format, assign the data's URL to t
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -52,7 +52,7 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

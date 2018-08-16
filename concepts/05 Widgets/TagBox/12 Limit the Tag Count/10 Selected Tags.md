@@ -57,7 +57,7 @@ The following code shows the [onValueChanged](/Documentation/ApiReference/UI_Wid
     </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxTagBoxModule, DxTooltipModule } from 'devextreme-angular';
+    import { DxTagBoxModule, DxTooltipModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         isVisible: boolean = false;

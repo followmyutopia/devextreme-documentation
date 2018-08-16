@@ -25,7 +25,7 @@ The following code adds a simple **TextArea** with a [placeholder](/Documentatio
     </dx-text-area>
 
     <!--TypeScript-->
-    import { DxTextAreaModule } from 'devextreme-angular';
+    import { DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -59,7 +59,7 @@ By default, the **TextArea** checks the entered text for spelling errors. To dis
     </dx-text-area>
 
     <!--TypeScript-->
-    import { DxTextAreaModule } from 'devextreme-angular';
+    import { DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -95,7 +95,7 @@ If an end user should _not_ be able to edit the text in the **TextArea**, assign
     </dx-text-area>
 
     <!--TypeScript-->
-    import { DxTextAreaModule } from 'devextreme-angular';
+    import { DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

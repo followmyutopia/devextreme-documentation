@@ -37,11 +37,11 @@ In the following code snippet, `Author Name` is a [lookup column](/Documentation
 ##### Angular
 
     <!--TypeScript-->
-    import { Component, Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule } from '@angular/common/http';
-    import { DxTreeListModule } from 'devextreme-angular';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { Component, Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule } from "@angular/common/http";
+    import { DxTreeListModule } from "devextreme-angular";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
 
     @Component({ ... })
     export class AppComponent {
@@ -131,11 +131,11 @@ The following alternative **CustomStore** configuration delegates data processin
 ##### Angular
 
     <!--TypeScript-->
-    import { Component, Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
-    import { DxTreeListModule } from 'devextreme-angular';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { Component, Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule, HttpParams } from "@angular/common/http";
+    import { DxTreeListModule } from "devextreme-angular";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
 
     @Component({ ... })
     export class AppComponent {

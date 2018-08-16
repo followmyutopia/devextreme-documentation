@@ -38,7 +38,7 @@ If the scale displays numbers, assign a number to this option. For example, an *
     </dx-range-selector>
 
     <!--TypeScript-->
-    import { DxRangeSelectorModule } from 'devextreme-angular';
+    import { DxRangeSelectorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -44,7 +44,7 @@ To sort the arguments, for example, alphabetically, you need to assign an array 
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

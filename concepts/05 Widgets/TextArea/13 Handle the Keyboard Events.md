@@ -34,7 +34,7 @@ The **TextArea** raises four keyboard events: [keyDown](/Documentation/ApiRefere
     </dx-text-area>
 
     <!--TypeScript-->
-    import { DxTextAreaModule } from 'devextreme-angular';
+    import { DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onKeyDown (e) {
@@ -100,8 +100,8 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild, AfterViewInit } from '@angular/core';
-    import { DxTextAreaModule, DxTextAreaComponent } from 'devextreme-angular';
+    import { ..., ViewChild, AfterViewInit } from "@angular/core";
+    import { DxTextAreaModule, DxTextAreaComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
         @ViewChild(DxTextAreaComponent) textArea: DxTextAreaComponent

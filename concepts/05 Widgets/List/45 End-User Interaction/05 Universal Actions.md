@@ -36,7 +36,7 @@ Universal actions are those actions that raise the same event despite being perf
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onItemClick (e) {

@@ -39,7 +39,7 @@ The template implementation depends on the used framework or library. Examples o
     </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxTooltipModule, DxSwitchModule } from 'devextreme-angular';
+    import { DxTooltipModule, DxSwitchModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -27,7 +27,7 @@ To allow a user to export data, set the **export**.[enabled](/Documentation/ApiR
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -74,7 +74,7 @@ You can disable exporting a specific column by setting its [allowExporting](/Doc
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -120,7 +120,7 @@ The resulting file is renamed according to the [fileName](/Documentation/ApiRefe
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

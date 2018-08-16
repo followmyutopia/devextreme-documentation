@@ -39,7 +39,7 @@ With Angular, bind the option to change in the [editorOptions](/Documentation/Ap
     </dx-check-box>
 
     <!--TypeScript-->
-    import { DxFormModule, DxCheckBoxModule } from 'devextreme-angular';
+    import { DxFormModule, DxCheckBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

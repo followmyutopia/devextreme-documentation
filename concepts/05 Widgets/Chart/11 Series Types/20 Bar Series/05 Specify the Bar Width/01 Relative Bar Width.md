@@ -33,7 +33,7 @@ Regulating the empty space on a bar's sides controls the relative bar width. Use
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -71,7 +71,7 @@ The parent group's width can be specified using the [barGroupPadding](/Documenta
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

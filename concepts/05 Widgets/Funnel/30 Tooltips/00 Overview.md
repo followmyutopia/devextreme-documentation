@@ -25,7 +25,7 @@ All options configuring tooltips are collected in the [tooltip](/Documentation/A
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -71,7 +71,7 @@ Options declared in the **tooltip** object apply to all tooltips in the **Funnel
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // Tooltips of all items with the value more than 100 turn red

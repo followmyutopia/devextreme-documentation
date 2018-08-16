@@ -25,7 +25,7 @@ If a specific column should not be moved, set its [allowReordering](/Documentati
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

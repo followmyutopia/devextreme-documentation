@@ -11,7 +11,7 @@ You can change a funnel item's hover state by passing **true** or **false** to t
 ##### Angular
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         toggleItemHoverState (item) {

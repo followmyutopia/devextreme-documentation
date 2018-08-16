@@ -23,7 +23,7 @@ The **Button** widget provides five predefined appearances controlled by the [ty
     </dx-button>
 
     <!--TypeScript-->
-    import { DxButtonModule } from 'devextreme-angular';
+    import { DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         foo (e) {
@@ -71,7 +71,7 @@ Apart from plain text, the **Button** can display an icon. DevExtreme provides [
     </dx-button>
 
     <!--TypeScript-->
-    import { DxButtonModule } from 'devextreme-angular';
+    import { DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         foo (e) {
@@ -123,7 +123,7 @@ If you need to define the **Button** content completely, implement a template fo
     </dx-button>
 
     <!--TypeScript-->
-    import { DxButtonModule } from 'devextreme-angular';
+    import { DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         foo (e) {

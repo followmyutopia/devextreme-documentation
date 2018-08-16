@@ -31,7 +31,7 @@ Assign **true** to the [headerFilter](/Documentation/ApiReference/UI_Widgets/dxT
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -82,7 +82,7 @@ A user can change the applied filter by including or excluding values. Use a col
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         filterValues: Array<any> = [2014];
@@ -134,7 +134,7 @@ You can use the **headerFilter**.[allowSearch](/Documentation/ApiReference/UI_Wi
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -28,7 +28,7 @@ To allow this, set the **columnFixing**.[enabled](/Documentation/ApiReference/UI
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -66,7 +66,7 @@ If a column should be fixed initially, assign **true** to its [fixed](/Documenta
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

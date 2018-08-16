@@ -17,7 +17,7 @@ Depending on the value the **TextBox** should hold, specify the widget [mode](/D
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

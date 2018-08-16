@@ -30,7 +30,7 @@ To bind a series to data directly, specify which data source field provides argu
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruitProduction = [
@@ -84,7 +84,7 @@ Commonly, a chart contains several series, and many of them have the same argume
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruitProduction = [

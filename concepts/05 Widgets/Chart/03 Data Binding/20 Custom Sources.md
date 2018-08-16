@@ -22,12 +22,12 @@ You need to configure the **CustomStore** in detail for accessing a server built
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule } from '@angular/common/http';
-    import { DxChartModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule } from "@angular/common/http";
+    import { DxChartModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent {
         chartDataSource: any = {};
@@ -110,12 +110,12 @@ This example shows how to make a query for data.
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
-    import { DxChartModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule, HttpParams } from "@angular/common/http";
+    import { DxChartModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent {
         chartDataSource: any = {};

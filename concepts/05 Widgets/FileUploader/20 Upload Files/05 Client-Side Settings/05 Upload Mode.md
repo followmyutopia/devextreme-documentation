@@ -44,7 +44,7 @@ The following examples show how to configure the **FileUploader** for uploading 
         </dx-file-uploader>
 
         <!--TypeScript-->
-        import { DxFileUploaderModule } from 'devextreme-angular';
+        import { DxFileUploaderModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -99,7 +99,7 @@ The following examples show how to configure the **FileUploader** for uploading 
         </form>
 
         <!--TypeScript-->
-        import { DxFileUploaderModule } from 'devextreme-angular';
+        import { DxFileUploaderModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...

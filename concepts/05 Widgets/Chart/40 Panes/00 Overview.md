@@ -32,7 +32,7 @@ Panes are configured by the [panes](/Documentation/ApiReference/Data_Visualizati
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -25,7 +25,7 @@ The legend can be moved inside the chart using the [position](/Documentation/Api
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

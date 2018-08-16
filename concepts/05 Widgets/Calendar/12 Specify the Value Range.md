@@ -22,7 +22,7 @@ Use the [min](/Documentation/ApiReference/UI_Widgets/dxCalendar/Configuration/#m
     </dx-calendar>
 
     <!--TypeScript-->
-    import { DxCalendarModule } from 'devextreme-angular';
+    import { DxCalendarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         date: Date = new Date();
@@ -65,7 +65,7 @@ If you need to disable specific dates, use the [disabledDates](/Documentation/Ap
     </dx-calendar>
 
     <!--TypeScript-->
-    import { DxCalendarModule } from 'devextreme-angular';
+    import { DxCalendarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         date: Date = new Date();

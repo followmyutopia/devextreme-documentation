@@ -34,7 +34,7 @@ The **SelectBox** widget allows an end user to search through its items. This fe
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectBoxData = [
@@ -87,7 +87,7 @@ When a user types a string in the input field, the **SelectBox** suggests all it
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectBoxData = [
@@ -136,7 +136,7 @@ There is a delay between the moment a user finishes typing and the moment the se
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectBoxData = [
@@ -185,7 +185,7 @@ The **SelectBox** widget starts searching after a user has typed at least one ch
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectBoxData = [

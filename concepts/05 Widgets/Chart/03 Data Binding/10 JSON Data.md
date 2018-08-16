@@ -20,7 +20,7 @@ To bind the **Chart** to data in a JSON format, assign the data's URL to the [da
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -57,7 +57,7 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

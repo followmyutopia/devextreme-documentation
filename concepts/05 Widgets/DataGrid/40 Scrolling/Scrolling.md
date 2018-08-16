@@ -47,7 +47,7 @@ Use the **scrolling**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/C
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -85,7 +85,7 @@ The **DataGrid** adapts its scrolling mechanism to the current platform. It util
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -129,7 +129,7 @@ The current platform determines the native scrolling settings and you cannot adj
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -15,8 +15,8 @@ To link up the modules to your application using [jspm](http://jspm.io/), first 
 Create an entry script of your application. For example, it can specify the required modules.
 
     <!--JavaScript-->
-    import $ from 'jquery';
-    import 'devextreme/ui/button';
+    import $ from "jquery";
+    import "devextreme/ui/button";
     ...
 
 Then, in the HTML page, import your application's main entry point.
@@ -38,12 +38,12 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 **index.js**
 
     <!--JavaScript-->
-    import 'devextreme/dist/css/dx.common.css!';
-    import 'devextreme/dist/css/dx.light.css!';
+    import "devextreme/dist/css/dx.common.css!";
+    import "devextreme/dist/css/dx.light.css!";
     
-    import $ from 'jquery';
-    import 'devextreme/ui/button';
-    import dialog from 'devextreme/ui/dialog';
+    import $ from "jquery";
+    import "devextreme/ui/button";
+    import dialog from "devextreme/ui/dialog";
 
     $("#myButton").dxButton({
       text: "Say 'Hello world'",
@@ -84,13 +84,13 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 **index.js**
 
     <!--JavaScript-->
-    import 'devextreme/dist/css/dx.common.css!';
-    import 'devextreme/dist/css/dx.light.css!';
+    import "devextreme/dist/css/dx.common.css!";
+    import "devextreme/dist/css/dx.light.css!";
 
-    import angular from 'angular';
-    import 'devextreme/integration/angular';
-    import dialog from 'devextreme/ui/dialog';
-    import 'devextreme/ui/button';
+    import angular from "angular";
+    import "devextreme/integration/angular";
+    import dialog from "devextreme/ui/dialog";
+    import "devextreme/ui/button";
 
     var myApp = angular.module('myApp', ['dx']);
     myApp.controller("myController", function($scope) {
@@ -138,13 +138,13 @@ You can download [the example](https://github.com/DevExpress/devextreme-examples
 **index.js**
 
     <!--JavaScript-->
-    import 'devextreme/dist/css/dx.common.css!';
-    import 'devextreme/dist/css/dx.light.css!';
+    import "devextreme/dist/css/dx.common.css!";
+    import "devextreme/dist/css/dx.light.css!";
 
-    import ko from 'knockout';
-    import 'devextreme/integration/knockout';
-    import dialog from 'devextreme/ui/dialog';
-    import 'devextreme/ui/button';
+    import ko from "knockout";
+    import "devextreme/integration/knockout";
+    import dialog from "devextreme/ui/dialog";
+    import "devextreme/ui/button";
 
     var viewModel = {
         buttonOptions: {

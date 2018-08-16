@@ -20,7 +20,7 @@ By default, the **ColorBox** applies value after an end user clicks the "Apply" 
     </dx-color-box>
 
     <!--TypeScript-->
-    import { DxColorBoxModule } from 'devextreme-angular';
+    import { DxColorBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         color: string = "#FF0000"
@@ -59,7 +59,7 @@ To process a new **ColorBox** value, you need to handle the value change event. 
     </dx-color-box>
 
     <!--TypeScript-->
-    import { DxColorBoxModule } from 'devextreme-angular';
+    import { DxColorBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         colorBox_valueChanged (e) {

@@ -25,7 +25,7 @@ By default, the **Form** generates a simple item for each field of the [formData
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {
@@ -93,7 +93,7 @@ The editor that will be used in a particular simple item depends on the type of 
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule, DxCalendarModule, DxTextAreaModule } from 'devextreme-angular';
+    import { DxFormModule, DxCalendarModule, DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

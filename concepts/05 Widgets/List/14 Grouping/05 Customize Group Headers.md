@@ -19,8 +19,8 @@ By default, group headers contain the text of the **key** field in a bold font. 
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxListModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         fruitsVegetables = [{

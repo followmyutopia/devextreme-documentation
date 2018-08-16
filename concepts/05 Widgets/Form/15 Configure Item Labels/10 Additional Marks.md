@@ -38,7 +38,7 @@ To specify the mark or text for required and optional items, use the [requiredMa
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {
@@ -91,7 +91,7 @@ Each label ends with a colon. To hide it, assign **false** to the [showColonAfte
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

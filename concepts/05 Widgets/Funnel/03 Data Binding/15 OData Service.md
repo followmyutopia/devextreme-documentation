@@ -21,9 +21,9 @@ To bind the **Funnel** to data provided by an OData service, use the [ODataStore
 ##### Angular
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
-    import 'devextreme/data/odata/store';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxFunnelModule } from "devextreme-angular";
+    import "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         funnelDataSource = new DataSource({
@@ -79,9 +79,9 @@ As you may notice, in the previous code, the **ODataStore** is not declared expl
 ##### Angular
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
-    import 'devextreme/data/odata/store';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxFunnelModule } from "devextreme-angular";
+    import "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         funnelDataSource = new DataSource({

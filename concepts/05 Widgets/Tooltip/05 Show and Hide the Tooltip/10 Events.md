@@ -32,7 +32,7 @@ To execute certain commands before or after the **Tooltip** was shown/hidden, ha
     </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxTooltipModule } from 'devextreme-angular';
+    import { DxTooltipModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onShowing (e) {

@@ -19,9 +19,9 @@ To bind the **PieChart** to data provided by an OData service, use the [ODataSto
 ##### Angular
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
-    import 'devextreme/data/odata/store';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxPieChartModule } from "devextreme-angular";
+    import "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         pieChartDataSource = new DataSource({
@@ -73,9 +73,9 @@ As you may notice, in the previous code, the **ODataStore** is not declared expl
 ##### Angular
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
-    import 'devextreme/data/odata/store';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxPieChartModule } from "devextreme-angular";
+    import "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         pieChartDataSource = new DataSource({

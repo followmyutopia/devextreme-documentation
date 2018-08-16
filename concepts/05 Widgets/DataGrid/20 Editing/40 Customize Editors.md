@@ -39,7 +39,7 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Confi
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxTextAreaModule } from 'devextreme-angular';
+    import { DxDataGridModule, DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onEditorPreparing (e) {
@@ -129,7 +129,7 @@ Implement the **columns[]**.[editCellTemplate](/Documentation/ApiReference/UI_Wi
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         setCheckBoxValue (args, cellInfo) {
@@ -199,7 +199,7 @@ Editors are displayed in cells in the normal state too if you set the **columns*
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

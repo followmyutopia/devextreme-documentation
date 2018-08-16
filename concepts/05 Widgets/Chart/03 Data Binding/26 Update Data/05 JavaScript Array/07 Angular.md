@@ -3,7 +3,7 @@ Enclose the **dataSource** option in square brackets to bind it to an array usin
     <!--HTML--><dx-chart [dataSource]="fruits"></dx-chart>
     
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [

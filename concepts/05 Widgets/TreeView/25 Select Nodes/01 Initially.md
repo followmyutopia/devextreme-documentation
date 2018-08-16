@@ -40,7 +40,7 @@ If a node is supposed to be selected initially, set its [selected](/Documentatio
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         hierarchicalData = [{

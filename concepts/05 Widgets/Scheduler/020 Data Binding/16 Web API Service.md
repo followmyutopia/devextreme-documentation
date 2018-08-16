@@ -21,9 +21,9 @@ DevExtreme provides the [DevExtreme.AspNet.Data](https://github.com/DevExpress/D
 #####Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
-    import CustomStore from 'devextreme/data/custom_store';
-    import { createStore } from 'devextreme-aspnet-data-nojquery';
+    import { DxSchedulerModule } from "devextreme-angular";
+    import CustomStore from "devextreme/data/custom_store";
+    import { createStore } from "devextreme-aspnet-data-nojquery";
     // ...
     export class AppComponent {
         store: CustomStore;

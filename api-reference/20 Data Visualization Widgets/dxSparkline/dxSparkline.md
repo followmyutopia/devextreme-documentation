@@ -93,7 +93,7 @@ The **Sparkline** widget is a compact chart that contains only one series. Owing
     </dx-sparkline>
 
     <!--TypeScript-->
-    import { DxSparklineModule } from 'devextreme-angular';
+    import { DxSparklineModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         temperature = [

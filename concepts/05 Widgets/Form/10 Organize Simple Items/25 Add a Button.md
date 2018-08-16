@@ -46,7 +46,7 @@ You can add a button that performs a custom action using a [button item](/Docume
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

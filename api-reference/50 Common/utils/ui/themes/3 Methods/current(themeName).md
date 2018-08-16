@@ -32,8 +32,8 @@ The theme name passed as a parameter should be the value of the **data-theme** a
 ##### Angular
 
     <!--TypeScript-->
-    import themes from 'devextreme/ui/themes';
-    import { Component, ViewChild } from '@angular/core';
+    import themes from "devextreme/ui/themes";
+    import { Component, ViewChild } from "@angular/core";
     import { DxDataGridComponent, DxButtonComponent } from "devextreme-angular";
     
     @Component({

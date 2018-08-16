@@ -21,7 +21,7 @@ RTL layout can be specified for an individual widget using its **rtlEnabled** op
     </dx-slider>
 
     <!--TypeScript-->
-    import { DxSliderModule } from 'devextreme-angular';
+    import { DxSliderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -50,7 +50,7 @@ To apply RTL to your entire application, set the same option globally using the 
 #####Angular
 
     <!--TypeScript-->
-    import config from 'devextreme/core/config';
+    import config from "devextreme/core/config";
     // ...
     export class AppComponent {
         constructor() {

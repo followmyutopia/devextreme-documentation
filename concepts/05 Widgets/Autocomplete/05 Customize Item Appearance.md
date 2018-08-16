@@ -19,7 +19,7 @@ For a minor customization of **Autocomplete** items, you can use the default ite
 ##### Angular
 
     <!--TypeScript-->
-    import { DxAutocompleteModule } from 'devextreme-angular';
+    import { DxAutocompleteModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         autocompleteData = [
@@ -63,7 +63,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-autocomplete>
 
     <!--TypeScript-->
-    import { DxAutocompleteModule } from 'devextreme-angular';
+    import { DxAutocompleteModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         autocompleteData = [

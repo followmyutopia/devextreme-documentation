@@ -51,7 +51,7 @@ To configure point labels, use the fields of the [label](/Documentation/ApiRefer
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -96,7 +96,7 @@ Point labels are not visible by default. To make them visible, assign **true** t
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

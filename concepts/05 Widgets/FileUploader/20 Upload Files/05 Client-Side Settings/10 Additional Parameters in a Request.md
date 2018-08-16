@@ -54,7 +54,7 @@ If the [uploadMode](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Config
     </dx-number-box>
 
     <!--TypeScript-->
-    import { DxFileUploaderModule, DxNumberBoxModule } from 'devextreme-angular';
+    import { DxFileUploaderModule, DxNumberBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = { id: 1, name: "John Heart", position: "CEO", office: 614 };
@@ -182,7 +182,7 @@ When the **uploadMode** is *"useForm"*, define the parameters within hidden inpu
     </form>
 
     <!--TypeScript-->
-    import { DxFileUploaderModule, DxButtonModule, DxNumberBoxModule } from 'devextreme-angular';
+    import { DxFileUploaderModule, DxButtonModule, DxNumberBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = { id: 1, name: "John Heart", position: "CEO", office: 614 };

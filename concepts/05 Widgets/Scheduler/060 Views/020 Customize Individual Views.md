@@ -59,7 +59,7 @@ The following code defines three views: the first is not customized, the second 
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         schedulerData = [{

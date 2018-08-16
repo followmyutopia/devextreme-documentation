@@ -120,7 +120,7 @@ The following code creates a simple **ResponsiveBox**. The widget defines an ord
     </html>
 
     <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular';
+    import { DxResponsiveBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

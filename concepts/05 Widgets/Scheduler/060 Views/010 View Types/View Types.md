@@ -24,7 +24,7 @@ A user switches between views with the [View Switcher](/Documentation/Guide/Widg
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

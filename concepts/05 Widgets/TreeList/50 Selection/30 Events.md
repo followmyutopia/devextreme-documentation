@@ -23,7 +23,7 @@ The **TreeList** widget raises the [selectionChanged](/Documentation/ApiReferenc
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onSelectionChanged (e) { // Handler of the "selectionChanged" event

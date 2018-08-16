@@ -33,7 +33,7 @@ For example, the following code makes the *"Massachusetts"* tile twice bigger th
     </dx-tile-view>
 
     <!--TypeScript-->
-    import { DxTileViewModule } from 'devextreme-angular';
+    import { DxTileViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tileViewData = [

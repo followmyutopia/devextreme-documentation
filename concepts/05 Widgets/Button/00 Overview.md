@@ -29,8 +29,8 @@ The following code adds a simple **Button** to your page.
     </dx-button>
 
     <!--TypeScript-->
-    import { DxButtonModule } from 'devextreme-angular';
-    import notify from 'devextreme/ui/notify';
+    import { DxButtonModule } from "devextreme-angular";
+    import notify from "devextreme/ui/notify";
     // ...
     export class AppComponent {
         okClicked (e) {

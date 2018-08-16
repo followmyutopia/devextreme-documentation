@@ -24,7 +24,7 @@ A series point's style changes when a user hovers the mouse pointer over it.  Th
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -61,7 +61,7 @@ You can disable this feature by assigning *"none"* to the **series**.[hoverMode]
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

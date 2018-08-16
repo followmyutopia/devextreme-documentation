@@ -22,7 +22,7 @@ By default, the **ActionSheet** comes up from the bottom of the page. If you set
     </dx-action-sheet>
 
     <!--TypeScript-->
-    import { DxActionSheetModule } from 'devextreme-angular';
+    import { DxActionSheetModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

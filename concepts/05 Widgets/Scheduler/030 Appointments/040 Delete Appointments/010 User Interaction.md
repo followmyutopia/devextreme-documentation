@@ -27,7 +27,7 @@ If a user deletes a [recurring appointment](/Documentation/Guide/Widgets/Schedul
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -64,7 +64,7 @@ To prevent a user from deleting an appointment, set the **editing**.[allowDeleti
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

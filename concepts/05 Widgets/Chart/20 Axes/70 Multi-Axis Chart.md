@@ -29,7 +29,7 @@ Declare several objects in the [valueAxis](/Documentation/ApiReference/Data_Visu
         </dx-chart>
 
         <!--TypeScript-->
-        import { DxChartModule } from 'devextreme-angular';
+        import { DxChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -75,7 +75,7 @@ Bind each series to a value axis using the [axis](/Documentation/ApiReference/Da
         </dx-chart>
 
         <!--TypeScript-->
-        import { DxChartModule } from 'devextreme-angular';
+        import { DxChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -125,7 +125,7 @@ All value axes in the **Chart** are synchronized by default, but you can explici
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -34,7 +34,7 @@ Specify the [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -54,7 +54,7 @@ In the following code, a custom aggregation function implements the [median filt
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         data = [

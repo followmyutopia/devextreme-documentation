@@ -21,8 +21,8 @@ Pass the index to the [reorderItem(itemIndex, toItemIndex)](/Documentation/ApiRe
     #####Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxListModule, DxListComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxListComponent) list: DxListComponent;
@@ -65,8 +65,8 @@ Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [re
     #####Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxListModule, DxListComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxListComponent) list: DxListComponent;

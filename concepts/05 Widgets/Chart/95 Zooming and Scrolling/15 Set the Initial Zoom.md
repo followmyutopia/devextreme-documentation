@@ -19,8 +19,8 @@ To zoom a standalone **Chart** initially, call its [zoomArgument(startValue, end
     </dx-chart>
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxChartModule } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         zoom (e: any) {
@@ -61,7 +61,7 @@ If the **Chart** is [bound to the RangeSelector](/Documentation/Guide/Widgets/Ch
     </dx-range-selector>
 
     <!--TypeScript-->
-    import { DxChartModule, DxRangeSelectorModule } from 'devextreme-angular';
+    import { DxChartModule, DxRangeSelectorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

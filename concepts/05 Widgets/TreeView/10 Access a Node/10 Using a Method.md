@@ -8,8 +8,8 @@ Call the [getNodes()](/Documentation/ApiReference/UI_Widgets/dxTreeView/Methods/
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxTreeViewModule, DxTreeViewComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxTreeViewModule, DxTreeViewComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent;

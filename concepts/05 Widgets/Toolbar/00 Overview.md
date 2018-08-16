@@ -62,7 +62,7 @@ The following code adds a simple **Toolbar** to your page. Three items are plain
     </dx-toolbar>
 
     <!--TypeScript-->
-    import { DxToolbarModule, DxButtonModule } from 'devextreme-angular';
+    import { DxToolbarModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

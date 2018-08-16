@@ -22,7 +22,7 @@ To process a new calendar value, you need to handle the value change event. If t
     </dx-calendar>
 
     <!--TypeScript-->
-    import { DxCalendarModule } from 'devextreme-angular';
+    import { DxCalendarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         calendar_valueChanged (e) {

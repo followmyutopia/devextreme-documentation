@@ -43,7 +43,7 @@ To specify one or another series type, assign its name to the **series[]**.[type
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

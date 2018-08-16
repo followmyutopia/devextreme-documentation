@@ -9,8 +9,8 @@ Call the [getAllItems()](/Documentation/ApiReference/Data_Visualization_Widgets/
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxFunnelModule, DxFunnelComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxFunnelModule, DxFunnelComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxFunnelComponent) funnel: DxFunnelComponent;
@@ -52,7 +52,7 @@ You can also access a funnel item in the event handlers. For example, the [onIte
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onItemClick (e) {

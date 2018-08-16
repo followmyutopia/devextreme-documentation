@@ -32,10 +32,10 @@ This article describes how to create an ASP.NET Core Angular application and add
 1. Open the ClientApp\src\app\app.module.ts file and import modules that contain individual DevExtreme widgets or a module containing all the DevExtreme widgets and related utilities:
 
         // Imports all the DevExtreme widgets
-        import { DevExtremeModule } from 'devextreme-angular'; 
+        import { DevExtremeModule } from "devextreme-angular"; 
         
         // Imports an individual widget
-        // import { DxDataGridModule } from 'devextreme-angular'; 
+        // import { DxDataGridModule } from "devextreme-angular"; 
 
         @NgModule({ 
             ... 

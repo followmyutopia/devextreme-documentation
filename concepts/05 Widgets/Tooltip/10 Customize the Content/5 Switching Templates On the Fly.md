@@ -59,7 +59,7 @@ If you need to render different templates depending on a specific condition, def
     </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxTooltipModule, DxButtonModule } from 'devextreme-angular';
+    import { DxTooltipModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         currentTemplate: string = "template1";

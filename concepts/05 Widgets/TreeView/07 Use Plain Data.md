@@ -27,7 +27,7 @@ If you use plain data in the **TreeView**, set the [dataStructure](/Documentatio
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         plainData = [
@@ -84,7 +84,7 @@ As you can see, all items in a plain data source have the **id** and **text** fi
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         plainData = [
@@ -139,7 +139,7 @@ Frequently, the **id** of an item is also its **text**. In this case, set both t
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         plainData = [

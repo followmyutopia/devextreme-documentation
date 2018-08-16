@@ -19,7 +19,7 @@ For a minor customization of **Lookup** items, you can use the default item temp
 #####Angular
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [
@@ -66,7 +66,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [{
@@ -241,7 +241,7 @@ Using similar techniques, you can customize the input field of the **Lookup**. T
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [{

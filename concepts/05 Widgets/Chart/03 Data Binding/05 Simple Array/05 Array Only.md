@@ -25,7 +25,7 @@ To bind the **Chart** to an array, pass this array to the [dataSource](/Document
 ##### Angular
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [
@@ -83,8 +83,8 @@ If objects in an array need to be processed (sorted, filtered, etc.), you can cr
 ##### Angular
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
-    import query from 'devextreme/data/query';
+    import { DxChartModule } from "devextreme-angular";
+    import query from "devextreme/data/query";
     // ...
     export class AppComponent {
         fruits = [

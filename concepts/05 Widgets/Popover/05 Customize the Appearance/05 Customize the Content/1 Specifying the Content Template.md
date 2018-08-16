@@ -39,7 +39,7 @@ The template implementation depends on the used framework or library. Examples o
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule, DxSwitchModule } from 'devextreme-angular';
+    import { DxPopoverModule, DxSwitchModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

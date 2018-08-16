@@ -32,7 +32,7 @@ Clicking a *"Delete"* button invokes the confirmation dialog that allows a user 
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

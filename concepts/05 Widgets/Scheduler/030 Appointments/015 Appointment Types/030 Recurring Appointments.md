@@ -55,7 +55,7 @@ If your appointments contain other data fields instead of **recurrenceRule** and
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         recurringAppointments = [{ 

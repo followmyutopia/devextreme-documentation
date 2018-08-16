@@ -26,7 +26,7 @@ Top N points with the biggest values remain ungrouped; all other points form a g
         </dx-pie-chart>
 
         <!--TypeScript-->
-        import { DxPieChartModule } from 'devextreme-angular';
+        import { DxPieChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -67,7 +67,7 @@ Points that fall beyond a threshold establish a group. The **smallValuesGrouping
         </dx-pie-chart>
 
         <!--TypeScript-->
-        import { DxPieChartModule } from 'devextreme-angular';
+        import { DxPieChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -107,7 +107,7 @@ The group for small points is called *"others"* by default. You can change this 
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

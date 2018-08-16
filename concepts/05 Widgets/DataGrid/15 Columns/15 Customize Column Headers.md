@@ -26,7 +26,7 @@ Specify the **columns**.[caption](/Documentation/ApiReference/UI_Widgets/dxDataG
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -88,7 +88,7 @@ If you need a more specific customization, define a custom template in the **col
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -124,7 +124,7 @@ To hide column headers, assign **false** to the [showColumnHeaders](/Documentati
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

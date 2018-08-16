@@ -57,7 +57,7 @@ Assign the field's name to the **DropDownBox**'s [valueExpr](/Documentation/ApiR
         </dx-drop-down-box>
 
         <!--TypeScript-->
-        import { DxDropDownBoxModule, DxDataGridModule } from 'devextreme-angular';
+        import { DxDropDownBoxModule, DxDataGridModule } from "devextreme-angular";
         import ArrayStore from "devextreme/data/array_store";
         // ...
         export class AppComponent {
@@ -135,7 +135,7 @@ This step's implementation depends on the embedded widget's API and the library/
         </dx-drop-down-box>
 
         <!--TypeScript-->
-        import { DxDropDownBoxModule, DxDataGridModule } from 'devextreme-angular';
+        import { DxDropDownBoxModule, DxDataGridModule } from "devextreme-angular";
         import ArrayStore from "devextreme/data/array_store";
         // ...
         export class AppComponent {

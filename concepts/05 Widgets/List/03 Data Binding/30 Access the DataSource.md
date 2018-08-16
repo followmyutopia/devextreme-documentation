@@ -8,8 +8,8 @@ Regardless of the data source you use, the **List** always wraps it in the [Data
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxListModule, DxListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxListModule, DxListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxListComponent) list: DxListComponent;

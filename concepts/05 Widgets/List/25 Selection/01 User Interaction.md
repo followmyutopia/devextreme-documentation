@@ -19,7 +19,7 @@ In the **List** widget, selection is disabled by default. To enable it, choose o
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -55,7 +55,7 @@ To select a **List** item, an end user simply clicks or taps it. Selected items 
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -91,7 +91,7 @@ When data in the **List** is [paginated](/Documentation/Guide/Widgets/List/Pagin
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

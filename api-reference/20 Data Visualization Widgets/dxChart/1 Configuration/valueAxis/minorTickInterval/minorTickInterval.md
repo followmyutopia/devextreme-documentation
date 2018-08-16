@@ -31,7 +31,7 @@ If the axis displays numbers, set the **minorTickInterval** to a number. This nu
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

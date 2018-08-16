@@ -20,7 +20,7 @@ With the ever-growing variety of platforms, today's web sites and applications c
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -49,8 +49,8 @@ The layout does not automatically adapt to changes made in the widget's containe
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxChartModule, DxChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxChartComponent) chart: DxChartComponent;

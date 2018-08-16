@@ -28,7 +28,7 @@ Additional parameters to be passed to event handlers.
 <!--fullDescription-->
 
     // Modular approach
-    import { trigger } from 'devextreme/events';
+    import { trigger } from "devextreme/events";
     // ...
     trigger(document, "customEvent", { timeout: 1000 });
 

@@ -39,7 +39,7 @@ To specify the **Scatter** series type, assign *"scatter"* to the **series[]**.[
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

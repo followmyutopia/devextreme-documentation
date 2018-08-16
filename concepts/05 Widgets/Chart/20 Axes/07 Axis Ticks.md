@@ -27,7 +27,7 @@ To configure major or minor ticks, use the [tick](/Documentation/ApiReference/Da
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

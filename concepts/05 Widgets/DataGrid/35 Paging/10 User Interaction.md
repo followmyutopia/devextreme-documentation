@@ -32,7 +32,7 @@ Set the [showNavigationButtons](/Documentation/ApiReference/UI_Widgets/dxDataGri
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -79,7 +79,7 @@ Assign **true** to the [showInfo](/Documentation/ApiReference/UI_Widgets/dxDataG
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

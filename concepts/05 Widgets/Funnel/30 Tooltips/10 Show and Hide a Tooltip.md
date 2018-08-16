@@ -27,7 +27,7 @@ Each funnel item allows you to show its tooltip programmatically by calling the 
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // Shows the tooltip only when a user clicks a funnel item

@@ -36,7 +36,7 @@ A simple JavaScript array containing a collection of plain objects.
     ##### Angular
 
         <!--TypeScript-->
-        import { Dx{WidgetName}Module } from 'devextreme-angular';
+        import { Dx{WidgetName}Module } from "devextreme-angular";
         // ...
         export class AppComponent {
             headerFilterData: any;
@@ -108,8 +108,8 @@ A [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) configuration
     ##### Angular
 
         <!--TypeScript-->
-        import { Dx{WidgetName}Module } from 'devextreme-angular';
-        import 'devextreme/data/custom_store';
+        import { Dx{WidgetName}Module } from "devextreme-angular";
+        import "devextreme/data/custom_store";
         // ...
         export class AppComponent {
             headerFilterData: any = {};
@@ -179,8 +179,8 @@ A function in which you can modify the current data source configuration.
     #####Angular
 
         <!--TypeScript-->
-        import { Dx{WidgetName}Module } from 'devextreme-angular';
-        import 'devextreme/data/data_source';
+        import { Dx{WidgetName}Module } from "devextreme-angular";
+        import "devextreme/data/data_source";
         // ...
         export class AppComponent {
             headerFilterData: any;
@@ -260,9 +260,9 @@ If you use a data source that does not contain the required fields (**text** and
 ##### Angular
 
     <!--TypeScript-->
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
-    import ArrayStore from 'devextreme/data/array_store';
-    import DataSource from 'devextreme/data/data_source';
+    import { Dx{WidgetName}Module } from "devextreme-angular";
+    import ArrayStore from "devextreme/data/array_store";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         headerFilterData: any = {};

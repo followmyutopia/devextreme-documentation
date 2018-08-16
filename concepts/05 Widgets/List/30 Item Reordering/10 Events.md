@@ -24,7 +24,7 @@ To execute certain commands when an item changes its position, handle the [itemR
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxListComponent) list: DxListComponent;

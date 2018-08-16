@@ -42,7 +42,7 @@ All **ResponsiveBox** elements are arranged in a layout grid according to the [r
     </html>
 
     <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular';
+    import { DxResponsiveBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -125,7 +125,7 @@ The collections of rows and columns may differ depending on the screen's [size q
     </html>
 
     <!--TypeScript-->
-    import { DxResponsiveBoxModule } from 'devextreme-angular';
+    import { DxResponsiveBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

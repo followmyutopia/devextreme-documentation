@@ -18,7 +18,7 @@ To bind the **DataGrid** to data in the JSON format, assign the data's URL to th
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -57,7 +57,7 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -100,12 +100,12 @@ If you need to specify request headers or process response data, use the [Custom
 #####Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule } from '@angular/common/http';
-    import { DxDataGridModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule } from "@angular/common/http";
+    import { DxDataGridModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent {
         gridDataSource: any = {};

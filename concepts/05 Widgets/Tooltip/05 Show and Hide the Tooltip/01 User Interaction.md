@@ -33,7 +33,7 @@ To specify when the **Tooltip** should be shown and hidden, set the [showEvent](
     </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxTooltipModule } from 'devextreme-angular';
+    import { DxTooltipModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -100,7 +100,7 @@ The **Tooltip** can also be hidden when a user clicks outside it or presses the 
     </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxTooltipModule } from 'devextreme-angular';
+    import { DxTooltipModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

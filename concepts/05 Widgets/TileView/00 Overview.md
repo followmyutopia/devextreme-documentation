@@ -30,7 +30,7 @@ The following code adds a primitive **TileView** to your page.
     </dx-tile-view>
 
     <!--TypeScript-->
-    import { DxTileViewModule } from 'devextreme-angular';
+    import { DxTileViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tileViewData = [
@@ -72,7 +72,7 @@ By default, the widget is oriented horizontally, but you can orient it verticall
     </dx-tile-view>
 
     <!--TypeScript-->
-    import { DxTileViewModule } from 'devextreme-angular';
+    import { DxTileViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -51,7 +51,7 @@ Configure each summary item in the **summary**.[groupItems](/Documentation/ApiRe
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -21,7 +21,7 @@ An end user can scroll the **List** with a swipe gesture and with the scrollbar.
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -57,7 +57,7 @@ The **List** employs native scrolling on most platforms, except non-Mac desktops
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -95,7 +95,7 @@ If simulated scrolling is used, you can specify when to show the scrollbar. For 
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -131,7 +131,7 @@ On mobile devices, the user can pull the **List** to scroll it slightly further 
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -167,7 +167,7 @@ If you want to disable scrolling completely, assign **false** to the [scrollingE
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

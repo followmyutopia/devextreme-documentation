@@ -38,7 +38,7 @@ If the axis displays numbers, assign a number to this option. For example, an **
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

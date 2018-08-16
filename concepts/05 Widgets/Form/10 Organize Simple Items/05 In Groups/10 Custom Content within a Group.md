@@ -47,7 +47,7 @@ The **Form** widget allows you to place custom content, for example, an image, u
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

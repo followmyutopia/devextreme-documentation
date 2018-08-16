@@ -18,7 +18,7 @@ To specify which calendar view (month, year, decade or century) should be displa
     </dx-calendar>
 
     <!--TypeScript-->
-    import { DxCalendarModule } from 'devextreme-angular';
+    import { DxCalendarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -55,7 +55,7 @@ To make certain calendar views inaccessible, specify the [maxZoomLevel](/Documen
     </dx-calendar>
 
     <!--TypeScript-->
-    import { DxCalendarModule } from 'devextreme-angular';
+    import { DxCalendarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -25,7 +25,7 @@ The selection capability is not provided out of the box, but it can be implement
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onPointClick (e) {
@@ -74,7 +74,7 @@ In the previous code example, a specific point's selection was cleared. Call a s
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onPointClick (e) {
@@ -106,8 +106,8 @@ In a multi-series **PieChart**, you can clear the entire selection at once by ca
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxPieChartModule, DxPieChartComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;

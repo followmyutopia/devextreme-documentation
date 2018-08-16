@@ -28,7 +28,7 @@ The **Autocomplete** can provide suggestions in two different modes: *'contains'
     </dx-autocomplete>
 
     <!--TypeScript-->
-    import { DxAutocompleteModule } from 'devextreme-angular';
+    import { DxAutocompleteModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         autocompleteData = [
@@ -67,7 +67,7 @@ By default, the **Autocomplete** widget starts providing suggestions once an end
     </dx-autocomplete>
 
     <!--TypeScript-->
-    import { DxAutocompleteModule } from 'devextreme-angular';
+    import { DxAutocompleteModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -102,7 +102,7 @@ You can also specify the time interval the widget should wait before providing s
     </dx-autocomplete>
 
     <!--TypeScript-->
-    import { DxAutocompleteModule } from 'devextreme-angular';
+    import { DxAutocompleteModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -40,7 +40,7 @@ For displaying tabs, the **Form** uses the [TabPanel](/Documentation/Guide/Widge
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

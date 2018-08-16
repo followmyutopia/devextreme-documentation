@@ -14,8 +14,8 @@ Gets all points of the series.
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxChartComponent) chart: DxChartComponent;
@@ -46,8 +46,8 @@ Gets those points of the series that has a specific argument. Returns more than 
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxChartComponent) chart: DxChartComponent;
@@ -78,8 +78,8 @@ Gets a point by its index in the series. The index is zero-based.
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxChartComponent) chart: DxChartComponent;
@@ -110,8 +110,8 @@ Gets those points of the series that fall into the range from [min](/Documentati
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxChartComponent) chart: DxChartComponent;
@@ -154,7 +154,7 @@ Apart from the API methods, you can access a series point in the event handlers.
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onPointClick (e) {

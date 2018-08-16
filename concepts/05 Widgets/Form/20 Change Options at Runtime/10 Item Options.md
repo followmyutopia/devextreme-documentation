@@ -60,7 +60,7 @@ With Angular, bind the option to change to a component or element property.
     </dx-check-box>
 
     <!--TypeScript-->
-    import { DxFormModule, DxCheckBoxModule } from 'devextreme-angular';
+    import { DxFormModule, DxCheckBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

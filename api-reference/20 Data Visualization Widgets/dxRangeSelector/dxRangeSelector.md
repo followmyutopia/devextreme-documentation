@@ -72,7 +72,7 @@ This widget represents a scale (numeric or date-time) and two sliders. A user se
     </dx-range-selector>
 
     <!--TypeScript-->
-    import { DxRangeSelectorModule } from 'devextreme-angular';
+    import { DxRangeSelectorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         startDate = new Date(2011, 0, 1);

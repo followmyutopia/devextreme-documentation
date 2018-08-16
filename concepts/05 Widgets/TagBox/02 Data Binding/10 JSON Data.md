@@ -21,7 +21,7 @@ Load JSON data by assigning its URL to the [dataSource](/Documentation/ApiRefere
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -56,7 +56,7 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     </dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -16,7 +16,7 @@ When the full-sized appointment [limit](/Documentation/ApiReference/UI_Widgets/d
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule, DxButtonModule } from 'devextreme-angular';
+    import { DxSchedulerModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         schedulerData = [{

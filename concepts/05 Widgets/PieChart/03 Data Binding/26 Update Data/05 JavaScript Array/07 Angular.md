@@ -3,7 +3,7 @@ Enclose the **dataSource** option in square brackets to bind it to an array usin
     <!--HTML--><dx-pie-chart [dataSource]="fruits"></dx-pie-chart>
     
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [

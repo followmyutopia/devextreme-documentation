@@ -41,7 +41,7 @@ Toolbar items with identical **location** preserve the order they have in the da
     </dx-toolbar>
 
     <!--TypeScript-->
-    import { DxToolbarModule } from 'devextreme-angular';
+    import { DxToolbarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -82,7 +82,7 @@ When there is not enough width for all toolbar items, or if certain toolbar item
     </dx-toolbar>
 
     <!--TypeScript-->
-    import { DxToolbarModule } from 'devextreme-angular';
+    import { DxToolbarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

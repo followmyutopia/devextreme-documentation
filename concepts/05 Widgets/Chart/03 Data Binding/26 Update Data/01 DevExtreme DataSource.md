@@ -36,8 +36,8 @@ This technique is universal for any data source as anything passed to the [dataS
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxChartModule, DxChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxChartComponent) chart: DxChartComponent;

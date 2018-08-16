@@ -49,7 +49,7 @@ To execute certain commands before or after the **Toast** was shown/hidden, hand
     </dx-button>
 
     <!--TypeScript-->
-    import { DxToastModule, DxButtonModule } from 'devextreme-angular';
+    import { DxToastModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         isVisible: boolean = false;

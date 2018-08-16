@@ -20,7 +20,7 @@ You can achieve the same in the markup using the [dxItem](/Documentation/ApiRefe
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

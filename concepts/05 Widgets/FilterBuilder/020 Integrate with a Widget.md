@@ -52,7 +52,7 @@ contain data fields from a widget's data source. For example, the following code
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule, DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxListModule, DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products = [{
@@ -118,7 +118,7 @@ To filter data, update the data source's [filter](/Documentation/ApiReference/Da
         DxButtonModule,
         DxListComponent, 
         DxFilterBuilderComponent 
-    } from 'devextreme-angular';
+    } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxListComponent) list: DxListComponent;

@@ -16,7 +16,7 @@ The [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/co
 ##### Angular
     
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeColumns (columns) {
@@ -49,8 +49,8 @@ The **visibleIndex** option can also be changed at runtime to reorder columns re
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;

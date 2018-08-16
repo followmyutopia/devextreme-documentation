@@ -19,7 +19,7 @@ The [cellValue (rowIndex, visibleColumnIndex, value)](/Documentation/ApiReferenc
 ##### Angular
     
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
@@ -75,7 +75,7 @@ The **TreeList** widget allows you to process an updated cell value in the **col
 ##### Angular
     
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         setCellValue (rowData, value) {
@@ -127,7 +127,7 @@ Call the [hasEditData()](/Documentation/ApiReference/UI_Widgets/dxTreeList/Metho
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;

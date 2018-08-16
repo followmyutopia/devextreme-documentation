@@ -31,7 +31,7 @@ To bind the **List** to data in a JSON format, assign the data's URL to the [dat
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -66,7 +66,7 @@ Note that you can also use a JSONP callback parameter supported by [jQuery.ajax(
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

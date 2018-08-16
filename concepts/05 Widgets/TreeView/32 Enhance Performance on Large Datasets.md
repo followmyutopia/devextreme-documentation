@@ -37,7 +37,7 @@ To enable the Virtual Mode, set the [virtualModeEnabled](/Documentation/ApiRefer
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         plainData = [
@@ -92,10 +92,10 @@ If the Virtual Mode does not meet your requirements, you can get full control ov
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
-    import 'rxjs/add/operator/toPromise';
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule, HttpParams } from "@angular/common/http";
+    import "rxjs/add/operator/toPromise";
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         constructor(@Inject(HttpClient) httpClient: HttpClient) { }

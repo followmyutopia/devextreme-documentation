@@ -53,8 +53,8 @@ The following code adds a simple **ActionSheet** to your page. The widget is sho
     </dx-action-sheet>
 
     <!--TypeScript-->
-    import { DxActionSheetModule, DxButtonModule } from 'devextreme-angular';
-    import notify from 'devextreme/ui/notify';
+    import { DxActionSheetModule, DxButtonModule } from "devextreme-angular";
+    import notify from "devextreme/ui/notify";
     // ...
     export class AppComponent {
         actionSheetData = [

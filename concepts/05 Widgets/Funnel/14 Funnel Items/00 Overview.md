@@ -32,7 +32,7 @@ Funnel items get their colors from the [palette](/Documentation/ApiReference/Dat
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [
@@ -78,7 +78,7 @@ To configure other aspects of the funnel items' appearance, use the [item](/Docu
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -45,8 +45,8 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild, AfterViewInit } from '@angular/core';
-    import { DxTabsModule, DxTabsComponent } from 'devextreme-angular';
+    import { ..., ViewChild, AfterViewInit } from "@angular/core";
+    import { DxTabsModule, DxTabsComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
         @ViewChild(DxTabsComponent) tabs: DxTabsComponent

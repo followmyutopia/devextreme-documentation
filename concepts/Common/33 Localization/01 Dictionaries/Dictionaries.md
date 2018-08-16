@@ -46,13 +46,13 @@ You can find all the dictionaries on your local machine in the DevExtreme instal
         <!--JavaScript-->
         // ...
         // Dictionaries for German and Russian languages
-        import deMessages from 'devextreme/localization/messages/de.json!json';
-        import ruMessages from 'devextreme/localization/messages/ru.json!json';
+        import deMessages from "devextreme/localization/messages/de.json!json";
+        import ruMessages from "devextreme/localization/messages/ru.json!json";
         // In projects created with Angular CLI 6+
-        // import deMessages from 'devextreme/localization/messages/de.json';
-        // import ruMessages from 'devextreme/localization/messages/ru.json';
+        // import deMessages from "devextreme/localization/messages/de.json";
+        // import ruMessages from "devextreme/localization/messages/ru.json";
 
-        import { locale, loadMessages } from 'devextreme/localization';
+        import { locale, loadMessages } from "devextreme/localization";
 
         loadMessages(deMessages);
         loadMessages(ruMessages);

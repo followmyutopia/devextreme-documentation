@@ -33,7 +33,7 @@ Use the **argumentAxis**.[aggregationInterval](/Documentation/ApiReference/Data_
         </dx-chart>
 
         <!--TypeScript-->
-        import { DxChartModule } from 'devextreme-angular';
+        import { DxChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -73,7 +73,7 @@ Use the **argumentAxis**.[aggregationGroupWidth](/Documentation/ApiReference/Dat
         </dx-chart>
 
         <!--TypeScript-->
-        import { DxChartModule } from 'devextreme-angular';
+        import { DxChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...

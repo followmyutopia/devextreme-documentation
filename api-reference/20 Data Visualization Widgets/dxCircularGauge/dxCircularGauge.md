@@ -64,7 +64,7 @@ The **CircularGauge** is a widget that indicates values on a circular numeric sc
     </dx-circular-gauge>
 
     <!--TypeScript-->
-    import { DxCircularGaugeModule } from 'devextreme-angular';
+    import { DxCircularGaugeModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

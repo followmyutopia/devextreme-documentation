@@ -33,7 +33,7 @@ If a user updates a [recurring appointment](/Documentation/Guide/Widgets/Schedul
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -70,7 +70,7 @@ To prevent a user from updating an appointment, set the **editing**.[allowUpdati
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

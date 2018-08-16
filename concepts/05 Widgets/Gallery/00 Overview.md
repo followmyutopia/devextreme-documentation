@@ -33,7 +33,7 @@ The following code adds the **Gallery** widget to your page. The simplest config
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule } from 'devextreme-angular';
+    import { DxGalleryModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         galleryDataSource = [

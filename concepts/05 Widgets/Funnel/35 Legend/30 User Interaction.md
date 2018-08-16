@@ -37,7 +37,7 @@ In addition, a user can click legend items. The widget does not react to this by
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onLegendClick (e) {

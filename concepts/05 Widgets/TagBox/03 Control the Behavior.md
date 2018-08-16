@@ -27,7 +27,7 @@ By default, the **TagBox** closes the drop-down list _immediately_ after a user 
     <dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [
@@ -74,7 +74,7 @@ When selected items overflow the input field, they are arranged in several lines
     <dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [
@@ -121,7 +121,7 @@ By default, selected items stay in the drop-down list. If they should be hidden 
     <dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [
@@ -168,7 +168,7 @@ The **TagBox** allows a user to clear selection in one click on the **Clear** bu
     <dx-tag-box>
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData = [

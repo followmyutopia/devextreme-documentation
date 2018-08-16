@@ -17,7 +17,7 @@ To limit the string length, assign an integer number to the **maxLength** option
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

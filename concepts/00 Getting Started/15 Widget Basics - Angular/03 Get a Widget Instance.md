@@ -1,7 +1,7 @@
 You can use the `@ViewChild` or `@ViewChildren` decorator (depending on whether you are getting a single or multiple widget instances) and the component's `instance` property to access a widget instance. These decorators accept a component name or a [template reference variable](https://angular.io/guide/template-syntax#template-reference-variables--var-):
 
     <!--TypeScript-->
-    import { Component, ViewChild } from '@angular/core';
+    import { Component, ViewChild } from "@angular/core";
     import { DxDataGridComponent } from "devextreme-angular";
 
     @Component({
@@ -32,7 +32,7 @@ To access a widget instance in the markup, use the same template reference varia
 If none of the above can be used, save the widget instance in a component property once the widget is initialized:
 
     <!--TypeScript-->
-    import { Component } from '@angular/core';
+    import { Component } from "@angular/core";
     import DataGrid from "devextreme/ui/data_grid";
 
     @Component({

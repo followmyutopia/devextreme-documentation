@@ -44,7 +44,7 @@ Data passed as **extraParameters** to the [trigger(element, event, extraParamete
 <!----->
 
     // Modular approach
-    import { one } from 'devextreme/events';
+    import { one } from "devextreme/events";
     // ...
     one(
         document, 

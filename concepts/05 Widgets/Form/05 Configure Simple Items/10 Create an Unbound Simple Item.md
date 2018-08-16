@@ -76,7 +76,7 @@ In the following example, the `order` item contains the [DataGrid](/Documentatio
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule, DxCheckBoxModule, DxDataGridModule } from 'devextreme-angular';
+    import { DxFormModule, DxCheckBoxModule, DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

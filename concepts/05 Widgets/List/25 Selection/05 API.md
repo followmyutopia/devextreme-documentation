@@ -21,8 +21,8 @@ Add or remove the key from the [selectedItemKeys](/Documentation/ApiReference/UI
     #####Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxListModule, DxListComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxListComponent) list: DxListComponent;
@@ -71,7 +71,7 @@ Add or remove the key from the [selectedItemKeys](/Documentation/ApiReference/UI
         </dx-list>
 
         <!--TypeScript-->
-        import { DxListModule } from 'devextreme-angular';
+        import { DxListModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -114,8 +114,8 @@ Add or remove the data object from the [selectedItems](/Documentation/ApiReferen
     #####Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxListModule, DxListComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxListComponent) list: DxListComponent;
@@ -172,7 +172,7 @@ Add or remove the data object from the [selectedItems](/Documentation/ApiReferen
         </dx-list>
 
         <!--TypeScript-->
-        import { DxListModule } from 'devextreme-angular';
+        import { DxListModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             fruits = [
@@ -215,8 +215,8 @@ Pass the index to the [selectItem(itemIndex)](/Documentation/ApiReference/UI_Wid
     #####Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxListModule, DxListComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxListComponent) list: DxListComponent;
@@ -271,8 +271,8 @@ Pass the [DOM node](http://www.w3schools.com/js/js_htmldom_nodes.asp) to the [se
     #####Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxListModule, DxListComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxListModule, DxListComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxListComponent) list: DxListComponent;

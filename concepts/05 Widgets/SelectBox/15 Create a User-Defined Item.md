@@ -36,8 +36,8 @@ A user can select existing values and add new values to the **SelectBox**. To en
 #####Angular
 
     <!--TypeScript-->
-    import DataSource from 'devextreme/data/data_source';
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import DataSource from "devextreme/data/data_source";
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectBoxData = new DataSource({

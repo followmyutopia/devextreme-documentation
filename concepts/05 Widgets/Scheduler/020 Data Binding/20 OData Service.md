@@ -17,8 +17,8 @@ Use the [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/) to bind
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
-    import ODataStore from 'devextreme/data/odata/store';
+    import { DxSchedulerModule } from "devextreme-angular";
+    import ODataStore from "devextreme/data/odata/store";
     // ...
     export class AppComponent {
         appointmentStore = new ODataStore({
@@ -64,9 +64,9 @@ Data kept in the **ODataStore** can be processed in the [DataSource](/Documentat
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
-    import 'devextreme/data/odata/store';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxSchedulerModule } from "devextreme-angular";
+    import "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         appointmentDataSource = new DataSource({

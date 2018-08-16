@@ -7,7 +7,7 @@ Enclose the **dataSource** option in square brackets to bind it to an array usin
     </dx-funnel>
     
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [

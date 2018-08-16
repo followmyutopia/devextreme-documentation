@@ -53,8 +53,8 @@ The **VectorMap** is a widget that visualizes geographical locations. This widge
     </dx-vector-map>
 
     <!--TypeScript-->
-    import { DxVectorMapModule } from 'devextreme-angular';
-    import * as maps from 'vectormap-data/world.js';
+    import { DxVectorMapModule } from "devextreme-angular";
+    import * as maps from "vectormap-data/world.js";
     // ...
     export class AppComponent {
         worldMap: any = maps.world;

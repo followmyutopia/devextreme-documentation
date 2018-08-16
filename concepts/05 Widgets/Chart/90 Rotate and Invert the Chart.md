@@ -22,7 +22,7 @@ To rotate the **Chart**, set the [rotated](/Documentation/ApiReference/Data_Visu
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -74,7 +74,7 @@ To invert both argument and value axes, assign **true** to the [inverted](/Docum
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -25,7 +25,7 @@ A logarithmic axis indicates numeric values; each of them is the [logarithmBase]
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -67,7 +67,7 @@ As an alternative to **tickInterval**, you can use the [axisDivisionFactor](/Doc
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

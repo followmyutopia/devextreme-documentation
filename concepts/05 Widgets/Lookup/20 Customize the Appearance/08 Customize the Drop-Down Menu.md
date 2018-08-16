@@ -29,7 +29,7 @@ On desktops and iOS devices, the drop-down menu is the [Popover](/Documentation/
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [ "HD Video Player", "SuperHD Video Player", "SuperPlasma 50" ];
@@ -84,7 +84,7 @@ To change the size of the drop-down menu and position it against a specific elem
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [ "HD Video Player", "SuperHD Video Player", "SuperPlasma 50" ];
@@ -135,7 +135,7 @@ The drop-down menu can have a title. Use the [title](/Documentation/ApiReference
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [ "HD Video Player", "SuperHD Video Player", "SuperPlasma 50" ];

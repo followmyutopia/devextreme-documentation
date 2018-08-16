@@ -17,7 +17,7 @@ When a user types a text into the **TextArea**, the widget writes this text into
     </dx-text-area>
 
     <!--TypeScript-->
-    import { DxTextAreaModule } from 'devextreme-angular';
+    import { DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -55,7 +55,7 @@ To process a new **TextArea** value, you need to handle the value change event. 
     </dx-text-area>
 
     <!--TypeScript-->
-    import { DxTextAreaModule } from 'devextreme-angular';
+    import { DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onValueChanged (e) {

@@ -24,7 +24,7 @@ When a funnel item's selection state is being changed, the **Funnel** raises the
     </dx-funnel>
 
     <!--JavaScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onSelectionChanged (e) {

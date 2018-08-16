@@ -32,7 +32,7 @@ To execute certain commands before or after the **Popover** was shown/hidden, ha
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule } from 'devextreme-angular';
+    import { DxPopoverModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onShowing (e) {

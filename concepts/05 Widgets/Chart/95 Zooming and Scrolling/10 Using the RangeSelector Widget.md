@@ -46,8 +46,8 @@ The **Chart** can be zoomed and scrolled using the [RangeSelector](/Documentatio
     </dx-range-selector>
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxChartModule, DxChartComponent, DxRangeSelectorModule } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxChartModule, DxChartComponent, DxRangeSelectorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxChartComponent) chart: DxChartComponent;
@@ -107,7 +107,7 @@ If you need to fix the zoom window and allow users to only move it along the sca
     </dx-range-selector>
 
     <!--TypeScript-->
-    import { DxChartModule, DxRangeSelectorModule } from 'devextreme-angular';
+    import { DxChartModule, DxRangeSelectorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

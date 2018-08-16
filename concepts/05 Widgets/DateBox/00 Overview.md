@@ -29,7 +29,7 @@ The following code adds a simple **DateBox** to your page.
     </dx-date-box>
 
     <!--TypeScript-->
-    import { DxDateBoxModule } from 'devextreme-angular';
+    import { DxDateBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         date: Date = new Date()

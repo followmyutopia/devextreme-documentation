@@ -7,7 +7,7 @@ Before adding a DevExtreme widget to your application, install [devextreme](http
 Then, import DevExtreme modules within the main *.ts* file (usually *src/app.module.ts*).
 
     ...
-    import { DxButtonModule } from 'devextreme-angular';
+    import { DxButtonModule } from "devextreme-angular";
 
     @NgModule({ 
         ... 

@@ -32,7 +32,7 @@ The **DataGrid** widget allows a user to add, delete and update data. Assign **t
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -72,7 +72,7 @@ With the **DataGrid** you can edit data in several modes. Use the **editing**.[m
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

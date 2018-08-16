@@ -28,7 +28,7 @@ The following code adds a simple **Calendar** to your page.
     </dx-calendar>
 
     <!--TypeScript-->
-    import { DxCalendarModule } from 'devextreme-angular';
+    import { DxCalendarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         date: Date = new Date()
@@ -65,7 +65,7 @@ To specify which day should be considered the beginning of the week, pass its in
     </dx-calendar>
 
     <!--TypeScript-->
-    import { DxCalendarModule } from 'devextreme-angular';
+    import { DxCalendarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

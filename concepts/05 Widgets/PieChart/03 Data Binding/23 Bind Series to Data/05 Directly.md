@@ -30,7 +30,7 @@ To bind a series to data directly, specify which data source field provides argu
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruitProduction = [
@@ -84,7 +84,7 @@ The **PieChart** may contain several series that have the same argument field. I
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruitProduction = [

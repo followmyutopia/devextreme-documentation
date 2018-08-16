@@ -28,7 +28,7 @@ To enable the crosshair, set the **crosshair**.[enabled](/Documentation/ApiRefer
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

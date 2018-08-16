@@ -23,7 +23,7 @@ By default, exactly one panel can be in the expanded state at one moment. To cha
     </dx-accordion>
 
     <!--TypeScript-->
-    import { DxAccordionModule } from 'devextreme-angular';
+    import { DxAccordionModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

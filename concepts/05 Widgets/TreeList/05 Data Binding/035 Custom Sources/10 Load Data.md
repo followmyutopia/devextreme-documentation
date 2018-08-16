@@ -62,12 +62,12 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule, HttpParams } from '@angular/common/http';
-    import { DxTreeListModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule, HttpParams } from "@angular/common/http";
+    import { DxTreeListModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent {
         treeListDataSource: any = {};

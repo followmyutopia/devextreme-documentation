@@ -36,8 +36,8 @@ A user can select existing values and add new values to the **TagBox**. To enabl
 #####Angular
 
     <!--TypeScript-->
-    import DataSource from 'devextreme/data/data_source';
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import DataSource from "devextreme/data/data_source";
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tagBoxData: DataSource = new DataSource({

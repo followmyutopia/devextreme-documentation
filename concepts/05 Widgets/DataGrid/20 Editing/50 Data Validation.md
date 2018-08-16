@@ -40,7 +40,7 @@ The **DataGrid** widget uses the build-in validation engine to validate user inp
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -76,7 +76,7 @@ The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configur
 ##### Angular
     
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         barAdministratorLogin (e) {

@@ -29,7 +29,7 @@ Each series point allows you to show or hide its tooltip programmatically by cal
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // Shows the tooltip only when a user clicks a series point
@@ -65,8 +65,8 @@ You can also hide the tooltip regardless of the point to which it belongs by cal
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxPieChartModule, DxPieChartComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxPieChartModule, DxPieChartComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxPieChartComponent) pieChart: DxPieChartComponent;

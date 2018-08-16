@@ -27,7 +27,7 @@ The following code adds the **FileUploader** to your page. Use the [accept](/Doc
     </dx-file-uploader>
 
     <!--TypeScript-->
-    import { DxFileUploaderModule } from 'devextreme-angular';
+    import { DxFileUploaderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -61,7 +61,7 @@ A user is allowed to upload only one file at a time by default. Set the [multipl
     </dx-file-uploader>
 
     <!--TypeScript-->
-    import { DxFileUploaderModule } from 'devextreme-angular';
+    import { DxFileUploaderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -87,7 +87,7 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the **valu
 #####Angular
 
     <!--TypeScript-->
-    import { DxFileUploaderModule } from 'devextreme-angular';
+    import { DxFileUploaderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

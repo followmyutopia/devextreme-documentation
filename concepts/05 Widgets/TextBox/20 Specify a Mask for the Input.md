@@ -80,7 +80,7 @@ You can also define custom masking elements using the [maskRules](/Documentation
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         maskRules = {
@@ -135,7 +135,7 @@ By default, the widget uses underscores to designate blanks in the masked value.
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -171,7 +171,7 @@ If the input value does not match the mask, the **TextBox** displays an error me
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

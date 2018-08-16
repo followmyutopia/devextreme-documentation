@@ -60,7 +60,7 @@ As you can see, all items in a hierarchical data source have the **id** and **te
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         hierarchicalData = [{
@@ -125,7 +125,7 @@ Frequently, the **id** of an item is also its **text**. In this case, set both t
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         hierarchicalData = [{

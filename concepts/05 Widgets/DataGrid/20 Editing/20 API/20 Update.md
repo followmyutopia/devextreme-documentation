@@ -19,7 +19,7 @@ The [cellValue (rowIndex, visibleColumnIndex, value)](/Documentation/ApiReferenc
 ##### Angular
     
     <!--TypeScript-->
-    import { DxDataGridModule, DxButtonModule } from 'devextreme-angular';
+    import { DxDataGridModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
@@ -76,7 +76,7 @@ The **DataGrid** widget allows you to process an updated cell value in the **col
 ##### Angular
     
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         setCellValue (rowData, value) {
@@ -128,7 +128,7 @@ Call the [hasEditData()](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Metho
 ##### Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule, DxButtonModule } from 'devextreme-angular';
+    import { DxDataGridModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;

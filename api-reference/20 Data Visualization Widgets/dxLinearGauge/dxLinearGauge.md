@@ -64,7 +64,7 @@ The **LinearGauge** is a widget that indicates values on a linear numeric scale.
     </dx-linear-gauge>
 
     <!--TypeScript-->
-    import { DxLinearGaugeModule } from 'devextreme-angular';
+    import { DxLinearGaugeModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

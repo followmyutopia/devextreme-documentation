@@ -29,7 +29,7 @@ By default, the **Gallery** widget displays one image at a time. To fit more ima
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule } from 'devextreme-angular';
+    import { DxGalleryModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         galleryDataSource = [
@@ -82,7 +82,7 @@ When distributing images along the total width, the **Gallery** may add margins 
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule } from 'devextreme-angular';
+    import { DxGalleryModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         galleryDataSource = [
@@ -137,7 +137,7 @@ The **Gallery** widget allows you to display not only the current image, but als
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule } from 'devextreme-angular';
+    import { DxGalleryModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         galleryDataSource = [

@@ -23,7 +23,7 @@ Zooming and scrolling are configured separately as well as their support for mou
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

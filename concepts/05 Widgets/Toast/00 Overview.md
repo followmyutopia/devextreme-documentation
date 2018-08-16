@@ -14,7 +14,7 @@ The **Toast** widget does not need to be created on the page before it can be sh
 #####Angular
 
     <!--TypeScript-->
-    import notify from 'devextreme/ui/notify';
+    import notify from "devextreme/ui/notify";
     // ...
     export class AppComponent {
         showToast() {
@@ -45,7 +45,7 @@ If you need to specify other **Toast** options, call the same method, but this t
 #####Angular
 
     <!--TypeScript-->
-    import notify from 'devextreme/ui/notify';
+    import notify from "devextreme/ui/notify";
     // ...
     export class AppComponent {
         showToast() {
@@ -102,7 +102,7 @@ If you are going to reuse the **Toast**, then create it on the page using the fo
     </dx-button>
 
     <!--TypeScript-->
-    import { DxButtonModule, DxToastModule } from 'devextreme-angular';
+    import { DxButtonModule, DxToastModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         isVisible: boolean = false;

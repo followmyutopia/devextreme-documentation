@@ -25,12 +25,12 @@ Use the [selectedRowKeys](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Conf
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import 'devextreme/data/array_store';
+    import { DxDataGridModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import "devextreme/data/array_store";
     // or
-    // import 'devextreme/data/odata/store';
-    // import 'devextreme/data/custom_store';
+    // import "devextreme/data/odata/store";
+    // import "devextreme/data/custom_store";
     // ...
     export class AppComponent {
         dataGridDataSource = new DataSource({
@@ -76,8 +76,8 @@ The **DataGrid** provides two methods that select rows at runtime: [selectRows(k
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
@@ -117,8 +117,8 @@ To select all rows at once, call the [selectAll()](/Documentation/ApiReference/U
 #####Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
@@ -152,8 +152,8 @@ Call the [getSelectedRowKeys()](/Documentation/ApiReference/UI_Widgets/dxDataGri
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxDataGridModule, DxDataGridComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxDataGridModule, DxDataGridComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;

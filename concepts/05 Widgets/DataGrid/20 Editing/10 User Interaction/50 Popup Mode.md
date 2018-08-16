@@ -38,7 +38,7 @@ Use the **editing**.[popup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Co
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

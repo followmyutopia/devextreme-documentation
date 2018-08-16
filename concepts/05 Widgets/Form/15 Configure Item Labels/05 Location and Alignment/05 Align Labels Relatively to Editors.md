@@ -39,7 +39,7 @@ The **Form** widget displays labels on the left side of their editors and aligns
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

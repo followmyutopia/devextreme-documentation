@@ -86,7 +86,7 @@ You can predefine the filter expression with the [filterValue](/Documentation/Ap
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         filterValue: Array<any> = ['SaleAmount', '<>', null];
@@ -160,7 +160,7 @@ The **TreeList** provides the [filterBuilder](/Documentation/ApiReference/UI_Wid
     </dx-button>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         popupVisible: boolean = false;

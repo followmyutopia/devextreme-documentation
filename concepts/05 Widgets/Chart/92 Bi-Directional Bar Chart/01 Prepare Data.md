@@ -31,7 +31,7 @@ To prepare data for the bi-directional bar chart, convert one of the two sets of
 ##### Angular
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     import DataSource from "devextreme/data/data_source";
     import ArrayStore from "devextreme/data/array_store";
     // ...

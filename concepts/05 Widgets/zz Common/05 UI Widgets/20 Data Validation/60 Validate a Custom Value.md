@@ -57,7 +57,7 @@ You can use the DevExtreme validation engine to validate a custom value, for exa
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTextBoxModule, DxValidatorModule, DxValidationSummaryModule, DxButtonModule } from 'devextreme-angular';
+    import { DxTextBoxModule, DxValidatorModule, DxValidationSummaryModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         callbacks = [];

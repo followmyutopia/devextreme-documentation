@@ -41,7 +41,7 @@ The following code adds a simple **TreeView** to your page:
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         hierarchicalData = [{

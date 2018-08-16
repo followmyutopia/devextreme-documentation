@@ -24,9 +24,9 @@ You should configure [remoteOperations](/Documentation/ApiReference/UI_Widgets/d
 #####Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
-    import CustomStore from 'devextreme/data/custom_store';
-    import { createStore } from 'devextreme-aspnet-data-nojquery';
+    import { DxDataGridModule } from "devextreme-angular";
+    import CustomStore from "devextreme/data/custom_store";
+    import { createStore } from "devextreme-aspnet-data-nojquery";
     // ...
     export class AppComponent {
         store: CustomStore;

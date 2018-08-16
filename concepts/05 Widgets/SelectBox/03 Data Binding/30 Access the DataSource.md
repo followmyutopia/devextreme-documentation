@@ -8,7 +8,7 @@ Regardless of the data source you use, the **SelectBox** always wraps it in a [D
 #####Angular
 
     <!--TypeScript-->
-    import { DxSelectBoxModule, DxSelectBoxComponent } from 'devextreme-angular';
+    import { DxSelectBoxModule, DxSelectBoxComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxSelectBoxComponent) selectBox: DxSelectBoxComponent;

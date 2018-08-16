@@ -31,7 +31,7 @@ You can handle these events with functions. Assign the handling functions to the
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onItemSelectionChanged (e) {

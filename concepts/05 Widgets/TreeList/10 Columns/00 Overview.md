@@ -30,7 +30,7 @@ Columns represent sets of data values that have the same type. To configure colu
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -63,7 +63,7 @@ The **TreeList** generates a column per data field if you do not specify the **c
 ##### Angular
     
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeColumns (columns) {

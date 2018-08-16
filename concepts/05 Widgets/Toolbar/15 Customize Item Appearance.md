@@ -57,7 +57,7 @@ For a minor customization of **Toolbar** items, you can use the default item tem
     </dx-toolbar>
 
     <!--TypeScript-->
-    import { DxToolbarModule, DxButtonModule } from 'devextreme-angular';
+    import { DxToolbarModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -92,7 +92,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-toolbar>
 
     <!--TypeScript-->
-    import { DxToolbarModule } from 'devextreme-angular';
+    import { DxToolbarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         items = [{

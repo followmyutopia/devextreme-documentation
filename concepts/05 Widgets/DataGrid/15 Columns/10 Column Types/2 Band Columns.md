@@ -29,7 +29,7 @@ To set up this layout, describe the hierarchy of columns directly in an object o
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -74,7 +74,7 @@ If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxDataG
 ##### Angular
     
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeColumns (columns) {
@@ -148,7 +148,7 @@ Band columns support hierarchies of any nesting level making the following struc
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

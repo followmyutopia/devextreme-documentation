@@ -77,8 +77,8 @@ The following examples shows how to call these methods.
 #####Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxListModule, DxListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxListModule, DxListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxListComponent) list: DxListComponent;
@@ -105,8 +105,8 @@ The following examples shows how to call these methods.
 <!---->
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxListModule, DxListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxListModule, DxListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxListComponent) list: DxListComponent;
@@ -132,8 +132,8 @@ The following examples shows how to call these methods.
 <!---->
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxListModule, DxListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxListModule, DxListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxListComponent) list: DxListComponent;

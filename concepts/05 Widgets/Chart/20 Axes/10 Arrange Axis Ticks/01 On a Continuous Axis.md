@@ -53,7 +53,7 @@ A continuous axis indicates numeric or date-time values. If you know the range o
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -98,7 +98,7 @@ Without knowing the range of values on the axis, you can arrange major ticks by 
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

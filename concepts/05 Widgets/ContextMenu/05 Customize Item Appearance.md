@@ -27,7 +27,7 @@ For a minor customization of **ContextMenu** items, you can use the default item
     </dx-context-menu>
 
     <!--TypeScript-->
-    import { DxContextMenuModule } from 'devextreme-angular';
+    import { DxContextMenuModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         contextMenuItems = [
@@ -65,7 +65,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-context-menu>
 
     <!--TypeScript-->
-    import { DxContextMenuModule } from 'devextreme-angular';
+    import { DxContextMenuModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         contextMenuItems = [

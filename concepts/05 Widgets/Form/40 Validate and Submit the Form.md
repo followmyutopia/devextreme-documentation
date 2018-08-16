@@ -45,7 +45,7 @@ The **Form** widget uses the built-in validation engine to validate form item va
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {
@@ -99,7 +99,7 @@ The **Form** widget uses the built-in validation engine to validate form item va
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {
@@ -175,7 +175,7 @@ Usually, **Form** editors should be submitted to the server after being successf
     </form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         buttonOptions = {

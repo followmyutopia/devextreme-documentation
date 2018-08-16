@@ -43,7 +43,7 @@ For the **List** picker, you can specify the step of available time values in mi
     </dx-date-box>
 
     <!--TypeScript-->
-    import { DxDateBoxModule } from 'devextreme-angular';
+    import { DxDateBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         date: Date = new Date()

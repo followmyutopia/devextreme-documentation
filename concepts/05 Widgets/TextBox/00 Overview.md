@@ -25,7 +25,7 @@ The following code adds a simple **TextBox** with a [placeholder](/Documentation
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -61,7 +61,7 @@ If an end user should _not_ be able to edit the value in the **TextBox**, assign
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

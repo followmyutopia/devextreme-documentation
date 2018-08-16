@@ -40,7 +40,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-accordion>
 
     <!--TypeScript-->
-    import { DxAccordionModule } from 'devextreme-angular';
+    import { DxAccordionModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         accordionData = [{

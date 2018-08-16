@@ -161,7 +161,7 @@ The following code shows how to apply LDML patterns to format numbers and dates.
     </dx-date-box>
 
     <!--TypeScript-->
-    import { DxNumberBoxModule, DxDateBoxModule } from 'devextreme-angular';
+    import { DxNumberBoxModule, DxDateBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         numberBoxValue: number = 5;

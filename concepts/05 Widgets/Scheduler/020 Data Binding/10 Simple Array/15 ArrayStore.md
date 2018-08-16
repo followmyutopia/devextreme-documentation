@@ -17,8 +17,8 @@ If you want to extend the functionality of a JavaScript array, place it into the
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
-    import ArrayStore from 'devextreme/data/array_store';
+    import { DxSchedulerModule } from "devextreme-angular";
+    import ArrayStore from "devextreme/data/array_store";
     // ...
     export class AppComponent {
         appointments = [ /* ... */ ];
@@ -76,8 +76,8 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
 ##### Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxSchedulerModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         appointments = [{ 

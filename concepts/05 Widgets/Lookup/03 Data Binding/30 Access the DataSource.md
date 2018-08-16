@@ -8,7 +8,7 @@ Regardless of the data source you use, the **Lookup** always wraps it in a [Data
 #####Angular
 
     <!--TypeScript-->
-    import { DxLookupModule, DxLookupComponent } from 'devextreme-angular';
+    import { DxLookupModule, DxLookupComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxLookupComponent) lookup: DxLookupComponent;

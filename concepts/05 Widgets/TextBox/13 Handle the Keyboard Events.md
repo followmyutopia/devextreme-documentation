@@ -34,7 +34,7 @@ The **TextBox** raises four keyboard events: [keyDown](/Documentation/ApiReferen
     </dx-text-box>
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onKeyDown (e) {
@@ -100,8 +100,8 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild, AfterViewInit } from '@angular/core';
-    import { DxTextBoxModule, DxTextBoxComponent } from 'devextreme-angular';
+    import { ..., ViewChild, AfterViewInit } from "@angular/core";
+    import { DxTextBoxModule, DxTextBoxComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
         @ViewChild(DxTextBoxComponent) textBox: DxTextBoxComponent

@@ -33,7 +33,7 @@
     </dx-date-box>
 
     <!--TypeScript-->
-    import { DxDateBoxModule } from 'devextreme-angular';
+    import { DxDateBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         startValue: Date = new Date();

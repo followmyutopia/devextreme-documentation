@@ -34,7 +34,7 @@ Not only you can bind the **Form** to an existing data object, but you can also 
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = { }

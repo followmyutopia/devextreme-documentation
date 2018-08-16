@@ -24,7 +24,7 @@ Use the [showCurrentTimeIndicator](/Documentation/ApiReference/UI_Widgets/dxSche
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -63,7 +63,7 @@ Additionally, you can apply shading to cover the timetable up to the current tim
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -20,7 +20,7 @@ To bind the **DataGrid** to an array, pass this array to the [dataSource](/Docum
 #####Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         books = [
@@ -71,8 +71,8 @@ If objects in the array need to be processed (sorted or filtered), you can creat
 #####Angular
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
-    import query from 'devextreme/data/query';
+    import { DxDataGridModule } from "devextreme-angular";
+    import query from "devextreme/data/query";
     // ...
     export class AppComponent {
         books = [

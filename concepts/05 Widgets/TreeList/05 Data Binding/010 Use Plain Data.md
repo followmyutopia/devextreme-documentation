@@ -40,7 +40,7 @@ Here, all items have the **id** field, and those items that have a parent includ
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         plainData = [
@@ -95,7 +95,7 @@ Items on the highest hierarchical level have the parent ID equal to *0*, **null*
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         plainData = [

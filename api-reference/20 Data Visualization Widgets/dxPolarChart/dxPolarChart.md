@@ -95,7 +95,7 @@ The **PolarChart** widget visualizes data in a polar coordinate system. In this 
     </dx-polar-chart>
 
     <!--TypeScript-->
-    import { DxPolarChartModule } from 'devextreme-angular';
+    import { DxPolarChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         temperature = [

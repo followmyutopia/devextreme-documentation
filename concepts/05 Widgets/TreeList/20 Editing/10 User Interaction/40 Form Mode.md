@@ -45,7 +45,7 @@ The **TreeList** uses the DevExtreme [Form](/Documentation/Guide/Widgets/Form/Ov
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -147,7 +147,7 @@ The form contains only the editable fields, or "simple items" (as they are calle
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

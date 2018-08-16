@@ -24,7 +24,7 @@ Depending on whether the legend is oriented vertically or horizontally, the **Fu
         </dx-funnel>
 
         <!--TypeScript-->
-        import { DxFunnelModule } from 'devextreme-angular';
+        import { DxFunnelModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -68,7 +68,7 @@ To distribute all legend items between several columns (in a vertically-oriented
         </dx-funnel>
 
         <!--TypeScript-->
-        import { DxFunnelModule } from 'devextreme-angular';
+        import { DxFunnelModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -110,7 +110,7 @@ Regardless of the legend orientation, you can adjust the empty space between col
         </dx-funnel>
 
         <!--TypeScript-->
-        import { DxFunnelModule } from 'devextreme-angular';
+        import { DxFunnelModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...

@@ -27,7 +27,7 @@ To make the search panel visible, assign **true** to the [searchPanel](/Document
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -74,7 +74,7 @@ Use the **searchPanel**.[text](/Documentation/ApiReference/UI_Widgets/dxDataGrid
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         searchText: string = "4/1/2015";

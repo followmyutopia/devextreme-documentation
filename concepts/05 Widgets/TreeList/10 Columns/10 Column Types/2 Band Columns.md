@@ -29,7 +29,7 @@ To set up this layout, describe the hierarchy of columns directly in an object o
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -70,7 +70,7 @@ If you use the [customizeColumns](/Documentation/ApiReference/UI_Widgets/dxTreeL
 ##### Angular
     
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeColumns (columns) {
@@ -144,7 +144,7 @@ Band columns support hierarchies of any nesting level making the following struc
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

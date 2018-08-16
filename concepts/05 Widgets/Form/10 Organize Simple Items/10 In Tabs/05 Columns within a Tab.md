@@ -60,7 +60,7 @@ The content of a tab can be organized in columns. The [colCount](/Documentation/
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

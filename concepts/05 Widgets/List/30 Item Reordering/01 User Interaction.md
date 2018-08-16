@@ -19,7 +19,7 @@ If you want to allow the user to reorder items on the **List**, set the [allowIt
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

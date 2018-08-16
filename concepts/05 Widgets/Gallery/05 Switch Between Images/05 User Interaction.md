@@ -27,7 +27,7 @@ To switch between images on touch-enabled devices, the user can perform the swip
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule } from 'devextreme-angular';
+    import { DxGalleryModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         galleryDataSource = [
@@ -73,7 +73,7 @@ With the buttons and swipe gesture, the user switches images in a particular ord
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule } from 'devextreme-angular';
+    import { DxGalleryModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         galleryDataSource = [
@@ -119,7 +119,7 @@ Below the current image, the **Gallery** shows navigation bullets that allow the
     </dx-gallery>
 
     <!--TypeScript-->
-    import { DxGalleryModule } from 'devextreme-angular';
+    import { DxGalleryModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         galleryDataSource = [

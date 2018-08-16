@@ -19,7 +19,7 @@ You can use the **Funnel** widget to create a pyramid chart. Change the [algorit
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

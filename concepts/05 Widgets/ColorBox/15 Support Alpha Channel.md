@@ -20,7 +20,7 @@ By default, the **ColorBox** does _not_ allow an end user to control the transpa
     </dx-color-box>
 
     <!--TypeScript-->
-    import { DxColorBoxModule } from 'devextreme-angular';
+    import { DxColorBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         color: string = "rgba(255, 144, 0, 0.3)"

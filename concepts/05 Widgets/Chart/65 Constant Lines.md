@@ -39,7 +39,7 @@ To configure the constant lines, declare the [constantLines](/Documentation/ApiR
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -124,7 +124,7 @@ Note that individual settings override axis-specific settings which, in turn, ov
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

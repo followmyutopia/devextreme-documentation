@@ -27,7 +27,7 @@ To make the filter row visible, assign **true** to the [filterRow](/Documentatio
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -68,7 +68,7 @@ A user-specified filter is automatically applied with a delay by default. Altern
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -127,7 +127,7 @@ The set of available filter operations can be restricted using the [filterOperat
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectedOperation: string = "contains";

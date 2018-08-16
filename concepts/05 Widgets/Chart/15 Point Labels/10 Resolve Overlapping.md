@@ -18,7 +18,7 @@ In multi-series charts, point labels often overlap. To decide how to resolve ove
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -58,7 +58,7 @@ Another way to deal with overlapping labels is to hide all labels of a specific 
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

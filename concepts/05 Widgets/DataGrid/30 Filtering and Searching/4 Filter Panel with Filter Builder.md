@@ -86,7 +86,7 @@ You can predefine the filter expression with the [filterValue](/Documentation/Ap
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         filterValue: Array<any> = ['SaleAmount', '<>', null];
@@ -160,7 +160,7 @@ The **DataGrid** provides the [filterBuilder](/Documentation/ApiReference/UI_Wid
     </dx-button>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         popupVisible: boolean = false;

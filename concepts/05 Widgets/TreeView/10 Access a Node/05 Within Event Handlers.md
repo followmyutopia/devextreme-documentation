@@ -21,7 +21,7 @@ Usually, you need to access a **TreeView** node when an action was made on it, f
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         data = [ ... ];

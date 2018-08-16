@@ -33,7 +33,7 @@ Each DevExtreme editor allows changing its validation state and error message us
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTextBoxModule } from 'devextreme-angular';
+    import { DxTextBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         login: string = "";

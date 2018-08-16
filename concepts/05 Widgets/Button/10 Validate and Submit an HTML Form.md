@@ -59,7 +59,7 @@ Commonly, editors nested into an HTML form are supposed to be validated on the c
     </form>
 
     <!--TypeScript-->
-    import { DxTextBoxModule, DxValidatorModule, DxButtonModule } from 'devextreme-angular';
+    import { DxTextBoxModule, DxValidatorModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

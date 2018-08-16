@@ -25,7 +25,7 @@ If you need to change the text displayed by funnel items, declare the [customize
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeText (itemInfo) {

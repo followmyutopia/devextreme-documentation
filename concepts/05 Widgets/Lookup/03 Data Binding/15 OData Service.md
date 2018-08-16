@@ -17,8 +17,8 @@
 #####Angular
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
-    import ODataStore from 'devextreme/data/odata/store';
+    import { DxLookupModule } from "devextreme-angular";
+    import ODataStore from "devextreme/data/odata/store";
     // ...
     export class AppComponent {
         lookupDataSource = new ODataStore({
@@ -66,9 +66,9 @@ Data kept in the **ODataStore** can be processed in a [DataSource](/Documentatio
 #####Angular
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import 'devextreme/data/odata/store';
+    import { DxLookupModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import "devextreme/data/odata/store";
     // ...
     export class AppComponent {
         lookupDataSource = new DataSource({

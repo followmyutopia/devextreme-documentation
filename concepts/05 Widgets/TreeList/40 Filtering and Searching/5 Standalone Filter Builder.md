@@ -39,7 +39,7 @@ The **TreeList** widget has an integrated filter builder that can be invoked usi
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule, DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxTreeListModule, DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         columns = [{
@@ -91,7 +91,7 @@ Then, add a button that updates a filter of the **TreeList**'s data source accor
         DxFilterBuilderModule, 
         DxTreeListComponent, 
         DxFilterBuilderComponent 
-    } from 'devextreme-angular';
+    } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;

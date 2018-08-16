@@ -23,7 +23,7 @@ The legend can be aligned in the horizontal or vertical direction using the [hor
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -39,7 +39,7 @@ You can handle these events with functions. If the handling functions are not go
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onExporting (e) {

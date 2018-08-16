@@ -34,7 +34,7 @@ The following code adds the **SelectBox** to your page. The simplest configurati
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products = [
@@ -91,7 +91,7 @@ If your data is an array of objects, specify:
     <dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectBoxData = [

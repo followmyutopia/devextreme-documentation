@@ -36,7 +36,7 @@ To customize the appointment details form, create a handler of the [appointmentF
 #####Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         schedulerData = [{

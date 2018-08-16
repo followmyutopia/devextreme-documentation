@@ -22,7 +22,7 @@ To process a new **CheckBox** value, you need to handle the value change event. 
     </dx-check-box>
 
     <!--TypeScript-->
-    import { DxCheckBoxModule } from 'devextreme-angular';
+    import { DxCheckBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         checkBox_valueChanged (e) {

@@ -38,7 +38,7 @@ To change the size of the **Toast**, specify the [height](/Documentation/ApiRefe
     </dx-button>
 
     <!--TypeScript-->
-    import { DxToastModule, DxButtonModule } from 'devextreme-angular';
+    import { DxToastModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         isVisible: boolean = false;
@@ -98,7 +98,7 @@ If you need to position the **Toast** against a specific element on your page, s
     </dx-button>
 
     <!--TypeScript-->
-    import { DxToastModule, DxButtonModule } from 'devextreme-angular';
+    import { DxToastModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         isVisible: boolean = false;

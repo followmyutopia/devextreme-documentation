@@ -28,7 +28,7 @@ A [CSS selector](https://www.w3schools.com/cssref/css_selectors.asp) passed to t
 <!--fullDescription-->
 
     // Modular approach
-    import { off } from 'devextreme/events';
+    import { off } from "devextreme/events";
     // ...
     off(document, "dxclick", "#elementID");
 

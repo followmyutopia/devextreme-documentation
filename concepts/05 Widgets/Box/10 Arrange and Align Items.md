@@ -22,7 +22,7 @@ Items can be arranged in a row or in a column depending on the value of the [dir
     </dx-box>
 
     <!--TypeScript-->
-    import { DxBoxModule } from 'devextreme-angular';
+    import { DxBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -78,7 +78,7 @@ If the **Box** items do not occupy the entire **Box**, you can align them along 
     </dx-box>
 
     <!--TypeScript-->
-    import { DxBoxModule } from 'devextreme-angular';
+    import { DxBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

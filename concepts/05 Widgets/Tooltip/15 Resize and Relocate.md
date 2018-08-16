@@ -39,7 +39,7 @@ To change the size of the **Tooltip**, specify the [height](/Documentation/ApiRe
     </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxTooltipModule } from 'devextreme-angular';
+    import { DxTooltipModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -107,7 +107,7 @@ If you need to position the **Tooltip** against a certain side of the [target el
     </dx-tooltip>
 
     <!--TypeScript-->
-    import { DxTooltipModule } from 'devextreme-angular';
+    import { DxTooltipModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

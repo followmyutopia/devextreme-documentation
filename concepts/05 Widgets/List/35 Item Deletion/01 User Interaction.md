@@ -21,7 +21,7 @@ To allow the user to delete items from the **List**, set the [allowItemDeleting]
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

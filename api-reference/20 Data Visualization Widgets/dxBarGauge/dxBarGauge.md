@@ -40,7 +40,7 @@ The **BarGauge** widget contains several circular bars that each indicates a sin
     </dx-bar-gauge>
 
     <!--TypeScript-->
-    import { DxBarGaugeModule } from 'devextreme-angular';
+    import { DxBarGaugeModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

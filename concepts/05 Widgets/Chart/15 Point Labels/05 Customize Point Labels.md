@@ -31,7 +31,7 @@ If you need to change the text displayed by point labels, declare the [customize
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customizeText (pointInfo: any) {
@@ -83,7 +83,7 @@ You can also customize an individual label. For this purpose, assign a function 
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // Assigns the red color to all labels whose series points have value more than 100

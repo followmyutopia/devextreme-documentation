@@ -18,9 +18,9 @@ DevExtreme provides the [DevExtreme-PHP-Data](https://github.com/DevExpress/DevE
 #####Angular
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
-    import CustomStore from 'devextreme/data/custom_store';
-    import { createStore } from 'devextreme-aspnet-data-nojquery';
+    import { DxFunnelModule } from "devextreme-angular";
+    import CustomStore from "devextreme/data/custom_store";
+    import { createStore } from "devextreme-aspnet-data-nojquery";
     // ...
     export class AppComponent {
         store: CustomStore;

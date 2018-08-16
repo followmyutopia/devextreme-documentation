@@ -22,7 +22,7 @@ The **Pie** series type is used by default, but you can change it to **Doughnut*
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -68,7 +68,7 @@ Use the [series](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieCha
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -111,7 +111,7 @@ Settings specified for a series apply to all its points. If you need to customiz
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // All series points with the value more than 100 turn red

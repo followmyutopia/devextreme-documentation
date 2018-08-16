@@ -17,7 +17,7 @@ To limit the text length, assign an integer number to the **maxLength** option. 
     </dx-text-area>
 
     <!--TypeScript-->
-    import { DxTextAreaModule } from 'devextreme-angular';
+    import { DxTextAreaModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

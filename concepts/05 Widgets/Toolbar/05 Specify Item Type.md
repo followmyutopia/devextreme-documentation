@@ -29,7 +29,7 @@ A **Toolbar** item may be plain text or a widget. Text items should have the [te
     </dx-toolbar>
 
     <!--TypeScript-->
-    import { DxToolbarModule } from 'devextreme-angular';
+    import { DxToolbarModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -95,7 +95,7 @@ Items that contain a widget should have the [widget](/Documentation/ApiReference
     </dx-toolbar>
     
     <!--TypeScript-->
-    import { DxToolbarModule, DxButtonModule, DxSelectBoxModule } from 'devextreme-angular';
+    import { DxToolbarModule, DxButtonModule, DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         buttonOptions = {

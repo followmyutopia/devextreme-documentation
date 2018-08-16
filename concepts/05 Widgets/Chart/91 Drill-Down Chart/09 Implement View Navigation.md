@@ -66,8 +66,8 @@ To navigate from the first to the second view, filter data by a different `paren
     </dx-button>
 
     <!--TypeScript-->
-    import { DxChartModule, DxButtonModule } from 'devextreme-angular';
-    import { Service, DataItem } from './app.service';
+    import { DxChartModule, DxButtonModule } from "devextreme-angular";
+    import { Service, DataItem } from "./app.service";
     @Component({
         // ...
         providers: [Service]
@@ -190,8 +190,8 @@ The following code shows how to implement navigation when using the DevExtreme *
     </dx-button>
 
     <!--TypeScript-->
-    import { DxChartModule, DxButtonModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxChartModule, DxButtonModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         // ...

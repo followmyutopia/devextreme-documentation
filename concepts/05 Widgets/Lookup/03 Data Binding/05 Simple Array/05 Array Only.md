@@ -14,7 +14,7 @@ Bind the **Lookup** to an array by passing it to the [dataSource](/Documentation
 #####Angular
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = ["HD Video Player", "SuperHD Video Player", "SuperPlasma 50", "SuperLED 50"];
@@ -57,7 +57,7 @@ Bind the **Lookup** to an array by passing it to the [dataSource](/Documentation
 #####Angular
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [
@@ -107,8 +107,8 @@ You can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Conce
 #####Angular
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
-    import query from 'devextreme/data/query';
+    import { DxLookupModule } from "devextreme-angular";
+    import query from "devextreme/data/query";
     // ...
     export class AppComponent {
         products = [

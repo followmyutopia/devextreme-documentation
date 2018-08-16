@@ -74,7 +74,7 @@ The **PieChart** is a widget that visualizes data as a circle divided into secto
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [

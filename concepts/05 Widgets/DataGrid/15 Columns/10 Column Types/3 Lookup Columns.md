@@ -49,8 +49,8 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
-    import 'devextreme/data/array_store';
+    import { DxDataGridModule } from "devextreme-angular";
+    import "devextreme/data/array_store";
     // ...
     export class AppComponent {
         orders = [ ... ];
@@ -114,7 +114,7 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         orders = [ ... ];

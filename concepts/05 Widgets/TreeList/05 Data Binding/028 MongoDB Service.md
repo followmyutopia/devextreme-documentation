@@ -28,9 +28,9 @@ You should configure [remoteOperations](/Documentation/ApiReference/UI_Widgets/d
 #####Angular
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
-    import CustomStore from 'devextreme/data/custom_store';
-    import { createStore } from 'devextreme-aspnet-data-nojquery';
+    import { DxTreeListModule } from "devextreme-angular";
+    import CustomStore from "devextreme/data/custom_store";
+    import { createStore } from "devextreme-aspnet-data-nojquery";
     // ...
     export class AppComponent {
         store: CustomStore;

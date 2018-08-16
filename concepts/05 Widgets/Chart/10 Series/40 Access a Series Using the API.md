@@ -11,8 +11,8 @@ Gets all series of the **Chart**.
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxChartComponent) chart: DxChartComponent;
@@ -42,8 +42,8 @@ Gets a series by its [name](/Documentation/ApiReference/Data_Visualization_Widge
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxChartComponent) chart: DxChartComponent;
@@ -73,8 +73,8 @@ Gets a series by its index in the [series](/Documentation/ApiReference/Data_Visu
     ##### Angular
 
         <!--TypeScript-->
-        import { ..., ViewChild } from '@angular/core';
-        import { DxChartModule, DxChartComponent } from 'devextreme-angular';
+        import { ..., ViewChild } from "@angular/core";
+        import { DxChartModule, DxChartComponent } from "devextreme-angular";
         // ...
         export class AppComponent {
             @ViewChild(DxChartComponent) chart: DxChartComponent;
@@ -116,7 +116,7 @@ Apart from the API methods, you can access a series in the event handlers. For e
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onSeriesClick (e) {

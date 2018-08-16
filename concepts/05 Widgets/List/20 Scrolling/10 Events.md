@@ -23,7 +23,7 @@ To execute certain commands when the **List** is scrolled, handle the [scroll](/
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onScroll (e) {

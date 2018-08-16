@@ -28,7 +28,7 @@ Static messages for any DevExtreme widget are defined in a locale-specific dicti
 #####Angular
 
     <!--TypeScript-->
-    import { locale, loadMessages } from 'devextreme/localization';
+    import { locale, loadMessages } from "devextreme/localization";
 
     loadMessages({
         // Replace "en" with the target locale of the dictionary

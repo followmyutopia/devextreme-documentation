@@ -47,7 +47,7 @@ Note that the range series require two value fields: [rangeValue1Field](/Documen
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

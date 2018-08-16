@@ -46,7 +46,7 @@ In the context of the **Form** widget, a group is called ["group item"](/Documen
     </dx-form>
 
     <!--TypeScript-->
-    import { DxFormModule } from 'devextreme-angular';
+    import { DxFormModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

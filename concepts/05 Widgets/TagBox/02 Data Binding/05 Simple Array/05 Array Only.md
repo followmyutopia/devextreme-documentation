@@ -14,7 +14,7 @@ Bind the **TagBox** to an array by passing it to the [dataSource](/Documentation
 #####Angular
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products = [
@@ -62,7 +62,7 @@ Bind the **TagBox** to an array by passing it to the [dataSource](/Documentation
 #####Angular
 
     <!--TypeScript-->
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products =  [
@@ -112,8 +112,8 @@ You can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Conce
 #####Angular
 
     <!--TypeScript-->
-    import query from 'devextreme/data/query';
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import query from "devextreme/data/query";
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         products = [

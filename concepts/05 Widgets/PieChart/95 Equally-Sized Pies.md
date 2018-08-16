@@ -28,7 +28,7 @@ The **PieChart** widget comprises of a pie and other elements which can affect t
     </dx-pie-chart>
 
     <!--TypeScript-->
-    import { DxPieChartModule } from 'devextreme-angular';
+    import { DxPieChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

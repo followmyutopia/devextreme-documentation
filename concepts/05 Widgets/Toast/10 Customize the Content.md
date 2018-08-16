@@ -19,7 +19,7 @@ The **Toast** widget provides four predefined appearances controlled by the [typ
     </dx-toast>
 
     <!--TypeScript-->
-    import { DxToastModule } from 'devextreme-angular';
+    import { DxToastModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -53,7 +53,7 @@ If you need to define the **Toast** content completely, specify a template for i
     </dx-toast>
 
     <!--TypeScript-->
-    import { DxToastModule } from 'devextreme-angular';
+    import { DxToastModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -136,7 +136,7 @@ If you need to render different templates depending on a specific condition, def
     </dx-button>
 
     <!--TypeScript-->
-    import { DxToastModule, DxButtonModule } from 'devextreme-angular';
+    import { DxToastModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         isVisible: boolean = false;

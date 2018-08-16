@@ -23,7 +23,7 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -61,7 +61,7 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         customSortingFunction (rowData) {

@@ -24,7 +24,7 @@ The **DateBox** widget allows an end user to pick or type a value. To specify wh
     </dx-date-box>
 
     <!--TypeScript-->
-    import { DxDateBoxModule } from 'devextreme-angular';
+    import { DxDateBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         date: Date = new Date()

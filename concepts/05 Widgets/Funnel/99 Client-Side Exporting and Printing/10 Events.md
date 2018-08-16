@@ -39,7 +39,7 @@ You can handle these events with functions. If the handling functions are not go
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onExporting (e) {

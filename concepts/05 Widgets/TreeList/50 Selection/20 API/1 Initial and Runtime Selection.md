@@ -25,12 +25,12 @@ Use the [selectedRowKeys](/Documentation/ApiReference/UI_Widgets/dxTreeList/Conf
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import 'devextreme/data/array_store';
+    import { DxTreeListModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import "devextreme/data/array_store";
     // or
-    // import 'devextreme/data/odata/store';
-    // import 'devextreme/data/custom_store';
+    // import "devextreme/data/odata/store";
+    // import "devextreme/data/custom_store";
     // ...
     export class AppComponent {
         treeListDataSource = new DataSource({
@@ -68,8 +68,8 @@ You can select rows at runtime using the [selectRows(keys, preserve)](/Documenta
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;
@@ -104,8 +104,8 @@ Call the [getSelectedRowKeys(mode)](/Documentation/ApiReference/UI_Widgets/dxTre
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxTreeListModule, DxTreeListComponent } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxTreeListModule, DxTreeListComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTreeListComponent) treeList: DxTreeListComponent;

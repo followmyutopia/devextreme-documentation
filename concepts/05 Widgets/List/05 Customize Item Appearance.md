@@ -18,7 +18,7 @@ For a minor customization of **List** items, you can use the default item templa
 #####Angular
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [
@@ -59,7 +59,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-list>
 
     <!--TypeScript-->
-    import { DxListModule } from 'devextreme-angular';
+    import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruits = [

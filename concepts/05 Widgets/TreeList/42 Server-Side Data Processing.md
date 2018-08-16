@@ -28,7 +28,7 @@ Specify the [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxTreeList
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

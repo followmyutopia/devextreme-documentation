@@ -36,7 +36,7 @@ A summary item is under the [column providing data](/Documentation/ApiReference/
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

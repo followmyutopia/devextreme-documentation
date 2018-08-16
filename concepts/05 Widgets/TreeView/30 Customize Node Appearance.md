@@ -38,7 +38,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         hierarchicalData = [{

@@ -39,7 +39,7 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
 ##### Angular
 
     <!--TypeScript-->
-    import { DxTextBoxModule, DxValidatorModule } from 'devextreme-angular';
+    import { DxTextBoxModule, DxValidatorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         var validateLogin = function (params) {

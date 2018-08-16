@@ -25,7 +25,7 @@ If a specific column should not be moved, set its [allowReordering](/Documentati
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

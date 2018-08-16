@@ -29,7 +29,7 @@ Use the **scrolling**.[mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/C
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -67,7 +67,7 @@ The **TreeList** adapts its scrolling mechanism to the current platform. It util
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -111,7 +111,7 @@ The current platform determines the native scrolling settings and you cannot adj
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -26,7 +26,7 @@ Specify the **columns**.[caption](/Documentation/ApiReference/UI_Widgets/dxTreeL
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -88,7 +88,7 @@ If you need a more specific customization, define a custom template in the **col
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -124,7 +124,7 @@ To hide column headers, assign **false** to the [showColumnHeaders](/Documentati
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

@@ -42,7 +42,7 @@ After that, use the **seriesTemplate**.[nameField](/Documentation/ApiReference/D
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruitProduction = [
@@ -104,7 +104,7 @@ If you need to change options of a particular series, return an [object with the
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         fruitProduction = [

@@ -30,7 +30,7 @@ By default, the value of the **SelectBox** is changed when the [change](https://
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         selectBoxData = [
@@ -73,7 +73,7 @@ To process a new **SelectBox** value, you need to handle the value change event.
     </dx-select-box>
 
     <!--TypeScript-->
-    import { DxSelectBoxModule } from 'devextreme-angular';
+    import { DxSelectBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onValueChanged (e) {

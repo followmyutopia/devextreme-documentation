@@ -44,7 +44,7 @@ Data passed as **extraParameters** to the [trigger(element, event, extraParamete
 <!----->
 
     // Modular approach
-    import { on } from 'devextreme/events';
+    import { on } from "devextreme/events";
     // ...
     on(document, "dxclick", "#elementID", function (event, extraParameters) {
         // Your code goes here

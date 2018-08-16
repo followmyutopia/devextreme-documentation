@@ -27,7 +27,7 @@ The following code adds a simple **ColorBox** to your page.
     </dx-color-box>
 
     <!--TypeScript-->
-    import { DxColorBoxModule } from 'devextreme-angular';
+    import { DxColorBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         color: string = "#FF0000"

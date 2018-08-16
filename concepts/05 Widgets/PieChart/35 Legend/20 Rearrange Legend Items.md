@@ -24,7 +24,7 @@ Depending on whether the legend is oriented vertically or horizontally, the **Pi
         </dx-pie-chart>
 
         <!--TypeScript-->
-        import { DxPieChartModule } from 'devextreme-angular';
+        import { DxPieChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -68,7 +68,7 @@ To distribute all legend items between several columns (in a vertically-oriented
         </dx-pie-chart>
 
         <!--TypeScript-->
-        import { DxPieChartModule } from 'devextreme-angular';
+        import { DxPieChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -110,7 +110,7 @@ Regardless the legend orientation, you can adjust the empty space between column
         </dx-pie-chart>
 
         <!--TypeScript-->
-        import { DxPieChartModule } from 'devextreme-angular';
+        import { DxPieChartModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...

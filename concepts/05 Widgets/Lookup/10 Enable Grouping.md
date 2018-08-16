@@ -23,7 +23,7 @@ The **Lookup** can organize items in groups. If you use a simple array as a data
 #####Angular
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [{
@@ -83,8 +83,8 @@ If you use the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/Da
 #####Angular
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxLookupModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         data = [
@@ -135,8 +135,8 @@ You can define a custom template for the group headers. For Angular, AngularJS a
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
+    import { DxLookupModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
     // ...
     export class AppComponent {
         lookupDataSource = [{

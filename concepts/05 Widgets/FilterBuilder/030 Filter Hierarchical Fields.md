@@ -34,7 +34,7 @@ In the following code, the **FilterBuilder** allows filtering by three fields, t
 #####Angular
 
     <!--TypeScript-->
-    import { DxFilterBuilderModule } from 'devextreme-angular';
+    import { DxFilterBuilderModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         orders = [{

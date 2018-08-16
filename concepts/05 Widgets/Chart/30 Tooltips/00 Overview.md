@@ -25,7 +25,7 @@ All options configuring tooltips are collected in the [tooltip](/Documentation/A
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -71,7 +71,7 @@ Options declared in the **tooltip** object apply to all tooltips in the **Chart*
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // Paints the tooltips of all points whose value is more than 100 in red

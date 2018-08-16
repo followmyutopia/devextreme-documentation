@@ -38,7 +38,7 @@ Use the **editing**.[popup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Co
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from 'devextreme-angular';
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

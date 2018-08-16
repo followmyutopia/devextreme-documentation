@@ -27,7 +27,7 @@ To allow a user to add, delete and update data in the **DataGrid**, assign **tru
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -83,12 +83,12 @@ With these settings, the **DataGrid** expects that the server can also add, upda
 #####Angular
 
     <!--TypeScript-->
-    import { ..., Inject } from '@angular/core';
-    import { HttpClient, HttpClientModule } from '@angular/common/http';
-    import { DxDataGridModule } from 'devextreme-angular';
-    import DataSource from 'devextreme/data/data_source';
-    import CustomStore from 'devextreme/data/custom_store';
-    import 'rxjs/add/operator/toPromise';
+    import { ..., Inject } from "@angular/core";
+    import { HttpClient, HttpClientModule } from "@angular/common/http";
+    import { DxDataGridModule } from "devextreme-angular";
+    import DataSource from "devextreme/data/data_source";
+    import CustomStore from "devextreme/data/custom_store";
+    import "rxjs/add/operator/toPromise";
     // ...
     export class AppComponent {
         gridDataSource: any = {};

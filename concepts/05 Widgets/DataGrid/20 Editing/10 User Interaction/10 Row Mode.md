@@ -32,7 +32,7 @@ Clicking a *"Delete"* button invokes the confirmation dialog that allows a user 
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

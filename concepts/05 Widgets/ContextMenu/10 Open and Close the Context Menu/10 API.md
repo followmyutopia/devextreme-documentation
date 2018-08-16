@@ -46,7 +46,7 @@ When using Angular, AngularJS or Knockout, use a different approach. Bind the [v
     </dx-context-menu>
 
     <!--TypeScript-->
-    import { DxContextMenuModule, DxButtonModule } from 'devextreme-angular';
+    import { DxContextMenuModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         contextMenuItems = [
@@ -158,8 +158,8 @@ When invoking the context menu from code, you may want to specify its [position]
     </dx-context-menu>
 
     <!--TypeScript-->
-    import { ..., ViewChild } from '@angular/core';
-    import { DxContextMenuModule, DxButtonModule } from 'devextreme-angular';
+    import { ..., ViewChild } from "@angular/core";
+    import { DxContextMenuModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         contextMenuItems = [

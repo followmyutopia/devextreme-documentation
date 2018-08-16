@@ -27,7 +27,7 @@ For a minor customization of **Scheduler** appointments, you can use the default
 #####Angular
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         appointments = [{
@@ -78,7 +78,7 @@ Using the default appointment template is the easiest way to customize an appoin
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent  {
         schedulerData = [{

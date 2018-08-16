@@ -35,7 +35,7 @@ With Angular, AngularJS, or Knockout, use a different technique. Bind the [visib
     </dx-button>
 
     <!--TypeScript-->
-    import { DxToastModule, DxButtonModule } from 'devextreme-angular';
+    import { DxToastModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         isVisible: boolean = false;

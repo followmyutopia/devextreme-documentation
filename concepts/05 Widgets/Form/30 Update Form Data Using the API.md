@@ -66,7 +66,7 @@ With Angular, two-way binding to a component property is sufficient to update [f
     </dx-button>
 
     <!--TypeScript-->
-    import { DxFormModule, DxButtonModule } from 'devextreme-angular';
+    import { DxFormModule, DxButtonModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         employee = {

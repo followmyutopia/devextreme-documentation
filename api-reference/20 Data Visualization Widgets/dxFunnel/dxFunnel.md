@@ -57,7 +57,7 @@ The **Funnel** is a widget that visualizes a value at different stages. It helps
     </dx-funnel>
 
     <!--TypeScript-->
-    import { DxFunnelModule } from 'devextreme-angular';
+    import { DxFunnelModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         userStatistics = [

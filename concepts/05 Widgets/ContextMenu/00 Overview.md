@@ -51,7 +51,7 @@ The following code adds the **ContextMenu** widget to your page and binds it to 
     </dx-context-menu>
 
     <!--TypeScript-->
-    import { DxContextMenuModule } from 'devextreme-angular';
+    import { DxContextMenuModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         contextMenuItems = [

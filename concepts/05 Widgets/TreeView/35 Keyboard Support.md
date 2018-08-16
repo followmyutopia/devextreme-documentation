@@ -77,8 +77,8 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
 ##### Angular
 
     <!--TypeScript-->
-    import { ..., ViewChild, AfterViewInit } from '@angular/core';
-    import { DxTreeViewModule, DxTreeViewComponent } from 'devextreme-angular';
+    import { ..., ViewChild, AfterViewInit } from "@angular/core";
+    import { DxTreeViewModule, DxTreeViewComponent } from "devextreme-angular";
     // ...
     export class AppComponent implements AfterViewInit {
         @ViewChild(DxTreeViewComponent) treeView: DxTreeViewComponent

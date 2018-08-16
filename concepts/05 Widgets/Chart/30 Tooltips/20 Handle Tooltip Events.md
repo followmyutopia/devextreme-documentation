@@ -25,7 +25,7 @@ When a tooltip becomes shown or hidden, the **Chart** fires the [tooltipShown](/
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onTooltipShown (e) {

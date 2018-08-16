@@ -20,7 +20,7 @@ For AngularJS and Knockout apps, DevExtreme provides a markup component called [
     </dx-scheduler>
 
     <!--TypeScript-->
-    import { DxSchedulerModule } from 'devextreme-angular';
+    import { DxSchedulerModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         schedulerData = [{ 

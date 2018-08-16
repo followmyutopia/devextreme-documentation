@@ -17,8 +17,8 @@
 #####Angular
 
     <!--TypeScript-->
-    import ODataStore from 'devextreme/data/odata/store';
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import ODataStore from "devextreme/data/odata/store";
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         productsStore: ODataStore = new ODataStore({
@@ -65,9 +65,9 @@ Data kept in the **ODataStore** can be processed in a [DataSource](/Documentatio
 #####Angular
 
     <!--TypeScript-->
-    import 'devextreme/data/odata/store';
-    import DataSource from 'devextreme/data/data_source';
-    import { DxTagBoxModule } from 'devextreme-angular';
+    import "devextreme/data/odata/store";
+    import DataSource from "devextreme/data/data_source";
+    import { DxTagBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         productsStore = new DataSource({

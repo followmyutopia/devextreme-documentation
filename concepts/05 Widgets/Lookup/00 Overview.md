@@ -34,7 +34,7 @@ The following code adds the **Lookup** widget to your page. The simplest configu
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [ "HD Video Player", "SuperHD Video Player", "SuperPlasma 50" ];
@@ -86,7 +86,7 @@ If your data is an array of objects, specify:
     </dx-lookup>
 
     <!--TypeScript-->
-    import { DxLookupModule } from 'devextreme-angular';
+    import { DxLookupModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         lookupDataSource = [

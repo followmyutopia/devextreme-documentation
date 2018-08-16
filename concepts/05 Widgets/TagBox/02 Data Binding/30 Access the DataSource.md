@@ -8,8 +8,8 @@ Regardless of the data source you use, the **TagBox** always wraps it in a [Data
 #####Angular
 
     <!--TypeScript-->
-    import { ViewChild, ... } from '@angular/core';
-    import { DxTagBoxModule, DxTagBoxComponent } from 'devextreme-angular';
+    import { ViewChild, ... } from "@angular/core";
+    import { DxTagBoxModule, DxTagBoxComponent } from "devextreme-angular";
     // ...
     export class AppComponent {
         @ViewChild(DxTagBoxComponent) tagBox: DxTagBoxComponent;

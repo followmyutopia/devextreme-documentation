@@ -37,7 +37,7 @@ Swipe can be used to [delete an item](/Documentation/Guide/Widgets/List/Item_Del
         </dx-list>
 
         <!--TypeScript-->
-        import { DxListModule } from 'devextreme-angular';
+        import { DxListModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             onItemSwipe (e) {
@@ -78,7 +78,7 @@ Long tap can be used to access the commands of the [context menu](/Documentation
         </dx-list>
 
         <!--TypeScript-->
-        import { DxListModule } from 'devextreme-angular';
+        import { DxListModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...
@@ -115,7 +115,7 @@ This gesture refreshes data in the **List**. To enable it, assign **true** to th
         </dx-list>
 
         <!--TypeScript-->
-        import { DxListModule } from 'devextreme-angular';
+        import { DxListModule } from "devextreme-angular";
         // ...
         export class AppComponent {
             // ...

@@ -55,7 +55,7 @@ A nested **Box** is configured similarly to an ordinary **Box**. To nest one **B
     </dx-box>
 
     <!--TypeScript-->
-    import { DxBoxModule } from 'devextreme-angular';
+    import { DxBoxModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

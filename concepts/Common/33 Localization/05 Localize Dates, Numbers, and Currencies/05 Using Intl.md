@@ -46,11 +46,11 @@
 
         <!--JavaScript-->
         // ...
-        import 'devextreme-intl';
+        import "devextreme-intl";
         // Dictionaries for German and Russian languages
-        import deMessages from 'devextreme/localization/messages/de.json!json';
-        import ruMessages from 'devextreme/localization/messages/ru.json!json';
-        import { locale, loadMessages } from 'devextreme/localization';
+        import deMessages from "devextreme/localization/messages/de.json!json";
+        import ruMessages from "devextreme/localization/messages/ru.json!json";
+        import { locale, loadMessages } from "devextreme/localization";
 
         loadMessages(deMessages);
         loadMessages(ruMessages);
@@ -102,8 +102,8 @@ The Intl setup automatically localizes and formats string, number, date, and cur
 #####Angular
 
     <!--TypeScript-->
-    import config from 'devextreme/core/config';
-    import { DxDataGridModule } from 'devextreme-angular';
+    import config from "devextreme/core/config";
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         constructor() {

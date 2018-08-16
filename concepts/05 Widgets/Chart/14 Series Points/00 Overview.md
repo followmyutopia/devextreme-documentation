@@ -51,7 +51,7 @@ For those series whose points are simple dots ([Range Area](/Documentation/Guide
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -101,7 +101,7 @@ Settings specified in the manner described above apply to a congregation of seri
     </dx-chart>
 
     <!--TypeScript-->
-    import { DxChartModule } from 'devextreme-angular';
+    import { DxChartModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // Assigns the red color to all series points with value more than 100

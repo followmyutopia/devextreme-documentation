@@ -45,7 +45,7 @@ The **DataGrid** uses the DevExtreme [Form](/Documentation/Guide/Widgets/Form/Ov
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -147,7 +147,7 @@ The form contains only the editable fields, or "simple items" (as they are calle
     </dx-data-grid>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from 'devextreme-angular';
+    import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

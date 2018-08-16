@@ -34,7 +34,7 @@ When the **Popover** is shown, the area beneath it can be shaded. To enable this
     </dx-popover>
 
     <!--TypeScript-->
-    import { DxPopoverModule } from 'devextreme-angular';
+    import { DxPopoverModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...

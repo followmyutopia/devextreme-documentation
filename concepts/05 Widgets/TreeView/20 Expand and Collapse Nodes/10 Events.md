@@ -23,7 +23,7 @@ To execute certain commands when a node is expanded or collapsed, handle the [it
     </dx-tree-view>
 
     <!--TypeScript-->
-    import { DxTreeViewModule } from 'devextreme-angular';
+    import { DxTreeViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         onItemExpanded (e) {

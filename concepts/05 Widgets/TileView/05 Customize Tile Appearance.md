@@ -16,7 +16,7 @@ For a minor customization of tiles, you can use the default item template. This 
 #####Angular
 
     <!--TypeScript-->
-    import { DxTileViewModule } from 'devextreme-angular';
+    import { DxTileViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tileViewData = [
@@ -59,7 +59,7 @@ Using the default item template is the easiest way to customize an item, but it 
     </dx-tile-view>
 
     <!--TypeScript-->
-    import { DxTileViewModule } from 'devextreme-angular';
+    import { DxTileViewModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         tileViewData = [
