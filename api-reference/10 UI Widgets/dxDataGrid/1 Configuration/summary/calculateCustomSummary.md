@@ -141,3 +141,8 @@ If the custom summary item is calculated by a [column](/Documentation/ApiReferen
 <!--typeFunctionParamDescription1_field5-->
 The resulting summary item's value.
 <!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamName1_field6-->groupIndex<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->Number<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->
