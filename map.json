@@ -9,7 +9,6 @@
     "dxSankeyConnectionInfoObject",
     "DOMComponent/Options/bindingOptions",
     "dxElement",
-    "Font",
     "animationSets",
     "devices",
     "layoutSets"
@@ -966,6 +965,10 @@
           "$Widget": "MapLayerElement"
         }
       }
+    },
+
+    "Font": {
+      "$Object": "Font"
     },
 
     "ScaleBreak": {
