@@ -41,7 +41,8 @@ To define resource kinds, assign an array of objects specifying them to the [res
                         store: {
                             type: "array",
                             data: rooms
-                        }
+                        },
+                        paginate: false
                     }),
                     fieldExpr: "roomId",        // "roomId" is the data field in an appointment object that binds it to the resource
                     label: "Room"               // Label displayed for this resource kind in the appointment details form 
@@ -52,7 +53,8 @@ To define resource kinds, assign an array of objects specifying them to the [res
                         store: {
                             type: "array",
                             data: teachers
-                        }
+                        },
+                        paginate: false
                     }),
                     fieldExpr: "teacherId",
                     valueExpr: "guid",          // Resource instance's field used instead of "id" 
@@ -96,7 +98,8 @@ To define resource kinds, assign an array of objects specifying them to the [res
                     store: {
                         type: "array",
                         data: this.rooms
-                    }
+                    },
+                    paginate: false
                 }),
                 fieldExpr: "roomId",        // "roomId" is the data field in an appointment object that binds it to the resource
                 label: "Room"               // Label displayed for this resource kind in the appointment details form 
@@ -107,7 +110,8 @@ To define resource kinds, assign an array of objects specifying them to the [res
                     store: {
                         type: "array",
                         data: this.teachers
-                    }
+                    },
+                    paginate: false
                 }),
                 fieldExpr: "teacherId",
                 valueExpr: "guid",          // Resource instance's field used instead of "id" 

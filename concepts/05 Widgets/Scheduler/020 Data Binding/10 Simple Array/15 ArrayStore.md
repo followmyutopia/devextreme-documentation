@@ -68,7 +68,8 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
                         startDate: item.from,
                         endDate: item.to
                     }   
-                }
+                },
+                paginate: false
             })
         });
     });
@@ -96,7 +97,8 @@ Data kept in the **ArrayStore** can be processed in the [DataSource](/Documentat
                     startDate: item.from,
                     endDate: item.to
                 }   
-            }
+            },
+            paginate: false
         });
     }
     @NgModule({
