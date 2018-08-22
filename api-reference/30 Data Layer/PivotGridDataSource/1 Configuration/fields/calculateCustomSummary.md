@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a custom aggregate function. Applies only if the [summaryType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryType) is *"custom"*. Cannot be used with an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
+Specifies a custom aggregate function. Applies only if the [summaryType](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#summaryType) is *"custom"* and the [remoteOperations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations) is **false**. Cannot be used with an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
