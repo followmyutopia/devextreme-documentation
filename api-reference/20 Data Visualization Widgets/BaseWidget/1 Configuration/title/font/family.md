@@ -1,12 +1,3 @@
-===========================================================================
+<!--merge--><!--/merge-->
 <!--default-->'"Segoe UI Light", "Helvetica Neue Light", "Segoe UI", "Helvetica Neue", "Trebuchet MS", Verdana, sans-serif'<!--/default-->
-<!--type-->String<!--/type-->
 ===========================================================================
-
-<!--shortDescription-->
-Specifies a font family for the title.
-<!--/shortDescription-->
-
-<!--fullDescription-->
-For details on acceptable values, refer to the [Font family](http://www.w3.org/TR/CSS21/fonts.html#propdef-font-family) article.
-<!--/fullDescription-->
