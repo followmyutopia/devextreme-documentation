@@ -113,15 +113,15 @@ You can also customize command columns' cells using the [onCellPrepared](/Docume
 
     <!--TypeScript-->
     import { DxDataGridModule } from "devextreme-angular";
-    import * as events from "devextreme/events";
+    import { off, on } from "devextreme/events";
     // ...
     export class AppComponent {
         onCellPrepared (e) {
             if (e.rowType == "data" && e.column.command == "edit") {
                 let cellElement = e.cellElement,
                     editLink = cellElement.querySelector(".dx-link-edit");
-                events.off(editLink); 
-                events.on(editLink, "dxclick", (args) => {
+                off(editLink, "dxclick"); 
+                on(editLink, "dxclick", (args) => {
                     // Implement your logic here
                 });
             }
