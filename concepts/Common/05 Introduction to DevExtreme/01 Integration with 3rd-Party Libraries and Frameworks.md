@@ -10,7 +10,7 @@ DevExtreme supports integration with client-side technologies and server-side fr
 - [Vue](/Documentation/Guide/Getting_Started/Widget_Basics_-_Vue/)
     - [DevExtreme Vue Wrappers](https://github.com/DevExpress/devextreme-vue/blob/master/README.md) (CTP) - versions 2.5.16 and later
     - [DevExtreme Reactive Components for Vue](https://github.com/DevExpress/devextreme-reactive/blob/master/README.md#business-components-for-vue) (CTP) - versions 2.5.13 and later
-- [ASP.NET](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/): ASP.NET MVC 3 and later / ASP.NET Core 1.0.1 and later
+- [ASP.NET](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/): ASP.NET MVC 5 / .NET Core 2.0 and later
 
 You can integrate DevExtreme with other frameworks or use DevExtreme widgets without jQuery and frameworks:
 

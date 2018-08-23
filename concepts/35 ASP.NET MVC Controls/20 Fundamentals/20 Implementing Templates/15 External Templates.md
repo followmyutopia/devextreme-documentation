@@ -1,4 +1,4 @@
-External templates can be declared as a named template, a partial view, or a `@helper` block (MVC 3, 4, 5 only). Controls placed in such a template use a special rendering mechanism. Usually, you should declare an external template for high-level nesting or if you want to reuse it. In the following example, a template containing list items is nested in the [List](/Documentation/ApiReference/UI_Widgets/dxList/) control, and a template with the **List** control is nested in the [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/) control:
+External templates can be declared as a named template, a partial view, or a `@helper` block (MVC 5 only). Controls placed in such a template use a special rendering mechanism. Usually, you should declare an external template for high-level nesting or if you want to reuse it. In the following example, a template containing list items is nested in the [List](/Documentation/ApiReference/UI_Widgets/dxList/) control, and a template with the **List** control is nested in the [Popup](/Documentation/ApiReference/UI_Widgets/dxPopup/) control:
 
 - **Named template**    
 
@@ -76,7 +76,7 @@ External templates can be declared as a named template, a partial view, or a `@h
                     End Sub).Render()
             End Code
 
-- **@helper (MVC 3, 4, 5 only)**
+- **@helper (MVC 5 only)**
 
         <!--Razor C#-->
         @(Html.DevExtreme().Popup()

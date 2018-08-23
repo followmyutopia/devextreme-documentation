@@ -1,6 +1,6 @@
 [note] In Visual Studio, you can generate a controller instead of implementing it manually. Refer to the [API Controller Scaffolding](/Documentation/Guide/ASP.NET_MVC_Controls/Visual_Studio_Integration/Scaffolding/#API_Controller_Scaffolding) article for details.
 
-Access to MVC controllers in an MVC 3, 4, 5 and .NET Core MVC app is configured using the `Mvc()` method the `DataSource()`'s lambda parameter exposes. The following example shows the [DataGrid](/Documentation/Guide/Widgets/DataGrid/Overview/) control accessing a `GridDataController` whose actions (`GetOrders`, `InsertOrder`, `UpdateOrder`, and `DeleteOrder`) implement [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations:
+Access to MVC controllers in an MVC 5 and .NET Core MVC app is configured using the `Mvc()` method the `DataSource()`'s lambda parameter exposes. The following example shows the [DataGrid](/Documentation/Guide/Widgets/DataGrid/Overview/) control accessing a `GridDataController` whose actions (`GetOrders`, `InsertOrder`, `UpdateOrder`, and `DeleteOrder`) implement [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) operations:
 
     <!--Razor C#-->
     @(Html.DevExtreme().DataGrid()
@@ -32,7 +32,7 @@ The code below details the `GridDataController`. CRUD operations are performed o
 
 ---
 
-##### MVC 3, 4, 5 Controller
+##### MVC 5 Controller
 
     <!--C#-->
     using System;
