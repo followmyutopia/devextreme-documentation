@@ -1,12 +1,12 @@
 ===========================================================================
-<!--default-->'#000000'<!--/default-->
-<!--type-->String<!--/type-->
+<!--default-->undefined<!--/default-->
+<!--type-->Number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Colors the nodes' borders.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-colorlist
+
 <!--/fullDescription-->
