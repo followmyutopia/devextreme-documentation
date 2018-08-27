@@ -144,5 +144,5 @@ The resulting summary item's value.
 <!--typeFunctionParamName1_field6-->groupIndex<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Number<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+A zero-based group level. Available only when calculating group summary items.
 <!--/typeFunctionParamDescription1_field6-->
