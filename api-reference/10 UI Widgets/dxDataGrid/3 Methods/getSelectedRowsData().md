@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets data objects of currently selected rows. 
+Gets the selected rows' data objects. 
 <!--/shortDescription-->
 
 <!--returnType-->Array<any>|Promise<any><!--/returnType-->
 <!--returnDescription-->
-Data objects of currently selected rows or a Promise that is resolved with an array of these objects.
+The selected rows' data objects or a Promise that is resolved with an array of these objects.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-When selection is [deferred](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred), the method returns a Promise (a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery) that should be resolved with an array of objects.
+When selection is [deferred](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#deferred), the method returns a Promise (a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery). The selected rows' data is passed to the function that resolves this Promise. This is data before being processed in the **DataSource**.
 
-[note][Calculated values](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) cannot be obtained because this method gets data objects directly from the data source.
+[note][Calculated values](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) cannot be obtained because this method gets data objects from the data source.
 
 #####See Also#####
 #include common-link-callmethods
