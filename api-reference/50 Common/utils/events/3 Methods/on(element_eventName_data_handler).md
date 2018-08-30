@@ -47,7 +47,7 @@ Data passed as **extraParameters** to the [trigger(element, event, extraParamete
     import { on } from "devextreme/events";
     // ...
     on(
-        document, 
+        document.getElementById("target"), 
         "dxclick", 
         { value: "value1" }, 
         function (event, extraParameters) {
@@ -57,7 +57,7 @@ Data passed as **extraParameters** to the [trigger(element, event, extraParamete
 
     // Non-modular approach
     DevExpress.events.on(
-        document, 
+        document.getElementById("target"), 
         "dxclick", 
         { value: "value1" }, 
         function (event, extraParameters) {

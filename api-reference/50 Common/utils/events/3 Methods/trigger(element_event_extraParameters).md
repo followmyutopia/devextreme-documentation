@@ -30,9 +30,9 @@ Additional parameters to be passed to event handlers.
     // Modular approach
     import { trigger } from "devextreme/events";
     // ...
-    trigger(document, "customEvent", { timeout: 1000 });
+    trigger(document.getElementById("target"), "customEvent", { timeout: 1000 });
 
     // Non-modular approach
-    DevExpress.events.trigger(document, "customEvent", { timeout: 1000 });
+    DevExpress.events.trigger(document.getElementById("target"), "customEvent", { timeout: 1000 });
 
 <!--/fullDescription-->

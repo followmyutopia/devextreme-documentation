@@ -46,12 +46,12 @@ Data passed as **extraParameters** to the [trigger(element, event, extraParamete
     // Modular approach
     import { one } from "devextreme/events";
     // ...
-    one(document, "dxclick", "#elementID", function (event, extraParameters) {
+    one(document.getElementById("target"), "dxclick", "#elementID", function (event, extraParameters) {
         // Your code goes here
     });
 
     // Non-modular approach
-    DevExpress.events.one(document, "dxclick", "#elementID", function (event, extraParameters) {
+    DevExpress.events.one(document.getElementById("target"), "dxclick", "#elementID", function (event, extraParameters) {
         // Your code goes here
     });
 

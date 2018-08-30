@@ -36,9 +36,9 @@ The handler to detach.
     // Modular approach
     import { off } from "devextreme/events";
     // ...
-    off(document, "dxclick", "#elementID", clickHandler);
+    off(document.getElementById("target"), "dxclick", "#elementID", clickHandler);
 
     // Non-modular approach
-    DevExpress.events.off(document, "dxclick", "#elementID", clickHandler);
+    DevExpress.events.off(document.getElementById("target"), "dxclick", "#elementID", clickHandler);
 
 <!--/fullDescription-->

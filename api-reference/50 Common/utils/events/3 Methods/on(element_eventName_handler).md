@@ -40,12 +40,12 @@ Data passed as **extraParameters** to the [trigger(element, event, extraParamete
     // Modular approach
     import { on } from "devextreme/events";
     // ...
-    on(document, "dxclick", function (event, extraParameters) {
+    on(document.getElementById("target"), "dxclick", function (event, extraParameters) {
         // Your code goes here
     });
 
     // Non-modular approach
-    DevExpress.events.on(document, "dxclick", function (event, extraParameters) {
+    DevExpress.events.on(document.getElementById("target"), "dxclick", function (event, extraParameters) {
         // Your code goes here
     });
 

@@ -23,9 +23,9 @@ An event or its name.
     // Modular approach
     import { trigger } from "devextreme/events";
     // ...
-    trigger(document, "customEvent");
+    trigger(document.getElementById("target"), "customEvent");
 
     // Non-modular approach
-    DevExpress.events.trigger(document, "customEvent");
+    DevExpress.events.trigger(document.getElementById("target"), "customEvent");
 
 <!--/fullDescription-->

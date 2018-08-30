@@ -30,9 +30,9 @@ A [CSS selector](https://www.w3schools.com/cssref/css_selectors.asp) passed to t
     // Modular approach
     import { off } from "devextreme/events";
     // ...
-    off(document, "dxclick", "#elementID");
+    off(document.getElementById("target"), "dxclick", "#elementID");
 
     // Non-modular approach
-    DevExpress.events.off(document, "dxclick", "#elementID");
+    DevExpress.events.off(document.getElementById("target"), "dxclick", "#elementID");
 
 <!--/fullDescription-->
