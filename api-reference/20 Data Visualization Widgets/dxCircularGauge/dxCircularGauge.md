@@ -128,6 +128,7 @@ The **CircularGauge** is a widget that indicates values on a circular numeric sc
                 ranges.Add().StartValue(130).EndValue(150);
             })
         )
+        .Value(105)
     )
 
     <!--Razor VB-->@(Html.DevExtreme().CircularGauge() _
@@ -142,7 +143,8 @@ The **CircularGauge** is a widget that indicates values on a circular numeric sc
                 ranges.Add().StartValue(90).EndValue(130)
                 ranges.Add().StartValue(130).EndValue(150)
             End Sub)
-        End Sub)
+        End Sub) _
+        .Value(105)
     )
 
 ---

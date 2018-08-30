@@ -128,6 +128,7 @@ The **LinearGauge** is a widget that indicates values on a linear numeric scale.
                 ranges.Add().StartValue(130).EndValue(150);
             })
         )
+        .Value(105)
     )
 
     <!--Razor VB-->@(Html.DevExtreme().LinearGauge() _
@@ -142,7 +143,8 @@ The **LinearGauge** is a widget that indicates values on a linear numeric scale.
                 ranges.Add().StartValue(90).EndValue(130)
                 ranges.Add().StartValue(130).EndValue(150)
             End Sub)
-        End Sub)
+        End Sub) _
+        .Value(105)
     )
 
 ---

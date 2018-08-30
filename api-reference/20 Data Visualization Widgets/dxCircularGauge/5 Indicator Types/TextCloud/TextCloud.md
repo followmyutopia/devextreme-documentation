@@ -9,11 +9,68 @@ An object that defines a gauge indicator of the **textCloud** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-**Value Indicator**
+---
+##### jQuery  
 
-![TextCloud Gauge Value Indicator DevExtreme](/Content/images/doc/18_2/ChartJS/TextCloudValueIndicator.png)
+    <!--JavaScript-->
+    $(function() {
+        $("#circularGaugeContainer").dxCircularGauge({
+            value: 40,
+            valueIndicator: { // or subvalueIndicator
+                type: "textCloud",
+                // ...
+                // The rest of the indicator options go here
+                // ...
+            }
+        });
+    });
 
-**Subvalue Indicator**
+    <!--HTML-->
+    <div id="circularGaugeContainer"></div>
 
-![TextCloud Gauge Subvalue Indicator DevExtreme](/Content/images/doc/18_2/ChartJS/TextCloudSubvalueIndicator.png)
+##### Angular  
+
+    <!--HTML-->
+    <dx-circular-gauge [value]="40">
+        <dxo-value-indicator <!-- or dxo-subvalue-indicator -->
+            type="textCloud"
+            <!-- ... -->
+            <!-- The rest of the indicator options go here -->
+            <!-- ... -->>
+        </dxo-value-indicator>
+    </dx-circular-gauge>
+
+    <!--TypeScript-->
+    import { DxCircularGaugeModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxCircularGaugeModule
+        ],
+        // ...
+    })
+
+##### ASP.NET MVC Controls
+    
+    <!--Razor C#-->
+    @(Html.DevExtreme().CircularGauge()
+        .ID("circularGauge")
+        .Value(40)
+        .ValueIndicator(vi => vi // or .SubvalueIndicator
+            .Type(GaugeIndicatorType.TextCloud)
+            // ...
+            // The rest of the indicator options go here
+            // ...
+        )
+    )
+
+---
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypes/jQuery/Light/"
+}
 <!--/fullDescription-->

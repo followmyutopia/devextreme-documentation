@@ -9,11 +9,68 @@ An object that defines a gauge indicator of the **circle** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-**Value Indicator**
+---
+##### jQuery  
 
-![Circle Gauge Value Indicator DevExtreme](/Content/images/doc/18_2/ChartJS/CircleValueIndicator.png)
+    <!--JavaScript-->
+    $(function() {
+        $("#linearGaugeContainer").dxLinearGauge({
+            value: 40,
+            valueIndicator: { // or subvalueIndicator
+                type: "circle",
+                // ...
+                // The rest of the indicator options go here
+                // ...
+            }
+        });
+    });
 
-**Subvalue Indicator**
+    <!--HTML-->
+    <div id="linearGaugeContainer"></div>
 
-![Circle Gauge Subvalue Indicator DevExtreme](/Content/images/doc/18_2/ChartJS/CircleSubvalueIndicator.png)
+##### Angular  
+
+    <!--HTML-->
+    <dx-linear-gauge [value]="40">
+        <dxo-value-indicator <!-- or dxo-subvalue-indicator -->
+            type="circle"
+            <!-- ... -->
+            <!-- The rest of the indicator options go here -->
+            <!-- ... -->>
+        </dxo-value-indicator>
+    </dx-linear-gauge>
+
+    <!--TypeScript-->
+    import { DxLinearGaugeModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLinearGaugeModule
+        ],
+        // ...
+    })
+
+##### ASP.NET MVC Controls
+    
+    <!--Razor C#-->
+    @(Html.DevExtreme().LinearGauge()
+        .ID("linearGauge")
+        .Value(40)
+        .ValueIndicator(vi => vi // or .SubvalueIndicator
+            .Type(GaugeIndicatorType.Circle)
+            // ...
+            // The rest of the indicator options go here
+            // ...
+        )
+    )
+
+---
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/jQuery/Light/"
+}
 <!--/fullDescription-->

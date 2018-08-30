@@ -9,11 +9,68 @@ An object that defines a gauge indicator of the **rangeBar** type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-**Value Indicator**
+---
+##### jQuery  
 
-![RangeBar Gauge Value Indicator DevExtreme](/Content/images/doc/18_2/ChartJS/RangeBarValueIndicator_LinearGauge.png)
+    <!--JavaScript-->
+    $(function() {
+        $("#linearGaugeContainer").dxLinearGauge({
+            value: 40,
+            valueIndicator: { // or subvalueIndicator
+                type: "rangeBar",
+                // ...
+                // The rest of the indicator options go here
+                // ...
+            }
+        });
+    });
 
-**Subvalue Indicator**
+    <!--HTML-->
+    <div id="linearGaugeContainer"></div>
 
-![RangeBar Gauge Subvalue Indicator DevExtreme](/Content/images/doc/18_2/ChartJS/RangeBarSubvalueIndicator_LinearGauge.png)
+##### Angular  
+
+    <!--HTML-->
+    <dx-linear-gauge [value]="40">
+        <dxo-value-indicator <!-- or dxo-subvalue-indicator -->
+            type="rangeBar"
+            <!-- ... -->
+            <!-- The rest of the indicator options go here -->
+            <!-- ... -->>
+        </dxo-value-indicator>
+    </dx-linear-gauge>
+
+    <!--TypeScript-->
+    import { DxLinearGaugeModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxLinearGaugeModule
+        ],
+        // ...
+    })
+
+##### ASP.NET MVC Controls
+    
+    <!--Razor C#-->
+    @(Html.DevExtreme().LinearGauge()
+        .ID("linearGauge")
+        .Value(40)
+        .ValueIndicator(vi => vi // or .SubvalueIndicator
+            .Type(GaugeIndicatorType.RangeBar)
+            // ...
+            // The rest of the indicator options go here
+            // ...
+        )
+    )
+
+---
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Gauges/DifferentValueIndicatorTypesLinearGauge/jQuery/Light/"
+}
 <!--/fullDescription-->
