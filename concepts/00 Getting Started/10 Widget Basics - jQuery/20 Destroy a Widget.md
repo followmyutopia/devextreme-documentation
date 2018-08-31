@@ -1,5 +1,5 @@
-To destroy a DevExtreme widget, remove the DOM node associated with this widget.
+To dispose of a DevExtreme widget, free up the allocated resources by calling the **dispose()** method. Then, remove the widget's associated DOM node:
 
-    <!--JavaScript-->$("#menuContainer").remove();
-
-[tags]basics, jquery, destroy, remove, delete
+    <!--JavaScript-->
+    $("#menuContainer").dxMenu("dispose");
+    $("#menuContainer").remove();

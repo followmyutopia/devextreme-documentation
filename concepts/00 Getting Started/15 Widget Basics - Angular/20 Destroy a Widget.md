@@ -1,20 +1,22 @@
-If you want a DevExtreme widget to be destroyed at some moment, use the [NgIf directive](https://angular.io/docs/ts/latest/api/common/index/NgIf-directive.html). In the following example, the **TextBox** widget is destroyed each time the `showTextBox` property is given **false**, and created again once this property is given **true**.
+To dispose of a DevExtreme widget, free up the allocated resources by calling the **dispose()** method. Then, remove the widget's associated DOM node:
 
-    @Component({
-        selector: 'my-app',
-        template: '
-            <dx-text-box *NgIf="showTextBox"></dx-text-box>
-            <dx-button text="Click me" (onClick)="clickHandler()"></dx-button>
-        '
-    })
+    <!--HTML-->
+    <dx-data-grid #dataGridVar id="myDataGrid"></dx-data-grid>
+
+<!---->
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from "@angular/core";
+    import { DxDataGridComponent } from "devextreme-angular";
+    // ...
     export class AppComponent {
-        showTextBox: bool = true;
-        clickHandler() {
-            this.showTextBox = !this.showTextBox;
+        @ViewChild("dataGridVar") dataGrid: DxDataGridComponent;
+
+        removeDataGrid (e) {
+            this.dataGrid.instance.dispose();
+            document.getElementById("myDataGrid").remove();
         }
     }
 
 #####See Also#####
 - [DevExtreme-Angular on GitHub](https://github.com/DevExpress/devextreme-angular)
-
-[tags]basics, angular, destroy, remove, delete

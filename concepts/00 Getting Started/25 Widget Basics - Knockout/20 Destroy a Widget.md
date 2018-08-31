@@ -1,5 +1,1 @@
-To destroy a DevExtreme widget, remove the DOM node associated with this widget.
-
-    <!--JavaScript-->$("#menuContainer").remove();
-
-[tags]basics, knockout, destroy, remove, delete
+Refer to the jQuery [Destroy a Widget](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Destroy_a_Widget/) article for details on how to dispose of a DevExtreme widget.
