@@ -692,6 +692,10 @@
           "$Object": "dxChartSeriesTypes/CommonSeries"
         },
 
+        "ChartSeries": {
+          "$Object": "ChartSeries"
+        },
+
         "FullStackedAreaSeries": {
           "$Object": "dxChartSeriesTypes/FullStackedAreaSeries"
         },
@@ -865,6 +869,10 @@
 
         "PieSeries": {
           "$Object": "dxPieChartSeriesTypes/PieSeries"
+        },
+
+        "PieChartSeries": {
+          "$Object": "PieChartSeries"
         }
       },
 
@@ -883,22 +891,33 @@
       "$Widget": "dxPolarChart",
 
       "5 Series Types": {
+
         "Series Types.md": "dxPolarChartSeriesTypes",
+
         "AreaSeries": {
           "$Object": "dxPolarChartSeriesTypes/areapolarseries"
         },
+
         "BarSeries": {
           "$Object": "dxPolarChartSeriesTypes/barpolarseries"
         },
+
         "LineSeries": {
           "$Object": "dxPolarChartSeriesTypes/linepolarseries"
         },
+
         "ScatterSeries": {
           "$Object": "dxPolarChartSeriesTypes/scatterpolarseries"
         },
+
         "StackedBarSeries": {
           "$Object": "dxPolarChartSeriesTypes/stackedbarpolarseries"
         },
+
+        "PolarChartSeries" : {
+          "$Object": "PolarChartSeries"
+        },
+
         "CommonPolarChartSeries": {
           "$Object": "dxPolarChartSeriesTypes/CommonPolarChartSeries"
         }

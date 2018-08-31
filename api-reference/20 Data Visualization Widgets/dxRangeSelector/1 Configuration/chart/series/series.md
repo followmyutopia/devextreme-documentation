@@ -1,7 +1,8 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->undefined<!--/default-->
-<!--type-->dxChart_Options_series | Array<dxChart_Options_series><!--/type-->
+<!--type-->Object | Array<ChartSeries><!--/type-->
+<!--inherits-->..\..\..\..\dxChart\5 Series Types\ChartSeries\ChartSeries.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
