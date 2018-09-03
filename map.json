@@ -998,6 +998,10 @@
       "$Widget": "VizTimeInterval"
     },
 
+    "VizRange": {
+      "$Object": "VizRange"
+    },
+
     "Errors and Warnings": {
       "Errors and Warnings.md": "ErrorsViz",
       "$Object": "ErrorsViz"

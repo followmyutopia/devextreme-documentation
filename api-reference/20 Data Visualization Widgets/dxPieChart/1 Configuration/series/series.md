@@ -1,8 +1,8 @@
 ===========================================================================
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--default-->undefined<!--/default-->
-<!--type-->Object | Array<Object><!--/type-->
-<!--inherits-->..\..\5 Series Types\CommonPieChartSeries\CommonPieChartSeries.md<!--/inherits-->
+<!--type-->Object | Array<PieChartSeries><!--/type-->
+<!--inherits-->..\..\5 Series Types\PieChartSeries\PieChartSeries.md<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================
 

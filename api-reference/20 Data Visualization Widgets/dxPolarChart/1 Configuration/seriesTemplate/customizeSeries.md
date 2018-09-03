@@ -17,7 +17,7 @@ To determine the series to which the function's return value will be applied, us
 The name of the series to be customized.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->dxPolarChart_Options_series<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->PolarChartSeries<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The series' [configuration](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/).
 <!--/typeFunctionReturnDescription-->

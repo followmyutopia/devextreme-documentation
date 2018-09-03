@@ -1,6 +1,6 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Array<Number, String, Date><!--/type-->
+<!--type-->VizRange | Array<Number, String, Date><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

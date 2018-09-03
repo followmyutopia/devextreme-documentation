@@ -1,6 +1,6 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Array<Number, String, Date><!--/type-->
+<!--type-->Array<Number, String, Date> | VizRange<!--/type-->
 <!--firedEvents-->valueChanged<!--/firedEvents-->
 ===========================================================================
 

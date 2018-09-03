@@ -17,7 +17,7 @@ To determine the series to which the function's return value will be applied, us
 The name of the series to be customized.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->dxPieChart_Options_series<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->PieChartSeries<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
 The series' [configuration](/Documentation/ApiReference/Data_Visualization_Widgets/dxPieChart/Configuration/series/).
 <!--/typeFunctionReturnDescription-->

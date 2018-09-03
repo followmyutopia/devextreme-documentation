@@ -2,8 +2,8 @@
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--hideDefaults-->true<!--/hideDefaults-->
 <!--default-->undefined<!--/default-->
-<!--type-->Object | Array<Object><!--/type-->
-<!--inherits-->..\..\5 Series Types\CommonPolarChartSeries\CommonPolarChartSeries.md<!--/inherits-->
+<!--type-->Object | Array<PolarChartSeries><!--/type-->
+<!--inherits-->..\..\5 Series Types\PolarChartSeries\PolarChartSeries.md<!--/inherits-->
 <!--inheritAll--><!--/inheritAll-->
 ===========================================================================
 

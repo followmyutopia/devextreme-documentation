@@ -5,7 +5,7 @@
 Gets the axis's visual range.
 <!--/shortDescription-->
 
-<!--returnType-->Array<Number, String, Date><!--/returnType-->
+<!--returnType-->VizRange<!--/returnType-->
 <!--returnDescription-->
 The axis's current visual range.
 <!--/returnDescription-->
