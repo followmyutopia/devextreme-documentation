@@ -19,15 +19,17 @@ A summary value calculation is conducted in three stages: *start*, in which the 
             fields: [{
                 // ...
                 summaryType: "custom",
-                calculateCustomSummary: function (options) {
-                    if (options.summaryProcess == "start") {
-                        options.totalValue = 0;
-                    }
-                    if (options.summaryProcess == "calculate") {
-                        options.totalValue += options.value;
-                    }
-                    if (options.summaryProcess == "finalize") {
-                        options.totalValue = options.totalValue / 1000
+                calculateCustomSummary: function(options) {
+                    switch(options.summaryProcess) {
+                        case "start":
+                            // Initializing "totalValue" here
+                            break;
+                        case "calculate":
+                            // Modifying "totalValue" here
+                            break;
+                        case "finalize":
+                            // Assigning the final value to "totalValue" here
+                            break;
                     }
                 }
             }]
@@ -53,15 +55,17 @@ A summary value calculation is conducted in three stages: *start*, in which the 
                 fields: [{
                     // ...
                     summaryType: "custom",
-                    calculateCustomSummary: function (options) {
-                        if (options.summaryProcess == "start") {
-                            options.totalValue = 0;
-                        }
-                        if (options.summaryProcess == "calculate") {
-                            options.totalValue += options.value;
-                        }
-                        if (options.summaryProcess == "finalize") {
-                            options.totalValue = options.totalValue / 1000
+                    calculateCustomSummary: (options) => {
+                        switch(options.summaryProcess) {
+                            case "start":
+                                // Initializing "totalValue" here
+                                break;
+                            case "calculate":
+                                // Modifying "totalValue" here
+                                break;
+                            case "finalize":
+                                // Assigning the final value to "totalValue" here
+                                break;
                         }
                     }
                 }]
@@ -98,15 +102,17 @@ A summary value calculation is conducted in three stages: *start*, in which the 
     )
 
     <script type="text/javascript">
-        function calculateCustomSummary (options) {
-            if (options.summaryProcess == "start") {
-                options.totalValue = 0;
-            }
-            if (options.summaryProcess == "calculate") {
-                options.totalValue += options.value;
-            }
-            if (options.summaryProcess == "finalize") {
-                options.totalValue = options.totalValue / 1000
+        function calculateCustomSummary(options) {
+            switch(options.summaryProcess) {
+                case "start":
+                    // Initializing "totalValue" here
+                    break;
+                case "calculate":
+                    // Modifying "totalValue" here
+                    break;
+                case "finalize":
+                    // Assigning the final value to "totalValue" here
+                    break;
             }
         }
     </script>

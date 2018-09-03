@@ -3,50 +3,46 @@
 ===========================================================================
 
 <!--shortDescription-->
-Allows you to use a custom aggregate function to calculate the value of a summary item.
+Specifies a custom aggregate function. This function is called for summary items whose [summaryType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType) is *"custom"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If [predefined aggregate functions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#summaryType) do not meet your requirements, implement a custom one and assign it to the **calculateCustomSummary** option. This function will be called for each summary item whose **summaryType** property is set to *"custom"*.
+This is a single function for all custom summary items. Specify a [name](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#name) for each item to identify them in the function.
 
-When implementing the function, you can access useful information through the object passed to this function as its argument. Use the **name** field of this object to identify the summary item. 
-
-To access data, use the **value** field. This data depends on whether you have set the [column](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column) field of the summary item or not. If you have, the **value** field contains the value from a cell of this column. Otherwise, it contains a whole object from the data source.
-
-The calculation of a summary item value is conducted in several phases. Usually, you need to initialize **totalValue** on start. Then, you modify **totalValue** in the calculation phase. In the final phase, you adjust **totalValue**. To identify the current phase, check the value of the **summaryProcess** field.
-
-The following code demonstrates a general structure of the **calculateCustomSummary** function. In this code, the [totalItems](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/) array contains two custom summary items. Within the **calculateCustomSummary** function, the **name** field identifies each summary item. Actions that follow depend on the calculation stage, which is obtained using the **summaryProcess** field.
+A summary value calculation is conducted in three stages: *start* - the **totalValue** is initialized; *calculate* - the **totalValue** is modified; *finalize* - the **totalValue** is adjusted. To identify the current stage, check the value of the **summaryProcess** field that belongs to the function's parameter:
 
 ---
 #####jQuery
 
     <!--JavaScript-->
-    $(function () {
+    $(function() {
         $("#dataGridContainer").dxDataGrid({
             // ...
             summary: {
                 totalItems: [
-                    { summaryType: "custom", name: "CustomSummary1" },
-                    { summaryType: "custom", name: "CustomSummary2" }
+                    { name: "customSummary1", summaryType: "custom" },
+                    { name: "customSummary2", summaryType: "custom" }
                 ],
-                calculateCustomSummary: function (options) {
-                    // Calculating "CustomSummary1"
-                    if (options.name == "CustomSummary1") {
-                        if (options.summaryProcess == "start") {
-                            // Initializing "totalValue" here
-                        }
-                        if (options.summaryProcess == "calculate") {
-                            // Modifying "totalValue" here
-                        }
-                        if (options.summaryProcess == "finalize") {
-                            // Assigning the final value to "totalValue" here
+                calculateCustomSummary: function(options) {
+                    // Calculating "customSummary1"
+                    if(options.name == "customSummary1") {
+                        switch(options.summaryProcess) {
+                            case "start":
+                                // Initializing "totalValue" here
+                                break;
+                            case "calculate":
+                                // Modifying "totalValue" here
+                                break;
+                            case "finalize":
+                                // Assigning the final value to "totalValue" here
+                                break;
                         }
                     }
 
-                    // Calculating "CustomSummary2"
-                    if (options.name == "CustomSummary2") {
+                    // Calculating "customSummary2"
+                    if(options.name == "customSummary2") {
                         // ...
-                        // Same "if" statements here
+                        // Same "switch" statement here
                     }
                 }
             }
@@ -59,12 +55,12 @@ The following code demonstrates a general structure of the **calculateCustomSumm
     <dx-data-grid ... >
         <dxo-summary [calculateCustomSummary]="calculateSummary">
             <dxi-total-item
-                summaryType="custom"
-                name="customSummary1">
+                name="сustomSummary1"
+                summaryType="custom">
             </dxi-total-item>
             <dxi-total-item
-                summaryType="custom"
-                name="customSummary2">
+                name="сustomSummary2"
+                summaryType="custom">
             </dxi-total-item>
         </dxo-summary>
     </dx-data-grid>
@@ -73,24 +69,26 @@ The following code demonstrates a general structure of the **calculateCustomSumm
     import { DxDataGridModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        calculateSummary (options) {
-            // Calculating "CustomSummary1"
-            if (options.name == "CustomSummary1") {
-                if (options.summaryProcess == "start") {
-                    // Initializing "totalValue" here
-                }
-                if (options.summaryProcess == "calculate") {
-                    // Modifying "totalValue" here
-                }
-                if (options.summaryProcess == "finalize") {
-                    // Assigning the final value to "totalValue" here
+        calculateSummary(options) {
+            // Calculating "customSummary1"
+            if(options.name == "customSummary1") {
+                switch(options.summaryProcess) {
+                    case "start":
+                        // Initializing "totalValue" here
+                        break;
+                    case "calculate":
+                        // Modifying "totalValue" here
+                        break;
+                    case "finalize":
+                        // Assigning the final value to "totalValue" here
+                        break;
                 }
             }
 
-            // Calculating "CustomSummary2"
-            if (options.name == "CustomSummary2") {
+            // Calculating "customSummary2"
+            if(options.name == "customSummary2") {
                 // ...
-                // Same "if" statements here
+                // Same "switch" statement here
             }
         };
     }
