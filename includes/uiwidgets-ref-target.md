@@ -11,5 +11,3 @@ This option accepts one of the following values.
 - A DOM element
 
         target: document.getElementById('#targetElement');
-
-To align the {WidgetName} against this element, use the [position]({basewidgetpath}/Configuration/#position) option.
