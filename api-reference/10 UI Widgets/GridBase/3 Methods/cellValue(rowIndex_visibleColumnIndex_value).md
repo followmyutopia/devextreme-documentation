@@ -24,7 +24,38 @@ The cell's new value.
 <!--/paramDescription3-->
 
 <!--fullDescription-->
-[note] In all [editing modes]({basewidgetpath}/Configuration/editing/#mode) different from *"cell"*, save changes by calling the [saveEditData()]({basewidgetpath}/Methods/#saveEditData) method afterwards.
+Call [saveEditData()]({basewidgetpath}/Methods/#saveEditData) after this method to save the changes:
+
+---
+#####jQuery
+
+    <!--JavaScript-->
+    var {widgetName} = $("{widgetName}Container").dx{WidgetName}("instance");
+    {widgetName}.cellValue(0, 1, "newValue");
+    {widgetName}.saveEditData();
+
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from "@angular/core";
+    import { Dx{WidgetName}Module, Dx{WidgetName}Component } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        @ViewChild(Dx{WidgetName}Component) {widgetName}: Dx{WidgetName}Component;
+        updateCell(rowIndex, columnIndex, value) {
+            this.{widgetName}.cellValue(rowIndex, columnIndex, value);
+            this.{widgetName}.saveEditData();
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            Dx{WidgetName}Module
+        ],
+        // ...
+    })
+
+---
 
 #####See Also#####
 #include common-link-callmethods
