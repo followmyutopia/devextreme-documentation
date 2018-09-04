@@ -6,7 +6,7 @@ Sets the selected range.
 <!--/shortDescription-->
 
 <!--paramName1-->value<!--/paramName1-->
-<!--paramType1-->Array<Number, String, Date><!--/paramType1-->
+<!--paramType1-->Array<Number, String, Date>|VizRange<!--/paramType1-->
 <!--paramDescription1-->
 New start and end values.
 <!--/paramDescription1-->
