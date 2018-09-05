@@ -56,7 +56,7 @@ The **Sankey** is a widget that visualizes the flow magnitude between value sets
     </dx-sankey>
 
     <!--TypeScript-->
-    import { DxSankeyModule } from 'devextreme-angular';
+    import { DxSankeyModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         data: Array<{ source: string, target: string, weight: number }> = [
@@ -85,7 +85,7 @@ The **Sankey** is a widget that visualizes the flow magnitude between value sets
         }"></div>
     </div>
 
-    <!--JavaScript-->angular.module('DemoApp', ['dx'])
+    <!--JavaScript-->angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
             $scope.data = [
                 { source: "Brazil", target: "Portugal", weight: 5 },

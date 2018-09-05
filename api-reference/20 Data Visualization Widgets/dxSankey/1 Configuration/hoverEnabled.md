@@ -9,7 +9,8 @@ Specifies whether nodes and links change their style when they are hovered over 
 
 <!--fullDescription-->
 #####See Also#####
-- **hoverStyle** in [link](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/hoverStyle/) | [node](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/hoverStyle/)
-- [onLinkHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#onLinkHoverChanged)
+- **node**.[hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/node/hoverStyle/)
+- **link**.[hoverStyle](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/link/hoverStyle/)
 - [onNodeHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#onNodeHoverChanged)
+- [onLinkHoverChanged](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#onLinkHoverChanged)
 <!--/fullDescription-->

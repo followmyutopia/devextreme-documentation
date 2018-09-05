@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the widget's height when it begins to adapt the layout.
+Specifies the minimum container height at which the widget begins to adapt.
 <!--/shortDescription-->
 
 <!--fullDescription-->

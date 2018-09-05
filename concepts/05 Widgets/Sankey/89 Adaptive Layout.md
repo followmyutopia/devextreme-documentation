@@ -1,4 +1,4 @@
-The **Sankey** widget has an adaptive layout that enables the widget to hide optional elements if they do not fit the container. To configure the adaptive layout, use the [adaptiveLayout](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/adaptiveLayout/) object. Set its **height** and **width** fields to specify the minimum container size at which the layout retains all its elements.
+The **Sankey** widget has an adaptive layout that enables the widget to hide optional elements if they do not fit in the container. To configure the adaptive layout, use the [adaptiveLayout](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/adaptiveLayout/) object. Set its **height** and **width** fields to specify the minimum container size at which the layout retains all its elements.
 
 ---
 ##### jQuery

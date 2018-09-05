@@ -10,17 +10,20 @@ Specifies the widget's data source.
 <!--fullDescription-->
 This option accepts one of the following:
 
-- Array         
- A JavaScript array that contains plain objects.
+- **Array of objects**      
+ A simple JavaScript array that contains objects with the following structure:
 
-- URL       
- A URL to JSON data or to a service returning data in JSON format.
+        { source: String, target: String, weight: Number }
 
-- [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)      
- The **DataSource** is an object that provides an API for data processing. The **DataSource**'s underlying data access logic is isolated in a store. Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) and [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/) guides for more information about the **DataSource**.
+- **URL**        
+ The URL of a JSON file or service that returns JSON data.
 
-Each data item represents a connection between two nodes and has the same structure as the **Link**.[connection](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Link/Fields/connection/) field: 
+- **[DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)**      
+ The **DataSource** is an object that provides an API for data processing. Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) and [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/) guides for more information.
 
-    { source: String, target: String, weight: Number }
+    [note]Turn the **DataSource**'s [pagination](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) off to prevent data partitioning.
 
+#####See Also#####
+- [sourceField](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/#sourceField) | [targetField](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#targetField) | [weightField](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#weightField)
+- [getDataSource()]({basewidgetpath}/Methods/#getDataSource)
 <!--/fullDescription-->
