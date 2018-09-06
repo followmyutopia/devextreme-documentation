@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Calculates custom display values for column cells. Used when display values should differ from values for editing.
+Calculates custom display values for column cells. Used when display and editing values should be different. Requires specifying the [dataField]({basewidgetpath}/Configuration/columns/#dataField) or [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue) option.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -66,7 +66,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
 
 ---
 
-... or a function that combines display values.
+... or a function that combines display values. Specify this function only if all data processing operations are [executed on the client]({basewidgetpath}/Configuration/remoteOperations/).
 
 ---
 ##### jQuery
@@ -141,14 +141,14 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     
 ---
 
+The **{WidgetName}** uses the specified display values in [sorting](/Documentation/Guide/Widgets/{WidgetName}/Sorting/), [searching](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Search_Panel), and [grouping](/Documentation/Guide/Widgets/{WidgetName}/Grouping/).
+
 #include uiwidgets-ref-functioncontext with { 
     value: "column's configuration"
 }
 
-Do not use this option to format text in cells. Use [customizeText]({basewidgetpath}/Configuration/columns/#customizeText) for this.
+Do not use this option to format text in cells. Instead, use the [customizeText]({basewidgetpath}/Configuration/columns/#customizeText) or [cellTemplate]({basewidgetpath}/Configuration/columns/#cellTemplate) option.
 
-#####See Also#####
-- **columns[]**.[calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
