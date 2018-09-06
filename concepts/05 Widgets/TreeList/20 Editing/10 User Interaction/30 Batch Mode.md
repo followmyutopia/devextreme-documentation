@@ -9,3 +9,6 @@ When a user clicks a *"Delete"* button in a row, the widget only marks the row a
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Tree_List/BatchEditing/jQuery/Light/"
 }
+
+#####See Also#####
+- [Data Validation](/Documentation/Guide/Widgets/TreeList/Editing/#Data_Validation)

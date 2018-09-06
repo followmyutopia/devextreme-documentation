@@ -1,4 +1,4 @@
-The **TreeList** widget uses the build-in validation engine to validate user input. You can attach validation rules using the **columns**.[validationRules](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#validationRules) option which accepts an array of objects with fields described in the [Validation Rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/) section. The editor displays an error message if a value fails to pass the validation check.
+User input is validated against a set of [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/). You can configure them in a column's [validationRules](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#validationRules) array. Validation rules are attached to the editors and do not depend on the current edit mode.
 
 ---
 ##### jQuery
@@ -55,7 +55,7 @@ The **TreeList** widget uses the build-in validation engine to validate user inp
     
 ---
 
-The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowValidating) handler allows you to interfere before a notification that a validation rule has been broken is displayed. For instance, you can perform additional checks in this handler and change the validation result by changing the **isValid** field of the handler parameter. 
+The [onRowValidating](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onRowValidating) handler allows you to perform an action before a notification that a validation rule has been broken is displayed. For instance, you can perform additional checks in this handler and change the validation result by changing the handler parameter's **isValid** field. 
 
 ---
 ##### jQuery

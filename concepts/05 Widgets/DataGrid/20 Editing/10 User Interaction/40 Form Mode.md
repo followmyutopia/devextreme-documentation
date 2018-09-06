@@ -1,86 +1,12 @@
-In the form mode, a row becomes a form with editable fields in the editing state. A form field corresponds to a row's cell.
+In form edit mode, row cells become editable form fields. Form fields are sorted like columns in the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Editing Form Mode](/Content/images/doc/18_2/DataGrid/editing/form_mode.png)
 
-The **DataGrid** uses the DevExtreme [Form](/Documentation/Guide/Widgets/Form/Overview/) widget as the form. You can customize individual form fields using the **columns[]**.[formItem](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#formItem) object whose members are described in the [Simple Item](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/) section. Note that this object does not allow changing or configuring the editor (see [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors)).
+Configure the form using the **editing**.[form](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#form) object. The **DataGrid** uses the DevExtreme [Form](/Documentation/Guide/Widgets/Form/Overview/) widget, so you can specify [any Form options](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) in this object except those listed in its description.
 
----
-##### jQuery
+For example, you can specify the [items](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) array to reorder editable fields (or "simple items", as they are called in the **Form** widget), or organize them in groups and tabs.
 
-    <!--JavaScript-->
-    $(function() {
-        $("#dataGridContainer").dxDataGrid({
-            // ...
-            editing: {
-                allowUpdating: true,
-                mode: "form"
-            },
-            columns: [{
-                dataField: "Full_Name",
-                formItem: {
-                    colSpan: 2,
-                    label: {
-                        location: "top"
-                    }
-                }
-            },
-            // ...
-            ]
-        });
-    });
-
-##### Angular
-    
-    <!--HTML-->
-    <dx-data-grid ... >
-        <dxo-editing
-            [allowUpdating]="true"
-            mode="form">
-        </dxo-editing>
-        <dxi-column dataField="Full_Name">
-            <dxo-form-item [colSpan]="2">
-                <dxo-label location="top"></dxo-label>
-            </dxo-form-item>
-        </dxi-column>
-    </dx-data-grid>
-
-    <!--TypeScript-->
-    import { DxDataGridModule } from "devextreme-angular";
-    // ...
-    export class AppComponent {
-        // ...
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxDataGridModule
-        ],
-        // ...
-    })
-
-##### ASP.NET MVC Controls
-
-    <!--Razor C#-->
-    @(Html.DevExtreme().DataGrid()
-        // ...
-        .Editing(e => e
-            .AllowUpdating(true)
-            .Mode(GridEditMode.Form)
-        )
-        .Columns(cols => {
-            // ...
-            cols.Add().DataField("Full_Name")
-                .FormItem(item => item
-                    .ColSpan(2)
-                    .Label(l => l.Location(FormLabelLocation.Top)
-                )
-            );
-        })
-    )
-    
----
-
-The form contains only the editable fields, or "simple items" (as they are called in the **Form** widget) by default. The form can also contain group, tabbed, and empty items, which help you arrange simple items in different ways. Configure the items in the **editing**.**form**.**items** array as shown in the following code. The items with the specified **dataField** are simple items. Identical **dataFields** connect a simple item with a column.
+In the following code, the items with the specified **dataField** are simple items. Identical **dataFields** connect a simple item with a column:
 
 ---
 ##### jQuery
@@ -97,12 +23,12 @@ The form contains only the editable fields, or "simple items" (as they are calle
                         itemType: "group",
                         caption: "Personal Data",
                         items: [
-                            { dataField: "Full_Name" },
                             { dataField: "Prefix" },
+                            { dataField: "Full_Name" },
                             { dataField: "Position" }
                         ]
                         // or just
-                        // items: ["Full_Name", "Prefix", "Position"]
+                        // items: ["Prefix", "Full_Name", "Position"]
                     }, {
                         itemType: "group",
                         caption: "Contacts",
@@ -129,8 +55,8 @@ The form contains only the editable fields, or "simple items" (as they are calle
             mode="form">
             <dxo-form>
                 <dxi-item itemType="group" caption="Personal Data">
-                    <dxi-item dataField="Full_Name"></dxi-item>
                     <dxi-item dataField="Prefix"></dxi-item>
+                    <dxi-item dataField="Full_Name"></dxi-item>
                     <dxi-item dataField="Position"></dxi-item>
                 </dxi-item>
                 <dxi-item itemType="group" caption="Contacts">
@@ -173,8 +99,8 @@ The form contains only the editable fields, or "simple items" (as they are calle
                     i.AddGroup()
                         .Caption("Personal Data")
                         .Items(groupItems => {
-                            groupItems.AddSimple().DataField("Full_Name");
                             groupItems.AddSimple().DataField("Prefix");
+                            groupItems.AddSimple().DataField("Full_Name");
                             groupItems.AddSimple().DataField("Position");
                         });
                     i.AddGroup()
@@ -197,7 +123,12 @@ The form contains only the editable fields, or "simple items" (as they are calle
     
 ---
 
-See the topics in the [Organize Simple Items](/Documentation/Guide/Widgets/Form/Organize_Simple_Items) section for more information on organizing simple items on the form. You can also specify other **Form** widget options in the **editing**.**form** object to configure the editing form. Refer to the [Form Guides](/Documentation/Guide/Widgets/Form/) for more information.
+#####See Also#####
+- [Organize Simple Items](/Documentation/Guide/Widgets/Form/Organize_Simple_Items)
+
+You can customize an individual simple item using a column's [formItem](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#formItem) object. See an example in its description. Note that this object does not allow changing or configuring the editor (see [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors)).
+
+If you need to validate form values, specify validation rules as described in the [Data Validation](/Documentation/Guide/Widgets/DataGrid/Editing/#Data_Validation) article.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/FormEditing/jQuery/Light/"

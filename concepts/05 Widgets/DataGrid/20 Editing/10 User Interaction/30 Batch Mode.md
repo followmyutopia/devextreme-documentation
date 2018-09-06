@@ -9,3 +9,6 @@ When a user clicks a row's *"Delete"* button, the widget only marks the row as d
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/jQuery/Light/"
 }
+
+#####See Also#####
+- [Data Validation](/Documentation/Guide/Widgets/DataGrid/Editing/#Data_Validation)

@@ -2,7 +2,7 @@ The popup mode is the [form mode](/Documentation/Guide/Widgets/DataGrid/Editing/
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Editing Popup Mode](/Content/images/doc/18_2/DataGrid/editing/popup_mode.png)
 
-Use the **editing**.[popup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#popup) object to customize the popup window. Refer to the [Popup Configuration](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/) section to learn which fields this object can contain.
+Use the **editing**.[popup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#popup) object to customize the popup window. This object can contain the [Popup widget's fields](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/). However, you should refer to the **popup** object's description for information on restrictions that apply.
 
 ---
 ##### jQuery
@@ -58,3 +58,6 @@ Since the popup and form modes are very similar, you can use the same **columns*
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/PopupEditing/jQuery/Light/"
 }
+
+#####See Also#####
+- [Data Validation](/Documentation/Guide/Widgets/DataGrid/Editing/#Data_Validation)
