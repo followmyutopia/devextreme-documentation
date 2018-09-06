@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The text displayed when the extension of the file being uploaded is not an [allowedFileExtensions](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#allowedFileExtensions).
 <!--/shortDescription-->
 
 <!--fullDescription-->

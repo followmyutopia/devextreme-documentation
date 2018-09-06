@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the minimum file size allowed for uploading.
 <!--/shortDescription-->
 
 <!--fullDescription-->
