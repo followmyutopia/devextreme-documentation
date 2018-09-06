@@ -6,11 +6,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the selected filter operation for the column.
+Specifies the column's filter operation displayed in the [filter row](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Filter_Row).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, the selected filter operation depends on the [data type]({basewidgetpath}/Configuration/columns/#dataType) of the column as follows.
+The following table lists default filter operations by [data type]({basewidgetpath}/Configuration/columns/#dataType):
 
 <div class="simple-table">
 <table>

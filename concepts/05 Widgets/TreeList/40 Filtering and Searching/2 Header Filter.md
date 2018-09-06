@@ -67,7 +67,7 @@ A user can change the applied filter by including or excluding values. Use a col
     <!--JavaScript-->
     $("#treeListContainer").dxTreeList("columnOption", "OrderDate", {
         filterType: "include",
-        filterValues: [2015, 2015]
+        filterValues: [2014, 2015]
     });
 
 ##### Angular
