@@ -31,7 +31,7 @@ The index of the row the cell belongs to. Begins with 0 on each page. Group rows
 - **column**: <font size="-1">Object</font>        
 The settings of the column the cell belong to.
 - **rowType**: <font size="-1">String</font>        
-The type of the row the cell belongs to. Equals *"data"* for ordinary rows or *"group"* for group rows.
+The row's [type]({basewidgetpath}/Row/#rowType).
 
 [note]If you implement two-way data binding in your template, make sure that you switch off the built-in implementation of this feature by setting the [twoWayBindingEnabled]({basewidgetpath}/Configuration/#twoWayBindingEnabled) option to **false**.
 

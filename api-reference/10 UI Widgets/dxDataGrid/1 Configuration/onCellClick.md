@@ -85,7 +85,7 @@ The visible index of the row to which the cell belongs. For details on indexes, 
 <!--typeFunctionParamName1_field14-->rowType<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->String<!--/typeFunctionParamType1_field14-->
 <!--typeFunctionParamDescription1_field14-->
-The type of the row to which the clicked cell belongs. This field equals *"data"* for data rows or *"group"* for group rows. Use this field to distinguish rows by type.
+The [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType) of the row to which the clicked cell belongs. 
 <!--/typeFunctionParamDescription1_field14-->
 <!--typeFunctionParamName1_field15-->cellElement<!--/typeFunctionParamName1_field15-->
 <!--typeFunctionParamType1_field15-->dxElement<!--/typeFunctionParamType1_field15-->

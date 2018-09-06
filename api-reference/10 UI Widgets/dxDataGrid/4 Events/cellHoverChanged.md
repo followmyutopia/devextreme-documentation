@@ -80,7 +80,7 @@ This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/
 <!--typeFunctionParamName1_field13-->rowType<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->String<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-The row's type. This field equals *"data"* for data rows or *"group"* for group rows. 
+The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType). 
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->cellElement<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->dxElement<!--/typeFunctionParamType1_field14-->

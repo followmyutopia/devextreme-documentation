@@ -22,7 +22,7 @@ Contains an array of grid columns. An object with column settings represents eac
 - **isSelected**    
 Indicates whether or not the current row is selected.
 - **rowType**        
-Defines the type of the current row. This field equals *"data"* for data rows or *"group"* for group rows. Use this field to distinguish rows by type.
+The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType).
 - **groupIndex**    
 Contains the group index of the current row. This field is useful if the **rowType** field is *"group"*.
 - **isExpanded**    

@@ -72,8 +72,7 @@ The row's visible index. For details on indexes, see the [Column and Row Indexes
 <!--typeFunctionParamName1_field11-->rowType<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->String<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGRid/Row/#rowType).
-Can be one of the following: *"data"* for data rows, *"group"* for group rows, *"detail"* for [detail sections](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/masterDetail), or *"detailAdaptive"* for [adaptive detail rows](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/). 
+The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType).
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->isSelected<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->Boolean<!--/typeFunctionParamType1_field12-->
