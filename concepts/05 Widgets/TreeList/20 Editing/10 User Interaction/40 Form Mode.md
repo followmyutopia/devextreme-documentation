@@ -13,7 +13,7 @@ In the following code, the items with the specified **dataField** are simple ite
 
     <!--JavaScript-->
     $(function() {
-        $("#dataGridContainer").dxDataGrid({
+        $("#treeListContainer").dxTreeList({
             // ...
             editing: {
                 allowUpdating: true,
@@ -49,7 +49,7 @@ In the following code, the items with the specified **dataField** are simple ite
 ##### Angular
     
     <!--HTML-->
-    <dx-data-grid ... >
+    <dx-tree-list ... >
         <dxo-editing
             [allowUpdating]="true"
             mode="form">
@@ -70,10 +70,10 @@ In the following code, the items with the specified **dataField** are simple ite
         <dxi-column dataField="Position"></dxi-column>
         <dxi-column dataField="Email"></dxi-column>
         <dxi-column dataField="Skype"></dxi-column>
-    </dx-data-grid>
+    </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxDataGridModule } from "devextreme-angular";
+    import { DxTreeListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
         // ...
@@ -81,7 +81,7 @@ In the following code, the items with the specified **dataField** are simple ite
     @NgModule({
         imports: [
             // ...
-            DxDataGridModule
+            DxTreeListModule
         ],
         // ...
     })
@@ -89,7 +89,7 @@ In the following code, the items with the specified **dataField** are simple ite
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->
-    @(Html.DevExtreme().DataGrid()
+    @(Html.DevExtreme().TreeList()
         // ...
         .Editing(e => e
             .AllowUpdating(true)
