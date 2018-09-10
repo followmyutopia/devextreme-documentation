@@ -33,5 +33,5 @@ The [filter row](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#
 - *"totalFooter"*   
 The row that shows the [total summary](/Documentation/Guide/Widgets/DataGrid/Summaries/Total_Summary/).
 
-[note]Available row properties depend on the row type. For example, the [data](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#data) and [key](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#key) properties are undefined for *header*, *filter* and *totalFooter* rows, but have values for the other row types. To get exhaustive information on the particular property, refer to its description.
+[note] Available row properties depend on the row type. For example, the [data](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#data) and [key](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#key) properties are undefined for *header*, *filter* and *totalFooter* rows, but have values for the other row types. Refer to a particular property's description for more information.
 <!--/fullDescription-->

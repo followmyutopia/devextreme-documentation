@@ -7,28 +7,15 @@ Specifies a custom template for rows.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **rowInfo** object has the following fields:
+[note]
 
-- **data**        
-Contains the object of the data source represented by the current row.
-- **component**  
-Contains the **DataGrid** instance.
-- **values**    
-Contains an array of values of the current row in the order they exist in the data source.
-- **rowIndex**        
-Contains the index of the current row. When you have several pages in the grid, grid rows are indexed beginning with 0 on each page. Note that group cells count as rows and have row indexes. For further information about row indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
-- **columns**        
-Contains an array of grid columns. An object with column settings represents each column in this array. The order of columns in this array coincides with the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array.
-- **isSelected**    
-Indicates whether or not the current row is selected.
-- **rowType**        
-The row's [type](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/#rowType).
-- **groupIndex**    
-Contains the group index of the current row. This field is useful if the **rowType** field is *"group"*.
-- **isExpanded**    
-Indicates whether or not the current row is expanded. This field is useful if the **rowType** field is *"group"*.
+Disable [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping), and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) when you specify the row template. Its content cannot automatically synchronize with the column layout, which makes these features inoperative.
 
-When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component for AngularJS, and Knockout apps, declare it within a `<table>` HTML element. For Angular - within a `<tbody>` element with the `dx-row` class.
+You should also implement the following features manually: [editing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#editRowrowIndex), [adaptability](/Documentation/Guide/Widgets/DataGrid/Columns/Adaptability/), [multiple selection](/Documentation/Guide/Widgets/DataGrid/Selection/#API), and [master-detail interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/#API). Follow the links to see the API that can help you with this task. 
+
+[/note]
+
+When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component for AngularJS and Knockout apps, declare it within a `<table>` HTML element. For Angular - within a `<tbody>` element with the `dx-row` class.
 
 ---
 #####Angular
@@ -36,10 +23,10 @@ When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Compon
     <!--HTML-->
     <dx-data-grid ...
         rowTemplate="rowTemplateName">
-        <tbody class="dx-row" *dxTemplate="let data of 'rowTemplateName'" >
+        <tbody class="dx-row" *dxTemplate="let item of 'rowTemplateName'" >
             <tr class="main-row">
-                <td>{{data.id}}</td>
-                <td>{{data.name}}</td>
+                <td>{{item.data.id}}</td>
+                <td>{{item.data.name}}</td>
             </tr>
         </tbody>
     </dx-data-grid>
@@ -66,8 +53,8 @@ When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Compon
         }" dx-item-alias="item">
             <table data-options="dxTemplate: { name: 'rowTemplateName' }" >
                 <tr>
-                    <td>{{item.id}}</td>
-                    <td>{{item.name}}</td>
+                    <td>{{item.data.id}}</td>
+                    <td>{{item.data.name}}</td>
                 </tr>
             </table>
         </div>
@@ -80,8 +67,8 @@ When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Compon
         }">
             <table data-options="dxTemplate: { name: 'rowTemplateName' }" >
                 <tr>
-                    <td data-bind="text: id"></td>
-                    <td data-bind="text: name"></td>
+                    <td data-bind="text: data.id"></td>
+                    <td data-bind="text: data.name"></td>
                 </tr>
             </table>
         </div>
@@ -92,13 +79,11 @@ When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Compon
     url: "/Demos/WidgetsGallery/Demo/DataGrid/RowTemplate/jQuery/Light/"
 }
 
-You can also use a 3rd-party template engine to customize row appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article. Note that the `<tbody>` element that represents a row should have the `dx-row` class for correct operation of all widget features.
+You can also use a 3rd-party template engine to customize row appearance. See the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article for more information. Note that the `<tbody>` element that represents a row should have the `dx-row` class to ensure all widget features work properly.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Data_Grid/Row3RdPartyEngineTemplate/jQuery/Light/"
 }
-
-[note] Disable the [column reordering](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#allowColumnReordering), [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#allowGrouping), and [column fixing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columnFixing/) features when specifying the row template. Its content cannot automatically synchronize with the column layout, which makes these features inoperative.
 
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
@@ -113,5 +98,5 @@ The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US
 <!--typeFunctionParamName2-->rowInfo<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Object<!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) object.
+The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) object extended by the **DataGrid**'s instance (the **component** field) and the column configuration (**columns**).
 <!--/typeFunctionParamDescription2-->
