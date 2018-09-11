@@ -141,7 +141,7 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     
 ---
 
-The **{WidgetName}** uses the specified display values in [sorting](/Documentation/Guide/Widgets/{WidgetName}/Sorting/), [searching](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Search_Panel), and [grouping](/Documentation/Guide/Widgets/{WidgetName}/Grouping/).
+The widget uses the specified display values in [sorting](/Documentation/Guide/Widgets/{WidgetName}/Sorting/), [searching](/Documentation/Guide/Widgets/{WidgetName}/Filtering_and_Searching/#Search_Panel), and [grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/) (in case of **DataGrid**).
 
 #include uiwidgets-ref-functioncontext with { 
     value: "column's configuration"
