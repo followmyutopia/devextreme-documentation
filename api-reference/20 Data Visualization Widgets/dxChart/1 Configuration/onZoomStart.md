@@ -35,3 +35,18 @@ The widget's container. It is an [HTML Element](https://developer.mozilla.org/en
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
+<!--typeFunctionParamName1_field4-->axis<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->chartAxisObject<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamDescription1_field4-->
+
+<!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamName1_field5-->range<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->VizRange<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamDescription1_field5-->
+
+<!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->Boolean<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->

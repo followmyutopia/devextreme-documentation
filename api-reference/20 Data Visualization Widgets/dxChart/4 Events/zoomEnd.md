@@ -38,8 +38,30 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamDescription1_field4-->
 The argument axis' start value after zooming or scrolling.
 <!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamDeprecated1_field4-->Use 'range' instead.<!--/typeFunctionParamDeprecated1_field4-->
 <!--typeFunctionParamName1_field5-->rangeEnd<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Date|Number<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The argument axis' end value after zooming or scrolling.
 <!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamDeprecated1_field5-->Use 'range' instead.<!--/typeFunctionParamDeprecated1_field5-->
+<!--typeFunctionParamName1_field6-->axis<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->chartAxisObject<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamName1_field7-->range<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->VizRange<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamDescription1_field7-->
+
+<!--/typeFunctionParamDescription1_field7-->
+<!--typeFunctionParamName1_field8-->previousRange<!--/typeFunctionParamName1_field8-->
+<!--typeFunctionParamType1_field8-->VizRange<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamDescription1_field8-->
+
+<!--/typeFunctionParamDescription1_field8-->
+<!--typeFunctionParamName1_field9-->cancel<!--/typeFunctionParamName1_field9-->
+<!--typeFunctionParamType1_field9-->Boolean<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamDescription1_field9-->
+
+<!--/typeFunctionParamDescription1_field9-->
