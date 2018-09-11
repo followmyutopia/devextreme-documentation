@@ -80,5 +80,9 @@ You can set the title's text more concisely if you assign it directly to the **t
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+}
+
 #####See Also#####
 - [Adaptive Layout](/Documentation/Guide/Widgets/Sankey/Adaptive_Layout/)

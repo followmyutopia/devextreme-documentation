@@ -27,6 +27,9 @@ Colors the tooltip's text.
 - **borderColor**        
 Colors the tooltip's border.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->info<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

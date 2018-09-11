@@ -49,6 +49,10 @@ To configure the elements' appearance, use the [node](/Documentation/ApiReferenc
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+}
+
 #####See Also#####
 - [Colorize Nodes and Links](/Documentation/Guide/Widgets/Sankey/Nodes_and_Links/Colorize_Nodes_and_Links/)
 - [Rearrange Nodes](/Documentation/Guide/Widgets/Sankey/Nodes_and_Links/Rearrange_Nodes/)

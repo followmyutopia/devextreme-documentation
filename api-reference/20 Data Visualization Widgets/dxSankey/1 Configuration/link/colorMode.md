@@ -23,5 +23,12 @@ A target node's color is used.
 - *"gradient"*      
 A gradient color between the source node's and target node's color is used.
 
-Use the `SankeyColorMode` enum to specify this option when the widget is used as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/). This enum accepts the following values: `None`, `Source`, `Target`, and `Gradient`.
+#include common-ref-enum with {
+    enum: "`SankeyColorMode`",
+    values: "`None`, `Source`, `Target`, and `Gradient`"
+}
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+}
 <!--/fullDescription-->

@@ -149,6 +149,10 @@ The **Sankey** is a widget that visualizes the flow magnitude between value sets
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+}
+
 #####See Also#####
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 <!--/fullDescription-->

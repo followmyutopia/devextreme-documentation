@@ -50,5 +50,9 @@ Options that configure tooltips are collected in the [tooltip](/Documentation/Ap
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+}
+
 #####See Also#####
 - [Show and Hide a Tooltip](/Documentation/Guide/Widgets/Sankey/Tooltips/Show_and_Hide_a_Tooltip/)

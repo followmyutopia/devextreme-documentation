@@ -109,5 +109,9 @@ You can create a [Query](/Documentation/Guide/Data_Layer/Data_Layer/#Query_Conce
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/SankeyChart/jQuery/Light/"
+}
+
 #####See Also#####
 - [Update Data in the Sankey](/Documentation/Guide/Widgets/Sankey/Data_Binding/Update_Data/)
