@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the rendering mode for columns. Applies when columns are left outside the viewport.
+Specifies the rendering mode for columns. Applies when columns are left outside the viewport. Requires the [columnWidth]({basewidgetpath}/Configuration/#columnWidth), [columnAutoWidth]({basewidgetpath}/Configuration/#columnAutoWidth), or [width]({basewidgetpath}/Configuration/columns/#width) (for all columns) option specified.
 <!--/shortDescription-->
 
 <!--fullDescription-->
