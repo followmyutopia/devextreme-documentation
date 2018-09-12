@@ -90,27 +90,39 @@ The following example shows how to make a query for data:
     <!--JavaScript-->$(function() {
         $("#sankeyContainer").dxSankey({
             dataSource: new DevExpress.data.DataSource({
-                load: function(loadOptions) {
-                    var d = $.Deferred();
-                    $.getJSON("https://mydomain.com/MyDataService", {
-                        sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
-                        filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
-                        searchExpr: loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "",
-                        searchOperation: loadOptions.searchOperation,
-                        searchValue: loadOptions.searchValue
-                    }).done(function(result) {
-                            // Here you can perform operations the server does not support
-                            // or any other operations on the retrieved data
-                            d.resolve(result.data);
+                store: new DevExpress.data.CustomStore({
+                    load: function(loadOptions) {
+                        var d = $.Deferred(),
+                            params = {};
+                        [
+                            "sort", 
+                            "filter", 
+                            "searchExpr",
+                            "searchOperation",
+                            "searchValue"
+                        ].forEach(function(i) {
+                            if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                                params[i] = JSON.stringify(loadOptions[i]);
                         });
-                    return d.promise();
-                }
+                        $.getJSON("http://mydomain.com/MyDataService", params)
+                            .done(function(result) {
+                                // Here, you can perform operations unsupported by the server
+                                // or any other operations on the retrieved data
+                                d.resolve(result.data);
+                            });
+                        return d.promise();
+                    }
+                }),
+                paginate: false,
             }),
             sourceField: "from",
             targetField: "to",
             weightField: "amount"
         });
     });
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "" && value !== {};
+    }
 
 ##### Angular
 
@@ -125,27 +137,35 @@ The following example shows how to make a query for data:
     export class AppComponent {
         sankeyDataSource: DataSource;
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
+            _this = this;
             this.sankeyDataSource = new DataSource({
                 store: new CustomStore({
                     load: (loadOptions) => {
-                        let params: HttpParams = new HttpParams()
-                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
-                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
-                            .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
-                            .set("searchOperation", loadOptions.searchOperation)
-                            .set("searchValue", loadOptions.searchValue);
-                        return httpClient.get("https://mydomain.com/MyDataService", {
-                                params: params
-                            })
+                        let params: HttpParams = new HttpParams();
+                        [
+                            "sort", 
+                            "filter", 
+                            "searchExpr",
+                            "searchOperation",
+                            "searchValue"
+                        ].forEach(function(i) {
+                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                                params = params.set(i, JSON.stringify(loadOptions[i]));
+                        });
+                        return httpClient.get("http://mydomain.com/MyDataService", { params: params })
                             .toPromise()
                             .then(result => {
-                                // Here you can perform operations the server does not support
+                                // Here, you can perform operations unsupported by the server
                                 // or any other operations on the retrieved data
                                 return result.data;
                             });
                     }
-                })
+                }),
+                paginate: false
             });
+        }
+        isNotEmpty(value: any): boolean {
+            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

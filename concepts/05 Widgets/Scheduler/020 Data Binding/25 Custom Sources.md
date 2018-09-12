@@ -11,7 +11,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
             dataSource: new DevExpress.data.DataSource({
                 store: new DevExpress.data.CustomStore({
                     loadMode: "raw",   
-                    load: function () {
+                    load: function() {
                         return $.getJSON('https://mydomain.com/MyDataService');
                     }
                 }),
@@ -36,7 +36,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
             this.schedulerDataSource = new DataSource({
                 store: new CustomStore({
                     loadMode: "raw",   
-                    load: function () {
+                    load: () => {
                         return httpClient.get('https://mydomain.com/MyDataService')
                             .toPromise();
                     }
@@ -77,30 +77,33 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
 
     var schedulerDataSource = new DevExpress.data.DataSource({
         paginate: false,
-        load: function (loadOptions) {
-            var d = $.Deferred();
-            $.getJSON('http://mydomain.com/MyDataService', {  
-                filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : ""
-            }).done(function (result) {
-                // You can process the received data here
-                d.resolve(result);
-            });
+        load: function(loadOptions) {
+            var d = $.Deferred(),
+                params = {};
+            if("filter" in loadOptions && isNotEmpty(loadOptions["filter"])) 
+                params[i] = JSON.stringify(loadOptions[i]);
+            $.getJSON("http://mydomain.com/MyDataService", params)
+                .done(function(result) {
+                    // Here, you can perform operations unsupported by the server
+                    // or any other operations on the retrieved data
+                    d.resolve(result.data);
+                });
             return d.promise();
         },
-        insert: function (values) {
+        insert: function(values) {
             return $.ajax({
                 url: "http://mydomain.com/MyDataService/",
                 method: "POST",
                 data: values
             })
         },
-        remove: function (key) {
+        remove: function(key) {
             return $.ajax({
                 url: "http://mydomain.com/MyDataService/" + encodeURIComponent(key),
                 method: "DELETE",
             })
         },
-        update: function (key, values) {
+        update: function(key, values) {
             return $.ajax({
                 url: "http://mydomain.com/MyDataService/" + encodeURIComponent(key),
                 method: "PUT",
@@ -108,7 +111,9 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
             })
         }
     });
-
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "" && value !== {};
+    }
     $(function() {
         $("#schedulerContainer").dxScheduler({
             dataSource: schedulerDataSource,
@@ -129,35 +134,39 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
     export class AppComponent {
         schedulerDataSource: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
+            _this = this;
             this.schedulerDataSource = new DataSource({
                 store: new CustomStore({
-                    load: function (loadOptions) {
-                        let params: HttpParams = new HttpParams().
-                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : ""); 
-                        return httpClient.get('http://mydomain.com/MyDataService', {
-                                params: params
-                            })
+                    load: (loadOptions) => {
+                        let params: HttpParams = new HttpParams();
+                        if("filter" in loadOptions && isNotEmpty(loadOptions["filter"])) 
+                            params = params.set(i, JSON.stringify(loadOptions[i]));
+                        return httpClient.get("http://mydomain.com/MyDataService", { params: params })
                             .toPromise()
                             .then(result => {
-                                // You can process the received data here
-                                return result;
+                                // Here, you can perform operations unsupported by the server
+                                // or any other operations on the retrieved data
+                                return result.data;
                             });
                     },
-                    insert: function (values) {
+                    insert: function(values) {
                         return httpClient.post('http://mydomain.com/MyDataService', values)
                             .toPromise();
                     },
-                    remove: function (key) {
+                    remove: function(key) {
                         return httpClient.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
                             .toPromise();
                     },
-                    update: function (key, values) {
+                    update: function(key, values) {
                         return httpClient.put('http://mydomain.com/MyDataService' + encodeURIComponent(key), values)
                             .toPromise();
                     }
                 }),
                 paginate: false
             });
+        }
+        isNotEmpty(value) {
+            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

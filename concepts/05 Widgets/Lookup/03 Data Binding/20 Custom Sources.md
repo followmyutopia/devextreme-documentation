@@ -11,7 +11,7 @@ The **CustomSource**'s configuration differs depending on whether data is proces
                 store: new DevExpress.data.CustomStore({
                     key: "ID",
                     loadMode: "raw",   
-                    load: function () {
+                    load: function() {
                         return $.getJSON('https://mydomain.com/MyDataService');
                     }
                 })
@@ -37,7 +37,7 @@ The **CustomSource**'s configuration differs depending on whether data is proces
                 store: new CustomStore({
                     key: "ID",
                     loadMode: "raw",   
-                    load: function () {
+                    load: () => {
                         return httpClient.get('https://mydomain.com/MyDataService')
                             .toPromise();
                     }
@@ -106,27 +106,33 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
         $("#lookupContainer").dxLookup({
             dataSource: new DevExpress.data.DataSource({
                 key: "ID",
-                load: function (loadOptions) {
-                    var d = $.Deferred();
-                    $.getJSON("http://mydomain.com/MyDataService", {
-                        skip: loadOptions.skip,
-                        take: loadOptions.take,
-                        sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
-                        filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
-                        searchExpr: loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "",
-                        searchOperation: loadOptions.searchOperation,
-                        searchValue: loadOptions.searchValue,
-                        group: loadOptions.group ? JSON.stringify(loadOptions.group) : ""
-                    }).done(function(result) {
-                        // Here, you can perform operations unsupported by the server
-                        d.resolve(result.data);
+                load: function(loadOptions) {
+                    var d = $.Deferred(),
+                        params = {};
+                    [
+                        "skip",     
+                        "take",  
+                        "sort", 
+                        "filter", 
+                        "searchExpr",
+                        "searchOperation",
+                        "searchValue",
+                        "group"
+                    ].forEach(function(i) {
+                        if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                            params[i] = JSON.stringify(loadOptions[i]);
                     });
+                    $.getJSON("http://mydomain.com/MyDataService", params)
+                        .done(function(result) {
+                            // Here, you can perform operations unsupported by the server
+                            d.resolve(result.data);
+                        });
                     return d.promise();
                 },
-                byKey: function (key) {
+                byKey: function(key) {
                     var d = new $.Deferred();
                     $.get('https://mydomain.com/MyDataService?id=' + key)
-                        .done(function (result) {
+                        .done(function(result) {
                             d.resolve(result);
                         });
                     return d.promise();
@@ -134,6 +140,9 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
             })
         });
     });
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "" && value !== {};
+    }
 
 #####Angular
 
@@ -148,34 +157,41 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
     export class AppComponent {
         lookupData: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
+            _this = this;
             this.lookupData = new DataSource({
                 store: new CustomStore({
                     key: "ID",
-                    load: function (loadOptions) {
-                        let params: HttpParams = new HttpParams()
-                            .set("skip", JSON.stringify(loadOptions.skip))
-                            .set("take", JSON.stringify(loadOptions.take))
-                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
-                            .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
-                            .set("searchOperation", loadOptions.searchOperation)
-                            .set("searchValue", loadOptions.searchValue)
-                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
-                            .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
-                        return httpClient.get('http://mydomain.com/MyDataService', {
-                                params: params
-                            })
+                    load: (loadOptions) => {
+                        let params: HttpParams = new HttpParams();
+                        [
+                            "skip",     
+                            "take",  
+                            "sort", 
+                            "filter", 
+                            "searchExpr",
+                            "searchOperation",
+                            "searchValue",
+                            "group"
+                        ].forEach(function(i) {
+                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                                params = params.set(i, JSON.stringify(loadOptions[i]));
+                        });
+                        return httpClient.get("http://mydomain.com/MyDataService", { params: params })
                             .toPromise()
                             .then(result => {
                                 // Here, you can perform operations unsupported by the server
                                 return result.data;
                             });
                     },
-                    byKey: function (key) {
+                    byKey: function(key) {
                         return httpClient.get('https://mydomain.com/MyDataService?id=' + key)
                             .toPromise();
                     }
                 })
             });
+        }
+        isNotEmpty(value: any): boolean {
+            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

@@ -46,19 +46,25 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
 
     <!--JavaScript-->
     var gridDataSource = new DevExpress.data.DataSource({
-        load: function (loadOptions) {
-            var d = $.Deferred();
-            $.getJSON('http://mydomain.com/MyDataService', {
-                skip: loadOptions.skip,
-                take: loadOptions.take,
-                sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
-                filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
-                requireTotalCount: loadOptions.requireTotalCount,
-                totalSummary: loadOptions.totalSummary ? JSON.stringify(loadOptions.totalSummary) : "",
-                group: loadOptions.group ? JSON.stringify(loadOptions.group) : "",
-                groupSummary: loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : "",
-                requireGroupCount: loadOptions.requireGroupCount
-            }).done(function (result) {
+        load: function(loadOptions) {
+            var d = $.Deferred(),
+                    params = {};
+            [
+                "skip",     
+                "take", 
+                "requireTotalCount", 
+                "requireGroupCount", 
+                "sort", 
+                "filter", 
+                "totalSummary", 
+                "group", 
+                "groupSummary"
+            ].forEach(function(i) {
+                if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                    params[i] = JSON.stringify(loadOptions[i]);
+            });
+            $.getJSON("http://mydomain.com/MyDataService", params)
+                .done(function(result) {
                     d.resolve(result.data, { 
                         totalCount: result.totalCount,
                         summary: result.summary,
@@ -68,7 +74,9 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
             return d.promise();
         }
     });
-
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "" && value !== {};
+    }
     $(function() {
         $("#dataGridContainer").dxDataGrid({
             dataSource: gridDataSource,
@@ -89,21 +97,25 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
     export class AppComponent {
         gridDataSource: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
+            _this = this;
             this.gridDataSource = new DataSource({
-                load: function (loadOptions) {
-                    let params: HttpParams = new HttpParams()
-                        .set("skip", JSON.stringify(loadOptions.skip))
-                        .set("take", JSON.stringify(loadOptions.take))
-                        .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
-                        .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
-                        .set("requireTotalCount", JSON.stringify(loadOptions.requireTotalCount))
-                        .set("totalSummary", loadOptions.totalSummary ? JSON.stringify(loadOptions.totalSummary) : "")
-                        .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "")
-                        .set("groupSummary", loadOptions.groupSummary ? JSON.stringify(loadOptions.groupSummary) : "")
-                        .set("requireGroupCount", JSON.stringify(loadOptions.requireGroupCount));
-                    return httpClient.get('http://mydomain.com/MyDataService', {
-                            params: params
-                        })
+                load: (loadOptions) => {
+                    let params: HttpParams = new HttpParams();
+                    [
+                        "skip", 
+                        "take", 
+                        "requireTotalCount", 
+                        "requireGroupCount", 
+                        "sort", 
+                        "filter", 
+                        "totalSummary", 
+                        "group", 
+                        "groupSummary"
+                    ].forEach(function(i) {
+                        if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                            params = params.set(i, JSON.stringify(loadOptions[i]));
+                    });
+                    return httpClient.get("http://mydomain.com/MyDataService", { params: params })
                         .toPromise()
                         .then(result => {
                             return {
@@ -115,6 +127,9 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
                         });
                 }
             });
+        }
+        isNotEmpty(value: any): boolean {
+            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

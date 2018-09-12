@@ -1,4 +1,4 @@
-﻿Access to a custom data source is configured using the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component. DevExtreme provides [ASP.NET](https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/README.md) and [PHP](https://github.com/DevExpress/DevExtreme-PHP-Data/blob/master/README.md) extensions that help configure it and implement server-side data processing. You can also use the third-party extension for [MongoDB](https://github.com/oliversturm/devextreme-query-mongodb/blob/master/README.md). If these extensions are not suitable for your data source, follow the instructions below to configure the **CustomStore** manually.
+Access to a custom data source is configured using the [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/) component. DevExtreme provides [ASP.NET](https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/README.md) and [PHP](https://github.com/DevExpress/DevExtreme-PHP-Data/blob/master/README.md) extensions that help configure it and implement server-side data processing. You can also use the third-party extension for [MongoDB](https://github.com/oliversturm/devextreme-query-mongodb/blob/master/README.md). If these extensions are not suitable for your data source, follow the instructions below to configure the **CustomStore** manually.
 
 The **CustomSource**'s configuration differs depending on whether data is processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server using the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the following example:
 
@@ -11,7 +11,7 @@ The **CustomSource**'s configuration differs depending on whether data is proces
                 store: new DevExpress.data.CustomStore({
                     key: "ID",
                     loadMode: "raw",   
-                    load: function () {
+                    load: function() {
                         return $.getJSON('https://mydomain.com/MyDataService');
                     }
                 })
@@ -36,7 +36,7 @@ The **CustomSource**'s configuration differs depending on whether data is proces
                 store: new CustomStore({
                     key: "ID",
                     loadMode: "raw",   
-                    load: function () {
+                    load: () => {
                         return httpClient.get('https://mydomain.com/MyDataService')
                             .toPromise();
                     }
@@ -105,32 +105,38 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
         $("#selectBoxContainer").dxSelectBox({
             dataSource: new DevExpress.data.DataSource({
                 key: "ID",
-                load: function (loadOptions) {
-                    var d = $.Deferred();
-                    $.getJSON("http://mydomain.com/MyDataService", {
-                        skip: loadOptions.skip,
-                        take: loadOptions.take,
-                        sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
-                        filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
-                        searchExpr: loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "",
-                        searchOperation: loadOptions.searchOperation,
-                        searchValue: loadOptions.searchValue,
-                        group: loadOptions.group ? JSON.stringify(loadOptions.group) : ""
-                    }).done(function(result) {
-                        // Here, you can perform operations unsupported by the server
-                        d.resolve(result.data);
+                load: function(loadOptions) {
+                    var d = $.Deferred(),
+                        params = {};
+                    [
+                        "skip",     
+                        "take",  
+                        "sort", 
+                        "filter", 
+                        "searchExpr",
+                        "searchOperation",
+                        "searchValue",
+                        "group", 
+                    ].forEach(function(i) {
+                        if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                            params[i] = JSON.stringify(loadOptions[i]);
                     });
+                    $.getJSON("http://mydomain.com/MyDataService", params)
+                        .done(function(result) {
+                            // Here, you can perform operations unsupported by the server
+                            d.resolve(result.data);
+                        });
                     return d.promise();
                 },
-                byKey: function (key) {
+                byKey: function(key) {
                     var d = new $.Deferred();
                     $.get('https://mydomain.com/MyDataService?id=' + key)
-                        .done(function (result) {
+                        .done(function(result) {
                             d.resolve(result);
                         });
                     return d.promise();
                 },
-                insert: function (values) {
+                insert: function(values) {
                     return $.ajax({
                         url: "http://mydomain.com/MyDataService/",
                         method: "POST",
@@ -140,6 +146,9 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
             })
         });
     });
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "" && value !== {};
+    }
 
 #####Angular
 
@@ -154,38 +163,45 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
     export class AppComponent {
         selectBoxData: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
+            _this = this;
             this.selectBoxData = new DataSource({
                 store: new CustomStore({
                     key: "ID",
-                    load: function (loadOptions) {
-                        let params: HttpParams = new HttpParams()
-                            .set("skip", JSON.stringify(loadOptions.skip))
-                            .set("take", JSON.stringify(loadOptions.take))
-                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
-                            .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
-                            .set("searchOperation", loadOptions.searchOperation)
-                            .set("searchValue", loadOptions.searchValue)
-                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
-                            .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
-                        return httpClient.get('http://mydomain.com/MyDataService', {
-                                params: params
-                            })
+                    load: (loadOptions) => {
+                        let params: HttpParams = new HttpParams();
+                        [
+                            "skip",     
+                            "take",  
+                            "sort", 
+                            "filter", 
+                            "searchExpr",
+                            "searchOperation",
+                            "searchValue",
+                            "group", 
+                        ].forEach(function(i) {
+                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                                params = params.set(i, JSON.stringify(loadOptions[i]));
+                        });
+                        return httpClient.get("http://mydomain.com/MyDataService", { params: params })
                             .toPromise()
                             .then(result => {
                                 // Here, you can perform operations unsupported by the server
                                 return result.data;
                             });
                     },
-                    byKey: function (key) {
+                    byKey: function(key) {
                         return httpClient.get('https://mydomain.com/MyDataService?id=' + key)
                             .toPromise();
                     },
-                    insert: function (values) {
+                    insert: function(values) {
                         return httpClient.post('http://mydomain.com/MyDataService', values)
                             .toPromise();
                     }
                 })
             });
+        }
+        isNotEmpty(value: any): boolean {
+            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

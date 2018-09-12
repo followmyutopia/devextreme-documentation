@@ -33,21 +33,29 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
 
     <!--JavaScript-->
     var treeListDataSource = new DevExpress.data.DataSource({
-        load: function (loadOptions) {
-            var d = $.Deferred();
-            $.getJSON('http://mydomain.com/MyDataService', {
-                sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
-                filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
-                group: loadOptions.group ? JSON.stringify(loadOptions.group) : "",
-                parentIds: loadOptions.parentIds ? JSON.stringify(loadOptions.parentIds) : ""
-            }).done(function (result) {
-                // You can process the received data here
-                d.resolve(result.data);
+        load: function(loadOptions) {
+            var d = $.Deferred(),
+                    params = {};
+            [
+                "sort", 
+                "filter", 
+                "group", 
+                "parentIds"
+            ].forEach(function(i) {
+                if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                    params[i] = JSON.stringify(loadOptions[i]);
             });
+            $.getJSON("http://mydomain.com/MyDataService", params)
+                .done(function(result) {
+                    // You can process the received data here
+                    d.resolve(result.data);
+                });
             return d.promise();
         }
     });
-
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "" && value !== {};
+    }
     $(function() {
         $("#treeListContainer").dxTreeList({
             dataSource: treeListDataSource,
@@ -72,16 +80,20 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
     export class AppComponent {
         treeListDataSource: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
+            _this = this;
             this.treeListDataSource = new DataSource({
-                load: function (loadOptions) {
-                    let params: HttpParams = new HttpParams()
-                        .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
-                        .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
-                        .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "")
-                        .set("parentIds", loadOptions.parentIds ? JSON.stringify(loadOptions.parentIds) : "");
-                    return httpClient.get('http://mydomain.com/MyDataService', {
-                            params: params
-                        })
+                load: (loadOptions) => {
+                    let params: HttpParams = new HttpParams();
+                    [
+                        "sort", 
+                        "filter", 
+                        "group", 
+                        "parentIds"
+                    ].forEach(function(i) {
+                        if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                            params = params.set(i, JSON.stringify(loadOptions[i]));
+                    });
+                    return httpClient.get("http://mydomain.com/MyDataService", { params: params })
                         .toPromise()
                         .then(result => {
                             // You can process the received data here
@@ -89,6 +101,9 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
                         });
                 }
             });
+        }
+        isNotEmpty(value: any): boolean {
+            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

@@ -10,7 +10,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
             dataSource: new DevExpress.data.DataSource({
                 store: new DevExpress.data.CustomStore({
                     loadMode: "raw",   
-                    load: function () {
+                    load: function() {
                         return $.getJSON('https://mydomain.com/MyDataService');
                     }
                 }),
@@ -37,7 +37,7 @@ You need to configure the **CustomStore** in detail for accessing a server built
             this.funnelDataSource = new DataSource({
                 store: new CustomStore({
                     loadMode: "raw",   
-                    load: function () {
+                    load: () => {
                         return httpClient.get('http://mydomain.com/MyDataService')
                             .toPromise();
                     }
@@ -88,26 +88,38 @@ This example shows how to make a query for data.
     <!--JavaScript-->$(function() {
         $("#funnelContainer").dxFunnel({
             dataSource: new DevExpress.data.DataSource({
-                load: function (loadOptions) {
-                    var d = $.Deferred();
-                    $.getJSON("http://mydomain.com/MyDataService", {
-                        sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
-                        filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
-                        searchExpr: loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "",
-                        searchOperation: loadOptions.searchOperation,
-                        searchValue: loadOptions.searchValue
-                    }).done(function(result) {
-                            // Here, you can perform operations unsupported by the server
-                            // or any other operations on the retrieved data
-                            d.resolve(result.data);
+                store: new DevExpress.data.CustomStore({
+                    load: function(loadOptions) {
+                        var d = $.Deferred(),
+                        params = {};
+                        [ 
+                            "sort", 
+                            "filter", 
+                            "searchExpr",
+                            "searchOperation",
+                            "searchValue"
+                        ].forEach(function(i) {
+                            if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                                params[i] = JSON.stringify(loadOptions[i]);
                         });
-                    return d.promise();
-                }
+                        $.getJSON("http://mydomain.com/MyDataService", params)
+                            .done(function(result) {
+                                // Here, you can perform operations unsupported by the server
+                                // or any other operations on the retrieved data
+                                d.resolve(result.data);
+                            });
+                        return d.promise();
+                    }
+                }),
+                paginate: false
             }),
             argumentField: "arg",
             valueField: "val"
         });
     });
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "" && value !== {};
+    }
 
 ##### Angular
 
@@ -122,18 +134,22 @@ This example shows how to make a query for data.
     export class AppComponent {
         funnelDataSource: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
+            _this = this;
             this.funnelDataSource = new DataSource({
                 store: new CustomStore({
-                    load: function (loadOptions) {
-                        let params: HttpParams = new HttpParams()
-                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "")
-                            .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
-                            .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
-                            .set("searchOperation", loadOptions.searchOperation)
-                            .set("searchValue", loadOptions.searchValue);
-                        return httpClient.get('http://mydomain.com/MyDataService', {
-                                params: params
-                            })
+                    load: (loadOptions) => {
+                        let params: HttpParams = new HttpParams();
+                        [
+                            "sort", 
+                            "filter", 
+                            "searchExpr",
+                            "searchOperation",
+                            "searchValue"
+                        ].forEach(function(i) {
+                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                                params = params.set(i, JSON.stringify(loadOptions[i]));
+                        });
+                        return httpClient.get("http://mydomain.com/MyDataService", { params: params })
                             .toPromise()
                             .then(result => {
                                 // Here, you can perform operations unsupported by the server
@@ -141,8 +157,12 @@ This example shows how to make a query for data.
                                 return result.data;
                             });
                     }
-                })
+                }),
+                paginate: false
             });
+        }
+        isNotEmpty(value: any): boolean {
+            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

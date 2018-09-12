@@ -4,12 +4,12 @@ In the following code snippet, `Author Name` is a [lookup column](/Documentation
 ##### jQuery
 
     <!--JavaScript-->
-    $(function () {
+    $(function() {
         var lookupDataSource = {
             store: new DevExpress.data.CustomStore({
                 key: "id",
                 loadMode: "raw",
-                load: function () {
+                load: function() {
                     // Returns an array of objects that have the following structure:
                     // { id: 1, name: "John Doe" }
                     return $.getJSON("https://mydomain.com/MyDataService/authors/");
@@ -51,7 +51,7 @@ In the following code snippet, `Author Name` is a [lookup column](/Documentation
                 store: new CustomStore({
                     key: "id",
                     loadMode: "raw",
-                    load: function () {
+                    load: () => {
                         // Returns an array of objects that have the following structure:
                         // { id: 1, name: "John Doe" }
                         return httpClient.get("https://mydomain.com/MyDataService/authors/")
@@ -93,40 +93,47 @@ The following alternative **CustomStore** configuration delegates data processin
 ##### jQuery
 
     <!--JavaScript-->
-    $(function () {
+    $(function() {
         var lookupDataSource = {
             store: new DevExpress.data.CustomStore({
                 key: "id",
-                load: function (loadOptions) {
-                    var d = $.Deferred();
-                    $.getJSON("https://mydomain.com/MyDataService/authors/", {
-                        sort: loadOptions.sort ? JSON.stringify(loadOptions.sort) : "",
-                        // skip: loadOptions.skip,
-                        // take: loadOptions.take,
-                        // filter: loadOptions.filter ? JSON.stringify(loadOptions.filter) : "",
-                        // searchExpr: loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "",
-                        // searchOperation: loadOptions.searchOperation,
-                        // searchValue: loadOptions.searchValue,
-                        // group: loadOptions.group ? JSON.stringify(loadOptions.group) : ""
-                    })
-                        .done(function (result) {
+                load: function(loadOptions) {
+                    var d = $.Deferred(),
+                        params = {};
+                    [
+                        "sort", 
+                        // "skip",     
+                        // "take", 
+                        // "filter", 
+                        // "searchExpr",
+                        // "searchOperation",
+                        // "searchValue",
+                        // "group"
+                    ].forEach(function(i) {
+                        if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                            params[i] = JSON.stringify(loadOptions[i]);
+                    });
+                    $.getJSON("https://mydomain.com/MyDataService/authors/", params)
+                        .done(function(result) {
                             d.resolve(result)
                         });
                     return d.promise();
                 },
-                byKey: function (key) {
+                byKey: function(key) {
                     return $.getJSON("https://mydomain.com/MyDataService/authors/" + encodeURIComponent(key));
                 }
             }),
             sort: "name"
         }
-
         $("#treeListContainer").dxTreeList({
             // ...
             // The configuration repeats the previous code
             // ...
         });
     });
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "" && value !== {};
+    }
 
 ##### Angular
 
@@ -141,29 +148,41 @@ The following alternative **CustomStore** configuration delegates data processin
     export class AppComponent {
         lookupDataSource = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
+            _this = this;
             this.lookupDataSource = {
                 store: new CustomStore({
                     key: "id",
-                    load: function (loadOptions) {
-                        let params: HttpParams = new HttpParams()
-                            .set("sort", loadOptions.sort ? JSON.stringify(loadOptions.sort) : "");
-                            // .set("skip", JSON.stringify(loadOptions.skip))
-                            // .set("take", JSON.stringify(loadOptions.take))
-                            // .set("searchExpr", loadOptions.searchExpr ? JSON.stringify(loadOptions.searchExpr) : "")
-                            // .set("searchOperation", loadOptions.searchOperation)
-                            // .set("searchValue", JSON.stringify(loadOptions.searchValue))
-                            // .set("filter", loadOptions.filter ? JSON.stringify(loadOptions.filter) : "")
-                            // .set("group", loadOptions.group ? JSON.stringify(loadOptions.group) : "");
+                    load: (loadOptions) => {
+                        let params: HttpParams = new HttpParams();
+                        [
+                            "sort", 
+                            // "skip",     
+                            // "take", 
+                            // "filter", 
+                            // "searchExpr",
+                            // "searchOperation",
+                            // "searchValue",
+                            // "group"
+                        ].forEach(function(i) {
+                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                                params = params.set(i, JSON.stringify(loadOptions[i]));
+                        });
                         return httpClient.get("https://mydomain.com/MyDataService/authors/", { params: params })
-                            .toPromise();
+                            .toPromise()
+                            .then(result => {
+                                return result;
+                            });
                     },
-                    byKey: function (key) {
+                    byKey: function(key) {
                         return httpClient.get("https://mydomain.com/MyDataService/authors/" + encodeURIComponent(key))
                             .toPromise();
                     }
                 }),
                 sort: "name"
             }
+        }
+        isNotEmpty(value: any): boolean {
+            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({
