@@ -8,7 +8,7 @@
 Defines the range where the axis can be [zoomed and scrolled](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/). Equals the data range when unspecified.
 <!--/shortDescription-->
 
- <!--fullDescription-->
+<!--fullDescription-->
 #include dataviz-ref-vizrangevariants with {
     basepath: "/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/wholeRange",
     objectName: "wholeRange",
