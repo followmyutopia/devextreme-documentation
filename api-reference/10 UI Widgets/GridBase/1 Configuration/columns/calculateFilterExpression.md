@@ -55,17 +55,18 @@ The following code shows the default **calculateFilterExpression** function impl
     // ...
     export class AppComponent {
         calculateFilterExpression (filterValue, selectedFilterOperation) {
+            let column = this as any;
             // Implementation for the "between" comparison operator
             if (selectedFilterOperation === "between" && Array.isArray(filterValue)) {
                 var filterExpression = [
-                    [this.dataField, ">=", filterValue[0]], 
+                    [column.dataField, ">=", filterValue[0]], 
                     "and", 
-                    [this.dataField, "<=", filterValue[1]]
+                    [column.dataField, "<=", filterValue[1]]
                 ];
                 return filterExpression;
             }
             // Invokes the default filtering behavior
-            return this.defaultCalculateFilterExpression.apply(this, arguments);
+            return column.defaultCalculateFilterExpression(arguments);
         }
     }
     @NgModule({

@@ -67,8 +67,9 @@ Implement a custom sorting routine using the [calculateSortValue](/Documentation
     export class AppComponent {
         @ViewChild(DxDataGridComponent) dataGrid: DxDataGridComponent;
         customSortingFunction (rowData) {
+            let column = this as any;
             if (rowData.Position == "CEO")
-                return this.sortOrder == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
+                return column.sortOrder == 'asc' ? "aaa" : "zzz"; // CEOs are always displayed at the top
             else
                 return rowData.Position; // Others are sorted as usual
         }

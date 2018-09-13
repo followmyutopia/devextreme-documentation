@@ -51,7 +51,8 @@ Inside this function, you can access the [field's configuration](/Documentation/
                 fields: [{
                     // ...
                     sortingMethod: function (a, b) {
-                        let fieldSortOrder = this.sortOrder;
+                        let field = this as any;
+                        let fieldSortOrder = field.sortOrder;
                         // ...
                     }
                 },

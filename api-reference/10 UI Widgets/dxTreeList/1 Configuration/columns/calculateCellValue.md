@@ -59,7 +59,8 @@ To invoke the default behavior, call the **this.defaultCalculateCellValue(rowDat
     export class AppComponent {
         calculateCellValue (rowData) {
             // ...
-            return this.defaultCalculateCellValue(rowData);
+            let column = this as any;
+            return column.defaultCalculateCellValue(rowData);
         }
     }
     @NgModule({
