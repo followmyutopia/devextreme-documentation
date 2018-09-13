@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Calculates custom display values for column cells. Used when display and editing values should be different. Requires specifying the [dataField]({basewidgetpath}/Configuration/columns/#dataField) or [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue) option.
+Calculates custom display values for column cells. Requires specifying the [dataField]({basewidgetpath}/Configuration/columns/#dataField) or [calculateCellValue]({basewidgetpath}/Configuration/columns/#calculateCellValue) option. Used in [lookup optimization](/Documentation/Guide/Widgets/DataGrid/Enhance_Performance_on_Large_Datasets/#Lookup_Optimization).
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -147,8 +147,7 @@ The widget uses the specified display values in [sorting](/Documentation/Guide/W
     value: "column's configuration"
 }
 
-Do not use this option to format text in cells. Instead, use the [customizeText]({basewidgetpath}/Configuration/columns/#customizeText) or [cellTemplate]({basewidgetpath}/Configuration/columns/#cellTemplate) option.
-
+Do not use this option to format text in cells. Instead, use the [format]({basewidgetpath}/Configuration/columns/#format), [customizeText]({basewidgetpath}/Configuration/columns/#customizeText), or [cellTemplate]({basewidgetpath}/Configuration/columns/#cellTemplate) option.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
