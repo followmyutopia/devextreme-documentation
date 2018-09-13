@@ -140,7 +140,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
         });
     });
     function isNotEmpty(value) {
-        return value !== undefined && value !== null && value !== "" && value !== {};
+        return value !== undefined && value !== null && value !== "";
     }
 
 #####Angular
@@ -156,7 +156,9 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
     export class AppComponent {
         listDataSource: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            _this = this;
+            function isNotEmpty(value: any): boolean {
+                return value !== undefined && value !== null && value !== "";
+            }
             this.listDataSource = new DataSource({
                 store: new CustomStore({
                     load: (loadOptions) => {
@@ -172,7 +174,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
                             "group", 
                             "requireTotalCount"
                         ].forEach(function(i) {
-                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                            if(i in loadOptions && isNotEmpty(loadOptions[i])) 
                                 params = params.set(i, JSON.stringify(loadOptions[i]));
                         });
                         return httpClient.get("http://mydomain.com/MyDataService", { params: params })
@@ -191,9 +193,6 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
                     }
                 })
             });
-        }
-        isNotEmpty(value: any): boolean {
-            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

@@ -132,7 +132,7 @@ The following alternative **CustomStore** configuration delegates data processin
         });
     });
     function isNotEmpty(value) {
-        return value !== undefined && value !== null && value !== "" && value !== {};
+        return value !== undefined && value !== null && value !== "";
     }
 
 ##### Angular
@@ -148,7 +148,9 @@ The following alternative **CustomStore** configuration delegates data processin
     export class AppComponent {
         lookupDataSource = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            _this = this;
+            function isNotEmpty(value: any): boolean {
+                return value !== undefined && value !== null && value !== "";
+            }
             this.lookupDataSource = {
                 store: new CustomStore({
                     key: "id",
@@ -164,7 +166,7 @@ The following alternative **CustomStore** configuration delegates data processin
                             // "searchValue",
                             // "group"
                         ].forEach(function(i) {
-                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                            if(i in loadOptions && isNotEmpty(loadOptions[i])) 
                                 params = params.set(i, JSON.stringify(loadOptions[i]));
                         });
                         return httpClient.get("https://mydomain.com/MyDataService/authors/", { params: params })
@@ -180,9 +182,6 @@ The following alternative **CustomStore** configuration delegates data processin
                 }),
                 sort: "name"
             }
-        }
-        isNotEmpty(value: any): boolean {
-            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

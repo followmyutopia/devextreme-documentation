@@ -112,7 +112,7 @@ This example shows how to make a query for data.
         });
     });
     function isNotEmpty(value) {
-        return value !== undefined && value !== null && value !== "" && value !== {};
+        return value !== undefined && value !== null && value !== "";
     }
 
 ##### Angular
@@ -128,7 +128,9 @@ This example shows how to make a query for data.
     export class AppComponent {
         pieChartDataSource: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            _this = this;
+            function isNotEmpty(value: any): boolean {
+                return value !== undefined && value !== null && value !== "";
+            }
             this.pieChartDataSource = new DataSource({
                 store: new CustomStore({
                     load: (loadOptions) => {
@@ -140,7 +142,7 @@ This example shows how to make a query for data.
                             "searchOperation",
                             "searchValue"
                         ].forEach(function(i) {
-                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                            if(i in loadOptions && isNotEmpty(loadOptions[i])) 
                                 params = params.set(i, JSON.stringify(loadOptions[i]));
                         });
                         return httpClient.get("http://mydomain.com/MyDataService", { params: params })
@@ -154,9 +156,6 @@ This example shows how to make a query for data.
                 }),
                 paginate: false
             });
-        }
-        isNotEmpty(value: any): boolean {
-            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

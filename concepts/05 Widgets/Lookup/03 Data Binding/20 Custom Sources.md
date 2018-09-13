@@ -141,7 +141,7 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
         });
     });
     function isNotEmpty(value) {
-        return value !== undefined && value !== null && value !== "" && value !== {};
+        return value !== undefined && value !== null && value !== "";
     }
 
 #####Angular
@@ -173,7 +173,7 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
                             "searchValue",
                             "group"
                         ].forEach(function(i) {
-                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                            if(i in loadOptions && isNotEmpty(loadOptions[i])) 
                                 params = params.set(i, JSON.stringify(loadOptions[i]));
                         });
                         return httpClient.get("http://mydomain.com/MyDataService", { params: params })
@@ -191,7 +191,7 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
             });
         }
         isNotEmpty(value: any): boolean {
-            return value !== undefined && value !== null && value !== "" && value !== {};
+            return value !== undefined && value !== null && value !== "";
         }
     }
     @NgModule({

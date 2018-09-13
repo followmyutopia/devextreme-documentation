@@ -112,7 +112,7 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
         }
     });
     function isNotEmpty(value) {
-        return value !== undefined && value !== null && value !== "" && value !== {};
+        return value !== undefined && value !== null && value !== "";
     }
     $(function() {
         $("#schedulerContainer").dxScheduler({
@@ -134,7 +134,9 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
     export class AppComponent {
         schedulerDataSource: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            _this = this;
+            function isNotEmpty(value) {
+                return value !== undefined && value !== null && value !== "";
+            }
             this.schedulerDataSource = new DataSource({
                 store: new CustomStore({
                     load: (loadOptions) => {
@@ -164,9 +166,6 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
                 }),
                 paginate: false
             });
-        }
-        isNotEmpty(value) {
-            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

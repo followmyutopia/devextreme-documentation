@@ -147,7 +147,7 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
         });
     });
     function isNotEmpty(value) {
-        return value !== undefined && value !== null && value !== "" && value !== {};
+        return value !== undefined && value !== null && value !== "";
     }
 
 #####Angular
@@ -163,7 +163,9 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
     export class AppComponent {
         selectBoxData: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            _this = this;
+            function isNotEmpty(value: any): boolean {
+                return value !== undefined && value !== null && value !== "";
+            }
             this.selectBoxData = new DataSource({
                 store: new CustomStore({
                     key: "ID",
@@ -179,7 +181,7 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
                             "searchValue",
                             "group", 
                         ].forEach(function(i) {
-                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                            if(i in loadOptions && isNotEmpty(loadOptions[i])) 
                                 params = params.set(i, JSON.stringify(loadOptions[i]));
                         });
                         return httpClient.get("http://mydomain.com/MyDataService", { params: params })
@@ -199,9 +201,6 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
                     }
                 })
             });
-        }
-        isNotEmpty(value: any): boolean {
-            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

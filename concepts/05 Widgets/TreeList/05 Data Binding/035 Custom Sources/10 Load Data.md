@@ -54,7 +54,7 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
         }
     });
     function isNotEmpty(value) {
-        return value !== undefined && value !== null && value !== "" && value !== {};
+        return value !== undefined && value !== null && value !== "";
     }
     $(function() {
         $("#treeListContainer").dxTreeList({
@@ -80,7 +80,9 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
     export class AppComponent {
         treeListDataSource: any = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            _this = this;
+            function isNotEmpty(value: any): boolean {
+                return value !== undefined && value !== null && value !== "";
+            }
             this.treeListDataSource = new DataSource({
                 load: (loadOptions) => {
                     let params: HttpParams = new HttpParams();
@@ -90,7 +92,7 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
                         "group", 
                         "parentIds"
                     ].forEach(function(i) {
-                        if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                        if(i in loadOptions && isNotEmpty(loadOptions[i])) 
                             params = params.set(i, JSON.stringify(loadOptions[i]));
                     });
                     return httpClient.get("http://mydomain.com/MyDataService", { params: params })
@@ -101,9 +103,6 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
                         });
                 }
             });
-        }
-        isNotEmpty(value: any): boolean {
-            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({

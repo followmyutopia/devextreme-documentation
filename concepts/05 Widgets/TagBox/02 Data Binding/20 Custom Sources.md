@@ -152,7 +152,7 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
         });
     });
     function isNotEmpty(value) {
-        return value !== undefined && value !== null && value !== "" && value !== {};
+        return value !== undefined && value !== null && value !== "";
     }
 
 
@@ -169,7 +169,9 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
     export class AppComponent {
         tagBoxData: DataSource = {};
         constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            _this = this;
+            function isNotEmpty(value: any): boolean {
+                return value !== undefined && value !== null && value !== "";
+            }
             this.tagBoxData = new DataSource({
                 store: new CustomStore({
                     key: "ID",
@@ -186,7 +188,7 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
                             "group", 
                             "requireTotalCount"
                         ].forEach(function(i) {
-                            if(i in loadOptions && _this.isNotEmpty(loadOptions[i])) 
+                            if(i in loadOptions && isNotEmpty(loadOptions[i])) 
                                 params = params.set(i, JSON.stringify(loadOptions[i]));
                         });
                         return httpClient.get("http://mydomain.com/MyDataService", { params: params })
@@ -209,9 +211,6 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
                     }
                 })
             });
-        }
-        isNotEmpty(value: any): boolean {
-            return value !== undefined && value !== null && value !== "" && value !== {};
         }
     }
     @NgModule({
