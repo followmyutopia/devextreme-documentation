@@ -1,4 +1,4 @@
-The visual range of arguments/values on an axis should include all arguments/values of all series. If you want to reduce the visual range, specify the [min](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#min) and [max](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#max) options of the axis. Note that if the [valueMarginsEnabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#valueMarginsEnabled) option stays **true**, the axis extends beyond the **min** and **max** values because of margins specified by the [minValueMargin](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#minValueMargin) and [maxValueMargin](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#maxValueMargin) options.
+The visual range of arguments/values on an axis should include all arguments/values of all series. If you want to reduce the visual range, specify the axis's [visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) option.
 
 ---
 ##### jQuery
@@ -7,9 +7,7 @@ The visual range of arguments/values on an axis should include all arguments/val
         $("#chartContainer").dxChart({
             // ...
             argumentAxis: { // or valueAxis
-                min: 1950,
-                max: 2000,
-                valueMarginsEnabled: false
+                visualRange: [1950, 2000]
             }
         });
     });
@@ -18,9 +16,7 @@ The visual range of arguments/values on an axis should include all arguments/val
 
     <!--HTML--><dx-chart ... >
         <dxo-argument-axis
-            [min]="1950"
-            [max]="2000"
-            [valueMarginsEnabled]="false">
+            [visualRange]="[1950, 2000]">
         </dxo-argument-axis>
     </dx-chart>
 

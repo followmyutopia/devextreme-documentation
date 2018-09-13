@@ -11,8 +11,7 @@ A function that is executed when zooming or scrolling begins.
 
 <!--fullDescription-->
 #####See Also#####
-- [zoomingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode)
-- [scrollingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode)
+- [zoomingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) | [scrollingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode)
 - [onZoomEnd](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomEnd)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
@@ -38,15 +37,15 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->axis<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->chartAxisObject<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-
+The zoomed/scrolled axis.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->range<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->VizRange<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-
+The [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) when zooming or scrolling starts.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Boolean<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+Allows you to cancel zooming or scrolling.
 <!--/typeFunctionParamDescription1_field6-->

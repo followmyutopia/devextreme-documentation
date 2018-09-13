@@ -4,17 +4,18 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not to adjust the value axis when zooming the widget.
+Specifies whether to adjust the value axis's [visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/visualRange/) when the [argument axis](/Documentation/Guide/Widgets/Chart/Axes/Overview/) is being [zoomed or scrolled](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **Chart** widget provides a [built-in zooming capability](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode). Technically, zooming is performed down the argument axis, that is, the widget focuses on a smaller range of arguments. At the same time, the visible range of values also changes. In this case, use the **adjustOnZoom** option to decide whether or not to adjust the value axis to the changed visible range of values.
+When a user zooms or scrolls the argument axis, the range of displayed [series](/Documentation/Guide/Widgets/Chart/Series/Overview/) values changes accordingly. To display this entire range without unused space on the value axis, the value axis's visual range gets widened or narrowed.
 
-[note]This option is not supported when the argument axis is [discrete](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#type).
+Set this option to **false** if the visual range should be constant and equal to the series values' maximum range.
 
-Besides the built-in zooming, you can zoom the **Chart** widget using the [RangeSelector](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/) widget. For details on this feature, see the [Zooming and Scrolling Using RangeSelector](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_End-User_Interaction/Zooming_and_Scrolling/#Using_dxRangeSelector) topic.
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrolling/jQuery/Light/"
+}
 
 #####See Also#####
-- [zoomingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) - enables zooming in the chart.
-- [zoomArgument(startValue, endValue)](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#zoomArgumentstartValue_endValue) - zooms the chart in code.
+- [zoomingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#zoomingMode) | [scrollingMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#scrollingMode)
 <!--/fullDescription-->

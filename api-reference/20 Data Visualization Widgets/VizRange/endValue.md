@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The range's end value.
 <!--/shortDescription-->
 
 <!--fullDescription-->

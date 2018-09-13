@@ -100,7 +100,7 @@ Gets a point by its index in the series. The index is zero-based.
     ---
 
 - [getVisiblePoints()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Chart_Elements/Series/Methods/#getVisiblePoints)          
-Gets those points of the series that fall into the range from [min](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#min) to [max](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#max) axis values.
+Gets those points of the series that fall into the axis's [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/).
 
     ---
     ##### jQuery
