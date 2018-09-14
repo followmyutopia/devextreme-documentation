@@ -47,3 +47,8 @@ The item's container. It is an [HTML Element](https://developer.mozilla.org/en-U
 <!--typeFunctionParamDescription1_field6-->
 The clicked item's index.
 <!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamDescription1_field7-->
+
+<!--/typeFunctionParamDescription1_field7-->

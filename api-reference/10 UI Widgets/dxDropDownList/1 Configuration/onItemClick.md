@@ -46,3 +46,8 @@ The item's container.
 <!--typeFunctionParamDescription1_field6-->
 The clicked item's index. If the widget items are grouped, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
 <!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamDescription1_field7-->
+
+<!--/typeFunctionParamDescription1_field7-->

@@ -42,3 +42,8 @@ The data of the item whose title is held.
 <!--typeFunctionParamDescription1_field5-->
 The item's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamName1_field6-->event<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->event<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->
