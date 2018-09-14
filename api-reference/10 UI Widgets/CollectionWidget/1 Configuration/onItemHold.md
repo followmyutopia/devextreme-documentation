@@ -49,5 +49,5 @@ The item's index.
 <!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-
+The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery.
 <!--/typeFunctionParamDescription1_field7-->

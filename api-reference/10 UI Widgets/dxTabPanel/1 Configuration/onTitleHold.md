@@ -44,5 +44,5 @@ The item's container. It is an [HTML Element](https://developer.mozilla.org/en-U
 <!--typeFunctionParamName1_field6-->event<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->event<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery.
 <!--/typeFunctionParamDescription1_field6-->
