@@ -14,7 +14,7 @@ Contains the arrow buttons that expand/collapse [groups](/Documentation/Guide/Wi
 
 ![DevExtreme HTML5 JavaScript DataGrid CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/18_2/DataGrid/Command_Columns.png)
 
-You can relocate or resize the command columns by changing their **visibleIndex** and **width** options. For this, call the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method as shown by the following code:
+You can render command columns after other elements, relocate or resize them by changing their **renderAsync**, **visibleIndex** and **width** options. For this, call the [columnOption(id, optionName, optionValue)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#columnOptionid_optionName_optionValue) method as shown by the following code:
 
 ---
 ##### jQuery
@@ -27,6 +27,9 @@ You can relocate or resize the command columns by changing their **visibleIndex*
 
     // changes the width of the selection column to 50 pixels
     dataGrid.columnOption("command:select", "width", 50);
+
+    // renders the selection column after other elements in the DataGrid
+    dataGrid.columnOption("command:edit", "renderAsync", true);
 
     // places the editing column before all others
     dataGrid.columnOption("command:edit", "visibleIndex", -2);
@@ -57,6 +60,9 @@ You can relocate or resize the command columns by changing their **visibleIndex*
 
             // changes the width of the selection column to 50 pixels
             this.dataGrid.instance.columnOption("command:select", "width", 50);
+
+            // renders the selection column after other elements in the DataGrid
+            this.dataGrid.instance.columnOption("command:select", "renderAsync", true);
         }
         modifyEditingColumn () {
             // places the editing column before all others
