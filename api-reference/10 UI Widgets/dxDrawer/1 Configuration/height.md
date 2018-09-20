@@ -1,12 +1,8 @@
 ===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->Number<!--/type-->
+<!--handmade--><!--/handmade-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the view's height.
 <!--/shortDescription-->
-
-<!--fullDescription-->
-
-<!--/fullDescription-->

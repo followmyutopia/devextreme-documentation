@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the drawer's position in relation to the view.
 <!--/shortDescription-->
 
 <!--fullDescription-->
