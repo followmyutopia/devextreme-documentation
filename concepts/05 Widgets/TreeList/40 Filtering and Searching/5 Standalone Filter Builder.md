@@ -98,7 +98,7 @@ Then, add a button that updates a filter of the **TreeList**'s data source accor
         @ViewChild(DxFilterBuilderComponent) filterBuilder: DxFilterBuilderComponent;
         // ...
         buttonClick() {
-            this.treeList.filter(this.filterBuilder.getFilterExpression());
+            this.treeList.instance.filter(this.filterBuilder.instance.getFilterExpression());
         }
     }
     @NgModule({

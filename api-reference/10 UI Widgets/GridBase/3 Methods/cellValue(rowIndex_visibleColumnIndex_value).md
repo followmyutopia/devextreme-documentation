@@ -43,8 +43,8 @@ Call [saveEditData()]({basewidgetpath}/Methods/#saveEditData) after this method 
     export class AppComponent {
         @ViewChild(Dx{WidgetName}Component) {widgetName}: Dx{WidgetName}Component;
         updateCell(rowIndex, columnIndex, value) {
-            this.{widgetName}.cellValue(rowIndex, columnIndex, value);
-            this.{widgetName}.saveEditData();
+            this.{widgetName}.instance.cellValue(rowIndex, columnIndex, value);
+            this.{widgetName}.instance.saveEditData();
         }
     }
     @NgModule({

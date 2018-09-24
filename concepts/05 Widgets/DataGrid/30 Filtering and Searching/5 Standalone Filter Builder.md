@@ -98,7 +98,7 @@ Then, add a button that updates a filter of the **DataGrid**'s data source accor
         @ViewChild(DxFilterBuilderComponent) filterBuilder: DxFilterBuilderComponent;
         // ...
         buttonClick() {
-            this.dataGrid.filter(this.filterBuilder.getFilterExpression());
+            this.dataGrid.instance.filter(this.filterBuilder.instance.getFilterExpression());
         }
     }
     @NgModule({
