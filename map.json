@@ -364,6 +364,10 @@
       }
     },
 
+    "dxRichTextEditor": {
+      "$Widget": "dxRichTextEditor"
+    },
+
     "dxScheduler": {
       "$Widget": "dxScheduler",
 
