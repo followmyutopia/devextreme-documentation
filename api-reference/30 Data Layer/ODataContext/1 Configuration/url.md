@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a URL to an OData service.
+Specifies the URL of an OData service.
 <!--/shortDescription-->
 
 <!--fullDescription-->

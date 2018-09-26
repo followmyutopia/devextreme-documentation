@@ -56,7 +56,7 @@ You can also use a JSONP callback parameter supported by [jQuery.ajax()](http://
         End Function)
     )
 
-In addition, the `DataSource()` method has several overloads for configuring access to JSON data more briefly. Using them, you can specify the URL to data...
+In addition, the `DataSource()` method has several overloads for configuring access to JSON data more briefly. Using them, you can specify the data's URL...
 
     <!--Razor C#-->
     @(Html.DevExtreme().SelectBox()

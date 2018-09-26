@@ -14,7 +14,7 @@ This option accepts one of the following:
  A JavaScript array that contains string, numeric, Boolean values, or plain objects.
 
 - URL       
- A URL to JSON data or to a service returning data in JSON format.
+ The URL of a JSON file or service that returns JSON data.
 
 - [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)      
  The **DataSource** is an object that provides an API for data processing. The **DataSource**'s underlying data access logic is isolated in a store. Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) and [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/) guides for more information about the **DataSource**.

@@ -14,7 +14,7 @@ This option accepts one of the following:
  A simple JavaScript array containing a collection of plain objects. See [demo](/Demos/WidgetsGallery/Demo/Charts/SimpleArray/jQuery/Light/).
 
 - **URL**       
- A URL to JSON data or a service returning data in JSON format. See [demo](/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/).
+ The URL of a JSON file or service that returns JSON data. See [demo](/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/).
 
 - **[DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)**      
  A **DataSource** is an object that provides an API for data processing. Learn more about it from the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer) and [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples) guides. See [demo](/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/jQuery/Light/).

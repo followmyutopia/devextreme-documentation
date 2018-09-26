@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a URL to an OData entity collection.
+Specifies the URL of an OData entity collection.
 <!--/shortDescription-->
 
 <!--fullDescription-->
