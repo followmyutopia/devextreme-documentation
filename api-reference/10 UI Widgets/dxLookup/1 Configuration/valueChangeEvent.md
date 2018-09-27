@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies after which [DOM events](https://en.wikipedia.org/wiki/DOM_events#HTML_events) the widget updates search results.
+Specifies the [DOM events](https://en.wikipedia.org/wiki/DOM_events) after which the widget's search results should be updated.
 <!--/shortDescription-->
 
 <!--fullDescription-->
