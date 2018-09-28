@@ -2,6 +2,7 @@
 <!--default-->'month'<!--/default-->
 <!--acceptValues-->'century' | 'decade' | 'month' | 'year'<!--/acceptValues-->
 <!--type-->String<!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
 ===========================================================================
 
 <!--shortDescription-->

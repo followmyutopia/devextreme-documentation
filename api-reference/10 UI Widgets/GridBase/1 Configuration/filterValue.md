@@ -1,6 +1,7 @@
 ===========================================================================
 <!--default-->null<!--/default-->
 <!--type-->Filter expression<!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
 ===========================================================================
 
 <!--shortDescription-->
