@@ -1,6 +1,5 @@
 ===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/recurrence_editor<!--/module-->
+<!--module-->ui/html_editor<!--/module-->
 <!--export-->default<!--/export-->
 <!--inherits-->..\Editor\Editor.md<!--/inherits-->
 ===========================================================================

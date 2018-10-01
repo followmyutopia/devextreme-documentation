@@ -1,8 +1,7 @@
 ===========================================================================
-<!--hidden--><!--/hidden-->
-<!--module-->ui/recurrence_editor<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->..\Editor\Editor.md<!--/inherits-->
+<!--default-->'HTML'<!--/default-->
+<!--acceptValues-->'HTML' | 'Markdown'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
