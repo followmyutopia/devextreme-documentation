@@ -21,4 +21,5 @@ If this option is set to **true**, the Promise that the [load()](/Documentation/
             // "extra" contains the "totalCount" field
         });
 
+[note] When [scrolling](/Documentation/Guide/Widgets/DataGrid/Scrolling/) is infinite in the **DataGrid**, this option's value is always **false**.
 <!--/fullDescription-->

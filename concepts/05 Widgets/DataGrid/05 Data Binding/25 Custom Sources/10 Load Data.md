@@ -1,6 +1,8 @@
 The **CustomStore** requires the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function. It sends data processing settings to the server and gets processed data back. These settings depend on which [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/) are enabled. The following data processing settings apply to the **DataGrid**:
 
-- **Paging settings**: [take](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#take), [skip](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#skip), [requireTotalCount](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireTotalCount)
+- **Paging settings**: [take](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#take), [skip](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#skip), [requireTotalCount](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#requireTotalCount)    
+
+    [note] When [scrolling](/Documentation/Guide/Widgets/DataGrid/Scrolling/) is infinite, **requireTotalCount** is **false**. It should not be changed to ensure scrolling works properly.
 
 - **Sorting settings**: [sort](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#sort)         
 
