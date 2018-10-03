@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets a cell with a specific row index and a data field.
+Gets a cell with a specific row index and a data field, column caption or name.
 <!--/shortDescription-->
 
 <!--paramName1-->rowIndex<!--/paramName1-->
@@ -14,7 +14,7 @@ The index of the row to which the cell belongs.
 <!--paramName2-->dataField<!--/paramName2-->
 <!--paramType2-->String<!--/paramType2-->
 <!--paramDescription2-->
-The data field.
+The [data field]({basewidgetpath}/Configuration/columns/#dataField), [caption]({basewidgetpath}/Configuration/columns/#caption), or [unique name]({basewidgetpath}/Configuration/columns/#name) of the column to which the cell belongs.
 <!--/paramDescription2-->
 
 <!--returnType-->dxElement|undefined<!--/returnType-->
