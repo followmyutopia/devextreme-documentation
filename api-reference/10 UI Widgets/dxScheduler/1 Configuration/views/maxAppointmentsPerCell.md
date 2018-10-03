@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the limit of full-sized appointments displayed per cell. In the *"day"*, *"week"* and *"workweek"* views, this option applies only to [all-day](/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Types/#All-Day_Appointments) appointments.
+Specifies the limit of full-sized appointments displayed per cell. Applies to all views except *"agenda"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
