@@ -28,9 +28,8 @@ All operations with widget options are carried out using the **option()** method
     $("#menuContainer").dxMenu("option", "dataSource", []);
     $("#menuContainer").dxMenu("option", "showSubmenuMode.name", 'onClick');
 
-[note]If you perform a chain of option changes, wrap it up into the **beginUpdate()** and **endUpdate()** function calls. It prevents the widget from unnecessary refreshing and event raising. Better yet, [use an object](#SetSeveralOptions) instead if you need to change several options at once.
+[note]If you perform a chain of option changes, wrap it up into the **beginUpdate()** and **endUpdate()** function calls. It prevents the widget from unnecessary refreshing and event raising. Better yet, use an object instead if you need to change several options at once.
 
-<a id="SetSeveralOptions"></a>
 ####Set Several Options####
 <div style="height:5px"></div>
     <!--JavaScript-->var menuInstance = $("#menuContainer").dxMenu("instance");

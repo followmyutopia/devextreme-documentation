@@ -2,7 +2,7 @@ Make sure you linked all the required resources before creating a widget:
 
 - **Link Resources**: [Local Scripts](/Documentation/Guide/Getting_Started/Installation/Local_Scripts/) | [CDN Services](/Documentation/Guide/Getting_Started/Installation/CDN_Services/) | [NuGet Package](/Documentation/Guide/Getting_Started/Installation/NuGet_Package/) | [Bower Package](/Documentation/Guide/Getting_Started/Installation/Bower_Package/) | [npm Package](/Documentation/Guide/Getting_Started/Installation/npm_Package/)
 
-For operating with AngularJS, DevExtreme includes an [AngularJS module](http://docs.angularjs.org/api/angular.module) registered under the name *"dx"*. Add it to the list of [dependencies](https://docs.angularjs.org/guide/module#module-loading-dependencies) for your application module.
+For operating with AngularJS, DevExtreme includes an [AngularJS module](https://docs.angularjs.org/api/ng/function/angular.module) registered under the name *"dx"*. Add it to the list of [dependencies](https://docs.angularjs.org/guide/module#module-loading-dependencies) for your application module.
 
     <!--JavaScript-->angular.module('myApp', [ 'dx' ]);
 
