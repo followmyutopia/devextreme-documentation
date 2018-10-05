@@ -5,6 +5,8 @@
     "dxDataGridColumn",
     "dxTreeListColumn",
     "dxFilterBuilderCustomOperation",
+    "dxToolbarModule",
+    "dxDataPlaceholderModule",
     "chartPointAggregationInfoObject",
     "dxSankeyConnectionInfoObject",
     "DOMComponent/Options/bindingOptions",
@@ -365,6 +367,20 @@
     },
 
     "dxHtmlEditor": {
+      "1 Cofiguration": {
+          "dataPlaceholder": {
+              "dataPlaceholder.md": "dxHtmlEditor/Options/dataPlaceholder",
+              "$Object": "dxDataPlaceholderModule"
+          }, 
+          "toolbar": {
+            "toolbar.md": "dxHtmlEditor/Options/toolbar",
+            "$Object": "dxToolbarModule"
+          }
+      },
+      "4 Toolbar Item": {
+        "Toolbar Item.md": "dxHtmlEditorToolbarItem",
+        "$Widget": "dxHtmlEditorToolbarItem"
+      },
       "$Widget": "dxHtmlEditor"
     },
 
