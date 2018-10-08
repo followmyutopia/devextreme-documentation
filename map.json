@@ -374,12 +374,12 @@
               "$Object": "dxHtmlEditorDataPlaceholder"
           }, 
           "toolbar": {
+            "items": {
+                "items.md": "dxHtmlEditor/Options/toolbar/items",
+                "$Object": "dxHtmlEditorToolbarItem"
+            },
             "toolbar.md": "dxHtmlEditor/Options/toolbar",
             "$Object": "dxHtmlEditorToolbar"
-          },
-          "items": {
-              "items.md": "dxHtmlEditor/Options/toolbar/items",
-              "$Object": "dxHtmlEditorToolbarItem"
           }
       },
       "$Widget": "dxHtmlEditor"
