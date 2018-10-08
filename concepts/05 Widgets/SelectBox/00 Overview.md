@@ -88,7 +88,7 @@ If your data is an array of objects, specify:
         [dataSource]="selectBoxData"
         valueExpr="id"
         displayExpr="country">
-    <dx-select-box>
+    </dx-select-box>
 
     <!--TypeScript-->
     import { DxSelectBoxModule } from "devextreme-angular";
