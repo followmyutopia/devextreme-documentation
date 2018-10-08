@@ -2,64 +2,7 @@
 
 The **CustomSource**'s configuration differs depending on whether data is processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server using the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the following example:
 
----
-#####jQuery
-
-    <!--JavaScript-->$(function() {
-        $("#lookupContainer").dxLookup({
-            dataSource: new DevExpress.data.DataSource({
-                store: new DevExpress.data.CustomStore({
-                    key: "ID",
-                    loadMode: "raw",   
-                    load: function() {
-                        return $.getJSON('https://mydomain.com/MyDataService');
-                    }
-                })
-            })
-        });
-    });
-
-
-#####Angular
-
-    <!--TypeScript-->
-    import { ..., Inject } from "@angular/core";
-    import { HttpClient, HttpClientModule } from "@angular/common/http";
-    import DataSource from "devextreme/data/data_source";
-    import { DxLookupModule } from "devextreme-angular";
-    import CustomStore from "devextreme/data/custom_store";
-    import "rxjs/add/operator/toPromise";
-    // ...
-    export class AppComponent {
-        lookupDataSource: any = {};
-        constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            this.lookupData = new DataSource({
-                store: new CustomStore({
-                    key: "ID",
-                    loadMode: "raw",   
-                    load: () => {
-                        return httpClient.get('https://mydomain.com/MyDataService')
-                            .toPromise();
-                    }
-                })
-            })
-        }
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxLookupModule,
-            HttpClientModule
-        ],
-        // ...
-    })
-
-    <!--HTML-->
-    <dx-lookup
-        dataSource="lookupData">
-    </dx-lookup>
-
----
+#include common-code-customsource-rawmode-withkey
 
 [note]We recommend not using this mode with large amounts of data because all data is loaded at once.
 
@@ -207,6 +150,126 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
     <dx-lookup
         [dataSource]="lookupData">
     </dx-lookup>
+
+#####Vue
+
+    <!--JavaScript-->
+    import DxLookup from "devextreme-vue/ui/lookup";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const lookupDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                   "skip",     
+                    "take",  
+                    "sort", 
+                    "filter", 
+                    "searchExpr",
+                    "searchOperation",
+                    "searchValue",
+                    "group"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return result.data;
+                    });
+            },
+            byKey: (key) => {
+                return fetch(`https://mydomain.com/MyDataService?id=${key}`)
+                        .then(handleErrors);
+            }
+        })
+    }
+    export default {
+        // ...
+        data() {
+            return {
+                dataSource: lookupDataSource
+            };
+        },
+        components: {
+            // ...
+            DxLookup
+        }
+    }
+
+    <!--HTML-->
+    <dx-lookup ... 
+        :data-source="dataSource" />
+
+#####React
+
+    <!--JavaScript-->
+    import Lookup from "devextreme-react/ui/lookup";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok) 
+            throw Error(response.statusText);
+        return response;
+    }
+    const lookupDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                   "skip",     
+                    "take",  
+                    "sort", 
+                    "filter", 
+                    "searchExpr",
+                    "searchOperation",
+                    "searchValue",
+                    "group"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return result.data;
+                    });
+            },
+            byKey: (key) => {
+                return fetch(`https://mydomain.com/MyDataService?id=${key}`)
+                        .then(handleErrors);
+            }
+        })
+    }
+    class App extends Component {
+        render() {
+            return (
+                <Lookup ...
+                    dataSource={lookupDataSource}>
+                </Lookup>
+            );
+        }
+    }
+    export default App;
 
 ---
 

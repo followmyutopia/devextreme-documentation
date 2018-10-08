@@ -48,6 +48,7 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
 
     <!--JavaScript-->
     var gridDataSource = new DevExpress.data.DataSource({
+        key: "ID",
         load: function(loadOptions) {
             var d = $.Deferred(),
                     params = {};
@@ -65,7 +66,7 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
                 if(i in loadOptions && isNotEmpty(loadOptions[i])) 
                     params[i] = JSON.stringify(loadOptions[i]);
             });
-            $.getJSON("http://mydomain.com/MyDataService", params)
+            $.getJSON("https://mydomain.com/MyDataService", params)
                 .done(function(result) {
                     d.resolve(result.data, { 
                         totalCount: result.totalCount,
@@ -103,6 +104,7 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
                 return value !== undefined && value !== null && value !== "";
             }
             this.gridDataSource = new DataSource({
+                key: "ID",
                 load: (loadOptions) => {
                     let params: HttpParams = new HttpParams();
                     [
@@ -119,7 +121,7 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
                         if(i in loadOptions && isNotEmpty(loadOptions[i])) 
                             params = params.set(i, JSON.stringify(loadOptions[i]));
                     });
-                    return httpClient.get("http://mydomain.com/MyDataService", { params: params })
+                    return httpClient.get("https://mydomain.com/MyDataService", { params: params })
                         .toPromise()
                         .then(result => {
                             return {
@@ -148,6 +150,134 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
             [groupPaging]="true">
         </dxo-remote-operations>
     </dx-data-grid>
+
+#####Vue
+
+    <!--JavaScript-->
+    import DxDataGrid from "devextreme-vue/ui/data-grid";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const gridDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                    "skip", 
+                    "take", 
+                    "requireTotalCount", 
+                    "requireGroupCount", 
+                    "sort", 
+                    "filter", 
+                    "totalSummary", 
+                    "group", 
+                    "groupSummary"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return { 
+                            data: result.data,
+                            totalCount: result.totalCount,
+                            summary: result.summary,
+                            groupCount: result.groupCount
+                        }
+                    });
+            }
+        })
+    }
+    export default {
+        // ...
+        data() {
+            return {
+                dataSource: gridDataSource,
+                remoteOperations: { groupPaging: true }
+            };
+        },
+        components: {
+            // ...
+            DxDataGrid
+        }
+    }
+
+    <!--HTML-->
+    <dx-data-grid ... 
+        :data-source="dataSource"
+        :remote-operations="remoteOperations" />
+
+#####React
+
+    <!--JavaScript-->
+    import DataGrid, { RemoteOperations } from "devextreme-react/ui/data-grid";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok) 
+            throw Error(response.statusText);
+        return response;
+    }
+    const gridDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                    "skip", 
+                    "take", 
+                    "requireTotalCount", 
+                    "requireGroupCount", 
+                    "sort", 
+                    "filter", 
+                    "totalSummary", 
+                    "group", 
+                    "groupSummary"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return { 
+                            data: result.data,
+                            totalCount: result.totalCount,
+                            summary: result.summary,
+                            groupCount: result.groupCount
+                        }
+                    });
+            }
+        })
+    }
+    class App extends Component {
+        render() {
+            return (
+                <DataGrid ...
+                    dataSource={gridDataSource}>
+                    <RemoteOperations
+                        groupPaging={true} />
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
 
 ---
 

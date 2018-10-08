@@ -2,63 +2,7 @@ Access to a custom data source is configured using the [CustomStore](/Documentat
 
 The **CustomSource**'s configuration differs depending on whether data is processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server using the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the following example:
 
----
-#####jQuery
-
-    <!--JavaScript-->$(function() {
-        $("#selectBoxContainer").dxSelectBox({
-            dataSource: new DevExpress.data.DataSource({
-                store: new DevExpress.data.CustomStore({
-                    key: "ID",
-                    loadMode: "raw",   
-                    load: function() {
-                        return $.getJSON('https://mydomain.com/MyDataService');
-                    }
-                })
-            })
-        });
-    });
-
-#####Angular
-
-    <!--TypeScript-->
-    import { ..., Inject } from "@angular/core";
-    import { HttpClient, HttpClientModule } from "@angular/common/http";
-    import DataSource from "devextreme/data/data_source";
-    import { DxSelectBoxModule } from "devextreme-angular";
-    import CustomStore from "devextreme/data/custom_store";
-    import "rxjs/add/operator/toPromise";
-    // ...
-    export class AppComponent  {
-        selectBoxData: any = {};
-        constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            this.selectBoxData = new DataSource({
-                store: new CustomStore({
-                    key: "ID",
-                    loadMode: "raw",   
-                    load: () => {
-                        return httpClient.get('https://mydomain.com/MyDataService')
-                            .toPromise();
-                    }
-                })
-            })
-        }
-    }
-    @NgModule({
-         imports: [
-             // ...
-             DxSelectBoxModule,
-             HttpClientModule
-         ],
-         // ...
-     })
-
-    <!--HTML-->
-    <dx-select-box
-        [dataSource]="selectBoxData">
-    </dx-select-box>
-
----
+#include common-code-customsource-rawmode-withkey
 
 [note]We recommend not using this mode with large amounts of data because all data is loaded at once.
 
@@ -216,6 +160,144 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
     <dx-select-box
         [dataSource]="selectBoxData">
     </dx-select-box>
+
+#####Vue
+
+    <!--JavaScript-->
+    import DxSelectBox from "devextreme-vue/ui/select-box";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const selectBoxDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                   "skip",     
+                    "take",  
+                    "sort", 
+                    "filter", 
+                    "searchExpr",
+                    "searchOperation",
+                    "searchValue",
+                    "group"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return result.data;
+                    });
+            },
+            byKey: (key) => {
+                return fetch(`https://mydomain.com/MyDataService?id=${key}`)
+                        .then(handleErrors);
+            },
+            insert: (values) => {
+                return fetch("https://mydomain.com/MyDataService", {
+                    method: "POST",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            }
+        })
+    }
+    export default {
+        // ...
+        data() {
+            return {
+                dataSource: selectBoxDataSource
+            };
+        },
+        components: {
+            // ...
+            DxSelectBox
+        }
+    }
+
+    <!--HTML-->
+    <dx-select-box ... 
+        :data-source="dataSource" />
+
+#####React
+
+    <!--JavaScript-->
+    import SelectBox from "devextreme-react/ui/select-box";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok) 
+            throw Error(response.statusText);
+        return response;
+    }
+    const selectBoxDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                   "skip",     
+                    "take",  
+                    "sort", 
+                    "filter", 
+                    "searchExpr",
+                    "searchOperation",
+                    "searchValue",
+                    "group"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return result.data;
+                    });
+            },
+            byKey: (key) => {
+                return fetch(`https://mydomain.com/MyDataService?id=${key}`)
+                        .then(handleErrors);
+            },
+            insert: (values) => {
+                return fetch("https://mydomain.com/MyDataService", {
+                    method: "POST",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            }
+        })
+    }
+    class App extends Component {
+        render() {
+            return (
+                <Lookup ...
+                    dataSource={selectBoxDataSource}>
+                </Lookup>
+            );
+        }
+    }
+    export default App;
 
 ---
 

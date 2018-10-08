@@ -2,63 +2,7 @@
 
 The **CustomSource**'s configuration differs depending on whether data is processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server using the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the following example:
 
----
-#####jQuery
-
-    <!--JavaScript-->$(function() {
-        $("#tagBoxContainer").dxTagBox({
-            dataSource: new DevExpress.data.DataSource({
-                store: new DevExpress.data.CustomStore({
-                    key: "ID",
-                    loadMode: "raw",   
-                    load: function() {
-                        return $.getJSON('https://mydomain.com/MyDataService');
-                    }
-                })
-            })
-        });
-    });
-
-#####Angular
-
-    <!--TypeScript-->
-    import { ..., Inject } from "@angular/core";
-    import { HttpClient, HttpClientModule } from "@angular/common/http";
-    import DataSource from "devextreme/data/data_source";
-    import { DxTagBoxModule } from "devextreme-angular";
-    import CustomStore from "devextreme/data/custom_store";
-    import "rxjs/add/operator/toPromise";
-    // ...
-    export class AppComponent  {
-        tagBoxData: DataSource = {};
-        constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            this.tagBoxData = new DataSource({
-                store: new CustomStore({
-                    key: "ID",
-                    loadMode: "raw",   
-                    load: () => {
-                        return httpClient.get('https://mydomain.com/MyDataService')
-                            .toPromise();
-                    }
-                })
-            })
-        }
-    }
-    @NgModule({
-         imports: [
-             // ...
-             DxTagBoxModule,
-             HttpClientModule
-         ],
-         // ...
-     })
-
-    <!--HTML-->
-    <dx-tag-box
-        [dataSource]="tagBoxData">
-    </dx-tag-box>
-
----
+#include common-code-customsource-rawmode-withkey
 
 [note]We recommend not using this mode with large amounts of data because all data is loaded at once.
 
@@ -226,6 +170,152 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
     <dx-tag-box
         [dataSource]="tagBoxData">
     </dx-tag-box>
+
+#####Vue
+
+    <!--JavaScript-->
+    import DxTagBox from "devextreme-vue/ui/tag-box";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const tagBoxDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                    "skip",     
+                    "take",  
+                    "sort", 
+                    "filter", 
+                    "searchExpr",
+                    "searchOperation",
+                    "searchValue",
+                    "group", 
+                    "requireTotalCount"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return { 
+                            data: result.data,
+                            totalCount: result.totalCount
+                        }
+                    });
+            },
+            byKey: (key) => {
+                return fetch(`https://mydomain.com/MyDataService?id=${key}`)
+                        .then(handleErrors);
+            },
+            insert: (values) => {
+                return fetch("https://mydomain.com/MyDataService", {
+                    method: "POST",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            }
+        })
+    }
+    export default {
+        // ...
+        data() {
+            return {
+                dataSource: tagBoxDataSource
+            };
+        },
+        components: {
+            // ...
+            DxTagBox
+        }
+    }
+
+    <!--HTML-->
+    <dx-tag-box ... 
+        :data-source="dataSource" />
+
+#####React
+
+    <!--JavaScript-->
+    import TagBox from "devextreme-react/ui/tag-box";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok) 
+            throw Error(response.statusText);
+        return response;
+    }
+    const tagBoxDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                    "skip",     
+                    "take",  
+                    "sort", 
+                    "filter", 
+                    "searchExpr",
+                    "searchOperation",
+                    "searchValue",
+                    "group", 
+                    "requireTotalCount"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return { 
+                            data: result.data,
+                            totalCount: result.totalCount
+                        }
+                    });
+            },
+            byKey: (key) => {
+                return fetch(`https://mydomain.com/MyDataService?id=${key}`)
+                        .then(handleErrors);
+            },
+            insert: (values) => {
+                return fetch("https://mydomain.com/MyDataService", {
+                    method: "POST",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            }
+        })
+    }
+    class App extends Component {
+        render() {
+            return (
+                <TagBox ...
+                    dataSource={tagBoxDataSource}>
+                </TagBox>
+            );
+        }
+    }
+    export default App;
 
 ---
 

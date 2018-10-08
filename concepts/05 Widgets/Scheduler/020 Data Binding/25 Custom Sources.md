@@ -2,64 +2,7 @@ Access to a custom data source is configured using the [CustomStore](/Documentat
 
 You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the next example. 
 
----
-
-#####jQuery
-
-    <!--JavaScript-->$(function() {
-        $("#schedulerContainer").dxScheduler({
-            dataSource: new DevExpress.data.DataSource({
-                store: new DevExpress.data.CustomStore({
-                    loadMode: "raw",   
-                    load: function() {
-                        return $.getJSON('https://mydomain.com/MyDataService');
-                    }
-                }),
-                paginate: false
-            })
-        });
-    });
-    
-#####Angular
-
-    <!--TypeScript-->
-    import { ..., Inject } from "@angular/core";
-    import { HttpClient, HttpClientModule } from "@angular/common/http";
-    import { DxSchedulerModule } from "devextreme-angular";
-    import DataSource from "devextreme/data/data_source";
-    import CustomStore from "devextreme/data/custom_store";
-    import "rxjs/add/operator/toPromise";
-    // ...
-    export class AppComponent  {
-        schedulerDataSource: any = {};
-        constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            this.schedulerDataSource = new DataSource({
-                store: new CustomStore({
-                    loadMode: "raw",   
-                    load: () => {
-                        return httpClient.get('https://mydomain.com/MyDataService')
-                            .toPromise();
-                    }
-                }),
-                paginate: false
-            })
-        }
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxSchedulerModule,
-            HttpClientModule
-        ],
-        // ...
-    })
-
-    <!--HTML-->
-    <dx-scheduler
-        [dataSource]="schedulerDataSource">
-    </dx-scheduler>
-
----
+#include common-code-customsource-rawmode-pagingdisabled
 
 In the latter case, use the **CustomStore**'s **load** function to send data processing settings to the server. These settings are passed as a parameter to the **load** function. In case of the **Scheduler**, the only relevant setting is [filter](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#filter). It is passed when the **Scheduler**'s [remoteFiltering](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#remoteFiltering) option is set to **true**.
 
@@ -182,6 +125,148 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
         [dataSource]="schedulerDataSource"
         [remoteFiltering]="true">
     </dx-scheduler>
+
+#####Vue
+
+    <!--JavaScript-->
+    import DxScheduler from "devextreme-vue/ui/scheduler";
+    import CustomStore from "devextreme/data/custom_store";
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const schedulerDataSource = new DataSource({
+        store: new CustomStore({
+            load: (loadOptions) => {
+                let params = "?";
+                if("filter" in loadOptions && isNotEmpty(loadOptions["filter"])) 
+                    params = params.set(i, JSON.stringify(loadOptions[i]));
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        // Here, you can perform operations unsupported by the server
+                        // or any other operations on the retrieved data
+                        return result.data;
+                    });
+            },
+            insert: (values) => {
+                return fetch("https://mydomain.com/MyDataService", {
+                    method: "POST",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            },
+            remove: (key) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "DELETE"
+                }).then(handleErrors);
+            },
+            update: (key, values) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "PUT",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            }
+        }),
+        paginate: false
+    })
+    export default {
+        // ...
+        data() {
+            return {
+                dataSource: schedulerDataSource
+            };
+        },
+        components: {
+            // ...
+            DxScheduler
+        }
+    }
+
+    <!--HTML-->
+    <dx-scheduler ... 
+        :data-source="dataSource" />
+
+#####React
+
+    <!--JavaScript-->
+    import Scheduler from "devextreme-react/ui/scheduler";
+    import CustomStore from "devextreme/data/custom_store";
+    import DataSource from "devextreme/data/data_source";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok) 
+            throw Error(response.statusText);
+        return response;
+    }
+    const schedulerDataSource = {
+        store: new CustomStore({
+            load: (loadOptions) => {
+                let params = "?";
+                if("filter" in loadOptions && isNotEmpty(loadOptions["filter"])) 
+                    params = params.set(i, JSON.stringify(loadOptions[i]));
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        // Here, you can perform operations unsupported by the server
+                        // or any other operations on the retrieved data
+                        return result.data;
+                    });
+            },
+            insert: (values) => {
+                return fetch("https://mydomain.com/MyDataService", {
+                    method: "POST",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            },
+            remove: (key) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "DELETE"
+                }).then(handleErrors);
+            },
+            update: (key, values) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "PUT",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            },
+            paginate: false
+        })
+    }
+    class App extends Component {
+        render() {
+            return (
+                <Scheduler ...
+                    dataSource={schedulerDataSource}>
+                </Scheduler>
+            );
+        }
+    }
+    export default App;
 
 ---
 

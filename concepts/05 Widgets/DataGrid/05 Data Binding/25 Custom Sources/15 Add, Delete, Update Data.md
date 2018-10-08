@@ -40,6 +40,51 @@ To allow a user to add, delete and update data in the **DataGrid**, assign **tru
         // ...
     })
 
+#####Vue
+
+    <!--HTML-->
+    <dx-data-grid ... >
+        <dx-editing
+            :allow-adding="true"
+            :allow-updating="true"
+            :allow-deleting="true" />
+    </dx-data-grid>
+
+    <!--JavaScript-->
+    import { DxDataGrid, DxEditing } from "devextreme-vue/ui/data-grid";
+    export default {
+        // ...
+        data() {
+            return {
+                // ...
+            };
+        },
+        components: {
+            // ...
+            DxDataGrid,
+            DxEditing
+        }
+    }
+
+#####React
+
+    <!--JavaScript-->
+    import DataGrid, { Editing } from "devextreme-react/ui/data-grid";
+    // ...
+    class App extends Component {
+        render() {
+            return (
+                <DataGrid ... >
+                    <Editing
+                        allowAdding={true}
+                        allowDeleting={true}
+                        allowUpdating={true} />
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
+
 ---
 
 With these settings, the **DataGrid** expects that the server can also add, update and delete data. In addition, you need to configure the **CustomStore** as shown below. Note that in this example, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the **DataSource** configuration object to shorten the example.
@@ -53,22 +98,22 @@ With these settings, the **DataGrid** expects that the server can also add, upda
         // ...
         insert: function (values) {
             return $.ajax({
-                url: "http://mydomain.com/MyDataService/",
+                url: "https://mydomain.com/MyDataService/",
                 method: "POST",
-                data: values
+                data: JSON.stringify(values)
             })
         },
         remove: function (key) {
             return $.ajax({
-                url: "http://mydomain.com/MyDataService/" + encodeURIComponent(key),
+                url: "https://mydomain.com/MyDataService/" + encodeURIComponent(key),
                 method: "DELETE",
             })
         },
         update: function (key, values) {
             return $.ajax({
-                url: "http://mydomain.com/MyDataService/" + encodeURIComponent(key),
+                url: "https://mydomain.com/MyDataService/" + encodeURIComponent(key),
                 method: "PUT",
-                data: values
+                data: JSON.stringify(values)
             })
         }
     });
@@ -96,15 +141,15 @@ With these settings, the **DataGrid** expects that the server can also add, upda
             this.gridDataSource = new DataSource({
                 // ...
                 insert: function (values) {
-                    return httpClient.post('http://mydomain.com/MyDataService', values)
+                    return httpClient.post('https://mydomain.com/MyDataService', JSON.stringify(values))
                         .toPromise();
                 },
                 remove: function (key) {
-                    return httpClient.delete('http://mydomain.com/MyDataService' + encodeURIComponent(key))
+                    return httpClient.delete('https://mydomain.com/MyDataService/' + encodeURIComponent(key))
                         .toPromise();
                 },
                 update: function (key, values) {
-                    return httpClient.put('http://mydomain.com/MyDataService' + encodeURIComponent(key), values)
+                    return httpClient.put('https://mydomain.com/MyDataService/' + encodeURIComponent(key), JSON.stringify(values))
                         .toPromise();
                 }
             });
@@ -122,6 +167,112 @@ With these settings, the **DataGrid** expects that the server can also add, upda
     <!--HTML--><dx-data-grid ...
         [dataSource]="gridDataSource">
     </dx-data-grid>
+
+#####Vue
+
+    <!--JavaScript-->
+    import DxDataGrid from "devextreme-vue/ui/data-grid";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const gridDataSource = {
+        store: new CustomStore({
+            // ...
+            insert: (values) => {
+                return fetch("https://mydomain.com/MyDataService", {
+                    method: "POST",
+                    body: JSON.stringify(values),
+                    headers:{
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            },
+            remove: (key) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "DELETE"
+                }).then(handleErrors);
+            },
+            update: (key, values) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "PUT",
+                    body: JSON.stringify(values),
+                    headers:{
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            }
+        })
+    }
+    export default {
+        // ...
+        data() {
+            return {
+                dataSource: gridDataSource
+            };
+        },
+        components: {
+            // ...
+            DxDataGrid
+        }
+    }
+
+    <!--HTML-->
+    <dx-data-grid ... 
+        :data-source="dataSource" />
+
+#####React
+
+    <!--JavaScript-->
+    import DataGrid from "devextreme-react/ui/data-grid";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const gridDataSource = {
+        store: new CustomStore({
+            // ...
+            insert: (values) => {
+                return fetch("https://mydomain.com/MyDataService", {
+                    method: "POST",
+                    body: JSON.stringify(values),
+                    headers:{
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            },
+            remove: (key) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "DELETE"
+                }).then(handleErrors);
+            },
+            update: (key, values) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "PUT",
+                    body: JSON.stringify(values),
+                    headers:{
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            }
+        })
+    }
+    class App extends Component {
+        render() {
+            return (
+                <DataGrid ...
+                    dataSource={gridDataSource}>
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
 
 ---
 

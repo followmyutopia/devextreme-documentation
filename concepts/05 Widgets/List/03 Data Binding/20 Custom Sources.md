@@ -2,61 +2,7 @@
 
 You need to configure the **CustomStore** in detail for accessing a server built on another technology. Data in this situation can be processed on the client or server. In the former case, switch the **CustomStore** to the raw mode and load all data from the server in the [load](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#load) function as shown in the following example: 
 
----
-#####jQuery
-
-    <!--JavaScript-->$(function() {
-        $("#listContainer").dxList({
-            dataSource: new DevExpress.data.DataSource({
-                store: new DevExpress.data.CustomStore({
-                    loadMode: "raw",   
-                    load: function() {
-                        return $.getJSON('https://mydomain.com/MyDataService');
-                    }
-                })
-            })
-        });
-    });
-
-#####Angular
-
-    <!--TypeScript-->
-    import { ..., Inject } from "@angular/core";
-    import { HttpClient, HttpClientModule } from "@angular/common/http";
-    import { DxListModule } from "devextreme-angular";
-    import DataSource from "devextreme/data/data_source";
-    import CustomStore from "devextreme/data/custom_store";
-    import "rxjs/add/operator/toPromise";
-    // ...
-    export class AppComponent  {
-        listDataSource: any = {};
-        constructor(@Inject(HttpClient) httpClient: HttpClient) {
-            this.listDataSource = new DataSource({
-                store: new CustomStore({
-                    loadMode: "raw",   
-                    load: () => {
-                        return httpClient.get('https://mydomain.com/MyDataService')
-                            .toPromise();
-                    }
-                })
-            })
-        }
-    }
-    @NgModule({
-        imports: [
-            // ...
-            DxListModule,
-            HttpClientModule
-        ],
-        // ...
-    })
-
-    <!--HTML-->
-    <dx-list
-        [dataSource]="listDataSource">
-    </dx-list>
-
----
+#include common-code-customsource-rawmode-withkey
 
 [note]We advise against using this mode with large amounts of data because all data is loaded at once.
 
@@ -104,6 +50,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
     <!--JavaScript-->$(function() {
         $("#listContainer").dxList({
             dataSource: new DevExpress.data.DataSource({
+                key: "ID",
                 load: function(loadOptions) {
                     var d = $.Deferred(),
                         params = {};
@@ -161,6 +108,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
             }
             this.listDataSource = new DataSource({
                 store: new CustomStore({
+                    key: "ID",
                     load: (loadOptions) => {
                         let params: HttpParams = new HttpParams();
                         [
@@ -208,6 +156,136 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
     <dx-list
         [dataSource]="listDataSource">
     </dx-list>
+
+#####Vue
+
+    <!--JavaScript-->
+    import DxList from "devextreme-vue/ui/list";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const listDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                    "skip",     
+                    "take",  
+                    "sort", 
+                    "filter", 
+                    "searchExpr",
+                    "searchOperation",
+                    "searchValue",
+                    "group", 
+                    "requireTotalCount"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return { 
+                            data: result.data,
+                            totalCount: result.totalCount
+                        }
+                    });
+            },
+            remove: (key) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "DELETE"
+                }).then(handleErrors);
+            }
+        })
+    }
+    export default {
+        // ...
+        data() {
+            return {
+                dataSource: listDataSource
+            };
+        },
+        components: {
+            // ...
+            DxList
+        }
+    }
+
+    <!--HTML-->
+    <dx-list ... 
+        :data-source="dataSource" />
+
+#####React
+
+    <!--JavaScript-->
+    import List from "devextreme-react/ui/list";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok) 
+            throw Error(response.statusText);
+        return response;
+    }
+    const listDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                    "skip",     
+                    "take",  
+                    "sort", 
+                    "filter", 
+                    "searchExpr",
+                    "searchOperation",
+                    "searchValue",
+                    "group", 
+                    "requireTotalCount"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return { 
+                            data: result.data,
+                            totalCount: result.totalCount
+                        }
+                    });
+            },
+            remove: (key) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "DELETE"
+                }).then(handleErrors);
+            }
+        })
+    }
+    class App extends Component {
+        render() {
+            return (
+                <List ...
+                    dataSource={listDataSource}>
+                </List>
+            );
+        }
+    }
+    export default App;
 
 ---
 

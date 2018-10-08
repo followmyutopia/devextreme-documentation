@@ -39,6 +39,51 @@ To allow a user to add, delete and update data in the **TreeList**, assign **tru
         // ...
     })
 
+#####Vue
+
+    <!--HTML-->
+    <dx-tree-list ... >
+        <dx-editing
+            :allow-adding="true"
+            :allow-updating="true"
+            :allow-deleting="true" />
+    </dx-tree-list>
+
+    <!--JavaScript-->
+    import { DxTreeList, DxEditing } from "devextreme-vue/ui/tree-list";
+    export default {
+        // ...
+        data() {
+            return {
+                // ...
+            };
+        },
+        components: {
+            // ...
+            DxTreeList,
+            DxEditing
+        }
+    }
+
+#####React
+
+    <!--JavaScript-->
+    import TreeList, { Editing } from "devextreme-react/ui/tree-list";
+    // ...
+    class App extends Component {
+        render() {
+            return (
+                <TreeList ... >
+                    <Editing
+                        allowAdding={true}
+                        allowDeleting={true}
+                        allowUpdating={true} />
+                </TreeList>
+            );
+        }
+    }
+    export default App;
+
 ---
 
 With these settings, the **TreeList** expects that the server can also add, update and delete data. In addition, you need to configure the **CustomStore** as shown below. Note that in this example, the **CustomStore** is not declared explicitly. Instead, **CustomStore** operations are implemented directly in the **DataSource** configuration object to shorten the example.
@@ -120,6 +165,112 @@ With these settings, the **TreeList** expects that the server can also add, upda
     <!--HTML--><dx-tree-list ...
         [dataSource]="treeListDataSource">
     </dx-tree-list>
+
+#####Vue
+
+    <!--JavaScript-->
+    import DxTreeList from "devextreme-vue/ui/tree-list";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const treeListDataSource = {
+        store: new CustomStore({
+            // ...
+            insert: (values) => {
+                return fetch("https://mydomain.com/MyDataService", {
+                    method: "POST",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            },
+            remove: (key) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "DELETE"
+                }).then(handleErrors);
+            },
+            update: (key, values) => {
+                return fetch(`https://mydomain.com/MyDataService/${encodeURIComponent(key)}`, {
+                    method: "PUT",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            }
+        })
+    }
+    export default {
+        // ...
+        data() {
+            return {
+                dataSource: treeListDataSource
+            };
+        },
+        components: {
+            // ...
+            DxTreeList
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ... 
+        :data-source="dataSource" />
+
+#####React
+
+    <!--JavaScript-->
+    import TreeList from 'devextreme-react/ui/tree-list';
+    import CustomStore from 'devextreme/data/custom_store';
+    // ...
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const treeListDataSource = {
+        store: new CustomStore({
+            // ...
+            insert: (values) => {
+                return fetch("https://mydomain.com/MyDataService", {
+                    method: "POST",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            },
+            remove: (key) => {
+                return fetch(`https://mydomain.com/MyDataService/${ encodeURIComponent(key)}`, {
+                    method: "DELETE"
+                }).then(handleErrors);
+            },
+            update: (key, values) => {
+                return fetch(`https://mydomain.com/MyDataService/${ encodeURIComponent(key)}`, {
+                    method: "PUT",
+                    body: JSON.stringify(values),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then(handleErrors);
+            }
+        })
+    }
+    class App extends Component {
+        render() {
+            return (
+                <TreeList ...
+                    dataSource={treeListDataSource}>
+                </TreeList>
+            );
+        }
+    }
+    export default App;
 
 ---
 

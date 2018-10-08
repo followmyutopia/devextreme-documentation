@@ -123,4 +123,118 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
         </dxo-remote-operations>
     </dx-tree-list>
 
+#####Vue
+
+    <!--JavaScript-->
+    import DxTreeList from "devextreme-vue/ui/tree-list";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok)
+            throw Error(response.statusText);
+        return response;
+    }
+    const treeListDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                    "sort", 
+                    "filter", 
+                    "group", 
+                    "perentIds"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://domain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return result.data;
+                    });
+            }
+        })
+    }
+    export default {
+        // ...
+        data() {
+            return {
+                dataSource: treeListDataSource,
+                remoteOperations: { 
+                    filtering: true,
+                    sorting: true,
+                    grouping: true
+                }
+            };
+        },
+        components: {
+            // ...
+            DxTreeList
+        }
+    }
+
+    <!--HTML-->
+    <dx-tree-list ... 
+        :data-source="dataSource"
+        :remote-operations="remoteOperations" />
+
+#####React
+
+    <!--JavaScript-->
+    import TreeList, { RemoteOperations } from "devextreme-react/ui/tree-list";
+    import CustomStore from "devextreme/data/custom_store";
+    // ...
+    function isNotEmpty(value) {
+        return value !== undefined && value !== null && value !== "";
+    }
+    function handleErrors(response) {
+        if (!response.ok) 
+            throw Error(response.statusText);
+        return response;
+    }
+    const treeListDataSource = {
+        store: new CustomStore({
+            key: "ID",
+            load: (loadOptions) => {
+                let params = "?";
+                [
+                    "sort", 
+                    "filter", 
+                    "group",
+                    "parentIds"
+                ].forEach(function(i) {
+                    if(i in loadOptions && isNotEmpty(loadOptions[i])) 
+                        params += `${i}=${JSON.stringify(loadOptions[i])}&`;
+                });
+                params = params.slice(0, -1);
+                return fetch(`https://mydomain.com/MyDataService${params}`)
+                    .then(handleErrors)
+                    .then(response => response.json())
+                    .then((result) => {
+                        return result.data;
+                    });
+            }
+        })
+    }
+    class App extends Component {
+        render() {
+            return (
+                <TreeList ...
+                    dataSource={treeListDataSource}>
+                    <RemoteOperations
+                        filtering={true}
+                        sorting={true}
+                        grouping={true} />
+                </TreeList>
+            );
+        }
+    }
+    export default App;
+
 ---
