@@ -12,9 +12,7 @@ A function that is executed after selecting a row or clearing its selection.
 This function has the following specifics:
 
 - If a field providing key values is not specified in the data source, the whole data object is considered the key. In this case, all arrays passed to the function contain data objects instead of keys.
-- When selection is [deferred]({basewidgetpath}/Configuration/selection/#deferred), this function does not provide access to keys and data.
-
-Call the [byKey(key)]({basewidgetpath}/Methods/#byKeykey) method to retrieve data.
+- When selection is [deferred]({basewidgetpath}/Configuration/selection/#deferred), this function does not provide access to keys and data. Use the [getSelectedRowsData()]({basewidgetpath}/Methods/#getSelectedRowsData) or [getSelectedRowKeys()]({basewidgetpath}/Methods/#getSelectedRowKeys) method instead.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Data_Grid/RowSelection/jQuery/Light/"
