@@ -2,7 +2,7 @@
 ===================================================================
 
 <!--shortDescription-->
-Reloads data in the widget.
+Reloads data and repaints the widget.
 <!--/shortDescription-->
 
 <!--returnType-->Promise<void><!--/returnType-->
@@ -11,10 +11,11 @@ A Promise that is resolved after data is loaded. It is a [native Promise](https:
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The widget cannot track changes made in the data source by a third party. To bring data in the widget up to date in this case, call this method. [Data sources]({basewidgetpath}/Configuration/columns/lookup/#dataSource) of lookup columns will be updated along with the main data source.
+The widget cannot track changes a third party makes in the data source. To update data in the widget in this case, call this method. [Data sources]({basewidgetpath}/Configuration/columns/lookup/#dataSource) of lookup columns are updated with the main data source.
 
-[note] Calling the **refresh()** method ends the editing process. In *batch* [editing mode]({basewidgetpath}/Configuration/editing/#mode), changes are saved in a buffer waiting to be saved in the data source. In other modes, all unsaved changes vanish.
+[note] Calling the **refresh()** method ends the editing process. In *batch* [editing mode]({basewidgetpath}/Configuration/editing/#mode), changes are saved in a buffer before they are saved to the data source. In other modes, all unsaved changes are discarded. 
 
-#####See Also#####
+###See Also#####
+- [refresh(changesOnly)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#refreshchangesOnly)
 #include common-link-callmethods
 <!--/fullDescription-->

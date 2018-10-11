@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies whether to recalculate summaries while a user edits data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
