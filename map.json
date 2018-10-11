@@ -4,12 +4,17 @@
     "GridBaseColumn",
     "dxDataGridColumn",
     "dxTreeListColumn",
+    "GridBaseColumnButton",
+    "dxDataGridColumnButton",
+    "dxTreeListColumnButton",
     "dxFilterBuilderCustomOperation",
     "dxHtmlEditorToolbar",
     "dxHtmlEditorDataPlaceholder",
     "dxHtmlEditorToolbarItem",
     "chartPointAggregationInfoObject",
     "dxSankeyConnectionInfoObject",
+    "dxRecurrenceEditor",
+    "dxRecurrenceEditor/*",
     "DOMComponent/Options/bindingOptions",
     "dxElement",
     "animationSets",
@@ -128,6 +133,10 @@
     "dxDataGrid": {
       "1 Configuration": {
         "columns": {
+          "buttons": {
+            "buttons.md": "dxDataGridColumn/buttons",
+            "$Object": "dxDataGridColumnButton"
+          },
           "columns.md": "dxDataGrid/Options/columns",
           "$Object": "dxDataGridColumn"
         }
@@ -503,6 +512,10 @@
     "dxTreeList": {
       "1 Configuration": {
         "columns": {
+          "buttons": {
+            "buttons.md": "dxTreeListColumn/buttons",
+            "$Object": "dxTreeListColumnButton"
+          },
           "columns.md": "dxTreeList/Options/columns",
           "$Object": "dxTreeListColumn"
         }
@@ -600,6 +613,9 @@
     "GridBase": {
       "1 Configuration": {
         "columns": {
+          "buttons": {
+            "$Object": "GridBaseColumnButton"
+          },
           "columns.md": "GridBase/Options/columns",
           "$Object": "GridBaseColumn"
         }
