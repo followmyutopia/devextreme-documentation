@@ -19,7 +19,15 @@
     "dxElement",
     "animationSets",
     "devices",
-    "layoutSets"
+    "layoutSets",
+
+    "XlsxCell",
+    "XlsxCell/*",
+    "XlsxColor",
+    "XlsxColor/*",
+    "XlsxGridCell",
+    "XlsxGridCell/*",
+    "dxDataGrid/Options/onXlsxCellPrepared"
   ],
 
   "10 UI Widgets": {
