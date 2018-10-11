@@ -100,3 +100,8 @@ Indicates whether the row is expanded or collapsed. Available if **rowType** is 
 <!--typeFunctionParamDescription1_field16-->
 The cell's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field16-->
+<!--typeFunctionParamName1_field17-->watch<!--/typeFunctionParamName1_field17-->
+<!--typeFunctionParamType1_field17-->function()<!--/typeFunctionParamType1_field17-->
+<!--typeFunctionParamDescription1_field17-->
+
+<!--/typeFunctionParamDescription1_field17-->
