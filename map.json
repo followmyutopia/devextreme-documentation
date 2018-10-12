@@ -384,7 +384,7 @@
     },
 
     "dxHtmlEditor": {
-      "1 Cofiguration": {
+      "1 Configuration": {
           "dataPlaceholder": {
               "dataPlaceholder.md": "dxHtmlEditor/Options/dataPlaceholder",
               "$Object": "dxHtmlEditorDataPlaceholder"
