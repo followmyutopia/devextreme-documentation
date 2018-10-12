@@ -1,3 +1,4 @@
+<!--dep-->zoomAndPan\zoomAndPan.md<!--/dep-->
 ===========================================================================
 <!--default-->'none'<!--/default-->
 <!--acceptValues-->'all' | 'mouse' | 'none' | 'touch'<!--/acceptValues-->
