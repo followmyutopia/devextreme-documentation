@@ -622,6 +622,7 @@
       "1 Configuration": {
         "columns": {
           "buttons": {
+            "buttons.md": "GridBaseColumnButton",
             "$Object": "GridBaseColumnButton"
           },
           "columns.md": "GridBase/Options/columns",
