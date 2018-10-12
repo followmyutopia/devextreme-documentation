@@ -9,7 +9,7 @@
     "dxFilterBuilderCustomOperation",
     "dxHtmlEditorToolbar",
     "dxHtmlEditorDataPlaceholder",
-    "dxHtmlEditorToolbarItem",
+    "dxHtmlEditorToolbar/items",
     "chartPointAggregationInfoObject",
     "dxSankeyConnectionInfoObject",
     "dxRecurrenceEditor",
@@ -391,7 +391,7 @@
           }, 
           "toolbar": {
             "items": {
-                "items.md": "dxHtmlEditorToolbar/items",
+                "items.md": "dxHtmlEditorToolbarItem",
                 "$Object": "dxHtmlEditorToolbarItem"
             },
             "toolbar.md": "dxHtmlEditor/Options/toolbar",
