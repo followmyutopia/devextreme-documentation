@@ -22,11 +22,11 @@ This method allows you to pass changes received from a push server to the store 
         // {WidgetName} is configured here
     });
  
-    store.push([{ type: "insert", data: Any }]);
+    store.push([{ type: "insert", data: any }]);
     // or
-    // store.push([{ type: "update", data: Any, key: Any }]);
+    // store.push([{ type: "update", data: any, key: any }]);
     // or 
-    // store.push([{ type: "remove", key: Any }]);
+    // store.push([{ type: "remove", key: any }]);
 
 #####Angular
 
@@ -39,11 +39,11 @@ This method allows you to pass changes received from a push server to the store 
             this.store = new {WidgetName}({
                 // {WidgetName} is configured here
             });
-            this.store.push([{ type: "insert", data: Any }]);
+            this.store.push([{ type: "insert", data: any }]);
             // or
-            // this.store.push([{ type: "update", data: Any, key: Any }]);
+            // this.store.push([{ type: "update", data: any, key: any }]);
             // or
-            // this.store.push([{ type: "remove", key: Any }]);
+            // this.store.push([{ type: "remove", key: any }]);
         };
     }
 

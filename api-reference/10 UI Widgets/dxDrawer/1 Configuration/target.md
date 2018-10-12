@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The target element associated with the drawer. Applies only when the [openedStateMode](/Documentation/ApiReference/UI_Widgets/dxDrawer/Configuration/#openedStateMode) is *"overlap"*.
+Specifies the target element associated with the drawer. Applies only when the [openedStateMode](/Documentation/ApiReference/UI_Widgets/dxDrawer/Configuration/#openedStateMode) is *"overlap"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
