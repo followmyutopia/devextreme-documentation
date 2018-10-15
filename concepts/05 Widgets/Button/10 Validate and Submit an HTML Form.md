@@ -74,6 +74,40 @@ Commonly, editors nested into an HTML form are supposed to be validated on the c
         // ...
     })
 
+##### Vue
+
+    <!--HTML-->
+    <form action="/Login" method="post">
+        <dx-text-box name="Login">
+            <dx-validator>
+                <dx-validation-rule type="required" />
+            </dx-validator>
+        </dx-text-box>
+        <dx-text-box name="Password" mode="password">
+            <dx-validator>
+                <dx-validation-rule type="required" />
+            </dx-validator>
+        </dx-text-box>
+        <dx-button
+            text="Submit"
+            type="success"
+            :use-submit-behavior="true" />
+    </form>
+
+    <!--TypeScript-->
+    import DxTextBox from "devextreme-vue/ui/text-box";
+    import DxValidator, { DxValidationRule } from "devextreme-vue/ui/validator";
+    import DxButton from "devextreme-vue/ui/button";
+
+    export default {
+        components: {
+            DxTextBox,
+            DxValidator,
+            DxValidationRule,
+            DxButton
+        }
+    }
+
 ---
 
 Note that the [name](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#name) option of the **TextBox** widgets in the previous code specifies the [name](http://www.w3schools.com/tags/att_input_name.asp) attribute of the underlying `<input>` element.

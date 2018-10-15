@@ -104,6 +104,27 @@ The **Button** widget is a simple button that performs specified commands when a
         }
     </script>
 
+##### Vue
+
+    <!--HTML-->
+    <dx-button
+        text="Click me"
+        @click="buttonClicked" />
+
+    <!--TypeScript-->
+    import DxButton from "devextreme-vue/ui/button";
+
+    export default {
+        components: {
+            DxButton
+        },
+        methods: {
+            buttonClicked: function() {
+                alert("The Button was clicked");
+            }
+        }
+    }
+
 ---
 
 #include common-demobutton with {

@@ -45,6 +45,28 @@ The following code adds a simple **Button** to your page.
         // ...
     })
 
+##### Vue
+
+    <!--HTML-->
+    <dx-button
+        text="Click me"
+        @click="okClicked" />
+
+    <!--TypeScript-->
+    import DxButton from "devextreme-vue/ui/button";
+    import notify from "devextreme/ui/notify";
+
+    export default {
+        components: {
+            DxButton
+        },
+        methods: {
+            okClicked: function(e) {
+                notify("The OK button was clicked");
+            }
+        }
+    }
+
 ---
 
 In the previous code, the [click](/Documentation/ApiReference/UI_Widgets/dxButton/Events/#click) event is handled using the [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) option. Alternatively, you can attach one or several handlers to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.

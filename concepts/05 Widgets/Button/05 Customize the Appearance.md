@@ -5,7 +5,7 @@ The **Button** widget provides five predefined appearances controlled by the [ty
 
     <!--JavaScript-->$(function() {
         $("#buttonContainer").dxButton({
-            type: "danger", // or "normal" | "back" | "danger" | "success"
+            type: "default", // or "normal" | "back" | "danger" | "success"
             text: "Delete",
             onClick: function (e) {
                 // ...
@@ -19,7 +19,7 @@ The **Button** widget provides five predefined appearances controlled by the [ty
     <dx-button
         text="Delete"
         (onClick)="foo($event)"
-        type="danger"> <!-- or "normal" | "back" | "danger" | "success" -->
+        type="default"> <!-- or "normal" | "back" | "danger" | "success" -->
     </dx-button>
 
     <!--TypeScript-->
@@ -37,6 +37,28 @@ The **Button** widget provides five predefined appearances controlled by the [ty
         ],
         // ...
     })
+
+##### Vue
+
+    <!--HTML-->
+    <dx-button
+        text="Click me"
+        @click="foo"
+        type="default" /> <!-- or "normal" | "back" | "danger" | "success" -->
+
+    <!--TypeScript-->
+    import DxButton from "devextreme-vue/ui/button";
+
+    export default {
+        components: {
+            DxButton
+        },
+        methods: {
+            foo: function(e) {
+                // ...
+            }
+        }
+    }
 
 ---
 
@@ -85,6 +107,29 @@ Apart from plain text, the **Button** can display an icon. DevExtreme provides [
         ],
         // ...
     })
+
+##### Vue
+
+    <!--HTML-->
+    <dx-button
+        text="Delete"
+        @click="foo"
+        type="danger"
+        icon="remove" />
+
+    <!--TypeScript-->
+    import DxButton from "devextreme-vue/ui/button";
+
+    export default {
+        components: {
+            DxButton
+        },
+        methods: {
+            foo: function(e) {
+                // ...
+            }
+        }
+    }
 
 ---
 
@@ -137,6 +182,35 @@ If you need to define the **Button** content completely, implement a template fo
         ],
         // ...
     })
+
+##### Vue
+
+    <!--HTML-->
+    <dx-button
+        text="Refresh"
+        @click="foo"
+        template="buttonTemplate">
+        <i
+            slot="buttonTemplate"
+            slot-scope="buttonData"
+            style="color: green">
+            {{ buttonData.text }}
+        </i>
+    </dx-button>
+
+    <!--TypeScript-->
+    import DxButton from "devextreme-vue/ui/button";
+
+    export default {
+        components: {
+            DxButton
+        },
+        methods: {
+            foo: function(e) {
+                // ...
+            }
+        }
+    }
 
 ---
     

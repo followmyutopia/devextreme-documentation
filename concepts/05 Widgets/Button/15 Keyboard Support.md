@@ -59,6 +59,41 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
         // ...
     })
 
+##### Vue
+
+    <!--HTML-->
+    <dx-button
+        :ref="myButtonRef" />
+
+    <!--TypeScript-->
+    import DxButton from "devextreme-vue/ui/button";
+
+    const myButtonRef = "my-button";
+
+    export default {
+        components: {
+            DxButton
+        },
+        data() {
+            return {
+                myButtonRef
+            }
+        },
+        computed: {
+            button: function() {
+                return this.$refs[myButtonRef].instance;
+            }
+        },
+        mounted: function() {
+            this.button.registerKeyHandler("backspace", function(e) {
+                // The argument "e" contains information on the event
+            });
+            this.button.registerKeyHandler("space", function(e) {
+                // ...
+            });
+        }
+    }
+
 ---
 
 #####See Also#####
