@@ -112,6 +112,15 @@
       }
     },
 
+    "dxButtonGroup": {
+      "$Widget": "dxButtonGroup",
+
+      "5 Default Item Template": {
+        "Default Item Template.md": "dxButtonGroupItem",
+        "$Widget": "dxButtonGroupItem"
+      }
+    },
+
     "dxCalendar": {
       "$Widget": "dxCalendar",
 
