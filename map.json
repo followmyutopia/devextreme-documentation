@@ -4,11 +4,11 @@
     "GridBaseColumn",
     "dxDataGridColumn",
     "dxTreeListColumn",
-    "dxDataGridColumnButton",
-    "dxTreeListColumnButton",
+    "dxDataGridColumn/buttons",
+    "dxTreeListColumn/buttons",
     "dxFilterBuilderCustomOperation",
-    "dxHtmlEditorToolbar",
-    "dxHtmlEditorDataPlaceholder",
+    "dxHtmlEditor/Options/toolbar",
+    "dxHtmlEditor/Options/variables",
     "dxHtmlEditorToolbar/items",
     "chartPointAggregationInfoObject",
     "dxSankeyConnectionInfoObject",
@@ -150,7 +150,7 @@
       "1 Configuration": {
         "columns": {
           "buttons": {
-            "buttons.md": "dxDataGridColumn/buttons",
+            "buttons.md": "dxDataGridColumnButton",
             "$Object": "dxDataGridColumnButton"
           },
           "columns.md": "dxDataGrid/Options/columns",
@@ -394,16 +394,16 @@
 
     "dxHtmlEditor": {
       "1 Configuration": {
-          "dataPlaceholder": {
-              "dataPlaceholder.md": "dxHtmlEditor/Options/dataPlaceholder",
-              "$Object": "dxHtmlEditorDataPlaceholder"
+          "variables": {
+              "variables.md": "dxHtmlEditorVariables",
+              "$Object": "dxHtmlEditorVariables"
           }, 
           "toolbar": {
             "items": {
                 "items.md": "dxHtmlEditorToolbarItem",
                 "$Object": "dxHtmlEditorToolbarItem"
             },
-            "toolbar.md": "dxHtmlEditor/Options/toolbar",
+            "toolbar.md": "dxHtmlEditorToolbar",
             "$Object": "dxHtmlEditorToolbar"
           }
       },
@@ -529,7 +529,7 @@
       "1 Configuration": {
         "columns": {
           "buttons": {
-            "buttons.md": "dxTreeListColumn/buttons",
+            "buttons.md": "dxTreeListColumnButton",
             "$Object": "dxTreeListColumnButton"
           },
           "columns.md": "dxTreeList/Options/columns",
