@@ -1,7 +1,5 @@
 ===========================================================================
-<!--default-->'html'<!--/default-->
-<!--acceptValues-->'html' | 'markdown'<!--/acceptValues-->
-<!--type-->String<!--/type-->
+<!--type-->Array<String, Number, Boolean><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -1,7 +1,6 @@
 ===========================================================================
-<!--default-->'html'<!--/default-->
-<!--acceptValues-->'html' | 'markdown'<!--/acceptValues-->
-<!--type-->String<!--/type-->
+<!--default-->null<!--/default-->
+<!--type-->dxHtmlEditorVariables<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
