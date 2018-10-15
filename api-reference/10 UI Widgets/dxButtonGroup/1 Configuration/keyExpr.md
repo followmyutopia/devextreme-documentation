@@ -1,7 +1,6 @@
 ===========================================================================
-<!--default-->-1<!--/default-->
-<!--type-->Number<!--/type-->
-<!--firedEvents-->focusedRowChanged<!--/firedEvents-->
+<!--default-->'text'<!--/default-->
+<!--type-->String | function()<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

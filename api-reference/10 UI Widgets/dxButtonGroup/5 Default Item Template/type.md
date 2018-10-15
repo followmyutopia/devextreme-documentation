@@ -1,7 +1,7 @@
 ===========================================================================
-<!--default-->-1<!--/default-->
-<!--type-->Number<!--/type-->
-<!--firedEvents-->focusedRowChanged<!--/firedEvents-->
+<!--default-->'normal'<!--/default-->
+<!--acceptValues-->'back' | 'danger' | 'default' | 'normal' | 'success'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

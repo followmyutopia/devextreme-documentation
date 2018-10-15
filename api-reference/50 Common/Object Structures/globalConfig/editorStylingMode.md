@@ -1,7 +1,7 @@
 ===========================================================================
-<!--default-->-1<!--/default-->
-<!--type-->Number<!--/type-->
-<!--firedEvents-->focusedRowChanged<!--/firedEvents-->
+<!--default-->undefined<!--/default-->
+<!--acceptValues-->'outlined' | 'underlined' | 'filled'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

@@ -1,7 +1,7 @@
 ===========================================================================
-<!--default-->-1<!--/default-->
-<!--type-->Number<!--/type-->
-<!--firedEvents-->focusedRowChanged<!--/firedEvents-->
+<!--default-->'single'<!--/default-->
+<!--acceptValues-->'multiple' | 'single'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

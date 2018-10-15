@@ -1,7 +1,6 @@
 ===========================================================================
-<!--default-->-1<!--/default-->
-<!--type-->Number<!--/type-->
-<!--firedEvents-->focusedRowChanged<!--/firedEvents-->
+<!--type-->Object<!--/type-->
+<!--inherits-->..\..\CollectionWidget\5 Default Item Template\Default Item Template.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

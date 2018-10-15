@@ -1,7 +1,7 @@
 ===========================================================================
-<!--default-->-1<!--/default-->
-<!--type-->Number<!--/type-->
-<!--firedEvents-->focusedRowChanged<!--/firedEvents-->
+<!--module-->ui/button_group<!--/module-->
+<!--export-->default<!--/export-->
+<!--inherits-->..\Widget\Widget.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

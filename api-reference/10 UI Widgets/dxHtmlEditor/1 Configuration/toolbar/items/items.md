@@ -1,5 +1,5 @@
 ===========================================================================
-<!--type-->Array<dxHtmlEditorToolbarItem><!--/type-->
+<!--inherits-->..\..\..\..\dxToolbar\5 Default Item Template\Default Item Template.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
