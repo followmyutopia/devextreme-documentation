@@ -57,7 +57,7 @@ The cell's raw value.
 The cell's [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#format) value converted to a string.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->displayValue<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->any<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 The cell's displayed value. Differs from the **value** field only when the column to which the current cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
 <!--/typeFunctionParamDescription1_field9-->

@@ -60,7 +60,7 @@ For plain data, the key value depends on the [keyExpr](/Documentation/ApiReferen
 The cell's raw value. Available if the **rowType** is *"data"*.
 <!--/typeFunctionParamDescription1_field8-->
 <!--typeFunctionParamName1_field9-->displayValue<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->String<!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamType1_field9-->any<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 The cell's displayed value. Available if the **rowType** is *"data"*.      
 Differs from the **value** field only when the cell belongs to the [lookup](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/lookup/) column. 

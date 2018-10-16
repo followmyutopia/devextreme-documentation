@@ -53,7 +53,7 @@ If a field providing keys is not specified in the [data source](/Documentation/A
 The cell's raw value. 
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->displayValue<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->String<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->any<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 The cell's displayed value. Differs from the **value** field only when the column to which the prepared cell belongs uses [lookup](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/).
 <!--/typeFunctionParamDescription1_field7-->

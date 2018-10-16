@@ -1,11 +1,11 @@
 ===========================================================================
-<!--default-->true<!--/default-->
-<!--type-->Boolean<!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--default-->'contained'<!--/default-->
+<!--acceptValues-->'text' | 'outlined' | 'contained'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the [filter expression]({basewidgetpath}/Configuration/#filterValue) is applied.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

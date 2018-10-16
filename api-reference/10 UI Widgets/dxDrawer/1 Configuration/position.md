@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'left'<!--/default-->
-<!--acceptValues-->'left' | 'right'<!--/acceptValues-->
+<!--acceptValues-->'left' | 'right' | 'top' | 'bottom'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
