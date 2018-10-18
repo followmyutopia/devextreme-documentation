@@ -1,6 +1,7 @@
 ===========================================================================
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--type-->Object | Array<Number, String, Date><!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
 <!--inherits-->..\..\..\..\VizRange\VizRange.md<!--/inherits-->
 ===========================================================================
 

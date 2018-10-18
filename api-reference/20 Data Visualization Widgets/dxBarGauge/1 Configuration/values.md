@@ -2,6 +2,7 @@
 <!--notUsedInTheme--><!--/notUsedInTheme-->
 <!--default-->[]<!--/default-->
 <!--type-->Array<Number><!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
 ===========================================================================
 
 <!--shortDescription-->
