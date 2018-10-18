@@ -1,3 +1,3 @@
-The module required for intergation with Knockout framework.
+The module that provides Knockout integration.
 
     require("integration/knockout")

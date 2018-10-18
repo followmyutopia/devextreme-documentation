@@ -1,198 +1,44 @@
-﻿First, install [RequireJS](http://requirejs.org/) to your application folder.
+1. Install [RequireJS](http://requirejs.org/) and DevExtreme in your application folder.
 
-    npm install requirejs
+        npm install requirejs devextreme
 
-Then, install the DevExtreme package.  
+1. Use the [RequireJS conversion tool](http://requirejs.org/docs/commonjs.html#autoconversion) to convert the DevExtreme modules from CommonJS to AMD:
 
-    npm install devextreme
+    * Add the devextreme package to the 'node_modules/devextreme' directory
 
-DevExtreme modules are defined using the CommonJS format. RequireJS does not support this format. Thus, convert DevExtreme modules to the AMD format before using them with RequireJS. Use the [RequireJS conversion tool](http://requirejs.org/docs/commonjs.html#autoconversion) to convert modules. Follow these steps to convert the modules.
+            npm i devextreme
 
-- Add the devextreme package to the 'node_modules/devextreme' directory
+    * Add global 'r_js' command
 
-        npm i devextreme
+            npm i r.js -g
 
-- Add global 'r_js' command
+    * Convert the devextreme package and save it to the 'devextreme_amd' directory
 
-        npm i r.js -g
+            r_js -convert node_modules/devextreme devextreme_amd
 
-- Convert the devextreme package and save it to the 'devextreme_amd' directory
+1. Add [DevExtreme themes](/Documentation/Guide/Themes/Predefined_Themes/) to your application. 
 
-        r_js -convert node_modules/devextreme devextreme_amd
-
-
-To link up the modules to your application using [RequireJS](http://requirejs.org/), begin by adding [themes](/Documentation/Guide/Themes/Predefined_Themes/) to your application. 
-
-    <!--HTML-->
-    <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.common.css" />
-    <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.light.css" />
+        <!--HTML-->
+        <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.light.css" />
 
 
-Then, link **RequireJS** and define the [configuration object](http://requirejs.org/docs/api.html#config). 
+1. Link RequireJS and define its [configuration object](http://requirejs.org/docs/api.html#config). 
 
-    <!--HTML-->
-    <script src="node_modules/requirejs/require.js"></script>
+        <!--HTML-->
+        <script src="node_modules/requirejs/require.js"></script>
+        <script>
+            require.config({ ... });
+        </script>
 
-[note]Check the supported versions of 3rd-party libraries. For details, see [Integration with 3rd-Party Libraries and Frameworks](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks).
+See examples of using RequireJS with [jQuery](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-jquery), [AngularJS](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-angularjs), and [Knockout](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-knockout) on GitHub. The **index.html** file contains the main code. 
 
-The example below demonstrates how to create an application with a single button using the modules from a local directory. 
+[note] Check the libraries' and frameworks' [supported versions](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks).
 
----
-#####jQuery####
+The following list shows additional modules each library/framework requires: 
 
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-jquery) from GitHub. To use it, follow the instructions on GitHub.
+- **jQuery**: DevExtreme [jQuery integration](/Documentation/Guide/Common/Modularity/DevExtreme_Modules_Structure/#integration/jquery) module;
+- **AngularJS**: jQuery, DevExtreme [AngularJS](/Documentation/Guide/Common/Modularity/DevExtreme_Modules_Structure/#integration/angular) and [jQuery](/Documentation/Guide/Common/Modularity/DevExtreme_Modules_Structure/#integration/jquery) integration modules;
+- **Knockout**: DevExtreme [Knockout integration](/Documentation/Guide/Common/Modularity/DevExtreme_Modules_Structure/#integration/knockout) module.
 
-    <!--HTML-->
-    <!DOCTYPE html>
-    <html>
-
-    <head>
-      <title>DevExtreme with RequireJS and jQuery example</title>
-
-      <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.common.css" />
-      <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.light.css" />
-      <!-- Include RequireJS -->
-      <script src="node_modules/requirejs/require.js"></script>
-    </head>
-
-    <body>
-      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
-        <div id="myButton"></div>
-      </div>
-
-      <script>
-        require.config({
-          paths: {
-            "jquery": "node_modules/jquery/dist/jquery",
-            // The path where the devExtreme modules are located.
-            "devextreme": "node_modules/devextreme"
-          }
-        });
-        // Loads the required scripts.
-        require(["jquery", "devextreme/ui/dialog", "devextreme/ui/button"], function($, dialog) {
-          $("#myButton").dxButton({
-            text: "Say 'Hello world'",
-            onClick: function() {
-              dialog.alert('Hello world!', '', false);
-            }
-          });
-        });
-      </script>
-    </body>
-    </html>
-
-#####AngularJS####
-
-[note] To use AngularJS and DevExtreme widget modules with RequireJS, load the DevExtreme [integration](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/angular) and angular modules.
-
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-angularjs) from GitHub. To use it, follow the instructions on GitHub.
-
-    <!--HTML-->
-    <!DOCTYPE html>
-    <html>
-
-    <head>
-      <title>DevExtreme with RequireJS and AngularJS examples</title>
-
-      <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.common.css" />
-      <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.light.css" />
-      <!-- Include RequireJS -->
-      <script src="node_modules/requirejs/require.js"></script>
-    </head>
-
-    <body>
-      <div ng-controller="myController">
-        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
-          <div dx-button="buttonOptions"></div>
-        </div>
-      </div>
-      <script>
-        require.config({
-          paths: {
-            "jquery": "node_modules/jquery/dist/jquery",
-            "angular": "node_modules/angular/angular",
-            // The path where the devExtreme modules are located.
-            "devextreme": "node_modules/devextreme"
-          },
-          shim: {
-            "angular": {
-              deps: ["jquery"],
-              exports: 'angular'
-            },
-            "devextreme/integration/angular": {
-              deps: ['angular']
-            }
-          }
-        });
-        // Loads the required scripts. Note that for correct integration with AngularJS,
-        // you should load the DevExtreme integration module.
-        require(["angular", "devextreme/ui/dialog", "devextreme/integration/angular", "devextreme/ui/button"], function(angular, dialog) {
-          var myApp = angular.module('myApp', ['dx']);
-          myApp.controller("myController", function($scope) {
-            $scope.buttonOptions = {
-              text: "Say 'Hello world'",
-              onClick: function() {
-                dialog.alert('Hello world!', '', false);
-              }
-            };
-          });
-          angular.bootstrap(document, ['myApp']);
-        });
-      </script>
-    </body>
-
-    </html>
-
-#####Knockout####
-
-[note]To use KnockoutJS and DevExtreme widget modules with RequireJS, load the DevExtreme [integration module](/Documentation/Guide/Common/Modularity/#DevExtreme_Modules_Structure/integration/knockout).
-
-You can download [the example](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-knockout) from GitHub. To use it, follow the instructions on GitHub.
-
-    <!--HTML-->
-    <!DOCTYPE html>
-    <html>
-
-    <head>
-      <title>DevExtreme with RequireJS and Knockout examples</title>
-
-      <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.common.css" />
-      <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.light.css" />
-      <!-- Include RequireJS -->
-      <script src="node_modules/requirejs/require.js"></script>
-    </head>
-
-    <body>
-      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">
-        <div data-bind="dxButton: buttonOptions"></div>
-      </div>
-      <script>
-        require.config({
-          paths: {
-            "jquery": "node_modules/jquery/dist/jquery",
-            "knockout": "node_modules/knockout/build/output/knockout-latest",
-            // The path where the DevExtreme modules are located.
-            "devextreme": "node_modules/devextreme"
-          }
-        });
-        // Loads the required scripts. Note that for correct integration with KnockoutJS,
-        // you should load the devExtreme integration module.
-        require(["knockout", "devextreme/ui/dialog", "devextreme/integration/knockout", "devextreme/ui/button"], function(ko, dialog) {
-          viewModel = {
-            buttonOptions: {
-              text: "Say 'Hello world'",
-              onClick: function() {
-                dialog.alert('Hello world!', '', false);
-              }
-            }
-          };
-          ko.applyBindings(viewModel);
-        });
-      </script>
-    </body>
-
-    </html>
-
----
-
-[note]We recommend you use other approaches (for example, [webpack](/Documentation/Guide/Common/Modularity/#Link_Modules/Use_Webpack) or [jspm](/Documentation/Guide/Common/Modularity/#Link_Modules/Use_jspm)) for better productivity.
+[note] We recommend using [Webpack](/Documentation/Guide/Common/Modularity/#Link_Modules/Use_Webpack) or [jspm](/Documentation/Guide/Common/Modularity/#Link_Modules/Use_jspm) for better performance.

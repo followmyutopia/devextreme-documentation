@@ -1,3 +1,3 @@
-The module required for intergation with AngularJS framework.
+The module that provides AngularJS integration.
 
     require("integration/angular")
