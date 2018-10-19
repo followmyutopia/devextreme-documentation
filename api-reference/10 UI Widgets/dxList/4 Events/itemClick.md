@@ -47,4 +47,3 @@ The jQuery event that caused the function's execution. Deprecated in favor of th
 <!--typeFunctionParamDescription1_field8-->
 The event that caused the function's execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery. 
 <!--/typeFunctionParamDescription1_field8-->
-
