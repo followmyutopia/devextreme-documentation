@@ -3,9 +3,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-The name of an icon to be displayed on the tree view item.
+Specifies the tree view item's icon.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option can take on the name of an icon from the [built-in icon library](/Documentation/Guide/Themes/Icon_Library/).
+#include uiwidgets-ref-icon
 <!--/fullDescription-->

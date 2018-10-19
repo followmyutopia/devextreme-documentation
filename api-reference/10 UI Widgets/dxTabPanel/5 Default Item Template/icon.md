@@ -3,9 +3,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the name of the icon displayed by the widget item title.
+Specifies the icon to be displayed in the tab's title.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Set the names of icons from the [built-in icon library](/Documentation/Guide/Themes/Icon_Library/).
+#include uiwidgets-ref-icon
 <!--/fullDescription-->
