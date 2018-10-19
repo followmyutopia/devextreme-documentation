@@ -25,20 +25,20 @@ The model data. Available only if Knockout is used.
 <!--typeFunctionParamName1_field4-->itemData<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-
+The rendered item's data object.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-
+The rendered item's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Number<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-
+The rendered item's index.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->node<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->dxTreeViewNode<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-
+The rendered item's node.
 <!--/typeFunctionParamDescription1_field7-->

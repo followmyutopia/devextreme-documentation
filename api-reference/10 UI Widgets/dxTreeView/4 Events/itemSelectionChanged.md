@@ -35,10 +35,10 @@ The model data. Available only if Knockout is used.
 <!--typeFunctionParamName1_field4-->node<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->dxTreeViewNode<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-
+The item's node.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->itemElement<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->dxElement<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-
+The item's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
