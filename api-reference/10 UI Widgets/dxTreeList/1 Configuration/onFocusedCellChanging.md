@@ -16,48 +16,63 @@
 <!--typeFunctionParamDescription1-->
 
 <!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->cellElement<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxElement<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 
 <!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->prevColumnIndex<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 
 <!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->prevRowIndex<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Number<!--/typeFunctionParamType1_field3-->
+<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
+<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
 
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->newColumnIndex<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Number<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamName1_field4-->cellElement<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->dxElement<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 
 <!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->newRowIndex<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamName1_field5-->prevColumnIndex<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Number<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 
 <!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field7-->event<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->event<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamName1_field6-->prevRowIndex<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->Number<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamName1_field7-->newColumnIndex<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->Number<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 
 <!--/typeFunctionParamDescription1_field7-->
-<!--typeFunctionParamName1_field8-->rows<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->Array<dxTreeListRowObject><!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamName1_field8-->newRowIndex<!--/typeFunctionParamName1_field8-->
+<!--typeFunctionParamType1_field8-->Number<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 
 <!--/typeFunctionParamDescription1_field8-->
-<!--typeFunctionParamName1_field9-->columns<!--/typeFunctionParamName1_field9-->
-<!--typeFunctionParamType1_field9-->Array<dxTreeListColumn><!--/typeFunctionParamType1_field9-->
+<!--typeFunctionParamName1_field9-->event<!--/typeFunctionParamName1_field9-->
+<!--typeFunctionParamType1_field9-->event<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
 
 <!--/typeFunctionParamDescription1_field9-->
-<!--typeFunctionParamName1_field10-->cancel<!--/typeFunctionParamName1_field10-->
-<!--typeFunctionParamType1_field10-->Boolean<!--/typeFunctionParamType1_field10-->
+<!--typeFunctionParamName1_field10-->rows<!--/typeFunctionParamName1_field10-->
+<!--typeFunctionParamType1_field10-->Array<dxTreeListRowObject><!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
 
 <!--/typeFunctionParamDescription1_field10-->
+<!--typeFunctionParamName1_field11-->columns<!--/typeFunctionParamName1_field11-->
+<!--typeFunctionParamType1_field11-->Array<dxTreeListColumn><!--/typeFunctionParamType1_field11-->
+<!--typeFunctionParamDescription1_field11-->
+
+<!--/typeFunctionParamDescription1_field11-->
+<!--typeFunctionParamName1_field12-->cancel<!--/typeFunctionParamName1_field12-->
+<!--typeFunctionParamType1_field12-->Boolean<!--/typeFunctionParamType1_field12-->
+<!--typeFunctionParamDescription1_field12-->
+
+<!--/typeFunctionParamDescription1_field12-->

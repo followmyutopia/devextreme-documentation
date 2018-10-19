@@ -14,13 +14,13 @@
 <!--typeFunctionParamDescription1-->
 
 <!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->rowElement<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->dxElement<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
+<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 
 <!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->rowIndex<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Number<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
+<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 
 <!--/typeFunctionParamDescription1_field2-->
@@ -29,8 +29,18 @@
 <!--typeFunctionParamDescription1_field3-->
 
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->row<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->dxTreeListRowObject<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamName1_field4-->rowElement<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->dxElement<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 
 <!--/typeFunctionParamDescription1_field4-->
+<!--typeFunctionParamName1_field5-->rowIndex<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->Number<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamDescription1_field5-->
+
+<!--/typeFunctionParamDescription1_field5-->
+<!--typeFunctionParamName1_field6-->row<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->dxTreeListRowObject<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamDescription1_field6-->
+
+<!--/typeFunctionParamDescription1_field6-->

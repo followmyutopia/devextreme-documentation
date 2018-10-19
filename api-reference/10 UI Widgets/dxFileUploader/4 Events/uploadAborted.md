@@ -33,7 +33,7 @@ The widget's container. It is an [HTML Element](https://developer.mozilla.org/en
 The model data. Available only if Knockout is used.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->file<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->File<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The uploaded file.
 <!--/typeFunctionParamDescription1_field4-->
