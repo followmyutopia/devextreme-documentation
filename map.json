@@ -18,15 +18,7 @@
     "dxElement",
     "animationSets",
     "devices",
-    "layoutSets",
-
-    "XlsxCell",
-    "XlsxCell/*",
-    "XlsxColor",
-    "XlsxColor/*",
-    "XlsxGridCell",
-    "XlsxGridCell/*",
-    "dxDataGrid/Options/onXlsxCellPrepared"
+    "layoutSets"
   ],
 
   "10 UI Widgets": {
@@ -1225,6 +1217,14 @@
 
       "template": {
         "$Widget": "template"
+      },
+
+      "ExcelFont": {
+        "$Widget": "ExcelFont"
+      },
+
+      "ExcelDataGridCell": {
+        "$Widget": "ExcelDataGridCell"
       }
     },
 
