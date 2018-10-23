@@ -21,4 +21,7 @@ DevExtreme provides the following button types.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/jQuery/Light/"
 }
+
+#####See Also#####
+- [stylingMode](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#stylingMode)
 <!--/fullDescription-->
