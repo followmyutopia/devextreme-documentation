@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when zooming or scrolling begins.
+Raised when zooming or panning begins.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -36,15 +36,15 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->axis<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->chartAxisObject<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The zoomed/scrolled axis.
+The zoomed/panned axis.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->range<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->VizRange<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) on zooming or scrolling start.
+The [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) on zooming or panning start.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Boolean<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-Allows you to cancel zooming or scrolling.
+Allows you to cancel zooming or panning.
 <!--/typeFunctionParamDescription1_field6-->

@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the drag box's color.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-colorlist
 <!--/fullDescription-->
