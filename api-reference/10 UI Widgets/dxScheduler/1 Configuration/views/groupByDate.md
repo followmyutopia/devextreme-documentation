@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to group appointments by date first.
+Specifies whether to group appointments by date first. Applies to all [view types](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#type) except *"agenda"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
