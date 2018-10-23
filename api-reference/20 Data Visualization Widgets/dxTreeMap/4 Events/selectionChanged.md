@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when a node is selected or the selection is canceled.
+Raised when a node is selected or selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->

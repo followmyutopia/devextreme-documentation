@@ -6,7 +6,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed when a node is selected or the selection is canceled.
+A function that is executed when a node is selected or selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->

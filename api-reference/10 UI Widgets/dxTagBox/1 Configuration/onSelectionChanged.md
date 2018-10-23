@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed when a list item is selected or the selection is canceled.
+A function that is executed when a list item is selected or selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->

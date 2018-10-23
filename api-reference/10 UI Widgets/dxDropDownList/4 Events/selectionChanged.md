@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when a list item is selected or the selection is canceled.
+Raised when a list item is selected or selection is canceled.
 <!--/shortDescription-->
 
 <!--fullDescription-->
