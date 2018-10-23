@@ -48,23 +48,24 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
 
     <!--HTML-->
     <div id="button"></div>
-    <div id="drawer">Here is the view content.</div>
+    <div id="drawer"><span>Here is the view content.</span></div>
 
 #####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/) 
 
     <!--HTML-->
     <dx-button
         [(text)]="text"
-        (onClick)="clickHandler">
+        (onClick)="clickHandler()">
     </dx-button>
     <dx-drawer
         openedStateMode="shrink"
         revealMode="expand"
         [maxSize]="200"
         [minSize]="50"
-        [(opened)]="isOpened">
-        Here is the view content.
-        <div *dxTemplate="let data of 'template'">
+        [(opened)]="isOpened"
+        template="drawerTemplate">
+        <span>Here is the view content.</span>
+        <div *dxTemplate="let data of 'drawerTemplate'">
             <dx-list 
                 [dataSource]="navigation"
                 [width]="200">
@@ -112,11 +113,11 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
             revealMode: 'expand',
             maxSize: 200,
             minSize: 50,
-            template: 'template',
+            template: 'drawerTemplate',
             bindingOptions: { opened: 'isOpened' }
         }">
-            Here is the view contnet    
-            <div data-options="dxTemplate: { name: 'template' }">
+            <span>Here is the view content.</span>
+            <div data-options="dxTemplate: { name: 'drawerTemplate' }">
                 <div dx-list="{
                     dataSource: navigation,
                     width: 200
@@ -155,10 +156,10 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
         opened: isOpened,
         openedStateMode: 'shrink',
         revealMode: 'expand',
-        template: 'template'
+        template: 'drawerTemplate'
     }">
-        Here is the view content.
-        <div data-options="dxTemplate: { name: 'template' }">
+        <span>Here is the view content.</span>
+        <div data-options="dxTemplate: { name: 'drawerTemplate' }">
             <div data-bind="dxList: {
                 dataSource: navigation
             }"></div>
@@ -206,7 +207,7 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
             )
         </text>)
         .ContentTemplate(@<text>
-            <p>Here is the view content</p>
+            <span>Here is the view content</span>
         </text>)
     )
 
@@ -250,7 +251,7 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
             End Sub).Render()
             .ContentTemplate(Sub()
                 @<text>
-                    <p>Here is the view content</p>
+                    <span>Here is the view content</span>
                 </text>
             End Sub).Render()
     End Code
@@ -271,7 +272,116 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
         }
     </script>
 
+##### Vue
+
+    <!--HTML-->
+    <div>
+        <dx-button
+          :text="text"
+          @click="clickHandler" />
+        <dx-drawer
+            opened-state-mode="shrink"
+            reveal-mode="expand"
+            :max-size="200"
+            :min-size="50"
+            :opened="isOpened"
+            template="drawerTemplate">
+            <div slot="drawerTemplate" slot-scope="data">
+                <dx-list
+                    :data-source="navigation"
+                    :width="200">
+                </dx-list>
+            </div>
+            <span>Here is the view content.</span>
+        </dx-drawer>
+    </div>
+
+    <!--JavaScript-->
+    import DxDrawer from "devextreme-vue/ui/drawer";
+    import DxButton from "devextreme-vue/ui/button";
+    import DxList from "devextreme-vue/ui/list";
+
+    export default {
+        components: {
+            DxDrawer,
+            DxButton,
+            DxList
+        },
+        methods: {
+            clickHandler: function() {
+                this.text = this.isOpened ? "Open Drawer" : "Close Drawer";
+                this.isOpened = !this.isOpened;
+            }
+        },
+        data() {
+            return {
+                isOpened: true,
+                text: "Close Drawer",
+                navigation: [
+                    { id: 1, text: "Inbox"},
+                    { id: 2, text: "Sent Mail"},
+                    { id: 3, text: "Trash"},
+                    { id: 4, text: "Spam"}
+                ]
+            };
+        }
+    }
+
+##### React
+
+    <!--JavaScript-->
+    import React from "react";
+    import Drawer from "devextreme-react/ui/drawer";
+    import Button from "devextreme-react/ui/button";
+    import List from "devextreme-react/ui/list";
+    // ...
+    const navigation = [
+        { id: 1, text: "Inbox"},
+        { id: 2, text: "Sent Mail"},
+        { id: 3, text: "Trash"},
+        { id: 4, text: "Spam"}
+    ];
+    function renderDrawer() {
+        return <List dataSource={navigation} width={200} />;
+    }
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+            this.state = {
+                isOpened: true,
+                text: "Close Drawer"
+            };
+            this.clickHandler = this.clickHandler.bind(this);
+        }
+        clickHandler() {
+            this.setState({
+                text: this.state.isOpened ? "Open Drawer" : "Close Drawer",
+                isOpened: !this.state.isOpened
+            });
+        }
+        render() {
+            return (
+                <div>
+                    <Button 
+                        text={this.state.text} 
+                        onClick={this.clickHandler} />
+                    <Drawer
+                        openedStateMode={"shrink"}
+                        revealMode={"expand"}
+                        maxSize={200}
+                        minSize={50}
+                        opened={this.state.isOpened}
+                        render={renderDrawer}>
+                        <span>Here is the view content.</span>
+                    </Drawer>
+                </div>
+            );
+        }
+    }
+    export default App;
+
 ---
 
-
+#####See Also#####
+- **Configure a Widget**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/) | [ASP.NET MVC](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/#Specifying_the_Options)
 <!--/fullDescription-->

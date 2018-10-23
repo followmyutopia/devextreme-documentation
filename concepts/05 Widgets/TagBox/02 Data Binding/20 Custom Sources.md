@@ -250,6 +250,7 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import TagBox from "devextreme-react/ui/tag-box";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -306,7 +307,7 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
             }
         })
     }
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <TagBox ...

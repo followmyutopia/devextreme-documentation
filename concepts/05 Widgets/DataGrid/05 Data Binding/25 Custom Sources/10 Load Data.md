@@ -221,6 +221,7 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import DataGrid, { RemoteOperations } from "devextreme-react/ui/data-grid";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -266,7 +267,7 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
             }
         })
     }
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <DataGrid ...

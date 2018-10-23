@@ -228,6 +228,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import List from "devextreme-react/ui/list";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -276,7 +277,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
             }
         })
     }
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <List ...

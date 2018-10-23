@@ -69,9 +69,10 @@ To allow a user to add, delete and update data in the **DataGrid**, assign **tru
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import DataGrid, { Editing } from "devextreme-react/ui/data-grid";
     // ...
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <DataGrid ... >
@@ -227,6 +228,7 @@ With these settings, the **DataGrid** expects that the server can also add, upda
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import DataGrid from "devextreme-react/ui/data-grid";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -263,7 +265,7 @@ With these settings, the **DataGrid** expects that the server can also add, upda
             }
         })
     }
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <DataGrid ...

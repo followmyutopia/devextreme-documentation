@@ -68,9 +68,10 @@ To allow a user to add, delete and update data in the **TreeList**, assign **tru
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import TreeList, { Editing } from "devextreme-react/ui/tree-list";
     // ...
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <TreeList ... >
@@ -225,6 +226,7 @@ With these settings, the **TreeList** expects that the server can also add, upda
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import TreeList from 'devextreme-react/ui/tree-list';
     import CustomStore from 'devextreme/data/custom_store';
     // ...
@@ -261,7 +263,7 @@ With these settings, the **TreeList** expects that the server can also add, upda
             }
         })
     }
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <TreeList ...

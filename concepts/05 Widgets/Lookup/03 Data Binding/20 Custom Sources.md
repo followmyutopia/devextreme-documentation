@@ -217,6 +217,7 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import Lookup from "devextreme-react/ui/lookup";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -260,7 +261,7 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
             }
         })
     }
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <Lookup ...

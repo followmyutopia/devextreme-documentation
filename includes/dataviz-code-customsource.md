@@ -153,6 +153,7 @@
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import {WidgetName} from "devextreme-react/ui/{widget-name}";
     import CustomStore from "devextreme/data/custom_store";
     import DataSource from "devextreme/data/data_source";
@@ -192,7 +193,7 @@
         }),
         paginate: false
     });
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <{WidgetName} ...

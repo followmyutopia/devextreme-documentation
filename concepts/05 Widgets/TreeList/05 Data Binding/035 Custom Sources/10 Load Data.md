@@ -187,6 +187,7 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import TreeList, { RemoteOperations } from "devextreme-react/ui/tree-list";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -222,7 +223,7 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
             }
         })
     }
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <TreeList ...

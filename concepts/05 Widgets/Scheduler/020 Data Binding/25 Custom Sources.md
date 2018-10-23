@@ -203,6 +203,7 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
 #####React
 
     <!--JavaScript-->
+    import React from "react";
     import Scheduler from "devextreme-react/ui/scheduler";
     import CustomStore from "devextreme/data/custom_store";
     import DataSource from "devextreme/data/data_source";
@@ -257,7 +258,7 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
             paginate: false
         })
     }
-    class App extends Component {
+    class App extends React.Component {
         render() {
             return (
                 <Scheduler ...

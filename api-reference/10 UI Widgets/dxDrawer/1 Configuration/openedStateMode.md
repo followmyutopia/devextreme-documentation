@@ -21,7 +21,7 @@ The view's width decreases to accommodate the drawer.
 The drawer partially displaces the view.
 
 #include common-ref-enum with {
-    enum: "DrawerOpenedStateMode",
+    enum: "`DrawerOpenedStateMode`",
     values: "`Overlap`, `Shrink`, and `Push`"
 }
 
