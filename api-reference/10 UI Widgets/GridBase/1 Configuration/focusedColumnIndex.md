@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the initially or currently focused column's index. This column is focused when the data row area is focused.
+Specifies the index of the column focused initially or currently in the data row area.
 <!--/shortDescription-->
 
 <!--fullDescription-->
