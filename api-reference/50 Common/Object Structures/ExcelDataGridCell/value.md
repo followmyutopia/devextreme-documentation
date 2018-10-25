@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The cell's value.
 <!--/shortDescription-->
 
 <!--fullDescription-->
