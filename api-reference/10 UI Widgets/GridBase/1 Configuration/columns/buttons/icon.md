@@ -3,9 +3,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the button's icon.
 <!--/shortDescription-->
 
-<!--fullDescription-->
+ <!--fullDescription-->
+#include uiwidgets-ref-icon
 
+#####See Also#####
+- **buttons[]**.[text]({basewidgetpath}/Configuration/columns/buttons/#text)
 <!--/fullDescription-->
