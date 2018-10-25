@@ -6,7 +6,7 @@
 Specifies the button's icon.
 <!--/shortDescription-->
 
- <!--fullDescription-->
+<!--fullDescription-->
 #include uiwidgets-ref-icon
 
 #####See Also#####
