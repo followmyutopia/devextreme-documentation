@@ -1,13 +1,12 @@
-<!--dep-->switchedOnText.md<!--/dep-->
 ===========================================================================
+<!--default-->'ON'<!--/default-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Text displayed when the widget is in an enabled state.
+Specifies the text displayed when the widget is switched on.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]The widget may or may not display text depending on the current theme.
-
-
+[note] The widget may or may not display the text depending on the current theme.
 <!--/fullDescription-->
