@@ -8,9 +8,11 @@ Specifies the date display format. Ignored if the [pickerType](/Documentation/Ap
 <!--/shortDescription-->
 
 <!--fullDescription-->
-See the [format](/Documentation/ApiReference/Common/Object_Structures/format/) section for details on accepted values. 
+Set [useMaskBehavior](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#useMaskBehavior) to **true** to control user input according to the display format.
+
+The default display format is selected automatically based on the current [locale](/Documentation/ApiReference/Common/utils/localization/#locale).
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DateBox/Overview/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/DateBox/Formatting/jQuery/Light/"
 }
 <!--/fullDescription-->
