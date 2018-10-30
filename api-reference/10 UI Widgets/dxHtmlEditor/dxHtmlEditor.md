@@ -19,7 +19,7 @@ variables: {
 <!--export-->default<!--/export-->
 <!--inherits-->..\Editor\Editor.md<!--/inherits-->
 ===========================================================================
-
+[tags] ctp
 <!--shortDescription-->
 **HtmlEditor** is a WYSIWYG text editor build on top of [Quill](https://quilljs.com/), designed to support HTML and Markdown output formats.
 
