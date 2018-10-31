@@ -18,7 +18,7 @@ The **Scheduler** widget supports the following timeline views.
 
     ![TimelineMonth View](/Content/images/doc/18_2/UiWidgets/Scheduler_TimelineMonth_View.png)
 
-    Note that the size of an appointment depends on its duration in days. Even if an appointment lasts only for several hours or minutes, it occupies the entire day cell.
+[note] An appointment's size depends on its duration in days. Even if an appointment lasts only for several hours or minutes, it occupies the entire day cell.
 
 If you [group appointments by resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/), the resource headers are located at the left side of the view.
 
