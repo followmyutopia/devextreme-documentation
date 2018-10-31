@@ -19,8 +19,10 @@ variables: {
 <!--export-->default<!--/export-->
 <!--inherits-->..\Editor\Editor.md<!--/inherits-->
 ===========================================================================
-[tags] ctp
+
 <!--shortDescription-->
+[tags] ctp
+
 **HtmlEditor** is a WYSIWYG text editor build on top of [Quill](https://quilljs.com/), designed to support HTML and Markdown output formats.
 
 **HtmlEditor** is at the Community Technology Preview (CTP) development stage. That means that the widget is available for testing, but its concept, design and behavior can be reconsidered and changed without notice.
