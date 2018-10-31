@@ -81,8 +81,6 @@ variables: {
 
     <!--TypeScript-->
     import { DxHtmlEditorModule } from "devextreme-angular";
-    import "quill";
-    import "quill-delta-to-html";
     // ...
     export class AppComponent {
         value: string = `
