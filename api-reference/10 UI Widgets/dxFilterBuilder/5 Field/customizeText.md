@@ -17,7 +17,7 @@ Customizes the input value's display text.
 The field's data.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String|Number|Date<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String | Number | Date<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The unformatted value (as specified using the editor or in the lookup's data source).
 <!--/typeFunctionParamDescription1_field1-->

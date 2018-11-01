@@ -23,7 +23,7 @@ The **customizeText** function may be called when data displayed in the column m
 Information on the current cell.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String|Number|Date<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String | Number | Date<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The cell's raw value.
 <!--/typeFunctionParamDescription1_field1-->
@@ -38,7 +38,7 @@ The [fomatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/c
 The UI element where the **customizeText** function was called: *"row"*, *"filterRow"*, *"headerFilter"*, *"search"*, *"filterPanel"*, or *"filterBuilder"*.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->groupInterval<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->String|Number<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->String | Number<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 Indicates how header filter values were combined into groups. Available if **target** is *"headerFilter"*.  
 For possible values, see the description of the **headerFilter**.[groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option.

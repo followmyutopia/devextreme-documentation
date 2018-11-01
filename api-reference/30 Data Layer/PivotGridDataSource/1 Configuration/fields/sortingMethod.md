@@ -98,7 +98,7 @@ Inside this function, you can access the [field's configuration](/Documentation/
 A field value to be compared.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String|Number<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String | Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The field value.
 <!--/typeFunctionParamDescription1_field1-->
@@ -114,7 +114,7 @@ The field value's children; available only when the corresponding header item is
 A field value to be compared.
 <!--/typeFunctionParamDescription2-->
 <!--typeFunctionParamName2_field1-->value<!--/typeFunctionParamName2_field1-->
-<!--typeFunctionParamType2_field1-->String|Number<!--/typeFunctionParamType2_field1-->
+<!--typeFunctionParamType2_field1-->String | Number<!--/typeFunctionParamType2_field1-->
 <!--typeFunctionParamDescription2_field1-->
 The field value.
 <!--/typeFunctionParamDescription2_field1-->

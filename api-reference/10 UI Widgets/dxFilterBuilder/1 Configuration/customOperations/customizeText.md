@@ -17,7 +17,7 @@ Customizes the field value's text representation.
 Information about a **FilterBuilder** field.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String|Number|Date<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String | Number | Date<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The field's unformatted value (specified using the editor).
 <!--/typeFunctionParamDescription1_field1-->

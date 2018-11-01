@@ -54,7 +54,7 @@ The swiped item's data.
 The item's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->itemIndex<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->Number|Object<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->Number | Object<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 The item's index. In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
 <!--/typeFunctionParamDescription1_field8-->

@@ -44,7 +44,7 @@ The jQuery event that caused the handler execution. Deprecated in favor of the *
 The event that caused the handler execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->argument<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Date|Number|String<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Date | Number | String<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The clicked label's value.
 <!--/typeFunctionParamDescription1_field6-->

@@ -44,7 +44,7 @@ The data of the row.
 The key of the row. If a field providing keys is not specified in the data source, the whole data object is considered the key.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Boolean|Promise<void><!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Boolean | Promise<void><!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Allows you to cancel row removal.
 <!--/typeFunctionParamDescription1_field6-->

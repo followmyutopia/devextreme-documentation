@@ -19,7 +19,7 @@ Specifies a callback function that returns the text to be displayed by argument 
 Information on the argument.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Date|Number|String<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Date | Number | String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The raw argument value.
 <!--/typeFunctionParamDescription1_field1-->

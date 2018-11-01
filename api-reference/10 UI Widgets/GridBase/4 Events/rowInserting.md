@@ -38,7 +38,7 @@ The model data. Available only if you use Knockout.
 The data of the to-be-inserted row.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Boolean|Promise<void><!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Boolean | Promise<void><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 Allows you to cancel row insertion.
 <!--/typeFunctionParamDescription1_field5-->

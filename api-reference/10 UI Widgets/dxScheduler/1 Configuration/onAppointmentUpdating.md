@@ -42,7 +42,7 @@ The data of the appointment to be updated.
 The appointment with new data.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Boolean|Promise<Boolean><!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Boolean | Promise<Boolean><!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Allows you to prevent an appointment update.    
 If you pass a Promise to this field, the appointment updating is continued or canceled once the Promise has been resolved.

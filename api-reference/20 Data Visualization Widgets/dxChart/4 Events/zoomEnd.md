@@ -34,13 +34,13 @@ The widget's container. It is an [HTML Element](https://developer.mozilla.org/en
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->rangeStart<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Date|Number<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamType1_field4-->Date | Number<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The argument axis' start value after zooming or panning. Deprecated in favor of the **range** field.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamDeprecated1_field4-->Use 'range' instead.<!--/typeFunctionParamDeprecated1_field4-->
 <!--typeFunctionParamName1_field5-->rangeEnd<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Date|Number<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Date | Number<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The argument axis' end value after zooming or panning. Deprecated in favor of the **range** field.
 <!--/typeFunctionParamDescription1_field5-->

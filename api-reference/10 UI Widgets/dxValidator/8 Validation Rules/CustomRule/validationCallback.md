@@ -69,7 +69,7 @@ See [this](/Documentation/Guide/Widgets/Common/UI_Widgets/Data_Validation/#Serve
 An object defining validation parameters.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String|Number<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String | Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The validated value.
 <!--/typeFunctionParamDescription1_field1-->

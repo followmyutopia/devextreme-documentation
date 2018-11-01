@@ -34,7 +34,7 @@ The target item's data object.
 The target item's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Number|Object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Number | Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The target item's index.
 <!--/typeFunctionParamDescription1_field6-->

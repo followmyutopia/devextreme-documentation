@@ -38,7 +38,7 @@ The model data. Available only if you use Knockout.
 The input field's text.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->customItem<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->String|Object|Promise<any><!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->String | Object | Promise<any><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The field where to place a custom item.
 <!--/typeFunctionParamDescription1_field5-->

@@ -38,7 +38,7 @@ The model data. Available only if Knockout is used.
 The data of the appointment to be deleted.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->Boolean|Promise<Boolean><!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamType1_field5-->Boolean | Promise<Boolean><!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 Allows you to prevent the appointment from being deleted.       
 If you pass a Promise to this field, appointment deleting is continued or canceled once the Promise has been resolved.

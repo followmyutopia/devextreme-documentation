@@ -17,7 +17,7 @@ An entity's key value.
 Additional options.
 <!--/paramDescription2-->
 <!--paramName2_field1-->expand<!--/paramName2_field1-->
-<!--paramType2_field1-->String|Array<String><!--/paramType2_field1-->
+<!--paramType2_field1-->String | Array<String><!--/paramType2_field1-->
 <!--paramDescription2_field1-->
 The names of the navigation properties to be loaded simultaneously with the entity (see [OData - Associations](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData/Associations)).
 <!--/paramDescription2_field1-->

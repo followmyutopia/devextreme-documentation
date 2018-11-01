@@ -16,7 +16,7 @@ Specifies a callback function that returns the text to be displayed in scale mar
 Information on the marker value.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Date|Number<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Date | Number<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The raw value.
 <!--/typeFunctionParamDescription1_field1-->

@@ -18,7 +18,7 @@ This option accepts a function that must return the text to be displayed in the 
 The summary item's data.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->String|Number|Date<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->String | Number | Date<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The summary item's value as it was calculated.
 <!--/typeFunctionParamDescription1_field1-->

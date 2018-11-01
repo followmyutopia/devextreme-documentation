@@ -18,7 +18,7 @@ This option accepts a function that will be called twice on each point - once fo
 Information about the point a user paused on.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Date|Number|String<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Date | Number | String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The raw argument value.
 <!--/typeFunctionParamDescription1_field1-->

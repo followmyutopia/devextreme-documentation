@@ -15,7 +15,7 @@ Specifies the text for a hint that appears when a user hovers the mouse pointer 
 Information on the argument.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Date|Number|String<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Date | Number | String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The raw argument value.
 <!--/typeFunctionParamDescription1_field1-->

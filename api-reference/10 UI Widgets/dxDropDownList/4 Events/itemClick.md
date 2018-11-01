@@ -43,7 +43,7 @@ The clicked item's data.
 The item's container.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Number|Object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Number | Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The clicked item's index. If the widget items are grouped, the index represents an object defining the group and item indexes: { group: 0, item: 0 }.
 <!--/typeFunctionParamDescription1_field6-->

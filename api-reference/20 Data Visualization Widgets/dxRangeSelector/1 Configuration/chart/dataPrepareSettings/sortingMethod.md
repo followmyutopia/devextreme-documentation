@@ -20,12 +20,12 @@ Assume that *a* and *b* are the parameters. If the function returns a value of l
 A series point to be compared.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->arg<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Date|Number|String<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Date | Number | String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The series point's argument.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->val<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->Date|Number|String<!--/typeFunctionParamType1_field2-->
+<!--typeFunctionParamType1_field2-->Date | Number | String<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
 The series point's value.
 <!--/typeFunctionParamDescription1_field2-->
@@ -36,12 +36,12 @@ The series point's value.
 A series point to be compared.
 <!--/typeFunctionParamDescription2-->
 <!--typeFunctionParamName2_field1-->arg<!--/typeFunctionParamName2_field1-->
-<!--typeFunctionParamType2_field1-->Date|Number|String<!--/typeFunctionParamType2_field1-->
+<!--typeFunctionParamType2_field1-->Date | Number | String<!--/typeFunctionParamType2_field1-->
 <!--typeFunctionParamDescription2_field1-->
 The series point's argument.
 <!--/typeFunctionParamDescription2_field1-->
 <!--typeFunctionParamName2_field2-->val<!--/typeFunctionParamName2_field2-->
-<!--typeFunctionParamType2_field2-->Date|Number|String<!--/typeFunctionParamType2_field2-->
+<!--typeFunctionParamType2_field2-->Date | Number | String<!--/typeFunctionParamType2_field2-->
 <!--typeFunctionParamDescription2_field2-->
 The series point's value.
 <!--/typeFunctionParamDescription2_field2-->

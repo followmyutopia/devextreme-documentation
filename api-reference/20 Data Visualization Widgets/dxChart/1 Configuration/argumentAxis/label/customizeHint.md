@@ -17,7 +17,7 @@ Specifies the hint that appears when a user points to an axis label.
 Information on the axis argument.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->value<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->Date|Number|String<!--/typeFunctionParamType1_field1-->
+<!--typeFunctionParamType1_field1-->Date | Number | String<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
 The raw argument value.
 <!--/typeFunctionParamDescription1_field1-->

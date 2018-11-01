@@ -45,7 +45,7 @@ The reordered item's data.
 The item's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->itemIndex<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Number|Object<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Number | Object<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 The item's index after reordering. This field holds the same value as **toIndex**.      
 In a grouped list, the index represents an object defining the group and item indexes: { group: 0, item: 0 }. 

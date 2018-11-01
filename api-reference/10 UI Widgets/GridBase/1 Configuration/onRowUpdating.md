@@ -49,7 +49,7 @@ The updated data of the row.
 The key of the row. If a field providing keys is not specified in the data source, the whole data object is considered the key.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Boolean|Promise<void><!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Boolean | Promise<void><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 Allows you to cancel row updating.
 <!--/typeFunctionParamDescription1_field7-->
