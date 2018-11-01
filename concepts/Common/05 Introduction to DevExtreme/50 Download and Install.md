@@ -15,5 +15,5 @@ To include DevExtreme to your project, use the appropriate distribution package.
 For Visual Studio integration features, get the Windows installer, or otherwise, download just the client-side library and its widgets as a zip archive.
 
 
-- <a target="_blank" onclick="trackGAEvent('Download Trial', 'Complete', 'Introduction Guide');" href="/Downloading/DevExtremeComplete/">Windows Installer</a>
-- <a target="_blank" onclick="trackGAEvent('Download Trial', 'Complete zip', 'Introduction Guide');" href="/Downloading/DevExtremeCompleteZip/">ZIP Archive</a>
+- <a target="_blank" onclick="trackGAEvent('Download Trial', 'Complete', 'Introduction Guide');" href="https://go.devexpress.com/DevExpressDownload_DevExtremeCompleteTrial.aspx">Windows Installer</a>
+- <a target="_blank" onclick="trackGAEvent('Download Trial', 'Complete zip', 'Introduction Guide');" href="https://go.devexpress.com/DevExpressDownload_DevExtremeCompleteTrialZip.aspx">ZIP Archive</a>
