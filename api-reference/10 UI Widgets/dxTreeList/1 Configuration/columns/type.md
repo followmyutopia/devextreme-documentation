@@ -8,5 +8,7 @@ Specifies the [command column](/Documentation/Guide/Widgets/TreeList/Columns/Col
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [Configure a Command Column](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/#Configure_a_Command_Column)
+- [Column Reordering](/Documentation/Guide/Widgets/TreeList/Columns/Column_Reordering/)
 <!--/fullDescription-->

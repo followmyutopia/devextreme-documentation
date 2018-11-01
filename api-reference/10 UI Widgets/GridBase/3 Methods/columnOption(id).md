@@ -8,7 +8,7 @@ Gets all options of a column with a specific identifier.
 <!--paramName1-->id<!--/paramName1-->
 <!--paramType1-->Number|String<!--/paramType1-->
 <!--paramDescription1-->
-The column's index, data field, caption or unique name.
+The column's index, data field, caption, type, or unique name.
 <!--/paramDescription1-->
 
 <!--returnType-->Object<!--/returnType-->
@@ -31,22 +31,11 @@ The name of the [data source field]({basewidgetpath}/Configuration/columns/#data
 * **Caption**        
 The text displayed in the column header.
 
-* **Service String**  
-One of the following values:
- - *"command:edit"*    
-    Gets the editing column.
+* **Type ([command columns](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_Types/Command_Columns/) only)**       
+The [type]({basewidgetpath}/Configuration/columns/#type) of the command column.
 
- - *"command:select"*    
-    Gets the selection column.  
-
- - *"command:adaptive"*  
-    Gets the adaptive column.  
-
- - *"command:expand"*  
-    Gets the expand column.  
-
- - Any string matching the following format: *"optionName:value"*  
-    Here, *optionName* is one of the [column options]({basewidgetpath}/Configuration/columns/).
+* **Service String**    
+Any string matching the following format: *"optionName:value"*, where *optionName* is one of the [column options]({basewidgetpath}/Configuration/columns/).
 
 #####See Also#####
 - [columns]({basewidgetpath}/Configuration/columns/)

@@ -229,4 +229,4 @@ Editors are displayed in cells in the normal state too if you set the **columns*
 
 #####See Also#####
 - [Columns - Customize Cells](/Documentation/Guide/Widgets/TreeList/Columns/Customize_Cells/)
-- [Create a Custom Command Column](/Documentation/Guide/Widgets/TreeList/How_To/Create_a_Custom_Command_Column/)
+- [Create a Custom Command Column](/Documentation/Guide/Widgets/TreeList/Columns/Column_Types/Command_Columns/#Create_a_Custom_Command_Column)
