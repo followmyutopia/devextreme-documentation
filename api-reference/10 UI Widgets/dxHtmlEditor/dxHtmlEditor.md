@@ -29,7 +29,7 @@ variables: {
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note] You should link the [quill](https://www.npmjs.com/package/quill) and [quill-delta-to-html](https://www.npmjs.com/package/quill-delta-to-html) libraries to use the **HtmlEditor**.
+[note] The **HtmlEditor** requires the [Quill](https://www.npmjs.com/package/quill) library.
 
 #include common-ref-roottopic-introduction
 
@@ -47,10 +47,10 @@ variables: {
             valueType: "html",
             toolbar: {
                 items: [
-                    "bold", "italic", {
+                    "bold", "italic", "separator", {
                         formatName: "size",
                         formatValues: ["11px", "12px", "16px"]
-                    }, 
+                    }, "separator", 
                     "alignLeft", "alignCenter", "alignRight"
                 ]
             }
@@ -62,8 +62,7 @@ variables: {
         <!-- ... -->
         <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_18_2/css/dx.common.css" />
         <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_18_2/css/dx.light.css" />
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/quill@1.3.6/dist/quill.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/quill-delta-to-html@0.10.4/dist/browser/QuillDeltaToHtmlConverter.bundle.js"></script> 
+        <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
         <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.all.js"></script>
     </head>
     <body>
@@ -89,10 +88,10 @@ variables: {
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         `;
         items: any = [
-            "bold", "italic", {
+            "bold", "italic", "separator", {
                 formatName: "size",
                 formatValues: ["11px", "12px", "16px"]
-            }, 
+            }, "separator", 
             "alignLeft", "alignCenter", "alignRight"
         ];
     }
@@ -103,6 +102,210 @@ variables: {
         ],
         // ...
     })
+
+##### AngularJS
+
+    <!--HTML-->
+    <head>
+        <!-- ... -->
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_18_2/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_18_2/css/dx.light.css" />
+        <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+        <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.all.js"></script>
+    </head>
+    <body>
+        <div ng-controller="DemoController">
+            <div dx-html-editor="{
+                valueType: 'html',
+                toolbar: toolbarConfig,
+                bindingOptions: {
+                    value: 'value'
+                }
+            }"></div>
+        </div>
+    </body>
+
+    <!--JavaScript-->
+    angular.module("DemoApp", ["dx"])
+        .controller("DemoController", function ($scope) {
+            $scope.value = `
+                <p><b>Lorem ipsum dolor sit amet</b>, 
+                <i>consectetur adipiscing elit</i>, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            `;
+            $scope.toolbarConfig = {
+                items: [
+                    "bold", "italic", "separator", {
+                        formatName: "size",
+                        formatValues: ["11px", "12px", "16px"]
+                    }, "separator", 
+                    "alignLeft", "alignCenter", "alignRight"
+                ]
+            };
+        });
+
+##### Knockout  
+
+    <!--HTML-->
+    <head>
+        <!-- ... -->
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_18_2/css/dx.common.css" />
+        <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_18_2/css/dx.light.css" />
+        <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+        <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.all.js"></script>
+    </head>
+    <body>
+        <div data-bind="dxHtmlEditor: {
+            valueType: 'html',
+            value: value,
+            toolbar: toolbarConfig
+        }"></div>
+    </body>
+
+    <!--JavaScript-->
+    var viewModel = {
+        value: ko.observable(`
+            <p><b>Lorem ipsum dolor sit amet</b>, 
+            <i>consectetur adipiscing elit</i>, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        `),
+        toolbarConfig: {
+            items: [
+                "bold", "italic", "separator", {
+                    formatName: "size",
+                    formatValues: ["11px", "12px", "16px"]
+                }, "separator", 
+                "alignLeft", "alignCenter", "alignRight"
+            ]
+        }
+    };
+    ko.applyBindings(viewModel);
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    <head>
+        <!-- ... -->
+        <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+    </head>
+    <body>
+        @(Html.DevExtreme().HtmlEditor()
+            .ID("htmlEditor")
+            .ValueType(HtmlEditorValueType.Html)
+            .Value(@"
+                <p><b>Lorem ipsum dolor sit amet</b>,
+                <i>consectetur adipiscing elit</i>,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            ")
+            .Toolbar(t => t.Items(items => {
+                items.Add().FormatName("bold");
+                items.Add().FormatName("italic");
+                items.Add().FormatName("separator");
+                items.Add().FormatName("size").FormatValues(new[] { "11px", "12px", "16px" });
+                items.Add().FormatName("separator");
+                items.Add().FormatName("alignLeft");
+                items.Add().FormatName("alignCenter");
+                items.Add().FormatName("alignRight");
+            }))
+        )
+    </body>
+    
+    <!--Razor VB-->
+    <head>
+        <!-- ... -->
+        <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+    </head>
+    <body>
+        @(Html.DevExtreme().HtmlEditor() _
+            .ID("htmlEditor") _
+            .ValueType(HtmlEditorValueType.Html) _
+            .Value(
+                "<p><b>Lorem ipsum dolor sit amet</b>, " _
+                & "<i>consectetur adipiscing elit</i>, " _
+                & "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+            ) _
+            .Toolbar(Sub(t)
+                t.Items(Sub(items)
+                    items.Add().FormatName("bold")
+                    items.Add().FormatName("italic")
+                    items.Add().FormatName("separator");
+                    items.Add().FormatName("size").FormatValues({"11px", "12px", "16px"})
+                    items.Add().FormatName("separator");
+                    items.Add().FormatName("alignLeft")
+                    items.Add().FormatName("alignCenter")
+                    items.Add().FormatName("alignRight")
+                End Sub)
+            End Sub)
+        )
+    </body>
+
+##### Vue
+
+    <!--HTML-->
+    <dx-html-editor
+        valueType="html"
+        :value="value">
+        <dx-toolbar :items="items" />
+    </dx-html-editor>
+
+    <!--JavaScript-->
+    import { DxHtmlEditor, DxToolbar } from "devextreme-vue/html-editor";
+
+    export default {
+        components: {
+            DxHtmlEditor,
+            DxToolbar
+        },
+        data() {
+            return {
+                value: `
+                    <p><b>Lorem ipsum dolor sit amet</b>, 
+                    <i>consectetur adipiscing elit</i>, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                `,
+                items: [
+                    "bold", "italic", "separator", {
+                        formatName: "size",
+                        formatValues: ["11px", "12px", "16px"]
+                    }, "separator",
+                    "alignLeft", "alignCenter", "alignRight"
+                ]
+            };
+        }
+    }
+
+##### React
+
+    <!--JavaScript-->
+    import React from "react";
+    import HtmlEditor, { Toolbar } from "devextreme-react/html-editor";
+
+    const value = `
+        <p><b>Lorem ipsum dolor sit amet</b>, 
+        <i>consectetur adipiscing elit</i>, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    `;
+    const items = [
+        "bold", "italic", "separator", {
+            formatName: "size",
+            formatValues: ["11px", "12px", "16px"]
+        }, "separator",
+        "alignLeft", "alignCenter", "alignRight"
+    ];
+
+    class App extends React.Component {
+        render() {
+            return (
+                <HtmlEditor
+                    valueType="html"
+                    defaultValue={value}>
+                        <Toolbar items={items} />
+                </HtmlEditor>
+            );
+        }
+    }
+
+    export default App;
 
 ---
 
