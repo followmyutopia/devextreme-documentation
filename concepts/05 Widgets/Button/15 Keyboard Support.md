@@ -66,7 +66,7 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
         :ref="myButtonRef" />
 
     <!--TypeScript-->
-    import DxButton from "devextreme-vue/ui/button";
+    import DxButton from "devextreme-vue/button";
 
     const myButtonRef = "my-button";
 

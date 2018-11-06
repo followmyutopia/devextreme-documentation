@@ -164,7 +164,7 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
 #####Vue
 
     <!--JavaScript-->
-    import DxSelectBox from "devextreme-vue/ui/select-box";
+    import DxSelectBox from "devextreme-vue/select-box";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {
@@ -237,7 +237,7 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
 
     <!--JavaScript-->
     import React from "react";
-    import SelectBox from "devextreme-react/ui/select-box";
+    import SelectBox from "devextreme-react/select-box";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {

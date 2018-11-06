@@ -154,7 +154,7 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
 #####Vue
 
     <!--JavaScript-->
-    import DxDataGrid from "devextreme-vue/ui/data-grid";
+    import DxDataGrid from "devextreme-vue/data-grid";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {
@@ -222,7 +222,7 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
 
     <!--JavaScript-->
     import React from "react";
-    import DataGrid, { RemoteOperations } from "devextreme-react/ui/data-grid";
+    import DataGrid, { RemoteOperations } from "devextreme-react/data-grid";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {

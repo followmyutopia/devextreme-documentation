@@ -95,9 +95,9 @@ Commonly, editors nested into an HTML form are supposed to be validated on the c
     </form>
 
     <!--TypeScript-->
-    import DxTextBox from "devextreme-vue/ui/text-box";
-    import DxValidator, { DxValidationRule } from "devextreme-vue/ui/validator";
-    import DxButton from "devextreme-vue/ui/button";
+    import DxTextBox from "devextreme-vue/text-box";
+    import DxValidator, { DxValidationRule } from "devextreme-vue/validator";
+    import DxButton from "devextreme-vue/button";
 
     export default {
         components: {

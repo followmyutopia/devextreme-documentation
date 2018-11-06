@@ -185,7 +185,7 @@ The **ButtonGroup** is a widget that contains a set of toggle buttons, and can b
         selection-mode="multiple" />
 
     <!--TypeScript-->
-    import { DxButtonGroup } from "devextreme-vue/ui/button-group";
+    import { DxButtonGroup } from "devextreme-vue/button-group";
 
     export default {
         components: {
@@ -214,7 +214,7 @@ The **ButtonGroup** is a widget that contains a set of toggle buttons, and can b
 
     <!--TypeScript-->
     import React from "react";
-    import { ButtonGroup } from "devextreme-react/ui/button-group";
+    import { ButtonGroup } from "devextreme-react/button-group";
 
     const fontStyles = [{
         style: "bold",

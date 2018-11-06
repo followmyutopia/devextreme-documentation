@@ -53,7 +53,7 @@ The following code adds a simple **Button** to your page.
         @click="okClicked" />
 
     <!--TypeScript-->
-    import DxButton from "devextreme-vue/ui/button";
+    import DxButton from "devextreme-vue/button";
     import notify from "devextreme/ui/notify";
 
     export default {

@@ -154,7 +154,7 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
 #####Vue
 
     <!--JavaScript-->
-    import DxLookup from "devextreme-vue/ui/lookup";
+    import DxLookup from "devextreme-vue/lookup";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {
@@ -218,7 +218,7 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
 
     <!--JavaScript-->
     import React from "react";
-    import Lookup from "devextreme-react/ui/lookup";
+    import Lookup from "devextreme-react/lookup";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {

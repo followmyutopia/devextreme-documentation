@@ -160,7 +160,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
 #####Vue
 
     <!--JavaScript-->
-    import DxList from "devextreme-vue/ui/list";
+    import DxList from "devextreme-vue/list";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {
@@ -229,7 +229,7 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
 
     <!--JavaScript-->
     import React from "react";
-    import List from "devextreme-react/ui/list";
+    import List from "devextreme-react/list";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {

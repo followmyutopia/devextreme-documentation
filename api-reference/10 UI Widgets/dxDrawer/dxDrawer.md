@@ -297,9 +297,9 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
     </div>
 
     <!--JavaScript-->
-    import DxDrawer from "devextreme-vue/ui/drawer";
-    import DxButton from "devextreme-vue/ui/button";
-    import DxList from "devextreme-vue/ui/list";
+    import DxDrawer from "devextreme-vue/drawer";
+    import DxButton from "devextreme-vue/button";
+    import DxList from "devextreme-vue/list";
 
     export default {
         components: {
@@ -331,9 +331,9 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
 
     <!--JavaScript-->
     import React from "react";
-    import Drawer from "devextreme-react/ui/drawer";
-    import Button from "devextreme-react/ui/button";
-    import List from "devextreme-react/ui/list";
+    import Drawer from "devextreme-react/drawer";
+    import Button from "devextreme-react/button";
+    import List from "devextreme-react/list";
     // ...
     const navigation = [
         { id: 1, text: "Inbox"},

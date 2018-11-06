@@ -126,7 +126,7 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
 #####Vue
 
     <!--JavaScript-->
-    import DxTreeList from "devextreme-vue/ui/tree-list";
+    import DxTreeList from "devextreme-vue/tree-list";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {
@@ -188,7 +188,7 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
 
     <!--JavaScript-->
     import React from "react";
-    import TreeList, { RemoteOperations } from "devextreme-react/ui/tree-list";
+    import TreeList, { RemoteOperations } from "devextreme-react/tree-list";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {

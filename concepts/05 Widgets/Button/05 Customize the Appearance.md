@@ -47,7 +47,7 @@ The **Button** widget provides five predefined appearances controlled by the [ty
         type="default" /> <!-- or "normal" | "back" | "danger" | "success" -->
 
     <!--TypeScript-->
-    import DxButton from "devextreme-vue/ui/button";
+    import DxButton from "devextreme-vue/button";
 
     export default {
         components: {
@@ -118,7 +118,7 @@ Apart from plain text, the **Button** can display an icon. DevExtreme provides [
         icon="remove" />
 
     <!--TypeScript-->
-    import DxButton from "devextreme-vue/ui/button";
+    import DxButton from "devextreme-vue/button";
 
     export default {
         components: {
@@ -199,7 +199,7 @@ If you need to define the **Button** content completely, implement a template fo
     </dx-button>
 
     <!--TypeScript-->
-    import DxButton from "devextreme-vue/ui/button";
+    import DxButton from "devextreme-vue/button";
 
     export default {
         components: {

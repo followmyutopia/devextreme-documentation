@@ -51,7 +51,7 @@ To allow a user to add, delete and update data in the **DataGrid**, assign **tru
     </dx-data-grid>
 
     <!--JavaScript-->
-    import { DxDataGrid, DxEditing } from "devextreme-vue/ui/data-grid";
+    import { DxDataGrid, DxEditing } from "devextreme-vue/data-grid";
     export default {
         // ...
         data() {
@@ -70,7 +70,7 @@ To allow a user to add, delete and update data in the **DataGrid**, assign **tru
 
     <!--JavaScript-->
     import React from "react";
-    import DataGrid, { Editing } from "devextreme-react/ui/data-grid";
+    import DataGrid, { Editing } from "devextreme-react/data-grid";
     // ...
     class App extends React.Component {
         render() {
@@ -172,7 +172,7 @@ With these settings, the **DataGrid** expects that the server can also add, upda
 #####Vue
 
     <!--JavaScript-->
-    import DxDataGrid from "devextreme-vue/ui/data-grid";
+    import DxDataGrid from "devextreme-vue/data-grid";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function handleErrors(response) {
@@ -229,7 +229,7 @@ With these settings, the **DataGrid** expects that the server can also add, upda
 
     <!--JavaScript-->
     import React from "react";
-    import DataGrid from "devextreme-react/ui/data-grid";
+    import DataGrid from "devextreme-react/data-grid";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function handleErrors(response) {

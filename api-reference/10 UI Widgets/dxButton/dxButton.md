@@ -112,7 +112,7 @@ The **Button** widget is a simple button that performs specified commands when a
         @click="buttonClicked" />
 
     <!--TypeScript-->
-    import DxButton from "devextreme-vue/ui/button";
+    import DxButton from "devextreme-vue/button";
 
     export default {
         components: {

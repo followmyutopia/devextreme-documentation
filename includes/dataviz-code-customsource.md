@@ -94,7 +94,7 @@
 #####Vue
 
     <!--JavaScript-->
-    import Dx{WidgetName} from "devextreme-vue/ui/{widget-name}";
+    import Dx{WidgetName} from "devextreme-vue/{widget-name}";
     import CustomStore from "devextreme/data/custom_store";
     import DataSource from "devextreme/data/data_source";
     // ...
@@ -154,7 +154,7 @@
 
     <!--JavaScript-->
     import React from "react";
-    import {WidgetName} from "devextreme-react/ui/{widget-name}";
+    import {WidgetName} from "devextreme-react/{widget-name}";
     import CustomStore from "devextreme/data/custom_store";
     import DataSource from "devextreme/data/data_source";
     // ...

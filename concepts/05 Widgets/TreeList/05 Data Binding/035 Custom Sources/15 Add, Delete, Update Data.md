@@ -50,7 +50,7 @@ To allow a user to add, delete and update data in the **TreeList**, assign **tru
     </dx-tree-list>
 
     <!--JavaScript-->
-    import { DxTreeList, DxEditing } from "devextreme-vue/ui/tree-list";
+    import { DxTreeList, DxEditing } from "devextreme-vue/tree-list";
     export default {
         // ...
         data() {
@@ -69,7 +69,7 @@ To allow a user to add, delete and update data in the **TreeList**, assign **tru
 
     <!--JavaScript-->
     import React from "react";
-    import TreeList, { Editing } from "devextreme-react/ui/tree-list";
+    import TreeList, { Editing } from "devextreme-react/tree-list";
     // ...
     class App extends React.Component {
         render() {
@@ -170,7 +170,7 @@ With these settings, the **TreeList** expects that the server can also add, upda
 #####Vue
 
     <!--JavaScript-->
-    import DxTreeList from "devextreme-vue/ui/tree-list";
+    import DxTreeList from "devextreme-vue/tree-list";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function handleErrors(response) {
@@ -227,7 +227,7 @@ With these settings, the **TreeList** expects that the server can also add, upda
 
     <!--JavaScript-->
     import React from "react";
-    import TreeList from 'devextreme-react/ui/tree-list';
+    import TreeList from 'devextreme-react/tree-list';
     import CustomStore from 'devextreme/data/custom_store';
     // ...
     function handleErrors(response) {

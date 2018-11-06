@@ -174,7 +174,7 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
 #####Vue
 
     <!--JavaScript-->
-    import DxTagBox from "devextreme-vue/ui/tag-box";
+    import DxTagBox from "devextreme-vue/tag-box";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {
@@ -251,7 +251,7 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
 
     <!--JavaScript-->
     import React from "react";
-    import TagBox from "devextreme-react/ui/tag-box";
+    import TagBox from "devextreme-react/tag-box";
     import CustomStore from "devextreme/data/custom_store";
     // ...
     function isNotEmpty(value) {
