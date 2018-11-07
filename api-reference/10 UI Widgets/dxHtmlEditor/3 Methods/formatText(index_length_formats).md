@@ -2,27 +2,62 @@
 ===================================================================
 
 <!--shortDescription-->
-
+Applies several [text formats](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) to all characters in the given range.
 <!--/shortDescription-->
 
 <!--paramName1-->index<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-
+A zero-based index at which to begin formatting.
 <!--/paramDescription1-->
 
 <!--paramName2-->length<!--/paramName2-->
 <!--paramType2-->Number<!--/paramType2-->
 <!--paramDescription2-->
-
+The length of the content to be formatted.      
+[Embedded items](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName/formats) have a length of 1. 
 <!--/paramDescription2-->
 
 <!--paramName3-->formats<!--/paramName3-->
 <!--paramType3-->Object<!--/paramType3-->
 <!--paramDescription3-->
-
+Formats to be applied.      
+This object should have the following structure:        
+`{ "formatName1": "formatValue1", ... }`
 <!--/paramDescription3-->
 
 <!--fullDescription-->
+---
+#####jQuery
 
+    <!--JavaScript-->
+    // Makes the first five characters bold and underlined
+    $("#htmlEditorContainer").dxHtmlEditor("instance").formatText(0, 5, { "bold": "true", "underline": "true" });
+
+#####Angular
+
+    <!--TypeScript-->
+    import { ..., ViewChild } from "@angular/core";
+    import { DxHtmlEditorModule, DxHtmlEditorComponent } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        @ViewChild(DxHtmlEditorComponent) htmlEditor: DxHtmlEditorComponent;
+        applyLineFormats() {
+            // Makes the first five characters bold and underlined
+            this.htmlEditor.instance.formatText(0, 5, { "bold": "true", "underline": "true" });
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+           DxHtmlEditorModule
+        ],
+        // ...
+    })
+
+---
+
+#####See Also#####
+- [formatText(index, length, formatName, formatValue)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#formatTextindex_length_formatName_formatValue)
+- [formatLine(index, length, formatName, formatValue)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#formatLineindex_length_formatName_formatValue) | [formatLine(index, length, formats)](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#formatLineindex_length_formats)
 <!--/fullDescription-->

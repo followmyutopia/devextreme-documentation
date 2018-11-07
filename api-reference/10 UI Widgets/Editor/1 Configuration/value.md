@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the currently selected value.
+Specifies the widget's value.
 <!--/shortDescription-->
 
 <!--fullDescription-->

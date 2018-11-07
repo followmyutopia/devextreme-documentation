@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies a collection of variables available for a user.
 <!--/shortDescription-->
 
 <!--fullDescription-->

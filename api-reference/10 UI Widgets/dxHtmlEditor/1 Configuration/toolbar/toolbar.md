@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures the widget's toolbar.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](Content/images/doc/18_2/htmlEditor/visual_elements/toolbar.png)
 <!--/fullDescription-->
