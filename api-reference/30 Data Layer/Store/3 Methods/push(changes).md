@@ -2,17 +2,17 @@
 ===================================================================
 
 <!--shortDescription-->
-Pushes changes to the store and then to the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
+Pushes data changes to the store and notifies the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/).
 <!--/shortDescription-->
 
 <!--paramName1-->changes<!--/paramName1-->
 <!--paramType1-->Array<any><!--/paramType1-->
 <!--paramDescription1-->
-Changes to be pushed. 
+Data changes to be pushed. 
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-This method allows you to pass changes received from a push server to the store and then to the **DataSource**. There are three possible changes:
+There are three possible data change types:
 
 ---
 #####jQuery
@@ -22,11 +22,9 @@ This method allows you to pass changes received from a push server to the store 
         // {WidgetName} is configured here
     });
  
-    store.push([{ type: "insert", data: any }]);
-    // or
-    // store.push([{ type: "update", data: any, key: any }]);
-    // or 
-    // store.push([{ type: "remove", key: any }]);
+    store.push([{ type: "insert", data: data }]);
+    store.push([{ type: "update", data: data, key: key }]);
+    store.push([{ type: "remove", key: key }]);
 
 #####Angular
 
@@ -39,11 +37,9 @@ This method allows you to pass changes received from a push server to the store 
             this.store = new {WidgetName}({
                 // {WidgetName} is configured here
             });
-            this.store.push([{ type: "insert", data: any }]);
-            // or
-            // this.store.push([{ type: "update", data: any, key: any }]);
-            // or
-            // this.store.push([{ type: "remove", key: any }]);
+            this.store.push([{ type: "insert", data: data }]);
+            this.store.push([{ type: "update", data: data, key: key }]);
+            this.store.push([{ type: "remove", key: key }]);
         };
     }
 
