@@ -1,4 +1,6 @@
-This technique applies to any data source as anything passed to the **Sankey**'s [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#dataSource) option is wrapped in the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). To get the **DataSource** instance, call the **Sankey**'s [getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Methods/#getDataSource) method.
+[note] This technique requires the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) specified in the [store](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores).
+
+To get the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance, call the **Sankey**'s [getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Methods/#getDataSource) method:
 
 ---
 
@@ -59,14 +61,13 @@ This technique applies to any data source as anything passed to the **Sankey**'s
     
 ---
 
-After that, you should access the underlying [store](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores) with the [store()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#store) method, and call the store's [insert(values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#insertvalues), [update(key, values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#updatekey_values) or [remove(key)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#removekey) method to modify data. Note that to use the **update(key, values)** and **remove(key)** methods, you need to specify the store's [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) property. After all modifications are made, call the **DataSource**'s [load](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method to make the **Sankey** reflect the changes.
+Then, access the underlying store with the [store()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#store) method, and call the store's [push(changes)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#pushchanges) method to modify data. The **Sankey** will be updated automatically.
 
     <!--JavaScript-->
-    sankeyDataSource.store().update(["Brazil", "Spain"], { weight: 6 });
-    sankeyDataSource.store().remove(["Canada", "Portugal"]);
-    sankeyDataSource.load();
-
-[note] You can also use the **DataSource** to apply data shaping options, such as [filtering](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#filterfilterExpr) or [sorting](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#sortsortExpr) at runtime. After making changes, call the **load** method to update the **Sankey**.
+    ds.store().push([
+        { type: "update", key: "Oranges", data: { count: 10 } },
+        { type: "remove", key: "Apples" }
+    ]);
 
 #####See Also#####
 #include common-link-callmethods

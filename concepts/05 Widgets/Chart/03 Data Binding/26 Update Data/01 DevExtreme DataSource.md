@@ -1,4 +1,6 @@
-This technique is universal for any data source as anything passed to the [dataSource](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#dataSource) option of the **Chart** ends up wrapped in the [DevExtreme DataSource](/Documentation/ApiReference/Data_Layer/DataSource/). To get the **DataSource** instance, call the [getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getDataSource) method of the **Chart**.
+[note] This technique requires the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) specified in the [store](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores).
+
+To get the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) instance, call the **Chart**'s [getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Methods/#getDataSource) method:
 
 ---
 
@@ -56,13 +58,13 @@ This technique is universal for any data source as anything passed to the [dataS
     
 ---
 
-After that, you need to access the underlying [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Layer_Data_Layer_Creating_DataSource_What_Are_Stores) with the [store()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#store) method, and call the [insert(values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#insertvalues), [update(key, values)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#updatekey_values) or [remove(key)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#removekey) method of the Store to modify data. Note that in order to use the **update(key, values)** and **remove(key)** methods, you need to specify the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) property for the Store. After all modifications are made, call the [load](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#load) method in the **DataSource** instance to make the **Chart** reflect the changes.
+Then, access the underlying store with the [store()](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#store) method, and call the store's [push(changes)](/Documentation/ApiReference/Data_Layer/CustomStore/Methods/#pushchanges) method to modify data. The **Chart** will be updated automatically.
 
-    <!--JavaScript-->ds.store().update("Oranges", { count: 10 });
-    ds.store().remove("Apples");
-    ds.load();
-
-[note] You can also apply data shaping options, such as [filtering](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#filterfilterExpr), [sorting](/Documentation/ApiReference/Data_Layer/DataSource/Methods/#sortsortExpr), etc., using the **DataSource** at runtime. In any case, call the **load** method afterwards to notify the **Chart** of the changes.
+    <!--JavaScript-->
+    ds.store().push([
+        { type: "update", key: "Oranges", data: { count: 10 } },
+        { type: "remove", key: "Apples" }
+    ]);
 
 #####See Also#####
 #include common-link-callmethods
