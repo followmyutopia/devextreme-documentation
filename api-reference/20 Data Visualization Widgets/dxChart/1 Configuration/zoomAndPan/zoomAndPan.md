@@ -39,10 +39,10 @@ You can use the [allowTouchGestures](/Documentation/ApiReference/Data_Visualizat
 
 Users can also use the mouse to zoom the chart by selecting an area with the drag gesture. Refer the [dragToZoom](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/#dragToZoom) option for more information.
 
-<!-- Zooming and panning are related to the visual/whole range concept. Refer to the [Visual and Whole Ranges](/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/) article for more information. -->
+Zooming and panning are related to the visual/whole range concept. Refer to the [Visual and Whole Ranges](/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/) article for more information.
 
 #####See Also#####
-- [Zooming and Scrolling](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/)
+- [Zooming and Panning](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/)
 - [onZoomStart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomStart) | [onZoomEnd](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomEnd)
 - **argumentAxis**.[visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) | **valueAxis**.[visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/visualRange/)
 <!--/fullDescription-->

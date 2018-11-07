@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to adjust the value axis's [visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/visualRange/) when the [argument axis](/Documentation/Guide/Widgets/Chart/Axes/Overview/) is being [zoomed or panned](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/).
+Specifies whether to adjust the value axis's [visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/visualRange/) when the [argument axis](/Documentation/Guide/Widgets/Chart/Axes/Overview/) is being [zoomed or panned](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/).
 <!--/shortDescription-->
 
 <!--fullDescription-->

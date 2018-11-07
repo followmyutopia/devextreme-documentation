@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Defines the range where the axis can be [zoomed and panned](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/). Equals the data range when not set.
+Defines the range where the axis can be [zoomed and panned](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/). Equals the data range when not set.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -17,6 +17,7 @@ Defines the range where the axis can be [zoomed and panned](/Documentation/Guide
 }
 
 #####See Also#####
+- [Visual and Whole Ranges](/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/)
 - [visualRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/visualRange/)
 - [zoomAndPan](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/zoomAndPan/)
 <!--/fullDescription-->

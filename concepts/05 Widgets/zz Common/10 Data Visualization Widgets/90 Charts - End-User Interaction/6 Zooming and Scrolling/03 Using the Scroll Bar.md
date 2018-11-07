@@ -21,4 +21,4 @@ The scroll bar is configured using the [scrollBar](/Documentation/ApiReference/D
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatures011_zoomingwithscroll/"
 }
 
-To learn more about the scroll bar as a visual element, refer to the **Chart Elements** | [Scroll Bar](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/#Using_the_Scroll_Bar) topic.
+To learn more about the scroll bar as a visual element, refer to the **Chart Elements** | [Scroll Bar](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/#Using_the_Scroll_Bar) topic.

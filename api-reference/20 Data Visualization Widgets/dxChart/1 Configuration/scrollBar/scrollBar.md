@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the settings of the [scroll bar](/Documentation/Guide/Widgets/Chart/Zooming_and_Scrolling/#Using_the_Scroll_Bar).
+Specifies the settings of the [scroll bar](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/#Using_the_Scroll_Bar).
 <!--/shortDescription-->
 
 <!--fullDescription-->

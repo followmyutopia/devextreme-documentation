@@ -1,3 +1,0 @@
-Zooming and scrolling is an efficient way to navigate a chart that contains many series points. A user can zoom and scroll the chart using mouse commands or touch gestures, the scrollbar, or the [RangeSelector](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/) widget. Each of these cases are detailed in this topic.
-
-[tags]chart, zooming, scrolling, scroll bar, range selector
