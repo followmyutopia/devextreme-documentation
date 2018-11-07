@@ -1,5 +1,5 @@
 ===========================================================================
-<!--default-->'buttonClick'<!--/default-->
+<!--default-->'buttonClick', 'rowClick' (mobile_devices)<!--/default-->
 <!--acceptValues-->'buttonClick' | 'rowClick'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================

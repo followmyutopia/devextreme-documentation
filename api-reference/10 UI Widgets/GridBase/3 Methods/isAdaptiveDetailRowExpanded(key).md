@@ -11,6 +11,11 @@ Checks whether an adaptive detail row is expanded or collapsed.
 The key of the data row to which the adaptive detail row belongs.
 <!--/paramDescription1-->
 
+<!--returnType-->Boolean<!--/returnType-->
+<!--returnDescription-->
+*true* if the adaptive detail row is expanded; **false** if collapsed.
+<!--/returnDescription-->
+
 <!--fullDescription-->
 To access a data row by its key, specify the field that provides keys in the [data source]({basewidgetpath}/Configuration/#dataSource). If no key was specified, the whole data object is considered the key.
 
