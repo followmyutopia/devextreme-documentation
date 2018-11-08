@@ -14,7 +14,7 @@ By default, group headers contain the text of the **key** field in a bold font. 
             <p style="margin:0px">{{itemObj.name}} | {{itemObj.count}}</p>
         </div>
         <div *dxTemplate="let groupObj of 'group'">
-            <p>{{itemObj.key}} | {{itemObj.overallCount}}</p>
+            <p>{{groupObj.key}} | {{groupObj.overallCount}}</p>
         </div>
     </dx-list>
 
