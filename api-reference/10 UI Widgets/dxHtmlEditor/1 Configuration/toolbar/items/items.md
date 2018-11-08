@@ -216,4 +216,8 @@ These controls are buttons. To customize one of them, assign its name to the [fo
 To use another widget instead of a button, specify the [widget](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#widget) option and configure the widget in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object. In this case, you should also implement all the logic. 
 
 The toolbar also provides short syntax for implementing a custom drop-down control with multiple choices. Refer to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) description for details.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/jQuery/Light/"
+}
 <!--/fullDescription-->

@@ -11,6 +11,10 @@ To customize a built-in control, assign its name to this option and specify the 
 
 This option also accepts names of formats with multiple choices. In addition to the format name, specify [formatValues](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatValues). On the toolbar, such formats are represented by [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/) widgets whose [options](/Documentation/ApiReference/UI_Widgets/dxSelectBox/Configuration/) you can specify in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/jQuery/Light/"
+}
+
 In the following code, the `header` and `size` formats are configured as described in the previous paragraph:
 
 
