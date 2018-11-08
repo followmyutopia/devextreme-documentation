@@ -8,6 +8,10 @@ Specifies the [command column](/Documentation/Guide/Widgets/DataGrid/Columns/Col
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CommandColumnCustomization/jQuery/Light/"
+}
+
 #####See Also#####
 - [Configure a Command Column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/#Configure_a_Command_Column)
 - [Column Reordering](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Reordering/)

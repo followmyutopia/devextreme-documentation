@@ -41,4 +41,9 @@ Restricts file extensions that can be uploaded to the server.
     })
 
 ---
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FileUploader/Validation/jQuery/Light/"
+}
+
 <!--/fullDescription-->

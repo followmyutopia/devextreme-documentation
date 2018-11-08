@@ -46,6 +46,10 @@ The following table shows the operations that are performed after saving changes
     <sup>***</sup> - Set <a href="{basewidgetpath}/Configuration/remoteOperations/">remoteOperations</a> to <b>false</b> and <a href="{basewidgetpath}/Configuration/#cacheEnabled">cacheEnabled</a> to <b>true</b> to avoid data reloading.
 </div>
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CRUDOperations/jQuery/Light/"
+}
+
 #include common-ref-enum with {
     enum: "`GridEditRefreshMode`",
     values: "`Full`, `Reshape`, and `Repaint`"

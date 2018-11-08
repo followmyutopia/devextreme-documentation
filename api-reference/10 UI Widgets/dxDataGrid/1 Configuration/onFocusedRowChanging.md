@@ -9,6 +9,10 @@ A function that is executed before the focused row changes. Applies only when [f
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/jQuery/Light/"
+}
+
 #####See Also#####
 - [focusedRowIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowIndex) | [focusedRowKey](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedRowKey)
 - [focusedColumnIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#focusedColumnIndex)

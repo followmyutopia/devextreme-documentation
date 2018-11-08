@@ -1,5 +1,9 @@
 To allow a user to add, delete and update data in the **TreeList**, assign **true** to the corresponding field of the [editing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/) object. 
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CRUDOperations/jQuery/Light/"
+}
+
 ---
 ##### jQuery
 

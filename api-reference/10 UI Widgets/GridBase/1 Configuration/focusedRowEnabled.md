@@ -17,6 +17,10 @@ When this option is set to **true**, the following applies:
 
 [note] Specify the widget's [keyExpr]({basewidgetpath}/Configuration/#keyExpr) or the [Store's](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) **key** option to ensure that the focused row feature works properly.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/jQuery/Light/"
+}
+
 #####See Also#####
 - [navigateToRow(key)]({basewidgetpath}/Methods/#navigateToRowkey)
 - [focusedColumnIndex]({basewidgetpath}/Configuration/#focusedColumnIndex)

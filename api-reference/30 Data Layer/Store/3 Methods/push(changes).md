@@ -45,13 +45,24 @@ There are three possible data change types:
 
 ---
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/SignalRService/jQuery/Light/"
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/SignalRService/jQuery/Light/",
+    name: "DataGrid SignalR"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/SignalRService/jQuery/Light/",
+    name: "Chart SignalR"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/jQuery/Light/",
+    name: "DataGrid Real-Time Updates"
+}
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/CollaborativeEditing/jQuery/Light/",
+    name: "DataGrid Collaborative Editing"
 }
 
 #####See Also#####
-- [onPush]({basewidgetpath}/Configuration/#onPush)
-- **DataSource**.[pushAggregationTimeout](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pushAggregationTimeout)
-- **DataSource**.[reshapeOnPush](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#reshapeOnPush)
+- [Integration with Push Services](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Modification/Integration_with_Push_Services)
 - **API Reference.WidgetName.repaintChangesOnly**, for example, API Reference.[DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/).[repaintChangesOnly](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#repaintChangesOnly)
 <!--/fullDescription-->

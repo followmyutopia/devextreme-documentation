@@ -13,6 +13,10 @@ The focused row has a key and index on a page. When the [pager]({basewidgetpath}
 
 In the **DataGrid**, you can also focus group rows. See the [Group Index and Key](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Group_Index_and_Key) topic for more information on how group keys are formed.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/jQuery/Light/"
+}
+
 #####See Also#####
 - [focusedRowIndex]({basewidgetpath}/Configuration/#focusedRowIndex)
 - [onFocusedRowChanging]({basewidgetpath}/Configuration/#onFocusedRowChanging) | [onFocusedRowChanged]({basewidgetpath}/Configuration/#onFocusedRowChanged)

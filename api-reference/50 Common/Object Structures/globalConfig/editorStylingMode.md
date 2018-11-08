@@ -16,4 +16,8 @@ The following styles are available:
     <!--JavaScript-->DevExpress.config({ 
         editorStylingMode: 'filled' // or 'outlined' | 'underlined'
     });
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Common/StylingMode/jQuery/Light/"
+}
 <!--/fullDescription-->

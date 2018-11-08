@@ -245,4 +245,8 @@ The **ButtonGroup** is a widget that contains a set of toggle buttons, and can b
     export default App;
 
 ---
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/ButtonGroup/Overview/jQuery/Light/"
+}
 <!--/fullDescription-->

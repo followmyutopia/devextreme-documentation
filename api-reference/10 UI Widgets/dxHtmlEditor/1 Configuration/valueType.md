@@ -19,6 +19,9 @@ Markdown requires the [turndown](https://www.npmjs.com/package/turndown) and [sh
 
 [/note]
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ValueTypes/jQuery/Light/"
+}
 
 #include common-ref-enum with {
     enum: "`HtmlEditorValueType`",

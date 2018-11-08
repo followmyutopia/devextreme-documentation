@@ -12,6 +12,10 @@ The name of the widget that should represent the toolbar control.
 
 Configure the specified widget in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object. You can find information on available widget options in the widget's API reference.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/jQuery/Light/"
+}
+
 In the following example, the [CheckBox](/Documentation/ApiReference/UI_Widgets/dxCheckBox/) widget with a label and a custom **valueChanged** event handler is added as a custom toolbar control. The [locateInMenu](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#locateInMenu) option set to *"never"* ensures that the toolbar control is never hidden to the overflow menu.
 
 ---

@@ -41,6 +41,10 @@ Users can also use the mouse to zoom the chart by selecting an area with the dra
 
 Zooming and panning are related to the visual/whole range concept. Refer to the [Visual and Whole Ranges](/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/) article for more information.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingOnAreaSelection/jQuery/Light/"
+}
+
 #####See Also#####
 - [Zooming and Panning](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/)
 - [onZoomStart](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomStart) | [onZoomEnd](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#onZoomEnd)

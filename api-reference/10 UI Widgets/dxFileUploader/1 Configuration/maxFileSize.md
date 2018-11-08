@@ -8,5 +8,7 @@ Specifies the maximum file size (in bytes) allowed for uploading. Applies only i
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FileUploader/Validation/jQuery/Light/"
+}
 <!--/fullDescription-->

@@ -309,4 +309,8 @@ variables: {
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/jQuery/Light/"
+}
+
 <!--/fullDescription-->

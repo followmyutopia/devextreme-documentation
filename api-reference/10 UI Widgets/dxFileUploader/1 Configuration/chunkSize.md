@@ -19,4 +19,7 @@ Set this option to a positive value to enable a chunked upload. Each request to 
         TotalCount: long,   // The file's total chunk count
     }
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FileUploader/ChunkUploading/jQuery/Light/"
+}
 <!--/fullDescription-->
