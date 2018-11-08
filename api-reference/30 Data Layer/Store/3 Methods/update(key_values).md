@@ -23,6 +23,8 @@ A Promise that is resolved after the data item is updated. It is a [native Promi
 <!--/returnDescription-->
 
 <!--fullDescription-->
+In the following code, **dataObj** is a data object updated in the database and returned from the server. If the server returns nothing or the store works with local data, **dataObj** contains the data object passed to the **update** method.
+
 ---
 ##### jQuery
 
@@ -32,8 +34,8 @@ A Promise that is resolved after the data item is updated. It is a [native Promi
     });
 
     store.update(1, { name: "John Smith" })
-         .done(function (key, dataItem) {
-             // Process the "key" and "dataItem" here
+         .done(function (dataObj, key) {
+             // Process the key and data object here
          })
          .fail(function (error) {
              // Handle the "error" here
@@ -52,11 +54,12 @@ A Promise that is resolved after the data item is updated. It is a [native Promi
             });
             this.store.update(1, { name: "John Smith" })
                 .then(
-                    (key) => { /* Process the "key" here */ },
+                    (dataObj) => { /* Process the data object here */ },
                     (error) => { /* Handle the "error" here */ }
                 );
         };
     }
     
 ---
+
 <!--/fullDescription-->

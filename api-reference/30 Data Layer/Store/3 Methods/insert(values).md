@@ -13,10 +13,12 @@ A data item.
 
 <!--returnType-->Promise<any><!--/returnType-->
 <!--returnDescription-->
-A Promise that is resolved after the data item is added. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
+A Promise that is resolved after a data item is added. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/returnDescription-->
 
 <!--fullDescription-->
+In the following code, **dataObj** is a data object added to the database and returned from the server. If the server returns nothing or the store works with local data, **dataObj** contains the data object passed to the **insert** method.
+
 ---
 ##### jQuery
 
@@ -26,8 +28,8 @@ A Promise that is resolved after the data item is added. It is a [native Promise
     });
 
     store.insert({ id: 1, name: "John Doe" })
-         .done(function (dataItem, key) {
-             // Process the "key" and "dataItem" here
+         .done(function (dataObj, key) {
+             // Process the key and data object here
          })
          .fail(function (error) {
              // Handle the "error" here
@@ -46,7 +48,7 @@ A Promise that is resolved after the data item is added. It is a [native Promise
             });
             this.store.insert({ id: 1, name: "John Doe" })
                 .then(
-                    (dataItem) => { /* Process the "dataItem" here */ },
+                    (dataObj) => { /* Process the data object here */ },
                     (error) => { /* Handle the "error" here */ }
                 );
         };
@@ -54,5 +56,5 @@ A Promise that is resolved after the data item is added. It is a [native Promise
     
 ---
 
-[note] The data item's key value should be unique or the insertion fails.
+[note] The data item's key value should be unique, otherwise, the insertion will fail.
 <!--/fullDescription-->
