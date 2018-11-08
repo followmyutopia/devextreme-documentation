@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Customizes data before exporting. 
+Customizes data before export. You can use the **exporting**.[customizeExcelCell](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#customizeExcelCell) function instead.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -75,5 +75,5 @@ All column [configurations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Co
 <!--typeFunctionParamName2-->rows<!--/typeFunctionParamName2-->
 <!--typeFunctionParamType2-->Array<dxDataGridRowObject><!--/typeFunctionParamType2-->
 <!--typeFunctionParamDescription2-->
-The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) objects. This array contains only the exported rows.
+The [Row](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Row/) objects. This array contains only exported rows.
 <!--/typeFunctionParamDescription2-->

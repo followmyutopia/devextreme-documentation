@@ -4,10 +4,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether data from this column should be exported.
+Specifies whether data from this column should be exported. Applies only if the column is [visible](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visible).
 <!--/shortDescription-->
 
 <!--fullDescription-->
 #####See Also#####
-- [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/)
+- [Client-Side Exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/)
 <!--/fullDescription-->

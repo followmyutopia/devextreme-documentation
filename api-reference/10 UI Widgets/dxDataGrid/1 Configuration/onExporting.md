@@ -9,7 +9,7 @@ A function that is executed before data is exported.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can use this function with the [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) function to adjust columns before exporting. In the following code, these functions are used to change a column's caption for the exported file without changing it in the widget:
+You can use this function with the [onExported](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onExported) function to adjust columns before export. In the following code, these functions are used to export a hidden `ID` column:
 
 ---
 ##### jQuery
@@ -17,14 +17,17 @@ You can use this function with the [onExported](/Documentation/ApiReference/UI_W
     <!--JavaScript-->$(function() {
         $("#dataGridContainer").dxDataGrid({
             // ...
+            columns: [{
+                dataField: "ID",
+                visible: false
+            }, // ...
+            ]
             onExporting: function (e) {
-                // Changes the caption 
                 e.component.beginUpdate();
-                e.component.columnOption("dataField", "caption", "New Caption");
+                e.component.columnOption("ID", "visible", true);
             },
             onExported: function (e) {
-                // Restores the original caption
-                e.component.columnOption("dataField", "caption", "Original Caption");
+                e.component.columnOption("ID", "visible", false);
                 e.component.endUpdate();
             }
         });
@@ -38,13 +41,11 @@ You can use this function with the [onExported](/Documentation/ApiReference/UI_W
     // ...
     export class AppComponent {
         onExporting (e) {
-            // Changes the caption 
             e.component.beginUpdate();
-            e.component.columnOption("dataField", "caption", "New Caption");
+            e.component.columnOption("dataField", "visible", true);
         };
         onExported (e) {
-            // Restores the original caption
-            e.component.columnOption("dataField", "caption", "Original Caption");
+            e.component.columnOption("dataField", "visible", false);
             e.component.endUpdate();
         }
     }
@@ -59,6 +60,8 @@ You can use this function with the [onExported](/Documentation/ApiReference/UI_W
     <!--HTML--><dx-data-grid ...
         (onExporting)="onExporting($event)"
         (onExported)="onExported($event)">
+        <!-- ... -->
+        <dxi-column dataField="ID" [visible]="false"></dxi-column>
     </dx-data-grid>
 
 ---
@@ -72,17 +75,17 @@ You can use this function with the [onExported](/Documentation/ApiReference/UI_W
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-Information about the event that caused the function's execution.
+Information about the event that caused the function execution.
 <!--/typeFunctionParamDescription1-->
 <!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
 <!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
 <!--typeFunctionParamDescription1_field1-->
-The widget's instance.
+A widget instance.
 <!--/typeFunctionParamDescription1_field1-->
 <!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
 <!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
 <!--typeFunctionParamDescription1_field2-->
-The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+A widget container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field2-->
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
@@ -92,10 +95,10 @@ The model data. Available only if Knockout is used.
 <!--typeFunctionParamName1_field4-->fileName<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->String<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The name of the file to which grid data is about to be exported.
+The name of the file where grid data is about to be exported.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->cancel<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Boolean<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-Allows you to cancel exporting.
+Allows you to cancel exporting data.
 <!--/typeFunctionParamDescription1_field5-->
