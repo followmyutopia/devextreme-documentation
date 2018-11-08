@@ -1,5 +1,5 @@
 ===========================================================================
-<!--acceptValues-->'dxAutocomplete' | 'dxButton' | 'dxCheckBox' | 'dxDateBox' | 'dxMenu' | 'dxSelectBox' | 'dxTabs' | 'dxTextBox'<!--/acceptValues-->
+<!--acceptValues-->'dxAutocomplete' | 'dxButton' | 'dxCheckBox' | 'dxDateBox' | 'dxMenu' | 'dxSelectBox' | 'dxTabs' | 'dxTextBox' | 'dxButtonGroup'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
