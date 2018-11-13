@@ -11,4 +11,5 @@ Specifies when to call the [onValueChanged](/Documentation/ApiReference/Data_Vis
 <!--fullDescription-->
 #####See Also#####
 - [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value)
+- [selectedRangeUpdateMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#selectedRangeUpdateMode)
 <!--/fullDescription-->

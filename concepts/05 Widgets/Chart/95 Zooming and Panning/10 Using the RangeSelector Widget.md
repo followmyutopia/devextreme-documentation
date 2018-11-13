@@ -1,4 +1,4 @@
-The **Chart** can be zoomed and scrolled using the [RangeSelector](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/) widget. The following code shows how to bind these widgets. Note that the **Chart** and **RangeSelector** have a common data source and may have the same series configuration if the **RangeSelector** should display the **Chart** in the background. 
+The **Chart** can be zoomed and panned using the [RangeSelector](/Documentation/Guide/Widgets/RangeSelector/Visual_Elements/) widget. The following code shows how to bind these widgets. Note that the **Chart** and **RangeSelector** have a common data source and may have the same series configuration if the **RangeSelector** should display the **Chart** in the background.
 
 ---
 ##### jQuery
@@ -49,7 +49,6 @@ The **Chart** can be zoomed and scrolled using the [RangeSelector](/Documentatio
     </dx-range-selector>
 
     <!--TypeScript-->
-    import { ..., ViewChild } from "@angular/core";
     import { DxChartModule, DxRangeSelectorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
@@ -73,8 +72,47 @@ The **Chart** can be zoomed and scrolled using the [RangeSelector](/Documentatio
     url: "/Demos/WidgetsGallery/Demo/Charts/ZoomingAndScrollingAPI/jQuery/Light/"
 }
 
-#####See Also#####
-- [Visual and Whole Ranges](/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/)
+When your data source is updated in real time, the behavior of both the **Chart**'s [visual range](/Documentation/Guide/Widgets/Chart/Axes/Visual_and_Whole_Ranges/) and the **RangeSelector**'s selected range depends on the [selectedRangeUpdateMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#selectedRangeUpdateMode) option specified for the **RangeSelector**:
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        // ...
+        // The Chart is configured here
+
+        $("#rangeSelectorContainer").dxRangeSelector({
+            // ...
+            selectedRangeUpdateMode: "keep" // the ranges remain unchanged
+        });
+    });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-chart ... ></dx-chart>
+    <dx-range-selector ... 
+        selectedRangeUpdateMode="keep"> <!-- the ranges remain unchanged -->
+    </dx-range-selector>
+
+    <!--TypeScript-->
+    import { DxChartModule, DxRangeSelectorModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxChartModule,
+            DxRangeSelectorModule
+        ],
+        // ...
+    })
+
+---
+
 
 If you need to fix the zoom window and allow users to only move it along the scale, set the [scale](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/) object's [minRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/minRange/) and [maxRange](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/scale/maxRange/) options to a single value defining the zoom window's length. Make sure you specify the initial zoom factor using the [value](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#value) option.
 

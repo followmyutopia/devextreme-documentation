@@ -18,6 +18,7 @@ The **onValueChanged** function can be called when a user moves a slider or afte
 
 #####See Also#####
 #include common-link-handleevents
+- [selectedRangeUpdateMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/#selectedRangeUpdateMode)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
