@@ -124,13 +124,17 @@ A custom format string specifies a format using Unicode Locale Data Markup Langu
       <td>S</td>
       <td>A fractional second.</td>
     </tr>
+    <tr>
+      <td>'' (two single quotes)</td>
+      <td>Literal text. Text enclosed in two single quotes is shown as-is.</td>
+    </tr>
     </tbody>
     </table>
 </div> 
 
 [note] [Reference the Globalize library](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Globalize) in your application to use other [numeric](http://unicode.org/reports/tr35/tr35-numbers.html#Special_Pattern_Characters) or [datetime](http://unicode.org/reports/tr35/tr35-dates.html#Date_Field_Symbol_Table) format characters.
 
-The following code shows how to apply LDML patterns to format numbers and dates.
+The following code shows how to apply LDML patterns to format numbers and dates:
 
 ---
 ##### jQuery

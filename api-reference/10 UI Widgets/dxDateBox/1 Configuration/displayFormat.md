@@ -15,4 +15,7 @@ The default display format is selected automatically based on the current [local
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DateBox/Formatting/jQuery/Light/"
 }
+
+#####See Also#####
+- [Format Widget Values](/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values)
 <!--/fullDescription-->

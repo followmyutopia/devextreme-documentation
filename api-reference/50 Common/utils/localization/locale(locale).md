@@ -15,4 +15,7 @@ The required locale identifier.
 
 <!--fullDescription-->
 [note] This method should be called only once - at the application's launch. It is necessary to reload the page each time you need to set new locale.
+
+#####See Also#####
+- [Localization](/Documentation/Guide/Common/Localization/)
 <!--/fullDescription-->

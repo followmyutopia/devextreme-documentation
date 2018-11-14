@@ -11,4 +11,7 @@ Specifies whether to control user input using a mask created based on the [displ
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DateBox/Formatting/jQuery/Light/"
 }
+
+#####See Also#####
+- [Value Formatting and Masked Input](/Documentation/Guide/Widgets/DateBox/Value_Formatting_and_Masked_Input/)
 <!--/fullDescription-->

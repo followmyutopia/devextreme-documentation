@@ -1,0 +1,49 @@
+The **DateBox**'s value is formatted according to the application's [locale](/Documentation/ApiReference/Common/utils/localization/#locale). You can use the [displayFormat](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#displayFormat) option that accepts [predefined](/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values/Predefined_Formats) and [custom formats](/Documentation/Guide/Common/Value_Formatting/#Format_Widget_Values/Custom_Format_String) to change the format.
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/DateBox/Formatting/jQuery/Light/"
+}
+
+In addition to value formatting, the **displayFormat** can be used as a mask to control user input if [useMaskBehavior](/Documentation/ApiReference/UI_Widgets/dxDateBox/Configuration/#useMaskBehavior) is **true**:
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("#dateBoxContainer").dxDateBox({
+            displayFormat: "EEEE, d 'of' MMM", // "Tuesday, 16 of Oct" 
+            useMaskBehavior: true
+        });
+    });
+
+##### Angular
+
+    <!--HTML-->
+    <dx-date-box
+        [useMaskBehavior]="true"
+        displayFormat="EEEE, d 'of' MMM"> <!-- "Tuesday, 16 of Oct" -->
+    </dx-date-box>
+
+    <!--TypeScript-->
+    import { DxDateBoxModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDateBoxModule
+        ],
+        // ...
+    })
+
+---
+
+The following changes apply when masked input is enabled:
+
+- The mouse wheel or Up/Down Arrow key increases/decreases the selected value portion by 1.
+- The caret is moved to the next date portion when the previous date portion is entered.
+- The year is entered right-to-left. For example, if `1` is entered, the year is `2001`; if `18` is entered, the year is `2018`.
+- Numbers and first letters can be used to specify the month and day of week when they are displayed as text. For example, enter `A` or `4` to specify "April".
