@@ -1,5 +1,6 @@
 ===========================================================================
 <!--type-->Object | String | Array<Number><!--/type-->
+<!--firedEvents-->optionChanged<!--/firedEvents-->
 <!--inherits-->..\..\..\MapLocation\MapLocation.md<!--/inherits-->
 ===========================================================================
 

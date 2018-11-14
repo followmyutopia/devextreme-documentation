@@ -6,7 +6,7 @@ Gets the value of any field linked with the current cell.
 <!--/shortDescription-->
 
 <!--paramName1-->field<!--/paramName1-->
-<!--paramType1-->PivotGridDataSource_Options_fields<!--/paramType1-->
+<!--paramType1-->PivotGridDataSource_Options_fields|String<!--/paramType1-->
 <!--paramDescription1-->
 The field whose value to return.
 <!--/paramDescription1-->
