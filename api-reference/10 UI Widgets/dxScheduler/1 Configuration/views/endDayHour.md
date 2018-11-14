@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The end hour of the view time scale.
+Specifies the last hour in the view's time scale.
 <!--/shortDescription-->
 
 <!--fullDescription-->

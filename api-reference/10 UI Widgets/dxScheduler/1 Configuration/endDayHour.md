@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies an end hour in the scheduler view's time interval.
+Specifies the last hour in the time scale. Cannot be greater than 24.
 <!--/shortDescription-->
 
 <!--fullDescription-->

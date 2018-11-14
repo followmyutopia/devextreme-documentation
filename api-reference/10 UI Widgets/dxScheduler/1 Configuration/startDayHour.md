@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a start hour in the scheduler view's time interval.
+Specifies the first hour in the time scale.
 <!--/shortDescription-->
 
 <!--fullDescription-->

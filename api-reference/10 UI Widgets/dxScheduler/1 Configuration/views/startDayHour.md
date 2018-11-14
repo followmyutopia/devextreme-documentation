@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The start hour of the view time scale.  
+Specifies the start hour in the view's time scale. Cannot be greater than 24.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when an appointment's edit form is created.
+Raised before an appointment's details form is opened.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -30,15 +30,15 @@ The widget's container. It is an [HTML Element](https://developer.mozilla.org/en
 <!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
 <!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
 <!--typeFunctionParamDescription1_field3-->
-The model data. Available only if Knockout is used.
+The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
 <!--typeFunctionParamName1_field4-->appointmentData<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The data of the appointment for which a form is created.
+The data of the appointment for which a form is opened.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->form<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->dxForm<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The form's [configuration](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/).
+The form's instance.
 <!--/typeFunctionParamDescription1_field5-->
