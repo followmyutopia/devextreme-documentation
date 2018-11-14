@@ -26,6 +26,7 @@ The widget has the rich UI that provides the following end-user capabilities:
 - [Selection](/Documentation/Guide/Widgets/DataGrid/Selection/)
 - [Grouping](/Documentation/Guide/Widgets/DataGrid/Grouping/)
 - [Summaries](/Documentation/Guide/Widgets/DataGrid/Summaries/)
+- [Focused Row](/Documentation/Guide/Widgets/DataGrid/Focused_Row/)
 - [Client-Side Exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/)
 - [Master-Detail Interface](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/)
 

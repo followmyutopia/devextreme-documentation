@@ -9,6 +9,50 @@ A function that is executed before the focused cell changes.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+In the following code, the **onFocusedCellChanging** function is used to customize keyboard navigation within a row. The cell navigation is looped in a single row because focus moves to the row's first cell after reaching the last cell and vice versa:
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("#treeListContainer").dxTreeList({
+            // ...
+            onFocusedCellChanging: function (e) {
+                if (e.newColumnIndex == e.prevColumnIndex) {
+                    e.newColumnIndex = (e.newColumnIndex == 0 ? e.columns.length - 1 : 0)
+                }
+            }
+        });
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        onFocusedCellChanging (e) { 
+            if (e.newColumnIndex == e.prevColumnIndex) {
+                e.newColumnIndex = (e.newColumnIndex == 0 ? e.columns.length - 1 : 0)
+            }
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-tree-list ...
+        (onFocusedCellChanging)="onFocusedCellChanging($event)">
+    </dx-tree-list>
+    
+---
+
 #####See Also#####
 - [focusedRowIndex](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#focusedRowIndex) | [focusedRowKey](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#focusedRowKey)
 - [focusedColumnIndex](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#focusedColumnIndex)
@@ -36,7 +80,7 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->cellElement<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->dxElement<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The container of the to-be-focused cell. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
+The container of the cell that should be focused. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->prevColumnIndex<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->Number<!--/typeFunctionParamType1_field5-->
@@ -61,7 +105,7 @@ The index of the row the cell that should be focused belongs to.
 <!--typeFunctionParamName1_field9-->event<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->event<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The event that caused the function execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery.
+The event that caused the function's execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->rows<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->Array<dxTreeListRowObject><!--/typeFunctionParamType1_field10-->

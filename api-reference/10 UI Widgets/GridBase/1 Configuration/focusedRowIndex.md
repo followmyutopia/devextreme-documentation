@@ -9,7 +9,7 @@ Specifies the initially or currently focused grid row's index. Use it when [focu
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The index is reset on each page in standard [scrolling](/Documentation/Guide/Widgets/{WidgetName}/Scrolling/) mode but preserved with other scrolling modes.
+The focused row has a [key]({basewidgetpath}/Configuration/#focusedRowKey) and index on a page. When the [pager]({basewidgetpath}/Configuration/pager/) is used for navigation, the focused row's index persists from page to page but corresponds to a different row with a different key on each page.
 
 The default index, *-1*, means that no row is focused.
 

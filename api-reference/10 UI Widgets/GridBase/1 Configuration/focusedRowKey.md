@@ -9,9 +9,9 @@ Specifies initially or currently focused grid row's key. Use it when [focusedRow
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The focused row has a key and index on a page. When the [pager]({basewidgetpath}/Configuration/pager/) is used for navigation, the focused row's index persists from page to page but corresponds to a different row with a different key on each page.
+The focused row has a key and [index]({basewidgetpath}/Configuration/#focusedRowIndex) on a page. When the [pager]({basewidgetpath}/Configuration/pager/) is used for navigation, the focused row's index persists from page to page but corresponds to a different row with a different key on each page.
 
-In the **DataGrid**, you can also focus group rows. See the [Group Index and Key](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Group_Index_and_Key) topic for more information on how group keys are formed.
+In the **DataGrid**, group rows can also be focused. See the [Group Index and Key](/Documentation/Guide/Widgets/DataGrid/Grouping/#API/Group_Index_and_Key) topic for more information on how group keys are formed.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/FocusedRow/jQuery/Light/"

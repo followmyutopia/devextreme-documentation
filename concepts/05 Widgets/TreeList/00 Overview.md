@@ -22,6 +22,7 @@ Finally, configure the most useful end-user capabilities.
 - [Column Fixing](/Documentation/Guide/Widgets/TreeList/Columns/Column_Fixing/)
 - [Filtering and Searching](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/)
 - [Scrolling](/Documentation/Guide/Widgets/TreeList/Scrolling/)
+- [Focused Row](/Documentation/Guide/Widgets/TreeList/Focused_Row/)
 - [Selection](/Documentation/Guide/Widgets/TreeList/Selection/)
 
 #####See Also#####
