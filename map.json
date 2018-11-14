@@ -18,7 +18,9 @@
     "dxElement",
     "animationSets",
     "devices",
-    "layoutSets"
+    "layoutSets",
+    "globalConfig/useLegacyStoreResult",
+    "globalConfig/useLegacyVisibleIndex"
   ],
 
   "10 UI Widgets": {
