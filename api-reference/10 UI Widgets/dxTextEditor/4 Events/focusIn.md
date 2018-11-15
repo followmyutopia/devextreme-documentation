@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when the widget loses focus.
+Raised when the widget gets focus.
 <!--/shortDescription-->
 
 <!--fullDescription-->
