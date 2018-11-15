@@ -45,6 +45,12 @@ There are three possible data change types:
 
 ---
 
+New data items are inserted at the end, and the user may not notice them. Sorting, filtering, and other data processing settings may also become outdated. Enable the [reshapeOnPush](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#reshapeOnPush) option to reapply them to all data, including the new items. We also recommend setting the [pushAggregationTimeout](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pushAggregationTimeout) to reduce the number of updates and recalculations.
+
+#include common-demobutton-named with {
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/jQuery/Light/",
+    name: "DataGrid Real-Time Updates"
+}
 #include common-demobutton-named with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/SignalRService/jQuery/Light/",
     name: "DataGrid SignalR"
@@ -54,15 +60,11 @@ There are three possible data change types:
     name: "Chart SignalR"
 }
 #include common-demobutton-named with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/jQuery/Light/",
-    name: "DataGrid Real-Time Updates"
-}
-#include common-demobutton-named with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/CollaborativeEditing/jQuery/Light/",
     name: "DataGrid Collaborative Editing"
 }
 
 #####See Also#####
 - [Integration with Push Services](/Documentation/Guide/Data_Layer/Data_Layer/#Data_Modification/Integration_with_Push_Services)
-- **API Reference.WidgetName.repaintChangesOnly**, for example, API Reference.[DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/).[repaintChangesOnly](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#repaintChangesOnly)
+- **API Reference.WidgetName.repaintChangesOnly**, for example, **API Reference**.[DataGrid](/Documentation/ApiReference/UI_Widgets/dxDataGrid/).[repaintChangesOnly](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#repaintChangesOnly)
 <!--/fullDescription-->
