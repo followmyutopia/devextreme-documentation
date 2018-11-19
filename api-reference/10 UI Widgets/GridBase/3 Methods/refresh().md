@@ -15,7 +15,7 @@ The widget cannot track changes a third party makes in the data source. To updat
 
 [note] Calling the **refresh()** method ends the editing process. In *batch* [editing mode]({basewidgetpath}/Configuration/editing/#mode), changes are saved in a buffer before they are saved to the data source. In other modes, all unsaved changes are discarded. 
 
-###See Also#####
+#####See Also#####
 - [refresh(changesOnly)](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#refreshchangesOnly)
 #include common-link-callmethods
 <!--/fullDescription-->
