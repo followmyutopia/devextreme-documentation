@@ -98,7 +98,7 @@ After being notified, the **DataSource** can reapply sorting, filtering, groupin
         var ds = new DataSource({
             store: store,
             reshapeOnPush: true,
-            pushAggregationTimeout: 1000 // push every second
+            pushAggregationTimeout: 10000 // push every ten seconds
         });
     });
 
@@ -117,7 +117,7 @@ After being notified, the **DataSource** can reapply sorting, filtering, groupin
             this.ds = new DataSource({
                 store: this.store,
                 reshapeOnPush: true,
-                pushAggregationTimeout: 1000 // push every second
+                pushAggregationTimeout: 10000 // push every ten seconds
             });
         }
     }
