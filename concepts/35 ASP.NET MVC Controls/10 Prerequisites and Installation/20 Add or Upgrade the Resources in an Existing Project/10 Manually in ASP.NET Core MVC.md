@@ -6,11 +6,7 @@
 
     - **DevExpress NuGet Feed**     
 
-        Find your authorization key in your DevExpress account's [Download Manager](https://www.devexpress.com/ClientCenter/DownloadManager/).
-
-        ![DevExtreme ASP.NET MVC Controls - Install the NuGet Packages](/Content/images/doc/18_2/Common/download-manager.png)
-
-        Run the following command with this key. If `nuget` is not recognized, install the NuGet CLI using [these instructions](https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference).
+        [Obtain your NuGet feed URL](https://docs.devexpress.com/GeneralInformation/116042/installation/install-devexpress-controls-using-nuget-packages/obtain-your-nuget-feed-url) and run the following command. If `nuget` is not recognized, install the NuGet CLI using [these instructions](https://docs.microsoft.com/en-us/nuget/tools/nuget-exe-cli-reference).
             
             nuget sources Add -Name "DevExpress NuGet Feed" -Source "https://nuget.devexpress.com/{authorization key}/api"
 

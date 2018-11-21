@@ -1,6 +1,6 @@
 1. Open your project in Visual Studio.
 
-2. Add the DevExtreme.AspNet.Mvc.dll assembly to References. You can find the assembly in %ProgramFiles(x86)%\DevExpress 18.2\DevExtreme\System\DevExtreme\Bin\AspNet if you did not change the default installation path. Alternatively, you can install the **DevExtreme.AspNet.Mvc** NuGet package from the [DevExpress NuGet feed](https://www.devexpress.com/Support/Center/Question/Details/T466415/devexpress-nuget-packages).
+2. Add the DevExtreme.AspNet.Mvc.dll assembly to References. You can find the assembly in %ProgramFiles(x86)%\DevExpress 18.2\DevExtreme\System\DevExtreme\Bin\AspNet if you did not change the default installation path. Alternatively, you can install the **DevExtreme.AspNet.Mvc** NuGet package from the [DevExpress NuGet feed](https://nuget.devexpress.com/).
 
 3. Add the `DevExtreme.AspNet.Mvc` namespace to the Views\Web.config file:
 
