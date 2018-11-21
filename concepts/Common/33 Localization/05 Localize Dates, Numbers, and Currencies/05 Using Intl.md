@@ -50,6 +50,11 @@
         // Dictionaries for German and Russian languages
         import deMessages from "devextreme/localization/messages/de.json!json";
         import ruMessages from "devextreme/localization/messages/ru.json!json";
+
+        // In projects created with Angular CLI 6+
+        // import deMessages from "devextreme/localization/messages/de.json";
+        // import ruMessages from "devextreme/localization/messages/ru.json";
+        
         import { locale, loadMessages } from "devextreme/localization";
 
         loadMessages(deMessages);
@@ -76,7 +81,7 @@
         url: "/Demos/WidgetsGallery/Demo/Localization/UsingIntl/Angular/Light/"
     }
 
-The Intl setup automatically localizes and formats string, number, date, and currency values according to the specified locale. You can use a currency other than USD globally or in format definitions:
+Strings, numbers, dates, and currencies are now automatically localized and formatted according to the specified locale. You can also specify a currency other than USD globally (using the [defaultCurrency](/Documentation/ApiReference/Common/Object_Structures/globalConfig/#defaultCurrency) setting) or in format definitions:
 
 ---
 #####jQuery

@@ -2,17 +2,13 @@ Activating Globalize in your project requires the following files:
 
 - Globalize library
 - CLDR library
-- CLDR JSON files for each required language.
+- CLDR data
 
-You can find the Globalize and CLDR libraries on your local machine in the DevExtreme installation folder's or ZIP archive's Lib\js directory.
-
-CLDR JSON files are available in the [Unicode-CLDR](https://github.com/unicode-cldr) repository. Refer to [this table](https://github.com/globalizejs/globalize#2-cldr-content) for details on which CLDR JSONs you may require.
-
-All the components are also available via CDN and npm. 
+All the components are available via CDN and npm.
 
 * **CDN or local files**      
 
-    Include the Globalize and CLDR libraries along with the [dictionaries](/Documentation/Guide/Common/Localization/#Dictionaries) using `<script>` tags as shown below. The order is important. Then, load CLDR JSONs using `$.getJSON` calls (you need to add the jQuery script) and set the locale using the `Globalize.locale()` method:
+    Include the Globalize and CLDR libraries using `<script>` tags as shown below. In this example, German and Russian [dictionaries](/Documentation/Guide/Common/Localization/#Dictionaries) are also included. Note that the order you include the libraries is important. Then, set the locale using the `Globalize.locale()` method:
 
     ---
     ##### CDN
@@ -34,30 +30,14 @@ All the components are also available via CDN and npm.
             <!-- Dictionary files for German and Russian languages -->
             <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/localization/dx.messages.de.js"></script>
             <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/localization/dx.messages.ru.js"></script>
+            <!-- Common and language-specific CLDR data -->
+            <script src="https://unpkg.com/devextreme-cldr-data/supplemental.js"></script>
+            <script src="https://unpkg.com/devextreme-cldr-data/de.js"></script>
+            <script src="https://unpkg.com/devextreme-cldr-data/ru.js"></script>
         </head>
         <script>
             $(function() {
-                $.when(
-                    // Gets language-specific CLDR JSONs for German and Russian
-                    $.getJSON("https://unpkg.com/cldr-dates-full/main/de/ca-gregorian.json"),
-                    $.getJSON("https://unpkg.com/cldr-numbers-full/main/de/numbers.json"),
-                    $.getJSON("https://unpkg.com/cldr-numbers-full/main/de/currencies.json"),
-                    $.getJSON("https://unpkg.com/cldr-dates-full/main/ru/ca-gregorian.json"),
-                    $.getJSON("https://unpkg.com/cldr-numbers-full/main/ru/numbers.json"),
-                    $.getJSON("https://unpkg.com/cldr-numbers-full/main/ru/currencies.json"),
-                    $.getJSON("https://unpkg.com/cldr-core/supplemental/likelySubtags.json"),
-                    $.getJSON("https://unpkg.com/cldr-core/supplemental/timeData.json"),
-                    $.getJSON("https://unpkg.com/cldr-core/supplemental/weekData.json"),
-                    $.getJSON("https://unpkg.com/cldr-core/supplemental/currencyData.json"),
-                    $.getJSON("https://unpkg.com/cldr-core/supplemental/numberingSystems.json")
-                ).then(function () {
-                    // Normalizes $.getJSON results getting only the JSON without the request statuses
-                    return [].slice.apply( arguments, [0] ).map(function( result ) {
-                        return result[0];
-                    });
-                }).then( Globalize.load ).then(function() {
-                    Globalize.locale(navigator.language || navigator.browserLanguage);
-                });
+                Globalize.locale(navigator.language || navigator.browserLanguage);
             });
         </script>
 
@@ -73,7 +53,7 @@ All the components are also available via CDN and npm.
 
         npm install --save-dev cldr-data globalize
 
-    Then, include Globalize, CLDR, CLDR JSONs, and the dictionaries using the `import` or `require` statement&mdash;the statement depends on the syntax for working with modules. The following code shows ECMAScript 6 syntax used with a SystemJS module loader, and CommonJS syntax used with a Webpack module bundler:
+    Then, include Globalize, CLDR, and language-specific CLDR data using the `import` or `require` statement&mdash;the statement depends on the syntax for working with modules. The code below shows ECMAScript 6 syntax used with a SystemJS module loader, and CommonJS syntax used with a Webpack module bundler. These examples include German and Russian dictionaries.
 
     ---
     ##### npm: ECMAScript 6 syntax / SystemJS configuration
@@ -87,31 +67,23 @@ All the components are also available via CDN and npm.
         // Dictionaries for German and Russian languages
         import deMessages from "devextreme/localization/messages/de.json!json";
         import ruMessages from "devextreme/localization/messages/ru.json!json";
+        
+        // Common and language-specific CLDR JSONs
+        import supplemental from "devextreme-cldr-data/supplemental.json!json";
+        import deCldrData from "devextreme-cldr-data/de.json!json";
+        import ruCldrData from "devextreme-cldr-data/ru.json!json";
 
-        // Language-specific CLDR JSONs for German and Russian
-        import deCaGregorian from "cldr-data/main/de/ca-gregorian.json!json";
-        import deNumbers from "cldr-data/main/de/numbers.json!json";
-        import deCurrencies from "cldr-data/main/de/currencies.json!json";
-        import ruCaGregorian from "cldr-data/main/ru/ca-gregorian.json!json";
-        import ruNumbers from "cldr-data/main/ru/numbers.json!json";
-        import ruCurrencies from "cldr-data/main/ru/currencies.json!json";
-
-        import likelySubtags from "cldr-data/supplemental/likelySubtags.json!json";
-        import timeData from "cldr-data/supplemental/timeData.json!json";
-        import weekData from "cldr-data/supplemental/weekData.json!json";
-        import currencyData from "cldr-data/supplemental/currencyData.json!json";
-        import numberingSystems from "cldr-data/supplemental/numberingSystems.json!json";
+        // In projects created with Angular CLI 6+
+        // import deMessages from "devextreme/localization/messages/de.json";
+        // import ruMessages from "devextreme/localization/messages/ru.json";
+        // import supplemental from "devextreme-cldr-data/supplemental.json";
+        // import deCldrData from "devextreme-cldr-data/de.json";
+        // import ruCldrData from "devextreme-cldr-data/ru.json";
 
         import Globalize from "globalize";
 
         Globalize.load(
-            deCaGregorian, deNumbers, deCurrencies,
-            ruCaGregorian, ruNumbers, ruCurrencies,
-            likelySubtags,
-            timeData,
-            weekData,
-            currencyData,
-            numberingSystems
+            supplemental, deCldrData, ruCldrData
         );
 
         Globalize.loadMessages(deMessages);
@@ -119,7 +91,7 @@ All the components are also available via CDN and npm.
 
         Globalize.locale(navigator.language || navigator.browserLanguage)
 
-    **config.js**
+    In projects created with Angular CLI 6+, register Globalize as described [here](https://github.com/DevExpress/devextreme-angular/blob/master/docs/setup-3rd-party-dependencies.md#globalize-registration). In other projects, configure **config.js**:
 
         <!--JavaScript-->
         System.config({
@@ -152,29 +124,21 @@ All the components are also available via CDN and npm.
     ##### npm: CommonJS syntax / Webpack configuration
 
         <!--JavaScript-->
-        require("devextreme/localization/globalize/message");
-        require("devextreme/localization/globalize/number");
-        require("devextreme/localization/globalize/currency");
-        require("devextreme/localization/globalize/date");
+        require('devextreme/localization/globalize/message');
+        require('devextreme/localization/globalize/number');
+        require('devextreme/localization/globalize/currency');
+        require('devextreme/localization/globalize/date');
 
         // Dictionaries for German and Russian languages
-        const deMessages = require("devextreme/localization/messages/de.json");
-        const ruMessages = require("devextreme/localization/messages/ru.json");
+        const deMessages = require('devextreme/localization/messages/de.json');
+        const ruMessages = require('devextreme/localization/messages/ru.json');
         
-        const Globalize = require("globalize");
+        const Globalize = require('globalize');
         Globalize.load(
-            // Language-specific CLDR JSONs for German and Russian
-            require("cldr-data/main/de/ca-gregorian.json"),
-            require("cldr-data/main/de/numbers.json"),
-            require("cldr-data/main/de/currencies.json"),
-            require("cldr-data/main/ru/ca-gregorian.json"),
-            require("cldr-data/main/ru/numbers.json"),
-            require("cldr-data/main/ru/currencies.json"),
-            require("cldr-data/supplemental/likelySubtags.json"),
-            require("cldr-data/supplemental/timeData.json"),
-            require("cldr-data/supplemental/weekData.json"),
-            require("cldr-data/supplemental/currencyData.json"),
-            require("cldr-data/supplemental/numberingSystems.json")
+            // Common and language-specific CLDR JSONs
+            require('devextreme-cldr-data/supplemental.json'),
+            require('devextreme-cldr-data/main/de.json'),
+            require('devextreme-cldr-data/main/ru.json')
         );
 
         Globalize.loadMessages(deMessages);
@@ -256,4 +220,7 @@ In addition, you can now format values using structures accepted by [numberForma
 
 
 #####See Also#####
-- [Sample Projects on GitHub](https://github.com/DevExpress/devextreme-examples)
+- [DevExtreme Angular sample project with Webpack and Globalize](https://github.com/DevExpress/devextreme-examples/tree/18_2/webpack-angular-globalize)
+- [DevExtreme Angular sample project with SystemJS and Globalize](https://github.com/DevExpress/devextreme-examples/tree/18_2/systemjs-angular-globalize)
+- [Value Formatting](/Documentation/Guide/Common/Value_Formatting)
+- [Third-Party Dependencies Registration in Angular CLI 6+](https://github.com/DevExpress/devextreme-angular/blob/master/docs/setup-3rd-party-dependencies.md)
