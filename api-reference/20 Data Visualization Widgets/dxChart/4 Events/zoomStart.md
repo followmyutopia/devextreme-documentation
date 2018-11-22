@@ -33,18 +33,28 @@ The widget's container. It is an [HTML Element](https://developer.mozilla.org/en
 <!--typeFunctionParamDescription1_field3-->
 The model data. Available only if you use Knockout.
 <!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->axis<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->chartAxisObject<!--/typeFunctionParamType1_field4-->
+<!--typeFunctionParamName1_field4-->event<!--/typeFunctionParamName1_field4-->
+<!--typeFunctionParamType1_field4-->event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 The zoomed/panned axis.
 <!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->range<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->VizRange<!--/typeFunctionParamType1_field5-->
+<!--typeFunctionParamName1_field5-->axis<!--/typeFunctionParamName1_field5-->
+<!--typeFunctionParamType1_field5-->chartAxisObject<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
 The [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) on zooming or panning start.
 <!--/typeFunctionParamDescription1_field5-->
-<!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Boolean<!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamName1_field6-->range<!--/typeFunctionParamName1_field6-->
+<!--typeFunctionParamType1_field6-->VizRange<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Allows you to cancel zooming or panning.
 <!--/typeFunctionParamDescription1_field6-->
+<!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
+<!--typeFunctionParamType1_field7-->Boolean<!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamDescription1_field7-->
+
+<!--/typeFunctionParamDescription1_field7-->
+<!--typeFunctionParamName1_field8-->actionType<!--/typeFunctionParamName1_field8-->
+<!--typeFunctionParamType1_field8-->'zoom' | 'pan'<!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamDescription1_field8-->
+
+<!--/typeFunctionParamDescription1_field8-->

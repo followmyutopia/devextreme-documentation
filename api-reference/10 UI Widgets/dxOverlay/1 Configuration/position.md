@@ -1,5 +1,6 @@
 ===========================================================================
 <!--default-->{ my: 'center', at: 'center', of: window }<!--/default-->
+<!--firedEvents-->positioning, positioned<!--/firedEvents-->
 ===========================================================================
 
 <!--shortDescription-->
