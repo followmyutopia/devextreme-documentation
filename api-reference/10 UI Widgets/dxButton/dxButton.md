@@ -106,12 +106,12 @@ The **Button** widget is a simple button that performs specified commands when a
 
 ##### Vue
 
-    <!--HTML-->
-    <dx-button
-        text="Click me"
-        @click="buttonClicked" />
-
-    <!--TypeScript-->
+    <template>
+        <dx-button
+            text="Click me"
+            @click="buttonClicked" />
+    </template>
+    <script>
     import DxButton from "devextreme-vue/button";
 
     export default {
@@ -124,6 +124,7 @@ The **Button** widget is a simple button that performs specified commands when a
             }
         }
     }
+    </script>
 
 ---
 

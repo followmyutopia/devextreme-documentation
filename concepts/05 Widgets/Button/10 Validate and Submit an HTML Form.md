@@ -76,25 +76,25 @@ Commonly, editors nested into an HTML form are supposed to be validated on the c
 
 ##### Vue
 
-    <!--HTML-->
-    <form action="/Login" method="post">
-        <dx-text-box name="Login">
-            <dx-validator>
-                <dx-validation-rule type="required" />
-            </dx-validator>
-        </dx-text-box>
-        <dx-text-box name="Password" mode="password">
-            <dx-validator>
-                <dx-validation-rule type="required" />
-            </dx-validator>
-        </dx-text-box>
-        <dx-button
-            text="Submit"
-            type="success"
-            :use-submit-behavior="true" />
-    </form>
-
-    <!--TypeScript-->
+    <template>
+        <form action="/Login" method="post">
+            <dx-text-box name="Login">
+                <dx-validator>
+                    <dx-validation-rule type="required" />
+                </dx-validator>
+            </dx-text-box>
+            <dx-text-box name="Password" mode="password">
+                <dx-validator>
+                    <dx-validation-rule type="required" />
+                </dx-validator>
+            </dx-text-box>
+            <dx-button
+                text="Submit"
+                type="success"
+                :use-submit-behavior="true" />
+        </form>
+    </template>
+    <script>
     import DxTextBox from "devextreme-vue/text-box";
     import DxValidator, { DxValidationRule } from "devextreme-vue/validator";
     import DxButton from "devextreme-vue/button";
@@ -107,6 +107,7 @@ Commonly, editors nested into an HTML form are supposed to be validated on the c
             DxButton
         }
     }
+    </script>
 
 ---
 

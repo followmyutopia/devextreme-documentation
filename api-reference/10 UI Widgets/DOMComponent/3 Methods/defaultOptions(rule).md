@@ -52,5 +52,57 @@ Options to be applied.
         }
     }
 
+##### Vue
+
+    <template>
+        <div>
+            <dx-{widget-name} id="{widgetName}1" />
+            <dx-{widget-name} id="{widgetName}2" />
+        </div>
+    </template>
+    <script>
+    import Dx{WidgetName} from "devextreme-vue/{widget-name}";
+    import {WidgetName} from "devextreme/ui/{widget_name}";
+
+    {WidgetName}.defaultOptions({
+        device: { deviceType: "desktop" },
+        options: {
+            // Here go the {WidgetName} options
+        }
+    });
+
+    export default {
+        components: {
+            Dx{WidgetName}
+        }
+    }
+    </script>
+
+
+##### React
+
+    import React from "react";
+    import dx{WidgetName} from "devextreme/ui/{widget_name}";
+    import {WidgetName} from "devextreme-react/{widget-name}";
+
+    class App extends React.Component {
+        render () {
+            dx{WidgetName}.defaultOptions({
+                device: { deviceType: "desktop" },
+                options: {
+                    // Here go the {WidgetName} options
+                }
+            })
+            return (
+                <div>
+                    <{WidgetName} id={"{widgetName}1"} />
+                    <{WidgetName} id={"{widgetName}2"} />
+                </div>
+            )
+        }
+    }
+
+    export default App;
+
 ---
 <!--/fullDescription-->

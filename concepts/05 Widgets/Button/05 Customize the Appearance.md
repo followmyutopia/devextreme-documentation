@@ -40,13 +40,13 @@ The **Button** widget provides five predefined appearances controlled by the [ty
 
 ##### Vue
 
-    <!--HTML-->
-    <dx-button
-        text="Click me"
-        @click="foo"
-        type="default" /> <!-- or "normal" | "back" | "danger" | "success" -->
-
-    <!--TypeScript-->
+    <template>
+        <dx-button
+            text="Click me"
+            @click="foo"
+            type="default" /> <!-- or "normal" | "back" | "danger" | "success" -->
+    </template>
+    <script>
     import DxButton from "devextreme-vue/button";
 
     export default {
@@ -59,6 +59,7 @@ The **Button** widget provides five predefined appearances controlled by the [ty
             }
         }
     }
+    </script>
 
 ---
 
@@ -110,14 +111,14 @@ Apart from plain text, the **Button** can display an icon. DevExtreme provides [
 
 ##### Vue
 
-    <!--HTML-->
-    <dx-button
-        text="Delete"
-        @click="foo"
-        type="danger"
-        icon="remove" />
-
-    <!--TypeScript-->
+    <template>
+        <dx-button
+            text="Delete"
+            @click="foo"
+            type="danger"
+            icon="remove" />
+    </template>
+    <script>
     import DxButton from "devextreme-vue/button";
 
     export default {
@@ -130,6 +131,7 @@ Apart from plain text, the **Button** can display an icon. DevExtreme provides [
             }
         }
     }
+    </script>
 
 ---
 
@@ -185,20 +187,20 @@ If you need to define the **Button** content completely, implement a template fo
 
 ##### Vue
 
-    <!--HTML-->
-    <dx-button
-        text="Refresh"
-        @click="foo"
-        template="buttonTemplate">
-        <i
-            slot="buttonTemplate"
-            slot-scope="buttonData"
-            style="color: green">
-            {{ buttonData.text }}
-        </i>
-    </dx-button>
-
-    <!--TypeScript-->
+    <template>
+        <dx-button
+            text="Refresh"
+            @click="foo"
+            template="buttonTemplate">
+            <i
+                slot="buttonTemplate"
+                slot-scope="buttonData"
+                style="color: green">
+                {{ buttonData.text }}
+            </i>
+        </dx-button>
+    </template>
+    <script>
     import DxButton from "devextreme-vue/button";
 
     export default {
@@ -211,6 +213,7 @@ If you need to define the **Button** content completely, implement a template fo
             }
         }
     }
+    </script>
 
 ---
     

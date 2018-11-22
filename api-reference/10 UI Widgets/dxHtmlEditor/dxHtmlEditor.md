@@ -241,14 +241,14 @@ variables: {
 
 ##### Vue
 
-    <!--HTML-->
-    <dx-html-editor
-        valueType="html"
-        :value="value">
-        <dx-toolbar :items="items" />
-    </dx-html-editor>
-
-    <!--JavaScript-->
+    <template>
+        <dx-html-editor
+            valueType="html"
+            :value="value">
+            <dx-toolbar :items="items" />
+        </dx-html-editor>
+    </template>
+    <script>
     import { DxHtmlEditor, DxToolbar } from "devextreme-vue/html-editor";
 
     export default {
@@ -273,10 +273,10 @@ variables: {
             };
         }
     }
+    </script>
 
 ##### React
 
-    <!--JavaScript-->
     import React from "react";
     import HtmlEditor, { Toolbar } from "devextreme-react/html-editor";
 

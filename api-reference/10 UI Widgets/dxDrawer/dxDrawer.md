@@ -274,29 +274,29 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
 
 ##### Vue
 
-    <!--HTML-->
-    <div>
-        <dx-button
-          :text="text"
-          @click="clickHandler" />
-        <dx-drawer
-            opened-state-mode="shrink"
-            reveal-mode="expand"
-            :max-size="200"
-            :min-size="50"
-            :opened="isOpened"
-            template="drawerTemplate">
-            <div slot="drawerTemplate" slot-scope="data">
-                <dx-list
-                    :data-source="navigation"
-                    :width="200">
-                </dx-list>
-            </div>
-            <span>Here is the view content.</span>
-        </dx-drawer>
-    </div>
-
-    <!--JavaScript-->
+    <template>
+        <div>
+            <dx-button
+            :text="text"
+            @click="clickHandler" />
+            <dx-drawer
+                opened-state-mode="shrink"
+                reveal-mode="expand"
+                :max-size="200"
+                :min-size="50"
+                :opened="isOpened"
+                template="drawerTemplate">
+                <div slot="drawerTemplate" slot-scope="data">
+                    <dx-list
+                        :data-source="navigation"
+                        :width="200">
+                    </dx-list>
+                </div>
+                <span>Here is the view content.</span>
+            </dx-drawer>
+        </div>
+    </template>
+    <script>
     import DxDrawer from "devextreme-vue/drawer";
     import DxButton from "devextreme-vue/button";
     import DxList from "devextreme-vue/list";
@@ -326,15 +326,15 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
             };
         }
     }
+    </script>
 
 ##### React
 
-    <!--JavaScript-->
     import React from "react";
     import Drawer from "devextreme-react/drawer";
     import Button from "devextreme-react/button";
     import List from "devextreme-react/list";
-    // ...
+
     const navigation = [
         { id: 1, text: "Inbox"},
         { id: 2, text: "Sent Mail"},

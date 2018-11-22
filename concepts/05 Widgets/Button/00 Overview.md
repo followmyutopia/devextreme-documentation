@@ -47,12 +47,12 @@ The following code adds a simple **Button** to your page.
 
 ##### Vue
 
-    <!--HTML-->
-    <dx-button
-        text="Click me"
-        @click="okClicked" />
-
-    <!--TypeScript-->
+    <template>
+        <dx-button
+            text="Click me"
+            @click="okClicked" />
+    </template>
+    <script>
     import DxButton from "devextreme-vue/button";
     import notify from "devextreme/ui/notify";
 
@@ -66,6 +66,7 @@ The following code adds a simple **Button** to your page.
             }
         }
     }
+    </script>
 
 ---
 

@@ -177,14 +177,14 @@ The **ButtonGroup** is a widget that contains a set of toggle buttons, and can b
 
 ##### Vue
 
-    <!--HTML-->
-    <dx-button-group
-        :items="fontStyles"
-        key-expr="style"
-        styling-mode="outlined"
-        selection-mode="multiple" />
-
-    <!--TypeScript-->
+    <template>
+        <dx-button-group
+            :items="fontStyles"
+            key-expr="style"
+            styling-mode="outlined"
+            selection-mode="multiple" />
+    </template>
+    <script>
     import { DxButtonGroup } from "devextreme-vue/button-group";
 
     export default {
@@ -209,10 +209,10 @@ The **ButtonGroup** is a widget that contains a set of toggle buttons, and can b
             };
         }
     }
+    </script>
 
 ##### React
 
-    <!--TypeScript-->
     import React from "react";
     import { ButtonGroup } from "devextreme-react/button-group";
 
