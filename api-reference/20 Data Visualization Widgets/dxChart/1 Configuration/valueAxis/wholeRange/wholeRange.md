@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Defines the range where the axis can be [zoomed and panned](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/). Equals the data range when not set.
+Defines the range where the axis can be [zoomed and panned](/Documentation/Guide/Widgets/Chart/Zooming_and_Panning/).
 <!--/shortDescription-->
 
 <!--fullDescription-->
