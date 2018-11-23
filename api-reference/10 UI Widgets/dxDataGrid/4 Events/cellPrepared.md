@@ -112,3 +112,8 @@ A function called when this variable changes.
 
 Use with [jQuery components](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/) and [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/).     
 <!--/typeFunctionParamDescription1_field17-->
+<!--typeFunctionParamName1_field18-->oldValue<!--/typeFunctionParamName1_field18-->
+<!--typeFunctionParamType1_field18-->any<!--/typeFunctionParamType1_field18-->
+<!--typeFunctionParamDescription1_field18-->
+
+<!--/typeFunctionParamDescription1_field18-->
