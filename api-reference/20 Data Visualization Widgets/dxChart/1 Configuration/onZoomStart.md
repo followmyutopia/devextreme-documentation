@@ -37,25 +37,25 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->event<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->event<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The zoomed/panned axis.
+The event that caused the function's execution. It is a [dxEvent](/Documentation/ApiReference/Common/Object_Structures/dxEvent/) or a [jQuery.Event](http://api.jquery.com/category/events/event-object/) when you use jQuery.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->axis<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->chartAxisObject<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) when zooming or panning starts.
+The zoomed/panned axis.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->range<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->VizRange<!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-Allows you to cancel zooming or panning.
+The [visual range](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/visualRange/) when zooming or panning starts.
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->cancel<!--/typeFunctionParamName1_field7-->
 <!--typeFunctionParamType1_field7-->Boolean<!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
-
+Allows you to cancel zooming or panning.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->actionType<!--/typeFunctionParamName1_field8-->
 <!--typeFunctionParamType1_field8-->'zoom' | 'pan'<!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
-
+Indicates whether the user is zooming or panning the chart.
 <!--/typeFunctionParamDescription1_field8-->
