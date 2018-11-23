@@ -90,7 +90,7 @@ The columns's [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Confi
     
 ---
 
-Implement the **columns[]**.[editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate) function for more extensive customization, in which you should specify your custom component's appearance and behavior in full. The following code uses this function to substitute an HTML check box for a default editor:
+Implement the column's [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate) for more extensive customization. In this template, you should specify your custom component's appearance and behavior in full. The following code uses the template to substitute the [Switch](/Documentation/Guide/Widgets/Switch/Overview/) widget for a default editor. This configuration may be useful in [batch editing mode](/Documentation/Guide/Widgets/TreeList/Editing/#User_Interaction/Batch_Mode).
 
 ---
 ##### jQuery
@@ -100,18 +100,23 @@ Implement the **columns[]**.[editCellTemplate](/Documentation/ApiReference/UI_Wi
         $("#treeListContainer").dxTreeList({
             // ...
             columns: [{
-                dataField: "Hidden",
+                dataField: "isChecked",
                 editCellTemplate: function(cellElement, cellInfo) {
-                    $('<input type="checkbox">')
-                        .prop("checked", cellInfo.value)
-                        .prop("disabled", cellInfo.setValue ? null : "disabled")
-                        .on("change", function(args) {
-                            cellInfo.setValue(args.target.checked);
-                        })
-                        .appendTo(cellElement);
+                    $("<div />").dxSwitch({
+                        width: 50,
+                        switchedOnText: "YES",
+                        switchedOffText: "NO",
+                        value: cellInfo.value,
+                        onValueChanged: function(e) {
+                            cellInfo.setValue(e.value);
+                        }
+                    }).appendTo(cellElement);
                 }
-            },
-            // ...
+            }],
+            editing: {
+                mode: "batch",
+                allowUpdating: true
+            }
         });
     });
 
@@ -119,27 +124,35 @@ Implement the **columns[]**.[editCellTemplate](/Documentation/ApiReference/UI_Wi
     
     <!--HTML-->
     <dx-tree-list ... >
-        <dxi-column dataField="Hidden" editCellTemplate="editCellTemplate"></dxi-column>
+        <dxi-column
+            dataField="isChecked"
+            editCellTemplate="editCellTemplate">
+        </dxi-column>
         <div *dxTemplate="let cellInfo of 'editCellTemplate'">
-            <input type="checkbox"
-                [checked]="cellInfo.value"
-                (change)="setCheckBoxValue($event, cellInfo)"
-                [attr.disabled]="cellInfo.setValue ? null : 'disabled'" />
+            <dx-switch
+                [width]="50"
+                switchedOnText="YES"
+                switchedOffText="NO"
+                [(value)]="cellInfo.value"
+                (onValueChanged)="setEditedValue($event, cellInfo)">
+            </dx-switch>
         </div>
+        <dxo-editing mode="batch" [allowUpdating]="true"></dxo-editing>
     </dx-tree-list>
 
     <!--TypeScript-->
-    import { DxTreeListModule } from "devextreme-angular";
+    import { DxTreeListModule, DxSwitchModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        setCheckBoxValue (args, cellInfo) {
-            cellInfo.setValue(args.target.checked);
+        setEditedValue (valueChangedEventArg, cellInfo) {
+            cellInfo.setValue(valueChangedEventArg.value);
         }
     }
     @NgModule({
         imports: [
             // ...
-            DxTreeListModule
+            DxTreeListModule,
+            DxSwitchModule
         ],
         // ...
     })
@@ -151,22 +164,21 @@ Implement the **columns[]**.[editCellTemplate](/Documentation/ApiReference/UI_Wi
         // ...
         .Columns(cols => {
             // ...
-            cols.Add().DataField("Hidden")
-                .EditCellTemplate(new JS("treeList_hidden_editCellTemplate"));
+            cols.Add().DataField("isChecked")
+                .EditCellTemplate(new TemplateName("edit-cells""));
         })
+        .Editing(m => m.Mode(GridEditMode.Batch).AllowUpdating(true))
     )
 
-    <script type="text/javascript">
-        function treeList_hidden_editCellTemplate (cellElement, cellInfo) {
-            $('<input type="checkbox">')
-                .prop("checked", cellInfo.value)
-                .prop("disabled", cellInfo.setValue ? null : "disabled")
-                .on("change", function (args) {
-                    cellInfo.setValue(args.target.checked);
-                })
-                .appendTo(cellElement);
-        }
-    </script>
+    @using (Html.DevExtreme().NamedTemplate("edit-cells")) {
+        @(Html.DevExtreme().Switch()
+            .Width(50)
+            .SwitchedOnText("YES")
+            .SwitchedOffText("NO")
+            .Value(new JS("value"))
+            .OnValueChanged("function(e) { setValue(e.value) }")
+        )
+    }
     
 ---
 
