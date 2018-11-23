@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the type of gauge indicators.
 <!--/shortDescription-->
 
 <!--fullDescription-->
