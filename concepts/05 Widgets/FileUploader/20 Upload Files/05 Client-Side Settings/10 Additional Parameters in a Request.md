@@ -9,7 +9,7 @@ If the [uploadMode](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Config
         $("#fileUploaderContainer").dxFileUploader({
             name: "file",
             uploadMode: "instantly", // or "useButtons"
-            uploadUrl: "/upload.php",
+            uploadUrl: "https://mydomain.com/MyUploadService",
             onValueChanged: function (e) {
                 var url = e.component.option("uploadUrl");
                 url = updateQueryStringParameter(url, "id", employee.id);
@@ -58,7 +58,7 @@ If the [uploadMode](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Config
     // ...
     export class AppComponent {
         employee = { id: 1, name: "John Heart", position: "CEO", office: 614 };
-        uploadUrl = "/upload.php";
+        uploadUrl = "https://mydomain.com/MyUploadService";
         addIdParameter (e) {
             this.uploadUrl = this.updateQueryStringParameter(this.uploadUrl, "id", this.employee.id);
             e.component.option("uploadUrl", this.uploadUrl);
@@ -134,7 +134,7 @@ When the **uploadMode** is *"useForm"*, define the parameters within hidden inpu
 #####jQuery
 
     <!--HTML-->
-    <form id="form" action="/upload.php" method="post" enctype="multipart/form-data">
+    <form id="form" action="https://mydomain.com/MyUploadService" method="post" enctype="multipart/form-data">
         <input type="hidden" id="employeeId" name="id">
         <div id="fileUploaderContainer"></div>
         <div id="numberBoxContainer"></div>
@@ -164,7 +164,7 @@ When the **uploadMode** is *"useForm"*, define the parameters within hidden inpu
 #####Angular
 
     <!--HTML-->
-    <form action="/upload.php" method="post" enctype="multipart/form-data">
+    <form action="https://mydomain.com/MyUploadService" method="post" enctype="multipart/form-data">
         <input type="hidden" name="id" [value]="employeeId">
         <dx-file-uploader
             name="file"
