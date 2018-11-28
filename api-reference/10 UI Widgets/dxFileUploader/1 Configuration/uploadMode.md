@@ -9,16 +9,16 @@ Specifies how the widget uploads files.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The option accepts the following values.
+Depending on the **uploadMode**, the **FileUploader** widget uses an [HTML form](http://www.w3schools.com/html/html_forms.asp) or a [FormData](https://developer.mozilla.org/en/docs/Web/API/FormData) interface with a series of Ajax requests to upload files. The **uploadMode** option accepts one of the following values:
 
-- **instantly**  
- Starts uploading instantly as files are selected.
+- *"instantly"* (default)       
+Ajax upload. Files are uploaded after they are selected.
 
-- **useButtons**  
- Starts uploading when a user clicks the "Upload" button.
+- *"useButtons"*        
+Ajax upload. Files are uploaded after a user clicks the **Upload** button.
 
-- **useForm**  
- Uploads the specified files when the **submit** button of the current [form](http://www.w3schools.com/htmL/html_forms.asp) is clicked. In this case, the **FileUploader** widget should be enclosed in the **form** element.
+- *"useForm"*        
+HTML form upload. Files are uploaded when the HTML form is submitted.
 
 #include common-ref-enum with {
     enum: "`FileUploadMode`",
@@ -28,4 +28,7 @@ The option accepts the following values.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/File_Uploader/FileUploading/jQuery/Light/"
 }
+
+#####See Also#####
+- [Upload Mode](/Documentation/Guide/Widgets/FileUploader/Upload_Files/Client-Side_Settings/#Upload_Mode)
 <!--/fullDescription-->

@@ -1,8 +1,7 @@
     <!--C#-->
-    public ActionResult AsyncUpload()
+    [HttpPost]
+    public ActionResult AsyncUpload(HttpPostedFileBase file)
     {
-        HttpPostedFileBase file = Request.Files["file"];
-
         // Specifies the target location for the uploaded files
         string targetLocation = Server.MapPath("~/Files/");
 
@@ -38,8 +37,8 @@
     }
 
     <!--VB-->
-    Function AsyncUpload() As ActionResult
-        Dim file As HttpPostedFileBase = Request.Files("file")
+    <HttpPost>
+    Function AsyncUpload(file As HttpPostedFileBase) As ActionResult
         ' Specifies the target location for the uploaded files'
         Dim targetLocation As String = Server.MapPath("~/Files/")
 
@@ -103,3 +102,4 @@ You can pass the exception messages to the client using a custom action filter:
 
 #####See Also#####
 - [Creating Custom Action Filters](https://msdn.microsoft.com/en-us/library/dd381609(v=vs.100).aspx)
+- [Common Security Concerns](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data#Common_security_concerns)

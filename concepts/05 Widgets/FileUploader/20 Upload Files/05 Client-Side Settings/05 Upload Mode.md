@@ -1,19 +1,10 @@
-Depending on the [uploadMode](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#uploadMode) you choose, the **FileUploader** widget uploads files using an [HTML form](http://www.w3schools.com/html/html_forms.asp) or [FormData](https://developer.mozilla.org/en/docs/Web/API/FormData) interface and a series of [Ajax](http://www.w3schools.com/ajax/default.asp) requests. The **uploadMode** option accepts one of the following values:
-
-- *"instantly"* (default)   
-Ajax upload. Files are uploaded after they are selected.
-
-- *"useButtons"*  
-Ajax upload. Files are uploaded after a user clicks the **Upload** button.
-
-- *"useForm"*  
-HTML form upload. Files are uploaded when the HTML form is submitted.
+Depending on the [uploadMode](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#uploadMode), the **FileUploader** widget uses an [HTML form](http://www.w3schools.com/html/html_forms.asp) or a [FormData](https://developer.mozilla.org/en/docs/Web/API/FormData) interface with a series of Ajax requests to upload files.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/File_Uploader/FileUploading/jQuery/Light/"
 }
 
-The following examples show how to configure the **FileUploader** for uploading files using Ajax requests and an HTML form. Note that in both cases, the [name](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#name) option is specified to access the uploaded files on the server.
+The following examples show how to configure the **FileUploader** for each upload mode. Therein, the [name](/Documentation/ApiReference/UI_Widgets/dxFileUploader/Configuration/#name) option is required to access uploaded files on the server.
 
 - **Ajax upload**
 
@@ -28,7 +19,7 @@ The following examples show how to configure the **FileUploader** for uploading 
                 // Uncomment the following line to allow a user to upload multiple files
                 // multiple: true,
                 uploadMode: "useButtons", // or "instantly"
-                uploadUrl: "/upload.php"
+                uploadUrl: "https://mydomain.com/MyUploadService"
             });
         });
 
@@ -40,7 +31,7 @@ The following examples show how to configure the **FileUploader** for uploading 
             <!-- Uncomment the following line to allow a user to upload multiple files -->
             <!-- [multiple]="true" -->
             uploadMode="useButtons" <!-- or "instantly" -->
-            uploadUrl="/upload.php">
+            uploadUrl="https://mydomain.com/MyUploadService">
         </dx-file-uploader>
 
         <!--TypeScript-->
@@ -69,7 +60,7 @@ The following examples show how to configure the **FileUploader** for uploading 
     ---
     #####jQuery
 
-        <!--HTML--><form action="/upload.php" method="post" enctype="multipart/form-data">
+        <!--HTML--><form action="https://mydomain.com/MyUploadService" method="post" enctype="multipart/form-data">
             <div id="fileUploaderContainer"></div>
             <input type="submit">
         </form>
@@ -87,7 +78,7 @@ The following examples show how to configure the **FileUploader** for uploading 
     #####Angular
 
         <!--HTML-->
-        <form action="/upload.php" method="post" enctype="multipart/form-data">
+        <form action="https://mydomain.com/MyUploadService" method="post" enctype="multipart/form-data">
             <dx-file-uploader
                 name="file"
                 <!-- Uncomment the following lines to allow a user to upload multiple files -->

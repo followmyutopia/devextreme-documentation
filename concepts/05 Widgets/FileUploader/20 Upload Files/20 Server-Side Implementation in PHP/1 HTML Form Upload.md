@@ -1,5 +1,6 @@
     <?php
         // Checks whether the array of uploaded files exists
+        // Here, "file" is a string specified in the FileUploader's name option
         if(!isset($_FILES['file'])) {
             exit;
         }
@@ -35,3 +36,6 @@
         // Redirects to another page
         header("Location: /index.php");
     ?>
+
+#####See Also#####
+- [Common Security Concerns](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data#Common_security_concerns)
