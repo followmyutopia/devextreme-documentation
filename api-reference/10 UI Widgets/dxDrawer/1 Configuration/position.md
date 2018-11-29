@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'left'<!--/default-->
-<!--acceptValues-->'left' | 'right' | 'top' | 'bottom'<!--/acceptValues-->
+<!--acceptValues-->'left' | 'right' | 'top' | 'bottom' | 'before' | 'after'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
@@ -20,6 +20,6 @@ Specifies the drawer's position in relation to the view.
 
 #include common-ref-enum with {
     enum: "`DrawerPosition`",
-    values: "`Left`, `Right`, `Top`, and `Bottom`"
+    values: "`Left`, `Right`, `Top`, `Bottom`, `Before`, and `After`"
 }
 <!--/fullDescription-->

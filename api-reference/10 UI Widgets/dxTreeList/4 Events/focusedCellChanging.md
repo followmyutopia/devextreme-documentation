@@ -77,3 +77,8 @@ The visible columns' properties.
 <!--typeFunctionParamDescription1_field12-->
 Allows you to cancel focusing a new cell.
 <!--/typeFunctionParamDescription1_field12-->
+<!--typeFunctionParamName1_field13-->isHighlighted<!--/typeFunctionParamName1_field13-->
+<!--typeFunctionParamType1_field13-->Boolean<!--/typeFunctionParamType1_field13-->
+<!--typeFunctionParamDescription1_field13-->
+
+<!--/typeFunctionParamDescription1_field13-->
