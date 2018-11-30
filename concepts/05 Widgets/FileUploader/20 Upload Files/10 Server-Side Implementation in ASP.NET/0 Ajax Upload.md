@@ -1,5 +1,6 @@
     <!--C#-->
     [HttpPost]
+    // "file" is the value of the FileUploader's "name" option
     public ActionResult AsyncUpload(HttpPostedFileBase file)
     {
         // Specifies the target location for the uploaded files
