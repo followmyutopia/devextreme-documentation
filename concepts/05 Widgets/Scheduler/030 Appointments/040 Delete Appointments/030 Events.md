@@ -58,8 +58,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
     };
 
     $("#schedulerContainer").dxScheduler("instance")
-        .on('appointmentDeleted', deletedEventHandler1)
-        .on('appointmentDeleted', deletedEventHandler2);
+        .on("appointmentDeleted", deletedEventHandler1)
+        .on("appointmentDeleted", deletedEventHandler2);
 
 #####See Also#####
 #include common-link-handleevents

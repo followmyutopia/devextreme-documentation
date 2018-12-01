@@ -108,8 +108,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
     };
 
     $("#selectBoxContainer").dxSelectBox("instance")
-        .on('valueChanged', valueChangedHandler1)
-        .on('valueChanged', valueChangedHandler2);
+        .on("valueChanged", valueChangedHandler1)
+        .on("valueChanged", valueChangedHandler2);
 
 #####See Also#####
 #include common-link-handleevents

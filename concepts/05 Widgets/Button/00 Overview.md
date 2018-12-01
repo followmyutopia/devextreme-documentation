@@ -82,8 +82,8 @@ In the previous code, the [click](/Documentation/ApiReference/UI_Widgets/dxButto
     };
 
     $("#buttonContainer").dxButton("instance")
-        .on('click', clickHandler1)
-        .on('click', clickHandler2);
+        .on("click", clickHandler1)
+        .on("click", clickHandler2);
 
 The appearance of the **Button** is predefined by its [type](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#type). Find more on this and other properties that impact the widget appearance in the [Customize the Appearance](/Documentation/Guide/Widgets/Button/Customize_the_Appearance/) article.
 

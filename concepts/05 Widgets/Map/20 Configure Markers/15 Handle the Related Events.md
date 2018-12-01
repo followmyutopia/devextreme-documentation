@@ -71,8 +71,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
     };
 
     $("#mapContainer").dxMap("instance")
-        .on('markerRemoved', markerRemovedHandler1)
-        .on('markerRemoved', markerRemovedHandler2);
+        .on("markerRemoved", markerRemovedHandler1)
+        .on("markerRemoved", markerRemovedHandler2);
 
 #####See Also#####
 - [Map - Customize Markers](/Documentation/Guide/Widgets/Map/Configure_Markers/Customize/)

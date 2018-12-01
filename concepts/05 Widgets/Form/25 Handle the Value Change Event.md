@@ -58,8 +58,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
     };
 
     $("#formContainer").dxForm("instance")
-        .on('fieldDataChanged', fieldDataChangedHandler1)
-        .on('fieldDataChanged', fieldDataChangedHandler2);
+        .on("fieldDataChanged", fieldDataChangedHandler1)
+        .on("fieldDataChanged", fieldDataChangedHandler2);
 
 #####See Also#####
 #include common-link-handleevents

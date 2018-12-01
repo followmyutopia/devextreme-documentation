@@ -71,8 +71,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
     };
 
     $("#mapContainer").dxMap("instance")
-        .on('routeRemoved', routeRemovedHandler1)
-        .on('routeRemoved', routeRemovedHandler2);
+        .on("routeRemoved", routeRemovedHandler1)
+        .on("routeRemoved", routeRemovedHandler2);
 
 #####See Also#####
 - [Map - Customize Routes](/Documentation/Guide/Widgets/Map/Configure_Routes/Customize/)

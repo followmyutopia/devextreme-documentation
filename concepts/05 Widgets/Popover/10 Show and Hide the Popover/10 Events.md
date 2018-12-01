@@ -96,8 +96,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
     };
 
     $("#popoverContainer").dxPopover("instance")
-        .on('hidden', hiddenEventHandler1)
-        .on('hidden', hiddenEventHandler2);
+        .on("hidden", hiddenEventHandler1)
+        .on("hidden", hiddenEventHandler2);
 
 #####See Also#####
 #include common-link-handleevents

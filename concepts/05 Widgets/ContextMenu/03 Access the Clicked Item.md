@@ -56,8 +56,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
     };
 
     $("#contextMenuContainer").dxContextMenu("instance")
-        .on('itemClick', itemClickHandler1)
-        .on('itemClick', itemClickHandler2);
+        .on("itemClick", itemClickHandler1)
+        .on("itemClick", itemClickHandler2);
 
 #####See Also#####
 #include common-link-handleevents

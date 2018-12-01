@@ -204,8 +204,8 @@ If you are going to change event handlers at runtime, or if you need to attach s
     };
 
     $("#loadPanelContainer").dxLoadPanel("instance")
-        .on('shown', shownEventHandler1)
-        .on('shown', shownEventHandler2);
+        .on("shown", shownEventHandler1)
+        .on("shown", shownEventHandler2);
 
 #####See Also#####
 #include common-link-handleevents
