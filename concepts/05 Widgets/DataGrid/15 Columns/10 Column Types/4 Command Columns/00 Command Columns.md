@@ -13,7 +13,7 @@ Contains arrow buttons that expand/collapse [groups](/Documentation/Guide/Widget
 Contains arrow buttons that expand/collapse [detail sections](/Documentation/Guide/Widgets/DataGrid/Master-Detail_Interface/).
 
 - **Buttons column (custom command column)**    
-Contains buttons that perform custom actions. See [Create a Custom Command Column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/#Create_a_Custom_Command_Column).
+Contains buttons that perform custom actions. See [Create a Column with Custom Buttons](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/#Create_a_Column_with_Custom_Buttons).
 
 - **Editing column**        
 A type of buttons column. Contains editing controls. See [Customize the Editing Column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/#Customize_the_Editing_Column).
