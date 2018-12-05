@@ -9,6 +9,87 @@ A function that is executed after a grid cell is created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+In the following code, the **onCellPrepared** function is used to change a `ProductName`'s color depending on the `Amount` of sold products:
+
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("#treeListContainer").dxTreeList({
+            // ...
+            repaintChangesOnly: true,
+            onCellPrepared: function(e) {
+                if(e.rowType === "data" && e.column.dataField === "ProductName") {
+                    e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
+                    // Tracks the `Amount` data field
+                    e.watch(function() {
+                        return e.data.Amount
+                    }, function() {
+                        e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
+                    })
+                }
+            }
+        })
+    })
+
+#####Angular
+
+    <!--TypeScript-->
+    import { dxTreeListModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        onCellPrepared(e) {
+            if(e.rowType === "data" && e.column.dataField === "ProductName") {
+                e.cellElement.style.color = e.data.Amount >= 10000 ? "green" : "red";
+                // Tracks the `Amount` data field
+                e.watch(function() {
+                    return e.data.Amount
+                }, function() {
+                    e.cellElement.style.color = e.data.Amount >= 10000 ? "green" : "red";
+                })
+            }
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            dxTreeListModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-tree-list
+        [repaintChangesOnly]="true"
+        (onCellPrepared)="onCellPrepared($event)">
+    </dx-tree-list>
+
+#####ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().TreeList()
+        .ID("treeListContainer")
+        // ...
+        .RepaintChangesOnly(true)
+        .OnCellPrepared("treeList_cellPrepared_handler")
+    )
+    <script>
+        function treeList_cellPrepared_handler(e) {
+            if (e.rowType === "data" && e.column.dataField === "ProductName") {
+                e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
+                // Tracks the `Amount` data field
+                e.watch(function() {
+                    return e.data.Amount
+                }, function() {
+                    e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
+                })
+            }
+        }
+    </script>
+
+---
+
 #####See Also#####
 - [Customize Cells](/Documentation/Guide/Widgets/TreeList/Columns/Customize_Cells/#Customize_the_Appearance)
 <!--/fullDescription-->
@@ -102,7 +183,7 @@ The cell's container. It is an [HTML Element](https://developer.mozilla.org/en-U
 <!--typeFunctionParamName1_field17-->watch<!--/typeFunctionParamName1_field17-->
 <!--typeFunctionParamType1_field17-->function()<!--/typeFunctionParamType1_field17-->
 <!--typeFunctionParamDescription1_field17-->
-Allows tracking a variable and performing actions when it changes. Applies when [repaintChangesOnly](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#repaintChangesOnly) is **true**.       
+Allows tracking a variable and performing actions when it changes. Applies when [repaintChangesOnly](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#repaintChangesOnly) is **true**.       
 This function has the following parameters:     
 
 - **getter(data)**: Function        
@@ -110,11 +191,9 @@ A function that returns the variable that should be tracked.
 
 - **handler(newValue)**: Function       
 A function called when this variable changes.
-
-Use with [jQuery components](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/) and [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/).     
 <!--/typeFunctionParamDescription1_field17-->
 <!--typeFunctionParamName1_field18-->oldValue<!--/typeFunctionParamName1_field18-->
 <!--typeFunctionParamType1_field18-->any<!--/typeFunctionParamType1_field18-->
 <!--typeFunctionParamDescription1_field18-->
-
+The cell's previous raw value.
 <!--/typeFunctionParamDescription1_field18-->

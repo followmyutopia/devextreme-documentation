@@ -13,6 +13,87 @@ A function that is executed after a cell is created.
     url: "/Demos/WidgetsGallery/Demo/DataGrid/CellCustomization/jQuery/Light/"
 }
 
+In the following code, the **onCellPrepared** function is used to change a `ProductName`'s color depending on the `Amount` of sold products. You can paste this code in the [Real-Time Updates](/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/jQuery/Light/) demo and see how it works.
+
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            repaintChangesOnly: true,
+            onCellPrepared: function(e) {
+                if(e.rowType === "data" && e.column.dataField === "ProductName") {
+                    e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
+                    // Tracks the `Amount` data field
+                    e.watch(function() {
+                        return e.data.Amount
+                    }, function() {
+                        e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
+                    })
+                }
+            }
+        })
+    })
+
+#####Angular
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        onCellPrepared(e) {
+            if(e.rowType === "data" && e.column.dataField === "ProductName") {
+                e.cellElement.style.color = e.data.Amount >= 10000 ? "green" : "red";
+                // Tracks the `Amount` data field
+                e.watch(function() {
+                    return e.data.Amount
+                }, function() {
+                    e.cellElement.style.color = e.data.Amount >= 10000 ? "green" : "red";
+                })
+            }
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-data-grid ...
+        [repaintChangesOnly]="true"
+        (onCellPrepared)="onCellPrepared($event)">
+    </dx-data-grid>
+
+#####ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        .ID("dataGridContainer")
+        // ...
+        .RepaintChangesOnly(true)
+        .OnCellPrepared("dataGrid_cellPrepared_handler")
+    )
+    <script>
+        function dataGrid_cellPrepared_handler(e) {
+            if (e.rowType === "data" && e.column.dataField === "ProductName") {
+                e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
+                // Tracks the `Amount` data field
+                e.watch(function() {
+                    return e.data.Amount
+                }, function() {
+                    e.cellElement.css("color", e.data.Amount >= 10000 ? "green" : "red");
+                })
+            }
+        }
+    </script>
+
+---
+
 #####See Also#####
 - [Customize Cells](/Documentation/Guide/Widgets/DataGrid/Columns/Customize_Cells/#Customize_the_Appearance)
 <!--/fullDescription-->
@@ -113,11 +194,9 @@ A function that returns the variable that should be tracked.
 
 - **handler(newValue)**: Function       
 A function called when this variable changes.
-
-Use with [jQuery components](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/) and [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/).     
 <!--/typeFunctionParamDescription1_field17-->
 <!--typeFunctionParamName1_field18-->oldValue<!--/typeFunctionParamName1_field18-->
 <!--typeFunctionParamType1_field18-->any<!--/typeFunctionParamType1_field18-->
 <!--typeFunctionParamDescription1_field18-->
-
+The cell's previous raw value. 
 <!--/typeFunctionParamDescription1_field18-->
