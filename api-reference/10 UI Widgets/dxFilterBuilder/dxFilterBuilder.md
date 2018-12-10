@@ -18,7 +18,8 @@ fields: [{
 }, {
     dataField: "Shipped",
     dataType: "date"
-}]
+}],
+onEditorPreparing: function(e) { e.editorOptions.width = 125; }
 <!--/widgettree-->
 ===========================================================================
 <!--module-->ui/filter_builder<!--/module-->
