@@ -125,5 +125,5 @@ Allows you to cancel focusing a new cell.
 <!--typeFunctionParamName1_field13-->isHighlighted<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->Boolean<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-
+**true** if the cell is highlighted; otherwise **false**, even if the cell's row is highlighted.
 <!--/typeFunctionParamDescription1_field13-->
