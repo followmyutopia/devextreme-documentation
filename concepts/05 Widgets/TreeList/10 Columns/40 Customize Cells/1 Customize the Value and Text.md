@@ -1,4 +1,4 @@
-Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#customizeText) function if you need to customize the text displayed in cells. 
+Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#customizeText) function to customize the text displayed in cells. Note that this text is not used is not used to sort, filter, and group data or calculate summaries. 
 
 ---
 ##### jQuery
@@ -41,7 +41,7 @@ Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxTreeList/Config
     
 ---
 
-Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue) function to populate a column with custom values. This function is designed to create unbound columns - columns that are not bound to any individual data field. In the following example, this function combines full names from data that the **firstName** and **lastName** fields provide. 
+To use the text displayed in cells in those data processing operations, specify the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue) function instead. It populates a column with custom values and allows you to create unbound columns - columns that are not bound to any individual data field. In the following example, this function combines full names using data from the **firstName** and **lastName** fields: 
 
 ---
 ##### jQuery
@@ -84,4 +84,4 @@ Declare the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeLi
     
 ---
 
-Note that [sorting](/Documentation/Guide/Widgets/TreeList/Sorting/) in unbound columns is disabled by default, and their cells can be [edited](/Documentation/Guide/Widgets/TreeList/Editing/) at runtime only if you implement the [setCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#setCellValue) function.
+Some features are disabled in columns with calculated values. Refer to the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#calculateCellValue) description for a list of disabled features and the options that enable them.

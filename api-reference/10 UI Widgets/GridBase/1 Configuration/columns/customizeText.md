@@ -7,7 +7,9 @@ Customizes the text displayed in column cells.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The **customizeText** function may be called when data displayed in the column matches the search condition to properly highlight the matching text.
+[note] The specified text is not used to sort, filter, and group data or calculate summaries. If it should be, specify the [calculateCellValue](/Documentation/ApiReference/UI_Widgets/dx{WidgetName}/Configuration/columns/#calculateCellValue) function instead.
+
+The **customizeText** function can be called to highlight the matching text correctly when the data displayed in the column matches the search condition.
 
 #include uiwidgets-ref-functioncontext with { 
     value: "column's configuration"
@@ -41,10 +43,10 @@ The UI element where the **customizeText** function was called: *"row"*, *"filte
 <!--typeFunctionParamType1_field4-->String | Number<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
 Indicates how header filter values were combined into groups. Available if **target** is *"headerFilter"*.  
-For possible values, see the description of the **headerFilter**.[groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option.
+See the **headerFilter**.[groupInterval]({basewidgetpath}/Configuration/columns/headerFilter/#groupInterval) option's description for possible values.
 <!--/typeFunctionParamDescription1_field4-->
 
 <!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-The text for the cell to display.
+The text the cell should display.
 <!--/typeFunctionReturnDescription-->
