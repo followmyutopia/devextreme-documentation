@@ -167,7 +167,7 @@ All the components are available via CDN and npm.
         url: "/Demos/WidgetsGallery/Demo/Localization/UsingGlobalize/Angular/Light/"
     }
 
-Strings, numbers, dates, and currencies are now automatically localized and formatted according to the specified locale. You can also use a currency other than USD (see the last example in the [Using Intl](/Documentation/Guide/Common/Localization/#Using_Localization_Libraries/Using_Intl) topic).
+Strings, numbers, dates, and currencies are now automatically localized and formatted according to the specified locale. You can also use a currency other than USD (see the last example in the [Using Intl](/Documentation/Guide/Common/Localization/#Localize_Dates_Numbers_and_Currencies/Using_Intl) topic).
 
 In addition, you can now format values using structures accepted by [numberFormatter](https://github.com/globalizejs/globalize/blob/master/doc/api/number/number-formatter.md), [currencyFormatter](https://github.com/globalizejs/globalize/blob/master/doc/api/currency/currency-formatter.md), and [dateFormatter](https://github.com/globalizejs/globalize/blob/master/doc/api/date/date-formatter.md), for example:
 
