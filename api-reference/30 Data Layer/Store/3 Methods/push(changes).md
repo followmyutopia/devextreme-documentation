@@ -45,7 +45,7 @@ There are three possible data change types:
 
 ---
 
-New data items are inserted at the end, and the user may not notice them. Sorting, filtering, and other data processing settings may also become outdated. Enable the [reshapeOnPush](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#reshapeOnPush) option to reapply them to all data, including the new items. We also recommend setting the [pushAggregationTimeout](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pushAggregationTimeout) to reduce the number of updates and recalculations.
+New data items are inserted at the end, and the user may not notice them. Paging, grouping, sorting, filtering, and other data processing settings may also become outdated. Enable the [reshapeOnPush](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#reshapeOnPush) option to reapply them to all data, including the new items. We also recommend setting the [pushAggregationTimeout](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pushAggregationTimeout) to reduce the number of updates and recalculations.
 
 #include common-demobutton-named with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/RealTimeUpdates/jQuery/Light/",
