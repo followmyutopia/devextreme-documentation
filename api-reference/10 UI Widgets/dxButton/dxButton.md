@@ -126,6 +126,28 @@ The **Button** widget is a simple button that performs specified commands when a
     }
     </script>
 
+##### React
+
+    import React from 'react';
+    import { Button } from 'devextreme-react/button';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <Button
+                    text={'Click me'}
+                    onClick={this.buttonClicked}
+                />  
+            );
+        }
+
+        buttonClicked() {
+            alert('The Button was clicked');
+        }
+    }
+
+    export default App;
+
 ---
 
 #include common-demobutton with {

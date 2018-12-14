@@ -61,6 +61,29 @@ The **Button** widget provides five predefined appearances controlled by the [ty
     }
     </script>
 
+##### React
+
+    import React from 'react';
+    import { Button } from 'devextreme-react/button';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <Button
+                    type={'default'}
+                    text={'Delete'}
+                    onClick={this.foo}
+                />
+            );
+        }
+
+        foo(e) {
+            // ...
+        }
+    }
+
+    export default App;
+
 ---
 
 #include common-demobutton with {
@@ -132,6 +155,31 @@ Apart from plain text, the **Button** can display an icon. DevExtreme provides [
         }
     }
     </script>
+
+##### React
+
+    import React from 'react';
+    import { Button } from 'devextreme-react/button';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <Button
+                    type={'danger'}
+                    text={'Delete'}
+                    icon={'remove'}
+                    onClick={this.foo}
+                />
+            );
+        }
+
+        foo(e) {
+            // ...
+        }
+    }
+
+    export default App;
+
 
 ---
 
@@ -214,6 +262,32 @@ If you need to define the **Button** content completely, implement a template fo
         }
     }
     </script>
+
+##### React
+
+    import React from 'react';
+    import { Button } from 'devextreme-react/button';
+
+    class App extends React.PureComponent {
+        render() {
+            return (
+                <Button
+                    text={'Refresh'}
+                    onClick={this.foo}
+                    render={(buttonData) =>
+                        <i style={{ color: 'green' }}>{buttonData.text}</i>
+                    }
+                />
+            );
+        }
+
+        foo(e) {
+            // ...
+        }
+    }
+
+    export default App;
+
 
 ---
     

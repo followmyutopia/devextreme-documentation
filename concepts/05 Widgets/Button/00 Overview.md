@@ -68,6 +68,30 @@ The following code adds a simple **Button** to your page.
     }
     </script>
 
+##### React
+
+    import React from 'react';
+    import { Button } from 'devextreme-react/button';
+    import notify from 'devextreme/ui/notify';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <Button
+                    text={'OK'}
+                    onClick={this.okClicked}
+                />
+            );
+        }
+
+        okClicked(e) {
+            notify('The OK button was clicked');
+        }
+    }
+
+    export default App;
+
+
 ---
 
 In the previous code, the [click](/Documentation/ApiReference/UI_Widgets/dxButton/Events/#click) event is handled using the [onClick](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#onClick) option. Alternatively, you can attach one or several handlers to this event using the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxButton/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.

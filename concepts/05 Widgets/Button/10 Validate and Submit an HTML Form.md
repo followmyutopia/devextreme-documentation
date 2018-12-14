@@ -109,6 +109,39 @@ Commonly, editors nested into an HTML form are supposed to be validated on the c
     }
     </script>
 
+##### React
+
+    import React from 'react';
+    import { Button } from 'devextreme-react/button';
+    import { TextBox } from 'devextreme-react/text-box';
+    import { Validator, RequiredRule } from 'devextreme-react/validator';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <form action="/Login" method="post">
+                    <TextBox name={'Login'}>
+                        <Validator>
+                            <RequiredRule />
+                        </Validator>
+                    </TextBox>
+                    <TextBox name={'Password'} mode={'password'}>
+                        <Validator>
+                            <RequiredRule />
+                        </Validator>
+                    </TextBox>
+                    <Button
+                        text={'Submit'}
+                        type={'success'}
+                        useSubmitBehavior={true}
+                    />
+                </form>
+            );
+        }
+    }
+
+    export default App;
+
 ---
 
 Note that the [name](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#name) option of the **TextBox** widgets in the previous code specifies the [name](http://www.w3schools.com/tags/att_input_name.asp) attribute of the underlying `<input>` element.
