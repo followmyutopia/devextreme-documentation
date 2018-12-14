@@ -1,5 +1,6 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
+<!--module-->ui/overlay<!--/module-->
 <!--type-->Object<!--/type-->
 <!--inherits-->..\Widget\Widget.md<!--/inherits-->
 <!--lib-->
