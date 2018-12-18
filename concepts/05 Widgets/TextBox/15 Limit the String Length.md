@@ -30,6 +30,23 @@ To limit the string length, assign an integer number to the **maxLength** option
         // ...
     })
 
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    maxLength={10}
+                />
+            );
+        }
+    }
+
+    export default App;
+
 ---
 
 #####See Also#####

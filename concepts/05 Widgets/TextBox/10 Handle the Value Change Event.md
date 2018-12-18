@@ -30,6 +30,23 @@ When a user types a value into the **TextBox**, this value applies when the [cha
         // ...
     })
 
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    valueChangeEvent="keyup"
+                />
+            );
+        }
+    }
+
+    export default App;
+
 ---
 
 To process a new **TextBox** value, you need to handle the value change event. If the handling function is not going to be changed during the lifetime of the widget, assign it to the [onValueChanged](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#onValueChanged) option when you configure the widget.
@@ -71,6 +88,29 @@ To process a new **TextBox** value, you need to handle the value change event. I
         ],
         // ...
     })
+
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    onValueChanged={this.onValueChanged}
+                />
+            );
+        }
+
+        onValueChanged(e) {
+            let previousValue = e.previousValue;
+            let newValue = e.value;
+            // Event handling commands go here
+        }
+    }
+
+    export default App;
 
 ---
 

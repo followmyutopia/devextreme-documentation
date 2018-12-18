@@ -21,8 +21,10 @@ The **TextBox** is a widget that enables a user to enter and edit a single line 
 #####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
 
     <!--JavaScript-->
-    $("#textBox").dxTextBox({
-        placeholder: "Type a text here..."
+    $(function() {
+        $("#textBox").dxTextBox({
+            placeholder: "Type a text here..."
+        });
     });
 
     <!--HTML-->
@@ -72,6 +74,23 @@ The **TextBox** is a widget that enables a user to enter and edit a single line 
         .ID("textBox") _
         .Placeholder("Type a text here...")
     )
+
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    placeholder="Type a text here..."
+                />
+            );
+        }
+    }
+
+    export default App;
 
 ---
 

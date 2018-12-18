@@ -61,6 +61,42 @@ The **TextBox** raises four keyboard events: [keyDown](/Documentation/ApiReferen
         // ...
     })
 
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    onKeyDown={this.onKeyDown}
+                    onKeyPress={this.onKeyPress}
+                    onKeyUp={this.onKeyUp}
+                    onEnterKey={this.onEnterKey}
+                />
+            );
+        }
+
+        onKeyDown(e) {
+            let keyCode = e.event.key;
+            // Event handling commands go here
+        }
+        onKeyPress(e) {
+            let keyCode = e.event.key;
+            // Event handling commands go here
+        }
+        onKeyUp(e) {
+            let keyCode = e.event.key;
+            // Event handling commands go here
+        }
+        onEnterKey(e) {
+            // Event handling commands go here
+        }
+    }
+
+    export default App;
+
 ---
 
 If you are going to change the handling functions at runtime, or if you need to attach several functions to a single event, use the [on(eventName, eventHandler)](/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#oneventName_eventHandler) method. This approach is more typical of jQuery.
@@ -121,6 +157,39 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
         ],
         // ...
     })
+
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        constructor(props) {
+            super(props);
+
+            this.myTextBox = null;
+            this.setMyTextBox = (ref) => {
+                this.myTextBox = ref.instance;
+            }
+        }
+
+        render() {
+            return (
+                <TextBox ref={this.setMyTextBox} />
+            );
+        }
+
+        componentDidMount() {
+            this.myTextBox.registerKeyHandler('backspace', function(e) {
+                // The argument "e" contains information on the event
+            });
+            this.myTextBox.registerKeyHandler('space', function(e) {
+                // ...
+            });
+        }
+    }
+
+    export default App;
 
 ---
 

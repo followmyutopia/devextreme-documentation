@@ -30,6 +30,23 @@ Depending on the value the **TextBox** should hold, specify the widget [mode](/D
         // ...
     })
 
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    mode="password"
+                />
+            );
+        }
+    }
+
+    export default App;
+
 ---
 
 #####See Also#####

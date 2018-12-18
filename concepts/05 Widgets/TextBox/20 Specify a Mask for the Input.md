@@ -107,6 +107,40 @@ You can also define custom masking elements using the [maskRules](/Documentation
         // ...
     })
 
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    const maskRules = {
+        // a single character
+        'S': '$',
+
+        // a regular expression
+        'H': /[0-9A-F]/,
+
+        // an array of characters
+        'N': ['$', '%', '&', '@'],
+
+        // a function
+        'F': (char) => {
+            return char == char.toUpperCase();
+        }
+    }
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    maskRules={maskRules}
+                    mask="SFFFFHN"
+                />
+            );
+        }
+    }
+
+    export default App;
+
 ---
 
 The masked value goes to the read-only [text](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#text) option, while its unmasked equivalent goes to the [value](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#value) option. If you use jQuery, you can get the value of either of these options using the [option(optionName)](/Documentation/ApiReference/UI_Widgets/dxTextBox/Methods/#optionoptionName) method.
@@ -148,6 +182,24 @@ By default, the widget uses underscores to designate blanks in the masked value.
         // ...
     })
 
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    mask="+1 (200) 000-0000"
+                    maskChar="‒"
+                />
+            );
+        }
+    }
+
+    export default App;
+
 ---
 
 If the input value does not match the mask, the **TextBox** displays an error message specified by the [maskInvalidMessage](/Documentation/ApiReference/UI_Widgets/dxTextBox/Configuration/#maskInvalidMessage) option.
@@ -183,6 +235,24 @@ If the input value does not match the mask, the **TextBox** displays an error me
         ],
         // ...
     })
+
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    mask="+1 (200) 000-0000"
+                    maskInvalidMessage="The input value does not match the mask"
+                />
+            );
+        }
+    }
+
+    export default App;
 
 ---
 

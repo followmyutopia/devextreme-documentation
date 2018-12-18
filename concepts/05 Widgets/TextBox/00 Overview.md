@@ -38,6 +38,23 @@ The following code adds a simple **TextBox** with a [placeholder](/Documentation
         // ...
     })
 
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    placeholder="Type a text here..."
+                />
+            );
+        }
+    }
+
+    export default App;
+
 ---
 
 If an end user should _not_ be able to edit the value in the **TextBox**, assign **true** to the **readOnly** option. In this case, make sure to set the **value** option too.
@@ -73,6 +90,24 @@ If an end user should _not_ be able to edit the value in the **TextBox**, assign
         ],
         // ...
     })
+
+##### React
+
+    import React from 'react';
+    import { TextBox } from 'devextreme-react/text-box';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <TextBox
+                    readOnly={true}
+                    defaultValue="The value that should not be edited"
+                />
+            );
+        }
+    }
+
+    export default App;
 
 ---
 
