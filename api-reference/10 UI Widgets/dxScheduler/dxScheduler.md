@@ -142,7 +142,7 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
 
     <!--Razor VB-->@(Html.DevExtreme().Scheduler() _
         .ID("scheduler") _
-        .DataSource(New Object() {
+        .DataSource({
             New With {
                 .text = "Meeting customers",
                 .startDate = new DateTime(2015, 5, 10, 11, 0, 0),

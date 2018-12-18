@@ -134,32 +134,28 @@ The **FilterBuilder** widget allows a user to build complex filter expressions w
     <!--Razor C#-->
     @(Html.DevExtreme().FilterBuilder()
         .ID("filterBuilder")
-        .Value(new object[] { "Category", "contains", "Tel" })
+        .Value(new object[] { "CompanyName", "contains", "Tel" })
         .Fields(fields => {
             fields.Add().DataField("CompanyName");
-            fields.Add()
-                    .DataField("City")
-                    .Caption("Shipment Date")
-                    .DataType(FilterBuilderFieldDataType.Date);
-            fields.Add()
-                    .DataField("State");
-                    .DataType(FilterBuilderFieldDataType.Number);
+            fields.Add().DataField("City")
+                .Caption("Shipment Date")
+                .DataType(FilterBuilderFieldDataType.Date);
+            fields.Add().DataField("State")
+                .DataType(FilterBuilderFieldDataType.Number);
         })
     )
 
     <!--Razor VB-->
     @(Html.DevExtreme().FilterBuilder() _
         .ID("filterBuilder") _
-        .Value(new object[] { "Category", "contains", "Tel" }) _
+        .Value(New String() {"CompanyName", "contains", "Tel"}) _
         .Fields(Sub(fields)
             fields.Add().DataField("CompanyName")
-            fields.Add()
-                    .DataField("City")
-                    .Caption("Shipment Date")
-                    .DataType(FilterBuilderFieldDataType.Date)
-            fields.Add()
-                    .DataField("State");
-                    .DataType(FilterBuilderFieldDataType.Number)
+            fields.Add().DataField("City") _
+                .Caption("Shipment Date") _
+                .DataType(FilterBuilderFieldDataType.Date)
+            fields.Add().DataField("State") _
+                .DataType(FilterBuilderFieldDataType.Number)
         End Sub)
     )
 

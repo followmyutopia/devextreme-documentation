@@ -133,7 +133,7 @@ The **RadioGroup** is a widget that contains a set of radio buttons and allows a
         .DisplayExpr("text") _
         .ValueExpr("color") _
         .Value("green") _
-        .DataSource(New Object() {
+        .DataSource({
             New With { .text = "Item 1", .color = "grey" },
             New With { .text = "Item 2", .color = "green" },
             New With { .text = "Item 3", .color = "yellow" },

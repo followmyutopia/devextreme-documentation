@@ -152,7 +152,7 @@ The **DataGrid** is a widget that represents data from a local or remote source 
 
     <!--Razor C#-->@(Html.DevExtreme().DataGrid()
         .ID("dataGrid")
-        .DataSource(new[] {
+        .DataSource(new object[] {
             new { 
                 ID = 1,
                 CompanyName = "Super Mart of the West",
