@@ -366,8 +366,8 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
                         text={this.state.text} 
                         onClick={this.clickHandler} />
                     <Drawer
-                        openedStateMode={"shrink"}
-                        revealMode={"expand"}
+                        openedStateMode="shrink"
+                        revealMode="expand"
                         maxSize={200}
                         minSize={50}
                         opened={this.state.isOpened}

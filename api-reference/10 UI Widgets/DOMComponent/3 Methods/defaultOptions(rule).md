@@ -95,8 +95,8 @@ Options to be applied.
             })
             return (
                 <div>
-                    <{WidgetName} id={"{widgetName}1"} />
-                    <{WidgetName} id={"{widgetName}2"} />
+                    <{WidgetName} id="{widgetName}1" />
+                    <{WidgetName} id="{widgetName}2" />
                 </div>
             )
         }

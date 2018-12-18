@@ -235,9 +235,9 @@ The **ButtonGroup** is a widget that contains a set of toggle buttons, and can b
             return (
                 <ButtonGroup
                     items={fontStyles}
-                    keyExpr={"style"}
-                    stylingMode={"outlined"}
-                    selectionMode={"multiple"} />
+                    keyExpr="style"
+                    stylingMode="outlined"
+                    selectionMode="multiple" />
             )
         }
     }

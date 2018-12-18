@@ -135,7 +135,7 @@ The **Button** widget is a simple button that performs specified commands when a
         render() {
             return (
                 <Button
-                    text={'Click me'}
+                    text="Click me"
                     onClick={this.buttonClicked}
                 />  
             );

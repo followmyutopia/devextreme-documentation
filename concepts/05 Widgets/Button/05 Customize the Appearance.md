@@ -70,8 +70,8 @@ The **Button** widget provides five predefined appearances controlled by the [ty
         render() {
             return (
                 <Button
-                    type={'default'}
-                    text={'Delete'}
+                    type="default"
+                    text="Delete"
                     onClick={this.foo}
                 />
             );
@@ -165,9 +165,9 @@ Apart from plain text, the **Button** can display an icon. DevExtreme provides [
         render() {
             return (
                 <Button
-                    type={'danger'}
-                    text={'Delete'}
-                    icon={'remove'}
+                    type="danger"
+                    text="Delete"
+                    icon="remove"
                     onClick={this.foo}
                 />
             );
@@ -272,7 +272,7 @@ If you need to define the **Button** content completely, implement a template fo
         render() {
             return (
                 <Button
-                    text={'Refresh'}
+                    text="Refresh"
                     onClick={this.foo}
                     render={(buttonData) =>
                         <i style={{ color: 'green' }}>{buttonData.text}</i>

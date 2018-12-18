@@ -78,7 +78,7 @@ The following code adds a simple **Button** to your page.
         render() {
             return (
                 <Button
-                    text={'OK'}
+                    text="OK"
                     onClick={this.okClicked}
                 />
             );

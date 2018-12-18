@@ -120,19 +120,19 @@ Commonly, editors nested into an HTML form are supposed to be validated on the c
         render() {
             return (
                 <form action="/Login" method="post">
-                    <TextBox name={'Login'}>
+                    <TextBox name="Login">
                         <Validator>
                             <RequiredRule />
                         </Validator>
                     </TextBox>
-                    <TextBox name={'Password'} mode={'password'}>
+                    <TextBox name="Password" mode="password">
                         <Validator>
                             <RequiredRule />
                         </Validator>
                     </TextBox>
                     <Button
-                        text={'Submit'}
-                        type={'success'}
+                        text="Submit"
+                        type="success"
                         useSubmitBehavior={true}
                     />
                 </form>

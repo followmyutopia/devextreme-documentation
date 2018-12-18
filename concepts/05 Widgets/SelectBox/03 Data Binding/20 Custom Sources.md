@@ -292,9 +292,9 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
     class App extends React.Component {
         render() {
             return (
-                <Lookup ...
+                <SelectBox ...
                     dataSource={selectBoxDataSource}>
-                </Lookup>
+                </SelectBox>
             );
         }
     }
