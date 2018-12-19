@@ -34,11 +34,11 @@
         dotnet add package DevExtreme.AspNet.Data
         dotnet add package DevExtreme.AspNet.Core
 
-4. Open the bower.json file and reference the **jquery**, **devextreme**, and **devextreme-aspnet-data** packages in the `"dependencies"` section. In addition, change the **bootstrap** version to 3.3.7 or later because earlier versions do not support jQuery v3. If bower.json is absent, run the [`bower init`](https://bower.io/docs/api/#init) command.
+4. Open the bower.json file and reference the **jquery**, **devextreme**, and **devextreme-aspnet-data** packages in the `"dependencies"` section. In addition, change the **bootstrap** version to 3.4.0 or later because earlier versions contain [known XSS vulnerabilities](https://snyk.io/vuln/npm:bootstrap:20160627) or do not support jQuery v3. If bower.json is absent, run the [`bower init`](https://bower.io/docs/api/#init) command.
 
         "dependencies": {
             ...
-            "bootstrap": "3.3.7",
+            "bootstrap": "^3.4.0",
             "jquery": "~3.1",
             "devextreme": "~18.2",
             "devextreme-aspnet-data": "~1"
