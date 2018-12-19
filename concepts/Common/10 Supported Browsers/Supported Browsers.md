@@ -4,10 +4,10 @@ DevExtreme supports the following browsers.
 
 - ![Microsoft Edge](/Content/images/doc/18_2/PhoneJS/edge.png) Microsoft Edge
 - ![Internet Explorer](/Content/images/doc/18_2/PhoneJS/ie.png) Internet Explorer 11
-- ![Safari](/Content/images/doc/18_2/PhoneJS/safari.png) Safari (excluding Safari for Windows)
-- ![Firefox](/Content/images/doc/18_2/PhoneJS/firefox.png) Firefox
-- ![Google Chrome](/Content/images/doc/18_2/PhoneJS/chrome.png) Google Chrome
-- ![Opera](/Content/images/doc/18_2/PhoneJS/opera.png) Opera
+- ![Safari](/Content/images/doc/18_2/PhoneJS/safari.png) Safari - two latest versions (Safari for Windows is not supported)
+- ![Firefox](/Content/images/doc/18_2/PhoneJS/firefox.png) Firefox - two latest versions
+- ![Google Chrome](/Content/images/doc/18_2/PhoneJS/chrome.png) Google Chrome - two latest versions
+- ![Opera](/Content/images/doc/18_2/PhoneJS/opera.png) Opera - two latest versions
 
 **Browsers integrated in the following mobile OS**
 
