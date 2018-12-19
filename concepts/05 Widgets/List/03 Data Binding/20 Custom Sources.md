@@ -159,7 +159,11 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
 
 #####Vue
 
-    <!--JavaScript-->
+    <template>
+        <dx-list ... 
+            :data-source="dataSource" />
+    </template>
+    <script>
     import DxList from "devextreme-vue/list";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -220,14 +224,10 @@ If the **List** allows the user to [delete items](/Documentation/Guide/Widgets/L
             DxList
         }
     }
-
-    <!--HTML-->
-    <dx-list ... 
-        :data-source="dataSource" />
+    </script>
 
 #####React
 
-    <!--JavaScript-->
     import React from "react";
     import List from "devextreme-react/list";
     import CustomStore from "devextreme/data/custom_store";

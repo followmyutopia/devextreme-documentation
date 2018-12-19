@@ -125,7 +125,12 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
 
 #####Vue
 
-    <!--JavaScript-->
+    <template>
+        <dx-tree-list ... 
+            :data-source="dataSource"
+            :remote-operations="remoteOperations" />
+    </template>
+    <script>
     import DxTreeList from "devextreme-vue/tree-list";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -178,15 +183,10 @@ Below is a generalized **CustomStore** configuration for the **TreeList** widget
             DxTreeList
         }
     }
-
-    <!--HTML-->
-    <dx-tree-list ... 
-        :data-source="dataSource"
-        :remote-operations="remoteOperations" />
+    </script>
 
 #####React
 
-    <!--JavaScript-->
     import React from "react";
     import TreeList, { RemoteOperations } from "devextreme-react/tree-list";
     import CustomStore from "devextreme/data/custom_store";

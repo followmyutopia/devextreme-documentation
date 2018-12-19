@@ -163,7 +163,11 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
 
 #####Vue
 
-    <!--JavaScript-->
+    <template>
+        <dx-select-box ... 
+            :data-source="dataSource" />
+    </template>
+    <script>
     import DxSelectBox from "devextreme-vue/select-box";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -228,14 +232,10 @@ If you specify the **SelectBox**'s [value](/Documentation/ApiReference/UI_Widget
             DxSelectBox
         }
     }
-
-    <!--HTML-->
-    <dx-select-box ... 
-        :data-source="dataSource" />
+    </script>
 
 #####React
 
-    <!--JavaScript-->
     import React from "react";
     import SelectBox from "devextreme-react/select-box";
     import CustomStore from "devextreme/data/custom_store";

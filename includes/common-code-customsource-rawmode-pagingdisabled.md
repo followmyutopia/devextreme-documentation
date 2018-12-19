@@ -55,7 +55,11 @@
 
 #####Vue
 
-    <!--JavaScript-->
+    <template>
+        <dx-{widget-name} ... 
+            :data-source="dataSource" />
+    </template>
+    <script>
     import { Dx{WidgetName} } from "devextreme-vue/{widget-name}";
     import CustomStore from "devextreme/data/custom_store";
     import DataSource from "devextreme/data/data_source";
@@ -87,14 +91,10 @@
             Dx{WidgetName}
         }
     }
-
-    <!--HTML-->
-    <dx-{widget-name} ... 
-        :data-source="dataSource" />
+    </script>
 
 #####React
 
-    <!--JavaScript-->
     import React from "react";
     import {WidgetName} from "devextreme-react/{widget-name}";
     import CustomStore from "devextreme/data/custom_store";

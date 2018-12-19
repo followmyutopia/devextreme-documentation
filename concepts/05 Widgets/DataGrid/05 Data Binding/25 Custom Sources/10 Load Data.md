@@ -153,7 +153,12 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
 
 #####Vue
 
-    <!--JavaScript-->
+    <template>
+        <dx-data-grid ... 
+            :data-source="dataSource"
+            :remote-operations="remoteOperations" />
+    </template>
+    <script>
     import DxDataGrid from "devextreme-vue/data-grid";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -212,15 +217,10 @@ Below is a generalized **CustomStore** configuration for the **DataGrid** widget
             DxDataGrid
         }
     }
-
-    <!--HTML-->
-    <dx-data-grid ... 
-        :data-source="dataSource"
-        :remote-operations="remoteOperations" />
+    </script>
 
 #####React
 
-    <!--JavaScript-->
     import React from "react";
     import DataGrid, { RemoteOperations } from "devextreme-react/data-grid";
     import CustomStore from "devextreme/data/custom_store";

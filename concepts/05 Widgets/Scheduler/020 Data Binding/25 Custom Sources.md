@@ -128,7 +128,11 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
 
 #####Vue
 
-    <!--JavaScript-->
+    <template>
+        <dx-scheduler ... 
+            :data-source="dataSource" />
+    </template>
+    <script>
     import DxScheduler from "devextreme-vue/scheduler";
     import CustomStore from "devextreme/data/custom_store";
     import DataSource from "devextreme/data/data_source";
@@ -195,14 +199,10 @@ If the **Scheduler** allows a user to add, delete or update appointments, the **
             DxScheduler
         }
     }
-
-    <!--HTML-->
-    <dx-scheduler ... 
-        :data-source="dataSource" />
+    </script>
 
 #####React
 
-    <!--JavaScript-->
     import React from "react";
     import Scheduler from "devextreme-react/scheduler";
     import CustomStore from "devextreme/data/custom_store";

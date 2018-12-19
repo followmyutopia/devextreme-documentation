@@ -42,15 +42,15 @@ To allow a user to add, delete and update data in the **DataGrid**, assign **tru
 
 #####Vue
 
-    <!--HTML-->
+    <template>
     <dx-data-grid ... >
         <dx-editing
             :allow-adding="true"
             :allow-updating="true"
             :allow-deleting="true" />
     </dx-data-grid>
-
-    <!--JavaScript-->
+    </template>
+    <script>
     import { DxDataGrid, DxEditing } from "devextreme-vue/data-grid";
     export default {
         // ...
@@ -65,10 +65,10 @@ To allow a user to add, delete and update data in the **DataGrid**, assign **tru
             DxEditing
         }
     }
+    </script>
 
 #####React
 
-    <!--JavaScript-->
     import React from "react";
     import DataGrid, { Editing } from "devextreme-react/data-grid";
     // ...

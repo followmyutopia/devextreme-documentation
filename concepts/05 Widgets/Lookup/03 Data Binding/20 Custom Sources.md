@@ -153,7 +153,11 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
 
 #####Vue
 
-    <!--JavaScript-->
+    <template>
+        <dx-lookup ... 
+            :data-source="dataSource" />
+    </template>
+    <script>
     import DxLookup from "devextreme-vue/lookup";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -209,14 +213,10 @@ If you specify the **Lookup**'s [value](/Documentation/ApiReference/UI_Widgets/d
             DxLookup
         }
     }
-
-    <!--HTML-->
-    <dx-lookup ... 
-        :data-source="dataSource" />
+    </script>
 
 #####React
 
-    <!--JavaScript-->
     import React from "react";
     import Lookup from "devextreme-react/lookup";
     import CustomStore from "devextreme/data/custom_store";

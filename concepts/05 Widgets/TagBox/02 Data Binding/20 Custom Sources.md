@@ -173,7 +173,11 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
 
 #####Vue
 
-    <!--JavaScript-->
+    <template>
+        <dx-tag-box ... 
+            :data-source="dataSource" />
+    </template>
+    <script>
     import DxTagBox from "devextreme-vue/tag-box";
     import CustomStore from "devextreme/data/custom_store";
     // ...
@@ -242,14 +246,10 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
             DxTagBox
         }
     }
-
-    <!--HTML-->
-    <dx-tag-box ... 
-        :data-source="dataSource" />
+    </script>
 
 #####React
 
-    <!--JavaScript-->
     import React from "react";
     import TagBox from "devextreme-react/tag-box";
     import CustomStore from "devextreme/data/custom_store";
