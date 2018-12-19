@@ -35,15 +35,16 @@ The model data. Available only if you use Knockout.
 <!--typeFunctionParamName1_field4-->data<!--/typeFunctionParamName1_field4-->
 <!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
 <!--typeFunctionParamDescription1_field4-->
-The data of the row.
+The data of the row that should be removed.
 <!--/typeFunctionParamDescription1_field4-->
 <!--typeFunctionParamName1_field5-->key<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->any<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The key of the row. If a field providing keys is not specified in the data source, the whole data object is considered the key.
+The row's key.
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->cancel<!--/typeFunctionParamName1_field6-->
 <!--typeFunctionParamType1_field6-->Boolean | Promise<void><!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
-Allows you to cancel row removal.
+**true**, a Promise resolved with **true**, or a rejected Promise stops row removal.       
+**false** or a Promise resolved with **false** or **undefined** continues row removal.
 <!--/typeFunctionParamDescription1_field6-->
