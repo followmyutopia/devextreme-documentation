@@ -14,7 +14,7 @@ Files that you need to reference include the [devextreme-intl](https://github.co
         <script src="~/Scripts/localization/dx.messages.ru.js"></script>
     End Section
 
-After that, add the command rendering this section to the `<head>` tag of the shared layout view - **Views/Shared/_Layout.csthml(.vbhtml)**. 
+Open the **Views/Shared/_Layout.csthml(.vbhtml)** file and add the following command to the `<head>` tag **after** DevExtreme scripts or the command that renders a bundle with them.
 
     <!--Razor C#-->
     @RenderSection("Localization", false)
