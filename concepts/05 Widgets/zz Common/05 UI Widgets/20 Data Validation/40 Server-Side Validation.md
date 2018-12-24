@@ -113,7 +113,7 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
 
     <!--HTML-->
     <div ng-controller="demoController">
-        <div dx-text-box="{ placeholder: 'Login' bindingOptions: { value: login } }",
+        <div dx-text-box="{ placeholder: 'Login' bindingOptions: { value: 'login' } }",
             dx-validator="{ validationRules: loginRules }">   
         </div>
     </div>

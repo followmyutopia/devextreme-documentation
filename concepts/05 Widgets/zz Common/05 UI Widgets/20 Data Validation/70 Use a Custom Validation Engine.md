@@ -98,9 +98,9 @@ Each DevExtreme editor allows changing its validation state and error message us
             placeholder: 'Login',
             onValueChanged: 'validateLogin($event)'
             bindingOptions: {
-                value: login,
-                isValid: isLoginValid,
-                validationError: loginValidationError
+                value: 'login',
+                isValid: 'isLoginValid',
+                validationError: 'loginValidationError'
             }
         }"></div>
     </div>
