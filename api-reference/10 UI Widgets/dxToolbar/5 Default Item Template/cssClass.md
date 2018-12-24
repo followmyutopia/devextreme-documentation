@@ -1,10 +1,10 @@
 ===========================================================================
-<!--default-->false<!--/default-->
-<!--type-->Boolean<!--/type-->
+<!--default-->undefined<!--/default-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether empty values are valid.
+Specifies a CSS class to be applied to the item.
 <!--/shortDescription-->
 
 <!--fullDescription-->
