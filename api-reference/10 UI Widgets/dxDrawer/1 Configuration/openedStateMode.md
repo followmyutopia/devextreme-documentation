@@ -23,6 +23,7 @@ The drawer partially displaces the view.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Drawer/HorizontalOpening/jQuery/Light/"
 }
+
 #include common-ref-enum with {
     enum: "`DrawerOpenedStateMode`",
     values: "`Overlap`, `Shrink`, and `Push`"
