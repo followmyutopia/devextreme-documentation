@@ -42,8 +42,8 @@
     "CollectionWidget": {
       "$Widget": "CollectionWidget",
       "5 Default Item Template": {
-        "Default Item Template.md": "CollectionWidgetItemTemplate",
-        "$Widget": "CollectionWidgetItemTemplate"
+        "Default Item Template.md": "CollectionWidgetItem",
+        "$Widget": "CollectionWidgetItem"
       }
     },
 
@@ -54,8 +54,8 @@
     "DataExpressionMixin": {
       "$Widget": "DataExpressionMixin",
       "5 Default Item Template": {
-        "Default Item Template.md": "DataExpressionMixinItemTemplate",
-        "$Widget": "DataExpressionMixinItemTemplate"
+        "Default Item Template.md": "DataExpressionMixinItem",
+        "$Widget": "DataExpressionMixinItem"
       }
     },
 
@@ -70,8 +70,8 @@
     "dxAccordion": {
       "$Widget": "dxAccordion",
       "5 Default Item Template": {
-        "Default Item Template.md": "dxAccordionItemTemplate",
-        "$Widget": "dxAccordionItemTemplate"
+        "Default Item Template.md": "dxAccordionItem",
+        "$Widget": "dxAccordionItem"
       }
     },
 
@@ -79,8 +79,8 @@
       "$Widget": "dxActionSheet",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxActionSheetItemTemplate",
-        "$Widget": "dxActionSheetItemTemplate"
+        "Default Item Template.md": "dxActionSheetItem",
+        "$Widget": "dxActionSheetItem"
       }
     },
 
@@ -92,8 +92,8 @@
       "$Widget": "dxBox",
 
       "5 Default Item Template": {
-      "Default Item Template.md": "dxBoxItemTemplate",
-        "$Widget": "dxBoxItemTemplate"
+      "Default Item Template.md": "dxBoxItem",
+        "$Widget": "dxBoxItem"
       }
     },
 
@@ -135,8 +135,8 @@
     "dxContextMenu": {
       "$Widget": "dxContextMenu",
       "5 Default Item Template": {
-        "Default Item Template.md": "dxContextMenuItemTemplate",
-        "$Widget": "dxContextMenuItemTemplate"
+        "Default Item Template.md": "dxContextMenuItem",
+        "$Widget": "dxContextMenuItem"
       }
     },
 
@@ -180,7 +180,11 @@
     },
 
     "dxDropDownList": {
-      "$Widget": "dxDropDownList"
+      "$Widget": "dxDropDownList",
+
+      "5 Default Item Template": {
+        "Default Item Template.md": "$inherits(CollectionWidgetItem)"
+      }
     },
 
     "dxDropDownMenu": {
@@ -236,8 +240,8 @@
       "$Widget": "dxGallery",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxGalleryItemTemplate",
-        "$Widget": "dxGalleryItemTemplate"
+        "Default Item Template.md": "dxGalleryItem",
+        "$Widget": "dxGalleryItem"
       }
     },
 
@@ -245,8 +249,8 @@
       "$Widget": "dxList",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxListItemTemplate",
-        "$Widget": "dxListItemTemplate"
+        "Default Item Template.md": "dxListItem",
+        "$Widget": "dxListItem"
       }
     },
 
@@ -269,8 +273,8 @@
     "dxMenu": {
       "$Widget": "dxMenu",
       "5 Default Item Template": {
-        "Default Item Template.md": "dxMenuItemTemplate",
-        "$Widget": "dxMenuItemTemplate"
+        "Default Item Template.md": "dxMenuItem",
+        "$Widget": "dxMenuItem"
       }
     },
 
@@ -278,8 +282,8 @@
       "$Widget": "dxMenuBase",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxMenuBaseItemTemplate",
-        "$Widget": "dxMenuBaseItemTemplate"
+        "Default Item Template.md": "dxMenuBaseItem",
+        "$Widget": "dxMenuBaseItem"
       }
     },
 
@@ -287,8 +291,8 @@
       "$Widget": "dxMultiView",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxMultiViewItemTemplate",
-        "$Widget": "dxMultiViewItemTemplate"
+        "Default Item Template.md": "dxMultiViewItem",
+        "$Widget": "dxMultiViewItem"
       }
     },
 
@@ -296,8 +300,8 @@
       "$Widget": "dxNavBar",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxNavBarItemTemplate",
-        "$Widget": "dxNavBarItemTemplate"
+        "Default Item Template.md": "dxNavBarItem",
+        "$Widget": "dxNavBarItem"
       }
     },
 
@@ -313,8 +317,8 @@
       "$Widget": "dxPanorama",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxPanoramaItemTemplate",
-        "$Widget": "dxPanoramaItemTemplate"
+        "Default Item Template.md": "dxPanoramaItem",
+        "$Widget": "dxPanoramaItem"
       }
     },
 
@@ -322,8 +326,8 @@
       "$Widget": "dxPivot",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxPivotItemTemplate",
-        "$Widget": "dxPivotItemTemplate"
+        "Default Item Template.md": "dxPivotItem",
+        "$Widget": "dxPivotItem"
       }
     },
 
@@ -362,7 +366,11 @@
     },
 
     "dxRadioGroup": {
-      "$Widget": "dxRadioGroup"
+      "$Widget": "dxRadioGroup",
+
+      "5 Default Item Template": {
+        "Default Item Template.md": "$inherits(CollectionWidgetItem)"
+      }
     },
 
     "dxRangeSlider": {
@@ -381,8 +389,8 @@
       "$Widget": "dxResponsiveBox",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxResponsiveBoxItemTemplate",
-        "$Widget": "dxResponsiveBoxItemTemplate"
+        "Default Item Template.md": "dxResponsiveBoxItem",
+        "$Widget": "dxResponsiveBoxItem"
       }
     },
 
@@ -408,8 +416,8 @@
       "$Widget": "dxScheduler",
 
       "5 Default Appointment Template": {
-        "Default Appointment Template.md": "dxSchedulerAppointmentTemplate",
-        "$Widget": "dxSchedulerAppointmentTemplate"
+        "Default Appointment Template.md": "dxSchedulerAppointment",
+        "$Widget": "dxSchedulerAppointment"
       },
 
       "6 Default Tooltip Template": {
@@ -434,8 +442,8 @@
       "$Widget": "dxSlideOut",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxSlideOutItemTemplate",
-        "$Widget": "dxSlideOutItemTemplate"
+        "Default Item Template.md": "dxSlideOutItem",
+        "$Widget": "dxSlideOutItem"
       }
     },
 
@@ -459,8 +467,8 @@
       "$Widget": "dxTabPanel",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxTabPanelItemTemplate",
-        "$Widget": "dxTabPanelItemTemplate"
+        "Default Item Template.md": "dxTabPanelItem",
+        "$Widget": "dxTabPanelItem"
       }
     },
 
@@ -468,8 +476,8 @@
       "$Widget": "dxTabs",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxTabsItemTemplate",
-        "$Widget": "dxTabsItemTemplate"
+        "Default Item Template.md": "dxTabsItem",
+        "$Widget": "dxTabsItem"
       }
     },
 
@@ -493,8 +501,8 @@
       "$Widget": "dxTileView",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxTileViewItemTemplate",
-        "$Widget": "dxTileViewItemTemplate"
+        "Default Item Template.md": "dxTileViewItem",
+        "$Widget": "dxTileViewItem"
       }
     },
 
@@ -506,8 +514,8 @@
       "$Widget": "dxToolbar",
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxToolbarItemTemplate",
-        "$Widget": "dxToolbarItemTemplate"
+        "Default Item Template.md": "dxToolbarItem",
+        "$Widget": "dxToolbarItem"
       }
     },
 
@@ -551,8 +559,8 @@
       },
 
       "5 Default Item Template": {
-        "Default Item Template.md": "dxTreeViewItemTemplate",
-        "$Widget": "dxTreeViewItemTemplate"
+        "Default Item Template.md": "dxTreeViewItem",
+        "$Widget": "dxTreeViewItem"
       }
     },
 
