@@ -7,6 +7,8 @@ Specifies the field's custom filtering rules.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+[note] When configuring the [filter builder](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#filterBuilder) integrated in the **DataGrid** or **TreeList**, specify the [calculateFilterExpression](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateFilterExpression) in the column with the same [dataField](/Documentation/ApiReference/UI_Widgets/dxFilterBuilder/Field/#dataField) instead.
+
 This function must return a [filter expression](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Filtering). The simplest filter expression has the following format:
 
     [selector, selectedFilterOperation, filterValue]
@@ -21,7 +23,7 @@ A comparison operator. One of the following: *"=", "<>", ">", ">=", "<", "<=", "
 - **filterValue**        
 A user input value. Values the **selector** provides are compared to this value.
 
-In the following code, the **calculateFilterExpression** function implements the exclusive **between** operation. This is done by overriding the default inclusive **between** implementation.
+In the following code, the **calculateFilterExpression** function implements an exclusive **between** operation. This is done by overriding the default inclusive implementation.
 
 ---
 ##### jQuery

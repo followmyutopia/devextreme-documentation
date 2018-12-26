@@ -21,7 +21,7 @@ A comparison operator. One of the following: *"=", "<>", ">", ">=", "<", "<=", "
 - **filterValue**        
 A user input value. Values the **selector** provides are compared to this value.
 
-The following code shows the default **calculateFilterExpression** function implementation. You can change it as required.
+In the following code, the **calculateFilterExpression** function implements an exclusive **between** operation. This is done by overriding the default inclusive implementation.
 
 ---
 ##### jQuery
@@ -34,9 +34,9 @@ The following code shows the default **calculateFilterExpression** function impl
                     // Implementation for the "between" comparison operator
                     if (selectedFilterOperation === "between" && $.isArray(filterValue)) {
                         var filterExpression = [
-                            [this.dataField, ">=", filterValue[0]], 
+                            [this.dataField, ">", filterValue[0]], 
                             "and", 
-                            [this.dataField, "<=", filterValue[1]]
+                            [this.dataField, "<", filterValue[1]]
                         ];
                         return filterExpression;
                     }
@@ -59,9 +59,9 @@ The following code shows the default **calculateFilterExpression** function impl
             // Implementation for the "between" comparison operator
             if (selectedFilterOperation === "between" && Array.isArray(filterValue)) {
                 var filterExpression = [
-                    [column.dataField, ">=", filterValue[0]], 
+                    [column.dataField, ">", filterValue[0]], 
                     "and", 
-                    [column.dataField, "<=", filterValue[1]]
+                    [column.dataField, "<", filterValue[1]]
                 ];
                 return filterExpression;
             }
