@@ -1,3 +1,3 @@
 <!--merge--><!--/merge-->
-<!--type-->Array<dxMenuItemTemplate><!--/type-->
+<!--type-->Array<dxMenuItem><!--/type-->
 ===========================================================================

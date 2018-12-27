@@ -1,3 +1,3 @@
 <!--merge--><!--/merge-->
-<!--type-->Array<dxMenuItem><!--/type-->
+<!--type-->Array<String, dxAccordionItem, Object><!--/type-->
 ===========================================================================

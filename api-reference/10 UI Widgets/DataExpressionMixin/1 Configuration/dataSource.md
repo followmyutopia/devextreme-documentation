@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->String | Array<any> | DataSource | DataSource_Options<!--/type-->
+<!--type-->String | Array<CollectionWidgetItem, Object> | DataSource | DataSource_Options<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

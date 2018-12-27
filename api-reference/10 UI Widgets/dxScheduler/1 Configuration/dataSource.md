@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->String | Array<dxSchedulerAppointmentTemplate> | DataSource | DataSource_Options<!--/type-->
+<!--type-->String | Array<dxSchedulerAppointment> | DataSource | DataSource_Options<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

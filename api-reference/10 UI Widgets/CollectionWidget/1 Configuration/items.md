@@ -1,5 +1,5 @@
 ===========================================================================
-<!--type-->Array<String, Object><!--/type-->
+<!--type-->Array<String, CollectionWidgetItem, Object><!--/type-->
 <!--firedEvents-->optionChanged<!--/firedEvents-->
 ===========================================================================
 
