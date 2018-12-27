@@ -13,7 +13,7 @@ In drag-and-drop mode, a user moves column headers to and from the column choose
 
 <img src="/Content/images/doc/18_2/{WidgetName}/visual_elements/column-chooser_draganddrop-mode.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget {WidgetName} ColumnChooser" style="margin-right:60px" /> <img src="/Content/images/doc/18_2/{WidgetName}/visual_elements/column-chooser_select-mode.png" alt="DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget {WidgetName} ColumnChooser" style="margin-right:90px" />
 
-[note] Column chooser does not hide columns used in grouping when the mode is *"select"*. 
+[note] When the mode is *"select"*, the column chooser does not hide column headers from the [group panel](/Documentation/Guide/Widgets/DataGrid/Grouping/#User_Interaction/Group_Data) (does not ungroup data).
 
 #include common-ref-enum with {
     enum: "`GridColumnChooserMode`",
