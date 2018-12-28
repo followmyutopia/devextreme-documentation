@@ -165,7 +165,7 @@ Implement the column's [editCellTemplate](/Documentation/ApiReference/UI_Widgets
         .Columns(cols => {
             // ...
             cols.Add().DataField("isChecked")
-                .EditCellTemplate(new TemplateName("edit-cells""));
+                .EditCellTemplate(new TemplateName("edit-cells"));
         })
         .Editing(m => m.Mode(GridEditMode.Batch).AllowUpdating(true))
     )

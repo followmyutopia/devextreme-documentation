@@ -17,6 +17,10 @@ DevExtreme provides the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Mark
     // ...
     export class AppComponent {
         listData = [
+            { 
+                itemProperty: "someValue",
+                // ...
+            },
             // ...
         ]
     }
@@ -47,6 +51,10 @@ DevExtreme provides the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Mark
     angular.module('DemoApp', ['dx'])
         .controller('DemoController', function ($scope) {
             $scope.listData = [
+                { 
+                    itemProperty: "someValue",
+                    // ...
+                },
                 // ...
             ];
         });
@@ -68,6 +76,10 @@ DevExtreme provides the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Mark
     <!--JavaScript-->
     var viewModel = {
         listData: [
+            { 
+                itemProperty: "someValue",
+                // ...
+            },
             // ...
         ]
     };
@@ -80,6 +92,10 @@ DevExtreme provides the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Mark
     $(function() {
         $("#listContainer").dxList({
             dataSource: [
+                { 
+                    itemProperty: "someValue",
+                    // ...
+                },
                 // ...
             ],
             itemTemplate: function (itemData, itemIndex, element) {
