@@ -82,13 +82,11 @@ You can customize the text field and the drop-down button using the [fieldTempla
             [fullScreen]="true"
             [showCloseButton]="true">
         </dxo-drop-down-options>
-        <div *dxTemplate="let contentData of 'content'">
-            <dx-list 
-                [dataSource]="fruits"
-                selectionMode="single"
-                (onSelectionChanged)="changeDropDownBoxValue($event)">
-            </dx-list>
-        </div>
+        <dx-list 
+            [dataSource]="fruits"
+            selectionMode="single"
+            (onSelectionChanged)="changeDropDownBoxValue($event)">
+        </dx-list>
         <div *dxTemplate="let data of 'dropDownButtonTemplate'">
             <img src="images/icons/custom-dropbutton-icon.svg">
         </div>
@@ -123,7 +121,7 @@ You can customize the text field and the drop-down button using the [fieldTempla
         isDropDownBoxOpened: Boolean = false;
         constructor() {
             this.dataSource = new DataSource({
-                store: new ArrayStore({ data: fruits, key: "id" })
+                store: new ArrayStore({ data: this.fruits, key: "id" })
             });
         }
         changeDropDownBoxValue = function (args) {
@@ -154,6 +152,183 @@ You can customize the text field and the drop-down button using the [fieldTempla
         position: absolute;
     }
     ::ng-deep .product-name  {
+        display: inline-block;
+        padding-left: 45px;
+        text-indent: 0;
+        line-height: 30px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+#####ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DropDownBox()
+        .ID("dropDownBox")
+        .DataSource(ds => ds.Array()
+            .Key("ID")
+            .Data(new JS("fruits"))
+        )
+        .Value(new JS("value"))
+        .ContentTemplate(new TemplateName("list"))
+        .DropDownButtonTemplate("<img src= 'images/icons/custom-dropbutton-icon.svg' />")
+        .FieldTemplate(new TemplateName("field_template"))
+        .DropDownOptions(o => o
+            .Title("Fruits")
+            .ShowTitle(true)
+            .FullScreen(true)
+            .ShowCloseButton(true)
+        )
+    )
+    @using (Html.DevExtreme().NamedTemplate("list")) {
+        @(Html.DevExtreme().List()
+            .ID("list")
+            .DataSource(new JS("component.option('dataSource')"))
+            .SelectionMode(ListSelectionMode.Single)
+            .OnSelectionChanged("innerList_selectionChanged")
+        )
+    }
+    @using (Html.DevExtreme().NamedTemplate("field_template")) {
+        <div class="custom-item">
+            <img src="<% value.image %>">
+            <div class="product-name">
+                @(Html.DevExtreme().TextBox()
+                    .Value(new JS("value.text"))
+                    .ReadOnly(true)
+                )
+            </div>
+        </div>
+    }
+
+    <script>
+        var fruits = [
+            { ID: 1, text: "Apples", image: "images/Apples.svg" },
+            { ID: 2, text: "Oranges", image: "images/Oranges.svg" },
+            { ID: 3, text: "Lemons", image: "images/Lemons.svg" },
+            { ID: 4, text: "Pears", image: "images/Pears.svg" },
+            { ID: 5, text: "Pineapples", image: "images/Pineapples.svg" }
+        ];
+        var value = fruits[0];
+        function innerList_selectionChanged (e) {
+            var dropDownBox = $("#dropDownBox").dxDropDownBox("instance");
+            dropDownBox.option("value", e.addedItems[0]);
+            dropDownBox.close();
+        }
+    </script>
+
+    <!--CSS-->
+    .custom-item {
+        position: relative;
+        min-height: 30px;
+    }
+    .custom-item > img {
+        left: 1px;
+        margin-top: 3px;
+        max-height: 30px;
+        width: auto;
+        position: absolute;
+    }
+    .product-name  {
+        display: inline-block;
+        padding-left: 45px;
+        text-indent: 0;
+        line-height: 30px;
+        font-size: 15px;
+        width: 100%;
+    }
+
+#####Vue
+
+    <!--tab: DxComponent.vue-->
+    <template>
+        <div>
+            <dx-drop-down-box
+                :value.sync="selectedFruit"
+                :opened.sync="isDropDownBoxOpened"
+                :data-source="dataSource"
+                drop-down-button-template="dropDownButtonTemplate"
+                field-template="fieldTemplate">
+                <div slot="dropDownButtonTemplate" slot-scope="data">
+                    <img src="images/icons/custom-dropbutton-icon.svg">
+                </div>
+                <div slot="fieldTemplate" slot-scope="data">
+                    <div class="custom-item">
+                        <img :src="data.image">
+                        <div class="product-name">
+                            <dx-text-box
+                                :value="data.text"
+                                :readOnly="true">
+                            </dx-text-box>
+                        </div>
+                    </div>
+                </div>
+                <dx-drop-down-options
+                    title="Fruits"
+                    :show-title="true"
+                    :full-screen="true"
+                    :show-close-button="true">
+                </dx-drop-down-options>
+                <dx-list
+                    :data-source="dataSource"
+                    selection-mode="single"
+                    @selection-changed="changeDropDownBoxValue($event)">
+                </dx-list>
+            </dx-drop-down-box>
+        </div>
+    </template>
+
+    <script>
+    import { DxDropDownBox, DxDropDownOptions } from "devextreme-vue/drop-down-box";
+    import DxList from "devextreme-vue/list";
+    import DxTextBox from "devextreme-vue/text-box";
+    import ArrayStore from "devextreme/data/array_store";
+
+    export default {
+        components: {
+            DxDropDownBox,
+            DxList,
+            DxTextBox,
+            DxDropDownOptions
+        },
+        data() {
+            const fruits = [
+                { ID: 1, text: "Apples", image: "images/Apples.svg" }, 
+                { ID: 2, text: "Oranges", image: "images/Oranges.svg" }, 
+                { ID: 3, text: "Lemons", image: "images/Lemons.svg" }, 
+                { ID: 4, text: "Pears", image: "images/Pears.svg" }, 
+                { ID: 5, text: "Pineapples", image: "images/Pineapples.svg" }
+            ];
+            return {
+                dataSource: new ArrayStore({
+                    data: fruits,
+                    key: "ID"
+                }),
+                isDropDownBoxOpened: false,
+                selectedFruit: fruits[0]
+            }
+        },
+        methods: {
+            changeDropDownBoxValue(e) {
+                this.selectedFruit = e.addedItems[0];
+                this.isDropDownBoxOpened = false;
+            }
+        }
+    }
+    </script>
+
+    <!--CSS-->
+    .custom-item {
+        position: relative;
+        min-height: 30px;
+    }
+    .custom-item > img {
+        left: 1px;
+        margin-top: 3px;
+        max-height: 30px;
+        width: auto;
+        position: absolute;
+    }
+    .product-name  {
         display: inline-block;
         padding-left: 45px;
         text-indent: 0;

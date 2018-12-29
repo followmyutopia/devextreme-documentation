@@ -49,11 +49,9 @@ Assign the field's name to the **DropDownBox**'s [valueExpr](/Documentation/ApiR
             valueExpr="ID"
             displayExpr="email"
             [dataSource]="dropDownBoxData">
-            <div *dxTemplate="let data of 'content'">
-                <dx-data-grid ...
-                    [dataSource]="gridDataSource">
-                </dx-data-grid>
-            </div>
+            <dx-data-grid ...
+                [dataSource]="gridDataSource">
+            </dx-data-grid>
         </dx-drop-down-box>
 
         <!--TypeScript-->
@@ -80,6 +78,65 @@ Assign the field's name to the **DropDownBox**'s [valueExpr](/Documentation/ApiR
             ],
             // ...
         })
+
+    #####ASP.NET MVC Controls
+
+        <!--Razor C#-->
+        @(Html.DevExtreme().DropDownBox()
+            .ID("dropDownBox")
+            .DataSource(new JS("dropDownBoxData"))
+            .ValueExpr("ID")
+            .DisplayExpr("email")
+            .ContentTemplate(new TemplateName("dataGrid"))
+        )
+        @using (Html.DevExtreme().NamedTemplate("dataGrid")) {
+            @(Html.DevExtreme().DataGrid()
+                .ID("dataGrid")
+                .DataSource(ds => ds.Array()
+                    .Key("ID")
+                    .Data(new JS("widgetData"))
+                )
+            )
+        }
+
+    #####Vue
+
+        <!--tab: DxComponent.vue-->
+        <template>
+            <div>
+                <dx-drop-down-box
+                    value-expr="ID"
+                    display-expr="email"
+                    :data-source="dropDownBoxData">
+                    <dx-data-grid 
+                        :data-source="gridDataSource">
+                    </dx-data-grid>
+                </dx-drop-down-box>
+            </div>
+        </template>
+
+        <script>
+        import DxDropDownBox from "devextreme-vue/drop-down-box";
+        import DxDataGrid, DxSelection from "devextreme-vue/data-grid";
+        import ArrayStore from "devextreme/data/array_store";
+
+        export default {
+            components: {
+                DxDropDownBox,
+                DxDataGrid
+            },
+            data() {
+                return {
+                    dropDownBoxData: dropDownBoxData,
+                    gridDataSource: new ArrayStore({
+                        data: widgetData,
+                        key: "ID"
+                    }),
+                    isDropDownBoxOpened: false
+                }
+            }
+        }
+        </script>
 
     ---
 
@@ -116,7 +173,7 @@ This step's implementation depends on the embedded widget's API and the library/
                     return $dataGrid;
                 },
                 onValueChanged: function (e) {
-                    dataGrid.selectRows(e.value, false);
+                    dataGridInstance.selectRows(e.value, false);
                 }
             });
         });
@@ -126,12 +183,10 @@ This step's implementation depends on the embedded widget's API and the library/
         <!--HTML-->
         <dx-drop-down-box ...
             [(value)]="dropDownBoxValue">
-            <div *dxTemplate="let data of 'content'">
-                <dx-data-grid ...
-                    [selection]="{ mode: 'multiple' }"
-                    [(selectedRowKeys)]="dropDownBoxValue">
-                </dx-data-grid>
-            </div>
+            <dx-data-grid ...
+                [selection]="{ mode: 'multiple' }"
+                [(selectedRowKeys)]="dropDownBoxValue">
+            </dx-data-grid>
         </dx-drop-down-box>
 
         <!--TypeScript-->
@@ -156,6 +211,79 @@ This step's implementation depends on the embedded widget's API and the library/
             ],
             // ...
         })
+
+    #####ASP.NET MVC Controls
+
+        <!--Razor C#-->
+        @(Html.DevExtreme().DropDownBox()
+            // ...
+            .Value(1)
+            .ContentTemplate(new TemplateName("dataGrid"))
+            .OnValueChanged("dropDownBox_valueChanged")
+        )
+        @using (Html.DevExtreme().NamedTemplate("dataGrid")) {
+            @(Html.DevExtreme().DataGrid()
+                // ...
+                .Selection(s => s.Mode(SelectionMode.Single))
+                .SelectedRowKeys(new JS("component.option('value')"))
+                .OnSelectionChanged("innerDataGrid_selectionChanged")
+            )
+        }
+
+        <script>
+            function innerDataGrid_selectionChanged(info) {
+                $("#dropDownBox").dxDropDownBox("option", "value", info.selectedRowKeys)
+            }
+            function dropDownBox_valueChanged(e) {
+                $("#dataGrid").dxDataGrid("selectRows", e.value, false);
+            }
+        </script>
+
+    #####Vue
+
+        <!--tab: DxComponent.vue-->
+        <template>
+            <div>
+                <dx-drop-down-box ...
+                    :value.sync="dropDownBoxValues">
+                    <dx-data-grid ...
+                        :selected-row-keys.sync="dropDownBoxValues">
+                        <dx-selection mode="multiple" />
+                    </dx-data-grid>
+                </dx-drop-down-box>
+            </div>
+        </template>
+
+        <script>
+        import DxDropDownBox from "devextreme-vue/drop-down-box";
+        import { DxDataGrid, DxSelection } from "devextreme-vue/data-grid";
+        import ArrayStore from "devextreme/data/array_store";
+
+        export default {
+            components: {
+                DxDropDownBox,
+                DxDataGrid,
+                DxSelection
+            },
+            data() {
+                // ...
+                return {
+                    // ...
+                    dropDownBox_values: [1]
+                }
+            },
+            computed: {
+                dropDownBoxValues: {
+                    get: function() {
+                        return this.dropDownBox_values;
+                    },
+                    set: function(value) {
+                        this.dropDownBox_values = value || [];
+                    }
+                }
+            }
+        }
+        </script>
 
     ---
 
