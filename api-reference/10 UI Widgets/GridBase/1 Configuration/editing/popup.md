@@ -7,7 +7,7 @@ Configures the popup. Used only if **editing**.[mode]({basewidgetpath}/Configura
 <!--/shortDescription-->
 
 <!--fullDescription-->
-You can specify most of the [Popup options](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/) in this object except those listed below. The **{WidgetName}** overriddes these options.
+You can specify most of the [Popup options](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/) in this object except those listed below. The **{WidgetName}** overrides these options.
 
 - [contentTemplate](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#contentTemplate)
 - [fullScreen](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#fullScreen)
