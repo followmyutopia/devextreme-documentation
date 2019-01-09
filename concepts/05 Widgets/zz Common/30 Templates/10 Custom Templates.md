@@ -1,4 +1,8 @@
-DevExtreme provides the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component for Angular, AngularJS, and Knockout apps. Implement a **dxTemplate** within the widget's container using the library's syntax. You can access a template's context properties within the template and, in item templates, the item index as shown in the following code. Assign the template's **name** to a widget's **...Template** option. One widget can have multiple **dxTemplate**s. If you use jQuery alone, set the widget's **...Template** option to a function that combines the HTML markup using jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/).
+DevExtreme provides the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component for Angular, AngularJS, and Knockout apps.
+
+Implement a **dxTemplate** within the widget's container using the syntax of the used library (Angular, Knockout, etc.). You can access a template's context properties within the template and, in item templates, the item index as shown in the following code. Assign the template's **name** to a widget's **...Template** option. In the code below, it is the [List](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/) widget's [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#itemTemplate) option. One widget can have multiple **dxTemplate**s.
+
+If you use jQuery alone, set the widget's **...Template** option to a function that combines the HTML markup using jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/).
 
 ---
 #####Angular
