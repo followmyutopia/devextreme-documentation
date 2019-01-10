@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A Boolean value specifying whether or not the main screen is inactive while the widget is active.
+Specifies whether to shade the [container]({basewidgetpath}/Configuration/#container) when the widget is active.
 <!--/shortDescription-->
 
 <!--fullDescription-->
