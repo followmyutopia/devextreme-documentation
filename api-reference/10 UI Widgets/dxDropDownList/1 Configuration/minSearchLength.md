@@ -4,9 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-The minimum number of characters that must be entered into the text box to begin a search. Applies only if [searchEnabled]({basewidgetpath}/Configuration/#searchEnabled) is **true**.
+Specifies the minimum number of characters that a user should type in to trigger the search. Applies only if [searchEnabled]({basewidgetpath}/Configuration/#searchEnabled) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/SelectBox/SearchAndEditing/jQuery/Light/"
+}
 <!--/fullDescription-->

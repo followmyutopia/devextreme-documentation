@@ -4,16 +4,53 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the name of a data source item field or an expression whose value is compared to the search criterion.
+Specifies one or several data fields to search. Applies only if [searchEnabled]({basewidgetpath}/Configuration/#searchEnabled) is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In most cases, you should pass the name of a field by whose value data items are searched. If you need to search elements by several field values, assign an array of field names to this option.
+---
+#####jQuery
 
     <!--JavaScript-->
-    searchExpr: ["firstName", "lastName"]
+    $(function() {
+        $("#{widgetName}Container").dx{WidgetName}({
+            // ...
+            searchEnabled: true,
+            searchExpr: ["country", "capital"]
+        });
+    });
 
-For more information on searching, refer to the [Search Api section](/Documentation/Guide/Data_Layer/Data_Layer/#Reading_Data/Search_Api) of the Data Layer article. For information on getters, refer to the [Getters and Setters section](/Documentation/Guide/Data_Layer/Data_Layer/#Getters_And_Setters) of the Data Layer article.
+#####Angular
 
+    <!-- tab: app.component.html -->
+    <dx-{widget-name} ...
+        [searchEnabled]="true"
+        [searchExpr]="['country', 'capital']">
+    </dx-{widget-name}>
 
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            Dx{WidgetName}Module
+        ],
+        providers: [],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+---
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/SelectBox/SearchAndEditing/jQuery/Light/"
+}
 <!--/fullDescription-->

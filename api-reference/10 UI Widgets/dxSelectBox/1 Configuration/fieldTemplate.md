@@ -8,8 +8,11 @@ Specifies a custom template for the text field. Must contain the [TextBox](/Docu
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/SelectBox/Overview/jQuery/Light/"
+}
+
 #####See Also#####
-- [Customize Item Appearance](/Documentation/Guide/Widgets/SelectBox/Customize_Item_Appearance/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->selectedItem<!--/typeFunctionParamName1-->

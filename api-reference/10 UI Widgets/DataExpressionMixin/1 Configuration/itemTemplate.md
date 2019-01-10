@@ -8,8 +8,11 @@ Specifies a custom template for items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/SelectBox/Overview/jQuery/Light/"
+}
+
 #####See Also#####
-- [Customize Item Appearance](/Documentation/Guide/Widgets/{WidgetName}/Customize_Item_Appearance/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->

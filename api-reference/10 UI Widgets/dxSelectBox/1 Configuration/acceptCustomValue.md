@@ -4,12 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the widget allows a user to enter a custom value. Requires the [onCustomItemCreating]({basewidgetpath}/Configuration/#onCustomItemCreating) handler implementation.
+Specifies whether users are allowed to add custom values. Requires the [onCustomItemCreating]({basewidgetpath}/Configuration/#onCustomItemCreating) handler implementation.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
-#####See Also#####
-- [SelectBox - Create a User-Defined Item](/Documentation/Guide/Widgets/SelectBox/Create_a_User-Defined_Item/)
-- [TagBox - Create a User-Defined Item](/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/)
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/SelectBox/SearchAndEditing/jQuery/Light/"
+}
 <!--/fullDescription-->

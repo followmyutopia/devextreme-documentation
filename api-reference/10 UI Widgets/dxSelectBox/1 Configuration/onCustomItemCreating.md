@@ -5,13 +5,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed when a user adds a custom item. Requires [acceptCustomValue]({basewidgetpath}/Configuration/#acceptCustomValue) to be set to **true**. 
+A function that is executed when a user adds a custom item. Applies only if [acceptCustomValue]({basewidgetpath}/Configuration/#acceptCustomValue) is **true**. 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#####See Also#####
-- [SelectBox - Create a User-Defined Item](/Documentation/Guide/Widgets/SelectBox/Create_a_User-Defined_Item/)
-- [TagBox - Create a User-Defined Item](/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/)
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/SelectBox/SearchAndEditing/jQuery/Light/"
+}
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
