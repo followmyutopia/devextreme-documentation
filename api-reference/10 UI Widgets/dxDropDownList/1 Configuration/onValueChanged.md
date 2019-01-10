@@ -9,64 +9,7 @@ A function that is executed after the widget's [value]({basewidgetpath}/Configur
 <!--/shortDescription-->
 
 <!--fullDescription-->
----
-#####jQuery
 
-    <!--JavaScript-->
-    $(function() {
-        $("#{widgetName}Container").dx{WidgetName}({
-            onValueChanged: (e) => {
-                let previousValue = e.previousValue;
-                let newValue = e.value;
-                // Event handling commands go here
-            }
-        });
-    });
-
-#####Angular
-
-    <!-- tab: app.component.html -->
-    <dx-{widget-name} ...
-        (onValueChanged)="onValueChanged($event)">
-    </dx-{widget-name}>
-
-    <!-- tab: app.component.ts -->
-    import { Component } from '@angular/core';
-
-    @Component({
-        selector: 'app-root',
-        templateUrl: './app.component.html',
-        styleUrls: ['./app.component.css']
-    })
-    export class AppComponent {
-        onValueChanged(e) {
-            let previousValue = e.previousValue;
-            let newValue = e.value;
-            // Event handling commands go here
-        }
-    }
-
-    <!-- tab: app.module.ts -->
-    import { BrowserModule } from '@angular/platform-browser';
-    import { NgModule } from '@angular/core';
-    import { AppComponent } from './app.component';
-
-    import { Dx{WidgetName}Module } from 'devextreme-angular';
-
-    @NgModule({
-        declarations: [
-            AppComponent
-        ],
-        imports: [
-            BrowserModule,
-            Dx{WidgetName}Module
-        ],
-        providers: [],
-        bootstrap: [AppComponent]
-    })
-    export class AppModule { }
-
----
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

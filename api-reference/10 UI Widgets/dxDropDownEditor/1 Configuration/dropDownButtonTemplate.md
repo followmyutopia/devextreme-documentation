@@ -8,11 +8,9 @@ Specifies a custom template for the drop-down button.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Select_Box/CustomizeDropDownButton/jQuery/Light/"
-}
 
 #####See Also#####
+- [SelectBox - Customize Drop-Down Button Demo](/Demos/WidgetsGallery/Demo/Select_Box/CustomizeDropDownButton/jQuery/Light/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->buttonData<!--/typeFunctionParamName1-->

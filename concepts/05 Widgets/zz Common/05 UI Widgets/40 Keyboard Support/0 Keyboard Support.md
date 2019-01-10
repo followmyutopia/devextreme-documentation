@@ -1,3 +1,0 @@
-Each subsection in this article provides information about keys and key combinations assigned to user actions in a particular DevExtreme widget.
-
-If you have found that the desired action is not implemented in the widget out of the box, use the [registerKeyHandler(key, handler)](/Documentation/ApiReference/UI_Widgets/dxAccordion/Methods/#registerKeyHandlerkey_handler) method to register a custom key handler.

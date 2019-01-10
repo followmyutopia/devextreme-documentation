@@ -4,13 +4,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether users are allowed to search.
+Specifies whether to allow searching.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note] Source data should have flat structure for this feature to work. Subsequently, you can use the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option to transform data to hierarchical structure.
+[note] Searching works with source data of plain structure only. Subsequently, data can be transformed to hierarchical structure using the **DataSource**'s [group](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) option.
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/SelectBox/SearchAndEditing/jQuery/Light/"
-}
+#####See Also#####
+- [Configure Search Parameters](/Documentation/Guide/Widgets/{WidgetName}/Configure_Search_Parameters/)
 <!--/fullDescription-->

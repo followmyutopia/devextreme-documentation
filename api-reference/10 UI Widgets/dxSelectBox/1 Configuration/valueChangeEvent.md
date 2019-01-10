@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies one or several [DOM events](https://en.wikipedia.org/wiki/DOM_events) after which the widget's [value]({basewidgetpath}/Configuration/#value) should be updated. Applies only if [acceptCustomValue]({basewidgetpath}/Configuration/#acceptCustomValue) is set to **true**.
+Specifies the [DOM events](https://en.wikipedia.org/wiki/DOM_events) after which the widget's [value]({basewidgetpath}/Configuration/#value) should be updated. Applies only if [acceptCustomValue]({basewidgetpath}/Configuration/#acceptCustomValue) is set to **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->

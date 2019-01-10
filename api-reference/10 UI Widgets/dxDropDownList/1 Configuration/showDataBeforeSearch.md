@@ -4,15 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether the widget should display the unfiltered item list until a user have typed in the minimum number of characters.
+Specifies whether or not the widget displays unfiltered values until a user types a number of characters exceeding the [minSearchLength]({basewidgetpath}/Configuration/#minSearchLength) option value.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Set this option to **true** if the widget should display the unfiltered item list until the [minSearchLength]({basewidgetpath}/Configuration/#minSearchLength) is reached.
+If this option is disabled, the widget does not display values until the number of typed characters exceeds the **minSearchLength** value, otherwise it displays all values regardless of the specified filtering condition.
 
-When this option is **false**, the widget displays the [noDataText]({basewidgetpath}/Configuration/#noDataText).
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/SelectBox/SearchAndEditing/jQuery/Light/"
-}
 <!--/fullDescription-->

@@ -13,7 +13,9 @@ Specifies a custom template for group captions.
 }
 
 #####See Also#####
+- [Customize Group Headers](/Documentation/Guide/Widgets/{WidgetName}/Grouping/Customize_Group_Headers/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
+
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
