@@ -21,12 +21,14 @@ A Promise that is resolved after the data item is loaded. It is a [native Promis
 ##### jQuery
 
     <!--JavaScript-->
-    var store = new DevExpress.data.{WidgetName}({
-        // {WidgetName} is configured here
+    // The key consists of a single data field
+    var singleKeyStore = new DevExpress.data.{WidgetName}({
+        key: "field1",
+        // ...
     });
 
-    // Getting the data item with key 1
-    store.byKey(1)
+    // Get the data item with "field1" being equal to 1
+    singleKeyStore.byKey(1)
         .done(function (dataItem) {
             // Process the "dataItem" here
         })
@@ -34,19 +36,54 @@ A Promise that is resolved after the data item is loaded. It is a [native Promis
             // Handle the "error" here
         });
 
+    // The key consists of several data fields
+    var compositeKeyStore = new DevExpress.data.{WidgetName}({
+        key: [ "field1", "field2" ],
+        // ...
+    });
+
+    // Get the data item with both "field1" and "field2" being equal to 1
+    compositeKeyStore.byKey({
+        field1: 1,
+        field2: 1
+    }).done(function (dataItem) {
+        // Process the "dataItem" here
+    })
+    .fail(function (error) {
+        // Handle the "error" here
+    });
+
 ##### Angular
 
     <!--TypeScript-->
     import {WidgetName} from "devextreme/data/{widget_name}";
     // ...
     export class AppComponent {
-        store: {WidgetName};
+        singleKeyStore: {WidgetName};
+        compositeKeyStore: {WidgetName};
+
         constructor() {
-            this.store = new {WidgetName}({
-                // {WidgetName} is configured here
+            // The key consists of a single data field
+            this.singleKeyStore = new {WidgetName}({
+                key: "field1",
+                // ...
             });
-            // Getting the data item with key 1
-            this.store.byKey(1).then(
+            // Get the data item with "field1" being equal to 1
+            this.singleKeyStore.byKey(1).then(
+                (dataItem) => { /* Process the "dataItem" here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
+
+            // The key consists of several data fields
+            this.compositeKeyStore = new {WidgetName}({
+                key: [ "field1", "field2" ],
+                // ...
+            });
+            // Get the data item with both "field1" and "field2" being equal to 1
+            this.compositeKeyStore.byKey({
+                field1: 1,
+                field2: 1
+            }).then(
                 (dataItem) => { /* Process the "dataItem" here */ },
                 (error) => { /* Handle the "error" here */ }
             );
