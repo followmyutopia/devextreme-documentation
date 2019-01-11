@@ -8,7 +8,11 @@ dataSource: [
 ],
 argumentField: "action",
 valueField: "users",
-label: { position: "inside" }
+label: {
+    backgroundColor: "none",
+    customizeText: function(e) { return e.item.argument + '<br />' + e.item.value; },
+    position: "inside"
+}
 <!--/widgettree-->
 ===========================================================================
 <!--module-->viz/funnel<!--/module-->
