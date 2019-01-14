@@ -2,7 +2,7 @@ The filter panel displays the applied filter expression.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout TreeList Filter Panel](/Content/images/doc/18_2/TreeList/visual_elements/filter_panel.png)
 
-Clicking on the filter expression opens the integrated filter builder.
+You can click the filter expression to open the integrated filter builder.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout TreeList Filter Panel](/Content/images/doc/18_2/TreeList/visual_elements/integrated_filter_builder.png)
 
@@ -32,7 +32,7 @@ Set the **filterPanel**.[visible](/Documentation/ApiReference/UI_Widgets/dxTreeL
 
 ---
 
-If you change the filter expression in the filter panel or filter builder, the changes are reflected in the [filter row](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Filter_Row) and [header filter](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Header_Filter), and vice versa. You can disable this synchronization by setting the [filterSyncEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#filterSyncEnabled) option to **false**. In this case, the filter panel remains synchronized with the filter builder.
+If a user changes the filter expression in the filter panel or filter builder, the changes are reflected in the [filter row](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Filter_Row) and [header filter](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Header_Filter), and vice versa. Set the [filterSyncEnabled](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#filterSyncEnabled) option to **false** to disable this synchronization. In this case, the filter panel remains synchronized with the filter builder.
 
 ---
 #####jQuery
@@ -54,7 +54,9 @@ If you change the filter expression in the filter panel or filter builder, the c
 
 ---
 
-You can predefine the filter expression with the [filterValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#filterValue) option and change it at runtime with the [option](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#optionoptionName_optionValue) method:
+You can define the filter expression programmatically with the [filterValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#filterValue) option. See the option's description for the full list of available filter operations and their peculiarities.
+
+The **filterValue** is updated when a user changes the filter expression from the UI. Use the [option](/Documentation/ApiReference/UI_Widgets/dxTreeList/Methods/#optionoptionName_optionValue) method to update it from the API:
 
 ---
 #####jQuery
