@@ -14,7 +14,7 @@ Specifies a custom template for appointments in the appointment collector's drop
 }
 
 #####See Also#####
-- [Customize Drop-Down List](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Drop-Down_List/)
+- [Appointment Collector](/Documentation/Guide/Widgets/Scheduler/Appointments/Appointment_Collector/)
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 - **views**.[dropDownAppointmentTemplate](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#dropDownAppointmentTemplate)
 <!--/fullDescription-->
