@@ -27,7 +27,7 @@ A Promise that is resolved after the data item is loaded. It is a [native Promis
         // ...
     });
 
-    // Get the data item with "field1" being equal to 1
+    // Gets the data item with "field1" being equal to 1
     singleKeyStore.byKey(1)
         .done(function (dataItem) {
             // Process the "dataItem" here
@@ -42,7 +42,7 @@ A Promise that is resolved after the data item is loaded. It is a [native Promis
         // ...
     });
 
-    // Get the data item with both "field1" and "field2" being equal to 1
+    // Gets the data item with both "field1" and "field2" being equal to 1
     compositeKeyStore.byKey({
         field1: 1,
         field2: 1
@@ -68,7 +68,7 @@ A Promise that is resolved after the data item is loaded. It is a [native Promis
                 key: "field1",
                 // ...
             });
-            // Get the data item with "field1" being equal to 1
+            // Gets the data item with "field1" being equal to 1
             this.singleKeyStore.byKey(1).then(
                 (dataItem) => { /* Process the "dataItem" here */ },
                 (error) => { /* Handle the "error" here */ }
@@ -79,7 +79,7 @@ A Promise that is resolved after the data item is loaded. It is a [native Promis
                 key: [ "field1", "field2" ],
                 // ...
             });
-            // Get the data item with both "field1" and "field2" being equal to 1
+            // Gets the data item with both "field1" and "field2" being equal to 1
             this.compositeKeyStore.byKey({
                 field1: 1,
                 field2: 1

@@ -29,17 +29,37 @@ In the following code, **dataObj** is a data object updated in the database and 
 ##### jQuery
 
     <!--JavaScript-->
-    var store = new DevExpress.data.{WidgetName}({
-        // {WidgetName} is configured here
+    // The key consists of a single data field
+    var singleKeyStore = new DevExpress.data.{WidgetName}({
+        key: "field1",
+        // ...
     });
 
-    store.update(1, { name: "John Smith" })
-         .done(function (dataObj, key) {
-             // Process the key and data object here
-         })
-         .fail(function (error) {
-             // Handle the "error" here
-         });
+    // Updates the data item with "field1" being equal to 1
+    singleKeyStore.update(1, { name: "John Smith" })
+        .done(function (dataObj, key) {
+            // Process the key and data object here
+        })
+        .fail(function (error) {
+            // Handle the "error" here
+        });
+
+    // The key consists of several data fields
+    var compositeKeyStore = new DevExpress.data.{WidgetName}({
+        key: [ "field1", "field2" ],
+        // ...
+    });
+
+    // Updates the data item with both "field1" and "field2" being equal to 1
+    compositeKeyStore.update(
+        { field1: 1, field2: 1 },
+        { name: "John Smith" }
+    ).done(function (dataObj, key) {
+        // Process the key and data object here
+    })
+    .fail(function (error) {
+        // Handle the "error" here
+    });
 
 ##### Angular
 
@@ -47,16 +67,35 @@ In the following code, **dataObj** is a data object updated in the database and 
     import {WidgetName} from "devextreme/data/{widget_name}";
     // ...
     export class AppComponent {
-        store: {WidgetName};
+        singleKeyStore: {WidgetName};
+        compositeKeyStore: {WidgetName};
+
         constructor() {
-            this.store = new {WidgetName}({
-                // {WidgetName} is configured here
+            // The key consists of a single data field
+            this.singleKeyStore = new {WidgetName}({
+                key: "field1",
+                // ...
             });
-            this.store.update(1, { name: "John Smith" })
+            // Updates the data item with "field1" being equal to 1
+            this.singleKeyStore.update(1, { name: "John Smith" })
                 .then(
                     (dataObj) => { /* Process the data object here */ },
                     (error) => { /* Handle the "error" here */ }
                 );
+
+            // The key consists of several data fields
+            this.compositeKeyStore = new {WidgetName}({
+                key: [ "field1", "field2" ],
+                // ...
+            });
+            // Updates the data item with both "field1" and "field2" being equal to 1
+            this.compositeKeyStore.update(
+                { field1: 1, field2: 1 },
+                { name: "John Smith" }
+            ).then(
+                (dataObj) => { /* Process the data object here */ },
+                (error) => { /* Handle the "error" here */ }
+            );
         };
     }
     
