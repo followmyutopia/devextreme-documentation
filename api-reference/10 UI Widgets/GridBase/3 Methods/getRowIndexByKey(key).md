@@ -13,7 +13,7 @@ The row's key.
 
 <!--returnType-->Number<!--/returnType-->
 <!--returnDescription-->
-The row's visible index; *-1* if nothing found.
+The row's index; *-1* if nothing found. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_and_Row_Indexes/) for more information.
 <!--/returnDescription-->
 
 <!--fullDescription-->

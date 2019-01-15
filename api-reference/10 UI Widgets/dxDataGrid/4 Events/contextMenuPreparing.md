@@ -60,7 +60,7 @@ This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/
 <!--typeFunctionParamName1_field9-->rowIndex<!--/typeFunctionParamName1_field9-->
 <!--typeFunctionParamType1_field9-->Number<!--/typeFunctionParamType1_field9-->
 <!--typeFunctionParamDescription1_field9-->
-The visible index of the row on which the context menu is invoked. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
+The index of the row on which the context menu is invoked. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) for more information.
 <!--/typeFunctionParamDescription1_field9-->
 <!--typeFunctionParamName1_field10-->row<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->dxDataGridRowObject<!--/typeFunctionParamType1_field10-->

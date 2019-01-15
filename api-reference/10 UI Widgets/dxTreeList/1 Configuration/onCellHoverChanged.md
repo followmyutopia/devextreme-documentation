@@ -71,7 +71,7 @@ The index of the column to which the cell belongs.
 <!--typeFunctionParamName1_field11-->rowIndex<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->Number<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-The visible index of the row to which the cell belongs.
+The index of the row to which the cell belongs. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->column<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->dxTreeListColumn<!--/typeFunctionParamType1_field12-->

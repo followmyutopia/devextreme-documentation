@@ -71,7 +71,7 @@ This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxDataGrid/
 <!--typeFunctionParamName1_field11-->rowIndex<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->Number<!--/typeFunctionParamType1_field11-->
 <!--typeFunctionParamDescription1_field11-->
-The row's visible index. For details on indexes, see the [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) topic.
+The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/DataGrid/Columns/Column_and_Row_Indexes/) for more information.
 <!--/typeFunctionParamDescription1_field11-->
 <!--typeFunctionParamName1_field12-->rowType<!--/typeFunctionParamName1_field12-->
 <!--typeFunctionParamType1_field12-->String<!--/typeFunctionParamType1_field12-->

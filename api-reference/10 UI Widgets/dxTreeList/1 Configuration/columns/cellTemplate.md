@@ -21,7 +21,7 @@ The cell's display value. Differs from the **value** field only when the column 
 - **columnIndex**: <font size="-1">Number</font>        
 The index of the cell's column.
 - **rowIndex**: <font size="-1">Number</font>        
-The index of the cell's row. Begins with 0 on each page.
+The index of the cell's row. Begins with 0 on each page. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
 - **column**: <font size="-1">Object</font>        
 The column's properties.
 - **watch**: <font size="-1">Function</font>        

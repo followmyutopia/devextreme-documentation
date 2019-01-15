@@ -83,7 +83,7 @@ This column's [configuration](/Documentation/ApiReference/UI_Widgets/dxTreeList/
 <!--typeFunctionParamName1_field13-->rowIndex<!--/typeFunctionParamName1_field13-->
 <!--typeFunctionParamType1_field13-->Number<!--/typeFunctionParamType1_field13-->
 <!--typeFunctionParamDescription1_field13-->
-The visible index of the row to which the cell belongs.
+The index of the row to which the cell belongs. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
 <!--/typeFunctionParamDescription1_field13-->
 <!--typeFunctionParamName1_field14-->rowType<!--/typeFunctionParamName1_field14-->
 <!--typeFunctionParamType1_field14-->String<!--/typeFunctionParamType1_field14-->

@@ -24,7 +24,7 @@ The displayed cell value. Differs from the **value** field only when the column 
 - **columnIndex**: <font size="-1">Number</font>        
 The index of the column the cell belongs to.
 - **rowIndex**: <font size="-1">Number</font>        
-The index of the row the cell belongs to. Begins with 0 on each page.
+The index of the row the cell belongs to. Begins with 0 on each page. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
 - **column**: <font size="-1">Object</font>        
 The settings of the column the cell belongs to.
 

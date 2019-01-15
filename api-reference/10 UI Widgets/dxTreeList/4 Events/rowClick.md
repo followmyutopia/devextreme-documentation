@@ -67,7 +67,7 @@ All column [configurations](/Documentation/ApiReference/UI_Widgets/dxTreeList/Co
 <!--typeFunctionParamName1_field10-->rowIndex<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->Number<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-The row's visible index.
+The row's index. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/TreeList/Columns/Column_and_Row_Indexes/) for more information.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->rowType<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->String<!--/typeFunctionParamType1_field11-->

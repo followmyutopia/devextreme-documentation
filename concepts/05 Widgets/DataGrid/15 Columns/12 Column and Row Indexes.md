@@ -8,9 +8,11 @@ The following indexes can be used in methods and callback functions:
 
     ![DevExtreme HTML5 JavaScript DataGrid Visible Column Index](/Content/images/doc/18_2/DataGrid/visual_elements/columnIndexes.png)
 
-    Do not confuse the visible column index with the index specified using the **column**.[visibleIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visibleIndex) option. The latter is used in column reordering.
+    This index is not equal to the index set in the **column**.[visibleIndex](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#visibleIndex) option. The latter is used to reorder columns.
 
 - **Row Index**         
-    Starts from 0 and increases by 1 per row including group rows. With [paging](/Documentation/Guide/Widgets/DataGrid/Paging/), the index resets on each page.
+    Equals a row's order among rendered rows. This index starts from 0 and increases by 1 per row (includes group rows).
 
     ![DevExtreme HTML5 JavaScript DataGrid Row Index](/Content/images/doc/18_2/DataGrid/visual_elements/rowIndexes.png)
+
+    [note] Rendered rows can be outside the viewport, for example, if [scrolling](/Documentation/Guide/Widgets/DataGrid/Scrolling/) is virtual or infinite or [row rendering mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/scrolling/#rowRenderingMode) is virtual. To get the row index, use the [getRowIndexByKey](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Methods/#getRowIndexByKeykey) method or **rowIndex** field in callback functions like [onRowClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onRowClick), [onCellClick](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onCellClick), etc.

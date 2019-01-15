@@ -8,7 +8,7 @@ Gets a cell with specific row and column indexes.
 <!--paramName1-->rowIndex<!--/paramName1-->
 <!--paramType1-->Number<!--/paramType1-->
 <!--paramDescription1-->
-The index of the row to which the cell belongs.
+The index of the row to which the cell belongs. Refer to [Column and Row Indexes](/Documentation/Guide/Widgets/{WidgetName}/Columns/Column_and_Row_Indexes/) for more information.
 <!--/paramDescription1-->
 
 <!--paramName2-->visibleColumnIndex<!--/paramName2-->
