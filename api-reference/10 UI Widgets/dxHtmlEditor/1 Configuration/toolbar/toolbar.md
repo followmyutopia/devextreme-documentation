@@ -9,4 +9,7 @@ Configures the widget's toolbar.
 
 <!--fullDescription-->
 ![DevExtreme HTML5 JavaScript HtmlEditor Toolbar](Content/images/doc/18_2/htmlEditor/visual_elements/toolbar.png)
+
+#####See Also#####
+- [Toolbar](/Documentation/Guide/Widgets/HtmlEditor/Toolbar/Built-In_Controls/)
 <!--/fullDescription-->

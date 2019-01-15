@@ -1,9 +1,10 @@
 ===========================================================================
 <!--inherits-->..\..\..\..\dxToolbar\5 Default Item Template\Default Item Template.md<!--/inherits-->
+<!--type-->Array<dxHtmlEditorToolbarItem, string><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Configures toolbar controls which allow users to format text and execute commands.
+Configures toolbar controls. These controls allow users to format text and execute commands.
 <!--/shortDescription-->
 
 <!--fullDescription-->
@@ -44,122 +45,112 @@ The toolbar provides built-in controls and supports custom controls. To add a bu
 
 ##### ASP.NET MVC Controls
 
-    <!--C#-->
+    <!--Razor C#-->
     @(Html.DevExtreme().HtmlEditor()
-        .ID("htmlEditor")
-        .Toolbar(t => t.Items(items => {
-            items.Add().FormatName("bold");
-            items.Add().FormatName("italic");
-            items.Add().FormatName("alignCenter");
-            items.Add().FormatName("undo");
-            items.Add().FormatName("redo");
-        }))
+        .Toolbar(t => t
+            .Items(i => {
+                i.Add().FormatName("bold");
+                i.Add().FormatName("italic");
+                i.Add().FormatName("alignCenter");
+                i.Add().FormatName("undo");
+                i.Add().FormatName("redo");
+            })
+        )
     )
 
 ---
 
 The following built-in controls are available:
 
-<table>
+<table id="controlNames">
     <tr>
-        <td style="padding-bottom: 10px"><b>Formatting Controls</td><td></td><td><b style="padding-bottom: 10px">Action and Other Controls</b></td>
+        <td colspan="2">Formatting Controls</td>
+        <td class="separateColumn">Action and Other Controls</td>
     </tr>
     <tr>
         <td>
             <ul>
-                <li>
-                    <b>background</b>
-                </li>
-                <li>
-                    <b>bold</b>
-                </li>
-                <li>
-                    <b>color</b>
-                </li>
-                <li>
-                    <b>italic</b>
-                </li>
-                <li>
-                    <b>link</b>
-                </li>
-                <li>
-                    <b>strike</b>
-                </li>
-                <li>
-                    <b>subscript</b>
-                </li>
-                <li>
-                    <b>superscript</b>
-                </li>
-                <li>
-                    <b>underline</b>
-                </li>
-                <li>
-                    <b>blockquote</b>
-                </li>
+                <li>"background"</li>
+                <li>"bold"</li>
+                <li>"color"</li>
+                <li>"italic"</li>
+                <li>"link"</li>
+                <li>"image"</li>
+                <li>"strike"</li>
+                <li>"subscript"</li>
+                <li>"superscript"</li>
+                <li>"underline"</li>
+                <li>"blockquote"</li>
             </ul>
         </td>
-        <td style="vertical-align: top">
+        <td>
             <ul>
-                <li>
-                    <b>header</b>
-                </li>
-                <li>
-                    <b>increaseIndent</b>
-                </li>
-                <li>
-                    <b>decreaseIndent</b>
-                </li>
-                <li>
-                    <b>orderedList</b>
-                </li>
-                <li>
-                    <b>bulletList</b>
-                </li>
-                <li>
-                    <b>alignLeft</b>
-                </li>
-                <li>
-                    <b>alignCenter</b>
-                </li>
-                <li>
-                    <b>alignRight</b>
-                </li>
-                <li>
-                    <b>alignJustify</b>
-                </li>
-                <li>
-                    <b>codeBlock</b>
-                </li>
+                <li>"header"</li>
+                <li>"increaseIndent"</li>
+                <li>"decreaseIndent"</li>
+                <li>"orderedList"</li>
+                <li>"bulletList"</li>
+                <li>"alignLeft"</li>
+                <li>"alignCenter"</li>
+                <li>"alignRight"</li>
+                <li>"alignJustify"</li>
+                <li>"codeBlock"</li>
+                <li>"variable"</li>
             </ul>
         </td>
-        <td style="vertical-align: top">
+        <td class="separateColumn">
             <ul>
-                <li>
-                    <b>separator</b>
-                </li>
-                <li>
-                    <b>undo</b>
-                </li>
-                <li>
-                    <b>redo</b>
-                </li>
-                <li>
-                    <b>clear</b>
-                </li>
+                <li>"separator"</li>
+                <li>"undo"</li>
+                <li>"redo"</li>
+                <li>"clear"</li>
             </ul>
         </td>
     </tr>
 </table>
 
-These controls are buttons. To customize one of them, assign its name to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) option and specify [button options](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/) in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object: 
+<style>
+    #controlNames {
+        color: #333333;
+    }
+    #controlNames tr:first-child td {
+        padding-bottom: 10px;
+        font-weight: bold;
+    }
+    #controlNames td {
+        padding-right: 50px;
+        vertical-align: top;
+    }
+    #controlNames ul {
+        padding-left: 0px;
+    }
+    #controlNames li {
+        list-style-type: none;
+        font-style: italic;
+    }
+    #controlNames .separateColumn {
+        padding-left: 50px;
+        border-left: 1px solid #e6e6e6;
+    }
+    #controlNames li:before {
+        color: #627789;
+        content: "";
+        border-radius: 3px;
+        border: 3px solid #627789;
+        display: inline-block;
+        margin-right: 15px;
+        vertical-align: middle;
+    }
+</style>
+
+These controls are buttons. To customize a button, assign its name to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) option and specify the [button options](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/) in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object: 
 
 ---
 #####jQuery
 
     <!--JavaScript-->
     $(function(){
-        $("#htmlEditorContainerContainer").dxHtmlEditor({
+        $("#htmlEditorContainer").dxHtmlEditor({
             toolbar: {
                 items: [ // ...
                 { 
@@ -197,25 +188,24 @@ These controls are buttons. To customize one of them, assign its name to the [fo
 
 ##### ASP.NET MVC Controls
 
-    <!--C#-->
+    <!--Razor C#-->
     @(Html.DevExtreme().HtmlEditor()
-        .ID("htmlEditor")
-        .Toolbar(t => t.Items(items => {
-            items.Add()
-                .FormatName("clear")
-                .Widget(w => w
-                    .Button()
-                    .Icon("clear")
-                    .Type(ButtonType.Danger)
-                );
-        }))
+        .Toolbar(t => t
+            .Items(i => { 
+                i.Add().FormatName("clear")
+                    .Widget(w => w.Button()
+                        .Icon("clear")
+                        .Type(ButtonType.Danger)
+                    );
+            })
+        )
     )
 
 ---
 
 To use another widget instead of a button, specify the [widget](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#widget) option and configure the widget in the [options](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#options) object. In this case, you should also implement all the logic. 
 
-The toolbar also provides short syntax for implementing a custom drop-down control with multiple choices. Refer to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) description for details.
+The toolbar also provides short syntax for implementing a custom drop-down control with multiple choices. Refer to the [formatName](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/toolbar/items/#formatName) description for more information.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/HtmlEditor/ToolbarCustomization/jQuery/Light/"

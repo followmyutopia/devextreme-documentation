@@ -78,19 +78,16 @@ In the following example, the [CheckBox](/Documentation/ApiReference/UI_Widgets/
 
     <!--Razor C#-->
     @(Html.DevExtreme().HtmlEditor()
-        .ID("htmlEditor")
-        .Toolbar(toolbar => {
-            toolbar.Items(i => {
-                i.Add()
-                    .LocateInMenu(ToolbarItemLocateInMenuMode.Never)
-                    .Widget(w => w
-                        .CheckBox()
+        .Toolbar(t => t 
+            .Items(i => {
+                i.Add().LocateInMenu(ToolbarItemLocateInMenuMode.Never)
+                    .Widget(w => w.CheckBox()
                         .Text("My Format")
                         .OnValueChanged("myFormat_valueChanged")
                     );
-                });
             })
         )
+    )
 
     <script>
         function myFormat_valueChanged(e) {

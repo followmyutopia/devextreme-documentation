@@ -39,11 +39,6 @@ variables: {
     <!--JavaScript-->
     $(function() {
         $("#htmlEditorContainer").dxHtmlEditor({
-            value: `
-                <p><b>Lorem ipsum dolor sit amet</b>, 
-                <i>consectetur adipiscing elit</i>, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            `,
             valueType: "html",
             toolbar: {
                 items: [
@@ -66,27 +61,32 @@ variables: {
         <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.all.js"></script>
     </head>
     <body>
-        <div id="htmlEditorContainer"></div>
+        <div id="htmlEditorContainer">
+            <p>
+                <b>Lorem ipsum dolor sit amet</b>, 
+                <i>consectetur adipiscing elit</i>, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
     </body>
 
 #####Angular
 
     <!--HTML-->
     <dx-html-editor
-        [(value)]="value"
         valueType="html">
         <dxo-toolbar [items]="items"></dxo-toolbar>
+        <p>
+            <b>Lorem ipsum dolor sit amet</b>, 
+            <i>consectetur adipiscing elit</i>, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
     </dx-html-editor>
 
     <!--TypeScript-->
     import { DxHtmlEditorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        value: string = `
-            <p><b>Lorem ipsum dolor sit amet</b>, 
-            <i>consectetur adipiscing elit</i>, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        `;
         items: any = [
             "bold", "italic", "separator", {
                 formatName: "size",
@@ -117,22 +117,20 @@ variables: {
         <div ng-controller="DemoController">
             <div dx-html-editor="{
                 valueType: 'html',
-                toolbar: toolbarConfig,
-                bindingOptions: {
-                    value: 'value'
-                }
-            }"></div>
+                toolbar: toolbarConfig
+            }">
+                <p>
+                    <b>Lorem ipsum dolor sit amet</b>, 
+                    <i>consectetur adipiscing elit</i>, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
         </div>
     </body>
 
     <!--JavaScript-->
     angular.module("DemoApp", ["dx"])
         .controller("DemoController", function ($scope) {
-            $scope.value = `
-                <p><b>Lorem ipsum dolor sit amet</b>, 
-                <i>consectetur adipiscing elit</i>, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            `;
             $scope.toolbarConfig = {
                 items: [
                     "bold", "italic", "separator", {
@@ -157,18 +155,18 @@ variables: {
     <body>
         <div data-bind="dxHtmlEditor: {
             valueType: 'html',
-            value: value,
             toolbar: toolbarConfig
-        }"></div>
+        }">
+            <p>
+                <b>Lorem ipsum dolor sit amet</b>, 
+                <i>consectetur adipiscing elit</i>, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
     </body>
 
     <!--JavaScript-->
     var viewModel = {
-        value: ko.observable(`
-            <p><b>Lorem ipsum dolor sit amet</b>, 
-            <i>consectetur adipiscing elit</i>, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        `),
         toolbarConfig: {
             items: [
                 "bold", "italic", "separator", {
@@ -184,68 +182,64 @@ variables: {
 ##### ASP.NET MVC Controls
 
     <!--Razor C#-->
-    <head>
-        <!-- ... -->
-        <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
-    </head>
-    <body>
-        @(Html.DevExtreme().HtmlEditor()
-            .ID("htmlEditor")
-            .ValueType(HtmlEditorValueType.Html)
-            .Value(@"
-                <p><b>Lorem ipsum dolor sit amet</b>,
-                <i>consectetur adipiscing elit</i>,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            ")
-            .Toolbar(t => t.Items(items => {
-                items.Add().FormatName("bold");
-                items.Add().FormatName("italic");
-                items.Add().FormatName("separator");
-                items.Add().FormatName("size").FormatValues(new[] { "11px", "12px", "16px" });
-                items.Add().FormatName("separator");
-                items.Add().FormatName("alignLeft");
-                items.Add().FormatName("alignCenter");
-                items.Add().FormatName("alignRight");
-            }))
+    @(Html.DevExtreme().HtmlEditor()
+        .ID("htmlEditor")
+        .ValueType(HtmlEditorValueType.Html)
+        .Content(@<text>
+            <p><b>Lorem ipsum dolor sit amet</b>,
+            <i>consectetur adipiscing elit</i>,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </text>)
+        .Toolbar(t => t
+            .Items(i => {
+                i.Add().FormatName("bold");
+                i.Add().FormatName("italic");
+                i.Add().FormatName("separator");
+                i.Add().FormatName("size").FormatValues(new[] { "11px", "12px", "16px" });
+                i.Add().FormatName("separator");
+                i.Add().FormatName("alignLeft");
+                i.Add().FormatName("alignCenter");
+                i.Add().FormatName("alignRight");
+            })
         )
-    </body>
-    
+    )
+    <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+
     <!--Razor VB-->
-    <head>
-        <!-- ... -->
-        <script type="text/javascript" src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
-    </head>
-    <body>
-        @(Html.DevExtreme().HtmlEditor() _
-            .ID("htmlEditor") _
-            .ValueType(HtmlEditorValueType.Html) _
-            .Value(
-                "<p><b>Lorem ipsum dolor sit amet</b>, " _
-                & "<i>consectetur adipiscing elit</i>, " _
-                & "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
-            ) _
-            .Toolbar(Sub(t)
-                t.Items(Sub(items)
-                    items.Add().FormatName("bold")
-                    items.Add().FormatName("italic")
-                    items.Add().FormatName("separator");
-                    items.Add().FormatName("size").FormatValues({"11px", "12px", "16px"})
-                    items.Add().FormatName("separator");
-                    items.Add().FormatName("alignLeft")
-                    items.Add().FormatName("alignCenter")
-                    items.Add().FormatName("alignRight")
-                End Sub)
+    @(Html.DevExtreme().HtmlEditor() _
+        .ID("htmlEditor") _
+        .ValueType(HtmlEditorValueType.Html) _
+        .Content(
+            "<p><b>Lorem ipsum dolor sit amet</b>, " _
+            & "<i>consectetur adipiscing elit</i>, " _
+            & "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+        ) _
+        .Toolbar(Sub(t)
+            t.Items(Sub(items)
+                items.Add().FormatName("bold")
+                items.Add().FormatName("italic")
+                items.Add().FormatName("separator");
+                items.Add().FormatName("size").FormatValues({"11px", "12px", "16px"})
+                items.Add().FormatName("separator");
+                items.Add().FormatName("alignLeft")
+                items.Add().FormatName("alignCenter")
+                items.Add().FormatName("alignRight")
             End Sub)
-        )
-    </body>
+        End Sub)
+    )
+    <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
 
 ##### Vue
 
     <template>
         <dx-html-editor
-            valueType="html"
-            :value="value">
+            value-type="html">
             <dx-toolbar :items="items" />
+                <p>
+                    <b>Lorem ipsum dolor sit amet</b>, 
+                    <i>consectetur adipiscing elit</i>, 
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
         </dx-html-editor>
     </template>
     <script>
@@ -258,11 +252,6 @@ variables: {
         },
         data() {
             return {
-                value: `
-                    <p><b>Lorem ipsum dolor sit amet</b>, 
-                    <i>consectetur adipiscing elit</i>, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                `,
                 items: [
                     "bold", "italic", "separator", {
                         formatName: "size",
@@ -280,11 +269,6 @@ variables: {
     import React from "react";
     import HtmlEditor, { Toolbar } from "devextreme-react/html-editor";
 
-    const value = `
-        <p><b>Lorem ipsum dolor sit amet</b>, 
-        <i>consectetur adipiscing elit</i>, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    `;
     const items = [
         "bold", "italic", "separator", {
             formatName: "size",
@@ -297,9 +281,13 @@ variables: {
         render() {
             return (
                 <HtmlEditor
-                    valueType="html"
-                    defaultValue={value}>
+                    valueType="html">
                         <Toolbar items={items} />
+                        <p>
+                            <b>Lorem ipsum dolor sit amet</b>, 
+                            <i>consectetur adipiscing elit</i>, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
                 </HtmlEditor>
             );
         }
@@ -313,4 +301,6 @@ variables: {
     url: "/Demos/WidgetsGallery/Demo/HtmlEditor/Overview/jQuery/Light/"
 }
 
+#####See Also#####
+- [Overview](/Documentation/Guide/Widgets/HtmlEditor/Overview/)
 <!--/fullDescription-->
