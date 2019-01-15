@@ -33,7 +33,7 @@ Add an object to the [buttons](/Documentation/ApiReference/UI_Widgets/dxTreeList
                 text="My Command"
                 icon="/url/to/my/icon.ico"
                 hint="My Command"
-                (onClick)="myCommand($event)">
+                [onClick]="myCommand">
             </dxi-button>
         </dxi-column>
     </dx-tree-list>

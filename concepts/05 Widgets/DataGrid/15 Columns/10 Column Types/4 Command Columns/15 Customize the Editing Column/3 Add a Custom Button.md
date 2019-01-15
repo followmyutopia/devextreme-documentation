@@ -32,7 +32,7 @@ Add an object to the [buttons](/Documentation/ApiReference/UI_Widgets/dxDataGrid
                 text="My Command"
                 icon="/url/to/my/icon.ico"
                 hint="My Command"
-                (onClick)="myCommand($event)">
+                [onClick]="myCommand">
             </dxi-button>
         </dxi-column>
     </dx-data-grid>
