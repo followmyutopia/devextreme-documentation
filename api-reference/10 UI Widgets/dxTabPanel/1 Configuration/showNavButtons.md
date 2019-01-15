@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-A Boolean value that specifies the availability of navigation buttons.
+Specifies whether navigation buttons should be available when tabs exceed the widget's width.
 <!--/shortDescription-->
 
 <!--fullDescription-->
