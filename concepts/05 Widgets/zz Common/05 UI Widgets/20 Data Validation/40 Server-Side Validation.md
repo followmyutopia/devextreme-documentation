@@ -17,7 +17,7 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
                     params.validator.validate();
                 }
             })
-            // Validation result until the response is recieved
+            // Validation result until the response is received
             return false;
         };
         $("#login").dxTextBox({
@@ -39,33 +39,27 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
 ##### Angular
 
     <!--TypeScript-->
+    import { HttpClient } from '@angular/common/http';
     import { DxTextBoxModule, DxValidatorModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        var validateLogin = function (params) {
-            $.ajax({
-                url: "http://www.example.com/services/validate-login",
-                method: "POST",
-                data: {
-                    login: params.value
-                },
-                success: function (result) {
-                    params.rule.isValid = result.Result;
-                    params.rule.message = result.Message;
-                    params.validator.validate();
-                }
-            })
-            // Validation result until the response is recieved
-            return false;
-        };
+        constructor(private http: HttpClient) { 
+            this.validateLogin = this.validateLogin.bind(this);
+        }
+        
         login: string = "";
-        loginRules = [{
-            type: 'required',
-            message: 'Login is required'
-        }, {
-            type: "custom",
-            validationCallback: validateLogin
-        }];
+        validateLogin(params) {
+            this.http.post(
+                "http://www.example.com/services/validate-login",
+                { login: params.value }
+            ).subscribe(response => {
+                params.rule.isValid = response["Result"];
+                params.rule.message = response["Message"];
+                params.validator.validate();
+            });
+            // Validation result until the response is received
+            return false;
+        }
     }
     @NgModule({
         imports: [
@@ -76,8 +70,18 @@ Use the ["custom"](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation
         // ...
     })
 
-    <!--HTML--><dx-text-box [(value)]="login" placeholder="Login">
-        <dx-validator [validationRules]="loginRules"></dx-validator>
+    <!--HTML-->
+    <dx-text-box [(value)]="login" placeholder="Login">
+        <dx-validator>
+            <dxi-validation-rule
+                type="required"
+                message="Login is required">
+            </dxi-validation-rule>
+            <dxi-validation-rule
+                type="custom"
+                [validationCallback]="validateLogin">
+            </dxi-validation-rule>
+        </dx-validator>
     </dx-text-box>
 
 ##### AngularJS
