@@ -9,7 +9,7 @@ Updates the value of a single item option.
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 An item's **name** or a path to it.     
-The path may include the group's caption or the tab's title.
+The path may include the group's [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/#name) or [caption](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/#caption) or the tab's [title](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#title) .
 <!--/paramDescription1-->
 
 <!--paramName2-->option<!--/paramName2-->
@@ -28,8 +28,8 @@ The new option value.
 The following code shows how to call this method for an item organized in a group:
 
     <!--JavaScript-->
-    var form = $(function () {
-        $("#formContainer").dxForm({
+    $(function () {
+        var form = $("#formContainer").dxForm({
             formData: {
                 firstName: "John",
                 lastName: "Heart",
@@ -39,6 +39,7 @@ The following code shows how to call this method for an item organized in a grou
             items: ["firstName", "lastName", {
                 itemType: "group",
                 caption: "Contacts",
+                name: "groupName",
                 items: ["phone", "email"]
             }]
         }).dxForm("instance");
@@ -47,7 +48,9 @@ The following code shows how to call this method for an item organized in a grou
 <!------>
 
     <!--JavaScript-->
-    form.itemOption("Contacts.phone", "visible", false)
+    form.itemOption("groupName.phone", "visible", false);
+    // ==== or ====
+    form.itemOption("Contacts.phone", "visible", false);
 
 
 #####See Also#####

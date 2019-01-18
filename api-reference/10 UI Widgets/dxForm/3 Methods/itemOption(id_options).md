@@ -9,7 +9,7 @@ Updates the values of several item options.
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
 An item's **name** or a path to it.       
-The path may include the group's caption or the tab's title.
+The path may include the group's [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/#name) or [caption](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/GroupItem/#caption) or the tab's [title](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/TabbedItem/tabs/#title) .
 <!--/paramDescription1-->
 
 <!--paramName2-->options<!--/paramName2-->
