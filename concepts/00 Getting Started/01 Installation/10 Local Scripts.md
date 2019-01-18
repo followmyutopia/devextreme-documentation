@@ -18,7 +18,7 @@ You can find all the required files in the [DevExtreme zip archive](/Download/#A
     <!-- <script type="text/javascript" src="js/dx.viz.js"></script> -->
     <!-- <script type="text/javascript" src="js/dx.viz-web.js"></script> -->
 
-The stylesheets in the code above apply the Generic Light theme. See [Predefined Themes](/Documentation/Guide/Themes/Predefined_Themes/) for information about the other available themes.
+The stylesheets in the code above apply the Generic Light theme. See [Predefined Themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) for information about the other available themes.
 
 Specific functionality requires additional libraries. For instance, [localization](/Documentation/Guide/Common/Localization/) uses the [Globalize](https://github.com/globalizejs/globalize/blob/master/README.md) library or [Intl API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl). Similarly, [client-side exporting](/Documentation/Guide/Widgets/DataGrid/Client-Side_Exporting/) in the **DataGrid** and **PivotGrid** widgets requires the [JSZip](https://stuk.github.io/jszip/) library. Refer to the dedicated topics for details.
 

@@ -18,7 +18,7 @@ The name of this class must include the real name of the icon. For instance, the
 
 As you can see, the icon is added in the Base64 type in the code above. We recommend that you also use this type to reduce the number of requests and the amount of data transferred.
 
-The icons that are added to the stylesheet via this class can be used for DevExtreme widgets like predefined icons from the [built-in icon library](/Documentation/Guide/Themes/Icon_Library/).
+The icons that are added to the stylesheet via this class can be used for DevExtreme widgets like predefined icons from the [built-in icon library](/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library).
 
     <!--HTML--><div class="button" data-bind="dxButton: { icon: 'myicon', text: 'Click me' }"></div>
 

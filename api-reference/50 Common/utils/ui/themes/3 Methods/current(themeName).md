@@ -60,5 +60,5 @@ The theme name passed as a parameter should be the value of the **data-theme** a
 
 ---
 
-Refer to the [Predefined Themes](/Documentation/Guide/Themes/Predefined_Themes/) article for details on the themes that are supplied with DevExtreme.
+Refer to the [Predefined Themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) article for details on the themes that are supplied with DevExtreme.
 <!--/fullDescription-->

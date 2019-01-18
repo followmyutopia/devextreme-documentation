@@ -23,7 +23,7 @@
         <!--HTML-->
         <script type="text/javascript" src="bundle.js" charset="utf-8"></script>
 
-1. Add [DevExtreme themes](/Documentation/Guide/Themes/Predefined_Themes/).  
+1. Add [DevExtreme themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/).  
 
         <!--HTML-->
         <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.common.css" />

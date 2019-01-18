@@ -1,0 +1,1 @@
+This article describes ways to customize CSS-based widgets. A similar [article on SVG-based widgets](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/) is also available. If you do not know whether your widget is CSS- or SVG-based, refer to [CSS- and SVG-Based Widgets](/Documentation/Guide/Themes_and_Styles/CSS-_and_SVG-Based_Widgets/).

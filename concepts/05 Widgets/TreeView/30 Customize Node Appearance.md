@@ -164,7 +164,7 @@ You can also customize an individual node. For this purpose, declare a template 
 In addition, you can use a 3rd-party template engine to customize widget appearance. For more information, see the [3rd-Party Template Engines](/Documentation/Guide/Widgets/Common/Templates/#3rd-Party_Template_Engines) article.
 
 #####See Also#####
-- [Icon Library](/Documentation/Guide/Themes/Icon_Library/)
+- [Built-In Icon Library](/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library)
 - [TreeView Demos](/Demos/WidgetsGallery/Demo/Tree_View/ItemSelectionAndCustomization/jQuery/Light/)
 - [TreeView API Reference](/Documentation/ApiReference/UI_Widgets/dxTreeView/)
 

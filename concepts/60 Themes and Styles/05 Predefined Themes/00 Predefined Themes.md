@@ -1,0 +1,229 @@
+DevExtreme provides Generic, Generic Compact, and Material Design themes. These themes are available in the following colors:
+
+<div id="generic-themes" class="theme-images">
+    <div>
+        <p>Generic Light</p>
+        <img src="/Content/images/doc/18_2/themes/generic-light.png" />
+    </div>
+    <div>
+        <p>Generic Light Comp.</p>
+        <img src="/Content/images/doc/18_2/themes/generic-light-compact.png" />
+    </div>
+    <div>
+        <p>Generic Dark</p>
+        <img src="/Content/images/doc/18_2/themes/generic-dark.png" />
+    </div>
+    <div>
+        <p>Generic Dark Comp.</p>
+        <img src="/Content/images/doc/18_2/themes/generic-dark-compact.png" />
+    </div>
+    <div>
+        <p>Generic Carmine</p>
+        <img src="/Content/images/doc/18_2/themes/generic-carmine.png" />
+    </div>
+    <div>
+        <p>Generic Carmine Comp.</p>
+        <img src="/Content/images/doc/18_2/themes/generic-carmine-compact.png" />
+    </div>
+    <div>
+        <p>Generic Soft Blue</p>
+        <img src="/Content/images/doc/18_2/themes/generic-softblue.png" />
+    </div>
+    <div>
+        <p>Generic Soft Blue Comp.</p>
+        <img src="/Content/images/doc/18_2/themes/generic-softblue-compact.png" />
+    </div>
+    <div>
+        <p>Generic Dark Moon</p>
+        <img src="/Content/images/doc/18_2/themes/generic-darkmoon.png" />
+    </div>
+    <div>
+        <p>Generic Dark Moon Comp.</p>
+        <img src="/Content/images/doc/18_2/themes/generic-darkmoon-compact.png" />
+    </div>
+    <div>
+        <p>Generic Dark Violet</p>
+        <img src="/Content/images/doc/18_2/themes/generic-darkviolet.png" />
+    </div>
+    <div>
+        <p>Generic Dark Violet Comp.</p>
+        <img src="/Content/images/doc/18_2/themes/generic-darkviolet-compact.png" />
+    </div>
+    <div>
+        <p>Generic Green Mist</p>
+        <img src="/Content/images/doc/18_2/themes/generic-greenmist.png" />
+    </div>
+    <div>
+        <p>Generic Green Mist Comp.</p>
+        <img src="/Content/images/doc/18_2/themes/generic-greenmist-compact.png" />
+    </div>
+    <div>
+        <p>Generic Contrast</p>
+        <img src="/Content/images/doc/18_2/themes/generic-contrast.png" />
+    </div>
+    <div>
+        <p>Generic Contrast Comp.</p>
+        <img src="/Content/images/doc/18_2/themes/generic-contrast-compact.png" />
+    </div>
+</div>
+
+<div id="material-themes" class="theme-images">
+    <div>
+        <p>Material Blue Light</p>
+        <img src="/Content/images/doc/18_2/themes/material-bluelight.png" />
+    </div>
+    <div>
+        <p>Material Blue Dark</p>
+        <img src="/Content/images/doc/18_2/themes/material-bluedark.png" />
+    </div>
+    <div>
+        <p>Material Lime Light</p>
+        <img src="/Content/images/doc/18_2/themes/material-limelight.png" />
+    </div>
+    <div>
+        <p>Material Lime Dark</p>
+        <img src="/Content/images/doc/18_2/themes/material-limedark.png" />
+    </div>
+    <div>
+        <p>Material Orange Light</p>
+        <img src="/Content/images/doc/18_2/themes/material-orangelight.png" />
+    </div>
+    <div>
+        <p>Material Orange Dark</p>
+        <img src="/Content/images/doc/18_2/themes/material-orangedark.png" />
+    </div>
+    <div>
+        <p>Material Purple Light</p>
+        <img src="/Content/images/doc/18_2/themes/material-purplelight.png" />
+    </div>
+    <div>
+        <p>Material Purple Dark</p>
+        <img src="/Content/images/doc/18_2/themes/material-purpledark.png" />
+    </div>
+    <div>
+        <p>Material Teal Light</p>
+        <img src="/Content/images/doc/18_2/themes/material-teallight.png" />
+    </div>
+    <div>
+        <p>Material Teal Dark</p>
+        <img src="/Content/images/doc/18_2/themes/material-tealdark.png" />
+    </div>
+</div>
+
+Each theme is a stylesheet that contains a collection of CSS classes. The following stylesheets are available out of the box:
+
+<table id="theme-files">
+    <tr>
+        <th>Generic</th>
+        <th>Generic Compact</th>
+        <th>Material Design</th>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li><code>dx.light.css</code></li>
+                <li><code>dx.dark.css</code></li>
+                <li><code>dx.carmine.css</code></li>
+                <li><code>dx.softblue.css</code></li>
+                <li><code>dx.darkmoon.css</code></li>
+                <li><code>dx.darkviolet.css</code></li>
+                <li><code>dx.greenmist.css</code></li>
+                <li><code>dx.contrast.css</code></li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li><code>dx.light.compact.css</code></li>
+                <li><code>dx.dark.compact.css</code></li>
+                <li><code>dx.carmine.compact.css</code></li>
+                <li><code>dx.softblue.compact.css</code></li>
+                <li><code>dx.darkmoon.compact.css</code></li>
+                <li><code>dx.darkviolet.compact.css</code></li>
+                <li><code>dx.greenmist.compact.css</code></li>
+                <li><code>dx.contrast.compact.css</code></li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li><code>dx.material.blue.light.css</code></li>
+                <li><code>dx.material.blue.dark.css</code></li>
+                <li><code>dx.material.lime.light.css</code></li>
+                <li><code>dx.material.lime.dark.css</code></li>
+                <li><code>dx.material.orange.light.css</code></li>
+                <li><code>dx.material.orange.dark.css</code></li>
+                <li><code>dx.material.purple.light.css</code></li>
+                <li><code>dx.material.purple.dark.css</code></li>
+                <li><code>dx.material.teal.light.css</code></li>
+                <li><code>dx.material.teal.dark.css</code></li>
+            </ul>
+        </td>
+    </tr>    
+</table>
+
+CSS themes are designed to customize CSS-based widgets but they also change the appearance of SVG-based widgets. However, SVG-based widgets have their own [themes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes). See the [CSS- and SVG-Based Widgets](/Documentation/Guide/Themes_and_Styles/CSS-_and_SVG-Based_Widgets/) article for a list of SVG-based widgets.
+
+<style>
+    #material-themes {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+    .theme-images {
+        font-size: 0 !important;
+    }
+    .theme-images > div {
+        display: inline-block !important;
+        margin-right: 16px !important;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .theme-images > div img {
+        outline: 1px solid #e3e3e3 !important;
+    }
+    .theme-images > div p {
+        margin-bottom: 2px !important;
+        font-family: 'OpenSansCondensedBold', 'HelveticaNeue-CondensedBold', Helvetica, 'Arial Narrow', Calibri, Arial, 'Lucida Grande', sans-serif !important;
+        color: #627789 !important;
+    }
+    #theme-files {
+        border-collapse: collapse;
+        margin-bottom: 10px;
+    }
+    #theme-files tr {
+        border: none;
+    }
+    #theme-files tr > * {
+        border-left: 1px solid #e6e6e6;
+    }
+    #theme-files th {
+        padding-bottom: 10px;
+    }
+    #theme-files th:first-child {
+        border-left: none
+    }
+    #theme-files td {
+        padding-right: 35px;
+        padding-left: 35px;
+        vertical-align: top;
+    }
+    #theme-files td:first-child {
+        padding-left: 0;
+        border-left: none
+    }
+    #theme-files ul {
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    #theme-files li {
+        list-style-type: none;
+        padding-top: 4px;
+    }
+    #theme-files li:before {
+        color: #627789;
+        content: "";
+        border-radius: 3px;
+        border: 3px solid #627789;
+        display: inline-block;
+        margin-right: 15px;
+        vertical-align: middle;
+    }
+</style>

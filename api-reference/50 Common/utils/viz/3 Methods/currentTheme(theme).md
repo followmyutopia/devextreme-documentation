@@ -10,11 +10,11 @@ Changes the current theme for all data visualization widgets on the page.
 <!--paramName1-->theme<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-A new theme's name.
+The new theme's name.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-Only the widgets created after calling this method use the new palette. Refresh the styling settings in other widgets using the [DevExpress.viz.refreshTheme()](/Documentation/ApiReference/Common/utils/viz/Methods/#refreshTheme) method.
+Only the widgets created after calling this method use the new theme. Use the [DevExpress.viz.refreshTheme()](/Documentation/ApiReference/Common/utils/viz/Methods/#refreshTheme) method to refresh the styling settings in other widgets.
 
 #####See Also#####
 - [Appearance Customization](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes)

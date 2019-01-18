@@ -14,7 +14,7 @@ This article describes how to create an ASP.NET Core Angular application and add
 
     Save the changes and wait until Visual Studio has downloaded the dependencies.
 
-1. Open the ClientApp\\.angular-cli.json file and register the [required .css files](/Documentation/Guide/Themes/Predefined_Themes/) in it:
+1. Open the ClientApp\\.angular-cli.json file and register the [required .css files](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) in it:
 
         {
             "apps": [

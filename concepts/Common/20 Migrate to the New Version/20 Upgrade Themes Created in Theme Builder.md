@@ -1,4 +1,4 @@
-Follow the steps below to upgrade a theme created in the Theme Builder if you [saved the theme's metadata](/Documentation/Guide/Themes/Theme_Builder/#Postpone_Customization):
+Follow the steps below to upgrade a theme created in the Theme Builder if you [saved the theme's metadata](/Documentation/Guide/Themes_and_Styles/ThemeBuilder/#Postpone_Customization):
 
 1. Open the [Theme Builder](/ThemeBuilder/).
 
@@ -14,4 +14,4 @@ Follow the steps below to upgrade a theme created in the Theme Builder if you [s
 
     ![DevExtreme HTML5 JavaScript Theme Builder - Warning: Version Mismatch](/Content/images/doc/18_2/PhoneJS/theme-builder_warning-version-mismatch.png)
 
-5. Check that the metadata is applied, perform additional customizations if required, and [save the upgraded theme](/Documentation/Guide/Themes/Theme_Builder/#Save_the_Resulting_Theme).
+5. Check that the metadata is applied, perform additional customizations if required, and [save the upgraded theme](/Documentation/Guide/Themes_and_Styles/ThemeBuilder/#Save_the_Resulting_Theme).

@@ -1,19 +1,178 @@
-﻿var ICONS = [
-"arrowdown", "arrowright", "arrowup", "spinleft", "spinright", "spinnext", "spinprev", "spindown", "spinup", "chevronleft", "chevronright", "chevronnext", "chevronprev", "chevrondown", "chevronup", "back", "repeat", "add", "airplane", "bookmark", "box", "car", "card", "cart", "chart", "check", "clear", "clock", "close", "coffee", "comment", "doc", "download", "edit", "email", "event", "favorites", "find", "filter", "floppy", "folder", "food", "gift", "globe", "group", "help", "home", "image", "info", "key", "like", "map", "menu", "message", "money", "music", "overflow", "percent", "photo", "plus", "preferences", "product", "pulldown", "refresh", "remove", "revert", "runner", "save", "search", "tags", "tel", "tips", "todo", "toolbox", "trash", "user", "upload"
+﻿const iconNames = [
+    "add",
+    "airplane",
+    "aligncenter",
+    "alignjustify",
+    "alignleft",
+    "alignright",
+    "arrowdown",
+    "arrowleft",
+    "arrowright",
+    "arrowup",
+    "back",
+    "background",
+    "blockquote",
+    "bold",
+    "bookmark",
+    "box",
+    "bulletlist",
+    "car",
+    "card",
+    "cart",
+    "chart",
+    "check",
+    "chevrondoubleleft",
+    "chevrondoubleright",
+    "chevrondown",
+    "chevronleft",
+    "chevronnext",
+    "chevronprev",
+    "chevronright",
+    "chevronup",
+    "clear",
+    "clearformat",
+    "clearsquare",
+    "clock",
+    "close",
+    "codeblock",
+    "coffee",
+    "collapse",
+    "color",
+    "columnchooser",
+    "columnfield",
+    "comment",
+    "contains",
+    "datafield",
+    "decreaseindent",
+    "doc",
+    "doesnotcontain",
+    "download",
+    "dragvertical",
+    "edit",
+    "email",
+    "endswith",
+    "equal",
+    "event",
+    "expand",
+    "export",
+    "exportpdf",
+    "exportselected",
+    "exportxlsx",
+    "favorites",
+    "fieldchooser",
+    "fields",
+    "filter",
+    "find",
+    "floppy",
+    "folder",
+    "fontsize",
+    "food",
+    "formula",
+    "gift",
+    "globe",
+    "greater",
+    "greaterorequal",
+    "group",
+    "growfont",
+    "header",
+    "help",
+    "home",
+    "image",
+    "increaseindent",
+    "indent",
+    "info",
+    "isblank",
+    "isnotblank",
+    "italic",
+    "key",
+    "less",
+    "lessorequal",
+    "like",
+    "link",
+    "map",
+    "mention",
+    "menu",
+    "message",
+    "money",
+    "more",
+    "music",
+    "notequal",
+    "orderedlist",
+    "overflow",
+    "percent",
+    "photo",
+    "pin",
+    "pinleft",
+    "pinright",
+    "plus",
+    "preferences",
+    "print",
+    "product",
+    "pulldown",
+    "range",
+    "redo",
+    "refresh",
+    "remove",
+    "repeat",
+    "revert",
+    "rowfield",
+    "runner",
+    "save",
+    "search",
+    "selectall",
+    "shrinkfont",
+    "sortdown",
+    "sortdowntext",
+    "sorted",
+    "sortup",
+    "sortuptext",
+    "spindown",
+    "spinleft",
+    "spinnext",
+    "spinprev",
+    "spinright",
+    "spinup",
+    "square",
+    "startswith",
+    "strike",
+    "subscript",
+    "superscript",
+    "tags",
+    "tel",
+    "tips",
+    "todo",
+    "toolbox",
+    "trash",
+    "underline",
+    "undo",
+    "unpin",
+    "unselectall",
+    "upload",
+    "user",
+    "variable",
+    "video",
+    "warning"
 ];
 
-var IconSet = $.map(ICONS, function (name) {
-    return {
-        name: name,
-        cssClass: "dx-icon-" + name.toLowerCase()
-    };
+var tds = $.map(iconNames, function (name) {
+    let $td = $("<td>").append(
+        $("<i class='icon dx-icon-" + name + "'></i>"),
+        $("<span class='icon-name'>" + name + "</span>")
+    );
+    return $td;
 });
 
-$(function(){
-    for (var i = 0; i < IconSet.length; i++) {
-        var iconElement = $("<div class='icon-element'>");
-        iconElement.append("<div class='" + IconSet[i].cssClass + "' style='font-size: 40px;'>");
-        iconElement.append("<p class='icon-name'>" + IconSet[i].name + "</p>");
-        $("#icon-sheet").append(iconElement);
+var $table = $("#icons-table");
+var row = [];
+var columnCount = 6;
+
+while(tds.length) {
+    row.push(tds.shift());
+    if (row.length == columnCount || tds.length < 1) {
+        let $tr = $("<tr class='table-row'>");
+        while(row.length) {
+            $tr.append( row.shift() );
+        }
+        $table.append( $tr );
     }
-});
+}

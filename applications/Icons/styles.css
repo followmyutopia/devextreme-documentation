@@ -1,17 +1,14 @@
-﻿#demo-box{
-    text-align: left;
-    height: auto;
+﻿.icon {
+    font-size: 32px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
-.wrapper{
-    padding: 20px;
-}
-.icon-element{
-    margin-bottom: 10px;
-    width: 90px;
-    display: inline-block;
-    text-align: center;
-}
-.icon-name{
+.icon-name {
     font-size: 14px;
     margin-top: 5px;
+    color: #86929d;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 10px;
 }

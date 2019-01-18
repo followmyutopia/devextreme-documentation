@@ -1,0 +1,159 @@
+Icons can be used in those widgets that have an **icon** option. For instance, the [Button](/Documentation/Guide/Widgets/Button/Overview/) widget has this option [on the first level of the configuration object](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#icon). Icons in the following code samples are taken from the [built-in icon library](/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library).
+
+---
+##### jQuery  
+
+    <!--JavaScript-->
+    $(function() {
+        $("#saveButton").dxButton({
+            // ...
+            icon: "save",
+            text: "Save"
+        });
+    });
+
+##### Angular  
+
+    <!--HTML-->
+    <dx-button ... 
+        icon="save"
+        text="Save">
+    </dx-button>
+
+    <!--TypeScript-->
+    import { DxButtonModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxButtonModule
+        ],
+        // ...
+    })
+
+##### Vue
+
+    <template>
+        <dx-button
+            icon="save"
+            text="Save" />
+    </template>
+    <script>
+    import DxButton from 'devextreme-vue/button';
+
+    export default {
+        components: {
+            DxButton
+        }
+    }
+    </script>
+
+##### React
+
+    import React from 'react';
+    import { Button } from 'devextreme-react/button';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <Button
+                    icon="save"
+                    text="Save"
+                />
+            );
+        }
+    }
+
+    export default App;
+
+---
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Button/Icons/jQuery/Light/"
+}
+
+Many [default templates](/Documentation/Guide/Widgets/Common/Templates/#Default_Templates) provide the **icon** option as well, the [ContextMenu](/Documentation/Guide/Widgets/ContextMenu/Overview/) widget's [default item template](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) being an example:
+
+---
+##### jQuery  
+
+    <!--JavaScript-->
+    $(function() {
+        $("#contextMenuContainer").dxContextMenu({
+            // ...
+            dataSource: [
+                { text: "Zoom In", icon: "plus" },
+                { text: "Share", icon: "message" },
+                { text: "Download", icon: "download" }
+            ]
+        });
+    });
+
+##### Angular  
+
+    <!--HTML-->
+    <dx-context-menu ... >
+        <dxi-item text="Zoom In" icon="plus"></dxi-item>
+        <dxi-item text="Share" icon="message"></dxi-item>
+        <dxi-item text="Download" icon="download"></dxi-item>
+    </dx-context-menu>
+
+    <!--TypeScript-->
+    import { DxContextMenuModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        // ...
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxContextMenuModule
+        ],
+        // ...
+    })
+
+##### Vue
+
+    <template>
+        <dx-context-menu ... >
+            <dx-item text="Zoom In" icon="plus" />
+            <dx-item text="Share" icon="message" />
+            <dx-item text="Download" icon="download" />
+        </dx-context-menu>
+    </template>
+    <script>
+    import { DxContextMenu, DxItem } from 'devextreme-vue/context-menu';
+
+    export default {
+        components: {
+            DxContextMenu,
+            DxItem
+        }
+    }
+    </script>
+
+##### React
+
+    import React from 'react';
+    import { ContextMenu } from 'devextreme-react/context-menu';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <ContextMenu ... >
+                    <Item text="Zoom In" icon="plus" />
+                    <Item text="Share" icon="message" />
+                    <Item text="Download" icon="download" />
+                </ContextMenu>
+            );
+        }
+    }
+
+    export default App;
+
+---
+
+To find a list of widgets that support icons, search for "icon" in the left-hand menu.

@@ -16,7 +16,7 @@
 
             r_js -convert node_modules/devextreme devextreme_amd
 
-1. Add [DevExtreme themes](/Documentation/Guide/Themes/Predefined_Themes/) to your application. 
+1. Add [DevExtreme themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) to your application. 
 
         <!--HTML-->
         <link rel="stylesheet" type="text/css" href="node_modules/devextreme/dist/css/dx.common.css" />

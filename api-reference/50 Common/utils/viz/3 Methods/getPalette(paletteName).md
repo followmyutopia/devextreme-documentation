@@ -19,13 +19,15 @@ The palette's settings.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-The returned value is an object of the following structure.
+The returned value is an object of the following structure:
 
     <!--JavaScript-->{
-        simpleSet: ['#60a69f', '#78b6d9', '#6682bb', '#a37182', '#eeba69'], // for "Chart", "PieChart", "BarGauge", "Funnel",
-                                                                            // and "TreeMap" with a gradient or range colorizer 
-        indicatingSet: ['#90ba58', '#eeba69', '#a37182'], // for "CircularGauge" and "LinearGauge"
-        gradientSet: ['#78b6d9', '#eeba69'] // for "VectorMap" and "TreeMap" with a gradient or range colorizer 
+        // Applies in the BarGauge, Chart, Funnel, PieChart, PolarChart, Sankey, and TreeMap with a discrete colorizer
+        simpleSet: ['#60a69f', '#78b6d9', '#6682bb', '#a37182', '#eeba69'], 
+        // Applies in the CircularGauge and LinearGauge
+        indicatingSet: ['#90ba58', '#eeba69', '#a37182'], 
+        // Applies in the VectorMap and TreeMap with a gradient or range colorizer 
+        gradientSet: ['#78b6d9', '#eeba69'] 
     }
 
 The built-in palettes are listed in the [Appearance Customization](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes) topic.

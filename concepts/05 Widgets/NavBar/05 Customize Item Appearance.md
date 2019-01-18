@@ -1,4 +1,4 @@
-For a minor customization of **NavBar** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three items. Each of them has an [icon](/Documentation/Guide/Themes/Icon_Library/). In addition, the second item is disabled, and the third item has a badge.
+For a minor customization of **NavBar** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxNavBar/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three items. Each of them has an [icon](/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library). In addition, the second item is disabled, and the third item has a badge.
 
 ---
 ##### jQuery

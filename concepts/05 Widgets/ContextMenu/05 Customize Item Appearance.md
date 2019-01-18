@@ -1,4 +1,4 @@
-For a minor customization of **ContextMenu** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three context menu items. Between the first and the second items lies a separator dividing one group of items from another. All the items are supplied with [icons](/Documentation/Guide/Themes/Icon_Library/).
+For a minor customization of **ContextMenu** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxContextMenu/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates three context menu items. Between the first and the second items lies a separator dividing one group of items from another. All the items are supplied with [icons](/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library).
 
 ---
 #####jQuery

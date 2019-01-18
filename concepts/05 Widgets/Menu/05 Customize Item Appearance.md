@@ -1,4 +1,4 @@
-For a minor customization of **Menu** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxMenu/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates two root items with two drop-down menu items each. The root items are supplied with [icons](/Documentation/Guide/Themes/Icon_Library/).
+For a minor customization of **Menu** items, you can use the default item template. This template defines the appearance of an item depending on whether [specific fields](/Documentation/ApiReference/UI_Widgets/dxMenu/Default_Item_Template/) are present or absent from the item's data object. For example, the following code generates two root items with two drop-down menu items each. The root items are supplied with [icons](/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library).
 
 ---
 ##### jQuery

@@ -1,0 +1,1 @@
+This article describes ways to customize SVG-based widgets. For a list of SVG-based widgets, refer to [CSS- and SVG-Based Widgets](/Documentation/Guide/Themes_and_Styles/CSS-_and_SVG-Based_Widgets/). A similar [article on CSS-based widgets](/Documentation/Guide/Themes_and_Styles/CSS-Based_Widgets_Customization/) is also available.
