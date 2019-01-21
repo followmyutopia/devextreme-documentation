@@ -11,4 +11,4 @@ Link this theme to your project after `dx.common.css` but before the DevExtreme 
         <script type="text/javascript" src="js/dx.all.js"></script>
     </head>
 
-[note] We periodically remove and remap unused constants to optimize our predefined themes. This can cause compatibility issues when you upgrade custom themes. We recommend saving your theme's metadata to enable you to fix these issues. Refer to the [Postpone Customization](/Documentation/Guide/Themes/Theme_Builder/#Postpone_Customization) topic for more details.
+[note] We periodically remove and remap unused constants to optimize our predefined themes. This can cause compatibility issues when you upgrade custom themes. We recommend saving your theme's metadata to enable you to fix these issues. Refer to the [Postpone Customization](/Documentation/Guide/Themes_and_Styles/ThemeBuilder/#Postpone_Customization) topic for more details.
