@@ -1,7 +1,6 @@
-<!--EventForAction-->..\4 Events\appointmentFormCreated.md<!--/EventForAction-->
+<!--dep-->onAppointmentFormOpening.md<!--/dep-->
 ===========================================================================
-<!--default-->null<!--/default-->
-<!--type-->function(e)<!--/type-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -114,33 +113,3 @@ The following code shows how to use the **onAppointmentFormCreated** function to
 #####See Also#####
 - [Form - Change Options at Runtime](/Documentation/Guide/Widgets/Form/Change_Options_at_Runtime/Widget_Options/)
 <!--/fullDescription-->
-<!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
-<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
-<!--typeFunctionParamDescription1-->
-Information about the event.
-<!--/typeFunctionParamDescription1-->
-<!--typeFunctionParamName1_field1-->component<!--/typeFunctionParamName1_field1-->
-<!--typeFunctionParamType1_field1-->{WidgetName}<!--/typeFunctionParamType1_field1-->
-<!--typeFunctionParamDescription1_field1-->
-The widget's instance.
-<!--/typeFunctionParamDescription1_field1-->
-<!--typeFunctionParamName1_field2-->element<!--/typeFunctionParamName1_field2-->
-<!--typeFunctionParamType1_field2-->dxElement<!--/typeFunctionParamType1_field2-->
-<!--typeFunctionParamDescription1_field2-->
-The widget's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
-<!--/typeFunctionParamDescription1_field2-->
-<!--typeFunctionParamName1_field3-->model<!--/typeFunctionParamName1_field3-->
-<!--typeFunctionParamType1_field3-->Object<!--/typeFunctionParamType1_field3-->
-<!--typeFunctionParamDescription1_field3-->
-The model data. Available only if you use Knockout.
-<!--/typeFunctionParamDescription1_field3-->
-<!--typeFunctionParamName1_field4-->appointmentData<!--/typeFunctionParamName1_field4-->
-<!--typeFunctionParamType1_field4-->Object<!--/typeFunctionParamType1_field4-->
-<!--typeFunctionParamDescription1_field4-->
-The data of the appointment for which a form is opened.
-<!--/typeFunctionParamDescription1_field4-->
-<!--typeFunctionParamName1_field5-->form<!--/typeFunctionParamName1_field5-->
-<!--typeFunctionParamType1_field5-->dxForm<!--/typeFunctionParamType1_field5-->
-<!--typeFunctionParamDescription1_field5-->
-The form's instance. 
-<!--/typeFunctionParamDescription1_field5-->
