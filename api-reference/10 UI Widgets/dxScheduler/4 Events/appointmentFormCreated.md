@@ -1,3 +1,4 @@
+<!--dep-->..\1 Configuration\onAppointmentFormOpening.md<!--/dep-->
 ===========================================================================
 <!--type-->eventType<!--/type-->
 ===========================================================================
@@ -7,10 +8,7 @@ Raised before an appointment details form is opened.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Main article: [onAppointmentFormOpening](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentFormOpening)
 
-#####See Also#####
-#include common-link-handleevents
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

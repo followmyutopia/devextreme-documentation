@@ -144,6 +144,5 @@ The data of the appointment for which a form is opened.
 <!--typeFunctionParamName1_field5-->form<!--/typeFunctionParamName1_field5-->
 <!--typeFunctionParamType1_field5-->dxForm<!--/typeFunctionParamType1_field5-->
 <!--typeFunctionParamDescription1_field5-->
-The form's instance.            
-This instance is created only once when the function is executed for the very first time.
+The form's instance; created only once - when the function is executed for the first time.
 <!--/typeFunctionParamDescription1_field5-->
