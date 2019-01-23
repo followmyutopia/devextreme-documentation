@@ -99,6 +99,21 @@ Since DevExtreme icons are shipped as an icon font, they can be customized with 
         color: blue;
     }
 
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().Button()
+        .ID("saveButton")
+        .Icon("save")
+        .Text("Save")
+    )
+
+    <!--CSS-->
+    #saveButton .dx-icon {
+        font-size: 24px;
+        color: blue;
+    }
+
 ---
 
 ... and for icons used in any other HTML elements: 

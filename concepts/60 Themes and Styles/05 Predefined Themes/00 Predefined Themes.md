@@ -1,111 +1,115 @@
 DevExtreme provides Generic, Generic Compact, and Material Design themes. These themes are available in the following colors:
 
+## Generic Theme
+
 <div id="generic-themes" class="theme-images">
     <div>
-        <p>Generic Light</p>
+        <p>Light</p>
         <img src="/Content/images/doc/18_2/themes/generic-light.png" />
     </div>
     <div>
-        <p>Generic Light Comp.</p>
+        <p>Light Compact</p>
         <img src="/Content/images/doc/18_2/themes/generic-light-compact.png" />
     </div>
     <div>
-        <p>Generic Dark</p>
+        <p>Dark</p>
         <img src="/Content/images/doc/18_2/themes/generic-dark.png" />
     </div>
     <div>
-        <p>Generic Dark Comp.</p>
+        <p>Dark Compact</p>
         <img src="/Content/images/doc/18_2/themes/generic-dark-compact.png" />
     </div>
     <div>
-        <p>Generic Carmine</p>
+        <p>Carmine</p>
         <img src="/Content/images/doc/18_2/themes/generic-carmine.png" />
     </div>
     <div>
-        <p>Generic Carmine Comp.</p>
+        <p>Carmine Compact</p>
         <img src="/Content/images/doc/18_2/themes/generic-carmine-compact.png" />
     </div>
     <div>
-        <p>Generic Soft Blue</p>
+        <p>Soft Blue</p>
         <img src="/Content/images/doc/18_2/themes/generic-softblue.png" />
     </div>
     <div>
-        <p>Generic Soft Blue Comp.</p>
+        <p>Soft Blue Compact</p>
         <img src="/Content/images/doc/18_2/themes/generic-softblue-compact.png" />
     </div>
     <div>
-        <p>Generic Dark Moon</p>
+        <p>Dark Moon</p>
         <img src="/Content/images/doc/18_2/themes/generic-darkmoon.png" />
     </div>
     <div>
-        <p>Generic Dark Moon Comp.</p>
+        <p>Dark Moon Compact</p>
         <img src="/Content/images/doc/18_2/themes/generic-darkmoon-compact.png" />
     </div>
     <div>
-        <p>Generic Dark Violet</p>
+        <p>Dark Violet</p>
         <img src="/Content/images/doc/18_2/themes/generic-darkviolet.png" />
     </div>
     <div>
-        <p>Generic Dark Violet Comp.</p>
+        <p>Dark Violet Compact</p>
         <img src="/Content/images/doc/18_2/themes/generic-darkviolet-compact.png" />
     </div>
     <div>
-        <p>Generic Green Mist</p>
+        <p>Green Mist</p>
         <img src="/Content/images/doc/18_2/themes/generic-greenmist.png" />
     </div>
     <div>
-        <p>Generic Green Mist Comp.</p>
+        <p>Green Mist Compact</p>
         <img src="/Content/images/doc/18_2/themes/generic-greenmist-compact.png" />
     </div>
     <div>
-        <p>Generic Contrast</p>
+        <p>Contrast</p>
         <img src="/Content/images/doc/18_2/themes/generic-contrast.png" />
     </div>
     <div>
-        <p>Generic Contrast Comp.</p>
+        <p>Contrast Compact</p>
         <img src="/Content/images/doc/18_2/themes/generic-contrast-compact.png" />
     </div>
 </div>
 
+## Material Design Theme
+
 <div id="material-themes" class="theme-images">
     <div>
-        <p>Material Blue Light</p>
+        <p>Blue Light</p>
         <img src="/Content/images/doc/18_2/themes/material-bluelight.png" />
     </div>
     <div>
-        <p>Material Blue Dark</p>
+        <p>Blue Dark</p>
         <img src="/Content/images/doc/18_2/themes/material-bluedark.png" />
     </div>
     <div>
-        <p>Material Lime Light</p>
+        <p>Lime Light</p>
         <img src="/Content/images/doc/18_2/themes/material-limelight.png" />
     </div>
     <div>
-        <p>Material Lime Dark</p>
+        <p>Lime Dark</p>
         <img src="/Content/images/doc/18_2/themes/material-limedark.png" />
     </div>
     <div>
-        <p>Material Orange Light</p>
+        <p>Orange Light</p>
         <img src="/Content/images/doc/18_2/themes/material-orangelight.png" />
     </div>
     <div>
-        <p>Material Orange Dark</p>
+        <p>Orange Dark</p>
         <img src="/Content/images/doc/18_2/themes/material-orangedark.png" />
     </div>
     <div>
-        <p>Material Purple Light</p>
+        <p>Purple Light</p>
         <img src="/Content/images/doc/18_2/themes/material-purplelight.png" />
     </div>
     <div>
-        <p>Material Purple Dark</p>
+        <p>Purple Dark</p>
         <img src="/Content/images/doc/18_2/themes/material-purpledark.png" />
     </div>
     <div>
-        <p>Material Teal Light</p>
+        <p>Teal Light</p>
         <img src="/Content/images/doc/18_2/themes/material-teallight.png" />
     </div>
     <div>
-        <p>Material Teal Dark</p>
+        <p>Teal Dark</p>
         <img src="/Content/images/doc/18_2/themes/material-tealdark.png" />
     </div>
 </div>
@@ -174,7 +178,6 @@ CSS themes are designed to customize CSS-based widgets but they also change the 
         display: inline-block !important;
         margin-right: 16px !important;
         margin-bottom: 10px;
-        margin-top: 10px;
     }
     .theme-images > div img {
         outline: 1px solid #e3e3e3 !important;

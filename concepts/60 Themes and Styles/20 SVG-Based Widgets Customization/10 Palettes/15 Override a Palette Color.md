@@ -68,7 +68,7 @@ Set a widget element's **color** option to override a palette color for this ele
     // ...
     export class AppComponent {
         worldMap: any = mapsData.world;
-        constructor(service: Service) {
+        constructor() {
             this.colorizeMap = this.colorizeMap.bind(this);
         }
         colorizeMap(elements) {

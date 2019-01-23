@@ -7,7 +7,7 @@ Icons in widgets are inserted into the DOM as `<i>` elements. When you set a wid
     <!--HTML-->
     <i class="dx-icon dx-icon-home"></i>
 
-This allows DevExtreme widgets to support icons from external icon libaries, provided that they too should be specified in the `class` attribute.
+This allows DevExtreme widgets to support icons from external icon libraries, provided that they too should be specified in the `class` attribute.
 
 [Font Awesome](https://fontawesome.com/), [Glyphicons](https://www.glyphicons.com/), and [Ionicons](https://ionicons.com/) are examples of such libraries. Follow the installation tutorial for the library you want to use and set the **icon** option as follows:
 
@@ -73,5 +73,15 @@ This allows DevExtreme widgets to support icons from external icon libaries, pro
     }
 
     export default App;
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().Button()
+        .Icon("fas fa-home") // Font Awesome 5
+        .Icon("fa fa-home") // Font Awesome 4
+        .Icon("glyphicon glyphicon-home") // Glyphicons
+        .Icon("ion ion-home") // Ionicons
+    )
 
 ---

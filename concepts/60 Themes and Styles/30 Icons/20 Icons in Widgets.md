@@ -6,7 +6,6 @@ Icons can be used in those widgets that have an **icon** option. For instance, t
     <!--JavaScript-->
     $(function() {
         $("#saveButton").dxButton({
-            // ...
             icon: "save",
             text: "Save"
         });
@@ -15,7 +14,7 @@ Icons can be used in those widgets that have an **icon** option. For instance, t
 ##### Angular  
 
     <!--HTML-->
-    <dx-button ... 
+    <dx-button
         icon="save"
         text="Save">
     </dx-button>
@@ -68,6 +67,14 @@ Icons can be used in those widgets that have an **icon** option. For instance, t
     }
 
     export default App;
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().Button()
+        .Icon("save")
+        .Text("Save")
+    )
 
 ---
 
@@ -138,7 +145,7 @@ Many [default templates](/Documentation/Guide/Widgets/Common/Templates/#Default_
 ##### React
 
     import React from 'react';
-    import { ContextMenu } from 'devextreme-react/context-menu';
+    import { ContextMenu, Item } from 'devextreme-react/context-menu';
 
     class App extends React.Component {
         render() {
@@ -153,6 +160,17 @@ Many [default templates](/Documentation/Guide/Widgets/Common/Templates/#Default_
     }
 
     export default App;
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().ContextMenu()
+        .Items(i => {
+            i.Add().Text("Zoom In").Icon("plus");
+            i.Add().Text("Share").Icon("message");
+            i.Add().Text("Download").Icon("download");
+        })
+    )
 
 ---
 

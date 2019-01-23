@@ -6,12 +6,8 @@ A color swatch is defined by scoped CSS rules that are prefixed with a specific 
     <div>
         This content applies the primary color scheme
 
-        <div class="dx-swatch-green">
-            This content applies the "green" color scheme
-        </div>
-
-        <div class="dx-swatch-blue">
-            This content applies the "blue" color scheme
+        <div class="dx-swatch-dark">
+            This content applies the "dark" color scheme
         </div>
     </div>
 
@@ -21,13 +17,13 @@ You can generate color swatches with the DevExtreme CLI or ThemeBuilder UI:
 
 * **[DevExtreme CLI](https://github.com/DevExpress/devextreme-cli/blob/master/README.md)**        
 
-    The following command generates a new `custom` color swatch that uses Generic Dark as a base theme. The base theme remains unchanged because an input file with metadata or Bootstrap variables is not specified.
+    The following command generates a new `custom` color swatch that uses Generic Dark as a base theme.
 
-        > devextreme build-theme –-base-theme="generic.dark" --make-swatch --output-color-scheme="custom"
+        > devextreme build-theme –-base-theme="generic.dark" --make-swatch --output-color-scheme="dark"
         // ===== or without installing DevExtreme CLI globally =====
-        > npx -p devextreme-cli devextreme build-theme –-base-theme="generic.dark" --make-swatch --output-color-scheme="custom"
+        > npx -p devextreme-cli devextreme build-theme –-base-theme="generic.dark" --make-swatch --output-color-scheme="dark"
 
-    The result of this command is a `dx.generic.custom.css` file in which every rule is prefixed with the `.dx-swatch-custom` CSS selector. Move the file to the application folder, [register it](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Apply_a_Theme), and add the swatch class to a page element.
+    The result of this command is a `dx.generic.dark.css` file in which every rule is prefixed with the `.dx-swatch-dark` CSS selector. Move the file to the application folder, [register it](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Apply_a_Theme), and add the swatch class to a page element.
 
     Refer to [DevExtreme CLI: ThemeBuilder](https://github.com/DevExpress/devextreme-cli/blob/master/README.md#themebuilder) for more information about CLI commands and command line arguments.
 
