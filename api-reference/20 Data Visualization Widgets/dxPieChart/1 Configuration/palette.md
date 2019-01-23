@@ -17,7 +17,7 @@ Sets the palette to be used to colorize series and their elements.
 }
 
 #####See Also#####
-- [Palettes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes)
+- [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
 - [paletteExtensionMode]({basewidgetpath}/Configuration/#paletteExtensionMode)
 - **series**.[color]({basewidgetpath}/Configuration/series/#color)
 <!--/fullDescription-->

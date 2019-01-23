@@ -38,6 +38,6 @@ But the *"gradient"* and *"range"* types require strictly two colors.
     }
 
 #####See Also#####
-- [Palettes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes)
+- [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
 - **colorizer**.[paletteExtensionMode]({basewidgetpath}/Configuration/colorizer/#paletteExtensionMode)
 <!--/fullDescription-->

@@ -1,4 +1,4 @@
-Exposes methods that control [themes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes).
+Exposes methods that control [themes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes).
 
 Exports:
 

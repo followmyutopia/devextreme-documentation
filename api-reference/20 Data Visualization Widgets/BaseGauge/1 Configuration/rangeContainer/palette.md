@@ -21,7 +21,7 @@ Specifies the palette to be used for colorizing ranges in the range container.
 }
 
 #####See Also#####
-- [Palettes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes)
+- [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
 - [paletteExtensionMode]({basewidgetpath}/Configuration/rangeContainer/#paletteExtensionMode)
 - **rangeContainer**.**ranges[]**.[color]({basewidgetpath}/Configuration/rangeContainer/ranges/#color)
 <!--/fullDescription-->

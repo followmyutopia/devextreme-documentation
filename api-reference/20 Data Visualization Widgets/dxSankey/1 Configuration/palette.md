@@ -17,6 +17,6 @@ Sets the palette to be used to colorize sankey nodes.
 }
 
 #####See Also#####
-- [Palettes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes)
+- [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
 - [paletteExtensionMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/#paletteExtensionMode)
 <!--/fullDescription-->

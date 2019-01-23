@@ -24,7 +24,7 @@ Note that you can use a spider web for polar charts displaying discrete data. Fo
 You can change the default appearance using series options. For instance, you can change the following.
 
 *   **Point Color**  
-    A color from the chart's [palette](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes) is used by default. Set a custom color using the series' [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/) property.
+    A color from the chart's [palette](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes) is used by default. Set a custom color using the series' [color](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/) property.
     
 *   **Point Options**  
     Set up the series' [point](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/commonSeriesSettings/point/) object (see the [Series Points](/Documentation/Guide/Widgets/PolarChart/Visual_Elements/#Series_Points) topic).

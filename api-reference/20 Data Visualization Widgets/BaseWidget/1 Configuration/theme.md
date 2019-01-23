@@ -9,7 +9,7 @@ Sets the name of the theme the widget uses.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-A theme is a widget configuration that gives the widget a distinctive appearance. Use can use one of the [predefined themes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes) or create a [custom one](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes/Customize_a_Theme). Changing the option values in the widget's configuration object overrides the theme's corresponding values.
+A theme is a widget configuration that gives the widget a distinctive appearance. Use can use one of the [predefined themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) or create a [custom one](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes). Changing the option values in the widget's configuration object overrides the theme's corresponding values.
 
 [note]The following themes were deprecated or renamed: _'android5.light'_, _'win8.white'_, _'win8.black'_, _'win8.light'_, _'win8.dark'_, _'win10.white'_, _'win10.black'_, _'win10.light'_, _'win10.dark'_. In new applications, use themes listed in the accepted values.
 

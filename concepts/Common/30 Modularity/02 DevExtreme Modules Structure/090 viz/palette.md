@@ -1,4 +1,4 @@
-Exposes methods that control [palettes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes).
+Exposes methods that control [palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes).
 
 Exports:
 

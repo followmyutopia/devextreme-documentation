@@ -23,6 +23,6 @@ The color scheme: *"light"* or *"dark"*.
 Only the widgets created after calling this method use the new theme. Refresh the styling settings in other widgets using the [DevExpress.viz.refreshTheme()](/Documentation/ApiReference/Common/utils/viz/Methods/#refreshTheme) method.
 
 #####See Also#####
-- [Appearance Customization](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes)
+- [Themes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes)
 - [DevExpress.viz.registerTheme(customTheme, baseTheme)](/Documentation/ApiReference/Common/utils/viz/Methods/#registerThemecustomTheme_baseTheme)
 <!--/fullDescription-->

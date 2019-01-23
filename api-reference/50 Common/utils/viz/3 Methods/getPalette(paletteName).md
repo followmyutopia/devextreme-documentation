@@ -30,5 +30,5 @@ The returned value is an object of the following structure:
         gradientSet: ['#78b6d9', '#eeba69'] 
     }
 
-The built-in palettes are listed in the [Appearance Customization](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes) topic.
+The built-in palettes are listed in the [Appearance Customization](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes) topic.
 <!--/fullDescription-->

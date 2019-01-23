@@ -20,5 +20,5 @@ The base theme's name.
 <!--/paramDescription2-->
 
 <!--fullDescription-->
-For details on how to customize a theme, refer to the [Appearance Customization](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Themes/Customize_a_Theme) article.
+For details on how to customize a theme, refer to the [Themes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes) article.
 <!--/fullDescription-->

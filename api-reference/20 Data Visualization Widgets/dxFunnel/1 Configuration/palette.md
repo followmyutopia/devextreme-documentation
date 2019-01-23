@@ -17,7 +17,7 @@ Sets the palette to be used to colorize funnel items.
 }
 
 #####See Also#####
-- [Palettes](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Appearance_Customization/#Palettes)
+- [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
 - [paletteExtensionMode]({basewidgetpath}/Configuration/#paletteExtensionMode)
 - [colorField](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/#colorField)
 <!--/fullDescription-->
