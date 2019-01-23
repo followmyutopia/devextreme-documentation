@@ -1,6 +1,6 @@
 DevExtreme provides Generic, Generic Compact, and Material Design themes. These themes are available in the following colors:
 
-## Generic Theme
+## Generic Themes
 
 <div id="generic-themes" class="theme-images">
     <div>
@@ -69,7 +69,7 @@ DevExtreme provides Generic, Generic Compact, and Material Design themes. These 
     </div>
 </div>
 
-## Material Design Theme
+## Material Design Themes
 
 <div id="material-themes" class="theme-images">
     <div>
