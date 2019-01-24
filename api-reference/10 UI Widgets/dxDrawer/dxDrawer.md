@@ -191,7 +191,7 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
     @(Html.DevExtreme().Button()
         .ID("button")
         .Text("Close Drawer")
-        .onClick("button_clickHandler")
+        .OnClick("button_clickHandler")
     )
     @(Html.DevExtreme().Drawer()
         .ID("drawer")
@@ -206,7 +206,7 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
                 .Width(200)
             )
         </text>)
-        .ContentTemplate(@<text>
+        .Content(@<text>
             <span>Here is the view content</span>
         </text>)
     )
