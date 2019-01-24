@@ -223,7 +223,7 @@ The **Drawer** is a dismissible or permanently visible panel used for navigation
             var opened = drawer.option("opened");
             var text = opened ? "Open Drawer" : "Close Drawer";
             button.option("text", text);
-            drawer.toggle(!opened);
+            drawer.toggle();
         }
     </script>
 
