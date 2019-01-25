@@ -1,4 +1,4 @@
-Widgets from the DevExtreme library are divided into CSS-based and SVG-based. Styling methods depend on the widget's group.
+Widgets from the DevExtreme library are divided into HTML-based and SVG-based. Styling methods depend on the widget's group.
 
 The following widgets are SVG-based:
 
@@ -16,4 +16,4 @@ The following widgets are SVG-based:
 - [TreeMap](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/)
 - [VectorMap](/Documentation/Guide/Widgets/VectorMap/Visual_Elements/)
 
-Widget customization is described in the [CSS-Based Widgets Customization](/Documentation/Guide/Themes_and_Styles/CSS-Based_Widgets_Customization/) and [SVG-Based Widgets Customization](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/) articles. However, we recommend that you choose a [theme](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) to start customization.
+Widget customization is described in the [HTML-Based Widgets Customization](/Documentation/Guide/Themes_and_Styles/HTML-Based_Widgets_Customization/) and [SVG-Based Widgets Customization](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/) articles. However, we recommend that you choose a [theme](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) to start customization.

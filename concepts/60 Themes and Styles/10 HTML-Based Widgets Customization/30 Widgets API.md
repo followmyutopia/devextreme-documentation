@@ -1,4 +1,4 @@
-We recommend customizing a widget using its API. Unlike [CSS classes](/Documentation/Guide/Themes_and_Styles/CSS-Based_Widgets_Customization/#Individual_CSS_Classes), the API is changed rarely, and if it happens, the widget populates the browser console with warnings that help you mend your code.
+We recommend customizing a widget using its API. Unlike [CSS classes](/Documentation/Guide/Themes_and_Styles/HTML-Based_Widgets_Customization/#Individual_CSS_Classes), the API is changed rarely, and if it happens, the widget populates the browser console with warnings that help you mend your code.
 
 Each widget has an API described in the widget's [API reference section](/Documentation/ApiReference/). For example, you can specify the widget's width via a [corresponding option](/Documentation/ApiReference/UI_Widgets/dxList/Configuration/#width). In the following example, this option is set for the [List](/Demos/WidgetsGallery/Demo/List/ListEditingAndAPI/jQuery/Light/) widget.
 

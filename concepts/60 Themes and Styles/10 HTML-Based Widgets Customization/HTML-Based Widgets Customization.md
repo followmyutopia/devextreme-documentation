@@ -1,0 +1,1 @@
+This article describes ways to customize HTML-based widgets. A similar [article on SVG-based widgets](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/) is also available. If you do not know whether your widget is HTML- or SVG-based, refer to [HTML- and SVG-Based Widgets](/Documentation/Guide/Themes_and_Styles/HTML-_and_SVG-Based_Widgets/).

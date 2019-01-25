@@ -164,7 +164,7 @@ Each theme is a stylesheet that contains a collection of CSS classes. The follow
     </tr>    
 </table>
 
-CSS themes are designed to customize CSS-based widgets but they also change the appearance of SVG-based widgets. However, SVG-based widgets have their own [themes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes). See the [CSS- and SVG-Based Widgets](/Documentation/Guide/Themes_and_Styles/CSS-_and_SVG-Based_Widgets/) article for a list of SVG-based widgets.
+CSS themes are designed to customize HTML-based widgets but they also change the appearance of SVG-based widgets. However, SVG-based widgets have their own [themes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Themes). See the [HTML- and SVG-Based Widgets](/Documentation/Guide/Themes_and_Styles/HTML-_and_SVG-Based_Widgets/) article for a list of SVG-based widgets.
 
 <style>
     #material-themes {
