@@ -15,16 +15,35 @@ You should also implement the following features manually: [editing](/Documentat
 
 [/note]
 
-When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) markup component for AngularJS and Knockout apps, declare it within a `<table>` HTML element. For Angular - within a `<tbody>` element with the `dx-row` class.
+In AngularJS and Knockout, use the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Components/dxTemplate/) and declare it within a `<table>` element. In other cases, declare the markup in a `<tbody>` element with the `dx-row` class.
 
 ---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("dataGridContainer").dxDataGrid({
+            // ...
+            rowTemplate: function(container, item) {
+                var data = item.data,
+                    markup = "<tbody class='dx-row'>" +
+                        "<tr>" +
+                            "<td>" + item.data.id + "</td>" +
+                            "<td>" + item.data.name + "</td>" +  
+                        "</tr>" +
+                    "</tbody>";
+                container.append(markup);
+            }
+        });
+    });
+
 #####Angular
 
     <!--HTML-->
     <dx-data-grid ...
         rowTemplate="rowTemplateName">
         <tbody class="dx-row" *dxTemplate="let item of 'rowTemplateName'" >
-            <tr class="main-row">
+            <tr>
                 <td>{{item.data.id}}</td>
                 <td>{{item.data.name}}</td>
             </tr>
@@ -72,6 +91,76 @@ When using the [dxTemplate](/Documentation/ApiReference/UI_Widgets/Markup_Compon
                 </tr>
             </table>
         </div>
+
+#####Vue
+
+    <template>
+        <dx-data-grid ...
+            row-template="dataRowTemplate">
+            <tbody
+                slot="dataRowTemplate"
+                slot-scope="rowInfo"
+                class="dx-row">
+                <tr>
+                    <td>{{rowInfo.data.id}}</td>
+                    <td>{{rowInfo.data.name}}</td>
+                </tr>
+            </tbody>
+        </dx-data-grid>
+    </template>
+    <script>
+    import { DxDataGrid } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid
+        }
+    };
+    </script>
+
+#####React
+
+    import React from 'react';
+    import DataGrid from 'devextreme-react/data-grid';
+
+    class Row extends React.PureComponent {
+        render() {
+            return (
+                <tbody className={"dx-row"}>
+                    <tr>
+                        <td>{this.props.data.id}</td>
+                        <td>{this.props.data.name}</td>
+                    </tr>
+                </tbody>
+            );
+        }
+    }
+
+    class App extends React.Component {
+        render() {
+            return (
+                <DataGrid ...
+                    rowComponent={Row}>
+                </DataGrid>
+            );
+        }
+    }
+    export default App;
+
+#####ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().DataGrid()
+        // ...
+        .RowTemplate(@<text>
+            <tbody class="dx-row">
+                <tr>
+                    <td><%= data.id %></td>
+                    <td><%= data.name %></td>
+                </tr>
+            </tbody>
+        </text>)
+    )
 
 ---
 
