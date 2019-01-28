@@ -151,7 +151,9 @@ The main option you should specify when creating a widget is the [dataSource](/D
 
 ---
 
- 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Toolbar/Overview/jQuery/Light/"
+}
 
 #####See Also#####
 - [Toolbar - Overview](/Documentation/Guide/Widgets/Toolbar/Overview/)
