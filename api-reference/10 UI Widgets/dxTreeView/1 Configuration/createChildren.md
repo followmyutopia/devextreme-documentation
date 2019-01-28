@@ -3,36 +3,41 @@
 ===========================================================================
 
 <!--shortDescription-->
-Allows you to load nodes manually.
+Allows you to load nodes. Applies if the [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) is *"plain"* and the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataSource) and [items](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#items) are undefined.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If you have a large data source hosted remotely, loading all of it may take considerable time. To quicken the process, you can load data for an individual node using the **createChildren** function. This function will be called at the beginning of the widget's lifetime and each time a user expands a node whose child nodes have not been loaded yet.
+This function is called at the beginning of the widget's lifetime and each time a user expands a node whose child nodes have not been loaded yet. It allows you to load the entire tree in portions: load root nodes first (when the function's **parentNode** parameter is **null**) and the child nodes of each expanded node later.
+
+The following code shows how to use this function with a remote service:
 
 ---
 ##### jQuery
 
     <!--JavaScript-->$(function() {
         $("#treeViewContainer").dxTreeView({
+            dataStructure: "plain",
+            rootValue: 0, 
             createChildren: function (parentNode) {
                 var d = $.Deferred();
                 $.get("http://url/to/the/service", {
-                        parentId: parentNode ? JSON.stringify(parentNode.key) : "0"
+                        // Here, 0 is the "rootValue" option's value.
+                        parentId: parentNode ? JSON.stringify(parentNode.key) : "0" 
                     })
                     .done(function (result) {
                         d.resolve(result);
                     });
                 return d.promise();
-            },
-            dataStructure: "plain"
+            }
         });
     });
 
 ##### Angular
 
     <!--HTML--><dx-tree-view
-        [createChildren]="createChildren"
-        dataStructure="plain">
+        [rootValue]="0"
+        dataStructure="plain"
+        [createChildren]="createChildren">
     </dx-tree-view>
 
     <!--TypeScript-->
@@ -45,7 +50,8 @@ If you have a large data source hosted remotely, loading all of it may take cons
         constructor(@Inject(HttpClient) httpClient: HttpClient) { }
         createChildren = (parentNode) => {
             let params: HttpParams = new HttpParams()
-                .set("parentId", parentNode ? JSON.stringify(parentNode.key) : "0");
+                // Here, 0 is the "rootValue" option's value.
+                .set("parentId", parentNode ? JSON.stringify(parentNode.key) : "0"); 
             return httpClient.get("http://url/to/the/service", {
                     params: params
                 })
@@ -63,12 +69,9 @@ If you have a large data source hosted remotely, loading all of it may take cons
 
 ---
 
-[note]The **createChildren** function applies only if the [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) option is set to *"plain"* and the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataSource) option is unspecified.
-
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Tree_View/LoadDataOnDemand/jQuery/Light/"
 }
-
 
 #####See Also#####
 - [Enhance Performance on Large Datasets](/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/)
