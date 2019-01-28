@@ -180,7 +180,9 @@ The cell value.
 <!--typeFunctionParamName1_field10-->numberFormat<!--/typeFunctionParamName1_field10-->
 <!--typeFunctionParamType1_field10-->String<!--/typeFunctionParamType1_field10-->
 <!--typeFunctionParamDescription1_field10-->
-The format that specifies how the cell value is displayed. <br/> Refer to the [Review guidelines for customizing a number format](https://support.office.com/en-us/article/review-guidelines-for-customizing-a-number-format-c0a1d1fa-d3f4-4018-96b7-9c9354dd99f5) article for more information.
+The format that specifies how the cell value is displayed.      
+Refer to the [Review guidelines for customizing a number format](https://support.office.com/en-us/article/review-guidelines-for-customizing-a-number-format-c0a1d1fa-d3f4-4018-96b7-9c9354dd99f5) article for more information.     
+Note that you should use `&quot;` instead of `"` to include a text entry. For example, the `0.0&quot; items&quot;` format results in `5` exported as `5 items`.
 <!--/typeFunctionParamDescription1_field10-->
 <!--typeFunctionParamName1_field11-->gridCell<!--/typeFunctionParamName1_field11-->
 <!--typeFunctionParamType1_field11-->ExcelDataGridCell<!--/typeFunctionParamType1_field11-->
