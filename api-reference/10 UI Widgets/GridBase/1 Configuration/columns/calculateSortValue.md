@@ -100,10 +100,18 @@ This option accepts the name of the [data source field]({basewidgetpath}/Configu
     
 ---
 
-#include uiwidgets-ref-functioncontext with { 
-    value: "column's configuration"
-}
+[note]
 
+Please review the following notes about the **calculateSortValue** option.
+
+- The `this` keyword refers to the column's configuration.
+
+- When the **DataGrid** is [grouped](/Documentation/Guide/Widgets/DataGrid/Grouping/) by the column, this option is ignored. Use the [calculateGroupValue](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateGroupValue) option instead or additionally.
+
+[/note]
+
+#####See Also#####
+- [sortingMethod]({basewidgetpath}/Configuration/columns/#sortingMethod)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->rowData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
