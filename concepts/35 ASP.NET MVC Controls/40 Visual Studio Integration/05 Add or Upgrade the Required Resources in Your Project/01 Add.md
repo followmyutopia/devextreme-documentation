@@ -14,7 +14,7 @@ To add resources DevExtreme ASP.NET MVC Controls require to your project, follow
 
     ![DevExtreme ASP.NET MVC Controls - Project Converter Output Window](/Content/images/doc/18_2/Common/MvcWrappers/projConverter_outputWindow.png)
 
-5. **ASP.NET Core MVC only**. Follow the instructions from the DevExtreme_Readme.html file.
+5. **ASP.NET Core MVC only**. Follow the instructions from the DevExtremeConversion_Readme.html file.
 
 Now DevExtreme ASP.NET MVC Controls are set up for your project. If any issues appear during the process, address them by following the messages in the **Output** window. After that, repeat the steps above starting with step 2.
 
