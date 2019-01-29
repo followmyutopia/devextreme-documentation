@@ -65,6 +65,6 @@ You should configure [remoteOperations](/Documentation/ApiReference/UI_Widgets/d
 
 ---
 
-See [this series of blog posts](https://community.devexpress.com/blogs/oliver/archive/2017/03/24/devextreme-real-world-patterns.aspx) for more information on using DevExterme widgets in applications with MongoDB.
+See [this series of blog posts](https://community.devexpress.com/blogs/oliver/archive/2017/03/24/devextreme-real-world-patterns.aspx) for more information on using DevExtreme widgets in applications with MongoDB.
 
 
