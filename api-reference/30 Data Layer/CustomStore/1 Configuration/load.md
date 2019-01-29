@@ -28,7 +28,7 @@ This function's implementation has certain specifics depending on the widget in 
 Data processing settings.
 <!--/typeFunctionParamDescription1-->
 
-<!--typeFunctionReturnType-->Promise<any><!--/typeFunctionReturnType-->
+<!--typeFunctionReturnType-->Promise<any>|Array<any><!--/typeFunctionReturnType-->
 <!--typeFunctionReturnDescription-->
-A Promise that is resolved after data is loaded. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
+An array with data or a Promise that is resolved after data is loaded. It is a [native Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) or a [jQuery.Promise](http://api.jquery.com/Types/#Promise) when you use jQuery.
 <!--/typeFunctionReturnDescription-->
