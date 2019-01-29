@@ -70,7 +70,7 @@ If your framework supports two-way binding, bind the axis' **visualRange** to a 
 
 ---
 
-The argument axis' visual range can behave differently when chart data is updated. See the [visualRangeUpdateMode](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#visualRangeUpdateMode) option for more information.
+An axis' visual range can behave differently when chart data is updated. See the **visualRangeUpdateMode** option for the [argument axis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/#visualRangeUpdateMode) or [value axis](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/valueAxis/#visualRangeUpdateMode) for more information.
 
 #####See Also#####
 - [Scale Breaks](/Documentation/Guide/Widgets/Chart/Axes/Scale_Breaks/)
