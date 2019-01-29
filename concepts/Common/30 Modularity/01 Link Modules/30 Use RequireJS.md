@@ -31,7 +31,7 @@
             require.config({ ... });
         </script>
 
-See examples of using RequireJS with [jQuery](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-jquery), [AngularJS](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-angularjs), and [Knockout](https://github.com/DevExpress/devextreme-examples/tree/18_2/requirejs-knockout) on GitHub. The **index.html** file contains the main code. 
+See examples of using RequireJS with [jQuery](https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-jquery), [AngularJS](https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-angularjs), and [Knockout](https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-knockout) on GitHub. The **index.html** file contains the main code. 
 
 [note] Check the libraries' and frameworks' [supported versions](/Documentation/Guide/Common/Introduction_to_DevExtreme/#Integration_with_3rd-Party_Libraries_and_Frameworks).
 

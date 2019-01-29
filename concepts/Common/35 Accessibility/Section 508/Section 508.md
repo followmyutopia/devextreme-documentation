@@ -1,3 +1,3 @@
 The following tables are based on the [Voluntary Product Accessibility Template (VPAT)](https://www.state.gov/m/irm/impact/126343.htm) and provide detailed information about the accessibility features DevExtreme supports according to the [Section 508](https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-section-508-standards) standards.
 
-[![pdf](/Content/images/doc/18_2/DevExtreme/pdfversion.gif) Download PDF](/Content/docs/VPATDevExpressDevExtreme18_2.pdf)
+[![pdf](/Content/images/doc/19_1/DevExtreme/pdfversion.gif) Download PDF](/Content/docs/VPATDevExpressDevExtreme19_1.pdf)

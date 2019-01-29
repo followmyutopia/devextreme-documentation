@@ -80,7 +80,7 @@ The table layout does not automatically adapt to changes made in the widget's co
 
 Data from hidden columns is still available in adaptive detail rows. A user can expand or collapse these rows by clicking the ellipsis buttons in the adaptive column.
 
-![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Adaptability](/Content/images/doc/18_2/DataGrid/visual_elements/adaptive-column.png)
+![DevExtreme HTML5 JavaScript jQuery Knockout Angular DataGrid Adaptability](/Content/images/doc/19_1/DataGrid/visual_elements/adaptive-column.png)
 
 #include common-demobutton-named with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/GridAdaptabilityOverview/jQuery/Light/",

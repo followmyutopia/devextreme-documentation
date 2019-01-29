@@ -11,12 +11,12 @@
         <head>
             <!-- ... -->
             <!-- DevExtreme library -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.all.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.all.js"></script>
             <!-- DevExtreme-Intl module -->
-            <script src="https://unpkg.com/devextreme-intl@18.2/dist/devextreme-intl.min.js"></script>
+            <script src="https://unpkg.com/devextreme-intl@19.1/dist/devextreme-intl.min.js"></script>
             <!-- Dictionary files for German and Russian languages -->
-            <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/localization/dx.messages.de.js"></script>
-            <script src="https://cdn3.devexpress.com/jslib/minor_18_2/js/localization/dx.messages.ru.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/localization/dx.messages.de.js"></script>
+            <script src="https://cdn3.devexpress.com/jslib/minor_19_1/js/localization/dx.messages.ru.js"></script>
         </head>
         <body>
             <script>
@@ -139,4 +139,4 @@ Strings, numbers, dates, and currencies are now automatically localized and form
 
 You can use structures compatible with the Intl API for value formatting. See an example in the DevExtreme-Intl README's [API](https://github.com/DevExpress/DevExtreme-Intl#api) section. The [Value Formatting](/Documentation/Guide/Common/Value_Formatting/) article provides information on the extended formatting functionality DevExtreme provides out of the box.
 
-You can use the [Intl-Angular](https://github.com/DevExpress/devextreme-examples/tree/18_1/intl-angular) sample project as a starting point for creating new apps or as an example to copy code from when implementing specific functionality in your app.
+You can use the [Intl-Angular](https://github.com/DevExpress/devextreme-examples/tree/19_1/intl-angular) sample project as a starting point for creating new apps or as an example to copy code from when implementing specific functionality in your app.

@@ -1,6 +1,6 @@
 A legend is a supplementary map element that helps end-users identify a map area or a map marker.
 
-![DevExtreme ChartJS VectorMap](/Content/images/doc/18_2/ChartJS/VectorMap_Legend.png)
+![DevExtreme ChartJS VectorMap](/Content/images/doc/19_1/ChartJS/VectorMap_Legend.png)
 
 The **VectorMap** widget can display several legends simultaneously. To configure the legends of your map, define one or more elements of the [legends](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/) array.
 

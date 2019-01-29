@@ -7,7 +7,7 @@ Specifies the hint that appears when a user points to an axis label.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts AxisLabelHint](/Content/images/doc/18_2/ChartJS/visual_elements/axis_label_hint.png)
+![DevExtreme HTML5 Charts AxisLabelHint](/Content/images/doc/19_1/ChartJS/visual_elements/axis_label_hint.png)
 
 #include dataviz-ref-functioncontext
 <!--/fullDescription-->

@@ -41,7 +41,7 @@ The **RangeSelector** is a widget that allows a user to select a range of values
 <!--fullDescription-->
 This widget represents a scale (numeric or date-time) and two sliders. A user selects the required range by moving the sliders.
 
-<img style="margin:0px auto;display:block" src="/Content/images/doc/18_2/ChartJS/RangeSelector_new.gif" alt="RangeSelector" />
+<img style="margin:0px auto;display:block" src="/Content/images/doc/19_1/ChartJS/RangeSelector_new.gif" alt="RangeSelector" />
 
 #include common-ref-roottopic-introduction
 

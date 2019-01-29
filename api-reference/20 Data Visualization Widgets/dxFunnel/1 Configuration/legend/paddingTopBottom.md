@@ -8,5 +8,5 @@ Generates an empty space, measured in pixels, between the legend's top/bottom bo
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme Legend Top-Bottom Padding](/Content/images/doc/18_2/ChartJS/LegendPaddingTopBottom.png)
+![DevExtreme Legend Top-Bottom Padding](/Content/images/doc/19_1/ChartJS/LegendPaddingTopBottom.png)
 <!--/fullDescription-->

@@ -28,7 +28,7 @@ This algorithm uses parallel lines to divide an available area into rectangles r
 
     To learn more about this algorithm, refer to the [Tree Visualization with Tree-Maps: a 2D Space-Filling Approach](http://citeseer.ist.psu.edu/viewdoc/download?doi=10.1.1.29.1549&rep=rep1&type=pdf) paper.
 
-![DevExpress DevExtreme HTML5 TreeMap Squarified SliceAndDice Strip](/Content/images/doc/18_2/ChartJS/TreeMap_layoutAlgorithms.png)
+![DevExpress DevExtreme HTML5 TreeMap Squarified SliceAndDice Strip](/Content/images/doc/19_1/ChartJS/TreeMap_layoutAlgorithms.png)
 
 If none of the predefined algorithms satisfy your needs, implement your own algorithm. For this purpose, assign a function to the **layoutAlgorithm** option. Basically, this function should calculate the coordinates of two diagonally-opposite points defining a rectangle and assign them to the needed item. To access a set of items to distribute, use the **items** field of the function's parameter. All available fields of the parameter are listed in the header of this description.
 

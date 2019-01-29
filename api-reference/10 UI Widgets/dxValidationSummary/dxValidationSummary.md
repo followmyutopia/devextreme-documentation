@@ -14,7 +14,7 @@ A widget for displaying the result of checking [validation rules](/Documentation
 <!--fullDescription-->
 This widget has a collection of items that present the validation errors that currently exist in a validation group or the ViewModel to which the widget is related.
 
-![dxValidationSummary Widget](/Content/images/doc/18_2/Common/dxValidationSummary.png)
+![dxValidationSummary Widget](/Content/images/doc/19_1/Common/dxValidationSummary.png)
 
 #include common-ref-roottopic-introduction
 

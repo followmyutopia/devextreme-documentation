@@ -1,1 +1,1 @@
-DevExtreme widgets can be used in Vue projects. Refer to the [DevExtreme Vue UI and Visualization Components on GitHub](https://github.com/DevExpress/devextreme-vue/blob/18.2/README.md) for more information.
+DevExtreme widgets can be used in Vue projects. Refer to the [DevExtreme Vue UI and Visualization Components on GitHub](https://github.com/DevExpress/devextreme-vue/blob/19.1/README.md) for more information.

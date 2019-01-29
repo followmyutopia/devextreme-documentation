@@ -27,4 +27,4 @@ DevExtreme ASP.NET MVC Controls mirror the [client-side widget options](/Documen
 
 Control methods are called using a [fluent interface](https://en.wikipedia.org/wiki/Fluent_interface). In Visual Studio, IntelliSense prompts you the available method names, their accepted values, and short descriptions.
 
-![DevExtreme ASP.NET MVC Controls - InstelliSense](/Content/images/doc/18_2/Common/MvcWrappers/fluent-interface.png)
+![DevExtreme ASP.NET MVC Controls - InstelliSense](/Content/images/doc/19_1/Common/MvcWrappers/fluent-interface.png)

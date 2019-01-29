@@ -1,6 +1,6 @@
 Select **Save CSS** from the **Export** menu to save a CSS file with the resulting theme.
 
-![DevExtreme HTML5 JavaScript Theme Builder Import Metadata](/Content/images/doc/18_2/PhoneJS/save_css_button.png)
+![DevExtreme HTML5 JavaScript Theme Builder Import Metadata](/Content/images/doc/19_1/PhoneJS/save_css_button.png)
 
 Link this theme to your project after `dx.common.css` but before the DevExtreme script:
 

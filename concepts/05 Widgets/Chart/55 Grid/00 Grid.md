@@ -1,6 +1,6 @@
 A grid is a set of mutually-crossing vertical and horizontal lines that stretch throughout the entire chart. Visually, grid lines can be considered extensions of [major ticks](/Documentation/Guide/Widgets/Chart/Axes/Axis_Ticks/). The grid improves the readability of chart data.
 
-![DevExtreme HTML5 JavaScript Charts GridLines](/Content/images/doc/18_2/ChartJS/visual_elements/grid_lines.png)
+![DevExtreme HTML5 JavaScript Charts GridLines](/Content/images/doc/19_1/ChartJS/visual_elements/grid_lines.png)
 
 Grid lines can be configured using one of the following objects.
 

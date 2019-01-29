@@ -7,7 +7,7 @@ Headers are used to annotate numeric values in the widget. There are three heade
     
 The data header appears only if there are several data fields in the pivot grid. In the image below, the data header belongs to the column area.
 
-![DevExtreme PivotGrid Headers](/Content/images/doc/18_2/DataGrid/PivotGridHeaders.png)
+![DevExtreme PivotGrid Headers](/Content/images/doc/19_1/DataGrid/PivotGridHeaders.png)
 
 Headers depend on field configuration. The values of those fields whose [area](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#area) property equals to *'row'* or *'column'* appear in the corresponding header. Fields that have the **area** property set to *'data'* slightly differ. These fields provide not their values, but [captions](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/#caption) to the data header as their values are used to calculate [summary values](/Documentation/Guide/Widgets/PivotGrid/Visual_Elements/#Summary_Values).
 

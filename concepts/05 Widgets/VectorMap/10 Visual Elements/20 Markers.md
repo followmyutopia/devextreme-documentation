@@ -2,7 +2,7 @@ A marker is a point on a map accompanied by text that helps you flag certain pla
 
 Four types of markers are available in **VectorMap**: dot, bubble, pie and image, each of which corresponds to particular representational needs. The image below demonstrates the appearance of each marker type. Note that despite the fact that this image depicts all four types of markers on one map, an actual **VectorMap** can contain markers of only one type at a time.
 
-![DevExtreme ChartJS VectorMap](/Content/images/doc/18_2/ChartJS/MapMarkerTypes.png)
+![DevExtreme ChartJS VectorMap](/Content/images/doc/19_1/ChartJS/MapMarkerTypes.png)
 
 <a href="/Demos/WidgetsGallery/Demo/Vector_Map/ImageMarkers/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Image Markers Demo</a>
 <a href="/Demos/WidgetsGallery/Demo/Vector_Map/ImageMarkers/jQuery/Light/" class="button orange small fix-width-155" style="margin-right: 20px;" target="_blank">View Bubble Markers Demo</a>

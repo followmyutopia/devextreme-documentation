@@ -1,6 +1,6 @@
 A recurring appointment is an appointment that repeats after a specified period of time. 
 
-![Scheduler Recurring Appointment](/Content/images/doc/18_2/UiWidgets/Scheduler_RecurrentAppointment.png)
+![Scheduler Recurring Appointment](/Content/images/doc/19_1/UiWidgets/Scheduler_RecurrentAppointment.png)
 
 An object defining a recurring appointment should contain the [recurrenceRule](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/#recurrenceRule) field that follows the [iCalendar RFC 2445](https://tools.ietf.org/html/rfc2445#section-4.3.10) specification.
 
@@ -76,7 +76,7 @@ If your appointments contain other data fields instead of **recurrenceRule** and
 
 In the UI, to mark an appointment as recurring, toggle the *"Repeat"* switcher on the appointment details form. Then, a set of new fields will appear. 
 
-![Scheduler Recurring Appointment Details](/Content/images/doc/18_2/UiWidgets/Scheduler_RecurrentAppointment_Details.png)
+![Scheduler Recurring Appointment Details](/Content/images/doc/19_1/UiWidgets/Scheduler_RecurrentAppointment_Details.png)
 
 These fields will be saved as the **recurrenceRule** field of an appointment object. Note that although a recurring appointment is displayed as several appointments on the timetable, only a single appointment object is saved in the data source.
 

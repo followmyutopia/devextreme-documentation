@@ -1,6 +1,6 @@
 A tooltip is a small popup rectangle that contains information about values represented by a sparkline. The tooltip appears when a user hovers the mouse pointer over a sparkline.
 
-![DevExtreme ChartJS Sparkline](/Content/images/doc/18_2/ChartJS/SparklineTooltip.png)
+![DevExtreme ChartJS Sparkline](/Content/images/doc/19_1/ChartJS/SparklineTooltip.png)
 
 Tooltips are configured using fields of the [tooltip](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/tooltip/) object. By default, they are enabled. However, if your scenario requires you to change the visibility of the tooltip, use the [enabled](/Documentation/ApiReference/Data_Visualization_Widgets/dxSparkline/Configuration/tooltip/#enabled) field of the **tooltip** object.
 

@@ -1,10 +1,10 @@
 All npm DevExtreme packages can be installed using Yarn. Run the following command to install the main DevExtreme package:
 
-    yarn add devextreme@18.2 --exact
+    yarn add devextreme@19.1 --exact
 
 The following command installs the latest pre-release package:
 
-    yarn add devextreme@18.2-unstable --exact
+    yarn add devextreme@19.1-unstable --exact
 
 Install packages for [Angular](https://github.com/DevExpress/devextreme-angular#add-to-existing-app), [Vue](https://github.com/DevExpress/devextreme-vue#install-devextreme), or [React](https://github.com/DevExpress/devextreme-react#install-devextreme) in a similar manner if required.
 

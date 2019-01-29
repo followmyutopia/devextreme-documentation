@@ -8,15 +8,15 @@ DevExtreme files are available through a Content Delivery Network (CDN). Link th
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
 
     <!-- DevExtreme themes -->
-    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_18_2/css/dx.common.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_18_2/css/dx.light.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_19_1/css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/minor_19_1/css/dx.light.css" />
 
     <!-- DevExtreme library -->
-    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.all.js"></script>
-    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.mobile.js"></script> -->
-    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.web.js"></script> -->
-    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.viz.js"></script> -->
-    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_18_2/js/dx.viz-web.js"></script> -->
+    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.all.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.mobile.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.web.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.viz.js"></script> -->
+    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/minor_19_1/js/dx.viz-web.js"></script> -->
 
 The stylesheets in the code above apply the Generic Light theme. See [Predefined Themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) for information about the other available themes.
 

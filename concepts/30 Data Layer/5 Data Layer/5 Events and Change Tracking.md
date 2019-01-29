@@ -59,7 +59,7 @@ To unsubscribe from the events that you handled using the **on()** method, use t
 
 Usually, a data-bound application contains a list view displaying list data, and an edit view used to edit a data item. Both these views access the same shared Store. After you update a Store item modified in the edit view, the Store should inform the list view that the data has been modified. For this purpose, among other events the Store supports the **modified** event, which is raised after each data modification. To automatically update the list view, you may subscribe to this event, which enables you to determine whether or not the data should be reloaded.
 
-![Store Events](/Content/images/doc/18_2/PhoneJS/scheme-change-tracking.png)
+![Store Events](/Content/images/doc/19_1/PhoneJS/scheme-change-tracking.png)
 
 The following example illustrates how to implement a ViewModel for a list view in a [DevExtreme application](/Documentation/17_2/Guide/SPA_Framework/Application_Development/). In this example, when the **modified** event is raised, the **shouldReload** flag is set to **true**, which causes the reloading of data when the list view is being shown.
 

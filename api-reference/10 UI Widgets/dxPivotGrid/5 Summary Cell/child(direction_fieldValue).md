@@ -28,7 +28,7 @@ The image below demonstrates what cell will be returned by the following code.
 
     <!--JavaScript-->var targetCell = sourceCell.child("row", 8); //August is the 8th month
 
-![](/Content/images/doc/18_2/DataGrid/PivotGrid_child.png)
+![](/Content/images/doc/19_1/DataGrid/PivotGrid_child.png)
 
 This method is opposite to the [parent(direction)](/Documentation/ApiReference/UI_Widgets/dxPivotGrid/Summary_Cell/#parentdirection) method.
 <!--/fullDescription-->

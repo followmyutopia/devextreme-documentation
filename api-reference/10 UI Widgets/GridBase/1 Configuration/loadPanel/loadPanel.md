@@ -9,7 +9,7 @@ Configures the load panel.
 <!--fullDescription-->
 The load panel is displayed while the widget loads data. It consists of a loading indicator and text, both placed on a pane. 
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid TreeList LoadPanel](/Content/images/doc/18_2/DataGrid/visual_elements/load_panel.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid TreeList LoadPanel](/Content/images/doc/19_1/DataGrid/visual_elements/load_panel.png)
 
 Since the load panel is, in fact, the DevExtreme [LoadPanel](/Documentation/Guide/Widgets/LoadPanel/Overview/) widget, the **loadPanel** object can contain any options of this widget along with options described here.
 

@@ -1,10 +1,10 @@
 With the *line* series type, data is displayed as points joined by a line. This series type is useful when you need to visualize a trend in data over intervals.
 
-![PolarLineSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarLine.png)
+![PolarLineSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarLine.png)
 
 To understand how polar charts are built, imagine how a chart in a rectangular coordinate system is transformed by rounding its argument axis.
 
-![Transformation from Rectangular to Polar Coordinates PolarLineSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarLine_TransformationFromStandardChart.png)
+![Transformation from Rectangular to Polar Coordinates PolarLineSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarLine_TransformationFromStandardChart.png)
 
 To use the *'line'* series type, assign *'line'* to the [type](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/series/#type) property of the **series** configuration object.
 
@@ -17,23 +17,23 @@ To use the *'line'* series type, assign *'line'* to the [type](/Documentation/Ap
 
 To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic. Note that, you can use DateTime and Numeric types for points in the data source, as well as the String type. By default, the data of the DateTime and Numeric types is displayed on continuous axes, while string values are displayed on discrete axes (you can manage the axes types using their **type** option). When continuous axes are used in the widget, the line chart is displayed using a smooth curve.
 
-![Smooth PolarLineSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarLine_Smooth.png)
+![Smooth PolarLineSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarLine_Smooth.png)
 
 When either argument or value axis is discrete, the line chart joins data points by straight lines.
 
-![Discrete PolarLineSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarLine_Discrete.png)
+![Discrete PolarLineSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarLine_Discrete.png)
 
 Note that you can use a spider web for polar charts displaying discrete data. For this purpose, set the widget's [useSpiderWeb](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#useSpiderWeb) option to **true**.
 
-![SpiderWeb PolarLineSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarLine_useSpiderWeb.png)
+![SpiderWeb PolarLineSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarLine_useSpiderWeb.png)
 
 Line polar charts are appropriate for data whose values span cyclically repeating arguments. In this instance, set the [argumentAxis](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/).[period](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/argumentAxis/#period) option.
 
-![Cyclic PolarLineSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarLine_Smooth_Cyclic.png)
+![Cyclic PolarLineSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarLine_Smooth_Cyclic.png)
 
 In some scenarios, you may need to close the line chart by joining the first point and the last point. For this purpose, set the series' [closed](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Series_Types/LineSeries/#closed) option.
 
-![Closed Cyclic PolarLineSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarLine_Smooth_Cyclic_Closed.png)
+![Closed Cyclic PolarLineSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarLine_Smooth_Cyclic_Closed.png)
 
 To change the series default appearance, set the options of the **series** configuration object. For instance, you can change the following.
 

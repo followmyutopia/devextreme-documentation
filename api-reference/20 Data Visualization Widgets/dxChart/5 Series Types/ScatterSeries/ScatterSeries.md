@@ -9,7 +9,7 @@ Describes settings supported by a series of the *scatter* type.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 Charts ScatterSeriesType](/Content/images/doc/18_2/ChartJS/Scatter.png)
+![DevExtreme HTML5 Charts ScatterSeriesType](/Content/images/doc/19_1/ChartJS/Scatter.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartslineandpointseriesscatter/"

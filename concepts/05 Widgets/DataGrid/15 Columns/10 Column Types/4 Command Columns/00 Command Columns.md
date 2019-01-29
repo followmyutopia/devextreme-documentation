@@ -18,4 +18,4 @@ Contains buttons that perform custom actions. See [Create a Column with Custom B
 - **Editing column**        
 A type of buttons column. Contains editing controls. See [Customize the Editing Column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/#Customize_the_Editing_Column).
 
-![DevExtreme HTML5 JavaScript DataGrid CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/18_2/DataGrid/Command_Columns.png)
+![DevExtreme HTML5 JavaScript DataGrid CommandColumns EditingColumn AdaptiveColumn](/Content/images/doc/19_1/DataGrid/Command_Columns.png)

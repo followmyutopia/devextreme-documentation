@@ -8,8 +8,8 @@ This article describes how to create an ASP.NET Core Angular application and add
 
         "dependencies": {
             ...
-            "devextreme": "minor_18_2",
-            "devextreme-angular": "minor_18_2"
+            "devextreme": "minor_19_1",
+            "devextreme-angular": "minor_19_1"
         }
 
     Save the changes and wait until Visual Studio has downloaded the dependencies.

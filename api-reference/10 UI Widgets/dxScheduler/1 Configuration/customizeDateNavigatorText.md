@@ -8,7 +8,7 @@ Customizes the date navigator's text.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![Scheduler Date Navigator](/Content/images/doc/18_2/UiWidgets/Scheduler_Date_Navigator.png)
+![Scheduler Date Navigator](/Content/images/doc/19_1/UiWidgets/Scheduler_Date_Navigator.png)
 
 In the following code, the **customizeDateVanigatorText** function is used to show dates in the `mm/dd/yyyy` format (`mm/yyyy` for the *"month"* view):
 

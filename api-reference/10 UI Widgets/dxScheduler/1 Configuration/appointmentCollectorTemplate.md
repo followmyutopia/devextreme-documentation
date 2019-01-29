@@ -8,8 +8,8 @@ Specifies an appointment collector's custom template.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![Scheduler Appointment Collector](/Content/images/doc/18_2/UiWidgets/Scheduler_Appointment_Collector.png)
-![Scheduler Compact Appointment Collector](/Content/images/doc/18_2/UiWidgets/Scheduler_Appointment_Collector_Compact.png)
+![Scheduler Appointment Collector](/Content/images/doc/19_1/UiWidgets/Scheduler_Appointment_Collector.png)
+![Scheduler Compact Appointment Collector](/Content/images/doc/19_1/UiWidgets/Scheduler_Appointment_Collector_Compact.png)
 
 You can also set a [similar option](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/views/#appointmentCollectorTemplate) for an individual view.
 

@@ -19,7 +19,7 @@ The selected rows' keys.
 <!--fullDescription-->
 Below is an example of a **TreeList** with several selected rows:
 
-![Selection in the DevExtreme TreeList widget](/Content/images/doc/18_2/treelist/getselectedrowkeys.png)
+![Selection in the DevExtreme TreeList widget](/Content/images/doc/19_1/treelist/getselectedrowkeys.png)
 
 The **getSelectedRowKeys(mode)** method called for this **TreeList** returns different results depending on the **mode** argument:
 

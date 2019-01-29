@@ -7,5 +7,5 @@ Configures the box that appears when users zoom the chart by selecting an area w
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme Chart - Drag Box](/Content/images/doc/18_2/ChartJS/visual_elements/drag_box.png)
+![DevExtreme Chart - Drag Box](/Content/images/doc/19_1/ChartJS/visual_elements/drag_box.png)
 <!--/fullDescription-->

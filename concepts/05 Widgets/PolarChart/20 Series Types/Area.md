@@ -1,10 +1,10 @@
 The *area* series type is useful when you need to emphasize a change in values. With this series type, data is displayed by a line that joins points, and the shaded area between this line and the zero value. This line is a border and is invisible by default.
 
-![AreaPolarSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarArea.png)
+![AreaPolarSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarArea.png)
 
 To understand how polar charts are built, imagine how a chart in a rectangular coordinate system is transformed by rounding its argument axis.
 
-![Transformation from Rectangular to Polar Coordinates PolarAreaSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarArea_TransformationFromStandardChart.png)
+![Transformation from Rectangular to Polar Coordinates PolarAreaSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarArea_TransformationFromStandardChart.png)
 
 To use the *area* series type, assign *'area'* to the **type** property of the **series** configuration object.
 
@@ -17,15 +17,15 @@ To use the *area* series type, assign *'area'* to the **type** property of the *
 
 To learn how to specify data for a series, refer to the [Data Binding](/Documentation/Guide/Widgets/Common/Data_Visualization_Widgets/Charts_-_Data_Binding/Provide_Data/) topic. Note that you can use DateTime and Numeric types for points in the data source, as well as the String type. By default, the data of the DateTime and Numeric types is displayed on continuous axes, while string values are displayed on discrete axes (you can manage the axes types using their **type** option). When continuous axes are used in the widget, the area chart is displayed using a smooth border line.
 
-![Smooth PolarAreaSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarArea_Smooth.png)
+![Smooth PolarAreaSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarArea_Smooth.png)
 
 When either the argument or value axis is discrete, the area chart joins data points by straight lines.
 
-![Discrete PolarAreaSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarArea_Discrete.png)
+![Discrete PolarAreaSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarArea_Discrete.png)
 
 Note that you can use a spider web for polar charts displaying discrete data. For this purpose, set the widget's [useSpiderWeb](/Documentation/ApiReference/Data_Visualization_Widgets/dxPolarChart/Configuration/#useSpiderWeb) option to **true**.
 
-![SpiderWeb PolarAreaSeriesType ChartJS](/Content/images/doc/18_2/ChartJS/PolarArea_useSpiderWeb.png)
+![SpiderWeb PolarAreaSeriesType ChartJS](/Content/images/doc/19_1/ChartJS/PolarArea_useSpiderWeb.png)
 
 To change the series default appearance, set the options of the **series** configuration object. For instance, you can change the following.
 

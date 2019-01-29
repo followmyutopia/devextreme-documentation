@@ -1,6 +1,6 @@
 Titles and subtitles are textual elements that provide an overview of what the **Funnel** visualizes.
 
-![Funnel Title and Subtitle](/Content/images/doc/18_2/funnel/visual_elements/funnel-title.png)
+![Funnel Title and Subtitle](/Content/images/doc/19_1/funnel/visual_elements/funnel-title.png)
 
 The [title](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/title/) object configures the title; the **title**.[subtitle](/Documentation/ApiReference/Data_Visualization_Widgets/dxFunnel/Configuration/title/subtitle/) object configures the subtitle.
 

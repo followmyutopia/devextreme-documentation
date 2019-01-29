@@ -8,7 +8,7 @@ Specifies the drawer's content.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-![DevExtreme HTML5 JavaScript Drawer](/Content/images/doc/18_2/UIWidgets/drawer.png)
+![DevExtreme HTML5 JavaScript Drawer](/Content/images/doc/19_1/UIWidgets/drawer.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Drawer/LeftOrRightPosition/React/Light/"

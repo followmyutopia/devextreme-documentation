@@ -1,6 +1,6 @@
 In addition to the major grid built on major ticks, the **Chart** provides a minor grid built on [minor ticks](/Documentation/Guide/Widgets/Chart/Axes/Axis_Ticks/).
 
-![DevExtreme HTML5 JavaScript Charts MinorGridLines](/Content/images/doc/18_2/ChartJS/visual_elements/minor_grid_lines.png)
+![DevExtreme HTML5 JavaScript Charts MinorGridLines](/Content/images/doc/19_1/ChartJS/visual_elements/minor_grid_lines.png)
 
 The minor grid is the exact copy of the major grid. Therefore, all settings applicable to the major grid are applicable to the minor grid as well. You can configure the minor grid using one of the following objects.
 

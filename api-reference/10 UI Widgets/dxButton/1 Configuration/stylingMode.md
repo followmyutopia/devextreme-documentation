@@ -11,7 +11,7 @@ Specifies how the button is styled.
 <!--fullDescription-->
 The following styles are available: 
 
-![Button Styling Modes](Content/images/doc/18_2/UiWidgets/button_stylingMode.png)
+![Button Styling Modes](Content/images/doc/19_1/UiWidgets/button_stylingMode.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/jQuery/Light/"

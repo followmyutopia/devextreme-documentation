@@ -1,6 +1,6 @@
 The **Scheduler** displays a specific indicator that highlights the current time on a view by default. The indicator is available only on views containing the time scale.
 
-![Current Time Indicator](/Content/images/doc/18_2/UiWidgets/Scheduler_Current_Time_Indicator.png)
+![Current Time Indicator](/Content/images/doc/19_1/UiWidgets/Scheduler_Current_Time_Indicator.png)
 
 Use the [showCurrentTimeIndicator](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#showCurrentTimeIndicator) option to control the indicator's visibility.
 

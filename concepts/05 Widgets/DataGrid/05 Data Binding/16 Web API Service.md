@@ -64,5 +64,5 @@ You should configure [remoteOperations](/Documentation/ApiReference/UI_Widgets/d
 }
 
 #####See Also#####
-- [DataGrid and Web API Example](https://github.com/DevExpress/devextreme-examples/tree/18_1/datagrid-webapi)
+- [DataGrid and Web API Example](https://github.com/DevExpress/devextreme-examples/tree/19_1/datagrid-webapi)
 - [DataGrid and ASP.NET Core MVC Example](https://github.com/DevExpress/DevExtreme.AspNet.Data/tree/master/net)

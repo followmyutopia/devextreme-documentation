@@ -1,6 +1,6 @@
 The **DataGrid** generates column headers based on the names of [data fields](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataField) by default. For example, if a data field is *"fullName"*, the column header text is "Full Name". 
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnHeaders](/Content/images/doc/18_2/DataGrid/ColumnHeaders.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid ColumnHeaders](/Content/images/doc/19_1/DataGrid/ColumnHeaders.png)
 
 Specify the **columns**.[caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption) option to change the column header text.
 

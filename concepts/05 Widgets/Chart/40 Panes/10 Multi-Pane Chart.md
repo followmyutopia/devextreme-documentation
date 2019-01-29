@@ -1,6 +1,6 @@
 A multi-pane chart distributes a collection of series between several panes, thus presenting data in a clear and uncluttered way.
 
-![DevExtreme HTML5 JavaScript Charts Panes](/Content/images/doc/18_2/ChartJS/visual_elements/panes.png)
+![DevExtreme HTML5 JavaScript Charts Panes](/Content/images/doc/19_1/ChartJS/visual_elements/panes.png)
 
 To configure a multi-pane chart, follow the steps below.
 

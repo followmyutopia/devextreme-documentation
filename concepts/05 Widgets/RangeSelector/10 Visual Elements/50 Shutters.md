@@ -1,6 +1,6 @@
 Shutters cover unselected ranges on a range selector. 
 
-![ChartJS RangeSelector](/Content/images/doc/18_2/ChartJS/RangeSelectorShutters.png)
+![ChartJS RangeSelector](/Content/images/doc/19_1/ChartJS/RangeSelectorShutters.png)
 
 The appearance of shutters is being specified using the [shutter](/Documentation/ApiReference/Data_Visualization_Widgets/dxRangeSelector/Configuration/shutter/) configuration object. Within this object you can set a color and opacity for shutters.
 

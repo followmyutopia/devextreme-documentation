@@ -9,7 +9,7 @@ Specifies whether to group appointments by date first. Applies only if [groupOri
 
 <!--fullDescription-->
 
-![DevExtreme Scheduler Group By Date](/Content/images/doc/18_2/UiWidgets/Scheduler_groupByDate.png)
+![DevExtreme Scheduler Group By Date](/Content/images/doc/19_1/UiWidgets/Scheduler_groupByDate.png)
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/GroupByDate/jQuery/Light/"

@@ -22,7 +22,7 @@ You can perform the following tasks after getting a format, module, or Parchment
 - **Modify the format**      
 You can change the markup tag associated with the format and allowed format values, as shown in the code example after this list.
 - **[Extend](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends) the format or module**     
-You can extend **HtmlEditor**'s [formats](https://github.com/DevExpress/DevExtreme/tree/18_2/js/ui/html_editor/formats) and [modules](https://github.com/DevExpress/DevExtreme/tree/18_2/js/ui/html_editor/modules) and also Quill's [formats](https://github.com/quilljs/quill/tree/1.3.6/formats) and [modules](https://github.com/quilljs/quill/tree/1.3.6/modules). See the [Extend Built-In Formats and Modules](/Documentation/Guide/Widgets/HtmlEditor/Customize_Built-In_Formats_and_Modules/#Extend) topic for the code example.
+You can extend **HtmlEditor**'s [formats](https://github.com/DevExpress/DevExtreme/tree/19_1/js/ui/html_editor/formats) and [modules](https://github.com/DevExpress/DevExtreme/tree/19_1/js/ui/html_editor/modules) and also Quill's [formats](https://github.com/quilljs/quill/tree/1.3.6/formats) and [modules](https://github.com/quilljs/quill/tree/1.3.6/modules). See the [Extend Built-In Formats and Modules](/Documentation/Guide/Widgets/HtmlEditor/Customize_Built-In_Formats_and_Modules/#Extend) topic for the code example.
 - **Create a custom format based on the Parchment**     
 Refer to the [Parchment documentation](https://github.com/quilljs/parchment/blob/master/README.md) for more information.
 

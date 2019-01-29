@@ -1,15 +1,15 @@
 The **week** and **workWeek** views display appointments for a week. The **workWeek** view does not include weekends. The **Scheduler** widget arranges appointments from top to bottom. If their time intervals overlap, their width is decreased and they are placed next to each other.
 
-![Week View](/Content/images/doc/18_2/UiWidgets/Scheduler_Week_View.png)
+![Week View](/Content/images/doc/19_1/UiWidgets/Scheduler_Week_View.png)
 
 All-day appointments are displayed on the all-day panel. You can set an appointment limit on this panel using the [maxApointmentsPerCell](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#maxAppointmentsPerCell) option. Appointments are sent to an appointment collector when this limit is exceeded. If appointments in the collector are associated with the same resource, the collector is colored like this resource. Otherwise, the collector has a default color.
 
-![Appointment Collector](/Content/images/doc/18_2/UiWidgets/Scheduler_Week_Appointment_Collector.png)
+![Appointment Collector](/Content/images/doc/19_1/UiWidgets/Scheduler_Week_Appointment_Collector.png)
 
 A user can click the appointment collector to view the removed appointments.
 
-![Drop-down List of Appointments](/Content/images/doc/18_2/UiWidgets/Scheduler_Week_DropDown_List.png)
+![Drop-down List of Appointments](/Content/images/doc/19_1/UiWidgets/Scheduler_Week_DropDown_List.png)
 
 Resource headers are above the day scale when you [group appointments by resources](/Documentation/Guide/Widgets/Scheduler/Resources/Group_Appointments_by_Resources/).
 
-![Resource Headers](/Content/images/doc/18_2/UiWidgets/Scheduler_Week_Resource_Headers.png)
+![Resource Headers](/Content/images/doc/19_1/UiWidgets/Scheduler_Week_Resource_Headers.png)

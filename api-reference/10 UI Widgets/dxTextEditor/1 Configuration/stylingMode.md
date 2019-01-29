@@ -11,7 +11,7 @@ Specifies how the widget's text field is styled.
 <!--fullDescription-->
 The following styles are available: 
 
-![Text Editor Styling Modes](Content/images/doc/18_2/UiWidgets/textEditors_stylingMode.png)
+![Text Editor Styling Modes](Content/images/doc/19_1/UiWidgets/textEditors_stylingMode.png)
 
 #include common-ref-enum with {
     enum: "`EditorStylingMode`",

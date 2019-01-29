@@ -127,7 +127,7 @@ Regardless of the legend orientation, you can adjust the empty space between col
 
 Below, you can try out all the mentioned options in action.
 
-<div class="simulator-desktop-container" data-view="/Content/Applications/18_2/DataVisualization/Guides/FunnelLegend/rearrangeLegendItems.html, /Content/Applications/18_2/DataVisualization/Guides/FunnelLegend/rearrangeLegendItems.js, /Content/Applications/18_2/DataVisualization/Guides/FunnelLegend/rearrangeLegendItems.css"></div>
+<div class="simulator-desktop-container" data-view="/Content/Applications/19_1/DataVisualization/Guides/FunnelLegend/rearrangeLegendItems.html, /Content/Applications/19_1/DataVisualization/Guides/FunnelLegend/rearrangeLegendItems.js, /Content/Applications/19_1/DataVisualization/Guides/FunnelLegend/rearrangeLegendItems.css"></div>
 
 #####See Also#####
 - [Relocate the Legend](/Documentation/Guide/Widgets/Funnel/Legend/Relocate_the_Legend/)

@@ -9,7 +9,7 @@ Configures the search panel.
 <!--fullDescription-->
 The search panel allows searching for values in several columns at once. The widget searches against only those columns whose [allowSearch]({basewidgetpath}/Configuration/columns/#allowSearch) option is set to **true**.
 
-![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid SearchPanel](/Content/images/doc/18_2/DataGrid/visual_elements/search_panel.png)
+![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid SearchPanel](/Content/images/doc/19_1/DataGrid/visual_elements/search_panel.png)
 
 To make the search panel visible, set the **searchPanel**.[visible]({basewidgetpath}/Configuration/searchPanel/#visible) option to **true**.
 
