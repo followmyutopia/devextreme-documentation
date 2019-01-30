@@ -3,9 +3,110 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the options of the control bar.
+Configures the control bar.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-The control bar is a panel on a map that helps you navigate this map. This panel contains the pan control and the zoom bar for panning and zooming the map correspondingly. You can change the visibility of the control bar and adjust its colors using the options of the **controlBar** configuration object.
+Users can use the pan control and zoom bar in the control bar panel to navigate the map.
+
+![DevExtreme Vector Map - Control Bar](/Content/images/doc/19_1/ChartJS/ControlBar.png)
+
+The following code shows how to use the **controlBar** object to move the control bar to the right side of the map:
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        $("#vectorMapContainer").dxVectorMap({
+            // ...
+            controlBar: {
+                horizontalAlignment: "right"
+            }
+        });
+    });
+
+##### Angular
+
+    <!-- tab: app.component.html -->
+    <dx-vector-map ... >
+        <dxo-control-bar
+            horizontalAlignment="right">
+        </dxo-control-bar>
+    </dx-vector-map>
+
+    <!-- tab: app.module.ts -->
+    // ...
+    import { DxVectorMapModule } from 'devextreme-angular';
+
+    @NgModule({
+        imports: [
+            // ...
+            DxVectorMapModule
+        ],
+        // ...
+    })
+    export class AppModule { }
+
+##### Vue
+
+    <!-- tab: DxComponent.vue -->
+    <template> 
+        <dx-vector-map ... >
+            <dx-control-bar
+                horizontal-alignment="right"
+            />
+        </dx-vector-map>
+    </template>
+
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import { DxVectorMap, DxControlBar } from 'devextreme-vue/vector-map';
+
+    export default {
+        components: {
+            DxVectorMap,
+            DxControlBar
+        },
+        // ...
+    }
+    </script>
+
+##### React
+
+    <!-- tab: DxComponent.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import { VectorMap, ControlBar } from 'devextreme-react/vector-map';
+
+    class DxComponent extends React.Component {
+        render() {
+            return (
+                <VectorMap>
+                    // ...
+                    <ControlBar
+                        horizontalAlignment="right"
+                    />
+                </VectorMap>
+            );
+        }
+    }
+
+    export default DxComponent;
+
+##### ASP.NET MVC Controls
+
+    <!--Razor C#-->
+    @(Html.DevExtreme().VectorMap()
+        @* ... *@
+        .ControlBar(cb => cb
+            .HorizontalAlignment(HorizontalAlignment.Right)
+        )    
+    )
+
+---
 <!--/fullDescription-->
