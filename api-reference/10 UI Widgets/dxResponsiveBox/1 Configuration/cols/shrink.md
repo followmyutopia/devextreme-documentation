@@ -8,5 +8,6 @@ A factor that defines how much a column width shrinks relative to the rest of th
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
 <!--/fullDescription-->

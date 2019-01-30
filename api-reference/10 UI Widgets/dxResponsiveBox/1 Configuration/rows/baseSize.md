@@ -13,4 +13,7 @@ The row's base height. Calculated automatically when the [singleColumnScreen](/D
     enum: "`Mode`",
     values: "`Auto`"
 }
+
+#####See Also#####
+- [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
 <!--/fullDescription-->

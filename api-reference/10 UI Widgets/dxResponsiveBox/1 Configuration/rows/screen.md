@@ -42,5 +42,6 @@ Before rendering the row, the widget considers the screen's width. If the width 
 [note] When this option is undefined, the row is rendered on all screens.
 
 #####See Also#####
+- [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
 - [screenByWidth](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#screenByWidth)
 <!--/fullDescription-->

@@ -15,4 +15,11 @@ If you need to specify different locations for [different screens](/Documentatio
             { row: 0, col: 0, colspan: 2, screen: "xs sm md"}
         ]
     }"> <p>Header</p> </div>
+
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/jQuery/Light/"
+}
+
+#####See Also#####
+- [Arrange Layout Elements](/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/)
 <!--/fullDescription-->

@@ -50,6 +50,11 @@ The **screen** option accepts one or several size qualifiers separated by a spac
         }"></div>
     </div>
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/jQuery/Light/"
+}
+
 #####See Also#####
+- [Arrange Layout Elements](/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/)
 - [screenByWidth](/Documentation/ApiReference/UI_Widgets/dxResponsiveBox/Configuration/#screenByWidth)
 <!--/fullDescription-->

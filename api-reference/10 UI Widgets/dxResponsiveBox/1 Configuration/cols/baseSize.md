@@ -13,4 +13,7 @@ The column's base width. Calculated automatically when the [singleColumnScreen](
     enum: "`Mode`",
     values: "`Auto`"
 }
+
+#####See Also#####
+- [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
 <!--/fullDescription-->

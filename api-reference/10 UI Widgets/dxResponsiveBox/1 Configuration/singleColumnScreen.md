@@ -8,5 +8,6 @@ Specifies on which screens all layout elements should be arranged in a single co
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [Arrange Layout Elements](/Documentation/Guide/Widgets/ResponsiveBox/Arrange_Layout_Elements/)
 <!--/fullDescription-->

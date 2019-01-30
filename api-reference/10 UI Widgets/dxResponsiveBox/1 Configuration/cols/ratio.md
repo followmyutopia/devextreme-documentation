@@ -8,5 +8,6 @@ The column width ratio.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [ResponsiveBox - Create the Layout Grid](/Documentation/Guide/Widgets/ResponsiveBox/Create_the_Layout_Grid/)
 <!--/fullDescription-->

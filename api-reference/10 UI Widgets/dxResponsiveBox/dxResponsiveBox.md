@@ -269,7 +269,7 @@ The **ResponsiveBox** widget allows you to create an application or a website wi
  
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposeresponsiveboxresponsiveboxresponsivebox/"
+    url: "/Demos/WidgetsGallery/Demo/ResponsiveBox/Overview/jQuery/Light/"
 }
 <a href="http://www.youtube.com/watch?v=xwBTIrX6aHk&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z&index=47" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 
