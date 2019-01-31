@@ -24,7 +24,9 @@ A date component.
 <!--/paramDescription3-->
 
 <!--fullDescription-->
-If the specified date is not included in the current date range, the method scrolls the scheduler work space to the specified time.
+If the specified date is outside the current date range, the method scrolls the view to the specified time.
+
+[note] This method requires the markup to be already rendered. If you want to scroll the **Scheduler** at launch, call this method in the [onContentReady](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onContentReady) function.
 
 #####See Also#####
 #include common-link-callmethods
