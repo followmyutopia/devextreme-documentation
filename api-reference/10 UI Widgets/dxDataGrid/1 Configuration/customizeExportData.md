@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Customizes data before export. You can use the **exporting**.[customizeExcelCell](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#customizeExcelCell) function instead.
+Customizes data before export. You can use the **export**.[customizeExcelCell](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#customizeExcelCell) function instead.
 <!--/shortDescription-->
 
 <!--fullDescription-->
