@@ -8,8 +8,8 @@ You can find all the required files in the [DevExtreme zip archive](/Download/#A
     <script type="text/javascript" src="js/angular.min.js"></script>
 
     <!-- DevExtreme themes -->
-    <link rel="stylesheet" type="text/css" href="/css/dx.common.css" />
-    <link rel="stylesheet" type="text/css" href="/css/dx.light.css" />
+    <link rel="stylesheet" type="text/css" href="css/dx.common.css" />
+    <link rel="stylesheet" type="text/css" href="css/dx.light.css" />
 
     <!-- DevExtreme library -->
     <script type="text/javascript" src="js/dx.all.js"></script>

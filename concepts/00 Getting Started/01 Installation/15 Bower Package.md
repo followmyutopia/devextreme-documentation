@@ -15,7 +15,7 @@ Optionally, you can install the Knockout or AngularJS package:
 After the installation is completed, you can find all the libraries in the bower_components folder. Link them within the `<head>` tag on your index page:
 
     <!--HTML-->
-    <script type="text/javascript" src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Reference either Knockout or AngularJS, if you do -->
     <script type="text/javascript" src="bower_components/knockout/dist/knockout.js"></script>
