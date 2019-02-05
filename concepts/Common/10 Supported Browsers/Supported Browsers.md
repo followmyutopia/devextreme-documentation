@@ -14,3 +14,8 @@ DevExtreme supports the following browsers.
 - ![Android](/Content/images/doc/19_1/PhoneJS/android.png) Android 4.4+
 - ![iOS Safari](/Content/images/doc/19_1/PhoneJS/safari-ios.png) iOS 9+
 - ![IE Windows Phone](/Content/images/doc/19_1/PhoneJS/ie-windows-phone.png) Windows Phone 10
+
+**Browsers integrated in the following frameworks**
+
+- ![Electron](/Content/images/doc/19_1/PhoneJS/electron.png) Electron - the latest version
+
