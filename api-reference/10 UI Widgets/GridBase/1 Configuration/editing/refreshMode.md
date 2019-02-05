@@ -46,9 +46,12 @@ The following table shows the operations that are performed after saving changes
     <sup>***</sup> - Set <a href="{basewidgetpath}/Configuration/remoteOperations/">remoteOperations</a> to <b>false</b> and <a href="{basewidgetpath}/Configuration/#cacheEnabled">cacheEnabled</a> to <b>true</b> to avoid data reloading.
 </div>
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/DataGrid/CRUDOperations/jQuery/Light/"
-}
+
+[note]
+
+When the **refreshMode** is *"reshape"* or *"repaint"*, the server should respond to the insert or update request by sending back the data item saved in the database. See the `DataGridWebApiController` tab in the [CRUD Operations demo](/Demos/WidgetsGallery/Demo/DataGrid/CRUDOperations/Mvc/Light/) for an example of the server-side implementation. The `InsertOrder` and `UpdateOrder` actions illustrate this case.
+
+[/note]
 
 #include common-ref-enum with {
     enum: "`GridEditRefreshMode`",
