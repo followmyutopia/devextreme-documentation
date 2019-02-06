@@ -1235,6 +1235,22 @@
 
       "ExcelDataGridCell": {
         "$Widget": "ExcelDataGridCell"
+      },
+
+      "BaseChartLegendItem": {
+        "$Widget": "BaseChartLegendItem"
+      },
+
+      "FunnelLegendItem": {
+        "$Widget": "FunnelLegendItem"
+      },
+
+      "PieChartLegendItem": {
+        "$Widget": "PieChartLegendItem"
+      },
+
+      "VectorMapLegendItem": {
+        "$Widget": "VectorMapLegendItem"
       }
     },
 
