@@ -10,50 +10,100 @@ Specifies markup for a widget item.
 The **dxItem** component defines custom markup for items in layout and collection widgets. **dxItem** has different options depending on the widget where it is used. See the **Default Item Template** section in a specific widget's API Reference for a full list of them.
 
 ---
-#####[**jQuery**](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Create_and_Configure_a_Widget/)  
+#####jQuery  
 
-        <!--HTML-->
-        <div id="navBarContainer">
-            <div data-options="dxItem: { disabled: true }"> 
-                <!-- custom markup -->
-            </div>
-            <div data-options="dxItem: { badge: 'New'}"> 
-                <!-- custom markup -->
-            </div>
-            <div data-options="dxItem: { }"> 
-                <!-- custom markup -->
-            </div>
+    <!--HTML-->
+    <div id="list">
+        <div data-options="dxItem: { text: 'Apples', disabled: true }"></div>
+        <div data-options="dxItem: { text: 'Lemons', visible: false }"></div>
+        <div data-options="dxItem: { }">
+            <!-- custom markup -->
         </div>
+    </div>
 
-#####[**AngularJS**](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/Create_and_Configure_a_Widget/)  
+    <!--JavaScript-->
+    $(function() {
+        $("#list").dxList({/* ... */});
+    });
 
-        <!--HTML-->
-        <div dx-nav-bar="{ }">
-            <div data-options="dxItem: { disabled: true }"> 
-                <!-- custom markup -->
-            </div>
-            <div data-options="dxItem: { badge: 'New'}"> 
-                <!-- custom markup -->
-            </div>
-            <div data-options="dxItem: { }"> 
-                <!-- custom markup -->
-            </div>
+#####Angular
+
+    <!-- tab: app.component.html -->
+    <dx-list>
+        <dxi-item text="Apples" [disabled]="true"></dxi-item>
+        <dxi-item text="Lemons" [visible]="false"></dxi-item>
+        <dxi-item>
+            <!-- custom markup -->
+        </dxi-item>
+    </dx-list>
+
+    <!-- tab: app.module.ts -->
+    import { DxListModule } from "devextreme-angular";
+    // ...
+    @NgModule({
+        imports: [
+            // ...
+            DxListModule
+        ],
+        // ...
+    })
+    export class AppModule { }
+
+#####AngularJS
+
+    <!--HTML-->
+    <div dx-list="{ }">
+        <div data-options="dxItem: { text: 'Apples', disabled: true }"></div>
+        <div data-options="dxItem: { text: 'Lemons', visible: false }"></div>
+        <div data-options="dxItem: { }">
+            <!-- custom markup -->
         </div>
+    </div>
 
-#####[**Knockout**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/Create_and_Configure_a_Widget/)  
+    <!--JavaScript-->
+    angular.module('DemoApp', ['dx'])
+        .controller('DemoController', function ($scope) {
+            // ...
+        });
 
-        <!--HTML-->
-        <div data-bind="dxNavBar: { }">
-            <div data-options="dxItem: { disabled: true }"> 
-                <!-- custom markup -->
-            </div>
-            <div data-options="dxItem: { badge: 'New'}"> 
-                <!-- custom markup -->
-            </div>
-            <div data-options="dxItem: { }"> 
-                <!-- custom markup -->
-            </div>
+#####Knockout
+
+    <!--HTML-->
+    <div data-bind="dxList: { ... }">
+        <div data-options="dxItem: { text: 'Apples', disabled: true }"></div>
+        <div data-options="dxItem: { text: 'Lemons', visible: false }"></div>
+        <div data-options="dxItem: { }">
+            <!-- custom markup -->
         </div>
+    </div>
+
+    <!--JavaScript-->
+    var viewModel = {
+        // ...
+    };
+
+    ko.applyBindings(viewModel);
+
+#####React
+
+    <!-- tab: DxComponent.js -->
+    import React from 'react';
+    import List, { Item } from 'devextreme-react/list';
+
+    class DxComponent extends React.Component {
+        render() {
+            return (
+                <List>
+                    <Item text="Apples" disabled={true} />
+                    <Item text="Oranges" visible={false} />
+                    <Item>
+                        <!-- custom markup -->
+                    </Item>
+                </List>
+            );
+        }
+    }
+    export default DxComponent;
 
 ---
 
