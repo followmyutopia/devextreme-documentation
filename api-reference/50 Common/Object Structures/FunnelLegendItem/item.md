@@ -1,11 +1,9 @@
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<GridBaseColumn, String><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--type-->dxFunnelItem<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Overridden.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

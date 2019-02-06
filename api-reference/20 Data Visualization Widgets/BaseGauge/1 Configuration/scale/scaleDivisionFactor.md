@@ -1,11 +1,10 @@
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<GridBaseColumn, String><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--default-->17<!--/default-->
+<!--type-->Number<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Overridden.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

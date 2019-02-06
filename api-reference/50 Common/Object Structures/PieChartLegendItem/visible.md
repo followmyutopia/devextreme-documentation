@@ -1,11 +1,9 @@
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--type-->Array<GridBaseColumn, String><!--/type-->
-<!--firedEvents-->optionChanged<!--/firedEvents-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Overridden.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
