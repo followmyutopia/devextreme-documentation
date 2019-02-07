@@ -40,7 +40,7 @@ The following code shows how to use the **onAppointmentFormOpening** function to
                 });
                 form.itemOption("startDateTimeZone", { visible: true });
                 form.itemOption("endDateTimeZone", { visible: true });
-                if (!formItems.find(i => i.dataField === "location")) {
+                if (!formItems.find(function(i) { return i.dataField === "location" })) {
                     formItems.push({
                         label: { text: "Location" },
                         editorType: "dxTextBox",

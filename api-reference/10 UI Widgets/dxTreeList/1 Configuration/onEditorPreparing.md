@@ -24,7 +24,7 @@ In the following code, a default editor is replaced with the DevExtreme [TextAre
                 if (e.dataField == "description") {
                     e.editorName = "dxTextArea"; 
                     e.editorOptions.showClearButton = true;
-                    e.editorOptions.onValueChanged = (event) => {
+                    e.editorOptions.onValueChanged = function(event) {
                         var value = event.value;
                         e.setValue(value.toLowerCase()); 
                     }
@@ -79,7 +79,7 @@ The following code shows how to replace a default editor with a non-DevExtreme e
                     e.cancel = true; // Cancels creating the default editor
                     $('<input type="checkbox">')
                         .prop("checked", e.value)
-                        .on("change", (event) => {
+                        .on("change", function(event) {
                             e.setValue(event.target.checked); 
                         })
                         .appendTo(e.editorElement);

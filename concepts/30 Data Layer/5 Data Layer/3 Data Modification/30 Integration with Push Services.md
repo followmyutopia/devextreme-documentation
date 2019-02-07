@@ -24,13 +24,13 @@ Call this method in the event handlers for client functions that can be invoked 
             // CustomStore is configured here
         });
 
-        hubProxy.on("insertData", data => {
+        hubProxy.on("insertData", function(data) {
             store.push([{ type: "insert", data: data }]);
         });
-        hubProxy.on("updateData", (key, data) => {
+        hubProxy.on("updateData", function(key, data) {
             store.push([{ type: "update", key: key, data: data }]);
         });
-        hubProxy.on("removeData", key => {
+        hubProxy.on("removeData", function(key) {
             store.push([{ type: "remove", key: key }]);
         });
 

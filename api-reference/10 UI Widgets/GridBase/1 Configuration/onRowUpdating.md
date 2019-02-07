@@ -23,8 +23,12 @@ The following code shows how to use the function parameter's **cancel** field to
             onRowUpdating: function(e) {
                 var d = $.Deferred();
                 $.getJSON("https://url/to/your/validation/service", JSON.stringify(e.data))
-                    .then((result) => !result.errorText ? d.resolve() : d.reject(result.errorText))
-                    .fail(() => d.reject())
+                    .then(function(result) {
+                        return !result.errorText ? d.resolve() : d.reject(result.errorText); 
+                    })
+                    .fail(function() { 
+                        return d.reject(); 
+                    })
                 e.cancel = d.promise();
             }
         })
