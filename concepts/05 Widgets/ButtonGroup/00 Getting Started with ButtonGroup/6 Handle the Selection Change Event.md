@@ -7,7 +7,7 @@ Assign a function to the [onSelectionChanged](/Documentation/ApiReference/UI_Wid
     $(function() {
         $("#myButtonGroup").dxButtonGroup({
             // ...
-            onSelectionChanged: (e) => {
+            onSelectionChanged: function (e) {
                 if(e.addedItems[0]) {
                     console.log("The following style is added: " + e.addedItems[0].style);
                 }

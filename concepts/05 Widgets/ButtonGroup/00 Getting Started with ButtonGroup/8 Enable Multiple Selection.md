@@ -8,7 +8,7 @@ Set the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Con
         $("#myButtonGroup").dxButtonGroup({
            // ...
            selectionMode: "multiple",
-           onSelectionChanged: (e) => {
+           onSelectionChanged: function (e) {
                 const selectedItemKeys = e.component.option("selectedItemKeys");
                 let message;
                 if(selectedItemKeys.length > 0) {

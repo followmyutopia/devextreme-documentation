@@ -32,7 +32,7 @@ Refer to the subtopics for details on every configuration step. You can also see
             keyExpr: "style",
             selectionMode: "multiple",
             selectedItemKeys: [ "italic" ],
-            onSelectionChanged: (e) => {
+            onSelectionChanged: function (e) {
                 const selectedItemKeys = e.component.option("selectedItemKeys");
                 let message;
                 if(selectedItemKeys.length > 0) {
