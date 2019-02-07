@@ -4,11 +4,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the hint of the **Export** button when the [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option is *true*.
+The hint of the **Export** button when the [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When the [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option is *true*, a click on <img src="/Content/images/doc/19_1/DataGrid/icons/toolbar_export.png" alt="DevExtreme DataGrid HTML5 Toolbar Exporting" style="vertical-align:middle"/> opens a drop-down menu that allows a user to choose whether to export all data or selected rows only. In this case, the hint of this button is specified by the **exportTo** option.
+![DevExtreme HTML5 DataGrid Export To Text](/Content/images/doc/19_1/DataGrid/export_texts/export_to.png)
 
-When the **allowExportSelectedData** option is *false*, a click on <img src="/Content/images/doc/19_1/DataGrid/icons/toolbar_export.png" alt="DevExtreme DataGrid HTML5 Toolbar Exporting" style="vertical-align:middle"/> exports all data instantly. In this case, the hint is specified by the [exportAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/texts/#exportAll) option.
+When **allowExportSelectedData** is **false**, the [exportAll](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/texts/#exportAll) text is used as the hint.
 <!--/fullDescription-->

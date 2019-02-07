@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the text of the drop-down menu command that exports selected rows.
+The text of the command that exports selected rows. Applies when [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option is **true**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-[note]The above-mentioned command appears in the menu only if [allowExportSelectedData](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#allowExportSelectedData) option is **true**.
+![DevExtreme HTML5 DataGrid Export Selected Rows Text](/Content/images/doc/19_1/DataGrid/Export_SelectedRows.png)
 <!--/fullDescription-->

@@ -3,9 +3,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Contains options that specify texts for the export-related commands and hints.
+Configures the texts of export commands, buttons, and hints.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Use these options to provide custom texts for the export-related commands and hints or when localizing the widget.
+
 <!--/fullDescription-->
