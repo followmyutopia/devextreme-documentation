@@ -94,5 +94,10 @@ The **HtmlEditor** supports a wide range of features:
 - [Built-in formats' and modules' extension](/Documentation/Guide/Widgets/HtmlEditor/Customize_Built-In_Formats_and_Modules/)
 - [Custom formats and modules](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Methods/#getModulemodulePath)
 - [Mail-merge placeholders](/Documentation/ApiReference/UI_Widgets/dxHtmlEditor/Configuration/variables/) (for example, %username%)
-- Drag-and-drop of images
-- Copy-paste of rich content (unsupported formats are removed)
+- Drag-and-drop images
+- Copy-paste rich content (unsupported formats are removed)
+
+The **HtmlEditor** has the following limitations:
+
+- Users cannot edit the layout. The **HtmlEditor** is designed to format textual content only.
+- Users cannot save full HTML markup. The **HtmlEditor** supports only a subset (built-in or custom) of formats. Everything else is discarded.
