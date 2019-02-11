@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies which data field provides the widget's [value]({basewidgetpath}/Configuration/#value). When this option is not set, the **value** is the entire data object.
+Specifies which data field provides unique values to the widget's [value]({basewidgetpath}/Configuration/#value). When the data field is not set, the **value** is the entire data object.
 <!--/shortDescription-->
 
 <!--fullDescription-->
