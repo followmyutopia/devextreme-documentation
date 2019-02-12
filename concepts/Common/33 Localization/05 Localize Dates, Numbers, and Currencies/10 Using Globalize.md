@@ -49,9 +49,9 @@ All the components are available via CDN and npm.
 
 * **npm**       
 
-    Install the `cldr-data` and `globalize` packages:
+    Install the `devextreme-cldr-data` and `globalize` packages:
 
-        npm install --save-dev cldr-data globalize
+        npm install --save-dev devextreme-cldr-data globalize
 
     Then, include Globalize, CLDR, and language-specific CLDR data using the `import` or `require` statement&mdash;the statement depends on the syntax for working with modules. The code below shows ECMAScript 6 syntax used with a SystemJS module loader, and CommonJS syntax used with a Webpack module bundler. These examples include German and Russian dictionaries.
 
