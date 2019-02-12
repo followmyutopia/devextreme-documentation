@@ -1,8 +1,9 @@
 ===========================================================================
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Occurs if the **dataSource** option is not specified in the widget.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

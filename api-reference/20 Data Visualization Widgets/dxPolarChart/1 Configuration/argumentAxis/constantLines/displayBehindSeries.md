@@ -1,8 +1,10 @@
 ===========================================================================
+<!--default-->false<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Occurs if the **dataSource** option is not specified in the widget.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
