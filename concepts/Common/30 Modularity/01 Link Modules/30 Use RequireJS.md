@@ -2,19 +2,9 @@
 
         npm install requirejs devextreme
 
-1. Use the [RequireJS conversion tool](http://requirejs.org/docs/commonjs.html#autoconversion) to convert the DevExtreme modules from CommonJS to AMD:
+1. Use the [RequireJS conversion tool](http://requirejs.org/docs/commonjs.html#autoconversion) to convert the DevExtreme modules from CommonJS to AMD and save them in the **devextreme_amd** directory:
 
-    * Add the devextreme package to the 'node_modules/devextreme' directory
-
-            npm i devextreme
-
-    * Add global 'r_js' command
-
-            npm i r.js -g
-
-    * Convert the devextreme package and save it to the 'devextreme_amd' directory
-
-            r_js -convert node_modules/devextreme devextreme_amd
+        npx r_js -convert node_modules/devextreme devextreme_amd
 
 1. Add [DevExtreme themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/) to your application. 
 
@@ -28,7 +18,13 @@
         <!--HTML-->
         <script src="node_modules/requirejs/require.js"></script>
         <script>
-            require.config({ ... });
+            require.config({ 
+                // ... 
+                paths: {
+                    // ...
+                    "devextreme": "devextreme_amd"
+                }
+            });
         </script>
 
 See examples of using RequireJS with [jQuery](https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-jquery), [AngularJS](https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-angularjs), and [Knockout](https://github.com/DevExpress/devextreme-examples/tree/19_1/requirejs-knockout) on GitHub. The **index.html** file contains the main code. 
