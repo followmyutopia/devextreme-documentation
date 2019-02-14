@@ -17,7 +17,7 @@ The dialog's options.
 <!--paramDescription1_field1-->
 The dialog's title.
 <!--/paramDescription1_field1-->
-<!--paramName1_field2-->message<!--/paramName1_field2-->
+<!--paramName1_field2-->messageHtml<!--/paramName1_field2-->
 <!--paramType1_field2-->String<!--/paramType1_field2-->
 <!--paramDescription1_field2-->
 The dialog's message.
@@ -32,6 +32,11 @@ Options for buttons to be displayed in the dialog.
 <!--paramDescription1_field4-->
 Specifies whether to show the title.
 <!--/paramDescription1_field4-->
+<!--paramName1_field5-->message<!--/paramName1_field5-->
+<!--paramType1_field5-->String<!--/paramType1_field5-->
+<!--paramDescription1_field5-->
+
+<!--/paramDescription1_field5-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->

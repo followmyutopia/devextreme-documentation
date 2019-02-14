@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'withAncestors'<!--/default-->
-<!--acceptValues-->'withAncestors' | 'exactMatch' | 'fullBranch'<!--/acceptValues-->
+<!--acceptValues-->'exactMatch' | 'fullBranch' | 'withAncestors'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
