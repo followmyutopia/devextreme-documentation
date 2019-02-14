@@ -76,7 +76,7 @@ A user can interact with the widget using the following keys:
     <sup>2</sup> - A calendar appears in a data cell when a column contains <i>"date"</i> <a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType">type</a> data.<br />
     <sup>3</sup> - <b>selection</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#mode">mode</a> must be different from <i>"none"</i>.<br />
     <sup>4</sup> - <b>selection</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#mode">mode</a> must be <i>"multiple"</i>.<br />
-    <sup>5</sup> - If the <b>scrolling</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/scrolling/#mode">mode</a> is <i>"virtual"</i>, the rows should be in the viewport simultaneously.<br/>
+    <sup>5</sup> - If the <b>scrolling</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/scrolling/#mode">mode</a> is <i>"virtual"</i>, the rows should be visible simultaneously. If the mode is <i>"standard"</i>, the rows should be on one page.<br/>
     <sup>6</sup> - <b>selection</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/#allowSelectAll">allowSelectAll</a> must be <i>true</i>.<br />
     <sup>7</sup> - The <a href="/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel">search panel</a> must be visible.<br />
     <sup>8</sup> - <b>sorting</b>.<a href="/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/sorting/#mode">mode</a> must be <i>"multiple"</i>.
