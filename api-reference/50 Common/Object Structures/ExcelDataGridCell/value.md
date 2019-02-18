@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The cell's value.
+The cell's raw value.
 <!--/shortDescription-->
 
 <!--fullDescription-->

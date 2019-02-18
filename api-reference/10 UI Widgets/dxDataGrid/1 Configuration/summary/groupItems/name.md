@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the identifier of a summary item.
+Specifies the group summary item's identifier.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Specify this option if you need to refer to a summary item in your code afterwards, e.g., inside the [calculateCustomSummary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary) function.
+Use this name to access the summary item in callback functions like [calculateCustomSummary](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/#calculateCustomSummary) or [customizeExcelCell](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/#customizeExcelCell).
 <!--/fullDescription-->
