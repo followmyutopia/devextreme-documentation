@@ -135,7 +135,9 @@ Each lookup column has an individual [data source](/Documentation/ApiReference/U
     
 ---
 
-Each cell in the lookup column is constructed on the [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/) widget which can be customized using [editorOptions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editorOptions). See the [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors) topic for details.
+If your data source accepts **null** values, set the [allowClearing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/lookup/#allowClearing) option to **true**. In editing state, each of the lookup column's cells will have a button that nullifies the value.
+
+Each cell in the lookup column is based on the [SelectBox](/Documentation/Guide/Widgets/SelectBox/Overview/) widget. Use [editorOptions](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editorOptions) to customize it. See the [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors) topic for more details.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/DataGrid/CascadingLookups/jQuery/Light/"
