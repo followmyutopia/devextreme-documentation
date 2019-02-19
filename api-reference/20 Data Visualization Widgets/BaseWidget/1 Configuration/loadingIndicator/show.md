@@ -5,9 +5,11 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to show the loading indicator or not.
+Allows you to change the loading indicator's visibility.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [showLoadingIndicator()](/Methods/#showLoadingIndicator)
+- [hideLoadingIndicator()](/Methods/#hideLoadingIndicator)
 <!--/fullDescription-->
