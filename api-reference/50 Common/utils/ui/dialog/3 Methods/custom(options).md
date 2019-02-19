@@ -37,6 +37,7 @@ Specifies whether to show the title.
 <!--paramDescription1_field5-->
 
 <!--/paramDescription1_field5-->
+<!--paramDeprecated1_field5-->Use 'messageHtml' instead.<!--/paramDeprecated1_field5-->
 
 <!--returnType-->Object<!--/returnType-->
 <!--returnDescription-->

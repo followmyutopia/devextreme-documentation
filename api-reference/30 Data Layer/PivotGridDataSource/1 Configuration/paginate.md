@@ -1,10 +1,10 @@
 ===========================================================================
-<!--default-->'OK'<!--/default-->
-<!--type-->String<!--/type-->
+<!--default-->false<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-The text displayed on the Apply button.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
