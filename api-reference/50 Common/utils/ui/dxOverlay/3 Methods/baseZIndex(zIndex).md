@@ -18,10 +18,10 @@ The z-index of all overlay widgets located on a page is calculated based on the 
 
 The following example demonstrates how to call the method.
 
-    <!--JavaScript-->
-    $(function(){
-        DevExpress.ui.dxOverlay.baseZIndex(2000);
-    });
+    DevExpress.ui.dxOverlay.baseZIndex(2000);
+    // ===== or when using modules =====
+    import * as overlay from 'devextreme/ui/overlay';
+    overlay.baseZIndex(2000);
 
 By default, the base z-index for all overlay widgets except **Toast** is 1500.
 
