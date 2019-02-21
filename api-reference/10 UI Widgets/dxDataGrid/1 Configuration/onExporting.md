@@ -42,10 +42,10 @@ You can use this function with the [onExported](/Documentation/ApiReference/UI_W
     export class AppComponent {
         onExporting (e) {
             e.component.beginUpdate();
-            e.component.columnOption("dataField", "visible", true);
+            e.component.columnOption("ID", "visible", true);
         };
         onExported (e) {
-            e.component.columnOption("dataField", "visible", false);
+            e.component.columnOption("ID", "visible", false);
             e.component.endUpdate();
         }
     }
