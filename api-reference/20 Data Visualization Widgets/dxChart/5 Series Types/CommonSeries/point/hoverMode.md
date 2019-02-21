@@ -29,4 +29,7 @@ The point does not react to pointing to it.
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/#demo/chartschartsadvancedfeatureshovermode/"
 }
+
+#####See Also#####
+- [stickyHovering](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#stickyHovering)
 <!--/fullDescription-->
