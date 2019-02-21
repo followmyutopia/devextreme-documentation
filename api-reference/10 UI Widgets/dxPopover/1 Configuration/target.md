@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-The target element associated with a popover.
+The target element associated with the **{WidgetName}**.
 <!--/shortDescription-->
 
 <!--fullDescription-->
