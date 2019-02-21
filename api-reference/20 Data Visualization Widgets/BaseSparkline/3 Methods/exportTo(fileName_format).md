@@ -5,6 +5,6 @@
 
 <!--fullDescription-->
 #####See Also#####
-- [DevExpress.viz.exportFromMarkup(markup, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#exportFromMarkupmarkup_options) - exports the widget using its SVG markup.
-- [print()]({basewidgetpath}/Methods#print) - opens the browser's print window.
+- [DevExpress.viz.exportWidgets(widgetInstances, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#exportWidgetswidgetInstances_options)
+- [print()]({basewidgetpath}/Methods#print)
 <!--/fullDescription-->

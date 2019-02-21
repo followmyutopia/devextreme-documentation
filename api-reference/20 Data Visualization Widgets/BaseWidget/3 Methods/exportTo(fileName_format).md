@@ -26,7 +26,7 @@ PNG is used if the browser does not support exporting to the specified format.
 }
 
 #####See Also#####
-- [DevExpress.viz.exportFromMarkup(markup, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#exportFromMarkupmarkup_options)
+- [DevExpress.viz.exportWidgets(widgetInstances, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#exportWidgetswidgetInstances_options)
 - [export]({basewidgetpath}/Configuration/export)
 - [print()]({basewidgetpath}/Methods#print)
 #include common-link-callmethods
