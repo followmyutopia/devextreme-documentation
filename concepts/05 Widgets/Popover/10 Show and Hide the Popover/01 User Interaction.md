@@ -58,6 +58,10 @@ To specify when the **Popover** should be shown and hidden, set the [showEvent](
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Popover/Overview/jQuery/Light/"
+}
+
 The **Popover** can also be hidden when a user clicks outside it or presses the **Back** button on the device. To control this behavior of the **Popover**, use the [closeOnBackButton](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#closeOnBackButton) and [closeOnOutsideClick](/Documentation/ApiReference/UI_Widgets/dxPopover/Configuration/#closeOnOutsideClick) options.
 
 ---
