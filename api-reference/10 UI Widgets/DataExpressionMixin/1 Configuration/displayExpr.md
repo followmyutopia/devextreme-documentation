@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--type-->String | function()<!--/type-->
+<!--type-->String | function(item)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -12,3 +12,8 @@ If the data source item is a simple object holding a value (string, numeric, Boo
 
 
 <!--/fullDescription-->
+<!--typeFunctionParamName1-->item<!--/typeFunctionParamName1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamDescription1-->
+
+<!--/typeFunctionParamDescription1-->

@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'text'<!--/default-->
-<!--type-->String | function()<!--/type-->
+<!--type-->String | function(resource)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
@@ -12,3 +12,8 @@ To allow end users to choose a required resource for an appointment, there is a 
 
 
 <!--/fullDescription-->
+<!--typeFunctionParamName1-->resource<!--/typeFunctionParamName1-->
+<!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
+<!--typeFunctionParamDescription1-->
+
+<!--/typeFunctionParamDescription1-->
