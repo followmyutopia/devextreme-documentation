@@ -4,12 +4,13 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the data source field whose values are displayed.
+Specifies the data field whose values should be displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts a string - the name of the data field that provides displayed values, or a function that returns the displayed value, combined from values of several data fields.
+#include uiwidgets-ref-displayExpr
 
+Leave this option unspecified or set it to `this` if the data source contains primitives.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->data<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->

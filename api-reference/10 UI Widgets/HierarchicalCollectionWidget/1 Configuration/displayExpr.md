@@ -4,14 +4,14 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the name of the data source item field whose value is displayed by the widget.
+Specifies the data field whose values should be displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include uiwidgets-ref-displayExpr
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->item<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-
+The current item's data object.
 <!--/typeFunctionParamDescription1-->

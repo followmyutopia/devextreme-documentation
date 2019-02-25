@@ -4,16 +4,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the name of the data source item field whose value is displayed by the widget.
+Specifies the data field whose values should be displayed.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If the data source item is a simple object holding a value (string, numeric, Boolean, etc.), assign "this" to the **displayExpr** option. If the item is a plain object item, assign the required field name or path to the option.
+#include uiwidgets-ref-displayExpr
 
+Leave this option unspecified or set it to `this` if the data source contains primitives.
 
+#####See Also#####
+- [valueExpr]({basewidgetpath}/Configuration/#valueExpr)
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->item<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-
+The current item's data object.
 <!--/typeFunctionParamDescription1-->
