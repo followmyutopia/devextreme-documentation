@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'withAncestors'<!--/default-->
-<!--acceptValues-->'exactMatch' | 'fullBranch' | 'withAncestors'<!--/acceptValues-->
+<!--acceptValues-->'fullBranch' | 'matchOnly' | 'withAncestors'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
@@ -15,6 +15,6 @@ Specifies whether filter and search results should include only matching rows or
 
 #include common-ref-enum with {
     enum: "`TreeListFilterMode`",
-    values: "`ExactMatch`, `FullBranch`, and `WithAncestors`"
+    values: `FullBranch`, `MatchOnly`, and `WithAncestors`"
 }
 <!--/fullDescription-->
