@@ -11,7 +11,7 @@ Specifies the way an end-user applies the selected value.
 <!--fullDescription-->
 The option accepts the following values.
 
--"useButtons"  
+- "useButtons"  
  Enables an end-user to apply the selected value or cancel the selection using the Apply and Cancel buttons respectively.
 
 - "instantly"  
