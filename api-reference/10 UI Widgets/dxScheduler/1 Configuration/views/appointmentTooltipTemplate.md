@@ -21,7 +21,7 @@ Specifies a custom template for appointment tooltips.
 <!--typeFunctionParamName1-->appointmentData<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
 <!--typeFunctionParamDescription1-->
-The data of the appointment whose tooltip is rendered.
+The initial appointment's data.             
 <!--/typeFunctionParamDescription1-->
 
 <!--typeFunctionParamName2-->contentElement<!--/typeFunctionParamName2-->
@@ -33,7 +33,8 @@ The appointment's container. It is an [HTML Element](https://developer.mozilla.o
 <!--typeFunctionParamName3-->targetedAppointmentData<!--/typeFunctionParamName3-->
 <!--typeFunctionParamType3-->Object<!--/typeFunctionParamType3-->
 <!--typeFunctionParamDescription3-->
-
+The data of the appointment whose tooltip is rendered.      
+Refer to the [onAppointmentClick](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentClick) description for more information on the difference between the **appointmentData** and **targetedAppointmentData** parameters.
 <!--/typeFunctionParamDescription3-->
 
 <!--typeFunctionReturnType-->String|Node|jQuery<!--/typeFunctionReturnType-->
