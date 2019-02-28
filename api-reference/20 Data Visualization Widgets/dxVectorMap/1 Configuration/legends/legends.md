@@ -1,7 +1,7 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
 <!--type-->Array<Object><!--/type-->
-<!--inherits-->..\..\..\..\New Members\BaseLegend.md<!--/inherits-->
+<!--inherits-->..\..\..\BaseLegend\BaseLegend.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->

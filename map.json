@@ -1246,8 +1246,8 @@
         "$Widget": "BaseChartLegendItem"
       },
 
-      "BarGaugeInfo": {
-        "$Widget": "BarGaugeInfo"
+      "BarGaugeBarInfo": {
+        "$Widget": "BarGaugeBarInfo"
       },
 
       "BarGaugeLegendItem": {

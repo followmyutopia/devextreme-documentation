@@ -1,6 +1,6 @@
 ===========================================================================
 <!--type-->Object<!--/type-->
-<!--inherits-->..\..\..\..\New Members\BaseLegend.md<!--/inherits-->
+<!--inherits-->..\..\..\BaseLegend\BaseLegend.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
