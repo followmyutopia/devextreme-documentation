@@ -15,6 +15,6 @@ Specifies whether filter and search results should include only matching rows or
 
 #include common-ref-enum with {
     enum: "`TreeListFilterMode`",
-    values: `FullBranch`, `MatchOnly`, and `WithAncestors`"
+    values: "`FullBranch`, `MatchOnly`, and `WithAncestors`"
 }
 <!--/fullDescription-->
