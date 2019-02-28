@@ -33,7 +33,7 @@ Export options.
 The name of the file to be saved.
 <!--/paramDescription2_field1-->
 <!--paramName2_field2-->format<!--/paramName2_field2-->
-<!--paramType2_field2-->String<!--/paramType2_field2-->
+<!--paramType2_field2-->'GIF' | 'JPEG' | 'PDF' | 'PNG' | 'SVG'<!--/paramType2_field2-->
 <!--paramDescription2_field2-->
 The file's format. PNG is used if the browser cannot export the file in the specified format.
 <!--/paramDescription2_field2-->
