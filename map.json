@@ -707,9 +707,9 @@
         }
       }
     },
-
-    "BaseLabel": {
-      "$Widget": "BaseLabel"
+    
+    "BaseLegend": {
+      "$Widget": "BaseLegend"
     },
 
     "BaseSparkline": {
@@ -1244,6 +1244,14 @@
 
       "BaseChartLegendItem": {
         "$Widget": "BaseChartLegendItem"
+      },
+
+      "BarGaugeInfo": {
+        "$Widget": "BarGaugeInfo"
+      },
+
+      "BarGaugeLegendItem": {
+        "$Widget": "BarGaugeLegendItem"
       },
 
       "FunnelLegendItem": {
