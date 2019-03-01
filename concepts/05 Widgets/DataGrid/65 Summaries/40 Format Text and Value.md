@@ -1,4 +1,4 @@
-Customize a summary item's text and value format using the **displayFormat** and **valueFormat** options. The following code changes the default text and shows an item with the applied currency format. As this item is shown in another column, the parent column's caption is also displayed in the text.
+Customize a summary item's text and value format using the [displayFormat](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#displayFormat) and [valueFormat](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat) options. The following code changes the default text and shows an item with the applied currency format. The text includes the parent column's caption because this item is shown in another column.
 
 ---
 #####jQuery

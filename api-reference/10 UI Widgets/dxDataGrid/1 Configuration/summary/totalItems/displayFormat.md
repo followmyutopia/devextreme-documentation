@@ -4,14 +4,160 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a pattern for the summary item text.
+Specifies the summary item's text.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When implementing the pattern, you can access the summary item value with applied [format](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat) using position marker 0. If the summary item is placed in any other column rather than its [parent one](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#column), you can also access the [caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption) of the parent column using position marker 1. Place each of these position markers within curly brackets.
+You can use the following position markers in this text: 
 
-If your scenario requires more complex text customizations, utilize the [customizeText](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#customizeText) option.
+- {0} - [formatted](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#valueFormat) summary value.
+- {1} - the parent column's [caption](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#caption). Available if the [showInColumn](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#showInColumn) option is specified.
 
-#####See Also#####
-- [Format Text and Value](/Documentation/Guide/Widgets/DataGrid/Summaries/Format_Text_and_Value/)
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function () {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            summary: {
+                totalItems: [{
+                    column: "SaleAmount",
+                    summaryType: "sum",
+                    showInColumn: "TotalAmount",
+                    valueFormat: "currency",
+                    displayFormat: "Column: {1}. Sales: {0}" // for example, "Column: Total Amount. Sales: $1234" 
+                },
+                // ...
+                ]
+            }
+        });
+    });
+
+#####Angular
+
+    <!-- tab: app.component.html -->
+    <dx-data-grid ... >
+        <dxo-summary>
+            <dxi-total-item
+                column="SaleAmount"
+                summaryType="sum"
+                showInColumn="TotalAmount"
+                valueFormat="currency"
+                displayFormat="Column: {1}. Sales: {0}"> <!-- for example, "Column: Total Amount. Sales: $1234" -->
+            </dxi-total-item>
+        </dxo-summary>
+    </dx-data-grid>
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxDataGridModule } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            DxDataGridModule
+        ],
+        providers: [],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+#####Vue
+
+    <!-- tab: DxComponent.vue -->
+    <template> 
+        <dx-data-grid ... >
+            <dx-summary>
+                <dx-total-item
+                    column="SaleAmount"
+                    summary-type="sum"
+                    show-in-column="TotalAmount"
+                    value-format="currency" 
+                    display-format="Column: {1}. Sales: {0}" /> <!-- for example, "Column: Total Amount. Sales: $1234" -->
+            </dx-summary>
+        </dx-data-grid>
+    </template>
+    <script>
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+
+    import { DxDataGrid, DxSummary, DxTotalItem } from 'devextreme-vue/data-grid';
+
+    export default {
+        components: {
+            DxDataGrid,
+            DxSummary, 
+            DxTotalItem
+        }
+    }
+    </script>
+
+    <!-- tab: App.vue -->
+    <template> 
+        <dx-component />
+    </template>
+
+    <script>
+    import DxComponent from './components/DxComponent';
+
+    export default {
+        components: {
+            DxComponent
+        }
+    }
+    </script>
+
+##### React
+
+    <!-- tab: DxComponent.js -->
+    import React from 'react';
+    import 'devextreme/dist/css/dx.common.css';
+    import 'devextreme/dist/css/dx.light.css';
+    import { DataGrid, Summary, TotalItem } from 'devextreme-react/data-grid';
+
+    class DxComponent extends React.Component {
+        render() {
+            return (
+                <DataGrid>
+                    <Summary
+                        <TotalItem 
+                            column="SaleAmount" 
+                            summaryType="sum" 
+                            showInColumn="TotalAmount" 
+                            valueFormat="currency" 
+                            displayFormat="Column: {1}. Sales: {0}" /> <!-- for example, "Column: Total Amount. Sales: $1234" -->
+                    </Summary>
+                </DataGrid>
+            );
+        }
+    }
+    export default DxComponent;
+
+    <!-- tab: App.js -->
+    import React, { Component } from 'react';
+    import './App.css';
+
+    import DxComponent from './DxComponent';
+
+    class App extends Component {
+        render() {
+            return (
+                <div>
+                    <DxComponent />
+                </div>
+            );
+        }
+    }
+    export default App;
+
+---
+
+Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/totalItems/#customizeText) option for more advanced text customizations.
 <!--/fullDescription-->
