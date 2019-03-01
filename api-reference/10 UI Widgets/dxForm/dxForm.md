@@ -65,7 +65,7 @@ The **Form** widget represents fields of a data object as a collection of label-
     <!--HTML-->
     <dx-form
         [formData]="companyData">
-        <dxi-item datafield="name"></dxi-item>
+        <dxi-item dataField="name"></dxi-item>
         <dxi-item
             itemType="group"
             caption="Location">

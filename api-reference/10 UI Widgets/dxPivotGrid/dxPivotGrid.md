@@ -1,4 +1,6 @@
 <!--widgettree-->
+fieldChooser: { width: 400 },
+showBorders: true,
 dataSource: {
         fields: [
             { dataField: "[Product].[Category]", area: "row" },
