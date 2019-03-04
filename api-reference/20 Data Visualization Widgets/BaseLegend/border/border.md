@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures the legend's border.
 <!--/shortDescription-->
 
 <!--fullDescription-->

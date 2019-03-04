@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Generates an empty space, measured in pixels, between the legend's top/bottom border and its items.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+![DevExtreme Legend Top-Bottom Padding](/Content/images/doc/19_1/ChartJS/LegendPaddingTopBottom.png)
 <!--/fullDescription-->

@@ -1,18 +1,18 @@
 ===========================================================================
-<!--default-->'bottom'<!--/default-->
-<!--acceptValues-->'bottom' | 'top'<!--/acceptValues-->
-<!--type-->String<!--/type-->
+<!--handmade--><!--/handmade-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the legend's position on the map.
+Along with [horizontalAlignment]({basewidgetpath}/Configuration/legends/#horizontalAlignment), specifies the legend's position.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To position a legend on the map, use this option in conjunction with the [horizontalAlignment](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#horizontalAlignment) option.
-
 #include common-ref-enum with {
     enum: "`VerticalEdge`",
     values: "`Top` and `Bottom`"
 }
+
+#####See Also#####
+- **legends[]**.[orientation]({basewidgetpath}/Configuration/legends/#orientation)
 <!--/fullDescription-->

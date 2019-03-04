@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the legend's right margin in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

@@ -1,18 +1,19 @@
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'horizontal' | 'vertical'<!--/acceptValues-->
-<!--type-->String<!--/type-->
+<!--handmade--><!--/handmade-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether to arrange legend items horizontally or vertically. 
+Arranges legend items vertically (in a column) or horizontally (in a row). The default value is *"horizontal"* if the **legends[]**.[horizontalAlignment]({basewidgetpath}/Configuration/legends/#horizontalAlignment) is *"center"*. Otherwise, it is *"vertical"*.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-When this option is set to *'vertical'*, legend items are displayed vertically (i.e., in a column). When this option is set to *'horizontal'*, legend items are displayed horizontally (i.e, in a row). When this option is not defined, the legend orientation is chosen automatically.
-
 #include common-ref-enum with {
     enum: "`Orientation`",
     values: "`Horizontal` and `Vertical`"
 }
+
+#####See Also#####
+- **legends[]**.[verticalAlignment]({basewidgetpath}/Configuration/legends/#verticalAlignment)
+- **legends[]**.[horizontalAlignment]({basewidgetpath}/Configuration/legends/#horizontalAlignment)
 <!--/fullDescription-->

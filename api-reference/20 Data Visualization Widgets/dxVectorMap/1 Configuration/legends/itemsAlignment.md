@@ -1,18 +1,8 @@
 ===========================================================================
-<!--default-->undefined<!--/default-->
-<!--acceptValues-->'center' | 'left' | 'right'<!--/acceptValues-->
-<!--type-->String<!--/type-->
+<!--handmade--><!--/handmade-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the alignment of legend items.
+Aligns items in the last column or row (depending on the legend's [orientation]({basewidgetpath}/Configuration/legends/#orientation)). Applies when legend items are not divided into columns or rows equally.
 <!--/shortDescription-->
-
-<!--fullDescription-->
-This option is useful when there is an odd count of items in the legend and they are placed in several columns.
-
-#include common-ref-enum with {
-    enum: "`HorizontalAlignment`",
-    values: "`Left`, `Center`, and `Right`"
-}
-<!--/fullDescription-->

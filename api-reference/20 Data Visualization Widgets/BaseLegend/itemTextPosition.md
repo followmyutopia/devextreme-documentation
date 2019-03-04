@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the text's position relative to the marker in a legend item.
 <!--/shortDescription-->
 
 <!--fullDescription-->

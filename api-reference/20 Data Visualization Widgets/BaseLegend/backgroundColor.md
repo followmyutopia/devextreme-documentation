@@ -4,9 +4,9 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Colors the legend's background.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-colorlist
 <!--/fullDescription-->

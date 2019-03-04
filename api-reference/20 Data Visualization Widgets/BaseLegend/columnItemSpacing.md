@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies an empty space between item columns in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

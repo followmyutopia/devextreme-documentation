@@ -4,9 +4,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies how many rows must be taken to arrange legend items.
+Arranges legend items in several rows.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To arrange legend items, specify how many rows and columns they must occupy. To do this, use the **rowCount** and [columnCount](/Documentation/ApiReference/Data_Visualization_Widgets/dxVectorMap/Configuration/legends/#columnCount) options.
+Use this option when the legend is [oriented horizontally]({basewidgetpath}/Configuration/legend/#orientation). Otherwise, use [columnCount]({basewidgetpath}/Configuration/legend/#columnCount).
+
+#####See Also#####
+- **legend**.[rowItemSpacing]({basewidgetpath}/Configuration/legend/#rowItemSpacing)
 <!--/fullDescription-->
