@@ -176,6 +176,10 @@
       "$Widget": "dxDropDownBox"
     },
 
+    "dxDropDownButton": {
+      "$Widget": "dxDropDownButton"
+    },
+
     "dxDropDownEditor": {
       "$Widget": "dxDropDownEditor"
     },
