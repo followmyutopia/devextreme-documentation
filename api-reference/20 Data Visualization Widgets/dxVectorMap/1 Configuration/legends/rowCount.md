@@ -1,15 +1,11 @@
 ===========================================================================
-<!--default-->0<!--/default-->
-<!--type-->Number<!--/type-->
+<!--handmade--><!--/handmade-->
+<!--merge--><!--/merge-->
 ===========================================================================
 
-<!--shortDescription-->
-Arranges legend items in several rows.
-<!--/shortDescription-->
-
 <!--fullDescription-->
-Use this option when the legend is [oriented horizontally]({basewidgetpath}/Configuration/legend/#orientation). Otherwise, use [columnCount]({basewidgetpath}/Configuration/legend/#columnCount).
+Use this option when the legend is [oriented horizontally]({basewidgetpath}/Configuration/legends/#orientation). Otherwise, use [columnCount]({basewidgetpath}/Configuration/legends/#columnCount).
 
 #####See Also#####
-- **legend**.[rowItemSpacing]({basewidgetpath}/Configuration/legend/#rowItemSpacing)
+- **legend**.[rowItemSpacing]({basewidgetpath}/Configuration/legends/#rowItemSpacing)
 <!--/fullDescription-->

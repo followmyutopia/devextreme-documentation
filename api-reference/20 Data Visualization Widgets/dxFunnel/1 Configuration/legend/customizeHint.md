@@ -7,7 +7,7 @@ Specifies the hint that appears when a user hovers the mouse pointer over a lege
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts a function that must return the required text. When implementing this function, use its parameter to access the information on the series that corresponds to the legend item.
+This option accepts a function that must return the required text. When implementing this function, use its parameter to access the information on the funnel item that corresponds to the legend item.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->itemInfo<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
