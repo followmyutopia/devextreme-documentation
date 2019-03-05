@@ -73,7 +73,7 @@ This method only creates a dialog. To display it, call the dialog instance's **s
 
     <!-- tab: app.component.ts -->
     import { Component, AfterViewInit } from '@angular/core';
-    import dialog from 'devextreme/ui/dialog';
+    import { custom } from 'devextreme/ui/dialog';
 
     @Component({
         selector: 'app-root',
@@ -82,7 +82,7 @@ This method only creates a dialog. To display it, call the dialog instance's **s
     })
     export class AppComponent implements AfterViewInit{
         ngAfterViewInit() { 
-            let myDialog = dialog.custom({
+            let myDialog = custom({
                 title: "Custom dialog",
                 messageHtml: "Dialog with custom buttons",
                 buttons: [{
@@ -94,7 +94,7 @@ This method only creates a dialog. To display it, call the dialog instance's **s
                 // ...
                 ]
             });
-            myDialog.show().done((dialogResult) => {
+            myDialog.show().then((dialogResult) => {
                 console.log(dialogResult.buttonText);
             });
         }
@@ -106,12 +106,12 @@ This method only creates a dialog. To display it, call the dialog instance's **s
     <template>
     </template>
     <script>
-    import dialog from 'devextreme/ui/dialog';
+    import { custom } from 'devextreme/ui/dialog';
 
     export default {
         mounted: function() {
             this.$nextTick(function() {
-                let myDialog = dialog.custom({
+                let myDialog = custom({
                     title: "Custom dialog",
                     messageHtml: "Dialog with custom buttons",
                     buttons: [{
@@ -123,7 +123,7 @@ This method only creates a dialog. To display it, call the dialog instance's **s
                     // ...
                     ]
                 });
-                myDialog.show().done((dialogResult) => {
+                myDialog.show().then((dialogResult) => {
                     console.log(dialogResult.buttonText);
                 });
             })
@@ -135,11 +135,11 @@ This method only creates a dialog. To display it, call the dialog instance's **s
 
     <!-- tab: DxComponent.js -->
     import React from 'react';
-    import dialog from 'devextreme/ui/dialog';
+    import { custom } from 'devextreme/ui/dialog';
 
     class DxComponent extends React.Component {
         componentDidMount() { 
-            let myDialog = dialog.custom({
+            let myDialog = custom({
                 title: "Custom dialog",
                 messageHtml: "Dialog with custom buttons",
                 buttons: [{
@@ -151,7 +151,7 @@ This method only creates a dialog. To display it, call the dialog instance's **s
                 // ...
                 ]
             });
-            myDialog.show().done((dialogResult) => {
+            myDialog.show().then((dialogResult) => {
                 console.log(dialogResult.buttonText);
             });
         }

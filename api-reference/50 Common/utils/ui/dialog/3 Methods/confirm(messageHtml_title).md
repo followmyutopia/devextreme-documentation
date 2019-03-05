@@ -41,7 +41,7 @@ A Promise that is resolved with a Boolean value indicating whether a user has cl
 
     <!-- tab: app.component.ts -->
     import { Component, AfterViewInit } from '@angular/core';
-    import dialog from 'devextreme/ui/dialog';
+    import { confirm } from 'devextreme/ui/dialog';
 
     @Component({
         selector: 'app-root',
@@ -50,8 +50,8 @@ A Promise that is resolved with a Boolean value indicating whether a user has cl
     })
     export class AppComponent implements AfterViewInit{
         ngAfterViewInit() { 
-            let result = dialog.confirm("<i>Are you sure?</i>", "Confirm changes");
-            result.done((dialogResult) => {
+            let result = confirm("<i>Are you sure?</i>", "Confirm changes");
+            result.then((dialogResult) => {
                 alert(dialogResult ? "Confirmed" : "Canceled");
             });
         }
@@ -63,13 +63,13 @@ A Promise that is resolved with a Boolean value indicating whether a user has cl
     <template>
     </template>
     <script>
-    import dialog from 'devextreme/ui/dialog';
+    import { confirm } from 'devextreme/ui/dialog';
 
     export default {
         mounted: function() {
             this.$nextTick(function() {
-                let result = dialog.confirm("<i>Are you sure?</i>", "Confirm changes");
-                result.done((dialogResult) => {
+                let result = confirm("<i>Are you sure?</i>", "Confirm changes");
+                result.then((dialogResult) => {
                     alert(dialogResult ? "Confirmed" : "Canceled");
                 });
             })
@@ -81,12 +81,12 @@ A Promise that is resolved with a Boolean value indicating whether a user has cl
 
     <!-- tab: DxComponent.js -->
     import React from 'react';
-    import dialog from 'devextreme/ui/dialog';
+    import { confirm } from 'devextreme/ui/dialog';
 
     class DxComponent extends React.Component {
         componentDidMount() { 
-            let result = dialog.confirm("<i>Are you sure?</i>", "Confirm changes");
-            result.done((dialogResult) => {
+            let result = confirm("<i>Are you sure?</i>", "Confirm changes");
+            result.then((dialogResult) => {
                 alert(dialogResult ? "Confirmed" : "Canceled");
             });
         }
