@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+The bar's hexadecimal color code.
 <!--/shortDescription-->
 
 <!--fullDescription-->
