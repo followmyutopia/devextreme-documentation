@@ -30,7 +30,7 @@ The function passed to this option enables you to specify a custom condition for
     // ...
     export class AppComponent {
         // ...
-        closeOnOutsideClick (e) {
+        closeOnOutsideClick(e) {
             return e.target === document.getElementById("someElement");
         }
     }
@@ -44,7 +44,7 @@ The function passed to this option enables you to specify a custom condition for
 
     <!--HTML-->
     <dx-lookup ...
-        (closeOnOutsideClick)="closeOnOutsideClick($event)">
+        [closeOnOutsideClick]="closeOnOutsideClick">
     </dx-lookup>
 
 ---

@@ -44,7 +44,7 @@ The function passed to this option enables you to specify a custom condition for
 
     <!--HTML-->
     <dx-context-menu ...
-        (closeOnOutsideClick)="closeOnOutsideClick($event)">
+        [closeOnOutsideClick]="closeOnOutsideClick">
     </dx-context-menu>
 
 ---

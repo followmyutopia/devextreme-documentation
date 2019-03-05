@@ -44,7 +44,7 @@ The function passed to this option enables you to specify a custom condition for
 
     <!--HTML-->
     <dx-drawer ...
-        (closeOnOutsideClick)="drawer_closeOnOutsideClick($event)">
+        [closeOnOutsideClick]="drawer_closeOnOutsideClick">
     </dx-drawer>
 
 ---
