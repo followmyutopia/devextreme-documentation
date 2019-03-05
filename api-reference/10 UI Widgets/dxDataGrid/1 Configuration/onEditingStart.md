@@ -9,10 +9,10 @@ A function that is executed before a cell or row switches to the editing state.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In cell or batch [editing mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode), this function is executed while rendering cells of columns whose [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#showEditorAlways) option is set to **true**.
+If the **editing**.[mode](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#mode) is *"batch"* or *"cell"*, this function is executed while the widget renders columns of `boolean` [dataType](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#dataType) and other columns whose [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#showEditorAlways) option is **true**.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/datagridgrideditingrow/"
+    url: "/Demos/WidgetsGallery/Demo/DataGrid/RowEditingAndEditingEvents/jQuery/Light/"
 }
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
