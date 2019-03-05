@@ -16,7 +16,7 @@ The **Toast** [configuration](/Documentation/ApiReference/UI_Widgets/dxToast/Con
 <!--paramName2-->type<!--/paramName2-->
 <!--paramType2-->String|undefined<!--/paramType2-->
 <!--paramDescription2-->
-The message's type: "info", "warning", "error" or "success".
+The message's type: *"info"*, *"warning"*, *"error"* or *"success"*.
 <!--/paramDescription2-->
 
 <!--paramName3-->displayTime<!--/paramName3-->
@@ -26,6 +26,63 @@ The time interval in milliseconds for which the message is displayed.
 <!--/paramDescription3-->
 
 <!--fullDescription-->
+---
+#####jQuery
+
+    <!--JavaScript-->
+    $(function() {
+        DevExpress.ui.notify({ message: "Error message", width: 300, shading: true }, "error", 500);
+    })
+
+#####Angular
+
+    <!-- tab: app.component.ts -->
+    import { Component, AfterViewInit } from '@angular/core';
+    import notify from 'devextreme/ui/notify';
+
+    @Component({
+        selector: 'app-root',
+        templateUrl: './app.component.html',
+        styleUrls: ['./app.component.css']
+    })
+    export class AppComponent implements AfterViewInit {
+        ngAfterViewInit() { 
+            notify({ message: "Error message", width: 300, shading: true }, "error", 500);
+        }
+    }
+
+#####Vue
+
+    <!-- tab: DxComponent.vue -->
+    <template>
+    </template>
+    <script>
+    import notify from 'devextreme/ui/notify';
+
+    export default {
+        mounted: function() {
+            this.$nextTick(() => {
+                notify({ message: "Error message", width: 300, shading: true }, "error", 500);
+            })
+        }
+    }
+    </script>
+
+#####React
+
+    <!-- tab: DxComponent.js -->
+    import React from 'react';
+    import notify from 'devextreme/ui/notify';
+
+    class DxComponent extends React.Component {
+        componentDidMount() { 
+            notify({ message: "Error message", width: 300, shading: true }, "error", 500);
+        }
+    }
+    export default DxComponent;
+
+---
+
 #####See Also#####
 - [notify(message, type, displayTime)](/Documentation/ApiReference/Common/utils/ui/#notifymessage_type_displayTime)
 <!--/fullDescription-->
