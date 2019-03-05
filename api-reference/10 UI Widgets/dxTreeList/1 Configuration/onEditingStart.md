@@ -9,7 +9,7 @@ A function that is executed before a cell or row switches to the editing state.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-In cell or batch [editing mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode), this function is executed while rendering cells of columns whose [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways) option is set to **true**.
+If the **editing**.[mode](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/editing/#mode) is *"batch"* or *"cell"*, this function is executed while the widget renders columns of `boolean` [dataType](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#dataType) and other columns whose [showEditorAlways](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#showEditorAlways) option is **true**.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->e<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Object<!--/typeFunctionParamType1-->
