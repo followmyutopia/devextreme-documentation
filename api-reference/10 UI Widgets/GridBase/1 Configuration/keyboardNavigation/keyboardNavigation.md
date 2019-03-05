@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures keyboard navigation.
 <!--/shortDescription-->
 
 <!--fullDescription-->
