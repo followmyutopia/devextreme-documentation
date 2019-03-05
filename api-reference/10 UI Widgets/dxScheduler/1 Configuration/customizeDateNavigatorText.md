@@ -47,7 +47,7 @@ In the following code, the **customizeDateNavigatorText** function is used to sh
     export class AppComponent  {
         currentView: string = "day";
 
-        customizeDateNavigatorText(e) {
+        customizeDateNavigatorText = (e) => {
             let formatOptions = { 
                 year: 'numeric', 
                 month: 'numeric', 
