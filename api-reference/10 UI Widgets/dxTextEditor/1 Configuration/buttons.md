@@ -1,9 +1,10 @@
 ===========================================================================
-<!--type-->Number<!--/type-->
+<!--default-->undefined<!--/default-->
+<!--type-->Array<String><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-The bar's zero-based index. Bars closest to the gauge's center have higher indexes.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
