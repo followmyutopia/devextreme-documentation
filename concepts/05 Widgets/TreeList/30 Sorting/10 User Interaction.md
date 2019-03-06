@@ -36,11 +36,15 @@ With the **TreeList** widget, a user can sort by single and multiple columns. Us
     
 ---
 
-In the single mode, a user selects a sort order from the context menu or clicks a column header to apply sorting. Subsequent clicks on the same header reverse the sort order. Applying sorting to another column clears the previous column's sorting settings. In the multiple mode, sorting settings applied to other columns remain intact when a user selects a sort order from another column's context menu. Note that rows are sorted within their hierarchical level.
+In single mode, the user can click a column header to sort by the column. Subsequent clicks on the same header reverse the sort order. When the user sorts by a column, the sorting settings of other columns are canceled. 
+
+In multiple mode, the user clicks a column header while pressing the Shift key to sort by the column. Sorting settings of other columns remain intact.
+
+In both modes, the user can use the column header's context menu to apply sorting. Note that no matter how user applies sorting, rows are sorted within their hierarchical level.
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/19_1/treelist/visual_elements/sorting_sorted_columns.png)
 
-The context menu can also be used to clear a column's sorting settings.
+To cancel a column's sorting settings, the user clicks the column's header while pressing Ctrl or uses the context menu:
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget TreeList Sorting](/Content/images/doc/19_1/treelist/visual_elements/sorting_context_menu.png)
 
