@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the widget's width small enough for the layout to begin adapting.
+Specifies the minimum container width at which the layout begins to adapt.
 <!--/shortDescription-->
 
 <!--fullDescription-->

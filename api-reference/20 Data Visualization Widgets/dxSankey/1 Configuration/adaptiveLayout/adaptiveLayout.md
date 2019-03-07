@@ -13,5 +13,5 @@ The adaptive layout enables the widget to hide optional elements if they do not 
 1. [Export menu icon](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/export/)
 1. [Labels](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/label/) (can be saved by setting the **adaptiveLayout**.[keepLabels](/Documentation/ApiReference/Data_Visualization_Widgets/dxSankey/Configuration/adaptiveLayout/#keepLabels) option to **true**)
 
-Use the **height** and **width** options in the **adaptiveLayout** object to specify the minimum container size at which the widget begins to adapt.
+Use the **height** and **width** options in the **adaptiveLayout** object to specify the minimum container size at which the layout begins to adapt.
 <!--/fullDescription-->

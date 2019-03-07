@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether or not [point labels]({basewidgetpath}/Configuration/commonSeriesSettings/label) should be kept when the layout is adapting.
+Specifies whether [point labels]({basewidgetpath}/Configuration/commonSeriesSettings/label) should be kept when the widget adapts the layout.
 <!--/shortDescription-->
 
 <!--fullDescription-->
