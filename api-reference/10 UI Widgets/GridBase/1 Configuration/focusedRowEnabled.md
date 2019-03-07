@@ -10,7 +10,7 @@ Specifies whether the focused row feature is enabled.
 <!--fullDescription-->
 When this option is set to **true**, the following applies:
 
-- Rows are initially sorted by keys.
+- Rows are initially sorted by keys if any field of [remoteOperations]({basewidgetpath}/Configuration/remoteOperations/) is **true**.
 - The row with [focusedRowIndex]({basewidgetpath}/Configuration/#focusedRowIndex) or [focusedRowKey]({basewidgetpath}/Configuration/#focusedRowKey) is highlighted.
 - When the data row area is focused, this row is focused and the area is scrolled down to it.
 - The [onFocusedRowChanging]({basewidgetpath}/Configuration/#onFocusedRowChanging) and [onFocusedRowChanged]({basewidgetpath}/Configuration/#onFocusedRowChanged) functions become active.
