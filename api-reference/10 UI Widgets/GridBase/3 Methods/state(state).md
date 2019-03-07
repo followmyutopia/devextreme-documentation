@@ -12,7 +12,7 @@ The widget state to be set.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-After the state is set, the **DataGrid** reloads data to apply sorting, filtering, and other data processing settings.
+After the state is set, the **{WidgetName}** reloads data to apply sorting, filtering, and other data processing settings.
  
 Refer to the [state()]({basewidgetpath}/Methods/#state) method description for an example of how to work with the widget state.
 
