@@ -5,11 +5,66 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed before an editor is created.
+A function that is executed before a cell's editor is created. Not executed for cells with an [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Numerous **DataGrid** elements are based on editors: the [search panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel) is a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/) uses check boxes, and so on. Use this function to customize those default editors or substitute them for other editors. 
+Numerous **DataGrid** elements are based on editors: the [search panel](/Documentation/Guide/Widgets/DataGrid/Filtering_and_Searching/#Search_Panel) is a text box, the [selection column](/Documentation/Guide/Widgets/DataGrid/Columns/Column_Types/Command_Columns/) uses check boxes, and so on. Use this function to customize the default editors or substitute them for other editors. 
+
+The following code shows how to add custom logic to a default editor's **onValueChanged** handler:
+
+---
+##### jQuery
+
+    <!--JavaScript-->$(function() {
+        $("#dataGridContainer").dxDataGrid({
+            // ...
+            onEditorPreparing: function(e) {
+                if (e.dataField == "requiredDataField") {
+                    var standardHandler = e.editorOptions.onValueChanged;
+                    e.editorOptions.onValueChanged = function(e) { // Overrides the standard handler
+                        // ...
+                        // Custom commands go here
+                        // ...
+                        standardHandler(e); // Calls the standard handler to save the edited value
+                    }
+                }
+            }
+        });
+    });
+
+##### Angular
+    
+    <!--TypeScript-->
+    import { DxDataGridModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        onEditorPreparing (e) {
+            if (e.dataField == "requiredDataField") {
+                let standardHandler = e.editorOptions.onValueChanged;
+                e.editorOptions.onValueChanged = function (e) { // Overrides the standard handler
+                    // ...
+                    // Custom commands go here
+                    // ...
+                    standardHandler(e); // Calls the standard handler to save the edited value
+                }
+            }
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-data-grid ... 
+        (onEditorPreparing)="onEditorPreparing($event)">
+    </dx-data-grid>
+    
+---
 
 In the following code, a default editor is replaced with the DevExtreme [TextArea](/Documentation/Guide/Widgets/TextArea/Overview/) widget. Note that the widget's **onValueChanged** function is overridden, and its declaration ends with the **setValue(newValue, newText)** method's call. This method updates the cell value.
 
@@ -23,8 +78,8 @@ In the following code, a default editor is replaced with the DevExtreme [TextAre
             onEditorPreparing: function(e) {
                 if (e.dataField == "description") {
                     e.editorName = "dxTextArea"; 
-                    e.editorOptions.showClearButton = true;
-                    e.editorOptions.onValueChanged = function(event) {
+                    e.editorOptions.showClearButton = true;            
+                    e.editorOptions.onValueChanged = function(event) { 
                         var value = event.value;
                         e.setValue(value.toLowerCase()); 
                     }
@@ -42,8 +97,8 @@ In the following code, a default editor is replaced with the DevExtreme [TextAre
         onEditorPreparing (e) { 
             if (e.dataField == "description") {
                 e.editorName = "dxTextArea"; 
-                e.editorOptions.showClearButton = true;
-                e.editorOptions.onValueChanged = (event) => {
+                e.editorOptions.showClearButton = true;       
+                e.editorOptions.onValueChanged = (event) => { 
                     let value = event.value;
                     e.setValue(value.toLowerCase()); 
                 }
@@ -121,8 +176,6 @@ The following code shows how to replace a default editor with a non-DevExtreme e
     </dx-data-grid>
     
 ---
-
-[note] This function is not executed for cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#editCellTemplate).
 
 #####See Also#####
 - [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors)

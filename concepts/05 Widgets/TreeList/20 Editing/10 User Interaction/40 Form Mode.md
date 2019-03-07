@@ -126,7 +126,13 @@ In the following code, the items with the specified **dataField** are simple ite
 #####See Also#####
 - [Organize Simple Items](/Documentation/Guide/Widgets/Form/Organize_Simple_Items)
 
-You can customize an individual simple item using a column's [formItem](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#formItem) object. See an example in its description. Note that this object does not allow changing or configuring the editor (see [Customize Editors](/Documentation/Guide/Widgets/TreeList/Editing/#Customize_Editors)).
+You can use a column's [formItem](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#formItem) object to customize an individual simple item. See an example in its description. 
+
+[note]
+
+Neither **editing**.**form** nor **formItem** allows you to change the editor type. Use the [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#onEditorPreparing) function for this purpose. 
+
+[/note]
 
 If you need to validate form values, specify validation rules as described in the [Data Validation](/Documentation/Guide/Widgets/TreeList/Editing/#Data_Validation) article.
 

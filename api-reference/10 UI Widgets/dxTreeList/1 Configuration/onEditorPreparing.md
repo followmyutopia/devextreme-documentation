@@ -5,11 +5,66 @@
 ===========================================================================
 
 <!--shortDescription-->
-A function that is executed before an editor is created.
+A function that is executed before a cell's editor is created. Not executed for cells with an [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate).
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Numerous **TreeList** elements are based on editors: the [search panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel) is a text box, the [filter row](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Filter_Row) uses text boxes, calendars, and select boxes, and so on. Use this function to customize those default editors or substitute them for other editors. 
+Numerous **TreeList** elements are based on editors: the [search panel](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Search_Panel) is a text box, the [filter row](/Documentation/Guide/Widgets/TreeList/Filtering_and_Searching/#Filter_Row) uses text boxes, calendars, and select boxes, and so on. Use this function to customize the default editors or substitute them for other editors. 
+
+The following code shows how to add custom logic to a default editor's **onValueChanged** handler:
+
+---
+##### jQuery
+
+    <!--JavaScript-->$(function() {
+        $("#treeListContainer").dxTreeList({
+            // ...
+            onEditorPreparing: function(e) {
+                if (e.dataField == "requiredDataField") {
+                    var standardHandler = e.editorOptions.onValueChanged;
+                    e.editorOptions.onValueChanged = function(e) { // Overrides the standard handler
+                        // ...
+                        // Custom commands go here
+                        // ...
+                        standardHandler(e); // Calls the standard handler to save the edited value
+                    }
+                }
+            }
+        });
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import { DxTreeListModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        onEditorPreparing (e) {
+            if (e.dataField == "requiredDataField") {
+                let standardHandler = e.editorOptions.onValueChanged;
+                e.editorOptions.onValueChanged = function (e) { // Overrides the standard handler
+                    // ...
+                    // Custom commands go here
+                    // ...
+                    standardHandler(e); // Calls the standard handler to save the edited value
+                }
+            }
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxTreeListModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-tree-list ... 
+        (onEditorPreparing)="onEditorPreparing($event)">
+    </dx-tree-list>
+
+---
 
 In the following code, a default editor is replaced with the DevExtreme [TextArea](/Documentation/Guide/Widgets/TextArea/Overview/) widget. Note that the widget's **onValueChanged** function is overridden, and its declaration ends with the **setValue(newValue, newText)** method's call. This method updates the cell value.
 
@@ -121,8 +176,6 @@ The following code shows how to replace a default editor with a non-DevExtreme e
     </dx-tree-list>
     
 ---
-
-[note] This function is not executed for cells that use the [editCellTemplate](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#editCellTemplate).
 
 #####See Also#####
 - [Customize Editors](/Documentation/Guide/Widgets/TreeList/Editing/#Customize_Editors)

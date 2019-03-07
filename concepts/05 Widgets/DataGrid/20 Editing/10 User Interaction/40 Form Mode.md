@@ -2,7 +2,7 @@ In form edit mode, row cells become editable form fields. Form fields are sorted
 
 ![DevExtreme HTML5 JavaScript jQuery Angular Knockout Widget DataGrid Editing Form Mode](/Content/images/doc/19_1/DataGrid/editing/form_mode.png)
 
-Configure the form using the **editing**.[form](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#form) object. The **DataGrid** uses the DevExtreme [Form](/Documentation/Guide/Widgets/Form/Overview/) widget, so you can specify [any Form options](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) in this object except those listed in its description.
+Configure the form using the **editing**.[form](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/editing/#form) object. The **DataGrid** uses the DevExtreme [Form](/Documentation/Guide/Widgets/Form/Overview/) widget, so you can specify [any Form options](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/) in this object except those listed in its description. 
 
 For example, you can specify the [items](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#items) array to reorder editable fields (or "simple items", as they are called in the **Form** widget), or organize them in groups and tabs.
 
@@ -126,7 +126,13 @@ In the following code, the items with the specified **dataField** are simple ite
 #####See Also#####
 - [Organize Simple Items](/Documentation/Guide/Widgets/Form/Organize_Simple_Items)
 
-You can customize an individual simple item using a column's [formItem](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#formItem) object. See an example in its description. Note that this object does not allow changing or configuring the editor (see [Customize Editors](/Documentation/Guide/Widgets/DataGrid/Editing/#Customize_Editors)).
+You can use a column's [formItem](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#formItem) object to customize an individual simple item. See an example in its description. 
+
+[note]
+
+Neither **editing**.**form** nor **formItem** allows you to change the editor type. Use the [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditorPreparing) function for this purpose. 
+
+[/note]
 
 If you need to validate form values, specify validation rules as described in the [Data Validation](/Documentation/Guide/Widgets/DataGrid/Editing/#Data_Validation) article.
 

@@ -13,9 +13,9 @@ Default form editors depend on the [columns' configuration]({basewidgetpath}/Con
 
 You cannot specify the following options in the **form** object:
 
-- [template](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#template)        
-- [readOnly](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#readOnly)          
-- [editorType](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType)        
+- [template](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#template); instead, use a column's [editCellTemplate]({basewidgetpath}/Configuration/columns/#editCellTemplate)        
+- [readOnly](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#readOnly); instead, use [allowEditing]({basewidgetpath}/Configuration/columns/#allowEditing)          
+- [editorType](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType); instead, use [onEditorPreparing]({basewidgetpath}/Configuration/#onEditorPreparing)        
 - any [event](/Documentation/ApiReference/UI_Widgets/dxForm/Events/) handler ([options](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#onContentReady) whose name starts with *"on..."*); instead, handle the [editorPreparing]({basewidgetpath}/Events/#editorPreparing) or [editorPrepared]({basewidgetpath}/Events/#editorPrepared) event to customize the form editors.
 
 Also, the [colCount](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#colCount) option defaults to 2, but it can be redefined.
@@ -23,6 +23,8 @@ Also, the [colCount](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration
 [/note]
 
 #include widgets-config-object-option-note
+
+If you need to customize an individual form item, use the [formItem]({basewidgetpath}/Configuration/columns/#formItem) object.
 
 #####See Also#####
 - [Form Guides](/Documentation/Guide/Widgets/Form/Configure_Simple_Items/)

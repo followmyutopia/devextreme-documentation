@@ -85,6 +85,16 @@ In the following code, the `Full_Name` grid column in the editing state produces
     
 ---
 
+[note]
+
+You cannot specify the following options in the **formItem** object:
+
+- [template](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#template); instead, use the column's [editCellTemplate]({basewidgetpath}/Configuration/columns/#editCellTemplate)        
+- [editorType](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType); instead, use [onEditorPreparing]({basewidgetpath}/Configuration/#onEditorPreparing)
+
+[/note]
+
+
 #####See Also#####
 - [Form Edit Mode](/Documentation/Guide/Widgets/{WidgetName}/Editing/#User_Interaction/Form_Mode)
 <!--/fullDescription-->
