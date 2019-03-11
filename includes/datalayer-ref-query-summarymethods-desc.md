@@ -1,4 +1,4 @@
-First, call the [select(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#selectgetter) method to select the object field that provides numeric values if the **Query** is associated with an array of objects, or use the [{summary}(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#{summary}getter) method instead of **{summary}()**.
+First, call the [select(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#selectgetter) method to select the object field that provides numeric values if the **Query** is associated with an array of objects, or use the [${{summary}}(getter)](/Documentation/ApiReference/Data_Layer/Query/Methods/#${{summary}}getter) method instead of **${{summary}}()**.
 
 ---
 ##### jQuery
@@ -8,7 +8,7 @@ First, call the [select(getter)](/Documentation/ApiReference/Data_Layer/Query/Me
 
     DevExpress.data.query(dataObjects)
         .select("price")
-        .{summary}()
+        .${{summary}}()
         .done(function (result) {
             // "result" contains the calculated value 
         });
@@ -24,7 +24,7 @@ First, call the [select(getter)](/Documentation/ApiReference/Data_Layer/Query/Me
 
             Query(dataObjects)
                 .select("price")
-                .{summary}()
+                .${{summary}}()
                 .then(result => {
                     // "result" contains the calculated value 
                 });
