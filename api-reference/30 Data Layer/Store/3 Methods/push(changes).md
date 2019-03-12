@@ -45,7 +45,7 @@ There are three possible data change types:
 
 ---
 
-The **DataSource** does not automatically sort, group, filter, or shape pushed data. If it should, enable the [reshapeOnPush](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#reshapeOnPush) option. We also recommend specifying the [pushAggregationTimeout](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pushAggregationTimeout) to reduce the number of updates and recalculations.
+The **DataSource** does not automatically sort, group, filter, or otherwise shape pushed data. If it should, enable the [reshapeOnPush](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#reshapeOnPush) option. We also recommend specifying the [pushAggregationTimeout](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#pushAggregationTimeout) to reduce the number of updates and recalculations.
 
 When data is grouped or paginated, the widget bound to the **DataSource** ignores inserted data items until data is reshaped. Disable [grouping](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#group) and [paging](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) or enable **reshapeOnPush** for the inserted data items to appear immediately after they are pushed. The **DataGrid** and **TreeList** widgets have individual [grouping](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#groupIndex) and [paging](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/paging/#enabled) options. Use them instead of the corresponding **DataSource** options.
 
