@@ -1,7 +1,7 @@
 <!--EventForAction-->..\4 Events\click.md<!--/EventForAction-->
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->function(e) | String<!--/type-->
+<!--type-->function(e)<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
