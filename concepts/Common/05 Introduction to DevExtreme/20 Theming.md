@@ -1,4 +1,4 @@
-Making sure that our UI widgets look native on any devices and in any browser, we provide a wide range of predefined themes. In case you need to create a new theme based on an existing DevExtreme or Bootstrap theme, the Theme Builder is at your service. 
+We provide predefined themes to ensure that our UI widgets look native on any device and browser. However, you can use the ThemeBuilder to create a new theme based on an existing DevExtreme or Bootstrap theme.
 
 - [Predefined Themes](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/)
-- [Theme Builder](/ThemeBuilder/)
+- [ThemeBuilder](/ThemeBuilder/)
