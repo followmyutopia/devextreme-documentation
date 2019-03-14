@@ -3,7 +3,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Raised when the element loses focus after the content has been changed.
+Raised when the widget loses focus after the text field's content was changed using the keyboard.
 <!--/shortDescription-->
 
 <!--fullDescription-->
