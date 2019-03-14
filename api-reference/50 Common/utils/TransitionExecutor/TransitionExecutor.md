@@ -15,6 +15,4 @@ To register the set of animations to be performed simultaneously, use the [enter
 The TransitionExecutor object is also useful when a need arises to perform a *staggered animation* of elements when elements are animated with a slight delay after animation of each successive element starts resulting in a curtain-like effect. In this instance, each element should be registered with by the **enter(elements, animation)**/**leave(elements, animation)** method with the animation configuration where the [staggerDelay](/Documentation/ApiReference/Common/Object_Structures/animationConfig/#staggerDelay) option is specified.
 
 To start a transition, call the [start()](/Documentation/ApiReference/Common/Utils/TransitionExecutor/Methods/#start) method of the TransitionExecutor object. To clear the registered set of animations in the TransitionExecutor object, call the [reset()](/Documentation/ApiReference/Common/Utils/TransitionExecutor/Methods/#reset) method.
-
-[note]The Transition Executor is used automatically in [DevExtreme SPA applications) to animate different parts of views. You need to provide a particular [set of animations](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Configuration/#animationSet) for the application only.
 <!--/fullDescription-->
