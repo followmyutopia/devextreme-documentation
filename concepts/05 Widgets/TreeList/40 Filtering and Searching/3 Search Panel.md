@@ -6,7 +6,7 @@ The search panel allows searching for values in several columns at once. Search 
     url: "/Demos/WidgetsGallery/Demo/Tree_List/UsingSearchPanel/jQuery/Light/"
 }
 
-To make the search panel visible, assign **true** to the [searchPanel](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/filterRow/).**visible** option. You can set a column's [allowSearch](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowSearch) option to **false** if it should be excluded from searching. Note that this option inherits the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option's value by default.
+To make the search panel visible, assign **true** to the [searchPanel](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/searchPanel/).**visible** option. You can set a column's [allowSearch](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowSearch) option to **false** if it should be excluded from searching. Note that this option inherits the [allowFiltering](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/columns/#allowFiltering) option's value by default.
 
 ---
 ##### jQuery
