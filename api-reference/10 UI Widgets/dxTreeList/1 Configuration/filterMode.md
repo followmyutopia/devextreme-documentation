@@ -5,7 +5,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether filter and search results should include only matching rows or their ancestors and/or descendants as well.
+Specifies whether to show filtered rows with ancestors and descendants (full branch) or with ancestors only.
 <!--/shortDescription-->
 
 <!--fullDescription-->
