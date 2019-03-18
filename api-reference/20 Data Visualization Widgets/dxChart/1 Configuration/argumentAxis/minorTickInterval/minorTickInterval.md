@@ -9,7 +9,7 @@ Specifies the interval between [minor ticks](/Documentation/ApiReference/Data_Vi
 <!--fullDescription-->
 Minor ticks divide the segment between two neighboring [major ticks](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/argumentAxis/tick/) into smaller segments. Minor ticks are generated automatically, unless the **minorTickInterval** option is set.
 
-If the axis displays numbers, assign a number to this option. If the axis displays date-time values, assign one of the accepted string values or an object to this option. The object should contain only one of all fields described in this section, for example:
+If the axis displays numbers, assign a number to this option. If the axis displays date-time values, assign one of the accepted string values or an object to this option. The object should contain one or several fields described in this section, for example:
 
 ---
 ##### jQuery
