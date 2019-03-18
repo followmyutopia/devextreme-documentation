@@ -8,6 +8,8 @@ Specifies which data field provides unique values to the widget's [value]({basew
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include uiwidgets-ref-valueExpr-functionnote
+
 #####See Also#####
 - [displayExpr]({basewidgetpath}/Configuration/#displayExpr)
 <!--/fullDescription-->
