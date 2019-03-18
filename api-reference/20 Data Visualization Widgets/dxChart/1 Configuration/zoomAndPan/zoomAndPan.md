@@ -28,7 +28,7 @@ Users can use the mouse and touch gestures to zoom and pan. The following table 
     </tr>
     <tr>
       <td>Mouse-equipped</td>
-      <td>Mouse Wheel for the argument axis;<br/>Shift + Mouse Wheel for the value axis</td>
+      <td>Mouse Wheel</td>
       <td>Vertical or horizontal drag</td>
     </tr>
     </tbody>

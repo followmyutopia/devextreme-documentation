@@ -8,5 +8,5 @@ Specifies whether users can use the mouse wheel to zoom the chart. Applies only 
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Users should rotate the mouse wheel to zoom the argument axis; press Shift and rotate the mouse wheel to zoom the value axis.
+
 <!--/fullDescription-->
