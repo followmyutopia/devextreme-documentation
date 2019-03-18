@@ -14,4 +14,7 @@ To hide labels, use the **label**.[visible](/Documentation/ApiReference/Data_Vis
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Gauges/LabelsCustomization/jQuery/Light/"
 }
+
+#####See Also#####
+- [resolveLabelOverlapping](/Documentation/ApiReference/Data_Visualization_Widgets/dxBarGauge/Configuration/#resolveLabelOverlapping)
 <!--/fullDescription-->
