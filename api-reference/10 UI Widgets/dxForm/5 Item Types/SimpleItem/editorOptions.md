@@ -4,10 +4,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies configuration options for the editor widget of the current form item.
+Configures the form item's editor.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+This object should contain the options of the DevExtreme editor specified in the [editorType](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#editorType).
+
 When using [ASP.NET MVC Controls](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/), configure the editor in the following manner.
 
     <!--Razor C#-->@(Html.DevExtreme().Form()
