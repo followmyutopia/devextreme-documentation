@@ -2,18 +2,18 @@
 ===================================================================
 
 <!--shortDescription-->
-Gets the row or column field to which the current cell belongs.
+Gets a pivot grid field that corresponds to the summary cell.
 <!--/shortDescription-->
 
 <!--paramName1-->area<!--/paramName1-->
 <!--paramType1-->String<!--/paramType1-->
 <!--paramDescription1-->
-The area from which to get a field. Can be *"row"* or *"column"*.
+The area from which to get the field: *"row"*, *"column"*, or *"data"*.
 <!--/paramDescription1-->
 
 <!--returnType-->PivotGridDataSource_Options_fields<!--/returnType-->
 <!--returnDescription-->
-The row or column field.
+The pivot grid field.
 <!--/returnDescription-->
 
 <!--fullDescription-->
