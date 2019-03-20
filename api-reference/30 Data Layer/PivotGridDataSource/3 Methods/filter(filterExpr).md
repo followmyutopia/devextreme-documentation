@@ -13,7 +13,7 @@ Pass **null** to clear filtering settings.
 <!--/paramDescription1-->
 
 <!--fullDescription-->
-Call the [load()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#load) method to update the **PivotGrid**:
+Call the [reload()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Methods/#reload) method to update the **PivotGrid**:
 
 ---
 ##### jQuery
@@ -27,7 +27,7 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Met
     // or
     // pivotGridDataSource.filter("age", ">", 18);
 
-    pivotGridDataSource.load();
+    pivotGridDataSource.reload();
     
 ##### Angular
 
@@ -45,7 +45,7 @@ Call the [load()](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Met
             // or
             // this.pivotGridDataSource.filter("age", ">", 18);
 
-            this.pivotGridDataSource.load();
+            this.pivotGridDataSource.reload();
         }
     }
 
