@@ -1,7 +1,6 @@
 ===========================================================================
-<!--module-->ui/drop_down_button<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--default-->'No data to display'<!--/default-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->

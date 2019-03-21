@@ -1,7 +1,6 @@
 ===========================================================================
-<!--module-->ui/drop_down_button<!--/module-->
-<!--export-->default<!--/export-->
-<!--inherits-->..\Widget\Widget.md<!--/inherits-->
+<!--default-->[]<!--/default-->
+<!--type-->Array<CollectionWidgetItem, Object><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
