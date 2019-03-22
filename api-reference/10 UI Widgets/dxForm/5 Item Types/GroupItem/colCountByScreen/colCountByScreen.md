@@ -5,9 +5,61 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies dependency between the screen factor and the count of columns in the group layout.
+Specifies the relation between the [screen size qualifier](/Documentation/ApiReference/UI_Widgets/dxForm/Configuration/#screenByWidth) and the number of columns in the grouped layout.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+---
+##### jQuery
 
+    <!--JavaScript-->
+    $(function() {
+        $("#formContainer").dxForm({
+            // ...
+            items: [{
+                itemType: "group",
+                items: [ ... ],
+                colCountByScreen: {
+                    xs: 2, 
+                    sm: 3  
+                }
+            },
+            // ...
+            ]
+        });
+    });
+
+##### Angular
+
+    <!-- tab: app.component.html -->
+    <dx-form ... >
+        <dxi-item itemType="group">
+            <dxo-col-count-by-screen 
+                [xs]="2"  
+                [sm]="3"> 
+            </dxo-col-count-by-screen>
+            <dxi-item ... ></dxi-item>
+        </dxi-item>
+    </dx-form>
+
+    <!-- tab: app.module.ts -->
+    import { BrowserModule } from '@angular/platform-browser';
+    import { NgModule } from '@angular/core';
+    import { AppComponent } from './app.component';
+
+    import { DxFormModule } from 'devextreme-angular';
+
+    @NgModule({
+        declarations: [
+            AppComponent
+        ],
+        imports: [
+            BrowserModule,
+            DxFormModule
+        ],
+        bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+---
 <!--/fullDescription-->
