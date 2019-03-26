@@ -8,7 +8,7 @@ Gets a validation group with a specific key.
 <!--paramName1-->group<!--/paramName1-->
 <!--paramType1-->String|Object<!--/paramType1-->
 <!--paramDescription1-->
-The validation group's key.
+The validation group's name or instance.
 <!--/paramDescription1-->
 
 <!--returnType-->Object<!--/returnType-->
@@ -17,16 +17,6 @@ The validation group.
 <!--/returnDescription-->
 
 <!--fullDescription-->
-A validation group's key can be represented in the following manner.
-
-- A **ValidationGroup** instance  
-    If it is not accessible in the current context in code, access it in the following manner.
-
-        <!--JavaScript-->$("#myGroup").dxValidationGroup("instance");
-
-- A string name  
-    When you use the jQuery approach for validation, a validation group is usually a string because it is the simplest way to unite several widgets in one group - by setting the same group name for the **validationGroup** configuration option of the associated **dxValidator** objects. In this and other similar cases, where you specify a validation group as a string, pass the validation group name as a parameter to the **validateGroup(group)** function.
-
 The object returned by the **getGroupConfig(group)** function has the following structure.
 
 - **group**  
@@ -37,5 +27,14 @@ The object returned by the **getGroupConfig(group)** function has the following 
     The method that allows you to validate the widgets included to the current group.
 - **validated**  
     The event that occurs after the group is validated. You can attach/detach a handler using the **on(eventName, eventHandler)**/**off(eventName)** methods of the group.
+
+<!---->
+    
+    <!--JavaScript-->
+    let validationGroup = DevExpress.validationEngine.getGroupConfig('myGroup');
+    // ===== or when using modules =====
+    import validationEngine from 'devextreme/ui/validation_engine';
+
+    let validationGroup = validationEngine.getGroupConfig('myGroup');
 
 <!--/fullDescription-->
