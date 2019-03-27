@@ -129,6 +129,10 @@ Using the default item template is the easiest way to customize an item, but it 
 
 ---
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/TabPanel/Overview/jQuery/Light/"
+}
+
 If you use jQuery alone, combine the HTML markup for items manually with jQuery [DOM manipulation methods](http://api.jquery.com/category/manipulation/). To apply this markup, use the [itemTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTemplate) and [itemTitleTemplate](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Configuration/#itemTitleTemplate) callback functions for views and tabs, respectively.
 
     <!--JavaScript-->
