@@ -147,6 +147,8 @@ When configuring the **LocalStore**, specify the [name](/Documentation/ApiRefere
 
 ---
 
+#include datalayer-store-note-immutable with { name: "LocalStore" }
+
 #####See Also#####
 - [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
 - [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)

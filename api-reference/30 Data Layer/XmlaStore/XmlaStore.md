@@ -138,6 +138,8 @@ The **XmlaStore** is used in the [PivotGridDataSource](/Documentation/ApiReferen
 
 The **XmlaStore** currently supports only the Microsoft Analysis Services OLAP tool. Refer to the [Multidimensional Modeling](https://docs.microsoft.com/en-us/sql/analysis-services/multidimensional-modeling-adventure-works-tutorial?view=sql-analysis-services-2017) tutorial for more information on it. To learn how to configure HTTP access to Analysis Services on IIS, see [this article](https://docs.microsoft.com/en-us/sql/analysis-services/instances/configure-http-access-to-analysis-services-on-iis-8-0?view=sql-analysis-services-2017).
 
+#include datalayer-store-note-immutable with { name: "XmlaStore" }
+
 #####See Also#####
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 <!--/fullDescription-->

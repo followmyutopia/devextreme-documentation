@@ -4,23 +4,182 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a data source for the pivot grid.
+Binds the widget to data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-To provide data for a pivot grid, use the **dataSource** option. This option takes on one of the following.
+If you use DevExtreme ASP.NET MVC Controls, refer to the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/) article.
 
-- An array of objects  
-    The fields of each object will be used to provide data for corresponding pivot grid fields.
+The **PivotGrid** is bound to data via the [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/), a component that allows you to sort, filter, group, and otherwise shape data. The **PivotGridDataSource**'s underlying data access logic is isolated in the store. You use different store types for different data sources.
+ 
+To bind the **PivotGrid** to data, assign a **PivotGridDataSource** to the widget's **dataSource** option. In the **PivotGridDataSource**, specify the [store](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/store/) option depending on your data source as shown in the following list. In each case, also specify the [fields[]](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/) array to configure pivot grid fields.
 
-- A [PivotGridDataSource](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/) or its [Configuration Object](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/)  
-The DataSource is an object that includes options for data sorting, grouping and filtering. The DataSource's underlying data access logic is isolated in a [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores). Unlike the DataSource, a Store is a stateless object implementing a universal interface for reading and modifying data. If the [Store](/Documentation/Guide/Data_Layer/Data_Layer/#Creating_DataSource/What_Are_Stores) type is not [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/), the **PivotGridDataSource** also describes pivot grid [fields](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/fields/).
+- **Data Array**        
+Assign the array to the **store** option. [View Demo](/Demos/WidgetsGallery/Demo/PivotGrid/SimpleArray/jQuery/Light/)
 
-#include widgets-ref-datasource-fieldname-note
+- **OLAP Data**         
+Implement an [XmlaStore](/Documentation/ApiReference/Data_Layer/XmlaStore/). [View Demo](/Demos/WidgetsGallery/Demo/PivotGrid/OLAPDataSource/jQuery/Light/)
 
-For more information on how to implement a data source and bind it to your pivot grid, refer to the [Data Binding](/Documentation/Guide/Widgets/PivotGrid/Data_Binding/) topic.
+- **Web API, PHP, MongoDB**     
+Use one of the following extensions to enable the server to process data according to the protocol DevExtreme widgets use:
 
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Pivot_Grid/LocalDataSource/jQuery/Light/"
-}
+    - [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/README.md)
+    - [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data/blob/master/README.md)
+    - [devextreme-query-mongodb](https://github.com/oliversturm/devextreme-query-mongodb/blob/master/README.md)
+
+    Then, use the [createStore](https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/client-side-with-jquery.md#api-reference) method to configure access to the server on the client as shown below. This method is part of **DevExtreme.AspNet.Data**.
+
+    ---
+    ##### jQuery
+
+        <!-- tab: JavaScript -->
+        $(function() {
+            let serviceUrl = "https://url/to/my/service";
+            $("#pivotGridContainer").dxPivotGrid({
+                // ...
+                dataSource: new DevExpress.data.PivotGridDataSource({
+                    store: DevExpress.data.AspNet.createStore({
+                        key: "ID",
+                        loadUrl: serviceUrl + "/GetAction"
+                    })
+                })
+            })
+        });
+
+    ##### Angular
+
+        <!-- tab: app.component.ts -->
+        import { Component } from '@angular/core';
+        import CustomStore from 'devextreme/data/custom_store';
+        import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+        import { createStore } from 'devextreme-aspnet-data-nojquery';
+
+        @Component({
+            selector: 'app-root',
+            templateUrl: './app.component.html',
+            styleUrls: ['./app.component.css']
+        })
+        export class AppComponent {
+            store: CustomStore;
+            constructor() {
+                let serviceUrl = "https://url/to/my/service";
+                this.pivotGridDataSource = new PivotGridDataSource({
+                    store: createStore({
+                        key: "ID",
+                        loadUrl: serviceUrl + "/GetAction"
+                    })
+                })
+            }
+        }
+
+        <!-- tab: app.component.html -->
+        <dx-pivot-grid ...
+            [dataSource]="pivotGridDataSource">
+        </dx-pivot-grid>
+
+        <!-- tab: app.module.ts -->
+        import { BrowserModule } from '@angular/platform-browser';
+        import { NgModule } from '@angular/core';
+        import { AppComponent } from './app.component';
+
+        import { DxPivotGridModule } from 'devextreme-angular';
+
+        @NgModule({
+            declarations: [
+                AppComponent
+            ],
+            imports: [
+                BrowserModule,
+                DxPivotGridModule
+            ],
+            providers: [],
+            bootstrap: [AppComponent]
+        })
+        export class AppModule { }
+
+    ##### Vue
+
+        <!-- tab: App.vue -->
+        <template> 
+            <dx-pivot-grid ...
+                :data-source="pivotGridDataSource" />
+        </template>
+
+        <script>
+        import 'devextreme/dist/css/dx.common.css';
+        import 'devextreme/dist/css/dx.light.css';
+
+        import CustomStore from 'devextreme/data/custom_store';
+        import { createStore } from 'devextreme-aspnet-data-nojquery';
+        import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+        import { DxPivotGrid } from 'devextreme-vue/pivot-grid';
+
+        export default {
+            components: {
+                DxPivotGrid
+            },
+            data() {
+                const serviceUrl = "https://url/to/my/service";
+                const pivotGridDataSource = new PivotGridDataSource({
+                    store: createStore({
+                        key: "ID",
+                        loadUrl: serviceUrl + "/GetAction"
+                    })
+                });
+                return {
+                    pivotGridDataSource
+                }
+            }
+        }
+        </script>
+
+    ##### React
+
+        <!-- tab: App.js -->
+        import React from 'react';
+        import 'devextreme/dist/css/dx.common.css';
+        import 'devextreme/dist/css/dx.light.css';
+
+        import CustomStore from 'devextreme/data/custom_store';
+        import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
+        import { createStore } from 'devextreme-aspnet-data-nojquery';
+        import { DxPivotGrid } from 'devextreme-react/pivot-grid';
+
+        const serviceUrl = "https://url/to/my/service";
+        const pivotGridDataSource = new PivotGridDataSource({
+            store: createStore({
+                key: "ID",
+                loadUrl: serviceUrl + "/GetAction"
+            })
+        });
+
+        class App extends React.Component {
+            render() {
+                return (
+                    <PivotGrid ...
+                        dataSource={pivotGridDataSource} />
+                );
+            }
+        }
+        export default App;
+
+    ---
+
+
+- **Any other data source**     
+Implement a [CustomStore](/Documentation/Guide/Widgets/PivotGrid/Use_CustomStore/).
+
+You can call the [getDataSource()]({basewidgetpath}/Methods/#getDataSource) method to access the **PivotGridDataSource** instance associated with the **PivotGrid**.
+
+[note]
+
+Please review the following notes about data binding:
+
+- If the **PivotGrid** widget gets data from a server, enable [remoteOperations](/Documentation/ApiReference/Data_Layer/PivotGridDataSource/Configuration/#remoteOperations) to notify the widget that the server performs data processing operations.
+
+- Data field names should not contain the following characters: `.`, `,`, `:`, `[`, and `]`.
+
+- **PivotGridDataSource** and stores provide methods to process and update data. However, the methods do not allow you to perform particular tasks (for example, replace the entire dataset, reconfigure data access at runtime). For such tasks, create a new **PivotGridDataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Change_Options/), [React](https://github.com/DevExpress/devextreme-react/blob/19.1/README.md#controlled-mode), and [Vue](https://github.com/DevExpress/devextreme-vue/blob/19.1/README.md#two-way-binding).
+
+[/note]
 <!--/fullDescription-->

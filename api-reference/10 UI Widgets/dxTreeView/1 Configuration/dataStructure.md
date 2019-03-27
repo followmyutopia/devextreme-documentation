@@ -5,53 +5,46 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies whether a nested or plain array is used as a data source.
+Notifies the widget of the used data structure.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-If the option is set to "tree", the array should have a tree structure. This means that each item can contain the **items** field, which contains an array of nested items.
+The widget expects that data has a hierarchical structure where each data item contains a `text`, a unique `id`, and an `items` array if the data item nests other data items:
 
     <!--JavaScript-->
-    var treeViewData = [
-        {
-            id: 1,
-            items: [
-                { id: 11 },
-                { id: 12 },
-                { 
-                    id: 13,
-                    items: [
-                        { id: 131 },
-                        { id: 132 },
-                        { id: 133 },
-                    ]
-                },
-            ]
-        },
-        { id: 2 }
-    ];
+    var hierarchicalData = [{
+        id: '1',
+        text: 'Fruits',
+        items: [
+            { id: '1_1', text: 'Apples' },
+            { id: '1_2', text: 'Oranges' }
+        ]
+    }, {
+        id: '2',
+        text: 'Vegetables',
+        items: [
+            { id: '2_1', text: 'Cucumbers' },
+            { id: '2_2', text: 'Tomatoes' }
+        ]
+    }];
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/TreeView/HierarchicalDataStructure/jQuery/Light/"
 }
 
-If the **dataStructure** option value is "plain", the array should have a plain structure. In this case, each array item should contain the **parentId** field, which specifies the key of the parent item.
+If data has a plain structure, set the **dataStructure** option to *"plain"*. In this case, each data item should have a `text`, a unique `id`, and a `parentId`. For root items, `parentId` should be equal to **0** or **undefined**:
 
     <!--JavaScript-->
-    var treeViewData = [
-        { id: 1, parentId: 0 },
-        { id: 11, parentId: 1 },
-        { id: 12, parentId: 1 },
-        { id: 13, parentId: 1 },
-        { id: 131, parentId: 13 },
-        { id: 132, parentId: 13 },
-        { id: 133, parentId: 13 },
-        { id: 2, parentId: 0 }
+    var plainData = [
+        { id: '1', text: 'Fruits' },     // A root item
+        { id: '1_1', text: 'Apples', parentId: '1' },
+        { id: '1_2', text: 'Oranges', parentId: '1' },
+        { id: '2', text: 'Vegetables' }, // Also a root item
+        { id: '2_1', text: 'Cucumbers', parentId: '2' },
+        { id: '2_2', text: 'Tomatoes', parentId: '2' }
     ];
 
-[note]If the **dataStructure** option is set to "plain", the widget requires you to specify at least one root item. An item is used as a root item if its **parentId** field holds **0** or **null**.
-
-[note]The widget requires each data item to have a key field whose value is unique within the entire array.
+`id`, `text`, `items`, and `parentId` are conventional field names defined in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/). To use other names, change the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#keyExpr), [displayExpr](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#displayExpr), [itemsExpr](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#itemsExpr), and [parentIdExpr](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#parentIdExpr) options, respectively. You can also specify the [rootValue](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#rootValue) option to change the `parentId` value that root items should have.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/TreeView/FlatDataStructure/jQuery/Light/"

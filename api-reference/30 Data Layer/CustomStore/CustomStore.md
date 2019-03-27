@@ -144,6 +144,8 @@ If your data source supports CRUD operations, implement the [insert](/Documentat
 
 ---
 
+#include datalayer-store-note-immutable with { name: "CustomStore" }
+
 #####See Also#####
 - [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
 - [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)

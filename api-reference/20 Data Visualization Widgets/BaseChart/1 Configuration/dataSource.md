@@ -4,26 +4,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the widget's data origin.
+Binds the widget to data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts one of the following:
+#include common-dataSource-description with {
+    widget_works_with: "The **{WidgetName}** works with collections of objects.",
 
-- **Array of objects**      
- A simple JavaScript array containing a collection of plain objects. See [demo](/Demos/WidgetsGallery/Demo/Charts/SimpleArray/jQuery/Light/).
+    array_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/Charts/SimpleArray/jQuery/Light/)",
 
-- **URL**       
- The URL of a JSON file or service that returns JSON data. See [demo](/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/).
+    json_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/Charts/AjaxRequest/jQuery/Light/)",
 
-- **[DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)**      
- A **DataSource** is an object that provides an API for data processing. Learn more about it from the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer) and [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples) guides. See [demo](/Demos/WidgetsGallery/Demo/Charts/ClientSideDataProcessing/jQuery/Light/).
+    additional_data_binding_actions: "After providing data, [bind series to it](/Documentation/Guide/Widgets/Chart/Data_Binding/Bind_Series_to_Data/).",
 
-    [note]Turn the **DataSource**'s [pagination](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) off to prevent data from partitioning.
-
-#include widgets-ref-datasource-fieldname-note
-
-#####See Also#####
-- [argumentField]({basewidgetpath}/Configuration/series/#argumentField) | [valueField]({basewidgetpath}/Configuration/series/#valueField)
-- [getDataSource()]({basewidgetpath}/Methods/#getDataSource)
+    paginate_note: "- If you wrap the store into the **DataSource** object explicitly, set the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to **false** to prevent data from partitioning."
+}
 <!--/fullDescription-->

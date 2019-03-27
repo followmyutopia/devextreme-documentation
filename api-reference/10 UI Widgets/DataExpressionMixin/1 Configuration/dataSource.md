@@ -4,27 +4,15 @@
 ===========================================================================
 
 <!--shortDescription-->
-A data source used to fetch data the widget should display.
+Binds the widget to data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts one of the following:
+#include common-dataSource-description with {
+    widget_works_with: "The **{WidgetName}** works with collections of objects or `string`, `number`, or `boolean` values.",
 
-- Array         
- A JavaScript array that contains string, numeric, Boolean values, or plain objects.
+    object_structure_notes: "In each case, also specify the [valueExpr]({basewidgetpath}/Configuration/#valueExpr), [displayExpr]({basewidgetpath}/Configuration/#displayExpr), or both if the data source provides objects.",
 
-- URL       
- The URL of a JSON file or service that returns JSON data.
-
-- [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)      
- The **DataSource** is an object that provides an API for data processing. The **DataSource**'s underlying data access logic is isolated in a store. Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) and [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/) guides for more information about the **DataSource**.
-
-If the data source contains objects, specify the **key** in the store and/or a [data field providing values]({basewidgetpath}/Configuration/#valueExp) in the widget.
-
-#include widgets-ref-datasource-fieldname-note
-
-If the data source is specified using the **dataSource** option, use the [items]({basewidgetpath}/Configuration/#items) option only for reading. Updating data items using the **items** option may cause unexpected results.
-
-#####See Also#####
-- **key** in [ArrayStore](/Documentation/ApiReference/Data_Layer/ArrayStore/Configuration/#key) | [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) | [LocalStore](/Documentation/ApiReference/Data_Layer/LocalStore/Configuration/#key) | [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#key)
+    dataSource_items_note: "- Do not specify the [items]({basewidgetpath}/Configuration/#items) option if you specified the **dataSource**, and vice versa."
+}
 <!--/fullDescription-->

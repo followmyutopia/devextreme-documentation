@@ -5,11 +5,16 @@
 ===========================================================================
 
 <!--shortDescription-->
-Notifies the widget of your data structure.
+Notifies the widget of the used data structure.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-By default, the widget expects that data has a plain structure where each data item contains a *"parentId"* field and a unique *"id"* field. For items of the highest hierarchical level, *"parentId"* should be *0*, **null** or **undefined** indicating that these items belong to the root node. The root node holds the entire hierarchy and is not visualized.
+The widget expects that data has a plain structure where:
+
+- each data item contains a `parentId` and a unique `id`;
+- data items of the highest hierarchical level have `parentId` equal to **0**, **null** or **undefined**. It indicates that these data items descend from the root node. The root node does not have a visual representation.
+
+<!----->
 
     <!--JavaScript-->
     var treeListData = [
@@ -23,11 +28,13 @@ By default, the widget expects that data has a plain structure where each data i
         { id: 2, parentId: 0 }
     ];
 
+Specify the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) and [parentIdExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#parentIdExpr) if `parentId` and `id` are called differently in your dataset. You can also change the root node's ID from 0 via the [rootValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#rootValue) option.
+
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/"
 }
 
-If your data has a hierarchical structure where each data item contains nested items, set this option to *"tree"*. Parent and item IDs will be generated automatically.
+If data has a hierarchical structure, set the **dataStructure** option to *"tree"*. Parent and item IDs will be generated automatically. Data items that nest other data items should have an **items** field:
 
     <!--JavaScript-->
     var treeListData = [{
@@ -45,15 +52,15 @@ If your data has a hierarchical structure where each data item contains nested i
         text: "item2" 
     }];
 
+If the **items** field is called differently in your dataset, specify the [itemsExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#itemsExpr) option. 
+
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Tree_List/LocalDataHierarchicalStructure/jQuery/Light/"
 }
 
+If each data item have a Boolean field that specifies whether this data item nests other items, assign the field's name to the [hasItemsExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#hasItemsExpr) option. The widget uses this information to render the expand button. This is required only if the widget is bound to a remote data source.
+
 #####See Also#####
 - [Use Plain Data](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Plain_Data/)
 - [Use Hierarchical Data](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Hierarchical_Data/)
-- [parentIdExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#itemsExpr)
-- [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr)
-- [rootValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#rootValue)
-- [itemsExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#itemsExpr)
 <!--/fullDescription-->

@@ -144,6 +144,8 @@ The **ODataStore** is a store that provides an interface for loading and editing
 
 To access an entire OData service, use the [ODataContext](/Documentation/ApiReference/Data_Layer/ODataContext/) instead.
 
+#include datalayer-store-note-immutable with { name: "ODataStore" }
+
 #####See Also#####
 - [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
 - [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)

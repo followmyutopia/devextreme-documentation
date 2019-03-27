@@ -139,6 +139,8 @@ This object creates several [ODataStore](/Documentation/ApiReference/Data_Layer/
 
 ---
 
+#include datalayer-store-note-immutable with { name: "ODataContext" }
+
 #####See Also#####
 - [DataSource Examples - OData](/Documentation/Guide/Data_Layer/Data_Source_Examples/#OData)
 <!--/fullDescription-->

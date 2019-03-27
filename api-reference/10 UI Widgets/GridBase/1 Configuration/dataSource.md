@@ -4,29 +4,30 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the origin of data for the widget.
+Binds the widget to data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts one of the following: 
+#include common-dataSource-description with {
+    widget_works_with: "The **DataGrid** works with collections of objects.",
 
-- **Array of Objects**      
- A simple JavaScript array containing a collection of plain objects.
+    array_key_note: " and specify the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#keyExpr)",
 
-- **URL**       
- The URL of a JSON file or service that returns JSON data.
+    array_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/BatchEditing/jQuery/Light/)",
 
-- **[DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)**     
- A **DataSource** is an object that provides a handy API for data processing. A **DataSource** is a stateful object, which means that it saves data processing settings and applies them each time data is loaded. All underlying data access logic of a **DataSource** is isolated in a **Store**. A **Store** provides an API for reading and modifying data. Unlike the **DataSource**, a **Store** is a stateless object.
+    json_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/AjaxRequest/jQuery/Light/)",
 
-    [note]If you use [data mapping](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map), features like [export]({basewidgetpath}/Configuration/export/) and [selection]({basewidgetpath}/Methods/#getSelectedRowsData) may work incorrectly. We recommend using [calculated columns]({basewidgetpath}/Configuration/columns/#calculateCellValue) instead of mapping.
+    odata_key_note: " Make sure to specify the [key](/Documentation/ApiReference/Data_Layer/ODataStore/Configuration/#key).",
 
-#include widgets-ref-datasource-fieldname-note
+    odata_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/ODataService/jQuery/Light/)", 
 
-The widget cannot track changes that a third party makes in the data source. To bring data in the widget up to date in this case, call the [refresh()]({basewidgetpath}/Methods/#refresh) method.
+    create_store_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/WebAPIService/jQuery/Light/)",
 
-#####See Also#####
-- [Data Binding](/Documentation/Guide/Widgets/{WidgetName}/Data_Binding/)
-- [Data Layer - Overview](/Documentation/Guide/Data_Layer/Data_Layer/)
-- [Data Layer - DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples)
+    custom_store_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/DataGrid/CustomDataSource/jQuery/Light/)",
+
+    remote_operations_note: "- If the **DataGrid** widget gets data from a server, configure [remoteOperations](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/remoteOperations/) to notify the widget about data operations the server performs.",
+
+    calculated_columns_note: "- Features like [export](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/export/) and [selection](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/selection/) work incorrectly with [mapped data objects](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#map). Use [calculated columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#calculateCellValue) instead of mapping."
+
+}
 <!--/fullDescription-->

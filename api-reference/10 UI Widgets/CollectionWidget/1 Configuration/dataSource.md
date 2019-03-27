@@ -4,24 +4,15 @@
 ===========================================================================
 
 <!--shortDescription-->
-A data source used to fetch data to be displayed by the widget.
+Binds the widget to data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts one of the following.
+#include common-dataSource-description with {
+    widget_works_with: "The **{WidgetName}** works with collections of `string` values or objects.",
 
-- Array of objects      
- A simple JavaScript array containing a collection of plain objects.
-
-- URL       
- The URL of a JSON file or service that returns JSON data.
-
-- [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)      
- A DataSource is an object that provides a handy API for data processing. A DataSource is a stateful object, which means that it saves data processing settings and applies them each time data is loaded. All underlying data access logic of a DataSource is isolated in a Store. A Store provides an API for reading and modifying data. Unlike the DataSource, a Store is a stateless object.
-
-#include widgets-ref-datasource-fieldname-note
-
-If the data source is specified using the **dataSource** option, use the [items]({basewidgetpath}/Configuration/#items) option only for reading. Updating data items using the **items** option may cause unexpected results.
-
-To display widget items, a default template can be used. This template is based on the data source fields that are listed in the [Default Item Template]({basewidgetpath}/Default_Item_Template/) section of the widget's API. 
+    object_structure_notes: "If the data source provides objects, also specify the [itemTemplate]({basewidgetpath}/Configuration/#itemTemplate). You can skip this part if the objects contain fields described in the [Default Item Template]({basewidgetpath}/Default_Item_Template/) section.",
+    
+    dataSource_items_note: "- Do not specify the [items]({basewidgetpath}/Configuration/#items) option if you specified the **dataSource**, and vice versa."
+}
 <!--/fullDescription-->

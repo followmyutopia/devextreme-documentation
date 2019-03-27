@@ -96,6 +96,8 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
         End Sub)
     )
 
+#include datalayer-store-note-immutable with { name: "DataSource" }
+
 #####See Also#####
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 <!--/fullDescription-->

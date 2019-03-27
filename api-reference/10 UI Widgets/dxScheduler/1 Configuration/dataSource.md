@@ -4,32 +4,19 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the origin of data for the widget.
+Binds the widget to data.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-This option accepts one of the following.
+#include common-dataSource-description with {
+    widget_works_with: "The **Scheduler** works with collections of objects.",
 
-- Array of objects      
- A simple JavaScript array containing a collection of plain objects.
+    object_structure_notes: "In each case, also specify the widget's [startDateExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#startDateExpr) and [endDateExpr](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#endDateExpr) options. Optionally, set other options with the **Expr** postfix.",
 
-- URL       
- The URL of a JSON file or service that returns JSON data.
+    array_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/Scheduler/SimpleArray/jQuery/Light/)",
 
-- [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)      
- The **DataSource** is an object that provides an API for data processing. The **DataSource**'s underlying data access logic is isolated in a store. Refer to the [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/) and [DataSource Examples](/Documentation/Guide/Data_Layer/Data_Source_Examples/) guides for more information about the **DataSource**. 
+    custom_store_view_demo: "[View Demo](/Demos/WidgetsGallery/Demo/Scheduler/GoogleCalendarIntegration/jQuery/Light/)",
 
-    [note] Turn the **DataSource**'s [pagination](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) off to prevent data from partitioning.
-
-#include widgets-ref-datasource-fieldname-note
-
-To display appointments, a default template can be used. This template is based on the data source fields that are listed in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxScheduler/Default_Appointment_Template/) section of the widget's API. Alternatively, you can implement a [custom template](/Documentation/Guide/Widgets/Scheduler/Appointments/Customize_Appointment/). 
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/formsandmulti-purposeschedulerschedulergooglecalendarintegration"
+    paginate_note: "- If you wrap the store into the **DataSource** object explicitly, set the [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#paginate) option to **false** to prevent data from partitioning."
 }
-
-#####See Also#####
-- [Scheduler - Data Binding](/Documentation/Guide/Widgets/Scheduler/Data_Binding/)
-
 <!--/fullDescription-->

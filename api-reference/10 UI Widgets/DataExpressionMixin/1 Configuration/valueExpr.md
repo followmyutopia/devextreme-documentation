@@ -8,6 +8,8 @@ Specifies which data field provides unique values to the widget's [value]({basew
 <!--/shortDescription-->
 
 <!--fullDescription-->
+Alternatively, you can specify the [key](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#key) in the store. 
+
 #include uiwidgets-ref-valueExpr-functionnote
 
 #####See Also#####

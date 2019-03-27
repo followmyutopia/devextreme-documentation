@@ -4,25 +4,13 @@
 ===========================================================================
 
 <!--fullDescription-->
-This option accepts one of the following.
+#include common-dataSource-description with {
+    widget_works_with: "The **TreeView** works with object collections that can have a plain or hierarchical structure. Depending on the structure, the objects should provide different data fields. Specify the [dataStructure](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataStructure) option to notify the **TreeView** of the used structure and refer to the option's description for information on the required fields.",
 
-- Array of objects      
- A simple JavaScript array containing a collection of plain objects.
+    dataSource_items_note: "- Do not specify the [items]({basewidgetpath}/Configuration/#items) option if you specified the **dataSource**, and vice versa."
 
-- URL       
- The URL of a JSON file or service that returns JSON data.
-
-- [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) or its [configuration object](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/)      
- A DataSource is an object that provides a handy API for data processing. A DataSource is a stateful object, which means that it saves data processing settings and applies them each time data is loaded. All underlying data access logic of a DataSource is isolated in a Store. A Store provides an API for reading and modifying data. Unlike the DataSource, a Store is a stateless object.
-
-#include widgets-ref-datasource-fieldname-note
-
-[note]The widget requires each data item to have a key field whose value is unique within the entire array.
-
-If the data source is specified using the [dataSource](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#dataSource) option, use the [items](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#items) option only for reading. Updating data items using the **items** option may cause unexpected results.
-
-To display widget items, a default template can be used. This template is based on the data source fields that are listed in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxTreeView/Default_Item_Template/) section of the widget's API. Alternatively, you can implement a custom item template. For details, refer to the [Customize Node Appearance](/Documentation/Guide/Widgets/TreeView/Customize_Node_Appearance) topic.
+}
 
 #####See Also#####
-- [createChildren](/Documentation/ApiReference/UI_Widgets/dxTreeView/Configuration/#createChildren) - allows you to load nodes manually.
+- [Enhance Performance on Large Datasets](/Documentation/Guide/Widgets/TreeView/Enhance_Performance_on_Large_Datasets/)
 <!--/fullDescription-->

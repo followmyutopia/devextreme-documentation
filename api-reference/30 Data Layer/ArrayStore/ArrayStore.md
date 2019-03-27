@@ -193,6 +193,8 @@ The **ArrayStore** is a store that provides an interface for loading and editing
 
 ---
 
+#include datalayer-store-note-immutable with { name: "ArrayStore" }
+
 #####See Also#####
 - [DataSource API Reference](/Documentation/ApiReference/Data_Layer/DataSource/)
 - [Data Layer](/Documentation/Guide/Data_Layer/Data_Layer/)

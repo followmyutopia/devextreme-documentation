@@ -1,87 +1,24 @@
-===========================================================================
-<!--notUsedInTheme--><!--/notUsedInTheme-->
-<!--type-->Array<any> | DataSource | DataSource_Options | String<!--/type-->
-===========================================================================
-
-<!--shortDescription-->
-Binds the widget to data.
-<!--/shortDescription-->
-
-<!--fullDescription-->
 If you use DevExtreme ASP.NET MVC Controls, refer to the [Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/) article.
 
-The **TreeMap** works with collections of objects. 
+${{widget_works_with}}
 
-Objects that have a plain structure are visualized by tiles. For example, the following array of objects produces four tiles:
-
-    let data = [
-        { name: "Apples", value: 10 },
-        { name: "Oranges", value: 13 },
-        { name: "Cucumbers", value: 4 },
-        { name: "Tomatoes", value: 8 }
-    ];
-
-Objects that have a hierarchical structure are visualized by groups of tiles. For example, the following array arranges the tiles from the previous code in two groups: *"Fruits"* and *"Vegetables"*.
-
-    let data = [{
-        name: "Fruits",
-        items: [
-            { name: "Apples", value: 10 },
-            { name: "Oranges", value: 13 }
-        ]
-    }, {
-        name: "Vegetables",
-        items: [
-            { name: "Cucumbers", value: 4 },
-            { name: "Tomatoes", value: 8 }
-        ]
-    }];
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/HierarchicalDataStructure/jQuery/Light/"
-}
-
-For both structures, set the [valueField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#valueField) and [labelField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#labelField); for the hierarchical structure, also set the [childrenField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#childrenField).
-
-A plain data array can imply a hierarchical structure. An example of such array is given below. In this case, set the [idField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#idField) and [parentField](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Configuration/#parentField) in addition to the **valueField** and **labelField**.
-
-    let data = [
-        { id: 1, name: "Fruits"},
-        { parent: 1, name: "Apples", value: 10 },
-        { parent: 1, name: "Oranges", value: 13 },
- 
-        { id: 2, name: "Vegetables" },
-        { parent: 2, name: "Cucumbers", value: 4 },
-        { parent: 2, name: "Tomatoes", value: 8 }
-    ];
-
-    let treeMapOptions = {
-        // ...
-        idField: "id",
-        parentField: "parent"
-    };
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Charts/FlatDataStructure/jQuery/Light/"
-}
-
-Depending on your data source, bind the **TreeMap** to data as follows.
+Depending on your data source, bind the **{WidgetName}** to data as follows. ${{object_structure_notes}}
 
 - **Data Array**        
-Assign the array to the **dataSource** option. 
+Assign the array to the **dataSource** option${{array_key_note}}. ${{array_view_demo}}
 
 - **Read-Only Data in JSON Format**          
-Set the **dataSource** option to the URL of a JSON file or service that returns JSON data.
+Set the **dataSource** option to the URL of a JSON file or service that returns JSON data. ${{json_view_demo}}
 
 - **OData**         
-Implement an [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).
+Implement an [ODataStore](/Documentation/ApiReference/Data_Layer/ODataStore/).${{odata_key_note}} ${{odata_view_demo}}
 
 - **Web API, PHP, MongoDB**     
 Use one of the following extensions to enable the server to process data according to the protocol DevExtreme widgets use:
 
     - [DevExtreme.AspNet.Data](https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/README.md)
     - [DevExtreme-PHP-Data](https://github.com/DevExpress/DevExtreme-PHP-Data/blob/master/README.md)
-    - [devextreme-query-mongodb](https://github.com/oliversturm/devextreme-query-mongodb/blob/master/README.md)
+    - [devextreme-query-mongodb](https://github.com/oliversturm/devextreme-query-mongodb/blob/master/README.md)     
 
     Then, use the [createStore](https://github.com/DevExpress/DevExtreme.AspNet.Data/blob/master/docs/client-side-with-jquery.md#api-reference) method to configure access to the server on the client as shown below. This method is part of **DevExtreme.AspNet.Data**.
 
@@ -91,11 +28,14 @@ Use one of the following extensions to enable the server to process data accordi
         <!-- tab: JavaScript -->
         $(function() {
             let serviceUrl = "https://url/to/my/service";
-            $("#{widgetName}Container").dxTreeMap({
+            $("#{widgetName}Container").dx{WidgetName}({
                 // ...
                 dataSource: DevExpress.data.AspNet.createStore({
                     key: "ID",
-                    loadUrl: serviceUrl + "/GetAction"
+                    loadUrl: serviceUrl + "/GetAction",
+                    insertUrl: serviceUrl + "/InsertAction",
+                    updateUrl: serviceUrl + "/UpdateAction",
+                    deleteUrl: serviceUrl + "/DeleteAction"
                 })
             })
         });
@@ -118,22 +58,25 @@ Use one of the following extensions to enable the server to process data accordi
                 let serviceUrl = "https://url/to/my/service";
                 this.store = createStore({
                     key: "ID",
-                    loadUrl: serviceUrl + "/GetAction"
+                    loadUrl: serviceUrl + "/GetAction",
+                    insertUrl: serviceUrl + "/InsertAction",
+                    updateUrl: serviceUrl + "/UpdateAction",
+                    deleteUrl: serviceUrl + "/DeleteAction"
                 })
             }
         }
 
         <!-- tab: app.component.html -->
-        <dx-tree-map ...
+        <dx-{widget-name} ...
             [dataSource]="store">
-        </dx-tree-map>
+        </dx-{widget-name}>
 
         <!-- tab: app.module.ts -->
         import { BrowserModule } from '@angular/platform-browser';
         import { NgModule } from '@angular/core';
         import { AppComponent } from './app.component';
 
-        import { DxTreeMapModule } from 'devextreme-angular';
+        import { Dx{WidgetName}Module } from 'devextreme-angular';
 
         @NgModule({
             declarations: [
@@ -141,7 +84,7 @@ Use one of the following extensions to enable the server to process data accordi
             ],
             imports: [
                 BrowserModule,
-                DxTreeMapModule
+                Dx{WidgetName}Module
             ],
             providers: [],
             bootstrap: [AppComponent]
@@ -152,24 +95,30 @@ Use one of the following extensions to enable the server to process data accordi
 
         <!-- tab: App.vue -->
         <template> 
-            <dx-tree-map ...
+            <dx-{widget-name} ...
                 :data-source="store" />
         </template>
 
         <script>
+        import 'devextreme/dist/css/dx.common.css';
+        import 'devextreme/dist/css/dx.light.css';
+
         import CustomStore from 'devextreme/data/custom_store';
         import { createStore } from 'devextreme-aspnet-data-nojquery';
-        import { DxTreeMap } from 'devextreme-vue/tree-map';
+        import { Dx{WidgetName} } from 'devextreme-vue/{widget-name}';
 
         export default {
             components: {
-                DxTreeMap
+                Dx{WidgetName}
             },
             data() {
                 const serviceUrl = "https://url/to/my/service";
                 const store = createStore({
                     key: "ID",
-                    loadUrl: serviceUrl + "/GetAction"
+                    loadUrl: serviceUrl + "/GetAction",
+                    insertUrl: serviceUrl + "/InsertAction",
+                    updateUrl: serviceUrl + "/UpdateAction",
+                    deleteUrl: serviceUrl + "/DeleteAction"
                 });
                 return {
                     store
@@ -182,21 +131,26 @@ Use one of the following extensions to enable the server to process data accordi
 
         <!-- tab: App.js -->
         import React from 'react';
+        import 'devextreme/dist/css/dx.common.css';
+        import 'devextreme/dist/css/dx.light.css';
 
         import CustomStore from 'devextreme/data/custom_store';
         import { createStore } from 'devextreme-aspnet-data-nojquery';
-        import { DxTreeMap } from 'devextreme-react/tree-map';
+        import { Dx{WidgetName} } from 'devextreme-react/{widget-name}';
 
         const serviceUrl = "https://url/to/my/service";
         const store = createStore({
             key: "ID",
-            loadUrl: serviceUrl + "/GetAction"
+            loadUrl: serviceUrl + "/GetAction",
+            insertUrl: serviceUrl + "/InsertAction",
+            updateUrl: serviceUrl + "/UpdateAction",
+            deleteUrl: serviceUrl + "/DeleteAction"
         });
 
         class App extends React.Component {
             render() {
                 return (
-                    <TreeMap ...
+                    <{WidgetName} ...
                         dataSource={store} />
                 );
             }
@@ -205,18 +159,30 @@ Use one of the following extensions to enable the server to process data accordi
 
     ---
 
-- **Any other data source**     
-Implement a [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/).
+    ${{create_store_view_demo}}
 
-Regardless of the data source on the input, the **TreeMap** always wraps it in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object. This object allows you to sort, filter, group, and otherwise shape data. To get its instance, call the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxTreeMap/Methods/#getDataSource) method.
+- **Any other data source**     
+Implement a [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/). ${{custom_store_view_demo}}
+
+Regardless of the data source on the input, the **{WidgetName}** always wraps it in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object. This object allows you to sort, filter, group, and otherwise shape data. To get its instance, call the [getDataSource()]({basewidgetpath}/Methods/#getDataSource) method.
+
+${{additional_data_binding_actions}}
 
 [note]
 
 Please review the following notes about data binding:
 
+${{dataSource_items_note}}
+
+${{paginate_note}}
+
 - Data field names should not contain the following characters: `.`, `,`, `:`, `[`, and `]`.
+
+${{remote_operations_note}}
+
+${{calculated_columns_note}}
 
 - **DataSource** and stores provide methods to process and update data. However, the methods do not allow you to perform particular tasks (for example, replace the entire dataset, reconfigure data access at runtime). For such tasks, create a new array, store, or **DataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Change_Options/), [React](https://github.com/DevExpress/devextreme-react/blob/19.1/README.md#controlled-mode), and [Vue](https://github.com/DevExpress/devextreme-vue/blob/19.1/README.md#two-way-binding).
 
 [/note]
-<!--/fullDescription-->
+

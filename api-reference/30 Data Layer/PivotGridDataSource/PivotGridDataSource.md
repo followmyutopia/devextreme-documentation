@@ -186,6 +186,8 @@ When using a widget as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC
         End Function)
     )
 
+#include datalayer-store-note-immutable with { name: "PivotGridDataSource" }
+
 #####See Also#####
 - [ASP.NET MVC Controls - Data Binding](/Documentation/Guide/ASP.NET_MVC_Controls/Data_Binding/)
 <!--/fullDescription-->
