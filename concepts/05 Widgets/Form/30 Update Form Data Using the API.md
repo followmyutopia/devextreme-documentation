@@ -26,6 +26,10 @@ If you need to update form data at runtime, redefine the [formData](/Documentati
         });
     });
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview/"
+}
+
 The **Form** widget provides methods that update specific **formData** fields and rerender the corresponding editors without rerendering the whole widget. The [updateData(dataField, value)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadataField_value) method updates the value of a single field. The [updateData(data)](/Documentation/ApiReference/UI_Widgets/dxForm/Methods/#updateDatadata) method updates values of several fields at once. In the following code, these methods are called on a [Button](/Documentation/Guide/Widgets/Button/Overview/) click.
 
     <!--JavaScript-->
@@ -83,10 +87,6 @@ With Angular, two-way binding to a component property is sufficient to update [f
         ],
         // ...
     })
-
-#include common-demobutton with {
-    url: "/Demos/WidgetsGallery/#demo/forms_and_multi-purpose-form-overview/"
-}
 
 #####See Also#####
 - [Form - Handle the Value Change Event](/Documentation/Guide/Widgets/Form/Handle_the_Value_Change_Event/)
