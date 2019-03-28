@@ -114,7 +114,7 @@ In the following code, two items are defined on the toolbar: one is plain text, 
 
 #####Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template> 
         <dx-{widget-name} ... >
             <p>{WidgetName} content</p>
@@ -150,31 +150,16 @@ In the following code, two items are defined on the toolbar: one is plain text, 
     }
     </script>
 
-    <!-- tab: App.vue -->
-    <template> 
-        <dx-component />
-    </template>
-
-    <script>
-    import DxComponent from './components/DxComponent';
-
-    export default {
-        components: {
-            DxComponent
-        }
-    }
-    </script>
-
 #####React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
     import 'devextreme/dist/css/dx.common.css';
     import 'devextreme/dist/css/dx.light.css';
 
     import { {WidgetName}, ToolbarItem } from 'devextreme-react/{widget-name}';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         constructor() {
             this.buttonOptions = {
                 text: 'Refresh',
@@ -198,24 +183,6 @@ In the following code, two items are defined on the toolbar: one is plain text, 
             );
         }
     }
-    export default DxComponent;
-
-    <!-- tab: App.js -->
-    import React, { Component } from 'react';
-    import './App.css';
-
-    import DxComponent from './DxComponent';
-
-    class App extends Component {
-        render() {
-            return (
-                <div>
-                    <DxComponent />
-                </div>
-            );
-        }
-    }
-
     export default App;
 
 ---

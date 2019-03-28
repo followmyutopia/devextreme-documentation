@@ -132,7 +132,7 @@ If you delete a recurring appointment from the data source, all its occurrences 
 
 #####Vue 
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template>
         <div>
             <dx-button 
@@ -190,7 +190,7 @@ If you delete a recurring appointment from the data source, all its occurrences 
 
 #####React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
     import 'devextreme/dist/css/dx.common.css';
     import 'devextreme/dist/css/dx.light.css';
@@ -200,7 +200,7 @@ If you delete a recurring appointment from the data source, all its occurrences 
 
     const currentDate = new Date(2018, 4, 25);
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         constructor(props) {
             super(props);
 
@@ -225,7 +225,7 @@ If you delete a recurring appointment from the data source, all its occurrences 
             );
         }
     }
-    export default DxComponent;
+    export default App;
 
     <!--tab: data.js-->
     export const appointments = [{

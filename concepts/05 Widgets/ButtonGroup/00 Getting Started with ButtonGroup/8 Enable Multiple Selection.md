@@ -53,7 +53,7 @@ Set the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Con
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template> 
         <dx-button-group ...
             selection-mode="multiple"
@@ -88,9 +88,9 @@ Set the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Con
 
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     // ...
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <ButtonGroup ...
@@ -112,7 +112,7 @@ Set the [selectionMode](/Documentation/ApiReference/UI_Widgets/dxButtonGroup/Con
         }
     }
 
-    export default DxComponent;
+    export default App;
 
 ##### ASP.NET MVC Controls
 

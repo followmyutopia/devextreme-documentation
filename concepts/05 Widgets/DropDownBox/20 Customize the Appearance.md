@@ -239,7 +239,7 @@ You can customize the text field and the drop-down button using the [fieldTempla
 
 #####Vue
 
-    <!--tab: DxComponent.vue-->
+    <!--tab: App.vue-->
     <template>
         <div>
             <dx-drop-down-box

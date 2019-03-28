@@ -27,7 +27,7 @@ Populate the [selectedItemKeys](/Documentation/ApiReference/UI_Widgets/dxButtonG
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template> 
         <dx-button-group ...
             :selected-item-keys.sync="selectedFontStyleNames"
@@ -49,9 +49,9 @@ Populate the [selectedItemKeys](/Documentation/ApiReference/UI_Widgets/dxButtonG
 
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     // ...
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <ButtonGroup ...
@@ -61,7 +61,7 @@ Populate the [selectedItemKeys](/Documentation/ApiReference/UI_Widgets/dxButtonG
         }
     }
 
-    export default DxComponent;
+    export default App;
 
 ##### ASP.NET MVC Controls
 

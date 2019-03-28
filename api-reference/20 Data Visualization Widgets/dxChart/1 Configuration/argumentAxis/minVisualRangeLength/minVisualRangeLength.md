@@ -69,7 +69,7 @@ If the visual range is set on a numeric axis, assign a number to this option. If
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template>
         <dx-chart ... >
             <dx-argument-axis ... >
@@ -79,9 +79,6 @@ If the visual range is set on a numeric axis, assign a number to this option. If
     </template>
 
     <script>
-    import 'devextreme/dist/css/dx.common.css';
-    import 'devextreme/dist/css/dx.light.css';
-
     import DxChart, {
         DxArgumentAxis,
         DxMinVisualRangeLength
@@ -101,32 +98,16 @@ If the visual range is set on a numeric axis, assign a number to this option. If
     }
     </script>
 
-    <!-- tab: App.vue -->
-    <template>
-        <dx-component />
-    </template>
-    <script>
-    import DxComponent from './components/DxComponent';
-
-    export default {
-        components: {
-            DxComponent
-        }
-    }
-    </script>
-
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
-    import 'devextreme/dist/css/dx.common.css';
-    import 'devextreme/dist/css/dx.light.css';
     import Chart, {
         ArgumentAxis,
         MinVisualRangeLength
     } from 'devextreme-react/chart';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <Chart ... >
@@ -134,22 +115,6 @@ If the visual range is set on a numeric axis, assign a number to this option. If
                         <MinVisualRangeLength weeks={2} />
                     </ArgumentAxis>
                 </Chart>
-            );
-        }
-    }
-    export default DxComponent;
-
-    <!-- tab: App.js -->
-    import React, { Component } from 'react';
-    import './App.css';
-    import DxComponent from './DxComponent';
-
-    class App extends Component {
-        render() {
-            return (
-                <div>
-                    <DxComponent />
-                </div>
             );
         }
     }

@@ -102,7 +102,7 @@ This method only creates a dialog. To display it, call the dialog instance's **s
 
 #####Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template>
     </template>
     <script>
@@ -133,11 +133,11 @@ This method only creates a dialog. To display it, call the dialog instance's **s
 
 #####React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
     import { custom } from 'devextreme/ui/dialog';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         componentDidMount() { 
             let myDialog = custom({
                 title: "Custom dialog",
@@ -156,7 +156,7 @@ This method only creates a dialog. To display it, call the dialog instance's **s
             });
         }
     }
-    export default DxComponent;
+    export default App;
 
 ---
 

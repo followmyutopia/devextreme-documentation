@@ -67,7 +67,7 @@ You can use the following library- or framework-specific code to create the **Bu
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template>
         <dx-button-group
             <!-- Configuration goes here -->
@@ -87,32 +87,16 @@ You can use the following library- or framework-specific code to create the **Bu
     }
     </script>
 
-
-    <!-- tab: App.vue -->
-    <template>
-        <dx-component />
-    </template>
-
-    <script>
-    import DxComponent from './components/DxComponent';
-
-    export default {
-        components: {
-            DxComponent
-        }
-    }
-    </script>
-
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
     import 'devextreme/dist/css/dx.common.css';
     import 'devextreme/dist/css/dx.light.css';
 
     import { ButtonGroup } from 'devextreme-react/button-group';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         constructor(props) {
             super(props);
         }
@@ -122,25 +106,6 @@ You can use the following library- or framework-specific code to create the **Bu
                 <ButtonGroup
                     // Configuration goes here
                 />
-            );
-        }
-    }
-
-    export default DxComponent;
-
-
-    <!-- tab: App.js -->
-    import React, { Component } from 'react';
-    import './App.css';
-
-    import DxComponent from './DxComponent';
-
-    class App extends Component {
-        render() {
-            return (
-                <div>
-                    <DxComponent />
-                </div>
             );
         }
     }

@@ -59,7 +59,7 @@ A Promise that is resolved with a Boolean value indicating whether a user has cl
 
 #####Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template>
     </template>
     <script>
@@ -79,11 +79,11 @@ A Promise that is resolved with a Boolean value indicating whether a user has cl
 
 #####React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
     import { confirm } from 'devextreme/ui/dialog';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         componentDidMount() { 
             let result = confirm("<i>Are you sure?</i>", "Confirm changes");
             result.then((dialogResult) => {
@@ -91,7 +91,7 @@ A Promise that is resolved with a Boolean value indicating whether a user has cl
             });
         }
     }
-    export default DxComponent;
+    export default App;
 
 ---
 <!--/fullDescription-->

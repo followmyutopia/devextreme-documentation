@@ -58,7 +58,7 @@ The following code shows how to use the **customizeItems** function to sort lege
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template> 
         <dx-{widget-name} ... >
             <dx-legend
@@ -93,11 +93,11 @@ The following code shows how to use the **customizeItems** function to sort lege
 
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
     import { {WidgetName}, Legend } from 'devextreme-react/{widget-name}';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <{WidgetName} ... >
@@ -119,7 +119,7 @@ The following code shows how to use the **customizeItems** function to sort lege
         }
     }
 
-    export default DxComponent;
+    export default App;
 
 ##### ASP.NET MVC Controls
 

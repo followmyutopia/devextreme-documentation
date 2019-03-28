@@ -101,7 +101,7 @@ Assign the field's name to the **DropDownBox**'s [valueExpr](/Documentation/ApiR
 
     #####Vue
 
-        <!--tab: DxComponent.vue-->
+        <!--tab: App.vue-->
         <template>
             <div>
                 <dx-drop-down-box
@@ -241,7 +241,7 @@ This step's implementation depends on the embedded widget's API and the library/
 
     #####Vue
 
-        <!--tab: DxComponent.vue-->
+        <!--tab: App.vue-->
         <template>
             <div>
                 <dx-drop-down-box ...

@@ -41,7 +41,7 @@ Assign a function to the [onSelectionChanged](/Documentation/ApiReference/UI_Wid
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template>
         <dx-button-group ...
             @selection-changed="logSelectionChanged"
@@ -67,9 +67,9 @@ Assign a function to the [onSelectionChanged](/Documentation/ApiReference/UI_Wid
 
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     // ...
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         // ...
         render() {
             return (

@@ -71,7 +71,7 @@ You can use the following position markers in this text:
 
 #####Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template> 
         <dx-data-grid ... >
             <dx-summary>
@@ -99,30 +99,15 @@ You can use the following position markers in this text:
     }
     </script>
 
-    <!-- tab: App.vue -->
-    <template> 
-        <dx-component />
-    </template>
-
-    <script>
-    import DxComponent from './components/DxComponent';
-
-    export default {
-        components: {
-            DxComponent
-        }
-    }
-    </script>
-
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
     import 'devextreme/dist/css/dx.common.css';
     import 'devextreme/dist/css/dx.light.css';
     import { DataGrid, Summary, GroupItem } from 'devextreme-react/data-grid';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <DataGrid>
@@ -138,25 +123,8 @@ You can use the following position markers in this text:
             );
         }
     }
-    export default DxComponent;
-
-    <!-- tab: App.js -->
-    import React, { Component } from 'react';
-    import './App.css';
-
-    import DxComponent from './DxComponent';
-
-    class App extends Component {
-        render() {
-            return (
-                <div>
-                    <DxComponent />
-                </div>
-            );
-        }
-    }
     export default App;
-
+    
 ---
 
 Use the [customizeText](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/summary/groupItems/#customizeText) option for more advanced text customizations.

@@ -63,7 +63,7 @@ Assign the array to the [items](/Documentation/ApiReference/UI_Widgets/dxButtonG
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template> 
         <dx-button-group
             :items="fontStyles"
@@ -99,7 +99,7 @@ Assign the array to the [items](/Documentation/ApiReference/UI_Widgets/dxButtonG
 
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     // ...
     const fontStyles = [{
         icon: "bold",
@@ -115,7 +115,7 @@ Assign the array to the [items](/Documentation/ApiReference/UI_Widgets/dxButtonG
         style: "strike"
     }];
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <ButtonGroup
@@ -126,7 +126,7 @@ Assign the array to the [items](/Documentation/ApiReference/UI_Widgets/dxButtonG
         }
     }
 
-    export default DxComponent;
+    export default App;
 
 ##### ASP.NET MVC Controls
 

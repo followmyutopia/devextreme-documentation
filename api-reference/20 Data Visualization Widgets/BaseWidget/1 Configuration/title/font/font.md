@@ -68,7 +68,7 @@ Specifies font options for the title.
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template>
         <dx-{widget-name} ... >
             <dx-title ... >
@@ -97,7 +97,7 @@ Specifies font options for the title.
 
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
 
     import {WidgetName}, {
@@ -105,7 +105,7 @@ Specifies font options for the title.
         Font
     } from 'devextreme-react/{widget-name}';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <{WidgetName} ... >
@@ -116,7 +116,7 @@ Specifies font options for the title.
             );
         }
     }
-    export default DxComponent;
+    export default App;
 
 ---
 <!--/fullDescription-->

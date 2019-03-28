@@ -80,7 +80,7 @@ Declared in [commonSeriesSettings](/Documentation/ApiReference/Data_Visualizatio
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template>
         <dx-chart ... >
             <dx-series ... >
@@ -116,7 +116,7 @@ Declared in [commonSeriesSettings](/Documentation/ApiReference/Data_Visualizatio
 
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
 
     import Chart, {
@@ -125,7 +125,7 @@ Declared in [commonSeriesSettings](/Documentation/ApiReference/Data_Visualizatio
         CommonSeriesSettings
     } from 'devextreme-react/chart';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <Chart ... >
@@ -143,7 +143,7 @@ Declared in [commonSeriesSettings](/Documentation/ApiReference/Data_Visualizatio
             );
         }
     }
-    export default DxComponent;
+    export default App;
 
 ---
 

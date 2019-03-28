@@ -92,7 +92,7 @@ The simplest widget configuration requires specifying a [dataSource](/Documentat
 
 #####Vue
 
-    <!--tab: DxComponent.vue-->
+    <!--tab: App.vue-->
     <template>
         <div>
             <dx-drop-down-box
@@ -276,7 +276,7 @@ If your data is an array of objects, specify:
 
 #####Vue
 
-    <!--tab: DxComponent.vue-->
+    <!--tab: App.vue-->
     <template>
         <div>
             <dx-drop-down-box

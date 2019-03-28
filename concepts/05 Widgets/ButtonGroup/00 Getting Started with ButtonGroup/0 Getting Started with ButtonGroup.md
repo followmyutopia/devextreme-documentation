@@ -133,7 +133,7 @@ Refer to the subtopics for details on every configuration step. You can also see
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template> 
         <dx-button-group
             :items="fontStyles"
@@ -188,25 +188,9 @@ Refer to the subtopics for details on every configuration step. You can also see
     }
     </script>
 
-
-    <!-- tab: App.vue -->
-    <template>
-        <dx-component />
-    </template>
-
-    <script>
-    import DxComponent from './components/DxComponent';
-
-    export default {
-        components: {
-            DxComponent
-        }
-    }
-    </script>
-
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
     import 'devextreme/dist/css/dx.common.css';
     import 'devextreme/dist/css/dx.light.css';
@@ -227,7 +211,7 @@ Refer to the subtopics for details on every configuration step. You can also see
         style: "strike"
     }];
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <ButtonGroup
@@ -249,24 +233,6 @@ Refer to the subtopics for details on every configuration step. You can also see
                 message = "There are no selected styles"
             }
             console.log(message);
-        }
-    }
-
-    export default DxComponent;
-
-    <!-- tab: App.js -->
-    import React, { Component } from 'react';
-    import './App.css';
-
-    import DxComponent from './DxComponent';
-
-    class App extends Component {
-        render() {
-            return (
-                <div>
-                    <DxComponent />
-                </div>
-            );
         }
     }
 

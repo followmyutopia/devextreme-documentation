@@ -91,11 +91,11 @@ You can achieve the same in the markup using the [dxItem](/Documentation/ApiRefe
 
 #####React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
     import List, { Item } from 'devextreme-react/list';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <List>
@@ -108,7 +108,7 @@ You can achieve the same in the markup using the [dxItem](/Documentation/ApiRefe
             );
         }
     }
-    export default DxComponent;
+    export default App;
 
 ---
 

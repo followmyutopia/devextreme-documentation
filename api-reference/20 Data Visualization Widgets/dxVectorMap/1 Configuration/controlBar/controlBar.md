@@ -50,7 +50,7 @@ The following code shows how to use the **controlBar** object to move the contro
 
 ##### Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template> 
         <dx-vector-map ... >
             <dx-control-bar
@@ -60,9 +60,6 @@ The following code shows how to use the **controlBar** object to move the contro
     </template>
 
     <script>
-    import 'devextreme/dist/css/dx.common.css';
-    import 'devextreme/dist/css/dx.light.css';
-
     import { DxVectorMap, DxControlBar } from 'devextreme-vue/vector-map';
 
     export default {
@@ -76,14 +73,11 @@ The following code shows how to use the **controlBar** object to move the contro
 
 ##### React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
-    import 'devextreme/dist/css/dx.common.css';
-    import 'devextreme/dist/css/dx.light.css';
-
     import { VectorMap, ControlBar } from 'devextreme-react/vector-map';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         render() {
             return (
                 <VectorMap>
@@ -96,7 +90,7 @@ The following code shows how to use the **controlBar** object to move the contro
         }
     }
 
-    export default DxComponent;
+    export default App;
 
 ##### ASP.NET MVC Controls
 

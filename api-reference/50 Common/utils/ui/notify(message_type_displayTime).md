@@ -53,7 +53,7 @@ The time interval in milliseconds for which the message is displayed.
 
 #####Vue
 
-    <!-- tab: DxComponent.vue -->
+    <!-- tab: App.vue -->
     <template>
     </template>
     <script>
@@ -70,16 +70,16 @@ The time interval in milliseconds for which the message is displayed.
 
 #####React
 
-    <!-- tab: DxComponent.js -->
+    <!-- tab: App.js -->
     import React from 'react';
     import notify from 'devextreme/ui/notify';
 
-    class DxComponent extends React.Component {
+    class App extends React.Component {
         componentDidMount() { 
             notify("Warning message", "warning", 500);
         }
     }
-    export default DxComponent;
+    export default App;
 
 ---
 
