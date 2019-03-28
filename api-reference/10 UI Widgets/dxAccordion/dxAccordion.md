@@ -42,7 +42,7 @@ The **Accordion** widget contains several panels displayed one under another. Th
     <!--HTML-->
     <div id="accordion"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-accordion

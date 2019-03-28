@@ -28,7 +28,7 @@ A widget that is used to validate the associated DevExtreme editors against the 
 
     <!--HTML--><div id="textBox1"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-text-box>

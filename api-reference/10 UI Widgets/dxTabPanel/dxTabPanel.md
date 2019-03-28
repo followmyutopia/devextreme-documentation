@@ -53,7 +53,7 @@ The **TabPanel** is a widget consisting of the [Tabs](/Documentation/Guide/Widge
     <!--HTML-->
     <div id="tabPanel"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-tab-panel [items]="tabs"></dx-tab-panel>

@@ -100,7 +100,7 @@ The following code adds the **Menu** widget to your page. Note that the data sou
 ---
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [Menu - Access the Clicked Item](/Documentation/Guide/Widgets/Menu/Access_the_Clicked_Item/)
 - [Menu - Customize Item Appearance](/Documentation/Guide/Widgets/Menu/Customize_Item_Appearance)
 - [Menu - Change the Orientation](/Documentation/Guide/Widgets/Menu/Change_the_Orientation)

@@ -29,7 +29,7 @@ The **FileUploader** widget enables an end user to upload files to the server. A
     <!--HTML-->
     <div id="fileUploader"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-file-uploader accept="image/*"></dx-file-uploader>

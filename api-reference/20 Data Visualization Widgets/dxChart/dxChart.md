@@ -62,7 +62,7 @@ The **Chart** is a widget that visualizes data from a local or remote storage us
 
     <!--HTML--><div id="chart"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-chart [dataSource]="fruits">

@@ -37,7 +37,7 @@ The **SlideOut** widget is a classic slide-out menu paired with a view. An end u
         width: 100%;
     }
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-slide-out

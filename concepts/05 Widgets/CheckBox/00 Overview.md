@@ -47,7 +47,7 @@ The following code adds the **CheckBox** to your page.
 The **CheckBox** widget can have the following states: checked (the **value** option is _true_), unchecked (**value** is _false_), undetermined (**value** is _undefined_).
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [CheckBox - Handle the Value Change Event](/Documentation/Guide/Widgets/CheckBox/Handle_the_Value_Change_Event)
 - [CheckBox - Keyboard Support](/Documentation/Guide/Widgets/CheckBox/Keyboard_Support)
 - [CheckBox API Reference](/Documentation/ApiReference/UI_Widgets/dxCheckBox/)

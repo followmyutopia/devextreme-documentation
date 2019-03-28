@@ -32,7 +32,7 @@ The **Map** is an interactive widget that displays a geographic map with markers
     <!--HTML-->
     <div id="map"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-map

@@ -30,7 +30,7 @@ The **BarGauge** widget contains several circular bars that each indicates a sin
 
     <!--HTML--><div id="barGauge"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-bar-gauge

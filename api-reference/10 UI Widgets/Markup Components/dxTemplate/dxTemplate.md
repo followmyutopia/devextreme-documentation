@@ -221,5 +221,5 @@ In AngularJs and Knockout apps, you can define different templates intended for 
     </div>
 
 #####See Also#####
-- [Angular - Custom Templates](https://github.com/DevExpress/devextreme-angular#custom-templates)
+- [Templates](/Documentation/Guide/Widgets/Common/Templates/)
 <!--/fullDescription-->

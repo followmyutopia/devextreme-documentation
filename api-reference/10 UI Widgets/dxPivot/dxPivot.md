@@ -63,7 +63,7 @@ The **Pivot** provides a quick way to manage multiple views. It includes a colle
     <!--HTML-->
     <div id="pivot"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-pivot

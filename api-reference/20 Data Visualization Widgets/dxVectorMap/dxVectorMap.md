@@ -38,7 +38,7 @@ The **VectorMap** is a widget that visualizes geographical locations. This widge
 
     <!--HTML--><div id="vectorMap"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-vector-map>

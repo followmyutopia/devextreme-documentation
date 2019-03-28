@@ -64,7 +64,7 @@ The **PieChart** is a widget that visualizes data as a circle divided into secto
 
     <!--HTML--><div id="pieChart"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-pie-chart [dataSource]="fruits">

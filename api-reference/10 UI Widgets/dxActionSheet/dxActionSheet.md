@@ -45,7 +45,7 @@ The **ActionSheet** widget is a sheet containing a set of buttons located one un
     <!--HTML-->
     <div id="actionSheet"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-action-sheet

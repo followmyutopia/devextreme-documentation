@@ -29,7 +29,7 @@ The **Switch** is a widget that can be in two states: "On" and "Off".
     <!--HTML-->
     <div id="switch"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-switch [value]="true"></dx-switch>

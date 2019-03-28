@@ -126,7 +126,7 @@ The **TreeView** widget is a tree-like representation of textual data.
     <!--HTML-->
     <div id="treeView"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-tree-view

@@ -32,7 +32,7 @@ The **Popup** widget is a pop-up window overlaying the current view.
         });
     });
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-popup

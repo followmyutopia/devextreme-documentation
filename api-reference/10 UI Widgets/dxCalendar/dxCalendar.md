@@ -31,7 +31,7 @@ The **Calendar** is a widget that displays a calendar and allows an end user to 
 
     <!--HTML--><div id="calendar"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-calendar

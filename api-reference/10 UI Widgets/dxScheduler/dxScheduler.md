@@ -42,7 +42,7 @@ The **Scheduler** is a widget that represents scheduled data and allows a user t
     <!--HTML-->
     <div id="scheduler">
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-scheduler

@@ -45,7 +45,7 @@ The **NavBar** is a widget that navigates the application views.
     <!--HTML-->
     <div id="navBar"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-nav-bar>

@@ -39,7 +39,7 @@ The **Gallery** is a widget that displays a collection of images in a carousel. 
 
     <!--HTML--><div id="gallery"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-gallery

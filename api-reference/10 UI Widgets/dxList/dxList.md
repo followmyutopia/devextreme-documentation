@@ -31,7 +31,7 @@ The **List** is a widget that represents a collection of items in a scrollable l
 
     <!--HTML--><div id="list"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-list

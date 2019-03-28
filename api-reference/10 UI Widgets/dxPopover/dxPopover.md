@@ -30,7 +30,7 @@ The **Popover** is a widget that shows notifications within a box with an arrow 
         });
     });
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <div id="targetElement"></div>

@@ -32,7 +32,7 @@ The **NumberBox** is a widget that displays a numeric value and allows a user to
     <!--HTML-->
     <div id="numberBox"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-number-box

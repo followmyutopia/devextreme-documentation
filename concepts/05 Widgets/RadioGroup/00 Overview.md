@@ -47,7 +47,7 @@ The **RadioGroup** widget supports horizontal (default for tablets) and vertical
     });
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [RadioGroup - Handle the Value Change Event](/Documentation/Guide/Widgets/RadioGroup/Handle_the_Value_Change_Event)
 - [RadioGroup - Customize Item Appearance](/Documentation/Guide/Widgets/RadioGroup/Customize_Item_Appearance)
 - [RadioGroup - Keyboard Support](/Documentation/Guide/Widgets/RadioGroup/Keyboard_Support)

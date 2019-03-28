@@ -40,7 +40,7 @@ The **DropDownBox** widget consists of a text field, which displays the current 
     <!--HTML-->
     <div id="dropDownBox"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-drop-down-box

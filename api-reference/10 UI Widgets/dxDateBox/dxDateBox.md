@@ -30,7 +30,7 @@ The **DateBox** is a widget that displays date and time in a specified format, a
 
     <!--HTML--><div id="dateBox"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-date-box

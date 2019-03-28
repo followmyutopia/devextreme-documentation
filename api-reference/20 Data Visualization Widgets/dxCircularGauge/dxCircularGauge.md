@@ -39,7 +39,7 @@ The **CircularGauge** is a widget that indicates values on a circular numeric sc
 
     <!--HTML--><div id="circularGauge"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-circular-gauge [value]="105">

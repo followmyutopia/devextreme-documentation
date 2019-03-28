@@ -32,7 +32,7 @@ The **Bullet** widget is useful when you need to compare a single measure to a t
 
     <!--HTML--><div id="bullet"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-bullet

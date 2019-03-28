@@ -61,7 +61,7 @@ In the **TreeMap** widget, hierarchical data is represented by a set of nested r
 
     <!--HTML--><div id="treeMap"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-tree-map [dataSource]="fruitsVegetables"></dx-tree-map>

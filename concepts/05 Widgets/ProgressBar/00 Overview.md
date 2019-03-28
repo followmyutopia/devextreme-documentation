@@ -33,7 +33,7 @@ When the **ProgressBar** reaches the [maximum](/Documentation/ApiReference/UI_Wi
     });
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [ProgressBar - Progress Status](/Documentation/Guide/Widgets/ProgressBar/Progress_Status)
 - [ProgressBar - Handle the Value Change Event](/Documentation/Guide/Widgets/ProgressBar/Handle_the_Value_Change_Event)
 - [ProgressBar API Reference](/Documentation/ApiReference/UI_Widgets/dxProgressBar/)

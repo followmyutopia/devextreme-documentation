@@ -37,7 +37,7 @@ The **Box** widget allows you to arrange various elements within it. Separate an
         });
     });
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-box

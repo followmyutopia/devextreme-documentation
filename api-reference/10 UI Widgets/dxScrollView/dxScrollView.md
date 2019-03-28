@@ -30,7 +30,7 @@ The **ScrollView** is a widget that enables a user to scroll its content.
         <div id="content"></div>
     </div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-scroll-view

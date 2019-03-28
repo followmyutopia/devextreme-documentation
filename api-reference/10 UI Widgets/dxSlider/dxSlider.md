@@ -30,7 +30,7 @@ The **Slider** is a widget that allows an end user to set a numeric value on a c
     <!--HTML-->
     <div id="slider"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-slider

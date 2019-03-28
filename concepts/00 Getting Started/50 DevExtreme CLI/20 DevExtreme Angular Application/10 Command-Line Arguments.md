@@ -24,4 +24,4 @@ Specifies whether to override the existing `app.component` or create a component
 Specifies the view's icon (default: `folder`). You can choose an icon from the [DevExtreme icon library](/Documentation/Guide/Themes_and_Styles/Icons/#Built-In_Icon_Library).
 
 #####See Also#####
-- [Create and Configure a Widget in Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)
+- [Create and Configure a Widget in Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/)

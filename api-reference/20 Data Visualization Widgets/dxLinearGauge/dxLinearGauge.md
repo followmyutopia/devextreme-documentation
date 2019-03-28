@@ -39,7 +39,7 @@ The **LinearGauge** is a widget that indicates values on a linear numeric scale.
 
     <!--HTML--><div id="linearGauge"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-linear-gauge [value]="105">

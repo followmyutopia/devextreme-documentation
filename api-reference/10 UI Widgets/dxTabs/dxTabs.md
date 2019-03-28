@@ -38,7 +38,7 @@ The **Tabs** is a tab strip used to switch between pages or views. This widget i
     <!--HTML-->
     <div id="tabs"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-tabs [items]="tabs"></dx-tabs>

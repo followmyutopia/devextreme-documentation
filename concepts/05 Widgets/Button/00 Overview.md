@@ -112,7 +112,7 @@ In the previous code, the [click](/Documentation/ApiReference/UI_Widgets/dxButto
 The appearance of the **Button** is predefined by its [type](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#type). Find more on this and other properties that impact the widget appearance in the [Customize the Appearance](/Documentation/Guide/Widgets/Button/Customize_the_Appearance/) article.
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [Button - Customize the Appearance](/Documentation/Guide/Widgets/Button/Customize_the_Appearance/)
 - [Button - Validate and Submit an HTML form](/Documentation/Guide/Widgets/Button/Validate_and_Submit_an_HTML_Form/)
 - [Button API Reference](/Documentation/ApiReference/UI_Widgets/dxButton/)

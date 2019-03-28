@@ -31,7 +31,7 @@ The **Tooltip** widget displays a tooltip for a specified element on the page.
         });
     });
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <div id="targetElement"></div>

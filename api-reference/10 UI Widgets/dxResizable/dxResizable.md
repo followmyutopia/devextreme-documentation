@@ -38,7 +38,7 @@ The **Resizable** widget enables its content to be resizable in the UI.
         width: 100%
     }
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-resizable

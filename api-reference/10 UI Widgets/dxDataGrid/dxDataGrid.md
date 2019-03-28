@@ -65,7 +65,7 @@ The **DataGrid** is a widget that represents data from a local or remote source 
 
     <!--HTML--><div id="dataGrid"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-data-grid 

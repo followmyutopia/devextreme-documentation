@@ -59,7 +59,7 @@ The main option you should specify when creating a widget is the [dataSource](/D
     <!--HTML-->
     <div id="toolbar"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-toolbar [items]="toolbarData"></dx-toolbar>

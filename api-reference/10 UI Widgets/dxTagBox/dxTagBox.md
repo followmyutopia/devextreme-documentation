@@ -46,7 +46,7 @@ The **TagBox** widget is an editor that allows an end user to select multiple it
     <!--HTML-->
     <div id="tagBox"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-tag-box

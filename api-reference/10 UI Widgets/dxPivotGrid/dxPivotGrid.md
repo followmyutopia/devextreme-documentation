@@ -58,7 +58,7 @@ The **PivotGrid** is a widget that allows you to display and analyze multi-dimen
 
     <!--HTML--><div id="pivotGrid"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-pivot-grid

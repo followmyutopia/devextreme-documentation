@@ -18,7 +18,7 @@ The following code adds the **Switch** to your page.
     });
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [Switch - Handle the Value Change Event](/Documentation/Guide/Widgets/Switch/Handle_the_Value_Change_Event)
 - [Switch - Keyboard Support](/Documentation/Guide/Widgets/Switch/Keyboard_Support)
 - [Switch API Reference](/Documentation/ApiReference/UI_Widgets/dxSwitch/)

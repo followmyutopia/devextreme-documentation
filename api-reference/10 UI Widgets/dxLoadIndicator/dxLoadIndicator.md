@@ -28,7 +28,7 @@ The **LoadIndicator** is a UI element notifying the viewer that a process is in 
 
     <!--HTML--><div id="loadIndicator"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-load-indicator [(visible)]="isLoadIndicatorVisible"></dx-load-indicator>

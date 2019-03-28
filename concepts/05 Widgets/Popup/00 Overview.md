@@ -64,7 +64,7 @@ The following code adds a simple **Popup** to your page, along with a [Button](/
 There are several ways to specify the content of the **Popup**. Learn more in the [Customize the Content](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Content/) article. The **Popup** can also be displayed with a toolbar. For detailed information, see the [Specify Toolbar Items](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Specify_Toolbar_Items/) topic. 
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [Popup - Customize the Appearance](/Documentation/Guide/Widgets/Popup/Customize_the_Appearance/Customize_the_Content/)
 - [Popup - Show and Hide the Popup](/Documentation/Guide/Widgets/Popup/Show_and_Hide_the_Popup/)
 - [Popup - Resize and Relocate](/Documentation/Guide/Widgets/Popup/Resize_and_Relocate/)

@@ -19,6 +19,3 @@ Enclose the **dataSource** option in square brackets to bind it to an array usin
         ],
         // ...
     })
-
-#####See Also#####
-- [DevExtreme Angular on GitHub](https://github.com/devexpress/DevExtreme-angular)

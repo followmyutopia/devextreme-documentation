@@ -60,7 +60,7 @@ The **Form** widget represents fields of a data object as a collection of label-
 
     <!--HTML--><div id="form"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-form

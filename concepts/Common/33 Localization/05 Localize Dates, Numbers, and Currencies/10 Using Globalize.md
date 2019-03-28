@@ -91,7 +91,7 @@ All the components are available via CDN and npm.
 
         Globalize.locale(navigator.language || navigator.browserLanguage)
 
-    In projects created with Angular CLI 6+, register Globalize as described [here](https://github.com/DevExpress/devextreme-angular/blob/master/docs/setup-3rd-party-dependencies.md#globalize-registration). In other projects, configure **config.js**:
+    In projects created with Angular CLI 6+, register Globalize as described [here](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Register_3rd-Party_Dependencies_in_Angular_CLI_6+/Globalize_Registration). In other projects, configure **config.js**:
 
         <!--JavaScript-->
         System.config({
@@ -223,4 +223,3 @@ In addition, you can now format values using structures accepted by [numberForma
 - [DevExtreme Angular sample project with Webpack and Globalize](https://github.com/DevExpress/devextreme-examples/tree/19_1/webpack-angular-globalize)
 - [DevExtreme Angular sample project with SystemJS and Globalize](https://github.com/DevExpress/devextreme-examples/tree/19_1/systemjs-angular-globalize)
 - [Value Formatting](/Documentation/Guide/Common/Value_Formatting)
-- [Third-Party Dependencies Registration in Angular CLI 6+](https://github.com/DevExpress/devextreme-angular/blob/master/docs/setup-3rd-party-dependencies.md)

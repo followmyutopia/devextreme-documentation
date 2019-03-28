@@ -32,7 +32,7 @@ The **Lookup** is a widget that allows an end user to search for an item in a co
     <!--HTML-->
     <div id="lookup"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-lookup

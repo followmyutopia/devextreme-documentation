@@ -87,7 +87,7 @@ The following code adds the **ContextMenu** widget to your page and binds it to 
 ---
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [ContextMenu - Access the Clicked Item](/Documentation/Guide/Widgets/ContextMenu/Access_the_Clicked_Item/)
 - [ContextMenu - Customize Item Appearance](/Documentation/Guide/Widgets/ContextMenu/Customize_Item_Appearance)
 - [ContextMenu - Open and Close](/Documentation/Guide/Widgets/ContextMenu/Open_and_Close_the_Context_Menu/)

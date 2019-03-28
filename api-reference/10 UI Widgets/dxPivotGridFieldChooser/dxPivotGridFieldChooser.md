@@ -32,7 +32,7 @@ A complementary widget for the [PivotGrid](/Documentation/ApiReference/UI_Widget
     <!--HTML--><div id="fieldChooser"></div>
     <div id="pivotGrid"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-pivot-grid-field-chooser [dataSource]="pivotGridDataSource"></dx-pivot-grid-field-chooser>

@@ -72,7 +72,7 @@ The **Panorama** widget is a full-screen widget that allows you to arrange items
         width: 100%;
     }
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-panorama

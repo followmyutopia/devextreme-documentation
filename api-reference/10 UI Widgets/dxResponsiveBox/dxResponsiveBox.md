@@ -63,7 +63,7 @@ The **ResponsiveBox** widget allows you to create an application or a website wi
     .content { background: #f5e5a6 }
     .footer { background: #7b9bcf }
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-responsive-box>

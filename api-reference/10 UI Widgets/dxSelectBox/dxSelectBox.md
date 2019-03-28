@@ -46,7 +46,7 @@ The **SelectBox** widget is an editor that allows an end user to select an item 
     <!--HTML-->
     <div id="selectBox"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-select-box

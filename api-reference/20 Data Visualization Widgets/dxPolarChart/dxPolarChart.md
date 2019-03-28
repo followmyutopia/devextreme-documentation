@@ -76,7 +76,7 @@ The **PolarChart** widget visualizes data in a polar coordinate system. In this 
 
     <!--HTML--><div id="polarChart"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-polar-chart [dataSource]="temperature">

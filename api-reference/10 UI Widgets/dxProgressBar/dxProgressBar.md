@@ -31,7 +31,7 @@ The **ProgressBar** is a widget that shows current progress.
     <!--HTML-->
     <div id="progressBar"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-progress-bar

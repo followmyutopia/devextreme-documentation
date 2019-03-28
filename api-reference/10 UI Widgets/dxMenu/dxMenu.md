@@ -52,7 +52,7 @@ The **Menu** widget is a panel with clickable items. A click on an item opens a 
     <!--HTML-->
     <div id="menu"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-menu [items]="menuItems"></dx-menu>

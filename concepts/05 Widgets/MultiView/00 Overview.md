@@ -53,7 +53,7 @@ In the most simple case, the **MultiView** widget requires only the [dataSource]
 More often, structure of the data source item differs from the default. For correct rendering of views, specify a [custom template](/Documentation/Guide/Widgets/MultiView/Customize_Item_Appearance). 
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [MultiView - Customize Item Appearance](/Documentation/Guide/Widgets/MultiView/Customize_Item_Appearance)
 - [MultiView - Switch Between Views](/Documentation/Guide/Widgets/MultiView/Switch_Between_Views)
 - [MultiView - Loop the Views](/Documentation/Guide/Widgets/MultiView/Loop_the_Views)

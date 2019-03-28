@@ -54,7 +54,7 @@ The **ContextMenu** widget displays a single- or multi-level context menu. An en
     <!--HTML--><div id="targetElement"></div>
     <div id="contextMenu"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <div id="targetElement"></div>

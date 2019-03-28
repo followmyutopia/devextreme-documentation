@@ -32,7 +32,7 @@ The **Button** widget is a simple button that performs specified commands when a
 
     <!--HTML--><div id="button"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-button

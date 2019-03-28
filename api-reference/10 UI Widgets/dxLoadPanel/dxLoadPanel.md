@@ -30,7 +30,7 @@ The **LoadPanel** is an overlay widget notifying the viewer that loading is in p
     <!--HTML-->
     <div id="loadPanel"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-load-panel

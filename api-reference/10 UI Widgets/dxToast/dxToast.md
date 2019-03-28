@@ -39,7 +39,7 @@ The **Toast** is a widget that provides pop-up notifications.
     <!--HTML--><div id="toast"></div>
     <div id="button"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-toast

@@ -31,7 +31,7 @@ The **DeferRendering** is a widget that waits for its content to be ready before
         });
     });
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-defer-rendering

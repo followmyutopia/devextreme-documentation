@@ -92,7 +92,7 @@ By default, the widget is oriented horizontally, but you can orient it verticall
 }
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [TileView - Specify the Size of Tiles](/Documentation/Guide/Widgets/TileView/Specify_the_Size_of_Tiles)
 - [TileView - Customize Tile Appearance](/Documentation/Guide/Widgets/TileView/Customize_Tile_Appearance)
 - [TileView API Reference](/Documentation/ApiReference/UI_Widgets/dxTileView/)

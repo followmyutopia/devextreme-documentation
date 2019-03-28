@@ -42,7 +42,7 @@ The **RadioGroup** is a widget that contains a set of radio buttons and allows a
     <!--HTML-->
     <div id="radioGroup"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-radio-group

@@ -29,7 +29,7 @@ The **ColorBox** is a widget that allows an end user to enter a color or pick it
 
     <!--HTML--><div id="colorBox"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-color-box

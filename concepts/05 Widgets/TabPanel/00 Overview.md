@@ -29,7 +29,7 @@ The following code adds a simple **TabPanel** to your page.
 Note that all data source items in the code above follow the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxTabPanel/Default_Item_Template/) pattern. This provides a default appearance for tabs and views; that is, **title** goes to the tab, and **text** goes to the view. But more often, the data source object structure does not follow this pattern. For correct rendering in these cases, specify a [custom template](/Documentation/Guide/Widgets/TabPanel/Customize_Item_Appearance). 
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [TabPanel - Customize Item Appearance](/Documentation/Guide/Widgets/TabPanel/Customize_Item_Appearance)
 - [TabPanel - Control the Behavior](/Documentation/Guide/Widgets/TabPanel/Control_the_Behavior)
 - [TabPanel API Reference](/Documentation/ApiReference/UI_Widgets/dxTabPanel/)

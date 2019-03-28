@@ -31,7 +31,7 @@ In addition, you can specify the step of **RangeSlider** values using the [step]
 
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [RangeSlider - Customize Widget Appearance](/Documentation/Guide/Widgets/RangeSlider/Customize_Widget_Appearance)
 - [RangeSlider - Handle the Value Change Event](/Documentation/Guide/Widgets/RangeSlider/Handle_the_Value_Change_Event)
 - [RangeSlider API Reference](/Documentation/ApiReference/UI_Widgets/dxRangeSlider/)

@@ -60,7 +60,7 @@ This widget represents a scale (numeric or date-time) and two sliders. A user se
 
     <!--HTML--><div id="rangeSelector"></div>
 
-#####[**Angular**](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/Create_and_Configure_a_Widget/)  
+##### Angular
 
     <!--HTML-->
     <dx-range-selector>

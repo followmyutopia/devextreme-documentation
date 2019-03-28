@@ -47,7 +47,7 @@ The code below adds the **Map** widget to your page. The **Map** is [centered](/
 ---
 
 #####See Also#####
-- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Getting_Started/Widget_Basics_-_Angular/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
+- **Widget Basics**: [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/) | [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/) | [AngularJS](/Documentation/Guide/Getting_Started/Widget_Basics_-_AngularJS/) | [Knockout](/Documentation/Guide/Getting_Started/Widget_Basics_-_Knockout/)
 - [Map - Zoom and Center the Map](/Documentation/Guide/Widgets/Map/Zoom_and_Center_the_Map/)
 - [Map - Specify the Provider and Type](/Documentation/Guide/Widgets/Map/Specify_the_Provider_and_Type/)
 - [Map - Specify the Size](/Documentation/Guide/Widgets/Map/Specify_the_Size/)
