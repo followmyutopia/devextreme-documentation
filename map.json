@@ -196,6 +196,10 @@
       "$Widget": "dxDropDownMenu"
     },
 
+    "dxFileManager": {
+        "$Widget": "dxFileManager"
+    },
+
     "dxFileUploader": {
       "$Widget": "dxFileUploader"
     },
