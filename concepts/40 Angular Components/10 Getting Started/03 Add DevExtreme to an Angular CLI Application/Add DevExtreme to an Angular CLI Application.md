@@ -1,0 +1,1 @@
+To start this tutorial, you need an Angular 5+ application created using the Angular CLI. Refer to the [Angular CLI](https://cli.angular.io/) documentation for information on how to create such an application. You can also [create an Angular application with DevExtreme](/Documentation/Guide/Angular_Components/Getting_Started/Create_a_DevExtreme_Application/) already added to it.

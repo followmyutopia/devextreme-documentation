@@ -20,12 +20,11 @@ If you use jQuery alone, set the widget's **...Template** option to a function t
     import { DxListModule } from "devextreme-angular";
     // ...
     export class AppComponent {
-        listData = [
-            { 
-                itemProperty: "someValue",
-                // ...
-            },
+        listData = [{ 
+            itemProperty: "someValue",
             // ...
+        },
+        // ...
         ]
     }
     @NgModule({
@@ -54,12 +53,11 @@ If you use jQuery alone, set the widget's **...Template** option to a function t
     <!--JavaScript-->
     angular.module('DemoApp', ['dx'])
         .controller('DemoController', function ($scope) {
-            $scope.listData = [
-                { 
-                    itemProperty: "someValue",
-                    // ...
-                },
+            $scope.listData = [{ 
+                itemProperty: "someValue",
                 // ...
+            },
+            // ...
             ];
         });
 
@@ -79,12 +77,11 @@ If you use jQuery alone, set the widget's **...Template** option to a function t
 
     <!--JavaScript-->
     var viewModel = {
-        listData: [
-            { 
-                itemProperty: "someValue",
-                // ...
-            },
+        listData: [{ 
+            itemProperty: "someValue",
             // ...
+        },
+        // ...
         ]
     };
 
@@ -95,12 +92,11 @@ If you use jQuery alone, set the widget's **...Template** option to a function t
     <!--JavaScript-->
     $(function() {
         $("#listContainer").dxList({
-            dataSource: [
-                { 
-                    itemProperty: "someValue",
-                    // ...
-                },
+            dataSource: [{ 
+                itemProperty: "someValue",
                 // ...
+            },
+            // ...
             ],
             itemTemplate: function (itemData, itemIndex, element) {
                 element.append(
@@ -232,4 +228,54 @@ You can define custom templates for individual items in<a name="In_Collection_Wi
 
 ---
 
-Each widget's customization is described in dedicated articles. Search for "customize appearance" in the left menu and navigate to your widget's article for more information.
+Many widgets provide options that end with **...Template**, but particular widgets ([Button](/Documentation/ApiReference/UI_Widgets/dxButton/Configuration/#template), [Drawer](/Documentation/ApiReference/UI_Widgets/dxDrawer/Configuration/#template), and others) have an option called **template**. These widgets allow you to declare the markup directly in the widget element to specify their content.
+
+---
+##### Angular
+
+    <!-- tab: app.component.html -->
+    <dx-button (onClick)="foo($event)">
+        <i style="color:green">
+            Refresh
+        </i>
+    </dx-button>
+
+    <!-- tab: app.component.ts -->
+    // ...
+    export class AppComponent {
+        foo(e) {
+            // ...
+        }
+    }
+
+    <!-- tab: app.module.ts -->
+    import { DxButtonModule } from "devextreme-angular";
+    // ...
+    @NgModule({
+        imports: [
+            // ...
+            DxButtonModule
+        ],
+        // ...
+    })
+
+##### jQuery
+
+    <!--HTML-->
+    <div id="buttonContainer">
+        <i style="color:green">
+            Refresh
+        </i>
+    </div>
+
+    <!--JavaScript-->
+    $(function() {
+        $("#buttonContainer").dxButton({
+            onClick: function(e) {
+                // ...
+            }
+        });
+    });
+
+
+---
