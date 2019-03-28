@@ -1,0 +1,20 @@
+* `--base-theme`    
+Specifies a base theme's name (default: `generic.light`).
+
+* `--input-file`    
+Specifies the name of the file that contains input data (a `.json` file with metadata or a `.less` or `.scss` file with Bootstrap variables).
+
+* `--output-file`   
+Specifies the output file name.
+
+* `--output-format`     
+Specifies the format of the output variables: `less` or `scss` (default: `less` or the extension extracted from the `--output-file` value (if it contains any)).
+
+* `--output-color-scheme`   
+Specifies the custom color scheme name (default: `custom-scheme`).
+
+* `--make-swatch`       
+If present, creates a [color swatch](/Documentation/Guide/Themes_and_Styles/Predefined_Themes/#Color_Swatches), i.e., adds a CSS scope to each CSS rule (`.dx-swatch-xxx`, where `xxx` is the value from the `--output-color-scheme` parameter).
+
+* `--base`      
+Exports only base variables which are used to produce the derived variables.
