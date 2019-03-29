@@ -25,7 +25,8 @@ In the following code, the items with the specified **dataField** are simple ite
                         items: [
                             { dataField: "Prefix" },
                             { dataField: "Full_Name" },
-                            { dataField: "Position" }
+                            { dataField: "Position" },
+                            { dataField: "Duties", editorType: "dxTextArea" }
                         ]
                         // or just
                         // items: ["Prefix", "Full_Name", "Position"]
@@ -40,6 +41,7 @@ In the following code, the items with the specified **dataField** are simple ite
                 { dataField: "Full_Name" }, 
                 { dataField: "Prefix" },
                 { dataField: "Position" },
+                { dataField: "Duties" },
                 { dataField: "Email" },
                 { dataField: "Skype" } 
             ]
@@ -58,6 +60,7 @@ In the following code, the items with the specified **dataField** are simple ite
                     <dxi-item dataField="Prefix"></dxi-item>
                     <dxi-item dataField="Full_Name"></dxi-item>
                     <dxi-item dataField="Position"></dxi-item>
+                    <dxi-item dataField="Duties" editorType="dxTextArea"></dxi-item>
                 </dxi-item>
                 <dxi-item itemType="group" caption="Contacts">
                     <dxi-item dataField="Email"></dxi-item>
@@ -68,6 +71,7 @@ In the following code, the items with the specified **dataField** are simple ite
         <dxi-column dataField="Full_Name"></dxi-column>
         <dxi-column dataField="Prefix"></dxi-column>
         <dxi-column dataField="Position"></dxi-column>
+        <dxi-column dataField="Duties"></dxi-column>
         <dxi-column dataField="Email"></dxi-column>
         <dxi-column dataField="Skype"></dxi-column>
     </dx-data-grid>
@@ -102,6 +106,8 @@ In the following code, the items with the specified **dataField** are simple ite
                             groupItems.AddSimple().DataField("Prefix");
                             groupItems.AddSimple().DataField("Full_Name");
                             groupItems.AddSimple().DataField("Position");
+                            groupItems.AddSimple().DataField("Duties")
+                                .Editor(e => e.TextArea());
                         });
                     i.AddGroup()
                         .Caption("Contacts")
@@ -116,6 +122,7 @@ In the following code, the items with the specified **dataField** are simple ite
             cols.Add().DataField("Full_Name");
             cols.Add().DataField("Prefix");
             cols.Add().DataField("Position");
+            cols.Add().DataField("Duties");
             cols.Add().DataField("Email");
             cols.Add().DataField("Skype");
         })
@@ -127,12 +134,6 @@ In the following code, the items with the specified **dataField** are simple ite
 - [Organize Simple Items](/Documentation/Guide/Widgets/Form/Organize_Simple_Items)
 
 You can use a column's [formItem](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/#formItem) object to customize an individual simple item. See an example in its description. 
-
-[note]
-
-Neither **editing**.**form** nor **formItem** allows you to change the editor type. Use the [onEditorPreparing](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#onEditorPreparing) function for this purpose. 
-
-[/note]
 
 If you need to validate form values, specify validation rules as described in the [Data Validation](/Documentation/Guide/Widgets/DataGrid/Editing/#Data_Validation) article.
 
