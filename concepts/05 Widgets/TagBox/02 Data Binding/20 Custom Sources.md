@@ -15,7 +15,7 @@ Present if [paginate](/Documentation/ApiReference/Data_Layer/DataSource/Configur
 Present if the **DataSource**'s [sort](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#sort) option is set.
 
 - **Filtering settings**: [filter](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#filter)    
-Present if the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option is set or [searching is enabled](/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/) in the widget.
+Present if the [value](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#value) option is specified at design time, [searching is enabled](/Documentation/Guide/Widgets/TagBox/Configure_Search_Parameters/) in the widget, or the **DataSource**'s [filter](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#filter) option is set.
 
 - **Searching settings**: [searchExpr](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#searchExpr), [searchOperation](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#searchOperation), and [searchValue](/Documentation/ApiReference/Data_Layer/CustomStore/LoadOptions/#searchValue)     
 Present if [corresponding options](/Documentation/ApiReference/Data_Layer/DataSource/Configuration/#searchExpr) are set in the **DataSource**.
@@ -42,7 +42,7 @@ If the **group** setting is absent, the object structure is different:
         totalCount: 100
     }
 
-If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/dxTagBox/Configuration/#value) beforehand, the **CustomStore** should implement the [byKey](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#byKey) operation. If the **TagBox** allows a user [to add custom items](/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/), implement the [insert](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#insert) method. Below is a generalized **CustomStore** configuration for the **TagBox** widget.
+If the **TagBox** allows a user [to add custom items](/Documentation/Guide/Widgets/TagBox/Create_a_User-Defined_Item/), you should also implement the [insert](/Documentation/ApiReference/Data_Layer/CustomStore/Configuration/#insert) method. Below is a generalized **CustomStore** configuration for the **TagBox** widget.
 
 ---
 #####jQuery
@@ -74,14 +74,6 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
                             d.resolve(result.data, { 
                                 totalCount: result.totalCount
                             });
-                        });
-                    return d.promise();
-                },
-                byKey: function(key) {
-                    var d = new $.Deferred();
-                    $.get('https://mydomain.com/MyDataService?id=' + key)
-                        .done(function(result) {
-                            d.resolve(result);
                         });
                     return d.promise();
                 },
@@ -144,10 +136,6 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
                                     totalCount: result.totalCount
                                 };
                             });
-                    },
-                    byKey: function(key) {
-                        return httpClient.get('https://mydomain.com/MyDataService?id=' + key)
-                            .toPromise();
                     },
                     insert: function(values) {
                         return httpClient.post('http://mydomain.com/MyDataService', values)
@@ -219,10 +207,6 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
                         }
                     });
             },
-            byKey: (key) => {
-                return fetch(`https://mydomain.com/MyDataService?id=${key}`)
-                        .then(handleErrors);
-            },
             insert: (values) => {
                 return fetch("https://mydomain.com/MyDataService", {
                     method: "POST",
@@ -291,10 +275,6 @@ If you specify the **TagBox**'s [value](/Documentation/ApiReference/UI_Widgets/d
                             totalCount: result.totalCount
                         }
                     });
-            },
-            byKey: (key) => {
-                return fetch(`https://mydomain.com/MyDataService?id=${key}`)
-                        .then(handleErrors);
             },
             insert: (values) => {
                 return fetch("https://mydomain.com/MyDataService", {
