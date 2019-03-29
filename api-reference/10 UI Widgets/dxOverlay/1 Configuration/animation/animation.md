@@ -8,5 +8,5 @@ Configures widget visibility animations. This object contains two fields: [show]
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+Set this object to **null** or **undefined** to disable animation.
 <!--/fullDescription-->

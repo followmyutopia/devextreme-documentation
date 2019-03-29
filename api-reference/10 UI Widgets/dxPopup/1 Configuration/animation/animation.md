@@ -3,5 +3,7 @@
 <!--keep--><!--/keep-->
 ===========================================================================
 <!--fullDescription-->
-[note]To specify in which position the widget will be shown and from which it will be hidden, use the [position](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#position) option.
+Use the [position](/Documentation/ApiReference/UI_Widgets/dxPopup/Configuration/#position) option to specify the position in which the widget is shown and from which it is hidden.
+
+Set the **animation** object to **null** or **undefined** to disable animation.
 <!--/fullDescription-->
