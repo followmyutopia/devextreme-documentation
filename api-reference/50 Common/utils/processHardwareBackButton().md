@@ -21,6 +21,4 @@ When building a mobile application, you should initiate processing of the hardwa
         }    
         //...    
     }
-    
-To handle the back button click, subscribe to the [HtmlApplication.navigatingBack()](/Documentation/ApiReference/SPA_Framework/HtmlApplication/Events/#navigatingBack) event and use the **isHardwareButton** event handler parameter within the handling function.
 <!--/fullDescription-->

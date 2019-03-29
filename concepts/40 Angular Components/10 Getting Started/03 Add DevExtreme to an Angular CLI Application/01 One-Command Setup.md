@@ -11,6 +11,6 @@ npx is available with npm v5.2 and later. If you have an earlier version, [upgra
 
 [/note]
 
-After you run the command, you can skip the following articles and move on straight to [importing DevExtreme modules](/Documentation/Guide/Angular_Components/Getting_Started/Using_an_Angular_CLI_Application/#Import_DevExtreme_Modules).
+After you run the command, you can skip the following articles and move on straight to [importing DevExtreme modules](/Documentation/Guide/Angular_Components/Getting_Started/Add_DevExtreme_to_an_Angular_CLI_Application/#Import_DevExtreme_Modules).
 
 If the command is unavailable for any reason, follow the instructions below for manual setup.

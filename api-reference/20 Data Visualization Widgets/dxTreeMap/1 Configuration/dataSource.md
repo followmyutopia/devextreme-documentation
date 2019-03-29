@@ -208,7 +208,7 @@ Use one of the following extensions to enable the server to process data accordi
 - **Any other data source**     
 Implement a [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/).
 
-Regardless of the data source on the input, the **TreeMap** always wraps it in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object. This object allows you to sort, filter, group, and otherwise shape data. To get its instance, call the [getDataSource()](/Documentation/ApiReference/UI_Widgets/dxTreeMap/Methods/#getDataSource) method.
+Regardless of the data source on the input, the **TreeMap** always wraps it in the [DataSource](/Documentation/ApiReference/Data_Layer/DataSource/) object. This object allows you to sort, filter, group, and otherwise shape data. To get its instance, call the [getDataSource()](/Documentation/ApiReference/Data_Visualization_Widgets/dxTreeMap/Methods/#getDataSource) method.
 
 [note]
 

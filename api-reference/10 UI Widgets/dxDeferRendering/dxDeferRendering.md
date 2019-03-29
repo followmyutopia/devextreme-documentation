@@ -86,7 +86,4 @@ The **DeferRendering** is a widget that waits for its content to be ready before
 
 ---
 
-#####See Also#####
-- [DeferRendering](/Documentation/Guide/Widgets/DeferRendering/Overview/)
-
 <!--/fullDescription-->
