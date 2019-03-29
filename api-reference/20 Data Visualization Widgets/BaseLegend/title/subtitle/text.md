@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the subtitle's text.
 <!--/shortDescription-->
 
 <!--fullDescription-->

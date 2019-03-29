@@ -5,9 +5,12 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the legend title's vertical alignment.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-ref-enum with {
+    enum: "`VerticalEdge`",
+    values: "`Top` and `Bottom`"
+}
 <!--/fullDescription-->

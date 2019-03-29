@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the legend title's top margin.
 <!--/shortDescription-->
 
 <!--fullDescription-->

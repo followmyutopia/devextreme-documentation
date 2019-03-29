@@ -51,7 +51,7 @@ Specifies font options for the title.
     import { NgModule } from '@angular/core';
     import { AppComponent } from './app.component';
 
-    import { DxChartModule } from 'devextreme-angular';
+    import { Dx{WidgetName}Module } from 'devextreme-angular';
 
     @NgModule({
         declarations: [
@@ -59,7 +59,7 @@ Specifies font options for the title.
         ],
         imports: [
             BrowserModule,
-            DxChartModule
+            Dx{WidgetName}Module
         ],
         providers: [ ],
         bootstrap: [AppComponent]

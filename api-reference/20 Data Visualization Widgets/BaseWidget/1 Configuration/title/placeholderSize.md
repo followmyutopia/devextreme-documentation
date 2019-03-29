@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the minimum height that the title occupies.
+Specifies the maximum height that the title can occupy.
 <!--/shortDescription-->
 
 <!--fullDescription-->
