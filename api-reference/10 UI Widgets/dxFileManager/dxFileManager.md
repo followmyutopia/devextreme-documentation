@@ -1,10 +1,11 @@
 ===========================================================================
-<!--default-->14<!--/default-->
-<!--type-->Number<!--/type-->
+<!--module-->ui/file_manager<!--/module-->
+<!--export-->default<!--/export-->
+<!--inherits-->..\Widget\Widget.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the legend title's bottom margin.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

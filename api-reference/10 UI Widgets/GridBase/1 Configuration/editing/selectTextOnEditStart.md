@@ -1,10 +1,10 @@
 ===========================================================================
-<!--default-->14<!--/default-->
-<!--type-->Number<!--/type-->
+<!--default-->false<!--/default-->
+<!--type-->Boolean<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the legend title's bottom margin.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
