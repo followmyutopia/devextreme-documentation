@@ -14,4 +14,5 @@ The **Chart** provides [several aggregation methods](/Documentation/ApiReference
 #####See Also#####
 - **Points Aggregation Demo**: [Milti-Series Chart](/Demos/WidgetsGallery/Demo/Charts/PointsAggregation/jQuery/Light/) | [Financial Chart](/Demos/WidgetsGallery/Demo/Charts/PointsAggregationFinancialChart/jQuery/Light/)
 - [Data Aggregation](/Documentation/Guide/Widgets/Chart/Data_Aggregation/)
+- [autoHidePointMarkers](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#autoHidePointMarkers)
 <!--/fullDescription-->
