@@ -1,10 +1,11 @@
 ===========================================================================
-<!--default-->7<!--/default-->
-<!--type-->Number<!--/type-->
+<!--default-->'none'<!--/default-->
+<!--acceptValues-->'ellipsis' | 'hide' | 'none'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies minor tick length.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->

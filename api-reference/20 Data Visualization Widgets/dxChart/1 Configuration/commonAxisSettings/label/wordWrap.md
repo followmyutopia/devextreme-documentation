@@ -1,10 +1,11 @@
 ===========================================================================
-<!--default-->7<!--/default-->
-<!--type-->Number<!--/type-->
+<!--default-->'normal'<!--/default-->
+<!--acceptValues-->'normal' | 'break-word' | 'none'<!--/acceptValues-->
+<!--type-->String<!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
-Specifies minor tick length.
+
 <!--/shortDescription-->
 
 <!--fullDescription-->
