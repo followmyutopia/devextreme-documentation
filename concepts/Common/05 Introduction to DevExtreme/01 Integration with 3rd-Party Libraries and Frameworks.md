@@ -6,7 +6,7 @@ DevExtreme supports integration with client-side technologies and server-side fr
 - [Angular](/Documentation/Guide/Angular_Components/DevExtreme_Angular_Components/) versions 5 and later
 - [Vue](https://github.com/DevExpress/devextreme-vue/blob/19.1/README.md) - versions 2.5.16 and later
 - [React](/Documentation/Guide/Getting_Started/Widget_Basics_-_React/)
-    - [DevExtreme React Wrappers](https://github.com/DevExpress/devextreme-react/blob/19.1/README.md) - versions 16.2 and later
+    - [DevExtreme React Wrappers](/Documentation/Guide/React_Components/DevExtreme_React_Components/) - versions 16.2 and later
     - [DevExtreme Reactive Components for React](https://github.com/DevExpress/devextreme-reactive/blob/master/README.md#business-components-for-react) - versions 16.2 and later
 - [ASP.NET](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/): ASP.NET MVC 5 / .NET Core 2.0 and later
 

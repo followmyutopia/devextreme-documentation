@@ -1,4 +1,4 @@
-In the following example, two textboxes are put in a [validation group](/Documentation/ApiReference/UI_Widgets/dxValidationGroup/) that is validated on a button click. Each textbox has its own set of [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/). The validation result is displayed under the textboxes in a [validation summary](/Documentation/ApiReference/UI_Widgets/dxValidationSummary/).
+In the following example, two textboxes are placed in a [validation group](/Documentation/ApiReference/UI_Widgets/dxValidationGroup/) that is validated on a button click. Each textbox has a set of [validation rules](/Documentation/ApiReference/UI_Widgets/dxValidator/Validation_Rules/). The validation result is displayed under the textboxes in a [validation summary](/Documentation/ApiReference/UI_Widgets/dxValidationSummary/).
 
     <!-- tab: app.component.html -->
     <dx-validation-group>

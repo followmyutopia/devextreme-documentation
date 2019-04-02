@@ -165,7 +165,7 @@ Implement a [CustomStore](/Documentation/ApiReference/Data_Layer/CustomStore/).
 
 [note]
 
-The stores are immutable. You cannot change their configurations at runtime. Instead, create a new store or **DataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding), [React](https://github.com/DevExpress/devextreme-react/blob/19.1/README.md#controlled-mode), and [Vue](https://github.com/DevExpress/devextreme-vue/blob/19.1/README.md#two-way-binding).
+The stores are immutable. You cannot change their configurations at runtime. Instead, create a new store or **DataSource** and assign it to the **dataSource** option as shown in the articles about changing options in [jQuery](/Documentation/Guide/Getting_Started/Widget_Basics_-_jQuery/Get_and_Set_Options/), [Angular](/Documentation/Guide/Angular_Components/Component_Configuration_Syntax/#Two-Way_Option_Binding), [React](/Documentation/Guide/React_Components/State_Management/#Controlled_Mode), and [Vue](https://github.com/DevExpress/devextreme-vue/blob/19.1/README.md#two-way-binding).
 
 [/note]
 <!--/fullDescription-->
