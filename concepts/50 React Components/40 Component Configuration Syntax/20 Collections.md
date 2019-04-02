@@ -1,0 +1,43 @@
+Use nested configuration components. The following example shows how to configure the [DataGrid](/Demos/WidgetsGallery/Demo/DataGrid/Overview/React/Light/) widget's [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) option:
+
+    <!-- tab: App.js -->
+    import DataGrid, {
+        Column
+    } from 'devextreme-react/data-grid'; 
+
+    class App extends React.Component {
+        render() {
+            return (
+                <DataGrid>
+                    <Column
+                        dataField="firstName"
+                        caption="First Name"
+                    />
+                    <Column
+                        dataField="lastName"
+                        caption="Last Name"
+                        defaultVisible={true}
+                    />
+                </DataGrid>
+            );
+        }
+    }
+
+DevExtreme collection widgets also support the `Item` component. It allows you to declare collection items in the widget markup. The following code shows how to use this component in the [List](/Demos/WidgetsGallery/Demo/List/ItemTemplate/Angular/Light/) widget. Note that `Item` has attributes that control parts of item appearance, such as `badge` in the code below. They are described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/) section of each collection widget.
+
+    <!-- tab: App.js -->
+    import List, {
+        Item
+    } from 'devextreme-react/list';
+
+    class App extends React.Component {
+        render() {
+            return (
+                <List>
+                    <Item>Orange</Item>
+                    <Item badge="New">White</Item>
+                    <Item>Black</Item>
+                </List>
+            );
+        }
+    }

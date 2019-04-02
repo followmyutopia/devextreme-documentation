@@ -1,0 +1,1 @@
+For information on this matter, refer to [Call Methods](/Documentation/Guide/React_Components/Component_Configuration_Syntax/#Call_Methods).
