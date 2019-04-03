@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the maximum height that the title can occupy.
+Reserves a pixel-measured space for the title.
 <!--/shortDescription-->
 
 <!--fullDescription-->

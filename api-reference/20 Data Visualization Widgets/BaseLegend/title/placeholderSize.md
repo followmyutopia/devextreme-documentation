@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies the legend title's maximum height.
+Reserves a pixel-measured space for the legend title.
 <!--/shortDescription-->
 
 <!--fullDescription-->
