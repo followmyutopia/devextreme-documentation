@@ -11,6 +11,7 @@
     "dxHtmlEditorVariables",
     "dxHtmlEditorToolbar/items",
     "dxHtmlEditorResizing",
+    "dxHtmlEditorMentions",
     "dxActionButton",
     "chartPointAggregationInfoObject",
     "dxSankeyConnectionInfoObject",
@@ -421,6 +422,10 @@
           "resizing": {
             "resizing.md": "dxHtmlEditor/Options/resizing",
             "$Object": "dxHtmlEditorResizing"
+          },
+          "mentions": {
+              "mentions.md": "dxHtmlEditor/Options/mentions",
+              "$Object": "dxHtmlEditorMentions"
           }
       },
       "$Widget": "dxHtmlEditor"
