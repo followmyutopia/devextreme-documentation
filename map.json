@@ -11,6 +11,7 @@
     "dxHtmlEditorVariables",
     "dxHtmlEditorToolbar/items",
     "dxHtmlEditorResizing",
+    "dxActionButton",
     "chartPointAggregationInfoObject",
     "dxSankeyConnectionInfoObject",
     "dxRecurrenceEditor",
@@ -74,10 +75,6 @@
         "Default Item Template.md": "dxAccordionItem",
         "$Widget": "dxAccordionItem"
       }
-    },
-
-    "dxActionButton": {
-      "$Widget": "dxActionButton"
     },
 
     "dxActionSheet": {
@@ -511,6 +508,12 @@
     },
 
     "dxTextEditor": {
+      "1 Configuration": {
+        "buttons": {
+            "buttons.md": "dxTextEditor/Options/buttons",
+            "$Object": "dxActionButton"
+        }
+      },
       "$Widget": "dxTextEditor"
     },
 
