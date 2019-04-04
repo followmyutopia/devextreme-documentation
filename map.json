@@ -76,6 +76,10 @@
       }
     },
 
+    "dxActionButton": {
+      "$Widget": "dxActionButton"
+    },
+
     "dxActionSheet": {
       "$Widget": "dxActionSheet",
 
