@@ -1,4 +1,4 @@
-Use the [onAppointmentFormCreated](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentFormCreated) function to customize the appointment details form. Refer to the function's description for an example.
+Use the [onAppointmentFormOpening](/Documentation/ApiReference/UI_Widgets/dxScheduler/Configuration/#onAppointmentFormOpening) function to customize the appointment details form. Refer to the function's description for an example.
 
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/CustomTemplates/jQuery/Light/"

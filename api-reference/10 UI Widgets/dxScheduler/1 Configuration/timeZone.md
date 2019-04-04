@@ -15,4 +15,7 @@ The list of supported timezones is available in the [list of IANA time zones](ht
 #include common-demobutton with {
     url: "/Demos/WidgetsGallery/Demo/Scheduler/TimeZonesSupport/jQuery/Light/"
 }
+
+#####See Also#####
+- [Time Zone Support](/Documentation/Guide/Widgets/Scheduler/Time_Zone_Support/)
 <!--/fullDescription-->
