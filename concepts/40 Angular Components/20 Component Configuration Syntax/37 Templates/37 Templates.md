@@ -14,6 +14,8 @@ Templates allow you to customize widget elements. In the following code, an [ite
         </div>
     </dx-list>
 
+[note] The `dxTemplate` attribute directive cannot be used on custom markup elements. 
+
 Refer to the common [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates) article for more information.
 
 [note]
