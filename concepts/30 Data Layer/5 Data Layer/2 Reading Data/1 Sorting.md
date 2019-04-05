@@ -35,11 +35,25 @@ The sorting condition can be specified using the [sort](/Documentation/ApiRefere
             // 'result' contains the 'data' array items sorted by 'lastName'
         });
 
- To sort data in the descending order, pass an object containing the **getter** (**field** or **selector** - they are equivalents) and **desc** properties to the sort method.
+ To sort data in descending order, pass an object containing the **getter** (**field** or **selector** - they are equivalents) and **desc** properties to the sort method.
 
         <!--JavaScript-->dataSource.sort({ getter: "lastName", desc: true });
         dataSource.load().done(function(result) {
-            // 'result' contains the 'data' array items sorted by 'lastName' in the descending order
+            // 'result' contains the 'data' array items sorted by 'lastName' in descending order
+        });
+
+ Pass a function to the method if you need to sort by custom values. 
+
+        <!--JavaScript-->
+        dataSource.sort(function(e) {
+            if(e.Position == "CEO") 
+                return "!";
+            else
+                return e.Position;
+        });
+        dataSource.load().done(function(result) {
+            // 'result' contains the 'data' array where CEO's are displayed at the top
+            // other positions are sorted in ascending order
         });
 
 - **Several expressions**

@@ -24,7 +24,7 @@ An object with the following fields:
 An array of strings and objects described above.
 
 - **Function**      
-A function implementing custom grouping logic.
+A function that returns the value to group by.
 
 ---
 ##### jQuery
@@ -32,7 +32,12 @@ A function implementing custom grouping logic.
     <!--JavaScript-->
     var ds = new DevExpress.data.DataSource({
         // ...
-        group: { selector: "employeeID", desc: true }
+        group: { selector: "LastName", desc: true },
+        /* or as a function
+        group: function(e) {
+            // creates two custom groups
+            return e.BirthYear < 1990 ? "Born before 1990" : "Born after 1990";
+        } */
     });
 
 ##### Angular
@@ -45,7 +50,12 @@ A function implementing custom grouping logic.
         constructor() {
             this.ds = new DataSource({
                 // ...
-                group: { selector: "employeeID", desc: true }
+                group: { selector: "LastName", desc: true },
+                /* or as a function
+                group: function(e) {
+                    // creates two custom groups
+                    return e.BirthYear < 1990 ? "Born before 1990" : "Born after 1990";
+                } */
             });
         }
     }
@@ -55,9 +65,18 @@ A function implementing custom grouping logic.
     <!--Razor C#-->
     @(Html.DevExtreme().WidgetName()
         .DataSourceOptions(dso => dso
-            .Group("employeeID", true)
+            .Group("LastName", true)
+            // === or as a function ===
+            .Group("group_function")
         )
     )
+
+    <script type="text/javascript">
+        function group_function(e) {
+            // creates two custom groups
+            return e.BirthYear < 1990 ? "Born before 1990" : "Born after 1990";
+        }
+    </script>
 
 ---
 
