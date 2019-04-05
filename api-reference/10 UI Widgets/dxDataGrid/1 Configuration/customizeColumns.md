@@ -3,11 +3,53 @@
 ===========================================================================
 
 <!--shortDescription-->
-Specifies a function that customizes grid columns after they are created.
+Customizes columns after they are created.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-Usually, each column in **DataGrid** is configured individually using options within the objects of the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array. In most cases, configuring grid columns in this fashion is sufficient to make them appear appropriately. However, there may be scenarios when columns are generated on the base of a data source and you need to adjust a few of their options. In that case, you do not need to declare the **columns** array. Instead, change the required options within a callback function assigned to the **customizeColumns** option. An array of grid columns can be accessed using the function parameter. Fields of each object in this array represent column options identical to the options described in the **columns** reference section. 
+Use this function to make minor adjustments to automatically generated columns. You can access and modify column configurations using the function's parameter. 
+
+---
+##### jQuery
+
+    <!--JavaScript-->
+    $(function(){
+        $("#dataGrid").dxDataGrid({
+            // ...
+            customizeColumns: function (columns) {
+                columns[0].width = 100;
+                columns[1].width = 210;
+            }
+        })
+    });
+
+##### Angular
+
+    <!--TypeScript-->
+    import { DxDataGridModule } from "devextreme-angular";
+    // ...
+    export class AppComponent {
+        customizeColumns (columns) {
+            columns[0].width = 100;
+            columns[1].width = 210;
+        }
+    }
+    @NgModule({
+        imports: [
+            // ...
+            DxDataGridModule
+        ],
+        // ...
+    })
+
+    <!--HTML-->
+    <dx-data-grid ...
+        [customizeColumns]="customizeColumns">
+    </dx-data-grid>
+    
+---
+
+For a more profound column customization, declare the [columns](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/columns/) array.
 <!--/fullDescription-->
 <!--typeFunctionParamName1-->columns<!--/typeFunctionParamName1-->
 <!--typeFunctionParamType1-->Array<dxDataGridColumn><!--/typeFunctionParamType1-->
