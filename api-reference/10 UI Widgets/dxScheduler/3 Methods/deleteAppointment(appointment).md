@@ -204,21 +204,22 @@ If you delete a recurring appointment from the data source, all its occurrences 
         constructor(props) {
             super(props);
 
-            this.scheduler = null;
-            this.setScheduler = (ref) => {
-                this.scheduler = ref.instance;
-            };
+            this.schedulerRef = React.createRef();
 
             this.deleteAppointment = () => {
                 this.scheduler.deleteAppointment(appointments[0]);
             }
         }
 
+        get scheduler() {
+            return this.schedulerRef.current.instance;
+        }
+
         render() {
             return (
                 <div>
                     <Button text="Delete" onClick={this.deleteAppointment} />
-                    <Scheduler ref={this.setScheduler}
+                    <Scheduler ref={this.schedulerRef}
                         dataSource={appointments}
                         defaultCurrentDate={currentDate} />
                 </div>

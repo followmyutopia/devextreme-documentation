@@ -104,23 +104,24 @@ You can implement a custom handler for a key using the [registerKeyHandler(key, 
         constructor(props) {
             super(props);
 
-            this.myButton = null;
-            this.setMyButton = (ref) => {
-                this.myButton = ref.instance;
-            }
+            this.buttonRef = React.createRef();
+        }
+
+        get button() {
+            return this.buttonRef.current.instance;
         }
 
         render() {
             return (
-                <Button ref={this.setMyButton} />
+                <Button ref={this.buttonRef} />
             );
         }
 
         componentDidMount() {
-            this.myButton.registerKeyHandler('backspace', function(e) {
+            this.button.registerKeyHandler('backspace', function(e) {
                 // The argument "e" contains information on the event
             });
-            this.myButton.registerKeyHandler('space', function(e) {
+            this.button.registerKeyHandler('space', function(e) {
                 // ...
             });
         }

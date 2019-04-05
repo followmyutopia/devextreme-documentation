@@ -167,23 +167,24 @@ You can also implement handlers for other keys using the [registerKeyHandler(key
         constructor(props) {
             super(props);
 
-            this.myTextBox = null;
-            this.setMyTextBox = (ref) => {
-                this.myTextBox = ref.instance;
-            }
+            this.textBoxRef = React.createRef();
+        }
+
+        get textBox() {
+            return this.textBoxRef.current.instance;
         }
 
         render() {
             return (
-                <TextBox ref={this.setMyTextBox} />
+                <TextBox ref={this.textBoxRef} />
             );
         }
 
         componentDidMount() {
-            this.myTextBox.registerKeyHandler('backspace', function(e) {
+            this.textBox.registerKeyHandler('backspace', function(e) {
                 // The argument "e" contains information on the event
             });
-            this.myTextBox.registerKeyHandler('space', function(e) {
+            this.textBox.registerKeyHandler('space', function(e) {
                 // ...
             });
         }
