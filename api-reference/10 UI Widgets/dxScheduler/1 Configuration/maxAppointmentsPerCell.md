@@ -19,6 +19,6 @@ The widget narrows the appointments down to 20 pixels in height. If they still d
 The number of appointments allowed in a single cell. Appointments are aggregated in an appointment collector when this number is exceeded.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/AdaptiveAppointments/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/jQuery/Light/"
 }
 <!--/fullDescription-->

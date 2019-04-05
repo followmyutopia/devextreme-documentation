@@ -10,7 +10,7 @@ Specifies a custom template for appointments in the appointment collector's drop
 <!--fullDescription-->
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Scheduler/AdaptiveAppointments/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/Scheduler/LimitAppointmentCountPerCell/jQuery/Light/"
 }
 
 #####See Also#####
