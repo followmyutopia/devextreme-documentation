@@ -170,6 +170,10 @@
       "$Widget": "dxDeferRendering"
     },
 
+    "dxDiagram": {
+      "$Widget": "dxDiagram"
+    },
+
     "dxDrawer": {
       "$Widget": "dxDrawer"
     },
