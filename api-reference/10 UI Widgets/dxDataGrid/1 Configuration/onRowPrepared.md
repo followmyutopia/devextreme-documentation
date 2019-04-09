@@ -43,7 +43,7 @@ The row's key.
 If a field providing keys is not specified in the [data source](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Configuration/#dataSource), the whole data object is considered the key. 
 <!--/typeFunctionParamDescription1_field5-->
 <!--typeFunctionParamName1_field6-->values<!--/typeFunctionParamName1_field6-->
-<!--typeFunctionParamType1_field6-->Array<Object><!--/typeFunctionParamType1_field6-->
+<!--typeFunctionParamType1_field6-->Array<any><!--/typeFunctionParamType1_field6-->
 <!--typeFunctionParamDescription1_field6-->
 Values displayed in the row cells.
 <!--/typeFunctionParamDescription1_field6-->

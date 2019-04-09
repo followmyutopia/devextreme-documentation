@@ -54,7 +54,7 @@ The row's data.
 The row's key.
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->values<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->Array<Object><!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->Array<any><!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 Values displayed in the row cells.
 <!--/typeFunctionParamDescription1_field8-->

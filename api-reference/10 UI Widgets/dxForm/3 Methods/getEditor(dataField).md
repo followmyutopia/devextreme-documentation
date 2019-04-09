@@ -11,7 +11,7 @@ Gets an editor instance. Takes effect only if the form item is visible.
 The item's [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#name) or [dataField](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/SimpleItem/#dataField).
 <!--/paramDescription1-->
 
-<!--returnType-->any<!--/returnType-->
+<!--returnType-->Editor|undefined<!--/returnType-->
 <!--returnDescription-->
 The editor instance.
 <!--/returnDescription-->

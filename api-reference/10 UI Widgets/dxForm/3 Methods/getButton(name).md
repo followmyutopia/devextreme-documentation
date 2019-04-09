@@ -11,7 +11,7 @@ Gets a button's instance.
 A button item's [name](/Documentation/ApiReference/UI_Widgets/dxForm/Item_Types/ButtonItem/#name).
 <!--/paramDescription1-->
 
-<!--returnType-->any<!--/returnType-->
+<!--returnType-->dxButton|undefined<!--/returnType-->
 <!--returnDescription-->
 The button's [instance](/Documentation/ApiReference/UI_Widgets/dxButton/).
 <!--/returnDescription-->

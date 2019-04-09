@@ -47,7 +47,7 @@
 
 <!--/typeFunctionParamDescription1_field6-->
 <!--typeFunctionParamName1_field7-->values<!--/typeFunctionParamName1_field7-->
-<!--typeFunctionParamType1_field7-->Array<Object><!--/typeFunctionParamType1_field7-->
+<!--typeFunctionParamType1_field7-->Array<any><!--/typeFunctionParamType1_field7-->
 <!--typeFunctionParamDescription1_field7-->
 
 <!--/typeFunctionParamDescription1_field7-->

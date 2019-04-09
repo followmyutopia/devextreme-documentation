@@ -56,7 +56,7 @@ The row's key. Available if the **rowType** is *"data"*, *"detail"* or *"detailA
 For plain data, the key value depends on the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) option. For hierarchical data, the key is generated automatically or set in the underlying **Store** of the [data source](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#dataSource). 
 <!--/typeFunctionParamDescription1_field7-->
 <!--typeFunctionParamName1_field8-->values<!--/typeFunctionParamName1_field8-->
-<!--typeFunctionParamType1_field8-->Array<Object><!--/typeFunctionParamType1_field8-->
+<!--typeFunctionParamType1_field8-->Array<any><!--/typeFunctionParamType1_field8-->
 <!--typeFunctionParamDescription1_field8-->
 Values displayed in the row cells.
 <!--/typeFunctionParamDescription1_field8-->

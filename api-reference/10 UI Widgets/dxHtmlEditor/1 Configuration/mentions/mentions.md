@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->null<!--/default-->
-<!--type-->dxHtmlEditorMentions<!--/type-->
+<!--type-->Array<dxHtmlEditorMention><!--/type-->
 ===========================================================================
 
 <!--shortDescription-->
