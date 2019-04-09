@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Enables media resizing.
 <!--/shortDescription-->
 
 <!--fullDescription-->
