@@ -9,4 +9,8 @@ Repeat the full set of palette colors, alternating their normal, lightened, and 
 - *"extrapolate"*   
 Repeat the full set of palette colors, changing their shade gradually from dark to light.
 
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Charts/Palette/jQuery/Light/"
+}
+
 Use the `VizPaletteExtensionMode` enum to specify this option when the widget is used as an [ASP.NET MVC Control](/Documentation/Guide/ASP.NET_MVC_Controls/Fundamentals/). This enum accepts the following values: `Blend`, `Alternate`, and `Extrapolate`.

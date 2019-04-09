@@ -18,5 +18,6 @@ Sets the palette to be used to colorize series in the chart.
 
 #####See Also#####
 - [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
+- [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#generateColorspalette_count_options)
 - **chart**.[paletteExtensionMode]({basewidgetpath}/Configuration/chart/#paletteExtensionMode)
 <!--/fullDescription-->

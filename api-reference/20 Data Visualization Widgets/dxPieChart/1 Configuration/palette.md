@@ -19,5 +19,6 @@ Sets the palette to be used to colorize series and their elements.
 #####See Also#####
 - [Palettes](/Documentation/Guide/Themes_and_Styles/SVG-Based_Widgets_Customization/#Palettes)
 - [paletteExtensionMode]({basewidgetpath}/Configuration/#paletteExtensionMode)
+- [DevExpress.viz.generateColors(palette, count, options)](/Documentation/ApiReference/Common/utils/viz/Methods/#generateColorspalette_count_options)
 - **series**.[color]({basewidgetpath}/Configuration/series/#color)
 <!--/fullDescription-->
