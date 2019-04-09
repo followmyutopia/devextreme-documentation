@@ -12,6 +12,8 @@
     "dxHtmlEditorToolbar/items",
     "dxHtmlEditorResizing",
     "dxHtmlEditorMentions",
+    "dxChartAnnotationConfig",
+    "dxChartCommonAnnotationConfig"
     "dxActionButton",
     "chartPointAggregationInfoObject",
     "dxSankeyConnectionInfoObject",
@@ -753,6 +755,17 @@
     },
 
     "dxChart": {
+      "1 Configuration": {
+        "annotations": {
+          "annotations.md": "dxChart/Options/annotations",
+          "$Object": "dxChartAnnotationConfig"
+        },
+        "commonAnnotationSettings": {
+          "commonAnnotationSettings.md": "dxChart/Options/commonAnnotationSettings",
+          "$Object": "dxChartCommonAnnotationConfig"
+        }
+      },
+
       "$Widget": "dxChart",
 
       "5 Series Types": {
