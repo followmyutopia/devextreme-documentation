@@ -10,8 +10,8 @@
     "dxHtmlEditorToolbar",
     "dxHtmlEditorVariables",
     "dxHtmlEditorToolbar/items",
-    "dxHtmlEditorResizing",
-    "dxHtmlEditorMentions",
+    "dxHtmlEditorMediaResizing",
+    "dxHtmlEditorMention",
     "dxChartAnnotationConfig",
     "dxChartCommonAnnotationConfig",
     "dxActionButton",
@@ -425,13 +425,13 @@
             "toolbar.md": "dxHtmlEditor/Options/toolbar",
             "$Object": "dxHtmlEditorToolbar"
           },
-          "resizing": {
+          "mediaResizing": {
             "resizing.md": "dxHtmlEditor/Options/resizing",
-            "$Object": "dxHtmlEditorResizing"
+            "$Object": "dxHtmlEditorMediaResizing"
           },
           "mentions": {
               "mentions.md": "dxHtmlEditor/Options/mentions",
-              "$Object": "dxHtmlEditorMentions"
+              "$Object": "dxHtmlEditorMention"
           }
       },
       "$Widget": "dxHtmlEditor"
