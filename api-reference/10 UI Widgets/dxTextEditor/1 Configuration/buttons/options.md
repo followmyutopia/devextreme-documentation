@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Configures the [Button](/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/jQuery/Light/) widget used as the action button.
 <!--/shortDescription-->
 
 <!--fullDescription-->

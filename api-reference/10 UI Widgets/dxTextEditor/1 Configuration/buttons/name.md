@@ -4,9 +4,10 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the button's name.
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#####See Also#####
+- [getButton(name)]({basewidgetpath}/Methods/#getButtonname)
 <!--/fullDescription-->
