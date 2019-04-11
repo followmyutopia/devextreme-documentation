@@ -75,17 +75,15 @@ The following code shows how to use the **customizeItems** function to sort lege
             Dx{WidgetName},
             DxLegend
         },
-        data() {
-            return {
-                sortLegendItems(items) {
-                    return items.sort((a, b) => {
-                        let itemA = a.text.toLowerCase();
-                        let itemB = b.text.toLowerCase();
-                        if(itemA < itemB) return -1;
-                        if(itemA > itemB) return 1;
-                        return 0;
-                    });
-                }
+        methods: {
+            sortLegendItems(items) {
+                return items.sort((a, b) => {
+                    let itemA = a.text.toLowerCase();
+                    let itemB = b.text.toLowerCase();
+                    if(itemA < itemB) return -1;
+                    if(itemA > itemB) return 1;
+                    return 0;
+                });
             }
         }
     }
