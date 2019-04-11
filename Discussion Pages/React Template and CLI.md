@@ -73,15 +73,24 @@ The following command generates an empty view and adds it to the navigation menu
 > devextreme add view view-name [--icon]
 ```
 
+# Try It
+
+## Live Sandbox
+
+Check out the [early working prototype](https://devexpress.github.io/devextreme-react-template/)
+
+## Installation
+
+```bash
+> npm i -g devextreme-cli@next
+```
+
 # We Need Your Feedback
 
 ## Take a Quick Poll
 
 [Does the new React Application Template meet your needs?](https://forms.gle/mcamVXSoLx8qq4BN9)
 
-## Live Sandbox
-
-Check out the [early working prototype](https://devexpress.github.io/devextreme-react-template/)
 
 # Get Notified of Updates
 
