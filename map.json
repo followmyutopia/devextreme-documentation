@@ -329,25 +329,7 @@
     "dxOverlay": {
       "$Widget": "dxOverlay"
     },
-
-    "dxPanorama": {
-      "$Widget": "dxPanorama",
-
-      "5 Default Item Template": {
-        "Default Item Template.md": "dxPanoramaItem",
-        "$Widget": "dxPanoramaItem"
-      }
-    },
-
-    "dxPivot": {
-      "$Widget": "dxPivot",
-
-      "5 Default Item Template": {
-        "Default Item Template.md": "dxPivotItem",
-        "$Widget": "dxPivotItem"
-      }
-    },
-
+    
     "dxPivotGrid": {
       "$Widget": "dxPivotGrid",
 
