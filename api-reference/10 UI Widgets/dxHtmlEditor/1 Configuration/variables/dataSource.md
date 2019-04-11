@@ -139,7 +139,7 @@ Use one of the following extensions to enable the server to process data accordi
 
         import CustomStore from 'devextreme/data/custom_store';
         import { createStore } from 'devextreme-aspnet-data-nojquery';
-        import Dx{WidgetName}, { DxVariables } from 'devextreme-react/{widget-name}';
+        import {WidgetName}, { Variables } from 'devextreme-react/{widget-name}';
 
         const serviceUrl = "https://url/to/my/service";
         const store = createStore({

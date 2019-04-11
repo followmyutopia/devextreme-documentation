@@ -143,7 +143,7 @@ Use one of the following extensions to enable the server to process data accordi
         import CustomStore from 'devextreme/data/custom_store';
         import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
         import { createStore } from 'devextreme-aspnet-data-nojquery';
-        import { DxPivotGrid } from 'devextreme-react/pivot-grid';
+        import PivotGrid from 'devextreme-react/pivot-grid';
 
         const serviceUrl = "https://url/to/my/service";
         const pivotGridDataSource = new PivotGridDataSource({

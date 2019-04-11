@@ -185,7 +185,7 @@ Use one of the following extensions to enable the server to process data accordi
 
         import CustomStore from 'devextreme/data/custom_store';
         import { createStore } from 'devextreme-aspnet-data-nojquery';
-        import { DxTreeMap } from 'devextreme-react/tree-map';
+        import TreeMap from 'devextreme-react/tree-map';
 
         const serviceUrl = "https://url/to/my/service";
         const store = createStore({
