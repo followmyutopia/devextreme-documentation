@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the distance between the [title]({basewidgetpath}/Configuration/title/) and subtitle in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->

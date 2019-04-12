@@ -4,7 +4,7 @@
 ===========================================================================
 
 <!--shortDescription-->
-
+Specifies the distance between the legend's [title]({basewidgetpath}/Configuration/legend/title/) and subtitle in pixels.
 <!--/shortDescription-->
 
 <!--fullDescription-->
