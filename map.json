@@ -205,7 +205,22 @@
     },
 
     "dxFileManager": {
-        "$Widget": "dxFileManager"
+        "$Widget": "dxFileManager",
+
+        "5 File Providers": {
+          "Web API": {
+            "Web API.md": "WebApiFileProvider",
+            "$Widget": "WebApiFileProvider"
+          },
+          "OneDrive": {
+            "OneDrive.md": "OneDriveFileProvider",
+            "$Widget": "OneDriveFileProvider"
+          },
+          "FileProvider": {
+            "FileProvider.md": "FileProvider",
+            "$Widget": "FileProvider"
+          }
+        }
     },
 
     "dxFileUploader": {
