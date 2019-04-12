@@ -15,3 +15,8 @@
 <!--typeFunctionParamDescription1-->
 
 <!--/typeFunctionParamDescription1-->
+
+<!--typeFunctionReturnType-->String<!--/typeFunctionReturnType-->
+<!--typeFunctionReturnDescription-->
+
+<!--/typeFunctionReturnDescription-->

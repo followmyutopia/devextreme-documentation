@@ -1,6 +1,7 @@
 ===========================================================================
-<!--default-->'this'<!--/default-->
-<!--type-->String<!--/type-->
+<!--module-->ui/floating_action_button<!--/module-->
+<!--export-->default<!--/export-->
+<!--inherits-->..\Widget\Widget.md<!--/inherits-->
 ===========================================================================
 
 <!--shortDescription-->
