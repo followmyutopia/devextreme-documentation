@@ -17,6 +17,9 @@
     "dxActionButton",
     "chartPointAggregationInfoObject",
     "dxSankeyConnectionInfoObject",
+    "WebApiFileProvider",
+    "OneDriveFileProvider",
+    "FileProvider",
     "dxRecurrenceEditor",
     "dxRecurrenceEditor/*",
     "DOMComponent/Options/bindingOptions",
@@ -239,6 +242,10 @@
         "$Widget": "dxFilterBuilderField"
       },
       "$Widget": "dxFilterBuilder"
+    },
+
+    "dxFloatingActionButton": {
+      "$Widget": "dxFloatingActionButton"
     },
 
     "dxForm": {

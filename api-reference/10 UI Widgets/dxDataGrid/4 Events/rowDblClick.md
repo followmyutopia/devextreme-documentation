@@ -87,8 +87,3 @@ The row's [group index](/Documentation/ApiReference/UI_Widgets/dxDataGrid/Config
 <!--typeFunctionParamDescription1_field14-->
 The row's container. It is an [HTML Element](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement) or a [jQuery Element](http://api.jquery.com/Types/#jQuery) when you use jQuery.
 <!--/typeFunctionParamDescription1_field14-->
-<!--typeFunctionParamName1_field15-->handled<!--/typeFunctionParamName1_field15-->
-<!--typeFunctionParamType1_field15-->Boolean<!--/typeFunctionParamType1_field15-->
-<!--typeFunctionParamDescription1_field15-->
-
-<!--/typeFunctionParamDescription1_field15-->

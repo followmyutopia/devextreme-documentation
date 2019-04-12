@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
-<!--acceptValues-->'label' | 'image'<!--/acceptValues-->
+<!--acceptValues-->'text' | 'image'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -8,7 +8,7 @@ Returns a subset of palette colors.
 <!--/shortDescription-->
 
 <!--paramName1-->palette<!--/paramName1-->
-<!--paramType1-->Enums_VizPalette|Array<String><!--/paramType1-->
+<!--paramType1-->Array<String>|'Bright'|'Default'|'Harmony Light'|'Ocean'|'Pastel'|'Soft'|'Soft Pastel'|'Vintage'|'Violet'|'Carmine'|'Dark Moon'|'Dark Violet'|'Green Mist'|'Soft Blue'|'Material'|'Office'<!--/paramType1-->
 <!--paramDescription1-->
 A palette name or an array of colors. See [palette](/Documentation/ApiReference/Data_Visualization_Widgets/dxChart/Configuration/#palette) for more information.
 <!--/paramDescription1-->

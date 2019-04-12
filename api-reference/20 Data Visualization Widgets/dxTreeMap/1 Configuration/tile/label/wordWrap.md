@@ -1,6 +1,6 @@
 ===========================================================================
 <!--default-->'normal'<!--/default-->
-<!--acceptValues-->'normal' | 'break-word' | 'none'<!--/acceptValues-->
+<!--acceptValues-->'normal' | 'breakWord' | 'none'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 

@@ -1,5 +1,6 @@
 ===========================================================================
 <!--default-->undefined<!--/default-->
+<!--acceptValues-->'clear' | 'spins' | 'dropDown'<!--/acceptValues-->
 <!--type-->Array<String, dxActionButton><!--/type-->
 ===========================================================================
 

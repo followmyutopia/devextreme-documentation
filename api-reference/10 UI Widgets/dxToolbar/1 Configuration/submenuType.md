@@ -1,7 +1,7 @@
 ===========================================================================
 <!--hidden--><!--/hidden-->
 <!--default-->'dropDownMenu'<!--/default-->
-<!--acceptValues-->'actionSheet' | 'listTop' | 'listBottom' | 'dropDownMenu'<!--/acceptValues-->
+<!--acceptValues-->'actionSheet' | 'dropDownMenu'<!--/acceptValues-->
 <!--type-->String<!--/type-->
 ===========================================================================
 
