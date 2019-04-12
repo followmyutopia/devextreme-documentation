@@ -7,6 +7,10 @@ Specifies a custom template for the widget used to edit the field value.
 <!--/shortDescription-->
 
 <!--fullDescription-->
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/FilterBuilder/Customization/jQuery/Light/"
+}
+
 #####See Also#####
 - [Custom Templates](/Documentation/Guide/Widgets/Common/Templates/#Custom_Templates)
 <!--/fullDescription-->
