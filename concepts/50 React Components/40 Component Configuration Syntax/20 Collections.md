@@ -23,7 +23,7 @@ Use nested configuration components. The following example shows how to configur
         }
     }
 
-DevExtreme collection widgets also support the `Item` component. It allows you to declare collection items in the widget markup. The following code shows how to use this component in the [List](/Demos/WidgetsGallery/Demo/List/ItemTemplate/Angular/Light/) widget. Note that `Item` has attributes that control parts of item appearance, such as `badge` in the code below. They are described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/) section of each collection widget.
+DevExtreme collection widgets also support the `Item` component. It allows you to declare collection items in the widget markup. An `Item` element can contain custom markup and have attributes that control parts of item appearance, such as `badge` in the following code. The attributes are described in the [Default Item Template](/Documentation/ApiReference/UI_Widgets/dxList/Default_Item_Template/) section of each collection widget.
 
     <!-- tab: App.js -->
     import List, {

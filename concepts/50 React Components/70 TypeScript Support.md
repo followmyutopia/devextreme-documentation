@@ -13,13 +13,17 @@ The following code shows an example of using TypeScript with DevExtreme componen
         text: string;
     }
 
+    interface IComponentState {
+        counter: number;
+    }
+
     const items: IListItemProps[] = [
         { text: "Item 1" },
         { text: "Item 2" },
         { text: "Item 3" }
     ];
 
-    class Item extends React.Component<IListItemProps, { counter: number }> {
+    class Item extends React.Component<IListItemProps, IComponentState> {
         constructor(props: IListItemProps) {
             super(props);
             this.state = {
