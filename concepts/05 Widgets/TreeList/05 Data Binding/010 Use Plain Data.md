@@ -62,7 +62,7 @@ Here, all items have the **id** field, and those items that have a parent includ
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayPlainStructure/jQuery/Light/"
 }
 
 Items on the highest hierarchical level have the parent ID equal to *0*, **null** or **undefined**, which indicates that these items belong to the root node. If you need to use another value, change the [rootValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#rootValue) option.

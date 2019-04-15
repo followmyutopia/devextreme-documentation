@@ -118,4 +118,4 @@ Since the load panel is a DevExtreme [LoadPanel](/Documentation/Guide/Widgets/Lo
 
 #####See Also#####
 - [LoadPanel Demos](/Demos/WidgetsGallery/Demo/Load_Panel/Overview/jQuery/Light/)
-- [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)
+- [TreeList Demos](/Demos/WidgetsGallery/Demo/TreeList/Overview/jQuery/Light/)

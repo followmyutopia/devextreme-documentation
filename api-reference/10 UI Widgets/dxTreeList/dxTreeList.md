@@ -147,7 +147,7 @@ The **TreeList** is a widget that represents data from a local or remote source 
 ---
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/Overview/jQuery/Light/"
 }
 <a href="https://www.youtube.com/watch?v=jiqYFESy_Hw&list=PL8h4jt35t1wjGvgflbHEH_e3b23AA30-z" class="button orange small fix-width-155" target="_blank">Watch Video</a>
 

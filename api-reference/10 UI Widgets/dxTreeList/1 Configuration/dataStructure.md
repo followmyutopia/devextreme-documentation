@@ -31,7 +31,7 @@ The widget expects that data has a plain structure where:
 Specify the [keyExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#keyExpr) and [parentIdExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#parentIdExpr) if `parentId` and `id` are called differently in your dataset. You can also change the root node's ID from 0 via the [rootValue](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#rootValue) option.
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayPlainStructure/jQuery/Light/"
 }
 
 If data has a hierarchical structure, set the **dataStructure** option to *"tree"*. Parent and item IDs will be generated automatically. Data items that nest other data items should have an **items** field:
@@ -55,10 +55,12 @@ If data has a hierarchical structure, set the **dataStructure** option to *"tree
 If the **items** field is called differently in your dataset, specify the [itemsExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#itemsExpr) option. 
 
 #include common-demobutton with {
-    url: "/Demos/WidgetsGallery/Demo/Tree_List/LocalDataHierarchicalStructure/jQuery/Light/"
+    url: "/Demos/WidgetsGallery/Demo/TreeList/SimpleArrayHierarchicalStructure/jQuery/Light/"
 }
 
-If each data item have a Boolean field that specifies whether this data item nests other items, assign the field's name to the [hasItemsExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#hasItemsExpr) option. The widget uses this information to render the expand button. This is required only if the widget is bound to a remote data source.
+[note] Editing does not work with hierarchical data sources out of the box, but you can use the code sample from [this KB](https://www.devexpress.com/Support/Center/Question/Details/T725094/treelist-how-to-perform-crud-operations-on-a-hierarchical-data-source) to implement it.
+
+If each data item has a Boolean field that specifies whether this data item nests other items, assign the field's name to the [hasItemsExpr](/Documentation/ApiReference/UI_Widgets/dxTreeList/Configuration/#hasItemsExpr) option. The widget uses this information to render the expand button. This is required only if the widget is bound to a remote data source.
 
 #####See Also#####
 - [Use Plain Data](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Plain_Data/)

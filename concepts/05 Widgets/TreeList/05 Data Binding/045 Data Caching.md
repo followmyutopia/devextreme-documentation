@@ -75,5 +75,5 @@ If your data source changes frequently, disable caching by assigning **false** t
 #####See Also#####
 #include common-link-callmethods
 - [TreeList - Access the DataSource](/Documentation/Guide/Widgets/TreeList/Data_Binding/Access_the_DataSource/)
-- [TreeList Demos](/Demos/WidgetsGallery/Demo/Tree_List/LocalDataPlainStructure/jQuery/Light/)
+- [TreeList Demos](/Demos/WidgetsGallery/Demo/TreeList/Overview/jQuery/Light/)
 - [TreeList API Reference](/Documentation/ApiReference/UI_Widgets/dxTreeList/)

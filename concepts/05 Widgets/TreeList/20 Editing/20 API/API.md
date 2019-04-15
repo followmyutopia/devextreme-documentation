@@ -1,1 +1,1 @@
-[note] Editing works with [plain data](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Plain_Data/) only. 
+[note] Editing does not work with [hierarchical data sources](/Documentation/Guide/Widgets/TreeList/Data_Binding/Use_Hierarchical_Data/) out of the box, but you can use the code sample from [this KB](https://www.devexpress.com/Support/Center/Question/Details/T725094/treelist-how-to-perform-crud-operations-on-a-hierarchical-data-source) to implement it.
