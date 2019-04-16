@@ -8,5 +8,7 @@ Configures the [Button](/Demos/WidgetsGallery/Demo/Button/PredefinedTypes/jQuery
 <!--/shortDescription-->
 
 <!--fullDescription-->
-
+#include common-demobutton with {
+    url: "/Demos/WidgetsGallery/Demo/Common/CustomTextEditorButtons/jQuery/Light/"
+}
 <!--/fullDescription-->
